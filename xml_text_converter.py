@@ -9,6 +9,7 @@ from lxml import etree
 import os
 import re
 import stanza
+from bs4 import BeautifulSoup
 
 # stanza.download('en')
 nlp = stanza.Pipeline(lang='en', processors='tokenize')
@@ -36,7 +37,7 @@ def normalize_structure_txt(filename) -> tuple:
             try:
                 line = line.decode('utf-8')
             except UnicodeDecodeError:
-                print(line)
+                # print(line)
                 line = line.decode('cp1252').encode("utf-8").decode("utf-8")
             # if line is not empty
             if len(line.strip()):
@@ -51,79 +52,10 @@ def normalize_structure_txt(filename) -> tuple:
     return lines, encoding
 
 
-def text_to_xml():
-    """
-    function that converts every txt file in the Middle English Medical Corpus directory into xml by applying
-    sentence segmentation and tokenization. The function also prints the counts of tokens and types a) per text and
-    b) total
-
-    :return:
-    """
-    yogh = ""
-    total_token_counter = 0
-    token_counter = 0
-    total_unique_tokens = set()
-    unique_tokens = set()
-    # real corpus: "./MIDDLE-MODERN-ENGLISH-MEDICAL-CORPUS-Copy"
-    for root, dirs, files in os.walk("./TOY-CORPUS", topdown=False):
-        # print(root,dirs)
-        for name in files:
-            infile = os.path.join(root, name)
-            print(infile)
-            # get processed file and encoding (tuple)
-            normalized_text, encoding = normalize_structure_txt(infile)
-
-            # convert to xml
-            # do not open info files from MEMT(1)
-            if not name.endswith("_info_converted.txt"):
-                # open new xml file for writing and maintain the original name
-                with open(f"{infile.rstrip('.txt')}.xml", "w") as outfile:
-
-                    doc = nlp(normalized_text)
-                    # create root of tree for the whole text
-                    tree_root = etree.Element("text")
-
-                    for sent in doc.sentences:
-                        sentence = etree.Element("sentence")
-                        # print(sent)
-                        tree_root.append(sentence)
-                        for sent_token in sent.tokens:
-                            # if token is NOT space characters only
-                            if not sent_token.text.isspace():
-                                # if the token is 3 (yogh letter)
-                                if sent_token.text == "3":
-                                    # save it to add it to the next token to fix wrong splitting of stanza
-                                    yogh = sent_token.text
-                                else:
-                                    # if the token is a macron add it to the previous token tag as text
-                                    if sent_token.text == "~":
-                                        macron = sent_token.text
-                                        token.text += macron
-                                    else:
-                                        token_counter += 1
-                                        total_token_counter += 1
-                                        unique_tokens.add(yogh+sent_token.text)
-                                        total_unique_tokens.add(yogh+sent_token.text)
-                                        token = etree.Element("token")
-                                        sentence.append(token)
-                                        token.text = yogh+sent_token.text
-                                    yogh = ""
-
-                    xml_bytes = etree.tostring(tree_root, encoding=encoding, xml_declaration=True, pretty_print=True)
-                    xml_str = xml_bytes.decode(encoding)
-                    outfile.write(xml_str)
-                    print("file is written")
-
-        print(f"number of tokens in {root}: {token_counter}")
-        print(f"number of types{root}: {len(unique_tokens)}")
-        token_counter = 0
-        unique_tokens.clear()
-
-    print(f"total number of tokens: {total_token_counter}")
-    print(f"total number of types: {len(total_unique_tokens)}")
+# CREATE DICTIONARIES FOR EACH OF THE CORPORA: KEY WILL BE THE NAME OF THE XML FILE WHICH WILL BE GENERATED AND VALUE WILL BE A TUPLE WITH THE META INFORMATION
+# THE KEY AKA THE FILE NAME IS NEEDED IN ORDER TO MAP THE META INFORMATION TO THE CORRECT XML FILES IN A SECOND STEP
 
 
-# TODO get metadata for MEMT 01 from info files
 def get_meta_corpus1():
     meta_dict = {}
     for root, dirs, files in os.walk("./TOY-CORPUS/1", topdown=False):
@@ -137,24 +69,25 @@ def get_meta_corpus1():
                     # if there is a comma and subsequently an author
                     if ", " in first_line:
                         # get author and title
-                        author, title = first_line.split(", ")
+                        author = first_line.split(", ")[0]
+                        title = first_line.split(", ")[1].rstrip("\n")
                         year = "-"
                         volume = "-"
                         pages = "-"
                     else:
-                        title = first_line
+                        title = first_line.rstrip("\n")
                         author = "-"
                         year = "-"
                         volume = "-"
                         pages = "-"
 
                     # get name of xml file to be the key of the dict and have a mapping later
-                    meta_dict[infile.rstrip("_info_converted.txt") + "_converted.xml"] = (author, title, year, volume, pages)
+                    meta_dict[name.replace("_info_converted.txt", "_converted.xml")] = (author, title, year, volume, pages)
 
     return meta_dict
 
 
-# TODO get metadata for EMEMT from filenames
+
 def get_meta_corpus2():
     meta_dict = {}
     for root, dirs, files in os.walk("./TOY-CORPUS/2", topdown=False):
@@ -165,7 +98,7 @@ def get_meta_corpus2():
                 # year_philosophicaltransactionsvolume_pages
                 title = "Philosophical Transactions"
                 author = "-"
-                year, volume, pages = name.split("_")
+                year, volume, pages = name.rstrip(".txt").split("_")
             else:
                 # year_author_title
                 volume = "-"
@@ -188,9 +121,162 @@ def get_meta_corpus2():
 
 
 # TODO get metadata for LMEMT from TEI xmls
-def get_metadata_corpus3():
+def get_meta_corpus3():
+    tei = "{http://www.tei-c.org/ns/1.0}"
+    meta_dict = {}
+    for root, dirs, files in os.walk("./TOY-DIGITAL", topdown=False):
+        for name in files:
+            infile = os.path.join(root, name)
+            # print(infile)
+            tree = etree.parse(infile)
+            with open(infile, "r") as f:
+                contents = f.read()
+                soup = BeautifulSoup(contents, 'xml')
+                source = soup.find('sourceDesc')
+                if source.find("persName") is not None:
+                    author = source.find("persName").get_text()
+                if author == "Unknown":
+                    author = "-"
+                if source.find("title") is not None:
+                    title = source.find("title").get_text().replace("\n", " ")
+                    title = ' '.join(title.split())
+                else:
+                    title = "-"
+                if source.find("date") is not None:
+                    year = source.find("date").get_text()
+                else:
+                    year = "-"
+                # < biblScope unit = "vol" > 1 < / biblScope >
+                # < biblScope unit = "page" > 81 < / biblScope >
+                if source.find("biblScope", unit="vol") is not None:
+                    volume = source.find("biblScope", unit="vol").get_text()
+                else:
+                    volume = "-"
+                if source.find("biblScope", unit="page") is not None:
+                    pages = source.find("biblScope", unit="page").get_text()
+                else:
+                    pages = "-"
 
+            meta_dict[name] = (author, title, year, volume, pages)
+    return meta_dict
+
+def meta_info_dict():
+    meta_dict = {**get_meta_corpus1(), **get_meta_corpus2(), **get_meta_corpus3()}
+    return meta_dict
+
+# CONVERT TXT FILES TO XML AND ADD HEADER NODE WITH METADATA INFO
 # TODO add these metadata in the header node of the xml tree (merge three dicts ?)
+def text_to_xml():
+    """
+    function that converts every txt file in the Middle English Medical Corpus directory into xml by applying
+    sentence segmentation and tokenization. The function also prints the counts of tokens and types a) per text and
+    b) total
+
+    :return:
+    """
+    # get meta information dict
+    meta_dict = meta_info_dict()
+    print(meta_dict)
+    yogh = ""
+    total_token_counter = 0
+    token_counter = 0
+    total_unique_tokens = set()
+    unique_tokens = set()
+    sentence_counter = 0
+    token_in_sent_counter= 0
+    # real corpus: "./MIDDLE-MODERN-ENGLISH-MEDICAL-CORPUS-Copy"
+    for root, dirs, files in os.walk("./TOY-CORPUS", topdown=False):
+        # print(root,dirs)
+        for name in files:
+            infile = os.path.join(root, name)
+            # print(infile)
+            # get processed file and encoding (tuple)
+            normalized_text, encoding = normalize_structure_txt(infile)
+
+            # convert to xml
+            # do not open info files from MEMT(1)
+            if not name.endswith("_info_converted.txt"):
+                # open new xml file for writing and maintain the original name
+                newfile = f"{infile.rstrip('.txt')}.xml"
+                with open(newfile, "w") as outfile:
+
+                    doc = nlp(normalized_text)
+                    # create header of tree for meta information
+                    tree_root = etree.Element("text")
+
+                    tree_header = etree.Element("header")
+                    tree_root.append(tree_header)
+
+                    author = etree.Element("author")
+                    title = etree.Element("title")
+                    year = etree.Element("year")
+                    volume = etree.Element("volume")
+                    pages = etree.Element("pages")
+                    tree_header.append(author)
+                    tree_header.append(title)
+                    tree_header.append(year)
+                    tree_header.append(volume)
+                    tree_header.append(pages)
+
+                    new_name = f"{name.rstrip('.txt')}.xml"
+                    # new_name = new_name.strip()
+                    if new_name in meta_dict.keys():
+                        print(new_name)
+                        author.text, title.text, year.text, volume.text, pages.text = meta_dict[new_name]
+
+                    # create root of tree for the whole text
+                    content = etree.Element("content")
+                    tree_root.append(content)
+
+                    for sent in doc.sentences:
+                        sentence_counter += 1
+                        sentence = etree.Element("sentence")
+                        # print(sent)
+                        content.append(sentence)
+                        for sent_token in sent.tokens:
+                            # if token is NOT space characters only
+                            if not sent_token.text.isspace():
+                                # if the token is 3 (yogh letter)
+                                if sent_token.text == "3":
+                                    # save it to add it to the next token to fix wrong splitting of stanza
+                                    yogh = sent_token.text
+                                else:
+                                    # if the token is a macron add it to the previous token tag as text
+                                    if sent_token.text == "~":
+                                        macron = sent_token.text
+                                        token.text += macron
+                                    else:
+                                        token_counter += 1
+                                        token_in_sent_counter += 1
+                                        total_token_counter += 1
+                                        unique_tokens.add(yogh+sent_token.text)
+                                        total_unique_tokens.add(yogh+sent_token.text)
+
+                                        # add token ids
+                                        token_id = f"s{sentence_counter}t{token_in_sent_counter}"
+                                        token = etree.Element("token", id=token_id)
+
+                                        sentence.append(token)
+                                        token.text = yogh+sent_token.text
+                                    yogh = ""
+
+                        token_in_sent_counter = 0
+                    sentence_counter = 0
+
+                    xml_bytes = etree.tostring(tree_root, encoding=encoding, xml_declaration=True, pretty_print=True)
+                    xml_str = xml_bytes.decode(encoding)
+                    outfile.write(xml_str)
+                    print("file is written")
+
+
+
+                # print(f"number of tokens in {root}: {token_counter}")
+        # print(f"number of types{root}: {len(unique_tokens)}")
+        token_counter = 0
+        unique_tokens.clear()
+
+    # print(f"total number of tokens: {total_token_counter}")
+    # print(f"total number of types: {len(total_unique_tokens)}")
 
 
 def main():
