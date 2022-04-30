@@ -1,0 +1,1185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LMEMT Corpus - Mead: A short discourse concerning pestilential contagion</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>Richard Mead</persName>
+            </author>
+            <title type="main">A short discourse concerning pestilential contagion: and the methods
+              to be used to prevent it. By Richard Mead, ... </title>
+            <edition n="4"/>
+            <idno type="ESTC">T55657</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/T55657"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>London: printed for Sam. Buckley in Amen-Corner, and Ralph Smith at the
+                  Royal-Exchange, 1720.</persName>
+              </publisher>
+              <date>1720</date>
+            </imprint>
+            <extent>
+              <measure type="format">8⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="6"/>
+              <measure type="count" commodity="body" unit="page" quantity="59"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">British Library</orgName>
+            <idno type="ECCO">CW3307109522</idno>
+            <idno type="TCP">K049579.000 </idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Book on a specific topic: disease"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text xml:lang="eng">
+    <front>
+      <div>
+        <pb xml:id="page_2"/>
+        <head rend="align-center">
+          <lb/>TO THE <lb/>RIGHT HONOURABLE <lb/><hi rend="italic">James Craggs</hi>, Eſq; <lb/>ONE
+          OF <lb/>His <hi rend="sc">Majesties</hi> principal <lb/>Secretaries of State. </head>
+        <salute rend="italic">SIR, </salute>
+        <p rend="space">
+          <lb/><hi rend="dc(4)">
+            <figure>
+              <figDesc>Decorative frame around the letter I.</figDesc>
+            </figure>
+            <hi rend="italic">I</hi>
+          </hi><hi rend="italic"> Moſt humbly of- <lb/>fer to You my <lb/>Thoughts con- <lb/>cerning
+            the <hi rend="roman">Pre- <lb/>vention of the Plague</hi>, <lb/>which I have put
+            together <pb xml:id="page_3"/>
+            <lb/>by your Command. As ſoon <lb/>as you was pleaſed to ſig- <lb/>nify to me, in his
+              <hi rend="roman">Majeſtie's</hi>
+            <lb/>Abſence; that their Excel- <lb/>lencies the <hi rend="roman">Lords Juſtices</hi>
+            <lb/>thought it neceſſary for the <lb/>Publick Safety, upon the <lb/>Account of the <hi
+              rend="roman">Sickness</hi>
+            <lb/>now in <hi rend="roman">France</hi>, that proper <lb/>Directions ſhould be drawn
+            <lb/>up to defend our ſelves <lb/>from ſuch a Calamity; I <lb/>moſt readily undertook
+            the <lb/>Task, though upon ſhort <lb/>Warning, and with little <lb/>Leiſure: I have
+            therefore ra- <lb/>ther put down the <hi rend="roman">principal <lb/>Heads of
+              Caution</hi>, than a <lb/><hi rend="roman">Set of Directions in Form</hi>. </hi>
+        </p>
+
+        <pb xml:id="page_4"/>
+        <p rend="indent"><hi rend="italic">
+            <lb/><hi rend="roman"><hi rend="sc">The</hi> firſt</hi>, which relate <lb/>to <hi
+              rend="roman">the performing Qua- <lb/>rentines,</hi> &amp;c. You, who are
+            <lb/>perfectly verſed in the Hiſto- <lb/>ry of <hi rend="roman">Europe</hi>, will ſee
+            are <lb/>agreable to what is pra- <lb/>ctiſed in other Countries, <lb/>with ſome new
+            Regulations. <lb/><hi rend="roman">The next</hi>, concerning the <lb/><hi rend="roman"
+              >ſuppreſſing Infection here</hi>, <lb/>are very different from the <lb/>Methods taken
+            in former <lb/>Times among <hi rend="roman">Us</hi>, and from <lb/>what they commonly Do
+              <hi rend="roman">A- <lb/>broad:</hi> But, I perſuade <lb/>my ſelf, will be found agre-
+            <lb/>able to Reaſon. </hi></p>
+        <pb xml:id="page_5"/>
+        <p rend="indent"><hi rend="italic">
+            <lb/>I moſt heartily wiſh, that <lb/>the wiſe Meaſures, the <hi rend="roman">Go-
+              <lb/>vernment</hi> has already ta- <lb/>ken, and will continue to <lb/>take, with
+            Regard to the <lb/><hi rend="roman">former</hi> of <hi rend="italic">theſe</hi>, may
+            make <lb/>the <hi rend="italic">Rules</hi> about the <hi rend="roman">latter</hi>
+            <lb/>unneceſſary: However it is <lb/>fit, we ſhould be always pro- <lb/>vided with
+            proper <hi rend="roman">Means <lb/>of Defence</hi> againſt ſo ter- <lb/>rible an <hi
+              rend="roman">Enemy</hi>. </hi></p>
+        <p rend="indent">
+          <hi rend="italic">
+            <lb/>May this ſhort <hi rend="roman">Eſſay</hi> be <lb/>received as one Inſtance, a-
+            <lb/>mong many others, of the <lb/>Care, you always ſhew for <lb/>Your Country; and as a
+              <pb xml:id="page_6"/>
+            <lb/>Teſtimony of the great E- <lb/>ſteem and Reſpect, with <lb/>which I have the Honour
+            <lb/>to be,</hi>
+        </p>
+        <signed><hi rend="roman">SIR, <lb/>Your moſt obedient, <lb/>Moſt humble
+              Servant</hi>, <lb/>R. MEAD. </signed>
+        <dateline>
+            <date rend="roman">Novemb. 25. 1720. </date>
+        </dateline>
+      </div>
+    </front>
+    <body>
+      <div n="1" type="part">
+        <pb xml:id="page_7" n="1"/>
+        <figure>
+          <figDesc>A rectangular floral ornament. </figDesc>
+        </figure>
+        <head rend="align-center">
+          <lb/><hi rend="size(2.0)">PART I.</hi>
+          <lb/>OF THE <lb/><hi rend="size(2.0)">NATURE</hi>
+          <lb/>OF <lb/><hi rend="italic size(2.0)">CONTAGION</hi>. </head>
+        <p rend="space">
+          <lb/><hi rend="dc(4)">T</hi>HAT the Reaſonableneſs <lb/>of any Method, which <lb/>ſhall be
+          propoſed to pre- <lb/>vent the ſpreading of <hi rend="italic"> Con- <lb/>tagious</hi>
+          Diſeaſes, may the better ap- <lb/>pear, it is neceſſary to premiſe ſome- <lb/>what in
+          general concerning <hi rend="italic">Conta- <pb xml:id="page_8" n="2"/>
+            <lb/>gion</hi> and the Manner, by which it <lb/>acts. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">Contagion</hi> is propagated by <lb/>three Cauſes, the <hi
+            rend="italic">Air</hi>; <hi rend="italic">Diſeaſed <lb/>Perſons</hi>; and <hi
+            rend="italic">Goods tranſported from <lb/>infected Places</hi>. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">We</hi> ſhall therefore firſt enquire <lb/>what alteration of the <hi
+            rend="italic">Air</hi> it is, <lb/>that makes it <hi rend="italic">inſectious</hi>; and
+          then, <lb/>by what Means it communicates its <lb/>noxious Quality to other Bodies. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">The</hi> ancienteſt and beſt Authors <lb/>of Phyſick, who lived in a
+          Coun- <lb/>try more expoſed to theſe Calami- <lb/>ties than ours, obſerved the Con-
+          <lb/>ſtitution of the <hi rend="italic">Air</hi>, which preceded <lb/><hi rend="italic"
+            >Peſtilential Fevers</hi>, to be great <hi rend="italic">Heats</hi>
+          <lb/>attended with much <hi rend="italic">Rain</hi> and <hi rend="italic"> South-
+            <lb/>erly Winds</hi>
+          <note n="*" rend="size(0.5)" place="bottom">
+            <p rend="indent">
+              <lb/>* Vid. Hippocrat. Epidem. lib. 3. </p>
+          </note> And one of Them <lb/>takes particular Notice, that no o- <pb xml:id="page_9" n="3"/>
+          <lb/>ther than a <hi rend="italic">moiſt</hi> and <hi rend="italic">hot</hi> Tempera-
+          <lb/>ment of the <hi rend="italic">Air</hi> brings the <hi rend="italic">Plague</hi>;
+          <lb/>and that the Duration of this Con- <lb/>ſtitution is the Meaſure of the Vio-
+          <lb/>lence of the Diſtemper <note place="bottom" n="*" rend="size(0.5)">
+            <p rend="indent">
+              <lb/>* Galen. de Temperament. lib. 1. cap. 4. &amp; <lb/>Comment. in Epid. l. 3. </p>
+          </note>. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">The</hi> Natural Hiſtory of ſeveral <lb/>Countries confirms this
+          Obſervati- <lb/>on; in <hi rend="italic">Africa</hi> particularly, if Show- <lb/>ers fall
+          during the ſultry Heats of <lb/><hi rend="italic">July</hi> and <hi rend="italic"
+            >Auguſt</hi>, the <hi rend="italic">Plague</hi> enſues <lb/>thereupon, with which
+          whoſoever <lb/>is infected hardly eſcapes <note place="bottom" n="†" rend="size(0.5)">
+            <p rend="indent">
+              <lb/>† Vid. J. Leon. Hiſtor. Afric. lib. 1. </p>
+          </note>. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">It</hi> has beſides been remarked in <lb/>all Times, that the Stinks of
+            <hi rend="italic"> ſtag- <lb/>nating Waters</hi> in hot Weather, <hi rend="italic"> pu-
+            <lb/>trid Exhalations</hi> from the Earth; <lb/>and above all, the Corruption of
+          <lb/>dead <hi rend="italic">Carcaſſes</hi> lying unburied, have <lb/>occaſioned <hi
+            rend="italic">infectious Diſeaſes</hi>. </p>
+        <pb xml:id="page_10" n="4"/>
+        <p rend="indent space">
+          <lb/><hi rend="sc">From</hi> hence it appears to be a <lb/><hi rend="italic"
+            >Concurrence</hi> of Cauſes, that pro- <lb/>duces Diſeaſes of this Kind; which <lb/>muſt
+          not only meet, but exert their <lb/>Force together for a conſiderable <lb/>time. And when
+          this happens, <lb/>their firſt Effect is a Degree of <hi rend="italic"> Stag-
+            <lb/>nation</hi> in the Air, which is after- <lb/>wards followed by <hi rend="italic"
+            >Corruption</hi> and <lb/><hi rend="italic">Putrefaction</hi>. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">And</hi> upon this account it is, that <lb/>thoſe Countries are chiefly
+          liable to <lb/>theſe Calamities, where not only <lb/>the <hi rend="italic">Heats</hi> are
+          very great, and the <lb/><hi rend="italic">Weather</hi> continues long in the ſame
+          <lb/>State; but the <hi rend="italic">Winds</hi> (the Uſe of <lb/>which is by Motion to
+          purify the <lb/>Air) do not ſhift and change ſo of- <lb/>ten as they do in Northern
+          Climates. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">Indeed</hi>
+          <hi rend="italic">Plagues</hi> ſeem to be of the <lb/>Growth of the <hi rend="italic"
+            >Eaſtern</hi> and <hi rend="italic">Southern</hi>
+          <pb xml:id="page_11" n="5"/>
+          <lb/>Parts of the World, and to be tranſ- <lb/>mitted from them into colder Cli-
+          <lb/>mates by the Way of <hi rend="italic">Commerce</hi>. <lb/>Nor do I think, that in
+          this <hi rend="italic">Iſland</hi>
+          <lb/>particularly there is any one In- <lb/>ſtance of a <hi rend="italic"
+            >Peſtilential</hi> Diſeaſe a- <lb/>mong us of great Conſequence; <lb/>which we did not
+          receive from o- <lb/>ther <hi rend="italic">infected</hi> Places. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">This</hi> I the rather mention, be- <lb/>cauſe it is a common Opinion,
+          and <lb/>propagated by Authors of great <lb/>Name, that we are uſually <hi rend="italic"
+            >viſited</hi> with <lb/>the <hi rend="italic">Plague</hi> once in 30 or 40 <lb/>Years;
+          which is a mere Fancy with- <lb/>out any Foundation either in Rea- <lb/>ſon or Experience:
+          and therefore <lb/>People ought to be delivered from <lb/>the Subjection to ſuch vain
+          Fears. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">On</hi> the contrary, though we <lb/>have had ſeveral Strokes of this
+          <lb/>kind, yet there are Inſtances of <pb xml:id="page_12" n="6"/>
+          <lb/>bad <hi rend="italic">Contagions</hi> from abroad being <lb/>brought over to us,
+          which have <lb/>proved leſs malignant here by our <lb/>Air not being diſpoſed to receive
+          <lb/>ſuch Impreſſions. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">The</hi>
+          <hi rend="italic">Sweating Sickneſs</hi>, called the <lb/><hi rend="italic">Sudor
+            Anglicus</hi> and <hi rend="italic">Febris Ephemera <lb/>Britannica</hi>, becauſe it was
+          common- <lb/>ly thought to have taken its Riſe <lb/>here, was moſt probably of a foreign
+          <lb/>Original, and no other than a <lb/><hi rend="italic">Plague</hi> abated in its
+          Violence by the <lb/>mild Temperament of our Climate. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">For</hi>, we learn from Hiſtories, that <lb/>the firſt time this was
+          felt here, <lb/>which was in the Year 1485, it be- <lb/>gan in the Army, with which King
+            <lb/><hi rend="italic">Henry</hi> VII. came from <hi rend="italic">France</hi>, <lb/>and
+          landed in <hi rend="italic">Wales</hi>
+          <note place="bottom" n="*" rend="size(0.5)">
+            <p rend="indent">
+              <lb/>* Vid. Caium de Febre Ephemers Britannica. </p>
+          </note>; and it was <lb/>then thought to have been brought <pb xml:id="page_13" n="7"/>
+          <lb/>into <hi rend="italic">France</hi> from the famous Siege <lb/>of <hi rend="italic"
+            >Rhodes</hi> by the <hi rend="italic">Turks</hi> 3 or 4 Years <lb/>before. And of the
+          four Returns, <lb/>which this has made ſince that <lb/>Time; two, viz. <hi rend="italic"
+            >thoſe</hi> in the Years <lb/>1527, and 1528, may very juſtly <lb/>be ſuſpected to have
+          been owing to <lb/>the <hi rend="italic">Peſtilence</hi>, which at thoſe Times <lb/>raged
+          in <hi rend="italic">Italy</hi>, particularly at <hi rend="italic"> Flo- <lb/>rence</hi>
+          and <hi rend="italic">Naples</hi>
+          <note place="bottom" n="†" rend="size(0.5)">
+            <p rend="indent">
+              <lb/>† Vid. Rondinelli Contagio in Firenze, &amp; Sum- <lb/>monte Hiſtor. di Napoli.
+            </p>
+          </note>. And the others <lb/>were very probably from a <hi rend="italic">Turkiſh</hi>
+          <lb/>Infection. </p>
+        <p rend="indent space">
+          <lb/>I call this Diſtemper a <hi rend="italic">Plague</hi>
+          <lb/>with leſſened Force, becauſe the <lb/>Symptoms of it were of that kind, <lb/>though
+          in a leſs Degree; as great <lb/><hi rend="italic">Faintness</hi> and <hi rend="italic"
+            >Inquietudes</hi>, inward <lb/><hi rend="italic">Burning</hi>, <hi rend="italic"
+            >Pain</hi> in the <hi rend="italic">Head</hi>, a <hi rend="italic"> De- <lb/>lirium</hi>
+          &amp;c. All which were accom- <lb/>panied with profuſe <hi rend="italic">Sweats</hi>, and
+          the <lb/>Diſeaſe laſted but 24 hours. And <pb xml:id="page_14" n="8"/>
+          <lb/>though for want of Care and due <lb/>Management many died of it; yet, <lb/>as a
+          learned and wiſe <hi rend="italic">Hiſtorian</hi>
+          <note place="bottom" n="*" rend="size(0.5)">
+            <p rend="indent">
+              <lb/>* <hi rend="italic">Lord</hi> Verulam's <hi rend="italic">Hiſtory of</hi> Henry
+              VII. </p>
+          </note>
+          <lb/>obſerves, <hi rend="italic">It appeared rather to be a <lb/>ſurprize of Nature than
+            obſtinate to <lb/>Remedies, for if the Patient was <lb/>kept warm with temperate
+            Cordials, <lb/>he commonly recovered</hi>. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">And</hi> I cannot but take Notice, <lb/>as a Confirmation of what I
+          have <lb/>been advancing, that we had here <lb/>the ſame kind of Fever in the Year
+          <lb/>1713, about the Month of <hi rend="italic"> Sep- <lb/>tember,</hi> which was called
+          the <hi rend="italic"> Dun- <lb/>kirk Fever</hi>, as being brought by <lb/>our Soldiers
+          from that Place; where <lb/>it was indeed a Malignant Diſeaſe <lb/>attended with a <hi
+            rend="italic">Diarrhaea, Vomit- <lb/>ing</hi>, &amp;c. and probably had its Ori-
+          <lb/>ginal from the Peſtilential Diſtem- <lb/>per, which ſome time before broke <pb
+            xml:id="page_15" n="9"/>
+          <lb/>out at <hi rend="italic">Dantzick</hi> and <hi rend="italic">Hamburgh</hi>: <lb/>But
+          with us was much more mild, <lb/>beginning only with a Pain in the <lb/>Head, and by very
+          eaſy Means <lb/>went off in large <hi rend="italic">Sweats</hi>, after a <lb/>Day's
+          Confinement. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">There</hi> being in every Air a <lb/>greater Diſpoſition to <hi
+            rend="italic">Contagion</hi> at <lb/>one Time than another, we have <lb/>indeed
+          ſometimes felt this Calami- <lb/>ty with greater Fury; as particular- <lb/>ly the laſt
+          time in the Year 1665; <lb/>when it continued in this <hi rend="italic">City</hi> a-
+          <lb/>bout ten Months, and ſwept away <lb/>by computation 97306 Perſons: <lb/>But it was
+          generally allowed, that <lb/>the <hi rend="italic">Contagion</hi> came by <hi
+            rend="italic">Cotton</hi> im- <lb/>ported from <hi rend="italic">Turkey</hi>
+          <note place="bottom" n="*" rend="size(0.5)">
+            <p rend="indent">
+              <lb/>* Vide Hodges de Peſte. </p>
+          </note>; and the long <lb/>Duration of it, I believe, may juſtly <lb/>be charged up the
+          unhappy Ma- <lb/>nagement of infected Houſes, which <pb xml:id="page_16" n="10"/>
+          <lb/>was then directed by Publick Au- <lb/>thority; as I ſhall ſhew anon. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">And</hi> the Hiſtory of the moſt ter- <lb/>rible of all the Plagues,
+          that ever were <lb/>in theſe Parts of the World, which <lb/>was that in the Year 1349,
+          gives <lb/>a manifeſt Proof from whence all <lb/><hi rend="italic">Europe</hi> may trace
+          the Origine of <lb/>theſe Evils, viz. from <hi rend="italic">Aſia:</hi> for <lb/>
+          <note place="bottom" n="†" rend="size(0.5)">
+            <p rend="indent">
+              <lb/>† Vid. Hiſtor. Fiorent. di Matteo Villani. </p>
+          </note> This taking its Riſe in <hi rend="italic">China</hi> in <lb/>the Year 1346,
+          advanced through <lb/>the Eaſt <hi rend="italic">Indies</hi> to <hi rend="italic"
+            >Syria</hi>, <hi rend="italic">Turkey</hi>, <lb/><hi rend="italic">Ægypt</hi>, <hi
+            rend="italic">Greece</hi>, <hi rend="italic">Africa</hi>, &amp;c. In 1347 <lb/>ſome
+          Ships from the <hi rend="italic">Levant</hi> carried <lb/>it to <hi rend="italic"
+            >Sicily</hi>, <hi rend="italic">Piſa</hi>, <hi rend="italic">Genoa</hi>, &amp;c. In
+          <lb/>1348 it got into <hi rend="italic">Savoy</hi>, <hi rend="italic">Provence</hi>,
+            <lb/><hi rend="italic">Dauphiny</hi>, <hi rend="italic">Catalonia</hi>, <hi
+            rend="italic">Caſtile</hi>, &amp;c. <lb/>In 1349 it ſeized <hi rend="italic"
+            >England</hi>, <hi rend="italic"> Scot- <lb/>land</hi>, <hi rend="italic">Ireland</hi>,
+          and <hi rend="italic">Flanders</hi>; and <lb/>in the next place <hi rend="italic"
+            >Germany</hi>, <hi rend="italic"> Hun- <lb/>gary</hi>, and <hi rend="italic"
+            >Denmark</hi>; and in all <pb xml:id="page_17" n="11"/>
+          <lb/>theſe Countries made moſt incredi- <lb/>ble Havock. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">But</hi> to return to the Conſiderati- <lb/>on of the Air, which we
+          left in a <lb/>putrid State: It is to be obſerved, <lb/>that Putrefaction is a kind of
+          Fer- <lb/>mentation, and that all Bodies in <lb/>a Ferment emit a volatile active Spi-
+          <lb/>rit, of Power to agitate, and put <lb/>into inteſtine Motions, that is, to
+          <lb/>change the Nature of other Flu- <lb/>ids into which it inſinuates it ſelf. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">It</hi> were eaſy to ſhew from the <lb/>beſt <hi rend="italic"
+            >Theory</hi> of Fevers <note place="bottom" n="*" rend="size(0.5)">
+            <p rend="indent">
+              <lb/>* Vid. Bellini de Febrib. </p>
+          </note>, how the <lb/>Alterations made in the <hi rend="italic">Blood</hi> this <lb/>Way
+          will favour <hi rend="italic">Peſtilential</hi> Diſeaſes, <lb/>by rendring the Body
+          obnoxious to <lb/>them: But the Digreſſion would <lb/>be too great. </p>
+        <pb xml:id="page_18" n="12"/>
+        <p rend="indent space">
+          <lb/>THIS is one ſtep towards <hi rend="italic"> Conta- <lb/>gion</hi>. The next, as it
+          ſeems to me, <lb/>proceeds after this Manner. The <lb/>Blood in all <hi rend="italic"
+            >Malignant Fevers</hi>, eſ- <lb/>pecially <hi rend="italic">Peſtilential</hi> ones, at
+          the lat- <lb/>ter End of the Diſeaſe, does like <lb/>Fermenting Liquors throw off a
+          <lb/>great Quantity of active Particles <lb/>upon the ſeveral <hi rend="italic"
+            >Glands</hi> of the Bo- <lb/>dy, particularly upon thoſe of the <lb/>Mouth and Skin,
+          from which the <lb/>Secretions are naturally the moſt <lb/>conſtant and large. Theſe, in
+            <hi rend="italic"> Pe- <lb/>ſtilential</hi> Caſes, although the Air <lb/>be in a right
+          State, will generally <lb/>infect thoſe, who are very near to <lb/>the ſick Perſon;
+          otherwiſe are ſoon <lb/>diſperſed and loſt: But when in an <lb/>evil Diſpoſition of <hi
+            rend="italic">This</hi> they meet <lb/>with the ſubtle Parts, its Corrup- <lb/>tion has
+          generated, by uniting <lb/>with them they become much more <lb/>active and powerful, and
+          likewiſe <pb xml:id="page_19" n="13"/>
+          <lb/>more durable and laſting, ſo as to <lb/>form an <hi rend="italic">Infectious
+            Matter</hi> capable <lb/>of conveying the Miſchief to a great <lb/>Diſtance from the
+          diſeaſed Body, <lb/>out of which it was produced. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">They</hi> who know what ſtrange <lb/>Attractions and Combinations are
+          <lb/>made by volatile Spirits will under- <lb/>ſtanding this Reaſoning; eſpecially if
+          <lb/>they conſider, how eaſily all kinds <lb/>of <hi rend="italic">Effluvia</hi> are
+          diffuſed in a warm <lb/>Air, ſuch as we have deſcribed an <lb/>Infectious one to be; and
+          further, <lb/>of how penetrating a Force the fi- <lb/>neſt Parts of Animal Juices are; of
+          <lb/>which the ſtrange Stench of a mor- <lb/>tified Limb, upon a Body yet liv- <lb/>ing,
+          will convince any one. </p>
+        <p rend="indent space">
+          <lb/>A corrupted State of Air is with- <lb/>out doubt neceſſary to give theſe <lb/><hi
+            rend="italic">Contagious Atoms</hi> their full Force; <lb/>for otherwiſe it were not
+          eaſy to <pb xml:id="page_20" n="14"/>
+          <lb/>conceive how the <hi rend="italic">Plague</hi>, when <lb/>once it had ſeized any
+          Place, ſhould <lb/>ever ceaſe, but with the Deſtructi- <lb/>on of all the Inhabitants:
+          Which <lb/>is readily accounted for by ſuppo- <lb/>ſing an Emendation of the Quali-
+          <lb/>ties of the Air, and the reſtoring <lb/>of it to a healthy State capable of
+          <lb/>diſſipating and ſuppreſſing the Ma- <lb/>lignity. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">On</hi> the other hand it is evident, <lb/>that <hi rend="italic"
+            >Infection</hi> is not received from <lb/>the Air it ſelf, however prediſpoſed,
+          <lb/>without the Concurrence of ſome- <lb/>thing emitted from <hi rend="italic"
+            >Infected</hi> Per- <lb/>ſons; becauſe, by ſtrictly prevent- <lb/>ing all Intercourſe of
+          Infected Pla- <lb/>ces with the Neighbourhood, it may <lb/>be effectually kept from
+          ſpreading: <lb/>Whereas the leaſt Wind muſt ne- <lb/>ceſſarily convey whatever noxious
+          <lb/>Quality reſides in the Air alone, <lb/>even to a great Diſtance. Of this <pb
+            xml:id="page_21" n="15"/>
+          <lb/>we have had a freſh Proof in the <lb/>preſent unhappy <hi rend="italic">Plague</hi>
+          in <hi rend="italic">France</hi>, <lb/>which, by keeping careful Guard, <lb/>was confined
+          for a conſiderable <lb/>Time within the Walls of <hi rend="italic"> Mar-
+            <lb/>ſeilles;</hi> ſo that none of the adja- <lb/>cent Villages ſuffered any thing by
+          <lb/>it; till at length ſome Perſons <lb/>finding Means to eſcape carried the
+          <lb/>Infection along with them. And <lb/>we find, they have been able, by <lb/>the like
+          Care, ſtill to reſtrain it <lb/>within moderate Bounds. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">This</hi> is the Manner by which <lb/>Infectious <hi rend="italic"
+            >Effluvia</hi> are generated: <lb/>The Way, by which a ſound Perſon <lb/>receives the
+          Injury, I ſuppoſe moſt <lb/>commonly to be this. Theſe <hi rend="italic"> Conta-
+            <lb/>gious</hi> Particles being drawn in with <lb/>the Air we breath, they taint in
+          <lb/>their Paſſage the <hi rend="italic">Salival</hi> Juices, <lb/>which being ſwallowed
+          down into <lb/>the Stomach preſently fix their Ma- <pb xml:id="page_22" n="16"/>
+          <lb/>lignity there; as appears from the <lb/><hi rend="italic">Nauſea</hi> and <hi
+            rend="italic">Vomiting</hi>, with which <lb/>the Diſtemper often begins its firſt
+          <lb/>Attacks. Though I make no Que- <lb/>ſtion but the <hi rend="italic">Blood</hi> is
+          alſo more im- <lb/>mediately affected by hurtful Parti- <lb/>cles being mixed through
+          Inſpiration <lb/>with it in the Lungs. </p>
+        <p rend="indent space">
+          <lb/>THE third Way, by which we <lb/>mentioned <hi rend="italic">Contagion</hi> to be
+          ſpread, is <lb/>by <hi rend="italic">Goods tranſported from infected <lb/>Places</hi>. It
+          has been thought ſo dif- <lb/>ficult to explain the Manner of <lb/><hi rend="italic"
+            >this</hi>, that ſome Authors have ima- <lb/>gined <hi rend="italic">Infection</hi> to
+          be performed by <lb/>the Means of <hi rend="italic">Inſects</hi>, the <hi rend="italic"
+            >Eggs</hi> of <lb/>which may be conveyed from Place <lb/>to Place, and make the Diſeaſe
+          <lb/>when they come to be <hi rend="italic">hatched</hi>. As <lb/>this is a ſuppoſition
+          grounded upon <lb/>no manner of Obſervation, ſo I <lb/>think there is no need to have Re-
+          <lb/>courſe to it. If, as we have con- <pb xml:id="page_23" n="17"/>
+          <lb/>jectured, the <hi rend="italic">Matter of Contagion</hi>
+          <lb/>be an active Subſtance, perhaps in <lb/>the Nature of a <hi rend="italic">Salt</hi>,
+          generated <lb/>chiefly from the Corruption of a <lb/><hi rend="italic">Humane Body</hi>,
+          it is not hard to <lb/>conceive how this may be lodged <lb/>and preſerved in ſoft, porous
+          Bo- <lb/>dies, which are kept preſſed cloſe <lb/>together. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">We</hi> all know how long a time <lb/><hi rend="italic">Perfumes</hi>
+          hold their <hi rend="italic">Scent</hi>, if wrapt <lb/>up in proper Coverings: And it is
+          <lb/>very remarkable, that the ſtrongeſt <lb/>of theſe, like the <hi rend="italic"
+            >Matter</hi> we are <lb/>treating of, are moſtly <hi rend="italic">Animal</hi>
+          <lb/>Juices, as <hi rend="italic">Moſch, Civet</hi>, &amp;c. and <lb/>that the Subſtances
+          found moſt fit <lb/>to keep them in, are the very ſame <lb/>with thoſe which are moſt apt
+          to <lb/>receive and communicate <hi rend="italic">Infection</hi>, <lb/>as, <hi
+            rend="italic">Furrs</hi>, <hi rend="italic">Feathers</hi>, <hi rend="italic">Silk</hi>,
+            <hi rend="italic">Hair</hi>, <lb/><hi rend="italic">Wool</hi>, <hi rend="italic"
+            >Cotton</hi>, <hi rend="italic">Flax</hi>, &amp;c. the great- <lb/>eſt Part of which are
+          likewiſe of <pb xml:id="page_24" n="18"/>
+          <lb/>the Animal Kind; which Remark <lb/>alone may ſerve to lead Us a little <lb/>into the
+          true Nature of <hi rend="italic">Contagion</hi>. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">From</hi> all that has been ſaid, it <lb/>appears, I think, very
+          plainly, that <lb/>the <hi rend="italic">Plague</hi> is a real Poiſon, which <lb/>being
+          bred in the Eaſtern or South- <lb/>ern Parts of the World, maintains <lb/>it ſelf there by
+          circulating from <hi rend="italic"> In- <lb/>fected</hi> Perſons to Goods; which is
+          <lb/>chiefly owing to the Negligence of <lb/>the People in thoſe Countries, who <lb/> are
+          ſtupidly Careleſs in this Affair: <lb/>That when the Conſtitution of the <lb/>Air happens
+          to favour Infection, it <lb/>rages there with great Violence; <lb/>That at that Time more
+          eſpecially <lb/>diſeaſed Perſons give it to one ano- <lb/>ther, and <hi rend="italic"
+            >Contagious Matter</hi> is lodg- <lb/>ed in Goods of a looſe and ſoft <lb/>Texture,
+          which being packt up, <lb/>and carried into other Countries, <lb/>let out, when opened,
+          the impri- <pb xml:id="page_25" n="19"/>
+          <lb/>ſoned Seeds of Contagion: And <lb/>laſtly, That the Air cannot diffuſe <lb/>and
+          ſpread theſe to any great Di- <lb/>ſtance, if Intercourſe and Commerce <lb/>with the Place
+          infected be ſtrictly <lb/>prevented. </p>
+        <figure rend="space">
+          <figDesc>A floral ornament. </figDesc>
+        </figure>
+      </div>
+      <div n="2" type="part">
+        <pb xml:id="page_26" n="20"/>
+        <figure>
+          <figDesc>A rectangular floral ornament. </figDesc>
+        </figure>
+        <head rend="align-center">
+          <lb/><hi rend="size(2.0)">PART II</hi>. </head>
+        <head rend="align-center">
+          <lb/>OF THE <lb/><hi rend="size(1.5)">METHODS</hi>
+          <lb/>TO PREVENT <lb/><hi rend="italic size(2.0)">CONTAGION</hi>. </head>
+        <p rend="space">
+          <lb/><hi rend="dc(4)">A</hi>S it is a ſatisfaction to <lb/>know, that the <hi
+            rend="italic">Plague</hi> is <lb/>not a Native of our Coun- <lb/>try, ſo this is
+          likewiſe an <lb/>Encouragement to the utmoſt Dili- <lb/>gence in finding out Means to keep
+          <lb/>our ſelves clear from It. </p>
+        <pb xml:id="page_27" n="21"/>
+        <p rend="indent space">
+          <lb/><hi rend="sc">This</hi> Caution conſiſts of two <lb/>Parts: <hi rend="italic">The
+            preventing its being <lb/>brought into our Iſland</hi>; And, if <lb/>ſuch a Calamity
+          ſhould happen, <hi rend="italic">The <lb/>putting a ſtop to its ſpreading among
+            <lb/>us</hi>. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">The</hi> firſt of theſe is provided <lb/>for by the eſtabliſhed Method
+          of <lb/>obliging Ships, that come from <lb/><hi rend="italic">Infected</hi> Places, to <hi
+            rend="italic">perform Quaren- <lb/>tine</hi>: As to which I think it neceſ- <lb/>ſary,
+          that the following Rules be <lb/>obſerved. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">Near</hi> to our ſeveral Ports, there <lb/>ſhould be <hi rend="italic"
+            >Lazarettos</hi> built in con- <lb/>venient Places, on little Iſlands if <lb/>it can ſo
+          be, for the Reception both <lb/>of Men and Goods, which arrive <lb/>from Places ſuſpected
+          of <hi rend="italic">Infection</hi>: <lb/>The keeping Men in <hi rend="italic"
+            >Quarentine</hi>
+          <lb/>on board the Ship being not ſuffi- <pb xml:id="page_28" n="22"/>
+          <lb/>cient; the only Uſe of which is to <lb/>obſerve whether any dye among <lb/>them. For
+            <hi rend="italic">Infection</hi> may be pre- <lb/>ſerved ſo long in Cloaths, in which
+          <lb/>it is once lodged, that as much, <lb/>nay more of it, if Sickneſs conti- <lb/>nues in
+          the Ship, may be brought <lb/>on Shoar at the End than at the be- <lb/>ginning of the 40
+          Days: Unleſs <lb/>a new <hi rend="italic">Quarentine</hi> be begun every <lb/>time any
+          Perſon dies; which might <lb/>not end, but with the Deſtruction <lb/>of the whole Ship's
+          Crew. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">If</hi> there has been any <hi rend="italic"> Contagi- <lb/>ous</hi>
+          Diſtemper in the Ship; The <lb/><hi rend="italic">Sound</hi> Men ſhould leave their
+          <lb/>Cloaths; which ſhould be burnt; <lb/>the Men waſhed and ſhaved; and <lb/>having freſh
+          Cloaths, ſhould ſtay <lb/>in the <hi rend="italic">Lazaretto</hi> 30 or 40 Days. <lb/>The
+          reaſon of this is, becauſe Per- <lb/>ſons may be recovered from a Di- <lb/>ſeaſe
+          themſelves, and yet retain <pb xml:id="page_29" n="23"/>
+          <lb/><hi rend="italic">Matter</hi> of <hi rend="italic">Infection</hi> about them a
+          <lb/>conſiderable Time; as we fre- <lb/>quently ſee the <hi rend="italic">Small-Pox</hi>
+          taken <lb/>from thoſe, who have ſeveral Days <lb/>before paſſed through the Diſtem-
+          <lb/>per. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">The</hi>
+          <hi rend="italic">Sick</hi>, if there be any, ſhould <lb/>be kept in Houſes remote from
+          <lb/>the <hi rend="italic">Sound</hi>; and ſome time after <lb/>they are well, ſhould alſo
+          be waſhed <lb/>and ſhaved, and have freſh Cloaths; <lb/>whatever they wore while Sick be-
+          <lb/>ing burnt: And then being remov- <lb/>ed to the Houſes of the <hi rend="italic"
+            >Sound</hi>, <lb/>ſhould continue there 30 or 40 days. </p>
+        <p rend="indent space">
+          <lb/>I am particularly careful to de- <lb/>ſtroy the <hi rend="italic">Cloaths</hi> of the
+          Sick, be- <lb/>cauſe they Harbour the very <hi rend="italic"> Quint- <lb/>eſſence</hi> of
+            <hi rend="italic">Contagion</hi>. A very inge- <lb/>nious Author <note place="bottom"
+            n="*" rend="size(0.5)">
+            <p rend="indent">
+              <lb/>* Boccaccio Decameron. Giornat. prim. </p>
+          </note> in his admirable <pb xml:id="page_30" n="24"/>
+          <lb/>Deſcription of the <hi rend="italic">Plague</hi> at <hi rend="italic"> Flo-
+            <lb/>rence</hi> in the Year 1348, relates <lb/>what himſelf ſaw: That two <hi
+            rend="italic">Hogs</hi>
+          <lb/>finding in the Streets the <hi rend="italic">Rags</hi>, <lb/>which had been thrown
+          out from <lb/>off a poor Man dead of the Diſeaſe, <lb/>after ſnuffling upon them, and
+          tear- <lb/>ing them with their Teeth, fell <lb/>into Convulſions, and dyed in leſs
+          <lb/>than an Hour. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">If</hi> there has been no Sickneſs in <lb/>the Ship, I ſee no reaſon
+          why the <lb/>Men ſhould perform <hi rend="italic">Quarentine</hi>. <lb/>Inſtead of this,
+          they may be waſhed, <lb/>and their Cloaths aired in the <hi rend="italic"> La-
+            <lb/>zaretto,</hi> as Goods, for one Week. </p>
+        <p rend="indent space">
+          <lb/>But the greateſt Danger is from <lb/>ſuch <hi rend="italic">Goods</hi>, as are apt to
+          retain In- <lb/>fection, ſuch as <hi rend="italic">Cotton, Hemp</hi> and <lb/><hi
+            rend="italic">Flax, Paper</hi> or <hi rend="italic">Books, Silk</hi> of all <lb/>ſorts,
+            <hi rend="italic">Linen</hi>, <hi rend="italic">Wool</hi>, <hi rend="italic"
+            >Feathers</hi>, <hi rend="italic">Hair</hi>, <lb/>and all kinds of <hi rend="italic"
+            >Skins</hi>. The Laza- <pb xml:id="page_31" n="25"/>
+          <lb/>retto for theſe ſhould be at a Di- <lb/>ſtance from that for the Men, <lb/>and they
+          muſt in convenient Ware- <lb/>houſes be unpackt, and expoſed, <lb/>as much as may be, to
+          the freſh <lb/>Air for 40 Days. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">This</hi> may perhaps ſeem too long; <lb/>but as we don't know how much
+          <lb/>Time preciſely is neceſſary to purge <lb/>the Interſtices of Spongy Subſtances
+          <lb/>from <hi rend="italic">infectious Matter</hi> by freſh Air, <lb/>the Caution cannot
+          be too great in <lb/>this Point: Unleſs there could be <lb/>a Way found out, without
+          hazard- <lb/>ing Men's Lives, of trying when <lb/>Bodies have done emitting the
+          <lb/>Noxious Fumes; which poſſibly <lb/>might be done by putting tender <lb/><hi
+            rend="italic">Animals</hi> near to them, particularly <lb/>by ſetting little <hi
+            rend="italic">Birds</hi> upon the ex- <lb/>poſed Goods; becauſe it has been
+          <lb/>obſerved in Times of the <hi rend="italic">Plague</hi>, <lb/>that the Country has
+          been forſaken <pb xml:id="page_32" n="26"/>
+          <lb/>by the <hi rend="italic">Birds</hi>; and thoſe kept in <lb/>Houſes have many of them
+          dyed <note place="bottom" n="*" rend="size(0.5)">
+            <p rend="indent">
+              <lb/>* Diemerbroeck de Peſte, L. 1. C. 4. </p>
+          </note>. <lb/>But the Uſe of this Fancy Expe- <lb/>rience only muſt ſhew; for I am
+          <lb/>well aware, that all <hi rend="italic">Plagues</hi> do not <lb/>indifferently affect
+          all Kinds of liv- <lb/>ing Creatures; on the contrary, <lb/>moſt are confined to a
+          particular <lb/><hi rend="italic">Species</hi> of them; like the Diſeaſe of <lb/>the <hi
+            rend="italic">Black Cattle</hi> a few Years ſince, <lb/>which neither proved Infectious
+          <lb/>to other Brutes, nor to Men. </p>
+        <p rend="indent space">
+          <lb/>I take it for granted, that the <lb/><hi rend="italic">Goods</hi> ſhould be <hi
+            rend="italic">opened</hi>, when they <lb/>are put into the <hi rend="italic"
+            >Lazaretto</hi>, other- <lb/>wiſe their being there will avail <lb/>nothing. The
+          Misfortune, which <lb/>happened in the Iſland of <hi rend="italic">Bermudas</hi>
+          <lb/>about 25 Years ſince, gives a Proof <lb/>of this; where, as the Account <pb
+            xml:id="page_33" n="27"/>
+          <lb/>has been given me by the learned <lb/>Dr. <hi rend="italic">Halley</hi>, a Sack of
+            <hi rend="italic">Cotton</hi>, put <lb/>on Shoar by Stealth, lay above a <lb/>Month
+          without any Prejudice to <lb/>the People of the Houſe, where it <lb/>was hid; but when it
+          came to be <lb/>diſtributed among the Inhabitants, <lb/>it carried ſuch a <hi
+            rend="italic">Contagion</hi> along <lb/>with it, that the living ſcarce ſuf- <lb/>ficed
+          to bury the Dead. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">Indeed</hi> as it has been frequently <lb/>experienced, that of all the
+          Goods, <lb/>which harbour <hi rend="italic">Infection</hi>, <hi rend="italic">Cotton</hi>
+          in <lb/>particular is the moſt dangerous, <lb/>and <hi rend="italic">Turkey</hi> is almoſt
+          a perpetual <lb/><hi rend="italic">Seminary</hi> of the <hi rend="italic">Plague</hi>; I
+          cannot <lb/>but think it highly reaſonable, that <lb/>whatever <hi rend="italic"
+            >Cotton</hi> is imported from <lb/>that Part of the World, ſhould at <lb/>all Times be
+          kept in <hi rend="italic">Quarentine</hi>; <lb/>becauſe it may have imbibed <hi
+            rend="italic"> In- <lb/>fection</hi> at the Time of its packing <lb/>up, notwithſtanding
+          no Miſchief <pb xml:id="page_34" n="28"/>
+          <lb/>has been felt from it by the Ship's <lb/>Company. </p>
+        <p rend="indent space">
+          <lb/>As all reaſonable Proviſions ſhould <lb/>be made both for the <hi rend="italic"
+            >Sound</hi> and <lb/><hi rend="italic">Sick</hi>, who perform <hi rend="italic"
+            >Quarentine</hi>; ſo <lb/>the ſtrict keeping of it ought to be <lb/>inforced by the
+          ſevereſt <hi rend="italic">Penalties</hi>. <lb/>And if a Ship come from any Place,
+          <lb/>where the <hi rend="italic">Plague</hi> raged, at the Time <lb/>of the Ship's
+          Departure from it, <lb/>with more than uſual Violence, it <lb/>will be the ſecureſt Method
+          to <hi rend="italic">Burn</hi>
+          <lb/>all the <hi rend="italic">Goods</hi>, and even the <hi rend="italic">Ship</hi>. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">Nor</hi> ought this further Caution <lb/>to be omitted, That when the
+            <hi rend="italic"> Con- <lb/>tagion</hi> has ceaſed in any Place by <lb/>the approach of
+          Winter, it will not <lb/>be ſafe to open a free Trade with <lb/>It too ſoon: Becauſe there
+          are In- <lb/>ſtances of the <hi rend="italic">Diſtemper's</hi> being <lb/>ſtopt by the
+          Winter Cold, and yet <lb/>the Seeds of it not deſtroyed, but <pb xml:id="page_35" n="29"/>
+          <lb/>only kept unactive, till the Warmth <lb/>of the following Spring has given <lb/>them
+          new Life and Force. Thus <lb/>in the great Plague at <hi rend="italic">Genoa</hi> near
+          <lb/>60 Years ago, which continued <lb/>part of two Years; the firſt Sum- <lb/>mer about
+          10000 dyed; the Win- <lb/>ter following hardly any; but the <lb/>Summer after no leſs than
+          60000. <lb/>So likewiſe the laſt <hi rend="italic">Plague</hi> at <hi rend="italic"> Lon-
+            <lb/>don</hi> began the Autumn before the <lb/>Year 1665, and was ſtopt during <lb/>the
+          Winter by a hard Froſt of near <lb/>three Month's Continuance; ſo <lb/>that there remained
+          no further Ap- <lb/>pearance of it till the enſuing <lb/>Spring <note place="bottom" n="*"
+            rend="size(0.5)">
+            <p rend="indent">
+              <lb/>* Hodges de Peſte. </p>
+          </note>. Now if Goods brought <lb/>from ſuch a Place ſhould retain a- <lb/>ny of the
+          latent Contagion, there <lb/>will be Danger of their producing <lb/>the ſame Miſchief in
+          the Place, to <lb/>which they are brought, as they <pb xml:id="page_36" n="30"/>
+          <lb/>would have cauſed in that, from <lb/>whence they came. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">But</hi> above all it is neceſſary, that <lb/>the <hi rend="italic"
+            >Clandeſtine Importing</hi> of Goods <lb/>be puniſhed with the utmoſt Ri- <lb/>gour;
+          from which wicked Practice <lb/>I ſhould at this Time apprehend <lb/>more Danger of
+          bringing the <hi rend="italic"> Di- <lb/>ſeaſe</hi> from <hi rend="italic">France</hi>,
+          than by any o- <lb/>ther Way whatſoever. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">These</hi> are, I think, the moſt <lb/>material Points, to which Regard
+          <lb/>is to be had in defending ourſelves <lb/>againſt <hi rend="italic">Contagion</hi>
+          from other Coun- <lb/>tries. The particular Manner of <lb/>putting theſe Directions in
+          Execu- <lb/>tion, as the <hi rend="italic">Viſiting</hi> of <hi rend="italic">Ships</hi>,
+          Re- <lb/>gulation of <hi rend="italic">Lazaretto's,</hi> &amp;c. I leave <lb/>to proper
+          Officers, who ought <lb/>ſometimes to be aſſiſted herein by <lb/>able Phyſicians. </p>
+        <pb xml:id="page_37" n="31"/>
+        <p rend="indent space">
+          <lb/><hi rend="sc">The</hi> next Conſideration is, What <lb/>to do in Caſe, through a
+          Miſcarriage <lb/>in the publick Care, by the Neglect <lb/>of Officers, or otherwiſe, ſuch
+          a <lb/>Calamity ſhould be ſuffered to be- <lb/>fall us. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">There</hi> is no <hi rend="italic">Evil</hi> in the World, <lb/>in
+          which the great Rule of <hi rend="italic"> Reſiſt- <lb/>ing the Beginning</hi>, more
+          properly <lb/>takes Place, than in the preſent <lb/>Caſe; and yet it has unfortunately
+          <lb/>happened, that the common Steps <lb/>formerly taken have had a direct <lb/>Tendency
+          to hinder the putting <hi rend="italic">this <lb/>Maxim</hi> in Practice. </p>
+        <p rend="indent space">
+          <lb/>As the <hi rend="italic">Plague</hi> always breaks out <lb/>in ſome particular Place,
+          it is cer- <lb/>tain, that the Directions of the <lb/><hi rend="italic">Civil
+            Magiſtrate</hi> ought to be ſuch, <lb/>as to make it as much for the In- <lb/>tereſt of
+          Families to diſcover their <pb xml:id="page_38" n="32"/>
+          <lb/>Misfortune, as it is, when a Houſe <lb/>is on <hi rend="italic">Fire</hi>, to call in
+          the Aſſiſtance <lb/>of the Neighbourhood: Whereas <lb/>on the contrary, the Methods taken
+          <lb/>by the Publick, on ſuch Occaſions, <lb/>have always had the Appearance of <lb/>a
+          ſevere <hi rend="italic">Diſcipline</hi>, and even <hi rend="italic"> Puniſh-
+            <lb/>ment,</hi> rather than of a <hi rend="italic"> Compaſſi- <lb/>onate Care:</hi>
+          Which muſt naturally <lb/>make the <hi rend="italic">Infected</hi> conceal the Diſ-
+          <lb/>eaſe as long as was poſſible. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">The</hi> main Import of the <hi rend="italic">Orders</hi>
+          <lb/>iſſued out at theſe Times was, As <lb/>ſoon as it was found, that any Houſe <lb/>was
+          infected, to keep it ſhut up, <lb/>with a <hi rend="italic">large red Croſs</hi>, and <hi
+            rend="italic">Lord <lb/>have Mercy upon us</hi> on the Door; <lb/>and Watchmen attending
+          Day and <lb/>Night to prevent any one's going <lb/>in or out, except <hi rend="italic"
+            >Phyſicians</hi>, <hi rend="italic"> Surge- <lb/>ons</hi>, <hi rend="italic"
+            >Apothecaries</hi>, <hi rend="italic">Nurſes</hi>, <hi rend="italic"> Search-
+            <lb/>ers</hi>, &amp;c. allowed by Authority: <lb/>And this to continue at leaſt a <pb
+            xml:id="page_39" n="33"/>
+          <lb/>Month after all the Family was <lb/><hi rend="italic">dead</hi> or <hi rend="italic"
+            >recovered</hi>
+          <note place="bottom" n="*" rend="size(0.5)">
+            <p rend="indent">
+              <lb/>* Vid. <hi rend="italic">Directions for the Cure of the</hi> Plague, <hi
+                rend="italic">by the</hi> <lb/> College <hi rend="italic">of</hi> Phyſicians; <hi
+                  rend="italic">and Orders by the</hi> Lord Mayor <lb/><hi rend="italic">and</hi> Aldermen
+                <hi rend="italic">of</hi> London, <hi rend="italic">publiſhed</hi> 1665. </p>
+          </note>. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">It</hi> is not eaſy to conceive a more <lb/>diſmal Scene of Miſery,
+          than this; <lb/>Families ſeized with a Diſtemper, <lb/>which the moſt of any in the
+          <lb/>World requires Help and Comfort, <lb/>lockt up from all their Acquaint- <lb/>ance;
+          left it may be to the Treat- <lb/>ment of an inhumane Nurſe (for <lb/>ſuch are often found
+          at theſe Times <lb/>about the Sick;) and Strangers to <lb/>every thing but the Melancholy
+          <lb/>ſight of the Progreſs, Death makes <lb/>among themſelves; with ſmall <lb/>Hopes of
+          Life, and thoſe mixed <lb/>with Anxiety and Doubt, whether <lb/>it be not better to Dye,
+          than to <lb/>ſurvive the Loſs of their beſt Friends, <lb/>and neareſt Relations. </p>
+        <pb xml:id="page_40" n="34"/>
+        <p rend="indent space">
+          <lb/><hi rend="sc">If</hi>
+          <hi rend="italic">Fear</hi>, <hi rend="italic">Deſpair</hi>, and all <hi rend="italic">
+            De- <lb/>jection of Spirits</hi> diſpoſe the Body <lb/>to receive <hi rend="italic"
+            >Contagion</hi>, and give it a <lb/>great Power, where it is received, <lb/>as all
+          Phyſicians agree they do, I <lb/>don't ſee how a Diſeaſe can be <lb/>more enforced, than
+          by ſuch a <lb/>Treatment. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">Nothing</hi> can juſtify ſuch <hi rend="italic"> Cruel- <lb/>ty</hi>,
+          but the Plea, that it is for the <lb/>Good of the whole <hi rend="italic">Community</hi>,
+          <lb/>and prevents the ſpreading of <hi rend="italic"> In- <lb/>fection.</hi> But this upon
+          due Conſi- <lb/>deration will be found quite other- <lb/>wiſe: For while <hi rend="italic"
+            >Contagion</hi> is kept <lb/>nurſed up in a Houſe, and conti- <lb/>nually encreaſed by
+          the daily Con- <lb/>queſts it makes, it is impoſſible but <lb/>the <hi rend="italic"
+            >Air</hi> ſhould by Degrees become <lb/><hi rend="italic">tainted</hi>, which by opening
+          Win- <lb/>dows, &amp;c. will carry the Malig- <lb/>nity firſt from Houſe to Houſe; <pb
+            xml:id="page_41" n="35"/>
+          <lb/>and then from one Street to ano- <lb/>ther. The ſhutting up Houſes in <lb/>this
+          Manner is only keeping ſo ma- <lb/>ny <hi rend="italic">Seminaries</hi> of <hi
+            rend="italic">Contagion</hi>, ſooner <lb/>or later to be diſperſed abroad: <lb/>For the
+          waiting a Month, or longer, <lb/>from the Death of the laſt Patient <lb/>will avail no
+          more, than keeping <lb/>a <hi rend="italic">Bale</hi> of infected <hi rend="italic"
+            >Goods</hi> unpack'd; <lb/>the Poyſon will fly out, whenever <lb/>the <hi rend="italic"
+            >Pandora's Box</hi> is opened. </p>
+        <p rend="indent space">
+          <lb/>As theſe Meaſures were owing to <lb/>the Ignorance of the true Nature <lb/>of <hi
+            rend="italic">Contagion</hi>, ſo they did, I firmly <lb/>believe, contribute very much
+          to <lb/>the long Continuance of the <hi rend="italic">Plague</hi>, <lb/>every time they
+          have been practiſ- <lb/>ed in this City: And no doubt <lb/>they have had as ill Effects in
+          o- <lb/>ther Countries. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">It</hi> is therefore no wonder, that <lb/>great Complaints were
+          ſometimes <pb xml:id="page_42" n="36"/>
+          <lb/>made here againſt this unreaſona- <lb/>ble Uſage; which, when they pre- <lb/>vailed
+          ſo far, as to procure ſome <lb/>Releaſe for the <hi rend="italic">Sick</hi>, were remark-
+          <lb/>ably followed with an Abatement <lb/>of the Diſeaſe. The <hi rend="italic"
+            >Plague</hi> in the <lb/>Year 1636 began with great Vi- <lb/>olence, but Leave being
+          given by <lb/>the King's Authority for People <lb/>to quit their Houſes; it was ob-
+          <lb/>ſerved, That <hi rend="italic">not one in twenty of <lb/>the well Perſons removed
+            fell Sick, <lb/>nor one in ten of the Sick dyed</hi>
+          <note place="bottom" n="*" rend="size(0.5)">
+            <p rend="indent">
+              <lb/>* Diſcourſe upon the Air, by <hi rend="italic">Tho. Cock</hi>. </p>
+          </note>. Which ſingle Inſtance alone, had <lb/>there been no other, ſhould have <lb/>been
+          of Weight ever after to deter- <lb/>mine the Magiſtracy againſt too <lb/>ſtrict
+          Confinements. But beſides <lb/>this, a preceding <hi rend="italic">Plague</hi>, viz. in
+          the <lb/>Year 1625, affords us another In- <lb/>ſtance of a very remarkable De-
+          <lb/>creaſe upon the diſcontinuing to <pb xml:id="page_43" n="37"/>
+          <lb/><hi rend="italic">ſhut up</hi> Houſes. It was indeed ſo <lb/>late in the Year, before
+          this was <lb/>done, that the near Approach of <lb/>Winter was doubtleſs one Reaſon
+          <lb/>for the Diminution of the Diſeaſe, <lb/>which followed: Yet this was ſo <lb/>very
+          great, that it is at leaſt paſt <lb/>diſpute, that the Liberty then per- <lb/>mitted was
+          no Impediment to it: <lb/>For this <hi rend="italic">opening</hi> of the Houſes was
+          <lb/>allowed of in the beginning of <hi rend="italic"> Sep- <lb/>tember;</hi> and whereas
+          the laſt Week <lb/>in <hi rend="italic">Auguſt</hi>, there dyed no leſs than <lb/>4218,
+          the very next Week the <lb/><hi rend="italic">Burials</hi> were diminuiſhed to 3344,
+          <lb/>and in no longer time than to the <lb/>fourth Week after, to 852 <note place="bottom"
+            n="*" rend="size(0.5) italic">
+            <p rend="indent">
+              <lb/>* <hi rend="roman">Vid</hi>. The ſhutting up of Houſes ſoberly debated. Anno,
+              1665. </p>
+          </note>. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">Since</hi> therefore the Management <lb/>in former Times neither
+          anſwers <lb/>the Purpoſe of <hi rend="italic">diſcovering the Be- <lb/>ginning</hi> of the
+            <hi rend="italic">Infection</hi>, nor of put- <lb/>
+          <pb xml:id="page_44" n="38"/>
+          <lb/>ting a ſtop to it when <hi rend="italic">Diſcovered</hi>, <lb/>other Meaſures are
+          certainly to be <lb/>taken; which I think ſhould be of <lb/>this Nature. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">Instead</hi> of <hi rend="italic">ignorant old Women</hi>, <lb/>who are
+          generally appointed <hi rend="italic"> Search- <lb/>ers</hi> in Pariſhes to enquire what
+          Diſ- <lb/>eaſes People dye of, That <hi rend="italic">Office</hi>
+          <lb/>ſhould be committed to <hi rend="italic"> Under- <lb/>ſtanding and Diligent Men</hi>,
+          whoſe <lb/>Buſineſs it ſhould be, as ſoon as <lb/>they find any have dyed after an
+          <lb/>uncommon Manner, particularly <lb/>with <hi rend="italic">livid Spots, Buboes</hi>,
+          or <hi rend="italic"> Car- <lb/>buncles</hi>, to give Notice thereof to <lb/>the
+          Magiſtrates; who ſhould im- <lb/>mediately ſend skilful Phyſicians to <lb/>Viſit the
+          Houſes in the Neighbour- <lb/>hood, eſpecially of the <hi rend="italic">Poorer</hi> ſort,
+          <lb/>among whom this Evil generally <lb/>begins; and if upon their Report <lb/>it appears,
+          that a <hi rend="italic">Peſtilential Di- <lb/>ſtemper</hi> is broke out among the In- <pb
+            xml:id="page_45" n="39"/>
+          <lb/>habitants, They ſhould without <lb/>Delay order all the Families, in <lb/>which the
+          Sickneſs is, to be <hi rend="italic"> Re- <lb/>moved;</hi> The <hi rend="italic">Sick</hi>
+          to different Pla- <lb/>ces from the <hi rend="italic">Sound</hi>; but the Houſes <lb/>for
+          both ſhould be three or four <lb/>Miles out of Town; and the <hi rend="italic">Sound</hi>
+          <lb/>People ſhould be <hi rend="italic">ſtript of all their <lb/>Cloaths</hi>, and <hi
+            rend="italic">waſhed</hi> and <hi rend="italic">ſhaved</hi>, <lb/>before they go into
+          their new Lodg- <lb/>ings. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">No</hi> Manner of <hi rend="italic">Compaſſion</hi> and <lb/><hi
+            rend="italic">Care</hi> ſhould be wanting to the <hi rend="italic"> Diſ-
+          <lb/>eaſed</hi>; to whom, being now in <hi rend="italic">clean</hi>
+          <lb/>and <hi rend="italic">airy</hi> Habitations, there would, <lb/>with due Cautions, be
+          no great <lb/>Danger in giving Attendance. All <lb/>Expences ſhould be paid by the
+          <lb/>Publick, and no Charges ought to <lb/>be thought great, which are coun-
+          <lb/>terbalanced with the ſaving a Nati- <lb/>on from the greateſt of Calamities. <lb/>Nor
+          does it ſeem to me at all un- <pb xml:id="page_46" n="40"/>
+          <lb/>reaſonable, that a <hi rend="italic">Reward</hi> ſhould <lb/>be given to the Perſon,
+          that makes <lb/>the firſt Diſcovery of <hi rend="italic">Infection</hi> in <lb/>any Place;
+          ſince it is undeniable, <lb/>that the making known the <hi rend="italic">Evil</hi>
+          <lb/>to thoſe, who are provided with <lb/>proper Methods againſt it, is the <lb/>firſt and
+          main Step towards the o- <lb/>vercoming it. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">When</hi> the <hi rend="italic">Sick Families</hi> are gone, <lb/>all
+          the Goods of the Houſes, in <lb/>which they were, ſhould be <hi rend="italic">burnt</hi>;
+          <lb/>nay the Houſes themſelves; if that <lb/>can conveniently be done. And <lb/>after this
+          all poſſible Care ought <lb/>ſtill to be taken to remove whatever <lb/>Cauſes are found to
+          breed and pro- <lb/>mote <hi rend="italic">Contagion</hi>. In order to this, <lb/>the <hi
+            rend="italic">Overſeers</hi> of the Poor (who <lb/>might be aſſiſted herein by other
+          <lb/>Officers) ſhould viſit the Dwellings <lb/>of all the meaner ſort of the Inha-
+          <lb/>bitants, and where they find <pb xml:id="page_47" n="41"/>
+          <lb/>them <hi rend="italic">ſtifled up too cloſe</hi> and <hi rend="italic">naſty</hi>,
+          <lb/>ſhould leſſen their Number by ſend- <lb/>ing ſome into better Lodgings, <lb/>and
+          ſhould take Care, by all Man- <lb/>ner of Proviſion and Encourage- <lb/>ment, to make them
+          more <hi rend="italic">cleanly</hi>
+          <lb/>and <hi rend="italic">ſweet</hi>. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">No</hi> good Work carries its own <lb/>Reward with it ſo much as this
+          <lb/>kind of <hi rend="italic">Charity</hi>; and therefore be <lb/>the Expence what it
+          will, it muſt <lb/>never be thought unreaſonable. For <lb/>nothing approaches ſo near to
+          the <lb/>firſt Original of <hi rend="italic">Contagion</hi>, as Air <lb/>pent up, loaded
+          with Damps, and <lb/>corrupted with the Filthineſs, that <lb/>proceeds from <hi
+            rend="italic">Animal Bodies</hi>. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">Our</hi> common <hi rend="italic">Priſons</hi> afford us <lb/>an
+          Inſtance of this, in which very <lb/>few eſcape, what they call the <lb/><hi rend="italic"
+            >Goal Fever</hi>, which is always at- <lb/>tended with a Degree of <hi rend="italic"
+            >Maligni- <pb xml:id="page_48" n="42"/>
+            <lb/>ty</hi> in proportion to the <hi rend="italic">Cloſeness</hi> and <lb/><hi
+            rend="italic">Stench</hi> of the Place: And it would <lb/>certainly very well become the
+          Wiſ- <lb/>dom of the Government, as well <lb/>with Regard to the Health of the <lb/><hi
+            rend="italic">Town</hi>, as in Compaſſion to the <hi rend="italic"> Pri-
+            <lb/>ſoners</hi>, to take Care, that all <hi rend="italic">Houſes <lb/>of
+            Confinement</hi> ſhould be kept as <lb/>Airy and Clean, as is conſiſtent <lb/>with the
+          Uſe, to which they are <lb/>deſigned. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">The</hi>
+          <hi rend="italic">Black Aſſize</hi> at <hi rend="italic">Oxford</hi>, <lb/>held in the
+          Caſtle there in the <lb/>Year 1577, will never be forgot <note place="bottom" n="*"
+            rend="size(0.5)">
+            <p rend="indent">
+              <lb/>* Camden. Annal. Regin. Elizab. </p>
+          </note>; <lb/>at which the <hi rend="italic">Judges</hi>, <hi rend="italic">Gentry</hi>,
+          and <lb/>almoſt all that were preſent, to the <lb/>Number of 300, were killed by a
+            <lb/><hi rend="italic">poyſonous Steam</hi>, thought by ſome <lb/>to have broke forth
+          from the <hi rend="italic">Earth</hi>; <lb/>but by a <hi rend="italic">noble</hi> and <hi
+            rend="italic">great</hi> Philoſopher <note place="bottom" n="†" rend="size(0.5) italic">
+            <p rend="indent">
+              <lb/>† Lord Verulam, <hi rend="roman">Natural Hiſtory</hi>, Cent. 10. Num. 914. </p>
+          </note>
+          <pb xml:id="page_49" n="43"/>
+          <lb/>more juſtly ſuppoſed to have been <lb/>brought by the <hi rend="italic"
+            >Priſoners</hi> out of the <lb/><hi rend="italic">Goal</hi> into <hi rend="italic"
+            >Court</hi>; it being obſerved, <lb/>that they alone were not injured <lb/>by it. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">At</hi> the ſame time, that this <lb/>Care is taken of <hi
+            rend="italic">Houſes</hi>, the pro- <lb/>per Officers ſhould be ſtrictly charg- <lb/>ed
+          to ſee that the <hi rend="italic">Streets</hi> be waſhed <lb/>and kept clean from <hi
+            rend="italic">Filth</hi>, <hi rend="italic">Carrion</hi>, <lb/>and all Manner of <hi
+            rend="italic">Nuſances</hi>; which <lb/>ſhould be carried away in the <hi rend="italic"
+            >Night <lb/>Time</hi>; nor ſhould the <hi rend="italic">Layſtalls</hi> be <lb/>ſuffered
+          to be too near the City. <lb/><hi rend="italic">Beggars</hi> and <hi rend="italic">Idle
+            Perſons</hi> ſhould be <lb/>taken up, and ſuch miſerable Ob- <lb/>jects, as are neither
+          fit for the <lb/>common <hi rend="italic">Hoſpitals</hi>, nor <hi rend="italic"
+            >Work-houſes</hi>, <lb/>ſhould be provided for in an <hi rend="italic"> Hoſ- <lb/>pital
+            of Incurables</hi>. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">Orders</hi> indeed of this kind are <lb/>neceſſary to be obſerved at
+          all times, <pb xml:id="page_50" n="44"/>
+          <lb/>eſpecially in populous Cities; and <lb/>therefore I am ſorry to take No- <lb/>tice,
+          that in <hi rend="italic">theſe</hi> of <hi rend="italic">London</hi> and <lb/><hi
+            rend="italic">Weſtminſter</hi> there is no good <hi rend="italic"> Po- <lb/>lice</hi>
+          eſtabliſhed in theſe Reſpects; <lb/>for want of which the Citizens and <lb/>Gentry are
+          every Day annoyed <lb/>more ways than one. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">If</hi> theſe early <hi rend="italic">Precautions</hi>, we have
+          <lb/>mentioned, take Effect, there <lb/>will be no need of any Methods <lb/>for <hi
+            rend="italic">Correcting the Air</hi>, <hi rend="italic">Purifying <lb/>Houſes</hi>, or
+          of <hi rend="italic">Rules for preſerving <lb/>particular Perſons from Infection</hi>: To
+          <lb/>all which, if the <hi rend="italic">Plague</hi> get head, <lb/>ſo that the <hi
+            rend="italic">Sick</hi> are too many to be <lb/>removed, Regard muſt be had. </p>
+        <p rend="indent space">
+          <lb/>As to the <hi rend="italic">firſt</hi>; <hi rend="italic">Fire</hi> has been al-
+          <lb/>moſt univerſally recommended for <lb/>this Purpoſe, both by the Anci- <lb/>ents and
+          Moderns; who have ad- <lb/>viſed to make frequent and nume- <pb xml:id="page_51" n="45"/>
+          <lb/>rous <hi rend="italic">Fires</hi> in the Towns infected: <lb/>By which Means, it is
+          ſaid, <hi rend="italic"> Hip- <lb/>pocrates</hi> preſerved <hi rend="italic">Greece</hi>
+          from a <lb/><hi rend="italic">Plague</hi>, which was entring into it <lb/>from <hi
+            rend="italic">Aethiopia</hi>
+          <note place="bottom" n="*" rend="size(0.5)">
+            <p rend="indent">
+              <lb/>* Galen. de Theriac. cap. 16. </p>
+          </note>. And it is cer- <lb/>tain, that ſome evil Diſpoſitions of <lb/>the Air,
+          particularly ſuch as pro- <lb/>ceed from <hi rend="italic">Damps</hi>, <hi rend="italic"
+            >Exhalations</hi>, <lb/>&amp;c. may be corrected by <hi rend="italic">Fire</hi>,
+          <lb/>and the Prediſpoſition of it to <lb/>receive <hi rend="italic">Infection</hi> from
+          theſe Cauſes <lb/>ſometimes removed. But when the <lb/>Diſtemper is actually <hi
+            rend="italic">begun</hi>, and <lb/>rages, ſince it is known to be <lb/><hi rend="italic"
+            >ſpread</hi> and <hi rend="italic">increaſed</hi> by the <hi rend="italic">Heat</hi>
+          <lb/>of the <hi rend="italic">Summer</hi>, and on the con- <lb/>trary checked by the <hi
+            rend="italic">cold</hi> in <hi rend="italic"> Win- <lb/>ter</hi>; undoubtedly, whatever
+          increaſes <lb/>that <hi rend="italic">Heat</hi> will ſo far add Force to <lb/>the Diſeaſe.
+          Whether the Service <lb/><hi rend="italic">Fires</hi> may do by correcting any <lb/>other
+          ill Qualities of the Air will <pb xml:id="page_52" n="46"/>
+          <lb/>counterbalance the Inconvenience <lb/>upon this Account, Experience on- <lb/>ly can
+          determine; and the Fatal <lb/>ſucceſs of the Tryals made here <lb/>in the laſt <hi
+            rend="italic">Plague</hi>, is more than <lb/>ſufficient to diſcourage any further
+          <lb/>Attempts of this Nature; for <hi rend="italic">Fires</hi>
+          <lb/>being ordered in all the <hi rend="italic">Streets</hi> for <lb/>three Days together,
+          there dyed <lb/>in one Night following no leſs than <lb/>4000; whereas in any ſingle Week
+          <lb/>before or after, not much above <lb/>three times that Number were car- <lb/>ryed off
+            <note place="bottom" n="†" rend="size(0.5)">
+            <p rend="indent">
+              <lb/>† Hodges <hi rend="italic">de Peſte</hi>, pag. 24. </p>
+          </note>. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">What</hi> has been ſaid of <hi rend="italic">Fires</hi>, is
+          <lb/>likewiſe to be underſtood of <hi rend="italic">firing <lb/>of Guns</hi>, which ſome
+          have too raſh- <lb/>ly adviſed. The proper Correcti- <lb/>on of the Air would be to make
+          it <lb/><hi rend="italic">freſh</hi> and <hi rend="italic">cool</hi>. Accordingly the <pb
+            xml:id="page_53" n="47"/>
+          <lb/><hi rend="italic">Arabians</hi>
+          <note place="bottom" n="*" rend="size(0.5)">
+            <p rend="indent">
+              <lb/>* Rhazes de re Medica, lib. 10. c. 16. </p>
+          </note>, who were beſt acquaint- <lb/>ed with the Nature of <hi rend="italic"
+            >Peſtilences</hi>, <lb/>adviſe People to keep themſelves <lb/>as <hi rend="italic"
+            >airy</hi> as poſſible, and to chuſe <lb/>Dwellings expoſed to the Wind. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">For</hi> keeping <hi rend="italic">Houſes</hi> cool, they <lb/>took to
+          be the beſt Method of <lb/><hi rend="italic">purifying</hi> them; and therefore to
+          <lb/>anſwer this End more fully, they <lb/>directed to ſtrew them with <hi rend="italic"
+            >cooling</hi>
+          <lb/>Herbs, as <hi rend="italic">Roſes</hi>, <hi rend="italic">Violets</hi>, <hi
+            rend="italic"> Water- <lb/>Lillies</hi>, &amp;c. and to be waſhed with <lb/><hi
+            rend="italic">Water</hi> and <hi rend="italic">Vinegar</hi>; than all which,
+          <lb/>eſpecially the laſt, nothing more <lb/>proper can be propoſed: Though <lb/>it be
+          directly contrary to what Mo- <lb/>dern Authors moſtly adviſe, which <lb/>is to make Fumes
+          with hot Things, <lb/>as <hi rend="italic">Benzoin</hi>, <hi rend="italic"
+            >Frankincenſe</hi>, <hi rend="italic">Aſa Foe- <lb/>tida</hi>, <hi rend="italic"
+            >Storax</hi>, &amp;c. from which I <lb/>ſee no reaſon to expect any Virtue <pb
+            xml:id="page_54" n="48"/>
+          <lb/>to deſtroy the Matter of <hi rend="italic">Infection</hi>, <lb/>or to keep particular
+          Places from a <lb/>Diſpoſition to receive it; which are <lb/>the only things here to be
+          aimed <lb/>at. It is of more Conſequence to <lb/>be obſerved, that as <hi rend="italic"
+            >Naſtiness</hi> is a <lb/>great Source of <hi rend="italic">Infection</hi>, ſo <hi
+            rend="italic"> Clean- <lb/>liness</hi> is the greateſt Preſervative: <lb/>Which is the
+          true Reaſon, why the <lb/>Poor are moſt obnoxious to Diſ- <lb/>aſters of this Kind. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">The</hi> next thing after the <hi rend="italic">purifying <lb/>of
+            Houſes</hi>, is to conſider by what <lb/>Means particular <hi rend="italic">Perſons</hi>
+          may beſt <lb/>defend themſelves againſt <hi rend="italic"> Contagi- <lb/>on</hi>; for the
+          effectual doing of which <lb/>it would be neceſſary to put the <lb/><hi rend="italic"
+            >Humours</hi> of the <hi rend="italic">Body</hi> into ſuch a <lb/>State, as not to be
+          alterable by the <lb/><hi rend="italic">Matter of Infection</hi>. But ſince this <lb/>is
+          no more to be hoped for, than <lb/>a <hi rend="italic">Specific Preſervative</hi> from the
+            <lb/><hi rend="italic">Small-Pox</hi>; the moſt that can be <pb xml:id="page_55" n="49"/>
+          <lb/>done, will be to keep the <hi rend="italic">Body</hi> in <lb/>ſuch Order, that it may
+          ſuffer as <lb/>little as poſſible. The <hi rend="italic">firſt Step</hi> to- <lb/>wards
+          which, is to maintain a good <lb/>State of Health, in which we are <lb/>always leaſt
+          liable to ſuffer by any <lb/>external Injuries; and not to weaken <lb/>the Body by
+          Evacuations. The <lb/><hi rend="italic">next</hi> is, to guard againſt all <hi
+            rend="italic"> Dejecti- <lb/>on of Spirits</hi>, and <hi rend="italic">immoderate Paſ-
+            <lb/>ſions</hi>; for theſe we daily obſerve do <lb/>expoſe Perſons to the more com-
+          <lb/>mon <hi rend="italic">Contagion</hi> of the <hi rend="italic">Small-Pox</hi>.
+          <lb/>Theſe Ends will be beſt anſwered <lb/>by living with Temperance upon a <lb/>good
+          generous Diet, and avoiding <lb/><hi rend="italic">Faſtings</hi>, <hi rend="italic"
+            >Watchings</hi>, <hi rend="italic">extreme Weari- <lb/>ness</hi>, &amp;c. <hi
+            rend="italic">Another</hi> Defence is, to <lb/>uſe whatever Means are proper to
+          <lb/>keep the <hi rend="italic">Blood</hi> from <hi rend="italic">Inflaming</hi>.
+          <lb/>This, if it does not ſecure from <lb/><hi rend="italic">contracting Infection</hi>,
+          will at leaſt <lb/>make the <hi rend="italic">Effects</hi> of it leſs violent. <pb
+            xml:id="page_56" n="50"/>
+          <lb/>The moſt proper Means for this, <lb/>according to the Advice of the <lb/><hi
+            rend="italic">Arabian</hi> Phyſicians, is the repeat- <lb/>ed Uſe of <hi rend="italic"
+            >acid Fruits</hi>, as <hi rend="italic"> Pomegra- <lb/>nates</hi>, <hi rend="italic"
+            >Sevil Oranges</hi>, <hi rend="italic">Lemons</hi>, <hi rend="italic">tart
+            <lb/>Apples</hi>, &amp;c. But above all of <hi rend="italic"> Wine- <lb/>Vinegar</hi> in
+          ſmall Quantities, ren- <lb/>dered grateful to the Stomach by <lb/>the Infuſion of ſome
+          ſuch Ingre- <lb/>dients as <hi rend="italic">Gentian Root</hi>, <hi rend="italic"
+            >Galangal</hi>, <lb/><hi rend="italic">Zedoary</hi>, <hi rend="italic">Juniper
+            Berries</hi>, &amp;c. Which <lb/>Medicines by correcting the <hi rend="italic"> Vine-
+            <lb/>gar</hi>, and taking off ſome ill Effects <lb/>it might otherwiſe have upon the
+          <lb/>Stomach, will be of good Uſe: <lb/>But theſe, and all other hot <hi rend="italic">
+            Aro- <lb/>matic</hi> Drugs, though much recom- <lb/>mended by Authors, if uſed alone,
+          <lb/>are moſt likely to do hurt by <hi rend="italic">over <lb/>heating</hi> the Blood. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">But</hi> ſince none of theſe Methods <lb/>promiſe any certain
+          Protection; as <pb xml:id="page_57" n="51"/>
+          <lb/><hi rend="italic">leaving</hi> the Place infected is the <lb/>ſureſt <hi
+            rend="italic">Preſervative</hi>, ſo the next to <lb/>it, is to avoid, as much as may be,
+          <lb/>the <hi rend="italic">near Approach</hi> to the <hi rend="italic">Sick</hi>, or
+          <lb/>to ſuch as have but <hi rend="italic">lately Recover- <lb/>ed</hi>. For the greater
+          Security here- <lb/>in, it will be adviſable to avoid all <lb/><hi rend="italic">Crouds of
+            People</hi>. Nay it ſhould <lb/>be the Care of the <hi rend="italic">Magiſtrate</hi> to
+          <lb/>prohibit all unneceſſary <hi rend="italic">Aſſemblies</hi>; <lb/>and likewiſe to
+          oblige all, who get <lb/>over the Diſeaſe, to <hi rend="italic">Confine</hi> them-
+          <lb/>ſelves for ſome time, before they <lb/>appear abroad. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">The</hi> Advice to keep at a Di- <lb/>ſtance from the <hi rend="italic"
+            >Sick</hi>, is alſo to be <lb/>underſtood of the <hi rend="italic">Dead Bodies:</hi>
+          <lb/>which ſhould be <hi rend="italic">buried</hi> at as great <lb/>a Diſtance from
+          Dwelling Houſes, <lb/>as may be; put <hi rend="italic">deep</hi> in the Earth; <lb/>and
+            <hi rend="italic">covered</hi> with the exacteſt Care. <lb/>They ſhould likewiſe be <hi
+            rend="italic">carried out</hi>
+          <pb xml:id="page_58" n="52"/>
+          <lb/>in the <hi rend="italic">Night</hi>, while they are yet <lb/>freſh and free from
+          Putrefaction: <lb/>Becauſe a Carcaſs not yet begin- <lb/>ning to Corrupt, if kept from the
+          <lb/>Heat of the Day, hardly emits any <lb/>kind of Steam or Vapour. </p>
+        <p rend="indent space">
+          <lb/>As for thoſe, who muſt of ne- <lb/>ceſſity attend the <hi rend="italic">Sick</hi>;
+          ſome fur- <lb/>ther Directions ſhould be added for <lb/>their Uſe. Theſe may be com-
+          <lb/>prehended in two ſhort Precepts. <lb/><hi rend="italic">One</hi> is, not to <hi
+            rend="italic">ſwallow their Spittle</hi>
+          <lb/>while they are about the <hi rend="italic">Sick</hi>, but <lb/>rather to <hi
+            rend="italic">ſpit</hi> it out: <hi rend="italic">The other</hi>, not <lb/>ſo much as to
+            <hi rend="italic">draw in their Breath</hi>, <lb/>when they are very near them. <lb/>The
+          reaſon for both theſe appears <lb/>from what has been ſaid above con- <lb/>cerning the
+          Manner, in which a <lb/>ſound Perſon receives the Infecti- <lb/>on. </p>
+        <pb xml:id="page_59" n="53"/>
+        <p rend="indent space">
+          <lb/><hi rend="sc">This</hi> is the Sum of what I think <lb/>moſt likely to ſtop the
+          Progreſs of <lb/>the <hi rend="italic">Diſeaſe</hi> in any Place, where it <lb/>ſhall have
+          got Admittance. If ſome <lb/>few of theſe <hi rend="italic">Rules</hi> refer more par-
+          <lb/>ticularly to the City of <hi rend="italic">London</hi>, <lb/>with ſmall Alteration
+          they may be <lb/>applied to any other <hi rend="italic">Place</hi>. It <lb/>now remains
+          therefore only to lay <lb/>down ſome Directions to hinder <lb/>the <hi rend="italic"
+            >Diſtemper's</hi> ſpreading from <hi rend="italic">Town</hi>
+          <lb/>to <hi rend="italic">Town</hi>. The beſt Method for <lb/>which, where it can be done,
+          is <lb/>to caſt up a <hi rend="italic">Line</hi> about the <hi rend="italic">Town
+            <lb/>inſected</hi>, at a convenient Diſtance; <lb/>and by placing a <hi rend="italic"
+            >Guard</hi>, to hin- <lb/>der People's paſſing from it with- <lb/>out due Regulation, to
+          other <lb/>Towns: But not abſolutely to for- <lb/>bid any to withdraw themſelves, as
+          <lb/>they have now done in <hi rend="italic">France</hi>, ac- <lb/>cording to the uſual
+          Practice abroad; <pb xml:id="page_60" n="54"/>
+          <lb/>which is an unneceſſary Severity, <lb/>not to call it a Cruelty. I think it <lb/>will
+          be enough, if all, who deſire <lb/>to paſs the <hi rend="italic">Line</hi>, be permitted
+          to do <lb/>it, upon Condition they firſt per- <lb/>form <hi rend="italic">Quarentine</hi>
+          for about 20 Days <lb/>in <hi rend="italic">Tents</hi>, or other more conveni- <lb/>ent
+            <hi rend="italic">Habitations</hi>. But the greateſt <lb/>Care muſt be taken, that none
+          <lb/>paſs without conforming themſelves <lb/>to this Order, both by keeping di-
+          <lb/>ligent <hi rend="italic">Watch</hi>, and by <hi rend="italic">puniſhing</hi>
+          <lb/>with the utmoſt Severity, any that <lb/>ſhall either have done ſo, or at- <lb/>tempt
+          it. And the better to diſco- <lb/>ver <hi rend="italic">ſuch</hi>, it will be requiſite to
+          o- <lb/>blige all, who travel in any Part <lb/>of the Country, under the ſame
+          <lb/>Penalties, to carry with them <hi rend="italic"> Cer- <lb/>tificates</hi> either of
+          their coming from <lb/>Places not <hi rend="italic">Infected</hi>, or of their paſ-
+          <lb/>ſing the <hi rend="italic">Line</hi> by permiſſion. </p>
+        <pb xml:id="page_61" n="55"/>
+        <p rend="indent">
+          <lb/><hi rend="sc">This</hi> I take to be a more effectu- <lb/>al Method to keep the <hi
+            rend="italic">Infection</hi>
+          <lb/>from ſpreading, than the abſolute <lb/>refuſing a Paſſage to People upon <lb/>any
+          Terms. For when Men are <lb/>in ſuch imminent Danger of their <lb/>Lives, where they are;
+          many, no <lb/>doubt, if not otherwiſe allowed to <lb/>eſcape, will uſe Endeavours to do
+          <lb/>it ſecretly, let the Hazard be ever <lb/>ſo great. And it can hardly be, <lb/>but
+          ſome will ſucceed in their At- <lb/>tempts; as we ſee fell out in <hi rend="italic"
+            >France</hi>
+          <lb/>notwithſtanding all their Care. But <lb/>one that gets off thus clandeſtine- <lb/>ly,
+          will be more like to carry the <lb/>Diſtemper with him, than twenty, <lb/>nay a hundred,
+          that go away un- <lb/>der the preceding Reſtrictions: E- <lb/>ſpecially becauſe the <hi
+            rend="italic">Infection</hi> of <lb/>the Place, he flies from, will by <lb/>this
+          Management be rendered much <pb xml:id="page_62" n="56"/>
+          <lb/>more intenſe. For confining Peo- <lb/>ple, and ſhutting them up together <lb/>in
+          great Numbers, will make the <lb/>Diſtemper rage with augmented <lb/>Force, even to the
+          increaſing it be- <lb/>yond what can be eaſily imagin- <lb/>ed; As appears from the <hi
+            rend="italic">Account</hi>, <lb/>which the learned <hi rend="italic">Gaſſendus</hi>
+          <note place="bottom" n="*" rend="size(0.5)">
+            <p rend="indent">
+              <lb/>* Notitia Eccleſiæ Dinienſis. </p>
+          </note> has <lb/>given us of a memorable <hi rend="italic">Plague</hi>, <lb/>which
+          happened at <hi rend="italic">Digne</hi> in <hi rend="italic"> Pro- <lb/>vence</hi>, where
+          he lived, in the Year <lb/>1619. This was ſo terrible, that <lb/>in one <hi rend="italic"
+            >Summer</hi> out of <hi rend="italic">ten thouſand</hi>
+          <lb/>Inhabitants, it left but <hi rend="italic">fifteen hun- <lb/>dred</hi>, and of them
+          all but <hi rend="italic">five</hi> or <lb/><hi rend="italic">ſix</hi> had gone through
+          the <hi rend="italic">Diſeaſe</hi>. <lb/>And he aſſigns <hi rend="italic">this</hi>, as
+          the princi- <lb/>pal Cauſe of the great Deſtruction, <lb/>That the Citizens were too
+          cloſely <lb/>confined, and not ſuffered ſo much <lb/>as to go to their Country Houſes. <pb
+            xml:id="page_63" n="57"/>
+          <lb/>Whereas in another <hi rend="italic">Peſtilence</hi>, which <lb/>broke out in the
+          ſame Place a year <lb/>and half after, more Liberty being <lb/>allowed, there did not dye
+          above <lb/><hi rend="italic">one hundred</hi> Perſons. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">For</hi> theſe Reaſons, I think, to <lb/>allow People with proper <hi
+            rend="italic">Cautions</hi>
+          <lb/>to remove from an infected Place, <lb/>is the beſt Means to ſuppreſs the <lb/><hi
+            rend="italic">Contagion</hi>, as well as the moſt <lb/>humane Treatment of the preſent
+          <lb/>Sufferers: But though Liberty ought <lb/>to be given to the <hi rend="italic"
+            >People</hi>, yet no <lb/>ſort of <hi rend="italic">Goods</hi> muſt by any means be
+          <lb/>ſuffered to be carried over the <lb/><hi rend="italic">Line</hi>, which are made of
+            <hi rend="italic"> Mate- <lb/>rials</hi> retentive of <hi rend="italic">Infection</hi>.
+          For <lb/>in the preſent Caſe, when <hi rend="italic"> In- <lb/>fection</hi> has ſeized any
+          Part of a <lb/>Country, much greater Care ought <lb/>to be taken, that no <hi
+            rend="italic">Seeds</hi> of the <lb/><hi rend="italic">Contagion</hi> be conveyed about,
+          than <pb xml:id="page_64" n="58"/>
+          <lb/>when the Diſtemper is at a great <lb/>Diſtance; becauſe a <hi rend="italic">Bale of
+            Goods</hi>, <lb/>which ſhall have imbibed the <hi rend="italic"> Con- <lb/>tagious
+            Aura</hi> when packt up in <lb/><hi rend="italic">Turkey</hi>, or any remote Parts; yet,
+          <lb/>when unpackt here, may chance <lb/>to meet with ſo healthful a Tempe- <lb/>rament of
+          our Air, that it ſhall <lb/>not do much hurt. But when <lb/>the Air of any one of our
+          Towns <lb/>ſhall be ſo corrupted, as to ſpread <lb/>and maintain the <hi rend="italic"
+            >Peſtilence</hi> in it, <lb/>there will be little reaſon to believe, <lb/>that the Air
+          of the reſt of the <lb/>Country is in a much better State. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">For</hi> the ſame Reaſon <hi rend="italic"> Quaren- <lb/>tines</hi>
+          ſhould more ſtrictly be en- <lb/>joined, when the <hi rend="italic">Plague</hi> is in a
+          <lb/>bordering Kingdom, than when it <lb/><unclear>i</unclear>s more remote. </p>
+        <pb xml:id="page_65" n="59"/>
+        <p rend="indent space">
+          <lb/>I have gone through the chief <lb/>Branches of <hi rend="italic">Preſervation</hi>
+          againſt <lb/>the <hi rend="italic">Plague</hi>. And ſhall only add, <lb/>that if the <hi
+            rend="italic">Burning of Goods</hi>, which <lb/>has been propoſed, be thought a- <lb/>ny
+          Way <hi rend="italic">offenſive</hi> or <hi rend="italic">inconvenient</hi>, <lb/>The <hi
+            rend="italic">Burying</hi> of them ſix Feet, or <lb/>more, under Ground may anſwer
+          <lb/>the Purpoſe as well. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">What</hi> has been ſaid of the <hi rend="italic"> Na- <lb/>ture of
+            Contagion</hi>, upon which the <lb/>foregoing Directions are grounded, <lb/>may alſo be
+          of Uſe towards e- <lb/>ſtabliſhing a better Method of <lb/><hi rend="italic">Cure</hi>,
+          than <hi rend="italic">Authors</hi> have common- <lb/>ly taught: But to engage in this
+          <lb/>is beyond the preſent Deſign. </p>
+        <trailer rend="italic align-center">
+          <lb/>FINIS. </trailer>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LMEMT Corpus - Colbatch: A dissertation concerning misletoe</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>Sir John Colbatch</persName>
+            </author>
+            <title type="main">A dissertation concerning misletoe: a most wonderful specifick remedy
+              for the cure of convulsive distempers. ... By Sir John Colbatch, ... </title>
+            <edition n="1"/>
+            <idno type="ESTC">T113540</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/T113540"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>London: printed for William Churchill at the Black-Swan in
+                  Paternoster-Row, 1719.</persName>
+              </publisher>
+              <date>1719</date>
+            </imprint>
+            <extent>
+              <measure type="format">8⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="5"/>
+              <measure type="count" commodity="body" unit="page" quantity="30"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">British Library</orgName>
+            <idno type="ECCO">CW3310300451</idno>
+            <idno type="TCP">K090928.000 </idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Book on a specific topic: medicine"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text xml:lang="eng">
+    <front>
+      <div>
+        <pb xml:id="page_2" n="v"/>
+        <head rend="align-center">
+          <lb/>THE <lb/><hi rend="size(2)">PREFACE</hi>. </head>
+        <p rend="space">
+          <lb/><hi rend="dc(4)">I</hi>Have been many <lb/>Years a Debtor to <lb/>the World, and
+          ſince <lb/>I have not as yet been <lb/>able to pay off my old Scores, <lb/>to my own
+          Satisfaction, the <lb/>following Diſſertation comes <lb/>out by way of Compoſition: <pb
+            xml:id="page_3" n="vi"/>
+          <lb/>which I hope will be accepted <lb/>in part of Payment, till the <lb/>original Debt
+          can be diſ- <lb/>charged. </p>
+        <p rend="indent">
+          <lb/>That this comes out alone, <lb/>is from an Impreſſion that I <lb/>have had upon my
+          Spirits for <lb/>ſome Weeks paſt, that it <lb/>would be highly criminal in <lb/>me to let
+          another Miſletoe <lb/>Seaſon paſs, without inform- <lb/>ing the World what a Trea-
+          <lb/>ſure God Almighty has every <lb/>Year preſented to their View; <lb/>and that no body,
+          at leaſt <lb/>very few, have received any <lb/>Benefit from it. </p>
+        <p rend="indent">
+          <lb/>The Article of <hi rend="italic">Convulſions</hi>
+          <lb/>in the Bills of Mortality of <lb/>this great City, is by much the <pb xml:id="page_4"
+            n="vii"/>
+          <lb/>largeſt of any, very common- <lb/>ly amounting to about a fifth <lb/>Part of the
+          Whole; and, as <lb/>I have been credibly inform'd, <lb/>happens principally amongſt
+          <lb/>Infant Children: from whence <lb/>it ſeems plain, that a Gene- <lb/>rous
+          Anti-Convulſive Remedy <lb/>is wanting. I have publiſh'd <lb/>the Noble Qualities of this
+          <lb/>Wonderful Medicine, in the <lb/>moſt plain and familiar man- <lb/>ner, that thereby
+          it may be <lb/>rendred of more publick Uſe; <lb/>and I am not without the <lb/>greateſt
+          Hopes that People of <lb/>all Ranks will receive Benefit <lb/>from it. </p>
+        <p rend="indent">
+          <lb/>I hope I ſhall not be blamed <lb/>for the Earneſtneſs of my Re- <pb xml:id="page_5"
+            n="viii"/>
+          <lb/>commendation of this Neg- <lb/>lected, but Extraordinary <lb/>Plant; becauſe my only
+          Aim <lb/>in ſo doing, is to preſs People <lb/>to the Uſe of that, which <lb/>every Family
+          may one time or <lb/>other receive Advantage from. </p>
+        <p rend="indent">
+          <lb/>The Performance is rough <lb/>and unpoliſh'd; but I have <lb/>choſen rather to ſuffer
+          Re- <lb/>proach upon that account, <lb/>than let another Seaſon ſlip, <lb/>which I am
+          ſatisfied would be <lb/>to the Detriment of many. </p>
+      </div>
+    </front>
+    <body>
+      <pb xml:id="page_6" n="1"/>
+      <figure rend="space">
+        <figDesc>An ornamental horizontal column, depicting two angels holding an open book between
+          them. </figDesc>
+      </figure>
+      <head rend="align-center space">
+        <lb/>A <lb/><hi rend="size(1.75)">DISSERTATION </hi>
+        <lb/><hi rend="size(0.75)">CONCERNING </hi>
+        <lb/><hi rend="size(1.5) italic">MISLETOE. </hi>
+      </head>
+      <p rend="space">
+        <lb/><hi rend="dc(4)">H</hi>AVING ſome Years ſince <lb/>had a very terrible Inſtance <lb/>of
+        an Epileptical Caſe in one <lb/>that was moſt near and dear <lb/>unto me, and which baffled
+        all Endea- <lb/>vours that were uſed for his Recovery; <lb/>it occaſion'd me many ſad and
+        ſerious <lb/>Reflections upon the Subject. As he <pb xml:id="page_7" n="2"/>
+        <lb/>was daily before my Eyes, ſo his Diſ- <lb/>tress made the more ſenſible Impreſ-
+        <lb/>ſions upon me. I had recourſe to the <lb/>moſt Celebrated Remedies recommend- <lb/>ed
+        in all Ages, and the Aſſiſtance of <lb/>my Friends moſt Eminent in their <lb/>Profeſſion. </p>
+      <p rend="indent">
+        <lb/>Four or five Years were ſpent in <lb/>fruitleſs Attempts, he every Year grow- <lb/>ing
+        worſe and worſe, till at laſt he be- <lb/>came Cataleptick: he would be ſeiz'd <lb/>as he
+        was ſtanding, and continue in <lb/>that poſture like a lifeleſs Statue, with- <lb/>out Senſe
+        or Motion. When he was <lb/>ſo ſeiz'd, he was conſtantly laid upon <lb/>a Bed or Couch; his
+        Fit would laſt <lb/>ſome Hours: but I am confident, that <lb/>had he been let alone, he
+        would have <lb/>continued in the ſame poſture in which <lb/>he was ſeiz'd, during the whole
+        time <lb/>of the Fit. </p>
+      <p rend="indent">
+        <lb/>Being one day upon a Journey, I <lb/>ſaw ſome Hazle-Trees plentifully <lb/>ſtock'd with
+        Miſletoe. It immediately <lb/>enter'd into my Mind, that there muſt <pb xml:id="page_8"
+          n="3"/>
+        <lb/>be ſomething extraordinary in that un- <lb/>common beautiful Plant; that the
+        <lb/>Almighty had deſign'd it for farther <lb/>and more noble Uſes, than barely to <lb/>feed
+        Thruſhes, or to be hung up ſu- <lb/>perſtitiouſly in Houſes to drive away <lb/>evil Spirits;
+        and that the Miſletoe <lb/>that grew upon other Trees, was ca- <lb/>pable of being as
+        ſerviceable to Man- <lb/>kind, as that which grew upon the <lb/>Oak. </p>
+      <p rend="indent">
+        <lb/>Amongſt many other Authors that <lb/>have wrote concerning the Epilepſy, I <lb/>had
+        lately read <hi rend="italic">Marcus Marci</hi>, his <hi rend="italic"> Litur- <lb/>gia
+          Mentis</hi>; the moſt ſatisfactory Trea- <lb/>tiſe upon the Subject, as to Theory,
+        <lb/>that I have met with, and indeed to <lb/>lay a Foundation for a Phyſician to
+        <lb/>practiſe rationally in the Cure of all <lb/>Convulſive Diſtempers. </p>
+      <p rend="indent">
+        <lb/>Having made the moſt ſtrict Inquiry <lb/>into the Nature of Miſletoe that I <lb/>was
+        capable of, I concluded, <hi rend="italic">à priori</hi>, <lb/>That it was a Medicine very
+        likely to <lb/>ſubdue not only the Epilepſy, but all <pb xml:id="page_9" n="4"/>
+        <lb/>other Convulſive Diſorders, upon the <lb/>foot of <hi rend="italic">Marcus Marci</hi>'s
+        Hypotheſis. I <lb/>mean the ordinary and common Mi- <lb/>ſletoe. The Praiſes of Miſletoe of
+        <lb/>the Oak had been proclaim'd for many <lb/>Ages paſt, and none elſe eſteem'd or
+        <lb/>regarded, as to any Medicinal Virtue. </p>
+      <p rend="indent">
+        <lb/>The Youth before mentioned had <lb/>indeed taken Miſletoe in ſmall quan- <lb/>tities in
+        the <hi rend="italic">Pulvis de Guttetâ</hi>, and other <lb/>Compound Remedies recommended
+        <lb/>in Epileptical Caſes; but when I re- <lb/>flected that Miſletoe was but one In-
+        <lb/>gredient amongſt a <hi rend="italic">Farrago</hi> of others, <lb/>there was no
+        determining from the <lb/>Effects of thoſe Medicines, whether <lb/>Miſletoe were capable of
+        doing any <lb/>thing towards the conquering of ſo <lb/><hi rend="italic">Herculean</hi> a
+        Diſtemper. </p>
+      <p rend="indent">
+        <lb/>In reading the ſcatter'd and imper- <lb/>fect Accounts of the <hi rend="italic"
+          >Druids</hi>, formerly <lb/>Prieſts and Philoſophers in this Iſland <lb/>and other
+        neighbouring Countries, <lb/>who were had in the higheſt Venera- <lb/>tion by People of all
+        Ranks; I con- <lb/>jectur'd <pb xml:id="page_10" n="5"/>
+        <lb/>that this Veneration in great <lb/>meaſure proceeded from the Wonder- <lb/>ful Cures
+        they wrought by means of <lb/>the Miſletoe of the Oak: this Tree <lb/>being ſacred to them,
+        but none ſo, <lb/>that had not Miſletoe upon them; <lb/>which Conſideration alſo further
+        <lb/>prompted me to try common Miſle- <lb/>toe in its utmoſt extent. After I had <lb/>ſeen
+        ſome of its amazing Effects, I <lb/>conclude that it was from this Divine <lb/>Remedy that
+        they had almoſt Divine <lb/>Honours paid them. </p>
+      <p rend="indent">
+        <lb/>But Miſletoe of the Oak being the <lb/>only Miſletoe recommended as good <lb/>for any
+        thing, I was in great Straits <lb/>how to procure a quantity of it; for <lb/>I did not
+        remember in all my Tra- <lb/>vels to have ſeen any of it: ſo amongſt <lb/>all my
+        Acquaintance, from that time <lb/>to this, I do not know that I have met <lb/>with above two
+        that have. </p>
+      <p rend="indent">
+        <lb/>This put me upon conſidering whe- <lb/>ther or no the Miſletoe receiv'd any
+        <lb/>Advantage from the Tree upon which <pb xml:id="page_11" n="6"/>
+        <lb/>it grew, or whether all Miſletoe were <lb/>not the ſame. </p>
+      <p rend="indent">
+        <lb/>After my Thoughts had been ſome <lb/>time employ'd upon this Subject, I <lb/>concluded
+        that the Miſletoe of the <lb/>Crab, the Lime, the Pear, or any <lb/>other Tree, were of
+        equal Virtue with <lb/>that of the Oak, for the following <lb/>Reaſons; and which has been
+        con- <lb/>firm'd to me ſince by large Experience, <lb/>which is beyond every thing elſe. </p>
+      <p rend="indent">
+        <lb/>Now ſuppoſe that the Miſletoe of <lb/>the Oak does ſurpaſs that of all other
+        <lb/>Trees; yet from ten Years large Ex- <lb/>perience I find the ordinary Miſletoe <lb/>to
+        be the moſt Noble Medicine I ever <lb/>knew: and ſince it's every where to be <lb/>had, at
+        leaſt in this Iſland, it ought <lb/>to be eſteem'd as a great Bleſſing; and <lb/>if the
+        other excel it, thoſe that are <lb/>capable of procuring it, ought to <lb/>eſteem it
+        accordingly. </p>
+      <p rend="indent">
+        <lb/>But if the Miſletoe were in any <lb/>manner produced from the Tree upon <lb/>which it
+        grows, as the Gaul is from <pb xml:id="page_12" n="7"/>
+        <lb/>the Oak; then it might reaſonably be <lb/>expected that it ſhould partake of the
+        <lb/>Quality of the Tree that produces it, <lb/>as the Gaul does, having the ſame ſtip-
+        <lb/>tick Qualities with the Acorn, or the <lb/>Bark of the Tree. But as it's propa-
+        <lb/>gated by the way of Inoculating, or <lb/>Grafting, it's quite otherwiſe. </p>
+      <p rend="indent">
+        <lb/>An Apricock or a Peach grafted <lb/>upon a Plumb-Stock, or a fine Apple <lb/>or Pear
+        upon a Crab-Tree one, will <lb/>not produce Plumbs or Crabs, but <lb/>Apricocks and Peaches,
+        and fine Pears <lb/>and Apples. </p>
+      <p rend="indent">
+        <lb/>As far as I can learn, Miſletoe is <lb/>commonly propagated after the fol- <lb/>lowing
+        manner: There is a Bird ge- <lb/>nerally known by the Name of the <lb/>Miſletoe Thruſh;
+        which Name, I ſup- <lb/>poſe, it derives from its feeding upon <lb/>Miſletoe-Berries during
+        the Winter Sea- <lb/>ſon. From the Pulp of the Berries it <lb/>is nouriſhed, but the Seeds
+        are diſ- <lb/>charged with the Excrement undigeſted. <lb/>Now the Excrement being of a ſlimy
+          <pb xml:id="page_13" n="8"/>
+        <lb/>nature, ſticks faſt to the Branches of <lb/>the Trees upon which it falls; and if
+        <lb/>there be any Crack in the Bark, there <lb/>the Seed lodges itſelf, and produces a
+        <lb/>Plant the next Year. The Excrement <lb/>being of the nature of Birdlime, and
+        <lb/>Birdlime, as it's ſaid, being to be <lb/>made of the Berries of the Plant; I
+        <lb/>ſuppoſe gave riſe to that very old Say- <lb/>ing, That <hi rend="italic">Turdus cacat
+          in ſui Excidium.</hi>
+      </p>
+      <p rend="indent">
+        <lb/>It has been often propagated by cut- <lb/>ting a Slit into the Bark of a Tree, <lb/>and
+        ſticking in a Seed. I have been <lb/>told of one that has adorn'd his Trees <lb/>with it, to
+        make them delightful in the <lb/>Winter-Seaſon; and ſurely a more <lb/>beautiful Plant can
+        ſcarce be ſeen. </p>
+      <p rend="indent">
+        <lb/><hi rend="italic">Pliny</hi> ſays, That it is apt to exhauſt <lb/>and wear out the Tree
+        upon which it <lb/>grows: in which I am inclined to be- <lb/>lieve he was miſtaken. The
+        Reaſon, <lb/>I ſuppoſe, that induced him to be of <lb/>that Opinion, was, That it moſt fre-
+        <lb/>quently grows upon old Trees. Now <lb/>I conclude, that it more frequently <pb
+          xml:id="page_14" n="9"/>
+        <lb/>grows upon them than young ones, <lb/>becauſe the Twigs and Branches of <lb/>the old
+        Trees are more liable to Cracks <lb/>and Accidents than young ones are: <lb/>and being moſt
+        commonly ſeen upon <lb/>old Trees, he from thence concluded <lb/>that they were worn out by
+        it. </p>
+      <p rend="indent">
+        <lb/>There ſeems however to be a Dif- <lb/>ference betwixt this Plant and all other
+        <lb/>Trees propagated by Grafting or In- <lb/>oculating; they being moſt certainly
+        <lb/>intirely nouriſhed by the Juice of the <lb/>Stock into which they are inſerted:
+        <lb/>notwithſtanding which, as is before <lb/>obſerv'd, they change the Nature of <lb/>the
+        Juice, brought up by the Stock, <lb/>into their own. But whether Miſletoe <lb/>receives its
+        full Nouriſhment from the <lb/>Juice of the Tree, ſeems to me a <lb/>Doubt. It's true, it
+        continues alive <lb/>during the Summer, but it does not <lb/>begin to flouriſh and appear in
+        Vi- <lb/>gour, till the Sap of the Tree is fallen, <lb/>or otherwiſe ſpent, and the Leaves
+        <lb/>dropt. Its Berries are full ripe, and <pb xml:id="page_15"/>
+        <lb/>in perfection, about the latter end of <lb/><hi rend="italic">December</hi>; and the
+        more rigorous and <lb/>ſevere the Weather is, the more vigo- <lb/>rous and flouriſhing is
+        the Miſletoe. <lb/>Now conſidering that the Sap or nu- <lb/>tritious Juice of the Tree is at
+        this <lb/>time in a manner ſpent, I am inclin'd <lb/>to conjecture that it derives its
+        princi- <lb/>pal Support from the Air. I have <lb/>had ſome thoughts that it was no hard
+        <lb/>matter to try, by eaſy Experiments, <lb/>whether this be ſo or not; but being
+        <lb/>confin'd to the Town, I have wanted <lb/>Conveniencies of ſo doing. </p>
+      <p rend="indent">
+        <lb/>How it thrives in hot Countries, or <lb/>whether it ever grows upon thoſe Trees
+        <lb/>that never caſt their Leaves, I am ig- <lb/>norant of. </p>
+      <p rend="indent">
+        <lb/>Of all the antient Authors that take <lb/>notice of it, which I have read, <hi
+          rend="italic">Pliny</hi>
+        <lb/>in his <hi rend="italic">Natural Hiſtory</hi> ſeems to be moſt <lb/>full; but what he
+        ſays, is little to <lb/>the purpoſe: and almoſt every body <lb/>elſe recommends Miſletoe of
+        the Oak <lb/>in Epileptical Caſes, but none of them <pb xml:id="page_16" n="11"/>
+        <lb/>give Directions how even that ſhould <lb/>be uſed in a rational manner. </p>
+      <p rend="indent">
+        <lb/>Amongſt the Moderns, the Ho- <lb/>nourable Mr. <hi rend="italic">Boyle</hi>, in the
+        ſecond Part <lb/>of his <hi rend="italic">Uſefulneſs of Experimental Philoſo- <lb/>phy</hi>,
+        pag. 174. gives the following Re- <lb/>lation. </p>
+      <p rend="indent">
+        <lb/>
+        <q rend="diple quotes">A young Lady of great Birth <lb/>having been long troubled with an
+          <lb/>almoſt Hereditary Epileptical Diſ- <lb/>temper, and after having been wea- <lb/>ry'd
+          by Courſes of Phyſick preſcrib'd <lb/>her by the famouſeſt Doctors that <lb/>could be
+          procured, without at all <lb/>mending, but rather growing worſe; <lb/>ſo that ſometimes
+          ſhe would have in <lb/>one day eight or ten of ſuch diſmal <lb/>Fits as you and I have
+          ſeen her in; <lb/>was cured only by the Powder of the <lb/>true Miſletoe of the Oak, given
+          as <lb/>much as would lie upon a Sixpence, <lb/>early in the Morning, in Black-
+          <lb/>Cherry Water, or even in Beer, for <lb/>ſome days near the full Moon. And <lb/>I am
+          aſſured, partly by the Patient <pb xml:id="page_17" n="12"/>
+          <lb/>herſelf, and partly by thoſe that <lb/>gave her the Medicine, that though <lb/>it had
+          ſcarce any ſenſible Operation <lb/>upon her, and did not make her <lb/>ſickiſh, eſpecially
+          when ſhe ſlept upon <lb/>it; yet after the firſt day ſhe took <lb/>it, ſhe never had but
+          one Fit. And <lb/>this Remedy an antient Gentleman, <lb/>who, being caſually preſent when
+          ſhe <lb/>ſuddenly fell down as dead, gave it <lb/>her, profeſſed himſelf conſtantly to
+          <lb/>have cured that Diſtemper with it, <lb/>when he could procure the right Sim-
+          <lb/>ple, which is here exceeding ſcarce. <lb/>And what further Experiments ſome
+          <lb/>Friends of yours have ſucceſſfully <lb/>made, I may elſewhere have occa- <lb/>ſion to
+          relate. </q>
+      </p>
+      <p rend="indent">
+        <lb/>My moſt worthy Friend Dr. <hi rend="italic">Cole</hi>, <lb/>encouraged by the common
+        Voice of <lb/>Antiquity, and being farther prompted <lb/>to it by this Relation of Mr. <hi
+          rend="italic">Boyle</hi>, <lb/>was induced to try what it would do <lb/>upon a Patient
+        that fell into his hands <lb/>by the Death of his former Phyſician, <pb xml:id="page_18"
+          n="13"/>
+        <lb/>who for three Months had in vain been <lb/>attempting his Cure. He relates the
+        <lb/>Caſe and the Circumſtances of his <lb/>Cure as follows. </p>
+      <p rend="indent">
+        <q rend="diple quotes">
+          <lb/>A certain Youth of a ſprightly <lb/>Genius, of about fifteen Years of <lb/>Age, who
+          at firſt had laboured un- <lb/>der a Fever, from which he was per- <lb/>fectly freed, was
+          ſoon after attack'd <lb/>with an Epileptical Fit, which was <lb/>about three Months ſince:
+          after a <lb/>few days another, and after that with <lb/>many, but without any regular Pe-
+          <lb/>riods. Theſe Fits had ſo affected <lb/>his Nerves, and brought ſuch a <lb/>Weakneſs
+          upon all his Joints, that <lb/>he could not walk without difficulty, <lb/>nor lift the
+          Weight of a few Ounces <lb/>with his Hands, nor hold a Pen to <lb/>write withal, in which
+          he before ex- <lb/>celled. To this Youth various Re- <lb/>medies having before been given
+          <lb/>without ſucceſs, I preſcribed a Vo- <lb/>mit of Salt of Vitriol; then a Purge <lb/>or
+          two with ſome Calomel. After- <pb xml:id="page_19" n="14"/>
+          <lb/>wardsI took care that Miſletoe of <lb/>the Oak ſhould be given him twice <lb/>a day,
+          with ſome Cephalick Vehicle; <lb/>and the Apothecary had procured <lb/>the Miſletoe that
+          was genuine: (Hap- <lb/>py he! for to this time I could ne- <lb/>ver procure any.)
+          Proceeding in <lb/>this order, his Fits never returned. <lb/>The Miſletoe being continued
+          to <lb/>this time, he ſenſibly perceiv'd a <lb/>gradual Reſtoration of the Strength
+          <lb/>of all the Parts; ſo that he could <lb/>now not only walk, but run, and <lb/>write
+          elegantly, of which I was an <lb/>Eye-witneſs. So that I have reaſon <lb/>to hope, that
+          from the continued <lb/>Uſe of this Medicine, he may be per- <lb/>fectly freed from his
+          Illneſs, <hi rend="italic">&amp;c.</hi>
+        </q>
+      </p>
+      <p rend="indent">
+        <lb/>The Good Doctor was one of thoſe <lb/>that afforded his utmoſt Aſſiſtance to <lb/>the
+        diſtreſſed Youth before mention'd; <lb/>but no Miſletoe of the Oak being to <lb/>be
+        procured, all other Miſletoe was <lb/>look'd upon as deſpicable; and the <lb/>reaſon why the
+          <hi rend="italic">Pulvis de Guttetâ</hi> did no <pb xml:id="page_20" n="15"/>
+        <lb/>good, was judg'd to proceed from the <lb/>Apothecaries making uſe of common
+        <lb/>Miſletoe in the Compoſition of it, in- <lb/>ſtead of that of the Oak. But be that
+        <lb/>as it will, and let the Difference be <lb/>never ſo great, the quantity of Miſle-
+        <lb/>toe in that Compoſition is ſo ſmall, <lb/>as to render it of no effect. And as <lb/>for
+        the Miſletoe contain'd in the Anti- <lb/>Epileptick Waters, the Great <hi rend="italic"
+          >Zwelfer</hi>
+        <lb/>has remark'd, that it will not yield any <lb/>of its Virtues by ordinary Diſtillation. </p>
+      <p rend="indent">
+        <lb/>Miſletoe of the Oak not being to <lb/>be obtain'd, I furniſh'd myſelf with a <lb/>large
+        quantity of that of the Lime; <lb/>the Trees in one of the Parks at <lb/><hi rend="italic"
+          >Hampton-Court</hi> affording great plenty, <lb/>at leaſt they did ſo at that time. I
+        <lb/>order'd it to be gather'd at the latter <lb/>end of <hi rend="italic">December:</hi>
+        The Leaves, Ber- <lb/>ries, and very tender Twigs, I got <lb/>dry'd over a Baker's Oven,
+        where <lb/>there was a conſtant gentle Heat, and <lb/>then had it made into very fine Pow-
+        <lb/>der, to be put into a Glaſs cover'd with <pb xml:id="page_21" n="16"/>
+        <lb/>Bladder or Leather, and kept in a very <lb/>dry place. If it be not kept cloſe <lb/>and
+        dry, it will contract a Dampneſs, <lb/>grow mouldy, and be good for no- <lb/>thing: If it be
+        ſcorch'd by the Fire in <lb/>drying, it will alſo be ſpoil'd, and of <lb/>no effect. </p>
+      <p rend="indent">
+        <lb/>The larger Stalks muſt alſo be care- <lb/>fully dry'd and preſerv'd, for Decoc-
+        <lb/>tions and Infuſions. </p>
+      <p rend="indent">
+        <lb/>Furniſh'd with my Medicine, though <lb/>of no Reputation, not being ſuſpended <lb/>upon
+        the Oak; I was very impatient <lb/>to ſee the Effect of it, and immediate- <lb/>ly went to
+        work with it. </p>
+      <p rend="indent">
+        <lb/>The diſtreſſed Youth had for five <lb/>Years been labouring in vain, and eve- <lb/>ry
+        Month grew worſe and worſe; ſo <lb/>that his Conſtitution both of Body <lb/>and Mind were
+        ſpoil'd to ſuch a de- <lb/>gree, that I could not be ſo preſump- <lb/>tuous as to hope for a
+        Cure: The ut- <lb/>moſt I could wiſh for, was ſome Re- <lb/>lief, and to render the
+        Remainder of <lb/>his Life ſomeway comfortable to him. </p>
+      <pb xml:id="page_22" n="17"/>
+      <p rend="indent">
+        <lb/>From being one of the ſprightlieſt <lb/>of Youths at Twelve Years of Age, at
+        <lb/>Seventeen he was a perfect Mope, a <lb/>moſt melancholy Spectacle both in and <lb/>out
+        of his Fits. However, bad as he <lb/>was, having carefully inquired into <lb/>the Nature of
+        my Medicine, I went <lb/>to work with it; I was ſure it could <lb/>do him no hurt, if it did
+        him no <lb/>good. </p>
+      <p rend="indent">
+        <lb/>His Fits in the beginning kept pace <lb/>with the Moon, rarely having any <lb/>but
+        about the New or the Full; but <lb/>in Tract of Time he had them at all <lb/>Seaſons: ſo I
+        began with him, with- <lb/>out any regard to that Affair. </p>
+      <p rend="indent">
+        <lb/>From the firſt I gave him half a <lb/>Dram of the Powder, made into a <lb/>Bolus with
+        Syrup of Pioneys, every <lb/>ſix Hours; and after it a large Draught <lb/>of a ſtrong
+        Infuſion of the Stalks <lb/>bruiſed, and ſweetned with Syrup of <lb/>Pioneys. </p>
+      <p rend="indent">
+        <lb/>To my great ſurprize he had not <lb/>one Fit from the time he began to take <pb
+          xml:id="page_23" n="18"/>
+        <lb/>this Glorious Medicine for a Month <lb/>or more, and never one Cataleptick <lb/>Fit to
+        the day of his Death. He con- <lb/>tinued to take it on for three Years, <lb/>but after ſome
+        Months, only Night <lb/>and Morning; and in the main, du- <lb/>ring that whole Space, he
+        enjoy'd his <lb/>Health tolerably well. But as his <lb/>Memory had been almoſt intirely loſt
+        <lb/>by the former Five-Years Calamity, ſo <lb/>it was not judg'd proper to ſet him to
+        <lb/>any ſort of hard Study, or employ <lb/>him in any Buſineſs that ſhould give <lb/>him
+        any trouble: Upon which ſcore it <lb/>was thought neceſſary to ſend him into <lb/>the
+        Country, to a good AIr, with one <lb/>conſtantly to keep him company, and <lb/>to ſecure him
+        againſt Accidents. </p>
+      <p rend="indent">
+        <lb/>There he lived, with great Com- <lb/>fort to himſelf, and Pleaſure to thoſe <lb/>he
+        convers'd with; and was ſome- <lb/>times capable of applying himſelf to <lb/>his Studies. He
+        would now and then <lb/>have a Fit, but ſometimes not one in <lb/>three Months; and thoſe
+        Fits he had, <pb xml:id="page_24" n="19"/>
+        <lb/>very favourable ones, which he had al- <lb/>ways Warnings of before-hand, ſo that
+        <lb/>he could be truſted on horſeback. </p>
+      <p rend="indent">
+        <lb/>At laſt he was taken ill, in a man- <lb/>ner different from what he had former- <lb/>ly
+        been, and died in about four and <lb/>twenty Hours. I could not ſee him <lb/>after he was
+        dead, but deſired that his <lb/>Head ſhould be open'd; having great <lb/>reaſon to believe,
+        that the beginning <lb/>of his Illneſs proceeded from an un- <lb/>fortunate Blow upon the
+        left Temple, <lb/>in which Part he would often com- <lb/>plain of great Pain, eſpecially in
+        the <lb/>firſt part of his Illneſs, before he be- <lb/>came ſtupid. And the Account I had
+        <lb/>of that matter, was, That there was <lb/>a blackiſh Spot upon the <hi rend="italic"
+          >Dura Mater</hi>, <lb/>of the bigneſs of a Shilling, juſt under <lb/>the <hi rend="italic"
+          >Os Temporis</hi>. </p>
+      <p rend="indent">
+        <lb/>It's true here was no Cure, neither <lb/>could I expect one: I had the utmoſt
+        <lb/>Succeſs I could reaſonably propoſe to <lb/>myſelf, which was to render the ſhort
+        <lb/>Remains of a miſerable Life com- <pb xml:id="page_25" n="20"/>
+        <lb/>fortable and eaſy: And by ſo doing, <lb/>to have a reaſonable Opportunity of
+        <lb/>introducing to the World a moſt Glo- <lb/>rious and Uſeful Medicine; which has <lb/>one
+        peculiar Property attending it, <lb/>That it is capable of doing the greateſt <lb/>Good in
+        the moſt formidable of Diſ- <lb/>eaſes, and, I dare ſay, will never do <lb/>any Hurt. </p>
+      <p rend="indent">
+        <lb/>The Jeſuits Bark is a moſt Noble <lb/>Medicine in Fevers regularly intermit- <lb/>ting,
+        and in ſome other Caſes: but I <lb/>have frequently known the Miſapplica- <lb/>tion of it,
+        of terrible and fatal conſe- <lb/>quence. But for Miſletoe, I dare en- <lb/>gage for it,
+        that it will never hurt any <lb/>one; and tho it be ſo innocent, yet it <lb/>will frequently
+        cure Diſeaſes, that in <lb/>appearance (as the Great Dr. <hi rend="italic">Willis</hi> re-
+        <lb/>preſents them, in his Deſcription of <lb/>the Epilepſy, in his Tract <hi rend="italic"
+          >de Morbis <lb/>Convulſivis</hi>) do not much differ from <lb/>thoſe we read of in the
+        Goſpels, that <lb/>were cured by the Redeemer of the <lb/>World, the Eternal Son of God: But
+          <pb xml:id="page_26" n="21"/>
+        <lb/>his Cures were wrought by a Word, <lb/>and not by Medicines. Glory be to <lb/>him, that
+        in the abſence of himſelf <lb/>has created ſuch Medicines for the Re- <lb/>lief of the
+        Diſtreſſed, as this I am <lb/>treating of! </p>
+      <p rend="indent">
+        <lb/>No one can think that I am ſo far <lb/>diveſted of Reaſon, as to recommend <lb/>this
+        Medicine in the manner I do, <lb/>there not being the leaſt Proſpect of <lb/>Advantage to
+        myſelf in it; but that I <lb/>am ſure of its Effects, from thorough <lb/>Experience, and
+        that I have all ima- <lb/>ginable Reaſon to believe that it will <lb/>prove of general
+        advantage to the <lb/>World: there not being a Family, to <lb/>which it may not at one time
+        or other <lb/>be of the greateſt uſe. </p>
+      <p rend="indent">
+        <lb/>I have many times known about a <lb/>Scruple of the Powder, mix'd with a <lb/>little
+        Black-Cherry Water, reſtore Chil- <lb/>dren that have been agonizing with <lb/>the moſt
+        exquiſite Convulſions that <lb/>can be conceived; but then it has been <lb/>repeated in leſs
+        quantity very often, <pb xml:id="page_27" n="22"/>
+        <lb/>till they were perfectly well. I hardly <lb/>ever knew it given to Children with-
+        <lb/>out advantage: A Cure is not always <lb/>to be expected, but Relief is a great
+        <lb/>Bleſſing in ſuch miſerable Diſeaſes. </p>
+      <p rend="indent">
+        <lb/>It's good in their Gripes, either to <lb/>obtund the Acrimony of the Bile or
+        <lb/>Pancreatick Juices; and if they will <lb/>not take it any other way, may be <lb/>given
+        in their Pap, Pannadoe, or Breaſt- <lb/>Milk. Even to Infants there can be <lb/>no Error in
+        giving them too much, <lb/>but the more they take, the better; it <lb/>being of a nouriſhing
+        Quality, and no <lb/>ways hot, or in the leaſt tending to <lb/>throw them into a Fever; nay,
+        is ra- <lb/>ther of itſelf a Febrifuge. I have often <lb/>found it of great uſe in the
+        diſmal <lb/>ſlow Fevers, attended with Convulſive <lb/>Symptoms. </p>
+      <p rend="indent">
+        <lb/>I have never, through the Courſe of <lb/>my Practice, ſeen but two Perſons la-
+        <lb/>bouring under that frightful Diſtemper <lb/>called the <hi rend="italic">Chorea Sancti
+          Vitis</hi>, or St. <hi rend="italic"> Vi- <lb/>tes</hi>'s Dance; or at leaſt that might be
+          <pb xml:id="page_28" n="23"/>
+        <lb/>truly called ſo. The firſt was before <lb/>I knew the Uſe of Miſletoe: She had <lb/>the
+        Aſſiſtance of other Phyſicians be- <lb/>ſides me; but in ſpite of all that could <lb/>be
+        done, ſhe died miſerably. </p>
+      <p rend="indent">
+        <lb/>About three Years ſince, the ſecond, <lb/>a Girl of about Seven Years of Age, <lb/>was
+        brought to me. Every Muſcle of <lb/>her ſeem'd to be convuls'd; if ſhe were <lb/>upon her
+        Feet, ſhe was always danc- <lb/>ing, and throwing her Arms about; the <lb/>Muſcles of her
+        Face would be variouſ- <lb/>ly diſtorted, and her Head moving <lb/>backward or forward, or
+        from ſide to <lb/>ſide, ſo as to be a moſt moving Ob- <lb/>ject of Compaſſion. If ſhe were
+        in <lb/>Bed, ſhe was under the ſame Circum- <lb/>ſtances; one being obliged to be con-
+        <lb/>ſtantly by her, to keep the Clothes <lb/>upon her, and ſhe had no Sleep. She <lb/>took
+        about two Drams of the Powder <lb/>every day, and by that time ſhe had <lb/>taken twelve or
+        fourteen Ounces, ſhe <lb/>was made perfectly well, and ſo con- <lb/>tinues. She grew better
+        by that time <pb xml:id="page_29" n="24"/>
+        <lb/>ſhe had taken it two days, and in a <lb/>manner well in about a Fortnight; but <lb/>I
+        order'd the Continuance of the Me- <lb/>dicine, till ſhe had taken the quantity <lb/>before
+        mention'd, to ſecure her againſt <lb/>Returns. </p>
+      <p rend="indent">
+        <lb/>I have an intimate Acquaintance, <lb/>an exellent Gentlewoman, who had <lb/>labour'd
+        under Convulſive Diſorders <lb/>for twenty Years, and did not want the <lb/>beſt Advice; her
+        Life was render'd <lb/>thoroughly miſerable: But by the Uſe <lb/>of the Powder of Miſletoe
+        for a Year <lb/>or two, ſhe is become perfectly well, <lb/>enjoying the Comfort of Life as
+        much <lb/>as any one does. </p>
+      <p rend="indent">
+        <lb/>I have known ſo many Inſtances, <lb/>both in Young and Old, in Rich and <lb/>Poor of
+        both Sexes, ſome of whom <lb/>had been many Years afflicted with <lb/>Epilepſies, and other
+        Convulſive Diſ- <lb/>orders, that have been either cured or <lb/>received Benefit from this
+        Divine Re- <lb/>medy; that I think myſelf bound in <lb/>Conſcience to divulge the Uſe of it
+        to <pb xml:id="page_30" n="25"/>
+        <lb/>the World; ſince, as I have be- <lb/>fore obſerv'd, it is capable of doing <lb/>greater
+        things than ever I knew per- <lb/>form'd by any one Remedy, and <lb/>I think it uncapable of
+        doing any <lb/>Hurt. </p>
+      <p rend="indent">
+        <lb/>Another principal Reaſon that has <lb/>induced me to it, is for the ſake of <lb/>the
+        Poor, the Meaneſt being able to <lb/>procure it as well as the Rich, and <lb/>that it wants
+        little or no Skill in the <lb/>Adminiſtration of it. </p>
+      <p rend="indent">
+        <lb/>Whilſt the Virtues of Miſletoe were <lb/>confin'd to that of the Oak only, it <lb/>was
+        of little or no Uſe to the World, <lb/>as not being to be procured. I have <lb/>been five
+        and thirty Years a diligent <lb/>Searcher after it, but never could yet <lb/>ſee one Sprig;
+        and as I have before <lb/>obſerv'd, have never met with above <lb/>two that had. If the
+        common Miſle- <lb/>toe that is to be met with in every <lb/>County of our Fortunate Iſland,
+        is <lb/>capable of doing as great things, as <lb/>have ever been recorded of the Miſle- <pb
+          xml:id="page_31" n="26"/>
+        <lb/>toeof the Oak; I ſhall have that <lb/>Pleaſure and Satisfaction of Mind, <lb/>which
+        generally redounds to thoſe <lb/>that have the Happineſs of being Be- <lb/>nefactors to the
+        Age they live in, <lb/>which I have in every Part and Cir- <lb/>cumſtance of Life
+        endeavour'd. </p>
+      <p rend="indent">
+        <lb/>But if from the common Voice of <lb/>all Ages, and the modern Inſtances I <lb/>have
+        produced, Miſletoe of the Oak <lb/>muſt ſtill be prefer'd; I do not doubt <lb/>but every Oak
+        in <hi rend="italic">England</hi> may be <lb/>made to produce Miſletoe, by the Me- <lb/>thod
+        I have before propos'd. And <lb/>perhaps the <hi rend="italic">Druids</hi> took that Method
+        <lb/>to propagate it upon ſuch Oaks as <lb/>were for their turn. And when that <lb/>can be
+        had in plenty, it will be no <lb/>great difficulty to diſtinguiſh whether <lb/>it excels or
+        not: But I am really of <lb/>opinion, that all Miſletoe is the ſame, <lb/>for the Reaſons
+        before alledg'd. </p>
+      <p rend="indent">
+        <lb/>In this Diſſertation I have carefully <lb/>avoided entering into the Reaſon why
+        <lb/>Miſletoe is ſo excellent a Remedy in <pb xml:id="page_32" n="27"/>
+        <lb/>Epilepſies, and of conſequence in all <lb/>other Convulſive Diſtempers; but re-
+        <lb/>commend it to the Uſe of the World <lb/>from the large Experience I have had <lb/>of
+        it, which is the ſame way that the <lb/>famous <hi rend="italic">Peruvian</hi> Bark was
+        uſher'd in: <lb/>and perhaps the Experience of future <lb/>Practitioners may make that
+        matter <lb/>more clear, than at preſent I am ca- <lb/>pable of doing. Nay, ſhould I at-
+        <lb/>tempt it, it would ſwell the Bulk, and <lb/>of conſequence the Price of this Diſ-
+        <lb/>ſertation, and be of no advantage to <lb/>the ordinary ſort of People, whoſe
+        <lb/>Benefit by this Publication I propoſe <lb/>as much as the Rich. </p>
+      <p rend="indent">
+        <lb/>I began with it upon a Rational <lb/>Foundation, and the Succeſs has an- <lb/>ſwer'd my
+        Expectation, even to my <lb/>Amazement in ſome Inſtances. I <lb/>don't doubt but others will
+        try whe- <lb/>ther what I have ſaid be true; and <lb/>when they ſee that it anſwers their
+        Ex- <lb/>pectations alſo, I hope it will exerciſe <lb/>the fine Genius's of the Age, to draw
+          <pb xml:id="page_33" n="28"/>
+        <lb/>Conſequences from it, that may be <lb/>of great uſe. </p>
+      <p rend="indent">
+        <lb/>As the Bark does ſometimes want <lb/>an Auxiliary, to enable it intirely to
+        <lb/>overcome an obſtinate Quartan Ague; <lb/>ſo I have ſometimes found that Miſle- <lb/>toe
+        has done better in ſome obſtinate <lb/>old Epilepſies, with the aſſiſtance of <lb/>an
+        Auxiliary, than alone. </p>
+      <p rend="indent">
+        <lb/>A Dram of <hi rend="italic">Sal Martis</hi> added to an <lb/>Ounce of the Bark, will
+        make that <lb/>Ounce more effectually to cure an in- <lb/>veterate Quartan, than ſix times
+        the <lb/>quantity of the Bark alone will do <lb/>without it: So I have ſometimes <lb/>known
+        a Dram of <hi rend="italic">Aſſa-foetida</hi> added <lb/>to an Ounce of the Miſletoe Powder,
+        <lb/>and made into an Electuary, make it <lb/>act much more powerfully than a- <lb/>lone. </p>
+      <p rend="indent">
+        <lb/>Gentle Purging, and ſometimes <lb/>Bleeding, are uſeful before the giving <lb/>of the
+        Miſletoe: but I have been for <lb/>ſome Years afraid of giving Vomits, <lb/>even of the
+        gentleſt ſort, in Convul- <pb xml:id="page_34" n="29"/>
+        <lb/>ſive Diſtempers, from ſome terrible <lb/>Accidents that have been like to enſue,
+        <lb/>from moderate Doſes of Ipecacuana <lb/>itſelf; the ſafeſt, and perhaps the beſt
+        <lb/>Vomit, that ever was made known <lb/>to the World, barely as a Vomit to <lb/>cleanſe
+        the Stomach. </p>
+      <p rend="indent">
+        <lb/>If the Plant be not dry'd, powder'd, <lb/>and preſerv'd in the manner I have
+        <lb/>directed, there is ſcarce any other way <lb/>of keeping it, but that it will be ren-
+        <lb/>dred intirely uſeleſs. This I deſire <lb/>may be carefully obſerv'd by every <lb/>body. </p>
+      <p rend="indent">
+        <lb/>I don't doubt but even Miſletoe of <lb/>the Oak itſelf, or what People have <lb/>called
+        ſo, has often unſucceſſfully been <lb/>given, from not being gather'd in <lb/>right time; or
+        if it has been ſo, ei- <lb/>ther ill dry'd, or not carefully pre- <lb/>ſerved afterwards. </p>
+      <p rend="indent">
+        <lb/>From the Hints I have given, I <lb/>hope others will be diſpoſed to try <lb/>this
+        Medicine to a further Extent than <lb/>I have been able to do: I have been <pb
+          xml:id="page_35" n="30"/>
+        <lb/>cramp'd in it, becauſe it was not to <lb/>be had in more than two Apotheca- <lb/>ries
+        Shops, that I could depend upon <lb/>for its being regularly managed. But <lb/>for the
+        future, ſince it will put them <lb/>but to very ſmall Expence, I hope no <lb/>Shop in the
+        Kingdom will be with- <lb/>out it. </p>
+      <p rend="indent">
+        <lb/>If any one will be ſo good, as to <lb/>communicate to me any, either Medi- <lb/>cinal
+        or Natural Obſervations, that <lb/>they have already, or ſhall hereafter <lb/>make, in
+        relation to the Subject here <lb/>treated of, they ſhall not fail of my <lb/>moſt Grateful
+        Acknowledgments. </p>
+      <trailer rend="italic align-center size(1.5)">
+        <lb/>FINIS. </trailer>
+    </body>
+  </text>
+</TEI>

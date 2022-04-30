@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LMEMT Corpus - Frewen: Some reasons given against an opinion</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>Thomas Frewen</persName>
+            </author>
+            <title type="main">SOME REASONS GIVEN AGAINST AN OPINION THAT A person infected with the
+              small-pox may be cured by Antidote without incurring the Distemper: WITH An attempt to
+              explain the manner of the propagation and eruption of the Small-pox from the practice
+              of Inoculation; and why this distemper, taken, by common infection, in the natural
+              way, proves so much more fatal than that which is given by Inoculation.</title>
+            <edition n="1"/>
+            <idno type="ESTC">T117462</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/T117462"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>London: printed for J. Wilkie, at the Bible, in St. Paul's Church-Yard,
+                  MDCCLIX. </persName>
+              </publisher>
+              <date>1759</date>
+            </imprint>
+            <extent>
+              <measure type="format">8⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="5"/>
+              <measure type="count" commodity="body" unit="page" quantity="39"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">British Library</orgName>
+            <idno type="ECCO">CW108607091</idno>
+            <idno type="TCP">K094122.000</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Book on a specific topic: disease"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text xml:lang="eng">
+    <front>
+      <div>
+        <pb xml:id="page_2"/>
+        <head rend="align-center"><lb/>TO THE <lb/><hi rend="dc(2)">ROYAL SOCIETY</hi>. </head>
+        <salute><hi rend="dc(2) italic">Honoured Sirs! </hi></salute>
+        <p rend="indent"><lb/><hi rend="dc(3)">I</hi>N the following pages are <lb/>contained ſome
+          reaſons <lb/>why the contagious poiſon <lb/>of the <hi rend="italic">Small-pox,</hi>
+          received <lb/>into the human body, <w part="I">can-</w><lb/><w part="F">not</w> be
+          extinguiſhed, or <w part="I">ex-</w><lb/><w part="F">pelled</w> by any Antidote, or
+          <lb/>other means than what nature <lb/>effects in producing the <w part="I"
+            >diſ-</w><lb/><w part="F">temper</w>. I have alſo <w part="I">endea-</w><lb/><w part="F"
+            >voured</w> to explain the <w part="I">man-</w><pb xml:id="page_3" n="vi"/><lb/><w
+            part="F">ner</w> of the propagation and <lb/>eruption of the <hi rend="italic"
+            >Small-pox</hi>
+          <lb/>from the practice of <hi rend="italic">inocula-<lb/>tion;</hi> and why this <w
+            part="I">diſtem-</w><lb/><w part="F">per</w>, taken, by common <w part="I"
+            >in-</w><lb/><w part="F">fection</w>, in the natural way, <lb/>proves ſo much more fatal
+          <lb/>than that which is given by <lb/><hi rend="italic">inoculation.</hi>
+        </p>
+        <p rend="indent"><lb/>The reaſons that have <w part="I">in-</w><lb/><w part="F">duced</w> me
+          to preſent you <lb/>with this ſhort account from <lb/>the preſs, were by no means
+          <lb/>owing to a conſciouſneſs of <lb/>my having cleared up theſe <lb/>matters to any
+          degree of <pb xml:id="page_4" n="vii"/><lb/>certainty; but becauſe I do <lb/>not remember
+          to have ſeen <lb/>any thing of this kind <w part="I">at-</w><lb/><w part="F">tempted</w>
+          before; and in <lb/>hopes that my endeavours <lb/>may be the means of <w part="I"
+            >em-</w><lb/><w part="F">ploying</w> the thoughts of <w part="I">o-</w><lb/><w part="F"
+            >thers</w> to explain theſe laws of <lb/>Nature to a greater degree <lb/>of perfection. </p>
+        <p rend="indent"><lb/>Theſe inducements have <lb/>encouraged me in this <w part="I"
+            >Ad-</w><lb/><w part="F">dress</w> to your learned <w part="I">Socie-</w><lb/><w
+            part="F">ty</w>; to which the World <lb/>will ever be indebted for the <lb/>improvement
+          of Art and <w part="I">Sci-</w><pb xml:id="page_5" n="viii"/><lb/><w part="F">ence</w>;
+          and I hope they may <lb/>be admitted, as a neceſſary <lb/>apology, for this <w part="I"
+            >preſump-</w><lb/><w part="F">tion</w>. </p>
+        <p rend="indent hanging"><lb/>I am, <lb/>Honoured <hi rend="sc">Sirs</hi>, <lb/>Your moſt
+          reſpectful, <lb/><hi rend="sc">and</hi>
+          <lb/>Moſt obedient Servant, <lb/><hi rend="sc">Thomas Frewen</hi>. </p>
+      </div>
+    </front>
+    <body>
+      <div>
+        <pb xml:id="page_6"/>
+        <head rend="italic indent hanging"><lb/>Some reaſons why the Contagion of <lb/>the
+          Small-Pox, received into the <lb/>human body, cannot be <w part="I">extin-</w><lb/><w
+            part="F">guiſhed</w> or expelled by any <w part="I">Anti-</w><lb/><w part="F">dote</w>,
+          or other means than what <lb/>Nature effects in producing the <lb/>diſtemper. </head>
+        <p rend="indent"><lb/><hi rend="dc(3)">T</hi>HAT moſt celebrated <w part="I">Pro-</w><lb/><w
+            part="F">feſſor</w>, the learned <hi rend="italic">Dr. <w part="I">Boer-</w><lb/><w
+              part="F">haave</w>,</hi> was of opinion that there <lb/>is to be found out, in Nature,
+          ſuch <lb/>a kind of medicine as would have <lb/>the ſpecific power of extinguiſhing,
+          <lb/>or eradicating the Contagion of <lb/>the <hi rend="italic">Small-pox,</hi> from a
+          body <w part="I">infect-</w><lb/><w part="F">ed</w>, without permitting any <w part="I"
+            >erup-</w><lb/><w part="F">tion</w> of the puſtules; in the <w part="I">man-</w><lb/><w
+            part="F">ner</w> that other poiſons are cured by <pb xml:id="page_7" n="2"
+          /><lb/>peculiar <hi rend="italic">Antidotes</hi><note place="bottom" n="*"
+            rend="size(0.5)">* Aph. 1390-91-92. et prax. med. V. v. </note>. Some other
+          <lb/>Phyſicians, alſo, revering the <w part="I">ſen-</w><lb/><w part="F">timent</w> of
+          this great man, have <lb/>pretended to ſupport the ſame <w part="I">opi-</w><lb/><w
+            part="F">nion</w>. </p>
+        <p rend="indent"><lb/>But, as no improvements have <lb/>yet appeared to have been made,
+          <lb/>at leaſt nothing material has been <lb/>advanced, by the advocates for <lb/>this
+          enquiry, notwithſtanding the <lb/>Doctor gave his reaſons for his <w part="I"
+            >opi-</w><lb/><w part="F">nion</w>, and explained his ſuggeſtions <lb/>as far as he
+          could, it is probable, <lb/>therefore, that the unſurmountable <lb/>obſtacles which have
+          ariſen from <lb/>the conſideration of this contagious <lb/>venom, and the different manner
+          <lb/>of it's operations, have, hitherto, <lb/>diſcouraged all the attempts that <lb/>may
+          have been ſince made towards <pb xml:id="page_8" n="3"/><lb/>the diſcovery. And, indeed, I
+          am <lb/>inclined to think, that, had the <lb/>Doctor written on this particular
+          <lb/>ſubject, after the practice of <w part="I">inocu-</w><lb/><w part="F">lation</w> grew
+          to be ſo much uſed in <lb/><hi rend="italic">Europe,</hi> as it now is, he would, from
+          <lb/>the new diſcovery of the operation <lb/>of this morbific taint, have <w part="I"
+            >eſta-</w><lb/><w part="F">bliſhed</w> oppoſite reaſons to an <w part="I"
+            >opi-</w><lb/><w part="F">nion</w>, which, many years ago, he <lb/>thought
+          uncontrovertable. For ſo <lb/>conſpicuous in experiment, as this <lb/>is, could never have
+          eſcaped his <lb/>ſagacious obſervation; which proves <lb/>that the leaſt particle of
+          variolous <lb/>pus, containing the very ſeeds of <lb/>contagion, by enflaming and <w
+            part="I">cor-</w><lb/><w part="F">roding</w> an external ſolid part, <w part="I"
+            >pro-</w><lb/><w part="F">duceth</w>
+          <hi rend="italic">a kind of Carbuncle;</hi>
+          <w part="I">where-</w><lb/><w part="F">by</w> the natural operation of this
+          <lb/>contagious infection is demonſtrated <lb/>to the greateſt degree of certainty, <pb
+            xml:id="page_9" n="4"/><lb/>and ſilences all <hi rend="italic">hypothetical</hi> notions
+          <lb/>of its contaminating the fluids only, <lb/>by explaining (as I ſhall endeavour
+          <lb/>to do more hereafter) that the <w part="I">mor-</w><lb/><w part="F">bific</w>
+          effluvia of this diſeaſe received <lb/>by inſpiration, in the ordinary way of
+          <lb/>infection, by inflaming and <w part="I">cor-</w><lb/><w part="F">roding</w>, in like
+          manner, ſuch <w part="I">in-</w><lb/><w part="F">ternal</w> parts as are more <w part="I"
+            >immediate-</w><lb/><w part="F">ly</w> ſubſervient to the vital purpoſes, <lb/>are
+          therefore more likely to be <w part="I">pro-</w><lb/><w part="F">ductive</w> of the moſt
+          dangerous <w part="I">con-</w><lb/><w part="F">ſequences</w>. </p>
+        <p rend="indent"><lb/>The method, however, <hi rend="italic">given,</hi>
+          <lb/>for attaining to the knowledge of <lb/>this diſcovery, is, after the infection
+          <lb/>of the Small-pox is taken, to <w part="I">pre-</w><lb/><w part="F">vent</w>
+          inflammation, ſo that a <w part="I">ſuppu-</w><lb/><w part="F">rated</w> matter may not
+          enſue: and <lb/>this is propoſed to be effected, by <lb/>treating the diſtemper, like
+          other <lb/>inflammatory caſes, in the <w part="I">begin-</w><pb xml:id="page_10" n="5"
+            /><lb/><w part="F">ning</w>; and giving ſuch correcting <lb/>medicines, as, by gently
+          diluting <lb/>and diſſolving the blood, may <w part="I">car-</w><lb/><w part="F">ry</w>
+          off the cauſe by the convenient <lb/>outlets; and ſo cure the diſeaſe, <lb/>while in it's
+          firſt ſtate, without coming to ſuppuration. </p>
+        <p rend="indent"><lb/>For this purpoſe the Doctor <lb/>mentions a preparation of <hi
+            rend="italic">Mercury</hi>
+          <lb/>and <hi rend="italic">Antimony,</hi> brought to a great <lb/>degree of penetrability,
+          and <w part="I">ren-</w><lb/><w part="F">dered</w> intirely deſtitute of all <hi
+            rend="italic">Acri-<lb/>mony</hi> by diſſolution, &amp;c; from <lb/>whence, he ſays,
+          there ariſeth <hi rend="italic">almoſt</hi>
+          <lb/>ſuch a kind of medicine, and by <lb/>which he hath ſeen ſome good <w part="I"
+            >ef-</w><lb/><w part="F">fects</w>. </p>
+        <p rend="indent"><lb/>The <hi rend="italic">Aethiops Mineralis</hi> hath <lb/>been likewiſe
+          propoſed as a ſpecific <lb/>medicine, for the ſame intention, <lb/>by <hi rend="italic"
+            >Dr. Lobb,</hi> who hath given <lb/>ſome inſtances of the <hi rend="italic"
+            >Small-pox</hi> being, <pb xml:id="page_11" n="6"/><lb/>in his judgment, prevented by
+          the <lb/>timely uſe of it. But as there <lb/>have been frequent examples of <lb/>people
+          eſcaping this diſtemper, who <lb/>had been ſuppoſed to be in the <lb/>greateſt danger of
+          taking it; it is <lb/>not improbable but that ſome of <lb/>theſe may have been attributed,
+          <lb/>by miſtake, to ſuch preventive <lb/>means as had been uſed on thoſe <lb/>occaſions. </p>
+        <p rend="indent"><lb/><hi rend="italic">Dr. Cheyne</hi> alſo hath <w part="I"
+            >pronounc-</w><lb/><w part="F">ed</w> that the beſt <hi rend="italic">Antidote</hi> in
+          nature <lb/>againſt the <hi rend="italic">Small-pox,</hi> and the <lb/><hi rend="italic"
+            >Plague</hi> itſelf, is <hi rend="italic">Aethiops Mineralis</hi>
+          <lb/>and <hi rend="italic">Cinnabaris Antimonii,</hi> taken, <lb/>made up into boluſes,
+          twice or <lb/>three times a day, and waſhed down <lb/>with Orange Whey. Of the <w part="I"
+            >ef-</w><lb/><w part="F">ficacy</w> of which, he ſays, he has <lb/>had ſome ſucceſſful
+          experience. <lb/>For the confluent <hi rend="italic">Small-pox,</hi> he <pb
+            xml:id="page_12" n="7"/><lb/>adds, is but a miniature of the <lb/><hi rend="italic"
+            >Plague,</hi> and both are curable in <lb/>good habits. </p>
+        <p rend="indent"><lb/>Many more writers (ſome of <lb/>which are of great eminence) have
+          <lb/>touched alſo upon this matter, as <lb/>the ſentiment of <hi rend="italic"
+            >Boerhaave,</hi> but <lb/>without preſuming any further; <lb/>well knowing that an
+          affair of this <lb/>nature can admit of no alternative, <lb/>and that it is to no manner
+          of <w part="I">pur-</w><lb/><w part="F">poſe</w> to pretend to defend by <w part="I"
+            >argu-</w><lb/><w part="F">ment</w> what cannot be ſufficiently <lb/>warranted by
+          experience. For ſuch <lb/>particularities in opinion have been <lb/>oftentimes ridiculed,
+          in men of <lb/>learning, as the effects of mere <lb/>whim and chimera. </p>
+        <p rend="indent"><lb/>But the character of <hi rend="italic">Boerhaave</hi>
+          <lb/>is too ſacred for reflection, as he <lb/>certainly had no deſign to impoſe <lb/>on
+          the judgment of others by a <pb xml:id="page_13" n="8"/><lb/>prediction of this ſort,
+          which was <lb/>grounded, probably, <hi rend="italic">on ſuch <w part="I">Spe-</w><lb/><w
+              part="F">culations</w> in Chemiſtry</hi> as are not <lb/>eaſily to be explained on <hi
+            rend="italic">mecha-<lb/>nical principles.</hi>
+        </p>
+        <p rend="indent"><lb/><hi rend="italic">Dr. Mead</hi><note place="bottom" n="*"
+            rend="size(0.5)">* De variolis et morbillis. </note>, however, could <lb/>not paſs over
+          this opinion of his <lb/>learned friend without wondering <lb/>how he could be induced to
+          hope <lb/>that ſome time or other a ſpecific <lb/><hi rend="italic">Antidote</hi> would be
+          found againſt the <lb/>contagious poiſon of the <hi rend="italic">Small-pox;</hi>
+          <lb/>that is, by which it would be ſo <w part="I">tho-</w><lb/><w part="F">roughly</w>
+          deſtroyed, that, tho'it had <lb/>been received into the body, it <lb/>could not produce
+          the diſeaſe. <lb/>For, continues he, the elements of <lb/>things are ſo certain, and ſo
+          well <lb/>eſtabliſhed by the permanent laws <lb/>of Nature; that whoſoever would
+          <lb/>endeavour to change them, would <pb xml:id="page_14" n="9"/><lb/>act like thoſe
+          Philoſophers <hi rend="italic">by fire</hi>
+          <lb/>(as they ſtile themſelves) who labour <lb/>hard to tranſmute the baſer metals
+          <lb/>into gold; and when continual <lb/>diſappointments have convinced <lb/>them of the
+          vanity of their hopes, <lb/>actually extract gold out of the <lb/>purſes of the ignorant
+          and <w part="I">credu-</w><lb/><w part="F">lous</w> by the fumes of their
+            char-<lb/>coal<note place="bottom" n="*" rend="size(0.5)">* Dr. Stack's tranſl. p. 58.
+          </note>. </p>
+        <p rend="indent"><lb/>In an affair of this kind, it is <lb/>undoubtedly the ſafeſt and
+          trueſt <lb/>way to conſult nature herſelf, as a <lb/><hi rend="italic">divine</hi>
+          principle, diffuſed <w part="I">through-</w><lb/><w part="F">out</w> the creation, acting
+          in all bodies <lb/>by certain properties which are <w part="I">pro-</w><lb/><w part="F"
+            >ductive</w> of certain effects. And <lb/>we may conſider her in a vaſt <w part="I"
+            >vari-</w><lb/><w part="F">ety</w> of ſenſes, as ſhe doth nothing <lb/>in vain; attempts
+          always to <w part="I">pre-</w><pb xml:id="page_15" n="10"/><lb/><w part="F">ſerve</w>
+          herſelf; cures all diſeaſes; <lb/>and acts upon unerring rules in all <lb/>her ways. Hence
+          we obſerve in <lb/>Fevers, particularly thoſe of the <lb/>eruptive kinds, the moſt
+          ſurpriſing <lb/>commotions and conflicts, which <lb/>ſerve to throw off the morbific <w
+            part="I">mat-</w><lb/><w part="F">ter</w> by various ways, for the relief <lb/>of the
+          Patient; and, in theſe <lb/>caſes, eſpecially, ſhe is to be nicely <lb/>obſerved, and
+          followed with the <lb/>greateſt care; becauſe any <w part="I">counter-</w><lb/><w part="F"
+            >acting</w> means would obſtruct her firſt <lb/>deſign, and make her proceed upon
+          <lb/>other different principles, which <lb/>would conſequently beattended with <lb/>very
+          different effects. </p>
+        <p rend="indent"><lb/>It ought to be conſidered, <w part="I">there-</w><lb/><w part="F"
+            >fore</w>, whether a ſpecific <hi rend="italic">antidote</hi>
+          <lb/>againſt the contagious taint of the <lb/><hi rend="italic">Small-pox</hi> (if ſuch an
+          one were <w part="I">diſ-</w><lb/><w part="F">coverable)</w> would not be likely <pb
+            xml:id="page_16" n="11"/><lb/>to do more hurt than good, by <lb/>preventing a diſtemper,
+          which, <lb/>perhaps, was intended by nature, <lb/>as <hi rend="italic">Dr. Gilchriſt</hi>
+          obſerves, for a <lb/>drain to clear the conſtitution of <lb/>ſome groſs humours, which, if
+          not <lb/>carried off in this way, would bring <lb/>on other diſeaſes. The ſame <w part="I"
+            >Gen-</w><lb/><w part="F">tleman</w> ſupports this opinion by <w part="I">ob-</w><lb/><w
+            part="F">ſerving</w> that thoſe Children who had <lb/>had the Small-pox by inoculation
+          in <lb/><hi rend="italic">Scotland</hi> were uncommonly <lb/>healthy; which he ſuppoſes to
+          be <lb/>owing to this cauſe, that the Fever <lb/>in the <hi rend="italic">Small-pox,</hi>
+          communicated <lb/>in the infant ſtate, not only deſtroys <lb/>or expells the latent ſeeds
+          of <w part="I">diſ-</w><lb/><w part="F">eaſes</w>, before they are, by time and
+          <lb/>accidents, perfected, and put into <lb/>action; but cauſes ſuch an <w part="I"
+            >altera-</w><lb/><w part="F">tion</w> of the humours as may make <lb/>them leſs
+          ſuſceptible of any morbid <pb xml:id="page_17" n="12"/><lb/>impreſſions: And the veſſels
+          being <lb/>ſo accuſtomed, before they become <lb/>rigid, to certain motions and <w
+            part="I">ex-</w><lb/><w part="F">tenſions</w>, the body is rendered, ever <lb/>after,
+          more paſſive to the <w part="I">impul-</w><lb/><w part="F">ſes</w> of any ſubſequent
+          diſtemper. <lb/>This, he maintains, is agreeable <lb/>to experience; for one who has
+          <lb/>ſuffered an acute illneſs will bear <lb/>ſickneſs better than another, who <lb/>never
+          had the like diſtemper, and <lb/>be leſs overcome by it<note place="bottom" n="*"
+            rend="size(0.5)">* Edinb. Eſſays Phys. and Liter. Vol. 2. <lb/>Art. 30. </note>. </p>
+        <p rend="indent"><lb/><hi rend="italic">Hippocrates</hi> calls nature the great
+          <lb/>phyſican; and our judicious <hi rend="italic">Sy-<lb/>denham</hi> ſays, that a
+          diſeaſe is nothing <lb/>more than an effort of nature to <lb/>throw off the morbific
+          matter for <lb/>the health of the patient; which <lb/><hi rend="italic">Dr. Mead</hi> has
+          obſerved to be no <pb xml:id="page_18" n="13"/><lb/>where more particularly verified
+          <lb/>than in thoſe envenomed Fevers, <lb/>in which the violence of the <w part="I"
+            >diſ-</w><lb/><w part="F">temper</w> breaks out on the Skin <w part="I">ei-</w><lb/><w
+            part="F">ther</w> in the form of <hi rend="italic">puſtules, <w part="I">car-</w><lb/><w
+              part="F">buncles</w>,</hi> or <hi rend="italic">bubos.</hi> And hence <lb/>it ſeems
+          pretty plain that no art can <lb/>abrogate the law of nature, by the <lb/>prevention of
+          thoſe kind of <w part="I">diſ-</w><lb/><w part="F">eaſes</w> which happen from contagion. </p>
+        <p rend="indent"><lb/>Thoſe corpuſcular effluvia of the <lb/>Small-pox, or particles which
+          fly <lb/>off from diſtempered bodies, and, <lb/>mixing with the juices of others,
+          <lb/>occaſion the ſame diſeaſe, are <w part="I">pro-</w><lb/><w part="F">duced</w> from a
+          matter differing from <lb/>all other poiſons, and liable to <lb/>cauſe inflammation in a
+          greater or <lb/>leſſer degree, according to the <w part="I">con-</w><lb/><w part="F"
+            >ſtitutional</w> ſtate and condition of <lb/>thoſe that receive them: and ſome
+          <lb/>miſerable caſes of the <hi rend="italic">Small-pox</hi>
+          <pb xml:id="page_19" n="14"/><lb/>have ſhewed us inſtances where <lb/>the whole texture of
+          the blood has <lb/>been ſo broken and diſſolved, that <lb/>the <hi rend="italic"
+            >craſſamentum,</hi> after it had ſtood <lb/>a while to become cold, could but <lb/>juſt
+          hold together. Yet, <w part="I">notwith-</w><lb/><w part="F">ſtanding</w>, there have been
+          ſome <lb/>inſtances where this poiſon hath <lb/>given ſo little diſturbance, as
+          <lb/>ſcarcely to introduce any <w part="I">perceiv-</w><lb/><w part="F">able</w> lentor on
+          the blood, at leaſt not <lb/>enough to obſtruct it in the <w part="I">capil-</w><lb/><w
+            part="F">lary</w> Veſſels: And we have ſeveral <lb/>times remarked where it has been <w
+            part="I">ap-</w><lb/><w part="F">plied</w> by inoculation, that if it had not <lb/>been
+          for it's immediate action on a <lb/>ſolid part, it would have proved <lb/>inſufficient
+          even to ſhow the <w part="I">cha-</w><lb/><w part="F">racteriſtick</w> marks of the <hi
+            rend="italic">Small-pox.</hi>
+        </p>
+        <p rend="indent"><lb/>Therefore it is not altogether <lb/>improbable but that this
+          contagious <lb/>venom may operate by various <pb xml:id="page_20" n="15"/><lb/>ways;
+          ſometimes by coagulating <lb/>the blood; at others by diſſolving <lb/>it; and ſometimes by
+          corroding <lb/>the ſolid parts themſelves: And <lb/>this may be owing, perhaps, to
+          <lb/>ſuch natural cauſes as are not <w part="I">with-</w><lb/><w part="F">in</w> the reach
+          of human penetration. <lb/>Which conſiderations, <w part="I">notwith-</w><lb/><w part="F"
+            >ſtanding</w> the deference I pay to <hi rend="italic">Dr. <lb/>Boerhaave</hi>'s
+          extraordinary merit and <lb/>abilities, have induced me to <w part="I">queſ-</w><lb/><w
+            part="F">tion</w>, even, the bare poſſibility of <lb/>ſuch a diſcovery. But, to go on. </p>
+        <p rend="indent"><lb/>The Doctor intimates that the <lb/>bite of the <hi rend="italic"
+            >Scorpion,</hi> which was <lb/>formerly ſuppoſed to be certain <lb/>death, is now cured
+          by the <w part="I">appli-</w><lb/><w part="F">cation</w> of the bruiſed <hi rend="italic"
+            >Scorpion,</hi> or <lb/>the oil of it, and concludes that all <lb/>poiſons have their
+            <hi rend="italic">antidotes;</hi> and, <lb/>therefore, why may not a ſpecific
+          <lb/>medicine be found out of ſuch a <pb xml:id="page_21" n="16"/><lb/>nature, that, being
+          diffuſed all the <lb/>body over, after the variolous <w part="I">in-</w><lb/><w part="F"
+            >fection</w> is received, may introduce <lb/>contrary properties, and thereby
+          <lb/>extinguiſh the diſtemper in the <w part="I">be-</w><lb/><w part="F">ginning</w>,
+          before thoſe effects are <lb/>produced which muſt, otherwiſe, <lb/>neceſſarily follow? For
+          what <w part="I">Phy-</w><lb/><w part="F">ſician</w>, ſays he, in a <hi rend="italic"
+            >Pleuriſy, <lb/>Quinſy,</hi> &amp;c. would wait for a cure <lb/>by ſuppuration, when
+          daily <w part="I">experi-</w><lb/><w part="F">ence</w> convinces us that theſe <w part="I"
+            >diſtem-</w><lb/><w part="F">pers</w> are regularly cured without it? <lb/>and why may
+          not the inflammation <lb/>be carried off, as well, in the firſt <lb/>ſtage of the <hi
+            rend="italic">Small-pox,</hi> as in other <lb/>inflammatory diſeaſes, and ſo <w part="I"
+            >pre-</w><lb/><w part="F">vent</w> its coming to ſuppuration at <lb/>all? </p>
+        <p rend="indent"><lb/>To this, it may be ſaid, that the <lb/>general method of cure in <hi
+            rend="italic">Pleu-<lb/>riſies, Quinſies,</hi> and other <w part="I">inflam-</w><pb
+            xml:id="page_22" n="17"/><lb/><w part="F">matory</w> diſtempers, which are <w part="I"
+            >nei-</w><lb/><w part="F">ther</w> contagious, nor of the <w part="I">erup-</w><lb/><w
+            part="F">tive</w> kinds, proves inſufficient to <lb/>prevent the return of them, as
+          <lb/>often as the ſudden changes and <w part="I">al-</w><lb/><w part="F">terations</w> of
+          the weather, different <lb/>ſeaſons of the year, and many <lb/>other accidental cauſes may
+          happen <lb/>to produce them. But, it is not <lb/>ſo, in regard to the <hi rend="italic"
+            >Small-pox;</hi> a <lb/>diſeaſe which is propagated by it's <lb/>own contagion only,
+          without any <lb/>other antecedent cauſe; and where <lb/>a determinate length of time
+          brings <lb/>on every thing according to it's <lb/>ſtated periods; ſo that nature, in
+          <lb/>doing her part, is a moſt certain <lb/>guide to the Phyſician for the <w part="I"
+            >do-</w><lb/><w part="F">ing</w> of his. Beſides it is evident <lb/>that the venom of
+          this diſtemper <lb/>can infect us but once; inſomuch <lb/>that that pabulum in our bodies,
+            <pb xml:id="page_23" n="18"/><lb/>which is productive of this diſeaſe, <lb/>being
+          totally taken up by the <w part="I">con-</w><lb/><w part="F">tagion</w> it hath received,
+          is thereby <lb/>expunged and eradicated, ſo that <lb/>there remains nothing, afterwards,
+          <lb/>on which this morbific matter can <lb/>have any further effect. And, <lb/>indeed, in
+          this ſenſe, it may be <lb/>truly ſaid that the <hi rend="italic">Small-pox</hi> is it's
+          <lb/>own <hi rend="italic">antidote,</hi> by protecting all that <lb/>undergo it from any
+          future attack. </p>
+        <p rend="indent"><lb/>It may be granted how <w part="I">extream-</w><lb/><w part="F">ly</w>
+          difficult it is to clear the maſs <lb/>of blood of this poiſon; yet it is <lb/>moſt
+          certainly true that Nature <w part="I">en-</w><lb/><w part="F">deavours</w>, with all her
+          might, at <lb/>the expulſion of it in the moſt <lb/>perfect manner; that is, by forcing
+          <lb/>the morbid matter, as much as <lb/>poſſible, to the puſtules<note place="bottom"
+            n="*" rend="size(0.5)">* Mead de variol. </note>: And <pb xml:id="page_24" n="19"
+          /><lb/>any interruption muſt prove of <lb/>dangerous conſequence, leſt the <lb/>humours
+          ſhould be impeded in their <lb/>circulatory motion, and fall into <lb/>an inteſtine one,
+          and grow putrid; <lb/>which is frequently the caſe after <lb/>too large evacuations, or
+          exceſſive <lb/>heat; where there is ſuch a ſcarcity <lb/>of ſpirits, that the ſolids do
+          not <lb/>vibrate ſufficiently to keep the fluids <lb/>in their due velocity. </p>
+        <p rend="indent"><lb/>This plainly indicates the <w part="I">hurt-</w><lb/><w part="F"
+            >fulness</w> of too great evacuations in <lb/>the beginning of the <hi rend="italic"
+            >Small-pox;</hi>
+          <lb/>and ſhews the Phyſician's part to be <lb/>only to aſſiſt, by following nature;
+          <lb/>and not going before her. </p>
+        <p rend="indent"><lb/>The <hi rend="italic">Meaſles</hi> are an <w part="I"
+            >inflamma-</w><lb/><w part="F">tory</w> fever of the eruptive kind; <lb/>whoſe puſtules
+          never arrive to a <lb/>purulent ſtate like thoſe of the <lb/><hi rend="italic"
+            >Small-pox;</hi> and they are cured by <pb xml:id="page_25" n="20"/><lb/>bleeding, and
+          cooling medicines: <lb/>but, I believe, it was never yet <lb/>ſeen that theſe remedies
+          could <w part="I">pre-</w><lb/><w part="F">vent</w> their eruption, tho' made uſe <lb/>of
+          ever ſo ſoon after taking in the <lb/><corr>i<sic>nfection</sic></corr>.</p>
+        <p rend="indent"><lb/>There have been ſome inſtances <lb/>in the <hi rend="italic"
+            >Small-pox,</hi> where <w part="I">ſpontane-</w><lb/><w part="F">ous</w> hemorrhages, or
+          other repeated <lb/>bleedings have ſeemed to alter the <lb/>nature of the diſtemper in
+          ſome <lb/>degree, by making that prove <w part="I">kind-</w><lb/><w part="F">ly</w>, which
+          would, probably, have <lb/>fallen out otherwiſe, for want of <lb/>thoſe evacuations; but,
+          I am <w part="I">per-</w><lb/><w part="F">ſuaded</w>, there never was any one <lb/>proof
+          of the contagion being wholly <lb/>carried off that way, without ſome <lb/>eruption of the
+          puſtules: ſo that <lb/>it ſeems evident, even to a <w part="I">demon-</w><lb/><w part="F"
+            >ſtration</w>, that Nature, after a <w part="I">re-</w><lb/><w part="F">moval</w> of the
+          load that oppreſſes <pb xml:id="page_26" n="21"/><lb/>her, muſt be left to do her part in
+          <lb/>her own way, by cauſing <w part="I">ſup-</w><lb/><w part="F">puration</w>, in a
+          greater or leſſer <lb/>degree, as there happens to be <w part="I">oc-</w><lb/><w part="F"
+            >caſion</w> for it; in order to free the <lb/>body from the corrupted ſtate of <lb/>the
+          blood and humours ariſing from <lb/>the contagious taint of this diſeaſe. </p>
+        <p rend="indent"><lb/>Moreover it is certain that the <lb/>whole animal body, at all times
+          <lb/>before it has paſſed through the <lb/><hi rend="italic">Small-pox,</hi> is, in every
+          part alike, <lb/>liable to receive the morboſe, or <lb/>infecting taint, and ſo propagate
+          <lb/>the diſeaſe. We know, alſo, that <lb/>the leaſt particle of the morbific <w part="I"
+            >mat-</w><lb/><w part="F">ter</w>, applied to any part of the <lb/>body, will cauſe the
+            <hi rend="italic">Small-pox</hi> to <lb/>be produced as effectively as a much
+          <lb/>greater quantity could be capable <lb/>of doing it. And it is evident, <lb/>from
+          common experience, that all <pb xml:id="page_27" n="22"/><lb/>mankind, as well thoſe who
+          come <lb/>of parents that have had the <hi rend="italic">Small-<lb/>pox,</hi> as thoſe
+          that have not, are <lb/>alike liable to it; ſo that we may <lb/>conclude the pabulum of
+          this <w part="I">diſ-</w><lb/><w part="F">temper</w> to be a part of the human
+          <lb/>nature, conceived in the firſt <w part="I">rudi-</w><lb/><w part="F">ments</w> of
+          generation; and therefore <lb/>not to be extinguiſhed by any art, <lb/>or other means,
+          than it's own <w part="I">na-</w><lb/><w part="F">tural</w> deſtroyer, the <hi
+            rend="italic">Small-pox</hi>
+          <lb/>itſelf; which only can render the <lb/>body more perfect, by eradicating <lb/>this
+          one natural principle of <w part="I">morta-</w><lb/><w part="F">lity</w>, and thereby
+          giving it a <w part="I">ſecu-</w><lb/><w part="F">rity</w>, for ever, againſt any further
+          <lb/>attack from this great evil. </p>
+        <p rend="indent"><lb/>The contagion of the <hi rend="italic">Small-pox</hi>
+          <lb/>previouſly conſidered in a <w part="I">peſtilen-</w><lb/><w part="F">tial</w> ſenſe,
+          the true manner of it's <lb/>operation on human bodies, as it <lb/>may be beſt known from
+          the <w part="I">expe-</w><pb xml:id="page_28" n="23"/><lb/><w part="F">riment</w> of
+          inoculation, ſeems <w part="I">ſuf-</w><lb/><w part="F">ficient</w> to furniſh more matter
+          for <lb/>the <hi rend="italic">Phyſician</hi> and <hi rend="italic">Philoſopher</hi> than
+          <lb/>could poſſibly have been advanced <lb/>without it. Inſomuch that the <lb/>diſcovery
+          of a ſpecific medicine to <lb/>prevent the burning of a <hi rend="italic">Cauſtic,</hi>
+          <lb/>or even <hi rend="italic">Fire</hi> itſelf, may as well be <lb/>expected, as to
+          deſtroy the power <lb/>of variolous contagion, when taken <lb/>either in the natural way,
+          or <w part="I">appli-</w><lb/><w part="F">ed</w> by inoculation. Moſt certain,
+          <lb/>therefore, it is, that no diſcovery <lb/>of this kind, ſo ſeemingly <w part="I"
+            >repug-</w><lb/><w part="F">nant</w> to the laws of Nature, can <lb/>ever be aſcribed to
+          human <w part="I">inven-</w><lb/><w part="F">tion</w>. </p>
+      </div>
+      <div>
+        <pb xml:id="page_29" n="24"/>
+        <head rend="italic indent hanging"><lb/>An attempt to explain the manner <lb/>of the
+          propagation and eruption <lb/>of the Small-pox, from the practice <lb/>of inoculation: And
+          why this <w part="I">di-</w><lb/><w part="F">ſtemper</w>, taken by common <w part="I"
+            >in-</w><lb/><w part="F">fection</w>, in the natural way, proves <lb/>ſo much more fatal
+          than that which <lb/>is given by inoculation. </head>
+        <p rend="indent"><lb/><hi rend="dc(3)">T</hi>HE main buſineſs of <w part="I"
+            >natu-</w><lb/><w part="F">ral</w> Philoſophy, as <hi rend="italic">Sir Iſaac
+            <lb/>Newton</hi> obſerves, is to argue from <lb/><hi rend="italic">Phenomena,</hi>
+          without feigning <hi rend="italic">Hy-<lb/>potheſes,</hi> and to deduce cauſes from
+          <lb/>effects till we come to the very firſt <lb/>cauſe. Therefore it ought to be <lb/>the
+          ſtudy of Phyſicians to conſider <lb/>well the various and ſubtile <w part="I"
+            >me-</w><lb/><w part="F">thods</w> which Nature uſeth in <w part="I">pro-</w><lb/><w
+            part="F">ducing</w> diſeaſes; and this can be <lb/>known in general only by the <w
+            part="I">dif-</w><pb xml:id="page_30" n="25"/><lb/><w part="F">ferent</w> ſymptoms that
+          occur to <w part="I">indi-</w><lb/><w part="F">viduals</w> in all caſes. For her <w
+            part="I">pro-</w><lb/><w part="F">gress</w> is undoubtedly ſlower or <w part="I"
+            >faſ-</w><lb/><w part="F">ter</w> according to the different <w part="I">me-</w><lb/><w
+            part="F">thods</w> ſhe takes in expelling the <lb/>morbific cauſe, ſo that the morbid
+          <lb/>particles, being ſeparated by her <lb/>own action, may be diſcharged in <lb/>her own
+          way. </p>
+        <p rend="indent"><lb/>When a body, therefore, <w part="I">be-</w><lb/><w part="F">comes</w>
+          contaminated by a contagious <lb/>taint, it may be of the greateſt uſe <lb/>to know by
+          what means it ſo <w part="I">hap-</w><lb/><w part="F">pened</w>; as the mode of nature,
+          <lb/>in her method of extricating the <lb/>morbific matter, differs, probably, <lb/>in
+          great meaſure according to the <lb/>different manner of receiving it: <lb/>inſomuch that
+          the danger or ſafety <lb/>of the patient may depend greatly <lb/>on the primary
+          communication of <lb/>this matter either to an external or <pb xml:id="page_31" n="26"
+          /><lb/>an internal part. And this <w part="I">opi-</w><lb/><w part="F">nion</w> hath been
+          confirmed by many <lb/>obſervations of the <hi rend="italic">Small-pox</hi>
+          <w part="I">pro-</w><lb/><w part="F">duced</w> by inoculation, where the <lb/>diſtemper
+          hath been remarkably <lb/>great from a multitude of the <w part="I">puſ-</w><lb/><w
+            part="F">tules</w>, as well as the condition of <lb/>them; which have gone off, by
+          <lb/>that preventive means, without any <lb/>great uneaſineſs; whereas the ſame, <lb/>in
+          the natural way, are uſually <w part="I">at-</w><lb/><w part="F">tended</w> with a very
+            <hi rend="italic">high Fever, <lb/>Delirium,</hi> and other dangerous
+          <lb/>contingencies, owing probably to <lb/>imperceptible <hi rend="italic">effluvia</hi>
+          conveyed, at <lb/>firſt, to the <hi rend="italic">Lungs, Heart, Brain,</hi>
+          <lb/>&amp;c. </p>
+        <p rend="indent"><lb/>But for a further explanation of <lb/>this matter, by an enquiry into
+          the <lb/>different methods that nature <w part="I">pur-</w><lb/><w part="F">ſues</w> in
+          communicating the <hi rend="italic">Small-<lb/>pox</hi> both by common infection, and <pb
+            xml:id="page_32" n="27"/><lb/>the artificial experiment of <w part="I">inocu-</w><lb/><w
+            part="F">lation</w>, we ſhall the better form a <lb/>judgment, agreeable to her own
+          <lb/>elements and principles, by her <lb/>own rules and indications. And, <lb/>in order
+          thereto, it is manifeſtly <lb/>certain, that, the air being infected <lb/>with the venom
+          of this diſtemper, <lb/>the morbific particles, contained <lb/>therein, are received into
+          the <w part="I">hu-</w><lb/><w part="F">man</w> body by inſpiration; and they <lb/>act,
+          wherever they happen to fall, <lb/>by an irreſiſtable power, like fire
+          <lb/>unextinguiſhable, until they have <lb/>utterly ſubdued that pabulum in <lb/>the body
+          which was ſuſceptible of <lb/>this contaminating taint, and ſo <lb/>propagated the
+          diſeaſe: for thus it <lb/>is we are ſecured from having the <lb/><hi rend="italic"
+            >Small-pox</hi> a ſecond time. But the <lb/>cauſes of it's deſtructive malignity
+          <lb/>may be more than the niceſt <w part="I">ob-</w><pb xml:id="page_33" n="28"/><lb/><w
+            part="F">ſervation</w> can diſcover. And, <w part="I">in-</w><lb/><w part="F">deed</w>,
+          the mode of Nature, from <lb/>this theory alone, ſeems to be too <lb/>intricate and
+          perplexing for human <lb/>underſtanding; inſomuch that the <lb/>nature of the morbific
+          matter, from <lb/>whatever different kind of the <hi rend="italic">Small-<lb/>pox</hi> it
+          may happen to come, is <w part="I">cer-</w><lb/><w part="F">tainly</w> the ſame, and
+          plainly makes <lb/>no difference in the nature of the <lb/>diſeaſe. The difference of <w
+            part="I">conſti-</w><lb/><w part="F">tutions</w>, therefore, it may <w part="I"
+            >reaſon-</w><lb/><w part="F">ably</w> be ſuppoſed, is the principal <lb/>cauſe of the
+          different kinds of the <lb/><hi rend="italic">Small-pox.</hi> And, theſe principles
+          <lb/>being generally admitted, I think <lb/>it evident, therefore, as far as it can
+          <lb/>be demonſtrated from experience, <lb/>that a different manner in giving <lb/>the
+          infection (I mean that of <w part="I">ino-</w><lb/><w part="F">culation)</w> manifeſtly
+          produceth a <lb/>different effect. And this, I make <pb xml:id="page_34" n="29"/><lb/>not
+          the leaſt doubt, would <w part="I">unex-</w><lb/><w part="F">ceptionably</w> appear upon
+          the trial, <lb/>if it was poſſible to meet with two <lb/>perſons of exactly the ſame age
+          and <lb/>conſtitution, by communicating, <lb/>to each of them, the ſame <w part="I"
+            >conta-</w><lb/><w part="F">gious</w> taint, by the different ways <lb/>of infection.
+          But, for want of <lb/>this, let us examine further, by <lb/>purſuing the mode of nature,
+          alſo, <lb/>under the experiment of <w part="I">inocula-</w><lb/><w part="F">tion</w>, and
+          ſee what new diſcovery <lb/>will ariſe to give an additional light <lb/>to this matter. </p>
+        <p rend="indent"><lb/>By this method of trial it is <w part="I">evi-</w><lb/><w part="F"
+            >dent</w> that the ſmalleſt portion of <lb/>the variolous pus, applied, by a <lb/>ſlight
+          inciſion, to any part of the <lb/>body, acts in the manner of a <lb/><hi rend="italic"
+            >cauſtic,</hi> by inflaming and corroding <lb/>the part; inſomuch that the <w part="I"
+            >conti-</w><lb/><w part="F">nuity</w>, after ſome days, is <w part="I">deſtroy-</w><pb
+            xml:id="page_35" n="30"/><lb/><w part="F">ed</w>; and an ulceration cauſed from <lb/>the
+          ſeparation of the <hi rend="italic">eſchar:</hi> And <lb/>the taint of this infection,
+          being <lb/>infuſed into the blood, is <w part="I">convey-</w><lb/><w part="F">ed</w>, by
+          means of the circulation, <lb/>throughout the whole animal body; <lb/>and touching every
+          where on it's <lb/>proper pabulum, like a ſpark of <lb/>fire among particles of <hi
+            rend="italic">Sulphur,</hi>
+          <lb/>or <hi rend="italic">Nitre,</hi> in a certain length of <lb/>time it doth it's
+          office, by exciting <lb/>feveriſh ſymptoms, which regularly <lb/>go off in a <hi
+            rend="italic">diaphoreſis;</hi> whereby <lb/>the ſalt ſerum of the blood, ſo
+          <lb/>impregnated, is driven out by the <lb/>glands of the skin; and then the <lb/>pores,
+          being properly enlarged, <lb/>let out the fiery puſtules on the <lb/>ſurface; which ſeems
+          to be the <lb/>true manner of the propagation and <lb/>eruption of the <hi rend="italic"
+            >Small-pox.</hi>
+        </p>
+        <pb xml:id="page_36" n="31"/>
+        <p rend="indent"><lb/>From this experiment we may <lb/>reaſonably ſuppoſe that the <w
+            part="I">morbi-</w><lb/><w part="F">fic</w> effluvia of this diſtemper, <w part="I"
+            >re-</w><lb/><w part="F">ceived</w> by inſpiration alſo, produce <lb/>the ſame kind of
+            <hi rend="italic">phenomenon</hi> in the <lb/>natural way; and that theſe <w part="I"
+            >veno-</w><lb/><w part="F">mous</w> particles, happening to fall <lb/>on the vital
+          parts, by inflaming and <lb/>corroding the ſame, in like <w part="I">man-</w><lb/><w
+            part="F">ner</w>, are ſo commonly attended with <lb/>their fatal effects; for inſtance,
+          on <lb/>the <hi rend="italic">Lungs, Brain,</hi> &amp;c.; where it <lb/>is impoſſible for
+          nature to help <w part="I">her-</w><lb/><w part="F">ſelf</w>, or be furniſhed with any <w
+            part="I">aſſiſ-</w><lb/><w part="F">tance</w> to her relief. And this may <lb/>occaſion,
+          which we daily ſee, <hi rend="italic">high <lb/>fevers, delirium, ſhortneſs of breath,
+            <lb/>the moſt ſurpriſing ſtruggles and <lb/>conflicts, and ſudden changes in the
+            <lb/>Small-pox.</hi>
+        </p>
+        <p rend="indent"><lb/>It may be ſuppoſed, alſo, that <lb/>an infinite number of the viroſe
+            <pb xml:id="page_37" n="32"/><lb/>particles, contained in the infected <lb/>air, may be
+          drawn in by the breath <lb/>and noſtrils at the ſame time; and <lb/>ſo conveyed by the
+          divarication of <lb/>the <hi rend="italic">Trachaea</hi> to the <hi rend="italic"
+            >Lungs;</hi> and <lb/>alſo by the <hi rend="italic">olfactory nerves,</hi> or <lb/>their
+            <hi rend="italic">fibrillæ,</hi> to the moſt delicate <lb/>texture of the brain, whereby
+          a <lb/>multitude of different parts may <lb/>receive the contagious effect at the
+          <lb/>ſame inſtant of time; which, by <lb/>pervading the innermoſt receſſes of <lb/>the
+          whole animal <hi rend="italic">compages,</hi> may ſo <lb/>break and deſtroy the continuity
+          of <lb/>parts of moment, as to render a <lb/>diſſolution of the whole frame <w part="I"
+            >un-</w><lb/><w part="F">avoidable</w>. And that particular <w part="I">ſpe-</w><lb/><w
+            part="F">cies</w> of the <hi rend="italic">Small-pox,</hi> in which the <lb/>texture of
+          the blood is ſo abſolutely <lb/>broken, that it diſchargeth itſelf <lb/>by every outlet of
+          the body; and, <lb/>ſtagnating in the ſmall cuticular <pb xml:id="page_38" n="33"
+          /><lb/>veſſels, produceth black, <w part="I">gangren-</w><lb/><w part="F">ous</w> ſpots,
+          all the ſurface over, is <lb/>but too melancholy a proof of the <lb/>truth of this <hi
+            rend="italic">hypotheſis,</hi> from the <lb/>ſudden and untimely deſtruction that
+          <lb/>it uſually brings upon the patient. </p>
+        <p rend="indent"><lb/>Inoculation explains alſo the <w part="I">rea-</w><lb/><w part="F"
+            >ſonableness</w> of this opinion: for if <lb/>the morbific matter be applied to
+          <lb/>ever ſo many place, it will have <lb/>the ſame effect in every one; by
+          <lb/>occaſioning ſo many corroding <hi rend="italic">Car-<lb/>buncles,</hi> if they may be
+          ſo called; <lb/>which, the more they are, the more <lb/>likely they will be to increaſe
+          the <lb/><foreign xml:lang="el">###Greek omitted###</foreign>, or the contagious infection
+          <lb/>of the blood and ſpirits: and, for <lb/>this reaſon, I have wholly given up <lb/>an
+          opinion I had eſpouſed ſome <lb/>years ago; from a ſuppoſition that <lb/>diſcharges from
+          more inoculated <lb/>places than one would be of <w part="I">advan-</w><pb
+            xml:id="page_39" n="34"/><lb/><w part="F">tage</w> to the patient, by carrying off
+          <lb/>a greater quantity of the humours <lb/>of the body, by means of thoſe <lb/>drains;
+          and ſo, conſequently, would <lb/>be likely to prevent ſuch feveriſh <lb/>diſorders and
+          complaints, as might, <lb/>otherwiſe, ariſe in the courſe of the <lb/><hi rend="italic"
+            >Small-pox.</hi> But experience hath <lb/>plainly ſhown this kind of doctrine <lb/>to be
+          erroneous; and convinced <lb/>me, that the application of the <w part="I">vi-</w><lb/><w
+            part="F">roſe</w> matter, to one part only, is <lb/>much ſafeſt and beſt; and, indeed,
+          <lb/>the corroſion of any one part, cauſed <lb/>by the application of variolous <w
+            part="I">mat-</w><lb/><w part="F">ter</w>, is a ſufficient proof of its <w part="I"
+            >tak-</w><lb/><w part="F">ing</w> effect, and doing all that this <lb/>contagion can do;
+          even tho' there <lb/>may happen to be ſcarce any febril <lb/>ſymptoms produced from it, or
+          ſo <lb/>much as a perfectly diſtinguiſhed <lb/>puſtule of the <hi rend="italic"
+            >Small-pox:</hi> for the <pb xml:id="page_40" n="35"/><lb/>ulcerated part being
+          cicatriſed, will <lb/>remain, beyond all diſpute, as <w part="I">cer-</w><lb/><w part="F"
+            >tain</w> a mark of ſecurity to the <w part="I">pa-</w><lb/><w part="F">tient</w>, as if
+          the skin had received <lb/>the impreſſions of having <w part="I">under-</w><lb/><w
+            part="F">gone</w> this diſtemper in ever ſo great <lb/>a degree. And truly, if it were
+          <lb/>not ſo, ſeveral perſons, under my own <lb/>care, who had no puſtulary <w part="I"
+            >erup-</w><lb/><w part="F">tions</w>, muſt have taken the <hi rend="italic"
+            >Small-<lb/>pox,</hi> from thoſe who were their <lb/>companions and bed-fellows in the
+          <lb/>diſtemper, by the ordinary way of <lb/>infection; which the experience of <lb/>ſuch
+          trials plainly convinced me <lb/>they could not. From theſe caſes, <lb/>therefore, it
+          ſeems reaſonable to <w part="I">ſup-</w><lb/><w part="F">poſe</w>, that this kind of
+          artificial <w part="I">car-</w><lb/><w part="F">buncle</w>, cauſed by the inoculation,
+          <lb/>was alone capable of extricating from <lb/>the human nature the firſt <w part="I"
+            >princi-</w><lb/><w part="F">ples</w> of this diſtemper. </p>
+        <pb xml:id="page_41" n="36"/>
+        <p rend="indent"><lb/>From what hath been already <lb/>advanced, it ſeems pretty certain
+          <lb/>that theſe firſt principles of the <lb/><hi rend="italic">Small-pox,</hi> being
+          ſuſceptible of the <lb/>contagion to the moſt diſtant <w part="I">extre-</w><lb/><w
+            part="F">mities</w>, are diffuſed, in all parts <lb/>alike, throughout the whole <w
+            part="I">ani-</w><lb/><w part="F">mal</w> body; the principal caution, <lb/>therefore,
+          requiſite to be obſerved <lb/>by Phyſicians, in regard to thoſe <lb/>in whom this matter
+          is to be <w part="I">ap-</w><lb/><w part="F">plied</w>, is to conſider well their <w
+            part="I">dif-</w><lb/><w part="F">ferent</w> conſtitutions and <w part="I"
+            >tempera-</w><lb/><w part="F">ments</w>, as they are of themſelves <lb/>naturally
+          productive of the <w part="I">diffe-</w><lb/><w part="F">rent</w> kinds of the <hi
+            rend="italic">Small-pox.</hi> For <lb/>it is, I believe, a generally <w part="I"
+            >receiv-</w><lb/><w part="F">ed</w> opinion that the contagious <w part="I"
+            >ve-</w><lb/><w part="F">nom</w> of this diſeaſe is in it's own <lb/>nature the ſame,
+          and differs only <lb/>according to the different bodies it <lb/>is infuſed into. In ſome,
+          for <w part="I">in-</w><pb xml:id="page_42" n="37"/><lb/><w part="F">ſtance</w>, we ſee
+          that this poiſon <w part="I">ap-</w><lb/><w part="F">plied</w> can produce no more than
+          it's <lb/>own <hi rend="italic">variolous carbuncle,</hi> or a very <lb/>few of the
+          puſtules at moſt, and <lb/>thoſe of the ſhorteſt duration; <lb/>whereas, in others, it is
+          manifeſt <lb/>that the different fluids become <lb/>more contaminated, and, therefore,
+          <lb/>conſequently produce other <w part="I">diffe-</w><lb/><w part="F">rent</w> degrees of
+          the <hi rend="italic">Small-pox:</hi>
+          <lb/>and wherever the <hi rend="italic">lymphatick veſſels</hi>
+          <lb/>are corroded by the <hi rend="italic">variolated <w part="I">acri-</w><lb/><w
+              part="F">mony</w>,</hi> being more than can be <lb/>tranſpired by the pores of the
+          ſkin, <lb/>it occaſions a ſuffuſion of the <hi rend="italic">lym-<lb/>pha</hi> itſelf, and
+          ſo conſequently <w part="I">pro-</w><lb/><w part="F">duceth</w> a confluence of the <hi
+            rend="italic">Small-<lb/>pox;</hi> and this happening <w part="I">common-</w><lb/><w
+            part="F">ly</w> in a greater degree on the head <lb/>and face, is undoubtedly owing to
+          <lb/>the great force of the circulation <lb/>of the blood, which, carrying <pb
+            xml:id="page_43" n="38"/><lb/>with it a variolated power, cauſes <lb/>the effects above
+          mentioned. The <lb/>ventricles of the brain alſo, from <lb/>the ſame morboſe cauſe, are <w
+            part="I">uſu-</w><lb/><w part="F">ally</w> ſo affected as to occaſion <w part="I"
+            >deli-</w><lb/><w part="F">rium</w>, <hi rend="italic">&amp;c;</hi> in the ſame manner
+          <lb/>probably, that the effluvia of ſtrong <lb/>drink and ſpirits affect the brain in
+          <lb/>drunkenneſs: for thus it is that the <lb/>blood, having received any <w part="I"
+            >morbi-</w><lb/><w part="F">fic</w> taint, purifies itſelf in the <w part="I"
+            >cir-</w><lb/><w part="F">culation</w>, by throwing off it's <w part="I">he-</w><lb/><w
+            part="F">terogeneous</w> particles by the <w part="I">com-</w><lb/><w part="F">mon</w>
+          emunctories which nature <lb/>hath provided, as far as the animal <lb/>faculties, under a
+          morbid ſtate <lb/>are capable of accompliſhing it. </p>
+        <p rend="indent"><lb/>Thoſe principles in our nature, <lb/>which are ſuſceptible of the <w
+            part="I">conta-</w><lb/><w part="F">gion</w> of the <hi rend="italic">Small-pox,</hi>
+          tho' they are <lb/>not, I believe, as I have before <w part="I">ob-</w><lb/><w part="F"
+            >ſerved</w>, liable to undergo a change, <pb xml:id="page_44" n="39"/><lb/>by any power
+          of medicine, <w part="I">ſuffici-</w><lb/><w part="F">ent</w> to prevent the influence of
+            <w part="I">va-</w><lb/><w part="F">riolous</w> infection; yet experience
+          <lb/>convinceth us (if we can be ſo <w part="I">con-</w><lb/><w part="F">vinced)</w> that
+          the manner of <w part="I">propa-</w><lb/><w part="F">gating</w> the diſtemper produceth a
+          <lb/>very different effect: and there can <lb/>be no occaſion to enforce the truth <lb/>of
+          this opinion by argument, ſince <lb/>God's Providence hath appeared, <lb/>in the ſucceſs
+          of inoculation, ſo <lb/>much in favour of that practice<note place="bottom" n="*"
+            rend="size(0.5)">* Since inoculation hath been brought into <lb/>practice, it is ſaid,
+            by good authority, that <lb/>there has been an annual decreaſe of a fifth <lb/>part of
+            the deaths by the <hi rend="italic">Small-pox</hi> within the <lb/>bills of mortality.
+          </note>. </p>
+        <trailer rend="align-center"><lb/>FINIS. </trailer>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,1319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LMEMT Corpus - Harper: The Oeconomy of Health, or, a Medical Essay</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>Andrew Harper</persName>
+            </author>
+            <title type="main">The Oeconomy of Health, or, a Medical Essay: containing New and
+              Familiar Instructions for the Attainment of Health, Happiness and Longevity: in which
+              The Nature of the Human Mind is accurately investigated, and its Union and Connexion
+              with the Body systematically explained. </title>
+            <edition n="1"/>
+            <idno type="ESTC">T146583</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/T146583"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>Printed for the author, and sold by C. Stalker, Stationers-Court,
+                  Ludgate-Hill.</persName>
+              </publisher>
+              <date>1785</date>
+            </imprint>
+            <extent>
+              <measure type="format">8⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="6"/>
+              <measure type="count" commodity="body" unit="page" quantity="75"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">British Library</orgName>
+            <idno type="ECCO">CW108984408</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Health guide"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text type="book" rend="roman" xml:lang="eng">
+    <gap reason="sampling" unit="pages" quantity="6"/>
+    <body>
+      <pb n="1"/>
+      <figure rend="space">
+        <figDesc>An ornamental horizontal column. </figDesc>
+      </figure>
+      <p rend="space">
+        <lb/><hi rend="dc(2)">T</hi>HE Diſeaſes incidental to the human <lb/>Body are correſpondent,
+        to the Num- <lb/>ber of external, and internal Cauſes which <lb/>are capable of affecting
+        it, and to the Na- <lb/>ture and State of the Animal Structure. </p>
+      <p rend="indent space">
+        <lb/>All thoſe Things which act immediately <lb/>upon the Body, or make Impreſſion on it,
+        <lb/>at a Diſtance, through the Medium of the <lb/>Senſes, the Changes that happen in the
+        <lb/>Atmoſphere which ſurrounds us, and in <lb/>the Air we breathe, conſtitute the general,
+        <lb/>external Cauſes that affect Health. </p>
+      <p rend="indent space">
+        <lb/>The principal internal Cauſes may be <lb/>reckoned Sleep, and the Quantity, Quality,
+        <lb/>and Modification of ſuch Things as are re- <lb/>ceived into the Stomach. </p>
+      <pb n="2"/>
+      <p rend="indent space">
+        <lb/>The particular Cauſes of Diſeaſes depend <lb/>upon the State of the Animal Oeconomy. </p>
+      <p rend="indent space">
+        <lb/>Firſt, then, I ſhall make ſome general <lb/>Obſervations, for the Purpoſe of Elucida-
+        <lb/>tion, and afterwards conſider the Subject, <lb/>as it naturally ariſes from theſe three
+        <lb/>Heads. </p>
+      <p rend="indent space">
+        <lb/>The proper Standard of Health is that <lb/>State, in which all the component Parts
+        <lb/>of the Body (as a Machine) are equally firm <lb/>to reſiſt, pliant to yield, and
+        proportionable <lb/>to be regular. This conſtitutes an Equili- <lb/>brium or proper
+        Ballance. To preſerve, or <lb/>reſtore this Ballance is Health, and every <lb/>conſiderable
+        Degree of Variation from it, <lb/>is an equal Degree of Diſeaſe. </p>
+      <p rend="indent space">
+        <lb/>The human Fabric may be divided into <lb/>two different Syſtems. The one is the
+        <lb/>Syſtem of Veſſels or Tubes, which performs <lb/>the Circulation of the Fluids, and is
+        con- <lb/>ducted on plain mechanical Principles: and <lb/>the other is the Nervous Syſtem,
+        which <pb n="3"/>
+        <lb/>conſiſts of all thoſe Parts that have Senſi- <lb/>bility and Motion, and whoſe
+        Properties are <lb/>more difficult to explain. </p>
+      <p rend="indent space">
+        <lb/>When theſe two Syſtems are happily <lb/>ballanced and proportioned, all the Powers
+        <lb/>and Functions of the Body, as well as of <lb/>the Mind, come neareſt to a State of
+        Regu- <lb/>larity and Perfection. </p>
+      <p rend="indent space">
+        <lb/>In all my Reſearches into the Nature <lb/>and Principles of the human Mind, I muſt
+        <lb/>confeſs that I can diſcern no one ſingle Ope- <lb/>ration of it diſtinct from, and
+        unconnected <lb/>with the Body. </p>
+      <p rend="indent space">
+        <lb/>That there moſt certainly is a prime Move- <lb/>ment, general Senſory, or a
+        concentrated <lb/>Power, which is the Origin of all the Fa- <lb/>culties and Offices of the
+        Body, and that <lb/>this Power reſides, or begins, within the <lb/>Brain, Anatomical
+        Diſſections, and the <lb/>Obſervations of common Senſe unqueſion- <lb/>ably demonſtrate. To
+        define the Magni- <lb/>tude, Quantity, or Proportion of this <pb n="4"/>
+        <lb/>Power, is utterly impoſſible, and to ſay that <lb/>it is immaterial, or that it is
+        ſomething <lb/>which has no Parts, is, poſitively, to ſay <lb/>that it is Nothing at all. </p>
+      <p rend="indent space">
+        <lb/>This Power is beſt known, and I think <lb/>moſt happily deſcribed by the common
+        <lb/>Terms, Mind, Life or Soul. Now, al- <lb/>though I profeſs, and indeed muſt treat of
+        <lb/>this Power or Mind as an eſſential and or- <lb/>ganic Part of the human Structure, I am
+        <lb/>ready, at the ſame Time, to declare (leaſt <lb/>I ſhould miſlead the weak or ignorant)
+        that <lb/>this Doctrine ought not, nor, by any Means, <lb/>can be deemed repugnant to the
+        Belief of <lb/>Immortality, or a future State of Exiſtence. <lb/>On the contrary, it places
+        human Nature <lb/>in a rational Light, and will be found to <lb/>obviate and reconcile thoſe
+        Difficulties <lb/>which occur in conſidering this nice Point. </p>
+      <p rend="indent space">
+        <lb/>For where is the Objection, in Reſpect <lb/>of Reaſon or Philoſophy, againſt the
+        Opinion <lb/>that this Power, Soul, Mind, or animating <lb/>Eſſence of the Body, immutable
+        in its Pro- <lb/>perties, may, at the final Hour, ſublime, <pb n="5"/>
+        <lb/>as it were, from the Caput-Mortuum, <lb/>that is, ſoar aloft, and ſurvive the groſſer
+        <lb/>Materials, which the Laws of ſpecific <lb/>Gravity fix to the Earth, and the Texture of
+        <lb/>Parts ſubjects to Separation and Diſſolution? </p>
+      <p rend="indent space">
+        <lb/>The firſt, and leading Feature in the <lb/>Phyſiognomy of the Mind is a Quality, Ca-
+        <lb/>pability, or inherent Neceſſity of perceiving <lb/>all Manner of Impreſſions whatever. </p>
+      <p rend="indent space">
+        <lb/>From this ſimple Power of Perception, <lb/>firſt, Similitude or Reſemblance of Things,
+        <lb/>then, Memory, Compariſon, Reflection, <lb/>Deliberation, and in ſhort, all the regular
+        <lb/>and progreſſive Operations of the Mind (by <lb/>Means of an intrinſic, or unceaſing
+        Move- <lb/>ment) may be eaſily conceived to proceed. </p>
+      <p rend="indent space">
+        <lb/>The Paſſions, ſo called, form another <lb/>Claſs of Operations, more energetic than
+        <lb/>the former, becauſe in them, the Impreſ- <lb/>ſions are external, immediate, and
+        impetu- <lb/>ous, and the Perceptions, therefore, recipro- <lb/>cally, more vigorous. </p>
+      <pb n="6"/>
+      <p rend="indent space">
+        <lb/>Thus, Anger proceeds from violent Agi- <lb/>tations, Fear is produced by ſuch as are
+        <lb/>ſtrong and quick, Joy ariſes from vivid, <lb/>and Grief from deep Impreſſions. Hope
+        <lb/>is the Reſult of ſoft and agreeable Emo- <lb/>tions. Which Circumſtance proves in the
+        <lb/>cleareſt Manner, that the Enjoyments of <lb/>Life infinitely ſurpaſs the Miſeries of
+        it, <lb/>ſince Hope, by being conſtantly in Exerciſe, <lb/>becomes habitual, and never
+        leaves the <lb/>Mind, except for very ſhort and almoſt im- <lb/>perceptible Intervals. This
+        Argument <lb/>yields a good Leſſon for Patience and Con- <lb/>tentment in every poſſible
+        Situation. Love, <lb/>the Miſtreſs of the Mind, differs from all <lb/>the reſt. It is
+        cloſely interwoven with the <lb/>Animal Frame, and draws its Impulſe (of <lb/>all others the
+        moſt irreſiſtible) from Springs <lb/>which act, within, as well as from Objects <lb/>that
+        excite, without. </p>
+      <p rend="indent space">
+        <lb/>Images, which preſent to the Mind, <lb/>Beauty, Harmony, and Symmetry, produce <pb
+          n="7"/>
+        <lb/>pleaſing Emotions; thoſe, which convey <lb/>the contrary Qualities, are accompanied
+        <lb/>with painful Senſations. The former of <lb/>theſe give a free and full Motion to the
+        <lb/>Nervous Power; a ſhort, quick, and con- <lb/>tracted Movement is the Conſequence of the
+        <lb/>latter. </p>
+      <p rend="indent">
+        <lb/>This Obſervation may be applied with <lb/>more Force and Conviction than all the ela-
+        <lb/>borate and ingenious Arguments that can be <lb/>adduced, (either in Favour, or in
+        Oppoſition <lb/>to the Doctrine,) in Teſtimony of the natu- <lb/>ral Aſcendency of moral
+        Virtue in the hu- <lb/>man Mind. </p>
+      <p rend="indent space">
+        <lb/>It ſhews that Beauty, Order, Dignity <lb/>and Happineſs are amiable to the Mind of
+        <lb/>Man, and illuminate with congenial Rays <lb/>the elevated Faculties of the Soul; while
+        <lb/>Deformity, Turpitude, Vice, and Miſery <lb/>compoſe the horrid Contraſt, that diſgraces
+        <lb/>Society, degrades the Mind, and brutalizes <lb/>the Species. </p>
+      <p rend="indent space">
+        <lb/>None of the Mental Affections or Opera- <lb/>tions, as long as they continue to create
+        re- <pb n="8"/>
+        <lb/>gular and pleaſing Senſations, by any Means, <lb/>injure, but on the contrary, promote
+        Health. <lb/>The Paſſions or Affections of the Mind, <lb/>therefore, affect Health, and
+        diſorder the <lb/>Syſtem, in Conſequence of, and in Propor- <lb/>tion to the Impetuoſity,
+        Pain and Duration <lb/>of the Impreſſions or Images which actuate, <lb/>or excite them, and
+        in no other Way. </p>
+      <p rend="indent space">
+        <lb/>Anger, Fear, Hatred, Shame, Grief, <lb/>Anxiety, Jealouſy, Envy, Pride, Malice <lb/>and
+        Revenge (to which I may add Study) <lb/>poſſeſſes each of them, a certain Modifica-
+        <lb/>tion of the characteriſtic Marks above deſ- <lb/>cribed; and all of them produce
+        ſimilar <lb/>Effects upon the Animal Syſtem, different <lb/>only, in Degree, and in Point of
+        Continua- <lb/>tion. Love, Hope, and Joy muſt rank <lb/>differently from the other Paſſions,
+        as their <lb/>Effects are injurious to the Syſtem, only <lb/>when they are violent and
+        exceſſive. </p>
+      <p rend="indent space">
+        <lb/>The Paſſions of the Mind then, (agree- <lb/>able to the Limitations pointed out)
+        irritate <lb/>the Nervous Syſtem, whoſe Tubes ſerve <pb n="9"/>
+        <lb/>as Conductors from the Brain throughout <lb/>the whole Body, in ſuch a Manner as to
+        <lb/>produce Spaſm. Now Spaſm is a Motion <lb/>or Oſcillation (whether in the vaſcular
+        <lb/>or muſcular Parts, it makes no Difference) <lb/>ſo extremely quick, in Point of
+        Succeſſion <lb/>or Alternation, that the Intermiſſions or ln- <lb/>tervals become
+        imperceptible to the Senſes. <lb/>This is a ſeeming Paradox, an Exceſs, and <lb/>at the ſame
+        Time, an Interruption of the <lb/>nervous Influence. </p>
+      <p rend="indent space">
+        <lb/>The ſpaſmodic Stimulus or Effort, thus <lb/>produced by the Paſſions, particularly
+        affects <lb/>the Head, the Lungs, and the Womb. <lb/>Hence Madneſs, Fainting, Convulſions,
+        <lb/>Hyſterics, Aſthma, &amp;c. It diſorders the <lb/>Stomach and Inteſtinal Canal,
+        occaſioning <lb/>Colics, Flatulency and Indigeſtion. It <lb/>conſtringes the Surface of the
+        Skin, and all <lb/>the nervous Parts and Tubes, and thus <lb/>blocks up the Perſpiration,
+        and the other <lb/>Secretions; and by theſe Means, brings <lb/>Fevers, Obſtructions, Scurvy,
+        Nervous <lb/>Diſorders, Melancholy, &amp;c. </p>
+      <pb n="10"/>
+      <p rend="indent">
+        <lb/>Vehement and ſudden Paſſions, by means <lb/>of Spaſm, ſometimes retard and check, for
+        <lb/>a Moment, the progreſſive Motion of the <lb/>Nervous Influence in the Brain itſelf.
+        <lb/>Hence a general Relaxation, and involun- <lb/>tary Diſcharge of the Fæces and Urine, a
+        <lb/>Circumſtance which happens not ſeldom, <lb/>in Caſes of extreme Fright or Terror. </p>
+      <p rend="indent space">
+        <lb/>The ſame Law paints the inward Feel- <lb/>ings upon the Muſcles of the Face, by
+        <lb/>various Contractions and Relaxations, it <lb/>gives the Pencil its fineſt Stroke, and
+        fulleſt <lb/>Expreſſion in the genuine Language of the <lb/>Eyes, and thus confirms the Face
+        the <lb/>Index, or Proxy of the Mind. </p>
+      <p rend="indent space">
+        <lb/>The immoderate or inordinate Paſſions <lb/>and Agitations of the Mind are moſt effec-
+        <lb/>tually prevented, by avoiding, as much as <lb/>poſſible, every exciting Cauſe, and by
+        cul- <lb/>tivating Habits of Equanimity and Firm- <lb/>neſs, which, with every other
+        valuable <lb/>Accompliſhment of the Mind, are chiefly <lb/>to be acquired from Education,
+        or, in <pb n="11"/>
+        <lb/>other Words, an extenſive, and well choſen <lb/>Fund of Ideas. </p>
+      <p rend="indent space">
+        <lb/>This is a Reſource which invigorates and <lb/>exalts the Mind, expands the Reaſon, fur-
+        <lb/>niſhes the Aids of Philoſophy, and ſupplies <lb/>an inexhauſtible Store of different
+        Thoughts <lb/>and various Imagery. </p>
+      <p rend="indent space">
+        <lb/>But no particular Management, nor any <lb/>Mode of Acceſs or immediate Application
+        <lb/>whatever to the Mind, can counteract the <lb/>Diſadvantages of an unhealthy and infirm
+        <lb/>Habit of Body. Pain muſt neceſſarily ſour <lb/>the Temper, and make it haſty, moroſe
+        <lb/>and iraſcible. Relaxation creates Peeviſh- <lb/>neſs and Imbecillity, and renders the
+        Mind <lb/>irritable, timid, too ſuſceptible of every <lb/>Impreſſion, and liable to
+        Miſconception; <lb/>and Obſtruction, which is generally the <lb/>Companion of Relaxation,
+        adds Gloom, <lb/>Melancholy, Anxiety, and a diſordered <lb/>Imagination to the baneful
+        Catalogue. </p>
+      <p rend="indent space">
+        <lb/>On the other Hand, in thoſe Habits or <lb/>Temperatures, in which the Powers and <pb
+          n="12"/>
+        <lb/>Functions of the Syſtem riſe above the Line <lb/>of Mediocrity, or Standard of Health,
+        and <lb/>occaſion Irregularity only on that Account, <lb/>the Diſpotion of the Mind receives
+        the <lb/>Stamp, and Wears the Colours of Pride, <lb/>Reſtleſſneſs, Vanity, and Deſire.
+        Theſe, <lb/>moreover, have not ſo ſad a Complexion, <lb/>nor ſo ſickly an Aſpect as the
+        former, and <lb/>beſides are much more eaſily reduced to <lb/>the proper Equilibrium. </p>
+      <p rend="indent space">
+        <lb/>In all Caſes Where the Paſſions are once <lb/>excited, the beſt Antidote is the
+        Creation of <lb/>new and oppoſite Impreſſions. </p>
+      <p rend="indent space">
+        <lb/>Change the Objects, ſhift the Scene, <lb/>ſooth the Mind, and compoſe the Body,
+        <lb/>and if Need be, fortify it alſo. </p>
+      <p rend="indent space">
+        <lb/>Theſe Rules are applicable in ſudden <lb/>Emotions, as Anger, Fear, &amp;c. and are
+        <lb/>equally appoſite in the Paſſions of ſuſ- <lb/>pended Love, Grief, Jealouſy, &amp;c.
+        where <lb/>there is always ſome Image permanently re- <lb/>preſented, and, in a Manner,
+        ſettled upon <pb n="13"/>
+        <lb/>the Mind. But to conquer the latter will <lb/>require Time and <choice>
+          <corr>Perſeverance</corr>
+          <sic>Perſervance</sic>
+        </choice>. </p>
+      <p rend="indent space">
+        <lb/>Grief ought to be amuſed, and ſup- <lb/>planted by Hope, Fidelity and Conſolation
+        <lb/>muſt ſoften the edge of Jealouſy, and Love <lb/>ſhould certainly be gratified, if
+        poſſible; or <lb/>if that cannot be done, (ſince as I ſaid be- <lb/>fore, it has a double
+        Claim) it muſt be al- <lb/>lowed every reaſonable Indulgence, and <lb/>ſhould undoubtedly
+        meet Returns of Sym- <lb/>pathy and Tenderneſs, ſomewhere. </p>
+      <p rend="indent space">
+        <lb/>None of the Paſſions will admit of too <lb/>ſudden a Check. It is much better to en-
+        <lb/>deavour to ſuperſede them, by Means of <lb/>other, pleaſant, Senſations, than to
+        attempt, <lb/>all at once, to ſtifle and reſtrain them. <lb/>The Irritation on the Nerves,
+        when once <lb/>excited, muſt have ſome Play. It ſeeks a <lb/>Vent through one Channel or
+        another, and <lb/>if it burſt out in a Flood of Tears, a Fit <lb/>of Laughter, or a Flow of
+        Words, it may <lb/>be reckoned a very favourable Termi- <lb/>nation. </p>
+      <pb n="14"/>
+      <p rend="indent">
+        <lb/>The Air is an inviſible, elaſtic Fluid, <lb/>which covers and encloſes the Earth, and
+        <lb/>preſſes upon the Surface of all Bodies, with <lb/>an amazing Weight. </p>
+      <p rend="indent space">
+        <lb/>The Air acts upon the Animal Syſtem, <lb/>in various Ways. It ſtimulates, more or
+        <lb/>leſs, in all Circumſtances; it relaxes or <lb/>braces according to the Degree of Heat,
+        or <lb/>Cold, which pervades it; the Lungs are <lb/>inflated and expanded with a greater or
+        <lb/>leſſer Force, adequate to its Elaſticity or <lb/>Purity; and it abſorbs and receives
+        the <lb/>diaphoretic Vapour from the Surface of the <lb/>Skin as well as of the Lungs, in
+        Proportion <lb/>to its Dryneſs and Warmth. </p>
+      <p rend="indent space">
+        <lb/>The Air, in general, is moſt ſalubrious, <lb/>in high Situations, in thoſe Places where
+        it <lb/>has a free Circulation, and alſo near the <lb/>Sea-Coaſt, and in the Vicinity of
+        Rivers, <lb/>and flowing Water. Air, impregnated <lb/>with foreign Particles, overcharged
+        with <lb/>Moiſture, or phlogiſticated by the Heat of <lb/>the Sun, the Action of Fire, by
+        ſulphure- <pb n="15"/>
+        <lb/>ous Vapours, the Breath of Animals, and <lb/>ſuchlike, is moſt unwholeſome. </p>
+      <p rend="indent space">
+        <lb/>In Aſthmas, Conſumptions, and Nervous <lb/>Complaints, the Temperature of the Air is
+        <lb/>a material Conſideration, and of great Im- <lb/>portance. A light, dry, and warm Air is
+        <lb/>beſt for weak, and diſeaſed Lungs, and a <lb/>dry and cold, or temperate Air is fitteſt
+        for <lb/>relaxed, and nervous People. </p>
+      <p rend="indent space">
+        <lb/>The Benefit of Change of Air is known <lb/>to every Body, and many People find, by
+        <lb/>Experience, that a Change even to a more <lb/>indifferent Air is ſometimes attended
+        with <lb/>Advantage. The Reaſon of which is ma- <lb/>nifeſt from what has been already ſaid
+        con- <lb/>cerning the Qualities and Effects of Air. <lb/>The Changes of Air ought not, in
+        any <lb/>Caſe, to be too ſudden, or too much in the <lb/>extreme; the more gradual they are,
+        the <lb/>leſs Danger is incurred. </p>
+      <p rend="indent space">
+        <lb/>In all Fevers, but eſpecially thoſe of the <lb/>putrid Kind, Ventilation, or the
+        Admiſſion <pb n="16"/>
+        <lb/>of freſh Air is highly neceſſary. In putrid <lb/>Fevers, the Patient ſhould be removed,
+        and <lb/>the Apartments well waſhed with Plenty <lb/>of warm Water, and dryed with a quick
+        <lb/>and ſtrong Fire, keeping the Windows <lb/>open, at the ſame Time. This is a very
+        <lb/>ſafe and effectual Method of purifying noxi- <lb/>ous Air. </p>
+      <p rend="indent space">
+        <lb/>In the advanced, as well as in the earlier <lb/>Stages of phthiſical and conſumptive
+        Diſ- <lb/>eaſes, it cannot be improper, after other <lb/>Means have failed, to try a Sea
+        Voyage and <lb/>a warmer Climate. </p>
+      <p rend="indent space">
+        <lb/>The Reaching and Vomiting occaſioned <lb/>by Sea ſickneſs, which has been generally
+        <lb/>accounted hazardous, ought not, by any <lb/>Means, to intimidate. If the Diſeaſe be
+        <lb/>ſeated in the glandular Parts of the Lungs, <lb/>if it be of the ſcrophulous Kind, or
+        of an <lb/>hydropic Nature, or if a general Infarction, <lb/>or local Plenitude of the Lungs
+        give Riſe to <lb/>it, (and thus circumſtanced indeed from <lb/>one or more of theſe Cauſes,
+        the Diſeaſe is <pb n="17"/>
+        <lb/>moſt frequently to be met with) in either <lb/>of theſe Caſes, I ſay, Sea Sickneſs and
+        <lb/>Vomiting muſt be undeniably uſeful. If <lb/>even a Suppuration or Abceſs be forming,
+        <lb/>or already formed, the Caſe is then ſo ex- <lb/>ceedingly dangerous, that there ſtill
+        remain <lb/>more Chances in Favour of, than againſt <lb/>the Patient. Beſides there is a
+        peculiar <lb/>Kind of Relaxation prevailing in the Syſtem <lb/>from the vertiginous Nature
+        of that Sick- <lb/>neſs, ſo that the Action of Vomiting is per- <lb/>formed with leſs Danger
+        of rupturing any <lb/>'Veſſels, and the Ejections from the Sto- <lb/>mach are more abundant
+        than in Vomiting <lb/>produced from any other Cauſe. </p>
+      <p rend="indent space">
+        <lb/>It may likewiſe deſerve Notice, in this <lb/>Place, that aged People, who may happen
+        <lb/>to be more ſolicitous to prolong their <lb/>Exiſtence, than concerned in what Lati-
+        <lb/>tude their Aſhes are to reſt, certainly have <lb/>it in their Power, <hi rend="italic"
+          >cœteris paribus</hi>, to add <lb/>a few Years to the Period of their natural <lb/>Lives,
+        by removing in the Decline of Life, <lb/>to a hot, tropical Climate. </p>
+      <pb n="18"/>
+      <p rend="indent">
+        <lb/>The Neceſſities of Nature, and the gene- <lb/>ral Order of Things demand Action in the
+        <lb/>human Species; and the Mechaniſm of the <lb/>Body plainly ſhews that it is not only
+        well <lb/>calculated for that Purpoſe, but alſo de- <lb/>monſtrates that Exerciſe is even
+        indiſpen- <lb/>ſibly requiſite to preſerve Regularity in the <lb/>Wheels of Motion, and to
+        fit them for the <lb/>due Performance of their ſeveral Offices. </p>
+      <p rend="indent space">
+        <lb/>Exerciſe is like a Main Spring to the <lb/>Machinery. It promotes the Digeſtion,
+        <lb/>prepares the Blood for its various Deſtina- <lb/>tions, diſtributes it through all the
+        Chan- <lb/>nels of Circulation, throws off the imper- <lb/>fect and offenſive Parts of the
+        Fluids, braces <lb/>the Nerves, gives a firm Tone to the Solids, <lb/>and carries an even
+        Flow of Spirits through- <lb/>out the whole Syſtem. </p>
+      <p rend="indent space">
+        <lb/>Exerciſe is hurtful immediately after a <lb/>full Meal, and in the Morning, when
+        <lb/>the Stomach is quite empty, much Ex- <lb/>erciſe is injurious. </p>
+      <p rend="indent space">
+        <lb/>Frequent Walking relieves the Head, <lb/>abates Rheumatic Pains, keeps the Bowels <pb
+          n="19"/>
+        <lb/>open, is favourable to all the deſcend- <lb/>ing Evacuations, and has a Tendency to
+        <lb/>prevent the Gout: It contributes to ge- <lb/>neral Health, and by increaſing the Cir-
+        <lb/>culation and Secretion in the Legs and <lb/>Feet, (ſince the Extremities are the ori-
+        <lb/>ginal Seat of the Gout) it may perhaps <lb/>hinder the Formation and Aſſimilation of
+        <lb/>thoſe morbid Particles, which are found <lb/>to exiſt, in a concreted State, in a fixed
+        <lb/>or ſettled Gout. </p>
+      <p rend="indent space">
+        <lb/>Riding on Horſe-back is an excellent <lb/>Exerciſe, and eſſentially beneficial in ob-
+        <lb/>ſtructed and nervous Habits, and in all <lb/>Affections of the Lungs: But when the
+        <lb/>Nerves or Bowels are very weak, the beſt <lb/>Subſtitute is riding in an open Carriage. </p>
+      <p rend="indent space">
+        <lb/>Thoſe who labour under Obſtructions and <lb/>Nervous Diſorders, ſhould try the Effects
+        of <lb/>ſome mechanical or domeſtic Work, and <lb/>particularly ſuch as requires Flexion of
+        the <lb/>Body, as that Attitude tends, in ſome Mea- <lb/>ſure, to give Motion to the
+        ſtagnant Fluids, <lb/>in the Viſcera. But when this is the cuſ- <pb n="20"/>
+        <lb/>tomary Poſture in People's common Occu- <lb/>pation, an Alteration in that Caſe is
+        equally <lb/>neceſſary, as Obſtructions and other Com- <lb/>plaints, may ariſe from, and be
+        much ag- <lb/>gravated by daily Contortion, or ſtooping. </p>
+      <p rend="indent space">
+        <lb/>Ploughing, and gardening are alſo very be- <lb/>neficial Exerciſes for thoſe who are in
+        a ca- <lb/>chectic, nervous, or valitudinary State, as <lb/>there can be no Doubt but the
+        freſh opened <lb/>Boſom of the prolific Earth muſt very <lb/>copiouſly diffuſe ſalubrious
+        Exhalations. </p>
+      <p rend="indent space">
+        <lb/>Moderate Dancing, occaſionally, is a <lb/>valuable Kind of Exerciſe. To the Powers
+        <lb/>of Muſic, and elevated Feſtivity, it unites <lb/>the Charms of refined Sociability and
+        At- <lb/>traction, and inſpires an Animation which <lb/>moves the Syſtem in a more pleaſing
+        and <lb/>effectual Manner, and with happier Ef- <lb/>fects than the other common Exerciſes
+        <lb/>can boaſt. </p>
+      <p rend="indent space">
+        <lb/>There are two prevailing Errors, in <lb/>Regard of Exerciſe, which I muſt re- <pb
+          n="21"/>
+        <lb/>mark. People of relaxed, delicate and ner- <lb/>vous Habits, who ſhould always avoid
+        too <lb/>much Action, at one Time, often hurt <lb/>themſelves by over Exertion, becauſe they
+        <lb/>judge it adviſeable to take Plenty of Ex- <lb/>erciſe. There are others, again, who,
+        be- <lb/>ing confined within Doors, and leading a <lb/>ſedentary Life, think to compenſate
+        for the <lb/>Want of regular Exerciſe, by a hard Ride, <lb/>or Walk, once a Week. But this
+        is a miſ- <lb/>taken Notion. The Nerves of ſuch People, <lb/>unaccuſtomed to bear ſo great a
+        Degree of <lb/>Agitation, are overſtrained and relaxed by it, <lb/>while the Circulation of
+        their Fluids, which <lb/>is, in general, very ſlow and languid, is <lb/>thrown into
+        Diſorder, from the ſame Cauſe, <lb/>and thus a Foundation is laid for thoſe very
+        <lb/>Complaints which it was meant to prevent. </p>
+      <p rend="indent space">
+        <lb/>Hard Labour, and conſtant Exertion <lb/>evaporates the Nervous Power, diſtends <lb/>and
+        relaxes the Nerves and Veſſels, (unleſs <lb/>when Labour is habitual, and then indeed it <pb
+          n="22"/>
+        <lb/>has a contrary Effect upon the Solids,) throws <lb/>off the nutritious Part of the
+        Blood, and <lb/>thereby waſtes and weakens the Syſtem. </p>
+      <p rend="indent space">
+        <lb/>In all Caſes whatever, let this be an inva- <lb/>riable Rule, that real Wearineſs and
+        Fa- <lb/>tigue ſhould mark the preciſe Limits of <lb/>every Species of Exerciſe and Labour. </p>
+      <p rend="indent space">
+        <lb/>Cleanlineſs is accompanied with as much <lb/>Utility as Comfort, and ſhould therefore
+        be <lb/>practiſed, as far as Circumſtances will ad- <lb/>mit, by every one. It is a Matter
+        of no <lb/>ſmall Importance to keep the Skin clear <lb/>and clean: both becauſe it is the
+        moſt <lb/>copious excretory Paſſage, of the whole <lb/>Body, for the ſuperfluous Diatheſis
+        of the <lb/>Blood, and alſo on Account of its being a <lb/>fine, ſenſible, nervous
+        Expanſion, holding <lb/>a high Degree of Sympathy, with all the <lb/>principal Organs of the
+        Syſtem. Hence <lb/>the Skin is the principal Drain whereby the <lb/>Circulation maintains an
+        equal Diſtribu- <lb/>tion, and the Nervous Syſtem preſerves its <lb/>Equilibrium. </p>
+      <pb n="23"/>
+      <p rend="indent">
+        <lb/>The Feet ſhould be particularly attended <lb/>to. The bathing of them in warm Wa-
+        <lb/>ter helps to relieve the Head-ach, all Sorts <lb/>of Colics, and nephritic Pains, and
+        is ſer- <lb/>viceable in Fevers, and recent Colds. </p>
+      <p rend="indent space">
+        <lb/>As to Clothes, it is always better, eſpe- <lb/>cially in this Climate, to wear too many
+        <lb/>than too few. Emaciated People recover- <lb/>ing from Illneſs ſhould have Clothes made
+        <lb/>to fit cloſe. Theſe would help to brace and <lb/>reſtore them, whereas their old looſe
+        <lb/>Clothes tend to keep them relaxed, and, <lb/>at the ſame Time admit too much Air. </p>
+      <p rend="indent space">
+        <lb/>It is really extraordinary, that any Per- <lb/>ſon, (yet one may meet ſuch every Day)
+        <lb/>either from Vanity or Ignorance, ſhould <lb/>fall into a Cuſtom ſo repugnant to common
+        <lb/>Senſe, and his own private Feelings, as <lb/>that of girding the Neck till the Eyes
+        ſtart, <lb/>or of wearing Apparel ſo very tight and <lb/>faſhionable, that he can neither
+        bend, <lb/>walk, breathe, nor ſpeak. </p>
+      <p rend="indent space">
+        <lb/>Heat relaxes the Nerves and Solids, and <lb/>rarifies and volatilizes the Fluids, it
+        alſo <pb n="24"/>
+        <lb/>generates Bile, and prepares the Body for <lb/>Fluxes, intermittent, putrid, and
+        epidemic <lb/>Fevers. </p>
+      <p rend="indent space">
+        <lb/>Thoſe, who are much expoſed to ſtrong <lb/>Fires, or to intenſe Heat of any Kind,
+        <lb/>ſhould wear coarſe Linnen, or Cotton next <lb/>the Skin, ſhould ſhift often, and waſh
+        the <lb/>Face and Hands with cold Water, and a <lb/>little common Salt diſſolved in it,
+        twice a <lb/>Day. </p>
+      <p rend="indent space">
+        <lb/>In the Heat of Summer, a moderate <lb/>Portion of Wine, or Spirits, is quite ne-
+        <lb/>ceſſary, both to ſupply the Conſumption <lb/>occaſioned by the Increaſe of
+        Perſpiration, <lb/>and to recruit the exhauſted Strength, and <lb/>alſo to ſharpen the
+        greater Quantities of di- <lb/>luting Liquors, which Thirſt naturally re- <lb/>quires.
+        Therefore, one Way with another, <lb/>there ought to be conſumed nearly as much <lb/>ſtrong
+        Liquor, in the Summer as in the <lb/>Winter Seaſon. </p>
+      <p rend="indent space">
+        <lb/>Cold gives Tenſion or Firmneſs to the <lb/>Fibres, condenſes the Fluids, compacts the
+          <pb n="25"/>
+        <lb/>Texture of the Blood, and prediſpoſes to <lb/>inflammatory Diſeaſes. </p>
+      <p rend="indent space">
+        <lb/>Warm Clothes, Motion, and ſufficient <lb/>Nouriſhment are the moſt proper and effec-
+        <lb/>tual Preſervatives againſt exceſſive Cold: <lb/>And nothing is more prepoſterous, or
+        more <lb/>dangerous than the Uſe of too much ſpi- <lb/>rituous Liquors in cold, ſevere
+        Weather. </p>
+      <p rend="indent space">
+        <lb/>There is hardly any thing more common <lb/>than to hear People expreſs their Surprize
+        <lb/>at having got Cold, becauſe they are alto- <lb/>gether at a Loſs to account for the
+        Cauſe <lb/>of it. They are not ignorant that damp <lb/>Air, wet Clothes, the drinking cold
+        Li- <lb/>quors when the Body is very hot, or too <lb/>warm Liquors when it is cold, and ſuch
+        <lb/>like, are the chief Cauſes; but do not con- <lb/>ſider that all ſudden Tranſitions from
+        one <lb/>Temperature, and one Extreme to another, <lb/>are equally conducive to the ſame
+        Effect, <lb/>though the Circumſtances of it may not be <lb/>ſo obvious to them. </p>
+      <pb n="26"/>
+      <p rend="indent">
+        <lb/>Colds bring on Fevers, Inflammations <lb/>of the Throat and Lungs, Pleuriſies, Con-
+        <lb/>ſumptions, Rheumatiſms, Colics, Dia- <lb/>rrhœas, Piles, Palſy, &amp;c. and are often
+        <lb/>ſo ſerious in their Conſequences, that no <lb/>Body ſhould venture to trifle with
+        Colds, <lb/>even in a ſlight Degree. </p>
+      <p rend="indent space">
+        <lb/>In ſevere, recent Colds that affect the <lb/>Breaſt, Bleeding ſhould be almoſt invari-
+        <lb/>ably reſorted to, and the Perſpiration re- <lb/>ſtored by every Means, except ſuch as
+        are <lb/>of too heating a Nature: In Colds which <lb/>attack the Head, the Regimen ought not
+        <lb/>be too low, leaſt the Complaint ſhould <lb/>deſcend upon the Lungs. </p>
+      <p rend="indent space">
+        <lb/>To Wear ſoft Flannel next the Skin can- <lb/>not be too ſtrongly recommended to thoſe
+        <lb/>who labour under any Affection of the <lb/>Lungs, or Weakneſs of the Bowels. The
+        <lb/>ſame Expedient will be found ſerviceable <lb/>in the Rheumatiſm, and in all ſcorbutic,
+        <lb/>dropſical, hypocondriac and melancholic <lb/>Complaints. </p>
+      <pb n="27"/>
+      <p rend="indent">
+        <lb/>In each of the above Caſes, ſtrong <lb/>Friction upon the Skin, eſpecially the Re-
+        <lb/>gion of the Stomach and Bowels, and along <lb/>the Spine, may be employed with
+        conſider- <lb/>able Effect. </p>
+      <p rend="indent space">
+        <lb/>The Cuſtom of Sea-Bathing, and of <lb/>drinking the Mineral Waters, on every
+        <lb/>Occaſion, derives more Support, I doubt, <lb/>from the powerful Sanction of Fafhion,
+        <lb/>than from any decided Teſtimony of their <lb/>being always ſalutary and efficacious. </p>
+      <p rend="indent space">
+        <lb/>This much I may venture to ſay, that <lb/>they ſhould be either ſeldom recurred to,
+        <lb/>or adminiſtered with much Diſcretion. <lb/>Many of the Mineral Waters are impreg-
+        <lb/>nated with very active Ingredients, and by <lb/>too frequent Uſe, impair, and wear out
+        the <lb/>Conſtitution; and Cold-Bathing is inimi- <lb/>cal to the Lungs, and in many
+        Inſtances, <lb/>has paved the Way for bilious Complaints, <lb/>and Obſtructions of the
+        Viſcera. </p>
+      <p rend="indent space">
+        <lb/>To dip regularly in cold Water, in In- <lb/>fancy, is highly proper. It checks redun-
+          <pb n="28"/>
+        <lb/>dant Growth, ſtrengthens the ſoft Fibres, <lb/>and confirms the Stamina. </p>
+      <p rend="indent space">
+        <lb/>Sound Sleep, continued for ſeven or eight <lb/>Hours, is, in general, quite ſufficient
+        for <lb/>the Purpoſe of Reſtoration, yet female, and <lb/>delicate Conſtitutions require
+        rather more. </p>
+      <p rend="indent space">
+        <lb/>Too much Sleep weakens the Nerves, <lb/>renders the Temper peeviſh, and prediſpoſes
+        <lb/>to Apoplexy and Palſy, it likewiſe creates a <lb/>lethargic and indolent Diſpoſition,
+        diſqua- <lb/>lifies for Action, and blunts the Energy <lb/>both of the intellectual and
+        corporeal Facul- <lb/>ties. On the other Hand, nothing can be <lb/>more pernicious than the
+        Loſs of Sleep, <lb/>and Want of due Reſt. Watching, by <lb/>exciting an artificial Fever,
+        and by ſtimu- <lb/>lating the nervous Syſtem, when its Powers <lb/>are already exhauſted,
+        effectually waſtes the <lb/>Strength, debilitates the Body, and lays it <lb/>open to every
+        Attack, eſpecially to nervous <lb/>and phrenitic Fevers. </p>
+      <pb n="20"/>
+      <p rend="indent">
+        <lb/>The Duration of Sleep muſt be propor- <lb/>tioned rather to the Nature of the Conſti-
+        <lb/>tution, than to the Degree of Exerciſe, or <lb/>Labour. In lax and tender Habits, the
+        <lb/>natural Motion and Attrition in the <lb/>Syſtem, exhauſt and diſſipate the vital
+        <lb/>Strength much ſooner than in thoſe Con- <lb/>ſtitutions which are hardy and robuſt;
+        con- <lb/>ſequently, the former require longer Sleep, <lb/>to repair the Waſte and
+        Conſumption, than <lb/>what is neceſſary for the latter. Beſides, <lb/>in thoſe who have
+        much Exerciſe, or La- <lb/>bour, the Powers of Circulation being <lb/>more complete, and the
+        Sleep more mature, <lb/>the Buſineſs of Nature is ſooner performed. </p>
+      <p rend="indent space">
+        <lb/>A Life of Labour, and conſtant Action <lb/>is commonly accompanied with Vigour,
+        <lb/>and good Spirits; but it muſt be conſider- <lb/>ed, that, from the ſame Cauſe, the
+        Fibres <lb/>grow rigid, and the fine Tubes become <lb/>impervious and unfit for Motion and
+        Cir- <lb/>culation, in a ſhorter Space of Time; hence <lb/>the Period of Exiſtence is
+        ſhortened, and <lb/>yet the ſame Exiſtence, deprived of the ſa- <pb n="30"/>
+        <lb/>lutary Effects of continued Exerciſe, might <lb/>have been prematurely terminated, by
+        the <lb/>Invaſion of ſome Diſeaſe generated from <lb/>Eaſe, Indolence, or Retirement. </p>
+      <p rend="indent space">
+        <lb/>Study, or intenſe Thought of any Kind, <lb/>eſpecially if fixed on ſome individual and
+        <lb/>intereſting Object, very ſpeedily conſumes <lb/>the Nervous Power, within the Brain,
+        <lb/>(while the reſt of the Syſtem is deſtitute of <lb/>its Influence) and therefore
+        requires as <lb/>long, and indeed longer Sleep to recruit the <lb/>Strength and repleniſh
+        the Spirits, than <lb/>hard Labour does. </p>
+      <p rend="indent space">
+        <lb/>I have noticed that Animals of the op- <lb/>poſite Gender thrive better when they reſt
+        <lb/>or ſleep near each other, than thoſe of the <lb/>ſame Gender do. I ſhaIl not make any
+        <lb/>Application, but only ſay, that, whatever <lb/>that Circumſtance may be owing to, it is
+        <lb/>ſurely better to ſleep alone than with an <lb/>unhealthy and diſagreeable Companion. </p>
+      <pb n="31"/>
+      <p rend="indent">
+        <lb/>Heavy Suppers, much Reading, Study, <lb/>or any conſiderable Agitation, or Applica-
+        <lb/>tion of Mind, near the Hour of going to <lb/>Bed, all tend to prevent ſound Sleep, and
+        <lb/>to occaſion Dreams. The drinking of Tea, <lb/>Coffee, or any other thin, weak Liquor
+        <lb/>will alſo retard Sleep. </p>
+      <p rend="indent space">
+        <lb/>Sound Sleep, properly ſpeaking, is that <lb/>State of perfect Quiet in the Mind, which
+        <lb/>does not admit, or rather is not accom- <lb/>panied with any Perception whatever. </p>
+      <p rend="indent space">
+        <lb/>Dreams, therefore, may be termed a <lb/>Kind of half Sleep, and may be occaſion-
+        <lb/>ed by any Irritation that excites the ſmalleſt <lb/>Degree of Motion in the Syſtem,
+        beyond <lb/>that Point of Tranquillity which conſtitutes <lb/>real or ſound Sleep. If there
+        be any ſuch <lb/>Thing as preternatural Dreams, I confeſs <lb/>myſelf entirely unable to
+        account for them. </p>
+      <p rend="indent space">
+        <lb/>Fulneſs and Flatulency in the Stomach, <lb/>together with lying on the Back, in Per-
+        <lb/>ſons of relaxed Nerves, are the Cauſes of <pb n="32"/>
+        <lb/>the Night-Mare. Thoſe, accordingly, <lb/>who are troubled with this unwelcome
+        <lb/>Gueſt, ſhould ſtrengthen the Nervous Syſ- <lb/>tem, lie upon the Side, and drink a
+        Glaſs <lb/>of Wine, or ſtrong Spirits and Water, <lb/>going to Bed. </p>
+      <p rend="indent space">
+        <lb/>An Appetite for Food or Nouriſhment <lb/>is an almoſt infallible Sign of Health: but
+        <lb/>if the Digeſtion be not, at the ſame Time, <lb/>regular and perfect, it is a falſe
+        Appetite, <lb/>ariſing either from ſome preternatural Sti- <lb/>mulus, or from luxurious
+        Living, hence <lb/>the Stomach craves more than is neceſſary. <lb/>The Simplicity of Food
+        has numerous <lb/>Advocates, and there is no Doubt but, the <lb/>more Variety the Stomach is
+        accuſtomed <lb/>to, the more Dainties, and perhaps the <lb/>larger Quantities are needful.
+        The Man- <lb/>ner of Living ſhould, therefore, be regu- <lb/>lated from the earlieſt Period.
+        The Child- <lb/>ren of poor People, who are likely to live <lb/>hard, ſhould, from the
+        firſt, be accuſtom- <lb/>ed to plain and ſubſtantial Food, and <lb/>ſeldom allowed many
+        Rarities. They <pb n="33"/>
+        <lb/>ſhould learn to take whatever is offered <lb/>them, to prevent their Stomachs from be-
+        <lb/>ing too nice; but nothing to which they <lb/>ſeem to have a fixed Diſlike ſhould be
+        <lb/>forced upon them: it is as dangerous as it <lb/>is unnatural. </p>
+      <p rend="indent space">
+        <lb/>The Practice of cramming Children with <lb/>Materials of every Kind, countenanced by
+        <lb/>ſome Gentlemen of the Faculty, with a <lb/>View to ſtrengthen and corroborate their
+        <lb/>Stomachs, is too abſurd, in my Opinion, <lb/>to challenge Animadverſion. Such Treat-
+        <lb/>ment muſt load them with noxious and <lb/>ſuperfluous Humours, train them up for
+        <lb/>Epicureans, and by over Diſtenſion of the <lb/>Stomach, and Preſſure upon the Lungs,
+        and <lb/>the adjacent Bowels, it cannot but ſow the <lb/>Seeds of a Multiplicity of
+        Diſorders, par- <lb/>ticularly of the nervous Kind. It muſt <lb/>alſo contribute to weaken
+        their Intellects, <lb/>and incur the future Danger of apoplectic, <lb/>epileptic, and
+        paralytic Attacks. </p>
+      <pb n="34"/>
+      <p rend="indent">
+        <lb/>Gormandizing, or immoderate eating, <lb/>in grown People, is productive of ſimilar
+        <lb/>Conſequences, Conſequences proportiona- <lb/>bly more immediate, and deſtructive, as
+        <lb/>the Effects of Repletion, in Maturity, are <lb/>always more violent and fatal than in
+        <lb/>Infancy. </p>
+      <p rend="indent space">
+        <lb/>Thoſe who eat plentifully ſhould drink <lb/>liberally too, as that will promote the
+        <lb/>Digeſtion, and accelerate Chylification, <lb/>and Excretion. </p>
+      <p rend="indent space">
+        <lb/>Sleep may, in ſome Meaſure, ſupply the <lb/>Place of Food, and ſtrong Liquor com-
+        <lb/>penſate for a ſcanty Meal, but the laſt <lb/>Alternative is, by far, the worſt; it is a
+        <lb/>Subſtitute that ſhould, on no Account, be <lb/>employed, eſpecially as it always does
+        <lb/>moſt Miſchief, when the Stomach is moſt <lb/>empty. </p>
+      <p rend="indent space">
+        <lb/>The intemperate Uſe of ſpirituous Li- <lb/>quors maintains a continual Fever, de-
+        <lb/>ſtroys the Tone of the Nerves and Solids, <pb n="35"/>
+        <lb/>and at length makes them callous; it <lb/>inflames the Blood, carries it through the
+        <lb/>Lungs, and towards the Brain, with great <lb/>Rapidity, ruptures the Mouths of the
+        ſmall <lb/>Veſſels, indurates the Viſcera, or Bowels, <lb/>and erodes the Kidneys. Hence a
+        Train of <lb/>complicated Maladies, too tedious to de- <lb/>ſcribe or enumerate. </p>
+      <p rend="indent space">
+        <lb/>If Liquor be recurred to, with a View <lb/>to keep up the Spirits, it ſoon evaporates
+        <lb/>with the increaſed Flow occaſioned by it, <lb/>if it be uſed to relieve Anxiety of
+        Mind, <lb/>the tranſient Serenity is quickly ſucceeded <lb/>by a ſtill deeper Gloom, and if
+        it be <lb/>admitted to exhilarate the ſocial Hour of <lb/>convivial Enjoyment, Moderation
+        ſhould <lb/>always fill the Cup, and not ſuffer one to <lb/>affront his Friend, deſtroy his
+        Health, or <lb/>ſtupify his Senſes. </p>
+      <p rend="indent space">
+        <lb/>Animal Food is certainly too freely uſed <lb/>in this Country. The uſual Proportion
+        <lb/>ſtimulates too much, gives a denſe, or a <lb/>putreſcent Craſis to the Blood,
+        (according <pb n="36"/>
+        <lb/>as the Habit is ſtrong, or weak,) and in- <lb/>duces Acrimony, and thus it ultimately
+        <lb/>propagates the Cauſes of Obſtructions, of <lb/>putrid, and nervous Diſeaſes: It
+        generates <lb/>Bile, is the leading Cauſe of the Scurvy, <lb/>and foſters the Gout and
+        Rheumatiſm. <lb/>At the ſame Time it muſt be admitted, <lb/>that the State of the Air is
+        ſuch, in Eng- <lb/>land, as demands a Diet rather warm and <lb/>ſtimulating, to counteract
+        the moiſt, re- <lb/>laxing Quality of it. </p>
+      <p rend="indent space">
+        <lb/>Low and abſtemious Living, and a <lb/>thin, Watery, vegetable Diet, robs the <lb/>Body
+        of competent Nouriſhment, unbra- <lb/>ces the Stomach and Nerves, diſſolves <lb/>the Blood,
+        diminiſhes the Action of the <lb/>Veſſels, and reduces the Syſtem below the <lb/>Standard of
+        Health: Hence a Prediſpoſi- <lb/>tion to all the Diſeaſes which ariſe from <lb/>Debility and
+        Relaxation. Yet a very ſlen- <lb/>der Diet, if the Habit has been accuſtomed <lb/>to ſuch,
+        will preſerve the Ballance, give <lb/>Spirits and Vivacity, and ſupply all the <lb/>Springs
+        of Health: In ſhort, it is Quan- <pb n="37"/>
+        <lb/>tity rather than Quality that repleniſhes <lb/>the Waſte, and affords the true
+        Nutrition <lb/>of Animal Life. Simple Food (in ſuffi- <lb/>cient Quantity) digeſts,
+        circulates, and re- <lb/>pairs, gradually, ſmoothly, and with Cer- <lb/>tainty, whereas the
+        rich, high ſeaſoned <lb/>Repaſt occaſions Perturbation, Heat, and <lb/>Excitement, and thus
+        very frequently diſ- <lb/>ſipates and carries off, by the different <lb/>Diſcharges, a
+        conſiderable Portion of nu- <lb/>tritious Juices, and leaves the Body Weak, <lb/>enervated,
+        and collapſed, inſtead of nou- <lb/>riſhing and recruiting the Syſtem, by its <lb/>own
+        Addition. Hence it is that high <lb/>Living demands Luxury to ſcrew up the <lb/>Nerves to
+        their uſual Pitch, and hence it is <lb/>alſo that, being over-ſtrained, they ſoon <lb/>wear
+        out and break. </p>
+      <p rend="indent space">
+        <lb/>A Diet, conſiſting chiefly of Milk and <lb/>Vegetables, has been found, in ſeveral In-
+        <lb/>ſtances, to renovate the Conſtitution, re- <lb/>move Sterility, and eradicate ſome of
+        the <lb/>moſt obſtinate, chronic Complaints. </p>
+      <pb n="38"/>
+      <p rend="indent">
+        <lb/>Regimen, I am convinced, can produce <lb/>the moſt ſalutary Effects, but it needs
+        <lb/>particular Skill to direct it. A Patient, <lb/>in paſſing from a higher to a lower,
+        <lb/>or from a lower to a higher Regimen, <lb/>muſt be carried, Step by Step, as Cir-
+        <lb/>cumſtances will admit, with great Cir- <lb/>cumſpection. </p>
+      <p rend="indent space">
+        <lb/>Tea and Coffee have long been Subjects <lb/>of Reprobation with the Faculty; but I am
+        <lb/>apprehenſive that theſe Articles of Living <lb/>have been too raſhly condemned, with-
+        <lb/>out proper Inveſtigation, or good Grounds. <lb/>I look upon them rather as medicinal,
+        <lb/>than dietetic, and would, therefore, adviſe <lb/>to uſe them ſparingly. </p>
+      <p rend="indent space">
+        <lb/>Coffee is a warm, ſtimulating Cordial, <lb/>and increaſes all the Secretions<choice>
+          <corr>.</corr>
+          <sic/>
+        </choice>
+      </p>
+      <p rend="indent space">
+        <lb/>Tea ſeems, in general, to be rather irri- <lb/>tating on an empty Stomach, but is very
+        <lb/>ſuitable, at a proper Interval after Dinner. <lb/>It then dilutes, aſſiſts Digeſtion,
+        quench- <pb n="39"/>
+        <lb/>es Thirſt, and exhilarates the Spirits.— </p>
+      <p rend="indent space">
+        <lb/>Porter, fortunately for this Metropolis, <lb/>is a good, nutritious, wholeſome Liquor:
+        <lb/>yet I doubt there is ſomething of a narcotic <lb/>Quality added to it, which ought not
+        to <lb/>be. It requires Exerciſe, and ſhould not, <lb/>I think, be drank too new; it is
+        doubtleſs <lb/>more perfect, and more digeſtible, when <lb/>moderately ſtale. </p>
+      <p rend="indent space">
+        <lb/>The exceſſive Uſe of Tobacco, in what- <lb/>ever manner it may be exhibited, heats the
+        <lb/>Blood, hurts Digeſtion, waſtes the finer <lb/>Part of the Fluids, and relaxes the
+        Nerves. <lb/>It is moſt beneficial to People of groſs <lb/>and corpulent Habits, who have
+        but little <lb/>Exerciſe, and breathe foul Air. </p>
+      <p rend="indent space">
+        <lb/>Nothing can be more ridiculous, or <lb/>more pernicious than the Practice of eating
+        <lb/>and drinking Things very hot. It ſpoils <lb/>the Teeth, brings on the Tooth-Ach,
+        <lb/>weakens the Head and Eyes, ruins the <lb/>Stomach, and does abundance of Miſchief. </p>
+      <pb n="40"/>
+      <p rend="indent">
+        <lb/>It is, at all Times, hurtful to faſt too <lb/>long, but more particularly in the Morn-
+        <lb/>ing. It admits a Redundancy of Air into <lb/>the Stomach, and the Whole Body ſuffers
+        <lb/>by it. </p>
+      <p rend="indent space">
+        <lb/>It would be better, in my Opinion, if <lb/>Breakfaſt were to become a more ſolid Re-
+        <lb/>freſhment than it is, in this Country. An <lb/>Addition would afford a more durable
+        Sup- <lb/>port through the fatiguing Part of the Day, <lb/>and whether it were to ſuperſede
+        the Cuſtom <lb/>of a Luncheon, or not, an equivalent De- <lb/>duction would be very properly
+        ſubſtracted <lb/>from Dinner, which is generally more <lb/>plentiful than it ought to be,
+        among thoſe <lb/>who are not limited by Oeconomy. </p>
+      <p rend="indent space">
+        <lb/>Supper ſhould be light, and proportion- <lb/>able to the Degree of Exerciſe that is to
+        <lb/>ſucceed. The Quantity of Supper ought <lb/>juſt to be ſufficient to repleniſh the Waſte
+        <lb/>which the different Functions neceſſarily <lb/>make. If any more be received into the
+          <pb n="41"/>
+        <lb/>Stomach, too great a Portion of the Ner- <lb/>vous Power is determined to that Organ,
+        <lb/>and expended there in the Work of Digeſ- <lb/>tion, while, at the ſame Time, the Super-
+        <lb/>fluity continues to excite an unſeaſonable <lb/>Stimulus in the Syſtem, which ſhould
+        re- <lb/>main, as much as poſſible, in a quieſcent <lb/>State, during Sleep, and leaves an
+        unneceſ- <lb/>ſary Quantity of Materials in the Stomach, <lb/>next Morning, which ought,
+        then, to be <lb/>nearly empty, and to contain little more <lb/>beſides the gaſtric or common
+        Liquor of <lb/>the Stomach. </p>
+      <p rend="indent space">
+        <lb/>Water, as being a Vehicle particularly <lb/>connected with all the Departments of
+        <lb/>Nouriſhment, deſerves proper Attention. <lb/>Pure, cold Water acts as a tonic or
+        corrobo- <lb/>rant, internally, in the Stomach, as well as <lb/>applied externally. It
+        paſſes off gently by <lb/>the different Excretions, it dilutes the ſa- <lb/>line, and
+        corrects the bilious Part of the <lb/>Blood. Bad Water muſt be inimical to <lb/>Health,
+        according to the Manner and De- <lb/>gree in which it happens to be impregnated <pb n="42"/>
+        <lb/>with heterogenous Matter. Snow Water, <lb/>and Water that freezes moſt readily into
+        <lb/>Ice, are found to be the pureſt of all; the <lb/>next in Purity is Rain Water, which
+        falls <lb/>in moderate Weather, and then River Wa- <lb/>ter, which runs with a brisk
+        Current. <lb/>Spring Water, in paſſing through the Strata <lb/>of the Earth, often imbibes
+        mineral, and <lb/>other Ingredients, and accordingly becomes <lb/>more objectionable:
+        Nevertheleſs it is com- <lb/>monly and very properly uſed, becauſe it is <lb/>more readily
+        obtained in a pure State, than <lb/>any of the former generally are. The pu- <lb/>reſt Water
+        is that which has neither Taſte, <lb/>Colour, nor Smell; that which is lighteſt <lb/>and
+        moſt limpid; that which eaſily lathers <lb/>with Soap: and that which does not effer-
+        <lb/>veſce or bubble, nor form any Sediment <lb/>when good Vinegar, or Spirits of Sal Ammo-
+        <lb/>niac is put into it. The moſt certain Me- <lb/>thod of purifying Water is by
+        Diſtillation, <lb/>and the moſt commodious and eaſy, is by <lb/>boiling. The Influence of
+        Fire deſtroys <lb/>Animalculæ, and by diffuſing the compo- <lb/>nent Parts of Water, it
+        affords an Oppor- <pb n="43"/>
+        <lb/>tunity for the fixed Air, and the too volatile <lb/>Particles to evaporate, and by the
+        ſame <lb/>Means, decompoſes the Combinations, ſo <lb/>that the earthy and foreign
+        Ingredients fall <lb/>to the Bottom. Filtration, the Mixture of <lb/>Chalk or Sand, Expoſure
+        to the open Air, <lb/>and allowing it due Time to ſettle, are, indi- <lb/>vidually,
+        conducive towards the Purification <lb/>of Water. </p>
+      <p rend="indent space">
+        <lb/>The Influence of the Moon, in her differ- <lb/>ent Phaſes, upon the Earth, is a Matter
+        well <lb/>known: And authentic Obſervations ſeem <lb/>to confirm the Opinion, that
+        Commotions <lb/>in the Animal Syſtem, and the Attack of <lb/>febrile, epileptic, and other
+        Diſeaſes, as well <lb/>as periodical Alterations, are, in a certain <lb/>Degree, coincident
+        with the Returns of the <lb/>new, and full Moon. For my own Part, <lb/>although I have no
+        Doubt about the Cer- <lb/>tainty of this Doctrine; yet my own Obſer- <lb/>vations have not
+        been ſo accurate on this <lb/>Point, as to eſtabliſh any invariable Rules <lb/>which I could
+        preſume to offer as a Guide. </p>
+      <pb n="44"/>
+      <p rend="indent">
+        <lb/>A Pendulum of any Kind, ſuſpended in <lb/>ſuch a Manner as to receive no other Motion
+        <lb/>except that conveyed to it by the Pulſation <lb/>of ſome of the large Arteries of a
+        Perſon in <lb/>Health, makes a certain Number of ſtrong- <lb/>er Vibrations than ordinary,
+        correſponding <lb/>to the Hour of the Day. If the Poſition <lb/>be true, (which I have often
+        proved, by reſt- <lb/>ing the Right Arm over a Cup, or common <lb/>Beer Glaſs, holding one
+        End of a Piece of <lb/>Thread, between the Thumb and Finger, <lb/>with a Ring, or ſuch like
+        faſtened to the <lb/>other End, which reached towards the <lb/>Center of the Cavity) the
+        Inference muſt <lb/>be, that there is a certain Number of extra- <lb/>ordinary Pulſations in
+        the Arterial Syſtem, <lb/>within the Space of every Hour, varying <lb/>with the Sun's
+        Diſtance from the Meridian. <lb/>This Experiment I only mention as de- <lb/>ſerving further
+        Inveſtigation, as it might <lb/>lead to the Diſcovery of thoſe Periods when <lb/>the
+        Paroxyſms of Fevers, &amp;c. may be ex- <lb/>pected; and thus aſcertain the moſt proper
+        <lb/>Time for the Exhibition of Medicines. </p>
+      <pb n="45"/>
+      <p rend="indent">
+        <lb/>I have known Inſtances where Muſic af- <lb/>forded effectual Relief in the moſt violent
+        <lb/>Pain; and believe that its Powers might <lb/>be ſo managed as to be ſerviceable in ſome
+        <lb/>acute, and nervous Caſes. </p>
+      <p rend="indent space">
+        <lb/>No virulent, infectious, or contagious <lb/>Diſeaſe can poſſibly be communicated but
+        <lb/>by Means of ſome of the morbific Particles <lb/>coming in Contact with, and finding Ad-
+        <lb/>miſſion into the Body, which muſt alſo be, <lb/>at the ſame Time, in a State adapted
+        for <lb/>the Reception, and Nouriſhment or Aſſi- <lb/>mulation of the invading Particles. </p>
+      <p rend="indent space">
+        <lb/>Therefore the general Plan of Defence <lb/>againſt every Species of Infection muſt be,
+        <lb/>to avoid the Contact of its Effluvia, or to <lb/>repel and diſſipate them, when in
+        Contact. </p>
+      <p rend="indent space">
+        <lb/>In the Lues Venerea, and Itch, where the <lb/>infectious Matter is palpably depoſited,
+        <lb/>waſhing and cleanſing the Parts will often <lb/>deſtroy the Infection. </p>
+      <pb n="46"/>
+      <p rend="indent">
+        <lb/>In all infectious Diſeaſes, ſuch as the <lb/>Small Pox, Meaſles, putrid, peſtilential,
+        <lb/>and epidemic Fevers, the Air is the Medi- <lb/>dium, (except when they are communicat-
+        <lb/>ed by Means of infected Clothes, and ſuch <lb/>like,) and conſequently the Skin, and
+        the <lb/>internal Surface of the Mouth, Noſe, Lungs, <lb/>and Stomach, are the Points of
+        Contact, <lb/>and all theſe Parts have Pores of Admiſſion. </p>
+      <p rend="indent space">
+        <lb/>The beſt Method then, in theſe Caſes, <lb/>will be to chew aromatic and pungent Sub-
+        <lb/>ſtances in the Mouth, to impregnate the <lb/>ambient Air with volatile and correcting
+        <lb/>Particles, and to brace the Stomach with <lb/>ſuch Things as are ſtimulating and anti-
+        <lb/>ſceptic. </p>
+      <p rend="indent space">
+        <lb/>Almoſt every Year, and often at different <lb/>Seaſons of the ſame Year, there happen
+        pre- <lb/>vailing Fevers, which are very perplexing <lb/>to the Relatives of ſuch as labour
+        under <lb/>them. The natural Duties of Humanity <lb/>conſtrain their Attendance, their Appre<choice>
+          <corr>-</corr>
+          <sic/>
+        </choice>
+        <lb/>henſions of Danger to themſelves and Fa- <lb/>milies excite their Solicitude, and the
+        An- <pb n="47"/>
+        <lb/>ſwers given by the attending Faculty to their <lb/>anxious Enquiries whether or not the
+        Diſ- <lb/>eaſe be infectious, are ſeldom ſatisfactory, <lb/>and perhaps not always quite
+        judicious. </p>
+      <p rend="indent space">
+        <lb/>Let me then, in Regard of this Matter, <lb/>obſerve, in few Words, that almoſt all the
+        <lb/>Fevers that occur between the Months of <lb/>April and November, if they do not pro-
+        <lb/>ceed from what is termed catching Cold; <lb/>if they be not regular intermittent; if
+        they <lb/>ſeem different from any of the known Claſs <lb/>of common Fevers; and if they be
+        attended <lb/>with peculiar Symptoms, ſuch as an extra- <lb/>ordinary quick Pulſe, extreme
+        Debility, ex- <lb/>ceſſive Sickneſs at Stomach, violent Pain in <lb/>the Head, Sleepineſs,
+        Deafneſs, and Deli- <lb/>rium; if Circumſtances and Appearances <lb/>be ſuch, I ſay, there
+        is too much Reaſon <lb/>to believe that the Fevers in Queſtion are, <lb/>more or leſs, of an
+        infectious and epidemic <lb/>Kind. Indeed, it is to be remembered, <lb/>that morbid
+        Effluvium of any Sort, whether <lb/>infectious or not, when it comes in Con- <lb/>tact
+        frequently, and in conſiderable Quanti- <lb/>ties, always carries Danger with it. It <pb
+          n="48"/>
+        <lb/>has a procreative Power, or Power of gene- <lb/>rating ſomething ſimilar to itſelf. No
+        Won- <lb/>der then, that thoſe who are much expoſed <lb/>to the Breath and Perſpiration of
+        diſeaſed <lb/>Perſons ſhould loſe their Health: neither is <lb/>it ſtrange that thoſe
+        Fevers, which have <lb/>juſt been deſcribed, ſhould ſpread gradually <lb/>from one
+        Individual, and from one Family <lb/>to another. </p>
+      <p rend="indent space">
+        <lb/>Beſides the principal Cauſes already enu- <lb/>merated, there are many others which af-
+        <lb/>fect Health and occaſion Diſeaſes. All the <lb/>different Situations and Employments in
+        <lb/>Life, eſpecially of the mechanical Kind, <lb/>are, more or leſs, productive of Diſeaſes
+        pe- <lb/>culiar to the Nature and Circumſtances of <lb/>each. But as the Diſcuſſion of theſe
+        would <lb/>exceed my Plan, and perhaps be more te- <lb/>dious than deſirable, I ſhall
+        ſatisfy myſelf <lb/>with adding ſome promiſcuous Obſerva- <lb/>tions on the Animal Oeconomy. </p>
+      <p rend="indent space">
+        <lb/>The Laxity of the Fibres and the Quick- <lb/>neſs of the Circulation in Children,
+        render <pb n="49"/>
+        <lb/>them extremely ſuſceptible of Irritation and <lb/>Diſorder from whatever is heating, or
+        ſti- <lb/>mulating. The chief Buſineſs therefore <lb/>muſt be to keep them cool and eaſy.
+        They <lb/>ſhould undergo (thoſe eſpeciaily who are <lb/>weak or ricketty) the Cold-Bath, be
+        ex- <lb/>poſed to the open Air, and live upon a light, <lb/>cool Diet. How pernicious then,
+        muſt it <lb/>be to habituate them to ſpirituous Liquors, <lb/>which is too frequently
+        offered to Child- <lb/>ren, and to pamper them with whatever <lb/>their Fancy prompts them
+        to aſk! </p>
+      <p rend="indent space">
+        <lb/>The firſt Impreſſion on the human Syſ- <lb/>tem in all Caſes, has the greateſt Effect,
+        <lb/>and the more it has been accuſtomed to <lb/>Impreſſions of every Kind, the leſs liable
+        <lb/>will it be to Agitation and Diſorder, in <lb/>future. The Advantage then, of carrying
+        <lb/>Children through the Small-Pox, Meaſles, <lb/>and all the other infectious and
+        endemical <lb/>Diſeaſes which await them, as early as <lb/>poſſible, cannot but appear
+        evident. They <lb/>undergo theſe Complaints with leſs Danger <lb/>before their Fluids are
+        contaminated, and <pb n="50"/>
+        <lb/>alſo become leſs ſubject to the Attack of <lb/>other accidental Diſorders, in
+        Conſequence <lb/>of their Habit being rather meliorated, and <lb/>their Conſtitution, in
+        ſome Meaſure, con- <lb/>firmed by Emorbification, or the Abatement <lb/>of morbid Tendency. </p>
+      <p rend="indent space">
+        <lb/>If the firſt juvenile Senſations be ſo im- <lb/>preſſive, of what infinite Importance
+        muſt <lb/>not prudent and judicious Management be, <lb/>towards forming the Temper,
+        inſpiring <lb/>the Genius, bending the Propenſities, and <lb/>directing the tender impulſive
+        Movements, <lb/>during the ſoft, flexible Period of dawning <lb/>Years! It is true, the
+        Miniature of the <lb/>Frame is modelled by the Proceſs of Na- <lb/>ture, and receives the
+        Texture, Lines and <lb/>Proportion, which particularize it, from the <lb/>ſame original
+        Hand. This Baſis or Ground <lb/>Work, it muſt ever be impoſſible to alter, <lb/>with Regard
+        to its firſt Principles of Struc- <lb/>ture and Organization. Nevertheleſs, the <lb/>ductile
+        Fibres are eaſily capable of In- <lb/>flexion and Modulation, therefore the <lb/>brighteſt
+        Springs of the Syſtem may be <pb n="51"/>
+        <lb/>moved, cheriſhed and augmented, and alſo <lb/>the Exuberancy and Diſproportion of Parts
+        <lb/>ſuppreſſed, faſhioned and amended. I do <lb/>not conceive, that the Rudiments of a Fool
+        <lb/>can be refined into the Luſtre of a Philo- <lb/>ſopher, nor that the natural Endowments
+        <lb/>of Parts and Abilities can be debaſed and <lb/>adulterated down to the Level of the
+        moſt <lb/>common Materials, or the meaneſt Capa- <lb/>city, but I am very certain that much
+        <lb/>Good, or Harm, may be done to the tender <lb/>Plant of human Life, when it firſt begins
+        <lb/>to vegetate. </p>
+      <p rend="indent space">
+        <lb/>In the ſame Path of Inveſtigation may <lb/>be traced the Laws of Phyſiognomy, ſo far
+        <lb/>as they concord with ſolid Reaſon, and the <lb/>Teſt of phyſical Knowledge. </p>
+      <p rend="indent space">
+        <lb/>It is ſufficiently evident to common Un- <lb/>derſtanding, that the Shape of the Head,
+        of <lb/>indeed every Animal, correſponds with the <lb/>Nature of the Intellect. Hence it
+        muſt <lb/>follow, that a certain Conformation, Pro- <lb/>portion or Extenſion of Parts or
+        Lines (as <pb n="52"/>
+        <lb/>well as Texture and Principles) is indiſpen- <lb/>ſibly requiſite for the Performance
+        of the <lb/>Faculty of Perception, and the ſeveral pro- <lb/>greſſive and combined
+        Operations that ariſe <lb/>from it. For the ſame Reaſon it is, that a <lb/>ſquare, or
+        angular Form of the Brain will <lb/>not anſwer the Purpoſe, and that a circular <lb/>or
+        globular Figure is, conſequently, neceſ- <lb/>ſary. The Face and Head are the princi-
+        <lb/>pal Phyſiognomical Parts, as they imme- <lb/>diately ſhew the true Mould and Meaſure
+        <lb/>which circumſcribe the prime Movement, <lb/>or the Brain. </p>
+      <p rend="indent space">
+        <lb/>A flat Face or Features, moſt probably, <lb/>will not admit, or carry on a Motion in
+        <lb/>the Mind competently full and diſtinct, this <lb/>therefore, may be the Indication of
+        Defici- <lb/>ency or Weakneſs of Intellect. Pointed, <lb/>prominent, and acute Lines, may,
+        no <lb/>Doubt, portend Exceſs, Depth, and Nar- <lb/>rowneſs of intellectual Motion;
+        accordingly <lb/>Ferocity and Obſtinacy may reſult from <lb/>the former, Cunning and
+        Sagacity from <lb/>the next, and Malevolence and Peeviſhneſs <lb/>from the latter. </p>
+      <pb n="53"/>
+      <p rend="indent">
+        <lb/>Elevation of Lines may beſpeak Pride, <lb/>and Iraſcibility; and Depreſſion may
+        intimate <lb/>Inequality or Fickleneſs of Temper. Pro- <lb/>tuberance of Lines, I would alſo
+        hope, <lb/>may indicate an Extent of Talents, and <lb/>Depth of Judgment, as well as
+        Strength <lb/>of Impulſe, and Propenſity. </p>
+      <p rend="indent space">
+        <lb/>It is further obvious enough that the <lb/>Faculties of the Mind cannot poſſeſs a full
+        <lb/>Perfection and Congruity of Powers, unleſs <lb/>there be a concomitant Proportion and
+        <lb/>Symmetry in the corporal Organs. There- <lb/>fore, any great Inequality or Irregularity
+        of <lb/>external Parts muſt, in ſome Meaſure, di- <lb/>miniſh the Uniformity and Harmony of
+        the <lb/>Whole. It muſt cramp and confine the Con- <lb/>cordance of Motion, if the Diſparity
+        of <lb/>Parts be defective, and render the Move- <lb/>ment awkward and ungraceful, if the
+        Diſ- <lb/>parity be ſuperfluous. </p>
+      <p rend="indent space">
+        <lb/>There is alſo obſerved a Conformity <lb/>and Alliance between different Parts of the
+        <lb/>Body, conſiderably diſtant from one another, <pb n="54"/>
+        <lb/>conſequently the different Parts muſt <lb/>originally be proportioned, to each other,
+        <lb/>and likewiſe, to the Whole. But it is cha- <lb/>ritable to believe, at the ſame Time,
+        that <lb/>a happy, internal Compages may, ſome- <lb/>times, take Place, and counterbalance
+        the <lb/>Diſadvantages of unfavourable outward <lb/>Signs. </p>
+      <p rend="indent space">
+        <lb/>Nevertheleſs, all theſe Congruities and <lb/>Diſparities muſt often be variable and
+        falla- <lb/>cious, if it were for no other Reaſon, but <lb/>becauſe Magnitude and Energy are
+        not al- <lb/>ways, tho' generally, correſpondent. </p>
+      <p rend="indent space">
+        <lb/>Thus, Phyſiognomical Relation may be <lb/>marked, and carried to a conſiderable Ex-
+        <lb/>tent, with tolerable Preciſion: But if one <lb/>Fancy be built upon another, which has
+        <lb/>nothing better than Fancy to ſupport it, <lb/>the airy Phantom may be raiſed to a
+        prodi- <lb/>gious Height, and the Bubble ſuſpended, <lb/>till, at laſt, it burſt, inviſible,
+        in the ro- <lb/>mantic Wilds of metaphyſical Deluſion. </p>
+      <pb n="55"/>
+      <p rend="indent">
+        <lb/>The Female Conſtitution, being of a more <lb/>delicate Conformation, and having a finer
+        <lb/>Texture of Nerves than the other Sex, <lb/>gives Women a Quickneſs of Senſibility,
+        <lb/>and great Promptitude of Expreſſion; it <lb/>ſoftens their Manners, refines their
+        Ideas, <lb/>and produces a lively Senſation of Pleaſure <lb/>and Pain. But while they enjoy
+        theſe Ad- <lb/>vantages, and are deſervedly Objects of <lb/>Affection and Eſteem, the
+        Softneſs, and <lb/>peculiar Conſtruction of their Frame ſub- <lb/>ject them to many painful
+        and critical Vi- <lb/>ciſſitudes, which, as they affect both their <lb/>Health and Temper,
+        fully entitle them to <lb/>all poſſible Lenity and Indulgence. </p>
+      <p rend="indent space">
+        <lb/>When the important Period of Men- <lb/>ſtruation arrives, much depends upon <lb/>proper
+        Management. A ſedentary Life, <lb/>Reſtraint, and Confinement, about that <lb/>Time, are
+        very unfavourable, while mo- <lb/>derate Exerciſe, the open Air, chearful <lb/>Society, and
+        Indulgence are highly requi- <lb/>ſite. Hard Work, and Expoſure to much <lb/>Cold, and to
+        damp Air, are too dangerous <pb n="56"/>
+        <lb/>to be hazarded, even among the pooreſt <lb/>People. </p>
+      <p rend="indent space">
+        <lb/>Equal Care, and ſimilar Means muſt be <lb/>employed, towards that critical Time of
+        <lb/>Life, when the Tide of Circulation begins <lb/>to ebb. The more ſlowly and gradually
+        <lb/>this ſalutary Evacuation is diminiſhed, <lb/>the leſs is the Conſtitution expoſed to
+        Diſ- <lb/>order, on its final Termination. It is, <lb/>therefore, always adviſeable (unleſs
+        it be <lb/>in ſome relaxed Habits, where the Diſ- <lb/>charge has been too copious) to take
+        due <lb/>Pains and proper Steps to prolong its Con- <lb/>tinuance, and thus ſecure the
+        Syſtem from <lb/>the bad Conſequences of an abrupt and <lb/>haſty Departure. </p>
+      <p rend="indent space">
+        <lb/>It is a juſt Obſervation that thoſe, who <lb/>grow up very faſt, are generally ſickly,
+        and <lb/>ſeldom live to a great Age. The Prime of <lb/>their Life draws very ſoon towards
+        the <lb/>Verge of Declenſion, which Stage, like <lb/>their Youth, is equally rapid in its
+        Progreſs. <lb/>The Caſe is this. Quick Growth draws <pb n="57"/>
+        <lb/>out and elongates the Fibres and Veſſels to <lb/>a greater Extenſion than the gradual
+        In- <lb/>creaſe of the vital Powers can nouriſh and <lb/>ſupport; hence the Conſtitution
+        becomes <lb/>weakly and relaxed. This Error, in the <lb/>Procedure of Nature, ſhould be
+        remedied, <lb/>if practicable, by the Cold Bath, and tonic <lb/>Medicines. </p>
+      <p rend="indent space">
+        <lb/>The premature Indulgence of amorous <lb/>Deſires, in the early Bloom of Youth, is
+        <lb/>productive of the moſt ruinous Conſe- <lb/>quences. At this Period, the Mind grows
+        <lb/>warm and well adapted to imbibe a proper <lb/>Fund and Connexion of Ideas, through the
+        <lb/>favourable Diſpoſition of the Nerves; and <lb/>the Body begins to germinate and gather
+        <lb/>Firmneſs and Vigour from the Matura- <lb/>tion of its Juices, eſpecially thoſe of the
+        <lb/>Glands, which now unfold and afford a <lb/>Repoſitory, for the lymphatic and nutri-
+        <lb/>tious Part of the Fluids, to anſwer the <lb/>Emergencies of Nature. But the unſea-
+        <lb/>ſonable Purſuit of unripe Enjoyment blaſts <lb/>theſe promiſing Fruits, draws off
+        Health, <pb n="58"/>
+        <lb/>and Genius from the Syſtem, through <lb/>the Channel of Pleaſure, and inevitably
+        <lb/>ſhortens Life. </p>
+      <p rend="indent space">
+        <lb/>When the Conſtitution approaches its <lb/>Zenith or confirmed State, if the ſocial
+        <lb/>Impulſe occaſion Diſorder, and reject Con- <lb/>trol, its Effects are too important to
+        be <lb/>neglected, as they often have the greateſt <lb/>Influence upon the whole Frame. An
+        ex- <lb/>quite Senſibility in the Nervous Syſtem <lb/>united with ſufficient Powers in the
+        Cir- <lb/>culation, on the one Hand, and a full, and <lb/>cold phlegmatic Conſtitution, on
+        the other, <lb/>are the two Extremes of Temperament <lb/>which particularly require
+        Indulgence; <lb/>the former, in Order to diminiſh that <lb/>Plenitude and Irritation, which
+        (if not re- <lb/>moved) might produce Frenzy, Fevers, <lb/>Inflammations, &amp;c. and the
+        latter, on <lb/>Purpoſe to create that Excitement and <lb/>Action in the Nerves and Veſſels,
+        which <lb/>are neceſſary to prevent Obſtructions, Con- <lb/>ſumptions, Hypocondria, &amp;c. </p>
+      <pb n="59"/>
+      <p rend="indent">
+        <lb/>Continued Celibacy generally loads the <lb/>Glands, retards the Circulation, and oc-
+        <lb/>caſions Fulneſs and Stagnation in the <lb/>Veſſels. In this State, the Mind, unex-
+        <lb/>panded by the ſoft Fire of mutual Rap- <lb/>ture, often becomes gloomy, ſelfiſh, and
+        <lb/>contracted, and all its Faculties, being <lb/>confined within the narrow Compaſs of
+        <lb/>ordinary Gratifications, are devoted to <lb/>Habits of parſimonious Care, and con-
+        <lb/>templative Amuſement. </p>
+      <p rend="indent space">
+        <lb/>Temperance is the beſt Pledge for <lb/>Longevity, nevertheleſs, young People
+        <lb/>ſhould, by all Means, inure themſelves <lb/>to the Hardſhips and Aſperities of Life.
+        <lb/>Without ſome Share of theſe to temper <lb/>the lethargic Effects of Indolence, the
+        <lb/>Body ſinks into a State of Effeminacy <lb/>and Imbecillity, and the Mind ſoon be-
+        <lb/>comes as feeble and inſignificant as the <lb/>Body. </p>
+      <p rend="indent space">
+        <lb/>Little Irregularities may, now and <lb/>then, be committed with Impunity, per- <pb
+          n="60"/>
+        <lb/>haps with Benefit, but frequent Shocks <lb/>of Revelry and Debauch overſtrain the
+        <lb/>Syſtem, indurate the Solids, block up <lb/>the fine vital Channels, and haſten the
+        <lb/>Approach of rigid old Age. </p>
+      <p rend="indent space">
+        <lb/>The Animal Machine, from the Na- <lb/>ture of its Organization, poſſeſſes a Power
+        <lb/>of regulating itſelf, and is conſtantly ex- <lb/>erciſing this Power; therefore all
+        Diſeaſes, <lb/>if fully underſtood, are curable in the <lb/>Beginning. The moſt robuſt
+        Conſtitu- <lb/>tion cannot, at all Times, be equally <lb/>healthy, but is rather in a State
+        of con- <lb/>tinual Variation; and when the Efforts <lb/>of Nature are inadequate to the
+        Purpoſe <lb/>of Regulation, Diſorder, in a correſpond- <lb/>ing Degree, muſt enſue. Nature,
+        then, <lb/>reſiſts every Species of Diſeaſe; and it is <lb/>at thoſe Times, when the Nervous
+        Syſ- <lb/>tem is relaxed and exhauſted by Heat, <lb/>Fatigue, Watching, Exceſs, &amp;c. or
+        irri- <lb/>tated by any of the Paſſions, that the <lb/>Body is particularly ſuſceptible of
+        the <lb/>Cauſe of Diſeaſes. Fear and Dread of <pb n="61"/>
+        <lb/>any infectious Diſtemper, accordingly, ne- <lb/>ver fail to render a Perſon more liable
+        to <lb/>receive it. </p>
+      <p rend="indent space">
+        <lb/>In incipient, as well as in confirmed <lb/>Diſeaſes, the Calls of Nature ſhould be
+        <lb/>aſſiduouſly watched and regarded, ſince her <lb/>Dictates and Indications are hardly
+        ever er- <lb/>roneous or improper, whether they point <lb/>to Warmth, Coolneſs, Sleep,
+        Excitement, <lb/>Abſtinence, Nouriſhment, &amp;c. </p>
+      <p rend="indent space">
+        <lb/>Any Part of the Syſtem, that is either <lb/>naturally infirm, or has ſuffered any Kind
+        <lb/>of Injury, is always moſt liable to the <lb/>Invaſion of Diſeaſe and Pain, and ſhould,
+        <lb/>on that Account, be more particularly <lb/>guarded and defended. </p>
+      <p rend="indent space">
+        <lb/>The Approach of all febrile Diſeaſes is <lb/>marked with ſome extraordinary Agitation
+        <lb/>in the Syſtem. Languor, Loſs of Strength, <lb/>flying Pains, hideous Dreams, &amp;c.
+        indicate <lb/>ſomewhat morbid acting on the Nerves; <lb/>but if theſe be attended with
+        Nauſea at <pb n="62"/>
+        <lb/>the Stomach, Chills, and alternate Glows, <lb/>or Sweats, ſome acute Malady is much to
+        <lb/>be apprehended. Indeed Chills, (except <lb/>after Meals and Evacuations) as they
+        <lb/>come by a Conſtriction of the Skin, and <lb/>a general Spaſm through the Syſtem, from
+        <lb/>Debility, or Irritation, always import ſome <lb/>Degree of Danger. From theſe Symp-
+        <lb/>toms of acute Diſeaſes, Caution ought to <lb/>take the Alarm, and as it is ever eaſier
+        <lb/>to prevent than cure, it would be moſt ad- <lb/>viſeable to arm and oppoſe their firſt
+        Ad- <lb/>vances. </p>
+      <p rend="indent space">
+        <lb/>The Habit is that State of Body peculiar <lb/>to each, and, according as it varies from
+        <lb/>the Standard of Health, is, in an equal <lb/>Meaſure, ſubject to Diſeaſe. </p>
+      <p rend="indent space">
+        <lb/>A ſtrong and full Habit, (which is ge- <lb/>nerally indicated by a full and hard Pulſe)
+        <lb/>in which the Quantity of Blood and Force <lb/>of Circulation are greater than ordinary,
+        <lb/>though it has a Tendency towards inflam- <lb/>matory Complaints, is ſtill infinitely
+        leſs <pb n="63"/>
+        <lb/>dangerous than the oppoſite Extreme, where <lb/>the Habit is relaxed, and all the vital
+        <lb/>Powers languid and imperfect. Under <lb/>ſuch Circumſtances the Body is open to all
+        <lb/>the Train of nervous Diſorders, to Ob- <lb/>ſtructions, Dropſy and Scurvy, and expoſ-
+        <lb/>ed to the Attack of intermittent, nervous, <lb/>bilious and putrid Fevers: and if there
+        be <lb/>a ſuperfluous Quantity of half ſtagnant, in <lb/>active Fluids in the Syſtem, at the
+        ſame <lb/>Time, the Danger is, in all Reſpects, <lb/>augmented by it. </p>
+      <p rend="indent space">
+        <lb/>A fat and groſs Habit is always nearly <lb/>allied to Diſeaſe. The contrary, or rather
+        <lb/>the middle Temperament, is, by far the <lb/>moſt healthy: It ſhews that the Offices of
+        <lb/>Digeſtion, Circulation and Secretion are <lb/>regular and effective. </p>
+      <p rend="indent space">
+        <lb/>If the common Exerciſes of Life, the <lb/>Cold Bath, and moderate Living will not
+        <lb/>prevent, nor reduce Corpulency, it would <lb/>be better to try the Help of Medicine,
+        than <lb/>be obliged to carry about ſo unpleaſant a <lb/>Burthen as ſome People do. </p>
+      <pb n="64"/>
+      <p rend="indent">
+        <lb/>It may not be improper here to give a <lb/>Caution againſt frequent and unneceſſary
+        <lb/>Blood-letting, as being a very abſurd and <lb/>pernicious Practice. Some think it di-
+        <lb/>miniſhes Fatneſs, but I muſt aſſure them <lb/>it has the contrary Effect, and that Cor-
+        <lb/>pulency is increaſed by it, others ima- <lb/>gine that it corrects bad Humours, but
+        <lb/>that is likewiſe impoſſible, and many have <lb/>Recourſe to it as ſovereign Remedy,
+        when- <lb/>ever they are any wiſe indiſpoſed, but they <lb/>ſhould remember that they are
+        bringing <lb/>themſelves into a very bad Habit, a Habit <lb/>which waſtes the vital Fluid,
+        impoveriſhes <lb/>the Blood and debilitates the Conſtitution. </p>
+      <p rend="indent space">
+        <lb/>The Force or Power of Habit is ſtrik- <lb/>ingly exhibited to ſuch as accurately watch
+        <lb/>its Influence. I have obſerved it as an <lb/>almoſt invariable Rule, that all Percep-
+        <lb/>tions, whether of a pleaſing or painful <lb/>Nature, return pretty exactly at ſtated,
+        or <lb/>equal Intervals; I mean that Anxiety, De- <lb/>ſire, Fancy, Levity and Penſiveneſs,
+        as <lb/>well as Sleep, Hunger, and the other <pb n="65"/>
+        <lb/>common Solicitations of Nature, make <lb/>their Approaches nearly about the ſame
+        <lb/>Time that they have been uſually gratified <lb/>and indulged. </p>
+      <p rend="indent space">
+        <lb/>Now as the Influence of ſuch Perceptions <lb/>muſt operate on the mental Faculties, in
+        <lb/>the Way of Coincidence and Recollection, <lb/>and on the corporal Organs, agreeable to
+        <lb/>the Laws of the Syſtem, it muſt follow, <lb/>that the ſureſt Method (when Reſolution
+        <lb/>is inadequate to the Taſk) to ſubdue any <lb/>Habit, or Cuſtom, is to preſent new Ob-
+        <lb/>jects to the Mind, and provide different <lb/>Impreſſions for the Body. Yet, however
+        <lb/>proper this Remedy may be, it muſt be <lb/>conducted with Diſcretion, for Fear it
+        <lb/>ſhould imperceptibly degenerate into a <lb/>Courſe of Diſſipation, a moſt pitiable and
+        <lb/>unhappy Courſe, in which, the reſtleſs <lb/>Mind, warm in the Purſuit of new Grati-
+        <lb/>fication, becomes intoxicated with Plea- <lb/>ſure, and miſſing the Path of rational
+        En- <lb/>joyment, loſes itſelf, inextricable, in a <lb/>Labyrinth of Folly, Madneſs and
+        Vexation. <pb n="66"/>
+        <lb/>Wiſdom ſhould ever preſcribe Bounds to <lb/>Deſire, and ſtill keep ſome Reſource to
+        <lb/>ſatisfy the various Wants of feeble old <lb/>Age. If Youth and Maturity be ſpent in
+        <lb/>Exceſs and Diſſipation, if all the richeſt <lb/>Stores of human Bliſs be laviſhly and
+        pre- <lb/>maturely exhauſted, and the Conſtitution <lb/>ſhattered in the wild Career, what
+        new <lb/>Expedients can be deviſed, what poſſible <lb/>Means can be found to prop the
+        tottering <lb/>Fabric, or chear the dull Winter of declin- <lb/>ing Years. </p>
+      <p rend="indent space">
+        <lb/>The Regularity and Proportion, which <lb/>is eſſential to Health, will not ſuffer much
+        <lb/>Deviation, in any Reſpect, from the Track <lb/>of eſtabliſhed Cuſtom. Hence a Diminu-
+        <lb/>tion, or Alteration in any of the common <lb/>and habitual Evacuations, Secretions, or
+        <lb/>even Perceptions, changes the Equilibrium <lb/>of the Syſtem, and very materially
+        affects <lb/>the Health and Conſtitution. </p>
+      <p rend="indent space">
+        <lb/>When Diſorder is the Reſult of ſuch <lb/>Circumſtances, the Ballance muſt be re- <pb
+          n="67"/>
+        <lb/>ſtored, by promoting the Excretions which <lb/>are retarded, or have ceaſed; by
+        inviting <lb/>the defective Circulation to the Parts which <lb/>it has deſerted, or towards
+        the Extremities, <lb/>in general, by Means of Warmth, Friction, <lb/>Exerciſe, or
+        Fomentation; and by renew- <lb/>ing thoſe Senſations and Incentives, which <lb/>the Nerves
+        ſtand in Need of, to increaſe <lb/>their Energy, and to give free Scope and <lb/>previous
+        Impulſe to their nice, progreſſive <lb/>Motions. </p>
+      <p rend="indent space">
+        <lb/>But when the cuſtomary Evacuations <lb/>and Emotions cannot be exactly reſtored,
+        <lb/>they ſhould be ſubſtituted by others as <lb/>ſimilar in their Nature and Effects as
+        <lb/>poſſible. </p>
+      <p rend="indent space">
+        <lb/>The Nerves being the Medium of Com- <lb/>munication between the different Parts of
+        <lb/>the Body, thoſe Parts, which poſſeſs the <lb/>greateſt Nervoſity or Senſibility, as the
+        <lb/>Head, Lungs, Stomach, Womb, and the <lb/>Skin, have the cloſeſt Connexion and
+        <lb/>Sympathy with each other. </p>
+      <pb n="68"/>
+      <p rend="indent space">
+        <lb/>Thoſe, therefore, who labour under <lb/>nervous and hyſteric Affections, ſhould
+        <lb/>carefully avoid whatever produces diſagree- <lb/>able Impreſſions on the Mind, and
+        every <lb/>Kind of Irritation that may occaſion un- <lb/>pleaſant Senſations on any of theſe
+        ſuſcep- <lb/>tible Organs, and ſhould particularly re- <lb/>frain from flatulent and
+        indigeſtible Food. </p>
+      <p rend="indent space">
+        <lb/>Intellectual Sympathy is one of the moſt <lb/>refined Emotions of the human Mind. It
+        <lb/>originates in ſome ſtriking Congruity and <lb/>mutual Harmony, and is excited by fine
+        <lb/>concording Impreſſions made by ſome Ob- <lb/>ject which creates Partiality and Eſteem,
+        <lb/>and is only perfect, when accompanied with <lb/>an Idea that the attractive Impreſſion
+        is re- <lb/>ciprocal. This ſympathetic Endowment <lb/>ever deſerves Cultivation and
+        Improvement. <lb/>It renders one capable of all the Enjoy- <lb/>ments of ſincere Friendſhip,
+        and can give <lb/>and receive Conſolation in the Hour of <lb/>Anxiety and of Pain. </p>
+      <pb n="69"/>
+      <p rend="indent space">
+        <lb/>Antipathy proceeds from ſomething that <lb/>ſhocks the Imagination, or offends the
+        <lb/>Senſes: and when this happens to take <lb/>Place in the tender Years of Infancy, and
+        <lb/>the Impreſſion has been forcibly received, <lb/>the Antipathy frequently continues
+        through <lb/>Life. Such Antipathies are extremely un- <lb/>pleaſant, and, I ſhould think,
+        might be <lb/>corrected by gradually familiarizing the <lb/>offending Cauſe, but if the
+        antipathetic <lb/>Matter affect the Senſe of Smell, it will <lb/>probably be more difficult
+        to reconcile it. </p>
+      <p rend="indent space">
+        <lb/>Antipathy furniſhes an Exception to the <lb/>general Law of the Syſtem, which, it was
+        <lb/>ſtated, did always receive ſecondary Im- <lb/>preſſions with leſs Effect than primary
+        ones. <lb/>It is, therefore, neceſſary to remark that <lb/>when Anger, Terror, violent
+        Fevers, deep <lb/>Intoxication, or any other Cauſe, have once <lb/>thrown the Syſtem into
+        vehement and ex- <lb/>ceſſive Agitations, (whereby the Nerves are <lb/>irrecoverably
+        ſtrained) the ſame, or nearly <lb/>the ſame Cauſe, in but a very ſmall Degree, <lb/>will
+        produce ſimilar Effects, in the higheſt <pb n="70"/>
+        <lb/>Degree: and theſe Effects will more eaſily <lb/>take Place, in Proportion to the
+        Frequency <lb/>and Repetition of the impelling Cauſe. <lb/>From which Conſideration may be
+        per- <lb/>ceived the Neceſſity of guarding againſt all <lb/>violent Shocks, and of obviating
+        their Con- <lb/>ſequences, as ſoon and effectually as poſſi- <lb/>ble. Children, and People
+        of weak Nerves <lb/>and delicate Conſtitutions ſhould be parti- <lb/>cularly careful in this
+        Reſpect. </p>
+      <p rend="indent space">
+        <lb/>Nervous and hyſteric Complaints, faint- <lb/>ing Fits, Convulſions, Madneſs and ſuch
+        <lb/>like frequently ſpring from this Source, and <lb/>in Time, become fixed, habitually, or
+        <lb/>periodically. </p>
+      <p rend="indent space">
+        <lb/>The ſame Advice muſt alſo be extended <lb/>to pregnant Women, whoſe Imagination, or
+        <lb/>Paſſions, when violently excited, ſometimes, <lb/>mark and injure the Fœtus. There are
+        ſo <lb/>many incontrovertible Proofs of this Kind <lb/>of Influence, that it is impoſſible
+        to doubt <lb/>the Certainty of it: which appears to me <lb/>nowiſe queſtionable, ſince I can
+        ſee no <pb n="71"/>
+        <lb/>Difficulty to account for it, in a clear and <lb/>rational Manner. </p>
+      <p rend="indent space">
+        <lb/>Imitation is a very operative Faculty in <lb/>the Animal Syſtem. It is a natural and
+        <lb/>ſpontaneous Action, whereby, without <lb/>Volition, or even Conſciouſneſs, one Per-
+        <lb/>ſon imitates and reſembles the Motions, <lb/>Geſtures, or Perceptions of another. Si-
+        <lb/>lence, ſighing, coughing, Laughter, ſpeak- <lb/>ing, ſinging, walking and Credulity
+        <lb/>which communicate, and paſs from one <lb/>Perſon to another, like Electricity, are
+        <lb/>obvious Proofs that Similitude, or the <lb/>imitative Faculty, is one of the primary,
+        <lb/>leading Motions in the human Mind, and <lb/>bring no ſmall Evidence in Confirmation of
+        <lb/>what has been already ſaid on that ſubject. </p>
+      <p rend="indent space">
+        <lb/>Stammering, and other bad Habits, and <lb/>even Convulſions may be contracted from
+        <lb/>this Cauſe. Which Conſideration ſuggeſts <lb/>a Caution ſufficient to induce People to
+        pay <lb/>due Regard to ſuch Companions and Ob- <lb/>jects as are ſuffered to have
+        Intercourſe <pb n="72"/>
+        <lb/>with Children, and Perſons in a Weak, <lb/>nervous and irritable State. </p>
+      <p rend="indent space">
+        <lb/>Imagination is the Exerciſe of primary <lb/>Perception, or Perception of the firſt
+        Forms <lb/>and Colours, in which Images ſtrike the <lb/>Mind, unaccompanied with, and conſe-
+        <lb/>quently unaltered by the deliberative or <lb/>reaſoning Operations. Imagination, there-
+        <lb/>fore, conſiders Objects in the Light they <lb/>firſt appear, which Appearance does not
+        <lb/>always correſpond with Intrinſicneſs or <lb/>Reality; though very frequently the firſt
+        <lb/>View of the Mind is as accurate and com- <lb/>prehenſive as ſeveral Reviews or Compa-
+        <lb/>riſons are. When Memory or uncom- <lb/>pounded Reflection repreſents Images to the
+        <lb/>Mind, theſe Images ariſe merely from the <lb/>Power of Recollection, which is only the
+        <lb/>Operation of the firſt Claſs of Similitudes: <lb/>but Images, which proceed from
+        Judgment, <lb/>are faſhioned with all the Rays and Shades <lb/>of nice and minute Analogy;
+        and theſe are <lb/>often created without any Aſſiſtance from <lb/>Memory. Hence Verſatility
+        or Quickneſs <pb n="73"/>
+        <lb/>of Imagination is often found to be a ſuper- <lb/>ficial Quality, and on a Level only
+        with <lb/>the Depth of Memory. But if a warm <lb/>and teeming Imagination be united with
+        <lb/>Solidity of Judgment, and profound Pene- <lb/>tration, it beſpeaks the happieſt and
+        nobleſt <lb/>Compoſition of the human Syſtem. </p>
+      <p rend="indent space">
+        <lb/>The Mind is exceedingly ſuſceptible of <lb/>the two oppoſite Perceptions, Hope and
+        <lb/>Fear. They are the quick-born Offspring <lb/>of Imagination, begotten by the Idea of
+        <lb/>Pleaſure, or Pain, whoſe Familiarity and <lb/>Intimacy always afford them eaſy Acceſs
+        <lb/>to her Embraces. </p>
+      <p rend="indent space">
+        <lb/>It will then manifeſtly appear that the <lb/>Influence of Imagination, ſo far as
+        regards <lb/>the Cauſe and Cure of Diſeaſes, is nothing <lb/>but the Effect of Hope, or
+        Fear. But <lb/>theſe Effects have been already explained <lb/>in treating of the Paſſions.
+        It muſt, there- <lb/>fore, be obvious whence a healthy Man <lb/>may be frightened into a
+        Fever, and a <lb/>dying Perſon, in a Manner, quickened into <pb n="74"/>
+        <lb/>Life, by the Inſtillation and Continuation <lb/>of either of theſe Influences upon the
+        <lb/>Mind. Hence the Effect of Animal Mag- <lb/>netiſm, and of Noſtrums, Charms and En-
+        <lb/>chantments, in ſometimes curing Agues, <lb/>Fits and other Diſorders, which, in Truth,
+        <lb/>have no Value nor Utility but what they <lb/>derive from this Source. </p>
+      <p rend="indent space">
+        <lb/>Volition, or the Will, Purpoſe, or De- <lb/>ſign, is either intentional, or actual;
+        that <lb/>is, Deſign intended, or Deſign executed. <lb/>Of which neither the one nor the
+        other <lb/>is inſtantaneous, or immediately perform- <lb/>ed; they require both of them
+        ſeveral of <lb/>the progreſſive Operations of the Mind. <lb/>For no Man ever had an
+        Inclination or <lb/>Will to do an Act, before he had firſt <lb/>reaſoned upon it, and
+        conſidered the End <lb/>or Purport of ſuch an Act. The Mind <lb/>cannot p<choice>
+          <corr>o</corr>
+          <sic> </sic>
+        </choice>ſſibly direct the Nervous Influence <lb/>into the right Arm, in Preference to the
+        <lb/>left, (except in the common and habitual <lb/>Motions of Walking and Geſticulation)
+        till <lb/>it has firſt poiſed itſelf or deliberated, and <pb n="75"/>
+        <lb/>then it can give the voluntary Impulſe. <lb/>Hence it is manifeſt beyond Contradiction,
+        <lb/>that every Perſon, of a ſound State of Body, <lb/>is abſolutely a free Agent, and may
+        either <lb/>commit, or not commit any particular Act. <lb/>But ſtill the Exerciſe of Common
+        Senſe <lb/>muſt be preſent in Order to conſtitute Crimi- <lb/>nality. If a Perſon err from
+        Paſſion, it is <lb/>Madneſs, if from Ignorance, or wrong Ideas, <lb/>it is Miſtake. Both
+        Caſes, are entitled to <lb/>Alleviation and Compaſſion, and ſhould be <lb/>weighed in the
+        Scales of Humanity, with <lb/>the fair Ballance of Candour, placed in the <lb/>Medium of
+        Excitement, to aſcertain the <lb/>intrinſic Quality, and compute the true <lb/>Degree of
+        Right, or Wrong. </p>
+      <space dim="vertical" unit="lines" quantity="3"> </space>
+      <trailer rend="align-center">
+        <lb/>FINIS. </trailer>
+    </body>
+  </text>
+</TEI>

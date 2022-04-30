@@ -1,0 +1,1253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LMEMT Corpus - Robinson: A treatise on the virtues and efficacy of a crust of
+          bread</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>Nicholas Robinson</persName>
+            </author>
+            <title type="main">A TREATISE ON THE VIRTUES and EFFICACY OF A CRUST of BREAD, Eat early
+              in a Morning Fasting, To which are added Some particular Remarks concerning the great
+              CURES accomplished by the SALIVA or FASTING SPITTLE, as well when externally applied,
+              as when internally given, in the Scurvy, Gravel, Stone, Rheumatism, and divers other
+              diseases, arising from Obstructions. With some critical Observations concerning the
+              Recrements of the Blood; demonstrating, that when regularly secreted, they both
+              contribute to preserve the Life of Animals and keep them in Health. </title>
+            <edition n="2"/>
+            <idno type="ESTC">T59650</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/T59650"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>Dublin</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>Dublin: printed by James Hoey, at the Mercury in Skinner-Row, next Door to
+                  the Tholsel, M.DCC.LVII. </persName>
+              </publisher>
+              <date>1757</date>
+            </imprint>
+            <extent>
+              <measure type="format">8⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="3"/>
+              <measure type="count" commodity="body" unit="page" quantity="32"/>
+              <measure type="count" commodity="back" unit="page" quantity="2"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">British Library</orgName>
+            <idno type="ECCO">CW3308476125</idno>
+            <idno type="TCP">K052156.000</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Health guide"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text xml:lang="eng">
+    <front>
+      <div>
+        <pb xml:id="page_2"/>
+        <head rend="align-center"><lb/>THE <lb/>INTRODUCTORY DISCOURSE, </head>
+        <head type="sub" rend="align-center"><lb/><hi rend="italic">Diſcovering the great efficacy
+            of the recrements of <lb/>the body, to the digeſtion of our food, the <w part="I"
+              >cir-</w><lb/><w part="F">culation</w> of the blood, and the ſecretion of the
+            <lb/>alimentary fluids. </hi></head>
+        <p rend="indent"><lb/>
+          <figure>
+            <figDesc>Decorative frame around the letter "I".</figDesc>
+          </figure>I AM ſenſible that few phyſicians have <w part="I">exa-</w><lb/><w part="F"
+            >mined</w> thoſe recrements of the body with <lb/>that attention, accuracy, and
+          diligence, that <lb/>a point of ſo great importance requires; <lb/>and though they are
+          many and divers, yet <lb/>they all contribute their ſhare to the maceration, <w part="I"
+            >attenu-</w><lb/><w part="F">ation</w>, and digeſtion of our aliments in the mouth; to
+          <lb/>the greater liquidation of the chyle in the ſtomach and <lb/>inteſtines; to the more
+          perfect fuſion of the blood in the <lb/>veins and arteries; and the better ſecretion of
+          the various <lb/>juices, ſeparated and collected in the different folliculi or
+          <lb/>receptacles, ſituated in the various organs of the body, <lb/>and which are ordained
+          by nature, to ſerve very great, <lb/>and important uſes in the animal œconomy. </p>
+        <p rend="indent"><lb/>Theſe recrements are diſtinguiſhed from the <w part="I"
+            >excremen-</w><lb/><w part="F">titious</w> diſcharges, as the latter are thrown out of
+          the <lb/>body, and of no further uſe in ſupport of the ſeveral <w part="I">re-</w><lb/><w
+            part="F">ſpective</w> parts of the animal, and which therefore are <lb/>called the
+          excrements: while the former ſerve many great <lb/>and neceſſary purpoſes in life; ſo that
+          I queſtion whether <lb/>any animal circulation, ſecretion, or excretion, could be
+          <lb/>carried on, without the aſſiſtance of theſe recrements; <lb/>for all the motions of
+          the chyle, blood, and animal juices, <lb/>would ſtagnate and ſtand ſtill in an inſtant,
+          were it not <lb/>for the ſaliva, bile, pancreatic juice, and divers other <lb/>fluids
+          ſecreted from the arterial blood: And as theſe <w part="I">ſe-</w><lb/><w part="F"
+            >creted</w> fluids are the main principles that ſupport the life <pb xml:id="page_3"
+            n="iv"/><lb/>of animals; ſo in the moſt noxious, venomous, and <w part="I"
+            >poi-</w><lb/><w part="F">ſonous</w> creatures, where the great miſchief is done by a
+          <lb/>bite, and the infuſion of a poiſonous fluid into the wound, <lb/>as is done by the
+          viper; then, upon reflection, we diſcover <lb/>that there muſt neceſſarily be a counter
+          poiſon, generated <lb/>and ſecreted ſomewhere in the body itſelf, to preſerve this noxious
+          animal from the force and deadly effects of <lb/>its own poiſon. </p>
+        <p rend="indent"><lb/>But of all the various ſeparations and ſecretions, I know <lb/>none of
+          ſo much conſequence to the body, as that ſecreted <lb/>liquor, we call the ſaliva, or what
+          is generally meant by <lb/>the faſting ſpittle, as will more clearly appear when we
+          <lb/>come to ſpeak of its effects and conſequences upon the <lb/>bodies of rational
+          animals; for without this ſecreted fluid, <lb/>we could neither chew our victuals, nor
+          ſwallow our food <lb/>into the ſtomach, nor digeſt it, after it was there; ſo that
+          <lb/>all the motions of the body will grow dry, ſtagnate, and <lb/>be at perpetual reſt,
+          were not our ſeveral aliments mixed, <lb/>attenuated, and ſufficiently diluted in the
+          mouth, by the<lb/>penetrating ſalts of the ſalival fluid, before they are <w part="I"
+            >ſwal-</w><lb/><w part="F">lowed</w> down into the ſtomach. </p>
+        <p rend="indent"><lb/>And though of late, we have heard of mighty feats <lb/>being done by
+          the virtues of crude mercury, tar-water, and<lb/>divers other quack medicines, ſold up and
+          down this town, <lb/>with royal patents, and dignified titles; yet I queſtion,
+          <lb/>whether in the gravel, ſtone, gout, and rheumatiſm, there <lb/>ever yet was, or at
+          this time is; or in times to come <lb/>ſhall be diſcovered a medicine more valuable in the
+            <w part="I">fore-</w><lb/><w part="F">going</w> diſeaſes, than what I now offer for the
+          benefit of<lb/>mankind. </p>
+        <p rend="indent"><lb/>And the patient may aſſure himſelf, that, if theſe rules <lb/>and
+          cautions, laid down in the following pages, are but <lb/>rightly purſued, and duly
+          executed, they will mightily <lb/>contribute, not only to preſerve him in health, but alſo
+          <lb/>prove extremely efficacious to reſtore that invaluable <w part="I">bleſ-</w><lb/><w
+            part="F">ſing</w>, whenever over powered by the force of a diſeaſe. <lb/>And, in all
+          theſe caſes, I find little occaſion for the uſe of<lb/>medicine, provided the patient eats
+          his cruſt punctually in <lb/>a morning faſting, and is obſerving of the air, diet and
+          <lb/>exerciſe I have ſet before him. </p>
+      </div>
+    </front>
+    <body>
+
+      <div n="1" type="section">
+        <pb xml:id="page_4"/>
+        <head rend="italic align-center"><lb/><hi rend="roman">SECT. I.</hi>
+          <lb/>Of the Virtues of a Cruſt of Bread, eat early in a morning <lb/>faſting, with its
+          force and efficacy in relieving the <lb/>ſcurvy, gravel, ſtone, gout, rheumatiſm, and
+          various <lb/>other diſeaſes </head>
+        <p rend="indent"><lb/><figure>
+            <figDesc>Decorative frame around the letter "I".</figDesc>
+          </figure>I AM now going to ſpeak of a remedy ſecond to <lb/>none, in the cure and relief
+          given in the <w part="I">forego-</w><lb/><w part="F">ing</w> diſeaſes: It may indeed ſerve
+          other intentions <lb/>and purpoſes as far as I know, but in the gravel, <lb/>ſtone, gout,
+          and rheumatiſm, I know it to be the beſt <lb/>and ſureſt remedy hitherto diſcovered; and
+          if you join <lb/>faſting to this noble medicine, I know none more <w part="I"
+            >effica-</w><lb/><w part="F">cious</w>: Would you know this valuable ſecret, it is <w
+            part="I">abſti-</w><lb/><w part="F">nence</w>: I ſay abſtinence;—but by the word
+          abſtinence, I do <lb/>not mean a mere negative remedy, as if faſting was to <lb/>do all
+          the work herſelf, by ſuffering nature, in due courſe <lb/>of time, to reſolve the
+          obſtructions, and, at her leiſure, to <lb/>digeſt off the viſcid juices and corrupt
+          humours; for <w part="I">ab-</w><lb/><w part="F">ſtinence</w> is only neceſſary as an
+          aſſiſtant, both to improve <lb/>the operation, and enable the Cruſt of Bread, eat early in
+          <lb/>a morning faſting, to exert its virtues with more ſalutary <lb/>effects: For all
+          medicines operate beſt upon an empty <lb/>ſtomach, and few purging medicines are adviſed,
+          if they <lb/>are greatly efficacious but that they are preſcribed to be <lb/>taken in a
+          morning early, and the firſt thing that the <w part="I">pa-</w><lb/><w part="F">tient</w>
+          does; and he is often adviſed not to eat till two or <lb/>three hours after. </p>
+        <p rend="indent"><lb/>I chuſe to expreſs myſelf, in the vulgar manner of <lb/>ſpeech,
+          becauſe the viſible relief given in the gravel or <lb/>ſtone is uſually aſcribed to the
+          Bread alone, and not to <lb/>any other aſſiſtant remedy mixed with it in the mouth, or
+          <lb/>in its paſſage to the ſtomach, and ſo into the blood: For it <lb/>is a truth,
+          eſtabliſhed by conſtant obſervation and <w part="I">expe-</w><lb/><w part="F">rience</w>,
+          that divers perſons, by eating a Cruſt of Bread in <lb/>a morning early, and faſting two
+          or three hours after it, <lb/>have received great relief in the gravel; others have <w
+            part="I">de-</w><lb/><w part="F">clared</w>, that under the ſtone their ſevereſt
+          ſymptoms have <lb/>been mightily mitigated; and ſome again, under the moſt <lb/>painful
+          ſymptoms of the gout and rheumatiſm, have found <lb/>their pains greatly relieved by
+          adhering to this remedy, <lb/>and applying chewed bread, well moiſtened with the <pb
+            xml:id="page_5" n="6"/><lb/>faſting ſaliva, warm to the gouty parts: And I do not
+          <lb/>ſpeak theſe things of two or three people only, that have <lb/>accidentally been thus
+          relieved, but of hundreds, nay, I <lb/>may ſay thouſands, that within my own knowledge,
+          have <lb/>received great benefit from this invaluable and ſalutary <lb/>medicine. </p>
+        <p rend="indent"><lb/>Now to examine the main point, and enquire upon what <lb/>principles
+          this great relief is given; for if we conſider the <lb/>Bread itſelf, this concrete can
+          have no efficacy, at one <lb/>time more than another; if the efficacy, I ſay, proceeds
+          <lb/>from the intrinſical principles of the Bread; for then a <lb/>Cruſt eat at five or
+          ſix in the afternoon, or at a proper <lb/>diſtance from our meals, muſt produce the ſame
+          effects <lb/>upon the urinary paſſages; upon the obſtructions of the <lb/>joints and
+          membranes of the muſcles, that it does, when<lb/> eat in a morning faſting; and therefore
+          we are to conſider <lb/>whether this virtue and efficacy, ſuppoſed to be lodged in
+          <lb/>the bread, may not more properly be owing to ſome other <lb/>aſſiſting cauſe, than to
+          the piece of Bread itſelf; for we <lb/>know very well, that the matter of fact is ſo, <hi
+            rend="italic">viz.</hi> That <lb/>a Cruſt of Bread, eat early in a morning faſting, does
+            <w part="I">pro-</w><lb/><w part="F">duce</w> theſe good effects in the aforeſaid
+          diſeaſes; and if <lb/>we ſearch into the virtues of Bread, and conſider what
+          <lb/>ingredients there is in a Cruſt, we ſhall not diſcover any <lb/>virtues in the Bread,
+          more than to nouriſh the body; for <lb/>the pureſt wheat, when changed into never ſo many
+            <w part="I">dif-</w><lb/><w part="F">ferent</w> forms, only produces a more elegant
+          nouriſhment: <lb/>This is the prime law of its nature, and therefore we <w part="I"
+            >can-</w><lb/><w part="F">not</w> ſuppoſe that the Bread itſelf can contain any powers
+          <lb/>capable of producing theſe principles of diſſolution of the <lb/>gravel, attenuation
+          of the phlegm, and mitigation of the <lb/>painful ſymptoms of the ſtone; and therefore I
+          muſt <w part="I">con-</w><lb/><w part="F">clude</w>, that the Bread itſelf does not
+          contain any principles <lb/>powerful enough to accompliſh that great relief, that is
+          <lb/>often received from eating a Cruſt of Bread in a morning <lb/>early; for then its
+          great efficacy would ſenſibly appear, <lb/>from the great quantities we eat of this
+          aliment, in our <lb/>ſeveral meals, at morning, noon, and night: And hence <lb/>I infer,
+          that the good that is known to enſue from eating <lb/>the Bread, muſt be the reſult of
+          ſomewhat that <w part="I">accom-</w><lb/><w part="F">panies</w> the Bread, and that we can
+          conceive to be nothing <lb/>but the faſting ſaliva, which leads me to ſpeak of the
+          <lb/>origin, ſecretion, and compoſition of this fluid, or what <pb xml:id="page_6" n="7"
+          /><lb/>we vulgarly call the faſting ſpittle; as it is a fluid that <lb/>ſerves divers
+          great and important purpoſes in the animal </p>
+      </div>
+      <div n="2" type="section">
+        <head rend="italic align-center"><lb/><hi rend="roman">SECT. II.</hi>
+          <lb/>Of the origin, ſecretion, and compoſition of the Faſting <lb/>ſaliva, as the fluid
+          that firſt mixes with the Bread, <lb/>in the mouth; in its paſſage through the gula; and
+          in its <lb/>deſcent into the ſtomach, as the ſole cauſe of the <w part="I"
+            >fore-</w><lb/><w part="F">going</w> ſalutary effects. </head>
+        <p rend="indent"><lb/><hi rend="dc(2)">I</hi> Obſerved in the firſt ſection, that few
+          phyſicians had<lb/>ſufficiently examined the recrements of the body; and <lb/>ſo far
+          looked into the myſteries of nature, as to conſider <lb/>for what purpoſes and uſes in
+          life, they were ſeperated and <lb/>ſecreted into their proper channels and receptacles;
+          for <lb/>we daily perceive, that the ſaliva, the pancreatic juice, <lb/>and the bilioſe
+          humours, are three liquors ſecreted from <lb/>their reſpective organs, that ſerve great
+          and eminent <w part="I">pur-</w><lb/><w part="F">poſes</w> in the animal-oeconomy: and as
+          the ſaliva, or what <lb/>we call the ſpittle, is the laſt and moſt conſiderable of the
+          <lb/>ſecretions, ſo I think it will be proper to examine the nature, <lb/>properties, and
+          conſtituent principles of a fluid, that is often <lb/>the cauſe of conſiderable changes
+          and alterations in life. </p>
+        <p rend="indent"><lb/>Now the three grand recrements of the body, <hi rend="italic"
+            >viz.</hi> the <lb/>ſaliva, bile, and ſeed, are three principles, that not only
+          <lb/>preſerve life and health in the individuum; but the laſt <w part="I">ſe-</w><lb/><w
+            part="F">creted</w> fluid is that ſacred balſam, that has continued the <lb/>ſpecies
+          from the beginning of the world to this time, and <lb/>which will ſo continue it, to the
+          lateſt period of nature; <lb/>and therefore methinks they deſerve a more particular <w
+            part="I">en-</w><lb/><w part="F">quiry</w>, than what I perceive phyſicians, hitherto,
+          have been <lb/>pleaſed to beſtow upon them: however, I ſhall in this little <lb/>tract
+          only proceed to examine the recrements of the <lb/>ſaliva, the principles of the juices
+          ſecreted in the ſtomach, <lb/>and the properties of the bile, as ſubjects the moſt proper
+          <lb/>at preſent for my enquiry; and ſhall poſtpone the laſt to a <lb/>more convenient
+          opportunity. </p>
+        <p rend="indent"><lb/>However, before we proceed to diſcover the powers, <lb/>efficacy, and
+          operation of the Faſting Spittle, I judge it <lb/>highly neceſſary that, in the firſt
+          place, we proceed to <lb/>examine the origin, ſecretion, and compoſition of this
+          <lb/>noble fluid, as it is ſeperated from the arterial blood: becauſe <pb xml:id="page_7"
+            n="8"/><lb/>upon theſe principles moſt of its active powers, in a great <lb/>meaſure,
+          will be found to have their dependance. </p>
+        <p rend="indent"><lb/>The ſaliva, or what we call the faſting ſpittle, is <w part="I"
+            >origi-</w><lb/><w part="F">nally</w> ſecreted from the arterial blood by two complex
+          <lb/>glands, called the parotides, which, according to <hi rend="italic">Steno</hi>
+          <lb/>and <hi rend="italic">Nuck,</hi> two accompliſhed anatomiſts, lye at the root <lb/>of
+          the ear, one on each ſide of the neck: Theſe glands <lb/>ſecern the groſſer ſaliva; and by
+          means of a number of <lb/>little ſmall tubes, ariſing from the inner coat of theſe glands,
+          <lb/>convey the ſecreted liquor into one common duct, which, <lb/>ne<unclear>##</unclear>
+          the third upper grinder, opens into the mouth, <w part="I">where-</w><lb/><w part="F"
+            >by</w> the jaws, tongue, and all the inner parts of the lips, <lb/>are moiſtened with
+          this viſcous, ſecreted ſpittle. </p>
+        <p rend="indent"><lb/>But, beſides theſe two large ſecretory glands, that <w part="I"
+            >fur-</w><lb/><w part="F">niſh</w> out the groſſer ſecretions for moiſtening the mouth
+          in <lb/>general, there are diſcovered by later anatomiſts divers <lb/>other minute,
+          conglobate glands, that ſecrete a finer, <lb/>thinner, and more attenuated fluid: Theſe
+          have their roots <lb/>in the polate, tongue, gums, and lips, all whoſe <w part="I"
+            >mem-</w><lb/><w part="F">branes</w> are perforated with little ſmall tubuli, that let
+          into <lb/>the mouth a fine, thin, volatile ſaliva, ſomewhat more <lb/>attenuated than the
+          former: However, all theſe fountains <lb/>of the ſpittle are ſo commodiouſly ſituated,
+          that they muſt <lb/>neceſſarily, upon cloſing of the lips, preſſure of the jaws, <lb/>and
+          combining or compreſſing of the cheeks, ſqueeze out <lb/>a good quantity of their contents
+          into the mouth, for the <lb/>ſeparating, moiſtening, and diſſolving of the aliments we
+          <lb/>take for the ſupport of life. </p>
+        <p rend="indent"><lb/>And this is the reaſon, why theſe glands diſcharge the <lb/>greateſt
+          quantities of their ſecreted liquors, during <w part="I">maſti-</w><lb/><w part="F"
+            >cation</w>, or when we chew our food: becauſe then there is <lb/>not only the greateſt
+          preſſure upon theſe organs, but, at <lb/>the ſame time, all the parts of the mouth are put
+          into <lb/>greater motions and compreſſions, than at any other time <lb/>whatever, for to
+          make the experiment if you pleaſe to <lb/>grind cloſe the teeth, and, at the ſame time,
+          compreſs <lb/>your cheeks with the lips, you will readily perceive a <lb/>larger diſcharge
+          of ſaliva to rouze from theſe reſpective <lb/>glands, than when the ſame lye ſtill, are at
+          reſt, and under <lb/>no compreſſion. </p>
+        <p rend="indent"><lb/>But, of all remedies preſcribed, we ought not only to <w part="I"
+            >at-</w><lb/><w part="F">tempt</w> to know their origin, nature, and production, but
+          alſo <lb/>to endeavour to penetrate into the principles, powers, and <pb xml:id="page_8"
+            n="9"/><lb/>properties they conſiſt of, whereby we ſhall be better <w part="I"
+            >ena-</w><lb/><w part="F">bled</w> to diſcover their manner of action, and the different
+          <lb/>efforts they exert upon the various organs of the animal <lb/>œconomy. </p>
+        <p rend="indent"><lb/>As to the ſaliva, when all the different ſecretions are <w part="I"
+            >inti-</w><lb/><w part="F">mately</w> mixed in the mouth, and formed into one uniform,
+          <lb/>attenuated, frothy humour; the mixture then appears from <lb/>experiments, to
+          conſtitute a fine, thin, volatile, ſilver-<lb/>coloured fluid, and which is ſecreted from
+          the arterial <lb/>blood in the caroted arteries, and called the ſaliva or <lb/>ſpittle. </p>
+        <p rend="indent"><lb/>Upon examination, it appears to be a compoſition of <lb/>ſalt, oil,
+          and ſulphur, diſſolved in a pretty large quantity <lb/>of a ſine, thin, attenuated phlegm,
+          very nearly reſembling <lb/>the conſiſtence of ſoap water, to which it is very nearly
+          <lb/>related by the virtues of its qualities. </p>
+        <p rend="indent"><lb/>Under a ſound ſtate of health, it is without ſmell, <w part="I"
+            >per-</w><lb/><w part="F">fectly</w> inſipid, or if it has any taſte, it may properly be
+          ſaid <lb/>to reſemble the white of an egg: To the touch it is <w part="I">ex-</w><lb/><w
+            part="F">tremely</w> viſcid; eaſily mixes with oil, and therefore is <lb/>oleoſe; it
+          readily evaporates with the leaſt force of fire, <lb/>and therefore contains a large
+          portion of volatile parts; <lb/>and in its nature is mightily penetrant and abſterſive,
+          and <lb/>therefore will deſtroy even the ſpericity of the mercurial <lb/>globles
+          themſelves, whoſe round figures are ſo difficult <lb/>to deſtroy, unleſs you apply ſalts,
+          fire, ſulphur, or ingredients <lb/>of an unctions, adheſive nature. </p>
+      </div>
+      <div n="3" type="section">
+        <head rend="italic align-center"><lb/><hi rend="roman">SECT. III.</hi><lb/>Of the
+          properties, virtues, and ſalutary effects of the <lb/>faſting ſaliva, when externally
+          applied to old aches, <lb/>pains, recent cuts, wounds, old ulcers, corns, ſore eyes,
+          <lb/>and gouty nodes. </head>
+        <p rend="indent"><lb/><hi rend="dc(2)">I</hi>F we conſider the faſting ſaliva alone, and as
+          it is <w part="I">ſe-</w><lb/><w part="F">creted</w> from the ſalival glands ſituated in
+          the jaws and <lb/>mouth, we ſhall perceive divers great and remarkable <lb/>effects to
+          ariſe from its application; for this ſaliva may <lb/>moſt properly be called the noble
+          Balſam of Nature, as it <lb/>is a ſurer relief, in moſt caſes, where outwardly applied,
+          <lb/>than what moſt people will eaſily be led to believe, that <lb/>have not themſelves
+          tryed its efficacy: I do not deſire to <lb/>be too ſanguine upon the virtues of the
+          faſting ſaliva; <pb xml:id="page_9" n="10"/><lb/>but ſhall only beg leave of the reader,
+          to lay down what <lb/>I know to be matter of fact; and then ſhall proceed to <lb/>give a
+          detail of divers very ſurprizing cures, that one <lb/>Mrs. <hi rend="italic">Beſtock,</hi>
+          at <hi rend="italic">Nantwich</hi> in <hi rend="italic">Cheſhire,</hi> has done to
+          vaſt<lb/>numbers of people, in that neighbourhood, by the outward <lb/>application of the
+          faſting ſaliva, vulgarly called the faſting <lb/>ſpittle. </p>
+        <p rend="indent"><lb/>I am intimately acquainted with a gentleman, that <lb/>every ſpring
+          and fall was accoſted with a very troubleſome <lb/>ſcorbutic tetter; he had taken mercury
+          in all ſhapes, <w part="I">ad-</w><lb/><w part="F">viſed</w> with ſeveral phyſicians, and
+          by their advice had <w part="I">ap-</w><lb/><w part="F">plied</w> mixtures, ointments, and
+          waters, preſcribed for <lb/>tettery humours, but without ſucceſs: At laſt, he was <w
+            part="I">ad-</w><lb/><w part="F">viſed</w> to apply the faſting ſaliva every morning,
+          which, in <lb/>a fortnight's time, effectually cured him. </p>
+        <p rend="indent"><lb/>Nor do I know a better medicine for troubleſome corns. <lb/>A perſon
+          of ſome diſtinction had a corn on the off ſide of <lb/>his foot, that ſo ſhackled his
+          limbs, as almoſt to reduce <lb/>him to the ſtate of a cripple: He employed the corn-cutter
+          <lb/>without effect; for every time it was cut it both bled and <lb/>pained him very much:
+          theſe are uſual accidents that <w part="I">hap-</w><lb/><w part="F">pened</w> from a nerve
+          and vein, that entered into the <w part="I">com-</w><lb/><w part="F">poſition</w> of the
+          corn, and whoſe ſenſibility and cavity were <lb/>not totally deſtroyed by ſo hard a body
+          He had made uſe <lb/>of plaiſters, balſams, ointments, lotions, and all manner <lb/>of
+          applications, but to no manner of purpoſe: He then <lb/>accidentally asked a gentleman's
+          opinion, and was adviſed <lb/>every night to ſoak his feet in warm water and bran, and
+          <lb/>the next morning to apply chewed bread, well moiſtened <lb/>with the faſting ſpittle,
+          by way of pultice, which, in a <lb/>little time, perfectly relieved him; for the corn, in
+          leſs <lb/>than a week, tumbled out by the roots, and he has heard <lb/>no more of it
+          ſince. The like happened to a gentleman <lb/>that was adviſed to apply the chewed bread,
+          mixed with <lb/>the faſting ſpittle, to a gouty node, which mightily relieved <lb/>him,
+          and has kept his feet eaſy ever ſince. </p>
+        <p rend="indent"><lb/>In thoſe hard excreſſences we call warts in the hands, <lb/>face, and
+          divers other parts of the body, it is an infallible <lb/>cure, if conſtantly uſed. It alſo
+          mightily aſſiſts in relieving <lb/>ſore eyes, eſpecially thoſe whoſe eye-lids from hard <w
+            part="I">drink-</w><lb/><w part="F">ing</w>, are red, angry, and inflamed: In theſe
+          caſes, if you <lb/>do but lightly touch the parts affected, with this noble <lb/>balſam,
+          every morning, you will find great relief. And <pb xml:id="page_10" n="11"/><lb/>we know,
+          by certain experience, that in all cuts, recent <lb/>wounds, and accidental hurts, that
+          the faſting ſaliva is a <lb/>ſovereign remedy: and its penetrant diſſolving abſterſive
+          <lb/>qualities are ſo great, that if it be ſufficiently rubbed with <lb/>mercury, vulgarly
+          called quick-ſilver, it will mortify that <lb/>mineral, and deſtroy the ſpericity of its
+          globles, though <lb/>one of the moſt active bodies in nature. </p>
+        <p rend="indent"><lb/>But the great cures done by one <hi rend="italic">Bridget
+            Boſtock,</hi> at <lb/><hi rend="italic">Nantwich</hi> in <hi rend="italic"
+            >Cheſhire,</hi> by the external application of <lb/>faſting ſpittle, would ſurmount all
+          credit, and ſcarce gain <lb/>belief, had we not ſufficient atteſtations, from ſeveral
+          <lb/>authentic letters, that put the matters of fact above all <lb/>diſpute; for in a
+          letter from a perſon of undoubted <w part="I">cha-</w><lb/><w part="F">racter</w>, he
+          tells us; <q>"that this old woman, all her <w part="I">life-</w><lb/><w part="F">time</w>,
+            made it her buſineſs to cure her neighbours, and <lb/>people that lived near her, of
+            ſore legs, and other <w part="I">diſ-</w><lb/><w part="F">orders</w>. But her reputation
+            of late, ſeems ſo <w part="I">wonder-</w><lb/><w part="F">fully</w> encreaſed, that
+            people come to her from all parts <lb/>far and near. A year ago ſhe had, as I remember,
+            about <lb/>forty under her care: When I went to <hi rend="italic">London</hi> ſhe had
+            <lb/>one hundred in the compaſs of a week; and they <w part="I">en-</w><lb/><w part="F"
+              >creaſed</w> ſo faſt, that, by the time I came back, which <lb/>was not above three
+            weeks, ſhe had above eight ſcore: <lb/>and this day five weeks one hundred and ſixteen;
+              <w part="I">Sun-</w><lb/><w part="F">day</w> ſe'ennight my wife and ſelf went to <hi
+              rend="italic">Bridget</hi>'s houſe, <lb/>and were told by the perſons that kept the
+            door, and <lb/>let the people in by fives and ſixes; that they had that <lb/>day told
+            ſix hundred to whom ſhe had adminiſtred: <lb/>She at length grew ſo very faint, for ſhe
+            never breaks <lb/>her faſt till ſhe has done, that at ſix of the clock in the
+            <lb/>evening ſhe was obliged to give over her operations, <lb/>though then there were
+            more than ſixty perſons to whom <lb/>ſhe had not adminiſtred. On Monday laſt ſhe had
+            ſeven <lb/>hundred, and every day at preſent near that number.</q>
+        </p>
+        <p rend="indent"><lb/><q rend="quotes">She cures the blind, the deaf, and the lame of all
+            <lb/>ſorts: Numbers of people have received great benefit, <lb/>in the rheumatiſm,
+            king's-evil, hiſteric fits, falling <lb/>ſickneſs, and ſhortneſs of breath: She alſo
+            mightily <lb/>relieves the dropſy, palſy, leproſy, cancers: and, in <lb/>ſhort, almoſt
+            every diſeaſe mankind is ſubject to, except <lb/>the <hi rend="italic">French</hi> pox,
+            which ſhe will not be prevailed by any <lb/>means to meddle with.</q>
+        </p>
+        <pb xml:id="page_11" n="12"/>
+        <p rend="indent"><lb/>But here I muſt beg leave ſo far to interfere with this <lb/>old
+          woman, as to declare, that in chancres, which is a <lb/>very ſtubborn ſpecies of the
+          venereal diſeaſe, and which <lb/>often affects the glans penis, and baffles the utmoſt
+          efforts <lb/>of the phyſician and ſurgeon, without a ſalivation: that <lb/>there is not a
+          ſurer remedy, than every morning to touch <lb/>the part with the faſting ſaliva of a man
+          or woman turned <lb/>of ſeventy or eighty years of age: And if you extinguiſh a
+          <lb/>little crude mercury in the ſaliva, the efficacy will be ſo <lb/>much the more
+          conſiderable and certain. </p>
+        <p rend="indent"><lb/>But to return from whence I digreſſed: <q rend="quotes">You will be
+            <lb/>deſirous to know what medicines ſhe uſes to procure <lb/>ſuch mighty relief; and I
+            muſt tell you, that all the <lb/>means ſhe uſes, are only to ſtroke the part with
+            faſting <lb/>ſpittle, and praying for them; it is hardly credible to <lb/>think, what
+            cures ſhe daily performs, and without you <lb/>were here to ſee them, it muſt appear
+            romantic and <lb/>incredible: for ſome people grow well while in the <lb/>houſe; others
+            while on the road, and all find themſelves <lb/>better after they are got home. She is
+            about ſeventy <lb/>years of age, and takes no money for her cures, though <lb/>offered
+            her; in ſhort, the rich, the lame, the blind, <lb/>and the deaf, all pray for her, and
+            bleſs the great <lb/>good ſhe does; and the poor daily come to her in<lb/> cart-loads. I
+            am, Sir, <hi rend="italic">&amp;c.</hi></q>
+        </p>
+        <p rend="indent"><lb/>This letter, I am well aſſured, comes from a perſon of <lb/>great
+          veracity and integrity; and therefore I think deſerves <lb/>ſome animadverſions, as the
+          cures the author ſpeaks of, <lb/>are many of them very ſurprizing, and divers out of the
+          <lb/>common road of external applications: However, to make <lb/>ſuitable remarks on theſe
+          cures, we muſt firſt obſerve, that <lb/><hi rend="italic">Bridget Boſtock</hi> is ſeventy
+          years of age; that all was done <lb/>(beſides her prayers) by the force of the faſting
+          ſpittle; as <lb/>to her prayers for a bleſſing upon her endeavours, I ſhall <lb/>not
+          preſume to ſay any thing, becauſe we are aſſured in <lb/>holy writ, that perſons of leſs
+          piety, virtue, and charity, <lb/>than this old woman ſeems to be miſtreſs of, have been
+          <lb/>enabled to work miracles; and therefore we can never be <lb/>certain how far God
+          Almighty interpoſes his finger in <w part="I">aſſiſt-</w><lb/><w part="F">ing</w> the
+          relief of divers diſeaſes: But in moſt of theſe caſes, <lb/>except the dropſy, I will be
+          bold to ſay, that the means <lb/>this good woman uſed for the recovery of theſe people,
+          <lb/>were equal to the effects that enſued; and in the dropſy <pb xml:id="page_12" n="13"
+          /><lb/>there are two remedies may be uſed, that will infallibly <lb/>cure that diſeaſe,
+          provided it does not ariſe from a rupture <lb/>of the lymphaticks, in which caſe there can
+          no relief be <lb/>given, but by tapping the patient, and that only a <w part="I"
+            >tran-</w><lb/><w part="F">ſient</w> relief, or the patient is not greatly advanced in
+          years. <lb/>Thus far I could not but remark in caſes ſo particular in <lb/>their aſpect,
+          and which were relieved by ſuch a ſimple <lb/>remedy as I am now treating of. </p>
+      </div>
+      <div n="4" type="section">
+        <head rend="italic align-center"><lb/><hi rend="roman">SECT. IV.</hi>
+          <lb/>Of the vehicle moſt proper to convey this ſovereign remedy <lb/>into the ſtomach, in
+          order to facilitate its operation and <lb/>ſalutary effects, upon the various viſcera,
+          organs, and <lb/>fluids of animal bodies. </head>
+        <p rend="indent"><lb/><hi rend="dc(2)">H</hi>ITHERTO we have conſidered the faſting ſaliva
+          <lb/>alone, and as it is applied to the external parts of <lb/>the body; I am come now to
+          ſpeak of its ſalutary effects, <lb/>when it is mixed, combined, and aſſociated with the
+          fine <lb/>fluid ſecreted from the glands of the oeſophagus or gula, in <lb/>its deſcent
+          into the ſtomach; when it is combined with <lb/>the ſtomachic juices ſecreted from the
+          villous coat of that<lb/>important organ; and the improvements it acquires, as a
+          <lb/>diſſolvent, after it is got out of the ſtomach into the <w part="I">in-</w><lb/><w
+            part="F">teſtines</w>, and there thoroughly mixed with the bile and <lb/>pancreatic
+          juices. </p>
+        <p rend="indent"><lb/>And it plainly appears, from the obſervations we have <lb/>made in the
+          firſt ſection, that the bread is little or nothing <lb/>concerned in producing theſe good
+          effects, we ſo ſenſibly <lb/>perceive to enſue, upon eating a Cruſt of Bread, in a
+          <lb/>morning faſting; nor can the virtues that follow, upon <lb/>eating that concrete, be
+          properly aſcribed to the bread <lb/>itſelf; for it never could be ſwallowed, did not the
+          faſting <lb/>ſaliva mix with it, and convert it to a pulpous ſubſtance, <lb/>and thereby
+          fit it for digeſtion; for no dry aliments ever <lb/>could be ſwallowed, without a proper
+          portion of the ſalival <lb/>fluid, nor do I conceive, that any other liquid menſtruum
+          <lb/>would ſerve the intentions of nature ſo well as the ſaliva: <lb/>And this is the
+          reaſon, why the greateſt number of ſalival <lb/>glands are placed in the mouth, and
+          conſequently the <lb/>greateſt quantity of ſaliva ſeparated from theſe glandural
+          <lb/>meſhes, during maſtication, or the time we are chewing <pb xml:id="page_13" n="14"
+          /><lb/>of our food; for then there is not only the greateſt <w part="I">preſ-</w><lb/><w
+            part="F">ſure</w> and motion in all the parts of the mouth, but the <lb/>muſcles of the
+          jaws, cheeks, and lips, are more forcibly <lb/>compreſſed, contracted, and put into
+          motion, than at any <lb/>other time: for theſe glandular bodies, the fountains of <lb/>the
+          ſaliva, are ſo commodiouſly ſituated, that they muſt <lb/>neceſſarily, upon any preſſure
+          of the cheeks, or cloſing of <lb/>the jaws, ſqueeze out their contents into the mouth;
+          and, <lb/>to make the experiment, let any perſon grind cloſe his <lb/>gums and teeth, and
+          at the ſame time, ſtraitly compreſs <lb/>the muſcleſs of his cheeks and jaws, and he will
+          readily <lb/>perceive a larger diſcharge of ſaliva to flow into his mouth <lb/>from theſe
+          compreſſions, than is uſual for the ſame glands, <lb/>at any other time; which plainly
+          demonſtrates how much <lb/>the action of theſe muſcles contribute to influence the <w
+            part="I">diſ-</w><lb/><w part="F">charge</w> of theſe ſalival glands. </p>
+        <p rend="indent"><lb/>But if the relief given does not conſiſt in the virtues of <lb/>the
+          bread itſelf, but in the ſecretion of the recrement, <lb/>called the Faſting Spittle, then
+          you will ſay; to what end <lb/>and purpoſe ſerves a piece of bread, eat early in a
+          morning<lb/>faſting: To this I anſwer; to very great and good <w part="I">pur-</w><lb/><w
+            part="F">poſes</w> every way: For, in the firſt place, there is no other <lb/>ſubſtance
+          we know of, that can ſo properly be eat in a <lb/>morning faſting, as a Cruſt of Bread, or
+          that the ſtomach <lb/>will ſo readily receive and digeſt as that concrete: <w part="I"
+            >Se-</w><lb/><w part="F">condly</w>, of all other aliments, it is the moſt proper
+          vehicle <lb/>to imbibe and collect the Faſting Saliva; and therefore, <lb/>of all other
+          vehicles, it is the fitteſt to be employed upon <lb/>theſe occaſions, as it beſt mixes
+          with the ſaliva: Thirdly, <lb/>the force from the teeth, neceſſary to divide a Cruſt, and
+          <lb/>break its coheſions, will more readily ſqueeze out the ſaliva <lb/>from the ſeveral
+          falival glands. </p>
+        <p rend="indent"><lb/>Theſe are the reaſons I offer in preference to a Cruſt of <lb/>Bread:
+          and therefore I judge that no other concrete will <lb/>ſo readily ſerve the purpoſe, as a
+          Cruſt of Bread, unleſs it <lb/>be what we call the captains biſcuits, which they carry to
+          <lb/>ſea for their own eating: Theſe are ſtill preferable to bread, <lb/>as they are ſtill
+          harder than a cruſt, and more deſtitute of <lb/>all foreign mixtures, as they are free
+          both from leven and <lb/>yeſt. But as theſe ſometimes may be difficult to be had, <lb/>ſo
+          I judge a piece of bread, in general, the beſt vehicle <lb/>we can ſubſtitute, in order to
+          convey the faſting ſaliva into <lb/>the ſtomach. And hence it clearly appears, that the
+          virtue <pb xml:id="page_14" n="15"/><lb/>and efficacy that reſults from eating a Cruſt of
+          Bread, does not<lb/>ſo properly ariſe from the bread itſelf, as the chewing and
+          <lb/>mixing it with the Faſting Spittle; and therefore, to <w part="I">im-</w><lb/><w
+            part="F">prove</w> this fine liquid, volatile ſoap, and exalt its virtues, <lb/>I adviſe
+          you, having eat nothing over night for ſupper, <lb/>about five of the clock in the
+          morning, to eat one ounce, <lb/>or an ounce and half, of either wheat or rye bread, which
+          <lb/>in chewing, will take up full half an ounce of the faſting <lb/>ſaliva, to reduce it
+          into a proper, ſoft, pulpoſe ſubſtance, <lb/>and which, when well chewed and moiſtened,
+          will be <lb/>eaſily ſwallowed; and when you have got it down into <lb/>the ſtomach, then
+          leave the reſt to nature, and, if you <lb/>can, go to ſleep. And it is adviſeable that you
+          eat nothing <lb/>for two or three hours after: Which leads me to ſpeak a <lb/>few things
+          of the conſequences of its being got into the <lb/>ſtomach, and of its mixture with divers
+          of the ſecreted <lb/>juices, in the ſtomach and inteſtines. </p>
+        <p rend="indent"><lb/>Now this courſe, if ſteadily purſued for a month or ſix <lb/>weeks,
+          will prove of great efficacy in divers diſeaſes, that <lb/>have obſtructions and ſabulous
+          concretions for their <lb/>parent, as the gravel, ſtone, gout, and rheumatiſm. Nor is it
+          leſs <lb/>efficacious in tumours of the liver, ſpleen, and divers other <lb/>organs; in
+          all which caſes, it is known to give great relief. </p>
+      </div>
+      <div n="5" type="section">
+        <head rend="italic align-center"><lb/><hi rend="roman">SECT. V.</hi>
+          <lb/>Of the improvements the Faſting Saliva receives from its <lb/>mixing with the
+          ſtomachic, the bilioſe, and pancreatic <lb/>juices in the ſtomach, inteſtines, and parts
+          adjoining; <lb/>and in particular, of the nature, properties, and <w part="I"
+            >con-</w><lb/><w part="F">ſtituent</w> principles of the bile, as the greateſt <w
+            part="I">diſ-</w><lb/><w part="F">ſolvent</w> in nature. </head>
+        <p rend="indent"><lb/><hi rend="dc(2)">B</hi>UT after this ſine, thin, ſaponaceous fluid, we
+          call <lb/>the ſaliva or ſpittle, has left the mouth, and before <lb/>it gets down into the
+          ſtomach, it receives conſiderable <lb/>improvements from a fine, thin, attenuated,
+          volatile fluid, <lb/>ſecreted from a number of glands, ſituated in the head of <lb/>the
+          gula, which ſtill renders it more penetrant and <w part="I">abſter-</w><lb/><w part="F"
+            >ſive</w>: It ſtill acquires more force and energy from its <lb/>mixture with the
+          ſtomach juices, diſcharged from the <lb/>various glands, whoſe orifices form the velvet
+          coat of this <lb/>important organ: Theſe ſupply the ſtomach with a ſine, <pb
+            xml:id="page_15" n="16"/><lb/>thin, clear, ſpumoſe fluid, that taſtes a little ſaline
+          and <lb/>acid, but is very active and volatile in its properties. </p>
+        <p rend="indent"><lb/>This is ordained by nature to penetrate the foods, break <lb/>their
+          coheſions, and help forward their digeſtion for the <lb/>nouriſhment of the body: And here
+          a very fair opportunity <lb/>offers itſelf for me to ſpeak of the principles of digeſtion,
+          <lb/>and to diſcover how theſe important changes are brought <lb/>about; that convert our
+          aliments into nouriſhment, but <lb/>this would be foreign to my intention, and be a means
+          of <lb/>rendering the diſcourſe tedious, as my avow'd deſign is <lb/>brevity, and only to
+          take a view of the ſecreted fluids, as <lb/>far as, in their courſe, they join with the
+          Faſting Saliva, <lb/>in order to exalt it into a fine, ſaponaceous liquor, proper <lb/>to
+          relieve the body of its inſirmities. </p>
+        <p rend="indent"><lb/>Thus it appears how much the Faſting Saliva is improved <lb/>in its
+          nature, properties, and action, from the lubricating <lb/>lymph of the gula, the ſtomachic
+          juices, and the chylous <lb/>fluid, all continually digeſting in the ſtomach; continually
+          <lb/>ſecreting from their reſpective glands, and continually <lb/>flowing over the pilorus
+          into the duodenum, where they <lb/>mix and unite with the bilioſe and pancreatic juices,
+          which <lb/>greatly improve this noble, active medicine, and by their <lb/>tumults,
+          conſſicts, and conquaſſations, render it the moſt <lb/>penetrant, abſterſive, and
+          diſſolving medicine we know of <lb/>in nature. </p>
+        <p rend="indent"><lb/>And becauſe I have mentioned the bilioſe juice as an <w part="I"
+            >in-</w><lb/><w part="F">gredient</w> in this fine, volatile, diſſolvent medicine, you
+          will<lb/>permit me here a little to examine into the nature, <w part="I">pro-</w><lb/><w
+            part="F">perties</w>, and ſecretion of the bile, becauſe it is a liquor, <lb/>that will
+          be found to have very conſiderable effect and <lb/>conſequences in the various organs of
+          the animal œconomy. </p>
+        <p rend="indent"><lb/>The liver is the organ ordained by nature for the <w part="I"
+            >ſepa-</w><lb/><w part="F">ration</w>, ſecretion, and ultimate perfection of the bilioſe
+            <w part="I">hu-</w><lb/><w part="F">mour</w>; and I ſhould immediately proceed to
+          examine the <lb/>principles and mechaniſm of this important organ, but that <lb/><hi
+            rend="italic">Malpigius,</hi> that accurate anatomiſt, and our learned <w part="I"
+            >coun-</w><lb/><w part="F">tryman</w> Dr. <hi rend="italic">Gliſſon,</hi> have ſo fully
+          exhauſted this ſubject, <lb/>that they have left but little, that is new, to be ſaid by
+          <lb/>thoſe that come after them: And as I am only to obſerve <lb/>the nature of ſecretion,
+          the principles of the bile, and the <lb/>uſes and purpoſes for which it is ordained to
+          ſerve in life, <lb/>ſo I judge that the courſe of the veſſels, their various
+          <lb/>ramifications, and their aptneſs for the ſecretion of this <pb xml:id="page_16"
+            n="17"/><lb/>humour, will furniſh out every thing neceſſary to be <lb/>known upon this
+          ſubject. </p>
+        <p rend="indent"><lb/>However, I think proper here to obſerve, that the <lb/>modus of
+          ſecretion of the bile in the liver, is different <lb/>from the humours ſecreted in all
+          other parts of the body; <lb/>for in all other parts the ſecretions are uſually made from
+          <lb/>an artery, but in the liver nature has inverted that order, <lb/>and makes uſe of a
+          vein: and therefore the vena porta is <lb/>appointed for this important office: this vein
+          receives <lb/>the blood from the ſpleen, from the meſenterick arteries, <lb/>and from
+          almoſt all the organs ſituated in the lower <lb/>belly: this ſanguineous fluid moving much
+          ſlower in <lb/>the vena porta, than it would have done in an artery of <lb/>the ſame
+          ſtructure and mechaniſm, is the ſole cauſe why <lb/>the bilioſe ſalts are ſo readily
+          diſpoſed to attract each <lb/>other, and form a fluid with that viſcidity, neceſſary to
+          <lb/>give conſiſtence to the bile; and for this end and <w part="I">pur-</w><lb/><w
+            part="F">poſe</w> the vena porta and biliary veſſels are incloſed in <lb/>one common
+          ſheath or capſule: they enter the liver on t<lb/>he concave ſide, and are equally
+          diſtributed through all <lb/>its ſubſtance; ſo that wherever there is a branch of the
+          <lb/>one, there, upon good inſpection, you will be ſure to <lb/>diſcover a branch of the
+          other: and therefore each lobe, <lb/>and each gland of that lobe, whether on the convex or
+          <lb/>concave ſide, receives the ſame veſſels, <hi rend="italic">viz.</hi> A vein,
+          <lb/>nerve and artery, called <hi rend="italic">arteria hepatica,</hi> to convey the
+          <lb/>nouriſhment for the uſe of the liver. </p>
+        <p rend="indent"><lb/>The porta receives the blood from the neighbouring <lb/>parts, which
+          is very ſharp, by reaſon of the cloſe union <lb/>of the bilious ſalts; for the lymph that
+          kept them <w part="I">aſun-</w><lb/><w part="F">der</w> is ſeparated from the blood by the
+          glands of the <lb/>ſtomach, inteſtines, ancreas, and meſentery: and <w part="I"
+            >there-</w><lb/><w part="F">fore</w>, if this ſharp, deterſive, ſaline bile, did
+          continue <lb/>to circulate with the blood, it muſt frequently occaſion<lb/> vehement
+          fevers, colliquative fluxes, heart-burnings, and <lb/>ſevere cholic pains, but theſe
+          miſerable effects are often <lb/>prevented by a ſoft olious fluid, that tempers theſe
+          ſharp, <lb/>keen ſalts, and blunts their acrimonious effects, both <lb/>upon the
+          inteſtines and parts adjoining. </p>
+        <p rend="indent"><lb/>In the ſecretion of the bile, we are to obſerve, that <lb/>the vena
+          porta hepatica terminates in little ſmall <w part="I">glan-</w><lb/><w part="F">dular</w>
+          folliculi, that ſecrete the bile from the blood; from <lb/>theſe ſmall glands the billous
+          humour is received into the <pb xml:id="page_17" n="18"/><lb/>extremeties of the pori
+          biliarii, as they inoſculate with <lb/>the extremeties of the vena porta, and which, by
+          their <lb/>unions, form one trunk, called the ductus hepaticus: <lb/>this trunk empties
+          part of the gall into the gall bladder: <lb/>from the gall bladder ariſes the ductus
+          cyſticus, which <lb/>uniting with the ductus hepaticus, form one common <lb/>trunk, called
+          the ductus communis cholidocus that <w part="I">con-</w><lb/><w part="F">veys</w> the gall
+          into the duodenum, near its curviture, that <lb/>forms the beginning of the jejunum; ſo
+          that only part <lb/>of the gall flows into the veſica felea, by the cyſtick <lb/>duct,
+          while the other part is conveyed into the <w part="I">inteſ-</w><lb/><w part="F">tines</w>
+          by the ductus communis cholidocus, that opens <lb/>into that organ by an oblique
+          inſertion. </p>
+        <p rend="indent"><lb/>The bile ſeems to be a groſs, thick, viſcid, oleous <lb/>phlegm well
+          impregnated with ſalts of various kinds, as <lb/>ſweet, bitter, acerb, muriatic, and
+          bitter ſweet; all <lb/>which are blended and intimately mixed in a ſmall <lb/>quantity of
+          viſcid phlegm: in this fluid, more than any <lb/>other of the body, the oil and ſalts
+          greatly predominate; <lb/>for an ounce of black gall contained in the fund of the
+          <lb/>veſica fellea yields oil and ſalts, of each three drams; <lb/>of phlegm only two
+          drams. </p>
+        <p rend="indent"><lb/>If you examine the gall in the liver, in the pori <lb/>biliarii, and
+          gall bladder, you will find it of a different <lb/>conſiſtence, colour and bitterneſs, in
+          all theſe three <lb/>different ſituations; for the gall in the liver, or <w part="I"
+            >glan-</w><lb/><w part="F">dular</w> folliculi, is of a pale green, more fluid, ſaltiſh,
+          <lb/>and leſs bitter; that in the cyſtick duct more viſcid, leſs <lb/>bitter, but greatly
+          partaking of ſacharine ſalts: that in <lb/>the gall bladder appears of a deep poracious
+          green: and <lb/>laſtly, that in the fund, inclining to a blackiſh hue, and <lb/>which is
+          more viſcid, leſs ſalt, but contains more of the <lb/>bitteriſh twang. </p>
+        <p rend="indent"><lb/>I could not but be thus particular upon the nature, <lb/>principles,
+          and ſecretion of the bile, becauſe our great <lb/>maſter <hi rend="italic"
+            >Hippocrates</hi> avers that the ingredients of bile <lb/>are generated with the firſt
+          principles of life; and when <lb/>it happens to be viteous, redundant, or defective, fails
+          <lb/>not to become the parent of moſt diſeaſes that any way <lb/>can affect the
+          conſtitutions of animal bodies, eſpecially <lb/>thoſe that are hot, fiery, and
+          inflammatory: and tho' <lb/>every conſtitution muſt neceſſarily generate bile, yet a
+          <lb/>tenſe, ſpringy conſtitution, or a conſtitution with very <pb xml:id="page_18" n="19"
+          /><lb/>elactic fibres, muſt neceſſarily have this humour in the <lb/>largeſt proportion,
+          and theſe liable to generate much <lb/>bile, are very prone, ſpring and fall, to fall into
+            <w part="I">looſe-</w><lb/><w part="F">neſſes</w>, fluxes, and the cholera morbus, which
+          is what <lb/>we call a bilious vomiting, accompanied with a <w part="I">looſe-</w><lb/><w
+            part="F">ness</w>, where great quantities of yellow, green, black <lb/>ſtools are
+          diſcharged. </p>
+      </div>
+      <div n="6" type="section">
+        <head rend="italic align-center"><lb/><hi rend="roman">SECT. VI.</hi>
+          <lb/>Of ſome other ſovereign properties of the bile; as it <lb/>both promotes the
+          digeſtion of our aliments, aſſiſts the <lb/>circulation of the blood, and helps forward
+          the <w part="I">glan-</w><lb/><w part="F">dular</w> ſecretion in every part of the body. </head>
+        <p rend="indent"><lb/><hi rend="dc(2)">B</hi>UT I have not yet done with the bile: for it is
+          a <lb/>ſecreted humour, of that vaſt ſervice and uſe in <lb/>the animal-oeconomy, that I
+          very much queſtion <w part="I">whe-</w><lb/><w part="F">ther</w> either health could
+          ſubſiſt, or life itſelf be <w part="I">conti-</w><lb/><w part="F">nued</w> without its
+          aſſiſtance; for this bile, I am ſpeaking <lb/>of is a ſecretion ſo univerſal, that I do
+          not know one <lb/>ſingle ſpecies of animals deſtitute of this noble ſecretion; <lb/>for
+          man, beaſt, reptiles, and the various claſſes of the <lb/>fiſh kind, all have bile; and,
+          in all theſe different <w part="I">ſub-</w><lb/><w part="F">jects</w>, it is the bittereſt
+          humour in the whole body; <lb/>which is a ſtrong argument with me of the neceſſity of
+          <lb/>bitter medicines in divers caſes of diſeaſes, eſpecially <lb/>when they are properly
+          applied. </p>
+        <p rend="indent"><lb/>Now the bile is ſo copious a ſubject, and affords ſo <lb/>many
+          experiments to enlarge upon, that I could write <lb/>a very large volume on the
+          principles, nature, and <w part="I">vir-</w><lb/><w part="F">tues</w> of the bile alone,
+          without exhauſting the ſubject: <lb/>and we find by experience, that all people of a hot,
+          <lb/>choleric, dry conſtitution, are inordinately ſubject to be <lb/>hot, furious, and
+          paſſionate, in proportion as they <w part="I">gene-</w><lb/><w part="F">rate</w> a greater
+          or leſſer quantity of bile: however, I will <lb/>not ſay, that any one of the ſecreted
+          liquors or <w part="I">recre-</w><lb/><w part="F">ments</w> are the ſole cauſe of life and
+          health; yet this I <lb/>will aver, and am able to demonſtrate, that neither <lb/>health
+          nor life can long ſubſiſt, where the recrements <lb/>of the ſaliva and bile are for any
+          conſiderable time <w part="I">ob-</w><lb/><w part="F">ſtructed</w>: and it is the
+          obſervation of all naturaliſts, that <lb/>the bile greatly differs in its own nature; for
+          in the <pb xml:id="page_19" n="20"/><lb/>larger animals it is leſs acid and ſharp, than in
+          thoſe <lb/>that are little; in beaſts than in birds, and in birds than <lb/>in fiſhes, and
+          in fiſhes, than the various tribes of inſects: <lb/>however, in man we diſcover the moſt
+          tinging bitter <lb/>bile, that is in any animal whatſoever; for it is ſo <w part="I"
+            >in-</w><lb/><w part="F">tenſely</w> bitter in this animal, that one drop will <w
+            part="I">com-</w><lb/><w part="F">municate</w> a bitteriſh twang to two ounces of water;
+          and <lb/>the ſame quantity will tinge half a pint of the ſame fluid <lb/>with a fine,
+          beautiful, paliſh green. </p>
+        <p rend="indent"><lb/>But to be a little more explicit, and particular upon <lb/>this
+          ſubject: as it is a point of ſuch importance to the <lb/>health and lives of animals, I
+          lay it down as a principle, <lb/>not to be conteſted, that life itſelf depends upon a <w
+            part="I">regu-</w><lb/><w part="F">lar</w> and uninterrupted circulation of the blood
+          and fluids<lb/> through the ſeveral organs of the animal-œconomy: this <lb/>conſtant and
+          equal motion of the blood is kept up by the <lb/>circulation of the bile, that every where
+          deſtroys the <lb/>tenacious, thick, viſcid particles of phlegm, that <w part="I"
+            >ren-</w><lb/><w part="F">ders</w> the blood roapy, ſtagnant, and apt to furr up the
+          <lb/>minuteſt arteries. </p>
+        <p rend="indent"><lb/>This bilious humour, from its inciding, penetrant, <lb/>and diſſolving
+          qualities, not only aſſiſts the circulation, <lb/>but alſo is greatly concerned in
+          promoting the ſeparation <lb/>of the chile from the fæces, or matter of our ſtools,
+          <lb/>aſſiſts its paſſage into the lacteals, and then cuts, <w part="I">di-</w><lb/><w
+            part="F">vides</w>, and corrects the thick viſcid ſlime, that often <lb/>adheres to the
+          coats of the ſtomach and inteſtines: <lb/>blocks up their ſecretions, and is a frequent
+          cauſe of <lb/>very ſevere cholic pains. </p>
+        <p rend="indent"><lb/>But amongſt all the ſalts of the bile, which are both <lb/>volatile
+          and fixed, there is a peculiar eſſential ſalt, <w part="I">en-</w><lb/><w part="F"
+            >dued</w> with a very ſweet property; theſe eſſential, <w part="I">ſacha-</w><lb/><w
+            part="F">rine</w> ſalts, more readily join with the chyle in the <w part="I"
+            >inteſ-</w><lb/><w part="F">tines</w> than any other; and this is that ſalt, that gives
+          to <lb/>the chyle both its ſweetneſs and taſte, and that <w part="I">white-</w><lb/><w
+            part="F">ness</w> it obtains after it has paſſed the venæ lacteæ primi <lb/>geneſis:
+          this ſacharine ſalt alſo gives to the urine of <lb/>thoſe that labour under the diabetes,
+          that ſweet taſte <lb/>we often diſcover in thoſe that, for any conſiderable <lb/>time,
+          have been ſubject to this diſeaſe. </p>
+        <p rend="indent"><lb/>If we proceed farther in our enquiries, we ſhall <w part="I"
+            >diſ-</w><lb/><w part="F">cover</w> by experiments, that the bile of animals abſterges
+          <lb/>like ſoap, and renders oils miſcible with water: as to <pb xml:id="page_20" n="21"
+          /><lb/>its virtues, it penetrates, attenuates and reſolves all <w part="I">ob-</w><lb/><w
+            part="F">ſtructions</w> in every part of the body, and affects roſins, <lb/>gums, and
+          other tenacious bodies, by a diſſolution of <lb/>their texture; whereby they are brought
+          to mix with <lb/>any fluid they are applied to: this bile or gall is neither
+          <lb/>alcalious or acid, but ſeems a combination of various <lb/>ſalts, oils, and ſulphurs,
+          diluted in a pretty large <w part="I">quan-</w><lb/><w part="F">tity</w> of phlegm; and
+          there is no queſtion to be made, <lb/>but that the principal uſe of the bile is to
+          ſeperate <w part="I">at-</w><lb/><w part="F">tenuate</w>, and ſheath the aſperities of the
+          chyle by its <lb/>oils and ſulphurs; to blunt the acids by its oleous <lb/>corpuſcles, and
+          to aſſiſt the circulation of the blood in <lb/>the veins and arteries, by its ſtimulating
+          powers: It <lb/>alſo proves a ſtimulus to the inteſtines, and thereby <lb/>facilitates the
+          deſcent of our excrements, and without <lb/>which we ſhould be perpetually coſtive and
+          ſeldom go <lb/>to ſtool. </p>
+        <p rend="indent"><lb/>As the bile is the hotteſt and ſharpeſt of all other <w part="I"
+            >hu-</w><lb/><w part="F">mours</w> in the body; ſo in its circulation, it every where
+          <lb/>irritates the fibres of the veins, nerves, and arteries; <lb/>and thereby keeps up
+          the circulation of the blood, and <lb/>frees the glands from obſtructions; ſo that without
+          the circulation of the bile, and conſtant ſecretion of this <lb/>bilious humour, the
+          circulation of the blood would be <lb/>languid, the ſecretion of the ſeveral humours ſtand
+          ſtill, <lb/>and life itſelf be extinct; for there is no other power, <lb/>that we know of
+          in nature, capable of keeping up the <lb/>blood's motion, ſave the bile: and therefore, in
+          the <lb/>blood, theſe bilious ſalts are ſet at ſuch a diſtance from <lb/>each other, as
+          only to irritate the veins and arteries to <lb/>a degree, as may keep the blood in motion,
+          and help <lb/>forward the ſecretion of the ſeveral reſpective humours <lb/>to their
+          deſtined ends and purpoſes of life; but as the <lb/>ſtomach and inteſtines are compoſed of
+          more ſolid coats, <lb/>ſo, to make any ſuitable impreſſions upon their viſcid, <lb/>ſlimy
+          ſecretions, there was a neceſſity for a more active, <lb/>volatile, inciding humour: and
+          therefore, as the bile <lb/>came to be ſecreted into the vena porta of the liver, it
+          <lb/>was deprived of its fluidity, that a greater quantity of <lb/>its various ſalts might
+          be concentrated into a ſmaller <lb/>portion of phlegm; for by this means its ſalts are ſo
+          <lb/>nearly collected, that they form a thick viſcid, ſaline, <lb/>bitter humour, whoſe
+          office is to ſtimulate the inteſtines, <pb xml:id="page_21" n="22"/><lb/>keep up their
+          periſtaltic motions, and help forwards the <lb/>deſcent of the excrements, and without
+          which they <lb/>would be apt to ſtagnate in the inteſtines, and create <lb/>obſtinate
+          coſtiveneſs and ſevere cholic pains; ſo that the <lb/>bilious ſalts ſerve ſeveral ends and
+          purpoſes in life; for <lb/>as they exiſt in the blood, ſo they aſſiſt the circulation;
+          <lb/>as they are ſecreted in the liver, and flow into the <w part="I">in-</w><lb/><w
+            part="F">teſtines</w>, the more fine parts help forwards the ſeparation <lb/>of the
+          chyle, and its ſecretion into the lacteals, while <lb/>a groſſer portion of the bilious
+          ſalts mix with the <w part="I">ex-</w><lb/><w part="F">crements</w>, and facilitate their
+          deſcent; and without <lb/>which the animal itſelf neither could well ſubſiſt under <lb/>a
+          ſound ſtate of health, or continue in life for any <w part="I">con-</w><lb/><w part="F"
+            >ſiderable</w> time. </p>
+        <p rend="indent"><lb/>After ſo much ſaid concerning our enquiries into the <lb/>nature,
+          principles, and ſecretion of the bile, I ſhall only <lb/>obſerve on the fluid ſecreted
+          from the pancreas, that it <lb/>is a fine, thin, lymphatic liquor, whoſe office, when
+          <lb/>mixed and incorporated with the ſaliva, ſtomachic <lb/>juices, and bile, ſerves to
+          dilute and attenuate the <lb/>chyle, and facilitate its motion into the lacteal veſſels;
+          <lb/>which leads me to treat of the eſſicacy of the ſaliva, <lb/>when duly mixed, properly
+          incorporated, and perfectly <lb/>united with the foregoing liquors, whereby they arrive
+          <lb/>at the higheſt perfection their ſeveral natures are capable <lb/>of; and of whoſe
+          effects and conſequences, in divers <lb/>diſeaſes, we ſhall treat in the following
+          ſection. </p>
+      </div>
+      <div n="7" type="section">
+        <head rend="italic align-center"><lb/><hi rend="roman">SECT. VII.</hi>
+          <lb/>Of the operation of the Faſting Saliva, when inwardly <lb/>taken, and mixed with the
+          pancreatic and bilious <lb/>juices, in the ſcurvy, gravel, rheumatiſm, and <w part="I"
+            >di-</w><lb/><w part="F">vers</w> other diſeaſes incident to obſtruct the blood, and
+          <lb/>vitiate the ſecretions in the internal habit. </head>
+        <p rend="indent"><lb/><hi rend="dc(2)">W</hi>E have now ſeen in the fourth ſection what this
+          <lb/>faſting ſpittle will do alone, and when outwardly <lb/>applied in divers external
+          diſeaſes: I come now to <lb/>ſpeak of its effects and virtues, after it is mixed with
+          <lb/>divers ſecreted liquors, in its paſſage from the mouth, <lb/>till it becomes a
+          ſecreted liquor into the mouth again. <lb/>If the faſting ſpittle, after the bread has
+          been well <pb xml:id="page_22" n="23"/><lb/>moiſtened with it in the mouth, is charged
+          into the <lb/>ſtomach, it then, in its paſſage, meets with the <w part="I"
+            >lubri-</w><lb/><w part="F">cating</w> lymph of the gula, which, from its ſpirituous,
+          <lb/>active qualities, very much improves the faſting ſaliva: <lb/>and after its deſcent
+          into the ſtomach, there the <w part="I">ſto-</w><lb/><w part="F">machic</w> juices are
+          continually ſecreting from their <w part="I">reſpec-</w><lb/><w part="F">tive</w> glands;
+          continually mixing with the ingeſted ſpittle <lb/>conveyed into the ſtomach with the meat
+          we eat, till <lb/>digeſted into a thin, light, volatile ſpume or froth, they, <lb/>from
+          their lightneſs and tenuity of parts, flow over the <lb/>pylorus into the inteſtines,
+          where all theſe various fluids <lb/>of the ſaliva, of the ſecreted liquor iſſuing from the
+          <lb/>glands of the œſophagus and ſtomach, are united in the <lb/>duodenum, and intimately
+          combined with the bilious <lb/>and pancreatic juices, diſcharged from their reſpective
+          <lb/>pipes, into one uniform maſs or ſoap. </p>
+        <p rend="indent"><lb/>And having brought the faſting ſaliva through a courſe <lb/>of
+          digeſtions to mix with the bile, and pancreatic <lb/>juice in the inteſtines; it appears
+          to me, from the very <lb/>nature and properties of the bilious humours thus
+          new-<lb/>modelled, from the acceſs of the various ſecretions, <lb/>that we have generally
+          confined the gall and pancreatic <lb/>juices to anſwer very imperfect purpoſes of life; as
+          if <lb/>they were ſecreted for little elſe, but by their bitter <lb/>and acid ſalts, to
+          diſſolve our aliments into the ſtomach <lb/>and inteſtines, to facilitate the deſcent of
+          the foœces, <lb/>and give the depurated chyle a paſſage into the lacteals. <lb/>But upon a
+          more attentive view of things, we ſhall <w part="I">per-</w><lb/><w part="F">ceive</w>
+          that the bilious humour ſerves very great and <w part="I">im-</w><lb/><w part="F"
+            >portant</w> ends of life in the animal-œconomy; for were <lb/>this liquid, volatile,
+          animal ſoap, of a very active, <lb/>cleanſing, penetrant and abſterſive nature, by the <w
+            part="I">large-</w><lb/><w part="F">neſs</w> and union of ſalts of various natures, as
+          of bitter, <lb/>ſweet, ſalt, acrid, alcalious, and muriatic, all <w part="I"
+            >com-</w><lb/><w part="F">bined</w> into one ſubſtantial fluid; it will neceſſarily <w
+            part="I">hap-</w><lb/><w part="F">pen</w>, that ſuch a uniform liquor will be able to
+          diſſolve <lb/>all manner of viſcous humours, and ſabulous <w part="I">concre-</w><lb/><w
+            part="F">tions</w>, that furr up the mouths of the lacteals, obſtruct <lb/>the paſſage
+          of the chyle, and diſpoſe all corrupt <w part="I">hu-</w><lb/><w part="F">mours</w> to
+          diſcharge by ſtool, urine, and inſenſible <w part="I">per-</w><lb/><w part="F"
+            >ſpiration</w>. </p>
+        <p rend="indent"><lb/>This fluid the ſaliva, by the improvements it receives, <lb/>as above
+          deſcribed, being admitted with the chyle into <pb xml:id="page_23" n="24"/><lb/>the
+          lacteals, attenuates, diſſolves, and liquiſies any furr <lb/>or coaculum, that may ſtick
+          or adhere to the coats of <lb/>the lacteals, or obſtruct in the veſſels of the
+          receptaculum <lb/>chili, or ductus thoracicus: for the fine, thin, <w part="I"
+            >depu-</w><lb/><w part="F">rated</w> chyle contains globles of a larger ſize, than any
+          <lb/>to be found in the blood itſelf: and therefore are apter <lb/>to ſtagnate in theſe
+          fine, white tubes, called venæ lacteæ <lb/>primi &amp; ſecundi generis, than in the
+          veſſels of any other <lb/>parts of the body. </p>
+        <p rend="indent"><lb/>Therefore if it enters the lacteals, and gets into the <lb/>blood, it
+          purifies that fluid, diſſolves all preternatural <lb/>lentours, ſcours the glands, and
+          cleanſes their <w part="I">emuncto-</w><lb/><w part="F">ries</w>, whereby the veins,
+          nerves, and arteries, are cleared <lb/>of all embarraſſing obſtructions, and the courſe of
+          nature <lb/>carried on with the greateſt harmony and accord. </p>
+        <p rend="indent"><lb/>In the kidnies, ureters, and bladder, it is known to <lb/>encreaſe the
+          ſeparation and ſecretion of the fluids in the <lb/>urinary paſſages; ſo that a man may
+          obſerve himſelf to <lb/>diſcharge more urine after he has eat his cruſt in a <w part="I"
+            >morn-</w><lb/><w part="F">ing</w> faſting, than at any other time of the day: again,
+          <lb/>this noble fluid, by its oleous and balſamic qualities, <lb/>abates pain, and
+          aſſwages the inflammation of the parts, <lb/>as is very uſual where either much gravel or
+          large ſtones <lb/>have frequently paſſed theſe ſeveral organs: as this fine,
+          <lb/>balſamic, liquid, compound ſoap is endued with ſoft, <lb/>oleous and balſamic
+          properties, whereby it may ſheath <lb/>the aſperities of the acrimonious ſalts, and
+          attemperate <lb/>all ſharp humours; ſo it abounds alſo with ſharp, acid, <lb/>inciding
+          ſalts, both volatile, eſſential, and fixed; <w part="I">where-</w><lb/><w part="F">by</w>
+          it attenuates, breaks, and diſſolves, all ſabulous <w part="I">con-</w><lb/><w part="F"
+            >cretions</w>, rectifies the intemperature of the blood, that <lb/>may intercept the
+          motion of the fluids in every part, <lb/>and carries its virtues to the extremeſt organs
+          of the body: <lb/>nor does it only contribute to deſtroy the moſt ſtubborn <lb/>diſeaſes,
+          but alſo mightily ſerves to preſerve the body <lb/>in health; for where the circulation of
+          the blood, the <lb/>ſecretion of the juices, and diſcharge of the <w part="I"
+            >excrementi-</w><lb/><w part="F">tious</w> fœces and fluids are conſtant, regular, and
+          uniform:<lb/>there the health is in the higheſt perfection a man can <lb/>poſſibly arrive
+          at, in this imperfect ſtate of nature. </p>
+      </div>
+      <div n="8" type="section">
+        <pb xml:id="page_24" n="25"/>
+        <head rend="italic align-center"><lb/><hi rend="roman">SECT. VIII.</hi>
+          <lb/>Of the force and efficacy of faſting and abſtinence, <w part="I">un-</w><lb/><w
+            part="F">der</w> the operation of this fine, penetrating, abſterſive, animal ſoap. </head>
+        <p rend="indent"><lb/><hi rend="dc(2)">I</hi> Do not preſume here to treat theſe ſubjects of
+          ſaſting <lb/>and abſtinence as a divine, who intends, by his <lb/>advice and counſel, to
+          mortify the body or ſoul, and <lb/>better the conſcience; but as a phyſician, who is <w
+            part="I">deſi-</w><lb/><w part="F">rous</w> to preſerve the ſtrength, health, and
+          motions of <lb/>the body of his patient, ſteady, uniform, and regular. </p>
+        <p rend="indent"><lb/>Every one muſt be ſenſible, what great things have <lb/>been promiſed
+          from quickſilver, tar-water, Mrs. <hi rend="italic">Stevens</hi>'s medicines, and divers
+          other quack pills, powders, and <lb/>elixirs, in the gravel, gout, dropſy, and various
+          other <lb/>diſeaſes: but I declare, that if the advice I offer for the <lb/>benefit of
+          mankind, be but carefully obſerved, and <w part="I">punc-</w><lb/><w part="F">tually</w>
+          put in practice, that many will not only receive <lb/>great relief, but an entire
+          exemption, from the moſt <lb/>obſtinate and ſtubborn diſeaſes. </p>
+        <p rend="indent"><lb/>For we ought ever to conſider, that nature is always <lb/>on the ſide
+          of health, and continually ſtriving to reſtore <lb/>the conſtitution, whenever borne down
+          by the force of <lb/>a diſeaſe; ſo that ſeldom can any-obſtructions happen <lb/>to the
+          body, but that repletion or gorging more than <lb/>nature can digeſt, is the cauſe; and
+          which, when often <lb/>repeated, brings on indigeſtions in the ſtomach, <w part="I"
+            >windi-</w><lb/><w part="F">neſs</w> or flatulencies in the bowels and inteſtines; a <w
+            part="I">cor-</w><lb/><w part="F">ruption</w> of humours in the blood, and various <w
+            part="I">obſtruc-</w><lb/><w part="F">tions</w> in different organs of the habit: theſe
+          are the <lb/>parents of moſt diſeaſes, that are incident to affect us in <lb/>life; for
+          what is the ſcurvy, but a thick, viſcid, ropy <lb/>blood, unable to paſs the fineſt
+          ſtrainers of the ſeveral <lb/>organs; and how comes it by theſe properties, but by
+          <lb/>the indigeſtions of our aliments? The ſame we may <w part="I">ob-</w><lb/><w part="F"
+            >ſerve</w> of cholic pains, the aſthma, and dropſy; their <lb/>original cauſe
+          undoubtedly ariſes from indigeſtions; nor <lb/>is the generation of gravel and ſtone leſs
+          owing to the <lb/>ſame cauſes; for when our foods eſcape the force of the <lb/>ſtomach,
+          not thoroughly digeſted, they never after <lb/>can receive the aſſimilating power from any
+          after <w part="I">impreſ-</w><lb/><w part="F">ſions</w> the ſubſequent organs can lay upon
+          them, but <w part="I">be-</w><pb xml:id="page_25" n="26"/><lb/><w part="F">come</w> the
+          cauſe of various obſtructions in the ſmall <w part="I">or-</w><lb/><w part="F">gans</w> of
+          the body: hence ariſe wind in the ſtomach, <lb/>pains in the inteſtines, rheumatiſms in
+          the limbs, and <lb/>ſchirrous tumours in the liver, ſpleen, and divers other <lb/>parts. </p>
+        <p rend="indent"><lb/>Now, under theſe circumſtances, to bring nature <lb/>home to herſelf,
+          the firſt thing muſt be to preſcribe <w part="I">ab-</w><lb/><w part="F">ſtinence</w> from
+          all fleſh meats, for the compaſs of a week, <lb/>if the diſeaſe be recent; three weeks, or
+          a month, if the <lb/>ſame has been of any long continuance: this will give <lb/>nature
+          time to recover herſelf; what I mean by nature <lb/>recovering herſelf is that there are
+          certain reſtitutive <lb/>powers in every organ and fibre of the body, whereby <lb/>nature,
+          when any organ is obſtructed or oppreſſed, <lb/>ſtrives to recover its former tone. And
+          this ſelf-reſtoring <lb/>power is partly the effects of the fluids, and partly <lb/>lodged
+          in the organs themſelves, and the mechaniſm <lb/>that conſtitutes their powers of force
+          and motion. </p>
+        <p rend="indent"><lb/>Now in any great preſſure, from a load of foods <lb/>charged into the
+          ſtomach, there is nothing that gives ſo <lb/>ſure a relief, as faſting and abſtinence; for
+          theſe <w part="I">vacati-</w><lb/><w part="F">ons</w> from aliments, enables the fibres of
+          the ſtomach, <lb/>vicera, and other organs, to reſolve the obſtructions, <lb/>to break the
+          coneſions of the blood, and enables nature <lb/>to root out the moſt ſtubborn diſeaſes, by
+          flinging their <lb/>cauſes off by either ſtool, urine, or inſenſible <w part="I"
+            >preſpira-</w><lb/><w part="F">tion</w>, or ſometimes a profuſe ſweat: nor can there be
+          <lb/>a more noble, ſafe, and efficacious remedy to rid us <lb/>of either ſtone, gravel, or
+          gout, than what I now offer <lb/>for the relief of mankind; that is abſtinence, faſting,
+          <lb/>and a Cruſt of Bread eat early in a morning faſting; or <lb/>rather the faſting
+          ſaliva charged into the ſtomach, by <lb/>the aſſiſtance of a piece of bread: and in theſe
+          caſes, it <lb/>is neceſſary that we take nothing of aliments for two <lb/>or three hours
+          after. </p>
+        <p rend="indent"><lb/>Give me leave here to recapitulate, as briefly as I can, <lb/>the
+          virtues of one of the greateſt diſſolvent medicines in <lb/>nature; and at the ſame time
+          one of the ſafeſt, that ever <lb/>was communicated to mankind; a remedy that, if
+          <lb/>ſteadily purſued, will cure both the gout, the gravel, <lb/>the ſtone, the aſthma,
+          and dropſy. Would you know <lb/>this invaluable ſecret,—It is abſtinence.—I ſay <w
+            part="I">ab-</w><lb/><w part="F">ſtinence</w>; the moſt effectual cure in all diſeaſes:
+          but by <pb xml:id="page_26" n="27"/><lb/>the word abſtinence, I do not mean a mere
+          negative <lb/>remedy, as if faſting was to do all the work, by <w part="I"
+            >ſuffer-</w><lb/><w part="F">ing</w> nature, at her leiſure, to attenuate the fluids,
+          reſolve <lb/>the obſtructions, and digeſt off the obſtructing matter: <lb/>nothing like
+          it; for we have given you the form of this <lb/>medicine above, told you the ingredients,
+          and whereof <lb/>this excellent remedy, ſo aſſiſting to nature, is <w part="I"
+            >com-</w><lb/><w part="F">poſed</w>; and muſt leave yourſelf to judge of its efficacy
+          <lb/>and operation. </p>
+        <p rend="indent"><lb/>However to make ſome pertinent reflections upon this <lb/>ſubject, I
+          beg leave to obſerve, that after the whole <lb/>quantity of chyle is digeſted into the
+          ſtomach, and <lb/>conveyed into the inteſtines; thereupon the faſting ſaliva, <lb/>the
+          lubricating lymph of the gula, the fluids ſecreted <lb/>from the fine velvet coat of the
+          ſtomach, are all <w part="I">continu-</w><lb/><w part="F">ally</w> ſeparating from their
+          reſpective glands; continually <lb/>digeſting in the ſtomach, and continually flowing over
+          <lb/>the pylorus into the duodenum; there they are mixed, <lb/>united, and intimately
+          combined with the pancreatic and <lb/>bilious juices, and which, by their conflicts,
+          tumults, <lb/>and conquaſations, produce a moſt fine, thin, attenuated <lb/>fluid: this
+          fluid being admitted into the lacteals, <w part="I">re-</w><lb/><w part="F">ſolves</w> the
+          obſtructions of the meſentery glands, every <lb/>where ſeated near the lacteals;
+          attenuates, diſſolves, and <lb/>liquifies any furr or coagulum, that may adhere, or ſtick
+          <lb/>to the ſides of the lacteals, and prevent its entrance <lb/>into the receptaculum
+          chili, or ductus thoracicus. In <lb/>a word, this fine, volatile, ſaline fluid, from the
+          various <lb/>ſecretions mixing with it, becomes a univerſal diſſolvent; <lb/>and is
+          intended and ſeparated by nature, to break the <lb/>coheſions of the obſtruent matter,
+          that may cleave to <lb/>the coats of the veſſels in every part of the body: and <lb/>from
+          this natural obſervation, we may learn the great <lb/>benefit of frequent faſting, not
+          only to preſerve the <lb/>body under a ſound ſtate of health, but alſo how <lb/>mightily
+          ſerviceable it is in relieving divers diſeaſes; and <lb/>how efficacious it is in the
+          gravel, ſtone, rheumatiſm, <lb/>and divers other diſeaſes, that have obſtructions for
+          their <lb/>parent. </p>
+        <p rend="indent"><lb/>You ſee now, that, after all, we diſcover this to be <lb/>no imaginary
+          medicine, formed upon the negative <w part="I">prin-</w><lb/><w part="F">ciples</w> of
+          faſting and abſtinence, as if they were to do <lb/>all the work themſelves, but on the
+          ſolid grounds of <pb xml:id="page_27" n="28"/><lb/>the faſting ſaliva, combined and united
+          with the liquors <lb/>ſecreted from almoſt every organ of the body, whereby <lb/>it is
+          impowered to diſſolve all unfriendly coheſions in <lb/>the blood and animal juices; force
+          open, break down, <lb/>and unbind thoſe ſtubborn obſtructions, that impede <lb/>the motion
+          of the fluids, in their firſt paſſages; ſo that <lb/>there is ſcarce a nerve, vein,
+          artery, or gland, in the <lb/>whole animal œconomy, but what muſt neceſſarily <w part="I"
+            >re-</w><lb/><w part="F">ceive</w> ſome benefit, from the daily operation of this fine,
+          <lb/>liquid animal ſoap. </p>
+      </div>
+      <div n="9" type="section">
+        <head rend="italic align-center"><lb/><hi rend="roman">SECT. IX.</hi>
+          <lb/>Of the air, diet, exerciſe, and other requiſitorial rules, <lb/>neceſſary to be
+          obſerved, in order to facilitate the <lb/>operation of this liquid ſoap, I eſteem a moſt
+          <lb/>invaluable remedy. </head>
+        <p rend="indent"><lb/><hi rend="dc(2)">T</hi>HUS we have diſcovered the operation of this
+          <lb/>noble and moſt ſovereign remedy in the ſcurvy, <lb/>gravel, rheumatiſm, and divers
+          other diſeaſes; which <lb/>leads me to ſpeak a few things of the air, diet and <w part="I"
+            >ex-</w><lb/><w part="F">erciſe</w>, neceſſary to be obſerved, in order to facilitate
+          <lb/>the relief it gives in the moſt ſtubborn diſeaſes. </p>
+        <p rend="indent"><lb/>But before we can expect to accompliſh all theſe fine <lb/>effects,
+          enumerated in the foregoing pages, I hold it <lb/>highly neceſſary that a proper air, a
+          regular diet, and a <lb/>well adjuſted exerciſe, ſhould be enjoined the patient: as
+          <lb/>to the air, which is the firſt thing we ought to <w part="I">con-</w><lb/><w part="F"
+            >ſult</w> about, I judge it highly neceſſary, that the patient <lb/>ſhould ſojourn in a
+          ſoft, free, open air, on a ground <lb/>rather riſing; in a place free from woods, ſens, or
+          high <lb/>mountains, that may intercept the pure, balſamic <w part="I">pro-</w><lb/><w
+            part="F">perties</w> of this healthful, enlivening fluid, the air. By <lb/>all means, if
+          he is ſubject to either the gravel, aſthma <lb/>or rheumatiſm, let him avoid living in
+          great cities, <lb/>which are pernicious to thoſe incident to the foregoing <lb/>diſeaſes;
+          and therefore my advice is, that he take the <lb/>medicine in the country, if poſſible, as
+          the goodneſs of <lb/>the air will aſſiſt its operation: but if his buſineſs calls <lb/>him
+          to the city, and he cannot poſſibly ſtay in the <w part="I">coun-</w><lb/><w part="F"
+            >try</w>, he muſt not, by any means intermit the medicine, <lb/>but purſue its uſe a
+          month or ſix weeks in the beſt <w part="I">man-</w><pb xml:id="page_28" n="29"/><lb/><w
+            part="F">ner</w> he can, without intermiſſion; from which, in moſt <lb/>diſeaſes, that
+          are lodged within the compaſs of the <w part="I">cir-</w><lb/><w part="F">culation</w>, he
+          will receive conſiderable benefit. </p>
+        <p rend="indent"><lb/>Having done with the air, the next thing to be <w part="I"
+            >ob-</w><lb/><w part="F">ſerved</w>, is the patient's diet: and I chuſe to begin with
+          <lb/>his diet in the morning, becauſe there are ſeveral nice <lb/>circumſtances, neceſſary
+          to be adjuſted, in order to <lb/>facilitate the operation of this ſovereign remedy, we
+          <lb/>call the faſting ſpittle. And therefore I adviſe the patient <lb/>to eat his
+          breakfaſt about ten of the clock in the morning: <lb/>and, under a fit of the gravel, I
+          would adviſe him to <lb/>drink three or four diſhes of tea, made either of mallow
+          <lb/>flowers, or, if the ſeaſon does not permit them to be <lb/>had, let him uſe the
+          mallow leaves, ſweetened with <lb/>honey, with a ſlice or two of bread and butter, as the
+          <lb/>beſt breakfaſt he can have. </p>
+        <p rend="indent"><lb/>An hour or two after breakfaſt, let him exerciſe; and <lb/>of all
+          exerciſes, I prefer that on horſeback; but if the <lb/>weather happen to be hazy, and not
+          promiſing, he may <lb/>then, for two or three hours, take the air in a chariot, <lb/>cloſe
+          chaiſe, or coach. When I ſpeak of exerciſe, I <lb/>always ſuppoſe the patient is entirely
+          free from any pains <lb/>of the gravel or ſtone. </p>
+        <p rend="indent"><lb/>After his return, if he finds himſelf refreſhed, he may <lb/>take a
+          walk in the garden, or about the houſe, or buſy <lb/>himſelf for the remainder of the time
+          between that and <lb/>dinner, in his ſtudy: but above all things, let him take <lb/>care
+          he does not habituate himſelf to drink wine, or <lb/>any thing that is ſtrong, in the
+          morning, before dinner; <lb/>for many, by that means, have deſtroyed their appetite,
+          <lb/>and for ever after ſpoiled a good digeſtion; ſo that <lb/>whatever they have eat at
+          noon, has turned to wind <lb/>and crudities, and ſubjected them to ſevere cholic pains. </p>
+        <p rend="indent"><lb/>When he ſits down to his great meal, or dinner, I <lb/>permit him to
+          eat of every thing, ſo it be not too ſalt; <lb/>for ſalts, of all kinds, are undoubtedly
+          ingredients of <lb/>both the gravel, ſtone, and rheumatiſm; and theſe <w part="I"
+            >in-</w><lb/><w part="F">gredients</w> furniſh out the cauſe of frequent fits in theſe
+          <lb/>diſeaſes: and therefore the young, of all animals, are <lb/>to be choſen, as they
+          conſiſt of the lighteſt ſalts, and <lb/>ſuch as are eaſily diſſipable by urine, ſweat, and
+            <w part="I">perſpi-</w><lb/><w part="F">ration</w>; and ſeldom concrete, as they are not
+          endued <pb xml:id="page_29" n="30"/><lb/>with that degree of attraction as are the ſalts
+          of older <lb/>animals. </p>
+        <p rend="indent"><lb/>Between dinner and ſupper, I would not adviſe him <lb/>to touch any
+          thing, unleſs a diſh or two of tea or coffee, <lb/>with a ſlice of bread and butter; for
+          the great point is <lb/>ſo to order the air, diet, and exerciſe, as to be able to
+          <lb/>bring all the motions of the animal organs to a due <w part="I">tem-</w><lb/><w
+            part="F">perature</w>, and then we ſhall greatly promote the <w part="I"
+            >opera-</w><lb/><w part="F">tion</w> of this ſalutary remedy, and render its virtues
+          <lb/>highly efficacious. </p>
+        <p rend="indent"><lb/>His ſupper I would adviſe him to take about ſix or <lb/>ſeven in the
+          evening, and by no means later; and as <lb/>milk is phlegmatic, ſo, if he pleaſes, he may
+          take half <lb/>a pint, or more, of white wine whey, with a ſea biſcuit; <lb/>or, if it
+          pleaſes him better, he may take a ſlice of new <lb/>cheeſe, and drink a few glaſſes of old
+          port, or a pint <lb/>of fine, ſoft ale, with about ſix ounces of the cruſt of <lb/>a
+          French role or minchet. </p>
+        <p rend="indent"><lb/>After theſe things are done, I adviſe him not to eat <lb/>any thing
+          till about ſix, ſeven, or eight of the clock the <lb/>next morning, which is the time of
+          his taking the <lb/>grand medicine: this conſiſts of half an ounce or ſix <lb/>drachms of
+          the faſting ſaliva, preſſed or ſqueeſed out <lb/>from the ſalival glands into the mouth,
+          by the preſſure <lb/>of the jaws and teeth, in eating an ounce or ten drachms <lb/>of the
+          cruſt or heel of a loaf made of the pureſt wheat; <lb/>for the cruſt occaſions ſo much the
+          greater preſſure from <lb/>the teeth, whoſe greater force occaſions a greater <w part="I"
+            >diſ-</w><lb/><w part="F">charge</w> of this ſalival fluid, and which will anſwer all
+          <lb/>the purpoſes we declared in the preceding ſections. </p>
+        <p rend="indent"><lb/>And, though of late years, we have heard of mighty <lb/>feats done by
+          crude mercury, tar water, and other <lb/>quack medicines, ſold up and down the town, <w
+            part="I">ſupport-</w><lb/><w part="F">ed</w> by royal patents, and dignified titles: yet
+          I queſtion, <lb/>whether in the gravel, ſtone, and rheumatiſm, there <lb/>ever yet was
+          diſcovered, or at this time is diſcovered, <lb/>or any remedy, in future times, ſhall be
+          diſcovered, that <lb/>in its virtues and efficacy, comes up to this invaluable
+          <lb/>medicine, I now offer for the benefit of mankind: and <lb/>the patient may aſſure
+          himſelf, that if theſe rules and <lb/>cautions and ſome others, that does not properly
+          come <lb/>within the narrow compaſs, I here have ſet myſelf, are <pb xml:id="page_30"
+            n="31"/><lb/>but rightly purſued, they will not only mightily <w part="I"
+            >contri-</w><lb/><w part="F">bute</w> to preſerve him in health, but alſo be extremely
+          <lb/>efficacious, to reſtore this invaluable bleſſing, whenever <lb/>overpowered by the
+          force of a diſeaſe: and in all theſe <lb/>the patient will find little occaſion for taking
+          of <w part="I">medi-</w><lb/><w part="F">cines</w>, provided he is obſerving of theſe
+          rules, and <w part="I">care-</w><lb/><w part="F">ful</w>, every day, to adjuſt his air,
+          diet, and exerciſe. </p>
+        <p rend="indent"><lb/>Now, though I will not pretend, like our modern <lb/>quacks, to cry up
+          this medicine, as a univerſal catholicon, <lb/>and promiſe the world, that it will never
+          fail to cure all <lb/>diſeaſes it is applied to; yet I will boldly venture to <lb/>declare
+          a ſolemn truth, that no quack can, with juſtice, <lb/>affirm in favour of his medicine:
+          that it never was known <lb/>to do any harm to man, woman, or child, <w part="I"
+            >notwith-</w><lb/><w part="F">ſtanding</w> the many thouſands of people, that have <w
+            part="I">ex-</w><lb/><w part="F">perimentally</w> made uſe of it. </p>
+        <trailer rend="italic align-center"><lb/>FINIS. </trailer>
+      </div>
+
+    </body>
+
+    <back>
+      <div>
+        <head rend="align-center"><lb/>Explanation of the abſtruſe Terms uſed in <lb/>the foregoing
+          Treatiſe. </head>
+        <list>
+          <lb/>
+          <item><hi rend="italic"><hi rend="dc(2)">R</hi>ECREMENT,</hi> a ſuperfluous matter in the
+            blood <lb/>or body. </item>
+          <lb/>
+          <item><hi rend="italic">Secretion,</hi> the ſeparating one fluid from another. </item>
+          <lb/>
+          <item><hi rend="italic">Alimentary,</hi> nouriſhing. </item>
+          <lb/>
+          <item><hi rend="italic">Fluid,</hi> a ready flowing. </item>
+          <lb/>
+          <item><hi rend="italic">Maceration,</hi> the digeſtion of certain ingredients. </item>
+          <lb/>
+          <item><hi rend="italic">Attenuation,</hi> a thinning any thing. </item>
+          <lb/>
+          <item><hi rend="italic">Liquidation,</hi> making moiſt or clear. </item>
+          <lb/>
+          <item><hi rend="italic">Chyle,</hi> a whitiſh juice into which the food is converted
+            <lb/>by digeſtion. </item>
+          <lb/>
+          <item><hi rend="italic">Fuſion,</hi> a melting or ſolution. </item>
+          <lb/>
+          <item><hi rend="italic">Folliculi,</hi> the gall-bladder. </item>
+          <lb/>
+          <item><hi rend="italic">Excrementitious,</hi> of the nature of excrements. </item>
+          <lb/>
+          <item><hi rend="italic">Excretion,</hi> a putting forth of the excrements. </item>
+          <lb/>
+          <item><hi rend="italic">Saliva,</hi> faſting ſpittle. </item>
+          <lb/>
+          <item><hi rend="italic">Bile,</hi> the gall. </item>
+          <lb/>
+          <item><hi rend="italic">Concrete,</hi> a body made up of different principles. </item>
+          <lb/>
+          <item><hi rend="italic">Urinary,</hi> ſomething belonging to the urine. </item>
+          <pb xml:id="page_31" n="32"/>
+          <item><hi rend="italic">Gula,</hi> the throat. </item>
+          <lb/>
+          <item><hi rend="italic">Complex,</hi> compounded of many parts. </item>
+          <lb/>
+          <item><hi rend="italic">Tube,</hi> a long hollow pipe. </item>
+          <lb/>
+          <item><hi rend="italic">Viſcous,</hi> clammy. </item>
+          <lb/>
+          <item><hi rend="italic">Conglobated,</hi> heaped or gathered round together. </item>
+          <lb/>
+          <item><hi rend="italic">Perforation,</hi> an eroſion or eating of the bones through
+            <lb/>them. </item>
+          <lb/>
+          <item><hi rend="italic">Maſtication,</hi> a breaking of food in one's mouth with <lb/>the
+            teeth. </item>
+          <lb/>
+          <item><hi rend="italic">Oleoſe,</hi> oily. </item>
+          <lb/>
+          <item><hi rend="italic">Penetrant,</hi> ſharp. </item>
+          <lb/>
+          <item><hi rend="italic">Abſterſive,</hi> medicines uſed to clear the skin. </item>
+          <lb/>
+          <item><hi rend="italic">Unctious,</hi> greaſy. </item>
+          <lb/>
+          <item><hi rend="italic">Adheaſive,</hi> a ſticking cloſe together. </item>
+          <lb/>
+          <item><hi rend="italic">Œſophagus,</hi> the gullet. </item>
+          <lb/>
+          <item><hi rend="italic">Pulpous,</hi> full of ſubſtance. </item>
+          <lb/>
+          <item><hi rend="italic">Menſiruum,</hi> a diſſolving liquor. </item>
+          <lb/>
+          <item><hi rend="italic">Glandular,</hi> ſomething compounded of glands. </item>
+          <lb/>
+          <item><hi rend="italic">Coheſion,</hi> a ſticking together. </item>
+          <lb/>
+          <item><hi rend="italic">Stomachic,</hi> good for the ſtomach. </item>
+          <lb/>
+          <item><hi rend="italic">Spumoſe,</hi> full of froth. </item>
+          <lb/>
+          <item><hi rend="italic">Saline,</hi> briniſh. </item>
+          <lb/>
+          <item><hi rend="italic">Lubricating,</hi> ſmooth. </item>
+          <lb/>
+          <item><hi rend="italic">Lymph,</hi> a clear humour. </item>
+          <lb/>
+          <item><hi rend="italic">Duodenum,</hi> the firſt of the thin guts. </item>
+          <lb/>
+          <item><hi rend="italic">Conquaſſation,</hi> a daſhing or breaking to pieces. </item>
+          <lb/>
+          <item><hi rend="italic">Ramification,</hi> a collection of ſmall branches iſſuing out
+            <lb/>of large ones. </item>
+          <lb/>
+          <item><hi rend="italic">Vena porta,</hi> the vein which enters the liver through two
+            <lb/>eminences called <hi rend="italic">portæ,</hi> i. e. gates. </item>
+          <lb/>
+          <item><hi rend="italic">Meſentereck,</hi> belonging to a membranous part ſituate in
+            <lb/>the middle of the belly. </item>
+          <lb/>
+          <item><hi rend="italic">Concave,</hi> hollow on the inſide. </item>
+          <lb/>
+          <item><hi rend="italic">Lobe,</hi> a body turned of a roundiſh ſhape. </item>
+          <lb/>
+          <item><hi rend="italic">Convex,</hi> bending down on every ſide. </item>
+          <lb/>
+          <item><hi rend="italic">Deterſive,</hi> of a cleanſing nature. </item>
+          <lb/>
+          <item><hi rend="italic">Colliquative,</hi> a profuſe ſweating. </item>
+          <lb/>
+          <item><hi rend="italic">Accrimonious,</hi> full of ſharpneſs. </item>
+          <lb/>
+          <item><hi rend="italic">Jejunum,</hi> the ſecond part of the inteſtines. </item>
+          <lb/>
+          <item><hi rend="italic">Inſertion,</hi> a grafting in. </item>
+          <lb/>
+          <item><hi rend="italic">Muriatick,</hi> briny. </item>
+        </list>
+      </div>
+    </back>
+
+  </text>
+</TEI>

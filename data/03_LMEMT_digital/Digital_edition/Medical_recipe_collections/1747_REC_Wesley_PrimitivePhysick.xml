@@ -1,0 +1,3360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LMEMT Corpus - Wesley: Primitive Physick</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>John Wesley</persName>
+            </author>
+            <title type="main">Primitive Physick: or, an easy and natural Method of Curing most
+              Diseases. </title>
+            <edition n="1"/>
+            <idno type="ESTC">T16575</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/T16575"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>London: printed: and sold by Thomas Trye, near Gray's-Inn Gate, Holborn,
+                  MDCCXLVII.</persName>
+              </publisher>
+              <date>1747</date>
+            </imprint>
+            <extent>
+              <measure type="format">12⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="23"/>
+              <measure type="count" commodity="body" unit="page" quantity="119"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">British Library</orgName>
+            <idno type="ECCO">CW107331627</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Recipe collections"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text type="book" rend="roman" xml:lang="eng">
+    <gap reason="sampling" unit="pages" quantity="24"/>
+    <body>
+      <pb n="25"/>
+      <figure>
+        <figDesc>A horizontal double-line, spanning the whole page. </figDesc>
+      </figure>
+      <head rend="align-center space">
+        <lb/>A <lb/><hi rend="size(1.5)">COLLECTION </hi>
+        <lb/>OF <lb/><hi rend="size(2.0)">RECEIPTS. </hi>
+      </head>
+      <figure>
+        <figDesc>An ornamented line, spanning the whole page. </figDesc>
+      </figure>
+      <div>
+        <head rend="align-center space">
+          <lb/>I. For an <hi rend="sc">Ague</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>1. <hi rend="dc(2)">G</hi>o into the <hi rend="italic">Cold Bath</hi> juſt before
+              the <lb/>Cold Fit. </item>
+            <item rend="hanging">
+              <lb/>2. Or, Take a Handful of <hi rend="italic">Groundſell</hi>, ſhred <lb/>it ſmall,
+              put it into a Paper Bag, four <lb/>inches ſquare, pricking that ſide which is <lb/>to
+              be next the Skin full of holes. Cover <lb/>this with a thin linnen, and wear it on the
+              <lb/>Pit of the Stomach, renewing it two <lb/>Hours before the Fit. </item>
+            <pb n="26"/>
+            <item rend="hanging">
+              <lb/>3. Or, apply a Handful of <hi rend="italic">Yarrow</hi> in like <lb/>manner. </item>
+            <item rend="hanging">
+              <lb/>4. Or, a large <hi rend="italic">Onion</hi> ſlit. </item>
+            <item rend="hanging">
+              <lb/>5. Or, boil <hi rend="italic">Yarrow</hi> in new Milk, till it is <lb/>tender
+              enough to ſpread as a Plaiſter. <lb/>An hour before the cold fit, apply this <lb/>to
+              the Wriſts, and let it be on till the <lb/>hot fit is over. If another fit comes, uſe
+              <lb/>a freſh Plaiſter. </item>
+            <item rend="hanging">
+              <lb/>6. Or, ſpread ſoft Wax, about the thick- <lb/>neſs of a Crown-piece, large enough
+              to <lb/>cover each Wriſt. On this ſpread the <lb/>leaves of the tops of <hi
+                rend="italic">Rue</hi>. Let this <lb/>Plaiſter lie on your Wriſt five or ſix
+              <lb/>Days. </item>
+            <item rend="hanging">
+              <lb/>7. Or, ſplit two large Figs, and ſpread on <lb/>them <hi rend="italic">white
+                Alabaſter</hi> beaten to Powder. <lb/>Bind theſe to the Wriſts. </item>
+            <item rend="hanging">
+              <lb/>8. Or, drink a Quart of <hi rend="italic">cold Water</hi>, juſt <lb/>before the
+              cold fit. Then go to bed and <lb/>ſweat. </item>
+            <item rend="hanging">
+              <lb/>9. Or, make ſix middling Pills, of <hi rend="italic">Cob- <lb/>webs</hi>. Take
+              one a little before the cold <lb/>fit: Two a little before the next fit: The
+              <lb/>other three, if need be, a little before the <lb/>third fit. I never knew this
+              fail. </item>
+            <item rend="hanging">
+              <lb/>10. Or, two Tea-ſpoonfuls of <hi rend="italic">Sal Prunellæ</hi>
+              <lb/>an hour before the fit. It commonly <lb/>cures in thrice taking. </item>
+            <pb n="27"/>
+            <item rend="hanging">
+              <lb/>11. Or, from a Dram and half to two <lb/>Drams of good <hi rend="italic">Stone
+                Brimſtone</hi> finely <lb/>powdered: If need be, repeat it. </item>
+            <item rend="hanging">
+              <lb/>12. Or, an Ounce of <hi rend="italic">Juice of Pellitory of <lb/>Spain</hi>,
+              ſweating after it. It cures the ſe- <lb/>cond, or third time of uſing. </item>
+          </list>
+        </p>
+        <p rend="indentall">
+          <lb/>(<hi rend="italic">N. B.</hi> It is proper to take a gentle <lb/>Vomit before you uſe
+          any of theſe <lb/>Medicines.) </p>
+        <div>
+          <head rend="sc align-center space">
+            <lb/>A Tertian Ague. </head>
+          <p rend="space">
+            <list>
+              <item rend="hanging">
+                <lb/>13. Boil a handful of <hi rend="italic">Ribwort</hi> in Whey. <lb/>Drink this
+                warm an hour before the fit <lb/>comes, and lie down and ſweat. </item>
+              <item rend="hanging">
+                <lb/>14. Or, uſe the Cold Bath. But when you <lb/>uſe this, on any account whatever,
+                it is <lb/>proper <list rend="indentall">
+                  <item><lb/>1. To bleed or purge, before you begin. </item>
+                  <item><lb/>2. To go in cool; to immerge at once; <lb/>to ſtay in only two or three
+                    minutes, (or <lb/>leſs, at firſt.) </item>
+                  <item><lb/>3. Never to bathe on a full Stomach; </item>
+                  <item><lb/>4. To bathe twice or thrice a week at <lb/>leaſt, till you have bathed
+                    nine or ten <lb/>times: </item>
+                  <item><lb/>5. To ſweat immediately after it (going <lb/>to Bed) in Palſies,
+                    Rickets, and all Diſ-<lb/>eaſes wherein the Nerves are obſtructed. </item>
+                  <pb n="28"/>
+                  <item><lb/>6. You may uſe yourſelf to it, without <lb/>any Danger, by beginning in
+                      <hi rend="italic">May</hi>, and <lb/>at firſt juſt plunging in, and coming out
+                    <lb/>immediately. Tho' many have begun in <lb/>Winter, without any
+                    Inconvenience. </item>
+                </list>
+              </item>
+            </list>
+          </p>
+        </div>
+        <div>
+          <head rend="sc align-center space">
+            <lb/>A Quartan Ague. </head>
+          <p rend="space">
+            <list>
+              <item rend="hanging">
+                <lb/>15. Apply to the Suture of the Head, <lb/>when the Fit is coming, <hi
+                  rend="italic">Wall July Flow- <lb/>ers</hi> beaten together leaves and flowers
+                <lb/>with a little Salt. Keep it on till the hot <lb/>fit is over. Repeat this, if
+                need be. </item>
+            </list>
+          </p>
+        </div>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>II. <hi rend="sc">An Anasarca</hi>, or <hi rend="sc">Flesh-Dropsy</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>16. Apply green <hi rend="italic">Dock-leaves</hi> to the Joints, <lb/>and the
+              Soles of the Feet, changing it <lb/>once a day: </item>
+            <item rend="hanging">
+              <lb/>17. Or, Fry <hi rend="italic">Rue</hi> in Oil of <hi rend="italic"
+              >Wall-Nuts</hi>, and <lb/>apply it hot as a Poultis to the Navel, <lb/>changing it
+              once a day. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>III. St. <hi rend="sc">Anthony</hi>'s <hi rend="sc">Fire</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>18. Take a Pint of <hi rend="italic">Cold Water</hi> twice a <lb/>day: </item>
+            <item rend="hanging">
+              <lb/>19. Or, a Glaſs of <hi rend="italic">Tar-Water</hi> warm, in <lb/>bed, every
+              hour, waſhing the Part with <lb/>the ſame. <pb n="29"/>
+              <p rend="indentall indent">
+                <lb/>Tar-Water is made thus. Put a Gal- <lb/>lon of Cold Water to a Quart of <hi
+                  rend="italic">Nor- <lb/>way</hi> Tar. Stir them together with a flat <lb/>ſtick
+                for five or ſix Minutes. After it <lb/>has ſtood cover'd for three Days, pour
+                <lb/>off the water clear, bottle and cork it. </p>
+            </item>
+            <item rend="hanging">
+              <lb/>20. Or, Take a Decoction of <hi rend="italic">Elder leaves</hi>, <lb/>as a ſweat. </item>
+            <item rend="hanging">
+              <lb/>21. Or, of <hi rend="italic">Wild Thyme</hi>, applying to the <lb/>Part a Cloth
+              dipt in <hi rend="italic">Lime-Water</hi>, mixt <lb/>with a little <hi rend="italic"
+                >camphorated Spirits</hi> of Wine. <p rend="indentall indent">
+                <lb/>Lime-Water is made thus. Infuſe a <lb/>Pound of good quick Lime, in a Gallon
+                <lb/>of Spring Water for twenty-four hours. <lb/>Decant, keep it for uſe. </p>
+            </item>
+            <item rend="hanging">
+              <lb/>22. Or, apply leaves of <hi rend="italic">Water-Dock</hi>: </item>
+            <item rend="hanging">
+              <lb/>23. Or, <hi rend="italic">Venice-Treacle</hi>: </item>
+            <item rend="hanging">
+              <lb/>24. Or, waſh it with Water wherein Bran <lb/>is boiled: </item>
+            <item rend="hanging">
+              <lb/>25. Or, boil a handful of <hi rend="italic">Sage</hi>, two hand- <lb/>fuls of <hi
+                rend="italic">Elder leaves</hi> (or <hi rend="italic">Bark</hi>) and an <lb/>Ounce
+              of <hi rend="italic">Allum</hi> in two Quarts of Forge <lb/>Water, to a Pint. Anoint
+              with this every <lb/>Night. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>IV. The <hi rend="sc">Apoplexy</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>26. To prevent, uſe the <hi rend="italic">Cold Bath</hi>, and <lb/>drink only <hi
+                rend="italic">Water</hi>. </item>
+            <pb n="30"/>
+            <item rend="hanging">
+              <lb/>27. In the fit, Blow Powder of <hi rend="italic">White Hel- <lb/>lebore</hi> up
+              the Noſe, and fix a <hi rend="italic">Cupping <lb/>Glaſs</hi>, without ſcarifying, to
+              the Nape <lb/>of the Neck, and another to each Shoul- <lb/>der. </item>
+            <item rend="hanging">
+              <lb/>28. If the Fit be ſoon after a Meal, do not <lb/>bleed, but <hi rend="italic"
+                >Vomit</hi>. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>V. The <hi rend="sc">Asthma</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>29. Take a Pint of <hi rend="italic">Cold Water</hi> Every Night, <lb/>as you lie
+              down in Bed. </item>
+            <item rend="hanging">
+              <lb/>30. Or, a Pint of <hi rend="italic">Cold Water</hi> every Morn- <lb/>ing, <hi
+                rend="italic">waſhing</hi> the Head therein imme- <lb/>diately after, and uſing the
+                <hi rend="italic">Cold Bath</hi>
+              <lb/>once a Fortnight. </item>
+            <item rend="hanging">
+              <lb/>31. Or, half a Pint of <hi rend="italic">Tar Water</hi> twice a <lb/>Day. </item>
+            <item rend="hanging">
+              <lb/>32. Or, a Spoonful of <hi rend="italic">Nettle-juice</hi>, mixt <lb/>with
+              clarified <hi rend="italic">Honey</hi>. </item>
+            <item rend="hanging">
+              <lb/>33. Or, a Tea-ſpoonful of <hi rend="italic">Nitre</hi> and as <lb/>much <hi
+                rend="italic">Sal Armoniack</hi> in half a Pint of <lb/>Water. </item>
+            <item rend="hanging">
+              <lb/>34. Or, take an Ounce of <hi rend="italic">Elecampane Roots</hi>, <lb/>ſliced
+              thin, and a handful of <hi rend="italic">Ground-ivy- <lb/>leaves</hi>; boil them in
+              three Pints of <lb/>Spring Water to a Quart. Strain and <lb/>ſweeten it with <hi
+                rend="italic">Honey</hi>, and drink a Glaſs <lb/>morning and evening. </item>
+            <pb n="31"/>
+            <item rend="hanging">
+              <lb/>35. Or, take an Ounce of <hi rend="italic">Quick-ſilver</hi> every <lb/>Morning,
+              and a Spoonful of the <hi rend="italic">Gas</hi> of <lb/><hi rend="italic"
+                >Sulphur</hi>, in a large glaſs of Spring-Water <lb/>at Five in the Evening, and at
+              bed-time <lb/>till you are well. <hi rend="italic">I</hi>. </item>
+            <item rend="hanging">
+              <lb/>36. For preſent Relief, Vomit with a quart <lb/>or more of <hi rend="italic">warm
+                Water</hi>. The more <lb/>you drink, the better. <p rend="indent">
+                <lb/>Do this whenever you find any Motion to <lb/>Vomit, and take care always to
+                keep your <lb/>Body open. </p>
+            </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>VI. A Dry or <hi rend="sc">Convulsive Asthma</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>37. Uſe the <hi rend="italic">Cold Bath</hi> thrice a Week. </item>
+            <item rend="hanging">
+              <lb/>38. Or, Beat fine <hi rend="italic">Saffron</hi> ſmall, and take <lb/>eight or
+              ten grains every Night. </item>
+            <item rend="hanging">
+              <lb/>39. Or, Dry and powder a <hi rend="italic">Toad</hi>. Make it <lb/>into ſmall
+              Pills, and take one every hour <lb/>till the Convulſions ceaſe. </item>
+            <item rend="hanging">
+              <lb/>40. In any Aſthma, the beſt Drink is <hi rend="italic">Ap- <lb/>ple Water</hi>.
+            </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>VII. To cure <hi rend="sc">Baldness</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>41. Rub the Part Morning and Evening, <lb/>with <hi rend="italic">Onions</hi>,
+              till it is red; and rub it af- <lb/>terwards with <hi rend="italic">Honey</hi>.
+            </item>
+          </list>
+        </p>
+      </div>
+      <pb n="32"/>
+      <div>
+        <head rend="align-center space">
+          <lb/>VII. <hi rend="sc">Bleeding</hi> at the <hi rend="sc">Nose</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>42. Apply to the Neck behind and on each <lb/>Side, a Cloth dipt in <hi
+                rend="italic">Cold Water</hi>. </item>
+            <item rend="hanging">
+              <lb/>43. Or, Hold <hi rend="italic">Strawberry Root</hi>, or <hi rend="italic">Cookle
+                <lb/>Root</hi> under the Tongue. </item>
+            <item rend="hanging">
+              <lb/>44. Or, put into the Noſe <hi rend="italic">Betony</hi> ſtampt <lb/>with a little
+              Salt. </item>
+            <item rend="hanging">
+              <lb/>45. Or, Steep a <hi rend="italic">linnen Rag</hi> in <hi rend="italic">ſharp
+                Vinegar</hi>, <lb/>burn it, and blow the Aſhes up the Noſe <lb/>with a Quill.
+            </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>IX. <hi rend="sc">Bleeding</hi> of a <hi rend="sc">Wound</hi>. </head>
+        <p>
+          <list>
+            <item rend="hanging">
+              <lb/>46. Apply tops of <hi rend="italic">Nettles</hi> bruiſed: </item>
+            <item rend="hanging">
+              <lb/>47. Or, Leaves of <hi rend="italic">All-heal</hi> bruiſed. <hi rend="italic"
+                >I</hi>. </item>
+            <item rend="hanging">
+              <lb/>48. Or, Spread the <hi rend="italic">Aſhes</hi> of a Linnen <lb/>Cloth thick on
+              another Linnen Cloth, <lb/>and apply it. </item>
+            <item rend="hanging">
+              <lb/>49. Or, Strew on it the <hi rend="italic">Aſhes</hi> of a <hi rend="italic"
+                >Linnen</hi>
+              <lb/>rag, dipt in ſharp <hi rend="italic">Vinegar</hi> and burnt. </item>
+            <item rend="hanging">
+              <lb/>50. Or, <hi rend="italic">Vine-leaves</hi> dried and powder'd. </item>
+            <item rend="hanging">
+              <lb/>51. Or, Take ripe <hi rend="italic">Puff-Balls.</hi> Break them <lb/>warily and
+              ſave the Powder. Strew this <lb/>on the Wound and bind it on. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>X. <hi rend="sc">Spitting Blood</hi>. </head>
+        <p>
+          <list>
+            <item rend="hanging">
+              <lb/>52. Take half a Pint of Stew'd <hi rend="italic">Prunes</hi>, <lb/>at lying down,
+              for two or three nights. </item>
+            <pb n="33"/>
+            <item rend="hanging">
+              <lb/>53. Or, a glaſs of Decoction of <hi rend="italic">Onions</hi>. </item>
+            <item rend="hanging">
+              <lb/>54. Or, four Spoonfuls of Juice of <hi rend="italic">Nettles</hi>
+              <lb/>every morning: and a large Cup of De- <lb/>coction of <hi rend="italic"
+                >Nettles</hi> at night, for a Week. </item>
+            <item rend="hanging">
+              <lb/>55. Or, three ſpoonfuls of <hi rend="italic">Sage juice</hi> in a <lb/>little <hi
+                rend="italic">Honey</hi>. This preſently ſtops either <lb/>ſpitting or vomiting
+              Blood. </item>
+            <item rend="hanging">
+              <lb/>56. Or, half a tea-ſpoonful of <hi rend="italic">Barbadoes <lb/>Tar</hi> on a
+              Lump of Loaf Sugar, at night. <lb/>(It commonly cures at Once.) </item>
+            <item rend="hanging">
+              <lb/>57. Or, a ſpoonful of Juice of <hi rend="italic">Betony</hi> in a <lb/>Cup of New
+              Milk, for three or four <lb/>Mornings. </item>
+            <item rend="hanging">
+              <lb/>58. Or half a Pint of Decoction of <hi rend="italic">St. <lb/>John's Wort</hi>,
+              Morning and Evening. </item>
+            <item rend="hanging">
+              <lb/>59. Or, of <hi rend="italic">Ground-ivy</hi>. </item>
+            <item rend="hanging">
+              <lb/>60. Or, of <hi rend="italic">Horſe-tail</hi>: (the Herb.) Or a <lb/>Dram of the
+              Root powder'd. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>XI. <hi rend="sc">Vomiting Blood</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>61. Take three ſpoonfuls of <hi rend="italic">Sage-juice</hi> in <lb/><hi
+                rend="italic">Honey</hi>: </item>
+            <item rend="hanging">
+              <lb/>62. Or, two ſpoonfuls of <hi rend="italic">Nettle-juice</hi>. <lb/>(This alſo
+              diſſolves Blood coagulated in <lb/>the Stomach.) </item>
+            <item rend="hanging">
+              <lb/>63. Or, one of Juice of <hi rend="italic">Quinces</hi>: </item>
+            <item rend="hanging">
+              <lb/>64. Or, a ſpoonful of Juice or Syrup of <lb/><hi rend="italic">Horſe-tail</hi>.
+            </item>
+          </list>
+        </p>
+      </div>
+      <pb n="34"/>
+      <div>
+        <head rend="align-center space">
+          <lb/>XII. To reſolve <hi rend="sc">coagulated Blood</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>65. Bind on the Part for ſome hours a <lb/>Paſte made of <hi rend="italic">Black
+                Soap</hi>, and crumbs <lb/>of <hi rend="italic">White Bread</hi>. </item>
+            <item rend="hanging">
+              <lb/>66. Or, grated Root of <hi rend="italic">Burdock</hi> ſpread on <lb/>a Rag: renew
+              this twice a Day. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>XIII. <hi rend="sc">Boils</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>67. Apply a little <hi rend="italic">Venice Turpentine</hi>. </item>
+            <item rend="hanging">
+              <lb/>68. Or, the leaves of <hi rend="italic">Arum</hi> or <hi rend="italic"
+                >Wake-robin</hi>: </item>
+            <item rend="hanging">
+              <lb/>69. Or, a little <hi rend="italic">Saffron</hi> in a white-bread <lb/>Poultis.
+            </item>
+          </list>
+        </p>
+        <p rend="space"> </p>
+      </div>
+      <div>
+        <head rend="align-center space sc">
+          <lb/>XIV. Hard Breasts. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>70. Boil <hi rend="italic">Turnips</hi> well, ſqueeze out the <lb/>Water, maſh
+              them, and mix them <lb/>throughly with freſh Butter, and apply <lb/>this warm to the
+              breaſt, on a thick cloth, <lb/>changing it Morning and Evening. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>XV. A <hi rend="sc">Bruise</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>71. Immediately apply <hi rend="italic">Treacle</hi> ſpread on <lb/>brown paper. </item>
+            <item rend="hanging">
+              <lb/>72. Or, <hi rend="italic">clarified Honey</hi>. </item>
+            <pb n="35"/>
+            <item rend="hanging">
+              <lb/>73. Or, a Plaiſter of chopt <hi rend="italic">Parſley</hi> mixt <lb/>with Butter.
+            </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>XVI. To prevent <hi rend="italic">Swelling</hi> from a <hi rend="sc">Bruise</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>74. Immediately apply a Cloth, five or ſix <lb/>Times doubled, dipt in <hi
+                rend="italic">cold Water</hi>, and <lb/>new dipt when it grows warm. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>XVII. To cure a <hi rend="italic">Swelling</hi> from a <hi rend="sc">Bruise</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>75. Foment it half an hour, Morning and <lb/>Evening, with Cloths dipt in <hi
+                rend="italic">Water</hi> as <lb/><hi rend="italic">hot</hi> as you can bear. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>XVIII. <hi rend="sc">Bruises</hi>
+          <hi rend="italic">exceedingly Swell'd</hi>. </head>
+        <p rend="indent">
+          <list>
+            <item rend="hanging">
+              <lb/>76. Cut leaves of <hi rend="italic">Bitter-ſweet</hi> ſmall, and <lb/>boil them
+              in <hi rend="italic">Hogs-lard</hi>, with four Ounces <lb/>of <hi rend="italic"
+                >Linſeed</hi> finely powdered to a Poultis. <lb/>Apply this hot. <hi rend="italic"
+                >I</hi>. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>XIX. A <hi rend="sc">Burn</hi> or <hi rend="sc">Scald</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>77. Immediately plunge the Part into <hi rend="italic">Cold <lb/>Water</hi>. Keep
+              it in an Hour, if it be <lb/>not well before. </item>
+            <item rend="hanging">
+              <lb/>78. Or, If the Part cannot be dipt, apply <lb/>a <hi rend="italic">Cloth</hi>
+              four times doubled, dipt in <hi rend="italic">Cold <lb/>Water</hi>, changing it when
+              it grows warm. </item>
+            <pb n="36"/>
+            <item rend="hanging">
+              <lb/>79. Or, apply a <hi rend="italic">Bruiſed Onion</hi>. </item>
+            <item rend="hanging">
+              <lb/>80. Or, Tincture of <hi rend="italic">Myrrh</hi>. </item>
+            <item rend="hanging">
+              <lb/>81. Or, bruiſed leaves of <hi rend="italic">Dwarf Elder</hi>: </item>
+            <item rend="hanging">
+              <lb/>82. Or, <hi rend="italic">Elder Berries</hi> ſtampt: </item>
+            <item rend="hanging">
+              <lb/>83. Or, a Rag dipt in <hi rend="italic">Rum</hi> or <hi rend="italic">Spirits of
+                <lb/>Wine</hi>: </item>
+            <item rend="hanging">
+              <lb/>84. Or, Oil and <hi rend="italic">Parſley</hi> ſtampt together: </item>
+            <item rend="hanging">
+              <lb/>85. Or, apply <hi rend="italic">Oil</hi>, and ſtrew on it pow- <lb/>der'd <hi
+                rend="italic">Ginger</hi>: </item>
+            <item rend="hanging">
+              <lb/>86. Or, Unſlack'd <hi rend="italic">Lime</hi>, mixt with <hi rend="italic"
+                >Honey</hi>. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>XX. A <hi rend="sc">Deep Burn</hi> or <hi rend="sc">Scald</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>87. Apply <hi rend="italic">black Varniſh</hi> with a Feather till <lb/>it is
+              well. </item>
+            <item rend="hanging">
+              <lb/>88. Or, inner Rind of <hi rend="italic">Elder</hi> well mixt <lb/>with freſh
+              butter. When this is bound <lb/> on with a Rag, plunge the Part into <hi rend="italic"
+                >Cold <lb/>Water</hi>. This will ſuſpend the Pain till the <lb/>Medicine heals.
+            </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>XXI. A <hi rend="sc">Cancer</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>89. Uſe the <hi rend="italic">Cold Bath</hi>. (This has cured <lb/>many.) This
+              cured Mrs. <hi rend="italic">Bates</hi> of <hi rend="italic">Lei-
+                <lb/>ceſterſhire</hi>, of a Cancer in her Breaſt, a <lb/>Conſumption, a Sciatica and
+              Rheuma- <lb/>tiſm, which ſhe had had near Twenty <lb/>Years. She bathed daily for a
+              Month, <lb/>and drank only Water. <pb n="37"/>
+              <p rend="indent">
+                <lb/>(Generally where Cold Bathing is neceſ- <lb/>ſary to cure any Diſeaſe, Water
+                drinking is <lb/>ſo, to prevent a Relapſe.) </p>
+            </item>
+            <item rend="hanging">
+              <lb/>90. Or, take a Mellow <hi rend="italic">Apple</hi>, cut off the <lb/>Top, take
+              out the Core, fill the Hole <lb/>with <hi rend="italic">Hogs-greaſe</hi>; then cover
+              it with the <lb/>Top, and roaſt the Apple thoroughly. <lb/>Take off the Paring, beat
+              the Pap well, <lb/>ſpread it thick on Linnen, and lay it <lb/>warm on the Sore,
+              putting a Bladder <lb/>over it. Change this every twelve or <lb/>twenty four hours. </item>
+            <item rend="hanging">
+              <lb/>91. Or, apply <hi rend="italic">Gooſe-dung</hi> and <hi rend="italic"
+                >Celandine</hi> beat <lb/>well together, and ſpread on a fine Rag. <lb/>It will both
+              cleanſe and heal the Sore. </item>
+            <item rend="hanging">
+              <lb/>92. Or, Apply a Poultis of <hi rend="italic">Hemlock</hi>; but <lb/>let it not
+              lie on ſo long at a Time, as to <lb/>bliſter. </item>
+            <item rend="hanging">
+              <lb/>93. Or, live three Months on <hi rend="italic">Apples</hi> and <lb/><hi
+                rend="italic">Apple-water</hi>. </item>
+            <item rend="hanging">
+              <lb/>94. Or, Take half a Dram of <hi rend="italic">Venice Soap</hi>
+              <lb/>twice a Day. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>XXII. A <hi rend="sc">Canker</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>95. Apply red <hi rend="italic">Onions</hi> bruiſed: </item>
+            <item rend="hanging">
+              <lb/>96. Or, make a Plaiſter of <hi rend="italic">Roch-Allum</hi>, <lb/><hi
+                rend="italic">Vinegar</hi>, and <hi rend="italic">Honey</hi>, equal Quantities,
+              <lb/>with <hi rend="italic">Wheat-flower</hi>. Change it every <pb n="38"/>
+              <lb/>twelve Hours. It often cures in three or four <lb/>Days. </item>
+            <item rend="hanging">
+              <lb/>97. Or, ſtamp the Flowers, Leaves and <lb/>Stalks of <hi rend="italic">wild
+                Parſnips</hi>, and apply as a <lb/>Plaiſter, changing it every twelve Hours. <lb/>It
+              uſually cures in a few Days. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>XXIII. <hi rend="sc">Canker</hi> in the <hi rend="sc">Mouth</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>98. Boil a few Leaves of <hi rend="italic">Succory</hi>, <hi rend="italic"
+                >Plantane</hi>, <lb/>and <hi rend="italic">Rue</hi>, with a Spoonful of <hi
+                rend="italic">Honey</hi>, for <lb/>a Quarter of an Hour. Gargle with this <lb/>often
+              in an Hour. <hi rend="italic">I</hi>. </item>
+            <item rend="hanging">
+              <lb/>99. Waſh the Mouth often with a mixture <lb/>of <hi rend="italic">Vinegar</hi>,
+                <hi rend="italic">Plantain-juice</hi>, and <hi rend="italic">Roſe-water</hi>: </item>
+            <item rend="hanging">
+              <lb/>100. Or, with <hi rend="italic">Vinegar</hi> and <hi rend="italic">Honey</hi>,
+              wherein <lb/>half an Ounce of <hi rend="italic">Roch<choice>
+                  <corr>-</corr>
+                  <sic> </sic>
+                </choice>Allum</hi> is boiled: </item>
+            <item rend="hanging">
+              <lb/>101. Or, take an Ounce of <hi rend="italic">Flower of Sul- <lb/>phur</hi>, and
+              half an Ounce of <hi rend="italic">Roch-Allum</hi>
+              <lb/>finely powder'd. Mix theſe well toge- <lb/>ther with pure <hi rend="italic"
+                >Honey</hi>, and apply often. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>XXIV. <hi rend="sc">Chillblains</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>102. Apply <hi rend="italic">Salt</hi> and <hi rend="italic">Onions</hi> pounded
+              to- <lb/>gether. </item>
+            <item rend="hanging">
+              <lb/>103. Or, a <hi rend="italic">Poultis</hi> of <hi rend="italic">roaſted
+                Onions</hi> hot. <lb/>Keep it on two or three Days, if not <lb/>cured ſooner. </item>
+            <pb n="39"/>
+            <item rend="hanging">
+              <lb/>104. Or, hot <hi rend="italic">Turnip-parings</hi> (roaſted) twice <lb/>or thrice
+              a Day. </item>
+            <item rend="hanging">
+              <lb/>105. Or, (if broke) Tincture of <hi rend="italic">Myrrh</hi> in <lb/>a little
+              Water. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>XXV. <hi rend="sc">Chin-cough</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>106. Drink a Pint of <hi rend="italic">Cold Water</hi> every <lb/>Night. </item>
+            <item rend="hanging">
+              <lb/>107. Or, uſe the <hi rend="italic">Cold Bath</hi> daily. </item>
+            <item rend="hanging">
+              <lb/>108. Or, rub the Feet thoroughly with <lb/><hi rend="italic">Hogs-lard</hi>,
+              before the Fire, at going to <lb/>Bed, and keep the Child warm therein. </item>
+            <item rend="hanging">
+              <lb/>109. Or, give a ſpoonful of juice of <hi rend="italic">Penny- <lb/>royal</hi>
+              mixt with brown <hi rend="italic">Sugar-candy</hi>, twice <lb/>a day. </item>
+            <item rend="hanging">
+              <lb/>110. Or, of <hi rend="italic">Colts-foot</hi>. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>XXVI. <hi rend="sc">Cholera Morbus</hi>, i. e. <hi rend="sc">Flux</hi>
+          <lb/>and <hi rend="sc">Vomiting</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>111. Drink two or three Quarts of <hi rend="italic">Cold <lb/>Water</hi>, if
+              ſtrong; of <hi rend="italic">Warm Water</hi>, if <lb/>weak. </item>
+            <item rend="hanging">
+              <lb/>112. Or, boil a Chicken an Hour in two <lb/>Gallons of <hi rend="italic"
+                >Water</hi>, and drink of this till <lb/>the vomiting ceaſes. </item>
+          </list>
+        </p>
+      </div>
+      <pb n="40"/>
+      <div>
+        <head rend="align-center space">
+          <lb/>XXVII. The <hi rend="sc">Cholick</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>113. Drink a Pint of <hi rend="italic">Cold Water</hi>. </item>
+            <item rend="hanging">
+              <lb/>114. Or, a Quart of <hi rend="italic">Warm Water</hi>. </item>
+            <item rend="hanging">
+              <lb/>115. Or, as largely as poſſible of <hi rend="italic">warm <lb/>Tar-water</hi>: </item>
+            <item rend="hanging">
+              <lb/>116. Or, a Pint of Water in which a <hi rend="italic">red <lb/>hot Flint</hi> is
+              quenched. </item>
+            <item rend="hanging">
+              <lb/>117. Or, a Tea-ſpoonful of <hi rend="italic">Haws</hi> dried and <lb/>powder'd. </item>
+            <item rend="hanging">
+              <lb/>118. Or, from two Scruples to half a Dram <lb/>of <hi rend="italic">Yellow
+                peel</hi> of Oranges powder'd, in a <lb/>Glaſs of Water. </item>
+            <item rend="hanging">
+              <lb/>119. Or thirty Drops of <hi rend="italic">Spirit</hi> of <hi rend="italic"
+                >Turpen- <lb/>tine</hi> in Water. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>XXVIII. <hi rend="sc">Cholick</hi> in <hi rend="sc">Children</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>120. Give a Scruple of powder'd <hi rend="italic">Anniſeed</hi>
+              <lb/>in their Meat. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>XXIX. A <hi rend="sc">Hysterick Cholick</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>121. Mrs. <hi rend="italic">Watts</hi>, by uſing the <hi rend="italic">Cold
+                Bath</hi>
+              <lb/>two and twenty times in a Month, was <lb/>intirely cured of an Hyſterick Cholick,
+              <lb/>Fits, and convulſive Motions, continual <lb/>Sweatings and Vomitings, wandering
+                <pb n="141"/>
+              <lb/>Pains in her Limbs and Head, with total <lb/>Loſs of Appetite. </item>
+            <item rend="hanging">
+              <lb/>122. In the Fit, drink half a Pint of <hi rend="italic">Water</hi>
+              <lb/>with a little <hi rend="italic">Wheat flower</hi> in it, and a <lb/>ſpoonful of
+                <hi rend="italic">Vinegar</hi>. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>XXX. A <hi rend="sc">Stubborn Cholick</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>123. Drink largely of <hi rend="italic">Camomile Tea</hi>. </item>
+            <item rend="hanging">
+              <lb/>124. Or, of Decoction of <hi rend="italic">Mallow Leaves</hi>: </item>
+            <item rend="hanging">
+              <lb/>125. Or, take from forty to an hundred <lb/>Drops of <hi rend="italic"
+                >Anniſe-ſeed Oil</hi> in a little Sugar. </item>
+            <item rend="hanging">
+              <lb/>126. Or, half a Dram of <hi rend="italic">Maſtick</hi>, mixt <lb/>with the Yolk
+              of a new-laid Egg twice <lb/>a Day. </item>
+            <item rend="hanging">
+              <lb/>127. Or, apply outwardly, a Bag of <hi rend="italic">Hot <lb/>Oats</hi>. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>XXXI. A <hi rend="sc">Nervous Cholick</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>128. Uſe the <hi rend="italic">Cold Bath</hi>, daily for a Month: </item>
+            <item rend="hanging">
+              <lb/>129. Or, take an Ounce of <hi rend="italic">Quickſilver</hi>, <lb/>daily for a
+              Month. </item>
+            <item rend="hanging">
+              <lb/>130. Or, in Extremity, boil three Ounces <lb/>of <hi rend="italic">Burdock
+                Seed</hi> in Water, which give <lb/>as a Clyſter. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>XXXII. <hi rend="sc">Chopt Hands</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>131. Waſh them in <hi rend="italic">Bran</hi> and <hi rend="italic">Water</hi>
+              boil'd <lb/>together. </item>
+            <pb n="42"/>
+            <item rend="hanging">
+              <lb/>132. Or, with <hi rend="italic">Soft Soap</hi> mixt with <hi rend="italic">red
+                <lb/>Sand</hi>. </item>
+            <item rend="hanging">
+              <lb/>133. Or, apply <hi rend="italic">Oil of Myrrh</hi>. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>XXXIII. A <hi rend="sc">Cold</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>134. Drink a Pint of <hi rend="italic">Cold Water</hi> lying <lb/>down in Bed: </item>
+            <item rend="hanging">
+              <lb/>135. Or, a Spoonful of <hi rend="italic">Treacle</hi> in half a <lb/>Pint of
+              Water. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>XXXIV. A <hi rend="sc">Cold</hi> in the <hi rend="sc">Head</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>136. Pare very thin the <hi rend="italic">Yellow Rind</hi> of an <lb/><hi
+                rend="italic">Orange</hi>. Roll it up inſide out, and thruſt <lb/>a Roll into each
+              Noſtril. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>XXXV. A <hi rend="sc">Consumption</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>137. <hi rend="italic">Cold Bathing</hi> has cured many deep <lb/>Conſumptions. </item>
+            <item rend="hanging">
+              <lb/>138. So has, the living wholly on <hi rend="italic">Apples</hi>
+              <lb/>and <hi rend="italic">Apple-water</hi>. </item>
+            <item rend="hanging">
+              <lb/>139. One in a deep Conſumption was ad- <lb/>viſed to drink nothing but <hi
+                rend="italic">Water</hi>, and <lb/>eat nothing but <hi rend="italic"
+                >Water-gruel</hi>, without Salt <lb/>or Sugar. In three Months Time he was
+              <lb/>perfectly well. </item>
+            <item rend="hanging">
+              <lb/>140. Drink nothing but <hi rend="italic">new Butter-Milk</hi>. </item>
+            <pb n="43"/>
+            <item rend="hanging">
+              <lb/>141. Or, boil two handfuls of <hi rend="italic">Sorrel</hi> in a <lb/>Pint of
+              Whey. Strain it, and drink a <lb/>Glaſs thrice a Day. </item>
+            <item rend="hanging">
+              <lb/>142. Or, Take a ſpoonful of Syrup of <hi rend="italic">Fox- <lb/>glove</hi>,
+              Morning and Evening. </item>
+            <item rend="hanging">
+              <lb/>143. Or, a Cup of Decoction of <hi rend="italic">great <lb/>Daiſy Flowers</hi>. </item>
+            <item rend="hanging">
+              <lb/>144. Or, a Tea-ſpoonful of powder'd Root <lb/>of <hi rend="italic">Arum</hi> (or
+                <hi rend="italic">Wake Robin</hi>,) with as much <lb/>powder'd <hi rend="italic"
+                >Brimſtone</hi>. </item>
+            <item rend="hanging">
+              <lb/>145. Or, every Morning cut up a little <lb/>turf of freſh Earth, and, lying down,
+              <lb/>breathe into the hole for a Quarter of an <lb/>hour. </item>
+            <item rend="hanging">
+              <lb/>146. <q rend="quotes">Mr. <hi rend="italic">Maſters</hi> of <hi rend="italic"
+                  >Eveſham</hi>, was ſo <lb/>far gone in a Conſumption, that he could <lb/>not ſtand
+                alone. I adviſed him to loſe <lb/>ſix Ounces of Blood, every Day, for a
+                <lb/>Fortnight, if he liv'd ſo long: And <lb/>then every other Day; then every third
+                <lb/>Day; then every fifth Day, for the ſame <lb/>Time. In three Months he was well. </q>
+              <lb/><hi rend="align-right">Dr. <hi rend="italic">Dover</hi>. </hi>
+            </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>XXXVI. <hi rend="sc">Convulsions</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>147. Uſe the <hi rend="italic">Cold Bath</hi>. </item>
+            <item rend="hanging">
+              <lb/>148. Or, take a Tea-ſpoonful of <hi rend="italic">Valerian <lb/>Root</hi>
+              powder'd in a Cup of Water every <lb/>Evening. </item>
+            <pb n="44"/>
+            <item rend="hanging">
+              <lb/>149. Or, a ſpoonful of <hi rend="italic">Syrup of Oak Moſs</hi>, <lb/>morning and
+              evening. </item>
+            <item rend="hanging">
+              <lb/>150. Or, half a Dram of <hi rend="italic">Miſſelto</hi> pow- <lb/>der'd, every
+              ſix Hours, drinking after it <lb/>a Draught of ſtrong Infuſion thereof. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>XXXVII. <hi rend="sc">Convulsions</hi> in Children. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>151. Scrape <hi rend="italic">Piony-roots</hi> freſh digged. Ap- <lb/>ply what
+              you have ſcraped off to the <lb/>Soles of the Feet. It helps immedi- <lb/>ately. </item>
+            <item rend="hanging">
+              <lb/>152. Or, Give the Child according to its <lb/>age from two to ſeven grains of <hi
+                rend="italic">Volatile <lb/>Salt</hi> of <hi rend="italic">Amber</hi>, in Water.
+            </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>XXXVIII. <hi rend="sc">Convulsions</hi> in the <hi rend="sc">Bowels</hi>
+          <lb/>of Children. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>153. Give a Child of a Quarter old, a <lb/>ſpoonful of the Juice of <hi
+                rend="italic">Pellitory of the <lb/>Wall</hi>, two or three times a day. It goes
+              <lb/>thro' at once, but purges no more. Uſe <lb/>Syrup, if Juice cannot be had.
+            </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>XXXIX. <hi rend="sc">Corns</hi> (to prevent). </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>154. Waſh the Feet often in <hi rend="italic">Cold Water</hi>. </item>
+          </list>
+        </p>
+      </div>
+      <pb n="45"/>
+      <div>
+        <head rend="align-center space">
+          <lb/>XL. <hi rend="sc">Corns</hi> (to cure). </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>155. Apply a little Piece of <hi rend="italic">freſh Beef</hi> every
+              <lb/>Morning. </item>
+            <item rend="hanging">
+              <lb/>156. Or, the <hi rend="italic">Yeaſt</hi> of <hi rend="italic">Small Beer</hi>,
+              ſpread on <lb/>a Rag. </item>
+            <item rend="hanging">
+              <lb/>157. Or, Boil the <hi rend="italic">Juice</hi> of <hi rend="italic"
+              >Radiſhes</hi>, till it <lb/>is thick enough to ſpread as a Plaiſter. <lb/>Shift it as
+              it grows dry. </item>
+            <item rend="hanging">
+              <lb/>158. Or, Cleanſe from Earth the Root and <lb/>Herb of <hi rend="italic"
+                >Houſeleek</hi>; cruſh it with your <lb/>Fingers and apply it. Renew it every
+              <lb/>three hours, for twenty-four hours. </item>
+            <item rend="hanging">
+              <lb/>159. Or, apply freſh <hi rend="italic">Ivy leaves </hi>daily, and <lb/>in fifteen
+              days, they will drop out. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>XLI. <hi rend="sc">costiveness. </hi>
+        </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>160. Riſe early every Morning. </item>
+            <item rend="hanging">
+              <lb/>161. Or, boil in a Pint and half of Broth, <lb/>half a handful of <hi
+                rend="italic">Mallow leaves</hi> chopt. <lb/>Strain this and drink it before you eat
+              any <lb/>thing elſe. </item>
+            <item rend="hanging">
+              <lb/>162. Or, take a Decoction of <hi rend="italic">Tamarinds</hi> in <lb/>Whey. </item>
+            <item rend="hanging">
+              <lb/>163. Or, an Ounce of the Juice of <hi rend="italic">White <lb/>Iris Root</hi>, in
+              Whey. </item>
+          </list>
+        </p>
+      </div>
+      <pb n="46"/>
+      <div>
+        <head rend="align-center space">
+          <lb/>XLII. A <hi rend="sc">Cough</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>164. Drink a Pint and half of <hi rend="italic">Cold Water</hi>
+              <lb/>lying down in Bed. </item>
+            <item rend="hanging">
+              <lb/>165. Or, mix an Ounce of <hi rend="italic">Linſeed Oil</hi>, with <lb/>an Ounce
+              of <hi rend="italic">White Sugar Candy</hi> powder'd, <lb/>and take a Tea-ſpoonful
+              whenever the <lb/>Cough comes. </item>
+            <item rend="hanging">
+              <lb/>166. Or, a Linctus of <hi rend="italic">Tar</hi> mixt with <hi rend="italic">Ho-
+                <lb/>ney</hi>. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>XLIII. An <hi rend="sc">Asthmatic Cough</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>167. Take <hi rend="italic">Spaniſh Liquorice</hi> two Ounces, <lb/>Salt of <hi
+                rend="italic">Tartar</hi> half an Ounce: Boil the <lb/>Liquorice in three pints of
+              Water to a <lb/>quart. Add the Salt to it when it is <lb/>Blood-warm. Drink two
+              ſpoonfuls of <lb/>this every two hours. </item>
+            <item rend="hanging">
+              <lb/>168. Or, Drink half a Pint of <hi rend="italic">Tar-water</hi>
+              <lb/>morning and evening. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>XLIV. A <hi rend="sc">Consumptive Cough</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>169. Slit ten or twelve <hi rend="italic">Raiſins</hi> of the Sun, <lb/>take out
+              the Stones, and fill them up with <lb/>the ſmall tender Tops of <hi rend="italic"
+                >Rue</hi>. Take <lb/>theſe early, every morning, faſting two <lb/>or three hours
+              after. </item>
+          </list>
+        </p>
+      </div>
+      <pb n="47"/>
+      <div>
+        <head rend="align-center space">
+          <lb/>XLV. A <hi rend="sc">Convulsive Cough</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>170. Eat <hi rend="italic">preſerv'd Walnuts</hi>. </item>
+            <item rend="hanging">
+              <lb/>171. Or, Boil a handful of <hi rend="italic">Bay leaves</hi> in <lb/>Milk, turn
+              this with <hi rend="italic">White</hi> Wine, and <lb/>drink a Draught of the Whey
+              often. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>XLVI. An <hi rend="sc">Inveterate Cough</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>172. Waſh the Head in <hi rend="italic">Cold Water</hi> every <lb/>morning. </item>
+            <item rend="hanging">
+              <lb/>173. Or, Uſe the <hi rend="italic">Cold Bath</hi>. It ſeldom <lb/>fails. </item>
+            <item rend="hanging">
+              <lb/>174. Or, Take half a pint of Decoction of <lb/><hi rend="italic">Onions</hi>,
+              morning and evening. </item>
+            <item rend="hanging">
+              <lb/>175. Or, a ſpoonful of Juice of <hi rend="italic">Onions</hi>: </item>
+            <item rend="hanging">
+              <lb/>176. Or, <gap/> of Syrup of <hi rend="italic">Onions</hi>. </item>
+            <item rend="hanging">
+              <lb/>177. Or, a ſpoonful of Syrup of <hi rend="italic">Turnips</hi>
+              <lb/>every three hours. </item>
+            <item rend="hanging">
+              <lb/>178. Or, Stew <hi rend="italic">Turnips</hi> in an Oven in their <lb/>own Juice.
+              Pour off the Liquor, and <lb/>take a ſpoonful ſweetened every four <lb/>hours. </item>
+            <item rend="hanging">
+              <lb/>179. Or, Take peel'd <hi rend="italic">Turnips</hi> three Pounds, <lb/>Sugar one
+              Pound, put them in an Earthen <lb/>Pot cloſe cover'd for twenty-four hours.
+              <lb/>Strain the Juice, and take two or three <lb/>ſpoonfuls morning and evening. </item>
+            <pb n="48"/>
+            <item rend="hanging">
+              <lb/>180. Or, Mix the Juice of boil'd <hi rend="italic">Turnips</hi>
+              <lb/>with fine powder'd <hi rend="italic">Sugar-Candy</hi>, till it is <lb/>a kind of
+              Syrup. Swallow a little of it <lb/>drop by drop from time to time. </item>
+            <item rend="hanging">
+              <lb/>181. Or, Take a ſpoonful of Syrup of <hi rend="italic">Hore- <lb/>hound</hi>
+              morning and evening. </item>
+            <item rend="hanging">
+              <lb/>182. Half a Pint of Decoction of <hi rend="italic">Hore- <lb/>hound</hi>. </item>
+            <item rend="hanging">
+              <lb/>183. Or, Put a Scruple of <hi rend="italic">Sperma Ceti</hi> into <lb/>the Yolk
+              of a new-laid Egg, and ſup it <lb/>up in the Morning faſting. </item>
+            <item rend="hanging">
+              <lb/>184. Or, Take half a Pint of Decoction of <lb/><hi rend="italic">Wild Thyme</hi>,
+              ſweetened with <hi rend="italic">Honey</hi>, lying <lb/>down in Bed. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>XLVII. A <hi rend="sc">Pleuritick Cough</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>185. Powder an Ounce of <hi rend="italic">Sperma Ceti</hi> fine. <lb/>Work it in
+              a Marble Mortar with the Yolk <lb/>of a new laid Egg. Mix them in white <lb/>wine, and
+              take a ſmall glaſs every three <lb/>hours. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>XLVIII. A <hi rend="sc">Tickling Cough</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>186. Drink <hi rend="italic">Water</hi> whiten'd with Oatmeal <lb/>four Times a
+              day. </item>
+          </list>
+        </p>
+      </div>
+      <pb n="49"/>
+      <div>
+        <head rend="align-center space">
+          <lb/>XLIX. <hi rend="sc">Violent Coughing</hi> from a ſharp <lb/>thin Rheum. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>187. Work into old Conſerve of <hi rend="italic">Roſes</hi>, as <lb/>much as you
+              can of pure <hi rend="italic">Olibanum</hi>, pow- <lb/>der'd as fine as poſſible. Take
+              a Bolus <lb/>of this twice or thrice a Day. It eaſes <lb/>preſently, and cures in two
+              or three <lb/>Weeks. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>L. The <hi rend="sc">Cramp</hi> (to prevent). </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>188. Tie your Garter tight under your knee <lb/>at going to bed. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>LI. To Cure. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>189. Apply boil'd <hi rend="italic">Nettles</hi> hot. </item>
+            <item rend="hanging">
+              <lb/>190. Or, Take half a pint of <hi rend="italic">Tar-water</hi>
+              <lb/>morning and evening. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>LII. A <hi rend="sc">Cut</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>191. Keep it cloſed with your Thumb a <lb/>quarter of an hour. Then double a rag
+              <lb/>five or ſix times; dip it in cold Water, <lb/>and bind it on. </item>
+          </list>
+        </p>
+      </div>
+      <pb n="50"/>
+      <div>
+        <head rend="align-center space">
+          <lb/>LIII. <hi rend="sc">Deafness</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>192. Uſe the <hi rend="italic">Cold Bath</hi>. </item>
+            <item rend="hanging">
+              <lb/>193. Or, Drop into the Ear three or four <lb/>drops of <hi rend="italic"
+                >Onion-juice</hi> at lying down, and <lb/>ſtop it with a little Wool. </item>
+            <item rend="hanging">
+              <lb/>194. Or, a tea-ſpoonful of <hi rend="italic">Salt Water</hi>. </item>
+            <item rend="hanging">
+              <lb/>195. Or, of Juice of <hi rend="italic">Ground-ivy</hi>. </item>
+            <item rend="hanging">
+              <lb/>196. Or, a little Juice of <hi rend="italic">Elder leaves</hi>. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>LIV. <hi rend="sc">Deafness</hi> from <hi rend="sc">Wax</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>197. Syringe the Ear with warm Sage-tea. </item>
+            <item rend="hanging">
+              <lb/>198. Or, Put in <hi rend="italic">Wild Mint</hi> bruiſed, with <lb/>the Juice,
+              changing it often. </item>
+            <item rend="hanging">
+              <lb/>199. Or, Drop in <hi rend="italic">Penny-royal Water</hi>, cold <lb/>drawn, four
+              or five Nights. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>LV. <hi rend="sc">Deafness</hi> with <hi rend="italic">Head-ach</hi> and <hi
+            rend="italic">Buzzing</hi>
+          <lb/>in the <hi rend="italic">Head</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>200. Peel a Clove of <hi rend="italic">Garlick</hi>; dip it in <lb/><hi
+                rend="italic">Honey</hi>, and put it into your Ear at Night <lb/>with a little black
+              Wool. Lie with that <lb/>Ear uppermoſt. Put the ſame in the <lb/>other Ear the next
+              Night. Do this, if <lb/>need be, eight or ten days. </item>
+          </list>
+        </p>
+      </div>
+      <pb n="51"/>
+      <div>
+        <head rend="align-center space">
+          <lb/>LVI. A <hi rend="sc">Settled Deafness</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>201. Take a red <hi rend="italic">Onion</hi>, pick out the Core; <lb/>fill the
+              Place with Oil of roaſted <hi rend="italic">Almonds</hi>. <lb/>Let it ſtand a Night.
+              Then bruiſe and <lb/>ſtrain it. Drop three Drops into the Ear, <lb/>morning and
+              evening, and ſtop it with <lb/>black Wool. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>LVII. To cauſe an eaſy <hi rend="sc">Delivery</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>202. Peel, ſlice and fry a large white <hi rend="italic">Onion</hi>
+              <lb/>in two or three ſpoonfuls of the beſt <hi rend="italic">Oil</hi>, <lb/>till it is
+              tender. Boil this with half a glaſs <lb/>of Water: Strain, and drink it in the
+              <lb/>morning faſting, for two or three Weeks <lb/>before the Time of Child-birth.
+            </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>LVIII. The <hi rend="sc">Diabetes</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>203. Drink Wine boil'd with <hi rend="italic">Ginger</hi>, as <lb/>much and as
+              often as your Strength will <lb/>bear. Let your drink be Milk and Wa- <lb/>ter. All
+              Milk meats are good. </item>
+            <item rend="hanging">
+              <lb/>204. Or, Drink morning and evening a <lb/>quarter of a pint of <hi rend="italic"
+                >Allum</hi> Poſſet-drink, <lb/>made as ſtrong as your Stomach will bear. <lb/>It
+              ſeldom fails to cure in eight or ten <lb/>days. </item>
+          </list>
+        </p>
+      </div>
+      <pb n="52"/>
+      <div>
+        <head rend="align-center space">
+          <lb/>LIX. The <hi rend="sc">Dropsy</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>205. Uſe the <hi rend="italic">Cold Bath</hi> daily, after purg- <lb/>ing. </item>
+            <item rend="hanging">
+              <lb/>206. Or, Mix half an Ounce of <hi rend="italic">Amber</hi> with <lb/>a quart of
+                <hi rend="italic">Wine Vinegar</hi>. Heat a Brick <lb/>(only not red hot) and put it
+              into a Tub. <lb/>Pour them upon it, and hold the Parts <lb/>ſwell'd over the Smoke,
+              covering the <lb/>Tub cloſe, to keep in the Smoke. The <lb/>Water will come out
+              incredibly, and the <lb/>Patient be cured. </item>
+            <item rend="hanging">
+              <lb/>207. Or, Abſtain from all Drink for thirty <lb/>days. To eaſe your Thirſt hold
+              often on <lb/>your Tongue, a thin ſmall ſlice of toaſt- <lb/>ed Bread, dipt in Brandy. </item>
+            <item rend="hanging">
+              <lb/>208. <hi rend="italic">Tar-water</hi> drank twice a day has cur'd <lb/>many </item>
+            <item rend="hanging">
+              <lb/>209. Or, Mix a Pound of the <hi rend="italic">coarſeſt Sugar</hi>
+              <lb/>with a Pint of Juice of <hi rend="italic">Pellitory of the <lb/>Wall</hi> bruiſed
+              in a Marble Mortar. Boil it <lb/>as long as any Scum riſes. When cool, <lb/>bottle and
+              cork it. If very bad, take three <lb/>ſpoonfuls at Night, and two in the Morn-
+              <lb/>ing. It ſeldom fails. </item>
+            <item rend="hanging">
+              <lb/>210. Or, Drink half a pint of <hi rend="italic">Sea water</hi>
+              <lb/>morning and evening. </item>
+            <pb n="53"/>
+            <item rend="hanging">
+              <lb/>211. Or, Drink nothing elſe but a Decoc- <lb/>tion or Diet-drink of <hi
+                rend="italic">Mountain Sage</hi> (four <lb/>Pound to a Kilderkin). </item>
+            <item rend="hanging">
+              <lb/>212. Take a ſpoonful of the Juice of <hi rend="italic">Arti- <lb/>choke
+                leaves</hi>, morning and evening. </item>
+            <item rend="hanging">
+              <lb/>213. Or, half a pint of Decoction of <hi rend="italic">White <lb/>Briony</hi>. </item>
+            <item rend="hanging">
+              <lb/>214. Or, <gap/> of <hi rend="italic">Butchers Broom</hi>, in- <lb/>termixing
+              Purges. </item>
+            <item rend="hanging">
+              <lb/>215. Or, Boil two handfuls of <hi rend="italic">Elder Roots</hi>
+              <lb/>in a quart of Water. Strain it and drink <lb/>a large Glaſs Thrice a Day for
+              thirty Days. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>LX. The <hi rend="sc">Ear-Ach</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>216. <hi rend="italic">Rub</hi> the Ear hard for a Quarter of an <lb/>hour. </item>
+            <item rend="hanging">
+              <lb/>217. Or, Apply to it a <hi rend="italic">hot Roll</hi>: </item>
+            <item rend="hanging">
+              <lb/>218. Or, Put into it <hi rend="italic">roaſted Fig</hi>, as hot as <lb/>may be. </item>
+            <item rend="hanging">
+              <lb/>219. Or, Blow the <hi rend="italic">Smoak</hi> of <hi rend="italic">Tobacco</hi>
+              ſtrongly <lb/>into it. </item>
+            <item rend="hanging">
+              <lb/>220. Or, Drop in Juice of <hi rend="italic">Gooſe graſs</hi>: </item>
+            <item rend="hanging">
+              <lb/>221. Or, of Monks <hi rend="italic">Rhubarb</hi>. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>LXI. <hi rend="sc">Ear-Ach</hi> from <hi rend="sc">Cold</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>222. Boil <hi rend="italic">Rue</hi>, or <hi rend="italic">Roſemary</hi>, or <hi
+                rend="italic">Garlick</hi>, and <lb/>let the Steam go into the Ear through a
+              <lb/>Funnel. </item>
+          </list>
+        </p>
+      </div>
+      <pb n="54"/>
+      <div>
+        <head rend="align-center space">
+          <lb/>LXII. <hi rend="sc">Ear-Ach</hi> from <hi rend="sc">Heat</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>223. Apply Cloths four Times doubled and <lb/>dipt in <hi rend="italic">cold
+                Water</hi>, changing them when <lb/>warm, for half an hour. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>LXIII. <hi rend="sc">Ear-Ach</hi> from <hi rend="sc">Worms</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>224. Drop in <hi rend="italic">warm Milk</hi> and it brings them <lb/>out. </item>
+            <item rend="hanging">
+              <lb/>225. Or, Juice of <hi rend="italic">Wormwood</hi>, which kills <lb/>them. </item>
+            <item rend="hanging">
+              <lb/>226. Or, Oil of <hi rend="italic">bitter Almonds</hi>. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>LXIV. <hi rend="sc">Noise</hi> in the <hi rend="sc">Ears</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>227. Drop in Juice of <hi rend="italic">Onions</hi>, </item>
+            <item rend="hanging">
+              <lb/>228. Or, Fill them with <hi rend="italic">bruis'd Hyſſop</hi>. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>LXV. <hi rend="sc">Eyes-blear'd</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>229. Drop into them Juice of <hi rend="italic">Crab Apples</hi>. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>LXVI. A <hi rend="sc">Blood-shot Eye</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>230. Apply Linnen Rags dipt in <hi rend="italic">cold Water</hi>
+              <lb/>for two or three hours: </item>
+            <item rend="hanging">
+              <lb/>231. Or, Drop in Juice of <hi rend="italic">Clover</hi>: </item>
+            <pb n="55"/>
+            <item rend="hanging">
+              <lb/>232. Or, <hi rend="italic">White Sugar-Candy</hi>, finely pow- <lb/>der'd. </item>
+            <item rend="hanging">
+              <lb/>233. Or, Apply boil'd <hi rend="italic">Hyſſop</hi>, as a Poultis. </item>
+            <item rend="hanging">
+              <lb/>234. Or, Mix half a Dram of well-pow- <lb/>der'd Tutty, with an Ounce of <hi
+                rend="italic">Roſe wa- <lb/>ter</hi>. Drop this often into the Ear. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>LXVII. A <hi rend="sc">Bruise</hi> in the <hi rend="sc">Eye</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>235. Apply as a Plaiſter <hi rend="italic">Conſerve of Roſes</hi>: </item>
+            <item rend="hanging">
+              <lb/>236. Or, a Paſte of <hi rend="italic">black Soap</hi> and white <lb/>bread Crums.
+              But take Care it get not <lb/>into the Eye. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>LXVIII. <hi rend="sc">Burning Eyes</hi>, or <hi rend="italic">Hot Rheum</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>237. Apply a thick <hi rend="italic">Apple Paring</hi>, lying <lb/>down in Bed.
+            </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>LXIX. <hi rend="sc">Clouds</hi> flying before the <hi rend="sc">Eyes</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>238. Take a Dram of powder'd <hi rend="italic">Betony</hi> every <lb/>morning.
+            </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>LXX. <hi rend="sc">Blindness</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>239. Is often cured by <hi rend="italic">Cold Bathing</hi>. </item>
+          </list>
+        </p>
+      </div>
+      <pb n="56"/>
+      <div>
+        <head rend="align-center space">
+          <lb/>LXXI. <hi rend="sc">Dim</hi> or <hi rend="sc">Misty Sight</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>240. Waſh the Eyes morning and evening <lb/>with Decoction of <hi rend="italic"
+                >Betony</hi>. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>LXXII. <hi rend="sc">Eyes Dim</hi> or <hi rend="sc">Decay'd</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>241. Uſe <hi rend="italic">Eye-bright</hi> Tea daily: </item>
+            <item rend="hanging">
+              <lb/>242. Or, powder'd <hi rend="italic">Eye-bright</hi>, both in meat <lb/>and drink.
+            </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>LXXIII. <hi rend="sc">Dull Sight</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>243. Drop in two or three Drops of Juice <lb/>of <hi rend="italic">rotten
+                Apples</hi> often. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>LXXIV. <hi rend="sc">Films</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>244. Dry <hi rend="italic">Zibethum Occidentale</hi> ſlowly; Pow- <lb/>der it
+              fine, and blow it into the Eye twice <lb/>or thrice a Day. </item>
+            <item rend="hanging">
+              <lb/>245. Mix Juice of <hi rend="italic">Ground-ivy</hi> with a little <lb/><hi
+                rend="italic">Honey</hi>, and two or three Grains of <hi rend="italic">Bay
+                <lb/>Salt</hi>. Drop it in morning and even- <lb/>ing. </item>
+          </list>
+        </p>
+      </div>
+      <pb n="57"/>
+      <div>
+        <head rend="align-center space">
+          <lb/>LXXV. <hi rend="sc">Hot</hi> or <hi rend="sc">Sharp Humours</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>246. Beat the White of an Egg into a Wa- <lb/>ter, in which mix fine <hi
+                rend="italic">Sugar</hi>, and drop it <lb/>frequently into the Eye. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>LXXVI. <hi rend="sc">Eyes Inflam'd</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>247. Apply as a Poultis boil'd, roaſted or <lb/>rotten <hi rend="italic"
+                >Apples</hi> warm. </item>
+            <item rend="hanging">
+              <lb/>248. Or, <hi rend="italic">Wormwood Tops</hi> with the Yolk of <lb/>an Egg. </item>
+            <item rend="hanging">
+              <lb/>249. Or, Beat up the <hi rend="italic">White of an Egg</hi> with <lb/>two
+              ſpoonfuls of <hi rend="italic">White Roſe Water</hi> into a <lb/>white froth. Apply
+              this on a fine Rag, <lb/>changing it ſo that it may not grow dry, <lb/>till the Eye is
+              well. </item>
+            <item rend="hanging">
+              <lb/>250. Or, Drop in often the Juice of <hi rend="italic">Eye- <lb/>bright</hi>. </item>
+            <item rend="hanging">
+              <lb/>251. Or, <hi rend="italic">Cinquefoil</hi>. </item>
+            <item rend="hanging">
+              <lb/>252. Or, <hi rend="italic">Quick-graſs</hi>. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>LXXVII. A <hi rend="sc">Lachrymal Fistula</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>253. Apply a Poultis of fine leaves of <hi rend="italic">Rue</hi>. </item>
+            <item rend="hanging">
+              <lb/>254. Or, Take a Dram of <hi rend="italic">Betony</hi> leaves <lb/>powder'd daily.
+            </item>
+          </list>
+        </p>
+      </div>
+      <pb n="58"/>
+      <div>
+        <head rend="align-center space">
+          <lb/>LXXXVIII. <hi rend="sc">Pearl</hi> in the <hi rend="sc">Eye</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>255. Apply a Drop of Juice of <hi rend="italic">Celandine</hi>
+              <lb/>with a Feather thrice a day. </item>
+            <item rend="hanging">
+              <lb/>256. Or, of <hi rend="italic">three-leav'd Graſs</hi>. It com- <lb/>monly cures
+              in ſeven days. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>LXXIX. <hi rend="sc">Rheum</hi> in the <hi rend="sc">Eye</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>257. Drop in Juice of <hi rend="italic">Daiſies</hi> morning and <lb/>evening.
+            </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>LXXX. <hi rend="sc">White Specks</hi> in the <hi rend="sc">Eye</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>258. Put a Seed of <hi rend="italic">Clary</hi> into the Eye, at <lb/>going to
+              Bed. </item>
+            <item rend="hanging">
+              <lb/>259. Or, a Drop of the Juice of <hi rend="italic">Fennel</hi>. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>LXXXI. <hi rend="sc">Spots</hi> in the <hi rend="sc">Eye</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>260. Drop in a Drop of Juice of <hi rend="italic">Rue</hi> morn- <lb/>ing and
+              evening: </item>
+            <item rend="hanging">
+              <lb/>261. Or, of <hi rend="italic">Celandine</hi>: </item>
+            <item rend="hanging">
+              <lb/>262. Or, of <hi rend="italic">Ground-ivy</hi>. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>LXXXII. <hi rend="sc">Suffusion</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>263. Drop in Juice of <hi rend="italic">Brook-lime</hi>: </item>
+            <item rend="hanging">
+              <lb/>264. Or, of <hi rend="italic">Eye-bright</hi>. </item>
+          </list>
+        </p>
+      </div>
+      <pb n="59"/>
+      <div>
+        <head rend="align-center space">
+          <lb/>LXXXIII. <hi rend="sc">Involuntary Tears</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>265. Waſh the Eyes with Decoction of <lb/><hi rend="italic">Quince leaves</hi>
+              evening and morning. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>LXXXIV. An excellent <hi rend="sc">Eye-Water</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>266. Heat half an Ounce of <hi rend="italic">Lapis Calami- <lb/>naris</hi> red
+              hot, and quench it in half a <lb/>pint of <hi rend="italic">French White Wine</hi>,
+              and as much <lb/><hi rend="italic">White Roſe Water</hi>: Then pound it fine <lb/>and
+              infuſe it. Shake the Bottle when you <lb/>uſe it. It cures Soreneſs, Weakneſs, and
+              <lb/>moſt Diſeaſes of the Eye. I have known <lb/>it cure total Blindneſs. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>LXXXV. <hi rend="italic">Another</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>267. Infuſe in <hi rend="italic">Lime water</hi> a Dram of <hi rend="italic">Sal
+                <lb/>Armoniack</hi> powder'd for twelve hours. <lb/>Then ſtrain and keep it for Uſe.
+              This <lb/>alſo cures moſt Diſorders of the Eye. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>LXXXVI. <hi rend="italic">Another</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>268. Boil very lightly one ſpoonful of <hi rend="italic">white <lb/>Copperas</hi>
+              ſcrap'd, and three ſpoonfuls of <lb/><hi rend="italic">white Salt</hi>, in three Pints
+              of Spring Wa- <lb/>ter. When cold, bottle it in large Vials <pb n="60"/>
+              <lb/>without Straining. Take up the Vial <lb/>ſoftly, and put a drop or two in the Eye
+              <lb/>morning and evening. <p>
+                <lb/>It anſwers the Intention of almoſt all the <lb/>preceding medicines. It takes
+                away Red- <lb/>neſs, or any Soreneſs whatever. It cures <lb/>Pearls, Pin and Web,
+                Rheums, and of- <lb/>ten Blindneſs itſelf. </p>
+            </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>LXXXVII. The <hi rend="sc">Falling Sickness</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>269. Uſe the <hi rend="italic">Cold Bath</hi> for a Month daily. </item>
+            <item rend="hanging">
+              <lb/>270. Or, take a Tea-ſpoonful of <hi rend="italic">German- <lb/>der</hi>, gather'd
+              in <hi rend="italic">May</hi>, dried in the Shade, <lb/>and powder'd, for nine Days,
+              Morning <lb/>and Evening. </item>
+            <item rend="hanging">
+              <lb/>271. Or, of <hi rend="italic">Piony Root</hi> dried and grated <lb/>fine. </item>
+            <item rend="hanging">
+              <lb/>272. Or, take a Spoonful of Juice of <hi rend="italic">Rue</hi>, <lb/>Morning and
+              Evening, for a Month. </item>
+            <item rend="hanging">
+              <lb/>273. Or, of Juice of <hi rend="italic">Cinque-foil</hi>. </item>
+            <item rend="hanging">
+              <lb/>274. Or, half a Pint of Decoction of <hi rend="italic">Lig- <lb/>num
+                Guaiacum</hi>, Morning and Evening: </item>
+            <item rend="hanging">
+              <lb/>275. Or, of <hi rend="italic">Tar-water</hi> for three Months. </item>
+            <item rend="hanging">
+              <lb/>276. Or, uſe an <hi rend="italic">entire milk diet</hi> for three <lb/>Months. </item>
+            <item rend="hanging">
+              <lb/>277. Or, take the Quantity of a Nutmeg <lb/>of Conſerve of <hi rend="italic"
+                >White Piony Root</hi>, daily <lb/>for three Months: </item>
+            <pb n="61"/>
+            <item rend="hanging">
+              <lb/>278. Or, Infuſe an Ounce of <hi rend="italic">Muſtard <lb/>Seed</hi> in a Quart
+              of <hi rend="italic">White Wine</hi>, twenty <lb/>four Hours, and take a Glaſs Morning
+              <lb/>and Evening: </item>
+            <item rend="hanging">
+              <lb/>279. In the Fit blow up the Noſe a little <lb/><hi rend="italic">powder'd
+                Ginger</hi>: </item>
+            <item rend="hanging">
+              <lb/>280. Or, Leaves of <hi rend="italic">Aſſarabacca</hi> powder'd: </item>
+            <item rend="hanging">
+              <lb/>281. To prevent a Relapſe, take a Pill or <lb/>two of <hi rend="italic">powder'd
+                Toad</hi> (See Art. 39.) be- <lb/>fore and after every new moon. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>LXXXVIII. The <hi rend="sc">Falling</hi> of the <lb/><hi rend="sc">Fundament</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>282. Apply a Cloth cover'd thick with <lb/><hi rend="italic">Brick-duſt</hi>. </item>
+            <item rend="hanging">
+              <lb/>283. Or, Boil a handful of <hi rend="italic">Red Roſe-leaves</hi>
+              <lb/>in a quarter of a Pint of <hi rend="italic">Red Wine</hi>, dip <lb/>a Cloth in
+              it, and apply it as hot as can <lb/>be borne. Do this till all is uſed. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>LXXXIX. A <hi rend="sc">Falling</hi> down of the <lb/><hi rend="sc">Womb</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>284. May be cured in the Manner laſt <lb/>mention'd. </item>
+          </list>
+        </p>
+      </div>
+      <pb n="62"/>
+      <div>
+        <head rend="align-center space">
+          <lb/>XC. A <hi rend="sc">Fever</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>285. Drink a Pint and half of <hi rend="italic">Cold Water</hi>
+              <lb/>lying down in Bed: </item>
+            <item rend="hanging">
+              <lb/>286. Or, a large Glaſs of <hi rend="italic">Tar-water</hi> warm, <lb/>every hour. </item>
+            <item rend="hanging">
+              <lb/>287. The Beſt of all Juleps in a <hi rend="italic">Fever</hi>, is <lb/>this:
+              Toaſt a large thin Slice of Bread, <lb/>without Burning; put it hot into a Pint
+              <lb/>of cold Water. Then ſet it on the Fire <lb/>till it is pretty hot. In a dry Heat
+              it <lb/>may be given cold; in a moiſt heat <lb/>warm: the more largely the better. </item>
+            <item rend="hanging">
+              <lb/>288. Or, for change, uſe <hi rend="italic">Pippin</hi> Tea; Or, <lb/><hi
+                rend="italic">Pippin Poſſet Drink</hi>; Or, <hi rend="italic">Wood Sorrel</hi>; </item>
+            <item rend="hanging">
+              <lb/>289. Or, <hi rend="italic">Plantane</hi>: </item>
+            <item rend="hanging">
+              <lb/>290. Or, <hi rend="italic">Sorrel Tea</hi>: </item>
+            <item rend="hanging">
+              <lb/>291. Or, Decoction of <hi rend="italic">Violet Leaves</hi>: </item>
+            <item rend="hanging">
+              <lb/>292. Or, of <hi rend="italic">Strawberry Leaves</hi>. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>XCI. A <hi rend="sc">Burning Fever</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>293. Stamp a Handful of leaves of <hi rend="italic">Capri- <lb/>folium</hi>; put
+              fair Water to it, and uſe it <lb/>cold as a Clyſter. It commonly cures in <lb/>an
+              Hour. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>XCII. A <hi rend="sc">Continual Fever</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>294. If not very violent, take a Dram of <pb n="63"/>
+              <lb/><hi rend="italic">Sal Prunellæ</hi>, every four Hours, in warm <lb/>water, till
+              it abates. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>XCIII. A <hi rend="sc">Hectick Fever</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>295. Drink nothing but ſtale <hi rend="italic">Butter-milk</hi>. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>XCIV. A <hi rend="sc">Strong Hectick</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>296. Drink only thin <hi rend="italic">Water-gruel</hi>, or boil'd <lb/><hi
+                rend="italic">Milk and Water</hi>. The more you drink <lb/>the better. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>XCV. A High Fever. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>297. Attended with a Delirium and a Vi- <lb/>gilia, has been cured by plunging
+              into <lb/>Cold Water: which is a ſafe and ſure <lb/>Remedy in the beginning of any
+              Fever. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>XCVI. An <hi rend="sc">Intermitting Fever</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>298. Take the Pills, as in Art. 9. </item>
+            <item rend="hanging">
+              <lb/>299. Or, drink warm <hi rend="italic">Lemonade</hi> in the Be- <lb/>ginning of
+              every Fit, a little at a Time. <lb/>It cures in a few Days. </item>
+          </list>
+        </p>
+      </div>
+      <pb n="64"/>
+      <div>
+        <head rend="align-center space">
+          <lb/>XCVII. A <hi rend="sc">Fever</hi> with <hi rend="sc">Pains</hi> in the <lb/><hi
+            rend="sc">Limbs</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>300. Take twenty Drops of <hi rend="italic">Spirit of Hartſ- <lb/>horn</hi> in a
+              Cup of Water, twice or thrice <lb/>in twenty four Hours. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>XCVIII. A <hi rend="sc">Rash Fever</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>301. Drink every Hour a ſpoonful of Juice <lb/>of <hi rend="italic">Ground
+                Ivy</hi>. It cures in twenty four <lb/>Hours. Uſe the Decoction, when you <lb/>have
+              not the Juice. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>XCIX. A <hi rend="sc">Slow Fever</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>302. Uſe the <hi rend="italic">Cold Bath</hi> for two or three <lb/>Weeks, daily.
+            </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>C. A <hi rend="sc">Fistula</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>303. Grind an Ounce of <hi rend="italic">Mercury Sublimate</hi>, <lb/>in a glaſs
+              Mortar, with a glaſs Peſtle, as <lb/>fine as poſſible. Put it into a glaſs Bottle,
+              <lb/>and pour on it two Quarts of pure Spring <lb/>Water. Cork it cloſe, and for ſix
+              Days <lb/>ſhake it well every Hour. Then let it <lb/>ſettle for twenty four Hours.
+              Pour it <lb/>off clear: filter it in a glaſs funnel: and <pb n="65"/>
+              <lb/>keep it for Uſe cloſe ſtopt. Put a ſpoon- <lb/>ful of this Water in a Vial, and
+              add two <lb/>Spoonfuls of pure Spring Water. Shake <lb/>them well together, and drink
+              it faſting. <lb/>It works both by Vomit and by Stool, <lb/>but very ſafely. Keep
+              yourſelf very <lb/>warm, and walk as much as you can. <lb/>The firſt Time neither eat
+              nor drink till <lb/>two hours after it has done working. <lb/>Take this every other
+              day. In forty <lb/>Days this will alſo cure any <hi rend="italic">Cancer</hi>, any
+                <lb/><hi rend="italic">old Sore</hi>, or <hi rend="italic">Kings-Evil</hi>, broken
+              or un- <lb/>broken. After the firſt or ſecond Vomit <lb/>you may uſe Water-gruel, as
+              in other <lb/>Vomits. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CI. A <hi rend="sc">Flux</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>304. Wear <hi rend="italic">Wild Tanſy</hi> in the Shoes next <lb/>the Skin. </item>
+            <item rend="hanging">
+              <lb/>305. Or, drink two or three Quarts of <lb/><hi rend="italic">Warm Water</hi>. </item>
+            <item rend="hanging">
+              <lb/>306. Or, take a Dram of <hi rend="italic">Plantane Seed</hi>
+              <lb/>bruiſed, morning and evening, till it ſtops. </item>
+            <item rend="hanging">
+              <lb/>307. Or, the <hi rend="italic">leaves</hi> of it boil'd in ſmall <lb/>Broth: </item>
+            <item rend="hanging">
+              <lb/>308. Or, three or four Ounces of its <lb/><hi rend="italic">Juice</hi>: </item>
+            <item rend="hanging">
+              <lb/>309. Or, a ſmall <hi rend="italic">Nutmeg</hi> powder'd in the <lb/>Yoke of an
+              Egg. </item>
+            <pb n="66"/>
+            <item rend="hanging">
+              <lb/>310. Or, a Dram of the Seed of <hi rend="italic">Flix weed</hi>, <lb/>in two or
+              three ſpoonfuls of Broth. <hi rend="italic">I</hi>. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CII. A <hi rend="sc">Bloody Flux</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>311. Drink <hi rend="italic">cold Water</hi> as largely as poſſible, <lb/>taking
+              nothing elſe till the Flux ſtops. </item>
+            <item rend="hanging">
+              <lb/>312. Or, a Pint of <hi rend="italic">Whey</hi> made with a Lump <lb/>or <hi
+                rend="italic">Roch Allum</hi> as hot as you can bear it. </item>
+            <item rend="hanging">
+              <lb/>313. Or, Take a large <hi rend="italic">Apple</hi>, and at the Top <lb/>pick out
+              all the Core, and fill up the <lb/>Place with a piece of <hi rend="italic"
+                >Hony-comb</hi>; (the <lb/>Hony being ſtrain'd out.) Roaſt the Ap- <lb/>ple in
+              Embers, and eat it, and this will <lb/>ſtop the Flux immediately. </item>
+            <item rend="hanging">
+              <lb/>314. Or, A ſpoonful of juice of <hi rend="italic">Water- <lb/>dock</hi>, morning
+              and evening. </item>
+            <item rend="hanging">
+              <lb/>315. Or, thirty grains of powder'd Root <lb/>of <hi rend="italic">Gladwin</hi>,
+              at Night, twice or thrice a <lb/>Week. It is juſt as good as <hi rend="italic"
+                >Rhubarb</hi>, <lb/>in moſt Caſes. </item>
+            <item rend="hanging">
+              <lb/>316. Or, Decoction of <hi rend="italic">Primroſe Leaves</hi>
+              <lb/>morning and evening. </item>
+            <item rend="hanging">
+              <lb/>317. Or, grated <hi rend="italic">Rhubarb</hi>, as much as lies on <lb/>a
+              Shilling, with half as much of grated <hi rend="italic">Nut- <lb/>meg</hi>, in a glaſs
+              of White Wine, lying <lb/>down, every other Night. </item>
+          </list>
+        </p>
+      </div>
+      <pb n="67"/>
+      <div>
+        <head rend="align-center space">
+          <lb/>CIII. The <hi rend="sc">Gout</hi> in the <hi rend="sc">Stomach</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>318. <q rend="quotes">Diſſolve two Drams of <hi rend="italic">Venice Trea-
+                  <lb/>cle</hi> in a glaſs of Mountain. After drink- <lb/>ing it, go to Bed. You
+                will be eaſier in <lb/>two Hours, and well in ſixteen. </q> Dr. <lb/><hi
+                rend="italic">Dover</hi>. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CIV. The <hi rend="sc">Gout</hi> in the <hi rend="sc">Foot</hi> or <hi rend="sc"
+            >Hand</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>319. Apply a raw, lean <hi rend="italic">Beef-ſtake</hi>. Change <lb/>it once in
+              twelve Hours, till cured. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CV. The <hi rend="sc">Gout</hi> in any <hi rend="sc">Limb</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>320. Rub the Part with <hi rend="italic">Warm Treacle</hi>, and <lb/>then bind on
+              a Flannel ſmear'd there- <lb/>with. Repeat, if need be, once in twelve <lb/>Hours. </item>
+            <item rend="hanging">
+              <lb/>321. Or, dry <hi rend="italic">Sage</hi> in the Sun for a Day. <lb/>Apply this,
+              and in one Night it will eaſe <lb/>the Pain. </item>
+            <item rend="hanging">
+              <lb/>322. Or, at ſix in the evening, undreſs, <lb/>and wrap yourſelf up in Blankets.
+              <lb/>Then put your Legs up to the Knees in <lb/>Water, as hot as you can bear it. As
+              it <lb/>cools let hot Water be poured in, ſo as <lb/>to keep you in a ſtrong Sweat
+              till Ten. <pb n="68"/>
+              <lb/>Then go into a Bed well warm'd, and <lb/>ſweat till Morning. </item>
+            <item rend="hanging">
+              <lb/>323. Or, <q rend="quotes">Take a handful of <hi rend="italic">Snails</hi>; pick
+                <lb/>them out of the Shells. Stamp them in <lb/>a Mortar with Salt, Soap, and ſweet
+                Oil. <lb/>Apply this as a Plaiſter, and in three days <lb/>it will deſtroy the Gout.
+              </q>
+            </item>
+            <item rend="hanging">
+              <lb/>324. Or, Take thirty Drops of <hi rend="italic">Spirit of <lb/>Hartſhorn</hi>
+              thrice a day, in a Draught of <lb/><hi rend="italic">Bugbane Tea</hi>. Keep warm after
+              it. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CVI. The <hi rend="sc">Gravel</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>325. Drink largely of <hi rend="italic">warm Water</hi> ſweet- <lb/>ened with <hi
+                rend="italic">Honey</hi>: </item>
+            <item rend="hanging">
+              <lb/>326. Or, of <hi rend="italic">Peach-leave Tea</hi>, </item>
+            <item rend="hanging">
+              <lb/>327. Or, of <hi rend="italic">Pellitory of the Wall</hi> Tea, ſo <lb/>ſweetened: </item>
+            <item rend="hanging">
+              <lb/>328. Or, Infuſe an Ounce of <hi rend="italic">wild Parſley <lb/>Seeds</hi> in a
+              Pint of White Wine for twelve <lb/>days. Drink a Glaſs of it faſting three
+              <lb/>mornings. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CVII. The <hi rend="sc">Head-Ach</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>329. <hi rend="italic">Rub</hi> the Head for a quarter of an hour: </item>
+            <item rend="hanging">
+              <lb/>330. Or, Apply <hi rend="italic">Roſe leaves</hi> mixt with the <lb/>White of an
+              Egg to the Forehead. </item>
+            <item rend="hanging">
+              <lb/>331. Or, Boil a handful of <hi rend="italic">Roſemary</hi> in a <lb/>Quart of
+              Water. Put this in a Mug, <pb n="69"/>
+              <lb/>and hold your Head (cover'd with a Nap- <lb/>kin) over the Steam, as hot as you
+              can <lb/>bear. Repeat this till the Pain ceaſes. </item>
+            <item rend="hanging">
+              <lb/>323. Or, put a Leaf of <hi rend="italic">Wood Betony</hi> up each <lb/>Noſtril. </item>
+            <item rend="hanging">
+              <lb/>333. Or, drop Juice of <hi rend="italic">Pimpernell</hi> into the <lb/>Ear. </item>
+            <item rend="hanging">
+              <lb/>334. Or, ſnuff up the Noſe any <hi rend="italic">camphorated <lb/>Spirits</hi>, </item>
+            <item rend="hanging">
+              <lb/>335. Or, Juice of <hi rend="italic">Primroſe Root</hi>; </item>
+            <item rend="hanging">
+              <lb/>336. Or, of <hi rend="italic">Ground-ivy Root</hi>: </item>
+            <item rend="hanging">
+              <lb/>337. Or, a little Juice of <hi rend="italic">Horſe-radiſh</hi>. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CVIII. A <hi rend="sc">Chronical Head-Ach</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>338. Keep your Feet in <hi rend="italic">warm Water</hi>, a <lb/>quarter of an
+              hour before you go to bed; <lb/>for two or three Weeks. </item>
+            <item rend="hanging">
+              <lb/>339. Or, Wear tender <hi rend="italic">Hemlock leaves</hi>, un- <lb/>der the
+              Feet, changing them daily: </item>
+            <item rend="hanging">
+              <lb/>340. Or, Waſh the Head with Decoction <lb/>of <hi rend="italic">Quick-graſs</hi>: </item>
+            <item rend="hanging">
+              <lb/>341. Or, Take an Ounce of the Juice of <lb/><hi rend="italic">Primroſe</hi>
+              leaves and roots, with as much <lb/>Milk every morning. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CIX. An <hi rend="sc">Inveterate Head-Ach</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>342. Apply to the Head bruiſed <hi rend="italic">Cummin <lb/>Seed</hi>, fried
+              with an Egg: </item>
+            <pb n="70"/>
+            <item rend="hanging">
+              <lb/>343. Or, boil <hi rend="italic">Wood Betony</hi> in new Milk <lb/>and ſtrain it.
+              Breakfaſt on this for five <lb/>or ſix Weeks. <hi rend="italic">I</hi>. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CX. <hi rend="sc">Head-ach</hi> from <hi rend="sc">Heat</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>344. Apply to the Forehead Cloths dipt in <lb/>cold Water for an hour. </item>
+            <item rend="hanging">
+              <lb/>345. Or, Beat <hi rend="italic">White Poppy Seed</hi> to powder; <lb/>mix this
+              with Yolks of Eggs, and apply <lb/>it to the Temples and Forehead. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CXI. A <hi rend="sc">Nervous Head-ach</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>346. Dry and powder an Ounce of <hi rend="italic">Marjo- <lb/>ram</hi> and half
+              an Ounce of <hi rend="italic">Aſſarabacca</hi>; <lb/>mix them, and take them as Snuff,
+              keep- <lb/>ing the Ears and Throat warm. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CXII. <hi rend="sc">Periodical Head-Ach</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>347. Take a large tea-cup of ſtrong <hi rend="italic">Car- <lb/>duus Tea</hi>
+              without Sugar, for ſix morn- <lb/>ings. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CXIII. An <hi rend="sc">Hemicrania</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>348. Uſe <hi rend="italic">Cold Bathing</hi>. </item>
+            <item rend="hanging">
+              <lb/>349. Or, Apply to that Part of the Head, <lb/>ſhaved, a Plaiſter that will ſtick,
+              with a <pb n="71"/>
+              <lb/>hole cut in the middle of it, as big as an <lb/>half-penny: Place over that hole
+              leaves <lb/>of <hi rend="italic">Ranunculus</hi>, bruiſed and very moiſt. <lb/>It is a
+              gentle Bliſter. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CXIV. <hi rend="sc">Stoppage</hi> in the <hi rend="sc">Head</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>350. Snuff up Juice of <hi rend="italic">Primroſe</hi>, keeping <lb/>the Head
+              warm. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CXV. The <hi rend="sc">Heart-burning</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>351. Drink a Pint of <hi rend="italic">cold Water</hi>. </item>
+            <item rend="hanging">
+              <lb/>352. Or, Chew five or ſix <hi rend="italic">Pepper-Corns</hi> a <lb/>little. Then
+              ſwallow them. </item>
+            <item rend="hanging">
+              <lb/>353. Or, Take ſix <hi rend="italic">Almonds</hi> and twelve <hi rend="italic">raw
+                <lb/>Peas</hi>, and eat them together. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CXVI. The <hi rend="sc">Hiccup</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>354. Swallow a Mouthful of Water, ſtop- <lb/>ping the Mouth and Ears: </item>
+            <item rend="hanging">
+              <lb/>355. Or, Take any thing that makes you <lb/><hi rend="italic">ſneeze</hi>: </item>
+            <item rend="hanging">
+              <lb/>356. Or, a little candied <hi rend="italic">Ginger</hi>: </item>
+            <item rend="hanging">
+              <lb/>357. Or, two or three preſerved <hi rend="italic">Damſons</hi>. </item>
+          </list>
+        </p>
+      </div>
+      <pb n="72"/>
+      <div>
+        <head rend="align-center space">
+          <lb/>CXVII. <hi rend="sc">Hoarseness</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>358. Rub the Soles of the Feet before the <lb/>Fire, with <hi rend="italic"
+                >Garlick</hi> and <hi rend="italic">Lard</hi> well beaten <lb/>together, over Night.
+              The Hoarſeneſs <lb/>will be gone next day. </item>
+            <item rend="hanging">
+              <lb/>359. Or, take a Pint of <hi rend="italic">cold Water</hi> lying <lb/>down. </item>
+            <item rend="hanging">
+              <lb/>360. Or, inſtead of Supper, eat an <hi rend="italic">Apple</hi>, <lb/>and drink
+              half a Pint of <hi rend="italic">Water</hi>. </item>
+            <item rend="hanging">
+              <lb/>361. Or, Swallow ſlowly the Juice of <hi rend="italic">Radiſhes</hi>: </item>
+            <item rend="hanging">
+              <lb/>362. Or, Take a ſpoonful of <hi rend="italic">Sage-juice</hi>, <lb/>morning and
+              evening. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CXVIII. <hi rend="sc">Hypochondriac</hi> and <hi rend="sc">Hysteric</hi>
+          <lb/>Diſorders. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>363. Uſe <hi rend="italic">Cold Bathing</hi>. </item>
+            <item rend="hanging">
+              <lb/>364. Or, Take an Ounce of <hi rend="italic">Quickſilver</hi>
+              <lb/>every morning. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CXIX. The <hi rend="sc">Jaundice</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>365. Waſh the Hands and Feet with De- <lb/>coction of <hi rend="italic">Dock
+                Root</hi>, 14 days, morning <lb/>and evening. </item>
+            <item rend="hanging">
+              <lb/>366. Or, Wear leaves of <hi rend="italic">Celandine</hi>, upon <lb/>and under the
+              Feet. </item>
+            <pb n="73"/>
+            <item rend="hanging">
+              <lb/>367. Or, Take as much as lies on a Shilling <lb/>of <hi rend="italic">calcin'd
+                Egg-ſhells</hi>, three Mornings faſt- <lb/>ing and walk till you ſweat. </item>
+            <item rend="hanging">
+              <lb/>368. Or, half a pint of <hi rend="italic">Tar-water</hi> thrice a <lb/>day: </item>
+            <item rend="hanging">
+              <lb/>369. Or, two or three ſpoonfuls of the Juice <lb/>of <hi rend="italic"
+                >Quick-graſs</hi>, every morning. </item>
+            <item rend="hanging">
+              <lb/>370. Or, Drink a quarter of a pint of De- <lb/>coction of <hi rend="italic">Dock
+                Root</hi>, morning and even- <lb/>ing. </item>
+            <item rend="hanging">
+              <lb/>371. Or, half a pint of ſtrong Decoction of <lb/><hi rend="italic">Strawberry
+                leaves</hi>; or, of <hi rend="italic">Nettles</hi>. </item>
+            <item rend="hanging">
+              <lb/>372. Or, of Decoction of <hi rend="italic">Dandelion</hi>; the <lb/>whole Plant: </item>
+            <item rend="hanging">
+              <lb/>373. Or, half a pint of Decoction of <hi rend="italic">Monks <lb/>Rhubarb</hi>: </item>
+            <item rend="hanging">
+              <lb/>374. Or, <q rend="quotes">Boil a large <hi rend="italic">Burr root</hi> in two
+                <lb/>Quarts of Water to three Pints. Let it <lb/>ſoak therein for twenty-four hours,
+                co- <lb/>ver'd cloſe. Drink a Draught of this <lb/>three or four times, and it will
+                not fail. </q>
+            </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CXX. The <hi rend="sc">Jaundice</hi> in Children. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>375. Take half an ounce of fine <hi rend="italic">Rhubarb</hi>
+              <lb/>powder'd. Mix with it throughly, by <lb/>long beating, two handfuls of good well-
+              <lb/>cleanſed <hi rend="italic">Currants</hi>. Of this give a Tea- <lb/>ſpoonful every
+              morning. </item>
+          </list>
+        </p>
+      </div>
+      <pb n="74"/>
+      <div>
+        <head rend="align-center space">
+          <lb/>CXXI. The <hi rend="sc">Iliac Passion</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>376. Take a Decoction of the Seed of <hi rend="italic">Dill</hi>
+              <lb/>in Oil and Water, and then a bit of Bread <lb/>dipt in Water. </item>
+            <item rend="hanging">
+              <lb/>377. Or, Ounce by Ounce a Pound or a <lb/>Pound and a half of <hi rend="italic"
+                >Quickſilver</hi>. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CXXII. An <hi rend="sc">Imposthume</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>378. Put the White of two <hi rend="italic">Leeks</hi> in a wet <lb/>Cloth, and
+              ſo roaſt them in Aſhes, but <lb/>not too much. Stamp them in a Mortar <lb/>with a
+              little <hi rend="italic">Hogs-greaſe</hi>. Spread it thick <lb/>Plaiſler-wiſe, and
+              apply, changing it every <lb/>hour, till all the matter be come out, <lb/>which it
+              will be in three Times. <hi rend="italic">I</hi>. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CXXIII. <hi rend="sc">Pain</hi> in the <hi rend="sc">Joints</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>379. Drink Decoction of <hi rend="italic">Herb Robert</hi>, and <lb/>apply it as
+              a Poultis. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CXXIV. The <hi rend="sc">Itch</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>380. Waſh the Parts affected with <hi rend="italic">Smiths <lb/>Forge Water</hi>. </item>
+            <item rend="hanging">
+              <lb/>381. Or, with a ſtrong Decoction of <hi rend="italic">Chick- <lb/>weed</hi>
+              morning and evening. </item>
+            <pb n="75"/>
+            <item rend="hanging">
+              <lb/>382. Or, of <hi rend="italic">Dock Root</hi> for nine or ten days: </item>
+            <item rend="hanging">
+              <lb/>383. Or, of <hi rend="italic">Hyſſop</hi>, four or five days: </item>
+            <item rend="hanging">
+              <lb/>384. Or, Steep a Shirt half an hour in a <lb/>quart of Water mixt with half an
+              ounce <lb/>of powder'd <hi rend="italic">Brimſtone</hi>. Dry it ſlowly, <lb/>and wear
+              it five or ſix days. </item>
+            <item rend="hanging">
+              <lb/>385. Or, Mix Powder of <hi rend="italic">White Hellebore</hi>
+              <lb/>with Cream for three days. Anoint the <lb/>Joints three mornings and evenings. </item>
+            <item rend="hanging">
+              <lb/>386. Or, Anoint thrice with <hi rend="italic">Garlick Root</hi>
+              <lb/>mixt with <hi rend="italic">Hogs-lard</hi>. </item>
+            <item rend="hanging">
+              <lb/>387. Or, Beat together the Juice of two or <lb/>three <hi rend="italic"
+                >Lemons</hi>, with the ſame Quantity of <lb/><hi rend="italic">Oil of Roſes</hi>.
+              Anoint the Parts affected. <lb/>It cures in two or three Times uſing. </item>
+            <item rend="hanging">
+              <lb/>388. Or, Beat <hi rend="italic">Dock Roots</hi> in a Mortar with <lb/>ſweet
+              Butter: Anoint with this. It cures <lb/>in five or ſix Times uſing. </item>
+            <item rend="hanging">
+              <lb/>389. Or, Mix an Ounce of <hi rend="italic">Ginger</hi> finely <lb/>powder'd with
+              a Quarter of a Pound of <lb/>freſh Butter. Uſe it morning and even- <lb/>ing. It cures
+              in four or five Days. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CXXV. The <hi rend="sc">King's Evil</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>390. Drink daily for ſix Weeks, a ſtrong <lb/>Decoction of <hi rend="italic"
+                >Devil's Bit</hi>. </item>
+            <item rend="hanging">
+              <lb/>391. Or, Uſe a ſtrong Decoction of <hi rend="italic">Felon- <lb/>wort</hi>, as
+              common Drink, for three <lb/>Months. </item>
+            <pb n="76"/>
+            <item rend="hanging">
+              <lb/>392. Or, Infuſe a handful of <hi rend="italic">Mountain Saxi- <lb/>frage</hi> in
+              a Quart of Water twenty-four <lb/>hours. Drink half a pint morning and <lb/>evening
+              for three Months. It ſeldom <lb/>fails. </item>
+            <item rend="hanging">
+              <lb/>393. Or, of <hi rend="italic">Ground-ivy</hi>: </item>
+            <item rend="hanging">
+              <lb/>394. Or, of Decoction of <hi rend="italic">Dead Nettles</hi>: </item>
+            <item rend="hanging">
+              <lb/>395. Or, of <hi rend="italic">Colts-foot</hi>: Mean time, apply <lb/>the Herb,
+              beaten up with powder'd <hi rend="italic">Lin- <lb/>ſeed</hi> and <hi rend="italic"
+                >Hogs-lard</hi>, to the Sores, renewing <lb/>it twice a day. </item>
+            <item rend="hanging">
+              <lb/>396. Or, Beat Garden Snails with a little <lb/><hi rend="italic">Parſley</hi> to
+              the Conſiſtence of a Plaiſter. <lb/>Apply it to the Sores, changing it every
+              <lb/>twenty-four hours: </item>
+            <item rend="hanging">
+              <lb/>397. Uſe <hi rend="italic">Lime-water</hi> for common Drink. </item>
+            <item rend="hanging">
+              <lb/>398. Or, Set a Quart of <hi rend="italic">Honey</hi> by the Fire <lb/>to melt.
+              When it is cold, ſtrew into it a <lb/>Pound and a half of <hi rend="italic">Quick
+                lime</hi> beat very <lb/>fine, and ſearſed thro' a Hair Sieve. Stir <lb/>this about
+              till it boil up of itſelf into a <lb/>hard Lump. Beat this when cold very <lb/>fine,
+              and ſearſe it, as before. Take of <lb/>this as much as lies on a Shilling in a
+              <lb/>Glaſs of Water every morning faſting; <lb/>an hour before Breakfaſt, at Four in
+              the <lb/>Afternoon, and at going to Bed. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CXXVI. <hi rend="sc">Stoppage</hi> in the <hi rend="sc">Kidneys</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>399. Take twelve Grains of <hi rend="italic">Salt of Amber</hi>
+              <lb/>in a little Water. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CXXVII. The <hi rend="sc">Legs Inflam'd</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>400. Apply <hi rend="italic">Fullers Earth</hi>, ſpread on Brown <lb/>Paper. </item>
+            <item rend="hanging">
+              <lb/>401. Or, Rub them with warm Juice of <lb/><hi rend="italic">Plantain</hi>.
+            </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CXXVIII. The <hi rend="sc">Leprosy</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>402. Uſe the <hi rend="italic">Cold Bath</hi>. </item>
+            <item rend="hanging">
+              <lb/>403. Or, Waſh in the <hi rend="italic">Sea</hi>, often and long: </item>
+            <item rend="hanging">
+              <lb/>404. Or, Waſh the Parts with Juice of <hi rend="italic">Ca- <lb/>lamint</hi>. </item>
+            <item rend="hanging">
+              <lb/>405. Or, Mix well an Ounce of <hi rend="italic">Pomatum</hi>, <lb/>a Dram of
+              powder'd <hi rend="italic">Brimſtone</hi>, and half <lb/>an Ounce of <hi rend="italic"
+                >Sal Prunellæ</hi>: and anoint the <lb/>Parts ſo long as there is need. </item>
+            <item rend="hanging">
+              <lb/>406. Or, Add a Pint of Juice of <hi rend="italic">Houſeleek</hi>, <lb/>and half a
+              pint of <hi rend="italic">Verjuice</hi>, to a Pint and <lb/>a half of Poſſet-drink.
+              Drink up this in <lb/>twenty-four hours. It cures alſo the <lb/><hi rend="italic"
+                >Quinſy</hi>, and all ſorts of <hi rend="italic">white Swellings</hi>
+              <lb/>on the Joints. </item>
+            <pb n="78"/>
+            <item rend="hanging">
+              <lb/>407. Or, Drink for a Month a Decoction of <lb/><hi rend="italic">Elm Bark</hi>,
+              morning and evening. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CXXIX. The <hi rend="sc">Lethargy</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>408. Snuff ſtrong <hi rend="italic">Vinegar</hi> up the Noſe, </item>
+            <item rend="hanging">
+              <lb/>409. Or, Powder of <hi rend="italic">White Hellebore</hi>: </item>
+            <item rend="hanging">
+              <lb/>410. Or, Take half a pint of Decoction of <lb/><hi rend="italic">Savoury</hi>,
+              morning and evening: </item>
+            <item rend="hanging">
+              <lb/>411. Or, of Infuſion of <hi rend="italic">Water-Creſſes</hi>. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CXXX. <hi rend="sc">Lice</hi> (to kill). </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>412. Sprinkle <hi rend="italic">Spaniſh Snuff</hi> over the Head, </item>
+            <item rend="hanging">
+              <lb/>413. Or, Waſh it with a Decoction of <hi rend="italic">Ama- <lb/>ranth</hi>.
+            </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="hanging space">
+          <lb/>CXXXI. For one ſeemingly <hi rend="sc">kill'd</hi> with <lb/><hi rend="sc"
+            >Lightning</hi>, or a <hi rend="sc">Damp</hi>: or <hi rend="sc">Suffo- <lb/>cated</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>414. Plunge him immediately into <hi rend="italic">Cold <lb/>Water</hi>, </item>
+            <item rend="hanging">
+              <lb/>415. Or, <hi rend="italic">Blow</hi> ſtrongly with Bellows down <lb/>his Throat.
+            </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CXXXII. <hi rend="sc">Lunacy</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>416. Give Decoction of <hi rend="italic">Agrimony</hi> four <lb/>times a day, </item>
+            <pb n="79"/>
+            <item rend="hanging">
+              <lb/>417. Or, of <hi rend="italic">Pimpernell</hi>; </item>
+            <item rend="hanging">
+              <lb/>418. Or, Juice of <hi rend="italic">Ground-ivy</hi> three Ounces <lb/>daily. </item>
+            <item rend="hanging">
+              <lb/>419. Or, Boil Juice of <hi rend="italic">Ground-ivy</hi> with <lb/>ſweet Oil and
+              white Wine into an Oint- <lb/>ment. Shave the Head, anoint it there- <lb/>with, and
+              chafe it in warm, every other <lb/>Day for three Weeks. Bruiſe alſo the <lb/>Leaves
+              and bind them on the Head, and <lb/>give three ſpoonfuls of the Juice warm <lb/>every
+              morning. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CXXXIII. <hi rend="sc">Raging Madness</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>420. Keep on the Head a Cap fill'd with <lb/><hi rend="italic">Snow</hi>, for two
+              or three Weeks: </item>
+            <item rend="hanging">
+              <lb/>421. Or, Set the Patient with his Head <lb/>under a Great <hi rend="italic"
+                >Water-fall</hi>, as long as his <lb/>Strength will bear: </item>
+            <item rend="hanging">
+              <lb/>422. Or, Let him eat nothing but <hi rend="italic">Apples</hi>
+              <lb/>for a Month: </item>
+            <item rend="hanging">
+              <lb/>423. Or, Give Juice and Decoction of <lb/><hi rend="italic">Hearts-eaſe</hi>
+              daily. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CXXXIV. The <hi rend="sc">Bite</hi> of a <hi rend="sc">Mad Dog</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>424. Plunge into <hi rend="italic">cold Water</hi>, and keep as <lb/>long under
+              it, as can be done without <lb/>drowning. </item>
+            <pb n="80"/>
+            <item rend="hanging">
+              <lb/>425. Or, Apply as ſoon as poſſible, Juice <lb/>of <hi rend="italic">Fig-tree</hi>
+              made into an Ointment with <lb/><hi rend="italic">Hogs-greaſe</hi>. </item>
+            <item rend="hanging">
+              <lb/>426. Or, Apply Juice of <hi rend="italic">Dracuntia</hi> mixt <lb/>with <hi
+                rend="italic">Vinegar</hi>, outwardly, and drink of the <lb/>ſame morning and
+              evening, five or ſix <lb/>Days. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CXXXV. The <hi rend="sc">Measles</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>427. Drink only thin <hi rend="italic">Water-gruel</hi>, or <hi rend="italic"
+                >Milk <lb/>and Water</hi>, the more the better, or, <hi rend="italic">Toaſt <lb/>and
+                Water</hi>. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CXXXVI. <hi rend="sc">Menses Obstructed</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>428. Take half a pint of Decoction of <lb/><hi rend="italic">Penny-royal</hi>
+              every night at going to Bed. </item>
+            <item rend="hanging">
+              <lb/>429. Or, a ſpoonful of Juice or Syrup of <lb/><hi rend="italic">Brooklime</hi>,
+              morning and evening. </item>
+            <item rend="hanging">
+              <lb/>430. Or, a Tea-ſpoonful of <hi rend="italic">Columbine Seeds</hi>
+              <lb/>powder'd, thrice a Day. </item>
+            <item rend="hanging">
+              <lb/>431. Or, Boil five large Heads of <hi rend="italic">Hemp</hi> in <lb/>a Pint of
+              Water to half. Strain it, and <lb/>drink it going to bed two or three Nights. <lb/>It
+              ſeldom fails. </item>
+            <item rend="hanging">
+              <lb/>432. Or, Burn a little <hi rend="italic">Sulphur of Antimony</hi>
+              <lb/>on a Chafing-diſh of Coals, and receive <lb/>the Smoke by a Funnel. In a few mi-
+              <lb/>nutes it will take effect. </item>
+          </list>
+        </p>
+      </div>
+      <pb n="81"/>
+      <div>
+        <head rend="align-center space">
+          <lb/>CXXXVII. <hi rend="sc">Menses Nimii</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>433. Drink nothing but <hi rend="italic">cold Water</hi>. At <lb/>the Time, drink
+              a Glaſs of the coldeſt <lb/>Water you can get, and apply a thick <lb/>Cloth dipt in
+                <hi rend="italic">cold Water</hi>. </item>
+            <item rend="hanging">
+              <lb/>434. Or, Put the Feet into <hi rend="italic">cold Water</hi>. </item>
+            <item rend="hanging">
+              <lb/>435. Or, Drink daily a quarter of a pint of <lb/>Decoction of <hi rend="italic"
+                >Cinque-foil</hi>: </item>
+            <item rend="hanging">
+              <lb/>436. Or, Uſe daily Decoction, Syrup, or <lb/>Powder of <hi rend="italic"
+                >Horſe-tail</hi>. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CXXXVIII. To reſolve <hi rend="sc">Coagulated <lb/>Milk</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>437. Cover the Woman with a Table-cloth, <lb/>and hold a Pan of <hi rend="italic"
+                >hot Water</hi> juſt under <lb/>her Breaſt. Then ſtroke it three or four
+              <lb/>Minutes. Do this twice a day till it is <lb/>cured. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CXXXIX. To increaſe <hi rend="sc">Milk</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>438. Drink a Pint of <hi rend="italic">Water</hi>, going to <lb/>bed: </item>
+            <item rend="hanging">
+              <lb/>439. Or, Drink largely of Pottage made <lb/>with <hi rend="italic">Lentils</hi>.
+            </item>
+          </list>
+        </p>
+      </div>
+      <pb n="82"/>
+      <div>
+        <head rend="align-center space">
+          <lb/>CXL. To make <hi rend="sc">Milk</hi> agree with the <lb/><hi rend="sc">Stomach</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>440. If it lie heavy, put <hi rend="italic">Salt</hi> in it; if it <lb/>curdle
+                <hi rend="italic">Sugar</hi>. For Bilious Perſons, mix <lb/>it with <hi
+                rend="italic">Water</hi>. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CXLI. An old ſtubborn <hi rend="sc">Pain</hi> in the <lb/><hi rend="sc">Back</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>441. Steep Root of <hi rend="italic">Water Fern</hi> in Water, <lb/>till the
+              Water become thick and clammy. <lb/>Then rub the Parts therewith morning <lb/>and
+              evening. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CXLII. The <hi rend="sc">Palsy</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>442. Uſe the <hi rend="italic">Cold Bath</hi>, rubbing and ſweat- <lb/>ing after
+              it. </item>
+            <item rend="hanging">
+              <lb/>443. Or, Shred <hi rend="italic">white Onions</hi>, and bake them <lb/>gently in
+              an earthen Pot, till they are ſoft. <lb/>Spread a thick Plaiſter of this, and apply
+              <lb/>it to the benumb'd Part: all over the ſide, <lb/>if need be. <hi rend="italic"
+                >I</hi>. </item>
+            <item rend="hanging">
+              <lb/>444. Or, Take <hi rend="italic">Tar-wate</hi>r, morning and <lb/>evening: </item>
+            <item rend="hanging">
+              <lb/>445. Or, Boil <hi rend="italic">White</hi> and <hi rend="italic">Red Sage</hi>, a
+              hand- <lb/>ful of each in a Quart of <hi rend="italic">white Wine</hi>. <lb/>Strain
+              and bottle it. Take a ſmall Glaſs <pb n="83"/>
+              <lb/>morning and evening. (This helps all <lb/>Nervous Diſorders.) </item>
+            <item rend="hanging">
+              <lb/>446. Or, Apply to the Parts boil'd <hi rend="italic">Sage <lb/>leaves</hi> hot:
+              and drink Decoction of <hi rend="italic">Sage</hi>
+              <lb/>morning and evening. </item>
+            <item rend="hanging">
+              <lb/>447. Or, Drink Decoction of <hi rend="italic">Wood Betony</hi>
+              <lb/>morning and evening. </item>
+            <item rend="hanging">
+              <lb/>448. Or, of <hi rend="italic">Water-dock</hi>, applying the <hi rend="italic"
+                >boil'd <lb/>Leaves</hi>. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CXLIII. <hi rend="sc">Palsy</hi> of the <hi rend="sc">Hands</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>449. Waſh them often in Decoction of <hi rend="italic">Sage</hi>
+              <lb/>as hot as you can bear. </item>
+            <item rend="hanging">
+              <lb/>450. Or, Boil a handful of <hi rend="italic">Elder leaves</hi>, and <lb/>two or
+              three ſpoonfuls of <hi rend="italic">Muſtard ſeed</hi> in <lb/>a Quart of Water. Waſh
+              often in this, <lb/>as hot as may be. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">CXLIV. <hi rend="sc">Palsy</hi> of the <hi rend="sc"
+            >Mouth</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>451. After Purging well, chew <hi rend="italic">Muſtard ſeed</hi>
+              <lb/>often; </item>
+            <item rend="hanging">
+              <lb/>452. Or, <hi rend="italic">Pellitory</hi> of <hi rend="italic">Spain</hi>: </item>
+            <item rend="hanging">
+              <lb/>453. Or, Hold in your Mouth half an ounce <lb/>of <hi rend="italic">Spirit of
+                Lavender</hi>. </item>
+            <item rend="hanging">
+              <lb/>454. Or, Gargle with Juice of <hi rend="italic">Wood ſage</hi>. </item>
+          </list>
+        </p>
+      </div>
+      <pb n="84"/>
+      <div>
+        <head rend="align-center space">
+          <lb/>CXLV. The <hi rend="sc">Palpitation</hi> of the <lb/><hi rend="sc">Heart</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>455. Drink a Pint of <hi rend="italic">Cold Water. </hi>
+            </item>
+            <item rend="hanging">
+              <lb/>456. Or, Apply outwardly <hi rend="italic">Balm Leaves</hi>
+              <lb/>ſprinkled with <hi rend="italic">Vinegar</hi>. </item>
+            <item rend="hanging">
+              <lb/>457. Or, take Decoction, or Powder of <lb/><hi rend="italic">Mother Wort</hi>
+              every Night. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CXLVI. The <hi rend="sc">Piles</hi>, (to prevent.) </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>458. Waſh the Parts often with <hi rend="italic">Cold Water</hi>. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CXLVII. The <hi rend="sc">Piles</hi>, (to cure.) </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>459. Apply warm <hi rend="italic">Treacle</hi>. </item>
+            <item rend="hanging">
+              <lb/>460. Or, a <hi rend="italic">Tobacco Leaf</hi> ſteept in Water <lb/>twenty four
+              Hours. </item>
+            <item rend="hanging">
+              <lb/>461. Or, a Poultis of boil'd <hi rend="italic">Brook-Iime</hi>. It <lb/>ſeldom
+              fails. </item>
+            <item rend="hanging">
+              <lb/>462. Or, a bruiſed <hi rend="italic">Onion</hi> ſkin'd: (It per- <lb/>fectly
+              cures the dry Piles.) </item>
+            <item rend="hanging">
+              <lb/>463. Or, <hi rend="italic">Varniſh</hi>. It perfectly cures both <lb/>the blind
+              and bleeding Piles. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CXLVIII. The <hi rend="sc">Inward Piles</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>464. Drink largely of <hi rend="italic">Treacle</hi> and <hi rend="italic"
+                >Water</hi>. </item>
+            <pb n="85"/>
+            <item rend="hanging">
+              <lb/>465. A Spoonful of Juice of <hi rend="italic">Yarrow</hi>, or <lb/>of <hi
+                rend="italic">Leeks</hi>, drank three or four Mornings, <lb/>cures Inward <hi
+                rend="italic">bleeding</hi> Piles. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CXLIX. The <hi rend="sc">Plague</hi>, (to prevent.) </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>466. Eat <hi rend="italic">Marigold Flowers</hi> daily, as a Sal- <lb/>lad, with
+              Oil and Vinegar. </item>
+            <item rend="hanging">
+              <lb/>467. Or, a little of the Tops of <hi rend="italic">Rue</hi> with <lb/>Bread and
+              Butter, every Morning. </item>
+            <item rend="hanging">
+              <lb/>468. Or, Infuſe <hi rend="italic">Rue</hi>, <hi rend="italic">Sage</hi>, <hi
+                rend="italic">Mint</hi>, <hi rend="italic">Roſe- <lb/>mary</hi>, <hi rend="italic"
+                >Wormwood</hi>, of each a handful, in <lb/>two quarts of the ſharpeſt <hi
+                rend="italic">Vinegar</hi>, over <lb/>warm Embers for eight Days. Then <lb/>ſtrain
+              it through a Flannel, and add half <lb/>an Ounce of <hi rend="italic">Camphire</hi>,
+              diſſolved in three <lb/>Ounces of rectify'd <hi rend="italic">Spirits of Wine</hi>.
+              With <lb/>this waſh the Loins, Face, and Mouth, <lb/>and ſnuff a little up the Noſe
+              when you <lb/>go abroad. Smell to a Spunge dipt <lb/>therein, when you approach
+              infected Per- <lb/>ſons or Places. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CL. The <hi rend="sc">Plague</hi>, (to cure.) </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>469. <hi rend="italic">Cold Water</hi> alone, drank largely, has <lb/>cured it: </item>
+            <item rend="hanging">
+              <lb/>470. Or, an Ounce or two of the Juice of <lb/><hi rend="italic">Marigolds</hi>: </item>
+            <pb n="86"/>
+            <item rend="hanging">
+              <lb/>471. Or, take a Dram of <hi rend="italic">Angelica</hi> powder'd <lb/>every ſix
+              hours. It is a ſtrong Sweat. </item>
+            <item rend="hanging">
+              <lb/>472. Or, After bleeding fifty or ſixty Oun- <lb/>ces, drink very largely of <hi
+                rend="italic">Water</hi> ſharpen'd <lb/>with Spirit of <hi rend="italic"
+                >Vitriol</hi>: </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CLI. The <hi rend="sc">Pleurisy</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>473. Apply <hi rend="italic">Onions</hi> roaſted in the Embers, <lb/>mixt with
+                <hi rend="italic">Cream</hi>. </item>
+            <item rend="hanging">
+              <lb/>474. Or, Take the Core out of an Apple, <lb/>fill it with white <hi rend="italic"
+                >Frankincenſe</hi>; ſtop it <lb/>cloſe with the piece you cut out, and roaſt <lb/>it
+              in Aſhes. Maſh and eat it. <hi rend="italic">I</hi>. </item>
+            <item rend="hanging">
+              <lb/>475. Or, Drink a Quart of <hi rend="italic">Cold Water</hi>. </item>
+            <item rend="hanging">
+              <lb/>476. Or, a Glaſs of <hi rend="italic">Tar-water</hi> warm every <lb/>half hour. </item>
+            <item rend="hanging">
+              <lb/>477. Or, Of Decoction of <hi rend="italic">Nettles</hi>: and ap- <lb/>ply the
+              Herb hot, as a Poultis. <hi rend="italic">I</hi>. </item>
+            <item rend="hanging">
+              <lb/>478. Or, Take a Dram of <hi rend="italic">Corn-poppies</hi>
+              <lb/>powder'd in warm Water. <hi rend="italic">I</hi>. </item>
+            <item rend="hanging">
+              <lb/>479. Or, <gap/> of <hi rend="italic">Burdock Root</hi>. </item>
+            <item rend="hanging">
+              <lb/>480. Or, take half a Dram of <hi rend="italic">Olibanum</hi>, in <lb/>warm water
+              every four hours. </item>
+            <item rend="hanging">
+              <lb/>481. Or, from a Scruple to a Dram of <lb/>powder'd <hi rend="italic"
+                >Olibanum</hi>, in the Pulp of a <lb/>roaſted apple. </item>
+          </list>
+        </p>
+      </div>
+      <pb n="87"/>
+      <div>
+        <head rend="align-center space">
+          <lb/>CLII. A <hi rend="sc">Prick</hi> or <hi rend="sc">Cut</hi> that feſters. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>482. Apply <hi rend="italic">Turpentine</hi>. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CLIII. An eaſy <hi rend="sc">Purge</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>483. Drink a Pint of <hi rend="italic">Water</hi> faſting, walk- <lb/>ing after
+              it. </item>
+            <item rend="hanging">
+              <lb/>484. Or, infuſe from half a Dram to two <lb/>Drams of <hi rend="italic">Damaſk
+                Roſe-leaves</hi> dried, in <lb/>half a Pint of warm Water for twelve <lb/>hours. </item>
+            <item rend="hanging">
+              <lb/>485. Or, Infuſe three Drams of <hi rend="italic">Senna</hi>, and <lb/>a Scruple
+              of <hi rend="italic">Salt</hi> of <hi rend="italic">Tartar</hi>, in half a pint
+              <lb/>of warm River Water for twelve Hours. <lb/>Then ſtrain and take it in the
+              Morning. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CLIV. A Stronger <hi rend="sc">Purge</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>486. Drink half a Pint of ſtrong Decoction <lb/>of <hi rend="italic">Dock
+                root</hi>. </item>
+            <item rend="hanging">
+              <lb/>487. Or, Two Ounces of the powder'd <lb/>Root of <hi rend="italic">Monks
+                Rhubarb</hi>, with a Scruple <lb/>of <hi rend="italic">Ginger</hi>. </item>
+          </list>
+        </p>
+      </div>
+      <pb n="88"/>
+      <div>
+        <head rend="align-center space">
+          <lb/>CLV. The <hi rend="sc">Quinsy</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>488. Apply a large white bread Toast, <lb/>half an Inch thick, dipt in <hi
+                rend="italic">Brandy</hi> to the <lb/>Crown of the Head till it dries. </item>
+            <item rend="hanging">
+              <lb/>489. Or, Drink a Quart of <hi rend="italic">Cold water</hi> ly- <lb/>ing down in
+              Bed. </item>
+            <item rend="hanging">
+              <lb/>490. Or, Swallow ſlowly Decoction of <lb/><hi rend="italic">Houſe-leek</hi>: </item>
+            <item rend="hanging">
+              <lb/>491. Or, <hi rend="italic">White Roſe-water</hi>, mixt with <lb/>Syrup of <hi
+                rend="italic">Mulberries</hi>. </item>
+            <item rend="hanging">
+              <lb/>492. Or, Take a ſpoonful of the Juice of <lb/><hi rend="italic">Cinque-foil</hi>,
+              every two Hours. </item>
+            <item rend="hanging">
+              <lb/>493. Or, a glaſs of Decoction of <hi rend="italic">Water- <lb/>dock</hi>. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CLVI. The <hi rend="sc">Rheumatism</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>494. Uſe the <hi rend="italic">Cold Bath</hi>, with Rubbing and <lb/>Sweating. </item>
+            <item rend="hanging">
+              <lb/>495. Or, Rub in warm <hi rend="italic">Treacle</hi>, and apply <lb/>to the Part a
+              brown Paper ſmear'd there- <lb/>with </item>
+            <item rend="hanging">
+              <lb/>496. Or, drink very largely of <hi rend="italic">warm Water</hi>
+              <lb/>in Bed. </item>
+            <item rend="hanging">
+              <lb/>497.Or, <hi rend="italic">Tar water</hi>, morning and even- <lb/>ing. </item>
+            <item rend="hanging">
+              <lb/>498. Or, Take Morning and Evening, as <pb n="89"/>
+              <lb/>much <hi rend="italic">Lignum Guaiacum</hi> powder'd, as lies <lb/>on a Shilling. </item>
+            <item rend="hanging">
+              <lb/>499. Or, as much <hi rend="italic">Flour</hi> of <hi rend="italic">Sulphur</hi>,
+              waſh- <lb/>ing it down with Decoction of <hi rend="italic">Lignum <lb/>Guaiacum</hi>: </item>
+            <item rend="hanging">
+              <lb/>500. Or, take a Glaſs of <hi rend="italic">Muſtard Water</hi>, <lb/>Morning and
+              Evening. </item>
+            <item rend="hanging">
+              <lb/>501. Or, of Water in which two ſpoonfuls <lb/>of ſcraped <hi rend="italic"
+                >Horſe-radiſh</hi> have been ſteep'd <lb/>for twenty four hours. </item>
+            <item rend="hanging">
+              <lb/>502. Or, drink a half a Pint <gap reason="illegible"/> Decoction <lb/>of young
+              Leaves of <hi rend="italic">Holly</hi>, ſweeten'd <lb/>with <hi rend="italic"
+                >Treacle</hi><choice>
+                <corr>,</corr>
+                <sic>.</sic>
+              </choice> thrice a Day, lying in Bed. <lb/>Drink plenty of Toaſt and Water with
+              <lb/>it, and ſweat. </item>
+            <item rend="hanging">
+              <lb/>503. Or, chew <hi rend="italic">Rhubarb</hi> two hours a Day, <lb/>and ſwallow
+              your Spittle: </item>
+            <item rend="hanging">
+              <lb/>504. Or, Live on <hi rend="italic">New Milk Whey</hi> and <lb/><hi rend="italic"
+                >White Bread</hi> for fourteen Days. This <lb/>has cured in a deſperate Caſe.
+            </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CLVII. The <hi rend="sc">Rickets</hi>, (to prevent <lb/>or cure.) </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>505. Waſh the Child every Morning in <lb/><hi rend="italic">Cold Water</hi>.
+            </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CLVIII. <hi rend="sc">Ring-Worms</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>506. Rub them with <hi rend="italic">Oil of Paper</hi>. </item>
+            <pb n="90"/>
+            <item rend="hanging">
+              <lb/>507. Or, with Juice of <hi rend="italic">Houſe-leek</hi>: </item>
+            <item rend="hanging">
+              <lb/>508. Or, waſh them with Decoction of <lb/><hi rend="italic">Soap-wort</hi>.
+            </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CLIX. A <hi rend="sc">Rupture</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>509. Take <hi rend="italic">Agrimony</hi>, <hi rend="italic">Spleen-wort</hi>,
+                <hi rend="italic">Solomon's <lb/>Seal</hi>, <hi rend="italic">Straw-berry
+              Roots</hi>, a handful each; <lb/>pick and waſh them well; ſtamp and <lb/>boil them two
+              Hours, in two Quarts of <lb/>White Wine <unclear>in</unclear> a Veſſel cloſe ſtopt.
+              Strain <lb/>and drink a large glaſs of this every <lb/>Morning, and an Hour after
+              drink ano- <lb/>ther. It commonly cures in a Fort- <lb/>night. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CLX. A <hi rend="sc">Fresh Rupture</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>510. Take Decoction of <hi rend="italic">Plantane Leaves</hi>
+              <lb/>morning and evening. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CLXI. A <hi rend="sc">Rupture</hi> in <hi rend="sc">Children</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>511. Boil a Spoonful of <hi rend="italic">Egg Shells</hi> dried in <lb/>an Oven,
+              and powder'd, in a Pint of <lb/>Milk to three quarters of a Pint. Feed <lb/>the Child
+              conſtantly with Bread boil'd in <lb/>this Milk. </item>
+          </list>
+        </p>
+      </div>
+      <pb n="91"/>
+      <div>
+        <head rend="align-center space">
+          <lb/>CLXII. A <hi rend="sc">Windy Rupture</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>512. Warm <hi rend="italic">Cow dung</hi> well. Spread it <lb/>thick on Leather,
+              ſtrowing ſome <hi rend="italic">Cummin</hi>- <lb/>ſeeds on it, and apply it hot. When
+              <lb/>cold put on a new one. It commonly <lb/>cures a Child (keeping his Bed) in two
+              <lb/>Days. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CLXIII. A <hi rend="sc">Scald Head</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>513. Anoint it with <hi rend="italic">Barbadoes Tar</hi>. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CLXIV. The <hi rend="sc">Sciatica</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>514. Uſe <hi rend="italic">Cold bathing</hi>, and Sweat. </item>
+            <item rend="hanging">
+              <lb/>515. Or, apply Leaves of <hi rend="italic">Ranunculus</hi> brui- <lb/>ſed, for
+              ſix hours. </item>
+            <item rend="hanging">
+              <lb/>516. Or, Flannels dipt in <hi rend="italic">Stale Lie</hi>, boil'd <lb/>with
+              Salt, as hot as you can bear, for an <lb/>hour. </item>
+            <item rend="hanging">
+              <lb/>517. Or, Boil <hi rend="italic">Nettles</hi> till ſoft. Foment <lb/>with the
+              Liquor; then apply the Herbs <lb/>as a Poultis. </item>
+            <item rend="hanging">
+              <lb/>518. Or, apply <hi rend="italic">Quick Lime</hi> mixt with ſoft <lb/><hi
+                rend="italic">Soap</hi>: </item>
+            <item rend="hanging">
+              <lb/>519. <q rend="quotes">Many have been cured in four or <lb/>five days, only by
+                drinking half a Pint <pb n="92"/>
+                <lb/>of <hi rend="italic">Cold water</hi> daily, in the Morning, and <lb/>at four in
+                the Afternoon. </q>
+            </item>
+            <item rend="hanging">
+              <lb/>520. Or, Boil <hi rend="italic">Calamint</hi>, (otherwiſe called <lb/><hi
+                rend="italic">Pepper-mint</hi>.) Apply this as a Poultis, <lb/>ſhifting it daily.
+              Mean time drink a <lb/>Decoction of it morning and evening. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CLXV. Inflammations or Swellings of <lb/>the <hi rend="sc">Scrotum</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>521. Wash it thrice a Day with ſtrong De- <lb/>coction of <hi rend="italic"
+                >Agrimony</hi>. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CLXVI. A <hi rend="sc">Scorbutick Atrophy</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>522. Uſe <hi rend="italic">Cold Bathing</hi>: Which alſo cures <lb/>all </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CLXVII. <hi rend="sc">Scorbutick Pains</hi>. </head>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CLXVIII. <hi rend="sc">Scorbutick Sores</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>524. Put half a Pint of freſh-ſhaved <hi rend="italic">Lig- <lb/>num vitæ</hi>,
+              and half an Ounce of <hi rend="italic">Senna</hi>
+              <lb/>into an Earthen Pot, that holds ſix Quarts. <lb/>Add five Quarts of ſoft Water,
+              and lute <lb/>the Pot cloſe. Set this in a Kettle of <lb/>Cold Water, and put it over
+              a Fire, till <lb/>it has boiled three hours. Let it ſtand <lb/>in the Kettle till
+              cold. When it has ſtood <pb n="93"/>
+              <lb/>one Night, drink daily half a pint, new- <lb/>milk warm, Faſting, and at Four in
+              the <lb/>Afternoon. Walk a little after it. In <lb/>three Months, all the Sores will
+              be dried <lb/>up. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CLXIX. The <hi rend="sc">Scurvy</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>525. Live on <hi rend="italic">Turnips</hi> for a Month: </item>
+            <item rend="hanging">
+              <lb/>526. Or, on an entire <hi rend="italic">Milk-diet</hi>, for ſix <lb/>Months. </item>
+            <item rend="hanging">
+              <lb/>527. Or, Take <hi rend="italic">Tar-water</hi> morning and <lb/>evening, for
+              three Months. </item>
+            <item rend="hanging">
+              <lb/>528. Or, Infuſion of <hi rend="italic">Horſe-radiſh</hi>. </item>
+            <item rend="hanging">
+              <lb/>529. Or, Decoction of <hi rend="italic">Fumitory</hi>: </item>
+            <item rend="hanging">
+              <lb/>530. Or, of the Great <hi rend="italic">Water-Dock</hi>: </item>
+            <item rend="hanging">
+              <lb/>531. Or, Infuſe dried <hi rend="italic">Dock-Roots</hi> in your <lb/>common
+              Drink. </item>
+            <item rend="hanging">
+              <lb/>532. Or, Uſe Infuſion, or Powder of <hi rend="italic">Wall <lb/>Rue</hi>, morning
+              and evening. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CLXX. <hi rend="sc">Sickishness</hi> in the <hi rend="sc">Morning</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>533. Eat nothing after Six in the Evening. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CLXXI. <hi rend="sc">Skin rubb'd off</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>534. Apply pounded <hi rend="italic">Self-head</hi>. It ſeldom <lb/>needs
+              repeating. </item>
+          </list>
+        </p>
+      </div>
+      <pb n="94"/>
+      <div>
+        <head rend="align-center space">
+          <lb/>CLXXII. <hi rend="sc">Small Pox</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>535. Drink largely of <hi rend="italic">Toaſt and Water</hi>: </item>
+            <item rend="hanging">
+              <lb/>536. Or, Let your conſtant Drink be <hi rend="italic">Milk <lb/>and Water</hi>. </item>
+            <item rend="hanging">
+              <lb/>537. The beſt Food is <hi rend="italic">Milk</hi> and <hi rend="italic"
+                >Apples</hi>. </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CLXXIII. A <hi rend="sc">Sore Mouth</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>538. Apply the White of an <hi rend="italic">Egg</hi>, beat up <lb/>with <hi
+                rend="italic">Loaf Sugar</hi>. </item>
+            <item rend="hanging">
+              <lb/>539. Or, Gargle with Juice of <hi rend="italic">Cinquefoil</hi>: </item>
+          </list>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>CLXXIV. A <hi rend="sc">Sore Throat</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>540. Apply a Chin-ſtay of <hi rend="italic">roaſted Figs</hi>. </item>
+            <item rend="hanging">
+              <lb/>541. Or, Take a Pint of <hi rend="italic">cold Water</hi>, lying <lb/>down in
+              Bed. </item>
+            <item rend="hanging">
+              <lb/>542. Or, Gargle with <hi rend="italic">Roſe Water</hi>, and Sy- <lb/>rup of <hi
+                rend="italic">Mulberries</hi>: </item>
+            <item rend="hanging">
+              <lb/>543. Or, Snuff a little <hi rend="italic">Honey</hi> up the Noſe. </item>
+            <item rend="hanging">
+              <lb/>544. Or, Swallow ſlowly Juice of <hi rend="italic">Cinque- <lb/>foil</hi>: </item>
+            <item rend="hanging">
+              <lb/>545. An old Sore Throat was cured by liv- <lb/>ing wholly on <hi rend="italic"
+                >Apples</hi> and <hi rend="italic">Apple-water</hi>. </item>
+          </list>
+        </p>
+      </div>
+      <pb n="95"/>
+      <div>
+        <head rend="align-center space">
+          <lb/>CLXXV. To draw a <hi rend="sc">Splinter</hi>. </head>
+        <p rend="space">
+          <list>
+            <item rend="hanging">
+              <lb/>546. Apply a Poultis of <hi rend="italic">chew'd Bread</hi>. </item>
+            <item rend="hanging">
+              <lb/>547. Or, a little <hi rend="italic">Turpentine</hi>. </item>
+          </list>
+        </p>
+      </div>
+      <gap reason="sampling" unit="pages" quantity="24"/>
+    </body>
+  </text>
+</TEI>

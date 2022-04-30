@@ -1,0 +1,1190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LMEMT Corpus - Trusler: An Easy Way to Prolong Life</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>John Trusler</persName>
+            </author>
+            <title type="main">An Easy Way to Prolong Life, By a Little Attention to What we Eat and
+              Drink: containing, A Chemical Analysis, or, an Enquiry into the Nature and Properties,
+              of all Kinds of Food; how far they are wholesome, and agree with different
+              Constitutions: with Some Directions respecting our Way of Living. Collected from the
+              Authorities of some of our Ablest Physicians. By a Medical Gentleman.</title>
+            <edition n="2"/>
+            <idno type="ESTC">T54922</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/T54922"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>London: printed for the author, and sold by J. Bell, near Exeter-Exchange,
+                  in the Strand.</persName>
+              </publisher>
+              <date>1775</date>
+            </imprint>
+            <extent>
+              <measure type="format">8⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="3"/>
+              <measure type="count" commodity="body" unit="page" quantity="79"/>
+              <measure type="count" commodity="back" unit="page" quantity="3"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">British Library</orgName>
+            <idno type="ECCO">CW107367189</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Health guide"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text type="book" rend="roman" xml:lang="eng">
+    <gap reason="sampling" unit="pages" quantity="3"/>
+    <body>
+      <pb n="1"/>
+      <figure rend="space">
+        <figDesc>A horizontal triple line, spanning the whole page. </figDesc>
+      </figure>
+      <head rend="align-center space">
+        <lb/>AN <lb/>
+        <lb/><hi rend="size(2)">EAS Y WAY </hi>
+        <lb/>
+        <lb/><hi rend="size(0.5)">TO PROLONG</hi>
+        <lb/>
+        <lb/><hi rend="size(1.5)">LIFE. </hi>
+      </head>
+      <p rend="space">
+        <lb/><hi rend="dc(2)">H</hi>EALTH being the greateſt bleſſing <lb/>upon earth, it is natural
+        to imagine, we <lb/>ſhould be ſtudious to preſerve it; and yet, if <lb/>we take a view of
+        the actions and conduct of <lb/>mankind in general, we are led to ſuppoſe that <lb/>it is
+        not the greateſt good. Inſtead of paying <lb/>any regard to it, we frequently indulge our
+        <lb/>appetites, at the expence of our conſtitutions. <lb/>The human body is a piece of
+        mechaniſm, that <lb/>requires care and attention. It may be com- <lb/>pared to clock-work,
+        which, if not kept free <lb/>from duſt and other extraneous, injurious <lb/>ſubſtances, will
+        preſently be out of order. <lb/>Life is, generally ſpeaking, ſhortened or pro- <lb/>longed,
+        according to the care we take of it. </p>
+      <p rend="indent space">
+        <lb/>In the firſt age of the world, the life of man <lb/>was nearly a thouſand years; but
+        after the flood, <pb n="2"/>
+        <lb/>it was abreviated to half its length. Three gene- <lb/>rations later, it was reduced to
+        one fourth of its <lb/>original term, and man ſeldom lived above two <lb/>hundred years.
+        About the time of Moſes, it <lb/>became ſhorter ſtill, commonly not exceeding <lb/>one
+        hundred and twenty years, and now, it is <lb/>reduced to little more than half that period. </p>
+      <p rend="indent space">
+        <lb/>But, though we find this gradual declenſion <lb/>in the ſeveral ages of the world; yet
+        we muſt <lb/>underſtand, that it was not <hi rend="italic">equally</hi> ſo, in all
+        <lb/>parts, at the ſame time; for difference of cli- <lb/>mate, and difference of living,
+        cauſed a dif- <lb/>ference in the length of life. Hence, ſome of <lb/>the inhabitants of the
+        earth lived three times <lb/>or four times as long as others. </p>
+      <p rend="indent space">
+        <lb/>Now, why the days of man ſhould be thus <lb/>ſhortened, and his term of life ſo much
+        re- <lb/>duced, is an object worth our enquiry: and, if <lb/>we compare the manner of our
+        living now, <lb/>with that of the firſt age of the world, we ſhall <lb/>ſee evident reaſons
+        for it; every generation hav- <lb/>ing, more and more, impaired its conſtitution by <lb/>a
+        degenerate courſe of living, incompatible <lb/>with the laws of nature. And as we muſt, of
+        <lb/>neceſſity, admit of hereditary infirmities, we <lb/>have reaſon to expect, (unleſs by
+        great refor- <lb/>mation of the injurious cuſtoms of later ages,) <lb/>that life in future
+        will be ſhorter ſtill. </p>
+      <pb n="3"/>
+      <p rend="indent">
+        <lb/>'Tis true, there is another rational cauſe, <lb/>namely, that when the number of men
+        upon <lb/>the earth was ſmall, it was neceſſary their life <lb/>ſhould be prolonged, for the
+        purpoſes of popu- <lb/>lation; but as they increaſed, this became no <lb/>longer neceſſary,
+        and the wiſdom of the Crea- <lb/>tor found it requiſite to ſhorten their days, <lb/>leſt the
+        earth ſhould be overſtocked. For <lb/>were men to live nine hundred years now, <lb/>with the
+        preſent encreaſe of the ſpecies, there <lb/>could not be proviſion for one tenth part of
+        <lb/>their number. But, notwithſtanding this, it is <lb/>a matter of melancholy
+        conſideration, to think, <lb/>how much longer a man might live, with tem- <lb/>perance, than
+        he does, at preſent; and how <lb/>ſoon the gratification of a little momentary <lb/>pleaſure
+        hurries him out of life, perhaps to the <lb/>deſtruction of his family, and the loſs of hap-
+        <lb/>pineſs hereafter. </p>
+      <p rend="indent space">
+        <lb/>In the infancy of the world, man ſought only <lb/>after the neceſſary requiſites of his
+        being, and <lb/>was contented with that competent ſubſiſtence, <lb/>which nature required;
+        but, in proceſs of time <lb/>he grew diſſatisfied with the bare neceſſaries of <lb/>life,
+        (that wholeſome proviſion that would <lb/>have greatly prolonged it,) and hunted after
+        <lb/>variety and exceſs, to pleaſe and gratify a <pb n="4"/>
+        <lb/>ſenſual appetite. Thus, one age taught ano- <lb/>ther to be irregular and <hi
+          rend="italic">diſordered</hi>, dictated new <lb/>inventions to ſucceeding generations, and
+        tranſ- <lb/>mitted their ruined practices to the following <lb/>ages to imitate and
+        compleat. </p>
+      <p rend="indent space">
+        <lb/><hi rend="italic">Hinc illæ lachrymæ!</hi> — After this manner, <lb/>and by ſuch means,
+        is the life of man beſet by <lb/>innumerable infirmities and diſeaſes: thus, is <lb/>he cut
+        off, before he is well aware of it. </p>
+      <p rend="indent space">
+        <lb/>Now, as it is natural to man to covet length <lb/>of life, we have reaſon to ſuppoſe,
+        he will be <lb/>glad to pay ſome attention to thoſe things, that <lb/>will either prolong or
+        ſhorten it; and, as length of <lb/>life depends upon health, health is the principal
+        <lb/>thing to be conſidered. </p>
+      <p rend="indent space">
+        <lb/>The practice of phyſic was anciently diſtri- <lb/>buted into three branches; the firſt
+        of which was <lb/>confined to ſurgery; the ſecond, to the admini- <lb/>ſtration of internal
+        remedies; the laſt, to a due re- <lb/>gulation of diet. The two former have, in no <lb/>age,
+        received more uſeful improvement than in <lb/>the preſent. But, it is greatly to be doubted,
+        <lb/>whether or not an attention has been paid to the <lb/>latter, in proportion to its
+        dignity and impor- <lb/>tance. </p>
+      <pb n="5"/>
+      <p rend="indent">
+        <lb/>Many are the cauſes of ill health, but the prin- <lb/>cipal one is the variety and
+        exceſs of food. To <lb/>this then, at preſent, we ſhall turn our enquiries. <lb/>But, before
+        we proceed, it may not be unneceſſary <lb/>to give the reader ſome little inſight into the
+        na- <lb/>ture of digeſtion and the properties of food in <lb/>general. </p>
+      <p rend="indent space">
+        <lb/>When food is thrown down into a healthy <lb/>ſtomach, it naturally diſſolves and
+        ferments, it <lb/>being a natural property of the ſtomach to pro- <lb/>duce fermentation.
+        The aliment being diſſolved <lb/>and fermented, is again rendered ſolid by the juices
+        <lb/>of the ſtomach; and the nutritive fluid being ex- <lb/>pelled from the ſolid part, is
+        paſſed into the inteſ- <lb/>tines, where it is abſorbed by certain veſſels that <lb/>open
+        into them, and is converted into blood. The <lb/>remaining part of the food, being retained
+        in the <lb/>ſtomach, during this proceſs, is afterwards eva- <lb/>cuated. But this
+        fermentation in the body is not <lb/>exactly ſimilar to fermentations out of the body;
+        <lb/>as, in fermentations out of the body, the air <lb/>contained in the ſubſtances
+        fermenting is let <lb/>out, which may be found by experiment; but, <lb/>this is not the caſe
+        in healthy perſons and in <lb/>proper food, within the body; fermentation <lb/>there takes
+        place without any extrication of air. <lb/>In weak ſtomachs, indeed, and in the digeſting of
+          <pb n="6"/>
+        <lb/>ſome particular foods, extrication of air will often <lb/>ſo diſtend the ſtomach, as to
+        occaſion flatulencies <lb/>and pain; but this is always irregular and un- <lb/>natural. </p>
+      <p rend="indent space">
+        <lb/>Now, if ſuch extrication of air ſhould happen, <lb/>or the food we take, be ſuch as
+        will not, in the <lb/>ſtomach, readily diſſolve, ferment, become ſolid, <lb/>or re-diſſolve;
+        or, in ſhort, if it be ſuch as ſhall, in <lb/>any way, reſiſt the powers of the ſtomach,
+        digeſ- <lb/>tion will be imperfect, and the whole ſyſtem diſ- <lb/>ordered; it being only
+        ſuch part of the food as is <lb/>digeſted, that nouriſhes the body. </p>
+      <p rend="indent space">
+        <lb/>If the digeſtive powers of the ſtomach be weak, <lb/>natural fermentation will not take
+        place, but ſuch <lb/>fermentation as we obſerve in flour, when mixt <lb/>with yeſt, that is,
+        the air in the ſubſtances we eat, <lb/>will be extricated; and ſometimes to ſuch a degree
+        <lb/>as to diſtend the ſtomach greatly, and bring on, <lb/>what is called wind, belchings
+        and pain. In this <lb/>caſe vegetables will turn acid, and meat will pu- <lb/>trify, before
+        either of them are paſſed from the ſto- <lb/>mach. This occaſions heart burn, a certain ſign
+        <lb/>of indigeſtion; and, if this weakneſs of the ſto- <lb/>mach continues, and putrefaction
+        runs to a great <lb/>height, ſickneſs, vomiting, and purging will be <lb/>the conſequence,
+        and ſometimes fever. Now, <pb n="7"/>
+        <lb/>ſhould any quantity of this putrid food be abſorbed <lb/>by the veſſels, and, in its
+        paſſage thro' the body, be <lb/>carried into the blood, it will weaken the whole
+        <lb/>ſyſtem, and, if not timely prevented, bring on <lb/>ſuch a general putrefaction of the
+        blood, <hi rend="italic">&amp;c.</hi> as to <lb/>prove fatal. </p>
+      <p rend="indent space">
+        <lb/>If what we eat, be of hard digeſtion, that is, <lb/>ſuch as will not readily diſſolve,
+        or break down, <lb/>or ferment in the ſtomach, either owing to the <lb/>nature of the food,
+        its hard texture, or the weakneſs <lb/>of our digeſtive organs, it will remain too long,
+        <lb/>before it be paſſed off, and produce a ſenſe of <lb/>weight, fullneſs, oppreſſion and
+        cold; as is <lb/>the caſe with ſalted meats in weak ſtomachs. 'Tis <lb/>the ſame, if it will
+        not re-diſſolve, after it is coa- <lb/>gulated or become ſolid. </p>
+      <p rend="indent space">
+        <lb/>So again, if it be too eaſy of digeſtion; that is, <lb/>if it be ſuch as will not
+        remain long enough in the <lb/>ſtomach, owing either to its want of tendency to <lb/>become
+        ſolid again after it is diſſolved; or to the <lb/>ſtrength of the ſtomach preventing it, the
+        nutri- <lb/>tive part will not have time to ſeparate, and the <lb/>body will not be
+        nouriſhed. </p>
+      <p rend="indent space">
+        <lb/>Further, it muſt be obſerved that circulation is <lb/>carried on by a contraction of
+        the heart, driving <lb/>the blood from its cavities into the blood-veſſels, <pb n="8"/>
+        <lb/>which, immediately on receiving it, contract like- <lb/>wiſe, and impel it on, thro'
+        the whole round of <lb/>the ſyſtem, to the heart again. Now, if the heart <lb/>and veſſels
+        contract too quick, or with too much <lb/>force, it occaſions a ſtrong, quick pulſe and
+        fever, <lb/>and will often throw the blood in ſuch quantities <lb/>upon the brain, which is
+        a tender, delicate part, as <lb/>to bring on Stupor, Apoplexy, Delirium, and <lb/>Death:
+        And, it is the property of ſome ſubſtances <lb/>to ſtimulate or encreaſe this action of the
+        heart <lb/>and veſſels; and of others, to diminiſh it. Food <lb/>of a viſcid, clammy nature,
+        glary, like the white of <lb/>an egg, will adhere to the ſides of the ſtomach, <lb/>and, by
+        ſo doing, throw the blood, from other <lb/>parts of the body, in ſuch quantities upon the
+        <lb/>brain as to oppreſs it, and ſometimes occaſion <lb/>Apoplexy. How this is brought
+        about, is un- <lb/>known; but experience ſhews us that it is ſo. </p>
+      <p rend="indent space">
+        <lb/>Perſons have been ſo diſordered by eating <lb/>muſcles, which are of a viſcid nature,
+        that, without <lb/>ſome timely aſſiſtance, they would have died. In <lb/>theſe caſes, the
+        head ſwells, the face becomes of a <lb/>black red, the eyes are ready to ſtart from their
+        <lb/>ſockets, and a Stupor ſucceeds; but by adminiſter- <lb/>ing a vomit, and making the
+        ſtomach diſcharge <lb/>its contents, and by opening the jugular vein, the <lb/>patient has
+        ſometimes recovered. </p>
+      <pb n="9"/>
+      <p rend="indent">
+        <lb/>From hence it appears, that ſome kinds of <lb/>food are wholeſome, others unwholeſome,
+        and <lb/>that there is none univerſally proper. It muſt be <lb/>adapted to the conſtitution. </p>
+      <p rend="indent space">
+        <lb/>Now, there is a period in the life of man, in <lb/>which the organs of digeſtion are
+        weak, and yet, <lb/>at the ſame time, there is a neceſſity for much <lb/>nouriſhment. This
+        period is infancy; for, as <lb/>at this time, the body encreaſes faſt, much nou-
+        <lb/>riſhment is required to help and forward the <lb/>growth: milk being naturally
+        provided, and <lb/>therefore probably adapted to it, we may ſup- <lb/>poſe it to be a food
+        of eaſy digeſtion and conſi- <lb/>derable nouriſhment. Examining then the pro- <lb/>perties
+        of milk, will give us ſome inſight into the <lb/>nature of food in general. </p>
+      <p rend="indent space">
+        <lb/>Milk is not a ſimple ſubſtance; it is a <lb/>mixture of three; namely, coagulable
+        matter, <lb/>expreſſed oil, and ſugar. Coagulable matter is <lb/>that which will unite, and
+        become ſolid, leaving <lb/>the reſt thinner and more fluid, <hi rend="italic">viz.</hi> the
+        curd; and <lb/>expreſſed oil is ſuch as can be procured from any <lb/>ſubſtance by preſſing,
+        as oil of almonds, olives, <lb/>and the like: by expreſſed oil, in milk, we un-
+        <lb/>derſtand the cream. </p>
+      <pb n="10"/>
+      <p rend="indent">
+        <lb/>The moſt ſimple food, then, does not appear <lb/>to be the eaſieſt of digeſtion; if it
+        was, we ſhould <lb/>have expected that milk would have conſiſted of <lb/>one ſubſtance only. </p>
+      <p rend="indent space">
+        <lb/>That the coagulable matter is capable of af- <lb/>fording conſiderable nouriſhment, may
+        be gather- <lb/>ed from our experiencing that animal mucilage <lb/>nouriſhes the moſt;
+        mucilage being that ſub- <lb/>ſtance which has ſufficient moiſture to keep it <lb/>together:
+        as, for example,—ſound, good meat. </p>
+      <p rend="indent space">
+        <lb/>This coagulable matter, in milk, is fluid indeed <lb/>when taken, but there is a juice
+        peculiar to the <lb/>ſtomach, very different from an acid, that ren- <lb/>ders it ſolid. We
+        find the ſtomach of a calf, <lb/>though cleared of every thing that is acid, to <lb/>have
+        this property. An infuſion of a few grains <lb/>of the inner coat will coagulate or curdle
+        ſeveral <lb/>quarts of milk. </p>
+      <p rend="indent space">
+        <lb/>With reſpect to cheeſe, for I ſhall not have a <lb/>better opportunity to mention it,
+        it has, in general, <lb/>a coſtive quality; but it differs, in proportion to <lb/>the
+        quantity of oil, in the coagulable part. The <lb/>more rich, oily parts there are in cheeſe,
+        the more <lb/>nutritive it is and ſoluble: that is, the readier it <lb/>will digeſt; the
+        leaner the cheeſe, the more dif- <pb n="11"/>
+        <lb/>ficultly it digeſts. Cheeſe is liable to become rank <lb/>and putrid, we muſt then
+        conſider it as having <lb/>all the effects of animal food, when advanced to
+        <lb/>putrefaction; at this time it ceaſes to be nutri- <lb/>tive, and can only be conſidered
+        as an aſſiſtant to <lb/>digeſtion. Cheeſe, indeed, as food, is only fit <lb/>for the
+        laborious and robuſt. </p>
+      <p rend="indent space">
+        <lb/>Having mentioned cheeſe, let me drop a word or <lb/>two upon butter. A quantity of pure
+        cream eaten, is <lb/>undoubtedly unwholeſome; being, from its diſpo- <lb/>ſition to get acid
+        and rancid, very difficult of digeſt- <lb/>ion; but, in the form of butter, it may be uſed
+        <lb/>with advantage. 'Tis a ſtrong nutriment, fit to ac- <lb/>company our vegetable diet,
+        eſpecially ſuch <lb/>vegetables as are naturally dry of themſelves; in <lb/>this caſe, it
+        gives them the properties of rich, oily <lb/>ſubſtances.—But, to return. </p>
+      <p rend="indent space">
+        <lb/>It appears then that milk, and of courſe all <lb/>other food, muſt become ſolid in the
+        ſtomach, and, <lb/>after that, undergo a freſh change, that is, be re- <lb/>diſſolved, for
+        digeſtion; for which purpoſe, it muſt <lb/>remain ſome time there, before it be paſſed off. </p>
+      <p rend="indent space">
+        <lb/>Now, that the expreſſed oil, which is the cream, <lb/>helps digeſtion, is evident from
+        milk's not digeſt- <lb/>ing ſo well when it has been ſkimmed, the <pb n="12"/>
+        <lb/>curd being harder; for the cream and the ſugar, <lb/>being mixed with the curd,
+        ſeparate the different <lb/>parts of it more from one another, ſo that the <lb/>natural
+        fluid of the ſtomach will penetrate the <lb/>eaſier, and fermentation go on the better <note
+          place="bottom" n="*" rend="size(0.75)">
+          <p rend="indent">
+            <lb/>* If new milk is too rich or heavy for a child's ſtomach, <lb/>let it be diluted or
+            mixed with water; it ſhould never be <lb/>ſkimmed. </p>
+        </note>. And <lb/>as to ſugar, it, being from its nature more apt to <lb/>ferment, will of
+        courſe facilitate digeſtion. </p>
+      <p rend="indent space">
+        <lb/>That expreſſed oil affords <choice>
+          <corr>much</corr>
+          <sic>nuch</sic>
+        </choice> nouriſhment, <lb/>we find from men and animals being able to live <lb/>a long time
+        upon nuts, almonds, <hi rend="italic">&amp;c.</hi> ſuch con- <lb/>taining a quantity of this
+        oil. But, expreſſed oil <lb/>alone produces ſenſe of weight on the ſtomach, <lb/>owing to a
+        relaxation it brings on, preventing the <lb/>ſtomach's contracting and expelling its load,
+        and <lb/>if taken in quantities, it will bring on ſickneſs. </p>
+      <p rend="indent space">
+        <lb/>That ſugar alſo affords great nouriſhment, is <lb/>evident from animals thriving on the
+        ſhoots of <lb/>young plants, which contain a great deal of ſugar; <lb/>and from ſome negroes
+        living wholly on the <lb/>ſugar-cane. But ſugar alone is viſcid, and, by ad- <lb/>hering to
+        the ſides of the ſtomach, will ſtimulate <lb/>it and diſorder the ſyſtem, and if diluted
+        with <lb/>any watery fluid, would be ſo thin as not to be <pb n="13"/>
+        <lb/>retained in the ſtomach long enough for digeſtion, <lb/>but mixed with the coagulable
+        part of the milk, it <lb/>is ſufficiently retained. Either of theſe ſubſtances <lb/>alone
+        then, <hi rend="italic">viz.</hi> coagulable matter, expreſſed <lb/>oil, or ſugar, would be
+          <hi rend="italic">hard</hi> of digeſtion; but <lb/>blended, as in milk, they are <hi
+          rend="italic">eaſy</hi> of digeſtion. </p>
+      <p rend="indent space">
+        <lb/>Immediately after child-birth, when the milk <lb/>begins to flow in the mother's
+        breaſts, it contains <lb/>a larger quantity of ſugar and water (for there <lb/>is always a
+        ſmall quantity of water) in proportion <lb/>to the coagulable matter. Some months after
+        <lb/>child birth, the coagulable matter encreaſes, and <lb/>the ſugar proportionably
+        diminiſhes. For as the <lb/>infant-ſtomach is weak, the ſolid part of the milk <lb/>is, at
+        firſt, leſs, ſo that a looſer maſs is formed, much <lb/>eaſier to be diſſolved. As the child
+        grows ſtrong- <lb/>er, its ſtomach can bear more of this coagulable <lb/>matter, and digeſts
+        it, if it be firmer. This <lb/>points out, that a young child, one of a month <lb/>old, will
+        not thrive, in general, on breaſt-milk <lb/>eight or nine months old. </p>
+      <p rend="indent space">
+        <lb/>We alſo learn from this, that weak ſtomachs <lb/>require food of eaſy digeſtion; ſtrong
+        ſtomachs, <lb/>food of harder digeſtion. Thus, chicken, <hi rend="italic">&amp;c.</hi>
+        <lb/>will nouriſh people moſt, recovering from ſickneſs, <lb/>and bacon, <hi rend="italic"
+          >&amp;c.</hi> will beſt recruit a labourer. </p>
+      <pb n="14"/>
+      <p rend="indent">
+        <lb/>Having thus far conſidered the properties of <lb/>milk, the food Nature has deſigned
+        for the infant- <lb/>ſtomach, we ſhall be able to diſcover the whole- <lb/>ſomeneſs of other
+        foods, by examining <hi rend="italic">their</hi>
+        <lb/>different properties; and we will begin with <lb/>vegetables. </p>
+      <p rend="indent space">
+        <lb/>The vegetable ſubſtances capable of nouriſh- <lb/>ing are as follow: <list>
+          <item rend="indent space">
+            <lb/>1. Farrinaceous matter, or flour. This is ge- <lb/>nerally contained in grain; but
+            ſometimes we <lb/>find it in the ſtems of plants, and ſometimes in <lb/>their roots. </item>
+          <item rend="indent space">
+            <lb/>2. Vegetable mucilage: as for example, gum- <lb/>arabic, <hi rend="italic"
+              >&amp;c.</hi> That this is capable of nouriſhing, <lb/>is evident from whole caravans
+            living on it, for a <lb/>long time, when they can procure no other food. </item>
+          <item rend="indent space">
+            <lb/>3. Sugar. </item>
+          <item rend="indent space">
+            <lb/>4. Expreſſed oils. And, </item>
+          <item rend="indent space">
+            <lb/>5. Native vegetable acid; or the juice of ſour <lb/>fruits, which tends to take off
+            the putreſcency of <lb/>animal food: that is, to prevent meat from cor- <lb/>rupting,
+            while it continues in the ſtomach. </item>
+        </list>
+      </p>
+      <pb n="15"/>
+      <p rend="indent">
+        <lb/>For animal food, without a mixture of vege- <lb/>table, is apt to continue too long in
+        the ſtomach, <lb/>before it ferments. In this caſe, it will ſome- <lb/>times begin to
+        putrify before it be paſſed off, <lb/>which putrefaction getting into the blood, will
+        <lb/>often bring on a putrefaction of all the fluids of <lb/>the body. This is a complete
+        ſea-ſcurvy, which, <lb/>if not timely remedied, always terminates dread- <lb/>fully. Salting
+        proviſions makes them harder of <lb/>digeſtion; and though it prevents meat from
+        <lb/>corrupting ſoon out of the body; yet, as the <lb/>ſalt ſeldom if ever penetrates
+        ſufficiently into the <lb/>ſubſtance of the meat, ſo as totally to ſecure it <lb/>againſt
+        putrefaction, when in the body, if it is not <lb/>immediately made to ferment, by the
+        addition of <lb/>vegetable food, or ſome vegetable acid thrown in <lb/>with it, it will be
+        apt to putrify before it digeſts, <lb/>and contaminate the whole ſyſtem. Hence we <lb/>ſee,
+        how liable mariners are, on a voyage, where <lb/>there is a ſcarcity of vegetables, to be
+        afflicted <lb/>with the ſcurvy, and how ſoon they get rid of <lb/>that diſorder, when they
+        once get on ſhore again, <lb/>to the free uſe of herbs and roots. </p>
+      <p rend="indent space">
+        <lb/>Now, theſe five vegetable ſubſtances, I have <lb/>mentioned, go naturally through
+        fermentation, <lb/>and are converted into blood. </p>
+      <pb n="16"/>
+      <p rend="indent">
+        <lb/>With reſpect to the fibres, the ſolid part of <lb/>vegetables, we find them frequently
+        paſs through <lb/>the body, without being altered. As for example, <lb/>peas and the ſkins
+        of gooſeberries, currants, <hi rend="italic">&amp;c.</hi>
+        <lb/>Now, as the texture of the ſtrongeſt tendons of <lb/>animal food is conſtantly
+        deſtroyed in their paſ- <lb/>ſage through the body, while ſuch parts of <lb/>vegetable food
+        ſhall be evacuated as they were <lb/>taken in, it is a queſtion, whether theſe laſt were
+        <lb/>digeſted? If any of them are, it muſt be ſuch <lb/>only as are young and tender. </p>
+      <p rend="indent space">
+        <lb/>But, to return. Farrinaceous matter is con- <lb/>tained in the ſeeds of all vegetables;
+        but in many, <lb/>it is ſo mixed with other ſubſtances, as to be unfit <lb/>for uſe. Thus,
+        we find it in peas, beans, <hi rend="italic">&amp;c.</hi>
+        <lb/>but in too ſmall quantities for the purpoſes of <lb/>life. </p>
+      <p rend="indent space">
+        <lb/>So again, we meet with it in nuts; as wal- <lb/>nuts, cheſnuts, almonds, filberds,
+        common <lb/>nuts, <hi rend="italic">&amp;c.</hi> But theſe contain too much oil to be
+        <lb/>wholeſome for common food. Beſides, they <lb/>yield a bitteriſh, aſtringent matter,
+        which adds to <lb/>their unwholeſomeneſs. Bitter almonds, acorns, <lb/><hi rend="italic"
+          >&amp;c.</hi> which contain a great deal of this matter, <lb/>are more unwholeſome ſtill.
+        The oil, contained <lb/>in nuts, will often give a ſenſe of weight in the <pb n="17"/>
+        <lb/>ſtomach, and ſtimulate the ſyſtem during digeſ- <lb/>tion, eſpecially when eaten raw.
+        Beſides, the <lb/>farrinaceous matter in them have a viſcidity that <lb/>renders them
+        hurtful to the conſtitution; but <lb/>roaſting them will deſtroy this viſcidity, and then
+        <lb/>they may be eaten ſafely, and will afford much <lb/>nouriſhment. They may be rendered
+        eaſier of <lb/>digeſtion, by mixing them with flour. 'Tis the <lb/>cocoa-nut, mixed with
+        flour, that forms cho- <lb/>colate. </p>
+      <p rend="indent space">
+        <lb/>Farrinaceous matter is found alſo in many <lb/>roots, as in potatoes, <hi rend="italic"
+          >&amp;c.</hi> and ſometimes in the <lb/>pith of trees, as in the palm-tree. </p>
+      <p rend="indent space">
+        <lb/>We uſe the pith of one tree, which we make <lb/>into ſago, by moiſtening it with water,
+        beating it <lb/>up, ſo as to ſeparate it from the fibrous part of the <lb/>tree, drying it
+        into a cake, and afterwards reduc- <lb/>ing it to powder. Thus, it becomes eaſy of
+        <lb/>digeſtion, and does not ſtimulate; but, ſtill, as it <lb/>paſſes off too ſoon from the
+        ſtomach, it does not <lb/>afford much nouriſhment. However, it is very <lb/>proper food for
+        weak ſtomachs; as in fevers. </p>
+      <p rend="indent space">
+        <lb/>In the Eaſt, they eat rice; in England, wheat; <lb/>in Germany, rye; in ſome parts,
+        oats and <lb/>barley; and in Africa, Indian wheat. This is <pb n="18"/>
+        <lb/>the grain commonly uſed for food, and it appears <lb/>to be well adapted to digeſtion. </p>
+      <p rend="indent space">
+        <lb/>Farrinaceous matter is, in its nature, ſolid, <lb/>capable of being diſſolved in water,
+        and forming <lb/>a jelly. If, before we diſſolve it in water, we <lb/>expoſe it to heat, it
+        coagulates or becomes ſolid; <lb/>thus, if we bake it, we convert it into bread; <lb/>after
+        which, it will not ſo readily diſſolve. But <lb/>bread diſſolved by long boiling, is leſs
+        viſcid than <lb/>a ſolution of flour would be; and conſequently <lb/>more wholeſome. Was
+        flour uſed, with water, <lb/>raw, it would be ſo viſcid as to clog and cloy the
+        <lb/>ſtomach; we therefore prepare it to take off this <lb/>viſcidity. </p>
+      <p rend="indent space">
+        <lb/>Flour is not apt to undergo that fermentation <lb/>in the ſtomach, ſo as ſufficiently
+        to correct the <lb/>putreſcency of animal food; we therefore ferment <lb/>it firſt; that is,
+        we make it into bread. Another <lb/>reaſon for our converting it into bread, is, that
+        <lb/>in fermentation, extrication of air takes place, <lb/>which leaves a number of holes,
+        making the <lb/>bread ſpungy; by which means, when eaten, <lb/>it ſoaks up the fluid of the
+        ſtomach, and facilitates <lb/>digeſtion. </p>
+      <p rend="indent space">
+        <lb/>In order to coagulate the flour, that is, make <pb n="19"/>
+        <lb/>it into bread, and give it a whiteneſs, which is <lb/>the nature of all coagulants to
+        do, bakers mix <lb/>with it a quantity of allum, which, if not ſo great <lb/>as to give the
+        bread a taſte, can do no harm to <lb/>adults; but a ſmall quantity will do much miſ-
+        <lb/>chief to infants. Panada, therefore, for children, <lb/>ſhould by no means be made of
+        bread in which <lb/>any allum has been mixed. It is for this reaſon <lb/>phyſicians
+        preſcribe biſcuit-powder. </p>
+      <p rend="indent space">
+        <lb/>Sometimes bakers uſe whites of eggs, and <lb/>ſometimes ſpirits of wine, to coagulate
+        the flour, <lb/>as in French bread; the firſt is innocent, and the <lb/>laſt evaporates
+        during the baking, and can <lb/>produce no ill effect. For if bread is not per- <lb/>fectly
+        coagulated, it will ſometimes ferment a <lb/>ſecond time in the ſtomach, particularly if it
+        <lb/>continues long, as in weak ſtomachs, and turn <lb/>ſour; but baking it a ſecond time
+        will totally <lb/>prevent this. Thus, ruſks and toaſted bread are <lb/>often preſcribed for
+        diſordered ſtomachs, as being <lb/>leaſt liable to do miſchief; for the leaſt extrication
+        <lb/>of air in weak ſtomachs is injurious. </p>
+      <p rend="indent space">
+        <lb/>But farrinaceous ſeeds and roots are not ſuffi- <lb/>cient to correct the putreſcency
+        of meat; we <lb/>therefore make uſe of vegetables, that were not <pb n="20"/>
+        <lb/>originally deſigned for food, namely, potherbs. <lb/>Of theſe, </p>
+      <p rend="indent space">
+        <lb/>The one ſort are cabbages, colliflowers, bro- <lb/>coli, and all the varieties of this
+        claſs of plants. <lb/>They contain naturally a ſtimulating oil, and a <lb/>bitter aſtringent
+        juice, ſo as not to be fit for uſe; <lb/>but we find this only in wild cabbages, <hi
+          rend="italic">&amp;c.</hi> By <lb/>cultivation, this oil and bitter juice are deſtroyed,
+        <lb/>and ſuch as grow in our gardens conſiſt of little <lb/>more than mucilage and ſugar;
+        and, of courſe, <lb/>are fit for food. </p>
+      <p rend="indent space">
+        <lb/>The method taken to deſtroy theſe noxious <lb/>juices, is, to grow the plants in the
+        dark, or, <lb/>with as little air as poſſible: this is done by <lb/>planting them in a rich
+        ſoil, and thus making <lb/>them ſo luxuriant, that the leaves ſhall embrace <lb/>one
+        another, by which means the body of the <lb/>plant grows in the dark, and with little or no
+        air. <lb/>Hence the inner leaves become white, and are <lb/>free from thoſe hurtful juices.
+        The outer leaves <lb/>may be eaten, but the inner ones are moſt whole- <lb/>ſome. So young
+        plants are more wholeſome than <lb/>old ones, as whatever of theſe juices they con-
+        <lb/>tain, they are not near ſo rank. </p>
+      <p rend="indent space">
+        <lb/>Another kind of plants we uſe, are parſley, <pb n="21"/>
+        <lb/>fennel, thyme, mint, ſage, <hi rend="italic">&amp;c.</hi> and ſome others <lb/>of the
+        ſame kind. Theſe contain a ſtimulating <lb/>oil, that would be injurious to the
+        conſtitution, <lb/>if eaten in any quantity; and on that account are <lb/>only uſed as
+        condiments with a ſeaſoning to other <lb/>foods. Cellery is of the ſame kind; but by
+        <lb/>earthing it up, and thus making it grow in the <lb/>dark, and with little or no air, we
+        deſtroy its <lb/>noxious oil. Wild cellery, if eaten, would bliſter <lb/>the mouth. </p>
+      <p rend="indent space">
+        <lb/>The ſeveral ſpecies of onions, garlick, ſhalots, <lb/><hi rend="italic">&amp;c.</hi>
+        are of another claſs; we cannot deſtroy the <lb/>oil in theſe, but by boiling. </p>
+      <p rend="indent space">
+        <lb/>Lettuce, endive, dandelion, <hi rend="italic">&amp;c.</hi> contain much <lb/>opium, and
+        when wild are very bitter and diſ- <lb/>poſe to ſleep, conſequently are unfit for food;
+        <lb/>but by cultivating them in rich ſoils, and covering <lb/>them from light and air, by
+        tying them up, we <lb/>render them wholeſome. </p>
+      <p rend="indent space">
+        <lb/>Spinnage, beets and other plants of that kind, <lb/>when wild, contain alſo a very
+        bitter oil, ſo as not <lb/>to be eatable; but by cultivation in rich ſoils they <lb/>loſe
+        this oil. </p>
+      <p rend="indent space">
+        <lb/>In the ſame manner, aſparagus contains oil ſo <pb n="22"/>
+        <lb/>ſtimulating, that, if eaten wild, would bliſter the <lb/>tongue; but by cultivating it
+        in rich ground <lb/>and making uſe only of the young ſhoots, we avoid <lb/>this
+        inconvenience: but I ſhall take occaſion to <lb/>mention this and every other article more
+        fully <lb/>hereafter. </p>
+      <p rend="indent space">
+        <lb/>None of theſe plants alone afford much nou- <lb/>riſhment: we uſe them to correct the
+        putreſcency <lb/>of animal food, and particularly in the ſummer, <lb/>as not ſtimulating. </p>
+      <p rend="indent space">
+        <lb/>They are apt to ferment, and turn ſour in a <lb/>weak ſtomach, and in fermenting, will
+        let looſe <lb/>the air contained in them, and occaſion wind: <lb/>when perſons find this,
+        they ſhould refrain from <lb/>eating them, till their ſtomach grows ſtronger; <lb/>for by
+        continuing to take down ſuch things as <lb/>diſagree with them, they not only diſorder them-
+        <lb/>ſelves for the preſent, but will, in time, ſo injure <lb/>their digeſtive organs, as to
+        be hereafter at- <lb/>tended with dreadful conſequences. </p>
+      <p rend="indent space">
+        <lb/>Peas, beans, kidney-beans, <hi rend="italic">&amp;c.</hi> are more fla- <lb/>tulent or
+        windy ſtill; eſpecially when eaten <lb/>unripe, as is always done: ſuch perſons there-
+        <lb/>fore with whom they diſagree, ſhould by no <lb/>means eat them. </p>
+      <pb n="23"/>
+      <p rend="indent">
+        <lb/>With reſpect to eſculent roots; theſe contain <lb/>mucilage, ſugar and farrinaceous
+        matter, that is, <lb/>flour. The two laſt afford much nouriſhment, <lb/>but the mucilage
+        does little elſe than forward <lb/>fermentation. The more mucilaginous and watery <lb/>theſe
+        roots are, the more apt they are to ferment <lb/>and correct the putreſcency of animal food,
+        and <lb/>conſequently the fitter to be eaten in warm wea- <lb/>ther. But the more ſugar and
+        flour they contain, <lb/>the more they nouriſh. </p>
+      <p rend="indent space">
+        <lb/>Turneps, radiſhes, onions, <hi rend="italic">&amp;c.</hi> are equally as <lb/>liable to
+        ferment and correct putreſcency, as the <lb/>herbs ſpringing from theſe roots; and as they
+        <lb/>contain a greater quantity of ſugar than their re- <lb/>ſpective herbs, they are more
+        nutritive. </p>
+      <p rend="indent space">
+        <lb/>Carrots, parſneps, artichokes, Jeruſalem arti- <lb/>chokes, <hi rend="italic"
+          >&amp;c.</hi> contain much ſugar and farrinaceous <lb/>matter, but very little mucilage.
+        Theſe are <lb/>wholeſome, nutritive, and eaſy of digeſtion. </p>
+      <p rend="indent space">
+        <lb/>The ſugar adds much to the nutritive quality of <lb/>the farrinaceous matter in all
+        theſe ſubſtances. </p>
+      <p rend="indent space">
+        <lb/>Potatoes, yams, earth-nuts, <hi rend="italic">&amp;c.</hi> contain flour <lb/>almoſt
+        alone, with very little ſugar, but more <lb/>water than we find in farrinaceous ſeeds. How-
+          <pb n="24"/>
+        <lb/>ever, the farrinaceous matter is the ſame in both, <lb/>and is coagulable by heat. We
+        boil them and <lb/>roaſt them, to deſtroy their viſcidity. </p>
+      <p rend="indent space">
+        <lb/>It was but lately that theſe roots were introduced <lb/>into Europe for food. They are
+        as nutritive as <lb/>wheat flour, but cannot be ſo well made into <lb/>bread without a
+        mixture of flour, as they will not <lb/>readily ferment without ſome ſuch mixture. One
+        <lb/>reaſon for our not growing them ſo generally as <lb/>wheat, is, that they are more apt
+        to fail in the <lb/>produce. The crop is not equally certain. </p>
+      <p rend="indent space">
+        <lb/>It is not yet determined, whether muſhrooms <lb/>are animals or vegetables. They have
+        all the <lb/>properties of animal-food, and muſt be conſidered <lb/>as ſuch. </p>
+      <div type="chapter">
+        <head rend="size(1.25) align-center space">
+          <lb/> FRUITS. </head>
+      </div>
+      <div>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">F</hi>RUITS contain ſugar, native vegetable <lb/>acid, and mucilage;
+          and their ſkins contain <lb/>more or leſs an aſtringent juice; but ſo little of it,
+          <lb/>as not to render them unwholeſome. Nay, it is <lb/>rather of ſervice, as it
+          ſtimulates the ſtomach, <lb/>cauſes it to contract ſtrongly, and thus prevents <lb/>the
+          fruit becoming acid and flatulent. The <pb n="25"/>
+          <lb/>ſugar, acids and mucilage are capable of fer- <lb/>menting and being converted into
+          blood. As <lb/>ſugar affords more nouriſhment than any other <lb/>ſubſtance, ſuch fruits
+          as are ſweeteſt are the moſt <lb/>wholeſome, <hi rend="italic">viz.</hi> figs, grapes, <hi
+            rend="italic">&amp;c.</hi>
+        </p>
+        <p rend="indent space">
+          <lb/>Sugar is even more nutritive than flour, but <lb/>it is ſeldom thoroughly digeſted;
+          being ſo very <lb/>ſoluble, it paſſes off from the ſtomach before <lb/>any change can take
+          place in it, but entangled <lb/>in the cells of fruit, it is retained longer in <lb/>the
+          ſtomach, ſo as to yield ſome nouriſhment. <lb/>So again, it is not apt to ferment in the
+          ſto- <lb/>mach alone, but mixed with the mucilage of <lb/>fruits, fermentation readily
+          takes place. Beſides, <lb/>the acid of fruits helps to correct the <choice>
+            <corr>putreſcency</corr>
+            <sic>putrecency</sic>
+          </choice>
+          <lb/>of animal food. </p>
+        <p rend="indent space">
+          <lb/>The more diluted ſugar is, the more apt it <lb/>is to ferment. Hence, watry or
+          mucilaginous <lb/>fruits, with little ſugar, as gooſberries, currants, <lb/>cherries, <hi
+            rend="italic">&amp;c.</hi> afford but little nouriſhment, but <lb/>then they tend more
+          to correct putreſcency. </p>
+        <p rend="indent space">
+          <lb/>Such as contain much ſugar and leſs water <lb/>and mucilage, are not ſo apt to
+          ferment, con- <lb/>ſequently are not ſo proper to correct <choice>
+            <corr>putreſcency</corr>
+            <sic>putrecency</sic>
+          </choice>; <lb/>but then they are more nutritive than ſuch as <pb n="26"/>
+          <lb/>contain more mucilage and water, and leſs ſugar. <lb/>They afford ſo much
+          nouriſhment, that in many <lb/>countries they are uſed as food: thus, figs, dates,
+            <lb/><hi rend="italic">&amp;c.</hi> in Portugal, are eaten as common food. </p>
+        <p rend="indent space">
+          <lb/>By evaporating the water from fruits, that is <lb/>by drying them, we leſſen their
+          diſpoſition to <lb/>ferment, conſequently, we make them leſs flatulent <lb/>and more
+          nutritive. </p>
+        <p rend="indent space">
+          <lb/>The fermentation of ſome fruits in the ſto- <lb/>mach, have, by letting looſe the
+          air, ſometimes <lb/>ſo diſtended it as to prove fatal; but we may <lb/>correct this by
+          adding ſugar to them or ſpices. <lb/>However, ſuch as find they diſagree with them,
+          <lb/>if they value their health, ſhould refrain from <lb/>eating them. </p>
+        <p rend="indent space">
+          <lb/>Fruits containing a great quantity of native <lb/>vegetable acid, afford ſo little
+          nouriſhment, <lb/>(as lemons, oranges, <hi rend="italic">&amp;c.</hi>) that we ſeldom uſe
+          <lb/>them, but as a power acting on the ſtomach, to <lb/>correct the bad properties of
+          other food; as will <lb/>be ſhewn hereafter. </p>
+        <p rend="indent space">
+          <lb/>Sour fruits, eaten in autumn, have been ac- <lb/>cuſed of bringing on violent
+          continued purgings, <lb/>but without any reaſon. Indeed ſome ſour <pb n="27"/>
+          <lb/>fruits will act as purgatives, and the purging ſhall <lb/>continue; but this muſt be
+          owing to the ſtate of <lb/>the body, prediſpoſed to purge; for we find, <lb/>that when
+          fruit purges a body, not prediſpoſed <lb/>to purge, no purging continues when the fruit
+          <lb/>is evacuated. In hot ſummers, when there is <lb/>great plenty of fruit, dyſenteries
+          or continued <lb/>purgings are apt to be general, but this is owing <lb/>to the heat of
+          the weather; for perſons will be <lb/>afflicted with dyſentery, who eat no fruit. In
+          <lb/>ſhort, in ſuch diſorders they counteract; and <lb/>thoſe who eat no fruit, are more
+          apt to <lb/>purge, than ſuch as do. Nay, if large quantities <lb/>of fruit ſhould purge,
+          it will not prove dan- <lb/>gerous; it will act no further than as a doſe of <lb/>phyſic. </p>
+        <p rend="indent space">
+          <lb/>There is one ſpecies of fruit very different <lb/>from others, namely, cucumbers,
+          melons, <hi rend="italic">&amp;c.</hi>
+          <lb/>This fruit, either ripe or unripe, contains a great <lb/>deal of mucilage of a
+          particular kind. Break <lb/>them in two, and you will ſee much of this muci- <lb/>lage
+          ooze out, ſo as to glue the two parts firmly <lb/>together. Now, this mucilage prevents
+          the other <lb/>parts of the fruit from fermenting, conſequently <lb/>cauſes indigeſtion,
+          and brings on in the ſtomach <lb/>a ſenſe of weight, coldneſs and ſickneſs; for
+          <lb/>though the ſubſtance be ſoft, it will not readily <pb n="28"/>
+          <lb/>diſſolve. Cucumbers have been known to lie in <lb/>the ſtomach three days undigeſted.
+          We are <lb/>led to uſe them in the ſummer as cooling food; <lb/>but they are very
+          injurious to the conſtitution. <lb/>Beſides, they contain a quantity of eſſential oil,
+          <lb/>(which no vegetable ſubſtance does) very diſa- <lb/>greeable and hurtful to a weak
+          ſtomach. If they <lb/>are eaten, therefore, it ſhould be with oil and <lb/>pepper, as
+          correctors of their noxious qualities. <lb/>There is a natural bitter in the ſkin of the
+          cucum- <lb/>ber, which will ſerve to digeſt it, if eaten at the <lb/>ſame time; but this
+          ſhould only be done when <lb/>the cucumber is young, as it afterwards becomes
+          <lb/>injurious to the ſtomach. </p>
+        <p rend="indent space">
+          <lb/>Having now treated of the properties and <lb/>wholeſomeneſs of vegetable food, we
+          will <lb/>proceed next to animal; and herein we will firſt conſider <lb/>the propriety of
+          uſing it. </p>
+        <p rend="indent space">
+          <lb/>It has been given as a reaſon for not uſing <lb/>animal food, that it was
+          inconſiſtent with <lb/>humanity. There can, however, be little diffi- <lb/>culty about
+          this, as there are a great num- <lb/>ber of animals that muſt live on animal food
+          <lb/>wholly, not being able to eat vegetable. It was <lb/>therefore the intention of the
+          Creator, that ani- <lb/>mal food ſhould be eaten. All that is to be con- <pb n="29"/>
+          <lb/>ſidered, is, whether man is that animal that <lb/>is deſtined to live upon animal
+          food. The <lb/>Pythagorean doctrine, heightened by ſuperſti- <lb/>tion, has been a means
+          of making numbers of <lb/>people, <hi rend="italic">viz.</hi> the whole of the Gentoos,
+          the whole <lb/>empire of Hindoſtan, and part of China, larger <lb/>together than France,
+          Spain, Italy, and Eng- <lb/>land, wholly abſtain from meat. </p>
+        <p rend="indent space">
+          <lb/>It is alſo to be obſerved, that the race of parti- <lb/>cular animals is ſeldom
+          diminiſhed, tho' we deſtroy <lb/>many of them; the increaſe of animals being <lb/>much
+          below what <hi rend="italic">might</hi> be propagated. One <lb/>man and one woman might,
+          in the nature of <lb/>things, have thirty children; but, in general, <lb/>they may have
+          ten, five boys and five girls. At <lb/>every generation, then, were men propagated to
+          <lb/>the utmoſt, they could increaſe in number <lb/>five times; ſo that, in a very ſhort
+          time, a nation <lb/>muſt become exceedingly populous. It is the <lb/>difficulty of
+          procuring food, and obtaining the <lb/>neceſſaries and conveniencies of life that prevents
+          <lb/>this propagation: A proof of the ſuperintendency <lb/>of Providence. Now as it is in
+          man, ſo is it in <lb/>other animals. It is poſſible for a ſow to bring <lb/>forth ten pigs
+          at every litter, ſo that were this <lb/>ſpecies propagated to the utmoſt, in a few
+          <lb/>years, the increaſe would be prodigious. Ten- <pb n="30"/>
+          <lb/>fold in one year, and a thouſand-fold in ten years. <lb/>Here alſo the difficulty of
+          obtaining food prevents <lb/>increaſe; there being always a deſire of propa- <lb/>gation
+          between the ſexes. </p>
+        <p rend="indent space">
+          <lb/>This is more evident, if we obſerve the great <lb/>increaſe of rats in a granary,
+          where they multiply, <lb/>in proportion to the quantity of corn there <lb/>lodged. </p>
+        <p rend="indent space">
+          <lb/>Theſe things conſidered, we may readily ſee, <lb/>that in deſtroying annually a
+          number of any one <lb/>ſpecies of animals, ſo far from diminiſhing that <lb/>ſpecies, we
+          ſhall rather increaſe it, as in ſuch a <lb/>caſe, we ſhall be anxious ſo to do. So, by
+          ſending <lb/>a number of inhabitants out of a country, we do <lb/>not depopulate that
+          country, unleſs we exceed a <lb/>certain bounds. Animals then living on one <lb/>another,
+          is the means of increaſing animal life <lb/>conſiderably: there can be, therefore, no
+          reaſon <lb/>why animal-food ſhould not be uſed. Let us <lb/>examine, then, whether this
+          food be proper. </p>
+        <p rend="indent space">
+          <lb/>Moſt quadrupeds are confined naturally to par- <lb/>ticular climates, and moſt of
+          them, in their or- <lb/>gans of digeſtion, fitted for animal and vegetable <lb/>food. Some
+          have it only in their power to obtain <lb/>animal food, and ſome only vegetable; but man
+            <pb n="31"/>
+          <lb/>ſeems deſtined to cover the whole face of the <lb/>earth; no climate being yet
+          diſcovered unfit for <lb/><hi rend="italic">his</hi> reſidence. His powers are fitted for
+          animal <lb/>as well as vegetable food, and his digeſtive organs <lb/>equally adapted to
+          both. And, if we conſider <lb/>mankind in their moſt ſimple ſtate, where they <lb/>are
+          moſt guided by inſtinct, we find as many <lb/>ſhepherds and hunters living on animal food,
+          as <lb/>huſbandmen living on vegetable. </p>
+        <p rend="indent space">
+          <lb/>Animals deſtined to live on animal food, have <lb/>their inteſtinal canal ſhorter
+          than ſuch as live on <lb/>vegetable food. That is (in order to be under- <lb/>ſtood by
+          ſuch as are unacquainted with phyſical <lb/>terms) have leſs length of gut. And as longer
+          <lb/>retention in the ſtomach is required for animal <lb/>food than for vegetable, and
+          man's digeſtive or- <lb/>gans are adapted to this, it appears that man is <lb/>deſtined to
+          live equally on animal food, as vege- <lb/>table. Further, the teeth of man are a medium
+          <lb/>between the teeth of carnivorous animals, and <lb/><choice>
+            <corr/>
+            <sic>and </sic>
+          </choice>thoſe of grameniverous. Beſides, his health <lb/>is better ſupported by a mixture
+          of the two, than <lb/>it would be, was he to live upon one. The Lap- <lb/>landers, indeed,
+          live nine months on rein-deer, <lb/>and the Greenlander lives upon fiſh: it is poſſi-
+          <lb/>ble, therefore, to live on animal food alone. How- <pb n="32"/>
+          <lb/>ever, were we obliged to live upon one ſort wholly, <lb/>it would be beſt to live on
+          vegetable; for animal <lb/>food alone, would frequently bring on diſeaſes; a <lb/>mixture
+          therefore is beſt. In ſhort, man is endowed <lb/>with greater variety in his ſyſtem and
+          conſtitution <lb/>than any other animal, he being deſtined to live <lb/>in all parts of
+          the earth. </p>
+        <p rend="indent space">
+          <lb/>Let us next conſider the differences between <lb/>animal and vegetable food. Now, as
+          we ſaid <lb/>before, fermentation which takes place in food, <lb/>within the ſtomach, is
+          different from that which <lb/>takes place out of it. If the ſtomach then <lb/>be weak, ſo
+          as not to bring on fermentation na- <lb/>tural to it, the fermentation that would take
+          <lb/>place out of the ſtomach, will take place in it. <lb/>Hence it is, that in weak
+          ſtomachs, food turns <lb/>acid and putrid. This firſt occaſions heart-burn, <lb/>a ſure
+          ſign of a weak ſtomach; and if the putre- <lb/>faction ſhould run to a great height, the
+          conſe- <lb/>quence is ſickneſs, vomiting, purging, and ſome- <lb/>times fever. And ſhould
+          a ſmall quantity of ſuch <lb/>putrified matter, as was obſerved before, be ab- <lb/>ſorbed
+          by the veſſels, in its paſſage through the <lb/>body, it will depreſs the ſtrength, and,
+          without <lb/>a timely remedy, cauſe a general putrefaction of <lb/>the fluids through the
+          whole ſyſtem. Thus the <pb n="33"/>
+          <lb/>miſchiefs of animal food, putrifying, are greater <lb/>and more dangerous than ſuch
+          as ariſe from <lb/>undigeſted vegetable food, as this turns ſour <lb/>only. </p>
+        <p rend="indent space">
+          <lb/>Another difference is this. Vegetable food, <lb/>during digeſtion, ſtimulates leſs.
+          When the ſto- <lb/>mach is diſtended with food, the whole ſyſtem, <lb/>during digeſtion,
+          is more or leſs ſtimulated; but <lb/>more ſo with animal food than with vegetable.
+          <lb/>Now, the more our ſyſtem is ſtimulated, the <lb/>quicker is the circulation and the
+          more feveriſh we <lb/>become. </p>
+        <p rend="indent space">
+          <lb/>As animal food fills the blood-veſſels fuller <lb/>with blood than vegetable, it
+          naturally encreaſes <lb/>our muſcular ſtrength; but then it loads the brain, <lb/>(every
+          part being fuller of blood in proportion) <lb/>and occaſions heavineſs and ſtupor: whereas
+          <lb/>vegetable food, from not loading the ſyſtem with <lb/>blood, rather diminiſhes
+          muſcular ſtrength, but <lb/>enables the mind to act with greater force. Ve- <lb/>getable
+          food, therefore, is fitter to give clearneſs <lb/>of ideas; and animal food is beſt
+          adapted to <lb/>labour. A phyſical demonſtration might be <lb/>given of this; but to a
+          general reader it would be <lb/>idle. However, habit has a great effect in this <lb/>caſe.
+          Man accuſtomed to labour, and to eat ve- <pb n="34"/>
+          <lb/>getable food, (as are the porters of Conſtantino- <lb/>ple) may be capable of great
+          muſcular exertion; <lb/>but this does not prove the power of vegetable <lb/>food over
+          animal. So a horſe fed on graſs, and <lb/>kept in exerciſe, will be better able to work,
+          than <lb/>one fed on hay and corn for twelve months toge- <lb/>ther, without exerciſe: but
+          this neither is any <lb/>proof. </p>
+        <p rend="indent space">
+          <lb/>The next thing to be conſidered is, a maxim <lb/>generally laid down by all authors
+          on this ſubject; <lb/>namely, that ſimplicity of food is more conducive <lb/>to health
+          than a variety: but experience teaches <lb/>us the contrary. Milk, as we before obſerved,
+          <lb/>which affords great nouriſhment, is a mixture of <lb/>three nutritive ſubſtances; and
+          we may venture to <lb/>affirm, that if an alderman was to eat as much of <lb/>beef-ſtakes,
+          as he does of other things at a <lb/>city-feaſt, he would bring on ſickneſs and vomit-
+          <lb/>ing. Put variety of grain before a hen, and ſhe <lb/>will eat of that ſhe likes beſt;
+          but before the <lb/>day is out, ſhe will eat of the other. Inſtinct <lb/>leads her to
+          this, as moſt conducive to her <lb/>health. </p>
+        <p rend="indent space">
+          <lb/>Almoſt all food contains oil, and the ſtomach <lb/>can better bear a variety of this
+          oil, than a quan- <lb/>tity of one particular ſort. Beſides, animal and <pb n="35"/>
+          <lb/>vegetable food correct the ill qualities of one <lb/>another. Animal food corrects
+          the flatulency of <lb/>vegetable; and vegetable food, the putreſcency <lb/>of animal.
+          Indeed, a mixture of ſome foods <lb/>will diſagree, as fiſh and milk; fiſh coagulating
+          <lb/>milk too firmly for eaſy digeſtion; but there is <lb/>no rule without an exception. </p>
+        <p rend="indent space">
+          <lb/>The miſchief of variety of food is its tempt- <lb/>ing us to eat too much: but if we
+          avoid <lb/>eating too much, variety is beſt, provided that <lb/>variety conſiſts of things
+          eaſy of digeſtion. </p>
+        <p rend="indent space">
+          <lb/>But the moſt ſingular and curious circumſtance, <lb/>with reſpect to food, is this.
+          The powers of di- <lb/>geſtion are adapted to the want of blood in the <lb/>blood-veſſels.
+          If they are not ſufficiently full for the <lb/>purpoſes of health, the appetite is great,
+          digeſtion <lb/>is ſtrong, and much blood is formed; but if they <lb/>are full enough,
+          there is no appetite, digeſtion is <lb/>weak, and no blood is formed. For, let a man
+          <lb/>ſwallow as much food as he can, without an appe- <lb/>tite, though he is able to
+          digeſt it, it will not be <lb/>converted into blood. So watchful is Nature of <lb/>her
+          health. </p>
+        <p rend="indent space">
+          <lb/>Eating too much food, in general, for a length <lb/>of time does harm. It weakens the
+          organs of <pb n="36"/>
+          <lb/>digeſtion, debilitates the conſtitution, and wears <lb/>it out. Hence ariſe gout,
+          apoplexy, and all the <lb/>diſeaſes attendant on old age. In diſeaſe, men, <lb/>eating too
+          much, never eſcape with impunity. </p>
+        <p rend="indent space">
+          <lb/>We ſhall now proceed to the properties of the <lb/>different kinds of animal food.
+          There are two <lb/>ſubſtances in meat capable of nouriſhing; muci- <lb/>lage and expreſſed
+          oil. </p>
+        <p rend="indent space">
+          <lb/>Animal mucilages differ much from one ano- <lb/>ther; but conſidered as food, they do
+          not. The <lb/>only difference of conſequence is, as far as de- <lb/>pends upon their
+          texture. When the fibres of <lb/>an animal are large, they are not eaſily diſſolved;
+          <lb/>of courſe, they are difficult of digeſtion. Beef is, <lb/>on this account, more
+          difficult of digeſtion than <lb/>mutton; the fibres of the one being larger than
+          <lb/>thoſe of the other. On the ſame principles, when <lb/>food is coagulated firmly, it
+          is alſo difficult of <lb/>digeſtion. The firmer the coagulum, that is, the <lb/>leſs fluid
+          it contains, the more difficult it will be <lb/>of digeſtion. Animal food, whoſe fibres
+          have <lb/>but little fluid between them; that is, dry meat, <lb/>is more indigeſtible than
+          moiſt. Thus, lean ani- <lb/>mals are harder of digeſtion than fat ones; and <lb/>the lean
+          part of fat meat is eaſier of digeſtion than <lb/>the lean part of lean meat. By the ſame
+          way of <pb n="37"/>
+          <lb/>reaſoning, meat roaſted or boiled a great deal, is <lb/>not ſo digeſtible as when
+          roaſted or boiled but <lb/>little; for when the fluids are expelled by heat, <lb/>the
+          fibres approach cloſer to each other, and, <lb/>when in the ſtomach, will not admit the
+          juice of <lb/>the ſtomach ſo readily to penetrate it, conſe- <lb/>quently, fermentation
+          will not take place ſo <lb/>ſoon. </p>
+        <p rend="indent space">
+          <lb/>The readier animal food diſſolves in water, the <lb/>more digeſtible it is. A
+          flounder boiled in an <lb/>equal quantity of water, is ſooner diſſolved than <lb/>mutton;
+          therefore flounders are eaſier of digeſtion <lb/>than mutton; the juice of the ſtomach
+          being <lb/>little elſe than warm water, helped by fermenta- <lb/>tion. But fiſh, though
+          readily ſoluble in water, <lb/>has a property in it that renders it indigeſtible,
+          <lb/>which is a certain glarineſs or viſcidity; but when <lb/>the ſtomach is ſtrong enough
+          to digeſt it, it is <lb/>eaſier of digeſtion than either fleſh or fowl. </p>
+        <p rend="indent space">
+          <lb/>Meat apt to putrify, is ſooner digeſted, than <lb/>ſuch as is not. Pidgeon will
+          putrify ſooner than <lb/>duck: of courſe, pidgeon is eaſier of digeſtion <lb/>than duck.
+          Now, as the fluids in animal food <lb/>tend to haſten putrefaction; by depriving it of
+          <lb/>thoſe fluids, by long boiling or roaſting, we ren- <lb/>der it harder of digeſtion.
+          By boiling meat till <pb n="38"/>
+          <lb/>it be free from gravy, we can keep it from cor- <lb/>rupting for ſix months. A
+          further proof that <lb/>meat much dreſſed, is leſs wholeſome than ſuch <lb/>as is little
+          dreſſed. Such meats, however, as <lb/>putrify the ſooneſt, are injurious to weak ſto-
+          <lb/>machs, as this putreſcency ſtimulates during the <lb/>time of digeſtion. </p>
+        <p rend="indent space">
+          <lb/>It is with a view of rendering meat eaſier of <lb/>digeſtion, that we keep it ſome
+          time after it is <lb/>killed before we eat it. As ſoon as meat is <lb/>killed, it begins
+          to putrify; and putrefaction is <lb/>the moſt effectual breaker down of animal ſub-
+          <lb/>ſtance, and a great aſſiſtant to ſolution, which is <lb/>the immediate forerunner of
+          digeſtion. But the <lb/>length of time meat ought to be kept, ſhould <lb/>be proportioned
+          to its tendency to putrify, <lb/>and the heat of the weather. It is eaten, <lb/>for
+          example, much ſooner in ſummer than in <lb/>winter. </p>
+        <p rend="indent space">
+          <lb/>But the property in which meats differ moſt, is <lb/>their viſcidity or glarineſs.
+          Such as are viſcid, <lb/>adhere to the ſides of the ſtomach, and ſtimulate <lb/>much. In
+          quadrupeds, young animals have this <lb/>property, ſuch as veal, pig, fawn, and lamb; but
+          <lb/>in a ſmaller degree. Young birds have the ſame <lb/>bad property, and all fiſh, in a
+          great degree; par- <pb n="39"/>
+          <lb/>ticularly ſhell-fiſh, which on this account, have <lb/>often proved poiſonous and
+          fatal to many. When <lb/>theſe have proved fatal, it has been aſcribed to the <lb/>copper
+          veſſel in which they were dreſſed; but <lb/>a little obſervation would ſhew the contrary.
+          <lb/>When perſons loſe their lives by the ill effects of <lb/>copper; ſickneſs, vomiting,
+          and purging take <lb/>place: but when poiſoned by ſhell-fiſh, the head <lb/>ſwells, the
+          breaſt is oppreſſed, and ſtupor is the <lb/>conſequence. </p>
+        <p rend="indent space">
+          <lb/>Animal food diſſolved in water, forms a gela- <lb/>tinous ſolution or jelly, which is
+          of a viſcid na- <lb/>ture, and in ſome degree, produces the ſame ef- <lb/>fect as viſcid
+          foods. It ſtimulates, but does not <lb/>yield much nouriſhment. At the ſame time, it is
+          <lb/>difficult of digeſtion, and of courſe, improper to <lb/>be taken by diſeaſed or weak
+          ſtomachs. Jellies, <lb/>though long preſcribed to ſtrengthen the ſyſtem <lb/>after a
+          fever, have lately been found prejudicial, <lb/>and the uſe of them are therefore
+          exploded. </p>
+        <p rend="indent space">
+          <lb/>Eſſential oils, inherent in ſome animal food, <lb/>render it difficult of digeſtion.
+          The eſſential oils <lb/>of vegetables are often agreeable to the ſtomach, <lb/>and
+          ſtimulate it ſo as to forward digeſtion; but <lb/>thoſe of animal food, though agreeable
+          to the <lb/>taſte, are injurious. Pork, geeſe, ducks, ſalmon, <pb n="40"/>
+          <lb/><hi rend="italic">&amp;c.</hi> contain much of this oil; and are of courſe,
+          <lb/>high-flavoured. They may be agreeable to the <lb/>taſte of ſtrong ſtomachs; but if
+          eaten in too great <lb/>quantities, or if the ſtomach be too weak, they <lb/>will diſagree
+          with it, and have the ſame effect <lb/>with viſcidity; that is, they will ſtimulate the
+          <lb/>ſyſtem, and ſometimes bring on a fever. Animal <lb/>food then, that is viſcid, that
+          contains much eſ- <lb/>ſential oil, or will not readily diſſolve, is apt to re- <lb/>main
+          too long in the ſtomach, and do harm. But <lb/>that which will readily putrify and
+          diſſolve, is re- <lb/>tained but a ſhort time in the ſtomach; and is, <lb/>of courſe,
+          eaſily digeſted: for digeſtion depending <lb/>on the contraction of the ſtomach, if the
+          ſtomach <lb/>be ſo diſordered as to loſe any of its contractile <lb/>powers, either by the
+          oil or viſcidity of the food, <lb/>the food will be retained too long in it. </p>
+        <p rend="indent space">
+          <lb/>We ſeldom uſe animal food without ſome pre- <lb/>paration. Thoſe preparations are
+          either expoſing <lb/>them to ſuch heat as will coagulate the ſolids and <lb/>fluids, or
+          after ſuch coagulation, diſſolving them <lb/>in water. By coagulating any animal ſolid, we
+          <lb/>take off that viſcidity which almoſt all have when <lb/>raw, and the ſtomach
+          conſequently bears it much <lb/>better. Thus we can digeſt twice the quantity of
+          <lb/>oyſters roaſted, that we can raw. </p>
+        <pb n="41"/>
+        <p rend="indent">
+          <lb/>In coagulating animal ſubſtances by heat, we <lb/>often expoſe them to great fire, as
+          in roaſting; <lb/>which coagulates the outer parts, forming a cruſt, <lb/>as it were,
+          round the inward fluids, and retaining <lb/>them. This gives them an empyreumatic oil,
+          <lb/>offenſive to the ſmell. In boiling, we avoid <lb/>this empyreumatic, but then we take
+          out the <lb/>eſſential oil. In frying, we retain both oils, <lb/>ſo that fried meat is
+          more difficult of digeſtion <lb/>than either roaſted or boiled. </p>
+        <p rend="indent space">
+          <lb/>Chicken, partridges, veal, <hi rend="italic">&amp;c.</hi> are more whole- <lb/>ſome
+          when roaſted, than boiled. Mutton, beef, <lb/>pork, <hi rend="italic">&amp;c.</hi> are
+          eaſier digeſted when boiled. </p>
+        <p rend="indent space">
+          <lb/>All quadrupeds that feed on vegetables are <lb/>uſed, ſomewhere or other, for food;
+          ſuch as the <lb/>ox, the ſheep, the deer, the goat, the hog, the <lb/>hare, <hi
+            rend="italic">&amp;c.</hi> In ſome countries, horſes are eaten; <lb/>in others,
+          ſquirrels, rats, and mice. Animals <lb/>that live on animal food alone, are ſeldom eaten;
+          <lb/>as the lion, the cat, the tyger, <hi rend="italic">&amp;c.</hi> Few make <lb/>uſe of
+          dogs, or any animals of that claſs; thoſe <lb/>who do, feed them on vegetables. Such
+          animals <lb/>as live on animal food alone, being, on account of <lb/>their putreſcency,
+          and of the great quantity of <lb/>eſſential oil contained in them, both diſagreeable <lb/><choice>
+            <corr>on</corr>
+            <sic>o</sic>
+          </choice> the ſtomach, and difficult of digeſtion. </p>
+        <pb n="42"/>
+        <p rend="indent">
+          <lb/>Birds alſo are made uſe of for food, except birds <lb/>of prey; that is, ſuch as live
+          on other birds; <lb/>and we except them for the ſame reaſons that we <lb/>do beaſts of
+          prey. We prefer ſuch as live on <lb/>inſects to ſuch as feed on fiſh, becauſe they are
+          <lb/>tenderer; ſuch as live on fiſh acquiring a tough- <lb/>neſs. </p>
+        <p rend="indent space">
+          <lb/>All fiſh have been eaten, and all ſhell-fiſh <lb/>which have ſufficient muſcular
+          fleſh to render them <lb/>worth eating. </p>
+        <p rend="indent space">
+          <lb/>Thoſe birds that are not very putreſcent in <lb/>their nature, and are moſt free from
+          eſſential oil, <lb/>are the eaſieſt of digeſtion. As for example, <lb/>moor-game, poultry,
+          partridges, pheaſants, <hi rend="italic">&amp;c</hi>; <lb/>and of quadrupeds, the deer,
+          the ſheep, the ox, <lb/><hi rend="italic">&amp;c.</hi> The older animals of this claſs are
+          eaſier of <lb/>digeſtion than the young ones. Mutton, for in- <lb/>ſtance, is eaſier of
+          digeſtion than lamb; beef <lb/>than veal; veniſon than fawn; and that on ac- <lb/>count of
+          the viſcidity of the fleſh of young ani- <lb/>mals. Fiſh is more difficult of digeſtion
+          than <lb/>fleſh, eſpecially in weak ſtomachs. And of fiſh, <lb/>thoſe that have leaſt
+          flavour, that is, ſuch as have <lb/>leaſt eſſential oil in them, are white, and have ſome
+          <lb/>degree of firmneſs, will digeſt much ſooner than <pb n="43"/>
+          <lb/>ſuch as are of ſtronger flavour. Flounders, whitings, <lb/><hi rend="italic"
+            >&amp;c.</hi> are eaſier of digeſtion than ſalmon, foals, <hi rend="italic">&amp;c.</hi>
+        </p>
+        <p rend="indent space">
+          <lb/>But ſtill, quadrupeds afford more nouriſhment <lb/>than either birds or fiſh; and
+          thoſe animals of <lb/>ſtronger flavour, <hi rend="italic">viz.</hi> pork, geeſe, duck,
+          ſalmon, <lb/><hi rend="italic">&amp;c.</hi> afford more nouriſhment and are fitter for
+          <lb/>ſuch as labour or take a great deal of exerciſe, <lb/>than animals of the ſame claſs,
+          that are eaſier of <lb/>digeſtion. </p>
+        <p rend="indent space">
+          <lb/>Now, to correct the ill qualities of the different <lb/>kind of food, and to aſſiſt
+          digeſtion, we make <lb/>uſe of a variety of things, ſuch as are called the
+          <lb/>decoraments of the table; which in themſelves af- <lb/>ford little or no nouriſhment.
+          Theſe are ſpices, <lb/>acids, ſalt, oil, and ſugar. </p>
+        <p rend="indent space">
+          <lb/>Spices act as ſtimulants. It muſt here be re- <lb/>collected, that digeſtion depends
+          upon the con- <lb/>tracting power of the ſtomach, it being that <lb/>which prevents the
+          food turning acid or putrid. <lb/>Now, if the action of the ſtomach be weak, that <lb/>is,
+          not ſufficiently powerful, food will not be pro- <lb/>perly digeſted. </p>
+        <p rend="indent space">
+          <lb/>Spices then are powerful ſtimulants, that is, <lb/>they encreaſe the action of the
+          ſtomach, and are <pb n="44"/>
+          <lb/>agreeable to it; ſuch as the aromatic ſpices, <hi rend="italic">viz.</hi>
+          <lb/>cinnamon, cloves, nutmeg, mace, pimento, <hi rend="italic">&amp;c.</hi>
+          <lb/>which are the produce of the warmer climates; <lb/>but they are, at the ſame time,
+          inflammatory, <lb/>tending to encreaſe the circulation of the blood, <lb/>and bring on
+          fever. We uſe muſtard, onions, <lb/>horſe-raddiſh, <hi rend="italic">&amp;c.</hi> for the
+          ſame purpoſe. Theſe <lb/>ſtimulate univerſally, but are not inflammatory; <lb/>becauſe
+          their powers do not continue long; where- <lb/>as ſpices ſtimulate for a conſiderable
+          length of <lb/>time. Mint, thyme, ſage, <hi rend="italic">&amp;c.</hi> parſley, fennel,
+          cele- <lb/>ry, <hi rend="italic">&amp;c.</hi> are ſtimulants, but not ſo powerful as
+          <lb/>muſtard, onions, <hi rend="italic">&amp;c.</hi> nor are they inflammatory. </p>
+        <p rend="indent space">
+          <lb/>Spices ſeem adapted to different climates, and <lb/>different ſtomachs. In warm
+          climates, and weak <lb/>ſtomachs, ſpices are more wholeſome than in <lb/>colder climates,
+          and ſtronger ſtomachs. In warm <lb/>climates, the heat of the atmoſphere upon the ſkin
+          <lb/>keeps up conſtant great circulation there. The <lb/>internal blood-veſſels are, of
+          courſe, empty, and <lb/>the interior parts conſequently weaker, <hi rend="italic"
+            >viz.</hi> the <lb/>ſtomach, <hi rend="italic">&amp;c.</hi> It requires therefore more
+          pow- <lb/>erful ſtimulants to aſſiſt digeſtion, and the natural <lb/>weakneſs of the
+          ſtomach prevents their inflamma- <lb/>tory power. Hence, we may obſerve, that ſpices
+          <lb/>are more wholeſome in ſummer than in winter; <lb/>and that perſons of luxurious life,
+          who live with- <lb/>out exerciſe, whoſe ſtomachs are, of courſe, weak- <pb n="45"/>
+          <lb/>ened and impaired, may eat them with greater <lb/>ſafety than ſuch as are ſtrong,
+          laborious, and <lb/>healthful. </p>
+        <p rend="indent space">
+          <lb/>In colder climates, and with temperate livers, <lb/>the ſtomach is naturally ſtrong:
+          very little ſtimu- <lb/>lants, therefore, are required. Inflammatory ones <lb/>muſt, of
+          courſe, do miſchief. If any, then, are <lb/>uſed, it ſhould be thoſe of the ſecond claſs,
+            <hi rend="italic">viz.</hi>
+          <lb/>muſtard, onions, horſe-raddiſh, <hi rend="italic">&amp;c.</hi> Nature ſeems <lb/>here
+          to have provided for herſelf; for we find <lb/>ſpices only in warm countries: none grow
+          natu- <lb/>rally in cold ones. But the ſecond claſs are prin- <lb/>cipally natives of cold
+          climates. If any of the <lb/>ſpices are made to grow in a cold climate, part of <lb/>their
+          ſtimulus is loſt; and if the ſecond claſs of <lb/>ſtimulants are made to grow in a warm
+          climate, <lb/>it is the ſame. Pepper grown here loſes its <lb/>ſtimulating powers; and an
+          onion grown in Spain, <lb/>is not ſo ſtrong as one, the produce of England. <lb/>They ſeem
+          deſtined then for particular climates. <lb/>In hot countries, therefore, ſpices are
+          neceſſary; <lb/>but in colder ones, they are prejudicial. If the <lb/>ſtomach then be
+          weak, which, in time, will diſor- <lb/>der the ſyſtem, it may be proper, to uſe ſpices,
+          <lb/>but, if not weak, on no account to uſe them; for <lb/>they have ſometimes done ſo
+          much harm, as to- <lb/>tally to deſtroy digeſtion, unleſs great quantities <lb/>have been
+          conſtantly thrown in with the food. </p>
+        <pb n="46"/>
+        <p rend="indent">
+          <lb/>A little ſpice, uſed with the more flatulent vege- <lb/>tables, is frequently
+          ſerviceable, as by encreaſing <lb/>the action of the ſtomach, it brings on digeſtion,
+          <lb/>before that fermentation takes place, which in <lb/>weak ſtomachs, would be attended
+          with extrica- <lb/>tion of air. Thus, we uſe pepper with greens, <lb/>peas, &amp;c. to
+          correct what is called their windi- <lb/>neſs; and we uſe pepper with broth, to coagulate
+          <lb/>the fluid more firmly, and correct its putre- <lb/>ſcency, both which are brought
+          about by the action <lb/>of the ſtomach. Lemon-juice, barley, <hi rend="italic"
+            >&amp;c.</hi> is <lb/>often added to both, for the ſame purpoſe. So <lb/>we eat muſtard
+          with ſalted pork and beef, ſalted <lb/>fiſh, &amp;c. in order to aſſiſt digeſtion, by
+          encreaſing <lb/>the action of the ſtomach; ſalted proviſions being <lb/><choice>
+            <corr/>
+            <sic>being </sic>
+          </choice>more difficult of digeſtion than ſuch as are <lb/>freſh. </p>
+        <p rend="indent space">
+          <lb/>The ſecond claſs of ſubſtances to aſſiſt digeſtion <lb/>are acids. None but the
+          native vegetable acid, <lb/><hi rend="italic">viz.</hi> the juice of ſour fruits, is
+          capable of afford- <lb/>ing nouriſhment; nor would this, if pure; it is <lb/>owing to the
+          mucilage mixed with it, that it <lb/>nouriſhes. Acids then <hi rend="italic"
+              ><unclear>aſſiſt</unclear></hi> digeſtion merely. </p>
+        <p rend="indent space">
+          <lb/>Acids produce many effects. In the firſt <lb/>place, they ſtimulate the glands of the
+          ſtomach, <lb/>creating by their ſtimulus that ſenſation we call <pb n="47"/>
+          <lb/>hunger. Digeſtion being conſiderably affected <lb/>by the appetite; if there is no
+          appetite, though <lb/>the ſtomach be ſtrong, there will be no digeſtion<choice>
+            <corr>.</corr>
+            <sic/>
+          </choice>
+          <lb/>We frequently then employ acids, a little before <lb/>meals, to create an appetite.
+          Thus, in hot <lb/>countries, where owing to an encreaſed circulation <lb/>of the ſkin, the
+          internal circulation is diminiſhed, <lb/>and, of courſe, the ſtomach weakened, the in-
+          <lb/>habitants accuſtom themſelves to the drinking of <lb/>beverage or lemonade before
+          dinner, to encreaſe <lb/>their appetite. </p>
+        <p rend="indent space">
+          <lb/>Acids alſo promote ſecretion of the glands of <lb/>the ſtomach, ſo as to ſupply the
+          food with a <lb/>watery menſtruum; that is, fluid proper and <lb/>ſufficient to promote
+          fermentation. </p>
+        <p rend="indent space">
+          <lb/>They act alſo as ſedatives or quieters of the <lb/>reſt of the ſyſtem, taking off
+          that ſtimulus occa- <lb/>ſioned by digeſtion. Hence they are beneficial in <lb/>warm
+          climates, and in weather where the heat <lb/>naturally ſtimulates the ſyſtem; and that
+          ſtimulus <lb/>is liable to be encreaſed by digeſtion. Hence, as <lb/>was ſaid before,
+          fruit is exceeding wholeſome in <lb/>the ſummer, and at certain times, if taken in
+          <lb/>moderate quantities. </p>
+        <p rend="indent space">
+          <lb/>Acids tend likewiſe to coagulate animal ſolids, <pb n="48"/>
+          <lb/>and fluids; and, aſſiſted by the coagulating fluids <lb/>of the ſtomach, they take
+          off the viſcidity of food. <lb/>Thus we uſe lemon or vinegar with fiſh, particu-
+          <lb/>larly ſhell-fiſh. Indeed, ſhell-fiſh ſhould never be <lb/>eaten without ſome acid;
+          they being, as was be- <lb/>fore obſerved, in their nature ſo remarkably viſcid, <lb/>and,
+          of courſe, ſo prejudicial to the conſtitution. <lb/>It is for the ſame reaſon, that we uſe
+          acids with <lb/>veal, lamb, and all young animals; namely, to <lb/>correct their
+          viſcidity. Of all acids, vinegar, <lb/>provided we attend to its quality, is the ſafeſt. </p>
+        <p rend="indent space">
+          <lb/>Acids check alſo vinous and acetous fermenta- <lb/>tion; that is, ſuch fermentation
+          as ſhould by no <lb/>means take place in the ſtomach. It is for this <lb/>reaſon we uſe
+          them with ſubſtances of looſe tex- <lb/>ture, that are apt to turn ſour in the ſtomach,
+          and <lb/>become flatulent or windy. Thus we eat vinegar <lb/>with ſallad, and greens of
+          all ſorts. So, in all weak <lb/>ſtomachs, where food is apt to turn ſour, and <lb/>cauſe
+          heart-burn, the uſe of acids has been found <lb/>to correct and take it off. It is on this
+          account, <lb/>that fruit has been introduced after meals. Acids <lb/>then are uſeful for
+          many purpoſes in digeſtion; <lb/>but taken in too great quantities, they are hurt-
+          <lb/>ful, as they will produce a diſpoſition to flatu- <lb/>lency, pain, and weakneſs, in
+          the ſtomach and <pb n="49"/>
+          <lb/>bowels, which is afterwards cured with dif- <lb/>ficulty. </p>
+        <p rend="indent space">
+          <lb/>The next ſubſtance, in general uſe with food, <lb/>is ſalt, which affords no kind of
+          nouriſhment; <lb/>neither will it digeſt, but paſſes through the body <lb/>without any
+          change. It is, however, univerſally <lb/>uſed where it can be got; nay, all animals prefer
+          <lb/>food that is ſaltiſh to ſuch as is not. This gene- <lb/>ral inſtinct, we ſhould
+          ſuppoſe, would not be <lb/>given, but to ſome purpoſe; yet it is difficult to ſay <lb/>of
+          what uſe ſalt is, in digeſtion. It ſtimulates the <lb/>glands of the ſtomach, and promotes
+          ſecretion of <lb/>the watery menſtruum; but of what other uſe it is, <lb/>we know not. </p>
+        <p rend="indent space">
+          <lb/>We often preſerve food with ſalt; and thus <lb/>preſerved, it is conſiderably more
+          difficult of di- <lb/>geſtion. The fibres are hardened, they are not <lb/>ſo readily
+          diſſolved, and they go through the <lb/>proper fermentation of the ſtomach with
+          difficulty. <lb/>Thus it is, that we cannot live ſo long on ſalted <lb/>proviſion as on
+          freſh; for, as was before obſerved, <lb/>the ſalt does not penetrate thoroughly into all
+          <lb/>parts of the meat; therefore, when in the ſto- <lb/>mach, before fermentation takes
+          place in the outer <lb/>parts, the inner will putrify, and, by infecting the <lb/>fluids
+          of the body, bring on the ſcurvy, as we ſee <pb n="50"/>
+          <lb/>it does, in perſons upon a long voyage. And <lb/>yet ſalt may be uſed, in the
+          greateſt quantity, <lb/>ſo as to prevent putrefaction of food, without <lb/>rendering it
+          totally unfit for nouriſhment. </p>
+        <p rend="indent space">
+          <lb/>Oil is another ſubſtance that may be uſed to <lb/>help digeſtion, it taking off the
+          viſcidity of food. <lb/>Hence it is, that we eat ſalad, with which oil has <lb/>been
+          mixed, with the meat of young animals, as <lb/>with veal, lamb, <hi rend="italic"
+            >&amp;c.</hi> and (with ſome kinds of fiſh) <lb/>which, from its glarineſs, tends much
+          to diſturb <lb/>digeſtion. Oil alſo takes off the diſpoſition in <lb/>looſe vegetables to
+          ferment improperly, and thus <lb/>prevents flatulency. It is for this reaſon, we uſe
+          <lb/>it with ſallads, greens, <hi rend="italic">&amp;c.</hi> But oil, in weak
+          <lb/>ſtomachs diſpoſed to acidity, is apt to produce <lb/>ſourneſs in the ſtomach, and
+          bring on heart-burn, <lb/>ſickneſs, vomiting, and purging. Why it ſhould <lb/>have theſe
+          contrary effects, we cannot ſay; but ex- <lb/>perience ſhews it to be true. </p>
+        <p rend="indent space">
+          <lb/>Sugar is another aſſiſtant of digeſtion, by pre- <lb/>venting the bad effects of ſome
+          food, and affords <lb/>conſiderable nouriſhment in itſelf. A diluted ſo- <lb/>lution
+          ferments more readily than a more cen- <lb/>trated one; that is, the more water you put to
+          <lb/>ſugar, provided you exceed not certain bounds, <lb/>the more readily it ferments.
+          Sugar mixed with <pb n="51"/>
+          <lb/>a certain quantity of water, preſently becomes vi- <lb/>negar. Now, the looſer
+          vegetables and fruits, <lb/>ſuch as ſalad, currants, cherries, <hi rend="italic"
+            >&amp;c.</hi> contain in <lb/>them a more diluted ſolution of ſugar than the <lb/>firmer
+          vegetables, or the ſweeter fruits. It is on <lb/>this account, that we frequently eat
+          ſugar with <lb/>them. Another reaſon why we eat ſugar with <lb/>ſuch vegetables, is to
+          take off the aceſency and fla- <lb/>tulency which they are apt to run ſoon into, by
+          <lb/>rendering them more difficult to ferment. Sugar <lb/>alſo corrects the putreſcency of
+          animal food; but <lb/>not ſo much as vegetables do. For this purpoſe, <lb/>it was much
+          uſed in England before kitchen- <lb/>gardens became general. </p>
+        <p rend="indent space">
+          <lb/>It is not above 150 years ſince greens, and <lb/>other vegetables were imported from
+          Holland, <lb/>(a kitchen-garden being then a great curioſity.) <lb/>Salted meat at that
+          time, was much eaten; <lb/>and the ſea-ſcurvy very general. Perſons were <lb/>then
+          accuſtomed to eat ſugared mutton and ſu- <lb/>gared ham. At preſent, the cuſtom is not ſo
+          much <lb/>aboliſhed, but that we eat ſweet ſauces with <lb/>various kinds of food. </p>
+        <p rend="indent space">
+          <lb/>Sugar has been ſaid to ſpoil the teeth. This <lb/>obſervation may, in ſome caſes, be
+          juſt; as, where <lb/>the teeth may have a more than ordinary degree <pb n="52"/>
+          <lb/>of ſenſibility; or it may, perhaps, by ſticking <lb/>about them, and turning acid,
+          corrode them: but <lb/>faults of this kind are oftener imputed to it than <lb/>it
+          deſerves. The finer the ſugar, the purer and <lb/>leſs noxious it is. Preſerves are far
+          from unwhole- <lb/>ſome,—and pickles may be conſidered as ſpunges <lb/>filled with
+          vinegar. </p>
+        <p rend="indent space">
+          <lb/>Having thus entered into the ſeveral properties <lb/>of eatables, let us now proceed
+          to drinks. </p>
+        <gap reason="sampling" unit="pages" quantity="27"/>
+      </div>
+    </body>
+    <gap reason="sampling" unit="pages" quantity="3"/>
+  </text>
+</TEI>

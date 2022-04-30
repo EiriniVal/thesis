@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LMEMT Corpus - A letter to a lady on the mode of conducting herself during
+          pregnancy</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>Sarah Brown</persName>
+            </author>
+            <title type="main">A letter to a lady on the mode of conducting herself during
+              pregnancy: Also on the management of the infant.</title>
+            <edition n=""/>
+            <idno type="ESTC">T38046</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/T38046"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>London: printed by Baker and Galabin, in Ingram-Court, M.DCC.LXXVII.
+                </persName>
+              </publisher>
+              <date>1777</date>
+            </imprint>
+            <extent>
+              <measure type="format">8⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="4"/>
+              <measure type="count" commodity="body" unit="page" quantity="32"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">British Library</orgName>
+            <idno type="ECCO">CW3308018937</idno>
+            <idno type="TCP">K038806.000</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Book on a specific topic: midwifery"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text xml:lang="eng">
+    <front>
+      <div>
+        <pb xml:id="page_2"/>
+        <p rend="indent"><lb/>This Book is entered at Stationers-<lb/>Hall, and whoever pirates it
+          will <lb/>be proſecuted. </p>
+      </div>
+      <div>
+        <pb xml:id="page_3"/>
+        <head rend="dc(2) align-center"><lb/>PREFACE. </head>
+        <p rend="indent"><lb/><hi rend="dc(3)">I</hi> Flatter myſelf my friends will <lb/>readily
+          conceive, when firſt I <lb/>made the ſubſequent memorandums, <lb/>that they were not
+          deſigned for the <lb/>peruſal of any other perſons than my <lb/>two daughters; nor ſhould
+          I have <lb/>been tempted to have made them <lb/>known, had it not been at the <w part="I"
+            >earn-</w><lb/><w part="F">eſt</w> requeſt of a young lady, who, <lb/>(having the
+          misfortune to loſe her <lb/>parents when very young, and by a <lb/>late marriage was
+          removed at a <w part="I">diſ-</w><lb/><w part="F">tance</w> from her friends,) reaſonably
+          <lb/>ſuppoſing (from my having been the <lb/>mother of ſeven children, ſhe knew <lb/>I had
+          ſuckled and ſuperintended) <lb/>that experience would have enabled <lb/>me to give her
+          ſome inſtructions that <lb/>might be uſeful to her in her <w part="I">con-</w><lb/><w
+            part="F">dition</w>; from thoſe conſiderations <pb xml:id="page_4" n="ii"/><lb/>(leſt it
+          ſhould pleaſe God to call me <lb/>before my dear children were ſettled <lb/>in life, on
+          whoſe account I had taken <lb/>ſuch pains) I determined to comply <lb/>with her requeſt,
+          and accordingly <lb/>ſent her the following directions, <lb/>not imagining, at that time,
+          ſhe would <lb/>have deſired me to print them; but, <lb/>as I preſume, there may be ſome <w
+            part="I">ob-</w><lb/><w part="F">ſervations</w> worthy the attention of <w part="I"
+            >e-</w><lb/><w part="F">very</w> mother and nurſe, in juſtice to <lb/>myſelf and family
+          I could do no leſs. </p>
+      </div>
+    </front>
+    <body>
+      <div>
+        <pb xml:id="page_5" n="3"/>
+        <salute><hi rend="sc">Dear Madam,</hi>
+        </salute>
+        <p rend="space"><lb/>
+          <figure>
+            <figDesc>Decorative frame around the letter "W".</figDesc>
+          </figure>
+          <hi rend="dc(2)">W</hi>HEN I conſider how much <lb/>your preſent ſituation <w part="I"
+            >de-</w><lb/><w part="F">mands</w> the advice of a real <lb/>friend, I ſhall exert my <w
+            part="I">en-</w><lb/><w part="F">deavours</w>, though I fear <w part="I">in-</w><lb/><w
+            part="F">adequate</w> to the undertaking, to give you ſuch <lb/>inſtructions as I am
+          perſuaded will tend much <lb/>to your relief; you very reaſonably imagine, <lb/>in
+          conſequence of the natural courſes incident <lb/>to our ſex not appearing at their regular
+          time, <lb/>that you are breeding; from that <w part="I">circum-</w><lb/><w part="F"
+            >ſtance</w>, I readily ſuppoſe, you have taken <lb/>particular notice when nature was
+          laſt on <lb/>you; ſhould you continue without any <w part="I">far-</w><lb/><w part="F"
+            >ther</w> alteration, you may begin to reckon <lb/>from the tenth day after the laſt
+          time: this <lb/>method my mother taught me with my firſt <lb/>child, and I do aſſure you
+          that my midwife <pb xml:id="page_6" n="4"/><lb/>paid her a very high compliment on the <w
+            part="I">oc-</w><lb/><w part="F">caſion</w>. </p>
+        <p rend="indent"><lb/>Riſe at your uſual time; and, if you breed <lb/>ſick, (which is
+          uſual,) order a cup of <w part="I">camo-</w><lb/><w part="F">mile-tea</w>, or pump-water,
+          as ſoon as you come <lb/>down ſtairs in the morning; that will help <lb/>to keep your body
+          open. If tea does not agree <lb/>with you, try coffee, chocolate, milk,
+          milk-<lb/>porridge, water-gruel, balm-tea, or a calf's-<lb/>foot boiled in milk; ſome one
+          of which, moſt <lb/>likely, will. </p>
+        <p rend="indent"><lb/>Perhaps you may have little or no <w part="I">appe-</w><lb/><w
+            part="F">tite</w> early in a morning; if ſo, give a general <lb/>order to have ſomething
+          brought you at eleven <lb/>o'clock; ſhould you not be inclined to eat, <lb/>let it not be
+          removed, for, though it ſhould <lb/>not be agreeable then, it may a little time <w
+            part="I">af-</w><lb/><w part="F">terwards</w>. </p>
+        <p rend="indent"><lb/>By no means ever go out hungry; from <lb/>that cauſe the deſire of a
+          perſon, for many <lb/>things they ſee, or ſmell, in general proceeds; <lb/>to avoid being
+          ſo, I would wiſh you to carry <lb/>a biſcuit, or ſomething of that kind, at all <lb/>times
+          in your pocket. Should you be ſo <w part="I">un-</w><lb/><w part="F">fortunate</w>
+          <pb xml:id="page_7" n="5"/><lb/>as to mark the child, be not <w part="I">diſ-</w><lb/><w
+            part="F">couraged</w>, as it will not be of any bad <w part="I">conſe-</w><lb/><w
+            part="F">quence</w>, and, in ſome caſes, a<note place="bottom" n="*" rend="size(0.5)">*
+            See the receipts at the end of the book. </note> remedy may <lb/>be applied. </p>
+        <p rend="indent"><lb/>During your pregnancy, ſhould you chance <lb/>to meet, or ſee, any
+          diſagreeable object, ſuch <lb/>as lame, blind, <hi rend="italic">&amp;c.</hi> do not
+          ſuffer it to make <lb/>any impreſſion on your mind, as you may <lb/>then reſt aſſured it
+          will have no effect on you <lb/>or the child. </p>
+        <p rend="indent"><lb/>When you are three months advanced, on <lb/>no account keep it ſecret,
+          as many ladies <w part="I">preju-</w><lb/><w part="F">dice</w> themſelves thereby; ſhould
+          you be hot, <lb/>or feveriſh, and frequently ſick, it is <w part="I">abſolute-</w><lb/><w
+            part="F">ly</w> neceſſary you ſhould make your condition <lb/>known to your midwife,
+          (that he may order <lb/>you, at that time, to loſe a little blood,) <w part="I"
+            >other-</w><lb/><w part="F">wiſe</w> you may depend upon it you will have <lb/>ſore
+          nipples, or your navel ſtart; from both thoſe <lb/>circumſtances I ſuffered much, with my
+          firſt <lb/>child: it therefore behoves you to be <w part="I">particu-</w><lb/><w part="F"
+            >larly</w> careful, to avoid thoſe inconveniences, <lb/>and, believe me, you cannot do
+          yourſelf, or <lb/>midwife, juſtice to conceal from him or <pb xml:id="page_8" n="6"
+          /><lb/>her your condition; a gentleman will <w part="I">under-</w><lb/><w part="F"
+            >ſtand</w> your meaning at the inſtant. </p>
+        <p rend="indent"><lb/>Should your body not be regular every <lb/>day, eat fruit, vegetables,
+          or a few jar-raiſins. </p>
+        <p rend="indent"><lb/>When you are five months advanced, put <lb/>on jumps, wear very broad
+          bandages to your <lb/>upper and under petticoats; ſew an eye to <lb/>the jumps, that they
+          may hook on; by this <w part="I">me-</w><lb/><w part="F">thod</w> you take the weight off
+          the loins: and <lb/>at this time you ſhould engage with a nurſe. </p>
+        <p rend="indent"><lb/>When turned of ſix months, ſhould feveriſh <lb/>heats, fixt pains in
+          the ſide, or any <w part="I">inflamma-</w><lb/><w part="F">tory</w> ſymptoms appear, loſe
+          more blood, which <lb/>will give you immediate relief. Should you <lb/>perceive your water
+          warmer than uſual, take <lb/>a table-ſpoonful of gum arabic twice a-day: be <lb/>ſure, at
+          this time, to have your child-bed linen <lb/>well aired, and put into a large tin-box, in
+          <lb/>a warm place, for fear of a ſeven-months <lb/>child, damp linen being particularly <w
+            part="I">hurt-</w><lb/><w part="F">ful</w>; ſtrictly obſerving that napkins are not
+          <lb/>applied to you, or the child, hot, as they <lb/>would occaſion a violent inflammation
+          in <lb/>both. </p>
+        <pb xml:id="page_9" n="7"/>
+        <p rend="indent"><lb/>As you find yourſelf grow weighty, lie <lb/>down between the blankets
+          at leaſt three <lb/>times a-day, to alter the poſture; from which <lb/>you will find great
+          relief. </p>
+        <p rend="indent"><lb/>It is neceſſary to have two motions a-day <lb/>the two laſt months;
+          the laſt fortnight you <lb/>ſhould drink a glaſs of mountain, with a table-<lb/>ſpoonful
+          of ſweet oil in it, as it relaxes, and <lb/>will be of great ſervice in labour. </p>
+        <p rend="indent"><lb/>Should you, my dear madam, find <w part="I">your-</w><lb/><w part="F"
+            >ſelf</w> very uneaſy the latter-part of your time, <lb/>make not yourſelf unhappy, as
+          it is moſt <w part="I">pro-</w><lb/><w part="F">bable</w> you will come the quicker and
+          better <lb/>for it. </p>
+        <p rend="indent"><lb/>As ſoon as you are taken in labour, comb <lb/>your hair ſmooth, have
+          an inch cut off <w part="I">be-</w><lb/><w part="F">hind</w> and before, or you will find
+          it comb off <lb/>very much at the month's end. I know <lb/>ſeveral ladies who have loſt
+          very fine heads of <lb/>hair by this omiſſion. The next thing, <lb/>put on your night-cap,
+          which will prove very <lb/>comfortable: ſome ladies will not be <w part="I"
+            >per-</w><lb/><w part="F">ſuaded</w> to it, and, by that means, are very <pb
+            xml:id="page_10" n="8"/><lb/>much diſturbed. Four people about you are <lb/>quite
+          ſufficient, the midwife, nurſe, and two <lb/>aſſiſtants; more only heat the room, create
+          <lb/>confuſion, baulk your pains, and prevent <lb/>your taking them as you otherwiſe
+          would: to <lb/>prevent flooding, which is too often the caſe, <lb/>or the fatigue of
+          raiſing yourſelf up, I would <lb/>recommend a ſilver ſucking-ſpout, by the <lb/>aſſiſtance
+          of which you may drink without <lb/>being moved. </p>
+        <p rend="indent"><lb/>A half-ſhift and body-cloth, with ſtrings, <lb/>a double napkin to
+          your breaſts, and a ſingle <lb/>waiſtcoat, with ſleeves, to come as low as <lb/>your
+          elbows, (made by a skilful taylor, as <lb/>ſoon as your are with child,) are all that are
+          <lb/>neceſſary; when you ſit up in your bed, throw <lb/>a double handkerchief over your
+          neck, and <lb/>ſlip on your bed-gown; lie warm, but not <lb/>hot. </p>
+        <p rend="indent"><lb/>Providence has ſo ordained it, that a <w part="I">wo-</w><lb/><w
+            part="F">man</w>, with her firſt child, has ſeldom or ever <lb/>any after-pains; if you
+          are well, and can eat <lb/>a biſcuit, or cruſt of bread, the minute after <lb/>delivery,
+          it will keep the wind out of your <lb/>ſtomach, and ſtrengthen you very much. Be <pb
+            xml:id="page_11" n="9"/><lb/>ſure to have ſperma-ceti, ſugar, and nutmeg, <lb/>and
+          plenty of very weak brandy and water: <lb/>and, in a few hours afterwards, a half-pint
+          <lb/>baſon of barley-jelly; but no caudle, on any <lb/>conſideration, till the milk has
+          been at the <lb/>height, and is quite gone off, ſo that you <lb/>have not the leaſt fever;
+          as, by ſuppreſſing <lb/>the milk at that time, according to <w part="I"
+            >inſtruc-</w><lb/><w part="F">tions</w>, you will gain ſtrength very faſt. </p>
+        <p rend="indent"><lb/>For the firſt twelve days, take of ſugar and <lb/>ſperma-ceti about
+          one-third of an ounce <w part="I">fre-</w><lb/><w part="F">quently</w>; and, every or
+          every other day, take <lb/>a quarter of an ounce of manna, as you find <lb/>occaſion, one
+          motion a day being ſufficient; <lb/>without which, in all probability, you will <lb/>have
+          a fever, owing to confinement. </p>
+        <p rend="indent"><lb/>You may eat part of a boiled rabbit, chicken, <lb/>or ſuch like food,
+          every day for the firſt <lb/>week; and, about eleven o'clock, in the <w part="I"
+            >fore-</w><lb/><w part="F">noon</w>, have ſome good broth, beef-tea, or <lb/>calf's-foot
+          jelly, by way of change, with the <lb/>barley-jelly; after which time (if you follow
+          <lb/>my directions) you may live as the family do, <lb/>provided they dine at one o'clock. </p>
+        <pb xml:id="page_12" n="10"/>
+        <p rend="indent"><lb/>If your ſtrength will admit, I would wiſh you <lb/>to get up the
+          ſecond day, to have your bed made; <lb/>about the fourth or fifth put on your jumps,
+          <lb/>and pin your gown quite cloſe; by attending to <lb/>that, it will ſtrengthen your
+          back much; and, <lb/>from that day, endeavour to ſit up an hour, <lb/>and ſo on by
+          degrees, by which means you <lb/>will recover your ſtrength ſooner than you are <lb/>aware
+          of: the weak ſtate, ladies in general are <lb/>reduced to, ariſes from lying in bed too
+          long. </p>
+        <p rend="indent"><lb/>The fifth day you may drink half a pint of <lb/>beer, with a glaſs of
+          mountain in it; and, if <lb/>you have any deſire for cheeſe, at your <w part="I"
+            >din-</w><lb/><w part="F">ner</w>, eat a piece the ſize of a nutmeg, after <lb/>which
+          drink a glaſs of port-wine. The ſeventh <lb/>or eighth day you may venture to drink beer
+          <lb/>alone; in that caſe, at and after dinner, drink <lb/>a glaſs of port-wine: ſome time
+          after lie down <lb/>between the blankets, for an hour or more; <lb/>if you can compoſe
+          yourſelf to reſt, it will be <lb/>of great ſervice. In this manner you ſhould <lb/>proceed
+          the firſt three weeks; during which <lb/>time always breakfaſt in bed, and lie two
+          <lb/>hours after; before you riſe be ſure to have <lb/>ſomething warm. </p>
+        <pb xml:id="page_13" n="11"/>
+        <p rend="indent"><lb/>Dine at one o'clock, and by no means drink <lb/>tea later than five;
+          for, if you do, it will <w part="I">inter-</w><lb/><w part="F">fere</w> with the
+          undreſſing your child and getting <lb/>your ſupper. </p>
+        <p rend="indent"><lb/>Between your tea and ſeven o'clock drink <lb/>a little warm jelly, or
+          a glaſs of wine with a <lb/>cruſt of bread; otherwiſe, undreſſing your <lb/>child and
+          ſuckling will be too great a fatigue. <lb/>Sup at nine o'clock, and be in bed by ten; <w
+            part="I">af-</w><lb/><w part="F">ter</w> that time do not ſuffer any perſon to come
+          <lb/>into your room, as it will diſturb you, and <lb/>very likely prevent your ſleeping. </p>
+        <p rend="indent"><lb/>Avoid ſeeing much company; for the weak <lb/>ſtate you may probably be
+          in will not admit <lb/>of it: ſhould you be ſo, attend to this for the <lb/>firſt three
+          weeks, by which means you will <lb/>regain your ſtrength ſooner. </p>
+        <p rend="indent"><lb/>When your month is up, and you are able to <lb/>go abroad, I earneſtly
+          recommend you to obſerve, <lb/>that if, by any means, you have been <w part="I"
+            >prevent-</w><lb/><w part="F">ed</w> ſuckling for ſix, eight, or ten, hours, which
+          <lb/>will ſometimes be the caſe, you will uſe the <lb/>Aſſiſtant inſtead of applying the
+          child; ſhould <pb xml:id="page_14" n="12"/><lb/>your exerciſe have thrown you into a <w
+            part="I">perſpi-</w><lb/><w part="F">ration</w>, however gentle, make water, put <w
+            part="I">a-</w><lb/><w part="F">nother</w> cloak on, and drink ſomething warm; <lb/>the
+          milk then will be freſh and good: ſhould <lb/>it not have vented itſelf in ſuch a number
+          of <lb/>hours, you will be convinced, by its ſmelling <lb/>offenſively, that it muſt be
+          hurtful to the infant; <lb/>and without thoſe preparations the countenance <lb/>will
+          immediately turn pale, cauſe it to cry, <lb/>have a ſtool, or perhaps both; and then it is
+          <lb/>the blood gets foul: by this omiſſion I loſt a <lb/>fine boy, four months old. As
+          every <w part="I">diſa-</w><lb/><w part="F">greeable</w> eircumſtance injures the milk; if
+          your <lb/>breaſts are hard, and overful, be aſſured you <lb/>have taken cold, which is
+          impoſſible to be <lb/>avoided without great precaution; and thus <lb/>numbers of children,
+          by the foulneſs of the <lb/>milk, have been thrown into convulſions. </p>
+        <p rend="indent"><lb/>I have great reaſon to believe, had I not <lb/>drawn my breaſts at
+          leaſt fourſcore times, <lb/>with each of my two laſt children, I ſhould <lb/>not have been
+          able to have reared them, from <lb/>trouble of mind, fatigue, and cold. </p>
+        <div>
+          <pb xml:id="page_15" n="13"/>
+          <head rend="align-center"><lb/>THE <lb/><hi rend="dc(2)">MANAGEMENT</hi>
+            <lb/>OF <lb/><hi rend="dc(2)">THE INFANT.</hi>
+          </head>
+          <p rend="indent"><lb/><hi rend="dc(3)">W</hi>ITH reſpect to the treatment of your <w
+              part="I">in-</w><lb/><w part="F">fant</w>, though it be your requeſt that I
+            <lb/>ſhould offer my advice, yet I do not preſume to <lb/>dictate to your midwife, as I
+            very much <w part="I">ap-</w><lb/><w part="F">prove</w> of their method in general;
+            however, I <lb/>have no doubt that, by purſuing the following <lb/>directions, great
+            advantage will be found. </p>
+          <p rend="indent"><lb/>As to the dreſs, it ſhould conſiſt of a <w part="I"
+              >belly-</w><lb/><w part="F">band</w>, made of a piece of fine linen cloth, <w part="I"
+              >dou-</w><lb/><w part="F">bled</w> about three fingers wide; when the <w part="I"
+              >navel-</w><lb/><w part="F">ſtring</w> is off, put it ſingle; when quite well,
+            <lb/>leave it off, as the ſhirt with ſtrings <w part="I">an-</w><lb/><w part="F"
+              >ſwers</w> that purpoſe; a blanket, a ſhort looſe <pb xml:id="page_16" n="14"
+            /><lb/>roller, a little gown, and one cap; a long ſtay <lb/>may be made uſe of, if you
+            think proper, <lb/>but not continued more than three weeks, <lb/>either night or day. </p>
+          <p rend="indent"><lb/>As ſoon as the child is dreſſed, I would <lb/>have you give it of
+            ſyrup of marſh-mallows <lb/>and oil of ſweet almonds two tea-ſpoonfuls of <lb/>each,
+            mixed together, which cleanſes more <lb/>than ſugar and butter; as the former ſticks
+            <lb/>to the mouth, cauſes ſore nipples, and <w part="I">fre-</w><lb/><w part="F"
+              >quently</w> throws children into the watery <lb/>gripes. </p>
+          <p rend="indent"><lb/>In the next place, the child ſhould be put to <lb/>the breaſt; if
+            the milk cannot be obtained, <lb/>let it be fed with beef-tea, without ſugar;
+            <lb/>ſhould it be, even in that caſe it muſt be fed w<lb/>ith the tea three times a-day,
+            for a ſucking-<lb/>child requires victuals oftener than you are <lb/>aware of; if it
+            continues to ſuck, the milk <lb/>will cleanſe it ſufficiently; ſhould it not, <lb/>it is
+            neceſſary to give it three doſes of phyſic, <lb/>by your doctor's or apothecary's order;
+            as <corr>
+              <sic>I</sic></corr>
+            <lb/>I am perſuaded few nurſes underſtand enough <lb/>of drugs to cleanſe it properly. </p>
+          <pb xml:id="page_17" n="15"/>
+          <p rend="indent"><lb/>Should you have overheated yourſelf, had <lb/>any uncommon
+            uneaſineſs during your <w part="I">preg-</w><lb/><w part="F">nancy</w>, or you or your
+            husband have any <w part="I">hu-</w><lb/><w part="F">mours</w> in your blood, lay a
+            bliſter on as ſoon <lb/>as the child is born. I am well acquainted <lb/>with an eminent
+            and skiful midwife who <lb/>never brings a child into the world without <lb/>applying
+            one before it is dreſſed, and orders <lb/>gum-arabic, about a tea-ſpoonful at a time, to
+            <lb/>be given diſcretionally into its victuals or alone. </p>
+          <p rend="indent"><lb/>On the eleventh day, as ſoon as the child <lb/>is dreſſed, to a
+            pap-ſpoonful of purifying <w part="I">lo-</w><lb/><w part="F">tion</w> add ſix drops of
+            each of the head <w part="I">tinc-</w><lb/><w part="F">tures</w>, with which the head,
+            forehead, <w part="I">eye-</w><lb/><w part="F">brows</w>, neck, throat, loins, and
+            knees, ſhould <lb/>be rubbed well; it will give ſpirits and <lb/>ſtrength to the infant,
+            and may be uſed with <lb/>ſafety, ſick or well; be careful to dry the <lb/>head, and as
+            ſoon as done put on the cap, not <lb/>uſing pomatum on any account. Children, <lb/>in
+            common, have a great deal of weak hair; <lb/>by purſuing this method every day, it will
+            <lb/>either take it off at the month's end, or give <lb/>ſtrength and make it grow: it
+            will cleanſe an <lb/>infant's head in ten days, ſhould it have ever <pb xml:id="page_18"
+              n="16"/><lb/>ſo great a quantity of white or yellow ſcurf, <lb/>without the leaſt
+            hazard of giving the child <lb/>cold. </p>
+          <p rend="indent"><lb/>The mis-management of childrens heads, <lb/>in general, induced me
+            to try the experiment <lb/>on one of my own, by which means I made <lb/>the diſcovery; I
+            therefore ſtrongly <w part="I">recom-</w><lb/><w part="F">mend</w> it to you, as I am
+            perſuaded it will be <lb/>of great ſervice to your child, and will <w part="I"
+              >pre-</w><lb/><w part="F">vent</w> the fever in the head moſt children are
+            <lb/>ſubject to from improper treatment. </p>
+          <p rend="indent"><lb/>There are two diſorders incident to an <w part="I">in-</w><lb/><w
+              part="F">fant</w>, in the month, viz. the red-gum and <lb/>thruſh; the latter ſhould
+            be very cloſely <w part="I">watch-</w><lb/><w part="F">ed</w> for, that it may be ſent
+            through as ſoon as <lb/>poſſible. </p>
+          <p rend="indent"><lb/>If the child is ſubject to the hicup, which <lb/>is a ſpecies of
+            convulſions, and proceeds from <lb/>the wind getting into the ſtomach, it ſhould <lb/>be
+            put to the breaſt, that it may ſuck it away; <lb/>if it neither will nor can, give it
+            ſome warm <lb/>beef-tea. </p>
+          <pb xml:id="page_19" n="17"/>
+          <p rend="indent"><lb/>At the end of three weeks I would have you <lb/>coat the child,
+            which, with the ſtay, ſhould <lb/>be half a yard in length: the ſhirt to be one
+            <lb/>inch longer, and the frock rather longer than <lb/>the reſt; they ſhould all tie
+            behind, by which <lb/>means you may put on the dreſs in a minute. <lb/>Feed your child
+            as directed, keep it to <w part="I">regu-</w><lb/><w part="F">lar</w> hours, and cool in
+            the night; you will <lb/>then have little trouble, about that time, <lb/>Should the
+            child be well, it will then <w part="I">endea-</w><lb/><w part="F">vour</w> to ſtep up
+            the nurſe's ſtomach, and get <lb/>on her head. Is it not then abſurd that it ſhould
+            <lb/>be clothed in ſuch a manner as to deprive <lb/>it of the proper uſe of its limbs?
+            which it <lb/>often is, from the common mode of dreſſing, <lb/>at leaſt ſix months. How
+            did our firſt <w part="I">pa-</w><lb/><w part="F">rents</w> ſhelter themſelves from
+            cold? The <w part="I">Scrip-</w><lb/><w part="F">ture</w> tells us they came naked into
+            the world, <lb/>and, had they not touched the forbidden fruit, <lb/>they would never
+            have known the want of <lb/>clothing. Nature points out to us to keep <lb/>ourſelves
+            cool: the great folly of childrens <lb/>wearing long clothes, I attribute to a miſtaken
+            <lb/>notion, taken from that paſſage in the <w part="I">Scrip-</w><lb/><w part="F"
+              >ture</w>, where we are told <q rend="quotes">Our bleſſed Saviour <lb/>was wrapped in
+              ſwadling clothes, and laid <pb xml:id="page_20" n="18"/><lb/>in a manger, as there was
+              no other room <lb/>for him in the inn.</q> At that time the <w part="I"
+              >rea-</w><lb/><w part="F">ſon</w> was juſt, being the depth of winter: but <lb/>ſurely
+            there can be none given now for <w part="I">cloth-</w><lb/><w part="F">ing</w> a child
+            ſo hot, who is confined for the <lb/>firſt month, and, for the moſt part, a quarter of
+            <lb/>a year, either to the lying-in room or nurſery; <lb/>which, in general, may be more
+            properly <lb/>compared to a bagnio than any other place. </p>
+          <p rend="indent"><lb/>When you take an infant of three weeks <lb/>old in your arms, ſit as
+            upright in your chair as <lb/>if at your harpſichord; from that poſition you <lb/>will
+            have the full uſe of your arms; dance it <lb/>from thigh to thigh, which you will find
+            <lb/>gives it a notion of ſtepping. That you may <lb/>not be at a loſs after your nurſe
+            has left you, <lb/>when the child is at the breaſt, avoid talking <lb/>loud, as it
+            affrights and makes it quit it; ſhould <lb/>you have done ſo by chance, ſpeak in a low
+            <lb/>tone of voice, it will look up in your face, <lb/>ſmile, and, in all probability,
+            ſuck again. </p>
+          <p rend="indent"><lb/>The time of day an infant is dreſſed, in <lb/>general, is about
+            eleven or twelve o'clock, <lb/>which I look upon to be an improper one; it <lb/>ſhould
+            be early in a morning, as it not only <pb xml:id="page_21" n="19"/><lb/>tires, but
+            refreſhes, and gives it an appetite to <lb/>its breakfaſt: when finiſhed, if not ſleepy,
+            <lb/>ſend it into the air. I mean at that ſeaſon of <lb/>the year when the ſhortneſs of
+            the days, and <lb/>the inclemency of the weather, will otherwiſe <lb/>prevent its
+            enjoying the benefit of it at a proper <lb/>time of day: in ſummer it is not material. </p>
+          <p rend="indent"><lb/>At ſix weeks old it ſhould have no other <w part="I">co-</w><lb/><w
+              part="F">vering</w>, to ſleep in, but a ſhirt, and a little ſhift, <lb/>or bed-gown,
+            half an ell long; ſhould it not <lb/>be kept cool, as much ſtrength will be loſt in
+            <lb/>one night as gained in two days. </p>
+          <p rend="indent"><lb/>It is a miſtaken opinion that an infant will <lb/>ſleep the firſt
+            quarter; ſome may, but, believe <lb/>me, it is not natural. The firſt four months
+            <lb/>being the time to give them a notion of their <lb/>feet; at ſix weeks, if you
+            ſuffer the child to <lb/>ſtand on your left thigh, you will find it ſhove <lb/>forwards,
+            and put out its fee to ſtep; you may <lb/>then with ſafety put on the Nurſe's-Relief,
+            <lb/>which I have ſo contrived, that it takes off the <lb/>whole weight of the child,
+            and may be worn at <lb/>all times. It grieves me to hear parent deſire <lb/>the nurſe to
+            take the child; it is ſo heavy ſhe <lb/>cannot hold it. In juſtice to yourſelf and it,
+              <pb xml:id="page_22" n="20"/><lb/>to which particular attendance muſt and <lb/>ſhould
+            be given for the firſt twelve months, <lb/>which will fully employ the time of any one
+            <lb/>perſon; by that means you will, in all <w part="I">proba-</w><lb/><w part="F"
+              >bility</w>, have your child out of arms in that <lb/>time; on the contrary it may be
+            almoſt two <lb/>years. You will eaſily judge, by taking it into <lb/>your arms
+            occaſionally, whether it is properly <lb/>nurſed or not. </p>
+          <p rend="indent"><lb/>Some ladies are ſo particular that they think <lb/>a child ſhould
+            not be ſet on its feet till <w part="I">expi-</w><lb/><w part="F">ration</w> of the
+            firſt eight months, which is a <lb/>falſe notion; for, as I obſerved before, the firſt
+            <lb/>four months the child ſhould exerciſe its limbs; <lb/>after that time (and in many
+            children before) <lb/>the teeth are ſhooting into the gums, and that <lb/>is often
+            attended with worſe conſequences <lb/>than actual teething itſelf; becauſe an infant
+            <lb/>is ſubject to the ſtrangury; and a parent's not <lb/>knowing or conſidering that
+            circumſtance is <lb/>what occaſions children to be taken off, from <lb/>the age of four
+            months to three years old; an <lb/>inſtance of which I will give you. </p>
+          <p rend="indent"><lb/>A perſon who takes in children to nurſe, <lb/>whoſe houſe I had
+            occaſion frequently to paſs, <pb xml:id="page_23" n="21"/><lb/>taking notice of my
+            little boy, then in arms, <lb/>led me naturally to enquire after her nurſing <lb/>child,
+            whom I had often ſeen, and <w part="I">remark-</w><lb/><w part="F">ed</w> to have been a
+            fine boy: the poor <w part="I">wo-</w><lb/><w part="F">man</w> dropped a tear, and ſaid
+            the child was <lb/>dead. The agitation of mind ſhe then <w part="I">ap-</w><lb/><w
+              part="F">peared</w> to be in would not permit me to aſk <lb/>any other queſtions; but,
+            as I was paſſing in <lb/>the evening, I took the opportunity, while ſhe <lb/>was
+            ſtanding at the door, of enquiring if he <lb/>had been long ill; ſhe ſaid he had not:
+            and <lb/>what age he was, about five months; and had <lb/>two teeth looked ſo blue, that
+            ſhe had no doubt <lb/>would have been cut the next day, which led <lb/>me farther to ask
+            concerning the child's <w part="I">wa-</w><lb/><w part="F">ter</w>. Firſt, whether ſhe
+            perceived any <w part="I">ſtop-</w><lb/><w part="F">page</w>; ſecondly, if he cried
+            before he made <lb/>any; and thirdly, when he did, if it was not <lb/>extremely hot;
+            really, ſaid the woman, I did <lb/>not take ſufficient notice. Another perſon, <lb/>who
+            occaſionally aſſiſted her, and was then <lb/>confined to her bed, in the next room, <w
+              part="I">(over-</w><lb/><w part="F">hearing</w> the converſation,) deſired I would
+            <lb/>walk in, when ſhe informed me ſhe <w part="I">recollect-</w><lb/><w part="F">ed</w>
+            that the child not only cried when it made <lb/>water, but that the water was ſo
+            extremely <pb xml:id="page_24" n="22"/><lb/>hot it almoſt fleed him; but that is common.
+            <lb/>They then ſent for the apothecary, but, before <lb/>he could come to their
+            aſſiſtance, the child was <lb/>carried off in a fit, occaſioned by the ſtrangury,
+            <lb/>which he, being unacquainted with, directly <lb/>pronounced it to be occaſioned by
+            the two teeth. </p>
+          <p rend="indent"><lb/>As a farther proof, I will give you an <w part="I">in-</w><lb/><w
+              part="F">ſtance</w> of a child of twenty weeks old, I was <lb/>called in by a
+            neighbour to look at, whom I <lb/>found in a violent fit of crying, in which it had
+            <lb/>been about two hours; obſerving the child's <lb/>knees drawn up to its chin induced
+            me to <lb/>ask if it had made water in that time; I was <lb/>told it had not. In about
+            an hour after I <w part="I">look-</w><lb/><w part="F">ed</w> in again, and found the
+            child in a ſound <lb/>ſleep; upon enquiry, I was told he had been <lb/>very uneaſy
+            before he made water, but, as <lb/>ſoon as he had, it relieved him, and he <w part="I"
+              >be-</w><lb/><w part="F">came</w> compoſed; and, as in the caſe <w part="I"
+              >before-</w><lb/><w part="F">mentioned</w>, his thighs were almoſt fleed by <lb/>the
+            heat of its water; in conſequence of <lb/>which I adviſed her to give it ſome gum-arabic
+            <lb/>water, which had the deſired effect. The <lb/>following day ſhe perceived two under
+            teeth <lb/>look blue, which I recommended her to rub <lb/>with a gold ring; ſhe did, and
+            they came <pb xml:id="page_25" n="23"/><lb/>through with great eaſe, encouraged by the
+            <lb/>gum-arabic, carrying the fever off, by urine, <lb/>incident to thoſe caſes. She has
+            continued <lb/>it ever ſince in every thing he eats and drinks; <lb/>and he is now a
+            fine boy: his grand-mother <lb/>is of opinion that his life was ſaved by that
+            <lb/>means. In order to keep the mouth cool, <lb/>when you perceive the child about its
+            teeth, <lb/>the firſt thing given it in a morning ſhould <lb/>be a tea-ſpoonful of cold
+            ſpring water. </p>
+          <p rend="indent"><lb/>Every mother or nurſe ſhould conſtantly <lb/>feel the child's pulſe
+            once every day, that ſhe <lb/>may judge whether it is in health or not: <lb/>for my own
+            part, though I do not profeſs any <lb/>skill, yet, by accuſtoming myſelf to this <w
+              part="I">me-</w><lb/><w part="F">thod</w>, feeling the water, and examining the
+            <lb/>ſtools, I am able to ſorm a better judgement <lb/>than moſt people would imagine. I
+            am <w part="I">in-</w><lb/><w part="F">debted</w> to a very eminent phyſician for this
+            <lb/>hint, and I do verily believe it is a very <w part="I">eſſen-</w><lb/><w part="F"
+              >tial</w> one to any who have the care of an infant. </p>
+          <p rend="indent"><lb/>If a child's water appears of the colour of <lb/>milk, neglect not
+            to give it the gum-arabic <lb/>three or four times a day, as you may be <w part="I"
+              >aſ-</w><lb/><w part="F">ſured</w> it has either caught cold or is about its <pb
+              xml:id="page_26" n="24"/><lb/>double teeth; in either caſe it has been found of
+            <lb/>great uſe, unleſs it operates as a purgative, <lb/>which is very ſeldom the caſe;
+            if it does, <w part="I">o-</w><lb/><w part="F">mit</w> it a day or two. </p>
+          <p rend="indent"><lb/>Some little time after the foregoing <w part="I">obſer-</w><lb/><w
+              part="F">vations</w>, I met a gentleman of the faculty, (the <lb/>father of a large
+            family,) whoſe opinion I <lb/>asked concerning a child's having the <w part="I"
+              >ſtrangu-</w><lb/><w part="F">ry</w>, and at what age; he ſaid at or about two
+            <lb/>years old. The earneſt manner in which I <lb/>put the queſtion to him, I ſuppoſe,
+            led him <lb/>to ask me whether I had reaſon, from the <w part="I">ex-</w><lb/><w
+              part="F">perience</w> I had had in attending my own <w part="I">chil-</w><lb/><w
+              part="F">dren</w>, to imagine it appeared before; I <w part="I">e-</w><lb/><w part="F"
+              >vaded</w> the queſtion, as at that time it did not <lb/>ſuit me to make the
+            confeſſion, knowing it <lb/>would be of great advantage to every perſon <lb/>that
+            purchaſed a Nurſe's-Relief of me, as I <lb/>then intended to make a point of convincing
+            <lb/>them how neceſſary it is for a parent or nurſe <lb/>to have the gum-arabic water by
+            them the <lb/>firſt three years, as few children cut all their <lb/>double teeth ſooner. </p>
+          <p rend="indent"><lb/>Should the child frequently heave, when <lb/>the ſtomach is
+            oppreſſed, which is common <pb xml:id="page_27" n="25"/><lb/>from ſix weeks to four or
+            five months old, <lb/>ſend for your apothecary, that he may order <lb/>ſomething for its
+            relief; otherwiſe, by not <lb/>checking the diſorder in time, you will moſt <lb/>likely
+            throw the infant into convulſions. </p>
+          <p rend="indent"><lb/>It is very abſurd for any one to imagine the <lb/>faculty do not
+            underſtand the diſorders <w part="I">inci-</w><lb/><w part="F">dent</w> to infants: in
+            many inſtances you will <lb/>find their opinion requiſite; ſhould that be the <lb/>caſe,
+            I earneſtly entreat you will make it a <lb/>rule to ask in what manner he expects the
+            <lb/>medicines to operate: they will all acquaint <lb/>you; but ſome, through hurry of
+            buſineſs, omit <lb/>it, by which they are often under the <w part="I">neceſ-</w><lb/><w
+              part="F">ſity</w> of attending a ſecond time, to ſatisfy the <lb/>doubts and fears of
+            the nurſe, who, from the <lb/>child's having two or three motions in an <lb/>hour, and
+            perhaps frequently ſick, alarms <lb/>herſelf with apprehenſion of danger; though,
+            <lb/>at the ſame time, it may be quite neceſſary, <lb/>and the infant could not be
+            relieved without. </p>
+          <p rend="indent"><lb/>I was greatly alarmed in a ſimilar caſe with <lb/>my laſt child, and
+            ſhould have been more ſo, <lb/>had it not been for my mother, who told me <lb/>the
+            medicine, the apothecary ſent, would take <pb xml:id="page_28" n="26"/><lb/>the effect
+            as above mentioned: or, probably, <lb/>by means of the fright, I might have loſt my
+            <lb/>milk; inſtances of which have been frequent; <lb/>as ſoon as you have given the
+            medicines, (for <lb/>they do not always operate alike,) put a <w part="I"
+              >dou-</w><lb/><w part="F">ble</w> napkin round its neck, and lay it in your <lb/>lap
+            at leaſt an hour; it poſſibly may fall <w part="I">a-</w><lb/><w part="F">ſleep</w>; if
+            ſo, the better; and it is a great <lb/>chance, when it awakes, if it be not ſick, or
+            <lb/>have a motion; perhaps both: it may otherwiſe <lb/>paſs off by urine; in which
+            caſe, ſhould it be <lb/>a little convulſed, do not alarm yourſelf, as <lb/>it will not
+            be of any bad conſequence. </p>
+          <p rend="indent"><lb/>Should the child be in a cold clammy ſweat, <lb/>do not let it make
+            you uneaſy. Apply <lb/>warm napkins to the neck, face, hands, and <lb/>bottom; lay your
+            hand on the navel, and <w part="I">gent-</w><lb/><w part="F">ly</w> rub the ſtomach,
+            carefully avoiding to <w part="I">over-</w><lb/><w part="F">heat</w> the child; as ſoon
+            as it is eaſy it will <w part="I">re-</w><lb/><w part="F">ward</w> your tender care with
+            a pleaſing ſmile; <lb/>endeavour to compoſe it, and then you may, <lb/>with ſafety, put
+            it in the bed or cradle, taking <lb/>care not to diſturb it on any conſideration:
+            <lb/>ſhould it ſleep five, ſix, or eight, hours, be <lb/>ſure, in that time, to draw
+            your breaſts twice, <pb xml:id="page_29" n="27"/><lb/>as more children ſuffer by that
+            omiſſion than <lb/>you are aware of: among the number, I loſt <lb/>a fine boy of my own,
+            four months old, by <lb/>that neglect. </p>
+          <p rend="indent"><lb/>When your child is five months old, <w part="I">pro-</w><lb/><w
+              part="F">vided</w> you follow my directions, you may put <lb/>it into a go-cart, which
+            I am perſuaded will <lb/>be found very convenient; after it is in, tie <lb/>the cart to
+            the leg of a table or chair; <w part="I">conti-</w><lb/><w part="F">nue</w> it thus for
+            a fortnight, that it may feel <lb/>its feet properly; it will take great pleaſure
+            <lb/>in ſtanding ſo: if you do not obſerve this <w part="I">cau-</w><lb/><w part="F"
+              >tion</w>, but ſuffer the cart to run on the floor at <lb/>firſt, it may very likely
+            intimidate the child, <lb/>and give it a diſlike to it. I have given <w part="I"
+              >direc-</w><lb/><w part="F">tions</w> for one to be made with a flag to it, to
+            <lb/>encourage the child to ſtand upright; and a <lb/>chair on a different conſtruction
+            from thoſe <lb/>made uſe of in common, of which I very <lb/>much diſapprove, as they are
+            too great a <w part="I">con-</w><lb/><w part="F">finement</w>. </p>
+          <p rend="indent"><lb/>I have obſerved by my own children, when <lb/>ill, that they have
+            frequently taken a little <lb/>warm victuals or drink, becauſe the fatigue of <pb
+              xml:id="page_30" n="28"/><lb/>ſucking has been too great; but, as ſoon as a <lb/>child
+            finds itſelf eaſy, it will readily receive <lb/>the nouriſhment from the breaſt,
+            deſigned by <lb/>nature. When you take the child out of the <lb/>cradle or off the bed,
+            after ſleeping, it ſhould <lb/>not be ſet on its feet immediately, as it is apt <lb/>to
+            make it croſs; the feeble ſtate we <w part="I">our-</w><lb/><w part="F">ſelves</w> are
+            in, on our firſt getting out of bed, <lb/>plainly ſhews the utility of the above
+            caution; <lb/>you will therefore do well to ſet the child <lb/>in its chair, and divert
+            it for five minutes; <lb/>after that time it may, with ſafety, be <w part="I"
+              >allow-</w><lb/><w part="F">ed</w> to go to play. </p>
+          <p rend="indent"><lb/>I do not approve of a back-ſtring; nor do <lb/>I allow a child to
+            run alone till it can get up <lb/>of itſelf, after falling: neither do I ſuffer any
+            <lb/>body to take it off the ground, when young; <lb/>ſhould you accuſtom them to that,
+            they will <lb/><unclear>#</unclear>ie and ſcream till you do; on the contrary, <lb/>if
+            no notice is taken, they will get up of <w part="I">them-</w><lb/><w part="F"
+            >ſelves</w>, go to play, and not mind a fall ſo <lb/>much, even if an accident happened
+            by it. </p>
+          <p rend="indent"><lb/>I hope by theſe inſtructions, which you <lb/>have from under my
+            hand, you will be a <w part="I">bet-</w><pb xml:id="page_31" n="29"/><lb/><w part="F"
+              >ter</w> nurſe to your firſt child than I was to my <lb/>fifth; that it may prove ſo,
+            is the ſincere wiſh <lb/>of, </p>
+          <signed rend="italic"><lb/>Dear madam, <lb/>Your obedient humble ſervant, </signed>
+          <dateline rend="size(0.5)">London, <lb/>October 22, 1777. </dateline>
+        </div>
+      </div>
+      <div>
+        <pb xml:id="page_32" n="30"/>
+        <head rend="align-center"><lb/><hi rend="dc(2)">RECEIPTS</hi>
+          <lb/>REFERRED TO IN THE <lb/><hi rend="dc(2)">BODY</hi> OF THE <hi rend="dc(2)">WORK</hi>. </head>
+       <div>
+          <head rend="italic align-center"><lb/>To make Barley-Jelly for a lying-in Woman or
+            <lb/>ſick Perſon. </head>
+          <p rend="indent"><lb/><hi rend="dc(2)">U</hi>PON a quarter of a pound of pearl-barley
+            <lb/>pour three pints of ſpring water; let it <lb/>ſcald: pour that away, then pour
+            three pints <lb/>of boiling water to the barely; let it boil till it <lb/>is very thick,
+            taking care it does not boil over: <lb/>ſtrain it through a ſieve, and preſs the barley
+            <lb/>with a ſpoon till you leave little more than the <lb/>black ſeed; it will then be
+            quite a jelly. If <lb/>you have no diſlike put in a blade of mace and <lb/>a piece of
+            lemon-peal; let it ſtand to be cold; <lb/>and, as you warm it for uſe, add a <w part="I"
+              >tea-ſpoon-</w><lb/><w part="F">ful</w> of gum-arabic, with a little wine, unleſs
+            <lb/>you prefer it without. The above I <w part="I">recom-</w><lb/><w part="F">mend</w>
+            every lady to drink the firſt five days to <lb/>ſuppreſs the fever, in general
+            occaſioned by <lb/>drinking caudle. </p>
+        </div>
+       <div>
+          <pb xml:id="page_33" n="31"/>
+          <head rend="italic align-center"><lb/>The Gum-Arabic Water. </head>
+          <p rend="indent"><lb/>INFUSE three ounces of gum-arabic in <lb/>half a pint of boiling
+            water; keep it ſtirring a <lb/>few minutes, it will diſſolve: put it into a
+            well-<lb/>glazed pipkin, and give it a boil up for about <lb/>five minutes. Then put it
+            into a phial to keep <lb/>it clean and fit for uſe. </p>
+        </div>
+       <div>
+          <head rend="italic align-center"><lb/>To prevent Miſcarriage, or for a weakly Perſon. </head>
+          <p rend="indent"><lb/>TO the white of an egg, well beat up, <lb/>pour half a pint of milk
+            moderately warm: <lb/>ſweeten it to your palate, and add a <w part="I"
+              >tea-ſpoon-</w><lb/><w part="F">ful</w> of rum. Take it an hour before you riſe,
+            <lb/>at eleven o'clock in the forenoon, and at <lb/>four in the afternoon. </p>
+        </div>
+       <div>
+          <head rend="italic align-center"><lb/>To bake a Calf's or Neat's Foot. </head>
+          <p rend="indent"><lb/>CUT the foot in half; put it into a pan <lb/>with a large rice of
+            ginger; (unleſs you have <lb/>any objection to that ſpice;) then cover it <w part="I"
+              >o-</w><lb/><w part="F">ver</w> with mi<unclear>#</unclear>k and water: tie it over
+            with a <lb/>brown paper, and ſend it to the oven, to be <lb/>put in early in the
+            morning, that it may ſoak <lb/>the longer; when done, take a cup of it <lb/>warm, and
+            ſweeten it to your taſte. </p>
+        </div>
+       <div>
+          <pb xml:id="page_34" n="32"/>
+          <head rend="italic align-center"><lb/>Receipt to take a Mark off a Child. </head>
+          <p rend="indent"><lb/>PUT a pewter plate into a ſtand,<note place="bottom" n="*"
+              rend="size(0.5)">* Which is to <unclear>#</unclear>e had of R. Bodker, <w part="I"
+                >ſurgeons-inſtrument-</w><lb/><w part="F">maker</w>, in
+                Lead<unclear>#</unclear>nha<unclear>#</unclear> ſtreet: likewiſe the ſilver
+              ſucking-ſpout. </note> and <lb/>ſend it to the baker's, that it may be put into
+            <lb/>the oven as ſoon as the bread is drawn: the <lb/>ſteam that drops from the plate is
+            to be <w part="I">re-</w><lb/><w part="F">ceived</w> in a pint baſon, and then poured
+            into <lb/>a phial: keep it in a warm place; and with <lb/>this bathe the mark, with a
+            feather, at leaſt <lb/>ſix or eight times in a day, till it is quite worn <lb/>off. </p>
+        </div>
+       <div>
+          <head rend="italic align-center"><lb/>Bedf-Tea for a lying-in Woman. </head>
+          <p rend="indent"><lb/>POUR on a pound of lean beef three pints <lb/>of boiling water: let
+            it boil till reduced to a <lb/>quart: add to it four pepper-corns, four of
+            <lb/>all-ſpice, and a little ſalt; boil alſo a cruſt of <lb/>bread in it. </p>
+        </div>
+       <div>
+          <head rend="italic align-center"><lb/>Beef-Tea for an Infant. </head>
+          <p rend="indent"><lb/>POUR on a quarter of a pound of lean <lb/>beef a pint of boiling
+            water; let the beef boil <lb/>in it about five minutes; then take it out, and <lb/>put
+            in a large piece of upper cruſt of bread, <lb/>the ſtaler the better: give it a good
+            boil up; <lb/>do not beat it too fine after the firſt ſix <lb/>weeks: add to it a few
+            grains of ſalt. </p>
+          <trailer rend="align-center"><lb/>THE END. </trailer>
+        </div>
+      </div>
+    </body>
+
+    <back>
+      <div>
+        <p rend="indent size(0.5)"><lb/><hi rend="sc">Erratum</hi>, Page <unclear>#</unclear>, line
+            1<unclear>#</unclear>, als, and a s<unclear>#</unclear>irt, after the parentheſis. </p>
+      </div>
+    </back>
+
+  </text>
+</TEI>

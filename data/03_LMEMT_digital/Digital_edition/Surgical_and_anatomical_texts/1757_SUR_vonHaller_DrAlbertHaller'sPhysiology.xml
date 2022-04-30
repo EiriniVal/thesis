@@ -1,0 +1,1701 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> LMEMT Corpus - von Haller: Dr. Albert Haller's physiology</title>
+                <respStmt>
+                    <resp>Compiler</resp>
+                    <persName xml:id="IT">
+                        <forename>Irma</forename>
+                        <surname>Taavitsainen</surname>
+                    </persName>
+                    <persName xml:id="TH">
+                        <forename>Turo</forename>
+                        <surname>Hiltunen</surname>
+                    </persName>
+                    <persName xml:id="ALe">
+                        <forename>Anu</forename>
+                        <surname>Lehto</surname>
+                    </persName>
+                    <persName xml:id="VM">
+                        <forename>Ville</forename>
+                        <surname>Marttila</surname>
+                    </persName>
+                    <persName xml:id="RO">
+                        <forename>Raisa</forename>
+                        <surname>Oinonen</surname>
+                    </persName>
+                    <persName xml:id="PP">
+                        <forename>Päivi</forename>
+                        <surname>Pahta</surname>
+                    </persName>
+                    <persName xml:id="MR">
+                        <forename>Maura</forename>
+                        <surname>Ratia</surname>
+                    </persName>
+                    <persName xml:id="CS">
+                        <forename>Carla</forename>
+                        <surname>Suhr</surname>
+                    </persName>
+                    <persName xml:id="JT">
+                        <forename>Jukka</forename>
+                        <surname>Tyrkkö</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Research Assistant</resp>
+                    <persName xml:id="WA">
+                        <forename>Wilma</forename>
+                        <surname>Andersson</surname>
+                    </persName>
+                    <persName xml:id="EC">
+                        <forename>Emanuela</forename>
+                        <surname>Costea</surname>
+                    </persName>
+                    <persName xml:id="DV">
+                        <forename>Diana</forename>
+                        <surname>Frank-Väyrynen</surname>
+                    </persName>
+                    <persName xml:id="SK">
+                        <forename>Sami</forename>
+                        <surname>Kalliomäki</surname>
+                    </persName>
+                    <persName xml:id="MK">
+                        <forename>Mirella</forename>
+                        <surname>Klinga</surname>
+                    </persName>
+                    <persName xml:id="SKo">
+                        <forename>Sami</forename>
+                        <surname>Koskinen</surname>
+                    </persName>
+                    <persName xml:id="ALi">
+                        <forename>Aatu</forename>
+                        <surname>Liimatta</surname>
+                    </persName>
+                    <persName xml:id="HR">
+                        <forename>Heikki</forename>
+                        <surname>Rajala</surname>
+                    </persName>
+                    <persName xml:id="JR">
+                        <forename>Jenni</forename>
+                        <surname>Riihimäki</surname>
+                    </persName>
+                    <persName xml:id="AW">
+                        <forename>Anna-Lina</forename>
+                        <surname>Walraff</surname>
+                    </persName>
+                </respStmt>
+                <sponsor>
+                    <orgName>Department of Modern Languages, University of Helsinki</orgName>
+                </sponsor>
+                <funder>
+                    <orgName>University of Helsinki</orgName>
+                    <orgName>Academy of Finland</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>John Benjamins Publishing Company</publisher>
+                <pubPlace>Amsterdam</pubPlace>
+                <date>forthcoming</date>
+                <availability>
+                    <p>Copyright by the publisher. All rights reserved.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>
+                            <persName>Albrecht von Haller</persName>
+                        </author>
+                        <title type="main">Dr. Albert Haller's physiology; being a course of
+                            lectures upon the visceral anatomy and vital oeconomy of human bodies:
+                            ... In two volumes.</title>
+                        <edition n=""/>
+                        <idno type="ESTC">T146289</idno>
+                        <ptr type="ESTC-link" target="http://estc.bl.uk/T146289"/>
+                        <imprint>
+                            <!--Add additional <placeName/> elements for each additional place of publication.-->
+                            <pubPlace>
+                                <placeName>London</placeName>
+                            </pubPlace>
+                            <publisher>
+                                <persName>London: printed for W. Innys and J. Richardson,
+                                    1754.</persName>
+                            </publisher>
+                            <date>1757</date>
+                        </imprint>
+                        <extent>
+                            <measure type="format">8⁰</measure>
+                            <measure type="count" commodity="front" unit="page" quantity="91"/>
+                            <measure type="count" commodity="body" unit="page" quantity="339"/>
+                        </extent>
+                    </monogr>
+                    <note type="source_copy">
+                        <orgName type="library">British Library</orgName>
+                        <idno type="ECCO">CW3309334333</idno>
+                    </note>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <catRef n="Surgical or anatominal work"/>
+            </textClass>
+        </profileDesc>
+        
+    </teiHeader>
+    <text type="book" rend="roman" xml:lang="eng">
+        <gap reason="sampling" unit="pages" quantity="91"/>
+        <body>
+            <pb/>
+            <figure rend="space">
+                <lb/>
+                <figDesc>A horizontal double line spanning the whole page. </figDesc>
+            </figure>
+            <head rend="align-center space"><lb/><hi rend="size(2.0)">PHYSIOLOGIA;</hi>
+                <lb/><space dim="vertical" unit="lines" quantity="1"/>
+                <lb/>OR, A <lb/><space dim="vertical" unit="lines" quantity="1"/>
+                <lb/><hi rend="size(1.25)">COURSE of LECTURES</hi>
+                <lb/><space dim="vertical" unit="lines" quantity="1"/>
+                <lb/>ON THE <lb/><space dim="vertical" unit="lines" quantity="1"/>
+                <lb/><hi rend="size(1.25)"><hi rend="sc">Visceral Anatomy</hi> and <hi rend="sc"
+                        >Living</hi></hi>
+                <lb/><hi rend="sc">Oeconomy</hi> of the <hi rend="sc">Human Body</hi>,
+                &amp;c.</head>
+            <figure rend="space">
+                <lb/>
+                <figDesc>A horizontal line spanning the whole page.</figDesc>
+            </figure>
+            <div type="section">
+                <head rend="space align-center"><lb/>LECTURE I.</head>
+                <head rend="space align-center italic"><lb/>Of the Animal Fibres.</head>
+                <p rend="space"><lb/>§. 1. <hi rend="dc(4)">T</hi>HE moſt: ſimple parts of the
+                    <lb/>human body are either fluid <lb/>or ſolid. The fluid parts <w part="I"
+                        >be-</w><lb/><w part="F">ing</w> of divers kinds, we ſhall <lb/>hereafter
+                    conſider in their moſt convenient <lb/>places. But here the ſolids, which make
+                    <lb/>the moſt ſimple and true baſis of the body, <lb/>come firſt to be
+                    conſidered before the <w part="I">hiſto-</w><lb/><w part="F">ry</w> of the other
+                    parts.</p>
+                <pb n="2"/>
+                <floatingText type="comment">
+                    <body>
+                        <head rend="space align-center"><lb/>REMARK.</head>
+                        <p rend="intend"><lb/>A <hi rend="italic">body</hi>, philoſophically
+                            ſpeaking, is any <w part="I">ex-</w><lb/><w part="F">tended</w> and
+                            reſiſting object of our ſenſes; whoſe <lb/>parts have more or leſs an
+                            attractive and coheſive <lb/>force one to another. If this coheſion
+                            betwixt <lb/>the parts are ſtrong enough to keep them in their
+                            <lb/>ſituations (contrary to the force by which they <lb/>tend to the
+                            earth's center) and preſerve the <w part="I">na-</w><lb/><w part="F"
+                                >tural</w> figure of the body, we call it a <hi rend="italic"
+                                >ſolid</hi>; but <lb/>if this coheſion be ſo weak that the
+                            gravitation <lb/>of parts brings them to a level, or to a portion
+                            <lb/>of the earth's convexity, when left to themſelves, <lb/>we call it
+                            a <hi rend="italic">fluid</hi>; but if the coheſion of parts <lb/>be
+                            neither ſtrong enough to retain the figure, <lb/>nor weak enough to let
+                            them flow fo a level, we <lb/>call the body <hi rend="italic">ſoft</hi>,
+                            in various degrees 'till you <lb/>come to the coheſion of a ſolid,
+                            beyond which <lb/>we count <hi rend="italic">hardneſs</hi>. Hence we
+                            ſee, that, by <lb/>leſſening the coheſion and contact of parts, the
+                            <lb/>ſame body may be either ſolid, ſoft or fluid; <lb/>as, e. g. Reſin
+                            or butter with different degrees <lb/>of heat, leſſening the attraction
+                            of coheſion in <lb/>the conſtituent particles.</p>
+                    </body>
+                </floatingText>
+                <p rend="space indent"><lb/>§. 2. The ſolid parts of animals and <w part="I"
+                        >ve-</w><lb/><w part="F">getables</w> have this fabric in common, that
+                    <lb/>their elements, or the ſmallet parts we can <lb/>ſee by the fineſt
+                    microſcope, are either fibres, <lb/>or an unorganized concreet.</p>
+                <floatingText type="comment">
+                    <body>
+                        <head rend="space align-center"><lb/>REMARK.</head>
+                        <p rend="indent"><lb/>(1.) Elements are the ſmalleſt and moſt <w part="I"
+                                >ſim-</w><lb/><w part="F">ple</w> particles we can deſcend to in the
+                                <w part="I">compoſi-</w><lb/><w part="F">tion</w> of bodies. And
+                            theſe, which we are to <lb/>conſider as the keys of nature, are ſuch as
+                            we <lb/>are either led to by ſenſe and reaſon or by <w part="I"
+                                >rea-</w><pb n="3"/><lb/>ſon only. Theſe laſt are, therefore, termed
+                                <w part="I">onto-</w><lb/><w part="F">logical</w> elements or
+                            primitive atoms, from their <lb/>firſt obſerver Democritus, in
+                            contradiſtinction <lb/>to the four common or phyſical elements of <w
+                                part="I">Ari-</w><lb/><w part="F">ſtotle</w>. For though matter be
+                            in the mind <w part="I">infi-</w><lb/><w part="F">nitely</w> diviſible,
+                            'tis not actually ſo in nature, <lb/>but to a certain degree. And from
+                            theſe <w part="I">indi-</w><lb/><w part="F">viſible</w> or atomical
+                            particles, differing only in <lb/>bulk and figure, by a various
+                            combination, <w part="I">a-</w><lb/><w part="F">riſe</w> thoſe ſenſible
+                            or univerſally extended <w part="I">homo-</w><lb/><w part="F"
+                                >geneous</w> bodies we call phyſical elements, <w part="I"
+                                >be-</w><lb/><w part="F">cauſe</w> we ſee nature uſes them by
+                            mixture, <w part="I">tex-</w><lb/><w part="F">ture</w> and organization
+                            to form all the bodies in <lb/>the univerſe. Such are the infinite
+                            expanſion of <lb/><hi rend="italic">æther</hi>; our limited ſphere of
+                                <hi rend="italic">air</hi>; the more <lb/>confined body <hi
+                                rend="italic">water</hi>; and that ſtill leſs body <lb/>which we
+                            call <hi rend="italic">earth</hi>.</p>
+                        <p rend="indent"><lb/>(2.) <hi rend="sc">ÆTHER</hi> is that comipound, ever
+                            highly <lb/>elaſtic and ſubtileſt of all fluids, which is <w part="I"
+                                >ex-</w><lb/><w part="F">tended</w> by reciprocal undulations
+                            throughout the <lb/>univerſe (our vacuum's or exhauſted glaſſes not
+                            <lb/>excepted) ſo as (by moving w<unclear>ith</unclear> a certain <w
+                                part="I">cele-</w><lb/><w part="F">rity</w> in direct lines) to form
+                                <hi rend="italic">light</hi>; by refleftion <lb/>and
+                                re<unclear>fr</unclear>c<unclear>t</unclear>ion, <hi rend="italic"
+                                >colours</hi>; by attraction and <w part="I">col-</w><lb/><w
+                                part="F">liſſion</w> with the other elements, <hi rend="italic"
+                                >heat</hi> and <hi rend="italic">fire</hi>, <lb/>leſs degrees of
+                            which we call <hi rend="italic">cold</hi>. </p>
+                        <p rend="indent"><lb/>
+                            <lb/>(3.) <hi rend="sc">Air</hi> is that diaphanous and compreſſible
+                            <lb/>fluid which is extended about a degree round <lb/>the terraqueous
+                            globe, being with us about <lb/>46,656,000,000 times more denſe and
+                            ſluggiſh <lb/>than <unclear>æ</unclear>ther, betwixt which and air there
+                            is a very <lb/>great affinity or attractive force, as their denſity;
+                            <lb/>i. e. the air contiguous to the æther takes in and
+                            <lb/>concentrates the æther proportionally to its <lb/>greater denſity.,
+                            by which it is rendered more <lb/>ſpringy and active, with this
+                            difference that the <lb/>air, by contact and coheſion in the parts of <w
+                                part="I">bo-</w><pb n="4"/><lb/><w part="F">dies</w>, becomes ſolid
+                            and unelaſtic (but æther <w part="I">ne-</w><lb/><w part="F">ver</w>);
+                            from whence again, by heat, fire or <w part="I">diſ-</w><lb/><w part="F"
+                                >ſolution</w> of parts being ſeperated, its elaſticity <lb/>returns.
+                            This element has a near affinity or <w part="I">re-</w><lb/><w part="F"
+                                >lation</w> to water, becauſe it eagerly takes up <w part="I"
+                                >rari-</w><lb/><w part="F">fied</w> water into itſelf, as water
+                            again drinks up <lb/>a portion of air within its contact; ſo that air
+                            <lb/>and water, actuated by æther, make the levers <lb/>and wedges by
+                            which nature performs all her <lb/>changes in bodies either
+                            ſynthetically or <w part="I">analy-</w><lb/><w part="F">tically</w>. And
+                            it ſerves as the common medium <lb/>of communication betwixt us and all
+                            bodies.</p>
+                        <p rend="indent"><lb/>(4.) <hi rend="sc">Water</hi> is a colourleſs,
+                            inſipid, <w part="I">inodo-</w><lb/><w part="F">rous</w> and
+                            uninflammable liquor, ſtrongly related <lb/>or of near affinity both to
+                            air and earth, but <lb/>more particularly the laſt, ſince it readily <w
+                                part="I">ab-</w><lb/><w part="F">ſorbs</w> them, as they abſorb it.
+                            This owes it <lb/>fluidity to a certain degree of heat, ſince with
+                            <lb/>a heat, two thirds leſs than that of our blood, <lb/>it congeals;
+                            and with about twice the heat of <lb/>our blood it boils, beyond which
+                            it can be made <lb/>no hotter.</p>
+                        <p rend="indent"><lb/>(5.) <hi rend="sc">Earth</hi>, as an element, is a
+                            ſolid, opaque, <lb/>angular, friable, chalky ſubſtance of ſuch ſmall
+                            <lb/>volatile particles, that it readily diffuſes itſelf <lb/>through
+                            air and water, and reſides inviſibly in <lb/>them; as earth eagerly
+                            imbibing both air and <lb/>water, by their means forms the permanent
+                            baſis <lb/>and growth of all mineral, vegetable and animal
+                            <lb/>bodies.—A ſmall particle of æther, air and <lb/>water combined
+                            will, from their fluidity, form a <lb/>ſpherule, conſequently inſipid
+                            and inodorous; <lb/>but coming into ſtrict union, round a more
+                            <lb/>denſe, angular particle of earth, will be a conoide <lb/>corpuſcle,
+                            of which the ſpherule will be the baſis, <lb/>and the leaſt point of the
+                            earth the apex. Such <lb/>a particle, irritating the ſmell and taſte by
+                            its <pb n="5"/><lb/>figure and denſity, volatile from its minuteneſs,
+                            <lb/>and ſtrongly attracting both air, water, and <lb/>earth,
+                            (eſpecially the laſt) we call an acid, fluid <lb/><hi rend="italic"
+                                >ſalt</hi>. And ſuch parts again variouſly combined <lb/>with light
+                            earth and the other elements, will form <lb/>a bituminous, greaſy,
+                            fulphurous or oily ſubſtance, <lb/>combuſtible or inflammable, as Sir I.
+                            Newton <lb/>obſerves. Thus mineral elements, ſalts and <w part="I"
+                                >ſul-</w><lb/><w part="F">phurs</w> taken from the earth, do, by
+                            heat and <w part="I">or-</w><lb/><w part="F">ganiſation</w>, become
+                            vegetable in plants; thoſe <lb/>of plants are changed into animals, and
+                            thoſe <lb/>of animals into one another, without ever <w part="I"
+                                >carry-</w><lb/><w part="F">ing</w> the diſſolution to the minima
+                            naturalia, or <lb/>atoms of Democritus. An acid is thus by the <lb/>reed
+                            neutraliſed into ſugar; in the common <w part="I">ra-</w><lb/><w
+                                part="F">diſh</w>, pellitory of the wall, &amp;c. 'tis made <w
+                                part="I">ni-</w><lb/><w part="F">trous</w>; in the horſe-radiſh,
+                            onion, &amp;c. alcaline; <lb/>and alcalies, (foot, pot-aſh, rotten
+                            fleſh) are <w part="I">a-</w><lb/><w part="F">gain</w> in the vine and
+                            grape changed firſt into a <lb/><unclear>f</unclear>our and then into a
+                            ſaccharine juice, &amp;c. ſo <lb/>that out of a few ſimple elements (as
+                            in the notes <lb/>of muſic) by combinations ariſe all the varieties
+                            <lb/>of medicinal and other ſubſtances. Theſe <w part="I"
+                                >com-</w><lb/><w part="F">bined</w> by mere mixture and contexture,
+                            as in <w part="I">mi-</w><lb/><w part="F">nerals</w>, ſalts, gums,
+                            cartilages, glue, &amp;c. make <lb/>an unorganiſed concreet; but when
+                            the parts <lb/>combined perform any motion in a living body, <lb/>wether
+                            plant or animal, we call them a <w part="I">ma-</w><lb/><w part="F"
+                                >chine</w>, or if complex an organ; of which fibres <lb/>or flexible
+                            elaſtic threads are the moſt ſimple, <lb/>and univerſally compoſe the
+                            reſt. So elaſtic <lb/>globules, with a watry albumen or gelly, are the
+                            <lb/>baſis of all the circulating juices, that of the <lb/>nerves not
+                            excepted. </p>
+                    </body>
+                </floatingText>
+                <p rend="space indent"><lb/>§. 3. A fibre in general may be <w part="I"
+                        >mathe-</w><lb/><w part="F">matically</w> conſidered as reſembling a line
+                    made <pb n="6"/><lb/>of points, having a moderate breadth; or <lb/>rather
+                    geometrically as a ſlender cylinder. <lb/>And that the more conſtant or
+                    permanent <lb/>parts thereof are earth, is demonſtrated from <lb/>a calcination,
+                    or a long continued <w part="I">putre-</w><lb/><w part="F">faction</w>. </p>
+                <floatingText type="comment">
+                    <body>
+                        <head rend="space align-center"><lb/>REMARK.</head>
+                        <p rend="indent"><lb/>An animal or human body is not improperly <lb/>ſaid to
+                            be made up of clay or ſlimy earth, ſince all <lb/>the ſolids (which are
+                            compoſed of fibres) and <lb/>even the permanent or globular fluids which
+                                <w part="I">cir-</w><lb/><w part="F">culate</w>, are formed of
+                            chalky particles like thoſe <lb/>of pipe clay cemented together by glue
+                            or gelly; <lb/>as you may ſee by burning a lump of blood or <lb/>a bone
+                            in a clear fire, where after the air, water, <lb/>ſalt and oil, which
+                            compoſe the glue, are <w part="I">expel-</w><lb/><w part="F">led</w> and
+                            conſumed, you have a white, friable, <lb/>chalky earth, coming the
+                            neareſt to virgin or <lb/>elementary earth of any we know. So likewiſe
+                            <lb/>by diſeaſe or putrefaction in a ſpina ventoſa of <lb/>the bones.
+                            And we ſee theſe <hi rend="italic">ſtamina</hi> or gluey <lb/>particles
+                            of earth, which compoſe all the <w part="I">mi-</w><lb/><w part="F"
+                                >nute</w>, ſolid and fluid machinulæ of the body, are <lb/>prepared
+                            from our ingeſta paſſing not only the <lb/>chylificative, ſanguineous
+                            and ſerous veſſels, but <lb/>alſo for fome parts through the brain and
+                            nerves, <lb/>before they are applied as nutritious matter;
+                            <lb/>requiring a healthy ſtrong ſtate both of veſſels <lb/>and humours
+                            to duly prepare them as to ſize, <lb/>quantity and quality, as well as
+                            to apply them, <lb/>(a defect of which we ſee in rickets, ſcorbutic,
+                            <lb/>venereal, caſes); whence 'tis ſomewhat ſtrange <lb/>our great
+                            Boerhaave ſhould in his 21ſt <w part="I">prac-</w><lb/><w part="F"
+                                >tical</w> aphoriſm, conceive them as immutable in <lb/>their ſoft
+                            glutinous ſtate within cur bodies, as <pb n="7"/><lb/>in the dry rigid
+                            condition of a goldſmith's <w part="I">cup-</w><lb/><w part="F">ped</w>,
+                            after paſſing the fire. </p>
+                    </body>
+                </floatingText>
+                <p rend="space indent"><lb/>§. 4. Theſe earthy particles have their <lb/>connexion
+                    and power of coheſion not from <lb/>themſelves, or a mere contact, but from the
+                    <lb/>intermediate glue placed betwixt them. This <lb/>we know from the
+                    experiments mentioned <lb/>above (§. 3.); and from the eaſy experiment <lb/>by
+                    which a burnt hair, whoſe parts yet hang <lb/>together, recovers a degree of
+                    firmneſs by <lb/>dipping in water or oil. Alſo the remains of <lb/>ivory or bone
+                    ſhavings, whoſe gelly has been <lb/>extraded, become friable.</p>
+                <floatingText type="comment">
+                    <body>
+                        <head rend="space align-center"><lb/>REMARK.</head>
+                        <p rend="indent"><lb/>Theſe experiments ſufficiently prove that the
+                            <lb/>degree of coheſion in the parts ot a fibre by <lb/>which 'tis ſaid
+                            to be ſtrong or weak, lax or rigid, <lb/>depends chiefly on the quantity
+                            and tenacity of <lb/>the intermediate connecting glue.</p>
+                    </body>
+                </floatingText>
+                <p rend="space indent"><lb/>§. 5. That this glue is compoſed of oil <lb/>combined
+                    with water by the vital attrition in <lb/>animals, appears again from the
+                    chemical <lb/>analyſis of bones and hair; from the jelly of <lb/>bones, ivory,
+                    and horns; and from the <w part="I">na-</w><lb/><w part="F">ture</w> of our
+                    aliments themſelves. Nor is <lb/>there any kind of glue that could more <w
+                        part="I">pow-</w><lb/><w part="F">erfully</w> join tbs parts of animals
+                    together; <lb/>as we experience in fiſh-glue, and that of <lb/>joiners or
+                    cabinet-makers, &amp;c. See §. 15. <lb/>ult. </p>
+                <pb n="8"/>
+                <floatingText type="comment">
+                    <body>
+                        <head rend="align-center"><lb/>REMARK.</head>
+                        <p rend="indent"><lb/>Add that this oil is diſpofed to unite with the
+                            <lb/>water by attrition from a conſiderable portion of <lb/>an
+                            ammoniacal or neutral ſalt joined with a good <lb/>deal of unelaſtic
+                            air; which ſalt we obtain in an <lb/>alcaline volatile ſtate by
+                            diſtillation. </p>
+                    </body>
+                </floatingText>
+                <p rend="align-center space"><lb/>§. 6. Earthy particles then (§. 3.) <w part="I"
+                        >cohe-</w><lb/><w part="F">ring</w> longitudinally, and tied together by an
+                    <lb/>intervening coheſive glue, (§. 5.) compoſe <lb/>firſt one of the leaſt or
+                    moſt ſimple fibres; <lb/>ſuch as we have a knowledge of rather from <lb/>reaſon
+                    than ſenſe. </p>
+                <floatingText type="comment">
+                    <body>
+                        <head rend="align-center"><lb/>REMARK.</head>
+                        <p rend="indent"><lb/>The fineſt microſcopes have been hitherto <w part="I"
+                                >in-</w><lb/><w part="F">ſufficient</w> to lead us to a fight of the
+                            ſmalleſt <lb/>moving and nervous fibrils, and ſtill leſs can <lb/>we
+                            ever expect from them to get any ſenſible <lb/>idea of the mechaniſm by
+                            which ſenſation and <lb/>motion are effected. For how motion is <w
+                                part="I">modu-</w><lb/><w part="F">lated</w> to produce animal
+                            ſenſe, or how animal <lb/>ſenſe and will can produce motion, we can only
+                            <lb/>conjecture, and never certainly know. We <w part="I"
+                                >pro-</w><lb/><w part="F">ceed</w>, therefore, to compound viſible
+                            fibres. </p>
+                    </body>
+                </floatingText>
+                <p rend="space indent"><lb/>§. 7. But the leaſt fibres which appear laſt <lb/>to the
+                    ſight, if you will take up with their <lb/>firſt appearance and the eſtabliſhed
+                    opinion, <lb/>are of two kinds. </p>
+                <floatingText type="comment">
+                    <body>
+                        <head rend="space align-center"><lb/>R E M A R K.</head>
+                        <p rend="indent"><lb/>From the figure of theſe two kinds of fibres, <lb/>as
+                            we ſhall preſently ſee (§. 8, 9.) we may <w part="I">diſtin-</w><lb/><w
+                                part="F">guiſh</w> the former by the title of filamentary, and
+                            <lb/>the latter of membranous. </p>
+                    </body>
+                </floatingText>
+                <pb n="9"/>
+                <p rend="indent"><lb/>§. 8. The firſt kind of theſe fibres (§. 7.) <lb/>is lineal,
+                    namely, ſuch a form as makes their <lb/>length conſiderably large in proportion
+                    to <lb/>their breadth; and which, by diſpoſing of <lb/>the elementary particles
+                    in a right line, muſt <lb/>of courſe lay them generally parallel with <lb/>the
+                    neighbouring or contiguous fibres. <w part="I">Ex-</w><lb/><w part="F"
+                        >amples</w> of ſuch fibres we ſee in the bones, and <lb/>moſt eaſily in
+                    thoſe of a fœtus; and likewiſe <lb/>in the tendons, ligaments and muſcles: only
+                    <lb/>we muſt here always remember, that the <lb/>eye never reaches to the
+                    ſmalleſt fibres, but <lb/>to larger ones made up the ſmalleſt, and like <lb/>to
+                    them in ſlenderneſs, placed together in a <lb/>rectilineal courſe. That theſe
+                    are not <w part="I">diffe-</w><lb/><w part="F">rent</w> from the ſmalleſt
+                    fibres, we are <w part="I">per-</w><lb/><w part="F">ſuaded</w> by the moſt
+                    accurate microſcopes of <lb/>Muyſe and Lewenhoeck; by which, the <lb/>muſcular
+                    fibres divided even to the laſt, <w part="I">ap-</w><lb/><w part="F">pear</w>
+                    ſimilar to the larger, till, at length, <lb/>they ſeem mere lines, like ſpiders
+                    threads. </p>
+                <p rend="indent"><lb/>§. 9. The ſecond kind of fibres (§. 7.) <lb/>are thoſe which
+                    are conjoined with a breadth <lb/>frequently larger than their length, in <w
+                        part="I">form-</w><lb/><w part="F">ing</w> what is commonly called the <hi
+                        rend="italic">cellular</hi>
+                    <lb/>tunic or membrane; tho' the name tunic or <lb/>membrane is on many accounts
+                    improperly <lb/>given to it. </p>
+                <floatingText type="comment">
+                    <body>
+                        <head rend="align-center space"><lb/>REMARK.</head>
+                        <p rend="indent"><lb/>From what has been ſaid, we may admire <w part="I"
+                                >na-</w><lb/><w part="F">ture</w> no leſs for her wife œconomy than
+                            ſimplicity, <lb/>in thus forming all that variety of parts we ſee in
+                            <lb/>an animal from one ſimple maſs of clay or ſlimy <pb n="10"
+                            /><lb/>matter, compounded of earth and glue; from <lb/>whence the body
+                            is not only augmented from a <lb/>ſingle point in the ovum to its full
+                            growth and <lb/>ſtature; but, like the timbers of a ſhip, is alſo
+                            <lb/>every day repaired during life, 'till, at length, <lb/>not two jots
+                            of the old or firſt materials <w part="I">re-</w><lb/><w part="F"
+                                >main</w>. This renovation of parts is made flower <lb/>in ſome
+                            conſtitutions, and in ſome organs, than <lb/>in others. How quickly the
+                                ani<unclear>mal humo</unclear>urs <lb/>with the hair, nails, &amp;c.
+                            are <unclear>r</unclear>ene<unclear>we</unclear>d every one <lb/>knows:
+                            and we may venture to ſay, that once <lb/>in three years the change is
+                            univerſal; at the <lb/>end of which time, tho' a man remains the ſame
+                            <lb/>identical perſon, he is not the ſame matter.— <lb/>But we proceed
+                            from theſe ſimple fibres to the <lb/>next leaſt compounded ſolid which
+                            they compoſe, <lb/>viz. the <hi rend="italic">tela vel ſubſtantia
+                                celluloſa ſpongioides</hi>, the <lb/>cellular web-like ſubſtance.
+                        </p>
+                    </body>
+                </floatingText>
+                <p rend="space indent"><lb/>§. l0. The ſaid cellular ſubſtance is made <lb/>up
+                    partly of the forementioned ſimple fibrills <lb/>(§. 8, 9.) and partly by an
+                    infinite number of <lb/>little plates or ſcales, which, joined in various
+                    <lb/>directions intercept fmall cells and web-like <lb/>ſpaces; and by extending
+                    round every, even <lb/>the leaſt moving ſolid parts of the body, <lb/>conjoins
+                    them altogether in ſuch a manner as <lb/>not only ſuſtains, but allows them a
+                    free and <lb/>ample motion at the ſame time. But in <w part="I">dif-</w><lb/><w
+                        part="F">ferent</w> parts of the body we obſerve a great <lb/>variety of
+                    this web-like ſubſtance, in reſpect <lb/>of the proportion betwixt the
+                    membraneous <lb/>ſides and intercepted cells, as well as the <lb/>breadth and
+                    ſtrength of thoſe ſides, and the <lb/>nature of their contained liquor, which is
+                        <pb n="11"/><lb/>ſometimes more watry, and ſometimes more <lb/>oily. </p>
+                <floatingText type="comment">
+                    <body>
+                        <head rend="align-center"><lb/>REMARK.</head>
+                        <p rend="indent"><lb/>The extenſion of this ſubſtance, not only with
+                            <lb/>the ſkin round the whole body, but alſo round <lb/>every viſcus or
+                            organ, and round every individual <lb/>moving fibre or veſſel of them,
+                            into the cavities <lb/>of the bones, and even the ſubſtance of the brain
+                            <lb/>and its medulla, is a modern and wonderful <w part="I"
+                                >diſco-</w><lb/><w part="F">very</w> of anatomiſts, by which we have
+                            great <lb/>light into many otherwiſe obſcure diſeaſes. This
+                            <lb/>ſubſtance in its ultimate or fineſt ſtate being <lb/>compoſed of
+                            ſimple membranes, when <w part="I">com-</w><lb/><w part="F">pacted</w>
+                            and convoluted, gives birth to the leaſt <lb/>or moſt ſimple veſſels,
+                            which, again reſlected <lb/>through plates of the ſame ſubſtance
+                            compacted <lb/>together, make compound and vaſcular <w part="I"
+                                >mem-</w><lb/><w part="F">branes</w>, to the conſideration of which
+                            we next <lb/>proceed. </p>
+                    </body>
+                </floatingText>
+                <p rend="space indent"><lb/>§. 11. Out of this net-like cellular <w part="I"
+                        >ſub-</w><lb/><w part="F">ſtance</w> compacted by a concretion of the
+                    <lb/>membranous plates or partitions, and preſſed <lb/>together by the force of
+                    the incumbent <lb/>muſcles and diſtending fluids, ariſe other <lb/>broad and
+                    flat plates or ſkins in various parts <lb/>of the body, which being generally
+                    diſpoſed <lb/>in one and the ſame direction, ſeem to have <lb/>yet a better
+                    right to the title of membrane, <lb/>than the former; and theſe being convoluted
+                    <lb/>into cones and cylinders, pervaded by a flux <lb/>of ſome juice or liquors
+                    brought to them, <lb/>put on the name of <hi rend="italic">veſſels</hi>, or elſe
+                    being <w part="I">ex-</w><lb/><w part="F">tended</w> round ſome ſpace that is in
+                    a plane <pb n="12"/><lb/>parallel to itſelf, we call it a <hi rend="italic"
+                        >tunic</hi> or coat. <lb/>But that tunics or coats are formed out of the
+                    <lb/>cellular ſubſtance is proved to ocular <w part="I">inſpec-</w><lb/><w
+                        part="F">tion</w>, eſpecially in the aorta or dura-mater, <lb/>by
+                    maceration; and the coats of the muſcles <lb/>are thus evidently of a cellular
+                    fabric, while <lb/>they reſemble the texture of other <w part="I"
+                        >mem-</w><lb/><w part="F">branes</w>; from a degeneration of the <w part="I"
+                        >pericar-</w><lb/><w part="F">dium</w> as a true membrane into the cellular
+                    <lb/>ſubſtance, or membranes of the great blood <lb/>veſſels belonging to the
+                    heart; from the <w part="I">ori-</w><lb/><w part="F">gin</w> of the hard and
+                    thick membranes which <lb/>are about encyſted tumors, and which are <lb/>formed
+                    only in the cellular ſubſtance; laſtly, <lb/>from the eaſy change of the dartos
+                    coat of the <lb/>teſticle, and the nervous tunic of the inteſtines, <lb/>by
+                    inflation, into the cellular fabric. </p>
+                <p rend="indent"><lb/>§. 12. All the veſſels with which we <lb/>ſee tunics commonly
+                    painted, are an <w part="I">ad-</w><lb/><w part="F">dition</w> to the cellular
+                    net-work, and in no <lb/>wiſe conſtitute the nature of a membrane, <lb/>but are
+                    ſuperadded to the membrane itſelf, <lb/>which is firſt formed of the cellular
+                    net-like <lb/>ſubſtance. Betwixt the maſhes or ſpaces of <lb/>the inteſtinal
+                    net-work of veſſels, perfectly <lb/>well filled by the Ruyſchian art of
+                    injection, <lb/>we ſtill ſee that the white cellular ſubſtance <lb/>which
+                    remains, greatly exceeds the bulk of <lb/>the veſſels, although, by their
+                    preternatural <lb/>diſtention, they take up more room by filling <lb/>more of
+                    the ſpace. But for membranes <lb/>compounded of fibres, interwove or <w part="I"
+                        >decuſſa-</w><pb n="13"/><lb/><w part="F">ting</w> each other, I know of
+                    none ſuch, <w part="I">un-</w><lb/><w part="F">leſs</w> you will take
+                    ligamentary or tendinous <lb/>fibres for them, which yet are ſpread only
+                    <lb/>over the face of ſome true membrane. </p>
+                <p rend="indent"><lb/>§. 13. This cellular web-like ſubſtance in <lb/>the human body
+                    is found throughout the <lb/>whole; namely, wherever any veſſel or <w part="I"
+                        >mov-</w><lb/><w part="F">ing</w> muſcular fibre can be traced, and this,
+                    <lb/>without the leaſt exception, that I know of, <lb/>in any part whatever. See
+                    remark of §. 10. <lb/>and of §. 17. following. </p>
+                <p rend="indent"><lb/>§. 14. The other elementary ſubſtance of <lb/>the human body
+                    {§. 2.) viz. <hi rend="italic">concrementum <lb/>glutinoſum chondroeides</hi>,
+                    which cannot be <lb/>truly called either a fibrous or cellular plate, <lb/>is a
+                    mere glue evaſated and concreted, not <lb/>within the fibres, but in ſpaces
+                    betwixt them. <lb/>In the bones this extravaſated ſubſtance is <lb/>manifeſt
+                    enough; for you ſee the fibres very <lb/>diſtinct in the bones of a fœtus, in
+                    the <w part="I">in-</w><lb/><w part="F">tervals</w> betwixt which you perceive
+                    the <w part="I">veſ-</w><lb/><w part="F">ſels</w> running; ſo that every bone in
+                    the ſkull <lb/>on all ſides reſembles the teeth of a comb. <lb/>But this fabric
+                    is ſo altered in an adult perſon, <lb/>that a cartilaginous juice being
+                    extravaſated <lb/>in the ſpaces betwixt the fibres, we ſee ſmall <lb/>plates
+                    formed of it. </p>
+                <p rend="indent"><lb/>§. 15. But here the courſe of nature ſeems <lb/>to be ſuch,
+                    that even the filamentary fibres <lb/>(§. 3.) are all firſt formed of ſuch a <w
+                        part="I">tran<unclear>s</unclear>fu-</w><lb/><w part="F">ſed</w> glue. And
+                    that the membranous or ſcaly <lb/>fibres of the cellular ſubſtance (§. 7.) are
+                    thus <lb/>formed appears, from thoſe cellular fibres <pb n="14"/><lb/>produced
+                    in the thorax from a concreted <w part="I">va-</w><lb/><w part="F">pour</w> or
+                    ſerum transfuſed through the ſurface <lb/>of inflamed lungs, which are thereby
+                        <w part="I">con-</w><lb/><w part="F">joined</w> to the pleura; for theſe
+                    perfeftly <w part="I">re-</w><lb/><w part="F">ſemble</w> the true and natural
+                    cellular ſubſtance. <lb/>The ſame appears alſo from a compariſon of <lb/>the
+                    fœtus with an adult; for the large <w part="I">ſub-</w><lb/><w part="F"
+                        >cutaneous</w> cellular ſubſtance has in a fœtus a <lb/>mere jelly in its
+                    ſtead interpoſed betwixt the <lb/>ſkin and muſcles, which laſt we obſerve very
+                    <lb/>firm in a fœtus. This theory is again <w part="I">illu-</w><lb/><w part="F"
+                        >ſtrated</w> (<unclear>1</unclear>.) <hi rend="italic">ſynthetically</hi>,
+                    by the fibrous cake <lb/>one may draw out from blood by ſtirring it <lb/>round
+                    with a probe; and from the <w part="I">mem-</w><lb/><w part="F">brane</w>, which
+                    may be in like manner formed <lb/>thence according to the experiment of Ruyſch,
+                    <lb/>and Albinus's membrane from mucus; <w part="I">laſt-</w><lb/><w part="F"
+                        >ly</w>, from the formation of a polypus, ſilk <lb/>and glue. (2.) <hi
+                        rend="italic">Analytically</hi>, we ſee, from <lb/>diſeaſes, that the bony
+                    fibres are formed firſt <lb/>of a compacted glue; becauſe the hardeſt
+                    <lb/>bones, by a diſſolution of their glue, return <lb/>again into cartilage,
+                    fleſh, and jelly: ſuch <lb/>experiments we make on the bones of fiſh <lb/>and
+                    other animals with Papin's digeſtor. </p>
+                <p rend="indent"><lb/>§. 16. The <hi rend="italic">anthropogeneſis</hi>, therefore,
+                    or <lb/>formation of the human ſolids, ſeems begun <lb/>when a gelatinous water,
+                    like the white of <lb/>an egg, with a ſmall portion of fine <w part="I"
+                        >creta-</w><lb/><w part="F">ceous</w> earth, runs together into a thread,
+                    from <lb/>ſome preſſure, the cauſes of which are not <lb/>our preſent concern.
+                    Such a filament, by <lb/>the mutual attraction of coheſion, <w part="I"
+                        >intercept-</w><pb n="15"/><lb/><w part="F">ing</w> ſpaces betwixt itſelf
+                    and others, helps <lb/>to form a part of the cellular net-like <w part="I"
+                        >ſub-</w><lb/><w part="F">ſtance</w>, after having acquired ſome toughneſs
+                    <lb/>from the neighbouring earthy particles, which <lb/>remain after an
+                    expulſion of the redundant <lb/>aqueous glue. And in this net-like ſubſtance,
+                    <lb/>wherever a greater preſſure is impoſed on its <lb/>ſcales or ſides, they
+                    turn into fibres and <w part="I">mem-</w><lb/><w part="F">branes</w> or tunics;
+                    and in the bones, laſtly, <lb/>they concrete with an unorganiſed glue. <lb/>(§.
+                    14). Hence, in general, all parts of the <lb/>body, from the ſofteſt to the
+                    hardeſt, ſeem <lb/>to differ no otherwiſe than as the former have <lb/>more of
+                    the earthy particles more cloſely <lb/>compacted together, with leſs of the
+                    aqueous <lb/>glue; while in the ſofteſt parts there is leſs <lb/>earth, and more
+                    glue. See the remark of <lb/>§. 3. </p>
+                <lb/>
+                <space dim="vertical" unit="lines" quantity="5"/>
+                <figure>
+                    <lb/>
+                    <figDesc>An oval shaped decorative figure in the centre of the page.</figDesc>
+                </figure>
+            </div>
+            <pb n="16"/>
+            <div type="section">
+                <head rend="space align-center size(1.5)"><lb/>LECTURE II.</head>
+                <head rend="space align-center italic"><lb/>Of the cellular ſubſtance and its
+                    fat.</head>
+                <p rend="space"><lb/>§. 17. <hi rend="dc(2)">W</hi>E have now ſeen (§. l0.) that
+                    <lb/>the cellular web-like ſubſtance <lb/>is made up of fibres and plates, which
+                    are <lb/>neither hollow nor vaſcular, but ſolid; <w part="I">al-</w><lb/><w
+                        part="F">though</w> they are afterwards painted by an <w part="I"
+                        >ac-</w><lb/><w part="F">ceſion</w> of veſſels. But the principal <w
+                        part="I">diffe-</w><lb/><w part="F">rences</w> of its fabric are the
+                    following. In <lb/>ſome parts of the body it is open and looſe, <lb/>being
+                    formed of long and diſtant plates; in <lb/>others, it is thin and compact, being
+                    made <lb/>up of ſhort fibres, concreted together. I <lb/>find it thineſt and of
+                    the ſhorteſt fibres, <w part="I">be-</w><lb/><w part="F">twixt</w> the
+                    ſclerotica and choroides of the eye; <lb/>and betwixt the arachnoides and pia
+                    mater <lb/>of the brain. I alſo find it very thin, but <lb/>more tender and
+                    conſpicuous, betwixt every <lb/>two coats of the inteſtines, ſtomach, bladder
+                    <lb/>and ureters: 'tis alſo thin and empty under <lb/>the ſkin of the penis,
+                    forehead, and in the <lb/>lungs, in which laſt we call it veſicles. 'Tis
+                    <lb/>compoſed of yet longer fibres, where it is <lb/>extended over the larger
+                    veſſels, under the <lb/>name of a capſule or vagina; as through the
+                    <lb/>viſcera, and particularly the liver and lungs. <lb/>Its principal uſe is to
+                    bind together the <w part="I">con-</w><lb/><w part="F">tiguous</w> membranes,
+                    veſſels and fibres in ſuch <lb/>a manner as to allow them a due or limited
+                    <lb/>motion. But the cellular ſubſtance, ſo far <pb n="17"/><lb/>as we have
+                    hitherto deſcribed it, hardly ever <lb/>admits of any fat into the cells; which
+                    are <lb/>rather moiſtened by a watry vapour. that is <lb/>ſomewhat gelatinous
+                    and oily, exhaled out <lb/>of the arteries and received again into the
+                    <lb/>veins. The truth of this is eaſily <w part="I">demon-</w><lb/><w part="F"
+                        >ſtrable</w> from injections of oil and water, either <lb/>alone or with
+                    fiſh-glue, made in all parts of <lb/>the body. When this vapour is, by <w
+                        part="I">inflam-</w><lb/><w part="F">mation</w> too glutinous, or, from any
+                    cauſe, <lb/>abſent or aboliſhed, the ſmall fibres grow one <lb/>to another, and
+                    the contiguous membranes <lb/>or plates are cemented into one, with a loſs
+                    <lb/>of their motion. </p>
+                <p rend="indent"><lb/>§. 18. The cellular ſubſtance and its plates <lb/>or ſcales,
+                    are ſtill more looſe and open where <lb/>it divides the muſcles and all their
+                    fibres (even <lb/>to the ultimate fibre); and likewiſe where it <lb/>ſurrounds
+                    and ſuſtains the leaſt veſſels with <lb/>their free motion. That within the
+                    cavities <lb/>of the bones is alſo made up of bony plates,<lb/>with membranous
+                    ones intermixed; and <w part="I">laſt-</w><lb/><w part="F">ly</w>, it is the
+                    moſt looſe and open of all, round <lb/>the ſurface of the body on all ſides,
+                    betwixt <lb/>the muſcles and the ſkin. </p>
+                <p rend="indent"><lb/>§. 19. Into the empty ſpaces of this <w part="I"
+                        >cel-</w><lb/><w part="F">lular</w> ſubſtance, (§. 18.) almoſt every where,
+                    <lb/>in the fœtus is poured at firſt a jeily, and <lb/>afterwards a fat; which
+                    at firſt is grumous <lb/>or curdy, but afterwards clear and leaſy; <lb/>namely,
+                    a thick, inſipid, inflammable liquor, <lb/>which, in a cold air, congeals, in
+                    ſome <w part="I">de-</w><lb/><w part="F">gree</w>, into a ſolid, eſpecially
+                    about the <w part="I">kid-</w><pb n="18"/><lb/><w part="F">neys</w> of
+                    herbivorous and horned cattle; but <lb/>is ſofter and yellower in carnivorous
+                    ones; <lb/>and while they are living, it ſeems a mere <lb/>fluid, or very nearly
+                    ſo. </p>
+                <p rend="indent"><lb/>§. 20. Through this cellular web-like <w part="I"
+                        >ſub-</w><lb/><w part="F">ſtance</w> the ſmall veſſels are ſpread and <w
+                        part="I">rami-</w><lb/><w part="F">fied</w> in all parts of the body, from
+                    whoſe <w part="I">ar-</w><lb/><w part="F">terial</w> extremities the fat is
+                    depoſited into the <lb/>cells, and afterwards abſorbed by the venal
+                    <lb/>orifices. This paſſage, from the arteries into <lb/>the adipoſe cells, is
+                    ſo free and ſhort, that <lb/>there muſt needs be very large mouths by <lb/>which
+                    they open, and by which they give <lb/>admittance to injefted mercury, air,
+                    water, <lb/>diſſolved fiſh-glue or jelly, and oil not <w part="I">ex-</w><lb/><w
+                        part="F">cepted</w> which is always very ſluggiſh in <w part="I"
+                        >paſ-</w><lb/><w part="F">ſing</w> through the vefſſels, even of living <w
+                        part="I">ani-</w><lb/><w part="F">mals</w>. The oily fat, in this ſubſtance,
+                    is <lb/>ſeperated and expelled from the artery, not <lb/>by any long ducts, but
+                    by tranſuding on all <lb/>ſides through the whole extent of the veſſel;
+                    <lb/>inſomuch that when an artery is filled or <w part="I">in-</w><lb/><w
+                        part="F">jected</w> with water, there is no part of the <lb/>ſurrounding
+                    cellular ſubſtance, but what <lb/>ſwells with the moiſture. How quickly it
+                    <lb/>is collected from the arteries, appears from the <lb/>ſpeedy renovation of
+                    it, by a returning fatneſs <lb/>after acute diſeaſes. See §. 25. </p>
+                <p rend="indent"><lb/>§. 21. But this return of the fat abſorbed <lb/>by the veins,
+                    we are taught from the ſudden <lb/>effects which labour or exerciſe of the
+                    <lb/>muſcles more eſpecially has in conſuming <lb/>the oil of very fat animals;
+                    alſo from the <pb n="19"/><lb/>conſumption of our fat in fevers, snd from
+                    <lb/>the cure of dropſies, where the water <w part="I">tranſ-</w><lb/><w
+                        part="F">fuſed</w> into the cellular ſubſtance, is in a <w part="I"
+                        >man-</w><lb/><w part="F">ner</w> abſorbed and thrown out by the <w part="I"
+                        >inteſti-</w><lb/><w part="F">nal</w> tube; and laſtly, from the tranſuding
+                    of <lb/>water and oil from the venal orifices, when <lb/>injected by the
+                    ſyringe. Whether any of the <lb/>nerves pour out their contents into, or are
+                    <lb/>ſpread upon, the adipoſe cells, is an <w part="I">impro-</w><lb/><w
+                        part="F">bable</w> queſtion. But 'tis certain they in moſt <lb/>parts run
+                    through this ſubſtance, and <w part="I">here-</w><lb/><w part="F">by</w> divide,
+                    in their courſe, into the minuteſt <lb/>filaments, ſo ſmall that you can no
+                    longer <lb/>trace them by the knife. But then the fat is <lb/>both inſenſible
+                    and unirritable,</p>
+                <p rend="indent"><lb/>§. 22. With regard to the ſponge-like <lb/>communications of
+                    this ſubſtance, 'tis <w part="I">re-</w><lb/><w part="F">markable</w>, the
+                    intervals or ſpaces betwixt the <lb/>plates or ſcales that make up their ſides
+                    in the <lb/>cellular membrane, are every where open, <lb/>and agree in forming
+                    one continuous cavity <lb/>throughout the whole body. This appears <lb/>from the
+                    inflation which butchers make by a <lb/>wound of the ſkin, and which being once
+                    <lb/>received into this ſubſtance, is eaſily driven ſo <lb/>as to raiſe the ſkin
+                    all over the body; and <lb/>likewiſe from an emphyſema, in which the <lb/>air
+                    received by a wound of the ſkin, being <lb/>retained, cauſes a ſwelling
+                    throughout the <lb/>whole ſurface of the body; and finally from <lb/>diſeaſes,
+                    in which a watry or ferous humour <lb/>is depoſited into all the cells of this
+                    net-like <lb/>ſubſtance, throughout the body. That none <pb n="20"/><lb/>of the
+                    cellular fabric is excepted from this <lb/>communication, appears from wounds or
+                        <w part="I">ac-</w><lb/><w part="F">cidents</w>, wherein even the vitreous
+                    body itſelf <lb/>of the eye has received the ſtatus of an <w part="I"
+                        >em-</w><lb/><w part="F">phyſema</w>; and again from diſeaſe, in which
+                    <lb/>the gelatinous ferum of a dropſy has been <lb/>found transfuſed even into
+                    the cavernous <w part="I">bo-</w><lb/><w part="F">dies</w> of the penis. </p>
+                <p rend="indent"><lb/>§. 23. The great importance and ufſ of <lb/>this cellular
+                    ſubſtance, in the animal fabric, <lb/>muſt be evident to all who conſider that
+                    from <lb/>this part alone proceeds the due and healthy <lb/>firmneſs, ſtrength
+                    and ſtability not only of <lb/>all the arteries, nerves and muſcular moving
+                        <lb/><unclear>f</unclear>ibres of the body, but likewiſe of all the
+                    <lb/>fleſhy parts and viſcera, which are made up <lb/>of the former, folded
+                    together within this <lb/>ſubſtance: and even the figures, cavities,
+                    <lb/>pliability or flexures and motions of the ſoft <lb/>parts depend entirely
+                    on the cellular <w part="I">mem-</w><lb/><w part="F">brane</w>, in ſome places
+                    of a lax and in others <lb/>of a more cloſe and hard fabric. That out <lb/>of
+                    this ſubſtance joined with veſſels, nerves, <lb/>muſcular and tendinous fibres
+                    (a great part of <lb/>all which are before formed of this ſubſtance <lb/>only)
+                    all the viſcera, all the muſcles and <lb/>glands, with their ligaments and
+                    capſules, are <lb/>entirely compoſed; and that only from the <lb/>different
+                    length, tenſion, quantity or <w part="I">pro-</w><lb/><w part="F">portion</w> of
+                    this the diverſity of our glands <lb/>and viſcera ariſes; and laſtly, that this
+                    alone <lb/>makes up by far the greateſt part of the <lb/>whole body, as we are
+                    certain, although the <pb n="21"/><lb/>whole be not formed out of cellular <w
+                        part="I">fila-</w><lb/><w part="F">ments</w> of this kind.</p>
+                <p rend="indent"><lb/>§. 24. The <hi rend="italic">uſes</hi> of the fat are various
+                    as <lb/>to facilitate the motions of the muſcles in all <lb/>parts, leſſen their
+                    attrition againſt each other, <lb/>and prevent a ſtiffneſs or rigidity; it fills
+                    up <lb/>the intermediate ſpaces betwixt the muſcles <lb/>in ſuch a manner, with
+                    the cavities about <lb/>many of the viſcera, that it readily yields to
+                    <lb/>their motions, and yet ſupports them when <lb/>at reſt; it ſerves as a
+                    ſtratum or bed to <w part="I">con-</w><lb/><w part="F">duct</w> and defend the
+                    veſſels in their courſe to <lb/>all parts; it gives an uniform extenſion to the
+                    <lb/>ſkin, and ſerving as a cuſhion to eaſe the <lb/>weight of the body in many
+                    parts, at the <lb/>ſame time it renders the whole of a comely, <lb/>agreeable
+                    ſhape; it probably by returning <lb/>and mixing with many of the humours, <w
+                        part="I">a-</w><lb/><w part="F">bates</w> their acrimony; it has a principal
+                    ſhare <lb/>in forming the matter of the bile, and by <lb/>tranſuding through the
+                    cartilaginous <w part="I">incruſta-</w><lb/><w part="F">tions</w> of the bones,
+                    it mixes with the <w part="I">articu-</w><lb/><w part="F">lar</w> liniment or
+                    ſynovia; alſo by exhaling in <lb/>a living perſon from the meſentery, <w
+                        part="I">meſoco-</w><lb/><w part="F">lon</w>, omentum and round the kidneys,
+                    it <w part="I">lu-</w><lb/><w part="F">bricates</w> the ſurfaces of the viſcera
+                    with an <lb/>oily emolient vapour, and by interpoſing <w part="I">be-</w><lb/><w
+                        part="F">twixt</w> their integuments, prevents their <w part="I"
+                        >grow-</w><lb/><w part="F">ing</w> one to another. </p>
+                <p rend="indent"><lb/>§. 25. The fat is depoſited into the cells of <lb/>this
+                    ſubſtance by much ſleep, with reſt of body <lb/>and mind; whence being collected
+                    in too great <lb/>a quantity, it proves injurious by compreſſing <pb n="22"
+                    /><lb/>the veins, and by cauſing too great a reſiſtance <lb/>to the heart it
+                    makes a perſon ſhort-breathed <lb/>and liable to an apoplexy or a dropſy. The
+                    <lb/>ſame humour is repelled from the cells into the <lb/>veins, and being
+                    rapidly moved along the <w part="I">ar-</w><lb/><w part="F">teries</w>, the
+                    exceſſive motion will not allow it to <lb/>go off laterally by the ſecerning
+                    pores to the <lb/>cells: whether this celerity of the blood be, by <lb/>violent
+                    exerciſe, watchings, cares of the mind, <lb/>a ſalivation or a fever. Thus it
+                    cauſes an increaſe <lb/>of acute diſeaſes, tinges the urine of an high
+                    <lb/>colour, and forms a great part of its <w part="I">hypo-</w><lb/><w part="F"
+                        >ſtaſis</w> or ſediment. After a ſudden <w part="I">conſump-</w><lb/><w
+                        part="F">tion</w> of it, 'tis ſoon renewed again from good <lb/>juices, or
+                    healthy humours: but in a languid <lb/>valetudinary habit, a gelatinous ſerum,
+                    inſtead <lb/>of fat, is depoſited into the cells; and this <lb/>cauſes the
+                    dropſy we call anaſarca, affecting <lb/>the whole habit, together with an
+                    external <lb/>hydrocele or watry ſwelling. </p>
+                <floatingText type="comment">
+                    <body>
+                        <head rend="align-center"><lb/>REMARK.</head>
+                        <p rend="indent"><lb/>Hitherto we have ſurveyed the œconomy of <lb/>nature
+                            in her wiſe formation of the moſt ſimple <lb/>ſolid
+                                machinul<unclear>æ</unclear> of our body, namely ſuch parts <lb/>as
+                            by their form and elaſticity are capable of a <lb/>reciprocal action, ſo
+                            as to perpetuate for a <w part="I">num-</w><lb/><w part="F">ber</w> of
+                            years the motion that is once given them. <lb/>Theſe we ſee ſhe has
+                            formed of the moſt <w part="I">perma-</w><lb/><w part="F">nent</w>
+                            earthy particles incruſted with an oily glue; <lb/>which as they are
+                            prepared by a continued <w part="I">unde-</w><lb/><w part="F">qual</w>
+                            attrition of fluids through a numerous <w part="I">ſe-</w><lb/><w
+                                part="F">ries</w> of veſſels, muſt receive a ſpherical figure<note
+                                n="*" place="bottom" rend="indent size(0.75)">* Theſe are the common
+                                phyſical or natural elements of all <w part="I">ani-</w><lb/><w
+                                    part="F">mals</w> and vegetables, eaſily commutable one into the
+                                other.</note>, <lb/>that will be apt to change by compreſſure, at
+                                <pb n="23"/><lb/>leaſt on their ſurface, which conſiſts of a ſoft
+                            <lb/>yielding glue. Such particles then having the <lb/>ſame power of
+                            mutual tendency or attraction, <lb/>will each of them apart be
+                            ſpherical; but when <lb/>two or more of them meet in contact, their
+                            <lb/>ſurfaces muſt yield in proportion to the denſity <lb/>and vicinity
+                            of their central contents, and from <lb/>round, become depreſſed
+                            ſpheroids or cakes, <lb/>whence both their contacts and coheſion will <w
+                                part="I">in-</w><lb/><w part="F">creaſe</w>, yet ſo as to allow a
+                            free motion of the <lb/>central parts to ſlide one by the other ſo long
+                            as <lb/>the quantity and tenacity of the ſurrounding <lb/>glue anſwers
+                            to the moving diſtractile force <w part="I">ap-</w><lb/><w part="F"
+                                >plied</w>, A number of ſuch parts then united <lb/>longitudinally
+                            will form a ſimple, elaſtic and <lb/>diſtractle fibril; or ſix of them
+                            conjoined <w part="I">to-</w><lb/><w part="F">gether</w>, at equal
+                            diſtances, will form a ſimple, <lb/>elaſtic and leaſt globule: and thoſe
+                            we ſee make <lb/>the primary and moſt ſimple inſtruments of <w part="I"
+                                >mo-</w><lb/><w part="F">tion</w> in an animal body, to the ſtate or
+                                <w part="I">diſpoſi-</w><lb/><w part="F">tion</w> of which all the
+                            other ſolid or fluid parts <lb/>they compoſe correſpond in the ſtrength
+                            and <lb/>action. Here the ſolids, as the main ſpring, have <lb/>the
+                            predominant ruling force over their elaſtic <lb/>contained fluids,
+                            which, as the regulating or <lb/>weaker ſpring muſt anſwer in their
+                            nature and <lb/>motion to the former; whence the diverſity of
+                            <lb/>native conſtitutions.—If the central points of <lb/>theſe earthy
+                            ſtamina, in a fibre or globule, come <lb/>cloſe enough to cauſe a due
+                            coheſion of parts, <lb/>which may ſufficiently yield to and return the
+                            <lb/>given impulſe required, 'tis ſaid to be healthy <lb/>and <hi
+                                rend="italic">robuſt</hi>. If their coheſion be too cloſe, and
+                            <lb/>connecting glue too tough or dry, they are ſaid <lb/>to be <hi
+                                rend="italic">rigid</hi> and unactive; but if they recede <w
+                                part="I">far-</w><lb/><w part="F">ther</w>, have a glue too watry,
+                            and cohere leſs <lb/>than ſuffices to receive and return the due <w
+                                part="I">vi-</w><pb n="24"/><lb/><w part="F"><choice>
+                                    <corr>brations</corr>
+                                    <sic>vibrations</sic>
+                                </choice></w>, they are then ſaid to be weak and <lb/><hi
+                                rend="italic">lax</hi>. And theſe two laſt are the morbid <w
+                                part="I">condi-</w><lb/><w part="F">tions</w> which call for the
+                            care of the phyſician. <lb/>What has been ſaid of theſe primary ſimple
+                                <w part="I">ma-</w><lb/><w part="F">chinulæ</w> is true in a greater
+                            degree of the more <lb/>compound membranes, veſſels and viſcera which
+                            <lb/>they compofe; and alſo of the lymphatic, ſerous <lb/>and red
+                            ſpherules, with reſpect to their <w part="I">conſti-</w><lb/><w part="F"
+                                >tuent</w> parts, and to each other. </p>
+                        <p rend="indent"><lb/>Hence we ſee, <list>
+                                <item><label>(1)</label> that <hi rend="italic">life</hi> is the
+                                    mere <lb/>motion, and <hi rend="italic">health</hi> a certain
+                                    latitude or degree <lb/>of that motion, betwixt the elaſtic
+                                    ſolids and <lb/>fluids, extended through a ſeries of vaſcular
+                                    <lb/>parts gradually more compounded.</item>
+                                <item><label>(2.)</label> That <lb/>an exceſs or defect in this
+                                    motion alters the <lb/>texture towards death or diſeaſe.</item>
+                                <item><label>(3.)</label> That <lb/>moderate exerciſe repeated makes
+                                    the parts <lb/>ſtrong and healthy, by keeping them moveable
+                                    <lb/>upon each other, by expelling the redundant <lb/>watry
+                                    parts, and giving the whole glue a due <lb/>firmneſs and
+                                    coheſion.</item>
+                                <item><label>(4.)</label> That one of the <lb/>leaſt veſſels cloſed
+                                    into a fibre muſt be ſtronger <lb/>than that veſſel was before?
+                                    from the <w part="I">in-</w><lb/><w part="F">creaſed</w> contact
+                                    and coheſion. </item>
+                                <item><label>(5.}</label> That a <w part="I">cal-</w><lb/><w
+                                        part="F">lus</w> is tougher and leſs diſtractile than
+                                    original <lb/>fleſh? becauſe it is leſs vaſcular and without the
+                                    <lb/>interpoſition of cellular ſubſtance; whence alſo <lb/>it
+                                    will be little or nothing perſpirabie.</item>
+                                <item><label>( 6.)</label> That <lb/>the ſtrength, rigidity or
+                                    laxity of the fluids and <lb/>ſolids are correſpondent one to
+                                    the other; i. e. <lb/>lax ſolids will make lax thin fluids,
+                                    whence a <lb/>weaker reaction of them in the veſſels, &amp;c.
+                                    <lb/>which will pave the way to flow, cold diſeaſes; <lb/>as the
+                                    contrary will diſpoſe to acute inflammatory
+                                    <lb/>diſeaſes.</item>
+                                <item><label>(7.)</label> That aſtiringents are ſuch as <w part="I"
+                                        >ap-</w><lb/><w part="F">proximate</w> the ſolid ſtamina and
+                                    thicken their <lb/>connecting glue; whence they ſtop evacuations
+                                        <pb n="25"/><lb/>by thickening the humours and leſſening the
+                                    <lb/>diameters of the veſſels: ſo that given ſparingly <lb/>in
+                                    laxity of the folids and fluids they <w part="I"
+                                        >corrobo-</w><lb/><w part="F">rate</w>; but in exceſs, and
+                                    in old, laborious rigid <lb/>ſubjects, with an inflammatory
+                                    lentor, (or even <lb/>in a cold viſcidity, unleſs joined with
+                                    ſtimulants) <lb/>they coagulate the juices and ſuppreſs the
+                                    actions <lb/>of the ſolids.</item>
+                                <item><label>(8.)</label> That oils relax without <lb/>weakening,
+                                    becauſe they have a greater tenacity <lb/>than water; which laſt
+                                    diſſolves the connecting <lb/>glue and weakens the automatic
+                                    action or <w part="I">elaſti-</w><lb/><w part="F">city</w> of
+                                    the ſtamina and fibres thence ariſing. <lb/>For which reaſon
+                                    large and ſudden evacuations <lb/>leaving the ſolids iooſe and
+                                    unactive upon the <lb/>fluids, cauſe faintings and
+                                    weakneſs.</item>
+                                <item><label>(9.)</label> We <lb/>ſee that where there is a natural
+                                    laxity of the <lb/>blood and its veſſels, as in women and
+                                    children; <lb/>where they move with a greater impetus than
+                                    <lb/>ſuits their coheſion, as in fevers and periodical
+                                    <lb/>hæmorrhages; or where the connecting glue is <lb/>too much
+                                    diſſolved by a putrid alcaline <w part="I">conta-</w><lb/><w
+                                        part="F">gion</w>, as often in eruptive and epidemical
+                                    fevers, <lb/>there may be an extravaſion (according to the
+                                    <lb/>degree or multitude of thoſe cauſes) either of <lb/>ſerous
+                                    or ſanguineous fluids into the cellular <w part="I"
+                                        >ſub-</w><lb/><w part="F">ſtance</w> of the ſkin, and other
+                                    larger internal <w part="I">ca-</w><lb/><w part="F">vities</w>,
+                                    without a rupture of veſſels, in which <w part="I"
+                                        >man-</w><lb/><w part="F">ner</w> flow the courſes of women.
+                                    Hence by a <lb/>diſſolution of the connecting glue, from a <w
+                                        part="I">vene-</w><lb/><w part="F">real</w> or ſcorbutic
+                                    acrimony, the bones, veſſels <lb/>and the elaſtic globules break
+                                    eaſily; whence <lb/>frequent hæmorrhages with livid cutaneous
+                                    ſpots, <lb/>&amp;c. And thus hæmorrhages happen ofteneſt in
+                                    <lb/>the noſe and lungs, becauſe the arteries have their
+                                    <lb/>coats there thinner, and in the lungs have little
+                                    <lb/>reſiſtance or confinement from the empty cells, <lb/>and
+                                    very thin epithelium or internal cuticle: <pb n="26"
+                                    /><lb/>whence an infection is ſooner ſent to the blood
+                                    <lb/>through theſe parts, and conſumptive <w part="I"
+                                        >ulcera-</w><lb/><w part="F">tions</w> here oftener take
+                                    place.</item>
+                                <item><label>(l0.)</label> We ſee <lb/>that from the birth, the
+                                    ſtrength and coheſion of <lb/>the ſolids gradually increaſe with
+                                    age, while the <lb/>fluids continue leſs altered, till at length
+                                    a ſenile <lb/>weakneſs and natural death enſue from the dead
+                                    <lb/>reſiſtance of the rigid membranes and veſſels <lb/>not
+                                    yielding to the now weaker nervous influx; <lb/>the nervous
+                                    ſecretion daily leſſening and the <w part="I">cor-</w><lb/><w
+                                        part="F">tex</w> indurating as the veſſels cloſe by
+                                    age.</item>
+                                <item><lb/><label>(11.)</label> We ſee how an injudicious internal
+                                    uſe of <lb/>aſtringents powerfully contracting the larger
+                                    <lb/>veſſels, may rather increaſe than ſtop an <w part="I"
+                                        >hæmor-</w><lb/><w part="F">rhage</w>, and ſome local
+                                    fluxes; or by cauſing too <lb/>great a puſh upon the ſmaller
+                                    veſſels in a weakened <lb/>part, may produce one de novo.</item>
+                                <item><label>(12.)</label> We ſee <lb/>that in the warmer countries
+                                    and ſeaſons of the <lb/>year, where there is always a greater
+                                    tenacity of <lb/>the fluids and a weaker ſpring or action of the
+                                    <lb/>ſolids, bleeding is oftener called for to relieve the
+                                    <lb/>tone of the veſſels in full habits; and this <w part="I"
+                                        >eſpe-</w><lb/><w part="F">cially</w> in wine countries, as
+                                    ſouth of France, Spain <lb/>and Italy; for that from its
+                                    globular matter and <lb/>moderate increaſe of the circulation
+                                    breeds blood <lb/>very faſt.</item>
+                                <item><label>(13.)</label> We ſee why in moſt fevers, <lb/>and in
+                                    colder countries or ſeaſons, 'tis neceſſary <lb/>for the patient
+                                    to have a moderately warm room, <lb/>warm bed, warm drinks,
+                                    ſleep, &amp;c. by which <lb/>the tenſion of the veſſels is
+                                    relaxed, and tenacity <lb/>of the humours leſſened; from both
+                                    which a <lb/>fever is augmented.</item>
+                                <item><label>(i4.)</label> W"e ſee how a thick <lb/>moiſt air in
+                                    foul weather, ſeems heavy to us, <lb/>though it be much lighter
+                                    than a dry ſerene air? <lb/>becauſe from its leſs prefTure on
+                                    the body the <lb/>ſpring of the ſolids upon our fluids is
+                                    weakened.</item>
+                                <item><lb/><label>(15.)</label> Why onions, muſtard, pepper and
+                                    other <pb n="27"/><lb/>alcaline ſtimulants are uſed to promote
+                                    the <w part="I">di-</w><lb/><w part="F">geſtion</w> of
+                                    putreſcent meats, pork, ſalt-fiſh, &amp;c.? <lb/>becauſe they
+                                    are antiſeptic and by increaſing the <lb/>muſcular ſtrength of
+                                    the ſtomach make them <lb/>ſtay there not too long.</item>
+                                <item><label>(16.)</label> Why a dropſical <lb/>patient ſo eaſily
+                                    relapſes after freeing him from <lb/>his waters? becauſe being
+                                    lodged where the <lb/>fibres have the leaſt tone and elaſticity,
+                                    as in the <lb/>lymphatics and cellular ſubſtance, where <w
+                                        part="I">corro-</w><lb/><w part="F">borants</w> ſeldom
+                                    penetrate, 'tis very difficult to <w part="I">re-</w><lb/><w
+                                        part="F">ſtore</w> or confirm their firſt ſtrength.</item>
+                                <item><label>(17.)</label> What <lb/>pains are increaſed and what
+                                    leſſened by <w part="I">blood-</w><lb/><w part="F">letting</w>?
+                                    namely it relieves in full habits with a <lb/>pleuritic or ſizy
+                                    blood, but where rheumatic or <lb/>hyſterical pains come from
+                                    too great a laxity of <lb/>the ſmaller veſſels and a looſe watry
+                                    ſluggiſh blood. <lb/>Gum. Guaic. Cinnab. Cort. Peruv. Rad.
+                                    Valer. <lb/>Rhei &amp; Camph. are preferable to the lancet, as
+                                    <lb/>that increaſes the generating cauſe.</item>
+                                <item><label>(18.)</label> Why <lb/>inflammatory tumours are painful
+                                    and <w part="I">reſi-</w><lb/><w part="F">ſting</w>, but
+                                    œdematous ones indolent and <w part="I">pit-</w><lb/><w part="F"
+                                        >ting</w>? becaue the lymphatics and cellular <w part="I"
+                                        >ſub-</w><lb/><w part="F">ſtance</w>, the uſual ſeat of the
+                                    laſt, have but little <lb/>elaſticity and ſenſibility.</item>
+                                <item>§.21. <label>(19.)</label> Why <w part="I">inflam-</w><lb/><w
+                                        part="F">mation</w> and pain are always leſs by bleeding;
+                                    and <lb/>how it may provoke perſpiration, ſweat or urine?
+                                    <lb/>viz. by abating the compreſſure of the excretory
+                                    <lb/>ducts, by leſſening the force and diſtention of <lb/>the
+                                    blood veſſels, and by relaxing the blood and <lb/>humours
+                                    themſelves urging upon the diſtreſſed <lb/>part.</item>
+                                <item><label>(20.)</label> Why the pulſe of a fat perſon
+                                    <lb/>compared with that of a lean one is weak and <lb/>languid
+                                    to the touch? namely becauſe the ictus <lb/>is loſt in a ſoft,
+                                    unreſiſting and unelaſtic ſubſtance, <lb/>and receives little or
+                                    no increaſe or return from <lb/>the wellcloathed contiguous
+                                    bone.</item>
+                                <item><label>(21.)</label> That <lb/>ſudoriſics, diuretics and
+                                    ſcarifications are much <pb n="28"/><lb/>preferable to tapping
+                                    or ſtrong purging in <w part="I">drop-</w><lb/><w part="F"
+                                        >ſies</w>; becauſe by exhauſting the parts gradually
+                                    <lb/>they better contract and recover their loſt tone,
+                                    <lb/>while the better elaſtic or globular parts of the
+                                    <lb/>juices are ſtill retained in the habit.</item>
+                                <item><label>(22.)</label> That <lb/>there are no proper or peculiar
+                                    adipoſe veſſels <lb/>and receptacles, only ſuch as are alſo
+                                    common as <lb/>well to the watry and gelatinous as by a greater
+                                    <lb/>laxity or impulſe to the ſerous and even red <lb/>parts of
+                                    the blood from whence the fat laterally <lb/>recedes. Laſtly, as
+                                    the cellular fabric <w part="I">fur-</w><lb/><w part="F"
+                                        >rounds</w> every individual tubulus or nervous <w part="I"
+                                        >fi-</w><lb/><w part="F">bril</w>, both in the encephalon,
+                                    in its progreſs <lb/>thence, and in its ultimate
+                                    expanſion</item>
+                                <item><label>(23)</label>; we <lb/>ſee thence how a weakening of
+                                    this fabric, by <lb/>exceſs of dram-drinking, tea-drinking and
+                                    <lb/>lewdneſs, has reduced the old athletic Britiſh
+                                    <lb/>conſtitution of our anceſtors to the modern puny
+                                    <lb/>tenerity of habit, obnoxious daily to a train of
+                                    <lb/>nervous and other diſorders, almoſt unknown to <lb/>our
+                                    progenitors. And why theſe have worſe <lb/>effects on the young,
+                                    witty, ſtudious and <w part="I">ſeden-</w><lb/><w part="F"
+                                        >tary</w>; who have a natural tenderneſs of the <w part="I"
+                                        >cel-</w><lb/><w part="F">lular</w> fabric and nervous
+                                    ſyſtem; to relieve <lb/>which, the cortex was timely and happily
+                                        <w part="I">diſ-</w><lb/><w part="F">covered</w>.</item>
+                            </list>
+                        </p>
+                    </body>
+                </floatingText>
+            </div>
+            <pb n="29"/>
+            <div type="section">
+                <head rend="space align-center size(1.5)"><lb/>LECTURE III.</head>
+                <head rend="align-center italic space"><lb/>Of the arteries and veins. </head>
+                <p rend="space"><lb/>§. 26. <hi rend="dc(2)">T</hi>HE compound membranes made
+                    <lb/>out of the preceding more ſimple <lb/>parts, we ſhall hereafter better
+                    deſcribe each <lb/>in their reſpective places. Of theſe <w part="I"
+                        >mem-</w><lb/><w part="F">branes</w> there are ſeveral common to the <w
+                        part="I">ar-</w><lb/><w part="F">teries</w>; which are elaſtic tubes or
+                    canals, <w part="I">form-</w><lb/><w part="F">ing</w> parts of longly extended
+                    cones, whoſe <lb/>diameters decreaſe as they divide into more <lb/>numerous
+                    branches. But where the arteries <lb/>run for ſome length, without ſending of
+                    <lb/>branches, as towards their ultimate <w part="I">extremi-</w><lb/><w
+                        part="F">ties</w>, their convergency is not very evident; <lb/>and at
+                    length, where they are called <w part="I">capil-</w><lb/><w part="F">laries</w>,
+                    and wherever they give paſſage to only <lb/>a ſingle red globule, they are
+                    either <w part="I">cylindri-</w><lb/><w part="F">cal</w> or very nearly ſo, from
+                    the imperceptile <lb/>diminution; but their tranſverſe ſections are <lb/>every
+                    where and without exception circular, <lb/>when the artery is full. The common
+                    baſis <lb/>of the cone in all arteries is either in one or <lb/>the other
+                    ventricle of the heart; and the <lb/>apex of the cone terminates either in the
+                        <w part="I">be-</w><lb/><w part="F">ginning</w> of the veins, or in the
+                    beginning of <lb/>the cylindrical or anaſtomoſing part of the <lb/>artery. In
+                    ſome places indeed the arteries <lb/>ſeem to diverge or dilate; at leaſt they <w
+                        part="I">be-</w><lb/><w part="F">come</w> there of a larger diameter ' after
+                    they have <lb/>been filled or diſtended with wax; which <pb n="30"
+                    /><lb/>poſſibly may ariſe from ſome ſtoppage of the <lb/>wax, by whoſe impulſe
+                    that part of the length <lb/>of the artery becomes more diſtended than <lb/>the
+                    reſt. Examples of this kind we have in <lb/>the vertebral artery, at the baſis
+                    of the ſkull, <lb/>in the ſplenic artery, in the flexure of the <lb/>carotid
+                    artery, according to Mr. Cowper's <w part="I">in-</w><lb/><w part="F"
+                        >jections</w>; and laſtly, unleſs all my <w part="I">experi-</w><lb/><w
+                        part="F">ments</w> deceive me, in the ſpermatic arteries. </p>
+                <p rend="indent"><lb/>§. 27. There is indeed <hi rend="italic">no external <w
+                            part="I">adventi-</w><lb/><w part="F">tious</w> coat</hi> perpetual and
+                    proper to all the <w part="I">ar-</w><lb/><w part="F">teries</w>; but the office
+                    of ſuch a coat is <w part="I">ſup-</w><lb/><w part="F">plied</w> to ſome of them
+                    by one ſingle external <lb/>and incumbent integument, which in the <lb/>thorax
+                    is the pleura, and in the abdomen the <lb/>peritonæum. In the neck a ſort of
+                    thicker <lb/>cellular-ſubſtance ſurrounds the arteries; for <lb/>the membrane of
+                    the pericardium which on <lb/>all ſides cloſes round the aorta, ſoon <w part="I"
+                        >diſap-</w><lb/><w part="F">pears</w> by changing into the cellular
+                    ſubſtance. <lb/>The dura mater imparts a capſule that <w part="I"
+                        >ſur-</w><lb/><w part="F">rounds</w> the carotid artery as it paſſes out
+                    thro' <lb/>the hole in the ſkull for that purpoſe. But <lb/>the firſt true
+                    external membrane common to <lb/>the arterial tube in all parts of the body, is
+                    <lb/>the cellular ſubſtance (§. 17.) which in ſome <lb/>parts, (as in the
+                    thorax) we often ſee <w part="I">reple-</w><lb/><w part="F">niſhed</w> with fat.
+                    (§. 19.) </p>
+                <p rend="indent"><lb/>§. 28. This <hi rend="italic">cellular coat</hi> is in its
+                    external <lb/>ſurface of a <hi rend="italic">more lax</hi>, open texture,
+                    painted <lb/>with a great many ſmall arteries and veins; <lb/>and it has nerves
+                    running through its <w part="I">ſub-</w><lb/><w part="F">ſtance</w>, which are
+                    none of the ſmalleſt. <pb n="31"/><lb/>There is ſometimes ſo much of this
+                    cellular <lb/>ſubſtance about the artery as might occaſion <lb/>one to think it
+                    hardly belonged to it as an <lb/>external coat or lamella, but rather as ſome
+                    <lb/>foreign net-work added to this veſſel. Thus <lb/>we find it in the arteries
+                    of the neck, groins <lb/>and ſubclavians; in the meſenteric, cœliac <lb/>and
+                    hepatic arteries. And theſe are the <w part="I">va-</w><lb/><w part="F">ginæ</w>
+                    or capſules of the arteries, formerly <w part="I">ob-</w><lb/><w part="F"
+                        >ſerved</w> by ſome eminent anatomiſts.</p>
+                <p rend="indent"><lb/>§. 29. As this <hi rend="italic">cellular coat</hi> advances
+                    more <lb/>inward, and nearer to the light and capacity <lb/>of the artery, it
+                    becomes <hi rend="italic">more denſe</hi> or ſolid, <lb/>and is tied more
+                    cloſely together by ſmall <w part="I">fi-</w><lb/><w part="F">bres</w>, inſomuch
+                    that there appears to be no <lb/>tendinous coat of the arteries diſtinct from
+                    <lb/>this laſt part of the cellular ſubſtance; as is <lb/>evident from
+                    maceration, whereby the inner <lb/>ſtratum of this arterious tunic changes into
+                    <lb/>a cellular fabric. </p>
+                <p rend="indent"><lb/>§. 30. Within the former, and nearer the <lb/>light or
+                    capacity of the artery, it has <hi rend="italic">a coat <lb/>of mufcular
+                        fibres</hi>, which are in general <w part="I">im-</w><lb/><w part="F"
+                        >perfect</w> circles; that is to ſay, no fibre any <lb/>where makes a
+                    compleat circle round the <lb/>veſſel, but a number of ſegments conjoined
+                    <lb/>together, with their extremities turned off <lb/>ſideways, ſeem to form one
+                    ring round the <lb/>artery. Theſe fibres, in the larger arterial <lb/>trunks,
+                    form many ſtrata or plates one <w part="I">wi-</w><lb/><w part="F">thin</w> the
+                    other, appear of a rediſh colour and <lb/>are remarkably firm and ſolid; but in
+                    the <lb/>ſmaller arteries they are by degrees more <pb n="32"/><lb/>difficult to
+                    demonſtrate. Within this there <lb/>ſeems to be a ſort of continuation from the
+                    <lb/>former cellular membrane from betwixt the <lb/>muſcular fibres, although it
+                    be among them <lb/>inviſible, and here very difficult to <w part="I"
+                        >demon-</w><lb/><w part="F">ſtrate</w>; into the cells of which a chalky <w
+                        part="I">con-</w><lb/><w part="F">creting</w> matter is poured when an
+                    artery <lb/>oſſifies. </p>
+                <p rend="indent"><lb/>§. 31. The <hi rend="italic">innermoſt coat</hi> of the artery
+                    is <lb/>thin or cuticular, and finely poliſhed by the <lb/>influent blood; ſo as
+                    to form a ſingle <w part="I">incru-</w><lb/><w part="F">ſtation</w> that every
+                    where lines the flehy <w part="I">fi-</w><lb/><w part="F">bres</w>, (§. 30.)
+                    which being ſomewhat looſe, <lb/>or not very continuous one to the other; this
+                    <lb/>innermoſt lining prevents the blood from <w part="I">inſi-</w><lb/><w
+                        part="F">nuating</w> into the ſpaces betwixt them. 'Tis <lb/>every where
+                    ſmooth and without valves, <lb/>altho' from a ſort of mechanical neceſſity it
+                    <lb/>ſometimes, at the origination of branches, <lb/>forms a projecling
+                    eminence; as we ſee at <lb/>the branches produced by the arch of the <lb/>aorta.
+                    Yet in arteries of the viſcera the <w part="I">in-</w><lb/><w part="F"
+                        >nermoſt</w> coat is ſofter and more lax than <lb/>what we have deſcribed;
+                    and 'tis there in a <lb/>manner wrinkled and almoſt friable.</p>
+                <p rend="indent"><lb/>§. 32. The arteries themſelves <hi rend="italic">have <w
+                            part="I">arte-</w><lb/><w part="F">ties</w></hi> which are more
+                    particularly ſpread thro' <lb/>their external cellular coat; and ſpringing on
+                    <lb/>all ſides from the next adjacent ſmall arterial <lb/>trunks, form numerous,
+                    branchy net-works, <lb/>which are all of them indeed very minute, <lb/>but
+                    plainly appear, even in the fœtus <w part="I">with-</w><lb/><w part="F">out</w>
+                    injection, to be very numerous. We ſee <pb n="33"/><lb/>alſo there are <hi
+                        rend="italic">nerves</hi> which deſcend for a <lb/>long way together through
+                    the ſurface of <lb/>the artery, and, at laſt, vaniſh in the <w part="I"
+                        >cellu-</w><lb/><w part="F">lar</w> ſubſtance of the veſſel; of which we
+                    have <lb/>a ſpecimen in the ex and internal carotids, and <lb/>arch of the
+                    aorta. And from theſe, as in <lb/>other muſcles, the arteries ſeem to derive a
+                    <lb/>muſcular and convulſive force*, very different <lb/>from that of their
+                    ſimple elaſticity. Does <lb/>not this force ſhow itſelf plainly enough in
+                    <lb/>fevers, faintings and paſſions of the mind? <lb/>But the artery, abſtracted
+                    from its nerves, is <lb/>in a manner inſenſible and unirritable. </p>
+                <floatingText type="comment">
+                    <body>
+                        <head rend="space align-center"><lb/>REMARK.</head>
+                        <p rend="space indent"><lb/>* This is a ſucceſſive contraction of the
+                            arterial <lb/>fibres, like thoſe of the inteſtines, from the larger
+                            <lb/>to the leſs diameter, or the reverſe; by the firſt, <lb/>the blood
+                            moves quicker in a certain trunk to the <lb/>veins, as in bluſhing,
+                            anger, &amp;c. by the laſt, <lb/>it reverts back to the heart in
+                            faintings, <w part="I">hyſteri-</w><lb/><w part="F">cal</w> fits,
+                            &amp;c. Hence come the pains, improperly <lb/>called flatulent, which
+                            are local cramps of the <lb/>artery, beyond which you will ſcarce feel
+                            any <lb/>pulſe, but before it a ſtrong one; whence, in <lb/>hyſteric,
+                            and other nervous caſes, you have often <lb/>a pulſe in one wriſt and
+                            little or none in the <lb/>other. When violent in the carotids, it often
+                            <lb/>kills by an apoplexy, that is now a-days very <lb/>frequent, and in
+                            which bleeding avails little. <lb/>Seizing the heart itſelf, it often
+                            kills ſuddenly, <lb/>without leaving any apparent cauſe, upon <w
+                                part="I">diſ-</w><lb/><w part="F">ſection</w>. (V. Williſii Cap. 8.
+                            de apoplexiâ obſ. <lb/>ult. in Theologo). By this periſtaltic motion <pb
+                                n="34"/><lb/>of the arteries, the paſſions quicken, retard or
+                            <lb/>ſuppreſs the renal, uterine, hepatic, lactiferous, <lb/>falival,
+                            and other ſecretions; being a great key <lb/>to many otherwiſe
+                            unintelligible ſymptoms, &amp;c. <lb/>See §. 44. and 553. </p>
+                    </body>
+                </floatingText>
+                <p rend="indent"><lb/>§.33. The <hi rend="italic">ſections</hi> or diviſions of
+                    arteries <lb/>ſhow themſelves with a round, light or <w part="I">hol-</w><lb/><w
+                        part="F">low</w> capacity, becauſe they are elaſtic; and <lb/>this is the
+                    reaſon why, from ſmall arteries, <lb/>as thoſe of the teeth, hæmorrhages are <w
+                        part="I">ſome-</w><lb/><w part="F">times</w> fatal. The aorta, indeed, of
+                    the <w part="I">tho-</w><lb/><w part="F">rax</w> and abdomen, the carotids of
+                    the neck, <lb/>and ſome other arteries of the dead body, <lb/>from their
+                    leſſened extenſion, appear <w part="I">ſome-</w><lb/><w part="F">what</w> flat
+                    or depreſſed; but their round figure <lb/>or circular ſection is every where
+                    reſtored by <lb/>injection. <hi rend="italic">Their elaſticity</hi> is alſo
+                    evident in <lb/>that powerful compreſſure, which a ſegment <lb/>of a large
+                    artery makes upon the finger that <lb/>diſtends it. In the living body, indeed,
+                    this <lb/>force yields to that of the heart, but inſtantly <lb/>recovers itſelf,
+                    when the heart is relaxed, <lb/>and reſtores the artery to its former diameter;
+                    <lb/>and this makes the pulſe, whoſe full <w part="I">expli-</w><lb/><w part="F"
+                        >cation</w> ought to be preceded by an hiſtory of <lb/>the heart: at
+                    preſent, it may ſuffice for us to <lb/>ſay, that all the arteries have this
+                    pulſation, <lb/>although the ſyſtole and diſtole thereof can <lb/>be perceived
+                    by the finger, only in the larger <lb/>ones, and not in the ſmaller ones
+                    naturally; <lb/>but by an increaſed motion of the blood even <lb/>the leſſer
+                    ones make a violent pulſation, as <lb/>we ſee in an inflammation. </p>
+                <pb n="35"/>
+                <p rend="indent"><lb/>§. 34. The <hi rend="italic">ſtrength</hi> of the arteries is
+                        <w part="I">con-</w><lb/><w part="F">ſiderable</w> enough, but as the denſe,
+                    hard <w part="I">net-</w><lb/><w part="F">work</w> of the outer cellular coat
+                    (§. 29.) <w part="I">re-</w><lb/><w part="F">fuſes</w> to yield to a diſtending
+                    force, it breaks <lb/>without much difficulty, almoſt eaſier than <lb/>the coats
+                    of the veins; and from thence <lb/>aneuriſms often ariſe. But in general, the
+                    <lb/>trunks are, in all parts of the body, weaker, <lb/>and the branches
+                        <unclear>ſt</unclear>onger in their coats; <lb/>whence the impulſe of the
+                    blood may exert <lb/>a conſiderable effect upon the former, but <lb/>leaſt of
+                    all on thoſe of the limbs. From <lb/>hence it is, that aneuriſms are moſt <w
+                        part="I">frequent-</w><lb/><w part="F">ly</w> formed near the heart; for in
+                    the lower <lb/>extremities, the ſtrength of the arteries, and <lb/>of the veins
+                    too, is much increaſed. </p>
+                <p rend="indent"><lb/>§. 35. With regard to the <hi rend="italic">courſe and <w
+                            part="I">gene-</w><lb/><w part="F">neral</w> diſtribution</hi> of the
+                    arteries, nature has <lb/>every where diſpoſed of them in places of <lb/>the
+                    utmoſt ſafety, becauſe wounds cannot <lb/>happen to the ſmaller of them without
+                        <w part="I">dan-</w><lb/><w part="F">ger</w>, nor to the larger without loſs
+                    of life. <lb/>The ſkin is ſpread with numerous ſhort and <lb/>ſmall arterial
+                    trunks, but the larger ones, <w part="I">de-</w><lb/><w part="F">ſended</w> by
+                    the ſkin, creep along betwixt the <lb/>muſcles and the bones weil guarded. </p>
+                <p rend="indent"><lb/>§. 36. In the <hi rend="italic">particular diviſion or <w
+                            part="I">rami-</w><lb/><w part="F">fication</w></hi> of an arterial
+                    trunk, each branch <lb/>ſends out ſmaller circles by a numerous <w part="I"
+                        >ſub-</w><lb/><w part="F">diviſion</w>; the laſt extremities of which you
+                    <lb/>will ſcarce be able to trace. Here the lights <lb/>or ſections of any two
+                    branches taken <w part="I">toge-</w><lb/><w part="F">ther</w>, always exceed the
+                    light of the trunk <pb n="36"/><lb/>from whence they come, in nearly a <w
+                        part="I">ſeſqui-</w><lb/><w part="F">alteral</w> proportion, or as one and a
+                    half to <lb/>one, or ſomewhat leſs. Alſo every trunk, <lb/>juſt above its
+                    bifurkation or diviſion, is <w part="I">ſome-</w><lb/><w part="F">what</w>
+                    broader or more expanded. The <w part="I">an-</w><lb/><w part="F">gles</w>, at
+                    which the branches go out from <lb/>their trunks, are generally acute, either
+                    half <lb/>right angles or nearly ſo; to the forming of <lb/>which angles, as we
+                    ſee in mechanics, there <lb/>is required the longeſt projection. Inſtances
+                    <lb/>of their going off at right angles, or nearly <lb/>ſo, we have in the
+                    lumbal or intercoſtal <w part="I">ar-</w><lb/><w part="F">teries</w>; of their
+                    going off in a retrogade or <lb/>reflected courſe, we have one inſtance in the
+                    <lb/>coronaries of the heart, and another inſtance <lb/>in the ſpinal arteries,
+                    which are produced by <lb/>the vertebrals. But generally ſpeaking, thoſe,
+                    <lb/>which are eſteemed retrograde or reflexed, <lb/>were ſent off, at their
+                    origin, in acute angles; <lb/>ſuch as the aſcending artery of the pharynx,
+                    <lb/>the deſcending one of the palate, the <w part="I">umbi-</w><lb/><w part="F"
+                        >lical</w> and mammary arteries. Laſtly, we <lb/>often obſerve larger
+                    arteries ariſing under <w part="I">leſ-</w><lb/><w part="F">ſer</w> angles, and
+                    ſmaller arteries under greater <lb/>angles: but it is rarely, that we obſerve
+                    two <lb/>arteries of a larger diameter run together into <lb/>one trunk of a
+                    leſs; as in the baſilaiis, <w part="I">form-</w><lb/><w part="F">ed</w> out of
+                    the vertebral arteries. §. 338. <lb/>[In many parts the arteries have repeated
+                        <w part="I">al-</w><lb/><w part="F">ternate</w> undulations or flexures, as
+                    they run <lb/>on in a ſpiral courſe, wherein we ſee their <lb/>diameter often
+                    conſiderabiy enlarge; as in <lb/>the colon, rectum, womb, face, ſpleen, &amp;c.
+                        <pb n="37"/><lb/>This, and the diviſion info branches larger <lb/>than the
+                    trunk, greatly abates the velocity of <lb/>the blood; as does the largeneſs of
+                    the angle <lb/>with the trunk, and the number of <w part="I">undu-</w><lb/><w
+                        part="F">lations</w> by which an artery, that lies in a <lb/>ſmall compaſs,
+                    may be eaſily extended to a <lb/>great length, as in the uterus, &amp;c.] </p>
+                <p rend="indent"><lb/>§. 37. The arteries are frequently <w part="I">con-</w><lb/><w
+                        part="F">joined</w> one to another by intermediate or <hi rend="italic"><w
+                            part="I">ana-</w><lb/><w part="F">ſtomoſing</w> branches</hi>, in ſuch a
+                    manner, that <lb/>the twig of ſome certain artery ſhall run to <lb/>meet one of
+                    the ſame kind from another <lb/>neighbouring artery, and by joining together
+                    <lb/>with that form one trunk. Inſtances of <lb/>this kind we have many, among
+                    the large <lb/>trunks in the inteſtines; among the middling <lb/>ones, in the
+                    kidneys, womb, &amp;c. and <w part="I">a-</w><lb/><w part="F">mong</w> the
+                    ſmaller, in all parts of the body; <lb/>inſomuch that there is no one part of
+                    the <w part="I">hu-</w><lb/><w part="F">man</w> body, wherein the neighbouring
+                        <w part="I">ar-</w><lb/><w part="F">terial</w> trunks, whether of the ſame,
+                    or of <lb/>different denominations, do not form <w part="I">anaſto-</w><lb/><w
+                        part="F">moſes</w> or joinings one to the other, by <w part="I"
+                        >in-</w><lb/><w part="F">termediate</w>, lateral branches. Of uch rings
+                    <lb/>diverging laterally from the arteries, and <w part="I">re-</w><lb/><w
+                        part="F">turning</w> again into themſelves, we have <w part="I"
+                        >in-</w><lb/><w part="F">ſtances</w> betwixt the iris and choroides of the
+                    <lb/>eye. The extremities of the arteries, which <lb/>are either cylindrical or
+                    nearly ſo, ſend off <lb/>ſmaller branches, which, for their extent, <lb/>are
+                    more numerous, and generally diſpoſed <lb/>like a net, ſo that each branch, by
+                    ſmaller <lb/>circles, forms anaſtomoſes with thoſe of its <pb n="38"
+                    /><lb/>neighbouring branches. And thus we find <lb/>it in all membranes.</p>
+                <p rend="indent"><lb/>§. 38. Laſtly, one of the leaſt arteries <lb/>is either
+                    changed by a continuation of its <lb/>canal into a vein, in ſuch a manner, that
+                    <lb/>the ultimate little artery, which is generally <lb/>reflected, having
+                    ſurpaſſed the angle of its <lb/>reflection, becomes now a ſmall incipient
+                    <lb/>vein; or elſe, a branch, ſent out at right <lb/>angles from the artery, is
+                    inſerted under <lb/>a like angle into the branch of a ſmall <lb/>vein. Both
+                    theſe kinds of mechanical <w part="I">fa-</w><lb/><w part="F">bricature</w> of
+                    the maller arteries with the <lb/>veins are demonſtrated to us by the <w
+                        part="I">micro-</w><lb/><w part="F">ſcope</w>. And theſe vaſcules we ſee
+                    ſometimes <lb/>large enough to receive only one, and <w part="I"
+                        >ſome-</w><lb/><w part="F">times</w> ſeveral
+                    blood-gl<unclear>o</unclear>bules at a time. See <lb/>§. 6<gap
+                        reason="illegible" unit="letters" quantity="1"/>. <hi rend="italic">In the
+                        viſcera</hi>, we find the ſmall <lb/>arteries diſpoſed not ſo much in
+                    net-works, <lb/>as in a different fabricature, wherein the <lb/>ſmall branches
+                    deſcend very thick or in <w part="I">clu-</w><lb/><w part="F">ſters</w>,
+                    parallel to the trunk, ſo as to reſemble <lb/>bruſh-pencils, a variety of little
+                    trees or <lb/>buſhes, ſmall ſerpents, threads, &amp;c. <w part="I"
+                        >accord-</w><lb/><w part="F">ing</w> to the variety of the parts, whoſe <w
+                        part="I">com-</w><lb/><w part="F">poſition</w> they enter.</p>
+                <p rend="indent"><lb/>§. 39. Other arteries again paſs not into <lb/>veins, but <hi
+                        rend="italic">into excretory ducts</hi>, like unto veins, <lb/>which convey
+                    a humour different from that <lb/>of the blood. This continuation of the <w
+                        part="I">ar-</w><lb/><w part="F">teries</w> and ducts is ſomewhat more
+                    difficult <lb/>to diſcover than the former, (§. 38.) and is <lb/>generally not
+                    ſo eaſily deſcribed or traced by <pb n="39"/><lb/><lb/>the injection or liquor
+                    that is urged into <lb/>them. </p>
+                <p rend="indent"><lb/>§. 40. Another termination of the arteries <lb/>is, <hi
+                        rend="italic">by branching out into pellucid ones</hi>, of <lb/>much leſs
+                    orders, which we ſometimes <w part="I">ob-</w><lb/><w part="F">ſerve</w> to be
+                    not only continuous, but true and <lb/>direct trunks of the ſanguineous
+                    arteries; as <lb/>in the ophthalmic artery of the eye, if you <lb/>trace its
+                    branches into the choroides, then <lb/>into the arterial circle of the uvea, and
+                    <lb/>laſtly, into the colourleſs arteries of the iris, <lb/>vitreous body, and
+                    cryſtalline lens: ſo <w part="I">like-</w><lb/><w part="F">wiſe</w>, in the red
+                    branches of the ſame <w part="I">oph-</w><lb/><w part="F">thalmic</w> artery
+                    forming a net-work in the <lb/>conjunctiva tunica, to which is continued
+                    <lb/>the pellucid, but arterial net-work of the <lb/>albuginea or ſclerotica:
+                    the truth of this <w part="I">ap-</w><lb/><w part="F">pears</w> from
+                    inflammations, from the redneſs <lb/>of parts cauſed by warm vapours, from
+                        <lb/>cupp<unclear>ing</unclear>, from artificial emptying and <w part="I"
+                        >re-</w><lb/><w part="F">pl<unclear>etion</unclear></w> of the arteries, and
+                    laſtly, to the <lb/><unclear>eye</unclear> itfelf by the microſcope of
+                    Lieberkuhn, <lb/>c<unclear>ommon</unclear>ly called ſolar, applied to the <w
+                        part="I">mem-</w><lb/><w part="F"><unclear>branes</unclear></w> of frogs, by
+                    which we ſee the <w part="I">co-</w><lb/><w part="F"
+                        >l<unclear>ourleſs</unclear></w> globules paſs out of a red artery, and
+                    <lb/>go off into pellucid continuous ones. The
+                    <lb/>uri<unclear>n</unclear>iſerous ducts or tubes of the kidney are <lb/>thus
+                    continuous with the ſanguine arteries. <lb/>In this ſtructure of the arterial
+                    extremities, <lb/>we ſee it is no difficult matter to urge any <lb/>red liquor
+                    or coloured injection into the <lb/>ſmaller pellucid veſſels. </p>
+                <pb n="40"/>
+                <p rend="indent"><lb/>§. 41. As for the ſmall, lateral, excretory <lb/>ducts, we
+                    before mentioned, (§. 39.) which <lb/>ſeem to go off as branches from the
+                    ſmalleſt <lb/>red arteries, and again laterally detach other <lb/>trunks; they
+                    make a greater reſiſtance, than <lb/>the former, to an injection; whence it <w
+                        part="I">be-</w><lb/><w part="F">comes</w> more difficult to fill their
+                    excretory <lb/>veſſels. And this ſeems to be the fabric in <lb/>moſt of the
+                    ſmall glands and viſcera, deſtined <lb/>for ſecretions where, with ſome
+                    difficulty, <lb/>we can urge a liquor from the arteries into <lb/>their
+                    excretory ducts. </p>
+                <p rend="indent"><lb/>§. 42. Another termination of the <w part="I">arte-</w><lb/><w
+                        part="F">rial</w> extremities, is, <hi rend="italic">into the exhaling
+                        veſſels</hi>; <lb/>and this is a manner of their ending, very
+                    <lb/>frequently to be obſerved in all parts of the <lb/>body. The whole external
+                    and internal <lb/>ſkin, all membranes of the human body, <lb/>which form any
+                    cloſe cavity, all the <w part="I">ven-</w><lb/><w part="F">tricles</w> of the
+                    brain, the anterior and <w part="I">poſte-</w><lb/><w part="F">rior</w> chambers
+                    of the eyes, all the adipoſe <lb/>cells and pulmonary veſicles, the whole <w
+                        part="I">ca-</w><lb/><w part="F">vity</w> of the noſtrils, phauces, ſtomach
+                    and <lb/>inteſtinal tube, through which the air has <lb/>a paſſage, are all of
+                    them repleniſhed with <lb/>exhaling arteries of this kind. Theſe breathe
+                    <lb/>out a thin, watry vapour or humour, very <lb/>little gelatinous, which
+                    being condenſed or <lb/>collected together by ſtanding, ſometimes <lb/>makes no
+                    inconſiderable quantity; and <w part="I">par-</w><lb/><w part="F">ticularly</w>,
+                    by diſeaſe or death, they yield a <lb/>watry, but congealable lymph, hardening
+                    <lb/>by heat or alcohol. The truth of this is <pb n="41"/><lb/>eaſily
+                    demonſtrable, from the watry ſweat <lb/>that enſues after injecting the arteries
+                    with <lb/>that liquor warm. In ſome places, indeed, <lb/>they exhale not a thin
+                    vapour, but blood <w part="I">it-</w><lb/><w part="F">ſelf</w>, as we ſee in the
+                    cellular fabric of the <lb/>penis, urethra, clitoris, and nipple of the
+                    <lb/>female breaſt; in all which, the blood itſelf <lb/>is naturally poured out.
+                    Does not every <w part="I">ſe-</w><lb/><w part="F">cretion</w>, that is made in
+                    true glands or <w part="I">hol-</w><lb/><w part="F">low</w> cryptæ, bear ſome
+                    analogy to this <w part="I">ex-</w><lb/><w part="F">haling</w> fabric? </p>
+                <floatingText type="comment">
+                    <body>
+                        <head rend="space align-center"><lb/>REMARK.</head>
+                        <p rend="indent"><lb/>Even the whole encephalon and nervous <w part="I"
+                                >ſy-</w><lb/><w part="F">ſtem</w> are a kind of cylindric, exhaling
+                            veſſels, <lb/>whoſe contents are, in part, elaſtic globules, <lb/>and
+                            move the ſloweſt of any juice; in ſome <lb/>nerves, by tubular
+                            attraction and arterial <w part="I">im-</w><lb/><w part="F">pulſe</w>,
+                            only modulated by impulſions of objects <lb/>one way, and (in ſome) of
+                            the mind the other <lb/>way: this juice, moving in the organ <w part="I"
+                                >imme-</w><lb/><w part="F">diately</w> by continuity, moves the
+                            mind, as the <lb/>mind again thereby moves the organ, not by any
+                            <lb/>flux, but. by a transfered motion; as when <lb/>10,000 ivory balls
+                            fill a tube, if you put in <lb/>one more it will inſtantly thruſt out
+                            another at <lb/>the oppoſite end. </p>
+                    </body>
+                </floatingText>
+                <p rend="space indent"><lb/>§. 43. Whether or no, in all parts of the <lb/>human
+                    body, the pellucid veſſels, (§. 40.) <lb/>ariſing from the ſanguine ones, and <w
+                        part="I">carry-</w><lb/><w part="F">ing</w> a humour thinner than blood,
+                    again ſend <lb/>out other ſmaller veſſels to be ſubdivided into <lb/>ſtill
+                    leſſer orders? We ſeem, indeed, not to <lb/>want examples of this, in the manner
+                        <w part="I">pro-</w><pb n="42"/><lb/><w part="F">poſed</w> to us by the
+                    celebrated Boerhaave and <lb/>other profeſſors. That the aqueous humour <lb/>is
+                    ſeparated by very fine veſſels, generated <lb/>from the colourleſs arteries of
+                    the iris, is, <lb/>indeed, more than probable. That the red <lb/>coloured
+                    veſſels, in the cortical ſubſtance of <lb/>the encephalon, ſeparate a juice,
+                    pervading <lb/>the medullary ſubſtance, by the <w part="I"
+                        >intermedia-</w><lb/><w part="F">tion</w>of other ſmaller veſſels, we are
+                    almoſt <lb/>certain. And the like we are perſuaded <lb/>from an eryſipelas, or
+                    yellow inflammation, <lb/>ariſing from the yellow or ſerous globules,
+                    <lb/>impacted into ſmaller veſſels.</p>
+                <p rend="indent"><lb/>§. 44. It may be then aſked, if there are <lb/>not yellow
+                    arterious veſſels of a ſecond <w part="I">or-</w><lb/><w part="F">der</w>, which
+                    ſend off lymphatic ones of a <lb/>third order, from whence, by degrees, ſtill
+                    <lb/>leſſer kinds of veſſels branch out? ſuch a <lb/>fabric does not ſeem
+                    agreeable to the very <lb/>eaſy tranſition that is made by the blood,
+                    <lb/>mercury or wax into the exhaling and <w part="I">per-</w><lb/><w part="F"
+                        >ſpiratory</w> veſſels; into the uriniſerous tubuli, <lb/>with the adipoſe
+                    and pulmonary cells; nor <lb/>is it very difficult for the blood to ſtray into
+                    <lb/>the lactiferous, lymphatic and l<unclear>achrymal</unclear>
+                    <lb/>ducts, whither it ſhould ſeem not able to <lb/>penetrate, if it went
+                    through any other <w part="I">in-</w><lb/><w part="F">termediate</w> vaſcular
+                    ſyſtem, ſmaller than the <lb/>blood-globules, which make the ſame <w part="I"
+                        >jour-</w><lb/><w part="F">ney</w>. Nor can this ſyſtem be allowed by
+                    <lb/>the great impediment or retardation that <lb/>muſt ariſe to the humours in
+                    a third, and <pb n="43"/><lb/>much more in a fourth, and leſſer orders of
+                    <lb/>veſſels. </p>
+                <floatingText type="comment">
+                    <body>
+                        <head rend="space align-center"><lb/>REMARK.</head>
+                        <p rend="indent"><lb/>From what has been ſaid, we ſee the arteries <lb/>act
+                            by a double force on their contents; the one, <lb/>a dead automatic
+                            elaſticity, (32.) the other, a vital <lb/>or muſcular conſtriction from
+                            the nerves in their <lb/>fabric. (33.) The firſt continues to operate in
+                            the <lb/>dead animal, the latter only in the living; and <lb/>that
+                            variouſly, as to force and celerity in <w part="I">dif-</w><lb/><w
+                                part="F">ferent</w> organs, or in one and the ſame organ at
+                            <lb/>different times, in proportion as their nervous <lb/>fabric is more
+                            or leſs irritated by diſtention or <lb/>acrimony internally, or from
+                            pain, paſſions or <lb/>nervous conſent externally. This is the force
+                            <lb/>that gives a due form and modulation to many <lb/>of the ſecerned
+                            juices, and carries them through <lb/>ducts and veſſels, which, after
+                            death, are no <lb/>longer pervious; and, although the great ſhare
+                            <lb/>which it has in almoſt all <unclear>f</unclear>ebrile or <w
+                                part="I">inflamma-</w><lb/><w part="F">tory</w>, nervous and painful
+                            diſeaſes, ſeems little <lb/>regarded by our Britiſh phyſicians; yet,
+                            ſome <lb/>of the greateſt note, and particularly among the <lb/>Germans,
+                            have built their ſyſtems almoſt <w part="I">entire-</w><lb/><w part="F"
+                                >ly</w> hereupon: thus, ſometimes Hippocrates calls <lb/>it nature,
+                            Helmont calls it his archeus, <w part="I">Hoff-</w><lb/><w part="F"
+                                >man</w> and Sthail their convulſive ſpaſms; ſo <w part="I"
+                                >pro-</w><lb/><w part="F">liſic</w> of diſeaſes.—Theſe are the
+                            forces which <lb/>actuate all medicines ſo as to produce their <w
+                                part="I">va-</w><lb/><w part="F">rious</w> effects, which are always
+                            in proportion to <lb/>the ſtate of theſe powers and that of the confined
+                            <lb/>juices on which they act; and, therefore, never <lb/>exactly the
+                            ſame in two people, or at two different <lb/>times.—Theſe powers,
+                            however, in ſome <lb/>meaſure, antagonize one the other; for the
+                            <lb/>greater the arterial denſity, the leſs their <w part="I"
+                                >ner-</w><pb n="44"/><lb/><w part="F">vous</w> irritability and the
+                            reverſe. The former, <lb/>too much increaſed, paves the way to all
+                            acute, <lb/>inflammatory and painful diſeaſes; as the latter <lb/>does
+                            to all ſlow, nervous and hyſterical <w part="I">com-</w><lb/><w part="F"
+                                >plaints</w>. This laſt is the door-keeper to the <w part="I"
+                                >cata-</w><lb/><w part="F">menia</w>, whoſe generating or material
+                            cauſe is a <lb/>plethora, but the motive or actual cauſe a <w part="I"
+                                >fe-</w><lb/><w part="F">ver</w>, with a topical or painful
+                            irritation of this <lb/>ſluice-keeper in the womb, without whoſe <w
+                                part="I">per-</w><lb/><w part="F">miſſion</w>, a plethora can never
+                            iſſue there. This <lb/>is the milk-maker in the breaſts, to which the
+                            <lb/>chyle affords matter to be moulded: milk and <lb/>chyle being very
+                            diſtinct humours, &amp;c. we ſee <lb/>the nervous ſyſtem influences this
+                            muſcular <lb/>power of the arterial; and that again acts upon <lb/>the
+                            nervous, both as to the ſecretions and <w part="I">diſtri-</w><lb/><w
+                                part="F">butions</w>. All pleaſing paſſions and ſenſations, as
+                            <lb/>well as painful, uneaſy ones, variouſly intend <lb/>or remit the
+                            circulation, by acting on this <w part="I">muſ-</w><lb/><w part="F"
+                                >cular</w> fabric and force of the heart and arteries. <lb/>All
+                            medicines in themſelves are dead tools, <lb/>which exert effects varying
+                            according to the <lb/>ſtrength or diſpoſition of this agent, viz. the
+                            <lb/>elaſtic and muſcular <unclear>force</unclear> of the artery, in <w
+                                part="I">con-</w><lb/><w part="F">junction</w> with the denſity
+                                <unclear>or</unclear> laxity of the <lb/>humours, and more or leſs
+                            ſenſibility of the <lb/>nerves. A ſpaſm of this muſcular force of the
+                            <lb/>artery in any emunctory, cauſes a ſuppreſſion, <lb/>as in the ſkin,
+                            kidneys, lungs, womb, &amp;c. to be <lb/>relieved by warm bathing,
+                            vapours, ſemicupium, <lb/>opiates, nervous and hyſterical medicines,
+                            after <lb/>one ſpare bleeding. Any ſlow ſtimulus acting <lb/>on this
+                            nervous and muſcular force of the <w part="I">arte-</w><lb/><w part="F"
+                                >ries</w>, cauſes a nervous atrophe, whether from pain, <lb/>want of
+                            mucus, putrid or ſcorbutic acrimony, <lb/>&amp;c. In a word, this is a
+                            principal key <w part="I">to-</w><lb/><w part="F">wards</w>
+                            underſtanding the nature and cure of <w part="I">nu-</w><pb n="45"
+                                /><lb/><w part="F">merous</w> ſymptoms of diſeaſes, and the various
+                            <lb/>operations of medicines. See §.552 and 553.</p>
+                    </body>
+                </floatingText>
+                <div type="subsection">
+                    <head rend="space align-center italic"><lb/>Of the veins.</head>
+                    <p rend="space indent"><lb/>§. 45. The <hi rend="italic">veins</hi>, in many
+                        particulars, <lb/>(§, 36.) reſemble the arteries. Their baſis <lb/>is in the
+                        ventricles of the heart, and their <lb/>apices in the extremity of each
+                        branch thro' <lb/>all parts of the body, excepting one inſtance <lb/>in the
+                        liver. And, in a great number of <lb/>parts, they run parallel with the
+                        arteries, one <lb/>by the ſide of the other. But the veins <w part="I"
+                            >dif-</w><lb/><w part="F">fer</w> from the arteries in various reſpects,
+                        as <lb/>we ſhall now ſee.</p>
+                    <p rend="indent"><lb/>§. 46. The membranous fabric of the <lb/>veins is thin,
+                        every where ſmooth, and very <lb/>difficultly ſeparable into diſtinct coats
+                        or <lb/>membranes, in which there are but few <lb/>places, wherein one can
+                        demonſtrate <w part="I">muſcu-</w><lb/><w part="F">lar</w> fibres.
+                        Notwithſtanding this thinneſs of <lb/>their ſides, the veins are, in moſt
+                        parts, very <lb/>firm, and do not eaſily burſt with inflated <lb/>air;
+                        being, in moſt inſtances, ſtronger than <lb/>the arteries, if experiments do
+                        not deceive <lb/>us. But they burſt much more eaſily in <lb/>living, than in
+                        dead animals, as appears <lb/>from morbid inſtances in the arm, face, leg,
+                        <lb/>thigh, &amp;c. Nor do they ſupport <w part="I">them-</w><lb/><w
+                            part="F">ſelves</w> like cylinders after being divided, but <lb/>they
+                        collapſe together, ſo as to make their <lb/>light or capacity appear like a
+                        ſlit; except <lb/>they are ſuſtained and hindered from <w part="I"
+                            >col-</w><lb/><w part="F">lapſing</w> thus, by ſome ſtronger cellular <w
+                            part="I">ſub-</w><pb n="46"/><lb/><w part="F">ſtance</w> placed round
+                        them, as we ſee in the <lb/>liver and womb. [They are like the <w part="I"
+                            >arte-</w><lb/><w part="F">ries</w>, but ſlightly irritable, unleſs the
+                            <w part="I">ſtimu-</w><lb/><w part="F">lus</w> be of the chemical or
+                        more acrid claſſes; <lb/>for, in that caſe, they contract themſelves
+                        <lb/>with a convulſive force, greater in <w part="I">propor-</w><lb/><w
+                            part="F">tion</w> than that of the arteries themſelves.] <lb/>(§. 32.)
+                        They have no pulſation, unleſs <lb/>the venal channel is ſomewhere
+                        obſtructed; <lb/>or when, in dying people, the blood is <lb/>thrown back
+                        again from the right auricle <lb/>into the deſcending and aſcending
+                        cava.</p>
+                    <p rend="indent"><lb/>§. 47. The veins are much larger than <lb/>their
+                        correſponding arteries, having the ſquare <lb/>of their diameter often
+                        double or triple that <lb/>of the latter, and, in ſome places, almoſt
+                        <lb/>quadruple; as near the emulgents, and in <lb/>the venal trunks. They
+                        differ, likewiſe <lb/>from the arteries in their courſe or diviſion;
+                        <lb/>having more numerous trunks and branches: <lb/>for to one artery in the
+                        limbs, we uſually <lb/>meet with two veins. The larger veins <lb/>are alſo
+                        branched in a more net-like <w part="I">diſ-</w><lb/><w part="F"
+                            >poſition</w>, by forming more frequent <w part="I">anaſto-</w><lb/><w
+                            part="F">moſes</w> one with another; for not only <lb/>the ſmaller
+                        branches, but even the larger <lb/>trunks of the veins are conjoined one to
+                        the <lb/>other within its neighbourhood, upper with <lb/>lower, and right
+                        with left, by apparent <w part="I">in-</w><lb/><w part="F">lets</w> or
+                        inoſculations. They affect more than <lb/>arteries to run near the ſurface
+                        of the body; <lb/>and through the limbs, neck, head, &amp;c. <lb/>they run a
+                        long way covered with little more <pb n="47"/><lb/>than the bare ſkin; which
+                        is a circumſtance <lb/>we very rarely obſerve in arteries: and for the
+                        <lb/>ſame reaſon, they often go out in their <lb/>courſe, to a conſiderable
+                        diſtance from the <lb/>arteries. For, in this caſe, the veins follow
+                        <lb/>the ſurface of the parts next the ſkin, <w part="I">with-</w><lb/><w
+                            part="F">out</w> their correponding artery, which, in the <lb/>mean
+                        time, deſcends to a conſiderable depth, <lb/>attended, in its courſe, by
+                        ſome ſmaller <w part="I">ve-</w><lb/><w part="F">nal</w> branch. In the
+                        ſmaller branches of the <lb/>veſſels, where they make
+                            <unclear>net-like</unclear>
+                        <w part="I">diſpoſi-</w><lb/><w part="F">tions</w> in the membranes, and
+                        compoſe the <lb/>internal fabric of the viſcera, the veins and <lb/>arteries
+                        commonly run contiguous one with <lb/>the other; but here the veins have
+                        generally <lb/>a leſs ſerpentine or inflected courſe.</p>
+                    <p rend="indent"><lb/>§. 48. The veins have their origin, as we <lb/>ſaid
+                        before, (§. 37.) from the terminations <lb/>of the arteries. They ſometimes
+                        ariſe by a <lb/>continuation from the inſerted branches, or <lb/>from a
+                        reflexion of recurved trunks, of the <lb/>ſmalleſt arteries. Others again
+                        are either <lb/>continued from veins leſs than thoſe which <lb/>carry blood,
+                        or elſe receive additions and <lb/>roots from them; as we ſee, for inſtance,
+                        <lb/>in the lymphatic veins of the thoracic duct. <lb/>Other veins, of
+                            <unclear>a</unclear> bibulous kind, ariſe from <lb/>abſorbing ducts or
+                        orifices opening through <lb/>out the whole extended ſurface of the body;
+                        <lb/>as in the chambers of the eyes, the cavities of <lb/>the inteſtines,
+                        bladder, womb, breaſt, <w part="I">peri-</w><lb/><w part="F">tonæum</w>,
+                        pericardium, and ventricles of the <lb/>brain. For from theſe iſſue a watry
+                        ſweat, <pb n="48"/><lb/>by injecting the venal trunks with that kind <lb/>of
+                        liquor, which eaſily reſembles an <w part="I">ordi-</w><lb/><w part="F"
+                            >nary</w> ſweat throughout the whole human <lb/>body: hence, we meet
+                        with injections of <lb/>water, fiſh-glue or oil diſtilling from the
+                        <lb/>vena portarum into the cavity of the <w part="I">inte-</w><lb/><w
+                            part="F">ſtines</w>; of which experiments, we ſhall <lb/>ſpeak more
+                        largely hereafter in a proper <lb/>place.</p>
+                    <p rend="indent"><lb/>§. 49. Not much differing from the <w part="I"
+                            >for-</w><lb/><w part="F">mer</w> are thoſe veins which, ariſing in all
+                        <lb/>parts of the cellular membrane, or rather <lb/>ſponge-like ſubſtance,
+                        return thin vapours, <lb/>dropſical waters, and diſſolved fat again <w
+                            part="I">in-</w><lb/><w part="F">to</w> the maſs of blood; or which take
+                        up <lb/>again and return the blood itſelf from the <lb/>cellular fabric of
+                        the penis, clitoris, or <w part="I">nip-</w><lb/><w part="F">ples</w> of the
+                        breaſts after the venereal act. <lb/>And that inhaling veins of this kind
+                        open <lb/>into all the glands, is highly probable; where, <lb/>by abſorbing
+                        the thinner humour, they leave <lb/>the remaining maſs of a thicker
+                        conſiſtence; <lb/>of which we have inſtances in the bile, <lb/>ſperm, mucus,
+                        &amp;c.</p>
+                    <p rend="indent"><lb/>§. 50. That there are pellucid veins of a <lb/>ſmaller
+                        claſs, but reſembling thoſe which <lb/>convey blood, appears from the ſame
+                            <w part="I">expe-</w><lb/><w part="F">riments</w>, which demonſtrate the
+                        pellucid <w part="I">arte-</w><lb/><w part="F">ries</w> (§.
+                            <unclear>4</unclear>0.): thus in the iris of the eye, there <lb/>are
+                        ſmall veins, and in the adnata tunica of <lb/>that organ, more than a few
+                        trunks, which, <lb/>in a healthy perſon, are naturally pellucid. <lb/>The
+                        larger of theſe veins, which come next <pb n="49"/><lb/>to thoſe that carry
+                        blood, are much more <lb/>conſpicuous than the arteries of the ſame
+                        <lb/>kind; and are uſually called <hi rend="italic">lymphatic veſſels</hi>;
+                        <lb/>of which we ſhall fpeak more at large, <lb/>when we come to deſcribe
+                        the <hi rend="italic">lacteal veſſels</hi>.</p>
+                    <p rend="indent"><lb/>§. 51. Namely, in moſt parts of the <w part="I"
+                            >hu-</w><lb/><w part="F">man</w> body [but in brute animals they are
+                        <lb/>more eaſily and clearly diſcovered] are found <lb/>tranſparent veins,
+                        often full of a reddiſh, <lb/>yellowiſh, and almoſt pellucid liquor, <w
+                            part="I">hard-</w><lb/><w part="F">ening</w> like the white of an egg
+                        with a <lb/>boiling heat or alcohol; which veins being <lb/>formed of very
+                        thin coats, [have, like the <lb/>blood-veins, (§. 46.) a proportionable
+                        degree <lb/>of irritability, from any chemical or very <lb/>acrid ſtimulus;
+                        whence we infer them to be <lb/>muſcular or nervous, notwithſtanding they
+                        <lb/>are pellucid, like the fibres of fiſh, frogs, &amp;c.] <lb/>have
+                        frequent valves or partitions, which make <lb/>them in thoſe places ſeem
+                        jointed, or <w part="I">knot-</w><lb/><w part="F">ted</w> like a reed, when
+                        they are turgid; theſe, <lb/>by degrees, meeting together, either all or
+                        <lb/>moſt part of them, empty their contents <lb/>into the thoracic duct.
+                        But all the <w part="I">lympha-</w><lb/><w part="F">tics</w>, in their
+                        courſe, meet together in a <w part="I">pe-</w><lb/><w part="F">culiar</w>
+                        kind of conglobate glands, into which <lb/>they enter, and from the ſhape of
+                        veins <w part="I">be-</w><lb/><w part="F">coming</w> arterial or like
+                        converging cones, <lb/>they divide into ſmall branches, and then
+                        <lb/>proceed to meet together again in other little <lb/>trunks. They are
+                        found ſeated on all the <lb/>ſurfaces of the viſcera, in the thorax and
+                        <lb/>abdomen; but are more eaſily and clearly <pb n="50"/><lb/>diſcovered in
+                        brutes: they run thro' the <w part="I">low-</w><lb/><w part="F">er</w> part
+                        of the face, muſcles of the tongue, the <lb/>adjacent parts of the neck, and
+                        thoſe parts <lb/>of the upper limbs, which are neareſt the <lb/>trunk, as
+                        far as the bending of the elbow; <lb/>throughout the whole length of the <w
+                            part="I">me-</w><lb/><w part="F">diaſtinum</w>, before and behind, and
+                        wherever <lb/>we find conglobate glandules, either in the <lb/>neck or
+                        thorax: the lymphatic veins are alſo <lb/>ſpread through the whole lumbal
+                        region that <lb/>is contiguous to the aorta, the meſocolon <lb/>and pelvis,
+                        veſſels and ſurface of the teſticle; <lb/>and in the lower limbs wherever
+                        they are <lb/>ſupplied with conglobate glandules. <w part="I"
+                            >Whe-</w><lb/><w part="F">ther</w> they extend further into other parts,
+                        <lb/>throughout the whole body, or through the <lb/>brain, eyes, hands,
+                        feet, back, fore part of <lb/>the peritonæum, &amp;c. remain, as yet, <w
+                            part="I">unde-</w><lb/><w part="F">termined</w>; at leaſt, there are not
+                        examples <lb/>enough in the human body, upon which one <lb/>can depend to
+                        evince the truth of their <w part="I">exi-</w><lb/><w part="F">ſtence</w>.
+                        But they are every where to be <lb/>found upon the ſurfaces of the viſcera,
+                        and <lb/>about the larger blood veſſels.</p>
+                    <p rend="indent"><lb/>§. 5<unclear>2</unclear>. The <hi rend="italic"
+                            >valves</hi> of theſe pellucid <w part="I">veſ-</w><lb/><w part="F"
+                            >ſels</w> are compoſed of two ſemilunar, or <w part="I">ra-</w><lb/><w
+                            part="F">ther</w> ſemicircular, projecting membranes, <lb/>which give
+                        way to the fluid that goes <w part="I">to-</w><lb/><w part="F">wards</w> the
+                        larger trunks; ſo that, by <w part="I">apply-</w><lb/><w part="F">ing</w>
+                        themſelves cloſe to the ſides of the <w part="I">veſ-</w><lb/><w part="F"
+                            >ſel</w>, they leave a free light or capacity thro' <lb/>it. But the
+                        ſame valves, if the contained <lb/>liquor is preſſed back towards the
+                        ſmaller <pb n="51"/><lb/>branches of the veſſel, being filled out <w
+                            part="I">there-</w><lb/><w part="F">with</w>, ſwell or expand, ſo as to
+                        ſhut up the <lb/>light of the canal.</p>
+                    <p rend="indent"><lb/>§. 53. But many valves of the ſame kind <lb/>are alſo
+                        found in. great numbers <hi rend="italic">within the <lb/><hi rend="roman"
+                                >larger</hi> blood-veins</hi>. Theſe, joined with the <lb/>ſide of
+                        the proceeding vein, intercept a ſpace, <lb/>of which the outerſide is the
+                        vein itſelf, and <lb/>the inner the valve, which, by its convexity,
+                        <lb/>ſtands out within the bore or light of the <lb/>vein; ſo that the
+                        parabolic ſpace or hollow <lb/>mouth of the valves always look towards the
+                        <lb/>heart: they are found in all the <w part="I">ſubcuta-</w><lb/><w
+                            part="F">neous</w> veins of the limbs, in thoſe of the <lb/>neck, face,
+                        tongue, and in the veins of the <lb/>penis: at the origin. of the larger
+                        branches <lb/>there are two, three, four, and ſometimes <lb/>five of them
+                        together, while in their ſmaller <lb/>branches they are only ſingle. There
+                        are <lb/>none of theſe valves in the deep running <lb/>veins of the viſcera;
+                        and, therefore, none <lb/>in thoſe of the brain, lungs, heart or liver,
+                        <lb/>or through the whole ſyſtem of the vena <lb/>portarum, nor in the
+                        kidneys or womb (<w part="I">ex-</w><lb/><w part="F">cept</w> one or two
+                        valves in the ſpermatic vein); <lb/>nor, laſtly, are there any in thoſe
+                        ſmaller <lb/>blood-veins, which are of a leſs diameter <lb/>than the twelfth
+                        part of an inch. Whether <lb/>there are any ſuch valves in the vena azygos
+                        <lb/>is queſtioned; but I have, not been able to <lb/>find any. [Valves have
+                        been ſometimes, <lb/>though very rarely, found in the vena <w part="I"
+                            >azy-</w><lb/><w part="F">gos</w>: and at the mouths of the hepatic and
+                            <pb n="52"/><lb/>renal veins: there I have ſeveral times <w part="I"
+                            >obſerv-</w><lb/><w part="F">ed</w> a ſort of wrinkles in the place of
+                        valves.</p>
+                    <p rend="indent"><lb/>§. 54. In the ſmaller venal branches there <lb/>are a ſet
+                        of long, ſharp-pointed or <w part="I">parabo-</w><lb/><w part="F">lical</w>
+                        valves of a more extended figure, as the <lb/>vein is ſmaller: and theſe
+                        make a greater <lb/>reſiſtance than the larger valves, to hinder <lb/>the
+                        blood from returning back upon the <lb/>parts.</p>
+                    <p rend="indent"><lb/>§. 55. The common uſe or office of theſe <lb/>valves is,
+                        to determine the preſſure that is <lb/>given from any quarter upon the
+                        veins, <w part="I">to-</w><lb/><w part="F">wards</w> the heart, by allowing
+                        no opportunity <lb/>to the venal blood, that has once entered the
+                        <lb/>trunk, which they intercept, to flow back <lb/>to the branches. For
+                        ſince the coving ſpaces <lb/>of the valves open upwards towards the
+                        <lb/>heart, the blood enters into, and expands <lb/>them. Thus thoſe parts
+                        of the valves, <lb/>which ſtand out with a free motion within <lb/>the light
+                        of the vein, approach each other <lb/>towards the axis, until the oppoſite
+                        ſides, by <lb/>meeting together, ſhut up the tube. This <lb/>we know from
+                        inflations, ligatures and <w part="I">in-</w><lb/><w part="F">jections</w>
+                        of the veins; for you never can force <lb/>a liquor eaſily into the veins,
+                        by urging it <lb/>againſt, or contrary to, their valves. They <lb/>do not,
+                        indeed, every where ſhut up the <lb/>whole cavity of the veins; but where
+                        they <lb/>ſhut not cloſe, they always intercept the <lb/>greateſt part of
+                        the light.</p>
+                    <p rend="indent"><lb/>§. 56. Another office of the valves in the <lb/>veins,
+                        ſeems to be for ſuſtaining the weight <pb n="53"/><lb/>of the blood, that
+                        its upper columns may <lb/>not gravitate upon the lower; nor the blood,
+                        <lb/>flowing through the trunks, make too great <lb/>a reſiſtance againſt
+                        that which follows it <lb/>through the branches. For if, from the
+                        <lb/>ſlower return of the blood into the veins, its <lb/>weight or preſſure
+                        ſhall, in any part, much <lb/>exceed the impulſe, that drives it on, ſo as
+                        <lb/>to cauſe ſome part of the column to deſcend <lb/>by its weight; 'tis,
+                        in that caſe, <w part="I">imme-</w><lb/><w part="F">diately</w> catched and
+                        ſuſtained in its relapſe <lb/>by the next adjacent valve, which hinders
+                        <lb/>it from urging againſt the next ſucceeding <lb/>column, and affords
+                        time and opportunity <lb/>for ſome contiguous muſcle, by its preſſure
+                        <lb/>or concuſſion, to ſend forward the ſaid <w part="I">co-</w><lb/><w
+                            part="F">lumn</w>. And this is the reaſon, why valves <lb/>are placed in
+                        veins of the limbs and neck; <lb/>in which parts, they are both more <w
+                            part="I">nume-</w><lb/><w part="F">rous</w> and more robuſt than
+                        elſewhere. And <lb/>this is the cauſe, from whence varices or <lb/>herniæ
+                        are formed in the veins, when the <lb/>blood, entering the hollow valves,
+                        urges <lb/>their ſolid convexity downwards, and makes <lb/>the vein dilate
+                        in that part. </p>
+                </div>
+            </div>
+            <gap reason="sampling" unit="pages" quantity="53"/>
+        </body>
+    </text>
+</TEI>

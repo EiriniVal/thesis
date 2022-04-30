@@ -1,0 +1,2172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> LMEMT Corpus - Royal College of Physicians of London: The Dispensatory of the Royal
+          College of Physicians in London</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>Royal College of Physicians of London</persName>
+            </author>
+            <title type="main">THE DISPENSATORY OF THE Royal College OF PHYSICIANS IN LONDON: WITH
+              Some NOTES relating to the Manner of Composition, and REMARKS on the Changes made in
+              most of the Officinal Medicines, from their first Prescribers down to the present
+              Practice. </title>
+            <edition n="1"/>
+            <idno type="ESTC">T61388</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/T61388"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>London: Printed by W. Bowyer, for R. Knaplock, B. Took, D. Midwinter, R.
+                  Smith, W. and J. Innys, and J. Osborn, MDCCXXI.</persName>
+              </publisher>
+              <date>1721</date>
+            </imprint>
+            <extent>
+              <measure type="format">8⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="17"/>
+              <measure type="count" commodity="body" unit="page" quantity="362"/>
+              <measure type="count" commodity="back" unit="page" quantity="14"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">British Library</orgName>
+            <idno type="ECCO">CB128478771</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Recipe collections"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text type="book" rend="roman" xml:lang="eng">
+    <gap reason="sampling" unit="pages" quantity="17"/>
+    <body>
+      <pb n="1"/>
+      <figure>
+        <figDesc>An ornamental horizontal column, spanning the whole page.</figDesc>
+      </figure>
+      <div type="section">
+        <head rend="align-center">
+          <lb/>Simple and Compound <lb/><hi rend="sc size(2.0)">Waters, Tinctures, </hi>
+          <lb/>AND <lb/><hi rend="italic size(1.75)">Medicated <hi rend="roman">Wines</hi> and <hi
+              rend="roman">Vinegars</hi>. </hi>
+        </head>
+        <figure>
+          <figDesc>A horizontal line, spanning the whole page. </figDesc>
+        </figure>
+        <div type="subsection">
+          <head rend="size(1.25) align-center">
+            <lb/>The Common Simple <hi rend="sc">Distilled <lb/>Waters</hi>. </head>
+          <p rend="hanging italic">
+            <lb/>All the Herbs from which Simple Waters are drawn, <lb/>ought to be green, freſh,
+            and a little bruiſed. They <lb/>are to be raiſed by a Sand-Heat, or an Alembick
+            <lb/>with its Refrigeratory; and ſuch a Quantity of <lb/>Spring-water is to be allowed
+            as is ſufficient to <lb/>prevent an <hi rend="roman"><choice>
+                <corr>Empyreuma</corr>
+                <sic>Eupyreuma</sic>
+              </choice></hi>. For the moſt part one <lb/>Gallon may be conveniently drawn from eight
+            Pound <lb/>of green Herbs. </p>
+          <div>
+            <head rend="italic align-center space">
+              <lb/>From the <hi rend="sc">Leaves</hi> and <hi rend="sc">Buds</hi> of </head>
+            <p rend="space">
+              <lb/><hi rend="dc(4)">B</hi>Oth the Wormwoods, Angelica, Car- <lb/>duus B. Succory,
+              the greater Celandine, <lb/>Eyebright, Fenile, Fumatory, Hyſſop, <lb/>Marjoram, Baum,
+              Mint, Parſley, Plan- <lb/>taine, Peneroyal, Oak, Rue, Saxifrage, and Mea- <lb/>dow
+              Sweet. </p>
+          </div>
+          <pb n="2"/>
+          <div>
+            <head rend="italic align-center">
+              <lb/>From the <hi rend="sc">Flowers</hi> of </head>
+            <p rend="indent">
+              <lb/>Oranges, Chamomile, Beans, Lillies of the Val- <lb/>ley, Red Poppies, Cowſlips,
+              Piony, Roſema- <lb/>ry, White<choice>
+                <corr>,</corr>
+                <sic/>
+              </choice> Red and Damask Roſes, Elder and <lb/>Limes. </p>
+          </div>
+          <div>
+            <head rend="italic align-center">
+              <lb/>From the <hi rend="sc">Fruits</hi> of </head>
+            <p rend="indent">
+              <lb/>Citrons the Peal, Raſp-Berries, Green Wal- <lb/>nuts and Black Cherries. From
+              twelve Pounds of <lb/>the latter of which, bruiſed with the Stones, draw <lb/>one
+              Gallon. </p>
+          </div>
+          <div>
+            <head rend="italic align-center">
+              <lb/>From an <hi rend="sc">Animal</hi>
+            </head>
+            <p rend="indent">
+              <lb/>Froggs-Spawn. </p>
+            <p rend="indent space">
+              <lb/>
+              <q rend="diple">Herein is made a very great reduction of the <lb/>Simple Waters, and
+                certainly with good rea- <lb/>ſon, becauſe there were not only many before
+                <lb/>ordered of no Efficacy, but likewiſe were they <lb/>ſo numerous, that a great
+                deal of needleſs trou- <lb/>ble and expence were employed to keep them <lb/>all in
+                readineſs. It may poſſibly be diſputed, <lb/>whether all theſe now retained, are of
+                Impor- <lb/>tance or Efficacy enough to deſerve it, but it <lb/>is to be remembred,
+                that very little dependence <lb/>is put upon any Simple Water, they being ſel-
+                <lb/>dom uſed but as Vehicles to things of greater <lb/>Virtue; and in many
+                Circumſtances a Vehicle <lb/>is ſo much the better, for being deſtitute of any
+                <lb/>Medicinal Flavour or Taſte, as it the more <lb/><choice>
+                  <corr>gratefully</corr>
+                  <sic>gatefully</sic>
+                </choice> conveys down what the greateſt Streſs <lb/>is laid upon. </q>
+            </p>
+          </div>
+        </div>
+        <pb n="3"/>
+        <figure>
+          <figDesc>A horizontal line, spanning the whole page. </figDesc>
+        </figure>
+        <div type="subsection">
+          <head rend="size(1.25) align-center space">
+            <lb/>The Diſtilled and Compound <hi rend="sc">Waters</hi>. </head>
+          <p rend="italic hanging space">
+            <lb/>The Herbs are to be choſen green, unleſs particularly <lb/>ordered to the contrary.
+            In defect of thoſe <lb/>which are green, about a fourth part of the dry <lb/>may be
+            ſubſtituted, and ſo much Spring Water <lb/>is to be allowed as will prevent their
+            burning to <lb/>the Still. </p>
+          <div>
+            <head rend="align-center space">
+              <lb/><hi rend="sc">Aqua Absinthii</hi> minus Compoſita. </head>
+            <head rend="italic align-center space">
+              <lb/>The leſſer Compoſition of Wormwood Water. </head>
+            <p rend="indent">
+              <lb/>Take of the Leaves of dried Wormwood two <lb/>Pounds; of the leſſer Cardamom
+              Seeds two Ounces; <lb/>and of Coriander Seeds half a Pound. Infuſe them <lb/>all in
+              four Gallons of <hi rend="italic">French</hi> Brandy, and draw off <lb/>the ſame
+              Quantity by Diſtillation. </p>
+            <p rend="indent">
+              <lb/>After the ſame manner (with an Omiſſion of <lb/>theſe Seeds, and for that Reaſon
+              an Augmenta- <lb/>tion of four Times the Quantity of Herbs) are <lb/>made Waters from
+              the whole Plants of Angelica, <lb/>Baum, Mint, Sage, <hi rend="italic">&amp;c.</hi>
+              The Flowers of Roſe- <lb/>mary, Seeds of Carriway, leſſer Cardamoms, A- <lb/>niſe, <hi
+                rend="italic">&amp;c.</hi> Juniper Berries, Orange, Citron, and <lb/>Lemon-Peel, <hi
+                rend="italic">&amp;c.</hi>
+            </p>
+            <p rend="indent space">
+              <lb/>
+              <q rend="diple">This differs chiefly from the former, by ſub- <lb/>ſtituting Cardamom
+                and Coriander Seeds in room <lb/>of the Aniſeeds, which makes it more cordial
+                <lb/>and grateful to the Stomach; the Aniſeeds <lb/>yielding too foul an Oil to ſuit
+                it for ſuch Pur- <lb/>poſes. </q>
+            </p>
+          </div>
+          <pb n="4"/>
+          <div>
+            <head rend="align-center space">
+              <lb/><hi rend="sc">Aqua Absinthii</hi> magis Compoſita. </head>
+            <head rend="align-center italic space">
+              <lb/>The greater Compoſition as Wormwood Water. </head>
+            <p rend="indent">
+              <lb/>Take of the Sea, and Common Wormwood <lb/>dryed, each one Pound; of Sage, Mint,
+              and <lb/>Baum dryed, each two handfuls; of the Roots <lb/>of Galangals, Ginger,
+              Calamus Aromaticus, and <lb/>Elicampaine; of the Seeds of Sweet Fenile and
+              <lb/>Coriander, each three drams; Cinnamon, Cloves, <lb/>and Nutmegs, each two drams;
+              of the leſſer <lb/>Cardamoms and Cubebs, each one dram. Cut and <lb/>bruiſe the
+              Ingredients as they require and after <lb/>ſome time Infuſion of them in twelve Pints
+              of <lb/><hi rend="italic">French</hi> Brandy, draw off the ſame quantity by
+              <lb/>Diſtillation. </p>
+            <p rend="indent space">
+              <lb/>
+              <q rend="diple">This differs from the former in rejecting Li- <lb/>quorice Root and
+                Raiſons, which can have no <lb/>effect in Diſtallation; and in allowing a greater
+                <lb/>proportion of Spirit, and more to be drawn off; <lb/>the former being too much
+                loaded with the <lb/>oily Ingredients to admit either of its being fine <lb/>to the
+                Eye, or grateful to the Stomach. </q>
+            </p>
+          </div>
+          <div>
+            <head rend="align-center space">
+              <lb/><hi rend="sc">Aqua Angelicæ</hi> magis Compoſita. </head>
+            <head rend="italic align-center space">
+              <lb/>The greater Compoſition of Angelica-Water. </head>
+            <p rend="indent">
+              <lb/>Take of Angelica Root and the Leaves of Car- <lb/>duus, each ſix Ounces; of Baum
+              and Sage, each <lb/>four Ounces; of Angelica Seeds ſix Ounces; and <lb/>of Sweet
+              Fenile Seeds nine Ounces. Let the <lb/>dryed Herbs and Seeds be groſly bruiſed, and to
+              <lb/>them add of Cinnamon two Drams; of Cloves and <lb/>Mace each one Dram and half;
+              of Nutmegs, and <lb/>the leſſer Cardamon Seeds each one Dram; of Cu- <lb/>bebs and
+              Galangal Root each one Dram and half <pb n="5"/>
+              <lb/>of Jamaica-Pepper and Saffron, each one Dram. <lb/>Infuſe them in two Gallons of
+                <hi rend="italic">French</hi> Brandy, and <lb/>draw off as much by Diſtillation. </p>
+            <p rend="indent space">
+              <lb/>
+              <q rend="diple">This hath rejected the<hi rend="italic"> Species Diamoſchu
+                  <lb/>Dulcis</hi>, and <hi rend="italic">Aromaticum Roſatum</hi>, that were <lb/>in
+                the former, thoſe two Compoſitions being <lb/>alſo wholly expunged this
+                Diſpenſatory, and in <lb/>their room are added Spices more convenient- <lb/>ly
+                anſwering the ſame Intentions. </q>
+            </p>
+          </div>
+          <div>
+            <head rend="align-center space">
+              <lb/><hi rend="sc">Spiritus Lavendulæ</hi> Compoſitus. </head>
+            <head rend="italic align-center">
+              <lb/>Compound Spirit of Lavender. </head>
+            <p rend="indent">
+              <lb/>Take Flowers of Lavender one Gallon, pour <lb/>upon them four Gallons of <hi
+                rend="italic">French</hi> Brandy, and <lb/>thereunto add freſh Flowers of sage,
+              Roſemary <lb/>and Betony, each one handful; of Burrage, Bugloſs, <lb/>Lillies of the
+              Valley and Cowſlips, each two hands- <lb/>ful; of the Leaves of Baum, Feverfew, and
+              the <lb/>Orange-Tree freſh gathered, of the Flowers of <lb/>Stœchas, Oranges and
+              Bay-Berries, each one Ounce. <lb/>Digeſt theſe together, and draw off in <hi
+                rend="italic">B. M.</hi> two <lb/>Gallons and an half. Then add of the outer Bark
+              <lb/>of Cinnamon, Nutmegs, and Mace, of the leſſer <lb/>Cardamom Seeds, and Cubebs,
+              each half an Ounce; <lb/>of Aloes Wood, one Dram. Digeſt theſe for twen- <lb/>ty four
+              Hours, and filter the Spirit; then, if it be <lb/>thought proper, add of Musk,
+              Ambergreaſe, and <lb/>Saffron, each half a Scruple; Red Roſes dryed, <lb/>and red
+              Saunders, each half an Ounce. Let the <lb/>Species be tyed up in a thin Bag, and
+              ſuſpended in <lb/>the Spirit. </p>
+            <p rend="indent space">
+              <lb/>
+              <q rend="diple">Herein is avoided the needleſs Trouble of a <lb/>double Diſtillation,
+                as it was before ordered, and <lb/>the Piony-ſeeds omitted, as of no uſe in a Com-
+                  <pb n="6"/>
+                <lb/>poſition of ſuch an Intention, notwithſtanding <lb/>ſome Parts of the ſame
+                Plant agree well enough <lb/>therewith. The Sweets alſo here left at diſ-
+                <lb/>cretion, becauſe in many Purpoſes they are diſ- <lb/>agreeable to the main End
+                of the Compoſition; <lb/>proving to ſome particular Conſtitutions the op-
+                <lb/>poſite to a Cordial, or a Cephalic, which this <lb/>Medicine is in the higheſt
+                Degree. </q>
+            </p>
+          </div>
+          <div>
+            <head rend="align-center space sc">
+              <lb/>Spiritus Castorei. </head>
+            <head rend="align-center italic">
+              <lb/>Spirit of Caſtor. </head>
+            <p rend="indent">
+              <lb/>Take of the Beſt <hi rend="italic">Ruſſia</hi> Caſtor, four Ounces; <lb/>of the
+              dryed Flowers of Lavender, an Ounce; of <lb/>Sage and Roſemary Flowers, each half an
+              Ounce; <lb/>of Cinnamon ſix Drams; of Mace and Cloves, each <lb/>two Drams; of <hi
+                rend="italic">French</hi> Brandy rectifyed ſix Pints. <lb/>And let the whole
+              Quantity of Spirit be drawn off <lb/>in <hi rend="italic">B. M.</hi> ſo that the
+              Ingredients be left quite dry. </p>
+            <p rend="indent space">
+              <lb/>
+              <q rend="diple">This is left exactly as in the old Diſpenſatory, <lb/>without any
+                Alterations; as being a Medicine <lb/>well contrived both in the Qualities and
+                Propor- <lb/>tions of its Ingredients, to anſwer the Intentions <lb/>of an
+                efficacious Cephalic. </q>
+            </p>
+          </div>
+          <div>
+            <head rend="align-center space sc">
+              <lb/>Spiritus Croci. </head>
+            <head rend="align-center italic">
+              <lb/>Spirit of Saffron. </head>
+            <p rend="indent">
+              <lb/>Take four Ounces of the beſt <hi rend="italic">Engliſh</hi> Saffron, <lb/>infuſe
+              it in four pints of <hi rend="italic">French</hi> Brandy, and draw <lb/>of two Pints
+              and an half in <hi rend="italic">B. M.</hi>
+            </p>
+            <p rend="indent space">
+              <lb/>
+              <q rend="diple">This hath been heretofore ordered with ſeve- <lb/>ral Repetitions of
+                Spirit and Diſtillations; but <lb/>conſidering the good Uſes the Reſiduum may be
+                <lb/>put to of making a Tincture, Syrup, or Extract, <lb/>that Pains may be well
+                ſpared, and the Spirit <pb n="7"/>
+                <lb/>the better for it; becauſe the firſt Infuſion and <lb/>Diſtillation certainly
+                takes away the beſt of the <lb/>Saffron. </q>
+            </p>
+          </div>
+          <div>
+            <head rend="align-center space">
+              <lb/><hi rend="sc">Aqua Raphani</hi> Compoſita. </head>
+            <head rend="align-center italic">
+              <lb/>Compound Horſe-Raddiſh Water. </head>
+            <p rend="indent">
+              <lb/>Take of the Leaves of both the Scurvy-graſſes, <lb/>freſh gathered in the Spring,
+              each ſix Pound; <lb/>bruiſe them and preſs out the Juice, and to it add <lb/>the
+              Juices of Brooklime and Water-Creſſes, each <lb/>one Pint and an half; of
+              Horſe-Raddiſh Root two <lb/>Pounds; of Arum Root freſh, ſix Ounces; of <lb/><hi
+                rend="italic">Winter</hi>'s Bark and Nutmegs, each four Ounces; of <lb/>Lemon Peels
+              dryed two Ounces; of <hi rend="italic">French</hi> Brandy <lb/>4 Pints; and draw off
+              by Diſtillation eight Pints. </p>
+            <p rend="indent space">
+              <lb/>
+              <q rend="diple">This hath rejected the Bryony Root, which <lb/>is ordered in a large
+                Quantity in the old Diſpen- <lb/>ſatory, but nauſeates the Flavour of the Water,
+                <lb/>and gives no Virtues ſuitable to the main Inten- <lb/>tion of the whole. The
+                Arum Root is likewiſe <lb/>herein inceaſed in this Quantity, it being ordered
+                <lb/>in the former but half an Ounce, whereby the <lb/>Medicine is rendered yet more
+                pungent, and <lb/>more efficacious as an Antiſcorbutic, or a Ne- <lb/>phritic, both
+                which Purpoſes it is calculated for. </q>
+            </p>
+          </div>
+          <div>
+            <head rend="align-center space">
+              <lb/><hi rend="sc">Aqua Pæoniæ</hi> Compoſita. </head>
+            <head rend="align-center italic">
+              <lb/>Compound Piony Water. </head>
+            <p rend="indent">
+              <lb/>Take Lillies of the Vally Flowers freſh gathered <lb/>one Pound, and infuſe them
+              in two Gallons and an <lb/>half of <hi rend="italic">French</hi> Brandy; and to the
+              ſame put of Lime <lb/>Flowers half a Pound; of Piony four Ounces; <lb/>of the Male
+              Piony Root two Ounces and an half; <lb/>white Dittany, and long Birthwort, of each
+              half <lb/>an Ounce; of Miſletoe of the Oak, and Rue, each <pb n="8"/>
+              <lb/>two Handsful; of Piony Seeds husked ten Drams; <lb/>and of the Seeds of Rue three
+              Drams and an half; <lb/>of <hi rend="italic">Ruſſia</hi> Caſtor, Cubebs and Mace, each
+              two <lb/>Drams; of Cinnamon an Ounce and an half; of <lb/>Roſemary Flowers ſix Pugils;
+              of Stœchas and <lb/>Lavender Flowers, each four Pugils; of Betony, <lb/>Clove, and
+              Cowſlip Flowers, each eight Pugils; <lb/>of the Juice of Black Cherries four Pints,
+              and from <lb/>the whole draw off by Diſtillation four Gallons. </p>
+            <p rend="indent space">
+              <lb/>
+              <q rend="diple">This hath left out ſome of the inſignificant <lb/>Ingredients that
+                were in before, and particular- <lb/><choice>
+                  <corr>ly </corr>
+                  <sic/>
+                </choice>the Squills; and avoided alſo the Trouble of a <lb/>double Diſtillation,
+                which was altogether need- <lb/>leſs. This is the ſame as was originally inſerted
+                <lb/>by the College in their firſt Diſpenſatory, under <lb/>the Title of <hi
+                  rend="italic">Aqua Antipileptica Langii</hi>. </q>
+            </p>
+          </div>
+          <div>
+            <head rend="align-center space sc">
+              <lb/>Aqua Epidemica. </head>
+            <head rend="align-center italic">
+              <lb/>Plague Water. </head>
+            <p rend="indent">
+              <lb/>Take of the Leaves of Celandine, Roſemary, Rue, <lb/>Sage, Roman Wormwood,
+              Dragon, Agrimony, <lb/>Baum, Scordium, the leſſer Centaury, Carduus, <lb/>Betony and
+              Mint, each two Handsful; of the <lb/>dried Angelica Root, Zedoary, and Gentian, each
+              <lb/>one Ounce; of the <hi rend="italic">Virginia</hi> Snake-Root half an <lb/>Ounce.
+              Let them be infuſed in one Gallon of <lb/><hi rend="italic">French</hi> Brandy, and
+              draw off ten Pints by Diſtil- <lb/>lation. </p>
+            <p rend="indent space">
+              <lb/>
+              <q rend="diple">This very much differs from the old Diſpen- <lb/>ſatory, and beſides
+                the Addition of many new <lb/>Herbs, leaves out the Maſterwort, Piony, and
+                <lb/>Butter-Bur Roots; inſomuch that the Intention <lb/>of the Medicine ſeems
+                changed from an Alexi- <lb/>pharmic into a Cardiac. It is taken from <hi
+                  rend="italic">Ship- <lb/>ton'</hi>s Additions to the former Diſpenſatory. </q>
+            </p>
+          </div>
+          <pb n="9"/>
+          <div>
+            <head rend="align-center space">
+              <lb/><hi rend="sc">Aqua Gentiana</hi> Compoſita. </head>
+            <head rend="align-center italic">
+              <lb/>Compound Gentian Water. </head>
+            <p rend="indent">
+              <lb/>Take Gentian ſliced one Pound and an half; of <lb/>the Leaves and Flowers of the
+              Leſſer Centaury, <lb/>each four Ounces: Infuſe them in ſix Pints of <lb/><hi
+                rend="italic">French</hi> Brandy, and diſtil eight Pints. </p>
+            <p rend="indent space">
+              <lb/>
+              <q rend="diple">This differs not at all from the former, but <lb/>in the change of
+                White Wine for <hi rend="italic">French</hi> Bran- <lb/>dy. The Extract may moſt
+                conveniently be <lb/>made from the Reſiduum after Diſtillation. </q>
+            </p>
+          </div>
+          <div>
+            <head rend="align-center space sc">
+              <lb/>Aqua Theriacalis. </head>
+            <head rend="align-center italic">
+              <lb/>Treacle Water. </head>
+            <p rend="indent">
+              <lb/>Take of the Juice of green Walnuts four Pints; <lb/>of Juice of Rue three Pints;
+              of Carduus and <lb/>Baum, each two Pints; of the freſh gathered <lb/>Butter-Bur Roots
+              one Pound and an half; of Bur- <lb/>dock one pound; of Angelica and Maſter-wort,
+              <lb/>each half a Pound; of green Scordium four Hands- <lb/>ful; of old <hi
+                rend="italic">Venice</hi> Treacle and Mithridate, each <lb/>eight Ounces; of Lemon
+              Juice two Pints; of <lb/><hi rend="italic">French</hi> Brandy one Gallon an an half.
+              Draw off <lb/>by Diſtillation three Gallons and an half, and then <lb/>add four Pints
+              of diſtilled Vinegar. </p>
+            <p rend="indent space">
+              <lb/>
+              <q rend="diple">This omits the needleſs and ridiculous circum- <lb/>ſtance in the
+                former, of depurating the Lemon <lb/>Juice before Diſtillation, and very prudently
+                <lb/>adds the diſtilled Vinegar afterwards, inſtead of <lb/>putting it into the
+                Still; becauſe with ſuch Ma- <lb/>nagement it effectually anſwers all its
+                Intentions, <lb/>and riſques leſs hazard of carrying along with <lb/>the Medicine
+                any Part of the Metal, with which <lb/>the Alembick is made, as all Acids are apt to
+                do. <pb n="10"/>
+                <lb/>This ſtands in the old Diſpenſatories under the <lb/>Title of <hi rend="italic"
+                  >Aqua Theriacalis Stillititia</hi>, to diſtin- <lb/>guiſh it from the <hi
+                  rend="italic">Aqua Theriacalis per Infuſio- <lb/>nem</hi> ordered in the <hi
+                  rend="italic">Leyden</hi> and ſome other Diſ- <lb/>penſatories. </q>
+            </p>
+          </div>
+          <div>
+            <head rend="align-center space">
+              <lb/><hi rend="sc">Aqua Bryoniæ</hi> Compoſita. </head>
+            <head rend="align-center italic">
+              <lb/>Compound Bryony Water. </head>
+            <p rend="indent">
+              <lb/>Take of the Juice of Bryony Roots four Pints; <lb/>of the Juice of Rue and
+              Mugwort, each two Pints; <lb/>of the Leaves of Savine three Handsful, Mother-
+              <lb/>wort, Catmint and Peneroyal, each two Handsful; <lb/>of Baſil and Dittany, each
+              one Handful and an half; <lb/>of freſh outer Peel of Oranges four Ounces; of
+              <lb/>Myrrh two Ounces; of <hi rend="italic">Ruſſia</hi> Caſtor one Ounce; <lb/>Spirit
+              of Wine eight Pints, and draw off twelve <lb/>Pints by Diſtillation. </p>
+            <p rend="indent space">
+              <lb/>
+              <q rend="diple">There is no Alteration made in this, except in <lb/>ordering a <hi
+                  rend="italic">French</hi> Spirit for Canary; it being <lb/>by all received for a
+                well contrived Compoſi- <lb/>tion for the Intention of an Hyſteric. </q>
+            </p>
+          </div>
+          <div>
+            <head rend="align-center space sc">
+              <lb/>Aqua Imperialis. </head>
+            <head rend="align-center italic">
+              <lb/>Imperial Water. </head>
+            <p rend="indent">
+              <lb/>Take of dried Citron-Peels, and Orange-peels, <lb/>of Nutmeds, Cloves and
+              Cinnamon, each two <lb/>Ounces; Roots of Cypreſs, <hi rend="italic">Florentine</hi>
+              Orrice, and <lb/>Calumus Aromaticus, each one Ounce; of Zedoa- <lb/>ry, Galangal and
+              Ginger each half an Ounce; of <lb/>the Tops of Lavender, and Roſemary each two
+              <lb/>Handsful; of the Leaves of Bays, Marjoram, <lb/>Baum, Mint, Sage, and Thyme each
+              one Handful; <lb/>of the Flowers of the white and red Roſes each half <lb/>an Handful;
+              Damask-Roſe Water four Pints; of <lb/><hi rend="italic">French</hi> Brandy one Gallon,
+              and draw off ten Pints <lb/>by Diſtillation. </p>
+            <pb n="11"/>
+            <p rend="indent space">
+              <lb/>
+              <q rend="diple">This remains as in the former, only with the <lb/>common Alteration of
+                Spirit for Wine; and the <lb/>whole concurs to make a very grateful Cordial <lb/>and
+                Cephalic. </q>
+            </p>
+          </div>
+          <div>
+            <head rend="align-center space sc">
+              <lb/>Aqua Mirabilis. </head>
+            <head rend="align-center italic">
+              <lb/>The wonderful Water. </head>
+            <p rend="indent">
+              <lb/>Take of Cloves, Galangals, Cubebs, Mace, <lb/>the leſſer Cardamoms, Nutmegs, and
+              Ginger, each <lb/>one Dram; Juice of the greater Celandine half a <lb/>Pint; <hi
+                rend="italic">French</hi> Brandy two Pints and an half, and <lb/>draw off the ſame
+              Quantity by Diſtillation. </p>
+            <p rend="indent space">
+              <lb/>
+              <q rend="diple">This remains as before, unleſs with the com- <lb/>mon Alteration of
+                Spirit for Wine; and will <lb/>want either Precipitation, or Filtration to ſepa-
+                <lb/>rate the oily Parts, which make it milky, and <lb/>diſagreeable to the Eye.
+              </q>
+            </p>
+          </div>
+          <div>
+            <head rend="align-center space sc">
+              <lb/>Aqua Doctoris Stephani. </head>
+            <head rend="align-center italic">
+              <lb/>Dr. <hi rend="roman">Stephens</hi>'s Water. </head>
+            <p rend="indent">
+              <lb/>Take of Cinnamon, Ginger, Galangal, Cloves, <lb/>Nutmegs, Grains of Paradiſe, of
+              the Seeds of <lb/>Aniſe, ſweet Fenil, and Caraway, each one Dram; <lb/>of the Leaves
+              of Thyme, Mother of Thyme, <lb/>Mint, Sage, Peneroyal, Roſemary, Flowers of <lb/>red
+              Roſes, Chamomile, Origanum and Lavender, <lb/>each one Handful; of <hi rend="italic"
+                >French</hi> Brandy ſix Pints, and <lb/>draw off one Gallon by Diſtillation. </p>
+            <p rend="indent space">
+              <lb/>
+              <q rend="diple">This likewiſe agrees with the former Preſcrip- <lb/>tion in the old
+                Diſpenſatory, unleſs in the Ex- <lb/>change of Spirit for Wine, and all the Ingre-
+                <lb/>dients well ſuit the main Intention of a Cepha- <lb/>lic, a Cordial, or a
+                Carminative. </q>
+            </p>
+          </div>
+          <pb n="12"/>
+          <div>
+            <head rend="align-center space sc">
+              <lb/>Aqua Protheriacalis. </head>
+            <head rend="align-center italic">
+              <lb/>A Succedaneum for Treacle Water. </head>
+            <p rend="indent">
+              <lb/>Take of the Leaves of Scordioum, Scabius, Car- <lb/>duus, and Goats-Rue, each two
+              Handsful; of Ci- <lb/>tron-Peel, and Orange-Peel dried, each half an <lb/>Ounce; Seeds
+              of Citrons, Hart-Wort, and Treacle- <lb/>Muſtard, each one Ounce; of the Flowers of
+              <lb/>Marrigolds and Roſemary each one Handful; Cin- <lb/>namon two Drams; of <hi
+                rend="italic">French</hi> Brandy two Pints; <lb/>and diſtil off ſix Pints. </p>
+            <p rend="indent space">
+              <lb/>
+              <q rend="diple">The Carduus Seeds, and the Carduus Wa- <lb/>ter are in this omitted as
+                inſignificant, the reſt <lb/>continuing much as before, and is deſigned to <lb/>uſe
+                as the Treacle Water, when that proves de- <lb/>ficient in Seaſons not fit to make
+                it. </q>
+            </p>
+          </div>
+          <div>
+            <head rend="align-center space">
+              <lb/><hi rend="sc">Aqua Limacum</hi> Tenuis. </head>
+            <head rend="align-center  italic">
+              <lb/>A ſmall Snail Water. </head>
+            <p rend="indent">
+              <lb/>Take of the Leaves of Baum, Mint, Harts- <lb/>Tongue, and Ground-Ivy, of the
+              Flowers of Arch- <lb/>angel, Mallows, and Elder, each one Handful; of <lb/>Snails
+              waſhed, and the white of Eggs each four <lb/>Ounces; of Nutmegs half an Ounce; and of
+              Cows <lb/>Milk one Gallon; diſtil according to Art, either <lb/>in <hi rend="italic"
+                >B. M.</hi> or a Sand-Heat. </p>
+            <p rend="indent">
+              <lb/>If this be drawn with ſix Pints of Cows Milk, <lb/>and two Pints of Canary, it is
+              titled the ſtronger <lb/>Snail Water. </p>
+            <p rend="indent space">
+              <lb/>
+              <q rend="diple">This very much differs from any before or- <lb/>dered in the old
+                Diſpenſatory; all the Ingre- <lb/>diants are eaſily produced, when the Snails are
+                <lb/>in Seaſon; and the Water may be made either <lb/>way, without much Trouble,
+                Care being taken <lb/>to prevent an <hi rend="italic">Empyreuma</hi>. </q>
+            </p>
+          </div>
+          <pb n="13"/>
+          <div>
+            <head rend="align-center space sc">
+              <lb/>Aqua Lactis Alexiteria. </head>
+            <head rend="align-center italic">
+              <lb/>Alexiterial Milk Water. </head>
+            <p rend="indent">
+              <lb/>Take of the Leaves of Meadow-Sweet, Car- <lb/>duus B. and Goats-Rue each ſix
+              Handsful; of <lb/>Mint and Wormwood each five Handsful; of Rue <lb/>three Handsful; of
+              Angelica two Handsful. Pour <lb/>three Gallons of new Milk upon the Ingredients
+              <lb/>when bruiſed; and diſtil in <hi rend="italic">B. M.</hi> or a Sand- <lb/>Heat. </p>
+            <p rend="indent space">
+              <lb/>
+              <q rend="diple">The Ingredients in this are the ſame as in the <lb/>former, but the
+                Quantities ſomewhat altered. </q>
+            </p>
+          </div>
+          <div>
+            <head rend="align-center space">
+              <lb/><hi rend="sc">Aqua Cinnamomi</hi> Tenuis. </head>
+            <head rend="align-center italic">
+              <lb/>Small Cinnamon Water. </head>
+            <p rend="indent">
+              <lb/>Take eight Pints of Spring Water, and twelve <lb/>Ounces of Cinnamon bruiſed:
+              infuſe, and draw <lb/>off with an Alembick. </p>
+          </div>
+          <div>
+            <head rend="align-center space">
+              <lb/><hi rend="sc">Aqua Cinnamomi</hi> Fortis. </head>
+            <head rend="align-center italic">
+              <lb/>Strong Cinnamon Water. </head>
+            <p rend="indent">
+              <lb/>Take one Pound of Cinnamon groſly powdered, <lb/>and one Gallon of <hi
+                rend="italic">French</hi> Brandy: draw off by <lb/>Diſtillation ten Pints. </p>
+            <p rend="indent space">
+              <lb/>
+              <q rend="diple">The former of theſe is not in the old Diſpen- <lb/>ſatory, but
+                ſomewhat like it ordered in that of <lb/><hi rend="italic">Bates</hi>: and the
+                latter is before under the Title of <lb/>Spirit of Cinnamon. </q>
+            </p>
+          </div>
+          <div>
+            <head rend="align-center space sc">
+              <lb/>Aqua Nephritica. </head>
+            <head rend="align-center italic">
+              <lb/>Water againſt the Stone. </head>
+            <p rend="indent">
+              <lb/>Take of the beſt Flowers of White-Thorn four <lb/>Pounds; of Nutmegs bruiſed
+              three Ounces: infuſe <pb n="14"/>
+              <lb/>them together in a cloſe Veſſel, with two Gallons <lb/>of generous White-Wine,
+              and draw off by Diſtilla- <lb/>tion twelve Pints. </p>
+            <p rend="indent space">
+              <lb/>
+              <q rend="diple">This was much preſcribed by the late Dr. <hi rend="italic">Rad-
+                  <lb/>cliffe</hi>, but not in the former Diſpenſatory. </q>
+            </p>
+          </div>
+          <div>
+            <head rend="align-center space">
+              <lb/><hi rend="sc">Aqua Fl. Chamæmeli</hi> Compoſita. </head>
+            <head rend="align-center italic">
+              <lb/>Compound Chamomile-Flower Water. </head>
+            <p rend="indent">
+              <lb/>Take of dried Chamomile-Flowers one Pound; <lb/>of the outer Peel of Oranges two
+              Ounces; of the <lb/>Leaves of common Wormwood, and Peneroyal <lb/>each two Handsful;
+              of the Seeds of Aniſe, Cum- <lb/>min, and ſweet Fenil, of the Berries of Bay, and
+              <lb/>Juniper each one Ounce; infuſe them in one Gal- <lb/>lon of <hi rend="italic"
+                >French</hi> Brandy, and draw off double that <lb/>Quantity by Diſtillation. </p>
+            <p rend="indent">
+              <lb/>
+              <q rend="diple">This is not ſo troubleſome by much as the <lb/>former Water
+                under the ſame Title in the old <lb/>Diſpenſatory; and the Ingredients are much
+                <lb/>more juſtly ſuited to the Intention of a Carmi- <lb/>native, for which it is
+                chiefly deſigned. </q>
+            </p>
+            <p rend="indent">
+              <lb/>
+              <q rend="diple">Under this Diviſion of Waters; are left out <lb/>of what were
+                in the former Diſpenſatory, the <lb/><hi rend="italic">Aqua Bezoartica</hi>, <hi
+                  rend="italic">Cœleſtis</hi>, <hi rend="italic">Hungarica</hi>, <hi rend="italic"
+                  >Lumbri- <lb/>corum Magiſtralis</hi>, <hi rend="italic">Mariæ</hi>, <hi
+                  rend="italic">Papaveris Compoſita</hi>, <lb/><hi rend="italic">Scordii
+                  Compoſita</hi>, and <hi rend="italic">Terebinthina</hi>; and herein <lb/>is added
+                the <hi rend="italic">Aqua Nephritica</hi>, and <hi rend="italic">Cinnamomi</hi>;
+                <lb/>ſome alſo ſtand here under the Title of Waters <lb/>which before were in the
+                Diviſion of Spirits, as <lb/>the <hi rend="italic">Spiritus Abſinthii magis
+                  Compoſitus</hi>, and the <lb/><hi rend="italic">Spiritus Angelicæ Comp. Spiritus
+                  cinnamomi</hi>, <hi rend="italic">&amp;c</hi>. <lb/>Some Compoſitions alſo under
+                the Title of Spirits <lb/>before, are here wholly rejected, as the <hi rend="italic"
+                  >Spiritus <lb/>Aurantiorum</hi>, <hi rend="italic">&amp;c</hi>. </q>
+            </p>
+            <pb n="15"/>
+            <p rend="indent">
+              <lb/>
+              <q rend="diple">And one general Amendment is made in all <lb/>diſtilled
+                Compound Waters, in ordering <hi rend="italic">French</hi>
+                <lb/>Brandy inſtead of Wine, unleſs in two or three, <lb/>where the Reaſon for not
+                doing it is very ob- <lb/>vious. For when the Wine comes to be drawn <lb/>over in a
+                Quantity only that leaves it equivalent <lb/>to the Strength of a Standard-Spirit,
+                it is the <lb/>ſame as if a ſuitable Quantity of Spirit had been <lb/>put into the
+                Still in its Room; but where the <lb/>Compoſition is deſigned for any Intention that
+                <lb/>requires it to be ſmall and ſoft, Wine, eſpecially <lb/>Canary, may better be
+                accommodated thereunto. <lb/>In ſhort, through the whole of this Claſs the Con-
+                <lb/>veniency, Elegance, and Efficacy of each Com- <lb/>poſition are much better
+                ſtudied than in the old <lb/>Diſpenſatory, and many uſeleſs Medicines whol- <lb/>ly
+                rejected. </q>
+            </p>
+          </div>
+        </div>
+        <figure>
+          <figDesc>A floral ornament in the middle of the page. </figDesc>
+        </figure>
+        <pb n="16"/>
+        <figure>
+          <figDesc>A horizontal line, spanning the whole page. </figDesc>
+        </figure>
+        <div type="subsection">
+          <head rend="align-center">
+            <lb/>AQUÆ MEDICAMENTOSÆ. </head>
+          <head rend="align-center italic">
+            <lb/>Medicated Waters for External Uſes. </head>
+          <div>
+            <head rend="align-center space sc">
+              <lb/>Aqua calcis. </head>
+            <head rend="align-center italic">
+              <lb/>Lime Water. </head>
+            <p rend="indent">
+              <lb/>Take one Pound of Quicklime, and pour upon <lb/>it twelve Pints of boiling Water:
+              After the Ebul- <lb/>lition ceaſes, and the Lime is ſettled to the bot- <lb/>tom, pour
+              off the clear for Uſe. </p>
+            <p rend="indent">
+              <lb/>
+              <q rend="diple">This is kept in readineſs for various Uſes, both <lb/>internal and
+                external. </q>
+            </p>
+          </div>
+          <div>
+            <head rend="align-center space">
+              <lb/><hi rend="sc">Aqua Styptica</hi> Camphorata. </head>
+            <head rend="align-center italic">
+              <lb/>Camphorated Styptick Water. </head>
+            <p rend="indent">
+              <lb/>Take of Camphorated Vitriol one Ounce; ſteep <lb/>it in three Pints of Spring
+              Water, and let it ſtand <lb/>till the Fæces are fallen to the bottom. </p>
+          </div>
+          <div>
+            <head rend="align-center space sc">
+              <lb/>Aqua Sapphirina. </head>
+            <head rend="align-center italic">
+              <lb/><hi rend="roman">Sapphire</hi> coloured Water. </head>
+            <p rend="indent">
+              <lb/>Take one Pint of Lime Water, of Sal Armo- <lb/>niac one Dram and an half: Let
+              them be diſſol- <lb/>ved together, and then ſtand in a Braſs Baſon till <lb/>the
+              Liquor becomes tinged of a <hi rend="italic">Sapphire</hi> Colour. </p>
+          </div>
+          <div>
+            <head rend="align-center space sc">
+              <lb/>Aqua Aluminosa. </head>
+            <head rend="align-center italic">
+              <lb/>Alum Water. </head>
+            <p rend="indent">
+              <lb/>Take of Red-roſe and Plantain water, each one <lb/>Pint; of White Sublimate and
+              Rock-Alum, each <lb/>two drams: Let the Alum and Sublimate be <lb/>rubbed together,
+              and be both boiled with the Wa- <lb/>ters, in a Glaſs Veſſel having a narrow Neck, to
+                <pb n="17"/>
+              <lb/>the Conſumption of half the Quantity; and after <lb/>Five Days, when the Fæces
+              are ſettled, pour off <lb/>the clear for uſe. </p>
+            <p rend="indent space">
+              <lb/>
+              <q rend="diple">Theſe are chiefly for External Uſes, and moſt <lb/>commonly come under
+                the Direction of a Sur- <lb/>geon, in Ulcers and Cutaneous Eruptions. The <lb/>Steam
+                of Alum-water when boiling, is care- <lb/>fully to be avoided by the Operator,
+                becauſe it <lb/>may have bad Effects from its poiſonous Qua- <lb/>lities. It have
+                firſt preſcribed by <hi rend="italic">Fallopius</hi>, <lb/><hi rend="italic">Chap.
+                  93. De Morbo Gallico</hi>. </q>
+            </p>
+          </div>
+        </div>
+        <figure>
+          <figDesc>An ornamental picture of Cupid in the middle of the page. </figDesc>
+        </figure>
+        <pb n="18"/>
+        <figure>
+          <figDesc>A horizontal line, spanning the whole page. </figDesc>
+        </figure>
+        <div type="subsection">
+          <head rend="align-center size(1.5)">
+            <lb/>TINCTURÆ. </head>
+          <head rend="align-center italic">
+            <lb/>Tinctures. </head>
+          <div>
+            <head rend="align-center space sc">
+              <lb/>Tinctura croci. </head>
+            <head rend="align-center italic">
+              <lb/>Tincture of Saffron. </head>
+            <p rend="indent">
+              <lb/>Take half an Ounce of the beſt Saffron, digeſt <lb/>it ſix Days in eight Ounces
+              of Treacle Wa- <lb/>ter, and ſtrain it for uſe. </p>
+            <p rend="indent">
+              <lb/>It alſo otherwiſe made with <hi rend="italic">Canary</hi> and <hi rend="italic"
+                >French</hi>
+              <lb/>Brandy. </p>
+            <p rend="indent space">
+              <lb/>
+              <q rend="diple">In the two latter Menſtruums the Saffron pre- <lb/>ſerves its Tincture
+                beſt, becauſe any thing acid <lb/>ſoon fades it, although here it is ordered in dou-
+                <lb/>ble the Quantity to what was in the former <lb/>Diſpenſatory. </q>
+            </p>
+          </div>
+          <div>
+            <head rend="align-center space sc">
+              <lb/>Tinctura Castorei. </head>
+            <head rend="align-center italic">
+              <lb/>Tincture of Caſtor. </head>
+            <p rend="indent">
+              <lb/>Take of <hi rend="italic">Ruſſia</hi> Caſtor powered half an Ounce, <lb/>and let
+              it ſtand in cold Digeſtion, in half a Pint <lb/>of the Spirit of <hi rend="italic"
+                >Ruſſia</hi> Caſtor, for ten Days; and <lb/>then ſtrain it for uſe. </p>
+            <p rend="indent space">
+              <lb/>
+              <q rend="diple">The Proportions here are exactly as in the <lb/>former, though in half
+                their Quantities only, <lb/>of what they were before ordered. </q>
+            </p>
+          </div>
+          <div>
+            <head rend="align-center space">
+              <lb/><hi rend="sc">Tinctura Papaveris</hi> Compoſita. </head>
+            <head rend="align-center italic">
+              <lb/>Compound Tincture of Poppies. </head>
+            <p rend="indent">
+              <lb/>Take of the wild Poppy-Flowers one Pound, <lb/>of Nutmegs ſliced three Drams, of
+              white Sugar <pb n="19"/>
+              <lb/>two Ounces, of <hi rend="italic">French</hi> Brandy four Pounds. Draw <lb/>out
+              the Tincture by a gentle Heat. </p>
+            <p rend="indent space">
+              <lb/>
+              <q rend="diple">This was before ordered to be diſtilled, but <lb/>remains in the
+                Tincture with much greater Effi- <lb/>cacy, is as grateful to the Palate as when in
+                a <lb/>Water, and more beautiful to the Eye. </q>
+            </p>
+          </div>
+          <div>
+            <head rend="align-center space sc">
+              <lb/>Tinctura Theriacalis. </head>
+            <head rend="align-center italic">
+              <lb/>The Alexipharmick Tincture. </head>
+            <p rend="indent">
+              <lb/>Take of <hi rend="italic">French</hi> Brandy, and the beſt Vinegar, <lb/>each two
+              Pounds, of <hi rend="italic">Venice</hi> Treacle and Mithri- <lb/>date, each half a
+              Pound; digeſt them in a gentle <lb/>Heat, and ſtrain out the Tincture for uſe. </p>
+            <p rend="indent space">
+              <lb/>
+              <q rend="diple">This was not received by the College until <lb/>the Publication of the
+                laſt Diſpenſatory before <lb/>the preſent; and it is here altered from that, on-
+                <lb/>ly in ſubſtituting a <hi rend="italic">French</hi> Spirit inſtead of the
+                <lb/>Wine, wherein Rue-Seeds had been diſtilled; <lb/>which was a Trouble without
+                any Proportionable <lb/>Advantage. </q>
+            </p>
+            <div>
+            <head rend="align-center space sc">
+              <lb/>Tinctura Viridis. </head>
+            <head rend="align-center italic">
+              <lb/>The Green Tincture. </head>
+            <p rend="indent">
+              <lb/>Take of Verdigreaſe half an Ounce, of yellow <lb/>Arſenick ſix Drams, of Alum
+              three Drams. Boil <lb/>them together in one Pint of white Wine to the <lb/>Conſumption
+              of half the Quantity; and, after it <lb/>is cold, add to it of Roſe and
+              Plantain-Water, <lb/>each ſix Ounces. </p>
+            <p rend="indent space">
+              <lb/>
+              <q rend="diple">This likewiſe hath not been received by the <lb/>College, until the
+                Diſpenſatory before the pre- <lb/>ſent, and in that Nightſhade Water was ordered,
+                <lb/>where Plantain is here ſubſtituted, becauſe that <pb n="20"/>
+                <lb/>is not now directed to be made amongſt the <lb/>ſimple Waters. </q>
+            </p></div>
+          </div>
+          <div>
+            <head rend="align-center space sc">
+              <lb/>Tinctura Cantharidum. </head>
+            <head rend="align-center italic">
+              <lb/>Tincture of Cantharides. </head>
+            <p rend="indent">
+              <lb/>Take of Rhubarb three Drams, of Gum-Guai- <lb/>cum one Dram and an half; of
+              Gum-Lac one <lb/>Dram, of Cantharides bruiſed two Drams, of Co- <lb/>chineel half a
+              Dram; infuſe in a Pint and half of <lb/>rectified Spirit of Wine; and ſtrain for uſe. </p>
+            <p rend="indent">
+              <lb/>
+              <q rend="diple">This was never before in the College Diſ- <lb/>penſatory; and has the
+                Reputation of a very <lb/>great Phyſician now living for its firſt Contri- <lb/>ver.
+                The Digeſtion may be forwarded by a <lb/>ſlow Heat in a cloſe Veſſel, though it is
+                not par- <lb/>ticularly ſo ordered. </q>
+            </p>
+          </div>
+          <div>
+            <head rend="align-center space sc">
+              <lb/>Tinctura Myrrhæ. </head>
+            <head rend="align-center italic">
+              <lb/>Tincture of Myrrh. </head>
+            <p rend="indent">
+              <lb/>Take of Myrrh half an Ounce, of Salt of Tar- <lb/>tar two Drams; mix them well
+              together, and put <lb/>them into a moiſt Place for a Week; then add to <lb/>them eight
+              Ounces of rectified Spirit, and draw <lb/>out the Tincture by a gentle Heat. </p>
+            <p rend="indent space">
+              <lb/>
+              <q rend="diple">This was not before ordered but by <hi rend="italic">Bates</hi>.
+                <lb/>The Salt of Tartar is directed to lie with the <lb/>Myrrh in a moiſt Place,
+                becauſe the Air <lb/>diſſolves it ſo into the Body of the Gum, that <lb/>when it
+                comes into the Spirit it much ſooner <lb/>gives its Tincture than it otherwiſe would
+                do. </q>
+            </p>
+          </div>
+          <div>
+            <head rend="align-center space">
+              <lb/><hi rend="sc">Tinctura Myrrhæ</hi> Compoſita. </head>
+            <head rend="align-center italic">
+              <lb/>Compound Tincture of Myrrh. </head>
+            <p rend="indent">
+              <lb/>Take of the beſt Aloes, and Myrrh, each one <lb/>Ounce, of <hi rend="italic"
+                >French</hi> Brandy one Pint, digeſt and <lb/>ſtrain for uſe. </p>
+            <pb n="21"/>
+            <p rend="indent">
+              <lb/>
+              <q rend="diple">This is exactly as in the former. </q>
+            </p>
+          </div>
+          <div>
+            <head rend="align-center space sc">
+              <lb/>Tinctura Sulphuris. </head>
+            <head rend="align-center italic">
+              <lb/>Tinctura of Sulphur. </head>
+            <p rend="indent">
+              <lb/>Take of the Liver of Sulphur two Ounces; of <lb/><hi rend="italic">French</hi>
+              Brandy one Pint; digeſt and ſtrain the <lb/>Tincture. This may alſo be drawn with
+              Spirit <lb/>from the Terebinthinated Balſam of Sulphur, boiled <lb/>to a Dryneſs in a
+              Bath-Heat. </p>
+            <p rend="indent space">
+              <lb/>
+              <q rend="diple">This was not in any former Diſpenſatory of <lb/>the College, and is
+                ordered for its greater Con- <lb/>veniency of taking , than the Balſams of Sul-
+                <lb/>phur, becauſe they will not ſo readily mix <lb/>with any ſmall Vehicles. It is
+                indeed amongſt <lb/><hi rend="italic">Shipton</hi>'s <hi rend="italic"
+                  >Additamenta</hi>, with ſome ſmall Varia- <lb/>tions of no great Moment; for there
+                is ordered <lb/>Salt of Tartar, which ſeems needleſs, becauſe <lb/>there is a
+                Sufficiency of that already in the Liver <lb/>of Sulphur to diſpoſe it to a ready
+                Solution in the <lb/><hi rend="italic">Menſtruum</hi>. </q>
+            </p>
+          </div>
+          <div>
+            <head rend="align-center space sc">
+              <lb/>Laudanum Liquidum Sydenhami. </head>
+            <head rend="align-center italic">
+              <lb/><hi rend="roman">Sydenham</hi>'s Liquid Laudanum. </head>
+            <p rend="indent">
+              <lb/>Take of Opium two Ounces; of Saffron one <lb/>Ounce; of Cinnamon and Cloves, each
+              one <lb/>Dram; of Canary ſixteen Ounces: Digeſt theſe <lb/>together in a Bath Heat for
+              three Days; and when <lb/>the Fæces are ſettled, pour it off for uſe. </p>
+            <p rend="indent space">
+              <lb/>
+              <q rend="diple">This was not before receive into the Col- <lb/>lege Diſpenſatory, its
+                Invention being ſince the <lb/>Publication of the laſt; but it hath commonly
+                <lb/>been ordered in Practice. </q>
+            </p>
+          </div>
+          <gap reason="missing pages" unit="pages" quantity="2"/>
+          <pb n="24"/>
+          <div>
+            <head rend="align-center space sc">
+              <lb/>Elixir Salutis. </head>
+            <head rend="align-center italic">
+              <lb/>Elixir of Health. </head>
+            <p rend="indent">
+              <lb/>Take of Sena Leaves cleared of their Stalks four <lb/>Ounces; of Guajacum Chips,
+              of dry'd Elicampane <lb/>Root, of the Seed of Aniſe, Caraway, Coriander, <lb/>and of
+              Liquorice Root, each two Ounces; of Rai- <lb/>ſons ſtoned eight Ounces; of <hi
+                rend="italic">French</hi> Brandy ſix <lb/>Pints. Steep them together cold for four
+              Days, <lb/>and then ſtrain out the Spirit for uſe. </p>
+            <p rend="indent space">
+              <lb/>
+              <q rend="diple">This is in <hi rend="italic">Shipton</hi>'s <hi rend="italic"
+                  >Additamenta</hi>, where he <lb/>ſays, that ſome likewiſe add Salt of Tatar,
+                <lb/>Rhubarb, Scammony, Jallap, <hi rend="italic">&amp;c.</hi> in order to <lb/>make
+                it operate more briskly; for, as here di- <lb/>rected, the purgative Ingredient,
+                which is the <lb/>Sena only, bears ſo ſmall a proportion to the <lb/>Quantity of
+                Spirit, in a Doſe ſufficient for a <lb/>Purge, that it is too ſtrong for moſt
+                Perſons <lb/>who have not been accuſtomed to ſpirituous Li- <lb/>quors. It therefore
+                is now to be deemed rather <lb/>a Carminative than a Cathartic; and in ſome
+                <lb/>Cholic Pains it gives great Relief as ſuch. </q>
+            </p>
+          </div>
+          <div>
+            <head rend="align-center space sc">
+              <lb/>Tinctura Rhabarbari. </head>
+            <head rend="align-center italic">
+              <lb/>Tincture of Rhubarb. </head>
+            <p rend="indent">
+              <lb/>Take of Rhubarb one Ounce and an half; of <lb/>the leſſer Cardamom Seeds, and
+              Saffron, each two <lb/>Drams; of Liquorice Root half an Ounce; of <lb/><hi
+                rend="italic">French</hi> Brandy one Pint, and make into a Tinc- <lb/>ture. </p>
+            <p rend="indent space">
+              <lb/>
+              <q rend="diple">This is ordered by <hi rend="italic">Bates</hi>, with ſome Variati-
+                <lb/>ons, but not before now received by the Col- <lb/>lege, tho' they have
+                conſiderably amended it, <lb/>and particularly in throwing out the Sugar- <pb n="25"/>
+                <lb/>Candy and ſtoned Raiſons, which have nothing <lb/>to do with the main Intention
+                of the Medi- <lb/>cine. </q>
+            </p>
+          </div>
+          <div>
+            <head rend="align-center space sc">
+              <lb/>Tinctura Hellebori. </head>
+            <head rend="align-center italic">
+              <lb/>Tincture of Hellebore. </head>
+            <p rend="indent">
+              <lb/>Take of black Hellebore Root two Ounces; of <lb/>Salt of Tartar one Dram; of
+              Cochineel one Scu- <lb/>ple; of <hi rend="italic">French</hi> Brandy one Pint: Draw
+              out the <lb/>Tincture by a warm Heat. </p>
+            <p rend="indent space">
+              <lb/>
+              <q rend="diple">This is a much more ſimple Medicine than <lb/>the <hi rend="italic"
+                  >Tinctura Melampodii</hi> in <hi rend="italic">Bates</hi>, and is much <lb/>more
+                efficacious, there being nothing to be de- <lb/>pended upon but the Hellebore. The
+                Salt of <lb/>Tartar is added, as in many other Tinctures, to <lb/>open the Root, and
+                make it give a Tincture the <lb/>more freely; for lixivial Salts greatly break and
+                <lb/>divide all adheſive, viſcid, and reſinous Sub- <lb/>ſtances. </q>
+            </p>
+          </div>
+          <div>
+            <head rend="align-center space sc">
+              <lb/>Spiritus Vini Camphoratus. </head>
+            <head rend="align-center italic">
+              <lb/>Camphorated Spirit of Wine. </head>
+            <p rend="indent">
+              <lb/>Take of rectified Spirit of Wine one Pint; of <lb/>Camphire one Ounce, and mix
+              them together. </p>
+            <p rend="indent">
+              <lb/>
+              <q rend="diple">The Camphire will ſoon melt in the Spirit, <lb/>like Sugar in
+                Water. It is ordered by <hi rend="italic">Bates</hi>
+                <lb/>with the ſame Quantity of Camphire, and but <lb/>half ſo much Spirit. It is
+                chiefly uſed exter- <lb/>nally. </q>
+            </p>
+            <p rend="indent">
+              <lb/>
+              <q rend="diple">Under this Form are added ſeveral Medicines <lb/>not before
+                directed by the College; and ſuch as <lb/>better preſerve the Virtues of the
+                Ingredients, <lb/>than if continued in any other manner: Be- <pb n="26"/>
+                <lb/>ſides the greater Elegance of the Medicines, <lb/>and more Convenience of
+                taking, particularly <lb/>in the <hi rend="italic">Tinctura Papaveris
+                Compoſita</hi>, which was <lb/>before diſtilled; and in the <hi rend="italic"
+                  >Tinctura Sulphuris</hi>, <lb/>before ordered with oily Menſtruums into a
+                <lb/>Balſam, which made it very nauſeous to take. </q>
+            </p>
+          </div>
+        </div>
+        <figure>
+          <figDesc>An ornamental picture of a fountain in the middle of the page. </figDesc>
+        </figure>
+        <pb n="27"/>
+        <figure>
+          <figDesc>A horizontal line, spanning the whole page. </figDesc>
+        </figure>
+        <div type="subsection">
+          <head rend="align-center space size(1.5)">
+            <lb/>VINA MEDICATA. </head>
+          <head rend="align-center space italic size(1.5)">
+            <lb/>Medicated Wines. </head>
+          <div>
+            <head rend="align-center space sc">
+              <lb/>Vinum Benedictum. </head>
+            <head rend="align-center italic">
+              <lb/>The bleſſed wine. </head>
+            <p rend="indent">
+              <lb/>Take of the Crocus of Metals powdered one <lb/>Ounce; of Canary one Pint and an
+              half; let them <lb/>infuſe together a ſufficient time, and then ſtrain off <lb/>the
+              clear Wine. </p>
+            <p rend="indent space">
+              <lb/>
+              <q rend="diple">In that of the former Diſpenſatory there was <lb/>ordered one Dram of
+                Mace, which is here juſt- <lb/>ly rejected as having nothing to do with the In-
+                <lb/>tention of a Vomit. </q>
+            </p>
+          </div>
+          <div>
+            <head rend="align-center space sc">
+              <lb/>Vinum Chalybeatum. </head>
+            <head rend="align-center italic">
+              <lb/>Steel Wine. </head>
+            <p rend="indent">
+              <lb/>Take of the Filings of Steel one Ounce; of <lb/>Saffron on Powder two Drams; of
+              Mountain Wine <lb/>one Pint: Infuſe them together cold for three Days, <lb/>ſtirring
+              them often during that time, and and then ſtrain <lb/>it for uſe. </p>
+            <p rend="indent space">
+              <lb/>
+              <q rend="diple">The Saffron in the former Diſpenſatory was <lb/>in ſo trifling a
+                Quantity as eight Grains, and <lb/>therefore very juſtly amended in this: A ſtron-
+                <lb/>ger ſort of Wine is likewiſe here ordered, be- <lb/>cauſe if it be too ſmall it
+                acquires a Sharpneſs, e- <lb/>ſpecially in hot Weather, and makes the Medi-
+                <lb/>cine very nauſeous to the Stomach. </q>
+            </p>
+          </div>
+          <pb n="28"/>
+          <div>
+            <head rend="align-center space sc">
+              <lb/>Vinum Scilliticum. </head>
+            <head rend="align-center italic">
+              <lb/>Squill Wine. </head>
+            <p rend="indent">
+              <lb/>Take one Pound of white Squills divided and <lb/>dried; put them into a Glaſs
+              Veſſel, and pour up- <lb/>on them of old <hi rend="italic">French</hi> white Wine
+              eight Pints; <lb/>let them macerate fourteen Days, and then ſtrain <lb/>off the Wine
+              for uſe. </p>
+            <p rend="indent space">
+              <lb/>
+              <q rend="diple">This was before ordered to ſtand in Infuſion <lb/>double the time,
+                which was liable to diſſolve <lb/>the Squills ſo much as to make the Wine too
+                <lb/>ſlimy for uſe. </q>
+            </p>
+          </div>
+          <div>
+            <head rend="align-center space sc">
+              <lb/>Vinum Viperinum. </head>
+            <head rend="align-center italic">
+              <lb/>Viper Wine. </head>
+            <p rend="indent">
+              <lb/>Take of dried Vipers cut into pieces N<hi rend="sup">o</hi>. ſix; <lb/>digeſt
+              them three Days with a gentle Heat in two <lb/>Pints of Canaryl, and then ſtrain out
+              the Wine <lb/>for uſe. </p>
+            <p rend="indent">
+              <lb/>
+              <q rend="diple">This was not before in any Diſpenſatory of <lb/>the College,
+                but added to the laſt by <hi rend="italic">Shipton</hi> in <lb/>his Appendix; but
+                there it is directed with Live- <lb/>Vipers, and the Quantity of Wine triple to what
+                <lb/>it is here. </q>
+            </p>
+            <p rend="indent">
+              <lb/>
+              <q rend="diple">There are many Medicines under this Claſs <lb/>in the old
+                Diſpenſatory that are here rejected, as <lb/>the <hi rend="italic">Vinum
+                  Abſinthites</hi>, <hi rend="italic">Anthoſatum</hi>, <hi rend="italic">Ceraſorum
+                  <lb/>Nigr. Elleboratum</hi>, &amp;c. and certainly with good <lb/>reaſon; becauſe
+                their Intentions are much better <lb/>provided for in other Forms more ſuitable to
+                the <lb/>Nature of the Ingredients, and more convenient <lb/>for taking. </q>
+            </p>
+          </div>
+        </div>
+        <pb n="29"/>
+        <figure>
+          <figDesc>A horizontal line, spanning the whole page. </figDesc>
+        </figure>
+        <div type="subsection">
+          <head rend="align-center space size(1.5)">
+            <lb/>ACETA MEDICATA. </head>
+          <head rend="align-center space italic size(1.5)">
+            <lb/>Medicated Vinegars. </head>
+          <div>
+            <head rend="align-center space sc">
+              <lb/>Acetum Distillatum. </head>
+            <head rend="align-center italic">
+              <lb/>Diſtilled Vinegar. </head>
+            <p rend="indent">
+              <lb/>Take enough of the beſt Vinegar to fill two <lb/>thirds of a Retort, which place
+              in warm Aſhes, <lb/>and diſtil firſt with a moderate Heat, to bring o- <lb/>ver the
+              Phlegm; then increaſe the Fire by degrees <lb/>ſo as to finiſh the Operation with a
+              ſtrong Heat. </p>
+            <p rend="indent space">
+              <lb/>
+              <q rend="diple">This is directed for the Treacle Water, which <lb/>in the former
+                Diſpenſatories was injudiciouſly di- <lb/>rected to be drawn off among the other
+                Ingre- <lb/>dients; as may be ſeen in the Notes thereupon. </q>
+            </p>
+          </div>
+          <div>
+            <head rend="align-center space sc">
+              <lb/>Acetum Scilliticum. </head>
+            <head rend="align-center italic">
+              <lb/>Vinegar of Squills. </head>
+            <p rend="indent">
+              <lb/>Take that part of the Squills between the outer <lb/>Leaves and the Core, cut it
+              into ſmall pieces, which <lb/>cleanſe and expoſe to Heat for thirty Days; and put
+              <lb/>one Pound of it into a Bottle with ſix Pints of the <lb/>beſt Vinegar; and in the
+              Summer time let the <lb/>Veſſel, cloſe ſtopped, be placed in the Sun for thirty
+              <lb/>Days; then open it, and ſtrain it out for uſe. </p>
+            <p rend="indent space">
+              <lb/>
+              <q rend="diple">This is ſometimes uſed of itſelf, but chiefly <lb/>made into
+                  <hi rend="italic">Oxymel Scilliticum</hi>. </q>
+            </p>
+            <p rend="indent">
+              <lb/>
+              <q rend="diple">There are a great many medicated Vinegars be- <lb/>fore
+                ordered, which are left out here as uſeleſs, and <lb/>quite out of the common
+                extemporary Preſcrip- <lb/>tions. </q>
+            </p>
+          </div>
+        </div>
+      </div>
+      <pb n="30"/>
+      <figure>
+        <figDesc>A horizontal line, spanning the whole page. </figDesc>
+      </figure>
+      <div type="section">
+        <head rend="align-center space size(1.5)">
+          <lb/>DECOCTA, INFUSA, &amp; SYRUPI. </head>
+        <head rend="align-center italic size(1.5)">
+          <lb/>Decoctions, Infuſions, and Syrups. </head>
+        <div type="subsection">
+          <div>
+            <head rend="align-center space sc">
+              <lb/>Decoctum Commune Pro Clystere. </head>
+            <head rend="align-center italic">
+              <lb/>Common Decoction for Clyſters. </head>
+            <p rend="indent">
+              <lb/>Take of the Leaves of Mallows, Violets, Pelli- <lb/>tory of the Wall, Beets, and
+              Mercury, each one <lb/>handful; of Chamomile Flowers two Pugils; of <lb/>Sweet Fenile
+              Seed half an Ounce; of Linſeed two <lb/>Drams; and boil them in a ſufficient Quantity
+              of <lb/>common Water to ſtrain off one Pint. </p>
+            <p rend="indent space">
+              <lb/>
+              <q rend="diple">All theſe Ingredients ſo well agree in the their ge- <lb/>neral
+                Intention, that they are retained exactly <lb/>as before, and in the ſame
+                Quantities. </q>
+            </p>
+          </div>
+          <div>
+            <head rend="align-center space sc">
+              <lb/>Decoctum Epithymi. </head>
+            <head rend="align-center italic">
+              <lb/>Decoction of Dodder of Thyme. </head>
+            <p rend="indent">
+              <lb/>Take of the Chebulan, and <hi rend="italic">Indian</hi> Myrobolans, <lb/>each
+              half an Ounces; of <hi rend="italic">Arabian</hi> Stœchas and Sena, <lb/>each one
+              Ounce; of Fumitory half an Ounce; of <lb/>Euphatorium five Drams; of Polypody of the
+              Oak <lb/>ſix Drams; of Turpeth Root half an Ounce; of <lb/>Spring Water four Pints.
+              Boil all together to two <lb/>Pints, and then add of the Dodder of Thyme and
+              <lb/>ſtoned Raiſons, each one Ounces; and give them <lb/>another Boil together. When
+              taken from the Fire, <lb/>add of Black Hellebore Root; of Agaric, and Salt <lb/>of
+              Tartar, each half an Ounce. Let them ſtand <lb/>in Infuſion together ten Hours, and
+              then Preſs out <lb/>the Liquor. </p>
+            <pb n="31"/>
+            <p rend="indent">
+              <lb/>
+              <q rend="diple">This differs from the former chiefly in the <lb/>Proportions of the
+                Ingredients, the laſt three be- <lb/>ing greatly enlarged in their Quantities, and
+                Salt <lb/>of Tartar put in the room of the Sal Gem. But <lb/>it is ſeldom
+                preſcribed, that very few, if any, <lb/>are accuſtomed to keep it by them. </q>
+            </p>
+          </div>
+          <div>
+            <head rend="align-center space sc">
+              <lb/>Decoctum Pectorale. </head>
+            <head rend="align-center italic">
+              <lb/>Pectoral Decoction. </head>
+            <p rend="indent">
+              <lb/>Take of Raiſons ſtoned one Ounce; of Dactyls <lb/>N<hi rend="sup">o</hi>. ſix; of
+              fat Figs N<hi rend="sup">o</hi>. eight; of Barley cleanſed <lb/>one Ounce. Boil theſe
+              in three Pints of Spring <lb/>Water to the Conſumption of a third Part; to- <lb/>ward
+              the end putting in of Liquorice Root half <lb/>an Ounce; of the Leaves of Maiden-Hair,
+              Ground- <lb/>Ivy, Scabius, an Coltsfoot, each one handful: Let <lb/>them ſtand in
+              Infuſion a quarter of an Hour, and <lb/>then ſtrain out the Liquor. </p>
+            <p rend="indent space">
+              <lb/>
+              <q rend="diple">This differs from the former in ordering thoſe <lb/>Ingredients which
+                want the leaſt boiling to be <lb/>put in at laſt: In ſubſtituting Ground-Ivy in-
+                <lb/>ſtead of Hyſſop, which was too hot for the ge- <lb/>neral Intention of the
+                Medicine, eſpecially in <lb/>hectick Conſtitutions, where it is often wanted;
+                <lb/>and in rejecting the Jujebs, and Sebeſtians, which <lb/>were certainly
+                needleſs, and loaded the Medicine <lb/>with Ingredients to no purpoſe. </q>
+            </p>
+          </div>
+          <div>
+            <head rend="align-center space sc">
+              <lb/>Decoctum Traumaticum. </head>
+            <head rend="align-center italic">
+              <lb/>The Vulnerary Decoction. </head>
+            <p rend="indent">
+              <lb/>Take of Sarſaparilla two Ounces; of the grea- <lb/>ter Comfrey, and Liquorice
+              Roots, each ſix Drams; <lb/>of white Dittany two Drams; of ſtoned Raiſons <lb/>two
+              Ounces; of the Shaveings of Hartſhorn half <pb n="32"/>
+              <lb/>an Ounce. Boil in a ſufficient Quantity of Spring <lb/>Water to ſtrain off four
+              Pints; adding towards the <lb/>latter end, of the Leaves of St. John's Wort, Agri-
+              <lb/>mony, Plantain, and Ground-Ivy, each half an <lb/>handful; of the Flowers of the
+              greater Daiſy one <lb/>handful; of Nettle Seed two Drams; and ſtrain <lb/>out the
+              Liquor for uſe. </p>
+            <p rend="indent space">
+              <lb/>
+              <q rend="diple">This is greatly different from the former, and <lb/>rejects a great
+                many uſeleſs Ingredients, with <lb/>which that was crowded. </q>
+            </p>
+          </div>
+          <div>
+            <head rend="align-center space sc">
+              <lb/>Lac Virginale. </head>
+            <head rend="align-center italic">
+              <lb/>Virgin's Milk. </head>
+            <p rend="indent">
+              <lb/>Take of Rock Alum four Ounces, and boil it in <lb/>Spring Water till a third part
+              is conſumed: Then <lb/>take of Litharge of Gold half a Pound; of the <lb/>beſt White
+              Wine Vinegar a Pint and an half, and <lb/>boil again to one Pint; then ſtrain both,
+              and ſhake <lb/>them together until they incorporate into a white <lb/>Mixture. </p>
+            <p rend="indent">
+              <lb/>
+              <q rend="diple">This is exactly as in the old Diſpenſatory, and <lb/>is
+                ſolely for external Uſes. </q>
+            </p>
+            <p rend="indent">
+              <lb/>
+              <q rend="diple">Under this form is left out only what was in <lb/>the former
+                Diſpenſatory, the <hi rend="italic">Decoctum Senæ Ge- <lb/>reonis</hi>, which was a
+                very injudicious Compoſiti- <lb/>on; and the <hi rend="italic">Decoctum Amarum</hi>,
+                which is alſo <lb/>much better ſupplied in the next Claſs of Infu- <lb/>ſions. </q>
+            </p>
+          </div>
+        </div>
+        <pb n="33"/>
+        <figure>
+          <figDesc>A horizontal line, spanning the whole page. </figDesc>
+        </figure>
+        <div type="subsection">
+          <head rend="size(1.5) align-center space">
+            <lb/>INFUSA. </head>
+          <head rend="size(1.5) align-center italic">
+            <lb/>Infuſions. </head>
+          <div>
+            <head rend="align-center space sc">
+              <lb/>Infusum Amarum Simplex. </head>
+            <head rend="align-center italic">
+              <lb/>The Simple Bitter Infuſion. </head>
+            <p rend="indent">
+              <lb/>Take of Gentian Root, and Galangals, each one <lb/>Dram; of the Tops of Roman
+              Wormwood two <lb/>Drams; of the outer Peel of Sevil Oranges dryed, <lb/>and of the
+              leſſer Cardamon Seeds, each one Dram. <lb/>Infuſe them in one Pint of boiling Water,
+              and <lb/>when it is cold ſtrain out for uſe. </p>
+            <p rend="indent space">
+              <lb/>
+              <q rend="diple">This is greatly preferable to what was before <lb/>ordered both for
+                Neatneſs and Efficacy. </q>
+            </p>
+          </div>
+          <div>
+            <head rend="align-center space sc">
+              <lb/>Infusum Amarum Solutivum. </head>
+            <head rend="align-center italic">
+              <lb/>The Opening Bitter Infuſion. </head>
+            <p rend="indent">
+              <lb/>Take of the Tops of the leſſer Centaury, of <lb/>Chamomile Flowers, each one
+              Pugil; of Gentian <lb/>Root half a Scruple; of Rhubarb one Dram; of <lb/>Sena Leaves
+              picked from Stalks, and Carduus Seeds, <lb/>each one Dram; of the leſſer Cardamoms
+              half a <lb/>Dram: Pour upon them five Ounces of boiling <lb/>Water, and ſtrain it when
+              cold. </p>
+            <p rend="indent space">
+              <lb/>
+              <q rend="diple">This is alſo greatly mended, to any before or- <lb/>dered, on the ſame
+                accounts as the foregoing. </q>
+            </p>
+          </div>
+          <pb n="34"/>
+          <div>
+            <head rend="align-center space sc">
+              <lb/>Infusum Senæ. </head>
+            <head rend="align-center italic">
+              <lb/>The Infuſion of Sena. </head>
+            <p rend="indent">
+              <lb/>Take of Alexandrian Sena one Ounce and an <lb/>half; of the leſſer Cardamom Seeds
+              two Drams; <lb/>of Salt of Tartar three Drams: Pour upon them <lb/>one Pint of boiling
+              Water, and ſtrain out when <lb/>cold. </p>
+            <p rend="indent space">
+              <lb/>
+              <q rend="diple">This is geatly preferable to the uſual <hi rend="italic"
+                  >Decoc- <lb/>tum Gereonis</hi>, now rejected; tho' ſome who va- <lb/>lue the Salt
+                of Tartar only as it ſtrikes as Colour, <lb/>and beautifies a Tincture, or helps to
+                open the <lb/>Ingredients, for which purpoſe it is frequently <lb/>ordered, think
+                the Quantity herein an over Pro- <lb/>portion: But ſuch are to conſider that it is
+                here <lb/>directed as a purging Ingredient; and that as <lb/>ſuch it hath frequently
+                been ordered by the moſt <lb/>eminent in Practice, and particularly by <hi
+                  rend="italic">Riverius</hi>, <lb/>who prefers it to the Cream of Tartar as a Ca-
+                <lb/>thartic. </q>
+            </p>
+            <p rend="indent">
+              <lb/>
+              <q rend="diple">There hath not been any Forms under this <lb/>Denomination in
+                any preceding Diſpenſatory of <lb/>the College; thoſe few that are here ordered
+                <lb/>being before under the Title of Decoctions; <lb/>which is an improper way of
+                Management for <lb/>ſuch Ingredients, is ſufficient to draw out the Vir- <lb/>tues
+                that are required; whereas in boiling they <lb/>would in a great meaſure be loſt,
+                and particu- <lb/>larly by the Evaporation of all the volatile and <lb/>aromatic
+                Parts. This Form is indeed much <lb/>uſed in extemporaneous Preſcriptions, as very
+                <lb/>ſuitable to that diſpatch which Caſes that call <lb/>for them may require: But
+                it is not well fitted <pb n="35"/>
+                <lb/>for keeping in Readineſs, as moſt of the offici- <lb/>nal Compoſitions, becauſe
+                ſuch Medicines will <lb/>ſoon decay, eſpecially in warm Wheather; tho' <lb/>there is
+                little occaſion for being ſo prepared be- <lb/>forehand, becauſe they are very
+                quickly made. </q>
+            </p>
+          </div>
+        </div>
+        <figure>
+          <figDesc>A floral ornament in the middle of the page. </figDesc>
+        </figure>
+        <pb n="36"/>
+        <figure>
+          <figDesc>A horizontal line, spanning the whole page. </figDesc>
+        </figure>
+        <div type="subsection">
+          <head rend="size(2.0) align-center space">
+            <lb/>SYRUPI. </head>
+          <head rend="size(2.0) align-center italic">
+            <lb/>Syrups. </head>
+          <div type="sub-subsection">
+            <head rend="size(1.5) align-center">
+              <lb/>SYRUPI ALTERANTES. </head>
+            <head rend="size(1.5) align-center italic">
+              <lb/>Alterant Syrups. </head>
+            <div>
+              <head rend="align-center space">
+                <lb/><hi rend="sc">Syrupus</hi> de <hi rend="sc">Absinthio Simplex</hi>. </head>
+              <head rend="align-center italic">
+                <lb/>The simple Syrup of Wormwood. </head>
+              <p rend="indent">
+                <lb/>Take of the clarified Juice of common Worm- <lb/>wood, and of clarified Sugar,
+                each four Pints, <lb/>and boil them together into the Conſiſtency of a <lb/>Syrup. </p>
+              <p rend="indent">
+                <lb/>After the ſame manner are prepared the Simple <lb/>Syrup of the Juice of
+                Succory, of Ground Ivy, <lb/>of Raſpberries, of the outer Peel of Walnuts, of
+                <lb/>Coltsfoot; and alſo of other Juiſes that are not <lb/>acid. </p>
+              <p rend="indent space">
+                <lb/>
+                <q rend="diple">This Syrup hath hitherto been but little, if e- <lb/>ver made,
+                  although directed in the former Diſ- <lb/>penſatory, yet in none of the College
+                  before <lb/>that, becauſe it is hardly ever ordered in extem- <lb/>poraneous
+                  Preſcriptions, and not in any officinal <lb/>Medicine but the <hi rend="italic"
+                    >Pil. Ruffi</hi>; and that hath been <lb/>accuſtomed chiefly to be made up with
+                  Syrup <lb/>of Lemons, or ſome other pale Syrup, for the <lb/>ſake of preſerving
+                  the beautiful yellow of the In- <lb/>gredients, which the Goodneſs and Freſhneſs
+                  of <lb/>the Medicine is moſtly judged by, and which is <pb n="37"/>
+                  <lb/>much ſpoiled by a brown Syrup: But ſuch a <lb/>Nicety ought not to take place
+                  of a more im- <lb/>portant Quality; and that is the Intention of the
+                  <lb/>Medicine, which is undoubtedly better preſer- <lb/>ved by a uſe of what the
+                  College hath here or- <lb/>dered: Not to ſay any thing of the Obligati- <lb/>ons
+                  on many accounts that every Compoſer lies <lb/>under punctually to conform to the
+                  Preſcrip- <lb/>tion. </q>
+              </p>
+            </div>
+            <div>
+              <head rend="align-center space">
+                <lb/><hi rend="sc">Syrupus</hi> de <hi rend="sc">Absinthio Compositus</hi>. </head>
+              <head rend="align-center italic">
+                <lb/>Compound Syrup of Wormwood. </head>
+              <p rend="indent">
+                <lb/>Take of common Wormwood moderately dried <lb/>half a Pound; of Red Roſe Leaves
+                two Ounces; <lb/>of Spikenard three Drams; of old ſtrong White <lb/>Wine, and Juice
+                of Quinces, each two Pints and <lb/>an half: Let them infuſe together warm in an
+                <lb/>earthen Veſſel for a whole Day, then gently boil <lb/>in a Bath Heat, and
+                ſtrain out the Liquor; and <lb/>with two Pound of white Sugar boil it up to the
+                <lb/>Conſiſtence of a Syrup, <hi rend="italic">S. A.</hi>
+              </p>
+              <p rend="indent space">
+                <lb/>
+                <q rend="diple">This is as old as <hi rend="italic">Meſue</hi>, whoſe Preſcription
+                  it <lb/>orginally was, and is exactly the ſame as in the <lb/>preceding
+                  Diſpenſatories: But of late it is ſo <lb/>ſeldom uſed in extemporaneous
+                  Preſcriptions, <lb/>that it is hardly ever to be met with in the <lb/>Shops. </q>
+              </p>
+            </div>
+            <div>
+              <head rend="align-center space sc">
+                <lb/>Syrupus Acetosus. </head>
+              <head rend="align-center italic">
+                <lb/>Syrup of Vinegar. </head>
+              <p rend="indent">
+                <lb/>Take five Pound of fine Sugar, and of White <lb/>Wine Vinegar two Pound: Let
+                the Sugar be melt- <lb/>ed in a hot water Bath, ſo as to make them into <lb/>a
+                Syrup, <hi rend="italic">S. A.</hi>
+              </p>
+              <pb n="38"/>
+              <p rend="indent space">
+                <lb/>
+                <q rend="diple">This is exactly as before directed, where there <lb/>is alſo a
+                  compound Syrup of Vinegar; but here <lb/>juſtly rejected as not worth making. </q>
+              </p>
+            </div>
+            <div>
+              <head rend="align-center space sc">
+                <lb/>Syrupus de Althæa. </head>
+              <head rend="align-center italic">
+                <lb/>Syrup of Marſhmallows. </head>
+              <p rend="indent">
+                <lb/>Take of Marſhmallow Root two Ounces; of <lb/>Graſs, Aſparagus, and Liquorice
+                Roots cleanſed, <lb/>and of ſtoned Raiſons, each half an Ounce; of <lb/>the Leaves
+                of Marſhmallows, common Mallows, <lb/>Pellitory of the Wall, Saxifrage, Pimpinel,
+                Plan- <lb/>tain, and the white and the black Hellebore, each one <lb/>handful; of
+                red Cicers one Ounce; of the four <lb/>greater and leſſer cold Seeds, each three
+                Drams. <lb/>Infuſe them for a whole Day in ſix Pints of Wa- <lb/>ter; then boil it
+                to four Pints; to which when <lb/>preſſed out and ſtrained, add three Pounds and an
+                <lb/>half of white Sugar, and boil up to a Syrup in a <lb/>Bath Heat, <hi
+                  rend="italic">S. A.</hi>
+              </p>
+              <p rend="indent space">
+                <lb/>
+                <q rend="diple">This Syrup is orginally aſcribed to <hi rend="italic"
+                  >Fernelius</hi>, <lb/>and has remained unaltered in all the College Diſ-
+                  <lb/>penſatories. If it is not boiled up to a good Con- <lb/>ſiſtence, it is ſo
+                  apt to ferment in warm Wea- <lb/>ther, that makes it very troubleſome to keep.
+                </q>
+              </p>
+            </div>
+            <div>
+              <head rend="align-center space sc">
+                <lb/>Syrupus de Artemisia. </head>
+              <head rend="align-center italic">
+                <lb/>Syrup of Mugwort. </head>
+              <p rend="indent">
+                <lb/>Take of Mugwort two Handsful; of Pene- <lb/>royal, Calaminth, Origany, Baum,
+                Dittany of <lb/><hi rend="italic">Crete</hi>, Savin, Margoram, the leſſer Centaury,
+                and <lb/>Rue, each one handful; of Fenile, Smallage, and <lb/>Parſly Roots, each one
+                Ounce; of Juniper Ber- <lb/>ries, of the Seeds of Lovage, Parſly, Smallage,
+                <lb/>Cubebs, and the Roots of Aſarum, each half an <pb n="39"/>
+                <lb/>Ounce. Let theſe be cleanſed, cut and bruiſed, as <lb/>they require, and boil
+                them in twelve Pints of Wa- <lb/>ter to eight Pints. To the expreſſed Liquor, add
+                <lb/>of Cinnamon, and Spikenard, each three Drams; <lb/>of white Sugar ſix Pound,
+                and boil up to a Sy- <lb/>rup, <hi rend="italic">S. A.</hi>
+              </p>
+              <p rend="indent space">
+                <lb/>
+                <q rend="diple">This hath thrown out abundance of inſig- <lb/>nificant and
+                  troubleſome Ingredients which were <lb/>formerly crowded into it: It hath alſo
+                  rejected <lb/>the needleſs Labour of a Diſtillation, and left <lb/>the Virtues of
+                  the Ingredients much better in a <lb/>Decoction, which is in every reſpect as well
+                  fit- <lb/>ted for the Form of a Syrup, as if made from <lb/>the Water diſtilled.
+                </q>
+              </p>
+            </div>
+            <div>
+              <head rend="align-center space">
+                <lb/><hi rend="sc">Syrupus</hi> de <hi rend="sc">Berberis</hi>. </head>
+              <head rend="align-center italic">
+                <lb/>Syrup of Berberies. </head>
+              <p rend="indent">
+                <lb/>Take two Pints of the fine Juice of Berberies, <lb/>and one Pound and an half
+                of very fine Sugar: Boil <lb/>them in an earthen glaſed Veſſel to the Conſiſtence
+                <lb/>of a Syrup. </p>
+              <p rend="indent space">
+                <lb/>
+                <q rend="diple">This, as all acid Syrups, requires a very leiſure- <lb/>ly Heat to
+                  melt the Sugar; for haſty and much <lb/>boiling not only hurts the Pungency of the
+                  acid, <lb/>but alſo ſubjects the Medicine to run into a Can- <lb/>dy. It is
+                  ordered in a glaſed earthen Veſſel, be- <lb/>cauſe ſuch Juices are apt to erode,
+                  and take up <lb/>part of any Metal they are put into. </q>
+              </p>
+            </div>
+            <div>
+              <head rend="align-center space sc">
+                <lb/>Syrupus Capillorum Veneris. </head>
+              <head rend="align-center italic">
+                <lb/>Syrup of Maiden-Hair. </head>
+              <p rend="indent">
+                <lb/>Take of Maiden-Hair five Ounces; of Liquo- <lb/>rice Root two Ounces: Infuſe
+                them for twenty <lb/>four Hours in ſix Pints of hot Water; then after <pb n="40"/>
+                <lb/>a gentle Boiling in a Bath Heat, preſs out the Li- <lb/>quor; and four Pints of
+                it clarified, put of fine <lb/>Sugar three Pounds, and boil up to a Syrup, <hi
+                  rend="italic">S. A.</hi>
+              </p>
+              <p rend="indent space">
+                <lb/>
+                <q rend="diple">This remains exactly as before directed. </q>
+              </p>
+            </div>
+            <div>
+              <head rend="align-center space sc">
+                <lb/>Syrupus Infusionis Fl. Caryophyllorum. </head>
+              <head rend="align-center italic">
+                <lb/>Syrup of the Infuſion of Clove-Gillyflowers. </head>
+              <p rend="indent">
+                <lb/>Take of Clove-Gillyflowers, with the white <lb/>Heels cut off, one Pound; let
+                them ſteep a whole <lb/>Night in two Pints of Spring Water; then ſtrain <lb/>the
+                Liquor, and boil it up into a Syrup in a Bath <lb/>Heat with two Pounds on the
+                fineſt Sugar, <hi rend="italic">S. A.</hi>
+              </p>
+              <p rend="indent">
+                <lb/>
+                <q rend="diple">Double the Quantity of Sugar to the ſame <lb/>Quantity of Flowers
+                  and Water was before or- <lb/>dered, which was ſufficient to give the Conſiſt-
+                  <lb/>ency of a Syrup as ſoon as diſſolved: But this re- <lb/>quires ſo much
+                  boiling before it comes to that <lb/>Body, that great care muſt be taken not to
+                  ſpoil <lb/>the Beauty of its Colour, which two haſty an <lb/>Heat will eaſily do.
+                </q>
+              </p>
+            </div>
+            <div>
+              <head rend="align-center space">
+                <lb/><hi rend="sc">Syrupus</hi> de <hi rend="sc">Cinnamomo</hi>. </head>
+              <head rend="align-center italic">
+                <lb/>Syrup of Cinnamon. </head>
+              <p rend="indent">
+                <lb/>Take of the beſt Cinnamon, a little bruiſed, <lb/>three Ounces; infuſe it for
+                three Days in a ſuffici- <lb/>ent Quantity of hot Spring Water to ſtrain off a
+                <lb/>Pint, and put to it half a Pound of the fineſt Su- <lb/>gar; and with a gentle
+                Heat boil it up to a Sy- <lb/>rup. </p>
+              <p rend="indent">
+                <lb/>After the ſame manner, only with White Wine <lb/>inſtead of Water, Syrups may
+                be made of the Seeds <lb/>of Aniſe, of Sweet Fenile, of the Clove Spice, of
+                <lb/>Nutmegs, of Ginger, <hi rend="italic">&amp;c.</hi>
+              </p>
+              <pb n="41"/>
+              <p rend="indent space">
+                <lb/>
+                <q rend="diple">All theſe were before ordered into Syrups, <lb/>and they well enough
+                  ſuit the Form, provided <lb/>the Heat made uſe of is not haſty enough to ex-
+                  <lb/>hale the volatile Parts, which it will do without <lb/>great care. </q>
+              </p>
+            </div>
+            <div>
+              <head rend="align-center space">
+                <lb/><hi rend="sc">Syrupus</hi> è <hi rend="sc">Succo Citriorum</hi>. </head>
+              <head rend="align-center italic">
+                <lb/>Syrup of the Juice of Citrons. </head>
+              <p rend="indent">
+                <lb/>Take one Pint of the clear Juice of Citrons; of <lb/>fine Sugar two Pounds; and
+                boil into a Syrup <lb/>with a gentle Fire. </p>
+              <p rend="indent">
+                <lb/>After the ſame manner are made the Syrup of <lb/>wild Apples, Oranges,
+                Berberries, Cherries, Quin- <lb/>ces, Lemons, Woodſorrel, Mulberries, Goosber-
+                <lb/>ries, and other clarified acid Juices. </p>
+              <p rend="indent space">
+                <lb/>
+                <q rend="diple">But in all theſe the ſame Cautions are to be <lb/>uſed as before
+                  hinted in the Note under Syrup <lb/>of Berries. </q>
+              </p>
+            </div>
+            <div>
+              <head rend="align-center space sc">
+                <lb/>Syrupus Corticum Citriorum. </head>
+              <head rend="align-center italic">
+                <lb/>Syrup of Citron Peels. </head>
+              <p rend="indent">
+                <lb/>Take five Ounces of the outer yellow Citron <lb/>Peel, full ripe and freſh; of
+                Kermes Berries, or <lb/>in their ſtead, of the imported Juice two Drams; <lb/>of
+                Spring Water three Pints: Steep them toge- <lb/>ther for one Night in a Bath Heat;
+                and to the <lb/>ſtrained Liquor put two Pounds and an half of fine <lb/>Sugar; and
+                with a moderate Heat boil up into the <lb/>Conſiſtence of a Syrup. </p>
+              <p rend="indent">
+                <lb/>After the ſame manner are prepared Syrups from <lb/>the Peels af Oranges, and
+                Lemons. </p>
+              <p rend="indent space">
+                <lb/>
+                <q rend="diple">But care muſt be taken that with two haſty <lb/>an Heat the
+                  aromatick Flavour be not evapora- <pb n="42"/>
+                  <lb/>ted. This is as old as <hi rend="italic">Meſue</hi>, and in ſome for-
+                  <lb/>mer Diſpenſatories it was ordered to be ſcented <lb/>with ſome Grains of
+                  Musk; but that is here <lb/>juſtly rejected, as what will agree but with very
+                  <lb/>few Perſons. </q>
+              </p>
+            </div>
+            <div>
+              <head rend="align-center space sc">
+                <lb/>Syrupus Cydoniorum. </head>
+              <head rend="align-center italic">
+                <lb/>Syrup of Quinces. </head>
+              <p rend="indent">
+                <lb/>Take ſix Pints of the clear Juice of Quinces; <lb/>boil it gently till half is
+                evaporated, and at times <lb/>take off the Scum that riſes upon it; then put to
+                <lb/>it three Pints of red aſtringent Wine, and of fine <lb/>Sugar four Pound; which
+                boil into a Syrup, that <lb/>may be aromatized with Cinnamon one Dram and <lb/>an
+                half; of Cloves and Ginger, each two Scru- <lb/>ples. </p>
+              <p rend="indent space">
+                <lb/>
+                <q rend="diple">This hath alſo <hi rend="italic">Meſue</hi> for its Author, and hath
+                  <lb/>been retained in all the Diſpenſatories of the Col- <lb/>lege; tho' the
+                  preceding to this gives the liber- <lb/>ty of making it with one Pint of the Juice
+                  of <lb/>Quinces only, and two Pounds of Sugar, and <lb/>only melting them
+                  together, as the other ſub-acid <lb/>and auſtere Syrups; and that way the Shops
+                  <lb/>have been of late moſt accuſtomed to make it. </q>
+              </p>
+            </div>
+            <div>
+              <head rend="align-center space">
+                <lb/><hi rend="sc">Syrupus</hi> de <hi rend="sc">Erysimo</hi>. </head>
+              <head rend="align-center italic">
+                <lb/>Syrup of Hedge Muſtard. </head>
+              <p rend="indent">
+                <lb/>Take of Hedge Muſtard freſh gathered ſix hands- <lb/>ful; of Elicampane Root,
+                and Coltsfoot, alſo very <lb/>freſh gathered, and Liquorice Root, each two
+                <lb/>Ounces; of the Leaves of Borrage, of Succory, <lb/>and Maiden-Hair, each an
+                Ounce an an half; of <lb/>the Cordial Flowers, and the Flowers of Roſema- <lb/>ry
+                and Betony, each half an handful; of Aniſeeds <lb/>half an Ounce; of ſtoned Raiſons
+                two Ounces: <pb n="43"/>
+                <lb/>Let them infuſe together a whole Day in Water <lb/>and Mead, of each two Pints
+                and an half; of the <lb/>Juice of Hedge Muſtard eight Ounces. Boil them <lb/>in a
+                Bath Heat; and to the Liquor ſtrongly preſ- <lb/>ſed out and clarified, put four
+                Pounds and an half <lb/>of Loaf Sugar, and boil to a Syrup in the ſame <lb/>Heat,
+                  <hi rend="italic">S. A.</hi>
+              </p>
+              <p rend="indent space">
+                <lb/>
+                <q rend="diple">This was not in the firſt of our College Diſ- <lb/>penſatories,
+                  although received into the prece- <lb/>ding, and yet continued: Nor hath it been
+                  the <lb/>Cuſtom to provide it by the Shops, becauſe ſo <lb/>ſeldom, if ever,
+                  ordered in extemporanous Pre- <lb/>ſcriptions. It is a Compoſition originally of
+                    <hi rend="italic">Lo-<lb/>belius</hi>, who had a ſtrange Opinion of the Ingre-
+                  <lb/>dient from whence it takes its Name; and he <lb/>ſeemed moſt to value it as a
+                  powerful detergent, <lb/>and pectoral. </q>
+              </p>
+            </div>
+            <div>
+              <head rend="align-center space">
+                <lb/><hi rend="sc">Syrupus</hi> de <hi rend="sc">Glycyrrhiza</hi>. </head>
+              <head rend="align-center italic">
+                <lb/>Syrup of Liquorice. </head>
+              <p rend="indent">
+                <lb/>Take of freſh Liquorice, cleanſed and bruiſed, <lb/>two Ounces; of white
+                Maiden-Hair one Ounce; <lb/>of Hyſſop half an Ounce: Pour upon theſe three
+                <lb/>Pints of boiling Spring Water; and after twenty <lb/>four Hours Infuſion in a
+                Bath Heat, ſtrain out the <lb/>Liquor, and clarify it; and with the beſt Honey
+                <lb/>and fine Sugar, of each ten Ounces, boil it up to <lb/>a Syrup in a Bath Heat,
+                  <hi rend="italic">S. A.</hi>
+              </p>
+              <p rend="indent space">
+                <lb/>
+                <q rend="diple">This was a Contrivance of <hi rend="italic">Meſue</hi>, and conti-
+                  <lb/>nued in all the Collage Diſpenſatories without <lb/>Alteration. </q>
+              </p>
+            </div>
+            <pb n="44"/>
+            <div>
+              <head rend="align-center space sc">
+                <lb/>Syrupus Granatorum. </head>
+              <head rend="align-center italic">
+                <lb/>Syrup of Pomgranates. </head>
+              <p rend="indent">
+                <lb/>Take of white Sugar one Pound and an half; of <lb/>the Juice of Pomegranates
+                made fine one Pint: Let <lb/>it be made into a Syrup with a Bath Heat, <hi
+                  rend="italic">S. A.</hi>
+              </p>
+              <p rend="indent space">
+                <lb/>
+                <q rend="diple">This requires the ſame Caution as the acid <lb/>and ſub-aſtringent
+                  Syrups before-mentioned. </q>
+              </p>
+            </div>
+            <div>
+              <head rend="align-center space">
+                <lb/><hi rend="sc">Syrupus</hi> de <hi rend="sc">Meconio</hi>, ſive <hi rend="sc"
+                  >Diacodion</hi>. </head>
+              <head rend="align-center italic">
+                <lb/>Syrup of Poppies, or Diacodium. </head>
+              <p rend="indent">
+                <lb/>Take of white Poppy Heads well dried fourteen <lb/>Ounces; and after twenty
+                four Hours Infuſion in <lb/>eight Pints of Spring Water, boil them well; and <lb/>to
+                the expreſſed Liquor, put twenty four Ounces <lb/>of Sugar, to be boiled into a
+                Syrup. </p>
+              <p rend="indent space">
+                <lb/>
+                <q rend="diple">This is altered from the former both in re- <lb/>jecting the black
+                  Poppies, and in the Propor- <lb/>tions; the white here anſwering to the Quan-
+                  <lb/>tities of both before. This Syrup will not bear <lb/>the uſual way of
+                  Clarification, without loſing <lb/>much of its Strength as an Opiate. And ſuch
+                  <lb/>difference will happen on one account or other <lb/>with the utmoſt Care, as
+                  renders it difficult to <lb/>be made always of the ſame ſtrength. </q>
+              </p>
+            </div>
+            <div>
+              <head rend="align-center space">
+                <lb/><hi rend="sc">Syrupus</hi> de <hi rend="sc">Mentha</hi>. </head>
+              <head rend="align-center italic">
+                <lb/>Syrup of Mint. </head>
+              <p rend="indent">
+                <lb/>Take of the Juice of ſweet and ſub-acid Quin- <lb/>ces, and of the Juice of
+                ſweet and acid Pomgra- <lb/>nates, each one Pint and an half; of dried Mint
+                <lb/>half a Pound; of red Roſes two Ounces: Let <lb/>them ſtrand in Maceration one
+                whole Day; then <pb n="45"/>
+                <lb/>boil in a Bath Heat to half its Conſumption, ſtrain <lb/>the Liquors, and with
+                four Pounds of Sugar make <lb/>it into a Syrup. </p>
+              <p rend="indent space">
+                <lb/>
+                <q rend="diple">This is old as <hi rend="italic">Meſue</hi>, and hath been continu-
+                  <lb/>ed by the College in their Diſpenſatories with- <lb/>out Alteration,
+                  excepting that in the laſt is left <lb/>out the Directions for aromatizing it with
+                  Nut- <lb/>megs, as was at firſt ordered. The dried Mint <lb/>imbibes ſo much of
+                  the Juices, that it requires a <lb/>ſtrong Expreſſion to get out the Quantity
+                  requi- <lb/>red with but very little boiling. </q>
+              </p>
+            </div>
+            <div>
+              <head rend="align-center space sc">
+                <lb/>Syrupus Myrtinus. </head>
+              <head rend="align-center italic">
+                <lb/>Syrup of Myrtles. </head>
+              <p rend="indent">
+                <lb/>Take of Myrtle Berries two Ounces and an half; <lb/>of the white and red
+                Sanders, of Sumach, of Ba- <lb/>lauſtins, Berberries, and red Roſes, each an Ounce
+                <lb/>and an half; of Medlars ſliced one Pound, bruiſe <lb/>as required, and boil in
+                eight Pints of Water to <lb/>four Pints; and to that when ſtrained add of the
+                <lb/>acid Juice of Quinces, and Pomegranates, each ſix <lb/>Ounces: Then with four
+                Pounds of Sugar boil <lb/>into a Syrup; adding the Juice towards the lat- <lb/>ter
+                end. </p>
+              <p rend="indent space">
+                <lb/>
+                <q rend="diple">This is originally aſcribed to <hi rend="italic">Nicolaus</hi>, and
+                  <lb/>hath been continued by the College without Al- <lb/>terations, exepting in
+                  the Addition of one Pound <lb/>of Sugar in the preſent Orders. </q>
+              </p>
+            </div>
+            <div>
+              <head rend="align-center space">
+                <lb/><hi rend="sc">Syrupus</hi> de <hi rend="sc">Papavere Erratico</hi>. </head>
+              <head rend="align-center italic">
+                <lb/>Syrup of Wild Poppies. </head>
+              <p rend="indent">
+                <lb/>Take of the freſh Flowers of Wild Poppies two <lb/>Pounds, and pour upon them
+                four Pints of hot <lb/>Spring Water. The next Day preſs it out, and <pb n="46"/>
+                <lb/>repeat the Infuſion with freſh Flowers, and then <lb/>make it into a Syrup in a
+                Bath Heat, with as much <lb/>Sugar as there is of the ſtrained Liquor. </p>
+              <p rend="indent space">
+                <lb/>
+                <q rend="diple">This remains exactly as in the foregoing; tho' <lb/>the common
+                  Practice of the Shop hath been <lb/>accuſtomed to make one Infuſion only with juſt
+                  <lb/>enough Water to cover and ſcald the Flowers: <lb/>And it is poſſible to give
+                  it ſo much from the <lb/>Flowers, as will turn the Syrup roapy and full <lb/>of
+                  Clods; continuing them long in Infuſion <lb/>will alſo ſubject it to the ſame
+                  Faults. </q>
+              </p>
+            </div>
+            <div>
+              <head rend="align-center space">
+                <lb/><hi rend="sc">Syrupus</hi> de <hi rend="sc">Pomis</hi> Alterans. </head>
+              <head rend="align-center italic">
+                <lb/>The Alterant Syrup of Apples. </head>
+              <p rend="indent">
+                <lb/>Take of the Juice of fragrant Apples four Pints; <lb/>of the Leaves of Garden
+                and Wild Bugloſs, and of <lb/>Violet Flowers, each one Pound: Boil in a Bath
+                <lb/>Heat, and to the clear ſtrained Liquor put ſeven <lb/>Pound of the fineſt
+                Sugar, with one Pint of Da- <lb/>mask Roſe Water, and make into a Syrup, <hi
+                  rend="italic">S. A.</hi>
+              </p>
+              <p rend="indent space">
+                <lb/>
+                <q rend="diple">This hath <hi rend="italic">Fernelius</hi> for its firſt Inventor,
+                  and <lb/>is here altered in nothing of any Moment from <lb/>what it was when firſt
+                  received into their Diſ- <lb/>penſatory by the College. </q>
+              </p>
+            </div>
+            <div>
+              <head rend="align-center space">
+                <lb/><hi rend="sc">Syrupus</hi> de <hi rend="sc">Pæonia</hi> Compoſitus. </head>
+              <head rend="align-center italic">
+                <lb/>Compound Syrup of Pionies. </head>
+              <p rend="indent">
+                <lb/>Take of freſh Piony Roots, both the kinds, cut <lb/>into ſlices, and infuſed a
+                whole Day in White Wine, <lb/>each an Ounce and an half; of Contrayerva Root
+                <lb/>half an Ounce; of Mountain Oſier (<hi rend="italic">Baſtard Lo- <lb/>vage</hi>)
+                ſix Drams; of Roſemary with its Flowers <lb/>one handful; of Betony, Hyſſop,
+                Origany, Ground <lb/>Pine, and Rue, each three Drams; of Aloes Wood, <pb n="47"/>
+                <lb/>Cloves, and the leſſer Cardamoms, each two <lb/>Drams; of Ginger and Spikenard,
+                each one <lb/>Dram; of Stœchas and Nutmegs, each two <lb/>Drams and an half. After
+                one Day's Infuſion in <lb/>ſix Pints of warm Spring Water, boil in a Bath <lb/>Heat
+                to the Conſumption of a third Part; and to <lb/>the Liquor afterwards ſtrained
+                though a Flannel <lb/>Bag, put four Pounds and an half of the fineſt Su- <lb/>gar,
+                and boil up into a Syrup with a moderate <lb/>Heat. </p>
+              <p rend="indent space">
+                <lb/>
+                <q rend="diple">This was ordered before with the diſtilled <lb/>Water of Piony
+                  Roots; but as no ſuch thing <lb/>is now made, common Spring Water is ſubſti-
+                  <lb/>tuted, as the other was a needleſs Trouble. The <lb/>College did not at firſt
+                  receive this Compoſition <lb/>into their Diſpenſatory, and I do not remember it
+                  <lb/>in any but that immediately preceding this. Ma- <lb/>ny of the Ingredients
+                  are liable to Evaporation in <lb/>their beſt Parts, without a careful and ſlow
+                  Heat <lb/>in every Part of the Proceſs. </q>
+              </p>
+            </div>
+            <div>
+              <head rend="align-center space">
+                <lb/><hi rend="sc">Syrupus</hi> de <hi rend="sc">Prassio</hi>. </head>
+              <head rend="align-center italic">
+                <lb/>Syrup of Hore-Hound. </head>
+              <p rend="indent">
+                <lb/>Take of the Leaves of freſh white Hore-Hound <lb/>two Ounces; of Liquorice,
+                Polypody of the Oak, <lb/>Smallage, and Sweet Fenile Roots, each half an <lb/>Ounce;
+                of the Leaves of white Maiden-Hair, O- <lb/>riganum, Hyſſop, Calaminth, Thyme,
+                Scabious, <lb/>Savory, and Coltsfoot, each ſix Drams; of the <lb/>Seeds of Aniſe and
+                Quinces, each three Drams; of <lb/>ſtoned Raiſon two Ounces; of fat Figs number
+                <lb/>ten: Let theſe ſtand in a warm Digeſtion for a <lb/><choice>
+                  <corr/>
+                  <sic>a </sic>
+                </choice>whole Day in eight Pints of thin Mead; then <lb/>boil in a Bath Heat, and
+                to five Pints of the Li- <lb/>quor, ſtrongly preſſed out, and ſettled clear, put
+                <lb/>two Pounds of clarified Honey, and as much fine <pb n="48"/>
+                <lb/>Sugar, and boil up to a Syrup; which may be fla- <lb/>voured with one Ounce of
+                Florentine Orrice <lb/>Root. </p>
+              <p rend="indent space">
+                <lb/>
+                <q rend="diple">This is a Contrivance of <hi rend="italic">Fernelius</hi>, and hath
+                  <lb/>paſs'd through all the College Diſpenſatories, e- <lb/>ven into this, without
+                  any Alterations of moment; <lb/>the Subſtitution of Quince Seeds for thoſe of
+                  <lb/>Cotton being the chief. </q>
+              </p>
+            </div>
+            <div>
+              <head rend="align-center space">
+                <lb/><hi rend="sc">Syrupus</hi> de <hi rend="sc">Quinque Radicibus</hi>. </head>
+              <head rend="align-center italic">
+                <lb/>Syrup of Five Roots. </head>
+              <p rend="indent">
+                <lb/>Take of the Roots of Butchers Broom, Sweet <lb/>Fenile, Aſparagus, Parſley, and
+                Smallage, each <lb/>two Ounces; of Spring Water ſix Pints: Digeſt <lb/>them together
+                warm, and then boil them in a Bath <lb/>Heat. To four Pints of the Liquor ſtrongly
+                preſ- <lb/>ſed out and clarified, put five Pound and an half <lb/>of fine Sugar, and
+                make into a Syrup in the ſame <lb/>Heat, <hi rend="italic">S. A.</hi> adding to it
+                at the latter end eight <lb/>Ounces of Vinegar. </p>
+              <p rend="indent space">
+                <lb/>
+                <q rend="diple">This hath <hi rend="italic">Meſue</hi> for its Author; but the firſt
+                  <lb/>Diſpenſatories of the College put but three <lb/>Pounds of Sugar. It makes a
+                  very grateful Sy- <lb/>rup by the help of the Vinegar, and is frequent- <lb/>ly
+                  preſcribed amongſt aperient Pectorals. The <lb/>whole Ingredients are in the
+                  preceding Diſpen- <lb/>ſatory to this, ordered under the general Name <lb/>of the
+                  five opening Roots; and under which <lb/>common Denomination they are frequently
+                  ex- <lb/>preſs'd by medicinal Writers. </q>
+              </p>
+            </div>
+            <pb n="49"/>
+            <div>
+              <head rend="align-center space">
+                <lb/><hi rend="sc">Syrupus</hi> de <hi rend="sc">Rosis Siccis</hi>. </head>
+              <head rend="align-center italic">
+                <lb/>Syrup of dried Roſes. </head>
+              <p rend="indent">
+                <lb/>Take four Pints of hot Spring Water, and in it <lb/>infuſe half a Pound of Roſe
+                Leaves haſtily dried in <lb/>the Sun; the next Day preſs out the Liquor, and
+                <lb/>with two Pounds of Sugar boil it up to a Syrup, <lb/><hi rend="italic">S.
+                  A.</hi>
+              </p>
+              <p rend="indent space">
+                <lb/>
+                <q rend="diple">This is ordered ſo anciently as by <hi rend="italic">Meſue</hi>, and
+                  <lb/>hath been retained the ſame in all the Diſpen- <lb/>ſatories of the College.
+                </q>
+              </p>
+            </div>
+            <div>
+              <head rend="align-center space">
+                <lb/><hi rend="sc">Syrupus</hi> de <hi rend="sc">Stoechade</hi>. </head>
+              <head rend="align-center italic">
+                <lb/><hi rend="italic">Syrup of Stœchas</hi>; or <hi rend="italic">French
+                  Lavender</hi>. </head>
+              <p rend="indent">
+                <lb/>Take of Stœchas Flowers four Ounces; of <lb/>Roſemary Flowers half an Ounce; of
+                the Herbs <lb/>of Thyme, Calaminth, and Origany, each one <lb/>Ounce and an half; of
+                the Seeds of Rue, Piony, <lb/>and Sweet Fennel, each three Drams. Digeſt theſe
+                <lb/>one or two Days in a ſufficient Quantity of hot Spring <lb/>Water to preſs out
+                five Pints clear; to which add of <lb/>the fineſt Sugar five Pounds and an half, and
+                make <lb/>into a Syrup by a Bath Heat according to Art. It <lb/>may be aromatized
+                with ſome drops of the diſtilled <lb/>Oil of Cinnamon. </p>
+              <p rend="indent space">
+                <lb/>
+                <q rend="diple">This is directed by <hi rend="italic">Meſue</hi>; but it is here al-
+                  <lb/>tered from what it was when firſt received into <lb/>the College
+                  Diſpenſatory; for there it was to <lb/>be boiled much more, which by no means a-
+                  <lb/>grees with volatile ſpicy Ingredients; there was <lb/>alſo as much Honey as
+                  Sugar, and Ginger, with <lb/><hi rend="italic">Calammus Aromaticus</hi>, beſides
+                  the Cinnamon di- <lb/>rected to flavour it with at laſt, by ſuſpending <pb n="50"/>
+                  <lb/>them in a thin Bag, while the Syrup was boiling <lb/>to a ſufficient
+                  Conſiſtence. </q>
+              </p>
+            </div>
+            <div>
+              <head rend="align-center space">
+                <lb/><hi rend="sc">Syrupus</hi> de <hi rend="sc">Symphyto</hi>. </head>
+              <head rend="align-center italic">
+                <lb/>Syrup of Comfrey. </head>
+              <p rend="indent">
+                <lb/>Take of the Roots and Leaves of the greater <lb/>and leſſer Comfrey, each three
+                handsful; of freſh <lb/>Red Roſes, Leaves of Betany, Plantain, Pimper- <lb/>nel,
+                Knot-Graſs, Scabious, and Coltsfoot, each <lb/>two handsful. Bruiſe them; and preſs
+                out their <lb/>Juice; to each Pound of which put one Pound of <lb/>Sugar; and in the
+                boiling take off what Scum ri- <lb/>ſes, until it is of a due Conſiſtence for a
+                Syrup. </p>
+              <p rend="indent space">
+                <lb/>
+                <q rend="diple">This is a Compoſition of <hi rend="italic">Fernelius</hi>, and is
+                  <lb/>continued here as firſt received by the College, <lb/>unleſs with a ſmall
+                  Variation in the Quantity of <lb/>Sugar. </q>
+              </p>
+            </div>
+            <div>
+              <head rend="align-center space sc">
+                <lb/>Syrupus Violarum. </head>
+              <head rend="align-center italic">
+                <lb/>Syrup of Violets. </head>
+              <p rend="indent">
+                <lb/>Take freſh Violet Flowers clean picked one <lb/>Pound, and pour upon them two
+                Pints and an <lb/>half of hot Water: Cover them down cloſe in a <lb/>new earthen
+                glaſed Pot for a whole Day, and then <lb/>ſqueeze out the Liquor with a Preſs; and
+                to every <lb/>Pint of it put two Pounds of fine Sugar, which <lb/>diſſolve in a Bath
+                Heat; and take off what Scum <lb/>ariſes during its Continuance over the Fire. </p>
+              <p rend="indent space">
+                <lb/>
+                <q rend="diple">This hath heretofore been a syrup in mighty <lb/>Eſteem: Moſt make
+                  the Quantity of Water <lb/>juſt ſo much as is ſufficient to ſcald the Flow-
+                  <lb/>ers, and receive their Tincture; and the firſt <lb/>Diſpenſatory of the
+                  College ſo orders it. The <lb/>Colour of this is ſo very nice, that without <pb
+                    n="51"/>
+                  <lb/>great care it may be ſpoiled many ways, but <lb/>chiefly by putting it into
+                  metaline Veſſels, or <lb/>uſing too great a Fire, or continuing it too <lb/>long
+                  upon it. </q>
+              </p>
+            </div>
+            <div>
+              <head rend="align-center space">
+                <lb/><hi rend="sc">Syrupus</hi> è <hi rend="sc">Succo Violarum</hi>. </head>
+              <head rend="align-center italic">
+                <lb/>Syrup of the Juice of Violets. </head>
+              <p rend="indent">
+                <lb/>This is made with the expreſſed Juice, and dou- <lb/>ble the quantity, at
+                leaſt, of Sugar melted in a <lb/>gentle Bath Heat, as directed in the preceding. </p>
+              <p rend="indent space">
+                <lb/>
+                <q rend="diple">It is ſeldom or never made this way; and it <lb/>will not afford ſo
+                  elegant a Colour as the other, <lb/>tho' it ſeems to promiſe more of the Virtues
+                  of <lb/>the Flowers. </q>
+              </p>
+            </div>
+            <div>
+              <head rend="align-center space sc">
+                <lb/>Julepum Violarum. </head>
+              <head rend="align-center italic">
+                <lb/>The Violet Julep. </head>
+              <p rend="indent">
+                <lb/>Take of Violet Flower Water four Pints, and <lb/>one Pound of Sugar, which make
+                into a Julep, <lb/><hi rend="italic">S. A.</hi>
+              </p>
+              <p rend="indent space">
+                <lb/>
+                <q rend="diple">This is a Contrivance of <hi rend="italic">Meſue</hi>, and hath
+                  <lb/>been continued in all the College Diſpenſatories, <lb/>but not, that I ever
+                  knew of, ordered in extem- <lb/>poraneous Practice. </q>
+              </p>
+            </div>
+            <div>
+              <head rend="align-center space sc">
+                <lb/>Syrupus Chalybeatus. </head>
+              <head rend="align-center italic">
+                <lb/>Syrup of Steel. </head>
+              <p rend="indent">
+                <lb/>Take of the Salt of Steel two Drams; diſſolve <lb/>it in one Ounce of compound
+                Gentian Water, and <lb/>add to it nine Ounces of the alterant Syrup of Ap-
+                <lb/>ples. Or otherwiſe, </p>
+              <pb n="52"/>
+              <p rend="indent">
+                <lb/>Take equal Quantities of Steel Wine, and Sugar, <lb/>and boil them into the
+                Conſiſtence of a Syrup. </p>
+              <p rend="indent space">
+                <lb/>
+                <q rend="diple">This latter way is commonly practiſed, but it <lb/>is very apt to
+                  candy, becauſe the more ſpiritu- <lb/>ous any Menſtruum is, it is the leſs ſuited
+                  to diſ- <lb/>ſolve and ſuſpend Sugar: The Salts of the Steel <lb/>likewiſe may
+                  very propably favour that Attracti- <lb/>on that draws the Sugar in Conjuction
+                  there- <lb/>with into Cryſtals. This Syrup was never be- <lb/>fore ordered by the
+                  College, but is ſet down by <lb/><hi rend="italic">Shipton</hi>, in his Appendix
+                  to their laſt Diſpen- <lb/>ſatory. </q>
+              </p>
+            </div>
+            <div>
+              <head rend="align-center space sc">
+                <lb/>Syrupus Balsamicus. </head>
+              <head rend="align-center italic">
+                <lb/>The Balſamick Syrup. </head>
+              <p rend="indent">
+                <lb/>Take of <hi rend="italic">Tolu</hi> Balſam two Ounces, and twelve <lb/>Ounces
+                of Spring Water, or any of the pectoral <lb/>Waters: Boil them together in a
+                circulatory Veſ- <lb/>ſel, well luted, in a Sand Heat for two or three <lb/>Hours.
+                When the ſtrained Liquor is cold, diſ- <lb/>ſolve in it twenty Ounces of fine Sugar,
+                ſo as to <lb/>make it into a Syrup, without any Heat. </p>
+              <p rend="indent">
+                <lb/>
+                <q rend="diple">This hath not been received by the <lb/>College, but is alſo added
+                  by <hi rend="italic">Shipton</hi> to their <lb/>laſt Diſpenſatory amongſt his <hi
+                    rend="italic">Additamenta</hi>. The <lb/>manner of boiling is very juſtly
+                  contrived to pre- <lb/>vent any Loſs of the finer Parts by Exhalation, <lb/>which
+                  it would do in an open Heat. After the <lb/>ſame way may Syrups be made of
+                  Benjamin, Sto- <lb/>rax, or other like Balſams. </q>
+              </p>
+            </div>
+            <pb n="53"/>
+            <div>
+              <head rend="align-center space">
+                <lb/><hi rend="sc">Syrupus</hi> de <hi rend="sc">Peto</hi>. </head>
+              <head rend="align-center italic">
+                <lb/>Syrup of Tobacco. </head>
+              <p rend="indent">
+                <lb/>Take of the Juice of <hi rend="italic">Engliſh</hi> Tobacco three <lb/>Pints;
+                of Simple Oxymel four Ounces; of Mead <lb/>one Pint: Digeſt them together for four
+                Days; <lb/>then to the clear ſtrained Liquor put two Pounds <lb/>of Sugar, and make
+                into a Syrup, <hi rend="italic">S. A.</hi>
+              </p>
+              <p rend="indent space">
+                <lb/>
+                <q rend="diple">This hath been ordered by ſome old Diſpen- <lb/>ſatory Writers, and
+                  practical Authors, but was <lb/>never before received by the College into any
+                  <lb/>Editors of their Diſpenſatory. It is deſigned <lb/>for an <hi rend="italic"
+                    >Emetic</hi>. </q>
+              </p>
+            </div>
+            <div>
+              <head rend="align-center space sc">
+                <lb/>Syrupus Croci. </head>
+              <head rend="align-center italic">
+                <lb/>Syrup of Saffron. </head>
+              <p rend="indent">
+                <lb/>Take of the <hi rend="italic">Engliſh</hi> Saffron one Ounce; infuſe <lb/>it in
+                one Pint of Canary; and digeſt them together <lb/>in a cloſe Veſſel by gentle Heat
+                for three Days: <lb/>Then preſs out the Wine, and diſſolve in it twen- <lb/>ty
+                Ounces of the fineſt Loaf Sugar, ſo as to make <lb/>it into a Syrup. </p>
+              <p rend="indent space">
+                <lb/>
+                <q rend="diple">This hath not before been ordered in any Col- <lb/>lege
+                  Diſpenſatory, although much directed in ex- <lb/>temporaneous Practice: And it
+                  ſeems to be one of <lb/>the beſt of the ſimple Syrups, becauſe capable of
+                  <lb/>containing enough of the Ingredient in one Doſe <lb/>to anſwer ſome Junction
+                  of Conſequence, which <lb/>can be ſaid but of few others. </q>
+              </p>
+              <p rend="indent">
+                <lb/>
+                <q rend="diple">There are what the College have thought fit <lb/>to put
+                  under the Title of <hi rend="italic">Alterant Syrups</hi>; and <lb/>out of this
+                  Claſs they have rejected abundance <lb/>before ordered, as inſignificant and in no
+                  reſpects <lb/>worth the trouble of making. For indeed this <pb n="54"/>
+                  <lb/>Form requires ſo much Sugar for the ſake only <lb/>of preſerving the
+                  Compoſition, without any re- <lb/>gard to its medicinal Intentions, that there is
+                  ve- <lb/>ry little Virtue to be expected from the chief In- <lb/>gredients. So
+                  that inſtead of moſt of the uſual <lb/><hi rend="italic">Alterant Syrups</hi>
+                  Decoctions may be drank in large <lb/>Draughts, without any Inconvenience, the
+                  tenth <lb/>Part of which not be conveniently taken <lb/>at once when loaded with
+                  Sugar enough to pre- <lb/>ſerve it in a Syrup. </q>
+              </p>
+            </div>
+            <figure>
+              <figDesc>An ornamental picture of a lion in the middle of the page. </figDesc>
+            </figure>
+          </div>
+          <gap reason="sampling" unit="pages" quantity="5"/>
+        </div>
+      </div>
+      <gap reason="sampling" unit="pages" quantity="303"/>
+    </body>
+  </text>
+</TEI>

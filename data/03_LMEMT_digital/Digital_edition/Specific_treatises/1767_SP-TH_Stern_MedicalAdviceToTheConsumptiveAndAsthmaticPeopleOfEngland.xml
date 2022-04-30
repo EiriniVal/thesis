@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> LMEMT Corpus - Stern: Medical advice to the consumptive and asthmatic people of England</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>Philip Stern</persName>
+            </author>
+            <title type="main">Medical advice to the consumptive and asthmatic people of England;
+              wherein the present method of treating disorders of the lungs is shewn to be futile
+              and fundamentally wrong, and a new and easy method of cure, proposed by Philip Stern,
+              M.D.</title>
+            <edition n="11"/>
+            <idno type="ESTC">N3449</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/N3454"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>London: Printed for J. ALMON, opposite Burlington House, in Piccadilly. M
+                  DCC LXVII</persName>
+              </publisher>
+              <date>1767</date>
+            </imprint>
+            <extent>
+              <measure type="format">8⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="3"/>
+              <measure type="count" commodity="body" unit="page" quantity="38"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">National Library of Medicine</orgName>
+            <idno type="ECCO">CW3308190381</idno>
+            <idno type="TCP">K002213.000</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Book on a specific topic: medicine"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text xml:lang="eng">
+    <front>
+      <div>
+        <pb xml:id="page_1"/>
+        <p rend="align-center"><lb/><hi rend="dc(2)">MEDICAL ADVICE </hi><lb/>TO THE <lb/><hi
+            rend="sc">Consumptive</hi> and <hi rend="sc">Asthmatic</hi>
+          <lb/><hi rend="sc"><hi rend="dc(2)">People of England</hi></hi>. </p>
+        <p rend="align-center"><lb/>[Price One Shilling.] </p>
+      </div>
+      <div>
+        <pb xml:id="page_3"/>
+        <figure> </figure>
+      </div>
+    </front>
+    <body>
+      <pb xml:id="page_4" n="3"/>
+      <head rend="align-center"><lb/><hi rend="dc(2)">MEDICAL ADVICE</hi>
+        <lb/>To the CONSUMPTIVE <lb/><hi rend="sc"><hi rend="dc(2)">People of England</hi></hi>. </head>
+      <p rend="indent"><lb/><hi rend="dc(3)">I</hi>F it ſhould be asked, why I addreſs <w part="I"
+          >my-</w><lb/><w part="F">ſelf</w> to the Patient, rather than to the <lb/>Phyſician, I
+        anſwer, that, having offended <lb/>the Doctor in my title-page, I preſume he <lb/>will give
+        but little attention to my <w part="I">reaſon-</w><lb/><w part="F">ing</w>; for we liſten
+        very unfavourably to the <lb/>advice of a man who begins by aſſerting, <lb/>that we are <hi
+          rend="italic">fundamentally wrong.</hi> But with <lb/>the Patient, the caſe is different:
+          <w part="I">recollec-</w><lb/><w part="F">ting</w> that conſumptions, in the preſent mode
+        <lb/>of practice, are very rarely cured, he <w part="I">al-</w><lb/><w part="F">moſt</w>
+        aſſents to the truth of my aſſertion, <lb/>even before he has heard the arguments <lb/>upon
+        which it is founded. I ſpeak, <w part="I">there-</w><lb/><w part="F">fore</w>, not
+        immediately to the Phyſician, <w part="I">be-</w><lb/><w part="F">cauſe</w> I do not like
+        that a man ſhould turn <lb/>his back on me when I am talking to him. <lb/>If the Doctor
+        chuſes, whilſt I am <w part="I">converſ-</w><lb/><w part="F">ing</w> with my Patient, to
+        look another way, <lb/>yet <hi rend="italic">ſquint</hi> an ear to my babbling, he is very
+        <lb/>welcome; provide he will not condemn my <pb xml:id="page_5" n="4"/><lb/>practice, till
+        he hath proved its futility by <lb/>experience. </p>
+      <p rend="indent"><lb/>Now though I write not directly to <w part="I">Me-</w><lb/><w part="F"
+          >dical</w> Gentlemen, I eſteem it nevertheleſs <lb/>neceſſary to proceed methodically, and
+          <w part="I">ac-</w><lb/><w part="F">cordingly</w> ſhall premiſe as much of the <w part="I"
+          >ana-</w><lb/><w part="F">tomical</w> and phyſiological deſcription of the <lb/>lungs, as
+        will be ſufficient to enable thoſe, <lb/>who have not had a medical education, to
+        <lb/>comprehend my arguments. I ſhall then <lb/>enquire into the prediſpoſing and <w
+          part="I">immedi-</w><lb/><w part="F">ate</w> cauſes of Conſumptions; ſhall indicate
+        <lb/>the ſymptoms by which the patient may <lb/>be certain of his diſorder, and ſhall laſtly
+        <lb/>proceed to conſider the cure, upon rational <lb/>principles. </p>
+      <p rend="indent"><lb/>The trunk of the human body is divided, <lb/>by a membrane called the
+        diaphragm, into <lb/>two diſtinct cavities, the lower of which <lb/>is called the <hi
+          rend="italic">abdomen,</hi> or belly, and the <w part="I">up-</w><lb/><w part="F">per</w>,
+        the <hi rend="italic">thorax,</hi> or cheſt. The latter of <lb/>theſe cavities contains the
+        heart and the <lb/>lungs. The lungs are divided into two <lb/>principal lobes, which are
+        incloſed in two <lb/>diſtinct bags, formed by a membrane called <lb/>the <hi rend="italic"
+          >pleura;</hi> ſo that the right and left lobe <lb/>of the lungs have not the leaſt <w
+          part="I">communi-</w><lb/><w part="F">cation</w>. The adheſion of theſe bags near <lb/>the
+        middle of the cheſt, forms a <w part="I">perpen-</w><lb/><w part="F">dicular</w> membrane
+        called the <hi rend="italic">mediaſtinum;</hi>
+        <lb/>but receding from each other as they go <lb/>lower down, they form a third bag, called
+          <pb xml:id="page_6" n="5"/><lb/>the <hi rend="italic">pericardium,</hi> which contains the
+        heart: <lb/>ſo that the cheſt is divided into three <w part="I">ſepa-</w><lb/><w part="F"
+          >rate</w> cavities. </p>
+      <p rend="indent"><lb/>The lungs are compoſed of blood veſſels, <lb/>air veſſels, lymphatic or
+        water veſſels, nerves <lb/>and cellular membrane. </p>
+      <p rend="indent"><lb/>The blood veſſels are arteries and veins; <lb/>but theſe are of two
+        diſtinct kinds: the firſt <lb/>receive and return the whole maſs of blood, <lb/>which
+        circulates thro' the lungs, before it <lb/>is thrown into the other parts of the body,
+        <lb/>and the ſecond were intended only for the <lb/>ſupport and nouriſhment of the lungs <w
+          part="I">them-</w><lb/><w part="F">ſelves</w>. </p>
+      <p rend="indent"><lb/>The air veſſels are infinitely ſmall branches <lb/>continued from the
+        wind-pipe, with which, <lb/>in a ſound ſtate, they have a free <w part="I">commu-</w><lb/><w
+          part="F">nication</w>, ſo as at every inſpiration to be <lb/>filled with air. </p>
+      <p rend="indent"><lb/>The lymphatic veſſels are diſtributed on <lb/>the ſurface of the lungs,
+        and convey the <lb/>lymph, which they imbibe, to a certain <lb/>duct, whence it is returned
+        to the maſs of <lb/>blood. </p>
+      <p rend="indent"><lb/>The nerves are exceeding ſmall branches, <lb/>which proceed chiefly from
+        what is called <lb/>the eighth pair. </p>
+      <p rend="indent"><lb/>The cellular membrane, which fills the <lb/>intermediate parts between
+        the veſſels, is <lb/>compoſed of fibres or lamina, which are <lb/>neither vaſcular, nor
+        endowed with <w part="I">ſenſi-</w><lb/><w part="F">bility</w>. </p>
+      <pb xml:id="page_7" n="6"/>
+      <p rend="indent"><lb/>The <hi rend="italic">aſpera-arteria,</hi> or wind-pipe, is that
+        <lb/>tube which conveys the air paſſing thro' <lb/>the mouth, or noſe, to and from the
+        lungs. <lb/>It is compoſed of alternate cartilaginous <lb/>and fleſhy rings, behind which
+        are an <w part="I">infi-</w><lb/><w part="F">nite</w> number of ſmall glands, which <w
+          part="I">ſup-</w><lb/><w part="F">ply</w> the wind-pipe with a thin pellucid <w part="I"
+          >mu-</w><lb/><w part="F">cus</w> lining its internal ſurface, which <w part="I"
+          >con-</w><lb/><w part="F">ſiſts</w> of a membrane of exquiſite ſenſibility. </p>
+      <p rend="indent"><lb/>Thus much being premiſed, we ſhall now <lb/>proceed to the office and
+        utility of the lungs, <lb/>which are neceſſary to be underſtood, <w part="I">be-</w><lb/><w
+          part="F">fore</w> we ſpeak of its diſeaſes. </p>
+      <p rend="indent"><lb/>The organs of reſpiration are ſo <w part="I">indiſ-</w><lb/><w part="F"
+          >penſably</w> neceſſary to our exiſtence, it is no <lb/>wonder that phyſiologiſts ſhould
+        have taken <lb/>uncommon pains to diſcover the real deſign <lb/>of nature in their
+        formation. Various have <lb/>been the conjectures of authors on this <w part="I"
+          >ſub-</w><lb/><w part="F">ject</w>. Some have ſuppoſed, that the blood <lb/>in paſſing
+        thro' the lungs acquires its red <lb/>colour; others have been of opinion, that <lb/>the
+        intention of reſpiration is to receive a <lb/>certain quantity of air, which they <w
+          part="I">ima-</w><lb/><w part="F">gined</w> neceſſary to be mixed with the vital
+        <lb/>fluid; with many other ſuppoſitions <w part="I">equal-</w><lb/><w part="F">ly</w>
+        without foundation. That nature, by <lb/>firſt circulating the blood thro' the lungs,
+        <lb/>after the reception of freſh chyle, intend <lb/>ſome neceſſary preparation may be <w
+          part="I">con-</w><lb/><w part="F">cluded</w> without farther examination; and <lb/>that
+        this preparation is effected by <w part="I">throw-</w><pb xml:id="page_8" n="7"/><lb/><w
+          part="F">ing</w> off a certain quantity of noxious <w part="I">mat-</w><lb/><w part="F"
+          >ter</w>, imbibed by the air which is received <lb/>by the lungs, ſeems evident from the
+          <w part="I">ex-</w><lb/><w part="F">periments</w> which prove, that air once <w part="I"
+          >ſatu-</w><lb/><w part="F">rated</w> with this noxious matter, is unfit for
+        <lb/>reſpiration. The notion that animals, when <lb/>confined to breathe the ſame air, die
+          <w part="I">be-</w><lb/><w part="F">cauſe</w> the elaſticity of the air is deſtroyed,
+        <lb/>is entirely without foundation; it being <lb/>very eaſy to prove, that the elaſticity
+        of the <lb/>air is not in the leaſt diminiſhed. The uſe <lb/>therefore of reſpiration, is to
+        relieve the <lb/>body from a certain matter, perſpirable <w part="I">on-</w><lb/><w part="F"
+          >ly</w> from the lungs, which, if entirely <w part="I">re-</w><lb/><w part="F">tained</w>,
+        is incompatible with exiſtance, and, <lb/>when retained in part, is productive of <w
+          part="I">diſ-</w><lb/><w part="F">eaſe</w>. It is ſeparated from the blood by <lb/>means
+        of ſmall ducts paſſing from the <w part="I">pul-</w><lb/><w part="F">monary</w> arteries to
+        the air veſſels, where it <lb/>is diſſolved and carried off by the air. The <lb/>exiſtence
+        of theſe ducts is eaſily <w part="I">demonſtra-</w><lb/><w part="F">ted</w>, by injecting
+        almoſt any liquor into the <lb/>pulmonary artery, which liquor may, <w part="I"
+          >with-</w><lb/><w part="F">out</w> much difficulty, be made thus to fill <lb/>the branches
+        of the wind-pipe. </p>
+      <p rend="indent"><lb/>Suppoſing that we are now pretty well <lb/>acquainted with the fabric
+        and office of the <lb/>lungs, we may, I think, with ſafety, <w part="I">pro-</w><lb/><w
+          part="F">ceed</w> to the more immediately object of our <lb/>attempt. </p>
+      <p rend="indent"><lb/>The general prediſpoſing cauſes of a <w part="I">con-</w><lb/><w
+          part="F">ſumption</w> of the lungs are to be ſought for <pb xml:id="page_9" n="8"/><lb/>in
+        the original formation of the body, the <lb/>acrimony of the juices, or the age of the
+        <lb/>patient. As to the firſt of theſe cauſes, <lb/>without reaſoning about the matter, it
+        is <lb/>ſufficient for our purpoſe to obſerve, that <lb/>people of a ſlender and delicate
+        frame, <lb/>whoſe skin appears remarkably tranſparent, <lb/>whoſe cheſt is flat and narrow,
+        and <w part="I">ſhoul-</w><lb/><w part="F">ders</w> high, are in general more ſubject to
+        <lb/>this diſeaſe than people of a contrary make; <lb/>becauſe, ſay the learned, the veſſels
+        of the <lb/>lungs are, in ſuch bodies, too fine and too <lb/>weak, to reſiſt the impetus of
+        the blood, <lb/>flowing with great rapidity thro' the organ <lb/>of reſpiration; a rupture
+        of the veſſels, a <lb/>ſpitting of blood, &amp;c. are the conſequence. <lb/>The ſame effects
+        may be produced by an <lb/>extraordinary acrimony in the fluids, which <lb/>may corrode the
+        veſſels; and as to the third <lb/>cauſe, it is attributed to the fervor of the <lb/>blood,
+        which is ſuppoſed to be greateſt at <lb/>the age when people are moſt liable to <w part="I"
+          >con-</w><lb/><w part="F">ſumptions</w>. To a ſagacious reader, part of <lb/>this
+        reaſoning will appear plauſible, and <lb/>part otherwiſe. But theſe are remote cauſes
+        <lb/>which are equally applicable to all <w part="I">coun-</w><lb/><w part="F">tries</w>,
+        and which do not in the leaſt aſſiſt <lb/>us in accounting for the peculiar <w part="I"
+          >conſump-</w><lb/><w part="F">tive</w> propenſity in the inhabitants of this <lb/>iſland. </p>
+      <p rend="indent"><lb/>This propenſity muſt be accounted for, <lb/>not by any prediſpoſition in
+        the make of <pb xml:id="page_10" n="9"/><lb/>our bodies, but by what is called a <w part="I"
+          >pro-</w><lb/><w part="F">catarctic</w> or occaſional cauſe, namely, the <lb/>inſtability
+        of our climate, or rather its <w part="I">im-</w><lb/><w part="F">mediate</w> effect, a
+        Cold, to which, I am <w part="I">con-</w><lb/><w part="F">vinced</w>, the frequency of
+        Conſumptions, in <lb/>this kingdom, is chiefly to be attributed. </p>
+      <p rend="indent"><lb/>What is a Cold, and what are its effects? </p>
+      <p rend="indent"><lb/>The queſtions are of importance; let us <lb/>not, therefore, be too
+        precipitate. <w part="I">Expe-</w><lb/><w part="F">rience</w>, our beſt inſtructor, hath
+        taught us, <lb/>that nothing is ſo detrimental to the human <lb/>body, as ſudden tranſitions
+        from one <w part="I">ex-</w><lb/><w part="F">treme</w> to another; but it is particularly
+        true <lb/>in regard to heat and cold. The natural <lb/>effect of warm air is to relax the
+        skin, <w part="I">con-</w><lb/><w part="F">ſequently</w> to open our pores, and <w part="I"
+          >conſe-</w><lb/><w part="F">quently</w> to increaſe our perſpiration; an <lb/>effect which
+        may reaſonably be ſuppoſed to <lb/>take place equally in the lungs, as on the <lb/>ſurface
+        of the body. When the body, in <lb/>this ſtate, is ſuddenly expoſed to a cold air, <lb/>the
+        conſequence is an immediate ſpaſm over <lb/>its whole ſurface. The pores are obſtinately
+        <lb/>cloſed, and the perſpirable matter is <w part="I">gra-</w><lb/><w part="F">dually</w>
+        returned into the maſs of blood. </p>
+      <p rend="indent"><lb/>That this perſpirable matter is of an <w part="I">ex-</w><lb/><w
+          part="F">ceeding</w> acrid nature, is evident from its <lb/>effects. By irritating the
+        veſſels, it <w part="I">in-</w><lb/><w part="F">creaſes</w> their oſcillations, which,
+        increaſing <lb/>the circulation, produces fever. Its <w part="I">acri-</w><lb/><w part="F"
+          >mony</w> appears even in the very firſt <w part="I">ſymp-</w><lb/><w part="F">tom</w> of
+        a Cold. The pores of the head have <pb xml:id="page_11" n="10"/><lb/>ſcarce been cloſed a
+        moment, before the <lb/>perſpirable matter, falling upon the <w part="I">mem-</w><lb/><w
+          part="F">brane</w> which lines the noſe, cauſes, by its <lb/>irritation, that convulſive
+        motion which we <lb/>call Sneezing. It returns upon the glands <lb/>about the wind-pipe, and
+        iſſuing thence <lb/>excites another convulſive motion, called a <lb/>Cough; which are
+        different efforts of <w part="I">na-</w><lb/><w part="F">ture</w> to rid herſelf of the
+        offending cauſe. <lb/>In oozing down the wind-pipe, it deſtroys <lb/>the mucus, therefore we
+        are hoarſe; and <lb/>by inflaming the membrane which lines the <lb/><hi rend="italic"
+          >trachia,</hi> occaſions that ſenſation of ſoreneſs <lb/>in the breaſt, which we feel in a
+        few hours <lb/>after taking cold. Thus continually <w part="I">deſ-</w><lb/><w part="F"
+          >cending</w>, it enters the branches of air <w part="I">veſ-</w><lb/><w part="F">ſels</w>,
+        and diffuſing itſelf to every part of the <lb/>lungs, occaſions the cough, which we ſo
+        <lb/>eaſily diſtinguiſh from that which proceeds <lb/>from an irritation in the upper part
+        of the <lb/>wind-pipe, and which we call a tickling <lb/>cough. </p>
+      <p rend="indent"><lb/>We are not however to imagine, that <lb/>this acrid lymph, which falls
+        from above, <lb/>is the ſole cauſe of irritation in the lungs. <lb/>On the contrary, it is
+        more probable, that <lb/>they are principally offended by the <w part="I">acri-</w><lb/><w
+          part="F">mony</w> of that which iſſues from their own <lb/>peculiar glands; for in ſevere
+        colds, that <lb/>is, when the obſtruction of perſpiration is <lb/>almoſt univerſal, for it
+        is never entirely ſo; <lb/>in ſuch caſes, I ſay, every humour in the <pb xml:id="page_12"
+          n="9"/><lb/>body is contaminated; and that very mucus <lb/>which, in health, prevents
+        irritation in the <lb/>air veſſels of the lungs, is now the <w part="I">princi-</w><lb/><w
+          part="F">pal</w> cauſe. </p>
+      <p rend="indent"><lb/>Inflammation is the natural conſequence <lb/>of this continued
+        irritation, which as <w part="I">na-</w><lb/><w part="F">turally</w> produces a
+        ſuperabundant ſecretion <lb/>of mucus, and which, if not conſtantly ſpit <lb/>up, ſuffocates
+        the patient. When theſe <lb/>ſymptoms are violent, the diſeaſe is called <lb/>a
+        peripneumony. But if this <w part="I">inflamma-</w><lb/><w part="F">tion</w> continues
+        beyond a certain time, the <lb/>veſſels are deſtroyed, and become diſſolved <lb/>in a kind
+        of matter-called <hi rend="italic">pus.</hi>
+      </p>
+      <p rend="indent"><lb/>Thus we are arrived at the immediate, <lb/>or proximate, cauſe of a
+        Conſumption of <lb/>the ſubſtance of the lungs. But here it <lb/>may naturally be asked, how
+        it happens, <lb/>when a part of an organ, ſo indiſpenſibly <lb/>neceſſary to life, is
+        deſtroyed, that the <w part="I">pa-</w><lb/><w part="F">tient</w> does not immediately die?
+        I anſwer, <lb/>that Nature, in this inſtance, has been <w part="I">par-</w><lb/><w part="F"
+          >ticularly</w> kind to us; for the two lobes of <lb/>the lungs having no communication,
+        are <lb/>not immediately affected by each other's <w part="I">diſ-</w><lb/><w part="F"
+          >eaſes</w>; beſides, every minute branch of the <lb/>ſame lobe is ſo contrived, as to
+        perform its <lb/>office independent of the reſt; therefore <lb/>every ſingle veſſel
+        continues to receive and <lb/>return its portion of air, till it be actually <lb/>deſtroyed.
+        Hence it is, that in diſſecting <lb/>of bodies which have died conſumptive, we <pb
+          xml:id="page_13" n="10"/><lb/>frequently find a conſiderable part of the <lb/>lungs
+        entirely deſtroyed. Indeed the <w part="I">ap-</w><lb/><w part="F">pearance</w> of the lungs
+        in thoſe who have <lb/>died of this diſeaſe, is ſo various, that tho' <lb/>it may be but of
+        one genus, the number of <lb/>ſpecies are extremely numerous, if we may <lb/>conclude from
+        the diverſity of phenomena <lb/>upon diſſection. Sometimes we find the <lb/>texture of a
+        part of the lungs entirely <w part="I">de-</w><lb/><w part="F">ſtroyed</w>, and nothing but
+        a collection of <lb/>purulent matter in its place, <w part="I">communicat-</w><lb/><w
+          part="F">ing</w> with the wind-pipe, ſo as to fill it on <lb/>laying the head downward. At
+        other times, <lb/>we diſcover a quantity of matter incloſed in <lb/>a kind of bag. Sometimes
+        this matter is <lb/>contained in a number of ſmall follicles, <lb/>and at others, it may be
+        ſqueezed from <lb/>every part, and the texture of the lungs but <lb/>little injured. In ſome
+        caſes, we find a <w part="I">num-</w><lb/><w part="F">ber</w> of ſmall hard lumps; in
+        others, large <lb/>indurations, and ſometimes tumours that <lb/>are abſolutely cancerous. In
+        ſhort, as I <lb/>have before obſerved, the variety of <w part="I">ap-</w><lb/><w part="F"
+          >pearances</w> is infinite, eſpecially if we <w part="I">in-</w><lb/><w part="F">clude</w>
+        colour. </p>
+      <p rend="indent"><lb/>However, notwithſtanding this great <w part="I">di-</w><lb/><w part="F"
+          >verſity</w>, the proximate cauſe of that ſpecies <lb/>of Conſumption which is ſo
+        frequent, and <lb/>ſo fatal, in this kingdom, is an ulcer in the <lb/>lungs, in conſequence
+        of inflammation, <w part="I">oc-</w><lb/><w part="F">caſioned</w> by a cold, or, in other
+        words, by <lb/>a greater flux of acrid perſpirable matter to <pb xml:id="page_14" n="11"
+        /><lb/>the lungs, than can be abſorbed and <w part="I">car-</w><lb/><w part="F">ried</w> off
+        by the air. It is alſo poſſible, that <lb/>a part of this matter may be confined near
+        <lb/>the extremities of the air veſſels, by a <w part="I">ſpaſ-</w><lb/><w part="F"
+          >modic</w> conſtriction in the upper part, <w part="I">occa-</w><lb/><w part="F"
+          >ſioned</w> by the ſudden admiſſion of cold air. <lb/>When this is the caſe, an incloſed
+        ulcer, or <lb/><hi rend="italic">vomica,</hi> is the conſequence. </p>
+      <p rend="indent"><lb/>Having proceeded thus far in the <w part="I">conſi-</w><lb/><w part="F"
+          >deration</w> of our ſubject, and, I think, <w part="I">with-</w><lb/><w part="F">out</w>
+        ſtraining our text, we are now naturally <lb/>led from the <hi rend="italic">cauſe,</hi> to
+        the <hi rend="italic">cure</hi> of our <w part="I">diſ-</w><lb/><w part="F">eaſe</w>. And
+        firſt it may not be amiſs to <w part="I">en-</w><lb/><w part="F">quire</w> a little into the
+        foundation of the <w part="I">ge-</w><lb/><w part="F">neral</w> practice. </p>
+      <p rend="indent"><lb/>The firſt thought, which naturally <w part="I">oc-</w><lb/><w part="F"
+          >curs</w>, is, that this general practice is <w part="I">gene-</w><lb/><w part="F"
+          >rally</w> unſucceſſful; and we thence as <w part="I">natu-</w><lb/><w part="F">rally</w>
+        conclude, that it muſt be <w part="I">fundamen-</w><lb/><w part="F">tally</w> wrong. </p>
+      <p rend="indent"><lb/>If the inflammation be violent, <w part="I">compar-</w><lb/><w part="F"
+          >ing</w> it with inflammations in other parts of <lb/>the body, and reaſoning from
+        analogy, the <lb/>firſt thing we do is to bleed, and ſo far we <lb/>are right, as by
+        leſſening the quantity of <lb/>blood, we leſſen the impetus of the <w part="I"
+          >remain-</w><lb/><w part="F">ing</w> part, and thereby retard the progreſs of <lb/>the
+        diſeaſe for a time; but alas! the time <lb/>is very ſhort. The pulſe ſoon recovers its
+        <lb/>velocity and ſtrength. Well; but then we <lb/>adminiſter a quantity of ſaccharine, oily
+        <lb/>and mucilaginous medicines, in the form <pb xml:id="page_15" n="12"/><lb/>of an
+        emulſion, or otherwiſe, intending, <lb/>no doubt, thereby to ſheathe and obtund <lb/>the
+        acrimony which cauſes the irritation in <lb/>the lungs. The intention is certainly <w
+          part="I">lau-</w><lb/><w part="F">dable</w>; but it happens unfortunately that <lb/>theſe
+        balſamics go down, not into the lungs, <lb/>but into the ſtomach, where they <w part="I"
+          >imme-</w><lb/><w part="F">diately</w> undergo ſuch a change, as to carry <lb/>but little
+        of their balſamic qualities even <lb/>into the inteſtines, where they are ſtill <w part="I"
+          >far-</w><lb/><w part="F">ther</w> mixed and adulterated, particularly by <lb/>the
+        addition of a certain quantity of bile, <lb/>immediately on quitting the ſtomach. </p>
+      <p rend="indent"><lb/>But to proceed. Let us ſuppoſe theſe <lb/>demulcents already in the
+        inteſtines. What <lb/>becomes of them? They muſt either be <lb/>received by the lacteal
+        veſſels, or paſs off <lb/><hi rend="italic">per anum;</hi> the latter of which is the way
+        <lb/>choſen by the greateſt part of them, <w part="I">con-</w><lb/><w part="F">trary</w> to
+        the intention of the phyſician. <lb/>Happily for mankind, theſe lacteal veſſels <lb/>are
+        endowed with a kind of mechanical <lb/>ſagacity, which enables them to ſelect from <lb/>that
+        heterogeneous maſs of food and <w part="I">medi-</w><lb/><w part="F">cines</w>, conſtantly
+        preſented to them by the <lb/>ſtomach, ſuch matter only, under the <w part="I"
+          >de-</w><lb/><w part="F">nomination</w> of chyle, as is fit to be <w part="I"
+          >aſſimu-</w><lb/><w part="F">lated</w> with the blood. </p>
+      <p rend="indent"><lb/>Here I ſhall be interrupted with an <w part="I">ob-</w><lb/><w part="F"
+          >jection</w>, that the lacteals are capable of <w part="I">ad-</w><lb/><w part="F"
+          >mitting</w> poiſonous matter, and conveying it <lb/>to the heart, to the immediate
+        deſtruction <pb xml:id="page_16" n="13"/><lb/>of the body. To this objection (having
+        <lb/>firſt hinted, that moſt poiſons are <w part="I">deſtruc-</w><lb/><w part="F">tive</w>
+        from their immediate action on the <lb/>nerves in the ſtomach) I anſwer, that <w part="I"
+          >Na-</w><lb/><w part="F">ture</w> acts, not by partial, but by general <lb/>laws. Thoſe
+        who are incapable of <w part="I">apply-</w><lb/><w part="F">ing</w> this argument, deſerve
+        no other reply. </p>
+      <p rend="indent"><lb/>Let us now ſuppoſe, that a ſmall portion <lb/>of our balſamics has
+        gained admittance <lb/>through the mouths of the lacteals. Thence <lb/>it is conveyed into
+        the glands of the <w part="I">me-</w><lb/><w part="F">ſentery</w>, and having been ſecerned
+        through <lb/>ſeveral of theſe, it riſes into a certain <w part="I">re-</w><lb/><w part="F"
+          >ceptacle</w>, whence it is conducted into a vein <lb/>under the left arm, and thus mixes
+        with <lb/>the blood. It now ſoon reaches the heart, <lb/>and from thence, thus mingled with
+        blood, <lb/>it paſſes thro' the lungs. I ſay <hi rend="italic">through</hi> the <lb/>lungs;
+        becauſe it is immediately returned <lb/>to the heart, thence to be diſtributed thro'
+        <lb/>the reſt of the body. </p>
+      <p rend="indent"><lb/>Now it muſt be remembered, that the <lb/>ſeat of the diſorder which, by
+        theſe <w part="I">heal-</w><lb/><w part="F">ing</w> medicines, we are endeavouring to cure,
+        <lb/>is not in the blood veſſels, but in the air <lb/>veſſels of the lungs; and that theſe
+        air <w part="I">veſ-</w><lb/><w part="F">ſels</w> have no communication with the <w part="I"
+          >arte-</w><lb/><w part="F">ries</w>, except by means of tubes or pores ſo <lb/>extremely
+        ſmall, as not to admit the red <lb/>globules of the blood; conſequently the <lb/>conſtituent
+        particles of our medicine muſt <lb/>be ſmaller than theſe, otherwiſe no part of <pb
+          xml:id="page_17" n="14"/><lb/>it can poſſibly be thus applied to the part <lb/>injured.
+        But we have ſaid, that a liquor <lb/>may, by injection through the <w part="I"
+          >pulmo-</w><lb/><w part="F">nary</w> artery, be forced into the <hi rend="italic"
+          >bronchia:</hi>
+        <lb/>true; but this liquor paſſes colourleſs, <w part="I">al-</w><lb/><w part="F">ways</w>
+        depoſiting in its paſſage the matter <lb/>with which it was tinged. </p>
+      <p rend="indent"><lb/>Theſe things being properly conſidered, <lb/>let me now ask the reader,
+        whether he <lb/>thinks it probable, that even the leaſt <w part="I">be-</w><lb/><w part="F"
+          >nefit</w> can rationally be expected from <w part="I">ſac-</w><lb/><w part="F"
+          >charine</w>, oily, mucilaginous, or balſamic <lb/>medicines, thus applied? </p>
+      <p rend="indent"><lb/>What then is to be done? Has Nature <lb/>been ſo unkind, particularly to
+        the <w part="I">inhabi-</w><lb/><w part="F">tants</w> of this iſland, as to afflict us with
+        a <lb/>diſeaſe for which there is no remedy? I <lb/>verily believe ſhe has not been ſo
+        unkind. <lb/>The fault is not in Nature, but in ourſelves; <lb/>or, perhaps, rather in the
+        difficulty of the <lb/>task: for we cannot ſuppoſe, in the preſent <lb/>improved ſtate of
+        chemiſtry and anatomy, <lb/>that all thinking men are not perfectly <w part="I"
+          >ſen-</w><lb/><w part="F">ſible</w> of the improbability, I had almoſt ſaid
+        <lb/>impoſſibility, of applying demulcents to the <lb/>lungs through the alimentary canal:
+        nor is <lb/>it more reaſonable to ſuppoſe them <w part="I">forget-</w><lb/><w part="F"
+          >ful</w>, that the only poſſible way of applying <lb/>medicines directly to the lungs, is
+        through <lb/>the wind-pipe. But, as I have before <w part="I">ob-</w><lb/><w part="F"
+          >ſerved</w>, they have been prevented from <w part="I">at-</w><pb xml:id="page_18" n="15"
+          /><lb/><w part="F">tempting</w> this obvious method, by the <w part="I">dif-</w><lb/><w
+          part="F">ficulties</w> which occurred in the execution. </p>
+      <p rend="indent"><lb/>To convey any palpable ſolid or liquid <lb/>ſubſtance through the
+        wind-pipe into the <lb/>lungs, we know to be impoſſible; for that <lb/>if the leaſt crumb of
+        bread, or drop of any <lb/>liquor, happens by accident to enter the <lb/><hi rend="italic"
+          >glottis,</hi> a violent cough is immediately <w part="I">ex-</w><lb/><w part="F"
+          >cited</w>, till the offending matter be rejected. <lb/>But we alſo know, that impalpable
+        volatile <lb/>matter is inceſſantly carried to and from the <lb/>lungs, along with the air;
+        every ſubſtance <lb/>therefore that can be volatilized, may be <lb/>conveyed directly to the
+        lungs. Aqueous <lb/>liquors may be eaſily converted into vapour, <lb/>and vapour may be
+        impregnated with great <lb/>variety of medicinal ſubſtances. </p>
+      <p rend="indent"><lb/>On theſe conſiderations, it ſhould now <lb/>ſeem, that the whole myſtery
+        is at once <lb/>diſcovered, and that we have nothing more <lb/>to do, than to convert our
+        proper medicines <lb/>into vapour, and ſo convey them directly <lb/>to the diſeaſed part.
+        Alas! there are many <lb/>conſiderable obſtacles yet to ſurmount, as <lb/>will appear from a
+        chemical view of the <lb/>medicines in queſtion. </p>
+      <p rend="indent"><lb/>Let us ſuppoſe, that our patient, having <lb/>caught a ſevere cold,
+        labours under an <w part="I">in-</w><lb/><w part="F">flammation</w> of that membrane or skin
+        which <lb/>is continued from the mouth, down the <lb/>wind-pipe, into the <hi rend="italic"
+          >bronchia,</hi> and that this <pb xml:id="page_19" n="16"/><lb/>inflammation is chiefly in
+        the lungs. Or <lb/>let us ſuppoſe, that the irritating matter is <lb/>not ſufficiently acrid
+        to produce much <w part="I">in-</w><lb/><w part="F">flammation</w>; but only, a
+        ſuperabundant <w part="I">ſe-</w><lb/><w part="F">cretion</w> of acrid mucus. Or, let us
+        farther <lb/>ſuppoſe, that the lungs are actually <w part="I">ulce-</w><lb/><w part="F"
+          >rated</w>. In theſe ſeveral ſtages, or degrees <lb/>of the diſorder, what are the
+        indications? </p>
+      <p rend="indent"><lb/>Our endeavours to reſtore the obſtructed <lb/>perſpiration, is
+        undoubtedly rational; but <lb/>our medicines, given with this intention, <lb/>commonly fail.
+        They excite indeed a <w part="I">co-</w><lb/><w part="F">pious</w> ſweat; but the fluid thus
+        determined <lb/>to the ſurface of the body, is totally <w part="I">dif-</w><lb/><w part="F"
+          >ferent</w> from that volatile matter which, in <lb/>a ſound ſtate, exhales particularly
+        from the <lb/>lungs, and to the diminution of which <w part="I">ex-</w><lb/><w part="F"
+          >halation</w>, the diſeaſe in queſtion is ſolely to <lb/>be attributed. But what is the
+        preſent <lb/>danger? It is, that the inflammation may <lb/>end in ſuppuration; or that the
+        acrid <w part="I">mat-</w><lb/><w part="F">ter</w> may be obſtructed by mucus, or ſpaſm,
+        <lb/>and ſo corrode, indurate, or deſtroy the <lb/>ſubſtance of the lungs. The immediate
+        <lb/>indication therefore is, if poſſible, to <w part="I">pre-</w><lb/><w part="F">vent</w>
+        theſe conſequences; which I preſume <lb/>can only be effected, by the application of
+        <lb/>antiſeptic (that is medicines which reſiſt <lb/>putrefaction) antiſpaſmodic,
+        attenuating, <lb/>and balſamic medicines, directly to the part <lb/>affected. </p>
+      <pb xml:id="page_20" n="19"/>
+      <p rend="indent"><lb/>With regard to the firſt, <hi rend="italic">viz.</hi> antiſeptics,
+        <lb/>there is no difficulty, the moſt powerful of <lb/>them (I ſpeak from experience) being
+        in <lb/>their nature volatile. Antiſpaſmodies and <lb/>attenuants are equally eaſy of
+        conveyance; <lb/>ſo that the ſole difficulty lies in our <w part="I">balſa-</w><lb/><w
+          part="F">mic</w> medicines, which are very refractory, <lb/>but of great importance. </p>
+      <p rend="indent"><lb/>Gums, mucilages, and expreſt oils, are, <lb/>by no means, volatile: nor
+        would I, in the <lb/>preſent caſe, give one farthing to find them <lb/>otherwiſe; as they
+        would, at any rate, be <lb/>totally unfit for our preſent purpoſe. Our <lb/>whole attention
+        therefore is fixed on the <lb/>reſinous native balſams; but not <w part="I"
+          >indiſcri-</w><lb/><w part="F">minately</w>. Thoſe who have beſtowed ſo <lb/>much
+        attention on them as myſelf, will <lb/>find them extremely different in their <w part="I"
+          >che-</w><lb/><w part="F">mical</w> properties and effects on the human <lb/>body.
+        Beſides, they are rarely to be met <lb/>with genuine; and a thorough knowledge <lb/>of them
+        is only to be acquired by long <w part="I">ex-</w><lb/><w part="F">perience</w> and frequent
+        examination. </p>
+      <p rend="indent"><lb/>The chief of the liquid balſams are, <w part="I">Bal-</w><lb/><w
+          part="F">ſam</w> of Gilead, of Copaiba, of Peru, of <w part="I">To-</w><lb/><w part="F"
+          >lu</w>, of Canada; and the dry balſams are <lb/>Benjoine, Storax, Labdanum, Myrrh and
+        <lb/>Maſtich, and the Terpentines. But though <lb/>theſe ſeveral ſubſtances are much alike
+        in <lb/>their chemical properties, yet they differ <w part="I">eſ-</w><lb/><w part="F"
+          >ſentially</w> in their medical virtues, which is <lb/>eaſily accounted for, from the
+        difference in <pb xml:id="page_21" n="20"/><lb/>quantity and quality of the etherial oil
+        <lb/>which they contain. </p>
+      <p rend="indent"><lb/>The chemical properties, as far as they <lb/>are commonly known, of
+        theſe fragrant <lb/>reſins or balſams are, that they are <w part="I">inflam-</w><lb/><w
+          part="F">mable</w>, diſſoluble in rectified ſpirits, but <lb/>not in water. Now, this
+        being the caſe, <lb/>ſuppoſing, even after a thouſand <w part="I">experi-</w><lb/><w
+          part="F">ments</w>, that we have fixed upon thoſe whoſe <lb/>oils are leaſt acrid, and
+        which, in every <lb/>reſpect, are beſt fitted for our purpoſe, how <lb/>ſhall we poſſibly
+        contrive to convey them <lb/>to the lungs in a proper vehicle? They will <lb/>not diſſolve
+        in water, and the vapour of <lb/>ſpirit of wine is much too ardent and <w part="I"
+          >in-</w><lb/><w part="F">flammatory</w>. </p>
+      <p rend="indent"><lb/>If indeed we had remained ſatisfied with <lb/>theſe general properties,
+        without farther <lb/>enquiry, we ſhould ſtill have believed, with <lb/>our neighbours, that
+        the attempt was <w part="I">im-</w><lb/><w part="F">practicable</w>; that it was impoſſible
+        to apply <lb/>an efficacious remedy directly to the lungs, <lb/>and conſequently that
+        conſumptions were <lb/>incurable. </p>
+      <p rend="indent"><lb/>Ever ſince I was capable of enquiry, it <lb/>hath been a conſtant maxim
+        with me, to <lb/>take nothing for granted, upon any <w part="I">autho-</w><lb/><w part="F"
+          >rity</w> whatſoever. Upon this principal, I <w part="I">be-</w><lb/><w part="F">gan</w>
+        my experimental diſquiſitions relative <lb/>to the ſubject in queſtion, being fully <w
+          part="I">per-</w><lb/><w part="F">ſuaded</w>, for reaſons which will hereafter
+        <lb/>appear, that if I could find means to <w part="I">con-</w><pb xml:id="page_22" n="21"
+          /><lb/><w part="F">vey</w> the beſt of theſe native fragrant <w part="I">bal-</w><lb/><w
+          part="F">ſams</w> to the lungs, in a mild and truely <w part="I">bal-</w><lb/><w part="F"
+          >ſamic</w> ſtate, the conſumptive people of this <lb/>iſland might expect conſiderable
+        benefit from <lb/>my ſucceſs. </p>
+      <p rend="indent"><lb/>Were I to relate the many fruitleſs <w part="I">ex-</w><lb/><w part="F"
+          >periments</w> I have made, ſince I firſt <w part="I">en-</w><lb/><w part="F">gaged</w> in
+        this enquiry, the reader would <lb/>be ſurprized at my patience and <w part="I"
+          >perſeve-</w><lb/><w part="F">rance</w>; but it would anſwer no other <w part="I"
+          >pur-</w><lb/><w part="F">poſe</w>. Let it ſuffice therefore to tell him, <lb/>that I, at
+        laſt, hit upon a certain <w part="I">chemi-</w><lb/><w part="F">cal</w> liquor, which, to my
+        great <w part="I">aſtoniſh-</w><lb/><w part="F">ment</w>, diſſolved at leaſt double the <w
+          part="I">quan-</w><lb/><w part="F">tity</w>, of the balſamic reſins which I had <w
+          part="I">ſe-</w><lb/><w part="F">lected</w>, to any menſtruum which I had <lb/>ever tried
+        or heard of. The pleaſure I felt <lb/>upon this diſcovery, can only be conceived <lb/>by
+        thoſe who have had the happineſs to <lb/>extend, in any degree, the path of <w part="I"
+          >know-</w><lb/><w part="F">ledge</w>. It immediately occurred to me, <lb/>that the
+        diſcovery of ſo powerful a <w part="I">men-</w><lb/><w part="F">ſtruum</w>, would not only
+        be a conſiderable <lb/>ſtep in my preſent purſuit, but might <w part="I">pro-</w><lb/><w
+          part="F">bably</w> prove of ſingular advantage to <w part="I">me-</w><lb/><w part="F"
+          >dicine</w> in general. But what added greatly <lb/>to my expectations was, that this
+        liquor <lb/>happens to be of exceeding volatility, not <lb/>at all inflammatory, and
+        remarkably <w part="I">anti-</w><lb/><w part="F">ſeptic</w>, and antiſpaſmodic. </p>
+      <p rend="indent"><lb/>Thus far, I had obtained every thing <lb/>that I could wiſh. My
+        ſolution, however, <lb/>was too ſtrong for the purpoſe I intended. <pb xml:id="page_23"
+          n="22"/><lb/>I therefore, by way of experiment, <w part="I">drop-</w><lb/><w part="F"
+          >ped</w> a few drops of it into boiling water, <lb/>and found, beyond all poſſibility of a
+        doubt, <lb/>that the ſteam was richly impregnated, both <lb/>with the antiſpaſmodic and
+        antiſeptic <w part="I">qua-</w><lb/><w part="F">lities</w> of the menſtruum, and alſo with
+        the <lb/>balſamic and ſalubrious principles of the <lb/>fragrant reſins. This vapour I drew
+        in with <lb/>my breath, for a conſiderable time, and <lb/>found it not in the leaſt
+        irritating; but, on <lb/>the contrary, extreamly mild and agreeable. <lb/>Being now deſirous
+        to aſcertain the <w part="I">quanti-</w><lb/><w part="F">ty</w> of the diſſolved reſins,
+        which thus roſe <lb/>with the vapour, I poured half an ounce of <lb/>my ſolution into a
+        quantity of hot water, <lb/>and after evaporating the whole, I found <lb/>remaining in the
+        veſſel a very ſmall <w part="I">propor-</w><lb/><w part="F">tion</w> of the weight of balſam
+        which had <lb/>been diſſolved in that quantity, and <w part="I">conſe-</w><lb/><w part="F"
+          >quently</w> by much the greateſt part had riſen <lb/>with the vapour. </p>
+      <p rend="indent"><lb/>Let me now ask the reader, whether he <lb/>is not of opinion, that the
+        happieſt effects <lb/>may rationally be expected, from ſuch a <lb/>medicine thus applied, by
+        means of the <lb/>ſteam of hot water, directly to the injured <lb/>lungs? Whether he does
+        not think it <w part="I">pro-</w><lb/><w part="F">bable</w>, that the acrimony of the
+        irritating <lb/>fluid will be thus obtunded, either in a <lb/>recent cold, or more advanced
+        ſtate of the <lb/>diſeaſe? Whether the ſpaſmodic <w part="I">conſtric-</w><lb/><w part="F"
+          >tion</w> of the veſſels will not thus be relaxed, <pb xml:id="page_24" n="23"/><lb/>and
+        the conſequence of obſtructions <w part="I">pre-</w><lb/><w part="F">vented?</w> Whether the
+        progreſs of <w part="I">putri-</w><lb/><w part="F">faction</w> may not thus be ſtopped, and
+          <w part="I">whe-</w><lb/><w part="F">ther</w>, in that caſe, even in the advanced
+        <lb/>ſtage of a conſumption, we may not hope <lb/>for a cure? </p>
+      <p rend="indent"><lb/>When a conſiderable part of the ſubſtance <lb/>of both lobes of the
+        lungs is deſtroyed, <lb/>the diſeaſe is doubtleſs incurable; but we <lb/>know from
+        diffection, that commonly one <lb/>lobe only is principally affected. If <w part="I"
+          >there-</w><lb/><w part="F">fore</w> we can thus ſtop the progreſs of <w part="I"
+          >pu-</w><lb/><w part="F">trifaction</w> in the diſeaſed lobe, the other <lb/>may continue
+        to perform its office, and the <lb/>patient ſuffer but little inconveniency. </p>
+      <p rend="indent"><lb/><hi rend="sc">There</hi> remains yet another argument <lb/>in favour of
+        this new method of <w part="I">applica-</w><lb/><w part="F">tion</w>, which, I think, will
+        appear to be a <lb/>powerful one. We know that many <w part="I">peo-</w><lb/><w part="F"
+          >ple</w> who have been far gone in a <w part="I">conſump-</w><lb/><w part="F">tion</w>,
+        have recovered by removing to <w part="I">hap-</w><lb/><w part="F">pier</w> climates. We
+        cannot rationally <w part="I">attri-</w><lb/><w part="F">bute</w> their recovery to any
+        other cauſe, <lb/>than a difference in the air they breathe, <lb/>which difference muſt
+        ariſe from its being <lb/>impregnated with certain ſalubrious, <w part="I">anti-</w><lb/><w
+          part="F">ſeptic</w>, or balſamic effluvia. Since <w part="I">there-</w><lb/><w part="F"
+          >fore</w> this natural application of ſalutiferous <lb/>air to the part affected, will
+        produce that <lb/>which medicines taken into the ſtomach <lb/>had attempted in vain, are we
+        not thereby <lb/>naturally led to conclude, that the beſt way <pb xml:id="page_25" n="24"
+        /><lb/>of adminiſtering to the lungs, is by means <lb/>of the air? It were ridiculous to
+        attribute <lb/>the recovery of conſumptive people on <lb/>their migration to a milder
+        climate, <w part="I">mere-</w><lb/><w part="F">ly</w> to increaſe of heat, which might be <w
+          part="I">in-</w><lb/><w part="F">creaſed</w> to any degree in the patients <w part="I"
+          >cham-</w><lb/><w part="F">ber</w> at home. On the contray, we know <lb/>that heat
+        remarkably accelerates <w part="I">putrifac-</w><lb/><w part="F">tion</w>; ſo that in a
+        putrid ſtate of the lungs, <lb/>if it were not for ſome powerful <w part="I"
+          >counter-</w><lb/><w part="F">acting</w> cauſe, the diſeaſe, by travelling <lb/>ſouthward,
+        muſt neceſſarily be increaſed. </p>
+      <p rend="indent"><lb/>With regard to the manner of applying <lb/>this medicine it is extremely
+        eaſy. I <w part="I">uſu-</w><lb/><w part="F">ally</w> drop 20 drops into about half a pint
+        of <lb/>boiling water, immediately after it is taken <lb/>from the fire, ordering the
+        patient to hold <lb/>his mouth over the veſſel ſo as to draw in <lb/>with his breath, as
+        much as poſſible <lb/>of the vapour, continuing the operation as <lb/>long as the ſteam will
+        riſe. I then <w part="I">or-</w><lb/><w part="F">der</w> him to drink the water as ſoon as
+        it <lb/>is cold enough for that purpoſe: for tho' I <lb/>depend entirely on the vapour for
+        the cure <lb/>of the lungs, yet as all the juices in the <lb/>body may be in ſome degree
+        affected, by <lb/>the matter abſorbed from the lungs, this <lb/>balſamic water received into
+        the ſtomach, <lb/>will be of ſome advantage. </p>
+      <p rend="indent"><lb/>This ſimple method of application will <lb/>be abundantly ſufficient in
+        common colds, <lb/>hoarſeneſs, &amp;c. but when there is reaſon <pb xml:id="page_26" n="27"
+        /><lb/>to and from its antiſeptic power, that it will <lb/>prevent putrifaction, or ſtop its
+        progreſs <lb/>when begun, and thus preſerve the ſound <lb/>part of the lungs, and give an
+        opportunity <lb/>to nature to regenerate the parts that were <lb/>already deſtroyed. </p>
+      <p rend="indent"><lb/>What! ſays the ſagacious reader, do <lb/>you imagine, if a part of the
+        lungs be <w part="I">ac-</w><lb/><w part="F">tually</w> deſtroyed, that it can ever be <w
+          part="I">re-</w><lb/><w part="F">ſtored!—Sir</w>, it is a maxim with me, <w part="I"
+          >ne-</w><lb/><w part="F">ver</w> to affirm any thing which I cannot <lb/>prove; but I know
+        no reaſon why nature <lb/>ſhould not as eaſily reſtore a part of the <lb/>lungs, as a part
+        of an external muſcle, or <lb/>a part of the external skin, which is <w part="I"
+          >con-</w><lb/><w part="F">tinued</w> into the lungs, and which is as <lb/>vaſcular as the
+        lungs themſelves. </p>
+      <p rend="indent"><lb/>I ſhall now beg leave to add a few words <lb/>concerning the diet,
+        &amp;c. of conſumptive <lb/>people; for, though our opinion of a <w part="I">me-</w><lb/><w
+          part="F">dicine</w> be ever ſo great, it were certainly <lb/>imprudent to neglect ſuch
+        other means as <lb/>may contribute to its ſucceſs; and indeed, <lb/>if the diſeaſe be far
+        advanced, little is to <lb/>be expected from any medicine whatſoever, <lb/>unleſs the
+        patient will adhere implicitly to <lb/>the rules preſcribed by his phyſician, <w part="I"
+          >rela-</w><lb/><w part="F">tive</w> to his diet and manner of living. </p>
+      <p rend="indent"><lb/>Firſt, with regard to exerciſe. Our <w part="I">im-</w><lb/><w part="F"
+          >mortal</w> Sydenham was ſo ſtrongly <w part="I">prepoſ-</w><lb/><w part="F">ſeſſed</w> in
+        favour of riding on horſe-back, <lb/>that he conſtantly recommended that <w part="I"
+          >exer-</w><pb xml:id="page_27" n="28"/><lb/><w part="F">ciſe</w> in every ſtage of a
+        conſumption. It <lb/>is, however, with this, as with moſt <w part="I">effi-</w><lb/><w
+          part="F">cacious</w> medicines; if it does no good, it <lb/>certainly does harm. The
+        patient himſelf <lb/>will be able to determine whether its <w part="I">ef-</w><lb/><w
+          part="F">fects</w> be ſalutary or otherwiſe, by obſerving <lb/>the following directions.
+        Firſt, unleſs the <lb/>weather be hot, let his cloathing be <w part="I">ſome-</w><lb/><w
+          part="F">what</w> warmer than uſual, as he will <w part="I">other-</w><lb/><w part="F"
+          >wiſe</w> grow chilly. Let him ride not more <lb/>than an hour at a time, and that very <w
+          part="I">gent-</w><lb/><w part="F">ly</w>. If it be in ſpring or autumn, he muſt <lb/>ride
+        from eleven to twelve, or from twelve <lb/>to one. If in the hotter months, let it be
+        <lb/>from nine to ten in the morning. But in <lb/>moiſt or cold weather let him not ride at
+        <lb/>all. If after this gentle exerciſe, he finds <lb/>himſelf in better ſpirits, his
+        appetite <w part="I">in-</w><lb/><w part="F">creaſed</w>, his breathing eaſy, and his ſkin
+        <lb/>cool and ſoft, he may certainly conclude <lb/>that riding is of ſervice to him, and
+        ought <lb/>therefore to be continued as often as the <lb/>weather will permit. If on the
+        contrary, <lb/>he finds himſelf fatigued, his breathing <lb/>more frequent and more
+        difficult, his ſkin <lb/>parched and dry, the palms of his hands <lb/>hot, his cheeks
+        fluſhed, his tongue dry, and <lb/>in himſelf an inclination to drink rather <lb/>than eat,
+        he may then conclude that <w part="I">rid-</w><lb/><w part="F">ing</w> is improper in the
+        preſent ſtate of his <lb/>diſorder, and that taking the air in a <w part="I">car-</w><lb/><w
+          part="F">riage</w> will have better effects. If <w part="I">never-</w><pb xml:id="page_28"
+          n="29"/><lb/><w part="F">theless</w>, he finds no alteration for the <w part="I"
+          >bet-</w><lb/><w part="F">ter</w>, I adviſe him, by all means, to have <lb/>recourſe to a
+        ſea voyage, from which, with <lb/>the continuance of the medicine here <w part="I"
+          >re-</w><lb/><w part="F">commended</w>, I venture to promiſe him <lb/>every thing that
+        human art can poſſibly <w part="I">ſup-</w><lb/><w part="F">ply</w>. It may not be improper
+        to obſerve, <lb/>that though I have above, in ſpeaking of <lb/>riding, limited the patient
+        to an hour at a <lb/>time, I mean that, in proportion to his <w part="I">in-</w><lb/><w
+          part="F">creaſe</w> of ſtrength, and benefit received, <lb/>the time ſhould be prolonged,
+        and the <w part="I">de-</w><lb/><w part="F">gree</w> of exerciſe augmented. </p>
+      <p rend="indent"><lb/>We come now to aliment, which is of <lb/>infinite importance. The firſt
+        general rule <lb/>which I give to my conſumptive patients <lb/>is, that, regardleſs of all
+        ſtated hours, he is <lb/>to eat as often as he has an appetite, but <lb/>never much at a
+        time. If, when he riſes <lb/>in a morning, he finds no appetite for his <lb/>breakfaſt, let
+        him walk a little into the air, <lb/>and wait an hour or two before he takes <lb/>any food.
+        As to tea, I abſolutely forbid <lb/>it, becauſe it is an enemy to weak nerves, <lb/>but more
+        eſpecially on account of the warm <lb/>water, which greatly relaxes the ſtomach. <lb/>A ſea
+        biſcuit with a pint of cold almond <lb/>milk, made with barley water or whey, is <lb/>a good
+        breakfaſt for a conſumptive perſon; <lb/>or a few almonds blanched and ground <lb/>in a
+        mortar with a little cold water, and <lb/>then mixed, by little at a time, with two <pb
+          xml:id="page_29" n="30"/><lb/>thirds of milk from the cow, is ſtill <w part="I"
+          >bet-</w><lb/><w part="F">ter</w>, where more nouriſhment is required. <lb/>This admixture
+        of almonds renders the <lb/>curd, which ſeparates in the ſtomach, much <lb/>leſs tenacious,
+        and eaſier of digeſtion. I <lb/>mention cows milk, becauſe it is moſt <w part="I"
+          >ea-</w><lb/><w part="F">ſily</w> obtained; otherwiſe, aſſes milk is <w part="I"
+          >cer-</w><lb/><w part="F">tainly</w> preferable, becauſe it contains much <lb/>leſs of
+        curd, which is both difficult of <w part="I">di-</w><lb/><w part="F">geſtion</w>, and
+        putreſcent. Goat's milk <w part="I">con-</w><lb/><w part="F">tains</w> even a greater
+        proportion of curd than <lb/>cows milk, and therefore highly improper, <lb/>tho' frequently
+        preſcribed. </p>
+      <p rend="indent"><lb/>Eggs are by no means to be allowed, on <lb/>account of their
+        putrifactive tendency. In <lb/>ſhort, animal food is in general to be <w part="I"
+          >a-</w><lb/><w part="F">voided</w>; though, if the patient be weak, I <lb/>allow a little
+        boiled white meat once or <lb/>twice a week, and now and then a little <lb/>veal or chicken
+        broth with a ſmall <w part="I">quanti-</w><lb/><w part="F">ty</w> of lemon juice ſqueezed
+        into it. <w part="I">Po-</w><lb/><w part="F">tatoes</w>, turnips, carrots, parſneps, beans,
+        <lb/>ſpinach, broccoli, ſallets, bread and rice, <lb/>conſtitute our general bill of fare. </p>
+      <p rend="indent"><lb/>As to drink, if the patient has much <lb/>hectic fever, I confine him
+        entirely to <w part="I">al-</w><lb/><w part="F">mond</w> milk, barley water, or milk and <w
+          part="I">wa-</w><lb/><w part="F">ter</w>; otherwiſe, beſides theſe, he is <w part="I"
+          >per-</w><lb/><w part="F">mitted</w> to drink one or two glaſſes of <lb/>mountain wine
+        every day; or in caſe that <lb/>cannot be afforded, now and then a draught <lb/>of ale,
+        porter, or table beer. </p>
+      <pb xml:id="page_30" n="31"/>
+      <p rend="indent"><lb/>If the patient complains of a nauſia, <lb/>weight, or uneaſineſs at his
+        ſtomach, I <w part="I">or-</w><lb/><w part="F">der</w> him ten grains of Ipecacoanha, with
+        <lb/>chamomile tea, to be repeated once in ten <lb/>days, or a fortnight, if the ſymptoms <w
+          part="I">re-</w><lb/><w part="F">turn</w>. </p>
+      <p rend="indent"><lb/>With regard to bleeding, as I expect <w part="I">no-</w><lb/><w part="F"
+          >thing</w> more from it than a little preſent <lb/>relief, I never order it, unleſs when
+        the <lb/>fever runs too high, and then I ſeldom <w part="I">ex-</w><lb/><w part="F">ceed</w>
+        five ounces. </p>
+      <p rend="indent"><lb/>If the patient be coſtive, I order him a <lb/>ſolution of manna, with a
+        little ſoluble tartar; <lb/>if the contrary, I give him occaſionally a <lb/>few drops of the
+        Thebaic tincture in a <lb/>little ſimple cinnamon water. </p>
+      <p rend="indent"><lb/>If he ſweats towards morning, which <lb/>is often the caſe, I order him
+        to go to bed <lb/>in good time, to riſe very early, and to <w part="I">re-</w><lb/><w
+          part="F">poſe</w> a little after dinner. If his ſweat ſtill <lb/>continue, I give him 20
+        or 30 drops of <lb/>the acid elixir of vitriol in a glaſs of cold <lb/>water twice a day. As
+        to the Peruvian <lb/>bark on this occaſion, I believe it to be an <lb/>excellent medicine;
+        but I diſlike it in <w part="I">ſub-</w><lb/><w part="F">ſtance</w> for many reaſons, and am
+        no leſs <lb/>diſſatisfied with all the known preparations <lb/>of it. I have lately begun a
+        courſe of <w part="I">te-</w><lb/><w part="F">dious</w> experiments, with an intention to
+        <lb/>diſcover the parts in which its virtues <w part="I">actu-</w><lb/><w part="F">ally</w>
+        reſide, and to diveſt it of thoſe which <lb/>are inert. If I am not much miſtaken in <pb
+          xml:id="page_31" n="32"/><lb/>my conjectures, it is poſſible to condence its <lb/>active
+        principles into a very ſmall compaſs, <lb/>and thereby to render it a much more
+        <lb/>agreeable and efficacious medicine. If I <lb/>ſucceed, poſſibly the publick may in ſome
+        <lb/>future time expect to be made acquainted <lb/>with the reſult of my enquiries. </p>
+      <p rend="indent"><lb/>There remains yet one piece of advice, <lb/>to which the patient, if he
+        regards his <lb/>own ſafety, will be particularly attentive. <lb/>It concerns the poſition
+        of his body. <w part="I">Con-</w><lb/><w part="F">ſumptive</w> people, from an indolence <w
+          part="I">pecu-</w><lb/><w part="F">liar</w> to their diſorder, are very apt, whether
+        <lb/>ſitting, walking, or riding, to ſuffer the <lb/>body to bend forward, for want of a <w
+          part="I">pro-</w><lb/><w part="F">per</w> exertion of thoſe muſcles by which it
+        <lb/>ſhould be kept erect. In this drooping <lb/>poſition the cheſt is never ſufficiently <w
+          part="I">en-</w><lb/><w part="F">larged</w>, nor the lungs fully expanded. I,<lb/>
+        therefore, conſtantly adviſe my patients to <lb/>keep themſelves upright, and, <w part="I"
+          >eſpecial-</w><lb/><w part="F">ly</w> when in the open air, to endeavour to <lb/>bring
+        their breaſt as forward as poſſible. In <lb/>this, my intention is, to expand the ſmall
+        <lb/>ramifications of the <hi rend="italic">bronchus</hi> to their <w part="I"
+          >extre-</w><lb/><w part="F">mities</w>, and to open a free paſſage for the <lb/>blood from
+        and to the heart; both which <lb/>will aſſiſt our endeavours to remove <w part="I"
+          >ob-</w><lb/><w part="F">ſtructions</w>, and prevent thoſe adheſions of <lb/>the lungs to
+        the <hi rend="italic">pleura,</hi> which are <w part="I">general-</w><lb/><w part="F">ly</w>
+        found on diſſection of conſumptive bo-<lb/>dies<note place="bottom" n="*" rend="size(0.5)">*
+          See Morgagni, de Sedib. &amp; Cauſis Morborum. </note>. </p>
+      <pb xml:id="page_32" n="33"/>
+      <p rend="indent"><lb/>My aſthmatic patients, no doubt, begin <lb/>to think me tedious, or
+        rather imagine that <lb/>I have quite forgot them. That, however, <lb/>is not the caſe. By
+        an aſthma we mean <lb/>that diſorder, the chief ſymptom of which <lb/>is a difficulty of
+        breathing. It is either <lb/>continued or by fits. Now, tho' the cauſe <lb/>of this diſeaſe
+        is frequently in the lungs, <lb/>yet it is ſometimes owing to a morbid <w part="I"
+          >af-</w><lb/><w part="F">fection</w> of ſome of the other organs of <lb/>reſpiration, as
+        the diaphragm, the <w part="I">inter-</w><lb/><w part="F">coſtal</w> muſcles, or the
+        wind-pipe, or ſome <lb/>of the neighbouring <hi rend="italic">viſcera.</hi> How it <w
+          part="I">hap-</w><lb/><w part="F">pens</w> that the balſmic medicines, which <lb/>are
+        recommended as a cure for <w part="I">conſump-</w><lb/><w part="F">tions</w>, are at the
+        ſame time recommended <lb/>in aſthmatic complaints, is amazing, and <lb/>muſt proceed either
+        from conſummate <w part="I">ig-</w><lb/><w part="F">norance</w>, or unpardonable diſhoneſty.
+        If, <lb/>as we have ſeen above, theſe balſamics, <lb/>taken into the ſtomach, can do nothing
+        <lb/>towards the cure of a conſumption, how <lb/>much leſs likely are they to relieve an <w
+          part="I">aſth-</w><lb/><w part="F">matic</w> patient? For if they could even be <w
+          part="I">ap-</w><lb/><w part="F">plied</w> immediately to the part affected, they
+        <lb/>poſſeſs no one virtue that might authorize <lb/>ſuch expectation. </p>
+      <p rend="indent"><lb/>Hold! cries the reader, if that be the <lb/>caſe, how comes it that you
+        recommend <lb/>your balſamic vapour for the cure of an <lb/>aſthma? I anſwer, that unleſs
+        the aſthma <lb/>be a ſymptom of a conſumption, I expect <pb xml:id="page_33" n="34"/><lb/>no
+        advantage from the balſamic quality of <lb/>this vapour. But when the cauſe of the
+        <lb/>aſthma is a ſpaſmodic contraction of the <lb/>lungs, or wind-pipe, which is very <w
+          part="I">fre-</w><lb/><w part="F">quently</w> the caſe, eſpecially when the <w part="I"
+          >diſ-</w><lb/><w part="F">eaſe</w> returns by fits, I then expect <w part="I"
+          >conſider-</w><lb/><w part="F">able</w> advantage from the antiſpaſmodic <w part="I"
+          >pow-</w><lb/><w part="F">er</w> of this vapour; and when in a <w part="I"
+          >continu-</w><lb/><w part="F">ed</w> difficulty of breathing, the cauſe of the
+        <lb/>diſorder is an infarction of the lungs from <lb/>viſcid mucus, my hopes are then built
+        on <lb/>the attenuating power of the vapour <w part="I">ex-</w><lb/><w part="F">hibited</w>
+        in the manner I recommend. Let <lb/>thoſe who are capable of reaſoning judge, <lb/>whether
+        my expectations are well founded. </p>
+      <p rend="indent"><lb/>I have ſaid, that the peculiar <w part="I">conſump-</w><lb/><w part="F"
+          >tive</w> diſpoſition obſervable in the people of <lb/>this kingdom, is to be attributed
+        to the <lb/>inſtability of our climate, which renders <lb/>us ſo frequently liable to take
+        cold. Now <lb/>as it is always better to prevent a diſorder, <lb/>than to cure it, and as
+        colds do no injury <lb/>to the lungs, except in their remote effects, <lb/>I thought it
+        rational to ſuppoſe, if <w part="I">imme-</w><lb/><w part="F">diately</w> after taking cold.
+        I could dilute or <lb/>obtund the acrimony of the humour which <lb/>irritates and inflames
+        the lungs, I ſhould <lb/>probably prevent the bad conſequences of <lb/>obſtructed
+        perſpiration, at leaſt as far as it <lb/>concerned the lungs. Having, myſelf <w part="I"
+          >late-</w><lb/><w part="F">ly</w> taken a violent cold, I immediately <w part="I"
+          >be-</w><lb/><w part="F">gan</w> to uſe the balſamic vapour, by <w part="I">hold-</w><pb
+          xml:id="page_34" n="35"/><lb/><w part="F">ing</w> my head over a common pint veſſel,
+        <lb/>keeping my mouth generally ſhut, that <lb/>the ſteam might paſs thro' my noſe, and
+        <lb/>repeating the operation ſeveral times a day, <lb/>for two or three days. The
+        conſequence <lb/>of this was, that I very ſoon got rid of <lb/>my cold, without the leaſt
+        cough or <w part="I">diffi-</w><lb/><w part="F">culty</w> of breathing, which was really a
+          <w part="I">re-</w><lb/><w part="F">markable</w> circumſtance, becauſe my lungs <lb/>are
+        naturally ſo irritable, that I hardly <w part="I">re-</w><lb/><w part="F">member</w> ever to
+        have had the leaſt degree <lb/>of cold which did not end in a cough. This, <lb/>however, is
+        but a ſingle experiment. But <lb/>I have another of greater weight. </p>
+      <p rend="indent"><lb/>Having founded my expectations, in the <lb/>cure of conſumptions, which
+        are far <w part="I">ad-</w><lb/><w part="F">vanced</w>, chiefly on the antiſeptic quality of
+        <lb/>this Aether, in order to try its power, I <lb/>ſuſpended from two nails, at the
+        diſtance <lb/>of about four foot from each other, two <lb/>pieces of freſh beef. Under one
+        of theſe, <lb/>I held a veſſel of hot water, into which <lb/>fifteen drops of the medicine
+        were <w part="I">drop-</w><lb/><w part="F">ped</w>, repeating the operation three or four
+        <lb/>times every day, and continuing it about <lb/>five minutes each time. To the other
+        <lb/>piece nothing was applied. I carefully <w part="I">ex-</w><lb/><w part="F">amined</w>
+        each piece every day, and was <w part="I">great-</w><lb/><w part="F">ly</w> ſurprized to
+        find, at the expiration of <lb/>a month, that neither of them was, in <lb/>the leaſt,
+        tainted or diſcoloured. That <lb/>the piece, to which the vapour was <w part="I"
+          >appli-</w><pb xml:id="page_35" n="36"/><lb/><w part="F">ed</w>, continued ſweet, did not
+        at all ſurprize <lb/>me; but I own, I did not expect, that the <lb/>antiſeptic power of this
+        vapour was ſo great, <lb/>as to prevent putrifaction in the other piece <lb/>of beef, by
+        only mixing with the air in <lb/>the room. Indeed the room was ſmall. <lb/>This unexpected
+        event, however, gave me <lb/>great pleaſure, as it immediately ſuggeſted <lb/>to me the
+        evident advantage that might be <lb/>expected, in all putrid diſorders, from <w part="I"
+          >im-</w><lb/><w part="F">pregnating</w> the air in the chamber with <lb/>this vapour. For
+        this purpoſe, it is my <lb/>conſtant practice to order 30 or 40 drops to <lb/>be dropped
+        into a quart of boiling water, <lb/>and the veſſel to be placed near the bed of <lb/>the
+        patient, to be repeated three or four <lb/>times a day; or the water to be kept <lb/>boiling
+        over a lamp, in any part of the <lb/>room, till it is entirely evaporated, if the
+        <lb/>diſorder be of a very putrid nature, and <lb/>eſpecially in the ſmall pox. It were <w
+          part="I">cer-</w><lb/><w part="F">tainly</w> needleſs to mention the uſe of this
+        <lb/>vapour in ſore throats, whether <w part="I">inflam-</w><lb/><w part="F">matory</w> or
+        putrid. </p>
+      <p rend="indent"><lb/>The medicine is entitled, Dr. <hi rend="italic">Stern's <w part="I"
+            >Bal-</w><lb/><w part="F">ſamic</w> Æther,</hi> and may be had, for ſix <w part="I"
+          >ſhil-</w><lb/><w part="F">lings</w> the bottle, of Mr. <hi rend="sc">Almon</hi>, in <w
+          part="I">Picca-</w><lb/><w part="F">dilly</w>, Mr. Cook, near the Royal Exchange, <lb/>Mr.
+        Bladon, in Pater-noſter Row, Meſſrs. <lb/>Curtis, in Fleet-ſtreet, Mr. Woodfall, <w part="I"
+          >Char-</w><lb/><w part="F">ing</w> Croſs, and Mr. White, Lincoln's Inn <lb/>Fields,
+        Bookſellers. </p>
+      <pb xml:id="page_36" n="37"/>
+      <p rend="indent"><lb/>I ſhall now, by way of concluſion, beg <lb/>leave to give a few general
+        rules to the <lb/>reader, which may enable him to judge <lb/>properly of medicines which are
+        expoſed <lb/>to ſale. Theſe rules ſeem the more <w part="I">neceſ-</w><lb/><w part="F"
+          >ſary</w>, in an age when almoſt every week <lb/>produces a new medicine. </p>
+      <p rend="indent"><lb/>The <hi rend="italic">firſt</hi> general rule is, never to pay <lb/>the
+        leaſt regard to the canting of thoſe <lb/>who pretend, that the good of mankind is
+        <lb/>their ſole motive for offering their <w part="I">medi-</w><lb/><w part="F">cine</w> to
+        ſale. </p>
+      <p rend="indent"><lb/><hi rend="italic">Secondly,</hi> diſregard all aſſertions <w part="I"
+          >concern-</w><lb/><w part="F">ing</w> the excellency of a medicine, which <lb/>are mere
+        aſſertions, without any <w part="I">founda-</w><lb/><w part="F">tion</w> in reaſon and
+        experiment. </p>
+      <p rend="indent"><lb/><hi rend="italic">Thirdly,</hi> conclude the advertizer to be
+        <lb/>either a knave or a fool, in phyſick, who <lb/>pretends, that his medicine will cure <w
+          part="I">ſeve-</w><lb/><w part="F">ral</w> diſorders which have not the leaſt <w part="I"
+          >ana-</w><lb/><w part="F">logy</w> to each other. </p>
+      <p rend="indent"><lb/><hi rend="italic">Fouthly,</hi> give no credit to the recital of
+          <lb/><hi rend="italic">Caſes,</hi> as they are generally invented by the <lb/>doctor. </p>
+      <p rend="indent"><lb/>And <hi rend="italic">laſtly,</hi> when the doctor writes a <w part="I"
+          >pam-</w><lb/><w part="F">phlet</w>, with an intention to recommend his <lb/>medicine, if
+        it betray a manifeſt ignorance <lb/>of his ſubject, of ſtyle, and grammar; in <lb/>ſhort,
+        when his language is evidently that <lb/>of a porter, conclude him to be ſome <w part="I"
+          >illi-</w><lb/><w part="F">terate</w>, ignorant perſon, whoſe medicine <lb/>and opinions
+        deſerve no attention. </p>
+      <pb xml:id="page_37" n="38"/>
+      <p rend="indent"><lb/>Concerning myſelf, and the medicine I <lb/>recommend, I do not expect,
+        that the <lb/>reader ſhould have any dependance on what I <lb/>may have aſſerted in the
+        preceeding pages; <lb/>becauſe, if he has any knowledge of <w part="I">man-</w><lb/><w
+          part="F">kind</w>, he has reaſon to ſuppoſe, that I <lb/>have ſacrificed truth to intereſt
+        and a <w part="I">fa-</w><lb/><w part="F">vourite</w> hypotheſis. My aſſertions however
+        <lb/>are very few, except what relates to the <lb/>experiment to prove the antiſeptic
+        quality <lb/>of this vapour; but as it is in every ones <lb/>power to repeat the experiment,
+        it will be <lb/>an eaſy matter to convict me of falſehood, <lb/>or confirm the truth. All I
+        expect of the <lb/>reader is, that he will impartially conſider <lb/>the reaſons, upon which
+        I have founded <lb/>my expectations of curing diſorders of the <lb/>lungs by means of this
+        balſamic vapour. <lb/>If he is of opinion, that I have reaſoned <lb/>juſtly, he will
+        certainly think it adviſeable <lb/>for thoſe whoſe lungs are injure to try the
+        <lb/>experiment, eſpecially as it cannot poſſibly <lb/>be attended with any danger; and as
+        to the <lb/>expence, it will certainly be thought moſt <lb/>inconſiderable, when compared
+        with the <lb/>fees of a phyſician, and the bills of an <lb/>apothecary. </p>
+      <trailer rend="align-center"><lb/>FINIS. </trailer>
+    </body>
+  </text>
+</TEI>

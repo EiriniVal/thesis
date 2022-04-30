@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LMEMT Corpus - Trinder: An essay concerning the outward and salutary application of
+          oils</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>William Martin Trinder</persName>
+            </author>
+            <title type="main">An essay concerning the outward and salutary application of oils on
+              the human body. By the Rev. William Martin Trinder, MD.</title>
+            <edition n="1"/>
+            <idno type="ESTC">T120465</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/T120465"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>London: printed for the author, by W. Wilson, St. Peter's Hill, Doctors
+                  Commons; and sold by T. N. Longman, Paternoster-Row; J. Cooke, Oxford; and Messrs.
+                  Merrill, Cambridge, MDCCXCVII.</persName>
+              </publisher>
+              <date>1797</date>
+            </imprint>
+            <extent>
+              <measure type="format">8⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="3"/>
+              <measure type="count" commodity="body" unit="page" quantity="31"/>
+              <measure type="count" commodity="back" unit="page" quantity="1"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">British Library</orgName>
+            <idno type="ECCO">CW3307259057</idno>
+            <idno type="TCP">K096396.000 </idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Book on a specific topic: medicine"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text xml:lang="eng">
+    <front>
+      <div>
+        <pb xml:id="page_2"/>
+        <pb xml:id="page_3"/>
+        <p rend="align-center">
+          <lb/><hi rend="size(0.75)">TO THE</hi>
+          <lb/><hi rend="size(1.5)">UNIVERSITY OF OXFORD, </hi>
+          <lb/>HIS GRACE THE DUKE OF PORTLAND, <lb/><hi rend="size(0.75)">CHANCELLOR</hi>, <lb/>THE
+          REVEREND DOCTOR BERDMORE, <lb/><hi rend="size(0.5)">VICE-CHANCELLOR, </hi>
+          <lb/>THE HEADS OF COLLEGES AND HALLS, <lb/><hi rend="size(0.5)">AND </hi>
+          <lb/><hi rend="size(0.5)">THE OTHER CONSTITUENT MEMBERS THEREOF</hi>, <lb/><hi
+            rend="italic size(0.75)">This humble Attempt to be uſeful,</hi>
+          <lb/><hi rend="size(0.5)">IS, IN ALL FILIAL DUTY AND RESPECT</hi>, <lb/><hi
+            rend="italic size(0.75)">INSCRIBED BY</hi>
+          <lb/><hi rend="size(1.5)">WILLIAM MARTIN TRINDER</hi>, <lb/><hi rend="size(0.5)">A
+            GRADUATE OF OXFORD, AND DOCTOR OF PHYSIC AT <lb/>LEYDEN. </hi>
+        </p>
+      </div>
+    </front>
+    <body>
+      <pb xml:id="page_4"/>
+      <head rend="align-center">
+        <lb/>AN <lb/><hi rend="size(3)">ESSAY.</hi>
+      </head>
+      <p rend="indent">
+        <lb/><hi rend="dc(3)">W</hi>E read, in the Holy Scriptures, not <lb/>only of wine that
+        maketh glad the heart of <lb/>man, but of oil to make his face to ſhine, <lb/>or his
+        outſide, for ſo the word <foreign xml:lang="el">###foreign omitted### </foreign> fre-
+        <lb/>quently ſignifies, and it ought, in this place, <lb/>Pſalm civ. 15. ſo to be
+        underſtood. </p>
+      <p rend="indent">
+        <lb/>The ancients accuſtomed themſelves to <lb/>the outward application of oil, in order to
+        <lb/>heighten the comelineſs of their perſons— <lb/>and they did well: for what conſtitutes
+        <lb/>beauty more than the natural diffuſion of <lb/>gelatinous juices extracted from the
+        aliment, <lb/>and brought forward, through the arteries, <lb/>to all parts of the body? or,
+        if theſe be <lb/>wanting, what better ſubſtitute can there <lb/>be than oils properly
+        applied? </p>
+      <pb xml:id="page_5" n="6"/>
+      <p rend="indent">
+        <lb/>This practice of inunction was ſo general, <lb/>and ſo frequent, that our Saviour
+        gently <lb/>reproved Simon, the Phariſee, for omitting <lb/>this inſtance of civility. Luke
+        vii. 46.— <lb/>The rich and honourable were anointed with <lb/>oils of the greateſt
+        fragrance. <note place="bottom" n="*" rend="size(0.5)">* — <foreign xml:lang="el">###Greek
+            omitted### </foreign>. <hi rend="sc">Homer</hi>. </note> Thus <lb/>due reſpect was ſhewn
+        to our bleſſed Lord <lb/>by having precious ointment poured upon <lb/>his head. Mark xxvi.
+        7. </p>
+      <p rend="indent">
+        <lb/>But the ancients uſed oil not only for the <lb/>decoration and refreſhment of their
+        perſons, <lb/>but for the preſervation of their health and <lb/>ſtrength. After bathing,
+        they rubbed them- <lb/>ſelves over with ceromata to cloſe the pores <lb/>of the body, <note
+          place="bottom" n="†" rend="size(0.5)">† <foreign xml:lang="el">###Greek omitted###
+          </foreign>. </note> and thus to give ſtrength to <lb/>the ſyſtem. They alſo anointed their
+        heads <lb/>with ointments to prevent drunkenneſs. <note place="bottom" n="‡"
+          rend="size(0.5)">‡ <foreign xml:lang="el">###Greek omitted### </foreign>. <hi rend="sc"
+            >Anacreon</hi>. </note>
+        <lb/>(Athenæus lib. xv. cap. 13.) Before en- <pb xml:id="page_6" n="7"/>
+        <lb/>gaging in violent and fatiguing exerciſes, <lb/>they always uſed ceromata, or medicated
+        <lb/>oils, to prevent ſtrains, to make their limbs <lb/>ſupple, and, by hindering
+        tranſpiration, to <lb/>preclude any great waſte of ſtrength. Now <lb/>although it muſt be
+        confeſſed that the an- <lb/>cients were not the moſt improved anato- <lb/>miſts, yet their
+        general and frequent prac- <lb/>tice in the uſe of ointments and friction was
+        <lb/>excellent, being very preventative of diſeaſe, <lb/>and conducive to health, as will
+        appear from <lb/>the following ſtatement of facts. </p>
+      <p rend="indent" n="1">
+        <lb/>1ſt. All over the human body are innu- <lb/>merable inhalants, which are the orifices
+        <lb/>and branches of the abſorbent veſſels that <lb/>ultimately terminate in the great veins
+        near <lb/>the heart. Theſe abſorb and carry fluids <lb/><hi rend="italic">into</hi> the
+        body, but they cannot carry any <lb/><hi rend="italic">out.</hi>
+      </p>
+      <p rend="indent" n="2">
+        <lb/>2dly. There are alſo innumerable exha- <lb/>lants, which perforate the ſurface of the
+        <lb/>ſkin, that are the extremities of the arteries, <lb/>and which carry fluids <hi
+          rend="italic">out</hi> of the body, but <lb/>they cannot carry any <hi rend="italic"
+          >in.</hi> According to <lb/>Sanctorius, the tranſpiration from the ſkin <pb
+          xml:id="page_7" n="8"/>
+        <lb/>far exceeds, in quantity, all the excretions <lb/>by the other emunctories, and,
+        comparative- <lb/>ly to alvine diſcharges, the proportion is as <lb/>one to four, ſo that if
+        the ſkin ejects twenty- <lb/>four, the inteſtines ſhall diſcharge only ſix <lb/>ounces.
+          <note place="bottom" n="*" rend="size(0.5)">* If by any means the exhalants be ſo cloſed,
+          as to hinder <lb/>the greater part of tranſpiration, it muſt be confeſſed that the
+            <lb/><hi rend="italic">deliciæ animalis vitæ,</hi> that is to ſay, good eating, may be
+          ren- <lb/>dered, for a time, unneceſſary; for it appears in ſtory, that <lb/>wetting the
+          body with ſalt water, prevented hunger in ſix <lb/>people, who were on a raft in the ſea
+          for ſix days in the Gulph <lb/>of Mexico; and Captain Bligh of the Bounty experienced the
+          <lb/>ſame effect after he had been turned adrift, in a boat, by his <lb/>crew, in the
+          Pacific Ocean. </note>
+      </p>
+      <p rend="indent" n="3">
+        <lb/>3dly. Animal, or vital heat, which is <lb/>moſt neceſſary to the nutrition and preſer-
+        <lb/>vation of the body, is generated by the de- <lb/>compoſition in the lungs of
+        atmoſpheric air <lb/>by animal gas <note place="bottom" n="†" rend="size(0.5)">† <hi
+            rend="sc">Boerhaave, Martin</hi>, and others, were of opinion, <lb/>that the motion of
+          the blood was the <hi rend="italic">cauſe</hi> of animal heat. <lb/>If ſo, how is it that
+          the vital heat is nearly the ſame in all <lb/>perſons in health, although the circulation
+          of the blood be <lb/>very different? How is it that the vital heat ſhall be the ſame
+          <lb/>in a young lady, ſitting at her ſampler, as in a ſawyer, in <lb/>the violent exerciſe
+          of his trade? The circulation ſhall be far <lb/>above par in one, and below it in the
+          other; but, neverthe- <lb/>less, the vital heat ſhall be the ſame in both! </note>
+        <note place="bottom" n="†" rend="size(0.5)">† Plenck. </note>. And hence it is, that the <pb
+          xml:id="page_8" n="9"/>
+        <lb/>more and quicker we inſpire atmoſpheric air <lb/>the warmer we become, as in running up
+        <lb/>hill, or in vehement reading and ſpeaking. <note place="bottom" n="*" rend="size(0.5)"
+          >* Vegetables perſpire from their leaves as animals from <lb/>their lungs. This vegetable
+          perſpirable matter, when acted <lb/>upon by the ſun's light, produces the pure part of the
+          at- <lb/>moſpheric, or vital air; hence it is, that exerciſe in a garden, <lb/><hi
+            rend="italic">cæteris paribus,</hi> is far more ſalubrious than in the ſtreets of a
+          <lb/>city. </note>
+        <lb/>That vital heat is generated by the aforeſaid <lb/>decompoſition in the lungs, appears
+        from <lb/>conſidering that animals, deſtitute of lungs, <lb/>are not hotter than the
+        circumambient air, <lb/>whereas the vital heat of animals poſſeſſed of <lb/>lungs is by no
+        means dependent on the tem- <lb/>perature of the air. In the human body it <lb/>is hardly
+        ever leſs than 95 degrees, or more <lb/>than 105 of <hi rend="italic">Fahrenheit's</hi>
+        tongue thermometer; <lb/>but if the living body, in a healthy ſtate, be <lb/>placed in
+        contact to much hotter bodies, it <lb/>will not acquire their exceſs; nor, if in the
+        <lb/>midſt of much colder bodies, will it acquire <lb/>their coldneſs; thus, on the coaſt of
+        Africa, <lb/>where the heat of the climate ſhall riſe to <lb/>140 degrees of <hi
+          rend="italic">Fahrenheit's</hi> thermometer, the <lb/>human body will retain its natural
+        heat of <lb/>96 degrees, becauſe of the evaporation of <pb xml:id="page_9" n="10"/>
+        <lb/>ſweat which generates coldneſs; hence it is, <lb/>that the negroes in the Weſt India
+        Iſlands <lb/>endure labour in the ſun far better than white <lb/>men, becauſe, as it is
+        ſaid, of their quicker <lb/>evaporation of perſpirable matter from their <lb/>ſkin and
+        lungs. So again in the frozen re- <lb/>gions of the North, the heat of the living <lb/>body
+        ſhall experience no material change; <lb/>and this is providential, for if the living
+        <lb/>body had not the means to reſiſt exceſſive <lb/>heat, <note place="bottom" n="*"
+          rend="size(0.5)">* The heat of the room in which Dr. Blagden, and others, <lb/>entered,
+          was raiſed, whilft they were in it, to 240º, and to <lb/>260º; theſe exceſſive heats were
+          borne for a conſiderable <lb/>time, with little inconvenience, by the gentlemen who ex-
+          <lb/>poſed themſelves to them, both naked and with their clothes on; <lb/>nor was the <hi
+            rend="italic">heat</hi> of Dr. Blagden's body at all <hi rend="italic">increaſed,</hi>
+          though <lb/>the velocity of his pulſe was, in one inſtance, more than <lb/>doubled. A
+          blaſt of the heated air from a pair of bellows <lb/>was ſearcely to be endured, for the
+          following obvious reaſon: <lb/>When the ſame air remained for any time in contact with
+          <lb/>the body, part of its heat was deſtroyed, and, conſequently, <lb/>the body was
+          ſurrounded with a colder medium than the air <lb/>of the room; whereas, when freſh
+          portions of the air were <lb/>applied to the body in ſuch a quick ſucceſſion that no part
+          of <lb/>it could remain in contact a ſufficient time to be cooled, the <lb/>heat was
+          ſeaſibly greater. <p rend="indent">
+            <lb/><hi rend="italic">Vide</hi>
+            <hi rend="sc">Chambers's</hi> Dictionary, under the article <hi rend="sc">Heat</hi>.
+          </p>
+        </note> the fluids would become too thin, <lb/>run out, or putrify; and if it could not re-
+          <pb xml:id="page_10" n="11"/>
+        <lb/>ſiſt exceſſive cold, the fluids of the body <lb/>could not circulate, and, of courſe,
+        become <lb/>coagulant. </p>
+      <p rend="indent">
+        <lb/>This vital heat is the cauſe of that ſtrong <lb/>inteſtine action by which the ſolids
+        of the <lb/>body are expanded, the fluids broke down <lb/>and divided, and ſuperfluous and
+        heteroge- <lb/>neous matter ſeparated and diſcharged. When <lb/>it is ſufficiently ſtrong,
+        in a healthy ſtate, <note place="bottom" n="*" rend="size(0.5)">* This vital heat may be in
+          exceſs, as in hectic and in- <lb/>flammatory fevers, acute rheumatiſm, &amp;c. <hi
+            rend="italic">Que<unclear>#</unclear>e,</hi>—Is not <lb/>vitiated air, in jails, when
+          combined with animal gas, pro- <lb/>ductive of patrid miaſma? </note>
+        <lb/>it forces the blood and juices into the extreme <lb/>arteries, the ſkin becomes ſoft
+        and glowing, <lb/>and the fleſh turgeſcent from that bland <lb/>oleaginous aliment ſo well,
+        and ſo univer- <lb/>ſally diffuſed. </p>
+      <p rend="indent" n="4">
+        <lb/>4thly. Friction, although far leſs pre- <lb/>ſervative and reſtorative than bodily
+        exerciſe <lb/>in the open country air, eſpecially if uſed to <lb/>the point of fatigue, yet,
+        in one particular, <lb/>it is more ſerviceable, becauſe of its topical <lb/>application. </p>
+      <p rend="indent">
+        <lb/>Friction, by obliging the veins to admit <lb/>of diſtenſion, cauſes the arterial blood
+        more <pb xml:id="page_11" n="12"/>
+        <lb/>abundantly to flow into them, hereby en- <lb/>creaſing the velocity of the circulation,
+        dif- <lb/>fuſing the vital heat, and augmenting vigour; <lb/>moreover, the venal blood, by
+        means of <lb/>friction, runs quicker towards the heart, <lb/>which it ſtimulates to a
+        greater propulſion of <lb/>the blood and juices over the whole body. </p>
+      <p rend="indent">
+        <lb/>If cold coagulated blood be rubbed, in a <lb/>glaſs mortar, it will again become a
+        frothy <lb/>liquid of a crimſon colour. It is ſaid, indeed, <lb/>that this effect ariſes
+        from freſh ſurfaces of <lb/>blood being expoſed to the atmoſpheric air, <lb/>with the
+        oxygen, of which it immediately <lb/>combines, reſtoring it to the ſame floridity <lb/>as
+        when in the body; nevertheleſs, it is alſo <lb/>true, that gentle friction ſo attenuates
+        ſtag- <lb/>nant blood, in bruiſes, that it will enter <lb/>into the mouths of the bibulous
+        veins. </p>
+      <p rend="indent">
+        <lb/>Friction moves and attenuates the other- <lb/>wiſe immeable juices in the veſſels that
+        en- <lb/>cumber and relax the nervous ſyſtem; but if <lb/>vehemently and immoderately uſed
+        it excites <lb/>inflammation, and, by too much, encreaſing <lb/>the contraction of the heat
+        and arteries, the <lb/>liquids exhale, and the body becomes parch- <lb/>ed and dry.
+        Immoderate labour, in like <pb xml:id="page_12" n="13"/>
+        <lb/>manner, is prejudicial to the health, and it <lb/>prevents longevity, for hard-working
+        people <lb/>ſoon look old; and it is obſervable, that <lb/>women, in general, live longer
+        than men. </p>
+      <p rend="indent" n="5">
+        <lb/>5thly. Oil, whether contained in the ce- <lb/>lular membrane of the body, or externally
+        <lb/>applied, greatly, by its lubricity, facilitates <lb/>muſcular motion. It keeps off the
+        coldneſs <lb/>of the atmoſphere; hence, fat perſons are <lb/>not ſo ſuſceptible of cold as
+        lean people, and <lb/>it is the beſt preventive againſt chilblains. <lb/>It gives whiteneſs
+        to the tender ſkin; hence <lb/>it is, that the fatteſt parts of the body are <lb/>the
+        whiteſt, as the breaſts of young women. <lb/>—It gives roundneſs and beauty to the hu-
+        <lb/>man form; for the ſkin, when not diſtended <lb/>by it, contracts itſelf into unſightly
+        wrinkles. <lb/>It gives nouriſhment to the body, for being <lb/>abſorbed by the inhalants,
+        it is carried, with <lb/>the chyle, into the blood. If it be ſaid that <lb/>oil, externally
+        applied, ſtops the excretory <lb/>pores, thereby preventing ſweat and inſen- <lb/>ſible
+        perſpiration, I anſwer, from my own <lb/>experience, that it does not, but it rather
+        <lb/>promotes both, eſpecially if applied by brisk <lb/>friction, for it cleanſes the
+        exhalants of that <pb xml:id="page_13" n="14"/>
+        <lb/>ever encruſting luting ſordes, which covers <lb/>even the moſt delicate perſons, and
+        which the <lb/>vapour bath ſoon diſcovers to every indi- <lb/>vidual. <note place="bottom"
+          n="*" rend="size(0.5)">* The cuticle, or upper ſkin, by time, wears rough, and
+          <lb/>decays, and a new one is generated; hence it is, that ſer- <lb/>penes and ſhell-fiſh,
+          every ſummer, become new coated. <lb/>Vegetables and trees ſeem to have this property,
+          according <lb/>to the ingenious Mr. <hi rend="sc">Forsyth</hi>'s experiments on this
+          curious <lb/>ſubject. </note> The ancients, who were in the <lb/>frequent practice of
+        inunction, never found <lb/>plain oil to ſtop the pores; for when they <lb/>wiſhed to ſtop
+        or hinder tranſpiration, they <lb/>uſed wax with their oil; ſuch were the <lb/>precious
+        ceromata, mentioned by Athenæus, <lb/>(Deipnoſoph 5.) as of ſaffron, ſweet mar- <lb/>joram,
+        fenugreek, flower-de-luce, and of <lb/>roſes; and not thinking even theſe prepa-
+        <lb/>rations ſufficiently obſtructive of the pores, <lb/>they, before engaging in gymnaſtic
+        exer- <lb/>ciſes, and after anointing themſelves with <lb/>oil, rolled themſelves in the
+        ſand. </p>
+      <p rend="indent">
+        <lb/>From what I have written concerning the <lb/>inhalants, the exhalants, vital heat,
+        friction <lb/>and oil, I think, that the following practice <lb/>will be thought, by the
+        public, reaſonable, <lb/>uſeful and important. </p>
+      <pb xml:id="page_14" n="15"/>
+      <p rend="indent">
+        <lb/>In incipient dropſy, particularly the leuco- <lb/>phlegmatic, and anaſarcous (ariſing
+        from <lb/>the debility of the vaſcular ſyſtem), the chief <lb/>cure is to ſtrengthen the
+        veſſels by friction, <lb/>and a ſtimulating oil; ſo that the abſorbents <lb/>ſhall take up
+        the water from the cavities, <lb/>and the perſpiratory powers recover their <lb/>wonted
+        action. That the dropſy does not <lb/>ariſe, as is commonly imagined, from an <lb/>atony, or
+        laxity of the whole body, and the <lb/>viſcera thereof, appears from this conſidera-
+        <lb/>tion, that many cachectic perſons are not <lb/>dropſical, and many who have ciſted
+        dropſy, <lb/>are entirely free from any cachexy what- <lb/>ſoever. </p>
+      <p rend="indent">
+        <lb/>In chronic rheumatiſm, owing to a ſe- <lb/>rous colluvies of humours predominant
+        <lb/>about the moving fibres of the muſcles; as <lb/>alſo in ſtiffneſs, and rigidity of the
+        joints <lb/>and muſcles, particularly in old military <lb/>men, ariſing from frequent and
+        long ex- <lb/>poſures to the injuries of the weather, and <lb/>from old healed-up wounds and
+        fractures; <lb/>medicated oils, with a fleſh-bruſh, together <lb/>with electrical ſhocks on
+        the ſtiffened parts, <lb/>will be found very ſerviceable. </p>
+      <pb xml:id="page_15" n="16"/>
+      <p rend="indent">
+        <lb/>The fibres of old people are hard and ri- <lb/>gid, their perſpiration is little, and
+        that <lb/>bland vapour which formerly bedewed their <lb/>bodies is no more; inunction, with
+        friction <lb/>to them, is moſt ſalutary, for the animal <lb/>warmth and juices are hereby
+        drawn into <lb/>the ſkin, and the oil, by its nouriſhing powers, <lb/>renovates and
+        invigorates the whole ſyſtem. <lb/>The ſagacious Sydenham had great ſucceſs <lb/>in the
+        recovery of debilitated nature, by re- <lb/>commending healthy young men as bedfel-
+        <lb/>lows to the aged and infirm; he ſaid, that <lb/>heat alone was not the cauſe of
+        reſtoration, <lb/>for the application of warm napkins did no <lb/>good, (ſec. i. cap. iv. p.
+        79.) it was therefore <lb/>only to be aſcribed to the mild oleaginous <lb/>effluvia. Now, if
+        the human oleaginous <lb/>effluvia be ſo penetrating and balſamic as to <lb/>afford
+        revivifying nouriſhment by abſorp- <lb/>tion, why ſhould not the oil of ſweet-al-
+        <lb/>monds, for inſtance, do the ſame thing, <lb/>eſpecially when broke down and preſſed in,
+        <lb/>by heat and friction. </p>
+      <p rend="indent">
+        <lb/>Soldiers that are expoſed to exceſſive heats <lb/>in hot countries, ſhould frequently
+        be ordered <lb/>to rub their bodies with ceromata, to prevent <pb xml:id="page_16" n="17"/>
+        <lb/>too great a waſte of ſtrength by perſpiration; <lb/>and when in cold countries, they
+        are expoſed <lb/>to rain, and ſleep in damp camps, they ſhould <lb/>be enjoined to follow
+        the practice of inunc- <lb/>tion; for being generally young men, ſuch <lb/>ſtimuli would
+        quickly arouſe their native <lb/>heat, draw it to the ſurface, and keep it <lb/>there, and
+        alſo, by cloſing the inhalants, <lb/>effectually ſhut out an otherwiſe too pene-
+        <lb/>trating a humidity. </p>
+      <p rend="indent">
+        <lb/>After hard labour, or exceſſive fatigue, the <lb/>outward uſe of oil is wonderfully
+        reſtora- <lb/>tive and refreſhing: this is not only teſtified <lb/>by the practice of the
+        ancient Athletæ, but by <lb/>ſome mowers at Hendon, this ſummer, who, <lb/>before the
+        application, were nearly exhauſted <lb/>by exceſſive labour at task work, but af-
+        <lb/>terwards followed it up with eaſe and <lb/>pleaſure. </p>
+      <p rend="indent">
+        <lb/>After warm bathing in the winter ſeaſon, <lb/>the application of a ceroma is very
+        adviſe- <lb/>able, for by rendering the inhalants imper- <lb/>vious to the cold air, colds
+        are prevented, <lb/>and, by cloſing the orifices of exhalants, the <lb/>dewy, nutritious
+        juice, and vital heat (drawn <lb/>towards the ſkin by the bath) is then re- <pb
+          xml:id="page_17" n="18"/>
+        <lb/>tained, which muſt greatly warm and invi- <lb/>gorate the ſyſtem. </p>
+      <p rend="indent">
+        <lb/>An imperfect paralyſis in the aged, not <lb/>only ariſes from a deficiency of vigour,
+        and <lb/>a relaxation of nerves, ſtrained and worn <lb/>by various deſtroying cauſes, as
+        gluttony, <lb/>ebriety, &amp;c. but often it is owing to a ſu- <lb/>pineness of the vital
+        principle, or the Anima- <lb/>Medica, <note place="bottom" n="*" rend="size(0.5)">* See the
+          curious and elegant oration of the late learned Dr. <lb/>Nicholls, (Phyſician to George
+          the IId.) on the Powers of <lb/>the Anima Medica, before the College of Phyſicians in
+          <lb/>London. </note> for terror, or imminent danger, <lb/>has often been the means of
+        reſtoring thoſe <lb/>limbs (during the paroxyſm of fear) that <lb/>were before uſeleſs. Here
+        then it ſeems, that <lb/>impotency is not the cauſe, but ſloth; ſurely <lb/>then the natural
+        and beſt cure muſt be ob- <lb/>tained from exerciſe, friction, and ſtimulat- <lb/>ing oil. </p>
+      <p rend="indent">
+        <lb/>Chilly, ſedentary perſons who ill endure <lb/>the winter's cold, ſhould frequently uſe
+        <lb/>friction, and a ſtimulating oil, for it is, <lb/>through debility from want of
+        exertion, that <lb/>the arteries do not propel the fluids with <lb/>ſuch force as would
+        prove ſufficient to diſ- <lb/>tend the exhalants in the ſkin. </p>
+      <pb xml:id="page_18" n="19"/>
+      <p rend="indent">
+        <lb/>A nervous unhappineſs, with ſuſceptibi- <lb/>lity of cold is often occaſioned by a
+        thick <lb/>cacochymy of humours, not at all inflam- <lb/>matory; in this caſe, after proper
+        evacua- <lb/>tion, it is proper to draw the juices to the <lb/>ſurface of the body by light
+        frictions with <lb/>the aromata, ſo indeed as to promote the due <lb/>circulation of the
+        blood, but not by violent <lb/>application, to encumber the heart and lungs <lb/>by the
+        reflux of theſe thick and foul hu- <lb/>mours. The mind of man may be con- <lb/>ſidered
+        figuratively as the axle-tree, round <lb/>which the wheel of life can beſt turn, for
+        <lb/>although it may be unconſcious of its power, <lb/>yet it works wonders on the ſolids
+        and fluids <lb/>of the body, rectifying their irregularity, <lb/>and reducing them to
+        moderation, or elſe <lb/>rendering them inordinate and deſtructive. <lb/>But if the mind
+        have power over the body, <lb/>ſo alſo has the body a wonder-working power <lb/>over the
+        mind, for it is the blood that con- <lb/>ſtitutes the <hi rend="italic">temperament</hi> of
+        different perſons. <lb/>The red part abounds in the <hi rend="italic">ſanguineous,</hi>
+        <lb/>whoſe veins are large and cerulean, the head <lb/>thin of hair, the fleſh ſoft and
+        abundant, <lb/>and the cheeks of a roſy colour. Per- <pb xml:id="page_19" n="20"/>
+        <lb/>ſons of this temperament are fond of plea- <lb/>ſure, they are ſoon but not long angry,
+        <lb/>eaſily perſuaded and inconſtant. </p>
+      <p rend="indent">
+        <lb/>The albumenous part of the blood abounds <lb/>in the petuitous, whoſe veins are ſmall
+        and <lb/>almoſt imperceptible; the face pale, the fleſh <lb/>abundant, but cold and flaccid.
+        The mind is <lb/>uſually placid and ſerene, regardful of deco- <lb/>rum, and of the
+        honeſtum, and of what it <lb/>ought to do, but generally too lazy to exert <lb/>its powers. </p>
+      <p rend="indent">
+        <lb/>When the blood is too concrete, having <lb/>loſt its proper fluidity, it forms the
+        melan- <lb/>cholic temperament. The fleſh and hair are <lb/>of a very dark colour, as among
+        the Jews, <lb/>(who are commonly of this temperament) the <lb/>head frequently bald. The
+        body is very lean <lb/>and dry, the blood veſſels denſe and thin. The <lb/>mind is conſtant
+        to its purpoſe, not haſty, <lb/>mindful of injuries, and remarkable for <lb/>earneſtneſs in
+        thinking. </p>
+      <p rend="indent">
+        <lb/>From theſe temperaments are made up the <lb/>reſt, as the bilious, where the body is
+        thin, <lb/>the colour brown, the hair black, criſp and <lb/>buſhy, the veins large, the mind
+        intelligent <lb/>and reſolute. </p>
+      <pb xml:id="page_20" n="21"/>
+      <p rend="indent">
+        <lb/>The phlegmatic are cold, not hairy, ſub- <lb/>ject to baldneſs, fat and unweildly,
+        liable to <lb/>tumours, the mind ſometimes timid, generally <lb/>inoffenſive. The warm
+        temperament is in <lb/>body agile and robuſt, well covered with yel- <lb/>low, thick, and
+        copious pile, as the head <lb/>with hair; the angles of the eyes, and alſo <lb/>the face and
+        lips are of a very red colour, the <lb/>pulſe full and frequent, the mind capable, <lb/>but
+        impetuous. </p>
+      <p rend="indent">
+        <lb/>But nevertheleſs, to vindicate the ſupre- <lb/>macy of the mind over the body, it is to
+        be <lb/>obſerved that, by the medicinal and dietetic <lb/>art, one temperament may be
+        altered, in <lb/>ſome degree into another, ſo that the pi- <lb/>tuitous may become
+        ſanguineous, the ſan- <lb/>guineous melancholic <hi rend="italic">et vice verſa.</hi> St.
+        Paul <lb/>ſaith, <q rend="diple">I keep my body under, and bring it <lb/>into ſubjection:
+          leſt that by any means, <lb/>when I have preached to others, I myſelf <lb/>ſhould be a
+          caſt away. 1 Cor. ix. 27. </q>
+        <lb/>Undoubtedly the mind can, and often does <lb/>reduce the body to reaſon, by the means
+        of <lb/>diet and the forbearing virtues; hence the <lb/>uſe of faſting and religious
+        meditation: but <lb/>here obſerve, that what would ſtimulate one <pb xml:id="page_21" n="22"/>
+        <lb/>perſon, ſay of a hot temperament, into paſ- <lb/>ſion, might only lift up another who
+        is pitu- <lb/>itous into reaſonable comfort. </p>
+      <p rend="indent">
+        <lb/>Phlegmatic perſons of irritable habits of <lb/>body (whoſe circulation is weak, the
+        blood <lb/>not being ſent in ſufficient force to the ſur- <lb/>face, ſo as in a due degree,
+        to promote per- <lb/>ſpiration, and who by their inhalants, abſorb <lb/>more moiſture from
+        the atmoſphere than <lb/>ſtronger people), ſhould perſeveringly uſe <lb/>friction, if not
+        oil; they ſhould alſo pay <lb/>particular attention to diet. They ſhould <lb/>avoid ſugar
+        and butter, which, by thick- <lb/>ening the juices, impedes the circulation. <lb/>Inſtead of
+        eating glary food, as pig-meat <lb/>and fatted calf, they ſhould be contented <lb/>with a
+        more drying and attenuating diet, <lb/>which would prevent alarming portions <lb/>of lymph
+        from collecting in the lungs, or <lb/>in the joints. True indeed it is, that al- <lb/>though
+        a perſon be charged with too much <lb/>lymph he may continue in health, but how <lb/>long
+        theſe defluxions may remain benign <lb/>and unhurtful, no one can ſay, for alſo true <lb/>it
+        is, that, by the adverſe diameters of a <lb/>very few veſſels, the juices may ſoon become
+          <pb xml:id="page_22" n="23"/>
+        <lb/>ſtagnant and banefully acrimonious. The <lb/>too abundant lymph ſhould be diſcharged by
+        <lb/>draſtic purges, at long intervals, and for <lb/>diet, ſuch as ſtrengthens the
+        elaſticity of the <lb/>fibres, ſhould be recommended. Roaſt meat <note place="bottom" n="*"
+          rend="size(0.5)">* Roaſting, except the little that flies off by vapour, con-
+          <lb/>centrates the juices of the meat within it, giving the meat <lb/>an empyreumatic and
+          ſtimulating flavour; whereas, boiling <lb/>diſcharges the gelatinous part and eſſential
+          oil of the meat <lb/>into the water, rendering it inſapid; therefore, it will not. <lb/>I
+          believe, be too much to ſay, that half a pound of roaſt will <lb/>afford as much
+          nouriſhment with a greater ſtimulus, as three <lb/>quarters of a pound of boiled meat;
+          moreover, the organs of <lb/>digeſtion require fibrous matter to work upon, as will appear
+          <lb/>from the following experiment, which, I heard, was tried <lb/>by an eminent ſurgeon
+          in London: He confined one large dog <lb/>to the broth of meat boiled down, as we ſay, to
+          rags, and <lb/>another large dog to the ragged meat ſo boiled down, allow- <lb/>ing him, I
+          ſuppoſe, a little water to quench his thirſt. The <lb/>dog that drank the broth ſoon
+          became emaciated, and died; <lb/>but he that eat the fibres of the meat remained in
+          health, and <lb/>grew fat. <p rend="indent">
+            <lb/>The old French way of dreſſing meat with little or no water, but <lb/>with a few
+            vegetables, as potatoes, in a pan ſo cloſely covered <lb/>or luted, as to confine all
+            the vapour or eſſential oil within, <lb/>is, <hi rend="italic">me judice,</hi> the moſt
+            palatable, and the beſt mode of <lb/>cookery. </p>
+        </note>
+        <lb/>and game are proper; fruits, if any, ſhould <lb/>be ſomewhat auſtere, and alſo the
+        wine; <lb/>ſay good rough port, but ever let this dietetic <lb/>rule be carefully obſerved,
+          <hi rend="italic"><q rend="quotes">ne quid nemis.</q></hi>
+      </p>
+      <pb xml:id="page_23" n="24"/>
+      <p rend="indent">
+        <lb/>Wine, if medically taken, augments the <lb/>ſtrength of the animal fibres and rarifies
+        the <lb/>juices of the body; but if immoderately <lb/>drank, it excites a univerſal ſpaſm
+        that ends <lb/>in weakneſs and relaxation, as the trembling <lb/>hands and ſtaggering gate
+        of bacchanalians <lb/>ſufficiently evince. Wine after much uſe <lb/>loſes its ſtimulating
+        power; hence it is that <lb/>hard-drinkers proceed from bad to worſe, <lb/>from wine to the
+        drinking of pure ſpirit; <lb/>thus deſtroying their health, their reputation, <lb/>and their
+        life, for a very tranſient and miſer- <lb/>able ſatisfaction. <note place="bottom" n="*"
+          rend="size(0.5)">* In general debility brought on by drinking ſpirituous <lb/>liquors,
+          with loſs of appetite, it is, firſt, adviſable for the <lb/>patient to leave off drinking
+          one fourth of his uſual quan- <lb/>tity: if, in a fortnight, his appetite ſomewhat
+          returns, <lb/>let him leave off another fourth part, and ſo every fortnight <lb/>continue
+          the decreaſe, 'till the burning potation be totally ex- <lb/>changed for a daily, but
+          ſmall quantity of red port wine. If <lb/>indeed, the natural powers of digeſtion be quite
+          deſtroyed, by <lb/>the means of ſpirituous liquors, then there is but little hope <lb/>of
+          reſtoration. </note> But wine, if mode- <lb/>rately taken, enables the veſſels of the body
+        <lb/>with encreaſed alacrity to take up and diſperſe <lb/>nouriſhment over the ſyſtem. It is
+        of excel- <lb/>lent uſe after fatigue; alſo in the cure of <lb/>mental languors, and in
+        urgent fears, for it <pb xml:id="page_24" n="25"/>
+        <lb/>not only braces the fibres, but it tonifies the <lb/>mind; and therefore it is that
+        ſoldiers and <lb/>ſailors after a dram of ſpirituous liquor, <lb/>deſpiſe danger, and
+        joyouſly enter into a battle. </p>
+      <p rend="indent">
+        <lb/>Again, pituitous perſons who uſe but little <lb/>exerciſe, are particularly ſuſceptible
+        of the <lb/>ill effects of a damp air, which although, by <lb/>the thermometer, may not be
+        colder than a <lb/>dry one, is more penetrating becauſe <hi rend="italic">it con-
+          <lb/>ducts</hi> better, filling the inhalants with crude <lb/>noxious vapour; hence
+        ſwellings of the <lb/>great joints of the limbs are frequent, which <lb/>are miſtaken for
+        the gout. Certainly the <lb/>beſt preſervatives are ſtrong daily exerciſe to <lb/>the point
+        of fatigue, ſo as to ſweat; a dry <lb/>cardiac diet; frequent friction with ceromata <lb/>of
+        eſſential oil, to counteract the baneful ef- <lb/>fects of the atmoſphere; and ſuch
+        cloathing <lb/>as of wool cloſe to the ſkin, which, being a <lb/>bad conductor, will prevent
+        the inhalants <lb/>from improper abſorption. <note place="bottom" n="*" rend="size(0.5)">*
+          By warm cloathing, we may indeed avoid in part, a cold <lb/>humidity, but if we would do
+          ſo entirely, the face and the hands <lb/>muſt be alſo cloathed; whereas, by counteracting
+          the humi- <lb/>dity of the air by ſtimulants and eſſential oils, every good <lb/>effect
+          will be anſwered, without acquiring the bad habit of <lb/>too warm cloathing. </note>
+      </p>
+      <pb xml:id="page_25" n="26"/>
+      <p rend="indent">
+        <lb/>It is alſo not uncommon for ſuch perſons <lb/>to be troubled with an aqueous, not a
+        chyli- <lb/>ferous, diabetes, for by checked exhalation, <lb/>what is not diſcharged by
+        perſpiration and <lb/>ſweat, paſſes through the bladder; and their <lb/>too copious
+        abſorption of circumambient <lb/>fluids doubtleſs encreaſes the quantity of <lb/>urine.
+          <note place="bottom" n="*" rend="size(0.5)">* Perſpiratio ad urinam in æſtate eſt in
+          ratione, 5. 3; in <lb/>hyeme vero ut, 2. 3. </note> This very common, and too un-
+        <lb/>noticed, yet dangerous diſeaſe, may, I think, <lb/>be abated if not entirely cured, by
+        the fol- <lb/>lowing practice: — If it ariſe from hectic <lb/>fever, mucilages (perhaps with
+        acids to cor- <lb/>rect the hectic) are ſerviceable; but if from <lb/>hyſteric, or any
+        tranſitory relaxing cauſes, <lb/>mucilages and diffuſible ſtimuli are more <lb/>proper. In
+        either caſe the <hi rend="italic">primæ viæ</hi> ſhould <lb/>be cleanſed firſt by
+        ipecacuanha, then by <lb/>rhubarb; ſtrengtheners, and mild aſtrin- <lb/>gents ſhould be
+        uſed; a dry binding diet, <lb/>and morning and evening friction in a <lb/>warm room, with a
+        defenſive oil againſt <pb xml:id="page_26" n="27"/>
+        <lb/>damp weather, <note place="bottom" n="*" rend="size(0.5)">* Cold gives additional
+          ſtrength to perſons already ſtrong <lb/>in health, becauſe of the re-action of the vital
+          power, and <lb/>becauſe the air may be nearly uncharged with vapour, and <lb/>therefore
+          more of it, in a given time, is inhaled; but cold <lb/>debilitates very weak and ſedentary
+          people, becauſe of the <lb/>want of re-action. Damp and cold air, or damp and hot air,
+          <lb/>is hurtful to all perſons, becauſe leſs pure air, and too much <lb/>humidity is
+          inhaled by the ſkin and lungs. Certainly the <lb/>healthieſt is the warm and dry
+          atmoſphere, which ought to <lb/>be a conſideration of ſome weight to valetudinarians who
+          can <lb/>afford either to change their reſidence, or to make it com- <lb/>fortable.
+        </note> ſhould be earneſtly recom- <lb/>mended. </p>
+      <p rend="indent">
+        <lb/>Sometimes cold and damp air ſhall ſo relax <lb/>the nervous ſyſtem, as to deprive the
+        patient <lb/>of the uſe of his limbs; then a briſk vomit <lb/>and the application, by
+        friction, of warm <lb/>medicated oil on the back bone, or on the <lb/>inert limbs, will be
+        of great ſervice. </p>
+      <p rend="indent">
+        <lb/>The diſeaſe of children, called the rickets, <lb/>after diſcharging the redundant lymph
+        by <lb/>vomits and detergent doſes of rhubarb, is to <lb/>be cured by friction, and with
+        woollen cloths <lb/>properly fumigated. </p>
+      <p rend="indent">
+        <lb/>It is not uncommon to ſee, in young ſe- <lb/>dentary people, the ſkin diſcoloured, the
+        <lb/>muſcles lank, the face pale and variouſly diſ- <pb xml:id="page_27" n="28"/>
+        <lb/>figured with puſtules; the ſpirits gener- <lb/>ally in a low ſtate, and the body
+        ſluggiſh. <lb/>The cure is to excite the perſpiratory powers <lb/>by bodily labour,
+        friction, roaſt meat, and <lb/>wine; and to heal the face by lenient in- <lb/>noxious
+        liniment. </p>
+      <p rend="indent">
+        <lb/>Old ſtrains, and ſtubborn pains in the <lb/>back, loins, and elſewhere, are, for the
+        moſt <lb/>part, curable by friction and medicated oil, and <lb/>even incipient white
+        ſwellings, that would <lb/>otherwiſe cripple or render the limb uſeleſs, <lb/>are thus to be
+        diſperſed and deſtroyed. </p>
+      <p rend="indent">
+        <lb/>Dry white ſcaly eruptions on the elbows <lb/>and knees, even of long ſtanding, may be
+        <lb/>cured by friction and medicated oil; <note place="bottom" n="*" rend="size(0.5)">*
+          When, through neglect, the hair of the head in children <lb/>becomes matted and ſtuck
+          together, by a viſcid humour that <lb/>the exhalants caſt upon the ſkin, the ſafeſt and
+          ſpeedieſt cure, <lb/>after cutting off the hair, is, daily to ſpunge the head with
+          <lb/>hot water, always taking care, after ſpunging, to dry the <lb/>head well with hot
+          cloths. </note> and <lb/>here I muſt remark, that although the cure <lb/>of the ſea ſcurvy
+        may be obtained by the <lb/>vegetable acid of oranges and lemons, yet I <lb/>ſubmit to the
+        conſideration of the ſurgeons <lb/>of the navy, whether or not, rubbing the <pb
+          xml:id="page_28" n="29"/>
+        <lb/>oil of the rinds on the diſeaſed parts, would <lb/>not accelerate the cure. </p>
+      <p rend="indent">
+        <lb/>After fevers, and ſome chronical diſ- <lb/>eaſes, the hair of the head falls off,
+        either <lb/>becauſe the ſkin ſhrinks and becomes dry, <lb/>through want of nutritious
+        juices, or becauſe <lb/>through diſeaſed relaxation, the ſtabulum of <lb/>the hair becomes
+        too weak. In the firſt caſe, <lb/>baldneſs may be cured by oily liniments. In <lb/>the
+        ſecond, good ſtrengtheners of the ſyſtem <lb/>will be found moſt uſeful. </p>
+      <p rend="indent">
+        <lb/>If this publication ſhould ſerve as a hint <lb/>to a more enlarged mode of medical
+        practice <lb/>than the preſent, I ſhall, as a Clergyman of <lb/>the Church of England, moſt
+        heartily rejoice <lb/>as having been the humble means of doing <lb/>ſome good to my
+        fellow-creatures. </p>
+      <p rend="indent">
+        <lb/>It may be neceſſary here to obſerve, that <lb/>I had been ſeven years in holy orders,
+        before <lb/>I became doctor of phyſic, at Leyden, never <lb/>thinking it at all improper to
+        blend two very <lb/>uſeful profeſſions together, and more eſpe- <lb/>cially, as our bleſſed
+        Lord himſelf healed <lb/>the diſeaſes of the body as well as of the <lb/>ſoul. </p>
+      <pb xml:id="page_29" n="30"/>
+      <p rend="indent">
+        <lb/>Indeed, I am ſtrongly of opinion, as I <lb/>have elſewhere obſerved in my Philan-
+        <lb/>thropic Monitor, that the public and private <lb/>good reſulting from ſuch a union of
+        profeſ- <lb/>ſions, would be great and incalculable. The <lb/>unbeneficed clergy (being
+        phyſicians) would <lb/>enlarge the ſphere of their uſefulneſs, eſpe- <lb/>cially amongſt the
+        poor people, and by ac- <lb/>cepting moderate fees <note place="bottom" n="*"
+          rend="size(0.5)">* A viſit near the practitioner's reſidence might be rated <lb/>at
+          half-a-guinea. If two miles off, one guinea, and ſo on, <hi rend="italic">in
+            <lb/>modo.</hi> Journeys in the night, and in bad weather, when car- <lb/>riages muſt be
+          hired, deſerve a larger conſideration. </note> from the yeomanry <lb/>and gentry, they
+        would ſoon diſentangle <lb/>themſelves from that poverty and diſtreſs, <lb/>which is as
+        ſubverſive of their reſpectabi- <lb/>lity in civilized life, as of their deſerved
+        <lb/>comfort. </p>
+      <p rend="indent">
+        <lb/>To the public at large, the advantages <lb/>would be very great, having able prac-
+        <lb/>titioners always near at hand, and the pre- <lb/>ſent enormous expence of cure ſo
+        properly <lb/>cut down as to exclude none from the benefit <lb/>of good medical advice. </p>
+      <pb xml:id="page_30" n="31"/>
+      <p rend="indent">
+        <lb/>If it be ſaid, that the clergy would not be <lb/>ſo competent in the healing art as the
+        fa- <lb/>culty, I will ask why not? They have the <lb/>ſame advantages of learning at Oxford
+        <lb/>and Cambridge, where there are hoſpitals, <lb/>as other medical ſtudents, and if
+        degrees in <lb/>phyſic are thought to be particularly ho- <lb/>nourable from Oxford and
+        Cambridge, ſurely <lb/>the competency ought not to be diſputed. <lb/>By this union of
+        profeſſions in the clergy, <lb/>as phyſicians, no injury would be done to <lb/>ſurgeons,
+        apothecaries, and chymiſts, nor no <lb/>injuſtice to phyſicians of eſtabliſhed fame and
+        <lb/>practice; for, if ſucceſſful, they would ſtill <lb/>retain their patients, and even
+        encreaſe the <lb/>number, though, poſſibly, they might re- <lb/>ceive fees more ſuitable to
+        their reſpective <lb/>merit. </p>
+      <q rend="quotes">He that is wiſe will ponder theſe things! </q>
+      <p rend="indent">
+        <lb/>☞ The Author will attend patients at <lb/>home and abroad. </p>
+      <lb/>
+      <dateline rend="align-center"><hi rend="sc">Mill Hill, Hendon, Middlesex, <lb/>August 31,
+          1797. </hi></dateline>
+    </body>
+
+  </text>
+</TEI>

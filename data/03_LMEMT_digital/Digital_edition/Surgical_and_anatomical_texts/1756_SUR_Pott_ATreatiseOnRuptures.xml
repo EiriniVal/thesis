@@ -1,0 +1,1223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LMEMT Corpus - Pott: A Treatise on Ruptures</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>Percivall Pott</persName>
+            </author>
+            <title type="main">A Treatise on Ruptures</title>
+            <edition n="1"/>
+            <idno type="ESTC">T68468</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/T68468"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>London: printed for C. Hitch and L. Hawes, at the Red-Lion,
+                  Pater-Noster-Row, M.DCC.LVI. </persName>
+              </publisher>
+              <date>1756</date>
+            </imprint>
+            <extent>
+              <measure type="format">8⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="29"/>
+              <measure type="count" commodity="body" unit="page" quantity="232"/>
+              <measure type="count" commodity="back" unit="page" quantity="4"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">British Library</orgName>
+            <idno type="ECCO">CW107189630</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Surgical or anatominal work"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text type="book" rend="roman" xml:lang="eng">
+    <gap reason="sampling" unit="pages" quantity="30"/>
+    <body>
+      <pb n="1"/>
+      <figure rend="space">
+        <figDesc>A horizontal double-line, spanning the whole page. </figDesc>
+      </figure>
+      <figure rend="space">
+        <figDesc>A horizontal double-line, spanning the whole page. </figDesc>
+      </figure>
+      <head rend="sc align-center space">
+        <lb/>a <lb/><hi rend="size(1.5)">TREATISE </hi>
+        <lb/>on <lb/><hi rend="size(1.5)">RUPTURES. </hi>
+      </head>
+      <figure>
+        <figDesc>A horizontal line, spanning the whole page. </figDesc>
+      </figure>
+      <div type="section">
+        <head rend="space align-center">
+          <lb/>SECT. I. </head>
+        <p rend="space"><hi rend="dc(2)">B</hi>Y the term rupture, hernia, <lb/>or deſcent, is meant
+          a tu- <lb/>mor produced by the fal- <lb/>ling down or protruſion of ſome <lb/>part or
+          parts which ſhould na- <lb/>turally be contained in the cavity <lb/>of the belly. </p>
+        <pb n="2"/>
+        <p rend="indent space">
+          <lb/>The places in which theſe <lb/>parts make their appearance in <lb/>order to form what
+          is called a <lb/>rupture, are the groin, the ſcro- <lb/>tum, the navel, the labia pu-
+          <lb/>dendi, the upper and ſore part <lb/>of the thigh, and every point of <lb/>the
+          anterior part of the belly. <lb/>The parts principally liable to <lb/>ſuffer this
+          protruſion, or deſcent, <lb/>are a part of the omentum or <lb/>caul, a portion of the
+          inteſ- <lb/>tines, and ſometimes (tho' very <lb/>rarely) a portion of the ſtomach. </p>
+        <p rend="indent space">
+          <lb/>From theſe two circumſtances <lb/>of ſituation and contents, are de- <lb/>rived the
+          different appellations by <lb/>which the different kinds of rup- <pb n="3"/>
+          <lb/>tures are diſtinguiſhed from each <lb/>other. </p>
+        <p rend="indent space">
+          <lb/>From their ſituation they are <lb/>called inguinal, ſcrotal, femoral, <lb/>umbilical,
+          or ventral ruptures, <lb/>as they happen to make their ap- <lb/>pearance in the groin,
+          ſcrotum, <lb/>thigh, navel, or belly. </p>
+        <p rend="indent space">
+          <lb/>If the prolapſed body be a por- <lb/>tion of inteſtine, the tumor is <lb/>called
+          enterocele, hernia inteſti- <lb/>nalis, or inteſtinal rupture; if it <lb/>is omentum, it
+          is called epiplo- <lb/>cele, hernia omentalis, or omen- <lb/>tal rupture; if both
+          inteſtine and <lb/>caul conſpire to form the tumor, <lb/>the name is compounded of both
+          <lb/>contents, and is called entero- <lb/>epiplocele. </p>
+        <pb n="4"/>
+        <p rend="indent space">
+          <lb/>The vulgar ſuppoſition that <lb/>theſe bodies deſcend thro' paſ- <lb/>ſages forcibly
+          made by breach or <lb/>laceration of the containing parts, <lb/>is not true; at leaſt with
+          regard <lb/>to the inguinal, ſcrotal, femoral <lb/>and navel ruptures: the aper-
+          <lb/>tures by which the three former <lb/>deſcend are natural to every hu- <lb/>man body,
+          as well thoſe who <lb/>have not, as thoſe who have rup- <lb/>tures, and permit the tranſit
+          of <lb/>the caul, or gut only by being <lb/>dilated. The principal paſſages <lb/>are thoſe
+          on each ſide of the <lb/>lower part of the belly near the <lb/>groin, thro' the tendon of
+          one <lb/>of the abdominal muſcles; and <lb/>the hollow formed under what <lb/>is commonly
+          called Poupart's or <pb n="5"/>
+          <lb/>Fallopius's ligament, in the up- <lb/>per and fore part of the thigh; <lb/>through
+          the former the ſpermatic <lb/>veſſels paſs to the teſticles in men, <lb/>and the ligamenta
+          uteri in wo- <lb/>men; and thro' the latter the <lb/>great crural vein and artery <lb/>to
+          the thigh and leg in both <lb/>ſexes. </p>
+        <p rend="indent space">
+          <lb/>A ſhort anatomical deſcription <lb/>of theſe parts is ſomewhat ne- <lb/>ceſſary to
+          underſtand rightly the <lb/>true nature and ſituation of this <lb/>diſeaſe. The pair of
+          muſcles <lb/>called obliqui externi or deſcen- <lb/>dentes, cover all that part of the
+          <lb/>belly which is without bone, and <lb/>the lower and fore part of the <lb/>thorax;
+          they are fleſhy on the <lb/>ſides, and tendinous in the mid- <pb n="6"/>
+          <lb/>dle and lower part; they ſpring <lb/>from the ſeventh and eighth ribs <lb/>and all
+          below them, by fleſhy <lb/>portions which indigitate with <lb/>correſponding portions of
+          two <lb/>other muſcles called the ſerratus <lb/>major anticus, and latiſſimus dorſi,
+          <lb/>and becoming tendinous are in- <lb/>ſerted into the linea alba, ſpine <lb/>of the os
+          ileum and the os pubis. </p>
+        <p rend="indent space">
+          <lb/>What is called Poupart's or <lb/>Fallopius's ligament, is nothing <lb/>more than the
+          lower border of <lb/>this tendon ſtretched from the <lb/>fore part of the os ileum or
+          <lb/>haunch bone, to the pubis: the <lb/>tendinous fibres of this muſcle <lb/>as they
+          proceed obliquely down- <lb/>ward, diverge and leave ſeveral <lb/>ſmall apertures for the
+          paſſage of <pb n="7"/>
+          <lb/>veſſels and nerves, and as they <lb/>are inſerted into the pubis they <lb/>croſs each
+          other and are interwo- <lb/>ven, by which the inſertion is <lb/>much ſtrengthened. </p>
+        <p rend="indent space">
+          <lb/>At the lower part of the belly, <lb/>a little above the pubis, the fibres <lb/>of
+          theſe tendons ſeparate from <lb/>each other, and form thereby a <lb/>large oval aperture
+          on each ſide, <lb/>juſt above the groin, thro' which <lb/>paſs the ſpermatic veſſels to
+          the <lb/>teſticles in men and the ligamenta <lb/>uteri in women, in whom this
+          <lb/>aperture is much ſmaller than it <lb/>is in men; as the ligamentum <lb/>uteri is alſo
+          much ſmaller than <lb/>the ſpermatic chord. </p>
+        <pb n="8"/>
+        <p rend="indent space">
+          <lb/>The other muſcles of the belly <lb/>having no immediate concern <lb/>with the preſent
+          ſubject, I ſhall <lb/>take no other notice of them <lb/>than only to obſerve, that the
+          <lb/>ſpermatic chord does not paſs <lb/>thro' any openings in theſe, but <lb/>under the
+          lower edge or border <lb/>of two of them, (<hi rend="italic">viz.</hi> the obli- <lb/>quus
+          internus, and tranſverſalis) <lb/>at ſuch diſtance and in ſuch man- <lb/>ner, that no
+          action of theſe mu- <lb/>ſcles can make any ſtricture up- <lb/>on it. </p>
+        <p rend="indent space">
+          <lb/>The inſide of theſe muſcles, <lb/>and indeed the whole cavity of <lb/>the belly, is
+          lined by a ſmooth, <lb/>firm, but eaſily dilatable mem- <lb/>brane called the peritoneum,
+          a <pb n="9"/>
+          <lb/>minute anatomical deſcription of <lb/>which would lead me beſide my <lb/>preſent
+          purpoſe; let it ſuffice to <lb/>obſerve, that it lines the whole <lb/>cavity of the belly,
+          and gives an <lb/>external coat to all the viſcera <lb/>contained in it. </p>
+        <p rend="indent space">
+          <lb/>Behind the peritoneum lies a <lb/>looſe cellular membrane called <lb/>its appendix;
+          this is found in <lb/>very different quantity in differ- <lb/>ent places, in ſome it is
+          plenti- <lb/>fully ſtocked with fat, in others <lb/>it is void of fat, and is the ſame
+          <lb/>ſort of cellular membrane as is <lb/>found all over the body. </p>
+        <p rend="indent space">
+          <lb/>This cellular membrane (void <lb/>of fat) enveloping the ſpermatic <lb/>chord is
+          called the tunica vagi- <pb n="10"/>
+          <lb/>nalis communis, or tunica vagi- <lb/>nalis of the chord; which chord <lb/>thus
+          enveloped, paſſes out from <lb/>the cavity of the belly, under <lb/>the edge of the
+          tranſverſalis, and <lb/>internal oblique muſcles, and <lb/>thro' the aperture in the
+          tendon <lb/>of the external oblique, juſt a- <lb/>bove the groin. </p>
+        <p rend="indent space">
+          <lb/>The hernia or rupture in its <lb/>ſac (ſoon to be deſcribed) is puſh- <lb/>ed from
+          the cavity of the abdo- <lb/>men thro' the ſame aperture, and <lb/>inſinuates itſelf into
+          the tunica <lb/>vaginalis, in ſuch manner, as to <lb/>be totally enveloped by it, and
+          <lb/>to lye anterior to the ſpermatic <lb/>veſſels, or chord. </p>
+        <pb n="11"/>
+        <p rend="indent space">
+          <lb/>The tunica vaginalis teſtis is a <lb/>diſtinct membrane, forming a di- <lb/>ſtinct
+          cavity, including the teſticle <lb/>and a ſmall quantity of limpid <lb/>fluid. </p>
+        <p rend="indent space">
+          <lb/>The acknowledged uſe of the <lb/>muſcles of the belly is to expel the <lb/>fæces and
+          urine, to help the di- <lb/>geſtive organs by gentle and <lb/>frequent compreſſion, to
+          aſſiſt in <lb/>the act of vomiting, and by de- <lb/>preſſing the ribs and forcing the
+          <lb/>diaphragm upward to contribute <lb/>to expiration. </p>
+        <p rend="indent space">
+          <lb/>By the action of theſe and of the <lb/>muſcles of reſpiration, the con- <lb/>tents of
+          the belly are continually <lb/>preſſed upon, and in ſome actions <pb n="12"/>
+          <lb/>and exertions of ſtrength preſſed <lb/>on with great, and ſudden force, <lb/>and as
+          our erect poſture favours <lb/>the deſcent of the contained parts <lb/>toward thoſe places
+          which lie low <lb/>and are little defended, a portion <lb/>of gut, or caul will ſometimes
+          <lb/>ſlip through, and the leſs the <lb/>natural ſtrength of the ſubject, <lb/>the more
+          likely will this be to <lb/>happen, which is one reaſon why <lb/>children are more ſubject
+          to this <lb/>diſorder than adults. </p>
+        <p rend="indent space">
+          <lb/>This is the moſt probable and <lb/>natural account of the origin of <lb/>the ruptures
+          of children and <lb/>adults, but will not account for <lb/>thoſe of infants, in whom we
+          <lb/>very frequently find them ſoon <lb/>after birth, when erect poſture <pb n="13"/>
+          <lb/>can have had no ſhare in their <lb/>production. </p>
+        <p rend="indent space">
+          <lb/>If the teſticles of a fœtus were <lb/>down in the ſcrotum, depen- <lb/>dent from the
+          ſpermatic chord, <lb/>as they are in an adult, they <lb/>would in ſome poſtures and diſ-
+          <lb/>poſitions of the child at the time <lb/>of parturition be very liable to be
+          <lb/>hurt; to prevent which, and <lb/>poſſibly for other reaſons alſo, <lb/>the teſticles
+          of a fœtus during <lb/>its reſidence in the uterus, lie <lb/>within the abdomen, behind
+          the <lb/>peritoneum, defended by the <lb/>bone; ſoon after birth, when the <lb/>lungs come
+          to be diſtended with <lb/>air and preſs on the diaphragm, <lb/>when the muſcles of
+          reſpiration <lb/>act, and thoſe of the abdomen <pb n="14"/>
+          <lb/>begin to ſqueeze the contents of <lb/>the belly, the teſticles are puſhed <lb/>out
+          thro' the apertures in the ab- <lb/>dominal muſcle (called the rings) <lb/>into the upper
+          part of the ſcro- <lb/>tum: This paſſage of the teſticle <lb/>from the belly into the
+          ſcrotum, <lb/>I take to be the principal cauſe <lb/>of the ruptures of infants, for
+          <lb/>the ring or aperture being by <lb/>this means dilated, a portion of <lb/>caul or gut
+          has an opportunity <lb/>of ſlipping thro' before the aper- <lb/>ture has had time to
+          contract it- <lb/>ſelf again, and which protruſion <lb/>will be forwarded by the con-
+          <lb/>tinual efforts of the child in <lb/>crying. </p>
+        <p rend="indent space">
+          <lb/>This has always appeared to <lb/><choice>
+            <corr/>
+            <sic>to </sic>
+          </choice>me to be the caſe; and in this <pb n="15"/>
+          <lb/>I am more confirmed by obſerv- <lb/>ing that almoſt all the infants <lb/>that are
+          ruptured within the firſt <lb/>five or ſix months of their life, <lb/>are males. But
+          whether this is <lb/>the caſe or not, certain it is, that <lb/>the greater part of
+          ruptures have <lb/>their riſe in early infancy, are <lb/>produced gradually, are very
+          <lb/>ſmall at their firſt appearance, <lb/>and are ſeldom ſeen or regarded <lb/>in
+          children, till they have got be- <lb/>low the groin, more or leſs into <lb/>the ſcrotum. </p>
+        <p rend="indent space">
+          <lb/>This deſcent or protruſion will <lb/>happen frequently, when the in- <lb/>fant
+          ſtrains to cry, or to empty <lb/>the inteſtines of fæces, and will <lb/>return up again as
+          ſoon as the <lb/>child is quiet; the nurſes call it <pb n="16"/>
+          <lb/>wind, and it is generally at firſt <lb/>neglected, the child not being
+          <lb/>apparently injured, and the peo- <lb/>ple about it not knowing the <lb/>conſequence. </p>
+        <p rend="indent space">
+          <lb/>Neither the inteſtine nor o- <lb/>mentum can deſcend thro' either <lb/>of the
+          above-mentioned aper- <lb/>tures in the groin or belly, with- <lb/>out thruſting before
+          them a por- <lb/>tion of the peritoneum, in form <lb/>of a bag or pouch, not unlike
+          <lb/>what is called a thumbſtal, in <lb/>which the piece of gut or caul <lb/>is included;
+          this is called the <lb/>hernial ſac; and as this deſcent <lb/>will frequently happen
+          unregard- <lb/>ed, from the manner in which <lb/>our children are cloathed, and <lb/>the
+          few opportunities we have of <pb n="17"/>
+          <lb/>ſeeing them naked, this ſac, con- <lb/>ſiſting of a fine and eaſily dilata- <lb/>ble
+          membrane, will by each de- <lb/>ſcent be prolonged or lengthened, <lb/>and paſs gradually
+          from the groin <lb/>into the ſcrotum. </p>
+        <p rend="indent space">
+          <lb/>It has been the opinion of ſome, <lb/>and, among the reſt, of Mr. Che- <lb/>ſelden,
+          that the ſac of a hernia <lb/>is not an elongation of the peri- <lb/>toneum, but formed
+          like the ſac <lb/>of an aneuriſm, and that of ſome <lb/>other tumors, by the thickening
+          <lb/>of the common membranes from <lb/>preſſure and obſtruction: how- <lb/>ever true this
+          may be in ſome <lb/>caſes, it moſt certainly is not ſo <lb/>with regard to the preſent,
+          the <lb/>hernial ſac being clearly and de- <lb/>monſtrably a portion of the pe- <pb n="18"/>
+          <lb/>ritoneum, lengthened gradually <lb/>by the deſcent of its contents, <lb/>and becoming
+          thicker as it is <lb/>lengthened. </p>
+        <p rend="indent space">
+          <lb/>Whether the ſac in its infant <lb/>ſtate, while it is very thin and <lb/>has
+          contracted no adheſions, ever <lb/>re-aſcends into the belly with <lb/>the inteſtine, I
+          will not pretend <lb/>to determine; but am much in- <lb/>clined to think it does not, from
+          <lb/>the facility with which the parts <lb/>compoſing a rupture deſcend, <lb/>after they
+          have been few times <lb/>down, and from a fulneſs which <lb/>may generally be felt along
+          the <lb/>proceſs of ſuch children as have <lb/>been ruptured; ſome few of <lb/>which I
+          have had an opportunity <lb/>of opening after death, and have <pb n="19"/>
+          <lb/>always found the ſac in the <lb/>ſcrotum. </p>
+        <p rend="indent space">
+          <lb/>From the natural laxity of the <lb/>whole frame of infants, from the <lb/>ſoftneſs
+          and flexibility of their <lb/>fibres, and from their frequent <lb/>efforts in crying, this
+          protruſion <lb/>or deſcent will happen frequent- <lb/>ly; when down, the nurſe's hand
+          <lb/>or a warm cloth generally ſerve <lb/>to return it; and, as I ſaid be- <lb/>fore, it
+          paſſes for wind and is <lb/>neglected, till it happens to be <lb/>ſeen by ſome perſon of
+          judgment, <lb/>or creates trouble to the child. </p>
+        <p rend="indent space">
+          <lb/>This is the general date, ori- <lb/>gin, and firſt riſe of this diſeaſe; <lb/>but to
+          this there are ſeveral ex- <lb/>ceptions: There are many in- <pb n="20"/>
+          <lb/>ſtances of ruptures making their <lb/>firſt appearance in adults, who <lb/>have not
+          been ruptured while <lb/>they were infants; and there are <lb/>ſeveral inſtances of
+          ruptures pro- <lb/>duced by efforts, blows, &amp;c. in- <lb/>ſtantaneouſly: but the moſt
+          fre- <lb/>quent origin is that which I have <lb/>mentioned; and by what has <lb/>come
+          within my obſervation, it <lb/>has appeared to me that the ge- <lb/>nerality of the
+          ſcrotal hernias of <lb/>adults have been derived from <lb/>childhood, and thoſe ruptures
+          <lb/>which have made their firſt ap- <lb/>pearance in mature age, have ge- <lb/>nerally
+          remained inguinal rup- <lb/>tures. </p>
+        <p rend="indent space">
+          <lb/>I take no notice of the old diſ- <lb/>pute about the dilatation or la- <pb n="21"/>
+          <lb/>ceration of the peritoneum, as it <lb/>is agreed by every body, and in- <lb/>deed is
+          plainly demonſtrable <lb/>that the peritoneum is dilated to <lb/>form the hernial ſac, but
+          tho' <lb/>dilated to a very great degree, <lb/>yet always remains entire; the <lb/>caſe,
+          quoted by Mr. Sharp, of <lb/>the inteſtine being found in con- <lb/>tact with the
+          teſticle, being an <lb/>accidental thing, and to be rank- <lb/>ed as ſuch, or as one of
+          the lu- <lb/>ſus naturæ. </p>
+        <p rend="indent space">
+          <lb/>The ſigns of an inguinal or <lb/>ſcrotal rupture are a tumor in <lb/>the groin or
+          upper part of the <lb/>ſcrotum, beginning at the ring <lb/>of the abdominal muſcle, and
+          <lb/>extending more or leſs down- <lb/>ward; which tumor appears dif- <pb n="22"/>
+          <lb/>ferently to the touch, according <lb/>to its different contents. </p>
+        <p rend="indent space">
+          <lb/>If a portion of inteſtine forms <lb/>the tumor, and that portion is <lb/>not a very
+          ſmall one, its ſurface <lb/>is ſmooth and renitent, but <lb/>much more ſo upon the actions
+          <lb/>of coughing, ſneezing, &amp;c. up- <lb/>on every effort of which it feels <lb/>as if
+          it was blown into. </p>
+        <p rend="indent space">
+          <lb/>If a piece of omentum has <lb/>ſlipped down, it has a more flab- <lb/>by feel, ſeems
+          to have a more <lb/>unequal ſurface, makes leſs re- <lb/>ſiſtance to the finger, and gives
+          <lb/>the ſcrotum a leſs round figure; <lb/>and if the portion is large and <lb/>the
+          ſubject adult, it is in ſome <lb/>meaſure diſtinguiſhable by its <pb n="23"/>
+          <lb/>weight; if it conſiſt of both in- <lb/>teſtine and omentum, the judg- <lb/>ment to be
+          formed by the touch <lb/>will be leſs clear and diſtinct; but <lb/>in this as well as many
+          other parts <lb/>of ſurgery, there is a tactus eru- <lb/>ditus, which may be obtained
+          <lb/>by practice and reflection, but <lb/>of which no clear idea can be <lb/>verbally
+          conveyed. </p>
+        <p rend="indent space">
+          <lb/>The inteſtine moſt frequently <lb/>found in a ſcrotal hernia, is a <lb/>portion of
+          the ileum, though it <lb/>is no very uncommon thing to <lb/>find a portion of the colon
+          and <lb/>the cœcum with the appendicula <lb/>vermiformis. </p>
+        <p rend="indent space">
+          <lb/>The only diſeaſes with which <lb/>this can poſſibly be confounded <pb n="24"/>
+          <lb/>are the hydrocele, and that de- <lb/>fluxion on the teſticle called her- <lb/>nia
+          humoralis. In the hernia <lb/>humoralis the teſticle and epidi- <lb/>dymis are plainly to
+          be felt, and <lb/>their hardneſs diſcovered; and <lb/>in the hydrocele, however full
+          <lb/>the cyſt may be, it plainly ter- <lb/>minates at the ring of the muſ- <lb/>cle;
+          beſide which, the fluctua- <lb/>tion of the water, and the ab- <lb/>ſence of painful
+          ſymptoms, will <lb/>plainly point out this diſeaſe, <lb/>and diſtinguiſh it from a hernia,
+          <lb/>to any man at all acquainted <lb/>with either. </p>
+        <p rend="indent space">
+          <lb/>Upon the reduction of the <lb/>parts by the hand, if the rupture <lb/>conſiſted of a
+          portion of inteſtine <lb/>only, it generally ſlips up at <pb n="25"/>
+          <lb/>once, makes a kind of gugling, <lb/>which may ſometimes be heard, <lb/>but always may
+          be diſtinguiſhed <lb/>by the finger, and leaves the <lb/>ſcrotum quite free from any pre-
+          <lb/>ternatural body; is it conſiſted <lb/>of a piece of omentum, it re- <lb/>turns up
+          more gradually and <lb/>without any of that ſenſation to <lb/>the finger which the
+          inteſtine <lb/>produced; if it conſiſts of both <lb/>inteſtine and omentum, the in-
+          <lb/>teſtine generally goes up firſt, <lb/>leaves a flabby kind of body be- <lb/>hind
+          which is returnable alſo, <lb/>but not in the ſame manner as <lb/>the inteſtine, inaſmuch
+          as it re- <lb/>turns more gradually and gene- <lb/>rally requires to be followed by
+          <lb/>the finger to the laſt. </p>
+        <pb n="26"/>
+        <p rend="indent space">
+          <lb/>Ruptures differ from each o- <lb/>ther, not only in the place of <lb/>their
+          appearance, and in their <lb/>contents, which make their ge- <lb/>neral difference; but
+          each in- <lb/>dividual rupture has ſome parti- <lb/>cular circumſtances which are
+          <lb/>neceſſary to be conſidered in or- <lb/>der to form a right judgment of <lb/>it: Theſe
+          are the ſubject in <lb/>whom it appears, its date, its <lb/>ſymptoms, and the probability
+          <lb/>or improbability of its being re- <lb/>turnable. </p>
+        <p rend="indent space">
+          <lb/>If the ſubject is an infant it is <lb/>not often attended with much <lb/>difficulty
+          or trouble, the ſoft- <lb/>neſs and ductility of their fibres <lb/>generally render
+          reduction eaſy; <pb n="27"/>
+          <lb/>and though from neglect or inat- <lb/>tention it may fall down again, <lb/>yet it is
+          again eaſily returned, <lb/>and at this time of life ſeldom <lb/>produces any miſchief. I
+          ſay <lb/>ſeldom, becauſe there are in- <lb/>ſtances to the contrary, and I <lb/>have,
+          myſelf, ſeen an infant un- <lb/>der a year old die of a ſtrangu- <lb/>lated hernia, with
+          all the ſymp- <lb/>toms of mortified inteſtines, tho' <lb/>the rupture had been down but
+          <lb/>two days. </p>
+        <p rend="indent space">
+          <lb/>If the ſubject is adult, and in <lb/>the vigor of life, the conſe- <lb/>quences of
+          neglect or male-treat- <lb/>ment are more to be feared than <lb/>at any other time of
+          life, for rea- <lb/>ſons which are very obvious. </p>
+        <pb n="28"/>
+        <p rend="indent space">
+          <lb/>The great and principal miſ- <lb/>chief to be feared, in all de- <lb/>ſcents of the
+          inteſtine, is a ſtric- <lb/>ture; this ſtricture is made by <lb/>the borders of the
+          aperture in <lb/>the tendon, through which the <lb/>inteſtine paſſes from the belly in-
+          <lb/>to the groin or ſcrotum; and it <lb/>muſt be obvious, that the more <lb/>the natural
+          ſtrength of the ſub- <lb/>ject is in general, and the more <lb/>liable to inflammation,
+          the more <lb/>probability there will be of ſtric- <lb/>ture, and the more miſchief that
+          <lb/>ſtricture will be likely to pro- <lb/>duce. </p>
+        <p rend="indent space">
+          <lb/>Hence it muſt evidently ap- <lb/>pear, that if the ſubject is adult <lb/>and in the
+          vigor of life, at which <pb n="29"/>
+          <lb/>time the ſolids are moſt elaſtic, <lb/>the impulſe of the heart ſtrong- <lb/>eſt, and
+          the circulation of the <lb/>fluids moſt briſk, that the con- <lb/>ſequences of neglect or
+          miſ- <lb/>conduct muſt be more hazard- <lb/>ous than in the ſoft, flaccid <lb/>ſtate of
+          infancy, or the languid <lb/>circulation of old age. </p>
+        <p rend="indent space">
+          <lb/>In very old people the ſymp- <lb/>toms do not uſually run ſo high <lb/>as in young,
+          as well on account <lb/>of more languid circulation, as <lb/>that their ruptures are
+          generally <lb/>of antient date and the parts <lb/>much relaxed. But then it ſhould
+          <lb/>alſo be obſerved, that they are by <lb/>no means exempt from inflam- <lb/>matory
+          ſymptoms, and that <lb/>when ſuch do occur, the una- <pb n="30"/>
+          <lb/>voidable infirmity of old age is <lb/>no favourable circumſtance in <lb/>the
+          treatment which may become <lb/>neceſſary. </p>
+        <p rend="indent space">
+          <lb/>With regard to the date of the <lb/>diſeaſe, if it is of ſome ſtanding, <lb/>has been
+          neglected, and has been <lb/>frequently down without giving <lb/>any trouble, the aperture
+          in the <lb/>tendon and the hernial ſac may <lb/>both be preſumed to be large; <lb/>which
+          circumſtances render im- <lb/>mediate reduction rather leſs ne- <lb/>ceſſary; on the
+          contrary if the <lb/>hernia be recent, or (tho' old) <lb/>has been generally kept up, its
+          <lb/>immediate reduction is abſolute- <lb/>ly neceſſary, inaſmuch as the <lb/>riſque of
+          ſtricture is in theſe cir- <lb/>cumſtances much greater. </p>
+        <pb n="31"/>
+        <p rend="indent space">
+          <lb/>If the rupture is very large <lb/>and antient, the patient far ad- <lb/>vanced in
+          life, the inteſtine does <lb/>its duty in the ſcrotum, and no <lb/>other inconvenience
+          attends it <lb/>than that produced by its weight, <lb/>it will be better not to at-
+          <lb/>tempt reduction, inaſmuch as it <lb/>will moſt probably be fruitleſs, <lb/>and the
+          neceſſary handling may <lb/>prove troubleſome: this muſt be <lb/>underſtood of thoſe which
+          are <lb/>not attended by any ſymptoms <lb/>of ſtricture, ſuch ſymptoms mak- <lb/>ing
+          reduction abſolutely neceſſary <lb/>at all times, and in every cir- <lb/>cumſtance. </p>
+        <p rend="indent space">
+          <lb/>With regard to contents, if <lb/>it is omentum only, and has <pb n="32"/>
+          <lb/>been gradually formed, it ſeldom <lb/>produces any bad ſymptoms; <lb/>though its
+          weight may become <lb/>very troubleſome; but if pro- <lb/>duced ſuddenly by effort or vio-
+          <lb/>lence, it will ſometimes prove <lb/>very painful, and cauſe very <lb/>troubleſome
+          ſymptoms, the con- <lb/>nection between the omentum <lb/>and ſtomach being ſuch as to
+          <lb/>make the deſcent of a large piece <lb/>of the former productive of nau- <lb/>ſea, and
+          vomiting: when en- <lb/>gaged in a ſtricture it has been <lb/>the cauſe of ſtill worſe
+          ſymptoms <lb/>by becoming gangrenous; and <lb/>though it ſhould not be attended <lb/>by
+          any bad ſymptoms dependent <lb/>on itſelf, as a mere omental <lb/>rupture, yet it may,
+          upon any <lb/>extraordinary effort or exertion <pb n="33"/>
+          <lb/>of ſtrength, be productive of an <lb/>inteſtinal hernia and all its con-
+          <lb/>ſequences by keeping the ring <lb/>and ſac conſtantly open. </p>
+        <p rend="indent space">
+          <lb/>If it is a portion of inteſtine <lb/>only which forms the hernia, <lb/>the riſque is
+          greater, ſtrangula- <lb/>tion being more likely to hap- <lb/>pen and more productive of
+          miſ- <lb/>chief when it has happened; the <lb/>ſmaller the portion of gut is <lb/>which is
+          engaged, the tighter <lb/>the ſtricture binds, and the more <lb/>hazardous the
+          conſequences. I <lb/>have ſeen a fatal gangrene in a <lb/>bubonocele in leſs than thirty
+          <lb/>hours, in which the piece of <lb/>gut did not exceed an inch, and <lb/>had never been
+          down before. </p>
+        <pb n="34"/>
+        <p rend="indent space">
+          <lb/>Every thing conſidered, I <lb/>think, it may be allowed, with <lb/>ſome few
+          exceptions, that an <lb/>inteſtinal rupture, conſidered in a <lb/>general ſenſe, is
+          ſubject to ſymp- <lb/>toms and to danger, which an <lb/>omental rupture is not ſubject
+          <lb/>to; that bad ſymptoms are more <lb/>likely to attend recent ruptures <lb/>than old
+          ones; that a deſcent <lb/>of inteſtine only, is rather more <lb/>likely to produce
+          miſchief than <lb/>when it is accompanied by a <lb/>piece of omentum; and that no
+          <lb/>true and proper judgment can be <lb/>formed of any hernia, unleſs e- <lb/>very
+          circumſtance relative to it is <lb/>duly conſidered. </p>
+        <pb n="35"/>
+        <p rend="indent space">
+          <lb/>The cure of a rupture has al- <lb/>ways been divided into perfect <lb/>or radical,
+          and imperfect or pal- <lb/>liative; a diſtinction, which tho' <lb/>juſt and true, and
+          founded upon <lb/>reaſon and experience, has, by <lb/>being miſunderſtood, been the
+          <lb/>occaſion of much undeſerved <lb/>cenſure on the profeſſion. </p>
+        <p rend="indent space">
+          <lb/>The means uſed to procure <lb/>both kinds of cure are exactly <lb/>the ſame, and the
+          event is de- <lb/>pendent on cauſes which the ſur- <lb/>geon can neither foreſee nor di-
+          <lb/>rect. </p>
+        <p rend="indent space">
+          <lb/>This is a ſeeming paradox <lb/>which mankind in general do <lb/>not underſtand, an
+          anatomical <pb n="36"/>
+          <lb/>acquaintance with the parts con- <lb/>cerned in the diſeaſe being <lb/>abſolutely
+          neceſſary to ſuch <lb/>knowledge. They conceive that <lb/>the means made uſe of to pro-
+          <lb/>duce a radical cure are, or ſhould <lb/>be very different from thoſe made <lb/>uſe of
+          merely to palliate; and <lb/>this conception, or rather miſ- <lb/>conception, lays them
+          open to <lb/>all the fraud and deluſion of im- <lb/>poſtors. </p>
+        <p rend="indent space">
+          <lb/>To labour under a trouble- <lb/>ſome diſorder, perhaps in the <lb/>moſt active and
+          joyous part of <lb/>life, and to be told that a pal- <lb/>liative cure by wearing a ban-
+          <lb/>dage is all that can be ex- <lb/>pected is very diſagreeable; the <lb/>true reaſon of
+          this, they are <pb n="37"/>
+          <lb/>not acquainted with, and are <lb/>eaſily induced to believe what is <lb/>inſinuated
+          to them, viz. that the <lb/>regular part of the profeſſion are <lb/>deficient in the
+          knowledge of the <lb/>proper treatment of this diſeaſe; <lb/>their application is
+          therefore made <lb/>to thoſe who promiſe moſt; <hi rend="italic">quod <lb/>volumus facile
+            credimus</hi>; igno- <lb/>rance of the true nature of the <lb/>diſeaſe, and a ſtrong
+          deſire to be <lb/>cured on one ſide, and bold and <lb/>plauſible aſſurances on the other,
+          <lb/>carry on the deluſion, till time <lb/>and the continuance of the rup- <lb/>ture
+          evince the truth and prove <lb/>the fraud, which the patient, <lb/>tho' perfectly
+          convinced, will <lb/>often join in concealing, either <lb/>to avoid being laughed at for
+            <pb n="38"/>
+          <lb/>his credulity, or to prevent a diſ- <lb/>covery of his infirmity. </p>
+        <p rend="indent space">
+          <lb/>All that can be done by ſur- <lb/>gery toward the cure of a her- <lb/>nia, is to
+          replace the prolapſed <lb/>body or bodies in the cavity of <lb/>the belly, and to prevent
+          them <lb/>from ſlipping out again. </p>
+        <p rend="indent space">
+          <lb/>This is all that art can do in <lb/>either ſex and in every age; but <lb/>nature,
+          according to the age of <lb/>the patient, the date of the rup- <lb/>ture, the ſort of
+          rupture, and <lb/>ſome other circumſtances, is ca- <lb/>pable when properly aſſiſted,
+          <lb/>(and not interrupted) of doing <lb/>more, and of confirming that <lb/>as a perfect
+          cure in ſome, which <pb n="39"/>
+          <lb/>in others ſhe is obliged to leave <lb/>imperfect, and conſtantly requir- <lb/>ing the
+          aſſiſtance of art. </p>
+        <p rend="indent space">
+          <lb/>When the portion of gut or <lb/>caul, or whatever formed the <lb/>tumor, is perfectly
+          and properly <lb/>replaced in the belly, and an op- <lb/>portunity thereby given to the
+          <lb/>tendinous aperture to contract <lb/>itſelf, and for a proper bandage <lb/>to bring
+          the ſides of the entrance <lb/>of the hernial ſac as near toge- <lb/>ther as it will
+          admit, the ſur- <lb/>geon has done his part, the reſt <lb/>is nature's; and whether theſe
+          <lb/>parts will ſo contract as to pro- <lb/>hibit a future deſcent or not, is <lb/>matter
+          of uncertainty and not to <lb/>be known but from the event. </p>
+        <pb n="40"/>
+        <p rend="indent space">
+          <lb/>This every judicious man <lb/>knows, and every honeſt man <lb/>will ſay. </p>
+        <p rend="indent space">
+          <lb/>All the pretenſions which have <lb/>in all times been made by dif- <lb/>ferent people
+          to remedies endu- <lb/>ed with ſuch virtues as to be <lb/>capable of conſolidating the
+          parts <lb/>ſuppoſed to be tore, or of con- <lb/>ſtringing thoſe which are dilated,
+          <lb/>have all proved inefficacious, and <lb/>deluſive, to ſay the beſt of them; <lb/>the
+          parts moſt immediately con- <lb/>cerned in this diſeaſe are quite <lb/>out of the reach of
+          any appli- <lb/>cations; and all the relief which <lb/>the patients of theſe pretenders
+          <lb/>have found has been from the <lb/>long reſt to which they have <pb n="41"/>
+          <lb/>been ſubjected, or the ſtrict ban- <lb/>dage which they have wore. <lb/>Many of theſe
+          people having <lb/>never worn any bandage at all <lb/>before, are eaſily perſuaded that
+          <lb/>the relief which this has given <lb/>to them, has been produced by <lb/>the
+          applications which have been <lb/>made to the part, or by the me- <lb/>dicines which they
+          have taken, <lb/>all which were uſed merely to <lb/>deceive them, and which never
+          <lb/>had, nor ever can have, any ſhare <lb/>in the cure of a rupture. </p>
+        <p rend="indent space">
+          <lb/>By what has been ſaid, I <lb/>would not be underſtood to <lb/>mean, that when the gut
+          or caul <lb/>are once replaced, the patient <lb/>can receive no farther benefit <lb/>from
+          ſurgical aſſiſtance: nor that <pb n="42"/>
+          <lb/>every rupture in adults or perſons <lb/>of mature age is incapable of <lb/>cure: this
+          is far from my mean- <lb/>ing, and far from truth: there <lb/>are many circumſtances in
+          rup- <lb/>tures and ruptured patients which <lb/>require frequent aſſiſtance, with-
+          <lb/>out which the probability of a <lb/>cure will be much leſs: and <lb/>there are many
+          ruptures in per- <lb/>ſons of mature age which will <lb/>admit of perfect cure, if proper-
+          <lb/>ly and judiciouſly managed from <lb/>the firſt. </p>
+        <p rend="indent space">
+          <lb/>I only mean to obviate the <lb/>vulgar prejudice ſo conſtantly en- <lb/>couraged by
+          all quacks, that there <lb/>are medicines and applications <lb/>which are ſpecific in the
+          cure of <lb/>this diſeaſe; and of which they <pb n="43"/>
+          <lb/><choice>
+            <corr/>
+            <sic>they </sic>
+          </choice>are poſſeſſed, neither of <lb/>which is true. </p>
+        <p rend="indent space">
+          <lb/>A few words may ſerve to ex- <lb/>plain this matter. The general <lb/>doctrine is,
+          that the ruptures of <lb/>infants, and thoſe of very young <lb/>ſubjects, generally admit
+          of per- <lb/>fect cure: thoſe of adults leſs <lb/>frequently, and thoſe of old peo-
+          <lb/>ple hardly ever: all which is, <lb/>in general, true. </p>
+        <p rend="indent space">
+          <lb/>The difference between theſe <lb/>three general ſtates is principally, <lb/>if not
+          entirely, owing to the <lb/>different ſtate of the hernial ſac <lb/>and tendinous aperture
+          at theſe <lb/>different ages. </p>
+        <pb n="44"/>
+        <p rend="indent space">
+          <lb/>The hernial ſac has been de- <lb/>ſcribed as being a production or <lb/>elongation of
+          the peritoneum, <lb/>thruſt down before the body, <lb/>which by its deſcent from the
+          <lb/>belly forms the hernia; at firſt <lb/>(that is while the hernia is re- <lb/>cent)
+          this ſac is ſmall and thin, <lb/>and, as I obſerved before (to uſe <lb/>a familiar image)
+          like a thumb- <lb/>ſtal, or the extremity of a fin- <lb/>ger of a glove cut off; it hard-
+          <lb/>ly ever (if ever) returns into the <lb/>belly after it has been once down, <lb/>but
+          by repeated deſcents of the <lb/>caul or gut into it, being of a <lb/>very dilatable
+          nature, is con- <lb/>tinually lengthened and inlarged; <lb/>when it has got below the
+          groin <lb/>into the ſcrotum, it acquires a <lb/>pyriſorm or pear-like figure, with <pb
+            n="45"/>
+          <lb/>its neck or narrow part next the <lb/>abdomen, and its broadeſt part <lb/>expanded
+          more or leſs in the <lb/>ſcrotum, according to the ſize, <lb/>date, and quantity of
+          contents; <lb/>in young ſubjects, and recent <lb/>ruptures, it is very thin, but in
+          <lb/>proportion as it is extended in <lb/>length it increaſes in thickneſs, <lb/>and in
+          time acquires a very con- <lb/>ſiderable degree of thickneſs, <lb/>firmneſs and hardneſs. </p>
+        <p rend="indent space">
+          <lb/>In infants, in very young ſub- <lb/>jects, and in recent caſes, this ſac <lb/>from
+          its thin ſoft ſtate, is ca- <lb/>pable of having its upper nar- <lb/>row part or neck ſo
+          compreſſed <lb/>by proper bandage, as poſſibly <lb/>to procure an unition of the
+          <lb/>ſides of it, at leaſt ſo to leſſen <pb n="46"/>
+          <lb/>the paſſage of it as to prevent <lb/>the future deſcent of any thing <lb/>into it
+          from the abdomen; which <lb/>produces a perfect cure. </p>
+        <p rend="indent space">
+          <lb/>In thoſe of mature age, or <lb/>whoſe ruptures are of ſome ſtand- <lb/>ing, and
+          conſequently the neck <lb/>or entrance of the ſac large in <lb/>proportion to the age,
+          ſize of <lb/>the ſubject, and date of the rup- <lb/>ture, the membranes compoſing <lb/>it
+          being more thick, firm, and <lb/>hard, the compreſſion of its <lb/>neck ſo cloſe as to
+          prevent the <lb/>paſſage of any thing through <lb/>it, is more difficult, and
+          <lb/>uncertain. In old age, and <lb/>old ruptures, the ſtill greater <lb/>firmneſs and
+          hardneſs of the <lb/>ſac, render it leſs compreſſible, <pb n="47"/>
+          <lb/>and conſequently the occluſion <lb/>of the paſſage by this means ſtill <lb/>more
+          impracticable. </p>
+        <p rend="indent space">
+          <lb/>From this account of the dif- <lb/>ferent ſtate of the hernial ſac it <lb/>muſt
+          appear, that all theſe cir- <lb/>cumſtances will be very various in <lb/>different
+          perſons; that not only <lb/>the difference of age in the ſub- <lb/>ject, and date of the
+          rupture, <lb/>but that of habit, conſtitution, <lb/>&amp;c. muſt produce a great va-
+          <lb/>riety in theſe caſes, and conſe- <lb/>quently that the preciſe age and <lb/>ſubject
+          that will or will not ad- <lb/>mit a perfect cure, muſt be very <lb/>uncertain, and not in
+          the power <lb/>of the moſt judicious man to <lb/>determine abſolutely, tho' from <lb/>many
+          circumſtances he will ge- <pb n="48"/>
+          <lb/>nerally know when it is very <lb/>improbable or impoſſible. </p>
+        <p rend="indent space">
+          <lb/>From the ſame conſiderations <lb/>it will appear that recent rup- <lb/>tures, if
+          immediately and pro- <lb/>perly taken care of, admit a <lb/>perfect cure at almoſt any
+          age; <lb/>as do alſo moſt of thoſe which, <lb/>tho' in adult ſubjects, are got no
+          <lb/>lower than the groin. </p>
+        <p rend="indent space">
+          <lb/>From the ſame conſideration, it <lb/>will appear, that tho' the firmneſs <lb/>of the
+          hernial ſac, and the large- <lb/>neſs of the abdominal aperture <lb/>are always mentioned
+          as two <lb/>cauſes of the difficulty or im- <lb/>practicability of the cure of old
+          <lb/>ruptures, yet, in fact, the latter <lb/>is the effect of the former; a <pb n="49"/>
+          <lb/>thick, tough, incompreſſible <lb/>purſe paſſing thro' the aperture, <lb/>and
+          continnually dragged down- <lb/>ward by a weight at its bottom, <lb/>being a conſtant
+          cauſe of dilata- <lb/>tion. </p>
+        <p rend="indent space">
+          <lb/>Hence alſo will appear the <lb/>abſurdity of all external applica- <lb/>tions, they
+          being deſigned, if they <lb/>are uſed with any medical deſign <lb/>at all, either to
+          conſtringe the <lb/>aperture by which the rupture <lb/>has deſcended, or to leſſen the
+          <lb/>diameter of the neck of the ſac <lb/>ſo as to prevent any future de- <lb/>ſcent: The
+          conſtriction of the <lb/>aperture is abſolutely impoſſible <lb/>while ſuch a wedge as an
+          old, <lb/>tough, hernial ſac remains in it, <lb/>which wedge will for ever re- <pb n="50"/>
+          <lb/>main, as it is not returnable in- <lb/>to the belly whence it came, <lb/>from
+          adheſion to the ſpermatic <lb/>chord and other parts; and the <lb/>diameter of the neck
+          can be leſ- <lb/>ſened by no applications, unleſs <lb/>ſuch could be found as could
+          <lb/>render the ſac thin, ſoft and <lb/>compreſſible; which from the <lb/>nature of
+          things, and from all <lb/>experience, is abſolutely impoſ- <lb/>ſible. </p>
+        <p rend="indent space">
+          <lb/>It is ſcarcely credible, how <lb/>very ſmall an opening will ſerve <lb/>for a portion
+          of gut or caul to <lb/>inſinuate themſelves into at ſome <lb/>times: and though in many
+          per- <lb/>ſons of mature age it proves im- <lb/>practicable ſo to compreſs the <lb/>mouth
+          of the ſac as abſolutely to <pb n="51"/>
+          <lb/>cloſe it, yet by the conſtant uſe <lb/>of a well made bandage, it may <lb/>be ſo
+          leſſened as to make the de- <lb/>ſcent of any thing from the belly <lb/>more difficult;
+          from whence we <lb/>may learn, the great conſequence <lb/>of having the part compleatly
+          <lb/>returned before the application <lb/>of a bandage, and the danger <lb/>that may be
+          incurred by diſuſing <lb/>or laying it by after it has been <lb/>wore ſome time: for
+          whatever <lb/>can make the deſcent from the <lb/>belly leſs eaſy, muſt neceſſarily
+          <lb/>make the return of any part that <lb/>may have ſlipped down while the <lb/>bandage
+          was off, more difficult, <lb/>the conſequence of which is ob- <lb/>vious. And from hence
+          alſo we <lb/>may learn, why the bandage <lb/>ſhould be long and unremitting- <pb n="52"/>
+          <lb/>ly wore by ſuch young patients <lb/>as have reaſon to expect a per- <lb/>fect cure;
+          one half of the ſcro- <lb/>tal hernias of adults proceeding <lb/>from the negligent manner
+          in <lb/>which ſchool-boys wear their <lb/>truſſes. With a truſs properly <lb/>made, and
+          carefully wore, the <lb/>meaner kind of people may be <lb/>rendered fit for all the
+          offices of <lb/>life, will be capable of labour <lb/>of any kind, of walking, of ride-
+          <lb/>ing, &amp;c. as all thoſe find them- <lb/>ſelves to be, who are willing to <lb/>do
+          theſe kind of things: and with <lb/>regard to very old people with <lb/>very old ruptures,
+          no confine- <lb/>ment however long, nor any ban- <lb/>dage however ſtrict, is capable
+          <lb/>of producing a perfect cure: <lb/>that bandage which proves reten- <pb n="53"/>
+          <lb/>tive of the parts after they have <lb/>been returned, will ſerve all the
+          <lb/>purpoſes of life, and in the cir- <lb/>cumſtances of theſe people, an <lb/>attempt by
+          a ſtricter kind of ban- <lb/>dage has more than once proved <lb/>fatal. </p>
+      </div>
+      <pb n="54"/>
+      <div type="section">
+        <head rend="align-center space">
+          <lb/>SECT. II. </head>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">T</hi>O replace the portion of <lb/>inteſtine or caul which
+          <lb/>formed the tumor, and to re- <lb/>tain it when replaced, has been <lb/>allowed to be
+          all that the art of <lb/>ſurgery ultimately pretends to, <lb/>toward the cure of a
+          rupture; <lb/>but as there are many different <lb/>circumſtances attending theſe
+          <lb/>parts, while in the groin or <lb/>ſcrotum, the treatment of them, <lb/>in order to
+          accompliſh theſe two <lb/>ends, muſt neceſſarily be differ- <lb/>ent. Theſe circumſtances
+          are <lb/>reducible to four general heads, <lb/>under which may be compre- <lb/>hended all
+          the ſpecies of rup- <lb/>tures, with every particularity <pb n="55"/>
+          <lb/>by which they differ from each <lb/>other. </p>
+        <p rend="indent space">
+          <lb/>The firſt comprehends thoſe <lb/>which are in ſuch a ſtate as to be <lb/>capable of
+          immediate reduction, <lb/>and are not attended by any <lb/>troubleſome or bad ſymptoms. </p>
+        <p rend="indent space">
+          <lb/>The ſecond, thoſe which have <lb/>been ſo long in the ſcrotum as <lb/>to have
+          contracted adheſions and <lb/>connections, by which they are <lb/>rendered incapable of
+          reduction <lb/>at all. </p>
+        <p rend="indent space">
+          <lb/>The third, thoſe in which <lb/>ſuch ſtricture is made on the <lb/>prolapſed parts, as
+          to bring on <lb/>pain and trouble; and to render <pb n="56"/>
+          <lb/>the reduction difficult as well as <lb/>neceſſary. </p>
+        <p rend="indent space">
+          <lb/>The fourth, thoſe in which <lb/>reduction, by the ſimple opera- <lb/>tion of the
+          hand, is impractica- <lb/>ble, and the patient's life can <lb/>be ſaved only by a ſurgical
+          ope- <lb/>ration. </p>
+        <p rend="indent space">
+          <lb/>The firſt is moſt frequently <lb/>the caſe of infants, whoſe rup- <lb/>tures have
+          been often down be- <lb/>fore they have been taken no- <lb/>tice of; many of them, after
+          they <lb/>have been obſerved, are only <lb/>preſſed back by the hand of the <lb/>nurſe, as
+          often as they come <lb/>down, or elſe return, ſua ſponte, <lb/>upon the child being quiet
+          or <pb n="57"/>
+          <lb/>laid ſupine; not but there have <lb/>been inſtances of bad effects from
+          <lb/>ſtricture even in infants. </p>
+        <p rend="indent space">
+          <lb/>An error which generally pre- <lb/>vails among nurſes, and has prov- <lb/>ed
+          detrimental to many a child <lb/>is, that no proper bandage can <lb/>be put upon them till
+          after they <lb/>are three or four years old. </p>
+        <p rend="indent space">
+          <lb/>Upon this ſuppoſition they <lb/>content themſelves with a di- <lb/>mity-belt or ſome
+          more fooliſh <lb/>contrivance of their own; by <lb/>which the child loſes ſo much
+          <lb/>time, and is daily in danger of <lb/>farther <choice>
+            <corr>miſchief</corr>
+            <sic>miſehief</sic>
+          </choice>: whereas there <lb/>is no age in which a proper ban- <lb/>dage may not be wore;
+          and by <lb/>the timely uſe of ſuch, ſome <pb n="58"/>
+          <lb/>children will have obtained a <lb/>perfect cure by the time that <lb/>others begin to
+          uſe their ban- <lb/>dage. </p>
+        <p rend="indent space">
+          <lb/>The manner of returning the <lb/>parts is the ſame at all times; <lb/>therefore I
+          ſhall defer ſaying any <lb/>thing about it here, and ſhall de- <lb/>ſcribe it once for all
+          hereafter. </p>
+        <p rend="indent space">
+          <lb/>If any difficulty attends it in <lb/>ſuch young ſubjects, it will al- <lb/>ways be
+          adviſeable to try the ef- <lb/>fect of bleeding, and a glyſter or <lb/>two, before any
+          violence is offer- <lb/>ed to the part. </p>
+        <p rend="indent space">
+          <lb/>Children, eſpecially very young <lb/>ones, bear the loſs of blood ill; <lb/>that is,
+          they are very apt to ſwoon <pb n="59"/>
+          <lb/>upon loſing a ſmall quantity; and <lb/>if while the child is bleeding the <lb/>tumor
+          be properly graſped, and <lb/>the opportunity of the deliquium <lb/>embraced, there are
+          few that will <lb/>not return during that relaxa- <lb/>tion: it is an eaſy experiment,
+          <lb/>can do no harm, and may pre- <lb/>vent the pain that the neceſſary <lb/>handling ſo
+          tender a part in a <lb/>young child muſt produce. The <lb/>time of the ſwoon will alſo be
+          <lb/>attended by another advantage, <lb/>viz. that of the child being quiet, <lb/>and not
+          reſiſting the attempt by <lb/>crying. </p>
+        <p rend="indent space">
+          <lb/>When the contents of the her- <lb/>nia are returned, a proper ban- <lb/>dage ſhould
+          be immediately put <lb/>on and wore without remiſſion, <pb n="60"/>
+          <lb/>care being taken to keep the child <lb/>from being galled, by waſhing <lb/>all the
+          parts frequently where <lb/>the truſs makes any preſſure, and <lb/>keeping both child and
+          bandage <lb/>perfectly clean; by which cau- <lb/>tion the truſs will be very little
+          <lb/>trouble to the infant, and the <lb/>perfect cure may almoſt certain- <lb/>ly be
+          depended upon. The pro- <lb/>per make and adjuſtment of the <lb/>truſs, at this age,
+          ſhould be very <lb/>carefully attended to by the ſur- <lb/>geon, inaſmuch as the child can
+          <lb/>make no complaint, that will <lb/>inform him of its being unfit, till <lb/>ſome
+          injury is done. </p>
+        <p rend="indent space">
+          <lb/>The moſt frequent miſchief <lb/>aring from an ill made truſs, in <lb/>an infant, is
+          an inflammation and <pb n="61"/>
+          <lb/>ſwelling of the ſpermatic chord <lb/>and teſticle, which is not only <lb/>painful in
+          itſelf, but prevents the <lb/>wearing the bandage till it is <lb/>gone off. </p>
+        <p rend="indent space">
+          <lb/>Many adults alſo have ruptures <lb/>in the ſame circumſtances as theſe <lb/>of
+          infants, which give them <lb/>little or no trouble, are return- <lb/>able at any time by
+          the hand, <lb/>and go up when the patient lies <lb/>down. </p>
+        <p rend="indent space">
+          <lb/>In moſt of theſe the aperture <lb/>in the abdominal muſcle is very <lb/>large, and if
+          they put on a truſs, <lb/>which is not properly made and <lb/>fitted exactly, the gut will
+          ſlip <lb/>down behind it in ſome particu- <lb/>lar poſtures. </p>
+        <pb n="62"/>
+        <p rend="indent space">
+          <lb/>This is a circumſtance well <lb/>worth the attention of the per- <lb/>ſon who has
+          ſuch ſort of rup- <lb/>ture; for though in theſe caſes <lb/>the aperture in the tendon is
+          ſo <lb/>large, as to leave little room to <lb/>apprehend a ſtricture, yet preſ- <lb/>ſure
+          made by the bolſter of a truſs <lb/>on a portion of inteſtine, while <lb/>down in the ſac,
+          may prove of <lb/>the moſt fatal conſequence, and <lb/>therefore people in theſe circum-
+          <lb/>ſtances are ſafer without any <lb/>truſs at all than with a bad one, <lb/>or one that
+          will not keep the gut <lb/>from coming down. This ap- <lb/>pearance of ſafety, from a
+          large <lb/>aperture and eaſy reduction, is <lb/>not to be depended upon as cer- <lb/>tain,
+          many things may happen <pb n="63"/>
+          <lb/>to alter this ſtate; an inflam- <lb/>mation of the inteſtine while in <lb/>the
+          ſcrotum, the acceſſion of a <lb/>new portion of gut and meſen- <lb/>tery, with many other
+          circum- <lb/>ſtances which may happen to <lb/>render the return now difficult <lb/>which
+          before was eaſy; all which <lb/>are ſtrong and good reaſons, for <lb/>conſtantly keeping
+          up the parts <lb/>by a well made truſs, the wear- <lb/>ing which cannot poſſibly be ſo
+          <lb/>troubleſome as the weight of the <lb/>parts in the ſcrotum; to ſay no- <lb/>thing of
+          the ſafety of one me- <lb/>thod, and the conſtant hazard of <lb/>the other. </p>
+        <p rend="indent space">
+          <lb/>I know a gentleman who has, <lb/>for ſome years, had an omental <lb/>rupture, which
+          being neglected <pb n="64"/>
+          <lb/>while he was young, having <lb/>a lax habit, and the abdomi- <lb/>nal ring naturally
+          large, makes <lb/>it extremely difficult for him <lb/>to keep it up with the beſt
+          <lb/>made truſs, behind which it will <lb/>ſometimes ſlip down; when this <lb/>happens, it
+          gives him ſuch im- <lb/>mediate and acute pain at the <lb/>bottom of his ſtomach, and
+          <lb/>makes him ſo intolerably ſick, <lb/>that he is obliged to throw him- <lb/>ſelf upon
+          his back immediately <lb/>and procure the return of the <lb/>omentum, which, from the ſame
+          <lb/>cauſe that makes its deſcent ſo <lb/>eaſy, is eaſily accompliſhed. </p>
+      </div>
+      <pb n="65"/>
+      <div type="section">
+        <head rend="align-center space">
+          <lb/>SECT. III. </head>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">T</hi>HE ruptures comprehend- <lb/>ed under the ſecond head,
+          <lb/>are thoſe which from the large- <lb/>neſs of the prolapſed parts, from <lb/>the
+          antient date of the hernia, <lb/>and from connections and adhe- <lb/>ſions, are become
+          irreducible, but <lb/>are not attended by any bad <lb/>ſymptoms. </p>
+        <p rend="indent space">
+          <lb/>Of this ſort there are many, <lb/>who from a natural laxity of ha- <lb/>bit, from
+          having the abdominal <lb/>aperture naturally large, and <lb/>from having long neglected
+          their <lb/>complaint, have carried a large <lb/>quantity of caul or inteſtine, or
+          <lb/>both, in the ſcrotum for a great <pb n="66"/>
+          <lb/>length of time, where the in- <lb/>teſtine has executed its office <lb/>without
+          interruption, and the <lb/>patients have contented them- <lb/>ſelves with wearing a
+          ſuſpen- <lb/>ſory or bag-truſs, to ſupport the <lb/>weight. </p>
+        <p rend="indent space">
+          <lb/>Moſt of theſe might have been <lb/>returned at firſt; but, by neglect <lb/>and length
+          of time, become in- <lb/>capable of any other remedy than <lb/>the laſt mentioned, the
+          ſuſpen- <lb/>ſory. </p>
+        <p rend="indent space">
+          <lb/>For the contents of the hernia, <lb/>by long confinement in ſo nar- <lb/>row a ſpace,
+          and by little ſlight <lb/>inflammations, contract adheſions <lb/>to each other, and to the
+          internal <lb/>ſurface of the ſac, eſpecially in <pb n="67"/>
+          <lb/>its narrower part or neck, in ſuch <lb/>manner as to make reduction im-
+          <lb/>practicable. </p>
+        <p rend="indent space">
+          <lb/>When this is the caſe, the <lb/>only relief is a bag-truſs, ſo <lb/>made, as to
+          render the weight <lb/>of the tumor as little trouble- <lb/>ſome as poſſible. </p>
+        <p rend="indent space">
+          <lb/>People in this ſituation ſhould <lb/>be particularly careful not to <lb/>make any
+          attempts beyond their <lb/>ſtrength, nor aim at feats of agi- <lb/>lity, and ſhould take
+          care to <lb/>keep the loaded ſcrotum out of <lb/>the way of being hurt; when <lb/>the
+          tumor is very large, a ſoft <lb/>quilted bolſter ſhould be con- <lb/>ſtantly wore in the
+          bag, under <lb/>the bottom of the ſcrotum, and <pb n="68"/>
+          <lb/>frequently ſhifted to prevent ex- <lb/>coriation which in corpulent peo- <lb/>ple,
+          and when the tumor is very <lb/>large, frequently happens, and <lb/>which, by being
+          neglected, will in <lb/>ſome habits be productive of ſtill <lb/>worſe conſequences. They
+          ſhould <lb/>alſo take care to keep their body <lb/>open, that there may be no im-
+          <lb/>pediment to the perfect and free <lb/>execution of the office of the in-
+          <lb/>teſtinal canal, any obſtruction in <lb/>which, would be very prejudi- <lb/>cial in
+          theſe circumſtances. </p>
+        <p rend="indent space">
+          <lb/>By this means, and with theſe <lb/>cautions, many people with ir- <lb/>reducible
+          ruptures have paſſed <lb/>their time free from pain or diſ- <lb/>eaſe on this account. </p>
+        <pb n="69"/>
+        <p rend="indent space">
+          <lb/>Not that the quiet and inof- <lb/>fenſive ſtate of theſe old irredu- <lb/>cible
+          ruptures is to be abſolutely <lb/>depended upon; for an inflam- <lb/>mation of that part
+          of the in- <lb/>teſtine which is in the ſcrotum, <lb/>and which may happen without
+          <lb/>any ſtricture; obſtruction to the <lb/>paſſage of the fæces from any <lb/>cauſe; in
+          ſhort, whatever can <lb/>diſturb the proper office of the <lb/>inteſtinal canal, may bring
+          on <lb/>miſchief in this part: to which <lb/>may be added, what ſometimes <lb/>happens,
+          viz. the acceſſion of <lb/>a new piece of inteſtine, which <lb/>may be ſtrangulated, and
+          then <lb/>it becomes, to all ſurgical in- <lb/>tents and purpoſes, a recent <pb n="70"/>
+          <lb/>hernia, and muſt be treated as <lb/>ſuch. </p>
+        <p rend="indent space">
+          <lb/>I am well aware, that among <lb/>the number of thoſe which have <lb/>been thought to
+          be in this irre- <lb/>ducible ſtate, and have been treat- <lb/>ed as ſuch, there have been
+          ſeve- <lb/>ral, which upon more cloſe exa- <lb/>mination and proper treatment, <lb/>have
+          been found capable of re- <lb/>duction. </p>
+        <p rend="indent space">
+          <lb/>When this is ſuſpected to be <lb/>the caſe, the proper method is <lb/>by abſolute
+          reſt for a length of <lb/>time; by a ſupine poſture, and <lb/>a courſe of evacuants; to
+          en- <lb/>deavour ſo to leſſen the ſize of <lb/>the prolapſed parts, as to render <pb
+            n="71"/>
+          <lb/>them capable of paſſing back <lb/>again into the belly. </p>
+        <p rend="indent space">
+          <lb/>This method has ſometimes <lb/>ſucceeded, but previous to the <lb/>attempt, there
+          ſhould be ſome <lb/>circumſtance which makes ſuc- <lb/>ceſs probable; and there ſhould
+          <lb/>be alſo good reaſon to believe <lb/>that the patient's habit and age <lb/>will bear
+          the neceſſary confine- <lb/>ment and evacuation, otherwiſe <lb/>he may chance to be a
+          great loſer <lb/>by the exchange of his diſeaſe. </p>
+        <p rend="indent space">
+          <lb/>If the attempt ſucceeds, a <lb/>proper truſs muſt be put on <lb/>immediately, and
+          wore con- <lb/>ſtantly, to prevent the parts <lb/>from falling down again, which <lb/>from
+          the largeneſs of the tendi- <pb n="72"/>
+          <lb/>nous aperture, from the thick- <lb/>neſs and hardneſs of the hernial <lb/>ſac, and
+          the great relaxation of <lb/>the meſentery, is ſometimes very <lb/>difficult to
+          accompliſh, a large <lb/>opening from the belly into the <lb/>ſac always remaining when
+          the <lb/>parts have been in this ſtate any <lb/>time. </p>
+        <p rend="indent space">
+          <lb/>An omental rupture, which <lb/>has been gradually formed, and <lb/>ſuffered to remain
+          in the ſcro- <lb/>tum, is ſeldom attended with <lb/>any bad ſymptoms, conſidered
+          <lb/>merely as a ſimple deſcent of <lb/>the omentum; but by its reſi- <lb/>dence in the
+          ſcrotum, having al- <lb/>ways kept the mouth of the ſac <lb/>diſtended, it may thereby be
+          the <lb/>occaſion of a deſcent of a por- <pb n="73"/>
+          <lb/>tion of inteſtine, and all its con- <lb/>ſequences. </p>
+        <p rend="indent space">
+          <lb/>The omentum become adhe- <lb/>rent, may inflame, and depoſit <lb/>in the ſac a
+          quantity of an acrid <lb/>kind of fluid, which will give <lb/>pain and trouble; or it may
+          ſup- <lb/>purate in conſequence of its in- <lb/>flammation, and will thereby <lb/>make it
+          neceſſary to open both <lb/>ſcrotum and ſac; an inſtance of <lb/>which I had an
+          opportunity of <lb/>ſeeing not long ago. </p>
+        <p rend="indent space">
+          <lb/>I was deſired to look upon a <lb/>gentleman from whoſe ſcrotum <lb/>near a pint of
+          ſtinking brown ſe- <lb/>rum had been diſcharged two or <lb/>three days before by a trocar. </p>
+        <pb n="74"/>
+        <p rend="indent space">
+          <lb/>The account he gave of him- <lb/>ſelf was as follows; that he had <lb/>for ſome years
+          been ſubject to <lb/>the deſcent of a ſoft flabby kind <lb/>of body into the ſcrotum,
+          which <lb/>he could put up again when he <lb/>pleaſed, and which always re- <lb/>turned
+          when he was in bed; be- <lb/>ing naturally ſhy and baſhful, he <lb/>had never ſuffered any
+          body to <lb/>ſee it, and was himſelf quite un- <lb/>acquainted with the nature of <lb/>his
+          diſorder. </p>
+        <p rend="indent space">
+          <lb/>From the ſudden ſpring of an <lb/>unruly horſe, he ſtruck his ſcro- <lb/>tum againſt
+          the pummel of his ſad- <lb/>dle, which gave him great pain; <lb/>the next day it ſwelled
+          and became <pb n="75"/>
+          <lb/>more painful; ſtill fearful of men- <lb/>tioning his diſorder, he contented
+          <lb/>himſelf with daubing it over with <lb/>ſome ointment, till at laſt it be- <lb/>came
+          ſo painful that he could no <lb/>longer conceal it. </p>
+        <p rend="indent space">
+          <lb/>The perſon to whom he ſhew- <lb/>ed it took it for an hydrocele, <lb/>tapped it, and
+          let out the quan- <lb/>tity and ſort of fluid juſt men- <lb/>tioned; in few days after
+          this <lb/>I ſaw it, and found the ſcrotum <lb/>much diſtended, very thick, in-
+          <lb/>flamed, and painful. </p>
+        <p rend="indent space">
+          <lb/>The orifice made by the trocar <lb/>was ſloughy, and ſeemed likely <lb/>to caſt off,
+          and thereby become <lb/>larger; he had a degree of heat <lb/>and fever upon him, which
+          for- <pb n="76"/>
+          <lb/>bade any operation at that time, <lb/>and therefore I deſired that he <lb/>might be
+          dreſſed with a digeſtive <lb/>medicine and ſoft poultice, loſe <lb/>ſome blood, and have a
+          glyſ- <lb/>ſter. </p>
+        <p rend="indent space">
+          <lb/>By the application to his ſcro- <lb/>tum, and by the uſe of proper <lb/>medicines for
+          his febrile heat, in <lb/>few days the latter was removed, <lb/>and the ſlough on the
+          former <lb/>caſting off largely, I could plain- <lb/>ly diſcover the putrid ſloughy
+          <lb/>omentum within; I would have <lb/>laid the whole open, but was not <lb/>permitted,
+          and could only ob- <lb/>tain leave to inlarge the preſent <lb/>orifice about a couple of
+          inches; <lb/>in doing which, I cut through <lb/>a hernial ſac of great thickneſs <pb
+            n="77"/>
+          <lb/>and very hard: what part of the <lb/>omentum was looſe, I pulled <lb/>away with my
+          foreceps, but the <lb/>ſeparation of the whole took a <lb/>great deal of time, and the
+          hard <lb/>hernial ſac cauſed ſo many ab- <lb/>ſceſſes in the integuments of the
+          <lb/>ſcrotum, and the diſcharge upon <lb/>the whole was ſo large, that be- <lb/>ing a
+          valetudinary kind of man, <lb/>he had <choice>
+            <corr>certainly</corr>
+            <sic>cetainly</sic>
+          </choice> ſunk under it, <lb/>had it not been for the free uſe <lb/>of the bark. </p>
+        <p rend="indent space">
+          <lb/>If inſtead of this method of <lb/>treating it, I had been permitted <lb/>to have laid
+          it open through <lb/>its whole length, removed the <lb/>omentum, and retrenched the
+          <lb/>hernial ſac, the cure would have <lb/>been much ſhortened, and the <pb n="78"/>
+          <lb/>ſcrotum would have been left in <lb/>a much better ſtate. </p>
+        <p rend="indent space">
+          <lb/>That an omental rupture which <lb/>has ſo long reſiſted all attempts <lb/>for
+          reduction, as to produce a be- <lb/>lief of its being irreducible, may <lb/>ſometimes, by
+          long reſt and ab- <lb/>ſtinence, be ſo altered, as to be- <lb/>come capable of return, I
+          make <lb/>no doubt, and not long ago had <lb/>a man, in St. Bartholomew's-Ho- <lb/>ſpital,
+          who had a ſmall omental <lb/>hernia, which myſelf and many <lb/>others had ineffectually
+          tried to <lb/>reduce; it was very little below <lb/>his groin in the very upper part
+          <lb/>of the ſcrotum. </p>
+        <p rend="indent space">
+          <lb/>This man being confined to <lb/>his bed, and a ſtrict diet after the <pb n="79"/>
+          <lb/>operation for the radical cure of <lb/>an hydrocele on the ſame ſide, <lb/>got rid of
+          both his diſeaſes at the <lb/>ſame time; for after he had been <lb/>in bed about ten days,
+          his omen- <lb/>tum returned of itſelf into the <lb/>abdomen. </p>
+        <p rend="indent space">
+          <lb/>In performing the operation <lb/>on this man, the two ſacs, viz. <lb/>that of the
+          hydrocele made by <lb/>the tunica vaginalis teſtis, and <lb/>that of the hernia formed by
+          the <lb/>peritoneum, was very apparent <lb/>and ſatisfactory. </p>
+        <p rend="indent space">
+          <lb/>It ſometimes happens in the <lb/>caſe of an old deſcent of both <lb/>gut and omentum,
+          that the gut <lb/>is returnable and the omentum <lb/>not. When this is found upon <pb
+            n="80"/>
+          <lb/>trial to be ſo, the gut ſhould be <lb/>returned and kept up by a <lb/>truſs, the pad
+          of which may be <lb/>ſo conſtructed, as to keep the <lb/>inteſtine up without preſſing on
+          <lb/>the omentum, ſo as to do it any <lb/>injury; by which means the <lb/>riſque of
+          miſchief from ſtricture <lb/>of the gut will be avoided, and <lb/>the patient thereby
+          freed from a <lb/>conſtantly impending evil. </p>
+        <p rend="indent space">
+          <lb/>Not long ſince, I ſaw a large <lb/>portion of omentum in the ſcro- <lb/>tum, a part
+          of which had the <lb/>knotty hardneſs, the acute pain, <lb/>and indeed every ſymptom of a
+          <lb/>cancer. </p>
+      </div>
+      <pb n="81"/>
+      <div type="section">
+        <head rend="align-center space">
+          <lb/>SECT. IV. </head>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">T</hi>HE third diviſion compre- <lb/>hends thoſe ruptures which
+          <lb/>are reducible; but whoſe reduc- <lb/>tion is difficult and attended with <lb/>pain
+          and trouble. </p>
+        <p rend="indent space">
+          <lb/>This difficulty of reduction <lb/>may be owing to ſeveral different <lb/>cauſes; a
+          large piece of omen- <lb/>tum, a large portion of inteſtine <lb/>and meſentery, the
+          inteſtine be- <lb/>ing inflamed, loaded with fæces, <lb/>or diſtended by flatus, ſmallneſs
+          <lb/>of the abdominal ring, &amp;c. &amp;c. <lb/>&amp;c. but to whatever cauſe the
+          <lb/>difficulty is owing, the means <lb/>to be uſed for its relief are the <lb/>ſame. </p>
+        <pb n="82"/>
+        <p rend="indent space">
+          <lb/>The hernia in this ſtate is cal- <lb/>led an incarcerated hernia, a ſtran-
+          <lb/>gulated hernia, or a hernia with <lb/>ſtricture, which ſtricture is more <lb/>or leſs
+          in degree in different caſes; <lb/>its ſymptoms are a ſwelling in <lb/>the groin and
+          upper-part of the <lb/>ſcrotum, larger or ſmaller ac- <lb/>cording to the quantity of con-
+          <lb/>tents, very painful to the touch, <lb/>and renitent or reſiſting the im-
+          <lb/>preſſion of the fingers; the pain <lb/>is increaſed by coughing or ſneez- <lb/>ing,
+          or ſtanding upright, a fre- <lb/>quent vomiting, a ſuppreſſion <lb/>of all diſcharge per
+          anum; to <lb/>which may be added fever, with <lb/>quick and hard pulſe. Theſe <lb/>are the
+          ſymptoms of a beginning <lb/>ſtrangulation, and conſequently <pb n="83"/>
+          <lb/>ſymptoms of impending miſchief, <lb/>ſymptoms which if not ſoon re- <lb/>lieved by
+          art, nature muſt ſubmit <lb/>to. </p>
+        <p rend="indent space">
+          <lb/>A ſtricture made by the bor- <lb/>ders of the aperture in the ab- <lb/>dominal muſcle
+          on the prolapſed <lb/>part or parts, is the primary and <lb/>principal cauſe of theſe
+          ſymp- <lb/>toms, and nothing can appeaſe <lb/>or remove them but what will <lb/>take off
+          that ſtricture; the two <lb/>methods of accompliſhing this <lb/>end, are, removing the
+          parts by <lb/>replacing them in the belly <lb/>whence they came, or dividing <lb/>the
+          ſtricture itſelf: the former is <lb/>always moſt eligible when practi- <lb/>cable, and is
+          the ſubject of our <lb/>preſent purpoſe. </p>
+        <pb n="83"/>
+        <p rend="indent space">
+          <lb/>A portion of inteſtine will, <lb/>(as has been obſerved before) while <lb/>there is
+          no ſtricture above nor any <lb/>inflammation below, remain per- <lb/>fectly quiet in the
+          ſcrotum, and <lb/>will there execute all its offices <lb/>freely and perfectly; but the
+          <lb/>inſtant it becomes ſtraitened <lb/>above, the caſe alters: the free <lb/>paſſage of
+          the fæcal part of the <lb/>food is interrupted or ſtop- <lb/>ped, the periſtaltic motion
+          of <lb/>the inteſtines perverted, and the <lb/>circulation of the blood through <lb/>the
+          incarcerated portion ſo im- <lb/>peded, that if the impediment <lb/>is not ſoon taken off
+          it muſt <lb/>ſtop, the conſequence of which <lb/>is obvious. </p>
+        <pb n="85"/>
+        <p rend="indent space">
+          <lb/>All the ſymptoms of an in- <lb/>carcerated rupture are from theſe <lb/>cauſes eaſily
+          deducible and fairly <lb/>to be accounted for. </p>
+        <p rend="indent space">
+          <lb/>The tumor, the pain, the <lb/>fever, the vomiting, the tenſion <lb/>of the belly and
+          ſuppreſſion of <lb/>ſtools, are ſo many links in a <lb/>chain of ſymptoms, all evidently
+          <lb/>and certainly produced by one <lb/>cauſe, the removal of which only <lb/>can remove
+          them. </p>
+        <p rend="indent space">
+          <lb/>The manner of attempting the <lb/>reduction is thus: The patient <lb/>ſhould be laid
+          in a ſupine poſture, <lb/>with his buttocks and thighs con- <lb/>ſiderably raiſed above
+          his breaſt, <lb/>when the ſurgeon taking up the <pb n="86"/>
+          <lb/>tumified ſcrotum, is to endea- <lb/>vour to procure the return of the <lb/>prolapſed
+          parts thro' the aperture <lb/>in the muſcle by gentle and repeat- <lb/>ed preſſure of them
+          towards the os <lb/>ileum with one hand, while with <lb/>the other he prevents their
+          eſcape <lb/>to the lower part of the ſcrotum. </p>
+        <p rend="indent space">
+          <lb/>This is a general deſcription of <lb/>it; but the exact and proper <lb/>manner of
+          handling the tumor, <lb/>and endeavouring the return of <lb/>the parts, is one of thoſe
+          opera- <lb/>tions, which having once done, <lb/>or having ſeen it properly done, <lb/>will
+          convey a better and clearer <lb/>idea of, than the moſt elaborate <lb/>deſcription; a
+          competent know- <lb/>ledge of the anatomical ſtructure <lb/>and ſituation of the parts,
+          will <pb n="87"/>
+          <lb/>fully inſtruct any one how to go <lb/>ahout it properly, and without <lb/>ſuch
+          knowledge, though he may <lb/>ſometimes and by accident ſuc- <lb/>ceed, yet he may full as
+          often <lb/>do miſchief, and his ſurgery will <lb/>be ſomewhat like that of the man
+          <lb/>who replaced his companion's <lb/>diſlocated jaw, by giving him a <lb/>ſmart blow in
+          the face. </p>
+        <p rend="indent space">
+          <lb/>Great aſſiſtance is to be obtain- <lb/>ed in this operation from poſture, <lb/>by
+          raiſing the hips above the <lb/>trunk; and indeed the nearer the <lb/>poſture approaches
+          to that of <lb/>ſtanding upon the head (as it is <lb/>called) the better, as it makes the
+          <lb/>whole pacquet of inteſtines hang, <lb/>as it were, by the portion engaged <lb/>in the
+          ſtricture, and which will <pb n="88"/>
+          <lb/>therefore be more likely to fol- <lb/>low. </p>
+        <p rend="indent space">
+          <lb/>A little time and pains ſpent <lb/>in this manner, will frequently <lb/>be attended
+          with ſucceſs, and ob- <lb/>tain a reduction; but if it does <lb/>not, and the handling is
+          very <lb/>painful, and the patient much fa- <lb/>tigued, it will be better to de-
+          <lb/>ſiſt for few hours, take away a <lb/>large quantity of blood, (as much <lb/>as the
+          ſtrength and circumſtances <lb/>will admit) give a ſtimulating <lb/>glyſter or two, cover
+          the whole <lb/>tumor and ſcrotum with an emol- <lb/>lient poultice, and confine the
+          <lb/>patient to bed. </p>
+        <p rend="indent space">
+          <lb/>This is the general doctrine <lb/>and the general and moſt ap- <pb n="89"/>
+          <lb/>proved practice, and founded on <lb/>reaſon and experience. </p>
+        <p rend="indent space">
+          <lb/>The glyſters will not only emp- <lb/>ty the rectum and the greateſt <lb/>part of the
+          colon of what may be <lb/>there, but the ſtimulus may per- <lb/>haps do ſomething more;
+          and <lb/>the poultice will relax the ſkin, <lb/>and render the diſtenſion of that
+          <lb/>leſs painful, and therefore neither <lb/>of them ſhould ever be omitted; <lb/>but the
+          ſheet anchor in this caſe is <lb/>large bleeding frequently repeated. </p>
+        <p rend="indent space">
+          <lb/>Perhaps there is no diſeaſe <lb/>which affects the human body, <lb/>not excepting
+          pleuriſy and pe- <lb/>ripneumony, in which bleeding is <lb/>more immediately ſerviceable
+          than <lb/>in this, and which, if there are no <pb n="90"/>
+          <lb/>very particular circumſtances in <lb/>the conſtitution to forbid it, ſhould <lb/>be
+          done very freely and frequently, <lb/>never forgetting to embrace the <lb/>opportunity of
+          a deliquium. </p>
+        <p rend="indent space">
+          <lb/>A warm bath or ſemicupium <lb/>are alſo uſeful in this ſtate, from <lb/>the general
+          relaxation which they <lb/>induce. </p>
+        <p rend="indent space">
+          <lb/>Heiſter and ſome others, have <lb/>ſaid a great deal in commenda- <lb/>tion of
+          glyſters of the fume of <lb/>tobacco, repeated frequently, <lb/>which as they can do no
+          poſſible <lb/>harm, may be worth trying. </p>
+        <p rend="indent space">
+          <lb/>Many very good writers have <lb/>recommended, and many able <lb/>practitioners ſtill
+          continue to uſe <pb n="91"/>
+          <lb/>purging medicines, in this ſtate of <lb/>the diſeaſe, given in ſmall doſes, <lb/>and
+          frequently repeated; but I <lb/>very much doubt, whether any <lb/>part of the ſucceſs they
+          have had, <lb/>has been deducible from theſe <lb/>medicines. The advantage ſup- <lb/>poſed
+          is, that by accelerating the <lb/>periſtaltic motion the gut may be <lb/>diſengaged from
+          the ſtricture and <lb/>be drawn back into the belly. <lb/>But when the ſtricture is ſo
+          tight <lb/>as to have brought on bad ſymp- <lb/>toms, I much doubt the ſucceſs <lb/>of the
+          experiment. </p>
+        <p rend="indent space">
+          <lb/>Lenient medicines, whoſe form <lb/>(whether ſolid or fluid) cannot be <lb/>ſmall,
+          will not be retained by <lb/>the ſtomach; and irritating medi- <lb/>cines, whoſe bulk is
+          ſmall, are, <pb n="92"/>
+          <lb/>I think, more likely to add to <lb/>the tenſion of the belly, already <lb/>become
+          very troubleſome, than to <lb/>diſengage the inteſtine. If they <lb/>do not anſwer that
+          end, they can <lb/>be of no ſervice at all, and if <lb/>they do no real ſervice, 'tis much
+          <lb/>to be feared, they will do ſome- <lb/>thing worſe than nothing. </p>
+        <p rend="indent space">
+          <lb/>They muſt increaſe the fulneſs <lb/>of the ſmall inteſtines above the <lb/>confined
+          portion, and conſe- <lb/>quently the tenſion of the belly; <lb/>they muſt add to the
+          irritation <lb/>made againſt the ſtricture, and <lb/>to the fever, and thirſt, as all ir-
+          <lb/>ritating purges do at all times <lb/>and in all bodies; however, this <lb/>muſt be
+          left to every man's own <lb/>experience and judgment. </p>
+        <pb n="93"/>
+        <p rend="indent space">
+          <lb/>Aſter few hours reſt and a large <lb/>bleeding, freſh trial ſhould be made <lb/>in
+          the ſame manner as the firſt, al- <lb/><choice>
+            <corr>ways</corr>
+            <sic>always</sic>
+          </choice> remembering that the leſs <lb/>force is uſed the better, and that <lb/>with
+          regard to conſequences, all <lb/>violent attempts if they do not ſuc- <lb/>ceed are worſe
+          than ineffectual. </p>
+        <p rend="indent space">
+          <lb/>Hernias are in nothing more <lb/>various than in the time which <lb/>they will ſafely
+          admit for at- <lb/>tempting the reduction; ſome <lb/>have been ſucceſsfully reduced af-
+          <lb/>ter ten days, others have produced <lb/>fatal ſymptoms in twice as many <lb/>hours;
+          this difference may ariſe <lb/>from difference of conſtitution, <lb/>habit of body, or
+          from ſome par- <lb/>ticular circumſtance in the hernia <pb n="94"/>
+          <lb/>itſelf; but let the cauſe of this <lb/>difference be what it will, as it <lb/>can
+          never be foreſeen it ſhould <lb/>never be truſted, and the ſooner <lb/>the reduction is
+          made, the ſooner <lb/>the patient is out of danger from <lb/>the ſtricture, and the more
+          like- <lb/>ly to get rid of the ſymptoms it <lb/>has already produced. </p>
+        <p rend="indent space">
+          <lb/>Recent ruptures are rather <lb/>more ſubject to ſtricture than <lb/>old ones,
+          inaſmuch as the aper- <lb/>ture in the muſcle and the en- <lb/>trance of the ſac in
+          antient hernias <lb/>are more patent, and leſs likely <lb/>to bind than in recent, in
+          which <lb/>the contrary, moſt probably, is the <lb/>caſe, though when old ones are
+          <lb/>attended by ſtricture, the ſymp- <lb/>toms are not at all lighter. </p>
+        <pb n="95"/>
+        <p rend="indent space">
+          <lb/>Omental hernias in general <lb/>are not ſubject to ſtricture, or <lb/>to any bad
+          ſymptoms, though <lb/>ſometimes they will accidental- <lb/>ly become very painful, and
+          <lb/>by the connection of the omen- <lb/>tum with the ſtomach, will <lb/>occaſion a very
+          diſagreeable ſen- <lb/>ſation, a nauſea and vomiting; <lb/>nay writers of undoubted cre-
+          <lb/>dit have related a paſſio ilia- <lb/>ca, in all its force and ſymp- <lb/>toms, from a
+          mere epiplocele, <lb/>without any portion of inteſ- <lb/>tine. </p>
+        <p rend="indent space">
+          <lb/>In the caſe of a large omental <lb/>rupture, that has been down <lb/>ſome time, it
+          has been recom- <lb/>mended to be content with a bag- <pb n="96"/>
+          <lb/>truſs to ſuſpend the weight, tho' <lb/>the portion of omentum ſhould <lb/>be
+          returnable; upon a ſuppoſition <lb/>that if returned it will lie uneaſy <lb/>in a lump at
+          the bottom of the <lb/>belly. This ſeems to me to be <lb/>one of thoſe precepts which au-
+          <lb/>thors have taken from each other <lb/>implicitly, without ſufficiently at-
+          <lb/>tending to the conſequences which <lb/>it may produce. It may be true <lb/>in ſome
+          particular caſes, but ſurely <lb/>is by no means fit to be eſtabliſh- <lb/>ed as a general
+          rule; and it muſt <lb/>always be worth while to try how <lb/>it will lie before it be
+          given up to <lb/>ſuch a method, as hardly deſerves <lb/>the name of palliative, and which
+          <lb/>may be productive of other miſ- <lb/>chief. </p>
+        <pb n="97"/>
+        <p rend="indent space">
+          <lb/>The prolapſed parts replaced, <lb/>the next conſideration is how to <lb/>keep them
+          from falling down <lb/>again. This can only be done by <lb/>a proper bandage, ſo
+          conſtructed, <lb/>as to keep a gentle preſſure againſt <lb/>the aperture in the tendon
+          thro' <lb/>which the parts had paſſed, and <lb/>to preſs the ſides of the entrance <lb/>of
+          the ſac as near together as poſ- <lb/>ſible. </p>
+        <p rend="indent space">
+          <lb/>The bandage now in general <lb/>uſe for this purpoſe, is a truſs; in <lb/>the
+          conſtruction of, and adapting <lb/>which to the part, ſome ingenuity <lb/>is neceſſary; if
+          it is not ſo made <lb/>as to do good, it muſt do miſ- <lb/>chief; if it does not keep the
+          <lb/>parts up, the patient is more <pb n="98"/>
+          <lb/>likely to incur miſchief with his <lb/>truſs on than without it; it will <lb/>make a
+          preſſure on the inteſtine <lb/>while down, which may prove <lb/>very pernicious, and has
+          often <lb/>been the ſole occaſion of a gan- <lb/>grene, in caſes where there has <lb/>been
+          no ſtricture; therefore it <lb/>behoves every ſurgeon to ſee that <lb/>the truſs applied
+          is well made, <lb/>and does its duty, leſt all his <lb/>pains ſhould be baffled by the
+          <lb/>bad conſtruction or injudicious <lb/>application of this piece of ma- <lb/>chinery. </p>
+        <p rend="indent space">
+          <lb/>If the ſymptoms of pain and <lb/>inflammation, &amp;c, ran high be- <lb/>fore the
+          reduction, they will not <lb/>always ceaſe upon its being ac- <lb/>compliſhed; and as what
+          ſymp- <pb n="99"/>
+          <lb/>toms remain, after the inteſtine <lb/>is returned, ariſe moſt probably <lb/>from its
+          being inflamed, all ſuch <lb/>remedies as are proper and ne- <lb/>ceſſary in an
+          inflammation of the <lb/>inteſtine, muſt be proper and <lb/>neceſſary here; but above all,
+          <lb/>the body muſt be kept open un- <lb/>til all pain and tightneſs, and in <lb/>ſhort,
+          till every complaint of the <lb/>parts about the abdomen is ab- <lb/>ſolutely removed, and
+          the in- <lb/>teſtine performs all its offices <lb/>freely and without trouble or ob-
+          <lb/>ſtruction. </p>
+      </div>
+      <gap reason="sampling" unit="pages" quantity="133"/>
+    </body>
+  </text>
+</TEI>

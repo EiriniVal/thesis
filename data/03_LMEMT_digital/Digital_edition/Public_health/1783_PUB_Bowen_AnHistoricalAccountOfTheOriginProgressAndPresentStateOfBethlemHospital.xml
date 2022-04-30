@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> LMEMT Corpus - Bowen: An historical account of the origin, progress, and present
+          state of Bethlem Hospital </title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>Thomas Bowen</persName>
+            </author>
+            <title type="main">An historical account of the origin, progress, and present state of
+              Bethlem Hospital, founded by Henry the Eighth, for the cure of lunatics, and Enlarged
+              by subsequent Benefactors, for the Reception and Maintenance of incurables. </title>
+            <edition n="1"/>
+            <idno type="ESTC">T36299</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/T36299"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>London: Printed in the Year, M.DCC.LXXXIII.</persName>
+              </publisher>
+              <date>1783</date>
+            </imprint>
+            <extent>
+              <measure type="format">4⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="4"/>
+              <measure type="count" commodity="body" unit="page" quantity="16"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">British Library</orgName>
+            <idno type="ECCO">CW101960639</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Public welfare and institutional"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text type="book" rend="roman" xml:lang="eng">
+    <gap reason="sampling" unit="pages" quantity="4"/>
+    <body>
+      <pb n="1"/>
+      <head rend="align-center">
+        <lb/>AN <lb/><hi rend="size(1.5)">HISTORICAL ACCOUNT </hi>
+        <lb/>OF THE <lb/><hi rend="size(2.0) space">Origin, Progreſs, and Preſent State </hi>
+        <lb/>OF <lb/><hi rend="size(2.0)">BETHLEM HOSPITAL. </hi>
+      </head>
+      <figure rend="space">
+        <figDesc>A long horizontal line in the middle of the page. </figDesc>
+      </figure>
+      <p rend="space">
+        <lb/><hi rend="dc(2)">T</hi>HOSE <hi rend="sc">ancient foundations</hi>, which have been
+        eſtabliſhed <lb/>in the city of <hi rend="sc">London</hi> by the munificence of our <hi
+          rend="sc">monarchs</hi>, <lb/>for the relief and maintenance of the <hi rend="sc">diseased
+          poor</hi>, have always <lb/>been conſidered as objects worthy of public ſupport. The care
+        of <hi rend="sc">indi- <lb/>gent lunatics</hi> is attended with peculiar difficulties, and,
+        as much im- <lb/>mediate evil muſt ariſe from the neglect of them, the community cannot
+        <lb/>but be nearly intereſted in the welfare and proſperity of thoſe places <lb/>which are
+        provided for their reception. It may not therefore be <lb/>thought improper to give ſome
+        account of the origin, progreſs, and <lb/>preſent ſtate of Bethlem Hoſpital. </p>
+      <pb n="2"/>
+      <p rend="indent space">
+        <lb/><hi rend="sc">The Hospital of Bethlem</hi> owes it's name and original eſta-
+        <lb/>bliſhment to the piety of a <hi rend="sc">citizen of London</hi>. In the year
+        <lb/>1247, in the 39th of Henry the third, <hi rend="sc">Simon Fitz Mary</hi>, who had
+        <lb/>been ſheriff, influenced by the prevailing ſuperſtition of the age, was <lb/>deſirous
+        to found a religious houſe. Accordingly, he appropriated by <lb/>a deed of gift, which is
+        ſtill extant, all his lands in the pariſh of <lb/>St. <hi rend="sc">Botolph</hi> without <hi
+          rend="sc">Bishopsgate</hi>, being the ſpot now known by <lb/>the name of <hi rend="sc">Old
+          Bethlem</hi>, to the foundation of a priory. The <lb/>prior, canons, brethren and ſiſters,
+        for whoſe maintenance he pro- <lb/>vided, were diſtinguiſhed by a ſtar upon their mantles,
+        and were eſ- <lb/>pecially directed to receive and entertain the <hi rend="sc">Bishop of St.
+          Mary <lb/>of Bethlehem</hi>, and the canons, brothers, and meſſengers of that <lb/>their
+        mother church, as often as they might come to England. Such <lb/>was the original deſign of
+        this foundation, a deſign as far ſhort of <lb/>the uſes to which it has been ſince
+        converted, as the contracted views <lb/>of monkiſh hoſpitality are exceeded by the more
+        enlarged ſpirit of <lb/><hi rend="sc">protestant benevolence</hi>. </p>
+      <p rend="indent space">
+        <lb/><hi rend="sc">We</hi> hear but little more of this houſe for the ſpace of two hun-
+        <lb/>dred years. When the vaſt fabric of papal ſuperſtition in England <lb/>began to totter,
+        and the votaries of <hi rend="sc">Rome</hi> were expelled from their <lb/>ancient
+        retirements, it was ſeized by <hi rend="sc">Henry the eighth</hi>, who, in <lb/>the year
+        1547, granted the hoſpital of Bethlem, with all it's revenues, <lb/>to the mayor,
+        commonalty, and citizens of London, from which time <lb/>it became an <hi rend="sc">hospital
+          for the cure of lunatics</hi>. </p>
+      <pb n="3"/>
+      <p rend="indent space">
+        <lb/><hi rend="sc">It</hi> is moſt probable that the city of London had felt great in-
+        <lb/>convenience from the want of a proper receptacle for thoſe unhappy <lb/>objects, who
+        were afflicted by the moſt deplorable malady incident <lb/>to the human frame. The retired
+        ſituation of the hoſpital of Bethlem, <lb/>and it's contiguity to the city pointed it out as
+        a fit place for the <lb/>deſired purpoſe. Accordingly, we find from authentic documents,
+        <lb/>that, in the year 1523, Stephen Gennings, merchant-taylor, gave forty <lb/>pounds by
+        will towards the purchaſe of this hoſpital, and, that the <lb/>mayor and commonalty had
+        taken ſome ſteps to procure it, a very <lb/>ſhort time before they derived their right to it
+        from royal munifi- <lb/>cence. What were the revenues which it then enjoyed does not now
+        <lb/>appear: it is certain, they were inadequate to the neceſſities which <lb/>they were
+        intended to remedy; for, five years after the royal grant <lb/>had paſſed, letters patent
+        were iſſued to John Whitehead, proctor <lb/>to the hoſpital of Bethlem, to ſolicit donations
+        within the counties of <lb/>Lincoln and Cambridge, the city of London, and the iſle of Ely. </p>
+      <p rend="indent space">
+        <lb/><hi rend="sc">In</hi> the infant ſtate of this charity, no other proviſion was made
+        <lb/>for the unfortunate patient, beſides confinement and medical relief. <lb/>His friends,
+        if they had ability, or the pariſh, of which the wretched <lb/>lunatic was an inhabitant,
+        were obliged to contribute to his ſupport. <lb/>It remained for the judicious benevolence of
+        ſucceeding times to <lb/>improve the good work, and to ſupply that comfortable ſubſiſtence,
+        <lb/>and tender care, which, through the bleſſing of the divine providence, <lb/>have
+        reſtored ſo many diſtracted objects to their families, and to ſociety. </p>
+      <pb n="4"/>
+      <p rend="indent space">
+        <lb/><hi rend="sc">There</hi> is no account of donations received before the year 1632.
+        <lb/>They were not, for ſome time, conſiderable, but the manifeſt utility of <lb/>the
+        inſtitution, and perhaps the detriment which the public ſuffered, ſoon <lb/>induced them to
+        attend to the ſecurity of thoſe members, who, <lb/>through the viſitation of God, were
+        become dangerous to the commu- <lb/>nity. Accordingly, the growing charity was cheriſhed not
+        only by ci- <lb/>tizens, upon whoſe notice it more immediately preſſed, but by others
+        <lb/>who had judgment to ſelect proper objects of their attention, and <lb/>ability to
+        aſſiſt them. And here the mind, which rejoices to indulge <lb/>the pleaſing ſenſations of
+        benevolence, cannot but feel the warmeſt <lb/>glow, when it perceives how much the hoſpital
+        of Bethlem has been <lb/>indebted to ſecret, unknown benefactors. Private charity may not
+        <lb/>perhaps excite and animate others ſo much as public benefactions, <lb/>but it affords
+        the ſtrongeſt recommendation of the inſtitution which it <lb/>favors. He who conceals his
+        good deeds cannot poſſibly be influ- <lb/>enced by any other than the pureſt motives: it is
+        the merits of <lb/>the objects only that he regards; theſe he weighs well before he
+        <lb/>gives his alms, and he is ſeldom miſtaken in their application. </p>
+      <p rend="indent space">
+        <lb/><hi rend="sc">About</hi> the year 1644, it was under conſideration to enlarge the
+          <lb/><hi rend="sc">old hospital</hi>; but the ſituation was too cloſe and confined to
+        <lb/>allow of its being rendered a commodious aſylum for the numerous <lb/>diſtracted
+        perſons of both ſexes that claimed it's protection, and pro- <lb/>bably the dreadful
+        commotions of that period checked the idea of <lb/>improvement. When peace and legal
+        government were reſtored, and <lb/>England had reſt from the violence with which it had been
+        con- <lb/>vulſed, the concerns of civil ſociety were again attended to, and it <lb/>became a
+        matter of ſerious deliberation to build a <hi rend="sc">new hospital</hi>. <pb n="5"/>
+        <lb/>In April 1675 this great work was begun. The lord-mayor, alder- <lb/>men, and
+        common-council of the city of London, allotted to the <lb/>governors a large piece of ground
+        near London-Wall, on the ſouth <lb/>ſide of the lower quarter of Moorfields, where the
+        hoſpital of Bethlem <lb/>now ſtands. The expedition, with which this ſtately fabric was com-
+        <lb/>pleted, challenges our admiration. For, from an inſcription over the <lb/>arch facing
+        the entrance into the hoſpital, it appears that it was <lb/>finiſhed in July, in the
+        following year. So active was the zeal that <lb/>quickened the growth of this noble
+        ſtructure! The generoſity of the <lb/>contributors muſt have been equal to their attention,
+        for the charge <lb/>of the building amounted to no leſs a ſum than £17,000. And <lb/>never,
+        it may be truly aſſerted, were expence and trouble better be- <lb/>ſtowed: the hoſpital of
+        Bethlem ſtands an illuſtrious monument of <lb/>Britiſh charity; and, whether we conſider the
+        becoming magnifi- <lb/>cence of the building, the commodious arrangement of the interior
+        <lb/>apartments, or the effectual relief which it reaches out to the poor <lb/>objects whom
+        it ſhelters, we may ſafely pronounce, that it is not to <lb/>be parallelled in the whole
+        world. <note place="bottom" n="*" rend="size(0.5)">
+          <p rend="indent">
+            <lb/>* The deſign of the building was taken from the Chateau de Tuilleries, <unclear>in
+              Verſailles</unclear>. Louis <lb/>XIV. it is ſaid, was ſo much offended that his palace
+            ſhould be made a model for an hoſpital, <lb/>that, in revenge, he ordered a plan of St.
+            James's to be taken for offices of a very inferior <lb/>nature. The figures of the two
+            lunatics over the gates of the hoſpital, an engraving of which is pre- <lb/>fixed to
+            this account, were the work of <hi rend="sc">Cibber</hi>, the father of the comedian. <q
+              rend="diple quotes">My father <lb/>Caius Gabriel Cibber was a native of Holſtein, who
+              came into England, ſome time before <lb/>the reſtoration of king Charles II. to follow
+              his profeſſion, which was that of a ſtatuary. The <lb/>baſſo relievo on the pedeſtal
+              of the great column in the city, and the two figures of the <lb/>lunatics, the Raving,
+              and the Melancholy, over the gates of Bethlem hoſpital, are no ill <lb/>monuments of
+              his fame as an artiſt. </q>
+            <hi rend="italic">Cibber's Apology for his own Life</hi>. </p>
+          <p rend="indent">
+            <lb/>There is a tradition that the perſon repreſented by the figure of the melancholy
+            lunatic, was <lb/>porter to Oliver Cromwell. </p>
+        </note>
+      </p>
+      <pb n="6"/>
+      <p rend="indent space">
+        <lb/><hi rend="sc">In</hi> the cloſe limits within which the old hoſpital was confined, it
+        <lb/>was impracticable to reſerve room for thoſe forlorn beings, of whoſe <lb/>return to the
+        comforts of a ſound mind there were no hopes. The <lb/>increaſing multitude of curable
+        objects juſtly demanded admittance; <lb/>nor did it ſeem reaſonable that they ſhould be
+        excluded from the <lb/>proſpect of enjoying a bleſſing which the former could not attain.
+        <lb/>When the <hi rend="sc">new house</hi> was erected, it was hoped that ſome provi-
+        <lb/>ſion might be made for ſuch as were deemed <hi rend="sc">incurable</hi>, and at the
+        <lb/>ſame time dangerous to the public. But the great influx of inſane <lb/>perſons, from
+        all parts of the kingdom, into the hoſpital, fruſtrated <lb/>theſe expectations, and gave
+        reaſon to ſuppoſe, that few, if any, of <lb/>its numerous apartments, would, at any, time be
+        vacant. It was <lb/>therefore found neceſſary to enlarge the building; a particular ſub-
+        <lb/>ſcription was ſet on foot for the purpoſe, and, in the year 1734, two <lb/>wings were
+        added to the hoſpital. This addition of room has enabled <lb/>the governors, in ſome degree,
+        to anſwer the wiſhes of the public; <lb/>and there are now maintained <hi rend="sc">one
+          hundred incurable patients</hi>, <lb/>fifty of each ſex, who enjoy every advantage which
+        their deplora- <lb/>ble ſtate can admit. The number of patients in the houſe, who are
+        <lb/>ſuppoſed capable of being relieved, commonly amounts to about <hi rend="sc">one
+          <lb/>hundred and seventy</hi>, and of theſe, it has been found upon an <lb/>average, that
+        nearly two out of three are reſtored to their underſtanding. <lb/>To ſuch a degree of
+        perfection have the liberal benefactions of the well- <lb/>diſpoſed (for it is by
+        benefactions that the deficient revenues of this <lb/>hoſpital have been, and muſt be
+        ſupplied) advanced this noble inſti- <lb/>tution! And ſuch is the ſolid and ſubſtantial
+        good, which it derives <lb/>to individuals and to the community! </p>
+      <pb n="7"/>
+      <p rend="indent space">
+        <lb/><hi rend="sc">But</hi> while the benevolent heart feels a ſenſible joy in reflecting
+        <lb/>upon the load of human wretchedneſs that is lightened by the ac- <lb/>commodations of
+        this friendly manſion, it cannot but expreſs a wiſh, <lb/>that the benefits of the hoſpital
+        might be rendered more extenſive. <lb/>It is an object much to be deſired, that the many
+        diſtracted perſons, <lb/>whoſe diſorder no medicine can reach, might continue to find pro-
+        <lb/>tection within theſe walls, and not be returned to their friends, a <lb/>burthen, very
+        often too heavy for them to bear. The number of <lb/>incurables, which the hoſpital can at
+        preſent contain, is ſmall, when <lb/>compared with thoſe who wait their turn of admiſſion.
+        Perhaps it <lb/>would not be ſuppoſed that there are generally more than <hi rend="sc">two
+          <lb/>hundred</hi> upon what is called the incurable liſt; <note place="bottom" n="*"
+          rend="size(0.5)">
+          <p rend="indent">
+            <lb/>* When a patient, after ſufficient trial, is judged incurable, he is diſmiſſed from
+            the hoſ- <lb/>pital, and if he is pronounced dangerous either to himſelf or others, his
+            name is entered into <lb/>a book, that he may be received in turn among the incurables
+            maintained in the houſe, <lb/>whenever a vacancy ſhall happen. </p>
+        </note> and, as inſtances <lb/>of longevity are frequent in inſane perſons, it commonly
+        happens <lb/>that the expectants are obliged to wait ſix or ſeven years, after <lb/>their
+        diſmiſſion from the hoſpital, before they can be again received. <lb/>During this long
+        interval, they muſt be ſupported either by their <lb/>reſpective friends, or pariſhes. The
+        expence of maintaining and pro- <lb/>perly ſecuring them far exceeds the allowance that is
+        uſually made <lb/>for paupers; and in middling life, where the feelings of a worthy ſon
+        <lb/>or huſband revolt at the idea of a near relation becoming an object <lb/>of parochial
+        alms, the diſtreſs and difficulties of the lunatic's unhappy <lb/>friends muſt be greatly
+        aggravated. Beſides, for want of due care <pb n="8"/>
+        <lb/>and ſecurity, accidents, far too ſhocking to be related, have ſome- <lb/>times
+        happened. <note place="bottom" n="*" rend="size(0.5)">
+          <p rend="indent">
+            <lb/>* There are now in Bethlem hoſpital two patients who have committed deeds of the
+            moſt <lb/>horrid kind. </p>
+        </note>
+      </p>
+      <p rend="indent space">
+        <lb/><hi rend="sc">These</hi> manifeſt evils, that ariſe from the want of a proper pro-
+        <lb/>viſion for ſo great a number of incurable patients, have induced many <lb/>benevolent
+        perſons to wiſh, that, the hoſpital might be enlarged. <lb/>Indeed, many have appropriated
+        their benefactions ſolely to the <lb/>incurables; and it is hoped that others will forward
+        and complete <lb/>their good intentions. True policy muſt join with humanity in the
+        <lb/>wiſh, that, this may not any longer be, what at preſent it is, almoſt <lb/>the only
+        branch of charity in this great city that wants a ſufficient <lb/>eſtabliſhment. Beſides,
+        there ſeems a peculiar degree of generoſity <lb/>in aſſiſting thoſe who muſt burthen, but
+        can never benefit ſociety, <lb/>and who, ſo far from recompenſing, cannot even feel the
+        leaſt gra- <lb/>titude to their benefactors. <note place="bottom" n="†" rend="size(0.5)">
+          <p rend="indent">
+            <lb/>† It may not be improper here to rectify a miſtaken notion that has gone forth into
+            the <lb/>world. It has been preſumed by many, that the hoſpitals of <hi rend="sc"
+              >Bethlem, and St. Luke</hi> are <lb/>connected: the latter, it has been thought, is
+            appointed for the reception of incurables diſcharged <lb/>by the former; and ſo
+            prevalent has been this opinion, that the ſteward of Bethlem hoſpital has <lb/>often
+            received letters from perſons of education and credit, who were intereſted for patients
+            <lb/>diſcharged incurable, deſiring to know, <hi rend="italic">when they would be ſent
+              to St. Luke's</hi>. How ſuch an idea <lb/>could have obtained, except from the
+            nearneſs of their ſituation to each other, it is not eaſy to <lb/>ſay; certain it is,
+            that it has not the leaſt foundation in truth. Both hoſpitals are engaged in the
+            <lb/>ſame good work, have the ſame object in view, the reſtoration of reaſon to the
+            diſtracted; and <lb/>both admit a limited number of incurables; but the <hi rend="sc"
+              >governors</hi>, <hi rend="sc">officers</hi>, and <hi rend="sc">funds</hi> of
+            <lb/>each charity are totally <hi rend="sc">separate</hi> and <hi rend="sc"
+              >distinct</hi>. </p>
+        </note>
+      </p>
+      <pb n="9"/>
+      <p rend="indent space">
+        <lb/><hi rend="sc">The conduct and management</hi> of this hoſpital is more im-
+        <lb/>mediately intruſted to a committee of forty-two governors, ſeven <lb/>of whom, together
+        with the treaſurer, phyſician, and other officers, <lb/>attend every Saturday, in monthly
+        rotation, for the admiſſion of pati- <lb/>ents, and for the regulation of ſuch other
+        matters, as may concern <lb/>the eaſe, welfare, and convenience, of ſo large a family. And,
+        as <lb/>the committee is open to every governor, it receives all the benefit <lb/>which it
+        can derive from the prudence and information of perſons <lb/>of different habits of life,
+        reſpectable citizens who are engaged in, <lb/>or have retired from buſineſs, gentlemen of
+        the medical profeſſion, <lb/>and others of independent fortune, whoſe leiſure or benevolence
+        may <lb/>lead them to attend. </p>
+      <p rend="indent space">
+        <lb/><hi rend="sc">As</hi> ſoon as the lunatic is judged a fit object for this charity, he
+        <lb/>is delivered to the ſteward, who, under the direction of the phyſician, <lb/>aſſigns
+        him ſuch a degree of care and confinement as his caſe may <lb/>require. The wards are
+        ſpacious and airy, <note place="bottom" n="*" rend="size(0.5)">
+          <p rend="indent">
+            <lb/>* The length of each ward or gallery is 321 feet, the width 16 feet 2 inches, and
+            the heigth <lb/>13 feet. There are 275 cells, each of which meaſures 12 feet 6 inches by
+            8 feet. </p>
+        </note> and the convenience of <lb/>the apartments allotted to each unhappy individual,
+        together with the <lb/>order, decency, and cleanlineſs that are conſpicuous through the
+        whole <lb/>houſe, cannot but ſtrike the curious and charitable viſitant: and, though
+        <lb/>the various ſpectacles of wretchedneſs, which there preſent themſelves, <lb/>muſt
+        agitate the mind that feels for the woes of humanity, the pain, <lb/>which they occaſion,
+        will rarely fail of being mitigated by the view <lb/>of that relief which is adminiſtered to
+        the wretched. </p>
+      <pb n="10"/>
+      <p rend="indent space">
+        <lb/><hi rend="sc">It</hi> is ſcarce neceſſary to aſſert, that the unhappy patients enjoy
+        <lb/>the ableſt medical aſſiſtance adminiſtered with the greateſt humanity. <note
+          place="bottom" n="*" rend="size(0.5)">
+          <p rend="indent">
+            <lb/>* The phyſician to the hoſpital is Dr. <hi rend="sc">Monro</hi>, and the ſurgeon,
+            Mr. <hi rend="sc">Richard Crowther</hi>. </p>
+        </note>
+        <lb/>The proviſions of the hoſpital, the vegetables, milk, beer, &amp;c. are all
+        <lb/>excellent in their kind: <note place="bottom" n="†" rend="size(0.5)">
+          <p rend="indent">
+            <lb/>† The committee have lately allowed vegetables and a better ſort of ſmall beer.
+            This libera- <lb/>lity has produced the moſt ſalutary effects upon the general health of
+            the patients, as the medical <lb/>officers have obſerved, that the patients have not
+            been ſince ſo much afflicted with ſcurvy, or <lb/>fluxes as formerly. </p>
+        </note> they are carefully inſpected by the ſteward, <note place="bottom" n="‡"
+          rend="size(0.5)">
+          <p rend="indent">
+            <lb/>‡ Mr. <hi rend="sc">Henry White</hi>. </p>
+        </note>
+        <lb/>who is reſident, and frequently viewed by gentlemen of the committee. </p>
+      <p rend="indent space">
+        <lb/><hi rend="sc">But</hi> perhaps an explanation of the regular plan of diet, eſtabliſhed
+        <lb/>in this numerous houſhold, may not prove unacceptable to thoſe who <lb/>deem no
+        particulars trivial or unintereſting, that tend to alleviate human <lb/>diſtreſs. The
+        conſtant breakfaſt allotted the patients throughout the <lb/>year, is water-gruel, with
+        bread, butter and ſalt. They have meat <lb/>for dinner three days in a week. Beef is the
+        Sunday's fare; mut- <lb/>ton is their Tueſday's dinner, and they have veal on Thurſdays,
+        <lb/>but the laſt only from Lady-day to Michaelmas; during the win- <lb/>ter months, mutton
+        or pork is ſubſtituted in it's place. They have <lb/>alſo a ſufficient quantity of broth;
+        and that every indulgence, which <lb/>œconomy permits, may be given to the poor patients, on
+        the meat <lb/>days one gallery <note place="bottom" n="§" rend="size(0.5)">
+          <p rend="indent">
+            <lb/>§ The houſe is divided into five. </p>
+        </note> is always gratified with roaſt meat. The quan- <lb/>tity of ſolid meat, beſides
+        vegetables and a pint of ſmall beer, <lb/>allowed each individual, is eight ounces. On the
+        days in which they <lb/>have no meat, and which are called banyan days, they have milk- <pb
+          n="11"/>
+        <lb/>pottage, or rice-milk, with bread and cheeſe. Their conſtant ſup- <lb/>per is bread and
+        cheeſe, with a pint of ſmall beer; and twelve out <lb/>of each gallery, in their turn, have
+        butter if they prefer it. </p>
+      <p rend="indent space">
+        <lb/><hi rend="sc">The</hi> cells are viſited early every morning by the ſervants of the
+        <lb/>houſe: theſe make their report to the apothecary, <note place="bottom" n="*"
+          rend="size(0.5)">
+          <p rend="indent">
+            <lb/>* Mr. <hi rend="sc">John Gozna</hi>: he has apartments in the hoſpital, and is
+            conſtantly reſident. </p>
+        </note> who goes round <lb/>about eight o'clock to inſpect them himſelf, and to give ſuch
+        orders <lb/>and directions as may be neceſſary. The phyſician viſits the hoſpi- <lb/>tal
+        three days in a week. There are certain days fixed for the proper <lb/>medical operations;
+        and the cold, or hot bath is uſed in thoſe caſes <lb/>where it is judged to be ſalutary.
+        Every patient is indulged with <lb/>that degree of liberty which is found conſiſtent with
+        his own, and <lb/>the general ſafety. In the winter there are certain rooms with com-
+        <lb/>fortable fires, <note place="bottom" n="†" rend="size(0.5)">
+          <p rend="indent">
+            <lb/>† Theſe to prevent miſchief, are defended by large guard-irons. </p>
+        </note> where thoſe, who are in a convaleſcent ſtate, meet <lb/>and aſſociate; and in the
+        ſummer, they walk in the large adjoining <lb/>court-yards, and ſometimes amuſe themſelves
+        with ſuch diverſions as <lb/>are deemed not improper to quiet their ſpirits, and compoſe the
+        agi- <lb/>tation of their minds. The hoſpital uſed formerly to derive a revenue, <lb/>of at
+        leaſt £400 a year, from the indiſcriminate admiſſion of viſitants, <lb/>whom, very often, an
+        idle and wanton curioſity drew to theſe regi- <lb/>ons of diſtreſs. But this liberty, though
+        beneficial to the funds of the <lb/>charity, was thought to counteract it's grand deſign, as
+        it tended to <lb/>diſturb the tranquillity of the patients. It was therefore judged pro-
+        <lb/>per, in the year 1770, no longer to expoſe the houſe to public view; <lb/>and now, it
+        is ſcarce ever open to ſtrangers, unleſs they are intro- <pb n="12"/>
+        <lb/>duced by a particular order. The friends of the poor objects have <lb/>a limited acceſs
+        to them. At the admiſſion of a patient, a ticket is <lb/>delivered, which authorizes the
+        bearer of it to come to the hoſpital, <lb/>on Mondays and Wedneſdays, between the hours of
+        ten and twelve. <lb/>And here, it may not be amiſs to contradict a moſt injurious notion,
+        <lb/>that has been adopted, chiefly indeed by that claſs of people, who <lb/>are moſt prone
+        to form prejudices againſt eleemoſynary inſtitutions, <lb/>which is, that the patients in
+        Bethlem hoſpital are beaten, and in other re- <lb/>ſpects ill treated, in order to compel
+        them to ſubmit to the neceſſary ope- <lb/>rations. This idea is abſolutely erroneous. No
+        ſervant is allowed ſo <lb/>wanton an abuſe of the authority that is given him; and it is
+        ſtrictly en- <lb/>joined, that, a patient ſhall never be ſtruck, except in caſes of ſelf-de-
+        <lb/>fence. Indeed it is notorious, that, the members of this family are ma- <lb/>naged with
+        that lenity which their ſituation claims. If the known hu- <lb/>manity and attention of the
+        officers of the houſe were not itſelf a ſuffici- <lb/>ent ſecurity for their being well
+        treated, the frequent inſpection which <lb/>the hoſpital undergoes from a large proportion
+        of the governors, who, <lb/>at different times, ſerve upon the Bethlem committee, would at
+        once <lb/>invalidate the ſuſpicion that has been mentioned. In ſhort, ſuch is the
+        <lb/>comfortable ſubſiſtence, kind treatment, and able medical aid, which <lb/>the patients
+        here meet with, that many, who are intimately acquainted <lb/>with the conduct of the houſe,
+        have declared, that if ever God ſhould <lb/>be pleaſed to viſit them with inſanity, <hi
+          rend="sc">Bethlem hospital</hi> is the place, <lb/>into which they would wiſh to be
+        admitted. <note place="bottom" n="*" rend="size(0.5)">
+          <p rend="indent">
+            <lb/>* It is worthy of remark, that the patients themſelves are often known to prefer
+            Bethlem to <lb/>private mad-houſes. </p>
+        </note>
+      </p>
+      <pb n="13"/>
+      <p rend="indent space">
+        <lb/><hi rend="sc">The admission of patients</hi> into Bethlem hoſpital is attend- <lb/>ed
+        with very little difficulty. It is firſt neceſſary to conſider, whether <lb/>the caſe of the
+        ſuppoſed lunatic includes any of thoſe circumſtances <lb/>which the prudence of the hoſpital
+        regards as objections to admiſſi- <lb/>on. Theſe are few in number; and the wiſdom and
+        propriety of <lb/>them will be eaſily allowed. Mopes, perſons afflicted with the palſy,
+        <lb/>or ſubject to convulſive or epileptic fits, and ſuch as are become <lb/>weak through
+        age, or long illneſs, are excluded. Objects of this deſcrip- <lb/>tion, it is preſumed, may
+        be ſufficiently protected and ſecured by their <lb/>friends, or in a pariſh workhouſe. It is
+        peculiarly deſerving notice <lb/>that no perſon is conſidered as diſqualified for admiſſion
+        here, who <lb/>may have been diſcharged uncured from any other lunatic hoſpital. <lb/>When
+        the friends of a lunatic are ſatisfied that he is a proper object <lb/>of the charity, and
+        the petition and certificates of the patient's legal <lb/>pariſh ſettlement are prepared,
+          <note place="bottom" n="*" rend="size(0.5)">
+          <p rend="indent">
+            <lb/>* The forms of theſe are readily obtained by an application at Bethlem, or at the
+            clerk's <lb/>office in Bridewell hoſpital; and a governor's recommendation is <hi
+              rend="italic">never refuſed</hi> to the friends of <lb/>any proper object. </p>
+        </note> it then becomes neceſſary to procure <lb/>a governor's recommendation. The hoſpital
+        alſo requires, that, upon <lb/>admiſſion, two houſe-keepers reſiding in or near London,
+        ſhall enter <lb/>into a bond to take the patient away when diſcharged by the com-
+        <lb/>mittee, and pay the expence of clothes, and of burial in caſe of <lb/>death. If the
+        lunatic is ſent by a pariſh, or any other public body, <lb/>the ſum of three pounds four
+        ſhillings is paid for bedding, but if he <lb/>is placed there by friends, the hoſpital,
+        anxious to lighten their <lb/>burthen, reduces the ſum to two pounds five ſhillings and ſix-
+          <pb n="14"/>
+        <lb/>pence. <note place="bottom" n="*" rend="size(0.5)">
+          <p rend="indent">
+            <lb/>* When an incurable patient is finally ſettled in the houſe, the ſum of half a
+            crown per week <lb/>is paid to the hoſpital by his friends, or the pariſh to which he
+            belongs. </p>
+        </note> It is expected that the patient ſhould be ſupplied with <lb/>clothing; in failure of
+        ſuch ſupply, the hoſpital provides proper gar- <lb/>ments at the loweſt rate, and the
+        bondſmen repay the expence. <note place="bottom" n="†" rend="size(0.5)">
+          <p rend="indent">
+            <lb/>† BETHLEM HOSPITAL. Ordered, That the apparel wanting for the patients, may be pro-
+            <lb/>vided by their friends; but, if not done, the ſteward ſhall furniſh what the weekly
+            committee <lb/>ſhall order, at the following prices: </p>
+          <cb type="footnote" n="1"/>
+          <table rows="10" cols="2">
+            <head rend="sc align-center">
+              <lb/>For Men. </head>
+            <row>
+              <cell>A coat </cell>
+              <cell rend="align-right">£0 16 6 </cell>
+            </row>
+            <row>
+              <cell>A waiſtcoat </cell>
+              <cell rend="align-right">0 6 4 </cell>
+            </row>
+            <row>
+              <cell>A pair of breeches </cell>
+              <cell rend="align-right">0 9 4 </cell>
+            </row>
+            <row>
+              <cell>A ſhirt </cell>
+              <cell rend="align-right">0 3 11 </cell>
+            </row>
+            <row>
+              <cell>A pair of ſhoes </cell>
+              <cell rend="align-right">0 4 6 </cell>
+            </row>
+            <row>
+              <cell>A pair of ſtockings </cell>
+              <cell rend="align-right">0 2 3 </cell>
+            </row>
+            <row>
+              <cell>A cap </cell>
+              <cell rend="align-right">0 1 0 </cell>
+            </row>
+            <row>
+              <cell>A blanket gown </cell>
+              <cell rend="align-right">0 10 6 </cell>
+            </row>
+            <row>
+              <cell>A ſtrait waiſtcoat </cell>
+              <cell rend="align-right">0 13 6 </cell>
+            </row>
+            <row>
+              <cell>Buckles</cell>
+              <cell rend="align-right">0 0 8 </cell>
+            </row>
+          </table>
+          <cb type="footnote" n="2"/>
+          <table rows="10" cols="2">
+            <head rend="sc align-center">
+              <lb/>For Women. </head>
+            <row>
+              <cell>A blanket gown </cell>
+              <cell rend="align-right">£0 10 6 </cell>
+            </row>
+            <row>
+              <cell>A gown and petticoat </cell>
+              <cell rend="align-right">0 19 0 </cell>
+            </row>
+            <row>
+              <cell>An under petticoat </cell>
+              <cell rend="align-right">0 3 3 </cell>
+            </row>
+            <row>
+              <cell>A ſhift </cell>
+              <cell rend="align-right">0 3 4 </cell>
+            </row>
+            <row>
+              <cell>A pair of ſhoes </cell>
+              <cell rend="align-right">0 3 1 </cell>
+            </row>
+            <row>
+              <cell>A pair of ſtockings </cell>
+              <cell rend="align-right">0 1 10 </cell>
+            </row>
+            <row>
+              <cell>A cap </cell>
+              <cell rend="align-right">0 1 0 </cell>
+            </row>
+            <row>
+              <cell>A handkerchief </cell>
+              <cell rend="align-right">0 1 3 </cell>
+            </row>
+            <row>
+              <cell>An apron </cell>
+              <cell rend="align-right">0 2 2 </cell>
+            </row>
+            <row>
+              <cell>Buckles </cell>
+              <cell rend="align-right">0 0 8 </cell>
+            </row>
+          </table>
+          <cb type="footnote" n="1 2"/>
+        </note>
+      </p>
+      <p rend="indent space">
+        <lb/><hi rend="sc">There</hi> is no particular time limited for the continuance of a pa-
+        <lb/>tient in the hoſpital, who is under cure. It is generally ſeen in a <lb/>twelvemonth,
+        whether the caſe will admit relief; and ſometimes in <lb/>a few months health and reaſon are
+        reſtored. Nor does the care of <lb/>the governors ceaſe when the recovered lunatic is
+        diſmiſſed from the <lb/>hoſpital. At the time of diſcharge, he is interrogated as to the
+        treat- <lb/>ment which he has received, and, if he has had cauſe of complaint, <lb/>required
+        to declare it. He is encouraged to apply occaſionally to the <lb/>medical officer, who gives
+        him ſuch advice and medicines as are <lb/>proper to prevent a relapſe, and, if it ſhould
+        appear that his circum- <lb/>ſtances are particularly diſtreſſing, the treaſurer and
+        phyſician poſſeſs <lb/>a diſcretionary power to relieve him with a ſmall ſum of money at
+        <lb/>his departure. </p>
+      <pb n="15"/>
+      <p rend="indent space">
+        <lb/><hi rend="sc">Happy</hi> is it for the individual, for his friends, and for ſociety,
+        <lb/>when thus the divine bleſſing gives efficacy to the means uſed for <lb/>his
+        reſtoration! The wiſhes of the benevolent are gratified, and the <lb/>ſucceſs of the
+        inſtitution is ſo far complete! How then muſt we la- <lb/>ment the caſe of the incurable
+        lunatic, diſmiſſed from the protection <lb/>to which he had been accuſtomed, and thrown upon
+        his diſtreſſed un- <lb/>fortunate friends! <note place="bottom" n="*" rend="size(0.5)">
+          <p rend="indent">
+            <lb/>* The caſe is particularly hard when the patient, as it often happens, is ſent to
+            London from <lb/>a remote county. </p>
+        </note> The hopes indeed of his return to his aſylum are <lb/>not entirely cut off, but the
+        proſpect of it is too remote to alleviate, <lb/>in any degree, preſent ſuffering. A long
+        period muſt elapſe be- <lb/>fore he can be re-admitted. In the mean time the frantic maniac,
+        and <lb/>the deſponding lunatic muſt be ſecured from doing violence to them- <lb/>ſelves,
+        and others. The loweſt annual expence, in thoſe houſes where <lb/>pariſh objects are
+        maintained, exceeds twenty pounds: where the for- <lb/>lorn being is ſupported by his
+        friends, the expenditure ſcarce ever <lb/>falls ſhort of thirty. The feeling and conſiderate
+        mind, that can judge <lb/>of the œconomy which is requiſite in humble life, and knows how to
+        <lb/>eſtimate its wants and neceſſities, will eaſily calculate the weight and <lb/>effect of
+        ſo heavy an expence;—will imagine how ſevere a ſtruggle <lb/>it muſt often occaſion between
+        neceſſity and pity, between natural <lb/>affection and the pride of honeſt induſtry, which
+        is ſometimes reduced, <lb/>by exertions too great for its ability, to accept itſelf that
+        relief, which <lb/>it had bluſhed to aſk for the deareſt relatives. </p>
+      <p rend="indent space">
+        <lb/><hi rend="sc">How</hi> glorious then would be the work! how comprehenſive the
+        <lb/>charity, that ſhould contribute to increaſe the eſtabliſhment for incu- <pb n="16"/>
+        <lb/>rable lunatics! The good, that would ariſe from the improvement of <lb/>ſo excellent an
+        inſtitution, is certain and undoubted, and from that <lb/>active ſpirit of humanity, and
+        rational benevolence which peculiarly <lb/>adorns the Britiſh name, we may hope, that, this
+        great work will not <lb/>be left defective and incomplete. The government of the royal hoſ-
+        <lb/>pitals, as lately eſtabliſhed by parliament, affords ample ſecurity to the
+        <lb/>charitable benefactor, that his good intentions will receive their accom-
+        <lb/>pliſhment. <note place="bottom" n="*" rend="size(0.5)">
+          <p rend="indent">
+            <lb/>* A conteſt had long ſubſiſted between the common-council of the city of London and
+            the <lb/>acting governors of all the royal hoſpitals; the former claiming a right to be
+            admitted govern- <lb/>ors in virtue of the ſeveral royal charters. This diſpute has been
+            happily ſettled by a compro- <lb/>miſe which allows the admiſſion of twelve of the
+            common-council to each hoſpital. Application <lb/>was made to parliament in 1782, and a
+            bill paſſed, which fully eſtabliſhes this agreement, and <lb/>the friends of theſe noble
+            charities have now the ſatisfaction to be aſſured that the government of <lb/>them is
+            ſettled in a mode beſt calculated to promote their proſperity. </p>
+        </note> The wealthy and munificent <hi rend="sc">city of London</hi>, aſſoci- <lb/>ated with
+        the guardians of each charity, cheriſhes in her boſom, and <lb/>foſters with her care thoſe
+        endowments, which the liberality of <hi rend="sc">Henry</hi>, <lb/>and the piety of <hi
+          rend="sc">Edward</hi> committed to her adminiſtration.— <lb/>That this <hi rend="sc">happy
+          union</hi> will operate to the relief of the diſtreſſed <lb/>poor, there can be little
+        doubt. The friends of the hoſpital of Beth- <lb/>lem form the moſt ſanguine expectations,
+        that their ability to alleviate <lb/>the greateſt of all human calamities will be enlarged
+        and extended; <lb/>they hope to effect the purpoſes they have in view, and entertain full
+        <lb/>confidence, that, the generous aſſiſtance of the opulent and the good, <lb/>will enable
+        them, in an eminent degree, to <hi rend="sc">lessen the evils of <lb/>humanity</hi>. </p>
+      <trailer rend="align-center">
+        <lb/>FINIS. </trailer>
+    </body>
+  </text>
+</TEI>

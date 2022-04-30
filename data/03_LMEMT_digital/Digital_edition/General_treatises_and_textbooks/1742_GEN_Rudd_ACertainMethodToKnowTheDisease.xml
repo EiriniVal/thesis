@@ -1,0 +1,1260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LMEMT Corpus - Rudd: The certain method to know the disease</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>Sayer Rudd</persName>
+            </author>
+            <title type="main">The Certain Method to Know the Disease. A LECTURE address'd to
+              STUDENTS in PHYSIC.</title>
+            <edition n="1"/>
+            <idno type="ESTC">T58007</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/T58007"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>London: printed for J. Roberts, near the Oxford-Arms in Warwick-Lane, MDCCXLII.</persName>
+              </publisher>
+              <date>1742</date>
+            </imprint>
+            <extent>
+              <measure type="format">4⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="1"/>
+              <measure type="count" commodity="body" unit="page" quantity="28"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">British Library</orgName>
+            <idno type="ECCO">CW3306967987</idno>
+            <idno type="TCP">K051024.000</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="General treatises"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text xml:lang="eng">
+    <front>
+      <div>
+        <pb xml:id="page_2"/>
+        <head rend="align-center space"><lb/>TO <lb/>STUDENTS in <hi rend="italic">Phyſic.</hi>
+        </head>
+        <salute>GENTLEMEN, </salute>
+        <p rend="indent">
+          <figure>
+            <figDesc>Decorative frame around the letter "I".</figDesc>
+          </figure>
+          <hi rend="dc(5)">I</hi>T is univerſally agreed, that <lb/>among the ſeveral other
+          <lb/>Branches of Learning, <w part="I">ne-</w><lb/><w part="F">ceſſary</w> to the <w
+            part="I">Accompliſh-</w><lb/><w part="F">ment</w> of thoſe, who are <lb/>Candidates in
+          the Art of <lb/>Healing; <hi rend="italic">the judicious Inſtructions of an <lb/>able,
+            practical Phyſician, is a <w part="I">Qualifica-</w><lb/><w part="F">tion</w> of the
+            firſt Moment.</hi> The Reaſon of <lb/>the preſent Conceſſion is very evident: <w
+            part="I">Be-</w>
+          <pb xml:id="page_3" n="ij"/><lb/><w part="F">cauſe</w>the Pupil, as the Reſult of ſuch an
+            <lb/><hi rend="italic">happy Inſtitution,</hi> according to the <hi rend="italic"
+            >Stand-<lb/>ing</hi> of his Profeſſor, may, in <hi rend="italic">a few Years,</hi>
+          <lb/>enter upon Buſineſs, with greater <w part="I">Advan-</w><lb/><w part="F">tage</w>,
+          than he could poſſibly do, in <hi rend="italic">many,</hi>
+          <lb/>without ſuch Aſſiſtance. For myſelf, I <lb/>own, I am too vain, not to account it
+          <lb/>a <hi rend="italic">ſingular Felicity</hi> in my Life, that I have <lb/>been bleſs'd
+          with an Opportunity of <w part="I">at-</w><lb/><w part="F">tending</w>
+          <hi rend="sc">Sir Richard Manningham's</hi>
+          <lb/>Lectures in <hi rend="italic">Midwifery</hi> and <hi rend="italic">Phyſic.</hi>
+        </p>
+        <p rend="indent"><lb/>I <hi rend="sc">pay</hi> a greater Deference to that <hi rend="sc"><w
+              part="I">Gen-</w><lb/><w part="F">tleman's</w></hi>
+          <hi rend="italic">good Senſe</hi> and <hi rend="italic">diſtinguiſh'd <lb/>Modeſty,</hi>
+          than either to affront <hi rend="italic">the one,</hi> or <lb/>inſult <hi rend="italic"
+            >the other,</hi> by attempting any thing, <lb/>that might carry the Appearance of an <hi
+            rend="italic">En-<lb/>comium,</hi> tho' religiouſly confined to <hi rend="italic">his
+            <lb/>juſt Praiſe:</hi> Nevertheleſs, as every <hi rend="italic">gene-<lb/>rous</hi> and
+            <hi rend="italic">honeſt</hi> Mind would be equally <lb/>careful, neither to offend
+          againſt the Laws <lb/>of <hi rend="italic">Gratitude</hi> to an ingenious Tutor, for
+          <lb/>the moſt <hi rend="italic">inſtructive Dictates;</hi> nor thoſe <lb/>of <hi
+            rend="italic">Juſtice</hi> and <hi rend="italic">Zeal</hi> due to the Public, for
+          <lb/>whoſe Service, Gentlemen, you are <w part="I">pre-</w>
+          <pb xml:id="page_4" n="iij"/><lb/><w part="F">paring</w>:I expect it be allowed me, on the
+            <hi rend="italic">preſent Occaſion,</hi> as a neceſſary Inſtance of <hi rend="italic"
+            >Duty</hi> to Both; that I am at Liberty to <w part="I">de-</w><lb/><w part="F"
+            >clare</w>, I want no Veneration for Sir <hi rend="sc"><w part="I">Ri-</w><lb/><w
+              part="F">chard's</w></hi>
+          <hi rend="italic">Whole Courſe.</hi>—It is compoſed, <lb/>indeed, of <hi rend="italic">Two
+            grand Branches,</hi> which are <lb/>thoſe of <hi rend="italic">Midwifery</hi> and <hi
+            rend="italic">Phyſic.</hi> The <hi rend="italic">for-<lb/>mer</hi> of theſe is by no
+          means deſtitute of its <lb/>Beauties: Such as the <hi rend="italic">Improvements</hi> in
+          the <lb/><hi rend="italic">Apparatus</hi> itſelf; the <hi rend="italic">Chaſtity</hi> of
+          the <w part="I">Inſti-</w><lb/><w part="F">tution</w>; and the <hi rend="italic"
+            >Excluſion</hi> of all <w part="I">Inſtru-</w><lb/><w part="F">ments</w>.—For the firſt:
+          The <hi rend="italic">greater Ma-<lb/>chine</hi> is the <hi rend="italic">moſt
+            finiſh'd,</hi> in its way, that <lb/>has, as yet, ever appeared, for <w part="I"
+            >conduct-</w><lb/><w part="F">ing</w> the <hi rend="italic">different Kinds</hi> of <hi
+            rend="italic">Deliveries;</hi>
+          <lb/>while the <hi rend="italic">Glaſs Machine</hi> gives ocular Proof <lb/>of the <hi
+            rend="italic">Reaſon</hi> and <hi rend="italic">Juſtness</hi> of the Rules to <lb/>be
+          obſerved in <hi rend="italic">Operations</hi> on the Other; <lb/>and, conſequently, in <hi
+            rend="italic">Genuine Labours.</hi>—<lb/>For the next: It is not poſſible, by <hi
+            rend="italic">this <lb/>Manner</hi> of Inſtruction, to give the leaſt <lb/>Offence to
+          the <hi rend="italic">chaſteſt Mind,</hi> the moſt <lb/><hi rend="italic">ſcrupulous
+            Modeſty.</hi> — And with reſpect <lb/>to the Affair of <hi rend="italic"
+            >Inſtruments:</hi> It is evident <pb xml:id="page_5" n="iv"/><lb/>to a Demonſtration,
+          from <hi rend="italic">this Method</hi> of <lb/>Practice, that there is ſo little Occaſion
+          <lb/>for the preſent <hi rend="italic">frequent</hi> Uſe of them, that <lb/>excepting in a
+            <hi rend="italic">Caſe</hi> or <hi rend="italic">two,</hi> which but <lb/><hi
+            rend="italic">rarely</hi> happen; the <hi rend="italic">judicious Management</hi>
+          <lb/>of the Hand, is all that is required in the <lb/>Art of <hi rend="italic"
+            >Midwifery.</hi>
+        </p>
+        <p rend="indent"><lb/><hi rend="sc">Gentlemen</hi>, I abhor <hi rend="italic">Flattery</hi>
+          and <lb/><hi rend="italic">Oſtentation:</hi> And I cannot but perſuade <lb/>myſelf, you
+          will acquit me of <hi rend="italic">Both,</hi> when <lb/>I aſſure you, I ſhould, at no
+          rate, have <lb/>taken upon me to have been either ſo <hi rend="italic"
+            >par-<lb/>ticular,</hi> or <hi rend="italic">poſitive</hi> in the Articles above, if
+          <lb/>I were not very well acquainted, with <hi rend="italic">the <lb/>utmoſt,</hi> that
+          has been done <hi rend="italic">Abroad</hi> on the <lb/>Subject of <hi rend="italic"
+            >Midwifery.</hi> I ſtudied under <lb/>Two Maſters, the late Meſſieurs <hi rend="sc"><w
+              part="I">Gre-</w><lb/><w part="F">goire</w></hi> and <hi rend="sc">Dussé</hi>, at <hi
+            rend="sc">Paris</hi>; and came <lb/>from thence with no ſmall Freight of <hi
+            rend="italic">Self-<lb/>ſufficiency</hi> and <hi rend="italic">Confidence:</hi> Nor is
+          it <hi rend="italic">proba-<lb/>ble</hi> to me, I ſhould ever have been <w part="I"
+            >diſpoſ-</w><lb/><w part="F">ſeſs'd</w> of my <hi rend="italic">perſonal Prejudices</hi>
+          and <hi rend="italic">dan-<lb/>gerous Miſtakes</hi> (eſpecially in the Uſe of <lb/><hi
+            rend="italic">Inſtruments</hi>) had I not fell under Sir <hi rend="sc"><w part="I"
+              >Ri-</w></hi><pb xml:id="page_6" n="v"/><lb/><w part="F"><hi rend="sc"
+            >chard's</hi></w> Inſtitution, and formed myſelf <lb/>on <hi rend="italic">His
+            Practice.</hi>
+        </p>
+        <p rend="indent"><lb/><hi rend="sc">These</hi> things notwithſtanding: As I <lb/>always
+          thought the matter of <hi rend="italic">Deliveries</hi>
+          <lb/>the leaſt Branch of the <hi rend="italic">Man-Midwife's</hi>
+          <lb/>Character; and was aſſured, that He would <lb/>ever have moſt Succeſs in <hi
+            rend="italic">Operations,</hi> who <lb/>was beſt acquainted with the <hi rend="italic"
+            >Structure</hi> of <lb/>the <hi rend="italic">Human Body:</hi> So I could not help <w
+            part="I">be-</w><lb/><w part="F">ing</w> eſpecially charmed with thoſe Lectures <lb/>in
+          Sir <hi rend="sc">Richard</hi>'s Courſe, which <w part="I">proper-</w><lb/><w part="F"
+            >ly</w> belong to the <hi rend="italic">latter</hi> Branch, the Head <lb/>of <hi
+            rend="italic">Phyſic.</hi> The <hi rend="italic">ſuperior Utility</hi> of the
+          <lb/>Subject will excuſe my paſſionate Regard <lb/>on this Part: Since it is plain, that
+          the <lb/>Science, which leads to a <hi rend="italic">general View</hi> of <lb/>the <hi
+            rend="italic">animal Machine,</hi> and to a <hi rend="italic">perfect
+            Know-<lb/>ledge</hi> of all the <hi rend="italic">Diſeaſes</hi> to which the whole
+          <lb/>Nature, in common, is incident; muſt be <lb/>vaſtly preferable to all that is <hi
+            rend="italic">partial</hi>
+          <lb/>and <hi rend="italic">confined,</hi> however <hi rend="italic">exalted</hi> and <hi
+            rend="italic">worthy</hi> in <w part="I">it-</w><lb/><w part="F">ſelf</w>. </p>
+        <p rend="indent"><lb/><hi rend="sc">What</hi> was laſt obſerved, Gentlemen, <lb/>you will
+          pleaſe to remember, is deſigned, <pb xml:id="page_7" n="vj"/><lb/>not only to account for
+          the <hi rend="italic">extraordinary <lb/>Pains</hi> I was at in ſecuring this Lecture;
+          <lb/>but is alſo offered as a Reaſon, why you <lb/>are to believe it <hi rend="italic"
+            >tolerably correct.</hi> For the <lb/><hi rend="italic">latter</hi> indeed, you have
+          this additional <w part="I">Aſ-</w><lb/><w part="F">ſurance</w>, that I had not only
+          ſeveral <w part="I">Op-</w><lb/><w part="F">portunities</w> of attending the Repetition of
+          <lb/>it; but was, moreover, allow'd the <w part="I">pecu-</w><lb/><w part="F">liar</w>
+          Indulgence of taking it in <hi rend="italic">ſhort-hand,</hi><lb/> as delivered. </p>
+        <p rend="indent"><lb/>I <hi rend="sc">confess</hi>, it would give me no ſmall <lb/>Pain,
+          were I the leaſt apprehenſive, I was <lb/>taking <hi rend="italic">any Freedom,</hi> that
+          might <hi rend="italic">juſtly</hi>
+          <w part="I">ex-</w><lb/><w part="F">poſe</w> me to the Reſentment of Sir <hi rend="sc"><w
+              part="I">Ri-</w><lb/><w part="F">chard</w> Manningham</hi>: But, I flatter <lb/>myſelf
+          with leſs Danger in this Point, ſo <lb/>far as concerns the <hi rend="italic">preſent
+            Publication,</hi>
+          <lb/>however; ſince, I am only indulging the <lb/><hi rend="italic">Engliſh Reader</hi>
+          with his excellent <hi rend="italic">Method <lb/>of Inveſtigating Diſeaſes,</hi> in the
+          manner <lb/>he explain'd it to Us, in his <hi rend="italic">firſt</hi> Evening's
+          <lb/>Lecture in <hi rend="italic">Phyſic;</hi> at the ſame time, that <lb/>it is to be
+          obſerved, he has already <w part="I">com-</w><lb/><w part="F">municated</w>
+          <hi rend="italic">the Method itſelf</hi> to the learned <pb xml:id="page_8" n="vij"
+          /><lb/>World in his <hi rend="italic">Latin Compendium:</hi> Tho' <lb/>ſome of <hi
+            rend="italic">the beſt Judges</hi> have <w part="I">acknowledg-</w><lb/><w part="F"
+            >ed</w> it's Claim to an <hi rend="italic">higher Title.</hi>
+        </p>
+        <p rend="indent"><lb/><hi rend="sc">There </hi>is one Circumſtance, <w part="I"
+            >Gentle-</w><lb/><w part="F">men</w>, of great Importance in the preſent <lb/>Lecture, I
+          mean: That the whole <w part="I">Argu-</w><lb/><w part="F">ment</w> is built on <hi
+            rend="italic">the moſt venerable <w part="I">Anti-</w><lb/><w part="F">quity</w>,</hi>
+          and not on any <hi rend="italic">precarious, modern <lb/>Theories.</hi> I take the Liberty
+          of inſerting <lb/>this <hi rend="italic">previous Hint;</hi> not but your own <w part="I"
+            >At-</w><lb/><w part="F">tention</w> in Reading would have excuſed <lb/>me the Trouble;
+          becauſe you will from <lb/>hence immediately argue its <hi rend="italic">intrinſic <w
+              part="I">Va-</w><lb/><w part="F">lue</w>,</hi> and give more boldly into its <hi
+            rend="italic">Uſe.</hi>—<lb/>The <hi rend="italic">Hiſtories of Diſeaſes,</hi>
+          originally put <lb/>together by the <hi rend="italic">moſt accurate Obſervations</hi>
+          <lb/>of <hi rend="sc">Hippocrates</hi>, and eſtabliſhed on <lb/><hi rend="italic">the
+            Authority</hi> of his Succeſſors, <hi rend="italic">the moſt <lb/>celebrated ancient
+            Phyſicians,</hi> is here <hi rend="italic">your <lb/>Standard.</hi> Nature, ſince her
+          various <lb/><hi rend="italic">morbid Phaenomena</hi> were, in <hi rend="italic"
+            >their</hi> manner, <lb/>firſt reduced to <hi rend="italic">any regular Syſtem,</hi>
+          <w part="I">ap-</w><lb/><w part="F">pears</w> to have ſuffered <hi rend="italic">no
+            Deviation</hi> for <lb/>ſome thouſand Years paſt; nor can, <w part="I">in-</w>
+          <pb xml:id="page_9" n="viij"/><lb/><w part="F">deed</w>,be capable of any, for the future,
+          <lb/>while <hi rend="italic">the animal Oeconomy,</hi> and <hi rend="italic">the
+            Laws,</hi>
+          <lb/>under which the human Species continues <lb/>to act, remain <hi rend="italic"
+            >invariable.</hi>
+        </p>
+        <p rend="indent"><lb/>I <hi rend="sc">wish </hi>nothing more ardently, than <lb/>that, as
+          the Subject, on which the Lecture <lb/>before you is rais'd, is of <hi rend="italic"
+            >general Uſe</hi>
+          <lb/>in itſelf; and it is hardly poſſible, every <w part="I">Stu-</w><lb/><w part="F"
+            >dent's</w>
+          <hi rend="italic">Situation</hi> ſhould allow him an <w part="I">Op-</w><lb/><w part="F"
+            >portunity</w> of attending on <hi rend="italic">the Spot:</hi> Thoſe, <lb/>into whoſe
+          Hands it may now fall, may <lb/>find as much <hi rend="italic">Pleaſure</hi> and <hi
+            rend="italic">Advantage</hi> in <lb/>receiving it from the Preſs, as the <w part="I"
+            >Pub-</w><lb/><w part="F">liſher</w> has perpetually retained, ſince he <lb/>firſt took
+          it from Sir <hi rend="sc">Richard</hi>'s own <lb/>Mouth. I am, </p>
+        <dateline>LONDON: Bow-lane, Feb. 4. 1741-2. </dateline>
+        <signed>GENTLEMEN, <lb/><hi rend="italic">Your moſt Obedient, <lb/>Humble
+          Servant,<lb/></hi>SAYER RUDD, M.D. <lb/>and <hi rend="sc">Man-Midwife</hi>. </signed>
+      </div>
+    </front>
+    <body>
+
+      <pb xml:id="page_10"/>
+      <head rend="align-center space"><lb/>The <hi rend="sc">Certain Method</hi> to <lb/><hi
+          rend="size(1.7)"><hi rend="sc">Know</hi> the DISEASE.</hi>
+      </head>
+      <p rend="indent">
+          <figure><figDesc>Decorative frame around the letter "I".</figDesc></figure>
+        <hi rend="dc(5)">I</hi>N the Courſe of our <hi rend="sc">Lectures</hi> in <lb/><hi rend="italic">Phyſic,</hi>
+        we propoſe, chiefly to confine <lb/>ourſelves to <hi rend="italic">the Diſeaſes of
+          Children,</hi>
+        <lb/>from <hi rend="italic">Infancy</hi> up to <hi rend="italic">ripe Age;</hi> and to
+        <lb/>the <hi rend="italic">Diſeaſes,</hi> peculiar to <hi rend="italic">the Female Sex;</hi>
+        thoſe <lb/>eſpecially, belonging to <hi rend="italic">Pregnancy</hi> and <hi rend="italic"
+          >Childbed:</hi>
+        <lb/>Nevertheleſs, as Women are liable to all the <w part="I">Di-</w><lb/><w part="F"
+          >ſtempers</w> incident to Men, beſides the many <w part="I">pecu-</w><lb/><w part="F"
+          >liar</w> to their own Sex, as they are, by Nature, <w part="I">or-</w><lb/><w part="F"
+          >dained</w> for the Preſervation of Mankind; it will <lb/>be neceſſary, in a great
+        meaſure, to treat of <w part="I">Diſ-</w><lb/><w part="F">eaſes</w> at large; and more
+        particularly of <hi rend="italic">Fevers,</hi>
+        <lb/>which, indeed, make up a very great Part of the <lb/>Diſorders that afflict us, and do
+        alſo aſſociate <lb/>themſelves, with every other Diſeaſe: <hi rend="italic">Febris,
+          <lb/>maxime communis Morbus, omnium aliorum <lb/>Morborum, praecipue Inflammationis, comes
+          eſt.</hi><lb/>
+        <hi rend="sc">Hippocrates</hi>. The Truth of which we daily <lb/>experience; and, moreover,
+        often obſerve that, a <pb xml:id="page_11" n="2"/><lb/><hi rend="italic">Fever</hi> ſhall
+        even elude <hi rend="italic">that Method</hi> of curing a <lb/>Diſeaſe, which, without a
+        Fever, has been <w part="I">gene-</w><lb/><w part="F">rally</w> found ſucceſſful; an
+        Obſervation well <w part="I">wor-</w><lb/><w part="F">thy</w> our particular Notice. </p>
+      <p rend="indent"><lb/><hi rend="sc">Women</hi> with Child, and in Childbed, are <lb/>often
+        afflicted with Diſtempers, no ways <hi rend="italic">cognate</hi>
+        <lb/>to <hi rend="italic">Pregnancy</hi> or Childbed; eſpecially <hi rend="italic"
+          >Fevers</hi> of all <lb/>Kinds, whoſe Eſſence and Nature, indeed, differ <lb/>nothing from
+        other Fevers, and require a like <w part="I">Me-</w><lb/><w part="F">thod</w> of Cure; yet,
+        by reaſon of their happening <lb/>at the Times above-mentioned, are attended with
+        <lb/>greater Difficulties in Curing, and demand our <lb/>greateſt Caution and Prudence, in
+        the <w part="I">Adminiſtra-</w><lb/><w part="F">tion</w> of the proper Remedies for the
+        Fever; the <lb/>Phyſician at this time, not being at Liberty, ſo <lb/>freely to make uſe of
+        Bleeding, Vomiting, Bliſtring, <lb/>Sweating, Purging, and Method of Diet: And <lb/>during
+        Pregnancy, our chief View muſt always be <lb/><hi rend="italic">to prevent a
+          Miſcarriage,</hi> or even <hi rend="italic">the bringing on <lb/>of Labour,</hi> whenever
+        the Diſeaſe has no <hi rend="italic">Affinity</hi>
+        <lb/>to Pregnancy. For tho' Diſeaſes, which are <w part="I">ow-</w><lb/><w part="F">ing</w>
+        to Pregnancy, either decreaſe, or go off upon <lb/>Delivery; yet, thoſe which are no ways
+          <hi rend="italic">cognate,</hi>
+        <lb/>are for the moſt part found to increaſe after the <lb/>Delivery; and as <hi rend="sc"
+          >Hippocrates </hi>obſerves: <hi rend="italic">Si <lb/>mulier, Utero geſtans, morbum
+          habuerit non <w part="I">cogna-</w><lb/><w part="F">tum</w>, in Puerperii purgatione,
+          perit.</hi>
+      </p>
+      <p rend="indent"><lb/><hi rend="sc">Wherefore</hi>, as in all Diſeaſes not <hi rend="italic"
+          >cognate</hi> to <lb/>Pregnancy, our chief View, as I obſerved above, <lb/>muſt be, to
+        prevent <hi rend="italic">Abortion</hi> and <hi rend="italic">untimely <w part="I"
+            >La-</w><lb/><w part="F">bour</w>;</hi> ſo in all Diſeaſes happening in Childbed, <pb
+          xml:id="page_12" n="3"/><lb/>our principal Aim, muſt <hi rend="italic">then</hi> be
+        directed, to the <lb/>due Regulation of the <hi rend="italic">Lochia.</hi> Many, and great
+          <w part="I">Dif-</w><lb/><w part="F">ficulties</w> ſurround us, in this dangerous and <w
+          part="I">com-</w><lb/><w part="F">plicated</w> Situation, which exact our moſt diligent
+        <lb/>Care and Attention: And, as it is <hi rend="italic">oftentimes</hi> no <lb/>eaſy Matter
+        to diſtinguiſh between the <hi rend="italic">cognate <w part="I">Di-</w><lb/><w part="F"
+            >ſtemper</w>,</hi> and that which has <hi rend="italic">no relation</hi> to <w part="I"
+          >Preg-</w><lb/><w part="F">nancy</w> or Childbed; and at <hi rend="italic">all times,</hi>
+        very difficult <lb/>rightly and ſafely to conduct Affairs, in this nice <lb/>and critical
+        Situation; I ſhall therefore, in my <lb/>ſubſequent Lectures, endeavour, to the beſt of my
+        <lb/>Judgment and Knowledge, to inform and direct <lb/>you in each Particular, from the
+        repeated <w part="I">Obſer-</w><lb/><w part="F">vations</w> of the moſt approved Authors in
+        Phyſic, <lb/>both ancient and modern; and alſo from <w part="I">Experi-</w><lb/><w part="F"
+          >ences</w> and Succeſſes, collected from my own <hi rend="italic">Ad-<lb/>verſaria,</hi>
+        confirming their Doctrine; beſides which, <lb/>I ſhall illuſtrate each Caſe, by the
+        particular <w part="I">Ap-</w><lb/><w part="F">plication</w> of the Method of <hi
+          rend="italic">Inveſtigating</hi> the <w part="I">Na-</w><lb/><w part="F">ture</w> of all
+        Diſeaſes. </p>
+      <p rend="indent"><lb/><hi rend="sc">It</hi> is a Maxim univerſally received among <w part="I"
+          >Phy-</w><lb/><w part="F">ſicians</w>: <hi rend="italic">That Medicine ſhould begin, where
+            <w part="I">Philoſo-</w><lb/><w part="F">phy</w> ends.</hi> And as it is, undoubtedly, a
+        neceſſary <lb/>Qualification in a Phyſician to be knowing in <hi rend="italic"
+          >Phi-<lb/>loſophy;</hi> and the <hi rend="italic">Animal Oeconomy</hi> is that Part of
+          <lb/><hi rend="italic">Philoſophy,</hi> which is more eſpecially conducive to <lb/>the
+        Knowledge of the Practice of Phyſic: I make <lb/>no doubt, but you, Gentlemen, who have in
+          <hi rend="italic">this <lb/>City</hi> the beſt Opportunities of being inſtructed in
+        <lb/>this Branch of Science; eſpecially by that moſt <lb/>accurate, and excellent Anatomiſt
+        and Phyſician, Dr.<lb/><hi rend="sc">Nicholls</hi>; who, it muſt be confeſſed, is an
+        Ornament <pb xml:id="page_13" n="4"/><lb/>of our Profeſſion, and worthy of ſingular Praiſe:
+        I <lb/>ſay, I make no doubt, but with ſuch Advantages, <lb/>you have already obtained a
+        competent Knowledge <lb/>in the <hi rend="italic">Animal Oeconomy;</hi> and will, therefore,
+        be <lb/>enabled to make the beſt Uſe of our Lectures, <lb/>and Method of <hi rend="italic"
+          >Inveſtigating</hi> the Nature of <w part="I">Diſ-</w><lb/><w part="F">eaſes</w>. </p>
+      <p rend="indent"><lb/><hi rend="sc">Now</hi>, the human Body, we all know, may <lb/>be
+        properly conſidered, as <hi rend="italic">a moſt perfect Machine;</hi>
+        <lb/>whoſe Parts are extremely well configurated and <lb/>joined together; whoſe Symmetry is
+        moſt <w part="I">beauti-</w><lb/><w part="F">ful</w>; and whoſe Actions, reſulting from this
+          <w part="I">admi-</w><lb/><w part="F">rable</w> Compages, are reciprocally carried on by
+          <w part="I">So-</w><lb/><w part="F">lids</w> and Fluids, of which it is made up. And as
+        <lb/>many of its <hi rend="italic">Actions</hi> and <hi rend="italic">Motions,</hi> are
+        eaſily <w part="I">demon-</w><lb/><w part="F">ſtrated</w> to be the <hi rend="italic"
+          >neceſſary Conſequences</hi> of it's <hi rend="italic">Stru-<lb/>cture;</hi> ſo its <hi
+          rend="italic">Diſeaſes,</hi> and all their <hi rend="italic">Symptoms,</hi> are <lb/>only
+        the <hi rend="italic">irregular Motions,</hi> or <hi rend="italic">Diſorders</hi> of this
+        <lb/>very complicated Machine: Nor is the Caſe the <lb/>leaſt altered, that we have a <hi
+          rend="italic">Principle</hi> within us, <lb/>not ſubject, in itſelf, to the Laws of
+        Motion. </p>
+      <p rend="indent"><lb/><hi rend="sc">It</hi> is, therefore, highly incumbent on every <lb/>one,
+        who would attain to the <hi rend="italic">due Knowledge</hi> of the <lb/>Art of Healing,
+        that he make himſelf very well <lb/>acquainted with this curious Machine: that <w part="I"
+          >know-</w><lb/><w part="F">ing</w> well the <hi rend="italic">Parts,</hi> and the <hi
+          rend="italic">natural Actions,</hi> and <lb/><hi rend="italic">Secretions</hi> of the
+        human Body; he may be enabled <lb/>to judge, <hi rend="italic">when,</hi> and <hi
+          rend="italic">how,</hi> theſe natural Actions are <lb/><hi rend="italic">perverted:</hi>
+        all the Symptoms of Diſeaſes, being <lb/>the neceſſary Conſequences of the <hi rend="italic"
+          >Alteration</hi> of the <lb/><hi rend="italic">Animal Oeconomy.</hi> It's Actions
+        therefore being <w part="I">per-</w>
+        <pb xml:id="page_14" n="5"/><lb/><w part="F">formed</w>by <hi rend="italic">Fluids</hi>
+        ſecerned from the Blood; without <lb/>the Knowledge of <hi rend="italic">Secretions,</hi> we
+        cannot <w part="I">under-</w><lb/><w part="F">ſtand</w> the <hi rend="italic">Nature of
+          Diſeaſes: Secretion</hi> being the <lb/><hi rend="italic">Spring</hi> of all <hi
+          rend="italic">animal Functions.</hi> Wherefore, the <lb/>greater our Knowledge is of the
+          <hi rend="italic">Animal <w part="I">Oecono-</w><lb/><w part="F">my</w>,</hi> the more
+        likely we ſhall be, to diſcover the <lb/><hi rend="italic">Seat</hi> and <hi rend="italic"
+          >Nature</hi> of its Diſeaſes; and of courſe be <lb/>better enabled to <hi rend="italic"
+          >rectify</hi> all its Diſorders. </p>
+      <p rend="indent"><lb/><hi rend="sc">Experience</hi> is, no doubt, of great and <lb/>neceſſary
+        Uſe, in promoting the Art of curing <lb/>Diſeaſes, if directed by a Knowledge in the <hi
+          rend="italic">Animal <lb/>Oeconomy;</hi> foraſmuch as it is only by a juſt <w part="I"
+          >reaſon-</w><lb/><w part="F">ing</w> on our Experiences, that we can come at the
+        <lb/>Knowledge of any Phaenomenon of Nature. So <lb/>that <hi rend="italic">Experience,</hi>
+        or the Knowledge of the <hi rend="italic">Hiſtories <lb/>of Diſeaſes,</hi> added to that of
+        the <hi rend="italic">Animal Oeconomy,</hi>
+        <lb/>is what can only make a Phyſician; and, <w part="I">where-</w><lb/><w part="F">ever</w>
+        the <hi rend="italic">Hiſtory of a Diſeaſe</hi> is exactly known, if <lb/>the <hi
+          rend="italic">right Method</hi> of curing it <hi rend="italic">cannot be deduced,</hi> it
+        <lb/>muſt be, becauſe the <hi rend="italic">Animal Oeconomy</hi> is not <hi rend="italic"
+          >ſuffi-<lb/>ciently underſtood:</hi> For our Skill in curing Diſeaſes, <lb/>whoſe <hi
+          rend="italic">Hiſtories</hi> are exactly known, is, for the moſt <lb/>part, proportional
+        to our Knowledge of the <hi rend="italic">Ani-<lb/>mal Oeconomy.</hi> For in order to find
+        out the <hi rend="italic">Seat</hi>
+        <lb/>and <hi rend="italic">Nature</hi> of a Diſtemper, and from them to <w part="I"
+          >de-</w><lb/><w part="F">duce</w> a <hi rend="italic">right Method</hi> of Cure, it will
+        be abſolutely <lb/>neceſſary to reaſon on <hi rend="italic">thoſe Hiſtories;</hi> which we
+        <lb/>cannot do, as we ought, if we are ignorant of the <lb/><hi rend="italic">Structure</hi>
+        of the <hi rend="italic">Machine,</hi> we are about to <hi rend="italic">rectify.</hi>
+      </p>
+      <p rend="indent"><lb/><hi rend="sc">Descriptions </hi>and <hi rend="italic">Diagnoſtic
+          Signs</hi> of <lb/>Diſeaſes, are the proper Buſineſs of <hi rend="italic">Obſervation</hi>
+        <pb xml:id="page_15" n="6"/><lb/>and <hi rend="italic">Experience;</hi> but, <hi
+          rend="italic">Indications</hi> of Cure ariſe <lb/>from <hi rend="italic">our
+          reaſoning</hi> upon thoſe Obſervations. <hi rend="italic">Di-<lb/>agnoſtics</hi> are
+        properly a Collection of <hi rend="italic">particular <lb/>Symptoms</hi> only; but <hi
+          rend="italic">Indications</hi> are thoſe <hi rend="italic">Concluſi-<lb/>ons,</hi> which
+        our Knowledge of the <hi rend="italic">Animal Oecono-<lb/>my</hi> enables us to make on
+        theſe <hi rend="italic">Obſervations,</hi> and <lb/><hi rend="italic">Deſcriptions:</hi> So
+        that the <hi rend="italic">Hiſtories</hi> of Diſeaſes, and <lb/>the Knowledge of the <hi
+          rend="italic">Animal Oeconomy,</hi> muſt <w part="I">al-</w><lb/><w part="F">ways</w> go
+        hand in hand, in order to the obtaining <lb/>the <hi rend="italic">due Knowledge</hi> of the
+        Practice of Phyſic. He <lb/>therefore, who is ſufficiently knowing in <hi rend="italic"
+          >Philoſo-<lb/>phy</hi> and the <hi rend="italic">Animal Oeconomy,</hi> and makes <hi
+          rend="italic">a proper <lb/>Uſe</hi> of this Knowledge, by <hi rend="italic">reaſoning on
+          real Facts,</hi>
+        <lb/>grounded on <hi rend="italic">repeated Experience</hi> and <hi rend="italic"
+          >Obſervation,</hi>
+        <lb/>may juſtly be ſaid to uſe his <hi rend="italic">Philoſophy</hi> aright; and <lb/>may
+        then reaſonably hope for Succeſs, in finding <lb/>out the <hi rend="italic">genuine
+          Indications</hi> of Cure, in which, the <lb/>Practice of Phyſic chiefly conſiſts: And
+        without <lb/>this <hi rend="italic">Caution</hi> our <hi rend="italic">Reaſonings</hi> will
+        certainly be to <w part="I">ve-</w><lb/><w part="F">ry</w> little purpoſe. </p>
+      <p rend="indent"><lb/><hi rend="sc">The</hi> great <hi rend="sc">Hippocrates </hi>has this
+        Aſſertion: <lb/>That <hi rend="italic">Nature cures Diſeaſes.</hi> The Truth of it we,
+        <lb/>of this Day, may experience, if we will carefully <lb/>keep up to his <hi rend="italic"
+          >excellent Directions,</hi> and <hi rend="italic">Method:</hi>
+        <lb/>It being his only Aim to <hi rend="italic">relieve Nature</hi> when <w part="I"
+          >op-</w><lb/><w part="F">preſſed</w>, in the <hi rend="italic">very Way,</hi> and <hi
+          rend="italic">Manner</hi> he obſerved <lb/><hi rend="italic">her endeavouring to expel
+          Diſeaſes.</hi> And it was by <lb/><hi rend="italic">a conſtant Diligence</hi> of this
+        Kind, joined with his <lb/><hi rend="italic">wonderful Sagacity,</hi> that he arrived to
+        that great <lb/>Degree of Perfection in the Knowledge of Phyſic: <lb/>Hence he perceived
+        that, <hi rend="italic">Nature herſelf judges <lb/>Diſeaſes;</hi> and, indeed, does all,
+        being <hi rend="italic">properly <w part="I">aſ-</w><lb/><w part="F">ſiſted</w>;</hi>
+        <pb xml:id="page_16" n="7"/><lb/>nay, and, ſometimes, <hi rend="italic">without any <w
+            part="I">Aſſiſt-</w><lb/><w part="F">ance</w>.</hi>
+      </p>
+      <p rend="indent"><lb/><hi rend="sc">Hippocrates </hi>alſo informs us, and our <hi
+          rend="italic">own <lb/>Experience</hi> cannot but <hi rend="italic">confirm</hi> it: That
+        thoſe People <lb/>who have <hi rend="italic">Fevers,</hi> and are <hi rend="italic">left to
+          themſelves,</hi> and <lb/>take <hi rend="italic">no Medicines;</hi> if they do recover,
+        get rid of <lb/>their <hi rend="italic">Fevers</hi> by <hi rend="italic">Sweating, a
+          Looſeneſs, an <w part="I">Haemor-</w><lb/><w part="F">rhage</w>, Diabetes,</hi> or the
+        like: From whence <hi rend="sc"><w part="I">Hip-</w><lb/><w part="F">pocrates</w></hi>, and
+        the ancient Practitioners in <w part="I">Phy-</w><lb/><w part="F">ſic</w>, took their <hi
+          rend="italic">firſt Intimation</hi> to provoke <hi rend="italic">Sweat</hi>
+        <lb/>and the <hi rend="italic">other Evacuations.</hi> And from their <hi rend="italic"
+          >re-<lb/>peated Obſervations</hi> and <hi rend="italic">Succeſſes,</hi> they have <w
+          part="I">form-</w><lb/><w part="F">ed</w> for us, a moſt <hi rend="italic">rational
+          Method</hi> of Cure. And <lb/>if we duly conſider, and attend to the <hi rend="italic"
+          >different <lb/>Ways</hi> by which <hi rend="italic">Nature extricates herſelf</hi> from
+          <w part="I">Diſ-</w><lb/><w part="F">eaſes</w>, when <hi rend="italic">left to
+          herſelf;</hi> we ſhall ſoon be <w part="I">con-</w><lb/><w part="F">vinced</w>, that <hi
+          rend="italic">they are not the confuſed</hi> and <hi rend="italic">diſordered<lb/>
+          Effects</hi> of Nature, <hi rend="italic">ill defending herſelf;</hi> but, in <lb/>fact,
+        the <hi rend="italic">gradual, ſteady,</hi> and <hi rend="italic">meaſured
+          Operati-<lb/>ons</hi> of that <hi rend="italic">exquiſite Mechaniſm,</hi> and <hi
+          rend="italic">innate, <w part="I">inceſ-</w><lb/><w part="F">ſant</w> Principle</hi> of
+          <hi rend="italic">Self-preſervation,</hi> with which <hi rend="italic"
+          >Pro-<lb/>vidence</hi> has been pleaſed to endow our Bodies: A <lb/>very ſtrong
+        Confirmation of the <hi rend="italic">Neceſſity</hi> of a <hi rend="italic"
+          >care-<lb/>ful</hi> and <hi rend="italic">diligent Obſervance</hi> of the <hi
+          rend="italic">Tendencies</hi> of <w part="I">Na-</w><lb/><w part="F">ture</w>, in all her
+        Diſorders; and the <hi rend="italic">Method</hi> ſhe <lb/>takes to get rid of Diſeaſes, when
+        left to herſelf: <lb/>And alſo, a very <hi rend="italic">good Caution</hi> to us all, <hi
+          rend="italic">not to be <lb/>over haſty,</hi> or <hi rend="italic">too buſy</hi> in the
+        Adminiſtration of our<lb/> Remedies; leſt we ſhould be found to <hi rend="italic"
+          >ruffle</hi> and <lb/><hi rend="italic">diſturb,</hi> rather than <hi rend="italic">aſſiſt
+          Nature,</hi> with the <hi rend="italic">untime-<lb/>ly Uſe,</hi> or <hi rend="italic"
+          >Multitude</hi> of our Medicines. And <w part="I">re-</w><lb/><w part="F">ally</w>, <hi
+          rend="italic">the Ne quid nimis,</hi> in the Practice of Phyſic, <pb xml:id="page_17"
+          n="8"/><lb/>is a Matter of no ſmall Conſequence. He <w part="I">there-</w><lb/><w part="F"
+          >fore</w>, in my Opinion, is moſt likely to prove <hi rend="italic">the <lb/>beſt, moſt
+          prudent,</hi> and <hi rend="italic">rational Phyſician,</hi> who <lb/><hi rend="italic"
+          >moſt diligently obſerves,</hi> and <hi rend="italic">conſtantly follows,</hi> the
+          <lb/><hi rend="italic">Motions,</hi> and <hi rend="italic">Dictates of Nature
+          herſelf.</hi>
+      </p>
+      <p rend="indent"><lb/><hi rend="sc">If</hi> an altogether <hi rend="italic">new Diſtemper</hi>
+        ſhould at any <lb/>time ariſe among us, the only Way of getting into <lb/>the Nature of ſuch
+          <hi rend="italic">new Diſeaſe,</hi> would be to copy<lb/><hi rend="sc">Hippocrates</hi>'s
+        Example; I mean, <hi rend="italic">his <w part="I">Me-</w><lb/><w part="F">thod</w> of
+          obſerving,</hi> joined to <hi rend="italic">the Rule</hi> of finding out <lb/>the Nature
+        of Diſeaſes: For we muſt, firſt, be <lb/>led by <hi rend="italic">Symptoms</hi> to find a
+        Diſeaſe; after that it's <lb/><hi rend="italic">Nature,</hi> and from <hi rend="italic"
+          >thence</hi> the Method of Cure. <lb/>And here it may be proper to obſerve, that there
+        <lb/>are <hi rend="italic">ſeveral Seaſons,</hi> which have Diſeaſes <hi rend="italic"
+          >peculiar</hi> to<lb/>themſelves; and may, in ſome meaſure, indeed, be <lb/>called <hi
+          rend="italic">new Diſeaſes:</hi> It will therefore be neceſſary t<lb/>o know, and
+        carefully obſerve <hi rend="italic">the Seaſons,</hi> as<lb/>
+        <hi rend="sc">Hippocrates</hi>, and, our renowned Countryman, <lb/><hi rend="sc">Sydenham
+        </hi>adviſe; wherein <hi rend="italic">ſuch Diſeaſes</hi> are <lb/>wont to appear; otherwiſe
+        we ſhall be unſucceſſful <lb/>in <hi rend="italic">curing</hi> the Diſeaſes <hi
+          rend="italic">peculiar</hi> to thoſe <hi rend="italic">different <lb/>Seaſons.</hi> It
+        muſt alſo be obſerved, that <hi rend="italic">theſe Dis-<lb/>eaſes</hi> are generally <hi
+          rend="italic">ſtated,</hi> and <hi rend="italic">regular</hi> in <hi rend="italic">each <w
+            part="I">Con-</w><lb/><w part="F">ſtitution</w>,</hi> and have <hi rend="italic">an
+          Affinity</hi> to each other: He <lb/>therefore, who is able to come at the <hi
+          rend="italic">Nature</hi> and <lb/><hi rend="italic">Cure</hi> of <hi rend="italic">one
+          Epidemical Diſtemper, in any <w part="I">Conſtitu-</w><lb/><w part="F">tion</w>,</hi> hath
+        an Advantage in the Cure of <hi rend="italic">all the other.</hi>
+        <lb/>For tho' they may <hi rend="italic">differ</hi> in ſeveral reſpects, yet <lb/>they
+        require ſomething <hi rend="italic">common</hi> in their Cure, as <lb/>proceeding from <hi
+          rend="italic">a common Cauſe.</hi> And <hi rend="italic">a few <lb/>Caſes</hi> diligently
+        enquired into, by recollecting and <pb xml:id="page_18" n="9"/><lb/>carefully examining
+        their <hi rend="italic">Symptoms,</hi> as directed by <lb/><hi rend="italic">our Method</hi>
+        of diſcovering the Nature of Diſeaſes; <lb/>will be ſufficient to give us the <hi
+          rend="italic">Nature, Cauſes,</hi> and <lb/><hi rend="italic">Method</hi> of Cure, of the
+        Diſeaſe of <hi rend="italic">every Conſtitu-<lb/>tion</hi> whatever. Here we can by no means
+        omit a <lb/>pertinent Obſervation of <hi rend="sc">Celsus</hi>: <hi rend="italic">Quod ſi
+          jam <lb/>incidat Mali</hi> genus aliquod ignotum, <hi rend="italic">non ideo <w part="I"
+            >ta-</w><lb/><w part="F">men</w> fore Medico de</hi> rebus <hi rend="italic"
+          >cogitandum</hi> obſcuris; <hi rend="italic">ſed<lb/> eum protinus viſurum, cui morbo
+          id</hi> proximum <hi rend="italic">ſit;<lb/> tentaturum{que} remedia</hi> fimilia <hi
+          rend="italic">illis, quae</hi> vicino malo <lb/><hi rend="italic">ſaepe ſuccurrerint,
+          &amp; per ejus</hi> ſimilitudinem <hi rend="italic">opem<lb/> reperturum.</hi>
+      </p>
+      <p rend="indent"><lb/><hi rend="sc">The</hi> many accurate and charming <hi rend="italic"
+          >Deſcriptions</hi>
+        <lb/>of Diſtempers, delivered down to us by <hi rend="sc"><w part="I">Hippo-</w><lb/><w
+            part="F">crates</w></hi> in his <hi rend="italic">Hiſtories</hi> of Diſeaſes; wherein
+        the <lb/>Phaenomena of <hi rend="italic">each Diſtemper,</hi> even in its <w part="I"
+          >minu-</w><lb/><w part="F">teſt</w> Circumſtances, are obſerved; preſent us with <lb/>a
+        moſt exquiſite Delineation of Nature: and if <lb/>duly attended, will always be found, of
+        the <w part="I">great-</w><lb/><w part="F">eſt</w> Service for advancing our Progreſs in the
+        Art of <lb/>Healing. Becauſe, from his <hi rend="italic">Diagnoſtics in <w part="I"
+            >particu-</w><lb/><w part="F">lar</w>,</hi> and others of the <hi rend="italic"
+          >Antients,</hi> and <hi rend="italic">ſuch</hi> among <lb/>the <hi rend="italic"
+          >Moderns,</hi> who have cloſely copied after <hi rend="italic">His <lb/>manner;</hi> we
+        readily diſcover the <hi rend="italic">Nature</hi> of the <lb/>Diſeaſe. And as, whenever we
+        arrive at the <hi rend="italic">true</hi>
+        <lb/>and <hi rend="italic">exact Hiſtory</hi> of any Diſtemper, whether from <lb/>Books, or
+        our own careful Obſervations; we may, <lb/>at all times, by the right and diligent
+        Application <lb/>of the <hi rend="italic">Method of Inveſtigation,</hi> moſt aſſuredly <w
+          part="I">diſ-</w><lb/><w part="F">cover</w> the <hi rend="italic">immediate</hi> and <hi
+          rend="italic">conjunct</hi> Cauſe; ſo may <lb/>we likewiſe, on thoſe Principles, eaſily
+        come at <lb/>the <hi rend="italic">Nature</hi> of the Diſeaſe; when, having that <pb
+          xml:id="page_19" n="10"/><lb/>given, it will be no difficult matter to find out <hi
+          rend="italic">Re-<lb/>medies</hi> to Cure, in all <hi rend="italic">curable</hi> Caſes;
+        and to <w part="I">admi-</w><lb/><w part="F">niſter</w>
+        <hi rend="italic">Relief,</hi> even in thoſe, which are <hi rend="italic">incurable.</hi>
+      </p>
+      <p rend="indent"><lb/><hi rend="sc">This</hi>
+        <hi rend="italic">unwearied Diligence</hi> in Obſervation, and <lb/><hi rend="italic">cloſe
+          Attendance</hi> on Nature in that <hi rend="italic">ſagacious,</hi> great <lb/>Man <hi
+          rend="sc">Hippocartes</hi>, and others of the <hi rend="italic">Antients;</hi>
+        <lb/>might probably be heightened in them, from the <lb/><hi rend="italic">Scantiness</hi>
+        of their <hi rend="italic">Materia Medica,</hi> and the <w part="I">ex-</w><lb/><w part="F"
+          >ceeding</w>
+        <hi rend="italic">Harſhness</hi> of the <hi rend="italic">then known Remedies;</hi><lb/>
+        however, much to our Benefit: ſince the excellent <lb/><hi rend="italic">Deſcriptions</hi>
+        of Diſeaſes they have given us, can <lb/>not only <hi rend="italic">never be exceeded,</hi>
+        but will <hi rend="italic">always remain<lb/> invariably true,</hi> while Human Nature
+        continues <lb/>the ſame. And had thoſe of later Ages, who have <lb/>been ſo happily provided
+        with a more copious and <lb/>ſalutary <hi rend="italic">Materia Medica;</hi> and who, it
+        muſt be <lb/>allowed, have been greatly improved in the <w part="I">Know-</w><lb/><w
+          part="F">ledge</w> of the <hi rend="italic">Animal Oeconomy:</hi> had theſe, I ſay,
+        <lb/>conſtantly perſevered in the Uſe of <hi rend="sc"><w part="I">Hippocra-</w><lb/><w
+            part="F">tes's</w></hi>
+        <hi rend="italic">great Diligence</hi> and <hi rend="italic">Manner of obſerving;</hi>
+        <lb/>they might, doubtleſs, long ago, have brought the <lb/>Practice of Phyſic to a
+        conſiderable Degree of <w part="I">Per-</w><lb/><w part="F">fection</w>; tho' they had not
+        been bleſs'd with his <lb/><hi rend="italic">extraordinary Sagacity:</hi> For that, indeed,
+        is a <w part="I">pe-</w><lb/><w part="F">culiar</w> Happineſs, and the Lot of a very few; in
+        <lb/>which Particular, I believe, we may ſay of the <lb/>Phyſician, as is commonly done of
+        the Poet: <hi rend="italic">Na-<lb/>ſcitur, non fit.</hi>
+      </p>
+      <p rend="indent"><lb/>Now, ſhould we of this Age, fluſhed with our <lb/>ſuperior Knowledge in
+        the <hi rend="italic">Animal Oeconomy,</hi> and <lb/>the Variety of our <hi rend="italic"
+          >Materia Medica;</hi> neglect to <pb xml:id="page_20" n="11"/><lb/>make uſe of that <hi
+          rend="italic">Prudence</hi> and <hi rend="italic">Diligence,</hi> which is<lb/>neceſſary
+        in attending the <hi rend="italic">Motions</hi> and <hi rend="italic">Intentions</hi>
+        of<lb/> Nature; and, inſtead of endeavouring to <hi rend="italic">aſſiſt her</hi>
+        <lb/>on theſe Principles, when oppreſs'd, become too <lb/><hi rend="italic">precipitate</hi>
+        and <hi rend="italic">officious,</hi> in the Adminiſtration of <lb/>our Medicines; the
+        Conſequence will inevitably <lb/>be, that we ſhall only <hi rend="italic">obſcure the
+          Diſeaſe,</hi> by <hi rend="italic">mul-<lb/>tiplying,</hi> rather than <hi rend="italic"
+          >taking off the Symptoms;</hi> and <lb/>this to our own perſonal Confuſion, the manifeſt
+        <lb/>Injury of our Patients, and the great Diſrepute of <lb/>our Profeſſion. Whereas, would
+        we conſult <hi rend="italic">the <lb/>true</hi> and <hi rend="italic">proper Uſe</hi> of the
+        many happy <hi rend="italic">Improve-<lb/>ments</hi> of our own Age, I think, it cannot be
+        done <lb/>more effectually, than by keeping cloſe to our moſt <lb/>skilful Leader, <hi
+          rend="sc">Hippocrates</hi>; together <lb/>with the ancient Practitioners in Phyſick, in
+          <hi rend="italic">their <lb/>Manner</hi> of obſerving, and in <hi rend="italic">their
+          Method</hi> of <w part="I">heal-</w><lb/><w part="F">ing</w>; founded upon the Knowledge
+        of the <hi rend="italic">conjunct <lb/>Cauſes</hi> of <hi rend="italic">Diſtempers,</hi>
+        from whence alone, the <hi rend="italic">cu-<lb/>rative Indications</hi> are to be taken:
+        agreeable to the <lb/>Method <hi rend="italic">here</hi> mentioned, and <hi rend="sc"
+          >Hippocrates's </hi><lb/>Manner of obſerving. And by a careful <hi rend="italic"
+          >Perſeve-<lb/>rance</hi> in theſe Methods, I imagine, we may <w part="I">rea-</w><lb/><w
+          part="F">ſonably</w> hope for the greateſt Succeſs; and may, <lb/>perhaps, in a few Ages,
+        arrive at the higheſt <w part="I">Per-</w><lb/><w part="F">fection</w> in the Practice of
+        Phyſic, that human <w part="I">Na-</w><lb/><w part="F">ture</w> is capable of attaining. </p>
+      <p rend="indent"><lb/><hi rend="sc">From</hi> what I have already advanced, <lb/>you will
+        naturally conclude, that it is <hi rend="italic">no eaſy Matter</hi> to <w part="I"
+          >be-</w><lb/><w part="F">come</w>
+        <hi rend="italic">a prudent</hi> and <hi rend="italic">skilful Phyſician:</hi> Much <w
+          part="I">Read-</w><lb/><w part="F">ing</w>, much Thought and Pains will really be <w
+          part="I">re-</w><lb/><w part="F">quired</w>; many Things are neceſſary to be learnt<pb
+          xml:id="page_21" n="12"/><lb/>much <hi rend="italic">Diligence</hi> in Inquiry, much <hi
+          rend="italic">Aſſiduity</hi> in <lb/>Obſervation is to be uſed, before we can be <hi
+          rend="italic">duly</hi>
+        <lb/>qualified, either with Peace of Mind to ourſelves, <lb/>or Relief to our Patients, to
+        undertake a Truſt, <lb/>in which the Lives of our Fellow-creatures are ſo <lb/>nearly
+        concerned. </p>
+      <p rend="indent"><lb/><hi rend="sc">If</hi> this be a juſt State of the Caſe, what ſhall
+        <lb/>we ſay of thoſe Perſons, who boldly take upon <lb/>them the Practice of Phyſic, without
+          <hi rend="italic">the leaſt <w part="I">pre-</w><lb/><w part="F">vious</w> Knowledge</hi>
+        of the <hi rend="italic">Requiſites</hi> abſolutely <w part="I">neceſ-</w><lb/><w part="F"
+          >ſary</w> for <hi rend="italic">the regular Diſcharge</hi> of this important <lb/>Office?
+        Certainly it can be no other than the <hi rend="italic">great-<lb/>eſt Folly,</hi> and the
+          <hi rend="italic">higheſt Preſumption,</hi> for Thoſe to <lb/>expect <hi rend="italic"
+          >Succeſs,</hi> or hope for <hi rend="italic">a Bleſſing</hi> on their <w part="I"
+          >En-</w><lb/><w part="F">deavours</w>; who are <hi rend="italic">altogether ignorant</hi>
+        of the <w part="I">Pro-</w><lb/><w part="F">vince</w> in which they engage: And would ſuch
+        <lb/>Perſons but give themſelves Time to reflect, and <lb/>ſeriouſly conſider, the <hi
+          rend="italic">great Conſequence</hi> of Phyſic, <lb/>in the <hi rend="italic">practical
+          Part</hi> of it; where Life itſelf is ſo <lb/>immediately at ſtake: I am perſuaded, they
+        <lb/>would not thus <hi rend="italic">raſhly</hi> venture to adminiſter <w part="I"
+          >Medi-</w><lb/><w part="F">cines</w>, <hi rend="italic">before</hi> they had acquired the
+          <hi rend="italic">proper</hi> and <hi rend="italic">ne-<lb/>ceſſary Qualifications.</hi>
+      </p>
+      <p rend="indent"><lb/><hi rend="sc">It</hi> is <hi rend="italic">a mighty Miſtake,</hi> that
+        has ſeized ſome of <lb/>our young Candidates in Phyſic, who are <hi rend="italic">not
+          <lb/>much addicted to Study</hi> or <hi rend="italic">Pains-taking,</hi> to <w part="I"
+          >ima-</w><lb/><w part="F">gine</w>: That, if they are but well furniſhed with <lb/><hi
+          rend="italic">Books of Recipes,</hi> they have <hi rend="italic">every Qualification</hi>
+        <w part="I">ſuf-</w><lb/><w part="F">ficient</w> to commence Doctor upon; becauſe in
+          <lb/><hi rend="italic">thoſe Books,</hi> as they think, agreeable to the <w part="I"
+          >com-</w><lb/><w part="F">mon</w> Saying, they are ſure to find a <hi rend="italic">Salve
+          for every</hi>
+        <pb xml:id="page_22" n="13"/><lb/><hi rend="italic">Sore</hi>. But, alas! theſe <hi
+          rend="italic">baſe, empirical Books,</hi> the <lb/>Peſt of the preſent Age, will <hi
+          rend="italic">greatly deceive them.</hi>
+        <lb/>They are by no means to be confided in; but, on <lb/>the contrary, are rather to be
+        looked upon as <hi rend="italic">very <lb/>injurious:</hi> Foraſmuch as they only furniſh
+          <hi rend="italic">all <lb/>Sorts of People,</hi> with great Opportunities of <hi
+          rend="italic">deſtroy-<lb/>ing each other's Health.</hi> And ſhould any Perſon
+        <lb/>pretend to ſet up to practiſe Phyſic on <hi rend="italic">this deceitful<lb/>
+          Foundation,</hi> He would ſoon find himſelf <hi rend="italic">miſerably <lb/>miſled;</hi>
+        to the great and manifeſt Injury of <w part="I">Him-</w><lb/><w part="F">ſelf</w>, as well
+        as his Patients. For it is moſt <w part="I">cer-</w><lb/><w part="F">tain</w>, that <hi
+          rend="italic">every Medicine,</hi> be it never ſo good,<lb/> muſt always be adminiſter'd
+        in <hi rend="italic">the moſt proper <lb/>Doſe,</hi> and at the <hi rend="italic">moſt
+          proper Times</hi> of the Diſeaſe, <lb/>to make it of <hi rend="italic">any Advantage</hi>
+        to the Patient; but <lb/>the Chance of the Miſchief ariſing from the <hi rend="italic"
+          >con-<lb/>trary Practice,</hi> no one, I think, would covet: <lb/>Yet this Knowledge can
+        no otherwiſe be come at, <lb/>than in the <hi rend="italic">arduous</hi> and <hi
+          rend="italic">diligent Manner</hi> of <w part="I">ſtudy-</w><lb/><w part="F">ing</w>
+        above-mention'd; join'd with <hi rend="italic">the Method of In-<lb/>veſtigating</hi> the
+        Nature of Diſeaſes. Not that this <lb/>is the <hi rend="italic">only</hi> Advantage, which
+        follows on our <w part="I">Do-</w><lb/><w part="F">ctrine</w> of <hi rend="italic"
+          >Inveſtigation;</hi> fince it not only leads us <lb/>into the <hi rend="italic">true
+          Nature</hi> of the Diſeaſe, and the <hi rend="italic">cer-<lb/>tain Method of Cure;</hi>
+        but alſo, at the ſame time, <lb/>into the <hi rend="italic">very Nature</hi> and <hi
+          rend="italic">Power of Medicines <w part="I">them-</w><lb/><w part="F">ſelves</w>,</hi> if
+        rightly attended to and applied. And <lb/>were it poſſible, even to find out an <hi
+          rend="italic">Univerſal Re-<lb/>medy</hi> for all Diſtempers; it muſt ſtill be ſubject to
+        <lb/>the <hi rend="italic">due Timeing</hi> and <hi rend="italic">Doſing;</hi> the <hi
+          rend="italic">accurate Know-<lb/>ledge</hi> of which, can no otherwiſe be obtained, than
+        <lb/>by the <hi rend="italic">Manner</hi> and <hi rend="italic">Method</hi> already laid
+        down. <lb/>And this, indeed, is the only <hi rend="italic">real</hi> and <hi rend="italic"
+          >true <w part="I">Arca-</w></hi>
+        <pb xml:id="page_23" n="14"/><hi rend="italic"><lb/><w part="F">num</w>,</hi>in the Practice
+        of Phyſic. All your <hi rend="italic">Pana-<lb/>ceas, Noſtrums, Specifics,</hi> and the
+        like; without <lb/>this <hi rend="italic">perfect Knowledge of adminiſtring them,</hi> in
+        the <lb/><hi rend="italic">moſt proper Doſe,</hi> and at the <hi rend="italic">moſt proper
+          Times of <lb/>the Diſeaſe,</hi> will, for the moſt part, prove very <lb/><hi rend="italic"
+          >miſchievous.</hi> And here the Opinion of the late <lb/>learned Profeſſor <hi rend="sc"
+          >Boerhaave </hi>concurs with us: <lb/><hi rend="italic">Nec ſpecioſos Medicamentorum
+          titulos Morbis addidi. <lb/>Cur? Nihil Arti exitiale magis novi; neque verò <lb/>ipſe
+          ullum cognoſco, quin</hi> ſolo tempeſtivo Uſu tale <lb/>fiat. <note place="bottom" n="*">*
+            <hi rend="sc">Boerhaave </hi>in Epiſtola Aphoriſmis praefixa. </note> And theſe Remedies
+        can only, by the <lb/><hi rend="italic">greateſt Hazard</hi> and <hi rend="italic"
+          >Chance</hi> imaginable, ever prove <lb/>of <hi rend="italic">good Effect,</hi> in <hi
+          rend="italic">any Diſeaſe</hi> of <hi rend="italic">Conſequence:</hi> Tho' <lb/>we all
+        know, indeed, that, in many Caſes, let <lb/>the Medicine given be ever ſo <hi rend="italic"
+          >improper</hi> in itſelf, or <lb/>ever ſo <hi rend="italic">unſeaſonably</hi>
+        adminiſter'd; the <hi rend="italic">Strength</hi> of<lb/>Nature may ſometimes get the better
+        of both. <lb/>But this is by no means <hi rend="italic">Curing;</hi> nor can it be <lb/><hi
+          rend="italic">any Excuſe</hi> for our <hi rend="italic">Ignorance.</hi>
+      </p>
+      <p rend="indent"><lb/><hi rend="sc">Having</hi> thus prepared you for <hi rend="italic">the
+          Method</hi> to <lb/>be obſerved in <hi rend="italic">finding out the Diſtemper;</hi> I
+        ſhall <lb/>now proceed to give it you, in the <hi rend="italic">plaineſt,</hi> and <lb/><hi
+          rend="italic">moſt methodical Manner,</hi> I am able. </p>
+      <p rend="indent"><lb/>I <hi rend="sc">cannot</hi> introduce, what I have to offer on <lb/>this
+        Head, with greater Advantage, than by laying <lb/>before you, the following <hi
+          rend="italic">practical</hi> Obſervation of<lb/><hi rend="sc">Scheffler</hi>: <hi
+          rend="italic">Ut Rationalis Medicus curativis <w part="I">Sco-</w><lb/><w part="F">pis</w>
+          ſatisfacere, Materias Medicas invenire, inventis rectè uti valeat: non ſatis erit, Vires
+          cuſtodire, &amp; morbificas Cauſas amovere; ſed &amp; Morbi Speciem</hi>, <pb
+          xml:id="page_24" n="15"/><lb/><hi rend="italic">&amp; Locum affectum exquiſitè cognitum
+          habeat, necessè eſt.</hi>
+      </p>
+      <p rend="indent"><lb/><hi rend="sc">Agreeable</hi> with this, you will obſerve that, <lb/>in
+        order to <hi rend="italic">Cure any Diſeaſe,</hi> it is neceſſary to have <lb/>a <hi
+          rend="italic">thorough Knowledge of the Diſeaſe itſelf,</hi> and of <lb/>the <hi
+          rend="italic">Remedy peculiarly adapted to it;</hi> it being <w part="I">im-</w><lb/><w
+          part="F">poſſible</w> to cure a Diſeaſe <hi rend="italic">according to Art,</hi> if the
+          <lb/><hi rend="italic">Nature of the Diſeaſe</hi> be hid from the Artiſt: And <lb/>for <hi
+          rend="italic">want</hi> of this Knowledge, the <hi rend="italic">Care</hi> and <hi
+          rend="italic">Pains</hi>
+        <lb/>of many Phyſicians have proved <hi rend="italic">ineffectual.</hi> For <lb/>theſe
+        Phyſicians, for the moſt part, making little <lb/>other Uſe of the <hi rend="italic"
+          >Diagnoſtic Symptoms,</hi> than the <lb/><hi rend="italic">mere naming</hi> the Diſtemper
+        only; have, very <w part="I">inju-</w><lb/><w part="F">diciouſly</w>, taken their <hi
+          rend="italic">Indications</hi> of Cure, from <hi rend="italic">ſe-<lb/>condary</hi> and
+          <hi rend="italic">caſual Symptoms:</hi> Whereas the <hi rend="italic">true <lb/>Nature of
+          a Diſeaſe</hi> is ever <hi rend="italic">beſt found out,</hi> from the <lb/><hi
+          rend="italic">Diagnoſtic Signs</hi> or <hi rend="italic">Marks</hi> alone; and from
+        thence<lb/> alſo, the <hi rend="italic">true Indications</hi> of Cure, muſt always be<lb/>
+        drawn, in order to <hi rend="italic">the beſt</hi> and <hi rend="italic">moſt effectual
+          Me-<lb/>thod</hi> of curing the Diſeaſe. And as <hi rend="italic">theſe
+          Indicati-<lb/>ons</hi> wholly ariſe from <hi rend="italic">our Reaſoning</hi> upon the <hi
+          rend="italic">Ob-<lb/>ſervations</hi> of the <hi rend="italic">Phaenomena</hi> of Nature;
+        therefore, <lb/>the <hi rend="italic">greater</hi> our Knowledge of the <hi rend="italic"
+          >Animal Oecono-<lb/>my</hi> is, the <hi rend="italic">better</hi> we ſhall be enabled to
+        find out <lb/>the <hi rend="italic">Nature of the Diſeaſe.</hi> For 'tis the <hi
+          rend="italic">Animal <lb/>Oeconomy</hi> alone, which muſt enable us, by <hi rend="italic"
+          >reaſon-<lb/>ing</hi> upon the <hi rend="italic">Cauſes, Signs,</hi> and <hi rend="italic"
+          >Symptoms</hi> of <w part="I">Diſ-</w><lb/><w part="F">eaſes</w>, to find out <hi
+          rend="italic">their Natures,</hi> and to deduce <hi rend="italic">true</hi>
+        <lb/>and <hi rend="italic">juſt Indications</hi> of Cure. </p>
+      <p rend="indent"><lb/><hi rend="sc">This</hi>, however, in general; more expreſſly: <lb/>To
+        come at the <hi rend="italic">true Method of inveſtigating all <w part="I">Diſ-</w></hi>
+        <pb xml:id="page_25" n="16"/><lb/><hi rend="italic"><w part="F">eaſes</w></hi>,incident to
+        the Human Body; and from <lb/>thence proceed to the <hi rend="italic">moſt effectual Methods
+          of <lb/>treating</hi> and <hi rend="italic">curing them;</hi> the ſolid Knowledge of
+        <lb/>the <hi rend="italic">following Particulars</hi> is abſolutely required, <lb/><hi
+          rend="italic">viz.</hi>
+      </p>
+      <list>
+        <lb/>
+        <item>1. The <hi rend="italic">next,</hi> and <hi rend="italic">ever-concomitant Cauſe</hi>
+          of the <lb/>Diſeaſe. </item>
+        <lb/>
+        <item>2. The <hi rend="italic">Seat</hi> and <hi rend="italic">Part affected.</hi>
+        </item>
+        <lb/>
+        <item>3. The <hi rend="italic">Ways</hi> and <hi rend="italic">Paſſages,</hi> thro' which
+          the Evil <lb/>takes its Courſe. </item>
+        <lb/>
+        <item>4. The <hi rend="italic">inſeparable Signs</hi> of the Diſtemper. </item>
+        <lb/>
+        <item>5. The <hi rend="italic">Symptoms,</hi> which <hi rend="italic">commonly
+            accompany</hi>
+          <lb/>the Diſeaſe; and </item>
+        <lb/>
+        <item>6. That we be careful the <hi rend="italic">Symptoms</hi> of the <w part="I"
+            >Diſ-</w><lb/><w part="F">eaſe</w> are <hi rend="italic">rightly diſtinguiſhed.</hi>
+        </item>
+      </list>
+      <p rend="indent"><lb/><hi rend="sc">If</hi> we err not in theſe <hi rend="italic">main
+          Points,</hi> we are in the <lb/><hi rend="italic">right Way</hi> of arriving to an <hi
+          rend="italic">happy Cure</hi> of the <w part="I">Diſ-</w><lb/><w part="F">eaſe</w>. </p>
+      <p rend="indent"><lb/><hi rend="sc">It</hi> is very neceſſary at all times, carefully to
+          <lb/><hi rend="italic">diſtinguiſh</hi> between the <hi rend="italic">Diſeaſe itſelf,</hi>
+        and the <hi rend="italic">Sym-<lb/>ptom;</hi> the want of which has been <hi rend="italic"
+          >the Stumbling<lb/>-ſtone</hi> of ſome, even very learned Men, in all Ages: <lb/>Since it
+        is to be imputed to the <hi rend="italic">want of this <w part="I">Diſtin-</w><lb/><w
+            part="F">ction</w>,</hi> as a principal, if not the only Obſtacle; that <lb/>Phyſicians
+        have been ſo much at a Loſs, for the <lb/><hi rend="italic">true Cauſe</hi> of the Diſeaſe,
+        and have therefore ſo <lb/>often taken the <hi rend="italic">Symptom for the Diſeaſe
+          itſelf;</hi> not <lb/>rightly diſtinguiſhing the <hi rend="italic">next,</hi> and <hi
+          rend="italic">immediate <w part="I">con-</w><lb/><w part="F">junct</w> Cauſe,</hi> from
+        its <hi rend="italic">Symptoms</hi> or <hi rend="italic">Accidents;</hi>
+        <lb/>which <pb xml:id="page_26" n="17"/><lb/>may not be occaſion'd by the <hi rend="italic"
+          >next,</hi> and <hi rend="italic">always <w part="I">ac-</w><lb/><w part="F"
+            >companying</w> Cauſe</hi> of the Diſeaſe, but by <hi rend="italic">ſome other
+          <lb/>Symptom;</hi> and what is ſo far from being the <hi rend="italic">Mark <lb/>of the
+          Diſeaſe,</hi> that it is <hi rend="italic">a Symptom of a Symptom</hi>
+        <lb/>only. </p>
+      <p rend="indent"><lb/><hi rend="sc">In</hi> the <hi rend="italic">Tooth-ach,</hi> for Example,
+        when it does <lb/>not proceed from a Caries; the <hi rend="italic">genuine Eſſence</hi> of
+        <lb/>this Diſeaſe, is the violent <hi rend="italic">Diſtenſion</hi> or <hi rend="italic"
+          >Stretching</hi>
+        <lb/>of the <hi rend="italic">Perioſtium,</hi> by ſome ſort of Humour; by <lb/>which means
+        this <hi rend="italic">Membrane,</hi> being forc'd out of <lb/>its <hi rend="italic">natural
+          Form</hi> and <hi rend="italic">Situation,</hi> excites a moſt <hi rend="italic"
+          >ex-<lb/>quiſite Pain;</hi> which <hi rend="italic">Pain</hi> is not the <hi rend="italic"
+          >Diſeaſe,</hi> but <lb/>the <hi rend="italic">true Mark</hi> of the Diſeaſe; and the <hi
+          rend="italic">Humour</hi>
+        <lb/>occaſioning this Pain, the <hi rend="italic">Cauſe</hi> of the <hi rend="italic"
+          >Diſeaſe.</hi>
+        <lb/>The <hi rend="italic">Inflammation, Fever, ſwelled Face,</hi> &amp;c. which <lb/>may
+        ſucceed, are neither of them the <hi rend="italic">true Mark;</hi>
+        <lb/>but proceed from the <hi rend="italic">Pain,</hi> which is the <hi rend="italic">true
+            <w part="I">Di-</w><lb/><w part="F">agnoſtic</w> Sign</hi> or <hi rend="italic">Mark of
+          the Diſeaſe;</hi> each of the<lb/>above-mentioned being <hi rend="italic">the Symptom of a
+          Symptom</hi>
+        <lb/>only. </p>
+      <div type="part">
+        <head rend="align-center space"><lb/><hi rend="italic">Of the</hi>
+          <hi rend="sc">Diagnostics </hi><hi rend="italic">or</hi>
+          <hi rend="sc">Signs</hi><hi rend="italic">of a</hi>
+          <lb/>Diſeaſe. </head>
+        <p rend="indent"><lb/><hi rend="sc">The</hi> true <hi rend="italic">Marks</hi> or <hi
+            rend="italic">Signs</hi> of a Diſeaſe are ſuch, <lb/>which are <hi rend="italic">preſent
+            from the Beginning,</hi> and, as it <lb/>were, <hi rend="italic">born with the
+            Diſeaſe;</hi> they <hi rend="italic">grow up</hi> with <lb/>the Diſtemper to it's
+          height; <hi rend="italic">abate</hi> alſo, and <hi rend="italic">va-<lb/>niſh with the
+            Diſeaſe.</hi> Theſe are the <hi rend="italic">only ſure Marks</hi>
+          <lb/>or <hi rend="italic">Signs:</hi> other Signs or Symptoms, which do not <lb/><hi
+            rend="italic">immediately follow</hi> the Diſeaſe, nor any <hi rend="italic">proper
+            Ef-</hi>
+          <pb xml:id="page_27" n="18"/><lb/><hi rend="italic">fects</hi>of it; and which do not <hi
+            rend="italic">always appear</hi> in the <lb/>Diſeaſe, are therefore <hi rend="italic"
+            >deceitful Signs,</hi> and not to be <lb/>truſted to; tho' ſuch as have, inadvertently,
+            <w part="I">miſ-</w><lb/><w part="F">led</w> ſome, even <hi rend="italic">ſagacious</hi>
+          Men. </p>
+        <p rend="indent"><lb/><hi rend="sc">Now</hi>, theſe <hi rend="italic">deceitful Signs</hi>
+          are not to be <w part="I">reckon-</w><lb/><w part="F">ed</w> among the <hi rend="italic"
+            >proper Symptoms</hi> of the Diſeaſe; <w part="I">be-</w><lb/><w part="F">ing</w>
+          <hi rend="italic">only ſuch</hi> as proceed from ſome <hi rend="italic">proper
+            Sym-<lb/>ptom</hi> of the Diſeaſe; and are, indeed, <hi rend="italic">Symptoms of
+            <lb/>Symptoms</hi> only. For the <hi rend="italic">true,</hi> and <hi rend="italic"
+            >proper <w part="I">Diag-</w><lb/><w part="F">noſtic</w> Marks</hi> or <hi rend="italic"
+            >Signs</hi> of the Diſeaſe, muſt always <lb/><hi rend="italic">begin, grow up,
+            decline</hi> and <hi rend="italic">vaniſh</hi> with the Diſeaſe <lb/>itſelf; and, from
+          ſuch <hi rend="italic">Marks only, we muſt ever <lb/>draw our Indications of Cure.</hi>
+        </p>
+      </div>
+      <div type="part">
+        <head rend="align-center space"><lb/><hi rend="italic">Of the</hi>
+          <hi rend="sc">Symptoms</hi>
+          <hi rend="italic">of a</hi> Diſeaſe. </head>
+        <p rend="indent"><lb/><hi rend="sc">As</hi> to the <hi rend="italic">Symptoms</hi> of any
+          Diſeaſe, the firſt <w part="I">Bu-</w><lb/><w part="F">ſiness</w> is to <hi rend="italic"
+            >diſtinguiſh the Symptoms in general, from <lb/>the Diſeaſe itſelf;</hi> and then to
+          make <hi rend="italic">a Diſtinction <lb/>between the Symptoms themſelves:</hi> That is,
+          the <hi rend="italic">Sym-<lb/>ptoms</hi> which <hi rend="italic">ariſe</hi> and <hi
+            rend="italic">vaniſh</hi> with the Diſeaſe, are <lb/>to be <hi rend="italic"
+            >diſtinguiſh'd from thoſe,</hi> which are <hi rend="italic">bred, not <lb/>from the
+            Diſeaſe itſelf,</hi> but <hi rend="italic">from the Symptoms</hi> of the <lb/>Diſeaſe:
+          And the <hi rend="italic">Symptoms,</hi> as we before <w part="I">obſer-</w><lb/><w
+            part="F">ved</w>, which <hi rend="italic">immediately accompany</hi> the Diſeaſe, and
+          <lb/>are <hi rend="italic">born</hi> and <hi rend="italic">die with it;</hi> are the only
+            <hi rend="italic">ſure Marks</hi>
+          <lb/>or <hi rend="italic">Signs</hi> of the Diſeaſe. </p>
+        <p rend="indent"><lb/><hi rend="sc">To </hi> illuſtrate this by our former familiar Inſtance
+          <lb/>of the <hi rend="italic">Tooth-ach:</hi> Here the <hi rend="italic">Pain</hi> is the
+            <hi rend="italic">chief</hi> and <lb/><hi rend="italic">moſt grievous Symptom,</hi> but
+          is neither <hi rend="italic">the Diſeaſe <w part="I">it-</w></hi><pb xml:id="page_28"
+            n="19"/><lb/><hi rend="italic"><w part="F">ſelf</w></hi>, nor <hi rend="italic">the
+            Cauſe</hi> of the Diſeaſe; nor, yet, is it a <lb/><hi rend="italic">ſimple Symptom</hi>
+          only, foraſmuch as it is <hi rend="italic">the Cauſe</hi> of <lb/><hi rend="italic">other
+            Symptoms,</hi> which ſucceed; as the <hi rend="italic">Fever, <w part="I">In-</w><lb/><w
+              part="F">flammation</w>, ſwelled Face,</hi> &amp;c. eſpecially when the <lb/>Pain is
+          violent. Thoſe <hi rend="italic">ſeveral Accidents,</hi> now <lb/>mentioned, are <hi
+            rend="italic">cauſed</hi> only by the <hi rend="italic">raging Pain</hi> of <lb/>the <hi
+            rend="italic">Tooth-ach</hi> (the <hi rend="italic">true Mark</hi> of the Diſeaſe) and
+          <lb/>are <hi rend="italic">Symptoms of a Symptom only.</hi> And farther, <lb/>theſe <hi
+            rend="italic">Accidents</hi> of <hi rend="italic">Fever, Inflammation, ſwelled
+            <lb/>Face,</hi> &amp;c. are neither <hi rend="italic">in whole,</hi> nor <hi
+            rend="italic">in part,</hi> the <lb/><hi rend="italic">Cauſe</hi> of the <hi
+            rend="italic">Tooth-ach;</hi> neither are they <hi rend="italic">inſepara-<lb/>ble</hi>
+          Companions of the <hi rend="italic">Tooth-ach;</hi> for the <hi rend="italic"
+            >Tooth-<lb/>ach</hi> may be, and often is, <hi rend="italic">without them.</hi> And the
+            <lb/><hi rend="italic">ſwelled Face,</hi> in particular, does not <hi rend="italic"
+            >begin,</hi> nor <hi rend="italic">end</hi>
+          <lb/>with the Diſeaſe; nor does it <hi rend="italic">always accompany</hi> it; <lb/>nor is
+          it of the <hi rend="italic">ſame Nature</hi> with the <hi rend="italic">Humour,</hi>
+          <w part="I">oc-</w><lb/><w part="F">caſioning</w> that violent Pain, but is <hi
+            rend="italic">a Symptom</hi> only <lb/>of the <hi rend="italic">Tooth-ach;</hi> being
+            <hi rend="italic">raiſed by the Pain,</hi> and <lb/><hi rend="italic">bred by Conſent of
+            Parts</hi> from an Afflux of <w part="I">Hu-</w><lb/><w part="F">mours</w>. </p>
+        <p rend="indent"><lb/><hi rend="sc">Thus</hi> you ſee plainly <hi rend="italic">the
+            Method</hi> of <hi rend="italic">inveſtiga-<lb/>ting the Nature</hi> and <hi
+            rend="italic">Cauſes of a Diſeaſe;</hi> it's <hi rend="italic">Seat</hi>
+          <lb/>and <hi rend="italic">Part affected;</hi> it's <hi rend="italic">Diagnoſtic
+            Symptoms;</hi> and <lb/>the <hi rend="italic">Neceſſity of diſtinguiſhing theſe
+            latter,</hi> not only <lb/><hi rend="italic">from the Diſeaſe itſelf,</hi> but alſo <hi
+            rend="italic">from one another:</hi>
+          <lb/>All which will make way to judge the better of <hi rend="italic">a <lb/>fit
+            Remedy</hi> to cure the Diſeaſe; for we <hi rend="italic">cannot <w part="I"
+              >rea-</w><lb/><w part="F">ſonably</w> hope for a Cure, before the Diſeaſe be <w
+              part="I">tho-</w><lb/><w part="F">roughly</w> underſtood.</hi> And in <hi
+            rend="italic">this manner</hi> we muſt <lb/>come at the <hi rend="italic">Nature,
+            Cauſe,</hi> and <hi rend="italic">Cure of all <w part="I">Diſ-</w><lb/><w part="F"
+              >eaſes</w> whatever.</hi> — And, indeed, Diſeaſes have <lb/>that <hi rend="italic"
+            >ſurprizing Analogy</hi> to one another, that we <pb xml:id="page_29" n="20"
+          /><lb/>cannot find the <hi rend="italic">Nature of any one Diſeaſe;</hi> but the
+          <lb/>Nature of <hi rend="italic">ſeveral other</hi> will, by the ſame means, <lb/>become
+          manifeſt to us. So that <hi rend="italic">a general Know-<lb/>ledge</hi> ariſes from <hi
+            rend="italic">a particular Inquiry;</hi> and we are <lb/>inſtructed from the Diſcovery
+          of <hi rend="italic">any one,</hi> into the <lb/><hi rend="italic">Nature</hi> of <hi
+            rend="italic">many other Diſeaſes,</hi> and the <hi rend="italic">moſt perfect
+            <lb/>Practice</hi> in Curing them. </p>
+        <p rend="indent"><lb/><hi rend="sc">From </hi>this <hi rend="italic">Method</hi> alſo of
+          finding out the <w part="I">Di-</w><lb/><w part="F">ſtemper</w>, is diſcovered, at the
+          ſame time, the only <lb/>Way of making a <hi rend="italic">right</hi> and <hi
+            rend="italic">true Prognoſtic;</hi> which <lb/>is only a <hi rend="italic"
+            >Declaration</hi> of a Phyſician's <hi rend="italic">Expectation <lb/>in curing a ſick
+            Perſon.</hi> And <hi rend="italic">this Expectation</hi> can <lb/>no otherwiſe be <hi
+            rend="italic">truly framed,</hi> than from <hi rend="italic">the Na-<lb/>ture</hi> of
+          the Diſeaſe; the <hi rend="italic">Quantity</hi> and <hi rend="italic">Intenſeness</hi>
+          <lb/>of it; the <hi rend="italic">natural Strength</hi> of the Sick; and the <lb/><hi
+            rend="italic">Power of Medicines</hi> conjunctly. The Knowledge <lb/>therefore of <hi
+            rend="italic">Prognoſtics</hi> is not otherwiſe to be <w part="I">acqui-</w><lb/><w
+            part="F">red</w>, than by <hi rend="italic">rightly inveſtigating the Diagnoſtic
+            <lb/>Marks of a Diſeaſe,</hi> whereby it's <hi rend="italic">Nature</hi> is <w part="I"
+            >diſco-</w><lb/><w part="F">vered</w>; with <hi rend="italic">that</hi> the <hi
+            rend="italic">Quantity</hi> of the Diſeaſe, and the <lb/><hi rend="italic">Strength</hi>
+          of the Sick, at the ſame time. And as by <lb/><hi rend="italic">this Method,</hi> we are
+          alſo led into <hi rend="italic">the Nature,</hi> and <lb/><hi rend="italic">Power of
+            Medicines themſelves;</hi> ſo here again, the <lb/><hi rend="italic">very Medicine
+            reflects Light,</hi> and, in ſome meaſure, <lb/><hi rend="italic">confirms the Knowledge
+            of the Diſeaſe;</hi> as <hi rend="sc"><w part="I">Hippo-</w><lb/><w part="F">crates</w>
+          </hi>well obſerves: <hi rend="italic">The Medicine declares the <lb/>Diſeaſe.</hi>
+        </p>
+        <p rend="indent"><lb/><hi rend="sc">This</hi> then is the <hi rend="italic">Method,</hi> by
+          which the <hi rend="italic">Nature <lb/>of all Diſeaſes,</hi> to which human Bodies are,
+          or may <lb/>be liable, <hi rend="italic">is diſcovered.</hi> And ſhould ever any <hi
+            rend="italic">alto-<lb/>gether new,</hi> and <hi rend="italic">unheard of Diſeaſe,</hi>
+          at any time, <pb xml:id="page_30" n="21"/><lb/>appear amongſt us; <hi rend="italic"
+            >this</hi> will be found the <hi rend="italic">ſure way <lb/>of coming at it's
+            Nature:</hi> by only <hi rend="italic">thus carefully <w part="I">re-</w><lb/><w
+              part="F">collecting</w>,</hi> and <hi rend="italic">examining its Symptoms.</hi>
+          Again, <lb/>this will of Conſequence direct to the <hi rend="italic">moſt proper
+            <lb/>Method of Curing;</hi> the Knowledge of a Diſeaſe <w part="I">be-</w><lb/><w
+            part="F">ing</w> the firſt Step towards its Cure. </p>
+        <p rend="indent"><lb/><q rend="quotes"><hi rend="sc">All</hi>
+            <hi rend="italic">the Difficulty of Philoſophy,</hi></q> ſays the <lb/>great Sir <hi
+            rend="sc">Isaac Newton</hi>, <q rend="italic">ſeems to conſiſt in <lb/>this: From the
+            Phaenomena of Motions to <w part="I">inveſti-</w><lb/><w part="F">gate</w> the Forces of
+            Nature; and then, from theſe <lb/>Forces, to demonſtrate the other Phaenomena. </q>
+        </p>
+        <p rend="indent"><lb/><hi rend="sc">Agreeable</hi> to which, we obſerve: That <lb/><hi
+            rend="italic">the Symptoms of any Diſeaſe being given, it's Nature <lb/>may readily be
+            diſcovered.</hi>
+        </p>
+        <p rend="indent"><lb/><hi rend="sc">Now</hi> the Method of <hi rend="italic">curing
+            Diſeaſes,</hi> by <w part="I">draw-</w><lb/><w part="F">ing</w>
+          <hi rend="italic">Indications</hi> from the <hi rend="italic">evident</hi> and <hi
+            rend="italic">conjunct <w part="I">Cau-</w><lb/><w part="F">ſes</w>,</hi> has been moſt
+          approved of by the beſt and <lb/>Generality of Phyſicians. To this purpoſe <hi rend="sc"
+              ><w part="I">Cel-</w><lb/><w part="F">sus</w></hi>: <hi rend="italic">Rationalem
+            quidem puto Medicinam eſſe <w part="I">de-</w><lb/><w part="F">bere</w>: inſtrui vero
+            ab</hi> evidentibus <hi rend="italic">Cauſis; obſcuris <lb/>omnibus, non à Cogitatione
+            Artificis, ſed ab ipſa <w part="I">Ar-</w><lb/><w part="F">te</w> rejectis.</hi> As to
+            <hi rend="italic">the Knowledge of theſe Cauſes,</hi> it <lb/>is allowed, they can only
+          be attained by <hi rend="italic">a cloſe</hi> and <lb/><hi rend="italic">aſſiduous
+            Obſervation of all the Appearances in the <w part="I">ſe-</w><lb/><w part="F">veral</w>
+            Stages of the Diſtemper:</hi> Whoever therefore <lb/>is Maſter of <hi rend="italic">an
+            exact Knowledge</hi> in the <hi rend="italic">Hiſtories</hi>
+          <lb/>of Diſeaſes, having alſo due Regard to the <hi rend="italic">Diag-<lb/>noſtics,</hi>
+          as by <hi rend="italic">our Method</hi> directed; may readily <lb/><hi rend="italic"
+            >inveſtigate their Nature. Natural Philoſophy</hi> and <lb/>the <hi rend="italic"
+            >Hiſtory of Diſeaſes,</hi> as we obſerved before, muſt <pb xml:id="page_31" n="22"
+          /><lb/>ever go hand in hand in improving the Art of <lb/>Healing; it not being poſſible to
+          make any great <lb/>Uſe of the <hi rend="italic">latter,</hi> without ſome Degree of <w
+            part="I">Know-</w><lb/><w part="F">ledge</w> in the <hi rend="italic">former:</hi> and
+          the <hi rend="italic">greater our Knowledge</hi>
+          <lb/>is in the <hi rend="italic">Animal Oeconomy,</hi> the <hi rend="italic">better the
+            Nature</hi> of<lb/> Diſeaſes will be known. </p>
+        <p rend="indent"><lb/>I <hi rend="sc">have</hi> always found, the keeping cloſe to <hi
+            rend="italic">this <lb/>Method</hi> of inveſtigating the Nature of Diſeaſes, of <lb/><hi
+            rend="italic">the greateſt Uſe</hi> to me in the Courſe of <hi rend="italic">my <w
+              part="I">Pra-</w><lb/><w part="F">ctice</w>.</hi> For having long ſince drawn up <hi
+            rend="italic">our Method</hi>
+          <lb/>from the moſt approved Authors in Phyſic, <w part="I">Anci-</w><lb/><w part="F"
+            >ent</w> and Modern; I have conſtantly apply'd it, not <lb/>only to <hi rend="italic"
+            >all thoſe Hiſtories of Diſeaſes,</hi> which I read <lb/>in <hi rend="italic"
+            >Authors,</hi> whoſe <hi rend="italic">Deſcriptions</hi> of <hi rend="italic">evident
+            Cauſes, <lb/>Signs,</hi> and <hi rend="italic">Symptoms</hi> are juſt; where the <hi
+            rend="italic">ſeveral <lb/>Species</hi> of the <hi rend="italic">ſame Diſeaſe</hi> are
+            <hi rend="italic">judiciouſly <w part="I">diſtinguiſh-</w><lb/><w part="F">ed</w>;</hi>
+          but alſo to <hi rend="italic">all thoſe Diſeaſes,</hi> together with <lb/>their <hi
+            rend="italic">ſeveral Appearances,</hi> I have at any time met with <lb/>among <hi
+            rend="italic">my Patients.</hi> And I am verily perſuaded, <lb/>that you, Gentlemen,
+          will likewiſe reap the <hi rend="italic">ſame <lb/>Advantage,</hi> by the <hi
+            rend="italic">Uſe</hi> and <hi rend="italic">Application</hi> of <hi rend="italic">our
+            <lb/>Method,</hi> if duly attended, in your <hi rend="italic">future Practice;</hi>
+          <lb/>as well to the <hi rend="italic">great Relief of your Patients,</hi> as the <lb/><hi
+            rend="italic">abundant Satisfaction of your own Minds.</hi>
+        </p>
+        <p rend="indent"><lb/><hi rend="sc">Now</hi>, in order the more ſtrongly to inculcate
+          <lb/>on your Minds <hi rend="italic">this moſt neceſſary</hi> and <hi rend="italic">uſeful
+            Method <lb/>of inveſtigating,</hi> we will here again give it you in <lb/><hi
+            rend="italic">a cloſer Manner,</hi> and in a ſomewhat <hi rend="italic">different
+            Light;</hi>
+          <lb/>ſetting out with an Obſervation of <hi rend="sc">Lommius</hi>: <lb/>Noſcere Morbum
+          proximus <hi rend="italic">eſt ad Sanitatem</hi>
+          <w part="I">Gra-</w><lb/><w part="F">dus</w>: <hi rend="italic">Nemo ſane hanc aut
+            praeſagire, aut reddere <pb xml:id="page_32" n="23"/><lb/>affectis rectè poteſt, qui non
+            animadvertere</hi> Genus <lb/>Aegritudinis, <hi rend="italic">quod ſit; non ejus Eventum
+            omnem<lb/> praenunciare,</hi> certis Indiciis <hi rend="italic">norit.</hi>
+        </p>
+        <p rend="indent"><lb/><hi rend="sc">We</hi> ſaid before, that the <hi rend="italic"
+            >Symptoms</hi> of any <w part="I">Diſ-</w><lb/><w part="F">eaſe</w> being given, it's
+            <hi rend="italic">Nature</hi> may be diſcovered. </p>
+        <p rend="indent"><lb/><hi rend="sc">Now</hi>, the <hi rend="italic">Symptoms</hi> of every
+          Diſeaſe are no <lb/>other than the <hi rend="italic">Effects</hi> of ſome <hi
+            rend="italic">Cauſe,</hi> or ſome <lb/>Number of <hi rend="italic">Cauſes,</hi> which
+            <hi rend="italic">pervert</hi> and <hi rend="italic">overturn</hi>
+          <lb/>the <hi rend="italic">natural Actions</hi> of <hi rend="italic">one</hi> or <hi
+            rend="italic">more Parts;</hi> for which<lb/>reaſon by <hi rend="italic">explaining
+            theſe Symptoms,</hi> we become <lb/><hi rend="italic">appriſed of the perverted
+            Action,</hi> or <hi rend="italic">diſcover the <w part="I">Diſ-</w><lb/><w part="F"
+              >eaſe</w>:</hi> for nothing can be <hi rend="italic">the Cauſe</hi> of a Diſeaſe,
+          <lb/>that does not produce <hi rend="italic">the Symptoms,</hi> in which the <lb/><hi
+            rend="italic">Nature of the Diſeaſe</hi> conſiſts. </p>
+        <p rend="indent"><lb/><hi rend="sc">Wherefore</hi>, the <hi rend="italic">Symptoms</hi> of
+          any Diſeaſe <w part="I">be-</w><lb/><w part="F">ing</w> given, it's <hi rend="italic"
+            >Nature</hi> may thence be diſcovered: <lb/>And <hi rend="italic">the Nature</hi> of a
+          Diſeaſe being aſſigned, we <lb/>have alſo <hi rend="italic">the Methods</hi> of curing it.
+          Farther, having <lb/>the <hi rend="italic">Nature</hi> and <hi rend="italic">Cauſes</hi>
+          of any Diſeaſe, we ſhall be <lb/>able to determine <hi rend="italic">how far</hi> the
+          Diſeaſe is <hi rend="italic">curable</hi> or <lb/><hi rend="italic">incurable;</hi> the
+            <hi rend="italic">Probabilities</hi> of curing any <w part="I">Diſtem-</w><lb/><w
+            part="F">per</w>; and the <hi rend="italic">moſt proper Methods</hi> of attempting
+          <lb/>it. </p>
+        <p rend="indent"><lb/><hi rend="sc">Now</hi> the Ancients, as we have already <w part="I"
+            >obſer-</w><lb/><w part="F">ved</w>, having accurately deſcrib'd the <hi rend="italic"
+            >Diagnoſtic <lb/>Signs</hi> or <hi rend="italic">Marks</hi> of Diſeaſes, together with
+          their <lb/>moſt <hi rend="italic">natural</hi> and <hi rend="italic">ſimple
+            Appearances;</hi> whoever is<lb/>thoroughly acquainted with the <hi rend="italic"
+            >Hiſtories,</hi> as <w part="I">deli-</w><lb/><w part="F">vered</w> down to us by <hi
+            rend="italic">them,</hi> and is <hi rend="italic">accurate,</hi> or <hi rend="italic"
+            >well <pb xml:id="page_33" n="24"/><lb/>verſed</hi> in the <hi rend="italic"
+            >Structure</hi> and <hi rend="italic">Nature</hi> of <hi rend="italic">the Fluids</hi>
+          <lb/>and <hi rend="italic">Solids</hi> of the Human Body; may, from <hi rend="italic"
+            >their <lb/>Diagnoſtic Signs, in particular,</hi> be able to diſcover <lb/>the <hi
+            rend="italic">Nature</hi> and <hi rend="italic">Seat</hi> of the Diſeaſe, and the <hi
+            rend="italic">Way</hi>
+          <lb/>it is produced. By the ſame means alſo, he will <lb/>have it in his Power to ſhew in
+            <hi rend="italic">what manner,</hi> the <lb/><hi rend="italic">Symptoms</hi> attending
+          the Diſeaſe do <hi rend="italic">flow</hi> from it's <lb/><hi rend="italic">Nature,</hi>
+          thus found out from it's <hi rend="italic">Symptoms;</hi> and <lb/>likewiſe be capable of
+          perceiving how thoſe <hi rend="italic">Sym-<lb/>ptoms</hi> give way, or are cured, by <hi
+            rend="italic">changing the <w part="I">di-</w><lb/><w part="F">ſtempered</w>
+            Condition</hi> of the <hi rend="italic">Parts affected.</hi>
+        </p>
+        <p rend="indent"><lb/><hi rend="sc">In</hi> this Examination of the <hi rend="italic"
+            >Nature</hi> of the <w part="I">Diſ-</w><lb/><w part="F">eaſe</w> from it's <hi
+            rend="italic">Symptoms,</hi> we muſt be moſt careful, <lb/>that every <hi rend="italic"
+            >caſual</hi> and <hi rend="italic">foreign Symptom</hi> be ſeparated <lb/>from the <hi
+            rend="italic">conſtant</hi> and <hi rend="italic">permanent,</hi> in the manner <lb/>the
+            <hi rend="italic">Method,</hi> more at large, directs; it being eaſy <lb/>by obſerving
+          the <hi rend="italic">Rule</hi> there laid down, to <w part="I">diſtin-</w><lb/><w
+            part="F">guiſh</w> the <hi rend="italic">conſtant</hi> and <hi rend="italic">inſeparable
+            Symptoms</hi> from <lb/>thoſe, which are <hi rend="italic">merely caſual</hi> and <hi
+            rend="italic">ſecondary.</hi>
+        </p>
+        <p rend="indent"><lb/><hi rend="sc">The</hi>
+          <hi rend="italic">principal Symptoms</hi> are, for the moſt part, <lb/>caſy to be
+          explained; the <hi rend="italic">falſe Symptoms</hi> are moſt <lb/>commonly found among
+          the <hi rend="italic">ſecondary</hi> Sort, and <lb/>are the <hi rend="italic">Symptoms of
+            Symptoms</hi> only; for which <w part="I">rea-</w><lb/><w part="F">ſon</w> they ought to
+          be <hi rend="italic">rejected from the Number of <lb/>Symptoms properly belonging to the
+            Diſeaſe.</hi>
+        </p>
+        <p rend="indent"><lb/><hi rend="sc">Indications</hi> of Cure muſt be drawn from <lb/>the <hi
+            rend="italic">Nature</hi> of the Diſeaſe, and not from their <hi rend="italic"
+            >pre-<lb/>carious</hi> and <hi rend="italic">ſuppoſed Cauſes;</hi> nor from their <hi
+            rend="italic">adven-<lb/>titious</hi> and <hi rend="italic">caſual Symptoms:</hi> And
+          there muſt run <lb/>an <hi rend="italic">uninterrupted Chain,</hi> from the <hi
+            rend="italic">Diagnoſtic Signs</hi>
+          <pb xml:id="page_34" n="25"/><lb/>of the Diſeaſe, through it's <hi rend="italic"
+            >Nature</hi> and <hi rend="italic">Cauſes,</hi>
+          <lb/>'till it ends in a <hi rend="italic">rational</hi> and <hi rend="italic">evident
+            Method of <lb/>Cure.</hi>
+        </p>
+        <p rend="indent"><lb/><hi rend="sc">Thus</hi> we ſee that, in order <hi rend="italic">to
+            cure any Diſeaſe,</hi>
+          <lb/>the moſt <hi rend="italic">natural, eaſy,</hi> and <hi rend="italic">practical
+            Way,</hi> is firſt, <lb/>to <hi rend="italic">collect the moſt conſtant Symptoms</hi>
+          and <hi rend="italic">Effects</hi> of <lb/>the Diſeaſe. But in doing this, we muſt always
+          <lb/>remember; that <hi rend="italic">our utmoſt Diligence</hi> will be <w part="I"
+            >abſo-</w><lb/><w part="F">lutely</w> neceſſary, <hi rend="italic">rightly to
+            diſtinguiſh the Symptoms:</hi>
+          <lb/>That in our collecting <hi rend="italic">the genuine Diagnoſtic Signs</hi>
+          <lb/>of any Diſeaſe, we never ſuffer <hi rend="italic">the ſecondary Signs,</hi>
+          <lb/>or <hi rend="italic">Symptoms of Symptoms,</hi> to creep into the <w part="I"
+            >Num-</w><lb/><w part="F">ber</w> of <hi rend="italic">the genuine Diagnoſtic
+            Signs.</hi> For, if we do, <lb/>we ſhall certainly render our Inquiries into <hi
+            rend="italic">the true <lb/>Nature</hi> of the Diſeaſe, almoſt <hi rend="italic"
+            >fruitless</hi> and <hi rend="italic">impra-<lb/>cticable.</hi> But, by <hi
+            rend="italic">ſtrictly</hi> obſerving <hi rend="italic">this Caution,</hi>
+          <lb/>we ſhall readily diſcover <hi rend="italic">the Diſeaſe,</hi> and it's <hi
+            rend="italic">Sym-<lb/>ptoms;</hi> together with <hi rend="italic">the Cauſes</hi> of
+            <hi rend="italic">Both.</hi> And if <lb/>we can come at <hi rend="italic">the
+            Nature</hi> of the Diſeaſe, we are <lb/>about to Cure; there remains <hi rend="italic"
+            >no Difficulty</hi> as to the <lb/><hi rend="italic">Way of curing,</hi> be the <hi
+            rend="italic">Appearances</hi> of the <hi rend="italic">Symptoms</hi>
+          <lb/>ever ſo <hi rend="italic">various</hi> or <hi rend="italic">complicated.</hi>
+        </p>
+        <p rend="indent"><lb/><hi rend="sc">The</hi>
+          <hi rend="italic">direct Method</hi> of Cure being thus <hi rend="italic">obvious,</hi>
+          <lb/>the <hi rend="italic">Probabilities</hi> of <hi rend="italic">Success</hi> muſt be,
+          as the <hi rend="italic">Nature</hi>
+          <lb/>of the Diſtemper we come to Cure, and the <hi rend="italic">Force</hi>
+          <lb/>and <hi rend="italic">Efficacy of the Medicines</hi> we adminiſter, <hi rend="italic"
+            >reſpe-<lb/>ctively:</hi> And if we already know, or can diſcover <lb/>by Practice, <hi
+            rend="italic">the peculiar Ways,</hi> in which <hi rend="italic">the <w part="I"
+              >Me-</w><lb/><w part="F">dicines</w>,</hi> we make uſe of, <hi rend="italic">will
+            act;</hi> we ſhall be <lb/>thereby inſtructed, when <hi rend="italic">one Method,</hi>
+          or <hi rend="italic">any one <pb xml:id="page_35" n="26"/><lb/>Medicine, </hi> is moſt <hi
+            rend="italic">properly</hi> adminiſtered; and <hi rend="italic">why</hi>
+          <lb/>it muſt be <hi rend="italic">continued,</hi> or <hi rend="italic">laid aſide:</hi>
+          which is the <lb/><hi rend="italic">Sum</hi> and <hi rend="italic">Subſtance</hi> of
+          Phyſic. </p>
+        <p rend="indent"><lb/><hi rend="sc">The Materials</hi>, which compoſe <hi rend="italic">the
+              <w part="I">Me-</w><lb/><w part="F">thod</w> of Inveſtigating,</hi> and <hi
+            rend="italic">finding out the Nature of<lb/> Diſeaſes,</hi> having been only <hi
+            rend="italic">diſperſed</hi> in ſeveral Parts <lb/>of the Works of <hi rend="sc"
+            >Hippocrates, Celsus</hi>, <lb/>and other moſt approved Authors in Phyſic, both
+          <lb/>ancient and modern; and having never yet, as I <lb/>know of, been <hi rend="italic"
+            >thoroughly collected</hi> and <hi rend="italic">digeſted</hi> into <lb/>a regular Form:
+          As it may, to this Day, be juſtly <lb/>ſuppoſed <hi rend="italic">one great Reaſon,</hi>
+          why <hi rend="italic">thoſe excellent Hints</hi>
+          <lb/>and <hi rend="italic">Admonitions</hi> have not, <hi rend="italic">always,</hi> been
+          ſo <hi rend="italic">duly re-<lb/>garded</hi> and <hi rend="italic">attended to,</hi> as
+          they <hi rend="italic">certainly deſerve;</hi>
+          <lb/>ſo was it, long ago, an <hi rend="italic">Incentive</hi> to me to throw <lb/>them
+          together, with ſome Care and Pains, in <hi rend="italic">the <lb/>Method,</hi> in which I
+          have now delivered them. <lb/>And I have, for many Years, with much <hi rend="italic"
+            >Satis-<lb/>faction</hi> and <hi rend="italic">Succeſs,</hi> experienced the <hi
+            rend="italic">great Benefit</hi>
+          <lb/>and <hi rend="italic">Uſefulness</hi> of ſo good a Monitor in <hi rend="italic">my
+            own <w part="I">Pra-</w><lb/><w part="F">ctice</w>;</hi> and I flatter myſelf, it may
+          become <hi rend="italic">equally<lb/>ſerviceable to others</hi> of my Profeſſion, if <hi
+            rend="italic">rightly</hi>
+          <lb/>made uſe of: It being the <hi rend="italic">whole Buſiness</hi> of the <w part="I"
+            >Phy-</w><lb/><w part="F">ſician</w> to <hi rend="italic">find out the Diſtemper,</hi>
+          and from <hi rend="italic">that</hi> to <lb/>draw <hi rend="italic">the Method of
+            Cure;</hi> and to know <hi rend="italic">the Power</hi>
+          <lb/>and <hi rend="italic">Efficacy of his Medicines,</hi> together with <hi rend="italic"
+            >the true</hi>
+          <lb/>and <hi rend="italic">exact Manner</hi> of <hi rend="italic">Timeing</hi> and <hi
+            rend="italic">Doſing them,</hi> in <lb/>each <hi rend="italic">particular</hi> Diſeaſe,
+          and its <hi rend="italic">Variations.</hi>
+        </p>
+        <p rend="indent"><lb/><hi rend="sc">This Method</hi>, therefore, of <hi rend="italic"
+            >inveſtigating <lb/>the Nature of all Diſeaſes,</hi> being the <hi rend="italic">moſt
+            natural, <lb/>moſt rational,</hi> and <hi rend="italic">certain</hi> Way of attaining
+          that <pb xml:id="page_36" n="27"/><lb/><hi rend="italic">compleat Knowledge;</hi> I think,
+          it may not <w part="I">improper-</w><lb/><w part="F">ly</w> be eſteemed the very <hi
+            rend="italic">Maſter-Key</hi> to the <w part="I">Know-</w><lb/><w part="F">ledge</w> of
+            <hi rend="italic">the Practice</hi> of Phyſic: And I imagine, <lb/>if <hi rend="italic"
+            >thoroughly underſtood,</hi> and then <hi rend="italic">properly apply'd,</hi>
+          <lb/>it will moſt ſafely conduct us, from the very <lb/><hi rend="italic">Threſhold</hi>
+          of Phyſic even to its <hi rend="italic">Conſummation;</hi> and <lb/>that, with much <hi
+            rend="italic">greater Expedition</hi> and <hi rend="italic">Succeſs,</hi>
+          <lb/>than <hi rend="italic">any other,</hi> hitherto known, <hi rend="italic">Method.</hi>
+          And, <lb/>as it will be of very great Service to <hi rend="italic">the Beginner;</hi>
+          <lb/>ſo likewiſe, will it continue to be the <hi rend="italic">moſt uſeful</hi>
+          <lb/>and <hi rend="italic">neceſſary Companion,</hi> we can aſſociate withal, <lb/>through
+            <hi rend="italic">the whole Courſe of our Practice.</hi>
+          <w part="I">Where-</w><lb/><w part="F">fore</w>, that I might make this Method <hi
+            rend="italic">familiar</hi> to <lb/>you, I have <hi rend="italic">gradually opened</hi>
+          it in the Beginning of <lb/>this Lecture, and have through the whole <hi rend="italic"
+            >variouſly <lb/>repreſented</hi> it: More particularly, I have given it <lb/>you in <hi
+            rend="italic">two different Views;</hi> that I might the more <lb/><hi rend="italic"
+            >ſtrongly inculcate,</hi> and <hi rend="italic">impreſs it on your Minds.</hi>
+          <lb/>And, that nothing may be wanting to it's <hi rend="italic">compleat <lb/>Uſe;</hi> I
+          ſhall endeavour, in my <hi rend="italic">ſubſequent Lectures,</hi>
+          <lb/>not only to make it <hi rend="italic">ſtill more familiar,</hi> but alſo as <lb/><hi
+            rend="italic">ſerviceable</hi> as poſſibly may be, both to <hi rend="italic"
+            >yourſelves</hi>
+          <lb/>and <hi rend="italic">Patients;</hi> by illuſtrating it with <hi rend="italic"
+            >frequent <w part="I">Ex-</w><lb/><w part="F">amples</w>,</hi> and the <hi rend="italic"
+            >conſtant Application</hi> of it to the <hi rend="italic">ſe-<lb/>veral Diſorders,</hi>
+          we ſhall hereafter be obliged to <lb/>treat of. By this means, Gentlemen, I hope, you
+          <lb/>will be altogether Maſters of the <hi rend="italic">right Uſe of our <lb/>Method of
+            Inveſtigation,</hi> and <hi rend="italic">the Application</hi> of it <lb/>in <hi
+            rend="italic">all the Diſeaſes,</hi> and the <hi rend="italic">Varieties</hi> of them,
+          <lb/>you may either meet with <hi rend="italic">in Authors,</hi> or obſerve in <lb/><hi
+            rend="italic">your own future Practice.</hi>
+        </p>
+        <pb xml:id="page_37" n="28"/>
+        <p rend="indent"><lb/><hi rend="sc">For</hi> the reſt: I ſhall take care to direct you,
+          <lb/>how to judge of <hi rend="italic">the Efficacy</hi> and <hi rend="italic">Powers</hi>
+          of <w part="I">Medi-</w><lb/><w part="F">cines</w>, with their <hi rend="italic">peculiar
+            Way of acting:</hi> How to <lb/>adminiſter <hi rend="italic">each</hi> Medicine in <hi
+            rend="italic">the moſt proper Doſe,</hi>
+          <lb/>and <hi rend="italic">moſt proper Time</hi> of the Diſeaſe: <hi rend="italic"
+            >When</hi> it may <lb/>be neceſſary <hi rend="italic">to alter, entirely change,</hi> or
+            <hi rend="italic">continue <lb/>the Methods</hi> and <hi rend="italic">Medicines:
+            When,</hi> and <hi rend="italic">how, <w part="I">pro-</w><lb/><w part="F">perly</w> to
+            Bleed,</hi> and <hi rend="italic">apply Bliſters,</hi> in the ſeveral <lb/><hi
+            rend="italic">Stages</hi> and <hi rend="italic">Complications</hi> of a Diſtemper. I
+          ſhall, <lb/>beſides, furniſh you with a ſelect <hi rend="italic">Materia Medica,</hi>
+          <lb/>and <hi rend="italic">Methodus Praeſcribendi,</hi> ſuitable to each <w part="I"
+            >Diſ-</w><lb/><w part="F">eaſe</w>. This <hi rend="italic">introductory</hi> Knowledge,
+          joined to <hi rend="italic">your <lb/>own neceſſary Diligence</hi> and <hi rend="italic"
+            >conſtant Attention;</hi> will,<lb/> I apprehend, moſt effectually qualify you, to <hi
+            rend="italic">pra-<lb/>ctiſe with Succeſs,</hi> in every Diſorder, we ſhall have
+          <lb/>occaſion to lay before you in <hi rend="italic">this Part</hi> of our Courſe. </p>
+        <trailer rend="italic align-center"><lb/>FINIS. </trailer>
+      </div>
+
+    </body>
+  </text>
+</TEI>

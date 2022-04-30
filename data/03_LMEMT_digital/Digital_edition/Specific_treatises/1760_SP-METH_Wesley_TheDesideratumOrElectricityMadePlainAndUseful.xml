@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LMEMT Corpus - Wesley: The desideratum: or, electricity made plain and useful</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>John Wesley</persName>
+            </author>
+            <title type="main">THE DESIDERATUM: OR, ELETRICITY Made PLAIN and USEFUL. By a Lover of
+              Mankind, and of Common Sense.</title>
+            <edition n="1"/>
+            <idno type="ESTC">T16531</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/T16531"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>London: Printed: and sold by W. Flexney, under Gray's Inn Gate, Holbourn
+                  E. Cabe, Ave-Mary Lane George Clark, in Litt'e Carter Lane; George Keith,
+                  Grace-Church Street T. Smith, under the Change and at the Foundery, in Moorfields,
+                  MDCCLX. </persName>
+              </publisher>
+              <date>1760</date>
+            </imprint>
+            <extent>
+              <measure type="format">12⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="6"/>
+              <measure type="count" commodity="body" unit="page" quantity="72"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">British Library</orgName>
+            <idno type="ECCO">CW3307919020</idno>
+            <idno type="TCP">K028112.000</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Book on a specific topic: method"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text xml:lang="eng">
+    <front>
+      <gap reason="sampling" unit="pages" quantity="5"/>
+    </front>
+    <body>
+      <div n="I" type="part">
+        <pb xml:id="page_7"/>
+        <head rend="align-center space"><lb/>THE <lb/><hi rend="size(1.5)">DESIDERATUM:</hi>
+          <lb/>OR <lb/><hi rend="size(1.5)">ELECTRICITY made PLAIN. </hi></head>
+        <p rend="indent" n="1"><lb/>I. 1. <hi rend="dc(3)">F</hi>ROM a thouſand Experiments it <w
+            part="I">ap-</w><lb/><w part="F">pears</w>, that there is a fluid far more <lb/>ſubtle
+          than Air, which is every where diffuſed thro' <lb/>all Space, which ſurrounds the Earth
+          and pervades <lb/>every Part of it. And ſuch is the extreme <w part="I">Fine-</w><lb/><w
+            part="F">ness</w>, Velocity and Expanſiveneſs of this active <lb/>Principle, that all
+          other Matter ſeems to be only <lb/>the Body, and this the Soul of the Univerſe. This
+          <lb/>we might term <hi rend="italic">Elementary Fire;</hi> but that it is hard <lb/>for us
+          to ſeparate the Ideas of <hi rend="italic">Fire</hi> and <hi rend="italic">Burning:</hi>
+          <lb/>Altho' the latter is in reality but a preternatural <lb/>and violent Effect of the
+          former. </p>
+        <p rend="indent" n="2"><lb/>2. It is highly probable this is the general <w part="I"
+            >Inſtru-</w><lb/><w part="F">ment</w> of all the Mo<unclear>#</unclear>ion in the
+          Univerſe: From this <lb/><hi rend="italic">pure Fire,</hi> (which is properly ſo called)
+          the vulgar <lb/><hi rend="italic">Culinary</hi> Fire is kindled. For in Truth there is
+          <lb/>but one Kind of Fire in Nature, which exiſts in <lb/>all Places and in all Bodies.
+          And this is ſubtle and <lb/>active enough, not only to be, under the Great <lb/>Cauſe, the
+          ſecondary Cauſe of Motion, but to <w part="I">pro-</w><lb/><w part="F">duce</w> and
+          ſuſtain Life thro'out all Nature, as well <lb/>in Animals as in Vegetables. </p>
+        <pb xml:id="page_8" n="10"/>
+        <p rend="indent" n="3"><lb/>3. To this effect the learned Biſhop of <hi rend="italic"
+            >Cloyne</hi>
+          <lb/>obſerves, "The vital Flame is ſuppoſed to be the <lb/>Cauſe of all the Motions in the
+          Body of Man, <lb/>whether natural or voluntary. And has not Fire <lb/>the ſame Force to
+          animate thro'out, and actuate <lb/>the whole Syſtem of the World? Cheriſhing, <w part="I"
+            >heat-</w><lb/><w part="F">ing</w>, fermenting, diſſolving, ſhining, and operating
+          <lb/>in various Manners, as various Subjects offer, to <lb/>employ, or to determine it's
+          Force? It is <w part="I">pre-</w><lb/><w part="F">ſent</w> in all Parts of the Earth and
+          Firmament, tho' <lb/>latent and unobſerved, till ſome Accident produces <lb/>it into Act,
+          and renders it viſible in it's Effects." </p>
+        <p rend="indent" n="4"><lb/>4. This great Machine of the World requires <lb/>ſome ſuch
+          conſtant, active and powerful Principle, <lb/>conſtituted by it's Creator, to keep the
+          heavenly <lb/>Bodies in their ſeveral Courſes, and at the ſame <lb/>Time give Support,
+          Life and Increaſe to the <w part="I">vari-</w><lb/><w part="F">ous</w> Inhabitants of the
+          Earth. Now as the Heart <lb/>of every Animal is the Engine which circulates the <lb/>Blood
+          thro' the whole Body, ſo the Sun, as the <lb/>Heart of the World, circulates this Fire
+          thro' the <lb/>whole Univerſe. And this Element is not capable <lb/>of any eſſential
+          Alteration, Increaſe or Diminution. <lb/>It is a Species by itſelf; and is of a Nature
+          totally <lb/>diſtinct from that of all other Bodies. </p>
+        <p rend="indent" n="5"><lb/>5. That this is abſolutely neceſſary both to feed <lb/>common
+          Fire, and to ſuſtain the Life of <w part="I">Ani-</w><lb/><w part="F">mals</w>, it ſeems
+          may be learn'd from an eaſy <w part="I">Experi-</w><lb/><w part="F">ment</w>. Place a Cat,
+          together with a lighted Candle, <lb/>in a cold Oven: Then lute the Door cloſe, having
+          <lb/>fixt a Glaſs in the Middle of it: And if you look <lb/>thro' this, you may obſerve,
+          at one and the ſame <lb/>Inſtant, the Candle goes out, and the Animal dies. <lb/>A plain
+          Proof, that the ſame Fire is needful to <w part="I">ſuſ-</w><lb/><w part="F">tain</w> both
+          culinary Fire and animal Life: And a <lb/>large Quantity of it. Some doubtleſs pervades
+          the <lb/>Oven Door; but not enough to ſuſtain either <lb/>Flame or Life. Indeed every
+          Animal is a kind of <lb/>Fire-Engine. As ſoon as the Lungs inſpire the <pb xml:id="page_9"
+            n="11"/><lb/>Air, the Fire mingled with it is inſtantly <w part="I">diſperſ-</w><lb/><w
+            part="F">ed</w> thro' the pulmonary Veſſels into the Blood: <lb/>Thence it is diffuſed
+          thro' every Part of the Body, <lb/>even the moſt minute Arteries, Veins and Nerves.
+          <lb/>In the mean Time the Lungs inſpire more Air and <lb/>Fire, and ſo provide a conſtant
+          Supply. </p>
+        <p rend="indent" n="6"><lb/>6. The Air ſeems to be univerſally <w part="I"
+            >impregnat-</w><lb/><w part="F">ed</w> with this Fire, but ſo diluted, as not to hurt
+          <lb/>the Animal in Reſpiration. So a ſmall Quantity <lb/>of a Liquor dropt in Water, may
+          be friendly to an <lb/>human Body, tho' a few Drops of the ſame <w part="I">Li-</w><lb/><w
+            part="F">quor</w>, given by themſelv<unclear>#</unclear>s, would have occaſioned
+          <lb/>certain Death. And yet you cannot conceive one <lb/>Particle of the Water, without a
+          Particle of the <lb/>Medicine. 'Tis not impoſſible, this may be one <lb/>great Uſe of Air,
+          by adhering ſo cloſely to the <lb/>elementary Fire, to temper and render ſalutary to
+          <lb/>the Body, what would otherwiſe be fatal to it. </p>
+        <p rend="indent" n="7"><lb/>7. To put it beyond diſpute, that this Fire is <lb/>largely mixt
+          with the Air, you may make the <w part="I">fol-</w><lb/><w part="F">lowing</w> Experiment.
+          Take a round Lump of Iron, <lb/>and heat it to a Degree called a <hi rend="italic"
+            >welding</hi> Heat: <lb/>Take it out of the Fire, and with a Pair of <w part="I"
+            >Bel-</w><lb/><w part="F">lows</w> blow cold Air upon it. The Iron will then <lb/>as
+          effectually melt, as if it were in the hotteſt Fire. <lb/>Now when taken out of the Forge,
+          it had not Fire <lb/>enough in it to conquer the Coheſion of it's Parts: <lb/>But when
+          this Fire is join'd with that which was <lb/>mixt with the Air, it is ſufficient to do it.
+          On the <lb/>ſame Principle we account for the Increaſe of a <lb/>Coal or Wood Fire by
+          blowing it. </p>
+        <p rend="indent" n="8"><lb/>8. And let none wonder that Fire ſhould be ſo <lb/>connected
+          with Air, as hardly to be ſeparated. As <lb/>ſubtle as Fire is, we may even by Art attach
+          it to <lb/>other Bodies; yea, and keep it Priſoner for many <lb/>Years: And that either in
+          a ſolid or a fluid Form. <lb/>An Inſtance of the firſt we have in Steel: Which <lb/>is
+          made ſuch, only by impacting a large Quantity <lb/>of Fire into Bars of Iron. In like
+          Manner we <pb xml:id="page_10" n="12"/><lb/>impact a great Quantity of Fire into Stone, to
+          <lb/>make Lime. An Inſtance of the ſecond Kind we <lb/>have in Spirits, wherein Fire is
+          impriſon'd in a <lb/>fluid Form. Hence common Spirits will burn all <lb/>away. And if you
+          throw into the Air Spirits <w part="I">rec-</w><lb/><w part="F">tified</w> to the higheſt
+          Degree, not one Drop will <lb/>come down again, but the univerſal Fire will take <lb/>hold
+          of and abſorb it all. </p>
+        <p rend="indent" n="9"><lb/>9. That this Fire ſubſiſts both in Air, Earth, <lb/>and Water;
+          that it is diffuſed thro' all and every <lb/>Part of the Univerſe, was <hi rend="italic"
+            >ſuſpected</hi> by many of the <lb/>antient Naturaliſts, and <hi rend="italic"
+            >believed</hi> by the great Sir <lb/><hi rend="italic">Iſaac Newton.</hi> But of late
+          Years it has been fully demonſtrated: Particularly, by Mr. <hi rend="italic">Stephen
+            Gray,</hi>
+          <lb/>a Penſioner at the <hi rend="italic">Charterhouſe;</hi> who ſome Years <lb/>ſince
+          preſented to the Royal Society, an Account <lb/>of many Experiments he had made, whereby
+          this <lb/>ſubtle Fluid became clearly perceptible both to the <lb/>Sight and Feeling.
+          Becauſe the Glaſs Tube, by <lb/>Means of which thoſe Experiments were made, <lb/>was
+          obſerved when rubbed to attract Straws and <lb/>other light Bodies (a known Property of
+          Amber, <lb/>called in <hi rend="italic">Latin Electrum</hi>) <hi rend="italic">theſe</hi>
+          Experiments <lb/>were termed <hi rend="italic">electrical:</hi> A Word which was ſoon
+          <lb/>affixt to that ſubtle Fluid itſelf, and every Thing <lb/>pertaining to it. But
+          improperly enough: Seeing <lb/>the attracting (or ſeeming to attract) Straws and
+          <lb/>Feathers, is one of the moſt inconſiderable of all <lb/>the Effects, wrought by this
+          powerful and <w part="I">uni-</w><lb/><w part="F">verſal</w> Cauſe. </p>
+        <p rend="indent" n="10"><lb/>10. It was afterwards found, that a Glaſs Globe <lb/>was on
+          ſome Accounts preferable to a Glaſs <lb/>Tube: Particularly, as it was leſs Labour to turn
+          <lb/>the one for ſome Hours together, by means of a <lb/>ſmall Wheel, in the mean Time
+          rubbing it with a <lb/>dry Hand, or a little Cuſhion, than to rub the <lb/>Tube for ſo
+          long a Time. It w<unclear>#</unclear>s likewiſe <w part="I">ob-</w><lb/><w part="F"
+            >ſerved</w>, that a greater Quantity of ethereal Fire <lb/>might be <hi rend="italic"
+            >collected</hi> by this Means than by the other. <pb xml:id="page_11" n="13"/><lb/>I ſay
+            <hi rend="italic">collected;</hi> for that Fire is no more <hi rend="italic"
+            >created</hi> by <lb/>rubbing, than Water is by pumping. The grand <lb/>Reſervoir
+          thereof is the Earth, from which it is <lb/>diffuſed thro' all the other Parts of common
+            <w part="I">Mat-</w><lb/><w part="F">ter</w>. Accordingly in theſe Experiments, the
+          Globe <lb/>rubbing againſt the Cuſhion, collects Fire from it. <lb/>The Cuſhion receives
+          it from the Frame of the <lb/>Machine; the Frame of the Machine from the <lb/>Floor. But
+          if you cut off the Communication <lb/>with the Floor, no Fire can be <hi rend="italic"
+            >produced,</hi> becauſe <lb/>none can be <hi rend="italic">collected.</hi>
+        </p>
+        <p rend="indent" n="11"><lb/>11. In the Year 1746, Mr. de <hi rend="italic"
+            >Muſchenbroek,</hi>
+          <lb/>Profeſſor of natural Philoſophy at <hi rend="italic">Leyden,</hi> was led <lb/>by a
+          caſual Experiment, into many new <w part="I">Diſcove-</w><lb/><w part="F">ries</w>. Theſe
+          were chiefly made by Means of a <lb/>large but thin Glaſs Phial. The beſt way to <w
+            part="I">pre-</w><lb/><w part="F">pare</w> which is, to coat it with thin Lead; to line
+          <lb/>it on the inſide with Leaf-Gold, to within two <lb/>Inches of the Top, and to faſten
+          ſome Tinſel Fringe <lb/>to the Bottom, (or to the End of the Wire within <lb/>the Phial)
+          ſo as to touch the Gold Lining. By <lb/>this Wire going thro' the Cork, the Phial is hung
+          <lb/>on any metallic Body, which communicates by a <lb/>Wire, with the Globe or Tube. This
+          metallic <lb/>Body has been term'd, <hi rend="italic">the prime Conductor,</hi> as it
+          <lb/>conducts or conveys the Fire collected by the Tube <lb/>or Globe, either into the
+          Phial, or into any other <lb/>Body communicating therewith. </p>
+        <p rend="indent" n="12"><lb/>12. But all Bodies are not capable of receiving <lb/>it. There
+          is in this Reſpect an amazing <w part="I">Differ-</w><lb/><w part="F">ence</w> between
+          them. The Excrements of Nature, <lb/>as Wax, Silk, Hair, will not receive the ethereal
+          <lb/>Fire, neither convey it to other Bodies: So that <lb/>whenever in circulating it
+          comes to any of theſe, <lb/>it is at a full ſtop. Air itſelf is a Body of this <lb/>Kind;
+          with great Difficulty either receiving or <lb/>conveying this Fire to other Bodies: So are
+          Pitch <lb/>and Roſin (Excrements, as it were, of Trees). To <pb xml:id="page_12" n="14"
+          /><lb/>theſe we may add Glaſs, Amber, Brimſtone, dry <lb/>Earth, and a few other Bodies.
+          Theſe have been <lb/>frequently ſtiled <hi rend="italic">Electrics per ſe;</hi> as if they
+          alone <lb/>contain'd the <hi rend="italic">electric Fire:</hi> An eminently improper
+          <lb/>Title, founded on a palpable Miſtake. From the <lb/>ſame Miſtake, all other Bodies,
+          which eaſily <w part="I">re-</w><lb/><w part="F">ceive</w> and readily convey it, were
+          term'd <hi rend="italic">Non <w part="I">elec-</w><lb/><w part="F">trict</w>;</hi> on a
+          Suppoſition, that they contain'd no <lb/><hi rend="italic">electric Fire:</hi> The
+          contrary of which is now <w part="I">al-</w><lb/><w part="F">low'd</w> by all. </p>
+        <p rend="indent" n="13"><lb/>13. That this Fire is inconceivably ſubtle, <w part="I"
+            >ap-</w><lb/><w part="F">pears</w> from it's permeating even the denſeſt <w part="I"
+            >Me-</w><lb/><w part="F">tals</w>, and that with ſuch Eaſe, as to receive no <w part="I"
+            >per-</w><lb/><w part="F">ceptible</w> Reſiſtance. If any one doubt, whether it
+          <lb/>paſs thro' the Subſtance, or only along the Surface of Bodies, a ſtrong Shock taken
+          thro' his own <w part="I">Bo-</w><lb/><w part="F">dy</w>, will prevent his doubting any
+          longer. It <w part="I">dif-</w><lb/><w part="F">fers</w> from all other Matter in this,
+          that the <w part="I">Par-</w><lb/><w part="F">ticles</w> of it repell, not attract, each
+          other. And <lb/>hence is the manifeſt Divergency in a Stream of <lb/>electrical Effluvia.
+          But tho' the Particles of it <w part="I">re-</w><lb/><w part="F">pell</w> each other, yet
+          are they attracted by all other <lb/>Matter. And from theſe thr e, the extreme <w part="I"
+            >ſub-</w><lb/><w part="F">tlety</w> of this Fire, the mutual Repulſion of its Parts,
+          <lb/>and the ſtrong Attraction of them by other <w part="I">Mat-</w><lb/><w part="F"
+            >ter</w>, ariſes this Effect, that if a Quantity of <w part="I">elec-</w><lb/><w
+            part="F">tric</w> Fire be applied to a Maſs of common Matter <lb/>of any Bigneſs or
+          Length, (which has not already <lb/>got its Quantity) it is immediately diffuſed thro'
+          <lb/>the whole. </p>
+        <p rend="indent" n="14"><lb/>14. It ſeems, this Globe of Earth and Water, <lb/>with its
+          Plants, Animals, Buildings, have diffuſed <lb/>thro' their whole Subſtance, juſt as much
+          of this <lb/>Fire as they will contain. And this we may term <lb/>their <hi rend="italic"
+            >natural Quantity.</hi> This is not the ſame in all <lb/>Kinds of Matter: Neither in the
+          ſame Kind of <lb/>Matter in all Circumſtances. A ſolid Foot of one <lb/>Kind of Matter (as
+          Glaſs) contains more of it than <pb xml:id="page_13" n="15"/><lb/>a ſolid Foot of another
+          Kind. And a Pound <lb/>Weight of the ſame Kind of Matter, when <w part="I"
+            >rare-</w><lb/><w part="F">fied</w>, contains more than it did before. </p>
+        <p rend="indent" n="15"><lb/>15. We know that this Fire is <hi rend="italic">in</hi> common
+          <lb/>Matter, becauſe we can pump it <hi rend="italic">out,</hi> by the Globe <lb/>or Tube:
+          We know that common Matter has <lb/>near as much of it as it can contain, becauſe if we
+          <lb/>add a little more to any Portion of it, the <w part="I">addi-</w><lb/><w part="F"
+            >tional</w> Quantity does not enter, but forms a Kind <lb/>of Atmoſphere round it. On
+          the other Hand, we <lb/>know that common Matter has not more of it <lb/>than it can
+          contain. Otherwiſe all looſe Portions <lb/>of it would repel each other; as they
+          conſtantly do, <lb/>when they have ſuch Atmoſpheres. Had the Earth, <lb/>for Inſtance, as
+          much electric Fire in Proportion, <lb/>as we can give to a Globe of Iron or Wood, the
+          <lb/>Particles of Duſt and other light Matter, would <lb/>not only repel each other, but
+          be continually <w part="I">re-</w><lb/><w part="F">pelled</w> from the
+            E<unclear>#</unclear>rth. Hence the Air being <w part="I">con-</w><lb/><w part="F"
+            >ſtantly</w> loaded therewith, would be unfit for <w part="I">Re-</w><lb/><w part="F"
+            >ſpiration</w>. Here we ſee another Occaſion to adore <lb/>that Wiſdom, which has made
+          all Things by <lb/>Weight and Meaſure. </p>
+        <p rend="indent" n="16"><lb/>16. The Form of every electric Atmoſphere, is <lb/>that of the
+          Body which it ſurrounds: Becauſe it is <lb/>attracted by every Part of the Surface, tho'
+          it <w part="I">can-</w><lb/><w part="F">not</w> enter the Subſtance already replete.
+          Without this Attraction, it would not remain round the <w part="I">Bo-</w><lb/><w part="F"
+            >dy</w>, but diſſipate into the Air. </p>
+        <p rend="indent" n="17"><lb/>17. The Atmoſphere of an electrified Sphere, is <lb/>not more
+          eaſily drawn off, from any one Part of <lb/>it than from the other, becauſe it is equally
+            <w part="I">at-</w><lb/><w part="F">tracted</w> by every Part. But it is not ſo with <w
+            part="I">Bo-</w><lb/><w part="F">dies</w> of other Figures. From a Cube it is more
+          <lb/>eaſily drawn off at the Corners than at the Sides: <lb/>And ſo from the Corners of
+          Bodies of any other <lb/>Form, and moſt eaſily from the ſharpeſt Corners. <lb/>For the
+          Force with which an electrified Body <w part="I">re-</w><pb xml:id="page_14" n="16"
+            /><lb/><w part="F">tains</w> it's Atmoſphere, is proportion'd to the <w part="I"
+            >Sur-</w><lb/><w part="F">face</w> on which that Atmoſphere reſts. So a <w part="I"
+            >Sur-</w><lb/><w part="F">face</w> four Inches ſquare retains it's Atmoſphere, <lb/>with
+          ſixteen Times the Force that one of an Inch <lb/>ſquare does. And as in pulling the Hairs
+          from an <lb/>Horſe's Tail, a Force inſufficient to pull off an <lb/>Handful at once, could
+          eaſily pull it off Hair by <lb/>Hair: So tho' a blunt Body can't draw off all the
+          <lb/>Atmoſphere at once, a pointed one can eaſily draw <lb/>it off, Particle by Particle. </p>
+        <p rend="indent" n="18"><lb/>18. If you would have a ſenſible Proof, how <lb/>wonderfully
+          pointed Bodies draw off the electric <lb/>Fire, place an Iron Shot of four Inches Diameter
+          <lb/>on the Mouth of a dry Bottle. Suſpend over it a <lb/>ſmall Cork-Ball by a ſilken
+          Thread, juſt ſo as to <lb/>reſt againſt the Side of the Shot. Electrify the <lb/>Shot, and
+          the Ball will be repelled four or five <lb/>Inches from it. Then preſent to the Shot ſix
+          or <lb/>eight Inches off the Point of a ſharp Bodkin. The <lb/>Fire is inſtantly drawn
+          off; ſo the Repulſion ceaſes, <lb/>and the Ball flies to the Shot. But a blunt Body
+          <lb/>will not produce this Effect, till it is brought <w part="I">with-</w><lb/><w
+            part="F">in</w> an Inch of the Shot. If you preſent the Point <lb/>of the Bodkin in the
+          Dark, you may ſee <w part="I">ſome-</w><lb/><w part="F">times</w> at a Foot Diſtance, a
+          Light gather upon it <lb/>like a Glow-worm, which is manifeſtly the Fire it <lb/>extracts
+          from the Shot. The leſs ſharp the Point <lb/>is, the nearer it muſt be brought, before you
+          can <lb/>ſee the Light. And at whatever Diſtance you ſee <lb/>the Light, you may draw off
+          the electric Fire. </p>
+        <p rend="indent" n="19"><lb/>19. To be convinced that pointed Bodies <hi rend="italic"
+            >throw</hi>
+          <lb/>off, as well as <hi rend="italic">draw</hi> off the Fire, you may lay a <lb/>long
+          ſharp Needle on the Shot. It cannot then be <lb/>electrified, ſo as to repel the Ball,
+          becauſe the Fire <lb/>thrown upon it, continually runs off, at the Point <lb/>of the
+          Needle: From which in the Dark you may <lb/>ſee ſuch a Stream of Light, as in the
+          preceeding <lb/>Inſtance. </p>
+        <pb xml:id="page_15" n="17"/>
+        <p rend="indent" n="20"><lb/>20. While the electric Fire, which is in all <w part="I"
+            >Bo-</w><lb/><w part="F">dies</w>, is left to itſelf, undiſturb'd by any external
+          <lb/>Violence, it is more or leſs denſe, according to the <lb/>Nature of the Body which it
+          is in. In denſe <w part="I">Bo-</w><lb/><w part="F">dies</w> it is more rare: In rare
+          Bodies it is more denſe. <lb/>Accordingly every Body contains ſuch a Quantity <lb/>of it,
+          rare or denſe, as is ſuitable to it's Nature. <lb/>And there is ſome Reſiſtence to every
+          Endeavour <lb/>of altering it's Denſity, in the whole of any Body, <lb/>or in any Part of
+          it. For all Bodies reſiſt either <lb/>the Increaſe or Diminution of their natural <w
+            part="I">Quan-</w><lb/><w part="F">tity</w>. And on the other Hand, when it has been
+          <lb/>either increaſed or diminiſhed, there is a Reſiſtence <lb/>to it's Return to it's
+          natural State. </p>
+        <p rend="indent" n="21"><lb/>21. With regard to the different Reſiſtence made <lb/>by
+          different Bodies, in either of theſe Caſes, it is an <lb/>invariable Rule, that Glaſs,
+          Wax, Roſin, <w part="I">Brim-</w><lb/><w part="F">ſtone</w>, Silk, Hair, and ſuch like
+          Bodies, reſiſt the <lb/>moſt: And next to theſe, the Air, provided it be <lb/>dry, and in
+          a ſufficient Quantity. That this <w part="I">Re-</w><lb/><w part="F">ſiſtence</w> is leaſt
+          in Metals, Minerals, Water, <w part="I">Quick-</w><lb/><w part="F">ſilver</w>, Animals and
+          Vegetables: Which we may <lb/>rank together, becauſe the Difference in their <w part="I"
+            >Re-</w><lb/><w part="F">ſiſtence</w> is very inconſiderable: And that in theſe
+          <lb/>Bodies the Reſiſtence is greater, when their <w part="I">Sur-</w><lb/><w part="F"
+            >face</w> are poliſh'd, and extended in length, than <lb/>when their Surfaces are rough
+          and ſhort, or end in <lb/>ſharp Points. </p>
+        <p rend="indent" n="22"><lb/>22. When a Body has more electric Fire forced <lb/>into it,
+          than it has naturally, it is ſaid to be <w part="I">elec-</w><lb/><w part="F">tified</w>
+          <hi rend="italic">poſitively.</hi> When Part of the natural <w part="I">Quanti-</w><lb/><w
+            part="F">ty</w> is taken away, it is ſaid to be electrified <hi rend="italic"
+            >negative-<lb/>ly.</hi> Now when an Iron Bar is <hi rend="italic">negative'y</hi>
+          electrified, <lb/>the Fire drawn out, does not go in again as ſoon <lb/>as the Experiment
+          is over, but forms an <w part="I">Atmoſ-</w><lb/><w part="F">phere</w> round it, becauſe
+          of the Reſiſtence it finds in <lb/>it's Endeavour to dilate itſelf, either into the Air
+          <lb/>or into the Bar. And when it is electified <hi rend="italic">poſitively,</hi>
+          <pb xml:id="page_16" n="18"/><lb/>the ſame Kind of Atmoſphere is form'd, by the <lb/>Fire
+          accumulated upon it. Whether therefore <w part="I">Bo-</w><lb/><w part="F">dies</w> are
+          electrified negatively or poſitively, and <w part="I">re-</w><lb/><w part="F">main</w> ſo
+          when the Experiment is over, there are <w part="I">ſi-</w><lb/><w part="F">milar</w>
+          Atmoſpheres ſurrounding them, which will <lb/>produce ſimilar Effects. </p>
+        <p rend="indent" n="23"><lb/>23. But we can electrify no Body beyond a <w part="I"
+            >cer-</w><lb/><w part="F">tain</w> Degree: Becauſe when any is electrified to <lb/>that
+          Point, it has an Atmoſphere round it <w part="I">ſufficient-</w><lb/><w part="F">ly</w>
+          ſtrong to ballance any Power that endeavours to <lb/>electrify it farther. Nor is the
+          electric Fire either <lb/>from the Tube or the Globe, able to force its Way <lb/>thro'
+          this. </p>
+        <p rend="indent" n="24"><lb/>24. And in the ordinary Courſe of Nature, this <lb/>ſubtle,
+          active Fluid, which not only ſurrounds <w part="I">eve-</w><lb/><w part="F">ry</w> groſs
+          Body, but every component Particle of <lb/>each, where it is not in abſolute Contact with
+          it's <lb/>neighbouring Particle, can never be idle, but is <lb/>ever in Action, tho' that
+          Action be imperceptible <lb/>to our Senſes. It is ever varying it's Condition, tho'
+          imperceptibly, in all Parts of all Bodies <w part="I">what-</w><lb/><w part="F">ever</w>;
+          and electrifying them more or leſs, tho' not <lb/>ſo forcibly as to give ſenſible Signs of
+          it. All <w part="I">Bo-</w><lb/><w part="F">dies</w> then, and all their component
+          Particles, when <lb/>in their natural Situation, have round their <w part="I"
+            >Surfa-</w><lb/><w part="F">ces</w>, where they are not in abſolute Contact with
+          <lb/>other Surfaces, an imperceptible Atmoſphere <w part="I">ſuffi-</w><lb/><w part="F"
+            >cient</w> to ballance the ſmaller Force with which they <lb/>are attack'd: Every Way
+          ſimilar to the perceptible <lb/>Atmoſphere of Bodies forcibly electrified. In theſe
+          <lb/>imperceptible Atmoſpheres is placed the Power <lb/>which reſiſts their being
+          electrified to an higher <lb/>Degree than they are naturally. And this Power <lb/>lies in
+          the Elaſticity of the ſubtle Fluid, every <lb/>where diſperſed both round all Bodies and
+          in <lb/>them. </p>
+        <p rend="indent" n="25"><lb/>25. Glaſs is very difficultly electified, which ſeems <lb/>to
+          prove it has a very denſe electric Atmoſphere. <pb xml:id="page_17" n="19"/><lb/>Metals
+          are eaſily electrified. Conſequently they <lb/>have rare and therefore weakly-reſiſting <w
+            part="I">Atmoſ-</w><lb/><w part="F">pheres</w>. But as Heat rarefies all Bodies, ſo if
+          Glaſs <lb/>be heated to a certain Degree, even below melting, <lb/>it will give as free a
+          Paſſage to the electric Fire, <lb/>as Braſs or Iron does: The Atmoſphere round it
+          <lb/>being then rendered as rare as that of Metals. Nay, <lb/>when melted, it makes no
+          more Reſiſtence than <lb/>Water. But it's Reſiſtence increaſes, as it cools. <lb/>And when
+          it is quite cold, it reſiſts as forcibly as <lb/>ever. Smoothly-poliſh'd Wax reſiſts as
+          much as <lb/>Glaſs. But even the ſmall Heat raiſed by rubbing, <lb/>will render it's
+          Atmoſphere as rare as that of <w part="I">Me-</w><lb/><w part="F">tals</w>, and ſo
+          intirely deſtroy it's Reſiſtence. The <lb/>ſame is true of Roſin and Brimſtone. Even the
+          <lb/>Heat ariſing from Friction, deſtroys the Reſiſtence <lb/>which they naturally make to
+          being electrified: A <lb/>ſtrong Proof, that the Reſiſtence of all Bodies <w part="I"
+            >there-</w><lb/><w part="F">to</w>, is exerted at their Surfaces, and cauſed by an
+          <lb/>electric Atmoſphere of different Denſities, <w part="I">accord-</w><lb/><w part="F"
+            >ing</w> to different Circumſtances. </p>
+        <p rend="indent" n="26"><lb/>26. Moſt Experiments will ſucceed as well with <lb/>a Globe of
+          Brimſtone, as with one of Glaſs. Yet <lb/>there is a conſiderable Difference in their
+          Nature. <lb/>What Glaſs repells, Brimſtone (as alſo Roſin) <w part="I">at-</w><lb/><w
+            part="F">tracts</w>. Rubbed Glaſs emits the electric Fire: <lb/>Rubbed Brimſtone, Roſin
+          and Wax receive it. <lb/>Hence if a Glaſs Globe be turned at one end of a <lb/>prime
+          Conductor, and a Brimſtone one at the other, <lb/>not a Spark of Fire can be obtain'd; one
+          receiving <lb/>it in, as faſt as it is given out by the other. Hence <lb/>alſo if a Phial
+          be ſuſpended on the prime <w part="I">Con-</w><lb/><w part="F">ductor</w>, with a Chain
+          from it's Coating to the <w part="I">Ta-</w><lb/><w part="F">ble</w>, and only one Globe
+          turned, it will be <w part="I">elec-</w><lb/><w part="F">trified</w> (or <hi rend="italic"
+            >charged,</hi> as they term it) by twenty turns <lb/>of the Wheel: After which it may be
+            <hi rend="italic">diſcharged,</hi>
+          <lb/>that is, unelectrified, by twenty Turns of the other <lb/>Wheel. </p>
+        <pb xml:id="page_18" n="20"/>
+        <p rend="indent" n="27"><lb/>27 The Difference between <hi rend="italic">Non Electrics</hi>
+          <w part="I">(vul-</w><lb/><w part="F">garly</w> ſpeaking) and <hi rend="italic">Electrics
+            per ſe,</hi> is chiefly this. <lb/>1. A <hi rend="italic">Non Electric</hi> eaſily
+          ſuffers a Change, in the <lb/>Quantity of Fire it contains. It's whole Quantity <lb/>may
+          be leſſen'd by drawing out a Part, which it <lb/>will afterwards reſume. But you can only
+          leſſen <lb/>the Quantity contain'd in one of the Surfaces of an <lb/><hi rend="italic"
+            >Electric:</hi> And not that, but by adding at the ſame <lb/>Time an equal Quantity to
+          the other Surface. So <lb/>that the whole Glaſs will always have the ſame <lb/>Quantity in
+          it's two Surfaces And even this can <lb/>only be done in Glaſs that is thin: Beyond a <w
+            part="I">cer-</w><lb/><w part="F">tain</w> Thickneſs we know no Power that can make
+          <lb/>this Change. 2. The ethereal Fire freely moves <lb/>from Place to Place, in and thro'
+          the Subſtance of <lb/>a <hi rend="italic">Non Electric.</hi> But thro' the Subſtance of an
+            <lb/><hi rend="italic">Electric</hi> it will by no Means paſs. It freely <w part="I"
+            >en-</w><lb/><w part="F">ters</w> an Iron-Rod, and moves from one End to <lb/>another,
+          where the Overplus is diſcharged. But <lb/>it will not enter, or move thro a Glaſſ-Rod. <w
+            part="I">Nei-</w><lb/><w part="F">ther</w> will the thinneſt Glaſs which can be made,
+          <lb/>ſuffer any Particle of it entering one of it's <w part="I">Sur-</w><lb/><w part="F"
+            >faces</w>, to paſs thro' to the other. </p>
+        <p rend="indent" n="28"><lb/>28. Indeed it is only Metals and Liquids, that <lb/>perfectly
+            <hi rend="italic">conduct</hi> (or tranſmit) this Fire. Other <w part="I">Bo-</w><lb/><w
+            part="F">dies</w> ſeem to conduct it, only ſo far as they contain <lb/>a Mixture of
+          theſe; accordingly, moiſt Air will <w part="I">con-</w><lb/><w part="F">duct</w> it, in
+          Proportion to it's Moiſtneſs. But dry <lb/>Air will not conduct it at all: On the
+          contrary, it <lb/>is the main inſtrument, in confining any electric <lb/>Atmoſphere, to
+          the Body which it ſurrounds. Dry <lb/>Air prevents it's diſſipating (which it does
+          preſently <lb/>when <hi rend="italic">in vacuo</hi>) or paſſing from Body to Body. <lb/>A
+          clear Bottle full of Air, inſtead of Water, <w part="I">can-</w><lb/><w part="F">not</w>
+          be electrified. But exhauſted of Air, it is <w part="I">elec-</w><lb/><w part="F"
+            >trified</w> as effectually as if it was full of Water. <lb/>Yet an Electrical
+          Atmoſphere and Air, do not <w part="I">ex-</w><lb/><w part="F">clued</w> one another. For
+          we breath in it freely, <pb xml:id="page_19" n="21"/><lb/>and dry Air will blow thro' it,
+          without altering it at all. </p>
+        <p rend="indent" n="29"><lb/>29. When a Glaſs Phial is electrified, <w part="I"
+            >whate-</w><lb/><w part="F">ver</w> Quantity of Fire is accumulated on the <w part="I"
+            >in-</w><lb/><w part="F">ner</w> Surface, an equal Quantity is taken from the
+          <lb/>outer. Suppoſe, before the Operation begins, the <lb/>Quantity of Fire contain'd in
+          each Surface, is <lb/>equal to twenty Grains: Suppoſe at every Turn of <lb/>the Globe, one
+          Grain is thrown in: Then after <lb/>the firſt Stroke there are twenty one within, <w
+            part="I">nine-</w><lb/><w part="F">teen</w> only without: After the ſecond, the inner <w
+            part="I">Sur-</w><lb/><w part="F">face</w> will have twenty-two, the outer but eighteen:
+          <lb/>And ſo on, till after twenty Strokes, the inner <lb/>will have forty, the outer none.
+          And the. <w part="I">Opera-</w><lb/><w part="F">tion</w> ends: For no Power or Art of Man
+          can throw <lb/>any more on the inner Surface, when no more <lb/>can be taken from the
+          outer. If you attempt to <lb/>throw more in, it is thrown back thro' the Wire, <lb/>or
+          flies cut in Cracks thro' the Sides of the Phial. <lb/>The Equilibrium cannot be reſtored
+          in this Phial, <lb/>but by a Communication form'd between the inner <lb/>and outer
+          Surface, by ſomething external, touching <lb/>both the outer, and the Wire which
+          communicates <lb/>with the inner Surface. If you touch theſe by <lb/>Turns, it is reſtored
+          by Degrees: If both at once, <lb/>it is reſtored inſtantly. But then there is a Shock
+          <lb/>occaſioned by the ſudden paſſing of the Fire thro' <lb/>the Body, in it's Way from
+          the inner to the outer <lb/>Surface. For it moves from the Wire to the <w part="I"
+            >Fin-</w><lb/><w part="F">ger</w>, (not from the Finger to the Wire, as is <lb/>commonly
+          ſuppoſed). Thence it paſſes thro' the <lb/>Body to the other Hand, and ſo to the outer <w
+            part="I">Sur-</w><lb/><w part="F">face</w>. </p>
+        <p rend="indent" n="30"><lb/>30. The Force with which this Shock may be <lb/>given, is far
+          greater than one would conceive. <lb/>It will kill Rats, Hens, or even Turkeys in a <w
+            part="I">Mo-</w><lb/><w part="F">ment</w>: Others, that are not quite killed, it ſtrikes
+          <lb/>blind. It will give Polarity to a fine Needle, <w part="I">mak-</w><pb
+            xml:id="page_20" n="22"/><lb/><w part="F">ing</w> it point North and South, as if
+          touched by a <lb/>Loadſtone. It will invert the Polarity of a <w part="I">Com-</w><lb/><w
+            part="F">pass</w>, and make the North Point turn to the South. <lb/>At the ſame Time the
+          Ends of the Needles are <w part="I">fine-</w><lb/><w part="F">ly</w> blued like the Spring
+          of a Watch. It will melt <lb/>off the Heads and Points of Pins and Needles: And
+          <lb/>ſometimes the whole Surface of the Needle is run <lb/>and appears as it were
+          bliſter'd, when examined by <lb/>a magnifying Glaſs. It will melt thin Gold or <w part="I"
+            >Sil-</w><lb/><w part="F">ver</w>, when held tight between two Panes of Glaſs,
+          <lb/>together with the Surface of the Glaſs itſelf, and <lb/>incorporate them in a fine
+          Enamel. Yea a ſtrong <lb/>Spark from an electrified Phial, makes a fair Hole <lb/>thro' a
+          Quire of Paper doubled: Which is thought <lb/>good Armour againſt the Puſh of a Sword, or
+          <lb/>even a Piſtol Bullet. And 'tis amazing to obſerve <lb/>in how ſmall a Portion of
+          Glaſs, a great Electrical <lb/>Force may be. A thin Glaſſ-Bubble, about an <lb/>Inch
+          Diameter, being half filled with Water, <w part="I">part-</w><lb/><w part="F">ly</w> gilt
+          on the outſide, when electrified gives as <lb/>ſtrong a Shock as a Man can well bear:
+          Allowing <lb/>then that it contains no more Fire after charging <lb/>than before, how much
+          Fire muſt there be in this <lb/>ſmall Glaſs! It ſeems to be a Part of it's very <w
+            part="I">Sub-</w><lb/><w part="F">ſtance</w>. Perhaps if that Fire could be ſeparated
+          <lb/>from it, it would be no longer Glaſs. It might in <lb/>loſing this loſe its moſt
+          eſſential Properties, it's <lb/>Tranſparency, Brittleneſs, and Elaſticity. </p>
+        <p rend="indent" n="31"><lb/>31. Some have not improbably ſuppoſed, that all <lb/><hi
+            rend="italic">Electric</hi> Bodies, ſo called, are by their original <w part="I"
+            >Con-</w><lb/><w part="F">ſtitution</w>, thro'ly ſaturated with Electric Fire: That
+          <lb/>it remains fixt in them, (unleſs while the Texture <lb/>of thoſe Bodies is quite
+          alter'd by Liquefaction) <lb/>that Fire fixt in a Body conſtitutes an <hi rend="italic"
+            >Electric,</hi> and <lb/>all Bodies where it is not fixt are <hi rend="italic">Non
+            Electrics.</hi>
+          <lb/>Agreeably to which they ſuppoſe that in all <hi rend="italic">Non
+            <lb/>Electrics,</hi> the Original Fire, looſely inhering, is <lb/>eaſily driven on by
+          the new collected Fire, which <pb xml:id="page_21" n="23"/><lb/>then poſſeſſes its Place:
+          But that in <hi rend="italic">Electrics</hi> the <lb/>Original Fire being impacted into
+          their Subſtance, <lb/>and therefore more firmly inhering, will not give <lb/>Way to, or be
+          driven on by, the new collected <lb/>Fire. Such is Air in particular; with the Particles
+          <lb/>of which the original Fire is cloſely incorporated. <lb/>Dry Air ſeems to be ſo fully
+          ſaturated with it, that <lb/>it is ſcarce capable of receiving any more: <w part="I"
+            >Where-</w><lb/><w part="F">as</w> all n<unclear>#</unclear>w-collected Fire is
+          continually <w part="I">endeavour-</w><lb/><w part="F">ing</w> to return into the Earth.
+          Let Wires be <w part="I">elec-</w><lb/><w part="F">trified</w> ever ſo ſtrongly, yet the
+          Moment any Part <lb/>of them is touch'd by a Perſon ſtanding on the <lb/>Floor, they are
+          electrified no longer; all the Fire <lb/>eſcaping thro' him into the Earth. </p>
+        <p rend="indent" n="32"><lb/>32. Upon the Principles of Electricity, we may <lb/>give a more
+          rational Account, of many <w part="I">Appearan-</w><lb/><w part="F">ces</w> in Nature,
+          than has yet been done: Of <w part="I">Thun-</w><lb/><w part="F">der</w> and Lightning in
+          particular. In order to which <lb/>we may obſerve, all electrified Bodies retain the
+          <lb/>Fire thrown into them, till ſome Non-electric <w part="I">ap-</w><lb/><w part="F"
+            >proaches</w>: To which it is then communicated with <lb/>a Snap, and becomes equally
+          divided. Electric Fire <lb/>is ſtrongly attracted by Water, and readily mixes <lb/>with
+          it. And Water being electrified, the Vapours <lb/>ariſing from it, are equally
+          electrified. As theſe <lb/>float in the Air, they retain the additional Fire, till
+          <lb/>they meet with Clouds not ſo much electrified. <lb/>Then they communicate it with a
+          Shock. </p>
+        <p rend="indent" n="33"><lb/>33. The Ocean is compounded of Water, and <lb/>Salt; one an
+          Electric, the other not. When there <lb/>is a Friction among the Parts near its Surface,
+          the <lb/>Fire is collected from the Parts below. It is then <lb/>plainly viſible in the
+          Night, at the Stern of every <lb/>failing Veſſel. It appears from every Daſh of an
+          <lb/>Oar: In Storms the whole Sea ſeems on Fire. The <lb/>Particles of Water then repell'd
+          from the electrified <lb/>Surface, continually carry off the Fire as it is <w part="I"
+            >col-</w><lb/><w part="F">lected</w>. They riſe and form Clouds which are <w part="I"
+            >high-</w><pb xml:id="page_22" n="24"/><lb/><w part="F">ly</w> electrified, and retain
+          the Fire till they have an <lb/>Opportunity of diſcharging it. </p>
+        <p rend="indent" n="34"><lb/>34. Particles of Water riſing in Vapours, attach
+          <lb/>themſelves to Particles of Air. One Particle of Air <lb/>may be ſurrounded by twelve
+          Particles of Water as <lb/>large as itſelf, all touching it, and by more added <lb/>to
+          them. Particles of Air thus loaded would be <lb/>drawn nearer together by the mutual
+          Attraction of <lb/>the Particles of Water, did not the Fire, Common <lb/>or Electric,
+          included therein, aſſiſt their mutual <lb/>Repulſion. Hence they continue ſuſpended. But
+          <lb/>if Air thus loaded, be compreſs'd by adverſe Winds, <lb/>or by being driven againſt
+          Mountains, or if it be <lb/>condenſed by the Loſs of it's Fire, it will continue
+          <lb/>ſuſpended no longer, but will deſcend in Dew. And <lb/>if the Water ſurroun ing one
+          Particle of Air comes <lb/>into contact with that ſurrounding another, they <lb/>naturally
+          coaleſce into a Drop, and ſo deſcend in <lb/>Rain. </p>
+        <p rend="indent" n="35"><lb/>35. The Sun ſupplies common Fire to all <w part="I"
+            >Va-</w><lb/><w part="F">pours</w>, riſing either from Sea or Land. Vapours <lb/>having
+          both this and Electric Fire, are better <w part="I">ſup-</w><lb/><w part="F">ported</w>
+          than thoſe which have this only. For when <lb/>Vapours riſe into the coldeſt Region, the
+          common <lb/>Fire may fail. But the Cold will not diminiſh the <lb/>Electric: This is
+          always the ſame. Hence Clouds <lb/>raiſed from freſh Waters, from moiſt Earth, or
+          <lb/>growing Vegetables, more eaſily deſcend and <w part="I">de-</w><lb/><w part="F"
+            >poſite</w> their Waters, as having but little Electric<lb/> Fire, to keep the Particles
+          ſeparate from each other. <lb/>So that the greateſt Part of the Water raiſed from <lb/>the
+          Land, falls on the Land again. But Clouds <lb/>raiſed from the Sea, having both Fires, and
+          much <lb/>of the Electric, ſupport their Water far more <w part="I">ſtrong-</w><lb/><w
+            part="F">ly</w>, and being aſſiſted by Winds, may bring it <lb/>from the Middle of the
+          wideſt Ocean to the Middle <lb/>of the broadeſt Continent. And yet a Way is <w part="I"
+            >pro-</w><lb/><w part="F">vided</w> whereby theſe alſo are readily brought to <w
+            part="I">de-</w><pb xml:id="page_23" n="25"/><lb/><w part="F">poſite</w> their Water.
+          For whenever they are driven <lb/>againſt Mountains by the Winds, thoſe Mountains
+          <lb/>take away their Electric Fire: And being cold, the <lb/>common alſo: Hence the
+          Particles immediately cloſe. <lb/>If the Air was not much loaded, the Water falls in
+          <lb/>Dew on the Top and the Sides of the Mountain. <lb/>If it was, the Electric Fire being
+          taken at once <lb/>from the whole Cloud, it flaſhes brightly, and <lb/>cracks loudly. And
+          the Particles inſtantly <w part="I">coaleſ-</w><lb/><w part="F">cing</w> for want of that
+          Fire, fall in an heavy <lb/>Shower. </p>
+        <p rend="indent" n="36"><lb/>36. When a Ridge of Mountains ſtops the <lb/>Clouds, and draws
+          the Electric Fire from the Cloud <lb/>firſt approaching it, the next when it comes near
+          <lb/>the firſt, now deprived of it's Fire, flaſhes into it, <lb/>and depoſites it's own
+          Water. The third Cloud <lb/>approaching, and all that ſucceed, act in the ſame
+          <lb/>Manner; as far back as they extend, which may <lb/>be for ſeveral hundred Miles.
+          Hence the continual <lb/>Storms of Thunder, Lightning and Rain, on the <lb/>Eaſt Side of
+          thoſe va<unclear>#</unclear>t Mountains, the <hi rend="italic">Andes,</hi> which
+          <lb/>running North and South, intercept all the Clouds <lb/>brought againſt them from the
+            <hi rend="italic">Atlantick</hi> Ocean. In <lb/>a plain Country, there are other Means
+          to make <lb/>them drop their Water. For if an electrified Cloud <lb/>coming from the Sea,
+          meets in the Air a Cloud <lb/>coming from the Land, and therefore not <w part="I"
+            >electri-</w><lb/><w part="F">fied</w>, the firſt will give it's Flaſh into the latter,
+          and <lb/>thereby both will be made to depoſite their <w part="I">Wa-</w><lb/><w part="F"
+            >ter</w>. The Concuſſion of the Air contributes alſo to <lb/>ſhake down the Water, not
+          only from thoſe two <lb/>Clouds, but from others near them. When the Sea <lb/>and Land
+          Clouds would paſs at too great a Diſtance <lb/>from each other, they are mutually
+          attracted till <lb/>within the Diſtance. For the Sphere of Electrical <lb/>Attraction is
+          far beyond the flaſhing Diſtance. And <lb/>yet where a Cloud contains much Fire, it may
+          <lb/>ſtrike at a conſiderable Diſtance. When a <w part="I">Con-</w><pb xml:id="page_24"
+            n="26"/><lb/><w part="F">ductor</w> has but little Fire in it, you muſt approach
+          <lb/>very near before you can draw a Spark. Throw <lb/>into it a greater Quantity of Fire,
+          and it will give <lb/>a Spark at a greater Diſtance. But if a Gun <w part="I"
+            >Bar-</w><lb/><w part="F">rel</w>, when electrified, will ſtrike and make a Noiſe,
+          <lb/>at the Diſtance of an Inch, at what a Diſtance, and <lb/>with how great a Noiſe, may
+          ten thouſand Acres <lb/>of electrified Cloud ſtrike? No Wonder that this <lb/>ſhould melt
+          Metals (which our artificial Flaſh does <lb/>in ſome Degree) tho' perhaps not ſo properly
+          by <lb/>it's Heat, as by inſinuating into the Pores, and <w part="I">cre-</w><lb/><w
+            part="F">ating</w> a violent Repulſion between the Particles of <lb/>the Metal it paſſes
+          thro'. This overcomes the <w part="I">At-</w><lb/><w part="F">traction</w> whereby they
+          cohere, and ſo melts the <w part="I">me-</w><lb/><w part="F">tallic</w> Body. And this
+          accounts for its melting a <lb/>Sword in the Scabbard, or Gold in the Pocket, <lb/>without
+          burning either. </p>
+        <p rend="indent" n="37"><lb/>37. But Thunder Clouds do not always contain <lb/>more than
+          their natural Quantity of Electric Fire. <lb/>Very frequently they contain leſs. And when
+          this <lb/>is the Caſe, when they are negatively electrified, <lb/>altho' the Effects and
+          Appearances are nearly the <lb/>ſame, yet the Manner of Operation is different. <lb/>For
+          in this Caſe, it is really the Fire from the <lb/>Mountains, or other Part of the Earth
+          which ſtrikes <lb/>into the Cloud; and not, as we imagine, Fire from <lb/>the Cloud which
+          ſtrikes into the Earth. And we <lb/>may eaſily conceive, how a Cloud may be <w part="I"
+            >nega-</w><lb/><w part="F">tively</w> electrified. When a Portion of Water is <w
+            part="I">rare-</w><lb/><w part="F">fied</w> into a thin Vapour, the Fire it contains is
+            <w part="I">rare-</w><lb/><w part="F">fied</w> too. Conſequently it has then leſs than
+          it's <lb/>natural Quantity of Fire. Such a Cloud therefore <lb/>coming within a due
+          Diſtance of the Earth, will <lb/>receive from it a Flaſh of Electric Fire; which
+          <lb/>Flaſh, to ſupply a great Extent of Cloud, muſt <w part="I">of-</w><lb/><w part="F"
+            >ten</w> contain a great Quantity of Fire. Such a Cloud <lb/>alſo paſſing over Woods of
+          tall Trees, may ſilently <lb/>receive ſome Supply, either from the Points of the <pb
+            xml:id="page_25" n="27"/><lb/>Boughs, or from the ſharp Ends and Edges of the
+          <lb/>Leaves. The Cloud thus ſupplied, flaſhes into <lb/>other Clouds that have not been ſo
+          ſupplied; and <lb/>thoſe into others, till an Equilibrium is produced, <lb/>among all that
+          are within a ſtriking Diſtance of <lb/>each other. And hence are repeated Strokes and
+          <lb/>Flaſhes, till they deſcend in Showers to the Earth, <lb/>their Original. Rain,
+          eſpecially when in large <lb/>Drops, generally brings down the Electric Fire: <lb/>Falling
+          Snow often: Summer Hail, always, tho' <lb/>ſilently. Conſequently, any of theſe may
+          prevent <lb/>Thunder and Lightning; or at leaſt, abate it's <lb/>Violence. Rain is helpful
+          in another Reſpect <w part="I">like-</w><lb/><w part="F">wiſe</w>. By wetting Men or
+          Beaſts, it ſaves many <lb/>Lives. For if your Cloathes are thro'ly wet, and a <lb/>Flaſh
+          of Lightning ſtrikes the Top of your Head, <lb/>it will run in the Water over the Surface
+          of your <w part="I">Bo-</w><lb/><w part="F">dy</w> into the Ground: Whereas if your
+          Cloaths <lb/>were not wet, it would go thro' your Body. Hence <lb/>a wet Chicken cannot be
+          killed by a Stroke from the <lb/>Phial; whereas a dry one is kill'd in an Inſtant.
+          <lb/>See here alſo the Wiſdom and Goodneſs of Him, <lb/><hi rend="italic">who ſendeth
+            forth Lightning with the Rain!</hi> It <lb/>ſhould likewiſe be obſerv'd, that wherever
+            <w part="I">electrifi-</w><lb/><w part="F">ed</w> Clouds paſs, Spires, Towers, Chimneys,
+          and <lb/>high Trees, as ſo many Points, draw the Electric <lb/>Fire, and the whole Cloud
+          frequently diſcharges <lb/>there Therefore it is highly dangerous in ſuch a <lb/>Storm, to
+          take Shelter under a Tree. </p>
+        <p rend="indent" n="38"><lb/>38. Common Fire (if it be any thing more, than <lb/>a different
+          Modification of the ſame Element) is <lb/>more or leſs in all Bodies, as well as
+          Electrical. If <lb/>there be a ſufficient Quantity of either in any <w part="I"
+            >Bo-</w><lb/><w part="F">dy</w>, it is inflamed. But when the Quantity of <w part="I"
+            >com-</w><lb/><w part="F">mon</w> Fire therein is ſmall there needs more <w part="I"
+            >Elec-</w><lb/><w part="F">tric</w> Fire to infl<unclear>#</unclear>me it. Where the
+          Quantity of <lb/>common Fire is greater, leſs of the Electric will <lb/>ſuffice. So if
+          Spirits are heated, a ſmall Spark <w part="I">in-</w><pb xml:id="page_26" n="28"/><lb/><w
+            part="F">flames</w> them. If they are not, the Spark muſt be <lb/>greater. Sulphureous
+          Vapours, whether riſing <lb/>from the Earth, or from Stacks of moiſt Hay or <lb/>Corn, or
+          any other heated and reeking Vegetable, <lb/>contain ab ndance of common Fire. A ſmall <w
+            part="I">Ad-</w><lb/><w part="F">dition</w> of Electric then will inflame them. <w
+            part="I">There-</w><lb/><w part="F">fore</w> they are eaſily kindled by Lightning. </p>
+        <p rend="indent" n="39"><lb/>39. Any who would be clearly convinced of the <lb/>Nature of
+          Lightning, may make the following <w part="I">Ex-</w><lb/><w part="F">periment</w>. Make a
+          ſmall Croſs of two thin Strips <lb/>of Wood, the Arms being juſt ſo long, as to reach
+          <lb/>the four Corners of a large, thin Silk Handkerchief <lb/>when extended. Tie the
+          Corners of this to the <lb/>Extremities of the Croſs; and ſo you have the <w part="I"
+            >Bo-</w><lb/><w part="F">dy</w> of a Kite: Add to this a proper Tail, Loop <lb/>and
+          String, and it will riſe in the Air like one made <lb/>with Paper: But this is
+            fi<unclear>#</unclear>ter to bear the Wind <lb/>and Wet in a Storm without tearing. To
+          the Top <lb/>of the Croſs fix a ſharp pointed Wire, riſing a Foot <lb/>above it. Tie a
+          Silk Ribbon to the End of the <lb/>Twine next the Hand; and where the Silk and <lb/>Twine
+          join, faſten a Key. Raiſe this Kite when <lb/>a Thunder-Storm is coming on: But he that
+          holds <lb/>the String, muſt ſtand in a Porch, or under ſome <lb/>other Covering, that the
+          Ribbon may not be wet. <lb/>He muſt likewiſe take particular Care, that the <lb/>Twine do
+          not touch the Top or Side of the Porch. <lb/>As ſoon as the Thunder-Cloud comes over the
+          <lb/>Kite, the pointed Wire draws the Electric Fire <lb/>from it. The Kite and all the
+          Twine are then <lb/>electrified, as plainly appears by this, that the looſe <lb/>Filaments
+          of the Twine ſtand out every way, and <lb/>are attracted by an approaching Finger. And
+          when <lb/>the Kite and Twine being wet, conduct the Fire <lb/>freely, it will ſtream from
+          the Key, on the <w part="I">Ap-</w><lb/><w part="F">proach</w> of the Knuckle. By this Key
+          the Phial <lb/>may be charged, and all other Experiments made, <lb/>as by the Globe. And
+          this is a Demonſtration, <pb xml:id="page_27" n="29"/><lb/>that the Electric Fire thereby
+          obtain'd, is the very <lb/>ſame with that of Lightning. </p>
+        <p rend="indent" n="40"><lb/>40. May not the Knowledge of this Power in <lb/>pointed Bodies,
+          of drawing off the Fire contain'd <lb/>in theſe Clouds, ſuggeſt to us a very probable <w
+            part="I">Me-</w><lb/><w part="F">thod</w>, of preſerving Houſes, Churches, Ships from
+          <lb/>the Stroke of Lightning? Might we not fix on <lb/>the higheſt Part of them, upright
+          Rods of Iron <lb/>made ſharp as Needles, and gilt, to prevent <w part="I">ruſt-</w><lb/><w
+            part="F">ing</w>, which otherwiſe would hinder their free <w part="I">Con-</w><lb/><w
+            part="F">veyance</w> of the Electric Fire? From the Foot of <lb/>thoſe Rods (which need
+          not be above half an Inch <lb/>diameter) a Wire may paſs down the Outſide of <lb/>the
+          Building into the Ground; or down round one <lb/>of the Shrouds of a Ship, and down her
+          Side, till <lb/>it reaches the Water. Would not theſe Rods <w part="I">ſi-</w><lb/><w
+            part="F">lently</w> draw off the Electric Fire, before the Cloud <lb/>was nigh enough to
+          ſtrike? And thereby in a good <lb/>Meaſure ſecure us from that moſt ſudden and <w part="I"
+            >terri-</w><lb/><w part="F">ble</w> Miſchief! Let it not be objected, that the <w
+            part="I">uſ-</w><lb/><w part="F">ing</w> this probable Means of preventing a threatning
+          <lb/>Danger, would imply any Denial of, or Diſtruſt <lb/>in, Divine Providence Not at all:
+          We know <lb/>the Creator of the Univerſe, is likewiſe the <w part="I">Go-</w><lb/><w
+            part="F">vernor</w> of all Things therein. But we know <w part="I">like-</w><lb/><w
+            part="F">wiſe</w> that he gove ns by ſecond Cauſes; and that <lb/>accordingly it is his
+          Will, we ſhould uſe all the <lb/>probable Means he has given us, to attain every
+          <lb/>lawful End. It is therefore no more an <w part="I">Impeach-</w><lb/><w part="F"
+            >ment</w> of his Providence, when we foreſee a Storm <lb/>of Lightning and Rain, to
+          ſhelter our Houſe (as far <lb/>as we are able) from the one, than to ſhelter <w part="I"
+            >our-</w><lb/><w part="F">ſelves</w> in that Houſe from the other. Is it not juſt
+          <lb/>as innocent (if it be poſſible) to keep our Rooms <lb/>tight from Lightning, as from
+          Wind and Water? </p>
+        <p rend="indent" n="41"><lb/>41. It may not be improper to add one or two <lb/>Obſervations,
+          before we proceed to what is of more <lb/>Importance. Scarce any Phenomenon in Nature <pb
+            xml:id="page_28" n="30"/><lb/>has been eſteem'd more difficult to be accounted for
+          <lb/>than thoſe luminous Appearances in the Sky, term'd <lb/><hi rend="italic">Aurora
+            Borealis,</hi> or <hi rend="italic">Northern Lights.</hi> But theſe <w part="I"
+            >al-</w><lb/><w part="F">ſo</w> may be rationally explain'd, upon the Principles <lb/>of
+          Electricity. We often ſee Clouds at different <lb/>Heights, paſſing different Ways, North
+          and South <lb/>at the ſame Time. This manifeſtly proves <w part="I">differ-</w><lb/><w
+            part="F">ent</w> Currents of Air, one of them under the other. <lb/>Now as the Air
+          between the Tropics is rarefied by <lb/>the Sun, it riſes; the denſer Air preſſing into
+          it's <lb/>Place. The Air ſo raiſed, moves North and South, <lb/>and if it has no
+          Opportunity before, muſt deſcend <lb/>in the Polar Regions. When this Air with it's <w
+            part="I">Va-</w><lb/><w part="F">pours</w> deſcends into contact with the Vapours <w
+            part="I">ariſ-</w><lb/><w part="F">ing</w> there, the Electric Fire which it brought <w
+            part="I">be-</w><lb/><w part="F">gins</w> to be communicated, and is ſeen in clear
+          <lb/>Nights; being firſt viſible where it is firſt in <w part="I">Mo-</w><lb/><w part="F"
+            >tion</w>, namely in the moſt Northern Parts. But from <lb/>thence the Streams of Light
+          ſeem to ſhoot <w part="I">Souther-</w><lb/><w part="F">ly</w>, even to the Zenith of
+          Northern Countries. </p>
+        <p rend="indent" n="42"><lb/>42. Another Phenomenon of a totally different <lb/>Kind, may be
+          accounted for on the ſame <w part="I">Princi-</w><lb/><w part="F">ples</w>, altho' Mr. <hi
+            rend="italic">Prior</hi> ſuppoſes <hi rend="italic">Solomon</hi> himſelf to <lb/>ask, as
+          a Queſtion which he could not anſwer, <q rend="quotes"><lb/><l>Whence does it happen, that
+              the Plant which well </l>
+            <lb/><l>We name the <hi rend="italic">Senſitive,</hi> ſhould move and feel? </l>
+            <lb/><l>Whence know her Leaves to anſwer her Command, </l>
+            <lb/><l>And with quick Horror fly the neighbouring Hand? </l></q>
+        </p>
+        <p rend="indent"><lb/>Allowing for Poetical Amplification the plain Fact <lb/>is this. The
+          Senſitive Plant, as it were, ſhrinks <lb/>away, as ſoon as your Hand approaches it. And
+          <lb/>from a turgid and vivid Appearance, inſtantly droops <lb/>and hangs it's Leaves. Now
+          ſuppoſe this Plant to <lb/>contain more Electric Fire than any other Plant or <pb
+            xml:id="page_29" n="31"/><lb/>Animal, it muſt or Courſe communicate that Fire, <lb/>to
+          any other that touches it. And if ſo, it's Leaves <lb/>and Branches muſt be in a languid
+          State, till they <lb/>have recover'd their natural Quantity. To illuſtrate <lb/>this, ſet
+          any ſmall Tree in a Pot on a Cake of <lb/>Brimſtone. Electrify it and it grows extremely
+          <lb/>turgid, ſo as to erect it's Leaves. But the <w part="I">Mo-</w><lb/><w part="F"
+            >ment</w> you touch one of them, the whole Tree <lb/>droops, and hangs all it's Leaves
+          and Branches. </p>
+        <p rend="indent"><lb/>To throw all the Light I can on the Subject, I <lb/>ſubjoin a few
+          Extracts from ſeveral other Writers. </p>
+        <div>
+          <head rend="italic align-center"><lb/>An Extract from Mr. <hi rend="italic">Watſon</hi>'s
+            Experiments and <lb/>Obſervations. </head>
+          <p rend="indent" n="1"><lb/>1. When two Plates, the one electrified, the <lb/>other not,
+            were brought near each other, the <w part="I">Flaſh-</w><lb/><w part="F">es</w> of <hi
+              rend="italic">bright Flame</hi> were ſo large, that in a dark <lb/>Room, I could
+            diſtinctly ſee the Faces of 13 <w part="I">Per-</w><lb/><w part="F">ſons</w>. P. 6. </p>
+          <p rend="indent" n="2"><lb/>2. A Piece of large blunt Wire was hung to the <lb/>Conductor.
+            To the End of this when electrified a <lb/>black Surface not electrified being brought
+            near, <lb/>(tho' not near enough to cauſe a Snap) a Bruſh of <lb/><hi rend="italic">Blue
+              Flame,</hi> quite different from the former, iſſued <lb/>of more than an Inch long,
+            and an Inch thick. P. 7. </p>
+          <p rend="indent" n="3"><lb/>3. If a Perſon ſtrongly electrified lays his Hand <lb/>on the
+            Cloaths of one that is not, eſpecially if they <lb/>are thin Woollen or Silk, they both
+            feel as it were <lb/><hi rend="italic">many Pins pricking</hi> them, as long as the
+            Globe is <lb/>in Motion. </p>
+          <p rend="indent" n="4"><lb/>4. If Oil of Turpentine be ſet on Fire in a <w part="I"
+              >Veſ-</w><lb/><w part="F">ſel</w> held by one electrified, <hi rend="italic">the
+              Smoke</hi> ariſing <w part="I">there-</w><lb/><w part="F">from</w>, received againſt a
+            Plate held at a Foot <w part="I">Diſ-</w><lb/><w part="F">tance</w> from the Flame, by
+            one ſtanding on Roſin, <lb/>will enable him to Fire warm Spirits of Wine. <lb/>The
+            Electric Strokes have been likewiſe felt, upon <lb/>touching the ſecond Man, when the
+            Plate he held <pb xml:id="page_30" n="32"/><lb/>in the Smoke has been between ſeven and
+            eight <lb/>Feet above the Flame. P. 8. </p>
+          <p rend="indent" n="5"><lb/>5. Take burning Spirits of Wine inſtead of Oil <lb/>of
+            Turpentine: And if the ſecond Man hold the <lb/>End of an Iron Rod at the Top of the <hi
+              rend="italic">Flame,</hi> he <lb/>may k ndle other warm Spirits held near his Finger.
+            <lb/>Hence we find that either Smoke or Flame <w part="I">con-</w><lb/><w part="F"
+              >ducts</w> the Electric Fire, and does not perceptibly <lb/>diminiſh it's Force. P 9. </p>
+          <p rend="indent" n="6"><lb/>6. If the Wire of the Phial be not touched, the
+            <lb/>electrified Water or Steel Duſt will retain it's <lb/>Force many Hours, may be
+            convey'd ſeveral Miles, <lb/>and will afterward exert it's Force upon touching <lb/>the
+            Wire. P. 16. </p>
+          <p rend="indent" n="7"><lb/>7. If an Egg is hung on the Conductor, and a <lb/>Perſon
+            graſping the electrified <unclear>#</unclear>hial with one Hand, <lb/>brings the Palm of
+            his other near the Bottom of the <lb/>Egg, he receives a ſmart <unclear>#</unclear>troke
+            on the Hand, as <lb/>with a Ferula, and his Hand ſeems full of a more <lb/>red Fire than
+            is uſually obſerved. P. 24. </p>
+          <p rend="indent" n="8"><lb/>8. Any Number of Perſons communicating with <lb/>each other,
+            the firſt of whom graſps the Phial, and <lb/>the laſt touches the Conductor, receive the
+            ſame <lb/>Shock as if it was <unclear>#</unclear>ne only. P. 25. </p>
+          <p rend="indent" n="9"><lb/>9. The Electric Force always deſcribes a <w part="I"
+              >Cir-</w><lb/><w part="F">cuit</w>, and moves in the ſtraiteſt Line it can, <w
+              part="I">be-</w><lb/><w part="F">tween</w> the Conductor and hial. P. 26 </p>
+          <p rend="indent" n="10"><lb/>10. To prove th<unclear>#</unclear>s, while the Machine ſtood
+            on <lb/>Wax, I ſtood upon the Floor; and putting one <lb/>Hand on the Machine, touch'd
+            the Gun Barrel <lb/>with the other. Upon this Fire iſſued, and the <lb/>ſnapping
+            continued as long as I held my hand on <lb/>the Machine, but no longer This ſhew'd at
+            once, <lb/>that the Electric Fire paſt from the Floor thro' my <lb/>Body to the Machine.
+            P 36. </p>
+          <p rend="indent" n="11"><lb/>11. If the Electric Fire is not ſtopt, no Sign of <lb/>it's
+            Preſence is obſervable in the Bodies ſuſpended <lb/>to the Globe. Tho' it throws ever ſo
+            much of this <pb xml:id="page_31" n="33"/><lb/>Fire upon them, it paſſes from them to
+            the Floor <lb/>whence it came. But if it is ſtopt, it is then <w part="I">ac-</w><lb/><w
+              part="F">cumulated</w> in or upon theſe Bodies: Altho' this can <lb/>be done only to a
+            certain Degree, after which it <lb/>continually diſperſes. If when it is accumulated, a
+            <lb/>Man ſtanding on the Floor touches thoſe Bodies, <lb/>the Snap is felt, and the Fire
+            is ſeen. But this <lb/>ſnapping is not when the Fire paſſes off <w part="I"
+              >continual-</w><lb/><w part="F">ly</w>, as from a Piere of blunt Wire hung to the
+            <lb/>Barrel, and a Han<unclear>#</unclear> brought near it. Then it <w part="I"
+              >ap-</w><lb/><w part="F">pears</w> like a blue Cone of Flame, with it's Point
+            <lb/>towards the Wire. When the Hand is held at a <lb/>proper Diſtance there is a Blaſt
+            therefrom, as of <lb/>cold Air. If you <unclear>#</unclear>o not determine the Electric
+            <lb/>Fire to a Point, it is diſperſed from all parts of the <lb/>electrified Body: But
+            if you do, by thus holding <lb/>your Hand near the Fire, you ſee how it paſſes to
+            <lb/>the Floor, and ſo into the Earth. The Globe <w part="I">there-</w><lb/><w part="F"
+              >fore</w> only circulates this Fire, which is collected by <lb/>it's Friction againſt
+            the Hand or Cuſhion, and <lb/>which is conſtantly ſupplied to theſe from the Earth.
+            <lb/>And accordingly the <unclear>#</unclear>ngr<unclear>#</unclear>ſs of it, as well as
+            the <lb/>Egreſs is viſible. For, if while any unelectrified <lb/>Body touches the
+            Barrel, you bring your Finger near <lb/>the Wood-Work of the Machine, you will ſee
+            <lb/>the Bruſh of Blue Flame ſet in from it to the Wood-<lb/>Work. And this Flame paſſes
+            diverging into the <lb/>Machine, and continues as long as the Barrel is <lb/>touched. P.
+            44. </p>
+          <p rend="indent" n="12"><lb/>12. That the Electric Atmoſphere which <w part="I"
+              >ſur-</w><lb/><w part="F">rounds</w> all electrified Bodies, extends to a <w part="I"
+              >conſider-</w><lb/><w part="F">able</w> Diſtance, appears from their attracting a fine
+            Thread, at the Diſtance of ſome Feet. If no <w part="I">un-</w><lb/><w part="F"
+              >electrified</w> Body is near, this Atmoſphere ſeems to be equally ſpread over that
+            which is electrified. But if one unelectrified is brought near, the greateſt Part of it
+            is determined that Way; whence the Attraction of the other Parts of the electrified Body
+              <pb xml:id="page_32" n="34"/>is conſiderably diminiſhed. This is the Cauſe of Electric
+            Repulſion, which does not operate, till the Electric Ether is ſufficiently accumulated.
+            This Repulſion is ſtrongeſt in <unclear>#</unclear>hoſe Parts of the electrified Body,
+            where unelectrified Bodies are brought near it. For by theſe the Electric Blaſt, which
+            otherwiſe is general, is particularly <w part="I">deter-</w><lb/><w part="F">mined</w>.
+            P. 46. </p>
+          <p rend="indent" n="13"><lb/>13. When the Machine is placed upon Roſin, <lb/>if a Man
+            ſtanding likewiſe on Roſin, touches the <lb/>Barrel while the Globe is turning, he will
+            receive a <lb/>Snap or two, and no more. But if he touch the <lb/>Wood-Work of the
+            Machine with one Hand, and <lb/>the Barrel with the other, he receives Snaps again,
+            <lb/>which continue as long as he touches the Machine, <lb/>and no longer. Here the Man
+            by touching the <lb/>Machine with one Hand, becomes a Part thereof; <lb/>and by turning
+            the Globe, Part of the Electric <lb/>Fire inherent in his Body, is tranſmitted to the <w
+              part="I">Bar-</w><lb/><w part="F">rel</w>; but it is reſtored to him, on his touching
+            the <lb/>Barrel with his other Hand. If inſtead of <w part="I">touch-</w><lb/><w
+              part="F">ing</w> the Machine or Barrel he holds his Finger <lb/>near either, or both,
+            you ſee the Fire go out and <lb/>return. P. 64. </p>
+          <p rend="indent" n="14"><lb/>14. May we not gather from the preceeding <lb/>Experiments,
+            1. That the Attraction and <w part="I">Repul-</w><lb/><w part="F">ſion</w> of
+            electrified Bodies, is owing to the Flux of <lb/>Electric Ether? 2. That this Ether is
+            no other <lb/>than pure Fire? 3. That this Fire appears in <w part="I">dif-</w><lb/><w
+              part="F">ferent</w> Forms, according to it's different <w part="I"
+              >Modifica-</w><lb/><w part="F">tions?</w> When brought towards a Point is it not a
+            <lb/>lambent Flame? When nearer ſtill, may we not <lb/>both hear and feel it? And does
+            not it's lighting <lb/>up Spirits demonſtrate, that it is real Fire? 4. That <lb/>this
+            Fire is intimately connected with all Bodies, <lb/>tho' leaſt of all with pure, dry Air?
+            We have <w part="I">ex-</w><lb/><w part="F">tracted</w> it from Water, Flame, Smoke, red
+            hot <lb/>Iron; and from a Mixture 30 Degrees colder than <pb xml:id="page_33" n="35"
+            /><lb/>the freezing Point. 5. That it is extremely ſubtle <lb/>and highly Elaſtic? 6.
+            That the Electric Machine <lb/>may as properly be term'd a <hi rend="italic"
+              >Fire-Pump,</hi> as Mr. <lb/><hi rend="italic">Foyle</hi>'s Machine, an <hi
+              rend="italic">Air Pump?</hi> And laſtly, that <lb/>Fire is not Mechanically producible
+            from other <lb/>Bodies, but is an original, diſtinct Principle? </p>
+        </div>
+        <div>
+          <head rend="align-center"><lb/><hi rend="italic">An Extract from Mr.</hi> Wilſon<hi
+              rend="italic">'s Diſſertation on</hi>
+            <w part="I">Elec-</w><lb/><w part="F">tricity</w>. </head>
+          <p rend="indent"><lb/>Prop. 1. When two Bodies equally replete with <lb/>Electric Matter
+            approach each other, no Flame or <lb/>Snap will enſue. P. 5. </p>
+          <p rend="indent"><lb/>Prop. 2. Two Bodies equally electrified repel <lb/>each other. P. 6. </p>
+          <p rend="indent"><lb/>Prop. 3. An Electric Body interpoſed between <lb/>a Perſon and the
+            Earth, prevents his exciting <w part="I">Elec-</w><lb/><w part="F">tricity</w> in
+            another Body by Friction. P. 11. </p>
+          <p rend="indent"><lb/>Prop. 4. If there is originally a certain <w part="I"
+              >Quanti-</w><lb/><w part="F">ty</w> of Electric Matter in a Body of a given <w
+              part="I">Mag-</w><lb/><w part="F">nitude</w> and Denſity; and that Matter be equally
+            <lb/>diſtributed therein, by it's Elaſtic Force, according <lb/>to the Denſity of the
+            Parts: Upon increaſing the <lb/>Quantity of Matter by adding other Bodies of the
+            <lb/>ſame Kind, the Quantity of Electric Matter will <lb/>be increaſed in the ſame
+            Proportion. P. 14. </p>
+          <p rend="indent"><lb/>Prop. 5. As Electric Bodies act on light <w part="I">Bo-</w><lb/><w
+              part="F">dies</w> that are not electrified, ſo unelectrified Bodies <lb/>act on the
+            Electric Matter contain'd in electrified<lb/> Bodies. P. 16. </p>
+          <p rend="indent"><lb/>Let a Wire be electrified in the Dark, and if <lb/>you hold any
+            unelectrified Body 7 or 8 Inches from <lb/>the End of it, a Stream of Fire will iſſue
+            from it, <lb/>which will diverge to that Body. But the <w part="I">Diver-</w><lb/><w
+              part="F">gency</w> will leſſen as it approaches it, till the Rays <lb/>become
+            parallel. If the Body be held not directly <lb/>before the End of the Wire, but wide of
+            it at <lb/>about two Inches Diſtance, the Fire will deſcribe <lb/>curvilinear Rays
+            towards that Body. P. 17. </p>
+          <pb xml:id="page_34" n="36"/>
+          <p rend="indent"><lb/>Hence it appears, that unelectrified Bodies act in <lb/>like Manner
+            with electrified: Only the acting Force <lb/>of the one being increaſed by Friction, is
+            greater <lb/>than that of the other. </p>
+          <p rend="indent"><lb/>Prop. 6. When two equally Electric <w part="I">Atmoſ-</w><lb/><w
+              part="F">pheres</w> are brought ſo near as to touch, they repell <lb/>each other with
+            a Force equal to their <w part="I">Denſi-</w><lb/><w part="F">ties</w>. P. 19. </p>
+          <p rend="indent"><lb/>Prop. 7. If while a Fluid ſurrounds a Globe <lb/>which is
+            electrified and turn'd round an Axis <w part="I">paſ-</w><lb/><w part="F">ſing</w> thro'
+            it's Center, an unelectrified Body be held <lb/>near the Equator of it, the Fluid will
+            riſe <w part="I">ſucceſ-</w><lb/><w part="F">ſively</w> towards that Body, as it turns
+            round, in <lb/>like Manner as the Sea is affected by the Moon. <lb/>P. 23. </p>
+          <p rend="indent"><lb/>The Shock given by the Phial is in Proportion <lb/>to the Size of
+            it, the thinneſs of the Glaſs, and <lb/>the Number of Points in contact with it's <w
+              part="I">Sur-</w><lb/><w part="F">face</w>. P. 25. </p>
+        </div>
+        <div>
+          <head rend="italic align-center"><lb/>An Extract from Mr. <hi rend="roman">Martin</hi>'s
+            Eſſay on Electricity. </head>
+          <p rend="indent" n="1"><lb/>1. The <hi rend="italic">Electric Matter</hi> is emitted from
+            ſome <lb/>ſort of Bodies when rubb'd, which are call'd <hi rend="italic"
+              >Elec-<lb/>trics.</hi> P. 9. </p>
+          <p rend="indent" n="2"><lb/>2. By other Sorts of Bodies, therefore term'd <lb/><hi
+              rend="italic">Non-Electrics,</hi> it is not emitted. </p>
+          <p rend="indent" n="3"><lb/>3. It will run off to all <hi rend="italic"
+              >Non-Electrics,</hi> but it <w part="I">re-</w><lb/><w part="F">ſtrained</w> by all
+            Electrics. </p>
+          <p rend="indent" n="4"><lb/>4. It ſhines like a <hi rend="italic">Flame,</hi> and is
+            emitted with a <lb/><hi rend="italic">Snap:</hi> If towards a <hi rend="italic">Non
+              Electric,</hi> the Fire is <w part="I">con-</w><lb/><w part="F">denſed</w>, leſs or
+            more, and ſo appears of a bluiſh, <lb/>Purple, Yellow, or White Colour. </p>
+          <p rend="indent"><lb/>When the Electric Fire is not ſo much <w part="I"
+              >condenſ-</w><lb/><w part="F">ed</w> as to explode, as in Thunder and Lightning it
+            <lb/>goes off in a dilated Stream of purple Flame, <w part="I">great-</w><lb/><w
+              part="F">ly</w> reſembling that Part of the <hi rend="italic">Aurora Borealis,</hi>
+            <lb/>which appears in Streams of Light. </p>
+          <pb xml:id="page_35" n="37"/>
+          <p rend="indent"><lb/>When it is little condenſed, it appears <hi rend="italic"
+              >bluiſh,</hi> as <lb/>all other faint Lights do: When a little denſer, it <lb/>appears
+              <hi rend="italic">Purple:</hi> When denſer ſtill, it looks <hi rend="italic"
+              >Yellow,</hi>
+            <lb/>like Candle Light: When highly condenſed, it is <lb/>clear and <hi rend="italic"
+              >white,</hi> like the Light of the Sun. So <lb/>the White Lightning is of all others
+            moſt fierce. <lb/>So Phoſphorus rubb'd a little, ſpends itſelf in an <lb/>harmleſs Blue
+            Flame: But upon a greater <w part="I">Attriti-</w><lb/><w part="F">on</w>, kindles into
+            a White Flame, and burns with <lb/>an outragious and unquenchable Fire. p. 17. </p>
+          <p rend="indent"><lb/>And as Lightning pervades ſoft Subſtances <w part="I">un-</w><lb/><w
+              part="F">hurt</w>, but diſſolves hard and compact Bodies, ſo <lb/>Electric Fire
+            pervades the ſoft, muſcular Parts of <lb/>the Body, but violently ſtrikes the Bones and
+              <w part="I">Ten-</w><lb/><w part="F">dons</w>. Again, as thoſe denſer Parts of
+            Lightning <lb/>which we call Thunder-Bolts, ſtriking againſt hard <lb/>Bodies, glance by
+            Reflection to different Parts, ſo <lb/>this Fire, ſtriking againſt the Elbow, is
+            reflected <lb/>from thence acroſs the Breaſt, to the other <w part="I">El-</w><lb/><w
+              part="F">bow</w>. p. 18. </p>
+          <p rend="indent"><lb/>Indeed different Perſons are affected thereby in <lb/>a very
+            different Manner. Some are extremely <w part="I">ca-</w><lb/><w part="F">pable</w> of
+            it, ſome not: And ſome are not <w part="I">ſuſcep-</w><lb/><w part="F">tible</w> of it
+            at all: A Perſon, for Inſtance, who has <lb/>the Small-Pox, cannot be electrified by any
+            Means <lb/>whatever. p. 20. </p>
+          <p rend="indent"><lb/>Experiment 1. On the Axis, in the Center of <lb/>my Globe, is fixt a
+            circular String of Threads. <lb/>When the Globe is at reſt, they all hang down:
+            <lb/>When it is in Motion, they all extend themſelves <lb/>from the Center, ſtrait
+            toward the inner Surface of <lb/>the Globe (like the Spokes of a Coach-Wheel) <lb/>which
+            they nearly touch. Thus they continue till <lb/>the Electric Virtue ceaſes, and then
+            gradually fall <lb/>down, as at firſt. p. 22. </p>
+          <p rend="indent"><lb/>Exp. 2. While they are extended, if you move <lb/>your Hand toward
+            the Surface of the Globe, they <lb/>move every Way toward the Hand. Hence we ſee <pb
+              xml:id="page_36" n="38"/><lb/>the amazing Subtlety of this Fire, which pervades
+            <lb/>Glaſs as readily as if nothing were in the Way. </p>
+          <p rend="indent"><lb/>Exp. 3. Place a Hoop of Fine Threads round <lb/>the Globe in Motion,
+            and all of them will ſtand <lb/>perpendicular to the Surface. Hence we learn that
+            <lb/>the Electric Power acts equally, both within and <lb/>without the Globe, and in
+            Directions <w part="I">perpendicu-</w><lb/><w part="F">lar</w> to it's Surface. </p>
+          <p rend="indent"><lb/>Exp. 4. If the Room be then darken'd, the <lb/>Ends of the Threads
+            on the Outſide, will be all <lb/>tipt with Fire. But thoſe within are not, which
+            <lb/>ſhews that this Power acts only <hi rend="italic">ab intra</hi>
+            <w part="I">out-</w><lb/><w part="F">wardly</w>. p. 23. </p>
+          <p rend="indent"><lb/>Exp. 5. An Iron Rod being hung on Silken <lb/>Strings, with one End
+            about ¼ of an Inch from the <lb/>Globe, will at the other End (which terminates in
+            <lb/>a conical Point) emit a Purple Flame diverging <lb/>every Way. Hold your Finger
+            within ¼ of an Inch, <lb/>and the Fire will iſſue more largely. p. 24. </p>
+          <p rend="indent"><lb/>Exp. 6. Hold your Finger ſtill nearer, and the <lb/>Rays will be ſo
+            condenſed as to run to it in a <lb/>Stream of Yellow Flame; which is alſo ſenſible to
+            <lb/>the Feeling, as a gentle Wind, and ſmells like the <lb/>Fire of Phoſphorus. </p>
+          <p rend="indent"><lb/>Exp. 7. If you put your Finger on the Rod, <lb/>the Flame inſtantly
+            diſappears, the Fire all running <lb/>off upon the Finger. But take it off, and the
+            <lb/>Flame appears again. </p>
+          <p rend="indent"><lb/>Exp. 8. Apply your Finger near a Tin Tube <lb/>ſo ſuſpended, and you
+            may ſee the Fire, and both <lb/>hear and feel the Snap. p. 25. </p>
+          <p rend="indent"><lb/>Exp. 14. Under an electrified Plate, put ſome <lb/>Leaf-Gold or
+            other light Subſtances on another <lb/>Plate unelectrified: And it will be attracted and
+            <lb/>repell'd alternately, between the two Plates. For, <lb/>each Time it touches the
+            lower Plate, it diſcharges <lb/>he Electric Fire, and ſo becomes again <w part="I"
+              >attract-</w><lb/><w part="F">ble</w>. p. 28. </p>
+          <pb xml:id="page_37" n="39"/>
+          <p rend="indent"><lb/>Exp. 18. If to a Gun Barrel you adapt a <lb/>ſmall Tin Cup, and pour
+            in Water; a Perſon <lb/>holding his Finger perpendicular over the Water, <lb/>within ¼
+            of an Inch of it's Surface, will find the <lb/>Water riſe in Form of a Cone to meet his
+            Finger, <lb/>and from the Top of it, a Stream of Fire will iſſue <lb/>to the Finger and
+            ſnap as uſual p. 30. </p>
+          <p rend="indent"><lb/>Exp. 19. A dry Spunge is an <hi rend="italic">Electric.</hi> But if
+            <lb/>it be dipt in Water, and then hung on the Barrel, <lb/>put your Finger near it, and
+            the Fire iſſues out, and <lb/>the Drops which before fell very ſlowly, will now
+            <lb/>fall very faſt. If the Room be darkened, they will <lb/>appear as Drops of Fire. p.
+              3<unclear>#</unclear>. </p>
+          <p rend="indent"><lb/>Exp. 20. A Syphon hung on the Cup, drops <lb/>very gently till it is
+            electrified; but then the <w part="I">Wa-</w><lb/><w part="F">ter</w> runs in a Stream,
+            which in the Dark is like a Stream of Fire. </p>
+          <p rend="indent"><lb/>Exp. 21. Open a Vein in a Perſon ſtanding on the Roſin, and the
+            Blood will fly out to a certain Diſtance. But let him be electrified, and it will ſpin
+            out with a much greater Force, and to a far greater Diſtance. </p>
+          <p rend="indent"><lb/>Exp. 24. If Mercury be put for Water, the Electric Force is
+            ſomething greater, but in no <w part="I">Pro-</w><lb/><w part="F">portion</w> to it's
+            Denſity. </p>
+          <p rend="indent"><lb/>Exp. 25. When the Mercury is ſaturated, the <lb/>Electric Streams
+            will iſſue thro' the Wire more <w part="I">co-</w><lb/><w part="F">piouſly</w> than from
+            the Phial of Water, and will <lb/>ſnap of themſelves, which the Streams iſſuing from
+            <lb/>the Water never do. </p>
+          <p rend="indent"><lb/>Exp. 27. The electrified Phial will not retain <lb/>the Fire very
+            long: But if you hold it up in a <lb/>dark Room, it will be ſeen to go off from the
+            <lb/>Point of the Wire, in a ſmall white Flame. p. 34. </p>
+          <p rend="indent"><lb/>Exp. 30. A Cup of Water held by an <w part="I">electri-</w><lb/><w
+              part="F">fied</w> Perſon will emit Fire more forcibly than his <lb/>Body. p. 35. </p>
+          <pb xml:id="page_38" n="40"/>
+          <p rend="indent"><lb/>Exp. 32. A Perſon ſtanding on the Ground, <lb/>cannot eaſily kiſs an
+            electrified Perſon ſtanding on <lb/>the Roſin. p. 36. </p>
+          <p rend="indent"><lb/>Exp. 38. If a ſquare Piece of Leaf Gold be <lb/>placed between two
+            Plates, about two Inches <w part="I">aſun-</w><lb/><w part="F">der</w>, one of them
+            electrified, the other not at firſt <lb/>it will be attracted, and repell'd alternately,
+            till in <lb/>a while it will loſe its Motion, and remain <w part="I">ſuſ-</w><lb/><w
+              part="F">pended</w> between them. p. 39. </p>
+          <p rend="indent"><lb/>Exp. 42. If the Globe be exhauſted of Air, <lb/>and then turn'd, the
+            electric Fire will act wholly <lb/>within the Globe, where it will appear (in a dark
+            <lb/>Room) as a Reddiſh or Purple Flame, filling the <lb/>whole Globe. But this, as the
+            Air is re-admitted <lb/>into it, will gradually diſappear. In this Caſe, the
+            <lb/>electric Fire is confined within, by the elaſtic Air <lb/>on the Outſide. p. 40.
+          </p>
+        </div>
+        <div>
+          <head rend="italic align-center"><lb/>An Extract from Mr. <hi rend="roman">Watkins</hi>'s
+            Account of electrical <lb/>Experiments. </head>
+          <p rend="indent"><lb/>When the Machine is to be uſed, the Globe <lb/>ſhould be wiped
+            clean, with a clean, dry, warm <lb/>Flannel, it's Pivots oil'd, and the Cuſhion and
+            <lb/>Phial warmed. In damp Weather, there ſhould be <lb/>a Fire in the Room. p 4. </p>
+          <p rend="indent"><lb/>Exp. 4. Let an unelectrify'd Plate, with <w part="I"
+              >ſcour-</w><lb/><w part="F">ing</w> Sand upon it, be held 5 or 6 Inches under an
+            <lb/>electrify'd Plate, and the Sand will be ſo attracted <lb/>and repell'd, as to
+            reſemble a ſtormy Shower. p. 16. </p>
+          <p rend="indent"><lb/>Exp. 7. If a Glaſs Ball, of 4 or 5 Inches <w part="I"
+              >dia-</w><lb/><w part="F">meter</w>, be hung by a Wire to the Gun-barrel, and <lb/>a
+            Ball of ¾ of an Inch diameter, exceeding thin, <lb/>placed on a ſmooth Plate, be brought
+            near it, this <lb/>will not only be attracted by the large Ball, but <lb/>will perform
+            continual Revolutions round it, <w part="I">ex-</w><lb/><w part="F">actly</w> as the
+            Planets do round the Sun. p. 22. </p>
+          <p rend="indent"><lb/>Exp. 9. Hang a Loadſtone on the Barrel, and <lb/>a Key on the
+            Armature of it: And if you bring <pb xml:id="page_39" n="41"/><lb/>your Finger near the
+            Key, it will ſnap and emit <lb/>Fire. A plain Proof that the electric and magnetic
+            <lb/>Power no way hinder each other. p. 25. </p>
+          <p rend="indent"><lb/>Exp. 35. A Sparrow kill'd by the electric <lb/>Shock, was found
+            livid without, as if kill'd with a <lb/>Flaſh of Lightning, and moſt of the Blood
+            Veſſels <lb/>within were burſt. Animals ſhock'd on the Head, <lb/>if not kill'd, are
+            commonly ſtruck blind. p. 55. </p>
+          <p rend="indent"><lb/>Exp. 41. Ice held by an electrify'd Perſon, <lb/>will fire warm
+            Spirits of Wine. p. 61. </p>
+          <p rend="indent"><lb/>Exp. 43. Mr. <hi rend="italic">Watſon</hi> put an Ounce of Oil of
+            <lb/>Vitriol, an Ounce of Iron Filings and four Ounces<lb/> of Water, into a Flask. An
+            Ebullition enſued. <lb/>An electrify'd Perſon applied his Finger to the <lb/>Mouth of
+            the Flask. The Vapour took fire, and <lb/>burnt out of the Neck a long Time. p. 63. </p>
+          <p rend="indent"><lb/>From an Experiment made by Mr. <hi rend="italic">Watſon,</hi> and
+            <lb/>others, it appear'd, that the electric Fire <w part="I">circulat-</w><lb/><w
+              part="F">ed</w>, without Interruption, from the <hi rend="italic">Surry</hi> Side of
+            <lb/>the <hi rend="italic">Thames</hi> over <hi rend="italic">Weſtminſter</hi> Bridge,
+            to the <hi rend="italic">Weſt-<lb/>minſter</hi> Side, and thence thro' the River to the
+              <hi rend="italic">Surry</hi>
+            <lb/>Side again, which is upwards of 800 Yards. Spirits <lb/>of Wine alſo were fired at
+            the ſame Diſtance. </p>
+          <p rend="indent"><lb/>From this, and ſeveral other Experiments, it <w part="I"
+              >ap-</w><lb/><w part="F">peared</w>, that Diſtance, ſimply conſidered, did <w part="I"
+              >lit-</w><lb/><w part="F">tle</w>, if at all, impair the Force of the electric Shock. </p>
+          <p rend="indent"><lb/>They afterwards convey'd this Shock thro' a <lb/>Circuit of four
+            Miles, and ſound the Motion of <lb/>the electric Fire to be nearly, if not quite, <w
+              part="I">inſtan-</w><lb/><w part="F">taneous</w>. </p>
+        </div>
+      </div>
+      <gap reason="sampling" unit="pages" quantity="31"/>
+    </body>
+  </text>
+</TEI>

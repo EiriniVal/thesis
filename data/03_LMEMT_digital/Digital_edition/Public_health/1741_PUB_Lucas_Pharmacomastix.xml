@@ -1,0 +1,1261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> LMEMT Corpus - Lucas: Pharmacomastix</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>Charles Lucas</persName>
+            </author>
+            <title type="main">Pharmacomastix: or, the office, use, and abuse of Apothecaries
+              explained; the present degenerate State of Pharmacy, with its manifold Corruptions and
+              Adulterations, considered; and some essays on reforming thereof: Humbly addressed to A
+              Member of Parliament, with Intent to shew the necessity of amending and continuing a
+              temporary Statute, for preventing Frauds and Abuses committed in the making and
+              vending unsound, adulterate, and bad Drugs and Medicines, now near expiring. By the
+              Author of the Scheme on which the said Statute was founded.</title>
+            <edition n="1"/>
+            <idno type="ESTC">T62886</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/T62886"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>Dublin</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>Dublin: printed by S. Powell, for Abraham Bradley, at the two Bibles in
+                  Dame-Street, MDCCXLI.</persName>
+              </publisher>
+              <date>1741</date>
+            </imprint>
+            <extent>
+              <measure type="format">8⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="2"/>
+              <measure type="count" commodity="body" unit="page" quantity="80"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">British Library</orgName>
+            <idno type="ECCO">CW105763661</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Public welfare and institutional"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text type="book" rend="roman" xml:lang="eng">
+    <gap reason="sampling" unit="pages" quantity="2"/>
+    <body>
+      <pb n="3"/>
+      <figure>
+        <figDesc>An illustration ... </figDesc>
+      </figure>
+      <head rend="align-center">
+        <lb/><hi rend="size(1.5)">PHARMACOMASTIX: </hi>
+        <lb/><hi rend="space">OR, THE </hi>
+        <lb/><hi rend="size(1.5) space"/>OFFICE, USE, and ABUSE <lb/>of APOTHECARIES explained, <hi
+          rend="italic">&amp;c.</hi>
+      </head>
+      <salute rend="indent italic space">
+        <lb/>SIR, </salute>
+      <p rend="space">
+        <lb/><hi rend="dc(4)">S</hi>INCE <hi rend="sc">Physic</hi> alone among all the uſe- <lb/>ful
+        ſciences, has at this time the misfortune <lb/>to be <hi rend="italic">unrepreſented</hi> in
+        Parliament, and as the <lb/><hi rend="sc">Statute</hi>
+        <hi rend="italic">for preventing Frauds and Abuſes <lb/>in the making and vending unſound,
+          adulterate, and bad <lb/>Drugs and Medicines</hi>, is now near expiring, I hope <lb/>it
+        may not be improper to ſhew the neceſſity of <lb/>continuing that Act, and to offer ſome
+        Amendments <lb/>thereto, which the artful evaſions and corruptions of <lb/>mercenary
+        artificers have rendered abſolutely neceſ- <lb/>ſary. </p>
+      <p rend="indent">
+        <lb/>Your early acquaintance with the nature and <lb/>conſtitution of Parliaments, your
+        weight in our <lb/>national Aſſembly, and your extenſive benevolence, <lb/>have pointed you
+        out the fitteſt patron and advocate <lb/>for a Scheme wholely calculated for the public Be-
+        <lb/>nefit, to correct the many enormous Abuſes in <lb/><hi rend="sc">Pharmacy</hi>, and
+        conſequently to promote the <pb n="4"/>
+        <lb/>health and temporal happineſs of a conſiderable part <lb/>of mankind. Therefore I ſhall
+        venture, without <lb/>any farther apology, to ſubmit the following lines to <lb/>your
+        ſerious conſideration. </p>
+      <p rend="indent">
+        <lb/>There is no well regulated country where the <lb/><hi rend="sc">Legislature</hi> has
+        not made ſome proviſion for <lb/>the preſervation of the health of the <hi rend="italic"
+          >Body natural</hi>, <lb/>as well as for that of the <hi rend="italic">Body politic</hi>;
+        yet pity it is, <lb/>that in moſt, for want of due Information, all the <lb/>Laws hitherto
+        enacted in regard to <hi rend="italic">Medicine</hi>, have <lb/>fallen far ſhort of it's
+        good intentions. For as an <lb/>Evil whoſe ſource or cauſe is unknown muſt be
+        <lb/>remedileſs; ſo is it ſcarce poſſible, that the Frauds <lb/>or Abuſes in any art or
+        trade, tho' ever ſo pernicious <lb/>to ſociety, can be prevented or puniſhed by law,
+        <lb/>until they are firſt diſcovered and made apparent to <lb/>the law-givers. — If ſome of
+        the honeſt artiſts or <lb/>tradeſmen of every occupation, would ingenuouſly <lb/>diſcloſe
+        the ſecret corruptions of their reſpective <lb/>callings (without which they may for ever
+        eſcape <lb/>the cognizance and cenſure of the <hi rend="sc">Legislature</hi>) <lb/>we might
+        then hope for a general reformation. <lb/>But alas! we are too like the <hi rend="italic"
+          >Epheſian ſmith</hi> in <lb/>ſcripture, ready upon every attempt to purge us <lb/>from
+        iniquity, to cry out with him, <hi rend="italic">The craft is in <lb/>danger</hi>. </p>
+      <p rend="indent">
+        <lb/>The natural, fragile ſtructure of the human <lb/>Frame, which has rendered it ſubject
+        to ſundry <lb/>inevitable viciſſitudes, from the force of external <lb/>bodies, from the
+        alterations of the air, the nature <lb/>of the aliments, and from the very vital actions,
+        <lb/>has made the <hi rend="italic">healing art</hi> in general, of all others the <lb/>moſt
+        uſeful and neceſſary for the ſupport and well- <lb/>being of mankind, and nearly <hi
+          rend="italic">coœval</hi> with the <lb/>Creation <note place="bottom" n="†"
+          rend="size(0.5)">
+          <p rend="indent">
+            <lb/>† Boerh. Inſtit. Medic. Prolegom. </p>
+        </note>. So ſenſible were men in all ages of the <lb/>uſefulneſs and dignity of Phyſic, that
+        it has ever <lb/>been held in the utmoſt reverence and eſteem. <pb n="5"/>
+        <lb/>The inventors or improvers of this noble art were <lb/>by the antients ranked among the
+        Gods, and ſtiled <lb/>ſons of Gods, and the hands of Gods. It was a long <lb/>time practiſed
+        by heroes only, or the ſons of Gods, <lb/>
+        <note place="bottom" n="†" rend="size(0.5)">
+          <p rend="indent">
+            <lb/>† Ælian de. animal. lib. ii. cap. 18. </p>
+        </note>
+        <lb/>being deemed too ſacred for prophane hands. <lb/>The Heathen, Jews and primitive
+        Chriſtians agreed in <lb/>paying the utmoſt reſpect to the healing art, be- <lb/>lieving it
+        of divine and heavenly origine <note place="bottom" rend="size(0.5)" n="‡">
+          <p rend="indent">
+            <lb/>‡ Cicer. Tuſculao. Quæſt. lib. 3. Hippoc. de priſ. medicina <lb/>S. Aug. de Civit.
+            Dei. </p>
+        </note>. Hence <lb/>we find the greateſt honors poſſible were conferred <lb/>on the antient
+        phyſicians in the moſt wiſe, polite, and <lb/>politic ſtates. They were generally careſſed
+        or en- <lb/>vied by kings and princes who deſigned to ſtudy, <lb/>and endeavoured to acquire
+        and practice their in- <lb/>eſtimable art. Many natural productions as well as
+        <lb/>artificial preparations to this day retain the Name of <lb/>a royal diſcoverer or
+        inventor. And two <note place="bottom" rend="size(0.5)" n="§">
+          <p rend="indent">
+            <lb/>§ Meſue &amp; Avicen. </p>
+        </note> of the <lb/>moſt conſiderable antient phyſical writers whoſe <lb/>works are extant
+        at this time, were, one the ſon of <lb/>a king, the other a ſovereign prince. The <hi
+          rend="italic">Athenians</hi>
+        <lb/>ſo juſtly prized the worth and excellency of the <lb/>divine <hi rend="italic"
+          >Hippocrates</hi>, that they initiated him into their <lb/>grand myſteries; they preſented
+        him with the free- <lb/>dom of <hi rend="italic">Athens</hi> in a crown, (a royal diadem) to
+        <lb/>the value of a thouſand pieces of Gold, and ſet- <lb/>tled a conſiderable ſtipend for
+        his maintenance during <lb/>life, at the public expence. — They likewiſe made <lb/>a law
+        prohibiting all women, bondſmen, or ſlaves <lb/>meddling with Phyſic: as they did likewiſe
+        in Locris, <lb/>which decreed, that diſobedience to the directions or <lb/>preſcriptions of
+        Phyſicians ſhould be puniſhed with <lb/>death. <hi rend="italic">Julius Cæſar</hi> made all
+        Phyſicians that ſhould <lb/>ſettle in <hi rend="italic">Rome</hi>, freemen and denizens
+          <note n="‖" place="bottom" rend="size(0.5)">
+          <p rend="indent">
+            <lb/>‖ Sueton. </p>
+        </note>; and when, <lb/>for ſome reaſons of ſtate, a ſucceeding emperor <lb/>baniſhed the
+          <hi rend="italic">Greeks</hi> that city, yet the Phyſicians, <lb/>tho' all <hi
+          rend="italic">Greeks</hi>, were exempted. It is alſo obſervable <pb n="6"/>
+        <lb/>that the firſt alien known to obtain his freedom of <lb/>that once glorious city was a
+        Phyſician <note place="bottom" rend="size(0.5)" n="*">
+          <p rend="indent">
+            <lb/>* Arcagathus. </p>
+        </note>. The <lb/>Phyſicians of the college of <hi rend="italic">Milan</hi> are dignified
+        <lb/>with an order of knighthood, and wear to this day <lb/>golden Collars <note
+          place="bottom" rend="size(0.5)" n="†">
+          <p rend="indent">
+            <lb/>† John. Bapt. Sylvatic. </p>
+        </note>. Innumerable other inſtances <lb/>might be produced, if neceſſary, to ſhew, that
+          <lb/><hi rend="italic">medicine</hi> and the <hi rend="italic">medical ſages</hi> were
+        ever reſpected <lb/>and eſteemed, admired and encouraged, all <lb/>the World over. See <hi
+          rend="italic">Celſus</hi>, Senert. <hi rend="italic">Inſt.</hi>
+        <hi rend="italic">Med.</hi>
+        <lb/>Moæbii <hi rend="italic">Synopſ. epitom.</hi>
+        <hi rend="italic">Inſt. Med.</hi> Le Clerc <hi rend="italic">Hiſt.</hi>
+        <lb/><hi rend="italic">de la Medecine.</hi> Friend's <hi rend="italic">Hiſtory of
+          Phyſic</hi>. Harris's <lb/><hi rend="italic">Pharmac-anti-empyr.</hi> and <hi
+          rend="italic">Prof. to</hi> Fuller's <hi rend="italic">Pharmacop. <lb/>extempor</hi>. </p>
+      <p rend="indent">
+        <lb/>If the <hi rend="italic">healing art</hi> was thus honored in the ruder, <lb/>early
+        ages, how much does it deſerve our regard <lb/>and attention with the many conſiderable
+        improve- <lb/>ment of the moderns, which were to the antients <lb/>utterly unknown? </p>
+      <p rend="indent">
+        <lb/>There can hardly be any one inſenſible of the <lb/>value of <hi rend="sc">Health</hi>
+        and <hi rend="sc">Life</hi>, ſince the very firſt <lb/>impulſe of nature prompts every
+        creature to uſe all <lb/>ways and means to preſerve them: And nothing <lb/>but an
+        uninterrupted enjoyment of health can render <lb/>any man regardleſs of ſo invaluable a
+        bleſſing. It <lb/>was the dreadful contagion which raged in <hi rend="italic">Rome</hi>
+        <lb/>about the 301ſt year after the building that city, <lb/>'where there were not then
+        found Phyſicians enough <lb/>to attend the ſick <note place="bottom" rend="size(0.5)" n="‡">
+          <p rend="indent">
+            <lb/>‡ Dion. Halicarnaſ. </p>
+        </note>, that firſt made the robuſt <hi rend="italic">Ro- <lb/>mans</hi> ſenſible of the Uſe
+        and Excellency of <hi rend="sc">Physic</hi>, <lb/>which they afterwards ſo generouſly
+        incouraged, and <lb/>ſo amply rewarded. <hi rend="italic">Salus populi ſuprema lex
+        eſto</hi>, is <lb/>a precept which was once religiouſly obſerved, in <lb/>its fulleſt
+        extent, by every worthy <hi rend="italic">Roman</hi> ſenator. <lb/>And tho' it might not
+        have been originally pro- <lb/>nounced or received in this ſenſe literally, yet I ap-
+        <lb/>prehend the application of it merely to the bodily <pb n="7"/>
+        <lb/>health of the people, can be no wide deviation from <lb/>the ſenſe of the wiſe author;
+        ſince the general well- <lb/>fare of the community depends upon the health of <lb/>it's
+        Members. </p>
+      <p rend="indent">
+        <lb/><hi rend="sc">Physic</hi> or <hi rend="sc">Medicine</hi> is the art by which our
+        <lb/>lives and health are preſerved and reſtored. And <lb/>abuſes or mal-adminiſtration in
+        any branch thereof <lb/>muſt neceſſarily prejudice or ſubvert the whole. <lb/>This cannot be
+        charged upon <hi rend="italic">Phyſic</hi> or <hi rend="italic">Chirurgery</hi>, <lb/>for it
+        may in truth be affirmed, that this Kingdom <lb/>was never ſo happily provided in that way,
+        as at <lb/>preſent, with men of both profeſſions inferior to <lb/>none in <hi rend="italic"
+          >Europe</hi>, in erudition, judgement, and probity. <lb/>But <hi rend="sc">Pharmacy</hi>,
+        or the <hi rend="italic">apothecary's art</hi> in parti- <lb/>cular, which miniſters in an
+        eſpecial manner to the <lb/>two former branches, namely <hi rend="italic">Phyſic</hi> and
+          <hi rend="italic">Chirurgery</hi>; <lb/>tho' the good ſucceſs of both moſt conſiderably
+        <lb/>depends thereupon, is left neglected and un- <lb/>cultivated, over-run with <hi
+          rend="italic">errors</hi>, <hi rend="italic">abuſes</hi> and <hi rend="italic"
+        >frauds</hi>. <lb/>And tho' there are no corruptions in any art ſo per- <lb/>nicious and
+        deſtructive to the public, as thoſe of <lb/><hi rend="italic">Apothecaries</hi>, yet
+        (melancholly conſideration!) none <lb/>are ſo little liable to diſcovery or puniſhment.
+        <lb/>Deceits in moſt trades are perceptible to the gene- <lb/>rality, and are not only in
+        ſome ſenſe cognizable <lb/>by law, but as they muſt ſooner or later be diſcover- <lb/>ed by
+        the cuſtomers, common policy will direct <lb/>moſt tradeſmen to ſome integrity in their
+        callings. <lb/>But as the moſt baneful frauds in <hi rend="italic">Pharmacy</hi>, being
+        <lb/>never ſuſpected, are ſeldom or never perceptible to <lb/>the public, tho' often felt,
+        (few or none beſides <lb/><hi rend="italic">Phyſicians</hi>,<hi rend="italic"
+          >Chirurgeons</hi>, or <hi rend="italic">Apothecaries</hi>, being ſenſible <lb/>of the
+        evils in this way,) ſo none tranſgreſſes with <lb/>more eaſe and ſecurity, than the
+        diſhoneſt apothe- <lb/>cary. He may deſtroy the reputation of the moſt <lb/>careful and
+        judicious phyſicians and chirurgeons, and <lb/>murder thouſands of their patients, his bill
+        is never- <lb/>theleſs paid, and he is ſtill unſuſpectedly entertain- <lb/>ed, careſſed and
+        employed by the ſurviving Fami- <pb n="8"/>
+        <lb/>lies. A little artifice can tinſel or varniſh over the <lb/>moſt vile <hi rend="italic"
+          >frauds</hi> or <hi rend="italic">perfidious neglects</hi> of the <hi rend="italic">unjuſt
+          <lb/>apothecary</hi>. If he can command a brazen front, <lb/>with an hardened, ſervile
+        conſcience, it is enough, <lb/>all is ſafe. For his <hi rend="italic">vaſſal
+          apprentices</hi>, who only can <lb/>be privy to his villainy, are huſhed, they are obliged
+        to <lb/>keep his <hi rend="italic">ſecrets</hi> without diſtinction. </p>
+      <p rend="indent">
+        <lb/>As <hi rend="sc">Pharmacy</hi> is a moſt uſeful and neceſſary <lb/>art, nay, according
+        to one of the fathers of phyſic <note place="bottom" rend="size(0.5)" n="†">
+          <p rend="indent">
+            <lb/>† Celsus. See J.D. Horſt. Inſt. pharmac. L. ii. C. i. </p>
+        </note>, <lb/><hi rend="italic">the moſt uſeful branch of medicine</hi>, when in a ſtate
+        <lb/>of purity and perfection, ſo it is the moſt <hi rend="italic">pernicious</hi>
+        <lb/>and <hi rend="italic">deſtructive</hi>, when it is not exerciſed with the <lb/>utmoſt
+        integrity, care, fidelity and good under- <lb/>ſtanding. No knave ſo vile, ſo dangerous to
+        ſociety <lb/>as a bad apothecary. The rapacious highwayman, <lb/>a profeſſed <hi
+          rend="italic">enemy</hi> to mankind, bids the unwary tra- <lb/>veller ſtand and at the
+        peril of his life part with his <lb/>money: But the diſhoneſt apothecary, a more ſubtil
+        <lb/>kind of robber, pretends a <hi rend="italic">friendſhip</hi> for his Cuſto- <lb/>mer,
+        yet takes the ſame opportunity with the former <lb/>(which the love of life and health, and
+        dread of <lb/>death that human Nature is poſſeſſed with, amply <lb/>affords him,) and ſo
+        robs thouſands of their fortunes, <lb/>giving them only ſome vile, uſeleſs drug in ex-
+        <lb/>change; by which their lives are always endan- <lb/>gered and often deſtroyed. And yet
+        notwithſtand- <lb/>ing the apothecary is never in the leaſt ſuſpected; ſo <lb/>that the
+        orphan may oft pay him for the death of <lb/>his parents, parents for that of their
+        children, wi- <lb/>dows for their husbands, and ſo forth: and perhaps <lb/>gratefully
+        acknowledge the great care and tenderneſs <lb/>of their <hi rend="italic">worthy
+          apothecary</hi>, tho' he might have been <lb/>more inſtrumental to their death than the
+        diſeaſe. </p>
+      <p rend="indent">
+        <lb/>For theſe reaſons,, the apothecaries have no tem- <lb/>poral advantages in, nor any
+        incitements to honeſty <lb/>or integrity in their calling. For while men can <lb/>buy the
+        moſt baſe and worſt commodities, and may <pb n="9"/>
+        <lb/>without detection, ſubſtitute them for, or ſell them <lb/>at the ſame rate with the
+        beſt and moſt genuine, we <lb/>ſhall probably be infeſted with ſuch mercenary <lb/>wretches
+        as will prefer their own ill-gotten gain, to <lb/>a clear conſcience and the ſafety and
+        welfare of <lb/>their neighbours; <hi rend="italic">the far greater profit ariſing from
+          <lb/>illegal trade</hi>. </p>
+      <p rend="indent">
+        <lb/>I would not be hereby thought to charge all the <lb/>worthy apothecaries of this
+        kingdom, with igno- <lb/>rance, diſingenuity, or diſintegrity; far be it from <lb/>me! I am
+        well aſſured that we have ſome, as ju- <lb/>dicious, as ſkilful, and as honeſt in their way,
+        as <lb/>any in <hi rend="italic">Europe</hi>. But as it may not be allowable <lb/>to point
+        at the indentical guilty perſons, either by <lb/>naming the one, or exempting the other, ſo
+        I am <lb/>obliged to make the charge in general againſt the <lb/>whole fraternity, my ſelf
+        not excepted. So <hi rend="italic">let him <lb/>whom the cap fits wear it</hi> — <note
+          place="bottom" rend="size(0.5)" n="*">
+          <p rend="indent">
+            <lb/>* Shakeſpear's Hamlet. </p>
+        </note> let <hi rend="italic">the galled jade <lb/>wince.</hi> — It is thro' a real concern
+        for the juſt, <lb/>good men, that are indiſcriminately blended with <lb/>the unjuſt, and for
+        the ſcandalous diſrepute which <lb/>the excellent art of <hi rend="italic">Pharmacy</hi> is
+        fallen into, toge- <lb/>ther with the long train of evils which attend the <lb/>public in
+        general, from the baſe craft and corrupti- <lb/>on of avaricious falſifiers of medicines,
+        that I am <lb/>urged to this work. </p>
+      <p rend="indent">
+        <lb/>I have a long time had a conflict with myſelf <lb/>about this important undertaking. I
+        muſt confeſs I <lb/>ſome time feared the united powers of the wicked a- <lb/>gainſt me,
+        having on the like occaſion heretofore, <lb/>fatally experienced the ſtrength of the <hi
+          rend="italic">confederate <lb/>Opponents of reformation</hi>: And above all, I avoided
+        <lb/>taking upon me a task, to which I am conſcious of, <lb/>and confeſs my inequality. But
+        at length laying a- <lb/>ſide all ſelfiſh fear, and finding none of the many <lb/>more
+        capable inclined to engage in ſuch a juſt and <lb/>neceſſary <hi rend="italic">warfare</hi>,
+        I have at all hazards preſumed <pb n="10"/>
+        <lb/>to give you the following informations, and to ſub- <lb/>mit theſe juſt (tho'
+        indigeſted) Obſervations to the <lb/>wiſdom of the <hi rend="sc">Legislature</hi>; from
+        whoſe pater- <lb/>nal care and benevolence alone, we may expect the <lb/>due encouragement
+        of <hi rend="italic">Virtue</hi>, and the ſuppreſſion <lb/>of <hi rend="italic">Vice</hi> of
+        every kind. If my weak endeavours <lb/>anſwer any uſeful purpoſes, I have my full recom-
+        <lb/>pence in being but ever ſo mean an Inſtrument of <lb/>effecting a public good. I hope
+        the merits of the <lb/>Cauſe, for which I am but a ſlender advocate, and <lb/>the ſimplicity
+        and honeſty of mine intentions, will <lb/>gain your attention, plead for the weakneſs of my
+        <lb/>performance, and ſupply the want of <hi rend="italic">Rhetoric</hi> and <lb/><hi
+          rend="italic">Oratory</hi>. </p>
+      <p rend="indent">
+        <lb/>In order to lay this matter properly before you, I <lb/>judge it expedient, </p>
+      <p rend="indent">
+        <lb/>I. To conſider the riſe and primitive ſtate of <lb/><hi rend="italic">Pharmacy</hi>,
+        and from the beſt authority to point out <lb/>the proper <hi rend="italic">Office</hi> and
+          <hi rend="italic">Duty</hi> of, and the requiſite <lb/><hi rend="italic"
+          >Qualifications</hi> for an <hi rend="italic">Apothecary</hi>. In which I ſhall
+        <lb/>curſorily endeavour to explain the difference between <lb/><hi rend="italic"
+          >Apothecaries</hi> and <hi rend="italic">Druggiſts</hi>. </p>
+      <p rend="indent">
+        <lb/>II. To ſhew the preſent ſtate of <hi rend="italic">Pharmacy</hi>, and <lb/>how far the
+        modern deviate from the <hi rend="italic">proper Office</hi>
+        <lb/>and <hi rend="italic">Duty</hi>, and fall ſhort of the <hi rend="italic"
+          >qualifications</hi> of the <lb/>antient true <hi rend="italic">Apothecaries</hi>; in
+        which fatal degeneracy <lb/>it will appear, that it is ſcarcely poſſible for a man <lb/>to
+        learn that Art <hi rend="italic">fully</hi>, and then to get an <hi rend="italic"
+          >honeſt</hi>
+        <lb/>livelihood by that profeſſion <hi rend="italic">ſolely</hi>, let his know- <lb/>ledge
+        and underſtanding in it be ever ſo conſider- <lb/>able, unleſs he had the good fortune of an
+        extraordi- <lb/>nary genius, which may lead him to ſtudy it properly, <lb/>and of gaining a
+        ſet of cuſtomers who pay un- <lb/>common deference to his judgement and integrity. </p>
+      <p rend="indent">
+        <lb/>III. To lay open ſome of the moſt inconſidera- <lb/>ble and obvious <hi rend="italic"
+          >Frauds</hi> and <hi rend="italic">Abuſes</hi> in this way, whe- <lb/>ther thro' <hi
+          rend="italic">ignorance</hi> or <hi rend="italic">deſign</hi> of Apothecaries or
+        <lb/>Druggiſts; and to point out ſome of the moſt per- <pb n="11"/>
+        <lb/>nicious <hi rend="italic">ſophiſtications</hi> of Medicines, with the evil
+        <lb/>conſequences thereof. And </p>
+      <p rend="indent">
+        <lb/>IV. and laſtly, To offer ſome means to prevent <lb/>ſuch horrid mal-practices for the
+        future; whereby <lb/>the <hi rend="sc">King</hi> is not only baſely defrauded in his juſt
+        <lb/>Revenue, by which every Subject muſt ſuffer; but <lb/>alſo the <hi rend="sc"
+          >Public</hi> is robbed of the chief bleſſing <lb/>of this life, Health, and the means of
+        reſtoring it; <lb/>and the fair and honeſt Apothecary is crampt and <lb/>reſtrained in the
+        lawful diſcharge of his function; <lb/>being underſold by the fraudulent and diſhoneſt. </p>
+      <p rend="indent">
+        <lb/>I. In the pure, primitive ages of the <hi rend="italic">healing Art</hi>, <lb/>the <hi
+          rend="italic">phyſician</hi> not only <hi rend="italic">preſcribed</hi>, but <hi
+          rend="italic">collected</hi>, <hi rend="italic">pre- <lb/>pared</hi>, <hi rend="italic"
+          >diſpenſed</hi>, and <hi rend="italic">adminiſtred medicaments</hi>, as well <lb/>as <hi
+          rend="italic">performed chirurgical operations</hi>. For the <hi rend="italic">now</hi>
+        <lb/>three diſtinct branches of <hi rend="italic">Medicine</hi>, called <hi rend="italic"
+          >Phyfic</hi>, <lb/><hi rend="italic">Pharmacy</hi>, and <hi rend="italic">Chirurgery</hi>,
+        were (till about the time <lb/>of <hi rend="italic">Herophilus</hi> and <hi rend="italic"
+          >Eraſiſtratus</hi>) managed by one and <lb/>the ſame hand <note place="bottom"
+          rend="size(0.5)">
+          <p rend="indent">
+            <lb/>* Celſ. Pref. l. i. Le. Clerc. hiſt. de la Med. p. ii. l. <unclear>t</unclear>. c.
+            ix. </p>
+        </note>. But finding it too laborious and <lb/>burdenſome, and according to a trite aphoriſm
+        of <lb/>the <hi rend="italic">father</hi> of <hi rend="italic">Phyſic</hi>, <note
+          place="bottom" rend="size(0.5)" n="†">
+          <p rend="indent">
+            <lb/>† Hippoc. Lib. i. Aph. i. </p>
+        </note> that <hi rend="italic">the life of man was <lb/>too ſhort to comprehend fully, or to
+          compleat the know- <lb/>ledge of that ſublime Art</hi>, it was judged expedient <lb/>to
+        divide it into theſe three different parts, that <lb/>having leſs to ſtudy in each, it might
+        become leſs <lb/>tedious and prolix, inſomuch that every ſtudent <lb/>may hope to arrive at
+        a competent degree of know- <lb/>ledge in that branch which he choſe for his peculiar ſtu-
+        <lb/>dy: Whereupon the three diſtinct offices of <hi rend="italic">Phyſician</hi>, <lb/><hi
+          rend="italic">Apothecary</hi>, and <hi rend="italic">Chirurgeon</hi>, were inſtituted. </p>
+      <p rend="indent">
+        <lb/>The <hi rend="italic">Phyſicians</hi>, on account of <hi rend="italic">ſeniority</hi>
+        and <hi rend="italic">ſuper- <lb/>lative erudition</hi>, are juſtly allowed the <hi
+          rend="italic">pre-eminence</hi>
+        <lb/>of the two other brethren, which, indeed, I think <lb/>that profeſſion merits of all
+        others, divinity only <lb/>excepted. A Phyſician muſt have a moſt liberal edu- <lb/>cation:
+        He muſt be well verſed in all the learned <pb n="12"/>
+        <lb/><hi rend="italic">languages</hi>, in <hi rend="italic">natural hiſtory</hi>, in all
+        parts of <hi rend="italic">Phi- <lb/>loſophy</hi>, in <hi rend="italic">Anatomy</hi>, <hi
+          rend="italic">the animal Œconomy</hi>, <hi rend="italic">the hiſto- <lb/>ries of
+          diſtempers</hi>, <hi rend="italic">their natures</hi>, <hi rend="italic">ſigns</hi>, <hi
+          rend="italic">Symptoms</hi>, <lb/><hi rend="italic">cauſes</hi>, <hi rend="italic"
+          >diagnoſtics</hi>, <hi rend="italic">prognoſtics</hi>, indications of <hi rend="italic"
+          >Cure</hi>, <lb/>&amp;c. He muſt likewiſe be well grounded in <lb/>the <hi rend="italic"
+          >theories</hi> of the <hi rend="italic">Chemic</hi> and <hi rend="italic">Galenic
+          pharmacies</hi>
+        <lb/>and of <hi rend="italic">chirurgery</hi>. For according to the wiſe <hi rend="italic"
+          >author</hi>
+        <lb/>of <hi rend="italic">medicine</hi>, <note place="bottom" rend="size(0.5)" n="*">
+          <p rend="indent">
+            <lb/>* Hippoc. lex. </p>
+        </note>
+        <hi rend="italic">natural endowments</hi>, <hi rend="italic">learning</hi>, <hi
+          rend="italic">a proper</hi>
+        <lb/><hi rend="italic">place for ſtudy</hi>, <hi rend="italic">education from infancy</hi>,
+          <hi rend="italic">induſtry and <lb/>time</hi>, <hi rend="italic">are requiſite to
+          conſtitute a phyſician</hi>; in conſe- <lb/>quence of which we find, the education of ſuch
+        is <lb/>in ſchools and univerſities, ſeminaries of polite lite- <lb/>rature, where all
+        things are learned to compleat the <lb/>phyſician and the gentleman. Thus muſt a <hi
+          rend="italic">phyſician</hi>
+        <lb/>be qualified before he can undertake the care of the <lb/>ſick in any, the ſlighteſt
+        diſorder: And he who <lb/>made the greateſt progreſs in that admirable art, <lb/>even the
+          <hi rend="italic">divine ſage</hi>, <note n="†" place="bottom" rend="size(0.5)">
+          <p rend="indent">
+            <lb/>† Hippoc. Epiſt. ad Democrit. </p>
+        </note> is not aſhamed to confeſs, <lb/>that <hi rend="italic">tho' he was now advanced in
+          old age, and got to the <lb/>extremity of life, he had not yet arrived at the end of
+          <lb/>phyſic</hi>. Whence it follows that phyſic is the deep- <lb/>eſt and moſt extenſive
+        ſtudy, and it's practice the <lb/>weightieſt and moſt important charge, that human
+        <lb/>nature can poſſibly undertake. </p>
+      <p rend="indent">
+        <lb/><hi rend="sc">Chirurgery</hi> now <hi rend="italic">uſurps</hi> the ſecond rank; and
+        <lb/>tho' it has had a worſe fate than phyſic, in falling <lb/>ſome time into the hands of
+        ignorant and illiterate <lb/>men, yet it's knowledge is again happily revived a- <lb/>mong
+        us, and all thoſe who make a figure in that <lb/>profeſſion, are not only men of learning
+        and erudi- <lb/>tion, but inferior to none in <hi rend="italic">Europe</hi> in judgement and
+        <lb/>underſtanding in that excellent art. </p>
+      <p rend="indent">
+        <lb/>For ſome centuries <hi rend="italic">Chirurgery</hi> 1 as well as <lb/><hi
+          rend="italic">Pharmacy</hi>, 2 was <hi rend="italic">ſubſervient and miniſterial</hi> to
+          <hi rend="sc">Phy- <lb/>sic</hi>. The firſt <hi rend="italic">Chirurgeons</hi>
+        <note place="bottom" rend="size(0.5)" n="†">
+          <p rend="indent">
+            <lb/>† <unclear>GREEK</unclear> Arist. Polit. L. iii. C. ii. Medicins mainæuvre &amp;
+            <lb/>medicins pharmaceatique. Le Clerc. Hiſt. de la Medicine, p. ii. p. 47. </p>
+        </note> and <hi rend="italic">Apothecaries</hi> after <pb n="13"/>
+        <lb/>the diviſion of <hi rend="italic">Medicine</hi> into theſe three branches, <lb/>being
+        taught by the <hi rend="sc">Physicians</hi>, <note place="bottom" rend="size(0.5)" n="‡">
+          <p rend="indent">
+            <lb/>‡ <unclear>GREEK</unclear> ou Medicins Architect. ibid. </p>
+        </note> were by them <lb/>ſolely directed and conducted in the exerciſe and <lb/>diſcharge
+        of their reſpective functions. So that the <lb/><hi rend="italic">then Chirurgeons</hi>
+        never bled, opened tumours, <lb/>amputated limbs, nor performed any other opera- <lb/>tion
+        in their profeſſion; nor did the <hi rend="italic">Apothecaries</hi>
+        <lb/>apply, or adminiſter any medicine, but in con- <lb/>ſultation with or by the advice or
+        approbation <lb/>of the <hi rend="italic">Phyſicians</hi>. Yet as it is now eſſentially ne-
+        <lb/>ceſſary to compleat a <hi rend="italic">Chirurgeon</hi>, that he be a man <lb/>of
+        learning, a perfect maſter of anatomy and of <lb/>courſe well acquainted with the animal
+        œconomy, and <lb/>his object being one, and his practice being grounded <lb/>on the ſame
+        principles and <hi rend="italic">rationale</hi> with Phyſic, <lb/>(with this only
+        diſtinction, that one treats the ex- <lb/>ternal, the other the internal diſorders of the
+        human <lb/>Body,) it does not ſeem unreaſonable, that <hi rend="italic">ſuch
+          <lb/>Chirurgeons</hi> ſhould bleed and perform other opera- <lb/>tions in that way, and
+        even preſcribe, eſpecially ex- <lb/>ternal applications, upon their own Judgement
+        <lb/>ſolely. </p>
+      <p rend="indent">
+        <lb/>But the caſe is quite otherwiſe with <hi rend="italic">Apothecaries</hi>: <lb/>For
+        altho' they ſhould be good ſcholars, and ne- <lb/>ceſſarily converſant with the writings of
+        the learn- <lb/>ed who treated on their profeſſion, yet does their <lb/><hi rend="italic"
+          >requiſite Readings</hi> no where inſtruct them in anato- <lb/>my, or the animal œconomy,
+        nor in any of the <lb/>many other neceſſary qualifications of phyſicians, or
+        <lb/>chirurgeons, the knowledge of the <hi rend="italic">Materia medica</hi>
+        <lb/>only excepted, the apothecary's office, his very <lb/>appellation in all the known
+        languages denotes. <lb/>Thus among the antients, <hi rend="italic">Medicus ſellularis</hi>
+        <lb/>implied an apothecary or one who prepared and <lb/>diſpenſed medicines. As did likewiſe
+          <hi rend="italic">Pharmaceuta</hi>
+        <lb/>and <hi rend="italic">Medicamentarius</hi>. In like manner <hi rend="italic"
+          >Apothecarius</hi>
+        <lb/>an apothecary from <hi rend="italic">Apotheca</hi>, a ſhop, ware-houſe or <pb n="14"/>
+        <lb/>repoſitory, or (in the more common acceptation,) <lb/>a place where drugs or medicines
+        are kept or ſold; <lb/>and he may be aptly called a <hi rend="italic"
+          >Phyſic-Shop-keeper</hi>: <lb/>alſo <hi rend="italic">Pharmacopæus</hi>, a maker, preparer
+        or compound- <lb/>er of medicines. And likewiſe <hi rend="italic">Seplaſiarius</hi>, from
+          <lb/><hi rend="italic">Seplaſia</hi>, a market-place in <hi rend="italic">Capua</hi>, once
+        a famed <lb/>mart for drugs and perfumed ointments. And <lb/>the ſole proper buſineſs and
+        office of an Apothecary, <lb/>is, to <hi rend="italic">collect</hi> or <hi rend="italic"
+          >procure</hi> at due times and ſeaſons, from <lb/>the proper places, <hi rend="italic">the
+          ſeveral</hi>, <hi rend="italic">uſual medicinal pro- <lb/>ductions of Nature</hi>, <hi
+          rend="italic">the ſimples of the Mineral</hi>, <hi rend="italic">ve- <lb/>getable and
+          animal Kingdoms</hi>; <hi rend="italic">to ſelect and prepare</hi>, <lb/>to <hi
+          rend="italic">decompound</hi> or <hi rend="italic">compound them according to Art</hi>, by
+        <lb/>the directions of <hi rend="italic">Phyſicians</hi>, and by their preſcripti- <lb/>ons
+        only, <hi rend="italic">to diſpenſe</hi>, <hi rend="italic">adminiſter</hi>, or <hi
+          rend="italic">apply them</hi>. <note place="bottom" rend="size(0.5)" n="*">
+          <p rend="indent">
+            <lb/>* Renod. Inſt. pharmac. c. 2. Geo. Wolf. Wedel Pharmac. <lb/>Proæm. </p>
+        </note> To <lb/>qualify him for which undertaking he ſhould be well <lb/>verſed in natural
+        hiſtory, as far as it regards <hi rend="italic">Mine- <lb/>ralogy</hi>, <hi rend="italic"
+          >Botonalogy</hi>, or <hi rend="italic">Zoology</hi>, and rationally as well as
+        <lb/>experimentally grounded in the knowledge of the <lb/><hi rend="italic">Galenic</hi> and
+          <hi rend="italic">Chemic Pharmacies</hi>; which is a large Field <lb/>for a man to
+        exerciſe his talents in learnings and it <lb/>muſt well employ his time every ſeaſon or the
+        year <lb/>after, if he intends diſcharging the duty of his office <lb/>ſtrictly and
+        faithfully. <hi rend="italic">Pharmacopola</hi> is an injurious <lb/>name, improperly given
+        to an Apothecary. The <lb/><hi rend="italic">Pharmacopolæ</hi> of the antients ſeem to have
+        been ſuch <lb/>as were employed by artiſts in collecting or procuring <lb/>the ſimples; they
+        were mere venders of drugs, and <lb/>pretended to no art or knowledge beyond that; but
+        <lb/>as theſe men in time degenerated into knaves or <lb/>quacks, they became hateful to
+        ſociety, and the name <lb/>of <hi rend="italic">Pharmacopola</hi>, with moſt writers ſince
+        implies, a <lb/><hi rend="italic">canting hawker</hi>, <hi rend="italic">a falſe quack</hi>,
+        or <hi rend="italic">a deceitful mounte- <lb/>bank</hi>. How applicable this appellation, in
+        the <hi rend="italic">worſt <lb/>ſenſe</hi>, may be to ſome <hi rend="italic">dealers</hi>
+        in <hi rend="italic">medicine</hi>, who call <lb/>themſelves <hi rend="italic"
+          >Druggiſts</hi>, I ſhall not here determine; but <pb n="15"/>
+        <lb/>we have the ſatisfaction to obſerve, that that trade is a- <lb/>gain revived; for in
+          <hi rend="italic">London</hi>, <hi rend="italic">Marſeilles</hi>, <hi rend="italic"
+          >Amſterdam</hi>, <hi rend="italic">Rot- <lb/>terdam</hi>, <hi rend="italic">Leghorn</hi>,
+          <hi rend="italic">Hamburgh</hi>, and moſt other regular <lb/>trading cities in <hi
+          rend="italic">Europe</hi>, the <hi rend="italic">Druggiſt</hi> is none other than <lb/>a
+        mere <hi rend="italic">Merchant</hi> of <hi rend="italic">Drugs</hi>, and in the <hi
+          rend="italic">beſt fenſe</hi> of the <lb/>word, <hi rend="italic">Pharmacopola</hi>. </p>
+      <p rend="indent">
+        <lb/>So different a profeſſion from <hi rend="italic">Phyſic</hi> was <hi rend="italic"
+          >Pharmacy</hi>
+        <lb/>deemed, that not above a century paſſed, ſince the <lb/>Grocers Company in <hi
+          rend="italic">London</hi> diſpenſed medicines. <lb/>But it was at length found expedient,
+        that ſome <lb/>ſhould ſeparate from that body, who ſhould take <lb/>upon them the entire
+        management of the medicinal <lb/>part of that trade, that by applying themſelves ſole-
+        <lb/>ly to an affair of ſo great importance to the public, <lb/>they might cultivate and
+        attain to a competent know- <lb/>ledge in ſo uſeful and neceſſary an art. Whereupon
+        <lb/>Pharmacy was revived, and the Apothecaries throw- <lb/>ing off all incumbrances, betook
+        them to their pro- <lb/>per profeſſion, in which they ſoon became eminent, <lb/>were taken
+        notice of, and encouraged by the learned, <lb/>and grew into ſuch favour with King <hi
+          rend="italic">James</hi> the <lb/>Firſt, that he incorporated them by Royal Charter,
+        <lb/>and uſed to call them <hi rend="italic">his own company</hi>. Thus they <lb/>became a
+        diſtinct ſociety from the grocers. </p>
+      <p rend="indent">
+        <lb/>The illuſtrious college of phyſicians of <hi rend="italic">Augſburgh</hi>, <lb/>which
+        was the firſt, that I find, who took the pains of <lb/>compiling, and publiſhed the
+        celebrated <hi rend="italic">Auguftane <lb/>Diſpenſatory</hi>, has moſt minutely and juſtly
+        laid down <lb/><hi rend="italic">the qualifications for and the office and duty of an Apo-
+          <lb/>thecary</hi>, from whom, with ſome few amendments <lb/>from other authentic writers,
+        I make the following <lb/>abſtract. </p>
+      <p rend="indent italic">
+        <lb/>As <hi rend="sc">Pharmacy</hi> is a moſt conſiderable branch of the <lb/><hi rend="sc"
+          >Healing Art</hi>, being the phyſician's chief agent, ſo <lb/>the apothecary ſhould be a
+        juſt good man, and principally <lb/>grounded in the knowledge of his profeſſion. </p>
+      <p rend="indent italic">
+        <lb/>He ſhould in general be untainted in his morals, and of <lb/>a perfect ſound
+        underſtanding, endowed with a juſt reve- <lb/>rence for the <hi rend="sc">Supreme
+        Being</hi>, and the true principles <pb n="16"/>
+        <lb/>of the <hi rend="sc">Christian Religion</hi>; pious and faithful, <lb/>juſt and
+        equitable; humane, benign, affable, placable, <lb/>merciful and ready; mild and bountiful to
+        the poor and indi- <lb/>gent; ever preferring publick to private gains; vigilant <lb/>and
+        regardful of the dangers and neceſſities of the ſick; in <lb/>acts of mercy and charity,
+        diligent and unwearied; not <lb/>covetous, penurious, or mercenary; for in buying of drugs,
+        he <lb/>is to prefer the teſtimony of a clear conſcience, the good <lb/>of his neighbour,
+        and his own credit and reputation, to ill <lb/>gotten riches or lucre. Wherefore, he is to
+        procure ge- <lb/>nuine good drugs and medicines at any rate, rather than by <lb/>buying at
+        the vileſt, diſpenſe adulterate or bad medicines, <lb/>and deceive his unwary cuſtomer to
+        the peril or prejudice <lb/>of his life or health. He ſhould be fober and regular in
+        <lb/>all his conduct; no gameſter, ſot, or drunkard; nor prone <lb/>to libidinous
+        concupifcence or venery. </p>
+      <p rend="indent">
+        <lb/>Thefe premiſed, his capacity is next to' be conſi- <lb/>dered. <hi rend="italic">He
+          muſt not only have a ſtrong natural genius to <lb/>lead him to this art, but he muſt be a
+          good ſcholar, to ina- <lb/>ble him to read the ordinary preſcripts of phyſicians and
+          <lb/>chirurgeons, which</hi> (from the difficulty of tranſlating <lb/>them with any
+        certainty into the vulgar tongues, <lb/>and for other obvious reaſons,) <hi rend="italic"
+          >are all over</hi> Europe <lb/><hi rend="italic">wrote in</hi> Latin, <hi rend="italic"
+          >and eſpecially, that he may acquire a <lb/>thorough knowledge of his profeſſion, by
+          conſulting the <lb/>works of the learned, who treat upon the ſeveral <lb/>branches
+          thereof</hi>. </p>
+      <p rend="indent">
+        <lb/>The Authors recommended, are <hi rend="italic">Dioſcorides</hi>, <hi rend="italic"
+          >Galen</hi>, <lb/><hi rend="italic">Ægineta</hi>, <hi rend="italic">Ætius</hi>, <hi
+          rend="italic">Meſue</hi>, <hi rend="italic">Nich. Prœpoſitus</hi> and <hi rend="italic"
+          >Myrep- <lb/>ſius</hi>, <hi rend="italic">Pliny</hi>, <hi rend="italic">Corn. Celſus</hi>,
+          <hi rend="italic">A. M. Braſavolus</hi>, <hi rend="italic">Valer. Cor- <lb/>dus</hi>, <hi
+          rend="italic">Anut. Fæſius</hi>, <hi rend="italic">Fuchſius</hi>, <hi rend="italic"
+          >Garcias ab Horto</hi>, <hi rend="italic">Nich. <lb/>Monardes</hi>, <hi rend="italic">J.
+          B. Sylvaticus</hi>, <hi rend="italic">Fernelius</hi>, <hi rend="italic">Joubertus</hi>,
+          <hi rend="italic">Re- <lb/>nodœus</hi>, <hi rend="italic">Melichius</hi>, <hi
+          rend="italic">Coudenbergius</hi>; alſo, <hi rend="italic">Mathiolus</hi>, <hi
+          rend="italic">Lo- <lb/>nicerus</hi>, <hi rend="italic">Tragus</hi>, <hi rend="italic"
+          >Lobelius</hi>, <hi rend="italic">Pæna</hi>, <hi rend="italic">Dodonœus</hi>, <hi
+          rend="italic">Taberna- <lb/> montanus</hi>, <hi rend="italic">Quercetanus</hi>, <hi
+          rend="italic">Joh. Jac. Weckerus</hi>, <hi rend="italic">Heurnius</hi>, <lb/><hi
+          rend="italic">Oſwald. Crollius</hi>, &amp;c. To which muſt now be added <lb/>G. Agricola,
+        Fer. Imperatus, B. Cæſius, Worm, <lb/>Caſp. &amp; Joh. Bauhin, Salmaſius, Schroeder,
+        Zwelſer, <lb/>Morriſon, Ray, Tournefort, Ang. Sala, J. Hartman, <pb n="17"/>
+        <lb/>Mynſicht, the Hoffmans, Cluſius, Piſo, Bontius, <lb/>Marcgravius, Wedelius, Le Mort,
+        Dale, Stahl, <lb/>Boerhaave, and many others; beſides the ſeveral col- <lb/>legiate
+        diſpenſatories of Augſburgh, London, Brux- <lb/>els, Edinburgh, Paris, Leyden, Hague,
+        Ghaunt, <hi rend="italic">&amp;c.</hi>
+        <lb/><hi rend="italic">from theſe the apothecary can beſt learn the medicinal parts <lb/>of
+          the mineral, vegetable, and animal kingdoms, with their <lb/>proper names and ſynonyma in
+          the </hi>Arabic, Greek, Latin, <lb/><hi rend="italic">and vulgar tongues: Theſe will teach
+          him to diſcern the <lb/>good from the bad, and to ſelect the true and genuine, <lb/>from
+          the falſe and ſophiſticated: and in ſhort, from them <lb/>he can collect the generic marks
+          and characteriſtics of <lb/>the ſimple, with proper inſtructions for preparing, and
+          <lb/>neceſſary animadverſions on, the compound medicaments</hi>. </p>
+      <p rend="indent">
+        <lb/> Having laid theſe ſolid foundations for his future <lb/>practice, his Œconomy comes
+        next under conſide- <lb/>ration. </p>
+      <p rend="indent">
+        <lb/><hi rend="italic">His ſhop ſhould be ſituate in a convenient, open, <lb/>temperate
+          place, not expoſed to damps, winds, duſt, <lb/>ſmoke, or ſtench</hi>. And as it contains
+        ſundry diſtilled <lb/>liquors, wines or vinous infuſions, tinctures and ſi- <lb/>rups,
+        electuaries, confections and conſerves, which <lb/>too much heat will render vapid or
+        mothery, fer- <lb/>ment, ſour, or otherwiſe ſpoil; and which exceſſive <lb/>cold will chill
+        add freeze, congeal, cryſtallize, or o- <lb/>therwiſe prejudice: A vintner need hardly
+        obſerve <lb/>a greater exactneſs or regularity in adjuſting the <lb/>temperature of his
+        cellar or vault, than an Apo- <lb/>thecary ſhould in that of his ſhop or ſtore-room.
+        <lb/>Wherefore he ſhould avoid the extreme heat of the <lb/>ſun, which on one hand he is
+        expoſed to, all the <lb/>ſummer months, and on the other, the extraordi- <lb/>nary cold of
+        the winter: For which reaſons, that <lb/>aſpect is moſt eligible which affords the greateſt
+        <lb/>mediocrity. Nor ſhould it be expoſed in any, to <lb/>the many inconveniences and evils
+        of open un- <lb/>glaſſed windows and doors, nor made more intem- <lb/>perate by fires made
+        on particular occaſions only, <lb/>either in ſummer or winter. </p>
+      <pb n="18"/>
+      <p rend="indent italic">
+        <lb/>And that the medicines may he handled cleanly and <lb/>neatly, (thoſe for internal uſe
+        more eſpecially, which <lb/>are taken with the greater reluctance and diſdain, the <lb/>more
+        ſordidly they are obſerved to be treated) the Apo- <lb/>thecary is to keep his ſhop and
+        utenſils ſweet, pure, and <lb/>clean; and with indefatigable diligence, furniſh it with
+        <lb/>the uſual commodities at due ſeaſons, and preſerve them <lb/>for future uſe in fit
+        receptacles and convenient places. </p>
+      <p rend="indent italic">
+        <lb/>He is not to ſell or adminiſter, nor ſuffer, or cauſe <lb/>to be adminiſtered to any,
+        (without the immediate li- <lb/>cence of a Magiſtrate, or the preſcription of a judicious
+        <lb/>Phyſician) any ſort of poyſon or poyſonous drugg, <lb/>philtres, provocatives of terms
+        or abortion, opium or <lb/>laudanum, ſtrong vomitives or purgatives, nor other <lb/>ſuch
+        like powerful medicines, eſpecially the Chemical <lb/>preparations of Mercury and Antimony. </p>
+      <p rend="indent italic">
+        <lb/>He ſhould be ſtrictly juſt and faithful, cautious and <lb/>circumſpect, in the
+        diſpenſing and preparing the ordina- <lb/>ry preſcriptions of Phyſicians, as well as the
+        officinal <lb/>compoſitions. Nor ſhould he raſhly or conceitedly, ſub- <lb/>ſtitute any one
+        thing for another in a medicine, truſt- <lb/>ing to his own judgement or knowledge, nor omit
+        the <lb/>leaſt or meaneſt ingredient in any compoſition whatſoever, <lb/>without the advice,
+        conſent, or approbation of the pre- <lb/>ſcriber, or ſome other skilful, prudent phyſician.
+        But <lb/>with religious fidelity, care and integrity, diſpenſe all <lb/>preſcripts in
+        quality and quantity, truly and exactly, <lb/>according to the literal fenſe of ſuch
+        preſcript or recipe. <lb/>He is to keep an exact regiſtry of all ſuch recipe's, and the
+        <lb/>originals, carefully filed. He is to keep ſuch as are for ſe- <lb/>cret complaints from
+        being expoſed. He is to repeat <lb/>no medicine without the direction of the preſcriber. <hi
+          rend="roman">
+          <lb/>See prolegom</hi>. <hi rend="roman">Iſagog. in</hi> pharmac. Auguſt. <hi rend="roman"
+          >Cap. <lb/>i. I. D. Horſtij</hi> Inſt. pharmaceut. <hi rend="roman">Part. i. Cap. ii.
+          <lb/>Hoffman</hi>. Clav. pharm. Schroed. <hi rend="roman">p. 29. </hi>
+      </p>
+      <p rend="indent">
+        <lb/>So ſenſible were the wiſe ſenate of Augſbourg of <lb/>the uſe and neceſſity of theſe
+        rules, that they made <lb/>ſome excellent laws, as well to inforce the obſervati- <lb/>on,
+        thereof, as to regulate the practices of phyſic, <pb n="19"/>
+        <lb/>pharmacy and chirurgery in every other inſtance: <lb/>And the ſenate of <hi
+          rend="italic">Ghaunt</hi> alſo took much the like <lb/>method. </p>
+      <p rend="indent">
+        <lb/>Among other ſtatutes it is enacted, "That no <lb/>apothecary, ſhall ſo far ſwerve from
+        his duty, <lb/>as to interfere with the proper office of a phyſi- <lb/>cian or chirurgeon;
+        and that none preſumes to <lb/>ſell or adminiſter medicines (ſtrong purgatives <lb/>and
+        provocatives eſpecially) without the preſcripti- <lb/>on of a phyſician; leſt by the raſh,
+        ill-judged, or un- <lb/>timely uſe of the moſt efficacious remedies, the <lb/>health of the
+        public may ſuffer, and the beſt <lb/>medicines fall into contempt and diſrepute; phy-
+        <lb/>ſicians only being the proper judges of the fit <lb/>ſubjects and juſt times of
+        adminiſtering ſuch <lb/>remedies.<q rend="quotes"> — </q>The apothecaries are obliged to
+        <lb/>prepare and compound all their medicines by <lb/>the college diſpenſatory, <note
+          place="bottom" rend="size(0.5)" n="*">
+          <p rend="indent">
+            <lb/>* See the King's proclamat. prefixed to the <hi rend="italic">London</hi> diſpnſat.
+          </p>
+        </note> and to ſell them at <lb/>the rates fixed by the ſenate.<q rend="quotes"> </q>All
+        quacks, em- <lb/>pirics, mountebanks, and ſuch like impoſtors and <lb/> pretenders to
+        medicine whatſoever, not found le- <lb/>gally qualified, are expelled the ſtate." See the
+        <lb/>decrees and ſtatutes of the ſenates of <hi rend="italic">Augsbourg</hi> and <lb/><hi
+          rend="italic">Ghaunt</hi>, annexed to their ſeveral diſpenſatories. </p>
+      <p rend="indent">
+        <lb/>The apothecaries of <hi rend="italic">Paris</hi> are obliged, not only <lb/><hi
+          rend="italic">to conform to the diſpenſatory, ſtrictly and literally</hi>, <lb/>but are
+        likewiſe <hi rend="italic">prohibited to vend or adminiſter a- <lb/>ny medicines whatſoever,
+          without the preſcription of <lb/>one of the faculty of medicine or one of the King's
+          <lb/>phyſicians</hi>. See an arret of parliament prefixed to <lb/>the <hi rend="italic"
+          >Pariſian</hi> diſpenſatory. </p>
+      <p rend="indent">
+        <lb/>Nothing aſſuredly can contribute more to the im- <lb/>provement and benefit of the
+        healing art, than the <lb/>profeſſors of the different branches thereof, applying
+        <lb/>themſelves entirely to the ſtudy and practice of their <lb/>reſpective callings. And
+        this was certainly the wiſe <lb/>deſign of our predeceſſors in dividing it into thoſe <pb
+          n="20"/>
+        <lb/>three ſeveral parts; and were it yet further ſubdivided, <lb/>it is probable it might
+        be brought to greater certain- <lb/>ty and rendered more generally beneficial to man-
+        <lb/>kind, than it can be in an aggregate ſtate; ſince the <lb/>meaneſt branch can
+        ſufficiently employ the whole <lb/>attention and underſtanding of a man. We find <lb/>that
+        many of the antients were of this opinion <note n="*" place="bottom" rend="size(0.5)">
+          <p rend="indent">
+            <lb/>* Herodot. L. ii. S. 84. </p>
+        </note>, and <lb/>that it was approved by the late celebrated doctor <lb/><hi rend="italic"
+          >Harris</hi> of <hi rend="italic">London</hi>
+        <note place="bottom" rend="size(0.5)" n="†">
+          <p rend="indent">
+            <lb/>† Pharmac. Anti-Empiric. p. 217. </p>
+        </note>. What conſiderable diſcoveries <lb/>and improvements have already been made in phy-
+        <lb/>ſic in general by theſe diviſions, are very obvious to <lb/>all that are converſant
+        with the hiſtory of medicine. <lb/><hi rend="italic">Phyſicians</hi> by appointing <hi
+          rend="italic">proper agents</hi> for the more <lb/><hi rend="italic">operoſe</hi> and <hi
+          rend="italic">mechanic</hi> parts of their profeſſion, threw <lb/>off all incumbrance and
+        obtained more time and <lb/>leiſure for ſtudy. <hi rend="italic">Chirurgery</hi> was
+        cultivated un- <lb/>der the ſame management and both have arrived <lb/>at the extraordinary
+        pitch of eminence we now ſee <lb/>them in, under theſe wiſe Regulations. <hi rend="italic"
+          >Pharmacy</hi>
+        <lb/>too, while it kept within the proper bounds, ſhone <lb/>and flouriſhed; for it is
+        obſervable, that no ſet of men <lb/>made a better figure in their way than the apothe-
+        <lb/>caries that retained their integrity and kept within <lb/>the juſt limits of their
+        Occupation; which the <lb/>works of many of them amply teſtify. Of theſe <lb/>are <hi
+          rend="italic">Ferrantes Imperatus</hi> a <hi rend="italic">Neapolitan</hi>, who wrote a
+        <lb/>moſt excellent natural hiſtory, 28 books in <hi rend="italic">folio</hi>; <lb/><hi
+          rend="italic">John Parkinſon</hi> of <hi rend="italic">London</hi>, who wrote the <hi
+          rend="italic">Theatrum <lb/>Botanicum</hi> and <hi rend="italic">Paradiſus
+        Terreſtris</hi>; <hi rend="italic">Thomas Johnſon</hi>
+        <lb/>of the ſame, who emaculated and augmented <lb/><hi rend="italic">Gerard</hi>'s <hi
+          rend="italic">Herbal</hi>, all in large <hi rend="italic">folio</hi>; <hi rend="italic"
+          >Moſes Charas</hi> of <lb/><hi rend="italic">Paris</hi>, who wrote a very uſeful
+        diſpenſatory, in large <lb/><hi rend="italic">quarto</hi>; <hi rend="italic">Peter
+          Pomet</hi> of the ſame, <hi rend="italic">a mere druggiſt</hi>, <lb/>who wrote a hiſtory
+        of drugs in <hi rend="italic">folio</hi>; <hi rend="italic">M. Lemery</hi>, <lb/>who wrote a
+        courſe of <hi rend="italic">Chemy</hi> in <hi rend="italic">octavo</hi>, an univerſal
+        <lb/>diſpenſatory, and a dictionary of drugs in large <pb n="21"/>
+        <hi rend="italic">quarto</hi>; and <hi rend="italic">M. Homberg</hi>, who made many improve-
+        <lb/>ments and diſcoveries in the Pharmacies <note place="bottom" rend="size(0.5)" n="*">
+          <p rend="indent">
+            <lb/>* See Memoires de l'Acad. Roy. de Sciences. </p>
+        </note>, who were <lb/>both honoured for their eminence with the degree of <lb/><hi
+          rend="italic">doctor of medicine</hi>. At preſent Mr. <hi rend="italic">Joſeph Miller</hi>
+        <lb/>and Mr. <hi rend="italic">Iſaac Rand</hi> of <hi rend="italic">London</hi>, deſerve
+        honourable <lb/>mention; as do Meſſieurs <hi rend="italic">Bolduc</hi> and <hi rend="italic"
+          >Geoffrey</hi> of <lb/><hi rend="italic">Paris</hi>, whoſe worth and merit none can be a
+        <lb/>ſtranger to, who reads the memoirs of the <hi rend="italic">Aca- <lb/>demy Royal of
+          Sciences</hi>. I have reſerved to bring up <lb/>the rear, the brighteſt ornament of his
+        profeſſion, <lb/>the late learned and ingenious Mr. <hi rend="sc">Samuel Dale</hi>,
+        <lb/>whoſe excellent <hi rend="italic">Pharmacologia</hi> has rendered him <lb/>well known
+        to all the phyſical world. For tho' he <lb/>lived in <hi rend="italic">Brantry</hi> in <hi
+          rend="italic">Eſſex</hi>, yet was his merit ſo well <lb/>known to the illuſtrious college
+        of phyſicians of <lb/><hi rend="italic">London</hi>, that before he publiſhed the laſt
+        edition of <lb/>his works, which he greatly augmented and im- <lb/>proved, he was honored
+        with a licence to practiſe <lb/>phyſic. With him let me remember that great and
+        <lb/>laborious artiſt and curious naturaliſt, <hi rend="sc">Seba</hi> of <lb/><hi
+          rend="italic">Amſterdam</hi>; whoſe prodigious <hi rend="italic">Muſœum</hi> with the
+        <lb/>hiſtory thereof, five large volumes in <hi rend="italic">folio</hi>, muſt <lb/>render
+        his memory famous to lateſt poſterity. </p>
+      <p rend="indent">
+        <lb/>II. While <hi rend="italic">Pharmacy</hi> was practiſed by ſuch able <lb/>hands as
+        thoſe, <hi rend="italic">Phyſic</hi> which has ſo great a depen- <lb/>dence upon it, muſt
+        have flouriſhed. But ſuch be- <lb/>came the inſatiable avarice of moſt of the <hi
+          rend="italic">apotheca- <lb/>ries</hi>, that they could not long content themſelves
+        <lb/>with the ample profit that aroſe upon the ſale of <lb/>their proper commodities and
+        manufactures; but <lb/>envious of their elder brethren of the faculty of <lb/>phyſic, they
+        now endeavoured to imitate them, as <lb/>the frogs in the fable did the oxen, (and indeed
+        <lb/>with much the fame ſucceſs) and ſought after new <lb/>methods of increaſing their
+        ſordid gains. This they <lb/>effected by treacherouſly and ſurreptitiouſly invading <lb/>the
+        provinces of <hi rend="italic">phyſicians</hi> and <hi rend="italic">chirurgeons</hi>, and
+          <pb n="22"/>
+        <lb/>alluring the populace under the ſpecious pretence of <lb/>giving <hi rend="italic"
+          >advice</hi> in phyſic and chirurgery <hi rend="italic">gratis</hi>. <lb/>Which fatal
+        deluſion readily inſnared the ignorant <lb/>vulgar, who could not be ſenſible of their groſs
+        ig- <lb/>norance and manifeſt incapacity for ſuch an under- <lb/>taking, nor apprehend that
+        theſe very bountiful <lb/>gentry, took care to tax their medicines with their
+        <lb/>invaluable advice; ſo that their preſcriptions (of <lb/>which it muſt be confeſſed they
+        are always moſt li- <lb/>beral) are now charged infinitely more than their <lb/>real value,
+        or what thoſe of phyſicians and chirur- <lb/>geons, (tho' of more intrinſic worth, being
+        certainly <lb/>better adapted to particular exigencies, to the con- <lb/>ſtitution and the
+        indications of cure,) might be made <lb/>up and ſold for. And thus by iniquitouſly enhancing
+        <lb/>the prices of remedies and giving them in unneceſ- <lb/>ſary abundance, they
+        clandeſtinely acquired unme- <lb/>rited fees, equal to thoſe juſtly due to the moſt
+        <lb/>regularly educated and moſt experienced phyſicians <lb/>or chirurgeons. </p>
+      <p rend="indent">
+        <lb/>That this is the preſent cafe, every intelligent, <lb/>candid apothecary muſt confeſs.
+        And theſe fallacies <lb/>might be further evinced beyond diſpute, were the <lb/>generality
+        to be made ſenſible of the juſt rates of <lb/>medicines and the moſt monſtrous, extravagant
+        <lb/>bills they are frequently charged. To ſee two <lb/>drachms of <hi rend="italic">Sal
+          prunel</hi> not worth a penny, diſguiſed <lb/>with ſome inſignificant color, and an
+        unintelligible, <lb/>pompous title, and ſold for ſixteen pence, muſt ſurely <lb/>move your
+        contempt and indignation! Who with- <lb/>out abhorrence and ſurprize, could ſee ſham <hi
+          rend="italic">Gaſgoin</hi>'s <lb/><hi rend="italic">powder</hi>, without a grain of
+        bezoar, ſold at five <lb/>ſhilling the drachm, when (by omitting that only <lb/>dear
+        ingredient) it could not have coſt the maker <lb/>one penny? Yet theſe and many ſuch like
+        impoſi- <lb/>tions are daily practiſed by mercenary quacks, and <lb/>by them judged
+        neceſſary and their undoubted <lb/>right, on accompt of <hi rend="italic">their
+          extraordinary skill, great <lb/>care, frequent viſits, and trouble in attending and
+          pre-</hi>
+        <pb n="23"/>
+        <lb/><hi rend="italic">ſcribing</hi>. I have known a gentleman's bill, who <lb/>ſickened on
+          <hi rend="italic">Monday</hi> and died the <hi rend="italic">Wedneſday</hi> follow-
+        <lb/>ing, amount to above five pounds, tho' his careful <lb/>apothecary had but a ſtreet's
+        breadth to croſs be- <lb/>tween his ſhop and the patient's lodging. It is <lb/>more than
+        probable, that if the <hi rend="italic">unhappy ſufferer</hi> took <lb/>to the value of his
+        bill in medicines, it was the <lb/>cauſe of his death, and would, tho' he had the moſt
+        <lb/>athletic conſtitution; but to acquit his apothecary of <lb/><hi rend="italic">this
+          murder</hi>, every one of the profeſſion muſt con- <lb/>feſs, that no man could well
+        require or conſume <lb/>medicines to that value in the time. Then what <lb/>phyſician could
+        expect ſo much for his attendance in <lb/>the ordinary manner for ſo long? </p>
+      <p rend="indent">
+        <lb/>It muſt be allowed that all artiſts have a juſt <lb/>right to charge upon their wares,
+        the neceſſary ex- <lb/>pences and trouble that attend the preparing and <lb/>vending them;
+        but thoſe of apothecaries in the ſale <lb/>of their commodities without doors, they have
+        <lb/>unneceſſarily and unjuſtly brought upon themſelves, <lb/>for the moſt part; ſo let the
+        world judge their me- <lb/>rit, in impoſing ſuch an iniquitous tax upon the <lb/>public. </p>
+      <p rend="indent">
+        <lb/>Some perhaps will in good-nature, urge in favour <lb/>of their worthy apothecary, <hi
+          rend="italic">that for a bill of ten <lb/>pounds he is often put off with five or
+        fix</hi>. A modeſt, <lb/>humble creature! His merit as well as demerit, is <lb/>beſt known
+        to himſelf. — It is true ſome apothe- <lb/>caries may think themſelves well paid with half
+        their <lb/>bill, and it is not improbable they often are too <lb/>well. For while they can
+        ſwell their accounts to <lb/>what ſize they pleaſe, by the quantities of medicines <lb/>they
+        preſcribe, and charging what they will, it is <lb/>likely care will be taken to ſuit the
+        bill to the humor <lb/>of the cuſtomer, ſo that if he ſhould pay but a <lb/>fourth part,
+        they are ſure to be no loſers. But <lb/>which of them will remit one penny of their bill on
+        <lb/>their own accord, be it ever ſo highly rated, to <lb/>ſuch as do not wrangle for it?
+        And is not whatſo- <pb n="24"/>
+        <lb/>ever they receive over and above the real value of the <lb/>medicines <hi rend="italic"
+          >juſtly</hi> diſpoſed of, the moſt baſe and wicked <lb/>extortion? — Such <hi
+          rend="italic">apothecaries</hi> would probably <lb/>join in the impious breathings of <hi
+          rend="sc">Garth</hi>'s <hi rend="italic">Diaſenna</hi>, <lb/>if they thought their goods
+        were too low rated. <lb/>
+        <floatingText>
+          <body>
+            <lb/>
+            <p rend="align-center space">Thrice happy were thoſe golden days of old, <lb/>When dear
+              as <hi rend="italic">Burgundy</hi> ptiſans were ſold; <lb/>When patients choſe to die
+              with better will, <lb/>Than live to pay th' apothecary's bill. <lb/>And cheaper than
+              for our aſſiſtance call, <lb/>Might go to <hi rend="italic">Aix</hi> or <hi
+                rend="italic">Bourbon</hi> ſpring and fall. </p>
+            <signed rend="align-right">
+              <hi rend="italic">Diſpenſatory</hi>, Cant. iii. </signed>
+          </body>
+        </floatingText>
+      </p>
+      <p rend="indent">
+        <lb/>The extraordinary, unlimited gain' ariſing from <lb/>theſe horrid uſurpations, has now
+        tempted the apo- <lb/>thecaries utterly to forſake their proper and imme- <lb/>diate office
+        and duty. For inſtead of purſuing the <lb/>true means of learning <hi rend="italic"
+          >pharmacy</hi>, (reading the <lb/>Works of the celebrated writers upon that ſubject,
+        <lb/>ſuch being generally in <hi rend="italic">Greek</hi> or <hi rend="italic">Latin</hi>,
+        languages to <lb/>which moſt dealers in drugs are entire ſtrangers,) <lb/>they have totally
+        neglected and forſaken it, and in <lb/>the room of ſuch authors furniſhed themſelves with
+        <lb/>only ſome vile <hi rend="italic">Engliſh diſpenſatory</hi>, the deſpicable <lb/><hi
+          rend="italic">cob-webs</hi> of ſome poor illiterate wretch, who quacked <lb/>for a
+        livelihood and ſpun theſe paultry traps for ig- <lb/>norant, unwary <hi rend="italic"
+          >Flies</hi>. Such were the memorable <lb/><hi rend="italic">ſtar-mongers</hi> and
+        voluminous <hi rend="italic">quacks</hi>, <hi rend="italic">Culpeper</hi> and <lb/><hi
+          rend="italic">Salmon</hi>, and the erroneous, conceited <hi rend="italic">ſcriblers</hi>,
+          <lb/><hi rend="italic">Quincy</hi> and <hi rend="italic">Alleyne</hi>; whoſe <hi
+          rend="italic">diſpenſatories</hi>, <hi rend="italic">practices <lb/>of phyſic</hi>, and
+        other ſuch like fallacious <hi rend="italic">quack-books</hi>, <lb/>(which will not bear
+        reading by any that have read <lb/>the originals, being calculated only for ſuch mean,
+        <lb/>illiterate reptiles, as addict themſelves to that vile, <lb/>pernicious Trade of
+        quacking,) can but prompt a <lb/>man to think he underſtands phyſic, and practiſe it,
+        <lb/>when a better education muſt convince him of the <pb n="25"/>
+        <lb/>contrary, and make him tremble at the thoughts of <lb/>the ſtupendous task. </p>
+      <p rend="indent">
+        <lb/>Thus has <hi rend="italic">Pharmacy</hi> been <hi rend="italic">perverted</hi> and <hi
+          rend="italic">debaſed</hi>. <lb/>For tho' held by the antients <hi rend="italic">in the
+          ſecond rank</hi>, yet <lb/>is it now deemed the <hi rend="italic">laſt</hi> and <hi
+          rend="italic">meaneſt</hi> of the three <lb/>branches; and indeed under the preſent
+        miſmanage- <lb/>ment and depravity, it may of all trades be reckoned <lb/>the vileſt and
+        moſt deſpicable; and inſtead of being <lb/>uſeful, it is become apparently deſtructive to
+        ſociety. <lb/>A footman or porter may now a-days paſs for an <lb/>apothecary, we fee ſhops
+        daily ſerved and attended <lb/>by ſuch, or ignorant women. I have known an <lb/>apothecary's
+        ſhop ſerved by a journey-man of a cer- <lb/>tain mean mechanic trade, who knew not a letter
+        <lb/>in the alphabet. Nay, a wretch who converſed <lb/>more with brutes than men; the
+        ſtable-tender or <lb/>groom of a certain eminent apothecary, has been <lb/>exalted from
+        rubbing of horſes heels, to attending <lb/>his maſter's table, and thence to wiping of
+        compters <lb/>and pounding mortars; and being tranſlated from <lb/>his maſter's to a ſhop of
+        his own, acquired ſo much <lb/>craft as to paſs for an apothecary, lived in repute
+        <lb/>among his neighbours for many years, and died not <lb/>long ſince in very conſiderable
+        circumſtances. <lb/>Hence the calling is become ſo vile and ſcandalous, <lb/>that few,
+        beſides the meaner ſort, put their children <lb/>to learn it, and ſo contemptible are thoſe
+        after <lb/>a moſt ſervile and tedious apprenticeſhip, that a <lb/>journeyman taylor, or
+        ſhoemaker, or any of the <lb/>meaneſt handy-craft trades, ſhall get better wages <lb/>than a
+        journeyman apothecary, of ever ſo good un- <lb/>derſtanding in his profeſſion, the moſt
+        ignorant <lb/>being capable of ſerving moſt of our common ſhops, <lb/>which conſiſts chiefly
+        in retailing medicines made up <lb/>by a <hi rend="italic">nominal druggiſt</hi>, as
+        incapable of preparing, as an <lb/><hi rend="italic">apothecary</hi> of <hi rend="italic"
+          >preſcribing</hi> them juſtly, or bought <lb/>from a poor, ignorant herb-gatherer, who
+        both <lb/>frequently ſell one thing for another of ever ſo dif- <lb/>ferent qualities, which
+        impoſitions are implicitly <pb n="26"/>
+        <lb/>over-looked by maſter and man; neither thinking <lb/>the knowledge of ſimple or
+        compound medicines <lb/>material, or neceſſary, nor their preparation or <lb/>compoſition
+        his proper occupation, they lay them- <lb/>ſelves out for practiſing phyſic and chirurgery;
+        for <lb/>which as well as their own profeſſion, the reading a <lb/>falſe <hi rend="italic"
+          >Engliſh diſpenſatory</hi> is reckoned a ſufficient qua- <lb/>lification. So, quacking
+        being the principal buſineſs <lb/>of a <hi rend="italic">modern apothecary</hi>, he
+        generally goes thro' that <lb/>himſelf, therefore needs no judicious <hi rend="italic"
+          >emanuenſis</hi>, any <lb/>raw-boy being ſoon made capable of the ordinary <lb/>buſineſs
+        of his ſhop; for which reaſon, rather than <lb/>pay journeyman's wages, apprentices are
+        multiplied <lb/>at any rate, and at all hazards. Whence we come <lb/>to have more
+        apothecaries' <hi rend="italic">ſhops</hi> than any city in <lb/><hi rend="italic"
+          >Europe</hi> in proportion: We are within eight or ten <lb/>equal in number with thoſe of
+          <hi rend="italic">Paris</hi>, which I think <lb/>is allowed to be ſix times as populous as
+          <hi rend="italic">Dublin</hi>. </p>
+      <p rend="indent">
+        <lb/>But this fatal degeneracy has now made ſuch a <lb/>progreſs, that we really forget or
+        know not what <lb/>we ſhould be. For regardleſs of the worth and <lb/>dignity of our art and
+        of the public benefit, the <lb/>apothecaries have neglected and abandoned it, and <lb/>in
+        the vain purſuit of another, (like <hi rend="italic">Æſop</hi>'s dog) <lb/><hi rend="italic"
+          >quitted the real ſubſtance for an empty ſhadow</hi>; ſo, <lb/>loſing their art, have
+        dwindled into vile, fallacious <lb/>quacks, vain and audacious pretenders to phyſic and
+        <lb/>chirurgery, and deſtructive hawkers of medicine. <lb/>The very method of educating
+        youth in this calling, <lb/>is either quite forgotten, or, ſo far perverted and <lb/>changed
+        from what it muſt have been heretofore, <lb/>that it is by great accident if ever we happen
+        to fee any <lb/>one of common underſtanding in that profeſſion; <lb/>few having more than
+        the undeſerved name of <hi rend="italic">apo- <lb/>thecary</hi>, and that only becauſe he
+        lived in ſome <lb/>mean, ſervile ſtation for a time, with one of that <lb/>appellation.
+        Theſe pretenders are above the ordinary <lb/>buſineſs and attendance of a ſhop; that with
+        them <lb/>is quite out of the queſtion; <hi rend="italic">they fly at higher game</hi>. <pb
+          n="27"/>
+        <lb/>You may ſee ſome of theſe <hi rend="italic">would-be doctors</hi> in all <lb/>parts of
+        the town in queſt of prey. One dreſſed <lb/>with all the formality of a prig, another
+        affecting <lb/>a dirty ſlovenly mien, and an unnatural, ſullen grim- <lb/>mace, inſtead of
+        the natural gravity which muſt <lb/>neceſſarily poſſeſs men of underſtanding in the
+        <lb/>important practice of phyſic. The firſt ſhall aſſume a <lb/>moſt pedantic, dogmatic
+        air; the ſecond, an ill- <lb/>feigned, awkward, <hi rend="italic">hippocratic</hi> leer: and
+        either ſhall <lb/>ſmell, <hi rend="italic">taſte</hi>, or inſpect excrements, examine the
+        <lb/>viſage and tongue, and feel the pulſe with great <lb/>ſolemnity; then, in a long ſpun,
+        uncouth jargon of <lb/>ill-choſen, unintelligible, technical words, enough to <lb/>raiſe the
+        admiration and puzzle all the nurſe-keepers <lb/>in <hi rend="italic">Chriſtendom</hi>,
+        ſhall ask a poor languiſhing patient, <lb/>a ſet of tedious, impertinent, common-place queſ-
+        <lb/>tions, which he cannot poſſibly underſtand, and con- <lb/>ſequently cannot anſwer. But
+        the wily quack, with <lb/>a ſelf-ſufficient look, and a weighty, revolving <lb/><hi
+          rend="italic">humh!</hi> — cries, <hi rend="italic">ſo,</hi> — <hi rend="italic">ay</hi>,
+        — <hi rend="italic">very well</hi>, — <hi rend="italic">hemh</hi>, <lb/>— <hi rend="italic"
+          >I thought ſo</hi>, — <hi rend="italic">I apprehend you</hi>, and ſo forth. <lb/>Then
+        armed with fatal pen, ink, and paper, he pre- <lb/>ſcribes largely, ſome ſtinking, mothered
+        waters, <lb/>fermented ſirrups, pernicious burning ſpirits, in- <lb/>grateful, <hi
+          rend="italic">medicated brandy-juleps</hi>
+        <note place="bottom" rend="size(0.5)" n="*">
+          <p rend="indent">
+            <lb/>* G. Harvey. </p>
+        </note>, or at beſt, <hi rend="italic">unwhol- <lb/>fome and unſavory punch</hi>, which the
+        preſcriber (to <lb/>whom indeed their worth is ſolely known) calls <lb/><hi rend="italic"
+          >ſpecific</hi> or <hi rend="italic">alexipharmic</hi>, and takes care often to
+        <lb/>repeat, becauſe he would not have his patient <hi rend="italic">die <lb/>for want of a
+          cordial</hi>, (as it is termed) or rather, <lb/>that he may ſell his wares and have an
+        opportunity <lb/>of charging for his viſits; tho' he does not know, <lb/>but he hereby in
+        effect ſigns the poor <hi rend="italic">ſufferer's</hi>
+        <lb/>death-warrant, tho' he meant only to draw a <hi rend="italic">ſmall bill</hi>
+        <lb/>in his own favour. Yet ask this mighty <hi rend="italic">ſham-doctor</hi>, <lb/>how the
+        meaneſt compoſitions in his ſhop are made? <lb/>whence this or the other ſimple ingredient?
+        what <pb n="28"/>
+        <lb/>it's diſtinguiſhing marks and characteriſtics ? or the <lb/>like; I will venture to
+        anſwer for him rather than <lb/>betray his ignorance, he will confeſs <hi rend="italic">he
+          bought them <lb/>from ſome honeſt druggiſt</hi>. No, no; he does not <lb/>ſtoop to ſuch
+        mean things, <hi rend="italic">he practiſes phyſic</hi>; like <lb/><hi rend="sc"
+        >Garth</hi>'s <hi rend="italic">Colon</hi>, <lb/>
+        <floatingText>
+          <body>
+            <lb/>
+            <p rend="align-center space">In trifling ſhew his tinſel talent lies, <lb/>And form the
+              want of intellects ſupplies. <lb/>In aſpect grand and goodly he appears, <lb/>Revered
+              as patriarchs in primæval years. <lb/>Hourly his learned impertinence affords, <lb/>A
+              barren ſuperfluity of words. <lb/>The patients ears remorſeleſs he aſſails,
+              <lb/>Murders with jargon where his medicine fails. </p><signed rend="align-right">
+                <hi rend="italic">Diſpenſ</hi>. Cant. ii. </signed>
+          </body>
+        </floatingText>
+      </p>
+      <p rend="indent">
+        <lb/>Let us now take a further view of ſuch an apo- <lb/>thecary and ſee how he can teach
+        pharmacy. </p>
+      <p rend="indent">
+        <lb/>The apprentice of <hi rend="italic">ſuch a maſter</hi>, begins with a <lb/>ſmall
+        ſmattering of grammar rules, and ſometimes <lb/>none; which he (leaſt <hi rend="italic"
+          >Tyro</hi> ſhould ſoon diſcover <lb/>his ignorance and illiterature, or in time out do
+        him) <lb/>judges ſufficient. His fund of ſenſe, genius, or o- <lb/>ther abilities, are never
+        conſidered, being indeed but <lb/>trifling to a <hi rend="italic">modern Apothecary</hi>,
+        for a little acquired <lb/>craft may make a mere block-head, or even an <hi rend="italic">I-
+          <lb/>deot</hi>, paſs for an <hi rend="italic">Apothecary</hi>. His apprenticeſhip com-
+        <lb/>mences, with the ſervile drudgery of the moſt abject <lb/>ſlave; as for inſtruction of
+        any kind he muſt not <lb/>expect it, his maſter, who ſhines among his nurſe- <lb/>keepers
+        and co-equals, had none: So that to learn <lb/>his trade, the only proſpectle ft, is to
+        follow the good <lb/>example of maſter, which in this inſtance is not at- <lb/>tended with
+        much difficulty, and therefore requires <lb/>but few documents. For altho' he deigns to
+        ſuffer his <lb/>vaſſal to make up ſome few phyſicians preſcrip- <lb/>tions, (out of pure
+        complaiſance to the elder bro- <lb/>thers of the faculty of phyſic, or inſuperable love of
+          <pb n="29"/>
+        <lb/>pelſ,) yet he never ſullies his own delicate hands <lb/>with any preparation; his
+        fingers are made for no- <lb/>bler purpoſes, <hi rend="italic">feeling of pulſes</hi>, (in
+        other words) <hi rend="italic">pick- <lb/>ing of pockets</hi>. Nor does he think it needful
+        he <lb/>ſhould, when from certain <hi rend="italic">half bred</hi> or <hi rend="italic"
+          >mungrel apo- <lb/>thecaries</hi>, falſely called <hi rend="italic">druggiſts</hi>, he can
+        buy almoſt <lb/>every preparation or compoſition, or rather <hi rend="italic">ſubſtitutes
+          <lb/>for any, cent. per cent.</hi> cheaper than any honeſt man can <lb/>make them; nothing
+        need be wanting while there is <lb/>any thing of the ſame or like appearance in the ſhop.
+        <lb/>The poor deluded boy is told, that maſter by <lb/>experience knows this or the other
+        baſe and foreign <lb/>ſubſtitute to be equal, if not the ſame, with whatever <lb/>he is
+        pleaſed to vend it for. Thus is he to learn his <lb/>future occupation! </p>
+      <p rend="indent">
+        <lb/>At length the ſlaviſh apprenticeſhip ended, the mi- <lb/>ſerable, unedified drudge of a
+        vile quack is now be- <lb/>come a maſter. — Of what? — Why of a ſhop only <lb/>forſooth. —
+        See him already by example, if not by <lb/>precept, thorough paced, not only in the little
+        mean <lb/>inſinuating artifices and tricks of quacks and ordinary <lb/><hi rend="italic"
+          >haberdaſhers of drugs</hi>; but likewiſe imbued with the <lb/>baſe penury and ſordid
+        craft of pinching on the one <lb/>hand the induſtrious wretch, who for want of better
+        <lb/>employment ſeeks a miſerable livelihood, by gather- <lb/>ing the herbs or reptiles of
+        the earth, and extorting <lb/>on the other, an exorbitant profit from the pitiful
+        <lb/>farthing of the moſt neceſſitous. Having obſerved <lb/>it needful while an apprentice,
+        he chiefly ſtudied the <lb/><hi rend="italic">aſtucia medica</hi>, the querks and artifices
+        of <hi rend="italic">phyſic- <lb/>jobbers</hi>, rather than the neceſſary qualifications of
+        a <lb/><hi rend="italic">good apothecary</hi>, to which he is yet a ſtranger. He
+        <lb/>therefore apes ſomething of the dreſs and mien of a <lb/>phyſician, well knowing, <hi
+          rend="italic">that eſteem is oftener gained <lb/>by artifice and outward appearance, than
+          by real worth <lb/>or merit</hi>; and then by fawning, cringing, diſſimulati- <lb/>on, and
+        the like, gains a ſet of acquaintance and <lb/>cuſtomers in low life, by whom he is
+        extolled, till, <lb/>by degrees or accident, he riſes a ſtep higher, and ſo <pb n="30"/>
+        <lb/>is ſoon (like <hi rend="italic">Moliere</hi>'s faggot-maker, tho' not al- <lb/>ways by
+        ſtripes) <hi rend="italic">perſuaded to think himſelf a Doctor</hi>. His <lb/>cuſtomers he
+        now calls <hi rend="italic">patients</hi>, in imitation of his <lb/>ſuperiors, and had he
+        called them <hi rend="italic">ſufferers</hi>, the appel- <lb/>lation would be ſtill more
+        expreſſive and ſignificant. </p>
+      <p rend="indent">
+        <lb/>His ſole care is now to vend the deſtructive maga- <lb/>zine of periſhable
+        ſhop-trumpery, which is not very <lb/>difficult to effect, when the quack has puſhed him-
+        <lb/>ſelf into ſome repute with the vulgar, among whom <lb/>he muſt have many <hi
+          rend="italic">Jack-calls</hi>, by whom the skilful <lb/>phyſicians and chirurgeons are
+        artfully decried and <lb/>falſely vilified, who might by abſtinence, diet, air, <lb/>or
+        exerciſe, or by dexterity of hand or bandage, <lb/>perhaps without the uſe of a
+        ſhop-medicine, cure <lb/>ſundry maladies, for which the <hi rend="italic"
+          >phyſic-ſhopkeeper</hi> bears <lb/>them mortal enmity, as they do not promote his
+        <lb/>trade unneceſſarily, with the uſual fallacious inſinua- <lb/>tion of <hi rend="italic"
+          >his unparallelled ſkill and judgement in phyſic and <lb/>chirurgery, and his thorough
+          acquaintance with the prac- <lb/>tice of both, from the number of recipes, which come in-
+          <lb/>to his hands</hi>: but above all, <hi rend="italic">the cheapneſs of his advice
+          <lb/>and attendance</hi>; being ſaid <hi rend="italic">to charge no more than <lb/>the
+          bare prices of a few neceſſary, cheap Remedies</hi>; which <lb/>is the principal
+        recommendation. His character thus <lb/>eſtabliſhed, he has frequent opportunities of
+        putting <lb/>off his commodities at any rate, and this he takes <lb/>care to improve by
+        raiſing ſo many dangers and dif- <lb/>ficulties, that he keeps his poor <hi rend="italic"
+          >ſufferers</hi> in as wretched <lb/>a ſtate of dread and dependence, as the wicked and
+        <lb/>ignorant quack <hi rend="italic">Coctier</hi> did the timorous king of <lb/><hi
+          rend="italic">France</hi>
+        <note place="bottom" rend="size(0.5)" n="*">
+          <p rend="indent">
+            <lb/>* Lewis xi. Mezeray. </p>
+        </note>. Theſe abject vaſſals of an <hi rend="italic">uſurping apo- <lb/>thecary</hi>, (to
+        palliate, cure, or prevent ſome imaginary <lb/>or fictitious diſtemper,) are never to ceaſe
+        taking <lb/>medicines, being perſuaded <hi rend="italic">they cannot live an hour
+          <lb/>longer than they are crammed with ſome</hi> unneceſſary <lb/>nauſeous <hi
+          rend="italic">part or other of his decaying ſhop-lumber</hi>, till <lb/>after many filthy,
+        expenſive drenches, harraſſed nature <pb n="31"/>
+        <lb/>ſinks under the oppreſſive weight, or by her own <lb/>ſtrength breaks the bonds, and he
+        is pleated to take <lb/>the honor of the cure, and to pronounce them <hi rend="italic">in
+          <lb/>ſtatu ſano</hi>. If a bleeding or any chirurgical operati- <lb/>on ſhould be wanting,
+        provided it be ſuch as his ig- <lb/>norance and incapacity may not too plainly appear
+        <lb/>in, and wherewith he may conſume plenty of <hi rend="italic">Styptics, <lb/>Litus's,
+          Balſams, Liniments, Ointments and Plaſters</hi>, <lb/>it is done by the apothecary, <hi
+          rend="italic">citó, tutó, &amp; jucundé</hi>, and <lb/>that too without the leaſt help of
+        a chirurgeon; which <lb/>the ſick are told to be quite unneceſſary, as phyſicians <lb/>in
+        other cafes; the fees of both being pretended to be <lb/>ſaved by the quack. As a thrifty
+        ale wife, to avoid <lb/>exciſe, gave her cuſtomers ale <hi rend="italic">gratis</hi>, paying
+        two <lb/>pence for the <hi rend="italic">toaſt and nutmeg</hi> put into each quart. </p>
+      <p rend="indent">
+        <lb/>Moreover to confirm the populace in their vain <lb/>notions of their apothecary's
+        judgement in phyſic, he <lb/>has generally the artifice to become the baſeſt <hi
+          rend="italic">pla- <lb/>giary</hi>. For among the cuſtomers, he uſes on every
+        <lb/>occaſion, or rather <hi rend="italic">abuſes</hi>, the preſcriptions, and even
+        <lb/>borrows the very words of the family-phyſician. <lb/>Thus he ſteals the doctor from
+        himſelf! (if I may <lb/>be allowed the phraſe) inſomuch, that when by force <lb/>he is
+        called in and conſulted, it is ten to one the pre- <lb/>judiced patients will fay, <hi
+          rend="italic">that the doctor ſaid and di- <lb/>rected the very ſame things which the
+          worthy apothe- <lb/>cary did before</hi>, in this or ſome other cafe, which they
+        <lb/>think, or perhaps are told, was the fame. </p>
+      <p rend="indent">
+        <lb/>I cannot here overlook that moſt abominable prac- <lb/>tice of <hi rend="italic">ſome
+          apothecaries</hi> and <hi rend="italic">druggiſts</hi>, who not only <lb/>perſonate one
+        another, by aſſuming the name of <lb/>their neighbouring brethren, in order to ſteal their
+        <lb/>cuſtomers, but a certain <hi rend="italic">audacious quack</hi> has been <lb/>known to
+        perſonate <hi rend="italic">a late phyſician</hi> of <hi rend="italic">his name</hi>, and
+        <lb/>to recommend himſelf after as an <hi rend="italic">apothecary</hi>. Theſe <lb/>baſe
+        artifices lead them to make repetitions of <lb/>preſcriptions which they never ſaw, being on
+        ano- <lb/>ther's file. How fatal ſuch horrid gueſs-work muſt <lb/>often prove, to the
+        patient and preſcriber, is eaſily <pb n="32"/>
+        <lb/>judged; and how late a gentleman of figure ſuffer- <lb/>ed by this ſort of <hi
+          rend="italic">chicane</hi>, as well as his phyſician, I <lb/>ſhall not ſay, leſt it ſhould
+        too far injure a certain <lb/>pert, young quack apothecary, whoſe raſhneſs in this
+        <lb/>inſtance, will, I hope, prove a warning to him for <lb/>the future. </p>
+      <p rend="indent">
+        <lb/>Thus admirably equipped with craft and artifice, <lb/>and with impudence and aſſurance,
+        (the inſeparable <lb/>attendants of ignorance) this <hi rend="italic">monſtrous, amphibious
+          <lb/>animal, this wretched cobler in medicine</hi>, who has not <lb/>in reality a ſingle
+        qualification for a <hi rend="italic">phyſician</hi> or <lb/><hi rend="italic"
+          >chirurgeon</hi>, nor perhaps even for an <hi rend="italic">apothecary</hi>, vainly
+        <lb/>pretends to the knowledge of the <hi rend="italic">three</hi>, and ſo <lb/>takes upon
+        him the ſole care and management of <lb/>the ſick in all diſtempers and diſorders; <hi
+          rend="italic">acute</hi> or <lb/><hi rend="italic">chronic</hi>, <hi rend="italic"
+          >phyſical</hi> or <hi rend="italic">chirurgical</hi> cafes are all alike to <lb/>him, well
+        knowing that <hi rend="italic">his incapacity is not obvious <lb/>to the unhappy parties
+          concerned</hi>! he hardily perſiſts in <lb/>his malpractices, being blinded with <hi
+          rend="italic">ignorance</hi>, <lb/>prompted by <hi rend="italic">avarice</hi>, and having
+        his conſcience <lb/>hardened by an early contracted habit of <hi rend="italic"
+        >iniquity</hi>, <lb/>till he has rendered the unhappy <hi rend="italic">ſufferers</hi>
+        immedica- <lb/>ble; and then (ſeldom or never before) permits a <lb/>phyſician or chirurgeon
+        to be called in; or rather, <lb/>if he can, brings in ſome <hi rend="italic">poor
+          pretender</hi> to, or <hi rend="italic">mercena- <lb/>ry tool</hi> of, either profeſſion,
+        to juſtify his apparent <lb/>miſconduct, or to take the honor of giving the tor- <lb/>tured
+          <hi rend="italic">ſufferer</hi> the <hi rend="italic">Coup de Grace</hi>. </p>
+      <p rend="indent">
+        <lb/>I ſhall beg leave to give one melancholy inſtance <lb/>of this kind out of many. A
+        certain unfortunate <lb/>man, who too much confided in the boaſted ſkill <lb/>of a bold
+        preſumptuous quack, committed himſelf <lb/>to his care for a certain, ſlight, ſecret
+        diſorder: The <lb/>apothecary judging it the only way to make a penny <lb/>of the patient,
+        proceeded to adminiſter medicines <lb/><hi rend="italic">by wholeſale</hi>. For within the
+        compaſs of three <lb/>months he gave him above forty doſes of mercurial <lb/>phyſic, with
+        ſundry other coſtly drenches, which <lb/>brought a conſiderable flux of humors upon the af-
+        <lb/>fected part: to which he then made divers unctuous <pb n="33"/>
+        <lb/>applications, till at length it became cancerous. <lb/>Laſtly he had recourſe to
+        ſalivation, but with no <lb/>better ſucceſs, the patient grew ſenſibly worſe: Yet <lb/>the
+        Quack to diſpel the growing doubts and ſuſpici- <lb/>ons of the poor abuſed man, called in a
+          <hi rend="italic">reputed phy- <lb/>ſician</hi>, to juſtify his mal-practice, and aſſiſt
+        him in <lb/>the cure. The <hi rend="italic">doctor</hi> being unable to ſatisfy the
+        <lb/>unhappy ſufferer in his diſtruſt of the <hi rend="italic">quack</hi>, he call- <lb/>ed
+        in better aſſiſtance, and had his life with great <lb/>difficulty ſaved, by the amputation
+        of the diſtem- <lb/>pered member. Notwithſtanding all this groſs <lb/>abuſe of the miſerable
+        patient, this unworthy apo- <lb/>thecary, who may be preſumed to be the principal <lb/>cauſe
+        of the greateſt evil attending this cafe, makes <lb/>a moſt extravagant large bill, with a
+        charge of <lb/><hi rend="italic">twenty ſhillings</hi> to his coadjutor the doctor, annexed. </p>
+      <p rend="indent">
+        <lb/>By theſe and ſuch like unnatural tranſgreſſions, is <lb/>the <hi rend="italic"
+          >apothecary</hi> led out of the way of his duty, and <lb/>bred an utter ſtranger to all
+        parts of his proper <lb/>calling. By this vile craft he gets his bread, no <lb/>wonder then
+        he ſhould be firmly attached to it. <lb/>This is all he learns, all he knows, all he
+        practiſes, <lb/>all he teaches: And this he finds ſufficient to re- <lb/>commend him : He
+        indeed generally takes care to <lb/>ſecure an intereſt in ſome <hi rend="italic">party</hi>
+        or <hi rend="italic">club</hi>, whether <lb/><hi rend="italic">religious</hi> or <hi
+          rend="italic">politic</hi>, no matter with how little <hi rend="italic">reaſon</hi>,
+        <lb/>provided he eſpouſes and defends their principles <lb/>with a good ſtock of <hi
+          rend="italic">blind zeal and violence</hi>, he is ſure <lb/>of the <hi rend="italic"
+          >Society's</hi> favour, ſo he may ſecurely neglect <lb/>his <hi rend="italic">true
+          profeſſion</hi>. He therefore employs his whole <lb/>time in quacking or ſtroling over the
+        town in queſt <lb/>of prey. For to avoid the dangerous imputation of <lb/>having nothing to
+        do, <hi rend="italic">no practice</hi>, (as the phraſe is,) <lb/>he muſt never be found at
+        home ; not to be ſeen <lb/>in his noiſome ſhop except by accident to preſcribe <lb/>for ſome
+        ſudden emergency, or perhaps ſometimes <lb/>to edify by reading over his own <hi
+          rend="italic">ill-choſen</hi>, <hi rend="italic">ſtolen re- <lb/>cipe's</hi>, there
+        carefully filed more for <hi rend="italic">ſhew</hi> than <hi rend="italic">uſe</hi>:
+        <lb/>That done, he muſt hurry forth, and ruſh thro' <pb n="34"/>
+        <lb/>the ſtreets as if he had ſo many calls, that he cannot <lb/>tell which firſt to anſwer:
+        While the principal part <lb/>of his buſineſs, furniſhing the ſhop and ſerving the <lb/><hi
+          rend="italic">wretched cuſtomers</hi>, is left to ſome mercenary <hi rend="italic">ſham-
+          <lb/>druggiſt, a miſerable herb-gatherer, and a raw appren- <lb/>tice</hi>. The very <hi
+          rend="italic">Druggiſt</hi>, who in all other nations <lb/>in <hi rend="italic"
+          >Europe</hi> is but <hi rend="italic">Pharmacopola</hi>, a mere drug-mer- <lb/>chant, is
+        with us, not only a <hi rend="italic">phyſician and chirurgeon</hi>, <lb/>but alſo <hi
+          rend="italic">a Galenic and Chemic apothecary; a ſeller <lb/>of druggs, medicines,
+          vernices, oils, paints or colours, <lb/>poyſons</hi>, &amp;c. <hi rend="italic">a Jack of
+          all trades</hi>, and in truth, <hi rend="italic">ma- <lb/>ſter of none</hi> — For bad as
+        the uſual education of an <lb/>apothecary may be, if it could be yet worſe, he <lb/>may make
+        a good modern druggiſt enough. And <lb/>it is demonſtrable, that, among the many who
+        <lb/>aſſume that name, there are not above two in <hi rend="italic">Dub- <lb/>lin</hi> that
+        have any right to it. Theſe who are, if <lb/>poſſible, worſe quacks than the apothecaries,
+        and <lb/>generally worſe qualified in every reſpect, were the <lb/>firſt who introduced that
+        blackeſt villainy of ſophi- <lb/>ſticating, and debaſing of medicines to gain fame and
+        <lb/>applauſe by underſelling their honeſt brethren; <lb/>and you ſhall now find moſt of
+        them ready to make <lb/>up the preſcriptions of phyſicians and chirurgeons, <lb/>brought to
+        them by the ignorant vulgar, (who alone <lb/>indeed intruſt them with ſuch,) at any rate
+        they are <lb/>offered, even tho' they cannot read them, and tho' <lb/>they may be compoſed
+        of ſundry medicaments to <lb/>them utterly unknown. How muſt the unhappy <lb/>patient and
+        preſcriber ſuffer, whoſe preſcriptions <lb/>fall into ſuch unworthy hands? </p>
+      <p rend="indent">
+        <lb/>Thus wretchedly is <hi rend="italic">pharmacy</hi> taught and practiſed <lb/>now
+        a-days. How foreign to the manner of the <lb/><hi rend="italic">antient, true
+          apothecaries</hi>, is, I hope, evident from the <lb/>foregoing ; and how contradictory to
+        reaſon, juſtice, <lb/>and common ſenſe, is, I believe, to every rational <lb/>unprejudiced
+        man, obvious. Yet, that under the pre- <lb/>ſent fatal miſmanagement, it is, and muſt
+        continue ſo, <lb/>is, I think, moſt demonſtrable. Foe a man who <pb n="35"/>
+        <lb/>takes the greateſt pains to learn that art, and <lb/>acquires the moſt extraordinary
+        knowledge, and all <lb/>the requiſite qualifications therein, and ever ſo ſtrict- <lb/>ly,
+        and diligently attends to the <hi rend="italic">regular calls</hi> of his <lb/>profeſſion,
+        and diſcharges the <hi rend="italic">duty</hi>, and <hi rend="italic">proper office</hi>
+        <lb/>of an <hi rend="italic">apothecary</hi>, if he does not moſt audaciouſly <lb/>and
+        adventurouſly, quack in all caſes without diſ- <lb/>tinction, he is ſurely deemed but a <hi
+          rend="italic">blockhead</hi>, and <lb/>may remain to the generality unknown, and ſtarve;
+        <lb/>or perhaps have the comfort of being reputed, in <lb/>his narrow circle of
+        acquaintance, <hi rend="italic">a good, honeſt <lb/>fellow, but no apothecary</hi>; that is
+        to fay, <hi rend="italic">no quack</hi>; <lb/>and is therefore deſpiſed, becauſe, he has the
+        candor <lb/>and integrity, not to intermeddle with any buſineſs, <lb/>but his own, nor to
+        attempt things beyond his <lb/>ſphere. In ſhort it is not ſuch a man that is <hi
+          rend="italic">with <lb/>us</hi> deemed an <hi rend="italic">apothecary</hi>, no, it is the
+        moſt deſpica- <lb/>ble of all human beings, a wretch ignorant of all <lb/>arts, yet
+        pretending to the greateſt; a falſe, diſ- <lb/>ſembling ſycophant, that poor, ſhallow
+        mimick, or <lb/>untowardly ape of a phyſician, chirurgeon and apo- <lb/>thecary, the vile,
+        deluding quack! Where then is <lb/>the encouragement to excel in this art, when the
+        <lb/>moſt ignorant of it, are, by the generality, preferred, <lb/>and moſt eſteemed? </p>
+    </body>
+  </text>
+</TEI>

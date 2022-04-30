@@ -1,0 +1,1575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LMEMT Corpus - Withering: An Account of the Foxglove, and Some of its Medical
+          Uses</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>William Withering</persName>
+            </author>
+            <title type="main">An account of the foxglove, and Some of its Medical uses: with
+              practical remarks on dropsy, and other diseases. By William Withering, M. D. Physician
+              to the Generl Hospital at Birmingham.</title>
+            <edition n="1"/>
+            <idno type="ESTC">T55002</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/T55002"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>Birmingham</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>Birmingham: printed by M. Swinney; for G. G. J. and J. Robinson,
+                  Paternoster-Row, London, M,DCC,LXXXV.</persName>
+              </publisher>
+              <date>1785</date>
+            </imprint>
+            <extent>
+              <measure type="format">8⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="28"/>
+              <measure type="count" commodity="body" unit="page" quantity="207"/>
+              <measure type="count" commodity="back" unit="page" quantity="1"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">British Library</orgName>
+            <idno type="ECCO">CW106587032</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Book on a specific topic: medicine"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text type="book" rend="roman" xml:lang="eng">
+    <gap reason="sampling" unit="pages" quantity="21"/>
+    <body>
+      <pb n="1"/>
+      <div type="chapter" subtype="introduction">
+        <figure rend="space">
+          <figDesc>A horizontal double-line, spanning the whole page. </figDesc>
+        </figure>
+        <head rend="sc size(0.75) align-center">
+          <lb/>an <lb/><hi rend="roman size(1.5)">ACCOUNT </hi>
+          <lb/>of the <lb/><hi rend="roman size(1.25)">INTRODUCTION of FOXGLOVE </hi>
+          <lb/>into <lb/>MODERN PRACTICE. </head>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">A</hi>S the more obvious and ſenſible properties of <lb/>plants,
+          ſuch as colour, taſte, and ſmell, have <lb/>but little connexion with the diſeaſes they
+          are adapted <lb/>to cure; ſo their peculiar qualities have no certain <lb/>dependence upon
+          their external configuration. Their <lb/>chemical examination by fire, after an immenſe
+          <lb/>waſte of time and labour, having been found uſe- <lb/>leſs, is now abandoned by
+          general conſent. Poſſi- <lb/>bly other modes of analyſis will be found out, <lb/>which may
+          turn to better account; but we have hi- <lb/>therto made only a very ſmall progreſs in the
+          che- <lb/>miſtry of animal and vegetable ſubſtances. Their <lb/>virtues muſt therefore be
+          learnt, either from obſerv- <lb/>ing their effects upon inſects and quadrupeds; from
+          <lb/>analogy, deduced from the already known powers <lb/>of ſome of their congenera, or
+          from the empirical <lb/>uſages and experience of the populace. </p>
+        <p rend="indent space">
+          <lb/>The firſt method has not yet been much attended <lb/>to; and the ſecond can only be
+          perfected in propor- <lb/>tion as we approach towards the diſcovery of a truly
+          <lb/>natural ſyſtem; but the laſt, as far as it extends, lies <pb n="2"/>
+          <lb/>within the reach of every one who is open to infor- <lb/>mation, regardleſs of the
+          ſource from whence it <lb/>ſprings. </p>
+        <p rend="indent space">
+          <lb/>It was a circumſtance of this kind which firſt fixed <lb/>my attention on the
+          Foxglove. </p>
+        <p rend="indent space">
+          <lb/>In the year 1775, my opinion was aſked concern- <lb/>ing a family receipt for the
+          cure of the dropſy. I <lb/>was told that it had long been kept a ſecret by an <lb/>old
+          woman in Shropſhire, who had ſometimes made <lb/>cures after the more regular
+          practitioners had failed. <lb/>I was informed alſo, that the effects produced were
+          <lb/>violent vomiting and purging; for the diuretic ef- <lb/>fects ſeemed to have been
+          overlooked. This medi- <lb/>cine was compoſed of twenty or more different herbs; <lb/>but
+          it was not very difficult for one converfant in <lb/>theſe ſubjects, to perceive, that the
+          active herb could <lb/>be no other than the Foxglove. </p>
+        <p rend="indent space">
+          <lb/>My worthy predeceſſor in this place, the very hu- <lb/>mane and ingenious Dr. Small,
+          had made it a prac- <lb/>tice to give his advice to the poor during one hour <lb/>in a
+          day. This practice, which I continued until <lb/>we had an Hoſpital opened for the
+          reception of the <lb/>ſick poor, gave me an opportunity of putting my <lb/>ideas into
+          execution in a variety of caſes; for the <lb/>number of poor who thus applied for advice,
+          <lb/>amounted to between two and three thouſand an- <lb/>nually. I ſoon found the Foxglove
+          to be a very <lb/>powerful diuretic; but then, and for a conſiderable <lb/>time
+          afterwards, I gave it in doſes very much too <pb n="3"/>
+          <lb/>large, and urged its continuance too long; for miſ- <lb/>led by reaſoning from the
+          effects of the ſquill, which <lb/>generally acts beſt upon the kidneys when it excites
+          <lb/>nauſea, I wiſhed to produce the ſame effect by the <lb/>Foxglove. In this mode of
+          preſcribing, when I had <lb/>ſo many patients to attend to in the ſpace of one, <lb/>or at
+          moſt of two hours, it will not be expected that <lb/>I could be very particular, much leſs
+          could I take <lb/>notes of all the caſes which occurred. Two or three <lb/>of them only,
+          in which the medicine ſucceeded, I <lb/>find mentioned amongſt my papers. It was from
+          <lb/>this kind of experience that I ventured to aſſert, in <lb/>the Botanical Arrangement
+          publiſhed in the courſe of <lb/>the following ſpring, that the Digitalis purpurea <lb/>
+          <q rend="diple quotes">merited more attention than modern practice be- <lb/>ſtowed upon
+            it. </q>
+        </p>
+        <p rend="indent space">
+          <lb/>I had not, however, yet introduced it into the more <lb/>regular mode of
+          preſcription; but a circumſtance <lb/>happened which accelerated that event. My truly
+          <lb/>valuable and reſpectable friend, Dr. Aſh, informed <lb/>me that Dr. Cawley, then
+          principal of Brazen Noſe <lb/>College, Oxford, had been cured of a Hydrops Pec-
+          <lb/>toris, by an empirical exhibition of the root of the <lb/>Foxglove, after ſome of the
+          firſt phyſicians of the age <lb/>had declared they could do no more for him. I was
+          <lb/>now determined to purſue my former ideas more <lb/>vigorouſly than before, but was
+          too well aware of <lb/>the uncertainty which muſt attend on the exhibition <lb/>of the <hi
+            rend="italic">root</hi> of a <hi rend="italic">biennial</hi> plant, and therefore conti-
+          <lb/>nued to uſe the <hi rend="italic">leaves</hi>. Theſe I had found to vary <lb/>much as
+          to doſe, at different ſeaſons of the year; <pb n="4"/>
+          <lb/>but I expected, if gathered always in one condition <lb/>of the plant, viz. when it
+          was in its flowering ſtate, <lb/>and carefully dried, that the doſe might be aſcer-
+          <lb/>tained as exactly as that of any other medicine; nor <lb/>have I been diſappointed in
+          this expectation. The <lb/>more I ſaw of the great powers of this plant, the <lb/>more it
+          ſeemed neceſſary to bring the doſes of it to <lb/>the greateſt poſſible accuracy. I
+          ſuſpected that this <lb/>degree of accuracy was not reconcileable with the <lb/>uſe of a
+            <hi rend="italic">decoction</hi>, as it depended not only upon the <lb/>care of thoſe
+          who had the preparation of it, but it <lb/>was eaſy to conceive from the analogy of
+          another <lb/>plant of the ſame natural order, the tobacco, that <lb/>its active properties
+          might be impaired by long boil- <lb/>ing. The decoction was therefore diſcarded, and
+          <lb/>the <hi rend="italic">infuſion</hi> ſubſtituted in its place. After this I be-
+          <lb/>gan to uſe the leaves in <hi rend="italic">powder</hi>, but I ſtill very often
+          <lb/>preſcribe the infuſion. </p>
+        <p rend="indent space">
+          <lb/>Further experience convinced me, that the <hi rend="italic">diure- <lb/>tic</hi>
+          effects of this medicine do not at all depend up- <lb/>on its exciting a nauſea or
+          vomiting; but, on the <lb/>contrary, that though the increaſed ſecretion of <lb/>urine
+          will frequently ſucceed to, or exiſt along with <lb/>theſe circumſtances, yet they are ſo
+          far from being <lb/>friendly or neceſſary, that I have often known the <lb/>diſcharge of
+          urine checked, when the doſes have <lb/>been imprudently urged ſo as to occaſion ſickneſs. </p>
+        <p rend="indent space">
+          <lb/>If the medicine purges, it is almoſt certain to fail <lb/>in its deſired effect; but
+          this having been the caſe, <lb/>I have ſeen it afterwards ſucceed when joined with <pb
+            n="5"/>
+          <lb/>ſmall doſes of opium, ſo as to reſtrain its action on <lb/>the bowels. </p>
+        <p rend="indent space">
+          <lb/>In the ſummer of the year 1776, I ordered a <lb/>quantity of the leaves to be dried,
+          and as it then <lb/>became poſſible to aſcertain its doſes, it was gradu- <lb/>ally
+          adopted by the medical practitioners in the cir- <lb/>cle of my acquaintance. </p>
+        <p rend="indent space">
+          <lb/>In the month of <hi rend="italic">November</hi> 1777, in conſequence <lb/>of an
+          application from that very celebrated ſurgeon, <lb/>Mr. Ruſſel, of Worceſter, I ſent him
+          the following <lb/>account, which I chooſe to introduce here, as ſhew- <lb/>ing the ideas
+          I then entertained of the medicine, <lb/>and how much I was miſtaken as to its real doſe.— <lb/>
+          <q rend="diple quotes">I generally order it in decoction. Three drams of <lb/>the dried
+            leaves, collected at the time of the bloſ- <lb/>ſoms expanding, boiled in twelve to
+            eight ounces of <lb/>water. Two ſpoonfuls of this medicine, given eve- <lb/>ry two
+            hours, will ſooner or later excite a nauſea. <lb/>I have ſometimes uſed the green leaves
+            gathered in <lb/>winter, but then I order three times the weight; <lb/>and in one
+            inſtance I uſed three ounces to a pint <lb/>decoction, before the deſired effect took
+            place. I <lb/>conſider the Foxglove thus given, as the moſt cer- <lb/>tain diuretic I
+            know, nor do its diuretic effects <lb/>depend merely upon the nauſea it produces, for
+            <lb/>in caſes where ſquill and ipecac. have been ſo <lb/>given as to keep up a nauſea
+            ſeveral days together, <lb/>and the flow of urine not taken place, I have found <lb/>the
+            Foxglove to ſucceed; and I have, in more than <lb/>one inſtance, given the Foxglove in
+            ſmaller and <pb n="6"/>
+            <lb/>more diſtant doſes, ſo that the flow of urine has <lb/>taken place without any
+            ſenſible affection of the <lb/>ſtomach; but in general I give it in the manner
+            <lb/>firſt mentioned, and order one doſe to be taken <lb/>after the ſickneſs commences.
+            I then omit all me- <lb/>dicines, except thoſe of the cordial kind are wanted,
+            <lb/>during the ſpace of three, four, or five days. By <lb/>this time the nauſea abates,
+            and the appetite be- <lb/>comes better than it was before. Sometimes the <lb/>brain is
+            conſiderably affected by the medicine, and <lb/>indiſtinct viſion enſues; but I have
+            never yet <lb/>found any permanent bad effects from it. </q>— </p>
+        <p rend="indent space">
+          <lb/>
+          <q rend="diple quotes">I uſe it in the Aſcites, Anaſarca, and Hydrops <lb/>Pectoris; and
+            ſo far as the removal of the water <lb/>will contribute to cure the patient, ſo far may
+            be <lb/>expected from this medicine: but I wiſh it not to <lb/>be tried in aſcites of
+            female patients, believing <lb/>that many of theſe caſes are dropſies of the ovaria;
+            <lb/>and no ſenſible man will ever expect to ſee theſe <lb/>encyſted fluids removed by
+            any medicine. </q>
+        </p>
+        <p rend="indent space">
+          <lb/>
+          <q rend="diple quotes">I have often been obliged to evacuate the water <lb/>repeatedly in
+            the ſame patient, by repeating the <lb/>decoction; but then this has been at ſuch
+            diſtances <lb/>of time as to allow of the interference of other <lb/>medicines and a
+            proper regimen, ſo that the patient <lb/>obtains in the end a perfect cure. In theſe
+            caſes <lb/>the decoction becomes at length ſo very diſagree- <lb/>able, that a much
+            ſmaller quantity will produce the <lb/>effect, and I often find it neceſſary to alter
+            its <lb/>taſte by the addition of Aq. Cinnam. ſp. or Aq. <lb/>Juniper. compoſita. </q>
+        </p>
+        <pb n="7"/>
+        <p rend="indent space">
+          <lb/>
+          <q rend="diple quotes">I allow, and indeed enjoin my patients to drink <lb/>very
+            plentifully of ſmall liquors through the whole <lb/>courſe of the cure; and ſometimes,
+            where the eva- <lb/>cuations have been very ſudden, I have found a <lb/>bandage as
+            neceſſary as in the uſe of the trochar. </q>— </p>
+        <p rend="indent space">
+          <lb/>Early in the year 1779, a number of dropſical <lb/>caſes offered themſelves to my
+          attention, the conſe- <lb/>quences of the ſcarlet fever and ſore throat which <lb/>had
+          raged ſo very generally amongſt us in the pre- <lb/>ceding year. Some of theſe had been
+          cured by <lb/>ſquills or other diuretics, and relapſed; in others, <lb/>the dropſy did not
+          appear for ſeveral weeks after the <lb/>original diſeaſe had ceaſed: but I am not able to
+          <lb/>mention many particulars, having omitted to make <lb/>notes. This, however, is the
+          leſs to be regretted, <lb/>as the ſymptoms in all were very much alike, and <lb/>they were
+          all without an exception cured by the Fox- <lb/>glove. </p>
+        <p rend="indent space">
+          <lb/>This laſt circumſtance encouraged me to uſe the <lb/>medicine more frequently than I
+          had done hereto- <lb/>fore, and the increaſe of practice had taught me to <lb/>improve the
+          management of it. </p>
+        <p rend="indent space">
+          <lb/>In <hi rend="italic">February</hi> 1779, my friend, Dr. Stokes, commu- <lb/>nicated
+          to the Medical Society at Edinburgh the re- <lb/>ſult of my experience of the Foxglove;
+          and, in a let- <lb/>ter addreſſed to me in <hi rend="italic">November</hi> following, he
+          ſays, <lb/>
+          <q rend="diple quotes">Dr. Hope, in conſequence of my mentioning its <lb/>uſe to my
+            friend, Dr. Broughton, has tried the <lb/>Foxglove in the Infirmary with ſucceſs. </q>
+          Dr. <pb n="8"/>
+          <lb/>Stokes alſo tells me that Dr. Hamilton cured Dropſies <lb/>with it in the year 1781. </p>
+        <p rend="indent space">
+          <lb/>I am informed by my very worthy friend Dr. <lb/>Duncan, that Dr. Hamilton, who learnt
+          its uſe from <lb/>Dr. Hope, has employed it very frequently in the <lb/>Hoſpital at
+          Edinburgh. Dr. Duncan alſo tells me, <lb/>that the late very ingenious and accompliſhed
+          Mr. <lb/>Charles Darwin, informed him of its being uſed by <lb/>his father and myſelf, in
+          caſes of Hydrothorax, and <lb/>that he has ever ſince mentioned it in his lectures,
+          <lb/>and ſometimes employed it in his practice. </p>
+        <p rend="indent space">
+          <lb/>At length, in the year 1783, it appeared in the <lb/>new edition of the Edinburgh
+          Pharmacopœia, into <lb/>which, I am told, it was received in conſequence of <lb/>the
+          recommendation of Dr. Hope. But from which, <lb/>I am ſatisfied, it will be again very
+          ſoon rejected, <lb/>if it ſhould continue to be exhibited in the unre- <lb/>ſtrained
+          manner in which it has heretofore been <lb/>uſed at Edinburgh, and in the enormous doſes
+          in <lb/>which it is now directed in London. </p>
+        <p rend="indent space">
+          <lb/>In the following caſes the reader will find other <lb/>diſeaſes beſides dropſies;
+          particularly ſeveral caſes <lb/>of conſumption. I was induced to try it in theſe,
+          <lb/>from being told, that it was much uſed in the Weſt <lb/>of England, in the Phthiſis
+          Pulmonalis, by the <lb/>common people. In this diſeaſe, however, in my <lb/>hands, it has
+          done but little ſervice, and yet I am <lb/>diſpoſed to wiſh it a further trial, for in a
+          copy of <lb/>Parkinſon's Herbal, which I ſaw about two years ago, <pb n="9"/>
+          <lb/>I found the following <choice>
+            <corr>manuſcript</corr>
+            <sic>manufcript</sic>
+          </choice> note at the article <lb/>Digitalis, written, I believe, by a Mr. Saunders, who
+          <lb/>practiſed for many years with great reputation as a <lb/>ſurgeon and apothecary at
+          Stourbridge, in Worceſ- <lb/>terſhire. </p>
+        <p rend="indent space">
+          <lb/>
+          <q rend="diple quotes">Conſumptions are cured infallibly by weak de- <lb/>coction of
+            Foxglove leaves in water, or wine and <lb/>water, and drank for conſtant drink. Or take
+            of <lb/>the juice of the herb and flowers, clarify it, and <lb/>make a fine ſyrup with
+            honey, of which take <lb/>three ſpoonfuls thrice in a day, at phyſical hours. <lb/>The
+            uſe of theſe two things of late has done, in <lb/>conſumptive caſes, great wonders. But
+            be cautious <lb/>of its uſe, for it is of a vomiting nature. In <lb/>theſe things begin
+            ſparingly, and increaſe the doſe <lb/>as the patient's ſtrength will bear, leaſt,
+            inſtead of <lb/>a ſovereign medicine, you do real damage by this <lb/>infuſion or ſyrup.
+          </q>
+        </p>
+        <p rend="indent space">
+          <lb/>The precautions annexed to his encomiums of this <lb/>medicine, lead one to think
+          that he has ſpoken from <lb/>his own proper experience. </p>
+        <p rend="indent space">
+          <lb/>I have lately been told, that a perſon in the neigh- <lb/>bourhood of Warwick,
+          poſſeſſes a famous family re- <lb/>ceipt for the dropſy, in which the Foxglove is the
+          <lb/>active medicine; and a lady from the weſtern part <lb/>of Yorkſhire aſſures me, that
+          the people in her coun- <lb/>try often cure themſelves of dropſical complaints by
+          <lb/>drinking Foxglove tea. In confirmation of this, I <lb/>recollect about two years ago
+          being deſired to viſit a <pb n="10"/>
+          <lb/>travelling Yorkſhire tradeſman. I found him inceſ- <lb/>ſantly vomiting, his viſion
+          indiſtinct, his pulſe forty <lb/>in a minute. Upon enquiry it came out, that his <lb/>wife
+          had ſtewed a large handful of green Foxglove <lb/>leaves in half a pint of water, and
+          given him the <lb/>liquor, which he drank at one draught, in order to <lb/>cure him of an
+          aſthmatic affection. This good wo- <lb/>man knew the medicine of her country, but not
+          <lb/>the doſe of it, for her huſband narrowly eſcaped <lb/>with his life. </p>
+        <p rend="indent space">
+          <lb/>It is probable that this rude mode of exhibiting <lb/>the Foxglove has been more
+          general than I am at <lb/>preſent aware of; but it is wonderful that no author <lb/>ſeems
+          to have been acquainted with its effects as a <lb/>diuretic. </p>
+      </div>
+      <pb n="11"/>
+      <div type="chapter">
+        <head rend="size(1.25) align-center">
+          <lb/><hi rend="size(1.25) space">CASES, </hi>
+          <lb/><hi rend="space">In which the Digitalis was given by the <lb/>Direction of the
+            Author. </hi>
+        </head>
+        <div type="section">
+          <head rend="size(1.25) align-center space">
+            <lb/>1775. </head>
+          <p>
+            <lb/><hi rend="dc(2)">I</hi>T was in the courſe of this year that I began to <lb/>uſe
+            the Digitalis in dropſical caſes. The pa- <lb/>tients were ſuch as applied at my houſe
+            for advice <lb/>gratis. I cannot pretend to charge my memory with <lb/>particular caſes,
+            or particular effects, and I had not <lb/>leiſure to make notes. Upon the whole,
+            however, <lb/>it may be concluded, that the medicine was found <lb/>uſeful, or I ſhould
+            not have continued to employ <lb/>it. </p>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE I. </head>
+            <p rend="indent">
+              <lb/>
+              <hi rend="italic">December</hi> 8th. A man about fifty years of age, <lb/>who had
+              formerly been a builder, but was now much <lb/>reduced in his circumſtances,
+              complained to me of <lb/>an aſthma which firſt attacked him about the latter <lb/>end
+              of autumn. His breath was very ſhort, his <lb/>countenance was ſunken, his belly
+              large; and, up- <lb/>on examination, a fluctuation in it was very percep- <lb/>tible.
+              His urine for ſome time paſt had been ſmall <lb/>in quantity. I directed a decoction
+              of Fol. Digital. <lb/>recent. which made him very ſick, the ſickneſs re- <lb/>curring
+              at intervals for ſeveral days, during which <lb/>time he made a large quantity of
+              water. His breath <lb/>gradually drew eaſier, his belly ſubſided, and in <pb n="12"/>
+              <lb/>about about ten days he began to eat with a keen appetite. <lb/>He afterwards
+              took ſteel and bitters. </p>
+          </div>
+        </div>
+        <div type="section">
+          <head rend="size(1.25) align-center space">
+            <lb/>1776. </head>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE II. </head>
+            <p rend="indent">
+              <lb/><hi rend="italic">January</hi> 14th. A poor man labouring under an <lb/>aſcites
+              and anaſarca, was directed to take a decoction <lb/>of Digitalis every four hours. It
+              purged him ſmart- <lb/>ly, but did not relieve him. An opiate was now <lb/>ordered
+              with each doſe of the medicine, which then <lb/>acted upon the kidneys very freely,
+              and he ſoon loſt <lb/>all his complaints. </p>
+          </div>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE III. </head>
+            <p rend="indent">
+              <lb/><hi rend="italic">March</hi> 15th. A poor boy, about nine years of <lb/>age, was
+              brought for my advice. His countenance <lb/>was pale, his pulſe quick and feeble, his
+              body great- <lb/>ly emaciated, except his belly, which was very large, <lb/>and, upon
+              examination, contained a fluid. The <lb/>caſe had been conſidered as ariſing from
+              worms. He <lb/>was directed to take the decoction of Digitalis night <lb/>and morning.
+              It operated as a diuretic, never made <lb/>him ſick, and he got well without any other
+              medi- <lb/>cine. </p>
+          </div>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE IV. </head>
+            <p rend="indent">
+              <lb/><hi rend="italic">July</hi> 25th. Mrs. H—, of A—, near <lb/>N—, between forty and
+              fifty years of age, a <lb/>few weeks ago, after ſome previous indiſpoſition, <lb/>was
+              attacked by a ſevere cold ſhivering fit, ſucceed- <lb/>ed by fever; great pain in her
+              left ſide, ſhortneſs <lb/>of breath, perpetual cough, and, after ſome days, <pb n="13"/>
+              <lb/>copious expectoration. On the 4th of <hi rend="italic">June</hi>, Dr.
+              <lb/>Darwin, <note place="bottom" n="*" rend="size(0.75) align-center">
+                <lb/>* Then reſident at Lichfield, now at Derby. </note> was called to her. I have
+              not heard what <lb/>was then done for her, but, between the 15th of <hi rend="italic"
+                >June</hi>, <lb/>and 25th of <hi rend="italic">July</hi>, the Doctor, at his
+              different viſits, <lb/>gave her various medicines of the deobſtruent, to- <lb/>nic,
+              antiſpaſmodic, diuretic, and evacuant kinds. </p>
+            <p rend="indent space">
+              <lb/>On the 25th of <hi rend="italic">July</hi> I was deſired to meet Dr. <lb/>Darwin
+              at the lady's houſe. I found her nearly in <lb/>a ſtate of ſuffocation; her pulſe
+              extremely weak and <lb/>irregular, her breath very ſhort and laborious, her
+              <lb/>countenance ſunk, her arms of a leaden colour, <lb/>clammy and cold. She could
+              not lye down in bed, <lb/>and had neither ſtrength nor appetite, but was ex-
+              <lb/>tremely thirſty. Her ſtomach, legs, and thighs <lb/>were greatly ſwollen; her
+              urine very ſmall in quan- <lb/>tity, not more than a ſpoonful at a time, and that
+              <lb/>very ſeldom. It had been propoſed to ſcarify her <lb/>legs, but the propoſition
+              was not acceded to. </p>
+            <p rend="indent space">
+              <lb/>She had experienced no relief from any means that <lb/>had been uſed, except from
+              ipecacoanha vomits; the <lb/>doſe of which had been gradually increaſed from 15
+              <lb/>to 40 grains, but ſuch was the inſenſible ſtate of her <lb/>ſtomach for the laſt
+              few days, that even thoſe very <lb/>large doſes failed to make her ſick, and
+              conſequent- <lb/>ly purged her. In this ſituation of things I knew <lb/>of nothing
+              likely to avail us, except the Digitalis: <lb/>but this I heſitated to propoſe, from
+              an apprehen- <lb/>ſion that little could be expected from any thing; <lb/>that an
+              unfavourable termination would tend to <pb n="14"/>
+              <lb/>diſcredit a medicine which promiſed to be of great <lb/>benefit to mankind, and I
+              might be cenſured for a <lb/>preſcription which could not be countenanced by <lb/>the
+              experience of any other regular practitioner. <lb/>But theſe conſiderations ſoon gave
+              way to the deſire <lb/>of preſerving the life of this valuable woman, and
+              <lb/>accordingly I propoſed the Digitalis to be tried; <lb/>adding, that I ſometimes
+              had found it to ſucceed <lb/>when other, even the moſt judicious methods, had
+              <lb/>failed. Dr. Darwin very politely, acceded imme- <lb/>diately to my propoſition,
+              and, as he had never <lb/>ſeen it given, left the preparation and the doſe to <lb/>my
+              direction. We therefore preſcribed as follows: </p>
+            <floatingText>
+              <body>
+                <p rend="indentall hanging">
+                  <lb/>R. Fol. Digital. purp. recent. ℥iv. coque ex <lb/>Aq. fontan. puræ ℔iſs ad
+                  ℔i. et cola. </p>
+                <p rend="indentall hanging">
+                  <lb/>R. Decoct. Digital. ℥iſs. </p>
+                <p rend="indent">
+                  <lb/>Aq. Nuc. Moſchat. ʒii. M. fiat. hauſt. 2dis <lb/>horis ſumend. </p>
+              </body>
+            </floatingText>
+            <p rend="indent space">
+              <lb/>The patient took five of theſe draughts, which <lb/>made her very ſick, and acted
+              very powerfully up- <lb/>on the kidneys, for within the firſt twenty-four <lb/>hours
+              ſhe made upwards of eight quarts of water. <lb/>The ſenſe of fulneſs and oppreſſion
+              acroſs her ſto- <lb/>mach was greatly diminiſhed, her breath was eaſed, <lb/>her pulſe
+              became more full and more regular, and <lb/>the ſwellings of her legs ſubſided. </p>
+            <p rend="indent space">
+              <lb/>26th. Our patient being thus ſnatched from im- <lb/>pending deſtruction, Dr.
+              Darwin propoſed to give <lb/>her a decoction of pareira brava and guiacum ſhav- <pb
+                n="15"/>
+              <lb/>ings, with pills of myrrh and white vitriol; and, <lb/>if coſtive, a pill with
+              calomel and aloes. To theſe <lb/>propoſitions I gave a ready aſſent. </p>
+            <p rend="indent space">
+              <lb/>30th. This day Dr. Darwin ſaw her, and di- <lb/>rected a continuation of the
+              medicines laſt pre- <lb/>ſcribed. </p>
+            <p rend="indent space">
+              <lb/><hi rend="italic">Auguſt</hi> lſt. I found the patient perfectly free <lb/>from
+              every appearance of dropſy, her breath quite <lb/>eaſy, her appetite much improved,
+              but ſtill very <lb/>weak. Having ſome ſuſpicion of a diſeaſed liver, <lb/>I directed
+              pills of ſoap, rhubarb, tartar of vitriol, <lb/>and calomel to be taken twice a day,
+              with a neutral <lb/>ſaline draught. </p>
+            <p rend="indent space">
+              <lb/>9th. We viſited our patient together, and re- <lb/>peated the draughts directed
+              on the 26th of <hi rend="italic">June</hi>, <lb/>with the addition of tincture of
+              bark, and alſo order- <lb/>ed pills of aloes, guiacum, and ſal martis to be ta-
+              <lb/>ken if coſtive. </p>
+            <p rend="indent space">
+              <lb/><hi rend="italic">September</hi> 10th. From this time the management <lb/>of the
+              caſe fell entirely under my direction, and <lb/>perceiving ſymptoms of effuſion going
+              forwards, I <lb/>deſired that a ſolution of merc. ſubl. corr. might be <lb/>given
+              twice a day. </p>
+            <p rend="indent space">
+              <lb/>19th. The increaſe of the dropſical ſymptoms <lb/>now made it neceſſary to repeat
+              the Digitalis. The <lb/>dried leaves were uſed in infuſion, and the water <lb/>was
+              preſently evacuated, as before. </p>
+            <pb n="16"/>
+            <p rend="indent">
+              <lb/>It is now almoſt nine years ſince the Digitalis was <lb/>firſt preſcribed for
+              this lady, and notwithſtanding I <lb/>have tried every preventive method I could
+              deviſe, <lb/>the dropſy ſtill continues to recur at times; but is <lb/>never allowed
+              to increaſe ſo as to cauſe much diſ- <lb/>treſs, for ſhe occaſionally takes the
+              infuſion and re- <lb/>lieves herſelf whenever ſhe chooſes. Since the firſt
+              <lb/>exhibition of that medicine, very ſmall doſes have <lb/>been always found
+              ſufficient to promote the flow of <lb/>urine. </p>
+            <p rend="indent space">
+              <lb/>I have been more particular in the narrative of <lb/>this caſe, partly becauſe
+              Dr. Darwin has related it ra- <lb/>ther imperfectly in the notes to his ſon's
+              poſthumous <lb/>publication, truſting, I imagine, to memory, and <lb/>partly becauſe
+              it was a caſe which gave riſe to a ve- <lb/>ry general uſe of the medicine in that
+              part of Shrop- <lb/>ſhire. </p>
+          </div>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE V. </head>
+            <p rend="indent">
+              <lb/><hi rend="italic">December</hi> l0th. Mr. L—, Æt. 35. Aſcites <lb/>and anaſarca,
+              the conſequence of very intemperate <lb/>living. After trying ſquill and other
+              medicines to <lb/>no purpoſe, I directed a decoction of the Fol. Digi- <lb/>tal.
+              recent. ſix drams to a pint; an eighth part to <lb/>be taken every fourth hour. This
+              made him ſick, <lb/>and produced a copious flow of urine, but not enough <lb/>to
+              remove all the dropſical ſymptoms. After a fort- <lb/>night a ſtronger decoction was
+              ordered, and, upon <lb/>a third trial, as the winter advanced, it became
+              <lb/>neceſſary to uſe four ounces to the pint decoction; <lb/>and thus he got free
+              from all his complaints. </p>
+            <pb n="17"/>
+            <p rend="indent">
+              <lb/>In <hi rend="italic">October</hi> 1777, in conſequence of having pur- <lb/>ſued
+              his intemperate mode of living, his dropſy re- <lb/>turned, accompanied by evident
+              marks of diſeaſed <lb/>viſcera. A decoction of two drams of Fol. Digital. <lb/>ſiccat.
+              to a pint, once more removed the dropſy. He <lb/>took a wine glaſs full thrice a day. </p>
+            <p rend="indent space">
+              <lb/>In <hi rend="italic">January</hi> 1778, I was deſired to viſit him again. <lb/>I
+              found he had gone on in his uſual intemperate life, <lb/>his countenance jaundiced,
+              and the dropſy coming <lb/>on apace. After giving ſome deobſtruent medi- <lb/>cines, I
+              again directed the Digitalis, which again <lb/>emptied the water; but he did not
+              ſurvive many <lb/>weeks. </p>
+          </div>
+        </div>
+        <div type="section">
+          <head rend="size(1.25) align-center space">
+            <lb/>1777. </head>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE VI. </head>
+            <p rend="indent">
+              <lb/>
+              <hi rend="italic">February</hi> —. Mrs. M—, Æt. 45. Aſcites <lb/>and anaſarca, but not
+              much otherwiſe diſeaſed, and <lb/>well enough to walk about the houſe, and ſee after
+              <lb/>her family affairs. I thought this a fair caſe for a <lb/>trial of the Digitalis,
+              and therefore directed a de- <lb/>coction of the freſh leaves, the ſtock of dried ones
+              <lb/>being exhauſted. About a week afterwards, calling <lb/>to ſee my patient, I was
+              informed that ſhe was dead; <lb/>that the third day after my firſt viſit ſhe ſuddenly
+              <lb/>fell down, and expired. Upon enquiry I found <lb/>ſhe had not taken any of the
+              medicine; for the <lb/>ſnow had lain ſo deep upon the ground, that the <lb/>apothecary
+              had not been able to procure it. Had <pb n="18"/>
+              <lb/>the medicine been given in a caſe ſeemingly ſo fa- <lb/>vourable as this, and had
+              the patient died under its <lb/>uſe, is it not probable that the death would have
+              <lb/>been attributed to it? </p>
+          </div>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE VII. </head>
+            <p rend="indent">
+              <lb/><hi rend="italic">February</hi> 11th. Mr. E—, of W—, Æt. 61. <lb/>Hydrothorax,
+              aſcites and anaſarca, conſequences of <lb/>hard drinking. He had been attended for
+              ſome <lb/>time by a phyſician in his neighbourhood, who had <lb/>treated his caſe with
+              the uſual remedies, but with- <lb/>out affording him any relief; nor could I expect to
+              <lb/>ſucceed better by any other medicine than the Digi- <lb/>talis. The dried leaves
+              were not to be had; and <lb/>the green ones at this ſeaſon being very uncertain in
+              <lb/>their ſtrength, I ordered four ounces of the roots <lb/>in a pint decoction, and
+              directed three ſpoonſuls to <lb/>be given every fourth hour, until it either excited
+              <lb/>nauſea, or a free diſcharge of urine; both theſe <lb/>effects took place nearly
+              at the ſame time: he made <lb/>a large quantity of water, the ſwellings ſubſided
+              <lb/>very conſiderably, and his breath became eaſy. Eight <lb/>days afterwards he
+              began upon a courſe of bitters <lb/>and deobſtruents. The dropſical ſymptoms ſoon
+              <lb/>increaſed again, but he had ſuffered ſo much from <lb/>the ſeverity of the
+              ſickneſs before, that he was nei- <lb/>ther willing to take, nor I to give the ſame
+              medicine <lb/>again. </p>
+            <p rend="indent space">
+              <lb/>Perhaps this patient might have been ſaved, if I <lb/>had been well acquainted
+              with the management and <pb n="19"/>
+              <lb/>real doſes of the medicine, which was certainly in <lb/>this inſtance made very
+              much too ſtrong; and not- <lb/>withſtanding the caution to ſtop the further exhibition
+              <lb/>when certain effects ſhould take place, it ſeems the <lb/>quantity previouſly
+              ſwallowed was ſufficient to diſtreſs <lb/>him exceedingly. </p>
+          </div>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE VIII. </head>
+            <p rend="indent">
+              <lb/><hi rend="italic">March</hi> 11th. Mrs. H—, Æt. 32. A few <lb/>days after a
+              tedious labour, had her legs and thighs <lb/>ſwelled to a very great degree; pale and
+              ſemi-tranſ- <lb/>parent, <note place="bottom" n="*" rend="size(0.75)">
+                <p rend="indent">
+                  <lb/>* This diſeaſe has lately been well deſcribed by Mr. White, <lb/>of
+                  Mancheſter. </p>
+              </note> with pain in both groins. After a purge of <lb/>calomel and rhubarb, ung.
+              merc. was ordered to be <lb/>rubbed upon the groins, and the following decoction
+              <lb/>was directed: </p>
+            <floatingText>
+              <body>
+              <p rend="indentall hanging">
+                <lb/>R. Fol. Digital. purp. recent. ℥ii. <lb/>Aq. puræ. ℔i. coque ad ℔iſs et
+                colatur. adde. </p>
+              <p rend="indent">
+                <lb/>Aq. cinn. ſp. ʒiv. M. capiat. cyath. vinos. <lb/>parv. bis quotidie. </p>
+              </body>
+            </floatingText>
+            <p rend="indent">
+              <lb/>The decoction preſently increaſed the ſecretion <lb/>of urine, and abated the
+              diſtenſion of the legs: in <lb/>a fortnight the ſwelling was gone; but ſome days
+              <lb/>after leaving her bed, her legs ſwelled again about <lb/>the ancles, which was
+              removed by another bottle <lb/>of the decoction on the 2lſt of <hi rend="italic"
+                >April</hi>. </p>
+          </div>
+          <pb n="20"/>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE IX. </head>
+            <p rend="indent">
+              <lb/><hi rend="italic">March</hi> 29th. Mr. G—, Æt. 47. Very <lb/>much deformed;
+              aſthma of ſeveral years continu- <lb/>ance, but now dropſical to a great degree. Took
+              <lb/>ſeveral medicines without relief, and then tried the <lb/>Digitalis, but with no
+              better ſucceſs. </p>
+          </div>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE X. </head>
+            <p rend="indent">
+              <lb/><hi rend="italic">April</hi> 10th. G— G—, Æt. 70. Aſthma and <lb/>anaſarca. Took
+              a decoction of the freſh leaves of <lb/>the Digitalis, which produced violent
+              ſickneſs, but <lb/>no immediate evacuation of water. After the ſick- <lb/>neſs had
+              ceaſed altogether, the urine began to flow <lb/>copiouſly, and he was cured. </p>
+          </div>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE XI. </head>
+            <p rend="indent">
+              <lb/><hi rend="italic">July</hi> 10th. Mr. M— of T—, Æt. 54. A <lb/>very hard drinker;
+              had been affected ſince <hi rend="italic">November</hi>
+              <lb/>laſt with aſcites and anaſarca, for which he had <lb/>taken ſeveral medicines
+              without benefit. A de- <lb/>coction of the recent leaves of the Digitalis was then
+              <lb/>directed, an ounce and half to a pint, one eighth <lb/>of which I ordered to be
+              given every fourth hour. <lb/>A few doſes brought on great nauſea, indiſtinct vi-
+              <lb/>ſion, and a great flow of urine, ſo as preſently to <lb/>empty him of all the
+              dropſical water. Indeed the <lb/>evacuation was ſo rapid and ſo complete, that it be-
+              <lb/>came neceſſary to apply a bandage round the belly, <lb/>and to ſupport him with
+              cordials. </p>
+            <pb n="21"/>
+            <p rend="indent">
+              <lb/>In ſomething more than a year and a half, his <lb/>dropſy returned, but the
+              Digitalis did not then <lb/>ſucceed to our wiſhes. In <hi rend="italic">Auguſt</hi>,
+              1779, he was <lb/>tapped, and lived afterwards only about five weeks. </p>
+            <p rend="indent space">
+              <lb/>For more particulars, ſee the extract of a letter <lb/>from Mr. Lyon. </p>
+          </div>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE XII. </head>
+            <p rend="indent">
+              <lb/><hi rend="italic">September</hi> 12th. Miſs C— of T—, Æt. 48. <lb/>An ovarium
+              dropſy, and anaſarcous legs and thighs. <lb/>For three months in the beginning of this
+              year ſhe <lb/>had been under the care of Dr. Darwin, who at <lb/>different times had
+              given her blue vitriol, elaterium, <lb/>and calomel; decoction of pareira brava, and
+              guia- <lb/>cum wood, with tincture of cantharides; oxymel of <lb/>ſquills, decoction
+              of parſley roots, &amp;c. Finding no <lb/>relief, ſhe diſcontinued the uſe of
+              medicines, until <lb/>the urgency of her ſymptoms induced her to aſk <lb/>my advice
+              about the end of <hi rend="italic">Auguſt</hi>. She was great- <lb/>ly emaciated, and
+              had almoſt a total loſs of appetite. <lb/>I firſt tried ſmall doſes of Merc. ſublim.
+              corr. in <lb/>ſolution, with decoction of burdock roots, and bliſ- <lb/>ters to the
+              thighs. No advantage attending the <lb/>uſe of this plan, I directed a decoction of
+              Fol. <lb/>Digit. a dram and half to a pint; one ounce to be <lb/>taken twice a day. It
+              preſently reduced the anaſar- <lb/>cous ſwellings, but made no alteration in the
+              diſten- <lb/>ſion of the abdomen. </p>
+          </div>
+          <pb n="22"/>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE XIII. </head>
+            <p rend="indent">
+              <lb/><hi rend="italic">October</hi> 9th. Mrs. B—, Æt. 40. An ova- <lb/>rium dropſy.
+              Took a decoction of Digitalis without <lb/>effect. Her life was preſerved for ſome
+              years by <lb/>repeated tapping. </p>
+          </div>
+        </div>
+        <div type="section">
+          <head rend="size(1.25) align-center space">
+            <lb/>1778. </head>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE XIV. </head>
+            <p rend="indent">
+              <lb/><hi rend="italic">February</hi> 8th. Mr. R— of K—. Had <lb/>formerly ſuffered
+              much from gout, and lived very <lb/>intemperately. Jaundiced countenance; aſcites;
+              <lb/>legs and thighs greatly ſwollen; appetite none; ex- <lb/>tremely weak; confined
+              to his bed. Had taken <lb/>many medicines from his apothecary without advan-
+              <lb/>tage. I ordered him decoction of Digitalis, and a <lb/>cordial; but he ſurvived
+              only a few days. </p>
+          </div>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE XV. </head>
+            <p rend="indent">
+              <lb/><hi rend="italic">March</hi> 13th. Mr. M—, Æt. 54. A thorax <lb/>greatly
+              deformed; aſthma through the winter, ſuc- <lb/>ceeded by dropſy in belly and legs.
+              Pulſe very <lb/>ſmall; face leaden coloured; cough almoſt continual. <lb/>Decoction of
+              ſeneka was directed, and ſmall doſes <lb/>of Dover's powder at night. </p>
+            <p rend="indent space">
+              <lb/>17th. Gum-ammoniac and ſquill, with elixir <lb/>paregor. at night—26th, Squill
+              and decoction of <lb/>ſeneka.—30th, His complaints ſtill increaſing, de- <pb n="23"/>
+              <lb/>coction of Digitalis was then directed, which relieved <lb/>him in a few days;
+              but his complaints returned <lb/>again, and he died in the month of <hi rend="italic"
+                >June</hi>. </p>
+          </div>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE XVI. </head>
+            <p rend="indent">
+              <lb/><hi rend="italic">Auguſt</hi> 18th. Mr. B—, Æt. 33. Pulmonary <lb/>conſumption
+              and dropſy. The Digitalis, and that <lb/>failing, other diuretics were uſed, in hopes
+              of gain- <lb/>ing ſome relief from the diſtreſs occaſioned by the <lb/>dropſical
+              ſymptoms; but none of them were effectu- <lb/>al. He was then attended by another
+              phyſician, <lb/>and died in about two months. </p>
+          </div>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE XVIII. </head>
+            <p rend="indent">
+              <lb/><hi rend="italic">September</hi> 21ſt. Mrs. M— W— G—, <lb/>Æt. 50. An ovarium
+              dropſy. She took half a pint <lb/>of Infuſ. Digitalis, which made her ſick, but did
+              not <lb/>increaſe the quantity of urine. She was afterwards <lb/>relieved by tapping.
+            </p>
+          </div>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE XVIII. </head>
+            <p rend="indent">
+              <lb/><hi rend="italic">October</hi> 28th. R— W—, Æt. 33. Aſcites <lb/>and univerſal
+              anaſarca; countenance quite pale <lb/>and bloated; appetite none, and the little food
+              he <lb/>forces down is generally rejected. </p>
+            <floatingText>
+              <body>
+              <p rend="indent">
+                <lb/>R. Fol. Digit. purp. ſiccat. ʒiii. </p>
+              <p rend="indent">
+                <lb/>Aq. bull. ℔i. digere per horas duas, et colat. <lb/>adde aq. junip. comp. ʒiii.
+              </p>
+              </body>
+            </floatingText>
+            <pb n="24"/>
+            <p rend="indent">
+              <lb/>He was directed to take one ounce of this infuſion <lb/>every two hours until it
+              ſhould make him ſick. <lb/>This was on Wedneſday. The fifth doſe made <lb/>him vomit.
+              On Thurſday afternoon he vomited <lb/>again very freely, without having taken any more
+              <lb/>of the medicine. On Friday and Saturday he made <lb/>more water than he had done
+              for a week before, <lb/>and the ſwellings of his face and body were con-
+              <lb/>ſiderably abated. He was directed to omit all medi- <lb/>cine ſo long as the
+              urine continued to flow freely, <lb/>and alſo to keep an account of the quantity he
+              made <lb/>in twenty-four hours. </p>
+            <p rend="indent">
+              <lb/>Theſe were his reports: <table rows="6" cols="4">
+                <row>
+                  <cell><hi rend="italic">October</hi>
+                  </cell>
+                  <cell rend="align-right">31ſt. </cell>
+                  <cell>Saturday, </cell>
+                  <cell>5 half pints. </cell>
+                </row>
+                <row>
+                  <cell><hi rend="italic">November</hi>
+                  </cell>
+                  <cell rend="align-right">1ſt. </cell>
+                  <cell>Sunday, </cell>
+                  <cell>6 </cell>
+                </row>
+                <row>
+                  <cell/>
+                  <cell rend="align-right">2d. </cell>
+                  <cell>Monday, </cell>
+                  <cell>8 </cell>
+                </row>
+                <row>
+                  <cell/>
+                  <cell rend="align-right">3d. </cell>
+                  <cell>Tueſday, </cell>
+                  <cell>8 </cell>
+                </row>
+                <row>
+                  <cell/>
+                  <cell rend="align-right">4th. </cell>
+                  <cell>Wedneſday, </cell>
+                  <cell>7 </cell>
+                </row>
+                <row>
+                  <cell/>
+                  <cell rend="align-right">5th. </cell>
+                  <cell>Thurſday, </cell>
+                  <cell>8 </cell>
+                </row>
+              </table>
+            </p>
+            <p rend="indent">
+              <lb/>On Wedneſday he began to purge, and the <lb/>purging ſtill continues, but his
+              appetite is better <lb/>than he has known it for a long time. No ſwelling <lb/>remains
+              but about his ancles, extending at night <lb/>half way up his legs. </p>
+            <p rend="indent">
+              <lb/>Omit all medicines at preſent. <table rows="6" cols="3">
+                <row>
+                  <cell rend="align-right">7th. </cell>
+                  <cell>Saturday, </cell>
+                  <cell>7<formula notation="fraction">1/2</formula> half pints. </cell>
+                </row>
+                <row>
+                  <cell rend="align-right">8th. </cell>
+                  <cell>Sunday, </cell>
+                  <cell>8 </cell>
+                </row>
+                <row>
+                  <cell rend="align-right">9th. </cell>
+                  <cell>Monday, </cell>
+                  <cell>6<formula notation="fraction">3/4</formula>
+                  </cell>
+                </row>
+                <row>
+                  <cell rend="align-right">l0th. </cell>
+                  <cell>Tueſday, </cell>
+                  <cell>6<formula notation="fraction">1/2</formula>
+                  </cell>
+                </row>
+                <row>
+                  <cell rend="align-right">11th. </cell>
+                  <cell>Wedneſday, </cell>
+                  <cell>6 </cell>
+                </row>
+                <row>
+                  <cell rend="align-right">12th. </cell>
+                  <cell>Thurſday, </cell>
+                  <cell>6<formula notation="fraction">1/4</formula>
+                  </cell>
+                </row>
+              </table>
+            </p>
+            <pb n="25"/>
+            <p rend="indent">
+              <lb/>On Tueſday the 17th, ſome ſwelling ſtill remain- <lb/>ed about his ancles, but he
+              was in every other re- <lb/>ſpect perfectly well. </p>
+            <p rend="indent space">
+              <lb/>He took a few more doſes of the infuſion, and no <lb/>other medicine. </p>
+          </div>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE XIX. </head>
+            <p rend="indent">
+              <lb/><hi rend="italic">December</hi> 8th. W— B—, Æt. 60. A hard <lb/>drinker. Diſeaſed
+              viſcera; aſcites and anaſarca. <lb/>An infuſion of Digitalis was directed, but it had
+              no <lb/>other effect than to make him ſick. </p>
+          </div>
+        </div>
+        <div type="section">
+          <head rend="size(1.25) align-center space">
+            <lb/>1779. </head>
+          <p rend="indent">
+            <lb/>In the beginning of this year we had many drop- <lb/>ſies in children, who had
+            ſuffered from the Scarlatina <lb/>Anginoſa; they all yielded very readily to the Digi-
+            <lb/>talis, but in ſome the medicine purged, and then <lb/>it did not prove diuretic,
+            nor did it remove the <lb/>dropſy until opium was joined with it, ſo as to pre-
+            <lb/>vent it purging.—I did not keep notes of theſe <lb/>caſes, but I do not recollect a
+            ſingle inſtance in <lb/>which the Digitalis failed to effect a cure. </p>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE XX. </head>
+            <p rend="indent">
+              <lb/><hi rend="italic">January</hi> 1ſt. Mr. H—. Hydrops Pectoris; <lb/>legs and
+              thighs prodigiouſly anaſarcous; a very diſ- <lb/>treſſing ſenſe of fulneſs and
+              tightneſs acroſs his ſto- <lb/>mach; urine in ſmall quantity; pulſe intermitting;
+              <lb/>breath very ſhort. </p>
+            <pb n="26"/>
+            <p rend="indent">
+              <lb/>He had taken various medicines, and been bliſ- <lb/>tered, but without relief.
+              His complaints continu- <lb/>ing to increaſe, I directed an infuſion of Digitalis,
+              <lb/>which made him very ſick; acted powerfully as a <lb/>diuretic, and removed all
+              his ſymptoms. </p>
+            <p rend="indent space">
+              <lb/>About three months afterwards he was out upon <lb/>a journey, and, after taking
+              cold, was ſuddenly <lb/>ſeized with difficulty of breathing, and violent pal-
+              <lb/>pitation of his heart: he ſent for me, and I ordered <lb/>the infuſion as before,
+              which very ſoon removed <lb/>his complaints. He is now active and well; but,
+              <lb/>whenever he takes cold, finds ſome return of difficult <lb/>breathing, which he
+              ſoon removes by a doſe or two <lb/>of the infuſion. </p>
+          </div>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE XXI. </head>
+            <p rend="indent">
+              <lb/><hi rend="italic">January</hi> 5th. Mrs. M—, Æt. 69. Hydrotho- <lb/>rax, (called
+              aſthma) aſcites and anaſarca. I di- <lb/>rected an infuſion of Fol. Digital. ſiccat.
+              three drams <lb/>to a pint; a ſmall wine glaſs to be taken every third <lb/>or fourth
+              hour. It made her violently ſick, acted <lb/>powerfully as a diuretic, ſet her breath
+              perfectly at <lb/>liberty, and carried off the ſwelling of her legs; <lb/>when ſhe was
+              nearly emptied, ſhe became ſo lan- <lb/>guid, that I thought it neceſſary to order
+              cordials, <lb/>and a large bliſter to her back. Mr. Ward, who <lb/>attended as her
+              apothecary, tells me ſhe had ſome <lb/>return of her aſthma in <hi rend="italic"
+                >June</hi> and <hi rend="italic">October</hi> following, <lb/>which was each time
+              removed by the ſame medicine. </p>
+          </div>
+          <pb n="27"/>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE XXII. </head>
+            <p rend="indent">
+              <lb/><hi rend="italic">January</hi> 11th. Mr. H—, Æt. 59. Aſcites <lb/>and general
+              anaſarca. A large corpulent man, and <lb/>a hard drinker: he had repeatedly ſuffered
+              under <lb/>complaints of this kind, but had been always re- <lb/>lieved by the
+              judicious aſſiſtance of Dr. Aſh. In <lb/>the preſent inſtance, however, not finding
+              relief as <lb/>uſual from the preſcriptions of my worthy friend, <lb/>he ſent for me;
+              after examining into his ſituation, and <lb/>informing myſelf what had been done to
+              relieve him, <lb/>I was ſatisfied that the Digitalis was the only medi- <lb/>cine from
+              which I had any thing to hope. It was <lb/>therefore directed; but another patient
+              requiring <lb/>my aſſiſtance at a diſtance from town, I deſired he <lb/>would not
+              begin the medicine before I returned, <lb/>which would be early on the third day; for
+              I was <lb/>well aware of the difficulties before me, and that <lb/>he would inevitably
+              ſink under too rapid an evacu- <lb/>ation of the water. On my return I was informed,
+              <lb/>that the preceding evening, as he ſat on his chair, <lb/>his head ſunk upon his
+              breaſt, and he died. </p>
+            <p rend="indent space">
+              <lb/>This caſe, as well as caſe VI. is mentioned with <lb/>a view to demonſtrate to
+              younger practitioners, how <lb/>ſudden and unexpected the deaths of dropſical pati-
+              <lb/>ents ſometimes happen, and how cautious we ſhould <lb/>be in aſſigning cauſes for
+              effects. </p>
+          </div>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE XXIII. </head>
+            <p rend="indent">
+              <lb/>
+              <hi rend="italic">Auguſt</hi> 31ſt. Mr. C—, Æt. 57. Diſeaſed <lb/>viſcera, jaundice,
+              aſcites and anaſarca. After try- <pb n="28"/>
+              <lb/>ing calomel, ſaline draughts, jallap purges, chryſtals <lb/>of tartar, pills of
+              gum ammoniac, ſquills, and <lb/>ſoap, ſal ſuccini, eleterium, &amp;c. infuſion of
+              Digi- <lb/>talis was directed, which removed all his urgent <lb/>ſymptoms, and he
+              recovered a pretty good ſtate of <lb/>health. </p>
+          </div>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE XXIV. </head>
+            <p rend="indent">
+              <lb/><hi rend="italic">September</hi> 11th. I was deſired to viſit Mr. L—, <lb/>Æt.
+              63; a middle ſized man; rather thin; not ha- <lb/>bitually intemperate; found him in
+              bed, where he <lb/>had been for three days. He was in a ſtate of furi- <lb/>ous
+              inſanity, and had been gradually loſing his rea- <lb/>ſon for ten days before, but was
+              not outrageous the <lb/>firſt week: his apothecary had given him ten grains <lb/>of
+              emetic tartar, a dram of ipecacoanha, and an <lb/>ounce of tincture of jallap, in the
+              ſpace of a few <lb/>hours, which ſcarcely made him ſick, and only oc- <lb/>caſioned a
+              ſtool or two; upon enquiring into the <lb/>uſual ſtate of his health, I was told that
+              he had been <lb/>troubled with ſome difficulty of breathing for thirty <lb/>years
+              paſt, but for the nine laſt years this complaint <lb/>had increaſed, ſo that he was
+              often obliged to ſit up <lb/>the greater part of the night; and, for the laſt year,
+              <lb/>the ſenſe of ſuffocation was ſo great, when he lay <lb/>down, that he often ſat
+              up for a week together. His <lb/>father died of an aſthma before he was fifty. A few
+              <lb/>years ago, at an election, where he drank more <lb/>than uſual, his head was
+              affected as now, but in a <lb/>ſlighter degree, and his aſthmatic ſymptoms vaniſh-
+              <lb/>ed; and now, notwithſtanding he has been ſeveral <pb n="29"/>
+              <lb/>days in bed, he feels not the leaſt difficulty in <lb/>breathing. </p>
+            <p rend="indent space">
+              <lb/>Apprehending that the inſanity might be owing <lb/>to the ſame cauſe which had
+              heretofore occaſioned <lb/>the aſthma, and that this cauſe was water; I ordered <lb/>a
+              decoction of the Fol. ſiccat Digital, three drams to <lb/>half a pint; three ſpoonfuls
+              to be taken every third <lb/>hour: the fourth doſe made him ſick; the medicine
+              <lb/>was then ſtopped; the ſickneſs continued at inter- <lb/>vals, more or leſs, for
+              four days, during which time <lb/>he made a great quantity of water, and gradually
+              <lb/>became more rational. On the fifth day his appe- <lb/>tite began to return, and
+              the ſickneſs ceaſed, but <lb/>the flow of urine ſtill continued. </p>
+            <p rend="indent space">
+              <lb/>A week afterwards I ſaw him again, and examined <lb/>him particularly; his head
+              was then perfectly ra- <lb/>tional, apetite very good, breath quite eaſy, per-
+              <lb/>mitting him to lie down in bed without inconveni- <lb/>ence, makes plenty of
+              water, coughs a little, and <lb/>expectorates freely. He took no other medicine,
+              <lb/>except a little rhubarb when coſtive. </p>
+          </div>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE XXV. </head>
+            <p rend="indent">
+              <lb/><hi rend="italic">September</hi> 15th. Mr. J. R—, Æt. 50. Subject <lb/>to an
+              aſthmatical complaint for more than twenty <lb/>years, but was this year much worſe
+              than uſual, <lb/>and ſymptoms of dropſy appeared. In <hi rend="italic">July</hi> he
+              <lb/>took G. ammon. ſquill and ſeneka, with infuſ. <lb/>amarum and foſſil alkaly. In
+                <hi rend="italic">Auguſt</hi>, infuſum amar. <pb n="30"/>
+              <lb/>with vin. chalyb. and at bed-time pil. ſtyr. and <lb/>ſquill. His complaints
+              increaſing, the ſquill was <lb/>puſhed as far as could be borne, but without any
+              <lb/>good effect. <hi rend="italic">September</hi> 15th, an infuſion of Digitalis
+              <lb/>was directed, but he died the next morning. </p>
+          </div>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE XXVI. </head>
+            <p rend="indent">
+              <lb/><hi rend="italic">September</hi> 18th. Mrs. R—, Æt. 30. After a <lb/>ſevere
+              child-bearing, found both her legs and thighs <lb/>ſwelled to the utmoſt ſtretch of
+              the ſkin. They <lb/>looked pale, and almoſt tranſparent. The caſe be- <lb/>ing ſimilar
+              to that related at No. VIII. I determined <lb/>upon a ſimilar method of treatment; but
+              as this pa- <lb/>tient had an inflammatory ſore throat alſo, I wiſhed <lb/>to get that
+              removed firſt, and in three or four days <lb/>it was done. I then directed an infuſion
+              of Digi- <lb/>talis, which ſoon increaſed the urinary ſecretion, <lb/>and reduced the
+              ſwellings, without any diſturbance <lb/>of her ſtomach. </p>
+            <p rend="indent space">
+              <lb/>A few days after quitting her bed and coming <lb/>down ſtairs, ſome degree of
+              ſwelling in her legs re- <lb/>turned, which was removed by calomel, an opening
+              <lb/>electuary, and the application of rollers. </p>
+          </div>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE XXVII. </head>
+            <p rend="indent">
+              <lb/><hi rend="italic">October</hi> 7th. Mr. F—, a little man, with a <lb/>ſpine and
+              thorax greatly deformed; for more than <lb/>a year paſt had complained of difficult
+              reſpiration, <lb/>and a ſenſe of fulneſs about his ſtomach; theſe com- <lb/>plaints
+              increaſing, his abdomen gradually enlarged, <pb n="31"/>
+              <lb/>and a fluctuation in it became perceptible. He had <lb/>no anaſarca, no
+              appearance of diſeaſed viſcera, and <lb/>no great paucity of urine. Purges and
+              diuretics of <lb/>different kinds affording him no relief, my aſſiſtance <lb/>was
+              deſired. After trying ſquill medicines without <lb/>effect, he was ordered to take
+              Pulv. fol. Digital. in <lb/>ſmall doſes. Theſe producing no ſenſible effect, <lb/>the
+              doſes were gradually increaſed until nauſea was <lb/>excited; but there was no
+              alteration in the quantity <lb/>of urine, and conſequently no relief to his com-
+              <lb/>plaints. I then adviſed tapping, but he would not <lb/>hear of it; however, the
+              diſtreſs occaſioned by the <lb/>increaſing fulneſs of his belly at length compelled
+              <lb/>him to ſubmit to the operation on the 20th of <hi rend="italic">No-
+                <lb/>vember</hi>. It was neceſſary to draw off the water again <lb/>upon the
+              following days: <table rows="5" cols="2">
+                <row>
+                  <cell/>
+                  <cell><hi rend="italic">December</hi> the 8th. </cell>
+                </row>
+                <row>
+                  <cell/>
+                  <cell>— — 27th. </cell>
+                </row>
+                <row>
+                  <cell rend="align-right">1780. </cell>
+                  <cell><hi rend="italic">February</hi> the 4th. </cell>
+                </row>
+                <row>
+                  <cell/>
+                  <cell>— — 23d. </cell>
+                </row>
+                <row>
+                  <cell/>
+                  <cell><hi rend="italic">March</hi> the 9th. </cell>
+                </row>
+              </table>
+            </p>
+            <p rend="indent space">
+              <lb/>During the intervals, no method I could think of <lb/>was omitted to prevent the
+              return of the diſeaſe, <lb/>but nothing ſeemed to avail. In the operation of <lb/><hi
+                rend="italic">February</hi> 23d, his ſtrength was ſo much reduced, <lb/>that the
+              water was not entirely removed; and on <lb/>the 9th of March, before his belly was
+              half empti- <lb/>ed, notwithſtanding the moſt judicious application <lb/>of bandage,
+              his debility was ſo great, that it was <lb/>judged prudent to ſtop. After being placed
+              in bed, <lb/>the faintneſs and ſickneſs continued; ſevere rigors <pb n="32"/>
+              <lb/>enſued, and violent vomiting; theſe vomitings con- <lb/>tinued through the night,
+              and in the intervals he <lb/>lay in a ſtate nearly approaching to ſyncope. The
+              <lb/>next day I found him with nearly the ſame ſymp- <lb/>toms, but remarked that the
+              quantity of fluid he <lb/>had thrown up was very much more than what he <lb/>had
+              taken, and that his abdomen was conſiderably <lb/>fallen; in the courſe of two or
+              three days more, he <lb/>diſcharged the whole of the effuſed fluid; his ſtrength
+              <lb/>and appetite gradually returned, and he was in all <lb/>reſpects much better than
+              he had been before the <lb/>laſt operation. </p>
+            <p rend="indent space">
+              <lb/>Some time afterwards, his belly began to fill <lb/>again, and he again applied to
+              me; upon an accu- <lb/>rate examination, I judged the quantity of fluid <lb/>might
+              then be about four or five quarts. Nature <lb/>had pointed out the true method of cure
+              in this <lb/>caſe; I therefore ordered him to bed, and directed <lb/>ipecacoanha
+              vomits to be given night and morning: <lb/>in two or three days the whole of the water
+              was <lb/>removed by vomiting, for he never purged, nor <lb/>was the quantity of his
+              urine increaſed; his appe- <lb/>tite and ſtrength gradually returned; he never had
+              <lb/>any further relapſe, and is now an active healthy <lb/>man. I muſt leave the
+              reader to make his own re- <lb/>flections on this ſingular caſe. </p>
+          </div>
+        </div>
+        <pb n="33"/>
+        <div type="section">
+          <head rend="size(1.25) align-center space">
+            <lb/>1780. </head>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE XXVIII. </head>
+            <p rend="indent">
+              <lb/><hi rend="italic">January</hi> 11th. Captain V—, Æt. 42. Had <lb/>ſuffered much
+              from reſiding in hot climates, and <lb/>drinking very freely, particularly rum in
+              large quan- <lb/>tity. He had tried many phyſicians before I ſaw <lb/>him, but nothing
+              relieved him. I found him <lb/>greatly emaciated, his countenance of a browniſh
+              <lb/>yellow; no appetite, extremely low, diſtreſſing <lb/>fulneſs acroſs his ſtomach;
+              legs and thighs greatly <lb/>ſwollen; pulſe quick, and very feeble; urine in
+              <lb/>ſmall quantity. As he had evidently only a few <lb/>days to live, I ordered him
+              nothing but a ſolution <lb/>of ſal diureticus in cinnamon water, ſlightly acidu-
+              <lb/>lated with ſyrup of lemons. This medicine effect- <lb/>ing no change, and his
+              ſymptoms becoming daily <lb/>more diſtreſſing, I directed an infuſion of Digitalis.
+              <lb/>A few doſes occaſioned a copious flow of urine, <lb/>without ſickneſs or any
+              other diſturbance. The me- <lb/>dicine was diſcontinued; and the next day the urine
+              <lb/>continuing to be ſecreted very plentifully, he loſt <lb/>his moſt diſtreſſing
+              complaints, was in great ſpirits, <lb/>and ate a pretty good dinner. In the evening,
+              as <lb/>he was converſing chearſully with ſome friends, he <lb/>ſtooped forwards, fell
+              from his chair, and died in- <lb/>ſtantly. Had he been in bed, I think there is rea-
+              <lb/>ſon to believe this fatal ſyncope, if ſuch it was, <lb/>would not have happened.
+            </p>
+          </div>
+          <pb n="34"/>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE XXIX. </head>
+            <p rend="indent">
+              <lb/><hi rend="italic">February</hi> 6th. Mr. H—,Æt. 63. A corpu- <lb/>lent man; had
+              ſuflered much from gout, which for <lb/>the laſt year or two had formed very
+              imperfectly. <lb/>He had now ſymptoms of water in his cheſt, his <lb/>belly and his
+              legs. An infuſion of Digitalis removed <lb/>theſe complaints, and after being confined
+              for the <lb/>greater part of the winter, he was well enough to <lb/>get abroad again.
+              In the courſe of a month the <lb/>dropſical ſymptoms returned, and were again re-
+              <lb/>moved by the ſame medicine. Bitters and tonics <lb/>were now occaſionally
+              preſcribed, but his debility <lb/>gradually increaſed, and he died ſome time after-
+              <lb/>wards; but the dropſy never returned. </p>
+          </div>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE XXX. </head>
+            <p rend="indent">
+              <lb/><hi rend="italic">February</hi> 17th. Mr. D—, Æt. 50. Aſcites <lb/>and anaſarca,
+              with ſymptoms of phthiſis. He had <lb/>been a very hard drinker. The infuſum Digitalis
+              <lb/>removed his dropſical ſymptoms, and he was ſuffi- <lb/>ciently recovered to take
+              a journey; but as the <lb/>ſpring advanced, the conſumptive ſymptoms in- <lb/>creaſed,
+              and he died ſoon afterwards, perfectly ema- <lb/>ciated. </p>
+          </div>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE XXXI. </head>
+            <p rend="indent">
+              <lb/><hi rend="italic">March</hi> 5th. I was deſired to viſit Mrs. H—, <lb/>a very
+              delicate woman, who after a ſevere lying-in, <lb/>had her legs and thighs ſwollen to a
+              very great de- <pb n="35"/>
+              <lb/>gree; pale and ſemi-tranſparent. I found her ex- <lb/>tremely faint, her pulſe
+              very ſmall and ſlow; vomit- <lb/>ing violently, and frequently purging. She was at-
+              <lb/>tended by a gentleman who had ſeen me give the <lb/>Digitalis in a ſimilar caſe
+              of ſwelled legs after a lying- <lb/>in (ſee Caſe XXVI.) about ſix months before. He
+              <lb/>had not conſidered that this patient was delicate, <lb/>the other robuſt; nor had
+              he attended to ſtop the <lb/>exhibition of the medicine when its effects began to
+              <lb/>take place. The great diſtreſs of her ſituation was <lb/>evidently owing to the
+              imprudent and unlimited <lb/>uſe of the Digitalis. I was very apprehenſive for
+              <lb/>her ſafety; ordered her cordials and volatiles; a free <lb/>ſupply of wine,
+              chamomile tea with brandy for <lb/>common drink, and bliſters. The next day the ſitu-
+              <lb/>ation of things was much the ſame, but with all this <lb/>diſturbance no
+              increaſed ſecretion of urine. The ſame <lb/>methods were continued; an opiate ordered
+              at night, <lb/>and liniment<choice>
+                <corr>,</corr>
+                <sic>.</sic>
+              </choice> volatile upon flannel applied to the <lb/>groins, as ſhe now complained of
+              great pain in thoſe <lb/>parts. The third day the nauſea was leſs urgent, <lb/>the
+              vomitings leſs frequent, the pulſe not ſo ſlow. <lb/>Camphorated ſpirit, with cauſtic
+              volatile alkaly, was <lb/>applied to the ſtomach, emulſion given for common
+              <lb/>drink, and the ſame medicines repeated. From <lb/>this time, the intervals became
+              gradually longer be- <lb/>tween the fits of vomiting, the flow of urine in-
+              <lb/>creaſed, the ſwellings ſubſided, the appetite return- <lb/>ed, and ſhe recovered
+              perfectly. </p>
+          </div>
+          <pb n="36"/>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE XXXII. </head>
+            <p rend="indent">
+              <lb/><hi rend="italic">March</hi> 16th. Mr. D—, Æt. 70. A paralytic <lb/>ſtroke had
+              for ſome weeks paſt impaired the uſe of <lb/>his left ſide, and he complained much of
+              his breath, <lb/>and of a ſtraitneſs acroſs his ſtomach; at length, an <lb/>anaſarca
+              and aſcites appearing, I had no doubt as to <lb/>the cauſe of the former ſymptoms;
+              but, upon ac- <lb/>count of his advanced age, and the paralytic affec- <lb/>tion, I
+              heſitated to give the Digitalis, and there- <lb/>fore tried the other uſual modes of
+              practice, until <lb/>at length his breath would not permit him to lie <lb/>down in
+              bed, and his other ſymptoms increaſed ſo <lb/>rapidly as to threaten a ſpeedy
+              diſſolution. In this <lb/>dilemma I ventured to preſcribe an infuſion of the <lb/>Fol.
+              ſiccat. Digital. which preſently excited a copious <lb/>flow of urine, and made him
+              very ſick; a ſtrong <lb/>infuſion of chamomile flowers, with brandy, relieved <lb/>the
+              ſickneſs, but the diuretic effects of the Digitalis <lb/>continuing, his dropſy was
+              removed, and his breath- <lb/>ing became eaſy. The palſy remained nearly in <lb/>the
+              ſame ſtate. He lived until <hi rend="italic">Auguſt</hi> 1782, and <lb/>without any
+              return of the dropſy. </p>
+          </div>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE XXXIII. </head>
+            <p rend="indent">
+              <lb/><hi rend="italic">March</hi> 18th. Miſs S—, Æt. 5. Hydrocepha- <lb/>lus internus.
+              As the caſe did not yield to calomel, <lb/>when matters were nearly advanced to
+              extremities, <lb/>it occurred to me to try the Infuſum Digitalis; a <lb/>few doſes of
+              which were given, but had no ſenſible <lb/>effect. </p>
+          </div>
+          <pb n="37"/>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE XXXIV. </head>
+            <p rend="indent">
+              <lb/><hi rend="italic">March</hi> 19th. A young lady, ſoon after the birth <lb/>of an
+              illegitimate child, became inſane. After be- <lb/>ing near a month under my care,
+              ſwellings of her <lb/>legs, which at firſt had been attributed to weakneſs,
+              <lb/>extended to her thighs and belly; her urine became <lb/>foul, and ſmall in
+              quantity, and the inſanity re- <lb/>mained nearly the ſame. As it had been very dif-
+              <lb/>ficult to procure evacuations by any means, I or- <lb/>dered half an ounce of
+              Fol. Digital. ſiccat. in a <lb/>pint infuſion, and directed two ſpoonfuls to be giv-
+              <lb/>en every two hours: this had the deſired effect; <lb/>the dropſy and the inſanity
+              diſappeared together, <lb/>and ſhe had afterwards no other medicine but ſome
+              <lb/>aperient pills to take occaſionally. </p>
+          </div>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE XXXV. </head>
+            <p rend="indent">
+              <lb/><hi rend="italic">April</hi> 12th. Mr. R—, Æt. 32. For the laſt <lb/>three or
+              ſour years had had more or leſs of what <lb/>was conſidered as aſthma;—it appeared to
+              me Hy- <lb/>drothorax. I directed an infuſion of Digitalis, <lb/>which preſently
+              removed his complaints. In <hi rend="italic">June</hi>
+              <lb/>following he had a relapſe, and took two grains of <lb/>the Pulv. fol. Digit.
+              three times a day, which cured <lb/>him after taking forty grains, and he has never
+              had <lb/>a return. </p>
+          </div>
+          <pb n="38"/>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE XXXVI. </head>
+            <p rend="indent">
+              <lb/><hi rend="italic">May</hi> 15th. Mrs. H—, Æt. 40. A ſpaſmo- <lb/>dic aſthma,
+              attended with ſymptoms of effuſion. <lb/>An infuſion of Digitalis relieved her very
+              conſider- <lb/>ably, and ſhe lived four years afterwards without <lb/>any relapſe.
+            </p>
+          </div>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE XXXVII. </head>
+            <p rend="indent">
+              <lb/><hi rend="italic">May</hi> 26th. R— B—, Æt. 12. Scrophu- <lb/>lous, conſumptive,
+              and at length anaſarcous. Took <lb/>Infuſ. Digital. without advantage. Died the <hi
+                rend="italic">July</hi>
+              <lb/>following. </p>
+          </div>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE XXXVIII. </head>
+            <p rend="indent">
+              <lb/><hi rend="italic">June</hi> 4th. Mrs. S—, of W—, Æt 49. <lb/>Aſcites and
+              anaſarca. Had taken many medicines; <lb/>firſt from her apothecary, afterwards by the
+              direc- <lb/>tion of a very judicious and very celebrated phyſi- <lb/>cian, but nothing
+              retarded the increaſe of the <lb/>dropſy. I firſt ſaw her along with the phyſician
+              <lb/>mentioned above, on the 14th of <hi rend="italic">May</hi>; we direct- <lb/>ed an
+              electuary of chryſtals of tartar, and Seltzer <lb/>water for common drink; this plan
+              failing, as others <lb/>had done before, we ordered the Infuſ. Digital. which <lb/>in
+              a few days nearly removed the dropſy. I then <lb/>left her to the care of her
+              phyſician; but her con- <lb/>ſtitution was too much impaired to admit of reſtor-
+              <lb/>ation to health, and I underſtand ſhe died a few <lb/>weeks afterwards. </p>
+          </div>
+          <pb n="39"/>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE XXXIX. </head>
+            <p rend="indent">
+              <lb/><hi rend="italic">June</hi> 13th. Mr. P—, Æt. 35. A very <lb/>hard drinker, was
+              attacked with a ſevere hæmoptoe, <lb/>which was followed by aſcites and anaſarca. He
+              <lb/>had every appearance of diſeaſed viſcera, and his <lb/>urine was ſmall in
+              quantity. The powder and the <lb/>infuſion of Digitalis were given at different times,
+              <lb/>but without the deſired effect. Other medicines <lb/>were tried, but in vain.
+              Tapping prolonged his <lb/>exiſtence a few weeks, and he died early in the
+              <lb/>following autumn. </p>
+          </div>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE XL. </head>
+            <p rend="indent">
+              <lb/><hi rend="italic">June</hi> 27th. Mr. W—, Æt. 37. An appa- <lb/>rently aſthmatic
+              affection, gradually increaſing for <lb/>three or four years, which not yielding to
+              the uſual <lb/>remedies, he took the infuſion of Digitalis. Two <lb/>or three doſes
+              made him very ſick; but he thought <lb/>his breathing relieved. After one week he took
+              it <lb/>again, and was ſo much better as to want no other <lb/>medicine. </p>
+            <p rend="indent space">
+              <lb/>In the courſe of the following winter he became <lb/>hectic, and died conſumptive
+              about a year after- <lb/>wards. </p>
+          </div>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE XLI. </head>
+            <p rend="indent">
+              <lb/><hi rend="italic">July</hi> 6th. Mr. E—, Æt. 57. Hydrothorax <lb/>and anaſarca;
+              his breath ſo ſhort that he could not <pb n="40"/>
+              <lb/>lie down. After a trial of ſquill, fixed alkaly, and <lb/>dulcified ſpirit of
+              nitre, I directed Pulv. Digital. <lb/>gr. 2, thrice a day. In four days he was able to
+              <lb/>come down ſtairs; in three days more no appearance <lb/>of diſeaſe remained; and
+              under the uſe of aromatics <lb/>and ſmall doſes of opium, he ſoon recovered his
+              <lb/>ſtrength. </p>
+          </div>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE XLII. </head>
+            <p rend="indent">
+              <lb/><hi rend="italic">July</hi> 7th. Miſs H— of T—, Æt. 39. In <lb/>the laſt ſtage of
+              a phthiſis pulmonalis became dropſi- <lb/>cal. She took the Digitalis without being
+              relieved. </p>
+          </div>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE XLIII. </head>
+            <p rend="indent">
+              <lb/><hi rend="italic">July</hi> 9th. Mrs. F—, Æt. 70. A chear- <lb/>ful, ſtrong,
+              healthy woman; but for a few years <lb/>back had experienced a degree of difficult
+              breathing <lb/>when in exerciſe. In the courſe of the laſt year her <lb/>legs ſwelled,
+              and ſhe felt great fulneſs about her <lb/>ſtomach. Theſe ſymptoms continued increaſing
+              <lb/>very faſt, notwithſtanding ſeveral attempts made by <lb/>a very judicious
+              apothecary to relieve her. The <lb/>more regular practitioner failing, ſhe had
+              recourſe <lb/>to a quack, who I believe plied her very powerfully <lb/>with Daphne
+              laureola, or ſome draſtic purge of that <lb/>kind. I found her greatly reduced in
+              ſtrength, her <lb/>belly and lower extremities ſwollen to an amazing <lb/>ſize, her
+              urine ſmall in quantity, and her appetite <lb/>greatly impaired. For the firſt
+              fortnight of my at- <lb/>tendance bliſters were applied, ſolution of fixed
+              <lb/>alkaly, decoction of ſeneka with vitriolic æther, <pb n="41"/>
+              <lb/>chryſtals of tartar, ſquill and cordial medicines were <lb/>ſucceſſively
+              exhibited, but with no advantage. I <lb/>then directed Pulv. Fol. Digital. two grains
+              every <lb/>four hours. After taking eighteen grains, the urine <lb/>began to increaſe.
+              The medicine was then ſtopped. <lb/>The diſcharge of urine continued to increaſe, and
+              <lb/>in five or ſix days the whole of the dropſical water <lb/>paſſed off, without any
+              diſturbance to the ſtomach <lb/>or bowels. As the diſtenfion of the belly had been
+              <lb/>very great, a ſwathe was applied, and drawn gradu- <lb/>ally tighter as the water
+              was evacuated. As no pains <lb/>were ſpared to prevent the return of the dropſy,
+              <lb/>and as the beſt means I could deviſe proved unequal <lb/>to my wiſhes, both in
+              this and in ſome other caſes, <lb/>I ſhall take the liberty to point out the methods
+              <lb/>I tried at different times in as conciſe a manner as <lb/>poſſible, for the
+              knowledge of what will not do, may <lb/>ſometimes aſſiſt us to diſcover what will. </p>
+            <p rend="indent">
+              <lb/>1780. </p>
+            <p rend="hanging">
+              <lb/><hi rend="italic">July</hi> 18th. Infuſum amarum, ſteel, Seltzer water. </p>
+            <p rend="hanging">
+              <lb/><hi rend="italic">September</hi> 22d. Neutral ſaline draughts, with tinct.
+              <lb/>canthar. </p>
+            <p rend="hanging">
+              <lb/>26th. Pills of ſoap, garlic and millepedes. </p>
+            <p rend="hanging">
+              <lb/>30th. The ſame pills, with infuſum amarum. </p>
+            <p rend="hanging">
+              <lb/><hi rend="italic">October</hi> 11th. Pills of aloes, aſſafetida, and ſal mar-
+              <lb/>tis, in the day-time, and mercury rubbed down, <lb/>at night. </p>
+            <p rend="hanging">
+              <lb/><hi rend="italic">December</hi> 21ſt. The accumulation of water now re-
+              <lb/>quired a repetition of the Digitalis. It was di- <lb/>rected in infuſion, a dram
+              and half to eight ounces, <lb/>and an ounce and half given every fourth hour, <pb
+                n="42"/>
+              <lb/>until its effects began to appear. The water was <lb/>ſoon carried off. </p>
+            <p rend="hanging">
+              <lb/>30th. Sal diuretic. twice a day. To eat preſerved <lb/>garlic frequently. </p>
+            <p rend="indent">
+              <lb/>1781. </p>
+            <p rend="hanging">
+              <lb/><hi rend="italic">February</hi> 1ſt. Pills of calomel, ſquill and gum am-
+              <lb/>moniac. <lb/>3d. Infuſion of Digitalis repeated, and after the <lb/>water was
+              carried off, Dover's powder was tried <lb/>as a ſudorific. </p>
+            <p rend="hanging">
+              <lb/><hi rend="italic">March</hi> 18th. Infuſ. Digital. repeated. </p>
+            <p rend="hanging">
+              <lb/>26th. Pills of ſal martis and aromatic ſpecies, with <lb/>infuſum amarum. </p>
+            <p rend="hanging">
+              <lb/><hi rend="italic">May</hi> 5th. Being feveriſh; James's powder and <lb/>ſaline
+              draughts. </p>
+            <p rend="hanging">
+              <lb/>10th. Laudanum every night, and an opening <lb/>tincture to obviate coſtiveneſs. </p>
+            <p rend="hanging">
+              <lb/>24th. Infuſ. Digitalis, one ounce only every fourth <lb/>hour, which ſoon
+              procured a perfect evacuation <lb/>of the water. </p>
+            <p rend="hanging">
+              <lb/><hi rend="italic">Auguſt</hi> 11th. Infuſ. Digitalis. </p>
+            <p rend="hanging">
+              <lb/><hi rend="italic">Octobcr</hi> 19th. An emetic, and fol. Cicut. pulv. <lb/>ten
+              grains every ſix hours. </p>
+            <p rend="hanging">
+              <lb/><hi rend="italic">November</hi> 8th. A mercurial bolus at bed-time. </p>
+            <p rend="hanging">
+              <lb/>16th. Infuſ. Digitalis. </p>
+            <p rend="hanging">
+              <lb/><hi rend="italic">December</hi> 23d. An emetic—Pills of ſeneka and gum
+              <lb/>ammoniac—Vitriolic acid in every thing ſhe <lb/>drinks. </p>
+            <p rend="hanging">
+              <lb/>25th. Squill united to ſmall doſes of opium. </p>
+            <p rend="indent">
+              <lb/>1782. </p>
+            <p rend="hanging">
+              <lb/><hi rend="italic">January</hi> 2d. A troubleſome cough—Syrup of gar- <lb/>lic and
+              oxymel of ſquills. A bliſter to the back. </p>
+            <pb n="43"/>
+            <p rend="hanging">
+              <lb/>4th. Tincture of cantharides and paregoric elixir. </p>
+            <p rend="hanging">
+              <lb/>28th. Infuſ. Digitalis, half an ounce every morn- <lb/>ing, and one ounce every
+              night, was now ſuffi- <lb/>cient to empty her. </p>
+            <p rend="hanging">
+              <lb/><hi rend="italic">March</hi> 26th. Infuſ. Digitalis; and when emptied,
+              <lb/>vitriol of copper twice a day. </p>
+            <p rend="hanging">
+              <lb/><hi rend="italic">April</hi> 1ſt. A cordial mixture for occaſional uſe. </p>
+            <p rend="hanging">
+              <lb/>Two months afterwards a purging came on, which <lb/>every now and then returned,
+              inducing great <lb/>weakneſs—her appetite failed, and ſhe died in <lb/><choice>
+                <corr/>
+                <sic>in </sic>
+              </choice><hi rend="italic">July</hi>. </p>
+            <list>
+              <head rend="align-center space">
+                <lb/>INTERVALS. </head>
+              <item>
+                <lb/>From <hi rend="italic">July</hi> 9th, 1780, to <hi rend="italic">December</hi>
+                21ſt, 171 days. </item>
+              <item>
+                <lb/>From <hi rend="italic">December</hi> 21ſt to <hi rend="italic">February</hi>
+                3d, 1781, 34 days. </item>
+              <item>
+                <lb/>From <hi rend="italic">February</hi> 3d to <hi rend="italic">March</hi> 18th,
+                44 days. </item>
+              <item>
+                <lb/>From <hi rend="italic">March</hi> 18th to <hi rend="italic">May</hi> 24th, 66
+                days. </item>
+              <item>
+                <lb/>From <hi rend="italic">May</hi> 24th to <hi rend="italic">Auguſt</hi> 11th, 79
+                days. </item>
+              <item>
+                <lb/>From <hi rend="italic">Auguſt</hi> 11th to <hi rend="italic">November</hi>
+                16th, 98 days. </item>
+              <item rend="hanging">
+                <lb/>From <hi rend="italic">November</hi> 16th to <hi rend="italic">January</hi>
+                28th, 1782, 74 <lb/>days. </item>
+              <item>
+                <lb/>From <hi rend="italic">January</hi> 28th to <hi rend="italic">March</hi> 26th,
+                57 days. </item>
+            </list>
+            <p rend="indent space">
+              <lb/>None of the accumulations of water were at all <lb/>equal to that which exiſted
+              when I firſt ſaw her, for <lb/>finding ſo eaſy a mode of relief, ſhe became impa-
+              <lb/>tient under a ſmall degree of preſſure, and often <lb/>inſiſted upon taking her
+              medicine ſooner than I <lb/>thought it neceſſary. After the 26th of <hi rend="italic"
+                >March</hi> the <lb/>degree of effuſion was inconſiderable, and at the <lb/>time of
+              her death very trifling, being probably car- <lb/>ried off by the diarrhœa. </p>
+          </div>
+          <pb n="44"/>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE XLIV. </head>
+            <p rend="indent">
+              <lb/><hi rend="italic">July</hi> 12th. Mr. H—, of A—, Æt. 6o. In <lb/>the laſt ſtage
+              of a life hurried to a termination by <lb/>free living, dropſical ſymptoms became the
+              moſt <lb/>diſtreſſing. He wiſhed to take the Digitalis. It <lb/>was given, but
+              afforded no relief. </p>
+          </div>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE XLV. </head>
+            <p rend="indent">
+              <lb/><hi rend="italic">July</hi> 13th. Mr. S—, Æt. 49. Aſthma, or <lb/>rather
+              hydrothorax, anaſarca, and ſymptoms of a <lb/>diſeaſed liver. He was directed to take
+              two grains <lb/>of Pulv. fol. Digital. every two hours, until it pro- <lb/>duced ſome
+              effect. It ſoon removed the dropſical <lb/>and aſthmatic affections, and ſteel, with
+              Seltzer wa- <lb/>ter, reſtored him to health. </p>
+          </div>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE XLVI. </head>
+            <p rend="indent">
+              <lb/><hi rend="italic">Auguſt</hi> 6th. Mr. L—, Æt. 35. Aſcites and <lb/>anaſarca.
+              Pulv. Digital. grains three, repeated every <lb/>fourth hour, until he had taken two
+              ſcruples, remov- <lb/>ed every appearance of dropſy in a few days. He <lb/>was then
+              directed to take ſolution of merc. ſublimat. <lb/>and ſoon recovered his health and
+              ſtrength. </p>
+          </div>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE XLVII. </head>
+            <p rend="indent">
+              <lb/><hi rend="italic">Auguſt</hi> 16th. Mr. G—, of W—, Æt. 86. <lb/>Aſthma of many
+              years duration, and lately an in- <lb/>cipient anaſarca, with a paucity of urine. He
+              had <lb/>never lived intemperately, was of a chearful diſpo- <lb/>ſition, and very
+              ſenſible: for ſome years back had <pb n="45"/>
+              <lb/>loſt all reliſh for animal food, and his only ſupport <lb/>had been an ounce or
+              two of bread and cheeſe, or <lb/>a ſmall ſlice of ſeed-cake, with three or four pints
+              <lb/>of mild ale, in the twenty-four hours. After try- <lb/>ing chryſtals of tartar,
+              fixed alkaly, ſquills, &amp;c. I <lb/>directed three grains of Pulv. fol. Digital.
+              made <lb/>into pills, with G. ammoniac, to be given every ſix <lb/>hours; this
+              preſently occaſioned copious diſcharges <lb/>of urine, removed his ſwellings, and
+              reſtored him <lb/>to his uſual ſtandard of health. </p>
+          </div>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE XLVIII. </head>
+            <p rend="indent">
+              <lb/><hi rend="italic">Auguſt</hi> 17th. T— B—, Eſq. of K—, <lb/>Æt. 46. Jaundice,
+              dropſy, and great hardneſs in <lb/>the region of the liver. Infuſion of Digitalis
+              carri- <lb/>ed off all the effuſion, and afterwards a courſe of <lb/>deobſtruent and
+              tonic medicines removed his other <lb/>complaints. </p>
+          </div>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE XLIX. </head>
+            <p rend="indent">
+              <lb/><hi rend="italic">Auguſt</hi> 23d. Mr. C—, Æt. 58. (The perſon <lb/>mentioned at
+              Caſe XXIII.) He had continued free <lb/>from dropſy until within the laſt ſix weeks;
+              his ap- <lb/>petite was now totally gone, his ſtrength extremely <lb/>reduced, and the
+              yellow of his jaundice changed to a <lb/>blackiſh hue. The Digitalis was now tried in
+              vain, <lb/>and he died ſhortly afterwards. </p>
+          </div>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE L. </head>
+            <p rend="indent">
+              <lb/><hi rend="italic">Auguſt</hi> 24th. Mrs. W—, Æt. 39. Anaſar- <lb/>cous legs and
+              ſymptoms of hydrothorax, conſequent <pb n="46"/>
+              <lb/>to a tertian ague. Three grains of Pulv. Digitalis, <lb/>given every fourth hour,
+              occaſioned a very copious <lb/>flow of urine, and ſhe got well without any other
+              <lb/>medicine. </p>
+          </div>
+          <div>
+            <head rend="align-center">
+              <lb/>CASE LI. </head>
+            <p rend="indent">
+              <lb/><hi rend="italic">Auguſt</hi> 28th. Mr. J— H—, Æt. 27. In <lb/>conſequence of
+              very free living, had an aſcites and <lb/>ſwelled legs. I ordered him to take two
+              grains of <lb/>Fol. Digital. pulv. every two hours, until it pro- <lb/>duced ſome
+              effect; a few doſes cauſes a plentiful <lb/>ſecretion of urine, but no ſickneſs, or
+              purging: in <lb/>ſix days the ſwellings diſappeared, and he has ſince <lb/>remained in
+              good health. </p>
+          </div>
+          <gap reason="sampling" unit="pages" quantity="5"/>
+        </div>
+        <gap reason="sampling" unit="pages" quantity="49"/>
+      </div>
+      <gap reason="sampling" unit="pages" quantity="107"/>
+    </body>
+  </text>
+</TEI>

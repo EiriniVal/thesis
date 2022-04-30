@@ -1,0 +1,1250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LMEMT Corpus - Hales: Statical essays: containing hæmastatics</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>Stephen Hales</persName>
+            </author>
+            <title type="main">Statical essays: containing hæmastatics; or, an account of some
+              hydraulic and hydrostatical experiments made on the blood and blood-vessels of
+              animals. Also an account of some experiments on stones in the kidneys and bladder; ...
+              To which is added, an appendix, ... With an index to both volumes. Vol. II. By Stephen
+              Hales, ...</title>
+            <edition n="2"/>
+            <idno type="ESTC">N23997</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/N23997"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>London: printed for W. Innys and R. Manby; and T. Woodward, 1740.</persName>
+              </publisher>
+              <date>1740</date>
+            </imprint>
+            <extent>
+              <measure type="format">8⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="23"/>
+              <measure type="count" commodity="body" unit="page" quantity="354"/>
+              <measure type="count" commodity="back" unit="page" quantity="21"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">British Library</orgName>
+            <idno type="ECCO">CB132027079</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Surgical or anatominal work"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text type="book" rend="roman" xml:lang="eng">
+    <body>
+      <gap reason="sampling" unit="pages" quantity="194"/>
+      <pb n="183"/>
+      <figure rend="space">
+        <figDesc>A horizontal line, spanning the whole page. </figDesc>
+      </figure>
+      <head rend="align-center">
+        <lb/>AN <lb/><hi rend="size(2.0)">ACCOUNT </hi>
+        <lb/>OF SOME <lb/><hi rend="size(2.0)">EXPERIMENTS </hi>
+        <lb/>ON <lb/><hi rend="size(1.5)">STONES </hi>
+        <lb/>In the KIDNIES and BLADDER. <lb/><hi rend="size(0.75) space">WITH </hi>
+        <lb/>An <hi rend="sc">Inquiry</hi> into the NATURE of <lb/>Thoſe <hi rend="italic"
+          >Anomalous</hi>
+        <hi rend="sc">Concretions</hi>. </head>
+      <figure rend="space">
+        <figDesc>A horizontal line, spanning the whole page. </figDesc>
+      </figure>
+      <pb n="184"/>
+      <pb n="185"/>
+      <div type="section">
+        <head rend="align-center space">
+          <lb/>THE <lb/><hi rend="size(2.0) space">INTRODUCTION. </hi>
+        </head>
+        <p rend="space">
+          <lb/>1. <hi rend="dc(3)">I</hi> Am ſenſible that ſome may be apt to <lb/>think it ſavours
+          too much of vanity <lb/>and preſumption, for any one, after <lb/>ſuch innumerable
+          fruitleſs reſearches of the <lb/>ableſt chymiſts, to attempt to find out a ſafe
+          <lb/>diſſolvent of the ſtone in the <hi rend="italic">Bladder</hi>. The <lb/>great
+          tenderneſs of thoſe parts on the one <lb/>hand, and the extreme hardneſs of many of
+          <lb/>the <hi rend="italic">Calculi</hi> on the other, do with too much <lb/>probability
+          make the caſe ſeem deſperate. For <lb/>after applying all imaginable chymical prepa-
+          <lb/>rations, it is found, that neither the alkaline, <lb/>nor acid, the neutral, ſaline,
+          nor ſulphureous, <lb/>menſtruums, have any effect on theſe concre- <lb/><choice>
+            <corr>tions</corr>
+            <sic>cretions</sic>
+          </choice>; ſpirit of nitre, which is too corro- <lb/>ſive, being the only thing which has
+          hitherto <lb/>been found effectually to diſſolve them. Yet <lb/>in a matter of ſo great
+          importance to the <lb/>eaſe and welfare of a conſiderable part of man- <lb/>kind, we ought
+          not wholly to deſpair of find- <lb/>ing ſome proper and ſafe diſſolvent. And we <lb/>are
+          hitherto excited by the greateſt and moſt <lb/>knowing chymiſts, who do frequently en- <pb
+            n="186"/>
+          <lb/>courage us, not to give over this reſearch; <lb/>being ſenſible there were menſtruum
+          power- <lb/>ful enough to diſſolve metals and ſtones, yet <lb/>ſo mild as not to hurt, or
+          offend the tendereſt <lb/>part of the body. </p>
+        <p rend="indent">
+          <lb/>2. What more particularly induced me to <lb/>make ſome few attempts in this matter,
+          was, <lb/>that when I was endeavouring ſome time ſince <lb/>to analyſe the air by many <hi
+            rend="italic">Chymio-ſtatical</hi>
+          <lb/>experiments, among other trials, I found that <lb/>by diſtillation, vegetable tartar,
+            <hi rend="italic">viz.</hi> that of <lb/>wine, contained above five hundred times
+          <lb/>its bulk of air, which was a great deal more <lb/>than I found, bulk for bulk, in any
+          the fluid <lb/>or ſolid parts of vegetables. This put me upon <lb/>trying whether it was
+          the ſame with animal <lb/>tartar, viz. <hi rend="italic">The calculus humanus</hi>.. </p>
+        <p rend="indent">
+          <lb/>3. I was furniſhed with variety of <hi rend="italic">Calculi</hi>
+          <lb/>by the favour of Mr. <hi rend="italic">Ranby</hi>, <hi rend="italic">Surgeon to his
+            <lb/>Majeſty's Houſhold</hi>, F. R. S. </p>
+      </div>
+      <pb n="187"/>
+      <div type="section">
+        <head rend="sc align-center space">
+          <lb/>Experiment I. </head>
+        <p rend="space">
+          <lb/>1. <hi rend="dc(2)">A</hi> Piece of <hi rend="italic">Calculus</hi> that weighed two
+          <lb/>hundred and thirty grains, and was <lb/>ſomething leſs than <formula
+            notation="fraction">3/4</formula> of a cubic inch in bulk, <lb/>being diſtilled in a
+          gun-barrel, as deſcribed in <lb/><hi rend="italic">Vegetable Statics, Vol. <hi
+              rend="roman">I.</hi> Exper. <hi rend="roman">LXXVII.</hi>
+            <lb/>p. 189.</hi> there aroſe from it, in diſtillation, five <lb/>hundred and ſixteen
+          cubic inches of elaſtic <lb/>air, that is, a bulk equal to ſix hundred and <lb/>forty-five
+          times the bulk of the ſtone; ſo that <lb/>above half the ſtone was raiſed by the action
+          <lb/>of fire into elaſtic air. The remaining <hi rend="italic">Calx</hi>
+          <lb/>weighed forty-nine grains, that is <formula notation="fraction">1/4.69</formula> part
+          of <lb/>the <hi rend="italic">Calculus</hi>; which is nearly the ſame pro- <lb/>portion of
+            <hi rend="italic">Calx</hi>, that Dr. <hi rend="italic">Slare</hi> found remain-
+          <lb/>ing, after the diſtillation, and calcining two <lb/>ounces of <hi rend="italic"
+            >Calculus</hi>, <q rend="diple quotes">one ounce and three <lb/>drams of which, he ſays,
+            evaporated in <lb/>the open fire (a material circumſtance, <lb/>which the chymiſts
+            rarely inquire after) <lb/>of which we have no account. </q>
+          <hi rend="italic">Philoſ. <lb/>Tranſact. Lowthorp's Abridgment, Vol. <hi rend="roman"
+              >III.</hi>
+            <lb/>p. 179.</hi> the greateſt part of which was, we <lb/>ſee by this Experiment, raiſed
+          into permanent- <lb/>ly elaſtic air. </p>
+        <pb n="188"/>
+        <p rend="indent">
+          <lb/>2. Hence it was found, that the <hi rend="italic">Calculus</hi>
+          <lb/>and tartar of wine did yield more air in <lb/>diſtillation, than any other
+          ſubſtances, whether <lb/>animal, vegetable or mineral. And it was re- <lb/>markable, that
+          a greater proportion of this new <lb/>raiſed air from theſe two ſubſtances, was re-
+          <lb/>ſorbed and loſt its elaſticity, in ſtanding a few <lb/>days, than that of any other
+          parts of animals <lb/>or vegetables, which are ſtrong ſymptoms that <lb/>the <hi
+            rend="italic">Calculus</hi> is a true animal tartar. And as <lb/>there was very
+          conſiderably leſs oil, in the <lb/>diſtillation of <hi rend="italic">Rheniſh</hi> tartars,
+          than there was <lb/>in the diſtillation of the ſeeds and ſolid parts <lb/>of vegetables;
+          ſo I found, that this <hi rend="italic">Calculus</hi>
+          <lb/>contained much leſs oil, than the blood or <lb/>ſolid parts of animals. But ſome
+          ſtones which <lb/>were taken out of a human gall-bladder <lb/>yielded in diſtillation more
+          oil, and much <lb/>air. </p>
+        <p rend="indent">
+          <lb/>3. A ſmall ſtone of the gall-bladder, which <lb/>was of the ſize of a pea, was
+          diſſolved in a <lb/><hi rend="italic">Lixivium</hi> of <hi rend="italic">Sal Tartar</hi>
+          in ſeven days, which <lb/><hi rend="italic">Lixivium</hi> will alſo diſſolve tartar; yet
+          it will <lb/>not diſſolve the <hi rend="italic">Calculus</hi>, tho' I boiled a hard
+          <lb/>piece in it for ſeveral hours. </p>
+        <p rend="indent">
+          <lb/>4. A quantity of <hi rend="italic">Calculus</hi> equal to one <lb/>half of what was
+          diſtilled, <hi rend="italic">viz.</hi> a hundred <pb n="189"/>
+          <lb/>and fifteen grains, did, when a cubic inch of <lb/>ſp. of nitre was poured on it,
+          diſſolve in <lb/>two or three hours, with a large froth, and <lb/>generated forty-eight
+          cubic inches of air; <lb/>none of which loſt its elaſticity, in ſtanding <lb/>many days. A
+          like quantity of tartar, hav- <lb/>ing ſpirit of nitre poured on it, was at the <lb/>ſame
+          time diſſolved; but no elaſtic air was <lb/>generated, notwithſtanding tartar abounds ſo
+          <lb/>much with air. </p>
+        <p rend="indent">
+          <lb/>5. Small pieces of tartar and <hi rend="italic">Calculus</hi> were <lb/>in twelve or
+          fourteen days diſſolved in oil <lb/>of vitriol; the like pieces of tartar and <hi
+            rend="italic">Cal- <lb/>culus</hi> were diſſolved in a few hours by oil <lb/>of vitriol,
+          into which there was gradually <lb/>poured near an equal quantity of ſpirit of
+          <lb/>harts-horn made with lime, which mixture <lb/>made a conſiderable ebullition and
+          heat. </p>
+        <p rend="indent">
+          <lb/>6. Tho' the remaining <hi rend="italic">Calx</hi> of the diſtil- <lb/>lation of
+          tartar runs <hi rend="italic">per deliquium</hi>, and has <lb/>therefore <hi rend="italic"
+            >Sal Tartar</hi> in it; and tho' the <hi rend="italic">Calx</hi>
+          <lb/>of diſtilled <hi rend="italic">Calculus</hi> does not run <hi rend="italic">per deli-
+            <lb/>quium</hi>, and has conſequently no <hi rend="italic">Sal Tartar</hi>
+          <lb/>in it; yet it cannot thence be inferred, that <lb/>the <hi rend="italic"
+            >Calculus</hi> is not a tartarine ſubſtance; be- <lb/>cauſe <hi rend="italic">Sal
+            Tartar</hi> itſelf, when mixed with an <lb/>animal <hi rend="italic">Calx</hi>, diſtils
+          all over, ſo that the <hi rend="italic">Calx</hi>
+          <lb/>will not afterwards run <hi rend="italic">per deliquium</hi>. By <pb n="190"/>
+          <lb/>the great ſimilitude there is therefore, in ſo <lb/>many reſpects, between theſe two
+          ſubſtances, <lb/>we may well look upon the <hi rend="italic">Calculus</hi> as a true
+            <lb/><hi rend="italic">Animal Tartar</hi>, and doubtleſs gouty con- <lb/>cretions are
+          the ſame. </p>
+        <p rend="indent">
+          <lb/>7. <hi rend="italic">Animal Tartar</hi> I would call it in contra- <lb/>diſtinction
+          to <hi rend="italic">Vegetable Tartar</hi>; for as ani- <lb/>mal and vegetable ſubſtances
+          greatly differ in <lb/>their ſalts and ſulphurs when chymically ana- <lb/>lyſed, ſo do
+          alſo their reſpective tartars: but <lb/>then they are found exactly to agree in theſe
+          <lb/>remarkable properties, <hi rend="italic">viz.</hi> that they are <lb/>both formed not
+          barely as a ſediment at the <lb/>bottom of their liquors; but being equally <lb/>expanded
+          and ſeparated from all parts of their <lb/>fluids, they adhere uniformly to the ſides of
+          <lb/>their containing veſſels, in the form of a hard <lb/>cruſt; thoſe particles which are
+          immediately <lb/>next the ſides of the veſſel being firſt attracted, <lb/>and adhering to
+          them. And as it is a known <lb/>and wonderful property of fluids, to diffuſe <lb/>what is
+          mixed with them equally in every <lb/>part, ſo when part of theſe incruſting particles
+          <lb/>are attracted out of the fluids, the remaining <lb/>particles equally diffuſing
+          themſelves, a new <lb/>ſucceſſion of them is thereby brought with- <lb/>in the attraction
+          of the already incruſting <lb/>particles, and ſo on ſucceſſively: otherwiſe <pb n="191"/>
+          <lb/>the particles which float in the fluid at ſome <lb/>diſtance from the ſides of the
+          veſſel, could <lb/>not be attracted thither; for this attraction of <lb/>coheſion acts
+          only near. Further, theſe tar- <lb/>tars are both obſerved to be depoſited in
+          <lb/>greateſt plenty, when the ſides of the veſſels <lb/>have been already incruſted: they
+          agree alſo <lb/>in this, that the animal and vegetable fluids <lb/>depoſit their
+          incruſting matter in greateſt plen- <lb/>ty when they are in an attenuated ſtate; and
+          <lb/>the more attenuated they are, the harder <lb/>will their incruſtations be. They both
+          agree <lb/>alſo in this, that they yield in diſtillation <lb/>more air than any animal or
+          vegetable ſub- <lb/>ſtance. With good reaſon therefore has the <lb/><hi rend="italic"
+            >Calculus</hi> been called a tartar by many. And <lb/>as the <hi rend="italic"
+            >Germans</hi> call the tartar of wine, wine- <lb/>ſtone, ſo the <hi rend="italic"
+            >Calculus</hi> may be called urine- <lb/>ſtone; as alſo the incruſtations from mineral
+          <lb/>and other waters may be called water-ſtones: <lb/>but as they are all formed in the
+          ſame man- <lb/>ner, and have ſeveral of the ſame properties <lb/>in common, ſo they may
+          not improperly be <lb/>called the tartars of thoſe ſeveral fluids. </p>
+        <p rend="indent">
+          <lb/>8. From the great quantities of air that <lb/>are found in theſe tartars, we ſee that
+          une- <lb/>laſtic air particles, which by their ſtrongly at- <lb/>tracting property are ſo
+          inſtrumental in form- <pb n="192"/>
+          <lb/>ing the nutritive matter of animals and ve- <lb/>getables, is by the ſame attractive
+          power, apt <lb/>ſometimes to form anomalous concretions, as <lb/>the ſtone, <hi
+            rend="italic">&amp;c.</hi> in animals, eſpecially in thoſe <lb/>places where any animal
+          fluids are in ſtag- <lb/>nant ſtate, as in the urine and gall-bladders. <lb/>They ſtrongly
+          adhere alſo to the ſides of uri- <lb/>nals, <hi rend="italic">&amp;c.</hi> The like
+          tartarine concretions are <lb/>alſo frequently formed in ſome fruits, parti- <lb/>cularly
+          in pears: but they do then eſpecially <lb/>coaleſce in greateſt plenty, when the vegeta-
+          <lb/>ble juices are in a ſtagnant ſtate, as in wine- <lb/>veſſels, <hi rend="italic"
+            >&amp;c.</hi>
+        </p>
+        <p rend="indent">
+          <lb/>9. This great quantity of attracting, une- <lb/>laſtic air particles, which we find
+          in the <hi rend="italic">Cal- <lb/>culus</hi>, ſhould rather encourage than diſcou-
+          <lb/>rage us in ſearching after ſome proper diſſol- <lb/>vent of the ſtone in the bladder,
+          which in <lb/>the <hi rend="italic">Analyſis</hi> of it is found to be well ſtored
+          <lb/>with active principles, ſuch as are the great <lb/>agents in fermentation. For Mr.
+            <hi rend="italic">Boyle</hi> found <lb/>therein a good quantity of volatile ſalt, with
+          <lb/>ſome oil; and we ſee by theſe experiments, <lb/>that there is ſtore of unelaſtic
+          air-particles in <lb/>it, which are raiſed in diſtillation into an ela- <lb/>ſtic ſtate,
+          at the ſame time that the volatile <lb/>ſalt ariſes in white fumes; an argument that <pb
+            n="193"/>
+          <lb/>they are intimately combined with each other <lb/>in the <hi rend="italic"
+            >Calculus</hi>. </p>
+        <p rend="indent">
+          <lb/>10. And it was this conſideration, which <lb/>put me upon making ſome attempts, to
+          try <lb/>by variety of fermenting mixtures, whether <lb/>the brisk action of ſome
+          fermentations might <lb/>not poſſibly ſo ſhake and rouſe theſe air-par- <lb/>ticles, as to
+          make them fly off into an elaſtic <lb/>ſtate, and thereby diſſolve the union of the
+          <lb/>parts of the ſtone. We find that ſpirit of <lb/>nitre acts in this manner on the <hi
+            rend="italic">Calculus</hi>, <lb/>in the diſſolution of it; for we ſee in <hi
+            rend="italic">Ex- <lb/>periment <hi rend="roman">I.</hi> Numb. 4.</hi> that a hundred
+          and <lb/>fifteen grains, or about <formula notation="fraction">1/3</formula> of a cubic
+          inch of <lb/><hi rend="italic">Calculus</hi>, when diſſolved in ſpirit of nitre,
+          <lb/>generated forty-eight cubic inches of air, <lb/>with a large froth, a quantity equal
+          to a hun- <lb/>dred and forty-four times the bulk of the <lb/><hi rend="italic"
+            >Calculus</hi>. </p>
+        <p rend="indent">
+          <lb/>11. From the few trials I have hitherto <lb/>made, I have found a fermenting mixture,
+          <lb/>which by its vigorous action, not only throws <lb/>off elaſtic air from many human
+            <hi rend="italic">Calculi</hi>, but <lb/>alſo very ſenſibly waſtes and diſſolves ſeveral
+          <lb/>of thoſe which are of a leſs compact tex- <lb/>ture; eſpecially the gravel-ſtones,
+          which are <lb/>not generally ſo hard as ſtones which have <lb/>had a longer time to harden
+          in the bladder; <pb n="194"/>
+          <lb/>yet I have met with ſome of theſe gravels ſo <lb/>hard as not to be diſſolved by this
+          mixture. </p>
+        <p rend="indent">
+          <lb/>12. Tho' I have not herein ſucceeded ſo <lb/>far, as to encourage any one to attempt
+          the <lb/>diſſolving therewith gravel-ſtones in the blad- <lb/>der: yet I though it might
+          not be improper <lb/>to give an account of the ſmall progreſs I <lb/>had made herein;
+          ſince it might poſſibly be <lb/>a ſtep towards the happy and important diſ- <lb/>covery,
+          by exciting and engaging others in <lb/>the ſame purſuit; who among the infinite
+          <lb/>variety of menſtruums that may be com- <lb/>pounded, may haply hit upon ſome, which
+          <lb/>may more eaſily diſſolve moſt gravel-ſtones <lb/>at leaſt, if not the larger and
+          harder <hi rend="italic">Calculi</hi>. <lb/>If we could make no farther advance than
+          <lb/>this, it would be of conſiderable benefit to <lb/>mankind, by taking away, when it
+          firſt falls <lb/>into the bladder, the <hi rend="italic">Nucleus</hi>, on which
+          <lb/>larger and harder ſtones are in time formed. <lb/>And this would be effected, if with
+          a few <lb/>injections of a ſafe and proper menſtruum, <lb/>we could only diſſolve a ſmall
+          part of a large <lb/>gravel-ſtone, lately fallen from the kidnies, <lb/>ſo as to make it
+          fit to paſs off thro' the <hi rend="italic">Ure- <lb/>thra</hi>; which it would alſo do
+          with more <lb/>eaſe to the patient, by having thereby its <lb/>ſurface and ſharper points
+          ſoftened and made <pb n="195"/>
+          <lb/>mucilaginous, and leſs ſtimulating. This is <lb/>what the fermenting mixture I am
+          going to <lb/>give an account of, will do on ſome of the <lb/>ſofter ſtones, but not
+          without too many re- <lb/>peated injections, to make it practicable with <lb/>ſafety to
+          the patient. </p>
+        <p rend="indent">
+          <lb/>13. That I might with the greater accura- <lb/>cy and readineſs vary and adjuſt, as
+          occaſion <lb/>required, the ſeveral proportions of the fer- <lb/>menting mixtures, I
+          divided the capacity of <lb/>ſeveral glaſs veſſels, out of which I poured <lb/>the
+          liquors, into cubic inches, making marks <lb/>with a file on the outſide of the glaſſes,
+          at <lb/>each diviſion. I divided alſo the capacity of <lb/>a large tube into quarter cubic
+          inches; it was <lb/>half inch diameter, and ſealed at one end. I <lb/>made alſo ſeveral
+          diviſions on a ſhort tube, <lb/>which was <formula notation="fraction">1/4</formula> inch
+          diameter, the capacity of <lb/>each diviſion containing ten drops of oil of <lb/>ſulphur;
+          ſo that by dipping one end of this <lb/>tube in liquor to any of theſe marks, and
+          <lb/>then ſtopping the other end with my finger, <lb/>I could readily take up 10, 20, 30,
+          40 or 50 <lb/>drops, or any intermediate number. </p>
+        <p rend="indent">
+          <lb/>14. I will now give a ſhort account of <lb/>ſome of the principal Experiments I made;
+          <lb/>in doing of which I did not confine myſelf <lb/>to ſuch mild mixtures, as might
+          probably not <pb n="196"/>
+          <lb/>be injurious to the bladder; but choſe to be- <lb/>gin with the ſtrongeſt fermenting
+          mixtures, <lb/>in hopes that if I ſhould find any of theſe <lb/>would diſſolve the <hi
+            rend="italic">Calculus</hi>, by gradually <lb/>weakening and lowering ſuch mixtures, I
+          <lb/>might poſſibly bring it to ſuch a degree of <lb/>mildneſs, as might make it not
+          injurious to <lb/>the bladder, and yet retain in ſome meaſure <lb/>its diſſolving quality.
+          Or if I ſhould not be <lb/>ſo happy as to ſucceed ſo far, yet I thought <lb/>it moſt
+          probable, that I might find diſſolvents, <lb/>among theſe ſtronger mixtures, which might
+          <lb/>at leaſt give ſome farther inſight into the na- <lb/>ture of the <hi rend="italic"
+            >Calculus</hi>. </p>
+      </div>
+      <div type="section">
+        <head rend="sc align-center space">
+          <lb/>Experiment II. </head>
+        <p rend="space">
+          <lb/>1. <hi rend="dc(2)">A</hi> Cubic inch of oil of vitriol, and <lb/>double its quantity
+          of water, when <lb/>mixt together, made ſo hot a ferment, that I <lb/>could hardly bear to
+          hold my hand at the <lb/>bottom of the bolthead; yet it had no effect <lb/>on a piece of
+          the hardeſt kind of <hi rend="italic">Calculus</hi>. <lb/>And it was the ſame when the
+          heat and fer- <lb/>ment was renewed by throwing in ſome file- <lb/>ings of iron. </p>
+        <p rend="indent">
+          <lb/>2. The like proportions of oil vitr. and <lb/>water, with ſeveral kinds of powdered
+          vi- <pb n="197"/>
+          <lb/>triolic ſtones or <hi rend="italic">Pyrites</hi>, made violent fer- <lb/>ments, but
+          had no effect on this very hard <lb/><hi rend="italic">Calculus</hi>. </p>
+        <p rend="indent">
+          <lb/>3. It was the ſame with oil of vitriol, and <lb/>other acid ſpirits, when poured on
+          ſeveral al- <lb/>kaline bodies, ſuch as powdered <hi rend="italic">Belemnites</hi>,
+            <lb/><hi rend="italic">Aſteria</hi>, coral and oyſter-ſhell, <hi rend="italic"
+            >&amp;c.</hi>
+        </p>
+        <p rend="indent">
+          <lb/>4. But oil of vitriol mixed with unrecti- <lb/>fied ſpirit of C. C. tho' it would not
+          diſſolve <lb/>the above-mentioned very hard piece of <lb/><hi rend="italic">Calculus</hi>,
+          yet with ten or twelve freſh mix- <lb/>tures, it rotted and diſſolved ſeveral pretty
+          <lb/>thick <hi rend="italic">Laminæ</hi>, or cloves of other <hi rend="italic"
+            >Calculi</hi>; <lb/>which tho' not of ſo compact a texture as <lb/>the other, yet were
+          ſo hard, that I could not <lb/>make any impreſſion on them with my nail: <lb/>but this was
+          too pungent a mixture to give <lb/>any hopes that the bladder can bear any de- <lb/>gree
+          of it. </p>
+        <p rend="indent">
+          <lb/>5. Spirit of rye-bread being found by chy- <lb/>miſts a diſſolvent ſo powerful as to
+          diſſolve <lb/>ſeveral kinds of ſtones and hard ſubſtances, <lb/>and yet withal ſo mild,
+          that it may with <lb/>great ſafety be held in the hollow of the <lb/>hand; I prepared a
+          good quantity of it, both <lb/>unrectified and rectified, and made it one in <lb/>a great
+          variety of briskly fermenting mix- <lb/>tures, in hopes that by thus putting its parts <pb
+            n="198"/>
+          <lb/>in a brisk motion, it might have made ſome <lb/>impreſſion on the <hi rend="italic"
+            >Calculus</hi>, but it had <choice>
+            <corr>not</corr>
+            <sic>noe</sic>
+          </choice>. </p>
+        <p rend="indent">
+          <lb/>6. I made a preparation of tartar of vitriol, <lb/>by mixing one part of oil of
+          vitriol, with <lb/>twice its quantity of hot water, in which <lb/>were pieces of <hi
+            rend="italic">Calculus</hi> and tartar; the <hi rend="italic">Cal- <lb/>culus</hi>
+          emitted bubbles, but not the tartar: <lb/>then I poured in gradually <hi rend="italic">Ol.
+            Tart.</hi> when <lb/>both <hi rend="italic">Calculus</hi> and tartar emitted for ſome
+          <lb/>minutes a great quantity of bubbles. The <lb/>tartar was almoſt at once diſſolved,
+          and the <lb/><hi rend="italic">Calculus</hi> was very rotten and brittle, but it <lb/>was
+          not of the very hard kind; <hi rend="italic">Sal Tartar</hi>, <lb/>which is a fixt alkaly,
+          being leſs corroſive <lb/>than ſpirit of harts-horn, which is a volatile <lb/>alkaly. </p>
+      </div>
+      <div type="section">
+        <head rend="sc align-center space">
+          <lb/>Experiment III. </head>
+        <p rend="space">
+          <lb/>1. <hi rend="dc(2)">I</hi> Made a ſolution of it in water, in the <lb/>proportion of
+          an ounce of <hi rend="italic">Sal Tartar</hi>
+          <lb/>to four of water; and made many brisk <lb/>fermentions, with ſeveral portions of this
+          <lb/>alkaline mixture, by pouring in of the ſtrongeſt <lb/>acid ſpirits, as ſpirit of
+          nitre, ſpirit of ſalt, <lb/>ſpirit and oil of vitriol, and oil of ſulphur. <lb/>I found
+          oil of vitriol and oil of ſulphur moſt <lb/>effectual to my purpoſe; and of theſe two, <pb
+            n="199"/>
+          <lb/>I choſe rather to make uſe of oil of ſulphur <lb/>than oil of vitriol, as being the
+          purer acid <lb/>of the two, and leſs noxious to animal bo- <lb/>dies than oil of vitriol. </p>
+        <p rend="indent">
+          <lb/>2. I found, after the mixture of a great <lb/>variety of proportions of theſe
+          liquors, that <lb/>the following were the propereſt for my pur- <lb/>poſe, <hi
+            rend="italic">viz.</hi> one cubic inch of water, one <lb/>third of a cubic inch of
+          ſolution of <hi rend="italic">Sal Tar- <lb/>tar</hi>, and twenty-five, or ſometimes thirty
+          <lb/>drops of oil of ſulphur; alſo ſix cubic inches <lb/>of water, <formula
+            notation="fraction">3/4</formula> cub. of the ſolution of <hi rend="italic">Sal Tar-
+            <lb/>tar</hi>, and fifty drops of oil of ſulphur. </p>
+        <p rend="indent">
+          <lb/>3. Theſe proportions fermented briskly, <lb/>and made air-bubbles ariſe very faſt
+          from the <lb/><hi rend="italic">Calculi</hi> for eight or ten minutes, as would <lb/>alſo
+          ſeveral other proportions, tho' I did not <lb/>find any ſo effectual as theſe, which after
+          ſe- <lb/>veral freſh affuſions of them, would diſſolve <lb/>ſome <hi rend="italic"
+            >Calculi</hi> which were hard to the touch: <lb/>They would alſo diſſolve ſeveral gravel
+          ſtones, <lb/>tho' not all; nor had they any effect on ma- <lb/>ny of the hardeſt <hi
+            rend="italic">Calculi</hi>. </p>
+        <p rend="indent">
+          <lb/>4. If air do not ariſe briskly from the <hi rend="italic">Cal- <lb/>culus</hi>, upon
+          pouring on any of theſe mix- <lb/>tures, the rule to adjuſt the proportions ac-
+          <lb/>curately, is to drop in a few drops of oil of <lb/>ſulphur; if this addition make
+          more air ariſe <pb n="200"/>
+          <lb/>from the <hi rend="italic">Calculus</hi>, it is a ſign ſome of it <lb/>was wanting;
+          but if more air does not ariſe, <lb/>then it is a ſign that more ſolution of <hi
+            rend="italic">Sal <lb/>Tartar</hi> is wanting. </p>
+        <p rend="indent">
+          <lb/>5. It fermented beſt, when half the water <lb/>was poured on the ſolution of <hi
+            rend="italic">Sal Tartar</hi>, <lb/>and the ſpirit of ſulphur was dropped into <lb/>the
+          other half, and then both mixtures pour- <lb/>ed together. Warm water was better than
+          <lb/>cold, tho' it fermented longer cold. </p>
+        <p rend="indent">
+          <lb/>6. When there was a double quantity of <lb/>oil of ſulphur, I have not found it more
+          <lb/>powerful in diſſolving; and when the ſolution <lb/>of <hi rend="italic">Sal
+            Tartar</hi> was much ſtronger, the fer- <lb/>ment was leſs. </p>
+        <p rend="indent">
+          <lb/>7. This liquor has no effect on the <hi rend="italic">Cal- <lb/>culus</hi> after the
+          ferment is over, as I have <lb/>found by laying ſeveral <hi rend="italic">Calculi</hi> to
+          ſoak in it <lb/>for a whole year. So that the effect it has <lb/>on the <hi rend="italic"
+            >Calculus</hi> while it is fermenting, ſeems <lb/>not to depend on the fitneſs of the
+          particles <lb/>of the menſtruum to enter the pores of the <lb/><hi rend="italic"
+            >Calculus</hi>, but rather on certain harmonic <lb/>proportions between the vibrations
+          of the <lb/>fermented liquor, and the tone or degree of <lb/>tenſeneſs of the parts of the
+            <hi rend="italic">Calculus</hi>: Juſt <lb/>as when two ſtrings are equally tenſe, the
+          <lb/>ſtriking of one will make the other ſound; <pb n="201"/>
+          <lb/>or, as I have often obſerved, the different <lb/>pipes of an organ will make
+          different boards <lb/>vibrate, according to the uniformity there <lb/>is between the
+          tenſeneſs of the fibres of the <lb/>ſeveral boards, and the tone of the different
+          <lb/>pipes. </p>
+        <p rend="indent">
+          <lb/>8. And in like manner we may not un- <lb/>reaſonably ſuppoſe, that when there is the
+          <lb/>like uniformity between the vibrations of the <lb/>fermenting liquor, and thoſe of
+          the parts of <lb/>the <hi rend="italic">Calculus</hi>; that the <hi rend="italic"
+            >Itus</hi> and <hi rend="italic">Reditus</hi> of <lb/>theſe vibrations increaſing in
+          this caſe each <lb/>other's force, ſome parts of the <hi rend="italic">Calculus</hi> are
+          <lb/>thereby thrown off into elaſtic air. In con- <lb/>firmation of this conjecture, I
+          have obſerved <lb/>air to ariſe briskly from a <hi rend="italic">Calculus</hi> with
+          <lb/>twenty or ten drops of oil of ſulphur; and <lb/>yet with fifteen drops little or no
+          air aroſe, <lb/>notwithſtanding the proportion of the other <lb/>ingredients of the
+          fermenting mixtures was <lb/>the ſame in all three caſes. </p>
+      </div>
+      <div type="section">
+        <head rend="sc align-center space">
+          <lb/>Experiment IV. </head>
+        <p rend="space">
+          <lb/>1. <hi rend="dc(2)">A</hi>
+          <hi rend="italic">Calculus</hi> which weighed three hun- <lb/>dred and fourteen grains,
+          after forty- <lb/>nine freſh aſſuſions of the above-mentioned <lb/>diſſolving menſtruum,
+          was waſted a hundred <pb n="202"/>
+          <lb/>and thirty-four grains; but the remaining <lb/><hi rend="italic">Nucleus</hi> of this
+            <hi rend="italic">Calculus</hi> was ſo very hard, <lb/>that this liquor had no effect on
+          it. </p>
+        <p rend="indent">
+          <lb/>2. I diſſolved alſo ſeveral other of the ſof- <lb/>ter kind of <hi rend="italic"
+            >Calculi</hi>, and the broken ſhells or <lb/>cloves of others; but there were many of
+          <lb/>the harder kind, which this liquor had no <lb/>ſenſible effect upon. </p>
+        <p rend="indent">
+          <lb/>3. When a large <hi rend="italic">Calculus</hi> was ſawn aſun- <lb/>der, and immerſed
+          in the fermenting liquor, <lb/>I obſerved the air to riſe in much greater <lb/>quantity,
+          from the ſofter inward part of the <lb/><hi rend="italic">Calculus</hi>, than from the
+          hard poliſhed ſurface. </p>
+        <p rend="indent">
+          <lb/>4. As for gravel ſtones, I was obliged to <lb/>ſeveral perſons, who were ſo good as
+          to fur- <lb/>niſh me with 'em, which I made the follow- <lb/>ing Experiments upon, <hi
+            rend="italic">viz.</hi>
+        </p>
+        <p rend="indent">
+          <lb/>5. Some ſmall grains of a rediſh yellow <lb/>gritty gravel were crumbled into coarſe
+          ſand <lb/>with ſeven affuſions of one cub. water, <formula notation="fraction"
+            >1/3</formula>
+          <lb/>cub. of ſolution of <hi rend="italic">Sal Tartar</hi>, and twenty- <lb/>five drops of
+          oil of ſulphur; the air which <lb/>roſe from the gravel, adhering to it in large
+          <lb/>bubbles, made the gravel frequently riſe to <lb/>the top of the liquor. </p>
+        <p rend="indent">
+          <lb/>6. I put into the ſame menſtruum a clove <lb/>or fragment of a ſcale of a larger <hi
+            rend="italic">Calculus</hi>, <lb/>which was voided the day before; it was <pb n="203"/>
+          <lb/><formula notation="fraction">1/16</formula>th part of an inch thick, and <hi
+            rend="sup">3</hi> broad, of <lb/>an aſh colour, ſo hard that it was difficult to
+          <lb/>break away its edges with one's nails. After <lb/>thirty-ſix affuſions of this
+          liquor, it was rot- <lb/>ten as dirt, tho' it retained its ſhape. </p>
+        <p rend="indent">
+          <lb/>7. Three hard rediſh gravels, of a third <lb/>perſon's, which were as big as large
+          ſhot, <lb/>were after eleven affuſions of the ſame li- <lb/>quor, conſiderably more
+          brittle, their ſurface <lb/>rotten and much diminiſhed, and after twen- <lb/>ty-ſix more
+          affuſions they were waſted to the <lb/>ſize of pins-heads. </p>
+        <p rend="indent">
+          <lb/>8. I laid two other gravel ſtones of the <lb/>ſame perſon's, but ſomewhat leſs than
+          the <lb/>former, to ſoak in urine for twenty-four <lb/>hours, and then poured on eight
+          affuſions of <lb/>the diſſolving menſtruum: The following <lb/>night they were laid to
+          ſoak again in urine, <lb/>and the next day I poured on ſixteen more <lb/>affuſions; after
+          which one was waſted, and <lb/>the other very rotten; ſo the ſoaking in <lb/>urine does
+          not hinder diſſolution. </p>
+        <p rend="indent">
+          <lb/>9. I diſſolved in the ſame manner the gra- <lb/>vel of three other perſons, which
+          were either <lb/>of an aſh colour, or ſuch as ſeemed to be <lb/>compoſed of a coarſe
+          rediſh ſandy grit. </p>
+        <p rend="indent">
+          <lb/>10. But the larger gravel of two other per- <lb/>ſons, which had probably lain much
+          longer <pb n="204"/>
+          <lb/>a hardening in the kidnies or bladder, and <lb/>were covered with a kind of hard
+          poliſh, had <lb/>very little impreſſion made on them by this <lb/>liquor; yet ſome grit
+          came off the ſurface <lb/>of one of theſe after eleven affuſions; and <lb/>after thirty
+          more affuſions, each end was ſoft <lb/>and crumbled. But this liquor made no im-
+          <lb/>preſſion on the gravel of the other perſon. </p>
+        <p rend="indent">
+          <lb/>11. This liquor diſſolved a piece of <hi rend="italic">Tar- <lb/>tar</hi> in five
+          affuſions, but a like piece of <hi rend="italic">Tar- <lb/>tar</hi> lay thirty hours in
+          the ſame liquor, be- <lb/>fore it was diſſolved, when there were no re- <lb/>peated
+          affuſions. </p>
+        <p rend="indent">
+          <lb/>12. That all the air-bubbles, which ariſe <lb/>during the ferment, do not ariſe from
+          the <lb/><hi rend="italic">Calculus</hi>, is plain, becauſe ſome ariſe in that <lb/>part
+          of the glaſs veſſel where there is no <hi rend="italic">Cal- <lb/>culus</hi>. Theſe
+          bubbles therefore muſt ariſe from <lb/>the fermenting mixture; for <hi rend="italic">Sal
+            Tartar</hi>, by <lb/><hi rend="italic">Experiment <hi rend="roman">LXXIV.</hi> Vol. <hi
+              rend="roman">I.</hi> p. 184.</hi> contains <lb/>a good quantity of air. Yet far the
+          greateſt <lb/>quantity of air ariſes from the <hi rend="italic">Calculus</hi>, as <lb/>is
+          evidently to be ſeen, when two like quanti- <lb/>ties of this liquor are poured at the
+          ſame time <lb/>into two glaſs veſſels, which have, one of <lb/>them, a <hi rend="italic"
+            >Calculus</hi> in it, and the other none. </p>
+        <p rend="indent">
+          <lb/>13. Tho' this menſtruum is far from being <lb/>efficacious enough to encourage any
+          one to <pb n="205"/>
+          <lb/>make the trial on human bodies, it require- <lb/>ing, as we ſee, too many repeated
+          injections <lb/>to diſſolve ſome of the ſofter kinds of <hi rend="italic">Cal-
+            <lb/>culi</hi>; yet I thought it not improper to try <lb/>whether the bladder could bear
+          a liquor with <lb/>this degree of acidity in it; it being ſo mild <lb/>that it may be
+          taken into the mouth with- <lb/>out inconvenience, tho' it ſets an auſtere <lb/>roughneſs
+          on the teeth. </p>
+      </div>
+      <div type="section">
+        <head rend="sc align-center space">
+          <lb/>Experiment V. </head>
+        <p rend="space">
+          <lb/>1. <hi rend="dc(2)">I</hi> Injected therefore at three ſeveral times <lb/>thro' a
+          tunnel and tube about half a <lb/>pint of this liquor into the bladder of a <lb/>Dog,
+          after which he did not ſhew any ſigns <lb/>of uneaſineſs: But when another time a pint
+          <lb/>and half of near double the ſtrength of the <lb/>former was injected, he ſeemed
+          uneaſy, as if <lb/>troubled with the ſtrangury, but the uneaſy <lb/>ſymptoms went off in
+          half an hour. Some <lb/>days after I killed the Dog, but could not <lb/>perceive, on
+          opening him, that the injected <lb/>liquor had done any harm to his bladder. </p>
+        <p rend="indent">
+          <lb/>2. Theſe injections are eaſily made into a <lb/>Dog's bladder, by paſſing a catheter
+          directly <lb/>into it, thro' an artificial <hi rend="italic">Fiſtula</hi> made in the
+            <lb/><hi rend="italic">Perinæum</hi>, as directed by Mr. <hi rend="italic">John
+            Douglas</hi>, <pb n="206"/>
+          <lb/>Surgeon, F. R. S. in the <hi rend="italic">Philoſoph. Tranſ. <lb/>Numb. 399.</hi>
+        </p>
+        <p rend="indent">
+          <lb/>3. I injected alſo the ſame liquor twelve <lb/>ſeveral days into the bladder of a
+          Bitch, af- <lb/>ter which ſhe ſometimes ſhewed ſome un- <lb/>eaſineſs for a little while,
+          and ſometimes not. <lb/>She continued very lively and brisk long <lb/>after; but ſome
+          months after, in the follow- <lb/>ing ſummer, ſhe was in copulation dog-drawn, <lb/>as it
+          is called, <hi rend="italic">i. e.</hi> the vagina was drawn out, <lb/>which cauſed her
+          death; whence we may con- <lb/>clude, that its fibres were hardened and con- <lb/>tracted
+          by the acid ſpirit of ſulph. and it may <lb/>probably have had the like effect on the
+          fibres <lb/>of the bladder. It is therefore by no means <lb/>adviſeable to attempt the uſe
+          of it in a hu- <lb/>man bladder; neither do I here give an ac- <lb/>count of it with any
+          ſuch view; my deſign <lb/>herein being only to ſhew, that this is at leaſt <lb/>ſome
+          advance towards diſcovering a ſafe diſ- <lb/>ſolvent for moſt gravels, and ſome of the
+          <lb/>ſofter kinds of <hi rend="italic">Calculi</hi>; but as to the harder <lb/>kinds, on
+          which nothing has hitherto been <lb/>found to have any effect towards a diſſolu-
+          <lb/>tion, except <hi rend="italic">Aquafortis</hi>, there is little hope <lb/>of ever
+          finding a ſafe diſſolvent for them. <lb/>But as to the ſofter kinds, there are ſeveral <pb
+            n="207"/>
+          <lb/>mild acid mixtures, that will diſſolve them, <lb/>when laid to ſoak in them for a few
+          days. </p>
+        <p rend="indent">
+          <lb/>4. I tried to make this liquor more mild <lb/>by mucilaginous mixtures; ſuch as
+          ſolution <lb/>of gum Arabic, and decoction of comfrey <lb/>root; but I did not find it
+          ſignified any thing<unclear>;</unclear>
+          <lb/>it ſerved only to increaſe the froth in the ef- <lb/>ferveſcence, which was alſo the
+          inconvenience <lb/>of uſing urine inſtead of water: For I diſ- <lb/>ſolved ſeveral pieces
+          of <hi rend="italic">Calculus</hi>, with urine, <lb/>ſolution of <hi rend="italic">Sal
+            Tartar</hi>, and oil of ſulph. ſo <lb/>that a little urine in the bladder would be no
+          <lb/>impediment to the operation of this liquor. </p>
+      </div>
+      <div type="section">
+        <head rend="sc align-center space">
+          <lb/>Experiment VI. </head>
+        <p rend="space">
+          <lb/>1. <hi rend="dc(2)">T</hi>Hinking it might poſſibly be of uſe <lb/>in Experiments of
+          this kind, to have <lb/>a continual flow of liquor in and out of the <lb/><choice>
+            <corr>bladder</corr>
+            <sic>blander</sic>
+          </choice>, I directed an ingenious artiſt to make <lb/>me a double <hi rend="italic"
+            >Catheter</hi>, the cavity of which <lb/>was divided lengthwiſe by a thin partition,
+          <lb/>into two ſeparate channels, which ended in <lb/>two divaricating branches. To one of
+          theſe <lb/>branches was faſtened an Ox's ureter, or the <lb/>windpipe of a Gooſe or
+          Turkey, which, by <lb/>means of a glaſs tube, either communicates <lb/>with, or has water
+          flowing from a capacious <pb n="208"/>
+          <lb/>veſſel, placed three feet above the <hi rend="italic">Catheter</hi>; <lb/>ſo the
+          liquor, as it flows from the veſſel, <lb/>runs thro' the one half of the <hi rend="italic"
+            >Catheter</hi>, <lb/>and flows into the bladder, and then returns <lb/>out of the
+          bladder, thro' the other half of <lb/>the <hi rend="italic">Catheter</hi>. </p>
+        <p rend="indent">
+          <lb/>2. Thro' this inſtrument I cauſed twenty- <lb/>three cubic inches of the diſſolving
+          liquor to <lb/>flow in and out of the above-mentioned Bitch's <lb/>bladder in a continual
+          ſtream: And after <lb/>that, for four hours and a half, there ran in- <lb/>ceſſantly in
+          and out, in the ſame manner, a <lb/>ſtream of water, of the warmth of urine, in
+          <lb/>quantity about nine hundred cubic inches, <lb/>or three gallons ale meaſure, and this
+          with- <lb/>out the leaſt harm or inconvenience to the <lb/>Bitch, that I could perceive;
+          ſometimes, when <lb/>the bladder was pretty full, the water flowed <lb/>out between the
+            <hi rend="italic">Sphincter</hi> and the <hi rend="italic">Catheter</hi>, <lb/>and then
+          ceaſed to flow till it had filled the <lb/><hi rend="italic">Bladder</hi> to the ſame
+          degree of fulneſs again. </p>
+        <p rend="indent">
+          <lb/>3. Dr. <hi rend="italic">Keill</hi>, in his <hi rend="italic">Medicina Statica Bri-
+            <lb/>tannica, p. 14.</hi> obſerves, that the quantity of <lb/>urine which he made in
+          twenty-four hours <lb/>day and night, was about thirty-nine ounces, <lb/>of which, he
+          ſays, twenty-one ounces may <lb/>be allowed for what paſſed off in twelve hours <lb/>day,
+          which is near at the rate of two ounces <pb n="209"/>
+          <lb/>in an hour, in the day-time; which, ſuppoſe- <lb/>ing it to be at that rate, then
+          there having <lb/>paſſed thro' the double <hi rend="italic">Catheter</hi>, nine hun-
+          <lb/>dred cubic inches in four hours and a half, <lb/>that is at the rate of two hundred
+          cubic <lb/>inches, or a hundred and thirteen ounces in <lb/>an hour: Then the proportion
+          the urine <lb/>which will flow into the <hi rend="italic">Bladder</hi> in that <lb/>time
+          will bear to the water which paſſed <lb/>thro' the <hi rend="italic">Catheter</hi> in the
+          ſame time, will be <lb/>as one to fifty-ſix, which proportion may be <lb/>much diminiſhed
+          by increaſing the perpen- <lb/>dicular height, and conſequently the force <lb/>of the
+          water which flows thro' the <hi rend="italic">Catheter</hi>, <lb/>as alſo by abating on
+          ſuch an occaſion the <lb/>quantity of drink that is taken in. This <lb/>ſmall proportion
+          of urine to water may pro- <lb/>bably very little diſturb the effect of any li- <lb/>quor
+          that may by this means be made to paſs <lb/>the bladder; whether for diſſolving of the
+            <lb/><hi rend="italic">Calculus</hi>, if any ſuch liquor ſhould ever be <lb/>diſcovered,
+          or whether it be for any medi- <lb/>cinal purpoſe to cure any diſorders in the <lb/><hi
+            rend="italic">Bladder</hi>; in which caſes this inſtrument may <lb/>poſſibly be
+          ſometimes of uſe. </p>
+        <p rend="indent">
+          <lb/>4. But if, upon trial, it be found, that the <lb/>canals of this double <hi
+            rend="italic">Catheter</hi> are too ſmall, <lb/>then it may perhaps be a better way to
+          paſs <pb n="210"/>
+          <lb/>any liquor into the <hi rend="italic">Bladder</hi>, thro' a ſmall <lb/>or
+          middle-ſized common <hi rend="italic">Catheter</hi>, thro' <lb/>which it would flow more
+          plentifully in, and <lb/>alſo paſs out more freely between the <hi rend="italic">Sphin-
+            <lb/>cter</hi> and the <hi rend="italic">Catheter</hi>, when the <hi rend="italic"
+            >Bladder</hi> is <lb/>full to a certain degree, whereby any groſs, <lb/>ſlimy or
+          feculent matter would more eaſily <lb/>be diſcharged from the <hi rend="italic"
+            >Bladder</hi>, than thro' <lb/>the narrower paſſage of a double <hi rend="italic"
+            >Catheter</hi>. </p>
+      </div>
+      <div type="section">
+        <head rend="sc align-center space">
+          <lb/>Experiment VII. </head>
+        <p rend="space">
+          <lb/>1. <hi rend="dc(2)">I</hi> Pounded ſeverally the three following <lb/>hot alkaline
+          Plants, viz. <hi rend="italic">Onions</hi>, <hi rend="italic">Scur- <lb/>vy-graſs</hi> and
+            <hi rend="italic">Horſe-radiſh</hi> roots; and put the <lb/>pulp into three pots, in the
+          middle of which <lb/>I put very hard <hi rend="italic">Calculi</hi>, which were all taken
+          <lb/>out of the ſame perſon. I preſſed the maſh <lb/>hard down, and ſet the pots in a
+          hot-bed <lb/>for thirteen days. </p>
+        <p rend="indent">
+          <lb/>2. The <hi rend="italic">Scurvy-graſs</hi> and <hi rend="italic">Horſe-radiſh</hi>
+          had <lb/>no ſenſible effect on their <hi rend="italic">Calculi</hi>: But the <lb/>ſurface
+          of that which was put into the <hi rend="italic">Oni- <lb/>ons</hi> was ſo ſoft, that I
+          could ſcrape it off with <lb/>my nail; and it was the ſame when I put a <lb/>like <hi
+            rend="italic">Calculus</hi> into onion juice mixed with <lb/>water, which was kept warm
+          in a chimney- <lb/>corner for fifteen days; in which liquor the <pb n="211"/>
+          <lb/>rediſh gritty gravel of two other perſons was <lb/>at the ſame diſſolved. </p>
+        <p rend="indent">
+          <lb/>3. Hence <hi rend="italic">Onion</hi> juice ſeems to have ſome <lb/>conſiderable
+          efficacy in diſſolving the <hi rend="italic">Calcu- <lb/>lus</hi>: And where frequently
+          eaten ſhould, if <lb/>not waſte, at leaſt prevent the increaſe of the <lb/><hi
+            rend="italic">Calculus</hi>. Dr. <hi rend="italic">Lobb</hi> found <hi rend="italic"
+            >Leeks</hi> more ef- <lb/>fectual diſſolvents than onions. </p>
+      </div>
+      <div type="section">
+        <head rend="sc align-center space">
+          <lb/>Experiment VIII. </head>
+        <p rend="space">
+          <lb/>1. <hi rend="dc(2)">I</hi>N the hiſtory of the <hi rend="italic">Royal Academy</hi>
+          of <lb/>Sciences of <hi rend="italic">Paris</hi>, An. 1720. there <lb/>are accounts of
+          ſeveral <hi rend="italic">Calculi</hi> being diſ- <lb/>ſolved by laying them many days in
+          water, <lb/>ſooner or later, according to their different <lb/>degrees of hardneſs. </p>
+        <p rend="indent">
+          <lb/>2. I took ſome of the above-mentioned <lb/>aſh-coloured, and round rediſh gravel
+          ſtones, <lb/>and put ſome of them at the ſame time in- <lb/>to cold and warm water, and
+          found thoſe <lb/>in warm water diſſolv'd much ſooner than <lb/>the other, they being
+          covered with a white <lb/><hi rend="italic">Mucus</hi>. </p>
+        <p rend="indent">
+          <lb/>3. I laid ſeveral gravel ſtones in a little <lb/>rill of warm water, for fourteen
+          days, and <lb/>a good part of thoſe nights: They had ſeveral <lb/>of them a white <hi
+            rend="italic">Mucus</hi> over them; but they <pb n="212"/>
+          <lb/>did not diſſolve ſo faſt as thoſe in ſtagnant, <lb/>warm water; the reaſon of which
+          might be <lb/>that this running water was but half ſo warm <lb/>as the above-mentioned
+          ſtagnant water; and <lb/>they were beſides ſome part of each night <lb/>cold, when the
+          water ceaſed to run. </p>
+        <p rend="indent">
+          <lb/>4. I poured into a <hi rend="italic">Florence Flask</hi> thirty- <lb/>nine cubic
+          inches of water, and one of freſh <lb/>urine, and put therein the gravel of ſeven
+          <lb/>different perſons, and then ſet the flask in <lb/>hot dung, where it had a heat equal
+          to that <lb/>of blood; but they had very little <hi rend="italic">Mucus</hi> on <lb/>them
+          in ſix days: So that this ſmall propor- <lb/>tion of urine ſeems to be ſome hindrance to
+          <lb/>diſſolution. </p>
+        <p rend="indent">
+          <lb/>5. What I had principally in view in make- <lb/>ing theſe laſt-mentioned experiments,
+          was to <lb/>ſee whether we might have any reaſonable <lb/>expectation of waſting in ſome
+          degree, gra- <lb/>vel ſtones, by a continued ſeries of diuretics; <lb/>but they give us
+          very little encouragement <lb/>to hope for any other ſucceſs from thence, <lb/>than barely
+          the waſhing down of the gravel, <lb/>if not grown too large. It ſeems indeed
+          <lb/>probable, that while diuretics are uſing, the <lb/>gravel or ſtone may make a very
+          little, if <lb/>any, progreſs in increaſing in bulk, becauſe <lb/>at that time the urine
+          is more diluted and <pb n="213"/>
+          <lb/>leſs rancid and urinous; and conſequently not <lb/>ſo much charged with tartarine
+          particles: For <lb/>it is obſerved, that as thoſe of a hot tempera- <lb/>ment, and of the
+          hardieſt conſtitutions, have <lb/>the moſt rancid urine, ſo they are generally <lb/>more
+          ſubject to the ſtone than others: Not <lb/>only becauſe they are ſuppoſed to perſpire
+          <lb/>the watry matter more plentifully, but alſo <lb/>becauſe their urine is more highly
+          alkalized, <lb/>attenuated and digeſted, and its tartarine parts <lb/>thereby ſubtilized,
+          and rendered leſs muci- <lb/>laginous than the urine of thoſe of a leſs ro- <lb/>buſt and
+          more lax conſtitution of fibres; <lb/>which is probably a principal reaſon why <lb/>women
+          are much leſs ſubject to the gravel or <lb/>ſtone than men. </p>
+        <p rend="indent">
+          <lb/>6. As fermentation breaks and diſſolves the <lb/>mucilaginous texture of vegetable
+          fluids, ſo <lb/>is the like texture of animal fluids diſſolved <lb/>in proportion to the
+          degree of digeſtion <lb/>which they undergo. For as all degrees of <lb/>ferment in
+          vegetable fluids have a tendency <lb/>from viſcidity to acidity; ſo all degrees of
+          <lb/>digeſtion, from its firſt beginning in the ſto- <lb/>mach, thro' its whole courſe,
+          have a tendency <lb/>to putrefaction: But in a healthy ſtate of an <lb/>animal, this
+          tendency is ſtopped at a certain <lb/>degree, by the ſweet emulſion of freſh nutri- <pb
+            n="214"/>
+          <lb/>ment, without a conſtant ſupply of which, <lb/>the animal fluids would ſoon tend to a
+          fatal <lb/>degree of putrefaction, and putrefaction diſ- <lb/>ſolves viſcidities. And
+          accordingly it is ob- <lb/>ſerved, that urine depoſits its tartar more <lb/>freely to the
+          ſides of urinals, when it has <lb/>ſtood ſome time to putrefy, and to become <lb/>thereby
+          leſs viſcid and more dilute. Thus <lb/>alſo <hi rend="italic">Muſt</hi>, or the
+          unfermented juice of grapes, <lb/>yields no tartar; nor do wines depoſit their
+          <lb/>tartars to the ſides of veſſels, while they are <lb/>in a thick, turbid, mucilaginous
+          ſtate; but <lb/>when, by a farther degree of ferment, they <lb/>are ſo much diluted as to
+          fall fine, then the <lb/>tartarine particles being diſintangled, do plen- <lb/>tifully
+          adhere to the ſides of veſſels, ſo as <lb/>to form thereby a hard cruſt. And as the
+          <lb/>tartar of wine is obſerved to be the harder, <lb/>the finer and more attenuated the
+          wine is, ſo <lb/>probably the more digeſted and attenuated <lb/>the urine is, the <hi
+            rend="italic">Calculus</hi> will be propor- <lb/>tionably the harder, and frequently to
+          a very <lb/>great degree of hardneſs, notwithſtanding it <lb/>lies conſtantly in urine;
+          thus the mortar of <lb/>walls which are ſo ſituated under ground as <lb/>to be never dry,
+          is often obſerved to be har- <lb/>der than that which lies dry; and thus the <lb/>bones of
+          animals, and the woody ſubſtance <pb n="215"/>
+          <lb/>of trees, harden in a continually moiſt ſtate: <lb/>And, as naturaliſts have
+          obſerved, that bones <lb/>of animals are more compact and harder in <lb/>hot than in cold
+          climates; ſo 'tis probable <lb/>that, <hi rend="italic">cæteris paribus</hi>, the <hi
+            rend="italic">Calculus</hi> may be <lb/>harder in hot than in cool conſtitutions;
+          <lb/>agreeably to what Dr. <hi rend="italic">Frederic Hoffman</hi> ob- <lb/>ſerved of the
+          ſtony incruſtations in the Caro- <lb/>line bath, which are hardeſt and reddeſt, but
+          <lb/>in leaſt quantity at the mouth of the ſpring <lb/>when the water is hottest; but as
+          the water <lb/>grows cooler at a farther diſtance from the <lb/>ſpring-head, there the
+          incruſtation is greater <lb/>in quantity, but ſofter, more friable, and like <lb/>ſand.
+            <hi rend="italic">Diſquiſitio Phyſico<unclear>-</unclear>Medica de Ther- <lb/>mis
+            Carolinis</hi>. </p>
+        <p rend="indent">
+          <lb/>7. Nature ſeems to have given us a hint, <lb/>that ſoft mucilaginous things are good
+          to <lb/>prevent the growth of the ſtone, by the care <lb/>ſhe has taken to line the
+          ureters and bladder <lb/>with the like ſubſtance, which is ſeparated <lb/>from its glands;
+          which ſerves not only to <lb/>prevent the bladder's being injured by the <lb/>acrimony of
+          the urine, but alſo to hinder the <lb/>adheſion of the tartarine particles of the
+          <lb/>urine, which are then found to adhere to the <lb/>bladder, when this mucilaginous
+          lining is by <lb/>the <hi rend="italic">Calculus</hi> rubbed off: And a <hi rend="italic"
+            >calculous</hi>
+          <pb n="216"/>
+          <lb/>ſand is ſometimes found adhering to the <lb/>whole ſubſtance of the bladder, which
+          grows <lb/>thereby thick, hard and ſcirrous. And daily <lb/>experience teaches us, that
+          the tartar of urine <lb/>conſtantly adheres to urinals and other veſſels <lb/>it is
+          contained in; and would doubtleſs do <lb/>the ſame to the ſubſtance of the bladder,
+          <lb/>were it not defended with a ſlimy coat. <lb/>And accordingly it is obſerved by modern
+          <lb/>phyſicians, that the more mucilaginous the <lb/>urine itſelf is, the leſs apt it is
+          to breed the <lb/>ſtone: No wonder then, that balſamic, lu- <lb/>bricant and mucilaginous
+          liquor, ſuch as <lb/>milk, ſoft unctuous ale, water-gruel, barley- <lb/>water, and liquors
+          made of or mixed with <lb/>honey, <hi rend="italic">&amp;c.</hi> are found to be good
+          preventives <lb/>of the growth of the gravel or ſtone. </p>
+        <p rend="indent">
+          <lb/>8. And as toaſted bread, roaſted, broiled <lb/>and fried meats of all kinds, are
+          obſerved to <lb/>be apter to breed the ſtone than boiled, this <lb/>is doubtleſs owing to
+          the ſame cauſe, <hi rend="italic">viz.</hi>
+          <lb/>that they are leſs mucilaginous than boiled <lb/>meats; for the ſurface of theſe
+          meats being <lb/>imbrowned, that is in ſome degree burnt, <lb/>the mucilaginous texture of
+          theſe burnt parts <lb/>is thereby ſpoiled, and the coheſion of the <lb/>tartarine
+          air-particles (many of which accord- <lb/>ing to the different degrees of burning are <pb
+            n="217"/>
+          <lb/>thrown off into an elaſtic ſtate) is to ſuch a <lb/>degree broken as to leave them
+          more at li- <lb/>berty to form in this their detached unelaſ- <lb/>tic ſtate tartarine
+          concretions. </p>
+        <p rend="indent">
+          <lb/>9. Hence we ſee how greatly the antients <lb/>were miſtaken, who generally attributed
+          the <lb/>growth of the <hi rend="italic">Calculus</hi> to mucoſe, pituitous <lb/>matter,
+          which is ſometimes in great plenty <lb/>ſeparated from the ſcrophulous glands of the
+          <lb/>bladder, but is not found to harden into a <lb/><hi rend="italic">Calculus</hi>. </p>
+        <p rend="indent">
+          <lb/>10. It was the general opinion of the <lb/>learned in <hi rend="italic"
+            >Beverovicius</hi>'s time, (who pub- <lb/>liſhed what they wrote to him on that ſub-
+          <lb/>ject about a hundred years ſince) that the <lb/>matter of the <hi rend="italic"
+            >Calculus</hi> was a <hi rend="italic">pituitous</hi> viſcid <lb/>matter, cauſed by the
+          ill-diſpoſed kidney, <lb/>and hardened by the heat of the bed. But <lb/><hi rend="italic"
+            >Helmont</hi> in his treatiſe <hi rend="italic">de Lithiaſi</hi>, juſtly <lb/>explodes
+          this notion, and denies the <hi rend="italic">Cal- <lb/>culus</hi>, which he calls <hi
+            rend="italic">Duelech</hi>, to be owing <lb/>to any viſcid matter, for the following
+          rea- <lb/>ſons, <hi rend="italic">viz.</hi>
+        </p>
+        <p rend="indent">
+          <lb/>11. He ſays the viſcid matter, which is <lb/>ſometimes found in thoſe who have a
+          ſtone <lb/>in the bladder, ariſes from the mucilage <lb/>which the ſtone rubs off the
+          bladder; for <lb/>when the <hi rend="italic">Calculus</hi> is cut out of the bladder, <pb
+            n="218"/>
+          <lb/>there is no more viſcid matter in the urine: <lb/>That if it aroſe from this <hi
+            rend="italic">Mucus</hi>, the blad- <lb/>der would ſoon be filled with a <hi
+            rend="italic">Calculus</hi>: <lb/>That this <hi rend="italic">Mucus</hi> dried, makes
+          only a little <lb/>chalk ſtone, like that of the <hi rend="italic">Mucus</hi> of the
+          <lb/>noſe when dried: And that it cannot incruſt <lb/>in the bladder to form a <hi
+            rend="italic">Calculus</hi>; whence <lb/>he concludes that it does not ariſe from this
+            <lb/><hi rend="italic">Mucus</hi>, but from a part of the urine which <lb/>adheres to
+          urinals. </p>
+        <p rend="indent">
+          <lb/>12. Though he filtrated urine through <lb/>linen, yet it ſtill depoſited its tartar;
+          whence <lb/>he concludes, that the tartar was not formed <lb/>when the urine was firſt
+          voided; of if it had <lb/>paſſed the linen in the form of ſand, then <lb/>it would have
+          precipitated, like ſand or ſe- <lb/>diment, to the bottom of the urinal, and <lb/>not have
+          adhered to the ſides at equal di- <lb/>ſtances; becauſe it would have wanted, he
+          <lb/>ſays, a glue whereby to have adhered to the <lb/>ſides. </p>
+        <p rend="indent">
+          <lb/>13. And ſince, as he further obſerves, this <lb/>ſand is no-where glutinous, but
+          where it ad- <lb/>heres to the veſſel, it is, he ſays, hence evi- <lb/>dent, that this
+          ſand adheres at the inſtant it <lb/>is formed: And this ſand is formed and ad- <lb/>heres
+          to the veſſel long after the urine is <lb/>made, when it begins to putrefy, the very <pb
+            n="219"/>
+          <lb/>inſtant before it fixes. To which more and <lb/>more is continually added. And in the
+          ſame <lb/>manner he concludes the <hi rend="italic">Calculus</hi> to grow. <lb/>He
+          obſerves this tartar to adhere ſooner and <lb/>in greater plenty to a veſſel already
+          incruſted <lb/>with it, than to a clean veſſel, <hi rend="italic">viz.</hi> becauſe
+          <lb/>the fixt tartarine particles attract more ſtrong- <lb/>ly than thoſe of the ſides of
+          the veſſel: An <lb/>uncomfortable obſervation for thoſe to re- <lb/>flect on, who have a
+            <hi rend="italic">Calculus</hi> once begun in <lb/>them. </p>
+        <p rend="indent">
+          <lb/>14. He found that even diſtilled urine de- <lb/>poſited a tartar; the reaſon he gives
+          why <lb/>urine long detained in the bladder does not <lb/>depoſit its tartar to the ſides
+          of the bladder, <lb/>as in a pot, is becauſe in the bladder it is not <lb/>ſo ſoon
+          diſpoſed to putrefy, and that tartar <lb/>will not adhere ſo well to the bladder as to a
+          <lb/>pot. </p>
+        <p rend="indent">
+          <lb/>15. <hi rend="italic">Helmont</hi> finding the ignorance and in- <lb/>cogitancy of
+          others on this ſubject, ſays, he <lb/>gave away as many books, as were worth <lb/>two
+          hundred pieces of gold, and wiſhed he <lb/>had burnt them; for books gave him not the
+          <lb/>leaſt light. A mortifying, but ſtrong and live- <lb/>ly inſtance of the little
+          progreſs we muſt ever <lb/>hope to make in our reſearches into the na- <lb/>ture of
+          things, without firſt ſtriking out what <pb n="220"/>
+          <lb/>light we can, by variety of proper experi- <lb/>ments. </p>
+        <p rend="indent">
+          <lb/>16. The urine that is made at the greateſt <lb/>diſtance from drinking, is obſerved
+          to be <lb/>moſt rancid, as is in the like caſe the milk <lb/>of women; becauſe it has not
+          only been <lb/>longer a digeſting in the blood, but alſo be- <lb/>cauſe the more watery
+          part goes off firſt in <lb/>greateſt proportion: And its being more ea- <lb/>ſily retained
+          in the bladder, than the higher <lb/>coloured urine, ſhews that it is leſs rancid <lb/>and
+          ſtimulating, than a higher coloured <lb/>urine. </p>
+        <p rend="indent">
+          <lb/>17. Whence it ſeems probable, that the <lb/>ſtone does not increaſe with an equable
+          pro- <lb/>greſſion, in thoſe that are ſubject to it, but <lb/>faſter or ſlower, in
+          proportion to the more <lb/>diuretic and diluted, or more rancid ſtate of <lb/>the urine.
+          Whence we may not unreaſona- <lb/>bly conclude, that the ſtone increaſes faſter <lb/>in
+          the ſummer, when a greater proportion of <lb/>moiſture is perſpired off, and the urine
+          ren- <lb/>dered thereby more rancid, than in the win- <lb/>ter, when the perſpiration
+          being diminiſhed, <lb/>a greater quantity is diſcharged by urine. <lb/>Add to this, that
+          heat is obſerved to contri- <lb/>bute to the induration of many bodies. <hi rend="italic"
+            >Are- <lb/>tæus</hi> on the contrary imagined the <hi rend="italic">Calculus</hi>
+          <pb n="221"/>
+          <lb/>to be increaſed moſt in winter and autumn, <lb/><hi rend="italic">viz.</hi> from a
+          ſuppreſſed perſpiration. </p>
+        <p rend="indent">
+          <lb/>18. The <hi rend="italic">Laminæ</hi> or cloves which are ob- <lb/>ſerved in many of
+          the <hi rend="italic">Calculi</hi>, are a further <lb/>confirmation of this; for when the
+          urine does <lb/>not depoſit its tartar plentifully on the <hi rend="italic">Cal-
+            <lb/>culus</hi>, then its ſurface acquires, by rolling <lb/>up and down in the bladder,
+          a kind of hard <lb/>poliſh; but when the urine returns again to <lb/>its more rancid
+          tartarine ſtate, then the <hi rend="italic">Cal- <lb/>culus</hi> is covered with a new
+          coat; the laſt <lb/>poliſhed ſurface being the partition between <lb/>the two cloves, at
+          which ſurface they more <lb/>eaſily ſeparate than elſewhere. </p>
+        <p rend="indent">
+          <lb/>19. Mr. <hi rend="italic">Hucks</hi> member of parliament, a <lb/>brewer in <hi
+            rend="italic">London</hi>, having killed a Horſe of <lb/>his, which was twenty-eight
+          years old, and <lb/>had lived for twenty years on nothing but <lb/>grains; there were
+          found in his ſtomach and <lb/>guts, a great number of ſtony concretions, <lb/>in quantity
+          ſufficient to fill a quart; they <lb/>were moſt of them of a flat oval form, and <lb/>ſome
+          of them priſmatical. </p>
+        <p rend="indent">
+          <lb/>20. Mr. <hi rend="italic">Hucks</hi> gave me ſixty-ſeven of <lb/>theſe, which were of
+          different ſizes, from <lb/>half an inch to an inch and three quarters <lb/>in length; they
+          were hard and ſmooth, and <lb/>looked on their ſurface like browniſh flints. </p>
+        <pb n="222"/>
+        <p rend="indent">
+          <lb/>21. In thirty-four of theſe, which I broke <lb/>aſunder in the middle, I found ſmall
+          hard <lb/><hi rend="italic">Nucleus's</hi>, which were the beginnings on <lb/>which theſe
+          ſtony concretions were form'd. <lb/>Twenty-three of theſe <hi rend="italic">Nucleus's</hi>
+          were very <lb/>black ſtony ſubſtances, ſo hard that a file <lb/>would not cut them; their
+          out-ſides, tho' <lb/>uneven, were ſmooth; the inſides of them, <lb/>when broke, were
+          rough, and looked like <lb/>ruſty iron. </p>
+        <p rend="indent">
+          <lb/>22. The <hi rend="italic">Nucleus's</hi> or <hi rend="italic">Kernels</hi> of eight
+          of <lb/>them were bits of hard greyſih ſtones, per- <lb/>haps pieces of the mill-ſtones
+          which ground <lb/>the malt. </p>
+        <p rend="indent">
+          <lb/>23. The other three <hi rend="italic">Nucleus's</hi> were bits of <lb/>brick or tile. </p>
+        <p rend="indent">
+          <lb/>24. The ſubſtance of the ſtones which <lb/>were incruſted over theſe <hi
+            rend="italic">Nucleus's</hi>, was very <lb/>hard and brown, ſomewhat like in colour
+          <lb/>to broken roſin; it was form'd in oval ring- <lb/>lets, like the ſubſtance of the
+          knots in deal <lb/>boards. </p>
+        <p rend="indent">
+          <lb/>25. We have here, in many inſtances, a <lb/>proof how apt calcarious incruſting
+          particles <lb/>are to adhere to the ſurfaces of hard bodies, <lb/>which are not covered
+          with a mucilaginous <lb/>ſubſtance. </p>
+        <pb n="223"/>
+        <p rend="indent">
+          <lb/>23. And there are many the like inſtances <lb/>of large ſtones being thus formed, not
+          only <lb/>in Horſes, but alſo in the bowels of Men, <lb/>who have ſwallowed plum or
+          cherry-ſtones, <lb/><hi rend="italic">&amp;c.</hi> And the cleaner ſuch ſtones are from
+          <lb/>any pulp of the fruit, the more danger there <lb/>is, that ſuch ſtrong concretions
+          may be <lb/>formed on them. </p>
+      </div>
+      <div type="section">
+        <head rend="sc align-center space">
+          <lb/>Experiment IX. </head>
+        <p rend="space">
+          <lb/>1. <hi rend="dc(2)">I</hi> Put into a <hi rend="italic">Florence Flask</hi> full of
+          cold <lb/>water, a ſmall round rediſh gravel <lb/>ſtone, about <gap reason="illegible"/>th
+          of an inch diameter, and al- <lb/>ſo a piece of a very hard <hi rend="italic"
+            >Calculus</hi>; and hav- <lb/>ing ſuſpended the flask over a fire, when the <lb/>water
+          boiled, air aroſe in plenty from the <lb/>gravel, whereby it was raiſed up in the wa-
+          <lb/>ter, and much agitated to and fro; ſo that it <lb/>looked like the <hi rend="italic"
+            >Nucleus</hi> of a comet, with <lb/>its long train of air-bubbles ariſing from it. </p>
+        <p rend="indent">
+          <lb/>2. When it had boiled for an hour and <lb/>half, on pouring in a little more hot
+          water, <lb/>it ceaſed to boil for a minute, and during <lb/>that time, no air aroſe from
+          either of the <lb/><hi rend="italic">Calculi</hi>. </p>
+        <p rend="indent">
+          <lb/>3. An hour and half after that, I poured <lb/>into the flask ſome more water, which
+          was <pb n="224"/>
+          <lb/>much cooler than what was poured in be- <lb/>fore: As ſoon as the water boiled, I
+          expected <lb/>air would ariſe again from the gravel; but <lb/>none roſe till it boil'd a
+          conſiderable time: <lb/>Then I took out the gravel, and found it <lb/>waſted two thirds:
+          But the very hard <hi rend="italic">Calcu- <lb/>lus</hi> was not ſenſibly waſted,
+          notwithſtanding <lb/>ſome air aroſe from that alſo in boiling. </p>
+        <p rend="indent">
+          <lb/>4. I repeated the ſame Experiment with <lb/>two other large hard gravel ſtones, and a
+          <lb/>piece of <hi rend="italic">Rheniſh Tartar</hi>, which was diſſolv'd <lb/>in a quarter
+          of an hour; and found that when <lb/>the flask was filled up with very hot water,
+          <lb/>then air aroſe from the gravel, ſoon after the <lb/>water began to boil again: But
+          when what <lb/>was waſted by boiling, was filled up with <lb/>cold water, then no air
+          aroſe from the gra- <lb/>vel till it had boiled a long time. </p>
+        <p rend="indent">
+          <lb/>5. Hence we ſee how the alternacies of <lb/>hot and cold, warm and cool, as they fix
+          the <lb/>parts of the gravel, and thereby hinder their <lb/>ariſing from it in the form of
+          air, ſo they <lb/>conduce much to the hardening of ſome bo- <lb/>dies. Thus the parts of
+          animals and vege- <lb/>tables do gradually coaleſce, and the <hi rend="italic"
+            >Calculus</hi>
+          <lb/>hardens more and more in the bladder. And <lb/>thus by changes from very hot to
+          ſudden <pb n="225"/>
+          <lb/>cold, fatal coagulations of the blood are fre- <lb/>quently made. </p>
+        <p rend="indent">
+          <lb/>6. If there be any thing in the common <lb/>notion, that lying on one's back
+          contributes <lb/>to the increaſe of gravel in the <hi rend="italic">Kidnies</hi>, by
+          <lb/>heating of them, then this Experiment will <lb/>ſhew one cauſe which may contribute
+          to it. <lb/>Tho' I ſuſpect, that a principal cauſe of the <lb/>firſt beginning of the
+          growth of gravel in <lb/>the kidnies, is owing to the horizontal po- <lb/>ſture we are in
+          when we lie in bed: In which <lb/>poſture one of the <hi rend="italic">Kidnies</hi> being
+          lower than <lb/>the <hi rend="italic">Bladder</hi> when we lie on one ſide, and <lb/>both
+          the <hi rend="italic">Kidnies</hi> when we lie on our back; <lb/>the <hi rend="italic"
+            >Pelvis</hi> or cavity of the <hi rend="italic">Kidnies</hi> becomes <lb/>thereby the
+          ſink for the tartarine parts of the <lb/>urine to ſettle in. And the urine being in
+          <lb/>that poſture propelled by the <hi rend="italic">Kidnies</hi> with a <lb/>force not
+          only equal to the perpendicular <lb/>height of the <hi rend="italic">Bladder</hi> above
+          them, but alſo <lb/>with a force ſufficient to dilate the <hi rend="italic">Bladder</hi>,
+          <lb/>and circumambient parts of the <hi rend="italic">Abdomen</hi>; <lb/>the urine muſt
+          needs preſs (eſpecially when <lb/>the <hi rend="italic">Bladder</hi> is in a good degree
+          full) with a <lb/>conſiderable force againſt the orifices of the <lb/>excretory guts of
+          the <hi rend="italic">Kidnies</hi>; whereby the <lb/>progreſs of the urine being in ſome
+          degree <lb/>retarded, it has more time to depoſit its <pb n="226"/>
+          <lb/><hi rend="italic">Tartar</hi> in thoſe ſmall <hi rend="italic">Ducts</hi> in the <hi
+            rend="italic">papillæ</hi>, <lb/>where it is thought the firſt minute begin- <lb/>nings
+          of gravel are uſually formed; it being <lb/>in diſſections found there. </p>
+        <p rend="indent">
+          <lb/>7. <hi rend="italic">Q.</hi> Might not theſe inconveniencies be, <lb/>in ſome
+          meaſure, obviated, by lying as ſol- <lb/>diers do in their <hi rend="italic"
+          >Barracks</hi>, not in a hori- <lb/>zontal, but in a reclined poſture, with the head
+          <lb/>and upper parts of the body conſiderably <lb/>higher than the feet and lower parts? </p>
+        <p rend="indent">
+          <lb/>8. In this poſture the urine flowing more <lb/>eaſily down the <hi rend="italic"
+            >Ureters</hi>, would not only more <lb/>readily carry its tartarine recrement along with
+          <lb/>it; but its preſſure againſt the orifices of the <lb/>excretory <hi rend="italic"
+            >Ducts</hi> being thereby taken off, it <lb/>would more readily and in greater plenty be
+          <lb/>ſeparated from the blood; for which reaſon <lb/>it ſeems not improbable, that an
+          erect poſture <lb/>of the body may contribute ſomething, among <lb/>other cauſes, that are
+          with good reaſon uſual- <lb/>ly aſſigned, for the greater flow of urine in <lb/>the
+          day-time, than in the night. </p>
+        <p rend="indent">
+          <lb/>9. The care nature has taken to prevent <lb/>the urine's regurgitating from the
+          bladder, by <lb/>means of valves placed at the lower orifices <lb/>of the ureters, where
+          they diſcharge them- <lb/>ſelves into the bladder, ſhews the impor- <lb/>tance of the
+          urine's not preſſing on the ori- <pb n="227"/>
+          <lb/>fices of the excretory ducts of the <hi rend="italic">Pelvis</hi>. <lb/><hi
+            rend="italic">Ruyſch</hi> obſerved the kidnies of a ſheep ex- <lb/>tended to the ſize of
+          a pint, occaſioned by <lb/>ſtoppage of urine in the bladder; and doubt- <lb/>leſs, leſſer
+          degrees of preſſure on thoſe <lb/><hi rend="italic">Ducts</hi>, will <choice>
+            <corr>proportionally</corr>
+            <sic>propottionally</sic>
+          </choice> incommode their <lb/>ſecretions. </p>
+        <p rend="indent">
+          <lb/>10. And for the ſame reaſons, it muſt <lb/>needs be adviſeable, to take care to lie
+          alter- <lb/>nately, ſometimes on one ſide, and ſome- <lb/>times on the other: For ſince,
+          while we lie, <lb/>ſuppoſe on the left ſide, the excretory <lb/><hi rend="italic"
+            >Ducts</hi> and <hi rend="italic">Sinus</hi>'s of the kidney will be <lb/>in a low
+          depending poſture, for the recre- <lb/>ment of the urine to fix in them; while <lb/>at the
+          ſame time the excretory <hi rend="italic">Ducts</hi> and <lb/><hi rend="italic"
+          >Sinus</hi>'s of the right kidney will be in ſuch <lb/>a ſuperior poſture, as that the
+          ſeparated urine <lb/>freely flows from them, and <hi rend="italic">vice verſa</hi> when
+          <lb/>the right kidney is lowermoſt; therefore <lb/>it ſeems to be of no ſmall importance,
+          to <lb/>change ſides alternately, that whatever ſedi- <lb/>ment may have been ſettled in
+          the inferior <lb/>kidney, may, by inverting it, be waſhed out, <lb/>before it have time to
+          fix into ſmall ſand <lb/>and gravel, whence it too eaſily increaſes in- <lb/>to a larger
+          ſize. </p>
+        <pb n="228"/>
+        <p rend="indent">
+          <lb/>11. And for the ſame reaſon it ſeems ad- <lb/>viſable, that when we feel the firſt
+          begin- <lb/>nings of uneaſineſs in one kidney, we ſhould <lb/>take care to have that be,
+          for the moſt part, <lb/>the uppermoſt kidney, to try if haply, by that <lb/>means, the
+          firſt beginning ſand may be waſh- <lb/>ed away. </p>
+        <p rend="indent">
+          <lb/>12. It is to be ſuſpected, that the firſt be- <lb/>ginnings of <hi rend="italic"
+            >Calculus</hi> in infants, may be fre- <lb/>quently owing to their lying much upon their
+          <lb/>backs, as well as to their long retaining of <lb/>urine in the bladder while they
+          ſleep much. </p>
+        <p rend="indent">
+          <lb/>13. I am ſenſible, that theſe may ſeem to <lb/>ſome to be very trifling precautions;
+          yet for <lb/>the above-mentioned reaſons I cannot think <lb/>them ſuch; tho' I am far from
+          imagining, that <lb/>they will be an effectual preventive for all; <lb/>yet as they may
+          poſſibly be beneficial to ſome, <lb/>it will ſure be worth the while to make ſo <lb/>eaſy
+          a trial, in a caſe of ſo great importance <lb/>to our welfare. </p>
+        <p rend="indent">
+          <lb/>14. <hi rend="italic">Helmont</hi> ſays, he was once afraid of <lb/>lying on one ſide
+          conſtantly, leſt the urine <lb/>ſhould not paſs freely from the lower kidney <lb/>to the
+          ſuperior bladder, beſides what impedi- <lb/>ment it might ſuffer from the preſſure of the
+          <lb/>bowels. But he was eaſed, he ſays, of this <lb/>fear, when he found two perſons, who
+          lay <pb n="229"/>
+          <lb/>conſtantly, the one on the right, and the <lb/>other on the left ſide, and yet were
+          neither <lb/>of them troubled with <hi rend="italic">Calculi</hi> in thoſe lower
+          <lb/>kidnies, but one of them in the upper. But <lb/>notwithſtanding this and ſome other
+          like in- <lb/>ſtances that I have known, yet it ſeems from <lb/>the above-mentioned
+          reaſons, moſt likely <lb/>that the lower kidney ſhould be moſt liable <lb/>to breed ſand
+          and gravel. </p>
+        <p rend="indent">
+          <lb/>15. Many obſerving one kidney to be free <lb/>from <hi rend="italic">Calculi</hi>,
+          and the other not, concluded <lb/>it was owing to the different ſoundneſs of <lb/>the
+          kidnies; ſome alledging that the excre- <lb/>tory <hi rend="italic">Ducts</hi> in the
+          morbid kidney were too <lb/>narrow, others that it was too much relaxed; <lb/>which they
+          are found often to be: Which <lb/>relaxation may probably be owing to ſtop- <lb/>ping the
+          ſecretion of urine, and to a long <lb/>ſeries of pain from the <hi rend="italic"
+            >Calculus</hi>, not that <lb/>the relaxation was the antecedent cauſe, but <lb/>the
+          effect of the <hi rend="italic">Calculus</hi>. </p>
+        <p rend="indent">
+          <lb/>16. I have known ſome inſtances of per- <lb/>ſons who, in a fit of the gravel, have
+          thought <lb/>they have been relieved much the ſooner, <lb/>by kneeling on the floor, and
+          leaning with <lb/>their elbows in the ſeat of a chair: Tho <lb/>bowels in this depending
+          poſture not preſ- <lb/>ſing on the ureters, they can dilate the more, <pb n="230"/>
+          <lb/>to give a freer paſſage for any ſtone that is <lb/>in them to deſcend. </p>
+      </div>
+      <div type="section">
+        <head rend="sc align-center space">
+          <lb/>Experiment X. </head>
+        <p rend="space">
+          <lb/>1. <hi rend="dc(2)">W</hi>HEN we conſider the great quanti- <lb/>ties of air that are
+          in our food, <lb/>whether animal or vegetable, (without which <lb/>it would be no food)
+          and at the ſame time <lb/>reflect on the diſpoſition that moſt of the li- <lb/>quors which
+          we drink have to depoſit tar- <lb/>tarine concretions, we cannot wonder to ſee <lb/>the
+          urine of ſome perſons ſo much diſpoſed <lb/>to breed the <hi rend="italic">Calculus</hi>:
+          Which quality of the <lb/>urine ſeems to ariſe in a greater meaſure from <lb/>our drink,
+          than from our food; our food, <lb/>eſpecially that which is boiled, being more
+          <lb/>mucilaginous than the greateſt part of the <lb/>liquors which we drink, and
+          conſequently <lb/>leſs apt to depoſit its <hi rend="italic">Tartar</hi>: Of which con-
+          <lb/>jecture we have ſome further confirmation <lb/>from hence, <hi rend="italic"
+            >viz.</hi> that by comparing the <lb/>ſeveral airs generated by diſtillation, fermen-
+          <lb/>tation, or efferveſcence, from animal and ve- <lb/>getable ſubſtances, with the airs
+          generated from <lb/>their <hi rend="italic">Tartars</hi>, which are concretions moſtly
+          <lb/>from their fluid parts, we find that the <hi rend="italic">Tar- <lb/>tars</hi> yield
+          conſiderably more air, than the ſo- <pb n="231"/>
+          <lb/>lid ſubſtances of animals or vegetables: Which <lb/>ſhews the aptneſs of fluid
+          mediums for tar- <lb/>tarine concretions to be formed in. And <lb/>this holds true not
+          only in urine, and fer- <lb/>mented liquors, as wine, <hi rend="italic">&amp;c.</hi> but
+          the ſame <lb/>may be obſerved in moſt waters. Thus I <lb/>find upon trial, that the
+          incruſtations of pe- <lb/>trifying ſprings are of a tartarine nature; as <lb/>are alſo the
+          incruſtations, which adhere to <lb/>the bottom and ſides of veſſels in which wa- <lb/>ter
+          has been frequently boiled. </p>
+        <p rend="indent">
+          <lb/>2. For three hundred and eighteen grains, <lb/>or about half a cubic inch of
+          petrified in- <lb/>cruſtations from the <hi rend="italic">Cold Bath</hi> in <hi
+            rend="italic">Madingly</hi>
+          <lb/>wood near <hi rend="italic">Cambridge</hi> being diſtilled in <lb/>the iron retort,
+            <hi rend="italic">fig. 38. p. 266. Vol. <hi rend="roman">I.</hi></hi> there <lb/>aroſe
+          from it three hundred and twenty-ſix <lb/>cubic inches of air, of which fifty-four cubes
+          <lb/>loſt its elaſticity in ſix days. </p>
+        <p rend="indent">
+          <lb/>3. And from a hundred and ſix grains of <lb/>the ſame ſubſtance mingled with ſpirit
+          of <lb/>ſalt, there aroſe in fermentation ſeventy-two <lb/>cubes of air, all which in
+          ſeven days loſt its <lb/>elaſticity. </p>
+        <p rend="indent">
+          <lb/>4. And it was the ſame with the incruſta- <lb/>tion of a tea-kettle, in which
+          well-water had <lb/>been boiled, which well was dug below a <lb/><hi rend="italic"
+            >ſtratum</hi> of gravel into a blue clay: From <pb n="232"/>
+          <lb/><formula notation="fraction">3/4</formula>ths of a cubic inch of this incruſtation, I
+          <lb/>obtained, by diſtillation, three hundred and <lb/>twenty-four cubic inches of air, of
+          which <lb/>one hundred and eighty loſt their elaſticity <lb/>in four days. </p>
+        <p rend="indent">
+          <lb/>5. And from a like quantity of the much <lb/>harder incruſtation of the <hi
+            rend="italic">New River</hi> water <lb/>there aroſe, in diſtillation, two hundred and
+          <lb/>thirty-four cubes, of which in four days a <lb/>hundred and eight loſt their
+          elaſticity. </p>
+        <p rend="indent">
+          <lb/>6. The air ariſes much ſlower from theſe <lb/>ſubſtances in diſtillation, than from
+          the <hi rend="italic">Tar- <lb/>tar</hi> of wine, or from the <hi rend="italic">Calculus
+            Humanus</hi>; <lb/>for which reaſon a longer continuance of an <lb/>intenſe degree of
+          heat is requiſite. </p>
+        <p rend="indent">
+          <lb/>7. From three hundred and twenty-eight <lb/>grains, or about half a cubic inch of the
+          <lb/>powdered incruſtation of boiled well-water, <lb/>let fall on two cubes of ſpirit of
+          ſalt, there <lb/>aroſe eighty-one cubic inches of air, all which <lb/>loſt its elaſticity
+          in ſeven days. </p>
+        <p rend="indent">
+          <lb/>8. Three hundred and twenty-eight grains <lb/>of the laſt-mentioned incruſtation,
+          with two <lb/>cubes of oil of ſulphur, generated two hun- <lb/>dred and ſixteen cubes of
+          air, all which did <lb/>alſo loſe its elaſticity in ſeven days. </p>
+        <p rend="indent">
+          <lb/>9. The ſame with the like quantity of oil <lb/>of vitriol generated a hundred and
+          ninety- <pb n="233"/>
+          <lb/>eight cubes, of which a hundred and twenty- <lb/>four were reſorbed in ſeven days. </p>
+        <p rend="indent">
+          <lb/>10. A hundred and forty-ſix grains of in- <lb/>cruſtation of a tea-kettle from water
+          that <lb/>came from chalk at <hi rend="italic">Baſingſtoke</hi> in <hi rend="italic">Hamp-
+            <lb/>ſhire</hi>, generated with ſpirit of ſalt, a hun- <lb/>dred and twenty-ſix cubic
+          inches of air, of <lb/>which ſeventy-two loſt their elaſticity in ſuch <lb/>plenty from
+          the water, that in the ſpace of <lb/>two years the cruſt was half an inch thick. </p>
+        <p rend="indent">
+          <lb/>11. Hence we ſee, that theſe incruſtations <lb/>are of a tartarine nature: They
+          adhere alſo <lb/>like <hi rend="italic">Tartar</hi>, not only as ſediment to the bot-
+          <lb/>tom, but alſo to the ſides of veſſels: Whence <lb/>we may not unreaſonably conclude,
+          that <lb/>many waters which produce theſe, have prin- <lb/>ciples in them, which may
+          promote the <lb/>growth of the ſtone in the <hi rend="italic">Kidnies</hi> and <hi
+            rend="italic">Blad- <lb/>der</hi>. For which quality ſome waters are more
+          <lb/>remarkable than others, as thoſe of <hi rend="italic">Paris</hi>, <lb/>which ſo fur
+          up the pipes with theſe tartarine <lb/>incruſtations, that the water cannot paſs. And
+          <lb/>it is well known, that the inhabitants of <hi rend="italic">Pa- <lb/>ris</hi> are
+          more ſubject to the ſtone in the blad- <lb/>der, than thoſe of moſt other cities. An ar-
+          <lb/>gument that liquors contribute more to the <lb/>breeding of the <hi rend="italic"
+            >Calculus</hi> than our food. <pb n="234"/>
+          <lb/>Of which we have a further proof in the <lb/>inſtance of ſmall wines, which abound
+          with <lb/><hi rend="italic">Tartar</hi>, and which are too well known to <lb/>ſubject
+          thoſe who drink them to the ſtone <lb/>and gout. </p>
+      </div>
+      <gap reason="sampling" unit="pages" quantity="142"/>
+    </body>
+  </text>
+</TEI>

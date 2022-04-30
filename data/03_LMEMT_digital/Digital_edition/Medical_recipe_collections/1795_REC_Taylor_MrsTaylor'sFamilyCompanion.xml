@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LMEMT Corpus - Taylor: Mrs. Taylor's family companion</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>Margaret Taylor</persName>
+            </author>
+            <title type="main">Mrs. Taylor's family companion; or the whole art of cookery
+              display'd, in the newest and most easy method, being a collection of receipts to set
+              out a table cheap, Under the following Heads: Boiling Roasting Frying Broiling Stewing
+              Hashing Baking Ragouts Fricassees Made-Dishes Sauces Soups Puddings Pies Tarts Cakes
+              Cheesecakes Custards Syllabues Creams Jellis Pickling Preserving Candying Collaring
+              Potting Drying, &amp;c. To which are added, instructions for marketing, sundry bills
+              of fare, Directions for Clear-Starching, The Lady's Toilet, or Art of Preserving
+              Beauty, &amp;c. &amp;c. &amp;c. The whole calculated to assist the prudent mistress
+              and her servant, in providing the cheapest and most elegant Set of Dishes in the
+              various Departments of Cookery. By Mrs. Margaret Taylor, Late Cook from the Crown and
+              Anchor.</title>
+            <edition n="1"/>
+            <idno type="ESTC">T222842</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/T222842"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>London: printed for W. Lane, Leadenhall-Street, and sold by all other
+                  booksellers.</persName>
+              </publisher>
+              <date>1795</date>
+            </imprint>
+            <extent>
+              <measure type="format">12⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="2"/>
+              <measure type="count" commodity="body" unit="page" quantity="164"/>
+              <measure type="count" commodity="back" unit="page" quantity="2"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">British Library</orgName>
+            <idno type="ECCO">CW3309006130</idno>
+            <idno type="TCP">K130910.000 </idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Recipe collections"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text xml:lang="eng">
+    <front>
+      <div>
+        <figure>
+          <head rend="italic align-center space">
+            <lb/>The Corporation Feaſt OR <unclear>#####</unclear> the Roaſt Beef of Old England.
+          </head>
+        </figure>
+      </div>
+    </front>
+    <body>
+      <gap reason="sampling" unit="pages" quantity="149"/>
+      <div type="part">
+        <pb xml:id="page_144" n="150"/>
+        <head rend="size(1.25) align-center space">
+          <lb/>RECEIPTS in PHYSIC. </head>
+        <div type="section">
+          <head rend="italic align-center space">
+            <lb/>A good Electuary for an Aſthma. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">T</hi>AKE four cloves of garlic, roaſt them till <lb/>they are
+            ſoft; then bruiſe out the pulp, and <lb/>put it into ſix ſpoonfuls of honey, two
+            ſpoonfuls of <lb/>the powder of elecampane, liquorice, anniſeeds, <lb/>and
+            coriander-ſeeds, all finely powdered, of each <lb/>one ſpoonful and a half; mix all well
+            together, and <lb/>take the bigneſs of a nutmeg morning and night. </p>
+        </div>
+        <div type="section">
+          <head rend="italic align-center space">
+            <lb/>A Bolus for an Aſthma. </head>
+          <p rend="indent space">
+            <lb/>You muſt take a dram of ſperma-ceti, half a <lb/>ſcruple of lac-ſulphuris, volatile
+            ſalt of amber five <lb/>grains, conſerve of hips one ſcruple, balſam of Peru <lb/>ten
+            drops, and ſyrup of ſaffron ſufficient to make a <lb/>bolus. </p>
+        </div>
+        <div type="section">
+          <head rend="italic align-center">
+            <lb/>A Doſe for an Ague. </head>
+          <p rend="indent space">
+            <lb/>Give as much Virginia ſnake-root, dried and <lb/>powdered, as will lie upon a
+            ſhilling, in a glaſs of <lb/>ſherry or ſack, juſt before the cold fit begins; uſe
+            <lb/>this two or three times till the ague is gone. </p>
+        </div>
+        <pb xml:id="page_145" n="151"/>
+        <div type="section">
+          <head rend="italic align-center">
+            <lb/>To prevent a Relapſe of the Apoplexy. </head>
+          <p rend="indent space">
+            <lb/>Once every third day, at about four o'clock in <lb/>the morning, take two ſcruples
+            of Pilla Cochia the <lb/>greater, and ſleep after them; repeat it ſix times. </p>
+        </div>
+        <div type="section">
+          <head rend="italic align-center space">
+            <lb/>A ſneezing Powder for the Apoplexy. </head>
+          <p rend="indent space">
+            <lb/>Take one dram of the root of white hellebore, <lb/>two drams of the flowers of
+            lilies of the valley; <lb/>mix, and reduce them to a powder, and blow it up <lb/>the
+            noſtrils with a quill. </p>
+        </div>
+        <div type="section">
+          <head rend="italic align-center space">
+            <lb/>The following Gliſter is good in an Apoplexy, <lb/>Lethargy, Coma, or Palſy. </head>
+          <p rend="indent space">
+            <lb/>Get pellitory of Spain, half an ounce; coloquin- <lb/>tida (tied up in a rag, or
+            elſe it will gripe) half a <lb/>dram; rue, two handfuls; boil it in water to twelve
+            <lb/>ounces; ſtrain it, and add three ounces of crocus <lb/>metallorum; tincture of
+            caſtor, half an ounce; <lb/>ſalt gem, and oil of amber, of each two drams, and <lb/>mix
+            all together. </p>
+          <p rend="indent">
+            <lb/>If it ſtay not with the patient, it muſt be repeat- <lb/>ed; for it is no unuſual
+            thing in theſe caſes for <lb/>gliſters to ſlip away preſently, by reaſon that the
+            <lb/>inteſtines having their fibres benumbed, and para- <lb/>lytically relaxed, loſe
+            their retentive faculty. </p>
+        </div>
+        <div type="section">
+          <head rend="italic align-center space">
+            <lb/>A Drink for any Inward Bruiſe or Wound. </head>
+          <p rend="indent space">
+            <lb/>Take one handful of each of the following herbs, <lb/>viz. wormwood, comfrey,
+            throatwort, wood betony, <lb/>plantane, mugwort, bonewort, ſcabious, avens, wild
+            <lb/>honey-ſuckle, agrimony, bramble-buds, cinquefoil, <lb/>ſpearmint, ſanicle,
+            whitebottle, ribwort, daiſy-roots, <lb/>dandelion, bugloſs, and hauthorn-buds: Put to
+            theſe <lb/>herbs two quarts of white-wine, and a gallon of <pb xml:id="page_146" n="152"/>
+            <lb/>running water, and boil it till it is half waſted; <lb/>then ſtrain it, and add to
+            it a quart of honey; let <lb/>that boil in the liquor ſome time: When it is cold,
+            <lb/>bottle it very cloſe, and keep it for uſe. It will <lb/>keep for many years, and is
+            neceſſary for all fami- <lb/>lies; two or three ſpoonfuls of it to be taken morning
+            <lb/>and night. It is really good for fores, wounds, and <lb/>hurts, new or old, in men,
+            women, or children: <lb/>Its virtues of that kind are too long to mention. <lb/>It has
+            broken and brought away inward impoſthumes. </p>
+        </div>
+        <div type="section">
+          <head rend="italic align-center space">
+            <lb/>A certain Cure for the Bite of a Mad Dog, by <lb/>Dr. Mead. </head>
+          <p rend="indent space">
+            <lb/>Let the patient be blooded at the arm nine or <lb/>ten ounces: Then take of the
+            herb called in Latin, <lb/>Lichen Cereneus Terreſtris, in Engliſh, Aſh-colour'd
+            <lb/>Ground Liverwort, cleaned, dried, and powdered, <lb/>half an ounce; of black pepper
+            powdered, two <lb/>drams. Mix theſe well together, and divide the <lb/>powder into four
+            doſes, one of which muſt be taken <lb/>every morning faſting, for four mornings ſucceſ-
+            <lb/>ſively, in half a pint of cow's milk warm. After <lb/>theſe four doſes are taken,
+            the patient muſt go into <lb/>the cold-bath, or a cold ſpring or river, every morn-
+            <lb/>ing faſting, for a month: He muſt be dipt all over, <lb/>but not ſtay in (with his
+            head above water) longer <lb/>than half an minute, if the water be very cold. <lb/>After
+            this he muſt go in three times a week for a <lb/>fortnight longer. </p>
+          <p rend="indent">
+            <lb/>N. B. The Lichen is a very common herb, and <lb/>grows generally in ſandy and
+            barren ſoils all over <lb/>England. The right time to gather them is in the <lb/>months
+            of October or November. </p>
+          <p rend="indent">
+            <lb/>Some adviſe, that as ſoon as poſſibly it can be <lb/>done, the wound may be burnt
+            with a hot iron; by <lb/>which, part of the venom may be exhaled, and the <lb/>
+            <gap reason="illegible"/> prevented from ſpreading itſelf any farther, <pb
+              xml:id="page_147" n="153"/>
+            <lb/>which good effect is very likely to follow from the <lb/>purſing up the ſmall
+            veſſels, and the coagulation of <lb/>the adjacent fluids. </p>
+        </div>
+        <div type="section">
+          <head rend="italic align-center space">
+            <lb/>A Plaiſter for the Breaſt, to diſſolve curdled Milk. </head>
+          <p rend="indent space">
+            <lb/>Take ſperma-ceti, one ounce; white wax, two <lb/>ounces; galbanum, ſtrained with
+            vinegar, half an <lb/>ounce; oil of elder, as much as will be ſufficient to <lb/>make a
+            plaiſter; it is proper for all tumours of the <lb/>breaſt, occaſioned by the curdling of
+            the milk, and <lb/>is good in white ſoft ſwellings, or the evil in the <lb/>breaſt, or
+            any hard tumour in any part of the body. </p>
+        </div>
+        <div type="section">
+          <head rend="italic align-center space">
+            <lb/>A Plaiſter to break a Sore-breaſt. </head>
+          <p rend="indent space">
+            <lb/>Seeth a lily-root and piece of leaven in milk <lb/>till the root be ſoft; lay it
+            plaiſter-wiſe to the part, <lb/>morning and evening, as hot as you can bear it. </p>
+        </div>
+        <div type="section">
+          <head rend="italic align-center space">
+            <lb/>A Cerecloth for Swellings in the Breaſt. </head>
+          <p rend="indent space">
+            <lb/>Make a cerecloth of oil of linſeed and yellow <lb/>wax, and apply it to the part,
+            firſt anointing it with <lb/>linſeed-oil. </p>
+        </div>
+        <div type="section">
+          <head rend="italic align-center space">
+            <lb/>To heal a Breaſt when broken. </head>
+          <p rend="indent space">
+            <lb/>Take a good handful of parſley, and a good ſlice <lb/>of the fat of bacon, and
+            ſtamp them together; put <lb/>to it the yolk of an egg, and ſpread it plaiſter-wiſe
+            <lb/>upon a cloth, and lay it upon the breaſt. </p>
+        </div>
+        <div type="section">
+          <head rend="italic align-center space">
+            <lb/>An excellent and tried Remedy for Burns. </head>
+          <p rend="indent space">
+            <lb/>Take two parts of the oil of walnuts, and one of <lb/>honey; mix them well together
+            over a gentle fire, <lb/>and when they are thoroughly incorporated, dip a <lb/>feather
+            in the mixture, and anoint therewith the <pb xml:id="page_148" n="154"/>
+            <lb/>part affected, ſo as the ointment may touch it im- <lb/>mediately, and then ſtrew
+            on it ſome powder of <lb/>ceterach, or ſpleen-wort, and keep the part quiet, <lb/>and
+            defend it from the air. </p>
+        </div>
+        <div type="section">
+          <head rend="italic align-center space">
+            <lb/>For Burns and Stenching of Blood. </head>
+          <p rend="indent space">
+            <lb/>For ſtenching of blood, there are but few medi- <lb/>cines which exceed the
+            colcother <unclear>o</unclear>f vitriol, whether <lb/>waſhed and freed from its ſalt, or
+            not waſhed. It <lb/>is but a common thing, but will do more than a <lb/>thouſand much
+            more enobled. </p>
+        </div>
+        <div type="section">
+          <head rend="italic align-center space">
+            <lb/>A Family Ointment for Chilblains, Kibes, <lb/>Whitloes, Felons, &amp;c. </head>
+          <p rend="indent space">
+            <lb/>Take May butter, ſeven ounces; wax, reſin, of <lb/>each four ounces; crude honey,
+            ten drams; wheat <lb/>flour, ſix drams: Mix them, and ſpread it upon <lb/>leather; apply
+            it to the part affected; change it <lb/>twice a day till it begins to grow well. It alſo
+            <lb/>warms, looſens, diſcuſſes, cleans, <unclear>r</unclear>ipens, and digeſts, <lb/>and
+            is of known ſervice in the ſpeedy curing of <lb/>felons and whitloes in the fingers; it
+            is of ſingular <lb/>uſe to abate inflammations, and bring ſwellings to <lb/>ripeneſs and
+            maturity. </p>
+        </div>
+        <div type="section">
+          <head rend="italic align-center space">
+            <lb/>For the Cholic. </head>
+          <p rend="indent space">
+            <lb/>Slice one ounce of the very beſt rhubarb you can <lb/>get into a quart of ſack; let
+            it infuſe twelve hours <lb/>at leaſt; then drink four large ſpoonfuls, and fill
+            <lb/>your bottle up again: Drink this quantity once a <lb/>day, for ſix weeks or two
+            months, at leaſt. When <lb/>your rhubarb has loſt its virtue, you muſt put freſh.
+            <lb/>This has cured ſome people, who could not find eaſe <lb/>in opiates, nor the Bath;
+            it muſt be conſtantly con- <lb/>tinued till the bowels and blood are ſtrengthened:
+            <lb/>It has done ſuch marvellous cures, even where lau- <pb xml:id="page_149" n="155"/>
+            <lb/>danum has failed, that it cannot be ſufficiently <lb/>commended. </p>
+        </div>
+        <div type="section">
+          <head rend="italic align-center space">
+            <lb/>An infallible Cure for a Conſumption. </head>
+          <p rend="indent space">
+            <lb/>Take half a pound of raiſins of the ſun ſtoned, a <lb/>quarter of a pound of figs,
+            a quarter of a pound of <lb/><unclear>ho</unclear>ney, half an ounce of Lucatella's
+            balſam, half an <lb/>ouncce of powder of ſteel, half an ounce of flour of
+              <lb/><unclear>ele</unclear>campane, a grated nutmeg, one pound of double-
+              <lb/><unclear>re</unclear>fined ſugar, pounded: Shred and pound all theſe
+              <lb/><unclear>to</unclear>gether in a ſtone mortar; pour into it a pint of
+              <lb/><unclear>sal</unclear>lad oil by degrees; eat a bit of it four times a
+              <lb/><unclear>day</unclear>, the bigneſs of a nutmeg; every morning drink
+              <lb/><unclear>a g</unclear>laſs of old Malaga ſack, with the yolk of a new- <lb/>
+            <gap reason="illegible"/>d egg, and as much flour of brimſtone as will lie
+              <lb/><unclear>up</unclear>on a ſix-pence; the next morning as much flour
+              <lb/><unclear>of</unclear> elecampane, alternately. </p>
+        </div>
+        <div type="section">
+          <head rend="italic align-center space">
+            <lb/>To cure a Cough and Shortneſs of Breath. </head>
+          <p rend="indent" n="3">
+            <lb/>Take elecampane-roots, boil them very tender, <lb/>
+            <gap reason="illegible"/> pulp them fine through a ſieve; take their
+              <lb/><unclear>we</unclear>ight in the pulp of coddled pippins; if you have
+              <lb/><unclear>a p</unclear>ound weight of both together, boil it in a pint
+              <lb/><unclear>and</unclear> half of clarified honey for half an hour; then
+              <lb/><unclear>tak</unclear>e one ounce of powder of liquorice, and as much
+              <lb/><unclear>pow</unclear>der of anniſeeds; mix all well together, and
+              <lb/><unclear>tak</unclear>e a dram morning and night, and in the after- <lb/>noon. It
+            is an excellent medicine in an aſthma. </p>
+        </div>
+        <div type="section">
+          <head rend="italic align-center space">
+            <lb/>For a Hooping Cough, very good. </head>
+          <p rend="indent space">
+            <lb/>When you have got a quart of ſpring-water, put <lb/><unclear>in</unclear> it a
+            large handful of chin-cups that grow upon <lb/>
+            <gap reason="illegible"/>, and a large handful of unſet hyſſop; boil it <lb/>
+            <gap reason="illegible"/> pint, ſtrain it off, and ſweeten it with ſugar- <lb/>
+            <gap reason="illegible"/>. Let the child, as oft as it coughs, take two
+              <lb/><unclear>ſpoo</unclear>nfuls at a time. </p>
+        </div>
+        <pb xml:id="page_150" n="156"/>
+        <div type="section">
+          <head rend="italic align-center">
+            <lb/>An excellent Powder for Convulſion Fits. </head>
+          <p rend="indent space">
+            <lb/>Get two drams of piony roots; miſletoe of the <lb/>oak, one dram; prepared pearl,
+            white amber pre- <lb/>pared, and coral prepared, of each half a dram<unclear>;</unclear>
+            <lb/>bezoar, two grains, and five leaves of gold; make <lb/>all theſe into a very fine
+            powder, and give as much <lb/>of it as will lie on a three-pence to a child of a
+            <lb/>month old, and proportionable to a bigger; mix <lb/>it up with a ſpoonful of
+            black-cherry water, which <lb/>ſweeten with the ſyrup of black cherries: Take it
+            <lb/>three days together, at every change of the moon <lb/>to prevent returns. </p>
+        </div>
+        <div type="section">
+          <head rend="italic align-center space">
+            <lb/>A Cure for the Cramp. </head>
+          <p rend="indent space">
+            <lb/>Take a handful of the herb called perriwinkle <gap reason="illegible"/>
+            <lb/>ſome of it bears a blue flower, and ſome white <gap reason="illegible"/>
+            <lb/>and alſo take a good handful of roſemary tops, p<unclear>ut</unclear>
+            <lb/>them into a pewter diſh, and ſet them upon coals <gap reason="illegible"/>
+            <lb/>dry them, and turn them very often, and when they <lb/>are very hot, lay them upon
+            the place that is <gap reason="illegible"/>
+            <lb/>taken with the cramp, and bind a cloth upon the <gap reason="illegible"/>
+            <lb/>when you go to bed, and this will help you; take <gap reason="illegible"/>
+            <lb/>off in the morning, and lay on freſh at night. </p>
+        </div>
+        <div type="section">
+          <head rend="italic align-center space">
+            <lb/>A good Remedy for the Corns. </head>
+          <p rend="indent space">
+            <lb/>Get the yeaſt of beer, not ale, and ſpreading <gap reason="illegible"/>
+            <lb/>upon a linen rag, or other cloth, apply it to t<unclear>he</unclear>
+            <lb/>part affected, renewing it once every day. </p>
+        </div>
+        <div type="section">
+          <head rend="italic align-center space">
+            <lb/>An excellent Purging Ale for the Dropſy. </head>
+          <p rend="indent space">
+            <lb/>Sena, four ounces; ſaſſafras and tartar, of ea<unclear>ch</unclear>
+            <lb/>two ounces; jalap and liquorice, of each one oun<unclear>ce;</unclear>
+            <lb/>rhubarb, coriander, and anniſeed, of each o<unclear>ne</unclear>
+            <lb/>ounce; polypodium, eight ounces; broom aſh<unclear>es</unclear>
+            <lb/>one quart, and one ounce of cloves; put all i<unclear>n a</unclear>
+            <pb xml:id="page_151" n="157"/>
+            <lb/>bag, with ſome little weight to ſink it: Take ſca- <lb/>bious and agrimony, of each
+            three handfuls; of <lb/>the roots of daneſwort, one handful; raiſins of the <lb/>ſun
+            ſtoned, one pound, with a little ginger: Put <lb/>theſe ingredients into ſweet ale-wort,
+            when you put <lb/>in your hops, and let all boil together half an hour; <lb/>then pour
+            it ſcalding hot on your bag of drugs: <lb/>When it is cold enough, ſet it to work with
+            yeaſt: <lb/>When it has done working, ſtop it up for twelve <lb/>days, or a fortnight:
+            Hang the bag of drugs in <lb/>the veſſel. Drink a large glaſs of this in the
+            <lb/>morning, and at four in the afternoon, unleſs you <lb/>find it works too much at
+            firſt; if ſo, leſſen your <lb/>doſe; but take it daily, till you have taken all. </p>
+        </div>
+        <div type="section">
+          <head rend="italic align-center space">
+            <lb/>Another Medicine for the Dropſy. </head>
+          <p rend="indent space">
+            <lb/>Take broom, and burn it by itſelf in a clean <lb/>oven, ſhift the aſhes from the
+            ſtalks and coals that <lb/>are not quite conſumed, and put two full pounds of <lb/>theſe
+            aſhes into a quart bottle; pour on old hock <lb/>till the bottle is up to the neck; take
+            care it is not <lb/>too full; if it has no room to ferment, it will be apt <lb/>to ſplit
+            the bottle: Digeſt it in hot aſhes by the fire, <lb/>or in the ſun, and ſhake it often;
+            when it has ſtood <lb/>three or four days, pour off a quart of the clear lye; <lb/>if it
+            is perfectly fine, decant again and again till it <lb/>is ſo; fill up your bottle again
+            with hock, and do <lb/>as before, till the ſtrength of the aſhes be out. <lb/>Drink this
+            firſt, and at four or five in the afternoon; <lb/>continue it for ſome time, and it will
+            carry off the <lb/>dropſical humours. While you take it, let the meat <lb/>you eat be
+            dry roaſted, and your drink ſtrong ale or <lb/>wine. </p>
+        </div>
+        <div type="section">
+          <head rend="italic align-center space">
+            <lb/>To cure Deafneſs. </head>
+          <p rend="indent space">
+            <lb/>Take an equal quantity of good Hungary water, <lb/>and oil of bitter almonds; beat
+            them together, and <pb xml:id="page_152" n="158"/>
+            <lb/>drop three drops in the ears going to bed; ſtop them <lb/>with black
+              <unclear>wo</unclear>ol, and repeat this nine nights at leaſt. </p>
+        </div>
+        <div type="section">
+          <head rend="italic align-center space">
+            <lb/>For a Pain in the Ear. </head>
+          <p rend="indent space">
+            <lb/>Get the juice of mountain ſage, oil of fennel, <lb/>oil of bitter almonds, and oil
+            of olives, an equal <lb/>quantity of each, and mix them well
+              together<unclear>;</unclear>
+            <lb/>drop into the pained ear three drops for three nigh<unclear>ts</unclear>. <lb/>It
+            will eaſe and draw out any impoſthume, if that <lb/>be the cauſe. </p>
+        </div>
+        <div type="section">
+          <head rend="italic align-center space">
+            <lb/>For an Earwig having got into the Ear. </head>
+          <p rend="indent space">
+            <lb/>Get rue, and beat it in a mortar; then ſtrain o<unclear>ff</unclear>
+            <lb/>the juice, and put it into the ear; then lie do<unclear>wn</unclear>
+            <lb/>to reſt on the contrary ear, and when you awake <lb/>the juice will come out, and
+            the ear-wig will <unclear>be</unclear>
+            <lb/>dead. </p>
+          <p rend="indent">
+            <lb/>The juice of wormwood, of ſouthernwood, a<unclear>nd</unclear>
+            <lb/>rue, an equal quantity put into the ear, will all <lb/>kill any vermin that has got
+            into it. The ſtems <unclear>of</unclear>
+            <lb/>coffee have often relieved a deafneſs that has been <lb/>occaſioned by the wax
+            becoming too hard, which <lb/>they will ſoften and ſet free. </p>
+        </div>
+        <div type="section">
+          <head rend="italic align-center space">
+            <lb/>Dr. Willis's Specific for the Epilepſy. </head>
+          <p rend="indent space">
+            <lb/>Take the roots of male piony, dried and powder- <lb/>ed, from one dram to two or
+            three twice a day, <gap reason="illegible"/>
+            <lb/>the following tincture: </p>
+          <p rend="indent">
+            <lb/>Take leaves of miſleto of the oak, two drams, <lb/>piony roots ſliced, half an
+            ounce; caſtor, a dram<unclear>;</unclear>
+            <lb/>let them be put in a cloſe veſſel with betony water <lb/>or ſimple water and
+            white-wine, of each one pound<unclear>;</unclear>
+            <lb/>ſalt of miſleto of the oak, or the common miſleto <lb/>two drams; digeſt them in a
+            cloſe veſſel, in a ſand <lb/>heat for two days. Take three ounces with the <lb/>powder
+            above-mentioned. </p>
+        </div>
+        <pb xml:id="page_153" n="159"/>
+        <div type="section">
+          <head rend="italic align-center">
+            <lb/>A Draught for the Epilepſy. </head>
+          <p rend="indent space">
+            <lb/>Get powder of wild valerian root, one dram and <lb/>a half; penny-royal water, and
+            black-cherry water, <lb/>of each one ounce and a half; ſyrup of pionies, <lb/>two drams;
+            mix them, and make a draught. </p>
+        </div>
+        <div type="section">
+          <head rend="italic align-center space">
+            <lb/>A Drink for the King's Evil and Cancer. </head>
+          <p rend="indent space">
+            <lb/>Take guaiacum, one ounce; ſaſſafras, ſarſapa- <lb/>rilla, ſharp-pointed dock, and
+            daiſy-roots, of each <lb/>half an ounce; arch-angel flowers, and millepedes, <lb/>of
+            each two large ſpoonfuls; ground-ivy, and herb- <lb/>Robert, of each one handful: Bruiſe
+            and ſhred all <lb/>theſe ingredients, and put them to ſteep one night in <lb/>three
+            pints of good clear new ale; ſtrain it, and <lb/>drink no other drink for ſix weeks,
+            ſpring and fall. <lb/>You may do a larger quantity at a time for man or <lb/>woman; but
+            you muſt not infuſe too much at a <lb/>time, becauſe the herbs are apt to change it; at
+            <lb/>the ſame time, if the ſwellings are painful, anoint <lb/>with juice of rue,
+            prepared as follows: </p>
+          <p rend="indent space">
+            <lb/>Take two ſpoonfuls of juice of rue, as much ſal- <lb/>lad-oil, beat them well
+            together; then ſet it over <lb/>the fire, and let it boil ſlowly half an hour; add
+            <lb/>two ounces of bees-wax, let it boil a little with <lb/>this: Pour it out, and keep
+            it cloſe covered. It is <lb/>an incomparable ointment to uſe all the time you <lb/>take
+            the diet-drink. </p>
+        </div>
+        <div type="section">
+          <head rend="italic align-center space">
+            <lb/>The red Powders for Fevers, Small-Pox, or <lb/>Surſeits. </head>
+          <p rend="indent space">
+            <lb/>Take of carduus, rue, red ſage, lilies of the val- <lb/>ley, tormentil, pimpernel,
+            dragon, betony, angeli- <lb/>ca, cabious, ſpeedwell, of each one handful; worm- <pb
+              xml:id="page_156" n="160"/>
+            <lb/>wood, half a handful; agrimony, verum, of each <lb/>a quarter of a handful: Shred
+            the herbs very ſmall, <lb/>and infuſe them in two quarts of white-wine, in a <lb/>jug,
+            which you muſt ſtop very cloſe, and ſet nine <lb/>days in the ſun: Then ſtrain the wine
+            from the <lb/>herbs, and infuſe the ſame quantity of freſh herbs in <lb/>the ſame wine;
+            let it ſtand as before nine days <lb/>more: Then take a pound of bole-armoniac, finely
+            <lb/>powdered, and put as much of the wine (after it is <lb/>a ſecond time preſſed out)
+            as the powder will take <lb/>up, and ſet it in the ſun to dry; and as it dries up,
+            <lb/>put in more of the wine, ſtirring it two or three <lb/>times a day till all the
+            wine is dried up in the <lb/>powder, ſo as to be fit to work like paſte: Then <lb/>put
+            to it of diacodium and mithridate, one ounce <lb/>each; half an ounce of cochineal; of
+            powder of <lb/>red coral and prepared ſaffron, an ounce each; forty <lb/>grains of
+            bezoar; of powder of crabs-eyes, burnt <lb/>hartſhorn, and prepared pearl, an ounce
+            each: <lb/>Mix theſe in the laſt wetting, and work them all to- <lb/>gether; make them
+            into balls, when well mixed, <lb/>and dry them in the ſun. Take forty or fifty grains
+            <lb/>of this for a doſe. Drink mace ale after it. </p>
+        </div>
+        <div type="section">
+          <head rend="italic align-center space">
+            <lb/>A cooling Drink in a Fever or Pleuriſy. </head>
+          <p rend="indent space">
+            <lb/>Put an ounce of pearl-barley into three pints of <lb/>water, ſhift it twice; beat
+            half an ounce of almonds, <lb/>with a bit of lemon-peel, and a ſpoonful or two of
+            <lb/>the water; when they are very fine, waſh the al- <lb/>mond-milk through your ſieve,
+            with three pints of <lb/>barley-water; in the laſt boiling of this you may <lb/>put
+            melon-ſeeds and pumpion-ſeeds, of each half an <lb/>ounce; white poppy-ſeeds, half a
+            dram; when theſe <lb/>are well boiled, mix the liquor with the almonds, <lb/>and ſtrain
+            all; ſweeten it with ſyrup of lemons for a <lb/>fever, or ſyrup of maiden-hair, and
+            drink four <lb/>ounces every three or four hours. </p>
+        </div>
+        <pb xml:id="page_157" n="161"/>
+        <div type="section">
+          <head rend="italic align-center">
+            <lb/>A ſpeedy Remedy for Fits of Vomiting. </head>
+          <p rend="indent space">
+            <lb/>Having got a large nutmeg, grate one half of <lb/>it, and toaſt the flat ſide of
+            the other 'till the oily <lb/>part begins to ſweat out; then clap it to the pit of
+            <lb/>the patient's ſtomach as hot as can be endured, and <lb/>keep it on whilſt it
+            continues warm, and then, if <lb/>need be, put on another. This is recommended <lb/>by
+            the famous Mr. Boyle. </p>
+        </div>
+        <div type="section">
+          <head rend="italic align-center space">
+            <lb/>To ſtop a Vomiting. </head>
+          <p rend="indent space">
+            <lb/>Take lemon-juice, half an ounce; ſalt of worm- <lb/>wood a ſcruple; and a little
+            white ſugar: Mix, and <lb/>make a Draught, to be repeated two or three times <lb/>a day.
+          </p>
+        </div>
+        <div type="section">
+          <head rend="italic align-center space">
+            <lb/>To ſtop a Vomiting, and ſtrengthen the Stomach. </head>
+          <p rend="indent space">
+            <lb/>Take ſpearmint, barley, and cinnamon waters, <lb/>of each three ounces; plegue
+            water, two ounces; <lb/>ſalt of wormwood, a dram; lemon-juice, one ounce; <lb/>three
+            leave of gold; confection of hyacinth, two <lb/>drams; ſyrup of red poppies, an ounce
+            and a half: <lb/>Mix, and give four ſpoonfuls every four hours, <lb/>ſhaking the phial.
+          </p>
+        </div>
+        <div type="section">
+          <head rend="italic align-center space">
+            <lb/>For Vomiting and violent Looſeneſs in a Child. </head>
+          <p rend="indent space">
+            <lb/>Bleed three times, and apply a cupping-glaſs <lb/>to the navel. Take the red tops
+            of gil-go-by-the- <lb/>ground, dry them, and mix them with honey: It <lb/>is good for
+            any hoarſeneſs: The tops are to be had <lb/>in May, June, or July. </p>
+        </div>
+        <div type="section">
+          <head rend="italic align-center space">
+            <lb/>A good Powder for Worms. </head>
+          <p rend="indent space">
+            <lb/>Take an ounce of worm-ſeed, and half an ounce <lb/>of rhubarb, beat both to a fine
+            powder, and take a <pb xml:id="page_158" n="162"/>
+            <lb/>quarter of an ounce of prepared coral; mix all <lb/>three together, and let the
+            child take as much of <lb/>this as will lie on a ſhilling, for three mornings
+            <lb/>together, drinking a ſmall glaſs of warm ale after <lb/>each doſe. </p>
+        </div>
+        <div type="section">
+          <head rend="italic align-center">
+            <lb/>A Receipt to cure Worms. </head>
+          <p rend="indent space">
+            <lb/>Bruiſe a pound of worm-ſeed, and put it into a <lb/><choice>
+              <corr>large</corr>
+              <sic>arge</sic>
+            </choice> ſtill of ſpearmint, and draw it off as long as <lb/>it runs good: Let the
+            child drink three ſpoonfuls <lb/>of this nine mornings running. </p>
+        </div>
+        <div type="section">
+          <head rend="italic align-center space">
+            <lb/>To ſtanch Blood in a Wound. </head>
+          <p rend="indent space">
+            <lb/>Take an ounce of copperaſs, made into fine pow- <lb/>der, and half an ounce of bole
+            armoniac powdered, <lb/>and mingle them together, and caſt ſome of this <lb/>powder into
+            the wound, and it will ſtaunch the <lb/>blood. </p>
+        </div>
+        <div type="section">
+          <head rend="italic align-center">
+            <lb/>For Wounds in the Head. </head>
+          <p rend="indent space">
+            <lb/>If theſe are attended with contuſion, it may be <lb/>proper to ſhave the adjoining
+            parts. Some make <lb/>uſe only of warm wine, oil, vinegar, or oxycrate, <lb/>to
+            embrocate them, or rub in. If the wound be <lb/>recent, ſimple, and made by a ſharp
+            inſtrument, <lb/>it may be immediately ſtitched up, and covered <lb/>with Emplaſtr. de
+            Minio; and this method is <lb/>ſometimes ſucceſsful, even tho' the skull itſelf be
+            <lb/>cut, provided no ill ſymptoms indicate a contrary <lb/>method. </p>
+        </div>
+      </div>
+      <gap reason="sampling" unit="pages" quantity="2"/>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,1003 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LMEMT Corpus - Thompson: The poor man's medicine chest</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>John-Weeks Thompson</persName>
+            </author>
+            <title type="main">The poor man's medicine chest: or, Thompson's box of antibilious
+              alterative [sic] pills. With a few brief remarks on the stomach; ... By John-Weeks
+              Thompson, ... </title>
+            <edition n="1"/>
+            <idno type="ESTC">T121104</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/T121104"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>London: printed for the author; and sold by J. and J. Taylor,
+                  1791.</persName>
+              </publisher>
+              <date>1791</date>
+            </imprint>
+            <extent>
+              <measure type="format">8⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="5"/>
+              <measure type="count" commodity="body" unit="page" quantity="36"/>
+              <measure type="count" commodity="back" unit="page" quantity="8"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">British Library</orgName>
+            <idno type="ECCO">CW3308844035</idno>
+            <idno type="TCP">K096874.000 </idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Book on a specific topic: medicine"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text xml:lang="eng">
+    <front>
+      <div>
+        <pb xml:id="page_2"/>
+        <head rend="align-center">
+          <lb/>TO THE <lb/>RIGHT HONOURABLE <lb/><hi rend="size(1.75)">THE LORD RAWDON</hi>. </head>
+        <lb/>
+        <salute>MY LORD, </salute>
+        <p rend="indent">
+          <lb/><hi rend="dc(2)">T</hi>HE very ſlight perſonal knowledge <lb/>which I have of your
+          Lordſhip could <lb/>not have juſtified me in the liberty I <lb/>take in prefixing to this
+          moſt humble <lb/>little work your Lordſhip's name, had <lb/>I not been well informed, by
+          gentlemen <lb/>of the higheſt integrity and honour, <pb xml:id="page_3" n="vi"/>
+          <lb/>who are perfectly acquainted with your <lb/>Lordſhip, of your uncommon philan-
+          <lb/>thropy and goodneſs of heart—General <lb/>report, my Lord, has indeed ſaid ſuf-
+          <lb/>ficient in your praiſe to entitle you to <lb/>the world's approbation — But when
+          <lb/>theſe were ſigned, ſealed, and delivered <lb/>to me, by the very reſpectable charac-
+          <lb/>ters before mentioned, it became a moſt <lb/>complete ratification of your ineſtima-
+          <lb/>ble worth. </p>
+        <p rend="indent">
+          <lb/>It is not, then, my Lord, to your <lb/>rank in life that I wiſh here to pay my
+          <lb/>reſpects, but to thoſe virtues which <lb/>adorn your mind, giving to nobility
+          <lb/>that true and unſading luſtre which <lb/>can alone render it complete, and which
+          <lb/>have ſo eminently diſtinguiſhed your <pb xml:id="page_4" n="vii"/>
+          <lb/>Lordſhip as the hero in the field, the <lb/>real and independent patriot in the ſe-
+          <lb/>nate, in private life the friend to merit, <lb/>and inceſſant benefactor to the poor! </p>
+        <p rend="indent">
+          <lb/>It is theſe, and theſe alone, my Lord, <lb/>that I admire — and had they been
+          <lb/>placed in any other well-formed boſom <lb/>of inferior rank in life to your Lordſhip
+          <lb/>I ſhould equally have paid my tribute <lb/>to them, <hi rend="italic"><q
+              rend="quotes">The widow's mite;</q></hi> con- <lb/>vinced that the offering, however
+          ſmall, <lb/>that breathes good will towards man- <lb/>kind cannot fail of being acceptable
+          to <lb/>one of your Lordſhip's exalted charac- <lb/>ter: and if in the ſubſequent pages I
+          <lb/>ſhould be ſo happy as to have given any <lb/>hints that prove of ſervice to my fellow
+          <lb/>citizens, &amp;c., and be found worthy of <pb xml:id="page_5" n="viii"/>
+          <lb/>your Lordſhip's approbation, it will be <lb/>of no little ſatisfaction to a perſon
+          who <lb/>has the honour to ſubſcribe himſelf, </p>
+        <signed rend="indent hanging">
+          <lb/>With the moſt profound reſpect, <lb/><hi rend="sc">My Lord</hi>, <lb/>Your Lordſhip's
+          moſt obedient <lb/>And moſt humble Servant, <lb/>J. W. THOMPSON. </signed>
+      </div>
+    </front>
+    <body>
+      <div>
+        <pb xml:id="page_6"/>
+        <head rend="align-center">
+          <lb/>TO THE <lb/><hi rend="size(2)">PUBLIC.</hi>
+        </head>
+        <p rend="indent">
+          <lb/><hi rend="dc(2)">T</hi>HE title of this pamphlet required that it <lb/>ſhould be
+          written in the plaineſt and moſt ſimple <lb/>language, which I have endeavoured to do by
+          <lb/>avoiding as much as poſſible all technical words, a <lb/>few excepted, (and thoſe by
+          no means eſſential to <lb/>many whether they underſtand them or not, as they <lb/>cannot
+          be embarraſſed for want of knowing them in <lb/>the uſe of the pills, the directions for
+          which are <lb/>clear and intelligible to the loweſt capacity) but <lb/>what may be found
+          in an Engliſh dictionary, to <lb/>which ſuch as read can have recourſe, and they <lb/>who
+          are ſo unfortunate as not to be able will re- <lb/>ceive information from thoſe that can,
+          which I am <lb/>certain every truly generous mind will be happy to <lb/>give them. For the
+          preceding reaſons the Author <lb/>truſts that ſuch recapitulations as the judicious <pb
+            xml:id="page_7" n="2"/>
+          <lb/>reader meets with in the courſe of this work will <lb/>be excuſed, his wiſh being to
+          render every thing <lb/>reſpecting the medicine it treats of, &amp;c., as plain <lb/>and
+          eaſy as poſſible to the common reader. </p>
+        <p rend="indent">
+          <lb/>The Antibilious Alterative Pills is a moſt in- <lb/>comparable remedy for all
+          indiſpoſitions of the <lb/>ſtomach and bowels ariſing <hi rend="italic">from bile,</hi>
+          foulneſs, in- <lb/>digeſtion, worms, acidity, ardor ventriculi, (or <lb/>heartburn, ſo
+          called) predigeſtion, <hi rend="italic">flatulency, (that <lb/>many headed monſter),</hi>
+          coſtiveneſs, &amp;c., &amp;c., which <lb/>laſt often produces ſeveral of the foregoing, as
+          well <lb/>as many other, complaints, <hi rend="italic">owing to the feces or
+            <lb/>excrement becoming highly putrid from too long retention <lb/>in the body,</hi>
+          thereby forming a nidus, or neſt of <lb/>prediſpoſing putrefaction, which meeting with ma-
+          <lb/>lignant exhalations in the air, or thoſe ariſing from <lb/>infected perſons or
+          places, &amp;c., &amp;c., &amp;c., the moſt <lb/>dreadful fevers, agues, inflammatory
+          diſorders of <lb/>various kinds, ſcurvy, eryſipelas or St. Anthony's <lb/>fire,
+          rheumatiſm, leproſy, jaundice, cruptive com- <lb/>plaints, and numberleſs others, are
+          occaſioned: <lb/>hence ariſes the neceſſity of paying the moſt reli- <lb/>gious attention
+          to the firſt paſſages of the body, <lb/>which the able and judicious phyſician never fails
+          to <lb/>make the firſt object of his conſideration. The <lb/><hi rend="italic"
+            >ſtomach</hi> is the grand reſervoir which receives and <lb/>prepares whatever is to
+          ſupport and nouriſh the <lb/>whole machine, conſequently if <hi rend="italic">that</hi> is
+          out of re- <lb/>pair, or diſeaſed from any of the before-mentioned <lb/>cauſes, or others,
+          whatever is taken into ſuch a <pb xml:id="page_8" n="3"/>
+          <lb/>ſtomach muſt aſſuredly fail, more or leſs, of pro- <lb/>ducing the natural and
+          intended effect, and, inſtead <lb/>of properly nouriſhing the body, ſends periodically
+          <lb/>into the circulation—<hi rend="italic">ſince blood is made from what we <lb/>eat and
+            drink</hi>—a portion of diſeaſed matter, which, <lb/>congregating by degrees, muſt
+          inevitably occaſion <lb/>various diſorders in the ſyſtem; and although the <lb/>efforts of
+          nature to relieve herſelf from the variety <lb/>of attacks made upon her are often great
+          and won- <lb/>derful, (and always ſhould be attended to) yet <lb/>without the aſſiſtance
+          of art, ſeaſonably and pro- <lb/>perly adminiſtered, ſhe frequently finks under the
+          <lb/>burden. The ſame All-good Being that provided <lb/>remedies for the brute part of the
+          creation, made <lb/>them alſo for man; the former are directed by in- <lb/>ſtinct to
+          theirs, the latter ſhould have recourſe to <lb/>reaſon and experience. </p>
+        <p rend="indent">
+          <lb/>Thoſe Pills, then, which, in conſcious rectitude, <lb/>I now venture to offer to the
+          Public, are the atten- <lb/>tive reſult of thirty years extenſive practice in va-
+          <lb/>rious parts of the world, (upwards of twenty of <lb/>which I paſſed in His Majeſty's
+          ſervice, in the <lb/>army); the officers and ſoldiers of which, (to whom <lb/>I have the
+          honour to be known) and whom I beg <lb/>leave, in this humble, little pamphlet, to invoke,
+          <lb/>will, I doubt not, do me the juſtice to ſpeak as, I <lb/>preſume to think, my conduct
+          and character merit, <lb/>that of being indefatigable, attentive, and candid, <lb/>in my
+          profeſſion, and ſucceſſful in my practice: I <lb/>have the ſame expectations from thoſe
+          amongſt <pb xml:id="page_9" n="4"/>
+          <lb/>whom I have now practiſed above ten years in this <lb/>capital. </p>
+        <p rend="indent">
+          <lb/>I am, however, well aware that this addreſs (and <lb/>the object of it) is likely to
+          ſubject me to the ſar- <lb/>caſtical ſneers of ſome of the wonderful geniuſes of <lb/>the
+          faculty, many of whom owe, however, perhaps <lb/>their moſt exalted fame to the <hi
+            rend="italic">ſecret uſe</hi> of Dr. <lb/>James's powder, and other medicines of that
+          de- <lb/>ſcription. There are beſides, I make no doubt, <lb/>ſome other thruſts I muſt be
+          prepared to parry <lb/>from thoſe uninformed, contracted minds, who term <lb/>every
+          medicine, the conſtituent parts of which the <lb/>proprietor <hi rend="italic">keeps in
+            ſecret,</hi> a quack medicine, and re- <lb/>fuſe to take it on that account; at the ſame
+          time <lb/>ſwallow abundantly the preſcriptions of the apothe- <lb/>cary and phyſician, of
+          which they have juſt as much <lb/>knowledge as of the ingredients that compoſe my
+          <lb/>pills. But to ſuch I ſhall only obſerve, that they <lb/>are totally ignorant of the
+          true meaning of the word <lb/><hi rend="italic">quack,</hi> that epithet being only
+          applicable to illite- <lb/>rate pretenders, not properly bred to the profeſſion, <lb/>and
+          unacquainted with its practice; otherwiſe it muſt <lb/>neceſſarily follow that every man,
+          of whatever art, <lb/>ſcience, or profeſſion, who improves an old, or in- <lb/>vents any
+          new thing, becauſe he will not divulge <lb/>the <hi rend="italic">ſecret,</hi> becomes
+          indiſputably a quack; conſe- <lb/>quently there muſt be quack lawyers and preachers,
+          <lb/>who profit well by keeping mankind in <hi rend="italic">ſecret dark- <lb/>ness;</hi>
+          quack painters, coblers, tinkers, and taylors; <lb/>and it may not be unfair to add, quack
+          phyſicians of <pb xml:id="page_10" n="5"/>
+          <lb/>State, who, notwithſtanding their feeling regard for <lb/>His Majeſty's loyal
+          ſubjects, will not bluſh to crib a <lb/>ſhilling's worth of pills out of <hi rend="italic"
+            >The poor Man's Me- <lb/>dicine Cheſt (ſtamp duty)</hi> to adminiſter to the hectic
+          <lb/>conſtitution of the State, and relieve the canine ap- <lb/>petite of minions,
+          placemen and penſioners. Here <lb/>ſtop for a moment, Humanity! and reflect upon <lb/>what
+          the ſenſations of that man's heart muſt be who <lb/>firſt ſuggeſted this benevolent tax,
+            <hi rend="italic">extorted from the <lb/>painful afflictions and miſeries of the
+            ſick,</hi> particularly <lb/>the lower orders of ſociety, who are frequently
+          <lb/>obliged to ſeek relief from what are termed quack <lb/>medicines, after perhaps
+          having ſpent nearly their <lb/>little all in vain endeavours to obtain it from the
+          <lb/>moſt eminent gentlemen of the faculty.—A noſtrum <lb/>they may term my medicine, if
+          they pleaſe, for ſuch <lb/>it is, (and of which moſt of the faculty have to <lb/>boaſt a
+          few); but which I ſhall be ready to make <lb/>known to the Public <hi rend="italic">for a
+            proper gratuity,</hi> whenever <lb/>it ſhall be found to anſwer, as I am confident it
+          will <lb/>do, to all ſuch as give it a fair and impartial trial. </p>
+        <p rend="indent">
+          <lb/>I ſhould not have preſumed to take up ſo much of <lb/>the reader's time as I have
+          done in this addreſs, or <lb/>have appeared ſo much my own panegyriſt, as moſt
+          <lb/>probably I ſhall be thought, but with a view to re- <lb/>move as much as poſſible the
+          prejudices which ge- <lb/>nerally (and ſometimes juſtly) attend on addreſſes <lb/>of this
+          ſort, particularly when unſanctioned by a <lb/>voluminous publication entered at
+          Stationers' Hall <lb/>—a mode quite in faſhion with modern practitioners, <pb
+            xml:id="page_11" n="6"/>
+          <lb/>who begin their career that way to attract public <lb/>notice; in works of which
+          deſcription the preſs al- <lb/>ready teems with too many in the medical line, the
+          <lb/>mere offſpring of lectures, and ſtuffed with the wri- <lb/>ter's own and borrowed
+          hypotheſes, uneſtabliſhed <lb/>and inadmiſſible in practice, ſerving only to bewilder
+          <lb/>and lead the Public into fatal errors. </p>
+        <p rend="indent">
+          <lb/>Hippocrates ſays the deſcription of the cauſes and <lb/>treatment of diſeaſes ſhould
+          not be the ſuppoſitions <lb/>of ingenious men, (for all hypotheſes, ſays that <lb/>learned
+          father of the faculty, I reject as uſeleſs, <lb/>nay dangerous, in phyſic) but from
+          certain means <lb/>often tried on human bodies, the effects of which <lb/>bear evident
+          proof to our ſenſes, all our reaſonings <lb/>ſhould be drawn; not but I ever wiſh to ſee
+          in print <lb/>the well-digeſted ſentiments of able and experienced <lb/>men of the
+          profeſſion: it is their duty to give them, <lb/>and the world are indebted to them for
+          ſuch—ſuch <lb/>as will ſtand the teſt and command the ſanction of <lb/>the critical
+          reviewer without fear, partiality, or <lb/>bribe. </p>
+        <p rend="indent">
+          <lb/>In ſhort, in my private opinion, the ſtudy of <lb/>phyſic is by no means ſo
+          difficult, or involved in <lb/>ſuch labyrinths, as many writers would make the <lb/>world
+          believe. A proper knowledge of the human <lb/>ſyſtem, with ſtrict attention to the efforts
+          and ope- <lb/>rations of <hi rend="italic">nature,</hi> joined to a quick perceptibility
+          <lb/>on the part of the practitioner to watch and catch <lb/>the critical period when <hi
+            rend="italic">ſhe</hi> can't relieve herſelf, and <pb xml:id="page_12" n="7"/>
+          <lb/>then to aſſiſt her <hi rend="italic">cautiouſly</hi> by the proper and expe-
+          <lb/>rienced uſe of ſuch aid as Providence has provided <lb/>for that purpoſe, is the only
+          task of a phyſician. </p>
+        <p rend="indent">
+          <lb/>Having now ſaid as much as I think is neceſſary <lb/>to offer (in this place) to a
+          diſcerning Public in be- <lb/>half of my Box of Pills, &amp;c., I ſhall proceed to
+          <lb/>give as clear and conciſe directions as poſſible for <lb/>their uſe in the complaints
+          already mentioned, and <lb/>ſome others, making ſome farther remarks as I go <lb/>along. </p>
+        <div>
+          <head rend="align-center">
+            <lb/>DIRECTIONS. </head>
+          <p rend="indent">
+            <lb/>For a grown perſon, <hi rend="italic">a common doſe of theſe pills is
+              <lb/>three,</hi> one to be taken going to bed, and two the <lb/>next morning. Strong
+            conſtitutions may take two <lb/>night and morning, and ſome have taken three <lb/>night
+            and morning; but in general one at night and <lb/>two in the morning is ſufficient, and
+            many require <lb/>only one night and morning. </p>
+          <p rend="indent">
+            <lb/>A child of one year old may take a third part of <lb/>one of the pills; from three
+            years to five, half a <lb/>pill, and from five to ten a whole pill; and ſo on in
+            <lb/>proportion to age and ſtrength. As it may be diffi- <lb/>cult to make children
+            ſwallow a pill, it may be diſ- <lb/>ſolved in any ſimple liquid, or mixed with a little
+            <lb/>pap or currant jelly. </p>
+          <pb xml:id="page_13" n="8"/>
+          <p rend="indent">
+            <lb/>My reaſon for preferring part of the doſe to be <lb/>taken over night is, that, by
+            gradually diſſolving <lb/>whilſt the body is at reſt, it mixes more readily <lb/>with
+            the offending matter in the ſtomach, &amp;c., <lb/>thereby exciting it into action,
+            renders the remain- <lb/>ing part of the doſe more effectual and ſpeedy in its
+            <lb/>operation in the morning. </p>
+          <p rend="indent">
+            <lb/>As theſe pills are a declared enemy to <hi rend="italic">bile,</hi> when- <lb/>ever
+            that is in the ſtomach they never fail to vomit, <lb/>and ſometimes one pill in the
+            courſe of the night <lb/>will operate both ways; not owing to the violence <lb/>or
+            ſtrength of the medicine, as ſome may be in- <lb/>duced to think, but from the great
+            ſoulneſs and <lb/>plenitude of the ſtomach and bowels at the time be- <lb/>ing
+            overloaded with bilious filth or too-long-retained <lb/>feces — a ſelf-evident poſition
+            which muſt appear <lb/>clear to every intelligent capacity — therefore ſhould <lb/>the
+            night pill only operate by vomit, the patient <lb/>muſt not be deterred from taking more
+            in the morn- <lb/>ing; for after the ſtomach has been well cleanſed of <lb/>its
+            contents, two or three more pills will only occa- <lb/>ſion as many ſtools without any
+            farther ſickneſs. If <lb/>after the firſt doſe any part of the cauſe which in-
+            <lb/>duced taking them ſhould appear to remain, they <lb/>may be taken daily, or every
+            other day, until all the <lb/>offending matter is carried off. </p>
+          <p rend="indent">
+            <lb/>During their operation it will be proper to drink <lb/>a draught of gruel, beef or
+            chamomile tea, or ſome <lb/>ſuch ſimple liquid, to ſacilitate each operation, and <pb
+              xml:id="page_14" n="9"/>
+            <lb/>render it more effectual, which the patient will do <lb/>well to have in readineſs
+            previous to taking the <lb/>pills. </p>
+          <p rend="indent">
+            <lb/>This efficacious medicine, though ſometimes ſo <lb/>brisk in operating, is
+            notwithſtanding, I do aver, <lb/>as innocent and as ſafe as a doſe of ſalts, rhubarb,
+            <lb/>or a common emetic, and may be taken at all times <lb/>and ſeaſons with as little
+            risk or danger, as they will <lb/>always find their way out of the body by vomit,
+            <lb/>ſtool, or urine, and quietly by the latter, unleſs <lb/>when they meet with ſuch
+            humours in their paſſage <lb/>as required being carried off by the other outlets. </p>
+          <p rend="indent">
+            <lb/>The advantages, then, ariſing from theſe pills, <lb/>according to this unvarniſhed
+            account, muſt be <lb/>many, and great. </p>
+          <list rend="indent">
+            <lb/>
+            <item>Firſt, By effectually cleanſing the <hi rend="italic">ſtomach,</hi> that
+              <lb/>grand reſervoir is put in a proper ſtate to perform <lb/>the important offices,
+              for which nature intended it, <lb/>of digeſtion, &amp;c. </item>
+            <lb/>
+            <item rend="indent">Secondly, By removing all long-retained feces, <lb/>and bilious,
+              ſlimy matter from the lower bowels, <lb/>fevers, jaundice, agues, cholic, worms, <hi
+                rend="italic">flatulency,</hi>
+              <lb/>inſlammatory tendency, rhcumatiſm, &amp;c., &amp;c., are <lb/>cut off in the bud
+              and deſtroyed. </item>
+            <item>
+              <lb/>Thirdly, In filtering by the kidnies and urinary <lb/>paſſages, gravelly
+              concretions, dropſy, &amp;c., are hap- <pb xml:id="page_15" n="10"/>
+              <lb/>pily relieved and prevented; and laſtly, by con- <lb/>veying <hi rend="italic"
+                >accumulated ſalts</hi> and other acrid and feculant <lb/>humours out of the blood
+              by this channel, leproſy, <lb/>ſcurvy, ſcrophulous humours, and many eruptive
+              <lb/>complaints, and other foulneſſes of the blood <hi rend="italic">ariſing <lb/>from
+                thence,</hi> as well as all that tribe of complaints <lb/>termed nervous,
+              originating from the ſame ſource, <lb/>(ſince the nerves as well as the reſt of the
+              body re- <lb/>ceive their nouriſhment from the blood) are pre- <lb/>vented, and often
+              cured. </item>
+          </list>
+          <p rend="indent">
+            <lb/>Hence it will appear that theſe pills are not only <lb/>an effectual cleanſer of
+            the ſtomach and bowels, but <lb/>alſo a moſt POWERFUL ALTERATIVE. </p>
+          <p rend="indent">
+            <lb/>To which end, after having properly prepared the <lb/>body by two or three <hi
+              rend="italic">common doſes,</hi> taken in the <lb/>ſpace of a week or ten days, the
+            patient ſhould then <lb/>enter on the alterative courſe, firſt by taking one pill
+            <lb/>at night for four or five nights ſucceſſively, after- <lb/>wards take one night and
+            morning; continuing <lb/>theſe as long as any part of the cauſe or effect which
+            <lb/>induced taking them appears to remain; and it will <lb/>not be amiſs to continue
+            them ſome little time <lb/>longer, (for it ſometimes happens that cauſes re- <lb/>main
+            after effects vaniſh; and frequently it happens, <lb/>as, for inſtance, in the ſmall
+            pox, that effects, <lb/>ſuch as a redneſs of the skin, &amp;c., remain for ſome
+            <lb/>time after the cauſe is removed) obſerving to in- <lb/>creaſe the night or morning
+            doſe occaſionally to keep <lb/>the body gently open. It having been already re- <pb
+              xml:id="page_16" n="11"/>
+            <lb/>marked, that after the ſtomach has been well cleanſed <lb/>they ceaſe to act as an
+            emetic; for as the bodies of <lb/>ſome are conſtitutionally coſtive, it may become
+            <lb/>neceſſary in ſuch habits to increaſe the doſe as juſt <lb/>mentioned, yet, in
+            general, a pill night and morn- <lb/>ing not only relieves the moſt coſtive habits, but
+            one <lb/>will prove ſufficient in moſt conſtitutions for that <lb/>purpoſe. Here it may
+            not be improper to remark, <lb/>that coſtive habits are more ſubject than others to
+            <lb/>offenſive and fetid breath, (particularly children <lb/>whoſe powers of digeſtion
+            are by no means equal to <lb/>the too great quantity of ſtrong and improper food
+            <lb/>they commonly take in); which idea perhaps may <lb/>be one motive why the French
+            have ſuch frequent <lb/>recourſe to <hi rend="italic">lavement,</hi> or clyſter. I ſay
+            it has been <lb/>already obſerved that our blood is made from what <lb/>we take into the
+            ſtomach, from whence is prepared <lb/>that milky liquid called chyle, which forms the
+            baſis <lb/>of the blood, the whole proceſs of which is per- <lb/>formed within the ſpace
+            of twenty-four hours; <lb/>after which period the feces or excrement can anſwer <lb/>no
+            good purpoſe by remaining in the body, ſince all <lb/>their nutritive and eſſential
+            parts (good or bad, <lb/>which depends upon the nature of the food ſo taken <lb/>in and
+            ſtate of the ſtomach) has been extracted for <lb/>the above purpoſe. Now as the feces in
+            the moſt <lb/>healthy conſtitutions are rendered highly offenſive <lb/>when diſcharged
+            at the end, or in the courſe of that <lb/>time, how much more putrid muſt they
+            inevitably <lb/>become if retained for days or weeks, as is very <pb xml:id="page_17"
+              n="12"/>
+            <lb/>often the caſe in relaxed and weak habits, more <lb/>eſpecially ſuch as lead
+            ſedentary and inactive lives! </p>
+          <p rend="indent">
+            <lb/>During the alterative courſe it will be highly ne- <lb/>ceſſary for the patient to
+            obſerve ſuch mode in diet <lb/>as is calculated to aid and aſſiſt the intention of the
+            <lb/>medicine, by avoiding all ſalted, high-ſeaſoned, and inflammatory food; yet
+            notwithſtanding to partake <lb/>of ſuch proper innocent and nouriſhing food as is
+            <lb/>ſufficient to keep up the bodily ſtrength and pro- <lb/>duce good juices; for my
+            wiſh is not to reduce the <lb/>patient's ſtrength, only to conquer the diſeaſe, and
+            <lb/>by ſupporting the conſtitution properly they will be <lb/>the better enabled to
+            obtain that end. But as it is <lb/>impoſſible to give a bill of fare ſuitable to every
+            <lb/>conſtitution, palate, and ſituation in life, ſuffice it, <lb/>therefore, to ſay,
+            that the food ſhould be ſimple, <lb/>eaſy of digeſtion, nutritive, plain dreſſed, and
+            mo- <lb/>derately taken; that is, not to load the ſtomach <lb/>with too much at one
+            time, but rather to eat as in- <lb/>ſtinctive animals do in a ſtate of nature, little
+            and <lb/>often—a hint from thence is no bad precedent, for <lb/>nature will ever be
+            found to exceed the beſt philoſo- <lb/>phical reaſonings of art. </p>
+          <p rend="indent">
+            <lb/>After what has been already ſaid, I think it al- <lb/>moſt unneceſſary to add, that
+            ſuch as are accuſtomed <lb/>to take phyſic in the ſpring and autumn will find <lb/>this
+            the beſt they can have recourſe to. Indeed no <lb/>perſon, however healthy, would be the
+            worſe for <lb/>employing this friendly ſcavenger once or twice a <pb xml:id="page_18"
+              n="13"/>
+            <lb/>month; and all ſuch who are ſo unfortunate as to <lb/>labour under a <hi
+              rend="italic">very faſhionable diſeaſe</hi> will find theſe <lb/>pills a moſt certain
+            remedy, <hi rend="italic">(taken agreeable to the <lb/>alterative courſe juſt laid
+              down),</hi> without having their <lb/>bodies loaded, like a barometer, with mercury,
+            <lb/>owing to the too liberal uſe of which, in the preſent <lb/>practice, many
+            unſortunate beings (though cured of <lb/>that diſeaſe) are left a wreck, ſubject, like
+            the ma- <lb/>thematical inſtrument, to every viciſſitude of wea- <lb/>ther, to trail out
+            a miſerable exiſtence. </p>
+          <p rend="indent">
+            <lb/>Women alſo at the turn of life would do well to <lb/>pay ſtrict attention to this
+            medicine, being in every <lb/>reſpect calculated to carry off the humours which
+            <lb/>nature often, embarraſſed with at that critical pe- <lb/>riod, throws on the legs
+            and other parts of the body, <lb/>rendering the remainder of their days painful, and
+            <lb/>often burdenſome. </p>
+          <p rend="indent">
+            <lb/>And even women with child need not be afraid to <lb/>take theſe pills (becauſe they
+            ſometimes vomit) to <lb/>remove that coſtiveneſs they are commonly ſubject <lb/>to in
+            that ſituation. Since vomiting is a natural at- <lb/>tendant upon pregnant women, (and
+            ſometimes vio- <lb/>lently ſo) particularly in their firſt pregnancy, which <lb/>the
+            wiſdom of Providence has ſo ordered, no doubt, <lb/>for the beſt of ends; and if any
+            danger was likely <lb/>to enſue from that operation, we might ſurely ex- <lb/>pect it at
+            that time, when all the bowels are more <lb/>than ordinarily compreſſed from the
+            extenſion of <lb/>the uterus and weight of the foetus; yet who ever <pb xml:id="page_19"
+              n="14"/>
+            <lb/>heard of any ſuch women being injured by vo- <lb/>miting? </p>
+          <p rend="indent">
+            <lb/>In the courſe of my practice I never met with <lb/>any inſtance of the kind; on the
+            contrary, I always <lb/>found it relieved, and made them more cheerful <lb/>and eaſy.
+            Again, how frequently do people at ſea <lb/>go through that operation ſeveral times a
+            day for <lb/>weeks together without any bad conſequences from <lb/>the operation itſelf?
+            And even hectic people, and <lb/>others who have been to all appearance at the laſt
+            <lb/>gaſp, and given over by their phyſician, by making <lb/>a ſea voyage have been
+            effectually relieved by that <lb/>operation, and returned home, to the aſtoniſhment
+            <lb/>of all that knew them, perfectly ſound and hearty; <lb/>and yet notwithſtanding all
+            theſe evident proofs be- <lb/>fore their eyes, moſt people are terriſied at taking an
+            <lb/>emetic. </p>
+          <p rend="indent">
+            <lb/>As the greateſt inconveniency which attends this <lb/>operation (particularly in
+            coſtive habits) ariſes from <lb/>wind pent up in the bowels, which ſometimes occa-
+            <lb/>ſion griping pains therein during the action of an <lb/>emetic; that might in a
+            great meaſure, if not alto- <lb/>gether, be prevented by adminiſtering the following
+            <lb/>or ſome ſuch clyſter previous to taking any thing of <lb/>the emetic kind, viz.
+            Take about half a pint of <lb/>gruel or broth of any kind, a table ſpoonful of
+            <lb/>common ſalt, three large ſpoonſuls of vinegar, and <lb/>as much of oil, mixed,
+            makes one for a grown per- <lb/>ſon. In ſhort, wind being, from that neceſſary de- <pb
+              xml:id="page_20" n="15"/>
+            <lb/>licacy obſerved in ſociety, often kept back when <lb/>nature is diſpoſed to
+            diſcharge it, lays the foundation <lb/>of innumerable tormenting complaints; the wind ſo
+            <lb/>reſtrained I have frequently, when ſitting in com- <lb/>pany, heard rumbling for a
+            conſiderable time in the <lb/>bowels of a perſon ſeveral ſeats from me. And once
+            <lb/>travelling in a ſtage coach, (from Stamford to Lon- <lb/>don) a poor woman therein,
+            from a circumſtance of <lb/>this ſort, was greatly embarraſſed and put to the <lb/>bluſh
+            from the tittering of two unfeeling young men <lb/>(farmers to appearance) fellow
+            travellers: ſhe ſoon <lb/>after grew pale, and was about to faint when I <lb/>ſtopped
+            the coach, and got her out in the air; upon <lb/>which ſhe fell into a ſtrong hyſteric
+            fit, that held <lb/>above half an hour, in the courſe of which ſhe ex- <lb/>pelled an
+            immenſe deal of wind both upwards, &amp;c., <lb/>which contributed to her recovery. I
+            mention this <lb/>juſt to prove how little a matter will put the boaſted <lb/>human
+            machine out of ſorts, and to reprobate the <lb/>unfeeling conduct of ſuch as can enjoy a
+            laugh at <lb/>the painful misfortunes of their fellow creatures, <lb/>particularly of
+            that ſex who command our moſt hu- <lb/>mane and affectionate attention, being, from the
+            pe- <lb/>culiar reſtraint their modeſty lays them under, liable <lb/>to many
+            inconveniences which men are not. </p>
+          <p rend="indent">
+            <lb/>In the year 1770 the following extraordinary caſe <lb/>occurred at Mahon, in the
+            iſland of Minorca: — <lb/>William Kearns, a ſoldier of the Old Buffs, was <lb/>ſitting
+            on a ſtone ſeat by the guard-room door, be- <lb/>tween the hours of nine and ten at
+            night, with ſe- <pb xml:id="page_21" n="16"/>
+            <lb/>veral others of the guard. His comrade, on paſſing <lb/>by him to the guard room,
+            in play, put himſelf in <lb/>a boxing attitude, ſaying, <q rend="quotes">Have at you,
+              Kearns; <lb/>I can lick you now. </q> Upon which Kearns threw <lb/>his head back
+            ſuddenly againſt the wall, the diſ- <lb/>tance about ſix inches, which made him call
+            out, <lb/>ſeemingly dipleaſed, <q rend="quotes">Damn you, meſſmate, that's <lb/>no
+              joke—I believe you have made me break my <lb/>ſconce. </q> Then taking off his hat, he
+            rubbed <lb/>the back of his head with his hand, ſaying, <q rend="quotes">I <lb/>will be
+              up with you for this. </q> The other ran <lb/>laughing into the guard room.—Kearns
+            continued <lb/>afterwards above half an hour ſitting at the door, <lb/>talking as uſual
+            to the other men, without appearing <lb/>the leaſt indiſpoſed, or ſaying any thing more
+            about <lb/>his head. He then went in and laid down on the <lb/>guard bed. At twelve
+            o'clock, being to go ſentinel, <lb/>and not turning out with the relief, the corporal,
+            <lb/>thinking he was aſleep, went in to rouſe him, and <lb/>ſound him lying on his ſide
+            foaming at the mouth, <lb/>ſpeechleſs, and his eyes wide open. The corporal <lb/>then
+            called to ſome of the men to come and ſee him, <lb/>and they tried to raiſe him up; upon
+            which he <lb/>fetched a deep groan and expired. One of the men <lb/>ran to Mr. Duffy,
+            ſurgeon to the 67th regiment, who <lb/>lived almoſt oppoſite the guard houſe, and
+            another <lb/>to me, about half a mile diſtant. Mr. Duffy went <lb/>to him immediately,
+            and opened the temple artery; <lb/>but it was too late—he was dead. Upon my arrival
+            <lb/>ſoon after I learnt the preceding account. We then <lb/>out off his hair, and
+            carefully examined the head <pb xml:id="page_22" n="17"/>
+            <lb/>and every part, but could not perceive the ſmalleſt <lb/>external injury
+            whatſoever, except a very ſlight ex- <lb/>travaſation of blood behind the left ear, the
+            ſide he <lb/>lay on the guard bed. About one o'clock that day <lb/>I opened the head of
+            the deceaſed in preſence of <lb/>Dr. Monro, phyſician to the garriſon, Mr. Duffy,
+            <lb/>and anoher ſurgeon; when we found about two <lb/>ounces (not more) of coagulated
+            blood on the right <lb/>anterior hemiſphere of the brain, which appeared <lb/>to have
+            iſſued from a veſſel of the dura mater; <lb/>every other part of the membranes, brain,
+            ventri- <lb/>cles, &amp;c., &amp;c., were in as ſound and perfect a ſtate <lb/>as
+            poſſible; the head was uncommonly full of brain, <lb/>and the ſcull remarkably thin, and
+            in many places <lb/>quite diaphanous. </p>
+          <p rend="indent">
+            <lb/>Dr. Monro immediately waited on General John- <lb/>ſton, the Governor of the
+            Iſland, to report his own <lb/>and our opinion of this caſe; and Mr. Duffy and I
+            <lb/>proceeded to open the body, not in expectation of <lb/>finding any thing farther
+            relative to the cauſe of this <lb/>man's death, but from a cuſtom I always followed
+            <lb/>of opening the body of every ſoldier that died. Upon <lb/>raiſing the breaſt bone a
+            very uncommon fulneſs ap- <lb/>peared on the left ſide about the heart, and on divi-
+            <lb/>ding the pericardium a great quantity of very fetid <lb/>wind iſſued forth, and
+            about four table ſpoonfuls of <lb/>clear lymph. The heart of this man (who was a
+            <lb/>very ſtout, well-made ſoldier, thirty-two years of <lb/>age, and about five feet
+            eight inches high) was un- <lb/>commonly ſmall indeed, (weighing only fifteen <pb
+              xml:id="page_23" n="18"/>
+            <lb/>ounces five drams Troy) and looked as if it had <lb/>been parboiled. The lungs,
+            liver, ſtomach, and <lb/>all the other entrails, were in as ſound and perfect a
+            <lb/>ſtate as poſſible, and in every other reſpect formed <lb/>as much for longevity as
+            any I ever ſaw in my life. <lb/>I have been the more particular in ſtating all the
+            <lb/>circumſtances of this caſe from the ſuppoſed cauſe <lb/>of his death, <hi
+              rend="italic">and the very extraordinary contents of the <lb/>pericardium</hi> and
+            ſtate of the heart, leaving the deci- <lb/>ſion of the real cauſe of this man's death to
+            thoſe <lb/>whoſe ſuperior skill and microſcopic diſcernment <lb/>may enable them to give
+            a better ſolution to it than <lb/>I chuſe to risk my opinion in giving; at the ſame
+            <lb/>time to ſhew <hi rend="italic">that windy complaints</hi> are (what I have al-
+            <lb/>ready ſaid of them) numerous, wonderful, and often <lb/>puzzling, and therefore how
+            neceſſary it is <hi rend="italic">that all <lb/>dead bodies ſhould be opened</hi> for
+            information ſake, <lb/>ſince the dead cannot be injured, and the living may <lb/>benefit
+            by it.—This caſe I have ſingled out from <lb/>ſeveral others which I have in my
+            poſſeſſion relative <lb/>to windy tumours diſcovered by diſſection. I beg <lb/>leave to
+            add, that this man had once or twice been <lb/>troubled with a ſlight aſthmatic
+            complaint; but in <lb/>every other reſpect was as healthy, to all appearance, <lb/>as
+            any ſoldier in the regiment. </p>
+          <p rend="indent">
+            <lb/>To return again to the ſubject of emetics. </p>
+          <p rend="indent">
+            <lb/>Some time ago I was called to a gentleman, a <lb/>very free liver, and an
+            extraordinary hard drinker, <lb/>who I make no doubt had a hundred times in his
+            <lb/>life vomited moſt ſeverely from inebriety, infinitely <pb xml:id="page_24" n="19"/>
+            <lb/>more ſo than he would have done from any common <lb/>emetic given by the faculty;
+            notwithſtanding which, <lb/>upon my propoſing a vomit for him, which his <lb/>ſituation
+            abſolutely required, he immediately held <lb/>up his hands, begging for God's ſake he
+            might not <lb/>take an emetic; <hi rend="italic">that he was too weak;</hi> that it
+            would <lb/>ſtrain him to pieces and kill him. He, however, <lb/>got an emetic, and
+            obtained the wanted relief.—I <lb/>ſay again, that, after all theſe incontrovertible ex-
+            <lb/>amples, it ſeems to me moſt ſtrange that a rational <lb/>being ſhould be ſo much
+            afraid of this operation, <lb/>when many of the brute part of the creation (that
+            <lb/>feed carnivorouſly) take ſuch things as inſtinct di- <lb/>rects them to in order to
+            diſcharge the offending <lb/>contents of their ſtomach that way; and I have ſeen <lb/>a
+            hawk diſgorge the contents of his craw: but I <lb/>believe no perſon ever ſaw an ox, or
+            an aſs, a goat, <lb/>or gander, vomit, of courſe nature never intended <lb/>it. </p>
+          <p rend="indent">
+            <lb/>Here, by the by, though foreign to the ſubject of <lb/>theſe leaves, permit me,
+            however, to offer a hint <lb/>about the treatment of horſes, which noble animal <lb/>I
+            am clearly of opinion has been often tortured, <hi rend="italic">if <lb/>not
+              killed,</hi> by having things of the emetic kind ad- <lb/>miniſtered, ſince a horſe
+            can no more vomit than an <lb/>aſs, though I once heard a gentleman declare that he
+            <lb/>ſaw a dead horſe vomit after having Dr. James's <lb/>powders given him when alive;
+            but as this is a mat- <lb/>ter I may perhaps treat more at large on ſome future
+            <lb/>day, I ſhall cloſe it here, only adding, that I am ſa- <pb xml:id="page_25" n="20"/>
+            <lb/>tisfied from all I have ſeen and heard that many <lb/>medicines that are uſed by
+            mankind are totally im- <lb/>proper and highly dangerous for ſuch animals as feed
+            <lb/>granivorouſly and cannot vomit. But how this er- <lb/>roneous method of treating
+            horſes as human beings <lb/>has become the practice could be very eaſily ac-
+            <lb/>counted for. </p>
+          <p rend="indent">
+            <lb/>Vomiting is, I muſt, however, confeſs, a very <lb/>unpleaſant operation; but,
+            believe me, it is a much <lb/>more ſpeedy and effectual method of relieving the
+            <lb/>ſtomach of its offending contents than carrying it <lb/>off by the other channel,
+            through all the turnings, <lb/>feſtoonings, and curvatures of the lower bowels, in
+            <lb/>the cells of which ſome of the feces will frequently <lb/>ſtick and lodge for
+            weeks, nay months together, <lb/>forming that nidus of miſchief I have before men-
+            <lb/>tioned, of which the following is a caſe in point:— <lb/>A ſoldier of the third
+            regiment of foot (in which I <lb/>ſerved ſeveral years) was ſeized with a cholic in the
+            <lb/>latter end of September, 1771, at Exeter, where <lb/>we were at that time quartered
+            after returning from <lb/>Minorca, which place we left in the month of May
+            <lb/>preceding, and arrived in England the beginning of <lb/>June. As we were in a cyder
+            country, I ſuſpected <lb/>his complaint might ariſe from drinking that li- <lb/>quor:
+            but he aſſured me that he had not drank any <lb/>cyder; that he did not like it.
+            However, after ta- <lb/>king a few doſes of rhubarb, and ſome other little <lb/>things,
+            his complaint went off, and he returned to <lb/>his duty; but being a few days after
+            attacked again <pb xml:id="page_26" n="21"/>
+            <lb/>with the ſame diſorder in a moſt violent degree, he <lb/>was taken into the
+            hoſpital—every thing he took <lb/>came off his ſtomach immediately, and, in ſpite of
+            <lb/>every effort, no paſſage could be procured down- <lb/>wards. Being now exceedingly
+            alarmed for the <lb/>ſafety of my patient, I directed <hi rend="italic">one of my
+              pills</hi> to be <lb/>given every hour until they ſhould operate by ſtool; <lb/>the
+            two firſt pills made him rather ſick, but did not <lb/>vomit him: after taking ſix, they
+            began to operate <lb/>downwards, and in one of the diſcharges he brought <lb/>off a
+            great quantity, near a handful, of <hi rend="italic">grape ſkins,</hi>
+            <lb/>highly <hi rend="italic">putrid and offenſive.</hi> From that hour his <lb/>violent
+            pain went off, and in a week he was perfectly <lb/>recovered. </p>
+          <p rend="indent">
+            <lb/>Queſtioning him now about this appearance <hi rend="italic">and <lb/>evident cauſe
+              of his complaint,</hi> I asked if he had eat <lb/>any raiſins, either alone or in
+            pudding. He aſſured <lb/>me he had not taken any thing of the kind ſince he <lb/>was on
+            ſhip board; but that on his leaving Minorca <lb/>a friend gave him ſeveral pounds of <hi
+              rend="italic">dried grapes</hi> by <lb/>way of ſea ſtock; that he eat them all on his
+            paſſage, <lb/>and from that time had never taſted any thing of the <lb/>kind. He
+            remembered, he ſaid, that the grapes <lb/>griped him often in the ſame place as when he
+            firſt <lb/>applied to me, but not ſo much as to occaſion an ap- <lb/>plication then, as
+            the pain generally went off with a <lb/>motion, and he thought they did him good. How-
+            <lb/>ever, it is very clear that a part of this traſh remain- <lb/>ed in his body near
+            four months. Beſides this, ſe- <pb xml:id="page_27" n="22"/>
+            <lb/>veral other ſimilar caſes have occurred to me in the <lb/>courſe of practice. </p>
+          <p rend="indent">
+            <lb/>Gouty habits, and all thoſe who live freely either <lb/>in eating or drinking, (for
+            the reaſons already ſtated <lb/>concerning the ſtomach and bowels) will find this a
+            <lb/>ſovereign remedy for the ſudden and violent attacks <lb/>which ſuch are often
+            ſubject to. </p>
+          <p rend="indent">
+            <lb/>Perhaps it will be asked how can any one medicine <lb/>be good for ſo many
+            different complaints as the au- <lb/>thor has mentioned? To which I anſwer, BECAUSE
+            <lb/>IT IS AN ALTERATIVE! By which it is meant, <lb/>that all ſuch offending humours in
+            the body as <hi rend="italic">nature</hi>
+            <lb/>is not able of herſelf to throw off, are, by means <lb/>of this medicine, ſo
+            changed, diſpoſed, and rendered <lb/>capable of expulſion by the proper channels or out-
+            <lb/>lets, as to aſſiſt <hi rend="italic">her efforts</hi> in removing them effec-
+            <lb/>tually.—And now I beg leave, in turn, to ask of all <lb/>thoſe good folks who
+            ſtrain at a gnat and ſwallow a <lb/>camel, how it happens that antimony, bark, mer-
+            <lb/>cury, and even ſeveral inſignificant and other medi- <lb/>cines which I could
+            mention, are made uſe of by all <lb/>and every phyſician and medical practitioner <hi
+              rend="italic">as ge- <lb/>neral remedies</hi> for almoſt every diſeaſe that falls
+            under <lb/>their cognizance? And laſtly, though often too late, <lb/>why the patient is
+            recommended <hi rend="italic">to that univerſal re- <lb/>medy,</hi> Bath water, &amp;c.,
+            when the doctor can do no <lb/>more for him? </p>
+          <pb xml:id="page_28" n="23"/>
+          <p rend="indent">
+            <lb/>I ſhall not, however, preſume to impoſe ſo far <lb/>upon the underſtanding of the
+            Public as to endea- <lb/>vour to maintain that my pills are an infallible reme- <lb/>dy
+            for all the diſeaſes to which human nature is in- <lb/>cident: but thus much I venture
+            poſitively and <lb/>boldly to aſſert, that I do not believe it is in the <lb/>power of
+            chemical or medical art to compoſe a bet- <lb/>ter medicine, a milder and more COMPLETE
+            <lb/>ALTERATIVE out of the drugs, &amp;c. in preſent <lb/>uſe. But what future time may
+            produce I cannot <lb/>pretend to ſay. </p>
+          <p rend="indent">
+            <lb/>Surgeons of the army and navy, (without dero- <lb/>gating from their abilities) by
+            providing themſelves <lb/>with theſe pills, would have a remedy immediately <lb/>at
+            hand, (which their ſituations ſometimes will not <lb/>admit them to get ſeaſonably
+            prepared) by which <lb/>means many valuable lives might be ſaved, and <lb/>themſelves
+            ſpared much trouble and expence; but <lb/>particularly maſters of merchant ſhips, <hi
+              rend="italic">who have no <lb/>medical aſſiſtance,</hi> (more eſpecially ſuch as viſit
+            warm <lb/>climates, where bilious complaints are moſt preva- <lb/>lent) and alſo thoſe
+            who live in the country remote <lb/>from <hi rend="italic">ſuch aid,</hi> would find The
+            poor Man's Medicine <lb/>Cheſt (what I have juſtly termed it) a moſt invalua- <lb/>ble
+            remedy. </p>
+          <p rend="indent">
+            <lb/>Here it may not be improper to give a little ad- <lb/>vice to thoſe alſo who viſit
+            Margate and other water- <lb/>ing places, in the ſeaſon, for the benefit of their
+            <lb/>healths, from whence many return worſe than they <pb xml:id="page_29" n="24"/>
+            <lb/>went, and numbers loſe their lives from injudicious <lb/>bathing. Though I am
+            convinced from experience <lb/>that the uſe of the cold bath, when properly ap-
+            <lb/>plied, is of the higheſt importance towards pre- <lb/>ſerving of health, yet it
+            ſhould never be had re- <lb/>courſe to until the body is firſt properly prepared,
+            <lb/>not by a few doſes of ſalt water, as is uſually the <lb/>caſe, which ſlips quickly
+            through the bowels, lea- <lb/>ving behind the long-retained feces, &amp;c., <hi
+              rend="italic">which I <lb/>have ſo pointedly deſcribed,</hi> poſſeſſing no powers to
+            act <lb/>upon them effectually: for give me leave to ac- <lb/>quaint thoſe who think
+            that one thing that opens <lb/>the body is as good as another, that they are moſt
+            <lb/>egregiouſly miſtaken, for, in fact, there is as much <lb/>difference between one
+            purgative and another as be- <lb/>tween wine and water; for though both of theſe
+            <lb/>will allay thirſt, yet they will not equally exhilerate <lb/>the ſpirits and
+            produce intoxication. Permit me, <lb/>therefore, moſt humbly to recommend to all ſuch as
+            <lb/>viſit thoſe places, <hi rend="italic">for their health's ſake,</hi> previouſly
+            <lb/>to prepare themſelves for a fortnight or three weeks <lb/>with my pills, agreeable
+            to the <hi rend="italic">alterative courſe</hi> laid <lb/>down in page 10, convinced
+            they will find their <lb/>advantage in ſo doing. Afterwards, I have no objec- <lb/>tion
+            to their drinking occaſionally a doſe of ſalt <lb/>water, if they like it, to keep the
+            body gently open, <lb/>being perfectly proper the body ſhould be ſo kept <lb/>during a
+            courſe of bathing. </p>
+          <p rend="indent">
+            <lb/>There is one hint more, and that of no ſmall im- <lb/>portance, which I ſhall
+            preſume to offer to bathers, <pb xml:id="page_30" n="25"/>
+            <lb/>which is to live <hi rend="italic">temperately and regularly</hi> whilſt they
+            <lb/>are ſeeking relief from the bath, and not go into it <lb/>hiſſing hot, like an iron
+            out of a ſmith's forge <lb/>plunged into his trough, after ſitting up all night,
+            <lb/>and partaking moſt unmercifully of all the luxuries <lb/>of the ſeaſon; which
+            miſconduct I am fully per- <lb/>ſuaded has brought numbers to an untimely grave! </p>
+          <p rend="indent">
+            <lb/>I could offer ſome other uſeful remarks upon this <lb/>ſubject; but as it would
+            extend this little work <lb/>beyond the limits propoſed, I ſhall reſerve them for
+            <lb/>another place. For the ſame reaſon I ſhall alſo <lb/>omit many reſpectable and
+            well-authenticated vou- <lb/>chers, which I have in my poſſeſſion, of the won-
+            <lb/>derful effects my pills have already produced; but <lb/>indeed I could rather wiſh
+            they ſhould eſtabliſh <lb/>themſelves by their future good works, than endea- <lb/>vour
+            to ſupport them by anterior authorities. </p>
+          <p rend="indent">
+            <lb/>Before I conclude, I think it a duty I owe the <lb/>Public, as well as myſelf, to
+            make a remark or two <lb/>more; and although it is neither my talent nor wiſh <lb/>to
+            depreciate the productions of others with a view <lb/>to enhance the value of my own,
+            yet it is but juſ- <lb/>tice to draw a fair line between mine and ſome of <lb/>the pills
+            which are at preſent in much-eſteemed uſe, <lb/>not doubting at the ſame time but ſuch
+            are juſtly <lb/>entitled to the approbation they have obtained from <lb/>the benefit
+            thoſe who uſed them have experienced, <lb/>and who think themſelves, no doubt, as much
+            in- <lb/>debted to them for ſuch relief as they would have <pb xml:id="page_31" n="26"/>
+            <lb/>been to the preſcriptions of the late Sir Richard <lb/>Jebb, or any great phyſician
+            of the preſent day, of <lb/>the ingredients of whoſe preſcriptions they had no <lb/>more
+            knowledge than of thoſe that conſtituted ſuch <lb/>pills; and therefore I humbly preſume
+            it is of very <lb/>little conſequence to the party who is ſo relieved, <lb/>whether
+            obtained from Sir Jeffery Dunſtan, Mayor <lb/>of Garratt, or the Vicar of Bray! But as
+            one <lb/>watch excels another in regulating time, ſo may one <lb/>medicine ſurpaſs
+            another in momentous eſſicacy. <lb/>Many of thoſe pills, then, which I ſhall forbear to
+            <lb/>call by name, leſt I ſhould incur the appellation of <lb/>being envious, and
+            increaſe the number of my op- <lb/>ponents, being only calculated to act merely as a
+            <lb/>purgative, can by no means come in <hi rend="italic">competition with</hi>
+            <lb/>what I have aſſerted (and on which I pledge my re- <lb/>putation) <hi rend="italic"
+              >mine</hi> will be ſound to perſorm; conſe- <lb/>quently a medicine of this ſort has
+            long been want- <lb/>ing. Therefore, without entertaining an iota of <lb/>doubt but I
+            ſhall in due time receive from a generous <lb/>Public the approbation I ſeek <hi
+              rend="italic">for the offering made,</hi>
+            <lb/>I ſhall now conclude with an old but juſt proverb — </p>
+          <lb/>
+          <q rend="italic align-center">— Siquid noviſti reſlius iſlis, Candidus imperti: ſi
+            <lb/>non, his utere me<unclear>#</unclear>um. </q>
+          <p rend="indent">
+            <lb/>☞ Having entitled my box of pills The poor <lb/>Man's Medicine Cheſt! it remains
+            for me to main- <lb/>tain that appellation. Theſe pills, then, are put up <lb/>in boxes
+            at four ſhillings and ſix pence, and ton <lb/>ſhillings and ſix pence, <hi rend="italic"
+              >ſlamps</hi> included. The ſmall <pb xml:id="page_32" n="27"/>
+            <lb/>box contains forty-eight pills, or twelve large doſes. <lb/>Now as a common doſe is
+            but three, and ſome re- <lb/>quire only two pills, it will often happen that this
+            <lb/>box may contain twenty doſes; and whoever is <lb/>obliged to have recourſe to an
+            apothecary for an <lb/>equal number of doſes of medicine would have at <lb/>leaſt twenty
+            ſhillings to pay, excluſive of ſome con- <lb/>ſideration for his trouble and attendance,
+            and per- <lb/>haps not receive as much benefit from the whole as <lb/>from one doſe of
+            theſe pills. The large box con- <lb/>tains one hundred and twenty pills, or thirty large
+            <lb/>doſes. </p>
+          <p rend="indent">
+            <lb/>For the preſent, the pills will be ſold by the <lb/>Proprietor only, at his Patent
+            Baume of Arquebu- <lb/>ſade Warehouſe, No. 13, Leiceſter Street, Leiceſter <lb/>Square;
+            (the uſe of which Baume has been found, <lb/>as will appear by the annexed letters, of
+            the higheſt <lb/>importance); but as ſoon as proper perſons are ap- <lb/>pointed to vend
+            them, their names will be affixed to <lb/>this publication; and the better to prevent
+            impoſi- <lb/>tions, each box is ſealed with his coat of arms — <lb/>Motto, <hi
+              rend="italic">Confido in Deo!</hi>
+          </p>
+          <p rend="indent">
+            <lb/>The Public are requeſted to pay ſtrict attention to <lb/>theſe circumſtances, ſince
+            there are a number of <lb/>medicaſters and other piratical wretches ever ready <lb/>to
+            obtrude on the world their own dangerous imita- <lb/>tions for the works of others,
+            (preying like the <lb/>hornet on the honey of the induſtrious bee) under a <lb/>pretence
+            of being able to analyſe, without knowing <pb xml:id="page_33" n="28"/>
+            <lb/>the nature of that arduous and nice proceſs, and <lb/>many of thoſe pretenders not
+            even the meaning of <lb/>the word; by which means a moſt valuable medi- <lb/>cine loſes
+            its reputation, and the Public are de- <lb/>ceived. </p>
+        </div>
+      </div>
+      <div>
+        <pb xml:id="page_34"/>
+        <head rend="align-center dc(3)">
+          <lb/>LETTERS. </head>
+        <div type="part">
+          <head rend="align-center dc(2)">
+            <lb/>THE BAUME </head>
+          <head type="sub" rend="indent hanging italic">
+            <lb/>Was firſt made public in February, <hi rend="italic">1786,</hi> ſince which
+            <lb/>Time the following are a Part of upwards of a hun- <lb/>dred Letters addreſſed to
+            the Patentee, (Originals of <lb/>which are now in his Poſſeſſion) by thoſe who have
+            <lb/>experienced its happy Effects. </head>
+          <lb/>
+          <q rend="quotes align-center size(0.5)">Facts are ſtubborn things which ſpeak for
+            themſelves. </q>
+          <lb/>
+          <div><salute>SIR, </salute>
+          <dateline><hi rend="italic">Woolwich,</hi>
+            <hi rend="italic">Aug.</hi> 11, 1786. </dateline>
+          <p rend="indent">
+            <lb/>I SHOULD think myſelf loſt to all ſenſe of gra- <lb/>titude if I did not
+            acknowledge that, under God, <lb/>you have been the ſaver of my life by the uſe of
+            <lb/>your <hi rend="italic">Baume d'Arquebuſade;</hi> and I am now happy in
+            <lb/>acquainting you that all thoſe violent pains in my <lb/>ſtomach and bowels, as well
+            as my loins and kidnies, <pb xml:id="page_35" n="30"/>
+            <lb/>diſagreeable belchings, cold clammy ſweats, coſ- <lb/>tiveness, ſloppage of urine,
+            reſtleſs nights, &amp;c., &amp;c., <lb/>occaſioned by a bilious complaint which I
+            contracted <lb/>in America, have all entirely left me, and I am now, <lb/>thank God, in
+            perfect health. — For the firſt ten <lb/>or twelve days I took the Baume I thought
+            myſelf <lb/>worſe, and left it off; but at your particular re- <lb/>queſt I began to uſe
+            it again, and in about a week <lb/>found myſelf better, and began to void gravel of a
+            <lb/>hard red ſubſtance, which I continued voiding, <lb/>more or leſs, every day for
+            upwards of two months; <lb/>ſometimes found the quantity of a tea-ſpoonſul of <lb/>this
+            gravel in my pot of a morning. Indeed when I <lb/>took to the Baume a ſecond time I had
+            little or no <lb/>hopes of myſelf, (whatever you might have) ha- <lb/>ving been under
+            the care of one or other of the fa- <lb/>culty for upwards of three years, and could get
+            no <lb/>relief until I applied to you. In humanity to my <lb/>fellow creatures I ſhould
+            wiſh this letter to be made <lb/>public; but that as you pleaſe — </p>
+          <signed rend="indent">
+            <lb/>And am, <lb/>With true heart-ſelt gratitude, Sir, <lb/>Yours, &amp;c. <lb/>BASIL,
+            CUNNINGHAM, <lb/>Lieut. Royal Artillery. </signed></div>
+          <pb xml:id="page_36" n="31"/>
+          <lb/>
+          <div><salute>SIR, </salute>
+          <dateline><hi rend="italic">No.</hi> 7, <hi rend="italic">Boſton Row, Brompton,</hi>
+            <lb/>
+            <hi rend="italic">Sept.</hi> 16, 1787. </dateline>
+          <p rend="indent">
+            <lb/>I BEG leave to expreſs my gratitude, as an in- <lb/>dividual, for the obligation
+            you have conſerred on <lb/>mankind by the diſcovery of your <hi rend="italic">Baume
+              d'Arque- <lb/>buſade,</hi> and alſo to inform you of the benefit I have <lb/>derived
+            from it. I had been afflicted three years <lb/>with a violent bilious complaint,
+            attended with con- <lb/>ſtant ſevers, lowneſs of ſpirits, violent head-achs,
+            <lb/>&amp;c., &amp;c. I applied to ſeveral of the moſt eminent <lb/>of the faculty, and
+            took all the medicines which <lb/>were recommended: went twice to Bath for the be-
+            <lb/>neſit of the waters; the firſt time of uſing them <lb/>found myſelf much worſe, as
+            they increaſed my <lb/>fever, head-ach, &amp;c.; the ſecond time they had <lb/>little or
+            no effect. I at length deſpaired of a re- <lb/>medy, and thought all I could hope was to
+            prevent <lb/>the complaint's increaſing by a ſtrict regard to diet, <lb/>when I heard of
+            the wonderful effects of your <hi rend="italic">Baume <lb/>d'Arquebuſade,</hi> and
+            reſolved to try it. At firſt it <lb/>would not ſtay on my ſtomach, and occaſioned ſaint-
+            <lb/>ness and burning ſenſation in my throat: though I <lb/>was rather diſcouraged by
+            thoſe unpleaſant effects, I <lb/>however determined to give it a fair trial, and by
+            <lb/>the time I had ſiniſhed the firſt bottle theſe effects <lb/>ceaſed, and I began to
+            find benefit. In about three <lb/>months I became perfectly free from all complaints,
+            <lb/>and have ever ſince enjoyed a confirmed ſtate of <lb/>health.—I have no objection
+            to your publiſhing this <lb/>letter, if you think proper; and am ready to an- <pb
+              xml:id="page_37" n="32"/>
+            <lb/>ſwer, in perſon, to any who may wiſh to queſtion <lb/>me upon the ſubject. </p>
+          <signed rend="indent">
+            <lb/>I am, Sir, <lb/>Your obliged, humble ſervant, <lb/>MARY HALCOT. </signed></div><div>
+          <p rend="indent">
+            <lb/>{inverted ⁂} This lady has ſince been married, and has <lb/>had two fine children,
+            of both which I delivered <lb/>her. </p>
+        <div>
+            <head rend="italic indent hanging">
+              <lb/>The following Extract of a Letter from a reſpectable <lb/>Merchant at Plymouth,
+              dated Plymouth, June <hi rend="italic">9, <lb/>1787.</hi>
+            </head>
+            <p rend="indent">
+              <lb/>"I CANNOT conclude my letter without ren- <lb/>dering your merit the tribute of
+              praiſe ſo juſtly due <lb/>for preſenting to mankind that moſt excellent medi-
+              <lb/>cine, the <hi rend="italic">concentrated Balſam of Arquebuſade,</hi> which,
+              <lb/>by having taken a ſew bottles, has relieved me from <lb/>a very dangerous bilious
+              complaint, and for which <lb/>I tried the Bath waters laſt ſummer, upwards of ſix
+              <lb/>weeks, in vain, after having previouſly been under <lb/>the care of a very
+              eminent phyſician a conſiderable <lb/>time.—If this declaration of mine can be of any
+              ſer- <lb/>vice to you, you have ſull permiſſion to ſhew it to all <lb/>aſſlicted with
+              that dreadful diſorder, from which I <lb/>have been ſo happily relieved. But I could
+              wiſh you <pb xml:id="page_38" n="33"/>
+              <lb/>not to publiſh in the newſpapers my name, as a refe- <lb/>rence to yourſelf for a
+              ſight of this declaration muſt <lb/>anſwer every purpoſe.—Lieut. Scott, of the Royal
+              <lb/>Navy, hath alſo, to my knowledge, been entirely <lb/>cured of a violent bilious
+              diſorder by your medi- <lb/>cine, and been free from any return for upwards of
+              <lb/>eight months." </p>
+          </div>
+        <div>
+            <head rend="indent hanging italic">
+              <lb/>Extract of a Letter from a moſt reſpectable Planter <lb/>in the Iſland of Nevis,
+              dated Nevis, October <hi rend="italic">4, <lb/>1787.</hi>
+            </head>
+            <p rend="indent">
+              <lb/>"YOUR Arquebuſade Concentre <hi rend="italic">is of the utmoſt <lb/>uſe to
+                us.</hi> I have never yet applied it inwardly; but <lb/>in bruiſes, ſprains, ſevere
+              cuts, and rheumntic com- <lb/>plaints, it has never failed. One negro, who chopped
+              <lb/>half his finger off at the joint, had his wound healed <lb/>by it as if it had
+              been by magic: another, whoſe <lb/>leg was violently tore by a dog, equally ſo. My
+              <lb/>Overſeer's foot was jammed by a cart, and it cured <lb/>him in a ſew days. We uſe
+              it for all ſores in ne- <lb/>groes legs, and it never fails. From this you may
+              <lb/>gueſs that my proviſion thereof is much diminiſhed; <lb/>therefore beg you will
+              ſend me double the quantity I <lb/>had the laſt year. Out of what I have I ſhall, how-
+              <lb/>ever, give Mr. Walter Nesbit and Mr. J. Taylor a <lb/>little for a trial: they
+              are two of our firſt planters <lb/>here; and on your account, as well as theirs, I am
+              <lb/>ſorry I did not do it ſooner. </p>
+            <pb xml:id="page_39" n="34"/>
+            <p rend="indent">
+              <lb/>"P. S. You are perfectly welcome to make any <lb/>uſe you pleaſe of the paragragh
+              about your Arque- <lb/>buſade Balſam, for what I have ſaid is true, ſo help <lb/>me,
+              &amp;c. </p>
+            <p rend="align-right">
+              <lb/>G. FORBES." </p>
+            <lb/>
+            <div><salute>SIR, </salute>
+            <dateline><hi rend="italic">Portugal Street, Groſvenor Square,</hi>
+              <lb/>
+              <hi rend="italic">January</hi> 19, 1788. </dateline>
+            <p rend="indent">
+              <lb/>HAVING received ſo much benefit from your <lb/>much-eſteemed and valuable Balſam,
+              I ſhould be <lb/>glad if you would have my caſe inſerted in the pub- <lb/>lic papers,
+              both for your credit and the good of the <lb/>Public at large.—I received about two
+              months ago <lb/>a very violent ſtroke from a horſe on my kneepan, <lb/>and was ſo very
+              bad that all who ſaw me expected I <lb/>muſt loſe my leg at leaſt — I was adviſed to
+              apply to <lb/>you—you gave me a few bottles of your Balſam, by <lb/>the uſe of which,
+              in a few days, I was much re- <lb/>lieved, and in three weeks time got perfectly ſound
+              <lb/>and well, to the great aſtoniſhment of all our fa- <lb/>mily, and of all who had
+              ſeen my knee; ſo your <lb/>publiſhing this will greatly oblige, </p>
+            <signed rend="indent hanging">
+              <lb/>Sir, your humble ſervant, <lb/>GEORGE WALKER, <lb/>Servant to Capt. Scott,
+              Equerry <lb/>to His Royal Highneſs the <lb/>Prince of Wales. </signed></div>
+            <pb xml:id="page_40" n="35"/>
+            <lb/>
+            <div><salute>SIR, </salute>
+            <p rend="indent">
+              <lb/>HAVING, by repeated trials, experienced the <lb/>good effects of your excellent
+                <hi rend="italic">Baume d'Arquebuſade,</hi>
+              <lb/>which entirely cured me of a violent dropſical com- <lb/>plaint that threatened
+              the moſt ſerious conſequences, <lb/>I think it but juſtice in me to avow it. I have
+              alſo <lb/>the pleaſure to inform you of a remarkable cure it <lb/>lately performed
+              upon one of my ſervants in the <lb/>country, who had the misfortune to tear her arm by
+              <lb/>falling upon a ruſty ſpike, (where ſhe hung for ſome <lb/>time) which made a hole
+              as large and half as deep as <lb/>my finger: I immediately filled the wound with the
+              <lb/>Baume, and after dreſſing it with the Baume a few <lb/>days had the ſatisfaction
+              to ſee her arm perfectly <lb/>healed, and ſhe could do her work as uſual. </p>
+            <signed rend="indent hanging">
+              <lb/>I am, &amp;c. <lb/>MARY ELFORD. </signed>
+            <lb/>
+            <dateline><hi rend="italic">Hollyport, Berks,</hi>
+              <lb/><hi rend="italic">December</hi> 4, 1789. </dateline></div><div>
+            <lb/>
+            <salute>SIR, </salute>
+            <p rend="indent">
+              <lb/>WE have a number of people ill in this neigh- <lb/>bourhood, particularly of ſore
+              throats. I have found <lb/>your <hi rend="italic">Baume d'Arquebuſade</hi> to be more
+              efficacious <lb/>than any other medicine, it having given almoſt im- <lb/>mediate
+              relief, and only from an outward applica- <lb/>tion. Great numbers have died of this
+              virulent ſore <pb xml:id="page_41" n="36"/>
+              <lb/>throat; but I hope the timely application of this <lb/>uſeful medicine may,
+              through the bleſſing of God, <lb/>prevent its direful effects. — Beg you will imme-
+              <lb/>diately ſend by the Boſton Coach ſix bottles, at <lb/>6s. 10d. per bottle, and
+              write upon the direction to <lb/>come in the inſide of the coach. </p>
+            <signed rend="indent hanging">
+              <lb/>I am, Sir, <lb/>Yours, &amp;c. <lb/>RICHARD BRACKENBURY. </signed>
+            <lb/>
+            <dateline rend="indent hanging"><hi rend="italic">Raithby Hall, near Spilsby,
+                Lincolnſhire,</hi>
+              <lb/><hi rend="italic">November</hi> 12, 1788. </dateline></div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <p rend="indent">
+          <lb/>☞ This incomparable antiſeptic, chemical Bal- <lb/>ſam is prepared from the
+          concentrated juices of <lb/>the moſt ſalatiferous, aromatic, ſaponaceous roots,
+          <lb/>plants, &amp;c., and is of ſo pervading a nature, that it <lb/>enters ſpeedily into
+          the ſyſtem when rubbed upon <lb/>the ſurface of the body, gradually opens the ob-
+          <lb/>ſtructed capillary veſſels, and paſſes through the <lb/>whole courſe of circulation:
+          its happy effects ha- <lb/>ving exceeded the Patentee's ableſt panegyric in the
+          <lb/>following caſes, viz. violent ſprains, bruiſes, frac- <lb/>tures, gun-ſhot and all
+          kinds of wounds, cuts, old <lb/>obſtinate ulcers, and ſwellings of the joints and
+          <lb/>other parts, ſcalds, burns, chilblains, &amp;c.; for all <lb/>of which, as well as
+          for its internal uſe, a bill of <lb/>directions is given with each bottle. </p>
+        <trailer rend="align-center">
+          <lb/>THE END. </trailer>
+      </div>
+    </div></body>
+  </text>
+</TEI>

@@ -1,0 +1,926 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LMEMT Corpus - Boulton: Some thoughts concerning the unusual qualities of the
+          air.</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>Richard Boulton</persName>
+            </author>
+            <title type="main">Some thoughts concerning The Unusual Qualities of the air. Containing
+              Some Cautions necessary to prevent Malignant and Pestilential or Contagious
+              Distempers. As also Proper Medicines to prevent the ill Effects of Malignancy and
+              Contagious Infection, either in Respect of Malignant Fevers, the Small-Pox; or
+              Intermitting Fevers or Agues, especially where Endemical or Epidemical, as in Kent and
+              Essex. By Richard Boulto, sometime of Brazen-Nose Colledge in Oxford. </title>
+            <edition n="1"/>
+            <idno type="ESTC">T49403</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/T49403"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>London: printed for John Hooke, at the Flower de Luce, over against St.
+                  Dunstan's Church in Fleet-Street, MDCCXXIV.</persName>
+              </publisher>
+              <date>1724</date>
+            </imprint>
+            <extent>
+              <measure type="format">8⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="5"/>
+              <measure type="count" commodity="body" unit="page" quantity="47"/>
+              <measure type="count" commodity="back" unit="page" quantity="1"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">British Library</orgName>
+            <idno type="ECCO">CW3307209566</idno>
+            <idno type="TCP">K045775.000 </idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Book on a specific topic: disease"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text xml:lang="eng">
+    <front>
+      <div>
+        <pb xml:id="page_2"/>
+        <head rend="align-center space">
+          <lb/>TO THE Illuſtrious Prince <hi rend="italic">JOHN,</hi> Duke of <hi rend="italic"
+            >Montagu.</hi>
+        </head>
+        <salute>May it pleaſe your Grace, </salute>
+        <p rend="indent">
+          <lb/>YOUR Noble Anceſ- <lb/>tors, have continued ſo Illuſtrious a Cha- <lb/>racter to
+          Poſterity; that it is a great Happineſs to find the <pb xml:id="page_3"/>
+          <lb/>ſame, equally ſhining in your Grace: A Character, ſo wor- <lb/>thy of its Noble
+          Origin, ex- <lb/>celling both in Learning Vir- <lb/>tue and Loyalty, that I ſhould be vain
+          to endeavour to draw that, which lyes out of the Power of my ſlender Pen. </p>
+        <p rend="indent">
+          <lb/>I ſhall therefore forbear to attempt, according to the u- <lb/>ſual Methods of
+          Dedications, what I am not able to do Juſtice to, and ſhall only humbly beg the Favour to
+          lay this Trifle at your Feet. </p>
+        <p rend="indent">
+          <lb/>A Trifle, not in reſpect of the Subject, being of the higheſt concern and worthy our
+          Conſideration, but only <pb xml:id="page_4"/>
+          <lb/>as it contains ſome brief Thoughts, ſufficient to guard us from Dangerous Effects:
+          for my Intention here was not to write a thorough or com- <lb/>pleat Tract, but to propoſe
+          juſt and neceſſary Cautions, againſt ſuch Evils, which I choſe to do in as few words as I
+          could. </p>
+        <p rend="indent">
+          <lb/>The Honour your Grace hath been pleaſed to do the Faculty of Phyſick, in being a
+          Fellow of the College, encourages me to hope that any thing that may ſeem Rea-
+          <lb/>ſonable that way, may meet with your Graces favourable Acceptance and Patronage. </p>
+        <pb xml:id="page_5"/>
+        <p rend="indent">
+          <lb/>If this Trifle ſhall ſeem ſo to your Grace, it will be the greateſt Satisfaction and
+          En- <lb/>couragement to </p>
+        <signed>Your Graces Moſt Humble and Obedient Servant <hi rend="italic">RICHARD BOULTON.</hi>
+        </signed>
+      </div>
+    </front>
+    <body>
+      <div>
+        <pb xml:id="page_6" n="1"/>
+        <figure>
+          <figDesc>A rectangular floral ornament. </figDesc>
+        </figure>
+        <head rend="align-center">
+          <lb/>SOME <lb/><hi rend="size(2.0)">THOUGHTS</hi>
+          <lb/>CONCERNING <lb/><hi rend="size(1.25)">The Unuſual Qualities</hi>
+          <lb/>OF THE <lb/><hi rend="size(2.0)">AIR, <hi rend="italic">&amp;c.</hi></hi>
+        </head>
+        <p rend="indent">
+          <lb/><hi rend="dc(4)">S</hi>INCE all Creatures <lb/>who have the Faculty <lb/>of
+          Reſpiration, and live <lb/>upon the Superficies of <lb/>this Terreſtrial Globe, and inha-
+          <lb/>bit the ſeveral Climates of the known <pb xml:id="page_7" n="2"/>
+          <lb/>World, are obliged to breathe the <lb/>Common Air or Atmoſphere they <lb/>live in;
+          and ſince not only thoſe, <lb/>but Mankind, whoſe Lives are more <lb/>particularly
+          valuable, as a Creature <lb/>of the moſt Noble and firſt Rank, <lb/>are ſubject to be
+          altered and vari- <lb/>ouſly affected, according to the dif- <lb/>ferent Qualities of that
+          Air; and <lb/>to receive different Impreſſions, ac- <lb/>cordingly as that is impregnated,
+          <lb/>and endowed with ſeveral various <lb/>Extraneous Bodies, Vapours or Ef-
+          <lb/>fluſions; and ſince theſe are not only <lb/>likely to affect human Bodies ex-
+          <lb/>ternally through the Pores of the <lb/>Skin, but internally, when ſucked <lb/>into
+          the Lungs, into more tender <lb/>and rarify'd Veſſels, containing hu- <lb/>mours more
+          exquiſitely rarify'd and <lb/>expanded; and conſequently are <lb/>liable to be altered and
+          depraved ac- <lb/>cording to the various Diſpoſitions <lb/>of that Air we breathe, which
+          may <lb/>lay the foundations of Diſorders and <lb/>Diſtempers, pernicious and deſtructive
+            <pb xml:id="page_8" n="3"/>
+          <lb/>to human Bodies, as thoſe extraneous <lb/>Bodies, Vapours, or Effluviums are
+          <lb/>more or leſs unwholſome and of a <lb/>different Nature; I ſay, ſince Hu- <lb/>man
+          Bodies are thus diſpoſed and <lb/>liable to be ill affected and diſordered <lb/>by the
+          various Qualities of the Air <lb/>we breathe, it is not only neceſſary <lb/>but requiſite
+          we ſhould conſider, the <lb/>different Qualities of that Air, and <lb/>what Extraneous
+          Bodies, Vapours, <lb/>or Effluviums it may be impregnated <lb/>and endowed with; and what
+          alte- <lb/>rations or ill Effects theſe may occa- <lb/>ſion and produce, either at the
+          pre- <lb/>ſent, or for the future; and how far <lb/>they may be prejudicial and perni-
+          <lb/>tious to Mankind. </p>
+        <p rend="indent space">
+          <lb/>To determine and enable us to judge <lb/>of the different Qualities of the Air,
+          <lb/>and what Extraneous Bodies or Va- <lb/>pours it may be Impregnated and <lb/>Endowed
+          with, we are to conſider, <lb/>how many Ways it may be furniſhed <lb/>with ſuch Vapours or
+          Effluviums; <pb xml:id="page_9" n="4"/>
+          <lb/>which muſt be, either from foreign <lb/>Globes, far diſtant from the Earth <lb/>we
+          live in, and from the Superficies <lb/>of our Atmoſphere; from extrane- <lb/>ous Bodies,
+          or Vapours emitted or <lb/>riſing from Bodies on the Superficies <lb/>of our Globe; or
+          from Vapours <lb/>and Effluviums tranſuding and aſ- <lb/>cending out of the Bowels of the
+          <lb/>Earth. </p>
+        <p rend="indent space">
+          <lb/>As for thoſe Globes which are vaſt- <lb/>ly diſtant from the Earth we live in,
+          <lb/>and far remote from the Superficies <lb/>of our Atmoſphere, theſe are either <lb/>the
+          Stars, the Moon or the Sun. </p>
+        <p rend="indent space">
+          <lb/>The Stars are ſo many Thouſand <lb/>Miles diſtant from us, and ſeparated <lb/>by ſuch
+          a ſpacious and boundleſs <lb/>Aether or Medium, that we can but <lb/>juſt perceive the
+          Glimmering rays <lb/>of thoſe Celeſtial Bodies, which are <lb/>ſufficient to convince us
+          that there <lb/>are ſuch Stupendious Effects of an <lb/>Infinite Power; but they are ſo
+          ſmall, <pb xml:id="page_10" n="5"/>
+          <lb/>that they can have but little Effects <lb/>in altering the Qualities of the <lb/>Air
+          we Breathe; much leſs are they <lb/>able to inform us, of the Nature of <lb/>thoſe
+          diſtarit Globes; and conſe- <lb/>quently cannot afford us any know- <lb/>ledge what
+          Alterations ſuch can pro- <lb/>duce; only we may conclude, that <lb/>where the Cauſes are
+          ſmall and ſcarce <lb/>perceivable, the Effects muſt be in- <lb/>conſiderable; and
+          therefore can do <lb/>little good, except as Luminaries, <lb/>or produce not much ill; and
+          con- <lb/>ſequently cannot contribute much <lb/>to pervert it or deprave the Diſpo-
+          <lb/>ſition of our Air or Atmoſphere. </p>
+        <p rend="indent space">
+          <lb/>As for the Moon, though that is <lb/>much nearer than any of the Stars, <lb/>yet it
+          is alſo placed at a great di- <lb/>ſtance from the Superficies of the <lb/>Earth, and
+          ſeparated by a vaſt ex- <lb/>tent of fine Æther, which interpoſes <lb/>betwixt that Globe
+          and ours, <lb/>and prevents it from any im- <lb/>mediate Effects upon the Air we live <pb
+            xml:id="page_11" n="6"/>
+          <lb/>in; and though ſeveral Effects are <lb/>attributed to it, becauſe the Periods
+          <lb/>ſeem to keep time with its different <lb/>Poſitions, yet it is contrary to all
+          <lb/>known Laws Statical or Hydroſtatical, <lb/>that it ſhould have any Effect upon
+          <lb/>any Bodies contained within our At- <lb/>moſphere, as having no immediate
+          <lb/>contact with terrene Bodies, but <lb/>only upon that Aether, which equally
+          <lb/>encompaſſes and compreſſes the Su- <lb/>perficies of our Vortex, and the ut-
+          <lb/>moſt Extent of the Globe we live <lb/>and breathe upon or in; for the Air <lb/>or
+          Atmoſphere may be properly ſaid <lb/>to be a part of our Globe though <lb/>the moſt fluid
+          and rarify'd Superficial <lb/>covering of Earth and Water, and <lb/>though Lunaticks, or
+          thoſe Diſtem- <lb/>pers which grow worſe at certain <lb/>periods, ſeem to be equal in
+          diſtance <lb/>with the ſeveral Poſitions of the <lb/>Moon, yet it cannot be demon-
+          <lb/>ſtrated, that thoſe Effects are owing <lb/>to it as a Cauſe, ſince other periodi-
+          <lb/>cal Diſtempers keep an equal diſtance <pb xml:id="page_12" n="7"/>
+          <lb/>betwixt their Periods, which depend <lb/>upon Cauſes contained within the <lb/>Limits
+          of our own Bodies; and as <lb/>for the Ebbing and Flowing of the <lb/>Sea, that muſt
+          proceed from ſome o- <lb/>ther Cauſe, both Statical and Hy- <lb/>droſtatical Rules
+          excluding it any <lb/>ſhare in theſe different Motions of <lb/>that fluid Element; but not
+          to en- <lb/>ter upon Diſputes of that Nature, <lb/>which are foreign to our preſent pur-
+          <lb/>poſe, we ſhall only obſerve, that <lb/>the Beams of the Moon, which illu- <lb/>minate
+          our Globe; are only reflected <lb/>Beams of the Sun tranſmitted into <lb/>our Atmoſphere,
+          and not the proper <lb/>Emanations or Effluviums of that <lb/>Globe; and for as much as
+          the Beams <lb/>of the Sun reflected from other Sub- <lb/>ſtances within our Globe, do not
+          <lb/>tranſmit to us the Nature of thoſe <lb/>Bodies they are reflected from, but <lb/>are
+          only variouſly modifyd and re- <lb/>fracted in the Superficies of thoſe <lb/>Bodies, which
+          different refractions <lb/>variouſly affect our Senſory, or the <pb xml:id="page_13" n="8"/>
+          <lb/>Organ of Sights, and produce the <lb/>Senſation of different Colours or
+          <lb/>Refractions, and which only affect <lb/>the Senſe of Seeing, as they are
+          <lb/>ſtronger or weaker: Conſequently <lb/>we cannot expect, that the Beams of <lb/>the
+          Sun, reflected from the Super- <lb/>ficies of the Moon, ſhould convey <lb/>to us the
+          Qualities of that Body or <lb/>Globe, eſpecially ſince they are like- <lb/>wiſe convey'd
+          through ſo fine a Strai- <lb/>ner as the interpoſed Aether, and re- <lb/>fracted and
+          altered alſo in paſſing <lb/>through the great and lofty expanded <lb/>part of our
+          Atmoſphere, which is <lb/>reckoned, or computed, to be Seven <lb/>Miles perpendicular in
+          height, boying <lb/>up a Pillar of Quickſilver in a Wea- <lb/>ther-Glass, ſuch a
+          conſiderable height, <lb/>till it amounts to an Aequilibrium, or <lb/>equal Weight of a
+          Pillar of Air, of <lb/>the ſame Diameter and thickneſs, <lb/>preſſing upon the Baſis, or
+          Bottom <lb/>of that Pipe the Mercury or Quick- <lb/>ſilver is contained in. </p>
+        <pb xml:id="page_14" n="9"/>
+        <p rend="indent space">
+          <lb/>As for the Sun, it is evident, that <lb/>it acts upon all Bodies within our
+          <lb/>Atmoſphere by Virtue of its Heat, <lb/>ſince in the Summer time, when it is <lb/>near
+          enough, it rarifies, expands and <lb/>digeſts the Superficial Juices of the <lb/>Earth, as
+          well thoſe in our Bodies, <lb/>which when fermented, attenuated <lb/>and rarify'd, are
+          preſſed by the force <lb/>of the incumbent Atmoſphere in- <lb/>to the Roots of Plants and
+          Trees, <lb/>and riſe higher, as further rarify'd, <lb/>preſs'd and expanded in the Veſſels
+          <lb/>of each Plant, which being variouſly <lb/>fermented and ſtrained through dif-
+          <lb/>ferent Veſſels along with Specifick <lb/>Juices, are aſſimilated and converted
+          <lb/>into the proper Juices of thoſe Plants. </p>
+        <p rend="indent space">
+          <lb/>The Sun Beams alſo affect other <lb/>Bodies on the Superficies of the <lb/>Earth, and
+          by their active Parts, put <lb/>the Parts of other Subſtances in Mo- <lb/>tion, and cauſes
+          them to emit Va- <lb/>pours and Effluviums, which, ac- <lb/>cording to their different
+          Natures <pb xml:id="page_15" n="10"/>
+          <lb/>variouſly alter and affect the Air we <lb/>breathe, and render it more or leſs
+          <lb/>wholeſome and pernicious, Healthful <lb/>or Deſtructive: But though the <lb/>Sun hath
+          ſuch conſiderable Effects <lb/>upon this Globe, when near us, yet <lb/>when but a little
+          further off in the <lb/>Winter, we ſee that it hath little or <lb/>no apparent Effects
+          upon the Climate <lb/>we live in; and if ſo ſmall a dif- <lb/>ference can extinguiſh the
+          obvious <lb/>Effects of ſo bright a Body as the <lb/>Sun, we can ſcarce imagin, that the
+          <lb/>Moon or Stars which are much fur- <lb/>ther off and Shine but faintly, ſhould
+          <lb/>have any conſiderable Effects, or <lb/>indeed any at all, eſpecially ſince they
+          <lb/>cannot be perceived. </p>
+        <p rend="indent space">
+          <lb/>It appearing hence, in a great Mea- <lb/>ſure, how the Air we breathe may <lb/>be
+          altered by Foreign Globes far <lb/>diſtant from our Earth, we are next <lb/>to conſider
+          how the Air we breathe <lb/>in may be altered and depraved by <lb/>Vapours and Effluviums
+          emitted, <pb xml:id="page_16" n="11"/>
+          <lb/>and ariſing from the Superficies of <lb/>the Globe we inhabit, which appears
+          <lb/>from the vaſt variety of different <lb/>Subſtances which may be obſerved <lb/>on the
+          Superficies of the Globe we <lb/>live upon, which deprave the Natural <lb/>Temper and
+          Diſpoſition of the Air, <lb/>and conſequently variouſly affect the <lb/>Maſs of Humours
+          circulating through <lb/>the minute and ſmall Veſſels con- <lb/>tained in and diſperſed
+          through the <lb/>Subſtance of the Lungs, ſuch as pu- <lb/>trify'd Bodies, and the conſtant
+          E- <lb/>manation of Vapours occaſioned by <lb/>ſtanding Waters, and the unwhole- <lb/>ſome
+          Stenches which naturally flow <lb/>from the products of Art, as well <lb/>as Nature, which
+          more particularly <lb/>affect thoſe Perſons employed in <lb/>ſuch Arts, and more
+          immediately <lb/>exerciſed about them; thus we ſee <lb/>the ſtrange decay in thoſe Perſons
+          <lb/>which work in Pot-houſes, Chymi- <lb/>cal Elaboratories, and other employ-
+          <lb/>ments, where they are expoſed to <lb/>unwholeſome Vapours and preternar- <pb
+            xml:id="page_17" n="12"/>
+          <lb/>tural Fumes. And theſe are further <lb/>improved to an ill purpoſe, and <lb/>grow
+          more pernicious and unwhole- <lb/>ſome, and deprave the wholeſome <lb/>Diſpoſiton of the
+          Air, when more <lb/>forceably put in Action by the united <lb/>force and heat of the Sun
+          Beams. </p>
+        <p rend="indent space">
+          <lb/>But the greateſt and moſt con- <lb/>ſiderable Alteration which the Air <lb/>receives
+          from the Extraneous mix- <lb/>ture of Vapours and Effluviums, <lb/>ſeems to be from ſuch
+          as tranſude <lb/>and aſcend out of the Bowels of the <lb/>Earth, whether of a Mineral kind
+          or <lb/>of any other Nature. And as ſuch <lb/>ſort of Vapours and Effluviums are <lb/>moſt
+          likely to produce great and ex- <lb/>traordinary Alterations, ſo coneſ- <lb/>quently thoſe
+          Alterations are pro- <lb/>bably moſt pernicious, and of the <lb/>worſt conſequence, and
+          apteſt to oc- <lb/>caſion the worſt of Accidents in hu- <lb/>man Bodies. </p>
+        <pb xml:id="page_18" n="13"/>
+        <p rend="indent space">
+          <lb/>From ſuch kind of Vapours dif- <lb/>fervently agitated and put in Action <lb/>by the
+          nearer approach, or greater <lb/>diſtance of the Sun, ſeems to ariſe <lb/>that great
+          variety of Climates, not <lb/>only in the ſame Latitude, but ſe- <lb/>veral Parts of the
+          Terreſtrial Globe; <lb/>for accordingly as the Air is variouſly <lb/>affected with ſuch
+          Effluviums of dif- <lb/>ferent kinds, theſe Vapours being <lb/>put in Action by the heat
+          of the Sun <lb/>Beams produce different Effects, and <lb/>render the Air in ſuch Climates
+          <lb/>more or leſs wholeſome, pernicious <lb/>and depraved: Thus Agues are <lb/>more
+          frequent in <hi rend="italic">Kent</hi>, and other Di- <lb/>ſtempers more common and
+          cuſtom- <lb/>mary in different Parts of the World. </p>
+        <p rend="indent space">
+          <lb/>When by the Conſtant and Cuſto- <lb/>mary tranſmiſſion of particular Va- <lb/>pours
+          and Effluviums, any Country <lb/>is frequently or conſtantly ſubject to <lb/>ſuch
+          Diſeaſes; theſe Diſtempers are <lb/>ſaid to be Endemical or proper to <lb/>that particular
+          Climate; but when <pb xml:id="page_19" n="14"/>
+          <lb/>Contagious or Malignant Diſtempers <lb/>happen to rage more than commonly <lb/>or
+          accidentally in any Place, ſuch <lb/>Diſorders are called Epidemical, or <lb/>ſpreading at
+          ſome particular Times, <lb/>ariſing from the accidental Diſcharge <lb/>and Aſcenſion of
+          particular Vapours <lb/>out of the Bowels of the Earth at <lb/>that Time. </p>
+        <p rend="indent space">
+          <lb/>The Temper of the Air in dif- <lb/>ferent Climates is alſo altered dif- <lb/>ferently
+          according to the Quantity <lb/>as well as Quality of ſuch Vapours, <lb/>and as the Air is
+          more plentifully or <lb/>ſparingly impregnated with ſuch pre- <lb/>ternatural Vapours,
+          which alſo in the <lb/>ſame Climates exert themſelves more <lb/>or leſs vigorouſly
+          according to the <lb/>different Seaſons of the Year. Thus <lb/>in Summer time Contagious
+          or Ma- <lb/>lignant Diſtempers rage more vigo- <lb/>rouſly and univerſally and are leſs
+          Epi- <lb/>demical in the Winter. </p>
+        <pb xml:id="page_20" n="15"/>
+        <p rend="indent space">
+          <lb/>And as the Temper and Diſpoſition <lb/>of the Air varies according to dif-
+          <lb/>ferent Climates, the various quan- <lb/>tities of Mineral Effluviums, and the
+          <lb/>different Seaſons of the Year; ſo we <lb/>find a vaſt difference according to the
+          <lb/>Nature and Qualities of ſuch Mineral <lb/>Vapours. Some Minerals afford very
+          <lb/>wholeſome and Salutiferous Steams, <lb/>whilſt others are dangerous and per-
+          <lb/>nicious. Thus the Mines in <hi rend="italic">Cornwall</hi>
+          <lb/>make the Country wholeſome and <lb/>healthful, whilſt others produce Con-
+          <lb/>tagious and Peſtilential Qualities, <lb/>which render ſuch Countries frequent-
+          <lb/>ly ſubject to ſuch Diſtempers. </p>
+        <p rend="indent space">
+          <lb/>Thoſe Mineral Effluviums or Va- <lb/>pours which produce Peſtilential Diſ-
+          <lb/>eaſes, are of a moſt pernicious <lb/>kind, and are attended with very <lb/>violent
+          and moſt fatal Symptoms, <lb/>and ſuch are eſteemed, by that moſt <lb/>Worthy and profound
+          Judge of the <lb/>Works of Nature, the Honourable <lb/><hi rend="italic">Robert
+          Boyle</hi>, to be of an Arſenical <pb xml:id="page_21" n="16"/>
+          <lb/>kind, producing Effects of the moſt <lb/>Malignant and Poiſonous Nature, <lb/>being
+          moſt offenſive and deſtructive <lb/>to Human Bodies. </p>
+        <p rend="indent space">
+          <lb/>It appearing then from what we <lb/>have ſaid, that the Temper of the <lb/>Air, and
+          its moſt Unuſual Qualities, <lb/>which are likewiſe moſt deſtructive <lb/>and dangerous,
+          chiefly depend on <lb/>the Effluviums or Vapours riſing out <lb/>of the Bowels of the
+          Earth, when- <lb/>ever we find the Temper and Diſpo- <lb/>ſition of any Climate to vary
+          and <lb/>differ from what it commonly does <lb/>in ſuch Climates, we have good rea-
+          <lb/>ſon to conclude, that the Air is Im- <lb/>pregnated with ſome unuſual Efflu-
+          <lb/>viums out of the Bowels of this Ter- <lb/>reſtrial Globe, which being mixed <lb/>with
+          and diſperſed through the Air <lb/>produce that uncommon Indiſpo- <lb/>ſition. </p>
+        <p rend="indent space">
+          <lb/>And ſince we are conſtantly obli- <lb/>ged to breathe the Air we live in, and <pb
+            xml:id="page_22" n="17"/>
+          <lb/>to impregnate our Blood with ſuch <lb/>Heterogeneous and offenſive Particles,
+          <lb/>which perverting the Courſe of Na- <lb/>ture may produce ill Effects in human
+          <lb/>Bodies, we ought to be very careful <lb/>to guard our ſelves againſt ſuch Ac-
+          <lb/>cidents as may be Deſtructive, and <lb/>ſo prejudicial to Mankind, and to <lb/>make
+          uſe of neceſſary precautions to <lb/>prevent ſuch ill Accidents, as ſuch
+          <lb/>Inconveniencies may render us liable <lb/>to. </p>
+        <p rend="indent space">
+          <lb/>It cannot be out of our Memory <lb/>what fatal Conſequences have lately <lb/>happened
+          Abroad, eſpecially in the <lb/>South Parts of <hi rend="italic">France</hi>; and how
+          <lb/>many Thouſands have been deſtroy- <lb/>ed by the fatal Effects of an ill diſ-
+          <lb/>poſed Temper of the Air, ſo Mor- <lb/>tal and Epidemical. And as other <lb/>Parts of
+          the World may be likely to <lb/>ſuffer by Accidents, and may be <lb/>liable to the ſame
+          approaching Dan- <lb/>gers, by hidden Vapours and Efflu- <lb/>viums tranſmitted from the
+          inward <pb xml:id="page_23" n="18"/>
+          <lb/>Parts of the Earth, and by Mineral <lb/>Effluviums of a Malignant kind; <lb/>whenever
+          we find any unuſual Quality <lb/>in the Air, we have a great deal of <lb/>Reaſon to be
+          afraid of ſome unuſual <lb/>Accidents, and to make uſe of all <lb/>neceſſary precautions
+          to prevent <lb/>them. If ſuch ill and Malignant <lb/>Qualities ſhould be convey'd from
+          <lb/>the inward Parts of the Earth into <lb/>our Atmoſphere, ſuch cautionary
+          <lb/>Preparations would arm us the bet- <lb/>ter againſt their ill Effects; and tho'
+          <lb/>no ſuch danger, as we might juſtly <lb/>fear, ſhould happen, yet at leaſt we
+          <lb/>ſhould reap this advantage by our <lb/>jealous ſurmiſes, that we ſhould free <lb/>our
+          Bodies of ill diſpoſed Humours, <lb/>and put our ſelves in a better State <lb/>and
+          Condition of Health; ſo that <lb/>our Labour would not be ill beſtow- <lb/>ed and
+          fruitleſs, nor our Pains ill re- <lb/>warded; the juſt Cautions to arm <lb/>our ſelves
+          againſt the greateſt of <lb/>Dangers, would at leaſt ſecure us <lb/>againſt leſs Evils. </p>
+        <pb xml:id="page_24" n="19"/>
+        <p rend="indent space">
+          <lb/> And that at the preſent, we have <lb/>very probable Grounds and ſubſtan- <lb/>tial
+          Reaſons to fear ſome impending <lb/>Evil, and future Danger, which may <lb/>too ſuddenly
+          happen in our Climate, <lb/>and conſequently we ought to make <lb/>uſe of proper Methods
+          to prevent <lb/>ſuch Events, will in a great meaſure <lb/>appear, if we conſider the Steps
+          arid <lb/>Progreſs of Malignant or Peſtilen- <lb/>tial Diſtempers in former Times, and
+          <lb/>alſo the Intemperies of our Climate <lb/>for ſome time paſt, and at the preſent
+          <lb/>time; which may give us ſufficient <lb/>grounds to ſuſpect the conſequential
+          <lb/>Intemperature of the Air for the fu- <lb/>ture, or time to come. </p>
+        <p rend="indent space">
+          <lb/>As for the Steps and Progreſs of <lb/>Malignant or Peſtilential Diſtempers,
+          <lb/>formerly it hath been obſerved, that <lb/>the Peſtilence took its Courſe ſuc-
+          <lb/>ceſſively through ſeveral Parts of <lb/><hi rend="italic">Europe,</hi> beginning
+          firſt in <hi rend="italic">Aſia,</hi> and <lb/>then runing through <hi rend="italic"
+            >Italy, Germany, <lb/>Denmark, Sweden, England,</hi> &amp;c. In <pb xml:id="page_25"
+            n="20"/>
+          <lb/><hi rend="italic">Turkey</hi> it is Endemical, and con- <lb/>ſtantly appears every
+          Year; but this <lb/>in a great meaſure depends on the <lb/>exceſſive Heats of the Climate,
+          and <lb/>their way of living; their Blood be- <lb/>ing too much phlegmated to ſupport
+          <lb/>and ſupply a ſufficient Diaphoreſis or <lb/>Sweat, in the Time of exceſſive
+          <lb/>Heat, and this is, in a great meaſure, <lb/>occaſioned by their Abſtinence, ac-
+          <lb/>cording to <hi rend="italic">Mahomet</hi>'s Laws, from <lb/>Spiritous Liquors, which
+          might ſuf- <lb/>ficiently attenuate the Serum of the <lb/>Blood, and render it apt for
+          Tran- <lb/>ſpiration, ſo that when the Maſs of <lb/>Humours begin to be fermented with
+          <lb/>Heat, the phlegmatick Parts of <lb/>the whole are too great in Quanti- <lb/>ty, and
+          too groſs in Quality to be <lb/>diſcharged according to the ordinary <lb/>Courſe of
+          Nature. </p>
+        <p rend="indent space">
+          <lb/>But it appear'd lately in <hi rend="italic">France</hi>
+          <lb/>without any Mask or Excuſe to hide <lb/>the Evident Cauſe of its Malignancy, <lb/>it
+          plainly appearing to proceed from <pb xml:id="page_26" n="21"/>
+          <lb/>Contagious Parts of Matter diſperſed <lb/>through the Air, which, from what <lb/>hath
+          been ſaid, appear to be ſupply'd <lb/>by Subterraneous Mineral Effluviums, <lb/>or
+          Vapours, proceeding out of the <lb/>Bowels of the Earth, Which God Al- <lb/>mighty
+          preſerve us from! </p>
+        <p rend="indent space">
+          <lb/>But it is too much to be feared, <lb/>that ſome Heterogeneous Particles, or
+          <lb/>Malignant Vapours and Effluviums <lb/>have, and are, too much diſperſed <lb/>through
+          our Atmoſphere, or the Air <lb/>which we now breathe in our Cli- <lb/>mate; and this will
+          appear too likely, <lb/>if we obſerve, that near the whole <lb/>Twelve Months laſt paſt,
+          the Nitrous <lb/>Parts of the Air have almoſt been to- <lb/>tally overpower'd, and
+          hindered from <lb/>producing their Natural Effects as <lb/>uſual in this Climate: For we
+          may <lb/>obſerve, that moſt of the laſt Sum- <lb/>mer was not only hot and dry, but
+          <lb/>that moſt of the laſt Winter ap- <lb/>peared more like Summer than <lb/>Winter
+          Weather, there being little <pb xml:id="page_27" n="22"/>
+          <lb/>appearance of either Froſt or Snow, <lb/>to what is uſual in this Climate; <lb/>and
+          we at the preſent find, that the <lb/>Heat of the Weather hath ſome time <lb/>exceeded
+          what it hath for ſeveral Years <lb/>laſt paſt, which if it ſhould encreaſe
+          <lb/>proportionally, as the Sun ap- <lb/>proaches, it muſt render the hotteſt <lb/>Seaſon
+          of the Year exceſſively ſo; <lb/>and conſequently muſt produce ex- <lb/>ceeding Malignant
+          Diſtempers, if not <lb/>Peſtilential. </p>
+        <p rend="indent space">
+          <lb/>And that we may reaſonably con- <lb/>clude, that ſuch Intemperatures of the <lb/>Air
+          proceed from Subterraneous Va- <lb/>pours, or Effluviums, which not only <lb/>over-power
+          the Nitrous Parts of the <lb/>Air, but are put and excited into a <lb/>preternatural
+          Fermentation by the <lb/>heat of the Sun; I ſay, we may <lb/>reaſonably deduce this
+          Concluſion, <lb/>ſince the Sun would have its conſtant <lb/>and certain effect at the ſame
+          Diſtance, <lb/>and conſequently, that the Differen- <lb/>ces muſt proceed from ſome
+          Hetero- <pb xml:id="page_28" n="23"/>
+          <lb/>geneous Particles, which concur <lb/>to produce ſuch Alterations and <lb/>Differences
+          in the Natural Diſpoſition <lb/>of the Air in one Climate. </p>
+        <p rend="indent space">
+          <lb/>And that the Air is too much Im- <lb/>pregnated with ſome Heterogeneous <lb/>Vapours,
+          is evident from the Mala- <lb/>dies which have lately afflicted ſeveral <lb/>Perſons, as
+          particular Feveriſh Heats <lb/>and Indiſpoſitions, attended with <lb/>Pains in the Head
+          and dizzineſs, and <lb/>other Symptoms much different from <lb/>thoſe which appear in
+          Phthiſis or any <lb/>uſual Diſtempers. </p>
+        <p rend="indent space">
+          <lb/>If then, as we may well conclude, <lb/>or, at leaſt ſuſpect, the Air we breathe,
+          <lb/>is impregnated with Heterogeneous <lb/>Particles, as it ſeems to appear, not
+          <lb/>only from what we have mentioned, <lb/>but the ſudden and ſurpriſing Death <lb/>of
+          ſeveral Perſons, eſpecially of late, <lb/>ſince we continually ſuck in, and <lb/>imbibe
+          theſe Heterogeneous Particles <lb/>into our Blood in Reſpiration, it <pb xml:id="page_29"
+            n="24"/>
+          <lb/>ſeems worth our while to conſider <lb/>what Methods are proper to prevent <lb/>their
+          ill Effects, if either it ſhould <lb/>happen, that the Air ſhould be more <lb/>plentifully
+          impregnated with ſuch <lb/>Particles, or by long breathing them <lb/>into our Lungs, the
+          Maſs of Blood <lb/>ſhould be more ſtrongly impregnated <lb/>with them, ſo as to enable
+          them to <lb/>produce their ill Effects more vigo- <lb/>rouſly. </p>
+        <p rend="indent space">
+          <lb/>In order to aſſign proper Methods <lb/>to this purpoſe, it will be requiſite <lb/>to
+          conſider, what Cauſes commonly <lb/>concur to produce Malignant Peſti- <lb/>lential
+          Diſtempers, front whence it <lb/>will appear, what Methods may be <lb/>proper and moſt
+          expedient to prevent <lb/>ſuch Maladies, and to ſecure Man- <lb/>kind from ſuch Dangers as
+          may hap- <lb/>pen, without the over-ruling hand of <lb/>Providence to divert ſuch
+          pernicious <lb/>Qualities which may be more plen- <lb/>tifully emitted out of the Bowels
+          of <pb xml:id="page_30" n="25"/>
+          <lb/>the Earth, and diſperſed through <lb/>the infected Air we breathe in. </p>
+        <p rend="indent space">
+          <lb/>And, firſt, From what hath been <lb/>ſaid, it appears ſufficiently, that the
+          <lb/>Antecedent Cauſe of Malignant or <lb/>Peſtilential Diſtempers depends on, <lb/>and is
+          compoſed of extraneous ma- <lb/>lignant Mineral Vapours, or Exhala- <lb/>tions riſing out
+          of the Bowels of the <lb/>Earth and Impregnating the Air we <lb/>breathe with pernicious
+          Particles. </p>
+        <p rend="indent space">
+          <lb/>Theſe Mineral Effluviums or Va- <lb/>pours, Firſt and Primarily affect Hu- <lb/>man
+          Bodies, and being ſucked into <lb/>the Lungs in Breathing gradually im- <lb/>pregnate the
+          whole Maſs of Blood <lb/>with their Poiſonous Steams. </p>
+        <p rend="indent">
+          <lb/>Theſe Poiſonous Particles of Mi- <lb/>neral Vapours, at the firſt are ſo <lb/>ſmall
+          in quantity, that they are not <lb/>able to produce any ill Effects, be- <lb/>ing lodged
+          and harboured amongſt <lb/>the more Phlegmatick and groſs Parts <pb xml:id="page_31"
+            n="26"/>
+          <lb/>of the Animal Humours; but being <lb/>gradually collected to a greater quan-
+          <lb/>tity they exert themſelves more <lb/>powerfully, and the groſs Parts of <lb/>the
+          Blood being attenuated and ſub- <lb/>tiliſed by their corroſive Qualities, or <lb/>at
+          leaſt ſome part of them, they are <lb/>no longer able to cloak and skreen <lb/>them from
+          ſhewing their corroſive <lb/>Qualities. </p>
+        <p rend="indent space">
+          <lb/>The Maſs of Blood being thus <lb/>gradually more ſtrongly impregnated <lb/>with theſe
+          depraved and Heteroge- <lb/>neous Particles, and ſome Parts of <lb/>the Maſs of Humours
+          attenuated by <lb/>their corroſive Qualities, they begin <lb/>to diſcover thoſe Qualities;
+          run them <lb/>into a more fluid form by their cor- <lb/>roſive Faculty, and ſeparating
+          them <lb/>from the reſt, the perfect Mixture of <lb/>the Maſs of Humours is by this
+          <lb/>means broke, and made an imper- <lb/>fected Mixture, the groſſer Parts be- <lb/>ing
+          caſt off and ſeparated from the <lb/>thinner, and by this means rendered <pb
+            xml:id="page_32" n="27"/>
+          <lb/>unapt and unfit for Circulation; the <lb/>groſſer Parts occaſion Obſtructions <lb/>in
+          the ſmall and minuteſt Veſſels, <lb/>whilſt the more thin and corroſive <lb/>corrode and
+          deſtroy the continuity <lb/>of the Veſſels, whoſe joint Effects <lb/>make ſuch a ſad
+          Cataſtrophe in hu- <lb/>man Bodies, and putting the whole <lb/>fabrick into diſorder,
+          produce thoſe <lb/>ill Symptoms in Peſtilential and Ma- <lb/>lignat Diſtempers; as
+          Tumours, <lb/>Ulcers, Inflammations, Deliriums, <lb/>Mortifications and Death: In the
+          <lb/>Glandulous Parts they produce <lb/>Buboes, in the fleſhy Pares Car- <lb/>buncles and
+          Blotches, in the Nervous <lb/>Parts, eſpecially the Membranes of <lb/>the Brain,
+          Inflammation, Delirium <lb/>and Phrenſy, in the Glandulous <lb/>Parts of the Brain, and
+          other noble <lb/>Parts, violent Symptoms and ſud- <lb/>den Death. </p>
+        <p rend="indent space">
+          <lb/>Theſe Malignant and Peſtilential <lb/>Diſtempers being thus formed, and <lb/>the
+          Blood ſtrongly Impregnated with <pb xml:id="page_33" n="28"/>
+          <lb/>deſtructive Vapours as well as the <lb/>Air, the Diſtemper begins to be <lb/>more
+          contagious and ſpreading; the <lb/>ill Effluviums heaped up in human <lb/>Bodies now
+          exerting themſelves <lb/>powerfully, and breaking out of <lb/>thoſe Repoſitories, unite
+          with thoſe <lb/>contained in the Air, and more <lb/>ſtrongly affect thoſe Perſons about
+          <lb/>them; and thus the Infection is ſpread <lb/>and promoted Secondarily, theſe
+          <lb/>Effluviums from human Bodies u- <lb/>niting with thoſe contained in the <lb/>Air, and
+          thoſe already collected in <lb/>the Maſs of Blood. </p>
+        <p rend="indent space">
+          <lb/>But beſides theſe Primary and <lb/>Secundary Antecedent Cauſes to pro- <lb/>duce
+          Malignant and Peſtilential Di- <lb/>ſtempers, there are other acceſſory <lb/>and
+          Concurring Cauſes requiſite; <lb/>for ſince all are not equally ſubject <lb/>to them, but
+          ſeveral continue a long <lb/>time amongſt ſuch Perſons without <lb/>prejudice, till at the
+          laſt their Conſti- <lb/>tutions are gradually depraved and <pb xml:id="page_34" n="29"/>
+          <lb/>more ſtrongly affected with the Ve- <lb/>nemous Exhalations. </p>
+        <p rend="indent space">
+          <lb/>This Acceſſory concurring Cauſe, <lb/>muſt be a particular Diſpoſition in <lb/>the
+          Blood, to retain, and be affected <lb/>by theſe Infectious Vapours or Efflu- <lb/>viums of
+          the Earth, and human <lb/>Bodies; otherwiſe all People would <lb/>be equally ſubject to be
+          Infected at <lb/>the ſame time. To diſcover this <lb/>Diſpoſition, we are to conſider,
+          that <lb/>whatever is contained in the Maſs of <lb/>Blood, as long as it is thin enough
+          <lb/>to circulate through the Veſſels, there <lb/>is no danger of Obſtruction, and con-
+          <lb/>ſequently there can no damage <lb/>happen, except it be too thin, and <lb/>corroſive,
+          and opening the Extremi- <lb/>ties, or otherwiſe corroding and de- <lb/>ſtroying the
+          Continuity of the Veſ- <lb/>ſels occaſions an Extravaſation; but <lb/>even to produce that
+          Effect, the Hu- <lb/>mours muſt be very ſharp before they <lb/>can break the Veſſels, as
+          long as they <lb/>circulate freely, ſince they ſtay not <pb xml:id="page_35" n="30"/>
+          <lb/>long enough in any Part to produce <lb/>that Effect, and therefore we may <lb/>well
+          conclude that there muſt be <lb/>Viſcocity alſo in the Blood, and that <lb/>thoſe viſcous
+          Parts being either too <lb/>thick to circulate, or ſeparate from <lb/>the reſt, firſt
+          cauſe an Obſtruction <lb/>and detain theſe corroſive Humours, <lb/>the perfect Mixture of
+          the Blood be- <lb/>ing firſt broke and deſtroy'd by thoſe <lb/>Contagious Parts. </p>
+        <p rend="indent space">
+          <lb/>Indeed when the Veſſels are too <lb/>much crouded and extended with <lb/>Humours, as
+          in Plethorick Bodies, <lb/>Corroſive Particles crouded and im- <lb/>pelled by the force of
+          Circulation <lb/>into the ſmall Pores of the Veſſels, <lb/>may too much extend them and
+          con- <lb/>tribute to ſeparate and divide the <lb/>continuity of their Parts; but ſince
+          <lb/>there is Naturally a Viſcocity in the <lb/>Blood and Serum, and this may be, <lb/>and
+          frequently is too great; this u- <lb/>nited with thoſe Corroſive Qualities, <lb/>and
+          retaining them, will give them <pb xml:id="page_36" n="31"/>
+          <lb/>a greater opportunity of Corroſion. <lb/>Thus a Viſcous Phlegm retaining a <lb/>ſharp
+          Humour upon the Top of the <lb/>Stomach or Ventricle, where there <lb/>is a plentiful
+          Diſtribution of Nerves, <lb/>cauſes a corroding Pain at the Sto- <lb/>mach, called
+          Heart-burn; and <lb/>in the Membranes, about the <lb/>Muſculous Parts, occaſions Rheu-
+          <lb/>matick Pains, eſpecially where they <lb/>are moſt Senſible and incapable of
+          <lb/>Extenſion; and the Membranes of the <lb/>Joints corroded with a ſharp or Au-
+          <lb/>ſtere Viſcous Matter produce thoſe <lb/>exceſſive Pains of the Gout, where <lb/>the
+          Obſtruction ſo much retains thoſe <lb/>ſharp Humours that they corrode <lb/>the Veſſels in
+          pieces, and occaſion <lb/>ſuch an extravaſation of this Viſcous <lb/>Matter as to produce
+          and form <lb/>Nodes. </p>
+        <p rend="indent space">
+          <lb/>From hence it plainly appearing <lb/>that a prediſpoſition in the Blood is <lb/>an
+          acceſſory concurring Cauſe, and <lb/>that this prediſpoſed Humour, is a <pb
+            xml:id="page_37" n="32"/>
+          <lb/>Viſcous groſs Humour, which retains <lb/>and heaps up the Contagious Par- <lb/>ticles
+          of the Air we imbibe, and <lb/>draw in with our Breath, it con- <lb/>ſequently follows,
+          that the Conjunct <lb/>Cauſe, or Matter of the Diſeaſe is, <lb/>Contagious Particles
+          lodged firſt in <lb/>a Viſcous Humour, which was an <lb/>acceſſory Antecedent Cauſe, and
+          <lb/>diſengaged or ſeparated from the <lb/>ſharp Humour, and cauſing Ob- <lb/>ſtructions,
+          becomes along with that <lb/>ſharp Contagious Humour, a Con- <lb/>junct Cauſe, and both
+          together make <lb/>up the Material Cauſe, or the Mor- <lb/>bifick Matter of the Diſorder
+          and <lb/>Diſtemper, which according to the <lb/>Degrees, produces more Malignant
+          <lb/>Diſeaſes, and when abounding in an <lb/>extraordinary degree, even the Peſti-
+          <lb/>lence, which is ſo obnoxious and fa- <lb/>tal to Mankind. </p>
+        <p rend="indent space">
+          <lb/>And that a Viſcous Matter, along <lb/>with the Contagious Particles, is the
+          <lb/>Conjunct Cauſe, and produces Ma- <pb xml:id="page_38" n="33"/>
+          <lb/>lignant and Peſtilential Diſtempers, <lb/>is evident from hence, ſince all Peo-
+          <lb/>ple are not equally ſubject to ſuch <lb/>Diſtempers, and ſome never have <lb/>any at
+          all, though they live in a <lb/>Contagious Air, and amongſt In- <lb/>fected Perſons; and
+          that a Viſcous <lb/>prediſpoſition of Blood is neceſſary <lb/>as a concurring Cauſe is
+          manifeſt; <lb/>for as long as the Humours are ſuf- <lb/>ficiently attenuated, though ſharp
+          <lb/>corroſive Particles are imbibed into <lb/>the Blood, and mixed with it in
+          <lb/>Reſpiration, they are ſoon diſcharged <lb/>and ſeparated from it again, by the
+          <lb/>common Emunctories and diſcharges <lb/>of Nature, as by Sweat, Tranſpi- <lb/>ration,
+          Urine or Stool, before they <lb/>can have any time or power to alter <lb/>and corrupt the
+          Blood by deſtroying <lb/>its Texture and Mixture, for the <lb/>conſtant Agitation and
+          Circulation <lb/>of the Blood preſerves its Mixture <lb/>along time when kept in perpetual
+          <lb/>Motion; but when the Blood is <lb/>too thick it retains a greater Quan- <pb
+            xml:id="page_39" n="34"/>
+          <lb/>tity, hinders the Natural Diſcharge, <lb/>and conſequently tends to heap up
+          <lb/>Infectious Particles. </p>
+        <p rend="indent space">
+          <lb/>Beſides, when the Blood abounds <lb/>with Viſcous Parts, it produces a <lb/>larger
+          Diſcharge or Separation of <lb/>Phlegmatick Parts, when its Texture <lb/>and Mixture is
+          imperfect, which oc- <lb/>caſion Obſtructions, and concur to <lb/>produce Malignant
+          Symptoms, when <lb/>thrown Critically upon the minute <lb/>Veſſels or Glands of any Part. </p>
+        <p rend="indent space">
+          <lb/>When any ſuch Critical Diſcharge <lb/>is made, and a Malignant or Peſti- <lb/>lential
+          Diſtemper is formed, and <lb/>properly in <hi rend="italic">eſſe</hi> or <hi rend="italic"
+            >factu</hi>, that is, per- <lb/>fectly formed, the Antecedent, con- <lb/>junct and
+          Acceſſory Cauſes along <lb/>with the Symptoms produced, make <lb/>up the formal Cauſe,
+          which is the <lb/>Diſeaſe and its Symptoms. </p>
+        <p rend="indent space">
+          <lb/>But to compleat this, there is one <lb/>Cauſe acceſſory, which is the Proca- <pb
+            xml:id="page_40" n="35"/>
+          <lb/>tartick Cauſe, or that which puts <lb/>the Antecedent Cauſes in Action; <lb/>as any
+          ſudden Paſſion of the Mind, <lb/>and the ill uſe of Non-Naturals, or <lb/>the force of
+          Imagination; but that <lb/>which is chiefly ſo and External, is <lb/>the approaching Heat
+          and Activity <lb/>of the Sun Beams, which put thoſe <lb/>Contagious Effluviums, Vapours or
+          <lb/>Exhalations, in Action more briskly, <lb/>by encreaſing the Degrees of Fer-
+          <lb/>mentation or Digeſtion, the Conſe- <lb/>quence of which we may juſtly <lb/>fear and
+          dread; for if ſuch Conta- <lb/>gious Effluviums are in the Air, and <lb/>ſhould encreaſe,
+          it may reaſonably <lb/>be feared, that Contagious Diſtem- <lb/>pers may happen more or
+          leſs Ma- <lb/>lignant, if not Peſtilential, accord- <lb/>ing to the Degrees of the Primary
+          <lb/>Antecedent Cauſe, <hi rend="italic">Viz.</hi> Extraneous <lb/>Mineral Exhalations,
+          Vapours or <lb/>Effluviums, from which God Al- <lb/>mighty, or Art, muſt preſerve us, if
+          <lb/>they ſhould by the courſe of Natu- <lb/>ral Cauſes break forth. </p>
+        <pb xml:id="page_41" n="36"/>
+        <p rend="indent space">
+          <lb/>From what hath been ſaid, it <lb/>appears what juſt cauſe we have <lb/>to dread the
+          ill Conſequences of <lb/>Contagious Vapours, which we <lb/>may too reaſonably ſuſpect. It
+          <lb/>may therefore be requiſite to con- <lb/>ſider, what Methods are moſt <lb/>proper to
+          prevent and avert the E- <lb/>vent, and Conſequences of ſuch <lb/>dreadful Cauſes; which
+          may eaſily <lb/>be deduced from what hath been <lb/>ſaid: For if Contagious Vapours
+          <lb/>are retained by a Viſcous Indiſpo- <lb/>ſition of Blood, and ſharp Cor- <lb/>roſive
+          Humours or Vapours, col- <lb/>lected and run into a Fluor, deſtroy <lb/>the Texture and
+          Mixture of the <lb/>Blood, and by this Means produce <lb/>the Symptoms of Malignant or
+          Peſti- <lb/>lential Diſtempers, the proper In- <lb/>tentions to prevent ſuch Accidents,
+          <lb/>muſt be to Correct and Diſcharge <lb/>that Viſcous Matter which retains
+          <lb/>Contagious Vapours, as well as to <lb/>correct and prevent the ill Effects of
+          <lb/>thoſe Infectious Effluviums; it being <pb xml:id="page_42" n="37"/>
+          <lb/>impoſſible either to prevent Mineral <lb/>Exhalations, which is the Primary
+          <lb/>Antecedent Cauſe, or to hinder and <lb/>obſtruct the Sun's approach, which <lb/>is
+          the Principal Procatartick Cauſe, <lb/>though ſometimes the Antecedent <lb/>Cauſe, when
+          encreaſed to a great <lb/>Degree, and plentifully heaped up, <lb/>may alſo be a
+          Procatartick Cauſe, <lb/>and put it ſelf in Action. </p>
+        <p rend="indent space">
+          <lb/>Since then the Principal Intentions <lb/>to prevent Malignant or Peſtilential
+          <lb/>Diſtempers are to remove the Na- <lb/>tural Indiſpoſition, which retains
+          <lb/>Contagious Vapours, and to correct <lb/>thoſe Vapours, or Malignant Par- <lb/>ticles
+          which deſtroy the Texture of <lb/>the Blood, and produce ſuch fatal <lb/>Conſequences, we
+          are to conſider <lb/>what is moſt reaſonable to be done. </p>
+        <p rend="indent space">
+          <lb/>As for the Air, it is of ſuch vaſt <lb/>Extent, and the Superficies of the <lb/>Earth
+          ſo large, that it will be hard <lb/>to deal with ſo extenſive a Subject <pb
+            xml:id="page_43" n="38"/>
+          <lb/>Phyſically, but in the Compaſs of a <lb/>human Body we may be more likely <lb/>to
+          deal with them. </p>
+        <p rend="indent space">
+          <lb/>As for the Prediſpoſition of the <lb/>Blood which renders human Bodies <lb/>moſt
+          likely to retain them, and <lb/>to heap up Contagious Particles, <lb/>ſince that is a
+          Viſcous Humour, it <lb/>is obvious to thoſe who have taken <lb/>Pains in Phyſick, what
+          Intentions <lb/>are requiſite to that purpoſe; as <lb/>Bleeding and Purging, for Bleeding
+          <lb/>emptying the Veſſels makes room <lb/>for Fluids to dilute and thin the reſt, <lb/>and
+          Purging diſcharges a groſſer Hu- <lb/>mour than paſſes off by any other <lb/>Natural way,
+          which Nature makes <lb/>uſe of. </p>
+        <p rend="indent space">
+          <lb/>And to correct thoſe Contagious <lb/>Vapours which may already be <lb/>heaped up in
+          the Blood, or may <lb/>hereafter be contracted, ſince they <lb/>wou<unclear>l</unclear>d
+          paſs off, if nothing was in <lb/>the Way to obſt<unclear>r</unclear>uct them, without <pb
+            xml:id="page_44" n="39"/>
+          <lb/>deſtroying the Texture of the Blood, <lb/>ſince thin Humours flow beſt off by
+          <lb/>Diaphoreſis, or through the Pores of <lb/>the Skin, when the groſs Humours <lb/>are
+          removed by Bleeding and Purge- <lb/>ing Alexipharmick Diaphoreticks, <lb/>ſeem moſt proper
+          for that purpoſe, <lb/>which may correct thoſe Malignant <lb/>Vapours and diſcharge them,
+          and <lb/>conſequently preſerve the Texture <lb/>and due Mixture of the Blood, and
+          <lb/>prevent thoſe Malignant and fatal <lb/>Conſequences. </p>
+        <p rend="indent space">
+          <lb/>As for particular forms for this <lb/>purpoſe, I need not direct Phyſicians,
+          <lb/>they being able to preſcribe for <lb/>themſelves; but every Body not <lb/>being
+          Phyſicians, or able, or willing <lb/>to employ them, as too expenſive, <lb/>I ſhall
+          recommend ſome Medicines <lb/>convenient for that purpoſe, to the <lb/>uſe of thoſe who
+          think it worth <lb/>their while to preſerve their Health, <lb/>and guard themſelves from
+          future ill <lb/>Conſequences. </p>
+        <pb xml:id="page_45" n="40"/>
+        <p rend="indent space">
+          <lb/>And, as I ſaid before, it may not <lb/>be amiſs to purſue ſuch meaſures, for
+          <lb/>they will at leaſt have this advantage, <lb/>that if Peſtilential Diſtempers hap-
+          <lb/>pen not; they will ſtill guard them- <lb/>ſelves from the Dangers of Malig- <lb/>nant
+          Diſtempers, which will be worth <lb/>their while, and reward their Care <lb/>of their
+          Health, and preſeve a good <lb/>Conſtitution. </p>
+        <p rend="indent space">
+          <lb/>Indeed for the ſake of thoſe who <lb/>cannot afford to imploy a Phyſician <lb/>I
+          ſhould have laid down forms for <lb/>their uſe, that they might apply <lb/>themſelves to
+          Apothecaries, but <lb/>ſome of them are too apt to adulte- <lb/>rate Medicines, and leave
+          out any <lb/>Ingredients that are dear, though <lb/>moſt uſeful and neceſſary; beſides in
+          <lb/>the ſeveral Books I have already <lb/>writ, I have been ſo free that way, <lb/>that
+          ſeveral, though they have made <lb/>uſe of them to their Advantage, yet <lb/>they have not
+          had the Civility to <lb/>acknowledge the freedom, in a way <pb xml:id="page_46" n="41"/>
+          <lb/>cuſtomary to thoſe who have been <lb/>educated in Phyſick, though it hath <lb/>been
+          the whole buſineſs and ſtudy of <lb/>my Life, ſince I left School Edu- <lb/>cation. </p>
+        <p rend="indent">
+          <lb/>If therefore any one ſhall think it <lb/>worth their while to take care of <lb/>their
+          Health, and guard themſelves <lb/>from future ill Conſequences, after <lb/>Bleeding to
+          attenuate the Humours, <lb/>to diſcharge the Viſcous Humour, <lb/>though I hate any thing
+          that looks <lb/>like common Quackery, not- <lb/>withſtanding the Art of Phyſick <lb/>was
+          built upon it, I ſhall recom- <lb/>mend particular Medicines for that <lb/>purpoſe already
+          prepared, with Di- <lb/>rections for their Uſe. Yet if any <lb/>ſhall apply themſelves to
+          me for <lb/>Adviſe, I ſhall not ſcruple to pre- <lb/>ſcribe, let them make uſe of who
+          <lb/>they pleaſe. But to proceed from <lb/>this accidental Digreſſion. </p>
+        <p rend="indent">
+          <lb/>The propereſt Purge which I <lb/>ſhould recommend upon this occa- <lb/>ſion, is Dr.
+            <hi rend="italic">Sagittary</hi>'s Elixir, a Me- <pb xml:id="page_47" n="42"/>
+          <lb/>dicine of Excellent Uſe, and diſ- <lb/>charging obnoxious Humours with a <lb/>great
+          deal of Safety. This ought <lb/>to be taken once or twice a Week, <lb/>working gently, and
+          by making a <lb/>gradual diſcharge without too much <lb/>force upon Nature, and therefore
+          <lb/>moſt agreeable to human Bodies; <lb/>I have no Intereſt in recommending <lb/>this
+          Excellent Medicine, but only <lb/>the good of Mankind. </p>
+        <p rend="indent">
+          <lb/>Thoſe Days which are free from <lb/>Purging, they may take an <hi rend="italic">
+            Anti-ma- <lb/>lignant</hi> and <hi rend="italic">Antipeſtilential Tincture</hi>,
+          <lb/>which will correct thoſe Contagious <lb/>Vapours, and expel them out of <lb/>the
+          Blood, gently through the Pores <lb/>of the Skin, without the trouble or <lb/>force of
+          immoderate Sweat, or any <lb/>ſenſible ſweating at all, taking <lb/>a Spoonful every
+          Morning, and <lb/>at Night going to Bed, in a Glaſs <lb/>of Wine and Water, or Wine only,
+          <lb/>or in Beer, if any ſhall like it ra- <lb/>ther. </p>
+        <pb xml:id="page_48" n="43"/>
+        <p rend="indent">
+          <lb/>It alſo preſerves the due Mixture <lb/>and Craſis of the Maſs of Blood <lb/>and
+          Humours, preſerving human <lb/>Bodies from Contagious Infection, <lb/>whether from thoſe
+          more Malignant <lb/>or Peſtilential Effluviums, or Va- <lb/>pours diſperſed through the
+          Air, <lb/>from the Superficial or Subter- <lb/>raneous Parts of the Earth, or from
+          <lb/>the Bodies of Infected Perſons. </p>
+        <p rend="indent">
+          <lb/>It alſo preſerves human Bodies in <lb/>ſuch a perfect ſtate of Health,
+            tha<unclear>t</unclear>
+          <lb/>it prevents and guards them from the <lb/>ill Effects of ſuch leſs Indiſpoſitions
+          <lb/>and Intemperatures as occaſion and <lb/>render Mens Bodies liable to
+            Agu<unclear>es</unclear>
+          <lb/>or Intermitting Fevers, as in <hi rend="italic">Ke<unclear>nt</unclear></hi>
+          <lb/>or <hi rend="italic">Eſſex</hi>; where it will be of ſingu- <lb/>lar and univerſal
+          Uſe, if frequentl<unclear>y</unclear>
+          <lb/>made uſe of in thoſe Climates. </p>
+        <p rend="indent">
+          <lb/>It will likewiſe, if frequently mad<unclear>e</unclear>
+          <lb/>uſe of, contribute to prevent the <lb/>ſpreading of that Contagious and
+          <lb/>Infectious Diſtemper the Small-Pox, <lb/>or at leaſt render the
+          B<unclear>l</unclear>ood of ſo <lb/>wholeſome a Diſpoſition, by clean- <pb
+            xml:id="page_49" n="44"/>
+          <lb/>ſing it of its Impurities, that if it <lb/>does not totally prevent them, yet <lb/>it
+          will render them leſs virulent, or <lb/>much milder and leſs dangerous, and <lb/>prevent
+          the unneceſſary hazard and <lb/>danger of Inoculation, a new con- <lb/>trived Practiſe
+          which only foreſtalls <lb/>future by preſent Sickneſs, and ha- <lb/>ſtens on that
+          Inconveniency which <lb/>would be effected or happen at a <lb/>greater diſtance of Time,
+          or perhaps <lb/>not at all. </p>
+        <p rend="indent">
+          <lb/>And that the Small-Pox depends <lb/>on a particular Diſpoſition of the <lb/>Air,
+          which deſtroys the due mixture <lb/>of the Maſs of Blood, and makes <lb/>an Alteration in
+          its Texture is very <lb/>evident, ſince we ſee, that this Diſ- <lb/>eaſe is often times
+          Epidemical, and <lb/>rages more univerſally at one time <lb/>than another. </p>
+        <p rend="indent">
+          <lb/>And that the Diſpoſition of the <lb/>Air, in this Caſe, deſtroys the Tex- <lb/>ture
+          of the Blood, appears from the <lb/>Symptoms of it, for we ſee, that the <lb/>groſſer
+          Particles of the Blood, in <pb xml:id="page_50" n="45"/>
+          <lb/>that Diſeaſe, are not only ſeparated <lb/>from the reſt, but that they are cri-
+          <lb/>tically caſt off in the Glands of the <lb/>Skin; which evidently appears, ſince
+          <lb/>as the Air is impregnated with par- <lb/>ticular Vapours, milder, or more <lb/>ſharp
+          and biteing, the Pox are of a <lb/>benign kind, or Corroſive, and oc- <lb/>caſion Pits, or
+          Exulcerations which <lb/>leave disfiguring Marks behind them. </p>
+        <p rend="indent">
+          <lb/>But in this Diſtemper there is not <lb/>only a depraved Indiſpoſition in the
+          <lb/>Air, but likewiſe a Prediſpoſition in <lb/>the Maſs of Humours is requiſite
+          <lb/>which from the Symptoms appears <lb/>to be Viſcous, and to depend per- <lb/>haps on
+          the faults of Digeſtion, and <lb/>Crudities thus congeſted in their <lb/>Infancy, but this
+          we have not time <lb/>or room to conſider thoroughly. </p>
+        <p rend="indent">
+          <lb/>I ſhall only add, that to prevent <lb/>this Diſtemper the Purgeing Elixir <lb/>may be
+          uſed once a Week, and the <lb/>Tincture before-mentioned thoſe <lb/>Days that are free
+          from Purgeing, and <lb/>for ſome time after, which are alſo <pb xml:id="page_51" n="46"/>
+          <lb/>frequently to be repeated; the Quan- <lb/>tity to be proportioned according to
+          <lb/>the Perſon's Age, Directions for which <lb/>will be given along with that Tincture. </p>
+        <div type="section">
+          <head rend="italic align-center space">
+            <lb/>Of the Differences of Contagious Vapours. </head>
+          <p rend="indent space">
+            <lb/>Since in the foregoing Sheets we <lb/>have taken Notice, that Malignant and
+            <lb/>Contagious Diſtempers depend on, and <lb/>are occaſioned by pernicious Vapours
+            <lb/>and Exhalations riſing out of the <lb/>Bowels or the Superficial Parts of the
+            <lb/>Earth, impregnating the Air we <lb/>breathe, and acting upon Bodies pre-
+            <lb/>indiſpoſed, and furniſhed with Viti- <lb/>ous depraved Humours; we ſhall
+            <lb/>briefly add ſomething of the differ- <lb/>ences of thoſe Contagious Vapours
+            <lb/>and Exhalations which produce theſe <lb/>different Effects; the Effects varying,
+            <lb/>as we before took notice, according <lb/>to the variety of the Cauſes. </p>
+          <p rend="indent">
+            <lb/>And firſt Watry Exhalations ren- <lb/>der the Air thick and moiſt, and ob-
+            <lb/>noxious to Athmatick Perſons, and <lb/>thoſe that have moiſt Lungs; theſe <pb
+              xml:id="page_52" n="47"/>
+            <lb/>with Nitrous acid Effluviums occaſi- <lb/>on Agues, The Famous Mr. <hi
+              rend="italic">Boyle</hi>
+            <lb/>Obſerving that a particular Acid mix- <lb/>ed with a Volatile, produces a Cold
+            <lb/>Effervency; In the Small-Pox, the <lb/>Mixture of the Blood is Broke by
+            <lb/>Vitriolick Vapours or Effluviums, <lb/>which appears from the Curdling
+            <lb/>Effects, which produce Tumours in <lb/>the Skin, and alſo from the Nauſeous
+            <lb/>Smell attending that Diſeaſe. Malig- <lb/>nant Fevers depend on a higher degree
+            <lb/>of corroſive Mineral Salts, producing <lb/>a higher degree of Crudities, and
+            <lb/>much more than Nature can digeſt, <lb/>throw off or diſcharge. In Peſtilen-
+            <lb/>tial Diſtempers the Effluviums are of <lb/>a more Malignant kind, and rather of
+            <lb/>an Arſenical Nature, producing <lb/>Symptoms of a proportionable De- <lb/>gree of
+            Malignancy and more per- <lb/>nicious. </p>
+          <p rend="indent">
+            <lb/>How theſe Malignant Effects may <lb/>be prevented, we have already obſer- <lb/>ved,
+            and where this Tincture may be <lb/>had, I ſhall annex by way of Adver- <lb/>ment. </p>
+        </div>
+        <trailer rend="italic align-center">
+          <lb/>FINIS. </trailer>
+      </div>
+    </body>
+    <back>
+      <div>
+        <pb xml:id="page_53"/>
+        <p rend="indent">
+          <lb/><hi rend="italic">N. B.</hi> THis Cordial, Anti-Malignant Tincture, will be Sold at
+          Mr. <hi rend="italic">Osborns,</hi> at the <hi rend="italic">Golden-Lyon,</hi> at St. <hi
+            rend="italic">Margarets-Hill, Southwark;</hi> Mr. <hi rend="italic">Scaggs</hi>'s an
+          Inſtrument Makers at <hi rend="italic">Wapping-New-Stairs, Wapping;</hi> Mr. <hi
+            rend="italic">Dyſons,</hi> at die <hi rend="italic">Wool∣pack</hi> in <hi rend="italic"
+            >Burchin-Lane,</hi> near the <hi rend="italic">Royal-Exchange;</hi> Mr. <hi
+            rend="italic">Tredwells,</hi> a Toy-Shop, at the Corner of St. <hi rend="italic"
+            >Martins-Le-Grand, Newgate-Street;</hi> Mr. <hi rend="italic">Hookes,</hi> Bookſeller,
+          oppoſite to St. <hi rend="italic">Dunſtan</hi>'s-Church, near <hi rend="italic"
+            >Temple-Barr;</hi> Mr. <hi rend="italic">Hargraves,</hi> at St. <hi rend="italic"
+            >Anns</hi> Coffee-Houſe, over againſt the Church; Mr. <hi rend="italic">Oakey,</hi>
+          Grocer, at the <hi rend="italic">Golden-Sugar-L<unclear>##</unclear>f,</hi> in <hi
+            rend="italic">Old Bonſtreet,</hi> near <hi rend="italic">Piccadilly;</hi> Mr. <hi
+            rend="italic">Ewens,</hi> a <unclear>#</unclear>oy-Shop, at the <hi rend="italic">Seven
+            Stars,</hi> near <hi rend="italic">York Buildings</hi> in the <hi rend="italic"
+            >Strand.</hi>
+        </p>
+      </div>
+      <div>
+        <head rend="align-center space">
+          <lb/>BOOKS Writ and Publiſhed by the Author. </head>
+        <p rend="indent">
+          <lb/>A Treatiſe of the Reaſon of Muſcular Mo- <lb/>tion, or the Efficient Cauſes of the
+          con- <lb/>traction o<unclear>#</unclear> a Muſcle. </p>
+        <p rend="indent">
+          <lb/>A Treatiſe of the Reaſon of the Heat of the Blood, and of the Uſe of the Lungs. </p>
+        <p rend="indent">
+          <lb/>An Epitomy of Mr. <hi rend="italic">Boyles</hi> Philoſophical Works, in Four Volumes.
+            <hi rend="italic">Octavo.</hi>
+        </p>
+        <p rend="indent">
+          <lb/>An Epitomy of Mr. <hi rend="italic">Boyles</hi> Theological Works, in Three Volumes,
+          with his Life prefixed. </p>
+        <p rend="indent">
+          <lb/>A Syſtem of Rational and Practical Surgery. </p>
+        <p rend="indent">
+          <lb/>A Treatiſe of the <hi rend="italic">Gout, King's-Evil, Lues Ve- <lb/>nerea,</hi> with
+          an Eſſay of the Reaſon of Intermit- <lb/>ting Fevers, and the Effects of the <hi
+            rend="italic">Cortex Peru.</hi>
+        </p>
+        <p rend="indent">
+          <lb/>A Compleat Hiſtory of Witchcraft, <hi rend="italic">&amp;c.</hi> in Two Volumes. <hi
+            rend="italic">Octavo.</hi>
+        </p>
+        <p rend="indent">
+          <lb/>A Vindication of the ſame againſt Reflections of Dr. <hi rend="italic"
+            >Hutchinſons,</hi> now Biſhop of <hi rend="italic">Down an Connor.</hi> To which is
+          added, an Eſſay on the Nature of Material and Immaterial Subſtances. </p>
+        <p rend="indent">
+          <lb/>An Eſſay on the Plague printed at <hi rend="italic">Dublin.</hi>
+        </p>
+      </div>
+    </back>
+  </text>
+</TEI>

@@ -1,0 +1,1228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> LMEMT Corpus - Currie: Medical Reports, on the Effects of Water</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>James Currie</persName>
+            </author>
+            <title type="main">Medical reports, on the effects of water, cold and warm, as a remedy
+              in fever, and febrile diseases; whether applied to the surface of the body, or used as
+              a drink: with observations on the nature of fever; and on the effects of opium,
+              alcohol, and inanition. </title>
+            <edition n="1"/>
+            <idno type="ESTC">T130734</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/T130734"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>Liverpool</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>Liverpool: printed by J. M'creery, for Cadell and Davies, London,
+                  1797.</persName>
+              </publisher>
+              <date>1797</date>
+            </imprint>
+            <extent>
+              <measure type="format">8⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="10"/>
+              <measure type="count" commodity="body" unit="page" quantity="252"/>
+              <measure type="count" commodity="back" unit="page" quantity="52"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">British Library</orgName>
+            <idno type="ECCO">CW107433099</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Book on a specific topic: method"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text type="book" rend="roman" xml:lang="eng">
+    <gap reason="sampling" unit="pages" quantity="10"/>
+    <body>
+      <pb n="1"/>
+      <figure rend="space">
+        <figDesc>A horizontal double-line, spanning the whole page. </figDesc>
+      </figure>
+      <space dim="vertical" unit="lines" quantity="2"> </space>
+      <div type="chapter">
+        <head rend="align-center">
+          <lb/>CHAP. I. </head>
+        <space dim="vertical" unit="lines" quantity="2"> </space>
+        <head rend="italic align-center">
+          <lb/>Narrative of Dr. Wright. </head>
+        <p rend="space">
+          <lb/><hi rend="sc size(1.25)">In</hi> the London Medical Journal for the year 1786,
+          <lb/>Dr. William Wright, <note place="bottom" n="*" rend="size(0.5) align-center">
+            <lb/>* Now I believe phyſician to the army in the Weſt Indies<choice>
+              <corr>.</corr>
+              <sic/>
+            </choice>
+          </note> formerly of the iſland of <lb/>Jamaica, gave an account of the ſucceſsful treat-
+          <lb/>ment of ſome caſes of fever by the ablution of the <lb/>patient with cold water. </p>
+        <p rend="indent space">
+          <lb/>
+          <q rend="quotes">On the 1ſt of Auguſt, 1777, </q> ſays Dr. <lb/>Wright, <q
+           >I embarked in a ſhip bound to Liver- <lb/>pool, and ſailed the ſame evening
+            from Montego <lb/>Bay. The maſter told me he had hired ſeveral <lb/>ſailors on the lame
+            day we took our departure; <lb/>one one of whom had been at ſick quarters on ſhore,
+            <lb/>and was now but in a convaleſcent ſtate. On the <lb/>23d of Auguſt, we were in the
+            latitude of Bermudas, <lb/>and had had a very heavy gale of wind for three <lb/>days,
+            when the above-mentioned man relapſed, <pb n="2"/>
+            <lb/>and had a fever with ſymptoms of the greateſt <lb/>malignity. I attended this
+            perſon often, but could <lb/>not prevail with him to be removed from a dark <lb/>and
+            confined ſituation to a more airy and conve- <lb/>nient part of the ſhip; and as he
+            refuſed medicines, <lb/>and even food, he died on the eighth day of his <lb/>illneſs.
+          </q>
+        </p>
+        <p rend="indent space">
+          <lb/>
+          <q rend="paradiple">By my attention to the ſick man I caught the <lb/>contagion,
+            and began to be indiſpoſed on the 5th <lb/>of September, and the following is a
+            narrative of <lb/>my caſe, extracted from notes daily marked down: <lb/>I had been many
+            years in Jamaica, but, except <lb/>being ſomewhat relaxed by the climate, and fatigue
+            <lb/>of buſineſs, I ailed nothing when I embarked. <lb/>This circumſtance, however,
+            might perhaps diſ- <lb/>poſe me more readily to receive the infection. </q>
+        </p>
+        <p rend="indent space">
+          <lb/>
+          <q rend="paradiple">Sept. 5th, 6th, 7th, ſmall rigors now and <lb/>then — a
+            preternatural heat of the ſkin — a dull <lb/>pain in the forehead — the pulſe ſmall and
+            quick — <lb/>a loſs of appetite, but no ſickneſs at ſtomach — the <lb/>tongue white and
+            ſlimy — little or no thirſt — the <lb/>belly regular — the urine pale and rather ſcanty
+            — <lb/>in the night reſtleſs, with ſtarting and delirium. </q>
+        </p>
+        <p rend="indent space">
+          <lb/>
+          <q rend="paradiple">Sept. 8th, every ſymptom aggravated, with <lb/>pains in the
+            loins and lower limbs, and ſtiffneſs in <lb/>the thighs and hams. </q>
+        </p>
+        <pb n="3"/>
+        <p rend="indent space">
+          <lb/>
+          <q rend="paradiple">I took a gentle vomit in the ſecond day of <lb/>this illneſs,
+            and next morning a decoction of tama- <lb/>rinds; at bed-time, an opiate, joined with
+            antimo- <lb/>nial wine, but this did not procure ſleep, or open the <lb/>pores of the
+            ſkin. No inflammatory ſymptoms <lb/>being preſent, a drachm of Peruvian bark was taken
+            <lb/>every hour for ſix hours ſucceſſively, and now and <lb/>then a glaſs of port wine,
+            but with no apparent <lb/>benefit. When upon deck, my pains were greatly <lb/>mitigated,
+            and the colder the air the better. This <lb/>circumſtance, and the failure of every
+            means I had <lb/>tried, encouraged me to put in practice on myſelf <lb/>what I had often
+            wiſhed to try on others, in fevers <lb/>ſimilar to my own. </q>
+        </p>
+        <p rend="indent space">
+          <lb/>
+          <q rend="paradiple">Sept. 9th, Having given the neceſſary directi- <lb/>ons,
+            about three o'clock in the afternoon I ſtripped <lb/>off all my cloaths, and threw a
+            ſea-cloak looſely <lb/>about me till I got upon the deck, when the cloak <lb/>alſo was
+            laid aſide: Three buckets full of ſalt water <lb/>were then thrown at once on me, the
+            ſhock was <lb/>great, but I felt immediate relief. The head-ach <lb/>and and other pains
+            inſtantly abated, and a fine glow <lb/>and diaphoreſis ſucceeded. Towards evening, how-
+            <lb/>ever, the febrile ſymptoms threatened a return, and <lb/>I had again recourſe to
+            the ſame method as before, <lb/>with the ſame good effect. I now took food with <lb/>an
+            appetite, and for the firſt time had a ſound <lb/>night's reſt. </q>
+        </p>
+        <pb n="4"/>
+        <p rend="indent space">
+          <lb/>
+          <q rend="paradiple">Sept. 10th, no fever, but a little uneaſineſs in <lb/>the
+            hams and thighs — uſed the cold bath twice. </q>
+        </p>
+        <p rend="indent space">
+          <lb/>
+          <q rend="paradiple">Sept. 11th, every ſymptom vaniſhed, but to <lb/>prevent a
+            relapſe, I uſed the cold bath twice. </q>
+        </p>
+        <p rend="indent space">
+          <lb/>
+          <q rend="quotes">Mr. Thomas Kirk, a young gentleman, paſ- <lb/>ſenger in the ſame
+            ſhip, fell ſick of a fever on the <lb/>9th of Auguſt. His ſymptoms were nearly ſimilar
+            <lb/>to mine, and having taken ſome medicines with- <lb/>out experiencing relief, he was
+            deſirous of trying <lb/>the cold-bath, which with my approbation, he did <lb/>on the
+            11th and 12th of September, and, by this <lb/>method, was happily reſtored to health. He
+            lives <lb/>at this time (Jan. 1786) near Liverpool. </q>
+        </p>
+        <p rend="indent space">
+          <lb/>To this intereſting narrative, Dr. Wright adds <lb/>ſome general obſervations on the
+          traces that are to <lb/>be found of the uſe of cold water internally and <lb/>externally
+          in fevers, in ſeveral works ancient and <lb/>modern. But whether he himſelf purſued this
+          <lb/>practice any farther, I have not been informed. </p>
+        <p rend="indent space">
+          <lb/>Having before experienced that Dr. Wright was <lb/>a ſafe guide, <note n="*"
+            place="bottom" rend="size(0.5)">
+            <p rend="indent">
+              <lb/>* See a paper in the memoirs of the London Medical Society, Vol. III. p. 147,
+              <lb/>to be found in ſubſequent part of this Volume. </p>
+          </note> I immediately on reading this narra- <lb/>tive determined on following his
+          practice in the <lb/>preſent inſtance; and before an opportunity occur- <pb n="5"/>
+          <lb/>red of carrying my intention into effect, I was <lb/>farther encouraged, by learning
+          that my reſpectable <lb/>colleague Dr. Brandreth, had employed cold water <lb/>externally
+          in ſome recent caſes of fever with <lb/>happy effects. </p>
+        <space dim="vertical" unit="lines" quantity="2"> </space>
+        <figure>
+          <figDesc>A short horizontal line in the middle of the page. </figDesc>
+        </figure>
+      </div>
+      <div type="chapter">
+        <space dim="vertical" unit="lines" quantity="2"> </space>
+        <head rend="align-center">
+          <lb/>CHAP. II. </head>
+        <head rend="italic align-center">
+          <lb/>Hiſtory of a fever which broke out in the Liverpool <lb/>Infirmary. </head>
+        <head rend="italic align-center space"> </head>
+        <p rend="space">
+          <lb/>
+          <hi rend="sc size(1.25)">In</hi> the 9th of Dec. 1787, a contagious fever made <lb/>its
+          appearance in the Liverpool Infirmary. For <lb/>ſome time previoufly the weather had been
+          ex- <lb/>tremely cold, and the diſcipline of the houſe, owing <lb/>to cauſes which it is
+          unneceſſary to mention, had <lb/>been much relaxed. The intenſity of the cold pre-
+          <lb/>vented the neceſſary degree of ventilation, and the <lb/>regulations for the
+          preſervation of cleanlineſs had <lb/>been in ſome meaſure neglected. Theſe circum-
+          <lb/>ſtances operated particularly on one of the wards <lb/>of the eaſtern wing, employed
+          as a lock-hoſpital for <lb/>females, where the contagion firſt appeared. The <pb n="6"/>
+          <lb/>fever ſpread rapidly, and before its progreſs could <lb/>be arreſted, ſixteen perſons
+          were affected, of which <lb/>two died. — Of theſe ſixteen, eight were under my <lb/>care.
+          On this occaſion I uſed for the firſt time the <lb/>affuſion of cold water, in the manner
+          deſcribed by <lb/>Dr. Wright. It was firſt tried in two caſes only, <lb/>the the one in
+          the ſecond, the other in the fourth day <lb/>of fever. The effects correſponded exactly
+          with <lb/>thoſe mentioned by him to have occurred in his <lb/>own caſe; and thus
+          encouraged, the remedy was <lb/>employed in five other caſes. It was repeated daily,
+          <lb/>and of theſe ſeven patients, the whole recovered. <lb/>In the eighth caſe, the
+          aſperſion of cold water ſeemed <lb/>too hazardous a practice, and it was not employed.
+          <lb/>The ſtrength of the patient was much impaired by <lb/>lues, and at the time of
+          catching the contagion, ſhe <lb/>laboured under ptyaliſm. I was not then aware <lb/>that
+          this laſt circumſtance, formed no objection <lb/>againſt the cold affuſion, and in a
+          ſituation ſo cri- <lb/>tical, it was thought imprudent to uſe it. The <lb/>uſual remedies
+          were directed for this patient, par- <lb/>ticularly, bark, wine, and opium, but unſucceſs-
+          <lb/>fully; ſhe died on the 16th day of her diſeaſe. </p>
+        <p rend="space indent">
+          <lb/>From this time forth, I have conſtantly wiſhed to <lb/>employ the affuſion of cold
+          water in every caſe <lb/>of the low contagious fever, in which the ſtrength <lb/>was not
+          already much exhauſted; and I have pre- <lb/>ſerved a regiſter of a hundred and fiſty
+          three caſes, <pb n="7"/>
+          <lb/>in which the cure was chiefly truſted to this reme- <lb/>dy. Of theſe, ninety-four
+          occurred in the hoſpital <lb/>in the four years ſubſequent to the period already
+          <lb/>mentioned, twenty-ſeven in private practice, and <lb/>thirty-two in the 30th regiment
+          of foot, when quar- <lb/>tered in Liverpool in the year 1792. Of late I <lb/>have not
+          thought it neceſſary to regiſter all the <lb/>caſes in which this remedy has been
+          employed. <lb/>Having ſatisfied myſelf of its extraordinary efficacy, <lb/>and of the
+          precautions neceſſary in uſing it, I have <lb/>found it the ſhorter method as well as the
+          more <lb/>inſtructive, to record the inſtances in which it has <lb/>proved unſucceſsful.
+          To relate the whole of my ex- <lb/>perience would be a tedious and an uſeleſs labour.
+          <lb/>I purpoſe to digeſt the reſults under a few diſtinct <lb/>heads, ſupporting and
+          illuſtrating each general pro- <lb/>poſition by an ample detail of caſes. Before, how-
+          <lb/>ever, this preliminary account is cloſed, it will be <lb/>uſeful to enter more
+          particularly into the hiſtory of <lb/>the contagious fever which broke out in the 30th
+          <lb/>regiment, becauſe the account of its riſe, progreſs, <lb/>treatment, and termination,
+          will ſupport in a ſtriking <lb/>manner the doctrines I wiſh to eſtabliſh, and if I <lb/>do
+          not greatly deceive myſelf, may afford important <lb/>inſtruction, as well as
+          encouragement, to thoſe whoſe <lb/>duty may call them to oppoſe the progreſs of conta-
+          <lb/>gious fever in ſimilar ſituations. </p>
+      </div>
+      <pb n="8"/>
+      <div type="chapter">
+        <head rend="align-center space">
+          <lb/>CHAP. III. </head>
+        <head rend="italic align-center space">Hiſtory of a Fever which occurred in the 30th
+          <lb/>Regiment. </head>
+        <p rend="space">
+          <lb/><hi rend="sc size(1.25)">The</hi> 30th Regiment, as is uſual with troops in
+          <lb/>Liverpool, was billeted in the town, but paraded <lb/>and mounted guard in the fort,
+          ſituated north of <lb/>the town, and on the banks of the river. The <lb/>general guard
+          room had been uſed previous to the <lb/>arrival of the 30th, as a place of confinement for
+          <lb/>deſerters; it was extremely cloſe and dirty, and <lb/>under it was a cellar, which in
+          the winter had been <lb/>full of water. This water was now half evaporated, <lb/>and from
+          the ſurface iſſued offenſive exhalations. </p>
+        <p rend="space indent">
+          <lb/>In a dark, narrow, and unvenrilated cell, off the <lb/>guard-room, it was uſual to
+          confine ſuch men as <lb/>were ſent to the guard for miſbehaviour, and about <lb/>the
+          beginning of June, (1792) ſeveral men had <lb/>been ſhut up in this place on account of
+          drunken- <lb/>neſs, and ſuffered to remain there twenty-four hours, <lb/>under the
+          debility that ſucceeds intoxication. The <pb n="9"/>
+          <lb/>typhus, or jail fever, made its appearance in two <lb/>of theſe mert about the firſt
+          of the month, and <lb/>ſpread with great rapidity. Ten of the ſoldiers <lb/>labouring
+          under this epidemic, were received into <lb/>the Liverpool infirmary, and the wards
+          allotted to <lb/>fever could admit ho more. The contagion con- <lb/>tinuing its progreſs,
+          a temporary hoſpital was fitted <lb/>up at the fort, and I was requeſted to give my
+          <lb/>aſſiſtance there to the ſurgeon of the regiment, <lb/>by Captains Brereton <note
+            n="*" place="bottom" rend="size(0.5)">
+            <p rend="indent">
+              <lb/>* Now Colonel Brereton of the 63d foot. </p>
+          </note> and Torriano. <note place="bottom" rend="size(0.5)" n="†">
+            <p rend="indent">
+              <lb/>† The gallant and accompliſhed officer who fell ſoon after <lb/>at the heights of
+              Pharon, in the defence of Toulon. </p>
+          </note>
+        </p>
+        <p rend="space indent">
+          <lb/>In two low rooms, each about fiſteen feet ſquare, <lb/>were fourteen patients
+          labouring under fever. <lb/>They were in different ſtages of its progreſs: one <lb/>was in
+          the fourteenth day of the diſeaſe, two were <lb/>in the twelfth, and the reſt from the
+          ninth to the <lb/>fourth incluſive. The ſymptoms of the fever were <lb/>very uniform. In
+          every caſe there was more or <lb/>leſs cough, with mucous expectoration: in all thoſe
+          <lb/>who had ſuſtained the diſeaſe eight days and <lb/>upwards, there were petechiæ on the
+          ſkin; in ſeve- <lb/>ral there were occaſional bleedings from the noſtrils, <lb/>and
+          ſtreaks of blood in the expectoration. The <lb/>debility was conſiderable from the firſt,
+          and this <lb/>had been increaſed in ſeveral caſes by the uſe of <lb/>veneſection, before
+          the nature of the epidemic was <pb n="10"/>
+          <lb/>underſtood. The pulſe varied from 130 ſtrokes <lb/>in the minute to 100; the heat
+          roſe in one caſe to <lb/>105° of Fahrenheit, but was in general from 101° <lb/>to 103°;
+          and towards the latter ſtages of the diſeaſe <lb/>it was ſcarcely above the temperature of
+          health. <lb/>Great pain in the head, with ſtupor pervaded the <lb/>whole, and in ſeveral
+          inſtances there occurred a <lb/>conſiderable degree of the low delirium. </p>
+        <p rend="space indent">
+          <lb/>Our firſt care was to ventilate and clean the <lb/>rooms, which were in a high degree
+          foul and peſti- <lb/>lential. Our ſecond was to waſh and clean the <lb/>patients
+          themſelves. This was done by pouring <lb/>ſea-water, in the manner already deſcribed, over
+          the <lb/>naked bodies of thoſe whoſe ſtrength was not <lb/>greatly reduced, and <hi
+            rend="italic">whoſe heat was ſteadily above <lb/>the temperature of health</hi>. In
+          thoſe advanced in the <lb/>fever, whoſe debility was of courſe great, we did <lb/>not
+          venture on this treatment, but contented our- <lb/>ſelves with ſpunging the whole ſurface
+          of the body <lb/>with tepid vinegar, a practice that in every ſtage <lb/>of fever is
+          ſalutary and refreſhing. </p>
+        <p rend="space indent">
+          <lb/>Our next care was to ſtop the progreſs of the <lb/>infection. With this view, the
+          guard-houſe was at <lb/>firſt attempted to be purified by waſhing and venti- <lb/>lation,
+          the greateſt part of its furniture having been <lb/>burnt, or thrown into the ſea. All our
+          precautions <lb/>and exertions of this kind were however found to <pb n="11"/>
+          <lb/>be ineffectual. The weather was at this time wet, <lb/>and extremely cold for the
+          ſeaſon; the men on <lb/>guard could not be prevailed on to remain in the <lb/>open air;
+          and from paſſing the night in the infected <lb/>guard-room, ſeveral of the privates of the
+          ſucceſſive <lb/>reliefs, on the 10th, 11th, and 12th of the month, <lb/>caught the
+          infection. — In ſeveral of theſe the fever <lb/>ran through its courſe; and in others, it
+          was im- <lb/>mediately arreſted by the affuſion of ſea-water as <lb/>already deſcribed. No
+          means having been found <lb/>effectual for the purification of the guard-room, it <lb/>was
+          ſhut up, and a temporary ſhed erected in its <lb/>ſtead. — Still the contagion proceeded;
+          on the <lb/>morning of the 13th three more having been added <lb/>to the liſt of the
+          infected. — On that day, therefore, <lb/>the whole regiment was drawn up at my requeſt,
+          <lb/>and the men examined in their ranks: Seventeen <lb/>were found with ſymptoms of fever
+          upon them. — <lb/>It was not difficult to diſtinguiſh them as they ſtood <lb/>by their
+          fellows. — Their countenances were lan- <lb/>guid, their whole appearance dejected, and
+          the <lb/>adnata of their eyes had a dull red ſuffuſion. Theſe <lb/>men were carefully
+          ſeparated from the reſt of the <lb/>corps, and immediately ſubjected to the cold affu-
+          <lb/>ſion, always repeated once, and ſometimes twice a <lb/>day. — In fifteen of the
+          number the contagion was <lb/>extinguiſhed; but two went through the regular <lb/>diſeaſe.
+          On the ſame day, the commanding officer, <lb/>at my deſire, iſſued an order for the whole
+          of the re- <pb n="12"/>
+          <lb/>maining part of the regiment to bathe in the ſea; and <lb/>for ſome time they were
+          regularly muſtered, and <lb/>marched down at high water, to plunge into the tide. </p>
+        <p rend="space indent">
+          <lb/>Theſe means were ſucceſsful in arreſting the <lb/>epidemic: after the 13th of June no
+          perſon was <lb/>attacked by it. It extended to fifty eight perſons <lb/>in all, of which
+          thirty-two went through the regular <lb/>courſe of the fever, and in twenty-ſix the
+          diſeaſe <lb/>ſeemed to be cut ſhort by the cold affuſion. Of <lb/>thirty-two already
+          mentioned, two died. Both of <lb/>theſe were men whoſe conſtitutions were weakened <lb/>by
+          the climate of the Weſt Indies; both of them <lb/>had been bled in the early ſtages of the
+          fever; and <lb/>the one of them being in the twelfth, the other in the <lb/>14th day of
+          the diſeaſe when I firſt viſited them, <lb/>neither of them was ſubjected to the cold
+          affuſion. <lb/>The water employed on this occaſion was taken up <lb/>from the river Merſey
+          cloſe by the fort. It was at <lb/>that time of a temperature from 58° to 60° of
+          <lb/>Fahrenheit, and it contains in ſolution from a 32d <lb/>to a 33d part of ſea-ſalt. </p>
+        <p rend="space indent">
+          <lb/>In hoſpitals, manufactories, and priſons—ſituations <lb/>in which the low contagious
+          fever ſo frequently origi- <lb/>nates, the practice I have detailed may be followed
+          <lb/>with great eaſe, ſafety, and advantage; but it is in <lb/>a more particular degree
+          applicable to this conta- <lb/>gion when it appears on ſhip-board, becauſe in that <pb
+            n="13"/>
+          <lb/>ſituation the uſual means of prevention or cure are <lb/>neceſſarily limited, and the
+          imminence of the danger <lb/>requires a remedy that operates with ſpeed as well <lb/>as
+          efficacy. The waters of the ocean afford this <lb/>remedy; in every point of view a moſt
+          happy one <lb/>for mariners, ſince it can be applied almoſt as eaſily <lb/>as it can be
+          procured. </p>
+        <space dim="vertical" unit="lines" quantity="2"> </space>
+        <figure>
+          <figDesc>A short horizontal line in the middle of the page. </figDesc>
+        </figure>
+      </div>
+      <div type="chapter">
+        <space dim="vertical" unit="lines" quantity="2"> </space>
+        <head rend="align-center">
+          <lb/>CHAP. IV. </head>
+        <head rend="italic align-center space">
+          <lb/>The manner in which the affuſion of cold water ought to <lb/>be uſed in Fever. </head>
+        <p rend="space">
+          <lb/><hi rend="sc size(1.25)">Having</hi> given this general account of my expe-
+          <lb/>rience of this remedy in fever, it will now be neceſ- <lb/>ſary to enter more
+          particularly on the rules which <lb/>ought to govern its application, and on the different
+          <lb/>effects to be expected from it, according to the dif- <lb/>ferent ſtages of the
+          diſeaſe in which it is employed. <lb/>It will be proper to premiſe, that when the term
+          fever <lb/>is uſed in the preſent work without any adjunctive, <lb/>it is the low
+          contagious fever that is meant. This <lb/>is the Typhus of Dr. Cullen; the contagious
+          fever <pb n="14"/>
+          <lb/>of Dr. Lind; the Febris irritativus of Dr. Darwin. <lb/>In popular language, it is
+          generally called the ner- <lb/>vous fever, and where particular ſymptoms appear, <lb/>the
+          putrid fever. It is uſually produced in ſitua- <lb/>tions where there is a want of
+          cleanlineſs, and more <lb/>eſpecially of ventilation; and when produced, it is
+          <lb/>propagated by contagion. This is the common <lb/>fever of England; its ſymptoms have
+          been detailed <lb/>with great minuteneſs in a variety of modern pub- <lb/>lications, and I
+          have therefore declined repeating <lb/>deſcriptions that are every where to be met with.
+          <lb/>Dr. Cullen has defined the diſeaſe as follows — <lb/>
+          <q rend="diple">Morbus contagioſus; calor parum auctus; pulſus <lb/>parvus, debilis,
+            plerumque frequens; urina parum <lb/>mutata; ſenſorii functiones plurimum turbatae;
+            <lb/>vires multum imminutae. </q> In ſixteen years practice <lb/>I have found the
+          contagious fever of Liverpool re- <lb/>markably uniform, and in general to correſpond
+          <lb/>exactly with this conciſe and perſpicuous definition. <lb/>This diſeaſe prevails
+          chiefly among the poor, who <lb/>from the nature of their diet and habits, are pecu-
+          <lb/>liarly expoſed to the cauſes that produce it. Seldom <lb/>extending itſelf in any
+          conſiderable degree among <lb/>the other claſſes of the community, it has been ſup-
+          <lb/>poſed that Liverpool was little ſubject to fever; but <lb/>this will be ſhewn, from
+          authentic documents, to be <lb/>a great and a pernicious error. Let us proceed at
+          <lb/>preſent to inquire into the rules that ought to <pb n="15"/>
+          <lb/>govern the uſe of the affuſion or aſperſion of cold <lb/>water in this diſeaſe. </p>
+        <p rend="space indent">
+          <lb/>Whoever has watched the progreſs of fever, muſt <lb/>have obſerved the juſtneſs of
+          the obſervation made <lb/>by Cullen, Vogel, De Haen, and others, that even <lb/>thoſe
+          genera which are denominated continued, <lb/>are not ſtrictly ſuch, but have pretty
+          regular and <lb/>diſtinct exacerbations and remiſſions in each diurnal <lb/>period. In
+          this ſpace of time, Dr. Cullen contends <lb/>that an attentive obſerver may commonly
+          diſtin- <lb/>guiſh two ſeparate paroxyſms. <note n="*" place="bottom" rend="size(0.5)">
+            <p rend="indent">
+              <lb/>* Paroxyſmis quovis die binis. <lb/><hi rend="italic align-right">Gen. Morbor.
+                vol. ii. p. 67. </hi>
+            </p>
+          </note> My obſervations <lb/>do not enable me to confirm his poſition in its full
+          <lb/>extent — but one exacerbation, and one remiſſion <lb/>in the twenty-fours, ſeems
+          generally obſervable. <lb/>The exacerbation uſually occurs in the afternoon, <lb/>or
+          evening, the remiſſion towards morning. Theſe <lb/>exacerbations are marked by increaſed
+          fluſhing, <lb/>thirſt, and reſtleſſneſs. If the heat of the patient be, <lb/>at ſuch
+          times, taken by the thermometer, it will <lb/>be found to have riſen one or two degrees in
+          the <lb/>central parts of the body, above the average heat <lb/>of the fever, and ſtill
+          more on the extremities. — <lb/>The ſafeſt and moſt advantageous time for uſing <lb/>the
+          aſperſion or affuſion of cold water, is when the <lb/>exacerbation is at its height, or
+          immediately after <lb/>its declination is begun; and this has led me <pb n="16"/>
+          <lb/>almoſt always to direct it to be employed from ſix <lb/>to nine o'clock in the
+          evening; but it may be <lb/>ſafely uſed at any time of the day, <hi rend="italic">when
+            there is no <lb/>ſenſe of chillineſs preſent, when the heat of the ſurface is
+            <lb/>ſteadily above what is natural, and when there is no gene- <lb/>ral or profuſe
+            perſpiration.</hi> — Theſe particulars are of <lb/>the utmoſt importance. </p>
+        <p rend="space indent">
+          <lb/>1. If the aſperſion of cold water on the ſurface <lb/>of the body be uſed during the
+          cold ſtage of the <lb/>paroxyſm of fever, the reſpiration is nearly ſuſpend- <lb/>ed; the
+          pulſe becomes fluttering, feeble, and of an <lb/>incalculable frequency; the ſurface and
+          extremities <lb/>become doubly cold and ſhrivelled, and the patient <lb/>ſeems to ſtruggle
+          with the pangs of inſtant diſſolu- <lb/>tion. I have no doubt, from what I have obſerved,
+          <lb/>that in ſuch circumſtances, the repeated affuſion of a <lb/>few buckets of cold water
+          would extinguiſh life. <lb/>This remedy ſhould therefore never be uſed when <lb/>any
+          conſiderable ſenſe of chillineſs is preſent, even <lb/>though the thermometer, applied to
+          the trunk of <lb/>the body, ſhould indicate a degree of heat greater <lb/>than uſual. </p>
+        <p rend="space indent">
+          <lb/>2. Neither ought it to be uſed, when the heat <lb/>meaſured by the thermometer is
+          leſs than, or <lb/>even only equal to the natural heat, though the <lb/>patient ſhould
+          feel no degree of chillineſs. This is <lb/>ſometimes the caſe towards the laſt ſtages of
+          fever, <pb n="17"/>
+          <lb/>when the powers of life are too weak to ſuſtain or <lb/>react under, ſo powerful a
+          ſtimulus. </p>
+        <p rend="space indent">
+          <lb/>3. It is alſo neceſſary to abſtain from the uſe of <lb/>this remedy when the body is
+          under profuſe per- <lb/>ſpirarion, and this caution is more important in pro- <lb/>portion
+          to the continuance of this perſpiration. In <lb/>the commencement of perſpiration,
+          eſpecially if it <lb/>has been brought on by violent exerciſe, the affuſion <lb/>of cold
+          water on the naked body, or even immer- <lb/>ſion in the cold bath, may be hazarded with
+          little <lb/>riſque, and ſometimes may be reſorted to with <lb/>great benefit. After the
+          perſpiration has continued <lb/>ſome time and flowed freely, eſpecially if the body
+          <lb/>has remained at reſt, either the affuſion or immerſion <lb/>are attended with danger,
+          even though the heat <lb/>of the body at the moment of uſing them be <lb/>greater than
+          natural. — Perſpiration is always a cool- <lb/>ing proceſs in itſelf, but in bed it is
+          often prolonged <lb/>by artificial means, and the body is prevented from <lb/>cooling
+          under it to the natural degree, by the load of <lb/>heated clothes. When the heat has been
+          thus arti- <lb/>ficially kept up, a practitioner, judging by the in- <lb/>formation of his
+          thermometer only, may be led into <lb/>error. In this ſituation, however, I have obſerved
+          <lb/>that the heat ſinks rapidly on the expoſure of the ſur- <lb/>face of the body even to
+          the external air, and <lb/>that the application of cold water, either by <lb/>affuſion or
+          immerſion, is accompanied by a loſs of <pb n="18"/>
+          <lb/>heat and a deficiency of re-action, which are altoge- <lb/>ther inconſiſtent with
+          ſafety. — Each of theſe points <lb/>will be illuſtrated more fully in the ſequel. </p>
+        <p rend="space indent">
+          <lb/>Under theſe reſtrictions the cold affuſion may be <lb/>uſed at any period of fever;
+          but its effects will be <lb/>more ſalutary in proportion as it is uſed more early.
+          <lb/>Its general effects will be more clearly illuſtrated by <lb/>the following caſes.
+          They are a ſelection from a <lb/>great number, the records of which have been pre-
+          <lb/>ſerved, and which lead to the ſame reſults. They <lb/>are ſo arranged as to exhibit
+          the ſalutary effects of <lb/>the affuſion of cold water in the different ſtages of
+          <lb/>fever, and illuſtrate the precautions laid down <lb/>againſt uſing it improperly. If
+          they ſhould appear <lb/>tedious after what has already been mentioned, this <lb/>muſt be
+          forgiven; on a ſubject ſo important and ſo <lb/>little underſtood, it is better to incur
+          the charge of <lb/>tediouſneſs than the hazard of being obſcure. </p>
+        <space dim="vertical" unit="lines" quantity="2"> </space>
+      </div>
+      <div type="chapter">
+        <space dim="vertical" unit="lines" quantity="2"> </space>
+        <head rend="align-center">
+          <lb/>CHAP. V. </head>
+        <figure rend="space">
+          <figDesc>A short horizontal line in the middle of the page. </figDesc>
+        </figure>
+        <floatingText>
+          <body>
+            <head rend="align-center space">
+              <lb/>CASE 1. </head>
+            <head rend="italic align-center space">
+              <lb/>Caſes in which the Affuſion of Cold Water was uſed in <lb/>the different ſtages
+              of fever. <lb/><hi rend="space align-right">January I, 1790. </hi>
+            </head>
+            <p rend="space">
+              <lb/><hi rend="size(1.25)">A</hi> Nurſe in the fever ward of the Infirmary having
+              <lb/>ſeveral patients under her care, caught the infection. <lb/>She was ſeized with
+              violent rigors, chillineſs, and <lb/>wandering pains, ſucceeded by great heat, thirſt,
+              <lb/>and head-ach. Sixteen hours after the firſt attack, <lb/>her heat at the axilla
+              was 103° of Fah. her pulſe <lb/>112 in the minute and ſtrong; her thirſt great, her
+              <lb/>tongue furred, and her ſkin dry. </p>
+            <p rend="space indent">
+              <lb/>Five gallons of ſalt water, of the temperature of <lb/>44°, were poured over her
+              naked body, and after <lb/>being haſtily dried with towels, ſhe was replaced in
+              <lb/>bed: when the agitation and ſobbing had ſubſided, <lb/>her pulſe was found to
+              beat at the rate of 96 ſtrokes <lb/>in the minute, and in half an hour afterwards it
+                <pb n="20"/>
+              <lb/>had fallen to 80. The heat was reduced to 98° <lb/>by the ablution, and half an
+              hour afterwards it <lb/>remained ſtationary: The ſenſe of heat and the <lb/>head-ach
+              were gone, and the thirſt nearly gone. <lb/>Six hours afterwards ſhe was found
+              perfectly free of <lb/>fever, but a good deal of debility remained. </p>
+            <p rend="space indent">
+              <lb/>Small doſes of colombo were ordered for her with <lb/>a light nouriſhing diet,
+              and for ſeveral days the <lb/>cold affuſion was repeated at the ſame hour of the
+              <lb/>day; the fever never returned. </p>
+          </body>
+        </floatingText>
+        <figure rend="space">
+          <figDesc>A short horizontal line in the middle of the page. </figDesc>
+        </figure>
+        <p rend="space indent">
+          <lb/>During the progreſs of fever when epidemic, <lb/>a great number of caſes ſimilar to
+          the above have <lb/>occurred, in which the diſeaſe was ſuddenly cut <lb/>ſhort by the uſe
+          of the cold affuſion on the firſt and <lb/>ſecond day; twenty ſix of theſe caſes were in
+          the <lb/>30th regiment, as has already been ſtated. In <lb/>ſuch inſtances, the reſult was
+          ſo preciſely ſimilar to <lb/>what occurred in the caſe 1 have related, that it <lb/>would
+          be to no purpoſe to detail them. </p>
+        <p rend="space indent">
+          <lb/>When an epidemic fever is ſpreading, and the <lb/>danger is known, patients will take
+          the alarm on <lb/>the firſt attack, and the power, as well as the utility <lb/>of ſuch a
+          remedy, as the cold affuſion, in ſuch ſitua- <lb/>tions of general danger, will be eaſily
+          imagined. — <lb/>It cannot be employed too ſoon after the firſt at- <pb n="21"/>
+          <lb/>tack, provided the original chill is over, and the <lb/>hot ſtage is firmly
+          eſtabliſhed. </p>
+        <p rend="space indent">
+          <lb/>In caſes in which the affuſion was not employed <lb/>till the third day of fever, I
+          have ſeen ſeveral in- <lb/>ſtances of the ſame complete ſolution of the diſeaſe. <lb/>I
+          have even ſeen this take place, when the remedy <lb/>has been deferred till the fourth
+          day; but this is not <lb/>common. — The following caſe will point out the <lb/>uſual
+          effects of this remedy in the third and fourth <lb/>days of the diſeaſe. </p>
+        <figure rend="space">
+          <figDesc>A short horizontal line in the middle of the page. </figDesc>
+        </figure>
+        <floatingText>
+          <body>
+            <head rend="align-center space">
+              <lb/>CASE II. </head>
+            <p rend="space indent">
+              <lb/><hi rend="italic">Jan.</hi> 17, 1790. A. B. aged nineteen, a pupil of <lb/>the
+              Infirmary, caught the infection in attending the <lb/>fever-ward. When I ſaw him,
+              ſeventy-eight hours <lb/>had elapſed ſince the firſt attack: he was of courſe <lb/>in
+              the fourth day of the diſeaſe. He had all the <lb/>uſual ſymptoms — head-ach, thirſt,
+              furred tongue, <lb/>pain in the back and loins, with great debility. His <lb/>heat was
+              101°, and his pulſe 112 in the minute. </p>
+            <p rend="indent space">
+              <lb/>A bucket full of ſalt water was poured over him <lb/>as uſual at noon on the
+              17th. His heat ſunk to <lb/>99°, and his pulſe to 98 in the minute. A profuſe
+              <lb/>perſpiration followed, with the ceſſation of all his <lb/>feveriſh ſymptoms. —
+              This intermiſſion continued <lb/>for ſeveral hours, during which he enjoyed ſome <pb
+                n="22"/>
+              <lb/>comfortable ſleep: but at five in the afternoon he <lb/>was again ſeized with
+              feveriſh rigors, followed by <lb/>heat, thirſt, and head-ach, as before. An hour
+              after- <lb/>wards, the hot ſtage was eſtabliſhed; his heat was <lb/>100°, his pulſe
+              100. The ſame quantity of cold <lb/>water was again poured over him, and with ſimilar
+              <lb/>effects. His pulſe fell immediately to 80, and be- <lb/>came more full, his heat
+              became natural. The <lb/>following night he took twenty drops of laudanum <lb/>and
+              ſlept well. </p>
+            <p rend="indent space">
+              <lb/>On the 18th at noon his pulſe was 96 and ſoft; <lb/>his ſkin moiſt, but a little
+              above the natural heat. <lb/>His tongue was a little furred, and his head ached:
+              <lb/>he alſo complained of thirſt; the heat at the axilla <lb/>was 100°. — The ſame
+              remedy was again applied. <lb/>He was greatly refreſhed by it. The pulſe fell to
+              <lb/>90, the ſkin became cool, the thirſt went off, and <lb/>all the feveriſh ſymptoms
+              vaniſhed. </p>
+            <p rend="indent space">
+              <lb/>On the 19th his pulſe was 88, his heat natural, <lb/>the thirſt and head-ach were
+              gone, and his appetite <lb/>improving. The ablution was repeated for the laſt
+              <lb/>time at the ſame hour of the evening. </p>
+            <p rend="space indent">
+              <lb/>On the 20th his pulſe was 78 and ſoft, his tongue <lb/>clean, and his appetite
+              farther improved. He <lb/>had ſtill ſome remains of debility on the 21ſt, but <lb/>on
+              the 22d he was free of complaint. This patient <pb n="23"/>
+              <lb/>during his fever took no medicine but the efferveſ- <lb/>cing mixture, the doſe
+              of laudanum excepted. — The <lb/>affuſion was uſed four times. </p>
+          </body>
+        </floatingText>
+        <figure rend="space">
+          <figDesc>A short horizontal line in the middle of the page. </figDesc>
+        </figure>
+        <floatingText>
+          <body>
+            <head rend="align-center">
+              <lb/>CASE III. </head>
+            <p rend="space indent">
+              <lb/><hi rend="italic">Dec.</hi> 8, 1791. A woman aged fiſty-ſeven, who <lb/>had
+              caught the infection, in her attendance on a <lb/>poor family labouring under fever,
+              came under my <lb/>care in the hoſpital, fiſty hours after the firſt attack. <lb/>She
+              was of courſe in the third day of fever; ſhe had <lb/>the uſual ſymptoms — head-ach,
+              pain in the back <lb/>and loins, and thirſt: her tongue was furred and <lb/>her eyes
+              heavy: her pulſe 96, her heat 101°. <lb/>The affuſion of cold water was performed at
+              noon <lb/>as uſual. In a few minutes afterwards, the heat <lb/>under the tongue was
+              98°, the pulſe 80. Towards <lb/>evening however, the feveriſh rigor returned, with
+              <lb/>all the uſual conſequences. As ſoon as the hot <lb/>ſtage was eſtabliſhed, the
+              affuſion was repeated, <lb/>and with the uſual happy effects. </p>
+            <p rend="indent space">
+              <lb/><hi rend="italic">Dec.</hi> 9. — Noon — pulſe, 90 and feeble — reſpirati- <lb/>on
+              eaſy — heat 100°. — The affuſion was immediately <lb/>employed, and again repeated in
+              the evening — perſ- <lb/>piration, coolneſs, quiet, and ſleep, were the
+              <lb/>conſequence. </p>
+            <p rend="indent space">
+              <lb/><hi rend="italic">Dec.</hi> 10. This day the affuſion was twice re- <pb n="24"/>
+              <lb/>peated as yeſterday, viz. at noon, and at ſix in the <lb/>evening. — At eight in
+              the evening the pulſe was <lb/>76, the ſkin ſoft, the heat 97°, the reſpiration eaſy
+              <lb/>and natural. — The fever returned no more. This <lb/>patient uſed no other
+              remedies but an enema and <lb/>after it an opiate, every night. The affuſion was
+              <lb/>uſed twice every day, in all ſix times. </p>
+          </body>
+        </floatingText>
+        <figure rend="space">
+          <figDesc>A short horizontal line in the middle of the page. </figDesc>
+        </figure>
+        <floatingText>
+          <body>
+            <head rend="align-center">
+              <lb/>CASE IV. </head>
+            <p rend="indent space">
+              <lb/><hi rend="italic">Feb.</hi> 2. 1792. S. C. a healthy man, aged forty- <lb/>four,
+              about ſeventy-two hours after the firſt attack <lb/>of fever, became my patient. His
+              pulſe 100 — his <lb/>heat 104°. — The other ſymptoms as uſual — but <lb/>the pain in
+              the head and back particularly ſevere. <lb/>Two minutes after the affuſion — pulſe 90,
+              heat <lb/>101°; ſix minutes after — pulſe 90 and weak — ten <lb/>minutes after, pulſe
+              90, heat 100°. — This patient <lb/>felt great refreſhment, and was entirely relieved
+              of the <lb/>pain in the head and back. — In the evening however <lb/>the exacerbation
+              of fever was ſevere, and the head- <lb/>ach returned with violence. — He paſſed a
+              reſtleſs <lb/>night. About four o'clock in the enſuing morning <lb/>the affuſion was
+              repeated by his own deſire. At 9, <lb/><hi rend="sc">a. m.</hi> a general and gentle
+              perſpiration covered the <lb/>ſurface of the body; the pulſe was 84, the tongue
+              <lb/>moiſt, the ſkin cool, and the pains of the head and <lb/>back entirely gone off.
+              In the afternoon, however, <lb/>the fever returned, though in a ſlighter degree. <pb
+                n="24"/>
+              <lb/>The affuſion was repeated the fourth time with <lb/>the ſame happy effects, and
+              after this he had no <lb/>return of the diſeaſe. </p>
+          </body>
+        </floatingText>
+        <figure rend="space">
+          <figDesc>A short horizontal line in the middle of the page. </figDesc>
+        </figure>
+        <p rend="space indent">
+          <lb/>Thus it appears, that the cold affuſion uſed on <lb/>the third and fourth days of
+          fever, does not uſually <lb/>produce an immediate ſolution of the diſeaſe; <lb/>but that
+          it inſtantly abates it, and by a few repe- <lb/>titions brings it to a happy termination
+          in two or <lb/>three days. </p>
+        <figure rend="space">
+          <figDesc>A short horizontal line in the middle of the page. </figDesc>
+        </figure>
+        <floatingText>
+          <body>
+            <head rend="align-center">
+              <lb/>CASE V. </head>
+            <p rend="space indent">
+              <lb/><hi rend="italic">Oct. 25.</hi> M. S. came under my care on the <lb/>24th Dec.
+              1791, on the ſeventh day of typhus, <lb/>with the uſual ſymptoms — pulſe 108, heat
+              100°. — <lb/>The cold affuſion was immediately directed — two <lb/>minutes afterwards
+              the heat was 96° —three mi- <lb/>nutes afterwards 98° — the pulſe 98. This patient
+              <lb/>experienced great relief. The affuſion was repeated <lb/>on this and the
+              following day — a gentle diaphoreſis <lb/>always ſucceeded it, with tranquil ſleep,
+              and on the <lb/>third day the fever was completely removed. </p>
+          </body>
+        </floatingText>
+        <figure rend="space">
+          <figDesc>A short horizontal line in the middle of the page. </figDesc>
+        </figure>
+        <floatingText>
+          <body>
+            <head rend="align-center">
+              <lb/>CASE VI. </head>
+            <p rend="indent space">
+              <lb/>A young lady of 19, in the 7th or 8th day of ty- <lb/>phus, became my patient,
+              Sept. 26, 1794. Her pulſe <lb/>was 112 and feeble, heat 101°. She had great <pb n="26"/>
+              <lb/>pain in the head, and much proſtration of ſtrength <lb/>— her eyes were ſuffuſed
+              and dull — her tongue <lb/>furred — her ſpirits greatly depreſſed. Saline me-
+              <lb/>dicines were uſed for this patient, with lemonade <lb/>for her uſual drink, and
+              moderate quantities of <lb/>wine were given mixed with water. The burning
+              <lb/>ſenſation in the palms of her hands and temples <lb/>was aſſuaged by frequent
+              ſpunging with vinegar, <lb/>and every evening at ſix, <hi rend="sc">p. m.</hi> three
+              or four gallons <lb/>of cold brine were thrown over her. The happy <lb/>effects ſo
+              frequently deſcribed, were in this caſe <lb/>particularly ſtriking: — The pulſe fell
+              almoſt im- <lb/>mediately to 90, the heat to its natural ſtandard, <lb/>and the
+              head-ach vaniſhed — a gentle diaphoreſis <lb/>followed, with eaſy ſleep: — in a few
+              hours, however, <lb/>the feveriſh ſymptoms returned, and towards the <lb/>hour of ſix
+              in the evening the fever was as its higheſt <lb/>ſtate of exacerbation. At this hour
+              therefore the <lb/>affuſion was repeated with the ſame happy effects — <lb/>though the
+              fever returned as before, it was in a <lb/>milder form; the ſame practice was
+              continued, <lb/>and on the ſecond of October, ſhe was entirely free <lb/>from the
+              diſeaſe. </p>
+          </body>
+        </floatingText>
+        <figure rend="space">
+          <figDesc>A short horizontal line in the middle of the page. </figDesc>
+        </figure>
+        <floatingText>
+          <body>
+            <head rend="align-center">
+              <lb/>CASE VII. </head>
+            <p rend="space indent">
+              <lb/>F. G. a ſoldier of the 30th regiment, aged 33, <lb/>fell under my care on the 9th
+              June, 1792, during the <lb/>prevalence of the epidemic in that regiment,of which <pb
+                n="27"/>
+              <lb/>I have already given an account. He was in the <lb/>9th day of the diſeaſe — his
+              pulſe 100 and feeble — <lb/>his heat 104° — his thirſt was very great—his tongue
+              <lb/>foul and black — frequent cough occurred, with <lb/>ſtreaks of blood in the
+              expectoration—and petechiæ <lb/>appeared all over his body. His mind was at all
+              <lb/>times confuſed, and occaſionally he was completely <lb/>delirious. I directed
+              that his ſtrength ſhould be ſup- <lb/>ported by adminiſtering a bottle of wine every
+              day, <lb/>with an equal quantity of gruel ; — that every night <lb/>he ſhould take an
+              opiate draught, and that a com- <lb/>plete operation of his bowels ſhould be procured
+              <lb/>by a clyſter adminiſtered daily, and if this did not <lb/>ſucceed, by a few
+              grains of calomel. I alſo direct- <lb/>ed that a bucket full of ſalt-water ſhould be
+              thrown <lb/>over him immediately, and repeated according to <lb/>circumſtances. In a
+              few minutes after the affuſion, <lb/>the heat was 98° — the pulſe 98 — his mind was
+              <lb/>more calm and collected: two hours afterwards <lb/>he had relapſed into nearly
+              his former ſtate, but <lb/>the night was paſſed more tranquilly. The <lb/>whole of
+              this practice was continued, with nearly <lb/>the ſame reſult, till the 12th day of
+              the diſeaſe, the <lb/>affuſion having always been performed in the even- <lb/>ing, and
+              occaſionally at noon. The fever conti- <lb/>nued its uſual period, but on the 12th
+              day, the <lb/>heat having ſunk to its natural ſtandard, the cold <lb/>affuſion was
+              thenceforth omitted; we however, <lb/>ſpunged the whole body once or twice a day with
+                <pb n="28"/>
+              <lb/>vinegar. — The patient was in a ſtate of conva- <lb/>leſcence on the 18th day
+              from the firſt attack. </p>
+          </body>
+        </floatingText>
+        <figure rend="space">
+          <figDesc>A short horizontal line in the middle of the page. </figDesc>
+        </figure>
+        <p rend="indent space">
+          <lb/>I have related this caſe the more circumſtantially, <lb/>becauſe it contains the
+          particulars of my practice in <lb/>the epidemic in which it occurred, at the ſame time
+          <lb/>that it affords an example of the effects of the cold <lb/>affuſion uſed in the more
+          advanced periods of fever. <lb/>In ſuch inſtances, as might be expected, it does <lb/>not
+          procure the ſame advantages, as in the earlier <lb/>ſtages, when the ſtrength is leſs
+          impaired, and the <lb/>morbid actions leſs firmly aſſociated; nevertheleſs, <lb/>it is
+          evidently advantageous while the heat of the <lb/>patient exceeds the natural ſtandard,
+          though it <lb/>ought to be employed with caution in the more <lb/>advanced ſtages of the
+          diſeaſe, and according <lb/>to my later experience, of a temperature from <lb/>fiſteen to
+          twenty degrees only, below the human <lb/>heat. In the greater part of the caſes that I
+          have <lb/>related, the water employed was the pump water <lb/>of our hoſpital, ſaturated
+          with ſea-ſalt, and of a <lb/>temperature from 40° to 50° of Fah'. </p>
+        <p rend="indent space">
+          <lb/>The cold affuſion may alſo be employed with <lb/>ſucceſs in intermittent fevers, as I
+          have found by <lb/>repeated trials, and as the following caſe will <lb/>demonſtrate. </p>
+        <pb n="29"/>
+        <floatingText>
+          <body>
+            <head rend="align-center">
+              <lb/>CASE VIII. </head>
+            <p rend="indent space">
+              <lb/>Ann Hall, aged 22, was admitted into the Infir- <lb/>mary, July 19, 1792, under
+              an obſtinate quotidian <lb/>of three months ſtanding — ſhe had from time to <lb/>time
+              taken the bark, but as the great delicacy of <lb/>her ſtomach, would not permit her to
+              uſe it in ſuffi- <lb/>cient quantities, ſhe was become very feeble and <lb/>much
+              emaciated. A gentle emetic was admi- <lb/>niſtered to her in the firſt inſtance, and
+              on the <lb/>commencement of the hot ſtage of the paroxyſm, <lb/>twenty drops of the
+              tincture of opium were directed, <lb/>after the practice of Dr. Lind. During the
+              intermiſ- <lb/>ſion, the bark was ordered to be taken in ſuch doſes as <lb/>her
+              ſtomach would bear; ſhe was put on a nouriſ- <lb/>hing diet, and was ordered a pint of
+              port wine every <lb/>day. This plan was purſued for fourteen days, but <lb/>without
+              ſucceſs; the paroxyſms returned daily, <lb/>though with ſome irregularity — her
+              ſtrength was <lb/>however rather improved. Still the delicacy of her <lb/>ſtomach
+              continued, and the bark, except in very <lb/>ſmall doſes, was conſtantly rejected. </p>
+            <p rend="space indent">
+              <lb/>On the 8th of Auguſt, two hours before the <lb/>expected acceſſion of the fever,
+              four gallons of brine <pb n="30"/>
+              <lb/>were daſhed over her, of the temperature of 66° of <lb/>Fah'. and this day ſhe
+              eſcaped the attack. In the <lb/>interval between this and the period of the next
+              <lb/>return, ſhe took the bark in larger quantity, the <lb/>tone of her ſtomach being
+              improved; but on the <lb/>10th, two hours later than uſual, the paroxyſm <lb/>returned
+              with unuſual ſeverity. <hi rend="italic">After the hot ſtage <lb/>was completely
+                formed</hi>, the brine was poured over <lb/>her, as before — the ſymptoms inſtantly
+              abated; <lb/>ſhe fell into a gentle perſpiration, with profound <lb/>ſleep. She
+              afterwards continued the bark as before, <lb/>and from this time forwards was free of
+              diſeaſe. </p>
+            <p rend="space indent">
+              <lb/>It would be eaſy to multiply theſe details, but <lb/>their uniformity has already
+              perhaps rendered them <lb/>tedious; a few general obſervations therefore <lb/>ſhall
+              conclude this diviſion of the ſubject. </p>
+          </body>
+        </floatingText>
+        <space dim="vertical" unit="lines" quantity="2"> </space>
+      </div>
+      <pb n="31"/>
+      <div type="chapter">
+        <space dim="vertical" unit="lines" quantity="2"> </space>
+        <head rend="align-center">
+          <lb/>CHAP. VI. </head>
+        <figure rend="space">
+          <figDesc>A short horizontal line in the middle of the page. </figDesc>
+        </figure>
+        <head rend="italic align-center space">
+          <lb/>General Obſervations. </head>
+        <p rend="space">
+          <lb/>1. <hi rend="sc size(1.25)">Though</hi> the patients were often ſtartled at <lb/>the
+          firſt propoſal of daſhing the cold water over <lb/>them, yet after one trial, there was
+          ſeldom any <lb/>difficulty in perſuading them to have it repeated. <lb/>The effects were
+          in general highly grateful and re- <lb/>freſhing to their ſenſations, the extinction or
+          abate- <lb/>ment of fever was commonly followed by more <lb/>or leſs diaphoreſis, and this
+          again by refreſhing <lb/>ſleep. </p>
+        <p rend="space indent">
+          <lb/>2. At firſt I uſed freſh water — afterwards freſh <lb/>water mixed with vinegar — and
+          laſtly, a ſaturated <lb/>ſolution of ſea-ſalt in water. In the inſtance of <lb/>the 30th
+          regiment I uſed the water of the river, <lb/>which contains about a thirty-third part of
+          ſalt, as <lb/>has been already mentioned, and this I com- <pb n="32"/>
+          <lb/>monly employ in private practice. <note n="*" place="bottom" rend="size(0.75)">
+            <p rend="indent">
+              <lb/>* It may be ſuppoſed that the degree of impregnation of <lb/>the river water with
+              ſalt, muſt depend on the time of the <lb/>tide when it is taken up. Thus, that it muſt
+              be ſalter at the <lb/>height of the ſtood, when the tide has run ſix hours from the
+              <lb/>ſea, than at the period of low water, when it has run nearly <lb/>the ſame time
+              from the land. — I expected to find this the caſe, <lb/>and endeavoured to aſcertain
+              the difference; but in a trial <lb/>which I made by evaporating 40lbs. of water taken
+              up at the <lb/>height of the flood tide, and the ſame quantity taken up at low
+              <lb/>water, I could perceive no difference in the proportion of <lb/>ſalt, a
+              circumſtance which I am unable to explain. The <lb/>ſmall difference that there was in
+              the reſiduum in favour of <lb/>the water taken up at the top of the tide, aroſe
+              evidently from <lb/>its feeing mingled with a large portion of dirt — the water at
+              <lb/>the top of the tide is mixed with dirt and feculencies, that <lb/>taken at the
+              loweſt point of ebb is nearly pure. </p>
+          </note> I was led to <lb/>prefer ſalt-water to freſh, on account of the ſtimu- <lb/>lating
+          effect of ſea-ſalt on the veſſels of the ſkin, <lb/>by which I apprehend the debilitating
+          action of <lb/>cold is prevented. Salt-water, either for the pur- <lb/>poſe of immerſion
+          or affuſion, is more grateful to <lb/>the patient than freſh water, and it is well known
+          <lb/>that it may be applied to the ſurface for a length of <lb/>time, with much leſs
+          hazard. The countenances <lb/>of perſons immerſed in ſea-water, and eſpe- <lb/>cially in
+          ſaturated brine, for ſome time toge- <lb/>ther, preſerve the luſtre of the eye and the
+          ruddi- <lb/>neſs of the cheek longer than thoſe in freſh water, <pb n="33"/>
+          <lb/>of the ſame temperature, and ſuch perſons exhibit <lb/>the vital re-action ſtronger
+          when removed from it. <lb/>I preferred the brine to vinegar, as being cheaper, <lb/>and
+          more eaſily procured of the neceſſary quantity: <lb/>otherwiſe, it is well known how
+          grateful vine- <lb/>gar is to patients in fever, and perhaps a mixture <lb/>of vinegar and
+          water of the proper ſtrength <lb/>might be prepreferable even to brine. But though <lb/>I
+          gave the preference to brine over freſh water, <lb/>I have very often uſed the laſt, and
+          it is ſeldom <lb/>that any danger can reſult from the want of a <lb/>ſaline impregnation,
+          where the cold is employ- <lb/>ed in ſo ſtimulating a form as that which has <lb/>been
+          deſcribed, and for ſo temporary a duration. </p>
+        <p rend="space indent">
+          <lb/>3. In taking the heat of the patient, I have gene- <lb/>rally uſed a ſmall mercurial
+          thermometer of great <lb/>ſenſibility, with a moveable ſcale, made for me by <lb/>Mr.
+          Ramſden, after a form invented by the late <lb/>Mr. Hunter, and uſed by him in his
+          experiments <lb/>on the heat of animals, and I have introduced the <lb/>bulb under the
+          tongue with the lips cloſe, or under <lb/>the axilla indifferently; having found by
+          repeated <lb/>experiments, that the heat in theſe two places cor- <lb/>reſponds exactly,
+          and gives a juſt indication of the <pb n="34"/>
+          <lb/>heat of the ſurface of the body where ſheltered by <lb/>the neceſſary teguments, and
+          ſecluded from the con- <lb/>tact of the external air. </p>
+        <p rend="space indent">
+          <lb/>Finding, however, conſiderable riſque in uſing <lb/>the ſtraight tubed thermometer in
+          contagious diſ- <lb/>eaſes, I got ſome inſtruments of this kind made with <lb/>a ſmall
+          bulb curved at the end. The bulb being <lb/>introduced under the tongue or the axilla, the
+          ob- <lb/>ſerver can ſtand behind the patient, and mark the <lb/>riſe of the mercury,
+          without coming into the imme- <lb/>diate ſphere of his reſpiration. </p>
+      </div>
+      <pb n="35"/>
+      <div type="chapter">
+        <head rend="align-center space">
+          <lb/>CHAP. IX. </head>
+        <head rend="italic align-center space">
+          <lb/>Precautions requiſite in uſing the cold affuſion, illuſtrated <lb/>with Caſes. </head>
+        <p rend="space">
+          <lb/>1. <hi rend="sc size(1.25)">It</hi> was before remarked, that the cold affuſion
+          <lb/>cannot be uſed with ſafety during the cold ſtage of <lb/>the febrile paroxyſm: The
+          following caſe will illuſ- <lb/>trate this truth. In the ſummer of 1792 I was re-
+          <lb/>queſted by Mr. Hoffman, an ingenious Pruſſian <lb/>gentleman, and a ſurgeon in the
+          army then under <lb/>the command of the Duke of Brunſwick, to give <lb/>him an opportunity
+          of ſeeing the method of uſing <lb/>this remedy. At that time there was a patient la-
+          <lb/>bouring under a tertian intermittent under my care <lb/>in the Infirmary, on whom it
+          could with propriety <lb/>be exhibited. Accordingly a time for meeting Mr. <lb/>Hoffman in
+          the fever-ward was appointed, when <lb/>the hot ſtage of the paroxyſm might be expected
+          <lb/>to be fairly formed. It happened however that the <lb/>acceſſion of the fever had
+          occurred an hour later this <lb/>day than might have been expected, and when we
+          <lb/>arrived, the patient was ſtill in the cold ſtage of the <lb/>paroxyſm; the aſſiſtants
+          however proceeded: he was <pb n="36"/>
+          <lb/>taken out of his bed ſhivering, his pulſe ſmall and <lb/>frequent, his extremities
+          ſhrunk and cold. In this <lb/>ſtate the brine was daſhed over him as uſual, but <lb/>not
+          with the uſual happy effects: — his breathing <lb/>was for ſome minutes almoſt ſuſpended;
+          his pulſe <lb/>at the wriſt was not to be felt; the pulſations of <lb/>the heart were
+          feeble and fluttering; a deadly cold- <lb/>neſs ſpread over the ſurface; and when
+          reſpiration <lb/>returned, it was ſhort, irregular, and laborious. — <lb/>After the uſe of
+          frictions on the ſurface, and parti- <lb/>cularly on the extremities — of a ſteady warmth
+          ap- <lb/>plied for ſome time to the ſcrobiculus cordis — and of <lb/>cordials cautiouſly
+          adminiſtered in ſmall quantities — <lb/>the pulſe at the wriſt returned; but for ſome time
+          <lb/>it was exceſſively quick and feeble. He recovered <lb/>however in the courſe of an
+          hour, and it was found <lb/>that the paroxyſm of fever had been extinguiſhed: <lb/>but the
+          circumſtances firſt related were evidently <lb/>full of danger, and they produced at the
+          time much <lb/>apprehenſion and uneaſineſs. The ſame remedy <lb/>was however uſed in the
+          hot ſtage of the enſuing <lb/>paroxyſm, and with the uſual happy effects. — <lb/>Other
+          caſes to the ſame purpoſe might be adduced <lb/>if it were neceſſary. </p>
+        <p rend="space indent">
+          <lb/>I have frequently uſed the cold affuſion in the hot <lb/>ſtage of the paroxyſm of
+          intermittents, and almoſt <lb/>always with the immediate ſolution of the fit; but <lb/>in
+          general, if no remedy be uſed in the intermiſſion, <pb n="37"/>
+          <lb/>the fever returns at the uſual period. In ſome in- <lb/>ſtances, however, the
+          ſucceeding paroxyſm has <lb/>been prevented by uſing the cold affuſion about an <lb/>hour
+          previous to the period of its expected return, <lb/>and the diſeaſe been ultimately
+          removed by conti- <lb/>nuing this practice through four or five of the fol- <lb/>lowing
+          periods. </p>
+        <p rend="space indent">
+          <lb/>The uſe of the cold affuſion in the abſence of <lb/>fever, requires however a
+          conſtitution in a great <lb/>meaſure unbroken; and many of the intermittents <lb/>which we
+          ſee in Liverpool, being tranſmitted to us <lb/>from the warm climates, adhere to
+          conſtitutions in <lb/>which this practice is not perfectly ſafe. In ſuch <lb/>caſes, it
+          may notwithſtanding be adopted in the <lb/>hot ſtage of fever with ſafety and advantage.
+          In- <lb/>deed it ought never to be forgotten, that an applica- <lb/>tion of cold which is
+          ſafe in the violence of fever, <lb/>is not ſafe when the fever is removed. Injury has
+          <lb/>ſometimes occurred from continuing the cold affu- <lb/>ſion in the period of
+          convaleſcence. </p>
+        <p rend="space indent">
+          <lb/>2. Neither is the cold affuſion ſafe after the ſweat- <lb/>ing ſtage of fever has
+          continued ſome time, and the <lb/>body is paſſing through that cooling proceſs. The
+          <lb/>following caſe will illuſtrate this poſition. In the <lb/>ſummer of 1791, a boy of
+          eight years of age, in <lb/>whom I am peculiarly intereſted, was attacked by <lb/>fever.
+          On the third day his pulſe roſe to 130, <pb n="38"/>
+          <lb/>and 140 in the minute, and his heat to 106° and <lb/>107° of Fah'. His thirſt was
+          very great, and de- <lb/>lirium commenced on the ſecond day, and conti- <lb/>nued without
+          intermiſſion. Various methods had <lb/>been employed to abate the fever, and particularly
+          <lb/>to excite perſpiration, but unſucceſsfully. His heat <lb/>was not leſſened by
+          repeated ſpunging of the ſurface <lb/>of the body with cold vinegar and water; and after
+          <lb/>a copious bleeding, all the ſymptoms were as alarm- <lb/>ing as before. It ſeemed
+          hazardous to repeat this <lb/>evacuation, as the blood exhibited no ſize, and there
+          <lb/>was a ſuſpicion that the diſeaſe originated in con- <lb/>tagion. The patient had
+          taken antimonials with- <lb/>out any apparent effect, and after watching the ſtate <lb/>of
+          the thermometer, with the bulb at the axilla, up- <lb/>wards of an hour, though the
+          mercury had ſunk a <lb/>ſingle degree in that interval, it ſtood at the end of <lb/>the
+          time as high as 107°. In this ſtate of things we <lb/>reſolved on trying the cold
+          affuſion, and every thing <lb/>being prepared, he was ſtripped naked and liſted out
+          <lb/>of bed. As we were about to throw the water upon <lb/>him, it was obſerved that a
+          perſpiration had broken <lb/>out all over him, but the heat being ſo great, we
+          <lb/>perſiſted in our purpoſe, and four gallons of freſh <lb/>water of the temperature of
+          6o° were daſhed up- <lb/>on him; the effects were altogether ſurpriſing. On <lb/>replacing
+          him in bed, the mercury in the thermo- <lb/>meter (the bulb at the axilla as before) roſe
+          to 98° <lb/>only, and the burning heat of the extremities was <pb n="39"/>
+          <lb/>converted into a coolneſs that was rather alarming; <lb/>the pulſe had ſunk in
+          frequency to 90° but was <lb/>full and ſteady. Gentle frictions were applied to <lb/>the
+          legs and feet, but they were not long continu- <lb/>ed, for the general warmth ſpeedily
+          returned; the <lb/>heat in the trunk of the body roſe in about an <lb/>hour to 100° and
+          the pulſe to 100. His dilirium <lb/>went entirely off; the fur on his tongue ſpeedily
+          <lb/>diſappeared; and twenty hours afterwards he was <lb/>found free of every complaint
+          but debility. </p>
+        <p rend="space indent">
+          <lb/>Subſequent experience has however convinced <lb/>me that though in this caſe the
+          termination was ſo <lb/>happy, the cold affuſion was not unattended with <lb/>hazard.
+          Perſpiration had commenced and the heat <lb/>was ſinking. It had perhaps ſunk more at the
+          <lb/>moment when the affuſion was performed, than was <lb/>indicated by the thermometer,
+          for the bed-clothes <lb/>often keep the body from cooling under perſpira- <lb/>tion to the
+          degree that would otherwiſe be pro- <lb/>duced. In this caſe when the ſurface is ſuddenly
+          <lb/>expoſed to the external air the heat ſinks rapidly. <lb/>If the perſpiration had
+          continued an hour longer <lb/>before this remedy was uſed, the heat would have <lb/>been
+          ſtill more diminiſhed; a torpor of the veſſels <lb/>of the ſurface, and of the
+          extremities, would have <lb/>been produced, followed by a great, and probably a
+          <lb/>dangerous re-action of the centre. This obſerva- <lb/>tion will be illuſtrated in the
+          ſequel. </p>
+        <pb n="40"/>
+        <p rend="space indent">
+          <lb/>In recommending the affuſion of cold water as a <lb/>remedy in fever, an expreſs
+          exception is therefore <lb/>made againſt its uſe during the feveriſh chill, or <lb/>after
+          the perſpiration has begun to flow profuſely, <lb/>and more eſpecially after it has
+          continued to flow <lb/>profuſely for ſome time. An exception is alſo made <lb/>againſt its
+          being employed in the latter end of fever, <lb/>when the ſtrength is much exhauſted, and
+          the heat <lb/>is ſometimes as low or lower than the temperature <lb/>of health. While,
+          however, the heat riſes one or <lb/>two degrees above the healthy ſtandard, this remedy
+          <lb/>may be uſed even in the latter ſtages of fever. I have <lb/>employed it with
+          advantage on the 11th, 12th, and <lb/>13th days. In inſtances of this kind it will how-
+          <lb/>ever be prudent to make the degree of cold very <lb/>moderate, as has been already
+          obſerved; and as <lb/>it is ſcarcely to be expected that at an advanced <lb/>period of the
+          diſeaſe, the progreſs of it can be ſtop- <lb/>ped, or its duration much leſſened, it may
+          perhaps an- <lb/>ſwer every purpoſe to employ in ſuch caſes the <hi rend="italic"
+            >tepid</hi>
+          <lb/>ablution. I have indeed often contented myſelf with <lb/>ſpunging the body all over
+          with tepid vinegar, or vi- <lb/>negar and water, from the 9th or 10th day forwards;
+          <lb/>but I have frequently in caſes where the heat conti- <lb/>nued high, directed the
+          general affuſion of tepid <lb/>water, by which the heat may always be ſpeedily <lb/>and
+          and effectually reduced, <hi rend="italic">when that is the only object in <lb/>view.</hi>
+        </p>
+        <pb n="41"/>
+        <p rend="space indent">
+          <lb/>Under theſe reſtrictions, the affuſion of cold <lb/>water may be uſed with perfect
+          ſafety in the low <lb/>contagious fever of this country, and the facts al- <lb/>ready
+          ſtated will ſhow that it is a remedy of great <lb/>power and efficacy. In the firſt ſtages
+          of fever, it <lb/>appears very generally to cut ſhort the diſeaſe almoſt
+          <lb/>inſtantaneouſly; and even when it fails of this effect, <lb/>as is uſually the caſe
+          when it is applied in the more <lb/>advanced ſtages, it nevertheleſs moderates the vio-
+          <lb/>lence of the ſymptoms, and ſhortens the duration of <lb/>the fever. </p>
+      </div>
+      <pb n="42"/>
+      <div type="chapter">
+        <space dim="vertical" unit="lines" quantity="2"> </space>
+        <head rend="align-center">
+          <lb/>CHAP. VIII. </head>
+        <head rend="italic hanging space">
+          <lb/>General remarks on fever. Hiſtory of a caſe of fever <lb/>in which the affuſion of
+          cold water was not ſalu- <lb/>tary. </head>
+        <p rend="space">
+          <lb/><hi rend="sc size(1.25)">Since</hi> the introduction of ſcientific arrangements
+          <lb/>into medicine, diſeaſes have been much reduced <lb/>in number, and their nature has
+          been more clearly <lb/>underſtood. This is eſpecially true of continued fe- <lb/>ver,
+          which is exhibited by Dr. Cullen under three <lb/>genera only, Synocha, Typhus, and
+          Synochus. Of <lb/>theſe genera, however, the Synocha, or pure in- <lb/>flammatory fever,
+          without topical inflammation, is <lb/>confeſſedly a very rare occurrence in this iſland;
+          <lb/>the venerable profeſfor uſed to declare that he <lb/>had not met with a ſingle
+          inſtance of it in forty <lb/>years practice. — And the typhus and ſynochus ſeem <lb/>to be
+          conſidered by him as the ſame diſeaſe, mo- <lb/>dified differently, by the difference of
+          climate, ſeaſon, <pb n="43"/>
+          <lb/>and conſtitution. Both are deſcribed as contagious, <lb/>and as occaſionally
+          producing each other. Doubt- <lb/>leſs the typhus, or low contagious fever, is the pre-
+          <lb/>vailing fever of this iſland, and of Europe. It is <lb/>the epidemic of all our great
+          towns, of our jails, <lb/>hoſpitals, and manufactories; its origin and progreſs <lb/>are
+          clearly aſcertained, and its ſymptoms generally <lb/>underſtood. It is to this fever that
+          the preceding <lb/>obſervations chiefly apply. </p>
+        <p rend="space indent">
+          <lb/>I have my doubts, however, after much reflection <lb/>and obſervation, whether we
+          have not ſimplified <lb/>too faſt in our noſological arrangements of fever. <lb/>The
+          dreadful diſeaſe which prevailed lately at <lb/>Philadelphia, and which now ravages the
+          Weſt <lb/>Indies, cannot perhaps be included without ſome <lb/>violence within our ſyſtems
+          of Noſology; and its <lb/>fatality under all the eſtabliſhed modes of treatment,
+          <lb/>whilſt it excites our deepeſt regret, muſt ſerve to <lb/>abate the pride of modern
+          ſcience. — Even in our own <lb/>iſland, it appears to me that caſes of fever occaſional-
+          <lb/>ly occur, which cannot be referred with advan- <lb/>tage to any of the genera of Dr.
+          Cullen <note n="*" place="bottom" rend="size(0.75)">
+            <p rend="indent">
+              <lb/>* I am aware that all queſtions reſpecting Noſological <lb/>arrangement have a
+              tendency to degenerate into verbal diſ- <lb/>putes, and I willingly avoid them,
+              referring for my accuracy <lb/>to thoſe who have ſtudied diſeaſes, not in books only,
+              but in <lb/>the volume of nature. </p>
+          </note>. The fol- <pb n="44"/>
+          <lb/>lowing is a deſcription of a fever of this kind; I <lb/>have not met with it often,
+          but when I have met <lb/>with it, it has very generally proved fatal, under the
+          <lb/>eſtabliſhed modes of treatment; and I am ſorry to <lb/>ſay, that in the only inſtance
+          of this fever in which <lb/>I have tried it, the affuſion of cold water proved
+          <lb/>unſucceſsful alſo. </p>
+        <p rend="space indent">
+          <lb/>The fever in queſtion does not ſeem to originate <lb/>in contagion, or to propagate
+          itſelf by contagion. <lb/>I have never been able in a ſingle inſtance to trace <lb/>it to
+          that ſource, nor have I ever found it to be <lb/>communicated from the patient to any of
+          his atten- <lb/>dants. The caſes which I have ſeen have occurred <lb/>chiefly in the
+          winter ſeaſon, in perſons in the flower <lb/>or vigour of life, poſſeſſed of conſiderable
+          ſenſibi- <lb/>lity of mind, and in the habits of more than ordi- <lb/>nary mental
+          exertion. After ſome days of indiſtinct <lb/>catarrhal complaints, the fever comes on (in
+          general <lb/>after ſome accidental expoſure to cold) with a very <lb/>violent and long
+          continued attack of chills and rigor, <lb/>and to this, as is uſual, ſucceeds a ſtate of
+          heat and <lb/>re-action. The patient complains of intenſe head- <lb/>ach and of oppreſſion
+          at the præcordia, with occaſi- <lb/>onal but not ſevere cough, and with ſome increaſe
+          <lb/>in the frequency of reſpiration. His pulſe is not <lb/>remarkable as to frequency or
+          ſtrength; his ſleep <lb/>is not particularly diſturbed; and for ſome days <lb/>the
+          complaint goes on as if produced by catarrhal <pb n="45"/>
+          <lb/>fever. From the firſt, however, there appears a <lb/>great quickneſs and impatience
+          about the patient: <lb/>he talks more rapidly than uſual; apprehends you <lb/>quickly, and
+          anſwers you inſtantly. He cannot, <lb/>however, command his attention long, and is fa-
+          <lb/>tigued with the effort. His heat, which was at <lb/>firſt moderate, becomes very
+          great on the 7th and <lb/>8th day, reaching 107° or 110° of Fah'.; he be- <lb/>comes
+          delirious and talks inceſſantly. Throughout <lb/>the fever, his ſenſes of hearing and
+          taſte are uni- <lb/>formly acute, and this is true alſo of his ſenſe of <lb/>feeling.
+          Great as his heat is, he is much alive to <lb/>the impreſſions of cold on the ſurface of
+          the body, <lb/>and ſhrinks from them. At times he appears ſur- <lb/>priſingly calm and
+          natural, gets out of bed and <lb/>dreſſes himſelf, inſiſting that he is well. Often he
+          <lb/>ſtarts up ſuddenly in bed and opens his curtains, <lb/>ſeeming to look round the room
+          for ſome perſon he <lb/>ſuppoſes preſent; and ſometimes he rings the bell <lb/>violently,
+          if within his r£ach, without apparent <lb/>object. Indiſtinct conceptions riſe and vaniſh
+          in his <lb/>mind, and the impreſſions of ſenſe are confounded <lb/>with the ideas of
+          imagination. As the fever ad- <lb/>vances, the reſpiration becomes more hurried and
+          <lb/>laborious, and the pulſe more frequent and feeble; <lb/>and towards the latter end of
+          the diſeaſe, but not <lb/>before, perſpirations break out, at firſt partial, and at
+          <lb/>length general and profuſe, which however, though <lb/>they reduce the heat, do not
+          otherwiſe relieve him. <pb n="46"/>
+          <lb/>The pulſe ſinks; the body is covered with petechiæ; <lb/>wine, bark, opium, and
+          bliſters, afford no relief: <lb/>ſhe patient dies on the twelfth or thirteenth day of
+          <lb/>fever, and after death the body runs rapidly into <lb/>putrifaction. </p>
+        <p rend="space indent">
+          <lb/>I have ſeen this fever treated by veneſection <lb/>and antimonials in the early
+          ſtages, with a ſtrict at- <lb/>tention to the antiphlogiſtic regimen; and by <lb/>bark and
+          cordials, as the ſtrength began to de- <lb/>cline; but without ſucceſs. I have alſo ſeen
+          it <lb/>treated from the firſt on the ſame plan as typhus, <lb/>but with an equally
+          unfortunate iſſue. In a caſe <lb/>of this fever which occurred lately, I made uſe of
+          <lb/>the cold affuſion, and as the mercury roſe in the <lb/>thermometer with the bulb
+          under the tongue to <lb/>108°, I employed this remedy with ſome degree <lb/>of confidence.
+          The effects did not correſpond with <lb/>my former experience, or with my hopes. The
+          <lb/>patient felt the cold moſt acutely, but was not re- <lb/>lieved. His pulſe did not
+          diminiſh in frequency; <lb/>his heat ſubſided very little, and that for a few mi-
+          <lb/>nutes only; neither diaphoreſis nor ſleep followed. <lb/>This remedy was not
+          repeated, but the ſurface of <lb/>the body was ſpunged from time to time with vine-
+          <lb/>gar, without however producing ſenſible benefit <lb/>or refreſhment. </p>
+        <figure>
+          <figDesc>A short horizontal line in the middle of the page. </figDesc>
+        </figure>
+        <p rend="space indent">
+          <lb/>I have already mentioned that the affuſion of cold <pb n="47"/>
+          <lb/>water is not to be uſed after a profuſe perſpiration <lb/>has taken place; and that
+          it is not to be uſed in the <lb/>cold ſtage which begins the paroxyſm of fever, <lb/>nor
+          till the hot ſtage be fairly formed. In the ty- <lb/>phus, however, this laſt reſtriction
+          ſeldom requires <lb/>us to wait long; the affuſion may be uſed in ge- <lb/>neral in
+          twenty-four hours from the original attack, <lb/>and often much ſooner. The caſe I have
+          juſt re- <lb/>lated is the only inſtance, out of many hundred <lb/>trials, in which I
+          found, that even on the ſixth day <lb/>of fever, with the actual heat of the body far
+          above <lb/>the temperature of health, the affuſion of cold water <lb/>was neither ſalutary
+          nor refreſhing. I have how- <lb/>ever to obſerve, that notwithſtanding the great heat
+          <lb/>of the body, producing the utmoſt reſtleſſneſs and <lb/>anxiety, the <hi
+            rend="italic">ſenſation of heat</hi> was interrupted by <lb/>chillneſs, on the ſlighteſt
+          application of cold, and <lb/>that the ſurface and extremities not only felt chilly,
+          <lb/>but grew cold even on the acceſſion of the external <lb/>air. In reality, through the
+          greater part of the fever, <lb/>the ſtate of the patient had a conſiderable reſem-
+          <lb/>blance to what we ſee in the paroxyſm of an in- <lb/>termittent, when the cold ſtage
+          is terminating, but <lb/>the hot ſtage not fairly formed—when the heat as <lb/>well as the
+          blood, is accumulated in the centre of <lb/>the ſyſtem, and the vital power is ſtruggling
+          to <lb/>give them that propulſion to the ſuperficies which <lb/>terminates in profuſe
+          perſpiration, and carries off the <lb/>diſeaſe. I have little doubt that immerſion in the
+            <pb n="48"/>
+          <lb/>tepid bath continued for ſome time (of the tempe- <lb/>rature that feels comfortably
+          warm to the ſkin) is <lb/>the proper remedy in the fever 1 have deſcribed, as <lb/>it
+          doubtleſs is in the ſtruggle of the paroxyſm of in- <lb/>termittent; and when an
+          opportunity offers, I mean <lb/>to aſcertain the truth on this point. But this opi-
+          <lb/>nion will be illuſtrated when we come to ſpeak of <lb/>the warm bath more
+          particularly. </p>
+        <p rend="space indent">
+          <lb/>If any one ſhould contend that the fever I have <lb/>deſcribed is in reality only a
+          variety of the typhus, <lb/>or ſynochus, I ſhall not be diſpoſed to conteſt the
+          <lb/>matter. The queſtion concerning <hi rend="italic">identity</hi>, leads to
+          <lb/>endleſs diſputes in every branch of ſcience where <lb/>it occurs, and he muſt know
+          little of noſology, <lb/>who ſuppoſes <hi rend="italic">it</hi> has yet received a
+          conſiſtency, <lb/>that would render ſuch a diſcuſſion profitable. <lb/>It is ſufficient
+          for me to obſerve, that the ſymp- <lb/>toms of the two diſeaſes are in a conſiderable
+          <lb/>degree different, though with that general ſimilari- <lb/>ty that belongs td all
+          caſes of fever; that the ſtate <lb/>of the nervous ſyſtem as to impreſſibility is widely
+          <lb/>different; and what is of moſt importances that the <lb/>methods of treatment, which
+          according to my ex- <lb/>perience almoſt invariably ſucceed in the one diſeaſe, <lb/>are
+          unſucceſsful in the other. Every practitioner <lb/>knows, that in typhus, the ſenſe of
+          hearing is gene- <lb/>rally obtuſe; and the ſame may be ſaid of the taſte, <lb/>ſmell, and
+          touch; whether the obſervation is appli- <pb n="49"/>
+          <lb/>cable to the ſight alſo, and under what reſtriction, <lb/>appears to me doubtful. The
+          acuteneſs of all theſe <lb/>ſenſes in the fever which I have deſcribed, is very
+          <lb/>remarkable, and particularly in regard to the ſenſi- <lb/>bility of the ſurface. I
+          have obſerved this ſymptom <lb/>to be produced by ſeveral narcotics, and by ſome
+          <lb/>poiſons. It is very remarkable in the hydropho- <lb/>bia; and in the laſt days of a
+          perſon who died of <lb/>hunger, the ſenſes of touch and viſion were ex- <lb/>tremely
+          acute. <note n="*" place="bottom" rend="size(0.75)">
+            <p rend="indent">
+              <lb/>* This caſe will be found in ſubſequent part of this volume. </p>
+          </note>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

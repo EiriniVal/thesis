@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LMEMT Corpus - London Hospital: An account of the rise, progress, and state of the
+          London Infirmary</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>London Hospital</persName>
+            </author>
+            <title type="main">AN ACCOUNT OF THE RISE, PROGRESS, and STATE OF THE LONDON INFIRMARY,
+              Supported by Charitable and Voluntary Subscription, For the Relief of Sick and
+              Diseased MANUFACTURERS, SEAMEN in Merchant Service, And their WIVES and CHILDREN, From
+              the first Institution on the 3d of November, 1740, to the 12th of May, 1742,
+              inclusive. </title>
+            <edition n="1"/>
+            <idno type="ESTC">N43097</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/N43097"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>London: printed in the year of our Lord, 1742.</persName>
+              </publisher>
+              <date>1742</date>
+            </imprint>
+            <extent>
+              <measure type="format">4⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="1"/>
+              <measure type="count" commodity="body" unit="page" quantity="14"/>
+              <measure type="count" commodity="back" unit="page" quantity="5"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">Bodleian Library, Oxford</orgName>
+            <idno type="ECCO">CW3306189857</idno>
+            <idno type="TCP">K017652.000</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Public welfare and institutional"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text xml:lang="eng">
+    <front> </front>
+    <body>
+      <pb xml:id="page_2"/>
+      <head rend="align-center"><lb/><hi rend="size(1.5)">AN ACCOUNT</hi>
+        <lb/>OF THE <lb/><hi rend="size(1.7)"><hi rend="italic">LONDON</hi> INFIRMARY. </hi></head>
+      <p rend="space"><lb/>
+        <figure>
+          <figDesc>Decorative frame around the letter "O".</figDesc>
+        </figure>
+        <hi rend="dc(2)">O</hi>F all Circumſtances that affect the <lb/>Mind of Man with Compaſſion,
+          <note place="marg" rend="italic size(0.5)"> Reaſons for the <w part="I"
+            >Inſtitu-</w><lb/><w part="F">tion</w>. </note> no one ſeems to touch it ſo nearly
+        <lb/>as the ſeeing our Fellow-Creatures <lb/>labouring with Diſeaſes, and even
+        <lb/>periſhing under them for want of proper and <lb/>timely Aſſiſtance; for who that is not
+        ſavage in <lb/>Nature can paſs regardleſs by thoſe Numbers of <lb/>miſerable Objects, who
+        daily preſent themſelves <lb/>to us, and whoſe various Diſeaſes (were all <lb/>other Motives
+        ſilent) would be as ſo many Tongues, <lb/>which at once ſpeak their own Anguiſh and <w
+          part="I">ex-</w><lb/><w part="F">cite</w> our Pity. As the Characteriſtick of the <lb/><hi
+          rend="italic">Engliſh</hi> is to be humane and beneficent, ſo <w part="I">no-</w><pb
+          xml:id="page_3" n="2"/><lb/><w part="F">thing</w> ſhews it more than Inſtitutions of a <w
+          part="I">pub-</w><lb/><w part="F">lick</w> Nature, ſuch as Hoſpitals and Infirmaries,
+        <lb/>which are here better regulated and ſupplied <lb/>with Neceſſaries, than in any other
+        Country <w part="I">what-</w><lb/><w part="F">ſoever</w>. Some there are of Royal Endowment,
+        <lb/>and eſtabliſh'd Revenue, and others of more <lb/>modern Inſtitution, erected and
+        ſupported by <lb/>the generous and voluntary Contributions of <lb/>good and well-diſpoſed
+        Perſons; but all theſe <lb/>are by Experience known to be no ways <w part="I"
+          >ade-</w><lb/><w part="F">quate</w> to the Numbers that ſeek Aſſiſtance from <lb/>them;
+        for as they can take in no more Patients <lb/>than they have Beds, or give Medicine to more
+        <lb/>than what their Income will allow, many poor <lb/>unhappy Creatures muſt be unavoidably
+        loſt. <lb/>For 'tis a Truth well known, that tho' the City <lb/>of <hi rend="italic"
+          >London</hi> is more populous, and by its Trade <lb/>and Navigation, the labouring Part
+        thereof are <lb/>more ſubject to Accidents and Diſeaſes than the <lb/>common People of <hi
+          rend="italic">Paris;</hi> yet it appears from <lb/>the annual printed Accounts, that the
+          <hi rend="italic">Hotel Dieu</hi>
+        <lb/>alone contains more Patients at one time than <lb/>all our Hoſpitals and Infirmaries
+        together. If <lb/>ſuch Proviſion is made for the diſeaſed <w part="I">Inhabi-</w><lb/><w
+          part="F">tants</w> of <hi rend="italic">Paris,</hi> thoſe of <hi rend="italic">London</hi>
+        more <w part="I">imme-</w><lb/><w part="F">diately</w> require our Regard; particularly, the
+          <lb/><hi rend="italic">Britiſh</hi> Manufacturers and Seamen, as they are <pb
+          xml:id="page_4" n="3"/><lb/>the chief Support of both our foreign and <w part="I"
+          >do-</w><lb/><w part="F">meſtick</w> Trade. </p>
+      <p rend="indent"><lb/>The Strength and Security of <hi rend="italic">Great Britain</hi>
+        <lb/>depending chiefly on its Naval Power, the <w part="I">Wiſ-</w><lb/><w part="F">dom</w>
+        of the Legiſlature has ſhewed a peculiar <lb/>Concern for the Comfort and Happineſs of ſuch
+        <lb/>infirm and diſabled Seamen as have been <w part="I">en-</w><lb/><w part="F">gaged</w>
+        in the Service of the Royal Navy: But <lb/>for Seamen imployed only in the Service of the
+        <lb/>Merchant, and trading Part of the Kingdom, <lb/>or the Wives and Families of ſuch, in
+        Diſtreſs <lb/>by Sickneſs, no deſirable Publick Proviſion has <lb/>yet been made, or <hi
+          rend="italic">particularly</hi> inſtituted for <lb/>their Relief. Nor are our numerous,
+        poor, <w part="I">in-</w><lb/><w part="F">duſtrious</w> Manufacturers, and Artificers, or
+        their <lb/>Wives and Children, by any particular <w part="I">Dona-</w><lb/><w part="F"
+          >tions</w> or Eſtabliſhment, ſufficiently provided for, <lb/>under the Calamity of bodily
+        Diſeaſes and <w part="I">Ca-</w><lb/><w part="F">ſualties</w>; tho' in ſuch afflicting and
+        melancholy <lb/>Circumſtances, they are incapable of providing <lb/>for themſelves or
+        Families by their uſual Labour <lb/>and Induſtry. </p>
+      <p rend="indent"><lb/>Theſe Conſiderations have induced many <w part="I">be-</w><lb/><w
+          part="F">nevolent</w> and publick ſpirited Noblemen, <w part="I">Gen-</w><lb/><w part="F"
+          >tlemen</w>, Merchants and others to turn their <lb/>Thoughts upon raiſing by publick
+        Subſcription, <lb/>a <hi rend="sc">London-Infirmary</hi>, where <hi rend="italic"
+          >Britiſh</hi> Sailors in <pb xml:id="page_5" n="4"/><lb/>the Merchants Service, their
+        Wives and <w part="I">Chil-</w><lb/><w part="F">dren</w>; and poor <hi rend="italic"
+          >Britiſh</hi> Manufacturers, their Wives and Children; are daily admitted, and find
+        Relief, in Diſtreſs by Sickneſs or Caſualties: And this without any Difficulty or Expence of
+        Admittance. </p>
+      <p rend="indent"><lb/>In order to anſwer the Ends propoſed, <note place="marg"
+          rend="italic size(0.5)"> Situation. </note>
+        <hi rend="italic">a <lb/>large Houſe was taken in</hi> Preſcot-Street, <w part="I"
+          >Good-</w><lb/><w part="F">man's-Fields</w>, which Situation was judged the <lb/>moſt
+        convenient, as being near the uſual <w part="I">A-</w><lb/><w part="F">bodes</w> of
+        Manufacturers and Seafaring Men in <lb/>the Merchants Service, and at a conſiderable
+        <lb/>Diſtance from any Hoſpital. </p>
+      <p rend="indent"><lb/>The Houſe is ſpacious and convenient, <note place="marg"
+          rend="size(0.5) italic"> Regulation of the Houſe. </note>
+        <w part="I">con-</w><lb/><w part="F">tains</w> about forty Beds, properly and airily <w
+          part="I">diſ-</w><lb/><w part="F">poſed</w>, is furniſhed with Linnen, and all <w part="I"
+          >ne-</w><lb/><w part="F">ceſſary</w> Conveniencies. The <hi rend="italic">Matron,</hi> a
+        ſober <lb/>and diſcreet Woman, has the Charge of the <lb/>Houſe and Furniture; the Direction
+        of the <lb/>Nurſes, and other Servants; and ſees the Diet <lb/>and Medicines adminiſtred
+        according to Order. <lb/>Under her, are Nurſes, and Watchers, in <w part="I">pro-</w><lb/><w
+          part="F">portion</w> to the Number of Patients, of <w part="I">experi-</w><lb/><w part="F"
+          >enced</w> Honeſty and Tenderneſs, who are guided <lb/>by written Orders to prevent
+        Miſconduct of <lb/>any kind. Proper Diet for the Patients has <lb/>been ſettled by the
+        Gentlemen of the Faculty <pb xml:id="page_6" n="5"/><lb/>engaged in this Charity, and is
+        fixed up in the <lb/>Wards for the Satisfaction of the Patients and <lb/>their Friends. </p>
+      <p rend="indent"><lb/>A <hi rend="italic">Phyſician and Surgeon</hi> of Reputation are
+        <lb/>appointed, and attend daily, <note place="marg" rend="italic size(0.5)"> Phyſicians and
+          Surgeons. </note> from Eleven to <lb/>One, without any Fee or Reward, and give <lb/>their
+        Advice to all ſuch poor diſeaſed Objects <lb/>as think proper to come in thoſe Hours, <w
+          part="I">whe-</w><lb/><w part="F">ther</w> recommended or not; and other <w part="I"
+          >Phyſi-</w><lb/><w part="F">cians</w> and Surgeons of Character attend and <w part="I"
+          >ad-</w><lb/><w part="F">viſe</w> in all dangerous or extraordinary Caſes. </p>
+      <p rend="indent"><lb/>The <hi rend="italic">Diſpenſary</hi> is furniſh'd with Drugs, <note
+          place="marg" rend="italic size(0.5)"> Diſpenſary. </note> which being firſt viewed and
+        reported Good by a <lb/>Committee for that Purpoſe, are bought at the <lb/>beſt hand, and
+        compounded at the <hi rend="italic">Infirmary,</hi>
+        <lb/>where an Apothecary Reſides, who conſtantly <lb/>and ſolely attends the Buſineſs
+        thereof. </p>
+      <p rend="indent"><lb/>No Officers or Servants are permitted upon <lb/>Pain of Expulſion to
+        take of any Tradeſmen, <lb/>Patients, or other Perſons, any Fee, Reward, <lb/>or
+        Gratification of any kind, directly or <w part="I">indi-</w><lb/><w part="F">rectly</w>, for
+        any Service done, or to be done, on <lb/>Account of this Infirmary. </p>
+      <p rend="indent"><lb/>And as the Governors of this Charity are <w part="I">de-</w><lb/><w
+          part="F">ſirous</w> that the utmoſt Regard may be had to <lb/>the Souls of the Patients,
+          <note place="marg" rend="italic size(0.5)"> Chaplain. </note> as well as their <w part="I"
+          >Bo-</w><lb/><w part="F">dies</w>, a Clergyman of the Church of <hi rend="italic"
+          >England</hi>
+        <lb/>has generouſly undertaken, without any <w part="I">Gra-</w><pb xml:id="page_7" n="6"
+          /><lb/><w part="F">tuity</w>, to read Prayers, and perform the other <lb/>Duties of his
+        Function, at the <hi rend="italic">Infirmary.</hi>
+      </p>
+      <p rend="indent"><lb/>Every Subſcriber of five Guineas Yearly is a <lb/>Governor of this
+        Charity, <note place="marg" rend="italic size(0.5)"> Qualification of a <w part="I"
+            >Gover-</w><lb/><w part="F">nor</w>. </note> and is intitled to <lb/>ſend in as many
+        Patients as there are Vacancies <lb/>of Beds; but if they can't be received as
+        In-<lb/>Patients, they are relieved as Out-Patients. <lb/>Every Gentleman giving a
+        Benefaction of thirty <lb/>Guineas at once, will be a Governor for Life.—<lb/>All
+        Subſcriptions are during Pleaſure, and <lb/>ſmaller Sums, from well-diſpoſed Perſons, will
+        <lb/>be thankfully receiv'd and acknowledg'd. </p>
+      <p rend="indent"><lb/>Four Governors in Rotation every Month, <note place="marg"
+          rend="italic size(0.5)"> Buſineſs of Governors. </note> with <lb/>any others that are
+        pleaſed, attend Weekly, in order <lb/>to receive, and diſmiſs Patients, ſuperviſe the
+        <lb/>Proceeding of the Houſe, and do ſuch Buſineſs <lb/>as is uſually done by Committees at
+        other <w part="I">Hoſ-</w><lb/><w part="F">pitals</w>, and report the ſame at the next <w
+          part="I">Quar-</w><lb/><w part="F">terly</w> or General Meeting. There is a General
+        <lb/>Meeting of the Governors every Quarter, before <lb/>whom a Report is made from the
+        Weekly <lb/>Committees, all By-Laws are then Confirm'd, <lb/>all Vacancies fill'd up, and
+        Accounts Audited. <lb/>Alſo an Annual General Meeting of all <w part="I">Sub-</w><lb/><w
+          part="F">ſcribers</w> to Reviſe and Confirm the General <lb/>Account of Proceedings, which
+        will <w part="I">immedi-</w><lb/><w part="F">ately</w> after be publiſh'd for the
+        Satisfaction of <lb/>the Publick. </p>
+      <pb xml:id="page_8" n="7"/>
+      <p rend="indent"><lb/>The Accounts are kept in a regular <w part="I">mercan-</w><lb/><w
+          part="F">tile</w> Manner, and the Names of the Patients, <lb/>their Employment, Place of
+        Abode, Diſorder, <lb/>the Iſſue of the Caſe, and the Name of the <lb/>Subſcriber who ſent
+        them, are inſerted in <w part="I">ſe-</w><lb/><w part="F">veral</w> Columns in a Book for
+        that Purpoſe; and <lb/>are always ready for the Inſpection of <w part="I">Sub-</w><lb/><w
+          part="F">ſcribers</w>, as alſo the Statutes and By-Laws for <lb/>the particular Regulation
+        of this <hi rend="italic">Infirmary.</hi>
+      </p>
+      <p rend="indent"><lb/>All poor, ſick, and lame, <note place="marg" rend="italic size(0.5)">
+          Proper <w part="I">Ob-</w><lb/><w part="F">jects</w>. </note> who are <w part="I"
+          >recom-</w><lb/><w part="F">mended</w>, or appear to the Committee to be <lb/>truly
+        neceſſitous, are received from the Hours <lb/>of Eleven to One, who are ſupply'd with <w
+          part="I">Ad-</w><lb/><w part="F">vice</w>, Medicine, Diet, Waſhing, Lodging, and
+        <lb/>every comfortable Aſſiſtance during their Cure. <lb/>No Perſons with incurable or
+        infectious <w part="I">Diſ-</w><lb/><w part="F">tempers</w>, or of known Ability to pay for
+        their <lb/>Cures, are admitted to partake of this Charity; <lb/>but all Accidents are
+        received at any Hour of <lb/>the Day or Night. </p>
+      <p rend="indent"><lb/>This is the Plan of our Proceedings, and tho' <lb/>this Work is but in
+        its Infancy, yet ſuch has <lb/>been the extraordinary Encouragement given <lb/>to it, by
+        Numbers of Diſtinguiſh'd Humanity, <lb/>that we have the Satisfaction to aſſure the <w
+          part="I">Pub-</w><lb/><w part="F">lick</w>, that ſince the 3d of <hi rend="italic"
+          >November,</hi> 1740, it <lb/>has pleaſed God to bleſs us with ſuch Succeſs, <lb/>that
+        upwards of 2000 diſtreſſed Objects have <pb xml:id="page_9" n="8"/><lb/>been Relieved at the
+          <hi rend="italic">London Infirmary,</hi> and <lb/>from Labouring under the Oppreſſion of
+        ſome <lb/>of the moſt malignant Diſeaſes, and unhappy <lb/>Accidents, have been re-inſtated
+        in their <w part="I">Ho-</w><lb/><w part="F">neſt</w> and Induſtrious Capacities of Working;
+        <lb/>whereby the Publick again enjoy the Benefit of <lb/>their Labour; They, and their poor
+        Families <lb/>preſerved from Periſhing, and prevented from <lb/>being a conſtant Incumbrance
+        to the <w part="I">Commu-</w><lb/><w part="F">nity</w>. </p>
+      <p rend="indent"><lb/>The Subſcribers are deſired to take Notice, <lb/>that if any Patients
+        ſhall not conform to the <lb/>Rules of the Houſe, or are guilty of any <w part="I"
+          >Miſ-</w><lb/><w part="F">behaviour</w>, they will be diſcharged for ſuch <w part="I"
+          >Ir-</w><lb/><w part="F">regularity</w>, and never more relieved by this <w part="I"
+          >Cha-</w><lb/><w part="F">rity</w>. </p>
+      <p rend="indent"><lb/>There was a Propoſal in the <hi rend="italic">Daily
+          Adver-<lb/>tiſer</hi> of the 17th of <hi rend="italic">May,</hi> 1738, for erecting
+        <lb/>an <hi rend="italic">Hoſpital, Infirmary, Surgery, Chappel,</hi> and <lb/><hi
+          rend="italic">School,</hi> for relieving of poor, aged, and <w part="I">other-</w><lb/><w
+          part="F">wiſe</w> diſabled Seamen in the Merchants Service, <lb/>their Wives and Children,
+        by a Subſcription to <lb/>be ſet on Foot amongſt the Merchants, Owners, <lb/>Maſters, and
+        Officers of Ships, and common <lb/>Seamen, who were to pay certain Quarterly <lb/>Sums
+        according to their ſeveral Ranks, which, <lb/>with the Contributions of worthy People, might
+        <lb/>have been ſufficient for the deſired End: As <pb xml:id="page_10" n="9"/><lb/>the <hi
+          rend="italic">London Infirmary</hi> already begun, is <w part="I">calcu-</w><lb/><w
+          part="F">lated</w> to relieve all thoſe who are diſabled by <lb/>Sickneſs or Accidents,
+        and their Wives and <lb/>Children, and anſwers that Propoſal in Part, <lb/>and may be the
+        Foundation of the Whole, we <lb/>hope thoſe who had ſo charitably join'd in <w part="I"
+          >ſup-</w><lb/><w part="F">porting</w> that Subſcription, will as readily intereſt
+        <lb/>themſelves in this, which, if it pleaſes God to <lb/>continue his Favour and proſper
+        the <w part="I">Undertak-</w><lb/><w part="F">ing</w>, may in time, by ſuch Encouragement,
+        be <lb/>extended to the whole Benefit propoſed by that <lb/>Advertiſement. </p>
+        <p rend="indent hanging italic"><lb/>Such Perſons therefore as are inclined to <w part="I"
+            >en-</w><lb/><w part="F">courage</w> and promote ſo laudable a Work, <lb/>are deſired to
+          ſend their Subſcriptions or <lb/>Benefactions to Mr. <hi rend="roman">Thomas Minors,</hi>
+          Banker, <lb/>in <hi rend="roman">Lombard-ſtreet,</hi> who will give proper <lb/>Receipts
+          for the ſame: And any Perſon <w part="I">in-</w><lb/><w part="F">clined</w> by his laſt
+          Will to bequeath a Legacy <lb/>to this Charity, is deſired to direct it to be <lb/>paid to
+          the Treaſurer for the Time being, of <lb/>the <hi rend="roman">London Infirmary</hi> in
+            <hi rend="roman">Goodman's Fields,</hi>
+          <lb/>and that his Receipt ſhall be a good <w part="I">Diſ-</w><lb/><w part="F">charge</w>
+          for the ſame. </p>
+    </body>
+    <back>
+      <div>
+        <pb xml:id="page_11" n="10"/>
+        <head rend="align-center size(0.7)"><lb/>The State of the Account from <hi rend="italic"
+            >Nov. 3, 1740,</hi> to <hi rend="italic">May 12, 1742.</hi>
+        </head>
+        <p rend="indent"><lb/><table>
+            <head>Money Received.</head>
+            <row>
+              <cell role="label" rows="1" cols="1"> </cell>
+              <cell role="label" rows="1" cols="1"> </cell>
+              <cell role="label" rows="1" cols="1"> </cell>
+              <cell rend="italic" role="label" rows="1" cols="1">l. </cell>
+              <cell rend="italic" role="label" rows="1" cols="1">s. </cell>
+              <cell rend="italic" role="label" rows="1" cols="1">d. </cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">To Caſh received by <w part="I">Gover-</w><lb/><w part="F"
+                  >nors</w> Subſcriptions</cell>
+              <cell rows="1" cols="1"> </cell>
+              <cell rows="1" cols="1"> </cell>
+              <cell rows="1" cols="1">425</cell>
+              <cell rows="1" cols="1">5</cell>
+              <cell rows="1" cols="1">0</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">To Do by Subſcriptions</cell>
+              <cell rows="1" cols="1"> </cell>
+              <cell rows="1" cols="1"> </cell>
+              <cell rows="1" cols="1">16</cell>
+              <cell rows="1" cols="1">15</cell>
+              <cell rows="1" cols="1">2</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">To Do by the Poor's Box</cell>
+              <cell rows="1" cols="1"> </cell>
+              <cell rows="1" cols="1"> </cell>
+              <cell rows="1" cols="1">33</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">11</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">To Do by Benefactions, <hi rend="italic">viz.</hi> Mrs. <hi
+                  rend="italic">Jane <w part="I">Hol-</w><lb/><w part="F">den</w>,</hi> Executrix to
+                the late <hi rend="italic">Samuel Holden</hi> Eſq;</cell>
+              <cell rows="1" cols="1">100</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1"> </cell>
+              <cell rows="1" cols="1"> </cell>
+              <cell rows="1" cols="1"> </cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">Miſs <hi rend="italic">May</hi></cell>
+              <cell rows="1" cols="1">21</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1"> </cell>
+              <cell rows="1" cols="1"> </cell>
+              <cell rows="1" cols="1"> </cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1"><hi rend="italic">John Peck</hi> Eſq;</cell>
+              <cell rows="1" cols="1">31</cell>
+              <cell rows="1" cols="1">10</cell>
+              <cell rows="1" cols="1"> </cell>
+              <cell rows="1" cols="1"> </cell>
+              <cell rows="1" cols="1"> </cell>
+            </row>
+            <row role="total">
+              <cell rows="1" cols="1"> </cell>
+              <cell rows="1" cols="1"> </cell>
+              <cell rows="1" cols="1"> </cell>
+              <cell rows="1" cols="1">152</cell>
+              <cell rows="1" cols="1">10</cell>
+              <cell rows="1" cols="1">0</cell>
+            </row>
+            <row role="total">
+              <cell rows="1" cols="1"> </cell>
+              <cell rows="1" cols="1"> </cell>
+              <cell rows="1" cols="1"> </cell>
+              <cell rows="1" cols="1">627</cell>
+              <cell rows="1" cols="1">11</cell>
+              <cell rows="1" cols="1">1</cell>
+            </row>
+          </table>
+          <table>
+            <head>Money Expended.</head>
+            <row>
+              <cell role="label" rows="1" cols="1"> </cell>
+              <cell rend="italic" role="label" rows="1" cols="1">l. </cell>
+              <cell rend="italic" role="label" rows="1" cols="1">s. </cell>
+              <cell rend="italic" role="label" rows="1" cols="1">d. </cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">By Houſhold Furniture</cell>
+              <cell rows="1" cols="1">99</cell>
+              <cell rows="1" cols="1">6</cell>
+              <cell rows="1" cols="1">4</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">By Fireing</cell>
+              <cell rows="1" cols="1">32</cell>
+              <cell rows="1" cols="1">9</cell>
+              <cell rows="1" cols="1">8</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">By Candles</cell>
+              <cell rows="1" cols="1">6</cell>
+              <cell rows="1" cols="1">19</cell>
+              <cell rows="1" cols="1">4</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">By Repairs</cell>
+              <cell rows="1" cols="1">67</cell>
+              <cell rows="1" cols="1">9</cell>
+              <cell rows="1" cols="1">9</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">By Houſe-Rent and Taxes</cell>
+              <cell rows="1" cols="1">33</cell>
+              <cell rows="1" cols="1">16</cell>
+              <cell rows="1" cols="1">4</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">By Salaries, Wages and Gratuities</cell>
+              <cell rows="1" cols="1">65</cell>
+              <cell rows="1" cols="1">18</cell>
+              <cell rows="1" cols="1">2</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">By In-Patients</cell>
+              <cell rows="1" cols="1">81</cell>
+              <cell rows="1" cols="1">8</cell>
+              <cell rows="1" cols="1">0</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">By the Diſpenſary</cell>
+              <cell rows="1" cols="1">146</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">By Sope</cell>
+              <cell rows="1" cols="1">3</cell>
+              <cell rows="1" cols="1">9</cell>
+              <cell rows="1" cols="1">6</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">By Stationary-Ware</cell>
+              <cell rows="1" cols="1">14</cell>
+              <cell rows="1" cols="1">6</cell>
+              <cell rows="1" cols="1">11</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">By Petty Expences</cell>
+              <cell rows="1" cols="1">17</cell>
+              <cell rows="1" cols="1">13</cell>
+              <cell rows="1" cols="1">4</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">By Turnery-Ware</cell>
+              <cell rows="1" cols="1">1</cell>
+              <cell rows="1" cols="1">3</cell>
+              <cell rows="1" cols="1">5</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1"> </cell>
+              <cell rows="1" cols="1">570</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">9</cell>
+            </row>
+            <row role="total">
+              <cell rows="1" cols="1">Balance</cell>
+              <cell rows="1" cols="1">57</cell>
+              <cell rows="1" cols="1">10</cell>
+              <cell rows="1" cols="1">4</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1"> </cell>
+              <cell rows="1" cols="1">627</cell>
+              <cell rows="1" cols="1">11</cell>
+              <cell rows="1" cols="1">1</cell>
+            </row>
+          </table>
+        </p>
+      </div>
+      <div>
+        <head ><lb/>An Account of Patients to the <hi rend="italic">12th</hi> of <hi
+            rend="italic">May, 1742.</hi>
+        </head>
+        <p rend="indent"><lb/><table>
+            <row>
+              <cell rows="1" cols="1">Patients in the Houſe</cell>
+              <cell rows="1" cols="1">127</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">Out-Patients</cell>
+              <cell rows="1" cols="1">2188</cell>
+            </row>
+            <row role="total">
+              <cell rows="1" cols="1"> </cell>
+              <cell rows="1" cols="1">2315</cell>
+            </row>
+          </table>
+          <table>
+            <row>
+              <cell rows="1" cols="1">Patients then in the Houſe</cell>
+              <cell rows="1" cols="1">29</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">Out-Patients on the Books</cell>
+              <cell rows="1" cols="1">311</cell>
+            </row>
+            <row role="total">
+              <cell rows="1" cols="1"> </cell>
+              <cell rows="1" cols="1">340</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">In-Patients diſcharged, cured</cell>
+              <cell rows="1" cols="1">105</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">Dead</cell>
+              <cell rows="1" cols="1">10</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">Diſcharged, incurable</cell>
+              <cell rows="1" cols="1">12</cell>
+            </row>
+            <row role="total">
+              <cell rows="1" cols="1"> </cell>
+              <cell rows="1" cols="1">127</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">Out-Patients, cured</cell>
+              <cell rows="1" cols="1">815</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">Dead</cell>
+              <cell rows="1" cols="1">93</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">Diſcharged, who did not <w part="I">re-</w><lb/><w part="F"
+                  >turn</w> Thanks, but moſt of them known to be cured</cell>
+              <cell rows="1" cols="1">876</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">Incurable</cell>
+              <cell rows="1" cols="1">15</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">Diſcharged for Misbehaviour, or by Deſire</cell>
+              <cell rows="1" cols="1">49</cell>
+            </row>
+            <row role="total">
+              <cell rows="1" cols="1"> </cell>
+              <cell rows="1" cols="1">1848</cell>
+            </row>
+            <row role="total">
+              <cell rows="1" cols="1">Total under Care of this Infirmary</cell>
+              <cell rows="1" cols="1">2315</cell>
+            </row>
+          </table>
+        </p>
+        <p rend="indent"><lb/><hi rend="italic">N. B.</hi> Out of this Number, 29 were Caſualties
+          received into the Houſe without Recommendation. </p>
+      </div>
+      <div>
+        <pb xml:id="page_12" n="11"/>
+        <head rend="align-center italic"><lb/>A LIST of <hi rend="roman sc">Governors</hi> and <hi
+            rend="roman sc">Contributors.</hi>
+        </head>
+        <list rend="align-center">
+          <lb/>
+          <item rend="align-center">Charles Duke of Richmond, Lenox, and <w part="I">Au-</w><lb/><w
+              part="F">bigny</w>, Preſident. </item>
+          <lb/>
+          <item>Fotherley Baker, Eſq; Vice-Preſident. </item>
+          <lb/>
+          <item>Thomas Boehm, Eſq; Treaſurer. </item>
+        </list>
+        <p rend="align-center italic"><lb/>Thoſe marked thus are Governors. </p>
+        <list>
+          <head ><lb/>A </head>
+          <item>* Mr. Shute Adams </item>
+          <lb/>
+          <item>* Mr. Benjamin Allen </item>
+          <lb/>
+          <item>* John Andrée, M.D. </item>
+          <lb/>
+          <item>* Mr. Claude Aubert </item>
+          <lb/>
+          <item>* The Rev. Mr. Audley </item>
+          <lb/>
+          <item>* Mr. J. Buxton, jun. </item>
+          <lb/>
+          <item>* Mr. Geo. Burrows </item>
+          <lb/>
+          <item>* Mr. Peter Biggot </item>
+          <lb/>
+          <item>* Mr. Alex. Bolton </item>
+          <lb/>
+          <item>* Mr. Robert Bray </item>
+          <lb/>
+          <item>Mr. Tho. Barnard </item>
+        </list>
+        <list>
+          <head ><lb/>B </head>
+          <item>* Right Hon. Charles </item>
+          <lb/>
+          <item>Lord Baltimore </item>
+          <lb/>
+          <item>* Matt. Bateman, Eſq; </item>
+          <lb/>
+          <item>* Sam. Berrington, Eſq; </item>
+          <lb/>
+          <item>* Mr. Will. Birkin </item>
+        </list>
+        <list>
+          <head ><lb/>C </head>
+          <item>* John Caſwall, Eſq; </item>
+          <lb/>
+          <item>* Rev. Mr. Calamy </item>
+          <lb/>
+          <item>* Mr. Tho. Cecil </item>
+          <lb/>
+          <item>* Rich. Chiſwell, Eſq; </item>
+          <lb/>
+          <item>* Samuel Cox, Eſq; </item>
+          <lb/>
+          <item>* Mr. Joſiah Cole </item>
+        </list>
+        <pb xml:id="page_13" n="12"/>
+        <list>
+          <head ><lb/>D </head>
+          <item>* James Deacon, Eſq; </item>
+          <lb/>
+          <item>* Liebert Dorrin, Eſq; </item>
+          <lb/>
+          <item>* Peter Ducane, Eſq; </item>
+          <lb/>
+          <item>* Mr. John Dav. Duvall </item>
+        </list>
+        <list>
+          <head ><lb/>E </head>
+          <item>Mr. Jonathan Eades </item>
+        </list>
+        <list>
+          <head ><lb/>F </head>
+          <item>* Jos. Fawthrope, Eſq; </item>
+          <lb/>
+          <item>* Jonath. Forward, Eſq; </item>
+          <lb/>
+          <item>* Rev. Mr. James Foſter </item>
+          <lb/>
+          <item>* Mr. Jam. Fordham, jun. </item>
+          <lb/>
+          <item>* Mr. James Freeman </item>
+        </list>
+        <list>
+          <head ><lb/>G </head>
+          <item>* Mr. John Galton </item>
+          <lb/>
+          <item>* Mr. Benj. Gaſcoigne </item>
+          <lb/>
+          <item>* Mr. Henry Giffard </item>
+          <lb/>
+          <item>* Dr. Graham </item>
+        </list>
+        <list>
+          <head ><lb/>H </head>
+          <item>* John Hawkins, Eſq; </item>
+          <lb/>
+          <item>* Mr. Quarles Harris </item>
+          <lb/>
+          <item>* John Harriſon, Eſq; </item>
+          <lb/>
+          <item>* Mr. Robert Harriſon </item>
+          <lb/>
+          <item>* Mr. John Harriſon </item>
+          <lb/>
+          <item>* Mrs. Jane Holden </item>
+        </list>
+        <list>
+          <head ><lb/>J </head>
+          <item>* John Jeſſe, Eſq; </item>
+          <lb/>
+          <item>Mr. Thomas Jenny </item>
+          <lb/>
+          <item>* John Julian, Eſq; </item>
+          <lb/>
+          <item>* Mr. John Jaques </item>
+        </list>
+        <list>
+          <head ><lb/>K </head>
+          <item>Mrs. Kellaway </item>
+        </list>
+        <list>
+          <head ><lb/>L </head>
+          <item>* Mr. John Lawford </item>
+          <lb/>
+          <item>* Lambert Ludlow, Eſq; </item>
+        </list>
+        <pb xml:id="page_14" n="13"/>
+        <list>
+          <head ><lb/>M </head>
+          <item>Miſs May </item>
+          <lb/>
+          <item>* Nicholas Magens, Eſq; </item>
+          <lb/>
+          <item>* Adam Martyn, Eſq; </item>
+          <lb/>
+          <item>* Mr. William Martin </item>
+          <item><lb/>* Mrs. Mendes de Coſta </item>
+          <lb/>
+          <item>* Mr. Tho. Meadows </item>
+          <lb/>
+          <item>* Mr. Thomas Minors </item>
+          <lb/>
+          <item>Mr. Bowler Miller </item>
+          <lb/>
+          <item>* Ebenezer Muſſell, Eſq; </item>
+          <lb/>
+          <item>Mr. Edmund Munday </item>
+          <lb/>
+          <item>* Robert Myre, Eſq; </item>
+          <lb/>
+          <item>* William Myre, Eſq; </item>
+        </list>
+        <list>
+          <head ><lb/>N </head>
+          <item>  </item>
+        </list>
+        <list>
+          <head ><lb/>O </head>
+          <item>  </item>
+        </list>
+        <list>
+          <head ><lb/>P </head>
+          <item>* Ambroſe Page, Eſq; </item>
+          <lb/>
+          <item>* Captain Page </item>
+          <lb/>
+          <item>* John Peck, Eſq; </item>
+          <lb/>
+          <item>* Mr. George Potter </item>
+          <lb/>
+          <item>* Mr. Malachi Poſtle-<lb/>thwaite </item>
+          <lb/>
+          <item>Mr. Pearce </item>
+        </list>
+        <list>
+          <head ><lb/>Q </head>
+          <item>  </item>
+        </list>
+        <list>
+          <head ><lb/>R </head>
+          <item>* Mr. Stephen Riou </item>
+          <lb/>
+          <item>* John Ruſſell, Eſq; </item>
+          <lb/>
+          <item>* Captain Rutty </item>
+        </list>
+        <list>
+          <head ><lb/>S </head>
+          <item>* Mr. Deputy R. Sclater </item>
+          <lb/>
+          <item>* Allen Smith, Eſq; </item>
+          <lb/>
+          <item>* John Snee, ſen. Eſq; </item>
+          <lb/>
+          <item>* John Snee, jun. Eſq; </item>
+          <lb/>
+          <item>* Mr. Robert Snee </item>
+          <lb/>
+          <item>Mr. And. Smith </item>
+          <lb/>
+          <item>* Richard Stacey, Eſq; </item>
+          <lb/>
+          <item>The Rev. Mr. Sterling </item>
+          <lb/>
+          <item>Mr. Henry Swan </item>
+        </list>
+        <pb xml:id="page_15" n="14"/>
+        <list>
+          <head ><lb/>T </head>
+          <item>* Mr. James Taylor </item>
+          <lb/>
+          <item>* George <w part="I">Thornbor-</w><lb/><w part="F">rough</w>, Eſq; </item>
+          <lb/>
+          <item>* Mr. Peter Tolot </item>
+          <lb/>
+          <item>Mr. Geo. Jervaſe Tapp </item>
+        </list>
+        <list>
+          <head ><lb/>W </head>
+          <item>* Hon. Maj. Gen. Wil-<lb/>liamſon </item>
+          <lb/>
+          <item>* Mr. Anth. Wall </item>
+          <lb/>
+          <item>* Rev. Mr. Cha. Weſley </item>
+          <lb/>
+          <item>* Rev. Mr. John Weſley </item>
+          <lb/>
+          <item>* Mr. Thomas Weſt </item>
+          <lb/>
+          <item>* Mr. John Waters </item>
+        </list>
+        <list>
+          <lb/>
+          <item>Dr. Andree, Phyſician to the Infirmary. </item>
+          <lb/>
+          <item>Mr. John Harriſon, Surgeon to the Infirmary. </item>
+          <lb/>
+          <item>Rev. Mr. Audley, Chaplain to the Infirmary. </item>
+          <lb/>
+          <item>Mr. Godfrey Webb, Apothec. to the Infirmary. </item>
+          <lb/>
+          <item>Mr. Richard Neale, Secretary to the Infirmary. </item>
+        </list>
+      </div>
+    </back>
+  </text>
+</TEI>

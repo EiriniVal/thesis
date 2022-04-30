@@ -1,0 +1,1092 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> LMEMT Corpus - Cullen: A Treatise of the Materia Medica</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>William Cullen</persName>
+            </author>
+            <title type="main">A treatise of the materia medica, by William Cullen, ... In two
+              volumes. ...</title>
+            <edition n="1"/>
+            <idno type="ESTC">T134571</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/T134571"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>Edinburgh</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>Edinburgh: printed for Charles Elliot, and for C. Elliot &amp; T. Kay,
+                  London, 1789.</persName>
+              </publisher>
+              <date>1789</date>
+            </imprint>
+            <extent>
+              <measure type="format">4⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="75"/>
+              <measure type="count" commodity="body" unit="page" quantity="432"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">British Library</orgName>
+            <idno type="ECCO">CW107057623</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Recipe collections"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text type="book" rend="roman" xml:lang="eng">
+    <gap reason="sampling" unit="pages" quantity="75"/>
+    <body>
+      <gap reason="sampling" unit="pages" quantity="54"/>
+      <pb n="55"/>
+      <div>
+        <head rend="align-center">
+          <lb/>A <lb/><hi rend="size(1.25) space">TREATISE </hi>
+          <lb/><hi rend="space">ON THE </hi>
+          <lb/><hi rend="size(1.5) space">MATERIA MEDICA. </hi>
+        </head>
+        <figure rend="space">
+          <figDesc>A long horizontal double-line in the middle of the page. </figDesc>
+        </figure>
+        <div>
+          <head rend="align-center space">
+            <lb/>INTRODUCTION. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">B</hi>EFORE entering upon the conſideration of particular
+            <lb/>medicines, it may be proper to treat of what in general <lb/>relates to the
+            operation of all of them. There are certain prin- <lb/>ciples which have a reference to
+            the whole; and by explaining <lb/>theſe in the firſt place, we ſhall not only ſave
+            afterwards much re- <lb/>petition that might otherwiſe have been neceſſary, but, by
+            having <lb/>laid down theſe general principles, it may be poſſible, in a more
+            <lb/>ſimple and clear manner, to explain the operation and virtues <lb/>of particular
+            medicines. </p>
+          <p rend="indent space">
+            <lb/><hi rend="sc">It</hi> is the more requiſite to enter upon the conſideration <lb/>of
+            thoſe general principles, that there are ſeveral to which <lb/>phyſicians do not appear
+            to have given the attention which <lb/>ſeems to be neceſſary. Beſides, it is well known,
+            that with re- <lb/>ſpect to the juſtneſs and propriety of many of the principles
+            <lb/>which have been adopted, phyſicians are very far from being <pb n="56"/>
+            <lb/>agreed: and I therefore deem it neceſſary to offer my pecu- <lb/>liar ſentiments
+            with reſpect to many of thoſe principles that <lb/>have been before aſſumed, and more
+            neceſſary ſtill to explain <lb/>certain new principles which I ſhall think it requiſite
+            to em- <lb/>ploy. In the laſt, indeed, I perhaps hazard a great deal; but <lb/>every
+            part of ſcience is ſtill imperfect, and muſt for ever remain <lb/>ſo, if attempts be not
+            made to improve it. </p>
+          <p rend="indent space">
+            <lb/><hi rend="sc">With</hi> theſe views, it is to be remarked, in the firſt place,
+            <lb/>as a principle commonly aſſumed upon this ſubject, that few <lb/>or no medicines
+            act upon the living human body in the ſame <lb/>manner, and with the ſame effects, as
+            upon inanimate matter; <lb/>and it is now well known, that the operation and effects of
+            ſub- <lb/>ſtances applied to the living human body, are for the moſt part
+            <lb/>altogether different from the effects of the ſame application to <lb/>the dead
+            body. Few indeed, or none, of theſe ſubſtances which <lb/>are conſidered as medicines,
+            have any effects at all upon the dead <lb/>body; and therefore, aſſuming this as a
+            principle, when here- <lb/>after I ſhall have occaſion to ſpeak of the action of
+            ſubſtances <lb/>upon the body, it muſt be conſtantly underſtood to be their <lb/>action
+            upon the living body only; and at leaſt with very few ex- <lb/>ceptions, which ſhall be
+            taken notice of when occaſion requires. </p>
+          <p rend="indent space">
+            <lb/>
+            <hi rend="sc">Having</hi> aſſumed this principle, it muſt be obvious, that, in
+            <lb/>order to conſider the operation of medicines in general, it will <lb/>be proper to
+            begin with explaining the peculiar circum- <lb/>ſtance of the human body, by which it is
+            thus capable of being <lb/>acted upon in a peculiar manner by other bodies applied to
+            it; <lb/>and it will alſo be requiſite to enquire concerning the manner <lb/>in which
+            the general operation of medicines may be variouſly <lb/>modified, according to the
+            different ſtates and circumſtances in <lb/>which the human body may be upon different
+            occaſions. </p>
+        </div>
+        <pb n="57"/>
+        <div type="chapter">
+          <head rend="align-center space">
+            <lb/>CHAPTER I. </head>
+          <head rend="align-center space">
+            <lb/>OF THE ACTION OF MEDICINES UPON THE BODY IN GENERAL. </head>
+          <figure>
+            <figDesc>A horizontal line. </figDesc>
+          </figure>
+          <p rend="space">
+            <hi rend="dc(2)">I</hi>N theſe days, it is hardly neceſſary to ſhow that the action of
+            <lb/>other bodies upon the human, is chiefly by the impulſe of <lb/>theſe bodies upon
+            the extremities or other parts of the nerves <lb/>of the human body; in conſequence of
+            which, a motion is <lb/>propagated from the place of impulſe along the courſe of the
+            <lb/>nerves, to their origin in the brain or medulla ſpinalis; and <lb/>that, upon ſuch
+            occaſion, there does for the moſt part ariſe a <lb/><hi rend="italic">ſenſation</hi>.
+            This again generally gives occaſion to a <hi rend="italic">volition</hi>; <lb/>whereby a
+            motion is produced, which being determined along <lb/>the courſe of the nerves into
+            certain muſcles, or moving <lb/>fibres, the action of theſe, as well as the various
+            effects which <lb/>their action is ſuited to occaſion, are in conſequence produ-
+            <lb/>ced. </p>
+          <p rend="indent space">
+            <lb/><hi rend="sc">This</hi> is the general idea of the connection of the human bo-
+            <lb/>dy with the other parts of nature; or of the manner in which the <lb/>human body is
+            acted upon by other bodies, and in its turn acts <lb/>upon theſe. That condition by
+            which it is fitted to have pecu- <lb/>liar effects produced in it by the action of other
+            bodies, is cal- <lb/>led its <hi rend="italic">Senſibility</hi>; which ſeems to be
+            lodged in every part of what <pb n="58"/>
+            <lb/>we we can diſcern to be parts of its nervous ſyſtem: And that con- <lb/>dition of
+            the body by which certain parts of it are fitted to have <lb/>certain motions of
+            contraction excited in them, either from a <lb/>communication with the nervous ſyſtem,
+            as expreſſed above, or <lb/>by an impulſe directly made upon theſe parts themſelves, is
+            <lb/>termed the <hi rend="italic">Irritability</hi> of the body; which ſeems to exiſt
+            only in <lb/>the muſcular or moving fibres, probably of a peculiar ſtructure <lb/>ſuited
+            to that purpoſe. </p>
+          <p rend="indent space">
+            <lb/><hi rend="sc">From</hi> all this, we come at this concluſion, That the peculiar
+            <lb/>effects of ſubſtances in general, or of thoſe ſubſtances in parti- <lb/>cular which
+            we call <hi rend="italic">medicines</hi>, when applied to the human body, <lb/>depend
+            upon their action upon its ſentient and irritable parts. </p>
+          <p rend="indent space">
+            <lb/><hi rend="sc">It</hi> is, however, to be remarked here, that the action of ſub-
+            <lb/>ſtances in producing their effects, is not univerſally, as inſinua- <lb/>ted above,
+            by the intervention of ſenſation and volition; for theſe <lb/>effects are often produced
+            without either the one or the other. <lb/>At the ſame time it is probable, that in all
+            caſes the effects pro- <lb/>duced by the action of other bodies upon the human, although
+            <lb/>not accompanied with ſenſation, yet are produced by their action <lb/>upon the
+            ſentient parts; and it is likewiſe probable, that in the <lb/>caſe of action
+            unaccompanied with any volition, both the ac- <lb/>tion and its effects, depend either
+            upon the application of thoſe <lb/>bodies directly to the irritable parts, or upon their
+            application <lb/>to ſentient parts, which determine motions into thoſe very nerves
+            <lb/>wherein motions are commonly excited by volition. Upon the <lb/>whole, it is
+            ſufficiently probable, that the peculiar action of me- <lb/>dicines depends upon the
+            ſenſibility and irritability of the hu- <lb/>man body; or, in other words, that it
+            univerſally depends upon <lb/>motions excited and propagated in the nervous ſyſtem.
+            Theſe, <lb/>therefore, are theconditions of the living body which we were <pb n="59"/>
+            <lb/>engaged to explain. What is the nature of the matter in which <lb/>theſe motions
+            take place, or in what manner it is inherent in <lb/>the nervous ſyſtem, is not well
+            known: but we think it may be <lb/>juſtly held as exiſting, and may ſpeak of it under
+            the appel- <lb/>lation of the <hi rend="italic">nervous power</hi>. As it appears only
+            in the living, <lb/>and diſappears entirely in the dead ſtate of the body, it may
+            <lb/>be otherwiſe properly enough termed the <hi rend="italic">vital principle</hi>. </p>
+          <p rend="indent space">
+            <lb/><hi rend="sc">It</hi> does not ſeem neceſtary to explain fully here the various
+            <lb/>laws by which the motions of the nervous ſyſtem are regulated <lb/>and governed:
+            but with reſpect to the operation of medicines, <lb/>this in general is to be obſerved,
+            that as there ſeems to be a poſ- <lb/>ſible communication of motion from every part of
+            the nervous <lb/>ſyſtem to every other part of it; ſo medicines, though applied to
+            <lb/>one ſmall part of the body only, do often, in conſequence of the <lb/>communication
+            mentioned, mow their effects in many other <lb/>parts of the body. </p>
+          <p rend="indent space">
+            <lb/><hi rend="sc">This</hi> ſympathy or conſent, as it is called, of the ſeveral parts
+            <lb/>of the body, is in general very well known to phyſicians; and <lb/>I ſhall have
+            occaſion frequently hereafter to take notice of it, <lb/>in mentioning the effects
+            depending upon it, and the laws by <lb/>which it is governed. At preſent I am to
+            proſecute the conſi- <lb/>deration of it no farther. </p>
+          <p rend="indent space">
+            <lb/><hi rend="sc">Having</hi> now conſidered the action of medicines as in gene-
+            <lb/>ral upon a living body, it may, in the next place, be obſerved, <lb/>that as the
+            effect of the action of one body upon another does <lb/>always depend, partly upon the
+            general operation of the body <lb/>acting, and partly alſo upon the particular
+            circumſtances of the <lb/>body acted upon; ſo it is well known, that as the human body
+            <lb/>is in ſeveral reſpects conſiderably different in different men, and <pb n="60"/>
+            <lb/>even even in the ſame perſon at different times, ſo the operation of <lb/>medicines
+            upon it muſt be variouſly modified according to the <lb/>different circumſtances in
+            which the body may happen to be, <lb/>and that, either throughout the whole of life in
+            different men, <lb/>or upon particular occaſions in the ſame perſon. </p>
+          <p rend="indent space">
+            <lb/><hi rend="sc">It</hi> is therefore neceſſary, before going further, to conſider
+            <lb/>thoſe differences in the ſtate of the human body which may <lb/>occur and give
+            occaſion to a difference in the operation of <lb/>medicines upon it. We ſhall,
+            therefore, proceed to conſider <lb/>thoſe conſtitutional differences which take place
+            throughout <lb/>life, under the title of <hi rend="italic">Temperaments</hi>, this being
+            the appellation <lb/>under which theſe diverſities are commonly mentioned. </p>
+          <div type="section">
+            <head rend="align-center space">
+              <lb/>SECT. I. </head>
+            <head rend="align-center space">
+              <lb/><hi rend="italic">Of</hi>
+              <hi rend="sc">Temperaments</hi>. </head>
+            <p rend="space">
+              <lb/><hi rend="dc(2)">I</hi>N attending to the great number of circumſtances in which
+              <lb/>the bodies of men may be different from one another, it is <lb/>ſcarcely poſſible
+              to enumerate every particular: but it has <lb/>been at all times preſumed, that a
+              great number of theſe cir- <lb/>cumſtances are commonly combined together in the ſame
+              <lb/>perſon; and that frequently one man ſhows a combination of <lb/>circumſtances not
+              only different, but ſometimes of an oppoſite <lb/>kind to that of another. Such
+              combinations, upon a particular <lb/>ſuppoſition with reſpect to their cauſes, the
+              ancients named <lb/><hi rend="italic">temperaments</hi>; and the term has continued to
+              be employed in <lb/>the ſchools of phyſic from the moſt ancient to the preſent
+              <lb/>time. </p>
+            <p rend="space indent">
+              <lb/><hi rend="sc">Abstracting</hi> from all theory, we continue to employ the
+              <lb/>ſame term to denote a combination or concurrence of circum- <lb/>ſtances which
+              happens in certain perſons, but which in ſeveral <lb/>reſpects is different from the
+              combination that happens in cer- <lb/>tain others. Upon this footing, I believe the
+              ancients diſtin- <lb/>guiſhed what they called the different temperaments of men:
+              <lb/>for it is probable that at firſt they diſtinguiſhed them by actual
+              <lb/>obſervation; but very ſoon they formed a theory with regard <lb/>to them, from
+              whence they formed appellations which have <pb n="62"/>
+              <lb/>continued to be applied to them ever ſince. The appellations <lb/>indeed have
+              been continued, though the theories which laid the <lb/>foundation of them have been
+              long ago exploded; and the mo- <lb/>derns have neither by obſervation extended the
+              ancient diſtinc- <lb/>tions, nor, though they have often attempted it, have they
+              <lb/>ever given, ſo far as I can judge, any happy explanation of the <lb/>cauſes or
+              foundation of the diſtinctions they have ſo generally <lb/>adopted. I believe it will
+              be generally allowed, that this <lb/>part of medical doctrine is ſtill in an
+              embarraſſed and undeter- <lb/>mined ſtate. </p>
+            <p rend="space indent">
+              <lb/><hi rend="sc">In</hi> treating the ſubject, philoſophy would require that I
+              ſhould <lb/>in the firſt place diſtinguiſh temperaments, by marking the ex-
+              <lb/>ternal and obſervable circumſtances which are found with ſome <lb/>ſteadineſs to
+              be commonly combined together: but this I find a <lb/>difficult taſk, and what my
+              obſervation has not been ſo exten- <lb/>ſively applied to as to enable me to perform
+              in the manner I <lb/>would wiſh. I muſt therefore proceed in another way; and
+              <lb/>ſhall endeavour to conſider thoſe circumſtances of the in- <lb/>ternal ſtate of
+              the human body which may give occaſion to a dif- <lb/>ference in the ſtate of the
+              functions, and even in the external <lb/>appearances which diſtinguiſh different men. </p>
+            <p rend="space indent">
+              <lb/><hi rend="sc">Theſe</hi> circumſtances may, I think, be referred to five general
+              <lb/>heads according as they occur, <hi rend="italic">1st</hi>, In the ſtate of the
+              ſimple ſo- <lb/>lids; <hi rend="italic">2dly</hi>, In the ſtate of the fluids; <hi
+                rend="italic">3dly</hi>, In the proportion of <lb/>ſolids and fluids in the body;
+                <hi rend="italic">4thly</hi>, In the diſtribution of the <lb/>fluids; and, <hi
+                rend="italic">5thly</hi>, In the ſtate of the nervous power. With re- <lb/>ſpect to
+              each of theſe heads, I ſhall now offer the beſt remarks, <lb/>and give the beſt
+              explanation, that the preſent ſtate of our ſcience <lb/>ſeems to me to admit of. </p>
+            <pb n="63"/>
+            <div>
+              <head rend="align-center space"><hi rend="sc">Article I.</hi>
+                <hi rend="italic">Of the ſimple Solids.</hi>
+              </head>
+              <p rend="space indent">
+                <lb/><hi rend="sc">Whether</hi> theſe are in certain parts of a fibrous, or if they
+                <lb/>are entirely of a cellular texture, it is not neceſſary to deter- <lb/>mine
+                here. It is enough for our purpoſe, that they are at dif- <lb/>ferent times of a
+                different degree of denſity and firmneſs. This <lb/>particularly appears in the
+                progreſs of life, when from an al- <lb/>moſt fluid ſtate they are gradually changed
+                into a more denſe <lb/>and ſolid ſubſtance. </p>
+              <p rend="space indent">
+                <lb/><hi rend="sc">The</hi> ancients marked the difference of temperament by the
+                <lb/>colour and ſtrength of the hair of different perſons; and many <lb/>experiments
+                ſhow that the ſtrength of the hair does for a great <lb/>part of life follow the
+                denſity of the ſimple ſolid in other parts <lb/>of the body. Dr <hi rend="sc">Brian
+                  Robinson</hi>, in his Treatiſe of the Ani- <lb/>mal Oeconomy, has by many
+                experiments clearly ſhown, that the <lb/>denſity and ſtrength of the hair increaſe
+                with the age of the <lb/>perſon; and therefore, that the ſtate of the hair is
+                correſpond- <lb/>ent to that of the ſimple ſolids in other parts of the body. It
+                <lb/>is true, indeed, that the ſtate of the ſimple ſolid may in different
+                <lb/>perſons be conſiderably varied by the difference of diet, exerciſe,
+                <lb/>climate, and other the like circumſtances: but at the ſame time, <lb/>as the
+                ſtate of the ſolid ſeems to be often an hereditary condition, <lb/>and as it
+                frequently ſhows itſelf very early in life, before the <lb/>circumſtances juſt now
+                mentioned can be ſuppoſed to have mo- <lb/>dified its ſtate; ſo it is highly
+                probable, that the ſtate of the <lb/>ſimple ſolid depends upon the difference of the
+                original ſtamina <lb/>of the body: and as that difference will proportionally
+                prevail <pb n="64"/>
+                <lb/>throughout throughout the whole of life; ſo, notwithſtanding the circum-
+                <lb/>ſtances in the manner of living, it will always have its ſhare in
+                <lb/>producing a difference in the ſtate of the ſolid in different per- <lb/>ſons at
+                the ſame period of life. </p>
+              <p rend="space indent">
+                <lb/><hi rend="sc">Whilst</hi>, therefore, a difference in the ſtate of the ſolid
+                muſt <lb/>occaſion a difference in the whole of the ſtate of different per-
+                <lb/>ſons; ſo it muſt be admitted, that a difference in the ſtate of the <lb/>ſimple
+                ſolid muſt at all times have a ſhare in diſtinguiſhing <lb/>the temperaments of men. </p>
+              <p rend="space indent">
+                <lb/><hi rend="sc">It</hi> being, however, farther probable, that the ſtate of the
+                mo- <lb/>ving fibres is in ſome meaſure modified by the ſtate of the ſimple
+                <lb/>ſolid; ſo likewiſe it is probable, that the ſimple ſolid, according <lb/>to its
+                ſtate of denſity and elaſticity, muſt have a great ſhare in <lb/>determining the
+                ſtrength or weakneſs of the moving fibres, and <lb/>conſequently of the whole
+                ſyſtem, ſo as in this manner eſpe- <lb/>cially to have a very powerful influence in
+                diſtinguiſhing the <lb/>different temperaments of men. </p>
+              <p rend="space indent">
+                <lb/><hi rend="sc">It</hi> here merits particular notice, that as the ſtate of the
+                ſimple <lb/>ſolid is for the moſt part likely to be proportionally the ſame
+                <lb/>throughout the whole of life; ſo there is reaſon to believe that, <lb/>from
+                incidental and ſudden changes in the ſtate of the ſimple ſolid, <lb/>diſeaſes will
+                ſeldom ariſe. This indeed may poſſibly be affected by <lb/>various incidental
+                cauſes: but they are either ſuch as very rarely <lb/>occur, or ſuch as cannot be
+                applied at once to a conſiderable por- <lb/>tion of the ſyſtem; and which, for the
+                moſt part, take effect only <lb/>when applied for a great length of time. I am
+                perſuaded, there- <lb/>fore, that thoſe ſudden changes which frequently occur with
+                re- <lb/>ſpect to the debility and ſtrength of the ſyſtem, cannot be imputed <lb/>to
+                changes in the ſtate of the ſimple ſolid, which cannot ſud- <pb n="65"/>
+                <lb/>denly take place, but muſt be imputed to changes, in the ſtate <lb/>of the
+                moving fibres <hi rend="italic">quem facile mille res turbant</hi>. Dr <hi rend="sc"
+                  >Boer- <lb/>haave</hi> gave little attention to the circumſtances laſt mention-
+                <lb/>ed; but whoever ſtudies this ſubject, will perceive that the il- <lb/>luſtrious
+                Profeſſor's doctrine <hi rend="italic">de fibra laxa vel rigida</hi>, as explain-
+                <lb/>ing the cauſes of the <hi rend="italic">fibra debilis vel fortis</hi>, will not
+                apply ſo <lb/>extenſively as he has ſuppoſed; and conſequently, that thoſe
+                <lb/>powers of changing the ſtate of the ſimple ſolid which have <lb/>been imputed
+                to internal medicines, are ſeldom to be regard- <lb/>ed; or at leaſt never without a
+                number of limitations, to which <lb/>little attention ſeems to have been hitherto
+                paid. </p>
+            </div>
+            <div>
+              <head rend="align-center space"><hi rend="sc">Article II.</hi>
+                <hi rend="italic">Of the State of the Fluids.</hi>
+              </head>
+              <p rend="space indent">
+                <lb/>From the earlieſt accounts of phyſic with which we are ac- <lb/>quainted, it
+                appears, that from the moſt ancient times down to <lb/>the preſent, phyſicians have
+                been attached almoſt entirely to <lb/>the ſtudy and conſideration of the fluids; and
+                from the ſuppo- <lb/>ſed ſtate of theſe, have endeavoured to explain the phenomena
+                <lb/>both of health and of ſickneſs. In this, however, they appear <lb/>to me to
+                have been unfortunate: for, not to mention the im- <lb/>perfection and falſehood of
+                the many ſpeculations, both of Ga- <lb/>leniſts and chemiſts, which have formerly
+                prevailed on this <lb/>ſubject, I would venture to aſſert, that the doctrine
+                concerning <lb/>the fluids is ſtill the moſt imperfect part of our phyſiology.
+                <lb/>Every thing ſyſtematical that has been delivered upon it, till <lb/>within
+                theſe laſt forty years, may be totally diſregarded: for it <lb/>is only within the
+                period now mentioned that we have acquired <lb/>any diſtinct notions of a
+                fundamental doctrine; or, in other <lb/>words, of the ſtate of aggregation in the
+                maſs of blood. Even <pb n="66"/>
+                <lb/>with reſpect to this laſt, there ſtill remains much doubt and ob- <lb/>ſcurity;
+                but notwithſtanding theſe difficulties, I ſhall endea- <lb/>vour to conſider what
+                may be ſaid with regard to the ſtate of <lb/>the fluids in different perſons. </p>
+              <p rend="space indent">
+                <lb/><hi rend="sc">It</hi> may now ſafely be held, that the maſs of blood, or that
+                <lb/>portion of our fluids which fills and flows in the red veſſels, and <lb/>from
+                which all the others ſeem to be derived, is every where a <lb/>heterogeneous
+                aggregate, conſiſting chiefly and eſpecially of <lb/>three parts; to wit, red
+                globules, gluten, and ſeroſity: And if <lb/>it ſhould be alleged that there are
+                other matters preſent, as per- <lb/>haps there may be, I ſhall in the ſequel examine
+                the queſtion; <lb/>but in the mean while, I believe they may be conſidered as por-
+                <lb/>tions of the three principal parts now mentioned. </p>
+              <p rend="space indent">
+                <lb/><hi rend="sc">With</hi> reſpect to theſe principal parts, it is ſufficiently
+                pro- <lb/>bable that they are in a different proportion in different perſons:
+                <lb/>and this different proportion may therefore have a ſhare in gi- <lb/>ving ſome
+                difference of temperament; although in what caſes this <lb/>takes place is not
+                eaſily to be aſcertained. </p>
+              <p rend="space indent">
+                <lb/><hi rend="sc">That</hi> the red globules may be in different proportions to the
+                <lb/>whole maſs, we diſcern very clearly from ſeveral diſeaſes, in <lb/>which their
+                quantity is evidently and conſiderably diminiſhed; <lb/>but what may be their
+                proportion in perſons in health, or in <lb/>what manner that proportion is connected
+                with the other cir- <lb/>cumſtances of health, is by no means aſcertained by any
+                pro- <lb/>per experiments. From ſeveral obſervations on animals whoſe <lb/>veſſels
+                are eaſily ſubjected to microſcopical examination, it ap- <lb/>pears that the
+                proportion of red globules is greater or leſſer ac- <lb/>cording to the greater or
+                leſſer quantity of the aliment or nou- <lb/>riſhment the animal receives. It is very
+                poſſible, therefore, that <pb n="67"/>
+                <lb/>the quantity of them in the human blood may be affected by <lb/>the ſame
+                circumſtances: But ſtill this does not aid us in deter- <lb/>mining the queſtion
+                with reſpect to perſons in health, who take <lb/>in nouriſhment in proportion to
+                their ſeveral bulks; and whe- <lb/>ther the effect of nouriſhment be determined by
+                the quality, as <lb/>well as by the quantity, is not aſcertained. It appears to me,
+                <lb/>that, if at all, it is not affected much by the quality of nou- <lb/>riſhment,
+                unleſs the difference of that quality be very conſider- <lb/>able. It appears alſo,
+                that the proportion of red globules is as <lb/>great in the animals living entirely
+                upon vegetable aliment, as <lb/>it is in thoſe who live entirely upon animal food,
+                or as it is in <lb/>man, who lives partly upon the one and partly upon the other. </p>
+              <p rend="space indent">
+                <lb/><hi rend="sc">Many</hi> attempts have been made to eſtimate the proportion of
+                <lb/>the quantity of the craſſamentum to that of the ſerum in the <lb/>extravaſated
+                human blood; but hardly any df the experiments <lb/>yet made afford a certain
+                concluſion. The apparent proportion <lb/>of the two maſſes is very fallacious; being
+                very much varied <lb/>by the circumſtances which determine the concretion of the
+                <lb/>cruor to take place ſooner or later, and by the time which is allow- <lb/>ed to
+                paſs from the time of concretion to that at which the pro- <lb/>portions are
+                examined. It is now indeed well known, that theſe <lb/>circumſtances vary the
+                ſeparation which takes place; and it does <lb/>not appear to me, that in any of the
+                eſtimates which have been <lb/>made, due attention has been given to the effect of
+                thoſe cir- <lb/>cumſtances. When Dr <hi rend="sc">Haller</hi>, in his Primæ Lineæ,
+                para- <lb/>graph 138, gives this judgment; <q rend="diple">In maſſa ſanguinea media
+                  <lb/>pars, et ultra, cruoris eſt. In robore valido ſerum minuitur <lb/>ad tertiam
+                  partem, in febre ad quartam et quintam reducitur, <lb/>in morbis a debilitate
+                  increſcit; </q> I am perſuaded that he had <lb/>judged entirely from the
+                quantities that appear ſeparated in or- <lb/>dinary blood-lettings, and had not
+                attended to the different <pb n="68"/>
+                <lb/>quantities that appear in theſe according to the different cir- <lb/>cumſtances
+                of the blood-letting. In caſes of rheumatiſm, I <lb/>have ſeen the craſſamentum not
+                equal to a third part of the <lb/>ſerum ſurrounding it; and other caſes, where the
+                ſerum did <lb/>not ſeparate from the craſſamentum, to the amount of a fourth
+                <lb/>part of the whole maſs: and from attending to the circum- <lb/>ſtances of the
+                blood-letting, I have been able to foretel what, <lb/>in twenty-four hours after,
+                would be the condition of the ſepa- <lb/>ration. But even ſuppoſing we had a more
+                exact eſtimate of <lb/>the ſerum with reſpect to the craſſamentum, or in other
+                words, <lb/>of the red globules and gluten taken together, it ſtill remains
+                <lb/>undetermined what proportion theſe two laſt mentioned matters <lb/>bear to one
+                another; and conſequently it is not yet aſcertained <lb/>what is the uſual
+                proportion of red globules in the blood of per- <lb/>ſons in health, nor how far it
+                may have a ſhare in producing a <lb/>peculiar temperament. </p>
+              <p rend="space indent">
+                <lb/><hi rend="sc">With</hi> reſpect to the gluten of the blood, conſidered by
+                itſelf, <lb/>it is equally difficult to aſcertain its proportion either to the
+                <lb/>whole maſs or to the ſeveral parts of it. It ſeems to me to be <lb/>determined,
+                that the gluten, whether combined with the red <lb/>globules in the craſſarrientum,
+                or ſpontaneouſly ſeparated from <lb/>the other parts, is the ſame kind of matter
+                with that which is <lb/>diſſolved in the ſerum. In what proportion, however, this
+                laſt <lb/>may be, is by no means accurately determined. There is rea- <lb/>ſon to
+                believe that the ſerum is always a ſaturated ſolution; but <lb/>at the ſame time it
+                is probable, that the ſolvent power of the <lb/>ſeroſity may be greater or leſs upon
+                different occaſions; and <lb/>therefore we ſtill want experiments to aſcertain the
+                proportion <lb/>of the whole of the gluten to the reſt of the maſs. It may rea-
+                <lb/>dily be admitted, that in healthful bodies, both the red globules <lb/>and the
+                gluten may be more or leſs, according to the quantity, <pb n="69"/>
+                <lb/>and in ſome meaſure according to the quality, of the aliments <lb/>taken in
+                during a given time: but this will hardly enable us to <lb/>determine what is the
+                proportion in the healthful bodies of dif- <lb/>ferent perſons; and conſequently
+                what ſhare they may have <lb/>in giving a difference of temperament. It may be
+                preſumed, <lb/>however, that with reſpect to the ſeroſity, the proportion of red
+                <lb/>globules and of gluten taken together, will be greater or leſs <lb/>according
+                to the force of the digeſtive and aſſimilating powers <lb/>in each perſon; and that
+                theſe again will be according to the <lb/>general ſtrength or weakneſs of the
+                ſyſtem. The proportion of <lb/>the ſeveral parts of the fluids, therefore, may be
+                different in <lb/>different temperaments; but ſtill this will not of itſelf pro-
+                <lb/>duce that difference. </p>
+              <p rend="space indent">
+                <lb/><hi rend="sc">It</hi> remains to conſider the third portion of our maſs of
+                blood; <lb/>and that is, the ſeroſity; with regard to which, the aſcertaining
+                <lb/>its proportional quantity is equally difficult. It muſt be equal- <lb/>ly ſo
+                with reſpect to the aſcertaining the proportions of the craſſa- <lb/>mentum and the
+                ſerum; becauſe the proportion of ſeroſity may <lb/>be preſumed to be the ſame with
+                that of the ſerum: and therefore, <lb/>till the latter can be more exactly
+                aſcertained than it has yet <lb/>been, we muſt endeavour to do it by conſidering
+                thoſe cauſes <lb/>which may be ſuppoſed to produce in greater or leſier quantity
+                <lb/>the matter contained in the ſeroſity. </p>
+              <p rend="space indent">
+                <lb/><hi rend="sc">In</hi> attempting this, we ſhall lay aſide a conſideration that
+                <lb/>might readily preſent itſelf, and which is, that of the quantity <lb/>of liquid
+                taken into the body. This certainly does occaſionally <lb/>increaſe the quantity of
+                ſeroſity: but as I believe the excretions <lb/>in healthful bodies are always
+                increaſed according to the quan- <lb/>tity of liquid matter preſent in the
+                blood-veſſels; ſo I ſuppoſe <pb n="70"/>
+                <lb/>that a greater quantity of liquid occaſionally taken in, will ſoon <lb/>paſs
+                off by the excretions, and therefore will occaſion no ſteady <lb/>difference in the
+                proportion of ſeroſity in the healthful ſtate of <lb/>different perſons. </p>
+              <p rend="space indent">
+                <lb/><hi rend="sc">We</hi> muſt therefore ſeek for ſome other cauſe of the
+                difference <lb/>in the proportion of ſeroſity. With this view, it appears, that
+                <lb/>the digeſtive and aſſimilating powers of the animal œconomy <lb/>are fitted to
+                prepare, from the aliments taken in, a fluid ſuited <lb/>to the purpoſes of that
+                œconomy, particularly to the nouriſh- <lb/>ment of the ſolid parts of the body; and
+                ſuch fluid, whilſt in a <lb/>condition fit for its purpoſe, we preſume to be bland,
+                mild, and <lb/>nowiſe noxious and hurtful. </p>
+              <p rend="space indent">
+                <lb/><hi rend="sc">At</hi> the ſame time, it is probable that theſe ſame fluids are
+                not <lb/>long ſtationary in that condition; but in conſequence of a cer- <lb/>tain
+                proceſs conſtantly going on, are changed into ſuch a ſtate, <lb/>that if the change
+                was to go too far, and the changed fluids at <lb/>the ſame time to be retained in
+                the body, they might prove to <lb/>it extremely noxious, and even pernicious. It is
+                the change <lb/>now mentioned that we ſuppoſe to produce the ſeroſity, which,
+                <lb/>although ſuited to ſome purpoſes of the œconomy, is yet at the <lb/>ſame time
+                neceſſary to be conſtantly thrown out of it; and is <lb/>therefore what affords the
+                ordinary excretions. From this laſt <lb/>circumſtance of the ſeroſity being fitted
+                in proportion to its <lb/>quantity to be thrown out by the excretions, we preſume
+                that <lb/>its proportion in the whole maſs is ſeldom for any length of <lb/>time to
+                any degree of exceſs. Still, however, its proportion <lb/>may be different in
+                different perſons; and this difference may <lb/>have a ſhare in giving a difference
+                of temperament. It may be <lb/>alleged, indeed, that the animal proceſs which
+                produces a ſero- <lb/>ſity may be in different degrees of force in different
+                perſons; <pb n="71"/>
+                <lb/>and conſequently, that the ſeroſity may be produced more or leſs <lb/>quickly,
+                as well as be of a more ſaline quality, in one perſon than <lb/>in another: ſo that
+                in this manner, by a difference in the quantity <lb/>and in the quality of the
+                ſeroſity, a difference of temperament <lb/>may be produced. That this is poſſible,
+                cannot be denied; but <lb/>I do not know the circumſtances in which it takes place,
+                nor <lb/>the external appearances whereby it may be diſcovered. </p>
+              <p rend="space indent">
+                <lb/><hi rend="sc">It</hi> has indeed been commonly enough ſuppoſed, that the
+                <lb/>blood is in a more ſaline ſtate in ſome perſons than in others; <lb/>and this
+                may be the caſe, but we have no proper experiments <lb/>to aſcertain the quantity or
+                condition of the ſaline matter in <lb/>the blood. It has been imagined, that the
+                ſaline ſtate of the ſe- <lb/>roſity may be diſcovered by certain appearances on the
+                ſurface <lb/>of the body: but with reſpect to theſe, the concluſion is fallaci-
+                <lb/>ous; becauſe it can be rendered probable, that theſe appearances <lb/>often
+                depend more upon the ſtate of the ſkin itſelf, than upon <lb/>the ſtate of the
+                fluids paſſing through it. </p>
+              <p rend="space indent">
+                <lb/><hi rend="sc">Upon</hi> the whole of this inquiry into the ſtate of the blood,
+                <lb/>with reſpect to its aggregation, or with reſpect to the ſtate and
+                <lb/>proportion of the ſeveral parts which compoſe it as an aggre- <lb/>gate, it
+                ſeems not only to be uncertain how far theſe circum- <lb/>ſtances give a difference
+                of temperament; but, on the contrary, <lb/>it ſeems probable, that they never do ſo
+                in any conſiderable de- <lb/>gree. </p>
+              <p rend="space indent">
+                <lb/><hi rend="sc">Notwithſtanding</hi> all this, ever ſince chemical reaſonings
+                <lb/>have been admitted into our phyſiology, that is, ever ſince the <lb/>time of
+                  <hi rend="sc">Paracelsus</hi>, phyſicians have conſidered our fluids as
+                <lb/>diſtinguiſhed by the ſtate of their chemical mixture, either in <lb/>the whole
+                of the maſs of blood, or in the ſeveral parts which <pb n="72"/>
+                <lb/>compoſe it as an heterogeneous aggregate. It is, however, in <lb/>the latter
+                view only, that is, with reſpect to the ſeveral parts, <lb/>that we can chemically
+                conſider the ſubject; and here it will <lb/>be readily acknowledged, that till very
+                lately, much frivolous, <lb/>hypothetical and falſe reaſoning has prevailed in the
+                chemical <lb/>doctrines reſpecting the nature and ſtate of our fluids. Even at
+                <lb/>preſent, phyſicians have hardly come to be ſufficiently chaſte in <lb/>avoiding
+                ſuch hypothetical doctrines; and however confident <lb/>they have been in their
+                chemical reaſonings, I am unable to <lb/>find any thing either clear or certain upon
+                the ſubject. Not to <lb/>mention how little we have yet learned of the nature of
+                vege- <lb/>table or animal ſubſtances from their chemical analyſis, it is
+                <lb/>enough to ſay here, that with reſpect to ſome parts of the maſs <lb/>of blood,
+                it is by no means aſcertained, either that their chemi- <lb/>cal mixture is upon
+                different occaſions anywiſe changed, or what <lb/>change is produced^ or in what
+                manner ſuch change is effected. <lb/>This may be very confidently aſſerted with
+                reſpect to the red <lb/>globules; the mechanical or chemical properties of which are
+                <lb/>neither of them clearly aſcertained; and we neither know how <lb/>they are
+                formed or produced, nor in what manner they may be <lb/>chemically changed. </p>
+              <p rend="space indent">
+                <lb/><hi rend="sc">With</hi> reſpect to the gluten, I am diſpoſed to make the like
+                <lb/>aſſertion: for it appears to me, that we neither know how it is <lb/>formed
+                from our vegetable aliment, nor what is preciſely the <lb/>ſtate of its mixture; and
+                therefore we cannot clearly ſay <hi rend="italic">à <lb/>priori</hi>, how it may be
+                chemically changed. I do not indeed <lb/>know of any obſervations which aſcertain
+                its being in any caſe <lb/>changed in its ſenſible qualities. There are indeed caſes
+                in <lb/>which its viſcidity and force of coheſion ſeems to be conſider- <lb/>ably
+                diminiſhed; but different explanations of theſe phenome- <lb/>na may be offered: and
+                however they may be explained, the <pb n="73"/>
+                <lb/>phenomena ſeem to take place only in more evidently morbid <lb/>caſes: ſo that
+                we have no juſt grounds for aſſerting that any <lb/>ſuch difference takes place in
+                the temperaments of different <lb/>men in health. It has indeed been commonly
+                ſuppoſed, that the <lb/>denſity and viſcidity of the maſs of blood is different in
+                differ- <lb/>ent perſons even in a ſtate of health, and more certainly in the
+                <lb/>caſe of diſeaſe; and this has been imputed either to the greater
+                <lb/>proportion of gluten in the maſs, or to the greater viſcidity or <lb/>force of
+                coheſion of the gluten that is in due proportion preſent: <lb/>but neither the one
+                nor the other ſuppoſition has been aſcer- <lb/>tained by proper experiments.. Some
+                experiments, indeed, as <lb/>thoſe of Dr Browne Langriſh, have been offered for the
+                purpoſe; <lb/>but they are evidently frivolous and fallacious. </p>
+              <p rend="space indent">
+                <lb/><hi rend="sc">I have</hi> ſaid above, that the proportion of gluten in the
+                <lb/>blood may be increaſed by the quantity of aliments taken in, <lb/>and by the
+                vigour of the ſyſtem in preparing and aſſimilating <lb/>theſe: but it is
+                ſufficiently probable, that the proportion of glu- <lb/>ten will be ſuited to the
+                vigour of the ſyſtem, and therefore <lb/>produce no morbid ſtate; and although it
+                ſhould have ſome <lb/>ſhare in gfving a difference of temperament, it will not do
+                <lb/>this as conſidered by itſelf, but only as accompanying the other
+                <lb/>circumſtances of more power in the ſyſtem. </p>
+              <p rend="space indent">
+                <lb/><hi rend="sc">I cannot</hi> diſmiſs this ſubject without obſerving, that the
+                ſup- <lb/>poſition of a preternatural ſpiſſitude of the maſs of blood, or as <lb/>it
+                may be expreſſed of a lentor, being a frequent cauſe of diſeaſe, <lb/>has had a
+                great ſhare in almoſt all the modern ſyſtems of pa- <lb/>thology; but I allege that
+                it has been for the moſt part hypo- <lb/>thetical; and has hardly, ſo far as I know,
+                in any caſe been aſ- <lb/>certained as a fact. 1 am diſpoſed to maintain, that the
+                ſuppo- <lb/>ſition is for the moſt part improbable. The functions of the
+                <lb/>œconomy, depending upon the conſtant motion of fluids through <pb n="74"/>
+                <lb/>many narrow canals, require that thoſe fluids ſhould have a ve- <lb/>ry great
+                fluidity; and accordingly Nature has, for this purpoſe, <lb/>provided, that a pure
+                water ſhould always make a very great <lb/>part of the animal fluids. It is alſo
+                certain, that thoſe parts <lb/>whoſe particles might be diſpoſed to unite together,
+                and to form <lb/>impermeable maſſes, are for the moſt part held in a ſtate of ſo-
+                <lb/>lution, and in a very fluid ſtate; or if there are certain parts <lb/>which are
+                only in a diffuſed ſtate, theſe are in very ſmall pro- <lb/>portion to the entirely
+                fluid parts: and while the heat and mo- <lb/>tion of the whole continue, the
+                coheſive matters are kept in a <lb/>very minutely divided ſtate, and diffuſed
+                amongſt the more <lb/>fluid parts; and there is not any evidence of their ſeparation
+                <lb/>from thoſe fluids but in conſequence of ſtagnation. There <lb/>is therefore
+                little foundation for the ſuppoſition of a preterna- <lb/>tural ſpiſſitude
+                prevailing in the maſs of blood, or of its proving <lb/>commonly the cauſe of
+                diſeaſe: And although what I have now <lb/>ſaid be not ſuited directly to my preſent
+                purpoſe of explaining <lb/>the difference of temperament, yet it has ſome concern in
+                it; <lb/>and in an introduction to the conſideration of the operation of
+                <lb/>medicines, cannot be improper. </p>
+              <p rend="space indent">
+                <lb/><hi rend="sc">But</hi> to return to my ſubject: I have now endeavoured to ſhow,
+                <lb/>with reſpect to the red globules or gluten, that from the conſi- <lb/>deration
+                of their chemical mixture, we can obtain very little <lb/>knowledge towards the
+                diſtinction of temperaments. It may, <lb/>however, be expected, that by means of
+                chemiſtry we may obtain <lb/>more from the conſideration of the ſeroſity; but how
+                far we can <lb/>go even in this matter, is to me ſtill very uncertain. It is now
+                <lb/>know very well that the ſeroſity of the human blood is a watery <lb/>fluid
+                which holds diſſolved in it, beſides a quantity of gluten, a <lb/>peculiar ſalt
+                which is hardly known, or at leaſt is not diſtinctly <lb/>perceived to be in any
+                other part of nature beſides that of ani- <pb n="75"/>
+                <lb/>mal bodies. We know alſo, from the excretions which we pre- <lb/>ſume to be
+                afforded by the ſeroſity, that there exiſts in it alſo a <lb/>quantity of oily
+                matter; but of what particular nature that is, or <lb/>in what proportion it is
+                preſent, or in what manner it is com- <lb/>bined with the other parts, we do not
+                know with any preciſion; <lb/>and therefore cannot ſay in what meaſure the
+                conſideration of <lb/>this oily part may ſerve to aſcertain the different ſtate of
+                the <lb/>fluids in the different bodies of men in health. </p>
+              <p rend="space indent">
+                <lb/><hi rend="sc">We</hi> may, I think, neglect the conſideration of the oily part
+                <lb/>of the blood; but the ſaline part may ſeem to deſerve more at- <lb/>tention.
+                There is ground to believe, that beſide the peculiar <lb/>ſaline matter above
+                mentioned, there are a number of other ſa- <lb/>line matters preſent in the
+                ſeroſity; but of what nature pre- <lb/>ciſely, or in what proportion, remains
+                unknown. To give an <lb/>example of this, we know now that there is in the urine of
+                eve- <lb/>ry perſon, probably derived from the ſeroſity, an acid, that upon
+                <lb/>certain occaſions gives a concretion in the urinary paſiages, and <lb/>which,
+                ſeparated from the urine, puts on the appearance of an <lb/>earthy or ſtony matter.
+                This, however, has been learned only <lb/>lately from the analyſis of ſuch urinary
+                concretions as have be- <lb/>come a diſeaſe; and the diſcovery, while it now enables
+                us to cor- <lb/>rect ſome parts of our ſyſtem, ſerves at the ſame time to ſhow how
+                <lb/>ignorant we were with regard to the ſtate of the human fluids. </p>
+              <p rend="space indent">
+                <lb/><hi rend="sc">From</hi> theſe conſiderations of the ſeveral matters which
+                <lb/>we can perceive to exiſt in the maſs of blood, it will ap- <lb/>pear that there
+                is little ground for diſtinguiſhing the different <lb/>temperaments of men by the
+                different ſtate of their maſs of <lb/>blood. It is indeed very poſſible, that a
+                different ſtate in this <lb/>reſpect may take place in different men; but to what
+                degree, or <lb/>by what external marks it may be perceived, in aſcertaining <pb
+                  n="76"/>
+                <lb/>either the one or the other, phyſicians have hardly yet gone <lb/>any length. </p>
+              <p rend="space indent">
+                <lb/><hi rend="sc">Without</hi> entering thus into the conſiderations of the diffe-
+                <lb/>rent ſtates of the ſeroſity, it may be imagined there is a groſſer <lb/>view,
+                that may be taken for diſtinguiſhing the different ſtate of <lb/>the fluids in
+                different perſons. </p>
+              <p rend="space indent">
+                <lb/><hi rend="sc">There</hi> is in the human body, as living always in part upon
+                <lb/>vegetable aliments, a power whereby theſe aliments, after be- <lb/>ing ſome
+                time in the body, are conſiderably changed in their <lb/>nature and qualities, being
+                changed into animal fluids; which <lb/>are in ſeveral reſpects conſiderably
+                different from the vegetable <lb/>matters that were taken in. How this change is
+                effected we do <lb/>not exactly know; and the only circumſtance that tends ſome-
+                <lb/>what towards the illuſtration of it, is, that a change of vegetable
+                <lb/>matter, nearly analogous to this which happens in the human <lb/>body, is made
+                by its being, ſubjected to putrefaction: and though <lb/>we cannot diſtinctly
+                perceive in what portions of the fluid, <lb/>more eſpecially in what manner, or to
+                what degree, this is car- <lb/>ried on in the body; we may pretty ſafely conclude in
+                general, <lb/>that the animal proceſs is a part of the putrefactive fermenta-
+                <lb/>tion. At the ſame time we obſerve, that after the animal pro- <lb/>ceſs has
+                brought the aliments into that ſtate which is ſuited to the <lb/>purpoſes of the
+                animal œconomy, or into the proper ſtate of <lb/>animal fluids, theſe are not long
+                ſtationary in that condition, <lb/>but are conſtantly advancing towards a putrid
+                ſtate; and that <lb/>theſe degenerating and degenerated parts are what chiefly form
+                <lb/>the ſaline or earthy ingredients of the ſeroſity, which, with <lb/>a part of
+                the fluid, are conſtantly paſſing out of the body by the <lb/>ſeveral excretions. </p>
+              <pb n="77"/>
+              <p rend="space indent">
+                <lb/><hi rend="sc">In</hi> this view, we can perceive that the animal fluid may in
+                its <lb/>compoſition be more or leſs prone and more or leſs advanced <lb/>towards
+                the putreſcent ſtate; and that by theſe circumſtances <lb/>the fluids may be
+                different in the conſiſtence of the whole maſs, <lb/>or in the chemical qualities of
+                the ſeroſity: but till the changes <lb/>in theſe reſpects have proceeded to a morbid
+                ſtate, we can hard- <lb/>ly perceive them when in a leſſer degree, or ſay how far
+                they <lb/>can, or actually have, a ſhare in diſtinguiſhing the tempera- <lb/>ments
+                of men in health. </p>
+              <p rend="space indent">
+                <lb/><hi rend="sc">From</hi> the ſeveral remarks we have now offered reſpecting the
+                <lb/>ſeroſity, it clearly enough appears, that there is a portion of the <lb/>maſs
+                of blood which is always in a ſaline and acrid ſtate; and <lb/>nothing has been more
+                common among phyſicians than to ſup- <lb/>poſe that an acrimony of the fluids is a
+                frequent cauſe of diſ- <lb/>eaſe. </p>
+              <p rend="space indent">
+                <lb/><hi rend="sc">It</hi> is very poſſible that it may be ſo, and upon many occa-
+                <lb/>ſions it certainly is ſo; but it appears to me that the ſuppoſition <lb/>has
+                been too raſhly and too frequently admitted, and that it has <lb/>been for the moſt
+                part purely gratuitous, without any proper <lb/>evidence of it in fact. The poſſible
+                ſpecies of acrimony have <lb/>been little underſtood, and ſeveral of them altogether
+                erroneouſly <lb/>ſuppoſed. Others of them, though poſſibly occurring, have not
+                <lb/>been ſhown really to take place in any unuſual quantity; and <lb/>the phenomena
+                adduced in proof of them may be commonly <lb/>explained from other cauſes, and are
+                certainly often produced <lb/>by cauſes of a different and even contrary nature. </p>
+              <p rend="space indent">
+                <lb/><hi rend="sc">With</hi> reſpect to the various acrimony which we have allowed
+                <lb/>to be conſtantly preſent in the ſeroſity, it is probable, that upon
+                <lb/>different occaſions it may be in greater or lefler quantity: but <pb n="78"/>
+                <lb/>for this very reaſon of its being conſtantly preſent, we muſt <lb/>conclude
+                that it does not ſtimulate the ſyſtem very ſtrongly. <lb/>This happens partly from
+                theſe acrids being conſtantly diffuſed <lb/>in other mild fluids, partly from the
+                arterial ſyſtem not being <lb/>ſenſible to ſuch a ſtimulus, and partly from theſe
+                acrids ſtimu- <lb/>lating the ſecretory and excretory organs to a larger excretion,
+                <lb/>whereby they are by one or other excretion immediately thrown <lb/>out of the
+                body. From theſe conſiderations, I conclude, that a <lb/>ſpontaneous and noxious
+                acrimony does not frequently ariſe; <lb/>for the greateſt part of mankind paſs their
+                lives without feeling <lb/>any of the effects that might be imputed to it: and
+                though <lb/>there are ſome inſtances of its operation, theſe are very rare, <lb/>and
+                commonly in conſequence of unuſual and violent circum- <lb/>ſtances in which the
+                body has been placed. </p>
+              <p rend="space indent">
+                <lb/><hi rend="sc">With</hi> reſpect to acrid matters introduced into the body from
+                <lb/>without, there is no doubt that many of theſe are ſufficiently <lb/>powerful in
+                diſordering the ſyſtem; but there are certainly alſo <lb/>many thrown in that have
+                no effect at all: for not to mention <lb/>the various precautions which nature has
+                taken to prevent their <lb/>reaching the maſs of blood, I think it is only neceſſary
+                to ob- <lb/>ſerve, that even when in the maſs of blood, they are rendered
+                <lb/>innocent, by their being joined with, and diffuſed in, the ſero- <lb/>ſity, and
+                with it ſoon thrown out by one or other of the excre- <lb/>tions; ſo that ſome of
+                the moſt acrid, as mercury and cantha- <lb/>rides, ſhow their effects only in the
+                ſecretory or excretory or- <lb/>gans. </p>
+              <p rend="space indent">
+                <lb/><hi rend="sc">Upon</hi> the whole of this ſubject, therefore, I would conclude,
+                <lb/>that the ſuppoſition of an acrimony as the cauſe of diſeaſes, has <lb/>been too
+                frequently admitted in our modern pathology; and <pb n="79"/>
+                <lb/>that it ought not to be admitted, unleſs when the cauſes and ex- <lb/>iſtence
+                of it are well aſcertained. </p>
+              <p rend="space indent">
+                <lb/><hi rend="sc">To</hi> conclude, I will not deny that the ſtate of the fluids
+                may <lb/>have a ſhare in diſtinguiſhing the different ſtates of the body <lb/>both
+                in health and in ſickneſs: but at the ſame time I muſt <lb/>maintain, that we know
+                little of the manner in which it may <lb/>have this effect; that our theory of the
+                human fluids is ſtill <lb/>very incomplete and imperfect; that while in this
+                condition it <lb/>has been employed too raſhly and too largely in every part of
+                <lb/>the ſyſtem of phyſic; and that we have little temptation to do <lb/>this, as it
+                is highly probable that the ſtate of the fluids depends <lb/>very much upon other
+                circumſtances of the conſtitution, which <lb/>are more fundamental, and more
+                powerful in determining the <lb/>ſeveral conditions of it. </p>
+            </div>
+            <div>
+              <head rend="align-center space"><hi rend="sc">Article III.</hi>
+                <hi rend="italic">Of the Diſtribution of the Fluids.</hi>
+              </head>
+              <p rend="space indent">
+                <lb/><hi rend="sc">The</hi> third circumſtance by which we ſuppoſe the tempera-
+                <lb/>ments of men may be diſtinguiſhed, is the different ſtate of the
+                <lb/>diſtribution of the fluids, and alſo the different ſtate of the ba- <lb/>lance
+                in this reſpect between the ſeveral parts of the ſyſtem. </p>
+              <p rend="space indent">
+                <lb/><hi rend="sc">It</hi> is in the firſt place evident, that it is chiefly by the
+                action <lb/>of the heart the blood is propelled into the ſeveral veſſels of the
+                <lb/>body: for although the action of the arteries contributes to <lb/>promote the
+                motion of the blood, and although upon certain <lb/>occaſions the action of the
+                arteries in particular parts may be <lb/>increaſed or diminiſhed, ſo that the
+                momentum of the blood in <lb/>particular parts is promoted or abated without any
+                change in <pb n="80"/>
+                <lb/>the action of the heart; yet it is preſumed, that in the ordinary <lb/>ſtate of
+                men in health, the action of the arteries is exactly in <lb/>proportion to the
+                action of the heart in diſtending them; and <lb/>therefore that we may hold the
+                action of the arteries as given, <lb/>and conſider the heart alone as the moving
+                power. </p>
+              <p rend="space indent">
+                <lb/><hi rend="sc">The</hi> action of the heart, therefore, taking place, the
+                diſtribu- <lb/>tion of the blood into the ſeveral parts of the body will be in
+                <lb/>proportion to the capacity of the veſſels, and in proportion to <lb/>their
+                denſity or reſiſtance in the ſeveral parts. Of this we have <lb/>a clear example in
+                the gradual formation of the body from its <lb/>firſt beginning to its full growth;
+                during which the parts are <lb/>ſucceſſively evolved, ſome of them attaining ſooner
+                than others <lb/>their full growth, owing, as it appears to me, to the different
+                <lb/>ſtate of the capacity and reſiſtance of the veſſels at the different
+                <lb/>periods of life; which, again, is probably determined by the ſtate <lb/>of the
+                original ſtamina. </p>
+              <p rend="space indent">
+                <lb/><hi rend="sc">This</hi> makes a conſiderable difference in the ſtate of man at
+                <lb/>different ages, during the gradual growth of the body; and it <lb/>appears more
+                eſpecially with reſpect to the head, which, for ſe- <lb/>veral purpoſes of the
+                animal œconomy, is firſt evolved, and <lb/>comes firſt to its full ſize. This
+                certainly happens from the <lb/>veſſels of the head being, in reſpect of capacity
+                and denſity, <lb/>ſuited to that end; and conſequently, in the firſt part of life,
+                the <lb/>blood is determined in a proportionally greater quantity into <lb/>the
+                veſſels of the head than into other parts of the ſyſtem: and <lb/>it is ſufficiently
+                probable, that this proportion is greater as the <lb/>animal is nearer to its
+                origin, and continues greater till the bo- <lb/>dy attains its full growth; after
+                which, however, it continually <lb/>decreaſes as the animal advances to that period
+                when it may be <lb/>ſuppoſed to ceaſe. </p>
+              <pb n="81"/>
+              <p rend="space indent">
+                <lb/><hi rend="sc">When</hi> the body has arrived at its full growth, we very gene-
+                <lb/>rally find a ſymmetry and exact proportion eſtabliſhed in the <lb/>ſize and
+                bulk of the ſeveral parts which fall under our obſerva- <lb/>tion; and we may then
+                ſuppoſe the diſtribution of the blood to <lb/>be ſuited exactly to that proportion.
+                This indeed takes place <lb/>with great uniformity in the moſt part of men: but I
+                ſtill deem <lb/>it poſſible, that a diſproportioned capacity in certain parts
+                <lb/>may occcur in certain men, and ſubſiſt in them through the <lb/>whole of life.
+                Accordingly, it has been commonly obſerved, <lb/>that men of large heads, and large
+                in proportion to the length <lb/>of their bodies, are more liable to a plethoric
+                ſtate in the veſſels <lb/>of the head, and to the diſeaſes depending upon it. I have
+                alſo <lb/>remarked in ſeveral inſtances, that men having their feet and <lb/>hands
+                ſhorter than in the uſual proportion to the reſt of the bo- <lb/>dy, were more
+                liable to a plethoric ſtate of the lungs. </p>
+              <p rend="space indent">
+                <lb/><hi rend="sc">This</hi> leads me to obſerve, that of the proportions of the ca-
+                <lb/>pacities of the ſeveral parts of the body influencing the diſtri- <lb/>bution
+                of the blood, one of the moſt conſiderable is, the diffe- <lb/>rence of the
+                capacities of the veſſels of the lungs, and of thoſe <lb/>of the ſyſtem of the
+                aorta. It is eſpecially diſcovered by the <lb/>ſize of the thorax with reſpect to
+                the other parts of the body; <lb/>and this may be conſidered as occaſioning a
+                conſiderable differ- <lb/>ence in the conſtitutions of men. What effects it has in
+                diſpo- <lb/>ſing to certain diſeaſes, is well known to phyſicians. </p>
+              <p rend="space indent">
+                <lb/><hi rend="sc">Upon</hi> this ſubject of the diſtribution of the blood, it is
+                parti- <lb/>cularly to be taken notice of, that there is a certain balance be-
+                <lb/>tween the force of the heart, and the reſiſtance of the extreme <lb/>veſſels by
+                which the perſpiration is thrown out. It is probable, <lb/>that upon this, the ſtate
+                of that excretion in different perſons <lb/>very much depends; and which perhaps may
+                be illuſtrated by <pb n="82"/>
+                <lb/>this, that the reſiſtance of the extreme veſſels ſeems, in ſome <lb/>caſes, to
+                be ſo great as to diminiſh the perſpiration, and in con- <lb/>ſequence the appetite.
+                Accordingly, the circumſtance of men <lb/>of conſiderable bulk, and tolerably full
+                habit, having leſs appe- <lb/>tite, and taking in leſs food, than others of the ſame
+                bulk uſual- <lb/>ly do, in my opinion may be aſcribed to the weakneſs of the
+                <lb/>heart with reſpect to the extreme veſſels: and, on the other <lb/>hand, we find
+                men of a moderate ſize, and of a lean habit, take <lb/>in very largely of food;
+                which I think muſt be imputed to the <lb/>force of the heart being in them, great,
+                with reſpect to the <lb/>reſiſtance of the extreme veſſels. </p>
+              <p rend="space indent">
+                <lb/><hi rend="sc">With</hi> regard to the balance between the heart and extreme
+                <lb/>veſſels, we cannot fail to remark, that although the interruption <lb/>or
+                diminution of perſpiration is often owing to cold conſtricting <lb/>the veſlels, and
+                increaſing their reſiſtance to the action of the <lb/>heart; yet it is at the ſame
+                time evident, that it frequently may be <lb/>owing to the weakneſs of the heart not
+                puſhing the blood with <lb/>due force towards the ſurface of the body, that this
+                laſt is ren- <lb/>dered more liable to be affected by cold. This diſpoſition to
+                <lb/>be affected by cold may take place not only occaſionally, as it <lb/>may in
+                moſt perſons, but ſeemingly it ſubſiſts in ſome through <lb/>a great part of life,
+                and therefore may be conſidered as di- <lb/>ſtinguiſhing the different conditions
+                and temperaments of <lb/>men. </p>
+              <p rend="space indent">
+                <lb/><hi rend="sc">Of</hi> all the differences occurring with reſpect to the
+                diſtribu- <lb/>tion of the blood, there is none more remarkable than that of
+                <lb/>the proportion of the quantity in the arteries and veins. It is <lb/>now
+                aſcertained, that this is different at different periods of life, <lb/>from the
+                difference occurring in certain circumſtances of the <lb/>arteries and veins at
+                thoſe different periods: for it is now <pb n="83"/>
+                <lb/>known, that the coats of the veins have a greater proportional <lb/>denſity in
+                young animals than in old; and therefore the reſiſt- <lb/>ance being greater in the
+                veins at the one period than the other, <lb/>leſs blood will be received into the
+                veins, and more will be re- <lb/>tained in the arteries. This difference of the
+                quantities of <lb/>blood in the arteries and veins manifeſtly occurs in the ordina-
+                <lb/>ry progreſs of life: but it is alſo probable, that in ſome per- <lb/>ſons the
+                ſame difference, to a certain degree, takes place through <lb/>the whole courſe of
+                life, and gives a conſtant and conſiderable <lb/>difference in the temperaments of
+                men, as I ſhall mention more <lb/>fully hereafter. </p>
+            </div>
+            <div>
+              <head rend="align-center space"><hi rend="sc">Article IV.</hi>
+                <hi rend="italic">Of the different Proportion of Solid and Fuild in the
+                  <lb/>Body.</hi>
+              </head>
+              <p rend="space indent">
+                <lb/><hi rend="sc">A fourth</hi> circumſtance producing a difference of tempera-
+                <lb/>ment, is the different proportion of ſolid and fluid in different <lb/>perſons.
+                That this proportion varies at different periods of life; <lb/>that in young perſons
+                the ſolids are leſs denſe and the number <lb/>of veſſels is greater; and that
+                conſequently the proportion of <lb/>fluid to ſolid is greater in young perſons than
+                in old, there can <lb/>be no doubt: while, on the other hand, the quantity of ſolid
+                is <lb/>conſtantly increaſing, and the number of veſſels diminiſhing <lb/>through
+                the further courſe of life; ſo that theſe circumſtances <lb/>in old age are all of
+                them entirely reverſed. Theſe conditions, <lb/>therefore, are ever varying in the
+                progreſs of life, and at the <lb/>different periods of it, may be ſuppoſed to be
+                ſuited to the œco- <lb/>nomy: but, at the ſame time, there are circumſtances which
+                va- <lb/>ry this matter independent of age. </p>
+              <pb n="84"/>
+              <p rend="space indent">
+                <lb/><hi rend="sc">In</hi> the firſt place, as we have already remarked that the
+                den- <lb/>ſity of the ſimple ſolid is determined by the ſtate of the origi- <lb/>nal
+                ſtamina, ſo the conditions of the ſyſtem by which the change <lb/>we have mentioned
+                is produced, may be ſuppoſed in ſome mea- <lb/>ſure to be determined by the ſame
+                circumſtance. In conſe- <lb/>quence of this, the ſolids throughout the whole of life
+                may be <lb/>more denſe in proportion to the ſize of the veſſels; ſo that the
+                <lb/>proportion of fluid to ſolid, may be different in different per- <lb/>ſons of
+                the ſame age, and in this reſpect, throughout the whole <lb/>of life give a
+                difference in the temperaments of men. </p>
+              <p rend="space indent">
+                <lb/><hi rend="sc">In</hi> examining this ſubject, it is neceſſary not only to take
+                into <lb/>view the quantity of ſolid and fluid compared together on the <lb/>whole,
+                but to conſider alſo the manner in which they are applied <lb/>to one another. As
+                the ſolids are formed into hollow tubes or <lb/>veſiels, through which the fluids
+                are in conſtant motion, we muſt <lb/>conſider to what degree the veſſels are filled
+                by the fluids mo- <lb/>ving through them. </p>
+              <p rend="space indent">
+                <lb/><hi rend="sc">In</hi> this view, it is evident that by the blood moving more
+                <lb/>ſlowly as it recedes farther from the heart, the veſſels con- <lb/>taining the
+                red blood are conſtantly ſtretched or diſtended <lb/>in every dimenſion beyond the
+                ſize they would aſſume if no <lb/>ſtretching power was applied to them; and this is
+                what may <lb/>be called a plethoric ſtate of the ſyſtem. Such a ſtate is
+                <lb/>neceſſary not only to the evolution of the ſyſtem, and conſe- <lb/>quently
+                during the growth of the body, but throughout the <lb/>whole of life it is requiſite
+                to the action of the veſſels and <lb/>to the due tenſion and action of perhaps every
+                fibre of the ſy- <lb/>ſtem. This, however, may be different in different perſons at
+                <lb/>the ſame period of life; ſo that the veſſels may be ſtretched <lb/>more or leſs
+                beyond their natural capacities. In infancy, the <lb/>ſolids are lax and yielding,
+                and the veſſels can bear to be <pb n="85"/>
+                <lb/>ſtretched more than they commonly are: but as from that period <lb/>the denſity
+                and reſiſtance of the ſolids are perpetually increaſing, <lb/>ſo the tenſion of the
+                arterial ſyſtem is conſtantly approaching <lb/>more and more to what it is able to
+                bear, till at length the force <lb/>of the heart can no longer extend the arteries
+                at all, and a <lb/>greater quantity of blood is thrown into the veins. In this
+                <lb/>condition matters remain through the reſt of life; but at the <lb/>ſame time
+                both kinds of veſſels remain in a plethoric ſtate. </p>
+              <p rend="space indent">
+                <lb/><hi rend="sc">From</hi> this view of the ſubject, it will appear that the human
+                <lb/>body, for the purpoſes of health and the proper exerciſe of its <lb/>functions,
+                is conſtantly in a plethoric ſtate; but it is ſtill ſup- <lb/>poſed, that upon
+                occaſions it may be more or leſs ſo, and <lb/>may be to ſuch an exceſs as to produce
+                either a diſeaſe, or at <lb/>leaſt a ſtrong tendency to diſeaſe. Indeed it is
+                poſſible, that <lb/>throughout the whole of life, the quantity of blood, and conſe-
+                <lb/>quently the fulneſs and tenſion of the veſſels, may in ſome per- <lb/>ſons be
+                in a greater proportion than in others, and thereby have <lb/>a ſhare in
+                diſtinguiſhing the temperaments of different men. </p>
+              <p rend="space indent">
+                <lb/><hi rend="sc">This</hi> laſt ſuppoſition has been univerſally admitted, and
+                pro- <lb/>bably is well founded, although I find it difficult to deter- <lb/>mine
+                certainly when it does really take place. It may perhaps <lb/>in general be
+                determined by the fulneſs of the pulſe, the appa- <lb/>rent ſize of the veſſels on
+                the ſurface of the body, the ruddineſs <lb/>of the complexion, and the general
+                ſucculency of the habit. <lb/>With reſpect, however, to the latter circumſtance, we
+                are apt <lb/>to be deceived by our not being able in many caſes to diſcern
+                <lb/>whether the plumpneſs of the body is owing to the fulneſs of <lb/>the
+                blood-veſſels, or to the quantity of oil in the adipoſe mem- <lb/>brane. The cauſes
+                of both are very much the ſame; and it is <lb/>only when the fulneſs of the habit
+                takes place to a conſiderable <pb n="86"/>
+                <lb/>degree, that we can with any certainty aſcribe it to obeſity, ra- <lb/>ther
+                than to plethora or a fulneſs of the blood-veſſels. </p>
+              <p rend="space indent">
+                <lb/><hi rend="sc">This</hi> neceſſarily leads me to take notice of the different
+                ſtate of <lb/>the adipoſe membrane, as giving a conſiderable difference in the
+                <lb/>conſtitutions of men. The different ſtates of the adipoſe mem- <lb/>brane are
+                for the moſt part abundantly obvious; and the effects <lb/>of obeſity are often
+                ſufficiently obſervable: but upon what in- <lb/>ternal ſtate of the body, or upon
+                what modification of the œco- <lb/>nomy, it always depends, is not eaſily to be
+                aſcertained. It <lb/>may be ſuppoſed in general to depend upon the quantity of
+                <lb/>nouriſhment, and in particular upon the oily quality of the ali- <lb/>ment
+                taken into the body; but although it certainly does often, <lb/><hi rend="italic"
+                  >cœteris paribus</hi>, depend upon theſe, yet at the ſame <unclear>time</unclear>
+                we are <lb/>certain it does not always depend upon theſe alone, and that in
+                <lb/>producing it many other circumſtances may concur. </p>
+              <p rend="space indent">
+                <lb/><hi rend="sc">It</hi> ſeems to me very poſſible, that the aliment being given,
+                the <lb/>digeſtive and aſſimilating powers may often produce fluids more or
+                <lb/>leſs diſpoſed to admit of a more or leſs ready ſeparation of oil, and
+                <lb/>conſequently of its ſeceſſion into the adipoſe membrane; or that, <lb/>on the
+                contrary, the ſame powers may produce fluids in a more <lb/>ſaline ſtate, and in
+                which the oily parts are mixed in ſuch a <lb/>manner as to render them more ready to
+                paſs off by the excre- <lb/>tions. It is well known, that an active circulation
+                which power- <lb/>fully ſupports the excretions, is alſo powerful in preventing the
+                <lb/>accumulation of oil in the adipoſe membrane, and that this in- <lb/>deed
+                happens in many perſons without any aſſiſtance of bodily <lb/>exerciſe; but we know
+                alſo, that this accumulation of oil is e- <lb/>ſpecially prevented in thoſe who take
+                a great deal of ſuch exer- <lb/>ciſe; becauſe this not only ſupports and promotes
+                the excretions, <lb/>but gives occaſion likewiſe to the conſtant abſorption of the
+                  <pb n="87"/>
+                <lb/>oil which had been before depoſited in the adipoſe mem- <lb/>brane. </p>
+              <p rend="space indent">
+                <lb/><hi rend="sc">Whether</hi> a condition in the maſs of blood diſpoſing it to
+                <lb/>produce a copious ſeroſity, may not be a means of increaſing the
+                <lb/>abſorption of oil for the purpoſe of involving an increaſed acri- <lb/>mony, I
+                cannot poſitively determine; but this ſeems to be very <lb/>probable, becauſe we
+                find emaciation to be the conſequence of a <lb/>morbid acrimony prevailing in the
+                fluids, as is evident in the <lb/>caſes of ſcurvy, ſyphilis, and cancer. </p>
+              <p rend="space indent">
+                <lb/><hi rend="sc">To</hi> all theſe cauſes increaſing or diminiſhing the fulneſs of
+                <lb/>oil in the adipoſe membrane, and which, in the caſes of obeſity <lb/>or
+                leanneſs, may allow us in general tp judge of the ſtate of the <lb/>ſyſtem, and in
+                particular of the ſtate of the fluids, we muſt add <lb/>a conſideration which
+                relates to the function of particular parts. <lb/>The ſecretion of oil does not ſeem
+                to me to be yet clearly ex- <lb/>plained: but in general it may be ſuppoſed to
+                depend upon <lb/>a peculiar organization in the ſecretory organ, or in the cellu-
+                <lb/>lar texture receiving it; becauſe it manifeſtly takes place in ſome <lb/>parts
+                of the body more than in others. For example, it takes <lb/>place in the amentum
+                more than in the meſentery; and it is oft- <lb/>en found in preternatural quantity,
+                or in greater proportion, <lb/>in certain parts than in others: ſo that we muſt
+                ſuppoſe it to be <lb/>occaſioned by ſome peculiar circumſtances of thoſe parts; and
+                <lb/>may therefore preſume, that in the organs concerned in this buſi- <lb/>neſs
+                over the whole body, there is a peculiar conſtitution which, <lb/>independent of all
+                the others we have mentioned, has a great <lb/>ſhare in giving that ſtate of obeſity
+                or of leanneſs which often <lb/>marks a difference in the temperaments of men. At
+                the ſame <lb/>time, the cauſe of this is not yet well explained. </p>
+              <pb n="88"/>
+              <p rend="space indent">
+                <lb/><hi rend="sc">Before</hi> concluding this ſubject, it may be proper to obſerve,
+                <lb/>that although a plethora or the fulneſs of the blood-veſſels, and <lb/>obeſity
+                or fulneſs of the adipoſe membrane, are very different cir- <lb/>cumſtances, yet it
+                is probable, that the fulneſs of the adipoſe mem- <lb/>brane does always compreſs
+                and diminiſh the ſize of the blood- <lb/>veſſels, and gives a plethora <hi
+                  rend="italic">ad ſpatium</hi>, which has often the ef- <lb/>fects of the plethora
+                  <hi rend="italic">ad volumen</hi>: and I have frequently re- <lb/>marked, that
+                while perſons of a fat habit may require evacua- <lb/>tions of blood, yet at the
+                ſame time they bear them worſe than <lb/>perſons of a lean habit do. </p>
+            </div>
+            <gap reason="sampling" unit="pages" quantity="33"/>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

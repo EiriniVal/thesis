@@ -1,0 +1,1815 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>LMEMT Corpus - Arbuthnot: Practical rules of diet in the various
+                    constitutions and diseases of human bodies</title>
+                <respStmt>
+                    <resp>Compiler</resp>
+                    <persName xml:id="IT">
+                        <forename>Irma</forename>
+                        <surname>Taavitsainen</surname>
+                    </persName>
+                    <persName xml:id="TH">
+                        <forename>Turo</forename>
+                        <surname>Hiltunen</surname>
+                    </persName>
+                    <persName xml:id="ALe">
+                        <forename>Anu</forename>
+                        <surname>Lehto</surname>
+                    </persName>
+                    <persName xml:id="VM">
+                        <forename>Ville</forename>
+                        <surname>Marttila</surname>
+                    </persName>
+                    <persName xml:id="RO">
+                        <forename>Raisa</forename>
+                        <surname>Oinonen</surname>
+                    </persName>
+                    <persName xml:id="PP">
+                        <forename>Päivi</forename>
+                        <surname>Pahta</surname>
+                    </persName>
+                    <persName xml:id="MR">
+                        <forename>Maura</forename>
+                        <surname>Ratia</surname>
+                    </persName>
+                    <persName xml:id="CS">
+                        <forename>Carla</forename>
+                        <surname>Suhr</surname>
+                    </persName>
+                    <persName xml:id="JT">
+                        <forename>Jukka</forename>
+                        <surname>Tyrkkö</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Research Assistant</resp>
+                    <persName xml:id="WA">
+                        <forename>Wilma</forename>
+                        <surname>Andersson</surname>
+                    </persName>
+                    <persName xml:id="EC">
+                        <forename>Emanuela</forename>
+                        <surname>Costea</surname>
+                    </persName>
+                    <persName xml:id="DV">
+                        <forename>Diana</forename>
+                        <surname>Frank-Väyrynen</surname>
+                    </persName>
+                    <persName xml:id="SK">
+                        <forename>Sami</forename>
+                        <surname>Kalliomäki</surname>
+                    </persName>
+                    <persName xml:id="MK">
+                        <forename>Mirella</forename>
+                        <surname>Klinga</surname>
+                    </persName>
+                    <persName xml:id="SKo">
+                        <forename>Sami</forename>
+                        <surname>Koskinen</surname>
+                    </persName>
+                    <persName xml:id="ALi">
+                        <forename>Aatu</forename>
+                        <surname>Liimatta</surname>
+                    </persName>
+                    <persName xml:id="HR">
+                        <forename>Heikki</forename>
+                        <surname>Rajala</surname>
+                    </persName>
+                    <persName xml:id="JR">
+                        <forename>Jenni</forename>
+                        <surname>Riihimäki</surname>
+                    </persName>
+                    <persName xml:id="AW">
+                        <forename>Anna-Lina</forename>
+                        <surname>Walraff</surname>
+                    </persName>
+                </respStmt>
+                <sponsor>
+                    <orgName>Department of Modern Languages, University of Helsinki</orgName>
+                </sponsor>
+                <funder>
+                    <orgName>University of Helsinki</orgName>
+                    <orgName>Academy of Finland</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>John Benjamins Publishing Company</publisher>
+                <pubPlace>Amsterdam</pubPlace>
+                <date>forthcoming</date>
+                <availability>
+                    <p>Copyright by the publisher. All rights reserved.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>
+                            <persName>John Arbuthnot</persName>
+                        </author>
+                        <title type="main">Practical rules of diet in the various constitutions and
+                            diseases of human bodies. By John Arbuthnot, M. D. Fellow of the College
+                            of Physicians, and of the Royal Society.</title>
+                        <edition n="1"/>
+                        <idno type="ESTC">T133411</idno>
+                        <ptr type="ESTC-link" target="http://estc.bl.uk/T133411"/>
+                        <imprint>
+                            <!--Add additional <placeName/> elements for each additional place of publication.-->
+                            <pubPlace>
+                                <placeName>London</placeName>
+                            </pubPlace>
+                            <publisher>
+                                <persName>London: printed for J. Tonson in the Strand,
+                                    MDCCXXXII.</persName>
+                            </publisher>
+                            <date>1732</date>
+                        </imprint>
+                        <extent>
+                            <measure type="format">8⁰</measure>
+                            <measure type="count" commodity="front" unit="page" quantity="8"/>
+                            <measure type="count" commodity="body" unit="page" quantity="430"/>
+                            <measure type="count" commodity="back" unit="page" quantity="1"/>
+                        </extent>
+                    </monogr>
+                    <note type="source_copy">
+                        <orgName type="library">British Library</orgName>
+                        <idno type="ECCO">CW3307893401</idno>
+                        <idno type="TCP">K105745.000</idno>
+                    </note>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <catRef n="Health guide"/>
+            </textClass>
+        </profileDesc>
+        
+    </teiHeader>
+    <text xml:lang="eng">
+        <front>
+            <gap reason="sampling" unit="pages" quantity="8"/>
+        </front>
+        <body>
+            <gap reason="sampling" unit="pages" quantity="40"/>
+            <pb xml:id="page_49" n="283"/>
+            <div n="2" type="chapter">
+                <head rend="align-center space"><lb/>CHAP. II. </head>
+                <head type="sub" rend="italic align-center space"><lb/>Rules of Diet in the
+                    different <w part="I">Conſtitu-</w><lb/><w part="F">tions</w> of Human Bodies. </head>
+                <div type="part">
+                    <head rend="italic align-center space"><lb/>Lax and weak Fibres. </head>
+                    <p rend="indent"><lb/><hi rend="dc(2)">P</hi>Aleneſs, a weak Pulſe, <w part="I"
+                            >Palpita-</w><lb/><w part="F">tions</w> of the Heart, flabby and
+                        <lb/>ſlack Fleſh, Lazineſs, Laſſitude, <w part="I">Bloat-</w><lb/><w
+                            part="F">edness</w>, ſcorbutical Spots are <w part="I">Symp-</w><lb/><w
+                            part="F">toms</w> of weak Fibres. </p>
+                    <p rend="indent"><lb/>Leanneſs is no Sign of weak Fibres, <lb/>for though the
+                        bundle of Fibres which <lb/>conſtitute the Muſcle may be ſmall, <lb/>the
+                        Fibres themſelves may be ſtrong <lb/>and ſpringy. </p>
+                    <p rend="indent"><lb/>Such as have weak Fibres ought <lb/>to avoid all great
+                        Evacuations, <w part="I">eſpe-</w><lb/><w part="F">cially</w> Letting of
+                        Blood, Subſtances <lb/>viſcous, and hard of Digeſtion, a <w part="I"
+                            >ſe-</w><lb/><w part="F">dentary</w> Life, and moiſt Air. </p>
+                    <p rend="indent"><lb/>They ought to take Aliment <w part="I">fre-</w><lb/><w
+                            part="F">quently</w>, in ſmall Quantities, <w part="I">nouriſh-</w><pb
+                            xml:id="page_50" n="284"/>
+                        <lb/><w part="F">ing</w>, and of eaſy Digeſtion, ſuch as <lb/>Milk, Broths
+                        and Jellies of Fleſh <lb/>Meat, Panadas, <hi rend="italic">&amp;c.</hi>
+                        Their Drinks <lb/>ought to be auſtere Wines mix'd <lb/>with Water, or any
+                        Wine mix'd with <lb/>chalybeat Water; and to uſe in their <lb/>Aliment
+                        ſtyptick auſtere Vegetables, <lb/>ſuch as are enumerated No 1, as far
+                        <lb/>as their Stomachs can bear them. </p>
+                </div>
+                <div type="part">
+                    <head rend="italic align-center"><lb/>Too ſtrong and ſpringy Fibres. </head>
+                    <p rend="indent"><lb/>A Body hard, dry, ſcraggy, hairy,<lb/>warm, with firm and
+                        rigid Muſcles, <lb/>a ſtrong Pulſe, Activity and <w part="I"
+                            >Prompt-</w><lb/><w part="F">ness</w> in Animal Actions, are Signs of
+                        <lb/>ſtrong, rigid, and elaſtick Fibres. </p>
+                    <p rend="indent"><lb/>Such Conſtitutions are ſubject to <lb/>inflammatory
+                        Diſtempers. </p>
+                    <p rend="indent"><lb/>They ought to avoid the Diet <w part="I">pro-</w><lb/><w
+                            part="F">per</w> in the contrary State. </p>
+                    <p rend="indent"><lb/>Their Nouriſhment ought to be <lb/>emollient and cooling,
+                        the Pulps, <lb/>Juices, Jellies, Mucilages, and <w part="I">De-</w><lb/><w
+                            part="F">coctions</w> of Vegetables mentioned <pb xml:id="page_51"
+                            n="285"/>
+                        <lb/>No 2. animal Oils, and all things <lb/>which relax and increaſe Fat, <w
+                            part="I">avoid-</w><lb/><w part="F">ing</w> all things ſeaſoned with
+                        Spice <lb/>and Salt: Their Drink, Water, <w part="I">Bar-</w><lb/><w
+                            part="F">ley-Water</w>, Whey; and eſpecially to <lb/>avoid fermented
+                        Spirits, which to <lb/>ſuch are extremely hurtful. </p>
+                    <p rend="indent"><lb/>Bathing in tepid Water is <w part="I">benefi-</w><lb/><w
+                            part="F">cial</w> to ſuch Conſtitutions, and <w part="I">im-</w><lb/><w
+                            part="F">moderate</w> Labour or Excerciſe <w part="I">hurt-</w><lb/><w
+                            part="F">ful</w>. </p>
+                </div>
+                <div type="part">
+                    <head rend="italic align-center"><lb/>Plethorick Conſtitutions. </head>
+                    <p rend="indent"><lb/>The Signs of a Plethorick <w part="I">Con-</w><lb/><w
+                            part="F">ſtitution</w>, or of ſuch as abound with <lb/>laudable animal
+                        Fluids, are evident. </p>
+                    <p rend="indent"><lb/>The Cauſes of it are a good <w part="I">Sto-</w><lb/><w
+                            part="F">mach</w>, nouriſhing Diet, a good <w part="I">Di-</w><lb/><w
+                            part="F">geſtion</w>, little Exerciſe, much Sleep, <lb/>and Suppreſſion
+                        of uſual Evacuations, <lb/>eſpecially Perſpiration; therefore the
+                        <lb/>avoiding theſe, and inducing their <lb/>Contraries, are the proper
+                        Cure. </p>
+                    <p rend="indent"><pb xml:id="page_52" n="286"/><lb/> A plethorick Conſtitution
+                        is <w part="I">ſub-</w><lb/><w part="F">ject</w> to a Stoppage of the <w
+                            part="I">Circula-</w><lb/><w part="F">tion</w>, and conſequently to <w
+                            part="I">Suffoca-</w><lb/><w part="F">tion</w>, Ruptures of the Veſſels,
+                        and <lb/>ſudden Death; therefore it ought to <lb/>be ſpeedily broke by
+                        proper artificial <lb/>Evacuations, and reſtoring the uſual <lb/>natural
+                        ones. </p>
+                    <p rend="indent"><lb/>Long Abſtinence is not proper for <lb/>plethorick
+                        Conſtitutions, for it <w part="I">thick-</w><lb/><w part="F">ens</w> the
+                        Fluids; frequent <w part="I">Blood-let-</w><lb/><w part="F">ting</w>, in
+                        ſmall Quantities, often <w part="I">in-</w><lb/><w part="F">creaſeth</w> the
+                        Force of the Organs of <lb/>Digeſtion, fattens, and increaſeth the
+                        <lb/>Diſtemper. </p>
+                    <p rend="indent"><lb/>They ought to avoid oily and <lb/>nouriſhing Subſtances;
+                        watery <w part="I">Ve-</w><lb/><w part="F">getables</w>, as being leſs <w
+                            part="I">nouriſh-</w><lb/><w part="F">ing</w> than animal Diet, are
+                        proper; <lb/>and Fiſh rather than Fleſh: In a <lb/><hi rend="italic"
+                            >Lent</hi> Diet People commonly fall <w part="I">a-</w><lb/><w part="F"
+                            >way</w>. </p>
+                </div>
+                <div type="part">
+                    <pb xml:id="page_53" n="287"/>
+                    <head rend="italic align-center"><lb/>Sanguineous Conſtitutions. </head>
+                    <p rend="indent"><lb/>Such are known by their <w part="I">Com-</w><lb/><w
+                            part="F">plexion</w>, or Colour of their <w part="I">Counte-</w><lb/><w
+                            part="F">nance</w> and Skin: They are ſubject to <lb/>Hæmorrages,
+                        Inflammations, <w part="I">eſ-</w><lb/><w part="F">pecially</w> of the
+                        Lungs, <w part="I">Impoſtuma-</w><lb/><w part="F">tions</w>, and often to
+                        ſcrophulous <w part="I">Diſ-</w><lb/><w part="F">tempers</w>. </p>
+                    <p rend="indent"><lb/>All things which accelerate the <lb/>Motion of the Blood
+                        are hurtful to <lb/>ſanguineous Conſtitutions, as violent <lb/>Exerciſe and
+                        Watching. </p>
+                    <p rend="indent"><lb/>Acid Subſtances, No 5, eſpecially <lb/>Vinegar, are
+                        uſeful; the copious Uſe <lb/>of Vinegar brings Paleneſs. </p>
+                    <p rend="indent"><lb/>The ſanguineous ought to avoid <lb/>the copious Uſe of all
+                        things that <w part="I">a-</w><lb/><w part="F">bound</w> with an acrimonious
+                        Salt <lb/>and high exalted Oil, as Muſtard, <lb/>Onions, Garlick, Leeks, the
+                        Herbs <lb/>us'd in Seaſoning, mention'd No 6, <lb/>and in general, all
+                        Spices. </p>
+                </div>
+                <div type="part">
+                    <pb xml:id="page_54" n="288"/>
+                    <head rend="italic align-center"><lb/>Conſtitutions ſubject to Acidity. </head>
+                    <p rend="indent"><lb/>Sour Belchings, a craving <w part="I">Appe-</w><lb/><w
+                            part="F">tite</w> ſometimes of unuſual things, as <lb/>in the Caſe of
+                        the Green-Sickneſs, <lb/>Colical Pains, dry Gripes, change of <lb/>the
+                        colour of the Bile from Yellow <lb/>towards Green, a ſour Smell in the
+                        <lb/>Excrements and Sweat, paleneſs of <lb/>the Skin, lowneſs of the Pulſe,
+                        and <lb/>ſome ſort of Eruptions of the Skin, <lb/>are the common Signs of
+                        ſuch a <lb/>Conſtitution. </p>
+                    <p rend="indent"><lb/>The chief Seat of Acidity is in <lb/>the Stomach and
+                        Inteſtines, from <lb/>whence it will ſometimes paſs into <lb/>the Blood, and
+                        other Juices. </p>
+                    <p rend="indent"><lb/>Such ought to abſtain from the <lb/>copious uſe of acid
+                        alimentary <w part="I">Sub-</w><lb/><w part="F">ſtances</w>, mention'd No 5,
+                        they ought <lb/>not to eat much Bread, nor take great <lb/>Quantities of
+                        mealy Subſtances, nor <lb/>drink much of fermented Liquor <lb/>eſpecially
+                        ſour and thin Wines. </p>
+                    <p rend="indent"><pb xml:id="page_55" n="289"/>
+                        <lb/>Their Diet ought to be rather of <lb/>animal Subſtances than vegetable:
+                        <lb/>The Fleſh of thoſe Animals which <lb/>live upon other Animals is moſt
+                            <w part="I">an-</w><lb/><w part="F">ti-acid</w>, as ſeveral Birds, and
+                        Water-<lb/>Fowl; tho' thoſe are offenſive to the <lb/>Stomach ſometimes, by
+                        reaſon of <lb/>their Oilineſs. Vegetable and <w part="I">ani-</w><lb/><w
+                            part="F">mal</w> Oils are often agreeable to ſuch <lb/>Stomachs, as
+                        Almonds, Piſtachos, <lb/>Cream, Butter, Marrow. </p>
+                    <p rend="indent"><lb/>Their Diet ought to conſiſt, in <lb/>general, of
+                        Subſtances mentioned <lb/>No 4. </p>
+                    <p rend="indent"><lb/>Water or Wine not ſour or thin, <lb/>is their proper
+                        Drink. </p>
+                    <p rend="indent"><lb/>They ought to uſe much Labour <lb/>or Exerciſe, for
+                        labouring People have <lb/>commonly a good Digeſtion, and <lb/>ſubdue the
+                        Acidity of their <w part="I">Ali-</w><lb/><w part="F">ment</w>. </p>
+                    <p rend="indent"><lb/>Acidity in the ſucking Infant is to <lb/>be cured by an
+                        alkaline Diet in the <lb/>Nurſe. </p>
+                    <p rend="indent"><pb xml:id="page_56" n="290"/>
+                        <lb/>To know whether Eruptions of <lb/>the Skin come from an acid or <w
+                            part="I">alka-</w><lb/><w part="F">line</w> Cauſe, one muſt attend to
+                        the <lb/>previous Diet and the concomitant <lb/>Symptoms; (Children, by
+                        eating <w part="I">un-</w><lb/><w part="F">ripe</w> Fruit often, have
+                        Eruptions <w part="I">up-</w><lb/><w part="F">on</w> their Skin) the Lentor,
+                        itching <lb/>Colour, and State of ſuch Eruptions, <lb/>not inflammatory, nor
+                        tending to <lb/>Suppuration, point rather to an acid <lb/>Cauſe, and the
+                        Succeſs of the Cure <lb/>often demonſtrates the ſame, ſuch <lb/>being often
+                        heal'd by animal <w part="I">alka-</w><lb/><w part="F">line</w> Salts. </p>
+                </div>
+                <div type="part">
+                    <head rend="italic align-center"><lb/>Conſtitutions abounding with a <w part="I"
+                            >ſpon-</w><lb/><w part="F">taneous</w> Alkali. </head>
+                    <p rend="indent"><lb/>This Conſtitution is more natural <lb/>to Human Bodies,
+                        becauſe all animal <lb/>Subſtances are alkaleſcent. </p>
+                    <p rend="indent"><lb/>Heat, Thirſt, hot nidoroſe <w part="I">Belch-</w><lb/><w
+                            part="F">ings</w>, Foulneſs of the Tongue and <w part="I">Pa-</w><lb/><w
+                            part="F">late</w>, a bitter and hot Taſte in the <lb/>Mouth, Sickneſs,
+                        Loathing, bilious <pb xml:id="page_57" n="291"/>
+                        <lb/>Vomitings, Stools with a cadaverous <lb/>Smell, Pains in the Belly,
+                        with Heat, <lb/>are Symptoms of an alkaline State <lb/>of the Humours in the
+                        Stomach and <lb/>Bowels. </p>
+                    <p rend="indent"><lb/>Such a State diſpoſeth the <w part="I">Hu-</w><lb/><w
+                            part="F">mours</w> of the whole Body to Heat, <lb/>Inflammations, and
+                        Putrefaction, <w part="I">hin-</w><lb/><w part="F">ders</w> Nutrition, and
+                        often cauſeth <lb/>Eruptions on the Skin, dark, livid, <lb/>lead-colour'd
+                        and gangrenous, and <lb/>what is commonly called the hot <lb/>Scurvy. </p>
+                    <p rend="indent"><lb/>Such Conſtitutions ought to avoid <lb/>alkaline
+                        Subſtances, mentioned No 4, <lb/><hi rend="italic">viz.</hi> an animal Diet,
+                        eſpecially Fat, <lb/>Spices, and all Vegetables which <w part="I"
+                            >a-</w><lb/><w part="F">bound</w> with an acrimonious Salt and <lb/>high
+                        exalted Oil, and the copious <lb/>uſe of Salts in general; all animal
+                        <lb/>Salts are alkaline; Sea-Salt and Rock-<lb/>Salt, tho' they are of a
+                        mix'd <w part="I">Na-</w><lb/><w part="F">ture</w>, rather increaſe the
+                        Diſeaſe; Salt-<lb/>Petre is the moſt cooling and <w part="I">pro-</w><lb/><w
+                            part="F">per</w>. </p>
+                    <p rend="indent"><pb xml:id="page_58" n="292"/>
+                        <lb/>They ought to uſe plentifully the <lb/>acid Subſtances mentioned No 15,
+                        to <lb/>live much upon Aliments made of <lb/>Grains or mealy Subſtances, to
+                        eat <lb/>much Bread, and ſeaſon much with <lb/>Vinegar; thin Wines, Wine
+                        mix'd <lb/>with Water, Water with Juice of <lb/>Limon, and eſpecially Milk
+                        and <w part="I">Wa-</w><lb/><w part="F">ter</w>, are proper Drinks. </p>
+                    <p rend="indent"><lb/>Thoſe who feel no Inconvenience <lb/>in taking Acids,
+                        ought to take them <lb/>plentifully. </p>
+                    <p rend="indent"><lb/>People of ſuch Conſtitutions ought <lb/>not to uſe violent
+                        Exerciſe, nor long <lb/>Abſtinence, which diſpoſeth to ſuch <lb/>a State,
+                        and after long Abſtinence <lb/>they ought not to eat plentifully; <lb/>they
+                        ought to uſe liquid rather than <lb/>ſolid Aliment. </p>
+                    <p rend="indent"><lb/>Plethorick Conſtitutions are <w part="I">ſub-</w><lb/><w
+                            part="F">ject</w> to fall into this alkaline State of <lb/>the Fluids,
+                        which is more dangerous <lb/>than that which proceeds from <w part="I"
+                            >Aci-</w><lb/><w part="F">dity</w>, for the Bile (which is here <w
+                            part="I">re-</w><lb/><w part="F">dundant)</w> is the ſtrongeſt
+                        Anti-acid, <pb xml:id="page_59" n="293"/>
+                        <lb/>and when it is highly exalted, and <lb/>acrimonious, is capable of
+                        producing <lb/>all the dreadful Symptoms of <w part="I">malig-</w><lb/><w
+                            part="F">nant</w> and peſtilential Fevers, as is <lb/>evident from the
+                        Experiments that <lb/>were made in the Plague of <hi rend="italic"
+                            >Mar-<lb/>ſeilles.</hi> There is nothing corrects the <lb/>Acrimony of
+                        the Bile ſo much as the <lb/>acid Diet above-mentioned; therefore <lb/>one
+                        cannot be too early and quick in <lb/>diſcerning a Tendency to ſuch a State,
+                        <lb/>and obſerving if the Perſon be <w part="I">ple-</w><lb/><w part="F"
+                            >thorick</w>, hot, or dry; if the Air be hot; <lb/>if bilious Fevers
+                        reign; if there be <lb/>any Acrimony in the Fæces, Urine, <lb/>Sweat; or a
+                        yellow; Caſt in the Skin; <lb/>with the Signs above-mentioned, by <lb/>an
+                        early Application of proper <w part="I">Reme-</w><lb/><w part="F">dies</w>,
+                        many dangerous and fatal <w part="I">Di-</w><lb/><w part="F">ſeaſes</w>
+                        might be prevented. </p>
+                </div>
+                <div type="part">
+                    <head rend="italic align-center"><lb/>Phlegmatick Conſtitutions. </head>
+                    <p rend="indent"><lb/>Sickneſs of the Stomach, a Senſe <lb/>of Fulneſs without
+                        eating; Crudities <pb xml:id="page_60" n="294"/><lb/>or Meat remaining in
+                        the Stomach <lb/>undigeſted, Dejection of Appetite, <lb/>Wind coming
+                        upwards, but <w part="I">eſpecial-</w><lb/><w part="F">ly</w> tough Phlegm
+                        frequently rejected <lb/>by Vomiting, Inflations and <w part="I"
+                            >Tu-</w><lb/><w part="F">mors</w> of the Belly (ſometimes ſhort
+                        <lb/>Breath) and Paleneſs, are Signs of a <lb/>phlegmatick Conſtitution;
+                        when a <lb/>Child grows pale, and his Belly ſwells, <lb/>as happens to thoſe
+                        that are rickety, <lb/>there is certainly tough Phlegm in <lb/>the
+                        Inteſtines, which commonly ſhuts <lb/>up the Mouths of the Lacteals, and
+                        <lb/>hinders the Nouriſhment from <w part="I">paſ-</w><lb/><w part="F"
+                            >ſing</w>: Perſons of ſuch Conſtitutions <lb/>ought to avoid mealy
+                        Subſtances <w part="I">un-</w><lb/><w part="F">fermented</w>, unripe Fruits,
+                        and all <lb/>viſcous Nouriſhment; they ought not <lb/>to let Blood, except
+                        upon urgent <lb/>Occaſions, nor provoke Sweat, which <lb/>thickens the
+                        Humours. </p>
+                    <p rend="indent"><lb/>Their Diet ought to be alkaleſcent, <lb/>of Subſtances
+                        mentioned No 4, <w part="I">be-</w><lb/><w part="F">cauſe</w> whatever
+                        brings them into an <lb/>alkaline State, is a proper Cure for <pb
+                            xml:id="page_61" n="295"/>
+                        <lb/>the Diſeaſe; therefore ſoapy <w part="I">Sub-</w><lb/><w part="F"
+                            >ſtances</w>, which conſiſt of a pungent <lb/>Salt and volatile Oil,
+                        Spices, Salt, <lb/>Garlick, Onions, Leeks, and the <lb/>warm Vegetables us'd
+                        in Seaſoning, <lb/>Thyme, Roſemary, Savory, Baſil, <lb/>Marjoram, and in
+                        general, every <lb/>thing which exalts the Bile; for <w part="I"
+                            >bi-</w><lb/><w part="F">lious</w> and phlegmatick Conſtitutions
+                        <lb/>are oppoſite; and even Children ſo <lb/>diſeas'd ought to uſe a warmer
+                        Diet, <lb/>than what ſeems proper to their Age <lb/>without it. </p>
+                    <p rend="indent"><lb/>Phlegmatick Perſons ought to drink <lb/>fermented Liquors
+                        and generous <lb/>Wines, ſuch as put the Blood in a <lb/>vigorous Motion.
+                        Warm Water <w part="I">diſ-</w><lb/><w part="F">ſolves</w> Phlegm, but it
+                        relaxeth too <lb/>much. </p>
+                </div>
+                <div type="part">
+                    <head rend="italic align-center"><lb/>Thickneſs of Blood. </head>
+                    <p rend="indent"><lb/>Thirſt, Leanneſs, Exceſs of <w part="I">ani-</w><lb/><w
+                            part="F">mal</w> Secretions, as of Urine, Sweat, <lb/>liquid Dejections,
+                        too ſtrong a <w part="I">Per-</w><pb xml:id="page_62" n="296"/><lb/><w
+                            part="F">ſpiration</w>, are Signs and Effects of <lb/>too great Thinneſs
+                        of Blood. </p>
+                    <p rend="indent"><lb/>For ſuch, the Diet preſcrib'd in <lb/>Debility or Weakneſs
+                        of Fibres, is <lb/>uſeful; Milk boil'd with Grains, <w part="I"
+                            >eſ-</w><lb/><w part="F">pecially</w> Rice, rather ſolid than liquid
+                        <lb/>Aliment, and auſtere Wines for <lb/>Drink. </p>
+                </div>
+                <div type="part">
+                    <head rend="italic align-center"><lb/>Oily or fat Conſtitutions. </head>
+                    <p rend="indent"><lb/>Fat People ought to eat and ſleep <lb/>little, and uſe
+                        much Exerciſe, in <lb/>which the Cure chiefly conſiſts. </p>
+                    <p rend="indent"><lb/>Whatever heats moderately, <w part="I">ſti-</w><lb/><w
+                            part="F">mulating</w> Subſtances abounding with <lb/>a pungent acrid
+                        Salt, as Muſtard, <lb/>Horſe-Radiſhes, Garlicks, Onions, <lb/>Leeks, Spices,
+                        and the aromatick <lb/>Plants us'd in Seaſoning, Saffron, <lb/>carminative
+                        Seeds, Meats high <w part="I">ſea-</w><lb/><w part="F">ſon'd</w> with Salt,
+                        Pepper and Vinegar, <lb/>are all proper, and diſſolve Fat; they <lb/>have
+                        only one Inconvenience, that <lb/>they create Thirſt, and great <w part="I"
+                            >Quan-</w>
+                        <pb xml:id="page_63" n="297"/>
+                        <lb/><w part="F">tities</w> of Liquids increaſe the Diſeaſe, <lb/>by
+                        diluting and relaxing the Solids; <lb/>Salt is a great Diſſolver of Fat. </p>
+                    <p rend="indent"><lb/>Fat People ought to avoid oily <lb/>Nouriſhment; but
+                        Soaps, which <w part="I">con-</w><lb/><w part="F">ſiſt</w> of Oil and Salt,
+                        are proper, <w part="I">be-</w><lb/><w part="F">cauſe</w> they are
+                        reſolvent; therefore <lb/>Honey, Sugar, and ripe Garden-Fruits <lb/>are
+                        uſeful. </p>
+                    <p rend="indent"><lb/>Some of the aſtringent Subſtances, <lb/>mentioned No 1,
+                        are uſeful, becauſe <lb/>their Fibres are commonly too lax. </p>
+                    <p rend="indent"><lb/>Whatever promotes Perſpiration, <lb/>and therefore
+                        Frictions of the Skin, <lb/>are uſeful. </p>
+                    <p rend="indent"><lb/>Their Drink ought to be thin <lb/>Wines; Coffee and Tea,
+                        as they <w part="I">di-</w><lb/><w part="F">lute</w> and ſtimulate
+                        moderately, are <lb/>uſeful; great Quantities of oily <w part="I"
+                            >fer-</w><lb/><w part="F">mented</w> Liquors increaſe Fat; mere
+                        <lb/>Water relaxeth too much; moiſt Air <lb/>is hurtful to fat People, by
+                        relaxing <lb/>the Fibres, and ſtopping <w part="I">Perſpira-</w><lb/><w
+                            part="F">tion</w>. </p>
+                </div>
+                <div type="part">
+                    <pb xml:id="page_64" n="298"/>
+                    <head rend="italic align-center"><lb/>Melancholy or atrabilarian Conſtitutions. </head>
+                    <p rend="indent"><lb/>A Tendency to this is known by <lb/>Darkneſs or Lividity
+                        of Countenance, <lb/>Dryneſs of the Skin, Leanneſs, a <lb/>quick penetrating
+                        Genius, a ſlow <lb/>Pulſe, and Reſpiration, Obſtruction <lb/>of the Belly,
+                        and too great <w part="I">Applica-</w><lb/><w part="F">tion</w> to one
+                        Object. </p>
+                    <p rend="indent"><lb/>To ſuch, all things which heat <lb/>and promote too great
+                        a Perſpiration, <lb/>as all Subſtances that abound with an <lb/>acrimonious
+                        Salt and volatile Oil, <lb/>are hurtful, which the Reader may <lb/>ſee in
+                        the Firſt Chapter. <w part="I">Nouriſh-</w><lb/><w part="F">ment</w> viſcous
+                        and hard of Digeſtion, <lb/>and nothing more than ſalted and <lb/>ſmok'd
+                        Fleſh or Fiſh; in general, <lb/>every thing that thickens the Fluids,
+                        <lb/>or reduceth them to a pitchy <w part="I">Con-</w><lb/><w part="F"
+                            >dition</w>. </p>
+                    <p rend="indent"><lb/>Aſtringent auſtere Aliment, <w part="I">men-</w><lb/><w
+                            part="F">tion'd</w> No 1, and auſtere Wines, are <lb/>hurtful. </p>
+                    <p rend="indent"><pb xml:id="page_65" n="299"/>
+                        <lb/>Too cold and too hot Air are both <lb/>hurtful, for in ſuch States of
+                        Air, <lb/>melancholy Perſons are always worſt. </p>
+                    <p rend="indent"><lb/>Diluting is beneficial, <w part="I">eſpecial-</w><lb/><w
+                            part="F">ly</w> with Water impregnated with <lb/>ſome penetrating Salt,
+                        Subſtances <lb/>which cool, relax the Belly, and <lb/>reſolve the Bile;
+                        Barley-Water, <lb/>Whey, ripe Garden Fruits, emollient <lb/>Pot-Herbs,
+                        eſpecially Lettuce, <w part="I">Ci-</w><lb/><w part="F">chory</w>,
+                        Dandelion, and Honey moſt <lb/>of all. </p>
+                    <p rend="indent"><lb/>There is one Caution to be <w part="I">ob-</w><lb/><w
+                            part="F">ſerv'd</w>, That the Diet ought to be <lb/>oppoſite to the
+                        particular Acrimony <lb/>which occaſions the Diſeaſe; for if <lb/>it
+                        proceeds from too great Acidity, <lb/>in ſuch a Caſe an animal Diet,
+                        <lb/>Broths made of Fleſh-Meat, and <lb/>even Eggs, are proper; if the Cauſe
+                        <lb/>be alkaline, the contrary Method is <lb/>uſeful. </p>
+                </div>
+                <div type="part">
+                    <pb xml:id="page_66" n="300"/>
+                    <head rend="italic align-center"><lb/>Faulty Motion of the Fluids. </head>
+                    <p rend="indent"><lb/>The Blood and other Fluids of a <lb/>Human Body, are often
+                        not only <lb/>peccant in their Qualities, but <w part="I">Mo-</w><lb/><w
+                            part="F">tion</w>, which may be either too flow, <lb/>too quick, or in
+                        ſome of the Veſſels <lb/>totally obſtructed. </p>
+                    <p rend="indent"><lb/>Thoſe who have too ſlow a <w part="I">Circu-</w><lb/><w
+                            part="F">lation</w>, are to be conſider'd, as in the <lb/>Caſe of
+                        phlegmatick and fat People; <lb/>and thoſe who have too quick a
+                        <lb/>Circulation are to be conſider'd, as <lb/>in the Caſe of ſuch as are
+                        bilious, <lb/>hot, and alkaline; and the reſpective <lb/>Diets are proper. </p>
+                    <p rend="indent"><lb/>In Obſtructions of the Veſſels <w part="I">in-</w><lb/><w
+                            part="F">flammatory</w>, the Aliment ought to <lb/>be cool, ſlender,
+                        thin, diluting, <w part="I">a-</w><lb/><w part="F">voiding</w> the copious
+                        uſe of <w part="I">Subſtan-</w><lb/><w part="F">ces</w> of a ſaline Quality,
+                        which <w part="I">ſti-</w><lb/><w part="F">mulate</w>, and conſequently may
+                            <w part="I">in-</w><lb/><w part="F">creaſe</w> the Inflammations, unleſs
+                        in <lb/>ſome Caſes where there is hopes by <pb xml:id="page_67" n="301"/>
+                        <lb/>volatile Salts to attenuate the Fluid, <lb/>and remove the Obſtruction,
+                        or <lb/>where the Intention is to produce a <lb/>Suppuration; but it is
+                        certain that <lb/>any ſtimulating Subſtance, when it <lb/>does not remove
+                        the Obſtruction, <lb/>increaſeth the Inflammation. </p>
+                    <p rend="indent"><lb/>In cold Tumors, where the <w part="I">In-</w><lb/><w
+                            part="F">tention</w> is to diſſipate and attenuate, <lb/>the Diet ought
+                        to be diluting and <lb/>ſtimulating, conſiſting of ſuch <w part="I"
+                            >Sub-</w><lb/><w part="F">ſtances</w> as are of a ſoapy Nature, that
+                        <lb/>is, of Salt and Oil. </p>
+                </div>
+                <div type="part">
+                    <head rend="italic align-center"><lb/>Wounds. </head>
+                    <p rend="indent"><lb/>The Aliment of ſuch as have freſh <lb/>Wounds ought to be
+                        mild, that is, <lb/>without ſtimulating or ſaline <w part="I"
+                            >Sub-</w><lb/><w part="F">ſtances</w>, of eaſy Digeſtion, of ſuch
+                        <lb/>ſort as keeps the Humours from <w part="I">Pu-</w><lb/><w part="F"
+                            >trefaction</w>, and renders them oily and <lb/>balſamick. </p>
+                    <p rend="indent"><lb/>When a Suppuration is to be <w part="I">pro-</w><lb/><w
+                            part="F">moted</w>, the Aliment ought to be <pb xml:id="page_68" n="302"/>
+                        <lb/>more copious and warm, becauſe <lb/>ſuch induceth a Putrefaction. </p>
+                    <p rend="indent"><lb/>When a Sore is healing, the <w part="I">Pa-</w><lb/><w
+                            part="F">tient</w> is in ſome meaſure in the Caſe <lb/>of an Infant that
+                        is growing, whoſe <lb/>Aliment ought to be ſuch as lengthens <lb/>the Fibres
+                        without Rupture, for it is <lb/>by ſuch an Elongation of the Fibres
+                        <lb/>that Sores heal; and indeed the <w part="I">Chi-</w><lb/><w part="F"
+                            >rurgeon</w> ought to vary the Diet of <lb/>his Patient as he finds the
+                        Fibres <lb/>lengthen too much, are too flaccid <lb/>and produce Fungus's, or
+                        as they <lb/>harden and produce Calloſities; in <lb/>the firſt Caſe Wine and
+                        ſpirituous <lb/>Liquors are uſeful, in the laſt <w part="I">hurt-</w><lb/><w
+                            part="F">ful</w>. </p>
+                    <p rend="indent"><lb/>Women in Childbed are in the <lb/>Caſe of Perſons wounded.
+                    </p>
+                </div>
+            </div>
+            <div n="3" type="chapter">
+                <pb xml:id="page_69" n="303"/>
+                <head rend="align-center space"><lb/>CHAP. III. </head>
+                <head type="sub" rend="align-center space"><lb/>Of Acute Diſeaſes. </head>
+                <div type="part">
+                    <head rend="italic align-center"><lb/>Fevers, with their various Symptoms. </head>
+                    <p rend="indent"><lb/><hi rend="italic"><hi rend="dc(2)">R</hi>IGOR,
+                            Coldneſs.</hi> A right <w part="I">Regi-</w><lb/><w part="F">men</w>
+                        during the Rigor or cold <lb/>Fit in the beginning of a Fever, is <lb/>of
+                        great Importance, and Miſtakes <lb/>of dangerous Conſequence: A long
+                        <lb/>continued Rigor is a Sign of a <lb/>ſtrong Diſeaſe, and is in it ſelf
+                        an. <lb/>Approach towards Death; during <lb/>the Rigor, the Circulation is
+                        leſs <lb/>quick, and the Blood actually <w part="I">ſtag-</w><lb/><w
+                            part="F">nates</w> in the Extremities, and <w part="I">preſ-</w><lb/><w
+                            part="F">ſing</w> upon the Heart creates great <lb/>Anxieties, and may
+                        produce <w part="I">Con-</w><lb/><w part="F">cretions</w> about the Heart,
+                        and in <lb/>other Parts of the Body; therefore a <lb/>Rigor increaſeth an
+                        Inflammation. <lb/>Thoſe who die of Quartan Fevers, <lb/>die in the cold
+                        Fit; and indeed there <pb xml:id="page_70" n="304"/>
+                        <lb/>is no Miſchief but what may <w part="I">pro-</w><lb/><w part="F"
+                            >ceed</w> from a Rigor of long <w part="I">Dura-</w><lb/><w part="F"
+                            >tion</w>. </p>
+                    <p rend="indent"><lb/>In ſuch Rigors, all warm Cordials <lb/>and ſtimulating
+                        Subſtances are <w part="I">im-</w><lb/><w part="F">proper</w>, for the firſt
+                        acting with <lb/>force upon the right Ventricle of the <lb/>Heart, may drive
+                        the Blood with <lb/>too much Force through the Lungs; <lb/>and ſtimulating
+                        Subſtances, by <w part="I">con-</w><lb/><w part="F">ſtringing</w> the
+                        Veſſels, often increaſe <lb/>the Symptom. </p>
+                    <p rend="indent"><lb/>In ſuch a Rigor, nothing is more <lb/>proper than Water,
+                        which dilutes and <lb/>relaxes at the ſame time, and will <lb/>ſooner
+                        terminate the cold Fit, and <lb/>throw the Patient into a Sweat, than
+                        <lb/>the warmeſt Cordial; if a very ſmall <lb/>Quantity of Rheniſh Wine be
+                        mix'd <lb/>with the Water, it will be ſtill more <lb/>effectual: In this
+                        Caſe ſtrong <w part="I">Fric-</w><lb/><w part="F">tions</w> of the
+                        Extremities relieve. </p>
+                    <p rend="indent"><lb/><hi rend="italic">Anxieties.</hi> In Anxieties which <w
+                            part="I">at-</w><lb/><w part="F">tend</w> Fevers, when the cold Fit is
+                        <lb/>over, a warmer Regimen may be <pb xml:id="page_71" n="305"/>
+                        <lb/>allow'd; and becauſe Anxieties often <lb/>happen by Spaſms from Wind,
+                        Spices <lb/>are uſeful. </p>
+                    <p rend="indent"><lb/>In thoſe Anxieties, Soapy <w part="I">Sub-</w><lb/><w
+                            part="F">ſtances</w> which diſſolve the Blood, are <lb/>indicated; ripe
+                        Fruits; ſome of the <lb/>lacteſcent Plants, as Lettuce, Endive, <lb/><hi
+                            rend="italic">&amp;c.</hi> and eſpecially Honey, have this <lb/>Quality. </p>
+                    <p rend="indent"><lb/><hi rend="italic">Thirſt.</hi> In Thirſt attending Fevers,
+                        <lb/>Liquors ſhould not be drank quite <lb/>cold; for cold Liquors, by <w
+                            part="I">conſtring-</w><lb/><w part="F">ing</w> the Glands of the Palate
+                        and <lb/>Throat, do not quench Thirſt ſo <lb/>well as Liquors moderately
+                        warm: <lb/>In this Caſe ſubacid Liquors ſhould be <lb/>drank plentifully;
+                        all Salts increaſe <lb/>Thirſt, except Nitre, and dulcify'd <w part="I"
+                            >Spi-</w><lb/><w part="F">rit</w> of Nitre mix'd with Water, is very
+                        <lb/>proper in this Caſe; ſo are <w part="I">Barley-</w><lb/><w part="F"
+                            >Water</w> and Emulſions, except in great <lb/>Weakneſs and Flatulencies
+                        of the <w part="I">Sto-</w><lb/><w part="F">mach</w>, in which Caſe Water
+                        mix'd <lb/>with a ſmall Quantity of Rheniſh <lb/>Wine, is beſt of all. </p>
+                    <p rend="indent">
+                        <pb xml:id="page_72" n="306"/>
+                    </p>
+                    <p rend="indent"><lb/><hi rend="italic">Sickneſs, Vomiting.</hi> This is one of
+                        <lb/>the moſt troubleſome Symptoms <w part="I">at-</w><lb/><w part="F"
+                            >tending</w> a Fever, becauſe it renders <lb/>the Patient incapable of
+                        taking any <lb/>thing. </p>
+                    <p rend="indent"><lb/>This Symptom is often prevented <lb/>by giving a Vomit; or
+                        cur'd by <w part="I">pro-</w><lb/><w part="F">moting</w> the Vomiting for a
+                        while by <lb/>tepid Water. </p>
+                    <p rend="indent"><lb/>During the Symptom, acid <w part="I">Li-</w><lb/><w
+                            part="F">quors</w>, and ev'n ſuch as are auſtere <lb/>and aſtringent,
+                        are indicated, becauſe <lb/>ſuch ſtrengthen the Fibres of the <lb/>Stomach;
+                        and indeed Nature directs <lb/>Patients to ſuch a Diet, for they <w part="I"
+                            >co-</w><lb/><w part="F">vet</w> ſubacid Liquors, and abhor fat <lb/>and
+                        oily things. </p>
+                    <p rend="indent"><lb/>Diluting, and ſometimes relaxing <lb/>the Belly, and
+                        carrying the bilious <lb/>Salts downwards, often cures this <lb/>Symptom. </p>
+                    <p rend="indent"><lb/>Attention is to be given to the <lb/>Appetites of
+                        Patients, in this and <lb/>many other Caſes, who have <w part="I"
+                            >ſome-</w><lb/><w part="F">times</w> coveted odd things which <pb
+                            xml:id="page_73" n="307"/><lb/>have reliev'd them, as Salt, <w part="I"
+                            >Vine-</w><lb/><w part="F">gar</w>, <hi rend="italic">&amp;c.</hi>
+                    </p>
+                    <p rend="indent"><lb/>Vomiting, from a bilious Cauſe, <lb/>is cur'd by ſubacid
+                        Liquors; <w part="I">Vomit-</w><lb/><w part="F">ing</w>, from ſome putrid
+                        Cauſe, by <lb/>Salts of all Kinds; in ſuch a Caſe, <lb/>Water-Gruel with
+                        Cream of Tartar, <lb/>Rheniſh Wine and Water, Jelly of <lb/>Currants,
+                        Marmalade of Quinces, <lb/>Sorrel boil'd in Broths well skimm'd <lb/>from
+                        Fat, are beneficial. </p>
+                    <p rend="indent"><lb/>If the Vomiting comes from a <lb/>phlegmatick Cauſe,
+                        Spices, and <w part="I">bit-</w><lb/><w part="F">ter</w> things will
+                        relieve. The <w part="I">Counter-</w><lb/><w part="F">poiſon</w> muſt be
+                        adapted to the Cauſe; <lb/>for Example, in Poiſon from <w part="I"
+                            >Subli-</w><lb/><w part="F">mated</w> Corroſive, and Arſenick. </p>
+                    <p rend="indent"><lb/>In the Firſt, alkaline Subſtances; <lb/>in the Second,
+                        oily Subſtances are <lb/>proper; in both, diluent. </p>
+                    <p rend="indent"><lb/>It is eaſy to judge of the Cauſe by <lb/>the Subſtances
+                        which the Patient <lb/>throws up. </p>
+                    <p rend="indent">
+                        <pb xml:id="page_74" n="308"/>
+                    </p>
+                    <p rend="indent"><lb/>Whether Vomit may be ſafely <lb/>or properly given, muſt
+                        be judg'd <lb/>by the Circumſtances; if there be <lb/>any Symptoms of an
+                        Inflammation <lb/>of the Stomach, a Vomit is <w part="I">ex-</w><lb/><w
+                            part="F">tremely</w> dangerous. </p>
+                    <p rend="indent"><lb/><hi rend="italic">Wind</hi> and <hi rend="italic"
+                            >Spaſms</hi> are occaſion'd by <lb/>the feveriſh Heat expanding the <w
+                            part="I">ae-</w><lb/><w part="F">rial</w> Particles in the Fluids. </p>
+                    <p rend="indent"><lb/>Whatever is anodyne and quiets <lb/>Convulſions, and what
+                        abates the <lb/>Heat, relieves this Symptom. </p>
+                    <p rend="indent"><lb/><hi rend="italic">Weakneſs,</hi> or the Impotence of <w
+                            part="I">ex-</w><lb/><w part="F">erciſing</w> animal Motion which
+                        attends <lb/>Fevers, proceeds from too great <w part="I">Ful-</w><lb/><w
+                            part="F">ness</w> in the beginning, and too great <lb/>Inanition in the
+                        latter end of the <lb/>Diſeaſe; for whatever ſtops or <w part="I"
+                            >re-</w><lb/><w part="F">tards</w> the Circulation in the ſmalleſt
+                        <lb/>Veſſels, eſpecially thoſe of the Brain <lb/>(which either of theſe
+                        Cauſes will do) <lb/>produceth this Symptom. Thoſe <lb/>two Cauſes demand
+                        different <w part="I">Me-</w><lb/><w part="F">thods</w>, in the firſt
+                        emptying and <w part="I">dilu-</w>
+                        <pb xml:id="page_75" n="309"/>
+                        <lb/><w part="F">ting</w>; in the latter, a more plentiful <lb/>Nouriſhment,
+                        the uſe of Wine <w part="I">dilu-</w><lb/><w part="F">ted</w> with Water,
+                        and Spices in ſmall <lb/>Quantities, Jellies, Broths, the <w part="I"
+                            >alka-</w><lb/><w part="F">leſcent</w> Quality of which may be <w
+                            part="I">cor-</w><lb/><w part="F">rected</w> with ſome acid, unleſs
+                        there <lb/>be Signs of Acidity, and in that Caſe <lb/>the Diet ought to be
+                        contrary to the <lb/>Cauſe of the Symptom; Viper-<lb/>Broth is both
+                        anti-acid and nouriſhing. </p>
+                    <p rend="indent"><lb/>In Debility, from great Loſs of <lb/>Blood, Wine, and all
+                        Aliment that <lb/>is eaſily aſſimulated, or turn'd into <lb/>Blood, is
+                        proper; Blood is required <lb/>to make Blood; a ſmall Quantity of <lb/>Blood
+                        brings the Patient into danger <lb/>of a Dropſy. </p>
+                    <p rend="indent"><lb/>Frictions of the extreme Parts <w part="I">re-</w><lb/><w
+                            part="F">lieve</w> Weakneſſes, as they promote <lb/>the Flux of the
+                        Juices and Spirits in <lb/>the Joints and Limbs. </p>
+                    <p rend="indent"><lb/>Fat People are moſt ſubject to this <lb/>Symptom of
+                        Weakneſs in Fevers, <lb/>becauſe the Fat, melted by the <w part="I"
+                            >fever-</w><lb/><w part="F">iſh</w> Heat, obſtructs the ſmall Canals,
+                            <pb xml:id="page_76" n="310"/>
+                        <lb/>and conſequently produceth this <lb/>Symptom. This is evident by the
+                        <lb/>great Loſs of Fat ſuch People ſuſtain <lb/>in Fevers. In the latter end
+                        of <w part="I">Fe-</w><lb/><w part="F">vers</w>, ſuch are weak by the Laxity
+                        of <lb/>the Fibres, and the Emptineſs of the <lb/>ſmaller Veſſels; ſuch
+                        therefore muſt <lb/>be treated with particular Care, <hi rend="italic"
+                            >viz,</hi>
+                        <lb/>after due Evacuations, diluting <lb/>ſtrongly both by Drink and
+                        Clyſters, <lb/>avoiding all things oily, and uſing <lb/>Sugar, Honey, and
+                        ripe Fruits. </p>
+                    <p rend="indent"><lb/>Cordials made of ſpirituous <w part="I">Li-</w><lb/><w
+                            part="F">quors</w> are not the beſt Remedies for <lb/>this Debility,
+                        tho' they increaſe the <lb/>Force of the Heart, and are <w part="I"
+                            >neceſſa-</w><lb/><w part="F">ry</w> ſometimes to keep up the vital
+                        <lb/>Functions, they rather coagulate the <lb/>Fluid; they add Strength to
+                        the Mill, <lb/>but congeal the Stream. Whatever <lb/>makes the Circulation
+                        more free <lb/>through the ſmall Veſſels, is a <w part="I">Cor-</w><lb/><w
+                            part="F">dial</w>. </p>
+                    <p rend="indent"><lb/><hi rend="italic">Heat;</hi> the Degree of which may
+                        <lb/>be known by the Thermoſcope, the <pb xml:id="page_77" n="311"/>
+                        <lb/>Senſation of the Patient, the <w part="I">Intenſe-</w><lb/><w part="F"
+                            >ness</w> of the red Colour of the Urine, <lb/>the Sizeneſs of the
+                        Blood, the <w part="I">Diſſi-</w><lb/><w part="F">pation</w> of the fluid
+                        Parts, which <lb/>renders it thicker; the Hardneſs, <lb/>Strength, and
+                        Frequency of the <lb/>Pulſe, which makes the Friction the <lb/>ſtronger, to
+                        which the Heat is <w part="I">pro-</w><lb/><w part="F">portional</w>, the
+                        bad Diſpoſition of the <lb/>Humour, and the dry Temperament <lb/>of the
+                        Body. </p>
+                    <p rend="indent"><lb/>Feveriſh Heat is moderated by <lb/>Blood-letting, by
+                        muſcular Reſt, by <lb/>moderate Ligatures which compreſs the <lb/>Veins
+                        only, and often removed from <lb/>Joint to Joint, by a mechanical <w
+                            part="I">Rea-</w><lb/><w part="F">ſon</w>, retard the Circulation; of
+                        ſuch <lb/>ſort is dry Cupping, bathing the <lb/>lower Parts, watery Liquors
+                        for Drink, <lb/>not cold, but tepid; ſubacid, as <w part="I">Jel-</w><lb/><w
+                            part="F">ly</w> of Currants diſſolved in tepid <w part="I"
+                            >wa-</w><lb/><w part="F">tery</w> Liquors; Decoctions of mealy
+                        <lb/>Subſtances acidulated, Subſtances <w part="I">a-</w><lb/><w part="F"
+                            >nodyne</w>, Subſtances which diſſolve <lb/>Concretions, as Sugar,
+                        Honey, and <pb xml:id="page_78" n="312"/>
+                        <lb/>the ſimple Oxymel, often uſed by <lb/><hi rend="italic"
+                            >Hippocrates,</hi> plentiful diluting, and <lb/>reſtoring as much Water
+                        to the Blood <lb/>as is diſſipated by the Heat; all <w part="I"
+                            >de-</w><lb/><w part="F">mulcent</w> and relaxing Subſtances,
+                        <lb/>cooling the Air in the Room, <w part="I">open-</w><lb/><w part="F"
+                            >ing</w> the Curtains, and removing too <lb/>thick Bed-clothes; all
+                        ſtimulating and <lb/>ſlyptick Subſtances to be avoided, <w part="I"
+                            >be-</w><lb/><w part="F">cauſe</w> they increaſe the Force of the
+                        <lb/>ſolid Parts. </p>
+                    <p rend="indent"><lb/><hi rend="italic">Delirium.</hi> Too great Alacrity and
+                        <lb/>Promptneſs in Anſwering, eſpecially in <lb/>Perſons naturally of
+                        another <w part="I">Tem-</w><lb/><w part="F">per</w>, is a Sign of an
+                        approaching <w part="I">De-</w><lb/><w part="F">lirium</w>: In a feveriſh
+                        Delirium there <lb/>is a ſmall Inflammation of the Brain; <lb/>therefore any
+                        thing which increaſeth <lb/>the Circulation in the lower Parts, <lb/>and
+                        diminiſheth the Preſſure on the <lb/>Brain, is beneficial, as immerging
+                        <lb/>the Feet in warm Water; nothing <lb/>relieves the Head more than the
+                        <lb/>Piles, therefore Suppoſitories of <w part="I">Ho-</w><lb/><w part="F"
+                            >ney</w>, Aloes, and Rock-Salt, ought <pb xml:id="page_79" n="313"
+                        /><lb/>to be try'd, relaxing by emollient <lb/>and watery Subſtances, both
+                        in <lb/>Drink and Clyſters, eſpecially <w part="I">Bar-</w><lb/><w part="F"
+                            >ley-Cream</w> and Barley-Gruel. </p>
+                    <p rend="indent"><lb/><hi rend="italic">Coma Sleepineſs.</hi> A Coma will
+                        <lb/>proceed either from a Preſſure upon <lb/>the Originals of the Nerves,
+                        by <lb/>too great Repletion; or from a <lb/>Penury of Spirits by too great
+                            <w part="I">Ina-</w><lb/><w part="F">nition</w>. </p>
+                    <p rend="indent"><lb/>Old Men are ſubject to Comas by <lb/>the Tenacity of the
+                        Fluids <w part="I">circula-</w><lb/><w part="F">ting</w> in the Brain, which
+                        being <w part="I">re-</w><lb/><w part="F">ſolved</w> by the Fever, obſtruct
+                        the <lb/>ſmall Canals of the Brain: In young <lb/>People it commonly
+                        proceeds from <lb/>Fulneſs, and is beſt cur'd by letting <lb/>Blood, and
+                        relaxing the Belly. The <lb/>Sign of ſuch a Fulneſs is, a red
+                        <lb/>Countenance, and Eyes inflamed; <lb/>if it proceeds from a glutinous
+                        Oil, it <lb/>ought to be attempted to be reſolv'd <lb/>by Water, nitrous
+                        Salts, Soaps, and <lb/>ſubacid Liquors. </p>
+                    <p rend="indent"><lb/><pb xml:id="page_80" n="314"/> People recovering from
+                        Comas, <lb/>muſt take at firſt ſoft Nouriſhment, <lb/>and in ſmall
+                        Quantities. </p>
+                    <p rend="indent"><lb/><hi rend="italic">Watchfulneſs.</hi> This Symptom,
+                        <lb/>which is ſometimes call'd a Coma <lb/>Vigil, often precedes too great
+                            <w part="I">Sleepi-</w><lb/><w part="F">ness</w>, and is perhaps the
+                        moſt <w part="I">ill-bo-</w><lb/><w part="F">ding</w> Symptom of a Fever. </p>
+                    <p rend="indent"><lb/>The Expedients in ſuch a Caſe <lb/>are extreme Care to
+                        keep the <w part="I">Pa-</w><lb/><w part="F">tient</w> from Noiſe, and what
+                        makes <lb/>any ſtrong Impreſſion upon his Senſes, <lb/>ſome of thoſe Helps
+                        us'd in a <w part="I">Deli-</w><lb/><w part="F">rium</w>, becauſe this is an
+                        Approach <w part="I">to-</w><lb/><w part="F">wards</w> it; a moiſt ſoftening
+                        Diet; all <lb/>Preparations of Barley, Emulſions of <lb/>Poppy Seeds, and
+                        Almonds, <w part="I">Ali-</w><lb/><w part="F">ment</w> of ſome lacteſcent
+                        Plants, <w part="I">eſpe-</w><lb/><w part="F">cially</w> Lettuces,
+                        Decoctions of <w part="I">Scor-</w><lb/><w part="F">zonera</w> Roots, Almond
+                        Cream, and <lb/>what is call'd Winter Flummery, <lb/>us'd as Aliment; Tea,
+                        made of <lb/>Cowſlip Flowers, relaxing gently the <lb/>Belly. </p>
+                    <p rend="indent">
+                        <pb xml:id="page_81" n="315"/>
+                    </p>
+                    <p rend="indent"><lb/><hi rend="italic">Boerhaave</hi> propoſes ſome <w part="I"
+                            >mecha-</w><lb/><w part="F">nical</w> Expedients which may perhaps
+                        <lb/>have a good Effect, as a ſoft Noiſe <lb/>of Water diſtilling by Drops
+                        into a <lb/>Baſon, and the Patient trying to <lb/>reckon them. </p>
+                    <p rend="indent"><lb/>The Air perfum'd with the Smell <lb/>of ſoporiferous
+                        Plants, as Poppies, <lb/>Mandrakes, Nightſhade, Bean <w part="I"
+                            >Flow-</w><lb/><w part="F">ers</w>. </p>
+                    <p rend="indent"><lb/>Application of Cloths dipp'd in <lb/>Vinegar to the
+                        Temples. </p>
+                    <p rend="indent"><lb/>Opiats muſt never be given but <lb/>after great
+                        Evacuations. </p>
+                    <p rend="indent"><lb/><hi rend="italic">Convulſions.</hi> It is of the utmoſt
+                        <lb/>Importance to know the Cauſe and <lb/>the Seat of this Diſeaſe, which
+                        is <w part="I">of-</w><lb/><w part="F">ten</w> obſcure. </p>
+                    <p rend="indent"><lb/>In Infants they commonly <w part="I">pro-</w><lb/><w
+                            part="F">ceed</w> from Acidity in the Stomach, <lb/>and are cured by
+                        terreſtrial <w part="I">Abſor-</w><lb/><w part="F">bents</w>; in ſuch indeed
+                        Convulſions <lb/>attending Fevers are not quite ſo <lb/>dangerous. </p>
+                    <p rend="indent">
+                        <pb xml:id="page_82" n="316"/>
+                    </p>
+                    <p rend="indent"><lb/>Convulſions ariſing from ſome <lb/>Acrimony in the
+                        Stomach, or from <lb/>ſomething vellicating a Nerve in its <lb/>Extremity,
+                        and not in its Original <lb/>where it ariſeth from the Brain, are not
+                        <lb/>very dangerous. </p>
+                    <p rend="indent"><lb/>Convulſions which ariſe from great <lb/>Evacuations, as
+                        great Hæmorrages <lb/>attending Fevers, are dangerous. </p>
+                    <p rend="indent"><lb/>Convulſions ariſing from <w part="I">Inflam-</w><lb/><w
+                            part="F">mations</w> of the Membranes of the <lb/>Brain are commonly
+                        fatal: The <lb/>Symptoms attending them are a <lb/>great Heat, a hard Pulſe,
+                        and a <w part="I">De-</w><lb/><w part="F">lirium</w>: The Remedies, and even
+                        <lb/>thoſe from Diet, are to be us'd <w part="I">ac-</w><lb/><w part="F"
+                            >cording</w> to the Seat of the Diſeaſe. </p>
+                    <p rend="indent"><lb/>If from the Stomach, ſuch <w part="I">Ali-</w><lb/><w
+                            part="F">ments</w> as are contrary to the <w part="I">par-</w><lb/><w
+                            part="F">ticular</w> Acrimony, Acid Alkaline, or <lb/>Oily, reſiding
+                        there, as in the Caſe <lb/>of Vomiting. </p>
+                    <p rend="indent"><lb/>If from ſomething impacted in <lb/>the Brain, warm
+                        volatile and ſpicy <lb/>Subſtances will increaſe the Diſeaſe; <pb
+                            xml:id="page_83" n="317"/>
+                        <lb/>in that Caſe, Subſtances which <w part="I">re-</w><lb/><w part="F"
+                            >lax</w> and dilute are proper, eſpecially <lb/>ſuch as open the Belly;
+                        which, <hi rend="italic">See <lb/>in the Firſt Chapter;</hi> and in general,
+                        <lb/>the Regimen preſcrib'd in a Coma, <lb/>or Delirium. </p>
+                    <p rend="indent"><lb/><hi rend="italic">Violent Sweats</hi> proceed from a
+                        <lb/>Laxity of the Veſſels, and too <w part="I">vehe-</w><lb/><w part="F"
+                            >ment</w> a Circulation of the Blood. </p>
+                    <p rend="indent"><lb/>Profuſe Sweats deprive the Blood <lb/>of its moſt fluid
+                        Parts, thicken, and <lb/>often cauſe Obſtructions; it is not<lb/> good
+                        Practice to puſh Sweating <lb/>too much in Fevers, except in ſuch as
+                        <lb/>are peſtilential. </p>
+                    <p rend="indent"><lb/>In profuſe Sweats, Care at leaſt <lb/>ſhould be taken, by
+                        diluting, to <w part="I">re-</w><lb/><w part="F">ſtore</w> the Liquid which
+                        the Blood <lb/>loſeth, and to uſe the Methods <w part="I">ad-</w><lb/><w
+                            part="F">viſed</w> in too great Heat, by taking <lb/>away ſome of the
+                        Coverings of the <lb/>Bed, and admitting of cool Air, <lb/>and uſing a Diet
+                        moderately <w part="I">aſtrin-</w><lb/><w part="F">gent</w>; Wine, Spices,
+                        and ſpirituous <lb/>Liquors, in this Caſe, have often a <pb xml:id="page_84"
+                            n="318"/>
+                        <lb/>good Effect; ſpirituous Liquors <w part="I">thick-</w><lb/><w part="F"
+                            >en</w> the Fluids; Sage is a good <w part="I">Re-</w><lb/><w part="F"
+                            >medy</w> in the Caſe of profuſe Sweats. </p>
+                    <p rend="indent"><lb/><hi rend="italic">A Diarrhœa Looſeness</hi> proves often a
+                        <lb/>dangerous and fatal Symptom in <w part="I">Fe-</w><lb/><w part="F"
+                            >vers</w>, it weakens, excoriates and inflames <lb/>the Bowels,
+                        occaſions Bloody-Fluxes, <lb/>thickens the circulating Juices, and
+                        <lb/>exhauſts the Strength of the Patient; <lb/>notwithſtanding, a critical
+                        Diarrhœa <lb/>is not to be ſtopt, for fear of <w part="I">in-</w><lb/><w
+                            part="F">curring</w> theſe Dangers. </p>
+                    <p rend="indent"><lb/>Attention is to be given to the <lb/>Cauſe of Acidity; it
+                        is to be cur'd <lb/>by Anti-acids; but, as in Fevers, the <lb/>Cauſe is more
+                        frequently alkaline and <lb/>bilious, Acid or four things reſolve, <lb/>and
+                        it happens that oily Subſtances <lb/>by blaſting the Acrimony will do
+                        <lb/>good in Diarrhœas. Oily Subſtances <lb/>of themſelves do not irritate
+                        or <w part="I">pro-</w><lb/><w part="F">voke</w> Diarrhœas, they only
+                        lubricate <lb/>or make the Bowels ſlippery. <w part="I">Diarr-</w><lb/><w
+                            part="F">hœas</w> ariſing from Quantities of Fruit <lb/>are often cur'd
+                        by Emulſions. </p>
+                    <p rend="indent"><pb xml:id="page_85" n="319"/>
+                        <lb/>Vomiting, by evacuating the <w part="I">irri-</w><lb/><w part="F"
+                            >tating</w> Cauſe, often cures ſuch <w part="I">Diar-</w><lb/><w
+                            part="F">rhœas</w>. </p>
+                    <p rend="indent"><lb/>Anodyne Subſtances are proper, <lb/>and generally
+                        ſpeaking, ſolid and dry <lb/>Aliment, rather than liquid. </p>
+                    <p rend="indent"><lb/><hi rend="italic">Inflammatory Eruptions.</hi> In all
+                        <lb/>theſe of any kind whatſoever, as <lb/>Small-Pox, Meazles, Scarlet
+                        Fever, <lb/>Purples, the Intention in Diet <lb/>ought to be, to avoid ſtrong
+                            <w part="I">Sudo-</w><lb/><w part="F">rificks</w>, which puſh out too
+                        great a <lb/>Quantity of the Matter upon the <lb/>Skin; to uſe cooling and
+                        temperate <lb/>Diluents, which keep the Matter <w part="I">flu-</w><lb/><w
+                            part="F">id</w> and moveable, ſo that it may be <lb/>ſecern'd from the
+                        Blood; to keep <lb/>warm during the Eruption; and that <lb/>then Diet be
+                        cool; for which Reaſon <lb/>the moderate Uſe of Acids, as Juice <lb/>of
+                        Limon, is indicated. </p>
+                    <p rend="indent"><lb/>A due Attention to the few Rules <lb/>above-mention'd, in
+                        the ſeveral <w part="I">Symp-</w><lb/><w part="F">toms</w>, will prove very
+                        ſucceſſful in <lb/>the Cure of moſt Fevers. I ſhall <pb xml:id="page_86"
+                            n="320"/>
+                        <lb/>only add a few more according to <lb/>the various Kinds of Fevers and
+                            <w part="I">In-</w><lb/><w part="F">flammatory</w> Diſtempers. </p>
+                    <p rend="indent"><lb/>An Ephemera, or a Fever of one <lb/>Day, is cur'd by
+                        Abſtinence, Reſt, <lb/>and Diluting; and the ſame Method <lb/>will prove
+                        effectual if the Fever laſts <w part="I">ſe-</w><lb/><w part="F">veral</w>
+                        Days, and is not putrid, or <w part="I">attend-</w><lb/><w part="F">ed</w>
+                        with a greater Inflammation and <lb/>Acrimony, and Obſtruction of the
+                        <lb/>Veſſels in ſome Parts of the Body, <lb/>amongſt which is what is
+                        commonly <lb/>call'd, a Cauſus, or burning Fever. </p>
+                    <p rend="indent"><lb/>The Cauſes of ſuch a Fever are <lb/>various; Errors in the
+                        Non-Naturals, <lb/>Air, Meat and Drink, Reſt and <w part="I">Mo-</w><lb/><w
+                            part="F">tion</w>. Such a Fever will be rais'd by <lb/>Vehement Exerciſe
+                        or Labour, Heat <lb/>of the Sun, by long Thirſt, by the <lb/>immoderate Uſe
+                        of fermented and <lb/>ſpirituous Liquors; and hot things, <lb/>as Spices;
+                        and by great Laſſitude <w part="I">en-</w><lb/><w part="F">dured</w> any
+                        way, eſpecially in hot <lb/>Weather. </p>
+                    <p rend="indent">
+                        <pb xml:id="page_87" n="321"/>
+                    </p>
+                    <p rend="indent"><lb/>Its Symptoms are a burning Heat <lb/>in the Skin, a
+                        Senſation of extreme <lb/>Heat inwardly; ſometimes Coldneſs <lb/>in the
+                        extreme Parts; Dryneſs of <lb/>the Skin, Mouth, and Noſtrils; <lb/>a Dryneſs
+                        and Roughneſs of the <lb/>Tongue; laborious and ſhort <w part="I"
+                            >breath-</w><lb/><w part="F">ing</w>; great Thirſt; Loathing, <w
+                            part="I">Sick-</w><lb/><w part="F">ness</w> of the Stomach, and
+                        Vomiting; <lb/>Anxiety, Reſtleſneſs, Wearineſs; <w part="I">ſome-</w><lb/><w
+                            part="F">times</w> a Cough and Hoarſeneſs; <w part="I">Watch-</w><lb/><w
+                            part="F">fulness</w> and Delirium, and <w part="I">Exacerba-</w><lb/><w
+                            part="F">tion</w> every other Day. </p>
+                    <p rend="indent"><lb/>Such a Fever is often reſolv'd by <lb/>a bleeding at the
+                        Noſe, which ought <lb/>not to be ſtop'd unleſs it endangers <lb/>Life. It is
+                        likewiſe often in the <w part="I">cri-</w><lb/><w part="F">tical</w> Day
+                        reſolv'd by Sweating, <w part="I">Vo-</w><lb/><w part="F">miting</w>,
+                        Looſeneſs, and Spitting of <lb/>thick Phlegm. The fatal Signs are
+                        <lb/>commonly bloody Urine, Difficulty <lb/>of Swallowing, watery Sweats
+                        about <lb/>the Head and Face, without Relief; <lb/>Coldneſs of the
+                        Extremities, <w part="I">Trem-</w><lb/><w part="F">bling</w>, too great a
+                        Looſeneſs; and <pb xml:id="page_88" n="322"/>
+                        <lb/>ſometimes an Inflammation of the <lb/>Lungs. </p>
+                    <p rend="indent"><lb/>The Regimen, in ſuch a Fever, is <lb/>keeping the Air of
+                        the Room pure <lb/>and cool, untainted with Fire, Smoke, <lb/>or the Breaths
+                        of many People; they <lb/>ought to have no more Bed-clothes <lb/>than barely
+                        protects them from Cold; <lb/>their Curtains ought to be kept open <lb/>ſo
+                        as to renew the Air; and their <lb/>Poſture in lying, as erect as they
+                        <lb/>can bear; the Sick, in this Condition, <lb/>covet all theſe things, and
+                        their <w part="I">Con-</w><lb/><w part="F">traries</w> offend them. </p>
+                    <p rend="indent"><lb/>Their Drink ought to be cool, mild, <lb/>ſubacid, tepid,
+                        given in moderate <lb/>Quantities, and often, as Water <lb/>with Juice of
+                        Limon or <w part="I">Tama-</w><lb/><w part="F">rinds</w>. </p>
+                    <p rend="indent"><lb/>Their Aliment ought to be light, <lb/>of farinaceous
+                        Vegetables, as Water-<lb/>Gruel, Preparations of Barley, with <lb/>ſome
+                        Juice of Limon; Rice boil'd in <lb/>Whey, and ſtrain'd. Roaſted Apples
+                        <lb/>in the Progreſs of the Diſeaſe; a <w part="I">lit-</w><lb/><w part="F"
+                            >tle</w>
+                        <pb xml:id="page_89" n="323"/><lb/>toaſted Bread with Rheniſh Wine <lb/>and
+                        Water, Jelly of Currants; Broths <lb/>and Jellies made of animal Subſtances
+                        <lb/>are rather too alkaleſcent, at leaſt they <lb/>ought to be qualify'd
+                        with Juices of <lb/>Limon, or ſome acid. </p>
+                    <p rend="indent"><lb/>Sometimes ſuch alimentary <w part="I">Sub-</w><lb/><w
+                            part="F">ſtances</w> as gently ſtimulate the Belly, <lb/>are uſeful, as
+                        ſome ripe Fruits, <w part="I">Straw-</w><lb/><w part="F">berries</w>,
+                        Currants, Mulberries. </p>
+                    <p rend="indent"><lb/>The Symptoms increaſe by the <lb/>Uſe of hot things given
+                        either as <w part="I">Ali-</w><lb/><w part="F">ment</w> or Medicine. </p>
+                </div>
+                <div type="part">
+                    <head rend="italic align-center"><lb/>Intermitting Fevers. </head>
+                    <p rend="indent"><lb/>They are (at leaſt in this Country) <lb/>very obſtinate,
+                        often return in ſpite <lb/>of all Remedies, and by long <w part="I"
+                            >Con-</w><lb/><w part="F">tinuance</w> they degenerate into <w part="I"
+                            >Hepa-</w><lb/><w part="F">tical</w> Fevers, and many chronical <w
+                            part="I">Diſ-</w><lb/><w part="F">tempers</w>, as Jaundice, Dropſy, <w
+                            part="I">Schir-</w><lb/><w part="F">rus's</w>, and Scurvies; therefore
+                        in this <lb/>Diſeaſe a right Method, both of <w part="I">Me-</w><lb/><w
+                            part="F">dicines</w> and Diet, is of great <w part="I">Impor-</w>
+                        <pb xml:id="page_90" n="324"/>
+                        <lb/><w part="F">tance</w>. There is a great Variety in <lb/>theſe Diſeaſes,
+                        as to the Intervals of <lb/>Times between the Paroxyſms; <w part="I"
+                            >Ter-</w><lb/><w part="F">tians</w> ſometimes redouble their <w part="I"
+                            >Paro-</w><lb/><w part="F">xyſms</w>, ſo as to appear like Quotidians.
+                        <lb/>I think it may be taken as a general <lb/>Rule, That the greater
+                        Diſtance of <lb/>Time there is between the Paroxyſms, <lb/>the Fever is leſs
+                        dangerous, but more <lb/>obſtinate. </p>
+                    <p rend="indent"><lb/>There is a different Regimen to <lb/>be us'd during the
+                        Continuance and <lb/>Abſence of the Paroxyſm; and in the <lb/>Paroxyſm
+                        itſelf, during the Rigor or <lb/>cold Fit, the Heat and the Sweat. </p>
+                    <p rend="indent"><lb/>During the Rigor, the Regimen <lb/>preſcrib'd in the
+                        foregoing Part of <lb/>this Chapter, in the Article of <w part="I"
+                            >Fever-</w><lb/><w part="F">iſh</w> Rigors, is proper in all Fevers,
+                        <lb/>and Care is to be taken by all <w part="I">pro-</w><lb/><w part="F"
+                            >per</w> Methods to ſhorten that Period as <lb/>much as poſſible, and by
+                        tepid <w part="I">Di-</w><lb/><w part="F">luents</w> to bring on the Sweat
+                        ſoon, <lb/>but not to puſh it beyond its due <lb/>Meaſure, becauſe an
+                        intermitting <w part="I">Fe-</w>
+                        <pb xml:id="page_91" n="325"/>
+                        <lb/><w part="F">ver</w> relaxeth and weakens the Body <lb/>extremely. </p>
+                    <p rend="indent"><lb/>Between the Paroxyſms, too great <lb/>Abſtinence is
+                        hurtful as much as too <lb/>great Repletion; as intermitting <w part="I"
+                            >Fe-</w><lb/><w part="F">vers</w> are often of long Continuance,
+                        <lb/>extreme Abſtinence is <w part="I">impractica-</w><lb/><w part="F"
+                            >ble</w>, and would reduce the <w part="I">Pa-</w><lb/><w part="F"
+                            >tient</w> to a Condition not to be able <lb/>to ſuſtain the Shock of
+                        the next <w part="I">At-</w><lb/><w part="F">tack</w>. </p>
+                    <p rend="indent"><lb/>Between the Paroxyſms, ſuch <w part="I">Sub-</w><lb/><w
+                            part="F">ſtances</w> as temper, correct, and <w part="I">ſub-</w><lb/><w
+                            part="F">due</w> the bilious Alkali, as acid <w part="I">Sub-</w><lb/><w
+                            part="F">ſtances</w>, nitrous Salts, ſmall thin <lb/>Wines with Water,
+                        Chicken Broth with <lb/>Juice of Limons; Wine with Bitters <lb/>infuſed, are
+                        proper; Cichory and <lb/>Dandelion are uſeful, becauſe the <w part="I"
+                            >ex-</w><lb/><w part="F">preſs'd</w> Juices of them cure <w part="I"
+                            >intermit-</w><lb/><w part="F">ting</w> Fevers in warm Countries; the
+                        <lb/>Phyſicians of theſe Countries likewiſe <lb/>uſe aſtringent Vegetables,
+                            <hi rend="italic">See</hi> Chap. I. <lb/>No 1. </p>
+                    <p rend="indent">
+                        <pb xml:id="page_92" n="326"/>
+                    </p>
+                    <p rend="indent"><lb/>Exerciſe, to as great a degree as <lb/>the Patient can
+                        bear, is extremely <lb/>beneficial between the Paroxyſms. </p>
+                    <p rend="indent"><lb/>But the chief Remedy of all is to <lb/>endeavour to
+                        prevent the cold Fit, <lb/>by getting to Bed, by Frictions, and <lb/>ſome
+                        ſudorifick and warm Liquor; <lb/>for by putting off the cold Fit ſome
+                        <lb/>Agues have been cur'd. </p>
+                    <p rend="indent"><lb/>Letting of Blood ſeldom does <lb/>good, and often a great
+                        deal of Hurt <lb/>in intermitting Fevers; but the <w part="I"
+                            >Con-</w><lb/><w part="F">dition</w> of the Patient is to be <w part="I"
+                            >conſi-</w><lb/><w part="F">der'd</w> in this Caſe. </p>
+                    <p rend="indent"><lb/>Intermitting Fevers have been <w part="I">ob-</w><lb/><w
+                            part="F">ſerved</w> to free from ſome Chronical <lb/>Diſtempers, as the
+                        Gout and <w part="I">Con-</w><lb/><w part="F">vulſions</w>, but they often
+                        induce great <lb/>ones themſelves. </p>
+                </div>
+                <div type="part">
+                    <pb xml:id="page_93" n="327"/>
+                    <head rend="align-center space"><lb/>INFLAMMATORY DISEASES. </head>
+                    <div type="part">
+                        <head rend="italic align-center"><lb/>A Phrenſy, or Inflammation of the
+                            Brain. </head>
+                        <p rend="indent"><lb/>This Diſeaſe, of all others, <w part="I"
+                                >re-</w><lb/><w part="F">quires</w> the ſpeedieſt Applications,
+                            <lb/>profuſe Hæmorrages from the Noſe <lb/>commonly reſolve it, and
+                            copious <lb/>Bleeding, by opening the temporal <lb/>Arteries, are the
+                            moſt effectual <w part="I">Re-</w><lb/><w part="F">medies</w>: But to
+                            ſtick to my Subject, <lb/>which is the Diet. </p>
+                        <p rend="indent"><lb/>Subſtances which cool, and at the <lb/>ſame time relax
+                            the Belly, are highly <lb/>beneficial, as Tamarinds boil'd in
+                            <lb/>Water, which taken plentifully may <lb/>at laſt bring a Looſeneſs
+                            which is a <lb/>great Relief to the Head. </p>
+                        <p rend="indent"><lb/>Soliciting the Blood to other Parts <lb/>of the Body;
+                            therefore tepid Bathings <lb/>of the lower Parts, and procuring the
+                            <lb/>Piles, relaxing Fomentations apply'd <lb/>to the Veins, which carry
+                            the Blood <lb/>from the Head, relieve in this <w part="I">Di-</w><pb
+                                xml:id="page_94" n="328"/>
+                            <lb/><w part="F">ſeaſe</w>. Cool Air, and Sitting up, if <lb/>poſſible;
+                            for the warm Air of the <lb/>Bed exagitates the Blood. </p>
+                        <p rend="indent"><lb/>The Aliment ought to be ſlender, <lb/>of farinaceous
+                            Subſtances, as Water-<lb/>Gruel acidulated, or ſubacid ripe <lb/>Fruits,
+                            with their Jellies; the Drink <lb/>ſmall, diluting, and cooling,
+                            Barley-<lb/>Water, Small-Beer, or the Decoction <lb/>of Tamarinds
+                            above-mentioned. All <lb/>ſuch gentle Anodynes as are to be <lb/>found
+                            amongſt the Alimentary Kind, <lb/>are ſafe. <hi rend="italic">See</hi>
+                            the Articles of <w part="I">Deli-</w><lb/><w part="F">rium</w> and
+                            Watchfulneſs in this <w part="I">Chap-</w><lb/><w part="F">ter</w>. </p>
+                    </div>
+                    <div type="part">
+                        <head rend="italic align-center"><lb/>Quincy. </head>
+                        <p rend="indent"><lb/>The Tumour of the Throat, which <lb/>occaſions the
+                            Difficulty of Swallowing <lb/>and Breathing, attending this <w part="I"
+                                >Diſ-</w><lb/><w part="F">temper</w>, may be of various ſorts:
+                            <lb/>Sometimes it proceeds from a <w part="I">Seroſi-</w><lb/><w
+                                part="F">ty</w> obſtructing the Glands, which <lb/>may be watery,
+                            ædematoſe, ſchirrous, <pb xml:id="page_95" n="329"/>
+                            <lb/>according to the ſeveral degrees of <lb/>the Viſcoſity of the
+                            Humour; <w part="I">ſome-</w><lb/><w part="F">time</w> inflammatory,
+                            which <w part="I">Inflamma-</w><lb/><w part="F">tion</w> will ſometimes
+                            end in a <w part="I">Suppu-</w><lb/><w part="F">ration</w>, or Gangrene. </p>
+                        <p rend="indent"><lb/>The Difficulties of Breathing and <lb/>Swallowing,
+                            which happen without <lb/>any Tumour outward or inward, <w part="I"
+                                >af-</w><lb/><w part="F">ter</w> long Diſeaſes, proceed commonly
+                            <lb/>from a Reſolution or paralytical <w part="I">Diſ-</w><lb/><w
+                                part="F">poſition</w> of the Parts, and is the <w part="I"
+                                >im-</w><lb/><w part="F">mediate</w> Forerunner of Death. </p>
+                        <p rend="indent"><lb/>The Regimen in thoſe Quincies <lb/>which proceed
+                            merely from the <w part="I">Ob-</w><lb/><w part="F">ſtruction</w> of the
+                            Glands, muſt be to <lb/>uſe ſuch warm Liquors as gently <w part="I"
+                                >re-</w><lb/><w part="F">lax</w>, ſoften, and moiſten thoſe Glands,
+                            <lb/>ſuch as carry off the redundant <w part="I">Se-</w><lb/><w part="F"
+                                >rum</w> by Stool, Sweat, and Urine; or <lb/>by ſtimulating, open
+                            the <w part="I">Emuncto-</w><lb/><w part="F">ries</w> of theſe Glands to
+                            ſecern the <lb/>Humour<note place="bottom" n="*">* <hi rend="italic"
+                                    >See</hi> Chap. I. </note>. </p>
+                        <p rend="indent">
+                            <pb xml:id="page_96" n="330"/>
+                        </p>
+                        <p rend="indent"><lb/>In a more watery Tumour, the <lb/>Diet may be more
+                            warm than in the <lb/>inflammatory, and the moderate uſe <lb/>of Wine
+                            often relieves the Patient. </p>
+                        <p rend="indent"><lb/>The Difficulty of Swallowing and <lb/>Breathing,
+                            occaſion'd by Schirroſities <lb/>of the Glands, is not to be cur'd any
+                            <lb/>otherwiſe than by Extirpation. </p>
+                        <p rend="indent"><lb/>Thoſe who are ſubject to <w part="I"
+                                >Inflam-</w><lb/><w part="F">mations</w> of the Throat, ought to
+                            live <lb/>temperately to prevent a Plethora; or <lb/>to break ſuch a
+                            Fulneſs ſpeedily by <lb/>proper Evacuations, to beware of <lb/>cold Air,
+                            too aſtringent or <w part="I">ſtimula-</w><lb/><w part="F">ting</w>
+                            Aliment or Medicine, and <w part="I">vio-</w><lb/><w part="F">lent</w>
+                            Exerciſe, which, by increaſing <lb/>the projectile Motion of the Blood,
+                            <lb/>heat; but eſpecially the ſwallowing of <lb/>cold Liquors when they
+                            are hot. </p>
+                        <p rend="indent"><lb/>In theſe Inflammations a ſlight <w part="I"
+                                >Di-</w><lb/><w part="F">arrhœa</w> relieves; therefore Aliments
+                            <lb/>which promote it are uſeful, as <w part="I">Ta-</w><lb/><w part="F"
+                                >marinds</w> infus'd in Whey. <w part="I">Decoc-</w><lb/><w part="F"
+                                >tions</w> and Emulſions of farinaceous <pb xml:id="page_97" n="331"/>
+                            <lb/>Vegetables moderately acidulated, and <lb/>ſuch as abound with a
+                            cooling <w part="I">ni-</w><lb/><w part="F">trous</w> Salt, are proper;
+                            it is <w part="I">com-</w><lb/><w part="F">monly</w> thought that
+                            Punpenella, <w part="I">Saxi-</w><lb/><w part="F">fraga</w>, or Burnet,
+                            is a Specifick in <lb/>this Caſe: Every body knows the <w part="I"
+                                >Be-</w><lb/><w part="F">nefit</w> of Mulberries, taken all <w
+                                part="I">man-</w><lb/><w part="F">ner</w> of ways. All Acids, as
+                            Sorrel, <lb/>Juice of Limon, <hi rend="italic">&amp;c.</hi> abate <w
+                                part="I">Inflam-</w><lb/><w part="F">mations</w>. </p>
+                        <p rend="indent"><lb/>The Mouth and Throat muſt be <lb/>kept moiſt, and the
+                            Noſe clear, that <lb/>the Air may have a free Paſſage <lb/>through it;
+                            for Air drawn by the <lb/>Mouth, dries. </p>
+                        <p rend="indent"><lb/>When the Deglutition is totally <lb/>aboliſh'd, the
+                            Patient may be <w part="I">nou-</w><lb/><w part="F">riſh'd</w> by
+                            Clyſters, which I have <lb/>known to have been done for a <lb/>whole
+                            Week, after which the Tumour <lb/>ſuppurated. </p>
+                        <p rend="indent"><lb/>When the Inflammation ends in <lb/>a Gangrene, the
+                            Caſe generally proves <lb/>mortal, except it be only in the <lb/><hi
+                                rend="italic">Tonſils, Uvula,</hi> and Palate, and go no <pb
+                                xml:id="page_98" n="332"/>
+                            <lb/>further, which Parts may be ſeparated, <lb/>and the Patient live.
+                        </p>
+                    </div>
+                    <div type="part">
+                        <head rend="italic align-center"><lb/>Inflammation of the Lungs. </head>
+                        <p rend="indent"><lb/>Such may happen either in the <lb/>bronchial or
+                            pulmonary Veſſels, and<lb/>may ſoon be communicated from <lb/>one to the
+                            other; when the <w part="I">Inflam-</w><lb/><w part="F">mation</w>
+                            affects both the Lobes and the <lb/>whole Body of the Lungs, the Caſe
+                            <lb/>is deſperate, becauſe the Circulation <lb/>muſt be ſtopt, and no
+                            Blood can <lb/>flow back into the Heart. Beſides <lb/>the general Cauſes
+                            of Inflammations, <lb/>thoſe which affect the Lungs <w part="I"
+                                >particu-</w><lb/><w part="F">larly</w>, are a bad Conformation of
+                            the <lb/>Lungs and Thorax commonly <w part="I">atten-</w><lb/><w
+                                part="F">ded</w> with an Aſthma, Air too hot, <lb/>cold and moiſt,
+                            abounding perhaps <lb/>with cauſtick, aſtringent, and <w part="I"
+                                >coa-</w><lb/><w part="F">gulating</w> Particles; the Lungs, <w
+                                part="I">pro-</w><lb/><w part="F">perly</w> ſpeaking, are an outward
+                            Part of <lb/>the Body, expos'd to the Air, which, <lb/>by its immediate
+                            Contact may eaſily <pb xml:id="page_99" n="333"/>
+                            <lb/>coagulate the Blood which flows <w part="I">a-</w><lb/><w part="F"
+                                >long</w> the Surfaces of the Air-Bladders, <lb/>and I believe the
+                            Qualities of the <lb/>Air are the general Cauſe of the <w part="I"
+                                >In-</w><lb/><w part="F">flammation</w> of the Lungs which <w
+                                part="I">hap-</w><lb/><w part="F">pen</w> in the Winter time. </p>
+                        <p rend="indent"><lb/>As the Lungs are the chief Organ <lb/>of
+                            Sanguification, crude and viſcous <lb/>Chyle, viſcous Aliment, Spices,
+                            but <lb/>eſpecially ſpirituous Liquors, may <w part="I">oc-</w><lb/><w
+                                part="F">caſion</w> this Inflammation; too great <lb/>an Exerciſe of
+                            the Lungs, ſo as to <lb/>occaſion a ſhort and laborious <w part="I"
+                                >Breath-</w><lb/><w part="F">ing</w>, or keeping them too long upon
+                            <lb/>the Stretch by Vociferation, or loud <lb/>Singing, may produce the
+                            ſame <w part="I">Ef-</w><lb/><w part="F">fect</w>: There are coagulating
+                            Poiſons <lb/>which affect the Lungs very ſuddenly; <lb/>extreme violent
+                            Paſſions, by affecting <lb/>the Motion of the Heart, may do <lb/>the
+                            ſame; it is a common thing to <lb/>ſee People in ſudden Tranſports of
+                            <lb/>Anger breathe ſhort. Inflammations <lb/>are ſometimes tranſlated
+                            from other <lb/>Parts to the Lungs; a Pleuriſy eaſily <pb
+                                xml:id="page_100" n="334"/>
+                            <lb/>paſſeth into Peripneumony. The <w part="I">a-</w><lb/><w part="F"
+                                >voiding</w> thoſe Cauſes is the beſt Rule <lb/>of Diet to prevent
+                            the Diſeaſe; <w part="I">be-</w><lb/><w part="F">ſides</w>, ſpeedy and
+                            plentiful letting of <lb/>Blood before it has quite taken <lb/>place. </p>
+                        <p rend="indent"><lb/>This Diſeaſe is often cur'd by the <lb/>critical
+                            Reſolution, Concoction, and <lb/>Evacuation of the morbifick Matter,
+                            <lb/>which is either attenuated ſo as to <lb/>be return'd into the
+                            Channels, and <lb/>to go on in the common. Thread <lb/>of Circulation,
+                            or expectorated by <lb/>Coughing, which may be eaſily <lb/>known by the
+                            Abatement of <w part="I">Symp-</w><lb/><w part="F">toms</w>, <hi
+                                rend="italic">viz.</hi> the Fever, Difficulty of <lb/>Breathing,
+                            Thirſt, Anxiety, <w part="I">Reſtleſ-</w><lb/><w part="F">ness</w>, and
+                            the Patient's falling into <lb/>gentle breathing Sweats. One of the
+                            <lb/>beſt Reſolvents is the Blood of the <lb/>wild Goat. </p>
+                        <p rend="indent"><lb/>Copious Bleeding is the moſt <w part="I"
+                                >ef-</w><lb/><w part="F">fectual</w> Remedy in the beginning of
+                            <lb/>the Diſeaſe; but when the <w part="I">Expecto-</w><lb/><w part="F"
+                                >ration</w> goes on ſucceſſfully, not ſo <pb xml:id="page_101"
+                                n="335"/>
+                            <lb/>proper, becauſe it ſometimes <w part="I">ſuppreſ-</w><lb/><w
+                                part="F">ſeth</w> it, and in that Caſe Sudorificks <lb/>thicken the
+                            Matter that is <w part="I">expectora-</w><lb/><w part="F">ted</w>. The
+                            Motions of Nature ought <lb/>to be followed. This by the way. </p>
+                        <p rend="indent"><lb/>From the Symptoms in this Stage <lb/>of the Diſeaſe,
+                            and the uſe of the <lb/>Lungs, it is evident the Aliment <lb/>ought to
+                            be more ſlender and thin <lb/>than in any other inflammatory <w part="I"
+                                >Di-</w><lb/><w part="F">ſeaſe</w> whatſoever, common Whey <w
+                                part="I">be-</w><lb/><w part="F">ing</w> ſufficient to preſerve the
+                            Strength <lb/>of the Patient; watery Liquors, and <lb/>even the Steam of
+                            warm Water <w part="I">ta-</w><lb/><w part="F">ken</w> in by the Breath,
+                            attenuates the <lb/>impacted Matter. Relaxing <w part="I"
+                                >Ali-</w><lb/><w part="F">ment</w>, of which Barley and all its
+                            <lb/>Preparations are the beſt. </p>
+                        <p rend="indent"><lb/>In this State, Diureticks, which <lb/>have not much
+                            Acrimony in them, <lb/>are proper, for Fluxes of Urine <w part="I"
+                                >re-</w><lb/><w part="F">lieve</w> the Lungs; for this Intention,
+                            <lb/>an Infuſion of Fenel Roots in warm <lb/>Water, with Milk, is good,
+                            both as <lb/>Nouriſhment and Drinks. </p>
+                        <p rend="indent">
+                            <pb xml:id="page_102" n="336"/>
+                        </p>
+                        <p rend="indent"><lb/>If Nature relieves by a Diarrhœa, <lb/>without ſinking
+                            the Strength of the <lb/>Patient, it is not to be ſtopt, but
+                            <lb/>promoted gently by emollient <w part="I">Cly-</w><lb/><w part="F"
+                                >ſters</w>. </p>
+                        <p rend="indent"><lb/>Decoction of Cichory, Lettuce, <lb/>as being anodyne
+                            and reſolvent, are <lb/>proper. </p>
+                        <p rend="indent"><lb/>If the Patient is not reliev'd nor <lb/>dies in eight
+                            Days, the Inflammation <lb/>ends in a Suppuration and an Abſceſs <lb/>in
+                            the Lungs, and ſometimes in ſome <lb/>other Part of the Body; the
+                            Symptoms <lb/>of which are, an obſtinate dry Cough, <lb/>increas'd by
+                            Motion and taking of <lb/>Food; theeaſieſt Poſture in Lying <w part="I"
+                                >be-</w><lb/><w part="F">ing</w> upon the affected Side; a continual
+                            <lb/>Lent-Fever, with Rigors invading with <lb/>uncertain Periods;
+                            Exacerbations <w part="I">af-</w><lb/><w part="F">ter</w> Motion and
+                            Repaſt, Thirſt, Night-<lb/>Sweats, a frothy Urine, Paleneſs,
+                            <lb/>Leanneſs, Weakneſs. </p>
+                        <p rend="indent"><lb/>In ſuch a Caſe one muſt forbear <lb/>letting of Blood.
+                            The Diet muſt <lb/>be mild, ſoft, incraſſating, and more <pb
+                                xml:id="page_103" n="337"/>
+                            <lb/>plentiful; tepid Vapours admitted <lb/>into the Lungs, of
+                            Decoctions of <lb/>proper Ingredients; and when by the <lb/>Symptoms and
+                            Time the <w part="I">Impoſt-</w><lb/><w part="F">hume</w> may be judg'd
+                            to be ripe, the <lb/>Vapour of Vinegar it ſelf, and any <lb/>thing which
+                            creates a Cough, as <lb/>Oxymel, or Vinegar and Honey, <lb/>Exerciſe and
+                            Concuſſion are proper, <lb/>the ſooner it is broke, the leſs <w part="I"
+                                >Dan-</w><lb/><w part="F">ger</w> to the Lungs. </p>
+                        <p rend="indent"><lb/>Tho' ſuch a State is extremely <w part="I"
+                                >dan-</w><lb/><w part="F">gerous</w>, it is not quite deſperate; the
+                            <lb/>Aliment ought to be Milk; the <lb/>Drink, Milk, and Barley-Water,
+                            and <lb/>ſuch alimentary Subſtances as are <w part="I">ex-</w><lb/><w
+                                part="F">pectorating</w> and cleanſing, with <w part="I"
+                                >gen-</w><lb/><w part="F">tle</w> Anodynes, that the Patient may
+                            <lb/>have ſome Reſt. <hi rend="italic">See</hi> Chap I. </p>
+                        <p rend="indent"><lb/>The principal Intention in every <lb/>State of
+                            Inflammation of the Lungs <lb/>is to promote Expectoration, and to
+                            <lb/>reſtore it when it is loſt. </p>
+                        <p rend="indent">
+                            <pb xml:id="page_104" n="338"/>
+                        </p>
+                        <p rend="indent"><lb/> If the Inflammation ends in a <lb/>Gangrene, the Caſe
+                            is deſperate; if <lb/>in a Schirrus, incurable. </p>
+                        <p rend="indent"><lb/>There is a ſpurious ſort of a <w part="I"
+                                >Pe-</w><lb/><w part="F">ripneumony</w>, not inflammatory; when
+                            <lb/>the Veſſels are obſtructed with a <w part="I">viſ-</w><lb/><w
+                                part="F">cous</w> Pituite that mixeth with the <lb/>Blood, and
+                            invades in cold Weather, <lb/>it is dangerous, and often ſuffocates;
+                            <lb/>it is incident to weak and old <w part="I">Peo-</w><lb/><w part="F"
+                                >ple</w>. In this, ſome of the Methods <lb/>uſed in the Inflammatory
+                            are <w part="I">pro-</w><lb/><w part="F">per</w>, but not ſo copious
+                            Bleeding, <lb/>Clyſters frequently injected; <w part="I">Ali-</w><lb/><w
+                                part="F">ment</w> more generous, Broths, and <lb/>Jellies with Juice
+                            of Limon, <w part="I">Hydro-</w><lb/><w part="F">mel</w>, or Honey and
+                            Water; for <lb/>Drink, ſoft Oils, and Aliments which <lb/>abound with a
+                            ſoft, not volatile Oil, <lb/>are beneficial. </p>
+                        <p rend="indent"><lb/>A Peripneumony is the laſt fatal <lb/>Symptom of every
+                            Diſeaſe, for no <lb/>Body dies without a Stagnation of <lb/>the Blood in
+                            the Lungs; as long as <pb xml:id="page_105" n="339"/>
+                            <lb/>it circulates through the Lungs, it <lb/>will circulate through the
+                            reſt of the <lb/>Body. The total Extinction of <lb/>Breath is caus'd by
+                            the Stagnation of <lb/>Blood in the Lungs. </p>
+                    </div>
+                    <div type="part">
+                        <head rend="italic align-center"><lb/>Pleuriſy. </head>
+                        <p rend="indent"><lb/>There is none of the Membranes <lb/>which inveſt the
+                            Inſide of the Breaſt, <lb/>but may be the Seat of this Diſeaſe, <lb/>the
+                            Mediaſtine as well as the Pleura. </p>
+                        <p rend="indent"><lb/>The Cauſes of this Diſeaſe, <w part="I">be-</w><lb/><w
+                                part="F">ſides</w> thoſe common to all <w part="I"
+                                >Inflamma-</w><lb/><w part="F">tions</w>, are often a particular <w
+                                part="I">Diſpoſi-</w><lb/><w part="F">tion</w> to inflammatory
+                            Diſtempers, a <lb/>Straitneſs of the Arteries of the <w part="I"
+                                >Pleu-</w><lb/><w part="F">ra</w>, a Calloſity of that Membrane,
+                            <lb/>an Adheſion of the Lungs, the <w part="I">ſud-</w><lb/><w part="F"
+                                >den</w> Admiſſion of cold Air by too <lb/>thin clothing, too hot a
+                            Regimen, <lb/>and eſpecially the copious uſe of <w part="I"
+                                >ſpi-</w><lb/><w part="F">rituous</w> Liquors, cold Liquors drank
+                            <lb/>when the Body is very hot, a <w part="I">Tranſ-</w><pb
+                                xml:id="page_106" n="340"/>
+                            <lb/><w part="F">lation</w> of ſome inflammatory Matter <lb/>from ſome
+                            other Part, but moſt of <lb/>all cold Air from a Northerly or
+                            <lb/>North-eaſterly Wind; from which <lb/>Cauſes proper Cautions may be
+                                <w part="I">ta-</w><lb/><w part="F">ken</w> in the Regimen by way of
+                                <w part="I">Pre-</w><lb/><w part="F">vention</w>. </p>
+                        <p rend="indent"><lb/>This Diſeaſe is ſometimes dry, <lb/>without any
+                            Spitting, and ſometimes <lb/>attended with Expectoration from <lb/>the
+                            Lungs, and that is taken off <lb/>by a Coction and Reſolution of the
+                            <lb/>feveriſh Matter, or terminates in <lb/>Suppurations, or a Gangrene. </p>
+                        <p rend="indent"><lb/>The Regimen ought to be much <lb/>the ſame as in a
+                            Peripneumony, a <lb/>cool, relaxing, ſlender, diluting Diet, <lb/>and
+                            avoiding all things which <w part="I">in-</w><lb/><w part="F">creaſe</w>
+                            Heat, even too hot Air. </p>
+                        <p rend="indent"><lb/>The Symptoms of Suppuration <lb/>are the ſame as in
+                            Inflammations of <lb/>the Lungs; when the Matter is made, <lb/>the Side
+                            muſt be opened to let it <lb/>out. </p>
+                        <p rend="indent">
+                            <pb xml:id="page_107" n="341"/>
+                        </p>
+                        <p rend="indent"><lb/> When the Diſeaſe is obſtinate <w part="I"
+                                >a-</w><lb/><w part="F">gainſt</w> all Remedies, a ſudden <w
+                                part="I">Abate-</w><lb/><w part="F">ment</w> of the Pain, a quick
+                            weak <lb/>Pulſe, ſometimes intermitting, ſhort <lb/>Breath and cold
+                            Sweats are <w part="I">Symp-</w><lb/><w part="F">toms</w> of a Gangrene,
+                            and <w part="I">approach-</w><lb/><w part="F">ing</w> Death. </p>
+                    </div>
+                    <div type="part">
+                        <head rend="italic align-center"><lb/>Paraphrenitis, or Inflammation of the
+                            Diaphragm. </head>
+                        <p rend="indent"><lb/>The Symptoms of this Diſeaſe <lb/>(which is often
+                            miſtaken) are a <w part="I">vio-</w><lb/><w part="F">lent</w> Fever, a
+                            moſt exquiſite Pain <w part="I">in-</w><lb/><w part="F">creas'd</w> upon
+                            Inſpiration; by which <lb/>it is diſtinguiſh'd from a Pleuriſy, in
+                            <lb/>which the greateſt Pain is in <w part="I">Expi-</w><lb/><w part="F"
+                                >ration</w>. </p>
+                        <p rend="indent"><lb/>This Pain is increas'd by Sickneſs, <lb/>Vomiting,
+                            Repletion of the <w part="I">Sto-</w><lb/><w part="F">mach</w>, or any
+                            Compreſſion of the <lb/>Muſcles of the Abdomen, by <w part="I"
+                                >render-</w><lb/><w part="F">ing</w> the Fæces or Urine. The <w
+                                part="I">Breath-</w><lb/><w part="F">ing</w> is extremely quick,
+                            ſuffocating, <pb xml:id="page_108" n="342"/>
+                            <lb/>and ſeems to be perform'd only by <lb/>the Motion of the Breaſt: It
+                            is <w part="I">like-</w><lb/><w part="F">wiſe</w> attended with a
+                            Delirium, Fury, <lb/>and an involuntary Laughter, the <lb/>Convulſion
+                            emulating this <w part="I">Mo-</w><lb/><w part="F">tion</w>. </p>
+                        <p rend="indent"><lb/>This Diſeaſe terminates as <w part="I"
+                                >Pleuri-</w><lb/><w part="F">ſies</w> and Peripneumonies, but is <w
+                                part="I">ge-</w><lb/><w part="F">nerally</w> fatal if it ſuppurates
+                            the Pus, <lb/>is evacuated into the lower Belly, <lb/>where it produceth
+                            Putrefaction, and <lb/>a moſt miſerable and painful Death. </p>
+                        <p rend="indent"><lb/>The Regimen, if any can be <w part="I">ſuc-</w><lb/><w
+                                part="F">ceſſful</w>, ought to be the ſome as in <lb/>Pleuriſies.
+                        </p>
+                    </div>
+                    <div type="part">
+                        <head rend="italic align-center"><lb/>Inflammation of the Liver. </head>
+                        <p rend="indent"><lb/>The hepatical Artery, and the Vena <lb/>Porta, carry
+                            the Blood into the Liver; <lb/>the firſt being very ſmall, and the <w
+                                part="I">Mo-</w><lb/><w part="F">tion</w> of the Blood in the laſt
+                            being ſlow, <lb/>is the reaſon that Inflammations in <lb/>the Liver are
+                            not ſo frequent as in <pb xml:id="page_109" n="343"/><lb/>ſome other
+                            Parts of the Body; <lb/>but when they obtain, extremely <w part="I"
+                                >dange-</w><lb/><w part="F">rous</w>, unleſs they take up but a
+                            ſmall <lb/>Part of the Liver, and ſuch happen <lb/>more frequently than
+                            is commonly <lb/>imagined. </p>
+                        <p rend="indent"><lb/>Some of the beſt Cautions in Diet <lb/>may be taken
+                            from the Cauſes and <lb/>Symptoms of this Diſeaſe. </p>
+                        <p rend="indent"><lb/>Which, beſides the general Cauſes <lb/>of
+                            Inflammations, are extreme <w part="I">Fat-</w><lb/><w part="F"
+                            >ness</w>. Fat diſſolv'd by Heat and <w part="I">In-</w><lb/><w part="F"
+                                >flammations</w> obſtructs the Veſſels of <lb/>the Liver very
+                            ſuddenly. Cattle <w part="I">fat-</w><lb/><w part="F">ted</w> by good
+                            Paſturage, after violent <lb/>Motion, ſometimes die ſuddenly; in
+                            <lb/>ſuch the Liver is found to be <w part="I">in-</w><lb/><w part="F"
+                                >flamed</w> and corrupted. An <w part="I">atrabila-</w><lb/><w
+                                part="F">rian</w> aduſt Temper of the Blood and <lb/>Gall, an
+                            acrimonious or purulent <lb/>Matter, ſtagnating in ſome other <w
+                                part="I">Or-</w><lb/><w part="F">gan</w>, is more eaſily depoſited
+                            upon <lb/>the Liver than any other Part, <lb/>eſpecially if attended
+                            with the uſe of <lb/>hot and ſpicy Aliments, ſpirituous <pb
+                                xml:id="page_110" n="344"/>
+                            <lb/>Liquors, great Heat, and a Fever, <lb/>Eroſions, by the Acrimony of
+                            the <lb/>Gall, or Obſtructions by Viſcoſity; <lb/>any Calloſity,
+                            Schirrus, or Stone in <lb/>the Liver; Thirſt, long endur'd, <w part="I"
+                                >be-</w><lb/><w part="F">ing</w> ſuddenly chill'd by cold Air, cold
+                            <lb/>Water, or drinking cold Liquors after <lb/>great Heat; Vomits given
+                                <w part="I">injudi-</w><lb/><w part="F">ciouſly</w>, when the Liver
+                            is already <lb/>unſound, which if they do not <w part="I">re-</w><lb/><w
+                                part="F">move</w> the Obſtruction, exagitate the <lb/>Liver too
+                            much; inveterate <w part="I">hypo-</w><lb/><w part="F">condriacal</w>
+                            Diſtempers. All theſe <lb/>Cauſes may produce Inflammations <lb/>of the
+                            Liver. </p>
+                        <p rend="indent"><lb/>In ſuch a Caſe, the Liver being <lb/>ſwell'd
+                            compreſſeth the Stomach, <w part="I">Dia-</w><lb/><w part="F"
+                            >phragm</w>, and the neighbouring <w part="I">viſ-</w><lb/><w part="F"
+                                >cera</w> of the lower Belly, ſtops the <lb/>Circulation of the
+                            Juices, the <w part="I">Gene-</w><lb/><w part="F">ration</w> and
+                            Excretion of the Gall, <lb/>and all Digeſtion; produceth an <w part="I"
+                                >In-</w><lb/><w part="F">finity</w> of bad Symptoms, the <w part="I"
+                                >Jaun-</w><lb/><w part="F">dice</w>, with all the Diſeaſes depending
+                            <lb/>upon it; for the Liver receives the <pb xml:id="page_111" n="345"
+                            /><lb/>refluent Blood almoſt from all the <lb/>Parts of the Abdomen, and
+                            is the <lb/>chief Inſtrument of all the <w part="I">Dige-</w><lb/><w
+                                part="F">ſtions</w> which are made there. A <w part="I"
+                                >Fe-</w><lb/><w part="F">ver</w>, an Inflammation and pungent
+                            <lb/>Pain on the Region of the Liver <lb/>and Diaphragm, a Tenſion of
+                            the <lb/>Hypochondres, Yellowneſs of the <lb/>Skin and Eyes, and a
+                            Saffron-colour'd <lb/>Urine, are Signs of an <w part="I"
+                                >inflammato-</w><lb/><w part="F">ry</w> Diſpoſition of the Liver. </p>
+                        <p rend="indent"><lb/>This Diſeaſe ends as other <w part="I"
+                                >Inflam-</w><lb/><w part="F">mations</w>, being cur'd either by <w
+                                part="I">Reſo-</w><lb/><w part="F">lution</w>, Concoction, and
+                            Excretion <lb/>of the morbid Matter, terminates in <lb/>an Abſceſs,
+                            Schirrus, or Gangrene. </p>
+                        <p rend="indent"><lb/>During the firſt State, a warm <w part="I"
+                                >Re-</w><lb/><w part="F">gimen</w> and Saffron, which is reckon'd
+                            <lb/>a Specifick, is improper. </p>
+                        <p rend="indent"><lb/>Cooling reſolving Liquors taken <lb/>inwardly, as
+                            Whey, with Sorrel boil'd <lb/>in it; outward Fomentations, and
+                            <lb/>frequent Injection of Clyſters, <w part="I">Bath-</w><lb/><w
+                                part="F">ing</w> and Frictions, relax, and render <lb/>the Matter
+                            fluid; Honey, with a <w part="I">lit-</w>
+                            <pb xml:id="page_112" n="346"/>
+                            <lb/><w part="F">tle</w> Rheniſh Wine, or Vinegar; the <lb/>Juices and
+                            Jellies of ſome ripe <w part="I">Gar-</w><lb/><w part="F">den</w>
+                            Fruits; and thoſe of ſome <w part="I">lacteſ-</w><lb/><w part="F"
+                                >cent</w> papeſcent Plants, as Endive, <lb/>Dandelion, Lettuce, are
+                            reſolvent. </p>
+                        <p rend="indent"><lb/>Violent Purging hurts, gently <w part="I"
+                                >re-</w><lb/><w part="F">laxing</w> the Belly relieves, Diluents
+                            <lb/>with nitrous Salts are beneficial, or <lb/>Tamarinds boil'd in warm
+                            Water or <lb/>Whey; bloody Stools, not in an <w part="I">ex-</w><lb/><w
+                                part="F">treme</w> degree, or ſtreak'd with Blood, <lb/>ought not to
+                            be ſtop'd, becauſe they <lb/>help to reſolve the Diſtemper, and
+                            <lb/>Hæmorrages by the Noſe often do <lb/>the ſame. </p>
+                        <p rend="indent"><lb/>The feveriſh Matter is often <w part="I"
+                                >car-</w><lb/><w part="F">ried</w> off by Urine, and therefore <w
+                                part="I">Di-</w><lb/><w part="F">ureticks</w> not highly
+                            ſtimulating, are<lb/> proper. </p>
+                        <p rend="indent"><lb/>Sweating ought not to be <w part="I">promo-</w><lb/><w
+                                part="F">ted</w> by warm Cordials, but encourag'd <lb/>by warm
+                            diluting Liquors. </p>
+                        <p rend="indent"><lb/>It is a deplorable Caſe when the <lb/>Inflammation
+                            terminates in a <w part="I">Suppu-</w><lb/><w part="F">ration</w>,
+                            unleſs the Abſceſs points <w part="I">out-</w><pb xml:id="page_113"
+                                n="347"/>
+                            <lb/><w part="F">wardly</w>, ſo as it may be opened; for <lb/>if the Pus
+                            be evacuated into the <w part="I">Ab-</w><lb/><w part="F">domen</w>, it
+                            produceth diſmal <w part="I">Symp-</w><lb/><w part="F">toms</w>,
+                            Putrefaction, or an <w part="I">incura-</w><lb/><w part="F">ble</w>
+                            hepatical Dyſentery, or Bloody-<lb/>Flux. </p>
+                        <p rend="indent"><lb/>The Pus, from an Ulcer of the <lb/>Lungs, growing thin
+                            and ichoroſe <lb/>corrodes the Veſſels (for the Liver of <lb/>all the
+                            Viſcera, is the moſt friable, <lb/>and eaſily crumbled or diſſolv'd) it
+                            <lb/>is often carried into the Blood, and <lb/>rejected by Vomiting,
+                            with a <w part="I">cada-</w><lb/><w part="F">verous</w> Smell, attended
+                            with great <lb/>Thirſt; if it is carried downward, it <lb/>occaſions a
+                            purulent colliquative <w part="I">Di-</w><lb/><w part="F">arrhœa</w>;
+                            acid Subſtances relieve moſt <lb/>in this Caſe. </p>
+                        <p rend="indent"><lb/>This Diſeaſe may happen to <w part="I">pro-</w><lb/><w
+                                part="F">duce</w> a Cancer, or Schirrus; one <w part="I"
+                                >can-</w><lb/><w part="F">not</w> ſay that the laſt is abſolutely <w
+                                part="I">in-</w><lb/><w part="F">curable</w>, becauſe it has been
+                            known <lb/>by Experience that Graſs and freſh <lb/>Paſture has cur'd it
+                            in Cattle; and <lb/>perhaps the expreſs'd Juices of Graſs, <pb
+                                xml:id="page_114" n="348"/>
+                            <lb/>and ſome opening Plants, may do the <lb/>ſame thing in Mankind, as
+                            of the <lb/>lacteſcent Plants above-mention'd. </p>
+                        <p rend="indent"><lb/>The Diet preſcrib'd here is <w part="I"
+                                >neceſ-</w><lb/><w part="F">ſary</w> in a Jaundice, and all Diſeaſes
+                            of <lb/>the Liver; and Abſtinence from ſuch <lb/>Subſtances as induce
+                            Putrefaction, <lb/>eſpecially ſalted Fiſh and Fleſh, and <lb/>above all,
+                            ſtrong Liquors. </p>
+                    </div>
+                    <div type="part">
+                        <head rend="italic align-center"><lb/>Inflammation of the Stomach. </head>
+                        <p rend="indent"><lb/>The Symptoms of this Diſeaſe are a <lb/>vehement,
+                            burning, fix'd, pungent <lb/>Pain in the Stomach, attended with <lb/>a
+                            Fever; a great Exacerbation of <lb/>this Pain the Moment after <w
+                                part="I">ſwallow-</w><lb/><w part="F">ing</w> any thing, ſucceeded
+                            with <w part="I">Vo-</w><lb/><w part="F">miting</w>; a painful Hickup,
+                            and great <lb/>Anxiety. The Cauſes of theſe <w part="I">Symp-</w><lb/><w
+                                part="F">toms</w> are thoſe common to all <w part="I">In-</w><lb/><w
+                                part="F">flammations</w>, a natural Weakneſs, <lb/>and perhaps
+                            Eroſion of the Coats <lb/>of the Stomach, and acrid Subſtances
+                            <lb/>taken as Aliment and Medicines. </p>
+                        <p rend="indent">
+                            <pb xml:id="page_115" n="349"/>
+                        </p>
+                        <p rend="indent"><lb/>If this Diſeaſe is not ſpeedily cur'd, <lb/>it proves
+                            fatal. </p>
+                        <p rend="indent"><lb/>It terminates in a Cure by a <w part="I"
+                                >Reſo-</w><lb/><w part="F">lution</w> of the morbifick Matter, a
+                            <lb/>Suppuration, Schirrus, Cancer, but <lb/>moſt commonly in a
+                            Gangrene. </p>
+                        <p rend="indent"><lb/>Of all Diſeaſes this demands moſt <lb/>a total
+                            Abſtinence from every thing<lb/> that has Acrimony in it, even the
+                            <lb/>nitrous cooling Salts, which are <w part="I">be-</w><lb/><w
+                                part="F">neficial</w> in other Inflammations, <w part="I"
+                                >ir-</w><lb/><w part="F">ritate</w> too much; Vomits, all <w
+                                part="I">Cor-</w><lb/><w part="F">dials</w> of volatile or ſpicy
+                            Subſtances; <lb/>ſpirituous Liquors are no better than <lb/>Poiſon, and
+                            Milk generally curdles; <lb/>Aliments muſt be given frequently, <lb/>and
+                            by Spoonfuls at a time, for any <lb/>Diſtenſion increaſeth the <w
+                                part="I">Inflamma-</w><lb/><w part="F">tion</w>; a thin Gruel of
+                            Barley, <w part="I">Oat-</w><lb/><w part="F">meal</w>, Whey, with very
+                            little Sugar, <lb/>or Honey, or Chicken-Broth, are <lb/>proper Aliments;
+                            Whey, emollient <lb/>Decoctions, Barley-Water, Emulſions, <lb/>are
+                            proper Drinks; and it has been <lb/>found by Experience, that chalybeat
+                                <pb xml:id="page_116" n="350"/><lb/>Waters have been agreeable to
+                            the <lb/>Stomach even in this inflammatory <lb/>State. If there happens
+                            an <w part="I">Impoſt-</w><lb/><w part="F">hume</w>, Honey, and even
+                            Honey of <lb/>Roſes, taken inwardly, is a good <lb/>Cleanſer, and
+                            Decoctions of <w part="I">Com-</w><lb/><w part="F">frey</w> Roots,
+                            healing; ſpeedy and <lb/>plentiful Bleeding, Fomentations, and
+                            <lb/>Clyſters, have the ſame good Effect <lb/>as in other inflammatory
+                                <w part="I">Diſtem-</w><lb/><w part="F">pers</w>. </p>
+                        <p rend="indent"><lb/>The ſame Regimen is neceſſary <lb/>in a Schirrus, or
+                            Cancer of the <w part="I">Sto-</w><lb/><w part="F">mach</w>; though
+                            nothing will be quite <lb/>effectual. </p>
+                        <p rend="indent"><lb/>The ſame Regimen is to be <w part="I">ob-</w><lb/><w
+                                part="F">ſerved</w> in the Inflammation of the <lb/>Spleen, Caul,
+                            Pancreas. </p>
+                    </div>
+                    <div type="part">
+                        <head rend="italic align-center"><lb/>Inflammation of the Guts. </head>
+                        <p rend="indent"><lb/>The Inteſtines or Guts, moſt <w part="I"
+                                >fre-</w><lb/><w part="F">quently</w> the ſmall ones, may be <w
+                                part="I">in-</w><lb/><w part="F">flam'd</w> by any acrid or
+                            poiſonous <lb/>Subſtance taken inwardly; from any <pb xml:id="page_117"
+                                n="351"/>
+                            <lb/>purulent Matter tranſlated upon them <lb/>from ſome other Part of
+                            the Body; <lb/>from Bile, extremely acrimonious, by <lb/>a violent
+                            Tenſion; from a Convulſion <lb/>filling them with Wind. </p>
+                        <p rend="indent"><lb/>The Symptoms are a total <w part="I">Stop-</w><lb/><w
+                                part="F">page</w> of the Paſſage; a vehement fix'd <lb/>burning
+                            Pain, irritated by things <w part="I">ta-</w><lb/><w part="F">ken</w>
+                            inwardly, when any thing <w part="I">touch-</w><lb/><w part="F">eth</w>
+                            the affected Part, it excites <w part="I">Vo-</w><lb/><w part="F"
+                                >miting</w>, ſharp griping Pains, with W<lb/>ind in other Parts of
+                            the Bowels; <lb/>the Conſequences of ſuch an <w part="I"
+                                >Inflam-</w><lb/><w part="F">mation</w> are an Ileus, what is <w
+                                part="I">com-</w><lb/><w part="F">monly</w> called the Twiſting of
+                            the <lb/>Guts, but is really either a <w part="I">Circum-</w><lb/><w
+                                part="F">volution</w> or Inſertion of one part of <lb/>the Gut
+                            within the other. All theſe <lb/>Symptoms are attended with a <w
+                                part="I">Fe-</w><lb/><w part="F">ver</w>. </p>
+                        <p rend="indent"><lb/>It is of the utmoſt Importance to <lb/>know what the
+                            Cauſes of Colicks <lb/>are; for as they are various, the <w part="I"
+                                >Re-</w><lb/><w part="F">medies</w> in one Caſe are quite <w
+                                part="I">oppo-</w><lb/><w part="F">ſite</w> and deſtructive in the
+                            other; for <pb xml:id="page_118" n="352"/>
+                            <lb/>the ſpicy warm carminative things <lb/>which are given in a Colick,
+                            from a <lb/>phlegmatick or cold Cauſe, are <w part="I">Poi-</w><lb/><w
+                                part="F">ſon</w> in an inflammatory one; they <lb/>may be
+                            diſtinguiſh'd by the Fever, <lb/>high Pulſe, Thirſt, and <w part="I"
+                                >flame-co-</w><lb/><w part="F">lour'd</w> Urine attending the <w
+                                part="I">Inflam-</w><lb/><w part="F">mation</w>, as to the Heat,
+                            tho' it is <lb/>great likewiſe by the Violence of the <lb/>Pain, the
+                            Extremities grow cold; <w part="I">be-</w><lb/><w part="F">ſides</w>,
+                            there is a ſudden Proſtration of <lb/>the Strength or Weakneſs attending
+                            <lb/>this Colick, more than any other. </p>
+                        <p rend="indent"><lb/>This Diſeaſe admits of a ſpeedy <lb/>Remedy, or none,
+                            for it ends in an <lb/>Ileus, and Mortification of the <w part="I"
+                                >Bow-</w><lb/><w part="F">els</w> very ſoon. </p>
+                        <p rend="indent"><lb/>Beſides a copious Bleeding, there <lb/>is hardly any
+                            other Method but <w part="I">fo-</w><lb/><w part="F">menting</w> and
+                            relaxing the Bowels by <lb/>emollient tepid Liquids, both taken <lb/>by
+                            the Mouth and by Clyſters, <w part="I">in-</w><lb/><w part="F"
+                                >jected</w> hourly; yet it has been known <lb/>by Experience, that
+                            Acids have <w part="I">re-</w><lb/><w part="F">lieved</w> in very
+                            deſperate Caſes, as <pb xml:id="page_119" n="353"/><lb/>Juice of Limons
+                            taken by the Mouth, <lb/>and Vinegar and warm Water given <lb/>in
+                            Clyſters, have ſav'd the Patient, <lb/>becauſe of the inceſſant
+                            Vomiting; <lb/>Opiats to quiet the Convulſions are <lb/>ſometimes
+                            neceſſary. </p>
+                        <p rend="indent"><lb/>Warm Fomentations even of warm <lb/>Animals to the
+                            Belly, are extremely <lb/>beneficial. </p>
+                        <p rend="indent"><lb/>If the Inflammation happens to <lb/>be in the lower
+                            Guts, it is not ſo <lb/>dangerous; and even when it <w part="I"
+                                >ſuppu-</w><lb/><w part="F">rates</w>, it admits of a Cure, then it
+                            <lb/>can be reach'd by proper Medicines <lb/>in the Form of Clyſters; in
+                            the <w part="I">lat-</w><lb/><w part="F">ter</w> end of ſuch a Caſe
+                            Chalybeat <w part="I">Wa-</w><lb/><w part="F">ters</w> are beneficial. </p>
+                        <p rend="indent"><lb/>If the Patient ſurvives three Days, <lb/>the Acuteneſs
+                            of the Pain abates, <lb/>and a Chillineſs or Gruing affects <lb/>the
+                            Body, it betokens a Suppuration, <lb/>and in a few Days the Matter flows
+                            <lb/>either into the Cavity of the <w part="I">Abdo-</w><lb/><w part="F"
+                                >men</w>, producing all the Symptoms <lb/>which happen in the
+                            Impoſthumation <pb xml:id="page_120" n="354"/>
+                            <lb/>of the Liver, or into the Cavity of <lb/>the Inteſtines, and
+                            cauſing a <w part="I">puru-</w><lb/><w part="F">lent</w> Bloody-Flux,
+                            and often a <w part="I">Con-</w><lb/><w part="F">ſumption</w>, <hi
+                                rend="italic">Sinus's, Fiſtulas.</hi>
+                        </p>
+                        <p rend="indent"><lb/>Whey and Chalybeat Waters are <lb/>often beneficial in
+                            ſuch a Caſe, as <lb/>Drinks. </p>
+                        <p rend="indent"><lb/>The Aliment ought to be of ſuch <lb/>things as
+                            generate little or no <w part="I">Excre-</w><lb/><w part="F">ments</w>,
+                            as Broths of Fleſh-Meat, with <lb/>Scorzonera, Parſley, or Fennel boil'd
+                            <lb/>in them; Goats Whey is likewiſe <w part="I">ex-</w><lb/><w part="F"
+                                >cellent</w>; fat and oily Subſtances <w part="I">ge-</w><lb/><w
+                                part="F">nerally</w> hurt. </p>
+                        <p rend="indent"><lb/>The Continuance of the Fever, <lb/>clammy Sweats,
+                            Paleneſs, an ichoroſe <lb/>Diarrhœa, fœtid, black, or like the
+                            <lb/>Waſhings of Fleſh, a ſmall <w part="I">intermit-</w><lb/><w
+                                part="F">ting</w> Pulſe, and at laſt a total <w part="I"
+                                >Ceſſa-</w><lb/><w part="F">tion</w> of Pain, are Signs of a <w
+                                part="I">Gan-</w><lb/><w part="F">grene</w> and approaching Death. </p>
+                        <p rend="indent"><lb/>If none of the foremention'd things <lb/>happen, if
+                            the Fever abates, and the <lb/>Patient complains of a Weight, dull
+                            <lb/>Pain, Stoppage of the Excrements, <pb xml:id="page_121" n="355"/>
+                            <lb/>a Schirrus is forming, which <w part="I">increaſ-</w><lb/><w
+                                part="F">eth</w> daily, and may terminate in a <lb/>Cancer, which
+                            Purging, and indeed <lb/>all Medicines irritate; the Patient in
+                            <lb/>ſuch a Caſe may protract a miſerable <lb/>Life with an exact thin
+                            Diet of Whey, <lb/>Broths, and ſuch things as produce <lb/>no Fœces, or
+                            by alimentary Clyſters. </p>
+                    </div>
+                    <div type="part">
+                        <head rend="italic align-center"><lb/>A Thruſh. </head>
+                        <p rend="indent"><lb/>By this Name are call'd ſmall, <lb/>round,
+                            ſuperficial, Ulcerations, which <lb/>appear firſt in the Mouth, but as
+                            <lb/>they proceed from the Obſtruction <lb/>of the Emiſſaries of the
+                            Saliva, by <lb/>the Lentor and Viſcoſity of the <w part="I"
+                                >Hu-</w><lb/><w part="F">mour</w>, they may affect every Part of
+                            <lb/>the alimentary Duct, except the thick <lb/>Guts; they often ſucceed
+                            Fevers, <w part="I">eſ-</w><lb/><w part="F">pecially</w> thoſe that
+                            inflame the <w part="I">Inte-</w><lb/><w part="F">ſtines</w>, or are
+                            attended with a <w part="I">Looſe-</w><lb/><w part="F">ness</w>; and
+                            they are juſt the ſame in <lb/>the inward Parts as Scabs in the Skin,
+                            <lb/>and fall off from the Inſide of the <pb xml:id="page_122" n="356"
+                            /></p>
+                        <p rend="indent"><lb/>Bowels like a Cruſt: The nearer they <lb/>approach to
+                            a white Colour, the leſs <lb/>dangerous. </p>
+                        <p rend="indent"><lb/>The viſcous Matter is to be puſh'd <lb/>out, therefore
+                            Bleeding in the <w part="I">begin-</w><lb/><w part="F">ning</w> is not
+                            proper, nor Sudorificks, <lb/>becauſe they thicken; but Sweating <lb/>is
+                            beneficial, when the Matter is quite <lb/>puſh'd out; tepid, diluent and
+                            ſmall <lb/>Liquors are good in the firſt State, <lb/>and Bathing, if the
+                            Patient can bear <lb/>it, with Gargariſms, Clyſters; <w part="I"
+                                >after-</w><lb/><w part="F">wards</w> the Food ought to be <w
+                                part="I">nouriſh-</w><lb/><w part="F">ing</w>, detergent, Panadas
+                            with Bread <lb/>and Water, Bread and Milk, <w part="I">Ho-</w><lb/><w
+                                part="F">ney</w> mix'd with the Aliment, when<lb/> they fall,
+                            Aliment demulcent, ſoft, <lb/>anodyne, and the moderate uſe <lb/>of
+                            Rheniſh Wine; when they are <lb/>ſeparated, lenitive, purging <w
+                                part="I">Sub-</w><lb/><w part="F">ſtances</w>. </p>
+                    </div>
+                    <div type="part">
+                        <pb xml:id="page_123" n="357"/>
+                        <head rend="italic align-center"><lb/>Inflammations of the Kidneys. </head>
+                        <p rend="indent"><lb/>The Kidneys are ſubject to <w part="I"
+                                >Inflam-</w><lb/><w part="F">mations</w> as much as other Parts of
+                            <lb/>the Body. </p>
+                        <p rend="indent"><lb/>A pungent Pain in the Region <lb/>of the Kidneys, a
+                            Stupor, or dull <lb/>Pain in the Thigh, Colick, Wind, <lb/>Vomiting, a
+                            Fever, Urine <w part="I">ſome-</w><lb/><w part="F">times</w> totally
+                            ſuppreſs'd, in ſmall <lb/>Quantity, high colour'd; and which is
+                            <lb/>worſe, ſometimes quite pale, <w part="I">with-</w><lb/><w part="F"
+                                >out</w> any Sediment, are Symptoms of <lb/>an Inflammation of the
+                            Kidneys; as <lb/>to the Senſation of outward Heat, <lb/>the Extremity of
+                            Pain often creates a <lb/>Coldneſs in the Extremities, but ſuch <lb/>a
+                            Senſation is very conſiſtent with an <lb/>inflammatory Diſtemper. </p>
+                        <p rend="indent"><lb/>Whatever obſtructs the Blood in <lb/>the Extremities
+                            of the Arteries of the <lb/>Kidneys, will produce this Diſeaſe; <lb/>a
+                            Wound, Abſceſs, Bruiſe, Swelling, <lb/>Lying much on the Back, too <w
+                                part="I">vio-</w><pb xml:id="page_124" n="358"/>
+                            <lb/><w part="F">lent</w> Motion, eſpecially walking in <lb/>hot
+                            Weather; whatever obſtructs the <lb/>Paſſage of the Urine, as a viſcous
+                            <lb/>Matter, Gravel or Stone; every thing <lb/>which drives the Blood
+                            into the <w part="I">Uri-</w><lb/><w part="F">nary</w> Canals, Heat,
+                            hard Riding, too <lb/>great Fulneſs of Blood, but eſpecially <lb/>ſharp
+                            and forcing Diureticks: <w part="I">Laſt-</w><lb/><w part="F">ly</w>,
+                            Spaſms and involuntary <w part="I">Contrac-</w><lb/><w part="F"
+                                >tions</w> of the Veſſels of the Kidneys. </p>
+                        <p rend="indent"><lb/>Coffee-colour'd Urine is not a <w part="I"
+                                >dan-</w><lb/><w part="F">gerous</w> Symptom; it proceeds indeed
+                            <lb/>from a Mixture of a ſmall Quantity <lb/>of Blood with the Urine,
+                            but often <lb/>prognoſticates a Reſolution of the <lb/>obſtructing
+                            Matter, and the <w part="I">Expul-</w><lb/><w part="F">ſion</w> of
+                            Gravel or a Stone after great <lb/>Pain; pale Urine is a Symptom of
+                            <lb/>a more laſting and dangerous <w part="I">Di-</w><lb/><w part="F"
+                                >ſeaſe</w>. </p>
+                        <p rend="indent"><lb/>After plentiful Bleeding, and a <lb/>careful avoiding
+                            of all ſtimulating <lb/>Diureticks, which in this State of the
+                            <lb/>Diſeaſe will increaſe it, the <w part="I">Expul-</w><lb/><w
+                                part="F">ſion</w> of the obſtructing Cauſe muſt <pb
+                                xml:id="page_125" n="359"/><lb/> be promoted by emollient and ſoft
+                            <lb/>Liquors drank plentifully, by <w part="I">Cly-</w><lb/><w part="F"
+                                >ſters</w> of the ſame frequently injected, <lb/>by Bathing and
+                            outward <w part="I">Fomenta-</w><lb/><w part="F">tions</w>, by opiat and
+                            anodyne <w part="I">Sub-</w><lb/><w part="F">ſtances</w>, which ſtupify
+                            and relax the <lb/>Fibres; thoſe Liquors muſt be <w part="I"
+                                >ſwal-</w><lb/><w part="F">low'd</w> down notwithſtanding the <w
+                                part="I">con-</w><lb/><w part="F">tinual</w> Vomiting; for Vomiting
+                            is <lb/>the Inſtrument of Nature to promote <lb/>the Expulſion of the
+                            Stone Gravel, <lb/>or other obſtructing Cauſe. </p>
+                        <p rend="indent"><lb/>Whey, and in a great feveriſh <lb/>Heat, Butter-Milk,
+                            Emulſions of <lb/>Barley and Poppy Seeds, Honey in <lb/>Whey and Water,
+                            are proper Liquors <lb/>for this Intention. </p>
+                        <p rend="indent"><lb/>When the Gravel, Stone, or other <lb/>obſtructing
+                            Cauſe is ſeparated from <lb/>the Kidney, ſoft expreſs'd Oils, and
+                            <lb/>oily Subſtances relax the Paſſages; if <lb/>the Pain proceeds only
+                            from Gravel, <lb/>or a Stone, oily Subſtances may be <lb/>join'd ſafely
+                            with ſtimulating <w part="I">Sub-</w><lb/><w part="F">ſtances</w>, as
+                            with Juice of Limon, <w part="I">Ju-</w><pb xml:id="page_126" n="360"/>
+                            <lb/><w part="F">niper-Water</w>, and ſome diuretick <w part="I"
+                                >Syr-</w><lb/><w part="F">rup</w>; this by the way, for it is out
+                            <lb/>of my preſent Subject. </p>
+                        <p rend="indent"><lb/>Violent Motion, as jolting in a <lb/>Coach, may be
+                            us'd in this Caſe. </p>
+                        <p rend="indent"><lb/>The Pain protracted beyond ſeven <lb/>Days, a
+                            Pulſation, Chillneſs, often <lb/>and irregularly returning, a Heavineſs
+                            <lb/>and Stupor in the Part, are Signs of <lb/>making of Matter, which
+                            when <lb/>made will appear in the Urine. </p>
+                        <p rend="indent"><lb/>In which Caſe ſoft and balſamick <lb/>Subſtances are
+                            beneficial, for if the <lb/>Matter ſtays long, the Caſe is <w part="I"
+                                >incu-</w><lb/><w part="F">rable</w>. </p>
+                        <p rend="indent"><lb/>It happens ſometimes to end in a <lb/>Fiſtula, with
+                            which the Patient may live many <lb/>Years in no great <w part="I"
+                                >Uneaſi-</w><lb/><w part="F">finess</w>. Butter-Milk, not very ſour,
+                            <lb/>has been reckon'd a great Secret in <lb/>Ulcers of the Kidneys, and
+                            Chalybeat <lb/>Waters have been beneficial to ſome; <lb/>Spruce Beer is
+                            a good Balſamick in <lb/>ſuch a Caſe: I ſhould adviſe ſoft Malt
+                            <lb/>Liquors rather than Wine. </p>
+                        <p rend="indent">
+                            <pb xml:id="page_127" n="361"/>
+                        </p>
+                        <p rend="indent"><lb/>Inflammations of the Kidneys <lb/>ſometimes end in a
+                            Schirrus, or great <lb/>Stone in the Kidneys. </p>
+                        <p rend="indent"><lb/>A ſudden Remiſſion of the <lb/>Pain, with cold Sweats,
+                            weak and <w part="I">inter-</w><lb/><w part="F">mitting</w> Pulſe,
+                            Hickup; no Urine, <lb/>or in ſmall Quantity, black and <w part="I"
+                                >fœ-</w><lb/><w part="F">tid</w>, are Signs of a Mortification and
+                            <lb/>approaching Death. </p>
+                        <p rend="indent"><lb/>The Regimen of ſuch as are <w part="I">ſub-</w><lb/><w
+                                part="F">ject</w> to nephritick Symptoms may be<lb/> in ſome meaſure
+                            taken from what is <lb/>above-mentioned. </p>
+                        <p rend="indent"><lb/>Such ought to be extremely <w part="I"
+                                >care-</w><lb/><w part="F">ful</w> of the choice of their Liquors;
+                            <lb/>ſharp Wines which abound with <lb/>Tartar, are hurtful; Malt
+                            Liquors, <lb/>not hard, nor ſtale, are certainly <w part="I"
+                                >bet-</w><lb/><w part="F">ter</w> to make uſe of; ſome of the
+                            <lb/>ſofteſt Diureticks mentioned <hi rend="italic">Chap.</hi> I.
+                            <lb/>No 15. to avoid acrimonious <w part="I">Sub-</w><lb/><w part="F"
+                                >ſtances</w> in their Aliment, uſe <w part="I">mode-</w><lb/><w
+                                part="F">rate</w> Exerciſe, and not to lie hot, ſoft,<lb/>nor much
+                            upon the Back. </p>
+                    </div>
+                    <div type="part">
+                        <pb xml:id="page_128" n="362"/>
+                        <head rend="italic align-center"><lb/>Apoplexy. </head>
+                        <p rend="indent"><lb/>This Diſeaſe is a ſudden Abolition <lb/>of all the
+                            Senſes, external and <w part="I">inter-</w><lb/><w part="F">nal</w>, and
+                            of all voluntary Motion, by <lb/>the Stoppage of the Flux or Reflux
+                            <lb/>of the Animal Spirits through the <lb/>Nerves deſtin'd for thoſe
+                            Motions, <lb/>commonly attended with a ſtrong <lb/>Pulſe, laborious
+                            Breathing, a deep <lb/>Sleep with Snorting. </p>
+                        <p rend="indent"><lb/>There is no difference between a <lb/>Perſon aſleep,
+                            and in an Apoplexy, <lb/>but that the one can be awak'd, and <lb/>the
+                            other cannot. </p>
+                        <p rend="indent"><lb/>The Cauſes of this Diſeaſe are a <lb/>particular
+                            Confirmation of the Body, <lb/>as a ſhort Neck; for there be ſome
+                            <lb/>who have fewer Vertebræ in their <lb/>Necks than others;
+                            long-necked <w part="I">Peo-</w><lb/><w part="F">ple</w> are ſubject to
+                            Conſumptions, and <lb/>ſhort-neck'd to Apoplexies, tho' this <lb/>Rule
+                            is not generally true; a groſs, <w part="I">ple-</w><lb/><w part="F"
+                                >thorick</w>, fat, phlegmatick <w part="I">Conſtitu-</w><pb
+                                xml:id="page_129" n="363"/><lb/><w part="F">tion</w>; whatever
+                            hinders the Motion <lb/>of the Blood through the Arteries of <lb/>the
+                            Brain, as polypoſe Concretions, <lb/>eſpecially about the Heart,
+                            attended, <lb/>commonly with an unequal Pulſe, a <lb/>Vertigo, and
+                            ſometimes a <w part="I">momenta-</w><lb/><w part="F">ry</w> Loſs of the
+                            Eye-ſight; an <w part="I">inflam-</w><lb/><w part="F">matory</w> and
+                            coreaceous Thickneſs of <lb/>the Blood, preceded by a Fever, <w part="I"
+                                >at-</w><lb/><w part="F">tended</w> with the Head-ach, Redneſs
+                            <lb/>of the Face and Eyes; Old Age, <w part="I">at-</w><lb/><w part="F"
+                                >tended</w> with a glutinous, cold, <w part="I">ca-</w><lb/><w
+                                part="F">tarrhous</w>, leucophlegmatick <w part="I"
+                                >Conſtitu-</w><lb/><w part="F">tion</w>; in ſuch, the Forerunners of
+                            <lb/>an Apoplexy are Dulneſs, Inactivity, <lb/>Drowſineſs, Sleepineſs,
+                            Slowneſs of <lb/>Speech and giving Anſwers, <w part="I"
+                                >Verti-</w><lb/><w part="F">goes</w>, Tremblings, Oppreſſions in
+                            <lb/>Sleep, Night-Mares; Weakneſs, <w part="I">Wa-</w><lb/><w part="F"
+                                >teryness</w>, and Turgidity of the Eyes; <lb/>pituitous Vomiting,
+                            laborious <w part="I">Breath-</w><lb/><w part="F">ing</w> upon the
+                            ſmalleſt Motion; <w part="I">what-</w><lb/><w part="F">ever</w>
+                            compreſſeth the Veſſels of the <lb/>Brain ſo as to ſtop the Flux of the
+                            <lb/>animal Spirits and Blood; a great <pb xml:id="page_130" n="364"/>
+                            <lb/>Fulneſs of Blood with its Velocity, <lb/>increas'd by Heat, violent
+                            Motion, <lb/>a high Diet, ſpirituous Liquors, <w part="I">Tu-</w><lb/><w
+                                part="F">mours</w> of any kind; within the Skull <lb/>a partial and
+                            imperfect Circulation <lb/>of the Blood towards the lower <lb/>Parts.
+                            The Effuſion and Preſſure of <lb/>any Seroſity or Blood upon the <w
+                                part="I">Ven-</w><lb/><w part="F">tricles</w> of the Brain (which is
+                            the <lb/>moſt common and immediate Cauſe <lb/>of Apoplexies) violent
+                            Paſſions and <lb/>Affections of the Mind. The <w part="I">im-</w><lb/><w
+                                part="F">mediate</w> Forerunners of an <w part="I">Apo-</w><lb/><w
+                                part="F">plexy</w> are commonly a Vertigo, <lb/>Staggering, Loſs of
+                            Memory, <w part="I">Stu-</w><lb/><w part="F">por</w>, Sleepineſs, a
+                            Noiſe in the Ears, <lb/>and a more deep and laborious <lb/>Breathing;
+                            thoſe laſt Symptoms <w part="I">com-</w><lb/><w part="F">monly</w>
+                            precede an Apoplexy, but <lb/>they are likewiſe common to it with
+                            <lb/>other nervous and hyſterical <w part="I">Diſtem-</w><lb/><w
+                                part="F">pers</w>. </p>
+                        <p rend="indent"><lb/>Attention to the foremention'd <lb/>Symptoms affords
+                            the beſt Cautions <lb/>and Rules of Diet by way of <w part="I"
+                                >Pre-</w><pb xml:id="page_131" n="365"/>
+                            <lb/><w part="F">vention</w>; for when it has taken place <lb/><hi
+                                rend="italic">Hippocrates</hi>'s Prognoſtick is generally <lb/>true,
+                            That it is very hard to reſolve <lb/>a ſmall Apoplexy, and quite <w
+                                part="I">impoſ-</w><lb/><w part="F">ſible</w> to reſolve a great
+                            one, the <w part="I">gen-</w><lb/><w part="F">tleſt</w> Kind of this
+                            Diſeaſe is often <w part="I">ta-</w><lb/><w part="F">ken</w> off by
+                            Sweating. </p>
+                        <p rend="indent"><lb/>The Applications in the Fit are <lb/>of the Medicinal
+                            Kind, it being too <lb/>acute a Diſeaſe to admit of any Helps <lb/>from
+                            Diet, but that may be of great <lb/>uſe for Prevention; a thin, ſlender,
+                            <lb/>cool, regular Diet, oppoſite to the <lb/>particular Symptoms <w
+                                part="I">above-men-</w><lb/><w part="F">tion'd</w>; frequent and
+                            copious <w part="I">Bleed-</w><lb/><w part="F">ing</w>; keeping the
+                            Belly always open; <lb/>ſtimulating Subſtances, which have <lb/>been
+                            thought beneficial, in this Caſe <lb/>very often hurt, by forcing the
+                            Blood <lb/>too much up to the Head; <w part="I">Vomit-</w><lb/><w
+                                part="F">ing</w> may prove extremely pernicious, <lb/>but the
+                            Regimen is to be varied <w part="I">ac-</w><lb/><w part="F">cording</w>
+                            to the Cauſe of the Diſeaſe, <lb/>which may be collected from the
+                            <lb/>Conſtitution of the Patient in theſe <pb xml:id="page_132" n="366"
+                            /><lb/>Apoplexies, which depend upon a <lb/>ſanguineous Cauſe: The
+                            Regimen <lb/>preſcrib'd in ſanguineous <w part="I">Conſtitu-</w><lb/><w
+                                part="F">tions</w> is proper; fat and <w part="I"
+                                >phlegma-</w><lb/><w part="F">tick</w> People, who are very ſubject
+                            to <lb/>this Diſeaſe, ought to attend to the <lb/>Rules preſcribed in
+                            their Caſe; and <lb/>as there are Apoplexies from <w part="I"
+                                >invete-</w><lb/><w part="F">rate</w> Gouts, the Regimen of ſuch
+                            <lb/>muſt be different from both, the <lb/>Intention being to tranſlate
+                            the <w part="I">mor-</w><lb/><w part="F">bifick</w> Matter upon the
+                            Extremities of <lb/>the Body. </p>
+                        <p rend="indent"><lb/>Thoſe who have a Diſpoſition to <lb/>this Diſeaſe
+                            ought never to go to <lb/>Bed with a full Stomach, nor to lie <lb/>with
+                            their Head low. </p>
+                        <p rend="indent"><lb/>An Apoplexy is reſolv'd by a <w part="I"
+                                >Fe-</w><lb/><w part="F">ver</w>, and when not fatal terminates in
+                            <lb/>a Palſy. </p>
+                        <p rend="indent"><lb/>There is a Diſeaſe of the ſame <lb/>Kind, but not ſo
+                            frequent, call'd a <lb/>Catalepſis, wherein the Patient is <lb/>ſuddenly
+                            ſeiz'd without Senſe or <w part="I">Mo-</w><lb/><w part="F">tion</w>,
+                            and remains in the ſame <w part="I">Po-</w><pb xml:id="page_133" n="367"/>
+                            <lb/><w part="F">ſture</w> in which the Diſeaſe ſeizeth <lb/>him, the
+                            Muſcles remaining in the <lb/>ſame Tenſion: Violent Fevers in
+                            <lb/>ſtrong atrabilarious dry Conſtitutions <lb/>has produc'd this
+                            Diſtemper; the <lb/>Diet after the Fit is off ought to be
+                            <lb/>moiſtening and relaxing. A <w part="I">Lethar-</w><lb/><w part="F"
+                                >gy</w> is a lighter ſort of Apoplexy, <lb/>and demands the ſame
+                            Cure and <lb/>Diet as an Apoplexy from a <w part="I">phleg-</w><lb/><w
+                                part="F">matick</w> Caſe, ſuch being the <w part="I"
+                                >Conſti-</w><lb/><w part="F">tution</w> of the Lethargick. </p>
+                    </div>
+                </div>
+            </div>
+            <gap reason="sampling" unit="pages" quantity="64"/>
+        </body>
+    </text>
+</TEI>

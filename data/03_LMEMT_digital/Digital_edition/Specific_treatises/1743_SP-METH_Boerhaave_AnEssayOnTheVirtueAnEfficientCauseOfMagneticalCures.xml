@@ -1,0 +1,1230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LMEMT Corpus - Boerhaave: An essay on the virtue and efficient cause of magnetical
+          cures</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>Herman Boerhaave</persName>
+            </author>
+            <title type="main">An essay on the virtue and efficient cause of magnetical cures. To
+              which is added, a new method for curing wounds without pains, and without the
+              application of remedies. Hitherto kept as a Secret in private Families. Written
+              originally in Latin, by the famous Dr. Herman Boerhaave, Professor at the University
+              of Leyden in Holland, But never Published till now. By a Relation of the said Doctor;
+              For the Good of the Publick.</title>
+            <edition n="1"/>
+            <idno type="ESTC">T84422</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/T61950"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>London: Printed in the Year MDCCXLIII.</persName>
+              </publisher>
+              <date>1743</date>
+            </imprint>
+            <extent>
+              <measure type="format">8⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="5"/>
+              <measure type="count" commodity="body" unit="page" quantity="56"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">British Library</orgName>
+            <idno type="ECCO">CW3306914479</idno>
+            <idno type="TCP">K068841.000</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="General treatises"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text xml:lang="eng">
+    <front>
+      <gap reason="sampling" unit="pages" quantity="4"/>
+    </front>
+    <body>
+      <pb xml:id="page_6" n="7"/>
+      <head rend="align-center"><lb/>AN <lb/><hi rend="dc(2)">ESSAY</hi>
+        <lb/>ON THE <lb/><hi rend="size(1.5)"><hi rend="sc">Virtue</hi> and Efficient <hi rend="sc"
+            >Cause </hi></hi><lb/>OF <lb/>MAGNETICAL CURES. </head>
+      <p rend="space"><lb/>
+        <figure>
+          <figDesc>Decorative frame around the letter "I".</figDesc>
+        </figure>
+        <hi rend="dc(3)">I</hi>T is needleſs, to give a Definition <lb/>of what is underſtood by <w
+          part="I">Magneti-</w><lb/><w part="F">cal</w> Cures. Since the Invention of <lb/>a certain
+        Powder made of Vitriol <lb/>calcin'd, or rather exſiccated by the <lb/>Reverberation of the
+        Sun-beams, <lb/>commonly call'd <hi rend="italic">Sympathetical <w part="I">Pow-</w><lb/><w
+            part="F">der</w>,</hi> People ſeem almoſt to be convinc'd, that there <lb/>is another
+        Way for Curing, chiefly certain Wounds, <lb/>than by an immediate Application of certain <w
+          part="I">Reme-</w><lb/><w part="F">dies</w> to the Part afflicted. Only the Difference
+        lieth <lb/>herein, that a great many either out of Prevention, <lb/>or perhaps ſometimes out
+        of Ignorance or <w part="I">Self-inte-</w><lb/><w part="F">reſt</w>, ſtiffly maintain, that
+        the Cauſe of ſuch Cures is <lb/>in nothing elſe to be look'd for, than in the <w part="I"
+          >Super-</w><pb xml:id="page_7" n="8"/><lb/><w part="F">ſtition</w> of certain People. Some
+        go ſtill farther, and <lb/>do aſcribe the Virtue to certain Ceremonies and even <lb/>to
+        Charms. Of the laſt Opinion are at this Day <lb/>few, more of the firſt; and it ſeems, as if
+        this <w part="I">opi-</w><lb/><w part="F">nion</w> was ſupported by the Experience itſelf
+        made <lb/>by many People, with the ſaid Sympathetical Powder <lb/>to no Purpoſe; which hath
+        given Room to them to <lb/>ſay, that the Effects of this Powder, if there are any, <lb/>are
+        only viſible according to the more or leſſer Share <lb/>of Superſtition, the Perſon is
+        poſſeſs'd with, who <lb/>maketh Uſe thereof. Moreover the little Practice <lb/>made with
+        this Powder, tho' nothing at all expenſive, <lb/>and though the Advantage of Novelty it
+        hath, is <lb/>again an other Argument by which they ſtrive to <lb/>evidence, that there is
+        no relying at all on this <lb/>Remedy. </p>
+      <p rend="indent"><lb/>In my Opinion both Parties are equally to be <lb/>blamed. The one, for
+        aſcribing to a Thing more <lb/>than really is in it, or can be produced by its <w part="I"
+          >Inter-</w><lb/><w part="F">vention</w>, though all imaginable Care is taken in <lb/>the
+        Preparation of it; and the other, for deriding <lb/>every Thing they are not able to
+        comprehend with <lb/>their Senſes. My Intention is therefore here, to <lb/>conſider on the
+        efficient Cauſe of Magnetical Cures, <lb/>which will be a Means to prove the Poſſibility <w
+          part="I">there-</w><lb/><w part="F">of</w>; and this being done, I ſhall conclude with <w
+          part="I">pub-</w><lb/><w part="F">liſhing</w> for the Good of the Publick, a Method to
+        <lb/>be depended upon, and hitherto kept as a Secret in <lb/>private Families, for
+        magnetically curing certain <lb/>Wounds without Pains and without the Application <lb/>of
+        any Remedy. </p>
+      <p rend="indent"><lb/>There is a Kind of Affection between all and <lb/>every Thing, by Virtue
+        of which, they alter or <w part="I">af-</w><lb/><w part="F">fect</w> one another without a
+        viſible Touching. The <lb/>daily Experience convinceth us thereof, and who <w part="I"
+          >de-</w><lb/><w part="F">nieth</w> it, <lb/><q rend="italic">Oſtendi Solem poſtulat ille
+          ſibi.</q>
+      </p>
+      <pb xml:id="page_8" n="9"/>
+      <p rend="indent"><lb/>The Examination and Knowledge of theſe <w part="I">Quali-</w><lb/><w
+          part="F">ties</w> and hidden Virtues in Nature, is call'd natural <lb/>Magick, founded
+        upon the Sympathies of Things, <lb/>and who is acquainted with the Concord or Diſcord
+        <lb/>therein, is call'd skilful in Magicks, and able to <lb/>produce many marvelous Effects,
+        appearing to the <lb/>Vulgar to be contriv'd by the Help of Daemons; <lb/>though this
+        Myſtery is nothing elſe, but a Science <lb/>of the Sympathies and Antipathies between <w
+          part="I">ſuperi-</w><lb/><w part="F">our</w> and inferiour Things. </p>
+      <p rend="indent"><lb/>Sympathy is a mutual Conſent between Phyſical and <lb/>Natural Things,
+        by which they friendly embrace one <lb/>another, call'd by ſome a Compaſſion. <hi
+          rend="italic">Galen</hi> uſeth <lb/>the Word of Friendſhip, <hi rend="italic">Pliny</hi>
+        Concord, and <hi rend="italic">Tully</hi>
+        <lb/>a Conveniency and natural Continuation; for though <lb/>the Bodies of Iron and a
+        Loadſtone are diſtant from <lb/>one another, nevertheleſs Nature is alſo continued <lb/>in
+        them, that they agree or meet in one. The ſame <lb/>calleth it an Affinity in Nature, and
+          <hi rend="italic">Bapt. Porta</hi> a <lb/>Conſent; by others it is metaphorically named a
+        <lb/>Symphony or Harmony. Antipathy is a mutual <lb/>Affection between Things, by virtue of
+        which they <lb/>ſhun, abhor, or are againſt one another. <hi rend="italic">Galen</hi> and
+          <lb/><hi rend="italic">Pliny</hi> are calling it a Fighting and Diſcord; others <lb/>a
+        Diſſenting, Enmity, Variance and Hatred; others <lb/>a Reſiſtance, as hindering or reſiſting
+        Actives to be <lb/>applied to Paſſives. </p>
+      <p rend="indent"><lb/>As from the Sympathy of ſuperiour and celeſtial <lb/>Virtues ariſeth a
+        Drawing, <hi rend="italic">(attractio)</hi> and conveying <lb/><hi rend="italic"
+          >(deductio)</hi> to the Terrene and inferiour Body, alſo <lb/>from Antipathy a Reſiſtance;
+          <hi rend="italic">Plato</hi> calls therefore <lb/>Magick the Attraction or Drawing of one
+        Thing <lb/>from another, cauſed by an Affinity in Nature. </p>
+      <p rend="indent"><lb/>Now all the Parts of this World, or all the <lb/>Members of one Animal,
+        depending from one <w part="I">Au-</w><lb/><w part="F">thor</w> and Principle, are joyned
+        together by one and <lb/>the ſame Nature. In us, the Brain, Heart, Lungs, <lb/>Liver and the
+        Reſt draw ſomething from one <w part="I">ano-</w><pb xml:id="page_9" n="10"/><lb/><w
+          part="F">ther</w>, and mutually aſſiſt one another; alſo that if <lb/>one of them
+        ſuffereth, the Others are likewiſe <w part="I">ſuf-</w><lb/><w part="F">fering</w> or
+        compatiſing. The ſame it is in reſpect <lb/>of all the Bodies in this World joined together;
+        <lb/>they likewiſe ſerve and are ſerved mutually by one <lb/>another; and from this common
+        Alliance, or <w part="I">Affi-</w><lb/><w part="F">nity</w>, ariſeth a common Love, and from
+        this <w part="I">com-</w><lb/><w part="F">mon</w> Love a common Attraction or Drawing. This
+        <lb/>is the Reaſon, that the Loadſtone draws Iron unto <lb/>it, and the Sun many Flowers:
+        This is the Reaſon <lb/>that <hi rend="italic">Heliotropium</hi> turneth with the Sun both
+        at <lb/>Riſing and going down, and <hi rend="italic">Selinetropium</hi> with the <lb/>Moon. </p>
+      <p rend="indent"><lb/>We ought to conſider Sun, Moon and the reſt <w part="I">ac-</w><lb/><w
+          part="F">cording</w> to the terrene Quality; and Stones, <w part="I">Vege-</w><lb/><w
+          part="F">tables</w> and Animals according to the celeſtial <w part="I">Quali-</w><lb/><w
+          part="F">ty</w>; and ſo we will find, that what is above, hath <lb/>Connexion with what is
+        below, and what is below, <lb/>with what is above. For, by the fatal Law given by <lb/>our
+        Creator, the terrene Body is to ſerve the celeſtial; <lb/>and as every individual Part of
+        the firſt is endued <lb/>with a Matrix adapted to bring forth its like, ſo the <lb/>laſt is
+        appointed to animate it continually with a <w part="I">cer-</w><lb/><w part="F">tain</w>
+        Subſtance, which is able to cauſe its engendering <lb/>and begetting without Intermiſſion.
+        The Sympathy <lb/>and Antipathy, ſo notable in Animals, Minerals and <lb/>Vegetables, is
+        therefore to nothing elſe to be <w part="I">aſcri-</w><lb/><w part="F">bed</w>, than to the
+        Influence of the celeſtial Bodies; <lb/>and their Impreſſion according to the Conſtitution
+        <lb/>of each Species and individual Being, either in general <lb/>or ſometimes according to
+        the ſingular Fabrick of <lb/>one Species in particular. Alſo a Saphire, to ſpeak
+        <lb/>generally, is no where offenſive to the Eyes; but <lb/>nevertheleſs there hath been
+        found one who did <lb/>ſtrike the Sight of the Eye by the firſt <w part="I"
+          >Applicati-</w><lb/><w part="F">on</w>. </p>
+      <p rend="indent"><lb/>But by what Means ſome natural Things join <w part="I">to-</w><lb/><w
+          part="F">gether</w> is very difficult to demonſtrate out of <w part="I">com-</w><pb
+          xml:id="page_10" n="11"/><lb/><w part="F">mon</w> Philoſophy. Becauſe what is joyned or
+        coupled <lb/>to a Thing, is of the ſame Being or Eſſence, or is <lb/>of the Quality of this
+        Being; or is in it, as the Form <lb/>is in the Subject, or appertains to it or toucheth it
+        <lb/>either like a Thing tranſmuting, in reſpect to what <lb/>is tranſmuted, or like Art in
+        reſpect of the Subject <lb/>Matter. <hi rend="italic">Moſes</hi> ſeems to have clearly
+        expounded to <lb/>us five Things faſten'd or knit together; Heaven <lb/>and Earth, Earth and
+        Voidneſs, a bottomleſs Gulph <lb/>and Darkneſs, the Spirit of God and the Waters, <lb/>Light
+        and Bodies. The firſt Way of this <w part="I">Connex-</w><lb/><w part="F">ion</w> is
+        ſignified by the Earth empty and void. For <lb/>an empty and void Earth is its Matter before
+        it is <lb/>ſupply'd with a Form from elſewhere. </p>
+      <p rend="indent"><lb/>The ſecond Way of Connexion is ſignified by <lb/>Darkneſs all over the
+        Face of the bottomleſs Gulph. </p>
+      <p rend="indent"><lb/>The third by Light ſpringing up, riſing, or <w part="I">com-</w><lb/><w
+          part="F">ing</w> upon the Bodies. </p>
+      <p rend="indent"><lb/>The fourth, by Heaven and Earth; the one <w part="I">be-</w><lb/><w
+          part="F">ing</w> joined to the other, as Actives to Paſſives, or as <lb/>a Thing
+        tranſmuting, to what is to be tranſmuted. </p>
+      <p rend="indent"><lb/>The fifth, by the Spirit of the Lord. </p>
+      <p rend="indent"><lb/>But let us ſee, how this is in us. Earth is a <w part="I"
+          >ter-</w><lb/><w part="F">rene</w> Body, empty of Life, void of Senſe; above it <lb/>are
+        Darkneſs, Dulneſs, Death, Stupidity, and no <lb/>Feeling. </p>
+      <p rend="indent"><lb/>Light is Life, which quickeneth, moveth, ſtirreth, <lb/>and giveth Senſe
+        to it. </p>
+      <p rend="indent"><lb/>Heaven is the Soul and the Spring of this Light. </p>
+      <p rend="indent"><lb/>The Spirit of God is the Underſtanding, the <lb/>Brightneſs of the
+        divine Countenance. The Reaſon <lb/>of this Joyning, or Connexion is this: The Body <lb/>is
+        void in itſelf, hath its Darkneſs; then it is joined <lb/>to Light, through Light to Heaven,
+        through <w part="I">Hea-</w><lb/><w part="F">ven</w> to a ſpiritual Subſtance, as appears by
+        the <w part="I">fol-</w><lb/><w part="F">lowing</w>, <hi rend="italic">viz.</hi>
+      </p>
+      <q><lb/><l rend="italic">The bottomleſs Gulph, </l>
+        <lb/><l rend="italic align-center">Darkneſs, </l>
+        <pb xml:id="page_11" n="12"/>
+        <lb/><l rend="italic">Void of Life. Earth. Void of Senſe, </l>
+        <lb/><l rend="italic">Light, Quickening and giving Life. </l>
+        <lb/><l rend="italic">Heaven, the Spring of Light, </l>
+        <lb/><l rend="italic">The Spirit. </l></q>
+      <p rend="indent"><lb/>Here we ſee in what Order Things created are <lb/>knit together. Here we
+        ſee the Bond and Knot of <lb/>the Natural Benevolence. But what Philoſophy is <lb/>this you
+        will ſay? Certainly not a vulgar one, which <lb/>judgeth of Things by Senſe, Matter and
+        manifeſt <lb/>Qualities; but a heavenly, more ſubtile and an <w part="I">ab-</w><lb/><w
+          part="F">ſtraſe</w> one. </p>
+      <p rend="indent"><lb/>Body and Soul being Subſtances very far diſtant <lb/>from one another,
+        there was need of a mean Bond <lb/>to join theſe diſtant Subſtances together, and to this
+        <lb/>Purpoſe is that thin and ſpiritual ſmall Body <w part="I">ap-</w><lb/><w part="F"
+          >pointed</w>, which Phyſicians, as well as Philoſophers, <lb/>call Spirit. This copulating
+        Spirit is more excellent <lb/>than the Elements, and even anſwers to Heaven. <lb/><hi
+          rend="italic">Ariſtoteles</hi> ſpeaks of this Proportion thus: Like as <lb/>all the Virtue
+        of the Heavens is conveyed to the <lb/>Earth by the Vehicle of Light; alſo all the <w
+          part="I">Facul-</w><lb/><w part="F">ties</w> of the Soul, <hi rend="italic">viz.</hi>
+        Life, Motion and Senſes are, <lb/>by the Help of this bright Spirit, convey'd and
+        <lb/>transferr'd to the terrene Body. That all what I <lb/>have ſaid, may be more
+        convincing, I ſhall produce <lb/>ſome memorable Examples of <hi rend="italic"
+          >Antipathys</hi> and <hi rend="italic">Sym-<lb/>pathys,</hi> which Authors of no little
+        Authority have <lb/>left to Poſterity. </p>
+      <p rend="indent"><lb/>Firſt of all we meet with a notable Antipathy <lb/>in Poiſons; not every
+        Antidote reſiſts all Sorts of <lb/>Poiſon, according to <hi rend="italic">Galen.</hi>—<hi
+          rend="italic">de Antid.</hi> Each Kind <lb/>of Poiſon hath its particular Antidote. </p>
+      <p rend="indent"><lb/>The <hi rend="italic">Scythians</hi> were uſed to beſmear their Arrows,
+        <lb/>and Sabres, with a certain Poiſon compos'd of <w part="I">hu-</w><lb/><w part="F"
+          >man</w> Blood, and a Matter coming out of <w part="I">Putrefac-</w><lb/><w part="F"
+          >tion</w>; corrupt and filthy Blood of Vipers; a ſlight <pb xml:id="page_12" n="13"
+        /><lb/>Wound with an Inſtrument alſo prepared was <w part="I">dead-</w><lb/><w part="F"
+          >ly</w>, and nothing could help but <hi rend="italic">Cantharides,</hi> which,
+        <lb/>againſt all other Poiſons is ineffectual, according to <lb/><hi rend="italic"
+          >Galen</hi> and <hi rend="italic">Dioſcorides.</hi>
+      </p>
+      <p rend="indent"><lb/>According to <hi rend="italic">Pliny,</hi> there is no greater Poiſon
+        for <lb/>Trees than wild <hi rend="italic">Parſnip,</hi> becauſe, being near them, <lb/>it
+        taketh not only all the Subſtance away, but it <lb/>boreth and pierceth Holes, like as with
+        a Sword, <lb/>through the very Roots of the Trees. </p>
+      <p rend="indent"><lb/><hi rend="italic">Galen,</hi> I. de Theriaca ad <hi rend="italic"
+          >Piſon.</hi> affirms, that a <lb/>Herb call'd <hi rend="italic">Trifoly</hi> boiled and
+        applied to Bitings of <lb/>Vipers, is to take immediately away all Pains; but <lb/>if
+        apply'd on ſound People, that it cauſeth the ſame <lb/>Pains People ſuffer being bit by
+        Vipers. <hi rend="italic">Scaliger</hi>
+        <lb/>endeavours to give a Reaſon of this Myſtery, but <lb/>it is more according to the
+        Subtilty of his Genius than <lb/>a true one. So much of Poiſons. </p>
+      <p rend="indent"><lb/>But what ſhall we ſay of the invincible Hardneſs <lb/>of a Diamond,
+        which contemptibly withſtands the <lb/>two greateſt; Forces in Nature; and, <w part="I"
+          >notwithſtand-</w><lb/><w part="F">ing</w>, yields to Goat's Blood, being ſteep'd therein
+        <lb/>when it is freſh and warm? </p>
+      <p rend="indent"><lb/>Is not this a ſurprizing Example of a natural <w part="I">Va-</w><lb/><w
+          part="F">riance</w> or Diſcord? By what Ingenuity hath this <lb/>been found out? By what
+        Accident, or what <w part="I">Con-</w><lb/><w part="F">jecture</w> was there only to
+        experiment ſuch an <w part="I">im-</w><lb/><w part="F">menſe</w> Secret, chiefly in a Goat,
+        the filthieſt of all <lb/>Animals? </p>
+      <p rend="indent"><lb/>A Lion, feared by all Animals, and who careth <lb/>neither Tyger nor
+        Bear, is, notwithſtanding <w part="I">aſtoniſh-</w><lb/><w part="F">ed</w> at the Sight of a
+        far weaker Animal, a Cock. <lb/>Do you ask the Reaſon thereof? Perhaps there is a
+        <lb/>certain Strength in the Eyes of a Cock, as ſome <lb/>think, repugnant to the Eyes of a
+        Lion. Certainly <lb/>we cannot look for the Reaſon of it in the Matter <lb/>or Senſes,
+        otherwiſe we would fall into endleſs <w part="I">Per-</w><lb/><w part="F">plexities</w>; but
+        we muſt look for it in the <w part="I">Contem-</w><lb/><w part="F">plation</w> of Things
+        above us. I remit my Readers to <pb xml:id="page_13" n="14"/><lb/><hi rend="italic"
+          >Proclus</hi> in his Book of <hi rend="italic">Magicks,</hi> where he giveth <lb/>a
+        Reaſon, <hi rend="italic">ex profeſſo,</hi> of this ſeeming Prodigy. </p>
+      <p rend="indent"><lb/>Who knows not the Diſcord between a Spider and <lb/>a Toad or Serpent?
+        The firſt, perceiving one of the laſt <lb/>under the Shade of a Tree, after having it
+        artfully <lb/>entangled in its Web, pierceth its Brains with ſuch a <lb/>Force, that it is
+        no more able to diſentangle itſelf <lb/>from its Priſon; nor dothit find an End thereof till
+        <lb/>it is dead. </p>
+      <p rend="indent"><lb/>The Antipathy between an Aſh-Tree and a <w part="I">Ser-</w><lb/><w
+          part="F">pent</w>, hath been ſo much experimented, that we <lb/>know from thence, that a
+        Serpent will always ſhun, <lb/>even the Morning and Evening Shade of this Tree, <lb/>and fly
+        from it ſo far, that a Fire being made on <lb/>one Side, and on the other a Semi-Circle of
+        Leaves <lb/>and Branches of an Aſh-Tree, it rather will jump, <lb/>and endeavour to eſcape
+        through the Fire, than paſs <lb/>the Aſh-Tree. </p>
+      <p rend="indent"><lb/>I proceed to Vegetables, where equally we meet <lb/>with an evident and
+        notable Diſcord. For an Oak-<lb/>Tree will not proſper in Places where Olives grow; <lb/>and
+        an Olive-Tree leaveth in Groves of Oaks, <lb/>ſuch offenſive Roots, which actually do kill
+        the <lb/>Oak-Trees. The ſame being planted near Wallnut-<lb/>Trees, either dieth itſelf or
+        remains always weak, or <lb/>cauſeth the ſame Effects in the Wallnut. </p>
+      <p rend="indent"><lb/>The Hatred between Colewort or Cabbage and <lb/>Vines, is more viſible.
+        For a Vine with its crooked <lb/>Tendrels doth tye and bind itſelf to every Thing <lb/>that
+        it doth catch, only it refuſeth the ſame to <w part="I">Cab-</w><lb/><w part="F">bage</w>,
+        and being near it, it bends to the oppoſite <lb/>Side. Colewort or Cabbage being boiling, if
+        only a <lb/>few Drops of Wine are pour'd upon it, will <w part="I">imme-</w><lb/><w part="F"
+          >diately</w> ceaſe to boil, and the Cabbage will loſe its <lb/>Colour. The ſame will dry
+        through and through, if <hi rend="italic">Cy-<lb/>clamen,</hi> a Kind of Briony or Origan,
+        or wild Marjorum <lb/>is near it; and Vines will become worſe in the <lb/>Neighbourhood of
+        Bay-Trees. </p>
+      <pb xml:id="page_14" n="15"/>
+      <p rend="indent"><lb/>There is ſuch an Antipathy between a Crab and <lb/>Polypody, that this
+        Herb being apply'd, will cauſe <lb/>its throwing off the Shell wherewith it is covered, or
+        <lb/>at leaſt its Claws. Fern and Reeds are ſo repugnant <lb/>to one another, that neither
+        of them will ſuffer the <lb/>other near it, which is the Reaſon that we neither <lb/>find
+        Fern in Places where Reeds grow, nor Reeds <lb/>in Ferny Grounds. </p>
+      <p rend="indent"><lb/><hi rend="italic">Homer, Pliny</hi> and <hi rend="italic"
+          >Dioſcorides,</hi> do report, that <lb/>Alyſſon, St. John's Wort and Rue, or Herbgrace,
+        <lb/>are of ſuch a natural Repugnancy againſt malignant <lb/>Spirits, that like Heads of
+        Wolves affixed to Gates, <lb/>ſo theſe Herbs hang'd up in Houſes, do ſecure Men <lb/>and
+        Beaſts againſt all kinds of Sorcery or Poiſon. <lb/><hi rend="italic">Homer,</hi> who by his
+        Travels got a great Skill in <lb/>Magicks, relateth, that <hi rend="italic">Mercurius</hi>
+        arm'd <hi rend="italic">Ulyſſes</hi>
+        <lb/>againſt the Inchantments of <hi rend="italic">Circe</hi> by the uſe of Rue <lb/>or
+        Herbgrace. And in the Hiſtory of <hi rend="italic">Toby,</hi>
+        <w part="I">deli-</w><lb/><w part="F">ver'd</w> to us by Sacred Writ, we find, that the <w
+          part="I">An-</w><lb/><w part="F">gel</w> taught <hi rend="italic">Toby</hi> to take Part
+        of the Heart of a Fiſh <lb/>drawn out of the River, and to caſt it upon Coals; <lb/>the
+        Smoke of which was to rid Men and Women of <lb/>all kinds of Demons. We ought therefore not
+        to <lb/>call in Queſtion the like Amulets, grounded on <w part="I">na-</w><lb/><w part="F"
+          >tural</w> Reaſons, ſince a certain Subſtance is iſſuing out <lb/>from them, which
+        according to Experience is capable <lb/>effectually to repair the Strength of Bodies, and to
+        <lb/>reſiſt Poiſons or any thing elſe that is offenſive. </p>
+      <p rend="indent"><lb/>THE Root of white Peony, and the Hoof of an <lb/>Elk, are of an
+        Antipathy againſt the Falling Sickneſs; <lb/>the Seed of Melanthium, againſt Rheums or
+        falling <lb/>down of raw Humours; Wolf's Dung againſt <lb/>Colicks; not by virtue of Charms,
+        as ſome very <lb/>ignorantly think, but becauſe ſome Vapours like <lb/>Atoms iſſue from
+        their Subſtance, which ſent forth <lb/>to the Brain, do dry it, and alter the Cauſe of the
+        <lb/>Sickneſs by their own Virtue. <hi rend="italic">Galen,</hi> after many <pb
+          xml:id="page_15" n="16"/><lb/>Trials, ſpeaks thereof: That we are to depend upon <lb/>the
+        like Amulets, as working by their own <w part="I">Sub-</w><lb/><w part="F">ſtance</w>, and
+        not by the virtue of imaginary Charms, <lb/><hi rend="italic">l.</hi> 6. <hi rend="italic"
+          >&amp;</hi> 10. <hi rend="italic">de Simplic. Medic.</hi>
+      </p>
+      <p rend="indent"><lb/>The Hand of a Fiſherman is ſtupify'd, as ſoon <lb/>as he toucheth a Fiſh
+        call'd the <hi rend="italic">Cramp Fiſh,</hi> though <lb/>it be with a long Pole. A little
+        Fiſh, half a Foot <lb/>in length, call'd a <hi rend="italic">Suckſtone</hi> or <hi
+          rend="italic">Sea Lamprey,</hi>
+        <w part="I">cleav-</w><lb/><w part="F">ing</w> to the Keel of a Ship, hindreth the Courſe <w
+          part="I">there-</w><lb/><w part="F">of</w>, though Wind and Weather is favourable. This
+        <lb/>is not done by virtue of Charms, but by Reaſons I <lb/>have juſt now mention'd. It is
+        certainly a <w part="I">ſtupen-</w><lb/><w part="F">dous</w> Miracle of Nature, that ſuch a
+        ſmall Fiſh is <lb/>capable to ſtay a like Bulk, and to hinder the Courſe <lb/>of a great
+        Ship, though in full Sail, by no other <lb/>means, than by cleaving to it. </p>
+      <p rend="indent"><lb/><hi rend="italic">Pliny</hi> reports, that the imperial Ship, wherein
+          <lb/><hi rend="italic">Antony</hi> did intend to circuit and to exhort his <w part="I"
+          >Peo-</w><lb/><w part="F">ple</w>, was ſtay'd by ſuch a Fiſh; and that he was <lb/>oblig'd
+        to go into another Ship, mean while that <lb/>his Fleet was driven a great way off. <hi
+          rend="italic">Caius</hi>'s Gally <lb/>bound for <hi rend="italic">Antium,</hi> an ancient
+        City in <hi rend="italic">Italy,</hi> and <lb/>rowed by four hundred Hands, had the ſame
+        Fate; <lb/>and it ſeems this Fiſh to be ominous, ſince this <lb/>Prince, ſoon after his
+        coming back, was deadly <lb/>wounded. There was no longer Room to dive into <lb/>the reaſon
+        of this Staying, as ſoon as this Fiſh was <lb/>found cleaving to the Stern of the Ship. But
+        being <lb/>brought into the Ship, it proceeded; and it is <w part="I">par-</w><lb/><w
+          part="F">ticularly</w> to be admir'd, why it was able to ſtay the <lb/>Ship by cleaving to
+        it, and could not do the ſame <lb/>after being brought into the Ship. We muſt <w part="I"
+          >acknow-</w><lb/><w part="F">ledge</w>, that Nature here is intricate, and cannot be
+        <lb/>underſtood by our Senſes. For beſides what I have <lb/>ſaid, it ſeems as if ſhe knowing
+        of an approaching <lb/>Danger did intend to remove it. The Ship wherein <lb/>the Ambaſſadors
+        of <hi rend="italic">Periander</hi> were ſent, for <pb xml:id="page_16" n="17"/><lb/>having
+        the noble Boys gelded, was ſtay'd in its <lb/>Courſe; as if Nature did judge it deteſtable
+        to rob <lb/>Men of what is given them to their Preſervation. <lb/>The Ship of <hi
+          rend="italic">Caius Caeſar,</hi> not long after <w part="I">aſſaſſina-</w><lb/><w part="F"
+          >ted</w> at <hi rend="italic">Rome,</hi> was ſtay'd, as if Nature commiſerating <lb/><hi
+          rend="italic">Caeſar</hi>'s Fate, would keep him back from this <w part="I"
+          >Miſ-</w><lb/><w part="F">fortune</w>, and hinder his unhappy Courſe. As much <lb/>of <hi
+          rend="italic">Sea Lampreys.</hi>
+      </p>
+      <p rend="indent"><lb/>It hath been found by Experience, that a living <lb/>Duck apply'd to the
+        Belly aſſwageth the Gripings. </p>
+      <p rend="indent"><lb/>A living Spider incloſed in a Walnut Shell, and <lb/>tyed to the Neck to
+        cure the Quartan Ague. The <lb/>Pairings of a Sick Perſon's Nails of Hand and Feet,
+        <lb/>tyed upon the Back of a living Crawfiſh, and alſo <lb/>thrown into flowing Water, to
+        expel a <hi rend="italic">Tertian <lb/>Ague.</hi>
+      </p>
+      <p rend="indent"><lb/>A Tooth of a living Mole to cure the Tooth-<lb/>Ach, only by touching
+        the afflicted Part therewith. </p>
+      <p rend="indent"><lb/>A little Bone found in the Ham of a Hare's Leg <lb/>behind the Knee, to
+        reſiſt the Stone or Gravel in <lb/>the Reins, and Cramps or Convulſions ſhrinking, <lb/>or
+        plucking of the Sinews; and ariſing either of <lb/>too much Fulneſs, or overmuch Emptineſs. </p>
+      <p rend="indent"><lb/>Galgalus (a Galbus) a Bird which being looked <lb/>upon by one who hath
+        the Yellow Jaundice, cures <lb/>the Perſon and dies it ſelf. </p>
+      <p rend="indent"><lb/>The Heart of a Raven carried about to hinder <lb/>Sleep, and the Heart
+        of a Bat to provoke it. </p>
+      <p rend="indent"><lb/>The Bones of the Head of a Mare affix'd upon <lb/>a Poſt in a Garden, to
+        chaſe Palmer or Canker-<lb/>Worms. </p>
+      <p rend="indent"><lb/>A Herb called Dog's-Tooth (having ſeven Knots) <lb/>mention'd by <hi
+          rend="italic">Dioſcorides</hi> under the name of <w part="I">Coro-</w><lb/><w part="F"
+          >nopus</w>, if ty'd to one's Head, effectually cureth the <lb/>Head-Ach. </p>
+      <p rend="indent"><lb/>A Man falling ſick at the time when Violets, or a <pb xml:id="page_17"
+          n="18"/><lb/>Herb called Cicuta<note place="bottom" n="(a)" rend="italic size(0.5)">(a)
+          The Juice of this Herb through extreme cold, is Poiſon; <lb/>and therefore the <hi
+            rend="italic">Athenians</hi> uſed it to kill Men in common Executions. </note>, much
+        like our Hemlock is <lb/>bearing Flowers, tho' he is cured, will certainly <w part="I"
+          >re-</w><lb/><w part="F">lapſe</w> as ſoon as he hath a ſmell thereof. I cannot <lb/>paſs
+        over what <hi rend="italic">Pliny</hi> reciteth out of <hi rend="italic">Pythagoras,
+          <lb/>Crateva, Democritus, Appollodorus, Cleemporus,</hi> and <lb/>many others, of the
+        wonderful virtue and power or <lb/>ſome Herbs. An Herb call'd Adamantis, growing <lb/>in <hi
+          rend="italic">Armenia</hi> and <hi rend="italic">Cappadocia,</hi><note place="bottom"
+          n="(b)" rend="italic size(0.5)">(b) An Herb which cannot be bray'd, of the Nature of an <w
+            part="I">Ada-</w><lb/><w part="F">mant</w> or Diamond, from whence if hath receiv'd its
+          Name. </note> being held near <w part="I">Ly-</w><lb/><w part="F">ons</w>, cauſeth them
+        turn upſide down, with a <w part="I">yawn-</w><lb/><w part="F">ing</w> an unpleaſant open
+        Sound. </p>
+      <p rend="indent"><lb/>Arianis, an Herb growing with a People in <hi rend="italic"
+          >Scy-<lb/>thia,</hi> call'd <hi rend="italic">Ariani,</hi> from whence it hath its Name,
+        <lb/>of a Colour ſhining like Fire; when gathered, the <lb/>Sun being in <hi rend="italic"
+          >Leo,</hi> will by touching Wood, ſet it on <lb/>fire, the ſame Wood being before
+        thoroughly <w part="I">anoin-</w><lb/><w part="F">ted</w> with Oil. </p>
+      <p rend="indent"><lb/>Æſhynomene, an Herb ſo baſhfull, that it ſhrinks <lb/>in the Leaves, as
+        ſoon as one cometh near it with <lb/>the Hand. </p>
+      <p rend="indent"><lb/>Theangelis, an Herb growing in <hi rend="italic">Syria, Babylon,</hi>
+        <lb/>and many other places, maketh People Propheſy, <lb/>having drunk of a Liquor poured
+        upon this Herb. </p>
+      <p rend="indent"><lb/>Gelotophillus, an Herb growing about <hi rend="italic">Boryſthenes,</hi>
+        <lb/>being drunk with Wine and Myrrh, cauſeth <w part="I">Laugh-</w><lb/><w part="F">ing</w>
+        which never ceaſeth, except Kernels of a Pine <lb/>Apple with Pepper and Honey are taken in
+        Date-<lb/>Wine. </p>
+      <p rend="indent"><lb/>Æthiopis, an Herb growing in <hi rend="italic">Æthiopia,</hi> like a
+        <lb/>Lettice, wherewith, according to <hi rend="italic">Pliny,</hi> Enchanters <lb/>will
+        open any Lock, turn any Stream, and dry any <lb/>River. </p>
+      <p rend="indent"><lb/>Ophiuſa, an Herb in <hi rend="italic">Æthiopia,</hi> dangerous to <pb
+          xml:id="page_18" n="19"/><lb/>look on; being drunk, it doth ſo terrify the Mind <lb/>with
+        a Sight of angry and dreadful Serpents, that <lb/>condemned Perſons for fear thereof did
+        kill <w part="I">them-</w><lb/><w part="F">ſelves</w>; and therefore it was uſed to be given
+        to <lb/>ſuch as had committed Sacrilege. </p>
+      <p rend="indent"><lb/>A kind of Spider that hath in his Legs three <lb/>Knots or Joints, whoſe
+        Sting is perilous and deadly, <lb/>called Phalangium, immediately dieth by touching a
+        <lb/>certain Herb we know by the Name of Crocis. </p>
+      <p rend="indent"><lb/>Oenotheris, a kind of Herb ſtrewed on wild <lb/>Beaſts, tameth them. </p>
+      <p rend="indent"><lb/>Achimenis, a kind of Poley, which in time of <lb/>Battle being caſt into
+        an Army cauſeth them to fear. </p>
+      <p rend="indent"><lb/>Latace, an Herb which the King of <hi rend="italic">Perſia</hi> did
+        <lb/>give to the Embaſſadours, to the end they ſhould <lb/>never lack neceſſary Food
+        wherever they came. </p>
+      <p rend="indent"><lb/>The ancient Hiſtory doth report of <hi rend="italic">Æmilianus
+          <lb/>Scipio,</hi> otherwiſe called <hi rend="italic">Africanus Minor,</hi> that he
+        <lb/>opened the Gates of <hi rend="italic">Carthage</hi> with a peculiar Herb, and dry'd
+        Moors and fenniſh Places With Aethiopis, an Herb before mentioned: And who hath ever come
+        near all the hidden Virtues of Nature? Who hath ever been able to give Reaſons thereof? or
+        at leaſt what Conjectures could there be to <w part="I">experi-</w><lb/><w part="F">ence</w>
+        or make Experiments of all theſe things? <w part="I">Cer-</w><lb/><w part="F">tainly</w> we
+        muſt acknowledge it to have been <w part="I">deli-</w><lb/><w part="F">ver'd</w> by a
+        particular Bleſſing of the Supreme Being. </p>
+      <p rend="indent"><lb/>The Preſence of a Diamond hindereth the <w part="I">Load-</w><lb/><w
+          part="F">ſtone</w> to draw Iron unto it, and the Preſence of Oil <lb/>hindereth Amber to
+        draw Straw unto it. And if we <lb/>conſider the Enmity between things to hurt one <w
+          part="I">ano-</w><lb/><w part="F">ther</w>, it is not unlikely, that our Anceſtors did
+        infer <lb/>from thence, that perhaps ſome Remedy for their <lb/>own uſe might lie concealed
+        under it; the Succeſs <lb/>hath anſwer'd their Conjectures, and we are oblig'd <lb/>to
+        reverence likewiſe ſomething hidden in <w part="I">Sympa-</w><lb/><w part="F">thies</w>
+        which is of a confederate Virtue either to keep <lb/>at a diſtance, or to expel ſomething
+        that is bad. </p>
+      <pb xml:id="page_19" n="20"/>
+      <p rend="indent"><lb/>Every Day we meet with a notable Concord <w part="I">be-</w><lb/><w
+          part="F">tween</w> Herbs and the celeſtial Bodies. We are aſſur'd <lb/>of the ſolar
+        Preſence by the Flowers of an Herb call'd <hi rend="italic">Cichoreum, Succory,</hi> which
+        at the Riſing of the Sun <lb/>openeth, and at its Setting cloſeth itſelf up again. </p>
+      <p rend="indent"><lb/><hi rend="italic">Lapinus</hi> a Kind of Pulſe, is daily turn'd about
+        <lb/>with the Sun, alſo that the Sky being cloudy, <w part="I">Huſ-</w><lb/><w part="F"
+          >bandmen</w> know by it, what o' Clock it is. The <lb/>Herb Mallows conforms itſelf
+        likewiſe to the Motion <lb/>of the Sun. </p>
+      <p rend="indent"><lb/>Authors of no ſmall Credit unanimouſly affirm <lb/>that Thunder and
+        Lightning never hurts a Bay or <lb/>Fig-tree, nor an Hide of a Sea-calf, or Hyæna, <lb/>nor
+        a white Vine. <hi rend="italic">Octavius Aguſtus</hi> therefore <w part="I">arm-</w><lb/><w
+          part="F">ing</w> himſelf with the laſt, and <hi rend="italic">Tiberius Cæſar</hi> by
+        <lb/>wearing a Crown made of Bay-leaves, ſecur'd, <w part="I">them-</w><lb/><w part="F"
+          >ſelves</w> againſt Thunder; becauſe theſe Things are <lb/>not only of a Nature to refiſt
+        the Vehemency of <lb/>Lightning, but alſo to throw back the Blaſts of it. <lb/>There is a
+        wonderful Sympathy between Metals and <lb/>the Miners-Rod, or a little Twig with two
+        Branches <lb/>cut off a Haſle-tree, by the Help of which Miners <lb/>ſearch after Gold and
+        Silver Veins. It would be in <lb/>vain to ſeek for the Cauſe thereof in the manifeſt
+        <lb/>Qualities. </p>
+      <p rend="indent"><lb/>The Sympathy ſubſiſting between Stones and the <lb/>celeſtial Bodies is
+        ſtill greater: Their Power is more <lb/>extenſive than that of Herbs; becauſe they ſeem not
+        <lb/>only to command the celeſtial Bodies, but alſo Men. <lb/>Who is ignorant of the Pilot's
+        Needle, a Piece of <lb/>Iron rubb'd with the Load-ſtone, always pointing to <lb/>the Arctic
+        Pole? Selenites, a Stone found in <hi rend="italic">Arabia,</hi>
+        <lb/>hath a White in it, which decreaſeth and increaſeth <lb/>as the Moon doth. </p>
+      <p rend="indent"><lb/>A Turquois, according to <hi rend="italic">Theophraſtus</hi> and <hi
+          rend="italic">Pro-<lb/>clus,</hi> doth change and wax very pale, being worn by <lb/>a ſick
+        or decaying Perſon; but it is more to be <w part="I">won-</w><lb/><w part="F">der'd</w> at,
+        that the precious Colour of this Stone is <pb xml:id="page_20" n="21"/><lb/>chang'd into a
+        ſooty and ſmoaky one, or receiveth <lb/>ſome Spots, or appears to be chink'd, when there is
+        <lb/>a conſiderable Danger approaching the Perſon it is <lb/>worn by. </p>
+      <p rend="indent"><lb/>And for Antipathies, the ſame Authors do report, <lb/>that the Emerald
+        effectually doth reſiſt Fevers and <lb/>Poiſons; and that it breaks, being overcome by
+        <lb/>Poiſon. </p>
+      <p rend="indent"><lb/>Androdamas, a precious Stone, hard and heavy, <lb/>bright like Silver,
+        and in form of divers little Squares, <lb/>putteth away the Fury of Anger, and Rage of
+        Letchery. </p>
+      <p rend="indent"><lb/>Genianes, a precious Stone, procureth <w part="I">Puniſh-</w><lb/><w
+          part="F">ment</w> to a Man's Enemy. </p>
+      <p rend="indent"><lb/>Dendritis, a precious Stone, which, being put <lb/>under a Tree, maketh
+        that the Ax in cutting it <lb/>ſhould hot be dull'd. </p>
+      <p rend="indent"><lb/><hi rend="italic">Siderites,</hi> a Stone like Iron, hath Power to cauſe
+        <lb/>Variance amongſt Men. No doubt, theſe Stones <lb/>do actually ſpout or drive out an
+        inviſible hidden <lb/>Power. And though they are ſolid Things, <w part="I">never-</w><lb/><w
+          part="F">theless</w> the native Heat and Rubbing and Touching <lb/>draws out a Virtue,
+        which it communicateth to the <lb/>Heart and Brains. There are Medicines of a great <lb/>Uſe
+        by Reaſon of their Reſemblance, we ſee them <lb/>daily prevail againſt many Diſeaſes for no
+        other <lb/>Reaſon but becauſe the have one another's Anatomy <lb/>and <hi rend="italic"
+          >Signatura.</hi> This is a Way of making <w part="I">Demon-</w><lb/><w part="F"
+          >ſtrations</w> by Reſemblance, by which the Creator of <lb/>all Things oftentimes
+        diſcovereth ſublime and hidden <lb/>Things to inſtruct us by the Idea of their <w part="I"
+          >Reſem-</w><lb/><w part="F">blance</w> to what they have been from the Beginning
+        <lb/>deſtinated. </p>
+      <p rend="indent"><lb/>All Herbs, Flowers, Trees, <hi rend="italic">&amp;c.</hi> are magical
+        <lb/>Signs granted by their Author, the Knowledge <lb/>Whereof brings us to the true
+        Phyſick, <hi rend="italic">i. e.</hi>
+        <w part="I">Signa-</w><lb/><w part="F">tum</w>; becauſe the Signs externally diſcover'd by
+        <lb/>Nature, are Tokens of certain internally hidden <w part="I">Vir-</w><pb
+          xml:id="page_21" n="22"/><lb/><w part="F">tues</w>; and that Signatum, and the inward
+        Kernel, is <lb/>always ſignify'd by the outward Phyſiognomy. </p>
+      <p rend="indent"><lb/>What is the Reaſon, that many Diſeaſes cannot <lb/>be cur'd with every
+        Remedy? Becauſe they proceed <lb/>from an aſtral Impreſſion of the Firmament, there <lb/>is
+        need of an aſtronomical Influence; that is to ſay, <lb/>of Things which have an Analogy
+        between the great <lb/>and leſſer World: Herein doth conſiſt the true <w part="I"
+          >mag-</w><lb/><w part="F">netical</w> Virtue of the Firmament, and the Means to
+        <lb/>reſiſt Diſeaſes cauſed by ſuch Impreſſions. This <lb/>Influence and Signatura we
+        obſerve in ſome Plants; <lb/>the notableſt and moſt evident do appear in <w part="I"
+          >Hyperi-</w><lb/><w part="F">con</w> and Perſicaria; the firſt is pierc'd or bor'd with
+        <lb/>ſmall Holes, and the other ſpotted with red Spots, <lb/>as if Blood had dropp'd upon
+        it. </p>
+      <p rend="indent"><lb/>The ſame Signaturae, ſo very uſeful to the <w part="I">Judg-</w><lb/><w
+          part="F">ment</w> of Diſeaſes, are likewiſe to be met with in <lb/>other Vegetables; and
+        it is not ſufficient for a <hi rend="italic">Bota-<lb/>nicus</hi> to ſearch into the
+        external Signaturæ of Plants, <lb/>their Time and Place of growing; but he ought alſo
+        <lb/>to concern himſelf about the inward Principle, and <lb/>their Virtue, which is the
+        Image of God implanted <lb/>in Things created. This Principle is known by <lb/>many Names;
+        ſome call it the <hi rend="italic">Balſam of Nature, <lb/>vital Sulphur, radical Seed, firſt
+          Matter;</hi> ſome <hi rend="italic">natu-<lb/>ral Heat, Mercury of Life, univerſal
+          Spirit.</hi> It <w part="I">ne-</w><lb/><w part="F">ver</w> is deſtroy'd in the Corruption
+        of Things; the <lb/>Elements and all mix'd Bodies being diſſolv'd, it will <lb/>nevertheleſs
+        remain. This Balſam doth occupy the <lb/>whole Anatomy of Bodies in living Creatures and
+        <lb/>Plants; in ſome Animals rather a certain Part, as <lb/>the Heart, <hi rend="italic"
+          >&amp;c.</hi> and according to the Diverſity of <lb/>Impreſſions, Tincture, Abundance of
+        Humours, <lb/>Quality, and Difference, it produceth different and <lb/>divers Actions. By
+        virtue of this Balſam ſome <lb/>Plants and Parts of Animals are of an Antipathy againſt
+        <lb/>Diſeaſes; and by the Virtue and Power of this <w part="I">Bal-</w><lb/><w part="F"
+          >ſam</w> ſome Parts of Animals are of a Sympathy with <pb xml:id="page_22" n="23"
+        /><lb/>ſome Parts of the human Body, aiding, <w part="I">ſtrengthen-</w><lb/><w part="F"
+          >ing</w>, and preſerving it in its radical Vigour. </p>
+      <p rend="indent"><lb/>Who neglects this Principle, the Signature of <lb/>Things, without
+        overcoming a thorough Knowledge <lb/>thereof, is unworthy of the Name of a Phyſician.
+        <lb/>If there were nothing elſe, the Knowledge of this <lb/>Myſtery would make a Phyſician
+        excel in his Art, <lb/>according to what <hi rend="italic">Hippocrates</hi> ſays of thoſe,
+        who <lb/>know before-hand which can be cured, and which <lb/>muſt die. </p>
+      <p rend="indent"><lb/>It cannot be denied, that every Diſeaſe hath its <lb/>particular Signs,
+        procuring the Knowledge thereof to <lb/>us; and the ſame Signs are to be found in the <w
+          part="I">Re-</w><lb/><w part="F">medies</w> alſo mark'd by Nature. We may therefore
+        <lb/>ſay in general, and with a great deal of Truth, that <lb/>this Diſeaſe is a Diſeaſe for
+        this Remedy, and this <lb/>Remedy is a Remedy for this Diſeaſe. The Herb <lb/><hi
+          rend="italic">Tuſſilago</hi> is a Remedy for obſtructed Lungs, becauſe <lb/>it weareth the
+        ſame Mark. The Herbs <hi rend="italic">Lingua Cer-<lb/>vina</hi> and <hi rend="italic"
+          >Scolopendrium</hi> are a Remedy againſt a <lb/>puff'd-up or ſwollen Milt, becauſe they
+        repreſent <lb/>the Figure of the Milt. The maketh appear, that <lb/>it is poſſible to
+        overcome a Knowledge of Nature by <lb/>the Signs of the Remedies; and that the Myſtery
+        <lb/>of Sympathies and Antipathies, in reſpect of Things, <lb/>as well as their Qualities,
+        are of a vaſt Benefit for a <lb/>Phyſician. </p>
+      <p rend="indent"><lb/>Theſe who are skilful in this ſecret Philoſophy, <lb/>and have watch'd
+        Opportunities to experience <w part="I">Na-</w><lb/><w part="F">ture's</w> Strength, are
+        capable of producing many <lb/>wonderful Effects: And as the Way of their <w part="I"
+          >Pro-</w><lb/><w part="F">ceedings</w>, as in many other Things, is hidden and
+        <lb/>conceal'd, the unskilful not ſeldom aſcribe the Cauſe <lb/>of their Actions to the
+        Deluſions of Daemons; that <lb/>is to ſay, to Magick call'd <hi rend="italic">Goëtia,</hi>
+        from Mourning; <lb/>becauſe it is an Invocation of evil Spirits near Tombs, <lb/>and
+        German-ſiſters to Necromancy, which, for <w part="I">call-</w><lb/><w part="F">ing</w> the
+        Souls of the Dead, requireth the Effuſion of <pb xml:id="page_23" n="24"/><lb/>humane or
+        ſome other Blood of black Cattle, <w part="I">where-</w><lb/><w part="F">with</w> Daemons
+        are delighted. </p>
+      <p rend="indent"><lb/>True Magick, grounded upon natural Cauſes, is <lb/>nothing elſe but a
+        thorough Knowledge of the <w part="I">Con-</w><lb/><w part="F">cord</w> or Diſcord between
+        Stones, Herbs, Minerals, <lb/>Animals, and the Stars, which, exactly to learn, <w part="I"
+          >re-</w><lb/><w part="F">quireth</w> a great deal of Wiſdom, and is in no way
+        <lb/>contrary to divine Laws. </p>
+      <p rend="indent"><lb/>This natural Magick hath always been honour'd <lb/>and approv'd of by
+        diligent Searchers in the celeſtial <lb/>and ſublunar Beings, as tending to the Admiration
+        <lb/>of the Works of God. Who is diving therein, <w part="I">can-</w><lb/><w part="F"
+          >not</w> but overcome a Knowledge of an infinite <w part="I">Num-</w><lb/><w part="F"
+          >ber</w> of Things, impoſſible to be underſtood by any <lb/>other Means. </p>
+      <p rend="indent"><lb/>It will add a great deal of Light to the further <lb/>Unfolding of our
+        Myſtery, to make mention in this <lb/>Place of ſome Experiments made with Rings of
+        <lb/>Gold, Silver, Latten, or any other Metal dedicated <lb/>to celeſtial Bodies, whoſe
+        Virtue one intends to <w part="I">pro-</w><lb/><w part="F">cure</w> to himſelf. I ſay of
+        Rings, in whoſe Cavity is <lb/>faſten'd a Stone, and under it an Herb of a <w part="I"
+          >Sympa-</w><lb/><w part="F">thy</w> with the ſame Star. <hi rend="italic">Trallianus,
+          Gordonius, <lb/>Meſue,</hi> and many others, do report, that the Virtue <lb/>thereof is to
+        rejoice the Heart, and to expel <w part="I">Diſ-</w><lb/><w part="F">eaſes</w>. </p>
+      <p rend="indent"><lb/><hi rend="italic">Gyges,</hi> a King of <hi rend="italic">Lydia,</hi>
+        got a Stone, taken out <lb/>of the Head of a Dragon, inclos'd in his Ring, <lb/>which when
+        he turn'd to the Palm of his Hand, he <lb/>could be ſeen of none; but he himſelf could ſee
+        <lb/>every one; whence the Proverb, <hi rend="italic">Gygis annulus:</hi> By <lb/>the Help
+        of this Ring, it is ſaid, he flew <hi rend="italic">Candaules,</hi>
+        <lb/>and committed Adultery with his Wife. <hi rend="italic">Alexander <lb/>Trallianus</hi>
+        tells us, that the Image of <hi rend="italic">Hercules</hi>
+        <lb/>ſtrangling a Lyon, ſet in a Ring, cureth the Cholick. <lb/>The Philoſopher <hi
+          rend="italic">Eudaemus</hi> is ſaid to have prepar'd <lb/>Rings againſt Stingings of
+        Serpents, Charms, and <lb/>Diſeaſes. <hi rend="italic">Joſephus,</hi> in his <hi
+          rend="italic">Antiquities,</hi> reports to <pb xml:id="page_24" n="25"/><lb/>have ſeen, in
+        the Preſence of the Emperor <hi rend="italic">Veſpaſia-<lb/>nus,</hi> one <hi rend="italic"
+          >Eleazar,</hi> a <hi rend="italic">Jew,</hi> apply to the Noſe of one <lb/>poſſeſs'd with
+        a Daemon a Ring, under the Seal of <lb/>which was laid a Root found by <hi rend="italic"
+          >Solomon;</hi> and that <lb/>this <hi rend="italic">Eleazar</hi> did draw out of the Noſe
+        the Dæmon, <lb/>who immediately falling on the Ground, was baniſh'd <lb/>by him, upon
+        reciting <hi rend="italic">Solomon</hi>'s conjuring Hymn <lb/>againſt Dæmons. The ſame doth
+        tell us, that <lb/><hi rend="italic">Solomon</hi> hath been very skilful in Magicks: And
+        that <lb/><hi rend="italic">Moſes,</hi> the Lawgiver of the <hi rend="italic">Jews,</hi> did
+        begin to learn <lb/>Magicks in <hi rend="italic">Egypt,</hi> where he made Rings of <hi
+          rend="italic">Love</hi>
+        <lb/>and <hi rend="italic">Forgetfulneſs:</hi> The Ring of <hi rend="italic"
+          >Forgetfulness</hi> he gave <lb/>to the <hi rend="italic">Egyptian</hi> Women to forget
+        him, which cauſed <lb/>his free returning from <hi rend="italic">Egypt.</hi> This was not <w
+          part="I">per-</w><lb/><w part="F">form'd</w> by the Help of prohibited Magick, as <hi
+          rend="italic">Apol-<lb/>lonius</hi> and <hi rend="italic">Lyſimachus</hi> have tax'd <hi
+          rend="italic">Moſes</hi> with, and <lb/>therefore been refuted by the ſaid <hi
+          rend="italic">Joſephus;</hi> but by <lb/>the Help of a thorough Knowledge of the celeſtial
+        <lb/>and ſublunar Beings, their Deſtination and Virtues. <lb/>And it is known, that <hi
+          rend="italic">Empedocles, Pythagoras, <w part="I">De-</w><lb/><w part="F"
+          >mocritus</w>,</hi> and <hi rend="italic">Plato</hi> himſelf, learn'd Magicks from
+        <lb/>the <hi rend="italic">Egyptian</hi> Prieſts. </p>
+      <p rend="indent"><lb/>It is therefore not generous, to call intirely in <lb/>queſtion all
+        Cures perform'd by Characters, graven <lb/>Images tied to the Neck, <hi rend="italic"
+          >&amp;c.</hi> becauſe their <w part="I">Opera-</w><lb/><w part="F">tion</w> is natural,
+        and perform'd by the wonderful <w part="I">In-</w><lb/><w part="F">fluence</w> of the
+        celeſtial Bodies agreeing with our <w part="I">Bo-</w><lb/><w part="F">dies</w>. It is not
+        reaſonable intirely to deny Credit to w<lb/>hat our Anceſtors, diligent Searchers in <hi
+          rend="italic">Nature</hi>'s <lb/>Cloſet, have left to Poſterity, in reſpect of <w part="I"
+          >Charac-</w><lb/><w part="F">ters</w> and Seals, wrought at certain times, according
+        <lb/>to the Virtue and Influence of the Bodies above us, <lb/>without any Superſtition,
+        (which is fram'd only by <lb/>the Ignorance of this Myſtery) without any <w part="I"
+          >Profa-</w><lb/><w part="F">nation</w>, or Offence to the Name of God, and <w part="I"
+          >with-</w><lb/><w part="F">out</w> any Violation of Faith or Religion. That this
+        <lb/>uſeful Knowledge hath in After-times been ſo very <lb/>much hidden, and ſeems at this
+        Day almoſt intirely <pb xml:id="page_25" n="26"/><lb/>loſt, can be aſcrib'd to no other
+        Reaſon but to the <lb/>Miſuſe of theſe characters. Men falling to <w part="I"
+          >Super-</w><lb/><w part="F">ſtition</w>, and not underſtanding the Reaſon of their
+        <lb/>Working, did attribute more to them than our <lb/>Creator had granted, and intended to
+        diſcover <w part="I">there-</w><lb/><w part="F">by</w>. I am very far off to attribute to
+        theſe Images <lb/>a Virtue in themſelves; nor do I affirm, that <w part="I">Cha-</w><lb/><w
+          part="F">racters</w> or Names, graven under Conſtellations, have <lb/>a Virtue by reaſon
+        of the Figure; becauſe the Figure, <lb/>Number, Bigneſs, Situation, and the Solution of
+        <lb/>what is continual, are no Principles of Actions. I <lb/>would intirely deny their
+        Virtue, in caſe there were <lb/>nothing elſe acting or moving, by whoſe Authority
+        <lb/>Characters are powerful. I have been oblig'd to <w part="I">in-</w><lb/><w part="F"
+          >large</w> upon this Subject for Reaſon to make appear <lb/>what is true, it being the
+        Perfection of our <w part="I">Under-</w><lb/><w part="F">ſtanding</w>; and to ſhew what
+        Difference there is <w part="I">be-</w><lb/><w part="F">tween</w> true and phyſical
+        Signaturae, and ſuperſtitious <lb/>and unlawful ones, which, for Contemplation-ſake, <lb/>we
+        may know, but no-where but in Practice. There <lb/>is no Virtue in Heaven and Earth, which
+        hath not <lb/>its Offſpring from God: Alſo Medicines are viſible <lb/>to the Body, Words
+        inviſible to the Body; now if <lb/>Herbs or Words are curing, the Cauſe is <w part="I"
+          >notwith-</w><lb/><w part="F">ſtanding</w> in God; therefore the Herb itſelf is not the
+        <lb/>Medicine, but it is hidden in it inviſibly by God. <lb/>It ſhews a great deal of
+        Ignorance to condemn, or <lb/>to deride things remote or diſtant from our Senſes, <lb/>and
+        not fit to be comprehended by them. Who is <lb/>not aſtoniſh'd at the wonderful Effects of
+        precious <lb/>Stones? Nevertheleſs we cannot deny, that there is <lb/>a great natural Power
+        in them, chiefly when under <lb/>certain Conſtellations certain Figures and Signatures
+        <lb/>are graved therein. It is falſe what ſome report, <lb/>that the Effects of precious
+        Stones are produced by <lb/>a magical Virtue, and not by a natural one: It <w part="I"
+          >pro-</w><lb/><w part="F">ceeds</w> from the School of Magicians, who uſed <w part="I"
+          >pre-</w><lb/><w part="F">cious</w> Stones, graven under certain Conſtellations, <pb
+          xml:id="page_26" n="27"/><lb/>for a Pretext of their Inchantments. It is <w part="I"
+          >ſufficient-</w><lb/><w part="F">ly</w> known, that an Emerald gets looſe from the
+        <lb/>Finger at the Death of the Perſon it is worn by; <lb/>and that a Stone, which comes
+        from <hi rend="italic">New Spain,</hi>
+        <lb/>known by the Name of <hi rend="italic">Lapis Nephriticus,</hi> is of <lb/>great
+        Efficacy againſt the Stone in the Kidneys, if <lb/>but bound to one's Arm. Who does not
+        admire <lb/>the Virtues of a <hi rend="italic">Turquois?</hi> and an infinite Number <lb/>of
+        Experiments made with precious Stones, as well <lb/>as Herbs, could be quoted; which if they
+        do not <lb/>every-where, and not always anſwer, nevertheleſs do <lb/>not deſerve to be
+        call'd in queſtion; becauſe not <lb/>every thing doth every-where and always concur,
+        <lb/>and the Rarity or Singularity of Effects doth never <lb/>take away the Cauſe in Nature;
+        for wonderful <lb/>Things in Nature are perform'd by a due <w part="I">Applica-</w><lb/><w
+          part="F">tion</w> of Actives to Paſſives hereunto diſpos'd ſo <lb/>cloſely and ſo
+        ſecretly, that the Cauſe thereof ſeems <lb/>exceedingly remote or diſtant. It is outragious
+        to <lb/>aſcribe every thing immediately to the Works of <hi rend="italic"
+          >Beel-<lb/>zebub,</hi> which are remote from our Senſes, as if a <lb/>hidden Virtue in
+        Nature, the Inſtrument of the <w part="I">Di-</w><lb/><w part="F">vine</w> Power, was not
+        able to produce many <w part="I">wonder-</w><lb/><w part="F">ful</w> Things without the
+        Aſſiſtance of this Prince of <lb/>evil Spirits. It is likewiſe outragious in ſuch, who
+        <lb/>intirely given to Superſtition, either out of <w part="I">Igno-</w><lb/><w part="F"
+          >rance</w>, or out of a fooliſh Doubtfulneſs, maintain the <lb/>moſt evident Things to
+        proceed from hidden Cauſes, <lb/>who, beſides the Colour and Taſte, aſcribe no other
+        <lb/>Virtues to Plants; as if a particular Concord or <lb/>Agreement between them and
+        ſomething above us, <lb/>was not capable to produce, beſides their firſt <w part="I"
+          >ſen-</w><lb/><w part="F">ſual</w> Virtues, ſome hidden ones; witneſs the daily
+        <lb/>Experience. I take it, therefore, to be very <w part="I">indiſ-</w><lb/><w part="F"
+          >creet</w> to aſſign, in ſingular Facts, no other Cauſe than <lb/>what ſeems to us to be;
+        for who can deny, that <lb/>either by ſome Inſpiration, or by Chance and meer
+        <lb/>Accidents, Effects are produced ſemblable to natural <pb xml:id="page_27" n="28"
+        /><lb/>ones? And it is ſufficient for one, who <w part="I">underſtand-</w><lb/><w part="F"
+          >eth</w> or ſetteth out the Cauſes of Things natural, to <lb/>have ſhew'd ſuch a ſemblable
+        Effect to be the Effect <lb/>of natural Cauſes, either always or for the moſt part, <lb/>And
+        tho' the Event doth not always anſwer, <w part="I">never-</w><lb/><w part="F">theless</w>
+        the Power and Motion in Nature is not to be <lb/>denied; becauſe all Cauſes for producing
+        one Effect <lb/>do ſeldom concur, which is to be ſeen in Things, <lb/>which, for reaſon of
+        their Fewneſs, Variety, and <lb/>Singularity, are conſider'd as Miracles and Prodigies;
+        <lb/>for theſe Things have natural Cauſes, but they are <lb/>ſeldom diſpos'd or ready for
+        the like Effects. If <lb/>therefore the Effect is natural, the Cauſe muſt be the <lb/>ſame,
+        and alſo contrarywiſe. Now the Effects of <lb/>Images, graven under the Conſtellation of
+        certain <lb/>celeſtial Bodies, are natural; conſequently the Cauſe <lb/>thereof muſt
+        likewiſe be natural. And tho' this <lb/>Cauſe is hidden, and hard to be underſtood, and
+        <lb/>very remote from our outward Senſes, nevertheleſs <lb/>there is no Occaſion to have
+        recourſe to a diabolical <lb/>Power; but we ought attentively to conſider by <lb/>what Help,
+        and by what Concurrence of Cauſes, <lb/>ſuch an Effect is produced or not produced; and we
+        <lb/>ought rather to take an Opportunity from theſe <w part="I">mar-</w><lb/><w part="F"
+          >vellous</w> Cauſes, and the natural Effects produced by <lb/>them, to acknowledge and to
+        proclaim the <w part="I">wonder-</w><lb/><w part="F">ful</w> Power of God; who having
+        evidently implanted <lb/>ſuch marvellous Virtues in Nature, how wonderful <lb/>muſt He
+        appear in Things intirely hidden from <lb/>us? </p>
+      <p rend="indent"><lb/>Having ſent this before, I proceed to the Seals <lb/>themſelves. The
+        Image of <hi rend="italic">Jupiter</hi> is graved in a <lb/>white or clear Stone, or pure
+        Silver or Pewter, for <lb/>procuring a healthful Life, Honour and Riches. </p>
+      <p rend="indent"><lb/>The Image of <hi rend="italic">Mars</hi> againſt Timorouſneſs and
+        <lb/>Puſillanimity. </p>
+      <p rend="indent"><lb/>The Image of <hi rend="italic">Sol</hi> in pure Gold, for procuring the
+          <pb xml:id="page_28" n="29"/><lb/>Favour of Kings and Princes, and for curing Diſeaſes
+        <lb/>afflicting the Heart. </p>
+      <p rend="indent"><lb/>The Image of <hi rend="italic">Venus</hi> holding in her Hand Flowers
+        <lb/>and Apples, for procuring Mirth, Beauty and <lb/>Strength to the Body. </p>
+      <p rend="indent"><lb/>The Image of <hi rend="italic">Mercury,</hi> to ſharpen Memory. </p>
+      <p rend="indent"><lb/>The Image of <hi rend="italic">Luna,</hi> to procure Honour and
+        <lb/>Wealth, and to cure Diſeaſes afflicting the Brains. <lb/>Theſe Seals are to be made
+        under certain <w part="I">Conſtella-</w><lb/><w part="F">tions</w>, diligently and exactly
+        to be obſerved by one <lb/>skillful in Aſtrology; and as there is a great Nicety
+        <lb/>requir'd for making them, I think proper to ſend <lb/>my Readers to the Authors
+        themſelves, who have <lb/>treated of theſe I have related, as well as of a great <lb/>many
+        more, in an ample manner, ſatisfactory to each <lb/>one's Deſires. I proceed now to other
+        Images and <lb/>Monuments, to whom the antient Sophi and <w part="I">Doc-</w><lb/><w
+          part="F">tors</w> aſcribe a marvellous Virtue, if they are <w part="I">ingra-</w><lb/><w
+          part="F">ved</w> in convenient Stones and worn and kept with <lb/>Honour and Reverence
+        (without all manner of <lb/>Superſtition.) The firſt of all are the Arcana's of the
+        <lb/>ancient and great <hi rend="italic">Rhagael,</hi> who is ſaid to have <w part="I"
+          >ex-</w><lb/><w part="F">perienc'd</w> the following, <hi rend="italic">viz.</hi>
+      </p>
+      <p rend="indent"><lb/>The Image of a comely Dragon, graved in a Ruby <lb/>or any other Stone
+        of the like nature, to have a <w part="I">Vir-</w><lb/><w part="F">tue</w> to increaſe
+        Wealth, and to keep him who <w part="I">wear-</w><lb/><w part="F">eth</w> it in Health and
+        Chearfulneſs. </p>
+      <p rend="indent"><lb/>The Image of a Falcon, graved in a Topaz, to <lb/>help to acquire the
+        Benevolence of Kings, Princes <lb/>and great People. </p>
+      <p rend="indent"><lb/>The Image of an Aſtrolabium, an Inſtrument <lb/>wherewith the Motions of
+        the Stars are gathered <lb/>and the Diſtance, to keep him who weareth it, <lb/>healthfull
+        and free from all Diſeaſes and unfortunate <lb/>Accidents in travelling. </p>
+      <p rend="indent"><lb/>The Figure of a Frog, graved in a precious Stone <lb/>call'd Beryl,
+        found in <hi rend="italic">India,</hi> in Faſhion fix-ſquare, <lb/>in Colour like Oyl or
+        Water in the Sea, to have the <pb xml:id="page_29" n="30"/><lb/>Virtue to reconcile Enemies,
+        and make Friendſhip <lb/>amongſt Men, by touching only Perſons being at <lb/>Variane. </p>
+      <p rend="indent"><lb/>The Image of a Bat, graved in a precious Stone <lb/>call'd Heliotropium,
+        in colour green like a Leek <lb/>Blade, to make him who weareth it able to reſiſt
+        <lb/>Daemons. </p>
+      <p rend="indent"><lb/>The Image of a well-dreſs'd Man having <w part="I">ſome-</w><lb/><w
+          part="F">thing</w> in his Hand which is handſome, being <w part="I">gra-</w><lb/><w
+          part="F">ven</w> in a Cornelian, to have the Virtue to ſtop Blood, <lb/>and to help to
+        Honour. </p>
+      <p rend="indent"><lb/>The Image of <hi rend="italic">Leo</hi> or <hi rend="italic"
+          >Sagittarius,</hi> graven in a <lb/>Stone, to reſiſt Poiſon, and to free from Agues. </p>
+      <p rend="indent"><lb/>The Image of a Man with a Sword in his Hand, <lb/>graven in a Cornelian,
+        to preſerve the Place wherein <lb/>it is, againſt Lightning and Thunder. </p>
+      <p rend="indent"><lb/>The Image of a Man with his right Hand <w part="I">erec-</w><lb/><w
+          part="F">ted</w>, graven in a Chalcedony, to enable him who <lb/>wears it to accomodate
+        Quarrels, to make him <w part="I">heal-</w><lb/><w part="F">thy</w>, and overcome all
+        Accidents in travelling. </p>
+      <p rend="indent"><lb/>The Name of God being graven in a precious <lb/>Stone call'd Cerauni, of
+        a high Colour with a Star <lb/>in the midſt of it, to preſerve every Place where <lb/>this
+        graven Image is, againſt Tempeſts, and to give <lb/>him who weareth it Strength and Victory
+        againſt <lb/>his Enemies. </p>
+      <p rend="indent"><lb/>The Image of an armed Man graven in a <w part="I">Load-</w><lb/><w
+          part="F">ſtone</w>, to render him who weareth it victorious in <lb/>War. So far <hi
+          rend="italic">Rhagel.</hi>
+      </p>
+      <p rend="indent"><lb/><note place="marg"> The Seals and Images of <hi rend="italic"
+            >Chael.</hi>
+        </note>
+      </p>
+      <p rend="indent"><lb/><hi rend="italic">Chael,</hi> one of the Sons of the <w part="I"
+          >Chil-</w><lb/><w part="F">dren</w> of <hi rend="italic">Iſrael,</hi> a very ancient
+        Doctor, <lb/>during the time he was in the <w part="I">Wilder-</w><lb/><w part="F">ness</w>,
+        made many Obſervations, and <lb/>cauſed Figures to be graved according to the Courſe <lb/>of
+        the Planets. Perceiving the Effects thereof, he <lb/>compiled a Book of the Virtue of ſuch
+        Images, <lb/>amongſt which the following are the moſt notableſt. <lb/>Hallowed be God, who
+        hath given ſuch Virtues to <pb xml:id="page_30" n="31"/><lb/>the Earth for the Welfare of
+        the human Generation. <lb/>Theſe Words are to be found in the very Beginning <lb/>of the
+        Book written by the ſaid <hi rend="italic">Chael.</hi>
+      </p>
+      <p rend="indent"><lb/>The Figure of a Man ſitting behind a Plow, with <lb/>a long Beard, a
+        long Face and bent Eye-brows, four <lb/>Men leaning upon his Neck, he himſelf having in
+        <lb/>his Hands a Fox and a Vulture; if ſuch a Stone in <lb/>which theſe things are graven,
+        is tyed to one's Neck, <lb/>he will be able to diſcover hidden Treaſures; he will <lb/>dream
+        of Treaſures, and of the manner to overcome <lb/>them. There is ſtill another Virtue to free
+        Beaſts <lb/>from Sickneſs, if they drink the Water wherein <lb/>this Stone hath been waſhed.
+        This Stone muſt be <lb/>graved in the day and hour of <hi rend="italic">Venus.</hi> But what
+        <lb/>Stone is muſt be, is not ſignify'd. </p>
+      <p rend="indent"><lb/>The Image of a Man, having on his Neck a <lb/>Shield, on his Head a
+        Helmet, and in his Hand a <lb/>Sword, treading under Foot a Serpent, being graven <lb/>in a
+        red Jaſper, and ty'd to the Neck, is to make <lb/>him who weareth it to overcome his Enemies
+        in a <lb/>Battle, chiefly if ſuch a Battle is fought on a <hi rend="italic"
+          >Tues-<lb/>day.</hi>
+      </p>
+      <p rend="indent"><lb/>The Image of a Horſe, having above a <w part="I">Croco-</w><lb/><w
+          part="F">dile</w>, graven in a Jacinct, to have the Virtue to help <lb/>him who weareth it
+        to his juſt Demands, to make <lb/>him beloved or lovely. It muſt be ſet in Gold, <w part="I"
+          >be-</w><lb/><w part="F">cauſe</w> Gold cauſeth its Virtue to increaſe. </p>
+      <p rend="indent"><lb/>The Figure of a Man ſitting and a Woman <w part="I">ſtand-</w><lb/><w
+          part="F">ing</w> before him with her Hairs ſpread abroad, the <lb/>Man looking upwards;
+        this Figure alſo graven in a <lb/>Cornelian, will procure the Benevolence of every <lb/>Body
+        touch'd therewith. Under the Stone muſt be <lb/>put a little Ambergriſe and Turpentine. </p>
+      <p rend="indent"><lb/>A Man ſitting with a lighted Candle in his Hand, <lb/>being graved in a
+        Chryſolite, hath the Virtue to <lb/>cauſe him who weareth it, to become rich. It muſt
+        <lb/>be ſet in the fineſt Gold that can be had. </p>
+      <pb xml:id="page_31" n="32"/>
+      <p rend="indent"><lb/>A Stag, or a Hunter, or a Dog, or a Hare, <w part="I">gra-</w><lb/><w
+          part="F">ven</w> in a Stone, hath the Virtue to tame lunatick and <lb/>frantick People. </p>
+      <p rend="indent"><lb/>The Image of a woman, having in one Hand a <lb/>Bird, and in the other a
+        Fiſh, graven in a Stone, to <lb/>have a Virtue in fiſhing and fowling. It muſt be <lb/>ſet
+        in Silver. </p>
+      <p rend="indent"><lb/>An Image, whoſe Forepart is a Horſe, and the <lb/>Backpart a She Goat,
+        being graved in a Stone, is of <lb/>a Virtue to give Luck in bringing up and feeding all
+        <lb/>kinds of Animals. It muſt be ſet in Lead. </p>
+      <p rend="indent"><lb/>The Image of a Vulture, with an Olive-Branch in <lb/>his Bill, being
+        engraved in a Stone call'd Pyrites<note place="bottom" n="(a)" rend="italic size(0.5)">(a) A
+          precious Stone which, if one holdeth it hard, burneth the <lb/>Fingers. </note>
+        <lb/>and worn in a Silver Ring, is to cauſe him who <lb/>weareth it to be look'd at with
+        Admiration and <lb/>Amazement. </p>
+      <p rend="indent"><lb/>The Figure of a Ram and a Lyon, graven in a <lb/>precious Stone, has a
+        Virtue to reconcile diſcordant <lb/>People, being touched therewith. It is to be ſet in
+        <lb/>Silver. </p>
+      <p rend="indent"><lb/>The Figure of a Baſilisk fighting with a Dragon, <lb/>and above it the
+        Head of a Man graven in a <w part="I">Corne-</w><lb/><w part="F">lian</w> and ty'd to the
+        Neck, cauſeth him who <w part="I">wear-</w><lb/><w part="F">eth</w> it to vanquiſh all kind
+        of Beaſts, as well on Earth <lb/>as in the Sea. </p>
+      <p rend="indent"><lb/>The Figure of a naked Man puff'd up, and the <lb/>Figure of another Man
+        well dreſs'd, having in one <lb/>Hand a Cup, and in the other a Bough of an Herb <lb/>or
+        Plant, being graved in an Agath, has a Virtue to <lb/>free from all kind of Fevers and
+        Agues, if it is worn <lb/>only for three Days. </p>
+      <p rend="indent"><lb/>The Figure of <hi rend="italic">Scorpio</hi> and <hi rend="italic"
+          >Sagittarius</hi> fighting <w part="I">to-</w><lb/><w part="F">gether</w>, graven in a
+        Stone, and ſet in an Iron Ring <lb/>and printed into Wax, is to make Diſcord inſtantly
+        <lb/>amongſt ſuch who are touched therewith. </p>
+      <pb xml:id="page_32" n="33"/>
+      <p rend="indent"><lb/>The Figure of half a Woman and half a Fiſh; <lb/>the Woman having in one
+        Hand a Looking-glaſs, <lb/>and in the other a Bough, being graved in a Jacinct <lb/>and ſet
+        in Gold, is to make inviſible him who <lb/>weareth it as often as he pleaſeth. The Seal is
+        to be <lb/>covered with Wax, and to be worn towards the <lb/>Palm of the Hand. This Figure
+        is mentioned twice <lb/>by the ſame Author with almoſt the ſame Words. </p>
+      <p rend="indent"><lb/>The Figure of a Serpent, above it a Man, and on <lb/>the Man ſitting a
+        Raven, being graved in a Stone, to <lb/>make him who weareth it witty and prudent. </p>
+      <p rend="indent"><lb/>The Figure of a Man ſtanding, and being cloathed <lb/>with a Coat of
+        Mail, and having a naked Sword in <lb/>his Hand, being found graved in a Stone, and ſet
+        <lb/>in an Iron Ring of the ſame Weight, to cauſe him <lb/>who weareth it to be irreſiſtible
+        in War. </p>
+      <p rend="indent"><lb/>The Figure of a Man with a Beard, and a long <lb/>Face; and bent
+        Eye-brows; ſitting upon a Plow <lb/>between two Bulls, being graved in a Stone, to
+        <lb/>cauſe him, who weareth it, to be proſperous in <lb/>Husbandry; to diſcover Treaſures;
+        to be valiant in <lb/>Fighting; to convert Enemies into Friends; to reſiſt <lb/>many
+        Diſeaſes; and to make Serpents fly from his <lb/>Face: To be likewiſe powerful againſt the
+        Falling-<lb/>Sickneſs; and being Worn by a ſick Perſon, to <w part="I">re-</w><lb/><w
+          part="F">cover</w> Health immediately. To cauſe the Virtue to <lb/>be ſtill ſtronger, it
+        muſt be ſet in Iron, double the <lb/>Weight in reſpect of the Stone. </p>
+      <p rend="indent"><lb/>The Figure of an Eagle graven in a precious <lb/>Stone called <hi
+          rend="italic">Ætites;</hi> and ſet in a Ring of Lead, to <lb/>cauſe him, who weareth it,
+        to be beloved by every <lb/>body, and be obeyed by all Kind of Animals. <w part="I"
+          >Ac-</w><lb/><w part="F">cording</w> to <hi rend="italic">Pliny</hi> this Stone is found
+        in an Eagle's <lb/>Neſt, and is like an Eagle with a white Tail, <w part="I"
+          >with-</w><lb/><w part="F">out</w> which, it is thought, that the Eagle cannot lay
+        <lb/>her Eggs. Of this Stone is reported, that being <pb xml:id="page_33" n="34"/><lb/>laid
+        to a Woman's Thigh, it cauſeth quick <w part="I">Deliver-</w><lb/><w part="F">ance</w>. </p>
+      <p rend="indent"><lb/>The Sign of <hi rend="italic">Capricorn,</hi> graved in a Cornelian or
+        in <lb/>any other Stone, and ſet in Silver, to cauſe him who <lb/>weareth it to abound in
+        Honour, to acquire every <lb/>Body's Friendſhip, and to be able to reſiſt every Body <lb/>in
+        Fighting, how ſtout and valiant ſoever they may <lb/>be. Thus far <hi rend="italic"
+          >Chael.</hi>
+      </p>
+      <p rend="indent"><lb/><note place="marg" rend="italic"> Images and <w part="I">Fi-</w><lb/><w
+            part="F">gures</w> of <hi rend="roman">Hermes</hi>. </note><note>
+          <p rend="indent"><lb/><hi rend="italic">Hermes</hi>, a Philoſopher ſufficiently
+            <lb/>known, mentioneth the following <w part="I">Ima-</w><lb/><w part="F">ges</w> and
+            Figures graved in Stones, to be <lb/>of ſingular Virtues. </p>
+        </note></p>
+      <p rend="indent"><lb/>The Image of a Man of a great <w part="I">Sta-</w><lb/><w part="F"
+          >ture</w>, ſtanding, graved in a Stone call'd Diadochus, <lb/>(a Stone like a Beryl)
+        having in the right Hand an <lb/>Obolus, or an Halfpenny, and in the other a <w part="I"
+          >Ser-</w><lb/><w part="F">pent</w>, above him the Figure of the Sun, and under <lb/>his
+        Feet keeping a Lion proſtrate; if ſuch a Stone <lb/>is ſet in a Ring of Lead with a little
+        of Mugwort or <lb/>Motherwort, and the Root of Fenugreek, it will <lb/>impower him who
+        weareth it, to call on the Shore <lb/>of a River the Spirits belonging to the Waters, and
+        <lb/>to receive anſwer to what he is asking of them. </p>
+      <p rend="indent"><lb/>The Figure of <hi rend="italic">Aquarius,</hi> (one of the Signs of the
+        <lb/>Zodiack) being graved in a green Jaſper, and worn, <lb/>cauſeth Profit in buying and
+        ſelling. A Bird <w part="I">carry-</w><lb/><w part="F">ing</w> in his Bill a Leaf, and the
+        Head of a Man being <lb/>in his Sight looking at the Bird, if this is graved in a
+        <lb/>precious Stone, called Pangonius, having many <lb/>Angles, and ſet in Gold, is to cauſe
+        him who <w part="I">wear-</w><lb/><w part="F">eth</w> it to become rich and reſpected by
+        every Body. </p>
+      <p rend="indent"><lb/>The Figure of <hi rend="italic">Jupiter,</hi> which is a Man ſitting on
+        <lb/>a Bench or Chair with four Feet, four Men ſtanding <lb/>before <hi rend="italic"
+          >Jupiter,</hi> and <hi rend="italic">Jupiter</hi> having his Hands <lb/>erected towards
+        Heaven, and on his Head a <w part="I">Dia-</w><lb/><w part="F">dem</w>; if ſuch a Figure is
+        graved in a Jacinct, and ſet <lb/>in Gold, and this Ring worn, or an Impreſſion <w part="I"
+          >there-</w><pb xml:id="page_34" n="35"/><lb/><w part="F">of</w> made in Wax, and tyed to
+        the Neck of a Perſon, <lb/>it will cauſe him to have granted of Kings and wiſe <lb/>People,
+        every thing he deſireth. </p>
+      <p rend="indent"><lb/>The Figure of a Man on Horſeback, holding in <lb/>one Hand the Bridle,
+        and in the other a Bow bent, <lb/>and girded with a Sword; if ſuch a Figure is graved
+        <lb/>in a precious Stone call'd Pyrites, before mentioned, <lb/>and ſet in Gold, it is to
+        render him who weareth it <lb/>victorious in a Battle, and no body can reſiſt him. </p>
+      <p rend="indent"><lb/>The Figure of a Woman, having her Hairs ſpread <lb/>over her Breaſt, and
+        in her Sight a Man as coming <lb/>unto her and making ſome Signs of Love, being <lb/>graved
+        in a Jacinct or Cryſtal and ſet in Gold, and <lb/>under the Stone a little Ambergriſe. Aloe
+        and <w part="I">Mug-</w><lb/><w part="F">wort</w> or Motherwort, will cauſe him who weareth
+        <lb/>ſuch a Stone in a Ring to be obey'd by every body, <lb/>and if he toucheth a Woman
+        therewith ſhe will love <lb/>him; and if he layeth it under his Head at going <lb/>to Bed,
+        he will ſee any thing he deſireth. </p>
+      <p rend="indent"><lb/>The Image of a Man ſitting over a Fiſh, and over <lb/>the Head of the
+        Man a Peacock, being graved in a <lb/>red Stone, and laid under the Table at a Feaſt, no
+        <lb/>Body, eating with the right Hand, will be ſatiated. </p>
+      <p rend="indent"><lb/>The Image of a naked Man ſtanding, and at his <lb/>right Hand a Girl
+        likewiſe ſtanding, whoſe Hairs <lb/>are tyed round the Head, and the Man is holding his
+        <lb/>left Hand over her Breaſt, and the Right round her <lb/>Neck, looking in her Face, and
+        the Girl looking <lb/>downwards; if ſuch a Figure is graved in a Stone <lb/>and ſet in an
+        Iron Ring, and under the Stone laid a <lb/>little Bit of a Sparrow's Tongue, and of that of
+        a <lb/>Bird called Upupa, Myrrh, Alum, and human <lb/>Blood; the Perſon who weareth ſuch a
+        Ring will <lb/>be invincible, no body can reſiſt, and no Beaſt can <lb/>hurt him. It will
+        cure the Falling Sickneſs, if red <lb/>Wax is ſeal'd therewith and tyed to the Neck; and <pb
+          xml:id="page_35" n="36"/><lb/>if it is held to the Neck of a Dog, it will ſtop his
+        <lb/>barking. </p>
+      <p rend="indent"><lb/>The Image of a Man holding Flowers in his Hand, <lb/>being graved in a
+        Cornelian, and ſet in a Pewter <lb/>Ring, the Ring being made on a <hi rend="italic"
+          >Monday</hi> or <hi rend="italic">Friday</hi>
+        <lb/>in the 4th, 8th or 12th Hour, every Body will obey <lb/>who is touched with this Ring. </p>
+      <p rend="indent"><lb/>The Figure of a Man bearded, with a long <lb/>Face and bended Eyebrows,
+        ſitting upon a Plow, <lb/>between two Bulls, and having a Vulture in his <lb/>Hand, being
+        graved in a Stone, is of Virtue to cauſe <lb/>good Succeſs in planting of Trees, diſcovering
+        of <lb/>Treaſures, and to be victorious in Battles. It cureth <lb/>the Falling Sickneſs, and
+        muſt be ſet and worn in <lb/>an Iron Ring. </p>
+      <p rend="indent"><lb/>The Figure of a Man holding a Scythe in his Hand <lb/>over his Head, and
+        under his Feet a Crocodile, being <lb/>graved in a Stone, and ſet in a leaden Ring, and
+        <lb/>under the Stone laid a little of the Root of an Herb <lb/>call'd Sea-Onyon, is to cauſe
+        him who weareth it <lb/>to be ſecure againſt all his Enemies, and on <w part="I"
+          >Jour-</w><lb/><w part="F">nies</w> againſt Robbers and Highwaymen. </p>
+      <p rend="indent"><lb/>The Figure of a Man holding a Sword in his <lb/>Hand, and ſitting on a
+        Dragon, being graved in an <lb/>Amethyſt, and ſet in a leaden or Iron Ring, is to
+        <lb/>procure to him who weareth ſuch a Ring, the <w part="I">Obe-</w><lb/><w part="F"
+          >dience</w> of all Spirits and Diſcovery of all Treaſures. </p>
+      <p rend="indent"><lb/>The Figure of an Eagle ſtanding, graved in a <w part="I">pre-</w><lb/><w
+          part="F">cious</w> Stone call'd Aetites, before mentioned, and ſet <lb/>in a leaden Ring,
+        cauſeth him who weareth it to be <lb/>ſucceſſful in fiſhing; no Beaſt can hurt him, and he
+        <lb/>is beloved by every Body. </p>
+      <p rend="indent"><lb/>The Figure of a Man, having in his Hand a <lb/>Bough of a Palm or Date
+        Tree, being graved in a <lb/>Stone, is to render him who weareth it acceptable <lb/>and
+        beloved by Princes and great People. As much <lb/>out of <hi rend="italic">Hermes.</hi>
+      </p>
+      <pb xml:id="page_36" n="37"/>
+      <p rend="indent"><lb/><note place="marg" rend="italic"> Images or Seals of <hi rend="roman"
+            >Thetel.</hi>
+        </note>
+      </p>
+      <p rend="indent"><lb/><hi rend="italic">Thetel,</hi> a very antient Doctor, writing <lb/>of
+        Gravings in Stones, relateth the <w part="I">follow-</w><lb/><w part="F">ing</w> Seals to be
+        of a great Virtue. </p>
+      <p rend="indent"><lb/>The Image of a Man graved in a <lb/>Jaſper, having a Shield in the left
+        and ſome <w part="I">Wea-</w><lb/><w part="F">pons</w> in the right Hand; inſtead of the
+        Feet, Vipers, <lb/>and inſtead of a Man's Head, a Head of a Cock <lb/>or Lyon, to be of
+        Virtue againſt Enemies, and to <lb/>cauſe him who weareth it, to be victorious; and
+        <lb/>that ſuch a Stone is prevailing againſt Poiſon, and <lb/>ſtayeth Blood from what Place
+        ſoever it proceeds. </p>
+      <p rend="indent"><lb/>The Figure of a Man having a Bundle of Flowers <lb/>on his Neck, graved
+        in a Jaſper, to give Virtue to <lb/>underſtand Diſeaſes, and to ſtop Blood from what
+        <lb/>place ſoever it proceeds. And it is ſaid that <hi rend="italic">Galen</hi>
+        <lb/>had ſuch a Stone. </p>
+      <p rend="indent"><lb/>A Woman having in one Hand a Bird, and in <lb/>the other a Fiſh, graved
+        in a Chryſolite, to profit <lb/>much in negotiating. </p>
+      <p rend="indent"><lb/>The Figure of a Stag, graved in a Jaſper, to have <lb/>the Virtue to
+        cure lunatick and frantick People. </p>
+      <p rend="indent"><lb/>The Figure of a Virgin with a long Garment, <lb/>holding a Laurel in her
+        Hand, being graved in a <w part="I">Jaſ-</w><lb/><w part="F">per</w>, to ſecure him who
+        weareth it from being drown'd, <lb/>and to procure every thing to be granted to him. So
+        <lb/>far <hi rend="italic">Thetel.</hi>
+      </p>
+      <p rend="indent"><lb/><note place="marg" rend="italic"> Seals of <hi rend="roman"
+            >So-<lb/>lomon. </hi></note><note>
+          <p rend="indent"><lb/>An ancient Book being found in the <lb/>Wilderneſs by the Children
+            of <hi rend="italic">Iſrael,</hi>
+            <lb/>which comprehends many Works of <lb/><hi rend="italic">Solomon,</hi> hath therefore
+            been aſcribed to <hi rend="italic">Solomon.</hi> The <lb/>Title of this Book is, <hi
+              rend="italic">Of the Seals of Stones, <w part="I">accord-</w><lb/><w part="F">ing</w>
+              to thy Name, O Lord, and according to the Courſe <lb/>of the Stars.</hi>
+          </p>
+        </note></p>
+      <p rend="indent"><lb/>The Figure of a Man ſitting on a Plough, having <lb/>a ſhort Neck and a
+        long Beard, four Men lying upon <lb/>his Neck, holding in one Hand a Fox, and in the
+        <lb/>other a Vulture; ſuch a Seal being tied to the Neck, <lb/>is profitable to Husbandry
+        and diſcovering of <w part="I">Trea-</w><pb xml:id="page_37" n="38"/><lb/><w part="F"
+          >ſures</w>. The Trial thereof is to be made following, <lb/><hi rend="italic">viz.</hi>
+        Take pure black Wool without being dyed, <lb/>wrap your Stone therein, and after having laid
+        it <w part="I">be-</w><lb/><w part="F">tween</w> Wheat Straw, lay your Head upon it, and you
+        <lb/>will ſee in your Sleep all the Treaſures of the <w part="I">Coun-</w><lb/><w part="F"
+          >try</w> you are in. It hath likewiſe the Virtue to cure <lb/>all Languiſhings of Beaſts,
+        if they drink of the <w part="I">Wa-</w><lb/><w part="F">ter</w> wherein this Stone hath
+        been waſh'd. </p>
+      <p rend="indent"><lb/>A Man graved in a green Jaſper, having a Shield <lb/>bending on his
+        Neck, and a Helmet upon his Head, <lb/>with a Sword erected, treading upon a Serpent; ſuch
+        <lb/>a Stone if you wear on your Neck, you will fear no <lb/>Enemy; you will be victorious
+        in every thing, but <lb/>chiefly in martial Things. It muſt be ſet in Braſs. </p>
+      <p rend="indent"><lb/>A Horſe carrying on its Back a Crocodile, graved <lb/>in a white
+        Jacinct, to render one beloved by Men and <lb/>Beaſts. </p>
+      <p rend="indent"><lb/>The Figure of a Man ſitting, and a Woman <w part="I">ſtand-</w><lb/><w
+          part="F">ing</w> before him with her Hairs hanging down to the <lb/>Thighs, lifting her
+        Eyes upwards, being graved in a <lb/>Cornelian, hath the Virtue to cauſe every Body to
+        <lb/>be obedient. It muſt be ſet in double the Weight of <lb/>Gold, and under it laid Betony
+        and Ambergriſe. </p>
+      <p rend="indent"><lb/>A Horſe foaming, and a Man upon its Back <w part="I">hav-</w><lb/><w
+          part="F">ing</w> a Scepter in his Hand, graved in an Amethyſt, <lb/>is to procure the
+        Favour of Princes and great People <lb/>to him who weareth it. It muſt be ſet in Gold or
+        <lb/>Silver of double the Weight in reſpect to the Stone. </p>
+      <p rend="indent"><lb/>The Head of a Man, with a long Beard and a <lb/>little Blood about his
+        Neck, being graved in a <w part="I">Dia-</w><lb/><w part="F">mond</w>, procureth Victory and
+        Audacity, preſerveth <lb/>the Body from being hurt, and cauſeth Favour from <lb/>Princes. </p>
+      <p rend="indent"><lb/>The Image of a Cock, or of three Girls, being <lb/>grave in an Agath,
+        maketh him who weareth it <lb/>beloved by Men. </p>
+      <p rend="indent"><lb/>The Figure of a Lyon graved in a Gernet, is to <pb xml:id="page_38"
+          n="39"/><lb/>procure Riches, to rejoyce the Heart and to expell <lb/>Sadneſs. </p>
+      <p rend="indent"><lb/>The Figure of a Man, like a Merchant carrying <lb/>Goods to ſell, graved
+        in an Emerald, is to procure <lb/>Riches, to make victorious, and to eaſe from Troubles
+        <lb/>and Grief of Mind. </p>
+      <p rend="indent"><lb/>The Figure of a Bull or a Calf, graved in a <w part="I">Load-</w><lb/><w
+          part="F">ſtone</w>, to procure a proſperous Journey through every <lb/>Place one
+        travelleth, and to ſecure againſt <w part="I">Enchant-</w><lb/><w part="F">ments</w>. </p>
+      <p rend="indent"><lb/>The Figure of a Horſe or a Wolf, graved in a <lb/>Jaſper, to cure Fevers
+        and to ſtop Blood. </p>
+      <p rend="indent"><lb/>The Figure of a Man armed with a Sword in his <lb/>Hand, graved in Stone
+        call'd Sardius<note place="bottom" n="(a)" rend="italic size(0.5)">(a) Found in <hi
+            rend="roman">Sardinia</hi>, from whence it hath its Name; it is a <lb/>kind of Onyx of a
+          black Colour. </note>, or in an <lb/>Amethyſt, to procure to him who weareth it a good
+        <lb/>Memory, and to make him witty. </p>
+      <p rend="indent"><lb/>The Figure of a Stag or a Buck Goat, graved in <lb/>a Chalcedony, hath
+        the Virtue to increaſe Riches if <lb/>it is worn in a Purſe where is Money in. </p>
+      <p rend="indent"><lb/>The Figure of a Lobſter <hi rend="italic">(Locuſta Marina)</hi>
+        <w part="I">gra-</w><lb/><w part="F">ved</w> in a Beryl, to make up Quarrels and to cauſe
+        <lb/>Love between married People. </p>
+      <p rend="indent"><lb/>The Figure of a Night-Crow or Raven <w part="I">(Nocti-</w><lb/><w
+          part="F">corax</w> or Nycticorax, a Bird dedicated to <hi rend="italic">Pallas</hi>) <w
+          part="I">gra-</w><lb/><w part="F">ved</w> in a Stone, to cauſe a Man to be skillful and
+        <lb/>eloquent. </p>
+      <p rend="indent"><lb/>The Image of a Peacock graved in a convenient <lb/>Stone, to make him
+        who weareth it rich. </p>
+      <p rend="indent"><lb/>The Figure of a Man, killing with a Sword a <lb/>Lyon or any other
+        Beaſt, to make him who <w part="I">wear-</w><lb/><w part="F">eth</w> it victorious and
+        beloved. </p>
+      <p rend="indent"><lb/>The Figure of a naked Man, puffed up and <lb/>crowned, holding in one
+        Hand a great Cup, and in <lb/>the other a Bough of an Herb, being graved in an <pb
+          xml:id="page_39" n="40"/><lb/>Agath Stone, and ſet in a Ring of any Metal, hath <lb/>the
+        Virtue to free him who weareth it immediately <lb/>from a Fever. </p>
+      <p rend="indent"><lb/>The Figure of a Man ſitting on Fiſhes, graved in <lb/>a red Jaſper, and
+        laid near one, is to hinder him to <lb/>be ſatiated, in caſe he eateth with his right Hand. </p>
+      <p rend="indent"><lb/>The Figure of a Woman, having her Hairs ſpread <lb/>abroad, her Breaſts
+        naked, in her Sight being a Man <lb/>looking in her Face; if this Figure is graved in a
+        <lb/>Jacinct, Garnet or Cryſtal, and ſet in a Ring of Gold <lb/>of the ſame Weight as the
+        Stone is, and under the <lb/>Stone Ambergriſe, Aloe and Polypody, it will <w part="I"
+          >pro-</w><lb/><w part="F">cure</w> to him who weareth it the Love and Regard <lb/>of every
+        body, and if he layeth it under his Head <lb/>he will ſee in his ſleep every thing he
+        deſireth to ſee. </p>
+      <p rend="indent"><lb/>The Figure of a Man being on Horſeback, <w part="I">hold-</w><lb/><w
+          part="F">ing</w> in one Hand the Bridle, and in the other a Bow, <lb/>and being girded
+        with a Sword; if ſuch a Figure is <lb/>graved in a Stone call'd Pyrites, before mention'd,
+        <lb/>and ſet in a golden Ring, it hath the Virtue to make <lb/>him who weareth it victorious
+        in Battles, and no <lb/>body can reſiſt him; if he dippeth the Ring in Oil <lb/>of Nutmegs,
+        every Body will fear him, and if he <lb/>anointeth his Face with this Oil, no body will
+        oppoſe <lb/>him. </p>
+      <p rend="indent"><lb/>The Figure of a naked Man, and at his right <lb/>Hand ſtanding a Girl
+        naked, and having her Hairs <lb/>tied about her Head, the Man laying his right Hand
+        <lb/>round the Neck of the Girl, and the left upon her <lb/>Breaſt, the Man looking in the
+        Face of the Girl, and <lb/>ſhe towards the Ground; if ſuch a Figure is graved <lb/>in a
+        Loadſtone, and ſet in a Ring of Iron of as much <lb/>Weight as the Stone is, and under the
+        Stone laid the <lb/>Tongue of an Houp (Upupa) Myrrh, Alum, and <lb/>as much human Blood as
+        the Weight of the Tongue, <lb/>no body can reſiſt him who weareth ſuch a Ring <lb/>either in
+        War or elſewhere, no Robber nor ſavage <pb xml:id="page_40" n="41"/><lb/>Beaſt can come in
+        the Houſe where ſuch a Stone is <lb/>kept; and one afflicted with the falling Sickneſs, is
+        <lb/>cured by drinking the Water wherein this Ring is <lb/>waſhed. If a Piece of red Wax is
+        ſeal'd with this <lb/>Image and tied to the Neck of a Dog, it will <w part="I"
+          >hin-</w><lb/><w part="F">der</w> him to bark. </p>
+      <p rend="indent"><lb/>The Figure of a Woman, holding in one Hand a <lb/>Bird, and in the other
+        a Fiſh, graved in Cryſtal, <lb/>is profitable in Catching of Birds. It muſt be ſet in
+        <lb/>Silver. </p>
+      <p rend="indent"><lb/>The Figure of a Man with the Head of a Buck-<lb/>Goat inſtead of his
+        own, to be powerful in acquiring <lb/>of Riches. </p>
+      <p rend="indent"><lb/>The Figure of an Eagle graved in a Cryſtal, to <lb/>make him who weareth
+        it rich, victorious and <w part="I">elo-</w><lb/><w part="F">quent</w>. </p>
+      <p rend="indent"><lb/>The Figure of a Turtle graved in a Stone call'd <lb/>Pangonius (a
+        precious Stone with many Angles) and <lb/>ſet in a leaden Ring, is to cauſe him who weareth
+        it <lb/>to be never wounded nor hurted, and to be honour'd <lb/>by every body, chiefly by
+        old People. </p>
+      <p rend="indent"><lb/>The Figure of a Bird holding a Leaf in his Bill, <lb/>and in his Sight
+        being the Head of a Man or of a <lb/>Vulture, graved in Gold, is to procure to him who
+        <lb/>weareth it Profit in every thing he buyeth and <w part="I">ſel-</w><lb/><w part="F"
+          >leth</w>, and to draw Cuſtomers to him. </p>
+      <p rend="indent"><lb/>The Figure of a winged Horſe, called Pegaſus, <w part="I">be-</w><lb/><w
+          part="F">ing</w> graved in a Stone, to be profitable to Warriours, <lb/>and to give
+        Audacity and Alacrity. </p>
+      <p rend="indent"><lb/><hi rend="italic">Mars</hi> armed, or a Virgin with a Garment bended
+        <lb/>or turned round about her, being graved in Jaſper, <lb/>is to be uſeful in Warfare, to
+        ſecure him who <w part="I">wear-</w><lb/><w part="F">eth</w> it againſt a violent Death and
+        other unlucky <w part="I">Ac-</w><lb/><w part="F">cidents</w>. </p>
+      <p rend="indent"><lb/>The Figure of an armed Man on Horſeback, with <lb/>a Javelin in his
+        Hand, graved in an Amethyſt, is to <lb/>cauſe him who weareth it to be victorious in War. </p>
+      <pb xml:id="page_41" n="42"/>
+      <p rend="indent"><lb/>The Figure of <hi rend="italic">Hercules,</hi> holding in his right Hand
+        <lb/>a Club, and killing a Lyon or any other Monſter, <lb/>being graved in a Stone, hath the
+        Virtue to him <lb/>who weareth it, Victory in all Battles. </p>
+      <p rend="indent"><lb/>The Figure of a Virgin holding a Lamp, being <lb/>graved in a Cryſtal,
+        hath the Virtue to preſerve <lb/>the Eye Sight. </p>
+      <p rend="indent"><lb/>The Figure of <hi rend="italic">Aries, Leo,</hi> and <hi rend="italic"
+          >Sagittarius,</hi> graved <lb/>in a precious Stone, to prevail againſt cold Diſeaſes,
+        <lb/>and to reſiſt phlegmatick Fevers, and by reaſon of the <lb/>Planets which are ruling in
+        theſe Signs, to procure <lb/>Dignities, to make beloved by God and Men, <w part="I"
+          >elo-</w><lb/><w part="F">quent</w> and ingenious; but it muſt be graved <w part="I"
+          >triangu-</w><lb/><w part="F">lar-wiſe</w>, in the upper Part <hi rend="italic">Leo,</hi>
+        and below at the <lb/>right Hand <hi rend="italic">Aries,</hi> and at the left <hi
+          rend="italic">Sagittarius.</hi>
+      </p>
+      <p rend="indent"><lb/>The Figure of <hi rend="italic">Taurus, Virgo,</hi> and <hi
+          rend="italic">Capricornus,</hi>
+        <lb/>graved in a Stone, is to prevail againſt hot and moiſt <lb/>Diſeaſes. It cauſeth him
+        who weareth it to incline <lb/>to rural Buſineſs, as plowing, planting, ſowing, <w part="I"
+          >culti-</w><lb/><w part="F">vating</w> of Vineyards and the like. <hi rend="italic"
+          >Capricornus</hi> muſt <lb/>be graved in the Cone, at the right Hand <hi rend="italic"
+          >Taurus,</hi> and <lb/>at the left <hi rend="italic">Virgo.</hi>
+      </p>
+      <p rend="indent"><lb/>The Image of <hi rend="italic">Gemini, Libra</hi> and <hi rend="italic"
+          >Aquarius,</hi>
+        <w part="I">gra-</w><lb/><w part="F">ved</w> in a Stone, is powerful againſt cold and dry
+        <lb/>Diſeaſes ariſing from melancholic Humours; chiefly <lb/>it prevails againſt Quartans.
+          <hi rend="italic">Libra</hi> muſt be graved <lb/>at the Point of the Triangle, and at the
+        right of <lb/>the Baſis <hi rend="italic">Aquarius,</hi> and at the left <hi rend="italic"
+          >Gemini.</hi>
+      </p>
+      <p rend="indent"><lb/>The Figure of <hi rend="italic">Cancer, Scorpio</hi> and <hi
+          rend="italic">Piſces,</hi> graved <lb/>in a Stone, hath the Virtue to prevail againſt hot
+        and <lb/>dry Diſeaſes, and ſuch as do proceed from Choler; <lb/>but it cauſeth him who
+        weareth it to be inconſtant, <lb/>unjuſt, and an Enemy to Truth. <hi rend="italic"
+          >Cancer</hi> muſt be <lb/>graved at the Point of the Triangle, below, at the <lb/>right
+        Hand <hi rend="italic">Piſces,</hi> and at the left <hi rend="italic">Scorpio.</hi>
+      </p>
+      <gap reason="sampling" unit="pages" quantity="14"/>
+    </body>
+  </text>
+</TEI>

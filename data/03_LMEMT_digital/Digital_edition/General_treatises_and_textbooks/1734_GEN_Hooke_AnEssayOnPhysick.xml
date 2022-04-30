@@ -1,0 +1,1324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LMEMT Corpus - Hooke: An Essay on Physick</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>Andrew Hooke</persName>
+            </author>
+            <title type="main">An essay on physick. Or, an attempt to revive the practice of the
+              antients. With some general observations on animal mechanism, and the materia medica.
+              By Andrew Hooke, M.D.</title>
+            <edition n="1"/>
+            <idno type="ESTC">N5850</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/N5850"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>London: printed for J. Roberts , near the Oxford-Arms in Warwick-Lane ;
+                  and sold by the booksellers in London and Westminster; and at the author's house
+                  in Lincolns-Inn-Fields , MDCCXXXIV. 1734</persName>
+              </publisher>
+              <date>1734</date>
+            </imprint>
+            <extent>
+              <measure type="format">8⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="1"/>
+              <measure type="count" commodity="body" unit="page" quantity="89"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library"/>
+            <idno type="ECCO">CW3310027061</idno>
+            <idno type="TCP">K003620.000 </idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="General treatises"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text xml:lang="eng">
+    <front> </front>
+    <body>
+      <pb xml:id="page_2" n="1"/>
+      <figure rend="space">
+        <figDesc>A horizontal ornamental column, spanning the whole page. </figDesc>
+      </figure>
+      <head rend="align-center space">
+        <lb/>AN <lb/><hi rend="size(2.5)">ESSAY </hi>
+        <lb/>ON <lb/><hi rend="size(3.0)">PHYSICK. </hi>
+      </head>
+      <space dim="vertical" unit="lines" quantity="2"> </space>
+      <p>
+        <lb/><hi rend="dc(3)">I</hi>
+        <hi rend="sc">Shall</hi> not trouble the Reader with the <lb/>Occaſion of the following
+        Eſſay, or <lb/>make any Apology for publiſhing it; <lb/>the Subject of it is too Important
+        to need <lb/>the latter, and the former is a matter of no <lb/>Conſequence to the Publick:
+        and as I am <lb/>not in humour, at preſent, to compliment <lb/>either my Self or Others, and
+        have neither <lb/>leiſure nor inclination to be Impertinent, I <lb/>ſhall directly fall on
+        my Subject, without <lb/>farther Preface or Dedication. </p>
+      <pb xml:id="page_3" n="2"/>
+      <p rend="indent">
+        <lb/><hi rend="sc">'Tis</hi> a matter of Fact beyond diſpute in <lb/>the Hiſtory of Phyſick,
+        as far as we have <lb/>any remaining Records of it, from its firſt <lb/>Riſe to this Day,
+        that the <hi rend="italic">Materia Medica</hi>
+        <lb/>has ſtill grown more and more Bulky in <lb/>every Age. From what Cauſes this aroſe,
+        <lb/>and what Effects it has produced, will be <lb/>farther ſeen in the Courſe of this
+        Eſſay. </p>
+      <p rend="indent space">
+        <lb/><hi rend="sc">The</hi> moſt antient Phyſicians, as far as we <lb/>can find, made uſe of
+        but very few Reme- <lb/>dies, and thoſe few were entirely directed <lb/>to the natural
+        Evacuations; either to pro- <lb/>mote ſuch as were Obſtructed and Defec- <lb/>tive, or to
+        check and reſtrain ſuch as were <lb/>Exceſſive and Redundant. And herein they <lb/>exactly
+        followed the Direction and Indica- <lb/>tions of Nature, by obſerving what Aug-
+        <lb/>mentation or Diminution of theſe Evacua- <lb/>tions, brought on ſuch and ſuch morbid
+        <lb/>Symptoms, and by what ways and means <lb/>they were removed and carried off, when
+        <lb/>the whole Proceſs was left to Nature only, <lb/>without any aſſiſtance or interpoſition
+        of <lb/>Art. And as this was the only proper <lb/>foundation to erect a laudable <hi
+          rend="italic">Praxis</hi> upon; <lb/>ſo in fact we find that the Medical Pro- <pb
+          xml:id="page_4" n="3"/>
+        <lb/>ceſſes of the Antients, were always more <lb/>or leſs ſucceſsful, as they had a nearer
+        or <lb/>more remote relation, in their intention of <lb/>Cure, to the Operations of
+        unaſſiſted Na- <lb/>ture, and were directed, governed and con- <lb/>ducted by this
+        Principle. </p>
+      <p rend="indent space">
+        <lb/><hi rend="sc">While</hi> Men thus contented themſelves <lb/>with knowing only what they
+        could diſ- <lb/>cover in Fact, confined their Reaſonings to <lb/>ſuch Phænomena as occurr'd
+        by Obſerva- <lb/>tion and Experience, and were not aſhamed <lb/>to confeſs their Ignorance
+        where they had <lb/>no true Knowledge; they ſtudyed Nature <lb/>more ſucceſsfully, and
+        applyed their Know- <lb/>ledge to much better purpoſe: and Phy- <lb/>ſick, as well as other
+        Arts and Sciences, <lb/>was conſiderably advanced and improved. <lb/>But ſuch was the Vanity
+        of the Philoſo- <lb/>phers in pretending to ſearch into the real <lb/>Eſſences, intrinſick
+        Conſtitutions and formal <lb/>Cauſes of things, that, in this whimſical <lb/>purſuit, they
+        had not only ſet aſide the <lb/>true method of improving Knowledge by <lb/>careful
+        obſervation and juſt experiments, <lb/>but introduced into its room a chimerical <lb/><hi
+          rend="italic">Succedaneum,</hi> which had no foundation in <pb xml:id="page_5" n="4"/>
+        <lb/>Reaſon and Nature, but was merely Fictiti- <lb/>ous, Imaginary and Hypothetical. And
+        <lb/>thus while they thought to ranſack the <lb/>Bowels, and penetrate to the very Centre
+        <lb/>of Nature, they loſt ſight of the Surface, <lb/>and could not perceive or judge of what
+        <lb/>was before their Eyes. </p>
+      <p rend="indent space">
+        <lb/><hi rend="sc">If</hi> theſe dark and profound Inquiſitors <lb/>had confin'd their
+        Enquirys and Lucubra- <lb/>tions to matters of Speculation and Enter- <lb/>tainment, and had
+        not attempted to intrude <lb/>their Whimſys and Reveries into common <lb/>Life, and the
+        uſeful Arts and Sciences; tho' <lb/>no good had come of it, yet, on the other <lb/>hand, no
+        great harm would have been done: <lb/>but the miſchief lay here, that in every Age <lb/>the
+        Philoſophy moſt in vogue, like a Tor- <lb/>rent carry'd all before it, broke in upon
+        <lb/>Soul and Body at once, and ſettled not on- <lb/>ly the Faith of Chriſtians, but the
+        Practice of <lb/>Phyſicians too: and hence we meet with <lb/>in their turns <hi
+          rend="italic">Platoniſts</hi>, <hi rend="italic">Ariſtotelians</hi>, <hi rend="italic">
+          Car- <lb/>teſians</hi>, <hi rend="italic">Corpuſcularians</hi>, <hi rend="italic"
+          >Specificians</hi>, and <lb/><hi rend="italic">Roſicrucians</hi> in Phyſick, as well as in
+        Divi- <lb/>nity. Theſe all claimed the ſame implicit <lb/>Faith and Obedience to their
+        reſpective <pb xml:id="page_6" n="5"/>
+        <lb/>Creeds, Canons and Conſtitutions, equally <lb/>denyed the Right of private Judgment to
+        <lb/>all their Diſciples, and, as far as lay in their <lb/>power, diſcouraged and oppoſed
+        all rational <lb/>Freedom of Inquiry whatſoever. Thus a <lb/>Phyſical as well as Theological
+        Orthodoxy <lb/>was ever inſiſted on, and a Man, in either <lb/>caſe, was always reputed to
+        die a Heretick, <lb/>if he did not die in Form. </p>
+      <p rend="indent space">
+        <lb/><hi rend="sc">The</hi> State of Phyſick thus ſtood for ma- <lb/>ny Ages, on the
+        authority of the Schools <lb/>and whimſies of the Theoriſts. The ſtudy <lb/>of Nature was
+        almoſt wholly laid aſide, and <lb/>the good old way to Knowledge by Obſer- <lb/>vations and
+        Experiments, was ſuperſeded <lb/>by Canons and Aphoriſms founded on a <lb/>meer verbal and
+        unintelligible Philoſophy; <lb/>which from authority, only, obtain'd the <lb/>name of firſt
+        Principles, and of conſequence <lb/>were not to be diſputed. And hence we <lb/>find that the
+        Practice of Phyſick in every <lb/>ſucceeding Age became more and more <lb/>uncertain and
+        precarious, till it ran quite <lb/>out of Character, and fell into the hands <lb/>of
+        Viſionaries and Chemical Enthuſiaſts, <lb/>who being for the moſt part Men of ſtrong <pb
+          xml:id="page_7" n="6"/>
+        <lb/>Imaginations and weak Judgments, em- <lb/>ploy'd all their thoughts, and ſpent all
+        their <lb/>time, in ſearch after the <hi rend="italic">Alkaheſt</hi> or <hi rend="italic">
+          Uni- <lb/>verſal Medicine;</hi> and ſo eager were they <lb/>in the purſuit of this
+        Chimæra, that they <lb/>not only neglected, but almoſt quite loſt, the <lb/>little knowledge
+        they had of particular Re- <lb/>medies. </p>
+      <p rend="indent space">
+        <lb/><hi rend="sc">And</hi> that a proper Theory might not be <lb/>wanting exactly ſuited to
+        this whimſical <lb/>and ridiculous Enterprize; and finding it <lb/>impracticable to adapt
+        any one then in be- <lb/>ing, or to contrive a new one in the way <lb/>of Reaſon and Nature;
+        they wiſely took it <lb/>into their heads to introduce Machinery <lb/>into Medicine, and to
+        bring in Demons and <lb/>ſupernatural Agents to their aſſiſtance. Thus <lb/>the <hi
+          rend="italic">Archæus</hi> came into play and was con- <lb/>ſtituted Superintendant over
+        the whole A- <lb/>nimal Oeconomy. This <hi rend="italic">Major-Domo</hi>, as <lb/>long as he
+        was in good humour, executed <lb/>his Commiſſion very faithfully, and guarded <lb/>the
+        Health and Safety of the whole Body; <lb/>ſo that all Danger was prevented, and every
+        <lb/>thing went on well. But no ſooner was he <lb/>diſpleaſed and diſobliged, but he
+        neglected <pb xml:id="page_8" n="7"/>
+        <lb/>his guard, Diſeaſe broke in upon the Con- <lb/>ſtitution, and all was out of order; and
+        no- <lb/>thing in Nature could reſtore it again to its <lb/>former Health and Rectitude,
+        till the <hi rend="italic"> Ar- <lb/>chaeus</hi> was pacifyed and appeaſed with the
+        <lb/>grand Secret or univerſal Medicine. Now <lb/>this grand Secret, you muſt know, was a
+        <lb/>certain Chemical Preparation ſo exactly ſuit- <lb/>ed to his Taſte, that it never
+        fail'd, when <lb/>timely adminiſtred by the Phyſician, to an- <lb/>ſwer this intention: but
+        when this peeviſh <lb/>teſty Phantom happened to be neglected too <lb/>long, he then fell
+        into a paſſion, became <lb/>implacable, and in his rage and fury always <lb/>deſtroyed the
+        Patient. </p>
+      <p rend="indent space">
+        <lb/><hi rend="sc">This</hi> Scheme, as whimſical and viſiona- <lb/>ry as it appears to be,
+        has had for its Patrons <lb/>and Defenders Gentlemen of the greateſt <lb/>name; and I make
+        no doubt but long e'er <lb/>this time, ſome happy Genius or other in <lb/>the Enthuſiaſtick
+        way would have carried <lb/>this matter, if poſſible, into farther Fanati- <lb/>ciſm, had
+        not Mathematical and Mechani- <lb/>cal Learning, which began to be in faſhion <lb/>in the
+        laſt Age, put People on a better me- <lb/>thod of enquiry and a juſter way of reaſon- <pb
+          xml:id="page_9" n="8"/>
+        <lb/>ing. And yet notwithſtanding, ſuch is the <lb/>prodigious and almoſt inſuperable force
+        of <lb/>Prejudice and Education, that a great part <lb/>of this Scheme is ſtill retained, by
+        Gentle- <lb/>men who would think themſelves ill uſed <lb/>if their Mathematical or
+        Mechanical Know- <lb/>ledge ſhould be called in queſtion, under <lb/>the <hi rend="italic"
+          >Animal Spirits</hi>, notion of to whom they <lb/>have aſſigned much the ſame Province and
+        <lb/>Powers, as was done to the <hi rend="italic">Archæus</hi> before; <lb/>with this
+        additional abſurdity, that theſe <hi rend="italic"> A- <lb/>nimal Spirits</hi> have been
+        treated as mecha- <lb/>nical and intelligent Agents at the ſame <lb/>time: of which any one
+        may be convinced, <lb/>who ſhall think it worth his while to look <lb/>into and examine the
+        ſeveral Hypotheſes on <lb/>this Subject. </p>
+      <p rend="indent space">
+        <lb/><hi rend="sc">And</hi> tho' it muſt be owned, that great <lb/>advances and improvements
+        have been ſince <lb/>made, by the Moderns, in natural Know- <lb/>ledge, yet 'tis much to be
+        wiſh'd that a bet- <lb/>ter method had been taken in the applica- <lb/>tion of this to the
+        Animal Oeconomy, the <lb/>Practice of Phyſick, and the Cure of Diſeaſes. <lb/>But ſuch has
+        been the hard fate of this Pro- <lb/>feſſion, that amidſt all other advances Phy- <pb
+          xml:id="page_10" n="9"/>
+        <lb/>ſick has been ſo very little improved, that <lb/>we have but one <hi rend="italic"
+          >Book</hi> in the World, as far <lb/>as I know, wherein any general Attempt has <lb/>been
+        made to apply the true Philoſophy <lb/>of Nature to the <hi rend="italic">Animal
+          Oeconomy</hi> and <lb/>the <hi rend="italic">Materia Medica</hi>; and this in my opi-
+        <lb/>nion has been executed with ſuch ſucceſs <lb/>by the Ingenious Author of <hi
+          rend="italic">the Philo- <lb/>ſophical Principles of Medicine</hi>, that the
+        <lb/>Intelligent unprejudiced Reader may pro- <lb/>miſe himſelf to meet, therein, with
+        almoſt <lb/>every thing that is valuable in the <hi rend="italic">Theory</hi>
+        <lb/>and <hi rend="italic">Practice</hi> of Phyſick; erected into one <lb/>conſiſtent
+        Syſtem, founded on indiſputable <lb/>Principles, and judiciouſly drawn out into <lb/>all its
+        uſeful Corollaries and Conſequences. <lb/>Nay, 'tis a Truth but too plain in fact, that
+        <lb/>in general we are much declined from the <lb/>more ſimple and natural methods of cure
+        <lb/>made uſe of by the <hi rend="italic">Antients</hi>; and as this <lb/>has been chiefly
+        owing to our neglecting <lb/>the true rational Indications and Intentions <lb/>of Cure, ſo
+        inſtead of applying to this as <lb/>Nature would direct us, we have been, and <lb/>ſtill
+        are, continually amuſed with an infinite <lb/>jumble of Medicines under the notion of
+          <lb/><hi rend="italic">Specifick</hi> Alteratives; as if, by a moſt unac- <lb/>countable
+        and unintelligible Tranſmutation, <pb xml:id="page_11" n="10"/>
+        <lb/>the morbid Matter could be converted into <lb/>good Blood and Humours, and retain'd in
+        <lb/>the Body without injury to the Conſtitu- <lb/>tion; and there were no need at all of
+        <lb/>throwing it off by any of the natural Eva- <lb/>cuations. Which idle Conceit is without
+        <lb/>doubt the Bane of all rational Practice, and <lb/>the common Cheat by which <hi
+          rend="italic">Quacks</hi>, <lb/><hi rend="italic">Empyricks</hi> and Ignorant Pretenders,
+        chowſe <lb/>and dupe People out of their Money and <lb/>Lives. </p>
+      <p rend="indent space">
+        <lb/><hi rend="sc">Now</hi> in order to ſhew the Folly and Ab- <lb/>ſurdity of this Notion,
+        and to contribute <lb/>what lies in my power towards reviving <lb/>the more natural and
+        rational Practice of <lb/>the <hi rend="italic">Antients,</hi> I ſhall in this Eſſay, under
+        <lb/>diſtinct Sections, conſider the principal Ope- <lb/>rations of Medicines, and the
+        manner in <lb/>which they Act; end herein I ſhall confine <lb/>my ſelf to ſuch <hi
+          rend="italic">Simples</hi> as are moſt uſeful <lb/>and neceſſary in Practice, with due
+        allow- <lb/>ance for ſome choice of things, in the ſame <lb/>general Intention, for the
+        better accommo- <lb/>dation of them to the Stomach and parti- <lb/>cular liking of the
+        Patient: avoiding as <lb/>much as poſſible all ſuch philoſophical Spe- <lb/>culations, as
+        have the leaſt tendency to lead <pb xml:id="page_12" n="11"/>
+        <lb/>me beſide my Deſign, or to draw me into <lb/>any Conſiderations or Enquiries,
+        concerning <lb/>them, beyond their obvious <hi rend="italic">ſenſible Quali- <lb/>ties</hi>
+        and <hi rend="italic">Effects;</hi> which, in my opinion, is <lb/>the true Boundary of all
+        medicinal Know- <lb/>ledge, and the <hi rend="italic">Ne plus ultra</hi> of the Phyſi-
+        <lb/>cians Empire. </p>
+      <div n="1" type="section">
+        <head rend="align-center space">
+          <lb/>SECT. I. </head>
+        <head rend="italic size(1.25) align-center space">
+          <lb/>Of Animal Mechaniſm. </head>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">I</hi>T would be impoſſible to give any ra- <lb/>tional Account of
+          Diſeaſes and their <lb/>Cure, without a general knowledge of the <lb/>Animal Oeconomy and
+          the Method of <lb/>Nature in preparing, digeſting and ſecre- <lb/>ting the ſeveral Liquors
+          of the Glands, and <lb/>the principal ends and uſes for which they <lb/>are intended. And
+          as this can only be <lb/>known by a careful obſervation of Facts <lb/>and the method of
+          Nature either in pre- <lb/>ſerving Health, or in the Formation and <lb/>Cure of Diſeaſes,
+          where there has been no <lb/>Interpoſition of Art, and no Reaſonings <hi rend="italic">à
+            <lb/>priori</hi> or antecedent to the Facts them- <lb/>ſelves: ſo it is no wonder that
+          the Theo- <pb xml:id="page_13" n="12"/>
+          <lb/>riſts in all Ages, who deviated from this <lb/>good old way of the <hi rend="italic"
+            >Antients</hi>, and ſet out <lb/>with other Views and on other Principles,
+          <lb/>bewildered themſelves and their Followers, <lb/>and never arrived at any one point of
+          real <lb/>and uſeful Knowledge, or made the leaſt <lb/>Advance or Improvement in the <hi
+            rend="italic">Art</hi> of <lb/><hi rend="italic">Healing</hi>. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">The</hi> moſt antient Phyſicians, who were <lb/>always the beſt
+          Philoſophers of their time, <lb/>grounded their Curative Intentions, upon <lb/>the moſt
+          obvious and ſenſible Effects of <lb/>Medicines, as they either promoted or re-
+          <lb/>ſtrained this or the other natural Evacua- <lb/>tion, and thereby corrected any ſuch
+          Error <lb/>either in Exceſs or Defect. And this moſt <lb/>obvious and ſenſible Effect,
+          viſible to all <lb/>By-ſtanders or Obſervers, they called the <lb/><hi rend="italic"
+            >Virtue</hi>, <hi rend="italic">Power</hi> or <hi rend="italic">Property</hi> of the
+          Medi- <lb/>cine; and herein they never expected or <lb/>promiſed any ſenſible Effect in
+          the Cure of <lb/>Diſeaſes, from inſenſible or unknown Cau- <lb/>ſes; or, which is the ſame
+          thing, they were <lb/>not let into the Myſtery of our Modern <lb/><hi rend="italic"
+            >Specifick</hi> or <hi rend="italic"><choice>
+              <corr>Corpuſcularian</corr>
+              <sic>Corpuſculariau</sic>
+            </choice></hi> Philoſophy; <lb/>they did not underſtand the Magick of <pb
+            xml:id="page_14" n="13"/>
+          <lb/>Curing Diſeaſes, by <hi rend="italic">Occult Qualities</hi> in <lb/>Medicines, or of
+          producing ſenſible Effects <lb/>without ſenſible Cauſes. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">But</hi> our Modern Writers upon Phyſick <lb/>and the Cure of Diſeaſes,
+          have for the <lb/>moſt part inverted this Order of Nature, <lb/>by a moſt ungeometrical
+          and immechani- <lb/>cal Application of Geometry and Mecha- <lb/>niſm, to the Animal
+          Structure and Oeco- <lb/>nomy: And not a few of the great Maſters <lb/>and Leaders of the
+          Faculty, have either <lb/>made their own <hi rend="italic">Data</hi>, aſſumed falſe Prin-
+          <lb/>ciples without Proofs, or reaſoned Illogi- <lb/>cally, by drawing falſe Conſequences
+          from <lb/>real Facts and juſt Principles. Of this I <lb/>ſhall give ſome very pregnant and
+          convinc- <lb/>ing Inſtances, that I may not be thought <lb/>to talk at random, or to lay
+          in a Charge <lb/>againſt our Modern <hi rend="italic">Medico</hi>-Philoſophers
+          <lb/>without Ground or Reaſon: for tho' I love <lb/>Truth, yet I hate any thing that looks
+          like <lb/>Malice and Defamation, and had much ra- <lb/>ther be convicted of Ignorance than
+          Diſho- <lb/>neſty. </p>
+        <p rend="indent space">
+          <lb/>1. <hi rend="sc">Then</hi> the <hi rend="italic">Antients</hi> had obſerv'd,
+          <lb/>that the ſmall parts of ſome ſorts of mat- <pb xml:id="page_15" n="14"/>
+          <lb/>ter, would attract and intimately unite or <lb/>Incorporate with each other; while
+          the <lb/>Particles of other ſort of matter, would <lb/>naturally ſeparate and diſunite,
+          and could <lb/>not eaſily be Incorporated at all. Thus they <lb/>obſerv'd that the
+          Particles of <hi rend="italic">Salts</hi> would <lb/>readily diſſolve in, and intimately
+          mix and <lb/>incorporate with <hi rend="italic">Water</hi>, tho' they are Spe-
+          <lb/>cifically heavier; and that <hi rend="italic">Oils</hi> and <hi rend="italic"> Sul-
+            <lb/>phurs</hi> would not do ſo, but, on the con- <lb/>trary, diſunite, ſeparate and
+          repel each o- <lb/>ther, whatever their different Specifick Gra- <lb/>vities might be. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">They</hi> obſerv'd likewiſe in the Animal <lb/>Body, that the ſeveral
+          parts to be ſupply'd <lb/>and nouriſh'd, would attract, imbibe and <lb/>retain their
+          proper Nutritive Matter, and <lb/>repel or drive on any other ſort of Mat- <lb/>ter, not
+          fit for ſuch a purpoſe; and theſe <lb/>different Powers or Properties, in the ſe-
+          <lb/>veral ſorts of Matter which they obſerv'd <lb/>to be ſo obvious and viſible to the
+          Senſes, <lb/>they call'd <hi rend="italic">Sympathy</hi> and <hi rend="italic"
+            >Antipathy</hi>, with- <lb/>out knowing the Cauſes of it, or ſo much <lb/>as pretending
+          to reaſon from it <hi rend="italic">à priori</hi>. <lb/>And here therefore they could mean
+          no <pb xml:id="page_16" n="15"/>
+          <lb/>more by it, than we do by <hi rend="italic">Centripetal</hi> and <lb/><hi
+            rend="italic">Centrifugal Forces</hi>, or the mutual <hi rend="italic"> Attracti-
+            <lb/>on</hi> and <hi rend="italic">Repulſion</hi> of the ſeveral parts of <lb/>Matter.
+          The moſt antient Philoſophers <lb/>and Phyſicians therefore had as clear and <lb/>diſtinct
+          Ideas of their <hi rend="italic">Sympathy</hi> and <hi rend="italic"> Anti-
+            <lb/>pathy</hi>, and underſtood what they meant by <lb/>it, as well as we do the <hi
+            rend="italic">Gravity</hi> and <hi rend="italic">Vis <lb/>Inertiæ</hi> of Bodies in
+          general, the <hi rend="italic"> Elaſtici- <lb/>ty</hi> of the <hi rend="italic">Air</hi>,
+          or the <hi rend="italic">Preſſure</hi> of <hi rend="italic">Fluids</hi>, and <lb/>the
+          different degrees of <hi rend="italic">Attraction</hi> in Bo- <lb/>dies. And, 'tis more
+          than probable, were <lb/>theſe Gentlemen now living, and ask'd to <lb/>explain themſelves
+          on this Subject, that they <lb/>might tell us they would aſſign the Cauſes <lb/>of what
+          they called <hi rend="italic">Sympathy</hi> and <hi rend="italic"> Antipa- <lb/>thy</hi>,
+          as ſoon as we had explained and aſ- <lb/>ſigned the Cauſes of any of the other Facts
+          <lb/>and ſenſible Appearances before mentioned; <lb/>and that till we could do this, we
+          ſhould <lb/>in reality be no wiſer than they. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">It</hi> muſt be own'd that this Doctrine <lb/>was afterwards very much
+          corrupted and <lb/>abuſed, and apply'd to a thouſand Caſes, <lb/>where it could have no
+          place, as the <hi rend="italic"> Peri- <lb/>patetick Philoſophy</hi> grew into Vogue, and
+            <pb xml:id="page_17" n="16"/>
+          <lb/>came to be more and more celebrated in <lb/>the <hi rend="italic">Schools</hi>. For
+          in this Philoſophy, <hi rend="italic">Words</hi>
+          <lb/>were never intended to ſignify any real <lb/>Facts, Appearances or <hi rend="italic"
+            >Phænomena</hi> in Na- <lb/>ture, but only the unknown Cauſes, or <lb/>internal
+          Conſtitutions of Things. This in- <lb/>deed was a ſhort way of talking, about <lb/>every
+          thing known or unknown, but a <lb/>round-about way to Knowledge, as it ne- <lb/>ver
+          produced any. But as this cannot affect <lb/>the more antient Phyſicians and Philoſo-
+          <lb/>phers, or thoſe who lived after <hi rend="italic">Ariſtotle</hi>'s <lb/>time who
+          ſtill built their Knowledge of <lb/>Nature upon Obſervation, Experiment and <lb/>Fact, as
+          much as if no ſuch Philoſopher <lb/>had ever been born; ſo it is certain that no
+          <lb/>other real Improvement of natural Know- <lb/>ledge has ever been made, or ever can be
+          <lb/>made, on any other Plan whatſoever. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">When</hi> the <hi rend="italic">Antients</hi> were miſtaken, it
+          <lb/>was generally owing to want of clearer <lb/>Facts or <hi rend="italic">Data</hi> to
+          reaſon upon; but the <lb/>Moderns, by wrong Reaſoning upon Facts, <lb/>and drawing falſe
+          Conſequences from <lb/><hi rend="italic">Things</hi> given, have run into more and
+          <lb/>groſſer Errors, than had ever been known <lb/>before. In ſhort, the moſt <hi
+            rend="italic">Antient Phy- <pb xml:id="page_18" n="17"/>
+            <lb/>ſicians</hi> were very good <hi rend="italic">Modern Philoſo- <lb/>phers</hi>, in
+          every thing relating to their <hi rend="italic"> Pro- <lb/>feſſion</hi>, whatever they
+          might be as to other <lb/>parts of Nature; while the Generality of <lb/>the <hi
+            rend="italic">Moderns</hi>, tho' very good Philoſophers <lb/>in other Reſpects, are yet,
+          with regard to <lb/>the Medical Art, in ſpite of all the <hi rend="italic"> New-
+            <lb/>tonian</hi> Principles and Diſcoveries, down- <lb/>right <hi rend="italic"
+            >Atomiſts</hi> or <hi rend="italic">Ariſtotelians</hi>. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">The</hi> Antients knew nothing of the Cir- <lb/>culation of the Blood,
+          from the Heart thro' <lb/>the Arteries and back again by the return- <lb/>ing Veins; nor
+          of the particular Ducts <lb/>thro' which part of the Chyle is conveyed <lb/>from the
+          Stomach to the Subclavian Veins. <lb/>But the Moderns having made theſe Diſco-
+          <lb/>veries, let us conſider ſome of the Fruits of <lb/>it, and the Conſequences they have
+          drawn <lb/>from it. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">From</hi> the <hi rend="italic">Circulation</hi> of the <hi
+            rend="italic">Blood</hi>, as <lb/>a Fact given, it has been commonly con- <lb/>cluded,
+          that the Action of the Heart, in its <lb/>alternate <hi rend="italic">Syſtole</hi> and <hi
+            rend="italic">Diaſtole</hi>, is the whole <lb/>Force and adequate Power, by which the
+          <lb/>Blood is moved in the courſe of its Circu- <pb xml:id="page_19" n="18"/>
+          <lb/>lation. Knowing therefore that the Blood <lb/>Circulates, and preſuming that the
+          Heart is <lb/>the moving Force or Power, this Power <lb/>has been exactly computed, at a
+          great ex- <lb/>pence of Geometry and Mechaniſm. And <lb/>herein the Gentlemen, who have
+          applyed <lb/>themſelves to this, have ſucceeded ſo well <lb/>and come ſo near together,
+          that they have <lb/>differed only about the Force of the Heart, <lb/>in the proportion of
+          500000 to 1; for this, <lb/>upon a juſt Computation, will be found to <lb/>be nearly the
+          Difference, between Dr. <hi rend="italic">James <lb/>Keil,</hi> and the famous <hi
+            rend="italic">Borelli</hi> in his Book <lb/><hi rend="italic">de Motu Animalium</hi>.
+          But in the mean <lb/>while, might it not be as well to be quite <lb/>ignorant of the <hi
+            rend="italic">Circulation</hi> of the <hi rend="italic">Blood</hi>, <lb/>as not to be
+          able to apply it to better Pur- <lb/>poſe? Did not the Antients <hi rend="italic"
+            >Bleed</hi>, when <lb/>occaſion required, before they knew any <lb/>thing at all of the
+            <hi rend="italic">Circulation</hi> of the <hi rend="italic">Blood</hi>? <lb/>Nay, did
+          they not uſe <hi rend="italic">Phlebotomy</hi> with <lb/>more Judgment and Succeſs, by
+          opening a <lb/>Vein as near as poſſible to the Part affected; <lb/>while the Moderns have
+          abſurdly run into <lb/>the contrary Practice, againſt Fact and Ex- <lb/>perience, as well
+          as the Reaſon and Nature <lb/>of Things; by falſly concluding that 'twould <pb
+            xml:id="page_20" n="19"/>
+          <lb/>be indifferent from what part of the Body <lb/>Blood ſhould be drawn, ſince, in
+          conſe- <lb/>quence of the <hi rend="italic">Circulation</hi>, the <hi rend="italic">
+            Æquilibri- <lb/>um</hi> of the Vital Fluid would neceſſarily be <lb/>ſoon reſtored
+          again. Or has the Knowledge <lb/>of the <hi rend="italic">Circulation</hi>, by any Uſe or
+          Applica- <lb/>tion whatever that has yet been made of <lb/>it, at all improved the Art of
+          Healing? </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">But</hi> farther, from the Diſcovery of the <lb/><hi rend="italic"
+            >Chyliferous Ducts</hi>, which terminate chiefly <lb/>in the left Subclavian Vein, tho'
+          they are <lb/>often found in the Right too, it has been <lb/>concluded that the whole
+          quantity of Chyle, <lb/>and every thing that can be conveyed from <lb/>the Stomach thro'
+          the Lacteals, muſt paſs <lb/><hi rend="italic">this way</hi> into the Blood-Veſſels; and
+          that <lb/>this <hi rend="italic">Matter</hi> muſt afterwards be derived a- <lb/>gain from
+          the Blood in the Arteries, by the <lb/>Glandular Secretory Ducts, before there can <lb/>be
+          any ſuch thing as <hi rend="italic">Animal Nutrition</hi> or <lb/><hi rend="italic"
+            >Evacuation</hi>. But as this is contrary to all <lb/>the Phænomena of <hi rend="italic"
+            >Animal Nature</hi>, and <lb/>demonſtratively falſe in Fact, it could not <lb/>poſſibly
+          have ever entered into the Heads <lb/>of Men, who had not had the vaſt advan- <lb/>tage of
+            <hi rend="italic">Modern Diſcoverys</hi> in Phyſick. </p>
+        <pb xml:id="page_21" n="20"/>
+        <p rend="indent space">
+          <lb/><hi rend="sc">Any</hi> Man, I think, who has made the <lb/>leaſt reflection upon this
+          Matter, if not too <lb/>ſtrongly prejudiced, or accuſtomed to ano- <lb/>ther way of
+          thinking, muſt be convinced <lb/>that the <hi rend="italic">Natural Evacuations</hi>, in
+          their in- <lb/>creaſed or diminiſhed Quantities, do not at <lb/>all follow the Laws and
+          Conditions of the <lb/><hi rend="italic">Sanguineous Circulation</hi>, or the increaſed
+          <lb/>or diminiſh'd Velocity and <hi rend="italic">Momentum</hi> of <lb/>the Blood; but
+          that one may be increaſed <lb/>while the other is diminiſhed, and pro- <lb/>duce their
+          Effects reciprocally. In Inflam- <lb/>matory and Effluent <hi rend="italic">Fevers</hi>,
+          where the Ve- <lb/>locity and <hi rend="italic">Impetus</hi> of the Blood is greateſt,
+          <lb/>the natural Secretions and Evacuations are <lb/>generally greatly diminiſh'd. And, on
+          the <lb/>contrary, in the Paroxiſms of <hi rend="italic">Diabetical</hi>, <lb/><hi
+            rend="italic">Hypochondriacal</hi> and <hi rend="italic">Hyſterick</hi> Diſorders,
+          <lb/>we often find a very great and extraordi- <lb/>nary <hi rend="italic">Profluvium</hi>
+          of Urine, where the Cir- <lb/>culation of the Blood is very low and lan- <lb/>guid, or
+          almoſt quite ſuſpended; which <lb/>could not poſſibly happen, I think, if theſe
+          <lb/>Evacuations were made from the <hi rend="italic">Arterial <lb/>Blood</hi>, and
+          depended on the Velocity and <lb/><hi rend="italic">Impetus</hi> of that Fluid. </p>
+        <pb xml:id="page_22" n="21"/>
+        <p rend="indent space">
+          <lb/><hi rend="sc">In</hi>
+          <hi rend="italic">Atrophys</hi> we frequently ſee People, <lb/>running off all their
+          Fleſh, till they are <lb/>reduced to mere Skin and Bones, and yet <lb/>the Blood-Veſſels
+          remain ſtill full and turgid, <lb/>and the Blood, upon opening a Vein, comes <lb/>off with
+          ſufficient Force and Freedom, and <lb/>there are no Symptoms, or Indications at <lb/>all,
+          of any Diminution or Defect of that <lb/>Fluid. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">In</hi> a <hi rend="italic">Dropſy</hi> every thing that is drank,
+          <lb/>or taken in of a fluid Nature, fills up <lb/>and diſtends the Ventricles of the
+          Glands, <lb/>the Lymphatick Ducts, and Membranous <lb/>Cells throughout the Body ſtill
+          more and <lb/>more; while the quantity of Blood, upon <lb/>the whole, is not at all
+          increaſed, but ra- <lb/>ther much leſſened and diminiſhed: And <lb/><hi rend="italic"
+            >Bleeding,</hi> in this Caſe, is ſo far from leſſen- <lb/>ing or abating any ſuch
+          Glandular, Lympha- <lb/>tick or Membranous <hi rend="italic">Plethora</hi>, that, on the
+          <lb/>contrary, it rather increaſes, ſtrengthens and <lb/>confirms it: And farther, in this
+          Caſe ſuch <lb/>a <hi rend="italic">Plethora</hi>, or Redundancy of Water, may <lb/>be all
+          drawn off, and diſcharg'd by <hi rend="italic">Urine</hi>, <lb/><hi rend="italic"
+            >Stools</hi>, <hi rend="italic">Sweating</hi>, &amp;c. without affecting <pb
+            xml:id="page_23" n="22"/>
+          <lb/>or altering the State of the Blood, ſo far as <lb/>can be diſcovered, either as to
+          its Quantity <lb/>or Quality. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">These</hi> Facts; and Obſervations, to men- <lb/>tion no more, are I
+          think ſufficient to de- <lb/>monſtrate, that there is no ſuch Intercourſe <lb/>and
+          Communication between the Glands <lb/>and Membranous Cells and the Blood, as <lb/>is
+          commonly Imagined; and that a Defect, <lb/>or Redundancy, may happen in either inde-
+          <lb/>pendent of each other, and conſequently <lb/>that thoſe Lacteals, which convey a
+          certain <lb/>portion of the Chyle from the Stomach, <lb/>to be emptyed into the <hi
+            rend="italic">Blood-Veſſels</hi>, may <lb/>receive either more or leſs than their ſhare,
+          <lb/>as well as thoſe which are to carry off and <lb/>convey the ſame to the <hi
+            rend="italic">Breaſts</hi>, <hi rend="italic">Kidneys</hi>, <lb/><hi rend="italic"
+            >Cutaneous Ducts</hi>, <hi rend="italic">&amp;c.</hi> and this indepen- <lb/>dent on
+          each other, as the Recipients, lead- <lb/>ing to one part or the other, may either <lb/>be
+          too <hi rend="italic">Lax</hi> and <hi rend="italic">Open</hi>, or too much <hi
+            rend="italic"> Con- <lb/>ſtringed</hi> and <hi rend="italic">Obſtructed</hi>. And from
+          hence <lb/>it is, that we find ſome Perſons and Con- <lb/>ſtitutions very much inclined
+          and diſpoſed to <lb/>collect and accumulate Blood, while they are <lb/>ſtill <hi
+            rend="italic">Thin</hi> and <hi rend="italic">Lean</hi> in Fleſh; and others to <pb
+            xml:id="page_24" n="23"/>
+          <lb/>grow <hi rend="italic">Fat</hi> and <hi rend="italic">Fleſhy</hi>, with a Scarcity
+          and <lb/>Defect of Blood at the ſame time. Which <lb/>yet, as plain and evident as it is
+          in Fact, I <lb/>think, could not poſſibly happen upon the <lb/>Modern <hi rend="italic"
+            >Hypotheſis</hi> of Secretion, or if the <lb/>whole quantity of <hi rend="italic"
+            >Chyle</hi> or <hi rend="italic">Nutriment</hi>
+          <lb/>from the Stomach, were to be conveyed <lb/>and thrown into the Blood, before any o-
+          <lb/>ther part could be ſupplyed with the Same. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">Another</hi> modern Diſcovery in Phy- <lb/>ſick, as a Conſequence of
+          the former, is <lb/>this, That there is no ſuch thing as different <lb/><hi rend="italic"
+            >Fermentations</hi>, <hi rend="italic">Digeſtions</hi>, and <hi rend="italic"
+            >Separations</hi>
+          <lb/>of <hi rend="italic">Liquors</hi> in the Ventricles of the Glands, <lb/>from
+          different Degrees of <hi rend="italic">Heat</hi> and <hi rend="italic"> Mo-
+          <lb/>tion</hi>; but that all the variety of the different <lb/>Secretions, is effected by
+          a ſimple <hi rend="italic">Colature</hi>
+          <lb/>from the Arterial Blood, thro' ſmall Pipes <lb/>of different Diameters, and which
+          will ad- <lb/>mit of Fluid Particles of one Size, but not <lb/>of another, without any <hi
+            rend="italic">Glandular Con- <lb/>coction</hi> whatſoever. Now if any body <lb/>had a
+          mind to look like a <hi rend="italic">Mechanician</hi>
+          <lb/>and <hi rend="italic">Chemiſt</hi>, without being one the <hi rend="italic"> Bel-
+            <lb/>linian</hi> Doctrine, would ſoon furniſh him <lb/>with Words that might ſound very
+          well; <pb xml:id="page_25" n="24"/>
+          <lb/>and a Man who is well verſed in that <hi rend="italic"> Hy- <lb/>potheſis</hi>, may
+          poſſibly be thought a conſi- <lb/>derable Philoſopher, while he is talking the
+          <lb/>greateſt and moſt egregious Nonſenſe in the <lb/>World. For tho' we ſee every Day,
+          and <lb/>in the whole Oeconomy and Proceſs of Na- <lb/>ture, very great Changes and
+          Tranſmuta- <lb/>tions made upon Fluids by <hi rend="italic">Fermentation</hi>
+          <lb/>and <hi rend="italic">Digeſtion</hi>, under different Degrees of <lb/><hi
+            rend="italic">Heat</hi>, <hi rend="italic">Rarefaction</hi> and <hi rend="italic"
+            >Inteſtine Motion</hi>, <lb/>yet no Man could ever obſerve any ſuch <lb/>Thing effected
+          by any ſort of <hi rend="italic">Colature</hi> or <lb/>Straining whatſoever. And when
+          theſe <lb/>Gentlemen will be pleaſed to give us any <lb/>Inſtances of turning <hi
+            rend="italic">Muſt</hi> into <hi rend="italic">Wine</hi>, <hi rend="italic">Wort</hi>
+          <lb/>into <hi rend="italic">Beer</hi>, or <hi rend="italic">Chyle</hi> into <hi
+            rend="italic">Milk</hi>, <hi rend="italic">Urine</hi>, <hi rend="italic">Bile</hi>,
+          <lb/>&amp;c. by <hi rend="italic">Straining</hi>, it will then be time e- <lb/>nough to
+          conſider this Matter farther; but, <lb/>in the mean while, if they will not be con-
+          <lb/>vinced to the contrary themſelves, I hope <lb/>they will give me and ſome others
+          leave to <lb/>laugh at ſuch an <hi rend="italic">Hypotheſis</hi>, at leaſt, till <lb/>they
+          are better able to ſupport it. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">The</hi> Antients, tho' they had not the uſe <lb/>of <hi rend="italic"
+            >Microſcopes</hi>, the Method of <hi rend="italic">Injecting</hi>
+          <lb/>the <hi rend="italic">Veſſels</hi>, and ſeveral other Helps with <pb xml:id="page_26"
+            n="25"/>
+          <lb/>which Providence has favour'd us, yet they <lb/>were very careful and diligent
+          Obſervers <lb/>of all the obvious ſenſible Appearances, or <lb/><hi rend="italic"
+            >Phænomena</hi> of Nature, in the Animal <lb/>Structure and Oeconomy. And from hence
+          <lb/>they form'd Judgments and Concluſions <lb/>more certain and ſucceſsful, concerning
+          the <lb/>Formation and Cure of Diſeaſes, than ever <lb/>the Moderns have done from a great
+          num- <lb/>ber of moſt precarious and falſe <hi rend="italic">Hypotheſes</hi>, <lb/>under
+          the pretence of a better Application <lb/>of Geometry, Mechaniſm and Philoſophy, <lb/>to
+          Phyſick and the Animal Oeconomy. <lb/>The pretended Fermentations of <hi rend="italic"
+            >Acids</hi> and <lb/><hi rend="italic">Alkalys</hi> in the Blood; the various Combi-
+          <lb/>nations of the Chemical Principles of <hi rend="italic">Salt</hi>, <lb/><hi
+            rend="italic">Sulphur</hi> and <hi rend="italic">Mercury,</hi> in the Body, and the
+          <lb/>Effects from thence ariſing; the motive <lb/>Power of the <hi rend="italic">Animal
+            Spirits</hi>, together with <lb/>their ſeveral <hi rend="italic">Suffocations</hi> and
+            <hi rend="italic">Exploſions</hi>, <lb/><hi rend="italic">Concentrations</hi> and <hi
+            rend="italic">Diſſipations</hi>; the <hi rend="italic"> Spe- <lb/>cifick
+            Tranſmutations</hi> of morbid Matter, <lb/>and the Miraculous Power of <hi rend="italic"
+            >Medicinal <lb/>Corpuſcles</hi> upon the Blood; the myſterious <lb/>Effects of <hi
+            rend="italic">Straining</hi>, or the Preparation of <lb/>all the different Liquors of
+          the Glands, by <lb/>a Simple <hi rend="italic">Colature</hi> from the Blood in the <pb
+            xml:id="page_27" n="26"/>
+          <lb/>Arteries, Theſe are ſome of the moſt pre- <lb/>vailing <hi rend="italic"
+            >Hypotheſes</hi> which the Moderns <lb/>have aſſumed and argued upon, as Facts,
+          <lb/>without the leaſt Ground or Reaſon from <lb/>any of the real Appearances or <hi
+            rend="italic">Phænomena</hi>
+          <lb/>of Nature: And, to which I ſhall here only <lb/>add one more, as the Crown and Glory
+          of <lb/>all the reſt, namely, that the <hi rend="italic">Blood</hi>, in its
+          <lb/>Circulation, moves it ſelf by means of the <lb/><hi rend="italic">Animal
+          Spirits</hi>, which are, at the ſame <lb/>time, moved by the <hi rend="italic">Blood</hi>.
+          For, in this <hi rend="italic"> Hy- <lb/>potheſis</hi>, the <hi rend="italic">Blood</hi>
+          cannot move till the <lb/>Heart contracts, by the Influx of the <hi rend="italic">Animal
+            <lb/>Spirits</hi> from the Nerves; and, on the other <lb/>hand, the <hi rend="italic"
+            >Animal Spirits</hi> cannot flow thro' <lb/>the Nerves into the Heart, till they have
+          <lb/>been ſeparated in the Brain, by the prior <lb/>Motion or <hi rend="italic"
+            >Circulation</hi> of the <hi rend="italic">Blood</hi>. So <lb/>that herein 'tis evident,
+          that they are both <lb/>ſuppoſed as the Antecedent Cauſes and <lb/>Conſequent Effects of
+          each other; and the <lb/><hi rend="italic">Blood</hi>, in this way of accounting for its
+          <lb/>Circulation, can have no Motion but what <lb/>it communicates to, and returns upon it
+          <lb/>Self; and this againſt a conſtant Reſiſtance, <lb/>without any prior independent <hi
+            rend="italic">Moving <lb/>Force</hi> at all. Which is juſt as good Senſe <pb
+            xml:id="page_28" n="27"/>
+          <lb/>as if any one ſhould aſſign the Weight, <lb/>Spring, or <hi rend="italic">Moving
+            Force</hi>, applyed to the <lb/>Wheels, or Pullies, as the Cauſe of the Mo- <lb/>tion of
+          a Clock, Watch, Crane, or other <lb/><hi rend="italic">Machine</hi>, and at the ſame time
+          ſuppoſe the <lb/>Motion of the <hi rend="italic">Engine</hi>, to be the Cauſe of <lb/>the
+          Weight, Spring, or <hi rend="italic">Moving Force</hi>. But <lb/>this, notwithſtanding all
+          the expence of <lb/>Geometry and Mechaniſm that has been <lb/>laid out upon it, by its
+          great <hi rend="italic">Patrons</hi> and <lb/>Defenders, and its being ſo generally re-
+          <lb/>ceiv'd on their <hi rend="italic">Authority,</hi> as a firſt Princi- <lb/>ple in
+          Phyſick, is an evident Impoſſibility. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">The</hi> firſt and beſt Philoſophers and Phy- <lb/>ſicians, who apply'd
+          themſelves to the Stu- <lb/>dy of the <hi rend="italic">Animal Oeconomy,</hi> by obſerving
+          <lb/>the great Alteration made upon our com- <lb/>mon Food, by <hi rend="italic"
+            >Fermentation</hi> and <hi rend="italic">Digeſtion</hi>
+          <lb/>in the Stomach, whereby a Liquor was <lb/>prepared to be afterwards farther conveyed
+          <lb/>to the ſeveral Parts of the Body, while the <lb/>Excrementitious Indigeſtible Parts
+          of the <lb/>Aliment were ſeparated, forced forward, <lb/>and thrown out of the Body,
+          carryed this <lb/>Reaſoning, by Analogy of Nature, to the <lb/>other Glands and Ventricles
+          of the Body, <lb/>where they ſuppoſed a farther <hi rend="italic">Concoction</hi>
+          <pb xml:id="page_29" n="28"/>
+          <lb/>might, in like manner, be made and diffe- <lb/>rent Liquors prepared and ſeparated,
+          under <lb/>different Degrees of <hi rend="italic">Digeſtive Heat</hi> and <lb/><hi
+            rend="italic">Motion</hi>, ſo as to anſwer the ſeveral Ends <lb/>and Purpoſes of the <hi
+            rend="italic">Animal Conſtitution</hi>. <lb/>And herein they argued right, and grounded
+          <lb/>their Principles upon the true Method and <lb/>Oeconomy of Nature in all other like
+          <lb/>Caſes. But how far the Moderns have <lb/>mended this Theory, or any other practical
+          <lb/>Principle of the Antients, by any of the <lb/>foregoing <hi rend="italic"
+            >Hypotheſes</hi>, or by their clearer <lb/>Knowledge of Anatomy, I may leave any
+          <lb/>one to judge. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">But</hi>, beſides the Virtues, Properties or <lb/>ſenſible Effects of
+          Medicines, as they viſibly <lb/>promoted or reſtrained this or the other <lb/>natural
+          Evacuation, the firſt and moſt ſuc- <lb/>ceſsful Students of this part of Nature, had
+          <lb/>another Claſs of <hi rend="italic">Powers</hi> and <hi rend="italic">Properties</hi>
+          <lb/>in things given, as they viſibly and ſenſibly <lb/>affected the <hi rend="italic"
+            >Animal Conſtitution</hi>, with re- <lb/>gard to the Primary or <hi rend="italic"
+            >Elementary Quali- <lb/>ties</hi>, as they choſe to call them, of <hi rend="italic"
+            >Heat</hi><choice>
+            <corr>,</corr>
+            <sic/>
+          </choice>
+          <lb/><hi rend="italic">Cold</hi>, <hi rend="italic">Moiſture</hi> and <hi rend="italic"
+            >Dryneſs.</hi> Or which <lb/>is the ſame thing, as Things given, whether <pb
+            xml:id="page_30" n="29"/>
+          <lb/>a Medicine or Diet, were found to <hi rend="italic">Heat</hi>
+          <lb/>or <hi rend="italic">Cool</hi>, <hi rend="italic">Moiſten</hi> or <hi rend="italic"
+            >Dry</hi> the Solids in ge- <lb/>neral. And upon this they founded their <lb/>Notion of
+          the four Principal Primary or <lb/>Elementary Conſtitutions of <hi rend="italic">Hot</hi>
+          and <hi rend="italic">Dry</hi>, <lb/><hi rend="italic">Hot</hi> and <hi rend="italic"
+            >Moiſt</hi>, <hi rend="italic">Cold</hi> and <hi rend="italic">Dry,</hi> and <hi
+            rend="italic">Cold</hi>
+          <lb/>and <hi rend="italic">Moiſt</hi>. Where theſe primary Elemen- <lb/>tary Qualities
+          were found to be ſo equally <lb/>mix'd and contemperated, as that any one <lb/>of them did
+          not abound or prevail againſt <lb/>the reſt, this was called the <hi rend="italic">Natural
+            Tem- <lb/>perature</hi> or State of Health; For while <lb/>theſe <hi rend="italic"
+            >Elementary Qualities</hi> were duly <lb/>tempered and equally blended together,
+          <lb/>the Body remain'd Sound and Well, and <lb/>performed all its Functions regularly and
+          <lb/>in good Order; and no Diſeaſe or Diſtem- <lb/>perature could ever be obſerv'd, but
+          upon <lb/>the Prevalency of ſome one, or more, of <lb/>theſe Qualities above the others:
+          And from <lb/>hence in every Diſeaſe the prevailing <lb/>Humours were diſtinguiſhed into
+            <hi rend="italic">Blood</hi>, <lb/><hi rend="italic">Phlegm</hi>, <hi rend="italic"
+            >Choler</hi> or <hi rend="italic">Bile</hi>, and <hi rend="italic">Melancholy</hi>
+          <lb/>or <hi rend="italic">Black Bile</hi>: and the general Conſtitu- <lb/>tions were from
+          thence denominated, either <lb/><hi rend="italic">Sanguine</hi>, <hi rend="italic"
+            >Phlegmatick</hi>, <hi rend="italic">Chol<unclear>e</unclear>rick</hi>, or <hi
+            rend="italic"> Me- <lb/>lancholy</hi>, as this or that Humour prevail'd <pb
+            xml:id="page_31" n="30"/>
+          <lb/>or had the Aſcendency in particular Per- <lb/>ſons. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">Now</hi> this, I think, is plain Senſe and <lb/>talking very
+          Intelligibly; and the Moderns, <lb/>who have found out other <hi rend="italic"
+            >Hypotheſes</hi>, <lb/>better Methods of Reaſoning in Phyſick, <lb/>and nearer Ways to
+          Health, as the <hi rend="italic">Event</hi>
+          <lb/>has plainly prov'd, cannot pretend to be <lb/>Ignorant of what the Antients meant by
+            <lb/><hi rend="italic">Blood</hi>, <hi rend="italic">Phlegm</hi>, <hi rend="italic"
+            >Choler</hi> or <hi rend="italic">Bile</hi>, tho' they <lb/>have been mightily puzzled
+          to know what <lb/>was underſtood and intended by their Me- <lb/>lancholick Humour or <hi
+            rend="italic">Black Bile</hi>. And <lb/>yet he who does not underſtand this, muſt
+          <lb/>either never have practiſed Phyſick, or elſe <lb/>never have made any Obſervations
+          and Re- <lb/>flections on what he has ſeen and met <lb/>with in Practice. For, in my
+          Opinion, 'tis <lb/>extreamly clear that the antient Phyſicians <lb/>neither did, nor
+          could, underſtand any thing <lb/>elſe, by their <hi rend="italic">Melancholia</hi> or <hi
+            rend="italic">Bilis Atra</hi>, <lb/>but the Bile corrupted, vitiated, and dege-
+          <lb/>nerated from its natural State and Uſe; in <lb/>which caſe it always turns <hi
+            rend="italic">Black</hi>, and be- <lb/>comes a peccant diſtempered Humour. It <lb/>is
+          true, indeed, that all the Humours by <pb xml:id="page_32" n="31"/>
+          <lb/>Stagnation, Corruption and Fermentation, <lb/>may change their Original Colours and
+          <lb/>Qualities, as well as the <hi rend="italic">Bile</hi>, which was as <lb/>well known
+          to the Antients as to the Mo- <lb/>derns, and taken notice of by them accord- <lb/>ingly;
+          but yet this <hi rend="italic">Corrupt Bile</hi>, when it <lb/>prevails, is ſo very
+          extenſive in its Conſe- <lb/>quences, and productive of ſo many and <lb/>great Diſeaſes,
+          even where no <hi rend="italic">Jaundice</hi>
+          <lb/>enſues, that it was juſtly taken notice of <lb/>and diſtinguiſhed, by them, as one of
+          the <lb/>Principal General <hi rend="italic">Morbid Conſtitutions</hi>: <lb/>And
+          eſpecially, as this Diſtemperature of the <lb/>Bile naturally, and almoſt conſtantly, at-
+          <lb/>tends a <hi rend="italic">Cold</hi> and <hi rend="italic">Dry</hi> State and Habit of
+          <lb/>Body, or a prevalency of Cold and Dryneſs, <lb/>above Heat and Moiſture, in the
+          General <lb/>Conſtitution. </p>
+        <p rend="indent space">
+          <lb/>I am aware ſome trifling Objections may <lb/>be made to what I have advanced here;
+          <lb/>but as they would all terminate in this, <lb/>that the Antients could not always
+          expreſs <lb/>themſelves accurately enough to be under- <lb/>ſtood by the Moderns; ſo in
+          anſwer to <lb/>them, without mentioning the particular <lb/>Objections, it may be only
+          ſaid in general, <pb xml:id="page_33" n="32"/>
+          <lb/>that the Moderns, in this Caſe, have been <lb/>equally culpable, in that they have
+          not <lb/>been always able to expreſs themſelves, <lb/>with ſufficient Clearneſs, to be
+          underſtood <lb/>by one another. But for any one groſs <lb/>Abſurdity, or Falſhood in Fact,
+          which any <lb/>Man ſhall produce from the <hi rend="italic">Antients</hi>, a- <lb/>bout
+          the Cauſe, Formation and Cure of <lb/>Diſeaſes; I will undertake, in defence of the
+            <lb/><hi rend="italic">Moderns</hi> upon this Article, to give him <lb/>five. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">The</hi>
+          <hi rend="italic">Antients</hi> had, indeed, a particular <lb/>Notion that the <hi
+            rend="italic">Blood</hi> is made in the <hi rend="italic"> Li- <lb/>ver</hi>, to which
+            <hi rend="italic">Viſcus</hi> they aſcribed the Act <lb/>of <hi rend="italic"
+            >Sanguification</hi>. This Opinion has been <lb/>perhaps juſtly rejected by the Moderns,
+          tho' <lb/>they have not been able yet to ſettle any <lb/>thing in the room of it; and
+          therefore have <lb/>had no ground for the Laugh. The An- <lb/>tients, it ſeems, fell into
+          this Miſtake for <lb/>want of a clearer Knowledge of Anatomy. <lb/>Well, be it ſo; but how
+          have the Moderns <lb/>rectified this Error, by their farther Diſco- <lb/>veries, and
+          better Acquaintance with the A- <lb/>nimal Structure and Oeconomy; or to <lb/>what
+          particular <hi rend="italic">Organ</hi> do they aſcribe this <pb xml:id="page_34" n="33"/>
+          <lb/>Act of Sanguification? Perhaps it may be <lb/>anſwered, with ſome Triumph here, that
+          <lb/>the Caſe is now very plain, and that ſince <lb/>the Diſcovery of the <hi
+            rend="italic">Elaſticity</hi> of the Air, <lb/>'tis evident enough that the <hi
+            rend="italic">Lungs</hi> are the <lb/>only proper Sanguifying Organs; where, <lb/>by the
+          Intromiſſion of a fine <hi rend="italic">Elaſtick Au- <lb/>ra</hi>, theſe Globules are
+          form'd and blown <lb/>up. But this is a very ſtrange Account of <lb/>the Matter, indeed,
+          ſince 'tis certain, in Fact, <lb/>that theſe <hi rend="italic">Globules</hi> are
+          ſpecifically heavier, <lb/>inſtead of being lighter than the <hi rend="italic">Serum</hi>.
+          And <lb/>conſequently, that they cannot be Veſicles <lb/>or Bubbles fill'd and blown up
+          with Air. <lb/>And had one therefore a mind to maintain <lb/>the Argument, for the ſake of
+          the Jeſt, it <lb/>would be no great difficulty, in my Opini- <lb/>on, to defend the <hi
+            rend="italic">Liver</hi> againſt the <hi rend="italic">Lungs</hi>, <lb/>in ſpite of all
+          ſuch Reaſonings as this. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">But</hi> he who would follow the Gui- <lb/>dance of Nature, and build
+          his Opinion <lb/>herein on plain Facts and Obſervations, <lb/>may perhaps ſee Reaſon to
+          conclude, that <lb/>the Act of <hi rend="italic">Sanguification</hi> is not appro-
+          <lb/>priated to any particular <hi rend="italic">Viſcus</hi> or Bowel, <pb
+            xml:id="page_35" n="34"/>
+          <lb/>that the <hi rend="italic">Lungs</hi> contribute only their ſhare <lb/>in the
+          Operation, and that the Blood re- <lb/>ceives its peculiar Type and Form in the <lb/><hi
+            rend="italic">Arteries</hi>, where it undergoes the higheſt <lb/>Degrees of <hi
+            rend="italic">Heat</hi>, <hi rend="italic">Impetus</hi> and <hi rend="italic"
+            >Motion</hi>. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">For</hi> we may obſerve, in Old People, <lb/>where the natural Heat,
+          and Elaſtick Tone <lb/>of the Solids are much impaired, that the <lb/>Blood grows paler,
+          fainter, and runs more <lb/>into Water, and that the Globular Part or <lb/><hi
+            rend="italic">Cremor</hi> ſenſibly leſſens in proportion to <lb/>the <hi rend="italic"
+            >Serum</hi>. And this likewiſe is remarka- <lb/>bly the Caſe in a <hi rend="italic"
+            >Chloroſis</hi>, or, indeed, any <lb/>Obſtruction of the <hi rend="italic">Menſtrual
+            Secretion</hi> at- <lb/>tended with <hi rend="italic">Chillineſs</hi>, <hi rend="italic"
+            >Lowneſs</hi>, <hi rend="italic">Pallor</hi>
+          <lb/>and <hi rend="italic">Languor</hi>: In which Caſes we often <lb/>ſee the <hi
+            rend="italic">Globules</hi> almoſt loſt, and the Blood <lb/>is little elſe but <hi
+            rend="italic">Serum</hi>. But, by reſtoring <lb/>the natural Heat, and ſtrengthning the
+          Elaſ- <lb/>tick Tone of the Arteries, theſe Globules <lb/>ſoon riſe again, and the <hi
+            rend="italic">Craſſamentum</hi> or <lb/><hi rend="italic">Cremor</hi> is reduced to its
+          natural and due <lb/>State, whether this be done by any Inter- <lb/>nal Means or External
+          only. </p>
+        <pb xml:id="page_36" n="35"/>
+        <p rend="indent">
+          <lb/><hi rend="sc">Thus</hi> it may likewiſe be obſerved, that <lb/>People of <hi
+            rend="italic">Hot</hi>, <hi rend="italic">Bilioſe</hi>, and <hi rend="italic"
+            >Sanguine</hi> Con- <lb/>ſtitutions, whoſe Fibres are more firm and <lb/>tenſe, and
+          where conſequently the muſ- <lb/>cular Force and Action of the Solids is <lb/>ſtronger and
+          more vigorous, than in other <lb/><hi rend="italic">Temperaments</hi>, have proportionally
+          more <lb/><hi rend="italic">Cremor</hi> in the Blood than others; and, in <lb/>ſome high
+          Inflammatory <hi rend="italic">Fevers</hi>, where the <lb/>Elaſtick Force of the Solids is
+          ſtill greater <lb/>and more exalted, the Blood becomes almoſt <lb/>all <hi rend="italic"
+            >Cremor</hi>, and affords but very little <hi rend="italic"> Se- <lb/>rum</hi> after it
+          has ſtood many Hours in a <lb/>cold Place. Now, from theſe Obſervations, <lb/>to mention
+          no more at preſent, it may <lb/>perhaps be juſtly concluded, that the Blood <lb/>receives
+          this Form from the Heat and Ela- <lb/>boration it undergoes in the Arteries. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">But</hi> to reſume and conſider a little far- <lb/>ther the natural
+          Conſtitutions, as depend- <lb/>ing on the Primary or <hi rend="italic">Elementary Quali-
+            <lb/>ties</hi> above mentioned, it may be proper to <lb/>take notice, that the true
+          alterative Method <lb/>of the Antients, conſiſted in regulating and <lb/>moderating theſe
+          natural Conſtitutions and <lb/>primary Qualities. And this they did not <pb
+            xml:id="page_37" n="36"/>
+          <lb/>pretend to do by <hi rend="italic">Specifick Alteratives</hi>, in <lb/>the Modern
+          Quack Senſe, or by any <hi rend="italic"> Oc- <lb/>cult Qualities</hi>, or Magical Effect,
+          of Me- <lb/>dicines on the Blood, where People were <lb/>not to know what they took, or
+          after <lb/>what manner they were to expect Relief, <lb/>but by a skilful Direction and
+          Regimen in <lb/>the Uſe of thoſe Things, which have, I <lb/>know not for what Reaſon, been
+          common- <lb/>ly called the <hi rend="italic">Non-Naturals</hi>, ſuch as <hi rend="italic"
+            >Diet</hi>, <lb/><hi rend="italic">Air</hi>, <hi rend="italic">Exerciſe</hi>, &amp;c.
+          But I ſhould rather <lb/>chuſe to call theſe the <hi rend="italic">Univerſals</hi> or <hi
+            rend="italic"> Con- <lb/>ſtitutionals</hi>, becauſe the Original Natural
+          <lb/>Conſtitutions and Primary Qualities do al- <lb/>moſt entirely, abſolutely and
+          univerſally de- <lb/>pend upon them, ſo far as Moderating and <lb/>Tempering them can fall
+          under the Conſi- <lb/>deration of a Phyſician. </p>
+        <p rend="indent space">
+          <lb/>A <hi rend="italic">Fleſh</hi> and <hi rend="italic">Ale</hi> Diet increaſes the
+          Craſ- <lb/>ſament of the Blood, and accumulates <hi rend="italic">Fat</hi>
+          <lb/>more than any thing elſe; it oilifies and <lb/>enriches the Blood, and promotes the
+          Heat <lb/>and Humidity of the Conſtitution, which <lb/>is the Characteriſtick of that
+          Temperament <lb/>which by the Antients was call'd <hi rend="italic">Sanguine</hi>.
+          <lb/>But when this Conſtitution becomes In- <pb xml:id="page_38" n="37"/>
+          <lb/>temperate and Morbid, it is the Foundation <lb/>of all thoſe Diſeaſes which are owing
+          to <lb/>an overgrowth of Fat, and a too thick and <lb/>rich Blood. </p>
+        <p rend="indent space">
+          <lb/>A <hi rend="italic">Milk</hi> and <hi rend="italic">Vegetable Diet</hi>, join'd with
+            <lb/><hi rend="italic">Water-Drinking</hi>, encreaſes the <hi rend="italic">Serum</hi>
+          of <lb/>the Blood more than the <hi rend="italic">Craſſament</hi>. It <lb/>cools,
+          refrigerates and moiſtens the Habit <lb/>or Conſtitution, moderately contracts the
+          <lb/>Solids, and promotes the Alvine and Uri- <lb/>nary Diſcharges. But it has not the
+          ſame <lb/>Effect on the Cutaneous Evacuations by <lb/><hi rend="italic">Sweat</hi> and <hi
+            rend="italic">Perſpiration</hi>, which it rather <lb/>leſſens and reſtrains. And yet, by
+          joining <lb/>this Regimen in Diet to a moderate uſe of <lb/>warm Liquors, or ſuch as
+          contain a <hi rend="italic">Vinous <lb/>Spirit</hi>, any immoderate Check or Reſtraint
+          <lb/>of Perſpiration may eaſily be prevented: <lb/>As, on the other hand, <hi
+            rend="italic">Vegetables</hi> and <hi rend="italic"> Wa- <lb/>ter-drinking</hi> are, in
+          a good meaſure, Pre- <lb/>ventatives of the ill Conſequences, which <lb/>might otherwiſe
+          follow, from the too free <lb/>Uſe of a <hi rend="italic">Fleſh</hi> and <hi rend="italic"
+            >Ale</hi> Diet. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">The</hi> Choice of <hi rend="italic">Air</hi> is undoubtedly of
+          <lb/>the utmoſt Conſequence to moderate and <pb xml:id="page_39" n="38"/>
+          <lb/>reduce a Conſtitution, when it grows into <lb/>any Intemperature; and here the
+          Conſtitu- <lb/>tion of the Air, with regard to the Prima- <lb/>ry Qualities above
+          mentioned, compared <lb/>with the Conſtitution of the Patient, will <lb/>afford any Man a
+          ſure and unerring Rule <lb/>in the choice of <hi rend="italic">Air</hi>. For 'tis certain
+          that <lb/>any Error of Conſtitution ought to be <lb/>rectifyed and reduced by the contrary
+          Tem- <lb/>per and Quality of the Air, and no body <lb/>would chuſe a <hi rend="italic">Hot
+            Air</hi> for a too <hi rend="italic">Hot <lb/>Conſtitution</hi>, or a <hi rend="italic"
+            >Cold Air</hi> for a <hi rend="italic">Cold One</hi>, <lb/>and ſo of the Reſt. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">In</hi> a <hi rend="italic">Phthiſis</hi>, or natural Weakneſs of
+          <lb/>the Lungs, the ſofteſt and warmeſt Air is to <lb/>be choſen, provided it be not too
+          Thick, <lb/><hi rend="italic">Moiſt</hi> and <hi rend="italic">Boggy</hi>. But in an <hi
+            rend="italic">Aſthma</hi>, <hi rend="italic"> Jaun- <lb/>dice</hi>, Weakneſs and
+          Relaxation of the <lb/><hi rend="italic">Nerves</hi>, and almoſt in all thin declining
+          <lb/>Habits where the Lungs are ſound, a thin, <lb/>cool, dry and <hi rend="italic"
+            >Elaſtick Air</hi>, is always beſt <lb/>and moſt eligible. But Groſs, Fat and Cor-
+          <lb/>pulent People can never be much mended <lb/>by any Air, without a cooling attenuating
+          <lb/>Vegetable Diet and proper Exerciſe. </p>
+        <pb xml:id="page_40" n="39"/>
+        <p rend="indent">
+          <lb/><hi rend="sc">Of</hi> all Exerciſes for Health, as well as <lb/>Pleaſure, nothing can
+          ſtand in Competition <lb/>with <hi rend="italic">Riding</hi> and <hi rend="italic"
+            >Swimming</hi>; which won- <lb/>derfully brace the Nerves and Solids in ge- <lb/>neral,
+          reſtore their Elaſtick Tone, open <lb/>Obſtructions, and promote the ſeveral na-
+          <lb/>tural Secretions and Evacuations, beyond <lb/>any other <hi rend="italic">Gymnaſtick
+            Regimen</hi> whatſoever. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">Moderate</hi>
+          <hi rend="italic">Sleep</hi> is the great <hi rend="italic">Solamen</hi>
+          <lb/>and Reſtorative of Nature, by which the <lb/>Organs are warm'd, moiſtned and lubrica-
+          <lb/>ted, and the ſeveral Springs of Motion <lb/>wound up, and prepared for farther Action
+          <lb/>in the waking Hours. But in this Caſe ex- <lb/>ceſſive Indulgence of Sleep, or
+          Overwatch- <lb/>ing and Want of Sleep, are equally injuri- <lb/>ous to, and produce
+          different and contrary <lb/>Effects upon, the Conſtitution. For <hi rend="italic"> Ex-
+            <lb/>ceſſive Sleeping</hi> checks and reſtrains all the <lb/>natural Secretions and
+          Evacuations, weakens <lb/>and relaxes the whole Animal Frame, de- <lb/>ſtroys the Tone of
+          the Muſcles, and induces <lb/>ſuch a weak, cold, humid and flabby State <lb/>of the
+          Nerves, as threatens a <hi rend="italic">Palſy</hi>, and <lb/>frequently terminates in
+          one; which I have <lb/>more than once known to be the Conſe- <lb/>quence of it. </p>
+        <pb xml:id="page_41" n="40"/>
+        <p rend="indent space">
+          <lb/><hi rend="sc">On</hi> the other hand, <hi rend="italic">Overwatching</hi> and
+          <lb/>the Want of natural Sleep, wears and waſtes <lb/>the whole Animal Conſtitution, heats
+          the <lb/>Blood, drys and contracts the Nerves, and, <lb/>in fine, either kills with a <hi
+            rend="italic">Fever</hi> attended <lb/>with a <hi rend="italic">Phrenſy</hi>, or induces
+          a <hi rend="italic">Mania</hi>, <hi rend="italic"> Lu- <lb/>nacy</hi>, or Diſtraction of
+          ſome ſort or other, <lb/>as is but too commonly ſeen and experi- <lb/>enced. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">The</hi>
+          <hi rend="italic">Paſſions</hi> have ſo great a ſhare in <lb/>the Conſtitutions and
+          Diſeaſes of the Body, <lb/>that, in my Opinion, this ought to be rec- <lb/>koned one of
+          the principal Provinces of <lb/>Phyſick; and indeed, with a Saving to the <lb/>Divines, I
+          think Phyſicians are the fitteſt <lb/>Perſons to apply a proper Relief, under <lb/>thoſe
+          great <hi rend="italic">Emotions</hi> and <hi rend="italic">Perturbations of
+            <lb/>Mind</hi>; which either ariſe from the Body at <lb/>firſt, or are ſoon <hi
+            rend="italic">materializ'd</hi> by a commu- <lb/>nication with it. For theſe Paſſions
+          are all <lb/>either pleaſing or painful Images, and have <lb/>juſt the ſame Effect upon
+          the Conſtitution, <lb/>whether they ariſe from things without us, <lb/>or have their
+          Original from the Mind with- <lb/>in. </p>
+        <pb xml:id="page_42" n="41"/>
+        <p rend="indent">
+          <lb/><hi rend="sc">'Tis</hi> evident that the pleaſurable and <lb/>painful Paſſions, have
+          very different and even <lb/>quite contrary Effects upon the Blood, Hu- <lb/>mours, and
+          reſpective Organs of the Body, <lb/>of which a Mechanical Account and Expla- <lb/>nation,
+          may be ſeen in the Ingenious Dr. <lb/><hi rend="italic">Morgan's Philoſophical Principles
+            of Me- <lb/>dicine</hi>; a Book that can never be too much <lb/>ſtudyed by the young
+          Phyſician, who in- <lb/>tends to make a Figure in his Profeſſion, <lb/>and would build his
+          Practice on plain Facts <lb/>and indiſputable Principles. To that Trea- <lb/>tiſe,
+          therefore, I ſhall refer the curious <lb/>Reader; where, I can aſſure him, he will
+          <lb/>find this Subject touch'd with uncommon <lb/>Delicacy, and ſee the Origin, and
+          different <lb/>Modifications, of the Paſſions beautifully <lb/>deſcribed, and their
+          Effects on the Animal <lb/>Organiſm, in a ſtrong and maſterly manner, <lb/>Anatomically
+          delineated and Mechanically <lb/>accounted for: Which makes it the leſs <lb/>neceſſary for
+          me to enter farther into the <lb/>Theory of the Matter here. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">'Tis</hi> evident in Fact that <hi rend="italic">Hope</hi> and <hi
+            rend="italic">Joy</hi>
+          <lb/>warm the Blood, diffuſe the natural Heat, <lb/>raiſe the Pulſe, and take off any
+          Irritation <pb xml:id="page_43" n="42"/>
+          <lb/>or painful <hi rend="italic">Stimulus</hi> upon the Organs; and <lb/>that <hi
+            rend="italic">Fear</hi> and <hi rend="italic">Grief</hi> produce the quite con-
+          <lb/>trary Effects to all theſe. But 'tis obſerva- <lb/>ble, that <hi rend="italic"
+            >Grief</hi> is the moſt ſinking, waſt- <lb/>ing, diſanimating Paſſion of all; for <hi
+            rend="italic">Fear</hi>
+          <lb/>very often inſpires the Perſon Affected, <lb/>with a Reſolution and Courage
+          proportio- <lb/>nal to the apparent or apprehended Danger, <lb/>and thereby arms him, with
+          ſuitable Strength <lb/>and Firmneſs, to encounter with the Diffi- <lb/>culties before him. </p>
+        <p rend="indent space">
+          <lb/><hi rend="italic">Hope</hi> and <hi rend="italic">Joy</hi> affect the Blood and Hu-
+          <lb/>mours much after the ſame manner with <lb/><hi rend="italic">Vinous Spirits</hi>, <hi
+            rend="italic">Opiates</hi>, and other ſuch <lb/>Exhilerating <hi rend="italic"
+            >Volatiles</hi>; but <hi rend="italic">Grief</hi> and <hi rend="italic">Fear</hi>
+          <lb/>when they are ſtrong and overbearing, with <lb/><hi rend="italic">Acids</hi> and <hi
+            rend="italic">Salts</hi> upon the Stomach; <hi rend="italic">i. e.</hi>
+          <lb/>they affect the Organs with Pain, lower <lb/>the Pulſe, repel the natural Heat, and
+          diſ- <lb/>arm a Man of Spirit, Strength and Reſolu- <lb/>tion, or, perhaps, keep him
+          conſtantly a- <lb/>wake and attentive to the painful diſagree- <lb/>able Scene, till he
+          has quite loſt his Senſes. <lb/>From this ſhort Account of the Mechanical <lb/>and moſt
+          obvious Effects of the Paſſions, <lb/>the Methods of relieving them when they <pb
+            xml:id="page_44" n="43"/>
+          <lb/>grow Exorbitant, may be eaſily drawn; and <lb/>there is no need that I ſhould farther
+          inſiſt on <lb/>it here. I had ſome thought indeed of being <lb/>larger on the
+          conſideration of theſe <hi rend="italic"> Conſti- <lb/>tutionals</hi>, which we ſo
+          improperly call <lb/><hi rend="italic">Non-Naturals</hi>; but the Bounds to which <lb/>I
+          muſt confine my Self, in this <hi rend="italic">Eſſay</hi>, will <lb/>not permit of a
+          longer Detail at preſent; <lb/>and I muſt, therefore, refer a more particu- <lb/>lar and
+          diſtinct Account of theſe Matters, <lb/>to ſome fitter Opportunity. </p>
+      </div>
+      <div n="2" type="section">
+        <head rend="align-center space">
+          <lb/>SECT. II. </head>
+        <head rend="italic size(1.25) align-center space">
+          <lb/>Of the <hi rend="roman">Materia Medica</hi> in general. </head>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">N</hi>OTWITHSTANDING the vaſtneſs <lb/>of this Subject, I have no
+          deſign to <lb/>write a Volume upon it, nor do I think it <lb/>neceſſary. But conſidering
+          the Bulk to which <lb/>the <hi rend="italic">Materia Medica</hi> is grown, 'tis certain-
+          <lb/>ly, I think, high time to come to ſome pro- <lb/>per Limitations and Reſtrictions
+          concerning <lb/>it, before it is quite run out into <hi rend="italic">Infinity</hi>.
+          <lb/>For, to ſuch an exceſſive Degree is this Mat- <lb/>ter grown already, that a Man had
+          almoſt <lb/>as good read over all the <hi rend="italic">Acts</hi> of <hi rend="italic"
+            >Parlia- <pb xml:id="page_45" n="44"/>
+            <lb/>ment</hi> and Laws of <hi rend="italic">England</hi>, as the Books <lb/>of Phyſick,
+          and the infinite Jumble and <lb/>Confuſion of Remedys of one ſort or an- <lb/>other. I am
+          ſenſible, indeed, that the <lb/>beſt and ableſt Phyſicians among us, have <lb/>very much
+          reduced the <hi rend="italic">Materia Medica</hi>, <lb/>and brought it into a narrow
+          Compaſs with <lb/>reſpect to their own Practice; but this is <lb/>no advantage to thoſe
+          who have not bought <lb/>their Experience at ſo dear a rate, or who <lb/>have not had
+          opportunitys of making tryals <lb/>themſelves, but muſt ſtill go on, in their Prac-
+          <lb/>tice, upon the Judgments of ſuch as have <lb/>pretended to vaſt Experience before
+          them, <lb/>and who have, hereupon, cryed up a prodi- <lb/>gious number of <hi
+            rend="italic">Simple</hi> and <hi rend="italic">Compound Re- <lb/>medies</hi> as
+          infallible, and fill'd large Volumes <lb/>with them, when, perhaps, few or none of
+          <lb/>them, upon tryal, will be found to anſwer <lb/>their Character. So that, amidſt this
+          huge <lb/>Lumber, a young Practitioner muſt ſtill be <lb/>continually ſifting out a
+          Medicine, for his <lb/>purpoſe, in moſt Caſes, like a <hi rend="italic">Pearl</hi> in the
+          <lb/>common <hi rend="italic">Rubbiſh</hi>, or a Needle in a Heap of <lb/>Sand. </p>
+        <pb xml:id="page_46" n="45"/>
+        <p rend="indent">
+          <lb/><hi rend="sc">This</hi> Uncertainty and Confuſion in Phy- <lb/>ſick, have not ariſen
+          from any of the obvi- <lb/>ous <hi rend="italic">Senſible Properties</hi> or <hi
+            rend="italic">Effects</hi> of Me- <lb/>dicines, as they affect the <hi rend="italic"
+            >Natural Evacua- <lb/>tions</hi> or the Primary <hi rend="italic">Conſtitutional Quali-
+            <lb/>ties;</hi> for here the Practice ſtands upon a <lb/>pretty good certainty: but only
+          from the <lb/>vain and fruitleſs ſearch after <hi rend="italic">Specificks</hi>, in
+          <lb/>the modern abſurd Senſe, or rather <hi rend="italic"> Non- <lb/>ſenſe,</hi> of the
+          Word. This, as the Matter <lb/>appears to me, has been the true Cauſe of <lb/>all ſuch
+          Darkneſs and Obſcurity, as we <lb/>find the <hi rend="italic">Materia Medica</hi> under to
+          this ve- <lb/>ry Day. I ſhall therefore, under this Sec- <lb/>tion, lay down ſome
+          Principles, well eſta- <lb/>bliſhed in Fact, which may ſerve as ſo ma- <lb/>ny certain
+          Rules of Judgment, whereby <lb/>the young Phyſician may govern himſelf <lb/>in the choice
+          Medicines, ſo as to render <lb/>his Practice leſs precarious and uncertain, <lb/>than it
+          otherwiſe might be, upon his firſt <lb/>ſetting out in the World. And herein, I <lb/>ſhall
+          proceed in this plain and natural Me- <lb/>thod, by conſidering how far the ſeveral
+          <lb/>Parts of the <hi rend="italic">Materia Medica</hi>, as it now <lb/>ſtands, are <hi
+            rend="italic">Digeſtible</hi> or <hi rend="italic">Indigeſtible</hi>; in <lb/>what <hi
+            rend="italic">Caſes</hi> and under what <hi rend="italic">Circumſtances</hi>, <pb
+            xml:id="page_47" n="46"/>
+          <lb/>they are capable of paſſing the <hi rend="italic">Lacteals</hi>
+          <lb/>and mixing with the Blood; and what <hi rend="italic"> Ef- <lb/>fects</hi> may be
+          expected from them, when <lb/>they get there, which will take in all I <lb/>intend to ſay
+          on this Subject. </p>
+        <p rend="indent space">
+          <lb/>1. <hi rend="sc">Then</hi> it is certain, that nothing can <lb/>paſs the <hi
+            rend="italic">Lacteals</hi>, but what has been pre- <lb/>viouſly liquified, and reduced
+          to an <hi rend="italic"> Efflu- <lb/>vium</hi>, or an exceeding fine, thin and rarefy-
+          <lb/>ed <hi rend="italic">Vapour</hi>. Not only the Fibrous <hi rend="italic">Solid</hi>
+          <lb/>Parts of our common Food, but likewiſe <lb/>the more fix'd <hi rend="italic"
+            >Oils</hi> and <hi rend="italic">Salts</hi>, with which <lb/>it abounds, are incapable
+          of being diſſolved, <lb/>liquifyed and volatiliz'd, by the <hi rend="italic">Digeſtive
+            <lb/>Heat</hi> and Action of the Stomach, and the <lb/><hi rend="italic">Attractive
+            Power</hi> of the Lacteals; and <lb/>therefore the Reſidue of the Aliment, which
+          <lb/>cannot be reſolved, attenuated and fluxili- <lb/>zed, by ſuch a degree of Heat and
+          Motion <lb/>during the time of Concoction, are by Na- <lb/>ture precipitated, thruſt
+          forward and eject- <lb/>ed out of the Body, thro' the common Al- <lb/>vine Excretory Ducts
+          and Paſſages. Now, <lb/>if ſo conſiderable a Part of our common <lb/>Aliment, which has no
+          ſtronger or cloſer <lb/>Texture than that of the <hi rend="italic">Vegetable</hi> and <pb
+            xml:id="page_48" n="47"/>
+          <lb/><hi rend="italic">Animal Solids</hi>, cannot be ſo far diſſolved <lb/>and attenuated
+          in the Stomach, as to be <lb/>ſtrain'd off thro' the Lacteals; what ſhall we <lb/>ſay to
+          thoſe vaſtly more ſolid and compact <lb/>Subſtances which are often given as <hi
+            rend="italic"> Speci- <lb/>fick Alteratives</hi>? or by what <hi rend="italic"
+            >Chemiſtry</hi>, or <lb/><hi rend="italic">Mechaniſm</hi>, can our Specificians pretend
+          <lb/>to convey ſuch Subſtances as theſe into <lb/>the Blood, without firſt rendering them,
+          by <lb/>ſome previous Operation, <hi rend="italic">Soluble</hi> and <hi rend="italic">
+            Flux- <lb/>ilizable</hi> in Water? </p>
+        <p rend="indent space">
+          <lb/><hi rend="italic">Sulphur</hi>, <hi rend="italic">Æthiops</hi>, <hi rend="italic"
+            >Cinnabar</hi>, <hi rend="italic">Antimony</hi>, <lb/><hi rend="italic">Mineral
+            Bezoar</hi>, and univerſally all <hi rend="italic"> Mi- <lb/>neral Glebes</hi> and <hi
+            rend="italic">Metalline Calces,</hi> com- <lb/>municate nothing to Boiling Water, but
+          <lb/>their Parts remain fix'd, inſeparable and <lb/>unalterable, againſt all the Power of
+          ſuch a <lb/>degree of Heat and Motion; which is yet <lb/>vaſtly greater than can be
+          produced, by the <lb/>natural digeſtive Heat and Action of the <lb/>Stomach, during the
+          time of Concoction. <lb/>Nay, if the Parts of any ſuch ſolid cohering <lb/>Subſtances be
+          firſt of all broken and di- <lb/>vided, as far as poſſible, by any Grinding <lb/>or
+          Trituration whatever, yet ſtill, when <lb/>they are afterwards committed to boiling <pb
+            xml:id="page_49" n="48"/>
+          <lb/>Water, ſuch a degree of Heat and Motion <lb/>makes no Alteration, and cannot break or
+          <lb/>divide them farther: but, after all, their <lb/>ſmalleſt Parts, when examined by a
+          Micro- <lb/>ſcope, will appear to be many thouſand <lb/>times larger than any of the
+          Orifices of <lb/>the Lacteals, of which any Perſon may ea- <lb/>ſily be convinc'd upon
+          tryal. And conſe- <lb/>quently, he who expects to paſs ſuch Parti- <lb/>cles thro' the
+          Lacteals into the Blood, even <lb/>after their utmoſt Trituration, and conſe- <lb/>quent
+          Maceration, in any Liquor which <lb/>the Stomach can bear, will find himſelf
+          <lb/>deceived, and may as well attempt to thread <lb/>a Needle with a Cable, or, to ſpeak
+          accord- <lb/>ing to our Engliſh Tranſlation, <q rend="italic">It is as im- <lb/>poſſible
+            as for a Camel to go thro' the Eye <lb/>of a Needle </q>. </p>
+        <p rend="indent space">
+          <lb/>2. <hi rend="sc">Such</hi>
+          <hi rend="italic">Metalline Subſtances</hi>, as above <lb/>mentioned, may indeed be
+          converted into <lb/>the form of a <hi rend="italic">Salt</hi>, by the Power of ſtrong
+            <lb/><hi rend="italic">Acids</hi>, ſuch as <hi rend="italic">Oil of Vitriol</hi>, <hi
+            rend="italic">Spirit of <lb/>Nitre</hi>, &amp;c. as is well known to the Che-
+          <lb/>miſts; and in this Caſe they become Soluble <lb/>in Water, and may be volatiliz'd in
+          it, to <lb/>any aſſignable degree of Tenuity. But then <pb xml:id="page_50" n="49"/>
+          <lb/>they are converted into <hi rend="italic">Poyſons</hi>, and can- <lb/>not be thought
+          fit <hi rend="italic">Alteratives</hi>, unleſs the <lb/>intended Alteration be Death. </p>
+        <p rend="indent space">
+          <lb/>I know that ſome of theſe <hi rend="italic">Metalline A- <lb/>cid Salts</hi>, may be
+          given in ſome Caſes, as <lb/><hi rend="italic">Emeticks</hi> and <hi rend="italic"
+            >Catharticks</hi>: <choice>
+            <corr>but then</corr>
+            <sic>bu tthen</sic>
+          </choice>, as they <lb/>are not intended to paſs into the Blood, <lb/>but to be preſently
+          thrown out of the Bo- <lb/>dy together with ſuch other morbid Matter <lb/>as they derive
+          from the remote Parts; ſo, in <lb/>no caſe whatever, ſhould they be exhibited <lb/>as <hi
+            rend="italic">Alteratives</hi> in a long continued Courſe <lb/>of Medicine, nor indeed
+          us'd for any other <lb/>purpoſe, but with the greateſt Caution, <lb/>and upon the utmoſt
+          Neceſſity. They are <lb/>edged Tools, and never to be meddled with <lb/>without ſome
+          Danger. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">It</hi> is true indeed, that ſome Phyſicians <lb/>have recommended even
+          the alterative <lb/>Power of Poyſons, when the firſt Paſſages <lb/>are guarded againſt
+          them, and they are ſafe- <lb/>ly conveyed into the Blood and remote <lb/>Receſſes of the
+          Body; but, upon what Prin- <lb/>ciples this Practice is founded, I own, is be- <lb/>yond
+          my Comprehenſion. Would any but <pb xml:id="page_51" n="50"/>
+          <lb/>a Madman, truſt an Enemy in his Houſe, <lb/>or Cloſet, that he knows would murder
+          <lb/>him in the open Street? or is it conceiva- <lb/>ble that the much thinner, finer and
+          ten- <lb/>derer Coats and Membranes of the remote <lb/>Glands and ſmalleſt Veſſels, under
+          ſuch <lb/>Recluſes, ſhould be able to bear the Power <lb/>of ſo vaſt a <hi rend="italic"
+            >Stimulus</hi>, better than the Sto- <lb/>mach it ſelf where there is ſo free and o-
+          <lb/>pen a Diſcharge? </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">It</hi> is well known that <hi rend="italic">Poyſoning</hi> has
+          <lb/>been made an Art of, and reckoned a prin- <lb/>cipal Part of Magick; and it has been
+          re- <lb/>ported of the <hi rend="italic">Indians</hi> and ſome <hi rend="italic"
+            >Italians</hi>, <lb/>that they can give Poyſons to operate in a <lb/>certain aſſignable
+          time, either longer or <lb/>ſhorter, without producing any preſent ill <lb/>Conſequences
+          when firſt exhibited. This <lb/>method of Poyſoning indeed, might, per- <lb/>haps, receive
+          vaſt Improvement from ſuch <lb/>a Notion of Alteratives; but, as this does <lb/>not belong
+          to <hi rend="italic">Phyſick</hi>, I ſhall leave the <lb/>conſideration of it to others.
+          And, ſince <lb/>no Method has yet been diſcovered, of go- <lb/>verning and directing the
+          Venenous Parti- <lb/>cles, when got into the Habit, to the mor- <pb xml:id="page_52"
+            n="51"/>
+          <lb/>bid Matter only, or of preventing their <lb/>baneful Impreſſion, and deleterious
+          Effects, <lb/>on every part of the Animal Frame and <lb/>Conſtitution; I ſhall not only
+          abſolutely <lb/>reject the internal Uſe of any ſuch ſort of <lb/>Medicines, but draw one
+          practical Conclu- <lb/>ſion from the whole which I take to be of <lb/>great Importance;
+            <hi rend="italic">ſc.</hi> That any Medicine, <lb/>endued with a ſtrong Emetick or
+          Cathartick <lb/><hi rend="italic">Stimulus</hi>, ſhould never be ſuffered to lie <lb/>long
+          in the Body, or to paſs the Lacteals <lb/>where it is capable of it, but ought to be
+          <lb/>thrown off, as ſoon as poſſible, by the near- <lb/>eſt Outlets and propereſt
+          Excretorys; toge- <lb/>ther with ſuch other Matter as it has de- <lb/>rived and prepared
+          for Evacuation. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">But</hi>, beſides thoſe things that are abſo- <lb/>lutely Indiſſoluble,
+          and cannot be convey- <lb/>ed into the Blood at all, and ſuch as, by <lb/>reaſon of their
+          violent <hi rend="italic">Stimulus</hi> and Cor- <lb/>roſive Qualities, ought not to be
+          truſted <lb/>there, there is another ſort of Medicines <lb/>which might juſtly be expell'd
+          the Province <lb/>of Phyſick, under this notion of <hi rend="italic">Specifick
+            <lb/>Alteratives</hi>, tho' they are not abſolutely <lb/>Indigeſtible, nor endued with
+          any hurtful <pb xml:id="page_53" n="52"/>
+          <lb/><hi rend="italic">Stimulus</hi>: What I here aim at, is the <hi rend="italic"> Teſta-
+            <lb/>cea</hi>, <hi rend="italic">Reſins</hi>, <hi rend="italic">Boles</hi>, and <hi
+            rend="italic">Earths</hi>, which will <lb/>not impart a Tincture ſo as to be liquifyed
+          <lb/>and volatiliz'd with Water, or any other <lb/>common potable Liquor. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">Any</hi> of theſe, when retain'd in the <lb/>Body, muſt neceſſarily
+          clog and obſtruct <lb/>the primary concoctive Organs, and do <lb/>more Miſchief, in a
+          little time, than all the <lb/>Advantages that can be expected from them. <lb/>For, as
+          they cannot be ſufficiently reſolv'd, <lb/>liquifyed and ſublimated, by the natural di-
+          <lb/>geſtive Heat of the Stomach, ſo as to paſs <lb/>the Lacteals, they muſt needs foul
+          and ob- <lb/>ſtruct the firſt Paſſages, impair the Appetite, <lb/>ſuppreſs the natural
+          Heat, weaken the Force <lb/>of the Muſcles and Elaſtick Fibres in ge- <lb/>neral, and, by
+          continuance, induce an <hi rend="italic"> Atro- <lb/>phy</hi> of the worſt ſort, which
+          ariſes from an <lb/>Obſtruction of the Lacteals, and a conſe- <lb/>quent depravation of
+          Digeſtion and loſs of <lb/>Appetite. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">But</hi> while I am exploding, and ſetting <lb/>aſide theſe things as
+            <hi rend="italic">Alteratives</hi>, or with <lb/>regard to any good Effects they can
+          have <pb xml:id="page_54" n="53"/>
+          <lb/>upon the remote Glands and Membranous <lb/>Veſicles, I would not be thought to main-
+          <lb/>tain, or ſuppoſe, that they may not, at leaſt <lb/>ſome of them, be of uſe, in
+          particular Caſes, <lb/>by their preſent Effects on the firſt Paſſages; <lb/>provided they
+          are extruded and thrown out <lb/>of the Body, by Emeticks or Catharticks, <lb/>as ſoon as
+          they have anſwered their proper <lb/>Intention. But this will be farther explain- <lb/>ed
+          in ſome of the following Sections. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">Another</hi> principal thing, to be regard- <lb/>ed in the Practice of
+          Phyſick, is the <hi rend="italic">Doſes</hi>
+          <lb/>of Medicines, and the Manner of Exhibit- <lb/>ing them. For 'tis certain, that where
+          a <lb/>Medicine is never ſo good and efficacious, <lb/>and capable of anſwering the
+          Intention of <lb/>the Phyſician of it ſelf; yet ſtill this Effect <lb/>may be eluded, and
+          Nature deprived of the <lb/>expected and intended Relief, by a wrong <lb/>method of
+          Exhibition, or by an Error com- <lb/>mitted, either in the <hi rend="italic"
+            >Quantitys</hi> or <hi rend="italic">Forms</hi>
+          <lb/>of ſuch Simple or Simples, on which the <lb/>whole Intention of Cure depends. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">And</hi> nothing, in my Opinion, has prov'd <lb/>more prejudicial in
+          the Practice of Phyſick, <pb xml:id="page_55" n="54"/>
+          <lb/>than the Stated <hi rend="italic">Canonical Doſes</hi> of Me- <lb/>dicines, whether
+          Simple or Compound. <lb/>When once a Man imagines himſelf to be <lb/>pinn'd down, in the
+          giving of Medicines, <lb/>to any ſtated Authoriz'd Doſes, he muſt <lb/>not go beyond it,
+          tho' he ſhould miſs of his <lb/>Intention and loſe his Patient. And from <lb/>hence one
+          may venture to ſay, that more <lb/>hurt has been done by trifling with Effica- <lb/>cious
+          Medicines, and thereby loſing Time, <lb/>than by miſtaking the Caſe, and directing
+          <lb/>things contrary to the Intention of Cure. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">But</hi> this Error is oftneſt committed in <lb/>the Caſe of <hi
+            rend="italic">Compounds</hi>, which are com- <lb/>monly look'd upon and regarded as ſo
+          ma- <lb/>ny <hi rend="italic">Canons</hi> in Phyſick; and conſequently <lb/>entitled to an
+          abſolute and implicit Obedi- <lb/>ence and Conformity. But, as this is cer- <lb/>tainly
+          the prudential Orthodox Method of <lb/>Trifling, and of doing a great deal of Miſ-
+          <lb/>chief by doing no Good, ſo I dare be bold <lb/>to ſay, that he who ſhall govern
+          himſelf <lb/>by theſe Rules, without uſing his own <lb/>Judgment in varying the <hi
+            rend="italic">Doſes</hi> and <hi rend="italic">Forms</hi>, <lb/>as occaſion requires,
+          will not only often- <lb/>times loſe his Patient, but his Reputation <lb/>into the
+          Bargain. </p>
+        <pb xml:id="page_56" n="55"/>
+        <p rend="indent space">
+          <lb/><hi rend="sc">It</hi> is certain that the <hi rend="italic">Art</hi> of <hi
+            rend="italic"> Compoſi- <lb/>tion</hi> in Medicine, upon which all our com- <lb/>mon
+          Diſpenſatorys are founded, aroſe with <lb/>the <hi rend="italic">Specifick</hi> or <hi
+            rend="italic">Corpuſcularian Philoſophy</hi>, <lb/>and with that it muſt ſink again;
+          for, while <lb/>the Practice ſtood upon this Chimærical <lb/>Foundation, the Phyſician,
+          for want of be- <lb/>ing acquainted with the Obvious Senſible <lb/>Qualities and Effects
+          of Medicines, and the <lb/>Method that unaſſiſted Nature took to re- <lb/>lieve her ſelf,
+          under any particular Diſor- <lb/>der, could have no other Intention in his <lb/>Medical
+          Proceſſes, than to cure by <hi rend="italic">Magick</hi>
+          <lb/>or <hi rend="italic">Occult Qualities</hi>; and conſequently muſt <lb/>conclude that
+          his chance of Succeſs, always <lb/>roſe in proportion to the number of Ingre- <lb/>dients
+          in the <hi rend="italic">Compound Remedy</hi>. But an <lb/>Extemporaneous Practice is,
+          certainly, the <lb/>only true and rational Method of practiſing <lb/>Phyſick; as this may,
+          by the Phyſician who <lb/>knows what he is about, be always accom- <lb/>modated to the
+          great Variety and Compli- <lb/>cation of Symptoms in particular Caſes: <lb/>and nothing
+          ſurely can be more Abſurd and <lb/>Irrational, than <hi rend="italic">Extemporaneous
+            General <lb/>Preſcriptions</hi>, or <hi rend="italic">Stated Canonical Com- <lb/>pound
+            Remedys</hi>. </p>
+        <pb xml:id="page_57" n="56"/>
+        <p rend="indent space">
+          <lb/><hi rend="sc">Whoever</hi> conſiders the moſt com- <lb/>mon prevailing <hi
+            rend="italic">Compounds</hi>, will find them <lb/>to be a general confuſed Jumble of
+          Sim- <lb/>ples of very different Virtues and Proper- <lb/>ties; and, conſequently, not
+          containing, up- <lb/>on the whole, the real Power or Efficacy of <lb/>any one Ingredient
+          in the whole Compoſi- <lb/>tion. And if any ſuch General Artificial <lb/>Compoſition
+          ſhould happen to anſwer the <lb/>Intention, in ſome particular Caſes, it is <lb/>more by
+          chance than any thing elſe. And, <lb/>in theſe <hi rend="italic">Canonical Compounds</hi>,
+          it may be <lb/>pretty generally obſerved, that the <hi rend="italic">Simple</hi>
+          <lb/>that gives it the Name, or from which the <lb/>Denomination is taken, has the leaſt
+          ſhare <lb/>in the Compoſition, and might do much <lb/>better alone, or with any eaſy
+          extempora- <lb/>neous Management. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">But</hi> beſides this Art of Compoſition, <lb/>or confounding all
+          Virtues and Properties <lb/>together, there is another artificial Method <lb/>of ſpoiling,
+          or rendering Uſeleſs and In- <lb/>ſignificant, the beſt and moſt Efficacious <lb/>Simples,
+          by pretending to preſerve and ſe- <lb/>cure their original native Effects and Vir- <pb
+            xml:id="page_58" n="57"/>
+          <lb/>tues, in their <hi rend="italic">Diſtill'd Waters</hi>, <hi rend="italic"
+          >Syrups</hi>, <hi rend="italic"> Con- <lb/>fections</hi> and <hi rend="italic"
+            >Conſerves</hi>. </p>
+        <p rend="indent space">
+          <lb/><hi rend="italic">Simple</hi> and <hi rend="italic">Compound Waters</hi> drawn
+          <lb/>from Vegetables, are, for the moſt part, ſim- <lb/>ply ineffectual as to any
+          Intention for <lb/>which they are given; and he, who makes <lb/>uſe of them for any other
+          purpoſe than as <lb/>Vehicles, for Medicines of greater Efficacy, <lb/>will always find
+          himſelf diſappointed; and, <lb/>even for this purpoſe, the <hi rend="italic">Simple</hi>
+          or low <lb/><hi rend="italic">Diſtilled Waters</hi>, not having Strength e- <lb/>nough
+          generally to keep from Mothering <lb/>and Spoiling upon hand, are not half ſo <lb/>good as
+            <hi rend="italic">Common Water</hi> or freſh <hi rend="italic">Small <lb/>Beer</hi>. But
+          the <hi rend="italic">Compound Waters</hi>, which <lb/>are raiſed to a proof Spirit, may,
+          ſome of <lb/>them at leaſt, do very well and be thought <lb/>pleaſant enough as a <hi
+            rend="italic">Dram</hi>, tho', I think, <lb/>moſt of 'em are fitter to be ſold at <hi
+            rend="italic">Inns</hi> and <lb/><hi rend="italic">Coffee-houſes</hi> than the
+          Apothecarys Shops. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">The</hi>
+          <hi rend="italic">Medicated Syrups</hi> are, if poſſible, <lb/>ſtill more Inſignificant;
+          for, excepting a few <lb/>of them which are intended as <hi rend="italic">Purgatives</hi>,
+          <lb/>there is not one of them capable of anſwer- <lb/>ing any other Intention in Phyſick:
+          and <pb xml:id="page_59" n="58"/>
+          <lb/>ſince they are chiefly uſed in <hi rend="italic">Juleps</hi>, as <lb/>Specifick
+          Sweetners by the Phyſician, and <lb/>as <hi rend="italic">Sugar</hi> it ſelf would do much
+          better and <lb/>render the Medicine more agreeable and <lb/>leſs nauſeous, I think they
+          may be very <lb/>well left, to the Apothecary, for the pur- <lb/>poſe of particular Forms
+          and to make up <lb/>dry Subſtances into <hi rend="italic">Boles</hi>, <hi rend="italic"
+            >Pills</hi> and <hi rend="italic"> E- <lb/>lectuaries.</hi>
+        </p>
+        <p rend="indent space">
+          <lb/><hi rend="italic">Confections</hi> and <hi rend="italic">Conſerves</hi> may likewiſe
+          <lb/>anſwer ſome ſuch uſe as to give an agree- <lb/>able Reliſh, or to bring <hi
+            rend="italic">Electuaries</hi> to a <lb/>due Conſiſtence; but otherwiſe, their Medi-
+          <lb/>cinal Virtues may very well be ſpared. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">But</hi>, by <hi rend="italic">Decoctions</hi>, <hi rend="italic"
+            >Infuſions</hi> and <hi rend="italic"> Tinc- <lb/>tures</hi>, the Native Eſſential <hi
+            rend="italic">Oils</hi> and <hi rend="italic">Salts</hi>
+          <lb/>of Simples may be extracted, ſo far as the <lb/>natural Heat of the Stomach is
+          capable of <lb/>doing it. And, ſince all the proper Medi- <lb/>cinal Virtues and Powers of
+          the Simples <lb/>themſelves conſiſts and reſides in theſe <hi rend="italic">Salts</hi>
+          <lb/>and <hi rend="italic">Oils</hi>, by ſuch a Preparation and Ma- <lb/>nagement, they
+          may certainly be given to <lb/>vaſtly greater Advantage than in their com- <lb/>mon <hi
+            rend="italic">Groſs Subſtances</hi>. For by this all the <pb xml:id="page_60" n="59"/>
+          <lb/>Efficacy of the Simples may be obtain'd <lb/>freſh and pure, and to any given degree
+          as <lb/>the Caſe requires, ſo as to come up fully <lb/>to the Intention. And hereby alſo
+          the <lb/>Stomach may be ſaved the Difficulty and <lb/>Inconvenience of Solution, Digeſtion
+          and <lb/>Separation of the Parts; which is done be- <lb/>fore-hand in this way of
+          Preparation, to <lb/>the great aſſiſtance of Nature. For it can- <lb/>not certainly be a
+          rational Method, or good <lb/>Contrivance, to commit <hi rend="italic">Groſs</hi>, <hi
+            rend="italic">Solid</hi> and <lb/><hi rend="italic">Strongly-Cohering Subſtances</hi>,
+          to a ſick, <lb/>weak and diſtemper'd Stomach, which can- <lb/>not perhaps retain and
+          digeſt any ordinary <lb/>ſolid Food. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">And</hi>, from the ſame <hi rend="italic">Mechaniſm</hi> and <lb/><hi
+            rend="italic">Chemiſtry</hi> of Nature, it muſt likewiſe fol- <lb/>low, that all
+          nauſeous, ſickening and loath- <lb/>ſome Medicines, ought as much as poſſible <lb/>to be
+          avoided; that is, they ought abſolute- <lb/>ly to be avoided and never given or urg'd
+          <lb/>at all. For 'tis a hard Caſe, indeed, when <lb/>a weak languid Patient muſt be
+          forced, <lb/>with Things which he could never have <lb/>taken, in his beſt Health, without
+          loathing <lb/>Reluctancy and ſenſible Diſorder. </p>
+        <pb xml:id="page_61" n="60"/>
+        <p rend="indent space">
+          <lb/><hi rend="sc">The</hi> Notion of <hi rend="italic">Specificks</hi>, and the vain
+          <lb/>pretence of curing Diſeaſes by the <hi rend="italic">Occult</hi>
+          <lb/>Operation of Medicines upon the Blood, <lb/>has been the true ground of all ſuch Vio-
+          <lb/>lence offered to Nature. For, if the Diſ- <lb/>eaſe is to be cured by Things which
+          are to <lb/>affect the Blood, after a ſecret and inexpli- <lb/>cable Manner, the Patient
+          muſt believe and <lb/>ſuffer for the ſake of Health, againſt all <lb/>ſenſible Appearances
+          to the contrary: for, <lb/>no doubt, the <hi rend="italic">Specifick</hi> Remedys will do
+          <lb/>their Work, and faithfully execute their <lb/>Commiſſion, when they get into the
+          Blood <lb/>and arrive at the Seat of the Diſorder, what- <lb/>ever Miſchief or Injury they
+          may occaſion, <lb/>to the Conſtitution, before they get there. </p>
+        <p rend="indent space">
+          <lb/>I have made theſe Obſervations, which <lb/>appear to me plainly neceſſary, with
+          regard <lb/>to the general Uſe and Application of the <lb/><hi rend="italic">Materia
+            Medica</hi>, for the ſake of ſuch Gen- <lb/>tlemen, only, as ſhall think it worth their
+          <lb/>while to form their Conduct upon the <lb/>Reaſon and Nature of Things, and build
+          <lb/>their Practice on Facts and Experiments. <lb/>And, if ſuch Regulations ſhould happen
+          to <pb xml:id="page_62" n="61"/>
+          <lb/>throw out a great part of its many Particu- <lb/>lars, I hope, however, it may ſerve
+          to im- <lb/>prove the <hi rend="italic">Art</hi> of <hi rend="italic">Healing</hi>, which
+          is all I <lb/>aim at. </p>
+      </div>
+      <gap reason="sampling" unit="pages" quantity="28"/>
+    </body>
+  </text>
+</TEI>

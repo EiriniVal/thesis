@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LMEMT Corpus - le Cat and Underwood: A Monstrous Human Foetus</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <author>
+              <persName>Claude Nicholas le Cat</persName>
+              <persName>Michael Underwood</persName>
+            </author>
+            <title>A Monstrous Human Foetus, Having Neither Head, Heart, Lungs, Stomach, Spleen,
+              Pancreas, Liver, nor Kidnies. By Claude, Nicholas Le Cat, M. D. Professor and
+              Demonstrator Royal in Anatomy and Surgery; Perpetual Secretary to the Academy of
+              Sciences at Rouen, F. R. S. &amp;c. Translated from the French, by Michael Underwood,
+              Surgeon to the British Lyingin Hospital, in London</title>
+          </analytic>
+          <monogr>
+            <title>Philosophical Transactions. Giving Some Account of the Present Undertakings,
+              Studies and Labours, of the Ingenious, in many Considerable Parts of the
+              World.</title>
+            <author>Royal Society</author>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>Printed for L. Davis and C. Reymers, Printers to the Royal Society,
+                  against Gray's-Inn Gate, In Holbourn.</persName>
+              </publisher>
+              <date>1767</date>
+              <biblScope unit="vol">57</biblScope>
+              <biblScope unit="page">1-20</biblScope>
+            </imprint>
+            <extent>
+              <measure type="format">4⁰</measure>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <idno type="ECCO"/>
+            <idno type="DOI">doi: 10.1098/rstl.1767.0002</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Periodicals"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text type="article" rend="roman" decls="PT57_0001">
+    <body>
+      <pb n="1"/>
+      <head rend="italic hanging">
+        <lb/><hi rend="roman">I.</hi> A monſtrous human Fœtus, having neither <lb/>Head, Heart,
+        Lungs, Stomach, Spleen, <lb/>Pancreas, Liver, nor Kidnies. By <hi rend="roman">Claude,
+          <lb/>Nicholas Le Cat</hi>, M. D. Profeſſor and <lb/>Demonſtrator Royal in Anatomy and Sur-
+        <lb/>gery; perpetual Secretary to the Aca- <lb/>demy of Sciences at <hi rend="roman"
+          >Rouen</hi>, F. R. S. &amp;c. <lb/>Tranſlated from the <hi rend="roman">French</hi>, by
+          <hi rend="roman">Michael <lb/>Underwood</hi>, Surgeon to the Britiſh Lying- <lb/>in
+        Hoſpital, in <hi rend="roman">London</hi>. </head>
+      <p rend="space">
+        <lb/>
+        <note place="inset" rend="size(0.7) hanging">Read <date>December 1766, <lb/>and January
+            1767. </date>
+        </note><hi rend="dc(2)">M.</hi> F****, a chair-woman, in <lb/>the pariſh of <hi
+          rend="italic">Carville de <lb/>Dernetal</hi>, aged thirty-four years, was brought to-bed,
+        <lb/>at nine months end, on tueſday the third of january, <lb/>1764, of two children, having
+        already had ſix. <pb n="2"/>
+        <lb/>This laſt labour, in which ſhe was attended by the <lb/>widow <hi rend="italic"
+          >Mauger</hi>, a midwife of the ſame town, be- <lb/>gan with ſo conſiderable a diſcharge of
+        water, that it <lb/>was judged, not without reaſon, that her pregnancy <lb/>was attended
+        with a dropſy of the <hi rend="italic">uterus</hi>. </p>
+      <p rend="indent">
+        <lb/>The firſt child was a girl, well formed, who died <lb/>in the birth, ſolely from the
+        obſtacles which were oc- <lb/>caſioned, during the courſe of the labour, by the ſe-
+        <lb/>cond child, or monſter, which I am going to deſcribe. </p>
+      <p rend="indent">
+        <lb/>All the lower part of this child, from a finger's <lb/>breadth above the navel, was
+        likewiſe a female, to- <lb/>lerably well formed, except that on her left foot ſhe <lb/>had
+        but four toes, joined together by a membrane, <lb/>like the web of a duck's foot. </p>
+      <p rend="indent">
+        <lb/>But all the parts of this fœtus, above the navel, <lb/>compoſed a perfect <hi
+          rend="italic">mola</hi>, a ſhapeleſs maſs, repreſented <lb/>in the two following figures,
+        of which it will be <lb/>neceſſary to read the explanation, in order to have <lb/>a juſt
+        idea of the external appearance of this <lb/>monſter. </p>
+      <p rend="indent">
+        <lb/>The drawings are reduced to almoſt half the na- <lb/>tural ſize, both as to length and
+        breadth; from whence <lb/>it may be obſerved, that each of the children, who <lb/>had lived
+        to their full time, had acquired, in this <lb/>dropſical womb, a bulk pretty near equal to
+        that of <lb/>other children, born at full time, when twins, and <lb/>not very thriving. The
+        full ſize of our monſter <lb/>was twelve inches ſix lines, and the navel was in the
+        <lb/>middle of this ſpace. </p>
+      <pb n="3"/>
+      <figure>
+        <head rend="align-center">
+          <lb/>TAB. I. </head>
+        <figure>
+          <head rend="sc align-center space">
+            <lb/>Figure 1. </head>
+          <head rend="align-center space">
+            <lb/>Repreſents the monſtrous fœtus in a front <lb/>view. </head>
+          <p rend="space">
+            <list rend="hanging">
+              <item>
+                <lb/>A. The upper and only monſtrous part, which ſeems <lb/>to contain its head, its
+                ſuperior extremities, <lb/>and the breaſt. </item>
+              <item>
+                <lb/>B. The belly. </item>
+              <item>
+                <lb/>C. The lower extremities. </item>
+            </list>
+          </p>
+          <p rend="space">
+            <list rend="hanging">
+              <item>
+                <lb/><hi rend="italic">a.</hi> Solid and bony eminences, which appeared to be
+                <lb/>portions of a jaw<choice>
+                  <corr>,</corr>
+                  <sic>.</sic>
+                </choice> without any opening for a <lb/>mouth. </item>
+              <item>
+                <lb/><hi rend="italic">b.</hi> The extremity of the thumb of the right hand. </item>
+              <item>
+                <lb/><hi rend="italic">d.</hi> The hair, the ſame as on other children. </item>
+              <item>
+                <lb/><hi rend="italic">e.</hi> The genital-parts of a female. </item>
+              <item>
+                <lb/><hi rend="italic">f.</hi> The <hi rend="italic">umbilical</hi> cord. </item>
+            </list>
+          </p>
+          <figDesc>An illustration of a badly malformed foetus from the front on a separate fold-out
+            page. A signature in the bottom left-hand corner reads "<hi rend="italic">Drawn by M.<hi
+                rend="sup">rs</hi> David daughter to the Author.</hi>
+          </figDesc>
+        </figure>
+        <figure>
+          <head rend="sc align-center space">
+            <lb/>Figure 2. </head>
+          <head rend="align-center space">
+            <lb/>Repreſents a back view of the fœtus. </head>
+          <p rend="space">
+            <list>
+              <item>A. The ſame bag as at letter A. fig. 1. </item>
+              <item>
+                <lb/>B. The loins. </item>
+              <item>
+                <lb/>C. The lower extremities. </item>
+            </list>
+          </p>
+          <p rend="space">
+            <list rend="hanging">
+              <item>
+                <lb/><hi rend="italic">a.</hi> The hair as ſeen in the former Fig. under which
+                <lb/>might be felt the bones of the <hi rend="italic">cranium</hi>. </item>
+              <pb n="4"/>
+              <item>
+                <lb/><hi rend="italic">b.</hi> A tranſparent veſicle, like an <hi rend="italic"
+                  >hydatide</hi>, which I <lb/>took for an imperfect eye. </item>
+              <item>
+                <lb/><hi rend="italic">c.</hi> Part of the bag, where we obſerved the extremity
+                <lb/>of a thumb ſeen at <hi rend="italic">b</hi>, fig. 1. </item>
+              <item>
+                <lb/><hi rend="italic">d.</hi> Part of the ſame bag, which reſembled that
+                <lb/>marked <hi rend="italic">c.</hi>
+              </item>
+              <item>
+                <lb/><hi rend="italic">e.</hi> Under this region might be felt the <hi rend="italic"
+                  >ſpina dorſi</hi>
+                <lb/>and <hi rend="italic">colli</hi>. </item>
+            </list>
+          </p>
+          <figDesc>An illustration of the same foetus from behind, on the same fold-out page.
+          </figDesc>
+        </figure>
+      </figure>
+      <div>
+        <head rend="indent space">
+          <lb/>Deſcription of the internal parts of this monſter. </head>
+        <p rend="indent">
+          <lb/>I began the diſſection on the hind part; the <lb/>muſcles of the back were well
+          formed. I found on <lb/>the right ſide eight ribs, reckoning from below up- <lb/>wards,
+          and ſeven on the left. Immediately above <lb/>theſe was an <hi rend="italic"
+          >hydatide</hi>, in which lay the cervical <lb/>nerves, deſtined for the upper extremities.
+          In this <lb/>place alſo might be ſeen very imperfect rudiments of <lb/>the <hi
+            rend="italic">ſcapula</hi> and <hi rend="italic">clavicle</hi>. </p>
+        <p rend="indent">
+          <lb/>On the right ſide, and near to thoſe rudiments, <lb/>was a ſort of thumb, eaſily
+          known to be the thumb <lb/>of the right hand, whoſe extremity projected be- <lb/>yond the
+          integuments three-fourths of its natural <lb/>length. </p>
+        <p rend="indent">
+          <lb/>Above, and on the right ſide of this <hi rend="italic">hydatide</hi>, I
+          <lb/>diſcovered another more conſiderable, ſurrounded by <lb/>a large bag, very ſmooth on
+          the inſide, and ſupported <lb/>by ſomething, which had the appearance of a be-
+          <lb/>ginning of <hi rend="italic">maxillæ</hi>. </p>
+        <p rend="indent">
+          <lb/>At the extremity of the fore part of this bag were <lb/>two orifices, almoſt
+          contiguous, acroſs a <hi rend="italic">ſeptum</hi>, <lb/>which led to another bag of a
+          much ſmaller ſize. </p>
+        <pb n="5"/>
+        <p rend="indent">
+          <lb/>Theſe two <hi rend="italic">hydatide</hi> bags were behind that repre- <lb/>ſented in
+          Fig. 2. (letter <hi rend="italic">b.</hi>) which I took for an im- <lb/>perfect eye,
+          becauſe it was tranſparent, and ſur- <lb/>rounded by teguments not unlike eyelids. </p>
+        <p rend="indent">
+          <lb/>On tracing the <hi rend="italic">ſpine</hi>, and diveſting it of all the <lb/>ſoft
+          parts, we diſcovered that it terminated above in <lb/>a bony maſs, that reſembled the <hi
+            rend="italic">larynx</hi>, above which <lb/>was a large ſoft ſubſtance of the
+          conſiſtence of, and <lb/>covered with, that kind of ſkin common to a cow's <lb/>udder; on
+          which we ſaw hair like that of other <lb/>children. This occupied the uſual place for the
+          <lb/>head. </p>
+        <p rend="indent">
+          <lb/>Under this kind of <hi rend="italic">parenchymatous</hi> ſubſtance, which <lb/>was
+          white and glandular, was a muſcular maſs, more <lb/>conſiderable and conſpicuous than one
+          could well <lb/>have expected in ſuch a ſubject. It doubtleſs con- <lb/>ſiſted of the <hi
+            rend="italic">occipital</hi> and perhaps <hi rend="italic">frontal</hi> muſcles,
+          <lb/>drawn towards each other. </p>
+        <p rend="indent">
+          <lb/>Having raiſed this fleſhy part, I opened the upper <lb/>bag of the <hi rend="italic"
+            >ſpine</hi>, reſembling a <hi rend="italic">larynx</hi>. Its ſurface <lb/>was altogether
+          bony, as uſual in the fœtus, viz. <lb/>ſomewhat cartilaginous. This I opened in the di-
+          <lb/>rection of a membranous triangular line, ſomewhat <lb/>like the <hi rend="italic"
+            >lambdoidal ſuture</hi> of the <hi rend="italic">occiput</hi>. We <lb/>found this kind
+          of <hi rend="italic">larynx</hi> fitted with <hi rend="italic">cerebrum</hi>, or
+          <lb/>rather <hi rend="italic">cerebellum</hi>; it might be about a cubical inch in
+          <lb/>proportion; and this was all the brain of the fœtus. </p>
+        <p rend="indent">
+          <lb/>At the extremity of this cavity, backwards, lay <lb/>the proper <hi rend="italic"
+            >medulla ſpinalis</hi>. This cavity was not <lb/>ſeparated by an elongation of the <hi
+            rend="italic">cerebellum</hi>, it had <lb/>but a very ſmall <hi rend="italic">falx</hi>
+          forwards; and on the right <lb/>ſide was another appearance of an elongation of the <pb
+            n="6"/>
+          <lb/><hi rend="italic">cerebellum</hi>, ſo that this ſmall portion of brain did moſt
+          <lb/>likely belong to the <hi rend="italic">cerebellum</hi>. </p>
+        <p rend="indent">
+          <lb/>At the baſis of this kind of unformed <hi rend="italic">cranium</hi>, <lb/>forwards,
+          was an opening leading to a ſmall brown <lb/><hi rend="italic">hydatide</hi>, ſituated on
+          the right ſide, under a bone <lb/>which had the appearance of a portion of the <hi
+            rend="italic">maxilla</hi>, <lb/>which led towards a ſort of mouth, ſcarce formed,
+          <lb/>and cloſed; it is repreſented at the letter (<hi rend="italic">a</hi>) of the
+          <lb/>firſt figure. There was nothing on the other ſide, no <lb/>appearance of a mouth, nor
+          any thing that ſeemed <lb/>the leaſt like it. </p>
+        <p rend="indent">
+          <lb/>I took this <hi rend="italic">hydatide</hi> for an unformed jugular bag, <lb/>or true
+            <hi rend="italic">cæcum</hi>; in the adjoining bone I found a kind <lb/>of right ear. </p>
+        <p rend="indent">
+          <lb/>The fore part of this ſame ſuperior ſurface of the <lb/><hi rend="italic"
+            >cranium</hi> was flat, but a little hollowed, like the <lb/>upper ſurface of the <hi
+            rend="italic">larynx</hi>; in the middle was a <lb/>conſiderable ridge, and on its
+          anterior part appeared <lb/>a prominence: thus this bone, which ſhould have <lb/>been
+          ſimilar to the two <hi rend="italic">parietals</hi>, did not reſemble <lb/>them at all. </p>
+        <p rend="indent">
+          <lb/>Underneath this prominence, the bone took a <lb/>perpendicular turn, making a ſharp
+          angle with the <lb/>upper ſurface, and forming a cavity in its deſcent, <lb/>which
+          terminated in a projection forwards; it was <lb/>on the right ſide of this projection
+          where the ſup- <lb/>poſed right branch of the <hi rend="italic">maxilla</hi> was attached;
+          <lb/>within that branch appeared the trace of the jugular <lb/>above-mentioned, and very
+          diſtinctly the nerve of <lb/>the eighth pair. </p>
+        <p rend="indent">
+          <lb/>In the breaſt, or rather under the ribs, were nei- <lb/>ther heart nor lungs, but the
+          ſame white, <hi rend="italic">parenchy- <lb/>matous</hi> and <hi rend="italic"
+            >ædematous-like</hi> ſubſtance, which we <pb n="7"/>
+          <lb/>ſaw in the place of the head. Below this was no <lb/><hi rend="italic"
+          >diaphragm</hi>, at leaſt no diſtinct one. In the belly, <lb/>which extended itſelf juſt
+          under the ribs, was a <lb/>bundle of inteſtines, and a little red maſs, which I
+          <lb/>called the liver, for want of a better name, becauſe <lb/>it ſeemed, that, when I
+          pulled the umbilical cord, <lb/>this ſubſtance moved, which induced me to believe
+          <lb/>that the umbilical vein entered there. </p>
+        <p rend="indent">
+          <lb/>No ſtomach, ſpleen, pancreas, or kidneys were <lb/>ſeen. </p>
+        <p rend="indent">
+          <lb/>The inteſtinal maſs was divided into two portions. <lb/>The firſt was of a reddiſh
+          colour, which terminated <lb/>upwards in a blind pouch, and below joined the other
+          <lb/>portion, as the <hi rend="italic">ileum</hi> does where it unites with the <lb/><hi
+            rend="italic">colon</hi> and <hi rend="italic">cæcum</hi>. This ſecond portion was
+          white, <lb/>and ſeemed to include the large inteſtines. The <lb/><hi rend="italic"
+            >cæcum</hi> was very long, or rather the <hi rend="italic">cæcum</hi> and its <lb/><hi
+            rend="italic">appendix vermi-formis</hi> were of the ſame ſize. </p>
+        <p rend="indent">
+          <lb/>Thus, there was neither <hi rend="italic">jejunum</hi>, or <hi rend="italic"
+            >duodenum</hi>, <lb/>or ſtomach, or any liver properly ſpeaking: for that, <lb/>which I
+          found in the place of it, was a red <hi rend="italic">viſcus</hi>, <lb/>and of the <hi
+            rend="italic">conglomerate</hi> kind, like the kidney in a <lb/>fœtus. Having cleared it
+          from all its adheſions, I <lb/>diſcovered neither veſſels analogous to thoſe of the
+            <lb/><hi rend="italic">ſinus</hi> of the <hi rend="italic">vena portæ</hi>, or any thing
+          that reſembled <lb/>the figure of the liver, or of any of its
+            appurtenances<unclear>:</unclear>
+          <lb/>I opened it, and was more and more convinced that <lb/>it was rather a kidney, or
+          knot of renal glands, than <lb/>a liver, although it was one maſs, and placed in the
+          <lb/>midſt of the inteſtines; it had ſtill leſs the reſemblance <lb/>of a heart, having no
+          cavity, no veſſels, or any muſ- <lb/>cular fibres. </p>
+        <pb n="8"/>
+        <p rend="indent">
+          <lb/>The extremity of the <hi rend="italic">colon</hi>, or the <hi rend="italic"
+            >rectum</hi>, paſſed <lb/>betwixt the bladder and the <hi rend="italic">uterus</hi> as
+          uſual. I diſ- <lb/>ſected all theſe parts, and traced the bladder up to <lb/>the umbilical
+          cord, where it lengthened into a pipe, <lb/>and formed an open <hi rend="italic"
+            >urachus</hi>. It had not the pyri- <lb/>form ſhape of the common bladder. </p>
+        <p rend="indent">
+          <lb/>It was in making theſe diſſections of the <hi rend="italic">kidney- <lb/>liver</hi>,
+          and thoſe of the <hi rend="italic">pelvis</hi>, that I divided the <lb/>principal veſſels,
+          which I ſhall mention in the ſecond <lb/>examination. </p>
+        <p rend="indent">
+          <lb/>All theſe inteſtines, and eſpecially the <hi rend="italic">rectum</hi>, con-
+          <lb/>tained excrements of a light aſh colour, but no <lb/><hi rend="italic">meconium</hi>. </p>
+        <p rend="indent">
+          <lb/>The bladder, although lengthened and continued <lb/>by an <hi rend="italic"
+            >urachus</hi>, as high as the navel, opened in the <lb/>uſual place betwixt the <hi
+            rend="italic">nymphæ</hi>. </p>
+        <p rend="indent">
+          <lb/>The <hi rend="italic">anus</hi> was imperforate, and the <hi rend="italic"
+            >rectum</hi>, im- <lb/>mediately under the <hi rend="italic">uterus</hi>, terminated in
+          a blind <lb/>pouch, attached to ſome membranes that went to <lb/>the <hi rend="italic"
+            >anus</hi>. This pouch was quite full of that ſort <lb/>of excrement juſt now deſcribed.
+        </p>
+      </div>
+      <div>
+        <head rend="indent space">
+          <lb/>Second examination, made the next morning. </head>
+        <p rend="indent space">
+          <lb/>I had confined myſelf, in the firſt examination, to <lb/>the ſingularity of a want of
+          head, lungs, and heart, <lb/>and of the exiſtence of nerves, notwithſtanding <lb/>theſe
+          defects. In this ſecond review, the organs of <lb/>the circulation in ſuch a production,
+          which had <lb/>lived nine months, raiſed my curioſity; but it was <lb/>rather too late for
+          my intire ſatisfaction, for I had <lb/>not taken care enough to preſerve the internal
+          parts, <lb/>imagining before-hand that they reſembled thoſe <pb n="9"/>
+          <lb/>of two headleſs twins, in my poſſeſſion, whoſe in- <lb/>ſide was intirely ſimilar to
+          that of other fœtuſes. <lb/>I diſcovered, notwithſtanding, the following things, <lb/>and
+          I have repreſented the moſt eſſential in a rough <lb/>ſketch ſeen in figure 3. </p>
+        <figure>
+          <head rend="sc align-center space">
+            <lb/>Figure 3. </head>
+          <p rend="hanging space">
+            <lb/>A. Is the region of the breaſt, whoſe internal ſur- <lb/>face was lined with a
+            membrane, which I took <lb/>to be a <hi rend="italic">diaphragm</hi> thruſt back and
+            ſtuck to the <lb/><hi rend="italic">pleura</hi>, becauſe it aroſe from lumbar muſcular
+            <lb/>portions reſembling the pillars of the <hi rend="italic">dia- <lb/>phragm</hi>. </p>
+          <p rend="indent space">
+            <lb/>Under this ſpecies of midriff was a very regular <lb/>diſtribution of arteries and
+            nerves, which I neglected <lb/>to delineate, as thinking it uſeleſs; I contented my-
+            <lb/>ſelf with diſſecting the <hi rend="italic">aorta</hi> F. of which the upper
+            <lb/>ramifications were as uſual. </p>
+          <p rend="space">
+            <list rend="hanging">
+              <item>
+                <lb/>B. is the lumbar region. </item>
+              <item>
+                <lb/>C. Thoſe of the <hi rend="italic">oſſa ilia</hi>, and of the <hi rend="italic"
+                  >pelvis</hi>. </item>
+              <item>
+                <lb/>D. The <hi rend="italic">umbilical</hi> cord paſſing through an opening
+                <lb/>acroſs the teguments of the lower belly, to be <lb/>brought into view. </item>
+              <item>
+                <lb/>E. The inteſtines. </item>
+              <item>
+                <lb/>F. The <hi rend="italic">aorta ſuperior</hi> before-mentioned. </item>
+              <item>
+                <lb/>G. H. The integuments of all the right ſide, opened <lb/>on the back, to
+                preſerve it whole, and alſo thoſe <lb/>of the belly; they are thruſt to the right
+                ſide <lb/>to give a view within. </item>
+              <pb n="10"/>
+              <item>
+                <lb/><hi rend="italic">a.</hi> A kind of ſingle kidney, which occupied the place
+                <lb/>of the liver. The principal part is covered by <lb/>the inteſtines. It received
+                ſeveral ſmall veſſels <lb/>from the <hi rend="italic">aorta</hi>, but none of them
+                was near ſo <lb/>large as the <hi rend="italic">emulgent</hi>. </item>
+              <item>
+                <lb/><hi rend="italic">b.</hi> A ſmall lobe, that might paſs either for a ſmall
+                <lb/>lobe of the liver, or for a <hi rend="italic">capſula renalis</hi>. </item>
+              <item>
+                <lb/><hi rend="italic">d.</hi> An orifice of a vein, which was alſo ramified,
+                <lb/>through the <hi rend="italic">kidney-liver</hi>, by branches as fine as
+                <lb/>thoſe it received from the <hi rend="italic">aorta</hi>. But this <lb/>vein did
+                not terminate there. </item>
+            </list>
+          </p>
+          <p rend="indent space">
+            <lb/>1. It ſent, upwards, branches to the muſcles, to <lb/>the <hi rend="italic"
+              >vertebræ</hi>, and thence to the ribs; for, by blow- <lb/>ing into the trunk, the air
+            came out at the origin of <lb/>the uppermoſt rib I had diſſected. </p>
+          <p rend="indent">
+            <lb/>2. Below, it formed two large <hi rend="italic">iliac</hi> veins, <hi rend="italic"
+              >g.</hi>
+            <lb/>which took the uſual courſe. </p>
+          <p rend="space">
+            <list rend="hanging">
+              <item>
+                <lb/><hi rend="italic">e.</hi> The trunk cut, belonging to the <hi rend="italic"
+                  >aorta inferior</hi>, of <lb/>the length of a line. </item>
+              <item>
+                <lb/><hi rend="italic">f.</hi> The diſtribution of the reſt of this <hi
+                  rend="italic">aorta</hi>, or right <lb/><hi rend="italic">iliac</hi>, through that
+                ſide of the <hi rend="italic">pelvis</hi>. </item>
+              <item>
+                <lb/><hi rend="italic">g.</hi> The <hi rend="italic">iliac</hi> veins going off to
+                right and left, as <lb/>uſual. </item>
+              <item>
+                <lb/><hi rend="italic">h.</hi> The orifice of the <hi rend="italic">umbilical</hi>
+                vein, being ſo exactly <lb/>of the ſame diameter, of the ſame white colour <lb/>and
+                ſtrength, and of the ſame conſiſtence with <lb/>the divided trunk, <hi rend="italic"
+                  >e.</hi> that at firſt ſight, I took <lb/>this for the ſame veſſel. The trunk, <hi
+                  rend="italic">d.</hi> was <lb/>much thinner, and of a more bluiſh tint. </item>
+            </list>
+          </p>
+          <figDesc>An illustration of a part of the foetus cut open, showing the organs inside, on a
+            separate fold-out page. </figDesc>
+        </figure>
+        <pb n="11"/>
+        <p rend="indent">
+          <lb/>Under the <hi rend="italic">umbilical</hi> vein, <hi rend="italic">h.</hi> was the
+            <hi rend="italic">umbilical</hi> ar- <lb/>tery on each ſide, which went as uſual into
+          the <lb/><hi rend="italic">pelvis</hi>, and there ſent off the ordinary ramifications. </p>
+        <p rend="indent">
+          <lb/>On the right ſide, its <hi rend="italic">anaſtomoſis</hi> with the <hi rend="italic"
+            >iliac</hi>
+          <lb/>artery was very diſcernible; but on the left we could <lb/>not diſcover the <hi
+            rend="italic">iliac</hi>, a veſſel which is pretty conſi- <lb/>derable, even in the
+          fœtus, and was ſo on the other <lb/>ſide, as ſeen at letter I. </p>
+        <p rend="indent">
+          <lb/>On the left ſide, the <hi rend="italic">umbilical</hi> artery, at its origin, <lb/>or
+          its inflection, had a kind of web of arteries ſubdi- <lb/>vided, ſome of which, doubtleſs,
+          communicated <lb/>with the <hi rend="italic">aorta</hi>, or right <hi rend="italic"
+            >iliac</hi>; but neither of theſe <lb/>branches appeared to be near the ſize of the
+          right <lb/><hi rend="italic">iliac</hi>, nor could we find any thing any-wiſe like to
+          <lb/>the trunk, <hi rend="italic">e.</hi> which I long ſuſpected to be the trunk <lb/>of
+          the right <hi rend="italic">iliac</hi>. </p>
+        <p rend="indent">
+          <lb/>What veſſels then are theſe trunks, <hi rend="italic">d. e. ?</hi> Which <lb/>of the
+          two is the continuation of the <hi rend="italic">umbilical, h. ?</hi>
+          <lb/>This is a very important point, but not eaſily deter- <lb/>mined. It would not have
+          proved ſo, if I had in- <lb/>jected the <hi rend="italic">umbilical</hi> vein, as I
+          generally do in all my <lb/>monſters; or if I had taken more care of the parts <lb/>about
+          the <hi rend="italic">kidney-liver</hi>, which I certainly ſhould have <lb/>done, had I
+          but ſuſpected ſo many ſingularities. </p>
+        <p rend="indent">
+          <lb/>I ſaid, that at firſt ſight, I took the trunk, <hi rend="italic">e.</hi> to
+          <lb/>belong to the <hi rend="italic">umbilical</hi> vein, and it is ſtill an opinion,
+          <lb/>to which I am inclined, for the following reaſons. </p>
+        <p rend="indent space">
+          <lb/>1. At this part, <hi rend="italic">e.</hi> the <hi rend="italic">aorta</hi> had its
+          greateſt cir- <lb/>cumference; and, in tracing it from this trunk, above <lb/>as well as
+          below, it grew leſs and leſs. This was, <lb/>therefore, its trunk, or origin, and could
+          not be a <lb/>branch of it. </p>
+        <pb n="12"/>
+        <p rend="indent">
+          <lb/>2. I have already ſaid, that the mouths, <hi rend="italic">h.</hi> of the <lb/><hi
+            rend="italic">umbilical</hi> vein, and, <hi rend="italic">e.</hi> of the <hi
+            rend="italic">aorta inferior</hi>, were <lb/>exactly of the ſame diameter, of the ſame
+          white <lb/>color, and of the ſame ſtrength; and that the other <lb/>veſſel, <hi
+            rend="italic">d.</hi> was much weaker, of a laxer texture, and of <lb/>a ſomewhat livid
+          color, like the coats of the veins. </p>
+        <p rend="indent">
+          <lb/>3. The <hi rend="italic">umbilical</hi> vein is, with reſpect to the mo- <lb/>ther,
+          or to the <hi rend="italic">placenta</hi>, which tranſmits the blood <lb/>to the fœtus, a
+          real artery, going from the center to <lb/>the circumference, or from the principal body,
+          which <lb/>is the mother, to an adjoining organ, which is the <lb/>child; and the <hi
+            rend="italic">umbilical</hi> arteries are properly veins, <lb/>which return the blood
+          from that adjoining body to <lb/>the common center of the grand circulation. The
+          <lb/>blood from the <hi rend="italic">umbilical</hi> vein then is truly an arterial
+          <lb/>blood to the fœtus. In the uſual ſtructure of the <lb/><hi rend="italic">embryo</hi>,
+          nature has ſhortened all the ways, to bring <lb/>the arterial blood of the mother more
+          ſpeedily into <lb/>the heart, into the very <hi rend="italic">aorta inferior</hi> of her
+          fœtus. <lb/>Therefore, in a ſubject, where there is no heart, or <lb/>even liver, that
+          vein ought to communicate imme- <lb/>diately with the <hi rend="italic">aorta
+            inferior</hi>. In this manner one <lb/>conceives how this ſubject could do without a
+          heart, <lb/>the <hi rend="italic">umbilical</hi> blood being a continuation of that from
+          <lb/>the arteries of the <hi rend="italic">placenta</hi>, the <hi rend="italic"
+            >uterus</hi>, and in ſhort <lb/>of the mother; the impulſion of the maternal blood
+          <lb/>was propagated by that <hi rend="italic">aorta</hi> through all its ramifica-
+          <lb/>tions both above and below. In one word, the heart <lb/>of the mother ſupplied that
+          of the fœtus, and the <lb/>circulation in this was a continuation of that of the
+          <lb/>mother. Theſe are the reaſons inclining me towards <lb/>that firſt opinion; and here
+          are thoſe that ſuſpended <lb/>my judgment for ſome time in favor of the ſuppoſition <pb
+            n="13"/>
+          <lb/>of a communication of the <hi rend="italic">umbilical</hi> vein with the <lb/>trunk,
+            <hi rend="italic">d.</hi> of the <hi rend="italic">vena cava</hi> of the fœtus. </p>
+        <p rend="indent space">
+          <lb/>1. In every fœtus the <hi rend="italic">umbilical</hi> vein empties itſelf <lb/>into
+          the <hi rend="italic">vena-cava</hi> in the liver; therefore nature hath <lb/>here
+          followed her uſual courſe. </p>
+        <p rend="indent">
+          <lb/>2. With regard to the arterial trunk, <hi rend="italic">e.</hi> it is cloſe <lb/>by
+          the diviſion, <hi rend="italic">g.</hi> of the <hi rend="italic">Iliac</hi> vein, whence
+          it is <lb/>very likely that it was the left <hi rend="italic">iliac</hi> vein which was
+          <lb/>divided. </p>
+        <p rend="indent space">
+          <lb/>This laſt, and above all ſtriking reaſon, made me <lb/>employ almoſt a whole morning,
+          in looking over and <lb/>over this left <hi rend="italic">iliac</hi> region, to diſcover
+          the divided <lb/>veſſel, which would have put the whole matter out <lb/>of diſpute; but I
+          could find no trace or appearance <lb/>of it. All the veſſels communicating with the left
+            <lb/><hi rend="italic">umbilical</hi> vein appeared very intire, though deprived <lb/>of
+          part of their ramifications by which the air <lb/>eſcaped, but all grew in their courſe
+          leſs and leſs in <lb/>diameter. Which then was the origin of this <lb/>left <hi
+            rend="italic">umbilical</hi> artery? <choice>
+            <corr>doubtleſs</corr>
+            <sic>doutleſs</sic>
+          </choice> the branches of the <lb/>trunk, <hi rend="italic">f.</hi> of the <hi
+            rend="italic">aorta</hi>, which were numberleſs in <lb/>the <hi rend="italic"
+            >pelvis</hi>, but had partly been ſpoiled the preceeding <lb/>night, in diſſecting the
+            <hi rend="italic">rectum</hi>, <hi rend="italic">uterus</hi>, and blad- <lb/>der of this
+          monſter. I add, that this trunk, <hi rend="italic">e.</hi> was <lb/>joined to ſome
+          membranes, which we were obliged <lb/>to pull about, in order to make it turn to the left,
+          and <lb/>this direction appeared not to be its natural poſition. </p>
+        <p rend="indent">
+          <lb/>Be it granted, for a moment, that, <hi rend="italic">e.</hi> is the left <lb/><hi
+            rend="italic">iliac</hi>, and that the <hi rend="italic">umbilical</hi> vein joins it
+          at, <hi rend="italic">d.</hi> ; how <lb/>could the blood circulate in this fœtus? How
+          could <lb/>it have lived the nine months? <hi rend="italic">d.</hi> is evidently a
+          <lb/>trunk of the <hi rend="italic">cava</hi>, which generally enters the right
+          <lb/>auricle of the heart, dividing, like this, into the <pb n="14"/>
+          <lb/><hi rend="italic">cava ſuperior, d. b.</hi> which riſes by the <hi rend="italic"
+            >vertebræ</hi> up <lb/>to F. and into the <hi rend="italic">cava inferior, d. g.</hi> 1.
+          It would <lb/>be abſurd to place the only moving power of circu- <lb/>lation in the <hi
+            rend="italic">vena cava</hi>, or indeed in any vein. <lb/>2. When you have placed it
+          there, what will this <lb/>ſuppoſition tend to? 3. This vein ſubdivides, and <lb/>ramifies
+          itſelf through the <hi rend="italic">kidney-liver</hi>, the muſcles <lb/>and the ſpine;
+          but none of its branches communi- <lb/>cates with the <hi rend="italic">aorta</hi>. The
+            <hi rend="italic">aorta</hi> on its part ſends <lb/>ſeveral branches into the <hi
+            rend="italic">kidney-liver</hi>, very ſlender, <lb/>and reſembling, by their tranſverſal
+          direction, the <lb/>common emulgents, but very different in ſize. If then <lb/>the
+          circulating force were placed at <hi rend="italic">d.</hi> it could only <lb/>produce an
+          inverſe circulation, by the communica- <lb/>tion the <hi rend="italic">cava</hi> might
+          have by its capillary branches, <lb/>with the like ramifications of the <hi rend="italic"
+            >aorta</hi>, which ſup- <lb/>poſition ſeems too much againſt nature to counterba-
+          <lb/>lance the other opinion, which makes the trunk <hi rend="italic">e.</hi>
+          <lb/>of the <hi rend="italic">aorta</hi>, a portion of the <hi rend="italic"
+            >umbilical</hi> vein, and <lb/>the ſubſtitute of the heart. </p>
+        <p rend="indent">
+          <lb/>Another anatomical fact proves this laſt opinion; <lb/>which is, that the <hi
+            rend="italic">aorta</hi>, and eſpecially the ſuperior, <lb/>F. ran up as high as the <hi
+            rend="italic">cranium</hi>, and was of a <lb/>pretty conſiderable ſize, while the venal
+          trunk, <hi rend="italic">d.</hi>
+          <lb/>had nothing but capillary branches in the upper parts; <lb/>ſo that it almoſt
+          appeared evident that the veſſel, <hi rend="italic">e.</hi> F. <lb/>was connected with the
+          chief mover of the fluids. <lb/>Wherefore, ſuppoſing the trunk, <hi rend="italic">d.</hi>
+          to be the <hi rend="italic">vena <lb/>porta</hi>, or an imperfect <hi rend="italic"
+            >cava</hi> going to ſome of the <lb/><hi rend="italic">viſcera</hi>, being the rudiments
+          of an imperfect heart, or <lb/>a <hi rend="italic">vena-cava</hi> ending in a pouch, as
+          the inteſtines did <lb/>which ſhould have entered the ſtomach, if there had <lb/>been one;
+          the difficulty almoſt diſappears. I ſay almoſt, <lb/>becauſe, even on this ſuppoſition, if
+          there was a circula- <pb n="15"/>
+          <lb/>tion in this monſter; we muſt admit ſome <hi rend="italic">anaſtomoſes</hi>,
+          <lb/>between the arterial and venal ſyſtem, which ſupplied <lb/>thoſe found in other
+          fœtuſes; ſince the venal blood <lb/>muſt in ſome place or other re-enter the arterial
+          <lb/>torrent. Such might be the <hi rend="italic">anaſtomoſis</hi>, K. fig. 4. </p>
+        <figure>
+          <p rend="indent">
+            <lb/>For, by this hypotheſis, the vaſcular ſyſtem of <lb/>this ſubject would be
+            repreſented by fig. 4. in the <lb/>following manner. </p>
+          <p rend="space">
+            <list>
+              <item>
+                <lb/>A. The <hi rend="italic">umbilical</hi> cord. </item>
+              <item>
+                <lb/>B. The inteſtinal tube. </item>
+              <item>
+                <lb/>D. The kidney-liver. </item>
+              <item>
+                <lb/>E. A ſort of <hi rend="italic">glandula renalis</hi>. </item>
+            </list>
+          </p>
+          <p rend="space">
+            <list rend="hanging">
+              <item>
+                <lb/><hi rend="italic">a.</hi> The <hi rend="italic">umbilical</hi> vein; the great
+                mover of the <lb/>fluids. </item>
+              <item>
+                <lb/><hi rend="italic">b.</hi> The <hi rend="italic">aorta</hi>, a continuation of
+                that vein. </item>
+              <item>
+                <lb/><hi rend="italic">c. d.</hi>
+                <hi rend="italic">aorta ſuperior</hi>, accompanied by the <hi rend="italic">vena-
+                  <lb/>cava</hi>. </item>
+              <item>
+                <lb/><hi rend="italic">e.</hi>
+                <hi rend="italic">Aorta inferior</hi>. </item>
+              <item>
+                <lb/><hi rend="italic">f.</hi> The diſtribution of the <hi rend="italic">iliac</hi>. </item>
+              <item>
+                <lb/><hi rend="italic">g.</hi> The <hi rend="italic">umbilical</hi> arteries, making
+                a part of the <lb/>diſtribution. </item>
+              <item>
+                <lb/><hi rend="italic">h.</hi> The trunk of the <hi rend="italic">vena-cavæ</hi>
+                coming either from <lb/>the <hi rend="italic">portæ</hi>, or from the <hi
+                  rend="italic">viſcus</hi> D, or forming <lb/>a blind pouch in that part. Some
+                traces of the <lb/><hi rend="italic">vena-cava ſuperior</hi> appear towards C.
+              </item>
+            </list>
+          </p>
+          <p rend="space">
+            <list rend="hanging">
+              <item>I. The <hi rend="italic">cava inferior</hi> going to form the <hi rend="italic"
+                  >iliacs</hi>. </item>
+              <item>
+                <lb/>K. A neceſſary <hi rend="italic">anaſtomoſis</hi> between the two kinds <lb/>of
+                veſſels, arteries, and veins. I place it in <lb/>this conſpicuous ſituation, though
+                it might have <lb/>been any where elſe. </item>
+            </list>
+          </p>
+          <figDesc>An illustration of the vascular system on a separate fold-out page. </figDesc>
+        </figure>
+        <pb n="16"/>
+        <p rend="indent">
+          <lb/>I repeat it again, if I had but ſuſpected ſo many <lb/>ſingularities, what I now can
+          give only by way <lb/>of conjecture, might have become demonſtra- <lb/>ble in fact. It is
+          ſcarce probable that I ſhall ever <lb/>have ſuch another opportunity; but it is more ſo,
+          <lb/>that it may offer to ſome one among the great num- <lb/>ber of the literati in
+          Europe, who read the Philo- <lb/>ſophical Tranſactions. This was the principal mo-
+          <lb/>tive that determined me to preſent this obſervation, <lb/>though imperfect, to the
+          Royal Society. Why <lb/>ſhould we heſitate to make a publick acknowledge- <lb/>ment of our
+          faults, when our brethren may profit by, <lb/>and amend, them? </p>
+        <p rend="indent">
+          <lb/>Another motive, which engaged me to offer this <lb/>obſervation, ſuch as it is, was,
+          that even the im- <lb/>perfection of it does not affect the uſeful conſe- <lb/>quences
+          deducible from it: for, whatſoever may <lb/>have been the diſpoſition of the blood-veſſels
+          of this <lb/>monſter, it is a fact abſolutely certain, that it had no <lb/>heart, nor any
+          other <hi rend="italic">viſcus</hi> in the place of it; and that <lb/>the circulation of
+          the fluids, which appears to have <lb/>taken place from the exiſtence of the principal ar-
+          <lb/>teries and veins, could not have had any other moving <lb/>power than the circulation
+          of the mother itſelf. Hence <lb/>this child, monſtrous as it is, demonſtrates the cir-
+          <lb/>culation of the blood from the mother to the fœtus, <lb/>and from the fœtus to the
+          mother again; which <lb/>ſome moderns deny, and others endeavour, at leaſt, <lb/>to render
+          doubtful. I preſented to the Academy at <lb/>Rouen ſome years ago, ſeveral obſervations
+          which fa- <lb/>voured the antient ſyſtem; the preſent comes to their <lb/>ſupport, to give
+          this excellent hypotheſis of Harvey <lb/>all the credit it deſerves. </p>
+        <pb n="17"/>
+        <p rend="indent">
+          <lb/>The child I ſpeak of had no mouth, <hi rend="italic">æſophagus</hi>, <lb/>nor
+          ſtomach, thus it could not, by that uſual paſſage, <lb/>be nouriſhed from the waters that
+          ſurrounded it; <lb/>it could not abſorb from the ſurrounding fluid where- <lb/>with to
+          fill its veſſels, and ſupply its growth. It, <lb/>therefore, follows that it received both
+          its arterial <lb/>and alimentary fluids from the mother by the <hi rend="italic">umbi-
+            <lb/>lical</hi> cord, and that it owed every thing to that cir- <lb/>culation, which
+          ſome would attempt to annihilate. </p>
+        <p rend="indent">
+          <lb/>In the inteſtines of new-born children we find a <lb/>black excrement, called <hi
+            rend="italic">meconium</hi>; this black pulp can <lb/>receive its color only from a bile
+          thickened by re- <lb/>tention, and poured directly from the <hi rend="italic">ductus cho-
+            <lb/>ledochus</hi> into the <hi rend="italic">duodenum</hi>. Now this fœtus, having
+          <lb/>no liver, nor gall-bladder, &amp;c. could have no <hi rend="italic">meco-
+            <lb/>nium</hi>; therefore the pulp found in the inteſtines was <lb/>of an aſh-colour. </p>
+        <p rend="indent">
+          <lb/>This monſter had ſo little brain, that that <hi rend="italic">viſcus</hi>
+          <lb/>muſt have been of ſmall import towards the functions <lb/>of this animal. And yet all
+          theſe brainleſs fœtuſes <lb/>are very lively. Mr. Denis, who, in his twelfth
+          <lb/>conference, has given an account of one of them, <lb/>and M. Vaiſſiere, who ſent me
+          one from Toulouze, <lb/>the laſt year, both remark, <q rend="diple quotes">that theſe
+            children <lb/>are remarkably lively in the mother's belly; <lb/>that they were in
+            violent motion, at the time <lb/>of labor; that the moment they were in the <lb/>world
+            they ſeemed ſuffocated, and became all at <lb/>once motionleſs. </q> This is a matter
+          worthy of <lb/>much reflection. </p>
+        <p rend="indent">
+          <lb/>How can we conceive there can be ſenſation and <lb/>motion, without almoſt any brain
+          in one of theſe <lb/>monſters; and abſolutely without any in the other? </p>
+        <pb n="18"/>
+        <p rend="indent">
+          <lb/>Senſibility, ſenſations, and paſſions, may exiſt <lb/>without the brain, and have
+          their ſeat in its <hi rend="italic">meninges</hi>, <lb/>and in the coats of the nerves
+          formed by those <hi rend="italic">me- <lb/>ninges</hi>. If I had not endeavoured to prove
+          that <lb/>point in my phyſiology, and lately in my diſſertation <lb/>on the ſenſibility of
+          the <hi rend="italic">dura</hi> and <hi rend="italic">pia mater</hi>, the
+          <lb/>obſervations of children and animals born without <lb/>brain, which are pretty
+          conſiderable in number, <lb/>would demonſtrate it by facts. </p>
+        <p rend="indent">
+          <lb/>That theſe children are more lively, that is, <lb/>more ſenſible, I attribute to
+          their having little <lb/>of the nervous juice, though not leſs of the active <lb/>fluid.
+          This nervous juice I termed <hi rend="italic">fluide con- <lb/>ſervateur</hi>, the
+          preſerving fluid, in my phyſiology. <lb/>It is long ſince I have obſerved that an
+          abundance <lb/>of this nervous juice produces the contrary of vi- <lb/>vacity; and, as a
+          conſequence, of our principles, <lb/>long ſleep, or rigid continency for a length of time,
+          <lb/>renders us heavy and benummed, becauſe in each <lb/>of theſe circumſtances, this
+          nervous juice abounds <lb/>and regurgitates, if I may ſo ſpeak. </p>
+        <p rend="indent">
+          <lb/>But theſe violent motions, whence have they their <lb/>origin? there muſt be a
+          nervous juice, to act in the <lb/>muſcles, and here we have very little. </p>
+        <p rend="indent">
+          <lb/>Neither of theſe animals was deprived of the <lb/><hi rend="italic">medulla
+            ſpinalis</hi>, and one of them had a ſmall por- <lb/>tion of brain, or <hi rend="italic"
+            >cerebellum</hi>. This is one ſource of <lb/>the nervous juice, and of the active fluid,
+          neceſſary <lb/>to muſcular motion. This ſource, I grant, is <lb/>weak and poor, but I have
+          made it appear in my trea- <lb/>tiſe on this ſubject, which obtained the prize from the
+          <lb/>Academy of Berlin, that there is in the blood a <lb/>richer ſtore, which the nervous
+          fluid unites to, and <pb n="19"/>
+          <lb/>makes uſe of, in muſcular motion. We explain by <lb/>this, how it happens that an
+          aſs, who has ſo much <lb/>leſs brains than a man, is, notwithſtanding, ſo much
+          <lb/>ſtronger, becauſe it has much more blood. </p>
+        <p rend="indent">
+          <lb/>Here then is a ſecond ſpring that affords theſe mon- <lb/>ſters a conſiderable
+          ſupply; but though ſufficient for <lb/>their motions, it is not equal to that of an
+          ordinary <lb/>fœtus, and the violent agitations of their body ariſe <lb/>from their great
+          ſenſibility, which we have juſt now <lb/>accounted for. Now, the blood in the fœtus, and
+          <lb/>eſpecially in theſe, belongs to the mother; they are <lb/>furniſhed by her, as well
+          with air, as with the <lb/>nervous juice, and the animal fluid, which are eſ- <lb/>ſential
+          to her. Wherefore, as ſoon <choice>
+            <corr>as</corr>
+            <sic>a</sic>
+          </choice> theſe children <lb/>are ſeparated from the mother, and deprived of that
+          <lb/>vital ſource, all motion muſt ceaſe in them, as if <lb/>they were ſuffocated, that
+          is, as in any other ſuffo- <lb/>cated fœtus. </p>
+        <p rend="indent">
+          <lb/>Let us conclude this account by a word or two on <lb/>the cauſe of theſe monſters. </p>
+        <p rend="indent">
+          <lb/>The great quantity of waters voided by the mo- <lb/>thers of theſe children, proves
+          that the principle of <lb/>their <sic>monſtrocity</sic> is a diſeaſe, a ſort of dropſy,
+          and <lb/>even a kind of <hi rend="italic">hydrocephalus</hi>, which had run off a con-
+          <lb/>ſiderable time before the labor. </p>
+        <p rend="indent">
+          <lb/>The two <hi rend="italic">hydatides</hi> I found at the origin of the <lb/><hi
+            rend="italic">brachial</hi> nerves, and which had evidently been the <lb/>cauſe of the
+          mutilation of the upper extremities, are <lb/>examples that help us to comprehend that of
+          the other <lb/>organs. On ſuppoſing a like diſorder on the origin <lb/>of other nerves,
+          which have their riſe from the brain, <lb/>it will be obvious that the organs, to which
+          theſe <lb/>nerves run, that is, where they convey the nervous <pb n="20"/>
+          <lb/>fluid, which contain the rudiments of every <lb/>part, will be wanting. It may indeed
+          be ſaid, there <lb/>are <hi rend="italic">hydrocephali</hi> that have all the organs very
+          well <lb/>formed: but there the diſeaſe has commenced after <lb/>the perfect formation of
+          theſe parts, whereas if you <lb/>ſuppoſe it to have happened in the very time of that
+          <lb/>formation, you will ſee that the nervous juice, vitiated, <lb/>diluted, and turned
+          out of its natural courſe, can no <lb/>longer be employed in the generation of thoſe or-
+          <lb/>gans. </p>
+        <p rend="indent space">
+          <lb/>Thoſe who have attended my courſes, and have <lb/>read my phyſiology, will be pleaſed
+          to ſee that all <lb/>theſe myſteries, which one would have thought im- <lb/>penetrable,
+          are eaſily accounted for upon the princi- <lb/>ples I have laid down. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

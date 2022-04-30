@@ -1,0 +1,1317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LMEMT Corpus - Morland: A rational account of the causes of chronic diseases</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>John Morland</persName>
+            </author>
+            <title type="main">A RATIONAL ACCOUNT OF THE CAUSES OF CHRONIC DISEASES. WHEREIN A
+              NATURAL, EASY, AND SAFE WAY OF PREVENTING, AS WELL AS CURING, THOSE DISEASES, IS
+              POINTED OUT; AND THE TRUE ORIGIN OF THE HIPPOCRATIC METHOD OF PRACTICE BRIEFLY
+              EXPLAINED. THE SECOND EDITION. To which are annexed, New Strictures on the Theory of
+              Fevers, and on the Sanctorian Doctrine of Perspiration. WITH An APPENDIX on DIET and
+              EXERCISE.</title>
+            <edition n="2"/>
+            <idno type="ESTC">T93735</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/T93735"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>London: printed for S. Hooper, No. 25, Ludgate-Hill.</persName>
+              </publisher>
+              <date>1774</date>
+            </imprint>
+            <extent>
+              <measure type="format">8⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="3"/>
+              <measure type="count" commodity="body" unit="page" quantity="50"/>
+              <measure type="count" commodity="back" unit="page" quantity="7"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">British Library</orgName>
+            <idno type="ECCO">CW3306600056</idno>
+            <idno type="TCP">K075688.000</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="General treatises"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text xml:lang="eng">
+    <front>
+      <gap reason="sampling" unit="pages" quantity="2"/>
+    </front>
+    <body>
+      <div>
+        <pb xml:id="page_4"/>
+        <head rend="align-center space"><lb/><hi rend="size(2.0)">SYNOPSIS</hi>
+          <lb/>OF <lb/><hi rend="size(1.4)">THE CAUSES</hi>
+          <lb/>OF <lb/><hi rend="italic size(1.4)">CHRONIC DISEASES.</hi>
+        </head>
+        <p rend="indent"><lb/><hi rend="size(2.0)">A</hi>LL arts, whether <hi rend="italic">plaſtic,
+            mathematical, <lb/>mechanical,</hi> or <hi rend="italic">phyſical,</hi> are but the <w
+            part="I">hand-</w><lb/><w part="F">maids</w> and imitators of Nature. Moſt <w part="I"
+            >ſucceſſ-</w><lb/><w part="F">ful</w> is the practitioner who can happily trace her
+          <lb/>path, and can copy neareſt to the divine <w part="I">origi-</w><lb/><w part="F"
+            >nal</w>: Who, knowing her ways, is able to lend <lb/>a hand when ſhe is obſtructed; or
+          can render <lb/>her propitious by gentle and well timed <w part="I">invita-</w><lb/><w
+            part="F">tions</w>. In the healing art particularly, it was<lb/> obſerved two thouſand
+          years ago by <hi rend="italic">Hippocrates,</hi>
+          <lb/>the great father of medical ſcience<note place="bottom" n="*">* <foreign
+              xml:lang="el">###Greek omitted###</foreign>. </note>, that, <hi rend="sc"><w part="I"
+              >Na-</w><lb/><w part="F">ture</w></hi>
+          <hi rend="italic">is the ſovereign curer of diſeaſes,</hi> and that <lb/><hi rend="italic"
+            >phyſicians are, or ought to be, her humble imita-<lb/>tors</hi><note place="bottom"
+            n="†">† <foreign xml:lang="el">###Greek omitted###</foreign>. </note>
+          <hi rend="italic">and ſervants</hi><note place="bottom" n="‡">‡ <foreign xml:lang="el"
+              >###Greek omitted###</foreign>. </note>. By unceaſing attendance <lb/>on the ſick,
+          invincible patience, and the moſt <lb/>vigilant obſervation of every action and motion
+          <lb/>of NATURE, that illuſtrious <hi rend="italic">Archiater</hi> acquired <lb/>a
+          wonderful knowledge of the genuine nature <lb/>of diſeaſes,—of the <foreign xml:lang="el"
+            >###Greek omitted###</foreign>, and of the <w part="I">gra-</w><lb/><w part="F"
+          >dual</w>, <pb xml:id="page_5" n="6"/><lb/>uniform, conſentient operations<note
+            place="bottom" n="*">* <foreign xml:lang="el">###Greek omitted###</foreign>. L. de
+            Aliment. </note> of that <lb/>exquiſite mechaniſm, and innate, energetic <lb/>principle
+          of ſelf preſervation, with which the <lb/>CREATOR of <hi rend="italic">man</hi> hath been
+          pleaſed to <w part="I">en-</w><lb/><w part="F">dow</w> our bodies: And, by carefully
+          comparing <lb/>the ſame ſort of diſtempers, and their various <lb/>minute motions, in
+          different patients, and all <lb/>the circumſtances [<foreign xml:lang="el">###Greek
+            omitted###</foreign>] and <lb/>accidents [<foreign xml:lang="el">###Greek
+            omitted###</foreign>] which uſually preceded and <w part="I">at-</w><lb/><w part="F"
+            >tended</w> them, he could readily foretel an <w part="I">ap-</w><lb/><w part="F"
+            >proaching</w> diſeaſe, and after its invaſion, give a <lb/>right judgment of the
+          progreſs and event of it. </p>
+        <p rend="indent"><lb/>This ſurprizing <hi rend="italic">skill</hi> of his, in foretelling
+          the <lb/>approach, ſucceſſive changes, and event, of <w part="I">diſ-</w><lb/><w part="F"
+            >caſes</w>, and <hi rend="italic">that</hi> of other ſucceeding phyſicians <lb/>who
+          carefully ſtudied and purſued his method, <lb/>procured them a kind of religious
+          veneration <lb/>among the people, who were wont to look upon <lb/>them as prophets
+          inſpired by the Gods, and <lb/>even as arbiters of life and death. </p>
+        <p rend="indent"><lb/>But as this <hi rend="italic">old method</hi> of acquiring the
+            <foreign xml:lang="el">###Greek </foreign><lb/><foreign xml:lang="el"
+            >omitted###</foreign> is extremely tedious, <lb/>crabbed, and ſevere, it has been little
+          regarded <lb/>for many ages, except by certain particular <w part="I">re-</w><lb/><w
+            part="F">tainers</w> to the <hi rend="italic">Coan</hi> ſchool; ſuch, for inſtance,
+          <lb/>as <hi rend="italic">Sydenham</hi> and his truly ingenious and <w part="I"
+            >ſingu-</w><lb/><w part="F">larly</w> modeſt tranſlator <hi rend="italic"
+            >Mapletoft</hi><note place="bottom" n="†">† From an authenticated copy of the original
+            manuſcript <lb/>(which the writer had, ſome years ago, and he believes has <lb/>ſtill,
+            in his poſſeſſion) of Doctor Sydenham's dedication of <lb/>his works to Doctor
+            Mapletoft, it appears, that this <w part="I">mo-</w><lb/><w part="F">deſt</w> tranſlator
+            hath, in his Latin verſion, ſuppreſſed many <lb/>high encomiums paid to himſelf. A
+            further inſtance of <lb/>Doctor Mapletoft's ſingular delicacy, as related, with <w
+              part="I">o-</w><lb/><w part="F">ther</w> anecdotes of him, to the author by his
+            grandſon, a <lb/>gentleman of diſtinguiſhed probity and learning, now <w part="I"
+              >liv-</w><lb/><w part="F">ing</w>, is, that after having exerciſed the profeſſion of
+              <w part="I">phy-</w><lb/><w part="F">ſic</w>, with reputation and ſucceſs, to the age
+            of forty-eight, <lb/>he then left off practice, purely on account of the <w part="I"
+              >inſupe-</w><lb/><w part="F">rable</w> ſolicitude of mind his fellow-feeling for the
+            ſick <lb/>under his care conſtantly produced. </note>, <hi rend="italic">Bagtivi,
+            <lb/>Boerbaave, Mead, Huxham,</hi> &amp;c. </p>
+        <pb xml:id="page_6" n="7"/>
+        <p rend="indent"><lb/>In later times, a much eaſier and more <w part="I">com-</w><lb/><w
+            part="F">pendious</w> way to fame and opulence has been <lb/>happily diſcovered: And we
+          can now, with <lb/>ſingular propriety, apply to the ancient practice <lb/>of <hi
+            rend="italic">obſervation,</hi> what that lucky ſon of fortune <lb/><hi rend="italic"
+            >Gnatho</hi> (in <hi rend="italic">Terence</hi>) told an honeſt, ſimple,
+          half-<lb/>ſtarved brother of his, on a ſimilar occaſion — <q><lb/><l>— "Olim iſti fuit </l>
+            <lb/><l>Generi quondam quæſtus, apud ſeclum prius —</l>
+            <lb/><l>— <hi><hi rend="sc">Hoc novum est aucupium.</hi>"</hi>
+            </l></q>
+        </p>
+        <p rend="indent"><lb/>This <hi rend="italic">Prince of Phyſicians</hi> firſt obſerved in
+          what <lb/>manner the ſymptoms in acute diſeaſes [<foreign xml:lang="el">###Greek
+            omitted###</foreign>,] <lb/><hi rend="italic">when not interrupted by art, or by any
+            external <lb/>cauſe</hi> [<foreign xml:lang="el">###Greek omitted###</foreign>]
+          ſucceeded one <w part="I">ano-</w><lb/><w part="F">ther</w>, and by what <hi rend="italic"
+            >evacuations,</hi>
+          <hi rend="sc">Nature</hi>, <hi rend="italic">when <lb/>left to herſelf,</hi> got rid of
+          thoſe diſeaſes<note place="bottom" n="*">* <foreign xml:lang="el">###Greek
+              omitted###</foreign>. </note>: And <lb/>on this ſolid baſis of <hi rend="italic"
+            >obſervation,</hi> he originally <lb/>erected that nobleſt production of human <w
+            part="I">ge-</w><lb/><w part="F">nius</w> and ſagacity, <hi rend="italic">(monumentum
+            ære perennius) <pb xml:id="page_7" n="8"/><lb/>the art of preſaging;</hi> and formed <hi
+            rend="italic">from thence</hi> a <lb/>method of curing <hi rend="italic">natural
+            diſeaſes,</hi> by means of <lb/>ſuch <hi rend="italic">artificial ones</hi> as <hi
+            rend="sc">Nature</hi>, when too <w part="I">lan-</w><lb/><w part="F">guid</w> and remiſs
+          herſelf, never failed to point <lb/>out or reveal to this her faithful miniſter. He
+          <lb/>had frequently obſerved, in the practice of his <lb/>divine miſtreſs, that a
+          ſpontaneous hæmorrhage <lb/>of blood from the noſe always mitigated, and <lb/>oftentimes
+          carried off, certain kinds of fevers, <lb/>and other violent diſorders. This ſuggeſted to
+          <lb/>him the practice of <hi rend="italic">artificial</hi> hæmorrhages by <lb/><hi
+            rend="italic">bleeding, ſcarification,</hi> &amp;c. which he likewiſe <lb/>uſed, on
+          certain occaſions, <hi rend="italic">prophylactically,</hi> or <lb/>by way of prevention:
+          For <hi rend="italic">experience</hi> had taught <lb/>this conſummate artiſt, that thoſe
+          means which <lb/>were wont to aſſuage bad ſymptoms after they <lb/>appeared, would prevent
+          their coming on, if <lb/>uſed in proper time. He had likewiſe <w part="I"
+            >obſerv-</w><lb/><w part="F">ed</w>, that <hi rend="sc">Nature</hi> frequently cured
+          certain <w part="I">diſ-</w><lb/><w part="F">eaſes</w> by ſpontaneous abſceſſes in
+          different parts <lb/>of the body. When he found <hi rend="sc">Nature</hi>
+          <w part="I">pre-</w><lb/><w part="F">vented</w> from working her own way, by ſuch <w
+            part="I">ſa-</w><lb/><w part="F">lutary</w> operations, he ſubſtituted in their room
+            <lb/><hi rend="italic">artificial</hi> abſceſſes, ſuch as <hi rend="italic">iſſues,
+            ſetons,</hi> &amp;c. </p>
+        <p rend="indent"><lb/>It became farther obvious to him, that ſome <lb/>violent diſorders
+          were carried off by a <w part="I">ſponta-</w><lb/><w part="F">neous</w> diarrhœa, or
+          vomiting; others by <w part="I">plen-</w><lb/><w part="F">tiful</w> warm ſweats, or a
+          gentle moiſture of the <lb/>skin; others again by a critical diſcharge of <lb/>urine, and
+          ſome by expectoration, &amp;c. Hence <pb xml:id="page_8" n="9"/><lb/>his practice<note
+            place="bottom" n="*">* Of his method of practice in general, compared with <lb/>our
+            modern improvements, one of the moſt accompliſhed<lb/> phyſicians [<foreign
+              xml:lang="el">###Greek omitted###</foreign>, <hi rend="italic">Phœbo ante alios
+              dilectus</hi>] now living, <lb/>ſcruples not to ſay — "Ob cultum Hippocraticæ
+            curationis<lb/>neglectum, magis quam ullam aliam cauſam, accidiſſe <w part="I"
+              >vi-</w><lb/><w part="F">detur</w>, quod licet humani corporis compages et
+            facultates<lb/>longe melius intellectæ fuerint, et morborum abditæ cauſæ <lb/>altius
+            inveſtigatæ, et medicamentorum copia plurimum <lb/>aucta, et eorum vires novis
+            experimentis exploratæ; <w part="I">nihi-</w><lb/><w part="F">lominus</w> tamen, rei
+            medicæ, in tollendis morbis acutis <w part="I">uti-</w><lb/><w part="F">litas</w> a
+            temporibus uſque Hippocratis haud increvit, ſi modo <lb/>non ſucrit imminuta." </note>,
+            <foreign xml:lang="el">###Greek omitted###</foreign>, of exciting <hi rend="italic"
+            >artificial</hi>
+          <lb/>diarrhœas by <hi rend="italic">purging medicines;—vomits; <w part="I"
+              >ſudo-</w><lb/><w part="F">rifics</w>; diaphoretics; diuretics; expectorants,</hi>
+          &amp;c. </p>
+        <p rend="indent"><lb/>That a medicine, which, conſonant to this <lb/>rational and truely
+          phyſical doctrine of <hi rend="italic">Hippo-<lb/>crates,</hi> the prime miniſter of <hi
+            rend="sc">Nature</hi>, would <lb/>conſtantly operate with equal ſafety, eaſe, and
+          <lb/>efficacy, in all, even the moſt oppoſite <w part="I">conſti-</w><lb/><w part="F"
+            >tutions</w>, and uniformly anſwer every intention <lb/>of an <hi rend="italic"
+            >univerſal evacuant,</hi> by attenuating, <w part="I">diſ-</w><lb/><w part="F"
+            >ſolving</w>, and carrying off, the viſcid concretions, <lb/>and foulneſſes, of the
+          ſtomach and inteſtines; <lb/>thereby cleanſing and deterging thoſe <w part="I"
+            >concoc-</w><lb/><w part="F">tive</w> organs, and reſtoring them to their priſtine
+          <lb/>natural action; <hi rend="italic">or,</hi> by a milder gradual opera-<lb/>tion<note
+            place="bottom" n="†">† <foreign xml:lang="el">###Greek omitted###</foreign>. </note>, in
+          proper doſes, removing obſtructions <lb/>in the remoter veſſels, and carrying off any
+          <lb/>morbid or excrementitious humours, by <w part="I">inſen-</w><lb/><w part="F"
+            >ſible</w> perſpiration<note place="bottom" n="‡">‡ <foreign xml:lang="el">###Greek
+              omitted###</foreign>. </note>, ſweat, and urine. — That <pb xml:id="page_9" n="10"
+          /><lb/>ſuch a medicine is one important <hi rend="italic">deſideratum</hi> in <lb/>phyſic,
+          the learned and judicious profeſſors of <lb/>the faculty, who have ſacrificed at the
+          ſhrine of <lb/><hi rend="sc">Nature</hi>, will readily acknowledge—That the <lb/>ſubject
+          of this diſcourſe is ſuch a medicine, the <lb/>author dares, with undeſigning confidence,
+            <w part="I">aſ-</w><lb/><w part="F">ſert</w>; after a thouſand ſucceſſful trials made of
+          <lb/>it, by himſelf, and his medical acquaintances <lb/>in different countries: Under the
+          ſanction of <lb/>which impartial experience, he can now ſafely <lb/>recommend it to the
+          public, as an <hi rend="italic">univerſal <lb/>purgative,</hi>—not as an <hi rend="italic"
+            >univerſal medicine,</hi>—nor <lb/>even as a <hi rend="italic">ſpecific one,</hi> that,
+          'by its peculiar <w part="I">ope-</w><lb/><w part="F">ration</w> on the animal fluids, can
+          transform any <lb/>morbific matter, or preternatural ferment, into <lb/>good blood and
+          humours.'—He knows none <lb/>ſuch: Nor can he, on this occaſion, forbear <lb/>expreſſing a
+          real and honeſt concern, that the <lb/><foreign xml:lang="el">###Greek
+            omitted###</foreign> — by <hi rend="italic">ſpecific remedies,</hi> is not yet <lb/><hi
+            rend="italic">wholly</hi> confined to the mountebank profeſſions <lb/>of <hi
+            rend="italic">empirics;</hi> to whom promiſes coſt nothing but <lb/>the health and lives
+          of thoſe who truſt them. <lb/>That the opinion of the <hi rend="italic">ſpecific
+            operations,</hi> or, <lb/>which is the ſame thing, the occult qualities, <lb/>of
+          medicines, in the cure of diſeaſes, continues <lb/>to be a prevailing principle in phyſic,
+          the <w part="I">pub-</w><lb/><w part="F">lications</w> of the current century, and ſhop <w
+            part="I">re-</w><lb/><w part="F">cords</w>, mutually evince: Though 'tis evident,
+          <lb/>that, agreeably to this doctrine, and method of <lb/>procedure, it will be impoſſible
+          ever to fix any <pb xml:id="page_10" n="11"/><lb/>bounds to the <hi rend="italic">materia
+            medica,</hi> (and <w part="I">conſequent-</w><lb/><w part="F">ly</w> to the ſtill
+          growing, tho' already inſupport-<lb/>able expence of phyſic) or to reduce the <hi
+            rend="italic">praxis <lb/>medica</hi> to any rational general principles; whilſt
+          <lb/>the whole vegetable, animal, and mineral <w part="I">king-</w><lb/><w part="F"
+            >doms</w> are ranſacked and tortured, in order to <lb/>find out thoſe occult qualities
+          and ſpecific <w part="I">ope-</w><lb/><w part="F">rations</w>. — Hence, ſuch is the
+          felicity of the <w part="I">pre-</w><lb/><w part="F">ſent</w> times, and ſo wonderfully is
+          the world now <lb/>enriched with ſpecifics, ſimple and compound, <lb/>(under the conjuring
+          titles of alexipharmics, <lb/>cardiacs, cephalics, neurotics, ſtomachics, &amp;c.
+          <lb/>antifebrifics, antihyſterics, antepileptics, <w part="I">antic-</w><lb/><w part="F"
+            >terics</w>, antiſcorbutics, &amp;c.) that there is not a <lb/>family in the kingdom
+          which can ſpare a few <lb/>ſhillings, but may purchaſe a <hi rend="italic"
+            >diſpenſatory,</hi>
+          <w part="I">con-</w><lb/><w part="F">taining</w> ſeveral hundreds of thoſe choice <w
+            part="I">appro-</w><lb/><w part="F">priated</w> remedies, for the cure of all diſeaſes.
+          — <lb/>Nor is it of leſs utility to the junior part of the <lb/>faculty, or ſucking
+          practitioners, [<foreign xml:lang="el">###Greek omitted###</foreign>,] as <lb/>the learned
+          Doctor <hi rend="italic">Gideon Harvey</hi> quaintly titles <lb/>them: Since, by this
+          means, they are <w part="I">accom-</w><lb/><w part="F">modated</w> with an elegant ſet of
+          extemperaneous <lb/>preſcriptions, and a competent number of thoſe <lb/>moſt approved
+          ſpecifics, recommended by the <lb/>authority and experience of the greateſt names,
+          <lb/>are always kept ready prepared in the ſhops, <lb/>ſuch as may anſwer all caſes
+            <foreign xml:lang="el">###Greek omitted###</foreign>, to <lb/>avoid the needleſs trouble
+          of making a right <lb/>judgment<note place="bottom" n="*">* <foreign xml:lang="el"
+              >###Greek omitted###</foreign>. </note> upon any caſe in particular. <pb
+            xml:id="page_11" n="12"/>
+        </p>
+        <p rend="indent"><lb/>With regard to this <hi rend="italic">ſpecific practice,</hi> (the <w
+            part="I">con-</w><lb/><w part="F">ſtant</w> political ſubterfuge of <hi rend="italic"
+            >phyſic-craft</hi>) it is <lb/>well known to every judicious experienced <w part="I"
+            >phy-</w><lb/><w part="F">ſician</w>, that the artful pretence of curing <w part="I"
+            >diſ-</w><lb/><w part="F">eaſes</w> by the occult qualities of ſpecific remedies,
+          <lb/>is now, as it always has been, the principal <lb/>ſource of all the knavery,
+          impudence, and <w part="I">ig-</w><lb/><w part="F">norance</w>, that we meet with in the
+          profeſſion. </p>
+        <p rend="indent"><lb/>Any <hi rend="italic">ſemicrude</hi> practitioner in this way, who
+          <lb/>is poſſeſſed of a tolerable ſhare of cunning and <lb/>addreſs, can never want a
+          ſpecious pretext for <lb/>making a property of his patient, almoſt as long <lb/>as he
+          pleaſes, by flattering his hopes from time <lb/>to time; tho' the patient finds himſelf
+          never <lb/>the better, but perhaps ſtill grows worſe: If <lb/>one ſpecific ſucceed not,
+          another is tried, and, <lb/>if that fails, a third, and ſo on<note place="bottom" n="*">*
+              <foreign xml:lang="el">###Greek omitted###</foreign>. </note>; as long as <lb/>the
+          poor infatuated believing ſufferer has any <lb/>money, ſtrength, or patience left. </p>
+        <p rend="indent"><lb/>Suffice it here to quote one inſtance, out of <lb/>a multitude that
+          might be produced, of this <lb/><hi rend="italic">medicina politica;</hi> and be that the
+            <hi rend="italic">ſpecific</hi>
+          <w part="I">treat-</w><lb/><w part="F">ment</w> of thoſe <hi rend="italic">chronical</hi>
+          diſorders commonly <w part="I">di-</w><lb/><w part="F">ſtinguiſhed</w> by the technical
+          epithets of <hi rend="italic">arthri-<lb/>tic, rheumatic, ſcorbutic, hyſteric,</hi> and
+            <hi rend="italic">hypocon-<lb/>driac.</hi> Several hundred volumes (without <w part="I"
+            >count-</w><lb/><w part="F">ing</w> thoſe petit eſſays<note place="bottom" n="†">†
+              <foreign xml:lang="el">###Greek omitted###</foreign>. </note> that are daily ſpewing
+          <lb/>out of the preſs) have been profeſſedly written<note place="bottom" n="‡">‡ <foreign
+              xml:lang="el">###Greek omitted###</foreign>. </note>
+          <lb/>on the cauſes, &amp;c. of theſe maladies: Though <pb xml:id="page_12" n="13"/>their
+          whole ætiology may be compriſed in a <lb/>few words.—Eaſe, indolence, intemperance,
+          <lb/>indulged pleaſure, irregular gratifications of <lb/>the natural appetites, and the
+          want of pure, <lb/>freſh air<note place="bottom" n="*">* The greateſt maſter in phyſic
+            looks upon <hi rend="italic">air</hi> as the <lb/>fountain of life and health to man;
+            and moreover aſcribes <lb/>to <hi rend="italic">it,</hi> in a great meaſure, the
+            different ſize, ſhape, <w part="I">com-</w><lb/><w part="F">plexion</w>, manners,
+            diſpoſition, government, and genius, <lb/>of different nations. For inſtance, in the
+            fertile regions <lb/>of Aſia, which approach neareſt of any, in his opinion, to <lb/>the
+            original nature and temperature of the ſeaſons. [<foreign xml:lang="el"
+              >###Greek</foreign><lb/><foreign xml:lang="el">omitted###</foreign>] moderate heat and
+            <lb/>moiſture render the men plump [<foreign xml:lang="el">###Greek
+            omitted###</foreign>], <lb/>extremely handſome, and of the largeſt ſize. <lb/>—From the
+            extraordinary mildneſs of their air and climate, <lb/>the manners of the <hi
+              rend="italic">eaſtern Aſiatics</hi> are more eaſy, gentle, <lb/>and unactive [<foreign
+              xml:lang="el">###Greek omitted###</foreign>], <lb/>than thoſe of the <hi rend="italic"
+              >northern Aſiatics</hi> and <hi rend="italic">Euro-<lb/>peans.</hi>
+            <p rend="indent"><lb/>From the ſame cauſe, their diſpoſitions are ſoft, <w part="I"
+                >coward-</w><lb/><w part="F">ly</w>, and effeminate, impatient of labour and
+              hardſhip. <lb/>Whatever, ſays he, is manly, laborious, painful, or bold <lb/>and
+              daring, [<foreign xml:lang="el">###Greek omitted###</foreign>] can find no place in
+              ſuch a <w part="I">con-</w><lb/><w part="F">ſtitution</w>; but <hi rend="italic"
+                >pleaſure</hi> is the governing principle: And <lb/>hence proceeds the great variety
+              of forms amongſt their <lb/>wild beaſts—Neither is the mind, in ſuch a conſtitution,
+              <lb/>ſubject to ſurpriſes [<foreign xml:lang="el">###Greek omitted###</foreign>],
+              <lb/>nor the body to violent changes; circumſtances that <lb/>are apt to give a
+              ſharper edge to the paſſions, and a higher<lb/>degree of underſtanding, and ſprightly
+              vigour, than where <lb/>things remain continually in the ſame ſtate: For the mind
+              <lb/>of man is always rouſed, and not ſuffered to reſt, by <w part="I">fre-</w><lb/><w
+                part="F">quent</w> and ſudden changes. Upon theſe accounts, the <lb/><hi
+                rend="italic">eaſtera Aſtatics</hi> are weak, timorous, and ſervile, eaſily <w
+                part="I">ſlid-</w><lb/><w part="F">ing</w> into monarchies: With reluctance they
+              leave their eaſe <lb/>and families, and hazard their lives for deſpotic maſters.
+              <lb/>On the other hand, in <hi rend="italic">Greece,</hi> and the <hi rend="italic"
+                >northern</hi> parts of Aſia, <lb/>where the temperature of the ſeaſons is leſs
+              mild, and <lb/>leſs uniform, the men are bold, hardy, and warlike: <lb/>Without
+              compulſion they quit their eaſe, and voluntarily <lb/>expoſe themſelves to toil and
+              danger, animated with the <lb/>hopes, and rewarded with the fruits, of conqueſt. </p>
+            <p rend="indent"><lb/>In countries abounding with certain mines, travellers <lb/>find
+              the frame and temper of their minds ſuddenly altered; <lb/>their intellectual
+              faculties more ſprightly and vigorous, <w part="I">con-</w><lb/><w part="F"
+                >ceptions</w> clearer, imagination more brisk and lively; and <lb/>on paſſing to
+              another ſoil, an univerſal relaxation, idea, <lb/>gloomy, confuſed, and indiſtinct,
+              immediately ſucceed. <lb/>Thus, conſonant to the philoſophic notions of the <hi
+                rend="sc">divine <lb/>old man</hi>, the diſcovery, and improvement, of arts and
+              <lb/>ſciences may, in ſome meaſure, depend upon the air and <lb/>climate; ſome
+              ſucceeding beſt, where a ſprightlineſs of <lb/>fancy, others, where intenſe
+              application of mind, is <w part="I">re-</w><lb/><w part="F">quired</w>. </p>
+            <p rend="indent"><lb/>In a <hi rend="italic">medicinal</hi> intention, the <hi
+                rend="italic">vivifying ſpirit</hi> of pure, <lb/>freſh air is admirable: In acute
+              diſeaſes of the <hi rend="italic">putrid</hi> and <lb/><hi rend="italic">epidemic</hi>
+              kind, millions of lives have been loſt for want <lb/>of it. </p>
+            <p rend="indent"><lb/>In a <hi rend="italic">pharmaceutic</hi> intention, air, or the
+              humid part of <lb/>it, acts as a true diſſolvent, in the ſame manner as water <lb/>in
+              its groſſer form. The cathartic and aſtringent virtues <lb/>of certain vegetables
+              neither volatile nor exhalable by heat, <lb/>but of the fixed kind and diſſoluble by
+                <hi rend="italic">menſtrua</hi> alone, <lb/>have been obſerved to be diffuſed
+              through the air. Hence it <lb/>appears, that the atmoſphere may be impregnated with
+              all <lb/>the medicinal powers of vegetables which <hi rend="italic">aqueous
+                menſtrua</hi>
+              <lb/>are capable of extracting. And upon this account it is, <lb/>that, in ſtanding,
+              walking, or ſleeping, under ſeveral <lb/>kind of trees, people have found themſelves
+              variouſly <w part="I">af-</w><lb/><w part="F">fected</w>. </p>
+            <p rend="indent"><lb/>The peculiar medicinal powers of certain vegetables <hi
+                rend="italic">ex-<lb/>halable by heat,</hi> are, by the bye, equally remarkable and
+              <lb/>curious. In obſtinate watchings, and deliriums, the <w part="I">au-</w><lb/><w
+                part="F">thor</w> has, by the ſteams of one of this kind, procured eaſe, <lb/>reſt,
+              and ſleep, after all the uſual internal ſedative <w part="I">medi-</w><lb/><w part="F"
+                >cines</w> had been tried in vain. </p>
+            <p rend="indent"><lb/>In acute diſeaſes of the malignant kind, where ſweating <lb/>was
+              indicated, but could not be procured by any internal <lb/>means, the effluvia of a
+              vegetable, applied in a certain <lb/>manner to the external ſurface of the body, have
+              proved an <lb/>efficacious ſudorific. </p>
+            <p rend="indent"><lb/>From a variety of ſimilar experiments, and certain <w part="I"
+                >ob-</w><lb/><w part="F">ſervations</w> on the œconomy of Nature, reſpecting
+              cuticular<lb/>inhalations, a phyſiological conjecture is drawn, namely, <lb/>that the
+              human body is endued with ſome ſecret energetic <lb/>power of attracting ſuch ſalutary
+              particles as it may be in <lb/>immediate need of, from ſurrounding bodies which
+              contain <lb/>them.—Hence, old perſons, and thoſe whom long and <w part="I"
+                >te-</w><lb/><w part="F">dious</w> indiſpoſitions had brought to the laſt ſtage of
+              life, <lb/>have, by the effluvia of young, ſound, and healthy <w part="I"
+                >ani-</w><lb/><w part="F">mals</w>, been ſurprizingly recruited, ſtrengthened, and
+                <w part="I">invi-</w><lb/><w part="F">gorated</w>. </p>
+            <p rend="indent"><lb/>In Perſia, Arabia, and other eaſtern countries, at <w part="I"
+                >cer-</w><lb/><w part="F">tain</w> ſeaſons of the year, the people are obliged, by
+              the <w part="I">ex-</w><lb/><w part="F">ceſſive</w> heat of the weather, to lie down
+              at night to ſleep, <lb/>on the tops of their houſes, in balconies, turrets, &amp;c. <w
+                part="I">ex-</w><lb/><w part="F">poſed</w> to the open air, and dews, which are ſo
+              copious, <lb/>notwithſtanding the exceſſive heat, during the time of ſleep, <lb/>that
+              the body is cooled, preſerved from thirſt, and <w part="I">refreſh-</w><lb/><w
+                part="F">ed</w> by its abſorbent power of attracting or inhaling the <lb/>dews;
+              provided there be any perceivable ſaltneſs in the <lb/>taſte of thoſe dews: On the
+              contrary, if the dews have not <lb/>a ſaline taſte, it is then found dangerous to
+              ſleep in the <lb/>open air, and frequently attended with pernicious, and
+              <lb/>ſometimes fatal conſequences. </p>
+          </note>, and habitual exerciſe, are the <pb xml:id="page_13" n="14"/><lb/>genuine original
+          cauſes of theſe diſorders amongſt <lb/>us; and, in ſhort, of all our national <w part="I"
+            >conſtitu-</w><pb xml:id="page_14" n="15"/><lb/><w part="F">tional</w> complaints—of our
+          growing weakneſſes, <lb/>increaſing ſcurvies, multiplying rheumatiſms, <pb
+            xml:id="page_15" n="16"/><lb/>univerſal wandering gouts, and the moſt <w part="I"
+            >obſti-</w><lb/><w part="F">nate</w> chronic and hereditary diſeaſes fixing and
+          <lb/>radicating themſelves ſtill more and more in <lb/>our natural habits and
+          conſtitutions.—Hence <lb/>it is, that the natural evacuations become <w part="I"
+            >ob-</w><lb/><w part="F">ſtructed</w> and diminiſhed; the ſecreted humours <lb/>are
+          thickened, and rendered viſcous, adheſive, <lb/>and clammy; the ſolids, eſpecially the
+          nervous <lb/>ſyſtem, weakened and relaxed; the fluids <w part="I">ne-</w><lb/><w part="F"
+            >ceſſarily</w> contract ill qualities; and an acrid, <w part="I">ſa-</w><lb/><w part="F"
+            >line</w>, corroſive ſerum is produced: This ſerum, <lb/>wherever it is thrown, or
+          happens to be <w part="I">depo-</w><lb/><w part="F">ſited</w>, lacerates or erodes and
+          ulcerates the <w part="I">ſo-</w><lb/><w part="F">lids</w>, and occaſions<note
+            place="bottom" n="*">* per <foreign xml:lang="el">###Greek omitted###</foreign>. </note>
+          all the ſymptoms of a true <lb/>and genuine <hi rend="italic">land ſcurvy.</hi> And this
+          name of <lb/>ſcurvy it commonly receives, and is <w part="I">diſtinguiſh-</w><lb/><w
+            part="F">ed</w> by, as often as it proves effluent<note place="bottom" n="†">† <foreign
+              xml:lang="el">###Greek omitted###</foreign>. </note>, in <w part="I">pim-</w><lb/><w
+            part="F">ples</w>, blotches, ſcaly leprous ſcurf, ſcabs, <w part="I">tet-</w><lb/><w
+            part="F">ters</w>, and other ſuch eruptions on the skin: But <pb xml:id="page_16" n="17"
+          /><lb/>when it happens to prove influent<note place="bottom" n="*">* <foreign
+              xml:lang="el">###Greek omitted###</foreign>. </note>, and is <lb/>thrown upon the
+          ſtomach, bowels, lungs, liver, <lb/>ſpleen, meſentery, kidneys, bladder, womb, <lb/>or any
+          internal part, it ſometimes paſſes under <lb/>the more polite appellation of nervous or <w
+            part="I">ſpaſ-</w><lb/><w part="F">modic</w> complaints; but chiefly under the <w
+            part="I">tech-</w><lb/><w part="F">nical</w> names of febricula, cholic, cachexy, <w
+            part="I">dy-</w><lb/><w part="F">ſentery</w>, dropſy, aſthma, atrophy, jaundice,
+          <lb/>diabetes, dyſury, gonorrhæa, fluor albus, or <lb/>white flux: A complaint, <hi
+            rend="italic">this laſt,</hi> the moſt <lb/>diſagreeable of all others to the natural
+          delicacy <lb/>of the ſex, and, on account of its increaſing <lb/>prevalency, the moſt
+          alarming in a national <lb/>light; as being the greateſt, however generally <lb/>unheeded,
+          enemy to conception, and, in its <lb/>conſequences, more fatal to population than <lb/>the
+          ſword itſelf.—From the ſame ſeroſe or <w part="I">ſcor-</w><lb/><w part="F">butic</w>
+          cacochymy, in like manner originate<note place="bottom" n="†">† <foreign xml:lang="el"
+              >###Greek omitted###</foreign>. </note>, <lb/>in different conſtitutions, the cancer;
+          St. <w part="I">An-</w><lb/><w part="F">thony's</w> fire; gout; ſciatica; rheumatiſm;
+          <lb/>palſy, &amp;c. </p>
+        <p rend="indent"><lb/>Now, the orthodox medical proceſſes, and <lb/>formulæ, of our ſpecific
+          practitioners, in thoſe, <lb/>commonly denominated, arthritic, ſcorbutic, <lb/>hyſteric,
+          and hypocondriac diſorders, conſiſt <lb/>chiefly of hot vegetable aromatics, bitters, and
+          <lb/>aſtringents, infuſed in ſtrong wines or ſpirits; <lb/>the volatile oils and ſpirits
+          of vegetables and <pb xml:id="page_17" n="18"/><lb/>animals; ſpirituous ſolutions of the
+          fœtid and <lb/>oily gums, and vegetable reſins; tinctures and <lb/>infuſions of caſtor,
+          contrayerva, cochineal, <w part="I">ſaf-</w><lb/><w part="F">fron</w>, ſnake-root,
+          valerian, and the like; <w part="I">cha-</w><lb/><w part="F">lybeates</w>, opiates, and
+          various ſorts of <w part="I">pharma-</w><lb/><w part="F">ceutic</w> drams heated and
+          raiſed ſtill higher with <lb/>the volatile oils, ſpirits, and ſalts.—But, if this
+          <lb/>original morbid conſtitution, as already <w part="I">ob-</w><lb/><w part="F"
+            >ſerved</w>, ſhould conſiſt in the tenacity and <w part="I">viſci-</w><lb/><w part="F"
+            >dity</w> of the blood and animal fluids, <w part="I">occaſion-</w><lb/><w part="F"
+            >ing</w> a diminution of the ſecretions, and a <w part="I">con-</w><lb/><w part="F"
+            >ſequent</w> diſtention and relaxation of the nervous <lb/>ſyſtem; 'tis evident, that
+          the foregoing heating, <lb/>rarifying method, by aggravating all the <w part="I"
+            >ſymp-</w><lb/><w part="F">toms</w>, muſt ſtrengthen the morbid habit, and <lb/>confirm
+          the diſeaſe ſtill more and more.—And <lb/>thus it is, in fact, that patients under theſe
+          <lb/>complaints are, by our ſpecificians, kept on <lb/>from year to year, living and dying
+          by turns; <lb/>being ſtrictly interdicted the uſe of all ſtrong <lb/>malt liquors, wine,
+          and common drams; at the <lb/>ſame time that they are continually loaded with
+          <lb/>preſcriptions of liquid Fire out of the ſhops. </p>
+        <p rend="indent"><lb/>But, paſſing unnoticed, for brevity ſake, the <lb/>intermediate acts
+          of this politico-medical drama, <lb/>proceed we directly to the cataſtrophe. </p>
+        <p rend="indent"><lb/>When the conſtitutions of the patients are, <lb/>in this manner,
+          nearly exhauſted, and life worn <lb/>out to its bare threads<note place="bottom" n="*">*
+              <foreign xml:lang="el">###Greek omitted###</foreign>. </note>; our ſpecific <w
+            part="I">practi-</w><pb xml:id="page_18" n="19"/><lb/><w part="F">tioners</w>
+          immediately put them under the <w part="I">regula-</w><lb/><w part="F">tions</w> of diet,
+          riding, change of air, bathing, <lb/>and water-drinking, at Bath, Briſtol, Buxton, <lb/>or
+          ſome other diſtant mineral ſpring; where <lb/>they may die decently, with a favourable
+          ſalvo <lb/>to the doctor's reputation, as having then uſed <lb/>the <hi rend="italic"
+            >laſt</hi> remedies—which, in all medical <w part="I">pro-</w><lb/><w part="F"
+            >priety</w>, ought to have been the <hi rend="italic">firſt.</hi>
+        </p>
+        <p rend="indent"><lb/>Now, it is in chief as a friendly co-operating<lb/> auxiliary to <hi
+            rend="italic">theſe</hi> truely appropriate remedies<note place="bottom" n="*">*
+              <foreign xml:lang="el">###Greek omitted###</foreign>. </note>, <lb/>(the <hi
+            rend="italic">dernier reſſort</hi> of our ſpecificians) that the <lb/>author of the <hi
+            rend="italic">Univerſal Purgative,</hi> cordially, <lb/>conſcientiouſly, recommends the
+            <hi rend="italic">occaſional</hi> uſe <lb/>of it, to every native of Britain labouring
+          under <lb/>any of the above national chronical maladies. <lb/>Not but that this medicine
+          will always be found, <lb/>when properly adminiſtered, a more ſalutary <lb/>aſſiſtant to
+          the ſame remedies, in the <hi rend="italic">prevention,</hi>
+          <lb/>than in the <hi rend="italic">cure,</hi> of thoſe maladies: Foraſmuch <lb/>as <hi
+            rend="sc">Nature</hi> is ever in ſome degree weakened, <lb/>by the invaſion of an enemy;
+          even though ſhe <lb/>alone, or judiciouſly aſſiſted, may have <w part="I"
+            >expel-</w><lb/><w part="F">led</w> him out of her dominions. </p>
+        <p rend="indent"><lb/>The immediate or firſt efficient cauſe (the <lb/>præincipient
+            cauſes<note place="bottom" n="†">† <foreign xml:lang="el">###Greek omitted###</foreign>.
+          </note> have been already given) <lb/>of all our <hi rend="italic">arthritic, rheumatic,
+            ſcorbutic, <w part="I">hyſte-</w><lb/><w part="F">ric</w>,</hi> and <hi rend="italic"
+            >hypocondriac</hi> complaints; and, in ſhort, of the whole gloomy catalogue of <hi
+            rend="italic">nervous <w part="I">diſor-</w><lb/><w part="F">ders</w>,</hi> ſeems to be
+          an <hi rend="italic">acrid ſerous humour,</hi>
+          <w part="I">pro-</w><pb xml:id="page_19" n="20"/><lb/><w part="F">duced</w> as above
+          deſcribed, and lodged either in <lb/>the glands, minute veſſels, or vaſcular coats,
+          <lb/>or interſtices of the veſſels, of the ſtomach; <lb/>occaſioning, by its irritation, a
+          preternatural <lb/>laxity and debility of the fibres of the <w part="I">alimen-</w><lb/><w
+            part="F">tary</w> canal; a vitiated ſecretion in the glands of <lb/>the ſtomach, and a
+          conſequent depraved ſtate <lb/>of the gaſtric juices; a læſion (with the <w part="I"
+            >natu-</w><lb/><w part="F">rally</w> conſequent ſpaſmodic affections) of the <lb/>nerves
+          of that concoctive organ; an imperfect <lb/>digeſtion; a generation of wind and phlegm;
+          <lb/>an irregular and leſs vigorous and uniform <w part="I">mo-</w><lb/><w part="F"
+            >tion</w> of the blood in the vena portæ, and, of <lb/>conſequence, an inert, viſcid,
+          peccant bile, <lb/>which, in its natural healthy ſtate, is the moſt <lb/>highly animalized
+          of all the juices, and the moſt <lb/>conducive towards promoting all the ſecretions
+          <lb/>and excretions of the human body, particularly <lb/>thoſe of the alimentary tube—The
+          principal ſeat <lb/>of all nervous, hyſteric, and hypocondriac <w part="I">af-</w><lb/><w
+            part="F">fections</w>. </p>
+        <p rend="indent"><lb/>That this rationale is juſt, the really learned <lb/>and indefatigable
+          inquirers into the human <w part="I">pa-</w><lb/><w part="F">thology</w> will allow; and
+          conſequently, that the <lb/>true curative intention will conſiſt wholly, <hi rend="italic"
+            >at <lb/>firſt,</hi> in <hi rend="italic">correcting, attenuating, reſolving,</hi> and
+            <lb/><hi rend="italic">expelling,</hi> this acrid humour, by ſome of the <lb/><hi
+            rend="italic">natural evacuations</hi><note place="bottom" n="*">* <foreign
+              xml:lang="el">###Greek omitted###</foreign>. </note>. </p>
+        <pb xml:id="page_20" n="21"/>
+        <p rend="indent"><lb/>In this firſt capital intention, the medicine <lb/>here recommended,
+          properly doſed, and <w part="I">pro-</w><lb/><w part="F">perly</w> adminiſtered (for on
+          this <foreign xml:lang="el">###Greek omitted###</foreign> depends <lb/>the ſucceſs of
+          every appropriate remedy) has <lb/>been found, in a long and extenſive experience, <lb/>to
+          produce very ſalutary effects, even in perſons <lb/>of the moſt oppoſite natural habits
+          and <w part="I">conſti-</w><lb/><w part="F">tutions</w>. </p>
+        <p rend="indent"><lb/>Nor will theſe aſcribed effects appear <w part="I">exag-</w><lb/><w
+            part="F">gerated</w> to the judicious and experienced <w part="I">practi-</w><lb/><w
+            part="F">tioner</w>, when he is informed, that this medicine <lb/>is compoſed of near a
+          dozen of the moſt powerful <lb/>known deobſtruents, beſides two mineral <w part="I"
+            >pre-</w><lb/><w part="F">parations</w> of the author's own diſcovery, which <lb/>two
+          alone, united <foreign xml:lang="el">###Greek omitted###</foreign>, have been found to
+          <lb/>perform, in fact, what that indefatigable <w part="I">phy-</w><lb/><w part="F"
+            >ſician</w> the late Doctor <hi rend="italic">Huxham</hi> peculiarly aſcribes <lb/>to
+          his favourite <hi rend="italic">Tincture,</hi> in the following words<lb/>—"It paſſeth
+          through and ſcours even the very <lb/>ſmalleſt tubuli of the whole human frame, and
+          <lb/>is beſides ſufficiently powerful to give a ſtrong <lb/>irritation to the great
+          alimentary canal, and <lb/>therefore more ſurely to affect the ſmall <w part="I"
+            >canali-</w><lb/><w part="F">culi</w> of the body; and yet, from the exceeding
+          <lb/>tenuity of its minute particles, it by no means <lb/>lacerates the veſſels." </p>
+        <p rend="indent"><lb/>In a ſimilar manner<note place="bottom" n="*">* Per <foreign
+              xml:lang="el">###Greek omitted###</foreign>. </note>, this medicine operates, <lb/>in
+          properly adapted doſes; removing <w part="I">obſtruc-</w><pb xml:id="page_21" n="22"
+            /><lb/><w part="F">tions</w> in the remoter veſſels, and promoting <lb/><foreign
+            xml:lang="el">###Greek omitted###</foreign> the ſecretions in general, particularly
+          <lb/>thoſe of urine and perſpiration. </p>
+        <p rend="indent"><lb/>For the univerſal <hi rend="italic">promptitude, eaſe,</hi> and <hi
+            rend="italic">effi-<lb/>cacy</hi><note place="bottom" n="*">* <foreign xml:lang="el"
+              >###Greek omitted###</foreign>. </note>, of its operation, as a <hi rend="italic"
+            >purgative,</hi> even in <lb/>the moſt <hi rend="italic">delicate</hi> and <hi
+            rend="italic">irritable</hi> habits, the author <lb/>has the concurrent teſtimony of
+          many judicious <lb/>practitioners, ſome of them phyſicians of <w part="I">emi-</w><lb/><w
+            part="F">nence</w>; not only in England, but in Holland, <lb/>Germany, and Switzerland:
+          And, <hi rend="italic">in this <w part="I">in-</w><lb/><w part="F">tention</w>,</hi> the
+          like uniform operation has been <lb/>found to attend its uſe, in different, and even
+          <lb/>in oppoſite climates; without any of thoſe <w part="I">in-</w><lb/><w part="F"
+            >jurious</w> colliquative effects<note place="bottom" n="†">† <foreign xml:lang="el"
+              >###Greek omitted###</foreign>. </note> ſo generally <w part="I">aſcrib-</w><lb/><w
+            part="F">ed</w> by phyſicians to the preparations of aloes, <lb/>and particularly to
+          that long popular one <w part="I">ori-</w><lb/><w part="F">ginally</w> known by the name
+          of <hi rend="italic">Francfurt Pills,</hi>
+          <lb/>firſt invented and deſcribed by <hi rend="italic">Hartman Beyer;</hi>
+          <lb/>of which feveral ſpurious ſorts have been ſince <lb/>vended, in different countries,
+          under various <lb/>names—<hi rend="italic">Pilulæ Angelicæ, Aloes Roſata, Pilulæ
+            <lb/>Tartareæ, Grana Angelica, &amp;c.</hi>—At Rome, <lb/>(notwithſtanding the
+          obſervation of that <w part="I">diſtin-</w><lb/><w part="F">guiſhed</w> Roman phyſician
+            <hi rend="italic">Giorgio Baglivi,</hi> in his <lb/><hi rend="italic">Praxis
+            Medica;</hi> where, treating of the cure of <lb/>diſeaſes in that city, he ſays—"No ſort
+          of <w part="I">re-</w><lb/><w part="F">medies</w> afford ſo much benefit to the
+          inhabitants <lb/>of Rome, as exerciſe, and a prudent repetition <pb xml:id="page_22"
+            n="23"/><lb/>of gentle purgatives—but purgatives, given in <lb/>the form of pills, have
+          no ſucceſſful or <w part="I">plenti-</w><lb/><w part="F">ful</w> operation,") it has been
+          found, by the <w part="I">ex-</w><lb/><w part="F">perience</w> of ſeveral travellers, the
+          author's <lb/>friends, to operate with all deſirable efficacy: <lb/>And, on the like
+          authentic evidence, in a much <lb/>greater variety of inſtances, he can ſafely <w part="I"
+            >war-</w><lb/><w part="F">rant</w>, <hi rend="italic">in the ſame intention,</hi>
+          effects equally <w part="I">ſalu-</w><lb/><w part="F">tary</w>, from its uſe, in both
+          Indies.</p>
+        <p rend="indent"><lb/>In occaſional, or habitual coſtiveneſs, it will <lb/>be found an
+          effectual remedy, free from the <w part="I">in-</w><lb/><w part="F">conveniences</w>
+          aſcribed to <hi rend="italic">aloetic, rhabarbarine,</hi>
+          <lb/>and <hi rend="italic">ſaline</hi> preparations, in that intention; as it <lb/>neither
+          produces ſickneſs nor gripes, and leaves <lb/>no aſtriction in the bowels. </p>
+        <p rend="indent"><lb/>But, in no one intention will this medicine <lb/>prove more <hi
+            rend="italic">univerſally</hi> ſalutary and beneficial, <lb/>than in that of a frequent
+            <hi rend="italic">family purge,</hi> on the <lb/>ſo juſtly celebrated <hi rend="italic"
+            >prophylactic</hi> plan of that <w part="I">hap-</w><lb/><w part="F">py</w> explorer of
+          Nature <hi rend="italic">Lord Verulam—to cleanſe <lb/>the ſtomach and bowels from thoſe
+            viſcid, or ſlimy, <lb/>and vitiated bilious, humours which are ſo <w part="I"
+              >frequent-</w><lb/><w part="F">ly</w> collected in them, conſtituting the ſource and
+            <lb/>fomes of various diſeaſes, as well chronic as acute, <lb/>to which people of every
+            rank are liable; but the <lb/>delicate, the polite, the ſtudious, and the ſedentary,
+            <lb/>more particularly ſo:</hi> It being paſt all doubt with <lb/>the author, that
+          thouſands even of valuable <lb/>lives are yearly cut off, by prematurity of death,
+          <lb/>which an exact practical obſervance of <hi rend="italic">this plan</hi>
+          <pb xml:id="page_23" n="24"/><lb/>(including, in its full extent, <hi rend="italic"
+            >exerciſe</hi><note place="bottom" n="*">* <foreign xml:lang="el">###Greek
+              omitted###</foreign>, Hippocr. </note>, <hi rend="italic">with <lb/>alacrity,
+            temperance,</hi> and <hi rend="italic">ſimplicity of diet</hi>) might <lb/>have happily
+          conducted, with tranquillized pasſ-<lb/>ſions<note place="bottom" n="†">† <foreign
+              xml:lang="el">###Greek omitted###</foreign> laborum innocuæ vitæ. </note>, to the
+          placid <foreign xml:lang="el">###Greek omitted###</foreign> of old age—<lb/>when death
+          becomes ultimately a neceſſity and <lb/>no pain, the bleſſing and not the evil of Nature. </p>
+        <p rend="indent"><lb/>Notwithſtanding the here recited, and other <lb/>valuable properties
+          of this medicine; the author <lb/>has not the ridiculous preſumption to offer it to
+          <lb/>the public as a <hi rend="italic">Specific Remedy</hi> in any particular
+          <lb/>diſeaſe.—In the above mentioned chronical <w part="I">diſ-</w><lb/><w part="F"
+            >orders</w>, he is warranted, by the indiſputable <lb/>ſanction of experience, to
+          recommend it as an <lb/>efficacious aſſiſtant to thoſe peculiarly <w part="I"
+            >appro-</w><lb/><w part="F">priated</w> remedies—<hi rend="italic">An early well
+            maſticated cruſt <lb/>or biſcuit; a regulated diet; riding; friction</hi><note
+            place="bottom" n="‡">‡ This remedy was in the higheſt eſteem with the <w part="I"
+              >an-</w><lb/><w part="F">cients</w>, for the preſervation of health, and the cure of
+              <lb/><hi rend="sc">Chronical Diseases</hi>: Scarce any man of condition <lb/>amongſt
+            them paſſed a day, either in ſickneſs or in health, <lb/>without this <hi rend="italic"
+              >cutaneous exerciſe. Hippocrates</hi> makes a right <lb/>knowledge of its uſe and
+            efficacy one eſſential requiſite in a <lb/>phyſician.—"A phyſician (ſays he—<hi
+              rend="italic">de articulis</hi>) ought to <lb/>be skilled in many things—and
+            particularly in the nature of <lb/><hi rend="italic">friction,"</hi> the effects of
+            which he thus explains—"Strong <lb/>friction braces, ſoft or gentle friction looſens,
+            [h. e. reſolves <lb/>thoſe parts that are conſtringed or obſtructed] much friction
+            <lb/>diminiſhes, and moderate friction increaſes the fleſh."—<lb/>"The part you would
+            nouriſh muſt be moved: For motion <lb/>excites heat, and attracts nouriſhment to the
+              part."—<hi rend="italic">Are-<lb/>tæus</hi> too, the moſt skilful and judicious of his
+            followers, <lb/>(our own immortal <hi rend="italic">Sydenham, Hippocrati ſecundus pene
+              par,</hi><lb/>excepted) inſiſts largely on the uſe and efficacy of this <w part="I"
+              >re-</w><lb/><w part="F">medy</w>, in his admirable hiſtory of <hi rend="italic"
+                >Chron<unclear>#</unclear>c Diſeaſes.</hi>
+            <p rend="indent"><lb/>The almoſt total diſuſe, in modern practice, of a remedy <lb/>ſo
+              ſtrongly recommended by the univerſal experience of <lb/>ancient <hi rend="italic"
+                >Greece</hi> and <hi rend="italic">Rome,</hi> as well as by its perfect agreement
+              <lb/>with our later diſcoveries in the œconomy of Nature, <w part="I">re-</w><lb/><w
+                part="F">ſpecting</w> the cutaneous diſcharges, can only be aſcribed to <lb/>the
+              unreaſonable impatience of people, in every rank of <lb/>life, who can hardly be
+              perſuaded to think well of any <lb/>method which does not ſurprize with ſome ſudden <w
+                part="I">altera-</w><lb/><w part="F">tion</w>, or of any remedy that does not
+              promiſe to cure like a <lb/>charm. Strange infatuation—to expect immediate relief
+              <lb/>in <hi rend="italic">Chronic Diſeaſes</hi> which, perhaps, have been many
+              <lb/>years contracting, and, by an inveterate habit, are incorporated <lb/>into the
+              very vitals of the conſtitution. This precipitate <lb/>impatience for a cure, by
+              prompting people to truſt to the <lb/>deluſive promiſes of tawdry, boaſting
+              medicaſters [<foreign xml:lang="el">###Greek </foreign><lb/><foreign xml:lang="el"
+                >omitted###</foreign>], has ultimately occaſioned the <w part="I"
+                >deſtruc-</w><lb/><w part="F">tion</w> of more lives than war or peſtilence. </p>
+          </note>; <pb xml:id="page_24" n="25"/><lb/><hi rend="italic">change of air; ſeaſonable
+            bathing</hi><note place="bottom" n="*">* Among the ancient Romans (ſays an admired <w
+              part="I">philo-</w><lb/><w part="F">ſophical</w> writer) there were four things much
+            in uſe, <w part="I">where-</w><lb/><w part="F">of</w> ſome are ſo far out of practice in
+            ours, and other late <lb/>ages, as to be hardly known but by their names; theſe
+            <lb/>were <hi rend="italic">bathing, fumigation, friction,</hi> and <hi rend="italic"
+              >jactation:</hi> The <lb/>firſt, tho' not wholly diſuſed by us, yet is turned out of
+            the <lb/>ſervice of health to that of pleaſure, but may be of <w part="I"
+              >excel-</w><lb/><w part="F">lent</w> effect in both: It not only opens the pores,
+            provokes <lb/>ſweat, and thereby allays heat, ſupples the joints and <w part="I"
+              >ſi-</w><lb/><w part="F">news</w>, unwearies and reſreſhes more than any thing after
+            <lb/>too great labour and exerciſe; but is of great effect in ſome <lb/>acute pains, as
+            of the ſtone and cholic, and diſpoſes to <lb/>ſleep, when many other remedies fail. Nor
+            is it improbable <lb/>that all the good effects of any <hi rend="italic">natural</hi>
+            baths may be <w part="I">imitat-</w><lb/><w part="F">ed</w> by the <hi rend="italic"
+              >artificial,</hi> if compounded with care, and the skill <lb/>of able naturaliſts or
+            phyſicians." Thus, for inſtance, <lb/>our <hi rend="italic">Harrowgate waters</hi>
+            (which have been found ſo <lb/>efficacious in cutaneous foulneſſes, blotches, ſcabs,
+            ſcrophulas, <w part="I">lepro-</w><lb/><w part="F">ſies</w>, &amp;c.) are ſtrongly
+            impregnated with ſulphur and a kind <lb/>of lixivial ſalt, as hath been proved by mixing
+            a certain <lb/>quantity of ſulphur with ſalt of tartar, melting them over a <lb/>gentle
+            fire till perfectly incorporated, and then diſſolving <lb/>the maſs in pure water.—If
+            then we know the component <lb/>parts of theſe waters, why ſhould we not expect the ſame
+            <lb/>good effects from the <hi rend="italic">artificial</hi> as from the <hi
+              rend="italic">natural</hi> baths <lb/>made of them, agreeably to this ingenious
+            writer's <w part="I">obſerva-</w><lb/><w part="F">tion?</w>
+            <p rend="indent"><lb/>Medicated baths muſt have been of very high antiquity; <lb/>ſince
+              we find, by the beſt authenticated accounts, that the <lb/>ancient Jews and Egyptians
+              made uſe of them in curing the <lb/>moſt obſtinate and deſperate maladies.—Virgil,
+              ſinging the <lb/>praiſes of his favourite <hi rend="italic">Iapis—'Phœbo ante alios
+                dilectus,'</hi>
+              <lb/>(who was cotemporary with the ſons of <hi rend="italic">Eſculapius</hi>) <w
+                part="I">intro-</w><lb/><w part="F">duces</w> him uſing a <hi rend="italic"
+                >medicated bath</hi> in the cure of father <hi rend="italic">Æne-<lb/>as;</hi> and
+              ſays of him, that being greatly beloved by Apollo, <lb/>he offered to teach him <hi
+                rend="italic">augury, to play on the harp,</hi> and <hi rend="italic">to <lb/>draw
+                the bow</hi> well; but that he rather choſe <hi rend="italic">to prolong the
+                <lb/>dying father's life, to learn the virtues of plants,</hi> and <hi rend="italic"
+                >to cure <lb/>diſeaſes</hi>—</p>
+            <p rend="indent"><lb/>—"Scire poteſtates herbarum, uſumque medendi </p>
+            <p rend="indent"><lb/>Maluit, et mutas agitare inglorius artes<note place="bottom" n="*"
+                ><lb/>* Here, by the bye, the learned tribe of critics are miſerably <lb/>perpiexed
+                in accounting for Virgil's (the moſt chaſte, pure, and <lb/>correct of all poets)
+                calling phyſic <hi rend="italic">ars muta,</hi> or a dumb art; and <lb/>after a
+                proſuſion of ſagacious conjectures, have left the matter at <lb/>laſt, as a true
+                ſchoolman would have done by a theological <w part="I">pro-</w><lb/><w part="F"
+                  >blem</w>, where the devil left the friar.—To inſtance in a few—<lb/>Some of theſe
+                  <hi rend="italic">emuncti naris bomines</hi> will have it, that the words <lb/><hi
+                  rend="italic">mutas artes,</hi> in this place, allude directly to that ſect of
+                phyſicians <lb/>diſtinguiſhed by the name of <hi rend="italic">empirics,</hi> who,
+                depending upon <w part="I">mat-</w><lb/><w part="F">ter</w> of fact and experience
+                alone, had no occaſion to recommend <lb/>themſelves by prating and puffing—Others
+                think, that Iapis is <lb/>called <hi rend="italic">inglorius,</hi> becauſe this
+                empirical ſect, rejecting all theory <lb/>and reaſoning, became ſhamefully
+                illiterate—Others, that <lb/>the word <hi rend="italic">inglorius</hi> alludes to
+                the phyſicians at Rome, in Virgil's time, <lb/>being generally ſlaves. Others again
+                contend, that the word <hi rend="italic">mu-<lb/>tas</hi> relates to <hi
+                  rend="italic">inglorius;</hi> and that Virgil thereby intimated, that <lb/>phyſic
+                was an art of no great renown in the world, and brought <lb/>its profeſſors no great
+                glory or reputation. But unfortunately <lb/>none of theſe opinions will paſs muſter:
+                For, 1ſt. The ſect of <lb/>empirics had no exiſtence till many ages after the time
+                of Iapis. <lb/>2dly. In the time of Iapis, phyſic could not be a contemptible or
+                <lb/>inglorious art, nor of ſmall renown or reputation, ſince it <w part="I"
+                  >pro-</w><lb/><w part="F">cured</w> to its profeſſors whilſt living the higheſt
+                veneration, and <w part="I">af-</w><lb/><w part="F">ter</w> death divine honours.
+                Nay, Homer tells us, that a phyſician,<lb/>even in thoſe times, was counted of more
+                value than a world of <lb/>other men—<foreign xml:lang="el">###Greek
+                  omitted###</foreign>. <hi rend="italic">Iliad.</hi>
+                <foreign xml:lang="el">###Greek omitted###</foreign>. <p rend="indent"><lb/>This
+                  Herculean difficulty might, perhaps, be better ſolved, by <lb/>ſuppoſing the word
+                    <hi rend="italic">mutas</hi> to be oppoſed to <hi rend="italic">citheram,</hi>
+                  which <hi rend="italic">Apollo</hi>
+                  <lb/>offered him, whereby the poet might not only mean muſic, but <lb/>poetry too,
+                  for which it is often put; and that by the word <hi rend="italic"
+                    >in-<lb/>glorius</hi> the poet ſignifies no more than unaſpiring or unambitious;
+                  <lb/>as one who for the knowledge of phyſic renounced thoſe other gifts <lb/>or
+                  talents, to which the poet, as ſuch, was obliged to give the <lb/>preference—For
+                  this reaſon Virgil might call phyſic <hi rend="italic">ars muta,</hi> in
+                  <lb/>oppoſition to poetry and muſic, which were properly <hi rend="italic"
+                    >vocales.</hi>
+                </p>
+              </note>." </p>
+            <p rend="indent"><lb/>That the wonderful power of abſorbency in all the <w part="I"
+                >ex-</w><lb/><w part="F">ternal</w> (as well as internal) parts of the human body
+              was <lb/>well known to Hippocrates, appears from the following <lb/>paſſage in the
+              ſixth book of his <hi rend="italic">Epidemics</hi>—<foreign xml:lang="el">###Greek
+                omitted###</foreign>.<lb/>—Galen, quoting this very <lb/>paſſage, and in direct
+              alluſion to the doctrine of cuticular<lb/>abſorption, ſays—<foreign xml:lang="el"
+                >###Greek omitted###</foreign>—"But they <lb/>[the pores or abſorbent oriſices of
+              the bibulous veins] <w part="I">at-</w><lb/><w part="F">tract</w> no ſmall part from
+              the circumambient air."—Upon <lb/>this principle, Hippocrates recommended bathing
+              where <lb/>the body wanted moiſtening, and to be cooled: In hot <lb/>weather he
+              preſcribed warm baths, and in cold weather <lb/>cold ones.—The intenſe thirſt
+              accompanying certain <lb/>acute diſeaſes, in hot climates, is aſſuaged immediately by
+              <lb/>immerſion of the body in warm water.—After continuing <lb/>twenty minutes in a
+              bath of warm water, the author of this <lb/>has, during a courſe of <hi rend="italic"
+                >ſtatical</hi> experiments, frequently <lb/>found himſelf from forty to fifty ounces
+              heavier than he was <lb/>before immerſion. By the ſame means he has found an <w
+                part="I">ex-</w><lb/><w part="F">treme</w> thirſt removed almoſt immediately.
+              Bathing in <w part="I">ſea-</w><lb/><w part="F">water</w> has been found, by
+              experiment, to produce the ſame <lb/>refreſhing effect.—And hence, perhaps, the
+              deplorable <w part="I">ca-</w><lb/><w part="F">lamities</w>, to which the ſeafaring
+              part of mankind are <w part="I">fre-</w><lb/><w part="F">quently</w> expoſed (burning
+              like a ſhip on fire, in a deluge of<lb/>ſurrounding waters) by the extreme want of
+              freſh water, <lb/>might be mitigated at leaſt, by repeated immerſion in the
+              <lb/>ſea-water. All chronic diſeaſes, proceeding from a <w part="I">redun-</w><lb/><w
+                part="F">dancy</w> of ſaline or acrimonious particles floating in the vital
+              <lb/>juices, or accumulated upon the glands appointed to <w part="I">ſepa-</w><lb/><w
+                part="F">rate</w> them from thoſe juices, are relieved by ſea-bathing; <lb/>as the
+              ſolvent parts of the ſea-water are thereby imbibed <lb/>through the pores of the skin,
+              and carried into immediate <lb/>action upon thoſe ſaline or acrimonious particles; and
+              there <lb/>is not, perhaps, any menſtruum, natural or artificial, <w part="I"
+                >hi-</w><lb/><w part="F">therto</w> known, that is ſo perfect and immediate a
+              ſolvent <lb/>for ſaline bodies as the aqueous vehicle of the ſea-ſalt in its <lb/>pure
+              and diveſted ſimplicity. </p>
+          </note>; <hi rend="italic">medicinal <pb xml:id="page_25" n="26"/>
+            <pb xml:id="page_26" n="27"/>
+            <pb xml:id="page_27" n="28"/>water-drinking</hi><note place="bottom" n="*"><lb/>* The
+            old maxim, that 'what can do much good may <lb/>alſo do much harm,' is not, perhaps, ſo
+            truely applicable <lb/>to any one popular remedy, as to the <hi rend="italic">natural
+              medicinal <lb/><w part="I">wa-</w><lb/><w part="F">ters</w>.</hi>
+            <p rend="indent"><lb/>Thoſe of the acidulous or purging kind, by means of the
+              <lb/>neutral ſalt with which they abound, are of excellent <w part="I">ſer-</w><lb/><w
+                part="F">vice</w> in certain conſtitutions, where the firſt paſſages want
+              <lb/>cleanſing; but this ſervice is done by only a few repetitions: <lb/>If they are
+              long continued, (and many who drink them, <lb/>without proper advice, are apt to
+              think, the more they <lb/>purge, the farther they are from being ſick) the remedy
+              <lb/>often proves worſe than the diſeaſe: For it is well known <lb/>to phyſicians,
+              that all fevers which come after long <w part="I">purg-</w><lb/><w part="F">ing</w>,
+              and eſpecially thoſe which ſupervene the imprudent <lb/>uſe of purging waters, are of
+              the worſt kind, and <w part="I">frequent-</w><lb/><w part="F">ly</w> prove fatal. </p>
+            <p rend="indent"><lb/>There is not in the whole compaſs of medicine, a more
+              <lb/>efficacious remedy, in certain caſes, than the <hi rend="italic">natural <w
+                  part="I">chaly-</w><lb/><w part="F">beate</w> waters,</hi> that is, ſuch as
+              receive their medicinal <w part="I">pro-</w><lb/><w part="F">perties</w> from iron:
+              For, as the learned <hi rend="italic">Boerhaave</hi> obſerves, <lb/>where the powers
+              of the body are debilitated by a <w part="I">preterna-</w><lb/><w part="F">tural</w>
+              relaxation of the ſolids, and an indolent, cold, <w part="I">aque-</w><lb/><w part="F"
+                >ous</w> indiſpoſition of the fluids, no virtue of any vegetable <lb/>or animal
+              ſubſtance, no diet, or regimen, can effect that, <lb/>which is effected by iron and
+              its preparations. Yet how <lb/>many fevers are every year occaſioned by an imprudent
+              uſe <lb/>of them, as well as vertigos, epilepſies, and apoplexies, <lb/>(frequently
+              aſcribed to other cauſes) in plethoric habits? </p>
+            <p rend="indent"><lb/>From this juſt and candid information, the intelligent <lb/>reader
+              will naturally conclude, that he ought never to <w part="I">med-</w><lb/><w part="F"
+                >dle</w> with any of thoſe waters, without the previous advice <lb/>of ſome skilful
+              phyſician, who will not fail, on ſo <w part="I">peculi-</w><lb/><w part="F">arly</w>
+              proper an occaſion, to inculcate and explain to him <lb/>that golden precept (equally
+              applicable to every human <w part="I">un-</w><lb/><w part="F">dertaking)</w> of our
+              divine maſter <hi rend="italic">Hippocrates</hi>—<foreign xml:lang="el">###Greek
+                omitted###</foreign>. </p>
+          </note>; and <hi rend="italic">ſummer voyages at <pb xml:id="page_28" n="29"
+            /><lb/>ſea</hi><note place="bottom" n="*"><lb/>* Amongſt the more moderate exerciſes
+              [<foreign xml:lang="el">###Greek </foreign><lb/><foreign xml:lang="el"
+              >omitted###</foreign>, as <hi rend="italic">Galen</hi> deſcriptively titles them]
+            preſcribed by the <lb/>ancients, to ſupply the defects of their <hi rend="italic"
+              >pharmacy,</hi> which, <lb/>in general, was rude and barbarous, the <hi rend="italic"
+              >ſea-carriage</hi> was <lb/>held in high eſteem. Even ſo low down as the eve of the
+            <lb/>commonwealth of Rome, properly ſo called, (before the <lb/>butchery of deſpotiſm
+            had made the life of a Roman ſcarce <lb/>worth preſerving, by deſtroying, or driving
+            into corners, <lb/>all that was great and valuable) the Roman phyſicians <lb/>uſed
+            frequently, and with very good effect, to ſend their <lb/>patients, labouring under
+            certain chronic diſeaſes, to <hi rend="italic">Alex-<lb/>andria</hi> in <hi
+              rend="italic">Egypt,</hi> partly for the ſake of the exerciſe by the <lb/>motion of
+            the ſhip, but chiefly upon account of the <lb/><hi rend="italic">vomiting</hi> it
+            occaſioned; that they might thereby ſupply <lb/>their want of <hi rend="italic">gentle
+              emetics:</hi> For it was a diſtinguiſhing part <lb/>of the exquifite diligence and
+            ſagacity of the ancients, to <lb/>make good what they wanted in the <hi rend="italic"
+              >pharmaceutic art,</hi> by <lb/>other means.—And here the author cannot deny himſelf
+            <lb/>the pleaſure of informing his readers, that this <hi rend="italic">ſuccedaneous
+              <lb/>vomitive</hi> of the ancients is, at this time, a noted <hi rend="italic">vulgar
+              <lb/>remcdy,</hi> in the beginning of certain <hi rend="italic">infections</hi>
+            diſeaſes, and <lb/>particularly of that moſt dreadful one the <hi rend="italic">jail
+              diſtemper;</hi> and <lb/>that where it can be uſed ſoon after the appearance of the
+            <lb/>ſymptoms, and repeated ſeveral days ſucceſſively, it will be <lb/>found the <hi
+              rend="italic">moſt efficacious one,</hi> perhaps, hitherto diſcovered; <lb/>ſeveral
+            very remarkable inſtances of its efficacy in carrying <lb/>off the jail-diſtemper caught
+            at the <hi rend="italic">Old-Bailey</hi> in May, <lb/>1750, and in September, 1772,
+            having, on theſe two <w part="I">me-</w><lb/><w part="F">lancholy</w> occaſions, come
+            under his immediate notice.—<lb/>In ſome conſumptive diſorders they preſcribed the
+            exerciſe<lb/> of <hi rend="italic">ſailing,</hi> as a ſovereign remedy to fortify the
+            lungs, <w part="I">re-</w><lb/><w part="F">move</w> obſtructions, and determine the
+            quantity and force of <lb/>the fluids towards the ſurface of the body; that is, to <w
+              part="I">pro-</w><lb/><w part="F">mote</w> perſpiration—"Si vera phthiſis eſt, ſays
+              <hi rend="italic">Celſus,</hi> opus <lb/>eſt longa navigatione, &amp;c."—This practice
+            of the ancients <lb/>probably took its riſe from an old vulgar obſervation, <lb/>namely,
+            that '<hi rend="italic">ſailors</hi> were, in general, much leſs ſubject <lb/>than other
+            people to a conſumption of the lungs:' For, <lb/>having remarked, that diſcoveries and
+            improvements, which <lb/>would have done honour to the moſt enlightened <w part="I"
+              >under-</w><lb/><w part="F">ſtandings</w>, were ſometimes ſtumbled upon by perſons of
+            <lb/>more confined abilities, they thought it no diſcredit to <lb/>their own ſuperior
+            talents to inſorm themſelves, even by <lb/>means of the lower claſs of people, of ſimple
+            remedies <w part="I">con-</w><lb/><w part="F">lirmed</w> by experience; agreeably to the
+            advice of the great <lb/>father of phyſic [<foreign xml:lang="el">###Greek
+              omitted###</foreign>.] <p rend="indent"><lb/>Being ſenſible that the art of healing
+              took its riſe from <lb/><hi rend="italic">natural ſagacity</hi> improving upon
+              accidental diſcoveries, and <lb/>unforeſeen events, they did not employ their time in
+                <w part="I">writ-</w><lb/><w part="F">ing</w> imaginary theories, and mingling falſe
+              philoſophy with <lb/>intrinſic truth; but in carefully collecting the ſimple <w
+                part="I">ob-</w><lb/><w part="F">ſervations</w>, experiments, and caſual diſcoveries
+              of others, <lb/>even the moſt obſcure and illiterate people, and afterwards
+              <lb/>ſubjecting them to the rigid ſcrutiny of variouſly repeated <lb/>trials; in
+              making diligent obſervations and cautious <w part="I">expe-</w><lb/><w part="F"
+                >riments</w> themſelves, and in writing pure and accurate <w part="I"
+                >hiſto-</w><lb/><w part="F">ries</w> of diſeaſes which came under their cognizance;
+              i. e. in <lb/>diligently collecting the laws enacted by Nature, and <w part="I"
+                >de-</w><lb/><w part="F">ſcribing</w> them in the very manner Nature ſpoke them. And
+              <lb/>if this direct though difficult route to <hi rend="italic">medical certainty</hi>
+              had <lb/>been ſteadily and uniformly purſued by ſucceeding <w part="I"
+                >phyſi-</w><lb/><w part="F">cians</w>, without deviating into the uncertain though
+                <w part="I">ſmooth-</w><lb/><w part="F">er</w> paths of fanciful philoſophy, or
+              hypotheſis, (that <w part="I">ſpe-</w><lb/><w part="F">cious</w> image of truth, that
+              idol to which the learned ſtill <lb/>bow down) or being ſeduced by the love of eaſe,
+              and the <lb/>facility of playing with the paſſions of mankind to their own
+              <lb/>private emolument, from the age of <hi rend="italic">Hippocrates,</hi> down to
+              <lb/>our time, phyſic in general would have made a different <lb/>appearance from what
+              it does at preſent ["Si jam indè ab <lb/>Hippocratis temporibus ad hanc noſtram uſque
+              ætatem, (to <lb/>uſe the more expreſſive language of the learned and <w part="I"
+                >judi-</w><lb/><w part="F">cious</w> Baglivi) <hi rend="italic">præſtantiſſimæ
+                artis</hi> Studioſi, hanc quidem <lb/>promovendæ artis rationem conſtanter
+              retinuiſſent, dici vix <lb/>poteſt, quot quantique progreſſus hac hodiè parte
+              haberentur. <lb/>Cùm verò rem alioqui adeò neceſſariam, tam præclaram, <lb/>atque ità
+              feliciter inſtitutam reliquerint, ut ſe infinitis, et <lb/>(ut apoſtoli verbis utar)
+                <hi rend="italic">interminatis quæſtionibus,</hi> et <lb/><foreign xml:lang="el"
+                >###Greek omitted###</foreign> implicarent, aliam afferre cauſam non poſſum,
+              <lb/>quàm offenſi, ac ulciſcentis Numinis iram. Hoc ſanè, vel <lb/>invitus fatebitur,
+              quiſquis in ætatem hanc noſtram oculos <lb/>conjecerit; cùm enim cæteræ omnes quâ
+              diſciplinæ, quā <lb/>artes, non ſolùm in priſtinum ſplendorem reſtitutæ ſuerint,
+              <lb/>ſed in dies magis magiſque excultæ, noviſque inventis <w part="I">or-</w><lb/><w
+                part="F">natæ</w> floreant; ſola Medicinæ praxis, neſcio quo ſato, <lb/>maxime ſui
+              parte jaceat, et, quod maximè dolendum, <w part="I">vi-</w><lb/><w part="F">lior</w>
+              quotidie apud indoctos evadat Quod cur ita ſit, <w part="I">(pro-</w><lb/><w part="F"
+                >ceeds</w> this Hippocratic phyſician) id unum in causâ eſſe <w part="I"
+                >ar-</w><lb/><w part="F">bitror</w>, quod <hi rend="italic">objervationum</hi> unde
+              ars præſtantiſſima effecta <lb/>fuerat, ratione contemplatâ, <hi rend="italic"
+                >lyſtematis,</hi> et <hi rend="italic">hypotheſibus</hi>
+              <w part="I">pror-</w><lb/><w part="F">ſus</w> indulſerint; non tàm de cognoſcendis,
+              curandiſque <lb/>morbis, quàm quo pacto eorum probabilem rationem <w part="I"
+                >red-</w><lb/><w part="F">derent</w>, ſolliciti. Ex quo fit, ut, in maximam humani
+              <lb/>generis perniciem, et Medicinæ dedecus, non jam <w part="I">tutiſſi-</w><lb/><w
+                part="F">ma</w> Artis præſcripta, ſed proprii ingenii commenta <w part="I"
+                >conſu-</w><lb/><w part="F">lant</w>."] and the <hi rend="italic">Materia
+                Medica,</hi> one of the moſt eſſential <lb/>parts of it, in particular, would not
+              have now been, what <lb/>every experienced, honeſt phyſician knows and laments,
+              <lb/>more confuſed, precarious, and uncertain, than any other <lb/>branch of ſcience. </p>
+            <p rend="indent"><lb/>During a courſe of experimental inquiries into the <w part="I"
+                >pecu-</w><lb/><w part="F">liar</w> and diſtinct medicinal properties of vegetables,
+              that is, their real effects, diſting uiſhed from the operations of <w part="I"
+                >Na-</w><lb/><w part="F">ture</w> unaſſiſted, in the human body, (proſecuted for <w
+                part="I">up-</w><lb/><w part="F">wards</w> of twenty years, in the manner
+              originally, and <w part="I">hi-</w><lb/><w part="F">therto</w> almoſt ſolely,
+              practiſed by <hi rend="italic">Dioſcorides</hi>) the author is <lb/>not aſhamed to
+              own, that he has, with uncommon <w part="I">aſſi-</w><lb/><w part="F">duity</w>, and
+              no inconſiderable trouble and expence, ſought <lb/>every poſſible means of informing
+              himſelf of the traditional <lb/>knowledge, and empirical practice, of the common
+              people; <lb/>and from this ſource alone he has drawn more real <w part="I"
+                >aſſiſt-</w><lb/><w part="F">ances</w>, in aſcertaining the medicinal powers of
+              ſimples, <lb/>than from the moſt famous modern <hi rend="italic">herbals;</hi> in
+              which, not <lb/>one in forty (innumerable experiments warrant the <w part="I"
+                >aſſer-</w><lb/><w part="F">tion)</w> will anſwer the character it beart, and many
+              are ſtill<lb/>celebrated for a thouſand divine virtues, that are ſcarcely <lb/>endued
+              with one valuable property.—The merit of <w part="I">Dioſco-</w><lb/><w part="F"
+                >rides's</w>
+              <hi rend="italic">Herbal</hi> (meaning his <hi rend="sc">genuine</hi> work; for the <w
+                part="I">wri-</w><lb/><w part="F">ter</w> has abundant reaſon to ſuſpect, that many
+              ſpurious <w part="I">ar-</w><lb/><w part="F">ticles</w>, miſnomers, and falſe
+                de<unclear>#</unclear>riptions hitherto unnoticed, <lb/>have been foiſted into it
+              ſince his time) muſt have been of <lb/>a very different complexion.—What Petronius
+              ſays of the <lb/>celebrated philoſopher Democritus, namely, that he lived <lb/>and
+              died in the midſt of experiments, may, with ſtrict <lb/>truth, be applied to this
+              indefatigable author of <hi rend="italic">medical <w part="I">bo-</w><lb/><w part="F"
+                  >tany</w>:</hi> For, we are aſſured, that he advanced nothing in his <lb/><hi
+                rend="italic">Materia Medica,</hi> but what was confirmed to him by <hi
+                rend="italic">real</hi>
+              <w part="I">ex-</w><lb/><w part="F">periments</w>. The laſt experiment he made was
+              upon an <w part="I">high-</w><lb/><w part="F">ly</w> deleterious plant: The doſe
+              proved too ſtrong for his <w part="I">con-</w><lb/><w part="F">ſtitution</w>; and he
+              expired in the very act of deſcribing its <lb/>effects upon himſelf, and the ſymptoms
+              it produced.—If <lb/>this poiſonous plant was, as hath been ſuppoſed, a ſpecies
+              <lb/>of the <hi rend="italic">wolf's bane,</hi> it was moſt probably that with the <hi
+                rend="italic">blue <lb/>helmet flower,</hi>—univerſally deemed by the ancients one
+              of <lb/>the rankeſt vegetable poiſons. </p>
+            <p rend="indent"><lb/>The induſtrious Linnæus, ſpeaking of the <hi rend="italic">yellow
+                wolf's <lb/>bane—Flor. Lappon.</hi> p. 179. No. 221.—tells the following
+              <lb/>ſtory—"As I was travelling in the northern parts of <w part="I">Swe-</w><lb/><w
+                part="F">den</w>, early in the ſpring, I met with a poor woman who <lb/>was
+              gathering the leaves of this plant <hi rend="italic">[aconitum folits peltatis
+                <lb/>multifidis liſpidis, petalo ſupremo cylindracio]:</hi> When I asked <lb/>her
+              for what uſe ſhe gathered thoſe leaves, ſhe replied, that <lb/>they were to be caten.
+              Being deſirous to adviſe her better, <lb/>for I thought ſhe was not acquainted with
+              the herb, and might <lb/>miſtake it for a ſpecies of the geranium or crane's-bill, <w
+                part="I">call-</w><lb/><w part="F">ed</w> gratia Dei, which it greatly reſembles; I
+              intreated her, <lb/>in a very ſerious manner, not to deſtroy herſelf by eating <lb/>a
+              moſt deadly poiſon. She ſmiled at my apprehenſions for <lb/>her, and told me that ſhe
+              was very well aſſured of being <lb/>right in her choice of the herb, and that ſhe with
+              the reſt <lb/>of her neighbours had eaten of it for a great many years. <lb/>I went to
+              her cottage, where ſhe cut the plant ſhe had <w part="I">ga-</w><lb/><w part="F"
+                >thered</w> into ſmall ſhreds, and boiled it with a little piece of fat <lb/>meat,
+              and made a ſoup with the ingredients, on which <lb/>herſelf, her husband, two
+              children, and an old woman, <lb/>made an hearty meal; and, what I own greatly
+              ſurprized <lb/>me, without any damage or bad conſequence. And thus <lb/>it happens,
+              ſays this diligent explorer of Nature, that <lb/><hi rend="sc">things are frequently
+                discovered by <w part="I">temeri-</w><lb/><w part="F">ty</w>, which reason might
+                never have <w part="I">investi-</w><lb/><w part="F">gated</w>.</hi>" </p>
+            <p rend="indent"><lb/>Notwithſtanding this remarkable inſtance of the harmleſs
+              <lb/>effects of the leaves of this plant when young and tender, it <lb/>appears from
+              the real experiments made by Matthiolus <w part="I">up-</w><lb/><w part="F">on</w>
+              condemned malefactors with its <hi rend="italic">root alone,</hi> that the fatal
+              <lb/>effects of it could not be prevented by any antidotes he was <lb/>acquainted
+              with. —The moſt effectual <hi rend="italic">corrector</hi> of <w part="I"
+                >vege-</w><lb/><w part="F">table</w> poiſons in general the writer has yet found
+              out, in <lb/>the courſe of his experiments, is a pure vegetable acid, or <lb/>vinegar
+              of wood; the proceſs for obtaining which was <w part="I">ori-</w><lb/><w part="F"
+                >ginally</w> publiſhed by Glauber, (an ingenious chymiſt, but <lb/>a wretched
+              philoſopher) in the firſt part of his <hi rend="italic">Philoſophical
+                <lb/>Furnaces,</hi> where he ſhews profeſſedly how to diſtil an acid <lb/>ſpirit or
+              vinegar from all vegetables, in great quantity, and <lb/>at a ſmall expence. </p>
+          </note>: By which laſt alone, under a proper <w part="I">die-</w><pb xml:id="page_29"
+            n="30"/><lb/><w part="F">tetic</w> regimen, and the occaſional uſe of theſe <lb/>pills,
+          he has known inveterate chronic diſeaſes <pb xml:id="page_30" n="31"/><lb/>cured, which
+          had baffled all the powers of <w part="I">me-</w><lb/><w part="F">dicine</w>. <pb
+            xml:id="page_31" n="32"/>
+        </p>
+        <p rend="indent"><lb/>Nor is it irrational to ſuppoſe, from the <lb/>known antiſcorbutic
+          properties of this <w part="I">compoſi-</w>
+          <pb xml:id="page_32" n="33"/><lb/><w part="F">tion</w>,that it might prove a ſalutary <w
+            part="I">prophylac-</w><lb/><w part="F">tic</w>, or preventive of the <hi rend="italic"
+            >marine ſcurvy,</hi> in <w part="I">ſea-</w>
+          <pb xml:id="page_33" n="34"/><lb/><w part="F">faring</w>people:—The propriety of this <w
+            part="I">ſup-</w><lb/><w part="F">poſition</w> is, in fact, confirmed by atteſted <w
+            part="I">ſuc-</w>
+          <pb xml:id="page_34" n="35"/><lb/><w part="F">ceſsful</w>experiments made of it, by two
+          very <lb/>able ſea-ſurgeons —But, on this head, the <w part="I">au-</w><lb/><w part="F"
+            >thor</w> can ſay nothing from his own experience—<lb/><hi rend="italic">his</hi> ſole
+          criterion of the <hi rend="italic">real</hi> powers of medicine: <lb/>And by this
+          criterion, he honeſtly confeſſes, he <lb/>has found ſeveral elaborate preparations of his
+          <lb/>own, (for he too was formerly an indefatigable <lb/>labourer in the curious <foreign
+            xml:lang="el">###Greek omitted###</foreign> of medicine, <lb/>ſearching after a
+          ſuccedaneum to the tree of <lb/>life) as well as the moſt pompouſly <w part="I"
+            >authenti-</w><lb/><w part="F">cated</w>
+          <hi rend="italic">ſecifics,</hi> in <hi rend="italic">chronic diſeaſes,</hi> that have
+          been<lb/>exhibited to the public, for thirty years paſt, <lb/>deplorably wanting, and
+          inadequate, not only <lb/>to the particular ends propoſed, but to the <w part="I"
+            >ge-</w><lb/><w part="F">nuine</w> ultimate end of phyſic in general—<foreign
+            xml:lang="el">###Greek </foreign><lb/><foreign xml:lang="el">omitted###</foreign>; not
+          excepting even <hi rend="italic">thoſe</hi> of the <lb/>learned <hi rend="italic">Vienna
+            Auſtrian</hi> ſchool—to which the <lb/>diſtinguiſhing palm—the ſupreme eclat of <hi
+            rend="italic">work-<lb/>ing wonders,</hi> in <hi rend="italic">regular practice,</hi>
+          has, by the <lb/>united ſuffrage of the faculty in Europe, been <lb/>deſervedly given of
+          late years. <pb xml:id="page_35" n="36"/>
+        </p>
+        <p rend="indent"><lb/>By the ſame criterion, he is convinced of the <lb/>poſſibility of
+          diſcovering a <hi rend="italic">remedy,</hi> which would <lb/>immediately cure a <hi
+            rend="italic">fever,</hi> the moſt violent and <lb/>dangerous ſymptom attending certain
+            <hi rend="italic">acute <w part="I">diſ-</w><lb/><w part="F">caſes</w>.</hi>
+        </p>
+        <p rend="indent"><lb/>The celebrated profeſſor <hi rend="italic">Pitcairn</hi> long ago
+          <lb/>publiſhed to the world his notion of ſuch a <w part="I">re-</w><lb/><w part="F"
+            >medy</w>, as a grand <hi rend="italic">deſideratum</hi> in phyſic: And <lb/>an
+          illuſtrious ſucceſſor of his, in the ſame <w part="I">pro-</w><lb/><w part="F"
+            >feſſorial</w> chair, <hi rend="italic">Boerhaave,</hi> uſed often, in his <lb/>public
+          lectures, to ſpeak of the poſſibility of <lb/>diſcovering a remedy that might cure moſt or
+          <lb/>all acute febrile diſeaſes; and actually <w part="I">recom-</w><lb/><w part="F"
+            >mended</w> the trial of medicines compoſed of <hi rend="italic">an-<lb/>timony</hi> and
+            <hi rend="italic">mercury,</hi> ("ad magnam <w part="I">penetrabili-</w><lb/><w part="F"
+            >tatem</w> arte deductis") for that purpoſe.—The <lb/>author is in poſſeſſion of a <hi
+            rend="italic">remedy,</hi> without <hi rend="italic">an-<lb/>timony, mercury,</hi> or
+          any other <hi rend="italic">mineral,</hi> in its <lb/>compoſition, which he believes will
+            <w part="I">immediate-</w><lb/><w part="F">ly</w> cure a <hi rend="italic">fever, in its
+            incipient ſtate:</hi> That it <lb/>has been uſed, with great ſucceſs, at <hi
+            rend="italic">Conſtanti-<lb/>nople,</hi> and other places in <hi rend="italic"
+            >Turky,</hi> in carrying off <lb/>the <hi rend="italic">plague</hi> itſelf, when
+          adminiſtered on the firſt <lb/>appearance of the ſymptoms, he is aſſured by a
+          <lb/>traveller, of great learning and curioſity, to <lb/>whoſe friendly communication he
+          owes his <lb/>knowledge of it. </p>
+        <p rend="indent"><lb/>The prevailing <hi rend="italic">hypotheſis,</hi> that a <hi
+            rend="italic">fever</hi> is '<hi rend="sc"><w part="I">Na-</w><lb/><w part="F"
+              >ture's</w></hi> inſtrument to expel an enemy;' or, in <pb xml:id="page_36" n="37"
+          /><lb/>other words, that 'every fever is its own cure,' <lb/>and conſequently, that no
+          medicine can be ſaid, <lb/>in ſtrict propriety, to cure a fever, was <w part="I"
+            >origi-</w><lb/><w part="F">nally</w> invented by <hi rend="italic">Aſclepiades,</hi>
+          (that finiſhed <lb/>maſter in the <foreign xml:lang="el">###Greek omitted###</foreign>)
+          above eighteen <lb/>hundred years ago<note place="bottom" n="*">* The very learned and
+            ingenious Dr. Middleton, in his <lb/>'Diſſertation on the ſtate of phyſicians among the
+            old <w part="I">Ro-</w><lb/><w part="F">mans</w>,' makes Aſclepiades cotemporary with
+            Cicero; who, <lb/>in his firſt dialogue <hi rend="italic">de Oratore,</hi> introduceth
+            Lucius Craſſus <lb/>ſpeaking of him as his intimate friend and phyſician—<lb/>"Neque
+            vero Aſclepiades, is, ſays he, quo nos medico <lb/>amicoque uſi ſumus, tum, cum
+            eloquentia vincebat <w part="I">cæte-</w><lb/><w part="F">ros</w> medicos, in eo ipſo
+            quod ornate dicebat, medicinæ <w part="I">fa-</w><lb/><w part="F">cultate</w> utebatur,
+            non eloquentiæ."—He likewiſe aſſerts, <lb/>that when Aſclepiades came firſt to Rome, he
+            knew nothing <lb/>of phyſic; contrary to the expreſs teſtimony of Cælius <w part="I"
+              >Au-</w><lb/><w part="F">relianus</w>, Oribaſius, and other authentic documents, from
+            <lb/>which it plainly appears, that he practiſed phyſic at Parium, <lb/>and other cities
+            bordering upon the Helleſpont, and even <lb/>at Athens, (where we find him treated with
+            particular <lb/>marks of diſtinction by the celebrated philoſopher <w part="I"
+              >Antio-</w><lb/><w part="F">chus</w> Academicus, afterwards preceptor to Cicero) long
+              <w part="I">be-</w><lb/><w part="F">fore</w> he ſettled at Rome. The Doctor's other
+            aſſertion, <w part="I">re-</w><lb/><w part="F">ſpecting</w> the friendſhip and intimacy
+            between Aſclepiades <lb/>and Cicero, includes a manifeſt anachroniſm, really <w part="I"
+              >ſur-</w><lb/><w part="F">prizing</w> in ſo great a critic, more eſpecially in one who
+            has <lb/>elſewhere given ſuch ample proofs of his knowledge in the <lb/>biographical
+            hiſtory of thoſe times; and what adds to our <lb/>wonder on this occaſion is, that he
+            quotes the above paſſage <lb/>from Cicero's <hi rend="italic">Orator</hi> in ſupport of
+            it: But whoever will <lb/>be at the trouble of comparing the genuine memoirs <w part="I"
+              >anti-</w><lb/><w part="F">quity</w> has given of the life, ſocial connexions, and
+            death, of <lb/>L. Craſſus, one of the principal interlocutors in the <hi rend="italic"
+              >Ora-<lb/>tor,</hi> and the ingenious account the Doctor himſelf gives of <lb/>thoſe
+            highly finiſhed and truely admirable dialogues, in his <lb/>hiſtory of Cicero's life,
+            with that remarkable quotation of <lb/>Sextus Empiricus—<hi rend="italic">adverſus
+              Logicos, ſect.</hi> 201—from a <w part="I">ce-</w><lb/><w part="F">lebrated</w> work
+            of the juſt-mentioned Antiochus, publiſhed <lb/>much about the ſame time the ſcene of
+            theſe <hi rend="italic">dialogues</hi> was <lb/>laid at the <hi rend="italic"
+              >Tuſculanum</hi> of Craſſus, [i. e. in the year of Rome <lb/>66z, when Craſſus, who
+            died ſoon after, was 56 years old, <lb/>and Cicero but a youth of ſixteen] in which he
+            makes <w part="I">ho-</w><lb/><w part="F">nourable</w> mention of Aſclepiades, but as
+            who had been <lb/>ſome time dead—I ſay, whoever collates theſe ſeveral <lb/>accounts,
+            will preſently diſcover Doctor Middleton's <w part="I">pal-</w><lb/><w part="F"
+              >pable</w> miſinterpretation of this paſſage in Cicero.—This <lb/>Aſclepiades was
+            indiſputably the greateſt maſter antiquity <lb/>can count in the <hi rend="italic"
+              >medicina politica:</hi> By a peculiar attention <lb/>to the paſſions, and foibles of
+            human nature, he was <w part="I">ena-</w><lb/><w part="F">bled</w> to diſcover an
+            univerſal propenſion in mankind to be <lb/>deceived—From thence he took the hint of <hi
+              rend="italic">advancing his <lb/>fortune,</hi> by cultivating this <hi rend="italic"
+              >ductile propenſion</hi> to the higheſt <lb/>pitch it was capable of; and in defence
+            of this practice the <lb/>following argument was originally invented, and <w part="I"
+              >occaſio-</w><lb/><w part="F">nally</w> urged—<hi rend="italic">Si populus vult
+              decipi, decipiatur;</hi> which has <lb/>been uſed, on ſimilar occaſions, ever ſince.
+            He firſt <w part="I">in-</w><lb/><w part="F">vented</w> the <hi rend="italic">lecti
+              penſiles,</hi> or hanging beds, in which the ſick <lb/>might, with great facility, be
+            rocked to ſleep. Theſe anodyne <lb/>machines of his took prodigiouſly: Many of his
+            <lb/>noble patients had them made of ſilver; and they <w part="I">after-</w><lb/><w
+              part="F">wards</w> became a conſiderable part of the Roman luxury. <p rend="indent"
+              ><lb/>Notwithſtanding the boundleſs ſtrife of opinions that <w part="I">un-</w><lb/><w
+                part="F">happily</w> attended phyſic after the death of its great parent <lb/><hi
+                rend="italic">Hippocrates,</hi> the ancient pharmacy ſtill preſerved its <w part="I"
+                >foot-</w><lb/><w part="F">ing</w>, in ſome degree, as likewiſe the Hippocratic
+              doctrine, <lb/>till this <hi rend="italic">arch-craftſman</hi> of the profeſſion had
+              the cunning <lb/>and addreſs to demoliſh the whole, calling it, in deriſion, <lb/>'a
+              meditation upon death.'—He made the whole <hi rend="italic">materia <lb/>medica</hi>
+              to conſiſt only of ſuch things as would give eaſe, and <lb/>exhilerate the ſpirits of
+              the patient: Nay, in certain caſes <lb/>he adminiſtered to the luxury of his patients,
+              and indulged <lb/>them in the uſe of wine, even to intoxication. This <w part="I"
+                >flat-</w><lb/><w part="F">tering</w> of the palate, in conjunction with his new
+              amuſive <lb/>inventions, and a lucky accident of his diſcovering ſome <lb/>ſigns of
+              life in a man that was carrying to be buried, whom <lb/>he ſoon recovered, and whom
+              the people were perſuaded to <lb/>believe he had raiſed from the dead, conſpired to
+              make him <lb/>the ſupreme archiater of thoſe times; and what ſtill farther
+              <lb/>contributed to eſtabliſh him in this elevated ſtation, was <lb/>his having
+              publicly challenged the Fates, by conſtantly <w part="I">de-</w><lb/><w part="F"
+                >claring</w> that he ſhould never be viſited by any bodily <w part="I"
+                >di-</w><lb/><w part="F">ſtemper</w>. Nay, Pliny the hiſtorian informs us, he held
+              <lb/>diſeaſes and prematurity of death ſo much in defiance, that he <lb/>would
+              frequently, amongſt his acquaintances, offer to <lb/>lay any wager, and even to ſtake
+              his whole fortune, that he <lb/>ſhould never be ſick, as in fact he never was, not
+              even at <lb/>the time of his death; for that he broke his neck by a fall <lb/>down a
+              pair of ſtairs. </p>
+          </note>. But this hypotheſis, <w part="I">how-</w>
+          <pb xml:id="page_37" n="38"/><lb/><w part="F">ever</w> ſpecious, however recommended, by
+          the ſanction of antiquity, and the later authority of <pb xml:id="page_38" n="39"
+          /><lb/>great names, has always appeared to the author <lb/>unſupported by Reaſon and <hi
+            rend="sc">Facts</hi>.—The moſt <lb/>plauſible argument he has met with, in favour
+          <lb/>of this <hi rend="italic">theory,</hi> is, that in acute diſeaſes of the
+          <lb/>eruptive kind, and particularly in the <hi rend="italic">ſmall-pox,</hi>
+          <lb/>'as ſoon as the morbific matter is expelled to <lb/>the ſurface of the body, the
+          fever ceaſes:" <lb/>therefore, 'the fever is an effort of <hi rend="sc">Nature</hi>
+          <lb/>to relieve herſelf.' But it is well known to <lb/>every experienced practitioner,
+          that the leſs the <pb xml:id="page_39" n="40"/><lb/>fever is in the natural ſmall-pox, the
+          fewer will <lb/>be the puſtules, and the variolous matter more <lb/>happily expelled; or,
+          according to our great <lb/><hi rend="italic">Sydenbam, [Angliæ lumen, artis Phæbum]</hi>
+          "Quo <lb/>ſedatior eſt ſanguis eo melius erumpent <w part="I">puſ-</w><lb/><w part="F"
+            >tulæ</w>." </p>
+        <p rend="indent"><lb/>It has indeed been a received opinion, almoſt <lb/>ever ſince the
+          firſt appearance of the ſmall-<lb/>pox<note place="bottom" n="*">* The ſmall-pox was firſt
+            deſcribed, and treated of by <lb/><hi rend="italic">Aaron</hi> of <hi rend="italic"
+              >Alexandria,</hi> in his <hi rend="italic">Pandects of phyſic,</hi> which he
+            <lb/>publiſhed about the middle of the <hi rend="italic">ſeventh century,</hi>
+            <w part="I">accord-</w><lb/><w part="F">ing</w> to <hi rend="italic">Haly Abbas</hi>'s
+            account. But as the original works of <lb/>this author, in the Syriac tongue, and the
+            Arabic <w part="I">tranſla-</w><lb/><w part="F">tion</w> of them by Maſerjawaihus, are
+            both loſt, and nothing <lb/>of them now remains, but ſome extracts, which <hi
+              rend="italic">Mohamed <lb/>Rhazes</hi> has left us in his <hi rend="italic"
+              >Continens;</hi> we have no certain <w part="I">ac-</w><lb/><w part="F">count</w>
+            extant of the preciſe æra of this diſeaſe, nor in what <lb/>country it firſt appeared.
+            The moſt probable opinion is, <lb/>that it had its riſe in <hi rend="italic">Arabia
+              Fælix,</hi> and was brought from <lb/>thence to <hi rend="italic">Alexandria</hi> by
+            the <hi rend="italic">Arabs,</hi> when they took that <lb/>city, A. D. 640, in the reign
+            of <hi rend="italic">Omar Ebnol Chatab,</hi> the <lb/>ſecond ſucceſſor to <hi
+              rend="italic">Mohamed:</hi> For <hi rend="italic">Paulus</hi> of <hi rend="italic"
+              >Ægina,</hi> who <lb/>lived at <hi rend="italic">Alexandria</hi> about <hi
+              rend="italic">twenty years</hi> before, makes no <lb/>mention of it in his works;
+            though he aſſures us, in his <lb/>preface, that he had treated of every diſeaſe <hi
+              rend="italic">then</hi> known. <lb/>From this time, the ſmall-pox ſpread, with amazing
+              <w part="I">rapi-</w><lb/><w part="F">dity</w>, wherever the <hi rend="italic"
+              >Saracens</hi> extended their conqueſts: <w part="I">Weſt-</w><lb/><w part="F"
+              >ward</w> into <hi rend="italic">Spain,</hi> about 30 years after, according to <hi
+              rend="italic">Ockley;</hi>
+            <lb/>and eaſtward as far as <hi rend="italic">Japan,</hi> whither it was carried near
+            <lb/>the ſame time, as <hi rend="italic">Kæmpfer</hi> informs us.—Reſpecting the
+            <lb/>practice of the celebrated <hi rend="italic">Rhazes</hi> above-mentioned, it may
+            <lb/>not be impertinent to remark, on this occaſion, that he <lb/>carried the <hi
+              rend="italic">cold regimen</hi> farther than it has been ever carried <lb/>ſince, even
+            by Mr. Sutton himſelf, as evidently appears <lb/>from his method of treating the <hi
+              rend="italic">ſmall-pox</hi> and <hi rend="italic">meaſles.</hi>
+          </note> in Europe, that 'a certain degree of <w part="I">fe-</w><pb xml:id="page_40"
+            n="41"/><lb/><w part="F">ver</w> is always required, to concoct, ſeparate, <lb/>and
+          expel, the vitiated and infectious matter.' <lb/>But Mr. <hi rend="italic">Sutton</hi>
+          (the reputed author of the new <lb/>method of inoculation; though, by the bye, <lb/>the
+          very ſame method, <hi rend="italic">in every eſſential point,</hi>
+          <lb/>was practiſed by <hi rend="italic">Mr. Glaſs,</hi> an eminent ſurgeon <lb/>in the
+          univerſity of Oxford, long before Mr. <lb/>Sutton was known) has fully demonſtrated, by
+          <lb/>many thouſands of ſucceſſful experiments, that <lb/>the <hi rend="italic">fever</hi>
+          in this diſeaſe is ſo far from being <lb/>'<hi rend="sc">Nature's</hi> inſtrument to expel
+          an enemy,' <lb/>that <hi rend="italic">itſelf</hi> is her greateſt enemy; and <w part="I"
+            >conſe-</w><lb/><w part="F">quently</w> ought to be <hi rend="italic">prevented,</hi> or
+            <hi rend="italic">extinguiſhed</hi><note place="bottom" n="*">* [<foreign xml:lang="el"
+              >###Greek omitted###</foreign>. <hi rend="italic">Hippocr.</hi>] </note>
+          <lb/>immediately. And, in his peculiar attention to <lb/>this ſingle point, the author has
+          ſufficient reaſon <lb/>to believe Mr. Sutton's <hi rend="sc">superior</hi> ſucceſs wholly
+          <lb/>conſiſts: For, having had many favourable <lb/>opportunities, during ſeveral years,
+          of <w part="I">aſcer-</w><lb/><w part="F">taining</w>, by means of a moſt accurately-made
+            <lb/><hi rend="italic">pyranthropometer,</hi> the natural heat of the body, <lb/>in Mr.
+          Sutton's patients, when in perfect health, <lb/>immediately before their entering on his
+            <w part="I">prepa-</w><lb/><w part="F">ratory</w> courſe, and afterwards during the <w
+            part="I">pro-</w><lb/><w part="F">gress</w> of the diſeaſe; he found, in a variety of
+          <lb/>inſtances of a <hi rend="italic">compleat</hi> and <hi rend="italic">regular</hi>
+          ſmall pox, <pb xml:id="page_41" n="42"/><lb/>the bodily heat, when at the higheſt, from
+          ſix <lb/>to fourteen <hi rend="italic">degrees</hi> below <hi rend="italic">that</hi> of
+          perfect health. </p>
+        <p rend="indent"><lb/>The moſt diſtinguiſhed ancient phyſicians of <lb/>the <hi
+            rend="italic">Hippocratic</hi> ſchool, had no other <hi rend="italic">idea</hi> of a
+          <lb/>fever than <hi rend="italic">that</hi> of their great maſter—viz. a <lb/><hi
+            rend="italic">fiery</hi> or <hi rend="italic">preternatural heat.</hi> This
+          preternatural <lb/>heat they conceived of, as a <hi rend="italic">ſymptom,</hi> the cure
+          <lb/>of which was the province of the phyſician; <lb/>whilſt the removing, and carrying
+          off, the <hi rend="italic">pri-<lb/>mary cauſe</hi> of this ſymptom, that is, the cure of
+          <lb/>the <hi rend="italic">diſeaſe,</hi> was conſidered chiefly as the work <lb/>of
+          NATURE. Now, the <hi rend="italic">primary cauſe</hi> of every <lb/>fever is, as the
+          author conceives, ſome <hi rend="italic">ſtimulant <lb/>or acrid matter ſpaſmodically
+            affecting the vaſcular <lb/>and nervous ſyſtem:</hi> Whether this matter be, 1ſt. A
+            <lb/><hi rend="italic">foreign ſubſtance</hi> lodged in the fleſh—2dly, A <lb/><hi
+            rend="italic">putrid fomes</hi> abſorbed into the habit, from <w part="I"
+            >gun-</w><lb/><w part="F">ſhot</w> wounds, &amp;c. in removing theſe two cauſes,
+            <lb/><hi rend="sc">Nature</hi> may often require the <hi rend="italic">ſurgeon's</hi>
+          helping <lb/>hand—3dly, <hi rend="italic">Deleterious miaſmata</hi> reſiding in the
+          <lb/>air—4thly, A <hi rend="italic">putrid fomes</hi> of any kind, <w part="I"
+            >produ-</w><lb/><w part="F">cing</w> an <hi rend="italic">acrimonious</hi> ſtate of the
+          fluids—5thly, <lb/><hi rend="italic">Purulent matter</hi> lodged in the body, from <w
+            part="I">inter-</w><lb/><w part="F">nal</w> ſuppurations—Or, 6thly, <hi rend="italic"
+            >external cold,</hi> or, <lb/>what is uſually called <hi rend="italic">catching of
+            cold.</hi> This laſt <lb/>mentioned, and, perhaps, moſt frequent cauſe of <lb/>fevers,
+          has been generally ſuppoſed to be the <lb/><hi rend="italic">materia perſpirabilis</hi> of
+            <hi rend="italic">Sanctorius</hi><note place="bottom" n="*">* The doctrine of
+            perſpiration, though it owes its name, <lb/>and preſent eſtabliſhment, to Sanctorius,
+            was not unknown <lb/>to the ancient Greek phyſicians. <hi rend="italic">Hippocrates</hi>
+            believed all <lb/>the ſurfaces of the parts of a human body, as well thoſe of <lb/>the
+            muſcles and viſcera, as of the skin, to be naturally in a <lb/>continual ſtate of
+            perſpiration.—The following remarkable <lb/>obſervation is <hi rend="italic"
+            >Galen</hi>'s (<hi rend="italic">Lib.</hi> 6. <hi rend="italic">de tuenda ſanitate</hi>)
+            "Proſpi-<lb/>ciendum eſt, ut eorum quæ eduntur et bibuntur, reſpectu <lb/>eorum quæ
+            expelluntur, conveniens mediocritas ſervetur: <lb/>Sane is modus ſervabitur, ſi
+            ponderabitur a nobis in <w part="I">utriſ-</w><lb/><w part="F">que</w> quantitas." <p
+              rend="indent"><lb/>From this paſſage in Galen, Sanctorius undoubtedly <lb/>took the
+              firſt hint of his <hi rend="italic">ſtatical</hi> experiments for <w part="I"
+                >aſcertain-</w><lb/><w part="F">ing</w> the daily waſte of the animal fluids, made
+              by the <w part="I">out-</w><lb/><w part="F">lets</w> of the external ſuperficies of
+              the body, and by the <lb/>lungs: But it is impoſſible to aſcertain the quantity of
+              this <lb/>waſte, without knowing, at the ſame time, the quantity of <lb/>moiſture,
+              &amp;c. abſorbed or imbibed by the pores of the skin <lb/>and lungs; <hi rend="italic"
+                >which Sanctorius did not advert to:</hi> For the <lb/>author of this, after violent
+              exerciſe in riding, <w part="I">notwith-</w><lb/><w part="F">ſtanding</w> a great
+              expence of perſpirable matter, and no food <lb/>taken, has, in certain conſtitutions
+              of the air and <w part="I">atmo-</w><lb/><w part="F">ſphere</w>, facilitating the <hi
+                rend="italic">cutaneous immiſſions,</hi> often found <w part="I">him-</w><lb/><w
+                part="F">ſelf</w>, by moſt exact ſtatical experiments, many ounces, <w part="I"
+                >ſome-</w><lb/><w part="F">times</w> twenty and upwards heavier than he was before.
+              Hence <lb/>it appears, that all we can with certainty diſcover, <w part="I"
+                >reſpect-</w><lb/><w part="F">ing</w> the quantity of <hi rend="italic"
+                >ſanctorian</hi> perſpiration, by experiments <lb/>of this kind, is, the difference
+              between the <hi rend="italic">exhalata</hi> and the <lb/><hi rend="italic"
+                >inhalata,</hi> that is, between the perſpirable matter we exhale <lb/>from the
+              pores of the skin and lungs, and whatever we <lb/>imbibe or inhale through the ſame:
+              For exhalation and <w part="I">in-</w><lb/><w part="F">halation</w> ſo confound each
+              other as to render it impoſſible to <lb/>aſcertain the exact quantity of either; as
+              the author <w part="I">pur-</w><lb/><w part="F">poſes</w>, in a ſhort time, to
+              demonſtrate more at large to the <lb/>medical reader. </p>
+          </note>, retained in <pb xml:id="page_42" n="43"/><lb/>the body, or, as it is commonly
+          expreſſed, <hi rend="italic">ob-<lb/>ſtructed perſpiration:</hi> But a courſe of <hi
+            rend="italic">ſtatical</hi>
+          <w part="I">ex-</w>
+          <pb xml:id="page_43" n="44"/><lb/><w part="F">periments</w> inſtituted principally with a
+          view to <lb/>aſcertain this doctrine, and regularly proſecuted <lb/>with a moſt ſcrupulous
+          exactneſs, for eighteen <lb/>months, fully convinced the author, many <lb/>years ago, (as
+          a ſimilar courſe of experiments, <lb/>proſecuted, for one year, at <hi rend="italic"
+            >Charles-Town, <lb/>South-Carolina,</hi> in like manner convinced his <lb/>ingenious
+          friend and fellow-labourer Dr. <hi rend="italic">Lining</hi>) <lb/>that no fever is cauſed
+          merely by obſtructed <lb/>perſpiration. </p>
+      </div>
+      <gap reason="sampling" unit="pages" quantity="6"/>
+    </body>
+    <gap reason="sampling" unit="pages" quantity="1"/>
+  </text>
+</TEI>

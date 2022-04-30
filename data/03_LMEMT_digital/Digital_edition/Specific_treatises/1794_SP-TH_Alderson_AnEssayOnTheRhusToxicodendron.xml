@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> LMEMT Corpus - Anonymous: An essay on the rhus toxicodendron</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>Anonymous</persName>
+            </author>
+            <title type="main">An essay on the rhus toxicodendron, pubescent poison oak, or sumach,
+              with cases shewing it's efficacy in the cure of paralysis, and Other Diseases of
+              Extreme Debility. By John Alderson, M. D. Member of the Royal Medical Society,
+              Edinburgh; -Philosophical and Literary Society; Newcastle And Physician to the General
+              Infirmary at Hull.</title>
+            <edition n=""/>
+            <idno type="ESTC">N582</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/N582"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>Hull</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>Hull: printed and sold by Rawson and Co. Sold also by J. Johnson, St.
+                  Paul's Church Yard, London; and W. Creech, Edinburgh</persName>
+              </publisher>
+              <date>1794</date>
+            </imprint>
+            <extent>
+              <measure type="format">8⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="3"/>
+              <measure type="count" commodity="body" unit="page" quantity="34"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">National Library of Medicine</orgName>
+            <idno type="ECCO">CW3308560568</idno>
+            <idno type="TCP">K000343.000</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Book on a specific topic: medicine"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text xml:lang="eng">
+    <front>
+      <div>
+        <pb xml:id="page_1"/>
+        <figure>
+          <figDesc>depiction of a rhus toxicodendron (poison oak)</figDesc>
+        </figure>
+      </div>
+      <div>
+        <pb xml:id="page_3"/>
+
+        <head rend="align-center space"><lb/>TO <lb/><hi rend="sc size(1.5)">JOHN WIDDRINGTON </hi>,
+            <hi rend="dc(2)">Eſq.</hi><lb/> OF HAUXLEY,<lb/> IN THE<lb/>
+          <hi rend="italic dc(2)">County of Northumberland,</hi><lb/> PRESIDENT of the LITERARY and
+          PHILOSOPHICAL <lb/>SOCIETY at NEWCASTLE, </head>
+
+        <p rend="indent"><lb/>IN TESTIMONY OF THE ESTEEM WHICH THE AUTHOR FEELS, AND AS A MARK OF <w
+            part="I">FRIEND-</w><lb/><w part="F">SHIP</w>, NATURALLY OCCASIONED BY A FAMILY
+          CONNECTION WITH SO AMIABLE A CHARACTER, THIS ESSAY IS, WITH SINCERE REGARD, </p>
+        <p rend="indent"><lb/>INSCRIBED. </p>
+        <dateline>HULL, Dec. 31, 1793. </dateline>
+      </div>
+    </front>
+    <body>
+      <pb xml:id="page_4"/>
+      <p rend="indent"><lb/>A diſtinguiſhing feature of the preſent times, in a medical point of
+        view, is the prevalence of nervous diſorders, and a great increaſe of paralytic affections.
+        Their origin is not difficult to be aſcertained. A <w part="I">deter-</w><lb/><w part="F"
+          >mination</w> appears to pervade all ranks, to call forth into immediate action all the <w
+          part="I">re-</w><lb/><w part="F">ſources</w> of exiſtence, by an employment of the moſt
+        powerful agents; and, in the <w part="I">gra-</w><lb/><w part="F">tification</w> of a
+        moment, to riſque their whole ſtock of nervous energy. To ſuch inordinate movements, kept up
+        by a repeated uſe of the moſt active ſtimulants, may we juſtly look for the cauſe of that
+        derangement, which phyſicians have to encounter under the multiplied forms of nervous
+        debility. <pb xml:id="page_5" n="2"/>Various chemical, pncumatic, and <w part="I"
+          >mecha-</w><lb/><w part="F">nical</w> operations, it is well known, are <w part="I"
+          >con-</w><lb/><w part="F">ſtantly</w> going forward in the human body: and when any of
+        theſe is too much <w part="I">accele-</w><lb/><w part="F">rated</w>, or precipitately urged,
+        the machine itſelf is deſtroyed, or is rendered uſeleſs. Strongly incited to animal
+        gratifications, men become inſenſible to the condition of their preſent exiſtence, which, ſo
+        far from implying an inceſſant ſeries of pleaſures, in many caſes ſeems to produce the
+        higheſt <w part="I">en-</w><lb/><w part="F">joyments</w> by preceding pain; thus inculcating
+        upon human creatures the neceſſity of <w part="I">tem-</w><lb/><w part="F">perance</w>, and,
+        in many inſtances, the utility of ſelf-denial. However, as was ſaid, but fewattend to the
+        admonitions of their animal conſtitution. They aim at acquiring what Nature, more provident
+        than they, has <w part="I">pro-</w><lb/><w part="F">hibited</w> to be attained; and by a
+        laviſh uſe of wine, ſpirits, or laudanum, endeavour to procure to themſelves the power of <w
+          part="I">perpe-</w><lb/><w part="F">tual</w> enjoyment. They bid defiance to the <pb
+          xml:id="page_6" n="3"/>warnings of experience in the fate of others: and ſolicitous only
+        to appear replete with ſpirit and animation in the eyes of thoſe with whom they aſſociate,
+        (who probably have recourſe to the ſame incitements) they continue to urge on the proceſſes
+        of life, till ſome part of the apparatus gives way, and they ſuddenly feel all the ſymptoms
+        of a <w part="I">ru-</w><lb/><w part="F">ined</w> conſtitution, not to be repaired by the
+        utmoſt efforts of medical skill. Hence <w part="I">pro-</w><lb/><w part="F">ceed</w> that
+        train of nervous ſymptoms, which no leſs impede the operations of the mind, than occaſion
+        painful bodily ſenſations: <w part="I">ſen-</w><lb/><w part="F">ſations</w> ſo acute, as to
+        drive the unhappy victims into the hands of daring empirics, to whoſe pretended skill they
+        too often <w part="I">ſa-</w><lb/><w part="F">crifice</w> thoſe lives and fortunes, which
+        ought to have been devoted to the good of their connections. </p>
+      <p rend="indent"><lb/>In the proſecution of my ſubject, I ſhall endeavour carefully to avoid
+        every thing <pb xml:id="page_7" n="4"/>that has the appearance of abſtract <w part="I"
+          >ſpe-</w><lb/><w part="F">culation</w>. I wiſh only to announce what, I conceive, will
+        prove a benefit to the public, in alleviating ſome of the moſt <w part="I">di-</w><lb/><w
+          part="F">ſtreſſing</w> diſorders, that are incident to the human frame. I will ſimply
+        relate what has taken place under my own obſervation. I will not attempt to account for the
+          <hi rend="italic">modus operandi</hi> of the plant, which is the ſubject of the preſent
+        eſſay; nor take upon me to decide whether it acts by renewing the <w part="I">ir-</w><lb/><w
+          part="F">ritability</w> of the ſyſtem, or only by giving energy to the natural powers: nor
+        ſhall I preſume to determine whether the nerves, acting as conductors of electricity, are,
+        by its means, made capable of tranſmitting a larger quantity of this ſubtile fluid through
+        the whole frame, as Aurum Muſivum, when applied to the rubber of an electrical <w part="I"
+          >appa-</w><lb/><w part="F">ratus</w>, enables the cylinder to accumulate a much larger
+        quantity of that agent—It is <pb xml:id="page_8" n="5"/>my intention only, by the relation
+        of facts, to eſtabliſh the uſe of this powerful drug in thoſe diſorders, which uſually
+        attend upon an enervated conſtitution. As the plant is not to be found in our Materia Medica
+        at preſent, I ſhall, as briefly as poſſible, deſcribe it, give it's hiſtory, and relate the
+        caſes in which I have ſucceſſfully employed it; in hopes that the faculty will be induced to
+        make a fair trial of it, and, if found worthy of further notice, that they will furniſh the
+        world with the reſult of their obſervations. </p>
+      <p rend="indent"><lb/>My firſt acquaintance with the ſubject of this eſſay began while I was
+        examining, about four years ago, the plants in the Nurſery Grounds at Cottingham. I was told
+        by the proprietor, of the wonderful effect of the Poiſon Oak; that, if touched by the
+        fingers, and not immediately waſhed off, the acrimony it imparts would be <pb
+          xml:id="page_9" n="6"/>retained for a long time; that ſhould a perſon accidentally touch
+        his eyelids, or any part of the body where the skin uſually corrugates, whilſt the virulence
+        of the deleterious particles thus contracted <w part="I">conti-</w><lb/><w part="F">nues</w>
+        unimpaired, a ſwelling and <w part="I">trouble-</w><lb/><w part="F">ſome</w> itching would
+        come on, and continue for ſome time; and that even ſome of his men had ſuffered ſo much as
+        to loſe ſuch parts of the skin by ſphacelation, as the acrid juice had touched. This <w
+          part="I">deter-</w><lb/><w part="F">mined</w> me to make further enquiries into it's
+        powers; and I ſoon after ſaw in the Analytical Review (to the conductors of which I beg
+        leave to make my <w part="I">acknow-</w><lb/><w part="F">ledgements)</w> ſome account of
+        experiments made in France, with the <hi rend="italic">Rhus Radicans,</hi> to which this
+        plant is cloſely allied, by Mons. Freſnoi; from which it appeared, that he had given the
+        diſtilled water and extract of this plant, in caſes of paralyſis of the lower extremities,
+        with ſucceſs. <pb xml:id="page_10" n="7"/>This information induced me to hope, that the
+        Sumach I now poſſeſſed, might be <w part="I">ex-</w><lb/><w part="F">hibited</w> with equal
+        advantage, in the ſame and ſimilar complaints: and though, in the form of diſtilled water
+        and infuſion I was not ſucceſſful, yet the event of the caſes ſubjoined, in which I have
+        given it in <w part="I">ſub-</w><lb/><w part="F">ſtance</w>, has made me ample amends. I
+        muſt, however, confeſs, that it's uſe has not been uniformly attended with complete ſucceſs.
+        Having always adviſed extreme caution in it's firſt exhibition, it has required a greater
+        length of time to produce the deſired effects, than the general impatience, which, I
+        apprehend, all medical men have to <w part="I">com-</w><lb/><w part="F">bat</w> with in
+        their practice, will allow; an impatience continually encreaſed by the bold advertiſers of
+        ſpecifics for the cure of every diſeaſe. </p>
+      <p rend="indent"><lb/>I have not found that an attempt has at any time been made in this
+        country, to aſcertain, by experiments, the power of the <pb xml:id="page_11" n="8"/><hi
+          rend="italic">Toxicodendron,</hi> as a medicine. In France it ſeems to have been made the
+        ſubject of enquiry for ſome time; for Monſieur Fontana, ſpeaks of the many celebrated
+          writers,<note place="bottom" n="†">† "Que les Ecrivains les plus celebres ont communément
+          regardé comme un poiſon tres puiſſant, quoique quelques Phyſiciens modernes ne l'aient pas
+          trouvé tel pour certains Ammaux." <hi rend="italic">Fontana.</hi>
+        </note> who have conſidered it as a moſt virulent poiſon. The experiments <w part="I"
+          >how-</w><lb/><w part="F">ever</w>, which he made upon animals, and has related, are not
+        neceſſary to be <w part="I">intro-</w><lb/><w part="F">duced</w> here, ſince I hold all
+        experiments on animals as inſignificant, and irrelevant to the effects of any medicine on
+        the human ſubject. And thoſe made on himſelf go to ſhew merely the manner in which it
+        affected the skin, and ſeem to have terrified<note place="bottom" n="*">* "Mais jai été
+          forcé d'abandonner, des le <w part="I">com-</w><lb/><w part="F">mencement</w> mes
+          recherches fur cette plante, parceque j'ai eu le malheur de m' en poiſonner moimeme par
+          trois fois de ſuite, avee ſes feuilles." <hi rend="italic">Fontana.</hi>
+        </note> him from any internal exhibition. </p>
+
+      <div>
+        <pb xml:id="page_12" n="9"/>
+        <head><lb/>RHUS TOXICODENDRON,<note place="bottom" n="*">* For the following botanical
+            deſcription of the TOXICODENDRON, I am much indebted to my truly ingenious friend, A. H.
+            HAWORTH, Eſq. late of <w part="I">Cotting-</w><lb/><w part="F">ham</w>, now of Little
+            Chelſea, whoſe indefatigable induſtry in inveſtigating and critical acumen in
+            diſtinguiſhing plants, I have frequently witneſſed. </note>
+          <hi rend="italic">PUBESCENT POISON-OAK,</hi> OR, SUMACH. </head>
+        <p rend="indent"><lb/>RHUS. <hi rend="italic">Lin. Gen. Pl.</hi> 369. <w part="I"
+            >PENTAN-</w><lb/><w part="F">DRIA</w> TRIGYNIA, <hi rend="italic">Flores inferi.</hi>
+        </p>
+        <p rend="indent"><lb/><hi rend="italic">Cal.</hi> 5. partitus. <hi rend="italic">Petala</hi>
+          5. <hi rend="italic">Bacca</hi> 1. Sperma. </p>
+        <p rend="indent"><lb/><hi rend="italic">Juſs. Gen. Pl.</hi> p. 369. </p>
+        <p rend="indent"><lb/><hi rend="italic">Tournef.</hi> 381. </p>
+        <p rend="indent"><lb/>Sectio ** foliis ternatis. </p>
+        <p rend="indent"><lb/>RHUS <hi rend="italic">Toxicodendron</hi> foliis ternatis: foliolis
+          petiolatis angulatis <w part="I">pube-</w><lb/><w part="F">ſcentibus</w>, <pb
+            xml:id="page_13" n="10"/>caule radicante, <hi rend="italic">Lin. Sp. Pl.</hi> 381. <hi
+            rend="italic">Syſt. Veg.</hi> ed. <hi rend="italic">Murr.</hi> p. 293. <hi rend="italic"
+            >Syſt. Veg. Lichf. Soc.</hi> v. 1. p. 230. <hi rend="italic">Syſt. Nat.</hi> ed. 13. <hi
+            rend="italic">Gmel. Tom.</hi> 2. 494. <hi rend="italic">Ait. Hort. Kew.</hi> v. 1. p.
+          367. <hi rend="italic">Walter Flo. Carolin.</hi> p. 255. <hi rend="italic">Gaert. de Fr.
+            et Sem. Cent.</hi> 3. t. 44. f. 5. <hi rend="italic">Bulliard. Herb. Franc.</hi> t. 143.
+            <hi rend="italic">Gron. Virg.</hi> 149. </p>
+        <p rend="indent"><lb/>RHUS foliis ternatis: foliolis petiolatis angulatis pubeſcentibus. <hi
+            rend="italic">Clayt. Flo. Virg.</hi> 46. </p>
+        <p rend="indent"><lb/>RHUS <hi rend="italic">Toxicodendron Hill's Hort. Kew.</hi> p. 453. </p>
+        <p rend="indent"><lb/>TOXICODENDRON. 2. <hi rend="italic">(pubeſcens.)</hi> foliis ternatis:
+          foliolis ovatis <w part="I">inciſo-</w><lb/><w part="F">angulatis</w> pubeſcentibus. <hi
+            rend="italic">Mill. Gard. Dict.</hi> ed. 6? <hi rend="italic">Mill. Gard. Cal.</hi> ed.
+          14. octavo. p. 166. </p>
+        <pb xml:id="page_14" n="11"/>
+        <p rend="indent"><lb/>TOXICODENDRON tryphyllum folio ſinuato pubeſcente. <hi rend="italic"
+            >Tournef. Inſt.</hi> 611. </p>
+        <p rend="indent"><lb/>TOXICODENDRON 2. <hi rend="italic">Boerh. Ind. Hort. Batt.</hi> 1727.
+          2. p. 229. </p>
+        <p rend="indent"><lb/>HEDERA Virginienſis trifolia. <hi rend="italic">Park. Theat.</hi> 679.
+          f. 5. </p>
+        <p rend="indent"><lb/>HEDERAE Trifoliae Canadenſi affinis Planta, Peregrina, arbor venenata
+          quorundam. <hi rend="italic">H. R. Par.</hi> 84. </p>
+        <p rend="indent"><lb/>HEDERAE Trifoliae Canadenſi affinis, <w part="I">ſur-</w><lb/><w
+            part="F">recta</w>, Arbor Tinctoria, virginiana multis. <hi rend="italic">Pluken
+            Alm.</hi> 181. H. </p>
+        <p rend="indent"><lb/>EDERA Trifolia Canadenſis. <hi rend="italic">Corn. Can.</hi> 96. t.
+          97. <hi rend="italic">Barr. Icon.</hi> 228. </p>
+        <p rend="indent"><lb/>VITIS Canadenſis. <hi rend="italic">Muntin Phytogr.</hi> t. 60. </p>
+        <pb xml:id="page_15" n="12"/>
+        <p rend="indent"><lb/>ARBOR Trifoliata venenata virginiana, folio hirſuto. <hi rend="italic"
+            >Raj. Hiſt.</hi> 1779. </p>
+        <p rend="indent"><lb/>THE Pubeſcent Poiſon-Oak or Sumach, is a deciduous ſhrub of moderate
+          growth, riſing to the height of about four feet, it is covered with a greyiſh coloured <w
+            part="I">ſome-</w><lb/><w part="F">what</w> ſtriated bark, which is uſually marked with
+          minute ſpots, or glandular <w part="I">appear-</w><lb/><w part="F">ances</w>, not greatly
+          unlike the effect of an inſect, they have alſo a diſtant reſemblance to ſome of the
+          ſmalleſt ſpecies of <hi rend="italic">Sphoeria,</hi> for like <hi rend="italic"
+            >Sphoerioe</hi> they ſeem to ariſe from the wood, and finally cauſe a ſort of <w
+            part="I">burſt-</w><lb/><w part="F">ing</w> or opening of the bark, immediately over
+          them equal to their own ſize, they further reſemble <hi rend="italic">Sphoerioe</hi> in
+          being largeſt on the older and more ſtunted ſhoots, <w part="I">par-</w><lb/><w part="F"
+            >ticularly</w> in the winter ſeaſon; but in all likelihood they are the common excretory
+          ducts of the plant, whoſe fluid being exceſſively acrid, may poſſibly require more <pb
+            xml:id="page_16" n="13"/>capacious outlets, than ſhrubs of a milder juice. </p>
+        <p rend="indent"><lb/>The lower ſhoots, on and near the ground, in moiſt ſhady ſituations,
+          which the plant moſt affects, trail conſiderably like the <hi rend="italic">Rhus radicans
+            Linnoei,</hi> (ſmooth rooting Poiſon-Oak or Sumach) and have like that ſhrub, the
+          property of ſending down radicles into the earth, by which the plant admits of great
+          increaſe, in any of the winter months. </p>
+        <p rend="indent"><lb/>In ſuch ſituations, however, I have not ſeen it produce ſeeds ſo
+          readily, as in drier and more pinching places, where it looſes in a great degree, it's
+          radicating principle, grows more ſtiff and robuſt, and <w part="I">pro-</w><lb/><w
+            part="F">duces</w> annual crops of pale yellow ſtriated berries. </p>
+        <p rend="indent"><lb/>There is a remarkable inſtance of this kind, (the ſingularity of which
+          induces me <pb xml:id="page_17" n="14"/>to mention it) now exiſting in a <hi rend="italic"
+            >wall,</hi> in the Phyſic Garden of the Company of Apothecaries at Chelſea, out of a
+          chink in the ſide of which, and near the ground, grows a ſtrong plant of this <hi
+            rend="italic">Rhus,</hi> that has proſpered there ever ſince the time of the celebrated
+          Miller, and which Mr. Fairbairn, the Company's preſent gardener, obligingly aſſured me,
+          was what Miller called the ſecond ſpecies of <hi rend="italic">Toxicodendron,</hi> in his
+          Gardener's Dictionary; it is, in all probability, the identical plant from which the
+          deſcription in that well known work was made; it ſeeds annually, but none of it's lower
+          ſhoots exhibit the leaſt radicating propenſity, although other plants of the ſame kind, in
+          the ſhady parts of the ſame garden, have that quality in great <w part="I"
+            >perfec-</w><lb/><w part="F">tion</w>, but I believe they rarely produce ſeeds; ſo much
+          do local circumſtances affect and alter the moſt permanent and <w part="I"
+            >diſtin-</w><lb/><w part="F">guiſhing</w> characters of vegetables. </p>
+        <pb xml:id="page_18" n="15"/>
+        <p rend="indent"><lb/>I believe it is pretty generally known to Gardeners, and others
+          concerned in the pleaſant and inſtructive employment of horticulture, that many other
+          fibrous plants, which, like the <hi rend="italic">Rhus <w part="I">Toxicoden-</w><lb/><w
+              part="F">dron</w>,</hi> poſſeſs the power of encreaſing ing themſelves in any
+          conſiderable degree by their roots, have that property <w part="I">material-</w><lb/><w
+            part="F">ly</w> leſſened, when the place they grow in happens to be dry and poor, for
+          nature has chiefly allotted them rich and moiſt habitations, and, with her uſual care,
+          conſtructed their conſtitutions accordingly; the alteration ſuch plants undergo, in ſuch a
+          ſoil, is doubtleſs in the direction of their juices, which (being fewer) appear to paſs by
+          the lower and leſs noble parts, (they had before rendered luxuriantly radicant or
+          prolific) and mount upwards by a natural and almoſt inſtinctive impulſe, to feed and
+          mature, with collected force, the infant germs which they had before too ſparingly
+          ſupplied with nouriſhment. </p>
+        <pb xml:id="page_19" n="16"/>
+        <p rend="indent"><lb/>Thus Nature checked by art or accident, in any cuſtomary channel of
+          renewing her works, kindly ſearches out and perfects another, that ſhe may not be
+          diſappointed in the multiplication of her productions, for <q rend="quotes"><lb/><l>— each
+              moſs, </l>
+            <lb/><l>Each ſhell, each crawling infect, holds a rank, </l>
+            <lb/><l>Important in the plan of Him who fram'd </l>
+            <lb/><l>This ſcale of Beings; holds a rank, which loſt </l>
+            <lb/><l>Would break the chain, and leave a gap behind </l>
+            <lb/><l>Which Nature's ſelf wou'd rue. </l></q>
+        </p>
+        <p rend="indent"><lb/>I am not acquainted with any common plant, that more abundantly
+          exemplifies the above doctrine, than the Lilly of the Valley, <hi rend="italic"
+            >Convallaria majalis Lin.</hi> which is well known to all who poſſeſs a garden, to
+          flower freely, and increaſe amazingly by the root, in a moiſt north border, yet few, I
+          fancy, have ſeen it produce perfect ſeeds in that ſituation, notwithſtanding the vigour of
+          it's growth; but when it is planted and confined in a garden pot, and it's increaſe <pb
+            xml:id="page_20" n="17"/>by the root conſequently checked, it will frequently produce
+          good ſeeds. </p>
+        <p rend="indent"><lb/><hi rend="italic">Vinca major et minor,</hi> greater and leſſer
+          Periwinkle, <hi rend="italic">Tuſſilago Petaſites,</hi> Butter Burr, and many other
+          plants, as remarkable for the ſterility of their ſeeds, as their great increaſe by roots,
+          might, in all probability, experience a ſimilar effect, if under ſimilar circumſtances;
+          their ſuppoſed ſterility therefore, ſhould ſeem to reſult chiefly from the peculiarity of
+          their ſituation and conſtitutions, and not from any real defect in the formation of all,
+          or any of their parts of fructification, as has ſometimes been ingeniouſly conjectured by
+          botaniſts and others; but, to return to the <hi rend="italic">Rhus Toxicodendron,</hi>
+        </p>
+        <p rend="indent"><lb/>The leaves are alternate and three'd, and F<unclear>##</unclear>nd
+          upon remarkable long petioles, the lateral leafits are uſually ſupported on very <pb
+            xml:id="page_21" n="18"/>ſhort petioles, which frequently looſe <w part="I"
+            >them-</w><lb/><w part="F">ſelves</w> by a kind of dilatation, in the <w part="I"
+            >ſub-</w><lb/><w part="F">ſtance</w> of the leafits; the terminal leafit has often a
+          footſtalk half an inch long or <w part="I">up-</w><lb/><w part="F">wards</w>: all the
+          leafits are dull green, have a drooping poſture, and an unpleaſant aſpect, they are
+          oval-angulate and nervoſe, with a kind of undulated margin, which ſometimes forms diſtant
+          tooth-like <w part="I">crena-</w><lb/><w part="F">tures</w>. The young wood-buds,
+          petioles, and the nerves on the underſides of the leafits, are furniſhed with a very
+          viſible degree of pubeſcence, on which account I have ventured to give the plant the
+          Engliſh name of Pubeſcent Poiſon Oak, or Sumach, for the purpoſe of diſtinguiſhing it from
+          the <hi rend="italic">Rhus radicans Lin.</hi> which has conſtantly ſmooth leaves and
+          ſhoots. </p>
+        <p rend="indent"><lb/>The flowers are produced in June, July, and Auguſt, on ſhort, crowded
+          axilleay racemi, which are paniculate, and in a ſtate <pb xml:id="page_22" n="19"/>of
+          nature, dioecious. In our ſpecimens, however, (which were cultivated <w part="I"
+            >luxuri-</w><lb/><w part="F">ant</w> ones, and the only ones which we could procure in a
+          ſtate of fructification) a few of the flowers were hermaphrodite, and had an encreaſed
+          number of parts, particularly, a minute ſix cleft calyx, ſix ſmall lance-oval whitiſh,
+          rather ſtriated, petals; and ſix ſhort ſtamina, ſupporting as many antherae. </p>
+        <p rend="indent"><lb/>When not rendered unnaturally luxuriant by cultivation, the male
+          flower conſiſts of a minute calyx with five ſhallow clefts, a corolla of five ſmall
+          petals, and five ſtamina which ſupport as many antherae, and the germen in the female
+          flower is roundiſh, and when a little magnified, appears <w part="I">ſome-</w><lb/><w
+            part="F">what</w> bottle-ſhaped, and ſupports a ſhort ſtylus, which is crowned with
+          three very ſmall ſtigmata. </p>
+        <pb xml:id="page_23" n="20"/>
+        <p rend="indent"><lb/>The fruit or ſeed arrives at maturity in England about the month of
+          October and November, it is a round, dry, <w part="I">pale-yel-</w><lb/><w part="F"
+            >low</w> ſtriated berry, which is ſomewhat ſcarioſe, and nearly the ſize of a ſmall pea,
+          and encloſes one hard compreſſed <w part="I">end-nick-</w><lb/><w part="F">ed</w> kernel,
+          which has a thick furrowed mealy covering. </p>
+        <p rend="indent"><lb/>The germination of the ſeed, I am ſorry to add, I have had no
+          opportunity of obſerving. </p>
+        <p rend="indent"><lb/>The <hi rend="italic">Rhus Toxicodendron</hi> is a native of North
+          America, it has been introduced into England ever ſince the year 1640, and was cultivated
+          in this country as a curious ſhrub in the time of Parkinſon, who figures it in his
+            Theatre.<note place="bottom" n="*">* See <hi rend="italic">Parkinſon</hi>'s Theatrum
+            Botanicum and <hi rend="italic">Aiton's</hi> Hortus Keweenſis. </note>
+        </p>
+        <pb xml:id="page_24" n="21"/>
+        <p rend="indent"><lb/>I ſhall conclude this long account of ſo common a ſhrub, by obſerving,
+          that my ſpecimens did not in all points accord with thoſe preſerved in the Herbarium of
+          the great Linnaeus, which were very obligingly twice compared with mine, by the preſent
+          learned and well known poſſeſſor of that ineſtimable treaſure; my ſpecimens are larger in
+          all their parts, their leafits are leſs undulate, and poſſeſſed of ſomewhat longer
+          footſtalks than thoſe of Linnaeus, the lateral leafits of which are nearly ſeſſile, but
+          his ſpecimens are ſaid to have been gathered wild in North America, by Kalme, and mine
+          were the luxuriant produce of young plants, in the ſtrong moiſt loam of a <w part="I"
+            >York-</w><lb/><w part="F">ſhire</w> nurſery,<note place="bottom" n="*">* The nurſery of
+            Meſſrs. Phillipſon and Scales, at C<unclear>#</unclear>ttingham, near Hull, in
+            Yorkſhire. </note> which circumſtances, I humbly truſt, ſufficiently account for the
+          above-mentioned diſparity. </p>
+        <pb xml:id="page_25" n="22"/>
+        <p rend="indent"><lb/>A ſhort account of caſes in which it has been employed, will enable
+          the reader to judge of it's power as a medicine. </p>
+        <p rend="indent"><lb/>The following caſe is inſerted as drawn up by my ingenious friend Mr.
+          B—, an eminent ſurgeon in this neighbourhood, who paid the greateſt attention to the
+          exhibition of the medicine, and has related, in a clear and intereſting manner, the
+          gradual recovery of his own wife. </p>
+        <div n="1" type="case">
+          <head><lb/>CASE I. </head>
+          <p rend="indent"><lb/>Mrs. B—, aged 38, always enjoyed remarkable good health, till about
+            eight years ago, at which time ſhe complained of a diſorder in her bowels, which ſhe <w
+              part="I">de-</w><lb/><w part="F">ſcribed</w> to feel as if the bowels had loſt their
+            ſenſation, and that a cold wind ſeemed to riſe up the oeſophagus. As ſhe was coſtive,
+            two ounces of the Ol. Ricini were given at four doſes, which having no effect, ſtronger
+            purgatives were <w part="I">admini-</w><lb/><w part="F">ſtered</w>, but without
+            producing a ſtool; after <pb xml:id="page_26" n="23"/>which the ſmoke of tobacco was
+            thrown up, the warm bath applied, a doſe of <w part="I">calo-</w><lb/><w part="F"
+              >mel</w> given, and a bliſter put upon the belly. At length an evacuation was
+            obtained; and from the large quantity of cathartic <w part="I">reme-</w><lb/><w part="F"
+              >dies</w> uſed, the bowels now took on the other extreme, and a violent purging
+            enſued.— She now complained of a pricking pain on the right ſide of the abdomen, which
+            went off upon her voiding by ſtool a piece of a large plumb ſtone, one ſide of which was
+            worn as ſharp as the edge of a knife. After this ſhe was frequently troubled with <w
+              part="I">ob-</w><lb/><w part="F">ſtinate</w> conſtipations of the bowels, and obliged
+            to have recourſe to purgative <w part="I">me-</w><lb/><w part="F">dicines</w>. In the
+            year 1789, ſhe had two fits, which, I believe, were epileptic; but, as I happened not to
+            ſee her in either of them, I cannot be certain. In the month of September, ſhe was
+            ſeized with pains in her hands and feet, which were ſuppoſed to be gouty; and when theſe
+            went off, ſhe <pb xml:id="page_27" n="24"/>loſt entirely the uſe of the extenſor muſcles
+            of the wriſts, and ſoon after thoſe of the feet, which was followed by the loſs of the
+            extenſors of the fingers and toes. A tumour now aroſe upon the metacarpal bones of each
+            hand, which ſeemed a ſwelling either of the pcrioſteum or bone itſelf, and had greatly
+            the appearance of a ſcrophulous affection, The tumours ſeemed ſometimes likely to
+            ſuppurate, but about the end of the year 1790, they gradually diſappeared. The hands now
+            looked livid, and the <w part="I">exten-</w><lb/><w part="F">ſor</w> muſcles upon the
+            arms and hands waſted and ſhrivelled; her feet felt like logs of wood, and the fingers
+            and toes were <w part="I">con-</w><lb/><w part="F">tracted</w> from the action of the
+            flexor <w part="I">muſ-</w><lb/><w part="F">cles</w>; ſhe could not walk without help,
+            and when ſhe attempted it, always <w part="I">com-</w><lb/><w part="F">plained</w> of
+            ſomething drawing her <w part="I">back-</w><lb/><w part="F">wards</w>. During this time,
+            ſhe took a variety of volatile, cardiac, and tonic medicines, but without any good
+            effect. In the month <pb xml:id="page_28" n="25"/>of September, 1791, Dr. ALDERSON was
+            conſulted, and adviſed her to take the TOXICODENDRON. Six grains of the <w part="I"
+              >pow-</w><lb/><w part="F">dered</w> leaves of that plant were infuſed in eight ounces
+            of boiling water, a table <w part="I">ſpoon-</w><lb/><w part="F">ful</w> to be given
+            three times a day. The whole of this was taken without any <w part="I">ſenſi-</w><lb/><w
+              part="F">ble</w> effect, except a ſlight pricking <w part="I">ſenſa-</w><lb/><w
+              part="F">tion</w> in the feet and hands: </p>
+          <p rend="indent"><lb/>Oct. 3d, She took one fourth of a grain of the powdered leaves made
+            into a bolus with Cons. Cort. Aurant. twice a day. </p>
+          <p rend="indent"><lb/>4th, The ſame; the pricking <w part="I">ſenſa-</w><lb/><w part="F"
+              >tion</w> continues, and the arms, to the ends of the fingers, feel as if warm water
+            was running-down them. </p>
+          <p rend="indent"><lb/>5th, Medicines continued three times a day. </p>
+          <p rend="indent"><lb/>6th, The ſame. In the evening, had an <pb xml:id="page_29" n="26"
+            />irregular ſpaſmodic fluttering in the toes. </p>
+          <p rend="indent"><lb/>Oct. 7th, Medicines continued. Was <w part="I">agree-</w><lb/><w
+              part="F">ably</w> ſurpriſed to find ſhe could extend her fingers and toes a little.
+            Her hands a little <w part="I">ſwel-</w><lb/><w part="F">led</w>, and her feet and
+            ancles much more ſo. She has, in a great meaſure, recovered the uſe of the extenſor
+            pollicis of the right hand, and that of the left in a ſmaller degree; has alſo loſt the
+            dead hard ſenſation in her finger ends, which was <w part="I">al-</w><lb/><w part="F"
+              >ways</w> her conſtant attendant. </p>
+          <p rend="indent"><lb/>8th, Medicines continued. </p>
+          <p rend="indent"><lb/>9th, One third of a grain ter die. </p>
+          <p rend="indent"><lb/>10th, The ſame. Walked up ſtairs <w part="I">with-</w><lb/><w
+              part="F">out</w> help, her hands alſo ſtronger and better, but the extenſors of the
+            wriſts ſtill inactive. </p>
+          <p rend="indent"><lb/>11th, The ſame. </p>
+          <pb xml:id="page_30" n="27"/>
+          <p rend="indent"><lb/>Oct. 12th, Took half a grain ter die. Begins to walk tolerably well,
+            and can uſe her hands better, the <w part="I">ex-</w><lb/><w part="F">tenſor</w>,
+            adductor, and abductor muſcles of the thumbs, having recovered their action. </p>
+          <p rend="indent"><lb/>15th, Three grains were made into four boluſes, and one taken three
+            times a day. At night the <w part="I">ſen-</w><lb/><w part="F">ſation</w>, as if hot
+            water was <w part="I">run-</w><lb/><w part="F">ning</w> down the arms, very <w part="I"
+              >trou-</w><lb/><w part="F">bleſome</w>, with the pricking feel in the fingers. </p>
+          <p rend="indent"><lb/>17th, One grain ter die. </p>
+          <p rend="indent"><lb/>30th, Takes one grain and a half ter die; and this day perceived
+            that ſhe had recovered the uſe of the extenſor muſcles of the wriſts. </p>
+          <p rend="indent"><lb/>She continued the medicine, gradually <w part="I">in-</w><lb/><w
+              part="F">creaſing</w> the doſe to four grains ter die, for ſome time longer. It ſeemed
+            to act as a <pb xml:id="page_31" n="28"/>gentle aperient, and frequently, when the large
+            doſes were taken, occaſioned a ſlight vertigo, with a pain acroſs the forehead, and a
+            nauſea for about half an hour after taking it. She has now left off the medicine twelve
+            months, has entirely recovered the uſe of her hands, and walks a mile or two very well;
+            but the muſcles of the feet are not ſo well recovered as thoſe of the hands, and ſhe
+            always lifts the feet very high when ſhe walks; which may be owing to a <w part="I"
+              >re-</w><lb/><w part="F">membrance</w> that in her former ſtate, if ſhe attempted
+            walking, and met with the ſmalleſt obſtacle, a fall on the face was generally the
+            conſequence. </p>
+          <p rend="indent"><lb/><hi rend="italic">Barton,</hi> July 25, 1793. </p>
+        </div>
+        <div n="2" type="case">
+          <head><lb/>CASE II. </head>
+          <p rend="indent"><lb/>GREG, mariner, complained of the loſs of one ſide, which he
+            attributed to falling aſleep upon the deck, after being exhauſted <pb xml:id="page_32"
+              n="29"/>by fatigue during a gale of wind. I ordered him half a grain of the powdered
+            leaves of the TOXICODENDRON, three times a day. On the ſecond day, he felt an unuſual
+            twitching, or convulſive motion, in the arm and leg affected; and when I ſaw him on the
+            Monday following, he could, without any aſſiſtance, bring the diſeaſed leg acroſs the
+            other, and had much more uſe of his arm. He continued his medicine a week longer, when,
+            finding himſelf ſo far recovered, that he could be employed as a pilot on the river, he
+            was content not to compleat his cure, leſt it ſhould ſubject him to be impreſſed. He has
+            continued in much the ſame ſtate for ſome time paſt, having gotten more uſe of his limbs
+            than he ever expected. It is but right to obſerve, that during two years previous to his
+            application to me, every other means had, in vain, been employed, to reſtore the action
+            of his leg and arm. </p>
+        </div>
+        <div n="3" type="case">
+          <pb xml:id="page_33" n="30"/>
+          <head><lb/>CASE III. </head>
+          <p rend="indent"><lb/>Mr. B—, ſurgeen, aged 47, after having endured a complication of
+            ills, haemoptyſis, jaundice, meſenterie obſtruction, and <w part="I">gene-</w><lb/><w
+              part="F">ral</w> atrophy, loſt the total uſe of all his limbs; and even his mental
+            faculties <w part="I">under-</w><lb/><w part="F">went</w> a ſimilar paralyſis. All his
+            powers of ratiocination were ſuſpended, and he was reduced to a ſtate nearly as helpleſs
+            as that of a child only ſix months <unclear>##</unclear>d. In this ſituation I gave him
+            the TOXICODENDRON, half a grain three times a day, which, in the courſe of a week,
+            improved his appetite, and removed the habitual coſtiveneſs to which he had long been
+            liable. The doſe was gradually increaſed to one grain, three times a day. It produced
+            ſome twitching acroſs the abdomen, with irregular or convulſive motion in the limbs; and
+            when the nervous influence ſeemed to paſs to the extremities, <unclear>#####</unclear>
+            excited in the brain ſuch a ſenſation of pain, as made him frequently <pb
+              xml:id="page_34" n="31"/>exclaim moſt violently: but when any one asked him where his
+            pain was, he anſwered, he could not mention any particular place, but that all his limbs
+            were, as if ſtretched forcibly. This was more eſpecially the caſe after ſleep. </p>
+          <p rend="indent"><lb/>The doſe was gradually increaſed to three grains four times a day,
+            and he has now taken it for three months. His brain has recovered its wonted functions;
+            his ſtomach and bowels do their office more completely than for years; he reſts without
+            opium, though for a long time in the conſtant habit of taking it; his animal ſpirits are
+            wonderfully invigorated; and although he has not yet acquired the perfect uſe of his
+            limbs, they ſeem to be recovering their tone, and I have every reaſon to hope, that he
+            will, in time, be reſtored to the full enjoyment of life. </p>
+        </div>
+        <div n="4" type="case">
+          <pb xml:id="page_35" n="32"/>
+          <head><lb/>CASE IV. </head>
+          <p rend="indent"><lb/>GEORGE. FORD, ſhip carpenter, aged 24, of a ſtrong athletic make,
+            and full habit of body, was admitted into the Hull General Infirmary, on Wedneſday the
+            13th of November, 1793, for a paralytic affection, which had deprived him of the uſe of
+            his right ſide; his recollection was ſo impaired, that he could not give any account of
+            the attack himſelf, but his wife informed me, that, for a week before he loſt the uſe of
+            his limbs, he had, at times, complained of a dull pain in his head, and numbneſs in his
+            right hand and foot; that, by the advice of ſome old woman, he had been blooded on the
+            Monday, and that upon going out of doors ſoon afterwards, he was ſuddenly ſeized with
+            hemiplegia. In which ſtate he was admitted into the Infirmary, on the Wedneſday
+            following. </p>
+          <p rend="indent"><lb/>A vomit was given him ſoon after his admiſſion, which was followed
+            the next day <pb xml:id="page_36" n="33"/>by a warm purgative, and volatile and <w
+              part="I">ſti-</w><lb/><w part="F">mulant</w> medicines for the courſe of the firſt
+            week; but finding that I was not likely to gain any ground from the uſual plan, and
+            being deſirous of trying the power of the TOXICODENDRON in a recent caſe, I <w part="I"
+              >order-</w><lb/><w part="F">ed</w> him half a grain of the powdered leaves of this
+            plant in pills, three times a day; on the ſecond day, after the exhibition of this
+            medicine, he felt a ſudden convulſive twitching, or involuntary motion in certain
+            muſcles of the affected ſide; from that moment he found he had the ſame motion at will;
+            every ſucceeding day he felt ſome muſcle or other convulſively moved, and it was always
+            remarked, by the other patients in the ſame ward, that he poſſeſſed the power of
+            voluntarily employing all thoſe muſcles that had been once convulſively affected in
+            conſequence of the <w part="I">TOXICODEN-</w><lb/><w part="F">DRON</w>. He regularly
+            purſued the <w part="I">medi-</w><lb/><w part="F">cine</w>, and gradually increaſed it
+            to one grain <pb xml:id="page_37" n="32"/>
+            <pb xml:id="page_38" n="33"/>
+            <pb xml:id="page_39" n="34"/>every four hours, taking care always to add to the doſe,
+            till he found ſome convulſive action was produced. </p>
+          <p rend="indent"><lb/>In the courſe of three weeks, in which time every injured muſcle had
+            felt the <w part="I">in-</w><lb/><w part="F">fluence</w> of this powerful drug, he
+            regained the free and perfect motion of his leg and arm; and recovered the full
+            enjoyment of his mental faculties, which had been equally affected from the firſt
+            attack. </p>
+        </div>
+        <dateline>December 24, 1793. </dateline>
+      </div>
+    </body>
+
+    <back>
+      <div>
+        <p rend="indent"><lb/>LATELY PUBLISHED, BY THE SAME AUTHOR, AN ESSAY ON CONTAGION. </p>
+        <p rend="indent"><lb/>PRICE TWO SHILLINGS. </p>
+      </div>
+    </back>
+
+  </text>
+</TEI>

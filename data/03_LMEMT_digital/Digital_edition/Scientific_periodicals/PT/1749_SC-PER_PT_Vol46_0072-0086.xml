@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LMEMT Corpus - le Cat and Zollman: Concerning the Cure of Dry Gangrenes</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <author>
+              <persName>Dr. le Cat</persName>
+              <persName>Ph. H. Zollman</persName>
+            </author>
+            <title>A Letter from Dr. le Cat F. R. S. to C. Mortimer M. D. Secret. R. S. concerning
+              the Cure of Dry Gangrenes: Together with a Description of a New-Invented Instrument
+              for the Extirpation of Tumours out of the Reach of the Surgeon's Fingers</title>
+          </analytic>
+          <monogr>
+            <title>Philosophical Transactions. Giving Some Account of the Present Undertakings,
+              Studies and Labours, of the Ingenious, in many Considerable Parts of the
+              World.</title>
+            <author>Royal Society</author>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>London: Printed for C. Davis, Printer to the Royal Society, over-against
+                  Gray's-Inn-Gate in Holbourn. </persName>
+              </publisher>
+              <date>1749</date>
+              <biblScope unit="vol">46</biblScope>
+              <biblScope unit="page">72-86</biblScope>
+            </imprint>
+            <extent>
+              <measure type="format">4⁰</measure>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <idno type="ECCO">CW111030968</idno>
+            <idno type="DOI">doi: 10.1098/rstl.1749.0017</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Periodicals"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text type="article" rend="roman" decls="PT46_0072">
+    <body>
+      <pb n="72"/>
+      <head rend="italic hanging">
+        <lb/><hi rend="roman">XVI.</hi> A Letter from Dr. <hi rend="roman">le Cat</hi> F. R. S. to
+          <lb/><hi rend="roman">C. Mortimer</hi> M. D. Secret. R. S. concern- <lb/>ing the Cure of
+          <hi rend="roman">Dry Gangrenes</hi>: together <lb/>with a Deſcription of a new-invented
+        In- <lb/>ſtrument for the <hi rend="roman">Extirpation</hi> of <hi rend="roman">Tumours</hi>
+        <lb/>out of the Reach of the Surgeon's Fingers. </head>
+      <head rend="italic size(0.8)">
+        <lb/><choice>
+          <corr>Tranſlated</corr>
+          <sic>Tranſſated</sic>
+        </choice> from the <hi rend="roman">French</hi> by <hi rend="roman">Ph. H. Zollman</hi> Eſq;
+        F. R. S. </head>
+      <div>
+        <salute rend="italic indent">
+          <lb/>SIR, </salute>
+        <p>
+          <lb/>
+          <note rend="italic size(0.7)" place="inset">Read <date rend="roman">March 9 <hi
+                rend="italic">and</hi> 16. <lb/>1748-9. </date>
+          </note><hi rend="dc(2)">F</hi>OR ſome Years paſt, in curing <lb/>the dry Gangrene, I have
+          made <lb/>ſome Progreſs, of which I think I ought to inform <lb/>the <hi rend="italic"
+            >Royal Society</hi>. </p>
+        <p rend="indent">
+          <lb/>From the Year 1725 to the Year 1733, when I fre- <lb/>quented the Hoſpitals of <hi
+            rend="italic">Paris</hi>, I ſaw that a great many <lb/>Perſons there died of a dry
+          Gangrene, and even <lb/>that nothing was done to them. I knew that Ampu- <lb/>tation had
+          been attempted in vain; but I did not ſee <lb/>any of the Practitioners endeavour to cure
+          that Diſ- <lb/>temper by Remedies; nor did I think that Cure im- <lb/>poſſible. I
+          ſuſpected, that the Cauſe of the dry Gan- <lb/>grene was the want of a Flow of the
+          arterial Blood <lb/>and of the Spirits into the Part affected: And this <lb/>Want, as it
+          accounts for the Deadneſs, which cannot <lb/>miſs befalling the Part, and the Dryneſs
+          which at- <lb/>tends this ſort of Mortification; whereas in the hu- <lb/>mid Gangrene, it
+          is chiefly the Return of the Blood <lb/>which is hindered, and thereby the Fluids are
+          accu- <lb/>mulated, that ſwell and diſtend the Part. </p>
+        <p rend="indent">
+          <lb/>Two Cauſes ſo oppoſite muſt demand alſo very <lb/>different Cures. The Diſtenſion
+          which characterizes <lb/>the humid Gangrene ſhews the Neceſſity there is for <pb n="73"/>
+          <lb/>Scarifications and Evacuations; as the Dryneſs of the <lb/>other Gangrene points out
+          the Uſeleſsneſs of theſe <lb/>Operations in this ſort. </p>
+        <p rend="indent">
+          <lb/>In the humid Gangrene the Solids are choaked up, <lb/>and overflowed with the
+          accumulated Liquid; the <lb/>Nerves are there ſtupefied and benumbed: What can <lb/>be
+          more proper then after Scarifications, which diſ- <lb/>gorge and relax thoſe Regions, than
+          to apply ſtimu- <lb/>lating <hi rend="italic"><sic>Topics? Tonics</sic></hi>, which
+          reſtore the Spring, the <lb/>Tone of the ſolid Parts; help them to expel thoſe
+          <lb/>ſuperfluous Liquors, the Spirits of which are as it <lb/>were drowned and ſuffocated;
+          and in ſhort the De- <lb/>fect being local, if thoſe Succours do not ſuffice, it <lb/>is
+          very common to cut off a Limb; the Loſs of which <lb/>may bring on that of the whole
+          Perſon. </p>
+        <p rend="indent">
+          <lb/>On the contrary, in the dry Gangrene the Solids <lb/>are void of Fluids of all ſorts.
+          The neighbouring <lb/>Regions, which begin to ſhare of that Want, are af- <lb/>fected with
+          the moſt cruel Pains: If you attack thoſe <lb/>Parts with the cutting Inſtrument, you
+          increaſe the <lb/>Irritation of the Solids, the Conſtriction of the Veſſels, <lb/>the Want
+          of Fluids, the Exſiccation, and haſten Death. </p>
+        <p rend="indent">
+          <lb/>On the contrary, the general Indication, which <lb/>this Diſtemper affords us is
+          therefore to ſoften, to re- <lb/>lax the Veſſels, to draw thither the Liquors by To-
+          <lb/>pics, whilſt inwardly all Remedies muſt be given <lb/>that are capable of bringing
+          the Blood and the Spirits <lb/>from the Center to the Circumference. </p>
+        <p rend="indent">
+          <lb/>If this Method is not ſucceſsful, Death is inevita- <lb/>ble; for even ſuppoſing that
+          the Amputation was <lb/>not liable to the diſmal Conſequences juſt now ſpe- <lb/>cified,
+          there is no Room for this Operation in an <lb/>internal Defect, which depends on the whole
+            <pb n="74"/>
+          <lb/>Habit, as the Caſe is with the dry Gangrene. And <lb/>ſuppoſing that there are dry
+          Gangrenes purely local, <lb/>as the critical <hi rend="italic">Depoſitums</hi> of certain
+          malignant Fevers, <lb/>you may aſſure yourſelf, that the very ſame Nature <lb/>which has
+          cauſed this Criſis, if you aſſiſt her but a <lb/>little, will be alſo to ſeparate this
+          Mortification <lb/>from the ſound Parts; and ſhe will do it more gently <lb/>and more
+          dextrouſly than we. </p>
+        <p rend="indent">
+          <lb/>Theſe were the Notions I had formed to myſelf <lb/>of theſe two ſorts of Gangrenes; I
+          only waited for <lb/>Opportunities to make the Trials which this Theory <lb/>ſuggeſted to
+          me. </p>
+        <p rend="indent">
+          <lb/>I did not find any before 1738. in the Perſon of <lb/>a Wood-Merchant of our Town,
+          called Mrs. <hi rend="italic">Four- <lb/>naiſe</hi>. She was then 65 Years of Age,
+          extremely <lb/>corpulent; the Gangrene ſeized her at the Heel, by <lb/>a black and round
+          Blotch, of two Inches Diameter, <lb/>without any Tumour, with ſome ſmall ſcorbutic
+          <lb/>Spots, great Pains, and a little Fever. </p>
+        <p rend="indent">
+          <lb/>The <hi rend="italic">Plethora</hi> made me begin with Bleeding and <lb/>Purging; the
+          latter I repeated every 8 Days. </p>
+        <p rend="indent">
+          <lb/>I applied all over the Foot and Part of the Leg, a <lb/>Pultis made of Herbs and <hi
+            rend="italic">Farina's</hi>, emollient, re- <lb/>ſolving, and aromatic, the ſuppurative
+          Ointment, and <lb/><hi rend="italic">Storax</hi>. </p>
+        <p rend="indent">
+          <lb/>I gave inwardly diaphoretic Ptiſans: In the Morn- <lb/>ing, Broths of Vipers, of
+          Crayfiſh prepared with pro- <lb/>per Herbs, and above all with Water-creſſes: In the
+          <lb/>Evening a Bolus of <hi rend="italic">Theriaca</hi>. In ſhort, I followed
+          <lb/>intirely the Theory I had formed to myſelf about <lb/>the dry Gangrene, and in 9 or
+          10 Days I ſaw the <lb/>Suppuration formed; ſo that my Patient was per- <lb/>fectly cured
+          in about 2 or 3 Months. </p>
+        <pb n="75"/>
+        <p rend="indent">
+          <lb/>This Succeſs has been followed by many others, <lb/>both in our Town and in our
+          Hoſpital. I have been <lb/>particularly ſucceſsful in the latter Place, becauſe I <lb/>am
+          more Maſter there than any-where elſe, to ſee <lb/>my Method exactly followed, which I
+          have ſtill im- <lb/>proved ſince 1738. </p>
+        <p rend="indent">
+          <lb/>The Report of theſe Cures having ſpread itſelf as <lb/>far as <hi rend="italic"
+            >Paris</hi>, I was ſent for thither in <hi rend="italic">February</hi>
+          <lb/>1746. to attend M. <hi rend="italic">Rondé</hi>, Treaſurer-General of the
+          <lb/>Fortifications of <hi rend="italic">France</hi>, who was at the laſt Extre-
+          <lb/>mity, by a dry Gangrene, which had ſphacelated his <lb/>Foot; the Cauſe of which had
+          kept him in a lan- <lb/>guiſhing Way for 4 Years. M. <hi rend="italic">Rondé</hi> was in a
+          <lb/>dreadful Condition, and I was vexed at having been <lb/>ſent for in ſo deſperate a
+          Caſe: I declared it to his <lb/>Relations, and to the eminent Surgeons who at- <lb/>tended
+          him: I therefore applied my Remedies to <lb/>the Patient, at the Requeſt of his Relations,
+          only <lb/>by way of Trial, which I publicly declared to be <lb/>moſt doubtful. However,
+          contrary to our Expecta- <lb/>tion, from the 3d Day there appeared plainly a Be-
+          <lb/>ginning of Suppuration, and a Separation of the <lb/>Eſchars. On the 9th Day there
+          was a complete <lb/>Suppuration, and the Regeneration of the Fleſh was <lb/>even ſo far
+          advanced, that the Singularity of it raiſed <lb/>the Curioſity of ſome of the firſt
+          Surgeons of <hi rend="italic">Paris</hi>. <lb/>At laſt, on the 15th Day my Patient found
+          himſelf <lb/>in a more favourable Criſis; which, according to <lb/>the Teſtimony which M.
+            <hi rend="italic">Morand</hi>, an aſſiduous <lb/>Spectator of my Cure, publicly gave of
+          it, <q rend="italic">gave <lb/>Hopes of Recovery in a Caſe that had hitherto <lb/>been
+            thought deſperate </q>. </p>
+        <pb n="76"/>
+        <p rend="indent">
+          <lb/>The Suppuration, the Separation of the Eſchars, <lb/>and Regeneration of the Fleſh,
+          being all that a <lb/>Surgeon can deſire in a like Cure, I then thought <lb/>that my
+          Miſſion was fulfilled, and that I might re- <lb/>turn home, whither I was called by more
+          material <lb/>Affairs. I had Reaſon to repent of this Journey: <lb/>My Patient having
+          naturally a very voracious Appe- <lb/>tite, I had confined him to a ſevere Diet; but he
+          <lb/>could hold out no longer; and, by the Connivance <lb/>of his Nurſe, he took various
+          Food, and that plenti- <lb/>fully too. This Conduct had ſoon ruined our Pro- <lb/>greſs. I
+          returned to <hi rend="italic">Paris</hi>; my Repreſentations <lb/>were uſeleſs: The
+          Patient had ſhaken off the Yoke <lb/>of the Faculty, and of Reaſon. Indigeſtions enſued
+          <lb/>one upon another. The Looſeneſs, which never left <lb/>him after, totally ſuppreſſed
+          the Suppuration, and <lb/>made him void the Matter quite crude by Stool, and <lb/>at laſt
+          he died. </p>
+        <p rend="indent">
+          <lb/>I was ſcarcely returned to <hi rend="italic">Rouen</hi>, when there came <lb/>to my
+          Hoſpital a Patient ſeized with the dry Gan- <lb/>grene, and who ſo perfectly reſembled M.
+            <hi rend="italic"><choice>
+              <corr>Rondé</corr>
+              <sic>Rondê</sic>
+            </choice></hi>, <lb/>that we commonly called him <hi rend="italic">the Rondé of
+            Rouen</hi>. </p>
+        <p rend="indent">
+          <lb/>This Cure being extremely intereſting in all its <lb/>Circumſtances, I think, Sir, it
+          is fit to tranſcribe for <lb/>you the Obſervation taken from a Letter which I <lb/>wrote
+          on the 28th of <hi rend="italic">November</hi> 1746. to M. <hi rend="italic">Morand</hi>,
+          <lb/>and which he has ſince made public. </p>
+        <floatingText>
+          <body>
+            <p rend="space hanging">
+              <lb/>
+              <q rend="diple">As this Letter has been made public by Mr. <hi rend="italic"
+                  >Morand</hi>, <lb/>I ſhall not fill up this <hi rend="italic">Tranſaction</hi>
+                with a Tranſ- <lb/>lation of a long Letter already in Print, but <lb/>only give a
+                ſhort Account of the Caſe. </q>
+            </p>
+            <signed rend="italic align-right">
+              <lb/>
+              <q rend="quotes">C. M. </q>
+            </signed>
+          </body>
+        </floatingText>
+        <pb n="77"/>
+        <floatingText>
+          <body>
+            <p rend="space">
+              <lb/><hi rend="italic"><hi rend="dc(1.5)">T</hi>Homas le Monnier</hi>, a Carpenter,
+              aged 66, was, <lb/>in <hi rend="italic">December</hi> 1744. ſeized with violent Pains
+              in <lb/>his right Foot reſembling thoſe of the Gout, but with- <lb/>out ſwelling, and
+              not preceded by any Sickneſs. He <lb/>had work'd hard at his Trade, and ſtill carried
+              it on <lb/>in marſhy Places, and in bad and cold Weather, <lb/>when he was ſeized with
+              this Pain. He took various <lb/>Remedies to no Effect. In <hi rend="italic"
+                >November</hi> 1745. his <lb/>great Toe turned black; which Blackneſs gradually
+              <lb/>ſpread to the other Toes, to the whole Foot, and at <lb/>laſt to the Ankle. He
+              was ſent to the <hi rend="italic">Hotel Dieu</hi>
+              <lb/>at <hi rend="italic">Roan</hi>
+              <hi rend="italic">May</hi> 19. His Foot was intirely gangrened, <lb/>black and dry;
+              his Pulſe was low, and a little fever- <lb/>iſh; he never ſlept but 2 Hours a Night,
+              ſuffered <lb/>cruel Torments, was greatly emaciated, and of a yel- <lb/>low and
+              leadiſh Complexion; his other Foot was <lb/>œdematous. <q rend="diple quotes">M. <hi
+                  rend="italic">le Cat</hi> ſays, he would not attack <lb/>this Caſe Steel in Hand,
+                by Scarifications or Am- <lb/>putation; cruel and murthering Methods! which
+                <lb/>quite extinguiſh the Springs of Life in the nervous <lb/>Syſtem, which is
+                already but too much ruffled. <lb/>A barbarous Surgery! which Prejudice, Ignorance,
+                <lb/>and Unskilfulneſs alone can adopt, and by which I <lb/>have ſeen Patients die,
+                when there were great Hopes <lb/>of their Recovery. </q> See <hi rend="italic">le
+                Dran</hi>'s Operations, <lb/><hi rend="italic">p.</hi> 30. <hi rend="italic"
+                >Saviard</hi>'s Obſervations, <hi rend="italic">p.</hi> 98. and <hi rend="italic">de
+                la Motte</hi>
+              <lb/>Obſ. 303. eſpecially <hi rend="italic">p.</hi> 371. <hi rend="italic">Tome</hi>
+              III. </p>
+            <p rend="indent">
+              <lb/>As this Diſorder ariſes from internal Cauſes, its <lb/>Cure is chiefly to be
+              attempted by internal Remedies; <lb/>and of theſe I give Cordials, Diaphoretics, and
+              ſuch <lb/>as are capable of reviving the drooping Spirits, and <lb/>of quickening the
+              Circulation even to the Extremities: <pb n="78"/>
+              <lb/>To which ſhould be joined Medicines adapted to <lb/>the particular Habit of each
+              Patient, whether it be <lb/>ſcorbutic, ſcrophulous, or any other, which may <lb/>have
+              contributed to have brought on this particular <lb/>Species of Gangrene: At the ſame
+              time emollient, <lb/>attractive, external Remedies, moderately warmed <lb/>with
+              Spices, applied to the Part, concur to the ſame <lb/>Intention, by facilitating the
+              Flow of Blood and Spi- <lb/>rits; the Interception of which makes the diſtinguiſh-
+              <lb/>ing Characteriſtic of the dry Gangrene. Spirituous <lb/>and aqueous Topics,
+              impregnated with Volatiles, <lb/>charged with ſaline, active, violently ſtimulating
+              Par- <lb/>ticles, and others in Uſe in ordinary Gangrenes, are <lb/>to be avoided like
+              deadly Poiſons; for ſuch Applica- <lb/>tions would rather contract and dry up the Part
+              the <lb/>more, and increaſe the painful Irritations, and diſ- <lb/>poſe the contiguous
+              Parts to a dry Gangrene. He <lb/>gives us Hopes of a Treatiſe expreſly on this Sub-
+              <lb/>ject. </p>
+            <p rend="indent">
+              <lb/>But to return to the Caſe. The Suppuration began <lb/>to appear, and the <hi
+                rend="italic">Eſchars</hi> diſtinguiſhed themſelves <lb/>from the live Fleſh the
+              very firſt Days of the Cure; <lb/>and, after the Time uſual in the like Suppurations,
+              <lb/>the Foot and lower Part of the Ankle ſeparated of <lb/>themſelves; and
+              afterwards, healing over intirely, <lb/>left a Stump quite cover'd over with a
+              Covering of <lb/>Fleſh, except ſome Points of Bone, which were not <lb/>eaſily to be
+              ſeen, but might be felt, by paſſing the <lb/>Finger over this new Fleſh. </p>
+            <p rend="indent">
+              <lb/>After this Separation the Tendons of the Muſcles, <lb/>which lie along the Leg,
+              formed Abſceſſes and <lb/><hi rend="italic">Sinus's</hi>. Some Practitioners would
+              have laid open <lb/>theſe <hi rend="italic">Sinus's</hi> their whole Length; but ſuch
+              large <pb n="79"/>
+              <lb/>Inciſions would have ſo affected the Syſtem of the <lb/>Nerves, as to have
+              brought back the gangrenous Diſ- <lb/>poſition into the internal Parts, and ſo have
+              deſtroy'd <lb/>the Patient; as M. <hi rend="italic">le Cat</hi> ſays he has ſeen it
+              very <lb/>lately happen by the like Practice: Wherefore he lets <lb/>the Matter gather
+              in thoſe <hi rend="italic">Sinus's</hi>, till it forms a <lb/>Bag, and greatly thins
+              the Skin, when he opens <lb/>them almoſt without Pain, in the Place only where
+              <lb/>they point. Theſe Openings are ſufficient both for <lb/>the Diſcharge of the
+              Matter, and for the coming <lb/>away of the Tendons; which no ſooner happens, <lb/>but
+              the Integuments, whether open'd or not, unite <lb/>and cicatrize. Thus, at the End of
+              6 or 7 Months, <lb/>the Stump itſelf cicatrized, and the Patient was quite
+              <lb/>recover'd. </p>
+            <p rend="indent">
+              <lb/>So long a Cure could not but be liable to ſome <lb/>Accidents: The Patient was
+              one who would indulge <lb/>in his Diet, and the Hoſpital is open for any one to
+              <lb/>come in and viſit their Friends: He had ſeveral ſtrong <lb/>Acceſſes of an
+              accidental Fever, and five or ſix vio- <lb/>lent Indigeſtions; one in <hi
+                rend="italic">July</hi> kept him inſenſible <lb/>for 20 Hours, and was attended with
+              a Defluxion <lb/>on the Lungs, accompanied with ſuch Expectora- <lb/>tions as gave the
+              worſt Prognoſtications. Theſe were <lb/>Incidents which render'd his Recovery the more
+              re- <lb/>markable. He has pick'd up his Fleſh, and promiſes <lb/>to enjoy a good Habit
+              of Body; ſo that probably he <lb/>may live to a good old Age. Several that have been
+              <lb/>cured by the Doctor of this Diſorder have lived to <lb/>upwards of 70. </p>
+            <p rend="indent">
+              <lb/>Thus, ſays he, the common Opinion, that it is <lb/>impoſſible radically to cure
+              the dry Gangrene, is as <lb/>falſe, as the ordinary Method of treating it is bad. <pb
+                n="80"/>
+              <lb/>He does not eſtabliſh his Method as infallible; but <lb/>aſſures us, that, in 8
+              or 9 Years Practice it has not <lb/>failed curing any Perſons who exactly followed it,
+              <lb/>and obſerved the Regimen preſcribed. </p>
+          </body>
+        </floatingText>
+        <floatingText>
+          <body>
+            <p rend="indent space">
+              <lb/>
+              <q rend="quotes">We now return to Dr. <hi rend="italic">le Cat</hi>'s own Words. </q>
+            </p>
+          </body>
+        </floatingText>
+        <p rend="indent space">
+          <lb/>I ſhall here ſubjoin the Deſcription of an Inſtru- <lb/>ment of Surgery, which I have
+          lately invented. </p>
+      </div>
+      <div>
+        <head rend="italic align-center space">
+          <lb/><hi rend="roman">Forceps</hi> for the Extirpation of Tumours too remote <lb/>from the
+          Surgeon's Fingers. </head>
+        <p rend="indent space">
+          <lb/>When the Fingers can lay hold of an Excreſcency, <lb/>the Surgeon need not think of
+          making uſe of Ma- <lb/>chines for it; he will never find any convenient <lb/>enough; but
+          all Tumours that are to be extirpated <lb/>are not within the Reach of the Fingers: There
+          are <lb/>even many of them which the Fingers can reach, <lb/>but where they cannot lay
+          hold of them, nor work <lb/>as the Extirpation requires. Such are the Ex- <lb/>creſcences
+          ſituated a little deep in the <hi rend="italic">Anus</hi>, in the <lb/><hi rend="italic"
+            >Vagina</hi>, in the Throat, <hi rend="italic">&amp;c.</hi> For the like Extirpations
+          <lb/>I have been obliged to invent the <hi rend="italic">Forceps</hi> which I <lb/>am
+          going to deſcribe. </p>
+        <figure>
+          <p rend="hanging space">
+            <lb/><hi rend="italic">Fig.</hi> 1. The firſt Figure repreſents the <hi rend="italic"
+              >Forceps</hi> ſhut, <lb/>as they are when the Inſtrument is cloſed, or when <lb/>it
+            holds a ſmall Excreſcency. </p>
+          <p rend="indent">
+            <lb/><hi rend="italic">A C</hi> is the Extremity deſigned for laying hold of <lb/>the
+            Excreſcency: It is of Silver, pliant as far as <hi rend="italic">a a</hi>, <lb/>in order
+            to be able to give to theſe Cheeks the dif- <lb/>ferent Figures which thoſe of the
+            Tumours to be <lb/>extirpated may require. The Inſide of theſe Branches <pb n="81"/>
+            <lb/>is lined with a Slip of Buff-Skin, or cloſe Shamoys <lb/>(<hi rend="italic">K
+              K</hi>, <hi rend="italic">Fig.</hi> 2. <hi rend="sc">Tab.</hi> III.) to prevent the
+            Tumour's <lb/>ſlipping when once it has been laid hold of. </p>
+          <p rend="indent">
+            <lb/><hi rend="italic">B D</hi> is the Extremity of the <hi rend="italic">Forceps</hi>,
+            to be held <lb/>in the Hand of the Operator. </p>
+          <p rend="indent">
+            <lb/><hi rend="italic">E F</hi>, <hi rend="italic">G H</hi>, are the Pieces which
+            connect the two <lb/>Parts of the Inſtrument, inſtead of the common Joints <lb/>or
+            Rivets of the other <hi rend="italic">Forceps</hi>, in a very advantageous <lb/>manner.
+            Theſe Pieces make the principal Utility of <lb/>this Invention. </p>
+          <figDesc>An illustration of the forceps on a separate fold-out page. </figDesc>
+        </figure>
+        <figure>
+          <p rend="hanging space">
+            <lb/><hi rend="italic">Fig.</hi> 2. <hi rend="sc">Tab.</hi> III. repreſents the Pincers
+            taken to pieces <lb/>in two Parts. </p>
+          <p rend="indent">
+            <lb/>One eaſily ſees that the Piece <hi rend="italic">E</hi> is to go into the
+            <lb/>Notch <hi rend="italic">gg</hi>, ſo that the Screw <hi rend="italic">f</hi> may
+            paſs through its <lb/>Slit, and that the Nut <hi rend="italic">F</hi>, put on upon that
+            Screw <lb/><hi rend="italic">f</hi>, is to keep the Whole together: But one thing
+            <lb/>which the Figure cannot ſhew, is, that this Piece <hi rend="italic">E</hi> is
+            <lb/>moveable in the Direction lengthways of the <hi rend="italic">Forceps</hi>, <lb/>to
+            anſwer the different Openings of the Cheeks. You <lb/>may obſerve in <hi rend="italic"
+              >b</hi> the Pin upon which this Piece <lb/>turns. </p>
+          <p rend="indent">
+            <lb/>The Piece <hi rend="italic">G</hi> likewiſe receives the Screw <hi rend="italic"
+              >h</hi> into <lb/>its Slit; and the one and the other is ſtopped by the <lb/>Nut <hi
+              rend="italic">H</hi>. But an eſſential Remark with regard to the <lb/>Piece <hi
+              rend="italic">G</hi>, is, that it muſt have the Figure of an Arch <lb/>of a Circle,
+            the <hi rend="italic">Radius</hi> whereof is the Inſtrument <lb/>itſelf; that is to ſay,
+            it ought to be the Portion <lb/>of an Arch of a Circle, the Center of which is at the
+            <lb/>Extremity of the Inſtrument; and this to the end <lb/>that in the ſmall Extremity
+            of the Pincers, the Ends <lb/>of the Cheeks find themſelves over-againſt each other,
+            <lb/>whatever Opening one may give to the larger Extre- <lb/>mity, or to the Handle <hi
+              rend="italic">G H</hi>. </p>
+          <figDesc>An illustration of the forceps, its two parts separated from each other, on a
+            separate fold-out page. </figDesc>
+        </figure>
+        <p rend="indent">
+          <choice>
+            <corr>
+              <pb n="82"/>
+            </corr>
+            <sic>
+              <pb n="84"/>
+            </sic>
+          </choice>
+          <lb/>To explain the Uſe of theſe <hi rend="italic">Forceps</hi>: </p>
+        <p rend="indent">
+          <lb/>I ſuppoſe I am to extirpate an Excreſcence, a <hi rend="italic">Con-
+          <lb/>dyloma</hi>, of two Inches Depth in the <hi rend="italic">Rectum</hi>. I can-
+          <lb/>not lay hold of this Tumour with the Fingers, nor <lb/>make it come out; yet it is
+          very troubleſome to the <lb/>Patient, and one is diſpoſed to ſlit or lay open the <hi
+            rend="italic">Anus</hi>, <lb/>to make room for this Extirpation. With our <hi
+            rend="italic">For- <lb/>ceps</hi> we ſhall avoid this cruel Preparative, and ſhall
+          <lb/>with great Eaſe make the Extirpation. </p>
+        <p rend="indent">
+          <lb/>Firſt, I introduce the Fore-finger of the left Hand <lb/>into the <hi rend="italic"
+            >Rectum</hi> over the Tumour that is to be ex- <lb/>tirpated, to make myſelf ſure of the
+          Situation: With <lb/>the right Hand, I take the Part of my <hi rend="italic">Forceps C
+            D</hi>, <lb/><hi rend="italic">Fig.</hi> 2. and thruſt it into the <hi rend="italic"
+            >Rectum</hi>, under the Fin- <lb/>ger which is already there, and make it ſlide along
+          <lb/>the right Side of the Tumour, which to me is the <lb/>left Side. </p>
+        <p rend="indent">
+          <lb/>With the Fingers of the left Hand I ſupport this <lb/>Inſtrument in its Situation,
+          whilſt with the right <lb/>Hand I introduce the other Part of the <hi rend="italic"
+            >Forceps A B</hi>, <lb/><hi rend="italic">Fig.</hi> 2. and let it ſlide along the left
+          Side of the <lb/>Tumour, which is over-againſt my right Hand. </p>
+        <p rend="indent">
+          <lb/>Without taking the Fore<choice>
+            <corr>-</corr>
+            <sic> </sic>
+          </choice>finger of my left Hand <lb/>out of the <hi rend="italic">Rectum</hi>, I put
+          together the Parts of the <lb/>Inſtrument. I preſs between its Cheeks the Tumour <lb/>by
+          its Root; after which I draw the Fore-finger out <lb/>of the <hi rend="italic"
+          >Rectum</hi>. I take with the left Hand the Han- <lb/>dle of the <hi rend="italic">Forceps
+            B D</hi>, <hi rend="italic">Fig.</hi> 1.; I thruſt along the <lb/>right Side of their
+          Cheeks underneath the Knife <lb/><hi rend="italic">Fig.</hi> 3. the Button <hi
+            rend="italic">A</hi> being turned againſt the Cheeks, <lb/>and the Back <hi
+            rend="italic">C D</hi> towards the Inſide of the <hi rend="italic">Rectum</hi>. </p>
+        <p rend="indent">
+          <lb/>I puſh this Inſtrument as far as beyond the Tumour <lb/>under the Extremity of the
+          Cheeks of the <hi rend="italic">Forceps</hi>, <choice>
+            <corr>
+              <pb n="83"/>
+            </corr>
+            <sic>
+              <pb n="85"/>
+            </sic>
+          </choice>
+          <lb/>of which I can make myſelf ſure with the Fore- <lb/>finger of the left Hand.— Then I
+          raiſe towards the <lb/>upper Part the Cheeks of the <hi rend="italic">Forceps</hi>, in
+          order to <lb/>prolong as much as poſſible the Root of the Ex- <lb/>creſcence; and in this
+          Condition I pull towards my- <lb/>ſelf, with the right Hand, the Knife; which does
+          <lb/>not fail cutting the Tumour. </p>
+        <figure>
+          <p rend="indent space">
+            <lb/>There are Caſes, in which the Inſtrument, <hi rend="italic">Fig.</hi> 4. <lb/>will
+            be of more convenient Uſe. This cuts only by <lb/>its Creſcent <hi rend="italic">a
+              b</hi>, puſh'd forward, and mov'd alter- <lb/>nately from one Side to the other, to
+            aſſiſt its <lb/>Cutting. </p>
+          <figDesc>An illustration of an instrument with a small concave blade on one end on a
+            separate fold-out page. </figDesc>
+        </figure>
+        <figure>
+          <p rend="indent">
+            <lb/>There are Circumſtances, wherein the Knife <hi rend="italic">Fig.</hi> 5. <lb/>may
+            be preferable. </p>
+          <figDesc>An illustration of a curved knife, with a pointed head, on a separate fold-out
+            page. </figDesc>
+        </figure>
+        <p rend="indent">
+          <lb/>In fine, there are others, wherein all theſe Inſtru- <lb/>ments are of Service in one
+          Operation, which hap- <lb/>pen'd to me in <hi rend="italic">October</hi> 1748. in the
+          Extirpation of <lb/>a ſcirrhous <hi rend="italic">Polypus</hi> in our <hi rend="italic"
+            >Hotel Dieu</hi>; in which <lb/>Operation I employ'd not only all the Inſtruments
+          <lb/>above deſcribed, but alſo a cutting <hi rend="italic">Forceps</hi>, which I <lb/>had
+          contrived in 1735. for the Extirpation of <hi rend="italic">Fun- <lb/>gus's</hi> of the
+          Bladders; and which alone was proper <lb/>to take off one Part of this Tumour, that was as
+          <lb/>large as a Gooſe's Egg, and was falling into the <lb/>Throat. </p>
+        <p rend="indent">
+          <lb/>I ſuffer the Wound to bleed a little, and then dreſs <lb/>it with all the Precautions
+          uſually taken againſt Hæ- <lb/>morrhages in the Operation of the <hi rend="italic"
+            >Fiſtula</hi> in the <lb/><hi rend="italic">Anus</hi>. </p>
+      </div>
+      <pb n="84"/>
+      <div>
+        <figure>
+          <head rend="italic hanging space">
+            <lb/><hi rend="roman">Forceps</hi> for extracting Stones, and other foreign <lb/>Bodies,
+            lodged in the Parts where the common <lb/><hi rend="roman">Forceps</hi> are of no Uſe.
+              <hi rend="roman">Fig. 6. <hi rend="sc">Tab.</hi> III.</hi>
+          </head>
+          <figDesc>An illustration of the forceps on a separate fold-out page. </figDesc>
+        </figure>
+        <p rend="indent space">
+          <lb/>The ſame Mechaniſm juſt now deſcribed in the fore- <lb/>going <hi rend="italic"
+            >Forceps</hi>, may be applied with Advantage to the <lb/><hi rend="italic">Forceps</hi>
+          with which the Stone is pulled out, and to <lb/>other Inſtruments deſigned for extracting
+          Bullets, <lb/>Splinters of Grenadoes, Pieces of Iron, and other fo- <lb/>reign Bodies. </p>
+        <p rend="indent">
+          <lb/>There are ſeveral Caſes in the cutting for the Stone, <lb/>in which no Uſe can be
+          made of the common <hi rend="italic">For- <lb/>ceps</hi>: The moſt frequent is this; when
+          a Stone, laid <lb/>hold by the ordinary <hi rend="italic">Forceps</hi>, eſcapes from the
+          In- <lb/>ſtrument half-way, and ſo remains engaged in the <lb/>Inciſion. The Expedient
+          commonly taken, is to puſh <lb/>the Stone back into the Bladder, in order to have
+          <lb/>again the neceſſary Room for managing the <hi rend="italic">Forceps</hi>; <lb/>But
+          beſides the cruel Pain in thus puſhing back the <lb/>Stone into the Bladder, this foreign
+          Body may enter <lb/>into the cellular Texture which ſurrounds the Blad- <lb/>der, and
+          lodge itſelf there, and then the <hi rend="italic">Forceps</hi>
+          <lb/>not having any longer that Play which was endea- <lb/>voured to procure to them, the
+          Stone will remain in <lb/>that fatal Lodgement, without Poſſibility of pulling <lb/>it
+          out, and the Patient will die. This has been ſeen <lb/>many times. </p>
+        <p rend="indent">
+          <lb/>The Stone having ſtopp'd in the Paſſage of the <lb/>Inciſion, you ſlide along the
+          Body of it one of <lb/>the Cheeks of our <hi rend="italic">Forceps</hi>, <hi rend="italic"
+            >A</hi> or <hi rend="italic">C</hi>, well-oiled, <lb/>which will be done without much
+          Trouble, as I <lb/>have experienced it; the other Cheek afterwards will <pb n="85"/>
+          <lb/>paſs on the other Side; after which you join them, <lb/>as has been ſhewn above,
+          taking care to preſs cloſe <lb/>the Extremity <hi rend="italic">AC</hi> upon the Stone,
+          and to leave the <lb/>largeſt Opening on the Side of the Handle <hi rend="italic">BD</hi>,
+          as <lb/>in <hi rend="italic">Fig.</hi> 7. both to hinder the Stone from eſcaping, <lb/>and
+          to widen its Paſſage; then, having well-ſecured <lb/>the Screw <hi rend="italic">G</hi>,
+          you leave the Screw <hi rend="italic">F</hi> almoſt at Li- <lb/>berty. You graſp the
+          Inſtrument with both Hands, <lb/>as near the Stone as you can, and you draw that <lb/>Body
+          out, managing it as is uſual with the common <lb/><hi rend="italic">Forceps</hi>. </p>
+        <p rend="indent">
+          <lb/>A ſecond Caſe of cutting for the Stone, where <lb/>theſe new <hi rend="italic"
+            >Forceps</hi> will be of great Uſe, is this; <lb/>when the Stone is exactly embraced by
+          the internal <lb/>Coat of the Bladder; be it that it completely fills <lb/>this whole
+          Organ, or that it fills Part of it, which <lb/>may have cloſed itſelf upon the Stone; as
+          has hap- <lb/>pen'd to <hi rend="italic">Joſeph Bunel</hi>, whom I cut at <hi
+            rend="italic">Andelys</hi> in <lb/>1743. of which I have communicated the Obſervation
+          <lb/>to the <hi rend="italic">Royal Society</hi>; or that the Stone has made <lb/>to
+          itſelf a Lodgement or Bed in the inſide Coat of <lb/>the Bladder, prolonging itſelf
+          towards the cellular <lb/>Texture, which ſurrounds a ſmall Part of thoſe in- <lb/>ſide
+          Coats; as I ſaw it in the Bladder of M. <hi rend="italic">Pigache</hi>, <lb/>an eminent
+          Counſellor of our City of <hi rend="italic">Rouen</hi>. </p>
+        <p rend="indent">
+          <lb/>In ſhort, every foreign Body lodged in the Sub- <lb/>ſtance of any Part of the human
+          Body, be it of what <lb/>Nature it will, becomes the Object of our Inſtru- <lb/>ment; and
+          the Extraction of it will, in my Opinion, <lb/>become much more eaſy by the means of theſe
+            <hi rend="italic">For- <lb/>ceps</hi>, than by the Bullet-drawers, and moſt of the
+          <lb/>other Inſtruments invented for that Purpoſe; pro- <lb/>vided however one gets <hi
+            rend="italic">Forceps</hi> made of all ſorts <choice>
+            <corr>
+              <pb n="86"/>
+            </corr>
+            <sic>
+              <pb n="88"/>
+            </sic>
+          </choice>
+          <lb/><choice>
+            <corr/>
+            <sic>of all ſorts </sic>
+          </choice>of Lengths and Bigneſs, in ſhort, of all <lb/>the Shapes which the different
+          Caſes may require. </p>
+        <signed rend="indent">
+          <lb/>I have the Honour to be, <hi rend="italic">&amp;c.</hi>
+        </signed>
+        <cb n="1"/>
+        <dateline rend="size(0.7) hanging space">
+          <lb/><hi rend="italic">Rouen</hi>, May 20. <lb/>1748. <hi rend="italic">N. S.</hi>
+        </dateline>
+        <cb n="2"/>
+        <signed rend="size(1.2) align-right space">
+          <lb/>— Le Cat. </signed>
+      </div>
+      <figure>
+        <figDesc>A horizontal line spanning the whole page. </figDesc>
+      </figure>
+      <postscript>
+        <label rend="italic hanging">
+          <lb/>Addition to the Deſcription of the <hi rend="roman">Glaſſes</hi> for pre-
+          <lb/>ſerving things in <hi rend="roman">Spirit</hi> of <hi rend="roman">Wine</hi>, by Dr.
+            <hi rend="roman">le Cat</hi>, <lb/>pag. 6. </label>
+        <p rend="indent space">
+          <lb/>In uſing the Bottle, of which I have given a De- <lb/>ſcription, I found that it was
+          attended with one In- <lb/>convenience. </p>
+        <p rend="indent">
+          <lb/>The circular Groove, the Edge of which was <lb/>turn'd up on the Inſide of the
+          Bottle, retained a ſmall <lb/>Quantity of the Water, when I emptied and rinſed <lb/>it; ſo
+          that it was impoſſible to do it thoroughly. </p>
+        <figure>
+          <p rend="indent">
+            <lb/>Wherefore I cauſed this Veſſel to be made, as repre- <lb/>ſented in the annexed
+            Figure, <hi rend="sc">Tab.</hi> I. <hi rend="italic">Fig.</hi> 1. which <lb/>is a
+            Section of it; and where it appears that the Groove <lb/><hi rend="italic">AA</hi> is
+            placed on the Outſide of the Edge of the Bot- <lb/>tle. By this means every Drop of the
+            contain'd <lb/>Fluid can be pour'd out. </p>
+          <p rend="indent">
+            <lb/>It is eaſy to ſee that the circular Border <hi rend="italic">BB</hi> of <lb/>the
+            Cover is to enter into theſe Grooves <hi rend="italic">AA</hi>, which <lb/>are fill'd
+            with Oil or Quickſilver; and that the Hook <lb/><hi rend="italic">C</hi>, of the ſame
+            Cover, is deſtined to ſuſpend in the <lb/>Liquor ſuch Pieces as are to be preſerved in
+            it. </p>
+          <figDesc>A cross-sectional illustration of a jar and its cover on a separate fold-out
+            page. This page is not included in the pdf-file of this text, however it can be found in
+            the pdf of the previous text in the corpus from the Philosophical Transactions,
+            1749_pt46_0024.pdf. </figDesc>
+        </figure>
+      </postscript>
+    </body>
+  </text>
+</TEI>

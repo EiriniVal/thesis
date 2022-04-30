@@ -1,0 +1,1546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LMEMT Corpus - Spilsbury: The friendly physician</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>Francis Spilsbury</persName>
+            </author>
+            <title type="main">THE FRIENDLY PHYSICIAN. A NEW TREATISE; CONTAINING Rules, Schemes,
+              and particular Instructions, how to Select and Furnish SMALL CHESTS With the most
+              approved necessary Medicines and full Directions how to apply them. TO WHICH ARE ADDED
+              Many excellent RECEIPTS for particular DISORDERS. </title>
+            <edition n="1"/>
+            <idno type="ESTC">N2849</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/T5274"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>Sold by Mr. Wilkie, in St. Paul's Church yard; Mr. Stevenson, Newry, in
+                  Ireland; Mr. Swinney, Birmingham; Mr. Gilbert, Dublin; Mr. Crowse, Norwich; Mr.
+                  Saint, Newcastle on Tyne; and by the author, at No. No. 5, in Mount Row, near
+                  Westminster Bridge, 1773.</persName>
+              </publisher>
+              <date>1773</date>
+            </imprint>
+            <extent>
+              <measure type="format">8⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="6"/>
+              <measure type="count" commodity="body" unit="page" quantity="51"/>
+              <measure type="count" commodity="back" unit="page" quantity="1"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">Countway Library of Medicine</orgName>
+            <idno type="ECCO">CW3306991263</idno>
+            <idno type="TCP">K001857.000</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Public welfare and institutional"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text xml:lang="eng">
+    <front>
+      <gap reason="sampling" unit="pages" quantity="5"/>
+    </front>
+    <body>
+      <div>
+        <pb xml:id="page_7"/>
+        <head rend="align-center"><lb/><hi rend="size(1.7)">DIRECTIONS</hi>
+          <lb/>FOR FURNISHING <lb/><hi rend="dc(2)">MEDICINE CHESTS</hi>. </head>
+        <p rend="indent"><lb/><hi rend="dc(3)">I</hi> HAVE, in the courſe of this work, exceeded
+          <lb/>the bounds I, at firſt, intended; and have taken <lb/>notice of ſeveral Medicines,
+          which are uſeful on <lb/>particular occaſions, (and which the public may <lb/>be furniſhed
+          with, if they think proper) though <lb/>not abſolutely neceſſary to be kept in every
+          <lb/>houſe. The ſmall Cheſts, with a few bottles, <lb/>will ever be found the moſt
+          ſerviceable; the <lb/>uſe of which I moſt ſtrongly plead for, without <lb/>intereſt; as I
+          am intirely againſt any ſecret <lb/>noſtrums being put in; and hope no one will
+          <lb/>encourage any ſuch practices. </p>
+        <list>
+          <head rend="align-center"><lb/>A TABLE <hi rend="size(0.5)">OF</hi> WEIGHTS. </head>
+          <lb/>
+          <item>Twenty Grains — make —One Scruple. </item>
+          <lb/>
+          <item>Three Scrupies — One Drachm. </item>
+          <lb/>
+          <item>Eight Drams — One Ounce. </item>
+          <lb/>
+          <item>Twelve Ounces — One Pound. </item>
+          <lb/>
+          <item>A Gill in Meaſure is called Four Ounces in Weight. </item>
+        </list>
+        <p rend="indent"><lb/>Glaſs Mortars are handy and cheap; and, with care, will <lb/>laſt ſome
+          time. </p>
+        <pb xml:id="page_8" n="6"/>
+        <p rend="indent"><lb/><table>
+            <head rend="align-center"><hi rend="size(1.5)">FIRST SCHEME</hi>. <lb/>Which no family
+              ought to be without.</head>
+            <row>
+              <cell rows="1" cols="1">Elixir <lb/>Paregoric.</cell>
+              <cell rows="1" cols="1">Anodyne <lb/>Balſam.</cell>
+              <cell rows="1" cols="1">Traumatic <lb/>Balſam, or <lb/>Turlington's.</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">Wine <lb/>of<lb/>Ipecacoanha.</cell>
+              <cell rows="1" cols="1">Tincture <lb/>of <lb/>Jalap.<note place="bottom" n="*"
+                  rend="size(0.5)">* The chief recommendation of the Tincture of Jalap is its
+                  <lb/>lying in a ſmall compaſs, and purging briskly; otherwiſe ſome <lb/>people may
+                  chooſe Tincture of Rhubarb, or Sena, commonly <lb/>called Daffy's Elixir; or an
+                  imitation of Baume de Vie. </note></cell>
+              <cell rows="1" cols="1">Salts, or <lb/>Hartſhorn <lb/>Drops.</cell>
+            </row>
+          </table>
+        </p>
+        <p rend="indent"><lb/>If you ſhould chooſe a nine-bottle Caſe, then <lb/>add the three
+          following. </p>
+        <p rend="indent"><lb/><table>
+            <row>
+              <cell rows="1" cols="1">Tincture of <lb/>Soot.</cell>
+              <cell rows="1" cols="1">Styptic <lb/>Tincture.</cell>
+              <cell rows="1" cols="1">Aromatic <lb/>Tincture.</cell>
+            </row>
+          </table>
+        </p>
+        <p rend="indent"><lb/>If a twelve-bottle Caſe, then add the following, <lb/>or any others
+          you may think proper. </p>
+        <p rend="indent"><lb/><table>
+            <row>
+              <cell rows="1" cols="1">Spirit of <lb/>Lavender <lb/>compound.</cell>
+              <cell rows="1" cols="1">Tincture of <lb/>Valerian <lb/>volatile.</cell>
+              <cell rows="1" cols="1">The <lb/>Baſilicon <lb/>Powder.</cell>
+            </row>
+          </table>
+        </p>
+        <pb xml:id="page_9" n="7"/>
+        <p rend="indent"><lb/><table>
+            <head rend="align-center">A SCHEME <lb/>To furniſh a large Medicine Cheſt. <lb/>Others
+              may be added.</head>
+            <row>
+              <cell rows="1" cols="1">Elixir <w part="I">Pare-</w><lb/><w part="F">goric</w>.</cell>
+              <cell rows="1" cols="1">Balſam <lb/>Anodyne.</cell>
+              <cell rows="1" cols="1">Tincture <lb/>of Soot.</cell>
+              <cell rows="1" cols="1">Hartſh. <lb/>Drops, <lb/>or Salts.</cell>
+              <cell rows="1" cols="1">Wine of <w part="I">Ipeca-</w><lb/><w part="F"
+                >coanha</w>.</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">Styptic <lb/>Tincture.</cell>
+              <cell rows="1" cols="1">Volatile <lb/>Tinct. of <lb/>Valerian.</cell>
+              <cell rows="1" cols="1">Tincture <lb/>of Jalap.</cell>
+              <cell rows="1" cols="1">An <w part="I">Imita-</w><lb/><w part="F">tion</w> of Beaume
+                <lb/>de Vie.</cell>
+              <cell rows="1" cols="1">Jeſuits <lb/>Drops.</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">Balſam <w part="I">Trau-</w><lb/><w part="F">matic</w>.</cell>
+              <cell rows="1" cols="1">Wine of <w part="I">Anti-</w><lb/><w part="F">mony</w>.</cell>
+              <cell rows="1" cols="1">Compd. <lb/>Powder <w part="I">Con-</w><lb/><w part="F"
+                  >trayerva</w>.</cell>
+              <cell rows="1" cols="1">Baſilicon <lb/>Powder.</cell>
+              <cell rows="1" cols="1">Tinct. of <lb/>Sena, or <lb/>Daffy's <lb/>Elixir.</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">Spirit <lb/>of Wine <lb/>and <lb/>Camphor.</cell>
+              <cell rows="1" cols="1">Liquid <w part="I">Lauda-</w><lb/><w part="F">num</w>.</cell>
+              <cell rows="1" cols="1">Bitter <lb/>Tincture.</cell>
+              <cell rows="1" cols="1">Aromatic <lb/>Tincture.</cell>
+              <cell rows="1" cols="1">Cream of <lb/>Tartar.</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">Magneſia.</cell>
+              <cell rows="1" cols="1">Nitre.</cell>
+              <cell rows="1" cols="1">Sperma-<lb/>ceti.</cell>
+              <cell rows="1" cols="1">Yellow <lb/>Baſilicon.</cell>
+              <cell rows="1" cols="1">Diachy-<lb/>lon Plaiſter.</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">Turner's <lb/>Cerate.</cell>
+              <cell rows="1" cols="1">Rhubarb.</cell>
+              <cell rows="1" cols="1">Glauber <lb/>Salts, and <lb/>Manna.</cell>
+              <cell rows="1" cols="1">Hyſteric <lb/>Water.</cell>
+              <cell rows="1" cols="1">Spirit of <lb/>Lavender <w part="I">com-</w><lb/><w part="F"
+                  >pound</w>.</cell>
+            </row>
+          </table>
+        </p>
+        <p rend="indent size(0.5)"><lb/>And the following dried Articles will be found very uſeful. </p>
+        <p rend="indent size(0.5)"><lb/>All-Spice, Alum, Gum Arabic, Ginger, Pearl-Barley, Cinnamon. </p>
+        <p rend="indent size(0.5) align-center"><lb/>Alſo the following dried Herbs,
+          <lb/>Marſhmallows, Mint, Peppermint, Chamomile Flowers, Penny-<lb/>Royal, Ground-Ivy,
+          Balm, and Sage, to make Teas or Infuſions. </p>
+      </div>
+      <div>
+        <pb xml:id="page_10" n="8"/>
+        <p rend="indent"><lb/>As Medicine Cheſts are made of different <lb/>ſizes, each perſon may
+          adopt which they pleaſe: <lb/>the firſt, nine, or twelve, I particularly <w part="I"
+            >recom-</w><lb/><w part="F">mend</w> to every family. Thoſe who keep the <lb/>whole will
+          have a very good Apothecary's ſhop; <lb/>and a Phyſician or Apothecary may make a
+          <lb/>good Medicine up quickly, to ſuit any exigency. <lb/>I have omitted the Bark, and
+          ſeveral other <w part="I">valu-</w><lb/><w part="F">able</w> Medicines, becauſe there is
+          time ſufficient <lb/>to procure them, when wanted: and, firſt, for <lb/>Colds and Coughs,
+          is </p>
+        <div>
+          <head rend="align-center "><lb/>ELIXIR PAREGORIC. </head>
+          <p rend="indent"><lb/>This excellent Elixir was invented by Le Mort, <lb/>a French
+            Surgeon, and was called the Elixir <lb/>Aſthmatic. It is a Medicine of great efficacy
+              <pb xml:id="page_11" n="9"/><lb/>in freſh Colds or Coughs, and may be given to
+            <lb/>children in the Chin-Cough, commonly called <lb/>the Whooping-Cough. Doſe, a
+            tea-ſpoonful, <lb/>(not more) going to bed. Grown people may <lb/>take more, up to a
+            tea-ſpoonful and a half. <lb/>It is a gentle opiate. </p>
+
+          <p rend="indent size(0.5)"><lb/>N. B. Perſons who are ſubject to a bad Cough, of long
+            <lb/>ſtanding, and Shortneſs of Breath, muſt take care not to <lb/>meddle with it, an
+            account of the Opium in it, which <lb/>would almoſt choak them. When a perſon has got a
+            Cold, <lb/>they ſhould put on a double night-cap, and a woollen <w part="I"
+              >ſtock-</w><lb/><w part="F">ing</w> round their neck. Children are frequently troubled
+            <lb/>with a Cough that proceeds from eating traſh, which <w part="I">occa-</w><lb/><w
+              part="F">ſions</w> tough phlegm to be lodged in the ſtomach: in that <lb/>caſe, or
+            where it is a Whooping-Cough, a gentle vomit of <lb/>Ipecacoanha wine, (doſe, two drams,
+            in any pleaſant liquor, <lb/>for a child of ſix years old) may be given; or a gentle
+            <lb/>purge; as, Take manna, half an ounce; diſſolve it in a cup <lb/>of tea; and add
+            Tincture of Jalap, one tea-ſpoonful: but, <lb/>where Worms are ſuſpected, a doſe of
+            Baſilicon Powder <lb/>muſt be given. </p>
+          <p rend="indent size(0.5)"><lb/>Obſerve, in taking of Medicines, to begin with a ſmall
+            <lb/>doſe, and ſo increaſe or diminiſh as you find them operate: <lb/>by this you will
+            diſcover what is commonly called the <w part="I">Con-</w><lb/><w part="F">ſtitution</w>.
+            In Fevers this ſhould be given very ſparingly, <lb/>as it will rather increaſe the heat. </p>
+
+        </div>
+        <div>
+          <head rend="align-center"><lb/>BALSAM ANODYNE. </head>
+          <p rend="indent"><lb/>This is a valuable compoſition. It cures freſh <lb/>Aches and Pains,
+            ariſing from Colds, almoſt to <lb/>a wonder. Thoſe who are troubled with the <lb/>Gout,
+            or Rheumatiſm, muſt uſe Opodeldoc. </p>
+          <p rend="indent"><lb/>It likewiſe cures the Tooth and Head-Ach, <lb/>and is the baſis of
+            thoſe Tinctures advertiſed. <lb/>For Outward Pains, rub half an ounce well in
+            <lb/>before the fire, and wear a flannel. For <w part="I">Ner-</w><lb/><w part="F"
+              >vous</w> Cholics, or Gravelly Complaints, it is <w part="I">ſome-</w><lb/><w part="F"
+              >times</w> uſed. Doſe, twenty drops to ſixty, for a <lb/>grown perſon. This is a
+            ſtronger Opiate than <lb/>the former. </p>
+        </div>
+        <div>
+          <head rend="align-center"><lb/>BALSAM TRAUMATIC, <lb/><hi rend="size(0.5)">OR</hi>,
+            <lb/>BAUME DE COMMANDEUR. </head>
+          <p rend="indent"><lb/>This is ſimilar to the Fryar's and Turlington's <lb/>Balſam, and is
+            uſed for the ſame purpoſes, viz. <lb/>Freſh Cuts. It is good for inward Decays, <lb/>and
+            tickling Coughs. As it is ſo generally <lb/>known, I ſhall not ſay any more to recommend
+            <lb/>it. It is rather thinner than the advertiſed <w part="I">Medi-</w><lb/><w part="F"
+              >cines</w>, but no ways inferior. </p>
+        </div>
+        <div>
+          <pb xml:id="page_12" n="10"/>
+          <head rend="align-center"><lb/>SOOT DROPS, <lb/><hi rend="size(0.5)">OR</hi>,
+            <lb/>TINCTURE OF SOOT. </head>
+          <p rend="indent"><lb/>Where children are theſe Drops ſhould always <lb/>be at hand; there
+            is not any Medicine of ſo great <lb/>efficacy as this is in bringing people out of Fits,
+            <lb/>when properly applied. I have known a grown <lb/>perſon ſeized with Fits, which
+            before uſed to <lb/>hold an hour, and could not be brought to <w part="I"
+              >her-</w><lb/><w part="F">ſelf</w> by any of thoſe cruel, mis-judged methods <lb/>very
+            often made uſe of by ſtrangers, as forcing <lb/>open the hands, pinching, burning,
+            &amp;c. which <lb/>is wrong. My method was, to pour a <w part="I">pap-ſpoon-</w><lb/><w
+              part="F">ful</w> of theſe Drops down the Patient's throat by <lb/>itſelf, and almoſt
+            immediately they would <w part="I">reco-</w><lb/><w part="F">ver</w>; if not, I gave the
+            ſecond, which ſeldom <lb/>failed; indeed, I never knew it to fail. It is a ſafe
+            <lb/>Medicine for children from one to four years old: <lb/>I lower it for them by
+            mixing two or three parts <lb/>water with it, as one tea-ſpoonful of Drops and
+            <lb/>three of water; when children either purge or <lb/>vomit, the danger is over:
+            rubbing their limbs <lb/>and ſoles of the feet is good. The beſt <w part="I"
+              >preſerva-</w><lb/><w part="F">tive</w> againſt Fits is an Iſſue, and purge off the
+            <lb/>acids with Magneſia and Rhubarb. In Lethargy <lb/>Fits, a ſtrong vomit muſt be
+            forced down, as the <lb/>Wine of Antimony, the Sal Vitriol; theſe two <lb/>laſt
+            Medicines require judgement. </p>
+        </div>
+        <div>
+          <pb xml:id="page_13" n="11"/>
+          <head rend="align-center"><lb/><hi rend="italic">The</hi> STYPTIC TINCTURE. </head>
+          <p rend="indent"><lb/>As ſometimes accidents happen by breaking a <lb/>blood-veſſel, or
+            too great an effuſion of blood, I <lb/>have thought proper to recommend this to be
+            <lb/>kept ready, and will anſwer all the end of the <lb/>celebrated Styptic of Helvetius
+            or Eaton. Dip a <lb/>piece of cloth in it, and apply to the part. </p>
+        </div>
+        <div>
+          <head rend="align-center"><lb/>SPIRIT OF ROSEMARY, <lb/><hi rend="size(0.5)"
+              >OTHERWISE</hi>, <lb/>HUNGARY WATER. <lb/>SIMPLE SPIRIT OF LAVENDER. </head>
+          <p rend="indent"><lb/>Both of theſe, when made in perfection, are <lb/>very grateful and
+            fragrant: they are frequently <lb/>rubbed on the temples, &amp;c. under the notion of
+            <lb/>refreſhing and comforting the nerves; and <w part="I">like-</w><lb/><w part="F"
+              >wiſe</w> taken internally, to the quantity of two or <lb/>three tea-ſpoonfuls, as
+            warm cordials, in wine, &amp;c. </p>
+        </div>
+        <div>
+          <head rend="align-center"><lb/>WINE OF IPECACOHANA, <lb/><hi rend="size(0.5)">COMMONLY
+              CALLED</hi>, <lb/><hi rend="italic">The</hi> SACK VOMIT. </head>
+          <p rend="indent"><lb/>It is mild, ſafe, and ſerviceable in Dyſenteries: <lb/>The Powder of
+            Ipecacohana is beſt for ſmall <lb/>Cheſts. Doſe of the Wine for a child ſix years
+            <lb/>old is ſix drams, in Powder four grains; grown <pb xml:id="page_14" n="12"
+            /><lb/>people one ounce and a half of the Wine, and in <lb/>Powder ten grains. </p>
+        </div>
+        <div>
+          <head rend="align-center"><lb/>HARTSHORN DROPS. </head>
+          <p rend="indent"><lb/>Their uſe is well known. Doſe from ten <lb/>Drops to ſixty. </p>
+        </div>
+        <div>
+          <head rend="align-center"><lb/>SALTS OF HARTSHORN. </head>
+          <p rend="indent"><lb/>The doſe is from a grain or two to ten or <lb/>twelve. </p>
+        </div>
+        <div>
+          <head rend="align-center"><lb/>TINCTURE OF MARTIAL FLOWERS, <lb/>OR OF IRON. </head>
+          <p rend="indent"><lb/>People who live at a diſtance from chalybeat <lb/>waters may ſupply
+            themſelves by ſubſtituting this <lb/>Tincture, by dropping from ten to twenty drops
+            <lb/>in any vehicle twice or thrice a day. </p>
+        </div>
+        <div>
+          <head rend="align-center"><lb/>SWEET SPIRIT OF NITRE. </head>
+          <p rend="indent"><lb/>A pleaſant, cooling, diuretic Medicine. Doſe <lb/>from ten to fifty
+            drops. Good in Fevers. </p>
+        </div>
+        <div>
+          <pb xml:id="page_15" n="13"/>
+          <head rend="align-center"><lb/><hi rend="italic">The</hi> SWEET SPIRIT OF VITRIOL,
+            <lb/>ACID ELIXIR OF VITRIOL, <lb/><hi rend="size(0.5)">AND</hi>
+            <lb/>SWEET ELIXIR OF VITRIOL, </head>
+          <p rend="indent"><lb/>Are often uſed, on particular occaſions, for <lb/>weakneſs and
+            relaxations of the Stomach, and <lb/>decays of Conſtitution. </p>
+        </div>
+        <div>
+          <head rend="align-center"><lb/><hi rend="italic">The</hi> VOLATILE TINCTURE OF
+            <lb/>VALERIAN. </head>
+          <p rend="indent"><lb/>Is a very good hyſteric Medicine in nervous <lb/>caſes and lowneſs
+            of ſpirits. Doſe, three times <lb/>a day, from one to two tea-ſpoonfuls in a glaſs
+            <lb/>of any liquor, as wine, or wine and water. </p>
+        </div>
+        <div>
+          <head rend="align-center"><lb/>TINCTURE OF JALAP. </head>
+          <p rend="indent"><lb/>Is a uſeful, ſafe purgative; if it had not that <lb/>burning heat in
+            the throat, it would not be <w part="I">un-</w><lb/><w part="F">pleaſant</w>: It is
+            handy to mix in ſmall quantities in <lb/>any effuſion, eſpecially for children, whoſe <w
+              part="I">aver-</w><lb/><w part="F">ſion</w> to Phyſic creates much trouble. Doſe for
+            <lb/>children ſix years old a ſmall tea-ſpoonful; grown <lb/>people two ſpoonfuls, in
+            any liquor. Jalap is <lb/>frequently uſed in Scurvy-graſs, and <w part="I"
+              >concen-</w><lb/><w part="F">trated</w> juices ſold as Quack Medicines, and when
+            <lb/>dropped in water or beer turns whitiſh. </p>
+        </div>
+        <div>
+          <pb xml:id="page_16" n="14"/>
+          <head rend="align-center"><lb/>STOMACHIC ELIXIR, <lb/><hi rend="size(0.5)">OTHERWISE</hi>,
+            <lb/>STOUGHTON's ELIXIR. </head>
+          <p rend="indent"><lb/>Take of <list>
+              <item>Gentian root two ounces, </item>
+              <lb/>
+              <item>Orange peel one ounce, </item>
+              <lb/>
+              <item>Virginian ſnake-root half an ounce, </item>
+              <lb/>
+              <item>Cochineal half a dram, </item>
+              <lb/>
+              <item>French brandy two pints. </item>
+            </list>
+          </p>
+          <p rend="indent"><lb/>Let them ſteep for three days, then filter the <lb/>Elixir.—This
+            ſafe Medicine, being ſo generally <lb/>known, needs no further comment. Doſe from
+            <lb/>one to four tea-ſpoonfuls, in any liquor. </p>
+        </div>
+        <div>
+          <head rend="align-center"><lb/>TINCTURE OF SENA, <lb/><hi rend="size(0.5)">OR</hi>,
+            <lb/>DAFFY's ELIXIR. </head>
+          <p rend="indent"><lb/>This mixture is warm and comfortable to the <lb/>ſtomach and bowels,
+            and ſomewhat proper in <lb/>cholic complaints, and for the wind. Doſe for <lb/>grown
+            perſons one ounce or two; if given to <lb/>children, lower the doſe, as it is too hot
+            for their <lb/>tender mouths. </p>
+        </div>
+        <div>
+          <head rend="align-center"><lb/>SPIRITS OF WINE AND CAMPHOR </head>
+          <p rend="indent"><lb/>Is very handy for ſprains, inflammations, <w part="I"
+              >diſ-</w><lb/><w part="F">cuſſing</w> tumours, preventing gangreens, &amp;c. </p>
+        </div>
+        <div>
+          <pb xml:id="page_17" n="15"/>
+          <head rend="align-center"><lb/>LIQUID LAUDANUM, <lb/><hi rend="size(0.5)"
+            >OR</hi>,<lb/>THEBAIC TINCTURE, <lb/><hi rend="italic">An</hi>
+            <hi rend="sc">Opiate</hi>. </head>
+          <p rend="indent"><lb/>A good Medicine in ſkilful hands, but very <lb/>dangerous in
+            ignorant. The white Syrup of <lb/>Poppies is a very good opiate, and not ſo <w part="I"
+              >dan-</w><lb/><w part="F">gerous</w>. Peppermint-water, ſweetened with this
+            <lb/>Syrup, is good to ſtop vomiting, or an over <lb/>purging. One grain of Laudanum in
+            ſubſtance <lb/>is equal to thirty drops of the liquid for ſtrength. </p>
+        </div>
+        <div>
+          <head rend="align-center"><lb/>BITTER TINCTURE. </head>
+          <p rend="indent"><lb/>Is handy for thoſe who like to drink it in wine, <lb/>or make purl
+            of it; is very ſafe, and helps <w part="I">di-</w><lb/><w part="F">geſtion</w>. Doſe
+            thirty to ſixty drops. </p>
+        </div>
+        <div>
+          <head rend="align-center"><lb/><hi rend="italic">The</hi> AROMATIC TINCTURE </head>
+          <p rend="indent"><lb/>Is a very warm Medicine for weakneſs of the <lb/>ſtomach, in
+            languors and flatulencies, and other <lb/>like complaints. Doſe a tea-ſpoonful or two in
+            a <lb/>glaſs of wine, or wine and water. </p>
+        </div>
+        <div>
+          <head rend="align-center"><lb/>HUXHAM's WINE OF ANTIMONY </head>
+          <p rend="indent"><lb/>I prefer to that directed by the College of <lb/>Phyſicians: it is a
+            noble Medicine. In proper <lb/>hands good to be given againſt the Small-pox, as <pb
+              xml:id="page_18" n="16"/><lb/>a preparative for Inoculation, for coughs as an
+            <lb/>alterative and diaphoretic, and apoplectic caſes. <lb/>None ought to meddle with it
+            but with great care. <lb/>Doſe for a child eight years old one tea-ſpoonful <lb/>in a
+            glaſs of water, grown people two; three is <lb/>a large doſe, it vomits very ſtrong.
+            Rectified <lb/>Spirits of Wine, poured on the glaſs of Antimony, <lb/>will neither vomit
+            nor purge, and is the baſis of <lb/>Norris's and Ryſſeeg's Medicines. </p>
+        </div>
+        <div>
+          <head rend="align-center"><lb/>SPIRIT OF LAVENDER COMPOUND. </head>
+          <p rend="indent"><lb/>This is the red drops of Lavender, very good <lb/>to ſnuff up the
+            noſe when you have got cold: it <lb/>comforts the head, and raiſes the ſpirits. Doſe
+            <lb/>from twenty to ſixty drops, on ſugar or in wine <lb/>and water. </p>
+        </div>
+        <div>
+          <head rend="align-center"><lb/><hi rend="italic">An</hi> IMITATION OF BAUME DE VIE. </head>
+          <p rend="indent"><lb/>Take of the Sacred Tincture two ounces, of <lb/>the Stomach Tincture
+            one ounce, Syrup of <w part="I">Saf-</w><lb/><w part="F">fron</w> two drams, mixed. This
+            is a very pleaſant, <lb/>ſafe, eaſy purge, and no ways inferior to that <lb/>boaſted
+            Medicine "Baume de Vie" in it's <w part="I">vir-</w><lb/><w part="F">tues</w>. Try and
+            believe. </p>
+          <p rend="indent"><lb/>Obſerve, People that are troubled with the <lb/>Piles muſt not
+            meddle with aloetic Medicines, <lb/>as this and the Baume de Vie, likewiſe Scotch
+            <lb/>Pills. </p>
+        </div>
+        <div>
+          <pb xml:id="page_19" n="17"/>
+          <head rend="align-center"><lb/>JESUITS DROPS, <lb/><hi rend="size(0.5)">OR</hi>,
+            <lb/>BALSAMIC TINCTURE. </head>
+          <p rend="indent"><lb/>Take Balſam of Capivi one ounce, Gum <lb/>Guiacum two drams, Balſam
+            of Peru four drams, <lb/>Oil of Saſſafras two ſcruples, Salt of Tartar <lb/>twelve
+            grains, rectified Spirits of Wine nine <lb/>ounces: digeſt them together for four days,
+            and <lb/>pour off what is fine for uſe. This is partly taken <lb/>from Le Mort, who gave
+            the Proprietor the firſt <lb/>hint. It is an admirable warm Medicine, and a <lb/>pity it
+            is not more known in ſome caſes: it has <lb/>long been advertiſed for curing a certain
+            diſorder, <lb/>which it will not cure. This Medicine is <w part="I">ex-</w><lb/><w
+              part="F">ceeding</w> good for ulcerations, decays of the lungs <lb/>and kidneys, freſh
+            cuts, &amp;c. and for that painful <lb/>complaint the ſtone in the gall, or the gravel.
+            <lb/>Doſe one tea-ſpoonful to three or four, when <w part="I">re-</w><lb/><w part="F"
+              >quired</w>. It turns water like milk, as Balſams <lb/>will do when lowered. With this
+            I have often <lb/>cured a pain in the bowels or ſtomach much <lb/>ſooner than the
+            Tincture of Rhubarb ſo often <w part="I">pre-</w><lb/><w part="F">ſcribed</w>. </p>
+        </div>
+        <div>
+          <head rend="align-center"><lb/>COMPOUND POWDER OF <w part="I">CONTRA-</w><lb/><w part="F"
+              >YERVA</w>. </head>
+          <p rend="indent"><lb/>This is a Powder much ſuperior to the <w part="I">Gaſ-</w><lb/><w
+              part="F">coigne's</w>; it is a warm, ſudorific, cordial <w part="I">Medi-</w><lb/><w
+              part="F">cine</w>, and given in low fevers, or where a ſweat <pb xml:id="page_20"
+              n="18"/><lb/>is wanted to be raiſed. Doſe ten grains to half a <lb/>dram, every fourth
+            and ſixth hour. </p>
+        </div>
+        <div>
+          <head rend="align-center"><lb/>MAGNESIA. </head>
+          <p rend="indent"><lb/>An exceeding good, ſafe, uſeful Medicine; no <lb/>family ſhould be
+            without it: given with Rhubarb <lb/>to correct and purge off the acids in the <w
+              part="I">ſto-</w><lb/><w part="F">mach</w>.<note place="bottom" n="*" rend="size(0.5)"
+              >* Solutions of Magneſia in all acids are bitter and <w part="I">purga-</w><lb/><w
+                part="F">tive</w>, while thoſe of the other earths are more or leſs auſtere <lb/>and
+              aſtringent. A large doſe of the Magneſia, if the <w part="I">ſto-</w><lb/><w part="F"
+                >mach</w> contains no acid to diſſolve it, does not purge, or <lb/>produce any
+              ſenſible effect; a moderate one, if an acid is <lb/>lodged there, or if acid liquors
+              are taken after it, procures <lb/>ſeveral ſtools; whereas the common abſorbents, in
+              the ſame <lb/>circumſtances, inſtead of looſening, bind the belly. </note>
+          </p>
+        </div>
+        <div>
+          <head rend="align-center"><lb/>RHUBARB. </head>
+          <head rend="align-center" type="sub"><lb/><hi rend="italic">The</hi>
+            <hi rend="sc">Powder</hi>
+          </head>
+          <p rend="indent"><lb/>Is well known: it is good for ſtrengthening <lb/>the ſtomach, and
+            purging off crudities. Doſe for <lb/>one ſeven years old twelve grains, a grown <w
+              part="I">per-</w><lb/><w part="F">ſon</w> half a dram. </p>
+        </div>
+        <div>
+          <head rend="align-center"><lb/>NITRE. </head>
+          <head rend="align-center sc" type="sub"><lb/>White Powder. </head>
+          <p rend="indent"><lb/>A cooling diuretic. Doſe from ten grains to <lb/>twenty-four, twice
+            a day. It ſhould be taken in <lb/>warm water, with a little ſpirit and ſugar, to
+            <lb/>ſweeten and correct the coldneſs. It will allay <lb/>heat. </p>
+        </div>
+        <div>
+          <pb xml:id="page_21" n="19"/>
+          <head rend="align-center"><lb/>CREAM OF TARTAR. <lb/>A <hi rend="sc">White Powder</hi>. </head>
+          <p rend="indent"><lb/>This is an agreeable acid, and ſometimes, in <lb/>making of punch,
+            ſupplies the place of lemon-<lb/>juice: it purges very gently. Doſe from ten <lb/>grains
+            to two drams. A ſafe Medicine. </p>
+        </div>
+        <div>
+          <head rend="align-center"><lb/>SPERMA CETI. </head>
+          <p rend="indent"><lb/>Is uſeful in lying-in caſes and miſcarriages, or <lb/>inward bruiſes
+            or coughs. </p>
+        </div>
+        <div>
+          <head rend="align-center"><lb/><hi rend="italic">The</hi> ROYAL BASILICAN POWDER, <lb/><hi
+              rend="italic">From</hi>
+            <hi rend="sc">Quincey</hi>. </head>
+          <p rend="indent"><lb/>Quincey ſays, and not without reaſon, this is <lb/>one of the beſt
+            purges for groſs children, that are <lb/>apt to breed worms, and have large bellies. The
+            <lb/>ingredients are efficacious; it's operation is mild, <lb/>and wonderfully clears
+            the bowels of ſlime. <lb/>This Cathartic is very proper to be given to <w part="I"
+              >per-</w><lb/><w part="F">ſons</w> when they are to be inoculated. It is a very
+            <lb/>good Family Medicine, and will be of ſervice in <lb/>the Gout, Rheumatiſm, Itch,
+            Leproſy, Evil, and <lb/>other cutaneous diſorders. Take care not to <lb/>catch cold.
+            Doſe for children from ſix grains to <lb/>fifteen, for grown people from fifteen to
+            forty, <lb/>mixed with a ſyrup; for it is a heavy powder, <lb/>and a mercurial
+            preparation. </p>
+        </div>
+        <div>
+          <pb xml:id="page_22" n="20"/>
+          <head rend="align-center"><lb/>WHITE EMULSION, <lb/><hi rend="italic">for a</hi>
+            <hi rend="sc">Cough</hi>, <hi rend="italic">or</hi>
+            <hi rend="sc">Pain</hi>
+            <hi rend="italic">in the</hi>
+            <hi rend="sc">Side</hi>. </head>
+          <p rend="indent"><lb/>Take Oil of ſweet Almonds, and Syrup of <lb/>Balſam, of each two
+            ounces; four ounces of <w part="I">bar-</w><lb/><w part="F">ley-water</w>, and thirty
+            drops of Sal Volatile: ſhake <lb/>them well together, and take two large <w part="I"
+              >ſpoon-</w><lb/><w part="F">fuls</w>. If this does not anſwer, it will be neceſſary
+            <lb/>to be blooded. </p>
+        </div>
+        <div>
+          <head rend="align-center italic"><lb/>For the <hi rend="roman">AGUE.</hi>
+          </head>
+          <p rend="indent"><lb/>Beſt Bark two drams, Salt of Wormwood half <lb/>a dram, and
+            Snake-root half a dram: divide it <lb/>into four doſes; one doſe in a morning faſting,
+            <lb/>two hours before the fit comes on. </p>
+        </div>
+        <div>
+          <head rend="align-center italic"><lb/>For the <hi rend="roman">GOUT.</hi>
+          </head>
+          <p rend="indent"><lb/>A ſafe, ſimple remedy, which will give eaſe, <lb/>and keep the Gout
+            off:—Take Flower of <w part="I">Brim-</w><lb/><w part="F">ſtone</w> one tea-ſpoonful, in
+            milk, faſting, every <lb/>morning: it muſt be continued every day <lb/>throughout the
+            year, and begin after a fit is over; <lb/>it will gripe at firſt before you are uſed to
+            it. If <lb/>you doubt, try. </p>
+        </div>
+        <div>
+          <head rend="align-center italic"><lb/>For the <hi rend="roman">JAUNDICE.</hi>
+          </head>
+          <p rend="indent"><lb/>Take a pint and a half of Ale, and heat a <lb/>poker red hot, and
+            quench it in the Beer, ſtirring <lb/>it till the hiſſing is off: let this be repeated
+            four <pb xml:id="page_23" n="21"/><lb/>or five times; then run the Ale through a cloth,
+            <lb/>and put in the Ale that is left two table-ſpoonfuls <lb/>of Treacle, Saffron, ten
+            grains, and Tamarind<corr><hi rend="italic">crossed with a line, replaced by
+              #ur</hi></corr>, <lb/>in powder, a ſcruple: ſtir it, and take the whole <lb/>nine
+            mornings faſting. This has been ſeldom <lb/>known to fail, and has been kept a ſecret.
+          </p>
+        </div>
+        <div>
+          <head rend="align-center italic"><lb/>A <hi rend="roman">TINCTURE</hi> for the <hi
+              rend="roman">TEETH.</hi>
+          </head>
+          <p rend="indent"><lb/>Take proof Spirits of Wine eight ounces, Spirit <lb/>of Vitriol
+            ſufficient to give it an agreeable acid, <lb/>and Cochineal a ſcruple: let it ſtand ſix
+            hours, <lb/>then filter it thro' a glaſs funnel. This is what is <lb/>ſold at a ſhilling
+            a bottle at the ſhops. If I <w part="I">miſ-</w><lb/><w part="F">take</w> not, a Boy's
+            Patent was granted for it — <lb/>Who can help ſmiling? </p>
+        </div>
+        <div>
+          <head rend="align-center"><lb/><hi rend="italic">For the</hi> EAR-ACH. </head>
+          <p rend="indent"><lb/>The Smoak of Tobacco blown into the ear is <lb/>excellent; or the
+            Oil of Almonds dropped in the <lb/>ear, mixed with a little Spirit of Lavender <w
+              part="I">Com-</w><lb/><w part="F">pound</w>. </p>
+        </div>
+        <div>
+          <head rend="indent hanging italic"><lb/>For the <hi rend="roman sc">Cure</hi> of a <hi
+              rend="roman sc">Crumb</hi> of <hi rend="roman sc">Bread,</hi> or any <lb/>other
+            Ingredient, going down the Throat <w part="I">wrong-</w><lb/><w part="F">way</w>, as is
+            commonly expreſſed. </head>
+          <p rend="indent"><lb/>Take a bit of freſh Butter the ſize of a ſmall <lb/>nut, and ſwallow
+            it gently; if that don't cure, <lb/>add the ſecond bit: it gives eaſe, and ſtops the
+            <lb/>fit of coughing. Sweet Oil will do as well as <lb/>Butter. </p>
+        </div>
+        <div>
+          <pb xml:id="page_24" n="22"/>
+          <head rend="align-center italic "><lb/>The <hi rend="roman">HEAD-ACH.</hi>
+            <lb/>A Temporary Relief. </head>
+          <p rend="indent"><lb/>Take Spirit of Vitriol, pour a little into the <lb/>palm of the
+            hand, and rub it on the forehead, <lb/>keeping the hand there ſome time; or the thin
+            <lb/>peel of a Seville Orange freſh cut, without the <lb/>white, put on the forehead, is
+            the beſt remedy: <lb/>it makes the place ſmart, and draws the pain out. </p>
+        </div>
+        <div>
+          <head rend="align-center"><lb/><hi rend="italic">A</hi> GARGLE <hi rend="italic">for
+              a</hi> SORE THROAT. </head>
+          <p rend="indent"><lb/>Take the beſt Vinegar half a pint, Red Port <lb/>Wine a gill, Allum
+            two drams; diſſolve it in the <lb/>Vinegar and Wine, then add honey half an <lb/>ounce:
+            mix, and gargle the throat often. A <lb/>Bliſter round the throat is the beſt remedy to
+            <lb/>draw the humour off; or rub the Volatile <w part="I">Lini-</w><lb/><w part="F"
+              >ment</w> on the part, and keep the body gently <lb/>open. </p>
+        </div>
+        <div>
+          <head rend="indent hanging italic"><lb/>The following is a <hi rend="roman sc"
+              >Carminative</hi> for <hi rend="roman sc">Chil-<lb/>dren</hi> when in pain, and purge
+            too much. </head>
+          <p rend="indent"><lb/>Take Mint-water a gill; Rhubarb; ſixteen <lb/>grains, Diaſcordium
+            two ſcruples; ſweeten it <lb/>with ſugar: doſe a ſmall pap-ſpoonful for a child <lb/>ſix
+            months old, going to bed. It comforts the <lb/>bowels, eaſes the griping pain, and makes
+            them <lb/>ſleep. Some ſimmer the Mint-water and <w part="I">Rhu-</w><lb/><w part="F"
+              >barb</w> together. </p>
+        </div>
+        <div>
+          <pb xml:id="page_25" n="23"/>
+          <head rend="align-center"><lb/>HUXHAM's TINCTURE OF BARK. </head>
+          <p rend="indent"><lb/>Take Peruvian Bark in powder two ounces, <lb/>Seville Orange-peel
+            one ounce and a half, <w part="I">Vir-</w><lb/><w part="F">ginia</w> Snake-root three
+            drams, Saffron four <w part="I">ſcru-</w><lb/><w part="F">ples</w>, French Brandy twenty
+            ounces: and let it <lb/>ſtand four days. Doſe, dram to half an ounce. <lb/>This is given
+            with ſucceſs in ſlow nervous fevers, <lb/>and in the decline of putrid, ſpotted, and <w
+              part="I">peſti-</w><lb/><w part="F">lential</w> Fevers, though the remiſſions are very
+            <lb/>obſcure: it ſtrengthens the ſolids, prevents the <lb/>farther diſſolution and
+            corruption of the blood, <lb/>and in the event reſtores its craſis. </p>
+        </div>
+        <div>
+          <head rend="align-center "><lb/>BARLEY WATER. </head>
+          <p rend="indent"><lb/>Take Barley one ounce, Water two pints, <lb/>often waſhing the
+            Barley; boil it two minutes, <lb/>throw the Water away, then add freſh Water <lb/>three
+            pints, boil it to a quart. </p>
+        </div>
+        <div>
+          <head rend="align-center"><lb/>TINCTURE OF JAPAN. </head>
+          <p rend="indent"><lb/>It is aſtringent, corroborates a relaxed ſtomach <lb/>and bowels,
+            ſtops defluxions, catarrhs, vomiting <lb/>diarrheaas, uterine fluxes. Doſe half a
+            ſpoonful <lb/>to a ſpoonful, in Red Wine or Mint Water. <lb/>The Tincture of Cinnamon,
+            or one made of <lb/>Caſſia, will do as well to keep. </p>
+        </div>
+        <div>
+          <pb xml:id="page_26" n="24"/>
+          <head rend="align-center"><lb/>SCORBUTIC JUICES. </head>
+          <p rend="indent"><lb/>Take the juice of Seville Oranges, and of <lb/>Garden Scurvy-graſs,
+            each a quart; the juice of <lb/>Brook-lime, and of Water-creſſes, of each a pint;
+            <lb/>mix them, and when the dregs are ſubſided <lb/>ſtrain them through a flannel: theſe
+            juices, given <lb/>from two to four ounces, two or three times a <lb/>day, and continued
+            for ſome time, are of <w part="I">conſi-</w><lb/><w part="F">derable</w> uſe in
+            ſcorbutic diſorders. Similar to this, <lb/>with the addition of Dandelyon and Honey, is
+            <lb/>the Vegetable Syrup which has been ſo often <w part="I">ad-</w><lb/><w part="F"
+              >vertiſed</w>. If Mankind lived on a vegetable diet, <lb/>then would this be
+            ſufficient to extirpate the <w part="I">diſ-</w><lb/><w part="F">orders</w>; but as we
+            live ſo high in our ſauces and <lb/>made-up diſhes, the mineral kingdom, which is
+            <lb/>more ponderous, muſt be called in. </p>
+        </div>
+        <div>
+          <head rend="align-center"><lb/>SPIRIT OF MINDERUS. </head>
+          <p rend="indent"><lb/>This is an excellent deobſtruent, diuretic, and <lb/>diaphoretic,
+            neutral ſpirit; and as it operates <lb/>without heat, it may be given in febrille and <w
+              part="I">in-</w><lb/><w part="F">flammatory</w> diſorders, where Medicines of the
+            <lb/>warm kind, if they fail of procuring ſweat, <w part="I">ag-</w><lb/><w part="F"
+              >gravate</w> the diſtemper. This doſe is from one <lb/>dram to half an ounce, more or
+            leſs, according <lb/>to its ſtrength, which is ſomewhat precarious, <lb/>either by
+            itſelf, or rather with other Medicines <lb/>adapted to the intention. </p>
+        </div>
+        <div>
+          <pb xml:id="page_27" n="25"/>
+          <head rend="align-center"><lb/>STOMACH PILLS. </head>
+          <p rend="indent"><lb/>Take of Rhubarb one ounce, Socotrine Aloes <lb/>ſix drams, Myrrh
+            half an ounce, Vitriolated <lb/>Tartar one dram, Eſſential Oil of Mint half a <lb/>dram,
+            Syrup of Orange-peel a ſufficient <w part="I">quanti-</w><lb/><w part="F">ty</w>: make
+            them into a maſs. This Pill is <w part="I">intend-</w><lb/><w part="F">ed</w> for
+            moderately warming and ſtrengthening <lb/>the ſtomach, and evacuating crude, viſcid <w
+              part="I">hu-</w><lb/><w part="F">mours</w>. A ſcruple of the maſs may be taken
+            <lb/>twice a day. Some uſe a Stomach-plaiſter for <lb/>bad complaints. </p>
+        </div>
+        <div>
+          <head rend="align-center"><lb/><hi rend="italic">The</hi> DECOCTION OF BARK. </head>
+          <p rend="indent"><lb/>Take Jeſuits Bark in Powder one ounce, and <lb/>boil it in a quart
+            of pure water to a pint; towards <lb/>the end add Liquorice-root cut half an ounce, to
+            <lb/>the colature add Nutmeg-water two ounces, and <lb/>mix them. The doſe is a ſmall
+            wine-glaſs, with <lb/>ten, twenty, or forty drops of the Volatile <w part="I"
+              >Tinc-</w><lb/><w part="F">ture</w> of Guiacum. A ſmall quantity of Winter's <lb/>Bark
+            gives it a grateful warmth, and renders a <lb/>quantity of the compound water leſs
+            neceſſary. <lb/>This Receipt will make the ſimple Decoction, <lb/>only leave out the
+            Nutmeg-water. </p>
+        </div>
+        <div>
+          <head rend="align-center"><lb/>TOOTH POWDER. </head>
+          <p rend="indent"><lb/>Take Dragon's Blood, Allum, Myrrh, Cream <lb/>of Tartar, equal
+            parts, in fine powder, which mix; <lb/>to give it a fine colour ſome add Vermillion, but
+              <pb xml:id="page_28" n="26"/><lb/>it is better to be let alone. This Powder may be
+            <lb/>uſed by itſelf; but if the gums are waſted, you <lb/>may make a Paſte, by mixing it
+            with Honey of <lb/>Roſes, and uſe it gently with your finger. </p>
+        </div>
+        <div>
+          <head rend="align-center italic"><lb/>A very good <hi rend="roman">SUDORIFIC
+              TINCTURE.</hi>
+          </head>
+          <p rend="indent"><lb/>Take Virginia Snake-root ſix drams, Cochineal <lb/>and Engliſh
+            Saffron each two drams, Opium <lb/>one ſcruple, Spirit of Minderus one pint: digeſt
+            <lb/>them together in a gentle heat for three days, <lb/>and then paſs the Tincture
+            through a ſtrainer. <lb/>This Compoſition is an efficacious Sudorific, to <lb/>be taken
+            for a Sweat. Doſe half an ounce in a <lb/>glaſs of ſimple water or wine; taken for
+            eaſing <lb/>pain, and compoſing the Patient to ſleep. </p>
+        </div>
+        <div>
+          <head rend="align-center"><lb/>SALT OF WORMWOOD DRAUGHT. </head>
+          <p rend="indent"><lb/>Take a ſcruple of Salt of Wormwood, pour <lb/>upon it by little and
+            little freſh Lemon-juice, till <lb/>it has quite done fomenting, and taſtes quite <w
+              part="I">inſi-</w><lb/><w part="F">pid</w>; about one large ſpoonful is ſufficient;
+            then <lb/>add a little fine Sugar, to make it palatable. <lb/>About a wine-glaſs of
+            Spring or Barley Water, <lb/>and a pap-ſpoonful of Cinnamon Water, make a <lb/>moſt
+            pleaſant draught. Above the age of <w part="I">four-</w><lb/><w part="F">teen</w> it may
+            be given once in ſix or eight hours, <lb/>in any little feveriſh complaints, ſickneſs at
+              <w part="I">ſto-</w><lb/><w part="F">mach</w>, watchings, parched dryneſs of the
+            mouth, <lb/>and ſuch-like ills, and is often preferable to the <lb/>Fever Powder; from
+            ſeven to fourteen years <pb xml:id="page_29" n="27"/><lb/>half a draught is ſufficient;
+            under that age ſtill <lb/>decreaſe the quantity. </p>
+        </div>
+        <div>
+          <head rend="align-center"><lb/>DISTILLED <hi rend="size(0.5)">OR</hi> ESSENTIAL OILS </head>
+          <p rend="indent"><lb/>Are never given alone, on account of their <lb/>extreme heat and
+            pungency, which, in ſome, is <lb/>ſo great, that a ſingle drop, let fall upon the
+            <lb/>tongue, produces a gangrenous eſchar. They <lb/>are readily imbibed by pure dry
+            ſugar, and in <lb/>this form may be conveniently exhibited. Ground <lb/>with eight or
+            ten times their weight of ſugar, <lb/>they become ſoluble in aqueous liquors, and thus
+            <lb/>may be diluted to any aſſigned degree. <w part="I">Muci-</w><lb/><w part="F"
+              >lages</w> alſo render them miſcible with water in an <lb/>uniform milky liquor. They
+            diſſolve likewiſe in <lb/>ſpirits of wine, the more fragrant in an equal <lb/>weight,
+            and almoſt all of them in leſs than four <lb/>times their own quantity. Their ſolutions
+            may <lb/>either be taken on ſugar, or mixed with ſyrup, <lb/>or the like: on mixing them
+            with water, the <lb/>liquor grows milky, and the oil ſeparates. </p>
+          <div>
+            <head rend="align-center"><lb/>ESSENTIAL OIL OF ANNISEEDS. </head>
+            <p rend="indent"><lb/>This Oil poſſeſſes the taſte and ſmell of the <lb/>Anniſeeds in
+              perfection. It is one of the mildeſt <lb/>of the diſtilled Oils: fifteen on twenty
+              drops may <lb/>be taken at a time without dagger, though <w part="I">com-</w><lb/><w
+                part="F">mon</w> practice rarely goes ſo far as half the <w part="I">num-</w><lb/><w
+                part="F">ber</w>. Its ſmell is extremely durable and diffuſive. <lb/>Milk drawn from
+              the breaſt after taken, it is <pb xml:id="page_30" n="28"/><lb/>found impregnated with
+              it's odour; and poſſibly <lb/>this may be, in part, the foundation of pectoral
+              <lb/>virtues uſually aſcribed to it. In Flatulences and <lb/>Cholics it is ſaid by
+              ſome to be leſs effectual than <lb/>the ſeeds themſelves. </p>
+          </div>
+          <div>
+            <head rend="align-center"><lb/>OIL OF CINNAMON. </head>
+            <p rend="indent"><lb/>This valuable Oil is extremely hot and <w part="I">pun-</w><lb/><w
+                part="F">gent</w>, of a moſt agreeable flavour, like that of <lb/>Cinnamon itſelf.
+              In cold languid caſes, and <w part="I">de-</w><lb/><w part="F">bilities</w> of the
+              nervous ſyſtem, it is one of the <lb/>moſt immediate cordials and reſtoratives. The
+              <lb/>doſe is one, two, or three drops, which muſt <w part="I">al-</w><lb/><w part="F"
+                >ways</w> be carefully diluted by the mediation of <lb/>ſugar, &amp;c. for ſo great
+              is the pungency of this <lb/>Oil, that a ſingle drop, let fall upon the tongue
+              <lb/>undiluted, produces (as Boerhaave obſerves) a <lb/>gangrenous eſchar. </p>
+          </div>
+          <div>
+            <head rend="align-center"><lb/>ESSENTIAL OIL OF JUNIPER-BERRIES. </head>
+            <p rend="indent"><lb/>This Oil is a very warm and pungent one, of <lb/>a ſtrong flavour,
+              not unlike that of berries. In <lb/>the doſe of a drop or two it proves a ſerviceable
+              <lb/>carminative and ſtomachic, in one of ſix or eight, <lb/>or more, as ſtimulating,
+              detergent, diuretic, and <lb/>emmenagogine: it ſeems to have ſomewhat of the
+              <lb/>nature of the Turpentines, or their diſtilled Oils, <lb/>like which it
+              communicates a violent ſmell to the <lb/>urine. </p>
+          </div>
+          <div>
+            <pb xml:id="page_31" n="29"/>
+            <head rend="align-center"><lb/>ESSENTIAL OIL OF THE LEAVES OF <lb/>COMMON MINT. </head>
+            <p rend="indent"><lb/>This Oil ſmells and taſtes ſtrongly of the <lb/>Mint; but it is,
+              in both reſpects, ſomewhat leſs <lb/>agreeable than the herb itſelf. It is a uſeful <w
+                part="I">ſto-</w><lb/><w part="F">machic</w> Medicine, and not unfrequently
+              exhibited <lb/>in want of appetite, weakneſs of the ſtomach, <lb/>reachings to vomit,
+              and other like diſorders, <lb/>when not accompanied with heat or <w part="I"
+                >inflamma-</w><lb/><w part="F">tion</w>. Two or three drops, or more, are given
+              <lb/>for a doſe. It is likewiſe employed externally <lb/>for the ſame purpoſes, and is
+              an excellent <w part="I">ingre-</w><lb/><w part="F">dient</w> in the ſtomachic
+              plaiſter of the ſhops. </p>
+          </div>
+          <div>
+            <head rend="align-center "><lb/>ESSENTIAL OIL OF THE LEAVES OF <lb/>PEPPERMINT. </head>
+            <p rend="indent"><lb/>This poſſeſſes the ſmell, taſte, and virtues of <lb/>the
+              Peppermint in perfection. The colour is a <lb/>pale greeniſh yellow. It is a Medicine
+              of great <lb/>pungency and ſubtility, and diffuſes, almoſt as <lb/>ſoon as taken, a
+              glowing warmth through the <lb/>whole ſyſtem. In Cholics, accompanied with <lb/>great
+              coldneſs, and ſome hyſteric complaints, it <lb/>is of excellent ſervice. A drop or two
+              are in <w part="I">ge-</w><lb/><w part="F">neral</w> a ſufficient doſe. </p>
+          </div>
+          <div>
+            <head rend="align-center"><lb/>ESSENTIAL OIL OF NUTMEGS. </head>
+            <p rend="indent"><lb/>The eſſential Oil of Nutmegs poſſeſſes the <w part="I"
+                >fla-</w><lb/><w part="F">vour</w> and aromatic virtues of the Spice in an <pb
+                xml:id="page_32" n="30"/><lb/>eminent degree. It is ſimilar in quality to the
+              <lb/>Oil of Mace, but ſomewhat leſs grateful. </p>
+          </div>
+          <div>
+            <head rend="align-center"><lb/>ESSENTIAL OIL OF JAMAICA PEPPER. </head>
+            <p rend="indent"><lb/>This is a very elegant Oil, and may be uſed <lb/>as a ſuccedaneum
+              to thoſe of ſome of the deareſt <lb/>ſpices. It is of a fine pale colour, in flavour
+              <lb/>more agreeable than the Oil of Cloves, and not <lb/>far ſhort of that of Nutmegs.
+              It ſinks in water, <lb/>like the Oils of ſome of the Eaſtern Spices. </p>
+          </div>
+          <div>
+            <head rend="align-center"><lb/>ESSENTIAL OIL OF THE LEAVES OF <lb/>PENNY ROYAL. </head>
+            <p rend="indent"><lb/>This Oil in ſmell and taſte reſembles the <w part="I"
+                >origi-</w><lb/><w part="F">nal</w> Plant, the virtues of which it likewiſe <w
+                part="I">poſ-</w><lb/><w part="F">ſeſſes</w>. It is given in hyſteric caſes from one
+              to <lb/>four or five drops. </p>
+          </div>
+          <div>
+            <head rend="align-center"><lb/>ESSENTIAL OIL OF ROSEMARY. </head>
+            <p rend="indent"><lb/>The Oil of Roſemary is drawn from the Plant <lb/>in flower. When
+              in perfection, it is very light <lb/>and thin, pale and almoſt colourleſs, of great
+              <lb/>fragrancy, though not quite ſo agreeable as the <lb/>Roſemary itſelf. It is
+              recommended in the doſe <lb/>of a few drops in nervous and hyſteric <w part="I"
+                >com-</w><lb/><w part="F">plaints</w>. Boerhaave holds it in great eſteem
+              <lb/>againſt epilepſies and ſuppreſſions of the uterine <lb/>purgations, occaſioned by
+              weakneſs and <w part="I">inacti-</w><lb/><w part="F">vity</w>. </p>
+          </div>
+          <div>
+            <pb xml:id="page_33" n="31"/>
+            <head rend="align-center"><lb/>ESSENTIAL OIL OF RHODIUM. </head>
+            <p rend="indent"><lb/>This Oil is extremely odoriferous, and <w part="I"
+                >princi-</w><lb/><w part="F">pally</w> employed as a perfume in ſcenting <w part="I"
+                >poma-</w><lb/><w part="F">tums</w> and the like. Cuſtom has not as yet <w part="I"
+                >re-</w><lb/><w part="F">ceived</w> any preparation of this elegant aromatic
+              <lb/>Wood into internal uſe. It is a very dear Oil. </p>
+          </div>
+          <div>
+            <head rend="align-center"><lb/>ESSENTIAL OIL OF SASSAFRAS. </head>
+            <p rend="indent"><lb/>This is the moſt ponderous of all the known <lb/>eſſential Oils,
+              but riſes in diſtillation with <w part="I">ſuffi-</w><lb/><w part="F">cient</w> eaſe;
+              it appears limpid as water, has a <lb/>moderately pungent taſte, a very fragrant
+              ſmell, <lb/>exactly reſembling that of the Saſſafras. It ſtands greatly recommended as
+              a ſudorific, and for <w part="I">pu-</w><lb/><w part="F">rifying</w> the blood and
+              juices: it is likewiſe <w part="I">ſup-</w><lb/><w part="F">poſed</w> to be of ſervice
+              in humoural Aſthmas and <lb/>Coughs. The Doſe is from one drop to eight or ten. </p>
+          </div>
+          <div>
+            <head rend="align-center"><lb/>OIL OF LAVENDER FLOWERS </head>
+            <p rend="indent"><lb/>Is of conſiderable ſervice, both externally and <lb/>internally,
+              in paralytic complaints, and in <w part="I">debi-</w><lb/><w part="F">lities</w> of
+              the whole nervous ſyſtem in general. <lb/>The doſe is from two to five or ſix drops.
+            </p>
+          </div>
+        </div>
+        <div>
+          <head rend="align-center"><lb/>SYRUPS. </head>
+          <p rend="indent"><lb/>Syrups are ſaturated ſolutions of ſugar made <lb/>in water, or
+            watery, or vinous infuſions, or in <pb xml:id="page_34" n="32"/><lb/>juices. They were
+            formerly conſidered as <w part="I">Me-</w><lb/><w part="F">dicines</w> of much greater
+            importance than they are <lb/>thought to be at preſent. Syrups and diſtilled <lb/>waters
+            were for ſome ages made uſe of as the <lb/>great alteratives, inſomuch that the
+            evacuation <lb/>of any peccant humour was never attempted till, <lb/>by a due courſe of
+            theſe, it had firſt been <w part="I">regu-</w><lb/><w part="F">larly</w> prepared for
+            expulſion: hence aroſe the <w part="I">ex-</w><lb/><w part="F">uberant</w> collection of
+            both which we meet with <lb/>in Pharmacopœias, and like errors have <w part="I"
+              >pre-</w><lb/><w part="F">vailed</w> in each. As multitudes of diſtilled waters
+            <lb/>have been compounded from materials unfit to <lb/>give any virtue over the helm, ſo
+            numbers of <lb/>Syrups have been prepared of ingredients which, <lb/>in this form,
+            cannot be taken in ſufficient doſes <lb/>to exert their virtues; for two-thirds of a
+            Syrup <lb/>conſiſt of ſugar, and greateſt part of the <w part="I">remain-</w><lb/><w
+              part="F">ing</w> third is an aqueous fluid. Syrups are at <w part="I">pre-</w><lb/><w
+              part="F">ſent</w> chiefly regarded as convenient vehicles for <lb/>Medicines of
+            greater efficacy, and made uſe of <lb/>for ſweetening Draughts and Juleps; for reducing
+            <lb/>the lighter Powders into Boluſes, Pills, or <w part="I">Elec-</w><lb/><w part="F"
+              >tuaries</w>; and other like purpoſes. Some <w part="I">like-</w><lb/><w part="F"
+              >wiſe</w> may not improperly be conſidered as <w part="I">Me-</w><lb/><w part="F"
+              >dicines</w> themſelves, as thoſe of Saffron or <w part="I">Buck-</w><lb/><w part="F"
+              >thorn-berries</w>. </p>
+          <div>
+            <head rend="align-center"><lb/>SYRUP OF MECONIUM <lb/><hi rend="size(0.5)">OR</hi>
+              <lb/>WHITE POPPIES. </head>
+            <p rend="indent"><lb/>This Syrup, impregnated with the opiate <w part="I"
+                >mat-</w><lb/><w part="F">ter</w> of the Poppy-heads, is given to children in <pb
+                xml:id="page_35" n="33"/><lb/>doſes of two or three drams, to adults from half
+              <lb/>an ounce to an ounce, and upwards, for <w part="I">obtund-</w><lb/><w part="F"
+                >ing</w> and incraſſating acrimonious humours, eaſing <lb/>pain, procuring reſt, and
+              anſwering the other <lb/>intention of mild opiates. </p>
+          </div>
+          <div>
+            <head rend="align-center"><lb/>SYRUP OF SAFFRON. </head>
+            <p rend="indent"><lb/>Saffron is very well fitted for making a Syrup, <lb/>as in this
+              form a ſufficient doſe of it is contained <lb/>in a reaſonable compaſs. This Syrup is
+              at <w part="I">pre-</w><lb/><w part="F">ſent</w> more frequently preſcribed, than the
+              Wine <lb/>from which it is made; it is a pleaſant cordial, <lb/>and gives a fine
+              colour to Juleps. </p>
+          </div>
+          <div>
+            <head rend="align-center"><lb/><hi rend="italic">The</hi> SIMPLE SYRUP. </head>
+            <p rend="indent"><lb/>Take of white Sugar and water each equal <lb/>quantities, boil
+              them into a Syrup. Theſe <w part="I">prepa-</w><lb/><w part="F">rations</w> are plain,
+              liquid, ſweets, void of flavour or <lb/>colour; they are convenient for ſundry
+              purpoſes, <lb/>where theſe qualities are not wanted, or would <lb/>be exceptionable.
+            </p>
+          </div>
+        </div>
+        <div>
+          <head rend="align-center"><lb/>OINTMENTS. </head>
+          <p rend="indent"><lb/>I recommend the following, which will ſerve <lb/>in any common
+            accident. </p>
+          <div>
+            <head rend="align-center"><lb/>DIACHLON PLAISTER. </head>
+            <p rend="indent"><lb/>This plaiſter is the common application in <lb/>excoriations of
+              the ſkin, ſlight freſh wounds, and <pb xml:id="page_36" n="34"/><lb/>the like; it
+              keeps the part ſoft, and ſomewhat <lb/>warm, and defends it from the air, which is all
+              <lb/>that can be expected in theſe caſes from any <lb/>plaiſter. </p>
+          </div>
+          <div>
+            <head rend="align-center"><lb/>YELLOW BASILICON. </head>
+            <p rend="indent"><lb/>This is commonly employed in dreſſings for <lb/>digeſting,
+              cleanſing, and incarnating wounds and <lb/>ulcers. </p>
+          </div>
+          <div>
+            <head rend="align-center"><lb/>POMATUM. </head>
+            <p rend="indent"><lb/>The uſe is well known. </p>
+          </div>
+          <div>
+            <head rend="align-center"><lb/>BLISTERING PLAISTER </head>
+            <p rend="indent"><lb/>Is handy to be kept for the Apothecary to <lb/>apply </p>
+          </div>
+          <div>
+            <head rend="align-center"><lb/>LADIES PLAISTER, AND SWEET OIL OF <lb/>OLIVES. </head>
+            <p rend="indent"><lb/>Their virtues are well known. </p>
+          </div>
+          <div>
+            <head rend="align-center"><lb/>TURNER's CERATE, </head>
+            <p rend="indent"><lb/>Is commonly uſed for cuts, ſcalds, bruiſes, <lb/>chilblains, and
+              other trifling complaints, where <lb/>the ſkin is worn off. </p>
+          </div>
+          <div>
+            <pb xml:id="page_37" n="35"/>
+            <head rend="align-center"><lb/>OINTMENT FOR THE ITCH. </head>
+            <p rend="indent"><lb/>Take of Sulphur one ounce, White Helebore <lb/>Root in powder, or
+              Crude Sal Ammoniac two <lb/>drams, Hog's Lard two ounces, mix arid make <lb/>them into
+              an ointment. Sulphur is a certain <lb/>remedy for the itch, more ſafe and efficacious
+              <lb/>than Mercury; for, as Dr. Pringle obſerves, <w part="I">un-</w><lb/><w part="F"
+                >less</w> a Mercurial Unction was to touch every part <lb/>of the ſkin, there can be
+              no certainty of ſucceſs. <lb/>The quantity of ointment above directed; ſerves <lb/>for
+              four Unctions; the patient is to be rubbed <lb/>every night; but, to prevent any
+              diſorder that <lb/>might ariſe from ſtopping too many pores at <lb/>once, a fourth
+              part only of the body is to be <lb/>rubbed at one time. Though the itch may thus
+              <lb/>be cured by one pot of ointment, it will be proper <lb/>to renew the application,
+              and to touch the parts <lb/>moſt affected for a few nights longer, till a <w part="I"
+                >ſe-</w><lb/><w part="F">cond</w> quantity is exhauſted. </p>
+          </div>
+        </div>
+        <div>
+          <head rend="align-center"><lb/>CLYSTERS. </head>
+          <div>
+            <head rend="align-center"><lb/>ARABIC CLYSTER. </head>
+            <p rend="indent"><lb/>Take an ounce of Arabic Mucilage, and ſix <lb/>ounces of
+              Barley-water, or Mutton-broth, and <lb/>mix for a clyſter. </p>
+          </div>
+          <div>
+            <pb xml:id="page_38" n="36"/>
+            <head rend="align-center"><lb/>DOMESTIC CLYSTER. </head>
+            <p rend="indent"><lb/>Take half a pint of thin Gruel, an ounce <lb/>and half of Oil
+              Olive, and a ſpoonful of brown <lb/>Sugar, mix them together; ſometimes a <w part="I"
+                >tea-</w><lb/><w part="F">ſpoonful</w> of common Salt may be added. </p>
+          </div>
+        </div>
+        <div>
+          <head rend="align-center"><lb/>GARGARISMS. </head>
+          <div>
+            <head rend="align-center"><lb/>ASTRINGENT GARGARISM. </head>
+            <p rend="indent"><lb/>Take of Tincture of Roſes fifteen ounces, <lb/>Alum two drams,
+              Honey of Roſes one ounce, <lb/>mix them together. </p>
+          </div>
+          <div>
+            <head rend="align-center"><lb/>GARGLE FOR A SORE THROAT. </head>
+            <p rend="indent"><lb/>Red Wine and Vinegar, each equal parts, <lb/>ſweetened with Honey.
+            </p>
+          </div>
+          <div>
+            <head rend="align-center"><lb/>COOLING GARGARISM. </head>
+            <p rend="indent"><lb/>Take half a pint of Roſe Water, the whites of <lb/>two new laid
+              Eggs, beat up to water, two drams <lb/>of white Sugar-candy, and half a dram of Nitre,
+              <lb/>make a Gargariſm. </p>
+          </div>
+          <div>
+            <head rend="align-center"><lb/>ASTRINGENT GARGARISM. </head>
+            <p rend="indent"><lb/>Take of Tincture of Roſes fifteen ounces, <lb/>Alum two drams,
+              Honey of Roſes one ounce, <lb/>mix them together. </p>
+          </div>
+        </div>
+        <div>
+          <div>
+            <pb xml:id="page_39" n="37"/>
+            <head rend="align-center"><lb/>GLAUBER's CATHARITIC SALT. </head>
+            <p rend="indent"><lb/>This Salt, commonly called Sal Mirabile, <lb/>taken from three
+              drams to an ounce, or more, <lb/>proves a very mild and uſeful purgative. </p>
+          </div>
+          <div>
+            <head rend="align-center"><lb/>ROCHEL SALT. </head>
+            <p rend="indent"><lb/>This elegant purging Salt, taken from the laſt <lb/>edition of the
+              Paris Pharmacopœia, 1748, under <lb/>the title of Sal Polycreſtum Solubile Vulgó de
+              <lb/>Seignette, has, for a long time, been much valued <lb/>in France, and now very
+              deſervedly begins to be <lb/>greatly eſteemed in this country. It is infinitely
+              <lb/>pleaſanter than either Glauber's, or Epſom Salts, <lb/>ſo called, and operates
+              very gentle without <lb/>griping. Its doſe is from half an ounce to one <lb/>ounce,
+              ten drams or more, diſſolved in warm <lb/>water, thin gruel, or oatmeal tea. </p>
+          </div>
+        </div>
+        <div>
+          <div>
+            <head rend="align-center"><lb/>LEMON DECOCTION. </head>
+            <p rend="indent"><lb/>Take of the yellow rind of freſh <w part="I">Lemon-</w><lb/><w
+                part="F">peel</w> ſix drams, boiling water one pint, or twelve <lb/>ounces; let them
+              infuſe together for a quarter <lb/>of an hour, and after the ſhorteſt boiling, only
+              <lb/>three or four bubbles, ſtrain the liquor, and add <lb/>four ounces of Roſe Water,
+              two ounces of Lemon <lb/>Juice, and two ounces of double refined Sugar. <lb/>This
+              elegant, grateful, and cooling liquor, is a <lb/>moſt deſirable drink in febrile,
+              bilous or <w part="I">inflam-</w><lb/><w part="F">matory</w> diſtempers; for it abates
+              the heat of the <pb xml:id="page_40" n="38"/><lb/>blood and ſtomach, quenches thirſt,
+              and gently <lb/>promotes the ſalutary excretions. It may be <lb/>drank at pleaſure
+              without any limitation. </p>
+          </div>
+          <div>
+            <head rend="align-center"><lb/><hi rend="sc">Dr</hi>. BUTLER's ALE. </head>
+            <p rend="indent"><lb/>Take of Boteny, Sage, Agrimony, Garden <lb/>Scurvy Graſs, Roman
+              Wormwood, each three <lb/>hands full; Elecampane Roots, Horſe Radiſh <lb/>Roots, each
+              four ounces, new Ale four gallons. <lb/>The Herbs and Roots are to be put in a bag,
+              and <lb/>hung in the Ale while it works. This liquor has <lb/>ſo far obtained among
+              the common people, as <lb/>to have been frequently made and ſold in
+              public-<lb/>houſes. It is uſed in the Spring for purifying the <lb/>blood, and
+              preventing ſcorbutic diſorders. </p>
+          </div>
+        </div>
+        <div>
+          <head rend="align-center"><lb/>JULEPS. </head>
+          <div>
+            <head rend="align-center"><lb/>CAMPHOR JULEP <hi rend="size(0.5)">WITH</hi> VINEGAR. </head>
+            <p rend="indent"><lb/>Take of Camphor one dram, Gum Arabic two <lb/>drams, double
+              refined Sugar half an ounce, <w part="I">Vi-</w><lb/><w part="F">negar</w> one pint;
+              grind the Camphor with a few <lb/>drops of Spirit of Wine, till it grows ſoft, then
+              <lb/>add the Gum, previouſly reduced to a mucilage, <lb/>with equal its quantity of
+              water, and rub them <lb/>together till perfectly mixed; to this mixture <lb/>add by
+              degrees the Vinegar, with Sugar <w part="I">diſ-</w><lb/><w part="F">ſolved</w> in it.
+            </p>
+          </div>
+          <div>
+            <pb xml:id="page_41" n="39"/>
+            <head rend="align-center"><lb/>CHALK JULEP. </head>
+            <p rend="indent"><lb/>Take of the White Chalk prepared, one <lb/>ounce, double refined
+              Sugar ſix drams, Gum <lb/>Arabic two drams, Water two pints, mix them <lb/>together.
+              This Julep is deſigned for heartburns, <lb/>and other like diſorders, ariſing from
+              acid juices <lb/>in the firſt paſſages; the chief uſe of the gum is, <lb/>to give a
+              greater degree of conſiſtence to the <lb/>water, and enable it to keep the, powdered
+              <lb/>Chalk ſuſpended. </p>
+          </div>
+          <div>
+            <head rend="align-center"><lb/>STOMACHIC JULEP. </head>
+            <p rend="indent"><lb/>Take of Simple Mint-water ſix ounces, <w part="I"
+                >Spiri-</w><lb/><w part="F">tuous</w> Mint-water two ounces, Syrup of Saffron
+              <lb/>two drams. Or, </p>
+            <p rend="indent"><lb/>Take of Cinnamon Water ſix ounces, <w part="I">Nut-</w><lb/><w
+                part="F">meg-water</w>, and Stomachic Tincture, each one <lb/>ounce, Syrup of
+              Orange-peel half an ounce. </p>
+            <p rend="indent"><lb/>The titles of theſe mixtures expreſs the <w part="I"
+                >inten-</w><lb/><w part="F">tions</w> for which they are calculated; four or five
+              <lb/>ſpoons full maybe taken of either occaſionally, <lb/>or uſed as weakeners and
+              diluters of medicines <lb/>of greater efficacy. </p>
+          </div>
+          <div>
+            <head rend="align-center"><lb/>CORDIAL JULEP. </head>
+            <p rend="indent"><lb/>Take of Alexterical-water four ounces, <w part="I">Aro-</w><lb/><w
+                part="F">matic-water</w> two ounces, Volatile Oily Spirit, <lb/>and Tincture of
+              Saffron, each two drams, White <lb/>Sugar half an ounce, mix and make them into a <pb
+                xml:id="page_42" n="40"/><lb/>Julep. This mixture is a uſeful cordial in all
+              <lb/>depreſſions of the ſpirits, in the ſinkings of low <lb/>fevers, and the languors
+              to which hyſterical and <lb/>hypocondriacal perſons are ſubject; an ounce, <lb/>or two
+              ſpoons full, may be taken for a doſe two <lb/>or three times a day. </p>
+          </div>
+          <div>
+            <head rend="align-center"><lb/>DIAPHORETIC JULEP. </head>
+            <p rend="indent"><lb/>Take Alexterical-water four ounces, Spirit of <lb/>Minderous two
+              ounces, Salt of Hartſhorn ten <lb/>grains, White Sugar ſix drams, mix them for a
+              <lb/>Julep. This excellent compoſition is a very <lb/>powerful ſudorific, and anſwers
+              its intentions <lb/>more effectually, and with greater certainty, <lb/>than many
+              others calculated for the ſame <w part="I">pur-</w><lb/><w part="F">poſe</w>. Where a
+              copious ſweat is to be excited, <lb/>as in rheumatic diſeaſes, two ſpoons full are to
+              be <lb/>taken warm in bed every hour, or two hours, <lb/>till the ſweat breaks out; if
+              warm diluting liquors <lb/>are not ſufficient to keep it up, the ſame is to be
+              <lb/>occaſionally repeated. </p>
+          </div>
+          <div>
+            <head rend="align-center"><lb/>FOETID JULEP. </head>
+            <p rend="indent"><lb/>Take of Aſafœtida one dram and a half, Rue-<lb/>water ſix ounces,
+              Compound Valerian-water two <lb/>ounces, Oil of Hartſhorn twenty drops, White
+              <lb/>Sugar ten drams; rub the Aſafœtida in the Rue-<lb/>water till it diſſolves, and
+              having dropt the Oil <lb/>upon the Sugar, mix the whole together. This
+              <lb/>compoſition is not a little fœtid and unſightly; it <pb xml:id="page_43" n="41"
+              /><lb/>is nevertheleſs a medicine of great efficiency in <lb/>hypochondriacal and
+              hyſteric diſorders, aſthmas, <lb/>and other nervous complaints; the doſe is one
+              <lb/>ſpoonful to be taken thrice a day. It is <w part="I">ſome-</w><lb/><w part="F"
+                >times</w> prepared without the Oil of Hartſhorn. </p>
+          </div>
+          <div>
+            <head rend="align-center"><lb/>A HYDRAGOGUE JULEP <lb/>For the DROPSY. </head>
+            <p rend="indent"><lb/>Take of Camomoile Flower Water ſix grains, <lb/>Emetic Tartar ten
+              grains, Syrup of Buckthorn <lb/>two ounces mix them together. Two ſpoons <lb/>full of
+              this Julep are given in hydropic caſes <lb/>every two hours, till it takes ſufficient
+              effect, as <lb/>a purgative, which it generally does before <lb/>the quantity here
+              preſcribed has been made uſe <lb/>of. Emetic Tartar thus exhibited, in ſmall
+              <lb/>doſes, and frequently repeated, proves as certain <lb/>and powerful a cathartic,
+              as it does an emetic, <lb/>when given in a larger quantity at once. It <lb/>operates
+              nevertheleſs for the moſt part with <w part="I">ſuf-</w><lb/><w part="F">ficient</w>
+              eaſe. </p>
+          </div>
+          <div>
+            <head rend="align-center"><lb/>BINDING JULEP. </head>
+            <p rend="indent"><lb/>Take of Alexterical-water four ounces, <w part="I">Aro-</w><lb/><w
+                part="F">matic-water</w> two ounces, Japonic Confection two <lb/>drams, Japan Earth,
+              in powder, two drams, <w part="I">Li-</w><lb/><w part="F">quid</w> Laudanum forty
+              drops, White Sugar half an <lb/>ounce, mix them well together. This Julep is
+              <lb/>calculated againſt diſentries and diarrhœas, in <lb/>which, after proper
+              evacuations, it generally <lb/>eaſes the gripes, and reſtrains the flux. It is to be
+                <pb xml:id="page_44" n="42"/><lb/>given three or four times a day, in the quantity
+              <lb/>of a ſpoonful at a time. </p>
+          </div>
+        </div>
+        <div>
+          <head rend="align-center"><lb/>CORDIAL MIXTURE. </head>
+          <p rend="indent"><lb/>Take of Simple Cinnamon-water four ounces, <lb/>Spirituous
+            Cinnamon-water two ounces, Extract <lb/>of Saffron one ſcruple, Confection of Kermes ſix
+            <lb/>drams, mix them together. In great languors <lb/>and depreſſions a ſpoonful of this
+            rich Cordial <lb/>Mixture may be taken every half hour. </p>
+        </div>
+        <div>
+          <head rend="align-center"><lb/>VALERIAN MIXTURE. </head>
+          <p rend="indent"><lb/>Take Simple Pepper Mint-water twelve <lb/>ounces, Wild Valerian Root
+            in powder, one <lb/>ounce, Compound Spirit of Lavender half an <lb/>ounce, Syrup of
+            Orange-peel one ounce, mix <lb/>them together. Wild Valerian Root, one of the
+            <lb/>principle medicines in epilepfies and vertigoes, <lb/>ſeems to anſwer better when
+            thus exhibited in <lb/>ſubſtance, than if given in form of a tincture or <lb/>infuſion;
+            the liquors here joined to it, <w part="I">excellent-</w><lb/><w part="F">ly</w>
+            coincide with, and by their warmth and <w part="I">pun-</w><lb/><w part="F">gency</w>,
+            greatly improve its virtues. Two ſpoons <lb/>full of the Mixture may be taken twice or
+            thrice <lb/>a day. </p>
+        </div>
+        <div>
+          <head rend="align-center"><lb/>SALINE CATHARTIC DRAUGHT. </head>
+          <p rend="indent"><lb/>Take of Glauber's Cathartic Salts and Manna, <lb/>each ſix drams,
+            Boiling Water three ounces, <lb/>Tincture of Cardamom one dram. Diſſolve the <pb
+              xml:id="page_45" n="43"/><lb/>Salt and Manna in the water, and having ſtrained
+            <lb/>off the liquor, add to it the Tincture of <lb/>Cardamoms. </p>
+        </div>
+        <div>
+          <head rend="align-center"><lb/>DIAPHORETIC DRAUGHT. </head>
+          <p rend="indent"><lb/>Take of Spirit of Minderus, Syrup of <w part="I">Meco-</w><lb/><w
+              part="F">nium</w>, each half an ounce, Salt of Hartſhorn five <lb/>grains, mix them
+            together. This Draught is a <lb/>very powerful Saline Diaphoretic; it is given <lb/>with
+            ſafety, and often with great benefit, in the <lb/>beginning of inflammatory fevers after
+            bleeding, <lb/>where theriaca and other warm ſubſtances uſually <lb/>employed, if they
+            fail in bringing out a ſweat, <lb/>increaſe the fever. </p>
+        </div>
+        <div>
+          <head rend="align-center italic"><lb/>For a <hi rend="roman">CRACK'D LIP,</hi> which is
+            apt to bleed on <lb/>any ſlight preſſure. </head>
+          <p rend="indent"><lb/>Take a bit of Sticking Plaiſter, and apply to the part. </p>
+        </div>
+        <div>
+          <head rend="align-center italic"><lb/>For the <hi rend="roman">CRAMP.</hi>
+          </head>
+          <p rend="indent"><lb/>To ſtretch the limbs out, and move the toes <lb/>about briskly. </p>
+        </div>
+        <div>
+          <head rend="align-center "><lb/>A WASH <hi rend="size(0.5)">FOR THE</hi> LADIES FACES. </head>
+          <p rend="indent"><lb/>Take Oil of Bitter Almonds two ounces, Oil <lb/>of Tartar par
+            Deliquium one ounce, Oil of <lb/>Rhodium four drops, ſhake them together till
+            <lb/>thoroughly mixed. It may be lowered with <pb xml:id="page_46" n="44"/><lb/>Pump
+              <unclear>##</unclear> Roſe-water. It is a fine cream colour, <lb/>and will make the
+            ſkin admirably ſmooth and <lb/>white, and free it from ſpecks or pimples. </p>
+        </div>
+        <div>
+          <head rend="align-center"><lb/>A <hi rend="size(0.5)">FEW SIMPLE EFFICACIOUS</hi>
+            RECEIPTS. </head>
+          <div>
+            <head rend="align-center"><lb/><hi rend="sc">For the</hi> HICCUP. </head>
+            <p rend="indent"><lb/>Take a wine bottle cork, and hold it between <lb/>the teeth
+              longways for three minutes. </p>
+          </div>
+          <div>
+            <head rend="align-center"><lb/><hi rend="sc">An easy</hi> EYE WATER. </head>
+            <p rend="indent"><lb/>Take Brandy one table-ſpoonful, and three of <lb/>Spring-water,
+              mix them together. </p>
+          </div>
+          <div>
+            <head rend="align-center"><lb/>ANOTHER EYE WATER. </head>
+            <p rend="indent"><lb/>Take Sugar of Lead two grains, diſſolve it in <lb/>a pint of
+              Spring-water.—For ſore eyes, the <w part="I">Oint-</w><lb/><w part="F">ment</w> of
+              Tutty is good. </p>
+          </div>
+          <div>
+            <head rend="align-center"><lb/>BEEF TEA. </head>
+            <p rend="indent"><lb/>Cut a pound of lean Beef into very thin ſlices, <lb/>add to it a
+              quart of Water, put it over a quick <lb/>fire, let it boil five minutes, take off the
+              ſcum, and <lb/>decant the liquor for uſe. </p>
+          </div>
+          <div>
+            <head rend="align-center"><lb/>TINCTURE OF RHUBARB. </head>
+            <p rend="indent"><lb/>There are three forts, the Spirituous, the <w part="I"
+                >Vi-</w><lb/><w part="F">nous</w>, and the Bitter. This Tincture is a proper <pb
+                xml:id="page_47" n="45"/><lb/>purge in looſeneſſes, vomitings, cholics
+                <unclear>#</unclear>s, <lb/>&amp;c. Doſe from two drams to an ounce. </p>
+          </div>
+        </div>
+        <div>
+          <head rend="align-center"><lb/>SACRED TINCTURE. </head>
+          <p rend="indent"><lb/>It cleanſes the firſt paſſages, attenuates viſcid <lb/>juices, warms
+            the blood, is good in the green <lb/>ſickneſs, and hyſteric diſeaſes, and promotes the
+            <lb/>menſes. Doſe from one tea-ſpoon full to one <lb/>ounce; it purges eaſily—An Aloetic
+            medicine. </p>
+        </div>
+        <div>
+          <head rend="align-center"><lb/><hi rend="sc">The</hi> VOLALILE AROMATIC TINCTURE. </head>
+          <p rend="indent"><lb/>Volatile Salts thus united with Aromatics, are <lb/>very agreeable,
+            and more acceptable to the <w part="I">ſto-</w><lb/><w part="F">mach</w>; good to ſmell
+            at; doſe is five drops to <lb/>ſixty, in wine and water. </p>
+        </div>
+        <div>
+          <head rend="align-center"><lb/>TINCTURE OF HIERAPICRA. </head>
+          <p rend="indent"><lb/>Take of Succotrine Aloes powdered one ounce, <lb/>Leſſer Cardamon
+            Seeds, and Virginia Snake <lb/>Root each one dram, Cochineal one ſcruple, <w part="I"
+              >Spa-</w><lb/><w part="F">niſh</w> White Wine one pint and half, digeſt it in a
+            <lb/>very gentle heat two days, then ſtrain off the <lb/>Tincture. This is ſimilar to
+            the Sacred Tincture. <lb/>Doſe from one tea-ſpoon full to four, in Wine, <lb/>or any
+            other liquor: it purges gently. </p>
+        </div>
+        <div>
+          <head rend="align-center"><lb/>TINCTURE OF CASTOR. </head>
+          <p rend="indent"><lb/>This Tincture is recommended in moſt kinds <lb/>of nervous
+            complaints and hyſteric diſorders; <pb xml:id="page_48" n="46"/><lb/>doſe from twenty
+            drops to fifty, or more. A <lb/>ſafe medicine. </p>
+        </div>
+        <div>
+          <p rend="indent"><lb/>In order to furniſh thoſe who may chuſe <w part="I">ele-</w><lb/><w
+              part="F">gant</w> diſtilled Spirituous Waters, I recommend <lb/>the following, which
+            may be kept in common <lb/>bottles, viz. </p>
+          <div>
+            <head rend="align-center"><lb/>SPIRITOUS ALEXETERIAL WATER, </head>
+            <p rend="indent"><lb/>Is tolerably pleaſant, and is an Alexipharmic <lb/>and Stomachic,
+              uſed in Juleps. </p>
+          </div>
+          <div>
+            <head rend="align-center"><lb/>CARRAWAY WATER. </head>
+            <p rend="indent"><lb/>A cordial in common uſe, good for the wind. </p>
+          </div>
+          <div>
+            <head rend="align-center"><lb/>SPIRITUOUS CINNAMON WATER, </head>
+            <p rend="indent"><lb/>Is an agreeable, grateful cordial water, it is a <lb/>great
+              aſtringent, and good in fluxes. </p>
+            <p rend="indent"><lb/>N.B. It is hard to get good Cinnamon Bark, <lb/>as the Dutch
+              frequently draw the oil out firſt, <lb/>before it comes over; for this reaſon I have
+              <lb/>often recommended the Caſſia, for a Spirituous <lb/>Water, which, when good,
+              makes an agreeable <lb/>water. </p>
+          </div>
+          <div>
+            <head rend="align-center"><lb/>AROMATIC WATER; <lb/>OR AQUA MIRABILIS. </head>
+            <p rend="indent"><lb/>Take Cinnamon two ounces, freſh Yellow Rind <lb/>of Lemons, and
+              Angelica Seeds each one ounce, <pb xml:id="page_49" n="47"/><lb/>Mace half an ounce,
+              Pepper Mint three <unclear>#####</unclear>, <lb/>French Wine one gallon, digeſt it for
+              two days, <lb/>and then diſtil off one gallon. This Water is <lb/>very rich of the
+              ſpices, and proves a pleaſant <lb/>warm cordial and carminative; it often gives
+              <lb/>preſent relief in languors, flatulencies, cholicky <lb/>pains, and other like
+              complaints. </p>
+          </div>
+          <div>
+            <head rend="align-center"><lb/>NUTMEG WATER. </head>
+            <p rend="indent"><lb/>This Water is regarded only as an agreeable <lb/>ſpirituous
+              liquor, lightly impregnated with the <lb/>Nutmeg flavour. </p>
+          </div>
+          <div>
+            <head rend="align-center"><lb/>SPIRITUOUS PENNY-ROYAL WATER. </head>
+            <p rend="indent"><lb/>This Water has great ſhare of the flavour of <lb/>the Penny-Royal,
+              and is pretty much in uſe as a <lb/>carminative and anti-hyſteric. </p>
+          </div>
+          <div>
+            <head rend="align-center"><lb/>SPIRITUOUS JAMAICA PEPPER WATER. </head>
+            <p rend="indent"><lb/>This Water is far more agreeable than a ſimple <lb/>water drawn
+              from the ſame ſpice, and has long <lb/>had a place among the cordials, both of the <w
+                part="I">diſ-</w><lb/><w part="F">tiller</w> and apothecary; though it has not yet
+              <lb/>been received into any public Pharmacopæia. </p>
+          </div>
+        </div>
+        <div>
+          <head rend="align-center"><lb/>HYSTERIC JULEP. </head>
+          <p rend="indent"><lb/>Take Penny-royal Water four ounces, <w part="I">Com-</w><lb/><w
+              part="F">pound</w> Valerian Water two ounces, Tincture of <lb/>Caſtor two drachms,
+            Salt of Hartſhorn ten grains, <pb xml:id="page_50" n="48"/><lb/>and loaf Sugar ſix
+            drams. The doſe two <w part="I">table-</w><lb/><w part="F">ſpoons</w> full every four or
+            ſix hours; it is <w part="I">calcu-</w><lb/><w part="F">lated</w> againſt hyſteric and
+            paralytic diſorders. </p>
+        </div>
+        <div>
+          <head rend="align-center"><lb/>STOMACHIC TINCTURE. </head>
+          <p rend="indent"><lb/>Take of Raiſins ſtoned four ounces, <w part="I">Cinna-</w><lb/><w
+              part="F">mon</w> half an ounce, Carraway Seeds, Leſſer <lb/>Candamoms hulk'd, and
+            Cochineal, each two <lb/>drams, Proof Spirit two pints. This is a grateful, <lb/>elegant
+            cordial Tincture, pleaſanter than the <w part="I">Uſ-</w><lb/><w part="F">quebaugh</w>,
+            and may be taken from half an ounce <lb/>to an ounce. </p>
+        </div>
+        <div>
+          <head rend="align-center"><lb/>SNUFF FOR THE HEAD-ACH. </head>
+          <p rend="indent"><lb/>Take of Betony, Lavender Flowers, and <w part="I">Mar-</w><lb/><w
+              part="F">jarom</w>, of the leaves of each equal parts, beat them <lb/>together into
+            powder. This Snuff may be ſafely <lb/>uſed in all complaints of the head: it is prepared
+            <lb/>from herbs which have a particular efficacy in <lb/>thoſe caſes, as it is manifeſt
+            from the infinite <w part="I">ſer-</w><lb/><w part="F">vice</w> from it in old and
+            ſettled pains of the head. <lb/>It may be taken as freely as you pleaſe. </p>
+        </div>
+        <div>
+          <head rend="align-center"><lb/>NERVOUS TINCTURE. </head>
+          <p rend="indent"><lb/>Take Ruſſia Caſtor one ounce, Aſſafœtida <lb/>half an ounce, Spirit
+            of Sal Volatile one pint, <w part="I">di-</w><lb/><w part="F">geſt</w> them for ten days
+            in a cloſe ſtopped phial, <lb/>frequently ſhaking the veſſel, and then ſtrain off
+            <lb/>the Tincture. This Tincture is very ſerviceable in <lb/>lowneſs of ſpirits,
+            faintings, and hyſterical caſes; <pb xml:id="page_51" n="49"/><lb/>the doſe is from one
+            to two tea-ſpoons full two <lb/>or three times a day, in a glaſs of Wine a
+              <unclear>#####</unclear>
+            <w part="I">Wa-</w><lb/><w part="F">ter</w> or Valerian. </p>
+        </div>
+        <div>
+          <head rend="align-center"><lb/>OPODELDOC </head>
+          <p rend="indent"><lb/>Is very ſerviceable in bruiſes and ſtrains; it <lb/>ſhould be rubbed
+            in with the warm hand three or <lb/>four times a day. </p>
+        </div>
+        <div>
+          <head rend="align-center"><lb/>TO SWEETEN THE BREATH. </head>
+          <p rend="indent"><lb/>At night going to bed chew about the <w part="I">quan-</w><lb/><w
+              part="F">tity</w> of a ſmall nut of fine Myrrh. </p>
+        </div>
+        <div>
+          <head rend="align-center"><lb/>Of the Number of SIMPLE WATERS, the <w part="I"
+              >fol-</w><lb/><w part="F">lowing</w> are the beſt. </head>
+          <p rend="indent"><lb/>Viz. Mint — Pepper Mint — Penny-Royal — <lb/>Roſe —Cinnamon and
+            Fennel Water. The dried <lb/>herbs kept and made into infuſions as wanted, I <lb/>think
+            is better. Obſerve in making of infuſions, <lb/>let not the water ſtand too long on the
+            ingredients, <lb/>for in all infuſions, tinctures, &amp;c. the finer <w part="I"
+              >par-</w><lb/><w part="F">ticles</w> are drawn out firſt. </p>
+        </div>
+      </div>
+      <div>
+        <p rend="indent"><lb/>There are ſeveral other medicines you may <lb/>put into a cheſt, that
+          are not mentioned in the <lb/>ſcheme; as the Sweet and Acid Spirit of Vitriol, <lb/>Sacred
+          Tincture, Stomach Tincture, Nervous <lb/>Tincture, Liquid Laudanum, Calomel, a <w part="I"
+            >Mercu-</w><lb/><w part="F">rial</w> Powder, Tincture of Caſtor, the Spirit <w part="I"
+            >Vo-</w><lb/><w part="F">latile</w> Aromatic, Tincture of Rhubarb, Eau de <lb/>Luce,
+          Lavender and Roſemary Water, &amp;c. and as <pb xml:id="page_52" n="50"/><lb/>Powders,
+          keep better in bottles than drawers, I <lb/>have ordered ſome bottles in the 12 and 16
+          cheſts <lb/>to be made with wide mouths. Since the firſt <lb/>publication of this book, I
+          have conſidered and <lb/>made an eſtimate of ſeveral cheſts, and thoſe who <lb/>have
+          honoured me with their commands, have <lb/>thought me reaſonable: in order that the public
+          <lb/>may judge, I will lay the particulars before them. </p>
+        <p rend="indent"><lb/>Each cheſt is neatly made of mahogany wood, <lb/>with braſs handles
+          and locks; the bottles are <lb/>ſquare, with glaſs ſtoppers, holding either an <lb/>ounce
+          or two ounces; labeled, and filled with <lb/>the particular medicines. </p>
+        <p rend="indent"><lb/><table>
+            <head rend="indent hanging"><lb/>The Price of a Medicine Cheſt compleat, with
+              <lb/>medicines included,</head>
+            <row>
+              <cell rows="1" cols="1"> </cell>
+              <cell rend="italic" role="label" rows="1" cols="1">l. </cell>
+              <cell rend="italic" role="label" rows="1" cols="1">s. </cell>
+              <cell rend="italic" role="label" rows="1" cols="1">d. </cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">A 6 bottle Caſe, one ounce each</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">16</cell>
+              <cell rows="1" cols="1">0</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">9 Ditto</cell>
+              <cell rows="1" cols="1">1</cell>
+              <cell rows="1" cols="1">2</cell>
+              <cell rows="1" cols="1">0</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">12 Ditto</cell>
+              <cell rows="1" cols="1">1</cell>
+              <cell rows="1" cols="1">8</cell>
+              <cell rows="1" cols="1">0</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">16 Ditto</cell>
+              <cell rows="1" cols="1">1</cell>
+              <cell rows="1" cols="1">16</cell>
+              <cell rows="1" cols="1">0</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">20 Ditto</cell>
+              <cell rows="1" cols="1">2</cell>
+              <cell rows="1" cols="1">5</cell>
+              <cell rows="1" cols="1">0</cell>
+            </row>
+          </table></p>
+        <p rend="indent"><lb/>Theſe Cheſts, when ordered, are packed up in <lb/>another caſe,
+          without any extra charge. </p>
+        <p rend="indent"><lb/><table>
+            <head rend="indent hanging"><lb/>The Price of the Cheſts furniſhed compleat, <lb/>with
+              two ounce bottles each, as before.</head>
+            <row>
+              <cell role="label" rows="1" cols="1"> </cell>
+              <cell rend="italic" role="label" rows="1" cols="1">l. </cell>
+              <cell rend="italic" role="label" rows="1" cols="1">s. </cell>
+              <cell rend="italic" role="label" rows="1" cols="1">d. </cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">A 6 bottle Caſe, of two ounce each</cell>
+              <cell rows="1" cols="1">1</cell>
+              <cell rows="1" cols="1">1</cell>
+              <cell rows="1" cols="1">0</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">9 Ditto</cell>
+              <cell rows="1" cols="1">1</cell>
+              <cell rows="1" cols="1">10</cell>
+              <cell rows="1" cols="1">0</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">12 Ditto</cell>
+              <cell rows="1" cols="1">2</cell>
+              <cell rows="1" cols="1">2</cell>
+              <cell rows="1" cols="1">0</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">16 Ditto</cell>
+              <cell rows="1" cols="1">2</cell>
+              <cell rows="1" cols="1">12</cell>
+              <cell rows="1" cols="1">6</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">20 Ditto</cell>
+              <cell rows="1" cols="1">3</cell>
+              <cell rows="1" cols="1">3</cell>
+              <cell rows="1" cols="1">0</cell>
+            </row>
+          </table></p>
+        <pb xml:id="page_53" n="31"/>
+        <p rend="indent"><lb/>Any perſon may chuſe their medicine with <lb/>no extra charge,
+          excepting for the fine O<unclear>#</unclear>
+          <lb/>Scents, as Musk, Oil of Rhodium, Lavender <lb/>&amp;c. which are very dear, and are
+          often ſold <unclear>#####</unclear>
+          <lb/>1d. and 2d. a drop in the ſhops. </p>
+        <p rend="indent"><lb/>I likewiſe furniſh Cordial Cheſts of the
+          <unclear>#</unclear>-<lb/>tron, Cinnamon, and other Waters; and <unclear>#####</unclear>
+          <lb/>Cheſts of the fine Scents and Travelling Cheſts <lb/>at the ſame reaſonable Rate; but
+          they vary <unclear>#####</unclear>
+          <lb/>much, that I cannot minutely fix the price. </p>
+        <p rend="indent"><lb/>All other medicines and drugs-prepared, and <lb/>ſent into the country
+          with care. </p>
+        <p rend="indent"><lb/>Ladies and Gentlemen who reſide in the <lb/>country, will hereby be
+          enabled to aſſiſt their <lb/>family and poor neighbours; and by a little <lb/>practice,
+          will ſoon become acquainted with <w part="I">me-</w><lb/><w part="F">dicine</w> ſufficient
+          to anſwer domeſtic purpoſes, till <lb/>further aſſiſtance can be procured. There are
+          <lb/>ſome receipts which I have put down, which, <lb/>becauſe they are ſimple and eaſy,
+          may create a <lb/>laugh, though they are a ſure remedy for the <lb/>complaint. </p>
+        <p rend="indent"><lb/>All letters, poſt paid, will be duly anſwered, <lb/>and Cheſts ſent
+          according to the directions given. </p>
+        <trailer rend="align-center"><lb/>FINIS. </trailer>
+      </div>
+    </body>
+    <gap reason="sampling" unit="pages" quantity="1"/>
+  </text>
+</TEI>

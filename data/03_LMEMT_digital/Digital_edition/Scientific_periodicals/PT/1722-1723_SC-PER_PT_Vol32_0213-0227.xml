@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LMEMT Corpus - Jurin: Comparison between the Danger of the Natural Small Pox, and of
+          That Given by Inoculation</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <author>
+              <persName>James Jurin</persName>
+            </author>
+            <title>A Letter to the Learned Dr. Caleb Cotes-Worth, F. R. S. of the College of
+              Physicians, London, and Physician to St. Thomas's Hospital; Containing a Comparison
+              between the Danger of the Natural Small Pox, and of That Given by Inoculation. By
+              James Jurin, M. D. R. S. Secret</title>
+          </analytic>
+          <monogr>
+            <title>Philosophical Transactions. Giving Some Account of the Present Undertakings,
+              Studies and Labours, of the Ingenious, in many Considerable Parts of the
+              World.</title>
+            <author>Royal Society</author>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>London: Printed for W. and J. Innys, Printers to the Royal Society, at the
+                  West End of St. Paul's.</persName>
+              </publisher>
+              <date>1722-1723</date>
+              <biblScope unit="vol">32</biblScope>
+              <biblScope unit="page">213-227</biblScope>
+            </imprint>
+            <extent>
+              <measure type="format">4⁰</measure>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <idno type="ECCO">CW110043041</idno>
+            <idno type="DOI">doi: 10.1098/rstl.1722.0038</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Periodicals"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text type="article" rend="roman" decls="PT32_0213">
+    <body>
+      <pb n="213"/>
+      <head rend="italic hanging">
+        <lb/><hi rend="roman">VI.</hi> A Letter to the Learned Dr. <hi rend="roman">Caleb Coteſ-
+          <lb/>worth</hi>, F. R. S. of the College of Phyſicians, <lb/><hi rend="roman">London</hi>,
+        and Phyſician to St. <hi rend="roman">Thomas</hi>'s Ho- <lb/>ſpital; containing a Compariſon
+        between the Dan- <lb/>ger of the Natural <hi rend="roman">Small-Pox</hi>, and of that given
+        <lb/>by Inoculation. By <hi rend="roman">James Jurin</hi>, M. D. R. S. <lb/>Secret. </head>
+      <salute rend="space indent italic">
+        <lb/>SIR, </salute>
+      <p>
+        <lb/><hi rend="dc(2)">T</hi>HE ſincere and diſintereſted Regard for the Good <lb/>of
+        Mankind, which you have always manifeſted, <lb/>as well in your extenſive private Practice,
+        as in that <lb/>publick Poſt, which you have ſo long and ſo uſefully <lb/>fill'd, muſt
+        affect you, I am ſure, with a great and ſen- <lb/>ſible Concern for the Deſtruction made
+        among us by <lb/>that terrible Calamity the Small Pox. We have ſeen, <lb/>for ſome
+        conſiderable Time paſt, above 100 Perſons <lb/><hi rend="italic">per</hi> Week in this City
+        and Suburbs, taking one Week <lb/>with another, to be carry'd off by this Diſeaſe; a Con-
+        <lb/>ſideration certainly that ought to diſpoſe us to enter <lb/>into any Meaſures, by which
+        we may reaſonably hope <lb/>to put ſome Step to the Progreſs of ſo cruel a Di- <lb/>ſtemper. </p>
+      <p rend="indent">
+        <lb/>To this Purpoſe, Sir, the Method of Inoculation, <lb/>which has lately been introduced
+        among us, is ſtrongly <lb/>recommended on the one hand, and has been oppoſed <lb/>with a
+        great deal of Warmth and Zeal on the other. <pb n="214"/>
+        <lb/>I have no Inclination to enter into this Contro- <lb/>verſy; it is in better and abler
+        Hands: but, as the <lb/>Point in Diſpute is of the utmoſt Importance to Man- <lb/>kind, I
+        heartily wiſh, that, without Paſſion, Preju- <lb/>dice, or private Views, it may be fairly
+        and maturely <lb/>examin'd. In order to which, if the following Ex- <lb/>tracts and
+        Computations, concerning the comparative <lb/>Danger of the Inoculated and Natural Small
+        Pox, may <lb/>be of any Uſe to your ſelf, or to other impartial and <lb/>diſintereſted
+        Judges, I ſhall think my Labour well be- <lb/>ſtowed. </p>
+      <p rend="indent">
+        <lb/>The Number of Perſons, who have had the Small <lb/>Pox by Inoculation here in <hi
+          rend="italic">England</hi>, is, by the beſt <lb/>Information I have been able to collect,
+        as follows. </p>
+      <p rend="indentall hanging space">
+        <lb/>Inoculated by <list>
+          <item>
+            <lb/>Dr. <hi rend="italic">Nettleton</hi>
+            <hi rend="align-right">61 </hi>
+          </item>
+          <item>
+            <lb/><hi rend="italic">Claudius Amyand</hi>, Eſq; Serjeant Surgeon <hi
+              rend="align-right">17 </hi>
+          </item>
+          <item>
+            <lb/>Mr. <hi rend="italic">Maitland</hi>, Surgeon <hi rend="align-right">57 </hi>
+          </item>
+          <item>
+            <lb/>Dr. <hi rend="italic">Dover</hi>
+            <hi rend="align-right">4 </hi>
+          </item>
+          <item>
+            <lb/>Mr. <hi rend="italic">Weymiſh</hi>, Surgeon <hi rend="align-right">3 </hi>
+          </item>
+          <item>
+            <lb/>The Reverend Mr. <hi rend="italic">Johnſon</hi>
+            <hi rend="align-right">3 </hi>
+          </item>
+          <item>
+            <lb/>Dr. <hi rend="italic">Brady</hi>, at <hi rend="italic">Portſmouth</hi>
+            <hi rend="align-right">4 </hi>
+          </item>
+          <item rend="hanging">
+            <lb/>Mr. <hi rend="italic">Smith</hi>, Surgeon, and Mr. <hi rend="italic">Dymer</hi>,
+            <lb/>Apothecary, at <hi rend="italic">Chicheſter</hi>
+            <hi rend="align-right">13 </hi>
+          </item>
+          <item>
+            <lb/>Mr. <hi rend="italic">Waller</hi>, Apothecary at <hi rend="italic">Goſport</hi>
+            <hi rend="align-right">3 </hi>
+          </item>
+          <item>
+            <lb/>A Woman at <hi rend="italic">Leiceſter</hi>
+            <hi rend="align-right">8 </hi>
+          </item>
+          <item>
+            <lb/>Dr. <hi rend="italic">Williams</hi> at <hi rend="italic">Haverford Weſt</hi>
+            <hi rend="align-right">6 </hi>
+          </item>
+          <item>
+            <lb/>Two other Perſons near the ſame Place <hi rend="align-right">2 </hi>
+          </item>
+          <item>
+            <lb/>Dr. <hi rend="italic">French</hi>, at <hi rend="italic">Briſtol</hi>
+            <hi rend="align-right">1 </hi>
+          </item>
+        </list>
+      </p>
+      <p rend="align-right">
+        <lb/>In all — 182 </p>
+      <p rend="indent">
+        <lb/>Out of this Number the Oppoſers of Inoculation <lb/>affirm, that two Perſons died of
+        the Inoculated Small <lb/>Pox; the Favourers of this Practice maintain, that their
+        <lb/>Death was occaſioned by other Cauſes. If, to avoid <pb n="215"/>
+        <lb/>diſpute, theſe two be allow'd to have died of Inocula- <lb/>tion, we muſt eſtimate the
+        hazard of dying of the In- <lb/>oculated Small Pox, as far as can be collected from <lb/>our
+        own Experience, to be that of 2 out of 182, or <lb/>one out of 91. </p>
+      <p rend="indent">
+        <lb/>The Reverend Mr. <hi rend="italic">Mather</hi>, in a Letter dated <hi rend="italic"
+          >March</hi>
+        <lb/>10. 1721. from <hi rend="italic">Boſton</hi> in <hi rend="italic">New England</hi>,
+        gives an Ac- <lb/>count, That <q rend="italic">of near 300 inoculated there, 5 or 6 died
+          <lb/>upon it or after it, but from other Diſeaſes and Ac- <lb/>cidents, chiefly from
+          having taken the Infection in the <lb/>common way by Inſpiration, before it could be given
+          <lb/>them in this way of Tranſplantation </q>. </p>
+      <p rend="indent">
+        <lb/>If, as we have done before, to avoid all occaſion of <lb/>diſpute, we allow 5 out of
+        theſe 300 to have died of <lb/>the Small Pox by Inoculation, notwithſtanding what <lb/>Mr.
+          <hi rend="italic">Mather</hi> has ſaid of their dying by other Acci- <lb/>dents or
+        Diſeaſes; the hazard of Inoculation will <lb/>thence be determin'd to be that of 1 in about
+        60. But <lb/>here it muſt be obſerv'd, that by all the Accounts <lb/>from <hi rend="italic"
+          >New England</hi>, the Operators there appear not <lb/>to have been ſo cautious in the
+        choice of their Subjects, <lb/>as here in <hi rend="italic">England</hi>. For Mr. <hi
+          rend="italic">Mather</hi> tells us, that <lb/>the Perſons inoculated were <q rend="italic"
+          >young and old, from 1 <lb/>Year to 70, weak and ſtrong </q>; and by other relations
+        <lb/>we are inform'd, that <q rend="italic">Women with Child, and others <lb/>even in
+          Childbed </q>, underwent the Operation. Appa- <lb/>rently the Greatneſs of the Danger they
+        were in, from <lb/>the Infection in the natural Way, which then raged <lb/>among them with
+        the utmoſt Fury, made them the <lb/>more adventurous. </p>
+      <p rend="indent">
+        <lb/>We come now, Sir, to the ſecond Part of our De- <lb/>ſign, which is to form an Eſtimate
+        of the Hazard, <lb/>which all Mankind, one from another, are under of <lb/>dying of the
+        natural Small Pox, that, by comparing <lb/>this with the Hazard of Inoculation, the Publick
+        may <pb n="216"/>
+        <lb/>be enabled to form a Judgment, whether or no the <lb/>Practice of Inoculation tends to
+        the Preſervation of <lb/>Mankind, by leſſening the Danger to which they are <lb/>otherwiſe
+        liable. </p>
+      <p rend="indent">
+        <lb/>With this View I have conſulted the Yearly Bills of <lb/>Mortality, as far back as the
+        Year 1667, being the <lb/>Year after the Plague and the Fire of <hi rend="italic"
+          >London</hi>, com- <lb/>prehending to the preſent Time the Space of 56 <lb/>Years, from 42
+        of which I have given Extracts in the <lb/>two following Tables. </p>
+      <p rend="indent">
+        <lb/>The firſt of theſe takes in the firſt 20 Years, diſtin- <lb/>guiſhing for every Year
+        the total Number of Burials, <lb/>and likewiſe the Number that died of the Small Pox, in
+        <lb/>two ſeparate Columns. The third Column ſhews, how <lb/>many died of the Small Pox out
+        of every Thouſand that <lb/>were buried; and the fourth Column repreſents the
+        <lb/>Proportion between thoſe that died of the Small Pox, <lb/>and the whole Number of
+        Burials, by the neareſt Vul- <lb/>gar Fraction, having always 1 for the Numerator. </p>
+      <p rend="indent">
+        <lb/>The ſecond Table gives the laſt 22 Years, after the <lb/>ſame manner, and at the bottom
+        of each Table is given <lb/>the Total Number for each Series of Years, and like- <lb/>wiſe
+        the Number that died each Year, taken at a Me- <lb/>dium, one Year with another: by which it
+        appears, <lb/>that the Proportion between the Number of thoſe that <lb/>die of the Small
+        Pox, and the whole Number of Bu- <lb/>rials, is very nearly the ſame, upon an Average for
+        <lb/>each Series of Years. </p>
+      <p rend="indent">
+        <lb/>The 14 intermediate Years between 1686 and 1701 <lb/>are left out, becauſe in the Bills
+        for thoſe Years, the <lb/>Accounts of the Small Pox and Meaſles are not di-
+        <lb/>ſtinguiſhed, as in the preceding and following Years, <lb/>but are join'd together in
+        one Article, ſo that from them <lb/>no certain Account can be drawn of the Number of
+        <lb/>Perſons, that died of the Small Pox. </p>
+      <pb n="217"/>
+      <table rend="boxed align-right" rows="23" cols="5">
+        <head rend="align-center">TABLE I. </head>
+        <row role="label" rend="space size(0.7)">
+          <cell><hi rend="space">Years</hi></cell>
+          <cell>Total N<hi rend="sup">o</hi>
+            <lb/> of Burials</cell>
+          <cell>Died of <lb/>In all. </cell>
+          <cell>the Small <lb/>In 1000 </cell>
+          <cell>Pox. <lb/>In Proportion.</cell>
+        </row>
+        <row>
+          <cell>1667</cell>
+          <cell>15842</cell>
+          <cell>1196</cell>
+          <cell>75</cell>
+          <cell>1/33</cell>
+        </row>
+        <row>
+          <cell>1668</cell>
+          <cell>17278</cell>
+          <cell>1987</cell>
+          <cell>115</cell>
+          <cell>1/9</cell>
+        </row>
+        <row>
+          <cell>1669</cell>
+          <cell>19432</cell>
+          <cell>951</cell>
+          <cell>49</cell>
+          <cell>1/20</cell>
+        </row>
+        <row>
+          <cell>1670</cell>
+          <cell>20198</cell>
+          <cell>1465</cell>
+          <cell>73</cell>
+          <cell>1/14</cell>
+        </row>
+        <row>
+          <cell>1671</cell>
+          <cell>15729</cell>
+          <cell>696</cell>
+          <cell>44</cell>
+          <cell>1/23</cell>
+        </row>
+        <row>
+          <cell>1672</cell>
+          <cell>18230</cell>
+          <cell>1116</cell>
+          <cell>61</cell>
+          <cell>1/16</cell>
+        </row>
+        <row>
+          <cell>1673</cell>
+          <cell>17504</cell>
+          <cell>853</cell>
+          <cell>49</cell>
+          <cell>1/21</cell>
+        </row>
+        <row>
+          <cell>1674</cell>
+          <cell>21201</cell>
+          <cell>2507</cell>
+          <cell>118</cell>
+          <cell>1/8</cell>
+        </row>
+        <row>
+          <cell>1675</cell>
+          <cell>17244</cell>
+          <cell>997</cell>
+          <cell>58</cell>
+          <cell>1/17</cell>
+        </row>
+        <row>
+          <cell>1676</cell>
+          <cell>18732</cell>
+          <cell>359</cell>
+          <cell>19</cell>
+          <cell>1/52</cell>
+        </row>
+        <row>
+          <cell>1677</cell>
+          <cell>19067</cell>
+          <cell>1678</cell>
+          <cell>88</cell>
+          <cell>1/11</cell>
+        </row>
+        <row>
+          <cell>1678</cell>
+          <cell>20678</cell>
+          <cell>1798</cell>
+          <cell>87</cell>
+          <cell>1/12</cell>
+        </row>
+        <row>
+          <cell>1679</cell>
+          <cell>21730</cell>
+          <cell>1967</cell>
+          <cell>91</cell>
+          <cell>1/11</cell>
+        </row>
+        <row>
+          <cell>1680</cell>
+          <cell>21053</cell>
+          <cell>689</cell>
+          <cell>33</cell>
+          <cell>1/31</cell>
+        </row>
+        <row>
+          <cell>1681</cell>
+          <cell>23971</cell>
+          <cell>2982</cell>
+          <cell>125</cell>
+          <cell>1/8</cell>
+        </row>
+        <row>
+          <cell>1682</cell>
+          <cell>20691</cell>
+          <cell>1408</cell>
+          <cell>68</cell>
+          <cell>1/15</cell>
+        </row>
+        <row>
+          <cell>1683</cell>
+          <cell>20587</cell>
+          <cell>2096</cell>
+          <cell>102</cell>
+          <cell>1/10</cell>
+        </row>
+        <row>
+          <cell>1684</cell>
+          <cell>23202</cell>
+          <cell>156</cell>
+          <cell>7</cell>
+          <cell>1/149</cell>
+        </row>
+        <row>
+          <cell>1685</cell>
+          <cell>23222</cell>
+          <cell>2496</cell>
+          <cell>107</cell>
+          <cell>1/9</cell>
+        </row>
+        <row>
+          <cell>1686</cell>
+          <cell>22609</cell>
+          <cell>1062</cell>
+          <cell>47</cell>
+          <cell>1/21</cell>
+        </row>
+        <row>
+          <cell>20 Years</cell>
+          <cell>398200</cell>
+          <cell>28459</cell>
+          <cell>71½</cell>
+          <cell>1/14</cell>
+        </row>
+        <row rend="space">
+          <cell rend="size(0.7)">Each Year at <lb/>a <hi rend="italic">Medium</hi></cell>
+          <cell>19910</cell>
+          <cell>1423</cell>
+          <cell>71½</cell>
+          <cell>1/14</cell>
+        </row>
+      </table>
+      <pb n="218"/>
+      <table rend="boxed align-right" rows="27" cols="5">
+        <head rend="align-center">TABLE II. </head>
+        <row role="label" rend="space size(0.7)">
+          <cell><hi rend="space">Years</hi></cell>
+          <cell>Total N<hi rend="sup">o</hi>
+            <lb/> of Burials</cell>
+          <cell>Died of <lb/>In all. </cell>
+          <cell>the Small <lb/>In 1000 </cell>
+          <cell>Pox. <lb/>In Proportion.</cell>
+        </row>
+        <row>
+          <cell>1701</cell>
+          <cell>20471</cell>
+          <cell>1095</cell>
+          <cell>53</cell>
+          <cell>1/19</cell>
+        </row>
+        <row>
+          <cell>1702</cell>
+          <cell>19481</cell>
+          <cell>311</cell>
+          <cell>16</cell>
+          <cell>1/63</cell>
+        </row>
+        <row>
+          <cell>1703</cell>
+          <cell>20720</cell>
+          <cell>898</cell>
+          <cell>43</cell>
+          <cell>1/23</cell>
+        </row>
+        <row>
+          <cell>1704</cell>
+          <cell>22684</cell>
+          <cell>1501</cell>
+          <cell>66</cell>
+          <cell>1/15</cell>
+        </row>
+        <row>
+          <cell>1705</cell>
+          <cell>22097</cell>
+          <cell>1095</cell>
+          <cell>50</cell>
+          <cell>1/20</cell>
+        </row>
+        <row>
+          <cell>1706</cell>
+          <cell>19847</cell>
+          <cell>721</cell>
+          <cell>36</cell>
+          <cell>1/28</cell>
+        </row>
+        <row>
+          <cell>1707</cell>
+          <cell>21600</cell>
+          <cell>1078</cell>
+          <cell>50</cell>
+          <cell>1/20</cell>
+        </row>
+        <row>
+          <cell>1708</cell>
+          <cell>21291</cell>
+          <cell>1687</cell>
+          <cell>79</cell>
+          <cell>1/13</cell>
+        </row>
+        <row>
+          <cell>1709</cell>
+          <cell>21800</cell>
+          <cell>1024</cell>
+          <cell>47</cell>
+          <cell>1/21</cell>
+        </row>
+        <row>
+          <cell>1710</cell>
+          <cell>24620</cell>
+          <cell>3138</cell>
+          <cell>127</cell>
+          <cell>1/8</cell>
+        </row>
+        <row>
+          <cell>1711</cell>
+          <cell>19833</cell>
+          <cell>915</cell>
+          <cell>46</cell>
+          <cell>1/22</cell>
+        </row>
+        <row>
+          <cell>1712</cell>
+          <cell>21198</cell>
+          <cell>1943</cell>
+          <cell>92</cell>
+          <cell>1/11</cell>
+        </row>
+        <row>
+          <cell>1713</cell>
+          <cell>21057</cell>
+          <cell>1614</cell>
+          <cell>77</cell>
+          <cell>1/13</cell>
+        </row>
+        <row>
+          <cell>1714</cell>
+          <cell>26569</cell>
+          <cell>2810</cell>
+          <cell>106</cell>
+          <cell>1/9</cell>
+        </row>
+        <row>
+          <cell>1715</cell>
+          <cell>22232</cell>
+          <cell>1057</cell>
+          <cell>48</cell>
+          <cell>1/21</cell>
+        </row>
+        <row>
+          <cell>1716</cell>
+          <cell>24436</cell>
+          <cell>2427</cell>
+          <cell>99</cell>
+          <cell>1/10</cell>
+        </row>
+        <row>
+          <cell>1717</cell>
+          <cell>23446</cell>
+          <cell>2211</cell>
+          <cell>94</cell>
+          <cell>1/11</cell>
+        </row>
+        <row>
+          <cell>1718</cell>
+          <cell>26523</cell>
+          <cell>1884</cell>
+          <cell>71</cell>
+          <cell>1/14</cell>
+        </row>
+        <row>
+          <cell>1719</cell>
+          <cell>28347</cell>
+          <cell>3229</cell>
+          <cell>114</cell>
+          <cell>1/9</cell>
+        </row>
+        <row>
+          <cell>1720</cell>
+          <cell>25454</cell>
+          <cell>1440</cell>
+          <cell>57</cell>
+          <cell>1/18</cell>
+        </row>
+        <row>
+          <cell>1721</cell>
+          <cell>26142</cell>
+          <cell>2375</cell>
+          <cell>91</cell>
+          <cell>1/11</cell>
+        </row>
+        <row>
+          <cell>1722</cell>
+          <cell>25750</cell>
+          <cell>2167</cell>
+          <cell>84</cell>
+          <cell>1/12</cell>
+        </row>
+        <row>
+          <cell>22 Years</cell>
+          <cell>505598</cell>
+          <cell>36620</cell>
+          <cell>72</cell>
+          <cell>1/14</cell>
+        </row>
+        <row rend="space">
+          <cell rend="size(0.7) align-left hanging">Each Year at <lb/>a <hi rend="italic"
+              >Medium</hi>. </cell>
+          <cell>22982</cell>
+          <cell>1665</cell>
+          <cell>72</cell>
+          <cell>1/14</cell>
+        </row>
+        <row>
+          <cell>42 Years</cell>
+          <cell>903798</cell>
+          <cell>65079</cell>
+          <cell>72</cell>
+          <cell>1/14</cell>
+        </row>
+        <row rend="space">
+          <cell rend="size(0.7) align-left hanging">Each Year in <lb/>42 at a <hi rend="italic">Me-
+              <lb/>dium</hi>. </cell>
+          <cell>21519</cell>
+          <cell>1550</cell>
+          <cell>72</cell>
+          <cell>1/14</cell>
+        </row>
+      </table>
+      <pb n="219"/>
+      <p rend="indent">
+        <lb/>By theſe Tables it appears, that <hi rend="italic">upwards of ſeven <lb/><hi
+            rend="roman">per Cent.</hi> or ſomewhat more than a fourteenth part of <lb/>Mankind, die
+          of the Small Pox</hi>; and conſequently the <lb/>hazard of dying of that Diſtemper, to
+        every individual <lb/>born into the World, is at leaſt that of one in four- <lb/>teen. And
+        that this Hazard encreaſes after the Birth, <lb/>as the Child advances in Age, will appear
+        from what <lb/>follows. </p>
+      <p rend="indent">
+        <lb/>From this Eſtimate it is demonſtrable, that, in the <lb/>Caſe of Perſons actually
+        having the Small Pox, the <lb/>Hazard that they run, one with another, of dying of <lb/>that
+        Diſtemper, is greater than that of one in fourteen; <lb/>or, which is the ſame thing, <hi
+          rend="italic">there muſt be fewer than <lb/>thirteen, that recover, for one that dies of
+          the Small <lb/>Pox</hi>. For ſince one fourteenth part of Mankind die <lb/>of the Small
+        Pox, and the other thirteen parts die of <lb/>other Diſeaſes; if theſe thirteen have all had
+        the Small <lb/>Pox, and recover'd from it, before they fell ill of thoſe <lb/>other Diſeaſes
+        of which they died, then juſt thirteen <lb/>will have recover'd from the Small Pox, for one
+        that <lb/>dies of that Diſtemper: but, as it is notorious, that <lb/>great Numbers,
+        eſpecially of young Children, die of <lb/>other Diſeaſes, without ever having the Small Pox,
+        it <lb/>is plain, that fewer than thirteen muſt recover from <lb/>this Diſtemper, for one
+        that dies of it. </p>
+      <p rend="indent">
+        <lb/>To determine exactly how many of theſe thirteen <lb/>Parts of Mankind, die without
+        having the Small Pox, <lb/>is a very difficult Task: but is eaſy to ſee, that a
+        <lb/>conſiderable Deduction is to be made from them. </p>
+      <p rend="indent">
+        <lb/>In the firſt place, the two Articles of <hi rend="italic">Stilborn</hi> and <lb/><hi
+          rend="italic">Abortive Children</hi>, which are put into the yearly Bills, <lb/>as part of
+        the Number of Burials, are unqueſtionably <lb/>to be deducted. </p>
+      <pb n="220"/>
+      <p rend="indent">
+        <lb/>With theſe two, Sir, you will not I believe, think it <lb/>unreaſonable to join the
+        following Heads, which, by <lb/>the beſt Information I can procure, comprehend only
+        <lb/>very young Children, or at moſt not above one or two <lb/>Years of Age: <hi
+          rend="italic">Overlaid, Chryſoms and Infants, Con- <lb/>vulſions, Horſeſhoehead,
+          Headmoldſhot, Teeth, Wa- <lb/>ter in the Head, Worms, Rickets, Livergrown, Chin-
+          <lb/>Cough, and Hooping-Cough</hi>, which Articles in the <lb/>Yearly Bills for 22 Years
+        laſt paſt, amount at a Medi- <lb/>um to 386 in each 1000, of the whole Number of
+        <lb/>Burials. </p>
+      <p rend="indent">
+        <lb/>It is true indeed, that, in all Probability, ſome <lb/>ſmall part of theſe muſt have
+        gone thro' the Small Pox, <lb/>and therefore ought not to be deducted out of the Ac-
+        <lb/>count: but then, on the other hand, as it is certain, <lb/>that of the remaining
+        614/1000 of Mankind, that are above <lb/>one or two Years of Age, there are great Numbers,
+        <lb/>that never have the Small Pox, it will I preſume be <lb/>judged to be no unequal
+        Suppoſition, if I ſuppoſe all <lb/>that are contain'd under the Heads abovemention'd, to
+        <lb/>have miſs'd that Diſtemper, when by way of Com- <lb/>penſation, I allow all the
+        remainder of Mankind to <lb/>undergo it; which Conceſſion is ſo large, that it will
+        <lb/>abundantly make up for what I aſſume too much in the <lb/>former Suppoſition. </p>
+      <p rend="indent">
+        <lb/>Allowing therefore, that out of every 1000 Chil- <lb/>dren that are born, 386 die under
+        one or two Years <lb/>of Age, without having the Small Pox, and 72 do <lb/>ſome time or
+        other die of that Diſtemper; it follows, <lb/>that the Hazard of dying of it, to the
+        remainder of <lb/>Mankind, above one or two Years of Age, who are <lb/>all ſuppoſed to
+        undergo that Diſeaſe ſooner or later, is <lb/>that of 72 out of 614, or nearly 2 out of 17:
+        ſo that <pb n="221"/>
+        <lb/><hi rend="italic">no more, than between 7 and 8, can recover from that <lb/>Diſtemper,
+          for one that dies of it</hi>. And if any conſi- <lb/><choice>
+          <corr>derable</corr>
+          <sic>rable</sic>
+        </choice> part of the aforeſaid remainder of Mankind, <lb/>more than is allow'd for above,
+        do eſcape having the <lb/>Small Pox, then the Proportion of thoſe that recover <lb/>from it,
+        will be ſtill ſmaller. </p>
+      <p rend="indent">
+        <lb/>This Conſideration ſhews the Fallacy of one plau- <lb/>ſible Argument, that has been
+        often made uſe of on <lb/>occaſion of the preſent Diſputes about Inoculation: <lb/>Which is,
+        that whatever be the Danger of dying of the <lb/>Small Pox, to thoſe that actually have that
+        Diſeaſe, yet, <lb/>as great Numbers of Perſons never have the Small Pox <lb/>at all, this
+        Danger is what any particular Perſon may <lb/>never be in; and therefore it will be Madneſs
+        to under- <lb/>go the hazard of Inoculation, be it great or ſmall, in <lb/>order to prevent
+        a Diſeaſe, which poſſibly may never <lb/>befal one. </p>
+      <p rend="indent">
+        <lb/>For if two parts in ſeventeen of all Mankind, that <lb/>are above one or two Years of
+        Age, muſt ſooner or <lb/>later die of the Small Pox, it is plain, that how many <lb/>parts
+        ſoever of theſe ſeventeen are ſuppoſed to eſcape <lb/>that Diſtemper, the Mortality among
+        the remainder, <lb/>who undergo it, muſt in proportion be ſo much the <lb/>greater. As for
+        inſtance, if 7 parts eſcape having the <lb/>Small Pox, and 10 undergo it, then 2 out of 10,
+        or 1 <lb/>out of 5, that have the Small Pox, muſt die of that <lb/>Diſeaſe. </p>
+      <p rend="indent">
+        <lb/>And as it can never be known, whether or no any <lb/>particular Perſon be one of thoſe,
+        that are to have the <lb/>Small Pox; his Hazard of dying of that Diſtemper, <lb/>being made
+        up of the Hazard of having it, and the Ha- <lb/>zard of dying of it, if he has it, will be
+        exactly the <lb/>ſame, namely, that of 2 in 17, or 1 in 8 or 9, whether <lb/>the proportion
+        of Mankind, that eſcape having the <lb/>Small Pox, be great or ſmall. </p>
+      <pb n="222"/>
+      <p rend="indent">
+        <lb/>But as what has been ſaid concerning the Hazard of <lb/>the natural Small Pox, is taken
+        from an Account of 42 <lb/>Years; whereas the Hazard of Inoculation is eſtimated <lb/>only
+        from what has happen'd in the ſpace of about 18 <lb/>Months, ſince which time it had its
+        firſt Riſe among <lb/>us; it will perhaps be asked by ſome Perſons, why <lb/>we do not
+        likewiſe make the Eſtimate of the hazard of <lb/>the natural Small Pox, from the laſt two
+        Years alone, <lb/>without running back into ſo great a number of Years, <lb/>before
+        Inoculation was begun? </p>
+      <p rend="indent">
+        <lb/>To which we anſwer, that the Proportion of thoſe <lb/>that die of the Small Pox, varies
+        ſo much in different <lb/>Years, as appears from the Tables above, that it was
+        <lb/>impoſſible to come at any Certainty in this point, from <lb/>the conſideration of the
+        two laſt Years alone: and if <lb/>any one ſuſpects us of Partiality in proceeding after the
+        <lb/>manner we have done, he need only caſt his Eyes upon <lb/>the ſecond Table, where he
+        will find, that the Morta- <lb/>lity of the natural Small Pox, for the two laſt Years,
+        <lb/>has conſiderably exceeded the Medium we have de- <lb/>termin'd, from taking in two and
+        fourty Years. </p>
+      <p rend="indent">
+        <lb/>There is another Method, which, if it were put in <lb/>practice in ſeveral large Towns,
+        or Pariſhes, and for a <lb/>ſufficient Number of Years, would enable us to come <lb/>at a
+        nearer and ſtill more certain Computation of the <lb/>Proportion between thoſe that recover,
+        and thoſe that <lb/>die of the Small Pox: which is, to ſend a careful Per- <lb/>ſon once a
+        Year, from houſe to houſe, to enquire <lb/>what Perſons have had the Small Pox, and how many
+        <lb/>have died of it, in the preceding Year. This has been <lb/>done by Dr. <hi
+          rend="italic">Nettleton</hi> the laſt Year, at ſeveral Towns <lb/>in <hi rend="italic"
+          >Yorkſhire, <hi rend="roman">&amp;c.</hi></hi> and the ſame was done at <hi rend="italic"
+          >Chicheſter</hi>
+        <lb/>for the ſame Year, to the 15th of <hi rend="italic">October</hi> laſt, by a <lb/>Perſon
+        of Credit, whoſe Account was communicated to <lb/>me by my learned and ingenious Friend, Dr.
+          <hi rend="italic">Whitaker</hi>. <pb n="223"/>
+        <lb/>Such another Account has been tranſmitted to me from <lb/><hi rend="italic">Haverford
+          Weſt</hi>, in <hi rend="italic">South Wales</hi>, by the Learned <lb/>Dr. <hi
+          rend="italic">Perrot Williams</hi>, Phyſician in that Place. The <lb/>Sum of theſe
+        Accounts is as follows. </p>
+      <space dim="vertical" quantity="1"> </space>
+      <table rows="5" cols="3">
+        <row role="label" rend="space size(0.7)">
+          <cell/>
+          <cell>Sick of the Small Pox.</cell>
+          <cell>Died.</cell>
+        </row>
+        <row>
+          <cell>Several Towns in <hi rend="italic">Yorkſhire</hi></cell>
+          <cell>— — 3405 —</cell>
+          <cell>636</cell>
+        </row>
+        <row>
+          <cell><hi rend="italic">Chicheſter</hi> — — —</cell>
+          <cell>— — 994 —</cell>
+          <cell>168</cell>
+        </row>
+        <row>
+          <cell><hi rend="italic">Haverford Weſt</hi> — —</cell>
+          <cell>— — 227 —</cell>
+          <cell>52</cell>
+          <cell/>
+        </row>
+        <row>
+          <cell/>
+          <cell>Total 4626 —</cell>
+          <cell>856</cell>
+        </row>
+      </table>
+      <p rend="indent space">
+        <lb/>From which it appears, that, upon a <hi rend="italic">Medium</hi> be- <lb/>tween theſe
+        Accounts, there died of the <hi rend="italic">Small Pox al- <lb/>moſt 19 per Cent</hi>.or
+          <hi rend="italic">nearly one in five</hi>, of Perſons of <lb/>all Ages, that underwent
+        that Diſtemper. Which is <lb/>the more to be remarked, for that <hi rend="italic">out of 82
+          Perſons</hi>, <lb/>that had the Small Pox by Inoculation, the ſame Year, <lb/>and in the
+        Neighbourhood of the ſame Places, <hi rend="italic">not one <lb/>miſcarry'd</hi>. </p>
+      <p rend="indent">
+        <lb/>Mr. <hi rend="italic">Mather</hi> obſerves, in his Letter mention'd above, <lb/>that
+          <hi rend="italic">out of more than 5000 Perſons that had the Small <lb/>Pox</hi> at <hi
+          rend="italic">Boſton</hi> in <hi rend="italic">New England, within little more <lb/>than
+          half a Year, near 900 died</hi>, which is more than <lb/>one in ſix; and this Account
+        added to thoſe from <lb/><hi rend="italic">Yorkſhire</hi>, <hi rend="italic"
+        >Chicheſter</hi>, and <hi rend="italic">Wales</hi>, reduces the Propor- <lb/>tion of thoſe
+        that die of the Small Pox to ſomewhat <lb/>more than <hi rend="italic">18 per Cent</hi>. ſo
+        that the Hazard of dying <lb/>of that Diſtemper, to thoſe who are taken ill of it, is
+        <lb/>that of <hi rend="italic">one in between five and ſix</hi>, or ſomething <lb/>above <hi
+          rend="italic">two in eleven</hi>. </p>
+      <p rend="indent">
+        <lb/>The Reſult therefore, Sir, of theſe Computations is, <lb/>that, if the ſame Proportions
+        ſhould ſtill continue, as <lb/>have hitherto been determin'd by Obſervation, we <lb/>muſt
+        expect, </p>
+      <pb n="224"/>
+      <p rend="indent">
+        <lb/>That of all the Children that are born, there will, <lb/>ſome time or other, die of the
+        Small Pox, <hi rend="italic">one in <lb/>fourteen</hi>. </p>
+      <p rend="indent">
+        <lb/>That of Perſons of all Ages taken ill of the natural <lb/>Small Pox, there will die of
+        that Diſtemper, <hi rend="italic">one in five <lb/>or ſix, or two in eleven</hi>. </p>
+      <p rend="indent">
+        <lb/>That of Perſons of all Ages inoculated, without <lb/>regard to the Healthineſs or
+        Unhealthineſs of the Sub- <lb/>ject, as was practiſed in <hi rend="italic">New England</hi>,
+        there will die <lb/><hi rend="italic">one in ſixty</hi>. </p>
+      <p rend="indent">
+        <lb/>That of Perſons inoculated with the ſame Caution <lb/>in the choice of the Subjects, as
+        has been uſed by the <lb/>ſeveral Operators one with another, here in <hi rend="italic"
+          >England</hi>, <lb/>(if we allow in the two diſputed Caſes abovemention'd, <lb/>that the
+        Perſons died of the inoculated Small Pox) <lb/>there will die <hi rend="italic">one in
+          ninety one</hi>. </p>
+      <p rend="indent">
+        <lb/>But if thoſe two Perſons be allowed to have died of <lb/>other Accidents of Diſeaſes,
+        then we have ſhall have reaſon <lb/>to think, as far as any Judgement can be made from
+        <lb/>our own Experience here in <hi rend="italic">England</hi>, that <hi rend="italic">none
+          at all</hi>
+        <lb/>will die of Inoculation, provided that proper Caution <lb/>be uſed; as we are inform'd,
+        on all hands, is the Caſe <lb/>in <hi rend="italic">Turkey</hi>: where <hi rend="italic">out
+          of many thouſands</hi>, that, in the <lb/>ſpace of about fourty Years paſt, have been
+        inoculated <lb/>in and about <hi rend="italic">Conſtantinople</hi>, by one <hi rend="italic"
+          >Greek</hi> Woman, <lb/>who ſtill continues that Practice, notwithſtanding her
+        <lb/>extreme old Age, <hi rend="italic">not ſo much as one Perſon has miſ-
+        <lb/>carried</hi>, as I am aſſured by the ingenious Dr. <hi rend="italic">le Duc</hi>,
+        <lb/>a Native of <hi rend="italic">Conſtantinople</hi>, who was himſelf inocula- <lb/>ted
+        there under the Care of his Father, an eminent <lb/>Phyſician in that City. </p>
+      <signed rend="space indent italic">
+        <lb/>I am, <hi rend="roman">&amp;c. </hi>
+        <lb/><hi rend="aling-right space"/>James Jurin. </signed>
+      <pb n="225"/>
+      <postscript>
+        <label rend="space italic align-center">
+          <lb/>POSTSCRIPT. </label>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">S</hi>INCE this Paper was drawn up and communicated <lb/>to the
+          Royal Society, the following Account of <lb/>the Succeſs of Inoculation in and about <hi
+            rend="italic">Boſton</hi>, in <hi rend="italic">New <lb/>England</hi>, was procured at
+          my Deſire, by my Inge- <lb/>nious Friend Dr. <hi rend="italic">Nesbitt</hi>, from Capt.
+            <hi rend="italic">John Osborne</hi>, <lb/>who reſided in that Town and Neighbourhood
+          during <lb/>the whole time of that Practice. I think proper to <lb/>inſert it here, as it
+          confirms the Extract given above <lb/>from Mr. <hi rend="italic">Mather</hi>'s Relation,
+          and is a more particular <lb/>Account of the Matter of Fact, than any that I have <lb/>yet
+          ſeen. </p>
+        <p rend="indent">
+          <lb/>In <hi rend="italic">May</hi>, 1721. the Small Pox was, by the Provi- <lb/>dence of
+          God, brought into the Town of <hi rend="italic">Boston</hi>; in <lb/><hi rend="italic"
+            >June</hi> it began to ſpread pretty much, and in the <lb/>Month of <hi rend="italic"
+            >July</hi> it was got into moſt parts of the Town, <lb/>and conſiderable Number of
+          People died of it. At <lb/>this time Inoculation was firſt put in practice by <lb/>Dr. <hi
+            rend="italic">Boyleſton</hi>, who then perform'd it upon his own <lb/>Child and a
+          Negro-Servant, who both did well; not- <lb/>withſtanding which, this Attempt gave great
+          Uneaſineſs <lb/>to the Neighbours. However the Practice went on, <lb/>to the Number of
+          about 40 Perſons, one of which was <lb/>a Woman <note n="*" place="bottom"
+            rend="align-center size(0.7) italic">
+            <lb/>* Mrs. <hi rend="roman">Dixwell</hi>. </note> of about 40 or 45 Years of Age, who
+          got <lb/>well over the Small Pox, as her Husband publickly <lb/>declared, but had been
+          before troubled with Hyſte- <lb/>rick Fits, of which ſhe died ſome little time after.
+          <lb/>When about 70 Perſons had paſſed under the Opera- <lb/>tion, myſelf and Wife, who had
+          hitherto been at a <lb/>Place called <hi rend="italic">Roxbury</hi>, a Mile from <hi
+            rend="italic">Boſton</hi>, went into <pb n="226"/>
+          <lb/>Town and received the Small Pox by Inoculation. We <lb/>had it with all the
+          Gentleneſs and Moderation that <lb/>was poſſible, neither of us having an hundred Pu-
+          <lb/>ſtules, or being ſenſible of any Fever worth mention- <lb/>ing; ſo that we did not
+          find it neceſſary to keep our <lb/>Beds for it. </p>
+        <p rend="indent">
+          <lb/>In <hi rend="italic">Auguſt</hi> the Small Pox in the natural Way proved <lb/>more
+          mortal, and Inoculation made a greater Progreſs, <lb/>the People continuing to come into
+          the Practice of it. <lb/>A ſecond Perſon that died after Inoculation, was an
+          <lb/>Apothecary's Houſekeeper, that was out of Town, <lb/>till an <hi rend="italic"
+            >Indian</hi> Maid got the Diſtemper in the ſame <lb/>Houſe, and remov'd, and died. Upon
+          which this Wo- <lb/>man coming to Town, her Maſter undertook to per- <lb/>form the
+          Operation upon her, which by the way was <lb/>the firſt and laſt that he ever perform'd;
+          and on the <lb/>third Day after the Inoculation, the Small Pox came <lb/>out upon her very
+          full; from which it was plain, that <lb/>ſhe had taken the Infection before, in the common
+          <lb/>way. </p>
+        <p rend="indent">
+          <lb/>The third Perſon that died after being inoculated, <lb/>was a <note n="†"
+            place="bottom" rend="size(0.7) italic">
+            <lb/>† <hi rend="roman">John White</hi>, Eſq; </note> Gentleman, that lodged in the ſame
+          Houſe <lb/>with my Wife and ſelf at <hi rend="italic">Roxbury</hi>, who was under
+          <lb/>great and extreme Infirmity of Body, as myſelf was <lb/>Witneſs, that we fear'd he
+          would have lived but a <lb/>ſhort time under it. His Friends much perſuaded him <lb/>to
+          make uſe of Inoculation, believing that it would <lb/>have carry'd off his Illneſs; but
+          when he made the Ex- <lb/>periment, he had not Strength to go thro' with it. He <lb/>was
+          about 45 Years of Age, and by the way was a <lb/>Gentleman of great Worth and Piety. </p>
+        <p rend="indent">
+          <lb/>His Siſter <note n="‡" place="bottom" rend="size(0.7) italic">‡ Mrs. <hi rend="roman"
+              >Wells</hi>. </note> was the fourth Perſon that died upon <lb/>this Operation. She was
+          about fourty Years of Age, <pb n="227"/>
+          <lb/>of great Indiſpoſition of Body, and weak, as was her <lb/>Brother. </p>
+        <p rend="indent">
+          <lb/>The fifth, that died upon Inoculation, was a Wo- <lb/>man Servant in a Houſe, where
+          the whole Family, to <lb/>the number of eight, were inoculated at the ſame time. <lb/>She
+          lay in a cold upper Room during her Illneſs, and <lb/>was much neglected, the whole Family
+          being down <lb/>together, ſo that ſhe died merely for want of a little <lb/>Attendance.
+          This was in the Town of <hi rend="italic">Roxbury</hi>, <lb/>where obſerve, that 13 Men,
+          Maſters of Families, got <lb/>the Small Pox, and all died; which inclined the People
+          <lb/>to make uſe of Inoculation, having before been much <lb/>againſt it, and there were
+          43 Men inoculated there, <lb/>who all did well. The <note n="*" place="bottom"
+            rend="align-center size(0.7) italic">
+            <lb/>* The Reverend Mr. <hi rend="roman">Walter</hi>. </note> Miniſter of the Town was
+          <lb/>the firſt, that put it in Practice there, much againſt the <lb/>Mind of his People at
+          firſt, though afterwards they <lb/>were very well pleas'd with it, ſeeing with what great
+          <lb/>Succeſs it was attended; and then whole Families came <lb/>into it, and underwent the
+          Operation. There were <lb/>in all at leaſt 280 Perſons inoculated, that I knew of,
+          <lb/>and I ſuppoſe there might be about 20 or 30 more, but <lb/>of thoſe I can give no
+          certain Account. </p>
+        <signed rend="italic space align-right">
+          <lb/>John Osborne. </signed>
+      </postscript>
+    </body>
+  </text>
+</TEI>

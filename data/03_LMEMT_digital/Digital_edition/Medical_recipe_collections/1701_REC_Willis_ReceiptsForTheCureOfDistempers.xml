@@ -1,0 +1,1684 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> LMEMT Corpus - Willis: Receipts for the Cure of all Distempers </title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>Thomas Willis</persName>
+            </author>
+            <title type="main">Dr. Willis's RECEIPTS FOR THE CURE OF ALL DISTEMPERS: Together with
+              an APPENDIX, Containing the General Forms of Prescription for Vomits, Purges,
+              Diureticks, Sudorificks, Cordials, and Opiats. Collected out of the Writings of that
+              Learned and Eminent Physician, and Faithfully Translated into English. </title>
+            <edition n="1"/>
+            <idno type="ESTC">T94625</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/T94625"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>London: printed for Thomas Leigh, and Daniel Midwinter, at the Rose and
+                  Crown, in St. Paul's Church-Yard, 1701.</persName>
+              </publisher>
+              <date>1701</date>
+            </imprint>
+            <extent>
+              <measure type="format">12⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="7"/>
+              <measure type="count" commodity="body" unit="page" quantity="226"/>
+              <measure type="count" commodity="back" unit="page" quantity="2"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">British Library</orgName>
+            <idno type="ECCO">CW107430310</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Recipe Collections"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text type="book" rend="roman" xml:lang="eng">
+    <gap reason="sampling" unit="pages" quantity="7"/>
+    <body>
+      <pb n="1"/>
+      <figure rend="space">
+        <figDesc>A horizontal double-line, spanning the whole page. </figDesc>
+      </figure>
+      <head rend="align-center">
+        <lb/><hi rend="size(3.0)">Dr. <hi rend="italic">WILLIS</hi>'s </hi>
+        <lb/><hi rend="size(4.0) space">RECEIPTS. </hi>
+      </head>
+      <figure rend="space">
+        <figDesc>A horizontal line, spanning the whole page. </figDesc>
+      </figure>
+      <div type="section">
+        <head rend="align-center size(2.0)">
+          <lb/>SECT. I. </head>
+        <head rend="align-center italic size(3.0) space">
+          <lb/>Preſcriptions for Fevers. </head>
+        <div>
+          <head rend="italic align-center space">
+            <lb/>A plain, eaſy, and effectual method for curing a <lb/>Tertian Ague, in the
+            beginning. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(4)">T</hi>AKE a gentle infuſion of Senna, Ru- <lb/>barb, yellow
+            Saunders, and ſalt of <lb/>Wormwood, in ſpring Water: next <lb/>day apply to the wriſts
+            the juice of Plan- <lb/>tane and Bay-ſalt: Obſerving a thin Diet during <lb/>the whole
+            courſe of the Diſeaſe, and Bleeding if <lb/>the Patient be of a cholerick temperament.
+          </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>An approv'd Medicine, to be taken every Morning in <lb/>a Tertian Ague. </head>
+          <p rend="indent">
+            <lb/>Take of the ſalt of Wormwood, a ſcruple, in <lb/>a ſpoonful of the juice of
+            Oranges. </p>
+        </div>
+        <pb n="2"/>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A Bolus proper to be taken at Night, in a Tertian Ague. </head>
+          <p rend="indent">
+            <lb/>Take of the Conſerve of Roſes, half a Dram; <lb/>Diaſcordium, a ſcruple; mix, and
+            make a Bolus. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb rend="italic align-center"/>An external Medicine, that by frequent Experience
+            <lb/>has cur'd many Chronical Agues. </head>
+          <p rend="indent">
+            <lb/>Take Flax and Paper, and roll them up into a <lb/>hard ball; and bind it ſo cloſe
+            to the wriſt where <lb/>the pulſe beats, that it ſtops in ſome meaſure the
+            <lb/>circulation of the blood. By this means the ap- <lb/>proaching fit is certainly
+            prevented. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A Mixture, ſucceßfully preſcrib'd for a Woman in <lb/>Childbed, under a Quotidian
+            Ague. </head>
+          <p rend="indent">
+            <lb/>Take of the magiſtral water of Earth-worms, <lb/>two ounces; Elixir Proprietatis,
+            ſix drops: mix; <lb/>and exhibit it twice a day. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>An external Medicine, experienc'd upon the ſame <lb/>occaſion. </head>
+          <p rend="indent">
+            <lb/>Take of the leaves of Pontick Wormwood, Cen- <lb/>tory, and Southernwood, and Roots
+            of Gentian, <lb/>what quantity you pleaſe; boyl all in a cover'd <lb/>veſſel with white
+            Wine. Then take the decoction, <lb/>and foment the Stomach with it; applying after the
+            <lb/>fomentation a toaſt dip'd in the ſame liquor. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>An infallible Medicine for a Quartan Ague. </head>
+          <p rend="indent">
+            <lb/>Take of the Peruvian-bark, two Drams; beat <lb/>it into powder, and infuſe it for
+            two hours in white <lb/>Wine or Sack (as the Patient's palate directs) in a <lb/>covered
+            veſſel. Let the liquor with the floating <lb/>powder be drunk up in bed, upon the
+            approach of <lb/>the fit. </p>
+        </div>
+        <pb n="3"/>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A ſweating and ſleeping Bolus, given with good effect <lb/>on the fifth day of a
+            continual putrid Fever. </head>
+          <p>
+            <lb/>Take of the Conſerve of red Roſes vitriolated, <lb/>Gaſcoign's Powder, a ſcruple;
+            Laudanum diſ- <lb/>ſolv'd in Bawm-water, a grain. Mix for a Bolus <lb/>to be taken at
+            night. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A ſweating Mixture that cur'd ſeveral of a conti- <lb/>nual Fever, when almoſt
+            given over. </head>
+          <p rend="indent">
+            <lb/>Take a dram of the Spirit of Hartshorn in a <lb/>little draught of ſome Cordial
+            Julep. By this <lb/>means a copious ſweat was rais'd; which was af- <lb/>terwards
+            continued by taking a doſe of the Pow- <lb/>der of Contrayerva every ſix hours. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A Powder, famous for curing the Malignant Epi- <lb/>demick Fever, that rag'd in the
+            year 1643. </head>
+          <p rend="indent">
+            <lb/>Take of the Powder of Toads, cleanſed with <lb/>ſalt, and afterwards waſh'd with
+            good wine, and <lb/>lightly calcin'd in an earthen Pot, half a dram; to <lb/>be given in
+            any liquor. It us'd to raiſe a moſt co- <lb/>pious ſweat, and by that means to throw off
+            the <lb/>virulency of the diſeaſe. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>An approv'd external Application, to ſecure the <lb/>Throat in the Small Pox. </head>
+          <p rend="indent">
+            <lb/>Take a bag of Saffron, dip it in womans milk, <lb/>and faſten it under the Chin. By
+            opening the Pores, <lb/>it draws the venom from the Throat. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A noted Medicine that ſtop'd a bleeding in the ſmall <lb/>Pox, when all other
+            Medicines were ineffectual. </head>
+          <p rend="indent">
+            <lb/>Take a Toad dry'd in the Sun, and pounded <lb/>put it into a bag, and hang it about
+            the neck. It <lb/>ſtops the bleeding immediately, and at the ſame <lb/>time draws out
+            the venom of the Pox. </p>
+        </div>
+        <pb n="4"/>
+        <div>
+          <head rend="italic align-center">
+            <lb/>An excellent Mixture for Childbed Fevers, attended <lb/>with a ſuppreſſion of the
+            Loches. </head>
+          <p rend="indent">
+            <lb/>Take Pennyroyal and Bawm-water, of each two <lb/>ounces; Hyſterick-water, two
+            ounces; Syrup of <lb/>Mugwort, an ounce and an half; Tincture of <lb/>Saffron, two
+            drams; Caſtor ty'd in a rag and hung <lb/>in a glaſs, a ſcruple. Mix, and exhibit three
+            or <lb/>four ſpoonfuls ſeveral times a day. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A good Medicine to be taken at night in Childbed <lb/>Fevers. </head>
+          <p rend="indent">
+            <lb/>Take of Laudanum a grain; of the Powder of <lb/>Saffron, half a ſcruple. Mix and
+            give it in a ſpoon- <lb/>ful of Treacle water. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb rend="italic align-center"/>An excellent Sudorifick in Childbed Fevers. </head>
+          <p rend="indent">
+            <lb/>Take of Oriental Bezoar ſix grains; in a ſpoon- <lb/>ful of Cordial Julep. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A ſucceßful Medicine for Women in Childbed ſeiz'd <lb/>with the Small Pox. </head>
+          <p rend="indent">
+            <lb/>Take of the Roots of Tormentil in Powder, two <lb/>drams; the beſt Bole-armenick, a
+            dram; Species <lb/>of Hyacinth, half a dram. Mix and make a Pow- <lb/>der: of which half
+            a dram is to be taken every <lb/>three hours in a ſpoonful of the following Julep. </p>
+          <p rend="indent">
+            <lb/>Take the Waters of Scordium compound, of <lb/>Dragonwort, and of Meadowſweet, of
+            each three <lb/>ounces; Vinegar of Treacle, an ounce; Syrup of <lb/>Coral, two ounces;
+            burnt Hartſhorn, half a dram. <lb/>Make a Julep. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A Powder for Epidemick Intermitting Fevers. </head>
+          <p rend="indent">
+            <lb/>Take Cream of Tartar, two drams; Powder of <lb/>Crabs-eyes, a dram; Nitre
+            putrify'd, half a dram, <pb n="5"/>
+            <lb/>Mix, and give half a dram twice a day, avoiding <lb/>the time of the fit. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>An excellent Medicine for feveriſh or aguiſh Per- <lb/>ſons, troubled with worms. </head>
+          <p rend="indent">
+            <lb/>Take of burnt Hartſhorn, two drams; Spirit of <lb/>Vitriol, as much as the powder
+            will drink up. <lb/>Doſe, one ſcruple. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>An approved Medicine, to prevent the acceſſion of <lb/>the fit, in an Epidemick
+            Ague. </head>
+          <p rend="indent">
+            <lb/>Take Cream of Tartar, Salt of Wormwood, <lb/>and Nettle-ſeeds, of each a ſcruple.
+            Mix, and give <lb/>it in the decoction of Sorrel Roots. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A Diuretick Decoction and Emulſion, of excellent <lb/>uſe in Convulſive Fevers, or
+            ſuch as diſorder <lb/>the Spirits chiefly. </head>
+          <p rend="indent">
+            <lb/>Take Roots of Scorzonera, Chervil, Grafs, and <lb/>Eringo condited, of each ſix
+            drams; one Apple <lb/>ſlic'd; Leaves of Burnet and Meadow-ſweet, of <lb/>each a handful;
+            Raiſins, an ounce and a half; <lb/>burnt Hartſhorn, two drams. Being ſlic'd and bruis'd,
+            <lb/>let them boyl on a clear fire in four pounds of <lb/>Spring-water, till a third
+            part be conſum'd. To <lb/>two pounds of clear ſtraining add of the Syrup of <lb/>the
+            Juice of Citrons or of Violets, two ounces; <lb/>Sal Prunel, a dram and a half. Make an
+            Apo- <lb/>zeme. Doſe from four ounces to ſix thrice a day. </p>
+          <p rend="indent">
+            <lb/>Or, Let the ſtraining be pour'd on fifteen ſweet <lb/>Almonds blanch; and on the
+            four cold Seeds, of <lb/>each a dram. Then bruiſe them, and make an <lb/>Emulſion
+            according to art. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>An excellent Julep for Convulſive Fevers. </head>
+          <p rend="indent">
+            <lb/>Take water of Dragonwort and of black Cher- <pb n="6"/>
+            <lb/>ries, of each three ounces; Water of Scordium <lb/>compound, two ounces;
+            Treacle-water an ounce <lb/>and an half; Syrop of Clove Gillyflowers, two <lb/>ounces;
+            Spirit of Vitriol, twelve drops. Make a <lb/>Julep. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A Diuretick Powder, of good uſe in Convulſive Fevers. </head>
+          <p rend="indent">
+            <lb/>Take of Sal Prunel, from half a dram to two <lb/>ſcruples, in ſmall beer or whey,
+            ſeveral times a day. </p>
+        </div>
+      </div>
+      <figure rend="space">
+        <figDesc>A horizontal line, spanning the whole page. </figDesc>
+      </figure>
+      <div type="section">
+        <head rend="align-center size(2.0) space">
+          <lb/>SECT. II. </head>
+        <head rend="italic align-center size(2.0) space">
+          <lb rend="italic center-align size(2.0)"/>Recipe's for an Epilepſy or the Falling
+          <lb/>Sickneſs. </head>
+        <div>
+          <head rend="italic align-center space">
+            <lb/>A Vomit to be given in the beginning of an Epilepſy, <lb/>and repeated four days
+            before full Moon, <lb/>for ſeveral Months. </head>
+          <p>
+            <lb/><hi rend="dc(2)">T</hi>Ake of Crocus Metallorum (or Mercurius Vi- <lb/>tæ) from
+            four to ſix grains; ſweet Mercury, <lb/>from ſixteen to twenty grains. Beat 'em together
+            <lb/>in a Mortar, and give it in the pap of an Apple, <lb/>or a dram of the Conſerve of
+            Borrage. Or, </p>
+          <p rend="indent">
+            <lb/>Take of the Infuſion of Crocus Metallorum (or <lb/>of Mercurius Vitæ) in Spaniſh
+            wine, from half an <lb/>ounce to an ounce. Or, </p>
+          <p rend="indent">
+            <lb/>Take of <hi rend="italic">Mynſicht</hi>'s Emetick Tartar, from four <lb/>to ſix
+            grains. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A gentle Vomit for Epileptick Children and weak <lb/>Perſons. </head>
+          <p rend="indent">
+            <lb/>Take of the Salt of Vitriol, from a ſcruple to <pb n="7"/>
+            <lb/>half a dram: and after half an hour drink ſeveral <lb/>pints of Poſſet-drink: and
+            provoke to vomit with <lb/>a quill, or the finger put into the Throat. Re- <lb/>peating
+            the ſame method ſeveral times. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>An excellent Purge for the Falling Sickneß. </head>
+          <p rend="indent">
+            <lb/>Take of the Roſin of Jalap, half a dram; ſweet <lb/>Mercury, a ſcruple; Caſtor,
+            three grains; Con- <lb/>ſerve of Peony-flowers, a dram. Make a Bolus; <lb/>to be taken
+            two days after the Vomit; and re- <lb/>peated every month four days before the New
+            <lb/>Moon. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>Purgative Pills of ſingular uſe in an Epilepſy. </head>
+          <p rend="indent">
+            <lb/>Take of the greater Pillulæ Fœtidæ, two ſcru- <lb/>ples; Roſin of Jalap, five
+            grains; With a ſufficient <lb/>quantity of Gum Ammoniac diſſolv'd in ſome Hy-
+            <lb/>ſterical water, make five Pills to be taken and re- <lb/>peated as was above
+            preſcrib'd. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A purging Powder, good in an Epilepſy. </head>
+          <p rend="indent">
+            <lb/>Take threads of black Hellebor macerated in <lb/>Vinegar, dried, and pounded, half
+            a dram; Gin- <lb/>ger, half a ſcruple; Salt of Wormwood, twelve <lb/>grains; Oyl of
+            Amber two drops. Make a Pow- <lb/>der to be given in the pap of an Apple. Or, </p>
+          <p rend="indent">
+            <lb/>Take of the compound Powder of Hermodacts, <lb/>a dram; Man's Skull, prepar'd, ſix
+            grains. Make <lb/>a Powder, to be taken in a draught of the Deco- <lb/>ction of Hyſſop
+            or Sage. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A ſimple and approv'd Specifick, for the Falling Sickneß. </head>
+          <p rend="indent">
+            <lb/>Take of the Roots of male Peony, dried and <lb/>pounded, from one to two or three
+            drams, and give <lb/>it twice a day (to the poor) in the Decoction of <lb/>Hyſſop, or of
+            Caſtor in white wine and water: or <pb n="8"/>
+            <lb/>(to thoſe who can afford it) in the following Tin- <lb/>cture. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A Tincture of ſingular uſe in en Epilepſy. </head>
+          <p rend="indent">
+            <lb/>Take Leaves of Miſletoe of the Oak, two drams; <lb/>Peony-roots ſlic'd, half an
+            ounce; Caſtor, a dram. <lb/>Put 'em in a cloſe veſſel, with Betony-water (or <lb/>ſimple
+            Peony-water) and white wine, of each a <lb/>pound; Salt of Miſletoe of the Oak, or of
+            com- <lb/>mon Miſletoe, two drams. Let 'em digeſt upon <lb/>a ſand heat for two days.
+            And give three ounces <lb/>with every Doſe of the Powder preſcrib'd but <lb/>now. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A Bag, that cures the Falling Sickneß by being <lb/>worn on the pit of the Stomach. </head>
+          <p rend="indent">
+            <lb/>Take Roots and Seeds of male Peony, of each <lb/>two drams; Miſletoe of the Oak,
+            Elk's-hoof, of <lb/>each a dram. Slice them, and bruiſe 'em. Then, <lb/>ſew 'em up in a
+            very fine linnen bag to be hung <lb/>about the neck. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A Specifick Powder for the Falling Sickneß, recom- <lb/>mended by all Authors. </head>
+          <p rend="indent">
+            <lb/>Take Caſtor, Opopanax, Dragon's blood, An- <lb/>timony, and Peony-ſeeds, of each an
+            equal quan- <lb/>tity: Make a Powder; of which take from half a <lb/>dram to a dram
+            every morning in Wine or Black- <lb/>cherry-water. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A Powder, uſeful in an Epilepſy. </head>
+          <p rend="indent">
+            <lb/>Take of Man's Scull prepar'd, an ounce; Miſle- <lb/>toe of the Oak, artificial
+            Cinnabar, and Elk's- <lb/>hoof, of each half an ounce. Mix and make a <lb/>Powder, to be
+            given from half a ſcruple to a ſcruple. </p>
+        </div>
+        <pb n="9"/>
+        <div>
+          <head rend="italic align-center">
+            <lb/>An Anti-Epileptick Electuary, calculated for thoſe <lb/>who have an Averſion to
+            Powders. </head>
+          <p rend="indent">
+            <lb/>Take the Conſerves of male Peony and of Lil- <lb/>lies of the Valley, of each three
+            ounces; the Seeds <lb/>and Roots of male Peony in Powder, of each two <lb/>drams;
+            prepar'd Coral, a dram; Powder of Pearl <lb/>and Man's Skull prepar'd, of each two
+            ſcruples; <lb/>Salt of Miſletoe of the Oak, a dram and a half. <lb/>With a ſufficient
+            quantity of the Syrup of Coral <lb/>make an Electuary: of which take the quantity
+            <lb/>of a Nutmeg morning and evening. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A Confection, of good uſe in the Falling Sickneß. </head>
+          <p rend="indent">
+            <lb/>Take of the Roots of male Peony pounded, an <lb/>ounce; Peony-ſeeds, half an ounce;
+            Miſletoe of <lb/>the Oak, Elk's-hoof, and Man's Skull prepar'd, <lb/>of each two drams;
+            Roots of Angelica, Contra- <lb/>yerva, and Virginian Snakeweed, of each a dram;
+            <lb/>white Amber, Coral calcin'd, of each a dram; <lb/>Salt of Common Miſletoe, two
+            drams; Su- <lb/>garcandy diſſolv'd in <hi rend="italic">Langius</hi>'s Epileptick-water,
+            <lb/>eight ounces. Make a Confection, of which take <lb/>the bigneſs of a Nutmeg twice a
+            day. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>Specifick Pills for the Falling Sickneß. </head>
+          <p rend="indent">
+            <lb/>Take the Powders preſcrib'd in the above-men- <lb/>tion'd Confection, add to them a
+            convenient quan- <lb/>tity of Salt of Amber and Hartſhorn; and with <lb/>Balſam Capaivi
+            make a maſs for Pills: of which <lb/>take three or four morning and evening, drinking
+            <lb/>above 'em a draught of ſome appropriate Liquor. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>An excellent Elixir for the Falling Sickneß. </head>
+          <p rend="indent">
+            <lb/>Take of Hungarian Vitriol, ſix pound. Diſtil <lb/>in a glaſs Retort with a ſand
+            heat for 24 hours; <lb/>then let the ſame Retort luted with a large Recei- <lb/>ver, be
+            put in a Reverberatory Fornace, that the <pb n="10"/>
+            <lb/>acid Spirits may be diſlodg'd by a ſtrong fire. Let <lb/>the whole Liquor diſtill'd
+            be drawn off in a leſſer <lb/>glaſs Retort with a ſand heat. Put that into a
+            <lb/>matraſs, adding to it Roots of male Peony cut in- <lb/>to ſlices and dried, four
+            ounces; Peony-ſeeds, and <lb/>ounce; Man's Skull prepar'd, Elk's-hoof, and red
+            <lb/>Coral, of each half an ounce; Miſletoe of the <lb/>Oak, two drams. Let 'em digeſt
+            upon a gentle <lb/>heat for ſeveral days, till a Tincture be extracted. <lb/>Then decant
+            the liquor, and draw it off in a glaſs <lb/>Retort till a third part only remains,
+            keeping the <lb/>liquor thus diſtill'd by it ſelf. To what remains <lb/>pour an equal
+            quantity of the moſt rectified Spi- <lb/>rit of Wine impregnated with an infuſion of the
+            <lb/>ſame ingredients; and let 'em digeſt for ſix days <lb/>in Horſe-dung. Make an
+            Elixir to be given from <lb/>half a ſcruple to a ſcruple: Let the diſtill'd liquor
+            <lb/>alſo be given from half a ſpoonful to a ſpoonful. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>An Empyrical Medicine, experimented in the Fal- <lb/>ling Sickneß. </head>
+          <p rend="indent">
+            <lb/>Take Roots and Seeds of Peony, of each two <lb/>drams; Elk's-hoof, and Man's Skull
+            prepar'd, of <lb/>each a dram; Miſletoe of the Oak, half a dram. <lb/>Pound 'em coarſly,
+            and ſew them up in a red ſilk <lb/>bag to be hung about the neck. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>An Amulet, much commended againſt the Falling <lb/>Sickneß. </head>
+          <p rend="indent">
+            <lb/>Take the young ſhoot of an Elder, found grow- <lb/>ing on a Willow, and keep it
+            about you for a <lb/>preſervative from the Falling Sickneſs. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A Plaiſter for the Head, of good uſe for the Falling <lb/>Sickneſs. </head>
+          <p rend="indent">
+            <lb/>Take Roots and Seeds of Peony, Caſtor, Miſletoe <pb n="11"/>
+            <lb/>of the Oak, Man's Skull pounded very fine, of <lb/>each a dram; Betony Plaiſter,
+            two drams; Caran, <lb/>Tacamahac, of each two drams. With a ſuffici- <lb/>ent quantity
+            of Balſam Capaivi make a Plaiſer, <lb/>to be ſpread on leather and apply'd to the
+            Sutures <lb/>of the Head, after it is ſhav'd. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>An external Medicine approv'd in the Falling Sickneß. </head>
+          <p rend="indent">
+            <lb/>Take the Oyl of Amber, either by it ſelf, or <lb/>mix'd with Oleum Capaivi, and
+            anoint the Tem- <lb/>ples and Noſtrils often. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A ſneezing Powder approv'd in the Falling Sickneß. </head>
+          <p rend="indent">
+            <lb/>Take of white Hellebor, a dram; Caſtor and <lb/>Euphorbium, of each half a dram;
+            ſweet Mar- <lb/>joram and Leaves of Rue, of each two drams. <lb/>Make a Powder to be
+            ſnuff'd up the N<unclear>oſe.</unclear>
+          </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A Gargal for the Falling Sickneß. </head>
+          <p rend="indent">
+            <lb/>Take the Decoction of Sage or of Hyſſop. <lb/>Diſſolve it in the Confection of
+            Muſtard-ſeed; <lb/>and gargal it in the Mouth and Throat. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A diſtill'd Water, to be drunk after the taking of <lb/>the Powders preſcrib'd
+            above. </head>
+          <p rend="indent">
+            <lb/>Take of Hungarian Vitriol, four pound; freſh <lb/>Man's Skull pounded, four ounces;
+            Peony Roots <lb/>ſlic'd, ſix ounces. Bruiſe all in a Mortar, and pour <lb/>to them two
+            pounds of Sack, or ſmall white wine, <lb/>or wine made of the juice of Black-cherries
+            fer- <lb/>mented in a Cask. Then diſtill in a glaſs Retort <lb/>with a ſand heat. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A Water for the Falling Sickneß. </head>
+          <p rend="indent">
+            <lb/>Take Raſpings of Box-wood and Hungarian <lb/>Vitriol, of each two pounds; Leaves of
+            Miſletoe, <pb n="12"/>
+            <lb/>three handfuls; Leaves of Rue, two handfuls. <lb/>Bruiſe 'em together, and pour on
+            four pounds of <lb/>Sack. Diſtil in a glaſs Cucurbit with a ſand heat. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A Julep, recommended for the Falling Sickneß. </head>
+          <p rend="indent">
+            <lb/>Take of common Vitriol, ſix pounds; Roots <lb/>of male Peony, ſix ounces; Miſletoe
+            of the Oak <lb/>an ounce; green Walnuts, eight ounces. Slice 'em, <lb/>and bruiſe 'em
+            together. Then diſtil with a ſand <lb/>heat in a glaz'd Pot with a glaſs Alembick over
+            <lb/>it. Take a pint of this liquor; Waters of Black- <lb/>cherries and Lime-tree
+            flowers, of each half a <lb/>pound; of the whiteſt Sugar, four ounces. Make <lb/>a
+            Julep. Of which take two or three ounces <lb/>twice or thrice a day. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A Medicine, cry'd up by the Ancients for the Fal- <lb/>ling Sickneß. </head>
+          <p rend="indent">
+            <lb/>Take of Oxymel of Squills, or Mead with Hyſ- <lb/>ſop boyl'd in it, four or ſix
+            ounces twice or thrice a <lb/>day. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>An approv'd Decoction for the Falling Sickneß. </head>
+          <p rend="indent">
+            <lb/>Take Roots of male Peony, Angelica, Maſter- <lb/>wort, and Valerian, of each ſix
+            drams; Leaves <lb/>of Betony, Sage, Lillies of the Valleys, and Penny- <lb/>royal, of
+            each a handful; Seeds of Rue and Gith, <lb/>of each three drams; Peony, half an ounce;
+            Rai- <lb/>ſins, three ounces; Liquorice, half an ounce. Be- <lb/>ing ſlic'd and bruis'd,
+            boyl them in ſix pounds of <lb/>Spring-water, till a third part is conſum'd. To-
+            <lb/>wards the end of the Decoction, add half a pound <lb/>or ten ounces of the wine of
+            Black-cherries. Strain <lb/>out the liquor, and reſerve it for uſe in cloſe veſſels.
+            <lb/>Take of this Apozeme 6 or 8 ounces twice a day. </p>
+        </div>
+        <pb n="13"/>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A ſimple Medicine, that has cur'd many of the Falling <lb/>Sickneß, when other
+            Remedies prov'd ineffectual. </head>
+          <p rend="indent">
+            <lb/>Take of the ſimple Decoction of Guaicum, ſix <lb/>or eight ounces, twice a day. And
+            drink a ſecond <lb/>weaker Decoction for common drink. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>An effectual method of curing an inveterate Falling <lb/>Sickneß. </head>
+          <p rend="indent">
+            <lb/>Take ſweet Mercury till it raiſes a Salivation: <lb/>and after the Salivation is
+            over, let a Sudorifick Diet- <lb/>drink be made uſe of. </p>
+        </div>
+      </div>
+      <figure rend="space">
+        <figDesc>A horizontal line, spanning the whole page. </figDesc>
+      </figure>
+      <div type="section">
+        <head rend="align-center size(2.0) space">
+          <lb/>SECT. III. </head>
+        <head rend="italic align-center size(2.0) space">
+          <lb/>Receipts for Convulſive Motions in Children. </head>
+        <div>
+          <head rend="italic align-center space">
+            <lb/>A Preſervative from Convulſions, for New-born <lb/>Infants. </head>
+          <p>
+            <lb/><hi rend="dc(2)">T</hi>Ake a drop of the Oyl of Amber, or half a <lb/>ſpoonful of
+            ſome Epileptick water: and give <lb/>it to the New-born Infant, twice a day. On the
+            <lb/>third or fourth day cut an Iſſue in its Neck; and <lb/>if its Countenance be
+            florid, take an ounce and a <lb/>half or two ounces of Blood out of the Jugular
+            <lb/>Veins by Leeches. Anoint its Temples and Neck <lb/>with a Liniment, of the Oyl of
+            Nutmegs by expreſ- <lb/>ſion, two drams; Oyl Capaivi, four drams; and <lb/>Amber, a
+            ſcruple. At the ſame time hang about <lb/>its Neck, a bag with the Roots and Seeds of
+            Peo- <lb/>ny, and a little Elk's-hoof. </p>
+        </div>
+        <pb n="14"/>
+        <div>
+          <head rend="italic align-center">
+            <lb/>An excellent Electuary, to be taken by the Nurſe, <lb/>to prevent Convulſions in
+            the Child. </head>
+          <p rend="indent">
+            <lb/>Take Conſerve of the flowers of Betony, of male <lb/>Peony, and of Roſemary
+            flowers, of each two <lb/>ounces; Powder of the roots and flowers of male <lb/>Peony, of
+            each two drams; red Coral prepar'd, <lb/>and the whiteſt Amber, of each a dram; roots of
+            <lb/>Angelica and Zedoary prepar'd, of each half a <lb/>dram. With a ſufficient quantity
+            of the Syrup of <lb/>Peony, make an Electuary; of which let the Nurſe <lb/>take the
+            quantity of a Nutmeg morning and even- <lb/>ing. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>Tablets taken with good ſucceſs by Nurſes, to prevent <lb/>Convulſions in Children. </head>
+          <p rend="indent">
+            <lb/>Take of the roots of male Peony, two drams; <lb/>Peony-ſeeds, a dram. Make a
+            Powder; to be <lb/>made into Tablets with a ſcruple of the Oyl of <lb/>Amber, and three
+            ounces of fine loaf Sugar diſ- <lb/>ſolv'd in the water of Lime-tree flowers, and boyl'd
+            <lb/>to a due conſiſtency. Let the Nurſe eat one of <lb/>theſe, weighing half a dram,
+            every ſixth hour. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>An uſeful Liniment for Children in Convulſions. </head>
+          <p rend="indent">
+            <lb/>Take the Oyl of Capaivi and of Caſtor, of each <lb/>two drams; Oyl of Amber, half a
+            dram. Make a <lb/>Liniment, to be anointed on the Temples, Noſtrils <lb/>and Neck of the
+            Child. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A Plaiſter, of good uſe in Children's Convulſions. </head>
+          <p rend="indent">
+            <lb/>Take of the Plaiſter Oxycroceum, two parts; <lb/>Galbanum diſſolv'd, one part; Oyl
+            of Amber, a <lb/>ſcruple. Make a Plaiſter to be apply'd to the ſoles <lb/>of the Child's
+            feet. </p>
+        </div>
+        <pb n="15"/>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A Powder approv'd in Childrens Convulſions. </head>
+          <p rend="indent">
+            <lb/>Take of Man's Skull prepar'd, Peony-ſeeds, Elk's- <lb/>hoof, and Pearl prepar'd, of
+            each half a dram; <lb/>Amber-griſe, ſix grains. Make a Powder: and give <lb/>the Child
+            ſix grains, three or four times a day, in a <lb/>ſpoonful of the following Liquor. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A Julep for a Vehicle to the Powders. </head>
+          <p rend="indent">
+            <lb/>Take of Black-cherry-water, three ounces; <hi rend="italic">Lan- <lb/>gius</hi>'s
+            Epileptick water, an ounce; pearl'd Sugar, <lb/>two drams. Mix. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A Powder for Childrens Convulſions. </head>
+          <p rend="indent">
+            <lb/>Take of Man's Skull prepar'd and Pearl, of each <lb/>half a dram; Salt of Amber, a
+            ſcruple; pearl'd <lb/>Sugar, a dram. Doſe half a ſcruple. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>Drops, of ſovereign uſe for Convulſions in Children. </head>
+          <p rend="indent">
+            <lb/>Take three drops of the Spirit of Hartſhorn e- <lb/>very ſixth or eighth hour in a
+            ſpoonful of the Julep <lb/>preſcrib'd above. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>An eaſy Medicine for the Poor, againſt Childrens <lb/>Convulſions. </head>
+          <p rend="indent">
+            <lb/>Take of the Powder of the root of wild Vale- <lb/>rian, from half a ſcruple to a
+            ſcruple. Give it twice <lb/>a day in a ſpoonful of Milk, or ſome proper liquor. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A famous Medicine, often experimented in the <lb/>Convulſions of Children. </head>
+          <p rend="indent">
+            <lb/>Take all the gall contain'd within the Gall-blad- <lb/>der of a ſucking Whelp; and
+            give it to the Child <lb/>with the water of Lime-tree flowers. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A diſtill'd Water, for Convulſions in Children. </head>
+          <p rend="indent">
+            <lb/>Take of the roots of male Peony, freſh, and cut <pb n="16"/>
+            <lb/>into ſlices, ſix ounces; Hungarian Vitriol, eight <lb/>ounces; Man's Skull, two
+            ounces; <hi rend="italic">Langius</hi>'s Epi- <lb/>leptick water, half a pound. Mix and
+            diſtil in a <lb/>glaſs Retort with a ſand heat. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A ſovereign Juice for Convulſions in Children. </head>
+          <p rend="indent">
+            <lb/>Take of the roots of male Peony, freſh, and <lb/>ſlic'd four ounces. Bruiſe them in
+            a marble mor- <lb/>tar, and pour upon them a pound of Sack. Then <lb/>make a ſtrong
+            expreſſion, to which add half an <lb/>ounce of pearl'd Sugar. Reſerve it for uſe in a
+            cloſe <lb/>glaſs. Doſe, a ſpoonful or two, twice a day. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A ſucceßful Medicine, for Convulſions in Chil- <lb/>dren occaſion'd by Worms. </head>
+          <p rend="indent">
+            <lb/>Take of the Powder of the roots of Virginian <lb/>Snakeweed, a dram; Coral calcin'd
+            till it becomes <lb/>white, half a dram. Doſe, from half a ſcruple to <lb/>a ſcruple
+            twice a day for three days together, (a <lb/>Purge of Mercurius Dulcis and Roſin of
+            Jalap be- <lb/>ing premis'd) drinking after it the Decoction of <lb/>Graſs-roots. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A Plaiſter for the Belly, in the Convulſions of Chil- <lb/>dren occaſion'd by
+            Worms. </head>
+          <p rend="indent">
+            <lb/>Take of the Species of Hiera, a dram and a <lb/>half; Venice Treacle, two drams.
+            Make a Plai- <lb/>ſter to be apply'd to the Belly. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A Fomentation, of good uſe, in the Convulſions of <lb/>Children, occaſion'd by
+            ſharp humours in the <lb/>Stomach and Guts. </head>
+          <p rend="indent">
+            <lb/>Take of the leaves of Chamomile ſlic'd ſmall, <lb/>three handfuls; put 'em into two
+            bags of fine lin- <lb/>nen or ſilk: which being dipt in warm Milk and <lb/>ſqueez'd, are
+            to be apply'd by turns to the Belly. </p>
+        </div>
+        <pb n="17"/>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A Cataplaſm, uſeful on the ſame occaſion. </head>
+          <p rend="indent">
+            <lb/>Take the tops or flowers of Mallows ſlic'd; boyl <lb/>them in freſh Butter or
+            Hogs-lard; and let them be <lb/>applied to the Belly in the form of a Cataplaſm or
+            <lb/>Liniment. </p>
+        </div>
+      </div>
+      <figure rend="space">
+        <figDesc>A horizontal line, spanning the whole page. </figDesc>
+      </figure>
+      <div type="section">
+        <head rend="align-center size(2.0) space">
+          <lb/>SECT. IV. </head>
+        <head rend="italic align-center size(2.0) space">
+          <lb/>Recipe's for Convulſions and Cramps in <lb/>Adult Perſons. </head>
+        <div>
+          <head rend="italic align-center space">
+            <lb/>A proper Purge for Convulſions, in which the origine <lb/>and ſource of the Nerves
+            is chiefly affected. </head>
+          <p>
+            <lb/><hi rend="dc(2)">T</hi>Ake of <hi rend="italic">Crato</hi>'s Pills of <hi
+              rend="italic">Amber</hi>, or <hi rend="italic">Bontius</hi>'s Pills <lb/>of Tartar,
+            two drams; Roſin of Jalap, ſixteen <lb/>grains; Caſtor, a ſcruple; Oyl of Roſemary, or
+            <lb/>Oyl of Amber, half a ſcruple. With a ſufficient <lb/>quantity of Gum Ammoniack
+            diſſolv'd in Hyſteri- <lb/>cal water, make ſixteen Pills, of which four are to <lb/>be
+            taken every ſixth or ſeventh day; vomiting <lb/>and bleeind being premis'd. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A purging Decoction, proper on the ſame occaſion. </head>
+          <p rend="indent">
+            <lb/>Take Roots of Polipody of the Oak, ſharp <lb/>pointed Dock prepar'd, and Chervil,
+            of each ſix <lb/>drams; roots of male Peony, three drams; leaves <lb/>of Betony,
+            Germander, Ground-pine, Vervain, and <lb/>male Fluellin, of each a handful; Seeds of
+            Baſtard- <lb/>Saffron and Burr-dock, of each three drams. Boyl <lb/>all in four pints of
+            Spring-water till the half is con- <lb/>ſum'd. Then add a pint of white Wine. Strain <pb
+              n="18"/>
+            <lb/>it out into a Matrace: to which put, of the beſt <lb/>Senna leaves, an ounce;
+            Rhubarb ſix drams; <lb/>Gummy Turbith, half an ounce; Epithymum, <lb/>yellow Saunders,
+            of each two drams; Salt of <lb/>Wormwood and of Scurvy-graſs, of each a dram; <lb/>the
+            yellow coats of Oranges, two drams. Let 'em <lb/>ſtand in a cloſe Digeſtion for twelve
+            hours with a <lb/>ſand heat. Reſerve the ſtraining for uſe; and, if <lb/>there be
+            occaſion, ſweeten it with a ſufficient quan- <lb/>tity of Syrup Augnſtanus, or of the
+            Syrup of <lb/>Cichory with Rhubarb. Doſe, ſix ounces, once or <lb/>twice a week. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A Specifick againſt Convulſions, calculated for Per- <lb/>ſons of a hot thin
+            Conſtitution; in whom <lb/>the origine of the Nerves is affected. </head>
+          <p rend="indent">
+            <lb/>Take of the Conſerve of the flowers of Betony, <lb/>Tamarisk, and male Peony, of
+            each two ounces; <lb/>Species Diamargariton frigidæ, a dram and a half; <lb/>Peony roots
+            and ſeeds, in Powder, of each a dram; <lb/>red Coral prepar'd, two drams; Vitriol of
+            Steel, <lb/>two ſcruples; Salt of Wormwood, two drams; <lb/>Juice of Oranges, what
+            ſuffices. Make an Ele- <lb/>ctuary, to be taken (to the bigneſs of a Nutmeg) <lb/>twice
+            or thrice a day; drinking after it a draught <lb/>of the following Julep. </p>
+          <p rend="indent">
+            <lb/>Take the water of Walnuts, ſimple, and Black- <lb/>cherry-water, of each half a
+            pound; Water of Snails, <lb/>three ounces; Syrup of male Peony flowers, two <lb/>ounces.
+            Make a Julep: Doſe from an ounce and <lb/>a half to two ounces. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A Specifick Powder for ſuch Convulſions in a hot <lb/>thin temperament. </head>
+          <p rend="indent">
+            <lb/>Take of red Coral, ground with the juyce of O- <lb/>ranges on a marble or in a
+            glaſs mortar, and dried, <pb n="19"/>
+            <lb/>half an ounce; Powder of Miſletoe of the Oak, <lb/>and of the roots of male Peony,
+            of each two drams; <lb/>Sugar of Pearl, three drams. Make a Powder, and <lb/>take from a
+            ſcruple to half a dram, twice or thrice <lb/>a day. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>Another Powder for the ſame purpoſe. </head>
+          <p rend="indent">
+            <lb/>Take of the Species of Diamargariton frigidæ, <lb/>two drams; Salt of Wormwood,
+            three drams; Aron <lb/>roots in powder, a dram. Mix, and make a powder <lb/>to be
+            divided into twenty parts: of which take one <lb/>in the morning, and at four of the
+            clock after noon. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A plain cheap Powder, for Convulſions in a hot <lb/>thin temperament; relating
+            chiefly to the <lb/>origine of the Nerves. </head>
+          <p rend="indent">
+            <lb/>Take of the roots of Butter-burr in Powder, <lb/>an ounce. Doſe, from half a dram
+            to a dram <lb/>twice a day. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A diſtill'd Water, recommended for ſuch Convulſions <lb/>in a hot thin temperament. </head>
+          <p rend="indent">
+            <lb/>Take the leaves of Burr-dock and Aron, of each <lb/>ſix handfuls. Slice 'em, and
+            mix 'em together. <lb/>Then diſtil. Doſe, two or three ounces, to be ta- <lb/>ken after
+            every doſe of the Powders or Electuary <lb/>above preſcrib'd. To better it, you may add
+            two <lb/>drams of our Steel prepar'd, to two pounds of the <lb/>Water. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>An Apozem, for the Convulſions of Perſons of a hot <lb/>thin Conſtitution. </head>
+          <p rend="indent">
+            <lb/>Take ſhavings of Ivory and Hartſhorn, of each <lb/>three drams; roots of Chervil,
+            Burdock and Va- <lb/>lerian, of each half an ounce; leaves of Betony, <pb n="20"/>
+            <lb/>Ground-pine, Scolopendrium, and tops of Tama- <lb/>risk, of each a handful; Barks
+            of Tamarisk and <lb/>Bitter-ſweet, of each half an ounce. Boyl 'em in <lb/>four pounds
+            of Spring-water, till a third be con- <lb/>ſum'd. Then add eight ounces of white Wine.
+            <lb/>Strain it into a flaggon, to which put leaves of <lb/>Brooklime and Cuckow-flower,
+            of each a hand- <lb/>ful. Let all ſtand in a hot cloſe Infuſion for four <lb/>hours;
+            then reſerve the ſtraining in glaſſes cloſe <lb/>ſtopt. Doſe, ſix ounces twice a day,
+            after the <lb/>Powders or Electuaries. Sometimes you may in- <lb/>fuſe two drams of our
+            Steel in it; and exhibit it <lb/>in the ſame manner. And in the Summer time ex-
+            <lb/>change it with the Mineral Spaws. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A Specifick Electuary for Convulſions proceeding <lb/>from the origine of the
+            Nerves in a phleg- <lb/>matick, cold, fat, conſtitution. </head>
+          <p rend="indent">
+            <lb/>Take Conſerve of Roſemary-flowers, and of the <lb/>yellow coats of Oranges and
+            Limons, of each two <lb/>ounces; Walnuts and Myrobalans, condited, of <lb/>each two in
+            number; Aloes-wood, yellow Saun- <lb/>ders, roots of Snakeweed, Contrayerva, Angelica,
+            <lb/>and Aron, of each a dram; Vitriol of Mars or <lb/>prepar'd Steel, four ſcruples;
+            Salt of Wormwood <lb/>and of Scurvy-graſs, of each a dram. With a <lb/>ſufficient
+            quantity of Preſerve of Walnuts, make an <lb/>Electuary; of which take the quantity of a
+            Nut- <lb/>meg twice a day. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>Tablets, of good uſe againſt Convulſions of the <lb/>ſame kind. </head>
+          <p rend="indent">
+            <lb/>Take roots of male Peony, Angelica, red Coral <lb/>prepar'd, of each two drams;
+            Sugar diſſolv'd in <lb/>Snail-water and boyl'd up to the Conſiſtency of <pb n="21"/>
+            <lb/>Tablets, ſix ounces; Oyl of Amber highly recti- <lb/>fied, half a dram. Make
+            Tablets weighing half a <lb/>dram a piece: of which one or two are to be ta- <lb/>ken
+            twice or thrice a day, drinking after 'em a doſe <lb/>of ſome convenient liquor. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>Specifick Pills for Convulſions from the origine of <lb/>the Nerves in a cold
+            temperament. </head>
+          <p rend="indent">
+            <lb/>Take roots of Virginian Snakeweed, Contra- <lb/>yerva, and Valerian, of each two
+            drams; prepar'd <lb/>red Coral and Pearl, of each a dram; Winter's- <lb/>bark and roots
+            of Baſtard-Dittany, of each a dram; <lb/>Vitriol of Mars, Salt of Wormwood, of each a
+            <lb/>dram and a half; Extract of Centory, two drams; <lb/>Gum Ammoniack diſſolv'd in
+            Hyſterical-water, <lb/>what ſuffices. Make a maſs for Pills; four of which <lb/>are to
+            be taken in the morning, and at four in the <lb/>afternoon. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>Drops, very proper on the ſame occaſion. </head>
+          <p rend="indent">
+            <lb/>Take of the Spirit of Hartſhorn, or of Soot, or of <lb/>Man's blood, or of Sal
+            Armoniack, from ten to <lb/>twelve drops, morning and evening, in a ſpoonful <lb/>of the
+            following Julep. </p>
+          <p rend="indent">
+            <lb/>Take Water of Earth-worms and of Snails, of <lb/>each four Ounces; Water of Walnuts
+            ſimple, four <lb/>ounces; Radiſh-water compound, two ounces; <lb/>double refin'd Sugar,
+            two ounces. Make a Julep. <lb/>Doſe, two or ſix ſpoonfuls twice a day. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>An excellent diſtill'd Water, for Convulſions, from the <lb/>origine of the Nerves
+            in a cold Conſtitution. </head>
+          <p rend="indent">
+            <lb/>Take leaves of Betony, Vervain, Sage, Cuckow- <lb/>flowers, Aron, Burdock, of each
+            two handfuls; <lb/>green Walnuts, in number twenty; ſix coats of <pb n="22"/>
+            <lb/>Oranges, and four of Limons; Cardamum and <lb/>Cubebs, of each a dram. Being ſlic'd
+            and bruis'd, <lb/>pour to 'em ſix pounds of whey made with Syder <lb/>or white Wine.
+            Then diſtil according to Art. Doſe, <lb/>two or three ounces twice a day, after every
+            Pow- <lb/>der or Bolus. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A ſtronger diſtill'd Water for Convulſions in a cold <lb/>Conſtitution. </head>
+          <p rend="indent">
+            <lb/>Take of Hoglice clean'd, a pound; Cloves ſlic'd, <lb/>half an ounce; pour to them
+            two pounds of white <lb/>Wine; and diſtil in a glaſs Cucurbit. Doſe, an <lb/>ounce twice
+            a day. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A Specifick Medicine for Convulſions, of eaſy and <lb/>cheap preparation, for the
+            Poor. </head>
+          <p rend="indent">
+            <lb/>Take of the Conſerve of the leaves of Rue, (or <lb/>of the leaves of the Tree of
+            Life) made with an e- <lb/>qual part of Sugar, ſix ounces. Take the quantity of <lb/>a
+            Nutmeg twice a day, drinking after it the Deco- <lb/>ction of the Seeds and Roots of
+            Burdock boyl'd in <lb/>Whey and white Wine. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A Specifick Powder and Juice for the Poor. </head>
+          <p rend="indent">
+            <lb/>Take the Powder of Hoglice prepar'd, three <lb/>drams; Aniſeſeeds, a dram. Make a
+            Powder to <lb/>be divided into ten parts; taking one of 'em twice <lb/>a day.—Or, Bruiſe
+            twelve Hoglice in white <lb/>Wine, and expreſs the Juice to be taken twice a <lb/>day.
+          </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A ſucceßful Medicine, for Convulſions occaſion'd by <lb/>a ſcorbutick diſpoſition
+            of the nervous Juice. </head>
+          <p rend="indent">
+            <lb/>Take of the Sulphur of Antimony, ſix grains; <lb/>ſweet Mercury, a ſcruple; Roſin
+            of Jalap, four <lb/>grains; Ginger, ſix grains. Beat them together in <pb n="23"/>
+            <lb/>a marble Mortar. With a dram of the Conſerve <lb/>of Violets make a Bolus to be
+            repeated every ſixth <lb/>or ſeventh hour. It uſes to give two or three Vo- <lb/>mits,
+            and three or four ſtools. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>Pills, preſcrib'd with good ſucceſs, for Convulſions a- <lb/>riſing from a
+            ſcorbutick diſpoſition of the ner- <lb/>vous Juice. </head>
+          <p rend="indent">
+            <lb/>Take of the roots of male Peony, half an ounce; <lb/>Virginian Snakeweed,
+            Contrayerva, and Baſtard- <lb/>Dittany, of each two drams; Man's Skull prepar'd, <lb/>a
+            dram and a half; Elk's-hoof, two drams; red <lb/>Coral prepar'd and Pearls in powder, of
+            each half <lb/>a dram; Salt of Wormwood, two drams; Salt of <lb/>Coral, a dram; Syrup of
+            the flowers of male Peo- <lb/>ny, what ſuffices to make a maſs for Pills: four of
+            <lb/>which are to be taken twice a day, drinking after <lb/>them a draught of the
+            following Julep. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A Julep, experienc'd in the ſame caſe. </head>
+          <p rend="indent">
+            <lb/>Take Water of the flowers of male Peony, of <lb/>black Cherries, and of Walnuts, of
+            each four oun- <lb/>ces; <hi rend="italic">Langius</hi>'s Epileptick-water, two ounces;
+            Sy- <lb/>rup of Peony-flowers, an ounce and a half; Caſtor <lb/>ty'd in a bag and hung
+            in the glaſs, a dram. Make <lb/>a Julep. To a draught of which you may add a <lb/>doſe
+            of the Spirit of Hartſhorn. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A proper Julep for Hyſterical Convulſions, or <lb/>Fits of the Mother. </head>
+          <p rend="indent">
+            <lb/>Take Pennyroyal and Mugwort-water, of each <lb/>four ounces; Briony-water compound,
+            two ounces; <lb/>Caſtor ty'd in a bag and hung up in the glaſs, half <lb/>a dram; double
+            refin'd Sugar, an ounce. Mix and <lb/>make a Julep: adding to every draught twenty
+            <lb/>drops of the Spirit of Hartſhorn. </p>
+        </div>
+        <pb n="24"/>
+        <div>
+          <head rend="italic align-center">
+            <lb/>Drops, commended in Fits of the Mother. </head>
+          <p rend="indent">
+            <lb/>Take of the Tincture of Caſtor, from a ſcruple <lb/>to half a dram; in a draught of
+            ſmall beer. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>An excellent Tincture for Hyſterick Convulſions. </head>
+          <p rend="indent">
+            <lb/>Take of Aſſa fœtida or Galbanum, two ounces. <lb/>Diſſolve 'em in Spirit of Wine,
+            till a red Tincture <lb/>is extracted: a ſcruple of which is to be taken in <lb/>two or
+            three ſpoonfuls of Mugwort-water. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A Medicine for Fits of the Mother, mightily cry'd <lb/>up by <hi rend="roman"
+              >Riverius</hi>. </head>
+          <p rend="indent">
+            <lb/>Take Musk and Dragons-blood, of each a ſcru- <lb/>ple; in three or four ounces of
+            Water of Navews. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A Medicine, accounted by ſome infallible in Fits <lb/>of the Mother. </head>
+          <p rend="indent">
+            <lb/>Take the Seeds of Parſnips or of Columbines in <lb/>Wine or ſome proper Water. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A proper Purge in Hyſterical Caſes. </head>
+          <p rend="indent">
+            <lb/>Take of the greater fetid Pills, a dram; Roſin of <lb/>Jalap, twelve grains; Tartar
+            vitriolar and Caſtor, <lb/>of each a ſcruple; with a ſufficient quantity of Gum
+            <lb/>Ammoniack diſſolv'd in Hyſterical-water, make <lb/>twelve Pills for three Doſes: to
+            be taken once in <lb/>ſix or ſeven days. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A purging Powder, recommended in the ſame caſe. </head>
+          <p rend="indent">
+            <lb/>Take of the Roſin of Jalap, eighteen grains; <lb/>Calomelanos, a dram; Caſtor, a
+            ſcruple. Make <lb/>a Powder for three doſes; to be taken in the pap <lb/>of a boil'd
+              App<unclear>l</unclear>e or Conſerve of Borrage. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>An approv'd Specifick for Hyſterical Convulſions. </head>
+          <p rend="indent">
+            <lb/>Take Fæcula of Briony, Aſſa fœtida, and Caſtor, <pb n="25"/>
+            <lb/>of each a dram; Salt of Coral, Amber, and Tin; <lb/>of each half a dram; Galbanum
+            diſſolv'd in Hy- <lb/>ſterick-water, what ſuffices to make a maſs. Doſe <lb/>from half a
+            ſcruple to a ſcruple, morning and e- <lb/>vening; drinking after it an ounce and a half
+            of <lb/>the following Julep. </p>
+          <p rend="indent">
+            <lb/>Take Mugwort and Pennyroyal-water, of each <lb/>half a pound; Hysterick-water four
+            ounces; Tin- <lb/>cture of Caſtor, half an ounce; Syrup of Coral, an <lb/>ounce and a
+            half. Mix. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A choice Preſcription for Fits of the Mother. </head>
+          <p rend="indent">
+            <lb/>Take the Seeds of wild Parſnips and Nettles, of <lb/>each two drams; Vitriol of
+            Steel, a dram; Extract <lb/>of Gentian and Mugwort, of each a dram and a <lb/>half;
+            Syrup of Mugwort, what ſuffices. Make a <lb/>maſs, of which take half a dram as above.
+          </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A choice Powder for Fits of the Mother. </head>
+          <p rend="indent">
+            <lb/>Take Roots of Virginian Snakeweed, and Con- <lb/>trayerva, of each a dram and a
+            half; Coral pre- <lb/>par'd, Pearl, whiteſt Amber, of each a dram. Make <lb/>a Powder,
+            of which half a dram is to be taken <lb/>morning and evening in a proper Vehicle. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>An Electuary, of good uſe in Hyſterical caſes. </head>
+          <p rend="indent">
+            <lb/>Take Conſerve of the flowers of Lillies of the <lb/>Valley, male Peony, and Betony,
+            of each two <lb/>ounces; Peony-ſeeds and red Coral prepar'd, of <lb/>each two drams;
+            Powder of Baſtard-Dittany, a <lb/>dram and a half; Salt of Wormwood, two drams:
+            <lb/>With a ſufficient quantity of the Syrup of Citron- <lb/>peel, make an Electuary.
+            Doſe, the bigneſs of a <lb/>Nutmeg, morning and evening. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A choice diſtill'd Water, for Hyſterical caſes. </head>
+          <p rend="indent">
+            <lb/>Take leaves of Pennyroyal, Feverfew, both Sou- <pb n="26"/>
+            <lb/>thernwoods, Calamint, Nep, both Horehounds, of <lb/>each a handful; Briony-root,
+            four ounces; Parſ- <lb/>nip-ſeeds, two drams: Being ſlic'd and bruis'd, <lb/>pour to
+            them ſix pound of white Wine or Syder, <lb/>and diſtil according to Art. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A Decoction, approv'd in Hyſterical Convulſions. </head>
+          <p rend="indent">
+            <lb/>Take Roots of Male Peony, Angelica, and Va- <lb/>lerian, of each half an ounce;
+            Leaves of Mug- <lb/>wort, Calamint, Pennyroyal, and Miſletoe of the <lb/>Oak, of each a
+            handful; Seeds of both the wild <lb/>Parſnips, of each three drams; Raiſins, a handful.
+            <lb/>Let them boyl in four pound of Spring-water till <lb/>the half is waſted; then add
+            a pint and a half of <lb/>white Wine. Reſerve the ſtraining for uſe in cloſe
+            <lb/>Veſſels. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A ſimple and eaſy Infuſion, of good uſe in Hyſte- <lb/>rical caſes. </head>
+          <p rend="indent">
+            <lb/>Take of the Seeds of wild Parſnips, bruis'd, two <lb/>ounces: Put 'em into a bottle
+            with two pints of <lb/>white Wine. Of which drink two ounces twice a <lb/>day. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>Purging Pills, of good uſe in Convulſions retain- <lb/>ing to the Hypochondriack
+            Illneß. </head>
+          <p rend="indent">
+            <lb/>Take of choice Senna, an ounce; Rhubarb, ſix <lb/>drams; Epithymum, three drams;
+            yellow Saun- <lb/>ders, two drams; Celtick Spike, two drams: Be- <lb/>ing ſlic'd and
+            bruis'd, digeſt them in white Wine <lb/>and Fumitory-water, of each ten ounces, for 48
+            <lb/>hours. Then take the clear ſtraining, and let it <lb/>evacuate with a gentle heat
+            to the conſiſtence <lb/>of an Extract; adding towards the latter end, Pow- <lb/>der of
+            Senna, Rhubarb, and Cream of Tartar, of <lb/>each two drams. Beat 'em together in a
+            glaſs Mor- <lb/> <pb n="27"/>
+            <choice>
+              <corr>tar</corr>
+              <sic>atr</sic>
+            </choice>, and reduce them to the conſiſtency of Pills. <lb/>Doſe, from two ſcruples to
+            a dram. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>Choice alterative Pills for Hypochondriack Convul- <lb/>ſions in a cold
+            Conſtitution of Body. </head>
+          <p rend="indent">
+            <lb/>Take the Troches of Rhubarb, Powdre of A- <lb/>ron-roots, and Winters-bark, of each
+            two drams; <lb/>Roots of Virginian Snakeweed, Contrayerva, Dia- <lb/>trion Santalon, and
+            Crabs-eyes, of each a dram; <lb/>Extract of Gentian and Centory, of each a dram <lb/>and
+            a half; Gum Ammoniack diſſolv'd in a ſuffici- <lb/>ent quantity of Water of Earthworms,
+            what ſuffi- <lb/>ces to make a maſs for Pills; of which four are to <lb/>be taken in the
+            morning, and at four of the clock <lb/>in the afternoon: Drinking after them a draught
+            <lb/>of Wormwood or Chalybeatwine. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>An Electuary, approv'd in Hypochondriack Con- <lb/>vulſions, with a cold
+            Conſtitution. </head>
+          <p rend="indent">
+            <lb/>Take Conſerve of the yellow coats of Oranges <lb/>and Limons, of each three ounces;
+            Myrobalans <lb/>condited, two in number; Species Aromaticæ Ro- <lb/>ſatæ, and
+            Winters-bark, of each two drams; Salt <lb/>of Wormwood, two drams; Vitriol of Steel, two
+            <lb/>drams (or prepar'd Steel, three drams.) With a <lb/>ſufficient quantity of the
+            Juice of Citron-peel, make <lb/>an Electuary: of which let him take the bigneſs of
+            <lb/>a Nutmeg twice a day, drinking upon it a draught <lb/>of Wormwood-wine, or of Wine
+            in which the <lb/>bark or flowers of Tamarisk are infus'd. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>Drops, exceeding all other Medicines in this caſe. </head>
+          <p rend="indent">
+            <lb/>Take twelve drops of the Spirit of Soot, or of <lb/>Blood, or of Hartſhorn, twice a
+            day, in an appropri- <lb/>ate Vehicle. I have ſeen this more beneficial than <lb/>all
+            other Medicines. </p>
+        </div>
+        <pb n="28"/>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A proper Medicine for Hypochondriacal Convulſi- <lb/>ons in a hot temperament. </head>
+          <p rend="indent">
+            <lb/>Take Conſerve of Hips, ſix ounces; (or Conſerve <lb/>of Tamarisk flowers, and
+            Woodſorrel leaves, of <lb/>each three ounces;) Species Diarrhodon Abbatis,
+            <lb/>Confection Alkermes, of each a dram; Ivory in <lb/>Powder, a dram and a half; Salt
+            of Tamarisk and <lb/>Wormwood, of each a dram. With a ſufficient <lb/>quantity of Syrup
+            of the Juice of Citrons, or Syrup <lb/>of Clove-gilly-flowers, make an Opiat, of which
+            <lb/>take the bigneſs of a Nutmeg twice a day. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>Tablets calculated for the ſame caſe. </head>
+          <p rend="indent">
+            <lb/>Take Powder of Ivory, two drams; Powder of <lb/>Pearls, a dram; Species Diarrhodon
+            Abbatis and <lb/>Diamargariton frigid, of each a dram and a half. <lb/>Make a fine
+            Powder, to which add double refin'd <lb/>Sugar diſſolv'd in Bawm-water, and boyl'd up to
+            a <lb/>due conſiſtence, ſix ounces. Make Tablets accord- <lb/>ing to Art. Doſe, from a
+            dram and a half to two <lb/>drams twice a day. </p>
+          <p rend="indent">
+            <lb/>To this, we may add our natural Spaws, which <lb/>are always of good uſe; and in
+            want of them the <lb/>Artificial Spaws; as alſo whey, and in caſe of an
+            <lb/>extraordinary leanneſs Aſſes-milk drunk every day. <lb/>Beſides, Cauteries and
+            Iſſues are genarally of good <lb/>uſe in this caſe. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>Medicines preſcrib'd with extraordinary ſucceſs <lb/>for a Convulſive Periodical
+            Aſthma. </head>
+          <p rend="indent">
+            <lb/>Take of our Sulphur of Antimony, ſix grains; <lb/>Cream of Tartar, ſix grains. Mix,
+            to be taken <lb/>in the pap of a Codline. It will give four or five <lb/>Vomits. </p>
+          <pb n="29"/>
+          <p rend="indent">
+            <lb/>Take of Calomelanos, twelve grains; Roſin of <lb/>Jalap, five grains; Caſtor, four
+            Grains. With a <lb/>ſufficient quantity of Gum Ammoniack diſſolv'd, <lb/>make four
+            Pills, to be taken four days after the <lb/>Vomit, and repeated after ſix or ſeven days. </p>
+          <p rend="indent">
+            <lb/>Take of Snail-water, ſix ounces; Water of <lb/>Earth-worms, four ounces; Water of
+            Pennyroyal <lb/>and Rue, of each four ounces; Hyſterick-water, <lb/>three ounces; Caſtor
+            ty'd in a bag and hung in the <lb/><choice>
+              <corr/>
+              <sic>the </sic>
+            </choice>glaſs, half a dram; double refin'd Sugar, an <lb/>ounce. Mix and make a Julep;
+            of which take <lb/>ſix or ſeven ſpoonfuls with twelve grains of the <lb/>Tincture of
+            Antimony, every day morning and e- <lb/>vening. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>To cure a Convulſive Cough, eſpecially in Children. </head>
+          <p rend="indent">
+            <lb/>Give a gentle Vomit and Purge; apply a Bliſter <lb/>to the Neck, and, if the
+            Diſeaſe be obſtinate, cut an <lb/>Iſſue in the nape of the Neck, or in the Arm, or in
+            <lb/>the Armpits. Confine them to a Diet-drink or <lb/>Sarſa, China, Saunders, ſhavings
+            of Ivory and <lb/>Hartſhorn, with ſome Diuretick Ingredients. For <lb/>a Specifick
+            Remedy, Cupmoſs given every day in <lb/>Powder or boyl'd in Milk is commended; to which
+            <lb/>we may add the Decoction of Hyſſop, or of Caſtor <lb/>and Saffron. </p>
+        </div>
+      </div>
+      <pb n="30"/>
+      <div type="section">
+        <head rend="align-center size(2.0) space">
+          <lb/>SECT. V. </head>
+        <head rend="italic align-center size(2.0) space">
+          <lb/>Preſcriptions for the Scurvy. </head>
+        <div>
+          <head rend="italic align-center space">
+            <lb/>A Purge, to commence the cure of a hot (ſulphureous <lb/>ſaline) Scurvy, if
+            vomiting be inconvenient. </head>
+          <p rend="indent">
+            <lb/><hi rend="dc(2)">T</hi>Ake of Senna-leaves, an ounce; Rhubarb, ſix <lb/>drams;
+            Epithymum, three drams; Roots of <lb/>Polypody of the Oak, and Engliſh Rhubarb dried,
+            <lb/>of each half an ounce; yellow Saunders, two drams; <lb/>Celtick Spike, half a dram;
+            Salt of Wormwood, <lb/>two drams. Being ſlic'd and bruis'd, let 'em digeſt <lb/>in a
+            Matrace upon a ſand-heat, with white Wine <lb/>and Fumitory-water, of each a pound (or
+            with two <lb/>pounds of our Magiſtral Antiſcorbutick-water) for <lb/>two days. Then let
+            the clear ſtraining evaporate <lb/>upon a gentle Bath heat to the conſiſtence of Ho-
+            <lb/>ny: and after that, add Powder of Senna-leaves <lb/>and Rhubarb, of each a dram and
+            a half; <lb/>Species Diatrion Santalon, a dram; Cream of Tar- <lb/>tar, a dram and a
+            half. Make a maſs for Pills, to <lb/>be given from half a dram to a dram. </p>
+          <p rend="indent">
+            <lb/>Make a purging Syrup of the ſame Infuſion, by <lb/>evaporating it with a gentle
+            heat to a due Conſi- <lb/>ſtence; and adding towards the latter end Manna <lb/>paſs'd
+            through a Searce and double refin'd Sugar, <lb/>of each two drams. Doſe, from one to two
+            ſpoon- <lb/>fuls. Or, </p>
+          <p rend="indent">
+            <lb/>Let four or ſix ounces of the Tincture be given <lb/>for a doſe, adding Cream of
+            Tartar, half a dram; <lb/>and, if there be need of ſweetning, Syrup of Ap- <lb/>ples,
+            three drams. Or, </p>
+          <p rend="indent">
+            <lb/>To the Tincture preſcrib'd let ſix drams of clean <pb n="31"/>
+            <lb/>Corants be put; and ſet all in a warm digeſtion <lb/>till the Corants ſwell: then
+            take them out, and let <lb/>the liquor evaporate to the Conſiſtency of a Syrup,
+            <lb/>adding Sugar and Manna paſs'd through a Searce, <lb/>of each an ounce and a half.
+            Then put the Co- <lb/>rants in again, and keep the Medicine in a glaz'd <lb/>Veſſel well
+            ſtop'd. Or, </p>
+          <p rend="indent">
+            <lb/>To the Tincture preſcrib'd, evaporated to a <lb/>half; add freſh Caſſia, and Pulp
+            of Tamarinds <lb/>extracted with Antiſcorbutick-water, of each three <lb/>ounces;
+            Conſerve of Violets and of Damask Ro- <lb/>ſes, of each two Ounces, the greater compound
+            <lb/>Powder of Senna, a dram; Rhubarb in powder, <lb/>half an ounce; Cream of Tartar,
+            and Species Dia- <lb/>trion Santalon, of each two drams. Beat all to- <lb/>gether in a
+            Stone Mortar, till they're reduc'd to <lb/>the form of an Electuary. Doſe, the quantity
+            of a <lb/>Walnut, more or leſs, according to the operation. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A Purge in a ſmall quantity, againſt a hot Scurvy, <lb/>calculated for thoſe whoſe
+            Stomachs are nice. </head>
+          <p rend="indent">
+            <lb/>Take Roſin of Scammony, from four to eight <lb/>grains; Cream of Tartar, half a
+            ſcruple; Celtick <lb/>Spike, ſix grains. Mix and make a Powder to be <lb/>given in a
+            ſpoonful of Panada, or form'd into <lb/>Pills. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>Purging Pills, to commence the cure of a cold <lb/>(Nitro-ſulphureous) Scurvy. </head>
+          <p rend="indent">
+            <lb/>Take of the Stomachick Pills with Gums, two <lb/>drams; Roſin of Jalap, twenty
+            grains, Tartar vitrio- <lb/>lated, ſixteen grains; Oyl of Juniper, half a ſcruple.
+            <lb/>With a ſufficient quantity of Gum Ammoniack <lb/>diſſolv'd in Water of Earth-worms,
+            make ſixteen <lb/>Pills; to be taken four at a time, once a week. Or, </p>
+          <pb n="32"/>
+          <p rend="indent">
+            <lb/>Take of <hi rend="italic">Bontius</hi>'s Pills of Tartar, a dram and a <lb/>half;
+            Roſin of Jalap, twelve grains; Salt of Tar- <lb/>tar, half a ſcruple. With a ſufficient
+            quantity of <lb/>Syrupus Auguſtanus, make twelve Pills for three <lb/>Doſes. </p>
+          <p rend="indent">
+            <lb/>Take of the Extract of <hi rend="italic">Ruffius</hi>'s Pill a dram; Ex- <lb/>tract
+            of black Hellebor, a ſcruple; ſalt of Tartar <lb/>half a dram. With a ſufficient
+            quantity of Ammo- <lb/>niacum diſſolv'd, make nine Pills for three days. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A purging Infuſion, Syrup, and Extract, proper <lb/>in a hot Scurvy. </head>
+          <p rend="indent">
+            <lb/>Take of Senna-leaves, an ounce; Rhubarb, ſix <lb/>drams; Mechoacan and Gummy
+            Turbith, of each <lb/>half an ounce; ſtrings of black Hellebor, three <lb/>drams; Salt
+            of Tartar, two ounces; yellow <lb/>Saunders, a dram and a half; Winters-bark, two
+            <lb/>drams. Being ſlic'd and bruis'd, let 'em digeſt for <lb/>two days with two pounds
+            of white Wine. Strain <lb/>out the clear Tincture without expreſſion, and <lb/>give ſix
+            ounces of it for a doſe. Or, reduce it to <lb/>a Syrup or Extract, after the manner
+            above pre- <lb/>ſcrib'd in the Tincture for the cold Scurvy. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A ſtrong purging Tincture for the hot Scurvy. </head>
+          <p rend="indent">
+            <lb/>Take of the Salt of Tartar, an ounce; ſmall <lb/>ſpirit of Wine, a pound and a
+            half: Let 'em di- <lb/>geſt, till it turns yellow. Pour the liquor off <lb/>the Fæces by
+            inclination, and infuſe it in ſtrings of <lb/>black Hellebor ſteep'd in Vinegar, an
+            ounce; yel- <lb/>low Saunders, a dram; the yellow coats of Oran- <lb/>ges, a dram and a
+            half. Let 'em ſtand in a warm <lb/>and cloſe digeſtion for three days. Take the clear
+            <lb/>ſtraining, and diſtil it in a bath heat to a half: <lb/>and keep the remaining
+            liquor, of which a robuſt <lb/>perſon may take a ſpoonful, or a ſpoonful and a
+            <lb/>half. </p>
+        </div>
+        <pb n="33"/>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A Purgative Decoction for the hot Scurvy. </head>
+          <p rend="indent">
+            <lb/>Take Roots of ſharp-pointed Dock, Polipody <lb/>of the Oak, ſtinging Nettles,
+            Chervil, of each ſix <lb/>drams; leaves of Agrimony and Speedwell, of each <lb/>a
+            handful; white and yellow Saunders, of each a <lb/>dram and a half; Baſtard Saffron, an
+            ounce; Tar- <lb/>tar of white Wine, half an ounce: Let 'em boyl in <lb/>two pounds an a
+            half of Spring-water to a half. <lb/>Then add a pound of Rheniſh Wine, and ſtrain it
+            <lb/>preſently; then put into it the beſt Senna, half an <lb/>ounce; Rhubarb, ſix drams;
+            ſtrings of black Hel- <lb/>lebor, half an ounce; the yellow coats of Oran- <lb/>ges, two
+            drams: Make a cloſe and warm Infuſi- <lb/>on for twelve hours. Then ſtrain out the
+            liquor, <lb/>to be kept in a glaſs cloſe ſtop'd, and taken from <lb/>five to ſix drams.
+          </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>An excellent Menſtruum for extracting Antiſcorbu- <lb/>tick Tinctures and Elixirs. </head>
+          <p rend="indent">
+            <lb/>Take Spirit of Vitriol Rectified, ſix ounces; <lb/>Spirit of Wine Alcaliſate,
+            ſixteen ounces. Mix <lb/>and diſtil in a glaſs Retort with three Cohobations; <lb/>and
+            keep the diſtill'd liquor in a glaſs well ſtop'd. <lb/>This Menſtruum extracts the
+            Elixir Proprietatis <lb/>with greater eaſe and efficacy than the common <lb/>Menſtruum.
+          </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>An excellent Antiſcorbutick Tincture, extracted with <lb/>this Menſtruum. </head>
+          <p rend="indent">
+            <lb/>Take Winters-bark, Aloes-wood, and Roots of <lb/>leſſer Galangal, of each two
+            drams; Seeds of Bi- <lb/>ſhops-weed and Water-Creſſes, of each half a <lb/>dram. Bruiſe
+            them, and pour on 'em as much of <lb/>the foreſaid Menſtruum as will cover them three
+              <pb n="34"/>
+            <lb/>fingers over. Let them digeſt in a Matrace in a ſand <lb/>furnace ſix days. Keep
+            the ſtrain'd liquor in a cloſe <lb/>Veſſel, to be given to twenty drops, more or leſs,
+            <lb/>twice a day, in a ſpoonful of Canary. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>Another Tincture of good uſe in the Scurvy. </head>
+          <p rend="indent">
+            <lb/>Take the whiteſt Amber, Gum of Ivy, Caranna, <lb/>and Tacamahac, of each a dram;
+            Saffron, half a <lb/>dram; Cloves and Nutmegs, of each two ſcruples. <lb/>Being bruis'd,
+            pour to them the foreſaid Menſtru- <lb/>um, and extract a Tincture according to Art.
+            Doſe <lb/>twenty drops. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>Another good Menſtruum for extracting Antiſcor- <lb/>butick Elixirs. </head>
+          <p rend="indent">
+            <lb/>Take blew Salt of Tartar, four ounces. Let <lb/>'em digeſt in a Matrace with a
+            pound of Spirit of <lb/>Wine Alcaliſate, till the Tincture is extracted. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>An Electuary very uſeful in a cold Scurvy. </head>
+          <p rend="indent">
+            <lb/>Take Conſerve of Scurvy-graſs, Roman Worm- <lb/>wood and Fumitory, of each two
+            ounces; Pow- <lb/>der of Winters-bark, Roots of Angelica, and A- <lb/>ron, of each two
+            drams; Species Diatrion Santa- <lb/>lon, a dram and a half; Powder of Crabs-eyes a
+            <lb/>dram; Salt of Wormwood, two drams. With a <lb/>ſufficient quantity of Syrup of the
+            Juice of Citron- <lb/>peel, make an Electuary, to be taken to the big- <lb/>neſs of a
+            Nutmeg, drinking after it a draught of <lb/>an Appropriat Liquor. Or, </p>
+          <p rend="indent">
+            <lb/>Take Conſerve of the Leaves of Scurvy-graſs, <lb/>and of Brooklime, made with an
+            equal quantity of <lb/>Sugar, of each three ounces; Troches of Capers, <lb/>and of
+            Rhubarb, of each two drams; Salt of <lb/>Wormwood and of Scurvy-graſs, of each a dram.
+              <pb n="35"/>
+            <lb/>With a ſufficient quantity of Syrup of the Juice of <lb/>Scurvy-graſs, make an
+            Electuary. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>An Electuary, commonly preſcrib'd by Dr. <hi rend="roman">Willis</hi>
+            <lb/>for a cold Scurvy. </head>
+          <p rend="indent">
+            <lb/>Take Conſerve of the yellow coats of Oranges <lb/>and Limons, and of the purple
+            flowers of the Aſh- <lb/>tree (all made with an equal quantity of Sugar) <lb/>of each
+            two ounces; Roots of Contrayerva, a <lb/>dram and a half; Galangal the leſſer, half a
+            dram; <lb/>Roots of Aron, two drams; Species Aromaticæ <lb/>Roſatæ, a dram; Salt of
+            Wormwood, two drams. <lb/>With a ſufficient quantity of Syrup of the Confi- <lb/>ture of
+            Nutmegs, make an Electuary, to be taken <lb/>to the quantity of a Nutmeg, drinking after
+            it a <lb/>draught of ſome appropriated liquor. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A cheap Electuary for the Poor, of good uſe in a <lb/>cold Scurvy. </head>
+          <p rend="indent">
+            <lb/>Take Leaves of Scurvy-graſs, and Brooklime, <lb/>of each four ounces; double
+            refin'd Sugar, eight <lb/>ounces. Let 'em be beat together in a Mortar; <lb/>adding
+            Winters-bark, half an ounce; Tartar cal- <lb/>cin'd with Nitre, three drams. With a
+            ſufficient <lb/>quantity of Sack, make an Electuary, to be taken <lb/>as above. Or, </p>
+          <p rend="indent">
+            <lb/>Take of the Leaves of Scurvy-graſs, a pound; <lb/>Raiſins ſton'd and double refin'd
+            Sugar, of each <lb/>half a pound; Fœcula of the Roots of Horſe Rad- <lb/>diſh, two
+            ounces. Bruiſe all together in a Mortar, <lb/>and reduce them to the form of an
+            Electuary-Doſe, <lb/>the bigneſs of a Walnut twice or thrice a day. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A Confection recommended againſt a cold Scurvy. </head>
+          <p rend="indent">
+            <lb/>Take Powder of Aron Roots compound, an <pb n="36"/>
+            <lb/>ounce; Winters-bark in Powder, half an ounce; <lb/>Species of Diatrion Santalon and
+            Troches of Ca- <lb/>pers, of each two drams; Salt of Wormwood and <lb/>Scuvy-graſs, of
+            each a dram and a half; the <lb/>yellow coats of Oranges condited, three ounces.
+            <lb/>Beat 'em together in a Mortar. Then add three <lb/>ounces of white Sugar diſſolv'd
+            in a ſufficient quan- <lb/>tity of Water of Earth-worms: and make a Con- <lb/>fection
+            according to Art. Take of this the quan- <lb/>tity of a Nutmeg twice a day, drinking
+            after it an <lb/>appropriate liquor. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>Another Confection, proper in the ſame caſe. </head>
+          <p rend="indent">
+            <lb/>Take Roots of Eringo and Vipers-graſs condi- <lb/>ted, of each two drams; Walnuts,
+            Myrobalans con- <lb/>dited, of each two in number; Electuary of Saſ- <lb/>ſafras, ſix
+            drams; Powder of Cubebs and Carda- <lb/>mom, of each two drams; Powder of the Roots
+            <lb/>of Zedoary and Angelica, of each a dram and a <lb/>half; Salt of Wormwood, two
+            drams; With a <lb/>ſufficient quantity of the Syrup of the Confiture of <lb/>Walnuts,
+            make a Confection. Or, </p>
+          <p rend="indent">
+            <lb/>Take Powder of China-roots and Saſſafras-wood, <lb/>of each half an ounce; yellow
+            and white Saunders, <lb/>of each two drams; Seeds of Rocket, Cubebs,
+            <lb/>Garden-Creſſes, and Grains of Paradiſe, of each a <lb/>dram and a half; Species of
+            Dialacca, Cinnamon, <lb/>Orrice, leſſer Galangal, of each a dram; Salt of <lb/>Wormwood,
+            two drams: Conſerve of the yellow <lb/>coats of Oranges, and Sugar of Roſemary-flowers
+            <lb/>diſſolv'd in Snail-water, of each three ounces. Make <lb/>a Confection: to which
+            (in ſome Scorbutick Ca- <lb/>ſes) you may add three drams of Steel prepar'd <lb/>with
+            Sulphur, or two drams of Vitriol of Steel. <lb/>Taking care to exerciſe the Body
+            according to its <pb n="37"/>
+            <lb/>ſtrength, after every doſe, <hi rend="italic">viz.</hi> the quantity of a
+            <lb/>Nutmeg twice a day. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A Powder, good in a cold Scurvy. </head>
+          <p rend="indent">
+            <lb/>Take Powder of Aron, compound, an ounce <lb/>and a half; Winters-bark, half an
+            ounce; Cubebs, <lb/>Grains of Paradiſe and Cardamum, of each two <lb/>drams; Salt of
+            Wormwood, three drams; Tablets <lb/>of Oranges, three ounces: Make a Powder. Doſe,
+            <lb/>a dram in an appropriat liquor. Or add to it ker- <lb/>nels of the Indian Chocolate
+            Nut, half a pound. <lb/>Reduce 'em to maſs or paſte in a hot mortar; <lb/>and give two
+            drams after the manner of Chocolate, <lb/>in Spring-water, in which the leaves of
+            Roſemary <lb/>and Betony, or the roots of Viper's-graſs, or the <lb/>ſhavings of Ivory
+            or Hartſhorn, are boyl'd. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>Pills, good in a cold Scurvy, calculated for thoſe <lb/>who covet Medicines in a
+            ſmall quantity. </head>
+          <p rend="indent">
+            <lb/>Take Roots of Virginian Snakeweed and Con- <lb/>trayerva, of each two drams;
+            Winters-bark, Cu- <lb/>bebs and Rocket-ſeed, of each three drams; Salt <lb/>of Wormwood
+            and Scurvy-graſs, of each a dram <lb/>and a half; Extract or Rob of Juniper, half an
+            <lb/>ounce. With a ſufficient quantity of Syrup of the <lb/>Confiture of Nutmegs, make a
+            maſs for Pills. Doſe, <lb/>four twice a day, drinking after 'em an appropriat
+            <lb/>liquor. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>Tablets good in a cold Scurvy, for nice Palates. </head>
+          <p rend="indent">
+            <lb/>Take Powder of Winters-bark and Crabs-eyes, <lb/>of each a dram and a half; Pearl
+            in powder, half <lb/>a dram; double refin'd Sugar diſſolv'd in water of <lb/>Earthworms
+            and boyl'd up to the conſiſtency of Ta- <lb/>blets, ſix ounces; Spirit of Scurvy-graſs,
+            two drams. <pb n="38"/>
+            <lb/>Make Tablets according to Art, weighing half a <lb/>dram a piece. Doſe two a day,
+            drinking after <lb/>them an appropriat liquor. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>Tablets of Oranges, of ſingular uſe in a cold Scurvy. </head>
+          <p rend="indent">
+            <lb/>Take Rinds of Oranges, Limons, and Citrons, <lb/>preſerv'd, of each an ounce;
+            Eringo Roots pre- <lb/>ſerv'd, half an ounce; Pinenut Kernels and Fiſtick <lb/>Nuts, of
+            each twenty; Sweet Almonds blancht, <lb/>in number ten; Anniſeed in powder, half an
+            ounce; <lb/>Ginger preſerv'd, two ounces; Species Aromaticæ <lb/>Roſatæ and Nutmegs, of
+            each a dram and a half; <lb/>Galangal Roots, a dram; Cloves, ten in number;
+            <lb/>Ambergrieſe, four grains; Musk and Civet, of each <lb/>two grains; double refin'd
+            Sugar diſſolv'd in Roſe- <lb/>water, and boil'd to a conſiſtency for Tablets, a
+            <lb/>pound and a half. Make Tablets according to Art. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A ſimple cheap Decoction, recommended by moſt Au- <lb/>thors, in a cold Scurvy. </head>
+          <p rend="indent">
+            <lb/>Take of the Leaves of Water-Creſſes, three <lb/>handfuls; of the leſſer Sorrel, two
+            handfuls: Be- <lb/>ing ſlic'd, let 'em macerate in ſix pounds of Milk: <lb/>and boyl to
+            the conſumption of a third part. Doſe, <lb/>ſix or eight ounces twice a day. This is
+            commend- <lb/>ed by many, as alſo the Decoction of Wormwood. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A ſimple Decoction, often experienc'd in a cold Scurvy. </head>
+          <p rend="indent">
+            <lb/>Take of Broom-tops, three handfuls: Slice 'em <lb/>ſmall, and boyl them in three
+            pounds of ſtrong Ale, <lb/>till the half is waſted; and give two or three <lb/>ounces of
+            the Decoction twice a day. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A Decoction improv'd by Infuſion, of good uſe in a <lb/>cold Scurvy. </head>
+          <p rend="indent">
+            <lb/>Take Roots of Vipers-graſs and Chervil, of each <pb n="39"/>
+            <lb/>and ounce; Leaves of Agrimony and Groundpine, <lb/>of each half a handful; Burnt
+            Hartſhorn, 2 drams; <lb/>Raiſins, half a handful; Boyl 'em in three pounds <lb/>of
+            Spring-water, till a third part is conſum'd. Add <lb/>Rheniſh wine, half a pound; and
+            ſtrain it out <lb/>preſently into a glaſs veſſel; to which put Leaves <lb/>of
+            Scurvy-graſs and Brooklime bruis'd, of each <lb/>half a handful; Orange-peel preſerv'd
+            and ſlic'd <lb/>ſmall, half an ounce. Make a cloſe and hot Infu- <lb/>ſion for ſix
+            hours: and keep the ſtraining in veſ- <lb/>ſels cloſe ſtop'd. Doſe, ſix ounces twice a
+            day, <hi rend="italic">i.e.</hi>
+            <lb/>after every Doſe of ſolid Medicines. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>Another for the ſame purpoſe. </head>
+          <p rend="indent">
+            <lb/>Take of Whey made with Whitewine or Cyder, <lb/>a pound and a half; Boyl it in
+            Roots of Burdock <lb/>and Eringo preſerv'd, of each ſix drams; preſerv'd
+            <lb/>Juniper-berries, half an ounce. Boyl the liquor to <lb/>a third part, then ſtrain
+            it out into a flagon, to <lb/>which put Leaves of Scurvy-graſs and Brooklime, <lb/>of
+            each a handful. Make a cloſe and hot Infuſion <lb/>for ſix hours. Doſe half a pound
+            twice a day. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>An Infuſion of ſingular virtue in a cold Scurvy. </head>
+          <p rend="indent">
+            <lb/>Take Leaves of Scurvy-graſs, a handful; ſhavings <lb/>of Horſe-Radiſh-roots, half a
+            handful; Winters- <lb/>bark bruis'd, two drams; let them be put into a glaſs <lb/>with
+            Whitewine (or Cyder) and water of Scurvy- <lb/>graſs, of each a pound. Make an Infuſion
+            in a <lb/>Cellar for two or three days. Doſe, ſix or eight <lb/>ounces, twice a day; to
+            be taken after every Doſe <lb/>of a ſolid Medicine. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A powerful Antiſcorbutick Juice. </head>
+          <p rend="indent">
+            <lb/>Take Leaves of Scurvy-graſs, Water Creſſes, <pb n="40"/>
+            <lb/>and Brooklime, of each three handfuls; bruiſe <lb/>them; and expreſs a Juice to be
+            kept in a glaſs <lb/>cloſe ſtop'd. Doſe, from an ounce and a half <lb/>to three ounces
+            in a draught of wine or ſome di- <lb/>ſtill'd water. Or, </p>
+          <p rend="indent">
+            <lb/>Take Leaves of Scurvy-graſs, four handfuls; <lb/>Woodſorrel, two handfuls. Bruiſe
+            them and ex- <lb/>preſs a Juice, which being put into a glaſs well <lb/>ſtopt will
+            quickly become clear, for the acidity of <lb/>the Woodſorrel precipitates the coarſer
+            parts of the <lb/>Scurvy-graſs. The ſame thing comes to paſs, if the <lb/>Juice of
+            Oranges be mixt with the Juice of Scurvy- <lb/>graſs. The doſe is two or three ounces
+            twice a day. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>An Antiſcorbutick Juice, beneficial in a cold Scurvy. </head>
+          <p rend="indent">
+            <lb/>Take of the Leaves of Scurvy-graſs, four hand- <lb/>fuls; Brooklime and Garden
+            Creſſes, of each two <lb/>handfuls; long Pepper, three drams; ſhavings of
+            <lb/>Horſe-radiſhes, two ounces. Bruiſe all together and <lb/>put 'em into a glaz'd pot
+            with two pounds of <lb/>Rheniſh-wine, or Sack, if better lik'd: Stop the <lb/>pot cloſe,
+            and let it ſtand for two days in a cold <lb/>Cellar. Then make a ſtrong
+              Expr<unclear>e</unclear>ſſion. Doſe <lb/>three ounces twice a day after a Doſe of a
+            ſolid <lb/>Medicine. Or, </p>
+          <p rend="indent">
+            <lb/>Take of the Leaves of Scurvy-graſs, three hand- <lb/>fuls; Brooklime, Garden
+            Creſſes, and Woodſorrel, <lb/>of each a handful: Bruiſe them, and put to them <lb/>Water
+            of Snails and and Earthworms, of each ſix ounces. <lb/>Make a ſtrong expreſſion, to be
+            reſerv'd in a glaſs <lb/>cloſe ſtop'd. Doſe, two ounces twice a day. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>A Syrup for a cold Scurvy; retaining the intrinſick <lb/>vertue of the Ingredients. </head>
+          <p rend="indent">
+            <lb/>Take Leaves of Garden Scurvy-graſs, ſix hand- <pb n="41"/>
+            <lb/>fuls; the rinds of four Oranges and two Limons, <lb/>par'd off thin; of the
+            ſhavings of Horſe-Radiſh, <lb/>half a handful; long Pepper in powder, three <lb/>drams.
+            Bruiſe all together, and epxreſs the Juice; <lb/>which is preſently to be put into a
+            glaſs ſtopt very <lb/>cloſe, and plac'd in a cold Cellar, till it ſettles <lb/>clear;
+            then pour off the clear liquor by inclination <lb/>into another glaſs, and being ſtop'd
+            let it be kept <lb/>in a heat of Balneum Mariæ. In the mean time, <lb/>for every ounce
+            of this liquor, take of Sugar, an <lb/>ounce and a half; and let its whole quantity be
+            diſ- <lb/>ſolv'd in a little Water of Earth-worms, and <lb/>boyl'd to the conſiſtency of
+            Tablets; and whilſt <lb/>it is warm, pour to it the foreſaid liquor by little <lb/>and
+            little, ſtirring it with a Spatula. As ſoon as it <lb/>is incorporated, take the
+            compoſition off the fire, <lb/>and when it is cold put it into a glaſs: in which
+            <lb/>hang up the following bag. Take Cinamon bruis'd, <lb/>a dram; Seeds of Water
+            Creſſes and Rocket, in <lb/>Powder, of each, a dram. Mix. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>An excellent Water for a cold Scurvy. </head>
+          <p rend="indent">
+            <lb/>Take Leaves of both Scurvy-graſſes, Brooklime, <lb/>Water Creſſes, and Broom Tops,
+            of each three <lb/>handfuls; leaves of Germander and Groundpine, <lb/>of each two
+            handfuls; Roots of Horſe Radiſhes, <lb/>half a pound; Roots of Aron, Angelica, and
+            Maſter- <lb/>wort, of each four ounces; the outer coats of four <lb/>Oranges and as many
+            Limons; Roots of Aromatick <lb/>Calamus, an ounce; Cinamon and Cloves, of each <lb/>half
+            an ounce. Being ſlic'd and bruis'd, pour to <lb/>them eight pound of the beſt Cyder. Let
+            'em di- <lb/>geſt two days in a glaz'd pot cloſe ſtop'd; then <lb/>diſtill in a common
+            Still, and mix the water that <lb/>comes firſt over with the laſt. </p>
+          <p rend="indent">
+            <lb/>The ſimple water of Aron-leaves taken to three <pb n="42"/>
+            <lb/>or four ounces twice a day; and likewiſe the ſimple <lb/>water of Scruvy-graſs,
+            cohobated often upon freſh <lb/>leaves; are reckon'd very potent Antiſcorbuticks. </p>
+        </div>
+        <div>
+          <head rend="italic align-center">
+            <lb/>An Antiſcorbutick Water, diſtill'd in Winter, when the <lb/>freſh Herbs are ſcarce. </head>
+          <p rend="indent">
+            <lb/>Take Leaves of Scurvy-graſs, four handfuls; <lb/>Broom tops, Pine tops, Juniper
+            tops, of each three <lb/>handfuls; Winters-bark, four ounces: Being ſlic'd <lb/>and
+            bruis'd, pour to them of Whitewine, or Cyder, <lb/>or Whey made with either of 'em,
+            eight pound. <lb/>Diſtill. </p>
+        </div>
+        <gap reason="sampling" unit="pages" quantity="6"/>
+      </div>
+      <gap reason="sampling" unit="pages" quantity="180"/>
+    </body>
+  </text>
+</TEI>

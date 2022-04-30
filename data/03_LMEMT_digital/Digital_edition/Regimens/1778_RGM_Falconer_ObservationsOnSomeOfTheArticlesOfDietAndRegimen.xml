@@ -1,0 +1,997 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LMEMT Corpus - Falconer: Observations on Some of the Articles of Diet and
+          Regimen</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>William Falconer</persName>
+            </author>
+            <title type="main">Observations on some of the articles of diet and regimen usually
+              recommended to valetudinarians.</title>
+            <edition n="1"/>
+            <idno type="ESTC">T7639</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/T7639"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>London: printed for Edward and Charles Dilly, in the Poultry, MDCCLXXVIII.</persName>
+              </publisher>
+              <date>1778</date>
+            </imprint>
+            <extent>
+              <measure type="format">8⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="2"/>
+              <measure type="count" commodity="body" unit="page" quantity="63"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">British Library</orgName>
+            <idno type="ECCO">CW108616090</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Health guide"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text type="book" rend="roman" xml:lang="eng">
+    <body>
+      <pb n="1"/>
+      <figure rend="space">
+        <figDesc>A horizontal triple-line, spanning the whole page. </figDesc>
+      </figure>
+      <head rend="sc align-center space">
+        <lb/><hi rend="size(2.0)">OBSERVATIONS </hi>
+        <lb/><hi rend="space">ON SOME OF THE </hi>
+        <lb/><hi rend="size(2.0) space">A R T I C L E S </hi>
+        <lb/><hi rend="space">OF </hi>
+        <lb/><hi rend="size(1.5) space">DIET and REGIMEN, &amp;c. </hi>
+      </head>
+      <figure rend="space">
+        <figDesc>A short horizontal line in the middle of the page. </figDesc>
+      </figure>
+      <p rend="space">
+        <lb/><hi rend="size(2.0)">I</hi>T muſt be obvious to every perſon <lb/>converſant in the
+        ſcience of medicine, <lb/>that the dietetic part of it, or that which <lb/>reſpects our
+        regimen and way of life, <lb/>has not been improved in equal pro- <pb n="2"/>
+        <lb/>portion with that which regards the ad- <lb/>miniſtration of medicines. This was
+        <lb/>obſerved ſeveral years ago by an expe- <lb/>rienced and learned <note place="bottom"
+          n="*" rend="size(0.75)">
+          <p rend="indent space">
+            <lb/>* Dr. Huxham. Vide his Eſſay on Fevers. </p>
+        </note>practitioner, and <lb/>I believe there is no reaſon to think <lb/>that the caſe is
+        altered ſince his time. <lb/>This inattention has ariſen from ſeveral <lb/>cauſes. Few of
+        the modern writers on <lb/>the Materia Medica conſider ſubſtances <lb/>merely nutritive, or
+        ſuch as are uſed in <lb/>diet, however they may differ from each <lb/>other in their nature,
+        as coming within <lb/>their ſphere, ſo that this ſubject is <lb/>ſcarcely directly treated
+        of under any <lb/>of the branches into which the ſtudy of <lb/>medicine is at preſent
+        divided. Nutri- <lb/>tion indeed itſelf, and the ſubſtances <lb/>that conduce to it, are
+        conſidered as a <lb/>part of phyſiology; but this is more <lb/>with reference to the mode of
+        its being <lb/>performed, and the effects of the ſub- <pb n="3"/>
+        <lb/>ſtances employed in it upon a healthy <lb/>body, than with reſpect to the proper
+        <lb/>choice of them in various diſorders. <lb/>Few likewiſe of the modern practical
+        <lb/>writers are very explicit on this ſubject, <lb/>and their directions relative to it are
+        <lb/>more commonly drawn from reaſoning <lb/>and theory, or the authority of former
+        <lb/>writers, than any actual experience of <lb/>the effects of the ſubſtances recom-
+        <lb/>mended or forbidden. In reſpect of <lb/>attention to this point, we are far
+        <lb/>inferior to the ancients. </p>
+      <p rend="indent space">
+        <lb/>Hippocrates hardly deſcribes a diſ- <lb/>eaſe without recommending a regimen <lb/>of
+        life adapted to its cure; and this <lb/>circumſtance, which in reality is <lb/>greatly to
+        his credit, has been, I am <lb/>perſuaded, one of the grounds of the <lb/>objections made
+        againſt his practice, as <lb/>being in many caſes frivolous and inef- <pb n="4"/>
+        <lb/>ficacious, which would have been in a <lb/>great meaſure obviated, had many of <lb/>the
+        ſubſtances he adviſes been conſider- <lb/>ed as articles of diet rather than of me-
+        <lb/>dicine. </p>
+      <p rend="indent space">
+        <lb/>His commentator Galen, and his <lb/>follower Celſus, have both imitated his
+        <lb/>example in this reſpect, as there is ſcarce <lb/>a diſorder treated of by them, wherein
+        <lb/>there is not a very diffuſe and particu- <lb/>lar account of the regimen, and way of
+        <lb/>life which they conceive to be beſt ſuited <lb/>to its cure. </p>
+      <p rend="indent space">
+        <lb/>Aretæus likewiſe, perhaps the moſt <lb/>judicious of any of the ancient writers,
+        <lb/>has laid ſo much ſtreſs on this article <lb/>in many diſorders, that he has declared
+        <lb/>the whole of the cure depends on an <lb/>attention to the regulation of the diet
+        <lb/>and way of life; and this not in chro- <pb n="5"/>
+        <lb/>nical cauſes only, but in acute ones <lb/>alſo. </p>
+      <p rend="indent space">
+        <lb/>The ſame obſervation holds good <lb/>with reſpect to the other moſt approv- <lb/>ed
+        writers of antiquity on the ſubject of <lb/>medicine, and I am apt to think that <lb/>the
+        diſregard of thoſe which has been <lb/>of late ſo ſtudiouſly inculcated by ſe- <lb/>veral of
+        the modern profeſſors of that <lb/>ſcience, and which ſucceeded to the ex- <lb/>travagant
+        veneration formerly paid to <lb/>them, has diminiſhed the attention <lb/>of the faculty to
+        this branch; and in <lb/>that reſpect, as well as many others, has <lb/>been of no ſervice
+        to medicine, either <lb/>as a ſcience or a practical art. Another <lb/>circumſtance
+        ſeemingly trivial, that has <lb/>cauſed this part of medicine to be leſs <lb/>conſidered,
+        is, that the directions for <lb/>the medicines only are accuſtomed to <lb/>be given in
+        writing; whereas thoſe <pb n="6"/>
+        <lb/>which regard diet and regimen, are ge- <lb/>nerally in caſes which require medical
+        <lb/>attendance, only delivered verbally, <lb/>which has in ſome meaſure cauſed them <lb/>to
+        be leſs attended to, and even held as <lb/>inferior in their nature and conſequence <lb/>to
+        thoſe which concern the apothecary. </p>
+      <p rend="indent space">
+        <lb/>The difficulty likewiſe of procuring <lb/>a compliance with rules of regimen <lb/>and
+        diet, has alſo proved a great obſta- <lb/>cle to any improvement that might have <lb/>been
+        produced by practice and obſer- <lb/>vation. </p>
+      <p rend="indent space">
+        <lb/>Theſe cauſes, among many others, <lb/>have contributed to produce that rotin <lb/>of
+        practice ſo conſpicuous in the pre- <lb/>ſent age with regard to this circum- <lb/>ſtance.
+        To correct this in general, and <lb/>lay down rules of diet and regimen <lb/>adapted to the
+        various diſorders incident <pb n="7"/>
+        <lb/>to to human life, would be a highly uſeful, <lb/>though extremely arduous undertaking.
+        <lb/>Such a one, however, would much ex- <lb/>ceed the limits of the preſent pamphlet,
+        <lb/>which is not meant to treat of the ſub- <lb/>ject in general, but to endeavour to
+        <lb/>amend ſome errors into which many <lb/>practitioners have fallen, from indiſcri-
+        <lb/>minately following great names in the <lb/>profeſſion. </p>
+      <p rend="indent space">
+        <lb/>And here I would obſerve, that in <lb/>every caſe wherein we wiſh to preſerve <lb/>the
+        ſtrength as entire as poſſible, as in <lb/>moſt chronical complaints, we ſhould be
+        <lb/>extremely cautious in preſcribing a rigid <lb/>regimen with reſpect to diet, eſpecially
+        <lb/>if ſuch regimen is intended to be long <lb/>continued. </p>
+      <p rend="indent space">
+        <lb/>This circumſtance deſerves particular <lb/>attention on ſeveral accounts. Few per- <pb
+          n="8"/>
+        <lb/>ſons, even of the beſt health, can, with- <lb/>out diſguſt, bear to be confined to a
+        <lb/>peculiar food or way of living for any <lb/>length of time (which is a ſtrong argu-
+        <lb/>ment that variety of food is natural to <lb/>mankind); and if ſo, the debilitated
+        <lb/>ſtomach of Valetudinarians cannot be <lb/>expected to be leſs <note place="bottom"
+          n="*" rend="size(0.75)">
+          <p rend="indent">
+            <lb/>*Hippocrates cautions againſt this very properly <lb/>in chronic
+            diſeaſes—Quapropter hoc admoneo ut <lb/>dicentibus quidem attendant, facientibus autem
+            in- <lb/>cumbant &amp; contractam victus rationem non diu <lb/>preſcribant. Ægrotantis
+            enim diuturnam concu- <lb/>piſcentiam erigit indulgentia etlam in morbo diu-
+            <lb/>turnoa.—Hippocrates Præceptiones, Cap. XI. </p>
+        </note> affected. </p>
+      <p rend="indent space">
+        <lb/>Now in the human body the taſte <lb/>ſeems to be the index or ſign of the ſub-
+        <lb/>ſtance being agreeable to the ſtomach, <lb/>or fit for digeſtion; at leaſt it may be
+        <lb/>ſaid that things diſagreeable to the pa- <lb/>late ſeldom digeſt well, or contribute
+          <pb n="9"/>
+        <lb/>towards the nouriſhment of the body; <lb/>a circumſtance of the moſt eſpecial con-
+        <lb/>cern. A rigid regimen of diet I have alſo <lb/>obſerved frequently to have an ill
+        effect <lb/>on the ſpirits, by continually reminding <lb/>the patients of their valetudinary
+        ſtate, <lb/>by a compariſon of their ſituation with <lb/>that of others who enjoy greater
+        liberty <lb/>in theſe reſpects. </p>
+      <p rend="indent space">
+        <lb/>Another ill effect of a regimen of diet <lb/>is, that it tends to diminiſh the quantity
+        <lb/>of food taken in, which conduces <lb/>greatly to weaken the body, not only <lb/>on
+        account of the defect of quantity <lb/>of nouriſhment, though that is of no <lb/>ſmall
+        importance, but alſo by other <lb/>means. </p>
+      <p rend="indent space">
+        <lb/>The filling of the ſtomach at ſtated <lb/>intervals to a certain degree with food,
+        <lb/>ſeems neceſſary to the health of the <pb n="10"/>
+        <lb/>human frame, not on account only of <lb/>the nouriſhment it ſupplies, but alſo of
+        <lb/>the tenſion thereby produced on the <lb/>fibres of the ſtomach, which is from
+        <lb/>thence communicated to the ſyſtem, and <lb/>ſerves alſo to excite ſuch a degree of
+        <lb/>reaction in the ſtomach itſelf, and ali- <lb/>mentary canal, as to enable it to digeſt
+        <lb/>the food, and diſtribute the nouriſh- <lb/>ment properly through the Syſtem. It <lb/>is
+        therefore probable then, that when <lb/>a quantity of the food is ſubſtracted, the <lb/>body
+        ſuffers not only from defect of nu- <lb/>triment, but alſo from want of its accuſ-
+        <lb/>tomed ſtimulus and firmneſs of fibre, <lb/>which were uſed to be imparted to it at
+        <lb/>certain periods. </p>
+      <p rend="indent space">
+        <lb/>It is probable alſo, that when the <lb/>food is taken in an under proportion, <lb/>that
+        for the reaſons above given, it <lb/>would neither be itſelf ſo well digeſted, <pb n="11"/>
+        <lb/>nor the chyle it affords ſo perfectly aſ- <lb/>ſimilated. A healthy ſtomach is indeed
+        <lb/>enabled to accommodate itſelf without <lb/>much inconvenience to conſiderable va-
+        <lb/>rieties in this reſpect, but where its <lb/>powers are debilitated, the ſmalleſt dif-
+        <lb/>ference may be of the utmoſt impor- <lb/>tance. </p>
+      <p rend="indent space">
+        <lb/>I imagine alſo, that a diminution of <lb/>the quantity of food has another effect,
+        <lb/>which is a very common attendant on <lb/>an impaired digeſtion, viz. that of in-
+        <lb/>ducing a coſtive habit. When the re- <lb/>action of the ſtomach is inconſiderable,
+        <lb/>little tenſion is communicated to the <lb/>inteſtines, and of conſequence their
+        <lb/>propulſive power is much weakened, <lb/>eſpecially as the bulk of the food is too
+        <lb/>ſmall to prove any conſiderable ſtimu- <lb/>lar to the bowels themſelves. </p>
+      <pb n="12"/>
+      <p rend="indent">
+        <lb/>Theſe circumſtances duly conſidered, <lb/>ought to make phyſicians very cauti- <lb/>ous
+        in limiting the mode of living, and <lb/>particularly the quantity of food under <lb/>ſuch
+        circumſtances. </p>
+      <p rend="indent space">
+        <lb/>I would here alſo particularly object <lb/>againſt ſome of thoſe prepoſterous at-
+        <lb/>tempts to combine together food and <lb/>medicine, which I have frequently ob-
+        <lb/>ſerved. Thus I have many times ſeen <lb/>infuſions of bitter and fœted herbs, ſuch
+        <lb/>as the carduus benedictus,flowers of cha- <lb/>mæmel,and the marſh trefoil,commonly
+        <lb/>called buckbean, directed to be taken <lb/>at breakfaſt, in place either of nutritive
+        <lb/>ſubſtances, or ſuch as by their agree- <lb/>able flavour promoted the taking in of
+        <lb/>nouriſhment. I have alſo ſeen the ſame <lb/>recommended in ſome meaſure at din-
+        <lb/>ner; and I hardly need add, that in all <lb/>ſuch caſes I have obſerved the appetite
+          <pb n="13"/>
+        <lb/>and ſtrength to be impaired, and all the <lb/>bad ſymptoms ſucceed that ariſe from a
+        <lb/>defect of nouriſhment. But this, con- <lb/>ſiderable as it may be, is not the only
+        <lb/>inconvenience. It frequently cauſes <lb/>medicinal courſes of this kind to be
+        <lb/>longer continued than is conſiſtent either <lb/>with the intentions of the phyſician,
+        or <lb/>the health of the patient. Beſides moſt <lb/>of the ſubſtances recommended on theſe
+        <lb/>occaſions, are of the bitter kind, and <lb/>it is well known that the long conti-
+        <lb/>nued uſe of bitters is very hazardous <lb/>to the health and conſtitution. </p>
+      <p rend="indent space">
+        <lb/>The famous Portland Powder for the <lb/>gout was nothing more than a combi- <lb/>nation
+        of ſtrong bitters, which had in- <lb/>deed the effect of preventing the pain- <lb/>ful
+        returns of that complaint in inflam- <lb/>mation of the extremities, but was al- <lb/>moſt
+        always attended with the moſt per- <pb n="14"/>
+        <lb/>nicious conſequence to health and life. <lb/>Nor are the ill effects of the long con-
+        <lb/>tinued uſe of bitters to be apprehend- <lb/>ed by thoſe only who are ſubject to the
+        <lb/>gout, ſince they act by injuring the <lb/>tone of the ſtomach, and if long per-
+        <lb/>ſiſted in, will entirely deſtroy its villous <lb/>coat. This will ſhew the danger of
+        <lb/>employing them for a long period to- <lb/>gether, whatever the circumſtances of
+        <lb/>the health may be. </p>
+      <p rend="indent space">
+        <lb/>Another piece of advice which I have <lb/>known ſometimes given to thoſe whoſe
+        <lb/>ſtomach and digeſtion is weak, is, to <lb/>take their food as dry as poſſible, or to
+        <lb/>drink as little as they can of any liquid <lb/>with their meat. </p>
+      <p rend="indent space">
+        <lb/>This is among other things adviſed <lb/>by Dr. Cadogan, in his treatiſe on the
+        <lb/>gout and other chronical diſeaſes. How <pb n="15"/>
+        <lb/>this this came to be made an article of regi- <lb/>men in general, I am at a loſs to
+        ſay, or <lb/>how the thirſt came to be thought a leſs <lb/>certain ſign than hunger, of the
+        proper <lb/>degree of indulging a natural appetite <note place="bottom" n="*"
+          rend="size(0.75)">
+          <p rend="indent">
+            <lb/>* Fidi autem (ſitis &amp; fames) naturæ duces <lb/>ſunt.—Haller. </p>
+          <p rend="indent">
+            <lb/>Cum porro eædem cauſæ ſitim faciant quæ faciunt <lb/>neceſſitatem bibendi, æquum
+            eſt eadem menſurâ &amp; <lb/>finem obtineri ob quem bibitur, &amp; terminum facere
+            <lb/>deſiderii.—Adeo fidelis eſt horum deſideriorum vox, <lb/>ut etiam ſpeciem cibi
+            potuſque, omnino aptiſſimé <lb/>diſtinguant. Haller Phyſ. vol. VI. p. 188. </p>
+        </note>. <lb/>Exceſs in either is obviouſly prejudi- <lb/>cial, but of the two, provided
+        ſpiritu- <lb/>ous liquors be not the object, it is leſs <lb/>dangerous to exceed in quantity
+        of li- <lb/>quid than of ſolid food <note place="bottom" n="†" rend="size(0.75)">
+          <p rend="indent space">
+            <lb/>† Magis in cibo minus in potu peccatur cujus <lb/>major portio poſſit quaſi
+            inſundi, quia ventriculo non <lb/>retinetur. Haller. Phyſiol. vol. 6. p. 254. </p>
+        </note>. I have my- <lb/>ſelf frequently ſeen this reſtriction put <pb n="16"/>
+        <lb/>in practice, but never with any good <lb/>effect; and generally the conſequence <lb/>of
+        it was, to produce or increaſe a coſ- <lb/>tive habit, which is itſelf a frequent <lb/>and
+        troubleſome ſymptom in theſe diſ- <lb/>orders. </p>
+      <p rend="indent space">
+        <lb/>To avoid all vegetable food, fruit, <lb/>and even bread, and to uſe animal food
+        <lb/>for the ſolid part of our diet, has been, <lb/>and ſtill is ſometimes recommended in
+        <lb/>caſes of bad digeſtion, attended with <lb/>flatulence, acidity, and other ſymptoms
+        <lb/>that uſually accompany ſuch complaints. <lb/>This has been, no doubt, adviſed upon
+        <lb/>the ſuppoſition that animal food will <lb/>not run either into the vinous or ace-
+        <lb/>tous fermentation, and of conſequence <lb/>produce neither flatulence nor acidity
+        <lb/>either in the ſtomach or inteſtines. But <lb/>the truth of this theory is very much
+        <lb/>to be doubted. </p>
+      <pb n="17"/>
+      <p rend="indent">
+        <lb/>It has been found impracticable for any <lb/>perſon to ſubſiſt on animal food alone
+        <lb/>for even a few days, as a putrid diſpo- <lb/>ſition of the body ſoon begins to take
+        <lb/>place, as is manifeſted by the nauſea <lb/>and thirſt which almoſt conſtantly oc-
+        <lb/>cur. </p>
+      <p rend="indent space">
+        <lb/>Some mixture of vegetable food then <lb/>is neceſſary to the ſupport of life. But
+        <lb/>a compoſition of animal and vegetable <lb/>ſubſtances is ſubject to both the vinous
+        <lb/>and acetous fermentations, as appears <lb/>by Sir John Pringle's experiments on
+        <lb/>animal and vegetable decoctions, all of <lb/>which became in time aceſcent. Nay,
+        <lb/>he even found that an admixture of <lb/>animal matter both accelerated and
+        <lb/>heightened the acetous fermentation to <lb/>a great degree. </p>
+      <pb n="18"/>
+      <p rend="indent">
+        <lb/>Animal diet then alone is not capa- <lb/>ble of obviating theſe ſymptoms, and <lb/>I
+        greatly ſuſpect that in many inſtances <lb/>it aggravates them conſiderably. Ani- <lb/>mal
+        and vegetable ſubſtances generate <lb/>air during the putrefactive fermentation, <lb/>as
+        well as during the vinous or acetous, <lb/>and this is obſervable in putrid fevers,
+        <lb/>wherein fœtid eructations are very fre- <lb/>quent and troubleſome; and for the
+        <lb/>cure of which vegetable ſubſtances are <lb/>highly efficacious. </p>
+      <p rend="indent space">
+        <lb/>This is alſo further exemplified in <lb/>the ſcurvy; a high degree of which is
+        <lb/>very apt to be produced by a long con- <lb/>tinued uſe of this diet. I have never
+        <lb/>obſerved myſelf flatulence to be in- <lb/>creaſed by the moderate proportion of
+        <lb/>vegetables, provided they were dreſſed, <lb/>and either of the root kind, as pota- <pb
+          n="19"/>
+        <lb/>toes, &amp;tc. or farinaceous ſeeds, as rice, <lb/>barley, &amp;tc. </p>
+      <p rend="indent space">
+        <lb/>Bread likewiſe, and perhaps with <lb/>ſtill leſs reaſon than any of the other
+        <lb/>vegetable ſubſtances, is often included <lb/>in the general prohibition. This per-
+        <lb/>haps is the moſt miſtaken as well as <lb/>dangerous piece of advice that can poſ-
+        <lb/>ſibly be given. The uſe of bread is as <lb/>ancient as the hiſtory of mankind, and at
+        <lb/>the ſame time ſo univerſal, that without <lb/>ſomething of this nature no people ſeem
+        <lb/>to live. Even the dreary Laplander, <lb/>though from the aſperity of his climate
+        <lb/>unable to raiſe corn, makes a ſubſtitute <lb/>for bread of the inner rind of the pine-
+        <lb/>tree mixed with dried fiſhes, which does <lb/>not appear to be uſed ſo much with a
+        <lb/>view to the nouriſhment it affords, as <lb/>that it ſupplies a food of a proper con-
+        <lb/>ſiſtence. For this mankind have an <pb n="20"/>
+        <lb/>univerſal appetite, which is not difficult <lb/>to account for. The digeſtion of our
+        <lb/>food depends in a great degree on the <lb/>mixture of the animal fluids in every
+        <lb/>ſtage of it; one of the firſt and perhaps <lb/>the principal of theſe is the ſaliva,
+        <lb/>which is conſtantly preſent in all ani- <lb/>mals, even in inſects. To draw this
+        <lb/>fluid forth from the glands that ſecretes <lb/>it, a ſolid food is neceſſary as a
+        ſtimu- <lb/>lus, and to afford a ſufficient preſſure; <lb/>and it is likewiſe requiſite that
+        it ſhould <lb/>be dry as well as ſolid, in order to ab- <lb/>ſorb the fluid thus preſſed
+        out. Mild, <lb/>ſlippery, and fluid aliments, are too inert <lb/>to act as a ſtimulus, too
+        ſoft to impart <lb/>a preſſure, and make too ſhort a ſtay in <lb/>the mouth to exert any
+        effect in this <lb/>way, and are moreover not fitted to <lb/>abſorb the glandular liquor. </p>
+      <pb n="21"/>
+      <p rend="indent">
+        <lb/>Bread likewiſe being neceſſary to be <lb/>chewed before it be ſwallowed, has
+        <lb/>another ſuperiority over fluid aliment, <lb/>as the action of the mouth, in perform-
+        <lb/>ing that operation, tends to preſs out <lb/>the ſalivary glands, while the ſaliva it-
+        <lb/>ſelf, by means of the action of the <lb/>teeth, is mixed properly with the food.
+        <lb/>It is likewiſe of the utmoſt ſervice in <lb/>uniting the oily and watery parts of our
+        <lb/>food, for which nothing is better a- <lb/>dapted than bread, aſſiſted by a previ-
+        <lb/>ous manducation. As a ſolid body, <lb/>bread alſo, when received into the ſto-
+        <lb/>mach, ſtimulates and preſſes out the <lb/>glands, and produces a proper ſupply <lb/>of
+        the gaſtric liquor, which is like- <lb/>wiſe a purpoſe not to be attained by <lb/>mere fluid
+        aliment. Nor is bread thus <lb/>prepared much liable to the objections <lb/>generally made
+        to it and other vegeta- <lb/>ble food, viz. of generating flatulence <pb n="22"/>
+        <lb/>and and acidity. It has already paſſed in <lb/>a great meaſure through the ſtage of
+        <lb/>the vinous fermentation, and therefore <lb/>can undergo it only imperfectly a ſe-
+        <lb/>cond time, and its intimate mixture <lb/>with the animal fluids, the ſaliva par-
+        <lb/>ticularly, prevents the acetous fermen- <lb/>tation going to any great length; which
+        <lb/>laſt indeed, when it takes place, cauſes <lb/>the bread to become in a degree purga-
+        <lb/>tive, and of conſequence to be ſooner <lb/>evacuated. </p>
+      <p rend="indent space">
+        <lb/>But in reality the acetous fermenta- <lb/>tion of which bread is capable, is ſcarce
+        <lb/>ever increaſed to any great degree, and <lb/>the ſour or leavened cakes, <note
+          place="bottom" n="*" rend="size(0.75)">
+          <p rend="indent">
+            <lb/>* This is probably owing to the heat uſed in the <lb/>baking, which acts very
+            powerfully in ſtopping fer- <lb/>mentation. </p>
+        </note>, in which <lb/>this fermentation is purpoſely promot- <lb/>ed, do not appear by
+        experience to give <pb n="23"/>
+        <lb/>any uneaſineſs by their acidity, and are <lb/>found by many a great preventative of
+        <lb/>flatulence, as having already compleat- <lb/>ed the vinous fermentation, they no
+        <lb/>longer give out air. </p>
+      <p rend="indent space">
+        <lb/>Such then are ſome of the advan- <lb/>tages attending the uſe of bread in our
+        <lb/>diet. Let us now ſee how theſe can be <lb/>compenſated by ſubſtituting animal <lb/>food
+        in the room of it. </p>
+      <p rend="indent space">
+        <lb/>Animal food as being in itſelf ſtimu- <lb/>lant and of a ſolid conſiſtence, may
+        <lb/>have the ſame effects as bread, in com- <lb/>preſſing the ſalival glands, and thoſe
+        <lb/>alſo of the ſtomach; but as its pores <lb/>are already filled with a fluid, it does
+        <lb/>not ſo well abſorb the ſaliva, or mix ſo <lb/>intimately with it. It is likewiſe deſti-
+        <lb/>tute of a proper intermedium for unit- <lb/>ing the oily and watery parts, in both <pb
+          n="24"/>
+        <lb/>of which animal ſubſtances abound ſo <lb/>largely. They are therefore very apt <lb/>to
+        ſeparate, and the oily part as the <lb/>lighteſt to ſwim at top, which cauſes <lb/>thoſe
+        oily eructations which flame in <lb/>the fire, which people of weak digeſtion <lb/>are
+        liable to, and which I have myſelf <lb/>obſerved to be much more frequent <lb/>with thoſe to
+        whom bread is prohibit- <lb/>ed; and which ſymptom I have ſeen <lb/>manifeſtly relieved by
+        returning to the <lb/>uſe <choice>
+          <corr>of</corr>
+          <sic>oſ</sic>
+        </choice> that ſubſtance. The leaving off <lb/>bread has alſo another ill effect in pre-
+        <lb/>venting the taking in of ſufficient nou- <lb/>riſhment, animal food itſelf being ex-
+        <lb/>tremely apt to pall and nauſeate the <lb/>ſtomach, and of conſequence to be <lb/>taken
+        in leſs quantity than if a <lb/>proportion of vegetable food was join- <lb/>ed with it. But
+        the moſt material in- <lb/>convenience this kind of diet produces, <lb/>is, by the putrid
+        tendency of the ani- <pb n="25"/>
+        <lb/>mal fluids, which it brings on if long <lb/>continued, and which the uſe of bread
+        <lb/>alone is ſufficient in a great meaſure to <lb/>obviate. </p>
+      <p rend="indent space">
+        <lb/>Butter likewiſe has been generally <lb/>adviſed to be abſtained from by thoſe
+        <lb/>whoſe digeſtion is weak and ſtomach <lb/>flatulent. The uſe of butter, or ſome
+        <lb/>ſubſtitute for it, as oil, is, as far as we <lb/>can learn, equally ancient, and nearly
+        <lb/>as univerſal as that of bread. It is <lb/>deſcribed in the earlieſt hiſtories as con-
+        <lb/>ſtituting a part of the food of mankind, <lb/>and ſeems to have been particularly
+        <lb/>uſed in thoſe countries in which a ve- <lb/>getable diet was the moſt general. </p>
+      <p rend="indent space">
+        <lb/>The propriety of the uſe of ſome- <lb/>thing of this kind in food, ſeems to be
+        <lb/>eſtabliſhed from the general practice, <lb/>nor is it difficult to be accounted for. </p>
+      <pb n="26"/>
+      <p rend="indent">
+        <lb/>Vegetable ſubſtances, and even ſome <lb/>animal ones, when dreſſed by fire, ſeem
+        <lb/>to require ſome oily ſubſtance to be <lb/>taken with them, in order to render <lb/>them
+        acceptable to the taſte. Thus <lb/>butter or oil is univerſally deſired with <lb/>boiled
+        vegetables, and with fiſh, eſpe- <lb/>cially thoſe of the more inſipid kind, <lb/>and which
+        themſelves contain little oily <lb/>matter. This ſeems to be from a na- <lb/>tural inſtinct
+        implanted probably for <lb/>the purpoſe of rendering ſuch ſub- <lb/>ſtances more eaſy of
+        digeſtion, and pro- <lb/>per for nouriſhment. </p>
+      <p rend="indent space">
+        <lb/>Oily ſubſtances themſelves are ex- <lb/>tremely nutritious, as is evidenced by <lb/>the
+        effects of thoſe foods which con- <lb/>tain moſt oil, as animal food, oily ve-
+        <lb/>getables, and milk, which are well <lb/>known to have a great tendency to fat- <pb
+          n="27"/>
+        <lb/>ten thoſe animals that are fed upon <lb/>them. </p>
+      <p rend="indent space">
+        <lb/>Oily ſubſtances beſides are not only <lb/>directly nutritive, but likewiſe contri-
+        <lb/>bute towards ſupplying the oil neceſſary <lb/>in the animal œconomy, as the mem-
+        <lb/>brana adipoſa, the marrow, the oily <lb/>part of the bones, &amp;c. of which there
+        <lb/>is a conſtant waſte, and which requires <lb/>to be frequently renewed. </p>
+      <p rend="indent space">
+        <lb/>Nor is oil uſeful in the ſyſtem for <lb/>the above purpoſes only, as it is neceſ-
+        <lb/>ſary to produce the gelatinous and mu- <lb/>cous, as well as the oily parts, ſuch as
+        <lb/>the ſynovia of the joints, the mucus of <lb/>the bowels, &amp;c. which as Haller ima-
+        <lb/>gines, are ſecreted from the matter <lb/>contained in the adipoſe membrane. </p>
+      <pb n="28"/>
+      <p rend="indent">
+        <lb/>It is likewiſe probable, as Haller <lb/>ſuggeſts, that oil is neceſſary in our
+        <lb/>diet to provide a ſupply of bile, which <lb/>is moſtly compoſed of an oily matter,
+        <lb/>and to the generation of which a con- <lb/>ſtant ſupply of that kind muſt be ne-
+        <lb/>ceſſary. </p>
+      <p rend="indent space">
+        <lb/>Such are ſome of the uſes of oily <lb/>food relative to the ſyſtem, or when
+        <lb/>abſorbed by the lacteal or lymphatic <lb/>veſſels; but it is alſo of conſiderable
+        <lb/>importance in the article of digeſtion, <lb/>and for other purpoſes in the ſtomach
+        <lb/>and inteſtines. </p>
+      <p rend="indent space">
+        <lb/> Oily ſubſtances are of great efficacy <lb/>in checking the vinous fermentation,
+        <lb/>as we ſee by experience, that a very <lb/>ſmall quantity of oil will ſtop, or at
+        <lb/>leaſt conſiderably retard the fermenta- <lb/>tion of a large bulk of any liquor in <pb
+          n="29"/>
+        <lb/>that ſtate, and perhaps its effects in <lb/>ſtopping the ebullition of ſugar, for
+        <lb/>which purpoſe it is uſed by thoſe who <lb/>prepare this commodity, may be owing <lb/>to
+        a ſimilar cauſe. </p>
+      <p rend="indent space">
+        <lb/>Tis probable that our fondneſs for <lb/>butter with vegetables, and for cream <lb/>with
+        ſome raw fruits, may be owing to <lb/>a natural appetite ſuggeſted to us on <lb/>the above
+        account. </p>
+      <p rend="indent space">
+        <lb/>The preſence of oil in the ſtomach <lb/>and bowels, ſeems alſo to be neceſſary for
+        <lb/>covering or moderating the acrimony <lb/>of ſeveral parts of our food, as the
+        <lb/>pungency or ſtimulus of ſeveral vege- <lb/>tables, particularly of the ſpice kind,
+        <lb/>or the ſiliquoſe plants, with which oil <lb/>indeed is generally combined, as in ſal-
+        <lb/>lads, &amp;c. </p>
+      <pb n="30"/>
+      <p rend="indent">
+        <lb/>A proportion of oil in our aliment <lb/>appears alſo to be requiſite to keep the
+        <lb/>alvine evacuations in a regular ſtate. <lb/>Whether this effect be produced by its
+        <lb/>lubricating the bowels, and thus faci- <lb/>litating the paſſage of the food through
+        <lb/>them, or by its aſſiſting to generate bile, <lb/>or to form the natural mucus of the
+        <lb/>inteſtines, I cannot determine; but <lb/>from repeated experience, I have good
+        <lb/>reaſon to think the fact ſufficiently aſ- <lb/>certained. </p>
+      <p rend="indent space">
+        <lb/>Such, among many others, are the <lb/>purpoſes which an admixture of oil <lb/>in our
+        food ſerves in the animal œco- <lb/>nomy. Some inconveniencies it un- <lb/>doubtedly
+        ſometimes produces, eſpe- <lb/>cially where the action of the ſtomach <lb/>and digeſtion is
+        impaired. In theſe <lb/>caſes it is apt to ſeparate from the other <lb/>parts of the food,
+        and ſwim on the top, <pb n="31"/>
+        <lb/>and and thus produce thoſe oily eructations <lb/>before ſpoken of, which are generally
+        <lb/>eſteemed to be among the moſt certain <lb/>marks of an impaired digeſtion. It is
+        <lb/>likewiſe, when thus ſeparated, apt to <lb/>become rancid, and then produces that
+        <lb/>ſenſation about the pit of the ſtomach, <lb/>reſembling the heartburn, which is eſpe-
+        <lb/>cially obſervable whenever the butter <lb/>or oil has been expoſed to any conſi-
+        <lb/>derable degree of heat. </p>
+      <p rend="indent space">
+        <lb/>But the former of theſe inconveni- <lb/>encies, I am ſatisfied is generally ow-
+        <lb/>ing, at leaſt in a great meaſure, to the <lb/>regimen of life uſually adviſed in ſuch
+        <lb/>caſes, and particularly to the forbid- <lb/>ding of bread, one of the principal
+        <lb/>uſes of which is to promote the due <lb/>mixture of the oily parts with the re-
+        <lb/>mainder of the food; and as to the <lb/>latter, it in a great degree depends on <pb
+          n="32"/>
+        <lb/>the other, and may often be in a great <lb/>meaſure remedied by care in the choice
+        <lb/>of our food, and caution in dreſſing, <lb/>that it be not expoſed to too vehement
+        <lb/>a heat, as in ſuch caſes it is apt to pro- <lb/>duce a diſagreeable ſtimulus, and is
+        alſo <lb/>not nearly ſo miſcible with the animal <lb/>fluids, as if none, or a moderate heat
+        <lb/>only had been employed. </p>
+      <p rend="indent space">
+        <lb/>On a review of theſe arguments I can- <lb/>not help being of opinion, that the pro-
+        <lb/>hibition of butter and oily ſubſtances to <lb/>perſons in a valetudinary ſtate, is by
+        <lb/>much too indiſcriminate. In caſes where <lb/>the habit is corpulent, and inconvenien-
+        <lb/>cies obviouſly ariſe from thence, ſuch <lb/>a reſtriction is highly proper and neceſ-
+        <lb/>ſary, but theſe ſcarce ever occur where <lb/>the ſtomach and appetite are impaired,
+        <lb/>in which caſes the indications in general <lb/>are of a contrary kind; to ſupport the
+          <pb n="33"/>
+        <lb/>ſtrength, and of conſequence the bulk <lb/>of the body as much as poſſible. </p>
+      <p rend="indent space">
+        <lb/>Moſt hypochondriacal caſes are of <lb/>this kind: the ſubjects of which are
+        <lb/>commonly of a lean and ſpare habit of <lb/>body, which is indeed a ſymptom of <lb/>the
+        complaint, of the recovery from <lb/>which there is no ſign more certain than <lb/>the
+        regaining or acquiring a due pro- <lb/>portion of fleſh and plumpneſs. </p>
+      <p rend="indent space">
+        <lb/>I think I have been able to obſerve <lb/>ſeveral inconveniencies of the kind be-
+        <lb/>fore mentioned, to ariſe from a reſtraint <lb/>in this article of diet, and this
+        without <lb/>any alleviation of the ſymptoms it was <lb/>intended to relieve; and have
+        ſeveral <lb/>times ſeen ſuch perſons return to their <lb/>former diet, and a moderate uſe of
+        ſub- <lb/>ſtances of this kind in their food, not <lb/>only without any aggravation, but <pb
+          n="34"/>
+        <lb/>often with a manifeſt abatement of their <lb/>troubleſome ſymptoms. </p>
+      <p rend="indent space">
+        <lb/>I am ſenſible indeed that if we were <lb/>to attend to the accounts given by many
+        <lb/>valetudinary perſons, we might be apt <lb/>to conceive the moſt dreadful conſe-
+        <lb/>quences liable to occur in many caſes <lb/>from the uſe of butter or oily ſub-
+        <lb/>ſtances. But the caprice of valetudi- <lb/>narians, eſpecially hypochondriacal per-
+        <lb/>ſons, who form a large proportion of <lb/>them, is ſuch as to diſable them from
+        <lb/>much candour of obſervation, and con- <lb/>ſequently to render thtrir accounts very
+        <lb/>ſuſpicious. </p>
+      <p rend="indent space">
+        <lb/>From a habit of ill health they are <lb/>led naturally enough to a conſideration
+        <lb/>of the ſubject, but being in general <lb/>deſtitute of the fundamental principles
+        <lb/>of medical knowledge, they are very <pb n="35"/>
+        <lb/>partial in obſervation, and ſtill more <lb/>prejudiced in their concluſions. Add
+        <lb/>to this an impetuoſity and obſtinacy of <lb/>temper, which frequently attends ſuch
+        <lb/>people, and which is very different from <lb/>that diſpoſition which is the moſt likely
+        <lb/>to devellop philoſophical truths by pa- <lb/>tient, accurate, and repeated obſerva-
+        <lb/>tion. Several of theſe I have myſelf <lb/>met with, who being prepoſſeſſed a-
+        <lb/>gainſt its uſe, have given the moſt <lb/>dreadful accounts of the ill effects of <lb/>a
+        ſmall quantity of butter or other oily <lb/>ſubſtance, yet I have prevailed with ſe-
+        <lb/>veral of the moſt prejudiced of theſe <lb/>that I have met with, to make the trial
+        <lb/>of its uſe a ſecond time, and can ſafely <lb/>ſay, that I have never obſerved any ill
+        <lb/>effects therefrom, provided the cautions <lb/>beforementioned were attended to; but
+        <lb/>have always found it grateful and ac- <pb n="36"/>
+        <lb/>ceptable to the ſtomach, rather aſſiſtant <lb/>than injurious to digeſtion, and where
+        <lb/>its nutritious properties were deſired, <lb/>highly ſerviceable, not only by its own
+        <lb/>proper qualities, but alſo by its render- <lb/>ing other food more agreeable, and of
+        <lb/>conſequence liable to be taken in greater <lb/>quantity. </p>
+      <p rend="indent space">
+        <lb/>The above remarks are applicable <lb/>not to butter only, but alſo in a great
+        <lb/>meaſure to the fat of animals. There <lb/>is indeed ſome difference; butter is al-
+        <lb/>ways mixed with a proportion of ani- <lb/>mal mucilage; which renders it more
+        <lb/>miſcible with the juices of the body, <lb/>but at the ſame time more apt to be-
+        <lb/>come ranceſcent. Vegetable oils are <lb/>free from this, but at the ſame time <lb/>by
+        long keeping are capable of becom- <lb/>ing rancid alſo, and as all thoſe we <lb/>uſe in
+        this country internally, come <pb n="37"/>
+        <lb/>from abroad, and of conſequence muſt <lb/>have been long kept, they are ſeldom <lb/>if
+        ever free from a taint of this kind. </p>
+      <p rend="indent space">
+        <lb/>Animal fats are alſo liable to ranceſ- <lb/>cency, and alſo to a higher degree of
+        <lb/>putrefaction; but as they are always <lb/>eaten (except in ſalted meat) before
+        <lb/>this has time to take place it is of little <lb/>conſequence, and indeed the difference
+        <lb/>between theſe and butter, with reſpect <lb/>to their effects on the human body, is
+        <lb/>not ſufficiently diſtinguiſhed to render <lb/>it of conſequence ſufficient to be parti-
+        <lb/>cularly noticed. </p>
+      <p rend="indent space">
+        <lb/>Another of the forbidden articles is <lb/>ſugar, and the ſubſtances prepared with
+        <lb/>it. This is probably on account of its <lb/>aceſcency to which it is undoubtedly,
+        <lb/>under ſome circumſtances, liable in a <lb/>conſiderable degree. But I much doubt <pb
+          n="38"/>
+        <lb/>if it often exerts this quality in the hu- <lb/>man body, ſo as to be injurious. The
+        <lb/>repeated boilings that ſugar, at leaſt <lb/>the better kinds of it uſed in this coun-
+        <lb/>try, have undergone, check in a great <lb/>meaſure its fermentative quality, and as
+        <lb/>it is alſo with us moſtly uſed under cir- <lb/>cumſtances wherein it has been expoſed
+        <lb/>to a heat ſtill more conſiderable, as in <lb/>preſerved fruits, pies, puddings, &amp;c.
+        <lb/>this tendency is ſtill farther corrected. <lb/>Van Swieten mentions ſeveral examples
+        <lb/>of perſons who have taken ſugar in <lb/>ſuch quantities, as not to be eſteemed <lb/>ſo
+        much a condiment as an article of <lb/>food, and this without experiencing any <lb/>of the
+        ill effects that might be ſuppoſed <lb/>to ariſe from ſuch a diet, but on the <lb/>contrary
+        found it an innocent, nutriti- <lb/>ous, and healthy ſubſtance. I am ſatiſ- <lb/>fied, from
+        experience, that even crude <lb/>ſugar is ſo far from adding to the aceſ- <pb n="39"/>
+        <lb/>cency of vegetables, that it checks it <lb/>conſiderably; and I believe it is a com-
+        <lb/>mon remark, that ſeveral fruits, which <lb/>eaten alone, create flatulence in many
+        <lb/>ſtomachs, have no ſuch effects when <lb/>taken with ſugar; and what is a great
+        <lb/>confirmation of this, it is well known <lb/>that thoſe fruits which contain the moſt
+        <lb/>ſugar, eſpecially if they approach to a <lb/>farinaceous conſiſtence, may be eaten
+        <lb/>with the greateſt ſafety of any. </p>
+      <p rend="indent space">
+        <lb/>Theſe circumſtances being conſider- <lb/>ed, it appears that ſugar, at leaſt in
+        <lb/>the quantity it is uſually taken, is far <lb/>from being injurious, even to perſons
+        <lb/>of a weak ſtomach and digeſtion, nor <lb/>indeed do I recollect ever to have heard
+        <lb/>any complaint on that account. It is <lb/>now found to be not only an innocent <lb/>but
+        even a neceſſary part of the aliment <pb n="40"/>
+        <lb/>of <note place="bottom" n="*" rend="size(0.75)">
+          <p rend="indent">
+            <lb/>* Vide Armſtrong on the diſeaſes moſt fatal to <lb/>infants, p. 137. </p>
+        </note> young children, to whom a food <lb/>of an aceſcent nature would be ill a-
+        <lb/>dapted, as their ſtomachs are ſo ſubject <lb/>to acidity; and moreover the fondneſs
+        <lb/>of children for this ſubſtance, is a great <lb/>evidence of its ſalubrity, at leaſt to
+        them; <lb/>and ſuch a one likewiſe as we cannot <lb/>ſuſpect of being feigned or
+        miſrepreſent- <lb/>ed, or of being any other than a natural <lb/>inſtinct. </p>
+      <p rend="indent space">
+        <lb/>But in my opinion ſugar is ſo far <lb/>from exerting any ill effects in caſes of
+        <lb/>weak digeſtion, that it is highly bene- <lb/>ficial. In order to render digeſtion
+        <lb/>perfect, it is neceſſary that the oily and <lb/>watery parts of our aliment ſhould be
+        <lb/>intimately combined, and the ſeparation <lb/>of theſe, as I have before remarked, is
+          <pb n="41"/>
+        <lb/>one of the ſtrongeſt marks of the im- <lb/>perfection of this proceſs. But nothing
+        <lb/>contributes more to the union of theſe <lb/>ſubſtances than ſugar, as is well known
+        <lb/>in many <note place="bottom" n="*" rend="size(0.75)">
+          <p rend="indent">
+            <lb/>* Van Swieten relates a ſtory of a phyſician, who <lb/>after enjoining a lady, as
+            ſhe valued the life of her <lb/>child, not to ſuffer him to taſte the ſmalleſt particle
+            <lb/>of ſugar, immediately preſcribed a mixture of a <lb/>few ounces only in quantity,
+            into which he directed <lb/>an ounce of ſyrup to be put. He did not recollect <lb/>that
+            in all the officinal ſyrups, two thirds are com- <lb/>poſed of ſugar. Van Swieten Comm.
+            vol. v. p. <lb/>586. </p>
+        </note> pharmaceutical proceſſes, <lb/>and the idea of this has been carried ſo <lb/>far by
+        ſome medical writers, as to ima- <lb/>gine that ſugar by rendering the <note place="bottom"
+          n="†" rend="size(0.75)">
+          <p rend="indent">
+            <lb/>† Olea nimis ſolvendo macilentiam inducere po- <lb/>teſt. Boerhaave Elem. Chem.
+            vol. ii. p. 160. </p>
+        </note> oily <lb/>parts of our bodies more apt to paſs <lb/>off by the excretories on
+        account of <lb/>their intimate union with the watery <lb/>fluids, was apt to induce
+        leanneſs, or a <pb n="42"/>
+        <lb/>waſting of the ſolids: <note place="bottom" n="§" rend="size(0.75)">
+          <p rend="indent space">
+            <lb/>§ Lewis Materia Medica, article Saccharum. </p>
+        </note> others from <lb/>the opinion that it prevented the ſepa- <lb/>ration of the oily
+        matter that forms fat <lb/>from the blood, have concluded that <lb/>it has a contrary
+        effect, viz. that of in- <lb/>creaſing corpulence or fatneſs; others <lb/>ſtill have
+        attributed to it the effect of <lb/>producing a lentor on the fluids, retard- <lb/>ing the
+        circulation, obſtructing the na- <lb/>tural ſecretions, and thus occaſioning <lb/>or
+        aggravating ſcorbutic, cachectic, <lb/>hypochondriacal, or other diſorders. <lb/>General
+        experience, however, has not <lb/>ſhewn that ſugar produces any of theſe <lb/>effects in any
+        remarkable degree. Its <lb/>moderate uſe appears to be at leaſt in- <lb/>nocent, and perhaps
+        of all that have <lb/>been yet diſcovered, it is the moſt uni- <lb/>verſally innocent and
+        inoffenſive, as <lb/>well as the moſt ſimple ſweet. </p>
+      <pb n="43"/>
+      <p rend="indent">
+        <lb/>The laſt I ſhall mention, and as I think <lb/>the moſt exceptionable direction with
+        <lb/>reſpect to diet, is that of ſubſtituting <lb/>brandy, or rum and water for common
+        <lb/>drink, in place of malt liquours, or <lb/>other uſual liquid drank at meals, and
+        <lb/>to quench thirſt. </p>
+      <p rend="indent space">
+        <lb/>This, I am ſorry to be obliged to <lb/>obſerve, is now become too common a
+        <lb/>practice, and from being adviſed in ex- <lb/>traordinary caſes, as a temporary expe-
+        <lb/>dient by ſome eminent practitioners, is <lb/>now commonly directed in almoſt all
+        <lb/>caſes of weakneſs of the ſtomach and <lb/>digeſtive organs by every apothecary,
+        <lb/>and that not as a thing of temporary <lb/>neceſſity, but as a perpetual article of
+        <lb/>diet. I queſtion, however, if any cir- <lb/>cumſtance ever occurred in medicine
+        <lb/>more injurious to the ſcience, or fatal <lb/>to mankind, than this unfortunate piece
+          <pb n="44"/>
+        <lb/>of advice. Haller <note place="bottom" n="*" rend="size(0.75)">
+          <p rend="indent space">
+            <lb/>* Haller Phyſiolog. vol. vi. p. 25<unclear>1</unclear>. </p>
+        </note> makes it a ſerious <lb/>queſtion, if ſpirituous liquors are to be <lb/>counted among
+        the poiſonous or medi- <lb/>cinal liquids, and laments the increaſe <lb/>of their uſe
+        throughout Europe, as a <lb/>circumſtance highly prejudicial to the <lb/>health of mankind.
+        And it ſeems par- <lb/>ticularly unfortunate, that at a period <lb/>when the wiſdom and
+        humanity of the <lb/>legiſlature reſtrained the uſe of ſpiritu- <lb/>ous liquors among the
+        common people <lb/>of this country, and alſo prevented the <lb/>diſtribution of the ſame
+        poiſon among <lb/>the American Indians, on the fulleſt <lb/>proofs and conviction of its
+        miſchie- <lb/>vous conſequenee, that the ſame prac- <lb/>tice in effect ſhould be adviſed by
+        thoſe <lb/>whoſe duty and profeſſion led them to <lb/>ſtudy the health of their fellow crea-
+        <lb/>tures. </p>
+      <pb n="45"/>
+      <p rend="indent">
+        <lb/>Some may perhaps be of opinion that <lb/>I have here expreſſed myſelf with <lb/>greater
+        warmth than the ſubject re- <lb/>quires, but the melancholy events, to <lb/>which I have
+        myſelf been a witneſs, <lb/>produced by this odious and inſidious <lb/>practice, prompt me
+        to expreſs my <lb/>diſapprobation of it in the ſtrongeſt <lb/>terms; but as I do not mean to
+        con- <lb/>demn any practice without endeavour- <lb/>ing at leaſt to give ſome reaſons for ſo
+        <lb/>doing, I ſhall next examine the argu- <lb/>ments that may be brought in favour <lb/>of,
+        or urged in objection to it. </p>
+      <p rend="indent space">
+        <lb/>And firſt, it has been alledged, that <lb/>brandy, or rum and water may be ex-
+        <lb/>actly proportioned in point of ſtrength <lb/>to malt drink, or any other liquour to
+        <lb/>which we have been accuſtomed, and <lb/>of conſequence with reſpect to that cir-
+        <lb/>cumſtance muſt be equally innocent. </p>
+      <pb n="46"/>
+      <p rend="indent">
+        <lb/>That it may be every where procur- <lb/>ed in tolerable perfection, and is not
+        <lb/>liable to vary with the ſeaſon of the <lb/>year, and other circumſtances which
+        <lb/>affect malt liquours, and inſtead of de- <lb/>generating improves by age. </p>
+      <p rend="indent space">
+        <lb/>That it is itſelf incapable of either <lb/>the vinous or acetous fermentation, and
+        <lb/>alſo checks it in other ſubſtances; <lb/>whence it muſt be highly ſerviceable in
+        <lb/>ſtomachs wherein theſe fermentations <lb/>are apt to be carried too far. </p>
+      <p rend="indent space">
+        <lb/>That it is drank commonly in the <lb/>Weſt Indies without any ill effects on <lb/>the
+        health or conſtitution. </p>
+      <p rend="indent space">
+        <lb/>With reſpect to the firſt of theſe I <lb/>would obſerve, that though it be true
+        <lb/>that brandy or rum and water may be <lb/>adjuſted in point of ſtrength (or its con- <pb
+          n="47"/>
+        <lb/>taining a proportionable quantity of <lb/>alcohol or rectified ſpirit) to any other
+        <lb/>fermented liquour, that it is not on that <lb/>account equally innocent, or indeed
+        <lb/>ſimilar in other reſpects. The fixible <lb/>air is <note place="bottom" n="*"
+          rend="size(0.75)">
+          <p rend="indent">
+            <lb/>* Dr. Hales found little or no fixible air in bran- <lb/>dy, and it is a known
+            fact, that vinous ſpirits will <lb/>not precipitate lime water. </p>
+        </note> diſſipated in the diſtillation, the <lb/>acid part evaporated, and the union be-
+        <lb/>tween the ſpirit and the water, when <lb/>they are mixed for drinking, is much
+        <lb/>leſs uniform and perfect than in a <lb/>regularly fermented liquor. On this
+        <lb/>account probably it is found to be leſs <lb/>efficacious in exciting the ſecretions, to
+        <lb/>be leſs diuretic and aperient, and at the <lb/>ſame time to poſſeſs a greater degree of
+        <lb/>inflammatory ſtimulus. Theſe proper- <lb/>ties are likely to be the cauſe of another
+        <lb/>effect of vinous ſpirits, viz. that of be- <pb n="48"/>
+        <lb/>ing much more apt to produce diſorders <lb/>of the liver than wine or malt liquours. </p>
+      <p rend="indent space">
+        <lb/>Another inconvenience of little appa- <lb/>rent conſequence, but in reality very
+        <lb/>important, is, that the uſe of vinous <lb/>ſpirits with water is exceedingly deceit-
+        <lb/>ful. </p>
+      <p rend="indent space">
+        <lb/>Thoſe to whom this is recommended, <lb/>begin with great care and caution to <lb/>mix,
+        with their own hands, the two <lb/>liquours in proper proportion to each <lb/>other. This
+        preciſion, however, be- <lb/>comes in time tedious, and the adjuſt- <lb/>ment of the
+        proportion is intruſted to <lb/>ſervants, who at firſt do it by meaſure, <lb/>and ſoon after
+        by gueſs, and quickly <lb/>enlarge the proportion of ſpirit, which <lb/>as it is done
+        gradually is not perceived <lb/>by the perſon who takes it, and they <lb/>frequently proceed
+        in this manner until <pb n="49"/>
+        <lb/>the <note place="bottom" n="*" rend="size(0.75)">
+          <p rend="indent">
+            <lb/>*This is ſo far the caſe, that I have myſelf more <lb/>than once known ſix or ſeven
+            quarts of brandy con- <lb/>ſumed in the ſpace of a week for many months, and <lb/>even
+            years together; and this by perſons who ima- <lb/>gined at the ſame time that they were
+            ſtrictly tem- <lb/>perate; and what is more extraordinary, this hap- <lb/>pened
+            frequently, though not always without any <lb/>ſigns of intoxication. </p>
+        </note>ſpirit exceeds the water in quan- <lb/>tity. </p>
+      <p rend="indent space">
+        <lb/>The momentary relief, likewiſe, <lb/>which this practice affords (as indeed <lb/>all
+        drams do) is an additional temptation <lb/>to the continuation of it, and even to
+        <lb/>induce the unhappy ſufferer to take it <lb/>at various periods through the day, and
+        <lb/>even in the morning, when ſuch liquors <lb/>are peculiarly injurious; and this rather
+        <lb/>as a mode of relief, than as ſupplying <lb/>a fluid for the purpoſes of drink. This
+        <lb/>is frequently the caſe with thoſe afflict- <lb/>ed with hypochondriacal or hyſterical
+          <pb n="50"/>
+        <lb/>complaints, to whom they indeed afford <lb/>a temporary relief in the dejections of
+        <lb/>ſpirits, to which they are ſubject, but <lb/>who, on the contrary, the ſooneſt feel
+        <lb/>the ill effects ariſing from their habitual <lb/>uſe. </p>
+      <p rend="indent space">
+        <lb/>As to the ſecond circumſtance men- <lb/>tioned in defence of this liquour, it is
+        <lb/>here of little conſequence, as malt <lb/>drink or cyder may, almoſt in every <lb/>part
+        of this country, be procured in to- <lb/>lerable perfection. </p>
+      <p rend="indent space">
+        <lb/>The next argument, that ſpirituous <lb/>liquors are incapable both of the vi- <lb/>nous
+        and acetous fermentations, and on <lb/>that account are eligible for perſons of <lb/>weak
+        digeſtive faculties, is more plau- <lb/>ſible, and deſerves greater attention. </p>
+      <pb n="51"/>
+      <p rend="indent">
+        <lb/>Many of thoſe who give advice on <lb/>this ſubject, and ſome writers ſeem to <lb/>have
+        conſidered the preſence of air in <lb/>the inteſtines as being always a noxious
+        <lb/>circumſtance; but although this may <lb/>ſometimes be the caſe when it is accu-
+        <lb/>mulated in too great quantities, it is far <lb/>from being always ſo, as it ſerves
+        ſeve- <lb/>ral important purpoſes in the animal <lb/>œconomy. </p>
+      <p rend="indent space">
+        <lb/>Air is probably the principal agent <lb/>in exciting the periſtaltic motion of the
+        <lb/>inteſtines, by which the proceſs of di- <lb/>geſtion and nutrition is carried on, and
+        <lb/>the food diſcharged. This motion is <lb/>generally aſcribed to the ſtimulus of the
+        <lb/>food paſſing through them, and diſtend- <lb/>ing them by its bulk, and by that irri-
+        <lb/>tation urging them to contraction. </p>
+      <pb n="52"/>
+      <p rend="indent">
+        <lb/>But I apprehend, conſidering the <lb/>length of the inteſtines, that the bulk <lb/>of
+        the food would be inſufficient were <lb/>it not aſſiſted by air, with which the
+        <lb/>inteſtines of all animals newly killed <lb/>are obſerved to be nearly filled. </p>
+      <p rend="indent space">
+        <lb/>This affords a cauſe of irritation to <lb/>the whole canal of the inteſtines, and
+        <lb/>keeps up the periſtaltic motion through <lb/>them all. The air likewiſe thus pro-
+        <lb/>truded, ſerves the purpoſe of a ſolid body <lb/>in expelling, and alſo in collecting
+        the <lb/>fæcal matter, ſo that it may be evacuated <lb/>at proper intervals. Nor is air
+        uſeful <lb/>in the inteſtines merely on account of <lb/>its mechanical properties; it is
+        itſelf <lb/>a powerful ſtimulus to the fibres of the <lb/>tubes of a living animal. </p>
+      <p rend="indent space">
+        <lb/>Haller found air equally powerful <lb/>with the ſtrongeſt ſtimulants in excit- <pb
+          n="53"/>
+        <lb/>ing the motion of the heart and arte- <lb/>ries, and on that account concludes
+        <lb/>that it exerts a ſimilar power on the <lb/>ſtomach <note place="bottom"
+          rend="size(0.75)" n="*">
+          <p rend="indent">
+            <lb/>* It is extraordinary that the proceſs of digeſtion <lb/>ſhould have the effect of
+            changing the air taken into <lb/>the bowels or diſcharged from the food, into in-
+            <lb/>flammable air, which is the caſe with the air con- <lb/>tained in the inteſtines of
+            animals. </p>
+        </note> and inteſtines. </p>
+      <p rend="indent space">
+        <lb/>Thus it appears that we may ſome- <lb/>times be too anxious to guard againſt
+        <lb/>flatulence in our food, which caution is, <lb/>I believe, often carried to a noxious
+        <lb/>length, ancl may, I conjecture, be not <lb/>infrequently the cauſe of the coſtive
+        <lb/>habit which generally aggravates the <lb/>diſorder, and which brandy and water <lb/>is
+        ſo apt to occaſion. </p>
+      <p rend="indent space">
+        <lb/>The ſtomachs indeed of hypochondri- <lb/>acal perſons ſeem often to be oppreſſed <pb
+          n="54"/>
+        <lb/>with flatulence, as appears from their <lb/>frequent eructations. But I have never
+        <lb/>ſeen theſe relieved by the uſe of brandy <lb/>and water, as a liquour uſed for the
+        <lb/>purpoſe of drink; and indeed I believe <lb/>they are often a convulſive ſpaſm of the
+        <lb/>ſtomach and oeſophagus, which from <lb/>the cuſtom of its being encouraged on <lb/>the
+        idea of diſcharging what is noxious, <lb/>becomes habitual. I have often ſeen <lb/>this
+        almoſt inſtantaneouſly produced by <lb/>affections of the mind, and alſo relieved <lb/>by
+        cordials, without any diſcharge of <lb/>wind; the former of which could have <lb/>no effect
+        in generating air, or the latter <lb/>in abſorbing it. </p>
+      <p rend="indent space">
+        <lb/>From the above account it ſeems <lb/>probable, that the taking of ſpirituous
+        <lb/>liquours in this way is not likely to <lb/>produce the good effects intended by
+        <lb/>it, and it is certainly often at leaſt lia- <pb n="55"/>
+        <lb/>ble to the bad effects in a great meaſure <lb/>of habitual dram drinking. This cuſ-
+        <lb/>tom is well known to be generally per- <lb/>nicious, yet it may not be here impro-
+        <lb/>per to mention ſome of its effects that <lb/>have been more particularly remarked. <lb/>
+        <note place="bottom" n="*" rend="size(0.75)">
+          <p rend="indent">
+            <lb/>* Vide Haller Phyſiol. Lib. XIX. § iii. </p>
+        </note> It contracts the ſtomach itſelf and <lb/>the paſſage from the ſtomach into the
+        <lb/>inteſtines. It alſo renders the fibres of <lb/>the ſtomach callous and fragile, and
+        <lb/>inſenſible to every ſtimulus, even that <lb/>of hunger. It contracts the diameter
+        <lb/>of the vaſcular ſyſtem in general. It <lb/>narrows the air veſſels of the lungs even
+        <lb/>to a third of their former ſize. It tends <lb/>to coagulate all the humours of the
+        <lb/>body, the aqueous excepted. It pro- <lb/>duces oſſifications of the tendons and
+        <lb/>arteries, and in ſome inſtances of the <lb/>pleura itſelf, and often brings on <pb
+          n="56"/>
+        <lb/>ſchirrhus of the whole viſcera and glan- <lb/>dular ſyſtem. It induces alſo tremors,
+        <lb/>convulſions, and palſy of the nervous <lb/>ſyſtem. </p>
+      <p rend="indent space">
+        <lb/>Theſe effects of the abuſe of ſpiritu- <lb/>ous liquors, are delivered by a <note
+          place="bottom" n="*" rend="size(0.75)">
+          <p rend="indent">
+            <lb/>* Haller. </p>
+        </note> writer <lb/>of eminence and candour, and are far <lb/>from appearing to be
+        exaggerated, as <lb/>undoubtedly many more might be add- <lb/>ed to them. </p>
+      <p rend="indent space">
+        <lb/>If it ſhould be objected that all <lb/>the foregoing bad conſequences have <lb/>been
+        produced by the abuſe of ferment- <lb/>ed liquours in general, it may be re- <lb/>plied,
+        that an exceſs in the latter is ſel- <lb/>dom ſo habitual, or ſo frequently repeat- <lb/>ed
+        as the former from it's conſtant uſe is <lb/>likely to be. That the conſtitutions <pb n="57"/>
+        <lb/>of thoſe who indulge in the uſe of wine <lb/>or malt liquours are in general more
+        <lb/>robuſt than thoſe who uſe brandy or <lb/>rum and water. That the uſe of ſpi- <lb/>rits,
+        even diluted to a proportionable <lb/>ſtrength, is not, as has been before <lb/>obſerved,
+        equally innocent with wine <lb/>or malt liquours, but more inflamma- <lb/>tory, and in every
+        reſpect more apt to <lb/>occaſion the diſorders above recited, <lb/>thoſe of the liver
+        particularly. </p>
+      <p rend="indent space">
+        <lb/>Laſtly, That the uſe of ſpirits in this <lb/>way is more dangerous, as being more
+        <lb/>deluſive and apt to be indulged in, as <lb/>being often adviſed by the faculty, and
+        <lb/>the conſequences of an exceſs are not <lb/>ſo immediately aſcribed to their true
+        <lb/>cauſe, as in the other inſtance, and of <lb/>courſe not ſo likely to be guarded a-
+        <lb/>gainſt. </p>
+      <pb n="58"/>
+      <p rend="indent">
+        <lb/>As to the laſt mentioned plea in be- <lb/>half of this kind of liquour, that it is
+        <lb/>taken without any inconvenience by <lb/>the natives of the Weſt India iſlands <lb/>as
+        their uſual drink, I would obſerve, <lb/>that though the fact be as repreſented, <lb/>yet
+        that the circumſtances are by no <lb/>means ſimilar. The inhabitants of the <lb/>Weſt India
+        iſlands uſe this liquour in <lb/>a great meaſure from neceſſity; malt <lb/>drink not being
+        procurable, and ſcarce <lb/>any wine, Madeira excepted, is capa- <lb/>ble of being kept to a
+        proper age with- <lb/>out turning ſour. </p>
+      <p rend="indent space">
+        <lb/>Next, They are very cautious in re- <lb/>ſpect to the quality of their liquour,
+        <lb/>and alſo as to the ſtrength of their uſual <lb/>drink, which is always very weak in
+        <lb/>reſpect of the proportion of ſpirit, <lb/>which is regularly obſerved, and alſo <lb/>it
+        is always joined with a conſiderable <pb n="59"/>
+        <lb/>portion of the juice of ſome acid fruit, <lb/>as limes, lemons, oranges, &amp;c. and
+        with <lb/>ſugar, which not only correct the heat- <lb/>ing qualities of the ſpirit, but
+        diſpoſe <lb/>the liquour to paſs off by the proper <lb/>ſecretions. </p>
+      <p rend="indent space">
+        <lb/>Rum and water thus corrected is alſo <lb/>adapted to theſe climates on another
+        <lb/>account, as being a thin liquour, and <lb/>free of all viſcidity or tenacity, and con-
+        <lb/>ſequently better ſuited to paſs off by <lb/>the thinner ſecretions, as urine and per-
+        <lb/>ſpiration (the latter of which is very <lb/>copious, and neceſſary to be conſtantly
+        <lb/>kept up) than malt liquour, or the <lb/>more viſcid wines, even though they <lb/>could
+        be had in perfection. </p>
+      <p rend="indent space">
+        <lb/>The vegetable diet alſo upon which <lb/>the inhabitants of theſe iſlands, from <lb/>the
+        heat of the climate in a great mea- <pb n="60"/>
+        <lb/>ſure live, is alſo a conſiderable preven- <lb/>tative of the ill effects of ſpirituous
+        <lb/>liquours. </p>
+      <p rend="indent space">
+        <lb/>The diſorders which the latter pro- <lb/>duce are generally of the bilious or
+        <lb/>liver kind, or at leaſt firſt appear in <lb/>that form; and for the cure of theſe,
+        <lb/>the juices of freſh vegetables are eſpe- <lb/>cially adapted, which probably pre-
+        <lb/>vents many of the ill conſequences <lb/>which would otherwiſe probably accrue <lb/>from
+        the conſtant uſe of this liquour. <lb/>But the perſons in England to whom <lb/>the taking of
+        ſpirits with water is ad- <lb/>viſed, are in general prohibited from <lb/>touching any
+        vegetable food: a circum- <lb/>ſtance in ſuch caſes doubly injurious, <lb/>and I make no
+        doubt that this reſtraint <lb/>often greatly enhances the ill effects of <lb/>the uſe of the
+        ſpirits; and I think I <lb/>have almoſt always obſerved, that thoſe <pb n="61"/>
+        <lb/>who live in this way, ſoon acquire a <lb/>yellow bilious complexion, which is
+        <lb/>often attributed to the complaint, but <lb/>I doubt not is much more frequently
+        <lb/>owing to the manner of life. </p>
+      <p rend="indent space">
+        <lb/>Such are ſeveral of the inconveni- <lb/>encies which frequently occur from the
+        <lb/>abuſe of this article of diet, to which <lb/>catalogue, though many more might be
+        <lb/>added, yet the above are, I truſt, ſuffi- <lb/>cient to put us on our guard againſt its
+        <lb/>being raſhly adopted. </p>
+      <p rend="indent space">
+        <lb/>I hope indeed that the practice will <lb/>daily decreaſe, and with its diminution,
+        <lb/>I doubt not the health of the people <lb/>will improve, or as Haller expreſſes
+        <lb/>himſelf on an occaſion not very diffe- <lb/>rent, <q rend="quotes">In Anglia certe,
+          poſtquam pau- <lb/>lum de ſuo furore plebs remiſit, ipſi <pb n="62"/>
+          <lb/>mores, &amp; valetudo civium in melius <lb/>revertuntur. </q>
+      </p>
+      <p rend="indent space">
+        <lb/>I have thus finiſhed my remarks on <lb/>ſeveral articles of diet uſually recom-
+        <lb/>mended to valetudinarians. But at the <lb/>ſame time that I condemn many of the
+        <lb/>directions on account of their being <lb/>incautiouſly adviſed, I do not deny <lb/>that
+        ſeveral of the above reſtrictions, <lb/>even the laſt, which I think the moſt
+        <lb/>exceptionable, may be <hi rend="italic">ſometimes</hi> neceſ- <lb/>ſary: but I believe
+        that ſuch neceſſity <lb/>very ſeldom occurs, and that we ought <lb/>to be fully ſatisfied of
+        its exiſtence be- <lb/>fore ſuch practice be recommended. <lb/>It is not every trifling
+        complaint of the <lb/>ſtomach that will juſtify ſuch advice, <lb/>which indeed, in my
+        opinion, ſhould <lb/>never be given but on the fulleſt expe- <lb/>rience, not only that the
+        common mode <lb/>of living diſagreed, but alſo that ſome <pb n="63"/>
+        <lb/>relief was gained by the change, with- <lb/>out an aſſurance of which it ought not
+        <lb/>to be continued; nor ſhould ſuch a re- <lb/>gimen be at all commenced without the
+        <lb/>matureſt conſideration and advice of <lb/>the moſt experienced of the faculty, <lb/>who
+        will always think it an unfortunate <lb/>circumſtance to be obliged to preſcribe <lb/>ſuch
+        rules which they will only recom- <lb/>mend for a limited period, and will as <lb/>ſoon as
+        poſſible adviſe to be diſconti- <lb/>nued, and the uſual and natural courſe <lb/>of life to
+        be reſumed. </p>
+      <space dim="vertical" unit="lines" quantity="2"> </space>
+      <trailer rend="align-center">
+        <lb/>FINIS. </trailer>
+    </body>
+  </text>
+</TEI>

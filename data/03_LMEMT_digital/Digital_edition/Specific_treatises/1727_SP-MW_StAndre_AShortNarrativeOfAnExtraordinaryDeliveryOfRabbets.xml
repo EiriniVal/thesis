@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> LMEMT Corpus - St. André: A short narrative of an extraordinary delivery of
+                    rabbets</title>
+                <respStmt>
+                    <resp>Compiler</resp>
+                    <persName xml:id="IT">
+                        <forename>Irma</forename>
+                        <surname>Taavitsainen</surname>
+                    </persName>
+                    <persName xml:id="TH">
+                        <forename>Turo</forename>
+                        <surname>Hiltunen</surname>
+                    </persName>
+                    <persName xml:id="ALe">
+                        <forename>Anu</forename>
+                        <surname>Lehto</surname>
+                    </persName>
+                    <persName xml:id="VM">
+                        <forename>Ville</forename>
+                        <surname>Marttila</surname>
+                    </persName>
+                    <persName xml:id="RO">
+                        <forename>Raisa</forename>
+                        <surname>Oinonen</surname>
+                    </persName>
+                    <persName xml:id="PP">
+                        <forename>Päivi</forename>
+                        <surname>Pahta</surname>
+                    </persName>
+                    <persName xml:id="MR">
+                        <forename>Maura</forename>
+                        <surname>Ratia</surname>
+                    </persName>
+                    <persName xml:id="CS">
+                        <forename>Carla</forename>
+                        <surname>Suhr</surname>
+                    </persName>
+                    <persName xml:id="JT">
+                        <forename>Jukka</forename>
+                        <surname>Tyrkkö</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Research Assistant</resp>
+                    <persName xml:id="WA">
+                        <forename>Wilma</forename>
+                        <surname>Andersson</surname>
+                    </persName>
+                    <persName xml:id="EC">
+                        <forename>Emanuela</forename>
+                        <surname>Costea</surname>
+                    </persName>
+                    <persName xml:id="DV">
+                        <forename>Diana</forename>
+                        <surname>Frank-Väyrynen</surname>
+                    </persName>
+                    <persName xml:id="SK">
+                        <forename>Sami</forename>
+                        <surname>Kalliomäki</surname>
+                    </persName>
+                    <persName xml:id="MK">
+                        <forename>Mirella</forename>
+                        <surname>Klinga</surname>
+                    </persName>
+                    <persName xml:id="SKo">
+                        <forename>Sami</forename>
+                        <surname>Koskinen</surname>
+                    </persName>
+                    <persName xml:id="ALi">
+                        <forename>Aatu</forename>
+                        <surname>Liimatta</surname>
+                    </persName>
+                    <persName xml:id="HR">
+                        <forename>Heikki</forename>
+                        <surname>Rajala</surname>
+                    </persName>
+                    <persName xml:id="JR">
+                        <forename>Jenni</forename>
+                        <surname>Riihimäki</surname>
+                    </persName>
+                    <persName xml:id="AW">
+                        <forename>Anna-Lina</forename>
+                        <surname>Walraff</surname>
+                    </persName>
+                </respStmt>
+                <sponsor>
+                    <orgName>Department of Modern Languages, University of Helsinki</orgName>
+                </sponsor>
+                <funder>
+                    <orgName>University of Helsinki</orgName>
+                    <orgName>Academy of Finland</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>John Benjamins Publishing Company</publisher>
+                <pubPlace>Amsterdam</pubPlace>
+                <date>forthcoming</date>
+                <availability>
+                    <p>Copyright by the publisher. All rights reserved.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>
+                            <persName>Nathanael St. André</persName>
+                        </author>
+                        <title type="main">A short narrative of an extraordinary delivery of
+                            rabbets, Perform'd by Mr. John Howard Surgeon at Guilford. Published by
+                            Mr. St. Andre Surgeon and Anatomist to his Majesty.</title>
+                        <edition n=""/>
+                        <idno type="ESTC">T055617</idno>
+                        <ptr type="ESTC-link" target="http://estc.bl.uk/T55617"/>
+                        <imprint>
+                            <!--Add additional <placeName/> elements for each additional place of publication.-->
+                            <pubPlace>
+                                <placeName>London</placeName>
+                            </pubPlace>
+                            <publisher>
+                                <persName>London: printed for John Clarke, at the Bible under the
+                                    Royal-Exchange, MDCCXXVII.</persName>
+                            </publisher>
+                            <date>1727</date>
+                        </imprint>
+                        <extent>
+                            <measure type="format">8⁰</measure>
+                            <measure type="count" commodity="front" unit="page" quantity="2"/>
+                            <measure type="count" commodity="body" unit="page" quantity="40"/>
+                        </extent>
+                    </monogr>
+                    <note type="source_copy">
+                        <orgName type="library">British Library</orgName>
+                        <idno type="ECCO">CW109018346</idno>
+                    </note>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <catRef n="Book on a specific topic: midwifery"/>
+            </textClass>
+        </profileDesc>
+        
+    </teiHeader>
+    <text type="book" xml:lang="eng" rend="roman">
+        <front>
+            <pb/>
+            <titlePage>
+                <lb/>
+                <space dim="vertical" unit="lines" quantity="1"/>
+                <docTitle>
+                    <titlePart type="main" rend="align-center"><lb/><hi rend="sc">A Short</hi>
+                        <lb/><space dim="vertical" unit="lines" quantity="1"/>
+                        <lb/><hi rend="size(2.0)">NARRATIVE</hi>
+                        <lb/><space dim="vertical" unit="lines" quantity="1"/><lb/>Of an
+                        Extraordinary <lb/><space dim="vertical" unit="lines" quantity="1"/>
+                        <lb/><hi rend="size(1.5)">Delivery of Rabbets</hi>, <lb/><space
+                            dim="vertical" unit="lines" quantity="1"/>
+                        <lb/>Perform'd by <lb/><hi rend="size(1.5)">Mr.</hi>
+                        <persName role="authority"><hi rend="size(2.0) italic">JOHN
+                            HOWARD</hi></persName>
+                        <lb/><hi rend="size(1.25)">Surgeon at <placeName><hi rend="italic"
+                                    >Guilford</hi></placeName></hi>. </titlePart>
+                </docTitle>
+                <lb/>
+                <space dim="vertical" unit="lines" quantity="1"/>
+                <figure>
+                    <lb/>
+                    <figDesc>A horizontal line, spanning the whole page.</figDesc>
+                </figure>
+                <byline rend="align-center"><lb/>Publiſhed by Mr. <persName role="publisher"><hi
+                            rend="italic">St. Andrè</hi></persName> Surgeon and <w part="I"
+                        >Ana-</w><lb/><w part="F">tomiſt</w> to his Majeſty. </byline>
+                <figure>
+                    <lb/>
+                    <figDesc>A horizontal line, spanning the whole page.</figDesc>
+                </figure>
+                <lb/>
+                <space dim="vertical" unit="lines" quantity="1"/>
+                <figure>
+                    <lb/>
+                    <figDesc>An oval-shaped decorative figure.</figDesc>
+                </figure>
+                <lb/>
+                <space dim="vertical" unit="lines" quantity="1"/>
+                <docImprint rend="align-center"><lb/><placeName>
+                        <hi rend="size(1.25) italic">LONDON</hi></placeName>, <lb/>Printed for
+                        <persName role="publisher"><hi rend="sc">John Clarke</hi></persName>, at the
+                            <orgName><hi rend="italic">Bible</hi></orgName>
+                    <w part="I">un-</w><lb/><w part="F">der</w> the <orgName><hi rend="italic"
+                            >Royal-Exchange</hi></orgName>. <docDate when="1727"><hi rend="sc">m dcc
+                            xxvii</hi></docDate>. </docImprint>
+            </titlePage>
+            <pb/>
+            <div type="part">
+                <lb/>
+                <space dim="vertical" unit="lines" quantity="5"/>
+                <figure>
+                    <lb/>
+                    <figDesc>A horizontal line, spanning the whole page.</figDesc>
+                </figure>
+                <lb/>
+                <space dim="vertical" unit="lines" quantity="3"/>
+                <p><lb/><hi rend="dc(2)">T</hi>HE Account of the Delivery of <lb/>the eighteenth
+                    Rabbet, ſhall be <lb/>Publiſhed by way of Appendix to this <lb/>Account. </p>
+                <lb/>
+                <space dim="vertical" unit="lines" quantity="3"/>
+                <figure>
+                    <lb/>
+                    <figDesc>A horizontal line, spanning the whole page.</figDesc>
+                </figure>
+            </div>
+        </front>
+        <body>
+            <pb/>
+            <div type="part">
+                <figure rend="space">
+                    <lb/>
+                    <figDesc>Rectangular decorative figure, four lines in height.</figDesc>
+                </figure>
+                <head rend="space align-center italic size(1.25)"><lb/>A Short Narrative of an <w
+                        part="I">Ex-</w><lb/><w part="F">traordinary</w> Delivery, <hi rend="roman"
+                        >&amp;c.</hi>
+                </head>
+                <p rend="space"><lb/><figure>
+                        <figDesc>Decorative frame around the letter "W", four lines in
+                            height.</figDesc>
+                    </figure>WHatever may be the Fate of <lb/>this Account, I think my <lb/>ſelf
+                    indiſpenſably obliged <lb/>to relate the Facts that I ſaw, <lb/>and tranſacted
+                    my ſelf, as alſo the <lb/>Reaſons which firſt induced me to <w part="I"
+                        >en-</w><lb/><w part="F">quire</w> into the Truth of ſuch an <w part="I"
+                        >Ex-</w><lb/><w part="F">traordinary</w> Event; but I here declare <lb/>that
+                    I take on me no other Part of <lb/>this Narration, than that in which I was
+                    <lb/>actually concerned. </p>
+                <p rend="indent"><lb/>As Mr. <hi rend="italic">Howard</hi> himſelf intends
+                    <lb/>ſhortly to publiſh the whole Account, <lb/>and prove every Circumſtance of
+                        <pb n="4"/><lb/>it, by ſuch Evidences as will put <lb/>this Matter out of
+                    all poſſibility of <lb/>Doubt, I muſt refer to him for ſeveral <lb/>Particulars
+                    here omitted. </p>
+                <p rend="indent"><lb/>And as it will be impoſſible to judge <lb/>impartially of this
+                    Fact, till the <w part="I">Evi-</w><lb/><w part="F">dences</w> abovemention'd
+                    are produced, <lb/>it cannot be doubted but all ſuch <w part="I">Per-</w><lb/><w
+                        part="F">ſons</w> as are not governed by Prejudice, <lb/>or ſome worſe
+                    Motive, will ſuſpend <lb/>their Judgment till theſe Facts come to <lb/>their
+                    Knowledge by a more certain <lb/>way, than by flying Reports and <w part="I"
+                        >Con-</w><lb/><w part="F">jectures</w>. </p>
+                <p rend="indent"><lb/>The firſt Intelligence I received of <lb/>this Matter, was on
+                    the 5th Inſtant, <lb/>when I ſaw a very particular <note n="a" place="bottom"
+                        rend="indent size(0.75)"><lb/><hi rend="sup">a</hi> This Account was taken
+                        the 4th Inſtant at <lb/><hi rend="italic">Guilford</hi> by Mr. <hi
+                            rend="italic">Davenant</hi>.</note> Account <lb/>of a Woman living at
+                        <hi rend="italic">Godliman</hi> lately <lb/>delivered of five Rabbets by Mr.
+                        <hi rend="italic">John <lb/>Howard</hi>, Surgeon at <hi rend="italic"
+                        >Guilford</hi> in <hi rend="italic"><w part="I">Sur-</w>
+                        <pb n="5"/><lb/><w part="F">rey</w></hi>, a Man of known Probity, <w
+                        part="I">Cha-</w><lb/><w part="F">racter</w>, and Capacity in his
+                    Profeſſion, <lb/>who has practis'd Midwifery for above <lb/>theſe thirty Years. </p>
+                <p rend="indent"><lb/>This Account was again confirmed <lb/>by two <note n="b"
+                        place="bottom" rend="indent size(0.75)"><lb/><hi rend="sup">b</hi> The
+                        Letters were directed to Mr. <hi rend="italic">Davenant</hi>.</note> Letters
+                    from the ſaid Mr. <lb/><hi rend="italic">Howard</hi>, the fiſst dated <hi
+                        rend="italic">Nov.</hi> the <lb/>6th, 4 a Clock in the Afternoon; the
+                    <lb/>Subſtance of which is, That from the <lb/>4th Inſtant to the 6th he had <w
+                        part="I">deli-</w><lb/><w part="F">ver'd</w> the Woman of three more <w
+                        part="I">Rab-</w><lb/><w part="F">bets</w>; that the laſt of them had leap'd
+                    <lb/>in her Belly, for the ſpace of eighteen <lb/>Hours, before it dy'd, and
+                    that the <lb/>Moment it was taken away, another <lb/>was perceiv'd to ſtruggle
+                    for Birth. </p>
+                <p rend="indent"><lb/>The ſecond is dated <hi rend="italic">Nov.</hi> the ninth,
+                    <lb/>and is here tranſcribed <hi rend="italic">verbatim</hi>, viz. </p>
+                <floatingText type="letter">
+                    <body>
+                        <salute rend="space indent sc"><lb/>Sir, </salute>
+                        <p><lb/><hi rend="dc(2)">S</hi>INCE I wrote to you, I have <w part="I"
+                                >ta-</w><lb/><w part="F">ken</w> or deliver'd the poor <w part="I"
+                                >Wo-</w><pb n="6"/><lb/><w part="F">man</w> of three more Rabbets,
+                            all three <lb/>half grown, one of them a dunn <w part="I"
+                                >Rab-</w><lb/><w part="F">bet</w>; the laſt leap'd twenty three
+                            Hours <lb/>in the <hi rend="italic">Uterus</hi> before it dy'd. As ſoon
+                            <lb/>as the eleventh Rabbet was taken <w part="I">a-</w><lb/><w part="F"
+                                >way</w>, up leap'd the twelfth Rabbet, <lb/>which is now leaping.
+                            If you have <lb/>any curious Perſon that is pleaſed to <lb/>come Poſt,
+                            may ſee another leap in <lb/>her <hi rend="italic">Uterus</hi>, and
+                            ſhall take it from her <lb/>if he pleaſes; which will be a great
+                            <lb/>Satisfaction to the Curious: If ſhe had <lb/>been with Child, ſhe
+                            has but ten Days <lb/>more to go, ſo I do not know how <lb/>many Rabbets
+                            may be behind; I have <lb/>brought the Woman to <hi rend="italic"
+                                >Guilford</hi> for <lb/>better Convenience. </p>
+                        <signed rend="align-right italic"><lb/>I am, <hi rend="roman sc">Sir </hi>,
+                            <lb/>Your humble Servant, <lb/><hi rend="roman sc">John Howard</hi>. </signed>
+                        <postscript>
+                            <p rend="hanging italic size(0.75)"><lb/>If you ſend a Perſon, let him
+                                <lb/>bring a Letter from you.</p>
+                        </postscript>
+                    </body>
+                </floatingText>
+                <pb n="7"/>
+                <p rend="indent"><lb/>Theſe Letters, with others to Perſons <lb/>of Diſtinction in
+                    Town, which all <lb/>agree with the above-mentioned, <lb/>were ſufficient to
+                    make me deſirous of <lb/>being convinced perſonally of a Fact <lb/>of which
+                    there was no Inſtance in <w part="I">Na-</w><lb/><w part="F">ture</w>.
+                    Accordingly on the 15th <w part="I">In-</w><lb/><w part="F">ſtant</w>, I
+                    attended the Honourable Mr. <lb/><hi rend="italic">Molyneux</hi>, Secretary to
+                    his Royal <lb/>Highneſs the Prince of <hi rend="italic">Wales</hi>, who <lb/>was
+                    inclin'd to enquire into the Truth <lb/>of this extraordinary Caſe, and deſir'd
+                    <lb/>me to go with him to <hi rend="italic">Guilford</hi>: We <lb/>arrived there
+                    at about half an hour <w part="I">af-</w><lb/><w part="F">ter</w> two in the
+                    Afternoon. We ſent <lb/>to Mr. <hi rend="italic">Howard</hi>, who came to us <w
+                        part="I">im-</w><lb/><w part="F">mediately</w>, and told us that the <w
+                        part="I">Wo-</w><lb/><w part="F">man</w> was actually in Labour of the
+                    <lb/>fifteenth Rabbet. We had not been at <lb/>his Houſe long, before the Nurſe
+                    who <lb/>attends the Woman came to call Mr. <lb/><hi rend="italic">Howard</hi>
+                    to her, ſhe being then in one of <lb/>her labour Pains. </p>
+                <pb n="8"/>
+                <p rend="indent"><lb/>She was lodged over againſt Mr. <lb/><hi rend="italic"
+                        >Howard</hi>'s Houſe, we found her dreſs'd <lb/>in her Stays, ſitting on the
+                    Bed-ſide <lb/>with ſeveral Women near her. I <w part="I">im-</w><lb/><w part="F"
+                        >mediately</w> examined her, and not <w part="I">find-</w><lb/><w part="F"
+                        >ing</w> the Parts prepared for her Labour, <lb/>I waited for the coming on
+                    of freſh <lb/>Pains, which hapned in three or four <lb/>minutes, at which time I
+                    deliver'd her <lb/>of the entire Trunk, ſtrip'd of its <lb/>Skin, of a Rabbet of
+                    about four <lb/>Months growth, in which the Heart <lb/>and Lungs were contained
+                    with the <lb/>Diaphragm entire. I inſtantly cut off <lb/>a piece of them, and
+                    tried them in <lb/>Water; they ſeemed but juſt ſpecifically <lb/>lighter than
+                    it, and Mr. <hi rend="italic">Molyneux</hi>
+                    <w part="I">preſ-</w><lb/><w part="F">ſing</w> them to the Bottom they roſe <w
+                        part="I">a-</w><lb/><w part="F">gain</w> very ſlowly; the Heart was very
+                    <lb/>large, and its <hi rend="italic">Foramen Ovale</hi> entirely <lb/>open; the
+                    Lungs were remarkably <lb/>ſmall, and of a much darker Colour <pb n="9"
+                    /><lb/>than commonly the Lungs are of ſuch <lb/>Rabbets, who have breathed for
+                    ſome <lb/>time. No Perſon but my ſelf touch'd <lb/>her, from the firſt time that
+                    I had <w part="I">ex-</w><lb/><w part="F">amined</w> her, to the time of her
+                    being <lb/>deliver'd by me: Her Pains were <w part="I">pret-</w><lb/><w part="F"
+                        >ty</w> ſmart, and laſted for some Minutes; <lb/>they went off the Moment
+                    ſhe was <w part="I">de-</w><lb/><w part="F">liver'd</w>, and ſhe ſeem'd chearful
+                    and <lb/>eaſy; walked by herſelf from the <w part="I">Bed-</w><lb/><w part="F"
+                        >ſide</w> to the Fire, and ſat on a Chair, <lb/>where I examined her; and
+                    found, that <lb/>in the Courſe of the <hi rend="italic">Fallopian Tubes</hi>,
+                    <lb/>there were ſome Inequalities, but more <lb/>ſenſibly on the right ſide of
+                    her Belly; <lb/>which made me conjecture that the <lb/>Rabbets were bred in
+                    thoſe Tubes, <lb/>and only came into the <hi rend="italic">Uterus</hi>, when
+                    <lb/>they gave her thoſe Agitations, which, <lb/>according to the account of Mr.
+                        <hi rend="italic"><w part="I">How-</w><lb/><w part="F">ard</w></hi>, and of
+                    ſeveral other Perſons, <pb n="10"/><lb/>were ſenſibly felt many Hours before
+                    <lb/>their Excluſion. </p>
+                <p rend="indent"><lb/>As there was no Blood nor Water <lb/>that iſſued from the <hi
+                        rend="italic">Vagina</hi>, after I <lb/>had delivered her, I again examined
+                    <lb/>that Part, and found it not in the leaſt <lb/>inflamed or lacerated. </p>
+                <p rend="indent"><lb/>Upon examining her Breaſts, I found <lb/>Milk in one of them,
+                    but only a <w part="I">lit-</w><lb/><w part="F">tle</w> yellowiſh <hi
+                        rend="italic">Serum</hi> in the other. </p>
+                <p rend="indent"><lb/>Her Pulſe was regular, but <w part="I">ſome-</w><lb/><w
+                        part="F">what</w> low; her Tongue florid; and <lb/>upon asking for her
+                    Water, thoſe <w part="I">a-</w><lb/><w part="F">bout</w> her anſwered, ſhe made
+                    very little, <lb/>and that they had not ſaved any. </p>
+                <p rend="indent"><lb/>She informed us, that in the <w part="I">Inter-</w><lb/><w
+                        part="F">vals</w> of her Labour-Pains ſhe was <w part="I">to-</w><lb/><w
+                        part="F">ſerably</w> eaſy, and had no inclination <lb/>for any ſort of Food
+                    but Beef. </p>
+                <p rend="indent"><lb/>About two Hours after we had left <lb/><choice>
+                        <corr>h</corr>
+                        <sic>ɥ</sic>
+                    </choice>er, they came again to call Mr. <pb n="11"/><lb/><hi rend="italic"
+                        >Howard</hi>, ſhe being at that Time in <lb/>violent Labour-Pains; but he
+                    and <lb/>my ſelf were gone to ſee the Mayor, <lb/>who was then ill. The Nurſe
+                    that <w part="I">at-</w><lb/><w part="F">tended</w> her had delivered her,
+                    before <lb/>our return, of the lower Part of a Male <lb/>Rabbet, which we found
+                    totally with <lb/>the Trunk, which I had before <w part="I">extract-</w><lb/><w
+                        part="F">ed</w>: This was alſo ſtrip'd of its Skin, <lb/>and compleatly
+                    perfect in all its Parts, <lb/>but more manifeſtly ſo in thoſe of
+                    <lb/>Generation. </p>
+                <p rend="indent"><lb/>In the <hi rend="italic">Rectum</hi> of this Animal, which
+                    <lb/>remain'd affix'd to the Body, we found <lb/>five or ſix Pellets, much of
+                    the ſame <lb/>Colour and Conſiſtence as the <w part="I">com-</w><lb/><w part="F"
+                        >mon</w> Dung of a Rabbet, little Bodies, <lb/>like dried Fragments, being
+                    matted <lb/>together with a mucous Matter. The <lb/>like was obſerved in ſome
+                    other Parts <lb/>of thoſe Rabbets, which had come away <lb/>before. In the other
+                    Bowels there was <pb n="12"/><lb/>a dirty colour'd <hi rend="italic">Mucus</hi>,
+                    of the <w part="I">Na-</w><lb/><w part="F">ture</w> of that which is conſtantly
+                    found <lb/>in the Bowels of all <hi rend="italic">fœtus</hi> Animals, <lb/>and
+                    which in thoſe that void their <lb/>Excrements in Pellets, is commonly <lb/>hard
+                    and dry; but the Matter in the <lb/>Guts of the firſt Animal was of an
+                    <lb/>entire different Kind, Colour and <w part="I">Sub-</w><lb/><w part="F"
+                        >ſtance</w> from any of the reſt, this <w part="I">be-</w><lb/><w part="F"
+                        >ing</w> like little Filaments of an Animal <lb/>Subſtance. In the Middle of
+                    the Gut <lb/><hi rend="italic">Ilium</hi> of this Creature, I found a <w
+                        part="I">ve-</w><lb/><w part="F">ry</w> ſlender, brittle, white Body, of the
+                    <lb/>Length of half an Inch, which in Shape <lb/>was like a very ſmall
+                    Fiſh-bones. </p>
+                <p rend="indent"><lb/>Between ſix and ſeven the ſame <lb/>Evening we again viſited
+                    her; we <lb/>had not been there long, before ſhe <lb/>fell into violent
+                    Labour-Pains, <w part="I">inſo-</w><lb/><w part="F">much</w> that four or five
+                    Perſons cou'd <lb/>hardly confine her to an Arm-Chair. <lb/>As ſoon as the
+                    Violence of the firſt <pb n="13"/><lb/>Pain was ſomewhat abated, I <w part="I"
+                        >examin-</w><lb/><w part="F">ed</w> her as before, and found the <hi
+                        rend="italic"><w part="I">Va-</w><lb/><w part="F">gina</w></hi> perfectly
+                    clear; and the Orifice of <lb/>the <hi rend="italic">Uterus</hi> ſo far cloſed,
+                    as not to <w part="I">ad-</w><lb/><w part="F">mit</w> of the little Finger. I
+                    conſtantly <lb/>ſtood before her, nor did any Perſon <lb/>whatſoever touch her,
+                    during that <lb/>Time. After three or four very ſtrong <lb/>Pains, that laſted
+                    ſeveral Minutes, I <lb/>delivered her of the Skin of the <w part="I"
+                        >above-</w><lb/><w part="F">ſaid</w> Rabbet, rolled and ſqueezed up
+                    <lb/>like a Ball, without the leaſt Moiſture <lb/>or Blood about it; upon which
+                    ſhe <w part="I">re-</w><lb/><w part="F">cover'd</w> of her Pain. </p>
+                <p rend="indent"><lb/>From that Time I did not ſtir from <lb/>before her, nor did I
+                    withdraw my <lb/>Hand, but to deliver the Skin to a <lb/>ſtander by. </p>
+                <p rend="indent"><lb/>About ten Minutes after, as near <lb/>as I can judge, ſhe
+                    again fell into <w part="I">La-</w><lb/><w part="F">bour-Pains</w>, though more
+                    ſudden and <lb/>ſhort than the former; at which time <pb n="14"/><lb/>I again
+                    deliver'd her of the Head of <lb/>the Rabbet, with the Furr on, part of <lb/>one
+                    of the Ears being torn off, alſo <lb/>without any Blood or Moiſture: And <lb/>as
+                    to theſe two Deliveries, and <w part="I">par-</w><lb/><w part="F">ticularly</w>
+                    as to the Circumſtances of <lb/>the latter, Mr. <hi rend="italic">Molyneux</hi>
+                    having drawn <lb/>up an Account of this whole Affair, for <lb/>his own private
+                    Satisfaction; <w part="I">immedi-</w><lb/><w part="F">ately</w> upon our return
+                    to <hi rend="italic">London</hi>; I beg <lb/>leave to refer, for the Conviction
+                    he had <lb/>of the Truth thereof, to that Account, <lb/>which I have his leave
+                    to ſay, he will <lb/>communicate to any Gentleman that <lb/>is deſirous to
+                    peruſe it. </p>
+                <p rend="indent"><lb/>After this ſhe ſoon grew eaſy, and Mr. <lb/><hi rend="italic"
+                        >Howard</hi> gave her a ſleeping Draught. </p>
+                <p rend="indent"><lb/>About ten in the Evening we ſaw <lb/>the Woman for the laſt
+                    Time, ſhe <lb/>being then in Bed: Having felt her <lb/>Belly, I found it ſoft,
+                    except thoſe <lb/>Lumps, which ſtill were in the ſame <lb/>Place as before
+                    mentioned. </p>
+                <pb n="15"/>
+                <p rend="indent"><lb/>Between the Times of viſiting the <lb/>Woman, we examined the
+                    ſeveral <lb/>Rabbets, which were all kept ſeparate <lb/>in diſtinct Pots, with
+                    Spirits of Wine, <lb/>in the Order that they were brought <lb/>away. </p>
+                <p rend="indent"><lb/>The firſt Animal did not appear <lb/>to be a perfect Rabbet,
+                    in all its Parts, <lb/>three of the Feet being like the Paws <lb/>of a Cat, the
+                    Stomach and Inteſtines <lb/>like thoſe Parts in the ſame Animal, <lb/>as alſo
+                    the Shape and Figure of the <lb/><hi rend="italic">Thorax</hi>; the Lungs and
+                    Heart of <lb/>which were entirely out of their <w part="I">natu-</w><lb/><w
+                        part="F">ral</w> Situation, and ſqueezed out between <lb/>the upper Ribbs
+                    and <hi rend="italic">Vertebræ</hi> of the <lb/>Neck, to which Parts they
+                    ſtrongly <lb/>grew and adhered. The Lungs of <lb/>this Creature, had they been
+                    placed <lb/>in their natural Cavity, would not <lb/>have filled above a ſixth
+                    Part of it: <lb/>The Bones of this Creature being <w part="I">al-</w><pb n="16"
+                        /><lb/><w part="F">ſo</w> different in Subſtance and Structure, <lb/>from
+                    thoſe of common Rabbets, the <lb/>Head and one Paw only excepted. </p>
+                <p rend="indent"><lb/>All the other thirteen Animals were, <lb/>in every Particular,
+                    like well formed, <lb/>common, natural Rabbets, from the Size <lb/>of two Months
+                    Growth to four. They <lb/>were all broken in Pieces, and much <lb/>in the ſame
+                    Manner. I ſhall deſcribe <lb/>theſe pieces in the Order that Mr. <lb/><hi
+                        rend="italic">Howard</hi> told us they had commonly <lb/>been brought away.
+                    Firſt the four Paws <lb/>with the Furr on; then the Liver and <lb/>Inteſtines;
+                    the Trunk and Shoulders in <lb/>another Part: In three or four Animals <lb/>the
+                    Loyns ſeparated from the <hi rend="italic">Os <w part="I">Sa-</w><lb/><w
+                            part="F">crum</w></hi>; and in the reſt, the <hi rend="italic"
+                        >Iſchium</hi>
+                    <lb/>and Thighs in one piece, with the <lb/>Loyns; the Head with its Furr, and
+                    <lb/>laſtly the Skin. </p>
+                <p rend="indent"><lb/>When all theſe ſeveral Parts were <lb/>put together in their
+                    proper Order, they <pb n="17"/><lb/>manifeſtly made up, and appeared to
+                    <lb/>belong to the above-mentioned <w part="I">Ani-</w><lb/><w part="F"
+                    >mals</w>: But the <hi rend="italic">Viſcera</hi> were wanting in <lb/>four or
+                    five of them. One <w part="I">remark-</w><lb/><w part="F">able</w> Circumſtance
+                    is, that moſt of <lb/>theſe Animals were Females, as far as <lb/>I could judge. </p>
+                <p rend="indent"><lb/>The Heart and Liver of thoſe <lb/>which we examined, appeared
+                    much <lb/>larger than uſual, when compared <lb/>with the <hi rend="italic"
+                        >Lungs</hi>and <hi rend="italic">Inteſtnies</hi> which <lb/>belonged to
+                    them; which on the <w part="I">con-</w><lb/><w part="F">trary</w> were extremely
+                    ſmall. The <hi rend="italic"><w part="I">Cœ-</w><lb/><w part="F">cum</w></hi>
+                    and <hi rend="italic">Colon</hi>, which are remarkably <lb/>large in Rabbets,
+                    appeared not to <w part="I">ex-</w><lb/><w part="F">ceed</w> in bigneſs the
+                    other Inteſtines, and <lb/>the ſpiral Structure of the <hi rend="italic"
+                        >Cœcum</hi> was <lb/>not yet unfolded; the Stomach was in <lb/>like manner
+                    much contracted, and its <lb/><hi rend="italic">Pilorus</hi> very ſtreigth and
+                    narrow. I <lb/>cou'd not diſcover, in any of the Livers <lb/>that I examin'd,
+                    the <hi rend="italic">Ductus Venoſus</hi>, <pb n="18"/><lb/>nor the implantation
+                    of the <hi rend="italic">Umbelical</hi>
+                    <lb/>Vein in that Organ. </p>
+                <p rend="indent"><lb/>I open'd three or four of the Hearts, <lb/>and found in every
+                    one of them the <lb/><hi rend="italic">Foramen Ovale</hi>, and the <hi
+                        rend="italic">Ductus <w part="I">Arteri-</w><lb/><w part="F">oſus</w></hi>
+                    fully open, the two Trunks of the <lb/>Deſcendant <hi rend="italic">Cava</hi>
+                    united at the right <lb/>Auricle of the Heart, agreeable to that <lb/>Structure
+                    which is peculiar to natural <lb/>Rabbets, and ſome few other <w part="I"
+                        >Ani-</w><lb/><w part="F">mals</w>. </p>
+                <p rend="indent"><lb/>The Fleſh of theſe Creatures, <w part="I">par-</w><lb/><w
+                        part="F">ticularly</w> of that which I extracted, had <lb/>the ſmell of
+                    Rabbets juſt killed: and <lb/>the Subſtance of their Bones were, in <lb/>all
+                    reſpects, like the Bones of the <hi rend="italic">Fœtus</hi>
+                    <lb/>Rabbets; in ſeveral of them the <hi rend="italic"><w part="I"
+                            >Epi-</w><lb/><w part="F">phyſes</w></hi> were ſeparated from the Bones
+                    <lb/>themſelves. </p>
+                <p rend="indent"><lb/>All the Heads which I examin'd <lb/>had their compleat number
+                    of Teeth, <lb/>four Cutters before, and ten Grinders <pb n="19"/><lb/>on each
+                    ſide, but they appeared not in <lb/>the leaſt worn nor ſtained, as the Teeth
+                    <lb/>of other Rabbets are by Maſtication. </p>
+                <p rend="indent"><lb/>The Nails of the Paws were moſt <lb/>of them exceedingly
+                    ſharp. </p>
+                <p rend="indent"><lb/>The Skins were all produced, being <lb/>dreſs'd in Allum; they
+                    were of ſeveral <lb/>Colours, as to their Furr, which was <lb/>conſiderably
+                    long, and in one <w part="I">particu-</w><lb/><w part="F">larly</w> (which was
+                    the fifth Rabbet,) <lb/>that part which cover'd the Head was <lb/>curled. </p>
+                <p rend="indent"><lb/>The Rabbet which I extracted <lb/>weigh'd one and twenty
+                    ounces <hi rend="italic"><w part="I">Aver-</w><lb/><w part="F">dupoize</w></hi>,
+                    making an allowance for one <lb/>of the Paws not yet come away, and <lb/>part of
+                    the <hi rend="italic">Viſcera</hi> that were loſt. </p>
+                <p rend="indent"><lb/>From all theſe Conſiderations I was <lb/>fully convinced, that
+                    at the ſame time <lb/>that the external Appearance of theſe <lb/>Animals was
+                    exactly like ſuch Creatures, <lb/>as muſt inevitably undergo the <w part="I"
+                        >Chan-</w><pb n="20"/><lb/><w part="F">ges</w> that happen to adult Animals,
+                    by <lb/>Food and Air, they carry'd within <lb/>them the ſtrongeſt Marks of <hi
+                        rend="italic">Fœtus</hi>’s, <lb/>even by ſuch parts as cannot exiſt in
+                    <lb/>an Adult, and without which a <hi rend="italic">Fœtus</hi>
+                    <lb/>cannot poſſibly be ſuppoſed to live. <lb/>This, I think, proves in the
+                    ſtrongeſt <lb/>Terms poſſible that theſe Animals were <lb/>of a particular kind,
+                    and not bred in <lb/>a natural Way; nor will there be any <lb/>doubt remaining
+                    (even with the leaſt <lb/>knowing in theſe matters) when thoſe <lb/>parts which
+                    are ſubſervient to the <w part="I">Cir-</w><lb/><w part="F">culation</w> of the
+                    Blood, and <w part="I">Nouriſh-</w><lb/><w part="F">ment</w> between an adult
+                    Creature and <lb/>its <hi rend="italic">Fœtus</hi> are brought away; which I
+                    <lb/>am fully ſatisfied muſt ſhortly happen, <lb/>or, if retained, be the Cauſe
+                    of this <lb/>Woman’s Death. </p>
+                <p rend="indent"><lb/>All theſe Facts were verify'd before <lb/>his Majeſty, on <hi
+                        rend="italic">Saturday Nov.</hi> the 26th, <lb/>by the Anatomical
+                    Demonſtration of <pb n="21"/><lb/>the firſt, the third, fifth, and ninth of
+                    <lb/>theſe Animals, which were compared <lb/>with the parts of two natural
+                    Rabbets, <lb/>the one of the Age of four Months, <lb/>and the other of five
+                    Days, Dr. <hi rend="italic"><w part="I">Stei-</w><lb/><w part="F"
+                        >gerthal</w></hi> and Dr. <hi rend="italic">Teſſier</hi> being preſent. </p>
+                <p rend="indent"><lb/>I ſhall with all convenient ſpeed <lb/>publiſh the Anatomy of
+                    theſe <w part="I">Præter-</w><lb/><w part="F">natural</w> Rabbets, with their
+                    Figures <w part="I">ta-</w><lb/><w part="F">ken</w> from the Life, and compared
+                    with <lb/>the Parts of Rabbets of the ſame <lb/>growth, that the differences
+                    before <lb/>mention'd may be fully underſtood. </p>
+                <p rend="indent"><lb/>In the mean while, I ſhall relate <lb/>what appear'd in the
+                    Diſſection of two <lb/>Rabbets, which I performed in the <lb/>Preſence of Mr.
+                        <hi rend="italic">Molyneux</hi>, the very <lb/>Day that we returned from <hi
+                        rend="italic">Guilford</hi>; <lb/>the one was of four Months growth,
+                    <lb/>and much of the Size of that which I <lb/>had taken from the Woman, the
+                    other <lb/>was barely fifteen Days old. The <pb n="22"/><lb/>Lungs of the larger
+                    were, as nearly <lb/>as I can judge, twenty times bigger in <lb/>Capacity than
+                    thoſe of the <w part="I">præternatu-</w><lb/><w part="F">ral</w> one, and the
+                    Lungs of the ſmaller <lb/>were at leaſt eight times the bigneſs of <lb/>the
+                    fore-mentioned; both theſe were <lb/>exceedingly different, in Colour and
+                    <lb/>Conſiſtence, from thoſe of the <w part="I">præ-</w><lb/><w part="F"
+                        >ternatural</w> Rabbet. </p>
+                <p rend="indent"><lb/>The <hi rend="italic">Foramen Ovale</hi> of the ſmaller
+                    <lb/>Rabbet was more than two thirds <w part="I">o-</w><lb/><w part="F">pen</w>,
+                    and that in the larger was ſo far <lb/>cloſed, as but juſt to admit a very
+                    <lb/>ſmall Probe. </p>
+                <p rend="indent"><lb/>As to the Stomach and Inteſtines, the <lb/>difference was ſo
+                    notoriouſly great from <lb/>thoſe we had examined, that even in <lb/>the ſucking
+                    Rabbet, the Stomach and <lb/><hi rend="italic">Cœcum</hi> were at leaſt three
+                    times larger <lb/>than thoſe parts in the præternatural <lb/>ones. </p>
+                <p rend="indent"><lb/>I ſhall give no other Account of the <pb n="23"/><lb/>Woman,
+                    than what I think pertinent <lb/>to this Subject: By the ſeveral <w part="I"
+                        >Queſti-</w><lb/><w part="F">ons</w> which I put to her, I was informed,
+                    <lb/>that ſhe was born and bred at <hi rend="italic"><w part="I"
+                            >Godly-</w><lb/><w part="F">man</w></hi>; She ſeem'd to be of a healthy
+                    <lb/>ſtrong Conſtitution, of a ſmall ſize, <lb/>and fair Complexion; of a very
+                        <w part="I">ſtu-</w><lb/><w part="F">pid</w> and ſullen Temper: She can <w
+                        part="I">nei-</w><lb/><w part="F">ther</w> write nor read: She has been <w
+                        part="I">mar-</w><lb/><w part="F">ried</w> about ſix Years to one <hi
+                        rend="italic">Joshua Toft</hi>, <lb/>Junior, a poor Journey-man Clothier
+                    <lb/>at <hi rend="italic">Godlyman</hi>, by whom ſhe has had <lb/>three
+                    Children. The account ſhe <w part="I">fur-</w><lb/><w part="F">ther</w>gave of
+                    herſelf, was, that on the <lb/>23d of <hi rend="italic">April</hi> laſt, as ſhe
+                    was weeding <lb/>in a Field, ſhe ſaw a Rabbet ſpring <lb/>up near her, after
+                    which ſhe ran, with <lb/>another Woman that was at work juſt <lb/>by her; this
+                    ſet her a longing for <w part="I">Rab-</w><lb/><w part="F">bets</w>, being then,
+                    as ſhe thought, five <lb/>Weeks gone with Child; the other <w part="I"
+                        >Wo-</w><lb/><w part="F">man</w> perceiving ſhe was uneaſy, <w part="I"
+                        >charg-</w><pb n="24"/><lb/><w part="F">ed</w> her with longing for the
+                    Rabbet <lb/>they cou'd not catch, but ſhe deny'd <lb/>it: ſoon after another
+                    Rabbet ſprung <lb/>up near the ſame place, which ſhe <w part="I">en-</w><lb/><w
+                        part="F">deavour'd</w> likewiſe to catch. The ſame <lb/>Night ſhe dreamt
+                    that ſhe was in a <lb/>Field with thoſe two Rabbets in her <lb/>Lap, and awaked
+                    with a ſick Fit, which <lb/>laſted till Morning; from that time, for <lb/>above
+                    three Months, ſhe had a <w part="I">con-</w><lb/><w part="F">ſtant</w> and
+                    ſtrong deſire to eat Rabbets, <lb/>but being very poor and indigent cou'd
+                    <lb/>not procure any. About ſeventeen <lb/>Weeks after her longing, ſhe was <w
+                        part="I">ta-</w><lb/><w part="F">ken</w> with a Flooding and violent <w
+                        part="I">Cho-</w><lb/><w part="F">lick</w> Pains, which made her to <w
+                        part="I">miſcar-</w><lb/><w part="F">ry</w> of a Subſtance that ſhe ſaid was
+                    like <lb/>a large lump of Fleſh. Three Weeks <lb/>after this, ſhe was again
+                    taken with a <lb/>Flooding, and voided another <w part="I">Sub-</w><lb/><w
+                        part="F">ſtance</w> like this former, but not ſo large. <lb/>Notwithſtanding
+                    theſe Accidents, ſhe <pb n="25"/><lb/>did not perceive her ſelf to grow leſs,
+                    <lb/>but continued with the Symptoms of <lb/>a breeding Woman; inſomuch that in
+                    <lb/>the beginning of <hi rend="italic">September</hi>, as ſhe was <lb/>working
+                    in the Hop-Ground, the <lb/>Milk flow'd profuſely from her Breaſts; <lb/>and as
+                    ſhe had Children before, ſhe <lb/>thought ſhe felt very differently from
+                    <lb/>what ſhe uſed to do. That on the <lb/>27th of <hi rend="italic"
+                        >September</hi> laſt ſhe was taken <lb/>very ill in the Night, and ſent for
+                    her <lb/>Mother in Law, who is a Midwife, <lb/>and a neighbouring Woman, at
+                    which <lb/>time ſhe voided ſomewhat, which ſhe <lb/>took to be the Lights and
+                    Guts of a <lb/>Pig, which her Husband carried to <lb/>Mr. <hi rend="italic"
+                        >Howard</hi>, who ſome Days <w part="I">after-</w><lb/><w part="F">wards</w>
+                    came to her and deliver'd her <lb/>of ſome parts of the Animal firſt <w part="I"
+                        >men-</w><lb/><w part="F">tion'd</w>. After a Fortnight ſhe was
+                    <lb/>Churched, and thought all was over <pb n="26"/><lb/>with her. She told me
+                    that her <w part="I">Hus-</w><lb/><w part="F">band</w> had not cohabited with
+                    her, from <lb/>the time of her firſt Miſcarriage; and <lb/>that after the firſt
+                    Rabbet was brought <lb/>away, ſhe had one regular Menſtrual <lb/>Evacuation. </p>
+                <p rend="indent"><lb/>The Account Mr. <hi rend="italic">Howard</hi> gave <lb/>was,
+                    in every material Circumſtance, <lb/>the ſame with the Woman's Relation; <lb/>he
+                    ſaid the Guts and Liver (as he <lb/>thought) of a Rabbet were brought <lb/>to
+                    him, but he never knew or heard <lb/>of the Woman or her Friends till <lb/>then,
+                    and that at firſt he took this to <lb/>be intended to be an Impoſition upon
+                    <lb/>him: but was at laſt with much <w part="I">Per-</w><lb/><w part="F"
+                        >ſuaſion</w> prevail'd on to go to aſſiſt her <lb/>at <hi rend="italic"
+                        >Godlyman</hi>; that he did accordingly <lb/>deliver her of part of the
+                    firſt Rabbet; <lb/>that he attended her at <hi rend="italic">Godlyman</hi>,
+                    <lb/>till ſhe was delivered of the ninth; <pb n="27"/><lb/>but that it being
+                    very inconvenient to <lb/>attend her there, which made him <lb/>neglect all his
+                    other Buſineſs, he had <lb/>brought her to <hi rend="italic">Guilford</hi> for
+                    better <w part="I">Con-</w><lb/><w part="F">veniency</w>. </p>
+                <p rend="indent"><lb/>Mr. <hi rend="italic">Howard</hi> further related, that
+                    <lb/>when ſhe was delivered of one <w part="I">Rab-</w><lb/><w part="F">bet</w>,
+                    another was immediately felt in <lb/>her Belly, ſtruggling with ſuch <w part="I"
+                        >Vio-</w><lb/><w part="F">lence</w>, that the Motion thereof cou'd <lb/>be
+                    ſenſibly felt and ſeen: That this <lb/>Motion has ſometimes been ſo ſtrong,
+                    <lb/>as to move the Bed-Clothes, and that <lb/>it has laſted for twenty and
+                    above <lb/>thirty Hours together. This <w part="I">particu-</w><lb/><w part="F"
+                        >lar</w> Fact was unanimouſly agreed on, <lb/>and atteſted by most of the
+                    People <lb/>at <hi rend="italic">Guilford</hi>, who have had the <w part="I"
+                        >Curio-</w><lb/><w part="F">ſity</w> to go to ſee her, and was <w part="I"
+                        >confirm-</w><lb/><w part="F">ed</w> to Mr. <hi rend="italic">Molyneux</hi>
+                    and my ſelf by <lb/>above ten different Perſons, who all <pb n="28"/><lb/>ſeemed
+                    to be indifferent in this <w part="I">Mat-</w><lb/><w part="F">ter</w>. </p>
+                <p rend="indent"><lb/>Mr. <hi rend="italic">Howard</hi> further told me, that,
+                    <lb/>during this Motion, ſhe was always <lb/>free from Pain, and chearful; but
+                    <lb/>that immediately upon the ceaſing of <lb/>it, ſhe grew ſick, and ſoon began
+                    to <w part="I">per-</w><lb/><w part="F">ceive</w> her Labour-Pains drawing near;
+                    <lb/>that upon her firſt Pains, the Bones <lb/>of the Animal were ſenſibly heard
+                    to <lb/>ſnap, and break by the violent <w part="I">convul-</w><lb/><w part="F"
+                        >ſive</w> Motion of the <hi rend="italic">Uterus</hi>: This laſt <w part="I"
+                        >Cir-</w><lb/><w part="F">cumſtance</w> was likewiſe related by the
+                    <lb/>ſame Perſons that atteſted the former. <lb/>He further added, that ſhe had
+                    four <lb/>breakings of Waters in the coming of <lb/>the Rabbets, although in no
+                    great <lb/>Quantity. </p>
+                <p rend="indent"><lb/>On <hi rend="italic">Wedneſday</hi> the 23d Inſtant, I
+                    <lb/>ſet out again for <hi rend="italic">Guilford</hi>, with Mr. <lb/><hi
+                        rend="italic">D'Anteny</hi>, being reſolved to bring the <pb n="29"
+                    /><lb/>Woman to Town, if there was any <lb/>further proſpect of more Rabbets.
+                    <lb/>We arrived there at one in the <w part="I">After-</w><lb/><w part="F"
+                        >noon</w>, and we found Mr. <hi rend="italic">Howard</hi>
+                    <lb/>ſtanding at his Door, who told us, that <lb/>ſhe had been delivered of two
+                    more <lb/>Rabbets ſince I had ſeen her, and that <lb/>he hoped all was over,
+                    being he did <lb/>not perceive in the <hi rend="italic">Uterus</hi> any Motion
+                    <lb/>as uſual. I viſited her ſeveral times <lb/>that Day, and proceeded in every
+                        <w part="I">re-</w><lb/><w part="F">ſpect</w> as before; her Pains, which,
+                    <lb/>when I ſaw her the firſt Time, were <lb/>mixed with intervals of Quiet and
+                    Reſt, <lb/>now were conſtant and fixed on the right <lb/>Side of her Belly; her
+                    Pulſe was more <lb/>irregular; ſhe deſcribed her Pain as if <lb/>very coarſe
+                    brown Paper was tearing <lb/>from within her. Towards eight a Clock <lb/>that
+                    Evening ſhe voided a Piece of <lb/>one of the Membranes of a <hi rend="italic"
+                        >Placenta</hi>, <pb n="30"/><lb/>rolled up like Parchment; when it <lb/>was
+                    extended, it meaſured about ſix <lb/>Inches over. The next Morning, as <lb/>I
+                    was packing up of ſome of the <w part="I">Rab-</w><lb/><w part="F">bets</w> to
+                    bring to Town with me, Mr. <lb/><hi rend="italic">Howard</hi> was ſent for over,
+                    and Mr. <lb/><hi rend="italic">D'Anteny</hi>, Dr. <hi rend="italic">Hempe</hi>,
+                    and my ſelf <lb/>attended him. We found her in <w part="I">ex-</w><lb/><w
+                        part="F">quiſite</w> Torture, and after ſeven or <lb/>eight Minutes, ſhe was
+                    again <w part="I">diſbur-</w><lb/><w part="F">then'd</w> of a Membrane, in
+                    Structure, <lb/>Shape and Size exactly like the <w part="I">for-</w><lb/><w
+                        part="F">mer</w>. This was the firſt part that I ſaw <lb/>come from her with
+                    ſome effuſion of <lb/>Blood. She did not ſeem in the leaſt <lb/>reliev'd after
+                    this Operation, her Pulſe <lb/>continu'd irregular, her Tongue white, <lb/>and
+                    her Urine deeply ſtained with a <lb/><hi rend="italic">Mucus</hi>: and livid
+                    Blood. </p>
+                <pb n="31"/>
+                <p rend="indent"><lb/>Mr. <hi rend="italic">Ahlers</hi> having been at <hi
+                        rend="italic"><w part="I">Guil-</w><lb/><w part="F">ford</w></hi>, by his
+                    Majeſty's Order, (as Mr. <lb/><hi rend="italic">Howard</hi> told us) to enquire
+                    into the <lb/>Truth of this Fact, was fully <w part="I">con-</w><lb/><w part="F"
+                        >vinced</w> of it, as he himſelf declared, <w part="I">ha-</w><lb/><w
+                        part="F">ving</w> aſſiſted the greateſt part of <hi rend="italic"><w
+                            part="I">Sun-</w><lb/><w part="F">day</w></hi> the 20th inſtant, at the
+                    Delivery <lb/>of ſome of the 16th Rabbet, which <lb/>he brought to Town with
+                    him. But <lb/>as on this Occaſion his Behaviour has <lb/>been repreſented here
+                    different from <lb/>what it was at <hi rend="italic">Guilford</hi>, I cannot <w
+                        part="I">bet-</w><lb/><w part="F">ter</w> vindicate that Gentleman's <w
+                        part="I">Cha-</w><lb/><w part="F">racter</w>, than by ſubjoyning the <w
+                        part="I">fol-</w><lb/><w part="F">lowing</w> Affidavits, which were <w
+                        part="I">ta-</w><lb/><w part="F">ken</w> in the preſence of Mr. <hi
+                        rend="italic"><w part="I">D'An-</w><lb/><w part="F">teny</w></hi>, and
+                    Doctor <hi rend="italic">Hampe</hi>. And that <lb/>the Truth, ſo far as it
+                    relates <lb/>to this Point, may be known, <lb/>I think he is ſtrictly obliged,
+                    in <pb n="32"/><lb/>Justice to the Publick, forthwith to <lb/>give an Account of
+                    what he ſaw and <lb/>tranſacted there; as I here have done. </p>
+                <dateline rend="size(0.75) hanging italic"><lb/>London, <hi rend="roman">Monday</hi>
+                    <lb/>Nov. 28. 1726. </dateline>
+                <signed rend="space align-right sc"><lb/>N. St. Andrè. </signed>
+            </div>
+            <div type="part">
+                <p rend="space size(0.75) italic"><lb/><hi rend="dc(2)">I</hi> HAVE carefully read
+                    the above Narrative. <lb/>Whether the Animals mentioned therein were
+                    <lb/>præternaturally produced in this Woman, or that <lb/>a Fraud is practicable
+                    in this Caſe, I do not take <lb/>upon me to ſay: Gentlemen who are ſufficient
+                    Judges <lb/>will determine that Matter upon proper Evidence; I <lb/>can only
+                    certify, That I did draw up a Relation as <lb/>is above-mentioned, which, in the
+                    moſt material <w part="I">Cir-</w><lb/><w part="F">cumſtances</w> of Fact,
+                    agrees with this Narrative <lb/>and I can further affirm, that I did not
+                    perceive <lb/>the leaſt Circumſtance of Fraud in the Conduct of <lb/>this Affair
+                    while I was at <hi rend="roman">Guilford</hi>. </p>
+                <dateline rend="space size(0.50) italic"><lb/>Nov. 29. 1726. </dateline>
+                <signed rend="space align-right size(0.75) sc"><lb/>S. Molyneux. </signed>
+            </div>
+            <pb n="33"/>
+            <div type="part">
+                <q rend="diple"><lb/><hi rend="italic"><hi rend="dc(2)">J</hi>Ohn Howard</hi> of <hi
+                        rend="italic">Guilford</hi> in the <note place="margin" rend="size(0.50)"
+                            ><hi rend="italic">Guilford</hi>
+                        <lb/> in Com' <lb/><hi rend="italic">Surrey</hi>. }ſſ.</note><lb/>County of
+                        <hi rend="italic">Surrey</hi> Surgeon, <w part="I">ma-</w><lb/><w part="F"
+                        >keth</w> Oath, That on <hi rend="italic">Sunday</hi> the <w part="I"
+                        >twen-</w><lb/><w part="F">tieth</w> Day of this inſtant Month of <lb/><hi
+                        rend="italic">November</hi>, at or about ten a Clock <lb/>in the Morning, he
+                    this Deponent <lb/>was called home to a Perſon who <lb/>told him his name was
+                        <hi rend="italic">Ahlers</hi>; that <lb/>he was come to ſee <hi
+                        rend="italic">Mary Toft</hi>; <lb/>that he was ordered by his Majeſty
+                    <lb/>to attend her till all was over; and <lb/>that he was Surgeon to his
+                    Majeſty's <lb/><hi rend="italic">German</hi> Houſhold. And this <w part="I"
+                        >De-</w><lb/><w part="F">ponent</w> ſaith, That at that very time <lb/>the
+                    Nurſe of the ſaid <hi rend="italic">Mary Toft</hi>
+                    <lb/>came to acquaint this Deponent, <lb/>that the ſaid <hi rend="italic">Mary
+                        Toft</hi> was in <w part="I">La-</w><lb/><w part="F">bour</w>: And thereupon
+                    this <w part="I">Depo-</w><lb/><w part="F">nent</w> carried the ſaid Mr. <hi
+                        rend="italic">Ahlers</hi>
+                    <lb/>over to her with him, and having <lb/>touched her in his Preſence, deſired
+                    <lb/>him to examine her, for that he found <lb/>all things ready for a Delivery.
+                        <pb n="34"/><lb/>That Mr. <hi rend="italic">Ahlers</hi> did accordingly
+                    <lb/>examine; but this Deponent finding <lb/>that he did not haſten her
+                    Delivery, <lb/>nor that he proceeded as one who <lb/>underſtands Midwifery
+                    ſhould do, <lb/>this Deponent directed him how to <lb/>proceed in the
+                    Extraction, which <lb/>after ſome time Mr. <hi rend="italic">Ahlers</hi>
+                    <w part="I">effect-</w><lb/><w part="F">ed</w>, having brought away the Loins
+                    <lb/>and inferior Parts of a Rabbet, of <lb/>about three Months Growth. That
+                    <lb/>after this Mr. <hi rend="italic">Ahlers</hi> told this <w part="I"
+                        >De-</w><lb/><w part="F">ponent</w>, and all the Perſons preſent, <lb/>that
+                    he was fully ſatisfied, and <w part="I">con-</w><lb/><w part="F">vinced</w> of
+                    the Truth, and that he <lb/>could have no Doubts after ſuch <lb/>Proofs. That at
+                    the ſame time he <lb/>gave the Woman a Guinea, <w part="I">expreſ-</w><lb/><w
+                        part="F">ſing</w> great Satisfaction, and promiſing <lb/>that he would
+                    procure her a <w part="I">Pen-</w><lb/><w part="F">ſion</w> from his Majeſty:
+                    That he <w part="I">re-</w><lb/><w part="F">peated</w> the ſame Things to Mr.
+                        <hi rend="italic">Tho <lb/>Howard</hi> in this Deponent's Preſence <pb
+                        n="35"/><lb/>nor did he offer any Objections or <lb/>Doubts to them. That
+                    ſome time <lb/>after Mr. <hi rend="italic">Ahlers</hi> deſired to touch the
+                    <lb/>Woman again; but as at the time <lb/>before he had put her to a great
+                    <lb/>deal of unneceſſary Pain, this <w part="I">De-</w><lb/><w part="F"
+                        >ponent</w> deſired him to forbear. That <lb/>ſome time after Mr. <hi
+                        rend="italic">Ahlers</hi> ſaid he <lb/>was not well, and that he muſt
+                    <lb/>haſten back to <hi rend="italic">London</hi>. That this <lb/>Deponent
+                    preſſed him to ſtay, that <lb/>he might aſſiſt at the bringing away <lb/>of the
+                    Remainder of the Rabbet, but <lb/>could not prevail on him; and ſoon <lb/>after
+                    he accordingly ſet out for <lb/><hi rend="italic">London</hi>, although it was
+                    almoſt <lb/>dark. </q>
+                <signed rend="space align-right sc"><lb/>John Howard. </signed>
+                <dateline rend="italic hanging size(0.75)"><lb/>Jur. viceſimo quinto die <hi
+                        rend="roman">Novembris</hi>, <lb/>Anno Reg. Regis <hi rend="roman">Geo</hi>.
+                    &amp;c. 13. <lb/><hi rend="roman">Anno Dom.</hi> 1726. coram </dateline>
+                <signed><lb/><hi rend="sc">Jos. Burtt</hi> Mayor. <lb/><hi rend="sc">James
+                        Cliffton</hi>. </signed>
+            </div>
+            <pb n="36"/>
+            <div type="part">
+                <q rend="diple"><lb/><hi rend="italic"><hi rend="dc(2)">M</hi>Ary Toft</hi>, the
+                    Wife of <hi rend="italic">Joſhua Toft</hi>, <lb/>of <hi rend="italic"
+                        >Godlyman</hi> in the County of <lb/><hi rend="italic">Surrey</hi>,
+                    Clothworker, and <hi rend="italic">Mary <lb/>Coſten</hi> Nurſe to the ſaid <hi
+                        rend="italic">Mary <lb/>Toft</hi>, ſeverally make Oath, That <lb/>Mr. <hi
+                        rend="italic">Ahlers</hi> declared it was <w part="I">wonder-</w><lb/><w
+                        part="F">ful</w> People would not believe a Fact <lb/>that was ſo true as
+                    this appeared to <lb/>him, and the ſaid <hi rend="italic">Mary Toft</hi> ſaith,
+                    <lb/>That Mr. <hi rend="italic">Ahlers</hi> examined her <lb/>Breaſts, and found
+                    Milk in one of <lb/>them. </q>
+                <signed rend="space align-right"><lb/>The Mark of <lb/><hi rend="italic">Mary</hi> ‡
+                        <hi rend="italic">Toft</hi>. </signed>
+                <signed rend="space align-right"><lb/>The Mark of <lb/><hi rend="italic">Mary</hi> x
+                        <hi rend="italic">Costen</hi>. </signed>
+                <dateline rend="space hanging size(0.75) italic"><lb/>Jur. Die &amp; Anno ſupradict.
+                    <lb/>coram </dateline>
+                <signed rend="space"><lb/><hi rend="sc">Jos. Burtt</hi> Mayor.<lb/><hi rend="sc"
+                        >James Cliffton</hi>. </signed>
+            </div>
+            <pb n="37"/>
+            <div type="part">
+                <q rend="diple"><lb/><hi rend="italic"><hi rend="dc(2)">E</hi>Lizabeth Helmes</hi>
+                    of <hi rend="italic">Guilford</hi> in the <note place="margin" rend="size(0.50)"
+                            ><hi rend="italic">Guilford</hi>
+                        <lb/>in Com' <lb/><hi rend="italic">Surrey</hi>.}ſſ</note><lb/>County of <hi
+                        rend="italic">Surrey</hi> Widow, maketh <lb/>Oath, That on <hi rend="italic"
+                        >Sunday</hi> the twentieth <lb/>Day of this inſtant <hi rend="italic"
+                        >November</hi>, at <w part="I">a-</w><lb/><w part="F">bout</w> four in the
+                    Afternoon, ſhe <w part="I">ask-</w><lb/><w part="F">ed</w> Mr. <hi rend="italic"
+                        >Ahlers</hi>, who dined then at <lb/>her Houſe, bearing the Sign of the
+                        <lb/><hi rend="italic">White-Heart</hi>, whether he believed this
+                    <lb/>Account; and that his Anſwer was, <lb/>That he fully did believe it. To
+                    which <lb/>this Deponent reply'd; Then I hope, <lb/>Sir, you will convince a
+                    great many <lb/>Unbelievers when you return to <hi rend="italic"><w part="I"
+                            >Lon-</w><lb/><w part="F">don</w></hi>, as ſome other Gentlemen have
+                    <lb/>already done; to which he ſaid he <lb/>ſhould, as this Deponent <w part="I"
+                        >apprehend-</w><lb/><w part="F">ed</w>. </q>
+                <signed rend="space align-right sc"><lb/>Eliz. Helmes. </signed>
+                <dateline rend="size(0.75) hanging italic"><lb/>Jur' viceſimo quinto die <hi
+                        rend="roman">Novembris</hi>
+                    <lb/>An. Reg. Regis Geo. &amp;c. 13. Anno <lb/>Domini. 1726. coram </dateline>
+                <signed><lb/><hi rend="sc">Jos. Burtt</hi> Mayor. <lb/><hi rend="sc">James
+                        Cliffton</hi>. </signed>
+            </div>
+            <pb n="38"/>
+            <div type="part">
+                <q rend="diple"><lb/><hi rend="italic"><hi rend="dc(2)">O</hi>Live Sands</hi>,
+                    <lb/>the Wife of <hi rend="italic">John Sands</hi>
+                    <lb/>of <hi rend="italic">Guilford</hi> in the County of <hi rend="italic"><w
+                            part="I">Sur-</w><lb/><w part="F">rey</w></hi> Sadler, maketh Oath, That
+                    ſhe <lb/>was conſtantly in the room on <hi rend="italic"><w part="I"
+                            >Sun-</w><lb/><w part="F">day</w></hi> the twentieth inſtant with Mr.
+                        <lb/><hi rend="italic">Ahlers</hi>, from eleven in the Morning <lb/>to three
+                    in the Afternoon. That <lb/>Mrs. <hi rend="italic">Helmes</hi> called him to
+                    Dinner, <lb/>that during the whole time the <w part="I">Wo-</w><lb/><w part="F"
+                        >man</w> was in violent Labour, and that <lb/>he did not leave her in all
+                    that time <lb/>but to go to Dinner. That this <w part="I">De-</w><lb/><w
+                        part="F">ponent</w> ſaw Mr. <hi rend="italic">Ahlers</hi> examine the
+                    <lb/>Woman's Breaſts, and found Milk in <lb/>one of them, and that ſhe heard him
+                    <lb/>ſay he was ordered by his Majeſty <lb/>to attend the ſaid Woman, <hi
+                        rend="italic">Mary <lb/>Toft</hi>, till it was all over. And <w part="I"
+                        >fur-</w><lb/><w part="F">ther</w> ſaith, that the ſaid Mr. <hi
+                        rend="italic">Ahlers</hi>
+                    <lb/>ſaid he would endeavour to get the <lb/>Woman a Penſion from his Majeſty,
+                        <pb n="39"/><lb/>or Words to that effect, on his <lb/>ſeeming ſatisfied of
+                    the Miſery the <lb/>Woman underwent. </q>
+                <signed rend="sc align-right"><lb/>OliveSands. </signed>
+                <dateline rend="hanging italic size(0.75)"><lb/>Jur. Die &amp; Anno <lb/>ſupradict.
+                    coram </dateline>
+                <signed rend="size(0.75)"><lb/><hi rend="sc">Jos. Burtt</hi> Mayor. <lb/><hi
+                        rend="sc">James Cliffton</hi>. </signed>
+            </div>
+            <div type="part">
+                <q rend="diple size(0.75)"><lb/><hi rend="italic"><hi rend="dc(2)">T</hi>Homas
+                        Howard</hi> of <hi rend="italic">Guilford</hi> in the <w part="I">Coun-</w>
+                    <note place="margin" rend="size(0.50)"><hi rend="italic">Guilford</hi>
+                        <lb/>in Com' <lb/><hi rend="italic">Surrey</hi>.}ſſ.</note>
+                    <lb/><w part="F">ty</w> of <hi rend="italic">Surrey</hi> Surgeon, maketh Oath,
+                    <lb/>That in <hi rend="italic">Sunday</hi> the twentieth Day of this
+                    <lb/>inſtant Month of <hi rend="italic">November</hi>, this <w part="I"
+                        >Depo-</w><lb/><w part="F">nent</w> went to ſee the poor miſerable <w
+                        part="I">Wo-</w><lb/><w part="F">man</w>
+                    <hi rend="italic">Mary Toft</hi>, about three of the Clock <lb/>in the
+                    Afternoon, where he found in her <lb/>Chamber one Mr. <hi rend="italic"
+                        >Ahlers</hi>, a Surgeon, who <lb/>told this Deponent he was come to ſee
+                    <lb/>her the ſaid Woman, and that he was <w part="I">or-</w><lb/><w part="F"
+                        >dered</w> by his Majeſty to attend her till 'twas <lb/>all over. That the
+                    ſaid Mr. <hi rend="italic">Ahlers</hi>
+                    <w part="I">him-</w><lb/><w part="F">ſelf</w>, in the aforeſaid Chamber, ſhewed
+                    this <lb/>Deponent the Loins and inferior Parts of a <lb/>Rabbet, which he told
+                    this Deponent <hi rend="sc">he <w part="I">ex-</w><lb/><w part="F">tracted</w>
+                        himself out of the Uterus</hi>. <lb/>That this Deponent asked him what his
+                    <lb/>Opinion was in this Caſe, to which he <w part="I">an-</w><lb/><w part="F"
+                        >ſwered</w>, and old this Deponent, <hi rend="sc">he was <pb n="40"
+                        /><lb/>fully convinced and satisfied that <lb/>it came out of the
+                        Uterus</hi>. That then <lb/>the Deponent asked him, if 'twas poſſible
+                    <lb/>it could be forced or thruſt into the <hi rend="italic"><w part="I"
+                            >Ute-</w><lb/><w part="F">rus</w></hi>; to which his Anſwer was, <hi
+                        rend="sc">No</hi>. That <lb/>after this Deponent was with him at the
+                        <lb/><hi rend="italic">White-Heart-Inn</hi> in <hi rend="italic"
+                        >Guilford</hi>, and there Mr. <lb/><hi rend="italic">Ahlers</hi> repeated
+                    part of what he had ſaid <lb/>before. That this Deponent there preſſed <lb/>him
+                    very much to ſtay all Night, to take <w part="I">a-</w><lb/><w part="F">way</w>
+                    all the reſt of the Parts of the aforeſaid <lb/>Rabbet: Upon which he ſaid he
+                    had a <w part="I">Gid-</w><lb/><w part="F">dineſs</w>, and a turning round in
+                    his Head, <lb/>with a Pain on his Neck and Shoulders, <lb/>and a ſoreneſs of his
+                    Throat, which made <lb/>him very uneaſy, and that he was reſolved <lb/>to go
+                    back to <hi rend="italic">London</hi>. That the ſaid Mr. <lb/><hi rend="italic"
+                        >Ahlers</hi> gave the Woman Money, and told <lb/>her he would procure her a
+                    Penſion, and ſo <lb/>took his leave of her. And this Deponent <lb/>ſaith, that
+                    the ſaid Mr. <hi rend="italic">Ahlers</hi> went from <lb/><hi rend="italic"
+                        >Guilford</hi> about five of the Clock in the <w part="I">Af-</w><lb/><w
+                        part="F">ternoon</w>. </q>
+                <signed rend="sc align-right size(0.75)">Tho. Howard. </signed>
+                <dateline rend="size(0.75) hanging italic"><lb/>Jur. viceſimo ſeptimo die <hi
+                        rend="roman">Novembris</hi>
+                    <lb/>Anno Reg. Regis <hi rend="roman">Geo</hi>. &amp;c. 13. Anno <lb/>Domini,
+                    1726. coram </dateline>
+                <signed rend="size(0.77)"><lb/><hi rend="sc">Jos. Burtt</hi> Mayor. <lb/><hi
+                        rend="sc">James Cliffton</hi>. </signed>
+            </div>
+            <trailer rend="align-center italic"><lb/>FINIS. </trailer>
+        </body>
+    </text>
+</TEI>

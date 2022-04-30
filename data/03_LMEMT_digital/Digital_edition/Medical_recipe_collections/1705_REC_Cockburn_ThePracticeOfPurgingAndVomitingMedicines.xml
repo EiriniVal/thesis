@@ -1,0 +1,989 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LMEMT Corpus - Cockburn: The practice of purging and vomiting medicines</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>William Cockburn</persName>
+            </author>
+            <title type="main">The practice of purging and vomiting medicines, according to Dr.
+              Cockburn's solution of his problem; with tables shewing their doses in particular ages
+              and constitutions. Inscrib'd to the learned Dr. Garth, F.R.S. by W. Cockburn,
+              M.D:</title>
+            <edition n="1"/>
+            <idno type="ESTC">T54050</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/T54050"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName></persName>
+              </publisher>
+              <date>1705</date>
+            </imprint>
+            <extent>
+              <measure type="format">4⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="1"/>
+              <measure type="count" commodity="body" unit="page" quantity="7"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">British Library</orgName>
+            <idno type="ECCO">CW3306579325</idno>
+            <idno type="TCP">K048524.000</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Recipe Collections"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text xml:lang="eng">
+    <body>
+      <div>
+        <pb xml:id="page_1"/>
+        <p rend="indent"><lb/><table>
+            <head rend="align-center">TABLES, <lb/><hi rend="italic">Shewing the Doſes of purging
+                and vomiting Medicins <lb/>according to the Solution of D.R COCKBURN'S
+              Problem.</hi></head>
+            <row>
+              <cell role="label" rows="14" cols="1"><hi rend="italic">Medi-cins whoſe common Doſe
+                  is</hi> ℥i.</cell>
+              <cell role="label" rows="2" cols="1">Medicins</cell>
+              <cell role="label" rows="2" cols="2">Conſtitutions Ages.</cell>
+              <cell role="label" cols="3" rows="1">Doſes</cell>
+            </row>
+            <row>
+              <cell role="label" rows="1" cols="1">ʒ</cell>
+              <cell role="label" rows="1" cols="1">℈</cell>
+              <cell role="label" rows="1" cols="1">Gr.</cell>
+            </row>
+            <row>
+              <cell rows="12" cols="1"><hi rend="italic">Caſſia. Catholicon <w part="I"
+                    >Diacar-</w><lb/><w part="F">thamun</w>. Elect. <w part="I">leni-</w><lb/><w
+                    part="F">tivum</w>. Succus radic Jrid. — <w part="I">Fu-</w><lb/><w part="F"
+                    >marioe</w>. Syrup de Rhamno. — de <w part="I">Po-</w><lb/><w part="F">mis</w>
+                  magis. — <w part="I">Roſar-</w><lb/><w part="F">cum</w> Helleb. Tamarind. Sal <w
+                    part="I">cathar-</w><lb/><w part="F">tic</w>. amar. — <w part="I"
+                    >Mira-</w><lb/><w part="F">bile</w>. Mann.</hi> ℥ij. <hi rend="italic"
+                  >Emetica</hi> Vin. <w part="I">Eme-</w><lb/><w part="F">ticum</w>. ſeu Bened. ſuc.
+                Aſari. <w part="I">Senecio-</w><lb/><w part="F">nis</w>.</cell>
+              <cell rows="3" cols="1">16</cell>
+              <cell rows="1" cols="1">2</cell>
+              <cell rows="1" cols="1">3</cell>
+              <cell rows="1" cols="1">1</cell>
+              <cell rows="1" cols="1">13⅓</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">3</cell>
+              <cell rows="1" cols="1">8</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">4</cell>
+              <cell rows="1" cols="1">14</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">13⅓</cell>
+            </row>
+            <row>
+              <cell rows="3" cols="1">9</cell>
+              <cell rows="1" cols="1">2</cell>
+              <cell rows="1" cols="1">2</cell>
+              <cell rows="1" cols="1">2</cell>
+              <cell rows="1" cols="1">0</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">3</cell>
+              <cell rows="1" cols="1">6</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">4</cell>
+              <cell rows="1" cols="1">10</cell>
+              <cell rows="1" cols="1">2</cell>
+              <cell rows="1" cols="1">0</cell>
+            </row>
+            <row>
+              <cell rows="3" cols="1">6</cell>
+              <cell rows="1" cols="1">2</cell>
+              <cell rows="1" cols="1">1</cell>
+              <cell rows="1" cols="1">2</cell>
+              <cell rows="1" cols="1">6⅔</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">3</cell>
+              <cell rows="1" cols="1">4</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">4</cell>
+              <cell rows="1" cols="1">7</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">6⅔</cell>
+            </row>
+            <row>
+              <cell rows="3" cols="1">3</cell>
+              <cell rows="1" cols="1">2</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">2</cell>
+              <cell rows="1" cols="1">13⅓</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">3</cell>
+              <cell rows="1" cols="1">2</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">4</cell>
+              <cell rows="1" cols="1">3</cell>
+              <cell rows="1" cols="1">1</cell>
+              <cell rows="1" cols="1">13⅓</cell>
+            </row>
+            <row>
+              <cell rows="12" cols="1"><hi rend="italic">Common Doſe</hi> ℥i•.</cell>
+              <cell rows="12" cols="1"><hi rend="italic">Confectio Hamech. Elect. <w part="I"
+                    >Ca-</w><lb/><w part="F">ryocoſtin</w>. Diaphoenicon. &amp; ſucco Roſcco
+                  Roſarum.</hi> Emet. <hi rend="italic">Syrupus emeticus.</hi></cell>
+              <cell rows="3" cols="1">16</cell>
+              <cell rows="1" cols="1">2</cell>
+              <cell rows="1" cols="1">1</cell>
+              <cell rows="1" cols="1">2</cell>
+              <cell rows="1" cols="1">6⅔</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">3</cell>
+              <cell rows="1" cols="1">4</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">4</cell>
+              <cell rows="1" cols="1">7</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">6⅔</cell>
+            </row>
+            <row>
+              <cell rows="3" cols="1">9</cell>
+              <cell rows="1" cols="1">2</cell>
+              <cell rows="1" cols="1">1</cell>
+              <cell rows="1" cols="1">1</cell>
+              <cell rows="1" cols="1">0</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">3</cell>
+              <cell rows="1" cols="1">3</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">4</cell>
+              <cell rows="1" cols="1">5</cell>
+              <cell rows="1" cols="1">1</cell>
+              <cell rows="1" cols="1">0</cell>
+            </row>
+            <row>
+              <cell rows="3" cols="1">6</cell>
+              <cell rows="1" cols="1">2</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">2</cell>
+              <cell rows="1" cols="1">13⅓</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">3</cell>
+              <cell rows="1" cols="1">2</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">4</cell>
+              <cell rows="1" cols="1">3</cell>
+              <cell rows="1" cols="1">1</cell>
+              <cell rows="1" cols="1">13⅓</cell>
+            </row>
+            <row>
+              <cell rows="3" cols="1">3</cell>
+              <cell rows="1" cols="1">2</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">1</cell>
+              <cell rows="1" cols="1">6⅔</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">3</cell>
+              <cell rows="1" cols="1">1</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">4</cell>
+              <cell rows="1" cols="1">1</cell>
+              <cell rows="1" cols="1">2</cell>
+              <cell rows="1" cols="1">6⅔</cell>
+            </row>
+            <row>
+              <cell rows="12" cols="1"><hi rend="italic">Common Doſe</hi> ʒi.</cell>
+              <cell rend="italic" rows="12" cols="1">Agaricus. Aloe. Carthamus. Ebuli ſem. — Cortex.
+                  <w part="I">Harmodac-</w><lb/><w part="F">tylus</w>. <w part="I"
+                  >Mechoa-</w><lb/><w part="F">canna</w>. Pil. Aggre. gattivoe. — Coch. Major. —
+                Foetidoe — ſine Qui bus. Pulv. <w part="I">Dia-</w><lb/><w part="F">ſennoe</w>. <w
+                  part="I">Rhabar-</w><lb/><w part="F">barum</w>. Soldanel la. Senna. Turvith. </cell>
+              <cell rows="3" cols="1">16</cell>
+              <cell rows="1" cols="1">2</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">1</cell>
+              <cell rows="1" cols="1">6⅔</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">3</cell>
+              <cell rows="1" cols="1">1</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">4</cell>
+              <cell rows="1" cols="1">1</cell>
+              <cell rows="1" cols="1">2</cell>
+              <cell rows="1" cols="1">6⅔</cell>
+            </row>
+            <row>
+              <cell rows="3" cols="1">9</cell>
+              <cell rows="1" cols="1">2</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">1</cell>
+              <cell rows="1" cols="1">0</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">3</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">2</cell>
+              <cell rows="1" cols="1">5</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">4</cell>
+              <cell rows="1" cols="1">1</cell>
+              <cell rows="1" cols="1">1</cell>
+              <cell rows="1" cols="1">0</cell>
+            </row>
+            <row>
+              <cell rows="3" cols="1">6</cell>
+              <cell rows="1" cols="1">2</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">13⅓</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">3</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">1</cell>
+              <cell rows="1" cols="1">10</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">4</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">2</cell>
+              <cell rows="1" cols="1">13⅓</cell>
+            </row>
+            <row>
+              <cell rows="3" cols="1">3</cell>
+              <cell rows="1" cols="1">2</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">6⅔</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">3</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">15</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">4</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">1</cell>
+              <cell rows="1" cols="1">6⅔</cell>
+            </row>
+            <row>
+              <cell rows="12" cols="1"><hi rend="italic">Common Doſe</hi> ʒi•.</cell>
+              <cell rows="12" cols="1"><hi rend="italic">Jalappa. Juli <w part="I">ju-</w><lb/><w
+                    part="F">glandis</w>. Lap. Lazuli. — <w part="I">Arme-</w><lb/><w part="F"
+                    >nius</w>. Opoponax. Pil. Coch. minor. — de Gut. Gamandra. — Rudii. Pul. <w
+                    part="I">War-</w><lb/><w part="F">vicenſis</w>. Sagapenum</hi> Emet. <hi
+                  rend="italic">Rad <w part="I">Ipe-</w><lb/><w part="F">cacuana</w>.</hi></cell>
+              <cell rows="3" cols="1">16</cell>
+              <cell rows="1" cols="1">2</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">13⅓</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">3</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">1</cell>
+              <cell rows="1" cols="1">10</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">4</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">2</cell>
+              <cell rows="1" cols="1">13⅓</cell>
+            </row>
+            <row>
+              <cell rows="3" cols="1">9</cell>
+              <cell rows="1" cols="1">2</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">10</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">3</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">1</cell>
+              <cell rows="1" cols="1">2½</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">4</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">2</cell>
+              <cell rows="1" cols="1">0</cell>
+            </row>
+            <row>
+              <cell rows="3" cols="1">6</cell>
+              <cell rows="1" cols="1">2</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">6⅔</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">3</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">15</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">4</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">1</cell>
+              <cell rows="1" cols="1">6⅔</cell>
+            </row>
+            <row>
+              <cell rows="3" cols="1">3</cell>
+              <cell rows="1" cols="1">2</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">3⅓</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">3</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">7½</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">4</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">13⅓</cell>
+            </row>
+            <row>
+              <cell rows="12" cols="1"><hi rend="italic">Common Doſe</hi> ℈i.</cell>
+              <cell rows="12" cols="1"><hi rend="italic">Reſina <w part="I">ja-</w><lb/><w part="F"
+                    >lappoe</w>. Extr. <w part="I">rha-</w><lb/><w part="F">barbari</w>. Pil. de
+                  Hermodacty∣lis</hi> ℈ij. <hi rend="italic">Pulv. <w part="I">Cor-</w><lb/><w
+                    part="F">nach</w>.</hi> ℈ij. Emet. <hi rend="italic">Gilla vitrioli.</hi></cell>
+              <cell rows="3" cols="1">16</cell>
+              <cell rows="1" cols="1">2</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">8 8/9</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">3</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">1</cell>
+              <cell rows="1" cols="1">0</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">4</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">1</cell>
+              <cell rows="1" cols="1">15 5/9</cell>
+            </row>
+            <row>
+              <cell rows="3" cols="1">9</cell>
+              <cell rows="1" cols="1">2</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">6⅔</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">3</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">15</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">4</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">1</cell>
+              <cell rows="1" cols="1">6⅔</cell>
+            </row>
+            <row>
+              <cell rows="3" cols="1">6</cell>
+              <cell rows="1" cols="1">2</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">4 4/9</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">3</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">10</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">4</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">17 7/9</cell>
+            </row>
+            <row>
+              <cell rows="3" cols="1">3</cell>
+              <cell rows="1" cols="1">2</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">2 2/9</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">3</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">5</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">4</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">8 8/9</cell>
+            </row>
+            <row>
+              <cell rows="12" cols="1"><hi rend="italic">Common Doſe Gr.</hi> VI.</cell>
+              <cell rows="12" cols="1"><hi rend="italic">Colocynthis. Ecephorbium Eſuloe <w part="I"
+                    >Cor-</w><lb/><w part="F">tex</w>. Elaterium. Gum. Guttoe. Gran. Gnid. Ricini
+                  ſem. Scammon. Tr. Alhand.</hi> Emet. <hi rend="italic">Croc. <w part="I"
+                    >Ru-</w><lb/><w part="F">landi</w>. Turbith minerale.</hi></cell>
+              <cell rows="3" cols="1">16</cell>
+              <cell rows="1" cols="1">2</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">2⅔</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">3</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">6</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">4</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">10⅔</cell>
+            </row>
+            <row>
+              <cell rows="3" cols="1">9</cell>
+              <cell rows="1" cols="1">2</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">2</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">3</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">4½</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">4</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">8</cell>
+            </row>
+            <row>
+              <cell rows="3" cols="1">6</cell>
+              <cell rows="1" cols="1">2</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">1⅓</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">3</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">3</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">4</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">5⅓</cell>
+            </row>
+            <row>
+              <cell rows="3" cols="1">3</cell>
+              <cell rows="1" cols="1">2</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">⅔</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">3</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">1½</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">4</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">2⅔</cell>
+            </row>
+            <row>
+              <cell rows="12" cols="1"><hi rend="italic">Common Doſe Gr.</hi> III.</cell>
+              <cell rows="12" cols="1">Emet. <hi rend="italic">Hep. <w part="I">Anti-</w><lb/><w
+                    part="F">monij</w>. vitr. Ant. Merc. Vitoe. Tart. Emet. Merc. proec. per ſe —
+                  ſolar. — ruber. Hercules Bovij.</hi></cell>
+              <cell rows="3" cols="1">16</cell>
+              <cell rows="1" cols="1">2</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">1⅓</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">3</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">3</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">4</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">5⅓</cell>
+            </row>
+            <row>
+              <cell rows="3" cols="1">9</cell>
+              <cell rows="1" cols="1">2</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">1</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">3</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">2 1/4</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">4</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">4</cell>
+            </row>
+            <row>
+              <cell rows="3" cols="1">6</cell>
+              <cell rows="1" cols="1">2</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">⅔</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">3</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">1½</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">4</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">2⅔</cell>
+            </row>
+            <row>
+              <cell rows="3" cols="1">3</cell>
+              <cell rows="1" cols="1">2</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">⅓</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">3</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">¾</cell>
+            </row>
+            <row>
+              <cell rows="1" cols="1">4</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">0</cell>
+              <cell rows="1" cols="1">1⅓</cell>
+            </row>
+          </table>
+        </p>
+      </div>
+      <div type="book">
+        <pb xml:id="page_2" n="1"/>
+        <head rend="hanging"><lb/>I. <hi rend="italic">The Practice of Purging and Vomiting
+            Medicines, <lb/>according to Dr.</hi> Cockburn<hi rend="italic">'s Solution of his <w
+              part="I">Pro-</w><lb/><w part="F">blem</w>; with Tables ſhewing their Doſes in <w
+              part="I">particu-</w><lb/><w part="F">lar</w> Ages and Conſtitutions. Inſcrib'd to the
+            Learned <lb/>Dr.</hi> Garth, <hi rend="italic">F. R. S. by</hi> W. Cockburn, M. D. </head>
+        <p rend="indent"><lb/><hi rend="dc(3)">B</hi>Y my Solution of the Problem for determining
+          the <lb/>due Doſes of Purging and Vomiting Medicines, <note place="marg" rend="size(0.5)">
+            <hi rend="italic">Phil. <w part="I">Tranſ-</w><lb/><w part="F">act</w>. No.</hi> 303.
+          </note> in <lb/>all their Caſes, it is manifeſt in general,<note place="marg"
+            rend="size(0.5) italic">Poſtul.</note> that theſe <w part="I">Medi-</w><lb/><w part="F"
+            >cines</w> operate either upon the account of their being <w part="I">mix-</w><lb/><w
+            part="F">ed</w> with the Blood, <note place="marg"> Schol. </note> or by their
+          ſtimulating the Stomach <lb/>and Guts: 2. That this their Operation is more or leſs
+          <lb/>according to the Quantity and Thickneſs of Blood, <hi rend="italic">h.e.</hi>
+          <note place="marg" rend="size(0.5) ">
+            <hi rend="size(0.5) italic">Cor.</hi> 1. </note>
+          <lb/>a greater Quantity, and the thickeſt Blood require the <lb/>greateſt Doſes: And 3,
+            <note place="marg" rend="size(0.5) ">
+            <hi rend="italic">Prop.</hi> 1. </note> that when the Quantities of <lb/>Blood are the
+          ſame, the Doſes of Purging and Vomiting <lb/>Medicines are in a duplicate proportion of
+          the Bloods <lb/>thickneſs. As alſo, that in every caſe theſe Doſes muſt <lb/>be in a
+          proportion compounded of the Quantity of Blood <lb/>and thoſe Squares of its thickneſs.
+            <note place="marg" rend="size(0.5)">
+            <hi rend="italic">Prop.</hi> 2. </note>
+        </p>
+        <p rend="indent"><lb/>Now ſince the Operations of Purgative and Vomitive <lb/>Medicines
+          depend ſo much on the Quantity and Viſcidity <lb/>of the Blood, <note place="marg"
+            rend="size(0.5) italic"> Why the <w part="I">Do-</w><lb/><w part="F">ſes</w> of theſe
+            Medicines ſo hard to be found. </note> which have not been duely conſider'd <w part="I"
+            >be-</w><lb/><w part="F">fore</w>; it is no wonder that the Practice of Phyſick in theſe
+          <lb/>Evacuations has been ſo uncertain, and that the moſt <w part="I">ex-</w><lb/><w
+            part="F">pert</w> Phyſicians, from their moſt accurate Obſervations, <lb/>could never
+          determine the true Doſes of Medicines, which <lb/>alter ſo much according to the various
+          Subjects they work <lb/>upon; they not being acquainted with the true Method <lb/>of
+          determining either the quantity of the Blood, or the <lb/>degrees of its thickneſs. </p>
+        <pb xml:id="page_3" n="2"/>
+        <p rend="indent"><lb/>Becauſe Experience is equally the Foundation and <lb/>Touchſtone of
+          all reaſoning in Phyſick, we will here <w part="I">ſub-</w><lb/><w part="F">mit</w> our
+          Solution to common Obſervations, and try <w part="I">whe-</w><lb/><w part="F">ther</w>
+          every thing propoſed in it, does not exactly anſwer <lb/>Matters of Fact, and the viſible
+          Operations of <w part="I">Na-</w><lb/><w part="F">ture</w>. </p>
+        <p rend="indent"><lb/>Firſt then, <note place="marg" rend="size(0.5) italic"> The different
+            effects of theſe Medicines upon the <w part="I">ac-</w><lb/><w part="F">count</w> of
+            their <unclear>#####</unclear>
+          </note> it plainly follows, that theſe Medicines <w part="I">al-</w><lb/><w part="F"
+            >ways</w> purge beſt and moſt conſtantly in a liquid form; <lb/>becauſe they are more
+          eaſily convey'd into the Blood, <lb/>and can ſtimulate more parts, and that upon the
+          account <lb/>of this their Fluidity; whatever may be the way that <lb/>Purges and Vomits
+          work, or whatſoever their Nature <lb/>may be. This explains very eaſily a very common <w
+            part="I">Ob-</w><lb/><w part="F">ſervation</w>, hitherto very difficult to Phyſicians,
+          about the <lb/>different Operation of the ſame Medicine in different <lb/>forms: Why, <hi
+            rend="italic">viz.</hi> the Infuſion of a due quantity of a <lb/>Purging Medicine
+          produces its effects ſooner and more <lb/>conſtantly than a like quantity of the ſame
+          Medicine in a <lb/>Powder, tho' ſtill more conſtantly in a Powder than a <lb/>Bolus, tho'
+          ſtill ſooner and more conſtantly in a dry <w part="I">Bo-</w><lb/><w part="F">lus</w>,
+          than if it be given in Pills made into that form with <lb/>Gums that do not purge; and
+          this difference in Purging <lb/>ſhall even be notable, according to the diſſolubility of
+          <lb/>the Gums. </p>
+        <p rend="indent"><lb/>From whence it follows, that the Evacuation made by <lb/>ſuch
+          Medicines, is in proportion to the quantity of thoſe <lb/>Medicines that happens to be
+          diſſolv'd, and not to the <lb/>quantity adminiſter'd. </p>
+        <p rend="indent"><lb/>Secondly, <note place="marg" rend="size(0.5) italic"> Their effects
+            different, <w part="I">be-</w><lb/><w part="F">cauſe</w> of the different thickneſs of
+            Blood. </note> That purging by Draughts is the moſt <w part="I">ex-</w><lb/><w part="F"
+            >cellent</w> form, and will always have the moſt conſtant <lb/>effect. </p>
+        <p rend="indent"><lb/>The next Conſideration is, that a certain quantity of <lb/>any purging
+          Medicine affects us after a different manner, <lb/>according to the different Quantity and
+          Conſtitution of <lb/>the Blood, or its thickneſs, and it was ſhewn in the <w part="I"
+            >So-</w><lb/><w part="F">lution</w>, that if its thickneſs were the ſame, the Doſe <pb
+            xml:id="page_4" n="3"/><lb/>ſhould always be as its Quantity, but the Blood differing
+          <lb/>likewiſe in thickneſs, the Doſes of Purging and Vomiting <lb/>Medicines muſt be
+          augmented on account of its thickneſs. <lb/>This is perfectly well confirm'd by daily
+          experience; <lb/>where we find, that People ſick with a manifeſt <w part="I"
+            >thick-</w><lb/><w part="F">ness</w> of Blood, as in Dropſies, the Jaundice, &amp;c.
+          take far <lb/>greater Doſes than they did at any other time when they <lb/>were not ſick,
+          or in that manner. </p>
+        <p rend="indent"><lb/>By a further Diſquiſition into this matter, we find that <lb/>the
+          Doſes muſt not only be greater where the thickneſs <lb/>of Blood is greater; but that they
+          muſt be encreas'd in a <lb/>duplicate proportion of their Viſcidity. This is evident
+          <lb/>by the Tables in <hi rend="italic">Caſſia. viz.</hi> 9:83::4:3ʒ, 1 ℈, <lb/>13⅓ <hi
+            rend="italic">gr.</hi> and therefore <hi rend="italic">alternando</hi> 9:4::8 ʒ:3 ʒ, 1
+          ℈, <lb/>13 ⅓ <hi rend="italic">gr.</hi> Therefore the Doſes are as the Squares of the
+          <lb/>Conſtitutions. So likewiſe 9:8 ʒ::16:14 ʒ, 13 ⅓ <hi rend="italic">gr.</hi>
+          <lb/>and <hi rend="italic">alternando</hi> 9:16::8 ʒ:14 ʒ, 13 ⅓ <hi rend="italic">gr. h.
+            e.</hi> the <lb/>Doſes are as the Squares of the Conſtitutions. </p>
+        <p rend="indent"><lb/>The ſame is true in any other Conſtitution beſides the <lb/>mean: For
+          Example, in the loweſt and higheſt 4:16:: <lb/>213 ⅓ <hi rend="italic">gr:</hi> 853 ⅓. So
+          that by this means we are not only <lb/>led directly to a right uſe of theſe Medicines,
+          and are able <lb/>to find the true cauſe why the ordinary Doſes produce ſo <lb/>very
+          different effects in different Conſtitutions; but <w part="I">like-</w><lb/><w part="F"
+            >wiſe</w>, <note place="marg" rend="size(0.5) italic"> A Problem. </note>
+          <hi rend="italic">The Quantity of Blood in any Perſon being given <lb/>together with the
+            ordinary and extraordinary effect of a <lb/>Doſe of a Purging Medicine, the Change of
+            that Perſons <lb/>Conſtitution, and the Nature of that Change may be <w part="I"
+              >deter-</w><lb/><w part="F">min'd</w>.</hi>
+        </p>
+        <p rend="indent"><lb/>It cannot but be a great ſatisfaction to the mind to find <lb/>a
+          Doctrine founded on a few ſimple Experiences leading <lb/>us into the cauſe of many more
+          that are very complext, <lb/><note place="marg" rend="size(0.5) italic"> This Doctrine
+            true becauſe conform to Nature. </note>
+          <lb/>difficult, and obſcure; which is ſufficient to prove its <lb/>conformity to Nature.
+          But my preſent endeavour being <lb/>to rectify the common Practice of theſe Medicines by
+          this <lb/>Doctrine, I ſhall frame, by this Method, Tables of the <pb xml:id="page_5" n="4"
+          /><lb/>Purging and Vomiting Medicines in preſent uſe; better <lb/>adapted to Experience
+          than are hitherto to be found. </p>
+        <p rend="indent"><lb/>The Method of framing ſuch Tables, <note place="marg"
+            rend="size(0.5) italic"> How they are made. </note> is by ſetting off <lb/>the
+          practicable Conſtitutions in the different Ages that I <lb/>have obſerv'd to take notable
+          Quantities of Purging and <lb/>Vomiting Medicines; ſo that by comparing theſe <w part="I"
+            >Conſti-</w><lb/><w part="F">tutions</w> with the Ages, we have the different Doſes in
+          all <lb/>thoſe caſes, which is all that is requir'd for a better <w part="I"
+            >pra-</w><lb/><w part="F">ctice</w>; tho' a more proper occaſion may produce a more
+          <lb/>nice and exact diviſion of Conſtitutions, very much to <lb/>the advantage of the
+          Practice of Phyſick in all Diſeaſes. </p>
+        <p rend="indent"><lb/>The Ages wherein theſe different Doſes are taken, I <lb/>find to be
+          four; when a Man is about 16 or 20 Years of <lb/>Age, and weighs about 12 Stone, he then
+          takes the <w part="I">com-</w><lb/><w part="F">mon</w> Doſe: One of nine Years takes three
+          quarters of <lb/>that; one of ſix the half, and one of three Years a quarter.
+          <lb/>Moreover, <note place="marg" rend="size(0.5) italic">
+            <hi rend="italic"><unclear>##### #####</unclear> p.</hi>
+            <hi rend="roman">51.</hi>
+            <hi rend="italic">Bibli-<lb/>oth. Anatom. p.</hi>
+            <hi rend="roman">1124.</hi>
+            <hi rend="italic">T<unclear>##</unclear>.</hi> 2. </note> it having already been ſhewn,
+          that the <w part="I">nota-</w><lb/><w part="F">ble</w> healthy Conſtitutions are but
+          three, as alſo the <w part="I">nota-</w><lb/><w part="F">ble</w> Pulſes of each of theſe:
+          Let then theſe Conſtitutions <lb/>be as 2, 3, 4. That of the moſt fluid Blood as <lb/>the
+          firſt number, and ſo on; in that caſe, the Doſe of <lb/>any Perſon will be found by
+          multiplying the common <lb/>Doſe for his Age into the Square of his Conſtitution and
+          <lb/>dividing by the Square of the middle Conſtitution. For <lb/>inſtance, If ℥j. <hi
+            rend="italic">Caſſioe</hi> is the common Doſe, or the Doſe <lb/>of the middle
+          Conſtitution, ʒiij. ℈j. and <hi rend="italic">gr.</hi> 13 ⅓ is the <lb/>Doſe of the firſt
+          Conſtitution, and ʒxiv. <hi rend="italic">gr.</hi> 13 ⅓ that of <lb/>the groſſeſt or laſt
+          Conſtitution; and ſo proportionably <lb/>for every Medicine in all the Ages, as appears by
+          the <lb/>Tables. </p>
+        <p rend="indent"><lb/>This Method ſeems to anſwer ſo exactly, <note place="marg"
+            rend="size(0.5) italic"> Only <w part="I">excep-</w><lb/><w part="F">tion</w>. </note>
+          that there is <lb/>not any thing neceſſary beſides, except a Perſon is more <lb/>Looſe or
+          Coſtive than ordinary (which may be known <lb/>from the Patient or otherways) it is to be
+          reputed the <lb/>ſame, as if he had taken an equivalent quantity of a <w part="I"
+            >Me-</w><lb/><w part="F">dicine</w> proper to produce theſe effects. Any Phyſician, <pb
+            xml:id="page_6" n="5"/><lb/>who has conſider'd this caſe in ſome People after <w
+            part="I">Flux-</w><lb/><w part="F">ing</w>, will allow the juſtneſs of this Exception. </p>
+        <p rend="indent"><lb/>As Vomiting Medicines have the ſame common Doſes <lb/>with thoſe that
+          Purge, <note place="marg" rend="size(0.5) italic"> The Doſes of Vomiting Medicines.
+          </note> they admit alſo of the like <w part="I">divi-</w><lb/><w part="F">ded</w> Doſes;
+          which, therefore may be found by the ſame <lb/>Tables. Only, as People that are more
+          Coſtive than <w part="I">or-</w><lb/><w part="F">dinary</w> require a proportionable
+          greater Doſe of a <w part="I">Purg-</w><lb/><w part="F">ing</w> Medicine: So they require
+          their Doſe of a Vomiting <lb/>Medicine to be conſiderably leſs, as is very very well
+          <lb/>known in hot Countries. </p>
+        <p rend="indent"><lb/>But it muſt be obſerved, that in the Tables, <note place="marg"
+            rend="size(0.5) ">
+            <hi rend="italic">Note</hi>
+            <unclear>#</unclear>. </note>
+          <hi rend="italic">Age</hi> ſtands Inſtead of <hi rend="italic">Quantity</hi> of <hi
+            rend="italic">Blood;</hi> becauſe they encreaſe <w part="I">pret-</w><lb/><w part="F"
+            >ty</w> equally, and it makes the practice more eaſie to ſuch as <lb/>are not accuſtom'd
+          to Weights and Numbers. </p>
+        <p rend="indent"><lb/>The more Skilful are deſir'd to obſerve, that the mean <lb/>Ages,
+            <note place="marg" rend="size(0.5)">
+            <unclear>#</unclear>. </note>multiply'd into the mean Conſtitutions, give Doſes
+          <lb/>more nicely. </p>
+      </div>
+      <div>
+        <head rend="align-center"><lb/>The TABLES. <lb/><hi rend="italic">Some Inſtances ſhewing the
+            Defects of the preſent Practice, <lb/>and how mended by the foregoing Tables.</hi>
+        </head>
+        <p rend="indent"><lb/>The Doſes of the foregoing Tables, ariſing from <w part="I"
+            >Cal-</w><lb/><w part="F">culation</w>, agree perfectly well with the common <w part="I"
+            >Obſerva-</w><lb/><w part="F">tion</w> of the beſt Authors; tho' their Obſervation is
+          very <lb/>general and ill made, if we except the very firſt Steps. <lb/>For inſtance,
+          Authors of all Countries, <hi rend="italic">Engliſh, Dutch, <lb/><note place="marg"
+              rend="size(0.5) italic"> Authors <w part="I">Co-</w><lb/><w part="F">py</w>, but do
+              not Obſerve. </note> German, Italian</hi> and <hi rend="italic">French,</hi> reckon
+          the Doſes after the <lb/>ſame manner; whereas, if they had been obſerv'd, they <lb/>muſt
+          have been different as are the Conſtitutions of Men <lb/>in the different Countries. </p>
+        <p rend="indent" n="2"><lb/>II. The defect of their Obſervation is manifeſt by the
+          <lb/>diſproportion'd Doſes of ſome Medicines, their high <w part="I">Do-</w><lb/><w
+            part="F">ſes</w> being ſometimes double and ſometimes triple, and <pb xml:id="page_7"
+            n="6"/><lb/>more of their low Doſes, which is not conform to <w part="I">Na-</w><lb/><w
+            part="F">ture</w>; for, let the low Doſe be what it will, the high Doſe <lb/>of one
+          Medicine muſt always bear the ſame proportion to <lb/>the high Doſe of another, as did
+          their low Doſes, <hi rend="italic">viz.</hi>
+          <lb/>even in Manna, they reckon it from ℥j: commonly to ℥iij. <lb/>and ℥iv. If it is ſaid
+          that the firſt Doſe is the loweſt <lb/>Doſe that is taken by a Man of a due Age, it is
+          neither <lb/>true in fact nor conform to their own way of reckoning: <lb/>For inſtance,
+          Rhubarb is ſaid to be taken from ʒj. to ʒij. <lb/>No body will ſay that this is the loweſt
+          Doſe taken by a <lb/>Man of a due Age as formerly; becauſe it is not in fact true,
+          <lb/>nor that the high natural Doſe is ℥<hi rend="italic">ſs;</hi> for, as I ſaid <w
+            part="I">be-</w><lb/><w part="F">fore</w>, if ℥j. of Manna and ʒj, of Rhubarb are the <w
+            part="I">reſpe-</w><lb/><w part="F">ctive</w> low Doſes, then ℥iv and ʒij. cannot be the
+          reſpective <lb/> high Doſes. As to what concerns ſome extraordinary <lb/>Doſes given by
+          themſelves, and far exceeding the <w part="I">ordina-</w><lb/><w part="F">ry</w> Doſe, is
+          eaſily accounted for by the Solution. There <lb/>are many Examples of this Nature:
+          Turbith, <hi rend="italic">viz.</hi> is <w part="I">com-</w><lb/><w part="F">monly</w>
+          reckon'd among them from ʒj. to ʒij; yet <hi rend="italic">Marg-<lb/>gravius,</hi> and
+          good Authors, have given it to ʒiv. So <hi rend="italic">Co-<lb/>locynthis</hi> from <hi
+            rend="italic">gr.</hi> vi. to <hi rend="italic">gr.</hi> xij. and <hi rend="italic"
+            >Fulgin. Fernel. <w part="I">Dun-</w><lb/><w part="F">can</w>.</hi> ſay they have given
+          it to ʒβ. </p>
+        <p rend="indent" n="3"><lb/>III. <note place="marg" rend="size(0.5) italic"> They have only
+            given the Doſes for Men at full Age. </note> Authors have been far from being exact; for
+          they <lb/>have only dos'd theſe Medicines for People of full Age; <lb/>but have left the
+          Doſes of the different Ages in ſilence; <lb/>nor have they told us at what time a Man
+          takes his <w part="I">high-</w><lb/><w part="F">eſt</w> Doſe, or how that alters in the
+          Growth and Decline <lb/>of Age, which is ſtill a very great difficulty for the moſt
+          <lb/>experienc'd Phyſicians to manage. </p>
+        <p rend="indent" n="4"><lb/>IV. <note place="marg" rend="size(0.5) italic"> Their way of
+            determining Doſes falſe. </note> Their general Method is founded in a Miſtake;
+          <lb/>their loweſt Doſe being really the common Doſe taken <lb/>by the generality of Men,
+          which produces a multitude <lb/>of Errours in the Practice. This is manifeſt in their <w
+            part="I">do-</w><lb/><w part="F">ſing</w> every Medicine. </p>
+        <pb xml:id="page_8" n="7"/>
+        <p rend="indent" n="5"><lb/>V. <note place="marg" rend="size(0.5) italic"> This ſhewn
+            particularly. </note> The mentioned Caſe is more manifeſt by theſe <w part="I"
+            >Ta-</w><lb/><w part="F">bles</w>, and it is two to one but that a Phyſician over <w
+            part="I">Pur-</w><lb/><w part="F">ges</w> or under Purges any Perſon in Health; and if
+          more <lb/>Caſes in Sickneſs are ſuppos'd, the odds will encreaſe <w part="I"
+            >pro-</w><lb/><w part="F">portionably</w>. Experience confirms this exactly: For if
+          <lb/>the middle Doſe is given to one of the loweſt <w part="I">Conſtitu-</w><lb/><w
+            part="F">tion</w>, and the middle Doſe is to purge 7 or 8 times; in <lb/>that caſe, the
+          Perſon of the loweſt Conſtitution is purg'd <lb/>near twice as much as he ought to be; and
+          if given to <lb/>one of the higheſt Conſtitution, he is purg'd but half of <lb/>what he
+          ſhould be. But if the Doſe of the higheſt <w part="I">Con-</w><lb/><w part="F"
+            >ſtitution</w> is given to one of the middle Conſtitution, he <lb/>is purg'd twice as
+          much as he ought to be; and if given <lb/>to one of the loweſt, he is purg'd four times as
+          much, or <lb/>about thirty times, as we find true by daily Experience. <lb/>But if the
+          Quantity of Blood, the Age, or Sickneſs <w part="I">con-</w><lb/><w part="F">tribute</w>
+          to the Errour, it may prove fatal. If this <w part="I">Conſi-</w><lb/><w part="F"
+            >deration</w> were illuſtrated by a proper number of <w part="I">Exam-</w><lb/><w
+            part="F">ples</w>, we ſhould find ſome hundreds of, otherways <w part="I"
+            >una-</w><lb/><w part="F">voidable</w>, Miſtakes now prevented by the Practice of
+          <lb/>theſe Tables. </p>
+        <p rend="indent"><lb/>Laſtly, We may eaſily account, by theſe Tables, <note place="marg"
+            rend="size(0.5) italic"> Theſe Tables ſhew how the Doſes of <w part="I">Chil-</w><lb/><w
+              part="F">dren</w> may <w part="I">o-</w><lb/><w part="F">ver</w> purge People of full
+            Age. </note> for <lb/>the Doſes of Children over purging ſome People of good
+          <lb/>Health, and of due Age; a <hi rend="italic">Phaenomenen</hi> ſo ſurprizing, <lb/>that
+          the ſmallneſs of the Doſe is commonly thought a <lb/>good Excuſe for the Miſtake. </p>
+        <trailer rend="italic align-center"><lb/>FINIS. </trailer>
+      </div>
+    </body>
+  </text>
+</TEI>

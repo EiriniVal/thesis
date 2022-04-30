@@ -1,0 +1,985 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LMEMT Corpus - Smith: An enlarged syllabus of philosophical lectures.</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>Hugh Smith</persName>
+            </author>
+            <title type="main">n enlarged syllabus of philosophical lectures: delivered by Hugh
+              Smith ... With the principles on which his conjectures are founded concerning animal
+              life, and the laws of the animal oeconomy. These principles are applied not only to
+              the general doctrine of the glands, but likewise to some new thoughts on the nervous
+              system, the gout, and paralytic complaints.</title>
+            <edition n="1"/>
+            <idno type="ESTC">N3443</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/N3443"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>London: printed for L. Davis, Holborn; J. Robson, New Bond-Street; J.
+                  Dodsley, Pall-Mall; T. Cadell, Strand; G. Kearsly, Fleet-Street; G. Robinson, and
+                  T. Evans, Pater-Noster-Row; and Messrs. Richardson and Urquhart, Royal-Exchange.
+                  Where also Dr. Smith's other Publications are to be bought,
+                  MDCCLXXVIII.</persName>
+              </publisher>
+              <date>1778</date>
+            </imprint>
+            <extent>
+              <measure type="format">4⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="9"/>
+              <measure type="count" commodity="body" unit="page" quantity="40"/>
+              <measure type="count" commodity="back" unit="page" quantity="1"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">Harvard University Houghton Library</orgName>
+            <idno type="ECCO">CW3307406649</idno>
+            <idno type="TCP">K002208.000 </idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="General treatises"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text xml:lang="eng">
+    <front>
+      <div>
+        <pb xml:id="page_1"/>
+        <p rend="indent">
+          <lb/>PHILOSOPHY OF PHYSIC. </p>
+        <p rend="indent">
+          <lb/>(PRICE ONE SHILLING AND SIX-PENCE.) </p>
+      </div>
+      <div>
+        <pb xml:id="page_3"/>
+        <head rend="align-center space">
+          <lb/><hi rend="size(1)">INTRODUCTORY PREFACE.</hi></head>
+        <head type="sub" rend="italic">
+          <lb/>To thoſe Gentlemen in particular who honoured <lb/>DR. SMITH by their obliging
+          Condeſcenſion <lb/>in attending his Lectures on the Philoſophy <lb/>of Phyſic—and to the
+          Public in general. </head>
+        <p rend="indent">
+          <lb/>I SHOULD be much wanting in reſpect, much more ſo <lb/> in gratitude, did I not in
+          this addreſs acknowledge the <lb/>pleaſing remembrance of that very candid reception,
+          <lb/>with which my noble and truly liberal auditors have been <lb/>pleaſed to honour ſome
+          very imperfect endeavours to eſta- <lb/>bliſh the firſt elements of Phyſic. </p>
+        <p rend="indent">
+          <lb/>CONSCIOUS of the many inaccuracies to be diſcovered throughout the Courſe of my
+          Lectures, I have not preſumed <lb/>to ſtile them more than rude preparatory outlines; con-
+          <lb/>cluding there was little more to be expected than <hi rend="italic">perhaps</hi> an
+          approbation of the deſign; and for this I truſted to the <lb/>known indulgence of liberal
+          minds. In theſe expectations <pb xml:id="page_4" n="6"/>
+          <lb/>I have been agreeably deceived: — I have been moſt <lb/>kindly ſupported by the
+          favour and countenance of men dis- <lb/>tinguiſhed for abilities and learning: which
+          emboldens me <lb/>to hope the preſent enlargement of my Syllabus may likewiſe eſcape the
+          cenſure of the Public.—In my Introductory Lec- <lb/>ture I mentioned that the deſign had
+          been many years in contemplation; but, fearful of my own want of importance, <lb/>awed by
+          the formidable appearance of the task, and the al- <lb/>moſt infurmountable difficulties
+          attending the promulging <lb/>a new doctrine, with ſuch a degree of ſucceſs as might in-
+          <lb/>title it to a fair and candid diſquiſition,—I could not before ſummon the fortitude
+          neceſſary to appeal to the Public. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">When</hi> the Lectures were compiled, many doubts remained
+          <lb/>concerning the propriety of delivering the Conjectures on <lb/>Animal Life; and had
+          it not been for the perſuaſion of <lb/>ſome friends, whoſe judgments I have ever
+          reſpected, the <lb/>Conjectures had been ſuppreſſed: they obſerved, and with
+          <lb/>propriety, my Lectures would be imperfect, unleſs the Prin- <lb/>ciples were
+          communicated on which my own maxims were <lb/>founded. </p>
+        <p rend="indent">
+          <lb/>To their determination I ſubmitted, not without reluc- <lb/>tance, being fearful of
+          the event; leſt I ſhould either have <lb/>been deceived in my reaſonings, or might not be
+          able to <lb/>expreſs myſelf, ſo as to be clearly underſtood. </p>
+        <p rend="indent">
+          <lb/>IT is even now my moſt earneſt deſire, the Principles on <lb/>which the Conjectures
+          are founded ſhould be coolly and deli- <lb/>berately enquired into. Many of the opinions
+          are undoubt- <lb/>edly <pb xml:id="page_5" n="7"/>
+          <lb/>new and ſingular: Truth being the great object of my <lb/>purſuit, I ſhould have
+          reaſon to lament the partiality of my <lb/> friends, if I ſuffered myſelf to be prevailed
+          on to propagate <lb/>errors, however plauſible they might appear: For theſe rea- <lb/>ſons
+          I have withſtood many reſpectable applications to deliver <lb/>another Courſe of Lectures;
+          and am determined not to <lb/>repeat them, till the Public have had a fair opportunity of
+          <lb/>examining the truth of the Principles, on which thoſe Con- <lb/>jectures are founded,
+          that ſupport the practical obſervations delivered in the Lectures. </p>
+        <p rend="indent">
+          <lb/>IT is well known, that all learned and wiſe men ever re- <lb/>gard new ſyſtems with a
+          jealous eye; and their ſo doing is <lb/>to be accounted a mark of wiſdom. I wiſh my
+          principles <lb/>to be received with a manly diſtruſt; ſuffer them, however, <lb/>to
+          undergo a full and candid examination. I am ſenſible it will require ſome degree of
+          attention for gentlemen to <lb/>comprehend the whole of them; eſpecially thoſe who have
+          <lb/>not ſeen the experiments, and who are unacquainted with the <lb/>reaſonings by which
+          the principles have been ſupported. </p>
+        <p rend="indent">
+          <lb/>THESE difficulties may perhaps occaſion doubts in the <lb/>minds of ſome medical, and
+          other learned men; ſo far it <lb/>muſt be acknowledged they will operate againſt me. I am
+          <lb/>content it ſhould be ſo. Poſſibly thoſe doubts may excite <lb/>ſome more able perſons
+          to ſearch after the truth; and, as I <lb/>am not wedded to my own opinions, I ſhall moſt
+          readily <lb/>join in their condemnation, whenever they are proved to be <lb/>erroneous. </p>
+        <pb xml:id="page_6" n="8"/>
+        <p rend="indent">
+          <lb/><hi rend="sc">The</hi> enlargement of my Syllabus will, I apprehend, <lb/>prove
+          acceptable to many of thoſe Gentlemen who honoured <lb/> my Lectures by their preſence;
+          ſome of them indeeed have <lb/>applied to me on this ſubject. The Public at large, per-
+          <lb/>haps, may be pleaſed with having an opportunity of know- <lb/>ing the principles; and
+          generous minds ever ſhew favour to <lb/>an attempt, however poorly executed, that has for
+          its ob- <lb/>jects the information and happineſs of mankind. </p>
+        <p rend="indent">
+          <lb/>I <hi rend="sc">Shall</hi> beg leave to repeat what was delivered in one of <lb/>my
+          Lectures— </p>
+        <p rend="indent">
+          <lb/>
+          <q rend="quotes">I <hi rend="sc">Love</hi> the profeſſion of phyſic. I honour able medical
+            <lb/>practitioners. I wiſh to convince mankind of the benefits <lb/>that may be derived
+            from a practice of phyſic founded on <lb/>liberal and rational principles. I have uſed
+            my beſt en- <lb/>deavours to convey clear and adequate ideas concerning <lb/>animal
+            life, and the laws of the animal oeconomy; with <lb/>a full hope and firm perſuaſion,
+            that thereby the practice <lb/>of phyſic may be rendered more univerſally beneficial;
+            <lb/>and with a ſincere deſire that farther dignity may be <lb/>added to the profeſſion.
+          </q>
+        </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">Whether</hi> my maxims be true or falſe, permit me to add, <lb/>if I
+          cannot, by a generous and candid behaviour on my own <lb/> part, ſuppreſs the envy and
+          jealouſy of illiberal minds,—I <lb/>can pity and forgive ſuch men. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">It</hi> is my earneſt deſire to promote medical knowledge; <lb/>to
+          render the philoſophy of phyſic, an eaſy, pleaſing, and <pb xml:id="page_7" n="9"/>
+          <lb/>rational ſtudy; and to point out to gentlemen of fortune <lb/>the propriety of their
+          becoming acquainted with the firſt <lb/>elements of a ſcience—founded in the knowledge of
+          the <lb/>Laws of Nature, reſpecting animal life. </p>
+        <p rend="indent">
+          <lb/>I <hi rend="sc">most</hi> ſincerely wiſh my fellow labourers, in the healing
+          <lb/>art, may with unanimity join me in this undertaking—let us <lb/>endeavour to convince
+          mankind it is their intereſt, on all <lb/>occaſions, to apply to able medical
+          practitioners—more eſpe- <lb/>cially in that claſs of complaints termed <hi rend="italic"
+            >Chronic,</hi> which is at <lb/>preſent the great field of quackery. </p>
+        <dateline><hi rend="italic">Hatton-ſtreet,</hi>
+          <hi rend="italic">May</hi> 16, 1778. </dateline>
+        <signed>
+          <lb/>HUGH SMITH. </signed>
+      </div>
+      <div>
+        <pb xml:id="page_8" n="11"/>
+        <head rend="align-center space">
+          <lb/><hi rend="size(1)">TO THE</hi>
+          <lb/>
+          <lb/><hi rend="size(1.5)">R E A D E R. </hi>
+        </head>
+        <p rend="indent">
+          <lb/><hi rend="sc">The</hi> following is the Syllabus firſt publiſhed, <lb/>in which no
+          mention is made of the Conjectures to <lb/>be delivered after the Lectures, concerning the
+          firſt <lb/>material cauſe of animal life, and the laws of the animal <lb/>oeconomy. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">If</hi> it be asked, why this part of the deſign was not taken
+          <lb/>notice of?—I refer my reader to the doubts already ex- <lb/>preſſed in the
+          Introductory Preface.—I was likewiſe fearful <lb/>this attempt might be treated as
+          altogether chimerical—and <pb xml:id="page_9" n="12"/>
+          <lb/>did not care to run the risk of premature ridicule; well <lb/>knowing that, <hi
+            rend="italic">ſometimes,</hi> where ſolid objections are not ad- <lb/>vanced, private
+          whiſpers, and ironical buffoonery, may <lb/>create inſuperable prejudices againſt a man
+          who dares to <lb/>venture out of the beaten paths of Science. </p>
+      </div>
+    </front>
+    <body>
+      <pb xml:id="page_10" n="13"/>
+      <figure rend="space">
+        <figDesc>A horizontal double-line, spanning the whole page. </figDesc>
+      </figure>
+      <figure rend="space">
+        <figDesc>A horizontal double-line, spanning the whole page. </figDesc>
+      </figure>
+      <head rend="align-center space">
+        <lb/><hi rend="size(1.5)">PHILOSOPHICAL LECTURES </hi>
+        <lb/><hi rend="sc">on the </hi>
+        <lb/><hi rend="sc size(1.5) space">PRACTICE of PHYSIC: </hi>
+        <lb/><hi rend="size(1.5) space">By <hi rend="italic">HUGH SMITH</hi>, M. D. </hi>
+        <lb/>Of <hi rend="sc">Hatton-Street, London</hi>. </head>
+      <space dim="vertical" unit="lines" quantity="2"> </space>
+      <p>
+        <lb/><hi rend="dc(3)">T</hi>HESE Lectures are intended to render the Practice <lb/>of Phyſic
+        a liberal ſcience; as derived from the <lb/>known and eſtabliſhed laws of Natural
+        Philoſophy— <lb/>to open a new theory, adapted to practice, and correſpon- <lb/>dent to
+        thoſe laws. </p>
+      <p rend="indent space">
+        <lb/><hi rend="sc">No</hi> perſon, it is believed, on this plan, has ever yet at-
+        <lb/>tempted to bring the rudiments of the ſcience of Medicine, <lb/>into one general and
+        compendious point of view. </p>
+      <pb xml:id="page_11" n="14"/>
+      <p rend="indent">
+        <lb/><hi rend="sc">In</hi> the execution of the plan, <hi rend="italic">poſſibly</hi> ſome
+        practical rules <lb/>may ariſe, ſupported on eſtabliſhed principles, tending to <lb/>the
+        improvement of the ſcience <note place="bottom" n="*" rend="size(0.5)">
+          <p rend="indent">
+            <lb/>* This alludes to matters of fact evident to the ſenſes ſet forth in the Fourth
+              <lb/>Lecture—<hi rend="sc">on NUTRITION</hi>. </p>
+        </note>. By a chain of rational <lb/>and philoſophical reaſoning it is deſigned to call
+        forth that <lb/>knowledge obtained by detached ſtudies; and to apply it to <lb/>the great
+        end and purpoſe for which thoſe ſtudies were inſti- <lb/>tuted. </p>
+      <p rend="indent space">
+        <lb/><hi rend="sc">Men</hi> are often poſſeſſed of powers and talents, to which <lb/>they
+        themſelves, in ſome degree, are ſtrangers—and great <lb/>abilities are often buried in
+        oblivion, for want of right rules <lb/>in practice. The truth of this obſervation many
+        medical <lb/>men have the mortification to experience; and on this ac- <lb/>count <hi
+          rend="italic">only</hi> perhaps they paſs their lives in obſcurity; and <lb/>their
+        knowledge is loſt to the world. <hi rend="italic">The preſent Lectures, <lb/>therefore, are
+          particularly recommended to medical ſtudents.</hi>
+      </p>
+      <p rend="indent space">
+        <lb/><hi rend="sc">To</hi> men of letters human nature is acknowledged to be an
+        <lb/>agreeable object of contemplation. Can it be leſs entertaining <lb/>to any man of good
+        natural underſtanding? The knowledge <lb/>of <hi rend="sc">nature</hi> is not <hi
+          rend="italic">ſurely</hi> above the reach of common ſenſe — <lb/>Conſidered liberally, and
+        freed from all unneceſſary terms of <lb/>art, it will be found a pleaſing ſcience. Theſe
+        Lectures, <lb/>probably, may throw a new light on the ſubject; by open- <lb/>ing to familiar
+        view the firſt ſprings of life; <note place="bottom" n="†" rend="size(0.5)">
+          <p rend="indent">
+            <lb/>† The reader may now perceive this paſſage alludes to the Conjectures on
+            <lb/>Animal Life. </p>
+        </note> the cauſes of <pb xml:id="page_12" n="15"/>
+        <lb/>man's gradual riſe; neceſſary decay; and the cauſes likewiſe <lb/>of the diſeaſes to
+        which he is liable. Is not every human <lb/>being intereſted in this inquiry? How many men
+        <lb/>have been rendered miſerable by dipping into medical <lb/>authors, for want of a
+        conſiſtent view of the leading prin- <lb/>ciples of the ſcience? In theſe Lectures, though
+        on medical <lb/>ſubjects, every thing myſterious being removed, <hi rend="italic">man</hi>
+        properly <lb/>becomes the object of rational, or philoſophical contempla- <lb/>tion.—It is
+        to be hoped, likewiſe, the practice of phyſic may <lb/>be rendered more univerſally
+        beneficial, and <hi rend="italic">poſſibly</hi> freſh <lb/>dignity may be added to the
+        profeſſion. </p>
+      <space dim="vertical" unit="lines" quantity="3"> </space>
+      <div>
+        <head rend="size(1.5) align-center">
+          <lb/>SYLLABUS. </head>
+        <space dim="vertical" unit="lines" quantity="2"> </space>
+        <p rend="indent">
+          <lb/><hi rend="sc">First Lecture</hi>—Introductory.—The Importance of the <lb/>Deſign—not
+          confined to men of the profeſſion—but of <lb/>utility to all gentlemen of liberal
+          education—the propriety of <lb/>their becoming acquainted with the elements of the ſcience
+          <lb/>of Medicine enforced. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">Second Lecture</hi>—Hiſtorical,—but <hi rend="italic">principally</hi>
+          in regard <lb/>to the Practice of Phyſic.—It is not only uſual, but uſeful <lb/>and
+          entertaining, to trace the origin of whatever engages our <lb/>inquiry. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">Third Lecture</hi>—On Animal Life.—It is impoſſible to <lb/>eſtabliſh
+          the Practice of Phyſic, on liberal and rational prin- <pb xml:id="page_13" n="16"/>
+          <lb/>ciples, without clear and fixed ideas concerning Animal Life <lb/>—the great deſign
+          of the art being to aſſiſt Nature, in order <lb/>to preſerve the lives of Animals. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">Fourth Lecture</hi>—On Nutrition.—The deſign of this <lb/>Lecture is to
+          inquire into the mode of Nutrition, as it is <lb/>performed in animal bodies—to point out
+          certain facts, as <lb/><hi rend="italic">data</hi>, to prove that Nutrition is univerſally
+          carried on, in <lb/>animal bodies, by the glandular ſyſtem. <note place="bottom" n="*"
+            rend="size(0.5)">
+            <p rend="indent">
+              <lb/>* For an explanation of the word Gland, ſee page 19. </p>
+          </note>
+        </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">Fifth Lecture</hi>—The ſubject of Nutrition continued.— <lb/>This
+          doctrine, though perhaps allowed, in <hi rend="italic">part</hi>, by many <lb/>able
+          practitioners, has never yet been proved in the <hi rend="italic">whole</hi>— <lb/>its
+          novelty <hi rend="italic">therefore</hi> might induce ſome to diſpute the truth of
+          <lb/>it, if the matter of fact reſted <hi rend="italic">only</hi> on a ſingle perſon's
+          prac- <lb/>tical diſcoveries; or on a few ſimple facts, <hi rend="italic">however
+            evident</hi> to <lb/>the ſenſes.—We ſhall therefore confirm this doctrine by phy-
+          <lb/>ſiological reſearches, and mathematical reaſonings founded on <lb/>the eſtabliſhed
+            <hi rend="italic">data</hi> contained in the Fourth Lecture. <note place="bottom" n="†"
+            rend="size(0.5)">
+            <p rend="indent">
+              <lb/>† I do not wiſh to be underſtood, nor do I mean, ſtrict mathematical demon-
+              <lb/>ſtration, for that can admit of no doubt; but a cloſe method of reaſoning, in
+              <lb/>imitation of that uſed by mathematicians; which, in ſubjects not ſtrictly mathe-
+              <lb/>matical, never amounts to more than the higheſt degree of probability. </p>
+          </note>
+        </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">Sixth Lecture</hi>—A continuation of the ſame ſubject.— <lb/>No proof
+          ought to be withheld, that can rationally be ad- <lb/>vanced, in ſupport of principles in
+          themſelves important, but <lb/>not generally eſtabliſhed.—We ſhall therefore, by
+          mechanical <pb xml:id="page_14" n="17"/>
+          <lb/>reaſoning, farther confirm this doctrine of Nutrition being <lb/>univerſally carried
+          on by the glandular ſyſtem. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">Seventh Lecture</hi>—On Diſeaſes.—Here we mean to <lb/>prove, agreeable
+          to the principles before-mentioned, from <lb/>practical experience, that the primary
+          errors in animal <lb/>bodies, which may juſtly be ſtyled the <hi rend="italic">internal,
+            incipient</hi>, <lb/>cauſes of diſeaſes, are, <hi rend="italic">univerſally</hi>, ſeated
+          in the glandular <lb/>ſyſtem.—This, if well ſupported, muſt neceſſarily eſtabliſh <lb/>our
+          doctrine concerning Nutrition beyond the poſſibility of <lb/>doubt.—It muſt likewiſe be
+          productive of new theories in <lb/>many caſes; and alter the preſent mode of practice,
+          with <lb/>regard to the curative intentions, in various diſeaſes. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">Eighth Lecture</hi>—How a Phyſician differs from a <lb/>Quack.—Having
+          in the former Lecture eſtabliſhed fixed <lb/>principles, as a ſolid foundation for a
+          liberal and rational <lb/>practice of Phyſic, the preſent philoſophic inquiry ſeems
+          <lb/>properly to take place. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">Ninth Lecture</hi>—Will ſet forth the ſuperiority of a ra- <lb/>tional
+          Practice of Phyſic over empiriciſm and quackery. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">Tenth Lecture</hi>—Acute and Chronic Diſeaſes diſtin- <lb/>guiſhed.—In
+          this Lecture we ſhall take the liberty of drawing <lb/>the line of diſtinction, in ſome
+          meaſure different from that <lb/>already given by medical writers; but <hi rend="italic"
+            >perhaps</hi> neceſſary to <lb/>eſtabliſh the Practice of Phyſic, on liberal and
+          rational <lb/>principles—which regularly leads to— </p>
+        <pb xml:id="page_15" n="18"/>
+        <p rend="indent">
+          <lb/><hi rend="sc">Eleventh Lecture</hi>—An inquiry into the cauſes of <lb/>Quackery. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">Twelfth and last Lecture</hi>—Contains ſome rules, that <lb/>we humbly
+          conceive will be found uſeful; eſpecially, to <lb/>younger practitioners, in their conduct
+          towards patients, <lb/>both in acute and chronic diſeaſes; in order to obtain their
+          <lb/>rational confidence, and to convince them of the benefits <lb/>that may be derived
+          from a Practice of Phyſic, founded on <lb/>liberal and rational principles. </p>
+      </div>
+      <div type="part">
+        <pb xml:id="page_16" n="19"/>
+        <space dim="vertical" unit="lines" quantity="3"> </space>
+        <head rend="sc align-center">
+          <lb/>DESCRIPTION <lb/><hi rend="space">of a </hi>
+          <lb/><hi rend="size(2.0) space">GLAND. </hi>
+        </head>
+        <space dim="vertical" unit="lines" quantity="2"> </space>
+        <p>
+          <lb/><hi rend="dc(2)">T</hi>HAT no confuſion may ariſe in our ideas, and with a <lb/>view
+          to be clearly underſtood by every one into <lb/>whoſe hands this Syllabus may fall, it
+          will not be improper <lb/>to ſubjoin an explanation of the word <hi rend="sc">Gland</hi>,
+          as it is applied <lb/>in the Lectures. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">All</hi> medical writers agree in this point, that a <hi rend="sc"
+            >Gland</hi>
+          <lb/><hi rend="italic">ſerves to ſeparate a particular humour from the blood</hi>. <hi
+            rend="sc">Glands</hi>
+          <lb/>are diſtinguiſhed, by anatomiſts, into ſimple and compound; <lb/>accurate
+          deſcriptions have been given of many that are <lb/>viſible, and new <hi rend="sc"
+            >Glands</hi> are continually diſcovered. It <lb/>concerns not our preſent purpoſe to
+          inquire into their <lb/>ſtructures: Different <hi rend="sc">Glands</hi> are evidently
+          appointed for <lb/>different uſes—Whether, therefore, they be ſimple or com- <lb/>pound;
+          or whether they be any thing more than the ulti- <lb/>mate terminations of ſingle
+          arteries, convoluted, or not; <pb xml:id="page_17" n="20"/>
+          <lb/>every part of the animal œconomy muſt be allowed to be a <lb/><hi rend="sc"
+            >Gland</hi>, whoſe office it is to <hi rend="italic">ſeparate</hi>, <hi rend="italic"
+            >percolate</hi>, or <hi rend="italic">drain</hi> a <lb/>particular humour from the
+          blood; which humour, when <lb/>thus ſeparated, is no longer blood. </p>
+        <p rend="italic indent space">
+          <lb/>In ſtrict conformity to Phyſiology, this Deſcription eſtabliſhes <lb/>a clear and
+          adequate idea to be conveyed by the word <hi rend="sc">Gland</hi>. </p>
+      </div>
+      <div type="part">
+        <pb xml:id="page_18" n="21"/>
+        <space dim="vertical" unit="lines" quantity="2"> </space>
+        <head rend="sc align-center">
+          <lb/><hi rend="size(1.25)">SOME ACCOUNT </hi>
+          <lb/><hi rend="space">of the </hi>
+          <lb/><hi rend="size(1.5) space">CONJECTURES </hi>
+          <lb/><hi rend="space">on </hi>
+          <lb/><hi rend="size(1.5) space">ANIMAL LIFE, <hi rend="italic">&amp;c.</hi>
+          </hi>
+        </head>
+        <space dim="vertical" unit="lines" quantity="2"> </space>
+        <p>
+          <lb/><hi rend="dc(2)">T</hi>HROUGHOUT the courſe of our Lectures, we <lb/>endeavoured from
+          effects to lead to cauſes—and <lb/>thereby to account for Nutrition—and the primary cauſes
+          of <lb/>Diſeaſes. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">Our</hi> Conjectures concerning the firſt active material cauſe <lb/>of
+          Animal Life, and the laws of the Animal Oeconomy, <lb/>for obvious reaſons, were totally
+          detached from the Lec- <lb/>tures—on theſe points, we endeavoured to trace effects from
+          <lb/>cauſes; and, by arguments founded on experimental proofs, <lb/>we hope at leaſt to
+          have ſtrengthened ſome of the opinions <lb/>delivered in our Lectures; though perhaps we
+          have not <lb/>been able fully to eſtabliſh any point contended for. </p>
+        <pb xml:id="page_19" n="22"/>
+        <p rend="indent">
+          <lb/><hi rend="sc">It</hi> is neceſſary, however, to be remarked, that nothing <lb/>new is
+          meant to be advanced concerning the properties of <lb/>air, nor is it intended to enter
+          into its properties at large— <lb/>the application of its properties to Animal Life, is
+          all we <lb/>aim at: Some Conjectures are offered, that ſeem to ſhew the <lb/>probability
+          of air, put into motion by heat, being not only <lb/>the firſt active material cauſe of
+          new life, but the actual <lb/>ſupport of life, throughout every different ſtage of our
+          <lb/>animated exiſtence. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">These</hi> Conjectures, if admitted, ſhew the Moſaic account <lb/>of
+          the creation of man to be philoſophically true— <q rend="diple quotes italic">that
+            <lb/>the Lord God formed man of the duſt of the ground, and <lb/>breathed into his
+            noſtrils the breath of life, and man became <lb/>a living ſoul, </q> (Gen. ch. ii. v.
+          7.)—and that the laws of <lb/>generation are the means appointed by our Creator to pre-
+          <lb/>ſerve this active operative cauſe of life, ſo given: For the <lb/>Conjectures ſeem to
+          evince what we term <hi rend="sc">vital air</hi>, to be <lb/>the firſt cauſe of motion,
+          not only in man, but throughout <lb/>the whole animated creation. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">Our</hi> leading aphoriſm runs thus— </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">In all Animals, Life, Heat, and Motion, are <lb/>Inseparable</hi>. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">We</hi> maintained the truth of this aphoriſm, not only by <lb/>death
+          and its conſequences, but likewiſe by life and its <lb/>effects: It ſeems alſo to be
+          farther illuſtrated by the follow- <lb/>ing Principles—from which many other important
+          con- <lb/>cluſions have been drawn. </p>
+      </div>
+      <div type="part">
+        <pb xml:id="page_20" n="23"/>
+        <space dim="vertical" unit="lines" quantity="3"> </space>
+        <head rend="sc align-center">
+          <lb/><hi rend="size(1.5)">PRINCIPLES </hi>
+          <lb/><hi rend="space">on which the </hi>
+          <lb/><hi rend="size(1.5) space">CONJECTURES </hi>
+          <lb/><hi rend="space">ARE FOUNDED. </hi>
+        </head>
+        <p rend="italic hanging">
+          <lb/>Each Night, before the Lecture, a variety of Experiments <lb/>were exhibited, to
+          demonſtrate the Truth of the following <lb/>Principles: many of which will not be denied
+          by ſcientific <lb/>Men; and where it ſeems neceſſary, the others are attempted <lb/>to be
+          explained. </p>
+        <label rend="align-center space">
+          <lb/>I. </label>
+        <p n="1">
+          <lb/><hi rend="size(2.0)">A</hi>IR is matter. </p>
+        <label rend="align-center space">
+          <lb/>II. </label>
+        <p rend="indent" n="2">
+          <lb/><hi rend="sc">Matter</hi> is of itſelf inactive, but capable of being put <lb/>into
+          motion. </p>
+        <pb xml:id="page_21" n="24"/>
+        <label rend="align-center space">
+          <lb/>III. </label>
+        <p rend="indent" n="3">
+          <lb/><hi rend="sc">Air</hi>, as matter, is capable of different arrangements,
+          <lb/>modifications, and combinations, in obedience to the ge- <lb/>neral laws of matter. </p>
+        <label rend="align-center space">
+          <lb/>IV. </label>
+        <p rend="indent" n="4">
+          <lb/><hi rend="sc">Air</hi> is a fluid—but has properties peculiar to itſelf, and
+          <lb/>different from other fluids;—for, </p>
+        <label rend="align-center space">
+          <lb/>V. </label>
+        <p rend="indent" n="5">
+          <lb/><hi rend="sc">Air</hi> is an elaſtic fluid, and the force of its ſpring is pro-
+          <lb/>portionable to its weight. </p>
+        <label rend="align-center space">
+          <lb/>VI. </label>
+        <p rend="indent" n="6">
+          <lb/><hi rend="sc">Air</hi> poſſeſſes the property of rarefaction, or expanſion. </p>
+        <label rend="align-center space">
+          <lb/>VII. </label>
+        <p rend="indent" n="7">
+          <lb/><hi rend="sc">Heat</hi>—by which we mean a ſimilar effect to that pro- <lb/>duced by
+          fire, will rarefy or expand air. </p>
+        <pb xml:id="page_22" n="25"/>
+        <label rend="align-center space">
+          <lb/>VIII. </label>
+        <p rend="indent" n="8">
+          <lb/><hi rend="sc">Air</hi> poſſeſſes the property of compreſſion, or condenſation. </p>
+        <label rend="align-center space">
+          <lb/>IX. </label>
+        <p rend="indent" n="9">
+          <lb/><hi rend="sc">External</hi> preſſure will condenſe, or compreſs air. </p>
+        <label rend="align-center space">
+          <lb/>X. </label>
+        <p rend="indent" n="10">
+          <lb/><hi rend="sc">Cold</hi> will condenſe, or compreſs air. </p>
+        <label rend="align-center space">
+          <lb/>XI. </label>
+        <p rend="indent" n="11">
+          <lb/><hi rend="sc">Air</hi>
+          <hi rend="italic">then</hi> is rarefied by heat, and compreſſed by cold. </p>
+        <label rend="align-center space">
+          <lb/>XII. </label>
+        <p rend="indent" n="12">
+          <lb/><hi rend="sc">Air</hi> exiſts in all bodies, fluid and ſolid. </p>
+        <p rend="italic indent space">
+          <lb/>This, perhaps, will not be doubted by ſuch as are acquainted <lb/>with experiments on
+          air—for the ſatisfaction of others, the <lb/>truth of the Principle was proved by
+          experiments on gold, <lb/>ſilver, copper, braſs, lead, marble, various other ſtones, wood,
+          <lb/>&amp;c. Air viſibly iſſued from them all; more from ſome, than <lb/>from others, in
+          proportion to their poroſity—the poroſity of <pb xml:id="page_23" n="26"/>
+          <lb/>wood, ſtone and metals, by help of a microſcope, may be curi- <lb/>ouſly diſplayed to
+          the eye. </p>
+        <label rend="align-center space">
+          <lb/>XIII. </label>
+        <p rend="indent" n="13">
+          <lb/><hi rend="sc">When</hi> bodies are deprived of internal heat and motion, <lb/>the air
+          contained within them may be ſaid to be at a ſtate of <lb/>reſt; it being then only
+          ſubject to the variations of the <lb/>atmoſphere. </p>
+        <p rend="italic indent space">
+          <lb/>This may be proved by the Thermometer. The following curious <lb/>experiment farther
+          illuſtrates the matter of fact, and may <lb/>lead to other diſcoveries: Let the bulb of a
+          Thermometer be <lb/>put into two ounces of cold water; the air, apparently at reſt <lb/>in
+          the quickſilver, by the effect of cold being more compreſſed, <lb/>the mercury will
+          quickly deſcend ſeveral degrees; when the <lb/>quickſilver is again apparently at reſt,
+          let thirty drops of oil <lb/>of vitriol be put into the water; this produces heat, and the
+          <lb/>air contained in the quickſilver will as quickly be expanded; by <lb/>the effect of
+          this internal heat communicated to the fluid, the <lb/>quickſilver will riſe two or three
+          degrees: Let a little chalk be <lb/>now added to the fluid, the internal heat will be
+          farther in- <lb/>creaſed, and the quickſilver will aſcend two or three degrees <lb/>more.
+          — Does not this experiment likewiſe ſhew that heat accompanies internal motion in fluids?
+          — This obſervation, <lb/>perhaps, may not prove unworthy the attention of ſuch Gentle-
+          <lb/>men as entertain themſelves with experiments on what is termed <lb/><hi rend="roman"
+            >fixed air</hi>. </p>
+        <pb xml:id="page_24" n="27"/>
+        <label rend="align-center space">
+          <lb/>XIV. </label>
+        <p rend="indent" n="14">
+          <lb/><hi rend="sc">On</hi> the application of heat to a fluid, the firſt evident <lb/>ſign
+          of internal motion is an air-bubble. </p>
+        <p rend="italic indent space">
+          <lb/>This is experimentally ſhewn, by putting any tranſparent liquor <lb/>into a ſpoon,
+          and placing it over a candle, or a lamp; in dif- <lb/>ferent fluids, different appearances
+          may be obſerved, not un- <lb/>worthy the attention of the curious. </p>
+        <label rend="align-center space">
+          <lb/>XV. </label>
+        <p rend="indent" n="15">
+          <lb/><hi rend="sc">In</hi> this ſtate of the fluid the air contained in it is more
+          <lb/>rarefied, and expanded, than in the cold ſtate of the fluid. </p>
+        <label rend="align-center space">
+          <lb/>XVI. </label>
+        <p rend="indent" n="16">
+          <lb/><hi rend="sc">The</hi> air contained in moſt fluids becomes ſo far rarefied as
+          <lb/>to be put into motion by a degree of heat below that of the <lb/>blood; we may then
+          fairly conclude, from the degree of <lb/>heat accompanying animal life, that the air
+          contained in the <lb/>fluids of an animal body is continually in motion. </p>
+        <p rend="italic indent space">
+          <lb/>This was confirmed by a variety of experiments (oleaginous <lb/>fluids excepted) by
+          placing the fluids over a lamp, and regu- <lb/>lating the heat by a Thermometer. </p>
+        <pb xml:id="page_25" n="28"/>
+        <label rend="align-center space">
+          <lb/>XVII. </label>
+        <p rend="indent" n="17">
+          <lb/><hi rend="sc">The</hi> tunic, or coat of every diſtinct air-bubble, is evi-
+          <lb/>dently formed of the ſurrounding fluid. </p>
+        <label rend="align-center space">
+          <lb/>XVIII. </label>
+        <p rend="indent" n="18">
+          <lb/><hi rend="sc">Each</hi> diſtinct bubble of air has a diſtinct and ſeparate
+          <lb/>motion. </p>
+        <label rend="align-center space">
+          <lb/>XIX. </label>
+        <p rend="indent" n="19">
+          <lb/><hi rend="sc">In</hi> different fluids, different degrees of heat are required
+          <lb/>to render theſe air-bubbles viſibly active. </p>
+        <label rend="align-center space">
+          <lb/>XX. </label>
+        <p rend="indent" n="20">
+          <lb/><hi rend="sc">In</hi> the more thin and tranſparent fluids, air-bubbles are
+          <lb/>ſooner viſible; and the air becomes fugitive below the de- <lb/>gree of blood heat. </p>
+        <p rend="italic indent space">
+          <lb/>Water acidulated with ſpirit of vitriol, or diſtilled vinegar, <lb/>becomes more
+          tranſparent, and will prove the truth of this <lb/>Principle; it may likewiſe be ſhewn by
+          many of the white <lb/>wines, and other fluids. </p>
+        <pb xml:id="page_26" n="29"/>
+        <label rend="align-center space">
+          <lb/>XXI. </label>
+        <p rend="indent" n="21">
+          <lb/><hi rend="sc">These</hi> bubbles of air, being ſpecifically lighter than the
+          <lb/>ſurrounding fluid, naturally tend to the ſurface; and there, <lb/><hi rend="italic"
+            >ſoon burſting</hi>, this rarefied air eſcapes, and mixes with the <lb/>common
+          atmoſphere, unleſs it be prevented by proper reci- <lb/>pients. </p>
+        <p rend="italic indent space">
+          <lb/>Since the preſſure of the atmoſphere is the ſame on all fluids, <lb/>how happens it
+          that in ſome the air-bubbles are longer detained <lb/>than in others? </p>
+        <label rend="align-center space">
+          <lb/>XXII. </label>
+        <p rend="indent" n="22">
+          <lb/><hi rend="sc">Different</hi> fluids poſſeſs different degrees of tenacity or
+          <lb/>coheſion: this tenacity is weaker in thin tranſparent fluids. <lb/>—<hi rend="italic"
+            >Air-bubbles, therefore, become ſooner fugitive in ſuch fluids</hi>. </p>
+        <label rend="align-center space">
+          <lb/>XXIII. </label>
+        <p rend="indent" n="23">
+          <lb/><hi rend="sc">Glue</hi>, gum, or ſugar, ſuſpended in fluids, render them <lb/>more
+          tenacious, or coheſive.—<hi rend="sc">Air-bubbles therefore are longer restrained from
+            becoming fugitive in such <lb/>fluids</hi>. </p>
+        <p rend="italic indent space">
+          <lb/>If our conjectures prove right, this obſervation may afford <lb/>a clew to examine
+          into the laws of life in the vegetable king- <lb/>dom.—This idea is thrown out for the
+          conſideration of ingenious <lb/>men; the ſubject itſelf, at preſent, not being within our
+          ſphere. </p>
+        <pb xml:id="page_27" n="30"/>
+        <label rend="align-center space">
+          <lb/>XXIV. </label>
+        <p rend="indent" n="24">
+          <lb/><hi rend="sc">External</hi> heat being removed from a fluid, although the
+          <lb/>preſſure of the cold atmoſphere be freely admitted; it is, <lb/>nevertheleſs, a
+          conſiderable time before the air, rarefied by <lb/>heat, returns to a ſtate of reſt. </p>
+        <p rend="italic indent space">
+          <lb/>The truth of this principle may be illuſtrated by a ſpoon, in <lb/>the manner before
+          mentioned; <hi rend="roman">(Principle XIV.)</hi> and it is worthy <lb/>attention. </p>
+        <label rend="align-center space">
+          <lb/>XXV. </label>
+        <p rend="indent" n="25">
+          <lb/><hi rend="sc">Earthy</hi> particles may be ſuſpended in a tranſparent fluid. </p>
+        <p rend="italic indent space">
+          <lb/>The proceſs for making magneſia alba proves this—it is no <lb/>contemptible
+          experiment, though in familiar practice. </p>
+        <p rend="italic indent space">
+          <lb/>Two tranſparent liquors being mixed, they inſtantly loſe both <lb/>their tranſparency
+          and fluidity, and become one intire white in- <lb/>ſpiſſated ſubſtance—this being
+          repeatedly waſhed with water, <lb/>the white earth, when dried, is the common magneſia
+          alba of the <lb/>ſhops. </p>
+        <p rend="italic indent space">
+          <lb/>It is well known this white earth was originally ſuſpended in <lb/>an aqueous
+          menſtruum, by means of the vitriolic acid; and in <lb/>this proceſs, it is precipitated by
+          the fixed alkaline. </p>
+        <pb xml:id="page_28" n="31"/>
+        <label rend="align-center space">
+          <lb/>XXVI. </label>
+        <p rend="indent" n="26">
+          <lb/><hi rend="sc">Earthy</hi> particles may float in air. </p>
+        <p rend="italic indent space">
+          <lb/>If any one doubts the truth of this, let him admit a ray of <lb/>light into a
+          darkened room, and he will be convinced of the <lb/>matter of fact. </p>
+        <label rend="align-center space">
+          <lb/>XXVII. </label>
+        <p rend="indent" n="27">
+          <lb/><hi rend="sc">Air</hi> does exiſt in the circulating fluids of an animal. </p>
+        <p rend="italic indent space">
+          <lb/>This was proved by the blood-veſſel of a bullock, being <lb/>ſecured by ligatures,
+          before it was ſeparated from the body of <lb/>the living animal—it was farther confirmed
+          by live cray- <lb/>fiſh, tench, &amp;c. </p>
+        <label rend="align-center space">
+          <lb/>XXVIII. </label>
+        <p rend="indent" n="28">
+          <lb/><hi rend="sc">Air</hi> does exiſt in the medullary ſubſtance of the brain. </p>
+        <p rend="italic indent space">
+          <lb/>This is one of the moſt beautiful experiments that can be <lb/>exhibited by the
+          air-pump—if it be well ſhewn, the reſiſtance <lb/>of the medullary and cortical ſubſtance
+          of the brain is ſo <lb/>great, as to produce a kind of perpetual motion. </p>
+        <label rend="align-center space">
+          <lb/>XXIX. </label>
+        <p rend="indent" n="29">
+          <lb/><hi rend="sc">Air-bubbles</hi>, though ſpecifically lighter than the ſur-
+          <lb/>rounding fluid, cannot eſcape till the reſiſtance ariſing from <lb/>the coheſion of
+          the parts of the ſurrounding fluid itſelf be <lb/>overcome. </p>
+        <pb xml:id="page_29" n="32"/>
+        <label rend="align-center space">
+          <lb/>XXX. </label>
+        <p rend="indent" n="30">
+          <lb/><hi rend="sc">This</hi> reſiſtance, ariſing from the coheſion of the parts of
+          <lb/>the fluid, is proportioned to the different degrees of tenacity <lb/>proper to
+          different fluids; as before ſhewn. </p>
+        <label rend="align-center space">
+          <lb/>XXXI. </label>
+        <p rend="indent" n="31">
+          <lb/><hi rend="sc">This</hi> coheſive property in fluids, <hi rend="italic">then</hi>, is
+          the bond that <lb/>reſtrains the air from becoming fugitive; or, in other words, <lb/><hi
+            rend="italic">it is the bond of union</hi>. </p>
+        <label rend="align-center space">
+          <lb/>XXXII. </label>
+        <p rend="indent" n="32">
+          <lb/><hi rend="sc">animal</hi> jelly, or gluten, expoſed to the common atmo- <lb/>ſphere,
+          and ſurrounding a globule of air, is ſufficiently co- <lb/>heſive to prevent this moving
+          air eſcaping in a degree of <lb/>heat ſomewhat ſuperior to that of blood heat. </p>
+        <label rend="align-center space">
+          <lb/>XXXIII. </label>
+        <p rend="indent" n="33">
+          <lb/><hi rend="sc">It</hi> being highly neceſſary to fix ſome ſtandard to regulate
+          <lb/>our inquiries—Air rarefied, in motion, detained in animal <lb/>bodies by glandular
+          ſecretions, or circulating with the fluids <lb/>in the vaſcular ſyſtem, permit us to call
+            <hi rend="sc">Vital Air</hi>. </p>
+        <label rend="align-center space">
+          <lb/>XXXIV. </label>
+        <p rend="indent" n="34">
+          <lb/><hi rend="sc">Vital</hi> Air, Heat, and Motion, then, appear to be inſe-
+          <lb/>parable, in animal life. </p>
+        <pb xml:id="page_30" n="33"/>
+        <p rend="indent">
+          <lb/><hi rend="sc">On</hi> theſe principles our arguments are founded, concern- <lb/>ing
+          the firſt active material cauſe of animal life; and from <lb/>theſe principles our
+          conjectures are drawn, concerning the <lb/>laws of generation, and thoſe of the animal
+          œconomy. For <lb/>the ſatisfaction of the learned, and curious, it will not be
+          <lb/>improper to add a few words concerning <hi rend="sc">Vital Air</hi>, which we
+          <lb/>preſume to be the firſt <hi rend="italic">material</hi> cauſe of motion in animal
+          life. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">This</hi> conjecture we have endeavoured to ſupport by argu- <lb/>ments
+          drawn from experiments; all tending to ſhew the ra- <lb/>tional probability of air
+          exiſting in an active and circulating <lb/>ſtate in animal bodies. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">It</hi> will be remembered, we proved air did actually exiſt in
+          <lb/>the blood of a living animal; and likewiſe in the medullary <lb/>ſubſtance of the
+          brain. We alſo proved, that in the degree <lb/>of heat proper to animal life, this air
+          muſt be in a rarefied <lb/>and active ſtate; and we farther endeavoured to ſhew, by
+          <lb/>arguments drawn from an incubated egg, and other points, <lb/>the rational
+          probability, that the propelling force of air, thus <lb/>rarefied, and confined in a
+          vaſcular ſyſtem, was the firſt ma- <lb/>terial cauſe of the circulation of the blood, and
+          other fluids, <lb/>in an animal body. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">The</hi> reaction of the vaſcular ſyſtem we preſume to be the
+          <lb/>ſecondary cauſe, in conjunction with the former, producing <lb/>what is termed <hi
+            rend="italic">involuntary muſcular motion</hi>—this motion, in <lb/>the beginning of new
+          life, is firſt diſcoverable at the <hi rend="italic">punctum <lb/>ſaliens</hi>, or leaping
+          point; which afterwards becomes the <lb/>heart of the fœtus. The heart we have preſumed to
+          ſtile <pb xml:id="page_31" n="34"/>
+          <lb/>the <hi rend="italic">centre of motion</hi>; by which the circulation of the blood is
+          <lb/>regulated and maintained. The blood we conſider to be a <lb/>paſſive fluid, the
+          common menſtruum from whence nutrition <lb/>is derived, by means of the glands.—We preſume
+          that ſome <lb/>one order or more of the glands muſt be injured, debilitated, <lb/>or
+          totally obſtructed, before the blood of an animal becomes <lb/>impure. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">By</hi> the propelling force of <hi rend="sc">Vital Air</hi> we preſume
+          all <lb/>glandular ſecretions to be performed, and the lymphatic cir- <lb/>culations to be
+          ſupported by the ſame power—and by means <lb/>of the glands we preſume the laws of
+          generation to be main- <lb/>tained. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">In</hi> the beginning of new life, the motion of Vital Air <lb/>ſeems
+          to be ſupported by the natural heat of the parent, or by <lb/>ſome adequate external
+          means—this appears to be a general <lb/>law, throughout nature, till <hi rend="italic"
+            >involuntary muſcular motion</hi> be- <lb/>comes ſufficiently powerful to communicate
+          that degree of <lb/>internal heat, peculiarly proper to Vital Air: When this <lb/>period
+          arrives, the act of incubation ceaſes, with all oviparous <lb/>animals; the fœtus opening
+          to itſelf a paſſage in order to breathe <lb/>the common atmoſphere; and, in viviparous
+          animals, the <lb/>natural birth takes place, by the united efforts of the parent <lb/>and
+          fœtus. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">It</hi> may perhaps be expected that ſomething ſhould be ſaid
+          <lb/>concerning the brain and nervous ſyſtem.—In this ſummary <lb/>way I cannot hope to
+          perſuade ſcientific men to think with <lb/>me—however, by mentioning the points contended
+          for, <pb xml:id="page_32" n="35"/>
+          <lb/>poſſibly objections will be ſtarted, that eventually may lead <lb/>to the diſcovery
+          of truth. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">We</hi> took notice in ſome of our conjectures, that man <lb/>having a
+          material body, it was but reaſonable to conclude it <lb/>ſhould anſwer the various
+          purpoſes for which it was ſo cu- <lb/>riouſly formed; and that every diſtinct member
+          ſhould <lb/>have its deſtined office. We endeavoured to prove that, in <lb/>the buſineſs
+          of motion and ſenſation, the nerves, proceeding <lb/>from the brain and ſpinal marrow,
+          though the chief, were <lb/>not the only inſtruments; and from numerous experimental
+          <lb/>proofs, we concluded that the reaction of the vaſcular <lb/>ſyſtem, voluntary motion,
+          and the exerciſe of the external <lb/>ſenſes, could not be ſupported without the aid of
+          the ner- <lb/>vous ſyſtem. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">It</hi> will be recollected we uſed many arguments to ſhew <lb/>the <hi
+            rend="italic">proper ſenſe of feeling</hi> ſeemed to ariſe from the due re-
+          <lb/>ſiſtance of the medullary ſubſtance of the brain, or nervous <lb/>matter, oppoſed to
+          the propelling force of Vital Air. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">We</hi> took occaſion to obſerve, that all the other ſenſes <lb/>were
+          obedient to the <hi rend="italic">proper ſenſe of feeling</hi>; and endeavoured <lb/>to
+          ſhew that hearing, ſeeing, ſmelling, and taſting, were <lb/>nothing more than the effects
+          ariſing from feeling, which <lb/>we conſidered as their primary cauſe. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">As</hi> we have, under certain limitations, acknowledged the
+          <lb/>nervous ſyſtem to be the ſeat of feeling, we inquired into <lb/>the effects produced
+          by any conſiderable variation in the <pb xml:id="page_33" n="36"/>
+          <lb/>Vital Air, peculiarly exiſting in the nervous matter—and <lb/>having before ſhewn the
+          rational probability of <hi rend="italic">pain</hi> ariſing <lb/>from the propelling force
+          of too highly rarefied air, we <lb/>ſeemed to be warranted in drawing the following
+          conclu- <lb/>ſions:—The ſenſe of feeling is ſeated in the nervous ſyſtem— <lb/>the ſenſe
+          of feeling becoming too exquiſite produces pain <lb/>—the nervous ſyſtem is <hi
+            rend="italic">then</hi> the ſeat of pain.—Gouty <lb/>ſymptoms, therefore, whether fixed
+          or wandering, being <lb/>ever accompanied with that too exquiſite degree of ſenſibi-
+          <lb/>lity, that either produces unhappy ſenſations, or acute <lb/>pain, we preſume the
+          nervous ſyſtem to be principally <lb/>affected in gouty patients. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">We</hi> endeavoured to ſtrengthen, and ſupport our conjectures
+          <lb/>concerning gouty, and what are termed nervous complaints, <lb/>not only from
+          practical experience; but likewiſe by ſhewing <lb/>that a partial, or total loſs of motion
+          and feeling, in para- <lb/>lytic complaints and nervous apoplexies, probably ariſes
+          <lb/>from an oppoſite cauſe—namely, from the propelling force <lb/>of Vital Air exiſting
+          in the nervous matter, or in the me- <lb/>dullary ſubſtance of the brain, being too much
+          abated; or <lb/>from its becoming a body at reſt. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">These</hi> are ſome of the practical inferences, ariſing from <lb/>our
+          conjectures, concerning the brain and nervous ſyſtem: <lb/>happy ſhall I think myſelf if
+          they prove any way inſtru- <lb/>mental towards alleviating the diſtreſſes of mankind. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">With</hi> regard to the ſentient principle, or ſpirit of man, <lb/>we
+          obſerved, that although ſimple ideas might be ſtirred up <pb xml:id="page_34" n="37"/>
+          <lb/>in the mind by the mediation of the nervous ſyſtem; yet, <lb/><hi rend="italic">our
+            ideas are not matter</hi>: ſomething more than a material <lb/>ſyſtem, therefore, ſeems
+          neceſſary and requiſite to thinking. <lb/>And if <hi rend="sc">Vital Air</hi> be the firſt
+          material cauſe of motion, the <lb/>vaſcular ſyſtem can be conſidered only as the ſecondary
+          <lb/>cauſe:—Is it not highly improbable, then, that the ſentient <lb/>principle ſhould
+          depend on this ſecondary cauſe, <hi rend="italic">namely</hi>, on <lb/>a ſyſtem of
+          organized matter?—Be this as it may, it is out <lb/>of my province to enter into
+          metaphyſical controverſies; and, <lb/>as obſerved in my Lectures, I am unequal to the
+          taſk: How- <lb/>ever, that the ſentient principle is not material, we verily <lb/>believe,
+          and endeavoured to confirm by many other argu- <lb/>ments;—and if the mind be not
+          material, experimental <lb/>reſearches after this <hi rend="italic">immaterial
+            principle</hi> muſt ever prove <lb/>in vain. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">We</hi> ventured to add, that if there be a connection be- <lb/>tween
+          groſs material, and immaterial ſubſtances, it is pro- <lb/>bably effected by ſome <hi
+            rend="italic">rare medium</hi>; and therefore, that <lb/>this union was not unlikely to
+          be formed by means of <hi rend="sc">Vital <lb/>Air</hi>. Whether our general arguments on
+          this point were <lb/>forcible or not, muſt be left to the determination of others; <lb/>we
+          however concluded this ſubject in the following manner. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">We</hi> have endeavoured to ſhew that life depends on <hi rend="sc"
+            >Vital <lb/>Air</hi>; and that not only motion, but all the external ſenſes <lb/>depend
+          on it likewiſe—and if ſo, it ſeems a fair concluſion, <lb/>that the nervous fluid, or
+          animal ſpirits, is nothing more <lb/>than <hi rend="sc">Vital Air</hi>. </p>
+        <pb xml:id="page_35" n="38"/>
+        <p rend="indent">
+          <lb/><hi rend="sc">I am</hi> compelled, from my practical experience in the <lb/>gout, in
+          paralytic complaints, and other errors in the ner- <lb/>vous ſyſtem, to believe this—and
+          from what has been ad- <lb/>vanced, am I not authoriſed to conclude, the Moſaic accounts
+          <lb/>of the creation of man, and of the laws of generation, are <lb/>philoſophically true? </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">Having</hi> thus ſet forth what may probably be deemed <lb/>ſufficient
+          to enable medical and other ſcientific men to <lb/>judge of the rationality of our
+          ſyſtem—I leave it to their <lb/>conſideration, whether we mean to captivate the credulous,
+          <lb/>or to appeal to men of ſenſe in purſuit of truth. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">Such</hi> gentlemen as have honoured me by their attention, <lb/>will
+          be enabled, from theſe outlines, to recall many of our <lb/>conjectures concerning animal
+          life, and the laws of the ani- <lb/>mal œconomy; which, I flatter myſelf, will afford them
+          <lb/>ſome degree of ſatisfaction. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">I do</hi> not expect this ſyſtem, even if it ſhould prove to be
+          <lb/>true, to be eſtabliſhed without oppoſition; I am prepared to <lb/>receive all
+          objections that may be advanced, whether it be <lb/>in my power to anſwer them or not—I am
+          prepared to re- <lb/>ceive them, let me repeat, becauſe I wiſh the principles to <lb/>paſs
+          through the ſtricteſt ſcrutiny. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">If</hi> the principles be admitted, it is preſumed the rationa-
+          <lb/>lity of the conjectures, on animal life, will add no little degree <lb/>of weight to
+          the doctrines contended for in the courſe of our <lb/>Lectures; <hi rend="italic"
+            >namely</hi>, that nutrition is carried on by means of <pb xml:id="page_36" n="39"/>
+          <lb/>the glandular ſyſtem; and that the internal, incipient cauſes <lb/>of diſeaſes are
+            <hi rend="italic">univerſally</hi> ſeated in the glands. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">It</hi> is proper, <hi rend="italic">however</hi>, to obſerve, whether
+          the principles <lb/>be admitted, and our conjectures allowed, or not; it does <lb/>not
+          follow, that our practical inferences, reſpecting diſeaſes, <lb/>originally drawn from
+          matters of fact evident to the ſenſes, <lb/>are to be conſidered as altogether
+          erroneous.—All that I aſk, <lb/>is, to be judged with candour; and moſt chearfully ſubmit
+          <lb/>to the determination of intelligent men. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">I am</hi> fully perſuaded, thoſe gentlemen who did me the <lb/>honour
+          of attending my Lectures, will not heſitate to ſay, <lb/>that my opinions were delivered
+          with diffidence; it was my <lb/>earneſt deſire to perſuade; but well knowing the ſcanty
+          <lb/>limits of human underſtanding, I believe no man can chal- <lb/>lenge me with having
+          advanced any one conjecture as a po- <lb/>ſitive aſſertion: Yet, <hi rend="italic"
+            >this</hi> I did ſay, at the concluſion of <lb/>my Lectures— </p>
+        <p rend="indent space">
+          <lb/>
+          <q rend="diple quotes">As a duty incumbent on me, I have, in this public <lb/>manner,
+            communicated my thoughts to liberal and learned <lb/>men; that the world at large,
+            however they may differ <lb/>in opinion, might not charge me with having reſerved my
+              <lb/><hi rend="italic">principles</hi> as <hi rend="sc">secrets</hi>: But having
+            entered into ſo very <lb/>wide a field, I am certain, you, gentlemen, would not
+            <lb/>wiſh me too haſtily to commit to the preſs, the preſent <lb/>crude and imperfect
+            ideas, on ſubjects of ſuch import- <lb/>ance.—If the principles on which our opinions
+            are founded, can be fairly overturned, by arguments drawn from expe- <pb
+              xml:id="page_37" n="40"/>
+            <lb/>riments—<hi rend="italic">let them fall</hi>.—If not, I truſt more able advo-
+            <lb/>cates than myſelf will not be wanting, to ſupport the <lb/>truth of our doctrines;
+            and to enlarge the bounds of our <lb/>knowledge, with regard to the theory, and cure of
+            <lb/>diſeaſes. </q>
+        </p>
+      </div>
+      <trailer rend="align-center space">
+        <lb/>FINIS. </trailer>
+    </body>
+  </text>
+</TEI>

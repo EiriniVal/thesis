@@ -1,0 +1,1130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LMEMT Corpus - Tolver: A treatise on the teeth.</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>A. Tolver</persName>
+            </author>
+            <title type="main">A treatise on the teeth: Wherein the true causes of the several
+              disorders to which they are liable, are considered; and the precautions necessary to
+              their preservation particularly pointed out. ... By A. Tolver, ... </title>
+            <edition n="1"/>
+            <idno type="ESTC">N14039</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/N14039"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>London: printed for Lockyer Davis, at Lord Bacon's Head near
+                  Salisbury-Court, Fleet-Street, 1752.</persName>
+              </publisher>
+              <date>1752</date>
+            </imprint>
+            <extent>
+              <measure type="format">8⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="1"/>
+              <measure type="count" commodity="body" unit="page" quantity="51"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">Harvard University Houghton Library</orgName>
+            <idno type="ECCO">CW3307504389</idno>
+            <idno type="TCP">K008702.000 </idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Book on a specific topic: disease"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text xml:lang="eng">
+    <front> </front>
+    <body>
+      <div>
+        <pb xml:id="page_2" n="1"/>
+        <figure>
+          <figDesc>Two horizontal lines, spanning the whole page. </figDesc>
+        </figure>
+        <head rend="align-center">
+          <lb/>A <lb/><hi rend="size(2.0)">TREATISE</hi>
+          <lb/>ON THE <lb/><hi rend="size(2.0)">TEETH.</hi>
+        </head>
+        <p rend="indent">
+          <lb/><hi rend="dc(3)">T</hi>HE Teeth, which are the hard- <note rend="size(0.75) italic"
+            >Formation, </note>
+          <lb/>eſt and ſmootheſt Bones of the <lb/>Body, are formed within the <lb/>Cavities of the
+          Jaws. Above the Gums <lb/>they are not covered by any Membrane, <lb/>but within their
+          Sockets are inveſted <lb/>with the common covering of all other <lb/>Bones; <hi
+            rend="italic">viz.</hi> the <hi rend="italic">Perioſteum</hi>, a fine <lb/>tranſparent
+          Skin, obſervable in ſcraping <lb/>any Bone, after the Meat is taken clean <lb/>off. </p>
+        <p rend="indent">
+          <lb/>The Number of Teeth in a grown <lb/>Perſon are generally thirty-ſix; more <lb/>or
+          leſs according to Age, Conſtitution, <lb/><hi rend="italic">&amp;c.</hi> As they are not
+          all formed at once, <lb/>ſo neither do they all appear at the ſame <lb/>time; the laſt but
+          one, of the great <lb/>Teeth in each Jaw, 'tis remarkable, ſel- <lb/>dom appears 'till
+          about the Age of twen- <pb xml:id="page_3" n="2"/>
+          <lb/>ty-one, and the laſt, ſometimes not till <lb/>that of forty. </p>
+        <p rend="indent space">
+          <lb/>Each Tooth is compoſed of an in- <lb/>ternal bony Subſtance, and an exter- <lb/>nal
+          vitrious <hi rend="italic">Cortex,</hi> of a ſolid hard Con- <lb/>ſiſtence, and of the
+          Colour of Ivory. <lb/>The Uſes of this gloſſy Subſtance are <lb/>to prevent the Teeth
+          being worn by <lb/>the Friction they undergo in Maſtica- <lb/>tion or Chewing; and to
+          preſerve their <lb/>bony Subſtance from the Air. </p>
+        <p rend="indent space">
+          <lb/>The different Shape and Series of <lb/>the Teeth are ſufficiently obvious; the
+          <lb/>four front Teeth in each Jaw which are <lb/>thin and broad, are called <hi
+            rend="italic">Inciſſores</hi> or <lb/>Cutters, from their cutting or dividing <lb/>the
+          Aliment. The <hi rend="italic">Canini</hi> or Dog-teeth, <lb/>which are two in each Jaw,
+          are ſo call- <lb/>ed from their Reſemblance to the Tuſks <lb/>of a Dog; thoſe of the upper
+          Jaw are <lb/>by ſome, called the Eye-teeth, from the <lb/>Communication of Nerves betwixt
+          them <lb/>and the Eyes; they are thick and round, <lb/>terminating in a ſharp Point, and
+          like <lb/>the <hi rend="italic">Inciſſores</hi> have but one Root, but <lb/>are remarkably
+          ſtrong, and of a greater <lb/>Length than any of the reſt: Their <lb/>proper Uſe being to
+          pierce and hold the <pb xml:id="page_4" n="3"/>
+          <lb/>Aliment ſteady when we bite it, as the <lb/>front Teeth are very apt to be forced
+          <lb/>outwards by the Things we hold or <lb/>break with them. </p>
+        <p rend="indent space">
+          <lb/>The <hi rend="italic">large</hi> or <hi rend="italic">double</hi> Teeth, are by
+          <lb/>Anatomiſts called <hi rend="italic">Molares</hi> or Grinders, <lb/>from their Uſe in
+          grinding and making <lb/>ſmall our Aliment before it is ſwallowed. <lb/>They are ten in
+          each Jaw; their Extremi- <lb/>ties are broad and uneven, and becauſe the <lb/>Preſſure
+          upon them is perpendicular, <lb/>they are provided with two or three, <lb/>and ſometimes
+          four Roots ſeparated a <lb/>little from one another, and inclining <lb/>ſomewhat outwards,
+          that in chewing our <lb/>Aliment the Preſſure may be leſs upon <lb/>the Jaws, than if they
+          run directly down- <lb/>wards, and with only a ſingle Root. </p>
+        <p rend="indent space">
+          <lb/>The firſt Teeth, according to <hi rend="italic"> Hip- <lb/>pocrates</hi>, are
+          engendered in Time of Preg- <lb/>nancy; this <hi rend="italic">Urbain Hemard</hi>
+          confeſſes he <lb/>never could diſcover; he ſays, indeed, <lb/>that having opened the Jaws
+          of ſome <lb/>Children three or four Days old, and <lb/>others immediately at their Birth,
+          he has <lb/>found the <hi rend="italic">Inciſſores</hi>, the <hi rend="italic"
+          >Canini</hi>, and <lb/>ſome of the <hi rend="italic">Molares</hi> on each Side the
+          <lb/>Jaw in part oſſified, and in part muci- <pb xml:id="page_5" n="4"/>
+          <lb/>laginous, of a middling Size, and ſur- <lb/>rounded with their little Alveoli. </p>
+        <p rend="indent">
+          <lb/>However this may be, it is certain <lb/>they do not appear, until ſome Time af-
+          <lb/>ter the Formation of the other Bones, <lb/>notwithſtanding the Matter of which
+          <lb/>they are formed, is at the ſame Time in <lb/>the Womb; and therefore <hi
+            rend="italic">Galen</hi>
+          <note place="bottom" n="*" rend="size(0.75)">
+            <p rend="indent">
+              <lb/>* <hi rend="italic">De Uſu Partium</hi>, Lib. ii. Chap. 3. </p>
+          </note> writes, <lb/>that he who would underſtand the Works <lb/>of Nature, and obſerve
+          her Oeconomy in <lb/>the Compoſition of the human Body, <lb/>ought not implicitly to rely
+          on what <lb/>he finds in Books, but rather what he <lb/>ſees with his Eyes. </p>
+        <p rend="indent space">
+          <lb/>The Teeth are formed within the Ca- <lb/>vities of the Jaws, which are lined with
+          <lb/>a thin Membrane, ſupplied with ſeveral <lb/>Veſſels, conveying a thick, viſcous,
+          tranſ- <lb/>parent Liquor, which as it increaſes, <lb/>hardens into the Form of Teeth. </p>
+        <p rend="indent space">
+          <lb/>This tranſparent Humour appears <lb/>firſt in Form of a Mucus, afterwards a <lb/>thin
+          cortical <hi rend="italic">Lamella</hi>, and ſome oſſious <lb/><hi rend="italic"
+            >Strata</hi> are perceived, with a large <lb/>Cavity in the Middle, then gradually
+          <lb/>both the vitrious and bony Parts increaſe <lb/>by the hardening of the Mucus, and
+          <lb/>Oppoſition of new Matter. </p>
+        <pb xml:id="page_6" n="5"/>
+        <p rend="indent">
+          <lb/>The oſſious <hi rend="italic">Strata</hi> are no other than <lb/>a Separation of this
+          fluid Matter, made <lb/>by the ſame Membrane which covers <lb/>the whole Cavity of the
+          Jaw; and this <lb/>Diviſion forms two Lays, one below the <lb/>other, the uppermoſt of
+          which forms <lb/>the Teeth which come out firſt; but <lb/>about the ſeventh Year, <hi
+            rend="italic">they</hi> are thruſt <lb/>out by the Teeth made at the undermoſt <lb/>Lay,
+          which then begin to ſprout; if theſe <lb/>latter be loſt, they ſeldom if ever grow
+          <lb/>again; ſome are indeed obſerved to ſhed <lb/>their Teeth twice, which muſt be owing
+          <lb/>to their having three Lays of this Matter. </p>
+        <p rend="indent space">
+          <lb/>The Teeth receive Nerves and Veſſels <lb/>at the Orifices of their Roots; it is theſe
+          <lb/>Nerves which are afflicted in the Tooth- <lb/>ach, and which are frequently ſhewn
+          <lb/>to the common People, by the ignorant <lb/>among Tooth-drawers, for Worms; <lb/>which
+          they pretend would have eaten <lb/>the whole Tooth in a ſhort time, <hi rend="italic"
+            >&amp;c.</hi>
+          <lb/>Part of theſe Nerves being always torn <lb/>away with the Tooth drawn, it requires
+          <lb/>great Care to keep the Mouth warm un- <lb/>till the Gum becomes cloſed, and the
+          <lb/>Nerve defended from the Air. </p>
+        <p rend="indent space">
+          <lb/>This Orifice commonly cloſes about <pb xml:id="page_7" n="6"/>
+          <lb/>the Age of thirty-five, which is the <lb/>Reaſon why old People are not ſo ſub-
+          <lb/>ject to the Tooth-ach as young. </p>
+        <p rend="indent space">
+          <lb/>The firſt Teeth perceived, are the <lb/><hi rend="italic">Inciſſores</hi> of the
+          upper Jaw, then thoſe <lb/>of the lower, theſe being the thinneſt and <lb/>ſharpeſt. After
+          them appear the <hi rend="italic"> Ca- <lb/>nini</hi>, and laſt of all the <hi
+            rend="italic">Molares.</hi>
+        </p>
+        <p rend="indent space">
+          <lb/>The general Opinion is, that the <lb/>Teeth are connected to thin <hi rend="italic"
+            >Alveoli</hi>, <lb/>or Sockets, by that kind of Suture called <lb/><hi rend="italic"
+            >Gomphoſis,</hi> that is, like a Nail drove in- <lb/>to a Piece of Wood; but this is
+          proved <lb/>to be falſe by the following Experiment. <lb/>If the Jaws be macerated in
+          Water, for <lb/>ſome Time, all the Teeth will drop out, <lb/>which they would not do, if
+          they were <lb/>of the ſame Size of their <hi rend="italic">Alveoli.</hi> From <lb/>hence
+          it appears, that it is by a <hi rend="italic"> Liga- <lb/>ment</hi>, or by the
+          Articulation called <hi rend="italic"> Syn- <lb/>chondroſis.</hi>
+        </p>
+        <p rend="indent space">
+          <lb/>That the Teeth are joined to their <lb/>Sockets by ſome means like this is evi-
+          <lb/>dent, for when a Tooth hath been <lb/>drawn and replaced immediately, it hath
+          <lb/>taken root, and been as firm as ever, <lb/>which could not have happened, had <pb
+            xml:id="page_8" n="7"/>
+          <lb/>not the Cavity been lined with a Mem- <lb/>brane, which contained it. </p>
+        <p rend="indent space">
+          <lb/>After all that can be ſaid concerning <lb/>the Formation of the Teeth, nothing
+          <lb/>will ſo much illuſtrate the Tooth in Em- <lb/>brio, as that called the Sweet-Tooth in
+          <lb/>a Calf, by which the Reader may form <lb/>an Idea, not only of the Colour and Sub-
+          <lb/>ſtance of the Mucus, or Juice uſually <lb/>ſuck'd out, but of the <hi rend="italic"
+            >Lamella</hi> or Shell- <lb/>work itſelf. </p>
+        <p rend="indent space">
+          <lb/>The Teeth are ſo neceſſary to Man, <note place="margin" rend="size(0.75)"><lb/>The
+            Uſe <lb/>of the <lb/>Teeth. </note>
+          <lb/>that I conceive the greateſt Diffi- <lb/>culty of his ſubſiſting in the younger
+          <lb/>part of his Life without them: Certain <lb/>it is, that the ſtrongeſt Conſtitution,
+          <lb/>would not be able to digeſt or ſeparate <lb/>a Quantity of Chyle ſufficient for the
+          <lb/>Nouriſhment of the Body for any con- <lb/>ſiderable Time, were the Aliment to <lb/>be
+          ſwallowed whole and unprepared; <lb/>for it is well known how much the <lb/>chewing our
+          Aliment contributes to the <lb/>eaſy and expeditious Digeſtion of it, <lb/>and
+          conſequently to our Health. There <lb/>are indeed many old People and others, <lb/>who for
+          want of Teeth are confined to <lb/>a liquid Diet, ſuch as Broths, Jellies, <pb
+            xml:id="page_9" n="8"/>
+          <lb/>Milk, <hi rend="italic">&amp;c.</hi> for the Sake of an eaſy Di- <lb/>geſtion. To
+          thoſe in old Age, I think <lb/>ſuch a Diet not only proper, but very <lb/>neceſſary; for
+          Nature, by the Decay of <lb/>Strength, the Loſs of Teeth, and the <lb/>gradual Diminution
+          of our Senſes, ſeems <lb/>to have appointed this Time, as a Re- <lb/>turn to our primary
+          Innocence; that we <lb/>may make our Exit in ſome Meaſure <lb/>conformable with our Birth:
+          And at <lb/>this Time the Weakneſs of the Body <lb/>generally renders it incapable of per-
+          <lb/>forming the natural Functions, and con- <lb/>ſequently of digeſting ſuch Meats, as
+          <lb/>before it had been accuſtomed to. </p>
+        <p rend="indent">
+          <lb/>Upon a tranſient Reflection we might <lb/>imagine it injudicious of Nature to leave
+          <lb/>Age thus helpleſs and unable to ſupport <lb/>itſelf, but upon a more careful Survey,
+          <lb/>we ſhall find in this, as well as in all <lb/>her Works, that her Oeconomy is ab-
+          <lb/>ſolutely juſt, and that every minute Va- <lb/>riation of Form, <hi rend="italic"
+            >&amp;c.</hi> is important: <lb/>Whenever we think otherwiſe, we ought <lb/>always to
+          ſuſpect our Capacities of being <lb/>too groſs to comprehend the Sublimity <lb/>of her
+          Wiſdom. </p>
+        <p rend="indent">
+          <lb/>The Loſs of Teeth to an old Man, <lb/>is in Fact but trifling, for the Human
+          <lb/>Body is ſo providentially diſpoſed, that <pb xml:id="page_10" n="9"/>
+          <lb/>as the natural Powers begin to leſſen <lb/>i<unclear>n</unclear> their Force and
+          Action, the leſs is <lb/>required in the Conſtitution to maintain <lb/>that Force and
+          Action; and that a leſs <lb/>Quantity of Chyle will better nouriſh <lb/>and ſupport Health
+          in old Age, is a <lb/>Truth every Anatomiſt is able to aſ- <lb/>ſert, for it is frequently
+          ſeen in the Diſ- <lb/>ſections of the older Subjects, that ma- <lb/>ny of the ſmall
+          Veſſels, and ſometimes <lb/>Part of the larger alſo have been collapſ- <lb/>ed and grown
+          up, ſo as to reject the <lb/>Fluid that uſed to circulate through <lb/>them: And this is
+          one Reaſon why old <lb/>People are moſt ſubject to paralytic <lb/>Diſorders. </p>
+        <p rend="indent space">
+          <lb/>If the Number of Veſſels be diminiſh- <lb/>ed, as in this Caſe they certainly are,
+          <lb/>then is there the leſs required to fill <lb/>them, and the Body is more eaſily ſup-
+          <lb/>ported than before, and from hence it <lb/>is, that we can ſo well diſpenſe with
+          <lb/>the Loſs of Teeth when old: But when <lb/>this Loſs happens earlier in Life, I think
+          <lb/>it may juſtly be deemed very great, ſince <lb/>it is capable of depriving us of our
+          <lb/>Health, our Beauty, our Voice: Nor <lb/>does the Inconveniency ſtop here, it
+          <lb/>proves of Detriment even to Society. </p>
+        <pb xml:id="page_11" n="10"/>
+        <p rend="indent">
+          <lb/>If ſuch extenſive Effects appear <lb/>ſtrange, let the Husbandman, ſo neceſ-
+          <lb/>ſary to Society, be viewed in this State, <lb/>and we ſhall ſoon be convinced, that
+          <lb/>the Want of Teeth is of greater Mo- <lb/>ment than is commonly imagined: It
+          <lb/>would oblige him to live on a liquid <lb/>Diet, by no means proper in <hi
+            rend="italic">his</hi> labo- <lb/>rious Employ; for we are not the leaſt <lb/>capable to
+          ſupport the continual Action <lb/>of the Body (and which in his Buſineſs <lb/>is almoſt
+          violent) without proper Food; <lb/>I mean ſuch as will remain ſome Time in <lb/>the
+          Stomach and yield its Nouriſhment <lb/>gradually to the lacteal Veſſels, which
+          <lb/>receive and carry it to the Blood. </p>
+        <p rend="indent space">
+          <lb/>This is always performed by <hi rend="italic">ſuch</hi> Food <lb/>either animal or
+          vegetable. And if the <lb/>Diet of the Labourer conſiſted only of <lb/>thoſe Juices
+          excluſive of the Subſtances, <lb/>tho' theſe latter afford no Part of Nou- <lb/>riſhment,
+          yet the Body would waſte, <lb/>the Fibres would become lax, the In- <lb/>teſtines would
+          loſe their Tone, and a <lb/>general Languor would ſeize the whole <lb/>Body; and if not
+          relieved by a Change <lb/>of Diet, a <hi rend="italic">Diarrhea</hi>, Dropſy, <hi
+            rend="italic">&amp;c.</hi>
+          <lb/>would be the certain Introduction to <lb/>Death. </p>
+        <pb xml:id="page_12" n="11"/>
+        <p rend="indent">
+          <lb/>The Conſequence of a liquid Diet is <lb/>no where more obvious, than in the old
+            <lb/><hi rend="italic">ſedentary Man</hi>, in whom, by an inac- <lb/>tive Life, the <hi
+            rend="italic">Viſcera</hi> are rendered weak, <lb/>and the Vigour of the digeſting
+          Powers <lb/>in a great Meaſure loſt for want of Uſe. <lb/>He is indeed better able to
+          ſupport Life <lb/>than the working Man, as he is void of the <lb/>Fatigue; but with what
+          great Difficulty it <lb/>is effected, may be ſeen in his pale lan- <lb/>guid Countenance,
+          his emaciated Bo- <lb/>dy, and the Defect of Vigour in his <lb/>Motion. </p>
+        <p rend="indent space">
+          <lb/>I cannot help reflecting in this Place <lb/>on the general Error of Men fond of
+          <lb/>Study, whoſe contemplative Geniuſes in- <lb/>clining them to a Life, in other
+          Reſpects <lb/>full of Indolence and Neglect, they ſup- <lb/>poſe it agreeable to their Way
+          of Life, <lb/>to eat their Aliment liquid, and pre- <lb/>pared for an expeditious Paſſage
+          in the <lb/><hi rend="italic">Primae Viae</hi>; in this Method they ſeem <lb/>to imitate
+          Birds and other Animals, <lb/>which, in the room of Teeth, Nature <lb/>has ſupplied with
+          two Stomachs. Where <lb/>in the firſt the Corn is only ſwelled and <lb/>ſoftened by the
+          Liquor of its Glands, <lb/>but broken and diſolved in the ſecond; <lb/>which is compoſed
+          of very ſtrong Muſ- <pb xml:id="page_13" n="12"/>
+          <lb/>cles. This Oeconomy is wonderful in <lb/>the Animal, but by no means applicable
+          <lb/>to the rational Creature. Although the <lb/>Pot and other Implements uſed in Cook-
+          <lb/>ery, where the Aliment receives ſome <lb/>Degrees of Digeſtion, may bear ſome
+          <lb/>Analogy to the firſt Stomach in the Ani- <lb/>mal, yet the <hi rend="italic"
+            >Operation</hi> is different, it is <lb/>by the <hi rend="italic">Succus Gaſtricus</hi>,
+          a Liquor ſepa- <lb/>rated by the Glands of the Stomach, <lb/>that the Corn is made ſoft
+          and fitted to <lb/>the Action of the ſecond Stomach, where <lb/>it is received together
+          with the Juices <lb/>of the firſt. But in boiling, the moſt <lb/>nutrimental Parts are
+          loſt, the more <lb/>volatile and ſpiritous evaporate, while <lb/>the groſs fatty Parts are
+          blended with <lb/>the Water. </p>
+        <p rend="indent space">
+          <lb/>Therefore whoever takes down the <lb/>Subſtance loads the Stomach to very <lb/>little
+          Purpoſe, and whoever drinks the <lb/>Broth will relax his Stomach, and rob <lb/>it of the
+          Vigour required to perform its <lb/>Office. But nothing will ſo much con- <lb/>vince us of
+          the Impropriety of ſuch a <lb/>Regimen, as a Knowledge of Digeſtion, <lb/>and the Manner
+          of its being performed; <lb/>which for the Sake of ſuch Readers as <lb/>are unacquainted
+          with theſe Subjects <pb xml:id="page_14" n="13"/>
+          <lb/>we will take a curſory View of in its <lb/>firſt Stages. </p>
+        <p rend="indent space">
+          <lb/>The principal Agents employed in <lb/>this Action, are the Teeth, the Saliva,
+          <lb/>the <hi rend="italic">Succus Gaſtricus</hi>, and the Liquors we <lb/>drink. The
+          Aliment being broke by the <lb/>Teeth, and mixed with the Saliva in the <lb/>Mouth,
+          deſcends into the Stomach, where <lb/>it imbibes the Juices of the Glands, and <lb/>the
+          Liquors drank, whoſe chief Property <lb/>is to ſoften the Aliments, as they are
+          <lb/>Fluids which eaſily enter the Pores of <lb/>moiſt Bodies, and, ſwelling them, break
+          <lb/>their moſt intimate Coheſions; and this <lb/>is augmented by the <hi rend="italic"
+            >Impetus</hi> which the <lb/>Heat of the Stomach gives to the Particles <lb/>of the
+          Fluids; and likewiſe by rarefying <lb/>the Air contained in the Pores of our <lb/>Food,
+          which burſts its Parts aſunder. </p>
+        <p rend="indent space">
+          <lb/>The Aliments thus prepared, their Parts <lb/>ſoon ſeparate from one another, and di-
+          <lb/>ſolve into a Fluid with the Liquor of the <lb/>Stomach, by the continual Motion of
+          its <lb/>Sides, whoſe abſolute Power is demon- <lb/>ſtrated (by <hi rend="italic"
+            >Pitcairn</hi>) to be equal to the <lb/>Preſſure of 117088 Pound-weight: To <lb/>which
+          if we add the abſolute Force of <lb/>the <hi rend="italic">Diaphragm</hi>, and Muſcles of
+          the <hi rend="italic"> Ab- <lb/>domen</hi>, which likewiſe conduce to Di- <pb
+            xml:id="page_15" n="14"/>
+          <lb/>geſtion, the Sum will amount to 250734 <lb/>Pound-weight. </p>
+        <p rend="indent space">
+          <lb/>From whence this Force? Or for what <lb/>Purpoſe hath Nature (who yet hath ne-
+          <lb/>ver been detected in an Error) employed <lb/>all this Mechaniſm, if uſeleſs? There
+          <lb/>can be no Occaſion to ſpare it the Trouble <lb/>of its Office, and the only Excuſe
+          Men <lb/>find for ſo doing, is becauſe 'tis already <lb/>weakened by ſome Cauſe, and
+          incapable <lb/>of acting. But to ſuch I would obſerve, <lb/>that 'tis not by theſe Means
+          to be brought <lb/>to its natural Tone. And the ſtudious <lb/>Man, whoſe Life is generally
+          inactive, <lb/>will find it more to his Advantage, and <lb/>agreeable to the Conſtitution
+          of his <lb/>Nerves, on whoſe Senſation he de- <lb/>pends for his Ideas, to live more upon
+          <lb/>Food containing the natural Juices, of <lb/>which Kind eſpecially are all roaſted
+          <lb/>Meats. </p>
+        <p rend="indent space">
+          <lb/>I could not conveniently treat on this <lb/>Subject without mentioning Digeſtion,
+          <lb/>ſince the Teeth are the firſt and neceſſary <lb/>Organs of it. Wherever we obſerve
+          theſe <lb/>Inſtruments wanting in Animals, &amp;c. we <lb/>ſhall always find them
+          furniſhed with <pb xml:id="page_16" n="15"/>
+          <lb/>two Stomachs; and where they have <lb/>Teeth beſides, they are only uſed as
+          <lb/>Weapons of Defence, which we ſee in <lb/>the Viper, and ſome Kinds of Fiſh, who
+          <lb/>ſwallow their Prey whole. </p>
+        <p rend="indent space">
+          <lb/>From hence we may conclude, that <lb/>the Teeth, beſides their Importance for
+          <lb/>the Preſervation of our Health, are like- <lb/>wiſe neceſſary for the Agreement of
+          the <lb/>Voice, the Pronunciation and Articula- <lb/>tion of our Words, and the Ornament
+          of <lb/>the Face. </p>
+        <p rend="indent space">
+          <lb/>Tho' the Production of the Teeth is <note place="margin" rend="size(0.75) italic"
+            ><lb/> Precau- <lb/>tions for <lb/> preſerv- <lb/>ing the <lb/>Teeth. </note>
+          <lb/>entirely the Work of Nature, the Preſer- <lb/>vation of them depends greatly upon
+          our- <lb/>ſelves. </p>
+        <p rend="indent space">
+          <lb/>Men are naturally attentive to their <lb/>Health, but by a Neglect of this Kind
+          <lb/>they are too often rendered incapable of <lb/>attaining it: For, as I have before
+          <lb/>ſhewn, the Health depending on the <lb/>Digeſtion of the Aliments, which ought
+          <lb/>firſt to be pounded as it were, and broke <lb/>for the eaſier Admiſſion of the Juices
+          of <lb/>the Stomach: And this being the Office <lb/>of the Teeth, it intimately concerns
+          us <pb xml:id="page_17" n="16"/>
+          <lb/>to keep them in ſuch Order as will enable <lb/>them to perform it. </p>
+        <p rend="indent space">
+          <lb/>The Means to preſerve them, conſiſts <lb/>then principally in the Choice of a good
+          <lb/>Regimen, and avoiding the Uſe of ſuch <lb/>Things as are hurtful to their external
+          <lb/>Parts. </p>
+        <p rend="indent space">
+          <lb/>The firſt you ſee will not only preſerve <lb/>the Teeth, but at the ſame Time the
+          <lb/>Health alſo, as it conſiſts in the Choice <lb/>of ſuch Aliment as will yield a good
+          <lb/>Nouriſhment. But the Generality of <lb/>People are ſo prone to Intemperance, <lb/>and
+          eat with ſo little Attention, or rather <lb/>ſo precipitately, that too much cannot be
+          <lb/>ſaid of its ill Effects. Nothing is capable <lb/>of producing greater Diſorders, than
+          an <lb/>imperfect Maſtication; for if the Ali- <lb/>ment be not well broken by the Teeth,
+          <lb/>'tis certain the Diſſolution in the Stomach <lb/>will be long, laborious, and
+          imperfect. <lb/>And the ſweet balſamic Blood, will be <lb/>changed into a thick, acrid,
+          and viſ- <lb/>cous State. And this Alteration cannot <lb/>fail of producing a bad Effect
+          in the <lb/>Teeth, not only as it circulates thro' <lb/>them, but by the Vapours which
+          ariſe <lb/>from the Stomach and Breath, and <pb xml:id="page_18" n="17"/>
+          <lb/>lodge upon them as they paſs thro' the <lb/>Mouth. </p>
+        <p rend="indent space">
+          <lb/>The too great Uſe of Vegetables, as <lb/>alſo the Fleſh of Pork, ſalted Meats,
+          <lb/>Salt-fiſh, Cheeſe, <hi rend="italic">&amp;c.</hi> muſt be preju- <lb/>dicial, as they
+          all produce a bad Chyle. </p>
+        <p rend="indent space">
+          <lb/>All Kinds of Sweet-meats and Sugars <lb/>contribute very much to the Deſtruction
+          <lb/>of the Teeth; becauſe their gluey Juice <lb/>is inſinuated into the Gums, and ſticks
+          <lb/>to the Teeth; beſides, Sugars are of an <lb/>acid, penetrant, and corroſive Nature,
+          <lb/>and by a <hi rend="italic">Chymical Analyſis</hi> we ſee that <lb/>the Effects will
+          be ſooner or later per- <lb/>nicious. 'Tis alſo remarkable that thoſe <lb/>People who make
+          great Uſe of this Poi- <lb/>ſon, are more ſubject to the Tooth-ach, <lb/>and loſe their
+          Teeth ſooner than others. </p>
+        <p rend="indent space">
+          <lb/>Thoſe who love Sugar, and uſe it <lb/>frequently, are ſeldom remarkable for
+          <lb/>handſome Teeth, and very rarely good <lb/>ones. This is particularly exemplified
+          <lb/>in <hi rend="italic">Holland</hi>, the Inhabitants whereof, <lb/>eſpecially the
+          Women, are great Tea- <lb/>drinkers, and in their Manner ſome- <lb/>what particular, for
+          inſtead of ſweetning <lb/>each Diſh with Loaf-Sugar as in <hi rend="italic">Eng- <pb
+              xml:id="page_19" n="18"/>
+            <lb/>land</hi>, they hold a Piece of Sugar-Candy <lb/>in their Mouths, which frequently
+          <lb/>ſerves ſix or eight Diſhes before 'tis di- <lb/>ſolved, which inevitably produces
+          thoſe <lb/>Effects to which they are ſo ſubject, <hi rend="italic">viz.</hi>
+          <lb/>the Loſs and Ruin of their Teeth: <lb/>For 'tis rare to find a <hi rend="italic"
+            >Dutch</hi> Woman of <lb/>thirty Years of Age with a good Set of <lb/>Teeth: For this
+          Reaſon, after eating <lb/>Sugar, or any Thing that contains much <lb/>Sugar in its
+          Compoſition, it will be ne- <lb/>ceſſary to rince the Mouth with warm <lb/>Water, to
+          diſſolve and waſh away thoſe <lb/>Parts which would ſtick to the Gums <lb/>and Teeth. </p>
+        <p rend="indent space">
+          <lb/>It would be abſurd from hence to <lb/>conclude it abſolutely neceſſary to de-
+          <lb/>prive ourſelves of theſe Things, but to <lb/>regulate their Uſe; and not to make a
+          <lb/>Habit of that which Experience ſhews <lb/>to be prejudicial moſt certainly is worth
+          <lb/>our Conſideration. </p>
+        <p rend="indent space">
+          <lb/>Of no leſs Importance is Mode- <lb/>ration in Drinking, ſince our Health is
+          <lb/>equally dependant on Sobriety; the ma- <lb/>ny Conſtitutions we ſee ruined by Ex-
+          <lb/>cess of this Kind, is a ſtronger Argument <pb xml:id="page_20" n="19"/>
+          <lb/>to deter us than any Thing that can be <lb/>further ſaid on this Head. </p>
+        <p rend="indent space">
+          <lb/>'Tis as neceſſary likewiſe to avoid <lb/>chewing or breaking any hard Bodies, as
+          <lb/>Nuts, Cherry-ſtones, <hi rend="italic">&amp;c.</hi> biting off the <lb/>Ends of
+          Thread or Silk, lifting up <lb/>great Weights, picking them with In- <lb/>ſtruments of
+          Gold, Silver, or any other <lb/>Metal, by which they may be either <lb/>looſened or loſt,
+          and other ſuch idle <lb/>and pernicious Practices. </p>
+        <p rend="indent space">
+          <lb/>Exceſſive ſmoaking Tobacco is alſo <lb/>very injurious (eſpecially if Care be not
+          <lb/>taken to cover the End of the Pipe with <lb/>Wax); which will by Degrees wear off
+          <lb/>their vitrious or gloſſy Subſtance, and <lb/>ſubject them to the Danger of becoming
+          <lb/>rotten, and perfectly uſeleſs: It beſides <lb/>gives them a black and filthy Appear-
+          <lb/>ance, and cauſes an unnatural Heat in the <lb/>Mouth, which by the immediate Ad-
+          <lb/>miſſion of cold Air, may arreſt a Hu- <lb/>mour in the Gums or neighbouring
+          <lb/>Glands, and be the Foundation of great <lb/>Pain and Trouble. </p>
+        <p rend="indent space">
+          <lb/>I would not have the Reader imagine <lb/>me ignorant of the Qualities of Tobac- <pb
+            xml:id="page_21" n="20"/>
+          <lb/>co: I am ſufficiently ſenſible of its Ser- <lb/>vice in preſerving the Teeth, by
+          evacu- <lb/>ating the ſuperfluous Humours: But <lb/>like any other Specific, it may, if
+          im- <lb/>properly made uſe of, anſwer a very <lb/>different Effect. I would therefore by
+          <lb/>all Means adviſe waſhing the Mouth <lb/>with warm Water, and not expoſing it <lb/>too
+          ſoon after ſmoaking to the Impreſſi- <lb/>ons of a cold Air, <hi rend="italic"
+            >&amp;c.</hi>
+        </p>
+        <p rend="indent space">
+          <lb/>The Effects which have been obſerved <lb/>to follow ſmoaking, are the very ſame
+          <lb/>when we eat our Victuals too hot, and im- <lb/>mediately, or in a little Time after,
+          eat <lb/>ſomething cold. Many People drink, <lb/>in the ſame Inſtant, a Liquor almoſt
+          <lb/>boiling hot, and ſome other as cold as <lb/>Ice, without recollecting that the Diver-
+          <lb/>ſity of Heat and Cold is able to arreſt <lb/>and fix the Humours which nouriſh the
+          <lb/>Teeth, which ſtagnating, will ferment <lb/>and break the Membrane that covers the
+          <lb/>Roots of the Teeth, and render them <lb/>carious. </p>
+        <p rend="indent space">
+          <lb/>This Effect is produced by the Dila- <lb/>tation of the Parts and the Rarefaction of
+          <lb/>the Liquids that paſs thro' the Veſſels, <lb/>occaſioned by Heat. As Cold on the <pb
+            xml:id="page_22" n="21"/>
+          <lb/>contrary will contract and ſhut up the <lb/>Parts, abate the Motion of Circulation,
+          <lb/>and render the Juices contained in <unclear>the</unclear>
+          <lb/>Veſſels, thick and incapable of paſſing. </p>
+        <p rend="indent space">
+          <lb/>The great Preſervation of our Teeth, <lb/>in ſhort chiefly depends on our Regimen
+          <lb/>of Living; the Conſtitution, and the <lb/>Teeth, have ſo equal a Dependance on
+          <lb/>each other, that the Deſtruction of the <lb/>latter proves the Ruin of the former,
+          <lb/>almoſt as certain, as that a bad Blood <lb/>can never ſupply the Teeth with good
+          <lb/>Nouriſhment. </p>
+        <p rend="indent space">
+          <lb/>The Cauſes that produce the Diſeaſes <note place="margin" rend="size(0.75) italic"
+            ><lb/>General <lb/>Cauſes of <lb/>the Diſor- <lb/>ders of the <lb/>Teeth. </note>
+          <lb/>of the Teeth, are two in general: The <lb/>one internal, the other external. The
+          <lb/>internal Cauſe is owing to the Quantity <lb/>or Quality of the Lymph, which by its
+          <lb/>corroſive Parts is capable of deſtroying <lb/>the moſt compact Parts of the human
+          <lb/>Body, ſuch as are the Teeth, by break- <lb/>ing the external Subſtance, or gloſſy
+          <lb/>Covering of the Bones of which they <lb/>are compoſed. </p>
+        <p rend="indent space">
+          <lb/>The Lymph we find of this Character <lb/>in the Scurvy, in the King's Evil, and in
+          <lb/>the Pox. </p>
+        <pb xml:id="page_23" n="22"/>
+        <p rend="indent space">
+          <lb/>When the nutritious Juice is too <lb/>abundant, or diſtributed in too great
+          <lb/>Quantity into the Teeth, that it ſtagnates <lb/>between their Alveoli and their
+          Roots, <lb/>its Effects are very dangerous, like as <lb/>when the Blood is inflamed, it
+          may <lb/>form phlegmonic Abſceſſes in the Ca- <lb/>vity of the Teeth, or in the neigh-
+          <lb/>bouring Parts: It may alſo occaſion <lb/>the moſt exquiſite Pains, incurable but
+          <lb/>by the Loſs of the Tooth. </p>
+        <p rend="indent space">
+          <lb/>
+          <note place="margin" rend="size(0.75) italic"><lb/>The Regi- <lb/>men of Li- <lb/>ving.
+          </note>Too much Sleep, too much watching, <lb/>a too ſedentary Life, or a too laborious
+          <lb/>one, contribute not a little to the Preſer- <lb/>vation or to the Ruin of the Teeth. </p>
+        <p rend="indent space">
+          <lb/>The good Quality of the Milk which <lb/>the Child receives from its Nurſe is of
+          <lb/>great Importance to the Formation of the <lb/>Teeth, in the Time of toothing; as it
+          <lb/>ſerves to prevent or diminiſh the many <lb/>Accidents that happen to Children, when
+          <lb/>the Teeth are diſpoſed to pierce the <lb/>Membrane of the Gum, that covers <lb/>their
+          Extremities and oppoſes their <lb/>Iſſue. </p>
+        <pb xml:id="page_24" n="23"/>
+        <p rend="indent space">
+          <lb/>All violent Paſſions are capable of al- <lb/>tering Digeſtion, of increaſing or
+          thick- <lb/>ning the Maſs of Blood, of cauſing Ob- <lb/>ſtructions, and of ſtopping the
+          Secre- <lb/>tions and Excretions which ſhould ope- <lb/>rate daily for the Preſervation of
+          our <lb/>Health. The Paſſions, I ſay, may, when <lb/>they alter the Maſs of Blood to a
+          certain <lb/>Degree, be ranged with the internal <lb/>Cauſes that produce the Diſeaſes of
+          the <lb/>Teeth. </p>
+        <p rend="indent space">
+          <lb/>All Perſons in a pituitous or pletho- <lb/>rick Habit of Body, in whom the Lymph
+          <lb/>is very abundant, are generally ſubject to <lb/>ſuffer not only Pain in the Teeth,
+          but <lb/>even their Loſs. </p>
+        <p rend="indent space">
+          <lb/>The Generality of Women with Child <lb/>are likewiſe ſubject to this Complaint:
+          <lb/>The menſtrual Diſcharge being ſtopped, <lb/>the Maſs of Blood muſt reſt charged
+          <lb/>with a Superfluity; 'tis therefore from <lb/>the Quantity that is depoſited on the
+          <lb/>Teeth or on the Gums, that Women <lb/>ſuffer this Uneaſineſs ſooner when with
+          <lb/>Child than at other Times; and we ſee <lb/>that they are often afflicted for the ſame
+            <pb xml:id="page_25" n="24"/>
+          <lb/>Reaſon, when their monthly Oeconomy <lb/>is over. </p>
+        <p rend="indent space">
+          <lb/>The Ja<unclear>un</unclear>dice occaſions ſo much Diſ- <lb/>order in the Blood, that
+          the Teeth <lb/>ſometimes periſh by an Abſceſs on thoſe <lb/>Parts. </p>
+        <p rend="indent space">
+          <lb/>The external Cauſes are not leſs in <lb/>Number, nor are they leſs dangerous in
+          <lb/>their Effects. The thick Vapours that <lb/>ariſe from the Stomach and Lungs ad-
+          <lb/>here to the Mouth much in the ſame <lb/>Manner that Soot adheres to the Sides of
+          <lb/>the Chimney, forming a tenacious viſ- <lb/>cous Subſtance that covers the Teeth like
+          <lb/>Paſte. This tenacious Matter is very <lb/>hurtful to the Teeth. When certain
+            <lb/>l<unclear>it</unclear>tle Portions of our Aliment adhere to <lb/>the Teeth, or
+          ſtick betwixt their Inter- <lb/>ſtices or the Gums, it is capable of pro- <lb/>ducing the
+          ſame Effect, eſpecially if we <lb/>neglect rincing our Mouths after. </p>
+        <p rend="indent space">
+          <lb/>The Injuries of the Weather are the <lb/>Cauſes of Rheums and Catarrhes, from
+          <lb/>which the Teeth, the Alveoli, and the <lb/>Gums, are too often very great Suffer-
+          <lb/>ers. </p>
+        <pb xml:id="page_26" n="25"/>
+        <p rend="indent space">
+          <lb/>The too great Uſe of dentrifick Pow- <lb/>ders ſerves chiefly to Deſtruction, as they
+          <lb/>uſe or wear off the Part of the moſt Im- <lb/>portance to their Preſervation, viz.
+          their <lb/>Enamel or vitrious Subſtance. </p>
+        <p rend="indent space">
+          <lb/>But the Neglect in not keeping them <lb/>clean, is the moſt general Cauſe of <lb/>all
+          the Diſorders that happen to the <lb/>Teeth. </p>
+        <p rend="indent space">
+          <lb/>Mercury is a great Enemy to the <lb/>Teeth, not only by itſelf but by the bad
+          <lb/>Effects that it may produce in the Body, <lb/>by the corroſive Qualities that moſt of
+          <lb/>the Preparations of Mercury are charged <lb/>with, or by the Alliance that it
+          contracts <lb/>with different Principles in our Bodies, <lb/>when it ſtays too long, or
+          when 'tis not <lb/>properly evacuated. </p>
+        <p rend="indent space">
+          <lb/>'Tis very evident that Mercury, by its <lb/>ill Effects, ſwells the Gums and renders
+          <lb/>them ſore; this it does alſo to the Mem- <lb/>branes that cover the Roots of the
+          Teeth, <lb/>either internally or externally; it de- <lb/>ſects, if I may be allowed the
+          Expreſſi- <lb/>on, the very Roots, and throws them <lb/>out of their Sockets, or
+          otherwiſe, it <pb xml:id="page_27" n="26"/>
+          <lb/><choice>
+            <corr>deſtroys</corr>
+            <sic>ſtroys</sic>
+          </choice> them by the Caries that it occa- <lb/>ſions. Theſe melancholy Effects we ſee
+          <lb/>but too often, eſpecially where Mercu- <lb/>ry hath been employed by Perſons little
+          <lb/>verſed in its Uſe. The moſt experien- <lb/>ced Practitioners in the <hi rend="italic"
+            >Venereal Diſeaſe</hi>
+          <lb/>uſe it with the utmoſt Circumſpection, <lb/>and with great Induſtry guard againſt
+          <lb/>its Poiſon. The Gilders and thoſe <lb/>who cover Looking-Glaſſes, Plumbers, <lb/>and
+          ſuch as work in Mines, <hi rend="italic">&amp;c.</hi> expe- <lb/>rience the bad and fatal
+          Impreſſions <lb/>that Mercury makes upon them, and <lb/>particularly upon their Teeth. </p>
+        <p rend="indent space">
+          <lb/>'Tis by the Effects produced from theſe <lb/>Cauſes, that the Teeth are attended with
+          <lb/>ſuch Diverſity of Diſeaſes, almoſt al- <lb/>ways accompanied with Pain, more or
+          <lb/>leſs violent. </p>
+        <p rend="indent space">
+          <lb/>Authors have reckoned the Number <lb/>of Diſeaſes of the Teeth to amount to
+          <lb/>upwards of an hundred, but I find on- <lb/>ly nineteen neceſſary to comprehend all
+          <lb/>that may be uſeful to know, and theſe <lb/>may be divided into three Claſſes: In
+          <lb/>the firſt are thoſe produced by external <lb/>Cauſes; in the ſecond are contained the
+          <lb/>Diſorders of the Alveoli and Gums; <pb xml:id="page_28" n="27"/>
+          <lb/>and in the third are the Diſeaſes acci- <lb/>dental or ſymptomatic. </p>
+        <p rend="indent space">
+          <lb/>The firſt Diſeaſe from external Cauſes <note place="margin" rend="size(0.75) italic"
+            ><lb/>Of the <lb/>Tartar or <lb/>Turf. </note>
+          <lb/>worth our Notice is, the Tartar <lb/>or Turf, concerning which Authors <lb/>ſpeak of
+          many different Sorts, as the <lb/>yellow, the grey, the black, and the <lb/>petrified, and
+          diſtinguiſh them alſo by <lb/>their Degrees of Conſiſtence; but as <lb/>this laſt is owing
+          only to the Duration, <lb/>and the Difference of Colour not mate- <lb/>rial, I ſhall ſpeak
+          only of the moſt com- <lb/>mon Sort, which is of a dark yellow, <lb/>tending rather to a
+          brown Colour. </p>
+        <p rend="indent space">
+          <lb/>The Tartar is a Matter accumulated <lb/>on the Surface of the Teeth, near the
+          <lb/>Gums, which in Proceſs of Time will <lb/>form a ſtrong Cruſt, of a conſiderable
+          <lb/>Bigneſs, common to thoſe who are ne- <lb/>gligent in keeping their Teeth clean. This
+          <lb/>foreign Matter as it increaſes in Quan- <lb/>tity, inevitably conſumes the Gums,
+          <lb/>and by that Means occaſions a Rottenneſs <lb/>of the Teeth. </p>
+        <p rend="indent space">
+          <lb/>For the better underſtanding the Na- <lb/>ture of this Tartar, with the Cauſes <pb
+            xml:id="page_29" n="28"/>
+          <lb/>that produce it, and the Manner of its <lb/>inſenſible Formation, the two following
+          <lb/>Principles may be of Service. </p>
+        <p rend="indent space">
+          <lb/>Firſt the Foundation of this Matter <lb/>and its Increaſe may bear ſome Analo-
+          <lb/>gy to the Stones formed in the Kidneys, <lb/>Bladder, <hi rend="italic">&amp;c.</hi>
+          which owe their Origin <lb/>very often to a Retention of ſome Mat- <lb/>ter, capable of
+            <hi rend="italic">Attraction</hi> and <hi rend="italic">Coheſion:</hi>
+          <lb/>The ſmall Portions of our Aliment that <lb/>adhere to the upper Part of the Teeth,
+          <lb/>or betwixt their Interſtices, being ſoft- <lb/>ened by the Saliva, become of a gluey
+          <lb/>Conſiſtence, which ſoon grows dry, by <lb/>the Aſſiſtance of more Air, paſſing in
+          <lb/>Inſpiration and Expiration. </p>
+        <p rend="indent space">
+          <lb/>Secondly, when the Saliva becomes <lb/>viſcous, from a Deprivation of the <lb/>Lymph,
+          and is loaded with ſaline Par- <lb/>ticles, 'tis very probable that it may be <lb/>lodged
+          upon the Body of the Teeth, <lb/>and by Degrees form the Maſs we are <lb/>ſpeaking off.
+          That this Matter may be <lb/>ſo cauſed, I am the more ready to be- <lb/>lieve from the
+          Obſervation <note place="bottom" n="*" rend="size(0.75) italic">
+            <p rend="indent">
+              <lb/>* Le Journal de Saeavans de lannle, 1721. </p>
+          </note> of a ſtrong <pb xml:id="page_30" n="29"/>
+          <lb/>Concretion being found upon the Roots <lb/>of the Tongue, formed by a viſcous
+          <lb/>Lymph, reſembling the Saliva in Thirſt. <lb/>'Tis difficult to aſſign any other Cauſe
+          <lb/>than that the Saliva may become tar- <lb/>tarous and form this Subſtance. </p>
+        <p rend="indent space">
+          <lb/>The firſt Lay or Bed of Tartar be- <lb/>ing once formed, 'tis eaſy to conceive it
+          <lb/>augmented by the Addition of freſh <lb/>Matter, and to increaſe to an extraordi-
+          <lb/>nary Size. </p>
+        <p rend="indent space">
+          <lb/>From the Nature of this Diſeaſe we <lb/>may readily infer, that the Cure, or
+          <lb/>Means to prevent it, will conſiſt in keep- <lb/>ing ſuch a Regimen as will preſerve
+          the <lb/>Purity of the Blood in its natural State; <lb/>and by being careful to waſh the
+          <lb/>Mouth often, (which is abſolutely ne- <lb/>ceſſary to prevent a ſtinking Breath oc-
+          <lb/>caſioned as well by this Neglect as the <lb/>Diſorder here mentioned) we may main-
+          <lb/>tain the Uſe and Beauty of our Teeth, <lb/>for many Years. </p>
+        <p rend="indent space">
+          <lb/>The <hi rend="italic">Jaundice</hi> of the Teeth is men- <lb/>tioned as another
+          Diſeaſe; but I think <lb/>with Impropriety, it being nothing more <lb/>than a tarniſhed
+          Subſtance, or Viſcoſity <pb xml:id="page_31" n="30"/>
+          <lb/>ſticking to the Teeth, like Duſt, or the <lb/>Humidity that covers the Surface of a
+          <lb/>Looking-glaſs when 'tis not kept clean; <lb/>and to me it ſeems to be nothing more
+          <lb/>than a Bed or Lay of Matter, form- <lb/>ing the Tartar. </p>
+        <p rend="indent space">
+          <lb/>
+          <note place="margin" rend="size(0.75) italic"><lb/>Senſibility <lb/>and Agace- <lb/>ment.
+          </note>The Senſibility and Agacement of <lb/>the Teeth, are Diſorders produced from
+          <lb/>external Cauſes. </p>
+        <p rend="indent space">
+          <lb/>The Writers on this Subject have <lb/>been of oppoſite Opinions, ſome main-
+          <lb/>taining the Teeth to be inſenſible Bodies, <lb/>others on the contrary making them
+          ex- <lb/>tremely capable of Senſation. 'Tis true <lb/>that ſimply as ſo many Bones, we may
+          <lb/>conſider them as inſenſible; but as co- <lb/>vered and lined with Membranes, and
+          <lb/>furniſhed with Veſſels and Nerves, we <lb/>cannot deny them the Quality of Senſa-
+          <lb/>tion, any more than other Parts of the <lb/>Body. </p>
+        <p rend="indent space">
+          <lb/>By the Senſibility of the Teeth is to <lb/>be underſtood that fixed and permanent
+          <lb/>Pain, that we generally expreſs by ſay- <lb/>ing we have the Tooth-ach. </p>
+        <pb xml:id="page_32" n="31"/>
+        <p rend="indent space">
+          <lb/>By the Agacement of the Teeth is <lb/>meant that acute Pain we expreſs <lb/>by ſaying
+          they are ſet on Edge, cauſed <lb/>by certain Sounds, ſuch as the touching <lb/>of Stuffs,
+          the ſlipping of a Knife or <lb/>Fork upon a China-Plate, or the filing <lb/>a Piece of
+          Iron, <hi rend="italic">&amp;c. &amp;c.</hi>
+        </p>
+        <p rend="indent space">
+          <lb/>The Pains of the Teeth are of diffe- <lb/>rent kinds: But the moſt general are
+          <lb/>thoſe called <hi rend="italic">pungent</hi> or pricking, com- <lb/>ing by Intervals;
+          the other <hi rend="italic">diſtenſive</hi> or <lb/>continual, ſuch as accompany a Caries,
+          <lb/>in which the Air by drying or criſping <lb/>the Fibres, Nerves and Coats of the
+          <lb/>little Veſſels, render them bony, and <lb/>contract their Diameters too ſmall to re-
+          <lb/>ceive any Fluid thro' them, by which <lb/>Means the Efforts of the Humours, to
+          <lb/>diſtend their Orifices, cauſe that Pain <lb/>we call diſtenſive. </p>
+        <p rend="indent space">
+          <lb/>If on the contrary the little Veſſels <lb/>ſhould be ruptured, the Liquor extrava-
+          <lb/>ſated would ſoon change its Nature, and <lb/>fermenting would irritate the Mem-
+          <lb/>branes, and produce the Pain called <lb/>pungent. </p>
+        <pb xml:id="page_33" n="32"/>
+        <p rend="indent">
+          <lb/>The Agacement we find to be a dif- <lb/>ferent Kind of Senſation, owing, ac-
+          <lb/>cording to the general Opinion, to an <lb/>acid Juice, inſinuated betwixt the Fibres
+          <lb/>of the Membranes, that covers the <lb/>Roots of the Teeth; and when the <lb/>Teeth
+          are compreſſed againſt this Mem- <lb/>brane, that Diſpoſition occaſions the <lb/>Action of
+          the Juices againſt the Fibres <lb/>of the Membrane. </p>
+        <p rend="indent">
+          <lb/>I believe that the Juices of certain <lb/>Fruits, ſuch as Cherries, Gooſeberries,
+          <lb/>Apples, <hi rend="italic">&amp;c.</hi> may be inſinuated betwixt <lb/>the Interſtices
+          of the Fibres that com- <lb/>poſe the Membranes, and diſtending <lb/>them, intercept the
+          Courſe of the Li- <lb/>quors in ſome Veſſels, and by ſtretch- <lb/>ing the Nerves, produce
+          a Senſation <lb/>more or leſs troubleſome to bear: But <lb/>'tis very different from that
+          ſeated in <lb/>the Body of the Tooth. </p>
+        <p rend="indent space">
+          <lb/>What makes me conſider that the <lb/>Agacement is fixed only to the Body or
+          <lb/>Surface of the Teeth is, if they are <lb/>wiped with a Piece of warm Linen, it
+          <lb/>will immediately diminiſh their Uneaſi- <lb/>ness. And in Oppoſition to the Opini-
+          <lb/>on of an Acid being the Cauſe, the <pb xml:id="page_34" n="33"/>
+          <lb/>following Experiment will ſerve to con- <lb/>vince: If the Herb Sorrel be chewed
+          <lb/>between the Teeth, the Agacement will <lb/>ſuddenly ceaſe; if this Diſeaſe be oc-
+          <lb/>caſioned by an Acid, is it not ſtrange <lb/>that it ſhould admit of this Remedy?
+          <lb/>Sorrel which is itſelf an Acid, muſt ra- <lb/>ther increaſe than abate the Diſorder!
+          'Tis <lb/>poſſible that ſome Parts of the Juice <lb/>may be ſubtle enough to penetrate the
+          <lb/>Fibres that terminate it: But how Sor- <lb/>rel acts in remedying this Evil, I con-
+          <lb/>fess, I am not able to conceive. We <lb/>may obſerve that the Air taken in Re-
+          <lb/>ſpiration when the Mouth is half open, <lb/>will produce the ſame Effect: And I
+          <lb/>cannot believe that Air in paſſing, preſ- <lb/>ſes ſo forcibly as to make that
+          Compreſ- <lb/>ſion againſt the Membranes at the Roots <lb/>of the Teeth, which they aſſign
+          to be <lb/>the Cauſe. 'Tis more natural to ſuppoſe <lb/>that the ſubtle Particles of the
+          Air en- <lb/>tering the Pores of the Enamel, and the <lb/>Reſiſtance made to the groſſer
+          Parts, <lb/>may occaſion a Tremor in the Tooth, <lb/>and a Senſation not unlike the Agace-
+          <lb/>ment. </p>
+        <p rend="indent space">
+          <lb/>The Caries or Rottenneſs is a Diſeaſe <note place="margin" rend="size(0.75) italic"
+            >Rottenneſs. </note>
+          <lb/>produced likewiſe from external Cauſes. </p>
+        <pb xml:id="page_35" n="34"/>
+        <p rend="indent space">
+          <lb/>The Teeth are more ſubject to this <lb/>Diſeaſe, than all the other Bones in the
+          <lb/>Body, both by their Structure and Situ- <lb/>ation. </p>
+        <p rend="indent space">
+          <lb/>This Diſeaſe is occaſioned by a Hu- <lb/>mour inſinuated between the boney Fi-
+          <lb/>bres of the Teeth, which generally <lb/>meets with Obſtructions in the moſt ſub-
+          <lb/>ſtantial Part of the Tooth, and by the <lb/>particular Impulſe, that every Particle
+          <lb/>communicates to the Cells of the Tooth, <lb/>by Degrees, breaks off little Parcels,
+          <lb/>and in Time, makes that dark Cavity <lb/>in the Tooth which we call <hi rend="italic"
+            >hollow.</hi>
+        </p>
+        <p rend="indent space">
+          <lb/>The Teeth are more ſubject to Rot- <lb/>tenness than the other Bones, becauſe
+          <lb/>their Perioſteum is more preſſed; which <lb/>renders them ſubject to Obſtructions,
+            <lb/><hi rend="italic">&amp;c.</hi> The <hi rend="italic">Molares</hi> are more ſubject
+          to <lb/>this Diſeaſe than the <hi rend="italic">Inciſſores</hi> or <hi rend="italic">
+            Cani- <lb/>ni</hi>; and the <hi rend="italic">Inciſſores</hi> and <hi rend="italic"
+            >Canini</hi> of the <lb/>upper Jaw, more than thoſe of the <lb/>lower Jaw, becauſe by
+          their Situation <lb/>they are more expoſed to Heat and Cold, <lb/>in eating or drinking,
+          in Inſpiration and <lb/>Expiration. </p>
+        <pb xml:id="page_36" n="35"/>
+        <p rend="indent space">
+          <lb/>It often happens, that after a Tooth <lb/>is attack'd with a Caries, the oppoſite
+          <lb/>Tooth, on the other Side of the ſame Jaw, <lb/>is affected alſo. Nor does it appear
+          <lb/>that this Effect depends only upon Haz- <lb/>ard: For 'tis remarkable, that in the
+          <lb/>oppoſite Tooth the Caries will not <lb/>only much reſemble the other, but
+          <lb/>ſometimes be exactly uniform to it. </p>
+        <p rend="indent space">
+          <lb/>The Vulgar, as well as certain Au- <lb/>thors, are of opinion, that all Pains of
+          <lb/>the Teeth are cauſed by a Worm, that <lb/>gnaws and eats the Membranes and
+          <lb/>Nerves of the Teeth. This Notion is <lb/>founded upon pretended Experiments <lb/>on
+          theſe Infects, which (as they report) <lb/>by ſmoaking Hembane, will fall from <lb/>the
+          Teeth, <hi rend="italic">&amp;c.</hi> And ſome of the <lb/><hi rend="italic">Doctors of
+            Montpellier</hi> have been very <lb/>prolix in their Accounts of the Genera- <lb/>tion
+          of theſe Worms; beſides the Diſ- <lb/>coveries with their Glaſſes: But who- <lb/>ever will
+          be at the Pains to make ſome <lb/>Trials with the Microſcope, may prove <lb/>the Abſurdity
+          of this Notion. </p>
+        <pb xml:id="page_37" n="36"/>
+        <p rend="indent space">
+          <lb/>The Time in which the Caries ra- <lb/>vages moſt of the Teeth, is between the
+          <lb/>Age of 25 and 50 Years. </p>
+        <p rend="indent space">
+          <lb/>I have omitted the many Diviſions <lb/>that may be ſeen in ſome Books upon <lb/>this
+          Subject; both on Account of their <lb/>Perplexity and Non-uſe. For the Ca- <lb/>ries, of
+          what Kind or Cauſe ſoever, pro- <lb/>duces its Effects, more or leſs conſider- <lb/>able,
+          according to the Parts of the <lb/>Tooth they attack. And the Operations <lb/>practiſed on
+          theſe Occaſions are more or <lb/>leſs difficult, according to the Situation <lb/>of the
+          Tooth; or according as the Ca- <lb/>ries is more or leſs penetrating in the <lb/>Body, or
+          the Roots of the Teeth. </p>
+        <p rend="indent space">
+          <lb/>Whenever the Caries is ſituated with- <lb/>out the Gums, either on the Sides, or
+          <lb/>Extremity of the Tooth, the Cure will <lb/>conſiſt in ſeparating the rotten Part from
+          <lb/>the ſound, by Exfoliation, with the File, <lb/>the Rugine, Cautery, <hi rend="italic"
+            >&amp;c.</hi> And by fill- <lb/>ing the Cavity with Wax (which muſt <lb/>be often
+          renewed) it will defend the <lb/>boney and nervous Parts from the Air, <lb/>or the
+          Impreſſion of any other Bodies; <lb/>likewiſe hinder any Bits of our Aliment <pb
+            xml:id="page_38" n="37"/>
+          <lb/>from lodging in the Cavity, which are <lb/>ſo apt to putrify and cauſe a ſtinking
+          Breath. </p>
+        <p rend="indent space">
+          <lb/>Altho' the Teeth, in their natural <note place="margin" rend="size(0.75) italic"
+            >Fractures. </note>
+          <lb/>Situation, are harder and more compact <lb/>than the other Bones in the Body, and
+          <lb/>more remarkably ſo in the human Specie <lb/>than Brutes, we find them by Experience
+          <lb/>extremely ſubject to break; eſpecially <lb/>when the leaſt Defect happens in them. </p>
+        <p rend="indent space">
+          <lb/>Their Fractures, are ſimple, compound, <lb/>or Fiſſure. </p>
+        <p rend="indent space">
+          <lb/>The Simple happens often by Falls <lb/>and Blows, particularly by the Attempts
+          <lb/>to draw them before they are looſe: <lb/>The Compound is when, their Roots are
+          <lb/>ſtrongly attached to their Alveoli, and a <lb/>Piece of the Jaw comes away with Part
+          <lb/>of the Tooth: A Fiſſure is a Fracture <lb/>lengthways, without any ſeeming Alte-
+          <lb/>ration in the Form of the Tooth. </p>
+        <p rend="indent space">
+          <lb/>When once the Parts of the other <lb/>Bones are divided, they never can be <lb/>again
+          united; for the Veſſels diſtributed <lb/>in them are not ſo diſpoſed as to furniſh <lb/>a
+          Juice ſufficient, or that is capable of <lb/>a Glutination; becauſe their proper Sub- <pb
+            xml:id="page_39" n="38"/>
+          <lb/>ſtance is too compact to give them Paſ- <lb/>ſage; or their Motion, the Air, and
+          <lb/>Bodies that they touch, are Obſtacles that <lb/>oppoſe the Re-union of the divided
+          Parts. </p>
+        <p rend="indent space">
+          <lb/>But tho' the Re-union of the Fracture <lb/>be impracticable, the Scales, or
+          Splinters, <lb/>that remain, may be extracted, or their <lb/>Angles and ſharp Points
+          ſmoothed and <lb/>poliſhed. </p>
+        <p rend=" space">
+          <lb/>
+          <note place="margin" rend="size(0.75) italic">Luxations. </note> All the Luxations the
+          Bones ſuffer in <lb/>their Articulations, are either complete, <lb/>or incomplete. When a
+          Tooth is <lb/>looſened, it is a Luxation incomplete. </p>
+        <p rend="indent space">
+          <lb/>If after having been naturally well <lb/>ſituated, they lean either in, or out of
+          <lb/>the Mouth, of one Side, or the other, <lb/>they are ſo many Luxations. </p>
+        <p rend="indent space">
+          <lb/>When a Tooth turns in the Alveoli, <lb/>ſo that the lateral Parts of the Tooth
+          <lb/>incline, either outwards or inwards, 'tis <lb/>a Luxation complete. </p>
+        <p rend="indent space">
+          <lb/>When a Tooth ſeems to be longer, <lb/>and exceed the others, that the Neck <lb/>and
+          Part of the Roots appear above the <lb/>Edge of the Gums, occaſioned by ſome <pb
+            xml:id="page_40" n="39"/>
+          <lb/>Matter contained in the Alveoli, 'tis a <lb/>Semi-luxation. </p>
+        <p rend="indent space">
+          <lb/>The large Teeth are moſt frequently <lb/>luxated inwards. The <hi rend="italic"
+            >Inciſſores</hi>, on the <lb/>contrary, generally luxate outwards: <lb/>Altho' both
+          theſe Diſlocations are bad, <lb/>and incommode the Equality of Maſti- <lb/>cation, yet the
+          Luxation inwards is the <lb/>worſt, becauſe it fatigues and hurts the <lb/>Tongue; which
+          Uneaſineſs is more than <lb/>the Inconvenience that is cauſed by the <lb/>Teeth againſt
+          the Lips, or Cheeks, when <lb/>they fall outwards. The leaſt inconve- <lb/>nient Luxation
+          is, when the Tooth is <lb/>only turned in the Cavity of the Alveoli. </p>
+        <p rend="indent space">
+          <lb/>When the Teeth are luxated, in ſuch <lb/>a manner as to exceed the others by
+          <lb/>their Extremities, which we call a Luxa- <lb/>tion, or Diſlocation of the Bottom to
+          the <lb/>Top of the lower Jaw, or of the Top to <lb/>the Bottom of the upper Jaw, the
+          Maſti- <lb/>cation is very difficult. </p>
+        <p rend="indent space">
+          <lb/>In all theſe Caſes, the Remedy is, to <lb/>return them, each, in their proper Places,
+          <lb/>by which means they will often become <lb/>quite faſt; to guard againſt the Cauſes
+          <lb/>of Luxations, and ſo fortify the Gums. </p>
+        <pb xml:id="page_41" n="40"/>
+        <p rend="indent space">
+          <lb/>
+          <note place="margin" rend="size(0.75) italic"><lb/>Diſeaſes <lb/>within the <lb/>Alveoli
+            <lb/>and Gums. </note>The Diſeaſes that happen to the Parts <lb/>of the Teeth contained
+          within the Al- <lb/>veoli and Gums, are, </p>
+        <p rend="indent space" n="1">
+          <lb/>1. Caries of the Neck and Roots of <lb/>the Teeth. </p>
+        <p rend="indent space" n="2">
+          <lb/>2. Inflammation of the Membranes, <lb/>that line the internal Cavities of the Roots
+          <lb/>of the Teeth, their Perioſteum, <hi rend="italic">&amp;c.</hi>
+          <lb/>occaſion'd by Cold. </p>
+        <p rend="indent space" n="3">
+          <lb/>3. Abſceſſes in the Cavities of the <lb/>Teeth and Gums: The Conſequence of <lb/>an
+          Inflammation. </p>
+        <p rend="indent space" n="4">
+          <lb/>4. Atrophy, or Dryneſs of the Al- <lb/>veoli and Membranes of the Gums; <lb/>which is
+          ſufficient to make the Teeth <lb/>fall out, without any Caries, and even <lb/>without
+          Pain. </p>
+        <p rend="indent space">
+          <lb/>The accidental, or ſymptomatic Diſ- <lb/>eaſes of the Teeth, are, </p>
+        <p rend="indent space" n="1">
+          <lb/>1. Caries of the Alveoli, cauſed by <lb/>the Teeth. </p>
+        <pb xml:id="page_42" n="41"/>
+        <p rend="indent" n="2">
+          <lb/>2. Exoſtoſis of the Alveoli, occaſioned <lb/>by the Teeth alſo. </p>
+        <p rend="indent space" n="3">
+          <lb/>3. Inflammation of the Perioſteum, <lb/>lining the Cavities of the Alveoli. </p>
+        <p rend="indent space" n="4">
+          <lb/>4. Fracture of the Alveoli, cauſed by <lb/>the Extraction of the Teeth, <hi
+            rend="italic">&amp;c.</hi>
+        </p>
+        <p rend="indent space" n="5">
+          <lb/>5. Hemorrhage, ſometimes violent, <lb/>occaſion'd by the Extraction of the <lb/>Teeth
+          alſo. Sometimes this Hemorrhage <lb/>proceeds from, the Gums being tore in <lb/>the
+          Operation of drawing. </p>
+        <p rend="indent space" n="6">
+          <lb/>6. Abſceſſes in the Gums, Cheeks, <lb/>and Palate, cauſed by the Teeth. </p>
+        <p rend="indent space" n="7">
+          <lb/>7. Fiſtulas occaſion'd by long Conti- <lb/>nuance of thoſe Abſceſſes. </p>
+        <p rend="indent space" n="8">
+          <lb/>8. Miſcarriages have been the Conſe- <lb/>quence of violent Pains in the Teeth:
+          <lb/>And, </p>
+        <p rend="indent space" n="9">
+          <lb/>9. Nauſea, Vomiting, Diarrheas <lb/>and Fevers, and to Infants, even Death
+          <lb/>itſelf. </p>
+      </div>
+      <div>
+        <pb xml:id="page_43" n="42"/>
+        <head rend="italic hanging space">
+          <lb/>On the Methods of Cleaning the <lb/>Teeth with Obſervations on Sca- <lb/>ling. </head>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">T</hi>HE common Methods for pre- <lb/>ſerving the Colour of the
+          Teeth, <lb/>ſerve rather to blacken and deſtroy <lb/>them: And I would caution the Public
+          <lb/>againſt the Uſe of all Remedies ſold with <lb/>this Deſign; The Opiates, and many
+          <lb/>Medicines of different Titles, to my <lb/>certain Knowledge, are compoſed of
+          <lb/>Brick, China, Rotten-ſtone, or other <lb/>Ingredients of this Nature, powdered
+          <lb/>or levigated very fine, and coloured ac- <lb/>cording to the Fancy of the Inventors.
+          <lb/>It is very natural to conceive that theſe <lb/>Powders muſt act upon the Teeth
+          <lb/>much in the ſame manner as a File, or <lb/>the Duſts uſed in poliſhing Metals; by
+          <lb/>which means the enamel'd Subſtance <lb/>will be wore away, and the long Part <lb/>of
+          the Tooth left bare, and defenceleſs <lb/>to all Inſults. </p>
+        <p rend="indent space">
+          <lb/>The white Salt, Scuttle-fiſh Bone, <lb/>Salt of Tartar, Salt of Lead, Burnt-al- <pb
+            xml:id="page_44" n="43"/>
+          <lb/>lum, and other Ingredients of the ſame <lb/>Species, the World has been long
+          <lb/>abuſed with. </p>
+        <p rend="indent space">
+          <lb/>Juice of Sorrel, Juice of Lemons, <lb/>Spirit of Allum, Spirit and Salt of Vi-
+          <lb/>triol, have been employed on this Occa- <lb/>ſion, and tho' with the greateſt Circum-
+          <lb/>ſpection, have always in the End given <lb/>them a yellow Colour, never to be re-
+          <lb/>paired. Nor is this the only bad Effect <lb/>produced by theſe Liquors, for by a fre-
+          <lb/>quent Application, they corrode, and eat <lb/>little Holes in the Enamel of the
+          Teeth: <lb/>Notwithſtanding it is in the Uſe of theſe <lb/>Remedies that conſiſt all the
+          Secrets of <lb/>our Quacks! and if we examine the <lb/>Teeth of any of their Confidents
+          (that <lb/>ſeem to have reaped the greateſt Advan- <lb/>tage from them) with a Microſcope,
+          or <lb/>even with the naked Eye, the Ravage <lb/>they have made will eaſily ſhew us a
+          <lb/>ſure Foundation for a Caries. </p>
+        <p rend="indent space">
+          <lb/>The Methods of cleaning the Teeth <lb/>are various. Moſt People uſe ſmall
+          <lb/>Bruſhes, or Bits of Cloth or Linen, <lb/>without any Suſpicion of their Im-
+          <lb/>propriety, but they are much too <lb/>rough, and by frequent indiſcreet Uſe, <pb
+            xml:id="page_45" n="44"/>
+          <lb/>often ruin the Gums and Teeth. For this <lb/>reaſon I would aboliſh their Uſe, and
+          ad- <lb/>viſe a Piece of Spunge, dipped in warm <lb/>Water, in which ſhould be diſſolved a
+          <lb/>Piece of Soap, to be uſed preferable to <lb/>all other Methods whatever. Soap is
+          <lb/>known to be of a penetrating, attenuating <lb/>and detergent Nature, and therefore
+          not <lb/>only moſt proper for cleaning the Teeth, <lb/>but alſo very ſerviceable in moſt
+          Diſor- <lb/>ders of the Gums; in ſhort, it may be <lb/>uſed with the utmoſt Propriety; the
+          on- <lb/>ly Objection to be made, is the Offence <lb/>it may give on account of its Taſte:
+          but <lb/>Cuſtom will render it familiar, and ſuffi- <lb/>ciently recompenſe die Trouble of
+          uſing <lb/>it. </p>
+        <p rend="indent space">
+          <lb/>I would recommend the Morning as the <lb/>moſt convenient Time for cleaning the
+          <lb/>Teeth; but before uſing of the Spunge, <lb/>it will be neceſſary to ſcrape off the
+          gluey <lb/>Subſtance, which adheres to their <lb/>Surface, with a Quill; and after clean-
+          <lb/>ing them with the Spunge and Soap, <lb/>the Mouth may be rinced with Hun- <lb/>gary
+          Water, Spirit of Lavender, &amp;c. <lb/>diluted with warm Water. </p>
+        <p rend="indent space">
+          <lb/>The Scurvy of the Gums is dependent <pb xml:id="page_46" n="45"/>
+          <lb/>on the bad State of the Conſtitution, the <lb/>relieving of which laſt will
+          infallibly cure <lb/>the other. When the Teeth become <lb/>looſe, from whatever Cauſe, a
+          Tea- <lb/>ſpoonful of the <hi rend="italic">Tincture of Myrrh</hi>, mixed <lb/>with a
+          Tea-cup-full of Water, to waſh the <lb/>Mouth with twice or thrice a Day, will <lb/>be the
+          moſt efficacious Remedy. </p>
+        <p rend="indent space">
+          <lb/>'Tis become a great Faſhion with the <lb/>Engliſh Ladies, (and with too many of
+          <lb/>my own Sex) to have their Teeth ſea- <lb/>led; and this Practice, ſhocking as it is,
+          <lb/>ſeems to be purſued with an uncommon <lb/>Attention. </p>
+        <p rend="indent space">
+          <lb/>The Deſign of this Operation is to <lb/>beautify the Colour of the Teeth, by re-
+          <lb/>moving the Tartar or Turf, which ad- <lb/>heres to their Surface, and is done with
+          <lb/>Iron Inſtruments, made for that Purpoſe. <lb/>But whoever will conſider attentively
+          the <lb/>Nature of the Teeth, and of this petrified <lb/>Subſtance, which I have already
+          deſcri- <lb/>bed, will readily conceive the Impro- <lb/>priety of this Practice. 'Tis very
+          proba- <lb/>ble that by endeavouring to detach this <lb/>Matter, ſome of the enamel'd Part
+          may <lb/>be taken away with it; and this not only <lb/>depends on Hazard, but is the
+          certain <pb xml:id="page_47" n="46"/>
+          <lb/>Conſequence of frequent Uſe; indeed theſe <lb/>Inſtruments themſelves, by often
+          rubbing <lb/>upon the Vitrious Subſtance, muſt riſque <lb/>its Ruin, both as they are of a
+          Nature too <lb/>hard to approach the Teeth, and as their <lb/>Mettalic Particles will
+          inſinuate themſelves <lb/>into the Pores of the Enamel, and never fail <lb/>to produce
+          great Michief. </p>
+        <p rend="indent space">
+          <lb/>If it ſhould be ſaid that this Matter <lb/>may be removed by a dextrous Hand,
+          <lb/>one familiar in the Operation, without <lb/>any ſuch Dangers, a brief Repetition of
+          <lb/>the Nature of the Diſeaſe will, I hope, <lb/>prove a ſufficient Anſwer. </p>
+        <p rend="indent space">
+          <lb/>The Tartar is generally accumulated <lb/>on that Part of the Teeth which joins
+          <lb/>with the Gums, and covers more or <lb/>leſs, according as it encreaſes in Quan-
+          <lb/>tity, that Part we call the Neck of the <lb/>Tooth, which it ſeparates from the Gum.
+          <lb/>This is the true State of the Diſeaſe. </p>
+        <p rend="indent space">
+          <lb/>Now ſuppoſe the Operator ever ſo <lb/>dextrous, he muſt, in Conſequence of
+          <lb/>taking away this Matter, expoſe the Neck <lb/>of the Tooth bare, and liable to all
+          Inju- <lb/>ries of the Air, the Aliment, or what- <lb/>ever comes near it; in which are
+          contain- <pb xml:id="page_48" n="47"/>
+          <lb/>ed many Cauſes of a Caries. This Mat- <lb/>ter when left to itſelf, ſeldom fails of
+          <lb/>dropping off inſenſibly, and if 'tis the <lb/>Colour only which induces us to try the
+          <lb/>Remedy, 'twould be much better to be <lb/>content with this Inconvenience, than
+          <lb/>ſubject ourſelves to its ill Effects. But <lb/>by following the Methods I have
+          <lb/>adviſed, there will be no neceſſity for <lb/>expoſing ourſelves to this Operation. </p>
+        <p rend="indent space">
+          <lb/>A certain Merchant in, the City, tho' <lb/>otherwiſe ſufficiently covetous, beſtow-
+          <lb/>ed a conſiderable Purſe upon one of our <lb/>foreign Operators; who had in good
+          <lb/>Truth changed the Colour of his Teeth, <lb/>from a Black to a very beautiful White:
+          <lb/>But behold the Conſequence! The Mer- <lb/>chant found himſelf under a Neceſſity
+          <lb/>of beſpeakihg a new Sett; for they all <lb/>actually fell out, one after the other: I
+          <lb/>ſaw him within three Months after the <lb/>Operation, when he had only two remain-
+          <lb/>ing in his Head. This is an Inſtance not <lb/>without its Precedent. </p>
+        <p rend="indent space">
+          <lb/>Thus it is that our curious Ladies <lb/>and others, by endeavouring (by theſe
+          <lb/>unatural Means) to make their Teeth <lb/>exceeding white, will at length bring on <pb
+            xml:id="page_49" n="48"/>
+          <lb/>a Caries, and render them black and <lb/>frightful as well as uſeleſs. I am aſto-
+          <lb/>niſhed to ſee ſo many pretending an <lb/>Averſion to Foreigners, and yet ſuffer them
+          <lb/>(as we ſay of Sharpers, &amp;c.) to draw the <lb/>furtheſt Teeth in their Heads. And
+          I am <lb/>ſtill more ſorry to ſee ſuch numbers of <lb/>the fineſt Women become the Dupes
+          <lb/>of ſuch foreign Miſcreants. </p>
+      </div>
+      <figure>
+        <figDesc>A horizontal line spanning the whole page. </figDesc>
+      </figure>
+      <div>
+        <head rend="italic align-center">
+          <lb/>Diſeaſes of Children in the Time <lb/>of Toothing. </head>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">T</hi>HE Teeth hardly make their Ap- <lb/>pearance in the Mouth
+          before they <lb/>require ſome Succour from Surgery: <lb/>The Caries is the firſt Diſeaſe
+          that works <lb/>their Ruin, and is their greateſt Enemy <lb/>during Life; but even before
+          their Ap- <lb/>pearance, the Diſeaſes they cauſe, we <lb/>know by Experience, are
+          conſiderable <lb/>enough to take away Life. </p>
+        <p rend="indent space">
+          <lb/>The firſt Appearance of Teeth hap- <lb/>pens commonly about ſeven Months af- <lb/>ter
+          our Birth, and is attended with <lb/>divers Accidents. The Symptoms pre- <lb/>ceding their
+          Appearance is an Itching <pb xml:id="page_50" n="49"/>
+          <lb/>of the Gums, follow'd by a <hi rend="italic">Ptyaliſmus</hi>, <lb/>or Salivation of
+          the Infant, eaſily diſco- <lb/>ver'd by the great Quantity of Saliva <lb/>running from the
+          Mouth. After this <lb/>follows the Swelling of the Gums, ac- <lb/>companied with great
+          Pain. </p>
+        <p rend="indent space">
+          <lb/>If the Child has Strength to reſiſt, he <lb/>will be attack'd with the <hi
+            rend="italic">Apthæ</hi>, or little <lb/>Ulcers, convex with a white Point: <lb/>Theſe
+          Ulcers are often engender'd by <lb/>the moſt acrid and ſerous Parts of <lb/>the Blood,
+          formed moſt eaſily on the Sur- <lb/>face of the Membrane in the Mouth, <lb/>being the moſt
+          ſoft and tender. Some- <lb/>times the parotid Glands ſwell and be- <lb/>come conſiderable
+          Abſceſſes. </p>
+        <p rend="indent space">
+          <lb/>When the Teeth, eſpecially the <hi rend="italic"> Ca- <lb/>nini</hi>, are upon the
+          Point of piercing <lb/>the Gums, the Itching is then turn'd <lb/>into great Pain, with
+          Swelling of the <lb/>Cheeks and Eyes, Catarrhs, Fever, <lb/>Diarrhea, Nauſea, Vomiting,
+          Inſom- <lb/>nitude, Convulſions, Lethargy, and too <lb/>often the tragical Scene ends in
+          Death. </p>
+        <p rend="indent space">
+          <lb/>The Thirſt occaſioned by the Fever <lb/>excites them to ſuck more than their
+          <lb/>little Stomachs are able to bear; and from <pb xml:id="page_51" n="50"/>
+          <lb/>hence follows that Indigeſtion, and Cor- <lb/>ruption, Vomiting, and Diarrhea, to
+          <lb/>which they are ſo ſubject. </p>
+        <p rend="indent space">
+          <lb/>All the Symptoms happening to Chil- <lb/>dren of the firſt Age are produced by
+          <lb/>the Compreſſion the Teeth make in divid- <lb/>ing the Gums: And 'tis remarkable that
+          <lb/>theſe Diſorders ſometimes happen to <lb/>Children of a more advanced Age, tho'
+          <lb/>very ſeldom. </p>
+        <p rend="indent space">
+          <lb/>The <hi rend="italic">Inciſores</hi> are more ſharp, and <lb/>pierce the Gums with
+          leſs Pain than the <lb/><hi rend="italic">Canini.</hi> The <hi rend="italic">Molares</hi>,
+          as they are large <lb/>and flat upon their Extremities, are the <lb/>Occaſion of more
+          Difficulty and Pain; <lb/>but as they make their Appearance later <lb/>than the others,
+          the Child hath generally <lb/>acquired greater Strength to reſiſt their <lb/>Efforts. </p>
+        <p rend="indent space">
+          <lb/>The Diſeaſes I have mentioned, are <lb/>indeed more or leſs conſiderable, as the
+          <lb/>Child is more or leſs vigorous. <hi rend="italic"> Hippo- <lb/>crates</hi> tells us,
+          that thoſe who cut their <lb/>Teeth in the Winter, are leſs liable to the <lb/>Danger of
+          the Fever, than in a warmer <lb/>Seaſon: that when they have a Diar- <lb/>rhea, they are
+          leſs ſubject to Convulſions; <pb xml:id="page_52" n="51"/>
+          <lb/>that the healthieſt-looking Children, and <lb/>who ſleep ſound, are in Danger of
+          being <lb/>ſurprized with Convulſions, of which <lb/>Death is not always the Conſequence. </p>
+        <p rend="indent space">
+          <lb/>From theſe Prognoſtics we may <lb/>judge of the Effects reſulting from a <lb/>good or
+          bad Conſtitution of the Child, <lb/><hi rend="italic">&amp;c.</hi> But I would adviſe
+          Mothers on <lb/>theſe Occaſions to apply to a Man of <lb/>Skill in the Profeſſion, and be
+          extremely <lb/>cautions of engaging in an Affair where- <lb/>in the leaſt Error may prove
+          fatal. </p>
+        <trailer rend="italic align-center">
+          <lb/>FINIS. </trailer>
+      </div>
+    </body>
+  </text>
+</TEI>

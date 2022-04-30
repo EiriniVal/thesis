@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LMEMT Corpus - Stuart: An Essay upon the Use of the Bile in the Animal Oeconomy,
+          Founded on an Observation of a Wound in the Gall-Bladder. By Alexander Stuart, M. D.
+          Physician to Her Majesty, and F. R. S.</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <author>
+              <persName>Alexander Stuart</persName>
+            </author>
+            <title>An Essay upon the Use of the Bile in the Animal Oeconomy</title>
+          </analytic>
+          <monogr>
+            <title>Philosophical Transactions. Giving Some Account of the Present Undertakings,
+              Studies and Labours, of the Ingenious, in many Considerable Parts of the
+              World.</title>
+            <author>Royal Society</author>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>London: Printed for W. Innys, Printer to the Royal Society, at the
+                  West End of St. Paul's.</persName>
+              </publisher>
+              <date>1729-1730</date>
+              <biblScope unit="vol">36</biblScope>
+              <biblScope unit="page">341-363</biblScope>
+            </imprint>
+            <extent>
+              <measure type="format">4⁰</measure>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <idno type="ECCO">CW110528838</idno>
+            <idno type="DOI">doi:10.1098/rstl.1729.0048</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Periodicals"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text type="article" rend="roman" decls="PT36_0341">
+    <body>
+      <pb n="341"/>
+      <head rend="italic hanging">
+        <lb/><hi rend="roman">II.</hi> An Eſſay upon the Uſe of the <hi rend="roman">Bile</hi> in
+        the Animal <lb/>Oeconomy, founded on an Obſervation of a Wound <lb/>in the <hi rend="roman"
+          >Gall-Bladder</hi>. By <hi rend="roman">Alexander Stuart</hi>, <lb/>M. D. Phyſician to her
+        Majeſty, and F. R. S. </head>
+      <head rend="italic hanging space">
+        <lb/>The <hi rend="sc">Case</hi> of Mr. <hi rend="roman">Menzies</hi>, Sergeant in the
+        Second <lb/>Troop of Horſe-Grenadier Guards, wounded in <lb/>the Gall-Bladder, with the
+        Appearances in the <lb/>Body after Death, and the Symptoms during <lb/>Life; with ſome
+        practical Inferences drawn <lb/>from it. </head>
+      <p rend="space">
+        <lb/><hi rend="dc(2)">H</hi>E was wounded about Three o'Clock in the <lb/>Morning, the 30th
+        of <hi rend="italic">October</hi>, 1728, and died <lb/>the 5th of <hi rend="italic"
+          >November</hi> following in the Morning, being <lb/>the ſeventh Day after he was wounded,
+        in the fortieth <lb/>Year of his Age. </p>
+      <p rend="indent">
+        <lb/>Appearances in the Body, opened by Mr. <hi rend="italic">Coldham</hi>, <lb/>Surgeon, in
+        the Preſence of Meſſieurs <hi rend="italic">Fiquel</hi> and <lb/><hi rend="italic"
+          >Black</hi>, Surgeons, with ſeveral Gentlemen, and myſelf. </p>
+      <p rend="indent">
+        <lb/>I. The <hi rend="italic">Abdomen</hi> appeared diſtended as in a Tym- <lb/>pany, or
+        Aſcites, and the Skin of the Belly tinged <lb/>yellow as Saffron in many Places. </p>
+      <p rend="indent">
+        <lb/>II. A triangular Wound appeared about two Inches <lb/>on the right Side of the Navel,
+        the Direction ſlanting <lb/>upwards obliquely through the Integuments. </p>
+      <p rend="indent">
+        <lb/>III. The Belly being opened, diſcovered the Wound <lb/>to have penetrated through the
+          <hi rend="italic">Peritonæum</hi>, and the <lb/>Sword had ſlanted upwards from thence
+        along the <lb/><hi rend="italic">Omentum</hi>, grazing ſlightly upon it, which was ſuper-
+        <lb/>ficially ruffled, but ſo as to be hardly perceivable. </p>
+      <pb n="342"/>
+      <p rend="indent">
+        <lb/>IV. A ſmall triangular Wound appeared in the Bot- <lb/>tom of the <hi rend="italic"
+          >Gall-Bladder</hi>, which had penetrated <lb/>through the Membranes into its Cavity, but
+        had no <lb/>where wounded the Liver, nor any of the neighbour- <lb/>ing Parts. </p>
+      <p rend="indent">
+        <lb/>V. The <hi rend="italic">Gall-Bladder</hi> was flaccid or collapſed, <lb/>containing
+        only a few Drops of Gall, which, by <lb/>preſſing the <hi rend="italic">Cyſtis</hi>
+        ſlightly, flowed out into the Cavity <lb/>of the <hi rend="italic">Abdomen</hi> through the
+        Wound. </p>
+      <p rend="indent">
+        <lb/>VI. The <hi rend="italic">Guts</hi> throughout their whole Tract being <lb/>diſtended,
+        ſo as could be judged to triple the Extent <lb/>of their natural Diameters, ſeemed to fill
+        the whole <lb/>Cavity of the <hi rend="italic">Abdomen</hi>, ſo as to give the outward
+        <lb/>Appearance of a Tympany, or Aſcites; which Diſten- <lb/>ſion diſappeared, and the <hi
+          rend="italic">Guts</hi> collapſed, upon making <lb/>ſeveral Punctures with a Lancet in
+        their Sides, to give <lb/>Vent to the Air. </p>
+      <p rend="indent">
+        <lb/>VII. The reſt of the Cavity of the <hi rend="italic">Abdomen</hi>, which <lb/>was not
+        cloſely filled up by the diſtended Guts, con- <lb/>tained a groſs muddy Water, or Serum,
+        intenſely yel- <lb/>low, or highly tinged with Gall, to the Quantity of <lb/>three Quarts,
+        as I was able to gueſs without mea- <lb/>ſuring it. </p>
+      <p rend="indent">
+        <lb/>VIII. All the <hi rend="italic">Guts</hi> and Contents of the <hi rend="italic"
+          >Abdomen</hi>
+        <lb/>were highly tinged with this yellow Liquor, but no <lb/>other Part of his Body, out of
+        the Contact of this <lb/>Liquor, had the leaſt Appearance of it. </p>
+      <p rend="indent">
+        <lb/>IX. No Inflammation appeared in any Part of the <lb/><hi rend="italic">Guts</hi>, or in
+        any of the <hi rend="italic">Viſcera</hi>, or Contents of the <lb/><hi rend="italic"
+          >Abdomen</hi>, which were all ſound and healthy. </p>
+      <p rend="indent">
+        <lb/>X. The Obliquity of the Wound through the <hi rend="italic">Inte- <lb/>guments</hi>,
+          <hi rend="italic">Muſcles</hi> and <hi rend="italic">Peritonæum</hi>, made it impoſ- <pb
+          n="343"/>
+        <lb/>ſible for the external Air to enter into the Cavity of <lb/>the <hi rend="italic"
+          >Abdomen</hi> that Way. </p>
+      <div>
+        <head rend="italic space align-center">
+          <lb/>The Symptoms during Life. </head>
+        <p rend="indent space">
+          <lb/>I was called the 2d Day of <hi rend="italic">November</hi> about Eleven <lb/>o'Clock
+          in the Forenoon, being the fourth Day after he <lb/>received the Wound. </p>
+        <p rend="indent">
+          <lb/>I. The Surgeons who had attended him from the <lb/>Beginning, Meſſieurs <hi
+            rend="italic">Fiquel</hi>, <hi rend="italic">Coldham</hi>, <hi rend="italic">Wilkie</hi>
+          and <lb/><hi rend="italic">Black</hi>, being preſent, told me that his Belly had been
+          <lb/>diſtended, as I ſaw it, from the Beginning, giving the <lb/>Appearance of a Tympany,
+          or Aſcites, and it conti- <lb/>nued at the ſame Pitch of Diſtenſion, neither dimi-
+          <lb/>niſhed, nor ſenſibly encreaſed, to the Time of his <lb/>Death. </p>
+        <p rend="indent">
+          <lb/>II. No <hi rend="italic">Ructus</hi> or <hi rend="italic">Flatus</hi>, upwards or
+          downwards, <lb/>nor <hi rend="italic">Borborygmi</hi>, notwithſtanding this Diſtenſion of
+          <lb/>the Belly. </p>
+        <p rend="indent">
+          <lb/>III. He never went once to Stool after he received <lb/>the Wound, though pretty
+          ſtrong Purgatives and ſe- <lb/>veral Clyſters had been given for the three Days be-
+          <lb/>fore I came; and though no Opiat (which might have <lb/>been ſuppoſed to have
+          retarded their Operation) had <lb/>hitherto been exhibited: Neither had thoſe Purgatives
+          <lb/>nor Clyſters, which I ordered afterwards, the leaſt <lb/>Effect. </p>
+        <p rend="indent">
+          <lb/>IV. He took what was thought a ſufficient Quantity <lb/>of Drink and liquid Food. </p>
+        <p rend="indent">
+          <lb/>V. He never ſlept, or but very little, by ſhort Slum- <lb/>bers, of about half an
+          Hour, or an Hour at longeſt, <lb/>and that very rarely, notwithſtanding pretty large
+          <lb/>Doſes of Opiats were given to procure Reſt, after I <lb/>came. </p>
+        <pb n="344"/>
+        <p rend="indent">
+          <lb/>VI. The Wound in the <hi rend="italic">Integuments</hi> never digeſted <lb/>in the
+          uſual Manner; but looked flaccid, or flabby <lb/>and pale, almoſt without Pus. </p>
+        <p rend="indent">
+          <lb/>VII. The <hi rend="italic">Urine</hi> in very ſmall Quantity, at moſt <lb/>two or
+          three Spoonfuls at a time, clear but yellow, as <lb/>if tinged ſlightly with Saffron, and
+          without Sedi- <lb/>ment. </p>
+        <p rend="indent">
+          <lb/>VIII. His <hi rend="italic">Pulſe</hi> was full, ſtrong and even, but not <lb/>quick. </p>
+        <p rend="indent">
+          <lb/>IX. No feveriſh Heat to be felt in the <hi rend="italic">Skin</hi>, on any <lb/>Part
+          of the Body. </p>
+        <p rend="indent">
+          <lb/>X. His <hi rend="italic">Tongue</hi> not hard, rough or black, as in a <lb/>Fever,
+          but of its natural Colour, with a ſilky Drineſs, <lb/>and very little <hi rend="italic"
+            >Saliva</hi>. </p>
+        <p rend="indent">
+          <lb/>XI. He was not in the leaſt delirious, from the Be- <lb/>ginning to the Time of his
+          Death. </p>
+        <p rend="indent">
+          <lb/>XII. He had ſome ſlight Fits of the Hickup the ſe- <lb/>cond Day after I ſaw him, and
+          ſome few Reachings to <lb/>vomit; ſome Intermiſſions in his <hi rend="italic">Pulſe</hi>,
+          ſometimes one <lb/>in 10, 15, 20, or 30 a Day before his Death. </p>
+        <p rend="indent">
+          <lb/>In order to make ſome Uſe of this Caſe, it is neceſ- <lb/>ſary to premiſe, that as
+          Reaſoning without a Founda- <lb/>tion in Facts and Experiments, does rarely lead to any
+          <lb/>Certainty in Natural Knowledge, ſo Obſervations of <lb/>Facts and Experiments
+          themſelves, would be, in a great <lb/>Meaſure, fruitleſs, if we did not endeavour, by Rea-
+          <lb/>ſoning, to draw obvious, uſeful and practical Conclu- <lb/>ſions from them: In order
+          to which, it muſt be ob- <lb/>ſerved, That the great <hi rend="italic">Apparatus</hi> in
+          the <hi rend="italic">Liver</hi> and <lb/><hi rend="italic">Spleen</hi>, two of the
+          largeſt <hi rend="italic">Viſcera</hi> in the Body, con- <lb/>feſſedly deſigned for the
+          Preparation and Secretion of <lb/>the <hi rend="italic">Bile</hi>; and the Place of the
+            <hi rend="italic">Inteſtines</hi>, into which <lb/>it is immediately depoſited, afford
+          indeed a ſtrong Ar- <pb n="345"/>
+          <lb/>gument for the univerſal Uſe of it in the Animal Œco- <lb/>nomy; but do not directly
+          point out what, or how <lb/>many theſe Uſes are, about which there has been a <lb/>great
+          Variety of Opinions. </p>
+        <p rend="indent">
+          <lb/>But this ſingular Caſe, which muſt have happened <lb/>very rarely, if ever before
+          (wherein none of the In- <lb/>wards, or <hi rend="italic">Viſcera</hi>, but the <hi
+            rend="italic">Gall-Bladder</hi> only was <lb/>wounded, and by that Wound nothing but the
+            <hi rend="italic">Gall</hi>
+          <lb/>was loſt or miſplaced) by ſhewing how many Functi- <lb/>ons in the Animal Œconomy
+          were impaired or de- <lb/>ſtroyed by the ſole Loſs or Want of it, does at the <lb/>ſame
+          Time point out or demonſtrate the Uſe and Ne- <lb/>ceſſity of it towards Health, or the
+          Perfection of theſe <lb/>Functions; and perhaps may lead to ſome Indications <lb/>of Cure,
+          in Caſes wherein it is known to be deficient, <lb/>faulty or redundant. </p>
+        <p rend="indent">
+          <lb/>There was no other apparent or aſſignable Cauſe for <lb/>theſe various Symptoms
+          during his Life, of Death it- <lb/>ſelf, and of thoſe ſeveral Appearances in the Body diſ-
+          <lb/>ſected after Death, but this Wound in the <hi rend="italic">Gall-Blad- <lb/>der</hi>:
+          And as this Wound could not affect any of the <lb/>Parts, nor produce theſe Symptoms in
+          any other Senſe <lb/>than as it gave Vent to the <hi rend="italic">Gall</hi> into the
+          Cavity of the <lb/><hi rend="italic">Abdomen</hi>, and deprived the Cavity of the <hi
+            rend="italic">Inteſtines</hi>, and <lb/>the <hi rend="italic">Blood</hi> of it:
+          Therefore from this Loſs and Miſpla- <lb/>cing of the <hi rend="italic">Gall</hi>, all
+          theſe Symptoms and Appearances <lb/>may juſtly be concluded to ariſe, and I think may be
+          <lb/>accounted for from that Cauſe in the following Manner. </p>
+        <p rend="indent">
+          <lb/>I. The <hi rend="italic">Abdomen</hi> was diſtended, as in a Tympany, <lb/>or <choice>
+            <corr>Aſcites</corr>
+            <sic>Acites</sic>
+          </choice>, from the Beginning, and the <hi rend="italic">Guts</hi> appeared <lb/>inflated
+          to their utmoſt Diameters. </p>
+        <p rend="indent">
+          <lb/>It is true, that this Inflation and Diſtenſion happens <lb/>to moſt a few Hours
+          before Death, and to all ſoon <pb n="346"/>
+          <lb/>after Death, and ariſeth from the Spring, or Elater of <lb/>the Air included, getting
+          the better of its Antagoniſt <lb/>Spring, or Elater of the muſcular Fibres of the <hi
+            rend="italic">Sto- <lb/>mach</hi> and <hi rend="italic">Guts</hi>, which have no longer
+          the Aſſiſtance <lb/>of the <hi rend="italic">Blood</hi> and <hi rend="italic">Spirits</hi>
+          to contract them, and keep <lb/>up their periſtaltic Motion. But the Inflation and
+          <lb/>Diſtenſion here ſpoken of, was ſeveral Days before <lb/>Death, and, as I have been
+          told, the very next Day after <lb/>he received the Wound, though the <hi rend="italic"
+            >Pulſe</hi> was appa- <lb/>rently ſtrong and equal, and therefore a Defect of <hi
+            rend="italic">Blood</hi>
+          <lb/>and <hi rend="italic">Spirits</hi> not to be ſuſpected: And therefore it may <lb/>be
+          juſtly concluded, that the Influx of the <hi rend="italic">Gall</hi> into <lb/>the Cavity
+          of the <hi rend="italic">Guts</hi>, is as neceſſary to the Strength <lb/>of their
+          Contraction and Perfection of their periſtaltic <lb/>Motion, as that of the <hi
+            rend="italic">Blood</hi> and <hi rend="italic">Spirits</hi> into their <lb/><hi
+            rend="italic">Sides</hi>; and that theſe three are the conjunct Cauſes of <lb/>this
+          Motion in Health, which would be defective by the <lb/>total Want of any of them. </p>
+        <p rend="indent">
+          <lb/>Hence we ſee that in Scyrrhoſities of the <hi rend="italic">Liver</hi>, <lb/>where
+          the Secretion, and therefore the Excretion of the <lb/><hi rend="italic">Bile</hi> is more
+          or leſs defective; and in the <hi rend="italic">Jaundice</hi>, <lb/>where, by ſome
+          Obſtruction in the <hi rend="italic">Biliary Ducts</hi>
+          <lb/>after Secretion, a Part of it is forced back, and regur- <lb/>gitates into the <hi
+            rend="italic">Blood</hi>, and very little of it is thrown <lb/>into the <hi
+            rend="italic">Guts</hi>: I ſay, in thoſe Caſes we obſerve an <lb/>uncommon Diſtenſion in
+          the <hi rend="italic">Guts</hi>, and Coſtiveneſs; <lb/>which, if the Caſe proves
+          incurable, terminates in an <lb/><choice>
+            <corr>Aſcites</corr>
+            <sic>Acites</sic>
+          </choice>, or Dropſy, in the Cavity of the Belly. </p>
+        <p rend="indent">
+          <lb/>It may alſo be worth while to enquire, whether <lb/>that which is commonly called an
+          Hyſteric, or ner- <lb/>vous Cholic, generally attended with a leſſer Degree <lb/>of ſuch
+          like Diſtenſions, with <hi rend="italic">Flatus's</hi> and <hi rend="italic">Borboryg-
+            <lb/>mi</hi>; I ſay, whether this Diſtemper, wherein the ani- <pb n="347"/>
+          <lb/>mal Spirits are ſo much, and only accuſed, does not <lb/>partly ariſe from a ſluggiſh
+          Secretion and Excretion of <lb/>the <hi rend="italic">Bile</hi>, occaſioning a Defect in
+          its Quantity; or <lb/>from its Acrimony and great Viſcoſity, occaſioned by <lb/>its
+          Stagnation in the <hi rend="italic">Gall-Bladder</hi>; or from both <lb/>theſe, as well as
+          from a defective or unequal Diſtribu- <lb/>tion of the <hi rend="italic">Blood</hi> and
+            <hi rend="italic">Spirits</hi> in the Parts affected. In <lb/>confirmation of which, I
+          have generally obſerved, that <lb/>at ſome time or other in the Cure, a great Evacuation
+          of <lb/>porraceous viſcid <hi rend="italic">Bile</hi>, brought away either by Art or
+          <lb/>Nature, as well as a great Profuſion of pale <hi rend="italic">Urine</hi>, <choice>
+            <corr>finiſh-</corr>
+            <sic>finiſh </sic>
+          </choice>
+          <lb/>ed the Cure for that Time. The Vomiting of porraceous <lb/><hi rend="italic"
+            >Bile</hi>, very common in ſuch Caſes, proves the ſame; and, <lb/>I believe, it is
+          generally allowed, that the ferruginous, <lb/>porraceous and black Colour of the <hi
+            rend="italic">Bile</hi>, are owing to <lb/>ſhorter or longer Stagnations of it, chiefly
+          in the <hi rend="italic">Gall- <lb/>Bladder</hi>, which the ſedentary Life of thoſe who
+          are <lb/>ſubject to theſe Cholics, will ſufficiently account for, <lb/>even if there was
+          no other Error in their Way of li- <lb/>ving; and whoever has obſerved the high yellow Co-
+          <lb/>lour and Contents of the <hi rend="italic">Urine</hi> in a <hi rend="italic"
+            >Jaundice</hi>, ari- <lb/>ſing from a Redundancy of <hi rend="italic">Bile</hi> in the
+            <hi rend="italic">Blood</hi>, will <lb/>readily acknowledge that an uncommon watery
+          Pale- <lb/>neſs in the <hi rend="italic">Urine</hi>, where no more than the uſual Quan-
+          <lb/>tity of Fluids has been taken down to dilute it, does <lb/>ſhew a Defect of <hi
+            rend="italic">Bile</hi> in the <hi rend="italic">Blood</hi>; and I believe it is
+          <lb/>eaſy to account for the <hi rend="italic">Flatus's</hi>, <hi rend="italic"
+            >Borborygmi</hi>, Inverſions <lb/>of the periſtaltic Motion, the <hi rend="italic">Pila
+            Hyſterica</hi>, <hi rend="italic">Palpi- <lb/>tations</hi>, <hi rend="italic"
+            >Scotomia</hi>, <hi rend="italic">Vertigo</hi>, and other Symptoms of <lb/>theſe
+          Diſtempers, which are called Nervous and Hy- <lb/>ſteric, from the ſame Cauſe. And hence
+          it is, that <lb/>Bitters and Steel, known <hi rend="italic">Deobſtruents</hi> of the <hi
+            rend="italic">Liver</hi>, <lb/>and <hi rend="italic">Correctors</hi> of the <hi
+            rend="italic">Bile</hi>, with gentle Chologogues <pb n="348"/>
+          <lb/>in very ſmall Doſes, are of ſo much Uſe in ſuch Caſes; <lb/>though it be certainly
+          true, that all ſtrong ſtimulating <lb/>Purgatives are very hurtful and improper. </p>
+        <p rend="indent">
+          <lb/>II. But to return to our Caſe, there was no <hi rend="italic">Ructus's</hi>
+          <lb/>or <hi rend="italic">Flatus's</hi> upwards or downwards, nor <hi rend="italic"
+            >Borborygmi</hi>, <lb/>notwithſtanding this Diſtenſion of the <hi rend="italic"
+            >Belly</hi> and Infla- <lb/>tion of the <hi rend="italic">Guts</hi>. </p>
+        <p rend="indent">
+          <lb/>This, I think, ſhews very plainly that the <hi rend="italic">Guts</hi>
+          <lb/>had loſt all Motion, and were Paralytic by a total <lb/>Want of <hi rend="italic"
+            >Bile</hi> only, as much as if their Nerves had <lb/>been totally obſtructed: For had
+          any Motion remained <lb/>in them, whether the natural and regular periſtaltic <lb/>Motion,
+          or a preternatural convulſive one, the Con- <lb/>traction of them either Way, would have
+          propelled the <lb/>contained Air from one Place to another, and would <lb/>have occaſioned
+            <hi rend="italic">Borborygmi</hi>, or would have expelled <lb/>a Part of it upwards or
+          downwards, when Nature <lb/>had ſo much need of it to relieve the diſtended <hi
+            rend="italic">Guts</hi>, <lb/>and Art had contributed to that Intention by Clyſters
+          <lb/>and Purgatives given. </p>
+        <p rend="indent">
+          <lb/>Which ſerves to illuſtrate what has been ſaid above, <lb/>concerning the defective
+          and convulſive Motion of the <lb/><hi rend="italic">Guts</hi> in Hyſterick Caſes, where,
+          through a Defect in <lb/>the Quantity or Quality of the <hi rend="italic">Bile</hi>, or
+          from both <lb/>theſe, the Motion of the <hi rend="italic">Guts</hi> becomes defective, ir-
+          <lb/>regular or convulſive, but is not totally loſt through <lb/>a total Want of it, as in
+          this Caſe. </p>
+        <p rend="indent">
+          <lb/>III. He never went to Stool after he received the <lb/>Wound; and the ſtrongeſt
+          Purgatives and Clyſters that <lb/>could be reaſonably given, had no Effect. </p>
+        <p rend="indent">
+          <lb/>This ſeems alſo to be owing to the Want or total <lb/>Loſs of the periſtaltic Motion;
+          and plainly ſhews, <lb/>that the ſtrongeſt purging <hi rend="italic">Stimulus</hi> has not
+          the Power <pb n="349"/>
+          <lb/>to reſtore it, without the Aſſiſtance of the <hi rend="italic">Gall</hi>: For
+          <lb/>had it been in any Degree reſtored, the <hi rend="italic">Belly</hi> would <lb/>have
+          fallen proportionally, and ſome Evacuation of <lb/>what was lodged in the <hi
+            rend="italic">Primæ Viæ</hi> would have fol- <lb/>lowed. </p>
+        <p rend="indent">
+          <lb/>If then the Power of Purgatives depends upon the <lb/>Co-operation of the <hi
+            rend="italic">Bile</hi>, it will follow, that where it <lb/>is moſt active or redundant,
+          their Operation will be, <lb/><hi rend="italic">cæteris paribus</hi>, greateſt; and where
+          it is unactive or <lb/>deficient in Quantity, they will have proportionally <lb/>a leſs
+          Effect. Though it be true that a great Quantity, <lb/>or morbid Acrimony of the <hi
+            rend="italic">Bile</hi>, by a too ſtrong and <lb/>violent Irritation, will bring the <hi
+            rend="italic">Inteſtines</hi> into ſuch <lb/>Spaſms, as to ſtop all Excretion by Stool;
+          and the <lb/>ſtrongeſt purging <hi rend="italic">Stimulus</hi> added to it does only en-
+          <lb/>creaſe the Spaſms and Coſtiveneſs; as in <hi rend="italic">Bilious</hi> Cho-
+          <lb/>lics, which are always attended with exceeding Co- <lb/>ſtiveneſs, not conquerable by
+          the ſtrongeſt Purgatives, <lb/>if they be not joined with Opiats, to allay the Spaſms,
+          <lb/>and obtund the Acrimony of the <hi rend="italic">Bile</hi>. </p>
+        <p rend="indent">
+          <lb/>He took what was thought a ſufficient Quantity of <lb/>liquid Food and Drink; but if
+          the Elater of the <hi rend="italic">Guts</hi>, <lb/>and their periſtaltic Motion were
+          loſt, it is eaſy to prove <lb/>that none of his Food or Drink could enter the <hi
+            rend="italic">Lacteals</hi>
+          <lb/>for want of the periſtaltic Motion; and therefore that <lb/>he died ſtarved. And this
+          will account for all the reſt of <lb/>the Symptoms mentioned. </p>
+        <p rend="indent">
+          <lb/>To prove that this was his Caſe. All that have <lb/>ſeen live Diſſections, intended
+          to ſhew the Nature of <lb/>the periſtaltic Motion, and the Courſe of the <hi rend="italic"
+            >Lacteals</hi>, <lb/>muſt have obſerved, that the <hi rend="italic">Guts</hi> have an
+          alternate <lb/>Syſtole and Diaſtole, or Contraction and Dilatation <lb/>called the
+          periſtaltic Motion, the ſuperior Section <pb n="350"/>
+          <lb/>contracting itſelf, while the immediate inferior is di- <lb/>lated; and this Motion
+          is carried on in ſeveral Parts <lb/>of the <hi rend="italic">Guts</hi> at the ſame time;
+          and the contracting <lb/>Part, by expelling the <hi rend="italic">Blood</hi> and <hi
+            rend="italic">Chyle</hi> out of its Sides, <lb/>in its Contraction looks pale, while the
+          Parts dilated <lb/>look florid, and the Veſſels full of <hi rend="italic">Blood</hi> and
+            <hi rend="italic">Chyle</hi>. </p>
+        <p rend="indent">
+          <lb/>Now the Part contracting muſt neceſſarily force the <lb/><hi rend="italic">Chyle</hi>
+          from the groſſer Parts of the Food or Aliments, <lb/>towards the inner Surface of the <hi
+            rend="italic">Guts</hi>, where the per- <lb/>forated capillary Extremities of the <hi
+            rend="italic">Lacteals</hi> in the <lb/><hi rend="italic">villous Coat</hi> are ready to
+          admit, or rather to abſorb <lb/>it by Attraction, as far as the larger and viſible
+          Branches <lb/>of the <hi rend="italic">Lacteals</hi> on the Coats of the <hi rend="italic"
+            >Guts</hi>, into which <lb/>it eaſily flows in the Time of Dilatation, or Diaſtole,
+          <lb/>which expands and unfolds theſe Veſſels at that Time <lb/>for its eaſy Reception;
+          from which it is farther pro- <lb/>pelled by the next Syſtole, or Contraction, into the
+          <lb/>primary or firſt Order of the <hi rend="italic">Lacteals</hi> in the <hi
+            rend="italic">Meſen- <lb/>tery</hi>; and by the ſame repeated Impulſes of the
+          <lb/>contracting Sections of the <hi rend="italic">Guts</hi>, is forced farther
+          <lb/>through the ſecond Order of <hi rend="italic">Lacteals</hi> in the <hi rend="italic"
+            >Meſen- <lb/>tery</hi>, into the <hi rend="italic">Receptaculum Commune</hi>, and the
+            <hi rend="italic">Tho- <lb/>racic Duct</hi>; aſſiſted by Valves, and promoted by the
+          <lb/>inceſſant Motion of the <hi rend="italic">Muſcles</hi>, and of all the Con-
+          <lb/>tents of the <hi rend="italic">Abdomen</hi> and <hi rend="italic">Thorax</hi> in
+          Reſpiration, it <lb/>is at laſt poured into the <hi rend="italic">ſubclavian Vein</hi>,
+          for a perpe- <lb/>tual Recruit of the <hi rend="italic">Blood</hi> in a healthy State. </p>
+        <p rend="indent">
+          <lb/>But if the firſt Movers in this Series fail, that is, if <lb/>the muſcular Fibres of
+          the <hi rend="italic">Guts</hi> have loſt their peri- <lb/>ſtaltic Motion, as in this
+          Caſe, then the Expreſſion, <lb/>Abſorption and Progreſs of the <hi rend="italic"
+            >Chyle</hi> deſcribed, can- <lb/>not ſucceed, the <hi rend="italic">Blood</hi> muſt be
+          deprived of its Re- <lb/>cruit, and the Perſon die ſtarved; which, as I have <pb n="351"/>
+          <lb/>ſaid before, ſeems to have been this Perſon's Caſe, and <lb/>will ſufficiently
+          account for the reſt of the Symptoms <lb/>above recited. </p>
+        <p rend="indent">
+          <lb/><hi rend="italic">Firſt</hi>, His Want of Sleep, and the Inability of <hi
+            rend="italic">Opi- <lb/>um</hi> to procure it, might be owing to a Want of Re-
+          <lb/>cruit of <hi rend="italic">Chyle</hi> in the <hi rend="italic">Blood</hi>: As we ſee
+          that thoſe <lb/>who live ſparingly, ſleep very little, and thoſe who <lb/>feed
+          plentifully, require by ſo much a greater Num- <lb/>ber of Hours to ſleep; and in all
+          chronical Caſes, <lb/>where the Body ceaſeth to be nouriſhed, the Sleep alſo <lb/>fails,
+          and Opiats have but little Power; whereas in <lb/>Children, where a great Part of their
+          Food goes to- <lb/>wards both Nouriſhment and Acretion, the greater Part <lb/>of their
+          Time is ſpent in Sleep. </p>
+        <p rend="indent">
+          <lb/>It may indeed ſeem difficult to conceive how a Want <lb/>of Reſt ſhould enſue ſo ſoon
+          after the Accident. But <lb/>conſidering that the Loſs of one Meal in a Day, eſpe-
+          <lb/>cially of Supper, to ſuch as have been accuſtomed to ſup, <lb/>has occaſioned fewer
+          Hours Reſt, in the following Night, <lb/>it will follow, that ſuch Perſons require at
+          leaſt ſome <lb/>ſmall Recruit once in ſix or ſeven Hours, in order to reſt <lb/>their
+          uſual Number of Hours; and therefore in our Caſe, <lb/>where all Recruit muſt have ceaſed
+          ſoon after the Ac- <lb/>cident, he might be ſenſible of the Impairment of <lb/>Reſt in ſix
+          or ſeven Hours after it, and thoſe about <lb/>him might well obſerve the Encreaſe of that
+          Symp- <lb/>tom, at leaſt in the following Night. </p>
+        <p rend="indent">
+          <lb/>Another Difficulty ariſeth from the Obſervation of <lb/><hi rend="italic"
+            >Swallows</hi> and <hi rend="italic">Tortoiſes</hi>, <hi rend="italic">&amp;c.</hi> who
+          ſleep moſt in <lb/>Winter, when they eat and drink nothing. In anſwer <lb/>to which, there
+          ſeems to be no Parity between the na- <lb/>tural Conſtitution of their Blood and Humours,
+          and <lb/>that of Men: To theſe, and ſuch like Animals, with <pb n="352"/>
+          <lb/>regard to Recruit and Nouriſhment, Action and Reſt, <lb/>the Spring and Summer are as
+          one Day, and the Winter <lb/>as one Night; and their Blood and Humours ſeem <lb/>to be
+          fitted by God and Nature, not only to bear, but <lb/>even to require ſuch long Periods of
+          Reſt and Action. <lb/>And probably there is as little Parity between the <lb/>Craſis and
+          Conſtitution of the Blood and Humours of <lb/>a healthy Perſon, and of thoſe in ſoporous
+          and cata- <lb/>leptick Diſeaſes, who are reported to have ſlept for <lb/>Weeks or Months
+          without Food of any kind: And <lb/>therefore, I ſay, where the Craſis and Conſiſtence of
+          <lb/>the <hi rend="italic">Blood</hi> and <hi rend="italic">Spirits</hi> are nearly the
+          ſame, that is, <hi rend="italic">cæ- <lb/>teris paribus</hi>, he who feeds, and is
+          nouriſhed moſt, <lb/>will ſleep longeſt, <hi rend="italic">&amp; e contra</hi>. </p>
+        <p rend="indent">
+          <lb/>The Poſition here advanced is farther confirmed by <lb/>the Inefficacy of the Opiats
+          given, they being capable <lb/>of entering into the <hi rend="italic">Blood</hi> through
+          the Pores of the <lb/><hi rend="italic">Stomach</hi> in Contact with them; by which quick
+          Paſ- <lb/>ſage they have been obſerved to procure Reſt ſoon after <lb/>they have been
+          applied outwardly, or taken down <lb/>into the <hi rend="italic">Stomach</hi>, as in this
+          Caſe they may juſtly <lb/>be ſuppoſed to have done: Though, for the Reaſons
+          <lb/>above-mentioned, neither they nor any thing elſe <lb/>could paſs by the <hi
+            rend="italic">Lacteals</hi>: But as the Aliments could <lb/>not paſs that Way, <hi
+            rend="italic">viz.</hi> by the Pores of the <hi rend="italic">Stomach</hi>, <lb/>nor by
+          the <hi rend="italic">Lacteals</hi> into the <hi rend="italic">Blood</hi>, there could be
+          <lb/>no Recruit nor Nouriſhment: And therefore the Opiats, <lb/>though they did enter into
+          the <hi rend="italic">Blood</hi> by the Pores <lb/>of the <hi rend="italic">Stomach</hi>
+          in Contact with them, could not <lb/>procure Reſt. Thus it would ſeem probable, that
+          <lb/>Opiats do procure their Effect by detaining the <hi rend="italic">Chyle</hi>
+          <lb/>crude longer than uſual in the Maſs of <hi rend="italic">Blood</hi>, and <lb/>thereby
+          lengthening Sleep beyond the uſual Time; <pb n="353"/>
+          <lb/>and that they are ineffectual where there is no <hi rend="italic">Chyle</hi>
+          <lb/>in the <hi rend="italic">Blood</hi> to be detained. </p>
+        <p rend="indent">
+          <lb/>But to explain how <hi rend="italic">Opiats</hi> do contribute to retain <lb/>the <hi
+            rend="italic">Chyle</hi> and other Crudities in the <hi rend="italic">Blood</hi>, longer
+          <lb/>than uſual, would require a Diſquiſition too tedious <lb/>for this Place: But their
+          Power of retarding or ſup- <lb/>preſſing all or moſt of the Secretions and Excretions;
+          <lb/>their palling or obtunding the Appetite; their enabling <lb/>one to faſt long, and
+          ſupporting one in Journies and <lb/>Labour for a long Time without Food (Effects well
+          <lb/>known to the <hi rend="italic">Turks</hi> and <hi rend="italic">Aſiaticks</hi> in
+          their Journies <lb/>through Deſerts, <hi rend="italic">&amp;c.</hi>) theſe, I ſay, and
+          ſome other known <lb/>Effects of <hi rend="italic">Opium</hi>, do very much favour this
+          Opinion. </p>
+        <p rend="indent">
+          <lb/><hi rend="italic">Secondly</hi>, The Want of <hi rend="italic">Pus</hi> in the Wound
+          was <lb/>probably owing to a Want of Recruit of <hi rend="italic">Chyle</hi> in <lb/>the
+            <hi rend="italic">Blood</hi>; and the Flabbineſs and Paleneſs of its <lb/><hi
+            rend="italic">Lips</hi>, to a Shrinking of the Parts for want of daily <lb/>Nouriſhment. </p>
+        <p rend="indent">
+          <lb/><hi rend="italic">Thirdly</hi>, The ſmall Quantity of <hi rend="italic">Urine</hi>
+          was pro- <lb/>bably alſo owing to a Want of Recruit of <hi rend="italic">Fluids</hi> from
+          <lb/>the <hi rend="italic">Primæ Viæ</hi>: For theſe, in a healthy State, find <lb/>their
+          Way to the <hi rend="italic">Urinary Paſſages</hi> very ſoon. The <lb/>ſlight Tincture of
+          Yellow, which it had, muſt have <lb/>been from the <hi rend="italic">Bile</hi> ſpilt in
+          the <hi rend="italic">Abdomen</hi>, and filtrated <lb/>through the Duplicature of the <hi
+            rend="italic">Peritonæum</hi>, and Bot- <lb/>tom of the <hi rend="italic">Bladder</hi>:
+          For it could not be ſuppoſed to <lb/>derive its Colour from the <hi rend="italic"
+            >Blood</hi>, into which no <hi rend="italic">Bile</hi>
+          <lb/>could now enter by the common Way. </p>
+        <p rend="indent">
+          <lb/><hi rend="italic">Fourthly</hi>, The Want of <hi rend="italic">Saliva</hi>, and the
+          ſilky Dri- <lb/>neſs of the <hi rend="italic">Tongue</hi>, ſeems to have been owing to the
+          <lb/>ſame Cauſe, a Want of Recruit of <hi rend="italic">Fluids</hi> in the <hi
+            rend="italic">Blood</hi>, <lb/>and a Loſs of ſo much of them as fell into the <hi
+            rend="italic">Ab- <lb/>domen</hi>. </p>
+        <pb n="354"/>
+        <p rend="indent">
+          <lb/><hi rend="italic">Fifthly</hi>, If it be ſuppoſed that ſuch a ſmall Wound
+          <lb/>through the <hi rend="italic">Integuments</hi> and <hi rend="italic">Muſcles</hi> of
+          the <hi rend="italic">Abdo- <lb/>men</hi> and the <hi rend="italic">Peritonæum</hi>, was
+          capable of producing a <lb/><hi rend="italic">Fever</hi>, then his not having any Symptoms
+          of a <hi rend="italic">Fever</hi>, <lb/>muſt be owing to a total Defect of <hi
+            rend="italic">Bile</hi> and <hi rend="italic">Chyle</hi> in <lb/>the <hi rend="italic"
+            >Blood</hi>, none of which could enter the <hi rend="italic">Lacteals</hi>
+          <lb/>for want of the periſtaltic Motion, as has been <lb/>ſaid. </p>
+        <p rend="indent">
+          <lb/><hi rend="italic">Laſtly</hi>, The few Fits of Hickup, Reachings to vo- <lb/>mit, and
+          Intermiſſions in the <hi rend="italic">Pulſe</hi> in declining and <lb/>dying Perſons,
+          ſeem to ariſe not only from a Defect, <lb/>and therefore an unequal Diſtribution of the
+            <hi rend="italic">Blood</hi>
+          <lb/>and <hi rend="italic">Spirits</hi>, but chiefly from the Corruption and ir-
+          <lb/>ritating Acrimony of them, as the immediate Cauſe of <lb/>Death in this and moſt
+          other Caſe. Which will be <lb/>farther explained in the following Pages. </p>
+      </div>
+      <div>
+        <head rend="sc space align-center">
+          <lb/>Objection I. </head>
+        <p rend="indent">
+          <lb/>It may very reaſonably be objected here, that the <lb/><hi rend="italic">Ductus
+            Hepaticus</hi> would carry a Sufficiency of <hi rend="italic">Bile</hi>, <lb/>for the
+          Uſes of the Animal Œconomy, into the Cavity <lb/>of the <hi rend="italic">Inteſtines</hi>,
+          though none came by the <hi rend="italic">Ductus Cy- <lb/>ſticus</hi>; and Nature ſeems to
+          have provided the <hi rend="italic">Ductus <lb/>Hepaticus</hi> for this Purpoſe, that if
+          any Obſtruction or <lb/>Defect ſhould happen in any of theſe Secretory Channels, <lb/>the
+          Secretion and Excretion might go on for the Benefit <lb/>of the Œconomy, in the other: As
+          Nature has provi- <lb/>ded two Kidneys, and double Organs of Senſe, for the <lb/>ſame
+          Reaſon. But the Effect will not be the ſame in <lb/>a Wound, which is the Reverſe of an
+          Obſtruction; <lb/>becauſe by a perpetual Evactuation through it, ſuch a <lb/>Revulſion and
+          Derivation is made, as drains and de- <lb/>ſiccates all the neighbouring Parts, and either
+          leſſens <pb n="355"/>
+          <lb/>or entirely fruſtrates the Secretion and Excretion by <lb/>them: And this we find to
+          be true, where the Secre- <lb/>tory Organs and Ducts concerned in the different Secre-
+          <lb/>tions, lie at a great Diſtance from one another; as in <lb/>the <hi rend="italic"
+            >Diabetes</hi> we generally ſee a very great Deſicca- <lb/>tion of the <hi rend="italic"
+            >Salival Glands</hi>, a Defect of <hi rend="italic">Saliva</hi>, and <lb/>a perpetual
+          Thirſt; and Sweating and Looſeneſs leſſen <lb/>the Secretion by <hi rend="italic"
+            >Urine</hi>; an <hi rend="italic">Iſſue</hi> drains and emaciates <lb/>the neighbouring
+          Parts; and it is mechanically de- <lb/>monſtrated by <hi rend="italic">Bellini</hi>, that
+          the Flux of the <hi rend="italic">Blood</hi>, <lb/>and of all the Humours, will be moſt
+          and ſtrongeſt <lb/>towards the Part where the Reſiſtance is taken off; <lb/>as in
+          Bleeding, to which this perpertual Flux of <hi rend="italic">Bile</hi>, <lb/>through the
+          wounded <hi rend="italic">Gall-Bladder</hi>, ſeems to have a <lb/>great Affinity; and
+          therefore would probably promote <lb/>the Afflux of <hi rend="italic">Blood</hi> and
+          Secretion of the <hi rend="italic">Bile</hi> ſo much <lb/>and ſo ſtrongly towards the <hi
+            rend="italic">Veſſels</hi>, <hi rend="italic">Glands</hi>, and <hi rend="italic">Se-
+            <lb/>cretory Ducts</hi> leading to the <hi rend="italic">Cyſtis</hi>, as very much to
+          <lb/>leſſen, or totally to hinder the Secretion by the <hi rend="italic">Ductus
+            <lb/>Hepaticus</hi> into the <hi rend="italic">Guts</hi> by that Channel: And there-
+          <lb/>fore, in this Caſe, the whole of this uſeful Juice ſeems <lb/>for this Reaſon to have
+          been totally loſt to the Animal <lb/>Œconomy. </p>
+      </div>
+      <div>
+        <head rend="sc space align-center">
+          <lb/>Objection II. </head>
+        <p rend="indent">
+          <lb/>Another Objection is, that as the <hi rend="italic">Guts</hi> and other
+          <lb/>Contents, and even the <hi rend="italic">Muſcles</hi> and <hi rend="italic"
+            >Integuments</hi> of <lb/>the lower <hi rend="italic">Belly</hi>, were highly tinged by
+          the <hi rend="italic">Bile</hi>, it <lb/>is probable that ſome of it has got into the
+          Cavity of <lb/>the <hi rend="italic">Guts</hi>, where it might, by its <hi rend="italic"
+            >Stimulus</hi>, keep up <lb/>the periſtaltic Motion, and by the <hi rend="italic"
+            >Lacteals</hi> get into <lb/>the <hi rend="italic">Blood</hi>, for the Uſe of the Animal
+          Œconomy; as <pb n="356"/>
+          <lb/>it appears that ſome of it got into the <hi rend="italic">Bladder</hi> in that
+          <lb/>Manner, and tinged the <hi rend="italic">Urine</hi>. </p>
+        <p rend="indent">
+          <lb/>It is not unlike that this might happen when the <lb/><hi rend="italic">Bile</hi>
+          came to be very redundant in the Cavity; but in <lb/>paſſing through the Interſtices of
+          the <hi rend="italic">Veſſels</hi> and <hi rend="italic">Fi- <lb/>bres</hi> of the <hi
+            rend="italic">Guts</hi>, as through a <hi rend="italic">Filtre</hi>, the groſſer,
+          <lb/>ſaline and ſulphurious Particles of it, which are the <lb/>moſt pungent and active
+          Parts, muſt have been left <lb/>behind; which the muddy Thickneſs, as well as Deep-
+          <lb/>neſs of the Colour of the Liquor found in the Cavity <lb/>of the <hi rend="italic"
+            >Abdomen</hi>, compared with the tranſparent Clear- <lb/>neſs of the <hi rend="italic"
+            >Urine</hi> of a much lighter yellow Colour, <lb/>without Sediment, does ſeem to prove:
+          And it is not <lb/>likely that ſuch a ſmall Quantity of filtrated <hi rend="italic"
+            >Bile</hi>, as <lb/>may be ſuppoſed to have paſſed that Way, deprived of <lb/>all its
+          active Particles, could either in Quantity or Qua- <lb/>lity be ſufficient to aſſiſt in
+          any Function of the Ani- <lb/>mal Œconomy, whether Natural, Vital or Animal: <lb/>And, in
+          Fact, if any paſſed that Way, it appeared <lb/>plainly inſufficient to promote the
+          Contraction and pe- <lb/>riſtaltic Motion of the <hi rend="italic">Guts</hi>, which
+          remained preter- <lb/>naturally diſtended, as has been ſaid, from the Begin- <lb/>ning to
+          the Time of his Death. </p>
+      </div>
+      <div>
+        <head rend="sc space align-center">
+          <lb/>Objection III. </head>
+        <p rend="indent">
+          <lb/>It has been alſo objected, that an Animal which dies <lb/>ſtarved, dies delirious and
+          feveriſh, the Experiment <lb/>having been made on Cats and Dogs: And therefore <lb/>this
+          Perſon, who had no Fever, nor Delirium of any <lb/>kind, cannot be ſuppoſed to have died
+          ſtarved. </p>
+        <p rend="indent">
+          <lb/>I will not diſpute theſe Facts, eſpecially the Expe- <lb/>riments upon Cats and Dogs,
+          though I have not made <lb/>any myſelf, nor do I remember to have had any juſt <pb n="357"/>
+          <lb/>or accurate Account of the Symptoms of ſuch who <lb/>have died of Hunger and Thirſt,
+          in Sieges, and at Sea; <lb/>though many Inſtances have been, and no Notice, <lb/>that I
+          know of, has been taken of their having died <lb/>mad, delirious or feveriſh, though theſe
+          Symptoms <lb/>are ſo remarkable and affecting. But ſuppoſing theſe <lb/>Facts, theſe Caſes
+          will differ very much from this <lb/>before us: For an Animal ſtarved to Death purely
+          <lb/>for Want of Food, has the <hi rend="italic">Gall</hi> flowing conti- <lb/>nually into
+          the Cavity of the <hi rend="italic">Inteſtines</hi>, unmixed <lb/>and undiluted with <hi
+            rend="italic">Chyle</hi>, and from thence by the <lb/><hi rend="italic">Lacteals</hi>
+          into the <hi rend="italic">Blood</hi>; ſo that in a few Days this <lb/>acrimonious Juice
+          muſt become more redundant there, <lb/>than any other Humour; which joined with the con-
+          <lb/>ſtant Attrition of the Globules in Circulation, muſt <lb/>ſoon render the <hi
+            rend="italic">Blood</hi> very acrimonious, rancid and <lb/>alcalin; that is, muſt reduce
+          the whole to a Maſs of <lb/>Putrefaction, capable of ſtimulating the <hi rend="italic"
+            >Brain</hi> and <lb/><hi rend="italic">Nerves</hi>, ſo as to produce a Fever, Delirium
+          or Mad- <lb/>neſs: But in the Caſe under Conſideration, no <hi rend="italic">Gall</hi>
+          <lb/>could enter into the <hi rend="italic">Blood</hi>: And therefore this Degree <lb/>of
+          Putrefaction, and the Effects of it, could not hap- <lb/>pen; though it muſt be owned,
+          that, through a Want <lb/>of Recruit and Dilution, a lower Degree of Putre- <lb/>faction
+          of the <hi rend="italic">Blood</hi> and <hi rend="italic">Humours</hi> muſt have followed,
+          <lb/>even in this Caſe, from the continual Attrition in Cir- <lb/>culation; ſuch at leaſt
+          as was ſufficient to render the <lb/>whole Maſs in a few Days unfit for any of the Uſes
+          <lb/>in the Animal Œconomy, or the Functions of Life: <lb/>And therefore may be juſtly
+          ſuppoſed to have been the <lb/>immediate Cauſe of Death: For all the paſſive Prin-
+          <lb/>ciples or Materials of Putrefaction, being actually in <lb/>the Subſtance of the <hi
+            rend="italic">Blood</hi>, and all the active Princi- <pb n="358"/>
+          <lb/>ples of Heat and Attrition being at work upon it to <lb/>produce this Effect, it
+          could not fail to be brought <lb/>about in a few Days; and the ſame would happen to all
+          <lb/>Animals, is what is effete, corrupted or altered, ſo as <lb/>to be unfit for the Uſe
+          of the Animal, was not con- <lb/>tinually carried off by the <hi rend="italic"
+            >Emunctories</hi>, and a freſh <lb/>Recruit daily ſupplied from the <hi rend="italic"
+            >Primæ Viæ</hi>; which <lb/>Evacuations and Supply being kept up in their due
+          <lb/>Quantity and Proportion, do effectually prevent all <lb/>Putrefaction and Acrimony,
+          and keep the Blood and <lb/>Humours in their natural Temperature, commonly <lb/>(though
+          miſtakenly) called Sweetneſs. </p>
+        <p rend="indent">
+          <lb/>It is not then a Defect in the Quantity of <hi rend="italic">Fluids</hi>
+          <lb/>which kills an Animal in Faſting, but a poiſonous <lb/>Acrimony, which the <hi
+            rend="italic">Blood</hi> and <hi rend="italic">Humours</hi> naturally <lb/>contract, for
+          want of a freſh Recruit and equal Eva- <lb/>cuation. Thus in chronical Diſtempers, where
+          the <lb/>Perſon appears extenuated and exhauſted, the Quan- <lb/>tity of the <hi
+            rend="italic">Fluids</hi> is certainly very ſmall, yet enough <lb/>to maintain Life for
+          ſome Months or Years, being kept <lb/>in ſome Degree of Sweetneſs or proper Temperature,
+          <lb/>by a certain Proportion of Recruit and Evacuation: <lb/>But where the Recruit is
+          entirely ſubſtracted, the <lb/>Evacuations will be proportionally leſſened: And there-
+          <lb/>fore the Quantity of <hi rend="italic">Fluids</hi> may remain much the <lb/>ſame, but
+          the Quality will alter, and Putrefaction <lb/>for the Reaſons above aſſigned muſt take
+          Place, and <lb/>be the immediate Cauſe of Death, even long before the <lb/>Maſs of <hi
+            rend="italic">Fluids</hi> can be much diminiſhed in Quantity, <lb/>as in the Caſe before
+          us. Which leads to the Anſwer <lb/>of another Difficulty, <hi rend="italic">viz.</hi>
+        </p>
+      </div>
+      <pb n="359"/>
+      <div>
+        <head rend="sc space align-center">
+          <lb/>Objection IV. </head>
+        <p rend="indent">
+          <lb/>How the <hi rend="italic">Pulſe</hi> ſhould continue full, ſtrong and <lb/>equal for
+          ſeveral Days, while the Perſon was in a <lb/>ſtarving Condition, and the <hi rend="italic"
+            >Blood</hi> had no Recruit <lb/>from the <hi rend="italic">Primæ Viæ</hi>? </p>
+        <p rend="indent">
+          <lb/>This indeed would be very unaccountable, if the <lb/>Waſte of the <hi rend="italic"
+            >Blood</hi> and <hi rend="italic">Humours</hi> were ſuppoſed to con- <lb/>tinue at the
+          ſame Height as before the Accident, and <lb/>the Evacuations by the <hi rend="italic"
+            >Emunctories</hi> were the ſame as <lb/>in perfect Health. In this manner the Contents
+          of the <lb/><hi rend="italic">Blood-Veſſels</hi> would be ſoon waſted and exhauſted:
+          <lb/>But <hi rend="italic">Sanctorius</hi>'s Obſervations and Experiments do ſhew,
+          <lb/>that the daily Recruits and Evacuations keep Pace with <lb/>one another, and are
+          nearly equal in 24 Hours in a <lb/>healthy State: And therefore where the Recruits are
+          <lb/>plentiful, the Evacuations will be equally ſo; and <lb/>where thoſe are ſparing the
+          Evacuations are ſmall; or <lb/>where the Balance is caſt too much of either Side, ſome
+          <lb/>Indiſpoſition or Diſtemper muſt follow. There is no <lb/>Exception from this Rule,
+          but in Children, a Part of <lb/>whoſe Nouriſhment goes to Acretion, and the Encreaſe
+          <lb/>of their Weight: Therefore in the Caſe before us, the <lb/>Recruit being entirely
+          ſubtracted, the <choice>
+            <corr>Evacuations</corr>
+            <sic>Evacutions</sic>
+          </choice> muſt <lb/>have been little, or next to nothing: And therefore the <lb/>Quantity
+          of the <hi rend="italic">Blood</hi> and circulating <hi rend="italic">Humours</hi> would
+          <lb/>remain much the ſame, and keep up the Fulneſs, <lb/>Strength and Equality of the <hi
+            rend="italic">Pulſe</hi> for ſeveral Days, <lb/>until the <hi rend="italic">critical
+            Putrefaction</hi> and <hi rend="italic">Colliquation</hi> of the <lb/><hi rend="italic"
+            >Blood</hi> above-mentioned, on the fifth or ſixth Day, <lb/>rendered it unfit for a
+          regular Circulation, and pro- <lb/>duced Intermiſſions in the <hi rend="italic"
+          >Pulſe</hi>, Reachings to Vomit, <lb/>and Hickup, all of them being local Convulſions, and
+            <pb n="360"/>
+          <lb/>the Effects of Corruption, Acrimony, Irritation, and <lb/>an unequal Diſtribution of
+          the <hi rend="italic">Fluids</hi>, which termi- <lb/>nated in Death in the Beginning of
+          the ſeventh Day. </p>
+        <p rend="indent">
+          <lb/>The Sum of what has been ſaid is, that in this Caſe <lb/>very little, if any, <hi
+            rend="italic">Bile</hi> entered into the <hi rend="italic">Inteſtines</hi>, <lb/>and
+          that ineffectual; and none at all into the <hi rend="italic">Blood</hi>. <lb/>And as there
+          was no apparent Defect in any Part of the <lb/>Body, nor any Wound that could have been
+          either dan- <lb/>gerous or deadly, in any other reſpect than as it gave <lb/>Occaſion to
+          the Loſs and Miſplacing of the <hi rend="italic">Gall</hi>; it <lb/>is therefore evident,
+          that all the Symptoms, and his <lb/>Death, were entirely owing to the Loſs of this uſeful
+          <lb/>Juice; which it ſeems is ſo neceſſary to all Parts of <lb/>the Animal Œconomy,
+          Natural, Vital and Animal, <lb/>that this Perſon could not live above ſix Days with-
+          <lb/>out it. </p>
+        <p rend="indent">
+          <lb/>The practical Inferences that ſeem to flow by ne- <lb/>ceſſary Conſequences from this
+          Obſervation, are, </p>
+        <p rend="indent">
+          <lb/>I. That the periſtaltic Motion of the <hi rend="italic">Inteſtines</hi> is as
+          <lb/>much owing to the Influx of the <hi rend="italic">Bile</hi> into their <lb/><hi
+            rend="italic">Cavity</hi>, as to the Influx of the Animal <hi rend="italic">Spirits</hi>
+          and <lb/><hi rend="italic">Blood</hi> into their <hi rend="italic">Sides</hi>: And
+          therefore that the <hi rend="italic">Bile</hi>
+          <lb/>is to be looked upon as one of the prime Movers in the <lb/>animal Œconomy, by which
+          the elaſtic Springs of <lb/>the natural Motions, to wit, the <hi rend="italic">muſcular
+            Fibres</hi> of <lb/>the <hi rend="italic">Guts</hi> are ſet to work; upon whoſe Motion
+          all the <lb/>ſubſequent vital and animal Motions do ſo far depend, <lb/>that none of them
+          can be long in Perfection where it <lb/>is imperfect, nor ſubſiſt many Days where it is
+          totally <lb/>wanting. </p>
+        <p rend="indent">
+          <lb/>II. This prime Motion is totally loſt by a total <lb/>Want of <hi rend="italic"
+            >Bile</hi>; proves ſluggiſh by a Defect in its Quan- <lb/>tity; becomes irregular or
+          convulſive by a great Re- <pb n="361"/>
+          <lb/>dundancy or morbid Acrimony of it. From whence <lb/>ſeveral Diſtempers that are
+          called <hi rend="italic">Nervous</hi> may ariſe, <lb/>and are more likely to be cured by
+          correcting and eva- <lb/>cuating the redundant or faulty <hi rend="italic">Bile</hi>, and
+          diſobſtruct- <lb/>ing the <hi rend="italic">Liver</hi>, than by moſt other Medicines taken
+          <lb/>from the common Claſs of <hi rend="italic">Nervines</hi>. </p>
+        <p rend="indent">
+          <lb/>III. That the Power of Purgatives depends upon <lb/>the Co-operation of the <hi
+            rend="italic">Bile</hi>: And therefore it is <lb/>probable, that the Difference of
+          Conſtitutions, at equal <lb/>Ages, with reſpect to Purgatives, depends more upon <lb/>the
+          Quantity and Quality of the <hi rend="italic">Bile</hi>, than on the <lb/>Bulk or Weight
+          of the <hi rend="italic">Body</hi>, Quantity of the <hi rend="italic">Blood</hi>, or
+          <lb/>other <hi rend="italic">circulating Humours</hi>. </p>
+        <p rend="indent">
+          <lb/>IV. It alſo appears that the Nouriſhment and Acre- <lb/>tion of the Body do in ſome
+          Meaſure depend upon a <lb/>due Quantity and proper Quality of this Juice, with- <lb/>out
+          which the <hi rend="italic">Blood</hi> and circulating <hi rend="italic">Humours</hi>
+          could <lb/>not be recruited from the <hi rend="italic">Primæ Viæ</hi>: And there-
+          <lb/>fore that Defects in it may be frequently the Cauſe of <lb/>a <hi rend="italic"
+            >Maraſmus</hi>, or Waſte of the Body, where it is little <lb/>ſuſpected: Which may ſerve
+          to point out the Method <lb/>of Cure in ſuch Caſes. </p>
+        <p rend="indent">
+          <lb/>V. This Obſervation ſeems to lead to the Know- <lb/>ledge of the immediate Cauſe of
+          natural Reſt or Sleep <lb/>in a healthy State; to wit, a certain Quantity or Pro-
+          <lb/>portion of freſh <hi rend="italic">Chyle</hi> in the <hi rend="italic">Blood</hi>;
+          the Want of <lb/>which, from whatever Cauſe, will occaſion Watchful- <lb/>neſs, or ſome
+          Degree of it. And this may ſerve to <lb/>point out the immediate Effect and Conſequences
+          of <lb/><hi rend="italic">Opiats</hi>, whence may be gathered how far, and in <lb/>what
+          Caſe they may be effectual and uſeful; and in <lb/>what Circumſtances they may be
+          ineffectual, uſeleſs <lb/>or hurtful. Which may deſerve a farther Illuſtration. </p>
+        <pb n="362"/>
+        <p rend="indent">
+          <lb/>VI. That a due Quantity of <hi rend="italic">Aliments</hi>, at proper <lb/>Intervals
+          of Time, is neceſſary to keep the <hi rend="italic">Blood</hi> and <lb/><hi rend="italic"
+            >Humours</hi> in their natural Temperature and Sweet- <lb/>neſs, and to preſerve them
+          from Acrimony and Putre- <lb/>faction: And this will be true in all Diſtempers as
+          <lb/>well as in Health, and is againſt the Practice of ſuch <lb/>as pretend to ſtarve away
+          Diſtempers, or to deny a <lb/>due Quantity of Drink and liquid Food to the Sick,
+          <lb/>eſpecially in Fevers, where the Want of this Re- <lb/>cruit will tend to encreaſe the
+          Acrimony or Pu- <lb/>trefaction, whence the Malignity of moſt Fevers does <lb/>ariſe. </p>
+        <p rend="indent">
+          <lb/>VII. That <hi rend="italic">Pus</hi>, or Matter in a Wound or Ulcer is <lb/>the
+          Product of <hi rend="italic">Chyle</hi>, and not of the <hi rend="italic">Blood</hi> or
+            <hi rend="italic">Se- <lb/>rum</hi>: Which has indeed been the received Opinion,
+          <lb/>though ſupported by no other Proof than the Simi- <lb/>litude of <hi rend="italic"
+            >Pus</hi> to <hi rend="italic">Chyle</hi>. And as a great Redundancy, <lb/>as well as a
+          Defect of <hi rend="italic">Pus</hi>, does ſometimes retard the <lb/>Cure of a Wound or
+          Ulcer, this may ſerve to ſhew <lb/>by what Means it may be encreaſed or diminiſhed, to
+          <lb/>anſwer the Intentions of the Artiſt. </p>
+        <p rend="indent">
+          <lb/>This alſo makes it appear probable, that a great <lb/>Redundancy of <hi rend="italic"
+            >Chyle</hi> diſpoſeth the Body to purulent, <lb/>ſuppuratory and ſcrophulous Diſtempers;
+          and ſeems <lb/>to indicate the ſubtracting ſuch Sorts of Food as af- <lb/>ford a rich,
+          groſs or plentiful <hi rend="italic">Chyle</hi>, and the admini- <lb/>ſtring of ſuch
+          Medicines as may ſtrengthen Sangui- <lb/>fication, and the other aſſimulating Powers, to
+          aſſimu- <lb/>late and thereby conſume it; the Sanguification and <lb/>aſſimulating Powers
+          being manifeſtly weak, as the <lb/>Chylification ſeems to be ſtrong in all ſuch Caſes.
+          <lb/>And this ſeems to be the Reaſon why in <hi rend="italic">Adults</hi>, <lb/>as the
+          Sanguification grows ſtronger, and in <hi rend="italic">Age</hi>, as <lb/>the
+          Voraciouſneſs of the <hi rend="italic">Appetite</hi>, too common in <pb n="363"/>
+          <lb/>Youth, declines, theſe Diſtempers do often decreaſe, <lb/>and at laſt wear out of
+          themſelves: Which ſhews <lb/>what Aſſiſtances Art ought to contribute, to bring <lb/>about
+          the ſame Effect in a leſs Time. </p>
+        <p rend="indent">
+          <lb/>I muſt here own my Omiſſion to open the <hi rend="italic">Stomach</hi>
+          <lb/>and <hi rend="italic">Guts</hi>, in order to view the State of their Con- <lb/>tents,
+          where the <hi rend="italic">Gall</hi> was entirely wanting, which <lb/>might have given
+          ſome Light to this Obſervation. <lb/>This Omiſſion happened through ſome Hurry at the
+          <lb/>Time, which I regret; but am apt to believe, that as <lb/>moſt of his <hi
+            rend="italic">Aliments</hi> were Liquids, the Alterations <lb/>would not have been very
+          conſpicuous or obvious to <lb/>the Sight. And I hope it will not be impracticable to
+          <lb/>make ſome Experiments on live <hi rend="italic">Animals</hi> for this Pur- <lb/>poſe,
+          with more Care and Attention, for ſupply- <lb/>ing what may have been defective in this
+          Obſer- <lb/>vation. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

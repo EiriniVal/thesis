@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LMEMT Corpus - Wright: An essay to instruct women how to protect themselves in a
+          state of pregnancy</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>Mrs. midwife Wright</persName>
+            </author>
+            <title type="main">An essay to instruct women how to protect themselves in a state of
+              pregnancy from the Disorders incident to that Period, or how to cure them. also, some
+              observations on the treatment of children, which if attended to, may ward off
+              dangerous diseases, and prevent future evils. By Mrs. Wright, Midwife.</title>
+            <edition n="1"/>
+            <idno type="ESTC">T204092</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/T204092"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>London: printed for the author, No. 30, Southampton-Street, Strand: and
+                  sold by J. Barker, Dramatic Repository, No. 19, Great Russell-Street,
+                  Covent-Garden; Lee and Hurst, Pater-Noster-Row; and J. Kirby, No. 190,
+                  Oxford-Street, 1798.</persName>
+              </publisher>
+              <date>1798</date>
+            </imprint>
+            <extent>
+              <measure type="format">8⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="9"/>
+              <measure type="count" commodity="body" unit="page" quantity="36"/>
+              <measure type="count" commodity="back" unit="page" quantity="2"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">John Rylands University Library of Manchester</orgName>
+            <idno type="ECCO">CW3308884555</idno>
+            <idno type="TCP">K127454.000 </idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Book on a specific topic: midwifery"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text xml:lang="eng">
+    <front>
+      <div>
+        <pb xml:id="page_2"/>
+        <head rend="align-center dc(2)">
+          <lb/>INTRODUCTION. </head>
+        <p rend="indent">
+          <lb/><hi rend="dc(2)">T</hi>O a woman who never wrote more than <lb/>a common letter, it
+          ſeemeth ſomewhat <lb/>awkward to take up the pen to write for public <lb/>peruſal, but my
+          friends deſire that I may do it; <lb/>they have a better opinion of me, than I have
+          <lb/>of myſelf; they ſay if I give nothing new to <lb/>the world, I may ſtill be uſeful to
+          my own <lb/>ſex, by recommending many things familiar to <lb/>my experience, which they
+          may have had few <lb/>opportunities of knowing; much experience is <lb/>not the portion of
+          many young women; few <lb/>read large elaborate works, and many would be <lb/>glad to
+          receive inſtruction advantageous to them- <lb/>ſelves and their families, from a ſmall
+          pam- <lb/>phlet; they have many occupations, and care <lb/>not to torment themſelves with
+          technical terms <lb/>in languages unknown to them, or toil over <lb/>hundreds of pages
+          they do not underſtand; my <lb/>greateſt anxiety ſhall be to be plain and eaſily com-
+          <lb/>prehended. Some females aſcend into the paths <pb xml:id="page_3" n="ii"/>
+          <lb/>of literature, by accident, genius, or induſtry; <lb/>to the firſt and laſt I am
+          indebted, but as to <lb/>the ſecond, alas, I have few pretenſions; all <lb/>I can boaſt
+          of, is, much good temper, patience, <lb/>and a tolerable ſhare of common ſenſe. </p>
+        <p rend="indent">
+          <lb/>If this little Eſſay ſhould make its way to <lb/>the hands of a learned critic, it is
+          not improba- <lb/>ble, that after reading the title page, and ſeeing <lb/>it comes from a
+          midwife, he may throw it <lb/>aſide with diſdain, ſuppoſing it ſmells too ſtrong <lb/>of
+          gruel, caudle, and the ſlops of the nurſery, <lb/>and ſo I may eſcape a ſcourging from
+          him; but <lb/>another, after ſome inveſtigation, may tell us <lb/>that this obſtetric dame
+          might have employed <lb/>herſelf better with her needle; a third, with <lb/>as much good
+          nature, and full as much ſci- <lb/>ence, may kindly invite her into the field of
+          <lb/>literature, hoping that a little more ſtudy may <lb/>enable her to correct her
+          deficiencies, and I <lb/>will bend to him with obedience and the loweſt <pb
+            xml:id="page_4" n="iii"/>
+          <lb/>courteſy of my acknowledgment for his gen- <lb/>tleness and liberality. </p>
+        <p rend="indent">
+          <lb/>The intention of this Eſſay is, to convey <lb/>to my amiable country-women ſome hints
+          <lb/>or inſtructions how to preſerve themſelves <lb/>in pregnancy from evils that often
+          torment or <lb/>deſtroy them, and from which a little rational <lb/>inſtruction may ſtand
+          as it were like a beacon, <lb/>to point out latent evil; and I have the vanity <lb/>to
+          hope that my humble attempts to be uſeful, <lb/>will neither be neglected nor loſt.
+          Another <lb/>part of my intention is, as a tender mother <lb/>myſelf, to teach others who
+          have leſs experi- <lb/>ence, how to ſuperintend their infant offspring. <lb/>This is an
+          important concern, for it is a me- <lb/>lancholy truth, that above half the human
+          <lb/>race ſuffer much, or ſink into untimely graves, <lb/>before they are two or three
+          years old; nor is <lb/>it unlikely, that many of theſe infants are in- <lb/>jured by the
+          ignorance or careleſſneſs of perſons <lb/>employed to look after them; perhaps in my <pb
+            xml:id="page_5" n="iv"/>
+          <lb/>way through this little tract I may touch on the <lb/>office or duty of a midwife,
+          and other articles <lb/>in a miſcellaneous manner. On ſexual diſor- <lb/>ders it was my
+          intention to have expoſed the <lb/>futility of what is often done, and how to ſub-
+          <lb/>ſtitute ſome things more effectual; but I find <lb/>myſelf incapable of writing
+          publicly on this <lb/>branch of feminine infirmities, without violat- <lb/>ing in ſome
+          degree, my own ſenſe of delicacy <lb/>and modeſty, but to make up for this, it is my
+          <lb/>intention henceforward, to act as a midwife, <lb/>and to give advice, and even
+          particular me- <lb/>dicines, in all diſeaſes of women and children, <lb/>to all who may do
+          me the honour to employ me; <lb/>whenever I may be puzzled, (the moſt able are
+          <lb/>non-pluſſed ſometimes though they may not <lb/>own it) it is my determination to
+          apply for <lb/>help, to ſome of my friends, phyſicians of <lb/>learning and much
+          experience, that will readily <lb/>give me their beſt advice. </p>
+        <pb xml:id="page_6" n="v"/>
+        <p rend="indent">
+          <lb/>The diſeaſes of children are numerous, and <lb/>require the moſt careful examination.
+          I have <lb/>ſtudied them much on pathological prin- <lb/>ciples, and though I have not
+          conſumed much <lb/>of the midnight oil, have been ſucceſſful in <lb/>removing them. That
+          diſmal train of evils <lb/>that depends on worms bred in the inteſtines <lb/>of children,
+          and frequently of grown up per- <lb/>ſons, may commonly be removed by proper
+          <lb/>attention. I pretend not to the poſſeſſion of <lb/>infallible noſtrums, nor would I
+          practiſe on <lb/>dogmatical principles, for then we can have <lb/>no clue to cauſes, nor
+          could we have occaſion <lb/>for reaſon or education; a few recipes without <lb/>knowledge,
+          would in this caſe be ſufficient <lb/>to cure diſeaſes; on this plan, a perſon who
+          <lb/>knows the names of the ropes and ſails may <lb/>go to ſea, but, without the art of
+          navigation, <lb/>he would ſeldom carry a ſhip ſafe to her port. </p>
+        <pb xml:id="page_7" n="vi"/>
+        <p rend="indent">
+          <lb/>It may be ſuppoſed I am no great theoriſt, <lb/>yet I am not altogether ignorant of
+          pathology, <lb/>or the difference in diſtempers, or of their <lb/>cauſes and effects. I
+          have practiſed much <lb/>among poor people, gratis, on the Continent <lb/>and at home,
+          giving them their medicines, be- <lb/>cauſe, I think it a duty on all to do good, and
+          <lb/>my intentions have been anſwered with general <lb/>ſucceſs. It is my intention ſtill
+          to carry on <lb/>this eleemoſynary practice, with this differ- <lb/>ence, that in London,
+          I cannot afford to fur- <lb/>niſh remedies for all that may want them, but, <lb/>if female
+          paupers will call Sundays and Thurs- <lb/>days, in the morning, from 8 to 10 o'clock,
+          <lb/>they ſhall be welcome to my beſt endeavours <lb/>to ſerve them. If they are ſober,
+          and obe- <lb/>dient to directions, I will ſometimes give them <lb/>medicines, and I ſhall
+          never be wanting to <lb/>their welfare; if not, they muſt not be ſur- <lb/>priſed, if I
+          excuſe myſelf from hearing their <lb/>complaints. </p>
+        <pb xml:id="page_8" n="vii"/>
+        <p rend="indent">
+          <lb/>If any perſon who never heard of me before, <lb/>ſhould have any inclination to
+          employ me, <lb/>they may naturally wiſh to know who I am, <lb/>and to know my character; I
+          ſhall only hope <lb/>to be known, my vouchers are neither obſcure <lb/>or unworthy of
+          notice; I may venture to ſay <lb/>this for myſelf, my friends all ſay it of me,
+          <lb/>though no ſycophant, I never yet made a foe, <lb/>or loſt a friend. It may be
+          objected to my <lb/>propoſals, that this Eſſay may be regarded as <lb/>a quack
+          advertiſement; I feel, and I dread <lb/>the force of ſuch a charge, but I am neither
+          <lb/>a boaſter, nor a vain pretender, this truth may <lb/>be eaſily made evident. I may,
+          after ſix years <lb/>reſidence, call myſelf a ſtranger in this great <lb/>city, for I am
+          very little known, only to a <lb/>few friends of the middle rank, who cannot <lb/>ſtep
+          beyond their line to recommend me, and <lb/>I may remain in obſcurity, were I now to ſup-
+          <lb/>press this Eſſay, which may be found uſeful by <lb/>many, on purpoſe to prevent the
+          calumny of <lb/>objectors. My friends ſupport my ſpirits on <pb xml:id="page_9" n="viii"/>
+          <lb/>one hand, on this attempt to become an <lb/>author, but my own apprehenſions depreſs
+          <lb/>them on the other, and it is with much tre- <lb/>pidation I am prevailed on to risk
+          my recep- <lb/>tion with the public. </p>
+        <lb/>
+        <dateline rend="italic">No. 30, Southampton Street, <lb/>Strand. </dateline>
+      </div>
+    </front>
+    <body>
+      <pb xml:id="page_10"/>
+      <head rend="italic size(1.5) align-center">
+        <lb/>AN <lb/>ESSAY, &amp;c. </head>
+      <div n="1" type="section">
+        <head rend="space align-center">
+          <lb/>SECTION I. <lb/><hi rend="italic">On the Diſeaſes of early Pregnancy.</hi>
+        </head>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">T</hi>HIS Section may deſerve the attention of <lb/>women who are
+          conſtitutionally afflicted with <lb/>troubleſome complaints in the firſt months of preg-
+          <lb/>nancy. The moſt common ſymptoms of breeding <lb/>are, ſickneſs, loathing, vomiting,
+          giddineſs, drowſi- <lb/>neſs, heartburn, diarrhœa, a painful fulneſs of the <lb/>breaſts,
+          nervous fits, faintings, &amp;c. If the patient <lb/>is healthy, or of a full habit, it
+          may be uſeful for <lb/>her to let blood repeatedly, in ſmall quantities, not
+          <lb/>exceeding ſix or ſeven ounces at a time, eſpecially <lb/>if the ſickneſs is attended
+          with fluſhings, parched <lb/>mouth, or any other feveriſh ſymptoms; larger
+          <lb/>evacuations are not ſafe. The bowels in ſuch caſes <lb/>ought to be kept ſoluble by
+          ripe fruits, cooling <lb/>diet, magneſia, cream of tartar whey, ſoluble tar- <pb
+            xml:id="page_11" n="10"/>
+          <lb/>tar, manna, or ſuch gentle things, and yet more <lb/>advantageouſly by oily or
+          emollient clyſters; an <lb/>uſeful domeſtic injection may be made in a few <lb/>minutes
+          thus:—Take of ſtrained gruel, about <lb/>three quarters of a pint, brown ſugar, one ounce,
+          <lb/>Caſtile ſoap, half an ounce, ſalad oil, two ounces; <lb/>this, or ſomething like it,
+          may be thrown up <lb/>occaſionally. If frights or falls have done harm, <lb/>the ſame
+          treatment is recommended. When <lb/>vomiting is troubleſome, I have frequently known
+          <lb/>this ſymptom carried off by drinking chamomile <lb/>tea, or giving two or three
+          grains of ipeca- <lb/>cuanha, to cauſe a diſcharge of the offending matter <lb/>from the
+          ſtomach. It may be remembered, as a <lb/>general rule, that all ſtrong or violent remedies
+          are <lb/>hurtful, therefore, we caution againſt antimonials, <lb/>mercurials, cathartics,
+          jalap, aloes, or even rhubarb, <lb/>becauſe it often cauſes griping pains. When ner-
+          <lb/>vous complaints come on, the moſt effectual relief <lb/>may be obtained from gentle
+          opiates. If the pa- <lb/>tient is delicate or weak, bleeding may do harm; <lb/>but an
+          invigorating diet in ſmall quantities, and a <lb/>little <hi rend="italic">pure old
+            wine,</hi> taken from time to time, may be <lb/>uſeful. Much more may be ſaid to make up
+          a <pb xml:id="page_12" n="11"/>
+          <lb/>book; if more is wanted, we recommend the advice <lb/>of an experienced phyſician;
+          let it be remembered, <lb/>I do not propoſe to trouble my readers with a large
+          <lb/>volume; my intention is only to give uſeful hints <lb/>in a ſhilling pamphlet; it is
+          not neceſſary to ſay <lb/>more on this part, but come in courſe to our <lb/>Second
+          Section. </p>
+      </div>
+      <div n="2" type="section">
+        <pb xml:id="page_13" n="12"/>
+        <head rend="align-center italic">
+          <lb/><hi rend="roman">SECTION II.</hi>
+          <lb/>On the Diſeaſes of advanced Pregnancy. </head>
+        <p rend="indent">
+          <lb/>THE diſeaſes of advanced pregnancy ought to be <lb/>well underſtood by every midwife;
+          for if ill treated, <lb/>may be attended with the worſt conſequences. As <lb/>pregnancy
+          advances, the uterus increaſes in ſize, <lb/>and preſſes more and more heavily on the
+          bowels, <lb/>by which their important functions are impaired, <lb/>the circulation of the
+          blood, and the nervous in- <lb/>fluence, are materially obſtructed, what wonder <lb/>then
+          if diſagreeable effects often come from ſuch <lb/>cauſes? </p>
+        <p rend="indent">
+          <lb/>Let us now mention ſome of the complaints that <lb/>take place, and the beſt means of
+          removing them. <lb/>When the gravid uterus riſes higher up into the <lb/>abdomen, in the
+          fifth, ſixth, or ſeventh month of <lb/>pregnancy, then commonly commences the com-
+          <lb/>plaints of advanced pregnancy, ſuch as colics, <lb/>cramps, hyſteric fits, pains in
+          the back, difficulty of <lb/>breathing, œdematous or watery ſwelling of the <pb
+            xml:id="page_14" n="13"/>
+          <lb/>legs, &amp;c. vomitings, convulſions, difficulty or ſup- <lb/>preſſion of urine,
+          micturition, haemorrhoids, varicous <lb/>ſwellings in the veins of the legs, beſides ſome
+          others <lb/>we ſhall not mention. If colic torments the patient, <lb/>let her have the
+          inteſtines moderately emptied by <lb/>gentle laxatives, lubricating clyſters, or blood-
+          <lb/>letting, according to circumſtances, in caſe ſhe is <lb/>ſtrong or feveriſh, and
+          coſtiveneſs ought to be <lb/>guarded againſt. If cramps are frequent, the ſame
+          <lb/>treatment may be uſeful; if they are ſlight, we <lb/>have frequently known walking
+          barefooted on the <lb/>cold floor to give ſpeedy relief; when more uneaſy, <lb/>the
+          following liniment will afford caſe: take of <lb/>tincture of opium, one ounce, of
+          camphorated <lb/>ſpirit of wine, ſix drams, oil of amber, two drams, <lb/>ſpirit of
+          ammonia, four drams, mix them, and let <lb/>ſome of it be well rubbed occaſionally on the
+          parts <lb/>affected. If piles are painful, the body muſt be <lb/>kept open as above, but
+          we recommend caſtor oil, if <lb/>not offenſive, for this purpoſe, one or two ſpoonsful
+          <lb/>is a moderate doſe; if the haemorrhoids are very un- <lb/>eaſy, we recommend ſtrongly
+          the following mixture <lb/>and ointment: take of balſam capivi, two drams, <lb/>mucilage
+          of gum arabic, one ounce, tincture of <pb xml:id="page_15" n="14"/>
+          <lb/>columbo root, one ounce, ſimple cinnamon water, <lb/>two ounces, ſirup of ginger, one
+          ounce, mix them <lb/>and give a deſert ſpoonful thrice a day. The oint- <lb/>ment may be
+          depended on: take of gall nuts in <lb/>fine powder, one ounce, pure verdigriſe powdered,
+          <lb/>two drams, hog's lard, two ounces, mix them to <lb/>make an ointment, which may be
+          applied to the <lb/>ſwelled parts occaſionally. When great difficulty of <lb/>breathing
+          attacks the patient, great relief may be <lb/>procured from bleedings, and keeping the
+          body <lb/>ſoluble. When a dropſy of the whole body, called <lb/>anaſarca, comes on, it may
+          proceed from laxity, <lb/>and ought if poſſible to be removed, without loſs of <lb/>time;
+          we have little experience of this complaint, <lb/>it ſeldom occurs, yet we have heard
+          much, but we <lb/>believe that a ſtrengthening and warm ſtimulating <lb/>diet is uſeful,
+          with generous wine, but ſpirits, watery <lb/>meats, or fluids, are hurtful; after a ſafe
+          delivery, <lb/>much may be done. If the fluor albus comes <lb/>on, the ſame mode of
+          treatment as in the dropſy <lb/>may be recommended. </p>
+        <p rend="indent">
+          <lb/>The oedematous, or watery ſwellings of the lower <lb/>extremities, ſeldom come from
+          the ſame cauſe as the <pb xml:id="page_16" n="15"/>
+          <lb/>general dropſy, but entirely from the preſture of the <lb/>gravid uterus, and though
+          they are of little im- <lb/>portance, yet it may be proper to diminiſh them, <lb/>by
+          bleeding, laxatives, a ſpare opening diet, friction, <lb/>and a horizontal poſture. If the
+          patient is weakly, <lb/>cordials and a comfortable diet may be uſeful. <lb/>Delivery
+          contributes more than any thing to the <lb/>cure. When varicous or diſtended ſwellings of
+          the <lb/>veins become large and painful, they may be made <lb/>eaſier, by taking away
+          occaſionally ſmall quantities <lb/>of blood from the arm, and keeping the body open,
+          <lb/>becauſe they come from the preſſure of the gravid <lb/>uterus. The beſt application
+          to the parts is a <lb/>ſtyptic or aſtringent water, which a venerable phyſi- <lb/>cian of
+          great experience aſſures me is often very <lb/>uſeful in varicous dilatations: take of
+          blue vitriol <lb/>and alum, of each three ounces, of water, two pints, <lb/>boil them till
+          the ſalts are diſſolved, then filter the <lb/>liquor, and add one ounce and a half of the
+          vitriolic <lb/>acid, and two drams of pure or refined verdigriſe, <lb/>lay on the ſwelled
+          veins compreſſes of linen, and <lb/>bind them on with a tightiſh roller, and keep theſe
+          <lb/>compreſſes conſtantly moiſt with this ſolution. </p>
+        <pb xml:id="page_17" n="16"/>
+        <p rend="indent">
+          <lb/>We have ſtrongly recommended the frequent uſe <lb/>of injections, to keep the body
+          ſoluble, and if we <lb/>could perſuade thoſe for whom this little Eſſay is <lb/>intended,
+          to uſe the ſelf-ſyringe with their own <lb/>hands, without any aſſiſtant, it might prevent
+          the <lb/>trouble of taking medicines, it would be leſs un- <lb/>eaſy, leſs painful, leſs
+          expenſive, or diſagreeable, at <lb/>the ſame time more delicate; but theſe are not all
+          <lb/>the advantages, a ſyringe throws the clyſter farther <lb/>up than any other
+          contrivance into the colon or <lb/>great gut, where all the obſtructed matter is de-
+          <lb/>tained, by the preſſure of the diſtended uterus on <lb/>the os ſacrum or rump bone. </p>
+        <p rend="indent">
+          <lb/>We earneſtly recommend the introduction of the <lb/>ſelf-ſyringe into every houſe,
+          for the uſe of thoſe <lb/>who have complaints in their bowels, about the <lb/>anus, or are
+          troubled with coſtiveneſs. They may <lb/>be purchaſed in every conſiderable pewterer's
+          ſhop. <lb/>I have been told, and I believe it implicitly, that <lb/>there are many perſons
+          of both ſexes, who with ſome <lb/>heſitation took theſe machines into their houſes,
+          <lb/>that now they underſtand how to uſe them, they <lb/>would not part with them on any
+          conſideration. </p>
+      </div>
+      <div n="3" type="section">
+        <pb xml:id="page_18" n="17"/>
+        <head rend="italic align-center">
+          <lb/><hi rend="roman">SECTION III.</hi>
+          <lb/>The Qualities neceſſary in an Accoucheur and an <lb/>Accoucheuſe. </head>
+        <p rend="indent">
+          <lb/>HERE we will offer a few remarks on the quali- <lb/>fications neceſſary for an
+          accoucheur, or rather let <lb/>me deſcribe the ſort of accoucheur I would recom-
+          <lb/>mend. A man-midwife ought to be not younger <lb/>than forty, not talkative,
+          poſſeſſing much ſagacity <lb/>and prudence, naturally modeſt, benevolent and <lb/>humane;
+          in ſhort, a gentleman, and withal have <lb/>the reputation of being well educated. A
+          midwife <lb/>ought to be turned of thirty, clean, and neat <lb/>in her perſon, pleaſant in
+          her manners, gentle, at- <lb/>tentive, and kind to her patients, by ſupporting <lb/>their
+          ſpirits in diſtreſs, civil to ſervants, but no- <lb/>thing of a goſſip, healthy and
+          active, never taking <lb/>ſnuff, fond of children, skilful and tender in <lb/>handling new
+          born infants, capable and ready to <lb/>teach awkward nurſes how to dreſs or clean
+          <lb/>them, qualified to write ſafe and uſeful preſcriptions <lb/>for a morbid mother, or
+          an ailing child; ſhe ought <pb xml:id="page_19" n="18"/>
+          <lb/>to be a woman that hath been well inſtructed, that <lb/>hath had much practice, not
+          conceited, nor proud, <lb/>nor vain, nor ſuperſtitious, but firm in her mind, <lb/>plain,
+          diſcreet, and honeſt; a ſincere friend in <lb/>every family, always diſpoſed to call in to
+          her <lb/>aſſiſtance a phyſician, or an experienced accoucheur, <lb/>whenever there is any
+          neceſſity, or even a diſtant <lb/>deſire of ſome kind relation, for this will raiſe her
+          <lb/>reputation, prevent reflections, and demonſtrate <lb/>her diſcretion. </p>
+        <p rend="indent">
+          <lb/>The faſhion of latter years hath taken the practice <lb/>of midwifery almoſt entirely
+          out of the hands of <lb/>women, and placed it into thoſe of the men, and <lb/>the reaſons
+          for it were obvious. Formerly every <lb/>conceited goſſiping woman that choſe to act as a
+          <lb/>midwife, began this profeſſion, without inſtruction, <lb/>I had almoſt ſaid without
+          common ſenſe, or any <lb/>one requiſite for ſuch an important employment, and <lb/>many
+          notorious evils enſued. Then the phyſicians <lb/>and ſurgeons, being men skilled in
+          phyſiology, reſcued <lb/>many unfortunate patients from the fangs of igno- <lb/>rant
+          women, and it becoming a lucrative branch of <lb/>buſineſs, they kept it ſnug, till a
+          numerous body in <pb xml:id="page_20" n="19"/>
+          <lb/>the inferior departments, deſiring to ſhare the pro- <lb/>fits, came forth, like a
+          hord of hungry untaught <lb/>men, from the labours of the peſtle and mortar, <lb/>with a
+          few hooks, forceps and crotchets, in a bag, <lb/>like Dr. Slop, they call themſelves
+          accoucheurs, or <lb/>men-midwives, but for obſtetric knowledge, we <lb/>have ſeen ſome of
+          them as ignorant as meſſengers of <lb/>the contents of their diſpatches, yet ſome of theſe
+          <lb/>men have arrived at eminence, or rather have ac- <lb/>quired extenſive practice and
+          fortunes, but in caſes <lb/>of difficulty, they are as awkward as any of the moſt
+          <lb/>ignorant female practitioners. Women often em- <lb/>ploy men to act as midwives, from
+          a ſuppoſition <lb/>that they muſt know more than the women mid- <lb/>wives; but this, like
+          many other ſuppoſitions, may <lb/>frequently have no real foundation in truth. </p>
+      </div>
+      <div n="4" type="section">
+        <pb xml:id="page_21" n="20"/>
+        <head rend="align-center">
+          <lb/>SECTION IV. </head>
+        <p rend="indent">
+          <lb/>LET us attempt to remark the difference betwixt <lb/>the Accoucheur and the Midwife. </p>
+        <div>
+          <head rend="italic align-center">
+            <lb/>Compariſon of an Accoucheur with a Midwife. </head>
+          <p rend="indent">
+            <lb/> I. The adroit accoucheur is a perſon that can foreſee and often prevent all the
+            evils of difficult labours, with as little hurry or un- <lb/>neceſſary delay as
+            poſſible, and to aſſiſt, can ſometimes uſe the forceps, or other inſtruments contrived
+            to re- <lb/>move the obſtructions to delivery. 
+              <lb/><cb/>I. The inſtructed accou- <lb/>cheuſe is one who is not ignorant of all the
+              natural or preternatural cauſes of danger that can happen, nor of the means of
+              removing them, yet never uſeth any artificial inſtrument; but in preternatural caſes,
+              when patience and the hopes of parturition are loſt in fruit- <lb/>less endeavours,
+              before it is too late, ſhe calls in an approved accoucheur, to aſſiſt her. 
+          
+              <lb/><hi rend="italic">N. B.</hi> It is a certain truth, that inſtruments, the
+              catheter excepted, are very ſeldom wanted, perhaps ſel- <lb/>domer than they are uſed. 
+            <pb xml:id="page_22" n="21"/> II. 
+              <lb/>The uninſtructed accou- <lb/>cheur is commonly in too great a hurry to exhibit
+              his dexterity in uſing his iron inſtruments, and thereby often doth miſchief, it would
+              be horrible to relate. 
+          
+              <lb/>☞ The moſt intelligent of the faculty ſeldom or ne- <lb/>ver uſe inſtruments.
+             III. The accoucheur in great practice cannot in lingering labours afford to loſe ſo
+            much of his time in waiting for ſlow operations of na- <lb/>ture, therefore hurries on
+            delivery, or leaves the pa- <lb/>tient till he can call again, when he can find time,
+            par- <lb/>ticularly if his patient is not opulent. <cb/> II. The ignorant midwife <lb/>
+            knows not when to aſſiſt <lb/>or to leave the buſineſs to <lb/>nature; ſo blunders on,
+            till <lb/>ſometimes both mother and <lb/>infant are loſt, where there <lb/>was in
+            reality no danger.<lb/> III. The accoucheuſe can ſit <lb/>more patiently among fe-
+            <lb/>males in a lying-in room, <lb/>where ſhe is looked up to <lb/>every moment for
+            aſſiſtance; <lb/>ſhe can better ſooth impa- <lb/>tience, by recalling hope; <lb/>ſhe can
+            more properly con- <lb/>tinue in the room conſtantly, <lb/>and delicately give direc-
+            <lb/>tions about what is neces- <lb/>ſary, ſo is not ſo eaſily tired out with
+            attendance. <pb xml:id="page_23" n="22"/> IV. The accompliſhed ac- <lb/>coucheur hath a
+            more ge- <lb/>neral and liberal knowledge of things, by his ſtudy in phyſiology. All the
+            parts of animal bodies are known to him, and he can reaſon better on cauſe and effect,
+            than women who have amuſed themſelves with faſhions, dreſs, taſte, or ap- <lb/>pearance;
+            but ſuch men I have obſerved are ſoon fa- <lb/>tigued with the converſa- <lb/>tions of
+            us poor women. <lb/> V. Men in high practice <lb/> ſeldom know how to handle <lb/> new
+            born children; they <lb/> often touch them with dis- <lb/>like, as they would toads or
+            <lb/> young ſnakes. What is<lb/> then to be done when the <lb/> nurſe is awkward, or at
+            a <lb/> loſs how to manage the <lb/> infant, which is too fre- <lb/>quently the caſe?
+            <cb/> IV.The ſenſible and ſaga- <lb/>cious midwife may make herſelf more agreeable,
+            though ſhe is leſs learned; and as to her neceſſary knowledge in anatomy, ſhe may learn
+            it and all the technical terms in a few months; learning is not difficult to thoſe who
+            love ſtudy, but knowledge is only uſeful when we poſſeſs ſagacity or ſenſe to apply it
+            properly. We have all ſeen learned fools. <lb/> V. Women have commonly <lb/> a great
+            ſuperiority over men <lb/> in the care of infants, it is <lb/> more in their province,
+            and <lb/> a ſenſible midwife thinks <lb/> ſhe ſhould qualify herſelf <lb/> for every
+            adverſe accident <lb/> that may happen. In this <lb/> reſpect women are prefera-
+            <lb/>ble to men. </p>
+        </div>
+        <div type="part">
+          <pb xml:id="page_24" n="23"/>
+          <head rend="italic align-center">
+            <lb/>Some Reaſons offered why Women are preferable to Men as Midwives. </head>
+          <p rend="indent">
+            <lb/>There are many women who cannot converſe eaſily or freely with a man, on many
+            circumſtances that happen about the time of parturition, or even on ſome ſexual
+            diſorders, this may be called falſe mo- <lb/>deſty, but ſtill it exiſts and cauſes many
+            evils; here we ſuppoſe skilful women might be more agree- <lb/>able and uſeful. One of
+            the firſt phyſicians in the city, who I believe to be my friend, ſaid to me one day,
+            lately, that if clever women would dili- <lb/>gently ſtudy to accompliſh themſelves in
+            midwifery, he would wiſh for the ſake of propriety, and the good of mankind, that this
+            profeſſion was again reſtored to female hands. It is the opinion of many learned
+            phyſicians, that the advantages to the ſex are ſmall, if any, by the over grown number
+            of male practitioners, at the ſame time, they are clearly of opinion, that a number of
+            eminent accoucheurs ſhould be ſelected and appointed to give advice both to ordinary men
+            and women midwives in difficult and preternatural caſes. It is fortunate for us, few,
+            very few parturient females, not one in <pb xml:id="page_25" n="24"/>
+            <lb/>many hundreds, need be under the neceſſity of calling in an accoucheur. Indeed, the
+            numbers of women who are delivered with little aſſiſtance, may convince us how much
+            nature acteth in theſe caſes for our advantage. In the obſtetric art, as well as in
+            other branches of the ſcience of healing, it might be better if we could wait patiently,
+            and would humbly rate ourſelves as the handmaids of nature. Premature practitioners, are
+            apt, like the philoſo- <lb/>pher in Raſſelas, to ſuppoſe they can govern the na-
+            <lb/>tural courſe of things, but after a few trials, they muſt find out their
+            incapacity; a little modeſty and common ſenſe, may point out their errors, but con-
+            <lb/>ceited young men and ignorant women are ſeldom eaſily reclaimed from forwardneſs,
+            therefore, pru- <lb/>dence ought to induce us to have recourſe when we can, to
+            intelligent practitioners. </p>
+        </div>
+      </div>
+      <div n="5" type="section">
+        <pb xml:id="page_26" n="25"/>
+        <head rend="align-center italic">
+          <lb/><hi rend="roman">SECTION V.</hi> On the Care of Children. </head>
+        <p rend="indent">
+          <lb/>INFANTS often ſuffer much from the careleſſneſs, ignorance, or officiouſneſs of
+          nurſes; to prevent this, it is the duty of an intelligent midwife to caſt a careful eye
+          over their conduct, a little conſcientious pains ought to be beſtowed upon it; cleanlineſs
+          is a moſt important article, the infant ought to be waſhed twice a day in lukewarm water;
+          it is the conſtant cuſtom in the South of Europe, even in ſummer, for if perſpiration or
+          any other excrementi- <lb/>tious matter is left on their tender skins, it will ſoon become
+          acrid, cauſe inflammation, excoriation, and conſequently much uneaſineſs; this is not
+          writ- <lb/>ten from a fine ſpun theory, but is the reſult of ex- <lb/>perience. We are of
+          opinion, that waſhing of ten- <lb/>der infants in lukewarm water, is greatly preferable to
+          cold water, and that the theory of relaxation is here more imaginary than real, and that
+          experience confirms this doctrine. If from neglect, the skin of infants becomes inflamed
+          or excoriated, let the <pb xml:id="page_27" n="26"/>
+          <lb/>parts be well waſhed, and made dry, then duſt on a little powdered white lead from a
+          muſlin cloth, this is ſimple but effectual, but let the ceruſſa, or powder of lead, be
+          removed ſo as not to go near their victuals. </p>
+        <p rend="indent">
+          <lb/>An intelligent midwife that hath as much, perhaps more experience, and I believe hath
+          had better opportunities of inſtruction, than any other in this city, from the repetition
+          of lectures, hath emphatically deſired me to mention, in my pamphlet, that if infants are
+          kept dry and clean, their tempers and diſpoſitions will be more plea- <lb/>ſant; they will
+          ſeldom be liable to rickets, or any of thoſe diſorders that affect the bones, ſo as to
+          cauſe bandy legs, &amp;c. and that when female in- <lb/>fants are neglected in theſe
+          articles, the bones of the pelvis, or loweſt part of the body, are often ſoftened and
+          diminiſhed in their natural capacity, ſo as when adults, the diſtorted pelvis cannot admit
+          a child to paſs eaſily, and from thence proceedeth the reaſon for inventing of ſo many
+          iron inſtruments to faciliate difficult labours, and to give occaſion to bold operators to
+          try their hands; moreover, this gentlewoman adds, that if it were not for the <pb
+            xml:id="page_28" n="27"/>
+          <lb/>neglect of cleanlineſs in infancy, many men and women would be ſtronger in their
+          loins, better pro- <lb/>portioned in their limbs, more healthy, and move more gracefully,
+          but above all, there would be rarely any cauſe to call in even the prudent and experienced
+          accoucher to aſſiſt in parturition; let me add, that theſe obſervations are confirmed by
+          the opinions of practical men, whoſe judgments are not apocryphal. An attention to this
+          doctrine can never do harm, and nurſes, who conſcientiouſly diſcharge their duty, deſerve
+          rewards and friendſhip. </p>
+        <p rend="indent">
+          <lb/>It ſometimes happens, that wet nurſes have not enough of milk for their nurſelings,
+          and make up their food with bread, tapioca, or Indian arrow root, and the common milk of
+          this town; we be- <lb/>lieve, that in general, beef tea, mutton or veal broth, mixed with
+          them, is preferable. Infants are liable to acidity in the ſtomach and guts, which often
+          occaſions griping, purging, &amp;c. a little magneſia given occaſionally is the beſt
+          domeſtic re- <lb/>medy. If coſtiveneſs at any time comes on, a little manna, or, when very
+          young, a few tea-ſpoonsful of equal parts of freſh oil of almonds and ſyrup of <pb
+            xml:id="page_29" n="28"/>
+          <lb/>violets, repeated occaſionally, is a ſafe and uſeful laxative. If vomiting from foul
+          matter in the ſto- <lb/>mach is troubleſome, one or two grains of the pow- <lb/>der of
+          ipecacuan may be given as an emetic, with ſafety, and ſometimes, two or three tea
+          ſpoonsful of wine, and ſome warm water, by way of aſſiſting the evacuation, will anſwer
+          the purpoſe; if more is wanted, the beſt way is to apply ſoon for proper advice. </p>
+        <p rend="indent">
+          <lb/>In childrens diſeaſes, much may be done by li- <lb/>beral well informed women; in
+          diſeaſes of the bow- <lb/>els, diarrhoea, or flux of the belly, vomitings, worms, hooping
+          coughs, &amp;c. rational women may be more in the way of examining their evacuations, and
+          prying into particular complaints, and naturally attend more to their diſorder, than
+          either the learned phyſician, or the skilful apothecary, whoſe longeſt viſits laſt only a
+          few minutes, and then are told the ſymptoms and circumſtances by ſome indiſtinct at-
+          <lb/>tendant, that knows leſs than ſhe pretends to do; thus a child is often loſt in the
+          hands of able men. Even, when children are ill in the ſmall-pox, meaſles, fever, fits,
+          &amp;c. they are often totally truſted <pb xml:id="page_30" n="29"/>
+          <lb/>to the care of very ignorant, pretending old women, who know as little of theſe
+          diſorders, as I do of the French Directory, or the Iriſh Rebellion. Would it not be
+          better, to find out ſome intelligent perſon, who can and will give attention to them? It
+          is true, ſome do recover in ſpite of bad treatment, but, if they die, are not the parents
+          blameable for over- <lb/>looking ſo important a concern? If ſome women can be found fit
+          for all the important duties of a midwife, and of giving ſound advice in ſexual diſorders,
+          or in thoſe of children, why heſitate to employ them? Are women by nature incapable of
+          inſtruction, or are they deficient in ſagacity to be uſeful? Cuſtom or faſhion govern the
+          world, and often deprives us of that judgment, or common ſenſe, that would be more
+          advantageous to ſociety. Let it not be ſuppoſed, I wiſh to reject the advice of able men,
+          far from it, I wiſh only to demonſtrate that women may be capable of being very uſeful in
+          ſexual diſorders, as well as in thoſe of children; it ſeems to me as if nature had
+          allotted this part of the healing art to females, becauſe we have better opportunities of
+          inveſtigating the real ſtate of the illneſs, and if benevolently aſſiſted by ſagacious
+          phyſicians, might ſave many lives. </p>
+        <pb xml:id="page_31" n="30"/>
+        <p rend="indent">
+          <lb/>There hath been ſome conjectures agitated among men of no mean conſideration, falſe
+          or true, I leave to others to determine; they have ſuppoſed, ſince women of all ranks,
+          gave themſelves up to men- <lb/>midwives, they have loſt much of that delicacy, which
+          before rendered them ſo amiable, and in loſing delicacy, ſay they, may not chaſtity itſelf
+          be eaſily violated? If we loſe poſſeſſion of either, or both, what are we? Others ſuppoſe,
+          ſince that period, more elopements, trials for crim. con. divorces, pri- <lb/>vate
+          intrigues among married women, have been com- <lb/>mon, and that we have acquired more of
+          a maſcu- <lb/>line ſwing in our gait. Some men of gallantry have not ſcrupled to ſay, that
+          women who employ men- <lb/>midwives, are in general, an eaſier prey than thoſe who do not.
+          It is ſtep by ſtep, or ſlow advances, that women commonly arrive at vice, juſt ſo, do
+          thoughtleſs boys become cruel, by being ſuffered to torment birds, beaſts, reptiles,
+          inſects, &amp;c. by and by, they loſe every feeling of humanity, and can murder men
+          without horror. If we could but be cautious to defend ourſelves againſt the approach of
+          all impropriety, the ladies of Britain would be as ſuperior in virtue as they are in
+          beauty. <unclear>##### #####</unclear>
+        </p>
+        <div>
+          <pb xml:id="page_32" n="31"/>
+          <head rend="italic align-center">
+            <lb/>A comparative Review of Male and Female Temperaments. </head>
+          <p rend="indent">
+            <lb/>Females, when young, may at leaſt claim equal eſteem with their brothers, the lords
+            of creation, for filial affection, and all the virtues of parental obedience; as wives,
+            men of great obſervation have given teſtimony in their writings, that we are by no means
+            inferior to our husbands in conjugal duties. </p>
+          <p rend="indent">
+            <lb/>As mothers, I have ſtill the teſtimony of men, that we are full as tender and
+            careful of our chil- <lb/>dren as their fathers are; as miſtreſſes of fami- <lb/>lies,
+            are we not equally economical, as kind to our ſervants, and benevolent to the poor?
+            Authors of the moſt eminent abilities, after a comparative review of both ſexes, have
+            candidly declared, upon the whole, we are by no means inferior, or rather we are
+            ſuperior, in acting our parts in all the con- <lb/>cerns of life. All theſe
+            commendations we can re- <lb/>ceive with conſcious pride, while we merit them, but when
+            we part with delicacy or modeſty, alas! how are we fallen! even, like a flower after it
+            is cropt, ſoon loſeth all its ſweetneſs, and is caſt like a loathſome weed away. I wiſh
+            my amiable readers <pb xml:id="page_33" n="32"/>
+            <lb/>may conſider here what I have ſaid, both in a moral, and a religious point of view;
+            it can do them no harm, and if the thinking part of men can alſo agree with me, it may
+            be an object worthy of their atten- <lb/>tion, to leſſen, or do away one of the greateſt
+            cauſes of our misfortunes and unhappineſs. </p>
+          <p rend="indent">
+            <lb/>I could wiſh that female education was more ſo- <lb/>licitouſly attended to. When
+            young, we often have a bad education, which is worſe than none; ſo by imitation, from
+            bad examples, of eaſe, free- <lb/>dom, faſhion, grace, &amp;c. inſenſibly we loſe the
+            elegant ſweetneſs of female delicacy and reſerve. I am always happy to ſee young ladies
+            exhibit ex- <lb/>cellence in the dance, to hear the charms of muſic from their
+            well-toned inſtruments, or tranſported by the melting ſounds of the voice, and to behold
+            their taſte in drawing; but I am ſometimes ſorry to find, that theſe accompliſhed young
+            ladies are ignorant of the grammar of their own language, that they are deficient in
+            underſtanding the firſt principles of virtue, and that they have had no inſtruction on
+            the holy ſcriptures; the firſt of theſe two laſt, may ſhew them the beauty and felicity
+            of moral conduct, and <pb xml:id="page_34" n="33"/>
+            <lb/>the ſecond, the eternal bliſs, that is promiſed us, in ſtudying the laws of our
+            Almighty Cre- <lb/>ator, or Redeemer; and I will venture to aſſure my fair readers, that
+            by ſtudying carefully theſe ſacred laws, ſo as to practiſe them as ſtrictly as poſſible,
+            they will find continually that ſatisfaction in their minds, that will give cheerfulneſs
+            to their features, that will beautify their beauty; beſides, if the day of adverſity
+            ſhould overtake us, the conſciouſneſs of having done our duty, will feel to afflicted
+            minds as a ſource of celeſtial conſolation. </p>
+          <p rend="indent">
+            <lb/>I am a mother myſelf, and it is on theſe prin- <lb/>ciples I endeavour to inſtruct
+            my children. If I dared, as a female writer, I would venture to re- <lb/>commend to
+            young ladies of faſhion, ſome attention to hiſtory, geography, botany, natural hiſtory,
+            mo- <lb/>ral and natural philoſophy, &amp;c. theſe might occupy any blank in their
+            minds, and make them capa- <lb/>ble to carry on agreeable converſations on any ſub-
+            <lb/>ject; this would make them admired by all their ac- <lb/>quaintances, and adored by
+            their husbands, it would render their actions more graceful, and their beauty more
+            pleaſing; it would make religion more rational, by opening their eyés to the power and
+            goodneſs of the Almighty in all his works. </p>
+        </div>
+      </div>
+    </body>
+
+  </text>
+</TEI>

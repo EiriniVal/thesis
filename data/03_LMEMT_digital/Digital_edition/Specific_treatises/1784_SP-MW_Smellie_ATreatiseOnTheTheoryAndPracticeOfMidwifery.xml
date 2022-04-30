@@ -1,0 +1,1350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> LMEMT Corpus - Smellie: A Treatise on the theory and practice of midwifery
+                    Patients</title>
+                <respStmt>
+                    <resp>Compiler</resp>
+                    <persName xml:id="IT">
+                        <forename>Irma</forename>
+                        <surname>Taavitsainen</surname>
+                    </persName>
+                    <persName xml:id="TH">
+                        <forename>Turo</forename>
+                        <surname>Hiltunen</surname>
+                    </persName>
+                    <persName xml:id="ALe">
+                        <forename>Anu</forename>
+                        <surname>Lehto</surname>
+                    </persName>
+                    <persName xml:id="VM">
+                        <forename>Ville</forename>
+                        <surname>Marttila</surname>
+                    </persName>
+                    <persName xml:id="RO">
+                        <forename>Raisa</forename>
+                        <surname>Oinonen</surname>
+                    </persName>
+                    <persName xml:id="PP">
+                        <forename>Päivi</forename>
+                        <surname>Pahta</surname>
+                    </persName>
+                    <persName xml:id="MR">
+                        <forename>Maura</forename>
+                        <surname>Ratia</surname>
+                    </persName>
+                    <persName xml:id="CS">
+                        <forename>Carla</forename>
+                        <surname>Suhr</surname>
+                    </persName>
+                    <persName xml:id="JT">
+                        <forename>Jukka</forename>
+                        <surname>Tyrkkö</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Research Assistant</resp>
+                    <persName xml:id="WA">
+                        <forename>Wilma</forename>
+                        <surname>Andersson</surname>
+                    </persName>
+                    <persName xml:id="EC">
+                        <forename>Emanuela</forename>
+                        <surname>Costea</surname>
+                    </persName>
+                    <persName xml:id="DV">
+                        <forename>Diana</forename>
+                        <surname>Frank-Väyrynen</surname>
+                    </persName>
+                    <persName xml:id="SK">
+                        <forename>Sami</forename>
+                        <surname>Kalliomäki</surname>
+                    </persName>
+                    <persName xml:id="MK">
+                        <forename>Mirella</forename>
+                        <surname>Klinga</surname>
+                    </persName>
+                    <persName xml:id="SKo">
+                        <forename>Sami</forename>
+                        <surname>Koskinen</surname>
+                    </persName>
+                    <persName xml:id="ALi">
+                        <forename>Aatu</forename>
+                        <surname>Liimatta</surname>
+                    </persName>
+                    <persName xml:id="HR">
+                        <forename>Heikki</forename>
+                        <surname>Rajala</surname>
+                    </persName>
+                    <persName xml:id="JR">
+                        <forename>Jenni</forename>
+                        <surname>Riihimäki</surname>
+                    </persName>
+                    <persName xml:id="AW">
+                        <forename>Anna-Lina</forename>
+                        <surname>Walraff</surname>
+                    </persName>
+                </respStmt>
+                <sponsor>
+                    <orgName>Department of Modern Languages, University of Helsinki</orgName>
+                </sponsor>
+                <funder>
+                    <orgName>University of Helsinki</orgName>
+                    <orgName>Academy of Finland</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>John Benjamins Publishing Company</publisher>
+                <pubPlace>Amsterdam</pubPlace>
+                <date>forthcoming</date>
+                <availability>
+                    <p>Copyright by the publisher. All rights reserved.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>
+                            <persName>William Smellie</persName>
+                        </author>
+                        <title type="main">A treatise on the theory and practice of midwifery. By W.
+                            Smellie, M.D. A new edition. To which is now added, his set of
+                            anatomical tables, exhibiting The Various cases that occur in Practice,
+                            accurately engraven on forty copperplates; with explanations. In three
+                            volumes.</title>
+                        <edition n="1"/>
+                        <idno type="ESTC">N014178</idno>
+                        <ptr type="ESTC-link" target="http://estc.bl.uk/N14178"/>
+                        <imprint>
+                            <!--Add additional <placeName/> elements for each additional place of publication.-->
+                            <pubPlace>
+                                <placeName/>
+                            </pubPlace>
+                            <publisher>
+                                <persName>Edinburgh: printed for C. Elliot, Parliament-Square,
+                                    M.DCC.LXXXIV.</persName>
+                            </publisher>
+                            <date>1784</date>
+                        </imprint>
+                        <extent>
+                            <measure type="format">12⁰</measure>
+                            <measure type="count" commodity="front" unit="page" quantity="47"/>
+                            <measure type="count" commodity="body" unit="page" quantity="331"/>
+                            <measure type="count" commodity="back" unit="page" quantity="74"/>
+                        </extent>
+                    </monogr>
+                    <note type="source_copy">
+                        <orgName type="library">Countway Library of Medicine</orgName>
+                        <idno type="ECCO">CW107015178</idno>
+                    </note>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <catRef n="Book on a specific topic: midwifery"/>
+            </textClass>
+        </profileDesc>
+        
+    </teiHeader>
+    <text type=" book" xml:lang="eng" rend="roman">
+        <front>
+            <pb/>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main" rend="align-center">
+                        <lb/>A <lb/><space dim="vertical" unit="lines" quantity="1"/>
+                        <lb/><hi rend="size(2.0)">TREATISE</hi>
+                        <lb/><space dim="vertical" unit="lines" quantity="1"/>
+                        <lb/><hi rend="size(0.75)">ON THE</hi>
+                        <lb/><space dim="vertical" unit="lines" quantity="1"/>
+                        <lb/><hi rend="size(1.75) sc"> Theory and Practice</hi>
+                        <lb/><space dim="vertical" unit="lines" quantity="1"/>
+                        <lb/><hi rend="size(0.75)">OF</hi>
+                        <lb/><space dim="vertical" unit="lines" quantity="1"/>
+                        <lb/><hi rend="size(2.0)">MIDWIFERY</hi>. </titlePart>
+                </docTitle>
+                <lb/>
+                <space dim="vertical" unit="lines" quantity="1"/>
+                <byline rend="align-center size(1.5)"><lb/>By <docAuthor>W. SMELLIE</docAuthor>, M.
+                    D. </byline>
+                <lb/>
+                <space dim="vertical" unit="lines" quantity="1"/>
+                <docEdition rend="align-center"><lb/>A NEW EDITION.</docEdition>
+                <lb/>
+                <space dim="vertical" unit="lines" quantity="1"/>
+                <argument>
+                    <p rend="align-center"><lb/><hi rend="size(0.75) sc"> to which is now added,
+                            His</hi><lb/><space dim="vertical" unit="lines" quantity="1"/>
+                        <lb/>SET OF ANATOMICAL TABLES, <lb/><space dim="vertical" unit="lines"
+                            quantity="1"/>
+                        <lb/><hi rend="size(0.75) sc">exhibiting</hi>
+                        <lb/><space dim="vertical" unit="lines" quantity="1"/><lb/>The <hi rend="sc"
+                            >Various</hi> CASES that occur in <hi rend="sc">Practice</hi>,
+                            <lb/><space dim="vertical" unit="lines" quantity="1"/>
+                        <lb/><hi rend="size(0.75)"> Accurately engraven on</hi>
+                        <lb/><space dim="vertical" unit="lines" quantity="1"/><lb/>FORTY
+                        COPPERPLATES; <lb/><space dim="vertical" unit="lines" quantity="1"/><lb/><hi
+                            rend="size(0.75) sc">with explanations</hi>. </p>
+                </argument>
+                <lb/>
+                <space dim="vertical" unit="lines" quantity="1"/>
+                <figure>
+                    <lb/>
+                    <figDesc>A long horizontal line.</figDesc>
+                </figure>
+                <docEdition rend="align-center"><lb/>IN THREE VOLUMES. </docEdition>
+                <figure>
+                    <lb/>
+                    <figDesc>A long horizontal line.</figDesc>
+                </figure>
+                <lb/>
+                <space dim="vertical" unit="lines" quantity="1"/>
+                <docEdition rend="align-center"><lb/>VOL. I.</docEdition>
+                <lb/>
+                <space dim="vertical" unit="lines" quantity="1"/>
+                <figure>
+                    <lb/>
+                    <figDesc>A horizontal line that is thicker in the middle. </figDesc>
+                </figure>
+                <lb/>
+                <space dim="vertical" unit="lines" quantity="1"/>
+                <docImprint rend="align-center size(0.75)">
+                    <lb/><placeName>EDINBURGH</placeName>: <lb/>Printed for <persName
+                        role="publisher">C. ELLIOT</persName>,
+                        <placeName>Parliament-Square</placeName>. <lb/><figure>
+                        <figDesc>A short horizontal line.</figDesc>
+                    </figure>
+                    <docDate when="1784"><lb/>M. DCC. LXXXIV</docDate>. </docImprint>
+            </titlePage>
+            <gap reason="sampling" unit="pages" quantity="12"/>
+        </front>
+        <body>
+            <pb/>
+            <gap reason="sampling" unit="pages" quantity="34"/>
+            <div type="book">
+                <pb/>
+                <gap reason="sampling" unit="pages" quantity="14"/>
+                <pb n="63"/>
+                <gap reason="sampling" unit="pages" quantity="0"/>
+                <div type="chapter">
+                    <figure rend="space">
+                        <lb/>
+                        <figDesc>A long horizontal line, spanning the whole page.</figDesc>
+                    </figure>
+                    <head rend="align-center space"><lb/>CHAP. II. </head>
+                    <head rend="space align-center italic"><lb/>Of the external and internal Parts
+                        of Generation <lb/>proper to Women. </head>
+                    <div type="section">
+                        <head rend="space align-center size(0.75) italic"><lb/><hi rend="roman sc"
+                                >Sect. I</hi>. The external Parts and <hi rend="roman sc"
+                                >Vagina</hi>. </head>
+                        <p rend="space"><lb/><hi rend="dc(2)">T</hi>HE Mons Veneris is ſituated at
+                            the <lb/>upper part of the Pubes, from which <w part="I">al-</w><lb/><w
+                                part="F">ſo</w> begin the Labia Pudendi, ſtretching down <lb/>as far
+                            as the lower edge, where the Frænum <lb/>Labiorum or Fourchette is
+                            formed. </p>
+                        <p rend="indent"><lb/>The Clitoris with its Præputium is found <lb/>between
+                            the Labia, on the middle and <w part="I">fore-</w><lb/><w part="F"
+                                >part</w> of the Pubes; and from the lower part <lb/>of the
+                            Clitoris, the Nymphæ riſing, ſpread <lb/>outwards and downwards to the
+                            ſides of the <lb/>Os Externum, forming a kind of ſulcus or <lb/>furrow,
+                            called the <hi rend="italic">Foſſa Magna</hi> or <hi rend="italic"
+                                >Navicularis</hi>, <lb/>for the direction of the Penis in coition,
+                            or <lb/>the finger in touching, into the Vagina. See <lb/>Collect. II.
+                                N<hi rend="sup">o</hi> 1, 2. </p>
+                        <p rend="indent"><lb/>The Meatus Urinarius is immediately below <pb n="64"
+                            /><lb/>the under edge of the Symphyſis of the Oſſa <lb/>Pubis, and at
+                            the upper part of the Os <w part="I">Exter-</w><lb/><w part="F">num</w>,
+                            which is the orifice of the Vagina, <w part="I">ſi-</w><lb/><w part="F"
+                                >tuated</w> immediately below the ſaid bones of the <lb/>Pubes: the
+                            lower edge of which bones is <lb/>equal to the lower edge of the Frænum
+                            or <lb/>Fourchette, which bounds the inferior part of <lb/>the Foſſa
+                            Magna and Os Externum, reſtraining <lb/>it as if with a bridle. </p>
+                        <p rend="indent"><lb/>The Perinæum extends from this border to <lb/>the
+                            Anus, being about one inch or one and an <lb/>half in length: the
+                            wrinkled part of the Anus <lb/>is about three quarters of an inch in
+                            diameter; <lb/>from thence to the Coccyx the diſtance is <lb/>about two
+                            inches: ſo that the whole extent <lb/>from the Fourchette to this bone
+                            amounts to <lb/>about four inches, or four and a quarter. </p>
+                        <p rend="indent"><lb/>What remains of the lower part of the <w part="I"
+                                >Pel-</w><lb/><w part="F">vis</w> is covered and filled up with the
+                                <w part="I">integu-</w><lb/><w part="F">ments</w>, adipoſe membrane,
+                            and the muſcles <w part="I">cal-</w><lb/><w part="F">led</w>
+                            <hi rend="italic">Levatores Ani</hi>; while within theſe are
+                            <lb/>contained the muſcles belonging to the <w part="I"
+                                >Clito-</w><lb/><w part="F">ris</w>, mouth of the bladder, Os
+                            Externum, and <lb/>Anus. See Tab. IV. </p>
+                        <p rend="indent"><lb/>In young children, there is a thin membrane
+                            <lb/>called the <hi rend="italic">Hymen</hi>, extended over the lower
+                            <lb/>part of the Os Externum, repreſenting the <w part="I"
+                                >fi-</w><lb/><w part="F">gure</w> of a creſcent; the concave and
+                            open ſide <lb/>being turned towards the Meatus Urinarius. <lb/>In ſome,
+                            the middle of this concave is attached <lb/>to the lower part of the
+                            Meatus, forming two <lb/>ſmall openings; nay, in ſome adults this <w
+                                part="I">mem-</w><lb/><w part="F">brane</w> has entirely ſhut up the
+                            entrance of the <lb/>Vagina, ſo that they have been altogether <w
+                                part="I">im-</w><pb n="65"/><lb/><w part="F">perforated</w>; but,
+                            when broke, it recedes, and <lb/>forms the Carunculæ myrtiformes. See <w
+                                part="I">Col-</w><lb/><w part="F">lect</w>. II. N<hi rend="sup"
+                                >o</hi> 3. 4. 5. </p>
+                        <p rend="indent"><lb/>On each ſide of the Meatus Urinarius are <lb/>two
+                            ſmall lacunæ or openings, the tubes of <lb/>which, ending in a kind of
+                            ſacculus, come <lb/>from the proſtrate gland: from theſe a thin
+                            <lb/>fluid is ejected in time of copulation, and that <lb/>from ſome
+                            women with conſiderable force; and <lb/>ſometimes, though ſeldom, to the
+                            quantity of <lb/>ſeveral drachms. </p>
+                        <p rend="indent"><lb/>The Urethra in women is about one inch and <lb/>an
+                            half in length. The Vagina is formed of a <lb/>ſtrong thick membrane, of
+                            a ſpongy texture, <lb/>more contracted in virgins than in married <w
+                                part="I">wo-</w><lb/><w part="F">men</w>. When ſtretched to its full
+                            extent, it may <lb/>be about five, ſix, or ſeven inches long, and
+                            <lb/>two in width, according to the difference of <lb/>ſtature in
+                            different women: but, when the <lb/>Uterus hangs down in the Vagina, the
+                            length <lb/>will not be more than two or three inches; <lb/>and it may
+                            be ſtretched with the finger to the <lb/>wideneſs of three or four. The
+                            inſide of it, in <lb/>young women, is full of rugæ, folds or <w part="I"
+                                >wrin-</w><lb/><w part="F">kles</w>, which are partly obliterated in
+                            thoſe who <lb/>have born children. The upper end of the <w part="I"
+                                >Va-</w><lb/><w part="F">gina</w> is joined to the circumference of
+                            the lips <lb/>of the Os Uteri, which reſemble the mouth of <lb/>a puppy
+                            or tench; and a thin expanſion of <lb/>this membrane, being reflected
+                            inwards, <w part="I">co-</w><lb/><w part="F">vers</w> the exterior part
+                            of theſe lips, which in <lb/>virgins are ſmooth and of an oval form. It
+                            is <lb/>alſo continued along the inſide of the Uterus, <lb/>conſtituting
+                            the internal membrane of the neck <pb n="66"/><lb/>and Fundus, which is
+                            likewiſe full of plicæ, <lb/>eſpecially in young ſubjects. See Tab. V.
+                            VI. </p>
+                        <p rend="indent"><lb/>As to the different names of thoſe parts, <lb/>the
+                            book of Schurigius, publiſhed at Dreſden <lb/>in the year 1729, may be
+                            conſulted. The <w part="I">en-</w><lb/><w part="F">try</w> of the Vagina
+                            is commonly called the <lb/><hi rend="italic">Sphincter Vaginæ</hi>, and
+                            the mouth of the womb <lb/>is often diſtinguiſhed by the appellation of
+                                <hi rend="italic">Os <lb/>Tincæ</hi>: but, as the mention of theſe
+                            parts will <lb/>frequently occur in the courſe of this treatiſe, <lb/>I
+                            ſhall, in order to avoid confuſion or miſtake, <lb/>call the firſt Os
+                            Externum, and the other Os <lb/>Internum, through the whole book. </p>
+                    </div>
+                    <div type="section">
+                        <head rend="space align-center size(0.75) italic"><lb/><hi rend="roman sc"
+                                >Sect. II</hi>. Of the <hi rend="roman sc">Uterus</hi>. </head>
+                        <p rend="space"><lb/><hi rend="dc(2)">T</hi>HE Uterus is about three inches
+                            long <lb/>from the Os Internum to the upper part <lb/>of the Fundus, and
+                            one inch in thickneſs from <lb/>the fore to the back part. It is divided
+                            into <lb/>the Neck and Fundus; the length of the neck <lb/>being an inch
+                            and three quarters, while that <lb/>of the fundus is one inch and one
+                            quarter. <lb/>The width of the Uterus at the neck is about <lb/>one
+                            inch, but at the fundus twice as much. <lb/>The Uterus is ſmaller in
+                            young women. </p>
+                        <p rend="indent"><lb/>The outſide-ſhape of the Uterus in ſome <lb/>meaſure
+                            reſembles a flattened cucurbit, or <lb/>that kind of ſpear which hath a
+                            long neck. </p>
+                        <p rend="indent"><lb/>The canal or entrance from the Os <w part="I"
+                                >Inter-</w><lb/><w part="F">num</w> to the cavity of the Fundus
+                            Uteri, will <lb/>admit a common director; being a little wider <lb/>in
+                            the middle, and more contracted at the <w part="I">up-</w><lb/><w
+                                part="F">per</w> end. </p>
+                        <pb n="67"/>
+                        <p rend="indent"><lb/>The cavity of the Fundus, is in point of <w part="I"
+                                >fi-</w><lb/><w part="F">gure</w> ſomething between an oval and <w
+                                part="I">tri-</w><lb/><w part="F">angle</w>: one of the angles
+                            commencing at the <lb/>upper end of the foreſaid canal, and the other
+                            <lb/>two expanding the ſides of the Fundus, from <lb/>which ariſe the
+                            Fallopian tubes. Theſe tubes <lb/>are about three inches long; and ſo
+                            narrow at <lb/>their entrance from the Uterus, as ſcarcely to <lb/>admit
+                            an hog's briſtle; but the cavity of each <lb/>turns gradually wider, and
+                            ends in an open <lb/>mouth or ſphincter, from the brim of which <lb/>is
+                            expanded the Fimbria or Morſus Diaboli, <lb/>that generally bears the
+                            likeneſs of jagged <lb/>leaves, and in ſome reſembles an hand with
+                            <lb/>membranous fingers, which is ſuppoſed to <lb/>graſp the Ovum when
+                            ripe and ready to drop <lb/>from the Ovarium. </p>
+                        <p rend="indent"><lb/>The Uterus is formed firſt of the inſide <lb/>membrane
+                            that riſes from the Vagina, and <lb/>lines all the interior part of the
+                            womb: <w part="I">imme-</w><lb/><w part="F">diately</w> above this coat
+                            is the thick ſubſtance of <lb/>the Uterus, compoſed of a plexus of
+                            arteries, <lb/>lymphatics, veins, and nerves; and the <w part="I"
+                                >veſ-</w><lb/><w part="F">ſels</w> on its ſurface, when injected,
+                            ſeem to <lb/>run in contorted lines. It appears to be of the <lb/>ſame
+                            glandular texture (though not ſo <w part="I">com-</w><lb/><w part="F"
+                                >pact</w>) as that of the breaſts, without any <w part="I"
+                                >muſ-</w><lb/><w part="F">cular</w> fibres, except ſuch as compoſe
+                            the coats <lb/>of the veſſels: neither is there any neceſſity <lb/>for
+                            that muſcle which Ruyſch pretended to <w part="I">diſ-</w><lb/><w
+                                part="F">cover</w> at the fundus, for the convenience of
+                            <lb/>forcing off the placenta; becauſe this cake as <lb/>frequently
+                            adheres to other parts of the womb <lb/>as to the fundus. </p>
+                        <pb n="68"/>
+                        <p rend="indent"><lb/>The ſubſtance of the Uterus appears more <lb/>compact
+                            and pale than that of muſcles; or if it <lb/>be muſcular, at leaſt the
+                            fibres are more cloſe, <lb/>and more intricately diſpoſed, than in other
+                            <lb/>muſcular parts. The blood-veſſels of the womb, <lb/>in the virgin
+                            or unimpregnated ſtate, are very <lb/>ſmall, except juſt at their
+                            approach to its ſides, <lb/>at the roots of the Ligamenta lata: But, as
+                            <lb/>ſoon almoſt as they enter its ſubſtance, they are <lb/>diſperſed
+                            into ſuch numbers of ſmaller branches <lb/>through the whole, that, when
+                            it is cut, we can <lb/>obſerve but few, and thoſe very ſmall, orifices,
+                            <lb/>much leſs any cavities that deſerve the name of <lb/>ſinuſes.
+                            Indeed, when this part is minutely <lb/>injected, it ſeems to be almoſt
+                            nothing but <lb/>a maſs of veſſels; a circumſtance common to <lb/>it
+                            with other parts of the body: And <w part="I">anato-</w><lb/><w part="F"
+                                >miſts</w> are agreed, that the greater number of <lb/>veſſels
+                            viſible in ſuch nice injections, are thoſe <lb/>thro' which the ſerum or
+                            lymph of the blood <lb/>circulates in the living body; whence the <hi
+                                rend="italic"><w part="I">er-</w><lb/><w part="F">ror</w> loci</hi>
+                            in an Ophthalmia is imitated by ſubtile <lb/>injections of coloured
+                            matter into the arteries <lb/>of the dead ſubject. See Tab. V. </p>
+                        <p rend="indent"><lb/>When the Uterus ſtretches in time of <w part="I"
+                                >geſta-</w><lb/><w part="F">tion</w>, the veſſels are proportionably
+                            dilated by <lb/>an increaſe of the fluid they contain: ſo that, <lb/>at
+                            the time of delivery, ſome of them are <w part="I">capa-</w><lb/><w
+                                part="F">cious</w> enough to admit the end of the little <w part="I"
+                                >fin-</w><lb/><w part="F">ger</w>. Yet the ſubſtance of the womb,
+                            for the <lb/>moſt part, inſtead of growing thinner, as <w part="I"
+                                >Mau-</w><lb/><w part="F">riceau</w> alleges, or thicker, according
+                            to <w part="I">Da-</w><lb/><w part="F">venter</w>, continues its natural
+                            thickneſs <w part="I">du-</w><lb/><w part="F">ring</w> the whole term of
+                            pregnancy; and this <pb n="69"/><lb/>equality is maintained by the
+                            gradual <w part="I">diſten-</w><lb/><w part="F">tion</w> of the veſſels
+                            that enter into its <w part="I">compoſi-</w><lb/><w part="F">tion</w>.
+                            In time of labour, indeed, as the <w part="I">wa-</w><lb/><w part="F"
+                                >ters</w> are diſcharged, the Uterus contracts itſelf <lb/>and grows
+                            thicker; and the reſiſtance ceaſing <lb/>at the delivery of the child
+                            and after-birth, it <lb/>becomes ſmaller and ſmaller, until it has <w
+                                part="I">near-</w><lb/><w part="F">ly</w> reſumed its natural
+                            dimenſions. See <w part="I">Col-</w><lb/><w part="F">lect</w>. III. N<hi
+                                rend="sup">o</hi>. 1. 2. Tab. IX. XII. </p>
+                        <p rend="indent"><lb/>For, as the Uterus contracts itſelf after <w part="I"
+                                >par-</w><lb/><w part="F">turition</w>, the arterial blood cannot
+                            flow into it <lb/>in the ſame quantity as that with which the
+                            <lb/>veſſels are filled in their ſtate of diſtention. The <lb/>fluids
+                            are gradually emptied into the Vena <w part="I">Ca-</w><lb/><w part="F"
+                                >va</w> Aſcendens, but chiefly through the mouths <lb/>of the
+                            veſſels that open into the cavity of the <lb/>womb; and the veſſels
+                            themſelves that were <lb/>ſtretched, elongated, and ſeemed to recede
+                            <lb/>from one another, are alſo contracted by <w part="I">de-</w><lb/><w
+                                part="F">grees</w>, and that in ſuch a direction as to <w part="I"
+                                >re-</w><lb/><w part="F">duce</w> the Uterus into the ſame ſhape and
+                            ſize <lb/>which it bore before impregnation: nay, the <lb/>fibres are
+                            again ſo compacted, that they, and <lb/>even the veſſels, are ſcarce
+                            diſcernible. </p>
+                        <p rend="indent"><lb/>The Vagina on its outſide is covered with a <lb/>thick
+                            adipoſe membrane: by means of which <lb/>it is on the fore-part attached
+                            to the lower part <lb/>of the bladder, and on the back-part to the
+                            <lb/>lower end of the Rectum and Anus; and by <lb/>the ſame means all
+                            theſe parts are connected <lb/>with the Peritonæum, or internal ſurface
+                            of the <lb/>Pelvis. </p>
+                        <p rend="indent"><lb/>The Uterus is contained in a duplicature of <lb/>the
+                            Peritonæum, which covers it every where <pb n="70"/><lb/>above, and is
+                            connected with its ſubſtance by <lb/>a very thin cellular membrane; as
+                            for the <w part="I">Pe-</w><lb/><w part="F">ritonæum</w> in itſelf, it
+                            is a ſmooth <w part="I">membra-</w><lb/><w part="F">nous</w> expanſion,
+                            that covers all the inſide of <lb/>the Abdomen, and gives external coats
+                            to all <lb/>the Viſcera contained in that cavity. On the <lb/>fore-part
+                            it lines the muſcles of the Abdomen <lb/>and Diaphragma; backwards, it
+                            covers the <lb/>abdominal Viſcera in general, the Aorta and <lb/>and
+                            Vena Cava Deſcendens, the kidneys, <w part="I">ure-</w><lb/><w part="F"
+                                >ters</w>, and ſpermatic veſſels, the external and <lb/>internal
+                            Iliacs, the Pſoas and muſcles that <w part="I">co-</w><lb/><w part="F"
+                                >ver</w> the inſide of the Ilium, whence it riſes <lb/>double, and
+                            forms the Ligamenta Lata, in <lb/>which are contained the Ovaria and
+                            Fallopian <lb/>tubes. This dublicature, where it meets in the
+                            <lb/>middle, invelops all the Uterus, as before <w part="I"
+                                >ob-</w><lb/><w part="F">ſerved</w>, and gives a covering to the
+                            round <w part="I">li-</w><lb/><w part="F">gaments</w> that riſe from
+                            each ſide of the <w part="I">Fun-</w><lb/><w part="F">dus</w> Uteri, and
+                            are inſerted or loſt about the <lb/>upper and external part of the pubes
+                            and groin. <lb/>The Peritonæum is alſo reflected from the <w part="I"
+                                >fore-</w><lb/><w part="F">part</w> of the Uterus over the upper
+                            part of the <lb/>bladder: and upon the back-part of the <w part="I"
+                                >Ute-</w><lb/><w part="F">rus</w> it deſcends even upon the Vagina,
+                            from <lb/>which it is again reflected upwards over the <lb/>Rectum. By
+                            theſe attachments, eſpecially the <lb/>broad and round ligaments, the
+                            Uterus is kept <lb/>between the Veſica Urinaria and Rectum, <w part="I"
+                                >looſe-</w><lb/><w part="F">ly</w> ſuſpended in the Vagina, within
+                            two or three <lb/>inches of the Os Externum; the Epiploon and
+                            <lb/>inteſtines occupy the upper and fore part of <lb/>the Pelvis, by
+                            which means the Uterus is <w part="I">preſ-</w><lb/><w part="F">ſed</w>
+                            downwards and backwards to the lower <pb n="71"/><lb/>and concave part
+                            of the Sacrum. (See Tab. <lb/>V. fig. 2.) As the Veſica Urinaria fills
+                            and <lb/>ſtretches with Urine, the Viſcera are raiſed: <lb/>but as the
+                            bladder is emptied, they return; <lb/>and this is the reaſon that the Os
+                            Uteri is <w part="I">com-</w><lb/><w part="F">monly</w> felt backwards
+                            towards the Os Coccygis. <lb/>Sometimes it is found tilted to one ſide;
+                            at <lb/>other times forwards towards the Pubes, and <lb/>the Fundus
+                            preſſed low down on the back-part. <lb/>The Os Uteri is alſo higher or
+                            lower according <lb/>as the ligaments are more or leſs lax or tenſe.
+                            <lb/>In coition, the Uterus yields three or four <lb/>inches to the
+                            preſſure of the Penis, having a free <lb/>motion upwards and downwards,
+                            ſo that the <lb/>reciprocal oſcillation, which is permitted by <lb/>this
+                            contrivance, increaſes the mutual <w part="I">titilla-</w><lb/><w
+                                part="F">tion</w> and pleaſure. See Tab. V. </p>
+                        <p rend="indent"><lb/>The ligaments undergo no extraordinary <lb/>extenſion
+                            in time of uterine geſtation, becauſe <lb/>they ſink down two inches
+                            with the Uterus in <lb/>an unimpregnated ſtate; and when the <w part="I"
+                                >Fun-</w><lb/><w part="F">dus</w> riſes, they will be raiſed, at the
+                            ſame time, <lb/>to the height of not only theſe two inches, but <lb/>as
+                            much more, without being ſtretched in the <lb/>leaſt: Beſides, as the
+                            Uterus riſes ſtill <w part="I">up-</w><lb/><w part="F">wards</w>, the
+                            ſides of it approach the Ilia, from <lb/>whence the broad ligaments take
+                            their origin; <lb/>and this circumſtance is equal to an acquiſition
+                            <lb/>of three inches more: So that, upon the whole, <lb/>theſe ligaments
+                            ſeem to be very little ſtretched, <lb/>even in the laſt month of
+                            pregnancy. </p>
+                    </div>
+                    <pb n="72"/>
+                    <div type="section">
+                        <head rend="space align-center size(0.75) italic"><lb/><hi rend="roman sc"
+                                >Sect. III</hi>. Of the <hi rend="roman sc">Ovaria</hi>, Veſſels,
+                            Ligaments, <lb/>and Fallopian Tubes. </head>
+                        <p rend="space"><lb/><hi rend="dc(2)">T</hi>HE Ovaria are two ſmall oval
+                            bodies, one <lb/>of which is placed behind each Fallopian <lb/>tube;
+                            ſuppoſed to be little more than a <w part="I">cluſ-</w><lb/><w part="F"
+                                >ter</w> of Ova, whence they derive their preſent <lb/>name: for, by
+                            ancient authors, they are <w part="I">men-</w><lb/><w part="F"
+                                >tioned</w> by the appellation of the <hi rend="italic">female <w
+                                    part="I">teſti-</w><lb/><w part="F">cles</w></hi>. Each Ovarium
+                            is about one inch in <lb/>length, half as broad, and one quarter of an
+                            <lb/>inch in thickneſs; more convex on the fore <lb/>than on the back
+                            part, of a ſmooth ſurface, <lb/>covered with the Peritonæum. See Tab. V. </p>
+                        <p rend="indent"><lb/>The blood-veſſels are, firſt, the Spermatic
+                            <lb/>Arteries and Veins, which have nearly the ſame <lb/>origin as thoſe
+                            in men, are moſtly diſtributed <lb/>upon the Ovaria and tubes, and at
+                            the upper <lb/>part of the Uterus communicate with the <w part="I"
+                                >hy-</w><lb/><w part="F">pogaſtrics</w>; from the branches of which
+                            the <lb/>body of the womb is furniſhed. All theſe <w part="I"
+                                >ar-</w><lb/><w part="F">teries</w> anaſtomoſe, and are ſuppoſed to
+                            detach <lb/>ſmall ramifications that open into the cavity of <lb/>the
+                            Uterus. The veins are large, <w part="I">communi-</w><lb/><w part="F"
+                                >cate</w> one with another, with the <w part="I">Hæmor-</w><lb/><w
+                                part="F">rhoidals</w> and Vena Portarum, and have no <lb/>valves. </p>
+                        <p rend="indent"><lb/>The Ligamenta Rotunda are two vaſcular <lb/>ropes
+                            compoſed of veins and arteries incloſed <lb/>in the duplicature of the
+                            Ligamenta Lata; <lb/>ſeemingly ariſing from the crural artery and
+                            <lb/>vein, from whence they are extended to the <lb/>ſides of the Fundus
+                            Uteri. </p>
+                        <p rend="indent"><lb/>The nerves come from the Intercoſtals, <pb n="73"
+                            /><lb/>Lumbares, and Sacri; as deſcribed in <w part="I">Boer-</w><lb/><w
+                                part="F">haave's</w> Inſtitutes, and Winſlow's Anatomy. </p>
+                    </div>
+                </div>
+                <div type="chapter">
+                    <figure rend="space">
+                        <lb/>
+                        <figDesc>A long horizontal line, spanning the whole page.</figDesc>
+                    </figure>
+                    <head rend="space align-center"><lb/>CHAP. III. </head>
+                    <div type="section">
+                        <head rend="space align-center size(0.75) italic"><lb/><hi rend="roman sc"
+                                >Sect. I</hi>. Of the <hi rend="roman sc">Catamenia</hi> and <hi
+                                rend="roman sc">Fluor <w part="I">Al-</w><lb/><w part="F"
+                                >bus</w></hi>, in an unimpregnated State. </head>
+                        <p rend="space"><lb/><hi rend="dc(2)">T</hi>HE Uterus, according to ſome,
+                            and all <lb/>the parts ſubſervient to generation, arrive <lb/>at full
+                            growth about the age of fifteen: The <lb/>veſſels are then ſufficiently
+                            dilated, and thoſe <lb/>that end in the cavity of the womb, ſo <w
+                                part="I">di-</w><lb/><w part="F">ſtended</w> with blood, that their
+                            mouths are <lb/>forced open, they empty themſelves gradually, <lb/>and
+                            for that time the Plethora in the Uterus <lb/>and neighbouring parts is
+                            removed. </p>
+                        <p rend="indent"><lb/>Several ingenious theories have been <w part="I"
+                                >crect-</w><lb/><w part="F">ed</w>, to account for the flux of the
+                            Menſes; <lb/>particularly by Doctors Friend, Simpſon, and <lb/>Aſtruc:
+                            the two laſt of whom, with many <lb/>others, allege, that there are
+                            ſinuſes in the <lb/>Uterus, furniſhed with ſide-veſſels opening
+                            <lb/>into its cavity; which ſinuſes are gradually <lb/>ſtretched by the
+                            blood they receive from the <lb/>arteries, until the fourth or beginning
+                            of the fifth <lb/>week, when the lateral veſſels are forced open,
+                            <lb/>and the accumulated blood evacuated into the <lb/>cavity of the
+                            womb. But, if this were caſe, <lb/>the ſame mechaniſm muſt prevail in
+                            other <lb/>parts of the body, through which the like <w part="I"
+                                >pe-</w><lb/><w part="F">riodical</w> diſcharge is made, when the Ute<choice>
+                                <corr>r</corr>
+                                <sic> </sic>
+                            </choice>us <lb/>is obſtructed; as from the noſe, hairy ſcalp,
+                            <lb/>lungs, ſtomach, meſenteric and hæmorrhoidal <lb/>veſſels, and even
+                            thro' the ſkin of the legs, and <pb n="74"/><lb/>other parts of the
+                            body. Beſides, ſuch an <w part="I">accu-</w><lb/><w part="F"
+                                >mulation</w> in large ſinuſes, though the blood <lb/>were not
+                            entirely ſtagnated, would produce a <lb/>viſcoſity like that which
+                            obtains in the <w part="I">rheuma-</w><lb/><w part="F">tiſm</w> and
+                            other inflammatory diſtempers. </p>
+                        <p rend="indent"><lb/>Thoſe who live in hot climates, are <w part="I"
+                                >fre-</w><lb/><w part="F">quently</w> viſited with the Menſes at the
+                            age of <lb/>twelve; and women who are kept warm, and <lb/>live
+                            delicately, undergo this diſcharge earlier <lb/>than thoſe who uſe a
+                            different regimen: and <lb/>if the catamenia do not flow at the ſtated
+                            <lb/>time, the patient is ſoon after ſeized with the <lb/>chloroſis,
+                            unleſs ſome other evacuation <w part="I">hap-</w><lb/><w part="F"
+                                >pens</w> in lieu of the Menſes. </p>
+                        <p rend="indent"><lb/>They commonly ceaſe to flow about the <lb/>age of
+                            forty-five, except in thoſe with whom <lb/>they began at twelve, or in
+                            ſuch as have born <lb/>a great many children; in which caſe, they ceaſe
+                            <lb/>about the age of two-and-forty, or ſooner. </p>
+                        <p rend="indent"><lb/>In young people, the momentum of the <lb/>circulating
+                            fluid is greater than the reſiſting <lb/>force of the ſolids; ſo that
+                            the veſſels continue <lb/>to be gradually ſtretched, until, by their <w
+                                part="I">num-</w><lb/><w part="F">ber</w>, capacity, and length,
+                            this momentum is <lb/>diſſipated, ſo as to become no more than equal
+                            <lb/>to the reſiſtance. About this time the <w part="I"
+                                >ſuper-</w><lb/><w part="F">plus</w> of blood begins to be
+                            diſcharged, and <lb/>thus the equilibrium is preſerved till the age
+                            <lb/>of forty-five; when the fibres growing rigid, <lb/>the incrementum
+                            is leſſened, the evacuation is <lb/>no longer neceſſary, nor has the
+                            blood force <lb/>enough to make good its wonted paſſage into <lb/>the
+                            cavity of the womb. In the ſame manner <lb/>are produced the ſymptoms of
+                            old age. </p>
+                        <pb n="75"/>
+                        <p rend="indent"><lb/>The catamenia are, therefore, no more <lb/>than a
+                            periodical diſcharge of that ſuperplus of <lb/>blood which is collected
+                            through the month, <lb/>and, towards the criſis, attended with pains in
+                            <lb/>the loins, breaſt, and head, more or leſs acute, <lb/>according to
+                            the circumſtances of the <w part="I">ple-</w><lb/><w part="F">thora</w>;
+                            all which complaints gradually vaniſh <lb/>when the menſes begin to
+                            appear. </p>
+                        <p rend="indent"><lb/>This evacuation commonly continues till <lb/>the fifth
+                            or ſixth day, in ſome to the third <lb/>only, and in others to the
+                            ſeventh: the <w part="I">quan-</w><lb/><w part="F">tity</w> diſcharged
+                            being, according to <w part="I">Hippo-</w><lb/><w part="F">crates</w>,
+                            two <hi rend="italic">heminæ</hi>; equal, by the <w part="I"
+                                >computa-</w><lb/><w part="F">tion</w> of ſome, to eighteen or
+                            twenty, and, in the <lb/>opinion of others, to twenty-four, ounces: but
+                            <lb/>this muſt certainly be a miſtake; for they <lb/>rarely exceed four
+                            ounces, except when they <lb/>flow in too great quantity. </p>
+                        <p rend="indent"><lb/>Women that are delicately kept, and <w part="I"
+                                >plen-</w><lb/><w part="F">tifully</w> fed, have this diſcharge more
+                                <w part="I">frequent-</w><lb/><w part="F">ly</w>, and in greater
+                            quantity, than thoſe who <lb/>are inured to much exerciſe, or ſubject to
+                            <lb/>copious perſpiration: yet both theſe <w part="I">conſti-</w><lb/><w
+                                part="F">tutions</w> may be healthy, and ought not to be
+                            <lb/>tampered with by preſcriptions for altering <lb/>the period or
+                            quantity of this evacuation. <w part="I">In-</w><lb/><w part="F"
+                                >deed</w>, if the flux be ſo frequent or <w part="I"
+                                >immode-</w><lb/><w part="F">rate</w> as to exhauſt the ſtrength of
+                            the patient, <lb/>it will be neceſſary to preſcribe bleeding <w part="I"
+                                >be-</w><lb/><w part="F">fore</w> the return of the period, reſt,
+                            cooling and <lb/>aſtringent medicines, not only taken internally,
+                            <lb/>but likewiſe applied externally, and injected <lb/>into the vagina.
+                            See Collect. IV. N<hi rend="sup">o</hi> 1. 2. </p>
+                        <p rend="indent"><lb/>On the contrary, if they flow too ſeldom, in <pb
+                                n="76"/><lb/>too ſmall quantity, or do not appear at all, <lb/>ſo
+                            that a dangerous plenitude enſues, the <w part="I">ple-</w><lb/><w
+                                part="F">thora</w> muſt be leſſened by plentiful bleeding <lb/>and
+                            repeated purges, and the diſcharge <w part="I">ſo-</w><lb/><w part="F"
+                                >licited</w> by warm baths, fumigation, and <w part="I"
+                                >exer-</w><lb/><w part="F">ciſe</w>. But if the patient has been
+                            long <w part="I">ob-</w><lb/><w part="F">ſtructed</w> from a lentor,
+                            viſcoſity, and retarded <lb/>motion of the fluids in the uterus and <w
+                                part="I">neigh-</w><lb/><w part="F">bouring</w> parts, the fullneſs
+                            muſt be taken off <lb/>by the above-mentioned evacuations, unleſs
+                            <lb/>the conſtitution be already weakened: then <lb/>every thing that
+                            will gradually attenuate the <lb/>fluids, and quicken their circulating
+                            force, <lb/>ought to be adminiſtered; ſuch a chalybeat <lb/>and
+                            mercurial medicines, together with warm <lb/>bitter and ſtomachic
+                            ingredients, aſſiſted with <lb/>proper diet and exerciſe, according to
+                            the <lb/>preſcriptions to be found in Hoffman, Friend's
+                            <lb/>Emmenologia, and Shaw's Practice of Phyſic. <lb/>See Collect. IV.
+                                N<hi rend="sup">o</hi> 3. 4. </p>
+                        <div type="subsection">
+                            <head rend="space align-center size(0.75) italic"><lb/>Of the <hi
+                                    rend="roman sc">Fluor Albus</hi>. </head>
+                            <p rend="space indent"><lb/>The inſide membrane of the uterus, <w
+                                    part="I">ac-</w><lb/><w part="F">cording</w> to Aſtruc, is
+                                thick-ſet with ſmall glands, <lb/>which he calls the <hi
+                                    rend="italic">colatura lactea</hi>: Theſe, in an
+                                <lb/>unimpregnated uterus, ſeparate a mucus that <lb/>lubricates the
+                                cavity and canal of the neck, <lb/>by which means the ſides are
+                                prevented from <lb/>coaleſcing or growing together. The Fluor
+                                <lb/>Albus is no other than this mucus diſcharged <lb/>in too great
+                                quantity from the uterus, as well <lb/>as from the vagina; and this
+                                exceſs, when it <lb/>happens from plenitude, in thoſe who feed
+                                <lb/>plentifully without taking ſufficient exerciſe, <pb n="77"
+                                /><lb/>is often remedied by general evacuation, ſuch <lb/>as
+                                venæſection, emetics, cathartics, and a more <lb/>abſtemious diet,
+                                with a greater ſhare of <w part="I">exer-</w><lb/><w part="F"
+                                    >ciſe</w> than uſual. But the cure is more <w part="I"
+                                    >diffi-</w><lb/><w part="F">cult</w> when the complaint is of a
+                                long ſtanding, <lb/>and proceeds from a bad habit, the <w part="I"
+                                    >conſtitu-</w><lb/><w part="F">tion</w> being weakened by the
+                                inordinate <w part="I">diſ-</w><lb/><w part="F">charge</w>: In this
+                                caſe, it will be neceſſary to <lb/>uſe repeated emetics, gentle
+                                exerciſe, and all <lb/>thoſe medicines that contribute to ſtrengthen
+                                <lb/>a lax habit of body; or, if the diſtemper be <lb/>cancerous, it
+                                muſt be palliated with anodynes. <lb/>As to the form of preſcription
+                                in all theſe caſes, <lb/>Hoffman may be conſulted. See Collect. IV.
+                                    <lb/>N<hi rend="sup">o</hi> 5. 6. </p>
+                        </div>
+                    </div>
+                    <div type="section">
+                        <head rend="space align-center size(0.75) italic"><lb/><hi rend="roman sc"
+                                >Sect. II</hi>. Of <hi rend="roman sc">Conception</hi>. </head>
+                        <p rend="space"><lb/><hi rend="dc(2)">T</hi>HE minutiæ or firſt principles
+                            of <w part="I">bo-</w><lb/><w part="F">dies</w> being without the ſphere
+                            of <w part="I">hu-</w><lb/><w part="F">man</w> comprehenſion, all that
+                            we know is by <lb/>the obſervation of their effects; ſo that the
+                                <lb/><hi rend="italic">modus</hi> of conception is altogether
+                            uncertain, <lb/>eſpecially in the human ſpecies, becauſe <w part="I"
+                                >op-</w><lb/><w part="F">portunities</w> of opening pregnant women
+                            ſo <w part="I">ſel-</w><lb/><w part="F">dom</w> occur. </p>
+                        <p rend="indent"><lb/>Although the knowledge of this operation <lb/>is not
+                            abſolutely neceſſary for the practice of <lb/>Midwifery, an
+                            inveſtigation of it may not only <lb/>gratify the curious, but alſo
+                            promote farther <w part="I">in-</w><lb/><w part="F">quiries</w>; in the
+                            courſe of which, many material <lb/>diſcoveries may be made, in the ſame
+                            manner as <lb/>many valuable compoſitions in chemiſtry were <lb/>found
+                            out in the laſt century by thoſe who <w part="I">ex-</w><pb n="78"
+                                /><lb/><w part="F">erciſed</w> themſelves in ſearch of the
+                            philoſopher's <lb/>ſtone. </p>
+                        <p rend="indent"><lb/>From the time of Hippocrates to the <w part="I"
+                                >ſix-</w><lb/><w part="F">teenth</w> century, it was generally
+                            believed that <lb/>the Embryo and Secundines were formed by <lb/>the
+                            mixture of the male and female ſemen in <lb/>the Uterus: but during the
+                            laſt hundred <lb/>years, anatomy received great improvements <lb/>by the
+                            frequent diſſection of human bodies; <lb/>and in ſome female ſubjects,
+                            the Fœtus was <lb/>found in one of the Fallopian tubes; in <lb/>others,
+                            it was diſcovered in the Abdomen, with <lb/>the Placenta adhering to the
+                            ſurface of the <lb/>viſcera. See Collect. V. </p>
+                        <p rend="indent"><lb/>Malphigius and others, between the years <lb/>1650 and
+                            1690, wrote expreſsly upon the <w part="I">in-</w><lb/><w part="F"
+                                >cubation</w> of eggs, their formation, and the <lb/>gradual
+                            increaſe of oviparous animals. The <lb/>great Harvey obſerved the
+                            progreſs of the <w part="I">vi-</w><lb/><w part="F">viparous</w> kind,
+                            in a great number of different <lb/>animals which he had opportunities
+                            of <w part="I">open-</w><lb/><w part="F">ing</w>. De Graaf diſſected
+                            near one hundred <lb/>rabbits, and is very particular and accurate in
+                            <lb/>the obſervations he had made. Ruyſch, <w part="I">Al-</w><lb/><w
+                                part="F">des</w>, Needham, Steno, Kerkringius, <w part="I"
+                                >Swam-</w><lb/><w part="F">merdam</w>, Bartholine the ſon, and
+                            Drelincourt, <lb/>employed themſelves in the ſame inquiries; <lb/>and,
+                            in conſequence of their different remarks, <lb/>a variety of theories
+                            have been erected: yet <lb/>all of them have been ſubject to many <w
+                                part="I">objec-</w><lb/><w part="F">tions</w>; and even the
+                            following, though the <lb/>moſt probable, is ſtill very uncertain. </p>
+                        <p rend="indent"><lb/>When the parts in women, ſubſervient to
+                            <lb/>generation, attain their come or full growth, <pb n="79"/><lb/>one
+                            or more of the Ova being brought to <w part="I">ma-</w><lb/><w part="F"
+                                >turity</w>, that part of the Peritonæum which <lb/>covers the
+                            Ovarium begins to ſtretch; the <lb/>nervous fibres are accordingly
+                            affected, and <lb/>contract themſelves ſo as to bring the Fimbria
+                            <lb/>of the Fallopian tube in cloſe contact with the <lb/>ripe Ovum: by
+                            which mechaniſm, this laſt is <lb/>ſqueezed out of its nidus or huſk
+                            into the <w part="I">ca-</w><lb/><w part="F">vity</w> of the tube,
+                            through which it is conveyed <lb/>into the Uterus by a vermicular or <w
+                                part="I">periſtal-</w><lb/><w part="F">tic</w> motion; and if it is
+                            not immediately <w part="I">im-</w><lb/><w part="F">pregnated</w> with
+                            an Animalcule of the male <lb/>ſemen, muſt be diſſolved and loſt,
+                            becauſe it <lb/>is now detached from the veſſels of the <w part="I"
+                                >Ova-</w><lb/><w part="F">rium</w>, and has no Vis Vitæ in itſelf. </p>
+                        <p rend="indent"><lb/>The external coat of the Ovum is the <lb/>membrane
+                            Chorion; one fourth part of which <lb/>is the Placenta, ſuppoſed to be
+                            the root by <lb/>which it was formerly joined to the veſſels of <lb/>the
+                            Ovarium; and the navel-ſtring is no other <lb/>than a continuation of
+                            the veſſels belonging to <lb/>this cake. </p>
+                        <p rend="indent"><lb/>The Chorion is on the inſide lined with <w part="I"
+                                >an-</w><lb/><w part="F">other</w> membrane called <hi rend="italic"
+                                >Amnion</hi>; and both are <lb/>kept diſtended in a globular form by
+                            a clear <lb/>ſerous fluid, or thin lymph. </p>
+                        <p rend="indent"><lb/>As for the male ſemen, according to the
+                            <lb/>obſervation of the celebrated Leeuwenhoek, it <lb/>abounds with
+                            Animalcula, that ſwim about in <lb/>it like ſo many tadpoles; and theſe
+                            are larger <lb/>and more vigorous the longer the ſemen hath
+                            <lb/>remained in the Veſiculæ Seminales. </p>
+                        <p rend="indent"><lb/>The parts of both male and female being <lb/>thus
+                            brought to maturity, the following <w part="I">cir-</w><pb n="80"
+                                /><lb/><w part="F">cumſtances</w> are ſuppoſed to happen in coition,
+                            <lb/>eſpecially in thoſe embraces which immediately <lb/>follow the
+                            evacuation of the Menſes. In the <lb/>woman, the friction of the Penis
+                            in the <w part="I">con-</w><lb/><w part="F">tracted</w> Vagina, the
+                            repeated preſſure and <lb/>ſhocks againſt the external parts, the
+                            alternate <lb/>motion upwards and downwards of the Uterus, <lb/>with its
+                            appendages, the Ovaria, Fallopian <lb/>tubes, and round ligaments,
+                            produce a <w part="I">gene-</w><lb/><w part="F">ral</w> titillation and
+                            turgency; in conſequence of <lb/>which, the nervous fibrils are
+                            convulſed, and <lb/>a fluid ejected from the proſtate or analogous
+                            <lb/>glands, as well as from thoſe of the Uterus <lb/>and Fallopian
+                            tubes. The Fimbria belonging <lb/>to one of which, now firmly graſps the
+                            ripened <lb/>Ovum, which at the ſame inſtant is <w part="I"
+                                >impreg-</w><lb/><w part="F">nated</w> with the male ſeed that in
+                            the orgaſm <lb/>of coition had been thrown into the Uterus, <lb/>and
+                            thence conveyed into the cavity of the <lb/>tube by ſome abſorbing or
+                            convulſive power. <lb/>When the two matured principles are thus
+                            <lb/>mingled, one of the Animalcula inſinuates <w part="I"
+                                >it-</w><lb/><w part="F">ſelf</w> into the Ovum, and is joined with
+                            its belly <lb/>to that ruptured part of it from which the
+                            <lb/>navel-ſtring is produced; or, entering one of <lb/>the veſſels, is
+                            protruded to the end of the <lb/>Funis, by which a circulation is
+                            carried on <lb/>from the embryo to the placenta and <w part="I"
+                                >mem-</w><lb/><w part="F">branes</w>. The ovum being impregnated is
+                            <lb/>ſqueezed from its nidus or huſk into the tube, <lb/>by the
+                            contraction of the fimbria; and thus <lb/>diſengaged from its
+                            attachments to the <w part="I">ova-</w><lb/><w part="F">rium</w>, is
+                            endowed with a circulating force by <lb/>the animalculum, which has a
+                            vis vitæ in <w part="I">it-</w><pb n="81"/><lb/><w part="F">ſelf</w>:
+                            the veſſels on the ſurface of the ovum <lb/>being opened in conſequence
+                            of its <w part="I">detach-</w><lb/><w part="F">ments</w> from the
+                            ovarium, abſorb the <w part="I">ſur-</w><lb/><w part="F">rounding</w>
+                            fluid which is ſecerned by the glands <lb/>in the cavity of the tube and
+                            uterus, or forced <lb/>into them by motion, heat, and rarefaction,
+                            <lb/>and carried along the umbilical vein for the <lb/>nouriſhment and
+                            increaſe of the impregnated <lb/>maſs. </p>
+                        <p rend="indent"><lb/>Of the ſemen that is injected or abſorbed <lb/>into
+                            the uterus, part is mixed with the fluid <lb/>ſecreted by the glands in
+                            the canal of the neck, <lb/>which is blocked up with a ſort of gluten
+                            <lb/>formed by this mixture; ſo that the Ovum <lb/>is thereby prevented
+                            from ſinking too far down, <lb/>and being diſcharged. </p>
+                        <p rend="indent"><lb/>This theory of conception, though very <w part="I"
+                                >in-</w><lb/><w part="F">genious</w>, and of all others the beſt
+                            ſupported <lb/>with corroborating conſiderations, ſuch as, <lb/>that
+                            Fœtuſes and Embryos have been actually <lb/>found in the cavity of the
+                            tube and abdomen, <lb/>without any marks of excluſion from the
+                            <lb/>Uterus; beſides other preſumptions that will <lb/>be mentioned when
+                            we come to treat of the <lb/>nutrition of the Fœtus; I ſay,
+                            notwithſtanding <lb/>the plauſibility of the ſcheme, it is attended
+                            <lb/>with circumſtances which are hitherto <w part="I">inex-</w><lb/><w
+                                part="F">plicable</w>; namely, the manner in which the
+                            <lb/>Animalculum gains admiſſion into the Ovum, <lb/>either while it
+                            remains in the ovarium, <w part="I">ſo-</w><lb/><w part="F">journs</w>
+                            in the tube, or is depoſited in the <lb/>Fundus uteri; and the method by
+                            which the <lb/>veſſels of the navel-ſtring are inoſculated with
+                            <lb/>thoſe of the Animalculum. Indeed, theſe <pb n="82"/><lb/>points are
+                            ſo intricate, that every different <lb/>theoriſt has ſtarted different
+                            opinions <w part="I">concern-</w><lb/><w part="F">ing</w> them, ſome of
+                            which are rather jocular <lb/>than inſtructive. </p>
+                    </div>
+                    <div type="section">
+                        <head rend="space align-center size(0.75) italic"><lb/><hi rend="roman sc"
+                                >Sect. III</hi>. Of the increaſe of the <hi rend="roman sc"
+                                >Uterus</hi> after <lb/>Conception. </head>
+                        <p rend="space"><lb/><hi rend="dc(2)">I</hi>T is ſuppoſed that the Ovum
+                            ſwims in a <lb/>fluid, which it abſorbs ſo as to increaſe <lb/>gradually
+                            in magnitude till it comes in contact <lb/>with all the inner ſurface of
+                            the Fundus; and <lb/>this being diſtended in proportion to the <w
+                                part="I">aug-</w><lb/><w part="F">mentation</w> of its contents, the
+                            upper part of <lb/>the neck begins alſo to be ſtretched. </p>
+                        <p rend="indent"><lb/>About the third month of geſtation, the <lb/>ovum in
+                            bigneſs equals a gooſe-egg; and <lb/>then nearly one fourth of the neck
+                            at its upper <lb/>part is diſtended equal with the fundus. At <lb/>the
+                            fifth month, the fundus is increaſed to a <lb/>much greater magnitude,
+                            and riſes upwards to <lb/>the middle ſpace betwixt the upper part of
+                            <lb/>the pubes and the navel; and at that period <lb/>one half of the
+                            neck is extended. At the <lb/>ſeventh month, the fundus reaches as high
+                            as <lb/>the navel; at the eighth month, it is advanced <lb/>midway
+                            between the navel and ſcrobiculus <lb/>cordis; and in the ninth month,
+                            is raiſed quite <lb/>up to this laſt mentioned part, the neck of the
+                            <lb/>womb being then altogether diſtended. See <lb/>Tab. V. VI. VII.
+                            VIII. </p>
+                        <p rend="indent"><lb/>Now that the whole ſubſtance of the uterus <lb/>is
+                            ſtretched, the neck and os internum, which <lb/>were at firſt the
+                            ſtrongeſt, become the weakeſt <pb n="83"/><lb/>part of the womb, and the
+                            ſtretching force <lb/>being ſtill continued by the increaſe of the
+                            <lb/>fœtus and ſecundines, which are extended <lb/>by the incloſed
+                            waters in a globular form, the <lb/>os uteri begins gradually to give
+                            way. In <lb/>the beginning of its dilatation, the nervous <lb/>fibres in
+                            this place being more ſenſible than <lb/>any other part of the uterus,
+                            are irritated and <lb/>yield an uneaſy ſenſation; to alleviate which,
+                            <lb/>the woman ſqueezes her uterus by <w part="I">contract-</w><lb/><w
+                                part="F">ing</w> the abdominal muſcles, and at the ſame <lb/>time
+                            filling the lungs with air, by which the <lb/>diaphragm is kept down;
+                            the pain being <w part="I">ra-</w><lb/><w part="F">ther</w> increaſed
+                            than abated by this ſtraining, is <lb/>communicated to all the
+                            neighbouring parts <lb/>to which the ligaments and veſſels are attached,
+                            <lb/>ſuch as the back, loins, and inſide of the <lb/>thighs; and by this
+                            compreſſion of the uterus <lb/>the waters and membranes are ſqueezed
+                            againſt <lb/>the os uteri, which is of conſequence a little <lb/>more
+                            opened. See Tab. IX. X. XI. XII. </p>
+                        <p rend="indent"><lb/>The woman being unable to continue this <lb/>effort
+                            for any length of time, from the violence <lb/>of the pain it occaſions,
+                            and the ſtrength of <lb/>the muſcles being thereby a little exhauſted
+                            <lb/>and impaired, the contracting force abates; <lb/>the tenſion of the
+                            os tincæ being taken off, it <lb/>becomes more ſoft, and contracts a
+                            little; ſo <lb/>that the nervous fibres are relaxed. This <w part="I"
+                                >re-</w><lb/><w part="F">miſſion</w> of pain the patient enjoys for
+                            ſome <lb/>time, until the ſame increaſing force renews <lb/>the
+                            ſtretching pains, irritation, and ſomething <lb/>like a teneſmus at the
+                            os uteri; the <w part="I">compreſ-</w><lb/><w part="F">ſion</w> of the
+                            womb again takes place, and the <pb n="84"/><lb/>internal mouth is a
+                            little more dilated, either <lb/>by the preſſure of the waters and
+                            membranes, <lb/>or, when the fluid is in ſmall quantity, by the
+                            <lb/>child's head forced down by the contraction of <lb/>the uterus,
+                            which in that caſe is in contact <lb/>with the body of the fœtus. See
+                            Tab. XII. <lb/>XIII. XIV. </p>
+                        <p rend="indent"><lb/>In this manner the labour-pains begin, and
+                            <lb/>continue to return periodically, growing <w part="I"
+                                >ſtrong-</w><lb/><w part="F">er</w> and more frequent until the os
+                            uteri is <lb/>fully dilated, and the membranes are depreſſed <lb/>and
+                            broke; ſo that the waters are diſcharged, <lb/>the uterus contracts,
+                            and, with the aſſiſtance <lb/>of the muſcles, the child is forced along
+                            and <lb/>delivered. </p>
+                        <p rend="indent"><lb/>Although this account may be liable to <w part="I"
+                                >ob-</w><lb/><w part="F">jections</w>, eſpecially in thoſe caſes
+                            when the <lb/>child is delivered before the full time, it <w part="I"
+                                >ne-</w><lb/><w part="F">vertheleſs</w> ſeems more probable than
+                            that <w part="I">hy-</w><lb/><w part="F">potheſis</w> which imputes the
+                            labour-pains to the <lb/>motion of the child calcitrating the uterus:
+                            <lb/>for it frequently happens that the woman never <lb/>feels the child
+                            ſtir during the whole time of <lb/>labour; and dead children are
+                            delivered as <lb/>eaſily as thoſe that come alive, except when <lb/>the
+                            birth is retarded by the body's being <w part="I">ſwel-</w><lb/><w
+                                part="F">led</w> to an extraordinary ſize. </p>
+                    </div>
+                    <div type="section">
+                        <head rend="space align-center size(0.75) italic"><lb/><hi rend="roman sc"
+                                >Sect. IV</hi>. Of the Magnitude, Weight, and different
+                            <lb/>Appellations given to the <hi rend="roman sc">Ovum</hi> and <hi
+                                rend="roman sc">Child</hi>. </head>
+                        <p rend="space"><lb/><hi rend="dc(2)">W</hi>HEN the ovum deſcends into the
+                            <lb/>uterus, it is ſuppoſed to be about the <lb/>ſize of a poppy-ſeed,
+                            and in the third month <pb n="85"/><lb/>augmented to the bigneſs of a
+                            gooſe egg. Ten <lb/>days after conception, the child (according <lb/>to
+                            ſome authors) weighs half a grain; at thirty <lb/>days, is increaſed to
+                            the weight of twenty-two <lb/>grains; at three months, weighs betwixt
+                            two <lb/>and three ounces; and at nine months, from <lb/>ten to twelve,
+                            and ſometimes ſixteen, pounds: <lb/>by which calculation it would appear
+                            that the <lb/>progreſs of the Fœtus is quickeſt in the <w part="I"
+                                >be-</w><lb/><w part="F">ginning</w>of its growth; for from the
+                            tenth to <lb/>the thirtieth day (according to this ſuppoſition) <lb/>it
+                            increaſes to three and forty times its weight. <lb/>All theſe
+                            calculations are uncertain. </p>
+                        <p rend="indent"><lb/>The conception is called an <hi rend="italic"
+                                >Embryo</hi>, until <lb/>all the parts are dictinctly formed,
+                            generally <lb/>in the third month; and from that period to
+                            <lb/>delivery, is diſtinguiſhed by the appellation of <lb/><hi
+                                rend="italic">Fœtus</hi>. </p>
+                    </div>
+                    <div type="section">
+                        <head rend="space align-center size(0.75) italic"><lb/><hi rend="roman sc"
+                                >Sect. V</hi>. Of <hi rend="roman sc">Twins</hi>. </head>
+                        <p rend="space"><lb/><hi rend="dc(2)">W</hi>HEN two or more children are <w
+                                part="I">in-</w><lb/><w part="F">cluded</w> in the uterus at the
+                            ſame <lb/>time, each has a ſeparate placenta with <w part="I"
+                                >um-</w><lb/><w part="F">bilical</w> cords and veſſels: ſometimes
+                            theſe <lb/>Placentæ are altogether diſtinct, and at other <lb/>times
+                            they form but one cake. </p>
+                        <p rend="indent"><lb/>Yet, by an inſtance that lately fell under my
+                            <lb/>obſervation, it appears that ſometimes twins <lb/>have but one
+                            placenta in common. Whether <lb/>or not they were two ſets of membranes,
+                            I <lb/>could not diſcover, becauſe they had been tore <lb/>off by the
+                            gentleman who delivered the <w part="I">wo-</w><lb/><w part="F">man</w>:
+                            but when the artery in one of the <w part="I">navel-</w><pb n="86"
+                                /><lb/><w part="F">ſtrings</w> was injected, the matter flowed out
+                            at <lb/>one of the veſſels belonging to the other; and <lb/>the
+                            communication between them is ſtill <w part="I">vi-</w><lb/><w part="F"
+                                >ſible</w>, though they are ſeparated at the diſtance <lb/>of three
+                            or four inches. </p>
+                        <p rend="indent"><lb/>When two children are diſtinct, they are <lb/>called
+                                <hi rend="italic">twins</hi>; and <hi rend="italic">monſters</hi>,
+                            when they are <lb/>joined together; the firſt (according to the
+                            <lb/>foregoing theory) are produced when different <lb/>animalcula
+                            impregnate different ova; and <lb/>the laſt are engendered when two or
+                            more <lb/>animalcula introduce themſelves, and are <w part="I"
+                                >in-</w><lb/><w part="F">cluded</w> in one ovum. See Tab. X. </p>
+                    </div>
+                    <div type="section">
+                        <head rend="space align-center size(0.75) italic"><lb/><hi rend="roman sc"
+                                >Sect. VI</hi>. Of <hi rend="roman sc">Superfoetation</hi>. </head>
+                        <p rend="space"><lb/><hi rend="dc(2)">I</hi>T was formerly imagined that a
+                            woman <lb/>might conceive a ſecond time during <lb/>pregnancy, and be
+                            delivered of one child <lb/>ſome weeks or months before the other could
+                            <lb/>be ready for the world: but this opinion is <lb/>now generally
+                            exploded; becauſe the ovum fills <lb/>the whole fundus uteri, and the
+                            gelatinous <lb/>ſubſtance already mentioned locks up the neck <lb/>and
+                            os internum, ſo as to hinder more ſemen <lb/>from entering the womb and
+                            impregnating a <lb/>ſecond egg in any ſubſequent coition. <w part="I"
+                                >Where-</w><lb/><w part="F">fore</w>, in all thoſe caſes which gave
+                            riſe to this <lb/>ſuppoſition, it may be taken for granted that <lb/>the
+                            woman was actually with child of twins, one <lb/>of which lying near the
+                            os internum, might <lb/>chance to die and mortify, ſo as that the <w
+                                part="I">mem-</w><lb/><w part="F">branes</w> give way, and the dead
+                            fœtus is <w part="I">diſ-</w><lb/><w part="F">charged</w>, while the
+                            other remains in the uterus <pb n="87"/><lb/>and is delivered at the
+                            full time. On the <lb/>other hand, by ſome accident, the firſt and
+                            <lb/>largeſt may be born ſome days or weeks <w part="I">be-</w><lb/><w
+                                part="F">fore</w> the full time, and afterwards the os tincæ
+                            <lb/>contract ſo as to detain the other till the due <lb/>period. At
+                            other times the child that lies <lb/>next to the fundus is the ſmalleſt,
+                            and follows <lb/>after the birth of the other, ſometimes dead <lb/>and
+                            putrified, and ſometimes in an emaciated <lb/>condition. See Collect.
+                            VI. </p>
+                    </div>
+                    <div type="section">
+                        <head rend="space align-center size(0.75) italic"><lb/><hi rend="roman sc"
+                                >Sect. VII</hi>. Of <hi rend="roman sc">Abortions</hi>. </head>
+                        <p rend="space"><lb/><hi rend="dc(2)">A</hi>
+                            <hi rend="sc">Miscarriage</hi> that happens before the <lb/>tenth day
+                            was formerly called an <hi rend="italic">efflux</hi>, <lb/>becauſe the
+                            Embryo and Secundines are not <lb/>then formed, and nothing but the
+                            liquid <w part="I">con-</w><lb/><w part="F">ception</w> or genitura is
+                            diſcharged. From the <lb/><choice>
+                                <corr/>
+                                <sic>the</sic>
+                            </choice> tenth day to the third month, it was known <lb/>by the term
+                                <hi rend="italic">expulſion</hi>, the Embryo and <w part="I"
+                                >Se-</w><lb/><w part="F">cundines</w> being ſtill ſo ſmall that the
+                            woman <lb/>is in no great danger from violent flooding. </p>
+                        <p rend="indent"><lb/>If ſhe parted with her burden betwixt that <lb/>period
+                            and the ſeventh month, ſhe was ſaid to <lb/>ſuffer an abortion: in which
+                            caſe ſhe <w part="I">under-</w><lb/><w part="F">went</w> greater danger,
+                            and was delivered with <lb/>more difficulty than before; becauſe the <w
+                                part="I">ute-</w><lb/><w part="F">rus</w> and veſſels being more
+                            diſtended, a larger <lb/>quantity of blood was loſt in a ſhorter time,
+                            <lb/>the fœtus was increaſed in bulk, and the <lb/>neck of the womb is
+                            not yet fully ſtretched: <lb/>beſides, ſhould the child be born alive,
+                            it will <lb/>be ſo ſmall and tender that it will not ſuck, <lb/>and
+                            ſcarce receive any ſort of nouriſhment. </p>
+                        <pb n="88"/>
+                        <p rend="indent"><lb/>When delivery happens between the ſeventh <lb/>month
+                            and full time, the woman is ſaid to be <lb/>in labour. But, inſtead of
+                            theſe diſtinctions, if <lb/>ſhe loſes her burden at any time from <w
+                                part="I">concep-</w><lb/><w part="F">tion</w> to the ſeventh or
+                            eighth, or even in the <lb/>ninth month, we now ſay indiſcriminately,
+                            ſhe <lb/>has miſcarried. </p>
+                        <p rend="indent"><lb/>Hippocrates alleges that a child born in the
+                            <lb/>ſeventh month, ſometimes lives: whereas if it <lb/>comes in the
+                            eighth, it will probably die: <w part="I">be-</w><lb/><w part="F"
+                                >cauſe</w> all healthy children, ſays he, make an <lb/>effort to be
+                            delivered in the ſeventh month; <lb/>and if they are not then born, the
+                            niſus is <w part="I">re-</w><lb/><w part="F">peated</w> in the eighth,
+                            when the child muſt be <lb/>weakened by its former unſucceſsful attempt,
+                            <lb/>and therefore not likely to live; whereas, <lb/>ſhould the ſecond
+                            effort be deferred till the <lb/>ninth, the fœtus will by that time be
+                                <w part="I">ſuffi-</w><lb/><w part="F">ciently</w> recovered from
+                            the fatigue it had <w part="I">un-</w><lb/><w part="F">dergone</w> in
+                            the ſeventh. Experience, <w part="I">how-</w><lb/><w part="F">ever</w>,
+                            contradicts this aſſertion; for the older <lb/>the child is, we find it
+                            always (<hi rend="italic">cæteris paribus</hi>) <lb/>the ſtronger,
+                            conſequently the more hardy <lb/>and eaſily nurſed: neither is there any
+                                <w part="I">ſuffi-</w><lb/><w part="F">cient</w> reaſon for adhering
+                            to the opinion of <lb/>Pythagoras on this ſubject, who declares that
+                            <lb/>number eight is not ſo fortunate as ſeven or <lb/>nine. </p>
+                        <p rend="indent"><lb/>The common term of pregnancy is limited <lb/>to nine
+                            ſolar months, reckoning from the laſt <lb/>diſcharge of the catamenia:
+                            yet in ſome, tho' <lb/>very few, uterine geſtation exceeds that period;
+                            <lb/>and as this is a poſſible caſe, we ought always <lb/>to judge on
+                            the charitable ſide, in the <w part="I">perſua-</w><pb n="89"/><lb/><w
+                                part="F">ſion</w> that it is better ſeveral guilty perſons
+                            <lb/>ſhould eſcape, than one innocent perſon ſuffer <lb/>in point of
+                            reputation. See Collect. VII. </p>
+                    </div>
+                    <div type="section">
+                        <head rend="space align-center size(0.75) italic"><lb/><hi rend="roman sc"
+                                >Sect. VIII</hi>. Of Falſe <hi rend="roman sc">Conceptions</hi> and
+                                <hi rend="roman sc">Moles</hi>. </head>
+                        <p rend="space"><lb/><hi rend="dc(2)">I</hi>T was formerly ſuppoſed, that if
+                            the parts <lb/>of the Embryo and Secundines were not <lb/>ſeparated and
+                            diſtinctly formed from the <w part="I">mix-</w><lb/><w part="F">ture</w>
+                            of the male and female ſemen, they <lb/>formed a maſs, which, when
+                            diſcharged before <lb/>the fourth month, was called a <hi rend="italic"
+                                >falſe <w part="I">concep-</w><lb/><w part="F">tion</w></hi>; if it
+                            continued longer in the uterus ſo <lb/>as to increaſe in magnitude, it
+                            went under <lb/>the denomination of a <hi rend="italic">mola</hi>. But
+                            theſe things <lb/>are now to be accounted for in a more <w part="I"
+                                >pro-</w><lb/><w part="F">bable</w> and certain manner. Should the
+                                <w part="I">Em-</w><lb/><w part="F">bryo</w> die (ſuppoſe in the
+                            firſt or ſecond month) <lb/>ſome days before it is diſcharged, it will
+                                <w part="I">ſome-</w><lb/><w part="F">times</w> be entirely
+                            diſſolved; ſo that when the <lb/>ſecundines are delivered, there is
+                            nothing elſe <lb/>to be ſeen. In the firſt month the Embryo is <lb/>ſo
+                            ſmall and tender, that this diſſolution will be <lb/>performed in twelve
+                            hours; in the ſecond <lb/>month, two, three, or four days will ſuffice
+                            <lb/>for this purpoſe; and even in the third month, <lb/>it will be
+                            diſſolved in fourteen or fifteen: <w part="I">be-</w><lb/><w part="F"
+                                >ſides</w>, the blood frequently forms thick <w part="I"
+                                >la-</w><lb/><w part="F">minæ</w> round the ovum, to the ſurface of
+                            <lb/>which they adhere ſo ſtrongly, that it is very <lb/>difficult to
+                            diſtinguiſh what part is the placenta, <lb/>and what membrane. Even
+                            after the Embryo <lb/>and placenta are diſcharged in the ſecond or
+                            <lb/>third month, the mouth and neck of the <pb n="90"/><lb/>womb are
+                            often ſo cloſely contracted, that the <lb/>fibrous part of the blood is
+                            retained in the <lb/>fundus, ſometimes to the fifth or ſeventh day;
+                            <lb/>and, when it comes off, exhibits the <w part="I">appear-</w><lb/><w
+                                part="F">ance</w> of an ovum, the external ſurface, by the
+                            <lb/>ſtrong preſſure of the uterus, reſembling a <lb/>membrane; ſo that
+                            the whole is miſtaken for <lb/><choice>
+                                <corr/>
+                                <sic>for</sic>
+                            </choice> a falſe conception. </p>
+                        <p rend="indent"><lb/>This ſubſtance, in bigneſs, commonly equals <lb/>a
+                            pigeon or hen egg; or if it exceeds that <lb/>ſize, and is longer
+                            retained, is diſtinguiſhed <lb/>by the appellation of <hi rend="italic"
+                                >mola</hi>: but this laſt <lb/>generally happens in women betwixt
+                            the <lb/>age of forty-five and fifty, or later, when <lb/>their menſes
+                            begins to diſappear; ſometimes <lb/>from internal or external accidents
+                            that may <lb/>produce continued floodings. If the <w part="I"
+                                >cata-</w><lb/><w part="F">menia</w> have ceaſed to flow for ſome
+                            time in <lb/>elderly women, and return with pain, ſuch a <lb/>ſymptom is
+                            frequently the forerunner of a <lb/>cancer; before or after this
+                            happens, <w part="I">ſome-</w><lb/><w part="F">times</w> a large
+                            fleſh-like ſubſtance will be <w part="I">diſ-</w><lb/><w part="F"
+                                >charged</w> with great pain, reſembling that of <lb/>labour; and,
+                            upon examination, appears to be <lb/>no more than the fibrous part of
+                            the blood, <lb/>which aſſumes that form by being long <w part="I"
+                                >preſ-</w><lb/><w part="F">ſed</w> in the uterus or vagina. See
+                            Collect. <lb/>VIII. </p>
+                        <p rend="indent"><lb/>In this place it will not be amiſs to obſerve,
+                            <lb/>that the glands of the Uterus and Vagina will <lb/>ſometimes
+                            increaſe and diſtend the adjacent <lb/>parts to a ſurpriſing degree. If
+                            (for example) <lb/>one of the glands of the uterus be ſo <w part="I"
+                                >obſtruct-</w><lb/><w part="F">ed</w> as that there is a preſſure on
+                            the returning <pb n="91"/><lb/>vein and excretory duct, the arterial
+                            blood <lb/>will gradually ſtretch the ſmaller veſſels, and
+                            <lb/>conſequently increaſe the ſize of the gland, <lb/>which will grow
+                            larger and larger, as long as <lb/>the force of the impelled fluid is
+                            greater than <lb/>the reſiſtance of the veſſels, that contain it; by
+                            <lb/>which means a very ſmall gland will be <w part="I">en-</w><lb/><w
+                                part="F">larged</w> to a great bulk, and the Uterus <w part="I"
+                                >gradu-</w><lb/><w part="F">ally</w> ſtretched as in uterine
+                            geſtation, though <lb/>the progreſs may be ſo flow as to be protracted
+                            <lb/>for years inſtead of months. Nevertheleſs <lb/>the os internum will
+                            be dilated, and the <lb/>gland (if not too large to paſs) will be
+                            ſqueezed <lb/>into the Vagina, provided it adheres to the <lb/>Uterus,
+                            by a ſmall neck: nay, it will <w part="I">length-</w><lb/><w part="F"
+                                >en</w> more and more, ſo as to appear on the <lb/>outſide of the os
+                            externum; in which caſe <lb/>it may be eaſily ſeparated by a ligature.
+                            This <lb/>diſeaſe will be the ſooner known and eaſier <lb/>remedied, the
+                            lower its origin in the uterus <lb/>is. But ſhould the gland take its
+                            riſe in the <lb/>vagina hard by the mouth of the womb, it <lb/>will ſhow
+                            itſelf ſtill ſooner; and a ligature may <lb/>be eaſily introduced,
+                            provided the tumour is <lb/>not ſo large as to fill up the cavity, and
+                                <w part="I">hin-</w><lb/><w part="F">der</w> the neck of it from
+                            being commodiouſly <lb/>felt. Though the greateſt difficulty occurs
+                            <lb/>when the gland is confined to the uterus, <w part="I"
+                                >be-</w><lb/><w part="F">ing</w> too much enlarged to paſs through
+                            the os <lb/>internum. </p>
+                        <p rend="indent"><lb/>Sometimes all or moſt of the glands of the <lb/>uterus
+                            are thus affected, and augment the <lb/>womb to ſuch a degree, that it
+                            will weigh a <lb/>great many pounds, and the woman is <w part="I"
+                                >de-</w><pb n="92"/><lb/><w part="F">ſtroyed</w> by its preſſure
+                            upon the ſurrounding <lb/>parts; but ſhould this indolent ſtate of the
+                            <lb/>tumour be altered by any accident that will <lb/>produce irritation
+                            and inflammation, the parts <lb/>will grow ſcirrhous, and a cancer
+                            enſue. </p>
+                        <p rend="indent"><lb/>This misfortune for the moſt part happens <lb/>to
+                            women when their menſtrual evacuations <lb/>leave them; and ſometimes
+                            (though ſeldom) <lb/>to child-bearing women, in conſequence of
+                            <lb/>ſevere labour. </p>
+                        <p rend="indent"><lb/>Some people have affirmed that the Placenta,
+                            <lb/>being left in the Uterus after the delivery of <lb/>the child,
+                            grows gradually larger. But the <lb/>contrary of this aſſertion is
+                            proved by <w part="I">com-</w><lb/><w part="F">mon</w> practice; from
+                            which it appears, that <lb/>the Placenta is actually preſſed into
+                            ſmaller <w part="I">di-</w><lb/><w part="F">menſions</w>, and ſometimes
+                            into a ſubſtance <w part="I">al-</w><lb/><w part="F">moſt</w>
+                            demi-cartilaginous: for, after the death <lb/>or delivery of the child,
+                            the Secundines <w part="I">re-</w><lb/><w part="F">ceive</w> no farther
+                            increaſe or growth. Dropſies <lb/>and hydatides are alſo ſuppoſed to be
+                            formed <lb/>in the uterus, and diſcharged from thence <w part="I"
+                                >to-</w><lb/><w part="F">gether</w> with air or wind. The Ovaria are
+                            <lb/>ſometimes affected in the ſame manner, are <lb/>inflamed,
+                            inpoſthumate, grow ſcirrhous, <w part="I">can-</w><lb/><w part="F"
+                                >cerous</w>, and the patient is deſtroyed by the <lb/>diſcharge
+                            which gradually fills the abdomen <lb/>with pus and ichor; ſo that all
+                            theſe complaints, <lb/>if known, ought to be obviated in the <w part="I"
+                                >begin-</w><lb/><w part="F">ning</w>. See Collect. IX. </p>
+                    </div>
+                    <pb n="93"/>
+                    <div type="section">
+                        <head rend="space align-center size(0.75) italic"><lb/><hi rend="roman sc"
+                                >Sect. IX</hi>. Of the <hi rend="roman sc">Placenta</hi> and
+                            Membranes. </head>
+                        <p rend="space"><lb/><hi rend="dc(2)">I</hi>
+                            <hi rend="sc">Have</hi> already obſerved that the Ovum is <lb/>formed of
+                            the Placenta with the Chorion <lb/>and Amnion, which are globularly
+                            diſtended <lb/>by the incloſed waters that ſurround the child. <lb/>The
+                            Placenta is commonly of a round figure, <lb/>ſomewhat reſembling an
+                            oat-cake, about ſix <lb/>inches in diameter, and one inch thick in the
+                            <lb/>middle, growing a little thinner towards the <lb/>circumference: it
+                            is compoſed of veins and <lb/>arteries, which are divided into an
+                            infinite <lb/>number of ſmall branches, the venous parts of <lb/>which
+                            unite in one large tube, called the <hi rend="italic"><w part="I"
+                                    >um-</w><lb/><w part="F">bilical</w> vein</hi>, which brings
+                            back the blood, and <lb/>is ſuppoſed to carry along the nutritive fluid
+                            <lb/>from the veſſels of the Chorion and Placenta, <lb/>to the child,
+                            whoſe belly it perforates at the <lb/>navel; from thence paſſing into
+                            the liver, <lb/>where it communicates with the vena <w part="I"
+                                >por-</w><lb/><w part="F">tarum</w> and cava. It is furniſhed with
+                            two <lb/>arteries, which ariſe from the internal
+                            i<unclear>l</unclear>iacs of <lb/>the child, and running up on each ſide
+                            of the <lb/>bladder perforates the belly where the <w part="I"
+                                >umbi-</w><lb/><w part="F">lical</w> vein entered; then they proceed
+                            to the <lb/>Placenta, in a ſpiral line, twining around the <lb/>vein, in
+                            conjunction with which, they form <lb/>the Funiculus umbilicalis, which
+                            is commonly <lb/>four or five hand-breadths in length, <w part="I"
+                                >ſome-</w><lb/><w part="F">times</w> only two or three, and
+                            ſometimes it <w part="I">ex-</w><lb/><w part="F">tends</w> to the length
+                            of eight or ten. The two <lb/>arteries, on their arrival at the inner
+                            ſurface of <lb/>the Placenta, are divided and ſubdivided into <pb n="94"
+                            /><lb/>minute branches, which at laſt end in ſmall <lb/>capillaries that
+                            inoſculate with the veins of the <lb/>ſame order. Theſe arteries,
+                            together with <lb/>the umbilical vein, are ſuppoſed to do the <lb/>ſame
+                            office in the Placenta which is afterwards <lb/>performed in the lungs
+                            by the pulmonary <w part="I">ar-</w><lb/><w part="F">tery</w> and vein,
+                            until the child is delivered and <lb/>begins to breathe: and this
+                            opinion ſeems to <lb/>be confirmed by the following experiments. <lb/>If
+                            the child and Placenta are both delivered <lb/>ſuddenly, or the laſt
+                            immediately after the <lb/>firſt; and if the child, though alive, does
+                            not <lb/>yet breathe, the blood may be felt circulating <lb/>ſometimes
+                            ſlowly, at other times with great <lb/>force, through the arteries of
+                            the Funis to the <lb/>Placenta, and from thence back again to the
+                            <lb/>child, along the umbilical vein. When the <lb/>veſſels are ſlightly
+                            preſſed, the arteries ſwell <lb/>between the preſſure and the child,
+                            while <lb/>the vein grows turgid between that and the <lb/>Placenta,
+                            from the ſurface of which no blood <lb/>is obſerved to flow, although it
+                            be lying in a <lb/>baſon among warm water. As the child <w part="I"
+                                >be-</w><lb/><w part="F">gins</w> to breathe, the circulation,
+                            though it was <lb/>weak before, immediately grows ſtronger and
+                            <lb/>ſtronger; and then in a few minutes the <w part="I">pul-</w><lb/><w
+                                part="F">ſation</w> in the navel-ſtring becomes more <w part="I"
+                                >lan-</w><lb/><w part="F">guid</w>, and at laſt entirely ſtops. If
+                            after the <lb/><choice>
+                                <corr/>
+                                <sic>the</sic>
+                            </choice> child is delivered, and the navel-ſtring cut, <lb/>provided
+                            the Placenta adheres firmly to the <lb/>Uterus, which is thereby kept
+                            extended; or, <lb/>if the womb is ſtill diſtended by another child;
+                            <lb/>no more blood flows from the umbilical <w part="I">veſ-</w><lb/><w
+                                part="F">ſels</w> than what ſeemed to be contained in them <pb
+                                n="95"/><lb/>at the inſtant of cutting; and this, in <w part="I"
+                                >com-</w><lb/><w part="F">mon</w> caſes, does not exceed the
+                            quantity of <lb/>two or three ounces: and finally, when, in
+                            <lb/>conſequence of violent floodings, the mother <lb/>expires either in
+                            time of delivery or ſoon <lb/>after it, the child is ſometimes found
+                            alive and <lb/>vigorous, eſpecially if the Placenta is ſound; <lb/>but
+                            if tore, then the child will loſe blood as <lb/>well as the mother. </p>
+                        <p rend="indent"><lb/>The external ſurface of the Placenta is <w part="I"
+                                >di-</w><lb/><w part="F">vided</w> into ſeveral lobes, that it may
+                            yield and <lb/>conform itſelf more commodiouſly to the inner
+                            <lb/>ſurface of the Uterus, to which it adheres, ſo <lb/>as to prevent
+                            its being ſeparated by any ſhock <lb/>or blows upon the abdomen, unleſs
+                            when <lb/>violent. </p>
+                        <p rend="indent"><lb/>Thoſe groups of veins and arteries which <lb/>enter
+                            into the compoſition of the Placenta, <w part="I">re-</w><lb/><w
+                                part="F">ceive</w> external coats from the Chorion, which <lb/>is
+                            the outward membrane of the Ovum, thick <lb/>and ſtrong, and forms
+                            three-fourths of the <w part="I">ex-</w><lb/><w part="F">ternal</w>
+                            globe that contains the waters and the <lb/>child; the remaining part
+                            being covered by <lb/>the Placenta; ſo that theſe two in <w part="I"
+                                >conjunc-</w><lb/><w part="F">tion</w> conſtitute the whole external
+                            ſurface of <lb/>the Ovum. Some indeed allege, that theſe <lb/>are
+                            inveloped with a cribriform or cellular <w part="I">ſub-</w><lb/><w
+                                part="F">ſtance</w>, by which they ſeem to adhere by <w part="I"
+                                >con-</w><lb/><w part="F">tact</w> only, to the Uterus; and that the
+                            inner <lb/>membrane of the womb is full of little glands, <lb/>whoſe
+                            excretory ducts, opening into the <w part="I">fun-</w><lb/><w part="F"
+                                >dus</w> and neck, ſecrete a ſoft thin mucus (as <lb/>formerly
+                            obſerved) to lubricate the whole <w part="I">ca-</w><lb/><w part="F"
+                                >vity</w> of the Uterus, which beginning to ſtretch <pb n="96"
+                            /><lb/>in time of geſtation, the veſſels that compoſe <lb/>theſe glands
+                            are alſo diſtended; conſequently <lb/>a greater quantity of this mucus
+                            is ſeparated <lb/>and retained in this ſuppoſed cribriform and
+                            <lb/>cellular ſubſtance, the abſorbing veſſels of <lb/>which take it in
+                            and convey it along the veins <lb/>for the nouriſhment of the child. The
+                            womb <lb/>being therefore diſtended in proportion to the <lb/>increaſe
+                            of the child, thoſe glands are alſo <lb/>proportionably enlarged; by
+                            which means a <lb/>larger quantity of the fluid is ſeparated, <w
+                                part="I">be-</w><lb/><w part="F">cauſe</w> the nutriment of the
+                            child must be <w part="I">aug-</w><lb/><w part="F">mented</w> in
+                            proportion to the progreſs of its <lb/>growth; and this liquor undergoes
+                            an <w part="I">altera-</w><lb/><w part="F">tion</w> in quality as well
+                            as quantity, being <lb/>changed from a clear thin fluid into the more
+                            <lb/>viſcous conſiſtence of milk. In ſome caſes, <lb/>this mucus hath
+                            been diſcharged from the <lb/>uterus in time of pregnancy, and both
+                            mother <lb/>and child weakened by the evacuation; which <lb/>may be
+                            occaſioned by the chorion's adhering <lb/>too looſely, or being in one
+                            part actually <w part="I">ſe-</w><lb/><w part="F">parated</w> from the
+                            womb. </p>
+                        <p rend="indent"><lb/>Formerly, it was taken for granted by <lb/>many, that
+                            the Placenta always adhered to the <lb/>fundus uteri. But this notion is
+                            refuted by <lb/>certain obſervations; in conſequence of which <lb/>we
+                            find it as often ſticking to the ſides, back, <lb/>and fore parts, and
+                            ſometimes as far down as <lb/>the inſide of the os uteri. See Tab. V.
+                            VI. <lb/>VIII. IX. X. XI. XIII. </p>
+                        <p rend="indent"><lb/>When the Placenta is delivered, and no <lb/>other part
+                            of the membrane tore except that <lb/>through which the child paſſed,
+                            the opening is <pb n="97"/><lb/>generally near the edge or ſide of the
+                            placenta, <lb/>and ſeldom in the middle of the membranes; <lb/>and a
+                            hog's bladder being introduced at this <lb/>opening, and inflated, when
+                            lying in water, <lb/>will ſhow the ſhape and ſize of the inner <w
+                                part="I">ſur-</w><lb/><w part="F">face</w> of the womb, and plainly
+                            diſcover the <lb/>part to which the placenta adhered. </p>
+                        <p rend="indent"><lb/>The Chorion is, on the inſide, lined with <lb/>the
+                            Amnion, which is a thin tranſparent <w part="I">mem-</w><lb/><w part="F"
+                                >brane</w>, without any veſſels ſo large as to <w part="I"
+                                >ad-</w><lb/><w part="F">mit</w> the red globules of blood: It
+                            adheres to <lb/>the chorion by contact, and ſeems to form <lb/>the
+                            external coat of the funis umbilicalis. </p>
+                        <p rend="indent"><lb/>This membrane contains the ſerum, in <lb/>which the
+                            child ſwims; which fluid is ſuppoſed <lb/>to be furniſhed by lymphatic
+                            veſſels that open <lb/>into the inner ſurface of the amnion. If this
+                            <lb/>liquid is neither abſorbed into the body of the <lb/>fœtus, nor
+                            taken into the ſtomach by ſuction <lb/>at the mouth, there muſt be
+                            abſorbing veſſels in <lb/>this membrane, in the ſame manner as in the
+                            <lb/>abdomen and other cavities of the body, <lb/>where there is a
+                            conſtant renovation of <w part="I">humi-</w><lb/><w part="F">dity</w>. </p>
+                        <p rend="indent"><lb/>The quantity of this fluid, in proportion to <lb/>the
+                            weight of the fœtus, is much greater in <lb/>the firſt than in the laſt
+                            month of geſtation <lb/>being in the one perhaps ten times the
+                            <lb/>weight of the embryo, whereas in the other <lb/>it is commonly in
+                            the proportion of one to <lb/>two: for ſix pounds of water ſurrounding a
+                            <lb/>fœtus that weighs twelve pounds, is <w part="I">reckon-</w><lb/><w
+                                part="F">ed</w> a large proportion, the quantity being <w part="I"
+                                >of-</w><pb n="98"/><lb/><w part="F">ten</w> much leſs; nay,
+                            ſometimes there is very <lb/>little or none at all. </p>
+                        <p rend="indent"><lb/>In moſt animals of the brute ſpecies, there <lb/>is a
+                            third membrane called <hi rend="italic">allantois</hi>, which <w
+                                part="I">re-</w><lb/><w part="F">ſembles</w> a long and wide
+                            blind-gut, and <w part="I">con-</w><lb/><w part="F">tains</w> the urine
+                            of the fœtus. It is ſituated <w part="I">be-</w><lb/><w part="F"
+                                >tween</w> the chorion and amnion, and <w part="I">com-</w><lb/><w
+                                part="F">municates</w> with the urachus that riſes from the
+                            <lb/>fundus of the bladder, and runs along with <lb/>the umbilical
+                            veſſels, depoſiting the urine in <lb/>this reſervoir, which is attached
+                            to its other <lb/>extremity. This bag hath not yet been <w part="I"
+                                >cer-</w><lb/><w part="F">tainly</w> diſcovered in the human fœtus,
+                            the <lb/>urachus which, though plainly perceivable, <lb/>ſeems hitherto
+                            to be quite imperforated. </p>
+                        <p rend="indent"><lb/>From the foregoing obſervations upon <w part="I"
+                                >nu-</w><lb/><w part="F">trition</w>, it ſeems probable, that the
+                            fœtus is <w part="I">ra-</w><lb/><w part="F">ther</w> nouriſhed by the
+                            abſorption of the nutritive <lb/>fluid into the veſſels of the placenta
+                            and <w part="I">cho-</w><lb/><w part="F">rion</w>, than form the red
+                            blood circulated in <lb/>full ſtream from the arteries of the uterus to
+                            <lb/>the veins of the placenta, and returned by <lb/>the arteries of the
+                            laſt to the veins of the firſt, <lb/>in order to be renewed, refined,
+                            and made <w part="I">ar-</w><lb/><w part="F">terial</w> blood in the
+                            lungs of the mother. </p>
+                        <p rend="indent"><lb/>Yet this doctrine of abſorption is clogged <lb/>with
+                            one objection, which hath never been <lb/>fully anſwered; namely, That
+                            if the placenta <lb/>adheres to the lower part of the uterus, when
+                            <lb/>the os internum begins to be dilated a <w part="I"
+                                >flood-</w><lb/><w part="F">ing</w> immediately enſues; and the ſame
+                            ſymptom <lb/>happens upon a partial or total ſeparation of <lb/>the
+                            placenta from any other part of the womb; <pb n="99"/><lb/>whereas no
+                            ſuch conſequence follows a <w part="I">ſepara-</w><lb/><w part="F"
+                                >tion</w> of the chorion. </p>
+                        <p rend="indent"><lb/>The new theoriſts indeed obſerve, that <lb/>there is
+                            no neceſſity for a ſupply of red blood <lb/>from the mother; becauſe the
+                            circulating force <lb/>in the veſſels of the fœtus produces heat and
+                            <lb/>motion ſufficient to endue the fluids with a <lb/>ſanguine colour;
+                            that neither is there <w part="I">occa-</w><lb/><w part="F">ſion</w> for
+                            returning and refining this blood in <lb/>the lungs of the mother,
+                            becauſe that office is <lb/>ſufficiently performed in the placenta,
+                            until <lb/>the fœtus is delivered, when its own lungs are <lb/>put to
+                            their proper uſe; and laſtly, that the <lb/>blood of the mother is too
+                            groſs a fluid to <w part="I">an-</w><lb/><w part="F">ſwer</w> the
+                            occaſions of the fœtus. Certain it <lb/>is, the chick in the egg is
+                            nouriſhed by the <lb/>white which is forced along the veſſels, and
+                            <lb/>the quantity of red blood increaſes in <w part="I">pro-</w><lb/><w
+                                part="F">portion</w> to the growth of the contained <w part="I"
+                                >em-</w><lb/><w part="F">bryo</w> or fœtus, without any ſupply from
+                            the <lb/><unclear>h</unclear>en. </p>
+                        <p rend="indent"><lb/>On the whole, the opinions broached upon <lb/>the
+                            nutrition of the embryo and fœtus in <lb/><unclear>u</unclear>tero have
+                            been various, as well as thoſe <lb/>that are adopted concerning the <hi
+                                rend="italic">modus</hi> of <lb/>conception. </p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

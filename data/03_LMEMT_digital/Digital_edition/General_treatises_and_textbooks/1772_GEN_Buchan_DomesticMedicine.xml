@@ -1,0 +1,1135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> LMEMT Corpus - Buchan: Domestic medicine</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>William Buchan</persName>
+            </author>
+            <title type="main">Domestic medicine: or, a treatise on the prevention and cure of
+              diseases by regimen and simple medicines. By William Buchan, M.D. Of the Royal College
+              of Physicians, Edinburgh.</title>
+            <edition n="2"/>
+            <idno type="ESTC">T117176</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/T117176"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>London: printed for W. Strahan; T. Cadell in the Strand; and A. Kincaid
+                  &amp; W. Creech, and J. Balfour, at Edinburgh, MDCCLXXII.</persName>
+              </publisher>
+              <date>1772</date>
+            </imprint>
+            <extent>
+              <measure type="format">8⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="34"/>
+              <measure type="count" commodity="body" unit="page" quantity="758"/>
+              <measure type="count" commodity="back" unit="page" quantity="2"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">British Library</orgName>
+            <idno type="ECCO">CW107067082</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="General treatises"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text type="book" rend="roman" xml:lang="eng">
+    <gap reason="sampling" unit="pages" quantity="34"/>
+    <body>
+      <pb n="1"/>
+      <head rend="align-center">
+        <lb/>PART I. <lb/>OF THE <lb/>GENERAL CAUSES OF DISEASES. </head>
+      <div type="chapter">
+        <head rend="align-center space">
+          <lb/>CHAP. I. <lb/>OF CHILDREN. </head>
+        <p rend="space">
+          <lb/><hi rend="dc(3)">T</hi>HE better to trace diſeaſes from their ori- <lb/>ginal cauſes,
+          we ſhall take a view of the <lb/>common treatment of mankind in the <lb/>ſtate of infancy.
+          In this period of our lives, the <lb/>foundations of a good or bad conſtitution are ge-
+          <lb/>nerally laid; it is therefore of importance, that <lb/>parents be well acquainted
+          with the various cauſes <lb/>which may produce diſeaſes in their offspring. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">It</hi> appears from the annual regiſters of the dead, <lb/>that about
+          one half of the children born in Great <lb/>Britain die under twelve years of age. To
+          many, <lb/>indeed, this may appear a natural evil; but, on due <lb/>examination, it will
+          be found to be one of our own <lb/>creating. Were the death of infants a natural evil,
+          <lb/>other animals would be as liable to die young as <lb/>man; but this we find is by no
+          means the caſe. </p>
+        <pb n="2"/>
+        <p rend="indent">
+          <lb/><hi rend="sc">It</hi> may ſeem ſtrange that man, notwithſtanding <lb/>his ſuperior
+          reaſon, ſhould fall ſo far ſhort of other <lb/>animals in the management of his young: But
+          our <lb/>ſurpriſe will ſoon ceaſe, if we conſider that brutes, <lb/>guided by inſtinct,
+          never err in this reſpect; while <lb/>man, truſting ſolely to art, is ſeldom right. Were
+          <lb/>a catalogue of thoſe children who periſh annually <lb/>by art alone exhibited to
+          public view, it would <lb/>aſtoniſh moſt people. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">If</hi> parents are above taking care of their child- <lb/>ren, others
+          muſt be employed for that purpoſe: <lb/>Theſe will always endeavour to recommend them-
+          <lb/>ſelves by the appearance of extraordinary ſkill and <lb/>addreſs. By this means ſuch
+          a number of unneceſ- <lb/>ſary and deſtructive articles have been introduced <lb/>into the
+          diet, clothing, &amp;c. of infants, that it is <lb/>no wonder ſo many of them periſh. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">Nothing</hi> can be more prepoſterous than for a <lb/>mother to think
+          it below her to take care of her <lb/>own child, or to be ſo ignorant as not to know
+          <lb/>what is proper to be done for it. If we ſearch na- <lb/>ture throughout, we cannot
+          find a parallel to this. <lb/>Every other creature is the nurſe of its own young, <lb/>and
+          they thrive accordingly. Were the brutes to <lb/>bring up their young by proxy, they would
+          ſhare <lb/>the ſame fate with thoſe of the human ſpecies. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">We</hi> mean not, however, to impoſe it as a taſk upon <lb/>every
+          mother to ſuckle her own child. This, what- <lb/>ever ſpeculative writers may alledge, is
+          in many <lb/>caſes impracticable, and would inevitably prove de- <lb/>ſtructive both to
+          the mother and child. Women of <pb n="3"/>
+          <lb/>delicate conſtitutions, ſubject to low ſpirits, hyſte- <lb/>ric fits, or other
+          nervous diſorders, make very bad <lb/>nurſes: And theſe complaints are now ſo common,
+          <lb/>that it is rare to find a woman of faſhion free from <lb/>them: ſuch women,
+          therefore, ſuppoſing them <lb/>willing, are really unable to ſuckle their own
+          <lb/>children. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">Almost</hi> every mother would be in a condition <lb/>to give ſuck, did
+          mankind live agreeably to Nature: <lb/>But, whoever conſiders how far we have deviated
+          <lb/>from her dictates, will not be ſurpriſed to find <lb/>many of them unable to perform
+          that neceſſary <lb/>office. Mothers who do not eat a ſufficient quan- <lb/>tity of ſolid
+          food, nor enjoy the benefit of free <lb/>air and exerciſe, can neither have wholeſome hu-
+          <lb/>mours themſelves, nor afford proper nouriſhment <lb/>to an infant. Hence children who
+          are ſuckled by <lb/>delicate women, either die young, or are weak and <lb/>ſickly all
+          their lives. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">When</hi> we ſay that mothers are not always in a <lb/>condition to
+          ſuckle their own children, we would not <lb/>be underſtood as diſcouraging that practice.
+          Every <lb/>mother who can, ought certainly to perform ſo ten- <lb/>der and agreeable an
+          office. But, ſuppoſe it to be <lb/>out of her power, ſhe may, nevertheleſs, be of great
+          <lb/>ſervice to her child. The buſineſs of nurſing is by <lb/>no means confined to giving
+          ſuck. To a woman <lb/>who abounds with milk, this is the eaſieſt part of <lb/>it.
+          Numberleſs other offices are neceſſary for a <lb/>child, which the mother ought at leaſt
+          to ſee <lb/>done. </p>
+        <pb n="4"/>
+        <p rend="indent">
+          <lb/><hi rend="sc">A mother</hi> who abandons the fruit of her womb, <lb/>as ſoon as it is
+          born, to the ſole care of an hireling, <lb/>hardly deſerves the name of a parent. A child,
+          by being <lb/>brought up under the mother's eye, not only ſecures <lb/>her affection, but
+          may reap all the advantages of a <lb/>mother's care though it be ſuckled by another. How
+          <lb/>can a mother be better employed than in ſuperin- <lb/>tending the nurſery? This is at
+          once the moſt de- <lb/>lightful and important office! yet the moſt trivial <lb/>buſineſs
+          or inſipid amuſements are often preferred <lb/>to it. A ſtrong proof both of the bad taſte
+          and <lb/>wrong education of modern females. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">It</hi> is indeed to be regretted, that more care is not <lb/>beſtowed
+          in teaching the proper management of <lb/>children to thoſe whom nature has deſigned for
+          mo- <lb/>thers. This, inſtead of being made a principal, is <lb/>ſeldom conſidered as any
+          part of female education. <lb/>Is it any wonder, when females, ſo educated, come <lb/>to
+          be mothers, that they ſhould be quite ignorant <lb/>of the duties belonging to that
+          character? However <lb/>ſtrange it may appear, it is certainly true, that many
+          <lb/>mothers, and thoſe of faſhion too, are as ignorant, <lb/>when they have brought a
+          child into the world, <lb/>what to do for it, as the infant itſelf. Indeed, the <lb/>moſt
+          ignorant of the ſex are generally reckoned <lb/>moſt knowing in the buſineſs of nurſing.
+          Hence, <lb/>ſenſible people become the dupes of ignorance and <lb/>ſuperſtition; and the
+          nurſing of children, inſtead <lb/>of being conducted by reaſon, is the reſult of whim
+          <lb/>and caprice <note n="*" place="bottom" rend="size(0.75)">
+            <p rend="indent">
+              <lb/>* Tacitus, the celebrated Roman hiſtorian, complains <lb/>greatly of the
+              degeneracy of the Roman ladies in his time, <pb n="5" type="footnote"/>
+              <lb/>with regard to the care of their offspring. He ſays that, in <lb/>former times,
+              the greateſt women in Rome uſed to account it <lb/>their chief glory to keep the houſe
+              and attend their children; <lb/>but that now the young infant was committed to the
+              ſole care <lb/>of ſome poor Grecian wench or other menial ſervant.—We <lb/>are afraid,
+              wherever luxury and effeminacy prevail, there will <lb/>be too much ground for this
+              complaint. </p>
+          </note>. </p>
+        <pb n="5"/>
+        <p rend="indent">
+          <lb/><hi rend="sc">Were</hi> the time that is generally ſpent by females <lb/>in the
+          acquiſition of trifling accompliſhments, em- <lb/>ployed in learning how to bring up their
+          children; <lb/>how to dreſs them ſo as not to hurt, cramp, or con- <lb/>fine their
+          motions; how to feed them with whole- <lb/>ſome and nouriſhing food; how to exerciſe their
+          <lb/>tender bodies, ſo as beſt to promote their growth <lb/>and ſtrength: Were theſe made
+          the object of fe- <lb/>male inſtruction, mankind would derive the great- <lb/>eſt
+          advantages from it. But, while the education of <lb/>females implies little more than what
+          relates to dreſs <lb/>and public ſhew, we have nothing to expect from <lb/>them but
+          ignorance, even in the moſt important <lb/>concerns. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">Did</hi> mothers reflect on their own importance, <lb/>and lay it to
+          heart, they would embrace every op- <lb/>portunity of informing themſelves of the duties
+          <lb/>which they owe to their infant-offspring. It is their <lb/>province, not only to form
+          the body, but alſo to give <lb/>the mind its moſt early bias. They have it very <lb/>much
+          in their power to make men healthy or vale- <lb/>tudinary, <choice>
+            <corr>uſeful</corr>
+            <sic>ufeful</sic>
+          </choice> in life, or the peſts of ſociety. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">But</hi> the mother is not the only perſon concern- <lb/>ed in the
+          management of children. The father has <pb n="6"/>
+          <lb/>an equal intereſt in their welfare, and ought to aſſiſt <lb/>in every thing that
+          reſpects either the improvement <lb/>of the body or mind. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">It</hi> is pity that the men ſhould pay ſo little regard <lb/>to this
+          matter. Their negligence is one reaſon why <lb/>females know ſo little of it. Women will
+          ever be <lb/>deſirous to excel in ſuch accompliſhments as re- <lb/>commend them to the
+          other ſex. But men gene- <lb/>rally keep at ſuch a diſtance from even the ſmalleſt
+          <lb/>acquaintance with the affairs of the nurſery, that <lb/>many would eſteem it an
+          affront, were they ſuppo- <lb/>ſed to know any thing of them. Not ſo, however, <lb/>with
+          the kennel or the ſtables: A gentleman of the <lb/>firſt rank is not aſhamed to give
+          directions concern- <lb/>ing the management of his dogs or horſes, yet <lb/>would bluſh
+          were he ſurpriſed in performing the <lb/>ſame office for that being who derived its
+          exiſtence <lb/>from himſelf, who is the heir of his fortunes, and <lb/>the future hope of
+          his country. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">Even</hi> phyſicians themſelves have not been ſuffi- <lb/>ciently
+          attentive to the management of children: <lb/>That has been generally conſidered as the
+          ſole pro- <lb/>vince of old women, while men of the firſt charac- <lb/>ter in phyſic have
+          refuſed to viſit infants even when <lb/>ſick. Such conduct in the faculty has not only
+          <lb/>cauſed this branch of medicine to be neglected, but <lb/>has alſo encouraged the
+          other ſex to aſſume an ab- <lb/>ſolute title to preſcribe for children in the moſt
+          <lb/>dangerous diſeaſes. The conſequence is, that a <lb/>phyſician is ſeldom called till
+          the good women have <lb/>exhauſted all their ſkill; when his attendance can <pb n="7"/>
+          <lb/>only ſerve to divide the blame and appeaſe the diſ- <lb/>conſolate parents. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">Nurses</hi> ſhould do all in their power to prevent <lb/>diſeaſes; but,
+          when a child is taken ill, ſome per- <lb/>ſon of ſkill ought immediately to be conſulted.
+          <lb/>The diſeaſes of children are generally acute, and <lb/>the leaſt delay is dangerous. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">Were</hi> phyſicians more attentive to the diſeaſes <lb/>of infants,
+          they would not only be better qualified <lb/>to treat them properly when ſick, but
+          likewiſe to <lb/>give uſeful directions for their management when <lb/>well. The diſeaſes
+          of children are by no means <lb/>ſo difficult to be underſtood as many imagine. It <lb/>is
+          true, they cannot tell their complaints; but the <lb/>cauſes of them may be pretty
+          certainly diſcovered, <lb/>by putting proper queſtions to the nurſes and ſuch <lb/>as are
+          about them. Beſides, the diſeaſes of infants, <lb/>being leſs complicated, are eaſier
+          cured than thoſe <lb/>of adults <note rend="size(0.75)" place="bottom" n="*">
+            <p rend="indent">
+              <lb/>* The common opinion, that the diſeaſes of infants are <lb/>hard to diſcover and
+              difficult to cure, has deterred many phy- <lb/>ſicians from paying that attention to
+              them which they deſerve. <lb/>I can however, from experience, declare that this
+              opinion is <lb/>without foundation, and that the diſeaſes of infants are nei-
+              <lb/>ther ſo difficult to diſcover nor ſo ill to cure as thoſe of adults. <lb/>This we
+              hope will induce practitioners to pay more regard to <lb/>the complaints of their
+              young patients, and not to leave them <lb/>intirely in the hands of old women. </p>
+          </note>. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">It</hi> is really aſtoniſhing, that ſo little attention <lb/>ſhould in
+          general be paid to the preſervation of in- <lb/>fants. What labour and expence are daily
+          be- <pb n="8"/>
+          <lb/>ſtowed to prop an old tottering carcaſe for a few <lb/>years, while thouſands of
+          thoſe, who might be <lb/>uſeful in life, periſh without being regarded! <lb/>Mankind are
+          too apt to value things according to <lb/>their preſent, not their future, uſefulneſs.
+          Tho' <lb/>this be of all others the moſt erroneous method <lb/>of eſtimation; yet, upon no
+          other principle is it <lb/>poſſible to account for the general indifference <lb/>with
+          reſpect to the death of infants. </p>
+        <p rend="indent space">
+          <lb/>
+          <note place="margin" rend="size(0.75)">Of diſeaſed <lb/>parents. </note><hi rend="sc"
+            >One</hi> great ſource of the diſeaſes of children is, <lb/>the <hi rend="sc"
+            >unhealthiness of parents</hi>. It would be as <lb/>reaſonable to expect a rich crop
+          from a barren ſoil, as <lb/>that ſtrong and healthy children ſhould be born of
+          <lb/>parents whoſe conſtitutions have been worn out with <lb/>intemperance or diſeaſe. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">An</hi> ingenious writer obſerves <note place="bottom"
+            rend="size(0.75)" n="*">
+            <p rend="align-center">
+              <lb/>* Rouſſeau. </p>
+          </note>, that on the con- <lb/>ſtitution of mothers depends originally that of their
+          <lb/>offspring. No one who believes this will be ſur- <lb/>priſed, on a view of the female
+          world, to find diſ- <lb/>eaſes and death ſo frequent among children. A <lb/>delicate
+          female, brought up within doors, an utter <lb/>ſtranger to exerciſe and open air, who
+          lives on tea <lb/>and other ſlops, may bring a child into the world, <lb/>but it will
+          hardly be fit to live. The firſt blaſt of <lb/>diſeaſe will nip the tender plant in the
+          bud: Or, <lb/>ſhould it ſtruggle through a few years exiſtence, <lb/>its feeble frame,
+          ſhaken with convulſions from <lb/>every trivial cauſe, will be unable to perform the
+          <lb/>common functions of life, and prove a burden to <lb/>ſociety. </p>
+        <pb n="9"/>
+        <p rend="indent">
+          <lb/><hi rend="sc">If</hi>, to the delicacy of mothers, we add the irre- <lb/>gular lives
+          of fathers, we ſhall ſee further cauſe to <lb/>believe that children are often hurt by the
+          conſti- <lb/>tution of their parents. A ſickly frame may be <lb/>originally induced by
+          hardſhips or intemperance, <lb/>but chiefly by the latter. It is impoſſible that a
+          <lb/>courſe of vice ſhould not ſpoil the beſt conſtitu- <lb/>tion: And, did the evil
+          terminate here, it would <lb/>be a juſt puniſhment for the folly of the ſufferer;
+          <lb/>but, when once a diſeaſe is contracted and rivetted <lb/>in the habit, it is entailed
+          on poſterity. What <lb/>a dreadful inheritance is the gout, the ſcurvy, <lb/>or the
+          kings-evil, to tranſmit to our offspring! <lb/>How happy had it been for the heir of many
+          a <lb/>great eſtate, had he been born a beggar, rather <lb/>than to inherit his father's
+          fortunes at the expence <lb/>of inheriting his diſeaſes! </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">No</hi> perſon who labours under any incurable <lb/>malady ought to
+          marry. He thereby not only <lb/>ſhortens his own life, but tranſmits miſery to
+          <lb/>others: But, when both parties are deeply tainted <lb/>with the ſcrophula, the
+          ſcurvy, or the like, the <lb/>effects muſt be ſtill worſe. Such will either have <lb/>no
+          iſſue at all, or thoſe whom they have muſt be <lb/>miſerable indeed. Want of attention to
+          theſe <lb/>things, in forming connections for life, has rooted <lb/>out more families than
+          plague, famine, or the <lb/>ſword; and, ſo long as theſe connections are formed <lb/>from
+          mercenary views, the evil will be continued. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">In</hi> our matrimonial contracts, it is amazing ſo <lb/>little regard
+          is had to the health and form of the <pb n="10"/>
+          <lb/>object. Our ſportſmen know, that the generous <lb/>courſer cannot be bred out of the
+          foundered jade, <lb/>nor the ſagacious ſpaniel out of the ſnarling cur. <lb/>This is
+          ſettled upon immutable laws. The man <lb/>who marries a woman of a ſickly conſtitution,
+          and <lb/>deſcended of unhealthy parents, whatever his views <lb/>may be, cannot be ſaid to
+          act a prudent part. A <lb/>puny ſcrophulous woman may prove fertile; <lb/>ſhould this be
+          the caſe, the family muſt become <lb/>an infirmary: What proſpect of happineſs the
+          <lb/>father of ſuch a family has, we ſhall leave any <lb/>one to judge. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">The</hi> Jews, by their laws, were, in certain caſes, <lb/>forbid to
+          have any manner of commerce with the <lb/>diſeaſed; and indeed to this all wiſe
+          legiſlators <lb/>ought to have a ſpecial regard. In ſome countries, <lb/>diſeaſed perſons
+          have actually been forbid to marry. <lb/>This is an evil of a complicated kind, a natural
+          de- <lb/>formity, and political miſchief; and therefore re- <lb/>quires a public
+          conſideration. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">Such</hi> children as have the misfortune to be born <lb/>of diſeaſed
+          parents, will require to be nurſed with <lb/>greater care than others. This is the only
+          way to <lb/>make amends for the defects of conſtitution; and <lb/>it will often go a great
+          length. A healthy nurſe, <lb/>wholeſome air, and ſufficient exerciſe, will do
+          <lb/>wonders. But, when theſe are neglected, little <lb/>is to be expected from any other
+          quarter. The <lb/>defects of conſtitution cannot be ſupplied by me- <lb/>dicine. </p>
+        <pb n="11"/>
+        <p rend="indent">
+          <lb/><hi rend="sc">Those</hi> who inherit any family-diſeaſe ought <lb/>to be very
+          circumſpect in their manner of living. <lb/>They ſhould conſider well the nature of ſuch
+          diſ- <lb/>eaſe, and guard againſt it by a proper regimen. It <lb/>is certain, that
+          family-diſeaſes have often, by pro- <lb/>per care, been kept off for one generation; and
+          <lb/>there is reaſon to believe, that, by perſiſting in the <lb/>ſame courſe, ſuch
+          diſeaſes might at length be <lb/>wholely eradicated. This is a ſubject very little
+          <lb/>regarded, though of the greateſt importance. Fa- <lb/>mily-conſtitutions are as
+          capable of improvement <lb/>as family-eſtates; and the libertine, who impairs <lb/>the
+          one, does greater injury to his poſterity, than <lb/>the prodigal who ſquanders away the
+          other. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">The clothing</hi> of an infant is ſo ſimple a mat- <note
+            rend="size(0.75)" place="margin">Of the <lb/>clothing of <lb/>children. </note>
+          <lb/>ter, that it is ſurpriſing how any perſon ſhould err <lb/>with regard to it; yet many
+          children loſe their <lb/>lives, and others are deformed, by inattention to <lb/>this
+          article. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">Nature</hi> knows no other uſe of clothes to an <lb/>infant, but to
+          keep it warm. All that is neceſſary <lb/>for this purpoſe, is to wrap it in a ſoft looſe
+          cover- <lb/>ing. Were a mother left to the dictates of nature <lb/>alone, ſhe would
+          certainly follow this method. <lb/>But the buſineſs of dreſſing an infant has long
+          <lb/>been out of the hands of mothers, and has at laſt <lb/>become a ſecret which none but
+          adepts pretend <lb/>to underſtand. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">From</hi> the moſt early ages it has been thought <lb/>neceſſary, that
+          a woman in labour ſhould have <pb n="12"/>
+          <lb/>ſome perſon to attend her. This in time became <lb/>a buſineſs; and, as in all
+          others, thoſe who were <lb/>employed in it ſtrove to outdo one another in the
+          <lb/>different branches of their profeſſion. The dreſ- <lb/>ſing of a child came of courſe
+          to be conſidered as <lb/>the midwife's province, who no doubt imagined, <lb/>that the more
+          dexterity ſhe could ſhew in this ar- <lb/>ticle, the more her ſkill would be admired. Her
+          <lb/>attempts were ſeconded by the vanity of parents, <lb/>who, too often deſirous of
+          making a ſhew of the <lb/>infant as ſoon as it was born, were ambitious to <lb/>have as
+          much finery heaped upon it as poſſible. <lb/>Thus it came to be thought as neceſſary for a
+          <lb/>midwife to excel in bracing and dreſſing an infant, <lb/>as for a ſurgeon to be
+          expert in applying bandages <lb/>to a broken limb; and the poor child, as ſoon as <lb/>it
+          came into the world, had as many rollers and <lb/>wrappers applied to its body, as if
+          every bone <lb/>had been fractured in the birth; while theſe were <lb/>often ſo tight, as
+          not only to gall and wound its <lb/>tender frame, but even to obſtruct the motion of
+          <lb/>the heart, lungs, and other organs neceſſary for <lb/>life. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">In</hi> ſeveral parts of Britain, the practice of rol- <lb/>ling
+          children with ſo many bandages is now, in <lb/>ſome meaſure, laid aſide; but it would
+          ſtill be a <lb/>difficult taſk to perſuade the generality of women, <lb/>that the ſhape of
+          a child does not intirely depend <lb/>on the care of the midwife. So far, however, are
+          <lb/>all their endeavours to mend the ſhape of chil- <lb/>dren from being ſucceſsful, that
+          they conſtantly <pb n="13"/>
+          <lb/>operate the contrary way, and mankind become <lb/>deformed juſt in proportion to the
+          means uſed to <lb/>prevent it. How little deformity of body is to be <lb/>found among
+          uncivilized nations? So little indeed, <lb/>that it is vulgarly believed they put all
+          their de- <lb/>formed children to death. The truth is, they <lb/>hardly know ſuch a thing
+          as a deformed child. <lb/>Neither ſhould we, if we followed their example. <lb/>Savage
+          nations never think of manacling their <lb/>children. They allow them the full uſe of
+          every <lb/>organ, carry them abroad in the open air, waſh <lb/>their bodies daily in cold
+          water, <hi rend="italic">&amp;c.</hi> By this <lb/>management, their children become ſo
+          ſtrong <lb/>and hardy, that, by the time our puny infants get <lb/>out of the nurſe's
+          arms, theirs are able to ſhift for <lb/>themſelves. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">Among</hi> brute animals, no art is neceſſary to <lb/>procure a fine
+          ſhape. Though many of them are <lb/>extremely delicate when they come into the world,
+          <lb/>yet we never find them grow crooked for want of <lb/>ſwaddling-bands. Is nature leſs
+          generous to the <lb/>human kind? No<unclear>;</unclear> But we take the buſineſs out
+          <lb/>of her hands. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">Not</hi> only the analogy of other animals, but the <lb/>very feelings
+          of infants tell us, that they ought to <lb/>be kept eaſy and free from all preſſure. They
+          <lb/>cannot indeed tell their complaints; but they can <lb/>ſhew ſigns of pain; and this
+          they never fail to do, <lb/>by crying, when pinched by their clothes. No <lb/>ſooner are
+          they freed from their bracings, than <pb n="14"/>
+          <lb/>they ſeem pleaſed and happy; yet, ſtrange infa- <lb/>tuation! the moment they hold
+          their peace, they <lb/>are again committed to their chains. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">If</hi> we conſider the body of an infant as a bundle <lb/>of ſoft
+          pipes, repleniſhed with fluids in continual <lb/>motion, the danger of preſſure will
+          appear in the <lb/>ſtrongeſt light. Nature, in order to make way <lb/>for the growth of
+          children, has formed their bo- <lb/>dies ſoft and flexible; and, leſt they ſhould re-
+          <lb/>ceive any injury from preſſure in the womb, has <lb/>ſurrounded the <hi rend="italic"
+            >fœtus</hi> every where with fluids. This <lb/>ſhews the care which nature takes to
+          prevent all <lb/>unequal preſſure on the bodies of infants, and to <lb/>defend them
+          againſt every thing that might in the <lb/>leaſt cramp or confine their motions. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">Even</hi> the bones of an infant are ſo ſoft and car- <lb/>tilaginous,
+          that they readily yield to the ſlighteſt <lb/>preſſure, and eaſily aſſume a bad ſhape,
+          which <lb/>can never after be remedied. Hence it is, that <lb/>ſo many people appear with
+          high ſhoulders, <lb/>crooked ſpines, and flat breaſts, who were as well <lb/>proportioned
+          at their birth as others, but had the <lb/>misfortune to be squeezed out of ſhape by the
+          <lb/>application of ſtays and bandages. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">Pressure</hi>, by obſtructing the circulation, like- <lb/>wiſe prevents
+          the equal diſtribution of nouriſhment <lb/>to the different parts of the body, by which
+          means <lb/>the growth becomes unequal. One part of the <lb/>body grows too large, while
+          another remains too <lb/>ſmall; and thus in time the whole frame becomes
+          <lb/>diſproportioned and miſhapen. To this we muſt <pb n="15"/>
+          <lb/>add, that when a child is cramped in its clothes, <lb/>it naturally ſhrinks from the
+          part that is hurt; <lb/>and, by putting its body into unnatural poſtures, <lb/>it becomes
+          deformed by habit. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">Deformity</hi> of body may indeed proceed from <lb/>weakneſs or
+          diſeaſes; but, in general, it is the <lb/>effect of improper clothing. Nine tenths, at
+          <lb/>leaſt, of the deformity amongſt mankind, muſt be <lb/>imputed to this cauſe. A
+          deformed body is not <lb/>only diſagreeable to the eye, but by a bad figure <lb/>both the
+          animal and vital functions muſt be im- <lb/>peded, and of courſe health impaired. Hence
+          <lb/>few people, remarkably miſhapen, are ſtrong or <lb/>healthy. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">The</hi> new motions which commence at the birth, <lb/>as the
+          circulation of the whole maſs of blood <lb/>through the lungs, reſpiration, the
+          periſtaltic mo- <lb/>tion, <hi rend="italic">&amp;c.</hi> afford another ſtrong argument
+          for <lb/>keeping the body of an infant free from all preſſure. <lb/>Theſe organs not
+          having been accuſtomed to <lb/>move, are eaſily ſtopped; but, when this happens,
+          <lb/>death muſt enſue. Hardly any method could be <lb/>deviſed more effectually to ſtop
+          theſe motions <lb/>than bracing the body too tight with rollers, <note place="bottom"
+            n="*" rend="size(0.75)">
+            <p rend="indent">
+              <lb/>* This is by no means inveighing againſt a thing that does <lb/>not happen. In
+              many parts of Britain at this day, a roller, <lb/>five or ſix feet in length, is
+              applied tightly round the child's <lb/>body as ſoon as it is born. </p>
+          </note>ban- <lb/>dages, <hi rend="italic">&amp;c.</hi> Were theſe to be applied in the
+          ſame <lb/>manner to the body of an adult, for an equal <pb n="16"/>
+          <lb/>length of time, they could hardly fail to hurt the <lb/>digeſtion and make him ſick.
+          How much more <lb/>hurtful they muſt prove to the tender bodies of <lb/>infants, we ſhall
+          leave any one to judge. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">Whoever</hi> conſiders theſe things will not be ſur- <lb/>priſed, that
+          ſo many children die of convulſions <lb/>ſoon after the birth. Theſe fits are generally
+          at- <lb/>tributed to ſome inward cauſe; but, in fact, they <lb/>oftner proceed from our
+          own imprudent conduct. <lb/>I have known a child ſeized with convulſion-fits, <lb/>ſoon
+          after the midwife had done ſwaddling it, who, <lb/>upon taking off the rollers and
+          bandages, was im- <lb/>mediately relieved, and never had any convulſion- <lb/>fits
+          afterwards. Numerous examples of this might <lb/>be given, were they neceſſary. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">It</hi> would be ſafer to fix on the clothes of an <lb/>infant with
+          ſtrings than pins, as theſe often gall <lb/>and irritate their tender ſkins, and occaſion
+          con- <lb/>vulſions. Pins have been found ſticking above <lb/>half an inch into the body of
+          a child after it had <lb/>died of convulſion-fits, which, in all probability,
+          <lb/>proceeded from that cauſe. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">Children</hi> are not only hurt by the tightneſs of <lb/>their clothes,
+          but alſo by the quantity. Every <lb/>child has ſome degree of fever after the birth;
+          <lb/>and, if it be loaded with too many clothes, the <lb/>fever muſt be increaſed. But
+          that is not all; the <lb/>child is generally laid in bed with the mother, who <lb/>is
+          often likewiſe feveriſh; to which we may add <lb/>the heat of the bed-chamber, the wines,
+          and other <pb n="17"/>
+          <lb/>heating things, too frequently given to children <lb/>immediately after the birth.
+          When all theſe are <lb/>combined, which does not ſeldom happen, they <lb/>muſt increaſe
+          the fever to ſuch a degree as will <lb/>endanger the life of the infant. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">The</hi> danger of keeping too hot, will <lb/>further appear, if we
+          conſider, that, after they <lb/>have been for ſome time in the ſituation men- <lb/>tioned
+          above, they are often ſent into the country <lb/>to be nurſed in a cold houſe. Is it any
+          wonder, <lb/>if a child, from ſuch a tranſition, catches a mortal <lb/>cold, or contracts
+          ſome other fatal diſeaſe? When <lb/>an infant is kept too hot, its lungs, not being ſuf-
+          <lb/>ficiently expanded, are apt to remain weak and <lb/>flaccid for life; from hence
+          proceed coughs, <lb/>conſumptions, and other diſeaſes of the breaſt. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">It</hi> would anſwer little purpoſe to ſpecify the <lb/>particular
+          pieces of dreſs proper for an infant. <lb/>Theſe will always vary in different places,
+          accord- <lb/>ing to cuſtom and the humour of parents. The <lb/>great rule to be obſerved
+          is, <hi rend="italic">That a child have <lb/>no more clothes than are neceſſary to keep it
+            warm, <lb/>and that they be quite eaſy for its body</hi>. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">Stays</hi> are the very bane of infants. A volume <lb/>would not
+          ſuffice to point out all the bad effects <lb/>of this ridiculous piece of dreſs. The
+          madneſs in <lb/>favour of ſtays ſeems, however, to be ſomewhat <lb/>abated; and it is to
+          be hoped the world will, in <lb/>time, become, wiſe enough to know, that the hu- <pb
+            n="18"/>
+          <lb/>man ſhape does not ſolely depend upon whale-bone <lb/>and bend-leather <note n="*"
+            place="bottom" rend="size(0.75)">
+            <p rend="indent">
+              <lb/>* Stays made of bend-leather are worn by all the women <lb/>of lower ſtation in
+              many parts of England. </p>
+          </note>. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">We</hi> ſhall only add, with reſpect to the clothes <lb/>of children,
+          that they ought to be kept very clean. <lb/>Children perſpire more than adults; and, if
+          their <lb/>clothes be not frequently changed, they become <lb/>very hurtful. Dirty clothes
+          not only gall and fret <lb/>the tender ſkins of infants, but likewiſe occaſion <lb/>ill
+          ſmells; and, what is worſe, tend to produce <lb/>vermin and cutaneous diſeaſes. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">Cleanliness</hi> is not only agreeable to the eye, <lb/>but tends
+          greatly to preſerve the health of children. <lb/>It promotes the perſpiration, and, by
+          that means, <lb/>frees the body from ſuperfluous humours, which, <lb/>if retained, could
+          not fail to occaſion diſeaſes. No <lb/>mother or nurſe can have any excuſe for allowing
+          <lb/>a child to be dirty. Poverty may oblige her to <lb/>give it coarſe clothes; but, if
+          ſhe does not keep <lb/>them clean, it muſt be her own fault. </p>
+        <gap reason="sampling" unit="pages" quantity="26"/>
+      </div>
+      <gap reason="sampling" unit="pages" quantity="602"/>
+      <pb n="647"/>
+      <div type="chapter">
+        <head rend="align-center space">
+          <lb/>CHAP. XLVIII. <lb/>DISEASES OF WOMEN. </head>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">W</hi>OMEN, in all civilized nations, have the <lb/>management of
+          domeſtic affairs; and it is <lb/>very proper they ſhould, as nature has made them
+          <lb/>leſs fit for the more active and laborious employ- <lb/>ments. This indulgence,
+          however, is generally <lb/>carried too far; and females, inſtead of being <lb/>benefited
+          by it, are greatly injured, from the <lb/>want of exerciſe and free air. To be ſatisfied
+          of <lb/>this, one need only compare the freſh and ruddy <lb/>looks of a milk-maid with the
+          pale complexion <lb/>of thoſe females whoſe whole buſineſs lies within <lb/>doors. Though
+          Nature has made an evident <lb/>diſtinction between the male and female with re- <lb/>gard
+          to bodily ſtrength and vigour, yet ſhe cer- <lb/>tainly never meant, either that the one
+          ſhould be <lb/>always without, or the other always within doors. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">The</hi> confinement of females, beſides hurting <lb/>their figure and
+          complexion, relaxes their ſolids, <lb/>weakens their minds, and diſorders all the func-
+          <lb/>tions of the body. Hence proceed obſtructions, <lb/>indigeſtion, flatulence,
+          abortions, and the whole <lb/>train of nervous diſorders. Theſe not only unfit <lb/>women
+          for being mothers and nurſes, but often <lb/>render them whimſical and ridiculous. A ſound
+          <lb/>mind depends ſo much upon a healthy body, that <pb n="648"/>
+          <lb/>where the latter is wanting, the former is rarely to <lb/>be found. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">I have</hi> always obſerved, that women who were <lb/>chiefly employed
+          without doors, in the different <lb/>branches of huſbandry, gardening, and the like,
+          <lb/>were almoſt as hardy as their huſbands, and that <lb/>their children were likewiſe
+          ſtrong and healthy. But <lb/>as the bad effects of confinement and inactivity upon
+          <lb/>both ſexes have been already ſhown, we ſhall proceed <lb/>to point out theſe
+          circumſtances in the ſtructure <lb/>and deſign of females, which ſubject them to pe-
+          <lb/>culiar diſeaſes; the chief of which are, their <lb/><hi rend="italic">monthly
+            evacuations</hi>, <hi rend="italic">pregnancy</hi>, and <hi rend="italic"
+            >child-bearing</hi>. <lb/>Theſe indeed cannot properly be called diſeaſes
+          <lb/>themſelves, but from the delicacy of the ſex, <lb/>and their being often improperly
+          managed in <lb/>ſuch ſituations, they become the ſource of nu- <lb/>merous calamities. </p>
+        <div type="section">
+          <head rend="align-center space">
+            <lb/>OF THE MENSTRUAL DISCHARGE. </head>
+          <p rend="indent space">
+            <lb/><hi rend="sc">Females</hi> generally begin to menſtruate about <lb/>the age of
+            fifteen, and leave it off about fifty, <lb/>which renders theſe two periods the moſt
+            critical <lb/>of their lives. About the firſt appearance of this <lb/>diſcharge, the
+            conſtitution undergoes a very con- <lb/>ſiderable change, generally indeed for the
+            better, <lb/>though ſometimes for the worſe. The greateſt <lb/>care is now neceſſary, as
+            the future health and hap- <lb/>pineſs of the female depends, in a great meaſure,
+            <lb/>upon her conduct at this period. </p>
+          <pb n="649"/>
+          <p rend="indent">
+            <lb/><hi rend="sc">If</hi> a girl about this time of life be confined to <lb/>the houſe,
+            kept conſtantly ſitting, and neither al- <lb/>lowed to romp about, nor employed in any
+            ac- <lb/>tive buſineſs, which gives exerciſe to the whole <lb/>body, ſhe becomes weak,
+            relaxed, and puny<unclear>;</unclear>
+            <lb/>her blood not being duly prepared, ſhe looks <lb/>pale and wan; her health,
+            ſpirits, and vigour de- <lb/>cline, and ſhe ſinks into a valetudinary for life.
+            <lb/>Such is the fate of numbers of thoſe unhappy fe- <lb/>males, who, either from too
+            much indulgence, or <lb/>their own narrow circumſtances, are, at this cri- <lb/>tical
+            period of life, denied the benefit of exerciſe <lb/>and free air. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">A lazy</hi> indolent diſpoſition proves likewiſe very <lb/>hurtful to
+            girls at this period. One ſeldom meets <lb/>with complaints from obſtructions amongſt
+            the more <lb/>active and induſtrious part of the ſex; whereas the <lb/>indolent and lazy
+            are ſeldom free from them. Theſe <lb/>are, in a manner, eat up by the <hi rend="italic"
+              >chloroſis</hi>, or green- <lb/>ſickneſs, and other diſeaſes of this nature. We would
+            <lb/>therefore recommend it to all who wiſh to eſcape <lb/>theſe calamities, to avoid
+            indolence and inactivity, <lb/>as their greateſt enemies, and to be as much <lb/>abroad
+            in the open air as poſſible. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Another</hi> thing that proves very hurtful to <lb/>girls about this
+            period of life, is unwholeſome food. <lb/>Fond of all manner of traſh, they often
+            indulge <lb/>in it, till their whole humours are quite vitiat- <lb/>ed. Hence enſue
+            indigeſtions, want of appetite, <lb/>and a numerous train of evils. If the fluids be not
+            <lb/>duly prepared, it is utterly impoſſible that the ſe- <pb n="650"/>
+            <lb/>cretions ſhould be properly performed: Accord- <lb/>ingly we find, that ſuch girls
+            as lead an indolent <lb/>life, and eat great quantities of traſh, are not only
+            <lb/>ſubject to obſtructions of the <hi rend="italic">menſes</hi>, but likewiſe <lb/>to
+            glandular obſtructions; as the ſcrophula or <lb/>king's evil, <hi rend="italic"
+              >&amp;c.</hi>
+          </p>
+          <p rend="indent space">
+            <lb/><hi rend="sc">A dull</hi> diſpoſition is likewiſe very hurtful to <lb/>girls at
+            this period. It is a rare thing to ſee a <lb/>ſprightly girl who does not enjoy good
+            health, <lb/>while the grave, moping, melancholy creature <lb/>proves the very prey of
+            vapours and hyſterics. <lb/>Youth is the ſeaſon for mirth and cheerfulneſs. Let <lb/>it
+            therefore be indulged. It is an abſolute duty. <lb/>To lay in a ſtock of health in time
+            of youth, is as <lb/>neceſſary a piece of prudence as to make proviſion <lb/>againſt the
+            decays of old age. While therefore <lb/>wiſe Nature prompts the happy youth to join in
+            <lb/>ſprightly amuſements, let not the ſevere dictates <lb/>of hoary age forbid the
+            uſeful impulſe, nor damp <lb/>with ſerious gloom the ſeaſon deſtined to mirth <lb/>and
+            innocent feſtivity. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Another</hi> thing very hurtful to females about <lb/>this period of
+            life is ſtrait clothes. They are fond <lb/>of a fine ſhape, and fooliſhly imagine, that
+            this <lb/>can be acquired by lacing themſelves tight. <lb/>Hence, by ſqueezing the
+            ſtomach and bowels, <lb/>they hurt the digeſtion, and occaſion many incu- <lb/>rable
+            maladies. This error is not indeed ſo com- <lb/>com as it has been; but, as faſhions
+            change, it <lb/>may come about again: we therefore think it not <lb/>improper to mention
+            it. I know many females <pb n="651"/>
+            <lb/>who, to this day, feel the direful effects of that <lb/>wretched cuſtom which
+            prevailed ſome time ago, of <lb/>ſqueezing every girl into as ſmall a ſize in the middle
+            <lb/>as poſſible. Human invention could not poſſibly <lb/>have deviſed a practice more
+            deſtructive to health. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">After</hi> a female has arrived at that period of <lb/>life when the
+              <hi rend="italic">menſes</hi> uſually begin to flow, and <lb/>they do not appear, but,
+            on the contrary, her <lb/>health and ſpirits begin to decline, we would ad- <lb/>viſe,
+            inſtead of ſhutting the poor girl up in the <lb/>houſe, and doſing her with ſteel,
+            aſſafœtida, and <lb/>other nauſeous drugs, to place her in a ſituation <lb/>where ſhe
+            can enjoy the benefit of free air and <lb/>agreeable company. There let her eat whole-
+            <lb/>ſome food, take ſufficient exerciſe, and amuſe <lb/>herſelf in the moſt agreeable
+            manner; and we <lb/>have little reaſon to fear, but Nature, thus aſſiſt- <lb/>ed, will
+            do her proper work. Indeed ſhe ſeldom <lb/>fails, unleſs where the fault is on our ſide. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">When</hi> the <hi rend="italic">menſes</hi> have once begun to flow,
+            the <lb/>greateſt care ſhould be taken to avoid every thing <lb/>that may tend to
+            obſtruct them. Females ought <lb/>to be exceeding cautious of what they eat or drink
+            <lb/>at the time they are out of order. Every thing <lb/>that is cold, or apt to ſour on
+            the ſtomach, ought <lb/>to be avoided; as fruit, butter-milk, and ſuch <lb/>like. Fiſh,
+            and all kinds of food that are hard of <lb/>digeſtion, are alſo to be avoided. As it is
+            impoſ- <lb/>ſible to mention every thing that may diſagree <lb/>with individuals at this
+            time, we would recom- <lb/>mend it to every female to be very attentive to <pb n="652"/>
+            <lb/>what diſagrees with herſelf, and carefully to <lb/>avoid it. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Cold</hi> is extremely hurtful to females at this <lb/>particular
+            period. More of the ſex date their diſ- <lb/>orders from colds, caught while they were
+            out of <lb/>order, than from all other cauſes. This ought <lb/>ſurely to put them upon
+            their guard, and to make <lb/>them very circumſpect in their conduct at ſuch <lb/>times.
+            A degree of cold that will not in the leaſt <lb/>hurt them at another time, will, at
+            this period, <lb/>be ſufficient entirely to ruin their health and con- <lb/>ſtitution. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">The</hi> greateſt attention ought likewiſe to be <lb/>paid to the
+            mind, which ſhould be kept as eaſy <lb/>and cheerful as poſſible. Every part of the
+            <lb/>animal œconomy is influenced by the paſſions, but <lb/>none more ſo than this.
+            Anger, fear, grief, and <lb/>other affections of the mind, often occaſion ob-
+            <lb/>ſtructions of the menſtrual flux, which prove ab- <lb/>ſolutely incurable. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">From</hi> whatever cause this flux is obſtructed, <lb/>except in the
+            ſtate of pregnancy, proper means <lb/>ſhould be uſed to reſtore it. For this purpoſe we
+            <lb/>would recommend ſufficient exerciſe, in a dry, <lb/>open, and rather cool air;
+            wholeſome diet, and, <lb/>if the body be weak and languid, generous li- <lb/>quors; alſo
+            cheerful company, and all manner of <lb/>amuſements. If theſe fail, the following medi-
+            <lb/>cines may be tried. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">When</hi> the obſtructions proceed from a weak <lb/>relaxed ſtate of
+            the ſolids, ſuch medicines as tend <pb n="653"/>
+            <lb/>to promote digeſtion, to brace the ſolids, and aſ- <lb/>ſiſt the body in preparing
+            good blood, ought to <lb/>be uſed. The principal of theſe are iron, the <lb/>Peruvian
+            bark, with other bitter and aſtringent <lb/>medicines. Filings of iron may be infuſed in
+            wine <lb/>or ale, two ounces to an Engliſh quart, and after <lb/>it has ſtood in a warm
+            place twenty-four hours, it <lb/>may be ſtrained, and a ſmall cupful drank three <lb/>or
+            four times a-day; or they may be reduced to <lb/>a fine powder, and taken in a doſe of
+            half a dram, <lb/>mixed with a little honey or treacle, three or four <lb/>times a-day.
+            The bark and other bitters may <lb/>either be taken in ſubſtance or infuſion, as is moſt
+            <lb/>agreeable to the patient. </p>
+          <p rend="indent space">
+            <lb/><hi rend="sc">When</hi> obſtructions proceed from a viſcid ſtate <lb/>of the blood,
+            and the patient is of a groſs or full <lb/>habit, evacuations, and ſuch medicines as
+            atte- <lb/>nuate the humours, are neceſſary. The woman <lb/>in this caſe ought to be
+            bled, to bathe her feet <lb/>frequently in warm water, to take frequently a <lb/>cooling
+            purge, and to live upon a ſpare thin diet. <lb/>Her drink ſhould be whey, water, or
+            ſmall beer, <lb/>and ſhe ought to take ſufficient exerciſe. </p>
+          <p rend="indent space">
+            <lb/><hi rend="sc">When</hi> obſtructions proceed from affections of <lb/>the mind, as
+            grief, fear, anger, <hi rend="italic">&amp;c.</hi> every me- <lb/>thod ſhould be taken
+            to amuſe and divert the <lb/>patient. And that ſhe may the more readily <lb/>forget the
+            cauſe of her affliction, ſhe ought, <lb/>if poſſible, to be removed from the place where
+            <lb/>it happened. A change of place, by preſenting <pb n="654"/>
+            <lb/>the mind with a variety of new objects, has often <lb/>a very happy influence in
+            relieving it from the <lb/>deepeſt diſtreſs. A ſoothing, kind, and affable
+            <lb/>behaviour to females in this ſituation is alſo of the <lb/>laſt importance. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">An</hi> obſtruction of the <hi rend="italic">menſes</hi> is often the
+            effect <lb/>of other maladies. When this is the caſe, inſtead <lb/>of giving medicines
+            to force down that diſcharge, <lb/>which might be dangerous, we ought, by all
+            <lb/>means, to endeavour to reſtore the patient's health <lb/>and ſtrength. When that is
+            effected, the other <lb/>will return of courſe. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">But</hi> the menſtrual flux may be too great as well <lb/>as too
+            ſmall. When this happens, the patient be- <lb/>comes weak, the colour pale, the appetite
+            and di- <lb/>geſtion are bad, and œdematous ſwellings of the <lb/>feet, dropſies and
+            conſumptions often enſue. <lb/>This frequently happens to women about the age <lb/>of
+            forty-five or fifty, and is very difficult to cure. <lb/>It may proceed from a ſedentary
+            life; a full diet, <lb/>conſiſting chiefly of ſalted, high-ſeaſoned, or acrid <lb/>food;
+            the uſe of ſpirituous liquors; exceſſive fa- <lb/>tigue; violent paſſions of the mind,
+              <hi rend="italic">&amp;c.</hi>
+          </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">To</hi> reſtrain this flux, the patient ſhould be kept <lb/>quiet and
+            eaſy both in body and mind. If it be <lb/>very violent, ſhe ought to lie in bed with her
+            head <lb/>low; to live upon a cool and ſlender diet, as veal <lb/>or chicken broths with
+            bread; and to drink de- <lb/>coctions of nettle-roots, or the greater comfrey. <lb/>If
+            theſe be not ſufficient to ſtop the flux, ſtronger <pb n="655"/>
+            <lb/>aſtringents may be uſed, as allum, the Peruvian <lb/>bark, <hi rend="italic"
+              >&amp;c.</hi>
+            <note n="*" place="bottom" rend="size(0.75)">
+              <p rend="indent">
+                <lb/>* Two drams of allum and one of Japan earth may be <lb/>pounded together, and
+                divided into eight or nine doſes, one <lb/>of which may be taken three times a-day.
+                Perſons whoſe <lb/>ſtomachs cannot bear the allum, may take two table-ſpoonfuls
+                <lb/>of the tincture of roſes three or four times a-day, to each doſe <lb/>of which,
+                ten drops of laudanum may be added. </p>
+              <p rend="indent">
+                <lb/>If theſe ſhould fail, half a dram of the Peruvian bark, in <lb/>powder, with
+                ten drops of the elixir of vitriol, may be taken, <lb/>in a glaſs of red wine, four
+                times a-day. </p>
+            </note>
+          </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">But</hi> the <hi rend="italic">uterine flux</hi> may offend in
+            quality as <lb/>well as in quantity. What is uſually called the <lb/><hi rend="italic"
+              >fluor albus</hi>, or whites, is a very common diſeaſe, <lb/>and proves extremely
+            hurtful to delicate women. <lb/>This diſcharge, however, is not always white, but
+            <lb/>ſometimes pale, yellow, green, or of a blackiſh <lb/>colour; ſometimes it is ſharp
+            and corroſive, ſome- <lb/>times foul and fœtid, <hi rend="italic">&amp;c.</hi> It is
+            attended with a <lb/>pale complexion, pain in the ſpine of the back, <lb/>loſs of
+            appetite, ſwelling of the feet, <hi rend="italic">&amp;c.</hi> It ge- <lb/>nerally
+            proceeds from a relaxed and debilitated <lb/>ſtate of the body, ariſing from indolence,
+            the ex- <lb/>ceſſive uſe of tea, coffee, or other weak and wa- <lb/>tery diet. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">To</hi> remove this diſeaſe, the patient muſt take <lb/>as much
+            exerciſe as ſhe can bear without fatigue. <lb/>Her food muſt be ſolid and nouriſhing,
+            but of <lb/>eaſy digeſtion; and her drink pretty generous, as <lb/>red port or claret.
+            Theſe may be drank pure, or <lb/>mixed with water, as the patient inclines. Tea <lb/>and
+            coffee are to be avoided. I have often known <pb n="656"/>
+            <lb/>ſtrong broths have an exceeding good effect in this <lb/>caſe. The patient ought
+            not to lie too long a-bed. <lb/>When medicine is neceſſary, we know none pre-
+            <lb/>ferable to the Peruvian bark, which, in this caſe, <lb/>ought always to be taken in
+            ſubſtance. In warm <lb/>weather, the cold bath will be of conſiderable <lb/>ſervice. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">That</hi> period of life at which the <hi rend="italic">menſes</hi>
+            ceaſe <lb/>to flow, is likewiſe very critical to the ſex. The <lb/>ſtoppage of any
+            cuſtomary evacuation, however <lb/>ſmall, is ſufficient to diſorder the whole frame,
+            <lb/>and often to deſtroy life itſelf. Hence it comes <lb/>to paſs, that ſo many women
+            either fall into chro- <lb/>nic diſorders, or die about this time: Such of <lb/>them
+            however as ſurvive it, without contracting <lb/>any chronic diſeaſe, often become more
+            healthy <lb/>and hardy than they were before, and enjoy <lb/>ſtrength and vigour to a
+            very great age. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">If</hi> the <hi rend="italic">menſes</hi> ceaſe all of a ſudden, in
+            women <lb/>of a full habit, they ought to abate ſomewhat of <lb/>their uſual quantity of
+            food, eſpecially of the <lb/>more nouriſhing kind, as fleſh, eggs, <hi rend="italic"
+              >&amp;c.</hi> They <lb/>ought likewiſe to take ſufficient exerciſe, and to <lb/>keep
+            the body open. This may be done by tak- <lb/>ing, once or twice a-week, a little
+            rhubarb, or an <lb/>infuſion of hiera picra in wine or brandy. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> often happens that women of a groſs habit, <lb/>at this
+            period of life, have ulcerous ſores break <lb/>out about their ancles, or in other parts
+            of the <lb/>body. Such ulcers ought to be conſidered as <lb/>critical, and ſhould either
+            be ſuffered to continue <pb n="657"/>
+            <lb/>open, or artifical drains ſhould be ſubſtituted in <lb/>their ſtead. Women who will
+            needs have ſuch ſores <lb/>dried up, are often ſoon after ſeized with acute or
+            <lb/>chronic diſeaſes, of which they die. </p>
+        </div>
+        <div type="section">
+          <head rend="align-center space">
+            <lb/>OF PREGNANCY. </head>
+          <p rend="indent space">
+            <lb/><hi rend="sc">Pregnant</hi> women are often afflicted with the <lb/>heart-burn. The
+            method of treating this com- <lb/>plaint has already been pointed out. They are
+            <lb/>likewiſe, in the more early periods of pregnancy, <lb/>often haraſſed with ſickneſs
+            and vomitings, eſpe- <lb/>cially in the morning. The method of relieving <lb/>theſe
+            complaints has alſo been already ſhewn. <lb/>Both the head-ach and tooth-ach are very
+            trouble- <lb/>ſome ſymptoms of pregnancy. The former may <lb/>generally be removed by
+            keeping the body gently <lb/>open, by the uſe of prunes, figs, roaſted apples, <lb/>and
+            ſuch like. When the pain is very violent, <lb/>bleeding may be neceſſary. For the
+            treatment of <lb/>the latter, we muſt refer the reader to that article. <lb/>Several
+            other complaints incident to pregnant wo- <lb/>men might be mentioned, as a cough and
+            diffi- <lb/>culty of breathing, ſuppreſſion and incontinency <lb/>of urine, <hi
+              rend="italic">&amp;c.</hi>; but as all of theſe have been taken <lb/>notice of before,
+            we ſhall not repeat them. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Every</hi> pregnant woman is more or leſs in dan- <lb/>ger of
+            abortion. This ſhould be guarded againſt <lb/>with the greateſt care, as it not only
+            weakens the <lb/>conſtitution, but renders the woman liable to the <lb/>ſame misfortune
+            afterwards. Abortion may hap- <pb n="658"/>
+            <lb/>pen at any period of pregnancy, but it is moſt <lb/>common in the ſecond or third
+            month. Some- <lb/>times, however, it happens in the fourth or fifth. <lb/>If it happens
+            within the firſt month, it is uſually <lb/>called a falſe conception; if after the
+            ſeventh <lb/>month, the child may often be kept alive by pro- <lb/>per care. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">The</hi> common cauſes of abortion are, the death <lb/>of the child;
+            weakneſs or relaxation of the mo- <lb/>ther; great evacuations; violent exerciſe;
+            raiſing <lb/>great weights; reaching too high; vomiting; <lb/>coughing; convulſion-fits;
+            ſtrokes on the belly; <lb/>falls; fevers; diſagreeable ſmells; exceſs of <lb/>blood;
+            indolence; high living; or the con- <lb/>trary; violent paſſions or affections of the
+            mind, <lb/>as fear, grief, <hi rend="italic">&amp;c.</hi>
+          </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">The</hi> ſigns of approaching abortion are, pain <lb/>in the loins,
+            or about the bottom of the belly; <lb/>a dull heavy pain in the inſide of the thighs; a
+            <lb/>ſlight degree of coldneſs or ſhivering; ſickneſs; <lb/>palpitation of the heart;
+            the breaſts become flat <lb/>and ſoft; the belly falls; and there is a diſcharge <lb/>of
+            blood or watery humours from the womb. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">To</hi> prevent abortion, we would adviſe women <lb/>of a weak or
+            relaxed habit to uſe ſolid food, <lb/>avoiding great quantities of tea, and other weak
+            <lb/>and watery liquors; to riſe early, and go ſoon to <lb/>bed; to ſhun damp houſes; to
+            take frequent ex- <lb/>erciſe in the open air, but to avoid fatigue; and <lb/>never to
+            go abroad in damp foggy weather, if they <lb/>can ſhun it. </p>
+          <pb n="659"/>
+          <p rend="indent">
+            <lb/><hi rend="sc">Women</hi> of a full habit ought to uſe a ſpare <lb/>diet, avoiding
+            ſtrong liquors, and every thing that <lb/>may tend to heat the body, or increaſe the
+            quan- <lb/>tity of blood. Their diet ſhould be of an open- <lb/>ing nature, conſiſting
+            principally of vegetable <lb/>ſubſtances. Every woman with child ought to be <lb/>kept
+            cheerful and eaſy in her mind. All violent <lb/>paſſions endanger the life of the <hi
+              rend="italic">fœtus</hi>, and may <lb/>cauſe an abortion. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">When</hi> any ſigns of abortion appear, the wo- <lb/>man ought to be
+            laid in bed on a mattreſs, with <lb/>her head low. She ſhould be kept quiet, and her
+            <lb/>mind ſoothed and comforted. She ought not to <lb/>be too warm, nor to take any
+            thing of a heat- <lb/>ing nature. Her food ſhould conſiſt of broths, <lb/>rice and milk,
+            jellies, gruels made of oat-meal, <lb/>and the like. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">If</hi> ſhe be able to bear it, ſhe ſhould loſe, at <lb/>leaſt, half
+            a pound of blood from the arm. Her <lb/>drink ought to be barley-water ſharpened with
+            juice <lb/>of lemon; or ſhe may take half a dram of pow- <lb/>dered nitre, in a cup of
+            water-gruel, every five or <lb/>ſix hours. If the woman be ſeized with a violent
+            <lb/>looſeneſs, ſhe ought to drink the decoction of <lb/>calcined hartſhorn prepared. If
+            ſhe be affected <lb/>with vomiting, let her take frequently two table- <lb/>ſpoonfuls of
+            the ſaline mixture. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Sanguine</hi> robuſt women, who are liable to <lb/>miſcarry at a
+            certain time of pregnancy, ought al- <lb/>ways to be bled a few days before that period
+            ar- <lb/>rives. By this means, and obſerving the regimen <pb n="660"/>
+            <lb/>above preſcribed, they might often eſcape that miſ- <lb/>fortune. </p>
+          <p rend="indent space">
+            <lb/><hi rend="sc">Though</hi> we recommend due care for prevent- <lb/>ing abortion, we
+            would not be underſtood as re- <lb/>ſtraining pregnant women from their uſual exer-
+            <lb/>ciſes. This would operate the quite contrary <lb/>way. Want of exerciſe not only
+            relaxes the body, <lb/>but induces a plethora, or too great a fulneſs of <lb/>the
+            veſſels, which are the two principal cauſes of <lb/>abortion. </p>
+        </div>
+        <div type="section">
+          <head rend="align-center space">
+            <lb/>OF CHILD-BIRTH. </head>
+          <p rend="indent space">
+            <lb/><hi rend="sc">Many</hi> diſeaſes proceed from the want of due <lb/>care in
+            child-bed; and the more hardy part of the <lb/>ſex are moſt apt to deſpiſe the neceſſary
+            precau- <lb/>tions in this ſtate. This is peculiarly the caſe with <lb/>young wives.
+            They think, when the labour-pains <lb/>are ended, the danger is over; but in truth it
+            may <lb/>only then be ſaid to be begun. Nature, if left to <lb/>herſelf, will ſeldom
+            fail to expel the <hi rend="italic">fœtus</hi>; but proper <lb/>care and management are
+            certainly neceſſary for <lb/>the recovery of the mother. No doubt, miſchief <lb/>may be
+            done by too much as well as by too little <lb/>care. Hence females who have the greateſt
+            num- <lb/>ber of attendants in child-bed generally recover <lb/>worſt. But this is not
+            peculiar to the ſtate of <lb/>child-bed. Exceſſive care always defeats its own
+            <lb/>intention, and is generally more dangerous than <lb/>none at all. </p>
+          <pb n="661"/>
+          <p rend="indent">
+            <lb/><hi rend="sc">During</hi> actual labour, nothing of a heating <lb/>nature muſt be
+            given. The woman may, now <lb/>and then, take a little panado, and her drink <lb/>ought
+            to be toaſt and water, or thin groat-gruel. <lb/>Spirits, wines, cordial-waters, and
+            other things <lb/>which are given with a view to ſtrengthen the mo- <lb/>ther, and
+            promote the birth, for the moſt part <lb/>tend only to increaſe the fever, inflame the
+            womb, <lb/>and retard the labour. Beſides, they endanger <lb/>the woman afterwards, as
+            they often occaſion vio- <lb/>lent and mortal hæmorrhages, or diſpoſe her to
+            <lb/>eruptive and other fevers. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">When</hi> the labour proves tedious and difficult, <lb/>to prevent
+            inflammations, it will be proper to <lb/>bleed. An emollient clyſter ought likewiſe fre-
+            <lb/>quently to be adminiſtered; and the patient <lb/>ſhould ſit over the ſteams of warm
+            water. The <lb/>paſſage ought to be gently rubbed with a little <lb/>ſoft <hi
+              rend="italic">pomatum</hi> or freſh butter, and cloths wrung <lb/>out of warm water
+            applied over the belly. If <lb/>Nature ſeems to ſink, and the woman is greatly
+            <lb/>exhauſted with fatigue, a draught of generous <lb/>wine, or ſome other cordial may
+            be given, but <lb/>not otherwiſe. Theſe directions are ſufficient in <lb/>natural
+            labours; and in all preternatural caſes, a <lb/>ſkilful ſurgeon, or man-midwife, ought
+            to be call- <lb/>ed as ſoon as poſſible. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">We</hi> cannot help taking notice of that ridiculous <lb/>cuſtom
+            which ſtill prevails in ſome parts of the <lb/>country, of collecting a number of women
+            toge- <lb/>ther upon ſuch occaſions. Theſe, inſtead of being <pb n="662"/>
+            <lb/>uſeful, ſerve only to crowd the houſe, and ob- <lb/>ſtruct the neceſſary
+            attendants. Beſides, they <lb/>hurt the patient with their noiſe; and often, by
+            <lb/>their untimely and impertinent advice, do much <lb/>miſchief. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">After</hi> delivery, the woman ought to be kept <lb/>as quiet and
+            eaſy as poſſible. Her food ſhould be <lb/>light and thin, as gruel, panado, <hi
+              rend="italic">&amp;c.</hi>; and her <lb/>drink weak and diluting. To this rule,
+            however, <lb/>there are ſome exceptions. I have known ſeveral <lb/>hyſteric women, whoſe
+            ſpirits could not be ſup- <lb/>ported in child-bed without ſolid food and gene-
+            <lb/>rous liquors; to ſuch a glaſs of wine and a bit of <lb/>chicken muſt be allowed. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Sometimes</hi> an exceſſive hæmorrhage or flood- <lb/>ing happens
+            after delivery. In this caſe, the pa- <lb/>tient ſhould be laid with her head low, kept
+            cool, <lb/>and be in all reſpects treated as for an exceſſive <lb/>flux of the <hi
+              rend="italic">menſes</hi>. If the flooding proves violent, <lb/>linen cloths, which
+            have been wrung out of a <lb/>mixture of equal parts of vinegar and water, <lb/>or red
+            wine, ſhould be applied to the belly, the <lb/>loins, and the thighs: Theſe muſt be
+            changed as <lb/>they grow dry; and may be diſcontinued as ſoon <lb/>as the flooding
+            abates <note n="*" place="bottom" rend="size(0.75)">
+              <p rend="indent">
+                <lb/>* In a violent flooding after delivery, I have ſeen very good <lb/>effects from
+                the following mixture. Take of penny-royal <lb/>water, ſimple cinnamon water, and
+                ſyrup of poppies, each <lb/>two ounces, acid elixir of vitriol a dram. Mix, and take
+                <lb/>two table-ſpoonfuls every two hours, or oftener if neceſſary. </p>
+            </note>
+          </p>
+          <pb n="663"/>
+          <p rend="indent">
+            <lb/><hi rend="sc">If</hi> there be violent pains after delivery, the pa- <lb/>tient
+            ought to drink plentifully of warm diluting <lb/>liquors, as tea with a little ſaffron;
+            or an infuſion <lb/>of camomile flowers; and to take ſmall broths, <lb/>with carroway
+            ſeeds, or a bit of orange-peel in <lb/>them; an ounce of the oil of ſweet almonds may
+            <lb/>likewiſe be frequently taken in a cup of any of the <lb/>above liquors; and if the
+            patient be reſtleſs, a <lb/>ſpoonful of the ſyrup of poppies may now and <lb/>then be
+            mixed with a cup of her drink. If ſhe be <lb/>hot or feveriſh, one of the following
+            powders may <lb/>be taken in a cup of her uſual drink, every five or <lb/>ſix hours
+              <note n="*" place="bottom" rend="size(0.75)">
+              <p rend="indent">
+                <lb/>* Take of crabs claws prepared half an ounce, purified <lb/>nitre two drams,
+                ſaffron powdered half a dram; rub them to- <lb/>gether in a mortar, and divide the
+                whole into eight or nine <lb/>doſes. When the patient is low-ſpirited, or troubled
+                with <lb/>hyſterical complaints, ſhe ought to take frequently twelve or <lb/>fifteen
+                drops of the tincture of aſafœtida in a cup of penny- <lb/>royal tea. </p>
+            </note>. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">An</hi> inflammation of the womb is a dangerous <lb/>and not
+            unfrequent diſeaſe after delivery. It is <lb/>known by pains in the lower part of the
+            belly, <lb/>which are greatly increaſed upon touching; by <lb/>the tenſion or tightneſs
+            of the parts; great weak- <lb/>neſs; change of countenance; a conſtant fever, <lb/>with
+            a weak and hard pulſe; a ſlight <hi rend="italic">delirium</hi> or <lb/>raving;
+            ſometimes inceſſant vomiting; a hiccup; <lb/>a diſcharge of rediſh, ſtinking, ſharp
+            water from <lb/>the womb; an inclination to go frequently to <pb n="664"/>
+            <lb/>ſtool; a heat, and ſometimes total ſuppreſſion of <lb/>urine. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">This</hi> muſt be treated like other inflammatory <lb/>diſorders, by
+            bleeding and plentiful dilution. <lb/>The drink may be thin gruel or barley water; in
+            <lb/>a cup of which half a dram of nitre may be diſſol- <lb/>ved, and taken three or
+            four times a day. Clyſ- <lb/>ters of warm water muſt be frequently admini- <lb/>ſtered;
+            and the belly ſhould be fomented by <lb/>cloths wrung out of warm water, or by applying
+            <lb/>bladders filled with warm milk and water to it. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">A suppression</hi> of the <hi rend="italic">lochia</hi>, or uſual
+            diſcharges <lb/>after delivery, and the milk-fever, muſt be treat- <lb/>ed nearly in the
+            ſame manner as an inflammation <lb/>of the womb. In all theſe caſes, the ſafest courſe
+            <lb/>is plentiful dilution, gentle evacuations, and fo- <lb/>mentations of the parts
+            affected. In the milk- <lb/>fever, the breaſts may be embrocated with a little <lb/>warm
+            linſeed oil, or the leaves of red cabbage <lb/>may be applied to them. The child ſhould
+            be <lb/>often put to the breaſt, or it ſhould be drawn by <lb/>ſome other perſon. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Nothing</hi> would tend more to prevent the <lb/>milk-fever, than
+            putting the child early to the <lb/>breaſt. The cuſtom of not allowing children to
+            <lb/>ſuck for the firſt two or three days, is contrary to <lb/>Nature and common ſenſe,
+            and is very hurtful <lb/>both to the mother and child. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Every</hi> mother who has milk in her breaſts, <lb/>ought either to
+            ſuckle her own child, or to have <pb n="665"/>
+            <lb/>her breaſts frequently drawn, at leaſt for the firſt <lb/>month. This would prevent
+            many of the diſ- <lb/>eaſes which prove fatal to women in child-bed. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">When</hi> an inflammation happens in the breaſt, <lb/>attended with
+            redneſs, hardneſs, and other ſymp- <lb/>toms of ſuppuration, the ſafeſt application is a
+            <lb/>poultice of bread and milk, ſoftened with oil or freſh <lb/>butter. This may be
+            renewed twice a-day, till the <lb/>tumour be either diſcuſſed or brought to ſuppura-
+            <lb/>tion. The uſe of repellants, in this caſe, is very dan- <lb/>gerous; they often
+            occaſion fevers, and ſometimes <lb/>cancers: Whereas a ſuppuration is ſeldom attend-
+            <lb/>ed with any danger, and has often the moſt ſalu- <lb/>tary effects. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">When</hi> the nipples are fretted or chapt, they <lb/>may be anointed
+            with a mixture of oil and bees- <lb/>wax, or a little gum-arabic may be ſprinkled on
+            <lb/>them. I have ſeen Hungary-water applied to the <lb/>nipples have a very good
+            effect. Should the com- <lb/>plaint prove obſtinate, a cooling purge may be <lb/>given,
+            which generally removes it. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">The</hi> miliary fever is a diſeaſe very incident to <lb/>women in
+            child-bed. But as it has been treated <lb/>of already, we ſhall take no further notice
+            of it <lb/>here. The celebrated Hoffman obſerves, That <lb/>this fever of child-bed
+            women might generally be <lb/>prevented, if they, during their pregnancy, were
+            <lb/>regular in their diet, uſed moderate exerciſe, took <lb/>now and then a gentle
+            laxative of manna, rhu- <lb/>barb, or cream of tartar; not forgetting to bleed <pb
+              n="666"/>
+            <lb/>in the firſt months, and avoid all ſharp air. When <lb/>the labour is coming on, it
+            is not to be haſtened <lb/>with forcing medicines, which inflame the blood <lb/>and
+            humours, or put them into unnatural com- <lb/>motions. Care ſhould be taken, after the
+            birth, <lb/>that the natural excretions proceed regularly; and <lb/>if the pulſe be
+            quick, a little nitrous powder <lb/>ſhould be givem, <hi rend="italic">&amp;c.</hi>
+          </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">We</hi> ſhall conclude our obſervations on child- <lb/>bed women by
+            recommending it to them, above <lb/>all things, to beware of cold. Poor women,
+            <lb/>whoſe circumſtances oblige them to quit their bed <lb/>too ſoon, often contract
+            diſeaſes from cold, of <lb/>which they never recover. It is pity the poor are <lb/>not
+            better taken care of in this ſituation. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">But</hi> the better ſort of women run the greateſt <lb/>hazard from
+            too much heat. They are generally <lb/>kept in a ſort of bagnio for the firſt eight or
+            ten <lb/>days, and then dreſſed out to ſee company. The <lb/>danger of this conduct muſt
+            be obvious to every <lb/>one. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">The</hi> ſuperſtitious cuſtom of obliging women to <lb/>keep the
+            houſe till they go to church, is likewiſe <lb/>a very common cauſe of catching cold. All
+            <lb/>churches are damp, and moſt of them cold; <lb/>conſequently they are the very worſt
+            places to <lb/>which a woman can go to make her firſt viſit, <lb/>after having been
+            confined in a warm room for a <lb/>month. </p>
+        </div>
+        <pb n="667"/>
+        <div type="section">
+          <head rend="align-center space">
+            <lb/>OF BARRENNESS. </head>
+          <p rend="indent space">
+            <lb/><hi rend="sc">Barrenness</hi> may be very properly reckoned <lb/>among the diſeaſes
+            of females, as few married <lb/>women who have not children enjoy a good ſtate <lb/>of
+            health. It may proceed from various cauſes; <lb/>but we ſhall only take notice of three,
+              <hi rend="italic">viz.</hi> high <lb/>living, relaxation, and grief. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> is very certain that high living vitiates the <lb/>humours,
+            and prevents fecundity. We ſeldom <lb/>find a barren woman among the labouring poor,
+            <lb/>while nothing is more common amongſt the rich <lb/>and affluent. The inhabitants of
+            every country <lb/>are prolific in proportion to their poverty, and it <lb/>would be an
+            eaſy matter to adduce many inſtances <lb/>of women who, by being reduced to live
+            entirely <lb/>upon a milk and vegetable diet, have conceived and <lb/>brought forth
+            children, though they never had any <lb/>before. Would the rich uſe the ſame ſort of
+            food <lb/>and exerciſe as the better ſort of peaſants, they <lb/>would ſeldom have cauſe
+            to envy their poor vaſ- <lb/>ſals and dependents the bleſſing of a numerous <lb/>and
+            healthy offspring, while they pine in ſorrow <lb/>for the want of even a ſingle heir to
+            their extenſive <lb/>dominions. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Affluence</hi> begets indolence, which not only <lb/>vitiates the
+            humours, but induces a general re- <lb/>laxation of the ſolids; a ſtate highly
+            unfavourable <lb/>to procreation. To remove this we would re- <pb n="668"/>
+            <lb/>commend the following courſe. Firſt, ſufficient <lb/>exerciſe in the open air;
+            ſecondly, a diet con- <lb/>ſiſting chiefly of milk and vegetables <note n="*"
+              place="bottom" rend="size(0.75)">
+              <p rend="indent">
+                <lb/>* Dr. Chyne avers, that want of children is oftener the fault <lb/>of the male
+                than of the female, and ſtrongly recommends a <lb/>milk and vegetable diet to the
+                former as well as the latter; <lb/>adding, that his friend Dr. Taylor, whom he calls
+                the Milk- <lb/>doctor of Croydon, had brought ſundry opulent families in his
+                <lb/>neighbourhood, who had continued ſome years after marriage <lb/>without
+                progeny, to have ſeveral fine children, by keeping <lb/>both parents, for a
+                conſiderable time, to a milk and vege- <lb/>table diet. </p>
+            </note>; thirdly, <lb/>the uſe of aſtringent medicines, as allum, dragon's <lb/>blood,
+            elixir of vitriol, the Peruvian bark, <hi rend="italic">&amp;c.</hi>; <lb/>and laſtly,
+            the cold bath. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Whatever</hi> obſtructs the menſtrual flux may <lb/>be conſidered as
+            a cauſe of barrenneſs. Hence it <lb/>is often the conſequence of grief, ſudden fear,
+            <lb/>anxiety, or any of the depreſſing paſſions. When <lb/>barrenneſs is ſuſpected to
+            proceed from deluſions <lb/>of the mind, the perſon ought to be kept as eaſy <lb/>and
+            cheerful as poſſible; all diſagreeable objects <lb/>are to be avoided, and every method
+            taken to <lb/>amuſe and entertain the fancy. </p>
+        </div>
+      </div>
+      <gap reason="sampling" unit="pages" quantity="91"/>
+    </body>
+  </text>
+</TEI>

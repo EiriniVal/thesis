@@ -1,0 +1,2820 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> LMEMT Corpus - Banyer: Pharmacopoeia pauperum: or, the hospital
+                    dispensatory.</title>
+                <respStmt>
+                    <resp>Compiler</resp>
+                    <persName xml:id="IT">
+                        <forename>Irma</forename>
+                        <surname>Taavitsainen</surname>
+                    </persName>
+                    <persName xml:id="TH">
+                        <forename>Turo</forename>
+                        <surname>Hiltunen</surname>
+                    </persName>
+                    <persName xml:id="ALe">
+                        <forename>Anu</forename>
+                        <surname>Lehto</surname>
+                    </persName>
+                    <persName xml:id="VM">
+                        <forename>Ville</forename>
+                        <surname>Marttila</surname>
+                    </persName>
+                    <persName xml:id="RO">
+                        <forename>Raisa</forename>
+                        <surname>Oinonen</surname>
+                    </persName>
+                    <persName xml:id="PP">
+                        <forename>Päivi</forename>
+                        <surname>Pahta</surname>
+                    </persName>
+                    <persName xml:id="MR">
+                        <forename>Maura</forename>
+                        <surname>Ratia</surname>
+                    </persName>
+                    <persName xml:id="CS">
+                        <forename>Carla</forename>
+                        <surname>Suhr</surname>
+                    </persName>
+                    <persName xml:id="JT">
+                        <forename>Jukka</forename>
+                        <surname>Tyrkkö</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Research Assistant</resp>
+                    <persName xml:id="WA">
+                        <forename>Wilma</forename>
+                        <surname>Andersson</surname>
+                    </persName>
+                    <persName xml:id="EC">
+                        <forename>Emanuela</forename>
+                        <surname>Costea</surname>
+                    </persName>
+                    <persName xml:id="DV">
+                        <forename>Diana</forename>
+                        <surname>Frank-Väyrynen</surname>
+                    </persName>
+                    <persName xml:id="SK">
+                        <forename>Sami</forename>
+                        <surname>Kalliomäki</surname>
+                    </persName>
+                    <persName xml:id="MK">
+                        <forename>Mirella</forename>
+                        <surname>Klinga</surname>
+                    </persName>
+                    <persName xml:id="SKo">
+                        <forename>Sami</forename>
+                        <surname>Koskinen</surname>
+                    </persName>
+                    <persName xml:id="ALi">
+                        <forename>Aatu</forename>
+                        <surname>Liimatta</surname>
+                    </persName>
+                    <persName xml:id="HR">
+                        <forename>Heikki</forename>
+                        <surname>Rajala</surname>
+                    </persName>
+                    <persName xml:id="JR">
+                        <forename>Jenni</forename>
+                        <surname>Riihimäki</surname>
+                    </persName>
+                    <persName xml:id="AW">
+                        <forename>Anna-Lina</forename>
+                        <surname>Walraff</surname>
+                    </persName>
+                </respStmt>
+                <sponsor>
+                    <orgName>Department of Modern Languages, University of Helsinki</orgName>
+                </sponsor>
+                <funder>
+                    <orgName>University of Helsinki</orgName>
+                    <orgName>Academy of Finland</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>John Benjamins Publishing Company</publisher>
+                <pubPlace>Amsterdam</pubPlace>
+                <date>forthcoming</date>
+                <availability>
+                    <p>Copyright by the publisher. All rights reserved.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>
+                            <persName>Henry Banyer</persName>
+                        </author>
+                        <title type="main">Pharmacopoeia pauperum: or, the hospital dispensatory.
+                            Containing the medicines used in the hospitals of London, by the
+                            direction of Dr. Coatsworth, Dr. Mead, Dr. Cade, Dr. Wadsworth, Dr.
+                            Hales, &amp;c. With suitable instructions for their common use.</title>
+                        <edition n="1"/>
+                        <idno type="ESTC">T92533</idno>
+                        <ptr type="ESTC-link" target="http://estc.bl.uk/T92533"/>
+                        <imprint>
+                            <!--Add additional <placeName/> elements for each additional place of publication.-->
+                            <pubPlace>
+                                <placeName>London</placeName>
+                            </pubPlace>
+                            <publisher>
+                                <persName>London: printed for T. Warner, at the Black-Boy in
+                                    Pater-Noster-Row, 1718.</persName>
+                            </publisher>
+                            <date>1718</date>
+                        </imprint>
+                        <extent>
+                            <measure type="format">12⁰</measure>
+                            <measure type="count" commodity="front" unit="page" quantity="3"/>
+                            <measure type="count" commodity="body" unit="page" quantity="108"/>
+                        </extent>
+                    </monogr>
+                    <note type="source_copy">
+                        <orgName type="library">British Library</orgName>
+                        <idno type="ECCO">CW108510086</idno>
+                        <idno type="TCP">K074843.000</idno>
+                    </note>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <catRef n="Recipe collections"/>
+            </textClass>
+        </profileDesc>
+        
+    </teiHeader>
+    <text xml:lang="eng">
+        <front>
+            <gap reason="sampling" unit="pages" quantity="2"/>
+        </front>
+        <body>
+            <pb xml:id="page_4"/>
+            <figure>
+                <figDesc>An ornamental horizontal column, spanning the whole page.</figDesc>
+            </figure>
+            <head rend="align-center space"><lb/><hi rend="italic size(2.0)">Pharmacopœia Pauperum:
+                    </hi><lb/><hi rend="space">OR, THE </hi><lb/><hi rend="size(2.0)">HOSPITAL
+                    </hi><lb/><hi rend="size(2.2)">DISPENSATORY. </hi></head>
+            <p rend="space"><lb/>
+                <figure>
+                    <figDesc>Decorative frame around the letter "T".</figDesc>
+                </figure>
+                <hi rend="dc(4)">T</hi>HE Waters moſt commonly in <lb/>Uſe in the publick Hoſpitals,
+                <lb/>are the <list rend="italic space indentall">
+                    <item><lb/>Aqua Lactis Alex. </item>
+                    <item><lb/>— Ceraſor. Nigr. </item>
+                    <item><lb/>— Cinnam. ſort. </item>
+                    <item><lb/>— — Hord. </item>
+                    <item><lb/>— Menthæ. </item>
+                    <item><lb/>— Pulegii. </item>
+                    <item><lb/>— Rutæ. </item>
+                    <item><lb/>— Epidemiæ. </item>
+                    <item><lb/>— Bryoniæ Comp. </item>
+                    <item><lb/>— Stephani. </item>
+                    <item><lb/>— Theriacalis. </item>
+                </list></p>
+            <pb xml:id="page_5" n="6"/>
+            <p rend="indent"><lb/>And all made exactly as directed by the <lb/><hi rend="italic"
+                    >London Diſpenſatory</hi>, and uſed for the ſame <lb/>Purpoſes. </p>
+            <div>
+                <head rend="italic align-center space"><lb/>Aqua Antiphthiſica. </head>
+                <list rend="italic">
+                    <item rend="indent"><lb/><hi rend="roman">℞</hi> Fol. Symphit. Maj. </item>
+                    <item rend="align-center"><lb/>Polygonat. </item>
+                    <item rend="align-center"><lb/>Plantag. </item>
+                    <item rend="align-center"><lb/>Pimpinel. ā M. <hi rend="roman">iv.</hi>
+                    </item>
+                    <item rend="indent"><lb/>Rad. Liquorit. <hi rend="roman">℥ij.</hi>
+                    </item>
+                </list>
+                <p rend="italic hanging"><lb/>Infundantur frigide ℘ 2 Dies in Aq. Calcis <lb/>Cong.
+                        <hi rend="roman">ij.</hi>
+                </p>
+                <div>
+                    <head rend="italic align-center space"><lb/>A Water againſt Conſumptions. </head>
+                    <p rend="indent space"><lb/>Take Leaves of Comfrey the Greater, <lb/><hi
+                            rend="italic">Solomon</hi>'s Seal, Plantane, and Pimpinel, each <lb/>4
+                        Hands full, Liquorice-Root 2 Ounces; <w part="I">in-</w><lb/><w part="F"
+                            >fuſe</w> them cold for 12 Days in 2 Gallons of <lb/>Lime-water. </p>
+                    <p rend="indent space"><lb/>This is very eaſily made, and is much <lb/>better
+                        than if it were to be diſtilled. It is <lb/>of excellent Uſe in ſuch
+                        Conſumptions as <lb/>proceed from a ſharp thin Blood; eſpecially <lb/>in
+                        thoſe who have been injured by a <w part="I">Vene-</w><lb/><w part="F"
+                            >real</w> Taint, or have any Hereditary <w part="I">Re-</w><lb/><w
+                            part="F">mains</w> of ſcrophulous or leprous Humours. <lb/>It is ordered
+                        to be drank for ſome time <w part="I">to-</w><lb/><w part="F">gether</w>,
+                        the Quantity of a Quart or two in <lb/>a Day. It is alſo directed to waſh
+                        foul <w part="I">Ul-</w><lb/><w part="F">cers</w>, and does good Service in
+                        ſuch Caſes. </p>
+                </div>
+            </div>
+            <pb xml:id="page_6" n="7"/>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Aqua Liberans. </head>
+                <list rend="italic">
+                    <item rend="space"><lb/><hi rend="roman">℞</hi> Raſſur. Lig. Saſſafr. ſine
+                        Cortice <hi rend="roman">℥ij.</hi>
+                    </item>
+                    <item rend="align-center"><lb/>Lig. Guiac. cum Cortice <hi rend="roman">℥j.</hi>
+                    </item>
+                    <item rend="indent"><lb/>Rad. Glycyrrh. <hi rend="roman">℥iij.</hi>
+                    </item>
+                    <item rend="indent"><lb/>Sem. Coriand. cont. <hi rend="roman">ʒvj.</hi>
+                    </item>
+                </list>
+                <p rend="italic hanging"><lb/>Infund. frigidè in Aq. Calcis. Cong. <hi rend="roman"
+                        >j.</hi> ℘ 2 <lb/>aut 3 Dies. </p>
+                <div>
+                    <p rend="indent space"><lb/>Take of the Shavings of Saſſafras without <lb/>the
+                        Bark 2 Ounces, of Guiacum with the <lb/>Bark 1 Ounce, Liquorice-Root 3
+                        Ounces, <lb/>Coriander-Seeds bruiſed 6 Drams; infuſe <lb/>them cold in one
+                        Gallon of Lime-water for <lb/>2 or 3 Days. </p>
+                    <p rend="indent space"><lb/>This is yet more drying than the former, <lb/>and is
+                        therefore good in all Caſes that <w part="I">re-</w><lb/><w part="F"
+                            >quire</w> Abſorbents and Sweetners; eſpecially <lb/>in all Venereal
+                        Affections, after Salivation. <lb/>It will aſſiſt much likewiſe in the Itch,
+                        and <lb/>all Foulneſſes which lodge upon the Skin. <lb/>It may be drank at
+                        Diſcretion, and ought to <lb/>be uſed for ſome time together. </p>
+                </div>
+            </div>
+            <pb xml:id="page_7" n="8"/>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Aqua Limacum. <hi rend="roman">D.</hi>
+                    M. </head>
+                <list rend="italic hanging space">
+                    <item><lb/><hi rend="roman">℞</hi> Limac. Hortens. depur. &amp; contuſ. Cong.
+                            <hi rend="roman">vj.</hi>
+                    </item>
+                    <item><lb/>Lumbric. depur. &amp; contuſ. Cong. <hi rend="roman">iij.</hi>
+                    </item>
+                    <item><lb/>Fol. Abſynth. vulg. </item>
+                    <item><lb/>Heder. ter. </item>
+                    <item><lb/>Card. Ben. ā <hi rend="roman">℔iſs</hi>. </item>
+                    <item><lb/>Pulegii, </item>
+                    <item><lb/>Bac. Juniper, </item>
+                    <item><lb/>Sem. Fænic. dul. </item>
+                    <item><lb/>Aniſi ā <hi rend="roman">℔ſs</hi>. </item>
+                    <item><lb/>Caryoph. </item>
+                    <item><lb/>Cubeb. contuſ. ā <hi rend="roman">℥iij</hi>. </item>
+                    <item><lb/>Sp. Vini, &amp; </item>
+                    <item><lb/>Aq. Fontan. ā Cong. <hi rend="roman">viij.</hi>
+                    </item>
+                </list>
+                <p rend="italic"><lb/>Macer. ℘ Hor. 24. &amp; diſtill. in Alembico. </p>
+                <div>
+                    <head rend="italic align-center space"><lb/>Dr. <hi rend="roman">M—</hi>'s
+                        Snail-Water. </head>
+                    <p rend="indent space"><lb/>Take Garden-Snails cleanſed and bruiſed <lb/>6
+                        Gallons, Earth-worms waſhed and bruiſed <lb/>3 Gallons, of common Wormwood,
+                        Ground-<lb/>Ivy, and Carduus, each one Pound and half, <lb/>Penniroyal,
+                        Juniper-Berries, Fennel-ſeeds, <lb/>Aniſeeds, each half a Pound, Cloves and
+                        <lb/>Cubebs bruiſed, each 3 Ounces, Spirit of <lb/>Wine, and Spring-water,
+                        of each 8 Gallons; <lb/>digeſt them together for the Space of 24 <lb/>Hours,
+                        and then draw it off in a common <lb/>Alembick. </p>
+                    <pb xml:id="page_8" n="9"/>
+                    <p rend="indent space"><lb/>This is admirably well contrived both for
+                        <lb/>Cheapneſs and Efficacy; and for Perſons <lb/>whoſe Circumſtances and
+                        Manner of living <lb/>have not habituated them to any Delicacies, <lb/>it is
+                        as good a Snail-water as can be made; <lb/>and with the two former, are the
+                        chief that <lb/>are uſed in the Hoſpitals. And as they are <lb/>moſtly given
+                        in Conſumptions contracted <lb/>from vicious Practices, and Venereal <w
+                            part="I">Conta-</w><lb/><w part="F">gions</w>, this is the conſtant
+                        Drink of thoſe <lb/>who are under the like Weakneſſes and <w part="I"
+                            >De-</w><lb/><w part="F">cays</w> from a <hi rend="italic">malum
+                            ſtamen</hi>, and require <w part="I">prin-</w><lb/><w part="F"
+                            >cipally</w> Nouriſhment from ſuch Subſtances, <lb/>as will, with the
+                        leaſt Trouble poſſible, be <lb/>aſſimulated for that purpoſe. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Aqua ad Strumas. <hi rend="roman"
+                        >D.</hi> M. </head>
+                <list rend="italic indentall hanging space">
+                    <item><lb/><hi rend="roman">℞</hi> Rad. Oxylapath. <hi rend="roman">℔ſs.</hi>
+                    </item>
+                    <item><lb/>Rhabarb. Monach. <hi rend="roman">℥iv.</hi>
+                    </item>
+                    <item><lb/>Agaric. <hi rend="roman">℥ij.</hi>
+                    </item>
+                    <item><lb/>Liquorit. </item>
+                    <item><lb/>Sem. Fanicul. dul. </item>
+                    <item><lb/>Coriand. ā <hi rend="roman">℥ſs.</hi>
+                    </item>
+                </list>
+                <p rend="italic hanging"><lb/>Coq. in Aq. fontan. q. ſ. colat. adde Antimon.
+                    <lb/>Diaph. illoti <hi rend="roman">℥ij.</hi>
+                </p>
+                <div>
+                    <head rend="italic align-center space"><lb/>D. <hi rend="roman">M—</hi>'s Water
+                        for the Evil. </head>
+                    <p rend="indent space"><lb/>Take ſharp-pointed Dock-Roots half a <lb/>Pound,
+                        Monks Rhubarb 4 Ounces, Agaric <pb xml:id="page_9" n="10"/><lb/>2 Ounces,
+                        Liquorice, Sweet-Fennel, and <lb/>Coriander-ſeeds, each half an Ounce; boil
+                        <lb/>in a ſufficient Quantity of Spring Water, <lb/>and to the ſtrained
+                        Liquor add 2 Ounces of <lb/>Diaphoretic Antimony. </p>
+                    <p rend="indent space"><lb/>This is much uſed in ſchrophulous Caſes, <lb/>as a
+                        Diet-Drink, and has been found of good <lb/>Service; but at the firſt,
+                        ſometimes, the <lb/><hi rend="italic">Diaphoretic Antimony</hi> being
+                        unwaſhed, it <lb/>proves Emetick, tho' without any <w part="I"
+                            >Inconve-</w><lb/><w part="F">niency</w> upon that account; the Points
+                        of <lb/>the Medicine being left groſs enough to <lb/>velicate and draw the
+                        Stomach into ſuch <lb/>Contractions. This alſo avails conſiderably <lb/>in
+                        Venereal and Leprous Impurities. Its <lb/>Operation is principally expected
+                        from its <lb/>encreaſing of natural Perſpiration, and <w part="I"
+                            >gen-</w><lb/><w part="F">tly</w> ſcouring all the ſecretory Paſſages.
+                    </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Aqua Theriacalis. </head>
+                <list rend="italic hanging space">
+                    <item><lb/><hi rend="roman">℞</hi> Suc. Putam Virid. Nucum Jugland. <hi
+                            rend="roman">℔xij.</hi>
+                    </item>
+                    <item><lb/>Suc. Rutæ <hi rend="roman">℔ix.</hi>
+                    </item>
+                    <item><lb/>Cardui Ben. </item>
+                    <item><lb/>Calend. </item>
+                    <item><lb/>Meliſſ. ā <hi rend="roman">℔vj.</hi>
+                    </item>
+                    <item><lb/>Rad. recent. Petaſitidis <hi rend="roman">℔ivſs.</hi>
+                    </item>
+                    <item><lb/>Bardan. <hi rend="roman">℔iij.</hi>
+                    </item>
+                    <item><lb/>Angel. </item>
+                    <item><lb/>Imperat. ā <hi rend="roman">℔jſs.</hi>
+                    </item>
+                    <item><lb/>Scordii <hi rend="roman">Mxij.</hi>
+                    </item>
+                    <pb xml:id="page_10" n="11"/>
+                    <item><lb/>Theriac. Londinenſ. <hi rend="roman">℔jſs.</hi>
+                    </item>
+                    <item><lb/>Philon. Rom. <hi rend="roman">℔j.</hi>
+                    </item>
+                    <item><lb/>Spirit. Vin. com. <hi rend="roman">℔xxx. ℥vj.</hi>
+                    </item>
+                </list>
+                <p rend="italic"><lb/>Miſc. &amp; diſtill. S. A. </p>
+                <div>
+                    <head rend="italic align-center space"><lb/>Treacle Water. </head>
+                    <p rend="indent space"><lb/>Take of the Juice of green Walnuts 12 <lb/>Pound, of
+                        Rue 9 Pound, of Carduus, <w part="I">Ma-</w><lb/><w part="F">rigolds</w>,
+                        and Balm, each 6 Pound, of Butter-<lb/>Bur-Root freſh gathered, 4 Pound and
+                        half, <lb/>Bur-dock 3 Pound, Angelico and Maſter-<lb/>wort each one Pound
+                        and half, of Scordium <lb/>12 Hands-full, <hi rend="italic"
+                        >London</hi>-Treacle one Pound <lb/>and half, Philon. Perſic. one Pound,
+                        Spirit <lb/>of Wine 30 Pints and 6 Ounces; mix and <lb/>diſtill according to
+                        Art. </p>
+                    <p rend="indent space"><lb/>This is a very good Water, and warmer <lb/>than the
+                            <hi rend="italic">College</hi> Treacle-water. It is given <lb/>as a
+                        Cordial in any Fainting or Gripes, <w part="I">eſpe-</w><lb/><w part="F"
+                            >cially</w> in thoſe which frequently happen in <lb/>raiſing a
+                        Salivation. </p>
+                    <p rend="indent"><lb/>In the <hi rend="italic">Lock</hi> they generally ſalivate
+                        by <lb/>Unction, and it has been obſerved, that the <lb/><hi rend="italic"
+                            >Lues</hi>, and many Caſes which would not give <lb/>way to a Salivation
+                        raiſed by inward means, <lb/>have been overcome by this; tho' many are
+                        <lb/>of Opinion, that the external Method is <lb/>moſt dangerous. </p>
+                </div>
+            </div>
+            <pb xml:id="page_11" n="12"/>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Alcohol Chalybis. <hi rend="roman"
+                        >D.</hi> M. </head>
+                <list rend="italic indentall hanging space">
+                    <item><lb/><hi rend="roman">℞</hi> Limatur. Chalybis puriſſ. <hi rend="roman"
+                            >℥iij.</hi>
+                    </item>
+                    <item><lb/>Sachar. Cand. rub. <hi rend="roman">℥ij.</hi>
+                    </item>
+                </list>
+                <p rend="italic"><lb/>Terentur ſimùl in Alcohol. </p>
+                <div>
+                    <head rend="italic align-center space"><lb/>Dr. <hi rend="roman">M—</hi>'s
+                        Powder of Steel. </head>
+                    <p rend="indent space"><lb/>Take of the fineſt Steel 3 Ounces, red
+                        <lb/>Sugar-candy 2 Ounces; let them be <w part="I">redu-</w><lb/><w part="F"
+                            >ced</w> together into a fine Powder. </p>
+                    <p rend="indent space"><lb/>This is a very plain, eaſy, and moſt <w part="I"
+                            >na-</w><lb/><w part="F">tural</w> Preparation of Steel, and is render'd
+                        <lb/>fit thereby to be taken either in Subſtance, <lb/>or to communicate its
+                        Virtues to any Liquor <lb/>by Infuſion. It comes neareſt to the <w part="I"
+                            >com-</w><lb/><w part="F">mon</w> Preparation of Steel with Tartar; and
+                        <lb/>has the ſame Qualities of a Deobſtruent. <lb/>Its uſual Doſe is from
+                        ℈i, to ʒſs, in a <hi rend="italic"><w part="I">Chlo-</w><lb/><w part="F"
+                                >roſis</w></hi>, and all menſtrual Obſtructions. It is <lb/>likewiſe
+                        a good Medicine in all <w part="I">Hypochon-</w><lb/><w part="F">driacal</w>
+                        Affections; but as the Cure of ſuch <lb/>Patients conſiſts generally more in
+                        their way <lb/>of living, than in Medicine, an Hoſpital <lb/>cares not for
+                        the Admiſſion of ſuch <w part="I">Inva-</w><lb/><w part="F">lids</w>. </p>
+                </div>
+            </div>
+            <pb xml:id="page_12" n="13"/>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Balſam. Lucatelli. </head>
+                <list rend="italic indentall hanging space">
+                    <item><lb/>℞ Ol. Olivar. opt. </item>
+                    <item><lb/>Terebinth. Ven. ā <hi rend="roman">℔iv.</hi>
+                    </item>
+                    <item><lb/>Ceræ flavæ tenuitèr inciſæ <hi rend="roman">℔ijſs.</hi>
+                    </item>
+                </list>
+                <p rend="italic hanging"><lb/>Liqueſcant ſimùl addendo ſang. Draconis <w part="I"
+                        >ſubti-</w><lb/><w part="F">liſſ</w>. pulv. <hi rend="roman">℥ij.</hi> miſc.
+                    ut f. Balſamum <w part="I">rubi-</w><lb/><w part="F">cundiſſimum</w>. </p>
+                <div>
+                    <head rend="italic align-center space"><lb/><hi rend="roman">Lucatellus</hi>'s
+                        Balſam. </head>
+                    <p rend="indent space"><lb/>Take of fine Oyl of Olives and <hi rend="italic"
+                            >Venice</hi>-<lb/>Turpentine each 4 Pound, yellow Wax cut <lb/>thin 2
+                        Pound and half; melt them together, <lb/>and add Dragons-blood in fine
+                        Powder 2 <lb/>Ounces, and mix it into a red Balſam. </p>
+                    <p rend="indent space"><lb/>This is much better than that of the <hi
+                            rend="italic"><w part="I">Col-</w><lb/><w part="F">lege</w></hi>
+                        Diſpenſatory, tho' much cheaper and <lb/>eaſier made. The Dragons-blood
+                        gives a <lb/>much better Colour than the Saunders, <lb/>which is in the
+                        other; and if either have <lb/>any Virtues ſuitable to the whole, this bids
+                        <lb/>the faireſt; and will alſo much better mix <lb/>therewith, becauſe it
+                        in a manner diſſolves <lb/>in the Oyl. It is uſed both inwardly, <lb/>in all
+                        Suſpicions of internal Ulcerations, <lb/>and externally as a Digeſtive. </p>
+                    <p rend="indent"><lb/><hi rend="italic">Balſam. Sulphur. Terebinth.</hi> is much
+                        uſed <lb/>in St. <hi rend="italic">Thomas</hi>'s Hoſpital, as it is directed
+                        to <lb/>be made in <hi rend="italic">Bate</hi>'s Diſpenſatory, both <w
+                            part="I">inter-</w><pb xml:id="page_13" n="14"/><lb/><w part="F"
+                            >nally</w>, and in Dreſſings for the ſame purpoſe, <lb/>as it is
+                        directed by the common Practice. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Balſam. Viride. </head>
+                <list rend="italic indentall hanging space">
+                    <item><lb/><hi rend="roman">℞</hi> Ol. Lin. <hi rend="roman">℔iv.</hi>
+                    </item>
+                    <item><lb/>Æris Virid. purific. &amp; pulver. <hi rend="roman">℔j.</hi>
+                    </item>
+                </list>
+                <p rend="italic hanging"><lb/>Bulliant ſimul ad diſſolutionem Ærugin. &amp; f.
+                    <lb/>Balſ. viride. </p>
+                <div>
+                    <head rend="italic align-center space"><lb/>The Green Balſam. </head>
+                    <p rend="indent space"><lb/>Take Linſeed Oyl 4 Pound, of the fineſt
+                        <lb/>Verdigreaſe powder'd 1 Pound; boil them <lb/>together till the
+                        Verdigreaſe is diſſolved, <lb/>and it will incorporate together into a green
+                        <lb/>Balſam. </p>
+                    <p rend="indent space"><lb/>This is of great uſe in all contuſed and
+                        <lb/>lacerated Wounds, and likewiſe in <w part="I">Gun-</w><lb/><w part="F"
+                            >ſhot</w> Wounds, there is nothing that <w part="I">ex-</w><lb/><w
+                            part="F">ceeds</w> it. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Bolus Alexiter. </head>
+                <list rend="italic indentall hanging space">
+                    <item><lb/><hi rend="roman">℞</hi> Theriac. Androm. </item>
+                    <item><lb/>Pulv. Alexit. ā <hi rend="roman">℈j.</hi>
+                    </item>
+                    <item><lb/>Syr. Caryoph. q. ſ. ut f. Bol. </item>
+                </list>
+                <pb xml:id="page_14" n="15"/>
+                <div>
+                    <head rend="italic align-center space"><lb/>An Alexiterial Bole. </head>
+                    <p rend="indent space"><lb/>Take <hi rend="italic">Venice</hi>-Treacle, and of
+                        the <w part="I">Alexi-</w><lb/><w part="F">terial</w> Powder, each one
+                        Scruple, Syrup of <lb/>Cloves a ſufficient Quantity to make into a
+                        <lb/>Bole. </p>
+                    <p rend="indent space"><lb/>This is frequently directed to be taken, <lb/>in
+                        order to compoſe and breath a Perſon <lb/>after Amputation, or any other
+                        Operation <lb/>which is attended with extreme Pain, and <lb/>threatens a
+                        Fever; and is repeated as often <lb/>as occaſion requires: drinking after it
+                            <w part="I">pro-</w><lb/><w part="F">per</w> Juleps. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Bolus cum Calomel. </head>
+                <list rend="italic indentall hanging space">
+                    <item><lb/><hi rend="roman">℞</hi> Calomel. opt. levigat. </item>
+                    <item><lb/>Conſ. Roſ. rub. ā <hi rend="roman">℈j.</hi>
+                    </item>
+                </list>
+                <p rend="italic"><lb/>Miſc. f. Bolus. </p>
+                <div>
+                    <head rend="italic align-center space"><lb/>A Bole with Calomel. </head>
+                    <p rend="indent space"><lb/>Take Calomel well levigated one Scruple,
+                        <lb/>Conſerve of Roſes half a Scuple; mix into <lb/>a Bole. </p>
+                    <p rend="indent space"><lb/>This is the common Bole for Salivation, <lb/>and is
+                        repeated as the Symptoms require. It <lb/>is alſo given frequently over
+                        Night, to be <lb/>carry'd off by the common Catharticks the <pb
+                            xml:id="page_15" n="16"/><lb/>next Morning, in any Caſes that require
+                        <lb/>brisk Purging. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Bolus Emeticus. </head>
+                <list rend="italic indentall hanging space">
+                    <item><lb/>℞ Antimonii reſuſcitat. Batean. Gr. <hi rend="roman">vij.</hi>
+                    </item>
+                    <item><lb/>Conſ. Roſ. rub. q. ſ. f. Bol. </item>
+                </list>
+                <div>
+                    <head rend="italic align-center space"><lb/>An Emetick Bole. </head>
+                    <p rend="indent space"><lb/>Take of revived Antimony, according to <lb/><hi
+                            rend="italic">Bate</hi>, 7 Grains, Conſerve of red Roſes a
+                        <lb/>ſufficient Quantity to make it into a Bole. </p>
+                    <p rend="indent space"><lb/>In very groſs and robuſt Conſtitutions <lb/>this is
+                        given preparatory to any Courſe of <lb/>Alteratives; for ſometimes it will
+                        work <lb/>with great Violence, inſomuch as to render <lb/>it unſafe to
+                        infirm and weakly Perſons. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Bolus Emeticus Mercurialis. </head>
+                <list rend="italic indentall hanging space">
+                    <item><lb/><hi rend="roman">℞</hi> Turpeth. Min. opt. levig. Gr. <hi
+                            rend="roman">vij.</hi>
+                    </item>
+                    <item><lb/>Conſ. Roſ. rub. q. ſ. f. Bol. </item>
+                </list>
+                <div>
+                    <head rend="italic align-center space"><lb/>An Emetick Mercurial Bole. </head>
+                    <p rend="indent space"><lb/>Take of Turbith Mineral well levigated, <lb/>7
+                        Grains, Conſerve of red Roſes a ſufficient <lb/>Quantity to make into a
+                        Bole. </p>
+                    <pb xml:id="page_16" n="17"/>
+                    <p rend="indent"><lb/>This is as rough as the former, but is <w part="I"
+                            >ge-</w><lb/><w part="F">nerally</w> made choice of in Venereal and <w
+                            part="I">Le-</w><lb/><w part="F">prous</w> Caſes, preparatory to
+                        Salivation; and <lb/>is likewiſe ſometimes directed where no ſuch
+                        <lb/>Courſe is intended, particularly in foul <w part="I">Ul-</w><lb/><w
+                            part="F">cers</w> of long ſtanding; the cleanſing and <lb/>laſting Cure
+                        of which its Operation does <lb/>much forward: But this is too churliſh to
+                        <lb/>be given but to athletick Conſtitutions. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Bolus Hydropicus. </head>
+                <list rend="italic indentall hanging space">
+                    <item><lb/><hi rend="roman">℞</hi> Gambog. pulv. Gr. <hi rend="roman">xv.</hi>
+                    </item>
+                    <item><lb/>Cremor. Tartari <hi rend="roman">℈ſs.</hi>
+                    </item>
+                    <item><lb/>Syr. e Spin. C. q. ſ. f. Bolus. </item>
+                </list>
+                <div>
+                    <head rend="italic align-center space"><lb/>An Hydropick Bole. </head>
+                    <p rend="indent space"><lb/>Take Gamboge 15 Grains, Cream of <w part="I"
+                            >Tar-</w><lb/><w part="F">tar</w> half a Scruple, Syrup of Buckthorn a
+                        <lb/>ſufficient Quantity to make them into a <lb/>Bole. </p>
+                    <p rend="indent space"><lb/>In a Dropſie, or a flaccid moiſt Habit <lb/>tending
+                        thereunto, this is a very common <lb/>Purge, and a very good one. The
+                        Gamboge <lb/>it ſelf is indeed very rough, and works <lb/>ſometimes with
+                        great Nauſeouſneſs, <w part="I">Vomit-</w><lb/><w part="F">ing</w> and
+                        Griping; but the Tartar much <w part="I">cor-</w><lb/><w part="F">rects</w>
+                        it, by dividing its viſcid Parts, and <lb/>making them leſs ſenſibly
+                        velicate the Coats <lb/>of the Stomach and Bowels, as all reſinous <pb
+                            xml:id="page_17" n="18"/><lb/>Purges are apt to do. It has ſometimes
+                        alſo <lb/>mixed with it a Drop or two of Oyl of <lb/>Aniſeed, or any other
+                        of the carminitive <lb/>Oyls, to render it leſs griping. This <w part="I"
+                            >tho-</w><lb/><w part="F">roughly</w> purges off watry and viſcous <w
+                            part="I">Hu-</w><lb/><w part="F">mours</w>, and greatly promotes the
+                        Diſcharge <lb/>by Urine. But to render the Cure of a <lb/>Dropſie laſting,
+                        there is a Neceſſity <w part="I">after-</w><lb/><w part="F">wards</w> of
+                        reſtoring and ſtrengthning the Tone <lb/>of the Parts by proper Medicines
+                        for ſuch <lb/>purpoſes; elſe they will ſoon fill again with <lb/>as much
+                        Water as this has carry'd away. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Bolus Mercurialis Purgat. </head>
+                <list rend="italic indentall hanging space">
+                    <item><lb/><hi rend="roman">℞</hi> Elect. Lenitiv. <hi rend="roman">℔ſs.</hi>
+                    </item>
+                    <item><lb/>Pulv. Rad. Jallapi <hi rend="roman">℥jſs.</hi>
+                    </item>
+                    <item><lb/>Scammon. <hi rend="roman">ʒvj.</hi>
+                    </item>
+                    <item><lb/>Calomel <hi rend="roman">℥ſs.</hi>
+                    </item>
+                    <item><lb/>Syr. Roſ. ſolutiv. q. ſ. ad Boli conſiſtentiam. </item>
+                    <item><lb/>Doſ. <hi rend="roman">ʒiij.</hi> mane. </item>
+                </list>
+                <div>
+                    <head rend="italic align-center space"><lb/>A Purging Mercurial Bole. </head>
+                    <p rend="indent space"><lb/>Take of Lenitive Electuary half a Pound, <lb/>Jallap
+                        Root powdered one Ounce and half, <lb/>Scammony 6 Drams, Calomel half an
+                        Ounce, <lb/>the ſolutive Syrup of Roſes a ſufficient <w part="I"
+                            >Quan-</w><lb/><w part="F">tity</w> to make them into the Conſiſtence of
+                        a <lb/>Bole. The Doſe is 3 Drams in a Morning. </p>
+                    <pb xml:id="page_18" n="19"/>
+                    <p rend="indent"><lb/>This is a ſure Purge, and will not fail <lb/>working in
+                        the ſtrongeſt Conſtitutions. It <lb/>is adviſable in all Caſes whatſoever,
+                        as want <lb/>ſuch Evacuation. It muſt be made pretty <lb/>ſtiff, elſe the
+                        Calomel will be apt to fall by <lb/>its great weight, whereby it will be <w
+                            part="I">une-</w><lb/><w part="F">qually</w> mixed; and in hot Weather
+                        alſo it <lb/>will be apt to fret and ſpoil, if made up too <lb/>thin. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Bolus ad Diarrhæam. </head>
+                <list rend="italic indentall hanging space">
+                    <item><lb/><hi rend="roman">℞</hi> Rhabarb. opt. pulv. <hi rend="roman"
+                            >ʒſs.</hi>
+                    </item>
+                    <item><lb/>Confect. <hi rend="roman">Fracaſtorii</hi> ſine Melle, q. ſ. ut f. </item>
+                    <item><lb/>Bolus. </item>
+                </list>
+                <div>
+                    <head rend="italic align-center space"><lb/>A Bole againſt a Looſeneſs. </head>
+                    <p rend="indent space"><lb/>Take Powder of the fineſt Rhubarb half <lb/>a Dram,
+                        Diaſcordium without Honey, a <lb/>ſufficient Quantity to make it into a
+                        <lb/>Bole. </p>
+                    <p rend="indent space"><lb/>This is to be given in any Fluxes of the <lb/>Belly
+                        that require to be ſtopped, as often as <lb/>the Urgency of the Symptoms
+                        indicate; but <lb/>it is generally directed only at Night going <lb/>to Bed;
+                        for the Opiate confines the <w part="I">Rhu-</w><lb/><w part="F">barb</w>
+                        from immediate Operation, and what <lb/>Effect that has, is only juſt to
+                        cleanſe off ſo <lb/>much Choler, or irritating Humours, as it <lb/>finds
+                        already ſeparated by the Inteſtinal <lb/>Glands; and it then ſo aſtringes
+                        them, as to <pb xml:id="page_19" n="20"/><lb/>prevent any further Flux of
+                        that kind upon <lb/>them. This Bolus is alſo frequently given <lb/>to
+                        compoſe and reſettle the Bowels, after <lb/>the Operation of ſuch ſtrong
+                        Catharticks, as <lb/>cannot well be born without ſuch a <w part="I"
+                            >Reſto-</w><lb/><w part="F">rative</w>. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Bolus Mercurialis cum Gambog. </head>
+                <list rend="italic indentall hanging space">
+                    <item><lb/><hi rend="roman">℞</hi> Elect. Lenitiv. <hi rend="roman">℔j.</hi>
+                    </item>
+                    <item><lb/>Calomelan. </item>
+                    <item><lb/>Gambog. pul. ā <hi rend="roman">℥ij. ʒj.</hi>
+                    </item>
+                    <item><lb/>Syr. e Spin. C. q. ſ. ad Boli conſiſtentiam; </item>
+                    <item><lb/>Addendo Ol. Aniſ. <hi rend="roman">ʒjſs.</hi> Doſis <hi rend="roman"
+                            >ʒj.</hi>
+                    </item>
+                </list>
+                <div>
+                    <head rend="italic align-center space"><lb/>A Mercurial Bole with Gamboge. </head>
+                    <p rend="indent space"><lb/>Take Lenitive Electuary 1 Pound, <w part="I"
+                            >Calo-</w><lb/><w part="F">mel</w> and Gamboge in fine Powder each 2
+                        <lb/>Ounces and 1 Dram, Syrup of Buckthorn a <lb/>ſufficient Quantity to
+                        make them into the <lb/>Conſiſtence of a Bole; to which add Oyl of
+                        <lb/>Aniſeeds 1 Dram and half. The Doſe is <lb/>2 Drams. </p>
+                    <p rend="indent space"><lb/>This is ſtronger than the foregoing with <lb/>the
+                        Jallap; and is directed accordingly where <lb/>the moſt powerful Catharticks
+                        are required, <lb/>and can be born without Inconveniency. </p>
+                </div>
+            </div>
+            <pb xml:id="page_20" n="21"/>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Bolus Diureticus. <hi rend="roman"
+                        >D.</hi> M. </head>
+                <list rend="italic indentall hanging space">
+                    <item><lb/><hi rend="roman">℞</hi> Scillæ <hi rend="roman">℥j.</hi>
+                    </item>
+                    <item><lb/>Hellenii pulv. <hi rend="roman">℥ſs.</hi>
+                    </item>
+                    <item><lb/>Ol. Anis. Chym. <hi rend="roman">ʒſs.</hi>
+                    </item>
+                    <item><lb/>Doſis <hi rend="roman">ʒj.</hi> bis in die. </item>
+                </list>
+                <div>
+                    <head rend="italic align-center space"><lb/>Dr. <hi rend="roman">M—</hi>'s
+                        Diuretick Bole. </head>
+                    <p rend="indent space"><lb/>Take Squills 1 Ounce, Powder of <w part="I"
+                            >Eli-</w><lb/><w part="F">campane</w> half an Ounce, Oyl of Aniſeed half
+                        <lb/>a Dram. The Doſe is one Dram twice in a <lb/>Day. </p>
+                    <p rend="indent space"><lb/>In Aſthmatick and Dropſical Habits, this <lb/>is an
+                        admirable Medicine; for it greatly <lb/>ſcours away thoſe Viſcidities which
+                        ſtuff the <lb/>Veſſels, and hinder due Circulation, and <lb/>detaches them
+                        off by the Kidnies. But its <lb/>Uſe is to be comply'd with for ſome time <w
+                            part="I">to-</w><lb/><w part="F">gether</w>; and if ſo continued, the
+                        moſt <w part="I">obſti-</w><lb/><w part="F">nate</w> Obſtructions of the
+                        ſmall Veſſels, that <lb/>cauſe both Dropſies and Aſthma's, will give
+                        <lb/>way to its Efficacy. </p>
+                </div>
+            </div>
+            <pb xml:id="page_21" n="22"/>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Cataplaſma pro Buhone Peſtilen. &amp; <w
+                        part="I">Car-</w><lb/><w part="F">bunculo</w>. </head>
+                <list rend="italic indentall hanging space">
+                    <item><lb/><hi rend="roman">℞</hi> Cœpar. Maj. </item>
+                    <item><lb/>Allii, ā <hi rend="roman">℥iij.</hi>
+                    </item>
+                    <item><lb/>Pulv. Cantharid. <hi rend="roman">ʒj.</hi>
+                    </item>
+                    <item><lb/>Sem. Senapios pulv. </item>
+                    <item><lb/>Theriac. Lond. </item>
+                    <item><lb/>Mithrid. </item>
+                    <item><lb/>Fimi Columbini, ā <hi rend="roman">ʒj.</hi>
+                    </item>
+                    <item><lb/>Ol. Scorpionum q. ſ. ut f. Cataplaſma <w part="I">de-</w><lb/><w
+                            part="F">bit</w>. conſiſtent. </item>
+                </list>
+                <div>
+                    <head rend="italic align-center space"><lb/>A Cataplaſm for Bubo's or
+                        Carbuncles. </head>
+                    <p rend="indent space"><lb/>Take of the larger Onions, and of <w part="I"
+                            >Gar-</w><lb/><w part="F">lick</w>, each 3 Ounces, Powder of Spaniſh
+                        <lb/>Flies 1 Dram, Muſtard-ſeed powder'd, <lb/><hi rend="italic">London</hi>
+                        Treacle, Mithridate, and Pigeons-<lb/>Dung, each 1 Ounce, Oyl of Scorpions a
+                        <lb/>ſufficient Quantity to make into a Poultus. </p>
+                    <p rend="indent space"><lb/>The Caſes this is intended for, happen <lb/>not
+                        frequently in the Hoſpitals: But when <lb/>any Humours are critically
+                        diſcharged in <lb/>malignant Fevers, which are ſometimes <w part="I"
+                            >at-</w><lb/><w part="F">tended</w> with very ſurprizing Symptoms, this
+                        <lb/>is a good Medicine both to help on their <lb/>Diſcharge, and defend the
+                        Part againſt <lb/>Mortifications and Gangrenes, which <w part="I"
+                            >fre-</w><lb/><w part="F">quently</w> happen in ſuch Caſes. In confirm'd
+                            <pb xml:id="page_22" n="23"/><lb/>Dropſies likewiſe, where the lower
+                        Parts <lb/>have received more Water than can be <w part="I">car-</w><lb/><w
+                            part="F">ried</w> off by the common Evacuations, and <lb/>the Legs are
+                        forced to be ſcarify'd, this is <lb/>of good Service both to prevent <w
+                            part="I">Mortifica-</w><lb/><w part="F">tion</w>, and forward the Drain
+                        of ſuch <w part="I">Hu-</w><lb/><w part="F">mours</w>; inſomuch that the
+                        Tone of a Part is <lb/>ſometimes retrieved by this means, which <lb/>would
+                        otherwiſe from a partial <w part="I">Mortifica-</w><lb/><w part="F"
+                        >tion</w>, induce a total one. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Cataplaſma Iſchiad. <hi rend="roman"
+                        >D.</hi> W. </head>
+                <list rend="italic indentall hanging space">
+                    <item><lb/><hi rend="roman">℞</hi> Sem. Sinap. <hi rend="roman">℔ſs.</hi>
+                    </item>
+                    <item><lb/>Pip. alb. </item>
+                    <item><lb/>Rad. ZZ. ā <hi rend="roman">ʒj.</hi>
+                    </item>
+                </list>
+                <p rend="italic hanging"><lb/>Miſc. f. pulvis, Vaſe vitreo optime clauſo <w part="I"
+                        >ſer-</w><lb/><w part="F">vat</w>. qui tempore uſus form. in conſistentiam
+                    <lb/>Cataplaſm. cum Oxymel. ſimpl. q. ſ. </p>
+                <div>
+                    <head rend="italic align-center space"><lb/>Dr. <hi rend="roman">W—</hi>'s
+                        Cataplaſm for the Hip-Gout. </head>
+                    <p rend="indent space"><lb/>Take Muſtard-ſeed powder'd half a Pound, <lb/>white
+                        Pepper, and Ginger, each 1 Ounce; <lb/>mix together in a fine Powder, and
+                        keep <lb/>in a Glaſs cloſe ſtopped, and juſt at the time <lb/>of uſing, make
+                        into a Poultus, with a <w part="I">ſuffi-</w><lb/><w part="F">cient</w>
+                        Quantity of Oxymel of Squils. </p>
+                    <p rend="indent space"><lb/>This is a very warm Application, and will
+                        <lb/>therefore ſometimes help to break away <lb/>thoſe Humours which fix
+                        upon the Joints, <pb xml:id="page_23" n="24"/><lb/>occaſioning there
+                        intolerable Pains, and <lb/>which will not give way to any other means.
+                        <lb/>It is to be applyed as often as the Symptoms <lb/>and Urgency of Pain
+                        require, and the Part <lb/>can bear; for it is ſo hot as frequently to
+                        <lb/>veſicate the Skin; but it then generally has <lb/>the beſt Effect, the
+                        Pain moſt commonly <lb/>abating upon drawing out by Perſpiration <lb/>ſuch
+                        Humours as will raiſe a Dew upon the <lb/>Skin, and ſometimes lift it up
+                        into little <lb/>Bliſters; but in ſuch Caſes all the Harm is <lb/>the
+                        Trouble. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Cataplaſma pro Inflammatione. </head>
+                <list rend="italic indentall hanging space">
+                    <item><lb/><hi rend="roman">℞</hi> Farinæ avenac. <hi rend="roman">℔ſs.</hi>
+                    </item>
+                    <item><lb/>Herb. urtic. <hi rend="roman">Miv.</hi>
+                    </item>
+                    <item><lb/>Ceræ flavæ, <hi rend="roman">℔jſs.</hi>
+                    </item>
+                </list>
+                <p rend="italic indent"><lb/>Miſce ſuper ignem. </p>
+                <div>
+                    <head rend="italic align-center space"><lb/>A Cataplaſm for an Inflammation. </head>
+                    <p rend="indent space"><lb/>Take of Oatmeal half a Pound, of <w part="I"
+                            >Net-</w><lb/><w part="F">tles</w> 4 Handsful, yellow Wax one Pound
+                        <lb/>and half; mix them together over the <lb/>Fire. </p>
+                    <p rend="indent space"><lb/>This is directed for eryſipelous Tumors, <lb/>and
+                        ordinary Inflammations; but is not <w part="I">fre-</w><lb/><w part="F"
+                            >quently</w> call'd for. </p>
+                </div>
+            </div>
+            <pb xml:id="page_24" n="25"/>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Cereviſia Hydropica. <hi rend="roman"
+                        >D.</hi> W. </head>
+                <list rend="italic indentall hanging space">
+                    <item><lb/><hi rend="roman">℞</hi> Summit. Geniſt. </item>
+                    <item><lb/>Sem. Sinap. ā <hi rend="roman">℔j.</hi>
+                    </item>
+                    <item><lb/>Rad. Irrid. noſtr. </item>
+                    <item><lb/>Lapath. acut. ā <hi rend="roman">℥xij.</hi>
+                    </item>
+                    <item><lb/>Cort. Winteran. </item>
+                    <item><lb/>Sambuci. </item>
+                    <item><lb/>Sem. Dauci ſylv. </item>
+                    <item><lb/>Baccar. Juniperi, ā <hi rend="roman">℔jſs.</hi>
+                    </item>
+                </list>
+                <p rend="italic hanging"><lb/>Miſt. f. ſacculus ℘ Cong. <hi rend="roman">xij.</hi>
+                    Cereviſiæ fort. <lb/>non lupulat. Doſ. <hi rend="roman">℔ſs.</hi> bis vel ter in
+                    die. </p>
+                <div>
+                    <head rend="italic align-center space"><lb/>Dr. <hi rend="roman">W—</hi>'s
+                        Dyet-drink for a Dropſie. </head>
+                    <p rend="indent space"><lb/>Take of Broom-tops, and Muſtard-ſeed, <lb/>each 1
+                        Pound, of the Roots of <hi rend="italic">Engliſh</hi>
+                        <w part="I">Or-</w><lb/><w part="F">rice</w>, and ſharp-pointed Dock, each
+                        12 <lb/>Ounces, <hi rend="italic">Winter</hi>'s Bark, Elder-Bark, Seeds
+                        <lb/>of wild Carrot, and Juniper-berries, each 1 <lb/>Pound and half; put
+                        them all together into <lb/>a Bag, to be ſteep'd in 12 Gallons of <w
+                            part="I">un-</w><lb/><w part="F">hopp'd</w> Ale, while it works; half a
+                        Pint to <lb/>be drank 2 or 3 times in a Day. </p>
+                    <p rend="indent space"><lb/>This is of good uſe to abſorb and dry up <lb/>the
+                        remaining Moiſtures and watry Humours, <lb/>which the ordinary Catharticks
+                        leave <w part="I">be-</w><lb/><w part="F">hind</w>; and will make the Cure
+                        laſting, which <lb/>otherwiſe would be but ſhort. In all <w part="I"
+                            >ſcorbu-</w><lb/><w part="F">tick</w> Habits likewiſe, eſpecially where
+                        the <pb xml:id="page_25" n="26"/><lb/>Extreams tend towards too great a
+                        Fulneſs <lb/>and Corpulency, this is of real Service, if <lb/>the Patients
+                        are kept to it for ſome time <w part="I">to-</w><lb/><w part="F">gether</w>.
+                        In all Tendencies likewiſe towards <lb/>a Palſy it does much good both by
+                        drying <lb/>away watery and ſloughy Humours, which <lb/>deſtroy due
+                        Senſation, and giving Warmth <lb/>and Briskneſs to the Juices. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Confectio <hi rend="roman"
+                        >Fracaſtorii</hi>. </head>
+                <p rend="italic align-center space"><lb/>Vt. in Pharmacopœiâ Londinenſi; ſed in loco
+                    <lb/>Mellis præparand. cùm Syr. è Meconio. </p>
+                <div>
+                    <head rend="italic align-center space"><lb/><hi rend="roman">Fracaſtorius</hi>'s
+                        Confection. </head>
+                    <p rend="indent space"><lb/>This is the ſame as the common <w part="I"
+                            >Diaſcor-</w><lb/><w part="F">dium</w> of the <hi rend="italic"
+                            >College</hi>; only inſtead of Honey <lb/>is made uſe of Syrup of
+                        Diacodium in its <lb/>room. </p>
+                    <p rend="indent space"><lb/>This is given about a Dram in a Doſe in
+                        <lb/>ordinary Fluxes of the Belly, and as an <w part="I">Opi-</w><lb/><w
+                            part="F">ate</w> to compoſe the Bowels after ſtrong <w part="I"
+                            >Purg-</w><lb/><w part="F">ing</w>; or whereſoever Opiates are
+                        requiſite, <lb/>and nothing forbids aſtringing at the ſame <lb/>time. </p>
+                </div>
+            </div>
+            <pb xml:id="page_26" n="27"/>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Decoctum Album. </head>
+                <list rend="italic indentall hanging space">
+                    <item><lb/><hi rend="roman">℞</hi> C.C.C. albiſs. <hi rend="roman">℔ſs.</hi>
+                    </item>
+                    <item><lb/>Gum. Arabic. <hi rend="roman">℥ij.</hi>
+                    </item>
+                    <item><lb/>f. Pul. ſubtiliſ. cui affunde </item>
+                    <item><lb/>Aquæ bullient, Cong. <hi rend="roman">j.</hi>
+                    </item>
+                </list>
+                <list rend="italic indentall hanging">
+                    <item><lb/>Tum adde </item>
+                    <item><lb/>Aquæ Cinnam. fort. <hi rend="roman">℔ſs.</hi>
+                    </item>
+                </list>
+                <list rend="italic indentall hanging">
+                    <item><lb/>Et addend. </item>
+                    <item><lb/>Rad. Tormentil. <hi rend="roman">℥iv.</hi>
+                    </item>
+                    <item><lb/>Cort. Granator. <hi rend="roman">℥ij.</hi>
+                    </item>
+                </list>
+                <list rend="italic indentall hanging"> <item rend="italic"><lb/>Inter Coquend. tunc
+                    dicitur, Dec. <w part="I">Aſtrin-</w><lb/><w part="F">gens</w>. </item></list>
+                <div>
+                    <head rend="italic align-center space"><lb/>The White Drink. </head>
+                    <p rend="indent space"><lb/>Take of the whiteſt burnt Hartſhorn half <lb/>a
+                        Pound, of Gum Arabic 2 Ounces; reduce <lb/>them into a Powder, and pour upon
+                        them 1 <lb/>Gallon of boiling Water; to which add <lb/>ſtrong Cinnamon-Water
+                        half a Pint; and if <lb/>further be added of Tormentil Roots 4 <lb/>Ounces,
+                        and 2 Ounces of Pomegranate-Bark, <lb/>in the boiling, it is then called,
+                            <hi rend="italic">The <w part="I">Reſtrin-</w><lb/><w part="F">gent</w>
+                            Decoction</hi>. </p>
+                    <p rend="indent space"><lb/>This is conſtantly made in large <w part="I"
+                            >Quanti-</w><lb/><w part="F">ties</w>, and given as a common Drink in
+                        all <lb/>kinds of Fluxes. It is likewiſe the common <lb/>Drink for Perſons
+                        under Salivation, <w part="I">eſpeci-</w><lb/><w part="F">ally</w> while the
+                        Spitting is raiſing, and in <w part="I">Fe-</w><pb xml:id="page_27" n="28"
+                            /><lb/><w part="F">vers</w>, Small-pox, or Meaſles, where a <w part="I"
+                            >Looſe-</w><lb/><w part="F">neſs</w> is to be guarded againſt. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Decoct. Hydropicum. </head>
+                <list rend="italic indentall hanging space">
+                    <item><lb/><hi rend="roman">℞</hi> Infuſion. Paralytic. </item>
+                    <item><lb/>Decoct. Scorbut. ā <hi rend="roman">℔j.</hi>
+                    </item>
+                </list>
+                <p rend="italic"><lb/>Miſce. </p>
+                <div>
+                    <head rend="italic align-center space"><lb/>The Hydropick Diet-Drink. </head>
+                    <p rend="indent space"><lb/>Take of the Paralytick Infuſion, and of <lb/>the
+                        Scorbutick Decoction, each 1 Pint, and <lb/>mix for uſe. </p>
+                    <p rend="indent space"><lb/>The Virtue and Uſe of this may be known <lb/>by its
+                        Title; but beſt by the reſpective <w part="I">In-</w><lb/><w part="F"
+                            >gredients</w>, to be met with in their proper <lb/>Places. The Doſe 10
+                        Ounces, twice a <lb/>Day. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Decoctum Ictericum. <hi rend="roman"
+                        >D.</hi> M. </head>
+                <list rend="italic indentall hanging space">
+                    <item><lb/><hi rend="roman">℞</hi> Rad. Curcumæ. </item>
+                    <item><lb/>Rub. Tinctor. ā <hi rend="roman">℥j.</hi>
+                    </item>
+                    <item><lb/>Fol. Chelid. cum floribus; </item>
+                    <item><lb/>Hyperic. ā <hi rend="roman">Mj.</hi>
+                    </item>
+                </list>
+                <p rend="italic hanging"><lb/>Coq. en aq. fontan. q. ſ. ad <hi rend="roman"
+                        >℔ij.</hi> Colat. adde <lb/>Syr. e 5 radicibus <hi rend="roman">℥ij.</hi>
+                    Miſc. Doſis <lb/><hi rend="roman">℔ſs.</hi> bis in die. </p>
+                <pb xml:id="page_28" n="29"/>
+                <div>
+                    <head rend="italic align-center space"><lb/>Dr. <hi rend="roman">M—</hi>'s
+                        Decoction for the Jaundice. </head>
+                    <p rend="indent space"><lb/>Take of Turmerick Root, and of <w part="I"
+                            >Mad-</w><lb/><w part="F">der</w> Root each 1 Ounce, Leaves of <w
+                            part="I">Celan-</w><lb/><w part="F">dine</w> with the Flowers, St. <hi
+                            rend="italic">John</hi>'s-wort, each <lb/>1 Handful; boil them in
+                        Spring-water a <lb/>ſufficient Quantity to 2 Pints: To the <lb/>ſtrained
+                        Liquor add Syrup of the 5 opening <lb/>Roots 2 Ounces, and mix for uſe. The
+                        <lb/>Doſe is half a Pint twice in a Day. </p>
+                    <p rend="indent space"><lb/>This is directed to all in the Jaundice, or <lb/>in
+                        any Scorbutick Habit of Body, either <w part="I">ten-</w><lb/><w part="F"
+                            >ding</w> that way, or to Dropſies. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Decoctum Carminativum. </head>
+                <list rend="italic indentall hanging space">
+                    <item><lb/><hi rend="roman">℞</hi> Fol. Mercurialis; </item>
+                    <item><lb/>Parietariæ; </item>
+                    <item><lb/>Meliloti, ā <hi rend="roman">Mj.</hi>
+                    </item>
+                    <item><lb/>Sem. Lini; </item>
+                    <item><lb/>— Aniſi, contuſ. ā <hi rend="roman">℥j.</hi>
+                    </item>
+                    <item><lb/>Flor. Chamæm. <hi rend="roman">Mj.</hi>
+                    </item>
+                </list>
+                <p rend="italic hanging"><lb/>Coq. in aq. fontan. q. ſ. ad <hi rend="roman"
+                        >℥xij.</hi> col. ad <lb/>uſum. </p>
+                <div>
+                    <head rend="italic align-center space"><lb/>The Carminative Decoction. </head>
+                    <p rend="indent space"><lb/>Take of Mercury Leaves, Pellitory of the <lb/>Wall,
+                        and Melilot, each 1 Handful, <w part="I">Lin-</w><lb/><w part="F">ſeed</w>
+                        and Aniſeed bruiſed each 1 Ounce; <pb xml:id="page_29" n="30"
+                        /><lb/>Chamomile-Flowers 1 Handful; boil in a <lb/>ſufficient Quantity of
+                        Spring-water to 12 <lb/>Ounces, and ſtrain out the Liquor for uſe. </p>
+                    <p rend="indent space"><lb/>This is the common Clyſter-Decoction, <lb/>and is
+                        uſed on no other Account. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Decoctum Scorbuticum. </head>
+                <list rend="italic indentall hanging space">
+                    <item><lb/><hi rend="roman">℞</hi> Fol. Abſynth. Vulg. </item>
+                    <item><lb/>—— Rom. ā <hi rend="roman">Mj.</hi>
+                    </item>
+                    <item><lb/>Agrimon. </item>
+                    <item><lb/>Cardui Ben. </item>
+                    <item><lb/>Sumit. Centaur. Min. ā <hi rend="roman">Mij.</hi>
+                    </item>
+                    <item><lb/>Rad. Gentian. inciſ. <hi rend="roman">℥j.</hi>
+                    </item>
+                    <item><lb/>Raphani ruſtic. ℥ij.
+                    </item>
+                    <item><lb/>Coq. in aq. font. q. ſ. ad <hi rend="roman">lbvj.</hi> Colat. ℘ uſu
+                        <lb/>ad. flor. Cham. <hi rend="roman">Mj.</hi>
+                    </item>
+                </list>
+                <div>
+                    <head rend="italic align-center space"><lb/>The Scorbutick Decoction. </head>
+                    <p rend="indent space"><lb/>Take of Common and Roman <w part="I"
+                            >Worm-</w><lb/><w part="F">wood</w> each 1 Handful, Agrimony, Carduus,
+                        <lb/>and the Tops of Centaury the leſſer, of each <lb/>2 Handsful, of
+                        Gentian Root ſliced 1 Ounce, <lb/>Horſe-radiſh 2 Ounces; boil them in a <w
+                            part="I">ſuf-</w><lb/><w part="F">ficient</w> Quantity of Spring-water
+                        to 6 Pints, <lb/>and in the ſtrained Liquor infuſe 1 Handful <lb/>of
+                        Chamomel-flowers for uſe. </p>
+                    <p rend="indent space"><lb/>This is one of the Ingredients of the <hi
+                            rend="italic"><w part="I">De-</w><lb/><w part="F">coctum</w>
+                            Hydropicum</hi> above; and comes into <pb xml:id="page_30" n="31"
+                        /><lb/>uſe after the Load of Humours has been <lb/>forced off by Purges, and
+                        the more <w part="I">power-</w><lb/><w part="F">ful</w> Diureticks; becauſe
+                        it confirms the <lb/>Tone of the Fibres, and prevents a Relapſe. <lb/>It
+                        alſo gives ſuch Strength to the Stomach, <lb/>as to procure a good Appetite,
+                        and help <lb/>Digeſtion; whereby ſo many crude <w part="I">Hu-</w><lb/><w
+                            part="F">mours</w> are not ſupply'd to the Blood, as fill <lb/>the ſmall
+                        Glands, and produce the moſt <w part="I">re-</w><lb/><w part="F"
+                            >markable</w> Symptoms of the Scurvy. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Decoctum Dieteticum. </head>
+                <list rend="italic indentall hanging space">
+                    <item><lb/><hi rend="roman">℞</hi> Lig. Guajac. </item>
+                    <item><lb/>Scobis ejuſdem, ā <hi rend="roman">℔j.</hi>
+                    </item>
+                    <item><lb/>Rad. Liquorit. <hi rend="roman">℥xij.</hi>
+                    </item>
+                    <item><lb/>Sem. Coriandri, <hi rend="roman">℥ij.</hi>
+                    </item>
+                </list>
+                <p rend="italic hanging"><lb/>Coq. in aq. fontan. Cong. <hi rend="roman">vj.</hi> ad
+                    Cong. <hi rend="roman">iv.</hi>
+                    <lb/>colat. addendo Rad. Mezarei <hi rend="roman">℥j.</hi>
+                </p>
+                <div>
+                    <head rend="italic align-center space"><lb/>The Dietetick Decoction. </head>
+                    <p rend="indent space"><lb/>Take of Guajacum-wood, and Bark, each <lb/>1 Pound,
+                        Liquorice-root 12 Ounces, <w part="I">Cori-</w><lb/><w part="F"
+                            >ander-ſeed</w> bruiſed 2 Ounces; boil them in <lb/>6 Gallons of
+                        Spring-water to 4 Gallons; to <lb/>the ſtrained Liquor add Mezereon-Root
+                        <lb/>1 Ounce. </p>
+                    <p rend="indent space"><lb/>This is uſed as a common pectoral Drink, <lb/>and as
+                        an ordinary Sweetener in any Courſe <lb/>of Alteratives. </p>
+                </div>
+            </div>
+            <pb xml:id="page_31" n="32"/>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Decoctum Traumaticum. </head>
+                <list rend="italic indentall hanging space">
+                    <item><lb/><hi rend="roman">℞</hi> Fol. Heder. ter. </item>
+                    <item><lb/>Scabios. </item>
+                    <item><lb/>Tuſſilag. ā <hi rend="roman">Mij.</hi>
+                    </item>
+                    <item><lb/>Hyſſopi <hi rend="roman">Mj.</hi>
+                    </item>
+                    <item><lb/>Rad. Enulæ <hi rend="roman">℥j.</hi>
+                    </item>
+                    <item><lb/>Liquorit. <hi rend="roman">℥iv.</hi>
+                    </item>
+                    <item><lb/>Fol. Agrimoniæ <hi rend="roman">Mj.</hi>
+                    </item>
+                </list>
+                <p rend="italic hanging"><lb/>Coq. in aq. fontan. q. ſ. ad. colat. Cong. <hi
+                        rend="roman">j.</hi>
+                    <lb/>Doſis <hi rend="roman">℥iv.</hi>
+                    <hi rend="italic">ad libirum.</hi>
+                </p>
+                <div>
+                    <head rend="italic align-center space"><lb/>The Traumatick Decoction. </head>
+                    <p rend="indent space"><lb/>Take of Ground Ivy, Scabious, and Colts-<lb/>foot,
+                        each 2 Handsful, Hyſſop 1 Handful, <lb/>Elicampane-root 1 Ounce, Liquorice 4
+                            <w part="I">Oun-</w><lb/><w part="F">ces</w>, Agrimony 4 Handsful; boil
+                        them <w part="I">to-</w><lb/><w part="F">gether</w> in a ſufficient Quantity
+                        of common <lb/>Water to 1 Gallon. The Doſe is 4 Ounces <lb/>at Diſcretion. </p>
+                    <p rend="indent space"><lb/>This is more pectoral than the former, <lb/>and is
+                        directed in all Diſtempers and Decays <lb/>of the Lungs, or any of the <hi
+                            rend="italic">Viſcera</hi>, and <lb/>uſed as a common Drink. </p>
+                </div>
+            </div>
+            <pb xml:id="page_32" n="33"/>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Decoctum Senæ. <hi rend="roman">D.</hi>
+                    W. </head>
+                <list rend="italic indentall hanging space">
+                    <item><lb/><hi rend="roman">℞</hi> Senæ Alex. <hi rend="roman">℥ij.</hi>
+                    </item>
+                    <item><lb/>Rad. Glycyrrhizæ <hi rend="roman">℥j.</hi>
+                    </item>
+                    <item><lb/>Caſſia fract. <hi rend="roman">℥iij.</hi>
+                    </item>
+                    <item><lb/>Crem. Tar. <hi rend="roman">ʒj.</hi>
+                    </item>
+                </list>
+                <p rend="italic hanging"><lb/>Coq. in aq. fontan. q. ſ. ad <hi rend="roman"
+                        >℔ij.</hi> Doſis ℥iij. <lb/>vol <hi rend="roman">℥iv.</hi> cum Syr. de Spin.
+                    Cer. q. v. </p>
+                <div>
+                    <head rend="italic align-center space"><lb/>Dr. <hi rend="roman">W—</hi>'s
+                        Decoction of Sena. </head>
+                    <p rend="indent space"><lb/>Take of <hi rend="italic">Alexandrian</hi> Sena 2
+                        Ounces, <w part="I">Li-</w><lb/><w part="F">quorice-root</w> 1 Ounce, Caſſia
+                        broken 3 <w part="I">Oun-</w><lb/><w part="F">ces</w>, Cream of Tartar 1
+                        Dram; boil in a <lb/>ſufficient Quantity of Spring-water to 2 <lb/>Pints:
+                        The Doſe is 3 or 4 Ounces, with a <lb/>ſufficient Quantity of Syrup of
+                        Buckthorn. </p>
+                    <p rend="indent space"><lb/>This is the ordinary Purge for tender <w part="I"
+                            >Pa-</w><lb/><w part="F">tients</w>, becauſe it works very mildly, if
+                        <lb/>there be not too much of the Syrup of <w part="I">Buck-</w><lb/><w
+                            part="F">thorn</w> put to a Doſe. Two or three Drams <lb/>is generally
+                        the Quantity made uſe of. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Decoctum Amarum. <lb/>— — Pectorale. </head>
+                <head rend="italic align-center space"><lb/>The Bitter and <lb/>— Pectoral
+                    Decoction. </head>
+                <pb xml:id="page_33" n="34"/>
+                <div>
+                    <p rend="indent"><lb/>Both theſe are made as directed in the <lb/><hi
+                            rend="italic">London Diſpenſatory</hi>, and are uſed in the <lb/>ſame
+                        manner, as ordered in the common <lb/>Practice. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Electuarium Aſtringens. <hi rend="roman"
+                        >D.</hi> M. </head>
+                <list rend="italic indentall hanging space">
+                    <item><lb/><hi rend="roman">℞</hi> Conſ. Roſar. rub. <hi rend="roman">℔j.</hi>
+                    </item>
+                    <item><lb/>Terræ Japonicæ <hi rend="roman">℥iv.</hi>
+                    </item>
+                    <item><lb/>Alum. Plumoſ. </item>
+                    <item><lb/>Elixir. Vitrioli ā <hi rend="roman">℥j.</hi>
+                    </item>
+                    <item><lb/>Syr. Cydonior. q. ſ. f. Elect. </item>
+                </list>
+                <div>
+                    <head rend="italic align-center space"><lb/>Dr. <hi rend="roman">M—</hi>'s
+                        Aſtringent Electuary. </head>
+                    <p rend="indent space"><lb/>Take of Conſerve of red Roſes 1 Pound, <lb/><hi
+                            rend="italic">Japan</hi>-Earth 4 Ounces, Earth-flax 1 Ounce, <lb/>Elixir
+                        of Vitriol 1 Ounce, Syrup of <w part="I">Quin-</w><lb/><w part="F">ces</w> a
+                        ſufficient Quantity to make it into a <lb/>due Conſiſtence for an Electuary. </p>
+                    <p rend="indent space"><lb/>This is directed in the moſt obſtinate <lb/>Fluxes
+                        of the Belly; to be taken the <w part="I">Quan-</w><lb/><w part="F">tity</w>
+                        of a Nutmeg 2 or 3 times in a Day, or <lb/>oftener, if there be Occaſion.
+                    </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Electuarium Acidum. </head>
+                <list rend="italic indentall hanging space">
+                    <item><lb/><hi rend="roman">℞</hi> Conſ. Lujulæ <hi rend="roman">℥iv.</hi>
+                    </item>
+                    <item><lb/>Crem. Tartar. <hi rend="roman">ʒvj.</hi>
+                    </item>
+                    <item><lb/>Tart. Vitriol. <hi rend="roman">ʒij.</hi>
+                    </item>
+                </list>
+                <p rend="italic"><lb/>Syr. e Succo Lujulæ q. ſ. ut f. Electuarium. </p>
+                <pb xml:id="page_34" n="35"/>
+                <div>
+                    <head rend="italic align-center space"><lb/>The Acid Electuary. </head>
+                    <p rend="indent space"><lb/>Take Conſerve of Wood-ſorrel 4 Ounces, <lb/>Cream of
+                        Tartar 6 Drams, Vitriolated <w part="I">Tar-</w><lb/><w part="F">tar</w> 2
+                        Drams, Syrup of the Juice of Wood-<lb/>ſorrel a ſufficient Quantity to make
+                        into an <lb/>Electuary. </p>
+                    <p rend="indent space"><lb/>This is given in the Jaundice, and in all
+                        <lb/>Diſorders that are ſuſpected to ariſe from <lb/>too great a Mixture of
+                        Choler, and ſuch like <lb/>aduſt Humours. The Quantity of a <w part="I"
+                            >Nut-</w><lb/><w part="F">meg</w> to be taken 2 or 3 times in a Day. It
+                        is <lb/>alſo Diuretick, and frequently preſcribed in <lb/>Obſtructions of
+                        the Urinary Paſſages, <w part="I">whe-</w><lb/><w part="F">ther</w> they be
+                        from Gravel or ſloughy <w part="I">Hu-</w><lb/><w part="F">mours</w>. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Elect. Balſamicum. </head>
+                <list rend="italic indentall hanging space">
+                    <item><lb/><hi rend="roman">℞</hi> Balſ. Lucatelli <hi rend="roman">℔j.</hi>
+                    </item>
+                    <item><lb/>Sachar. rub. Cand. <hi rend="roman">℔ſs.</hi>
+                    </item>
+                    <item><lb/>Syr. Balſ. q. ſ. ut f. Elect. </item>
+                </list>
+                <div>
+                    <head rend="italic align-center space"><lb/>The Balſamick Electuary. </head>
+                    <p rend="indent space"><lb/>Take of <hi rend="italic">Lucatellus</hi>'s Balſam
+                            <unclear>a</unclear> Pound, red <lb/>Sugar-candy half a Pound, Syrup of
+                        Balſam <lb/>a ſufficient Quantity to make into an <w part="I"
+                            >Ele-</w><lb/><w part="F">ctuary</w>. </p>
+                    <pb xml:id="page_35" n="36"/>
+                    <p rend="indent"><lb/>This is given in Diſtempers of the Breaſt <lb/>and Lungs,
+                        and in all Suſpicions of inward <lb/>Ulcerations; as alſo upon any
+                        accidental <lb/>Bruiſes: the Quantity of a Nutmeg 2 or 3 <lb/>times in a
+                        Day, with a Draught of the <w part="I">Trau-</w><lb/><w part="F">matick</w>
+                        or Pectoral Decoction after each <lb/>Doſe. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Electuarium Chalybeatum. </head>
+                <list rend="italic indentall hanging space">
+                    <item><hi rend="roman">℞</hi> Conſerv. Abſynth. Rom. <hi rend="roman">℥ij.</hi>
+                    </item>
+                    <item><lb/>Zinzib. Cand. <hi rend="roman">℥ij.</hi>
+                    </item>
+                    <item><lb/>Scob. Chalybis <hi rend="roman">℔ſs.</hi>
+                    </item>
+                    <item><lb/>Syr. Chalyb. q. ſ. ut f. Elect. </item>
+                </list>
+                <div>
+                    <head rend="italic align-center space"><lb/>The Steel Electuary. </head>
+                    <p rend="indent space"><lb/>Take of Conſerve of Roman Wormwood <lb/>1 Pound, of
+                        candy'd Ginger 2 Ounces, <w part="I">Pow-</w><lb/><w part="F">der</w> of
+                        Steel half a Pound, Syrup of Steel <lb/>a ſufficient Quantity to make into
+                        an <w part="I">Ele-</w><lb/><w part="F">ctuary</w>. </p>
+                    <p rend="indent space"><lb/>This is directed in a <hi rend="italic"
+                            >Chloroſis</hi>, and all <lb/>menſtrual Obſtructions: Likewiſe in all <w
+                            part="I">De-</w><lb/><w part="F">cays</w> of Conſtitution that have been
+                            <w part="I">occaſi-</w><lb/><w part="F">oned</w> either by acute
+                        Diſtempers, or the <w part="I">Se-</w><lb/><w part="F">verity</w> of Cure
+                        from ſome Chronick Caſes. <lb/>For it greatly warms the Blood, and gives
+                        <lb/>new Life and Vigour to the Juices. Its <lb/>Quantity is about a Dram,
+                        or the bigneſs of <lb/>a Nutmeg, to be taken 2 or 3 times in a <pb
+                            xml:id="page_36" n="37"/><lb/>Day. Exerciſe, as walking about, is as
+                        <lb/>much ordered as is convenient with the <lb/>Condition and Circumſtances
+                        of a Patient, <lb/>in the uſe of it becauſe it greatly aſſiſts <lb/>its
+                        Operation. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Electuarium Scorbuticum. </head>
+                <list rend="italic indentall hanging space">
+                    <item><lb/><hi rend="roman">℞</hi> Conſ. Cochlear. hortenſ. </item>
+                    <item><lb/>Sambuci, ā <hi rend="roman">℥iv.</hi>
+                    </item>
+                    <item><lb/>Rad. Ariſice. </item>
+                    <item><lb/>Milleped. ℘℘. ā <hi rend="roman">℥j.</hi>
+                    </item>
+                    <item><lb/>Cort. Winteran. pulv. <hi rend="roman">ʒij.</hi>
+                    </item>
+                    <item><lb/>Syr. Sambuci q. ſ. ut f. Elect. </item>
+                </list>
+                <div>
+                    <head rend="italic align-center space"><lb/>A Scorbutick Electuary. </head>
+                    <p rend="indent space"><lb/>Take of the Conſerve of Garden Scurvy-<lb/>graſs,
+                        and of Elder, each 4 Ounces, Aron-<lb/>root in Powder, Millipedes prepared,
+                        each <lb/>1 Ounce, Powder of <hi rend="italic">Winter</hi>'s Bark 2 Drams,
+                        <lb/>Syrup of Elder a ſufficient Quantity to make <lb/>into the Conſiſtence
+                        of an Electuary. </p>
+                    <p rend="indent space"><lb/>The Quantity of a Nutmeg is order'd of <lb/>this 2
+                        or 3 times in a Day; and it is given <lb/>in all Caſes attended with a foul
+                        Blood, as <lb/>in the Itch, and ſuch like Diſtempers. </p>
+                </div>
+            </div>
+            <pb xml:id="page_37" n="38"/>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Electuarium Diaſinapios. </head>
+                <list rend="italic indentall hanging space">
+                    <item><lb/><hi rend="roman">℞</hi> Palv. ſem. Sinapios <hi rend="roman"
+                            >℥iv.</hi>
+                    </item>
+                    <lb/>
+                    <item>Sem. Neſturtiæ; </item>
+                    <lb/>
+                    <item>Erucæ, ā <hi rend="roman">℥ſs.</hi>
+                    </item>
+                    <item><lb/>Fol. Majoranæ; </item>
+                    <item><lb/>Menthæ, ā <hi rend="roman">℥jſs.</hi>
+                    </item>
+                    <item><lb/>Ol. N. M. <hi rend="roman">ʒjſs.</hi>
+                    </item>
+                    <item rend="hanging"><lb/>Syr. Pæoniæ ſimpl. q. ſ. ut f. Electuarium. <lb/>Doſis
+                            <hi rend="roman">ʒj.</hi> bis in die. </item>
+                </list>
+                <div>
+                    <head rend="italic align-center space"><lb/>The Muſtard Electuary. </head>
+                    <p rend="indent space"><lb/>Take of Muſtard-ſeed powder'd 4 Ounces, <lb/>of
+                        Water-creſſes, and Rochet, each half an <lb/>Ounce, Leaves of Marjoram, and
+                        Mint, each <lb/>1 Ounce and half, Oil of Nutmegs 1 Dram <lb/>and half, Syrup
+                        of Pionies ſimple a ſufficient <lb/>Quantity to make into an Electuary: The
+                        <lb/>Doſe 1 Dram twice in a Day. </p>
+                    <p rend="indent space"><lb/>This is given in all paralytick Caſes,
+                        <lb/>Numbneſs, and thoſe nervous Decays <lb/>which are common to Old Age,
+                        and ſuch <lb/>as have had any Shocks of an Apoplexy. It <lb/>greatly warms
+                        the Blood, and gives new <lb/>Spirits to the almoſt dryed Fibres. </p>
+                </div>
+            </div>
+            <pb xml:id="page_38" n="39"/>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Electuarium Febrifugum. </head>
+                <list rend="italic indentall hanging space">
+                    <item><lb/><hi rend="roman">℞</hi> Cortic. Peruvian. pulv. <hi rend="roman"
+                            >℔j.</hi>
+                    </item>
+                    <item><lb/>Rad. Serpent. Virg. <hi rend="roman">℥j.</hi>
+                    </item>
+                    <item><lb/>Syr. Garioph. q. ſ. ut f. Elect. </item>
+                </list>
+                <div>
+                    <head rend="italic align-center space"><lb/>The Febrifuge Electuary. </head>
+                    <p rend="indent space"><lb/>Take of the <hi rend="italic">Peruvian</hi> Bark
+                        finely powder'd <lb/>1 Pound, Snake-root 1 Ounce, Syrup of <lb/>Cloves a
+                        ſufficient Quantity to make into an <lb/>Electuary. </p>
+                    <p rend="indent space"><lb/>This is given in the Intervals of an <w part="I"
+                            >inter-</w><lb/><w part="F">mitting</w> Fever, and in all Agues, which
+                        it <lb/>infallibly cures; but they will frequently <lb/>return, unleſs this
+                        be repeated for 2 or 3 <lb/>Days, about 10 Days after the firſt Cure.
+                        <lb/>But great Care is neceſſary, that it be not <lb/>given till the Fit is
+                        clear off, otherwiſe it <lb/>will grievouſly aggravate the Diſtemper. It
+                        <lb/>is to be given ſeldomer or oftner, according <lb/>to the Length of the
+                        Intervals; ſo that 4 or <lb/>5 Doſes may be taken in that Space, in the
+                        <lb/>Quantity of a Cheſtnut each Doſe. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Electuarium Hæmorrhoidale Laxativum. </head>
+                <list rend="italic indentall hanging space">
+                    <item><lb/><hi rend="roman">℞</hi> Elect. Lenitiv. <hi rend="roman">℥jſs.</hi>
+                    </item>
+                    <item><lb/>Flor. Sulphur. <hi rend="roman">℥iij.</hi>
+                    </item>
+                    <item><lb/>Syr. Violar. q. ſ. ut f. Elect. </item>
+                </list>
+                <pb xml:id="page_39" n="40"/>
+                <div>
+                    <head rend="italic align-center space"><lb/>A Laxative Electuary for the Piles. </head>
+                    <p rend="indent space"><lb/>Take of Lenitive Electuary 1 Ounce and <lb/>half,
+                        Flowers of Brimſtone 3 Drams, Syrup <lb/>of Violets a ſufficient Quantity to
+                        make into <lb/>an Electuary. </p>
+                    <p rend="indent space"><lb/>The Quantity of a Nutmeg is to be taken <lb/>of this
+                        every Morning and Night, and it <lb/>will keep the Belly moderately lax, and
+                        <lb/>greatly eaſe the Piles. All the Sulphur <w part="I">Me-</w><lb/><w
+                            part="F">dicines</w> are of Service in this Complaint; <lb/>whether by
+                        altering the Quality of the <lb/>Blood, or by influencing the Secretion, ſo
+                        as <lb/>to remit its Quantity, is of too great a length <lb/>here to be
+                        enquired into. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Electuarium Carminativum. </head>
+                <list rend="italic indentall hanging space">
+                    <item><lb/><hi rend="roman">℞</hi> Pulv. Sem. Angel. </item>
+                    <item><lb/>— — Carui; </item>
+                    <item><lb/>— — Petroſel. ā <hi rend="roman">ʒij.</hi>
+                    </item>
+                    <item><lb/>Syr. Caryoph. q. ſ. ut f. Elect. </item>
+                </list>
+                <div>
+                    <head rend="italic align-center space"><lb/>A Carminitive Electuary. </head>
+                    <p rend="indent space"><lb/>Take of the Powder of Angelico-ſeeds,
+                        <lb/>Caruway-ſeeds, and Parſley-ſeeds, each 2 <lb/>Drams, Syrup of Cloves a
+                        ſufficient <w part="I">Quan-</w><lb/><w part="F">tity</w> to make into an
+                        Electuary. </p>
+                    <pb xml:id="page_40" n="41"/>
+                    <p rend="indent space"><lb/>This is directed to be taken at Diſcretion,
+                        <lb/>about the Quantity of a Nutmeg, for ſuch <lb/>who are much liable to
+                        Wind in the Bowels <lb/>or Stomach. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Electuarium Nephriticum. </head>
+                <list rend="italic indentall hanging space">
+                    <item><lb/><hi rend="roman">℞</hi> Elect. Lenitiv. <hi rend="roman">℔j.</hi>
+                    </item>
+                    <item><lb/>Terebinth. Ven. <hi rend="roman">℥iv.</hi>
+                    </item>
+                    <item><lb/>Crem. Tartari <hi rend="roman">℥j.</hi>
+                    </item>
+                </list>
+                <p rend="indent italic"><lb/>Miſce f. Elect. Doſis <hi rend="roman">ʒj.</hi> bis de
+                    die. </p>
+                <div>
+                    <head rend="italic align-center space"><lb/>A Nephritick Electuary. </head>
+                    <p rend="indent space"><lb/>Take of Electuary Lenitive 1 Pound, <hi
+                            rend="italic"><w part="I">Ve-</w><lb/><w part="F"
+                        >nice</w></hi>-Turpentine 4 Ounces, Cream of <w part="I">Tar-</w><lb/><w
+                            part="F">tar</w> 1 Ounce; mix them into an Electuary. <lb/>The Doſe 1
+                        Dram twice in a Day. </p>
+                    <p rend="indent space"><lb/>This gently opens by Stool; but is very <lb/>forcing
+                        by Urine, and is therefore directed <lb/>in all Obſtructions and Foulneſſes
+                        of the <w part="I">Kid-</w><lb/><w part="F">neys</w> and Ureters; and even
+                        in <hi rend="italic"><w part="I">Gonor-</w><lb/><w part="F">rhœa's</w></hi>
+                        it is an excellent Remedy, and <w part="I">prin-</w><lb/><w part="F"
+                            >cipally</w> uſed in the Hoſpitals for ſuch <w part="I">Pur-</w><lb/><w
+                            part="F">poſes</w>. </p>
+                </div>
+            </div>
+            <pb xml:id="page_41" n="42"/>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Electuarium Terebinthinatum. </head>
+                <list rend="italic indentall hanging space">
+                    <item><lb/><hi rend="roman">℞</hi> Pulv. Rad. Jallap. <hi rend="roman">℥iv.</hi>
+                    </item>
+                    <item><lb/>Scammonii; </item>
+                    <item><lb/>Liquorit. <hi rend="roman">ā ℥ij.</hi>
+                    </item>
+                    <item><lb/>Rez. Jallap. <hi rend="roman">℥ſs.</hi>
+                    </item>
+                    <item><lb/>Sal. Tartar. </item>
+                    <item><lb/>Ol. Aniſi, <hi rend="roman">ā ʒij.</hi>
+                    </item>
+                    <item rend="hanging"><lb/>Terebinth. Venet. q. ſ. ut f. Elect. Doſis <lb/><hi
+                            rend="roman">ʒj.</hi> omni mane. </item>
+                </list>
+                <div>
+                    <head rend="italic align-center space"><lb/>The Turpentine Electuary. </head>
+                    <p rend="indent space"><lb/>Take Powder of the Root of Jallap 4 <w part="I"
+                            >Oun-</w><lb/><w part="F">ces</w>, Scammony, and Liquorice, each 2 <w
+                            part="I">Oun-</w><lb/><w part="F">ces</w>, Rezin of Jallap half an
+                        Ounce, Salt of <lb/>Tartar 2 Drams, <hi rend="italic">Venice</hi>-Turpentine
+                        a <w part="I">ſuffi-</w><lb/><w part="F">cient</w> Quantity to make into an
+                        Electuary; <lb/>The Doſe 1 Dram every Morning. </p>
+                    <p rend="indent space"><lb/>This will purge pretty briskly, and is alſo
+                        <lb/>frequently directed in a <hi rend="italic">Gonorrhœa</hi>, to be
+                        <lb/>taken till the Matter becomes well-colour'd; <lb/>when it is left off
+                        for Things more <w part="I">ſtrength-</w><lb/><w part="F">ning</w>. But it
+                        is however good in all Caſes <lb/>whatſoever, as an ordinary Purge. </p>
+                </div>
+            </div>
+            <pb xml:id="page_42" n="43"/>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Enema Anticolicum. </head>
+                <list rend="italic indentall hanging space">
+                    <item><lb/><hi rend="roman">℞</hi> Decoct. Carminativ. <hi rend="roman">℥x.</hi>
+                    </item>
+                    <item><lb/>Mel. Mercurialis <hi rend="roman">℥iij.</hi>
+                    </item>
+                    <item><lb/>Specier. Hieræ <hi rend="roman">ʒij.</hi>
+                    </item>
+                    <item><lb/>Sal. Mar. <hi rend="roman">Cochl.</hi>
+                        <hi rend="roman">j.</hi>
+                    </item>
+                </list>
+                <p rend="indent italic"><lb/>Miſce. </p>
+                <div>
+                    <head rend="italic align-center space"><lb/>A Cholick Clyſter. </head>
+                    <p rend="indent space"><lb/>Take of the Carminative Decoction 10 <lb/>Ounces,
+                        Honey of Mercury 3 Ounces, Hiera <lb/>Picra 2 Drams, Sea Salt 1 Spoonful;
+                        mix <lb/>together for a Clyſter. </p>
+                    <p rend="indent space"><lb/>The Title of this ſufficiently ſhews its <lb/>Uſe
+                        and Virtues. As alſo of </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Enema Commune. </head>
+                <list rend="italic indentall hanging space">
+                    <item><lb/><hi rend="roman">℞</hi> Decoct. Carminat. <hi rend="roman">℥x.</hi>
+                    </item>
+                    <item><lb/>Mel. Mercurialis <hi rend="roman">℥ij.</hi>
+                    </item>
+                    <item><lb/>Elect. Lenitiv. <hi rend="roman">℥j.</hi>
+                    </item>
+                </list>
+                <p rend="italic indent"><lb/>Miſce. </p>
+                <div>
+                    <head rend="italic align-center space"><lb/>The Common Clyſter. </head>
+                    <p rend="indent space"><lb/>Take of the Carminative Decoction 10 <lb/>Ounces,
+                        Honey of Mercury 2 Ounces, <w part="I">Leni-</w><lb/><w part="F">tive</w>
+                        Electuary 1 Ounce; mix together for a <lb/>Clyſter. </p>
+                </div>
+            </div>
+            <pb xml:id="page_43" n="44"/>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Enema Dyſentericum. </head>
+                <list rend="italic indentall hanging space">
+                    <lb/>
+                    <item>℞ Decoct. albi ℥vj. </item>
+                    <lb/>
+                    <item>Diaſcord. ℥ſs. </item>
+                    <lb/>
+                    <item>Bol. Armen. </item>
+                    <lb/>
+                    <item>Theriac. Androm. ā <hi rend="roman">ʒij.</hi>
+                    </item>
+                </list>
+                <p rend="italic"><lb/>Miſce. </p>
+                <div>
+                    <head rend="italic align-center space"><lb/>A Clyſter for the Bloody-Flux. </head>
+                    <p rend="indent space"><lb/>Take of the White Decoction 6 Ounces,
+                        <lb/>Diaſcordium half an Ounce, <w part="I">Bole-Armoni-</w><lb/><w part="F"
+                            >ack</w>, <hi rend="italic">Venice</hi>-Treacle, each 2 Drams; mix
+                        <lb/>together for a Clyſter. </p>
+                    <p rend="indent space"><lb/>This muſt be well mixed, and carefully
+                        <lb/>adminiſtred, elſe it will not paſs the Pipe: <lb/>And in Fluxes all
+                        Clyſters ought to be in as <lb/>little Quantity as they can be conveniently
+                        <lb/>given, becauſe they will ſtay the eaſier, <lb/>and conſequently have
+                        the greater Effect. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Enema Hæmorrhoidale. </head>
+                <list rend="italic indentall hanging space">
+                    <lb/>
+                    <item>℞ Gallor. contus. ℥iij. </item>
+                    <lb/>
+                    <item><hi rend="italic">Coq. in aq. fontan. q. ſ. ad</hi> ʒvj. <hi rend="italic"
+                            >Colat. f. <lb/>Enema pro uſu.</hi>
+                    </item>
+                </list>
+                <div>
+                    <pb xml:id="page_44" n="45"/>
+                    <head rend="italic align-center space"><lb/>A Clyſter for the Piles. </head>
+                    <p rend="indent space"><lb/>Take Galls bruiſed 3 Ounces, boil them <lb/>in a
+                        ſufficient Quantity of Spring-water to 6 <lb/>Ounces, and ſtrain out the
+                        Liquor for a <lb/>Clyſter. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Enema Lenitivum. <hi rend="italic"
+                        >D.</hi> W. </head>
+                <list rend="italic indentall hanging space">
+                    <item>℞ Decoct. Carminat.<hi rend="roman"> ℥xij.</hi>
+                    </item>
+                    <lb/>
+                    <item>Mel. Anglic. <hi rend="roman">℥ij</hi>. </item>
+                    <lb/>
+                    <item>Sachar. rub. <hi rend="roman">℥j.</hi>
+                    </item>
+                </list>
+                <p rend="italic"><lb/>Miſc. </p>
+                <div>
+                    <head rend="italic align-center space"><lb/>Dr. <hi rend="italic">W</hi>—'s
+                        Lenitive Clyſter. </head>
+                    <p rend="indent space"><lb/>Take of the Carminative Decoction 12 <lb/>Ounces,
+                        common Honey 2 Ounces, brown <lb/>Sugar 1 Ounce; mix together for a Clyſter.
+                    </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Enema Terebinth. </head>
+                <list rend="italic indentall hanging space">
+                    <item>℞ Decoct. Carminat. <hi rend="roman">℥x</hi>. </item>
+                    <lb/>
+                    <item>Terebinth. Venet. (in vitello ovi ſolut.)<hi rend="roman"> ℥ſs</hi>. </item>
+                    <lb/>
+                    <item>Elect. Lenit. </item>
+                    <lb/>
+                    <item>Mel. commun. ā <hi rend="roman">℥j</hi>. </item>
+                </list>
+                <p rend="italic"><lb/>Miſce. </p>
+                <div>
+                    <head rend="italic align-center space"><lb/>The Turpentine Clyſter. </head>
+                    <p rend="indent space"><lb/>Take of the Carminative Decoction, 10 <lb/>Ounces,
+                            <hi rend="italic">Venice</hi>-Turpentine (diſſolved in <pb
+                            xml:id="page_45" n="46"/>
+                        <lb/>the Yolk of an Egg) half an Ounce, <w part="I">Electu-</w><lb/><w
+                            part="F">ary-Lenitive</w>, and common Honey, each <lb/>1 Ounce; mix them
+                        together very carefully <lb/>for a Clyſter. </p>
+                    <p rend="indent space"><lb/>This is generally order'd in ſuch Cholick <lb/>Pains
+                        as proceed from the Stone or Gravel. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Emplaſtrum Diſcutiens ſimpl. <hi
+                        rend="italic">D.</hi> W. </head>
+                <list rend="italic indentall hanging space">
+                    <lb/>
+                    <item>℞ Ol. Olivar. </item>
+                    <lb/>
+                    <item>Trebinth. Venet. ā <hi rend="roman">℔iv</hi>. </item>
+                    <lb/>
+                    <item>Picis Burgund. </item>
+                    <lb/>
+                    <item><hi rend="italic">Ceraæ flavæ, ā</hi>
+                        <hi rend="roman">℔ij. </hi></item>
+                    <lb/>
+                    <item>Miſce &amp; coq. ad debitam conſiſtentiam ut <lb/>Emplaſt. </item>
+                </list>
+                <div>
+                    <head rend="italic align-center space"><lb/>Dr. <hi rend="italic">W</hi>—'s
+                        Diſcutient Plaſter. </head>
+                    <p rend="indent space"><lb/>Take of Oyl of Olives, and <hi rend="italic"
+                            >Venice</hi>. Tur-<lb/>pentine, each 4 Pound, <hi rend="italic"
+                            >Burgundy</hi>-Pitch, and <lb/>Yellow Wax, each 2 Pound; boil them <w
+                            part="I">to-</w><lb/><w part="F">gether</w> to a due Conſiſtence for a
+                        Plaſter. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Emplaſtrum Laterale. </head>
+                <list rend="italic indentall hanging space">
+                    <item>℞ Empl. ex Galbano croc. voc. Mynſicht. <hi rend="roman">ʒvj</hi>. </item>
+                    <lb/>
+                    <item>Diachyl. cum Gummi <hi rend="roman">ʒij</hi>. </item>
+                    <lb/>
+                    <item>E Cymino <hi rend="roman">ʒiij</hi>. </item>
+                    <lb/>
+                    <item>Miſce &amp; colliq. addendo Ol. Pulegii, <lb/><hi rend="roman">gut.
+                            x.</hi> Ol. Lavend. <hi rend="roman">gut. vj. </hi></item>
+                </list>
+                <div>
+                    <pb xml:id="page_46" n="47"/>
+                    <head rend="italic align-center space"><lb/>A Plaſter for the Side. </head>
+                    <p rend="indent space"><lb/>Take of <hi rend="italic">Mynſicht</hi>'s Galbanum
+                        with Saffron <lb/>6 Drams, Diachylon with the Gum 2 Drams,
+                        <lb/>Cummin-Plaſter 3 Drams; melt them <w part="I">toge-</w><lb/><w part="F"
+                            >ther</w>, and add 10 Drops of Oyl of Penniroyal, <lb/>and 6 Drops of
+                        Oyl of Lavender. </p>
+                    <p rend="indent space"><lb/>This is applyed in any Pains and Stitches, <lb/>and
+                        is found of good Service; and alſo to <lb/>Children, that have inward
+                        Convulſions. </p>
+                </div>
+            </div>
+            <div type="section">
+                <list rend="italic indentall hanging space">
+                    <head rend="italic align-center space"><lb/>Emplaſt. Mercuriale. <hi
+                            rend="roman">D.</hi> W. </head>
+                    <lb/>
+                    <item>℞ Empl. Diſcutient. ſimpl. <hi rend="roman">℔iv. </hi></item>
+                    <lb/>
+                    <item>Liquat. adde Hydrar. Tereb. Venet. q. ſ. <lb/>bene commixt. <hi
+                            rend="roman">℥xij</hi>. <lb/>Miſce ut f. Empl. </item>
+                </list>
+                <div>
+                    <head rend="italic align-center space"><lb/>Dr. <hi rend="roman">W</hi>—'s
+                        Mercurial Plaſter. </head>
+                    <p rend="indent space"><lb/>Take of the above ſimple Diſcutient <w part="I"
+                            >Pla-</w><lb/><w part="F">ſter</w> 4 Pounds, melt it, and add thereunto
+                        <lb/>12 Ounces of Quickſilver, that has been well <lb/>incorporated, with a
+                        ſufficient Quantity of <lb/>Turpentine. </p>
+                    <p rend="indent space"><lb/>Thoſe are both good to diſcuſs hard <w part="I"
+                            >Tu-</w><lb/><w part="F">mours</w>; but the latter with Quickſilver is
+                        <lb/>much the moſt efficacious in thoſe which <lb/>are obſtinate, and
+                        frequently ariſe from <w part="I">ve-</w><lb/><w part="F">nereal</w> and
+                        ſcrophulous Cauſes. Great Care <pb xml:id="page_47" n="48"/>
+                        <lb/>in making is to be uſed, to incorporate the <lb/>Quickſilver well with
+                        Turpentine, elſe it <lb/>will not be ſo mixed, but that in ſpreading
+                        <lb/>the Plaſter for uſe, it will ſeparate and run <lb/>into Globules. If
+                        this be carefully made, it <lb/>is preferable to the Frog-Plaſter with <w
+                            part="I">Quick-</w><lb/><w part="F">ſilver</w> in the <hi rend="italic"
+                            >London Diſpenſatory,</hi> altho' that <lb/>is vaſtly more troubleſome
+                        to make, being <lb/>ſtuffed with many Ingredients, that are of no <lb/>real
+                        Service, but only to perplex the <w part="I">Com-</w><lb/><w part="F"
+                            >pounder</w>, and amuſe the Expectations of the <lb/>Ignorant. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Emplaſtrum Epiſpaſticum. <hi
+                        rend="roman">D.</hi> W. </head>
+                <p rend="italic"><lb/>℞ Empl. Diſcutien. ſimpl. vel Adhæſiv. <w part="I"
+                        >Ba-</w><lb/><w part="F">tean</w>. q. ſ. extende craſſius ſuper alutam,
+                    <lb/>ſuperficiem obtegendo pulvere ſubtiliſſimo <lb/>Cantharidum q. ſ. </p>
+                <div>
+                    <head rend="italic align-center space"><lb/>Dr. <hi rend="roman">W</hi>—'s
+                        Bliſter-Plaſter. </head>
+                    <p rend="indent space"><lb/>Take of the ſimple diſcutient Plaſter
+                        <lb/>above-mentioned, or of the ſticking Plaſter <lb/>in <hi rend="italic"
+                            >Bate</hi>'s, a ſufficient Quantity to ſpread <lb/>thick upon Leather,
+                        over which ſprinkle of <lb/>the fine Powder of Cantharides as much as
+                        <lb/>will ſtick. </p>
+                    <p rend="indent space"><lb/>This is an eaſy way, and now much uſed <lb/>in the
+                        common Practice, as well as in the <lb/>Hoſpitals. And it is much more
+                        certain, <pb xml:id="page_48" n="49"/><lb/>than the common Plaſters into
+                        which the <lb/>Flies are mixed, for it cannot fail of its <w part="I"
+                            >In-</w><lb/><w part="F">tention</w>; but ſome are apprehenſive that by
+                        <lb/>this means the Flies get more into the Blood, <lb/>and are more liable
+                        to create Stranguries, <lb/>and ſuch Inconveniencies as make their <w
+                            part="I">in-</w><lb/><w part="F">ward</w> Uſe ſo dangerous. But whether
+                        there <lb/>be any thing in this or not, there is not <lb/>Room here to
+                        conſider. However, thoſe <lb/>who chuſe this way are obliged to leave the
+                        <lb/>Edges of the Plaſter uncovered with the Flies, <lb/>or to ſtick Strops
+                        on it croſſ-ways, ſpread <lb/>with ſomewhat ſticking, elſe it will not keep
+                        <lb/>upon the Part to which it is applyed. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Emplaſt. Lumbare. <hi rend="roman"
+                        >D.</hi> W. </head>
+                <p rend="indent space"><lb/><hi rend="italic">℞ Empl. Diachylon. ſimpl. vel de
+                        Minio</hi> ℔ſs. </p>
+                <p rend="indent hanging"><lb/><hi rend="italic">Liquat. adde <lb/>Thuris opt.</hi>
+                    ℥ij. <lb/><hi rend="italic">Bol. Armen.</hi> ℥iij. </p>
+                <p rend="italic"><lb/>Miſce. </p>
+                <div>
+                    <head rend="italic align-center space"><lb/>Dr. <hi rend="roman">W</hi>—'s
+                        Plaſter for the Back. </head>
+                    <p rend="indent space"><lb/>Take Diachylon ſimple, or de Minio, <lb/>half a
+                        Pound; to which, when melted, add <lb/>of the beſt Frankinſence 2 Ounces,
+                        and of <lb/>Bole-Armoniack 3 Ounces. </p>
+                    <p rend="indent space"><lb/>This is ſpread upon Leather pretty thick, <lb/>and
+                        apply'd to the Small of the Back, to be <pb xml:id="page_49" n="50"
+                        /><lb/>continued as long as it will ſtick, for many <lb/>Weakneſſes of the
+                        Kidneys; in which caſe <lb/>it frequently does good Service: But it is
+                        <lb/>more particularly uſeful in that Diſorder <lb/>which, amongſt the
+                        Females, is called the <lb/><hi rend="italic">Whites.</hi> But to ſome it
+                        occaſions ſuch <w part="I">into-</w><lb/><w part="F">lerable</w> Itching, as
+                        to make it difficult to <lb/>keep it on. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Gargariſma Apoplecticum. <hi
+                        rend="roman">D.</hi> W. </head>
+                <list rend="italic indentall hanging space">
+                    <lb/>
+                    <item>℞ Rad. Pyrethri; </item>
+                    <lb/>
+                    <item>ZZ. incis. ā <hi rend="roman">℥ſs. </hi></item>
+                    <lb/>
+                    <item>Piper. alb. contus. <hi rend="roman">ʒij</hi>. </item>
+                    <lb/>
+                    <item>Coq. in aq. fontan. q. ſ. ad <hi rend="roman">℔ſs</hi>. coctione <w
+                            part="I">fini-</w><lb/><w part="F">tâ</w>, calid. affunde </item>
+                    <lb/>
+                    <item>Sem. Sinapios <hi rend="roman">ʒiij.</hi>
+                    </item>
+                    <lb/>
+                    <item>Colat. adde Aceti acerimi <hi rend="roman">℥iij</hi>. </item>
+                </list>
+                <p rend="italic indent hanging"><lb/>Miſ. f. Gargariſma, quo colueret fauces <w
+                        part="I">ſipho-</w><lb/><w part="F">nis</w> auxilio. </p>
+                <div>
+                    <head rend="italic align-center space"><lb/>Dr. <hi rend="roman">W</hi>—'s
+                        Apolectick Gargle. </head>
+                    <p rend="indent space"><lb/>Take Pellitory Root, and Ginger ſliced, <lb/>each
+                        half an Ounce, white Pepper 2 Drams, <lb/>boil in a ſufficient Quantity of
+                        Water to <lb/>half a Pint, which pour out upon 3 Drams <lb/>of bruiſed
+                        Muſtard-ſeed: when it is ſtrained, <lb/>put to it 3 Ounces of ſharp Vinegar
+                        for a <lb/>Gargle to ſyringe the Mouth with. </p>
+                </div>
+            </div>
+            <div type="section">
+                <list rend="italic indentall hanging space">
+                    <pb xml:id="page_50" n="51"/>
+                    <head rend="italic align-center space"><lb/>Gargariſma Commune. <hi rend="roman"
+                            >D.</hi> W. </head>
+                    <lb/>
+                    <item>℞ Aq. Hord. <hi rend="roman">℔j. </hi></item>
+                    <lb/>
+                    <item>Alum. uſt. <hi rend="roman">ʒij. </hi></item>
+                    <lb/>
+                    <item>Mel. Angl. <hi rend="roman">℥iij.</hi>
+                    </item>
+                </list>
+                <p rend="italic"><lb/>Miſce. </p>
+                <div>
+                    <head rend="italic align-center space"><lb/>Dr. <hi rend="roman">W</hi>—'s
+                        Common Gargle. </head>
+                    <p rend="indent space"><lb/>Take Barley-water 1 Pint, Burnt-Alum 2 <lb/>Drams,
+                        Honey 3 Ounces; mix them <w part="I">toge-</w><lb/><w part="F">ther</w> for
+                        uſe. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Gargariſma Emolliens. </head>
+                <list rend="italic indentall hanging space">
+                    <lb/>
+                    <item>℞ Decoct. Pectorale <hi rend="roman">℔j.</hi>
+                    </item>
+                    <lb/>
+                    <item>Sp. Sal. Armoniac. <hi rend="roman">ʒij. </hi></item>
+                </list>
+                <p rend="italic"><lb/>Miſce. </p>
+                <div>
+                    <head rend="italic align-center space"><lb/>The Emollient Gargle. </head>
+                    <p rend="indent space"><lb/>Take Pectoral Decoction a Pint, Spirit of <lb/>Sal
+                        Armoniac 2 Drams; mix them <w part="I">toge-</w><lb/><w part="F">ther</w>. </p>
+                    <p rend="indent "><lb/>There needs no Directions concerning the <lb/>Uſe of
+                        theſe. </p>
+                </div>
+            </div>
+            <div type="section">
+                <pb xml:id="page_51" n="52"/>
+                <head rend="italic align-center space"><lb/>Hauſtus Purgans Communis. </head>
+                <list rend="italic indentall hanging space">
+                    <lb/>
+                    <item>℞ Decoct. Senæ <hi rend="roman">℥iv. </hi></item>
+                    <lb/>
+                    <item>Aq. Epidem. <hi rend="roman">ʒij</hi>. </item>
+                    <lb/>
+                    <item>Syr. e Spin. Cerv. <hi rend="roman">℥j. </hi></item>
+                </list>
+                <p rend="italic"><lb/>Miſce. </p>
+                <div>
+                    <head rend="italic align-center space"><lb/>The Common Purging Draught. </head>
+                    <p rend="indent space"><lb/>Take the Decoction of Sena 4 Ounces,
+                        <lb/>Plague-water 2 Drams, Syrup of Buckthorn <lb/>1 Ounce; mix into a
+                        Draught. </p>
+                    <p rend="indent space"><lb/>This is a moderate Purge, and commonly <lb/>directed
+                        in ordinary Caſes, where Purging <lb/>is required. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Hauſtus Stomachic. <hi rend="roman"
+                        >D.</hi> M. </head>
+                <list rend="italic indentall hanging space">
+                    <lb/>
+                    <item>℞ Aq. Cinnam. Hord. <hi rend="roman">℥j.</hi>
+                    </item>
+                    <lb/>
+                    <item>Succ. Limon. <hi rend="roman">℥ſs.</hi>
+                    </item>
+                    <lb/>
+                    <item>Sal. Abſynth. <hi rend="roman">℈j. </hi></item>
+                </list>
+                <p rend="italic"><lb/>Miſce f. Hauſtus. </p>
+                <div>
+                    <head rend="italic align-center space"><lb/>Dr. <hi rend="roman">M</hi>—'s
+                        Stomachick Draught. </head>
+                    <p rend="indent space"><lb/>Take Barley Cinnamon-water 1 Ounce, <lb/>Juice of
+                        Limons half an Ounce, Salt of <lb/>Wormwood 1 Scruple; mix for a Draught.
+                            <pb xml:id="page_52" n="53"/></p>
+                    <p rend="indent"><lb/>This is given in Vomitings, and is to be <lb/>repeated
+                        after each Vomiting, until it ſtops; <lb/>but it is ſo effectual to this
+                        purpoſe, as <w part="I">ſel-</w><lb/><w part="F">dom</w> to require many
+                        Repetitions, before it <lb/>takes place. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Hauſtus Epilepticus. <hi rend="italic"
+                        >D.</hi> M. </head>
+                <list rend="italic indentall hanging space">
+                    <lb/>
+                    <item>℞ Rad. Valerian. Sylveſter Pul. <hi rend="roman">ʒjſs. </hi></item>
+                    <lb/>
+                    <item>Aq. Pulegii; </item>
+                    <lb/>
+                    <item>— Ceraſor. Nigr. ā <hi rend="roman">℥jſs. </hi></item>
+                    <lb/>
+                    <item>Syr. è Peoniæ Comp. <hi rend="roman">ʒij.</hi>
+                    </item>
+                </list>
+                <p rend="italic"><lb/>Miſce f. Hauſtus. </p>
+                <div>
+                    <head rend="italic align-center space"><lb/>Dr. <hi rend="roman">M</hi>—'s
+                        Epileptick Draught. </head>
+                    <p rend="indent space"><lb/>Take Powder of wild Valerian Root one <lb/>Dram and
+                        half, Peniroyal Water, and black <lb/>Cherry Water, each 1 Ounce and half,
+                            <w part="I">Sy-</w><lb/><w part="F">rup</w> of Pionies 2 Drams; mix into
+                        a Draught. </p>
+                    <p rend="indent space"><lb/>This is an extraordinary Medicine for the
+                        <lb/>purpoſe it is preſcribed, tho' it is not much <lb/>known in common
+                        Practice. The Valerian <lb/>is alſo very efficacious in all Diſtempers from
+                        <lb/>a Nervous Origin. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Hauſtus Emeticus Communis. </head>
+                <p rend="indent space"><lb/><hi rend="italic">℞ Infuſionis Croc. Metallor.</hi> ℥j. </p>
+                <div>
+                    <pb xml:id="page_53" n="54"/>
+                    <head rend="italic align-center space"><lb/>The Common Vomit is, </head>
+                    <p rend="indent space"><lb/>An Ounce of the Infuſion of <hi rend="italic">Crocus
+                                <w part="I">Me-</w><lb/><w part="F">tallorum</w>.</hi>
+                    </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Hauſtus Emeticus. <hi rend="roman"
+                        >D.</hi> H. </head>
+                <list rend="italic indentall hanging space">
+                    <lb/>
+                    <item>℞ Suce. Herb. Aſari <hi rend="roman">ʒvj. </hi>vel <hi rend="roman">℥j.
+                        </hi></item>
+                    <lb/>
+                    <item>Oxymel. Scillit. <hi rend="roman">℥ſs. </hi></item>
+                    <lb/>
+                    <item>Aq. Cardui Ben. <hi rend="roman">℥ij. </hi></item>
+                </list>
+                <p rend="italic"><lb/>Miſce f. Hauſtus. </p>
+                <div>
+                    <head rend="italic align-center space"><lb/>Dr. <hi rend="roman">H—le</hi>'s
+                        Emetick Draught. </head>
+                    <p rend="indent space"><lb/>Take of the Juice of Aſarabacca 6 Drams, <lb/>or an
+                        Ounce, Oxymel of Squills half an <lb/>Ounce, Carduus-water 2 Ounces; mix <w
+                            part="I">in-</w><lb/><w part="F">to</w> a Draught. </p>
+                    <p rend="indent space"><lb/>This is a very ſtrong Emetick, and is <lb/>much uſed
+                        at <hi rend="italic">Bedlam,</hi> amongſt the Maniacks, <lb/>for it will
+                        operate, when neither the <hi rend="italic">Crocus,</hi>
+                        <lb/>nor any of the common Mercurial Emeticks, <lb/>will move them. And it
+                        has been confirmed <lb/>by all Experience, that ſuch Patients are <lb/>much
+                        more difficult to be wrought upon, <lb/>than any others, either by
+                        Catharticks or <lb/>Emeticks; inſomuch that they will bear <lb/>enough at a
+                        Doſe for 6 or 10 ordinary <w part="I">Per-</w><lb/><w part="F">ſons</w>:
+                        their Fibres, and all the Parts of the <lb/>Brain, moſt particularly
+                        adminiſtring to <w part="I">Sen-</w><pb xml:id="page_54" n="55"/><lb/><w
+                            part="F">ſation</w>, being extremely clogged with viſcid <lb/>Humours,
+                        which this Medicine is very <w part="I">pow-</w><lb/><w part="F">erful</w>
+                        in draining off; and upon the ſame <lb/>Account likewiſe it is of ſuch good
+                        Service <lb/>as a Sternutatory; for it greatly drains the <lb/>Head by the
+                        powerful Twitches and <w part="I">Velli-</w><lb/><w part="F">cations</w> it
+                        gives to the Fibres of the Noſe, <lb/>and Parts adjacent. </p>
+                </div>
+            </div>
+            <div type="section">
+                <list rend="italic indentall hanging space">
+                    <head rend="italic align-center space"><lb/>Hauſtus Dyſentericus. <hi
+                            rend="roman">D.</hi> W. </head>
+                    <lb/>
+                    <item>℞ Aq. Cinnam. fort. </item>
+                    <lb/>
+                    <item>Menthæ, ā <hi rend="roman">℥j. </hi></item>
+                    <lb/>
+                    <item>Pul. Rhab. <hi rend="roman">℈ſs. </hi></item>
+                    <lb/>
+                    <item>Syr. e Meconio <hi rend="roman">℥j. </hi></item>
+                </list>
+                <p rend="italic"><lb/>Miſce. </p>
+                <div>
+                    <head rend="italic align-center space"><lb/>Dr. <hi rend="roman">W</hi>—'s
+                        Draught for a Dyſentery. </head>
+                    <p rend="indent space"><lb/>Take ſtrong Cinnamon-water, and Mint-<lb/>water,
+                        each 1 Ounce, Powder of Rhubarb <lb/>half a Scruple, Syrup of Diacodium 1
+                        Ounce, <lb/>mix into a Draught. </p>
+                    <p rend="indent space"><lb/>This both aſtringes and compoſes, and at <lb/>the
+                        ſame time, by the Help of the Rhubarb, <lb/>helps forward the Ejectment of
+                        ſuch <w part="I">Hu-</w><lb/><w part="F">mours</w>, as vellicate the Bowels,
+                        tear off their <lb/>natural Mucus, and lay open the Capillaries <lb/>in ſuch
+                        manner as to let out the Blood to <lb/>flow at every Stool. </p>
+                </div>
+            </div>
+            <div type="section">
+                <pb xml:id="page_55" n="56"/>
+                <head rend="italic align-center space"><lb/>Infuſio Millipedum. <hi rend="roman"
+                        >D.</hi> W. </head>
+                <list rend="italic indentall hanging space">
+                    <lb/>
+                    <item>℞ Milleped. vivent. <hi rend="roman">℔iv. </hi></item>
+                    <lb/>
+                    <item>Vini albi <hi rend="roman">lbviij. </hi></item>
+                    <lb/>
+                    <item>Infund. frigid. ben. claus. pro dies <hi rend="roman">xiv</hi>. <hi
+                            rend="italic">Do-<lb/>ſis</hi>
+                        <hi rend="roman">℔ſs.</hi> bis in die. </item>
+                </list>
+                <div>
+                    <head rend="italic align-center space"><lb/>Dr. <hi rend="roman">W</hi>—'s
+                        Infuſion of Millepedes. </head>
+                    <p rend="indent space"><lb/>Take 4 Pound of live Millepedes, infuſe <lb/>them
+                        cold in 8 Pints of White Wine for 14 <lb/>Days; then ſtrain for Uſe. </p>
+                    <p rend="indent space"><lb/>This is an excellent Diuretick, and a moſt
+                        <lb/>efficacious Medicine in all Chronick Caſes, <lb/>that are to be
+                        relieved by promoting the <lb/>urinary Diſcharges, as are many <w part="I"
+                            >ſchrophu-</w><lb/><w part="F">lous</w> Diſorders, and ſuch as
+                        frequently are <lb/>the Forerunners of ſcorbutick Dropſies, from <lb/>a
+                        Retention of ſuch Humours as foul the <lb/><hi rend="italic">Viſcera,</hi>
+                        and ſtuff the whole Habit with <lb/>Water and Viſcidities. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Infuſio Paralytica. <hi rend="roman"
+                        >D.</hi> M. </head>
+                <list rend="italic indentall hanging space">
+                    <lb/>
+                    <item>℞ Rad. Raphani ruſt. tenuit. incis. </item>
+                    <lb/>
+                    <item>Sem. Sinapios contus. <hi rend="roman">ā ℥iv. </hi></item>
+                    <lb/>
+                    <item>Infund. in aq. <unclear>#####</unclear>
+                        <hi rend="roman">℔iv. </hi>claus. horis <lb/><hi rend="roman">xxiv.</hi>
+                        Doſis <hi rend="roman">℔ſs. </hi><lb/><hi rend="italic"
+                                ><unclear>#####</unclear> die.</hi>
+                    </item>
+                </list>
+                <div>
+                    <pb xml:id="page_56" n="57"/>
+                    <head rend="italic align-center space"><lb/>Dr. <hi rend="roman">M</hi>—'s
+                        Paralytick Infuſion. </head>
+                    <p rend="indent space"><lb/>Take Horſe-radiſh Root ſliced thin, and
+                        <lb/>Muſtard-ſeed bruiſed, each 4 Ounces; <w part="I">in-</w><lb/><w
+                            part="F">fuſe</w> them in 4 Pints of boiling Water for <lb/>24 Hours;
+                        then ſtrain for uſe, and drink <lb/>half a Pint twice in a Day. </p>
+                    <p rend="indent space"><lb/>This is not only Diuretick as the former, <lb/>but
+                        is alſo much warmer; and is therefore <lb/>not only directed to cleanſe away
+                        by Urine <lb/>any thing that lodges upon the Fibres, ſo <lb/>as to ſpoil
+                        their Offices, but alſo to give <lb/>them due Warmth, which in Paralytick <w
+                            part="I">Ca-</w><lb/><w part="F">ſes</w> they are deſtitute of. It ought
+                        to be kept <lb/>cloſe ſtopped, becauſe it otherwiſe would, <lb/>by its
+                        Volatility, ſpoil and grow vapid. In <lb/>Rheumatiſms, this is alſo
+                        frequently given, <lb/>with great Succeſs; eſpecially if the Limbs
+                        <lb/>ſwell with great Pains. </p>
+                </div>
+            </div>
+            <div type="section">
+                <list rend="italic indentall hanging space">
+                    <head rend="italic align-center space"><lb/>Infuſio Pleuretica. </head>
+                    <lb/>
+                    <item>℞ Fimi Equini recent. <hi rend="roman">℥vj</hi>. </item>
+                    <lb/>
+                    <item>Aq. Pulegii <hi rend="roman">℥xij.</hi>
+                    </item>
+                    <lb/>
+                    <item>—Theriac. <hi rend="roman">℥iv.</hi>
+                    </item>
+                    <lb/>
+                    <item>Infund. calide. Colat. adde </item>
+                    <lb/>
+                    <item>Mithrid. <hi rend="roman">ʒij.</hi>
+                    </item>
+                    <lb/>
+                    <item>Sachar. albis. q. ſ. </item>
+                </list>
+                <p rend="indent space"><lb/><hi rend="italic">Doſis</hi> ℔ſs. <hi rend="italic">bis
+                        de die.</hi>
+                </p>
+                <div>
+                    <pb xml:id="page_57" n="58"/>
+                    <head rend="italic align-center space"><lb/>The Pleuretick Infuſion. </head>
+                    <p rend="indent space"><lb/>Take freſh Horſe-dung 6 Ounces, <w part="I"
+                            >Peni-</w><lb/><w part="F">royal-water</w> 12 Ounces, Treacle-water 4
+                        <lb/>Ounces; infuſe them warm, and to the <lb/>ſtrained Liquor add
+                        Mithridate 2 Drams, <lb/>White Sugar a ſufficient Quantity to ſweeten
+                        <lb/>it; drink half a Pint twice in a Day. </p>
+                    <p rend="indent space"><lb/>This is a very good Medicine for the <w part="I"
+                            >pur-</w><lb/><w part="F">poſe</w> it is intended for, and will
+                        frequently <lb/>procure Eaſe, when no other means will take <lb/>place. If
+                        the Doſe here mentioned be too <lb/>noiſome, it may be leſſened, and
+                        repeated <lb/>the oftener. This is likewiſe order'd in <lb/>Diſtempers of
+                        the Breaſt, that are not a true <lb/>Pleurifie, wherein it will do great
+                        Service, as <lb/>in a Peripneumony; and in an Aſthma, the <lb/>common
+                        pectoral Drinks are not to be <w part="I">com-</w><lb/><w part="F">pared</w>
+                        to it. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Julapium Camphoratum. </head>
+                <list rend="italic indentall hanging space">
+                    <lb/>
+                    <item>℞ Camph. <hi rend="roman">ʒij.</hi>
+                    </item>
+                    <lb/>
+                    <item>Incende &amp; ſæpe extingue in aq. font. <hi rend="roman">℔j. </hi>ad <w
+                            part="I">to-</w><lb/><w part="F">tius</w> Camphoræ conſumptionem.
+                    </item>
+                </list>
+                <div>
+                    <head rend="italic align-center space"><lb/>The Camphorated Julep. </head>
+                    <p rend="indent space"><lb/>Take Camphor 2 Drams, ſet it on fire, <lb/>and
+                        quench it in a Pint of Water; then light <pb xml:id="page_58" n="59"/>
+                        <lb/>it again and quench it, which repeat till all <lb/>the Camphor is
+                        conſumed. </p>
+                    <p rend="indent space"><lb/>This is order'd in malignant Fevers, and <lb/>in
+                        inflammatory Caſes. There are ſome <w part="I">pe-</w><lb/><w part="F"
+                            >culiar</w> Hyſterical Caſes, wherein alſo it is of <lb/>good Service:
+                        but it is not greatly uſed. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Julapium Hyſtericum. </head>
+                <list rend="italic indentall hanging space">
+                    <lb/>
+                    <item>℞ Aq. Rutæ; </item>
+                    <lb/>
+                    <item>— Pulegii, ā <hi rend="roman">℥viij. </hi></item>
+                    <lb/>
+                    <item>— Bryoniæ comp. <hi rend="roman">℥iv.</hi>
+                    </item>
+                    <lb/>
+                    <item>Pulv. Troch. de Myrrhâ <hi rend="roman">ʒij.</hi>
+                    </item>
+                    <lb/>
+                    <item>Sachar. albis. <hi rend="roman">℥jſs.</hi>
+                    </item>
+                </list>
+                <p rend="italic"><lb/>Miſce f. Julap. </p>
+                <div>
+                    <head rend="italic align-center space"><lb/>The Hyſterick Julep. </head>
+                    <p rend="indent space"><lb/>Take Rue-water, Peniroyal-water, of <lb/>each 8
+                        Ounces, Bryony-water compound 4 <lb/>Ounces, Troches of Myrrh powder'd 2
+                        <lb/>Drams, fine Sugar 1 Ounce and half; mix <lb/>into a Julep. </p>
+                    <p rend="indent space"><lb/>This is the ordinary Hyſterick Julep, <w part="I"
+                            >gi-</w><lb/><w part="F">ven</w> either as a Diluter of other more <w
+                            part="I">effica-</w><lb/><w part="F">cious</w> Medicines in ſuch Caſes,
+                        or where <lb/>the Symptoms are not much aggravated, <lb/>being well ſhaked
+                        before taking; the <w part="I">Quan-</w><lb/><w part="F">tity</w> of 5 or 6
+                        Spoonfuls at a Doſe, to be <w part="I">re-</w><lb/><w part="F">peated</w>
+                        once in 3 or 4 Hours. </p>
+                </div>
+            </div>
+            <div type="section">
+                <pb xml:id="page_59" n="60"/>
+                <head rend="italic align-center space"><lb/>Julapium Cardiacum. <hi rend="roman"
+                        >D.</hi> W. </head>
+                <list rend="italic indentall hanging space">
+                    <lb/>
+                    <item>℞ Aq. Scordii comp. <hi rend="roman">℥viij.</hi>
+                    </item>
+                    <lb/>
+                    <item>— Theriac. </item>
+                    <lb/>
+                    <item>— Epidem. <hi rend="roman">ā ℥ij. </hi></item>
+                    <lb/>
+                    <item>Syr. Garyoph. q. ſ. ut f. Julap. </item>
+                </list>
+                <div>
+                    <head rend="italic align-center space"><lb/>Dr. <hi rend="roman">W</hi>—'s
+                        Cordial Julep. </head>
+                    <p rend="indent space"><lb/>Take compound Scordium-water 8 <w part="I"
+                            >Oun-</w><lb/><w part="F">ces</w>, Treacle-water, and Plague-water, each
+                        <lb/>2 Ounces, Syrup of Cloves a ſufficient <w part="I">Quan-</w><lb/><w
+                            part="F">tity</w> to ſweeten it. </p>
+                    <p rend="indent space"><lb/>This is preſcribed in all kinds of Fevers, <lb/>and
+                        is much more efficacious than the Juleps <lb/>ordinarily preſcribed in
+                        common Practice: 3 <lb/>or 4 Spoonfuls may be repeated every 2 or 3
+                        <lb/>Hours, till ſome Criſis appears, and the <lb/>Diſtemper abates. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Julapium Mithridaticum. <hi rend="roman"
+                        >D.</hi> W. </head>
+                <list rend="italic indentall hanging space">
+                    <lb/>
+                    <item>℞ Aq. Hord. <hi rend="roman">℥xij. </hi></item>
+                    <lb/>
+                    <item>— Menthæ <hi rend="roman">℥ij.</hi>
+                    </item>
+                    <lb/>
+                    <item>— Epidem. <hi rend="roman">℥iv.</hi>
+                    </item>
+                    <lb/>
+                    <item>Elect. Mithrid. <hi rend="roman">ʒij.</hi>
+                    </item>
+                    <lb/>
+                    <item>Sachar. alb. <hi rend="roman">℥jſs. </hi></item>
+                </list>
+                <p rend="indent space"><lb/><hi rend="italic">Miſc. cap.</hi> Coch. iv. <hi
+                        rend="italic">ſextâ quâque horâ.</hi>
+                </p>
+                <div>
+                    <pb xml:id="page_60" n="61"/>
+                    <head rend="italic align-center space"><lb/>Dr. <hi rend="roman">W</hi>—'s Julep
+                        with Mithridate. </head>
+                    <p rend="indent space"><lb/>Take Barley-water 12 Ounces, Mint-<lb/>water 2
+                        Ounces, Plague-water 6 Ounces, <lb/>Mithridate 2 Drams, White-Sugar 1 Ounce
+                        <lb/>and half; mix into a Julep, to take 4 <w part="I">Spoon-</w><lb/><w
+                            part="F">fuls</w> every 6 Hours. </p>
+                    <p rend="indent space"><lb/>This is alſo directed to the ſame purpoſe <lb/>as
+                        the foregoing; but is not quite ſo <w part="I">plea-</w><lb/><w part="F"
+                            >ſant</w> to take. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Julapium Febrif. </head>
+                <list rend="italic indentall hanging space">
+                    <lb/>
+                    <item>℞ Aq. Hord. <hi rend="roman">℔iij.</hi>
+                    </item>
+                    <lb/>
+                    <item><hi rend="italic">Theriac.</hi>
+                        <hi rend="roman">℥vj.</hi>
+                    </item>
+                    <lb/>
+                    <item>Syr. e ſuc. Lim. <hi rend="roman">℥iv.</hi>
+                    </item>
+                </list>
+                <p rend="italic"><lb/>Miſce. </p>
+                <div>
+                    <head rend="italic align-center space"><lb/>A Julep to be taken in a Fever. </head>
+                    <p rend="indent space"><lb/>Take Barley-water 3 Pints, <w part="I"
+                            >Treacle-wa-</w><lb/><w part="F">ter</w> 6 Ounces, Syrup of Juice of
+                        Limons 4 <lb/>Ounces; mix into a Julep. </p>
+                    <p rend="indent space"><lb/>This is directed for the common Diluter, <lb/>and is
+                        order'd to be drank of liberally in all <lb/>inflammatory Fevers. </p>
+                </div>
+            </div>
+            <div type="section">
+                <pb xml:id="page_61" n="62"/>
+                <head rend="italic align-center space"><lb/>Linctus Pectoralis. </head>
+                <list rend="italic indentall hanging space">
+                    <lb/>
+                    <item>℞ Ol. Lini ſine igne extract. </item>
+                    <lb/>
+                    <item>Syr. Garyophil. <hi rend="roman">ā ℥ij.</hi>
+                    </item>
+                    <lb/>
+                    <item>Sach. alb. <hi rend="roman">ʒj.</hi>
+                    </item>
+                </list>
+                <p rend="italic"><lb/>Miſce. </p>
+                <div>
+                    <head rend="italic align-center space"><lb/>A Pectoral Linctus. </head>
+                    <p rend="indent space"><lb/>Take 2 Ounces of Linſeed Oyl drawn <lb/>without
+                        Fire, and Syrup of Cloves, each 2 <lb/>Ounces, Sugar 1 Dram; incorporate
+                        them <lb/>together in a Marble Mortar. </p>
+                    <p rend="indent space"><lb/>This is commonly directed in all <w part="I"
+                            >Diſtem-</w><lb/><w part="F">pers</w> of the Breaſt, to promote <w
+                            part="I">Expectora-</w><lb/><w part="F">tion</w>, and ſmooth the <hi
+                            rend="italic">Bronchiæ,</hi> which are <lb/>too much vellicated by a
+                        ſharp <hi rend="italic">Serum.</hi> It <lb/>is given a Spoonful at
+                        Diſcretion. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Laudanum Liquidum. <hi rend="roman"
+                        >D.</hi> W. </head>
+                <list rend="italic indentall hanging space">
+                    <lb/>
+                    <item>℞ Carrioph. </item>
+                    <lb/>
+                    <item>Cinnam. </item>
+                    <lb/>
+                    <item>Macis, <hi rend="roman">ā ℥ſs.</hi>
+                    </item>
+                    <lb/>
+                    <item>Sal. Tartari <hi rend="roman">ʒij. </hi></item>
+                    <lb/>
+                    <item>Opii Theb. ten. incis. <hi rend="roman">℔ſs.</hi>
+                    </item>
+                    <lb/>
+                    <item>Vini Canar. <hi rend="roman">lbvj.</hi>
+                    </item>
+                </list>
+                <p rend="indent space"><lb/><hi rend="italic">Infunde clauſe ℘ dies xiv. Doſis</hi>
+                    gut. xxx. </p>
+                <div>
+                    <pb xml:id="page_62" n="63"/>
+                    <head rend="italic align-center space"><lb/>Dr. <hi rend="roman">W</hi>—'s
+                        Liquid Laudanum. </head>
+                    <p rend="indent space"><lb/>Take Cloves, Cinnamon, Mace, each half <lb/>an
+                        Ounce, Salt of Tartar 2 Drams, Opium <lb/>half a Pound; infuſe them all in 6
+                        Pints of <lb/>Canary for 14 Days; then evaporate the <lb/>ſtrained Liquor to
+                        4 Pints. The Doſe 30 <lb/>Drops. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Laudanum Opiatum. <hi rend="roman"
+                        >D.</hi> W. </head>
+                <list rend="italic indentall hanging space">
+                    <lb/>
+                    <item>℞ Opii Thebaici ten. incis. <hi rend="roman">℔j. </hi></item>
+                    <lb/>
+                    <item>Vini Canarini <hi rend="roman">℔ij. </hi></item>
+                    <lb/>
+                    <item>Sal. Tartari <hi rend="roman">ʒij</hi>. </item>
+                    <lb/>
+                    <item>Diſſolve &amp; cola, deinde exhala ad conſiſtentiam <lb/>Mellis; cui adde </item>
+                    <lb/>
+                    <item>Piper. long. </item>
+                    <lb/>
+                    <item>ZZ. <hi rend="roman">ā ʒij</hi>. </item>
+                    <lb/>
+                    <item>Sal. Volat. CC. <hi rend="roman">℥jſs</hi>. </item>
+                    <lb/>
+                    <item>Ol. Aniſi; </item>
+                    <lb/>
+                    <item>Caryoph. </item>
+                    <lb/>
+                    <item>N. M. <hi rend="roman">ā ʒij</hi>. </item>
+                </list>
+                <p rend="indent space"><lb/><hi rend="italic">Miſce f. Maſſa. Doſis cujus ſit</hi>
+                    gr. j. <hi rend="italic">ad</hi> ij. </p>
+                <div>
+                    <head rend="italic align-center space"><lb/>Dr. <hi rend="roman">W</hi>—'s Solid
+                        Laudanum. </head>
+                    <p rend="indent space"><lb/>Take Opium ſliced thin 1 Pound, Canary <lb/>2 Pints,
+                        Salt of Tartar 2 Drams; diſſolve <lb/>them together, then ſtrain out the
+                        Liquor, <lb/>and evaporate it to the Conſiſtence of <w part="I"
+                            >Ho-</w><lb/><w part="F">ney</w>; to which add Long Pepper, and <w
+                            part="I">Gin-</w><pb xml:id="page_63" n="64"/><lb/><w part="F">ger</w>,
+                        each 2 Drams, Volatile Salt of <w part="I">Hartſ-</w><lb/><w part="F"
+                            >horn</w> an Ounce and half, Chymical Oyl of <lb/>Aniſeed, of Cloves,
+                        and of Nutmegs, each <lb/>2 Drams, and make into a Maſs for uſe; <lb/>The
+                        Doſe from 1 Grain to 2 Grains. </p>
+                    <p rend="indent space"><lb/>Theſe are both extraordinary Medicines, <lb/>eaſily
+                        made, and much preferable to any <lb/>under the ſame Title, that are vaſtly
+                        more <lb/>troubleſome and coſtly to prepare. Their <lb/>Uſe needs no
+                        Explanation. </p>
+                </div>
+            </div>
+            <div type="section">
+                <list rend="italic indentall hanging space">
+                    <head rend="italic align-center space"><lb/>Mixtura Aſthmatica. </head>
+                    <lb/>
+                    <item>℞ Oxymel Scillit. </item>
+                    <lb/>
+                    <item>Aq. Cinnam. Hord. <hi rend="roman">ā ℥iij</hi>. </item>
+                </list>
+                <p rend="italic"><lb/>Miſce. </p>
+                <div>
+                    <head rend="italic align-center space"><lb/>The Aſtmatick Mixture. </head>
+                    <p rend="indent space"><lb/>Take Oxymel of Squills, Barley and <w part="I"
+                            >Cin-</w><lb/><w part="F">namon-water</w>, each 3 Ounces; mix them
+                        <lb/>together. </p>
+                    <p rend="indent space"><lb/>This is given to promote Expectoration; <lb/>and it
+                        is alſo an excellent Diuretick, by <lb/>which means it operates all poſſible
+                        ways to <lb/>anſwer the purpoſes ſignified by the Title. <lb/>It is given a
+                        Spoonful at a time, 3 or 4 times <lb/>in a Day, but particularly in the
+                        Morning. </p>
+                </div>
+            </div>
+            <div type="section">
+                <pb xml:id="page_64" n="65"/>
+                <head rend="italic align-center space"><lb/>Mixtura Antiemetica. <hi rend="roman"
+                        >D.</hi> W. </head>
+                <list rend="italic indentall hanging space">
+                    <lb/>
+                    <item>℞ Succi Limon. recent. <hi rend="roman">℥vi</hi>. </item>
+                    <lb/>
+                    <item>Sal. Abſynth. <hi rend="roman">ʒii</hi>. </item>
+                </list>
+                <p rend="italic"><lb/>Miſce. </p>
+                <div>
+                    <head rend="italic align-center space"><lb/><hi rend="roman">D.</hi> W—'s
+                        Antiemetick Mixture. </head>
+                    <p rend="indent space"><lb/>Take freſh Juice of Limons 6 Ounces, <lb/>Salt of
+                        Wormwood 2 Drams, mix them <lb/>together. </p>
+                    <p rend="indent space"><lb/>If this is not mixed in a very large Veſſel,
+                        <lb/>and great Care taken, the Fermentation <lb/>will be ſo violent and
+                        ſudden, as to throw <lb/>it over. It is very good for the purpoſes its
+                        <lb/>Title expreſſes, and is directed 3 or 4 <lb/>Spoonfuls at a time, to be
+                        repeated after <lb/>every Vomiting, till it ſtops. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Mixtura Cardiaca Anodyna. </head>
+                <list rend="italic indentall hanging space">
+                    <lb/>
+                    <item>℞ Aq. Theriac. ſuperſcript. </item>
+                    <lb/>
+                    <item>Menth. ā <hi rend="roman">℔ii</hi>. </item>
+                    <lb/>
+                    <item>Philon. Perſic. <hi rend="roman">℥j</hi>. </item>
+                </list>
+                <p rend="indent space"><lb/><hi rend="italic">Miſce Cap.</hi> coch. ii. <hi
+                        rend="italic">poſt ſing. ſed.</hi>
+                </p>
+                <div>
+                    <head rend="italic align-center space"><lb/>The Anodyne Cardiac Mixture. </head>
+                    <p rend="indent space"><lb/>Take Treacle-water above-preſcribed, <lb/>and
+                        Mint-water, each 2 Pints, <hi rend="italic">Philon. Perſic.</hi>
+                        <pb xml:id="page_65" n="66"/><lb/>1 Ounce; mix together, and take 2 <w
+                            part="I">Spoon-</w><lb/><w part="F">fuls</w> after every Stool. </p>
+                    <p rend="indent space"><lb/>This is a ſtanding Mixture at the <hi rend="italic"
+                            >Lock</hi>
+                        <lb/>Hoſpital, which is given to prevent a <w part="I">Gri-</w><lb/><w
+                            part="F">ping</w>, and a Teneſmus, which frequently <lb/>happen by
+                        anointing with Mercurials to <lb/>raiſe Salivation. And if Blood likewiſe <w
+                            part="I">ap-</w><lb/><w part="F">pears</w> with the Stools, the
+                        following Clyſter <lb/>is ordered. </p>
+                </div>
+            </div>
+            <div type="section">
+                <list rend="italic indentall hanging space">
+                    <lb/>
+                    <item>℞ Brodii Sebac. vel </item>
+                    <lb/>
+                    <item>Ol. Lini, <hi rend="roman">℔ſs</hi>. </item>
+                    <lb/>
+                    <item>Vitel. Ov. No. <hi rend="roman">ij</hi>. </item>
+                    <lb/>
+                    <item>Theriac. Lond. </item>
+                    <lb/>
+                    <item>Bals. Sulph. Terebinth. <hi rend="roman">℥ſs</hi>. </item>
+                    <lb/>
+                    <item>Miſce f. Enema. </item>
+                </list>
+                <p rend="indent space"><lb/>Take very fat Broth, or Linſeed-Oyl, <lb/>half a Pint,
+                    the Yolk of 2 Eggs, <hi rend="italic">London</hi>-<lb/>Treacle 3 Drams, Balſam
+                    of Sulphur <w part="I">tere-</w><lb/><w part="F">binthinated</w> half an Ounce;
+                    mix for a <lb/>Clyſter. </p>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Mel. Mercurial. </head>
+                <p rend="indent space"><lb/><hi rend="italic">Vt in Pharmacopœia</hi> Londinenſi.
+                </p>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Opium Purum. </head>
+                <p rend="indent space"><lb/><hi rend="italic">℞ Opii opt. incis.</hi> ℥iv. </p>
+                <p rend="italic indent hanging"><lb/>Coq. in aq. puriſſimâ q. ſ. ut Tinct.
+                    extrahatur <lb/>rubicundiſſima. Hanc e fæcibus cola, novaq; <lb/>aqua
+                    affundatur, &amp; ut antea coq. tamdiu <lb/>operationem repet. donec fæces
+                    Tincturam <lb/>alterius negant. Tincturas omnes evapora <lb/>leuta igne ad
+                    conſiſtentiam Pilulæ. </p>
+                <div>
+                    <pb xml:id="page_66" n="67"/>
+                    <head rend="italic align-center space"><lb/>Purified Opium. </head>
+                    <p rend="indent space"><lb/>Take of the beſt Opium 4 Ounces, <w part="I"
+                            >diſ-</w><lb/><w part="F">ſolve</w> it and boil it in a ſufficient
+                        Quantity <lb/>of clear Water, till it gives it a very red <lb/>Colour, which
+                        ſtrain from the Fæces; to <lb/>them put freſh Water, and boil again;
+                        <lb/>which repeat as long as they will continue <lb/>to give any Tincture;
+                        then evaporate the <lb/>ſeveral Tinctures together into the <w part="I"
+                            >Conſi-</w><lb/><w part="F">ſtence</w> of a Pill. </p>
+                    <p rend="indent space"><lb/>This is uſed in the ſame Caſes and <w part="I"
+                            >Quan-</w><lb/><w part="F">tities</w> as crude Opium, and by ſome is <w
+                            part="I">pre-</w><lb/><w part="F">ferr'd</w> thereunto; but the
+                        Difference is not <lb/>worth diſputing, and hardly worth the <lb/>Trouble of
+                        the latter Proceſs. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Oxymel Scilliticum. </head>
+                <p rend="indent space"><lb/><hi rend="italic">Vt Pharmacopœia</hi> Londinenſi. </p>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Oxymel Pectorale. </head>
+                <list rend="italic indentall hanging space">
+                    <lb/>
+                    <item>℞ Rad. Enul. </item>
+                    <lb/>
+                    <item>Aſari; </item>
+                    <lb/>
+                    <item>ZZ. incis. ā <hi rend="roman">℥vj</hi>. </item>
+                    <lb/>
+                    <item>Iridis flor. </item>
+                    <lb/>
+                    <item>Galang. incis. </item>
+                    <lb/>
+                    <item>Piper. alb. parum contus. <hi rend="roman">ā ℥iij</hi>. </item>
+                    <lb/>
+                    <item>Aq. fontan. <hi rend="roman">℔x</hi>. </item>
+                    <lb/>
+                    <item><hi rend="italic">Accet. Vini albi</hi>
+                        <hi rend="roman">℔vj</hi>. </item>
+                    <lb/>
+                    <item>Macera hor. xxiv. deinde coque ad <hi rend="roman">℔x</hi>. colat.
+                        <lb/>adde Mel. Anglic. <hi rend="roman">℔vj</hi>. coque &amp; deſpuma;
+                        <lb/>&amp; tandem add. ſucc. Liquorit. <hi rend="roman">℔ſs</hi>. ut f.
+                        <lb/>Oxymel. Doſis cochl. <hi rend="roman">ij</hi>. ad libitum <w part="I"
+                            >ſu-</w><lb/><w part="F">mend</w>. </item>
+                </list>
+                <div>
+                    <pb xml:id="page_67" n="68"/>
+                    <head rend="italic align-center space"><lb/>A Pectoral Oxymel. </head>
+                    <p rend="indent space"><lb/>Take of the Roots of Elicampane, <w part="I"
+                            >Aſa-</w><lb/><w part="F">rabacca</w>, and Ginger, each 6 Ounces, of
+                        <lb/>Florentine Orrice, and Galangal Roots <w part="I">ſli-</w><lb/><w
+                            part="F">ced</w>, and white Pepper a little bruiſed, each <lb/>3 Ounces,
+                        Spring-water 10 Pints, White-<lb/>wine Vinegar 6 Pints; ſteep them together
+                        <lb/>24 Hours, then boil to 10 Pints; ſtrain, and <lb/>add Honey 6 Pounds;
+                        then boil and clarify; <lb/>to which add of the Extract of Liquorice
+                        <lb/>half a Pound, and make into a Syrup. </p>
+                    <p rend="indent space"><lb/>This is an efficacious Detergent, and does
+                        <lb/>greatly promote Expectoration; for which <lb/>purpoſe it is much given
+                        in all Aſthmatick <lb/>Caſes, and where the Breaſt is clogged with
+                        <lb/>viſcid Humours: 2 or 3 Spoonfuls are <w part="I">orde-</w><lb/><w
+                            part="F">red</w> to be taken at any time. </p>
+                </div>
+            </div>
+            <div type="section">
+                <list rend="italic indentall hanging space">
+                    <head rend="italic align-center space"><lb/>Oxymel Sambucinum. </head>
+                    <lb/>
+                    <item>℞ Flor. Sambuci <hi rend="roman">Miij</hi>. </item>
+                    <lb/>
+                    <item>Coq. in aq. fon. <hi rend="roman">℔iv</hi>. ad <hi rend="roman">℔iij</hi>.
+                        colat. ad. accet. <lb/>Vin. alb. Succ. Pomor. Agreſt. <hi rend="roman"
+                            >℔ij</hi>. mel. opt. <lb/><hi rend="roman">℔vj</hi>. Coq. ad Syrupi
+                        conſiſtentiam. </item>
+                </list>
+                <div>
+                    <pb xml:id="page_68" n="69"/>
+                    <head rend="italic align-center space"><lb/>Elder Oxymel. </head>
+                    <p rend="indent space"><lb/>Take Flowers of Elder 3 Handsful, boil <lb/>them in
+                        4 Pints of Water to 3 Pints; to the <lb/>ſtrained Liquor add White-wine
+                        Vinegar 1 <lb/>Pint, Verges 2 Pints, and of the beſt Honey <lb/>6 Pound;
+                        boil up to the Conſiſtence of a <lb/>Syrup. </p>
+                    <p rend="indent space"><lb/>This is given to help Expectoration, and <lb/>is
+                        very effectual to break away the <w part="I">Obſtructi-</w><lb/><w part="F"
+                            >ons</w> of the Breaſt, which occaſion Aſthmas <lb/>and Coughs. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Pil. Stiptic. <hi rend="roman">D.</hi>
+                    M. </head>
+                <list rend="italic indentall hanging space">
+                    <lb/>
+                    <item>℞ Alum. rup. puriſs. <hi rend="roman">ʒiij</hi>. </item>
+                    <lb/>
+                    <item>Liquetur ſuper ignem, cui adde </item>
+                    <lb/>
+                    <item>Sang. Dracon. pul. <hi rend="roman">ʒj</hi>. </item>
+                </list>
+                <p rend="indent hanging"><lb/><hi rend="italic">Vt f. maſſa, cujus ex ſingulis
+                        Drachmis f. Pil.</hi>
+                    <lb/>No. x. <hi rend="italic">Doſis Pil.</hi> v. <hi rend="italic">ter in
+                        die.</hi>
+                </p>
+                <div>
+                    <head rend="italic align-center space"><lb/>Dr. <hi rend="roman">M</hi>—'s
+                        Stiptick Pill. </head>
+                    <p rend="indent space"><lb/>Take fine Roch Alum 3 Drams; melt it <lb/>over a
+                        clear Fire, and then ſtir into it 1 <lb/>Dram of Dragon's-Blood finely
+                        powder'd; <lb/>and out of each Dram of the Maſs make 10 <lb/>Pills; 5 of
+                        which are to be taken 3 times in <lb/>a Day. </p>
+                    <p rend="indent space"><lb/><pb xml:id="page_69" n="70"/>Theſe are very much
+                        reſtringent, and are <lb/>directed only in very obſtinate Fluxes. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Pil. Anodynæ. </head>
+                <list rend="italic indentall hanging space">
+                    <lb/>
+                    <item>℞ Opii puris. noſtr. <hi rend="roman">gr. j</hi>. </item>
+                    <lb/>
+                    <item>Extract. Croci <hi rend="roman">gr. iv</hi>. </item>
+                </list>
+                <p rend="italic"><lb/>Miſce f. Pilula. </p>
+                <div>
+                    <head rend="italic align-center space"><lb/>The Anodyne Pill. </head>
+                    <p rend="indent space"><lb/>Take purified Opium 1 Grain, Extract of <lb/>Saffron
+                        4 Grains, and mix. </p>
+                    <p rend="indent space"><lb/>This is a pleaſant and a very ſafe Opiate, <lb/>and
+                        may be given in all Caſes where ſuch <lb/>Helps are required. But its
+                        principal Uſe <lb/>is in Catarrhs, and ſuch Defluxions, as <w part="I"
+                            >occa-</w><lb/><w part="F">ſion</w> tickling Coughs, which it greatly <w
+                            part="I">re-</w><lb/><w part="F">lieves</w>, and helps the Diſcharge of
+                        a great <lb/>deal of Serum by the cutaneous Glands in <lb/>Perſpiration, and
+                        Breathing-Sweats. </p>
+                </div>
+            </div>
+            <div type="section">
+                <list rend="italic indentall hanging space">
+                    <head rend="italic align-center space"><lb/>Pil. Catarrhales. </head>
+                    <lb/>
+                    <item>℞ Pil. Ruffi <hi rend="roman">℈j</hi>. </item>
+                    <lb/>
+                    <item>Opii puris. <hi rend="roman">gr. j</hi>. </item>
+                </list>
+                <p rend="italic"><lb/>F. Pil. horâ ſomni ſumend. </p>
+                <div>
+                    <pb xml:id="page_70" n="71"/>
+                    <head rend="italic align-center space"><lb/>Pills for a Catarrh. </head>
+                    <p rend="indent space"><lb/>Take <hi rend="italic">Pill. Ruffi</hi> 1 Scruple,
+                        fine Opium 1 <lb/>Grain; mix into Pills, and take them at <lb/>Night going
+                        to Bed. </p>
+                    <p rend="indent space"><lb/>As the former is given to ſtop the <w part="I"
+                            >Deflu-</w><lb/><w part="F">xion</w> of Rheum upon the Glands of the
+                        <lb/>Throat, and encourage its Diſcharge by the <lb/>Skin; theſe are
+                        intended to divert it by <lb/>Stool, and are very good for that purpoſe.
+                        <lb/>They are given to aſthmatick Conſtitutions, <lb/>and ſuch as are
+                        inclining to Conſumptions, <lb/>from the Injuries ſuch Defluxions are apt to
+                        <lb/>do to the Lungs. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Pil. Diuretica. </head>
+                <list rend="italic indentall hanging space">
+                    <lb/>
+                    <item>℞ Sapon. Ven. <hi rend="roman">℥j</hi>. </item>
+                    <lb/>
+                    <item>Ol. Anis. <hi rend="roman">gut. xxxij</hi>. </item>
+                    <lb/>
+                    <item>Contunde in Mortario ut f. Pil. <hi rend="roman">No. x</hi>. ex <w
+                            part="I">ſin-</w><lb/><w part="F">gulis</w> Drachmis, involve in pulv.
+                        oculorum <lb/>Cancrorum. </item>
+                </list>
+                <div>
+                    <head rend="italic align-center space"><lb/>The Diuretick Pills. </head>
+                    <p rend="indent space"><lb/>Take <hi rend="italic">Venice</hi>-Soap 1 Ounce, Oyl
+                        of <w part="I">Ani-</w><lb/><w part="F">ſeed</w> 32 Drops; beat them into a
+                        Maſs, and<lb/> make 10 Pills out of every Dram, to be <w part="I"
+                            >rol-</w><lb/><w part="F">led</w> up with the Powder of Crabs-Eyes. <pb
+                            xml:id="page_71" n="72"/></p>
+                    <p rend="indent"><lb/>Theſe are very efficacious in all <w part="I"
+                            >Obſtructi-</w><lb/><w part="F">ons</w> of the Urinary Paſſages; and
+                        alſo ſo <lb/>very detergent, as to be of great Service in <lb/>any
+                        Foulneſſes of the <hi rend="italic">Viſcera</hi>; ſo that they <lb/>are not
+                        only of good Service in the Stone <lb/>and Gravel, but in the Jaundice and
+                            <w part="I">Aſtth-</w><lb/><w part="F">ma's</w>, in the moſt obſtinate
+                        Caſes of which <lb/>they are order'd with the greateſt Certainty <lb/>of
+                        Succeſs. They are to be taken from 3 <lb/>to 5, 2 or 3 times in a Day; the
+                        Patient <lb/>uſing proper Diluters at the ſame time. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Pil. Ecphracticæ. </head>
+                <list rend="italic indentall hanging space">
+                    <lb/>
+                    <item>℞ Specier. Hieræ Picræ <hi rend="roman">℥iv</hi>. </item>
+                    <lb/>
+                    <item>Sal. Martis <hi rend="roman">ʒſs</hi>. </item>
+                    <lb/>
+                    <item>Syr. Chalybis q. ſ. miſce f. Pil. mediocres, <lb/>Dos. <hi rend="roman"
+                            >vj</hi>. vel <hi rend="roman">vii</hi>. de die. </item>
+                </list>
+                <div>
+                    <head rend="italic align-center space"><lb/>The Ecphractick Pills. </head>
+                    <p rend="indent space"><lb/>Take Hiera Picra 4 Ounces, Salt of Steel <lb/>half
+                        an Ounce, Syrup of Steel a ſufficient <lb/>Quantity to make into Pills of a
+                        moderate <lb/>Bigneſs, to take 6 or 7 every Day. </p>
+                    <p rend="indent space"><lb/>Theſe are directed in groſs Habits of <w part="I"
+                            >Bo-</w><lb/><w part="F">dy</w>, that are contracted either from a <w
+                            part="I">ſloth-</w><lb/><w part="F">ful</w> Life, or a poor groſs Diet,
+                        where the <lb/>Stomach and <hi rend="italic">Viſcera</hi> begin to be
+                        ſtuffed with <lb/>ſuch Viſcidities, as create Dropſies, <w part="I"
+                            >Aſth-</w>, <pb xml:id="page_72" n="73"/><lb/><w part="F">ma's</w> and
+                        many other Chronick Diſeaſes. <lb/>They purge very gently, and are <w
+                            part="I">particu-</w><lb/><w part="F">larly</w> good in a <hi
+                            rend="italic">Chloroſis,</hi> and likewiſe in <lb/>Hypochondriacal
+                        Affections. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Pil. Stomachicæ. <hi rend="roman"
+                        >D.</hi> M. </head>
+                <list rend="italic indentall hanging space">
+                    <lb/>
+                    <item><hi rend="italic">℞ Specier. Hieræ</hi>
+                        <hi rend="roman">℥ij. </hi></item>
+                    <lb/>
+                    <item>Rad. Ari ſic. <hi rend="roman">℥ſs</hi>. </item>
+                    <lb/>
+                    <item>Extract. Gentian. <hi rend="roman">ʒij</hi>. </item>
+                    <lb/>
+                    <item>Elix. Propriet. q. ſ. ut f. maſſa, adde </item>
+                    <lb/>
+                    <item>Sal. Abſynthii <hi rend="roman">ʒij</hi>. </item>
+                </list>
+                <div>
+                    <head rend="italic align-center space"><lb/>Dr. <hi rend="roman">M</hi>—'s
+                        Stomachic Pills. </head>
+                    <p rend="indent space"><lb/>Take Hiera Picra 2 Ounces, dry'd Aron <lb/>Root half
+                        an Ounce, Extract of Gentian 2 <lb/>Drams, Elixir Proprietatis a ſufficient
+                            <w part="I">Quan-</w><lb/><w part="F">tity</w> to make it into a Maſs
+                        for Pills; to <lb/>which add Salt of Wormwood 2 Drams. </p>
+                    <p rend="indent space"><lb/>Theſe are directed to be taken every <lb/>Morning, 6
+                        or 7 at a Doſe; they gently <lb/>purge, and both cleanſe away ſloughy <w
+                            part="I">Hu-</w><lb/><w part="F">mours</w>, which foul the Coats of the
+                            <w part="I">Sto-</w><lb/><w part="F">mach</w>, and warm the Fibres,
+                        whereby <w part="I">Di-</w><lb/><w part="F">geſtion</w> is promoted. They
+                        are moſt <w part="I">con-</w><lb/><w part="F">venient</w> in advanced Age,
+                        and full cachectick <lb/>Habits, which abound with cold viſcid <w part="I"
+                            >Hu-</w><lb/><w part="F">mours</w>. </p>
+                </div>
+            </div>
+            <div type="section">
+                <pb xml:id="page_73" n="74"/>
+                <head rend="italic align-center space"><lb/>Pil. Pectorales. </head>
+                <list rend="italic indentall hanging space">
+                    <lb/>
+                    <item>℞ Rad. Enul. Liquoritiæ pul. <hi rend="roman">℥j</hi>. </item>
+                    <lb/>
+                    <item>Pulv. Croci <hi rend="roman">ʒij</hi>. </item>
+                    <lb/>
+                    <item>Balſam. Sulph. anis. q. ſ. ut f. Pil. Dos. <lb/><hi rend="roman">iij</hi>.
+                        bis in die. </item>
+                </list>
+                <div>
+                    <head rend="italic align-center space"><lb/>Pectoral Pills. </head>
+                    <p rend="indent space"><lb/>Take Elicampane Root powder'd 1 Ounce, <lb/>Powder
+                        of Saffron 2 Drams, Balſam of <w part="I">Sul-</w><lb/><w part="F">phur</w>
+                        aniſated a ſufficient Quantity to make <lb/>into a Maſs for Pills, of which
+                        3 is a Doſe <lb/>twice in a Day. </p>
+                    <p rend="indent space"><lb/>Theſe are given in ordinary Coughs in
+                        <lb/>conſumptive Habits, and in all Diſtempers <lb/>of the Breaſt. They are
+                        both cordial and <lb/>detergent, whereby they not only raiſe the
+                        <lb/>Spirits, but cleanſe the Veſſels, promote <lb/>Expectoration, and eaſe
+                        the Breath. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Pil. Hyſtericæ. </head>
+                <list rend="italic indentall hanging space">
+                    <lb/>
+                    <item>℞ Galbani colat. </item>
+                    <lb/>
+                    <item>Aſſæ Fœtidæ <hi rend="roman">ā ℥j</hi>. </item>
+                    <lb/>
+                    <item>Pulv. Caſtor. <hi rend="roman">ʒj.</hi>
+                    </item>
+                    <lb/>
+                    <item>Tinct. Caſtor. q. ſ. ut f. Pil. mediocres. </item>
+                </list>
+                <div>
+                    <pb xml:id="page_74" n="75"/>
+                    <head rend="italic align-center space"><lb/>The Hyſterick Pills. </head>
+                    <p rend="indent space"><lb/>Take Galbanum, and Aſſa Fœtida, each <lb/>1 Ounce,
+                        Powder of Caſtor 1 Dram, <w part="I">Tin-</w><lb/><w part="F">cture</w> of
+                        Caſtor a ſufficient Quantity to make <lb/>them into Pills. </p>
+                    <p rend="indent space"><lb/>Theſe are order'd in all Hyſteric <w part="I"
+                            >Affe-</w><lb/><w part="F">ctions</w>, and ſometimes in Hypochondriacal
+                        <lb/>Caſes. They are given 5 at a Doſe, 2 or 3 <lb/>times in a Day. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Pil. Mercuriales. </head>
+                <list rend="italic indentall hanging space">
+                    <lb/>
+                    <item>℞ Pil. e Duobus <hi rend="roman">℥j</hi>. </item>
+                    <lb/>
+                    <item>Calomel. <hi rend="roman">℥ſs</hi>. </item>
+                    <lb/>
+                    <item>Syr. e Spin. Cervinâ q. ſ. ut f. maſs. cui <lb/>adde Ol. Saſſafr. <hi
+                            rend="roman">gut. xx</hi>. </item>
+                </list>
+                <div>
+                    <head rend="italic align-center space"><lb/>The Mercurial Pill. </head>
+                    <p rend="indent space"><lb/>Take <hi rend="italic">Pil. e Duobus</hi> 1 Ounce,
+                        Calomelanos <lb/>half an Ounce, Syrup of Buckthorn a <w part="I"
+                            >ſuffi-</w><lb/><w part="F">cient</w> Quantity to make them into a Maſs;
+                        <lb/>to which add Oyl of Saſſafras 20 Drops. </p>
+                    <p rend="indent space"><lb/>Theſe are powerfully purging, and are <lb/>generally
+                        given in Venereal Caſes, previous <lb/>to a Salivation, or a Courſe of
+                        Alteratives. <lb/>If they are made from each Dram into 10 <lb/>Pills, 5 are
+                        enough for a Doſe; and the <pb xml:id="page_75" n="76"/><lb/>Patients are
+                        carefully attended, and kept <lb/>warm during their Operation. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Pil. Polycreſt. </head>
+                <list rend="italic indentall hanging space">
+                    <lb/>
+                    <item>℞ Aloes lucid. </item>
+                    <lb/>
+                    <item>Scammon. opt. <hi rend="roman">ā ʒiij</hi>. </item>
+                    <lb/>
+                    <item>Trochiſci alhand. <hi rend="roman">ʒij</hi>. </item>
+                    <lb/>
+                    <item>Croci opt. <hi rend="roman">℈ij</hi>. </item>
+                    <lb/>
+                    <item>Aloes &amp; Scammon. ſeorſim pulv. &amp; cùm Sp. Vini <lb/>opt. in Maſs.
+                        formentur; cui adde Troch. &amp; <lb/>Crocum ſubtiliſſime pulverizat.
+                    </item>
+                </list>
+                <div>
+                    <head rend="italic align-center space"><lb/>Pills of many Virtues. </head>
+                    <p rend="indent space"><lb/>Take bright Aloes, and Scammony, each <lb/>3 Drams,
+                        Troches Alhandulæ 2 Drams, the <lb/>beſt Saffron 2 Scruples; let the Aloes
+                        and <lb/>Saffron be powder'd ſeparately, and made <lb/>into a Maſs of the
+                        Conſiſtence of Pills, with <lb/>the beſt Spirit of Wine; then mix the <w
+                            part="I">Tro-</w><lb/><w part="F">ches</w> and Saffron therewith. </p>
+                    <p rend="indent space"><lb/>Theſe are uſed as a common Purge in all
+                        <lb/>Cachectick Habits; the Quantity of half a <lb/>Dram made into 5 Pills,
+                        are generally <w part="I">dire-</w><lb/><w part="F">cted</w> for 1 Doſe.
+                    </p>
+                </div>
+            </div>
+            <div type="section">
+                <pb xml:id="page_76" n="77"/>
+                <head rend="italic align-center space"><lb/>Pil. Hydragogæ. <hi rend="roman">D.</hi>
+                    W. </head>
+                <list rend="italic indentall hanging space">
+                    <lb/>
+                    <item>℞ GGG. <hi rend="roman">℥ij</hi>. </item>
+                    <lb/>
+                    <item>Sena <hi rend="roman">℥ſs</hi>. </item>
+                    <lb/>
+                    <item>Crem. Tartari <hi rend="roman">ʒij</hi>. </item>
+                    <lb/>
+                    <item>Ol. Aniſi <hi rend="roman">ʒjſs</hi>. </item>
+                    <lb/>
+                    <item>Syr. e Spin. Cer. q. ſ. f. Maſs. </item>
+                </list>
+                <div>
+                    <head rend="italic align-center space"><lb/>Dr. <hi rend="roman">W</hi>—'s Pills
+                        to purge Water. </head>
+                    <p rend="indent space"><lb/>Take Gamboge 2 Ounces, Sena half an <lb/>Ounce,
+                        Cream of Tartar 2 Drams, Oyl of <lb/>Aniſeed 1 Dram and half, Syrup of <w
+                            part="I">Buck-</w><lb/><w part="F">thorn</w> a ſufficient Quantity to
+                        make them <lb/>into a Maſs of a proper Conſiſtence for <lb/>Pills. </p>
+                    <p rend="indent space"><lb/>Theſe purge much, and carry off a great
+                        <lb/>Quantity of watery Humours, where-ever <lb/>they are ordered,
+                        particularly for Dropſies, <lb/>and ſuch Cachectick Habits as abound with
+                        <lb/>thoſe Humours. Their Doſe is from 1 <w part="I">Scru-</w><lb/><w
+                            part="F">ple</w>, to half a Dram, made into 4 or 5 Pills. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Pil. Ecphracticæ. <hi rend="roman"
+                        >D.</hi> W. </head>
+                <list rend="italic indentall hanging space">
+                    <lb/>
+                    <item>℞ Specier. Hieræ noſtr. <hi rend="roman">℥ij</hi>. </item>
+                    <lb/>
+                    <item>Sal. Martis <hi rend="roman">℥ſs</hi>. </item>
+                    <lb/>
+                    <item>Syr. e quinque Radicibus q. ſ. ut f. Pil. <lb/>mediocres cap. <hi
+                            rend="roman">vj</hi>. vel <hi rend="roman">vij</hi>. bis de die. </item>
+                </list>
+                <div>
+                    <pb xml:id="page_77" n="78"/>
+                    <head rend="italic align-center space"><lb/>Dr. <hi rend="roman">W</hi>—'s
+                        Ecphractick Pills. </head>
+                    <p rend="indent space"><lb/>Take of Species Hiera Picra 2 Ounces, <lb/>Salt of
+                        Steel half an Ounce, Syrup of the 5 <lb/>opening Roots a ſufficient Quantity
+                        to make <lb/>them into a Maſs to be formed into Pills of <lb/>a moderate
+                        bigneſs, of which 6 or 7 are to <lb/>be taken twice in a Day. </p>
+                    <p rend="indent space"><lb/>Theſe differ very little from the Pills <w part="I"
+                            >un-</w><lb/><w part="F">der</w> the ſame Title a little before
+                        mention'd, <lb/>only the Quantity of Steel here is in <w part="I"
+                            >ſome-</w><lb/><w part="F">what</w> a larger Proportion than in them.
+                        <lb/>They are given to the ſame purpoſes as <lb/>there obſerved. </p>
+                </div>
+            </div>
+            <div type="section">
+                <head rend="italic align-center space"><lb/>Pil. ad Gonorrhœam. <hi rend="roman"
+                        >D.</hi> W. </head>
+                <list rend="italic indentall hanging space">
+                    <lb/>
+                    <item>℞ Reſin. Jallap. <hi rend="roman">℥ij</hi>. </item>
+                    <lb/>
+                    <item>Fol. Senæ; </item>
+                    <lb/>
+                    <item>Gum Guajaci <hi rend="roman">ā ℥j</hi>. </item>
+                    <lb/>
+                    <item>Sal. Tartari <hi rend="roman">ʒij</hi>. </item>
+                    <lb/>
+                    <item>Balſam. Peruv. <hi rend="roman">℥ſs</hi>. </item>
+                    <lb/>
+                    <item>Terebinth. Venet. q. ſ. ut f. maſſa. Doſis <lb/><hi rend="roman">v</hi>.
+                        alter. mane. </item>
+                </list>
+                <div>
+                    <pb xml:id="page_78" n="79"/>
+                    <head rend="italic align-center space"><lb/>Dr. <hi rend="roman">W</hi>—'s Pills
+                        for a Gonorrhœa. </head>
+                    <p rend="indent space"><lb/>Take Reſin of Jallap 2 Ounces, Leaves <lb/>of Sena,
+                        Gum Guajacum, each 1 Ounce, <lb/>Salt of Tartar 2 Drams, Balſam of <hi
+                            rend="italic">Peru</hi>
+                        <lb/>half an Ounce, <hi rend="italic">Venice</hi>-Treacle a ſufficient
+                        <lb/>Quantity to make it into a Maſs for Pills of <lb/>an ordinary Bigneſs,
+                        5 of which are to be <lb/>taken for a Doſe every other Morning. </p>
+                    <p rend="indent space"><lb/>Theſe are ſtrongly purgative, and <w part="I"
+                            >calcu-</w><lb/><w part="F">lated</w> particularly to ſcour the Genital
+                        Parts, <lb/>and thoſe Paſſages as are principally infected <lb/>by Venereal
+                        Taints; inſomuch that they <lb/>will frequently cleanſe away a <hi
+                            rend="italic">Gonorrhœa,</hi>
+                        <lb/>without the Aſſiſtance of Mercury; tho' <lb/>moſt commonly, a Bole with
+                        that is given <lb/>over Night. </p>
+                </div>
+            </div>
+            <gap reason="sampling" unit="pages" quantity="29"/>
+        </body>
+    </text>
+</TEI>

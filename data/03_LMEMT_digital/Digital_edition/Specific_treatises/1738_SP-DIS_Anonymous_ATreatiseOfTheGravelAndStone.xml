@@ -1,0 +1,1362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LMEMT Corpus - Anonymous: A treatise of the gravel and stone</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>Anonymous</persName>
+            </author>
+            <title type="main">A treatise of the gravel and stone, shewing, I. Their nature, causes,
+              difference, and symptoms. II. The method of curing them. III. How to ease and remove
+              the fits when present. And, IV. To prevent them for the future. With their proper
+              remedies prescrib'd; and easily to be prepared, by the patients themselves. Writen,
+              ... by a late learned and eminent physicain [sic] ... </title>
+            <edition n="1"/>
+            <idno type="ESTC">T10657</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/T10657"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>London: printed for J. Torbuck; and E. Torbuck, 1738.</persName>
+              </publisher>
+              <date>1738</date>
+            </imprint>
+            <extent>
+              <measure type="format">8⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="7"/>
+              <measure type="count" commodity="body" unit="page" quantity="63"/>
+              <measure type="count" commodity="back" unit="page" quantity="1"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">British Library</orgName>
+            <idno type="ECCO">CW3307863683</idno>
+            <idno type="TCP">K025215.000</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Book on a specific topic: disease"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text xml:lang="eng">
+    <front>
+      <gap reason="sampling" unit="pages" quantity="7"/>
+    </front>
+    <body>
+      <pb xml:id="page_8" n="1"/>
+      <div n="1" type="chapter">
+        <head rend="italic indent hanging"><lb/><hi rend="roman">I.</hi>
+          <lb/>Of the Nature, Cauſes, Difference, <lb/>and Symptoms of the <hi rend="roman"
+            >Gravel</hi> and <hi rend="roman">Stone.</hi>
+        </head>
+        <p rend="indent"><lb/><hi rend="dc(4)">T</hi>HE Diſeaſe of the Stone, either in <lb/>the
+          Kidneys or the Bladder, and <lb/>that of the Gout, which are nearly <lb/>related, are two
+          of the moſt cruel <lb/>and inexorable Tyrants that perſecute the <lb/>Race of Mankind: So
+          great is their <w part="I">Vio-</w><lb/><w part="F">lence</w>, and ſo unextinguiſhed their
+          Fury, that <lb/>they afflict the unhappy Patients with ſuch <lb/>frequent and inſufferable
+          Tortures, as make <lb/>Life an undeſirable Poſſeſſion, and rather a <lb/>Burthen too hard
+          to bear, than a State of <lb/>Satisfaction and Enjoyment. And had not <lb/>the All-wiſe
+          Divine Author, planted in our <lb/>Nature, ſo ſtrong an Averſion to Death and
+          <lb/>Diſſolution, it is highly probable that many, <lb/>grown utterly impatient of
+          undergoing ſuch <pb xml:id="page_9" n="2"/><lb/>a Weight of Miſery, would lay Hands upon
+          <lb/>themſelves, and ſoon put an End to their <lb/>Calamities and their Lives together,
+          the <lb/>Grievance or the firſt to much over-balancing <lb/>the Pleaſure of the laſt.
+          Some, it is true, of <lb/>theſe forlorn Creatures, have endeavoured to <lb/>eaſe
+          themſelves by adventuring on theſe <w part="I">tra-</w><lb/><w part="F">gical</w>
+          Expedients, and, no doubt, Multitudes <lb/>more would follow their Example, did not <lb/>a
+          Principle of Religion among Chriſtians, <lb/>and a powerful Inſtinct of Self-Preſervation
+          <lb/>among all Men, controul their Impatience, <lb/>and prevent Self-execution: Nor is it
+          a Won-<lb/>der they ſhould prefer the Shades and <w part="I">Tran-</w><lb/><w part="F"
+            >quility</w> or the Grave, to the Heats and <w part="I">In-</w><lb/><w part="F"
+            >quietudes</w> of ſuch acute Diſeaſes. </p>
+        <p rend="indent"><lb/>But it muſt be allowed, that of this Pair <lb/>ſo near y allied, the
+          Stone and the Gout, the <lb/>firſt is the moſt terrible, and diſtinguiſhed <lb/>for its
+          Fierceneſs and Cruelty. This Lictor <lb/>and Miniſter of Death, inflicts, above all
+          <lb/>others, the ſharpeſt and moſt inſufferable <lb/>Tortures: What a melancholy Scene!
+          What <lb/>a moving Spectacle of mortal Nature is it, <lb/>to ſee the unhappy Patient
+          extended on the <lb/>Rack, groaning and crying out in Agonies <lb/>of Diſtreſs and
+          unſpeakable Torment: E'er <lb/>Night is half ſpent, he wiſhes for Day; when <lb/>Day
+          appears, he longs for Night; Diſtracted <pb xml:id="page_10" n="3"/><lb/>with his
+          Sufferings, he lies wakeful, <w part="I">count-</w><lb/><w part="F">ing</w> the Hours, any
+          one of which, when <lb/>protracted and multiplied by raging Miſery, <lb/>ſeems a numerous
+          Train, ſo ſluggiſh and <lb/>unprogreſſive does Time grow under <w part="I"
+            >griev-</w><lb/><w part="F">ous</w> Sufferings. He changes his Pillow, but <lb/>not his
+          Pain; new-makes his Bed, but keeps <lb/>his old Inquietudes, and though he often
+          <lb/>turns from Side to Side, he never leaves his <lb/>Agonies behind: They, hapleſs
+          State! know <lb/>no Ceſſation or Interruption: If they <w part="I">ſome-</w><lb/><w
+            part="F">times</w> remit and abate their Violence, they <lb/>ſoon recover their
+          Strength, rekindle their <lb/>Rage, and inſult the Patient with as great <lb/>Fury as
+          before. It muſt therefore be a <w part="I">com-</w><lb/><w part="F">mendable</w> Action,
+          and becoming an <hi rend="italic">Æſcu-<lb/>lapian</hi> worthy to endeavour, with all his
+          <lb/>Might, to repel or diſable this Plague that <lb/>ſo much infeſts Mankind; and
+          therefore <w part="I">ac-</w><lb/><w part="F">cordingly</w> I have undertaken to aſſiſt
+          thoſe <lb/>who have already attacked this Peſt with <lb/>Skill and Vigour: For this is not
+          the Work <lb/>of a ſingle Aggreſſor, but as in hunting down <lb/>a Foreſt Beaſt, or that
+          enormous Bird the <lb/><hi rend="italic">Oſtrich,</hi> many Champions unite their Power,
+          <lb/>armed with various Inſtruments of Death, <lb/>Cutlaſſes, Lances, Hooks, and Javelins,
+          that <lb/>with different Weapons and mutual <w part="I">Aſſiſt-</w><lb/><w part="F"
+            >ance</w> they may ſubdue the Enemy, or at leaſt <pb xml:id="page_11" n="4"/><lb/>oblige
+          him to retreat; ſo, as a ready Auxiliary, <lb/>I bring my Forces, ſuch as they are, to
+          join <lb/>thoſe of abler Combatants, in order to quell <lb/>this formidable Enemy, at
+          leaſt to diminiſh <lb/>his Strength and reſtrain his Fury. </p>
+        <p rend="indent"><lb/>As to the Nature of the Diſeaſe, there are <lb/>ſcarce any Part of the
+          Body privileged from <lb/>breeding Stones in their larger Cavities, or <lb/>more minute
+          Interſtices, which are, in ſome <lb/>meaſure diverſified, according to the Nature <lb/>of
+          the Bowels or Organs where they are <w part="I">pro-</w><lb/><w part="F">duced</w>. They
+          are found ſometimes in the <lb/>external Muſcles of the Body, as well as in <lb/>the
+          Lungs, the Stomach, the Liver, the Gall- <lb/>Bladder, the Bowels or Contents of the
+          <lb/>Abdomen, as well as in the Tongue, the <lb/>Brain, and even the Blood it ſelf: For <w
+            part="I">ſeve-</w><lb/><w part="F">ral</w> credible Authors have affirm'd, that upon
+          <lb/>opening a Vein, ſmall Stones, together with <lb/>the ſpouting Blood have ruſh'd into
+          the <w part="I">Re-</w><lb/><w part="F">ceiver</w>. In all which Neſt, the petrifying <w
+            part="I">Prin-</w><lb/><w part="F">ciples</w>, meeting and embracing each other,
+          <lb/>produce a ſingle Stone, or a Quarry of them <lb/>But this Diſcourſe is confin'd to
+          the Stone in <lb/>the Kidneys, and that in the Bladder, which <lb/>in this Diſſertation I
+          ſhall conſider as the ſame, <lb/>and not as the Diſeaſe of a diſtinct Species <lb/>When it
+          is formed and ſettled in either <w part="I">Kid-</w><lb/><w part="F">ney</w>, it is
+          accompanied with various Symptoms <pb xml:id="page_12" n="5"/><lb/>according as it is
+          large or ſmall, ſmooth or <lb/>rugged, fixed or looſe, cloſely or ſlightly <w part="I"
+            >co-</w><lb/><w part="F">herent</w>, <hi rend="italic">i. e.</hi> hard and ſolid, or
+          friable and <lb/>porous. </p>
+        <p rend="indent"><lb/>Of the minute Stone, that is, the Grit and <lb/>Gravel, formed of
+          ſandy Rudiments in the <lb/>Kidneys or Bladder, which however are <w part="I"
+            >per-</w><lb/><w part="F">fect</w> Stones, there are three Sorts diſtinguiſhed <lb/>by
+          their Colour, that is, White, Yellow, and <lb/>Red. White is the native Complexion of
+          <lb/>theſe little Bodies, Atoms indeed, in reſpect <lb/>of thoſe of the largeſt Dimenſion,
+          as are the <lb/>Sands on the Shore, when compared with <lb/>the Rock at whoſe Feet they
+          lie: Theſe <w part="I">pri-</w><lb/><w part="F">mitive</w> Stones are, however, ſo cloſe
+          and <w part="I">un-</w><lb/><w part="F">porous</w>, that the Coheſion of their Parts, are
+          <lb/>not to be unclaſped and diſſolved, but with <lb/>great Difficulty, inſomuch that they
+          imitate <lb/>the Hardneſs of the Diamond, and will <w part="I">po-</w><lb/><w part="F"
+            >liſh</w> Glaſs, like the Duſt of that Jewel, as <lb/>celebrated Authors aſſert; and it
+          facilitates <lb/>our Belief of the indiſſoluble Structure of <lb/>this Grit, when we
+          reflect on the like <w part="I">Qua-</w><lb/><w part="F">lity</w> in that called
+          Hour-Glaſs Sand, which <lb/>is found, by Experience, to be leſs porous, <lb/>or more ſolid
+          than Flint; and therefore the <lb/>Operators in Glaſs have laid aſide the firſt, <lb/>and
+          now employ the laſt, as Materials for <lb/>their fineſt Works. But theſe minute white <pb
+            xml:id="page_13" n="6"/><lb/>Stones, cannot, as I conceive, give <w part="I"
+            >nephri-</w><lb/><w part="F">tick</w> Pains, or a Fit of the Stone, unleſs a
+          <lb/>Collection or Congeries of them, are <w part="I">involv-</w><lb/><w part="F">ed</w>
+          or united by ſome adventitious, mucous, <lb/>ſlimy, or other anomalous Matter, ſo as to
+          <lb/>form a Moles or Bulk, large enough to <w part="I">ob-</w><lb/><w part="F">ſtruct</w>
+          the Mouths or Channels of the <w part="I">Uri-</w><lb/><w part="F">nary</w> Paſſages, and
+          that, it is true, may <w part="I">ſome-</w><lb/><w part="F">times</w> happen; but,
+          generally ſpeaking, ſince <lb/>the minute pale Stones are ſo ſmooth and <lb/>ſmall, that
+          they may enter with Eaſe the <w part="I">Ori-</w><lb/><w part="F">fices</w> of the Urinary
+          Aquaeducts, and paſſing <lb/>through thoſe Conveyances, may, without <lb/>creating Pain or
+          Trouble, be excluded with <lb/>the common Stream; and though there <lb/>ſhould be a great
+          Quantity of that ſmall <w part="I">in-</w><lb/><w part="F">coherent</w> Sand, it may,
+          however, without <lb/>Difficulty, flow through the Ureters into the <lb/>Bladder with the
+          ſerous Current, and <w part="I">toge-</w><lb/><w part="F">ther</w> with it be diſcharged. </p>
+        <p rend="indent"><lb/>As to the Yellow Gravel, it is evident that <lb/>the minute Particles
+          that compoſe it, are <lb/>ſtained with that Colour, by the alkalizate or <lb/>lixivial
+          Salts of the Urine, which abounds <lb/>with ſuch Contents: And this Mixture in <lb/>the
+          ſmall Yellow Stones, is the Reaſon why <lb/>they are leſs ſolid, and more diſſoluble than
+          <lb/>the White of a purer Compoſition; which is <lb/>likewiſe obſerv'd, and from the ſame
+          Reaſon, <pb xml:id="page_14" n="7"/><lb/>in the Stones generated in the Receptacle of
+          <lb/>the Gall, whoſe Parts have not that ſtrict <lb/>Connexion and cloſe Structure as the
+          White. </p>
+        <p rend="indent"><lb/>The Red Gravel receives that Complexion, <lb/>from being infected with
+          a little Drop of <lb/>Blood iſſuing from ſome lacerated Vein <lb/>where the Gravel lay. </p>
+        <p rend="indent"><lb/>All theſe, if they are ragged and uneven, <lb/>may, by pricking,
+          vellicating, or wounding <lb/>the tender Membranes that include them, <lb/>cauſe either
+          duller and heavier, or more <w part="I">a-</w><lb/><w part="F">cute</w> Pains, according
+          as they are arm'd with <lb/>more or leſs pointed Angles whilſt they lie <lb/>in the <hi
+            rend="italic">Pelvis</hi> or Baſin of the Kidneys, and <lb/>there rouſed and diſturbed
+          by the Motion <lb/>of the Body on Foot or Horſeback, rub <w part="I">up-</w><lb/><w
+            part="F">on</w> and fret the neighbouring Membranes; <lb/>and ſo nephritick Sufferings
+          may ariſe from <lb/>Gravel, which conſiſts in real and perfect <lb/>Stones, as before
+          obſerved, though called <lb/>Sand, or a friable, gritty Matter, by Reaſon <lb/>of their
+          ſmall Dimenſion. This is the firſt <lb/>nephritick Symptom before a larger Stone is
+          <lb/>formed, which, however, is vexatious, and <lb/>often attended not only with Pain, but
+          <lb/>much Inquietude, Sickneſs of the Stomach, <lb/>and a general Diſorder of the whole <w
+            part="I">Oeco-</w><lb/><w part="F">nomy</w>, while the ſandy Atoms, that lie <w part="I"
+            >heap-</w><lb/><w part="F">ed</w> up in the Kidneys, are worked and <w part="I"
+            >agi-</w><lb/><w part="F">tated</w>
+          <pb xml:id="page_15" n="8"/><lb/>by the Motion of the Back or Loins, <lb/>irritate and
+          gaul their Membranes of <w part="I">exqui-</w><lb/><w part="F">ſite</w> Senſe during their
+          Confinement in thoſe <lb/>Lodgings. </p>
+        <p rend="indent"><lb/>It ought to be obſerved, that there are <lb/>often ſound in the Urine
+          of Perſons in good <lb/>Health, or at leaſt not much diſtempered, a <lb/>Red Gravel or
+          Sand, that ſticks to the Sides <lb/>of the Urinal or Chamber-pot that receives <lb/>it;
+          but this is not the genuine Gravel, that <lb/>cauſes nephritick Sufferings, but the <w
+            part="I">Produc-</w><lb/><w part="F">tion</w> of the Blood in Perſons of a ſcorbutick
+          <lb/>Diſpoſition, or a warm Temperament, and <lb/>is diſtinguiſhed from the true Gravel in
+          this, <lb/>that the laſt falls down, immediately after <lb/>the Urine is rendered, to the
+          Bottom of the <lb/>Receiver, whereas the ſpurious Kind does <lb/>not break off from its
+          Mixture and Union <lb/>with the Urine, till after ſome Hours ſtanding <lb/>in that Veſſel,
+          when it is at length looſed <lb/>from its Embraces, precipitated and thruſt <lb/>down by
+          the Cold of the Air, and afterwards, <lb/>if the Urine be gradually heated again, it
+          <lb/>will recover its former Connexion with it, <lb/>which is not the Caſe of the genuine
+            <w part="I">nephri-</w><lb/><w part="F">tick</w> Gravel: Beſides, there is often
+          obſerved<lb/> in Perſons of ſuch a Conſtitution, a thin <w part="I">Sub-</w><lb/><w
+            part="F">ſtance</w> floating on the Surface of their Urine, <lb/>imitating melted Fat or
+          Greaſe, but when it <pb xml:id="page_16" n="9"/><lb/>is skimmed off, and dried upon a
+          Paper <lb/>placed in the Sun, it diſcovers it ſelf to <w part="I">con-</w><lb/><w part="F"
+            >ſiſt</w> of gritty ſaline Concretions, united <w part="I">to-</w><lb/><w part="F"
+            >gether</w> by ſome viſcous or ſlimy Bonds. </p>
+        <p rend="indent"><lb/>If the Stones are of a larger Size than thoſe <lb/>called Sand or
+          Gravel, they affect Humane <lb/>Bodies with yet more painful and afflictive <lb/>Symptoms,
+          and ſuppoſing that their Figure <lb/>is unequal, and varied with many Angles; <lb/>then
+          their Points, eſpecially upon bodily <lb/>Motion, vex and vellicate the Repoſitories
+          <lb/>where they are neſted, and as ſo many ſharp <lb/>Thorns in the Sides of the <hi
+            rend="italic">Pelvis,</hi> continually <lb/>grieve, prick, or wound their Membranes;
+          <lb/>whence ariſes the frequent Diſcharge of <lb/>bloody Urine, a common Symptom of this
+          <lb/>cruel Diſeaſe, which, if freſh, and newly let <lb/>out of the Veins, gives the Urine
+          a red <w part="I">Co-</w><lb/><w part="F">lour</w>, and the Blood is diſcernable to the
+          <lb/>Sight; but if it has lain, for ſome Time, <w part="I">ex-</w><lb/><w part="F"
+            >travaſate</w> in the Bladder, or if but a few <lb/>Drops ſtay in that manner in the
+          Kidneys, <lb/>by turning to grumous and coagulated Clots, <lb/>they impart a dark and
+          blackiſh Tincture to <lb/>the Urine, not unlike to that of Coffee; this <lb/>is a Symptom
+          likewiſe that often <w part="I">accompa-</w><lb/><w part="F">nies</w> this Diſtemper: It
+          is true alſo, that pale <lb/>limpid Water ſometimes attends the <w part="I">Pa-</w><lb/><w
+            part="F">roxyſms</w> of the Stone, like that obſerved in <pb xml:id="page_17" n="10"
+          /><lb/>Convulſive, Hypocondriacal, and Hyſterick <lb/>Paſſions, and from the ſame Cauſe,
+          that is, <lb/>the Spaſmodick Diſorder or Contraction of <lb/>the Syſtem of the Nerves
+          during the Fit. </p>
+        <p rend="indent"><lb/>Another Symptom, that accompanies the <lb/>Stones laſt deſcribed, is
+          great Sickneſs of the <lb/>Stomach, Nauſea, and frequent Vomitings, <lb/>or Strainings to
+          Vomit; for while the Fibres <lb/>in the Kidneys are grieved, and lacerated by <lb/>the
+          rough Stone or Stones bred and confined <lb/>there, the Suffering is propagated to the <w
+            part="I">Sto-</w><lb/><w part="F">mach</w> by a Conſent of Parts, or <w part="I"
+            >Communi-</w><lb/><w part="F">cation</w> of Nerves, from one of thoſe Bowels <lb/>to the
+          other; and this is ſo diſtinguiſhing a <lb/>Symptom of this Diſeaſe in the Kidneys, that
+          <lb/>other Symptoms without this, are not <w part="I">ſuffi-</w><lb/><w part="F">cient</w>
+          to induce the Phyſician to pronounce <lb/>the Diſtemper the Stone. </p>
+        <p rend="indent"><lb/>If the Stone in the Kidneys be ſome Degree <lb/>larger, and likewiſe
+          jagged, it creates <w part="I">un-</w><lb/><w part="F">ſufferable</w> Pains, while it
+          remains in the Pelvis <lb/>or Baſin of the Kidneys, grating and <w part="I"
+            >lacera-</w><lb/><w part="F">ting</w> the encloſing Membrane, or while it <lb/>ſtrives
+          through the Ureters, and wounds the <lb/>Fibres as they make their Way. </p>
+        <p rend="indent"><lb/>When the Stone formed in the Kidneys is <lb/>grown yet larger, and ſo
+          diſproportioned to <lb/>the Mouth of the Ureter, that it cannot enter, <lb/>even though
+          its Superficies is ſmooth and <pb xml:id="page_18" n="11"/><lb/>equal, it will obſtruct
+          the Orifice of that Tube, <lb/>while it attempts to paſs into it, or will ſtick <lb/>in
+          the Channel of it; and while it continues <lb/>fixed there, as it ſtops the Current of the
+            <w part="I">Wa-</w><lb/><w part="F">ter</w> through the Pipe, ſo it creates exquſite and
+          <lb/>enormous Miſery, by diſtending the ſenſible <lb/>Membranes; and if it be unequal and
+          ragged, <lb/>it will produce the moſt afflictive Tortures, <lb/>till it is protruded by
+          Art or Nature through <lb/>the Ureter, and excluded into the Bladder. <lb/>This happens as
+          often as the Stone grows to <lb/>a greater Size than is ſuitable to the Inlet and
+          <lb/>Paſſage of that Tube: And the Effect is the <lb/>ſame if the Stone, though not of a
+            <w part="I">diſpropor-</w><lb/><w part="F">tinate</w> Bulk to paſs the Ureter, ſhould <w
+            part="I">how-</w><lb/><w part="F">ever</w> lye a-croſs the Orifice, for then it will
+          <lb/>obſtruct the Deſcent of the Urine, and create <lb/>great Diſorder, till it find a
+          proper Poſition, <lb/>and its Figure is adapted to the Inlet, and then <lb/>it enters and
+          is at laſt diſcharged. </p>
+        <p rend="indent"><lb/>After the Stone has made its Paſſage through <lb/>the Ureters for ſome
+          Years, by ſtretching and <lb/>enlarging the Road ſo often, it becomes <w part="I"
+            >ca-</w><lb/><w part="F">pacious</w> enough to receive much larger Stones <lb/>than the
+          firſt, and to let them through into <lb/>the Bladder; ſo that the Cavity of the Ureter,
+          <lb/>through which they have paſſed ſo long, is <lb/>by Degrees ſometimes extended to a
+          Finger's <lb/>Breadth, as unqueſtionable Authors aſſure us. <pb xml:id="page_19" n="12"
+          /><lb/>The Stone of the Kidneys is likewiſe <w part="I">conſi-</w><lb/><w part="F"
+            >dered</w> as looſe or fixed; if as looſe and <w part="I">float-</w><lb/><w part="F"
+            >ing</w>, or not adherent to any part of that <lb/>Bowel, but is always attempting to
+          paſs the <lb/>Ureters to the Bladder, it produces the <w part="I">pain-</w><lb/><w
+            part="F">ful</w> Symptoms before deſcribed; but if it is <lb/>fixed, it then Neſts
+          itſelf and ſettles in the <w part="I">Sub-</w><lb/><w part="F">ſtance</w> of the Kidneys,
+          where it grows by <w part="I">Ac-</w><lb/><w part="F">cretion</w> of Parts, and ſpreads
+          like branching <lb/>Coral through the Body of the Kidney; and <lb/>while it lodges there
+          in this quiet and inactive <lb/>State, the Patient may ſometimes feel <w part="I"
+            >Heavi-</w><lb/><w part="F">ness</w>, or a Weight in the Back, which however <lb/>is but
+          an inconſiderable Suffering; and ſome in <lb/>this Condition have felt no Symptom at
+          <lb/>all, and dyed of other Diſtempers; and when <lb/>they were, after Death, diſſected by
+          the Sur-<lb/>geon, a conſiderable Stone has been diſcovered, <lb/>propagated through the
+          Kidney, of which <lb/>however the Patient never complained. </p>
+        <p rend="indent"><lb/>And this was the Caſe, as I have been <w part="I">in-</w><lb/><w
+            part="F">formed</w> of the late Lord <hi rend="italic">Mohun</hi>'s Father, who
+          <lb/>being open'd after he dyed of a Wound <w part="I">re-</w><lb/><w part="F">ceived</w>
+          in a Duel, a large Stone was diſcovered <lb/>ſpreading through the Kidney, of which <w
+            part="I">not-</w><lb/><w part="F">withſtanding</w> in his Life Time he was entirely
+          <lb/>unconſcious. I likewiſe knew an eminent <lb/>Divine, of a very Lean and Unmuſcular <w
+            part="I">Con-</w><lb/><w part="F">ſtitution</w>, who told me in Converſation, that <pb
+            xml:id="page_20" n="13"/><lb/>ſuſpecting he had a Stone in the Kidneys, tryed <lb/>one
+          Night in Bed, if he could not feel it, and <lb/>by preſſing his Loins, much emaciated with
+          <lb/>his long Fingers, he aſſured me he felt the <lb/>Stone, and then, ſaid he, I
+          reflected it muſt <lb/>be a large one propagated through that <w part="I">Bow-</w><lb/><w
+            part="F">el</w>, and therefore that no Medicinal Methods <lb/>ſhould be attempted to
+          break it, leſt the <w part="I">Frag-</w><lb/><w part="F">ments</w> falling into the <hi
+            rend="italic">Pelvis,</hi> ſhould ſtop the <lb/>Paſſage of the Ureters, and create great
+          Fits <lb/>of the Stone; upon this, ſaid he, I fell aſleep, <lb/>and during many Years,
+          thought of it no more, <lb/>till of late ſome Incident, which he named, <lb/>and I have
+          forgotten, brought again to his <lb/>Mind this Obſervation, and when he (ſome <lb/>Years
+          afterwards) Died and was Diſſected, <lb/>a large Stone was found in his Kidney, which
+          <lb/>though he felt, as ſaid before, yet lying <w part="I">un-</w><lb/><w part="F"
+            >diſturbed</w> and quiet in its Neſt, it gave him <lb/>little Uneaſineſs. </p>
+        <p rend="indent"><lb/>The Stone we are diſcourſing of is either <lb/>lighter or heavier, or
+          which is the ſame thing, <lb/>more porus and friable, or more cloſe and <w part="I"
+            >ſo-</w><lb/><w part="F">lid</w>. The Particles that compoſe the firſt, hang
+          <lb/>together by a ſlight Connexion, which is eaſily <lb/>broken and diſſolved, like
+          Flocks of frozen <lb/>Snow, the Sides of a Spunge, or the unſolid <lb/>and porus Subſtance
+          of the Pumice-Stone, <lb/>and theſe by any internal or external Violence, <pb
+            xml:id="page_21" n="14"/><lb/>or milder Motion, are often ſeparated and <lb/>crumbled
+          into Parts, that drop into the Ureters <lb/>and paſs into the Bladder, to be diſcharged,
+          <lb/>and theſe Fragments, like the ſmall ſandy and <lb/>gritty Stones ſpoken of before,
+          produce the <lb/>ſame troubleſome Effects. </p>
+        <p rend="indent"><lb/>I have accounted for the Stones, that owe <lb/>their Production to the
+          Kidneys, and ſhall now <lb/>purſue their Progreſs and follow their Courſe <lb/>to the
+          Bladder. When the Stone generated in <lb/>the Urinary Strainer is diſcharged by the <w
+            part="I">Ure-</w><lb/><w part="F">ter</w> into the common Receiver, it too often
+          <lb/>happens, that it acquires ſo large a Dimenſion, <lb/>that the Outlet of the Bladder
+          is not wide <w part="I">e-</w><lb/><w part="F">nough</w> to let it through, and therefore
+          of <w part="I">Ne-</w><lb/><w part="F">ceſſity</w> it muſt remain impriſoned there, where
+          <lb/>by the Acceſſion of new petrifying Particles, <lb/>and gritty Matter continually
+          deſcending from <lb/>the Kidneys, and adhering to it, its Size is <w part="I"
+            >gra-</w><lb/><w part="F">dually</w> augmented, till it is yet more incapable <lb/>of
+          being excluded, where if it is looſe and <w part="I">float-</w><lb/><w part="F">ing</w>,
+          it produces many grievous Symptoms; <lb/>for though it be only ſmooth and equal, and
+          <lb/>ſo does not lacerate the Bladder, yet it will <lb/>often, as it plays againſt the
+          Neck of it, and <lb/>attempts to paſs through, ſtop the Mouth of <lb/>the Aquaeduct, that
+          conveys away the Urine, <lb/>and by ſo doing, produces very great Torment, <lb/>while the
+          Bladder is exceſſively diſtended, and <pb xml:id="page_22" n="15"/><lb/>unable to
+          diſcharge the encloſed Deluge; and <lb/>if the Stone be uneven and rugged, it will by
+          <lb/>goading and wounding the encompaſſing <lb/>Membranes, create exquiſite Pain and
+          bloody <lb/>Urine, and by long repeated Cruelties of this <lb/>Kind, it frequently forms
+          an Ulcer in the <w part="I">lace-</w><lb/><w part="F">rated</w> Part, which is diſcovered
+          by the <w part="I">Secre-</w><lb/><w part="F">tion</w> of putrid Matter mingled with the
+          Urine; <lb/>for when it has ſtood ſome Hours, a pale ſlimy <lb/>Sediment is precipitated
+          to the Bottom of the <lb/>Receiver, like the Excrement of the Noſe, or <lb/>the Whites of
+          Eggs, and is diſtinguiſhed, from <lb/>the like Matter that deſcends to the Bladder,
+          <lb/>from an Ulcer in the Kidneys, by the Odour, <lb/>which is ſtrong and faetid, if the
+          purulent Mat<lb/>ter comes from an Ulcer in the Bladder, but <lb/>that derived from one in
+          the Kidneys has no <lb/>ſuch offenſive Smell, as ſaid above. And the <lb/>Caſe is the ſame
+          when an Ulcer ariſes in the <lb/>Kidneys or the Neck of the Bladder, not from <lb/>the
+          Stone but from other Cauſes, ſuch as <w part="I">pro-</w><lb/><w part="F">duce</w> Ulcers
+          in the Lungs, in the Inteſtines, or <lb/>other internal Parts, that is, the Impurities
+          <lb/>and incongruous Particles, which by Reaſon <lb/>of their diſproportionate Size and
+          Figure, <w part="I">can-</w><lb/><w part="F">not</w> ſlide through the ſtrait Paſſages of
+          the <lb/>Glands, but ſtick in them, till more of the like <lb/>Nature entangled there,
+          encreaſe the <w part="I">Obſtruc-</w><lb/><w part="F">tion</w> and ſwell the Parts, whence
+          by Degrees <pb xml:id="page_23" n="16"/><lb/>they are inflamed, putrify, and by their <w
+            part="I">Diſ-</w><lb/><w part="F">ruption</w>, form an Ulcer; and when this Diſeaſe
+          <lb/>is produced in the Kidneys or the Bladder, the <lb/>putrid Contents iſſuing from
+          them, and <w part="I">toge-</w><lb/><w part="F">ther</w> with the Urine excluded into the
+            <w part="I">Re-</w><lb/><w part="F">ceiver</w>, ſhew themſelves, as I have ſaid, by
+          <lb/>their viſcous and ropy Quality, and are <w part="I">di-</w><lb/><w part="F"
+            >verſified</w> by their faetid or inoffenſive Smell: <lb/>And it ſhould be obſerved,
+          that their mucous <lb/>and ſlimy Nature, diſtinguiſhes theſe Contents <lb/>from others,
+          that proceed from a ſcorbutick <lb/>or unhealthful Habit of Body, when much <lb/>white,
+          mealy, and light Matter appears in the <lb/>Sediment, and which being without <w part="I"
+            >Con-</w><lb/><w part="F">nexion</w>, upon ſhaking the Glaſs will riſe and <lb/>float
+          incoherent in the Urine, but unſlimy, as <lb/>well as without Faetor: This therefore, as I
+          <lb/>have ſaid, does not proceed from any internal <lb/>Ulcer, but is a Defect ariſing
+          from ſome <w part="I">irre-</w><lb/><w part="F">gular</w> and depraved State of the Blood,
+          that <lb/>communicates with its Serum ſuch Matter <lb/>to the Kidneys. </p>
+        <p rend="indent"><lb/>The Suppreſſion of Urine, occaſioned by a <lb/>Stone too large to paſs
+          the <hi rend="italic">Urethra,</hi> is not <w part="I">at-</w><lb/><w part="F">tended</w>
+          with Sickneſs and Vomiting, as when <lb/>a Stone ſticks in its Paſſage through the <w
+            part="I">Ure-</w><lb/><w part="F">ters</w>, there being no Communication of Nerves
+          <lb/>between the Bladder and the Stomach, to <w part="I">con-</w><lb/><w part="F">vey</w>
+          the Senſations from one to the other. But <pb xml:id="page_24" n="17"/><lb/>exquiſite and
+          grievous Pains however attend it <lb/>from the Diſtention of the Bladder, as I have
+          <lb/>ſaid, and ſometimes a ſmaller Stone, that has <lb/>entered the Mouth of the <hi
+            rend="italic">Urethra,</hi> yet being <lb/>too great to ſlide through, ſtops near the <w
+            part="I">En-</w><lb/><w part="F">trance</w>, or in the Middle, and creates a total
+          <lb/>Suppreſſion of Urine, as well as great Torment. </p>
+        <p rend="indent"><lb/>I have now accounted for the Nature, <w part="I">Pro-</w><lb/><w
+            part="F">perties</w>, and Symptoms of this Diſeaſe, and have <lb/>likewiſe in carrying
+          on my Diſcourſe, <w part="I">inter-</w><lb/><w part="F">mixed</w> an Ennumeration of its
+          various Kinds, <lb/>diſcriminated by the Receptacles, where the <lb/>Stone is contained,
+          or by its different Colour <lb/>or various Shape and Figure; and now I ſhall <lb/>proceed
+          to ſearch into the Cauſes of it. </p>
+        <p rend="indent"><lb/>The remote, antecedent Cauſe of the Stone, <lb/>is a defect in the
+          digeſtive Faculty of the <lb/>Stomach, or that of the Blood, or nervous <lb/>Juices,
+          whence ſuch Impurities and feculent <lb/>Portions remain, as produce the Coagulations
+          <lb/>and Concreſcencies, that become the <w part="I">Founda-</w><lb/><w part="F">tion</w>
+          of the Stone, whoſe Rudiments and <w part="I">pri-</w><lb/><w part="F">mitive</w>
+          Materials, conſiſt in a cloſe <w part="I">Combina-</w><lb/><w part="F">tion</w> of a
+          volatile in a ſuperior, and acid Salt <lb/>in an inferiour Proportion. That theſe two
+          <lb/>are the petrifying Principles, is known by <lb/>Experience, that ſhews us that this
+          is the Effect <lb/>of Acids and Alkalies meeting together; as for <lb/>Example, <hi
+            rend="italic">Juice of Lemon, and Salt of Tartar;</hi>
+          <pb xml:id="page_25" n="18"/><lb/>Let it be ſuppoſed then, that from the <w part="I"
+            >inordi-</w><lb/><w part="F">nate</w> and depraved Concoctions before-named, <lb/>ſuch
+          hard Coalitions, ſlimy Coagulations, or <lb/>cretaceous Confederacies ſhould be left <w
+            part="I">be-</w><lb/><w part="F">hind</w>, and it is eaſy to conceive how, when <lb/>yet
+          more hardened and prepared in the Blood, <lb/>they may by the Power of the urinous Salts
+          <lb/>in the Kidneys, be ſoon converted into gritty, <lb/>ſandy Atoms, which, cluſtring
+          together, and <lb/>cohering, form at length a Stone of the loweſt <lb/>Size; that by the
+          daily Acceſſion of new <w part="I">ſimi-</w><lb/><w part="F">lar</w> Particles, acquires a
+          far greater Dimenſion <lb/>in the Kidneys, and yet a greater after its <lb/>Deſcent from
+          that Bowel to the Bladder; for <lb/>while it is detained, from being too large to be
+          <lb/>excluded, it has more Room to receive <w part="I">Aug-</w><lb/><w part="F"
+            >mentation</w>, whilſt conſtantly fed by the ſandy <lb/>Rivulets, that empty themſelves
+          through the <lb/>Outlets of the Ureters into that Ciſtern, where <lb/>it grows by ſuch
+          Accretion, till ſometimes it <lb/>becomes exceeding large: Thus petrified <w part="I"
+            >Foſ-</w><lb/><w part="F">ſils</w> and Flints in the Earth, as well as rotten,
+          <lb/>Sticks and Pieces of Wood turned to Stone, <lb/>owe their Growth, as well as
+          Production, to <lb/>lapideſcent or ſtony Particles, that continually <lb/>accede to, and
+          ſtrictly embrace the former <w part="I">col-</w><lb/><w part="F">lected</w> Materials; But
+          as to the intrinſick <w part="I">Na-</w><lb/><w part="F">ture</w> of
+          <unclear>#</unclear>he Stone bred in living Creatures, and <lb/>thoſe laſt named, that is,
+          Minerals and <w part="I">Vege-</w>
+          <pb xml:id="page_26" n="19"/><lb/>there is a vaſt Difference; for the greateſt <lb/>Part
+          of the firſt are formed of volatile Salts, or <lb/>Animal Alkalies, but the other are not
+            <w part="I">com-</w><lb/><w part="F">poſed</w> of any ſuch Ingredients. It is truly <w
+            part="I">re-</w><lb/><w part="F">marked</w>, that thoſe who are obnoxious to the
+          <lb/>Stone, are generally of a hot Conſtitution, as <lb/>it is likewiſe obſerved of gouty
+          Patients, by <lb/>which means their Blood is more inclined to <lb/>breed cretaceous, hard,
+          and gritty <w part="I">Combina-</w><lb/><w part="F">tions</w>, which by a certain Degree
+          of Heat, <lb/>are ſoon advanced into proper Materials for <lb/>the Gout and Stone,
+          Diſeaſes ſo nearly related, <lb/>that they are eaſily convertible into each other.
+          <lb/>But of theſe Subjects I have diſcourſed at <lb/>large in my Treatiſe of the Gout, to
+          which <lb/>I refer the Reader. </p>
+        <p rend="indent"><lb/>When the Seeds or Principles of the Stone, <lb/>that is, the viſcous,
+          tough or ſandy <w part="I">Concre-</w><lb/><w part="F">tions</w>, not to be diſſolved and
+          ſeparated from <lb/>the Blood, bearing however a Figure and <w part="I">Di-</w><lb/><w
+            part="F">menſion</w> proper to enter the papillary Glands, <lb/>the Strainers in the
+          Kidneys, they are there yet <lb/>more indurated, and acquire a gritty and <w part="I"
+            >ſabu-</w><lb/><w part="F">lous</w> Conſtitution; though even in the Blood <lb/>itſelf,
+          before the Serum is ſeparated from it by <lb/>the ſecretory Glands, ſmall Stones are often
+          <lb/>formed, as they are in all the Parts of the <lb/>Body, as before obſerved. </p>
+        <pb xml:id="page_27" n="20"/>
+        <p rend="indent"><lb/>It is remarkable that thoſe Countries, that <lb/>lye upon the River
+            <hi rend="italic">Rhine</hi> and the Northern <lb/>Parts of <hi rend="italic"
+            >France,</hi> who drink a thin, ſharp, <lb/>pale Wine, which is more repleniſhed with
+            <lb/><hi rend="italic">Tarcar</hi> than other Fruits of the Vine, <w part="I"
+            >con-</w><lb/><w part="F">cocted</w> by a hotter Sun, are moſt obnoxious <lb/>to the
+          Stone in the Kidneys: For ſuch Wines <lb/>convey to the Blood in great Plenty, a Sort of
+          <lb/>petrifying Fluid, whoſe redundant acid <w part="I">Parti-</w><lb/><w part="F"
+            >cles</w>, before their Nature is changed to an <hi rend="italic">Al-<lb/>kali</hi> by
+          the active Principles of the Blood, <lb/>meeting and combining with the volatile Salts
+          <lb/>there, the Reſult is a hard and tartarous <w part="I">Pro-</w><lb/><w part="F"
+            >duction</w>, eaſily formed into a Stone. </p>
+        <p rend="indent"><lb/>The voluptuous Life of thoſe that eat and <lb/>drink deliciouſly every
+          Day, cannot but <w part="I">ad-</w><lb/><w part="F">miniſter</w> to the Blood, the Seeds
+          and Principles <lb/>of the Stone, in Conſtitutions diſpoſed and <lb/>prepared for that
+          Diſtemper: For theſe coſtly <lb/>and luxurious Meats and Drinks, exceſſively <lb/>and
+          conſtantly ingeſted, being unequal to the <lb/>digeſt ve Power of the Stomach, fill it
+          with a <lb/>Load of Crudities and unconcocted Foods; <lb/>which tranſmitted by the
+          Miniſtry of the <lb/>lacteal Paſſages to the Veins, communicate to <lb/>the Blood, not
+          only great Plenty of noxious <lb/>Impurities, but likewiſe a rich Chyle, <w part="I"
+            >abun-</w><lb/><w part="F">dant</w> in volatile Salts, with ſuch a Proportion <lb/>of
+          Acids, as are apt to create this Diſtemper. </p>
+        <pb xml:id="page_28" n="21"/>
+        <p rend="indent"><lb/>A ſedentary and inactive Life, eſpecially <lb/>when the Perſons are of
+          a vigorous and hot <lb/>Complexion, much promotes the Production <lb/>of the Stone; for
+          while the Blood runs lazy and <lb/>unagitated in its Channels, for want of due <lb/>Labour
+          and Exerciſe of the Limbs to puſh on <lb/>its Streams with due Celerity, it is eaſy to
+          <lb/>conceive how the crude and impure Parts run <lb/>into various Concreſcencies and
+          Coagulations. <lb/>On the contrary, when due Activity, either by <lb/>the Labour of the
+          Hands, or by riding, or <w part="I">o-</w><lb/><w part="F">ther</w> Exerciſes of the Body,
+          the Motion of the <lb/>Blood is accelerated, it is obvious to <w part="I"
+            >appre-</w><lb/><w part="F">hend</w>, that by the Rencounters and mutual <w part="I"
+            >Col-</w><lb/><w part="F">liſions</w> of the Parts daſhing and rubbing upon <lb/>each
+          other, they are broken, divided and <w part="I">atte-</w><lb/><w part="F">nuated</w>, till
+          they become ſo minute and ſo well <lb/>mixed, that the tough, ſlimy, and yet harder
+          <lb/>Combinations are unlocked and diſſolved, by <lb/>which means the Seeds and Rudiments
+          of the <lb/>Stone are prevented, and the Cauſe removed: <lb/>And therefore in this Caſe,
+          as in the Gout, <lb/>the ſedentary Lawyer; the over-thoughtful <lb/>Perſon; the hard
+          Student; and the inactive, <lb/>indolent, and voluptuous Gentleman, are <w part="I"
+            >ob-</w><lb/><w part="F">noxious</w> to this grievous Diſtemper, as are <lb/>likewiſe
+          Men of covetous Tempers; while the <lb/>laborious Husbandman, and Mechanick, the
+          <lb/>daily Traveller, and indefatigable Sportſman, <pb xml:id="page_29" n="22"/><lb/>are
+          ſeldom attacked and tortured by it: For <lb/>theſe keep the Body in a Healthful State,
+          <lb/>while their repeated Exerciſe helps their <w part="I">di-</w><lb/><w part="F"
+            >geſtive</w> Faculties to do their Duty, and refine <lb/>the Blood, by a conſtant
+          Expulſion of <w part="I">inordi-</w><lb/><w part="F">nate</w> and incongruous Humours.
+        </p>
+      </div>
+      <div n="2" type="chapter">
+        <head rend="italic align-center dc(2)"><lb/><hi rend="roman">II.</hi>
+          <lb/>The Method of Curing the <lb/><hi rend="roman">Gravel</hi> and <hi rend="roman"
+            >Stone.</hi>
+        </head>
+        <p rend="indent"><lb/><hi rend="dc(4)">F</hi>IRST, of the loweſt Degree of this <w part="I"
+            >Diſ-</w><lb/><w part="F">eaſe</w>, that is, the ſmall Sand-like
+          Gri<unclear>#</unclear>t, <lb/>either White, Red, or Yellow, which though <lb/>very
+          minute, yet are true Stones, and diſtinct <lb/>from the ſcorbutick Red Matter, that does
+          <lb/>not ſeparate and fall down from the Urine, <lb/>till after ſome Hours ſtanding, and
+          then is <w part="I">pre-</w><lb/><w part="F">cipitated</w> by the Impreſſion of the Cold
+          from <lb/>the Ambient Air, as above deſcribed. The <lb/>Cure of this Diſtemper, conſiſts
+          in the carrying <lb/>off the ſabulous and ſandy Atoms, and <w part="I">pre-</w><lb/><w
+            part="F">venting</w> the Generation of more, and ſo <w part="I">cut-</w><lb/><w part="F"
+            >ting</w> off the Supplies, that uſe to fill the Room <lb/>of the forther, that are
+          diſcharged with the <pb xml:id="page_30" n="23"/><lb/>Urine: And it is highly neceſſary to
+          attempt <lb/>this, leſt otherwiſe the ſmall Stones, <w part="I">continu-</w><lb/><w
+            part="F">ing</w> undiſturbed, ſhould unite and adhere to <lb/>each other, and receiving
+          gradual <w part="I">Augmenta-</w><lb/><w part="F">tion</w>, from new Particles daily
+          arriving, ſhould <lb/>grow to a Stone of great Bulk, and become <lb/>incapable of paſſing
+          the Ureters, or at leaſt <lb/>without great Difficulty and Pain; and when <lb/>they ſlide
+          through and drop into the Bladder, <lb/>ſhould contract there a large Size as before <w
+            part="I">de-</w><lb/><w part="F">ſcribed</w>. For it is highly probable, that the
+          <lb/>Stone is very ſeldom originally generated in <lb/>that Receptacle, and that all, or
+          at leaſt the <lb/>far greateſt Part found there, deſcend thither <lb/>from the Kidneys,
+          and receive their Encreaſe <lb/>from the ſandy and gritty Supplies, tranſmitted <lb/>to it
+          through the Ureters. It has therefore <lb/>been an unhappy Neglect, committed by ſome
+          <lb/>Patients, that though they have long perceived <lb/>a conſiderable Quatity of Gravel
+          diſcharged <lb/>with their Urine, and have felt the Trouble <lb/>and Uneaſineſs of it in
+          their Kidneys, have <lb/>however, taken little Care to clear them of <lb/>theſe gritty
+          Materials, and prevent the <w part="I">breed-</w><lb/><w part="F">ing</w> of more; from
+          which Omiſſion, at length, <lb/>Stones of a bigger Bulk, always painful and <lb/>often
+          fatal, have been produced. </p>
+        <p rend="indent"><lb/>It is therefore evidently the Intereſt of all <lb/>Perſons, when they
+          obſerve that a Quantity of <pb xml:id="page_31" n="24"/><lb/>ſuch Sand and Gravel, the
+          Rudiments and <w part="I">Mo-</w><lb/><w part="F">ther</w> of bigger Stones, is excluded
+          with the <lb/>Urine from the Bladder, to endeavour, by <w part="I">pro-</w><lb/><w
+            part="F">per</w> Means, to free the Kidneys from theſe <w part="I">noxi-</w><lb/><w
+            part="F">ous</w> Inhabitants, and prevent the Generation <lb/>of new Supplies; and in
+          the firſt Place, it is <lb/>requiſite to convey away the Gravel, that is <lb/>already
+          bred, for which Purpoſe the following <lb/>Method is moſt efficacious. </p>
+        <p rend="align-center"><lb/>Firſt Purgatives. </p>
+        <p rend="indent italic hanging"><lb/>Take over Night, going to Bed, of Elixir <lb/> Salutis,
+          three Spoonfuls; and the next <lb/>Morning, drink a Quart or three Pints <lb/>of purging
+          Mineral Waters, ſuch as thoſe <lb/>of <hi rend="roman">Epſom, Dulledge, Acton,
+            Northal</hi>, &amp;c. <lb/> And at Night going to Bed, </p>
+        <p rend="indent italic hanging"><lb/>Take of Milk-Water, two Ounces; <w part="I"
+            >com-</w><lb/><w part="F">pound</w> Water of Horſe-radiſh, half an <lb/>Ounce; twelve
+          Drops of liquid <w part="I">Lauda-</w><lb/><w part="F">num</w>, and three Drachms of
+          Diacodium; <lb/>make it a Draught: repeat both <w part="I">Medi-</w><lb/><w part="F"
+            >cines</w> every other Day and Night, for <lb/>three Times. </p>
+        <p rend="indent"><lb/>After an Interval of three Weeks do the <lb/>ſame, and ſooner, if the
+          Symptoms of the <lb/>Gravel call for it. </p>
+        <pb xml:id="page_32" n="25"/>
+        <p rend="indent hanging"><lb/>Or, <hi rend="italic">Drink alone, two Quarts of ſuch <w
+              part="I">purg-</w><lb/><w part="F">ing</w> Waters ſeveral Days, and then reſt.</hi>
+        </p>
+        <p rend="indent"><lb/>The Reaſon why theſe Waters are very <w part="I">be-</w><lb/><w
+            part="F">neficial</w> for the Purpoſe intended, is, that a <lb/>conſiderable Part of
+          them paſs by Urine, and <lb/>in their Paſſage through the Kidneys, waſh <lb/>away in their
+          Current the Sand and Gravel, <lb/>and ſuffer them not to lodge there, till they <lb/>grow
+          to a Stone of a large Size: And 'tis the <lb/>ſame in reſpect of the Bladder; for the ſame
+          <lb/>Flood that ruſhes down through the Ureters, <lb/>carries off the Gritt from the
+          Receiver, and <lb/>expels it with the Urine. </p>
+        <p rend="indent"><lb/>Diureticks, to be employed in the Intervals <lb/>of purging, for the
+          ſame Purpoſe, are ſuch <lb/>as follow. </p>
+        <p rend="indent italic hanging"><lb/>Take of Roots of Chervil, Stone Parſley, <lb/>Eringo,
+          Fennel, Sorrel, each half an <lb/>Ounce; of Seeds of Burdock, Aniſe, and <lb/>ſweet
+          Fennel, each a Drachm; of <w part="I">Juni-</w><lb/><w part="F">per</w> Berries, three
+          Drachms; boil theſe <lb/>Ingredients, in three Pints of Spring-<lb/>Water, to a Quart; add
+          to it, a Drachm <lb/>of purified Nitre; ſtrain it, and add a <lb/>Pint of Rheniſh Wine:
+          Drink a <w part="I">Quar-</w><lb/><w part="F">ter</w> of a Pint Morning and Evening. </p>
+        <p rend="indent hanging"><lb/>Or, <hi rend="italic">Take Millepedes alive and waſhed,
+            <lb/>fifty, bruiſe them in a Mortar, with a <pb xml:id="page_33" n="26"/><lb/>Quarter of
+            a Pint of Rheniſh Wine, and <lb/>four Ounces of compound Horſe-radiſh <lb/>Water; make a
+            ſtrong Expreſſion for a <lb/>Draught, to be taken twice a Day.</hi>
+        </p>
+        <p rend="indent"><lb/>But the moſt effectual Diuretick for <w part="I">carry-</w><lb/><w
+            part="F">ing</w> off Gravel, and clearing the Parts afflicted <lb/>with it, are mineral
+          unpurging Waters, ſuch <lb/>as thoſe of the <hi rend="italic">Bath, Tunbridge,</hi> the
+            <hi rend="italic">Spaw,</hi>
+          <lb/>and other Chalybeate Springs: For theſe, <lb/>ruſhing with a plentiful Tide through
+          the <w part="I">uri-</w><lb/><w part="F">nary</w> Organs where the Gravel is lodged as
+          <lb/>well as generated, diſturbs its ſeveral Neſts, <lb/>and rolls along in its Stream,
+          the Sand-beds it <lb/>meets in its Way, till at length they are <w part="I"
+            >diſ-</w><lb/><w part="F">charged</w> in the Urine. But this is not the only
+          <lb/>Advantage, that attends the drinking <w part="I">co-</w><lb/><w part="F">piouſly</w>
+          Chalybeate Waters; for beſides this, it <lb/>very much contributes the laying the Axe to
+          <lb/>the Root of the Diſeaſe, and preventing the <lb/>Generation of ſuch petrifying Seeds,
+          as ſhall <lb/>be ſhewn afterwards. There are other <w part="I">diure-</w><lb/><w part="F"
+            >tick</w> Remedies uſeful in this Diſtemper; as a <lb/>Mixture of Water, <hi
+            rend="italic">French</hi> Brandy, and Juice <lb/>of Lemon, called Punch, if made ſmall,
+          and <lb/>not intoxicating, though taken in a <w part="I">conſide-</w><lb/><w part="F"
+            >rable</w> Quantity. <hi rend="italic">Juice or Syrup of Lemons; <lb/>Syrup of
+            Marſh-mallows; and freſh Oil of <lb/>Sweet Almonds;</hi> of each an equal Portion, <pb
+            xml:id="page_34" n="27"/><lb/>mixed and beat together, with as much Sugar <lb/>as is
+          ſufficient to give them a Conſiſtency, <lb/>taken to a Spoonful or two often in a Day, is
+          <lb/>very beneficial; ſo is a Spoonful or two of <lb/><hi rend="italic">compound
+            Juniper-Water of</hi> Cologne, <hi rend="italic">or</hi>
+          <lb/>Holland, <hi rend="italic">drank now and then in a Glaſs of <lb/>White-wine;</hi> add
+          to theſe Remedies, the <w part="I">ex-</w><lb/><w part="F">erciſe</w> of the Body, by
+          riding ſometimes on a <lb/>hard trotting Horſe, ſometimes by hurrying <lb/>in a Coach over
+          paved Stones, or other rugged <lb/>and uneven Ground, (if the Patient can bear <lb/>it)
+          which by the repeated working and <w part="I">Con-</w><lb/><w part="F">cuſſion</w> of the
+          Back, move and diſlodge the <lb/>Gravel in the Kidneys, and force it thence <lb/>into the
+          Bladder, whence it is excluded with <lb/>the Water. </p>
+        <p rend="indent"><lb/>Now to prevent the Production of little <lb/>Stones or Gravel, all
+          thoſe Remedies are <w part="I">re-</w><lb/><w part="F">quired</w> as moſt effectual, that
+          have an <w part="I">opera-</w><lb/><w part="F">tive</w> Vertue, to looſe and diſengage all
+          viſcous <lb/>and tough Coagulations, and diſſolve the <w part="I">Co-</w><lb/><w part="F"
+            >heſion</w> and Structure of cretaceous and gritty <lb/>Coalitions, whence ſmall Stones
+          and Gravel <lb/>are created, ſome in the Blood, and others in <lb/>the urinary Strainers.
+          This is indeed a Matter <lb/>of the greateſt Importance in this Caſe; for if <lb/>this is
+          effected, the formidable and pernicious <lb/>Diſeaſe will be cruſhed in Embrio, and not <w
+            part="I">ſuf-</w><lb/><w part="F">fered</w> to arrive at a mature State. I ſhall <w
+            part="I">there-</w><pb xml:id="page_35" n="28"/><lb/>ſet down the Medicines, endowed
+          with <lb/>the greateſt Force, for procuring this End. </p>
+        <p rend="indent"><lb/>It is eaſy to ſee that thoſe Remedies, that <lb/>reſtore the Blood
+          when depraved, to its native <lb/>Temperament, and keep it in that juſt and <w part="I"
+            >ſa-</w><lb/><w part="F">lutary</w> Conſtitution, which ſpecifially belongs <lb/>to this
+          Animal Fluid, are in general to be <w part="I">cho-</w><lb/><w part="F">ſen</w>; and in
+          this Caſe in particular, thoſe are <lb/>to be inſiſted on, that are moſt capable of <w
+            part="I">diſ-</w><lb/><w part="F">joyning</w> and ſeparating the aſſociated, viſcous,
+          <lb/>and ſandy Particles, that conſpire to the <w part="I">For-</w><lb/><w part="F"
+            >mation</w> of a Stone, and ſo to attenuate and <lb/>refine them, that they may eaſily
+          incorporate <lb/>with the Blood, and produce an uniform and <lb/>equal Mixture. </p>
+        <p rend="indent"><lb/>And for this Purpoſe, Chalybe<unclear>#</unclear>te Medicines,
+          <lb/>prepared by Art or Nature, are the moſt <w part="I">pre-</w><lb/><w part="F"
+            >ferable</w>: And ſince Patients afflicted with this <lb/>Diſeaſe, are commonly of a
+          hotter <w part="I">Conſtitu-</w><lb/><w part="F">tion</w> than others, thoſe Preparations
+          that have <lb/>the leaſt Sulphur left in their Compoſition, are <lb/>moſt beneficial to
+          them; ſuch as the <hi rend="italic">Salt of <lb/>Steel,</hi> or the Tincture of it in
+          Wine: But <w part="I">a-</w><lb/><w part="F">bove</w> all, mineral Waters, impregnated
+          with <lb/>Steel in Embrio, are in this Caſe moſt <w part="I">cele-</w><lb/><w part="F"
+            >brated</w>, which not only dilute and attemper <lb/>the Blood, and carry off in their
+          Current the <lb/>ſandy and petrifying Materials, as before <w part="I">ex-</w><lb/><w
+            part="F">plained</w>, but likewiſe by their active Vertue, <pb xml:id="page_36" n="29"
+          /><lb/>animate, ferment, and exalt the Blood, break <lb/>the Coheſion of the knotty and
+          cretaceous <lb/>Seeds of the Stone, and by wreſting the <w part="I">Parti-</w><lb/><w
+            part="F">cles</w> from each others Embraces, prevent the <lb/>engendering of this
+          Diſeaſe, by the <w part="I">Confede-</w><lb/><w part="F">racy</w> of ſuch Impurities. So
+          that theſe <w part="I">ſalu-</w><lb/><w part="F">tary</w> Springs, are not only highly
+          uſeful in <w part="I">free-</w><lb/><w part="F">ing</w> the Veins from immiſcible and
+          hurtful <lb/>Matter, cleanſing the Urinary Channels, and <lb/>rolling away in their Flood,
+          the Gravel lodged <lb/>in the Cavities, through which their Waters <lb/>make their Way,
+          but they likewiſe very much <lb/>contribute to the Recovery of a juſt Craſis, or
+          <lb/>Conſtitution of Blood, by deſtroying the <w part="I">Prin-</w><lb/><w part="F"
+            >ciples</w> and Rudiments of this Diſeaſe, 'ere yet <lb/>they combine in a Stone of
+          large Size, and <lb/>reach a mature State, which they effect in the <lb/>Manner deſcribed. </p>
+        <p rend="indent"><lb/>But if hard and gravelly Materials, aſſociate <lb/>and unite in the
+          Kidneys, by a ſlight Structure, <lb/>and are rather entangled one with another, and
+          <lb/>hang together like a piece of Spunge, Hoar-<lb/>Froſt, or a Flake of Snow, than
+          ſtrictly <w part="I">co-</w><lb/><w part="F">here</w>, whence they become very porus and
+          <lb/>friable; or if when more cloſely complicated <lb/>and connected, they grow to a
+          greater Bulk, <lb/>and create great Pain either in the Kidneys or <lb/>the Ureters, by
+          grating the Membranes with <lb/>their unequal and ragged Figure in their <w part="I"
+            >Paſ-</w><pb xml:id="page_37" n="30"/><lb/><w part="F">ſage</w>, or by their too large
+          and diſproportionate <lb/>Size, ſtop at the Entrance, or in their Way <lb/>through theſe
+          Tubes, in ſuch Caſes, the proper <lb/>Remedies do remove them from the Kidneys, <lb/>and
+          oblige them to paſs the Uteters into the <lb/>Bladder, are ſuch as theſe. </p>
+      </div>
+      <div n="3" type="chapter">
+        <head rend="align-center dc(2)"><lb/>III. <lb/>How to remove a Fit of the <lb/><hi rend="sc"
+            >Gravel</hi>, or <hi rend="sc">Stone</hi>. </head>
+        <p rend="indent italic hanging"><lb/>Take three or four Spoonfuls of Elixir <w part="I"
+            >Sa-</w><lb/><w part="F">lutis</w>, or of the Tincture or Infuſion of <lb/>Sena and
+          Rhubarb and Anniſeeds, over <lb/>Night, and a Quart of purging Mineral-<lb/>Water the next
+          Morning, and the Night <lb/>following take this Draught, </p>
+        <p rend="indent italic hanging"><lb/>Of Milk-Water, two Ounces; of compound
+          <lb/>Horſe-radiſh-Water, three Drachms; of <lb/>crude Opium colated, a Grain and half;
+          <lb/>Syrup of Marſh-mallows, half an Ounce; <lb/>make it a Draught: And if the Stone or
+          <lb/>Gravel, be not removed, but the Fit <w part="I">con-</w><lb/><w part="F">tinues</w>,
+          take the next Morning, two <lb/>Quarts of the ſame purging Waters, <lb/>either <hi
+            rend="italic">Epſom, Dulledge, Acton,</hi> &amp;c. and <lb/>the Night following, the
+          ſame compoſing <pb xml:id="page_38" n="31"/><lb/>Draught, and ſo the next Morning and
+          <lb/>Night, for three Times, during the Fit; <lb/>and if notwithſtanding, the Paroxyſm
+          <lb/>is ſtill prolonged, then let the Patient <lb/>take the following Draught, going to
+          <lb/>Bed, every Night, if the Pains are <w part="I">vio-</w><lb/><w part="F">lent</w>, or
+          otherwiſe every other Night. </p>
+        <p rend="indent italic hanging"><lb/>Take of Oil of Sweet-Almonds, and Ounce; <lb/>of the
+          pectoral Decoction, a Quarter of <lb/>a Pint; of Syrup of Meconium, ten <lb/>Drachms; make
+          a Draught. </p>
+        <p rend="indent italic hanging"><lb/>Take alſo ſuch oily and diuretick Medicines <lb/>as
+          follow. </p>
+        <p rend="indent italic hanging"><lb/>Take of Oil of Sweet-Almonds, and <w part="I"
+            >Lin-</w><lb/><w part="F">ſeed</w>, drawn without Fire, each an <lb/>Ounce; of Syrup of
+          Lemons and Marſh-<lb/>mallows, each ten Drachms; of Saffron, <lb/>a Scruple; of fine
+          Sugar, as much as is <lb/>ſufficient; let it all be well mixed in a <lb/>marble Mortar,
+          and made a Linctus. <lb/>Let the Patient take a Spoonful or two <lb/>often in a Day and
+          Night. </p>
+        <p rend="indent"><lb/>Small Punch likewiſe, eſpecially if made <lb/>with <hi rend="italic"
+            >Spaw</hi>-Water, is uſeful to puſh on the <lb/>Stone, or Gravel, when either of them
+          ſticks <lb/>in the Ureters, and to clear the Kidneys of <lb/>the Beds of Sand collected
+          there. </p>
+        <pb xml:id="page_39" n="32"/>
+        <p rend="indent italic hanging"><lb/>Juniper-Water, eſpecially that of <hi rend="roman"
+            >Cologne,</hi>
+          <lb/>or <hi rend="roman">Holland,</hi> and the diuretick Apozem, <lb/>above ſet down, are
+          beneficial. </p>
+        <p rend="indent"><lb/>To be more particular, let the Patient in <lb/>the Paroxyſm, that
+          eludes the Force of the <lb/>forementioned Remedies, take the following. </p>
+        <p rend="indent italic hanging"><lb/>Take of Flowers of Camomile, two <w part="I"
+            >Hand-</w><lb/><w part="F">fuls</w>; Roots of Marſh-mallows, ſix <lb/>Drachms; of wild
+          Carrot-Seed, half an <lb/>Ounce; of Venice Turpentine, diſſolved <lb/>with the White of an
+          Egg, three Drachms; <lb/>of the Electuary of Hiera cum Agarick, <lb/>ſix Drachms; make it
+          a Clyſter. </p>
+        <p rend="indent italic hanging"><lb/><hi rend="roman">Or,</hi> Take of the common emollient
+            <w part="I">Decocti-</w><lb/><w part="F">on</w>, twelve Ounces; adding to the <w
+            part="I">Ingre-</w><lb/><w part="F">dients</w> Juniper-Berries, ſix Drachms; <lb/>Seeds
+          of the wild Carrot, three Drachms; <lb/>diſſolve in it of Lenitive Electuary, ten
+          <lb/>Drachms; uſe it for a Clyſter. </p>
+        <p rend="indent italic hanging"><lb/>Let one of theſe Clyſters be given every <lb/>Day, for
+          three or four Times. </p>
+        <p rend="indent"><lb/>For eaſing the Paroxyſm, it will likewiſe be <lb/>very Advantagious,
+          for the Patient to ſit up <lb/>to the Waſte, in a Bath of Lukewarm Water, <lb/>and repeat
+          it two or three Times, or in a <lb/>medicated Bath, which may be made thus.</p>
+        <pb xml:id="page_40" n="33"/>
+        <p rend="indent italic hanging"><lb/>Take of the Leaves of Mallows, Marſh-<lb/>mallows,
+          Pellitory of the Wall, each <lb/>three Handfuls; Flowers of Camomile, <lb/>Melilot, and
+          Elder, each two Handfuls; <lb/>Tops of Camomile, two Handfuls; <w part="I"
+            >Juni-</w><lb/><w part="F">per-Berries</w>, ſix Ounces; of Linſeed, and
+          <lb/>Fenugreek-Seed, each two Ounces; boil <lb/>all in a ſufficient Quantity of
+          Spring-<lb/>Water, and let the Patient ſit in it <lb/>Lukewarm, up to the Waſte, in a <w
+            part="I">Ba-</w><lb/><w part="F">thing</w> Tub. </p>
+        <p rend="indent"><lb/>In this Caſe alſo, there are vaſt Varieties of <lb/>Remedies,
+          preſcribed by celebrated Authors, <lb/>as Fomentations, Liniments, Plaiſters, &amp;c.
+          <lb/>to be externally applied, which <w part="I">notwithſtand-</w><lb/><w part="F"
+          >ing</w>, are little availing for removing a Fit of <lb/>the Stone, or Gravel: The moſt
+          effectual, are <lb/>certainly the Uſe of purging Mineral Waters, <lb/>three or four Times,
+          and taking at Night, <w part="I">af-</w><lb/><w part="F">ter</w> their Operation, a Grain
+          and half of <hi rend="italic">Opium</hi>, <lb/>as before-mentioned, or an equivalent <w
+            part="I">Quan-</w><lb/><w part="F">tity</w> of <hi rend="italic">liquid Laudanum</hi>,
+          that is, about <lb/>thirty Drops.</p>
+        <p rend="indent"><lb/>But in Caſe that Method ſhould not <w part="I">ſuc-</w><lb/><w
+            part="F">ceed</w>, the next moſt valuable Medicines are <lb/>Pills made of
+          Venice-Turpentine, or rather <lb/>Chios, taken to the Quantity of a Scruple, alone,
+          <lb/>or mixed with an equal Part of Rhubarb. </p>
+        <pb xml:id="page_41" n="34"/>
+        <p rend="indent hanging"><lb/>Or, Thus,—<hi rend="italic">Take of Venice, or <w part="I"
+              >Chios-Tur-</w><lb/><w part="F">pentine</w>, four Scruples; of Rhubarb, a <lb/>Drachm;
+            of Salt of Tartar, half a <lb/>Drachm; Cinnamon, half a Scruple; of <lb/>Balſamick
+            Syrap, as much as will make <lb/>a Maſs, to be formed into Pills of <w part="I"
+              >ordi-</w><lb/><w part="F">nary</w> Size; take four every other Day, <lb/>at Bed
+            Time.</hi>
+        </p>
+        <p rend="indent"><lb/>For the ſame End, Emulſions are <w part="I">condu-</w><lb/><w part="F"
+            >cive</w>, ſuch as theſe, </p>
+        <p rend="indent italic hanging"><lb/>Of Sweet-Almonds blanched, number <w part="I"
+            >fif-</w><lb/><w part="F">teen</w>; of Seeds of Melons, Pumpions, <lb/>Violets, each two
+          Drachms; bruiſe them <lb/>together in a marble Mortar, pouring <lb/>on them, gradually, a
+          Quart of Barley-<lb/>Water; ſtrain it for uſe; drink often of <lb/>it, a Quarter of a
+          Pint, or ſix Ounces, <lb/>Day or Night. </p>
+        <p rend="indent italic hanging"><lb/><hi rend="roman">Or,</hi> Take of Seeds of Violets,
+          three <lb/>Drachms; of Seeds of Pumpions, <w part="I">Me-</w><lb/><w part="F">lons</w>,
+          white Poppies, each two Drachms; <lb/>eight blanched Sweet-Almonds; bruiſe <lb/>them
+          together in a Mortar, and pour <lb/>upon them, Milk-Water, and Corn <lb/>Poppy-Water, each
+          a Pint, ſtrain it, <lb/>and make it an Emulſion to be drank as <lb/>the others </p>
+        <pb xml:id="page_42" n="35"/>
+        <p rend="indent"><lb/>Oily Medicines, are likewiſe very uſeful, as <lb/>they envelop and
+          ſoften the acid and <w part="I">acrimo-</w><lb/><w part="F">nious</w> Juices, and promote
+          the Expulſion of <lb/>the Stone, as thus, </p>
+        <p rend="italic indent hanging"><lb/>Take two Spoonfuls of Linſeed-Oil, newly <lb/>drawn,
+          without Fire, twice a Day. </p>
+        <p rend="indent italic hanging"><lb/><hi rend="roman">Or,</hi> Take new Oil of
+          Sweet-Almonds, and <lb/>Linſeed-Oil, drawn without Fire, each <lb/>an Ounce; of Syrup of
+          Marſh-mallows, <lb/>and Violets, of each ſix Drachms; of <lb/>Syrup of Lemons, half an
+          Ounce; of <lb/>Saffron, rubbd fine, half a Scruple; mix <lb/>them well to make a Linctus:
+          Take a <lb/>Spoonful often, ſhaking it well. </p>
+        <p rend="indent italic hanging"><lb/><hi rend="roman">Or,</hi> Take an Ounce of freſh Oil of
+          Sweet-<lb/>Almonds, in a Quarter of a Pint of the <lb/>Decoction for the Syrup of <w
+            part="I">Marſh-mal-</w><lb/><w part="F">lows</w>, and repeat it frequently. </p>
+        <p rend="indent"><lb/>Riding in a Coach, or on Horſeback, in <lb/>rough unequal Ground, or
+          our paved Streets, <lb/>conduces much to the Diſcharge of the Stone, <lb/>or Gravel, when
+          either one or t'other ſticks <lb/>in the Ureter, or <hi rend="italic">Pelvis,</hi> if the
+          Patient can <lb/>endure it. </p>
+        <p rend="indent"><lb/>And while theſe Remedies are made Uſe of, <lb/>opiate Medicines muſt
+          be given, mingled with <lb/>them, or alone, to abate the ſpaſmodick <w part="I">Con-</w>
+          <pb xml:id="page_43" n="36"/><lb/><w part="F">traction</w> of the tender Membranes, and
+          give <lb/>Eaſe to the diſordered and afflicted Spirits, that <lb/>they being lulled to
+          Reſt and Quiet, may ceaſe <lb/>their convulſive Graſps, and the mean Time <lb/>the Stone,
+          or Gravel, ſollicited by city ſmooth <lb/>Remedies, ſlippery and gentle Diureticks, may
+          <lb/>ſlide through the Ureters, and drop, or paſs, <lb/>into the Bladder without
+          Reſiſtance. </p>
+        <p rend="italic indent hanging"><lb/>Take of crude Opium, diſſolved and ſtrained, <lb/>a
+          Grain and half, or two Graine; of the <lb/>pectoral Decoction, a Quarter of a Pint;
+          <lb/>Syrup of Lemons, three Drachms; make <lb/>it a Draught, to be taken at Night, or
+          <lb/>at any Time when the Pain is violent, <lb/>and repeat it as the Symptoms ſhall <w
+            part="I">re-</w><lb/><w part="F">quire</w>. </p>
+        <p rend="indent italic hanging"><lb/><hi rend="roman">Or,</hi> Take of Cinnabar of Antimony,
+          half a <lb/>Scruple; Crabbs-Eyes and Coral, of each <lb/>ſix Grains; Laudanum Opiatum, a
+          Grain <lb/>and half; make it a Powder, to be taken <lb/>at the Draught now preſcribed. </p>
+        <p rend="indent"><lb/>If the Patient is diſpoſed to Vomiting, or <lb/>ſtraining to Vomit,
+          let him take two <w part="I">Spoon-</w><lb/><w part="F">fuls</w> of the following Mixture,
+          and repeat it <lb/>four or five times, once in four Hours. </p>
+        <p rend="italic indent hanging"><lb/>Take of Mint-Water, or Barley Cinnamon-<lb/>Water, two
+          Ounces; of Juice of Lemons, <pb xml:id="page_44" n="37"/><lb/>two Ounces; of Salt of
+          Wormwood, <lb/>a Drachm and half; of Laudanum, a <lb/>Grain and half; make a Mixture. </p>
+        <p rend="indent"><lb/>For eaſing the Pain, and facilitating the <lb/>Paſſage of the Stone,
+          or Gravel, various <w part="I">diu-</w><lb/><w part="F">retick</w> Remedies are
+          recommended, by <w part="I">emi-</w><lb/><w part="F">nent</w> Phyſicians, the following
+          Decoction of <lb/><hi rend="italic">Forreſtus,</hi> is for this Purpoſe, much cried up. </p>
+        <p rend="indent italic hanging"><lb/>Take of Seeds of Mallows, <w part="I"
+            >Marſh-mal-</w><lb/><w part="F">lows</w>, each two Drachms and half; of <lb/>fat lenten
+          Figgs, cut and ſliced, <w part="I">num-</w><lb/><w part="F">ber</w> nine; Sebeſtens in
+          number ſeven; <lb/>boil theſe Ingredients in three Quarts <lb/>of Water, to three Pints:
+          This ſoft <lb/>and ſlippery Decoction, like that for <lb/>making Syrup of Marſh-mallows,
+          or <lb/>the pectoral Decoction, in the <hi rend="roman">London</hi>
+          <lb/>Diſpenſatory, may be improved by <w part="I">o-</w><lb/><w part="F">ther</w>
+          diurclick Ingredients, <hi rend="roman">(viz.)</hi> Seeds <lb/>of Burdock, Roots of
+          Fennel, Violets, <lb/>Eringo, wild Carrots, Juniper-<lb/>Berries, &amp;c. </p>
+        <pb xml:id="page_45" n="38"/>
+        <p rend="italic indent hanging"><lb/>In a Fit of the Stone likewiſe, the <w part="I"
+            >De-</w><lb/><w part="F">coction</w> of the Flowers of Camomile, is <lb/>much applauded
+          by ſome worthy <w part="I">Phy-</w><lb/><w part="F">ſicians</w>; and that of the
+          Water-Lilly; <lb/>and if ſome Drops of ſweet Spirit of <lb/>Salt, or Vitriol, were added
+          to each <lb/>Draught of ſuch diuretick Apozems, <lb/>their Force would be ſtill improved.
+        </p>
+      </div>
+      <div n="4" type="chapter">
+        <head rend="italic indent hanging size(1.7)"><lb/><hi rend="roman">IV.</hi>
+          <lb/>To preſerve from, or prevent the <lb/>return of Fits of the <hi rend="roman"
+            >Stone,</hi> or <lb/><hi rend="roman">Gravel,</hi> when the <w part="I">Pa-</w><lb/><w
+            part="F">roxyſms</w> ceaſe. </head>
+        <p rend="indent"><lb/><hi rend="sc"><hi rend="dc(4)">G</hi>entle</hi> Purgatives of <hi
+            rend="italic">Sena, Rhubarb, <lb/>Elixir Salutis,</hi> &amp;c. taken once in a
+          <lb/>Month or ſix Weeks, are beneficial, as they <lb/>cleanſe the Stomach, and their
+          appending <lb/>Roads from their Impurities, and the crude <lb/>and unconcocted Remains of
+          the Foods <w part="I">ingeſt-</w><lb/><w part="F">ed</w>; but the beſt Way is frequently
+          to uſe <w part="I">purg-</w><pb xml:id="page_46" n="39"/><lb/>Mineral Waters; and in the
+          Intervals, <w part="I">diu-</w><lb/><w part="F">retick</w> and alterative Remedies, ſhould
+          be <lb/>taken, ſuch as theſe that follow. </p>
+        <p rend="italic indent hanging"><lb/>Take of the Pulp of candied Citron-Peel, <lb/>and of
+          the Root of Marſh-mallows, each <lb/>an Ounce; of Species Dialthaeae, and <w part="I"
+            >Di-</w><lb/><w part="F">atragacanth</w> frigid, each a Drachm and <lb/>half; of
+          Crabbs-Eyes, two Drachms; of <lb/>the Seeds of Purſlain, and white <w part="I"
+            >Pop-</w><lb/><w part="F">pies</w>, each a Drachm; of the Fruit of <lb/>Alkakengi, two
+          Scruples; of Gumm <w part="I">Ara-</w><lb/><w part="F">bick</w>, two Drachms; Syrup of <w
+            part="I">Marſh-</w><lb/><w part="F">mallows</w>, as much as will make an <w part="I"
+            >Elec-</w><lb/><w part="F">tuary</w>; take the Quantity of a large <lb/>Nutmeg, or ſmall
+          Cheſnut, twice a Day, <lb/>Drinking after it, a Quarter of a Pint <lb/>of the Decoction
+          for the Syrup of <w part="I">Marſh-</w><lb/><w part="F">mallows</w>. </p>
+        <p rend="indent"><lb/>But for cleanſing the Kidneys, and <w part="I">carry-</w><lb/><w
+            part="F">ing</w> off the Sand and gritty Concreſcences, <lb/>leſt by daily Augmentation,
+          they ſhould at <lb/>laſt form a larger Stone, ſlippery and oily <w part="I">Re-</w><lb/><w
+            part="F">medies</w>, and Turpentine, ſuch as mentioned <lb/>above, Whey, and above all,
+          unpurging <w part="I">Mi-</w><lb/><w part="F">neral</w> Waters of all Kinds, but chiefly
+          the <w part="I">Cha-</w><lb/><w part="F">ybeate</w>, ſuch as <hi rend="italic"
+            >Tunbridge,</hi> muſt be relied <lb/>upon; or the <hi rend="italic">Iſlington</hi>
+          Waters, call'd <hi rend="italic">New-</hi><pb xml:id="page_47" n="40"/><hi rend="italic"
+            ><lb/>Tunbridge</hi>. <hi rend="italic">Millepedes</hi>, are alſo a good <w part="I"
+            >Diu-</w><lb/><w part="F">retick</w> in this Caſe: But I have above treated <lb/>on this
+          Subject, where I have diſcourſed on the <lb/>Gravel, and ſmall ſandy Concretions, which
+          <lb/>are the minuteſt real Stones, and the Seeds <lb/>and Rudiments, that by their
+          Conſluence <lb/>and Coherence, produce thoſe of a greater <w part="I">Dimen-</w><lb/><w
+            part="F">ſion</w>, and to that Diſcourſe I refer the Reader; <lb/>for the true Method of
+          preſerving the Patient <lb/>from the Return of his Paroxyſms, is to <w part="I"
+            >pre-</w><lb/><w part="F">vent</w> the Generation of ſuch fabulous <w part="I"
+            >Mate-</w><lb/><w part="F">rials</w>, out of which the Stone is made, or to <lb/>carry
+          them off before they have formed ſuch <lb/>large Bodies. </p>
+        <p rend="indent"><lb/>It is very uſeful in a Paroxyſm of the Stone, <lb/>to go into a <hi
+            rend="italic">Bath</hi> of Spring-Water moderately <lb/>warm, which by ſtopping Sweat
+          and <w part="I">Perſpi-</w><lb/><w part="F">ration</w>, and ſoothing the Spirits, relaxing
+          and <lb/>dilating the Fibres, promotes Urine, and <lb/>therefore the Protruſion and
+          Expulſion of the <lb/>Stones, that hang or ſtick in the Ureters <lb/>which after they have
+          acquired a conſiderable <lb/>Magnitude, will notwithſtanding ſtrive and <lb/>make their
+          Way for a while through thoſe <lb/>Tubes, which are much ſtretched and enlarged <lb/>by
+          being the beaten Road for Stones to paſs <lb/>from the Kidneys to the Bladder; yet at
+          length <lb/>they encreaſe to ſuch a Size, that when they <lb/>have entered the Orifice of
+          the Ureter, and <pb xml:id="page_48" n="41"/><lb/>are incapable of proceeding farther,
+          they plug <lb/>up the Paſſage, and ſtop the Current of the <lb/>Urine; and if afterwards
+          another Stone of ſuch <lb/>a diſproportionate Size, ſhould fall from the <lb/>Kidney into
+          the Mouth of the other Tube, a <lb/>total Suppreſſion of Urine and Death in a <lb/>ſhort
+          Time, that is, in ten or eleven Days, are <lb/>the Conſequence; for a total and
+          deſtructive <lb/>Stoppage of the Urine, cannot ariſe from the <lb/>Obſtruction of one
+          Ureter; for Nature that has <lb/>framed ſo many double Organs for other <w part="I"
+            >Func-</w><lb/><w part="F">tions</w>, two Eyes, two Ears, two Jugular Veins, <lb/>two
+          Lobes of the Lungs, <hi rend="italic">&amp;c.</hi> that if one of <lb/>theſe Inſtruments
+          ſhould be loſt or become <lb/>defective, the other, at leaſt in a great Meaſure,
+          <lb/>might perform the Office of both; ſo it has <lb/>evidently for the more certain and
+          effectual <lb/>Secretion of the Urine, provided a pair of <w part="I">Con-</w><lb/><w
+            part="F">veyances</w>, one in each Kidney, that if one be <lb/>entirely diſabled and
+          ſtopped up, the other <lb/>may do double Duty, and diſcharge the <w part="I"
+            >Por-</w><lb/><w part="F">tion</w> of Serum, that uſed to run through the <lb/>other
+          Aquaeduct. It is therefore evident to a <lb/>Demonſtration, that no total Suppreſſion of
+          <lb/>the Urine can happen, where both the Ureters <lb/>are not entirely ſtopped; and it is
+          hard to <w part="I">con-</w><lb/><w part="F">ceive</w> how at any Time two Stones ſhould
+          at <lb/>once fall down, one from each Kidney, and <lb/>ſtop in the ſame Inſtant, each of
+          thoſe Organs <pb xml:id="page_49" n="42"/><lb/>of Separation: If therefore a full Stoppage
+          of <lb/>Water happens, and neither of the Ureters was <lb/>before that Time obſtructed, it
+          is moſt <w part="I">agree-</w><lb/><w part="F">able</w> to Reaſon, that we ſhould aſſign
+          another <lb/>Cauſe of that Event, that is, a paralytick <w part="I">Im-</w><lb/><w
+            part="F">potence</w> of the ſecretory ſmall Tubes and <w part="I">pa-</w><lb/><w
+            part="F">pillary</w> Glands, which ſtrain the Serum from <lb/>the Blood, through the
+          Kidneys and Ureters, <lb/>into the Bladder; for if theſe ſecretory Tubes <lb/>by a <hi
+            rend="italic">Paralyſis</hi> affecting the Spirits reſiding in <lb/>them, quite loſe
+          their Tenſion and falling flat <lb/>together cloſe up their <hi rend="italic"
+            >Foramina,</hi> or Paſſages, <lb/>no Serum can be longer ſeparated from the <lb/>Blood,
+          or conveyed into the Receptacle of <lb/>the Urine; and this will prove as effectual and
+          <lb/>adaequate a Cauſe of a total Obſtruction of <lb/>Urine, as if both the Ureters were
+          compleatly <lb/>ſtopped by the falling of two Stones of <w part="I">diſ-</w><lb/><w
+            part="F">proportionate</w> Size into their Mouths. And <lb/>this was the Caſe of an
+          illuſtrious Perſon, one <lb/>of the firſt Rank of the <hi rend="italic">Engliſh</hi>
+          Nobility, who <lb/>having for ſeveral Years been afflicted with <lb/>the Gout, one Day
+          felt a ſevere Pain in one of <lb/>his Shoulders, which after ſome Time ceaſed <lb/>to
+          afflict him; but he had not been long at <lb/>Eaſe, when the Flow of his Urine was
+          entirely <lb/>interrupted, and continued ſo to the eleventh <lb/>Day, when the noble
+          Patient expired, <w part="I">not-</w><lb/><w part="F">withſtanding</w> all the Means and
+          Methods that <pb xml:id="page_50" n="43"/><lb/>his Phyſicians, of whom I had the Honour to
+          <lb/>be one, could direct for his Recovery. Upon <lb/>opening the dead Body there
+          appeared, when <lb/>the K<unclear>#</unclear>dneys were divided, ſome ſmall Stones <lb/>in
+          the <hi rend="italic">Pelvis,</hi> and others entangled in the <lb/>Fibres or Strings of
+          the Kidneys, but no Stone <lb/>in the Mouth or Channel of either Ureter; ſo <lb/>nothing
+          can be more certain, nor more <w part="I">ob-</w><lb/><w part="F">vious</w> to the meaneſt
+          Capacity than this, that <lb/>the Stone could not be the Cauſe of hindring <lb/>the Water
+          from deſcending into the Bladder, <lb/>no Stone being found in the Ureters, nor in
+          <lb/>the Kidneys, of a Size capable of ſtopping the <lb/>Tubes before-named; and had there
+          been bred <lb/>in the Kidneys, any Stones of a ſufficient <w part="I">Big-</w><lb/><w
+            part="F">ness</w>, to have compleatly ſtopped the Ureters, <lb/>yet it muſt be ſuppoſed,
+          as before ſuggeſted, <lb/>that two Stones of ſuch a Magnitude fell at <lb/>the ſame
+          Inſtant, one into the Orifice of each <lb/>Ureter, elſe a total Suppreſſion of Urine could
+          <lb/>not have followed; and this muſt be ſuppoſed <lb/>ſcarce ever to have happened, and
+          is but <w part="I">bare-</w><lb/><w part="F">ly</w> poſſible. But <hi rend="italic">de
+            facio,</hi> there were no ſuch <lb/>Stoppage found in either Ureter. Yet <w part="I"
+            >not-</w><lb/><w part="F">withſtanding</w> one of the Phyſicians declared <lb/>his
+          Opinion, and obſtinately perſevered in it, <lb/>that the Suppreſſion of Urine, of which
+          the <lb/>Patient dyed, proceeded from the Stone in <lb/>The Kidneys. </p>
+        <pb xml:id="page_51" n="44"/>
+        <p rend="indent"><lb/>Theſe are the beſt preſervatory Means <lb/>againſt the Return of this
+          formidable Diſeaſe, <lb/>ſince the true and effectual Way, as mentioned <lb/>above, is
+          either to enable the active <w part="I">Princi-</w><lb/><w part="F">ples</w> of the Blood
+          to keep the Maſs in ſuch an <lb/>equal, regular, and juſt Mixture, and to refine <lb/>and
+          exalt it to ſuch an healthful State, as may <lb/>prevent the Generation of hard and gritty
+            <w part="I">Con-</w><lb/><w part="F">creſcences</w>, that as they are the Foundation of
+          <lb/>the Stone, ſo they adminiſter Materials for <lb/>the Superſtructure; and for
+          procuring this <lb/>End, the Remedies already enumerated are <lb/>moſt availing, in as
+          much as they animate <lb/>and enliven the Spirits, refine and elevate the <lb/>Maſs of
+          Blood, and diſſolve and ſever <w part="I">creta-</w><lb/><w part="F">ceous</w> or ſandy
+          Coalitions, by maintaining its <lb/>Circulation with a due Celerity. To theſe <lb/>may be
+          added ſuch Medicines as ſubdue the <lb/>acid and acrimonious Quality of the Juices, by
+          <lb/>blunting and ſmoothing their ſharp Points and <lb/>Angles, ſuch as <hi rend="italic"
+            >Coral, Crabbs-Eyes, Crabbs-<lb/>Claws, Oyſter-ſhells,</hi> and other teſtaceous, <w
+            part="I">ab-</w><lb/><w part="F">ſorbing</w> and correcting Powders, given with <lb/><hi
+            rend="italic">Aſſes-Milk,</hi> or mixed with other Ingredients <lb/>in Pius or
+          Electuaries; and likewiſe thoſe, that <lb/>are proper to aſſiſt the digeſtive Faculty of
+          the <lb/>Stomach, to concoct the Foods and Liquors <lb/>it receives, into a wholeſome
+          well-laboured <lb/>and duly mixed Maſs of Chyle, that the <w part="I">un-</w><pb
+            xml:id="page_52" n="45"/><lb/>and fæculent Parts, the firſt Seeds <lb/>and Principles
+          which by their Union and <lb/>Coacervation produce the Stone, may be <lb/>prevented. </p>
+        <p rend="indent"><lb/>The Forms of ſuch Medicines that <w part="I">pro-</w><lb/><w part="F"
+            >mote</w> Digeſtion in the Stomach, are ſuch <lb/>as theſe. </p>
+        <p rend="italic indent hanging"><lb/>Take of Conſerve of Roman Wormwood, of <lb/>candied
+          Citron Peel, or the outward <lb/>yellow Rind of the Orange, each an <lb/>Ounce; of Coral,
+          Crabbs-Eyes, and Pearl, <lb/>each a Drachm; of candied Nutmegs, a <lb/>Drachm and half; of
+          Salt of Wormwood <lb/>and Tartar, each two Scruples; of <w part="I">com-</w><lb/><w
+            part="F">pound</w> Powder of Wake-Robin, and the <lb/>Leaves of Chamaepitys, each a
+          Drachm <lb/>and half; of the Syrup from candied <w part="I">Nut-</w><lb/><w part="F"
+            >meg</w>, as much as will make an Electuary. <lb/>Take the quantity of a large Nutmeg,
+          <lb/>every Morning and Evening, <w part="I">drink-</w><lb/><w part="F">ing</w> after it, a
+          Glaſs of Wormwood-wine, <lb/>or the Infuſion of the Root of Gentian, <lb/>or Twenty Drops
+          of the Tincture of <w part="I">Gen-</w><lb/><w part="F">tian</w> in a Glaſs of White-wine. </p>
+        <p rend="indent italic hanging"><lb/><hi rend="roman">Or,</hi> Take of the Tops of Roman <w
+            part="I">Worm-</w><lb/><w part="F">wood</w>, and the leſſer Centaury, each half a
+          <lb/>Pugil; of the Root of Gentian, and <w part="I">Vir-</w><pb xml:id="page_53" n="46"
+          /><lb/>ginian Snake-root, each a Drachm; of <lb/>Cardamom Seeds, two Scruples; of <w
+            part="I">Cori-</w><lb/><w part="F">ander</w> Seeds, two Drachms and half; of <lb/>Salt
+          of Tartar a Drachm; infuſe all in a <lb/>ſufficient Quantity of Spring-Water to <lb/>a
+          Quart; ſtrain it, and add to it, of <w part="I">com-</w><lb/><w part="F">pound</w>
+          Wormwood, and compound <w part="I">Gen-</w><lb/><w part="F">tian</w> Water, each an Ounce
+          and half; take <lb/>a Quarter of a Pint each Morning <w part="I">faſt-</w><lb/><w part="F"
+            >ing</w>, and alſo in the Afternoon, about <lb/>three Hours after Dinner. </p>
+        <p rend="indent italic roman"><lb/><hi rend="roman">Sometimes</hi> Take of Elixir Propriet
+          at is <w part="I">tar-</w><lb/><w part="F">tariſed</w>, five and twenty, or thirty Drops
+          <lb/>in a Glaſs of Mountain White-wine, <lb/>twice a Day, viz. <hi rend="italic">at about
+            Eleven and <lb/>Four.</hi>
+        </p>
+        <p rend="indent"><lb/>Beſides theſe Remedies, moderate Exerciſe, <lb/>pure and well
+          ventilated Air, Regularity and <lb/>Temperance, in Eating and Drinking, muſt be
+          <lb/>carefully obſerved, without which the beſt <lb/>Methods of Phyſick may be unavailing. </p>
+        <p rend="indent"><lb/>As to thoſe Medicines called by the <hi rend="italic">Greek</hi>
+          <lb/>Phyſicians <hi rend="italic">Lithontriptica,</hi> that is, ſuch as <lb/>break and
+          diſſolve the Stone, either in the <lb/>Kidneys or Bladder, and to which many <w part="I"
+            >Em-</w><lb/><w part="F">piricks</w> have pretended, aſſuring us that they
+          <lb/>gradually wear and crumble it away, and <w part="I">re-</w><pb xml:id="page_54"
+            n="47"/><lb/><w part="F">duce</w> it to ſuch minute Fragments, that they <lb/>eaſily
+          paſs the Ureters into the Bladder, and <lb/>with the ſame eaſe ſlide through, and are <w
+            part="I">ex-</w><lb/><w part="F">cluded</w> thence together with the Urine: I <w
+            part="I">ac-</w><lb/><w part="F">knowledge</w> I am incapable of conceiving how <lb/>a
+          Medicine ingeſted by the Mouth can produce <lb/>this Effect. It is true, that the
+          celebrated <hi rend="italic">Car-<lb/>thaginian</hi> General <hi rend="italic"
+            >Hannibal,</hi> as Hiſtorians <w part="I">re-</w><lb/><w part="F">port</w>, found means
+          by Vinegar, or ſome <w part="I">in-</w><lb/><w part="F">vented</w> ſharp and acid Liquor,
+          to diſſolve the <lb/><hi rend="italic">Alpine</hi> Rocks, and ſo to eat his Way through
+          <lb/>thoſe Mountains into <hi rend="italic">Italy.</hi> But if any <w part="I"
+            >Pa-</w><lb/><w part="F">tient</w>, afflicted with the Stone, ſhould ſwallow <lb/>a
+          proper Quantity of this powerful Fluid, were <lb/>it to be had, or any other of like
+          Vertue, ſince <lb/>it muſt firſt undergo a great Alteration by the <lb/>Ferment and
+          digeſtive Faculty of the Stomach, <lb/>and then a farther by mixing with the bilious
+          <lb/>Humours deſcending from the Gall-Bladder, <lb/>and afterwards with the acid Juices
+          iſſuing <lb/>from the <hi rend="italic">Pancreas,</hi> and then another by <w part="I"
+            >paſ-</w><lb/><w part="F">ſing</w> the lacteal Strainers, and mingling its <lb/>Stores
+          with the Lympha brought by numerous <lb/>Water-Pipes into the common Receptacles;
+          <lb/>then another by its Admiſſion into the Veins, <lb/>where during repeated Circulations
+          with great <lb/>Celerity, the Parts by innumerable Attritions, <lb/>Reverberations, and
+          Glances from their violent <lb/><unclear>##</unclear>ſhing and beating one upon another,
+          receive <pb xml:id="page_55" n="48"/><lb/>great Comminution, and are attenuated, <w
+            part="I">ex-</w><lb/><w part="F">alted</w>, and ſmoothed, till they acquire a <w
+            part="I">re-</w><lb/><w part="F">fined</w> volatile State; and at laſt of all, ſince
+          they <lb/>muſt receive another Alteration by entering <lb/>and paſſing the urinary
+          Strainers in the <w part="I">Kid-</w><lb/><w part="F">neys</w>: Let, I ſay, all theſe
+          Changes be <w part="I">contem-</w><lb/><w part="F">plated</w>, and will not, do you think,
+          the <w part="I">Medi-</w><lb/><w part="F">cine</w> ingeſted be unedged and diſarmed of its
+          <lb/>ſharp Points and Angles, and loſe all its <w part="I">diſ-</w><lb/><w part="F"
+            >ſolving</w> or Stone-cutting Quality? For no acid <lb/>Juices, not Vinegar itſelf,
+          continue acid after <lb/>they have mingled and circulated with the <lb/>Blood, and have
+          felt for ſome Time, the <w part="I">di-</w><lb/><w part="F">geſtive</w> Power of its
+          active Principles. </p>
+        <p rend="indent"><lb/>Thoſe bold Perſons therefore that pretend <lb/>to be Maſters of
+          Remedies, which given by the <lb/>Mouth, will break or diſſolve the Stone in the
+          <lb/>Kidneys, or the Bladder, impoſe upon <w part="I">Man-</w><lb/><w part="F">kind</w>,
+          not only becauſe the Medicine loſes its <lb/>peculiar Qualities, by undergoing ſuch a <w
+            part="I">Va-</w><lb/><w part="F">riety</w> of Changes and Alterations, as have been
+          <lb/>enumerated, but likewiſe by mingling and <lb/>being diluted with above Twenty Pound
+          of <lb/>Blood, (for few Men have leſs) and <w part="I">frequent-</w><lb/><w part="F"
+            >ly</w> running its Circuit with it, by which means <lb/>it becomes quite another Thing,
+          before it <lb/>reaches the Stone it was deſigned to diſſolve <lb/>or crumble to pieces. </p>
+        <pb xml:id="page_56" n="49"/>
+        <p rend="indent"><lb/>It muſt be obſerved, that as <w part="I">above-menti-</w><lb/><w
+            part="F">oned</w>, there are ſome porus, light, and friable <lb/>Stones, whoſe
+          Conſtructure is ſo ſlight, that <lb/>they will by a little Shock or Colliſion, <w part="I"
+            >crum-</w><lb/><w part="F">ble</w>, and be divided into ſmall Fragments, while <lb/>the
+          Parts of others ſo ſtrictly cohere, that they <lb/>are ſcarcely capable of Separation; and
+          it is <lb/>of theſe harder and more ſolid Stones that I <lb/>ſpeak, when I ſay they cannot
+          be broken, or <lb/>cut in pieces, by Remedies given at the Mouth, <lb/>but they defy the
+          Edge of the keeneſt <hi rend="italic">Lithon-<lb/>triptick</hi> Weapon in all the Arſenals
+          of <hi rend="italic">Greece.</hi>
+        </p>
+        <p rend="indent"><lb/>When therefore Stones or Gravel are at any <lb/>Time removed from the
+          Kidneys, and <w part="I">exclu-</w><lb/><w part="F">ded</w> with the Urine, it is not by
+          Vertue of any <lb/>Stone-breaking Medicine, acting upon them, <lb/>but by the Operation of
+          its diuretick Quality, <lb/>exciting a great Separation of Serum, which <lb/>ruſhing in a
+          ſwift Current through the <w part="I">Kid-</w><lb/><w part="F">neys</w>, waſhes away in
+          its Streams the Gravel <lb/>and Stones lodged there, that by their <w part="I"
+            >propor-</w><lb/><w part="F">tionate</w> Magnitude are capable of paſſing the
+          <lb/>Ureters, as a ſudden Storm or ſharp Shower of <lb/>Rain, rolls down the Streets in
+          its Torrent, <lb/>the Sand and looſe Stones, as well as other <lb/>promiſcuous Impurities
+          to be carried off by <lb/>the common Drain: Though it is very <w part="I">pro-</w><lb/><w
+            part="F">bable</w> that ſometimes this Flood of Serum, <pb xml:id="page_57" n="50"
+          /><lb/>tranſmitted from the Veins by its immoderate <lb/>Quantity, as well as the Strength
+          of its Tide, <lb/>in its Paſſage through the Kidneys, may <w part="I">like-</w><lb/><w
+            part="F">wiſe</w> diſunite, and ſhatter to Pieces ſome <lb/>ſmaller friable Stones,
+          whoſe Parts hang <w part="I">toge-</w><lb/><w part="F">ther</w> by a very ſlight
+          Connexion. </p>
+        <p rend="indent"><lb/>But if Nature or Art can afford any <w part="I">Medi-</w><lb/><w
+            part="F">cines</w>, that are capable of breaking a hard <lb/>large Stone in the Bladder,
+          the moſt probable <lb/>Way of making them effectual, would be to <lb/>inject them directly
+          into the Bladder; for then, <lb/>having undergone none of thoſe various <w part="I"
+            >Al-</w><lb/><w part="F">terations</w> above enumerated, which thoſe <w part="I"
+            >Re-</w><lb/><w part="F">medies</w> muſt do that are taken by the Mouth, <lb/>they would
+          exert their Stone-diſſolving <w part="I">Ver-</w><lb/><w part="F">tue</w>, if they have
+          any, entire and <w part="I">undiminiſh-</w><lb/><w part="F">ed</w>, and would have the
+          great Advantage of <lb/>acting upon it by immediate Contact, by <lb/>which means the Stone
+          in the Bladder, if it <lb/>could be effected by Medicines, would be <lb/>waſted and
+          moulder away. But Experience <lb/>ſhews that this is not found practicable; for <lb/>were
+          ſuch a Medicine diſcovered, it would <lb/>prevent the Tortures and Miſery of many <w
+            part="I">un-</w><lb/><w part="F">happy</w> Patients, and make the uſeful Art of
+          <lb/>Cutting for the Stone unneceſſary, of which <lb/>I ſhall ſpeak afterwards. </p>
+        <pb xml:id="page_58" n="51"/>
+        <p rend="indent"><lb/>When large Stones are bred in the Kidneys, <lb/>or ſuch as cannot
+          paſs, but with great Pain and <lb/>Difficulty, all forcing diuretick Medicines <lb/>muſt,
+          be forborn, and only ſuch as are ſmooth, <lb/>oily, and ſlippery ſhould be employed; leſt
+          <lb/>ſuch as powerfully provoke Urine, ſhould <w part="I">diſ-</w><lb/><w part="F"
+            >turb</w> and puſh forward the bigger, that lay <lb/>quiet in the Kidneys, into the
+          Ureters, where <lb/>they will either ſtop at the Entrance, or ſtick <lb/>in the Paſſage,
+          and by that Means either ſhut <lb/>up the Mouth, or create a violent Fit of Pain,
+          <lb/>together with bloody Urine, if their Surface <lb/>be rough and ragged; and therefore
+          in ſuch <lb/>Caſes, ſlimy, ſoft, and mucilaginous Remedies, <lb/>are chiefly to be
+          depended on, to promote the <lb/>ſlipping of the Stone into the Bladder: And <lb/>if
+          active Diureticks, have been employed in <lb/>vain to puſh on the Stone, which often <w
+            part="I">hap-</w><lb/><w part="F">pens</w> in a violent Paroxyſm, opiate Medicines
+          <lb/>of good Force ſhould be given, that the Fibres <lb/>of the encloſing Membranes,
+          whilſt <w part="I">ſtimu-</w><lb/><w part="F">lated</w> by the Torture of the Stone, and
+          urged <lb/>by the Medicine deſigned to expel it, being <lb/>eaſed and lulled by their
+          narcotick Vertue, <lb/>may ceaſe to contract themſelves and claſp <lb/>the Stone ſo
+          cloſely, and by dilating and <w part="I">re-</w><lb/><w part="F">laxing</w> themſelves
+          while at Eaſe, may make <lb/>Way for it to ſlide through into the Bladder. <pb
+            xml:id="page_59" n="52"/><lb/>But if the Stone in the Kidneys is large, ſolid, <lb/>and
+          branches through their Subſtance, no <lb/>Means at all ſhould be uſed for its Cure; for
+          <lb/>if there are any Remedies that have Power to <lb/>break and diſlodge its Fragments,
+          which I <w part="I">be-</w><lb/><w part="F">lieve</w>, as I have ſaid, there are not, what
+          <lb/>would that be, but to ſend them down to ſtop <lb/>the Ureters, or to give
+          unſufferable Torments, <lb/>by ſticking in their Channels! </p>
+        <p rend="indent"><lb/>As to the Stone in the Bladder, which, as <lb/>ſaid above, is no more
+          than a Stone firſt <lb/>bred in the Kidney, and thence conveyed <lb/>through the Ureters;
+          where it receives its <w part="I">ob-</w><lb/><w part="F">long</w> Figure, into the
+          Bladder, and gains there <lb/>ſuch a Magnitude, that it becomes incapable <lb/>of being
+          expelled with the Urine, being fed <lb/>and augmented continually with new Gritt <lb/>and
+          ſandy Materials waſhed from the Kidneys <lb/>and falling down into the Bladder; when it
+          <lb/>firſt deſcends into that Receptacle, and its Size <lb/>does not exceed a due
+          Proportion, while it <lb/>floats in the Urine, it often plays, aims, and <lb/>offers at
+          the Orifice of the Urethra, but its <w part="I">Fi-</w><lb/><w part="F">gure</w> or
+          Poſition not being accommodated to <lb/>it, cannot paſs through that urinary Channel;
+          <lb/>and then it not only creates great Uneaſineſs, <lb/>by lying croſs its Mouth, but
+          likewiſe often by <lb/>interrupting the Streams of Urine, and <w part="I">ſome-</w><pb
+            xml:id="page_60" n="53"/><lb/><w part="F">times</w> by totally obſtructing the Paſſage.
+          When <lb/>the Gravel, or Stone, or Stones, are yet ſmall <lb/>enough to enter and paſs the
+          Urethra, to <w part="I">faci-</w><lb/><w part="F">litate</w> their Diſcharge, the Veins
+          ſhould be <lb/>filled with ſuch diuretick Liquors, as I have <lb/>before ſet down, that
+          they may communicate <lb/>a conſtant Flow of Urine to the Bladder, <lb/>which being
+          commonly kept full, will be the <lb/>more apt to eject the Stone, together with the
+          <lb/>Flood that diſtends it. But if it grows ſo <lb/>great, that it becomes unable to make
+          its Way, <lb/>by Reaſon of its diſproportionate Size, it will <lb/>be daily augmented by
+          the Accretion or <w part="I">Ad-</w><lb/><w part="F">dition</w> of new Gritt or Gravel,
+          carried from <lb/>the Kidneys, through the Ureters, by the <lb/>Streams of Urine, as Sand
+          and ſmall Stones, <lb/>are rolled along from a riſing Ground, by Rills <lb/>of Water, that
+          flow down its Sides. Now theſe <lb/>Sands or minute Concretions, as I have <w part="I"
+            >ex-</w><lb/><w part="F">plained</w> above, are the Seeds, or Mother of the <lb/>Stone,
+          that is, the Principles or firſt Materials, <lb/>that combine for the Formation of it in
+          the <lb/>Kidneys, and afterwards to its Augmentation <lb/>in the Bladder; and to hinder
+          its encreaſing <lb/>there to a great Magnitude, thoſe Remedies <lb/>are to be uſed which
+          were enumerated before, <lb/>for cutting off the Generation of Gravel, and <lb/>ſuch ſandy
+          and fabulous Combinations; to <lb/>which I refer the Reader. </p>
+        <pb xml:id="page_61" n="54"/>
+        <p rend="indent"><lb/>But if through Neglect, or the Inability of <lb/>Methods and Medicines
+          to prevent the <w part="I">breed-</w><lb/><w part="F">ing</w> of Sand and Gravel in the
+          Kidneys, which <lb/>waſhed away by the Urine into the Bladder, <lb/>conſtantly feed and
+          amplify the Stones <w part="I">con-</w><lb/><w part="F">fined</w> there, which grow not
+          like Animals and <lb/>Vegetables, by Nouriſhment admitted by the <lb/>Mouth or the Root,
+          and conveyed and <w part="I">diſtri-</w><lb/><w part="F">buted</w> to the outward Parts
+          from the inward, <lb/>but by the daily Acceſs, Accumulation, and <lb/>Adheſion, of hard,
+          ſandy Particles to the <w part="I">Sur-</w><lb/><w part="F">face</w> of the Stone; if, I
+          ſay, the Stone, by the <lb/>Arrival and Complication of new petrifying <lb/>Principles,
+          becomes large and ponderous, and <lb/>being attended with a terrible Train of <w part="I"
+            >Symp-</w><lb/><w part="F">toms</w>, that render the Patient a great Object of
+          <lb/>Compaſſion, while Death is more eligible <lb/>than Life, and no effectual Means can
+          be <w part="I">ſug-</w><lb/><w part="F">geſted</w>, how it may be cut, diſſolved, or <w
+            part="I">crum-</w><lb/><w part="F">bled</w> to pieces, as I have before demonſtrated,
+          <lb/>all that can be done by Medicine, is to quiet <lb/>or reduce the enormous Pains and
+          Torments, <lb/>inflicted by this cruel Diſeaſe; and for the <w part="I">ef-</w><lb/><w
+            part="F">fecting</w> of this, only <hi rend="italic">crude Opium,</hi> or its <w
+            part="I">Pre-</w><lb/><w part="F">parations</w>, the Gift of Divine Benignity to <w
+            part="I">mi-</w><lb/><w part="F">tigate</w> the Tortures, and alleviate the extream
+          <lb/>Miſeries of Mankind, can be depended on. <lb/>This is the Patient's Refuge, and the
+          only <w part="I">Con-</w><pb xml:id="page_62" n="55"/><lb/><w part="F">ſolation</w> to
+          allay his Agonies, and reſtrain the <lb/>Rage of his Sufferings. And therefore in this
+          <lb/>Caſe, let him take the following Pills. </p>
+        <p rend="italic indent hanging"><lb/>Take of Saffron, beat ſmall, three Grains; <lb/>of
+          Extract of Gentian, ſix Grains; of <lb/>crude Opium diſſolved and ſtrained, a <lb/>Grain
+          and half; Balſamick Syrup, <lb/>enough to make it into Pills, for one <lb/>Doſe, to be
+          taken in violent Pains, and <lb/>repeated when the Force of the firſt is <lb/>worn off, if
+          the Torments continue. </p>
+        <p rend="indent"><lb/>But if the Quantity of <hi rend="italic">Opium</hi> preſcribed, is
+          <lb/>not ſufficient to remove the Pain, it may <w part="I">gra-</w><lb/><w part="F"
+            >dually</w> be encreaſed, by adding a Quarter of a <lb/>Grain; and if that likewiſe
+          ſhould be <w part="I">ineffec-</w><lb/><w part="F">tual</w>, add half a Grain, and ſo on,
+          till the <w part="I">Pa-</w><lb/><w part="F">tient</w> has found what is the juſt Quantity
+          that <lb/>will relieve him, and when he has taken his <lb/>Meaſure, and ſettled the
+          Proportion, he will <lb/>be obliged to take it as often as his Agonies <lb/>ſhall make it
+          abſolutely neceſſary. All <lb/>ſmooth, ſoft, and ſlippery Meats and Drinks, <lb/>as well
+          as Medicines muſt be choſen; for <lb/>thoſe of an oppoſite Nature will irritate and
+          <lb/>enrage the Paroxyſm, eſpecially if an Ulcer <pb xml:id="page_63" n="56"/><lb/>attends
+          the Stone, which is an incurable <w part="I">Diſ-</w><lb/><w part="F">eaſe</w>: And as
+          Ulcers produced either in the <lb/>Kidneys, or the Neck of the Bladder, from <lb/>other
+          Cauſes beſides the Stone, elude the <lb/>Force of all Remedies, which is likewiſe the
+          <lb/>Caſe of all other internal Ulcers in the Lungs, <lb/>Liver, <hi rend="italic"
+            >&amp;c.</hi> ſo thoſe, that ariſe from the <w part="I">Fret-</w><lb/><w part="F"
+            >ting</w> and Laceration of the Membranes in the <lb/>Kidneys or the Bladder, by Stones
+          of a rough <lb/>and ragged Superficies, can never be healed, <lb/>at leaſt while the Stone
+          continuing there, is <lb/>always wearing and wounding the Part where <lb/>it lodges: And
+          therefore all that can be done, <lb/>is to drink plentifully of ſmooth, and ſoft <w
+            part="I">Li-</w><lb/><w part="F">quors</w>, beſides taking ſlippery and oily <w part="I"
+            >Reme-</w><lb/><w part="F">dies</w>, that may conſtantly dilute and waſh <w part="I"
+            >a-</w><lb/><w part="F">way</w> the ulcerous Matter, leſt gathering <w part="I"
+            >to-</w><lb/><w part="F">gether</w> in too great a Quantity, it ſhould ſtop <lb/>the
+          Paſſage of the Urine; which Obſtruction <lb/>is ſometimes ſo great, that the Surgeon's
+          Hand <lb/>is neceſſarily required to paſs his Catheter <w part="I">in-</w><lb/><w part="F"
+            >to</w> the Bladder, for the Relief of the Patient, <lb/>through which the impriſoned
+          Urine may <lb/>flow freely out; and the Patient is obliged to <lb/>fly to this Refuge for
+          Eaſe, as often as Clyſters <lb/>and other Medicines ingeſted by the Mouth <lb/>are
+          ineffectual. The ſoft and ſmooth Liquors <lb/>that may aſſiſt the Patient, by diluting the
+            <pb xml:id="page_64" n="57"/><lb/>corrupt Matter, and making it fit to flow, are
+            <lb/><hi rend="italic">Mead,</hi> or other Liquors made of <hi rend="italic">Honey;</hi>
+          alſo <lb/>Decoctions of <hi rend="italic">Barley, Liquoriſh, <w part="I"
+              >Marſh-mal-</w><lb/><w part="F">lows</w>, dryed Figgs, and Raiſins of the Sun,
+            <lb/>ſtoned;</hi> or rather, the following Apozem. </p>
+        <p rend="italic indent hanging"><lb/>Take of Flowers of Mallows, an handful; <lb/>of Root of
+          Marſh-mallows, half an Ounce; <lb/>of ſweet Fennel-Root, an Ounce; of <lb/>Leaves of
+          Violet, Parietaria, each a <lb/>Pugil; of Aniſe and Carraway Seeds, <lb/>each a Drachm and
+          half; boil all in <lb/>three Pints of Spring-Water, to a Quart, <lb/>ſtrain it, and add of
+          Syrup of Marſh-<lb/>mallows, three Ounces; and ſix Drachms <lb/>of the Tincture of
+          Saffron, made with <lb/>Treacle-Water; drink half a Pint, or ſix <lb/>Ounces of it, three
+          Times a Day. </p>
+        <p rend="indent"><lb/>The ſmootheſt and ſofteſt Spring-Water, <lb/>ſhould be choſen for
+          common Drink, ſuch as <lb/>that of <hi rend="italic">Briſtol,</hi> or any other, that
+          riſes from <lb/>Chalk-Hills: A good Draught likewiſe of <lb/><hi rend="italic"
+            >White-wine,</hi> and <hi rend="italic">new Ale,</hi> [mind this] now <lb/>and then
+          repeated, is uſeful to diſlodge and <lb/>carry off the noxious and impure Matter, <w
+            part="I">iſſu-</w><lb/><w part="F">ing</w> from an Ulcer in the Kidneys or Bladder;
+          <lb/>and the Sediment of each of them is <w part="I">diſtin-</w><pb xml:id="page_65"
+            n="58"/><lb/><w part="F">guiſhed</w> by their ſlimy, glutinous and ropy <lb/>Quality,
+          from the white, mealy and light <w part="I">Con-</w><lb/><w part="F">tents</w>, found
+          often in the Urine, from <w part="I">ſcor-</w><lb/><w part="F">butick</w> Cauſes, as above
+          ſuggeſted, that by <lb/>ſhaking the Glaſs, will preſently riſe and float <lb/>in the Boſom
+          of it, which however has no <lb/>weight, nor viſcous, nor gritty Quality, but <lb/>ſwims
+          in pale, diſcontinued, and incoherent <lb/>Matter, communicated to the Urine from the
+          <lb/>Blood, abounding with ſuch Impurities. And <lb/>they are diſcriminated from one
+          another, by <lb/>a fætid and offenſive Smell, proper to the <w part="I">Mat-</w><lb/><w
+            part="F">ter</w> diſcharged from an Ulcer in the Bladder, <lb/>and contracted from long
+          mixing with the <lb/>Urine, which is not found in thoſe ſlimy <w part="I">Con-</w><lb/><w
+            part="F">tents</w> that flow down from the Kidneys, and <lb/>are excluded with the
+          ſerous Streams, as I have <lb/>above explained. </p>
+        <p rend="indent"><lb/>After all, when notwithſtanding the due <lb/>Care and Obſervance of
+          the beſt Rules to <w part="I">pre-</w><lb/><w part="F">vent</w> it, the Stone in the
+          Bladder grows very <lb/>large, and the Pains are greater than Humane <lb/>Patience can
+          bear, the laſt Refuge from this <lb/>dreadful Tormentor, is manual Operation, <lb/>when
+          Inciſion is made into the Bladder, and <lb/>the Stone extracted through the Wound. So
+          <lb/>ſtrong is the Principle of Self-Preſervation, <lb/>and ſo terrible the Idea and
+          Apprehenſion of <pb xml:id="page_66" n="59"/><lb/>Death, that to continue a little longer
+          in <w part="I">Be-</w><lb/><w part="F">ing</w>, Men ſubmit, not only to a great Variety
+          <lb/>of lingering Sufferings and Calamities, but <lb/>likewiſe to the acuteſt Fains, or
+          which their <lb/>yeilding to this Method of curing the Stone, <lb/>is a moſt convincing
+          Evidence. </p>
+        <p rend="indent"><lb/>Though the Cutting for the Stone is a <w part="I">pain-</w><lb/><w
+            part="F">ful</w> Operation, and attended with the Hazard <lb/>of Life, yet many Patients
+          have been relieved <lb/>by it, and continued well after it for many <lb/>Years, eſpecially
+          thoſe, that were Cut in their <lb/>Youth. Yet it muſt be acknowledged, that <lb/>many alſo
+          have miſcarried, either from the <lb/>Nature of the Stone, their ill Habit of Body,
+          <lb/>the Unskilfulneſs of the Operator, or his want <lb/>or ſufficient knowledge in
+          Surgery to heal the <lb/>Wound. And this Misfortune often happens <lb/>likewiſe from the
+          Patient's deferring the <w part="I">Ope-</w><lb/><w part="F">ration</w> too long, out of
+          an Abhorrence of the <lb/>Violence of the Cure, or from flattering Hopes <lb/>that the
+          Diſeaſe will not ariſe to that <w part="I">Extre-</w><lb/><w part="F">mity</w>, and
+          torment them with ſuch <w part="I">inſuffer-</w><lb/><w part="F">able</w> Symptoms. It is
+          therefore the Intereſt <lb/>of Perſons afflicted with it, to undergo the <lb/>Operation,
+          by which the Stone is extracted, <lb/>when as yet it is of a moderate Size, and <w
+            part="I">there-</w><lb/><w part="F">fore</w> more Eaſily to be drawn through the
+          <lb/>Wound, and before their Strength is <w part="I">ex-</w><pb xml:id="page_67" n="60"
+            /><lb/><w part="F">hauſted</w> by long Sufferings, and repeated <w part="I"
+            >Pa-</w><lb/><w part="F">roxyſms</w> of Torture, and before the Ulcer <lb/>that is often
+          formed by it, becomes deep and <lb/>inveterate; and then, while their Vigour is
+          <lb/>unwaſted, and their Conſtitution otherwiſe <lb/>hail, and the Stone not of an
+          extraordinary <lb/>Magnitude, the Operation is likely to be <w part="I">ſuc-</w><lb/><w
+            part="F">ceſſful</w>: And if theſe Rules were obſerved, the <lb/>Lives of many of theſe
+          unhappy Patients <lb/>might be ſaved, that are loſt for want of a <lb/>timely Submiſſion
+          to this Method of Cure. </p>
+        <p rend="indent"><lb/>When the Stone, lapſed from the Kidneys <lb/>into the Bladder, are not
+          augmented there to <lb/>that Proportion, as makes them incapable of <lb/>entering into the
+          Mouth of the <hi rend="italic">Urethra,</hi> yet <lb/>ſometimes after it has entered, it
+          is however <lb/>too large to make its Way through that <w part="I">Aquæ-</w><lb/><w
+            part="F">duct</w>, and therefore ſtops in the Road, where <lb/>it not only creates great
+          Pain, but likewiſe <lb/>obſtructs the Current of the Water, till at <lb/>length there is
+          no Remedy left but the <w part="I">Sur-</w><lb/><w part="F">geon's</w> Art, who in this
+          Caſe eaſily relieves <lb/>the Sufferer, by cutting upon the Stone where <lb/>he feels it
+          lodged, and thruſting it forth <lb/>through the Orifice of the Wound: And this <lb/>is the
+          moſt practicable and leaſt dangerous <lb/>Inſtance of Cutting for the Stone. </p>
+        <pb xml:id="page_68" n="61"/>
+        <p rend="indent"><lb/>As for Cutting into the Bladder, and <w part="I">ex-</w><lb/><w
+            part="F">tracting</w> the Stone thence, various Methods <lb/>have been invented, of
+          which a diſtinct and <lb/>accurate Hiſtory is not the Buſineſs of this <lb/>Diſſertation:
+          It is enough for me in this Place <lb/>to mention the moſt Practicable and ſafeſt
+          <lb/>Way, and this, as I am informed, is that of <lb/>cutting into the Bladder, in the
+          Region above <lb/>the <hi rend="italic">Os Pubis,</hi> lately brought into Uſe. <w
+            part="I">Whe-</w><lb/><w part="F">ther</w> there occur any dark and obſcure Hints
+          <lb/>of this Practice in ancient or modern Authors, <lb/>or whether the firſt Invention
+          does Honour <lb/>to the ingenious Surgeon Mr. <hi rend="italic">Douglaſs,</hi> it is
+          <lb/>certain, that either as Reviver or Inventor of <lb/>this new Method, he has deſeryed
+          well of <lb/>Mankind, and merited the Thanks and <w part="I">Eſ-</w><lb/><w part="F"
+            >teem</w> of all the Faculty, ſince all Ways of <w part="I">per-</w><lb/><w part="F"
+            >forming</w> this Operation known before, were <lb/>accompanied with more difficulty,
+          more <w part="I">ſuf-</w><lb/><w part="F">fering</w>, and greater Hazard of Life. </p>
+        <p rend="indent"><lb/>Before the Patient conſents to undergo this <lb/>Method of Cure, great
+          Care and Caution <lb/>ſhould be uſed, that the Operator may be ſure <lb/>himſelf, and ſo
+          able to ſatisfy the Patient, <lb/>that there is a Stone in the Bladder, the Cauſe <lb/>of
+          all his painful Symptoms, and fit to be <w part="I">ex-</w><lb/><w part="F">tracted</w>.
+          For there have been other Diſeaſes <lb/>of the Bladder, that have ſo perfectly imitated
+            <pb xml:id="page_69" n="62"/><lb/>the Stone in all its Symptoms, and have <w part="I"
+            >im-</w><lb/><w part="F">poſed</w> upon Surgeons, eminent in their Art, <lb/>who after
+          ſtrict Search have pronounced the <lb/>Caſe to be the Stone, yet when they have cut
+          <lb/>the Patient to relieve him, no Stone has been <lb/>found, and upon opening the dead
+          Body, <w part="I">ei-</w><lb/><w part="F">ther</w> a <hi rend="italic">Fungus,</hi> or
+          ſome Excreſcency, grown <lb/>to a great Bigneſs in the Neck of the Bladder, <lb/>or ſome
+          other Diſeaſe, or Errour of Nature <lb/>in the Bladder, appeared to be the only <lb/>Cauſe
+          of all the Nephretick-like Symptoms, <lb/>that afflicted the Patient: And therefore, I
+          <lb/>ſay, the Undertaker, before he attempts the <lb/>Operation, ought with the greateſt
+            <w part="I">Delibera-</w><lb/><w part="F">tion</w>, and moſt careful Scrutiny, to get
+          the <lb/>fulleſt Conviction in himſelf, of the real <lb/>Exiſtence of the Stone in the
+          Place he expects to <lb/>find it. </p>
+        <trailer rend=" center"><lb/>FINIS. </trailer>
+      </div>
+    </body>
+    <gap reason="sampling" unit="pages" quantity="1"/>
+  </text>
+</TEI>

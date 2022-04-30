@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LMEMT Corpus - Anonymous: Inoculation made easy.</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>Anonymous</persName>
+            </author>
+            <title type="main">Inoculation made easy: Containing a full and true discovery of the
+              method practised in the county of Essex. ... With a true receipt to make the
+              preparative powders, repellent pills, and the punch used in inoculation.</title>
+            <edition n="1"/>
+            <idno type="ESTC">N2355</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/N2355"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>London: printed for the author; and sold by R. Withy, at the Royal
+                  Exchange; T. Vernor and J. Chater, on Ludgate-Hill; and L. Hassall, at
+                  Chelmsford.</persName>
+              </publisher>
+              <date>1766</date>
+            </imprint>
+            <extent>
+              <measure type="format">4⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="3"/>
+              <measure type="count" commodity="body" unit="page" quantity="11"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">National Library of Medicine</orgName>
+            <idno type="ECCO">CW3308125369</idno>
+            <idno type="TCP">K001562.000 </idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Book on a specific topic: method"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text xml:lang="eng">
+    <front>
+      <div>
+        <pb xml:id="page_2" n="iii"/>
+        <head rend="align-center">
+          <lb/>TO THE <lb/><hi rend="size(2)">PUBLIC</hi>. </head>
+        <p rend="indent">
+          <lb/><hi rend="dc(2)">T</hi>HE terrible Havock the <hi rend="italic">Small Pox</hi> hath
+          of late made amongſt <lb/>Mankind in ſeveral Parts of the World, together with the
+          <lb/>fearful Apprehenſions ſo many Thouſands now lie under, dreading <lb/>the Effect of
+          this fatal and ſore Diſorder, induces me to offer the <lb/>following Pages to the Public.
+          For I cannot appear juſtifiable to <lb/>myſelf, that a Secret which hath never failed to
+          procure this Diſtem- <lb/>per in the moſt ſafe, eaſy, and mild Manner, ſhould be any
+          longer <lb/>kept from the Public. But, in the Proſecution of this (perhaps) <lb/>a few
+          Individuals, whoſe principal Motive is Self-Intereſt, may be <lb/>offended at my
+          publiſhing a Subject to the World which they think <lb/>ſhould be confined to the Faculty
+          only. <hi rend="italic">Salus Populi,</hi> I think, will <lb/>hold good in the Matter, and
+          to anſwer this Purpoſe more effectually <lb/>I ſhall omit all ſet Phraſes and technical
+          Terms; as the Intention <lb/>of this is not meant to diſplay the Grammarian or Orator,
+          Humanity <lb/>being the leading Principle, for Advantages I want none. Humane <lb/>it muſt
+          evidently be, to point out a certain, plain, and infallible Me- <lb/>thod of relieving the
+          Diſtreſſes of our Fellow-Creatures; few <lb/>Diſorders having produc'd more public
+          Calamity than that loathſome <lb/>Diſtemper, and from Time to Time, the moſt eminent
+          Phyſicians <lb/>have on thoſe Occaſions found themſelves at their <hi rend="italic">ne
+            plus ultra.</hi>
+        </p>
+        <p rend="indent">
+          <lb/>Therefore a Method which is here offer'd, not only regarding <lb/>the Preparation of
+          the Patient, but likewiſe the Treatment during <lb/>the whole Cure; the Efficacy of which
+          being hereby laid open to <pb xml:id="page_3" n="iv"/>
+          <lb/>the Public, the ſurprizing ſalutary Service reſulting will ſpeak more <lb/>for the
+          Author than any pompous Apology. </p>
+        <p rend="indent">
+          <lb/>Diſcoveries of any Kind, however rational or beneficial, are ge- <lb/>nerally
+          received with ſome Degree of Dubiety: It muſt not there- <lb/>fore ſeem ſtrange if this of
+          mine ſhould be objected to by ſome, <lb/>who, for want of other Arguments, will quarrel
+          with it on a religious <lb/>Account: But to thoſe good People I ſhall ſtate this Caſe of
+          Con- <lb/>ſcience by obſerving. That the Almighty God in his great Mercy to <lb/>Mankind
+          hath taught us a Remedy to be uſed to prevent the fatal <lb/>Effects of the <hi
+            rend="italic">Small Pox,</hi> upon the Uſe of which, the Patient will <lb/>be unattended
+          with thoſe direful and dreadful Apprehenſions, ſo <lb/>long the Companions of this
+          Diſtemper; and in conſequence of the <lb/>Means here offered, neither Health nor Life in
+          Danger. To theſe <lb/>People I appeal, whether a Chriſtian may not employ this Remedy,
+          <lb/>and be very thankful to a Supreme Being for his Good Providence <lb/>in cauſing
+          Mankind to be able to make a Diſcovery, ſo beneficial <lb/>and valuable in its Nature; and
+          the peculiar Bleſſing attending the <lb/>Succeſs thereof, evidently to be produc'd by the
+          Thouſands which <lb/>have happily and ſafely recovered without Pain, or even Confinement
+          <lb/>to their Beds. </p>
+        <p rend="indent">
+          <lb/>But poſſibly there may be thoſe, whom no Arguments can prevail <lb/>upon. I ſhall
+          therefore ſpend no more Time in the Attempt to <lb/>convince them of the Lawfulneſs and
+          Goodneſs in the Practice of <lb/>Inoculation, but refer them to Experience, which will
+          certainly <lb/>open the Eyes of thoſe few Oppoſers to this ſafe and ſalutary Method.
+          <lb/>The whole of which I have endeavoured to lay down in a plain and <lb/>eaſy (tho' not
+          elegant) Dreſs; for my Endeavour is to be underſtood <lb/>by every Body, and the Reader
+          may depend that no Medicine is here <lb/>offered but what is founded upon, and is the
+          Reſult of, long Obſer- <lb/>vation and Experience. </p>
+        <p rend="indent">
+          <lb/>I ſhall conclude with obſerving, that thoſe who make uſe of the <lb/>Means here
+          offered them will be ſufficiently convinced of the Humanity <lb/>and Integrity of the
+          Author. </p>
+      </div>
+    </front>
+    <body>
+      <pb xml:id="page_4" n="5"/>
+      <figure rend="space">
+        <figDesc>A horizontal double-line, spanning the whole page. </figDesc>
+      </figure>
+      <head rend="sc size(1.5) space align-center">
+        <lb/>INOCULATION <lb/><hi rend="space">Made Easy, <hi rend="italic">&amp;c.</hi>
+        </hi>
+      </head>
+      <space dim="vertical" unit="lines" quantity="3"> </space>
+      <p>
+        <lb/><hi rend="dc(3)">T</hi>HE fatal Conſequences which in general attend that loath-
+        <lb/>ſome and very dangerous Diſtemper, the <hi rend="sc">Small Pox</hi>, the <lb/>dreadful
+        Havock it has made, from Time to Time, amongſt <lb/>Mankind has induced ſeveral humane,
+        learned, and able Men, to uſe <lb/>their utmoſt Endeavours to find out a Method to render
+        this alarmîng <lb/>Diſorder more mild and favourable. <hi rend="sc">Inoculation</hi> was
+        then thought <lb/>on. The <hi rend="italic">Greeks</hi> are ſaid to be the firſt Nation that
+        practiſed this <lb/>Method; the <hi rend="italic">Turks</hi> are ſuppoſed to have borrowed
+        it from them, <lb/>and practiſed it with the greateſt Succeſs, not only for the <hi
+          rend="italic">Small <lb/>Pox</hi>, but even for the <hi rend="italic">Plague</hi> itſelf.
+        The frequent Accounts we <lb/>had of their great Succeſs in almoſt putting a total Stop to
+        the Fata- <lb/>lity of this ſore Diſtemper, induced us to follow their Example; <lb/>but,
+        however this may be, it was practiſed by us at firſt with no <lb/>very conſiderable Succeſs,
+        yet it proved much more favourable in its <lb/>Effects than the natural Kind. This
+        occaſioned ſeveral others to <lb/>attempt a ſtill farther Improvement, and has from Time to
+        Time, <lb/>been brought to a ſtill greater Degree of Perfection, ſo that out of an
+        <lb/>Hundred Patients, perhaps only Two or Three have loſt their Lives; <lb/>tho' a great
+        Part of them have had the Diſtemper in a very ſore and <lb/>terrible Manner. But by the
+        Aſſiſtance of an Almighty Providence <lb/>we have now brought it to the very utmoſt and
+        greateſt Degree of <lb/>Perfection imaginable; ſo that in fact it now ceaſes to be any
+        longer <pb xml:id="page_5" n="6"/>
+        <lb/>a Diſtemper; for what can be a greater Proof, what can aſcertain <lb/>the Excellency of
+        this new Method more than the plain and con- <lb/>vincing Demonſtrations we have now before
+        our Eyes, and the <lb/>Thouſands of living Witneſſes to prove it? for Nine Thouſand
+        <lb/>People or more, who have been inoculated, (within Thirty Miles <lb/>round the Town of
+          <hi rend="italic">Chelmsford</hi> in <hi rend="italic">Eſſex,</hi> and within the Space of
+        <lb/>theſe two laſt Years) not a Single Patient has loſt his Life; and <lb/>what is ſtill
+        more extraordinary, they have had this Diſtemper in ſo <lb/>mild and favourable a Manner,
+        that the greater Part of them have <lb/>been capable of carrying on their Trades and
+        Buſineſs during the <lb/>whole Time, not being confined by it one Hour to their Bed or
+        <lb/>Room; except out of a Complement to thoſe who have not had it, <lb/>and would be
+        fearful of catching it from them, may have induced <lb/>ſome to keep up a few Days, but not
+        from the Effect of the Diſtem- <lb/>per. This Method has alſo theſe ſeveral Advantages with
+        it; <hi rend="italic">viz.</hi>
+        <lb/>That it has been tried and anſwers with all Ages and Complexions, <lb/>on every
+        Conſtitution; the robuſt and infirm, the black and the fair, <lb/>the corpulent and the
+        lean; and in each extreme Seaſon of the <lb/>Year, the Summer and the Winter. Nor has it
+        failed in any one <lb/>Inſtance; the Patient being ſubject to very ſlight Symptoms, ſenſible
+        <lb/>of very little Sickneſs; nor do what few Eruptions they have, ever <lb/>leave any Scars
+        or Pits behind them. </p>
+      <p rend="indent">
+        <lb/>I think it unneceſſary to ſay any thing farther in Behalf of this <lb/>excellent Method
+        of recovering the Diſtemper. Therefore ſhall <lb/>immediately proceed to lay before my
+        Readers the Manner and Me- <lb/>dicines, which will anſwer all thoſe extraordinary Virtues
+        above <lb/>mentioned. </p>
+      <p rend="indent">
+        <lb/><hi rend="italic">Firſt</hi>, As to the Manner of preparing the Body to receive the
+        <lb/>Infection.—But as the Preparation is material, and of ſome Im- <lb/>portance, I hope no
+        one, who intends to be inoculated, will be ſo <lb/>far an Enemy to themſelves, as not to be
+        ſtrictly careful and atten- <lb/>tive to the Rules here laid down; which are meant to lower
+        the <lb/>Blood and Humours, and render the Body ſufficiently prepared to <lb/>receive the
+        Infection in the moſt favourable Manner. </p>
+      <p rend="indent">
+        <lb/>You muſt abſtain from all Salt Proviſions whatever, nor muſt you <lb/>eat any Kind of
+        Meat or Butter; nor drink Beer or Spirituous Liquors, <lb/>not even Wine; Cheeſe and ſpiced
+        Foods are likewiſe prejudicial.— <pb xml:id="page_6" n="7"/>
+        <lb/>But to make it more clear, I have ſet down a Regimen, or Method <lb/>of preparing,
+        which muſt be continued and perſevered in for Nine <lb/>Days at leaſt, and is as follows: </p>
+      <div>
+        <head rend="italic align-center space">
+          <lb/>Directions for preparing for Inoculation. </head>
+        <div type="subsection">
+          <head rend="italic align-center">
+            <lb/>The <hi rend="sc">Diet</hi> for <hi rend="sc">Breakfast</hi>. </head>
+          <p rend="indent">
+            <lb/>Tea, Coffee, or Chocolate, with dry Toaſt, or ordinary Cake; <lb/>Rice-Milk:
+            Milk-Gruel: Skimmed Milk, Honey and Bread, <hi rend="italic">&amp;c.</hi>
+          </p>
+        </div>
+        <div type="subsection">
+          <head rend="italic align-center">
+            <lb/>For <hi rend="sc">Dinner</hi>. </head>
+          <p rend="indent">
+            <lb/>Plumb or Plain Pudding with Vinegar Sauce, which is made by <lb/>adding Sugar and
+            Vinegar to a proper Quantity of boiled Flour and <lb/>Water: Rice-Pudding:
+            Apple-Pudding: Apple-Pye: Rice-Milk: <lb/>Frumenty: And the Productions of the
+            Kitchen-Garden, with the <lb/>Uſe of Salt. </p>
+        </div>
+        <div type="subsection">
+          <head rend="italic align-center">
+            <lb/>For <hi rend="sc">Supper</hi>. </head>
+          <p rend="indent">
+            <lb/>Any of the above Spoon Meats: Roaſted Potatoes: Turnips, <hi rend="italic"
+              >&amp;c.</hi>
+            <lb/>But, if it can be complied with, going to Bed <hi rend="italic">Supperleſs</hi>,
+            and to <lb/><hi rend="italic">eat ſparingly</hi> even at other Meals, will be moſt
+            proper; and, as <lb/>obſerved above, abſtain from all Fleſh, Butter, Cheeſe, and Spiced
+            <lb/>Food. Moſt Kind of Fruits may be eaten at pleaſure, except on the <lb/>Phyſical
+            Days. </p>
+        </div>
+        <div type="subsection">
+          <head rend="align-center">
+            <lb/>DRINK. </head>
+          <p rend="indent">
+            <lb/>In common it may be Toaſt and Water, Milk and Water, Lemon <lb/>and Water, or
+            Imperial Water; abſtaining from all ſpirituous, <lb/>vinous, and malt Liquors. Moderate
+            Exerciſe withal is neceſſary. </p>
+        </div>
+      </div>
+      <div>
+        <head rend="italic align-center">
+          <lb/>Directions for taking the <hi rend="roman">Preparative Powders</hi>. </head>
+        <p rend="indent">
+          <lb/>After having ſtrictly obſerved the foregoing Rules for Nine Days, <lb/>you muſt take
+          one of the Papers of Powders at Bed-Time, in the <lb/>Pulp of a roaſted Apple, or any
+          Jelly, and next Morning a Paper <lb/>of the Salts, diſſolved in a little boiling Water,
+          drinking plentifully <lb/>of Water-Gruel, Cheeſe-Whey, or Small Tea, as they work. The
+          <lb/>Patient ſhould be very careful of Cold, during the Operation of <pb xml:id="page_7"
+            n="8"/>
+          <lb/>the Phyſic; and if it does not operate Six or Eight Times in about <lb/>Six Hours, it
+          will be neceſſary to take half another Paper of the <lb/>Salts, (more or leſs as Occaſion
+          requires). Or if they be vomited <lb/>up ſhortly after being taken, as ſoon as the
+          Sickneſs is entirely off, <lb/>one of the other Papers of Salts muſt be given. The other
+          Powders <lb/>and Salts are to be taken as above, omitting Three Days between <lb/>each
+          Doſe. The Deficiency of Salts may be had at an Apothecary's: <lb/>It will be requiſite for
+          the Patient to have a Stool on each of the <lb/>intermediate Days during the Preparation,
+          in order to which Stew'd <lb/>Prunes, Roaſted Apples, or Tamarinds, ſhould be eaten
+          occaſionally. </p>
+        <p rend="indent space">
+          <lb/>I ſhall now inform my Reader how to make every Medicine to be <lb/>uſed throughout
+          the Diſorder, and firſt the <hi rend="sc">Preparative Powders</hi>
+          <lb/>are as follows. </p>
+        <p rend="indent space">
+          <lb/>Take ten Grains of Calomel and one Grain of factitious Cinnabar, <lb/>and mix them
+          well together for one Doſe. </p>
+        <p rend="indent space">
+          <lb/>A Child of ſix Years old may take a fourth part of a Paper; from <lb/>eight Years old
+          to twelve half a Paper, and from twelve Years old <lb/>to fifty a whole Paper; from ſixty
+          Years old to an hundred half a <lb/>Paper; be careful not to omit taken the Salts in the
+          Morning as before <lb/>ordered; the Salts are <hi rend="italic">Glauber</hi>'s Salts. A
+          grown Perſon may take <lb/>from half an Ounce to an Ounce, Children half an Ounce only:
+          <lb/>Theſe <hi rend="sc">Powders</hi> greatly cleanſe the Blood, are not only very effec-
+          <lb/>tual to prepare the Body for the <hi rend="italic">Small-Pox</hi>; but may alſo be
+          depend- <lb/>ed upon as a never failing Remedy for Worms, as it ſcours away thoſe
+          <lb/>roped viſcid Humours which are apt to breed them in the Bowels; they <lb/>may be
+          taken with the greateſt Safety by Men, Women and Children, <lb/>obſerving the above Rules:
+          they are good likewiſe in Cutaneous Diſ- <lb/>orders, ſuch as Foulneſs of the Skin, or
+          Sores or Ulcers, and teterous <lb/>Eruptions, the Itch and Leproſy; and thoſe who are
+          unwilling to <lb/>be Inoculated, yet fearful of catching the <hi rend="italic"
+            >Small-Pox</hi>, in the natural <lb/>Way, may in a great Meaſure, be ſecured from it by
+          taking the above <lb/><hi rend="sc">Powders</hi>, for it Purifies the Blood in ſuch a
+          Manner as to render it leſs <lb/>liable to the receive the Infection. Or if the Diſtemper
+          ſhould be <lb/>caught after taking the <hi rend="sc">Powders</hi>, the Patient may depend
+          upon having <lb/>it in a more favourable Manner. Theſe <hi rend="sc">Powders</hi> are alſo
+          very valu- <pb xml:id="page_8" n="9"/>
+          <lb/>able as a Common Purge in the Spring of the Year, but Salts muſt <lb/>in all Caſes be
+          taken after them. Obſerve, that when Children from <lb/>two to five Years old are to be
+          Inoculated, it will not be proper <lb/>to give them the <hi rend="sc">Powder</hi>, but
+          inſtead of which you muſt give them <lb/>a Dram of Manna diſſolved in warm Milk or Water,
+          repeat it each <lb/>Day, and continue it for a Week or ten Days, at the End of which
+          <lb/>time you may Inoculate them. </p>
+        <p rend="indent">
+          <lb/>After the Patient has ſufficiently prepared himſelf by ſtrictly follow- <lb/>ing the
+          Directions for the Regimen; that is, having Dieted himſelf <lb/>one Week, and the next
+          Week dieting as before, and taken his <hi rend="sc"> Pow- <lb/>ders</hi>, he is now fit
+          for Inoculation, which is very eaſily perform'd <lb/>as follows: You muſt get ſome Matter
+          out of a Ripe Pock upon the <lb/>Point of a Needle, ſharp-top Pen-knife, or Launcet, and
+          with any of <lb/>theſe Inſtruments (having the freſh Matter on its point) you muſt
+          <lb/>make a ſmall Inciſion or Prick on the Arm, between the Elbow <lb/>and the Shoulder;
+          you need only make the ſmalleſt Drop of Blood <lb/>appear, and wiping the mattery Part of
+          the Inſtrument on the Place, <lb/>'tis done. In about four or five Days the Inoculated
+          Part will grow <lb/>a little red; in a few Days more it will riſe to a Kind of Puſtule ha-
+          <lb/>ving Matter in it; after which it decreaſes and goes away of itſelf. <lb/>Several of
+          my Patients have only had this Eruption, and no other <lb/>Appearance of the <hi
+            rend="italic">Small-Pox</hi> upon them; but it is as effectual as <lb/>having a large
+          Number of Puſtules. In about ſix or ſeven Days af- <lb/>ter the Inoculation, the Patient
+          ſometimes feels a Kind of a ſlight <lb/>Pain in the Inoculated Arm, in his Back and Head,
+          but all thoſe <lb/>Symptoms ſoon go off. About five Days after the Inoculation, the
+          <lb/>Patient (if of a robuſt groſs Habit of Body) muſt at Night, going to <lb/>Bed, take
+          one of the <hi rend="italic">Repellent Pills</hi>; if it operates but little, take an-
+          <lb/>other in the Morning; if that ſhould have no conſiderable Effect, <lb/>take two more
+          Pills again at Night; on the contrary take only one, <lb/>the remainder to be taken the
+          next Morning. The Intention of theſe <lb/>Pills are to carry off the Matter which would
+          occaſion Eruptions. <lb/>The Pills are made as follows <note place="bottom" n="†"
+            rend="size(0.5)">
+            <p rend="indent">
+              <lb/>† The Patient muſt obſerve to continue ſtrictly to the Regimen till all the
+              Symptoms <lb/>of the <hi rend="italic">Small Pox</hi> have left him: which from the
+              Preparation to the Recovery is gene- <lb/>rally about three Weeks. </p>
+          </note>. </p>
+        <div type="subsection">
+          <pb xml:id="page_11" n="10"/>
+          <head rend="italic align-center">
+            <lb/>The <hi rend="sc">Repellent Pill</hi>. </head>
+          <p rend="hanging">
+            <lb/><hi rend="italic">Take</hi> ten Grains of Kermes Mineral <note place="bottom" n="*"
+              rend="size(0.5)">
+              <p rend="indent">
+                <lb/>* For the Virtues of Kermes Mineral, <hi rend="italic">See</hi> Dr. <hi
+                  rend="italic">James</hi>'s Diſpenſatory. </p>
+            </note>, twenty Grains of the beſt <lb/>Succotrine Aloes, and ten Grains of Camphor, add
+            a ſufficient <lb/>quantity of Spirits of Wine to make them into a Maſs for Pills,
+            <lb/>which is done by beating them together in a Mortar; of this Com- <lb/>poſition make
+            four Pills. </p>
+          <p rend="italic hanging">
+            <lb/><hi rend="roman">N. B.</hi> You muſt firſt pound the Camphor with a few drops of
+            Spirits <lb/>of Wine, then mix the other Ingredients. </p>
+          <p rend="indent">
+            <lb/>Some few have a ſlight Fever at the time of breeding the Pock, <lb/>thoſe are
+            deſired to drink plentifully of the following Decoction, or <lb/><hi rend="italic"
+              >Punch</hi>, as it is termed in <hi rend="italic">Eſſex</hi>. </p>
+          <p rend="indent">
+            <lb/>The Patient may have it made, or make it himſelf, the Effects of <lb/>which is to
+            carry off the Fever. The Receipt is as follows. </p>
+          <p rend="indent">
+            <lb/>Take unground Oats a Handful, and boil them for ſome time in <lb/>a Quart of
+            Spring-Water, then ſtrain it, with which mix half an <lb/>Ounce of Stibiated Nitre, half
+            an Ounce of Citron, or Lemon-Juice, <lb/>and an Ounce and half of the Sirup of Violets.
+            About ſix or ſeven <lb/>Days after Inoculation this Liquor ſhould be drank very
+            plentifully, as <lb/>it tends from its cooling Quality to carry off every Symptom of the
+            <lb/>Fever.—[The Ingredients may be had at any Apothecary's; nor <lb/>muſt the Patient
+            be without it.] </p>
+          <p rend="indent">
+            <lb/>But to make this uſeful Liquor more cheap and eaſy to the Poor, <lb/>I have ſet
+            down another Method of making of it, which in a great <lb/>Meaſure will anſwer all the
+            Intentions of the firſt, and is as follows. </p>
+          <p rend="indent">
+            <lb/>Boil a Handful of Oats in a Quart of Spring-Water, add to it after <lb/>it is
+            ſtrain'd, half an Ounce of Salt-Petre; ſharpen this Liquor with a <lb/>little Lemon
+            Juice or Vinegar, and ſweeten it to the Palate with <lb/>brown Sugar or Honey. </p>
+          <p rend="indent">
+            <lb/>This will not be ſo pleaſant as the firſt Method of making it, tho' <lb/>almoſt as
+            effectual; by drinking plentifully of this the Fever will be <lb/>almoſt immediately
+            lowered: The firſt taking of it ſhould be to drink <lb/>half a Pint, or more at going to
+            Bed at Night. </p>
+          <p rend="indent">
+            <lb/>I have now gone through the whole Progreſs of the Cure, and if all <lb/>the Rules
+            here laid down are ſtrictly attended to, the Patient may de- <lb/>pend upon having the
+            Diſtemper in the moſt favourable manner. </p>
+          <pb xml:id="page_12" n="11"/>
+          <p rend="indent">
+            <lb/>The great Succeſs which in general attends this Method of Ino- <lb/>culation is no
+            ways ſurpriſing; nor need we wonder at ſo many <lb/>dying with it that have it in the
+            Natural Way; for when we come <lb/>to conſider, that while the contagious Matter is
+            exerting its Malig- <lb/>nity upon the Humours, (which is generally ſeven or eight Days)
+            <lb/>Quietneſs, Moderation in Diet, together with cleanſing Medicines, <lb/>and every
+            thing elſe is ſtrictly obſerved in Inoculation; whereas ma- <lb/>ny incur the Natural
+            Diſtemper on a ſudden, when the Blood is <lb/>heated with Wine and Exerciſe, by which
+            means all the Symptoms <lb/>muſt neceſſarily prove more ſevere and dangerous. </p>
+          <p rend="indent">
+            <lb/>I would alſo obſerve, that I do not pretend to perſuade the Public, <lb/>that all
+            the Inoculators in <hi rend="italic">Eſſex</hi> make uſe of theſe Medicines exactly
+            <lb/>as here ſet down, or that all of them make uſe of the ſame Com- <lb/>poſitions: I
+            only ſay that the greateſt Succeſs may be depended upon <lb/>from a proper uſe of theſe
+            Medicines, they having all that Virtue <lb/>comprehended in them, which is neceſſary to
+            render the Diſorder <lb/>mild and favourable, as I have happily experienced by the
+            Number <lb/>of Patients, who have recovered from this Diſtemper without being
+            <lb/>confined to their Bed or ſcarce ſenſible of any Pain. </p>
+          <p rend="indent">
+            <lb/>I ſhall conclude this Treatiſe with ſome few Cautions to thoſe who <lb/>take the
+            Medicines. Thoſe of a very weak and delicate Conſtitution, <lb/>may prepare with taking
+            only half a Paper of the <hi rend="sc">Powders</hi> at a time <lb/>with the Salts, and
+            go on till all the Papers are taken. In caſe the <lb/><hi rend="sc">Powders</hi> ſhould
+            cauſe the Mouth to water, or an Inclination to <lb/>Spitting, (which I never knew happen
+            in the Courſe of my Practice) <lb/>upon ſuch an occaſion, the Patient muſt take larger
+            Doſes of Salts, <lb/>and about an Hour after take near half an Ounce of Flour of Brim-
+            <lb/>ſtone, which will prove an effectual Remedy. Be careful of the <lb/>Subject which
+            you Inoculate from, that it be a mild and favourable <lb/>Sort, and that the Perſon is
+            free from any other Diſtemper. The <lb/>Patient, as I have before obſerved, muſt the
+            firſt Week prepare by <lb/>Diet, &amp;c. the next Week prepare to take the <hi rend="sc"
+              >Powders</hi>, (living as <lb/>by Direction above) then Inoculate, and upon breeding
+            the Pock, <lb/>drink plentifully of the <hi rend="italic">Punch</hi> before mentioned,
+            and the Patient will <lb/>find this Method anſwer his moſt ſanguine Wiſhes. </p>
+          <p rend="indent italic">
+            <lb/><hi rend="roman">N. B.</hi> In about a Week after the <hi rend="roman"
+              >Small-Pox</hi> is quite over, it would <lb/>be neceſſary for the Patient to loſe a
+            little Blood, and take a Doſe of Salts. </p>
+        </div>
+      </div>
+      <trailer rend="sc align-center space">
+        <lb/>The END. </trailer>
+    </body>
+  </text>
+</TEI>

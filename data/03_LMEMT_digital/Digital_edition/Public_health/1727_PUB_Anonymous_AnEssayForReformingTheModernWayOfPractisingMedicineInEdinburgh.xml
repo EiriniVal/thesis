@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LMEMT Corpus - Anonymous: An essay for reforming the modern way of practising
+          medicine in Edinburgh</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>Anonymous</persName>
+            </author>
+            <title type="main">AN ESSAY FOR Reforming the Modern Way of Practising MEDICINE IN
+              EDINBURGH: Wherein it is proved, That the Foreign Method of paying Physicians with
+              small Fees at a Time, would be of great Benefit to the NATION, if it were followed in
+              Edinburgh, and in the other Royal Burghs in Scotland, and do no Hurt to Physicians
+              themselves. </title>
+            <edition n="1"/>
+            <idno type="ESTC">T119851</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/T119851"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>Edinburgh</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>Edinburgh: printed. Sold by Mr. James Davidson, Mr. Thomas Heriot, and
+                  Mr. Alexander Symmers, Booksellers in Edinburgh, 1727.</persName>
+              </publisher>
+              <date>1727</date>
+            </imprint>
+            <extent>
+              <measure type="format">8⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="1"/>
+              <measure type="count" commodity="body" unit="page" quantity="30"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">British Library</orgName>
+            <idno type="ECCO">CW3309274978</idno>
+            <idno type="TCP">K095989.000</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Public welfare and institutional"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text xml:lang="eng">
+    <front>
+      <div>
+        <p rend="indent hanging"><lb/>Printed. Sold by Mr. <hi rend="italic">James Davidſon,</hi>
+          Mr. <hi rend="italic">Thomas <lb/>Heriot,</hi> and Mr. <hi rend="italic">Alexander
+            Symmers,</hi> Bookſellers in <lb/><hi rend="italic">Edinburgh.</hi> 1727. (Price Six
+          Pence.) </p>
+      </div>
+    </front>
+    <body>
+      <pb xml:id="page_2" n="3"/>
+      <head rend="align-center dc(2)"><lb/>An ESSAY, <hi rend="italic">&amp;c.</hi>
+      </head>
+      <p rend="space"><lb/>
+        <figure>
+          <figDesc>Decorative frame around the letter "I".</figDesc>
+        </figure>
+        <hi rend="dc(2)">I</hi>T is the unavoidable Fate of every <lb/>Thing that makes its
+        Appearance new <lb/>in the World, to be attended with <lb/>Miſrepreſentations: The malicious
+        Genius of <lb/>ſome People naturally leads them to Cenſure <lb/>and Detraction, eſpecially
+        where they have <lb/>ſuch an agreeable Opportunity of exerting their <lb/>beloved Talents,
+        as is afforded to them by <w part="I">a-</w><lb/><w part="F">ny</w> Propoſal, however juſt
+        in it ſelf, that has <lb/>not been approved of by the Practice of <w part="I"
+          >for-</w><lb/><w part="F">mer</w> Times, in the very Place where they <w part="I"
+          >hap-</w><lb/><w part="F">pen</w> to live, nor ſupported by the Authority <lb/>of a
+        Multitude there. Others imagine, that <lb/>they have an Intereſt to oppoſe any new Scheme,
+        <lb/>and therefore are very Sanguine againſt it, <w part="I">al-</w><lb/><w part="F"
+          >tho'</w> they are often found to be miſerably <w part="I">miſ-</w><lb/><w part="F"
+          >taken</w> in their Opinion, even as to their own <lb/>particular Concerns. A third Sort,
+        which make <lb/>up indeed by far the moſt numerous Claſs of <pb xml:id="page_3" n="4"
+        /><lb/>Detractors, are thoſe who go blindly in to what <lb/>they hear others ſay, without
+        giving themſelves <lb/>the leaſt Trouble to examine the Caſe; they <lb/>are pleaſed with the
+        Slander, and catch the <lb/>Laugh, for what Reaſon they cannot tell, and <lb/>think of the
+        Matter they don't know how, but <lb/>juſt as they are put upon, and directed by the
+        <lb/>Hints ſuggeſted to them by ill natured or <w part="I">de-</w><lb/><w part="F"
+          >ſigning</w> Perſons. Every new Project then muſt <lb/>appear with great Diſadvantages;
+        eſpecially in <lb/>a narrow Place, and where the Judgments of <lb/>Men are too apt to be
+        guided by the <w part="I">Opini-</w><lb/><w part="F">ons</w> or Examples of others, and
+        where Reaſon <lb/>is ſeldom allowed to lead any Man out of the <lb/>common Road, how far
+        ſoever that may <w part="I">hap-</w><lb/><w part="F">pen</w> to be wrong in it ſelf. An
+        Innovation in <lb/>any of the liberal Arts or Sciences, or in the <lb/>Method of exerciſing
+        them, and rendering <lb/>them uſeful to Mankind, ſince it cannot <w part="I">ex-</w><lb/><w
+          part="F">pect</w> to be the Darling of any one Party of Men <lb/>more than of another, and
+        conſequently can <lb/>look for no Patrons out of any Party-Views, <lb/>which are the
+        Maſter-Springs of all our Actions <lb/>at preſent in this unhappy Country; ſo it muſt
+        <lb/>neceſſarily meet with extraordinary <w part="I">Diſcou-</w><lb/><w part="F"
+          >ragement</w>. Yet certain it is, that there are ſo <lb/>many Errors committed in the
+        Exerciſe of the <lb/>learned Profeſſions, that the World reaps but <lb/>a ſmall Part of the
+        Advantages that naturally <lb/>ought to ariſe from them. This then, if it be <pb
+          xml:id="page_4" n="5"/><lb/>true, (as unqueſtionably it is) muſt needs <lb/>give ſome
+        Satisfaction to the Mind of any <lb/>Perſon, who, in his own Faculty, would <w part="I"
+          >endea-</w><lb/><w part="F">vour</w> to remove thoſe Obſtacles which ſtand in <lb/>the Way
+        of his Profeſſion, and in a great <w part="I">Mea-</w><lb/><w part="F">ſure</w> prevent the
+        uſefulneſs of it; <w part="I">notwithſtand-</w><lb/><w part="F">ing</w> of the forbidding
+        Circumſtances which the <lb/>Novelty of the Thing may bring along with it: <lb/>And if the
+        Project laid down by ſuch a Perſon, <lb/>is of it ſelf reaſonable, it is the Propoſer's <w
+          part="I">Du-</w><lb/><w part="F">ty</w> to let the World know that it is ſo. And <lb/>if
+        he be able to ſatisfie the judicious Part of <lb/>Mankind, who don't judge of Matters before
+        <lb/>they conſider them; and the Candid, who judge <lb/>with impartiality, he may ſafely
+        treat the <w part="I">O-</w><lb/><w part="F">pinion</w> of all others with the utmoſt <w
+          part="I">Con-</w><lb/><w part="F">tempt</w>. </p>
+      <p rend="indent"><lb/><hi rend="sc">The</hi> Knowledge of Medicine, which we at <lb/>preſent
+        only conſider, is undoubtedly one of <lb/>the moſt valuable Bleſſings ever Heaven <w
+          part="I">be-</w><lb/><w part="F">ſtowed</w> upon this lower World: But as it is <lb/>now
+        exerciſed, it may ſafely be aſſerted, and <lb/>can be prov'd, that the Benefit of it is but
+        ſmall <lb/>to this Nation, and eſpecially to this City of <lb/><hi rend="italic"
+          >Edinburgh;</hi> and that plainly from two <w part="I">Rea-</w><lb/><w part="F">ſons</w>:
+        The Firſt is, the Ignorance of many of <lb/>the Profeſſors of it, that is, of ſuch as
+        actually <lb/>practiſe it; and the Second, which has as bad <lb/>Effects, is the Difficulty
+        that moſt Part of <w part="I">Peo-</w><lb/><w part="F">ple</w> find to have the Advice of
+        thoſe who are <pb xml:id="page_5" n="6"/><lb/>to be preſumed the beſt qualified, on Account,
+        <lb/>that their Fees are too conſiderable for the Sick <lb/>Perſon's Pocket. Now the Rich
+        amongſt us, <lb/>bear but a ſmall Proportion to the poorer Sort. <lb/>If many then muſt be
+        without the Benefit of <lb/>Medicine regularly apply'd, whilſt a few only <lb/>can purchaſe
+        it, certainly the Service it does <lb/>to the Community is but inconſiderable. </p>
+      <p rend="indent"><lb/><hi rend="sc">The</hi> natural Way to put the Practice of <lb/>this Art
+        into the moſt proper Hands, and ſo <lb/>to exclude the more ignorant from it, (which
+        <lb/>was the Royal Deſign of the Sovereign, in <w part="I">ere-</w><lb/><w part="F"
+          >cting</w> a College of Phyſicians in this Place, <w part="I">al-</w><lb/><w part="F"
+          >tho'</w> that Deſign has not hitherto ſucceeded) <lb/>would certainly be, for the
+        Phyſicians to make <lb/>ſuch a Regulation with Reſpect to their Fees, <lb/>that every
+        Perſon, when indiſpoſed, might be <lb/>able to call them: If they would, for Example,
+        <lb/>accept of ſuch a ſmall Thing, at a Time, as <lb/>Half a Crown, and be paid for each
+        Viſit at the <lb/>ſame Rate. And leſt it ſhould be alledged, <lb/>that this were either
+        proſtituting the Art, or <lb/>ſacrificing their own Intereſt to the Good <lb/>of the Publick
+        (a Thing which, altho' noble, <lb/>is not always convenient) let them conſider the
+        <lb/>following Particulars, and it is highly <w part="I">proba-</w><lb/><w part="F">ble</w>
+        they will change their Opinion; and <w part="I">per-</w><lb/><w part="F">haps</w> be
+        convinced, that they have no Manner <lb/>of Intereſt to oppoſe ſuch a Scheme. </p>
+      <pb xml:id="page_6" n="7"/>
+      <p rend="indent"><lb/><hi rend="sc">It</hi> can be prov'd in the firſt Place, that a
+        <lb/>ſmall Fee, at a Time, to a Phyſician for his <w part="I">Ad-</w><lb/><w part="F"
+          >vice</w>, ſatisfies the moſt Learned and Knowing <lb/>Practitioners of moſt Part of <hi
+          rend="italic">Europe.</hi>
+      </p>
+      <p rend="indent" n="2"><lb/><hi rend="italic">2do</hi>, <hi rend="sc">That</hi>, were it the
+        general Practice <lb/>here to take ſuch Fees, Phyſicians would be <lb/>more univerſally
+        imploy'd than they are, <w part="I">ac-</w><lb/><w part="F">quire</w> more Honour, and do
+        infinitely more <lb/>Service to the Lieges. </p>
+      <p rend="indent" n="3"><lb/><hi rend="italic">3tio</hi>, <hi rend="sc">That</hi> the well
+        imployed of the <w part="I">Fa-</w><lb/><w part="F">culty</w> could loſe nothing by this
+        Method, but <lb/>rather gain; and that the leſs imployed would <lb/>gain vaſtly, by ſome
+        Part of the Buſineſs <w part="I">neceſ-</w><lb/><w part="F">ſarily</w> falling into their
+        Hands. </p>
+      <p rend="indent" n="4"><lb/><hi rend="italic">4to</hi>, <hi rend="sc">That </hi>the Chirurgeon
+        Apothecaries, <lb/>whom it would ſeem moſtly to affect, could <lb/>loſe nothing, but would
+        gain upon ſeveral <lb/>Accounts. </p>
+      <p rend="indent" n="5"><lb/><hi rend="italic">5to</hi>, <hi rend="sc">That</hi> from the
+        foregoing <w part="I">Conſidera-</w><lb/><w part="F">tions</w>, it would be highly
+        beneficial to the <lb/>Country, that this Method were introduced, <lb/>and that it would do
+        Prejudice to no one <w part="I">Per-</w><lb/><w part="F">ſon</w>. </p>
+      <p rend="indent"><lb/>As to the firſt Particular; Thoſe who know <lb/>how Phyſicians are paid
+        in <hi rend="italic">Holland,</hi> where it <lb/>is confeſt by every Body, there are Men of
+        <lb/>as great Learning in that Profeſſion as any <lb/>where elſe at preſent; how they are
+        paid all <lb/>over <hi rend="italic">Germany, Elanders, France</hi> it ſelf, and <pb
+          xml:id="page_7" n="8"/><lb/>every where but in <hi rend="italic">Great Britain,</hi> won't
+          <w part="I">diſ-</w><lb/><w part="F">pute</w>, That the beſt Phyſicians are contented
+        <lb/>with ſmall Fees, and conſequently muſt think <lb/>it no Diſgrace for any one of the
+        Faculty to <lb/>be ſatisfy'd with the ſame. </p>
+      <p rend="indent"><lb/><hi rend="sc">The</hi> ſecond Particular is as little doubtful; <lb/>For
+        if one could have the beſt Advice about <lb/>their Health for a ſmall Acknowledgment,
+        <lb/>no doubt they would call for that Advice, <lb/>rather than for any other; and the leaſt
+          <w part="I">Diſ-</w><lb/><w part="F">order</w> would willingly make them part with
+        <lb/>Half a Crown, when perhaps, to ſave a <w part="I">Gui-</w><lb/><w part="F">nea</w>, the
+        Diſtemper is allowed to go on, <w part="I">with-</w><lb/><w part="F">out</w> calling any
+        Aſſiſtance, or at leaſt, not <lb/>that of One whoſe Buſineſs it is to underſtand
+        <lb/>Diſtempers: Beſides, many a one is able to <lb/>pay a ſmall Fee, who has not the
+        Ability to <lb/>pay a great one, and therefore muſt take up <lb/>with what Advice he can
+        beſt purchaſe. Theſe <lb/>Conſiderations make it appear, That a more <lb/>univerſal Practice
+        muſt neceſſarily attend the <lb/>lowering of the Fees. </p>
+      <p rend="indent"><lb/><hi rend="sc">But</hi> next, Phyſicians would acquire more <lb/>Honour,
+        and do more Good; becauſe by <lb/>this Means they would have it in their <lb/>Power, to
+        obſerve Diſeaſes from their firſt <lb/>Appearances, and by putting the Patient, <lb/>from
+        the Beginning, under a right <w part="I">Manage-</w><lb/><w part="F">ment</w>, would, very
+        often, effectually make <pb xml:id="page_8" n="9"/><lb/>a Cure; when at preſent we know,
+        they a<lb/>re ſeldom called (except perhaps by the <lb/>richer Sort, and that not always)
+        'till there is <lb/>imminent Danger apprehended: And then the <lb/>Doctor's Buſineſs
+        commonly is, to skreen <w part="I">eve-</w><lb/><w part="F">ry</w> Body elſe from any
+        Reflections about the <lb/>ſick Perſon's Death, and be a Witneſs of his <lb/>Exit; when he
+        himſelf knows very well, if <lb/>he be a Perſon of Ingenuity and Learning, <lb/>That he now
+        can neither underſtand nor cure <lb/>the Diſtemper, ſince the Courſe of it is <w part="I"
+          >alrea-</w><lb/><w part="F">dy</w> perverted by a bad Management, or at <lb/>leaſt not
+        rectify'd in Time by a good one. <lb/>It is a certain Fact, That Phyſicians, being
+        <lb/>commonly called in the End of a Diſeaſe, or <lb/>after it has made a conſiderable
+        Progreſs, <w part="I">ſel-</w><lb/><w part="F">dom</w> ſee any one, as God and Nature ſent
+        it; <lb/>but as it is diſguiſed and changed by <w part="I">Appli-</w><lb/><w part="F"
+          >cations</w> made in the Beginning: And for this <lb/>Reaſon they are able to do their
+        Patients little <lb/>or no Service, which has render'd the Art <lb/>contemptible to ſome,
+        and ſuſpected to be of <lb/>no great Uſe, even by the moſt knowing. It <lb/>would then
+        appear to be the Buſineſs of <w part="I">eve-</w><lb/><w part="F">ry</w> true Phyſician, to
+        endeavour to retrieve <lb/>the Honour of his own Art, by doing what <lb/>he can, to bring
+        the Practice into the Hands <lb/>of the real Profeſſors of it; which can never <lb/>be done
+        'till the Fees are made low. And is <lb/>it not the utmoſt Barbarity, to deny an Advice <pb
+          xml:id="page_9" n="10"/><lb/>to all who have not Ability to pay Gold, and <lb/>too much
+        Modeſty to ask it for nothing? </p>
+      <p rend="indent"><lb/><hi rend="sc">What</hi> was in the third Place aſſerted, <hi
+          rend="italic">That <lb/>the well employed of the Faculty could loſe <lb/>nothing,</hi>
+        appears by conſidering, that did they <lb/>keep a Liſt of every Viſit, and were paid at
+        <lb/>a certain Rate for it, it would often come to <lb/>more Account than their Payments do
+        at <w part="I">pre-</w><lb/><w part="F">ſent</w>. People would know exactly what they
+        <lb/>expected for their Trouble, and deſire their <lb/>Attendance accordingly. The Richer,
+        who at <lb/>preſent give Gold, for their own greater <w part="I">Satiſ-</w><lb/><w part="F"
+          >faction</w>, would call them every Day, or <w part="I">oft-</w><lb/><w part="F">ner</w>,
+        during the Courſe of a Diſtemper. Others <lb/>would call them now and then, and ſo have
+        <lb/>the Benefit of good Directions, who at <w part="I">pre-</w><lb/><w part="F">ſent</w>
+        languiſh without them. And from this <lb/>laſt Conſideration it plainly appears, That
+        <lb/>there would be an Addition to the Gain, even <lb/>of ſuch as have their Reputation the
+        beſt <lb/>eſtabliſhed: And as to the leſs employed, and <lb/>younger Part of the Faculty,
+        they muſt <w part="I">ne-</w><lb/><w part="F">ceſſarily</w> be often in Buſineſs, whereas at
+          <w part="I">pre-</w><lb/><w part="F">ſent</w> they are idle, if Poor as well as Rich
+        <lb/>conſtantly ſhould call Phyſicians; becauſe in <lb/>that Caſe, a few Perſons could not
+        be <w part="I">ſuffici-</w><lb/><w part="F">ent</w> to attend the whole who were willing to
+        <lb/>employ them. </p>
+      <pb xml:id="page_10" n="11"/>
+      <p rend="indent"><lb/><hi rend="sc">It</hi> may here be objected, That this is but a
+        <lb/>pretended lowering of the Fees, and that Half <lb/>a Crown a Viſit lands in the ſame
+        Thing as a <lb/>Guinea now and then. But by what is ſaid <w part="I">a-</w><lb/><w part="F"
+          >bove</w> it appears, that tho' in ſome Caſes, <lb/>with Reſpect to the richer Sort, the
+        Thing be <lb/>really true, yet with Reſpect to the <w part="I">Generali-</w><lb/><w part="F"
+          >ty</w> it is not ſo, ſince very often one Viſit or <lb/>two may be ſufficient to give the
+        Patient, or <lb/>perhaps his Apothecary, ſuch Directions as <w part="I">be-</w><lb/><w
+          part="F">ing</w> well obſerved, will be of great Uſe to <lb/>him: And even the Rich will
+        have this <w part="I">Advan-</w><lb/><w part="F">tage</w> by it, that they will ſooner
+        incline to <lb/>call a Phyſician to a ſlight Illneſs, than they <lb/>do at preſent; and by
+        ſo doing, often prevent <lb/>the enſuing of a very ſevere One: For the firſt <lb/>Attacks of
+        a Diſeaſe are many Times <w part="I">deceit-</w><lb/><w part="F">ful</w>. Beſides, this will
+        be an Inducement to <lb/>them to call ſeverals at a Time, where now <lb/>One ſerves; and ſo
+        they ſhall have the joynt <lb/>Advice of many at a very eaſy Purchaſe. </p>
+      <p rend="indent"><lb/><hi rend="sc">What</hi> was propoſed in the fourth Place, <lb/><hi
+          rend="italic">viz. That the Chyrurgeon-Apothecaries would <lb/>loſe nothing,</hi> ſeems
+        liable to more Objections, <lb/>becauſe the Scheme it ſelf appears contriv'd <lb/>with a
+        Deſign to take the whole Practice of <w part="I">Me-</w><lb/><w part="F">dicine</w> out of
+        their Hands; whereas at preſent <lb/>it is notourly known, that they are the <w part="I"
+          >Per-</w><lb/><w part="F">ſons</w> who practiſe the moſt of it in this Place; <pb
+          xml:id="page_11" n="12"/><lb/>and therefore, that if this Project ſhould go on, <lb/>it
+        would in a Manner ruine their Buſineſs. But <lb/>the thinking Part of the Gentlemen of that
+        <lb/>Incorporation (it might almoſt be aſſerted, the <lb/>whole of them) are well ſatisfied,
+        that a quite <lb/>contrary Effect would enſue. For in the firſt <lb/>Place, the Affair of
+        Surgery might be put <w part="I">un-</w><lb/><w part="F">der</w> Regulations, as well as
+        that of Medicine, <lb/>with Reſpect to the Fees; and then, when <w part="I">e-</w><lb/><w
+          part="F">ver</w> an external Malady required Advice, or <lb/>Attendance and Applications,
+        either by the <lb/>Surgeon or his Servants, a ſtated Rule for his <lb/>Payment would be
+        found very convenient, both <lb/>for the Surgeon and the Patient: Which may <lb/>eaſily be
+        deduced from what was ſaid above <lb/>with Regard to Medicine, and what is clearly
+        <lb/>demonſtrated by the conſtant Cuſtom in foreign <lb/>Parts. </p>
+      <p rend="indent"><lb/><hi rend="sc">With</hi> Reſpect to Pharmacy, the
+        Surgeon-<lb/>Apothecaries, who at preſent, by the Laws of <lb/>this Place, have the ſole
+        Privilege of <w part="I">exerci-</w><lb/><w part="F">ſing</w> that Art, ſeldom make any
+        Profit but by <lb/>the ſelling of their Medicines to their Patients; <lb/>and if ever they
+        are paid for Attendance, it <lb/>is commonly by the more generous Sort, who <lb/>even at
+        preſent never fail to call a Phyſician, as <lb/>well as the Surgeon, to any internal Caſe.
+        As <lb/>to theſe then, the new Propoſal makes no Odds; <lb/>neither does it as to the
+        others, ſince, whether <lb/>they have a Phyſician or not, the Account of <pb
+          xml:id="page_12" n="13"/><lb/>Medicines muſt always be paid. Thus far as <lb/>to the
+        Negative Poſition, That thoſe <w part="I">Gentle-</w><lb/><w part="F">men</w> could not
+        loſe: Let us next obſerve their <lb/>Advantages. The moſt of them are of ſuch <lb/>Candor,
+        that they are often grieved when <lb/>dealing with the poorer Sort, that the <w part="I"
+          >extra-</w><lb/><w part="F">vagant</w> Fees of Phyſicians, entirely debar them <lb/>from
+        joyning other Advice to their own; and <lb/>'tis with Difficulty, that thoſe of middle <w
+          part="I">Cir-</w><lb/><w part="F">cumſtances</w> are perſwaded to conſent to it, <w
+          part="I">e-</w><lb/><w part="F">ven</w> where there is Danger. No doubt then, <lb/>but
+        ſince our Scheme opens a Door of having <lb/>eaſily the Concurrence of a Phyſician to <w
+          part="I">what-</w><lb/><w part="F">ever</w> is done, the Surgeons muſt have great <w
+          part="I">Sa-</w><lb/><w part="F">tisfaction</w> in it; for two Advices muſt be as
+        <lb/>good as a ſingle one at leaſt, and the Character <lb/>of <hi rend="sc">Doctor</hi> will
+        add ſome Honour to the <w part="I">Con-</w><lb/><w part="F">ſultation</w>, and ſo be more
+        agreeable to the <w part="I">Pa-</w><lb/><w part="F">tient</w>. Beſides, the Perſon who
+        furniſhes the <lb/>Medicines, ſeldom has the ſame Freedom of <lb/>Mind to preſcribe as
+        another, leſt he be <w part="I">ſuſ-</w><lb/><w part="F">pected</w> to have a View to his
+        own Intereſt, <lb/>and therefore he always wiſhes to have <w part="I">ano-</w><lb/><w
+          part="F">ther</w> to do it for him. </p>
+      <p rend="indent"><lb/><hi rend="sc">That</hi> the Character of <hi rend="sc">Doctor</hi> adds
+        little <lb/>or nothing to the Matter, may be alledged, for <lb/>this Reaſon, That the
+        Surgeon-Apothecaries <lb/>in this Place, are moſtly Gentlemen, <w part="I">conſe-</w><lb/><w
+          part="F">quently</w> have the ſame Education with our <lb/>Phyſicians, as to all the Parts
+        of Learning <pb xml:id="page_13" n="14"/><lb/>that are commonly taught in our younger
+        <lb/>Years; That afterwards, during their <w part="I">Appren-</w><lb/><w part="F"
+          >ticeſhips</w>, they have much Opportunity of <lb/>ſeeing ſick People, and ſo, by Degrees,
+          <w part="I">learn-</w><lb/><w part="F">ing</w> how to Practiſe, by obſerving what is
+        <lb/>done by others; That ſome of them, after <lb/>theſe Advantages, have been bred in the
+        moſt <lb/>famous medical Schools; Others again have, <lb/>for a long Tract of Time, had a
+        moſt <w part="I">nume-</w><lb/><w part="F">rous</w> Practice in the Army or Navy, and by
+        <lb/>this Means, muſt neceſſarily have their <w part="I">Know-</w><lb/><w part="F">ledge</w>
+        enriched with many valuable <w part="I">Obſerva-</w><lb/><w part="F">tions</w> of their own,
+        which never fail to <w part="I">im-</w><lb/><w part="F">prove</w> one better than what is
+        learned by <w part="I">Hear-</w><lb/><w part="F">ſay</w>; That in this Place they are not <w
+          part="I">admit-</w><lb/><w part="F">ted</w> to Practiſe, but after having gone through
+        <lb/>a very ſtrict and ſevere Examination, upon all <lb/>Parts of Anatomy, Surgery, and
+        Pharmacy, <lb/>(which include a vaſt Part of Medicine) and <lb/>which they are obliged to
+        undergo, in about <lb/>ſeven different Diets, by their preſent Rules. <lb/>This ſeems, as
+        indeed it is, to be as Auguſt <lb/>a medical Trial as any in the World, altho' <lb/>confin'd
+        to ſome particular Parts of the <w part="I">Sci-</w><lb/><w part="F">ence</w>; and they are
+        not admitted to this <w part="I">Tri-</w><lb/><w part="F">al</w>, 'till after Eight Years
+        from the Beginning <lb/>of their Apprenticeſhip; in which Time it is <lb/>to be preſumed,
+        that they are pretty well <w part="I">qua-</w><lb/><w part="F">lify'd</w>, when we know that
+        there are ſome <lb/>Graduations, after a very few Months Study, <pb xml:id="page_14" n="15"
+        /><lb/>and perhaps without any at all. 'Tis true, <lb/>there are ſome particular Perſons,
+        who have <lb/>a Right to be admitted to Trial with the <w part="I">Sur-</w><lb/><w part="F"
+          >geons</w> ſooner than at the End of Eight Years: <lb/>But as that reſpects not the
+        Generality, it is <lb/>not worth noticing; and the Abridgments <lb/>that are made of this
+        Time are commonly <lb/>very ſmall. By all this then it would appear, <lb/>That the Surgeon
+        ſeems to bid fairer for <w part="I">be-</w><lb/><w part="F">ing</w> a good Practitioner than
+        the Doctor, and <lb/>wants only the <hi rend="italic">Diploma.</hi>
+      </p>
+      <p rend="indent"><lb/><hi rend="sc">With</hi> the greateſt Regard imaginable to <lb/>the
+        Gentlemen of the honourable Profeſſion <lb/>of Surgery, the moſt ancient, and ſtill the
+        <lb/>moſt certain Part of Medicine, it muſt be <lb/>acknowledged, That the Facts above <w
+          part="I">reci-</w><lb/><w part="F">ted</w> are true; but yet it muſt be allowed, <lb/>That
+        the learned Faculty of Medicine will <lb/>ſtill keep its Dignity, if the Caſe be fairly
+        <lb/>conſider'd. </p>
+      <p rend="indent"><lb/>A Phyſician, who juſtly merits and <w part="I">poſſeſ-</w><lb/><w
+          part="F">ſes</w> the Rank and Title of <hi rend="sc">Doctor</hi>, is not one <lb/>who
+        comes inſtructed with a few Scrapes of <lb/>Knowledge, taken from his own Obſervation;
+        <lb/>but brings with him, before he offers to <w part="I">Pra-</w><lb/><w part="F"
+        >ctiſe</w>, the learned and laboriouſly acquir'd <lb/>Treaſures of vaſt Numbers of Ages. The
+        <lb/>Life of one Man is extremely ſhort, and is <lb/>therefore, without great Aſſiſtance, <w
+          part="I">uncapa-</w><lb/><w part="F">ble</w> of making any conſiderable <w part="I"
+          >Improve-</w><pb xml:id="page_15" n="16"/><lb/><w part="F">ments</w> in ſo noble, and in
+        ſome Caſes intricate, <lb/>a Science as that of Medicine. There is then <lb/>no poſſible
+        Means of attaining to any Degree <lb/>of Perfection in it, but by reviewing the <w part="I"
+          >Mo-</w><lb/><w part="F">numents</w> of Antiquity, which, by a particular <lb/>Providence
+        of Heaven, have been preſerved to <lb/>us. There we are inſtructed by <w part="I"
+          >Multi-</w><lb/><w part="F">tudes</w> of Obſervations exactly taken, through <lb/>a great
+        Tract of Years, in all the Changes <lb/>that appear, as the Humane Body from <lb/>Health
+        degenerates into a State of Sickneſs; <lb/>as it again, by the Means of Nature, returns
+        <lb/>to its former healthful Condition; or <w part="I">per-</w><lb/><w part="F">haps</w>
+        continues infected by ſome Remains of <lb/>the Diſeaſe; or, being overcome with the
+        <lb/>Load of the Diſtemper, periſhes. We are <lb/>well advertis'd of all the ſenſible
+        Cauſes, that <lb/>have been obſerv'd to precede and produce <lb/>thoſe Diſtempers, and of
+        all the Methods <lb/>that the Wit of Man has been able to <w part="I">diſco-</w><lb/><w
+          part="F">ver</w>, for aſſiſting Nature to overcome them; <lb/>and how thoſe Methods have
+        ſucceeded now <lb/>for many Thouſands of Years. It is no ſmall <lb/>Task to become well
+        acquainted with the <lb/>Obſervations and Doctrine of the Illuſtrious <lb/>Ancients; and no
+        ſmall Pleaſure, to find <lb/>them daily verify'd in our own Practice. If <lb/>we add to
+        thoſe, what the Induſtry of later <lb/>Times has furniſh'd to us, with reſpect to <lb/>ſome
+        new Diſeaſes, we may be allowed to be <pb xml:id="page_16" n="17"/><lb/>well qualify'd in
+        our Profeſſion: But yet more <lb/>ſo, if we call the Aſſiſtance of Philoſophy to <lb/>our
+        Aid, under due Reſtrictions, that is, <w part="I">ne-</w><lb/><w part="F">ver</w> ſuffering
+        our Reaſonings to lead us <w part="I">a-</w><lb/><w part="F">way</w> from what is
+        undoubtedly true in Fact. <lb/>If after an exact Scrutiny into all the Parts of <lb/>the
+        Animal Machine, we be able to <w part="I">demon-</w><lb/><w part="F">ſtrate</w> the Uſes of
+        all that various Structure, <lb/>and nice Complication of Organs in every <lb/>different
+        Part of it, and to explain the Springs <lb/>of all their Actions, we cannot be at a Loſs,
+        <lb/>when its Functions are put out of Order by <lb/>Sickneſs, to underſtand where the Fault
+        lies. </p>
+      <p rend="indent"><lb/><hi rend="sc">If</hi> then we go further, and examin the <w part="I"
+          >Pro-</w><lb/><w part="F">perties</w> of all the Material World, to diſcover <lb/>what
+        Parts of it may be of Service in our <lb/>Art; If we ſurvey the beauteous vegetable
+        <lb/>Creation, and draw what Aid we can from <lb/>the healthful Qualities of Plants; If we
+        dive <lb/>into the Receſſes of the Earth, and extort <lb/>Aſſiſtance from the Mineral
+        Kingdom; Then <lb/>explore the Seas, Earth, and Air, for all the <lb/>various Animals that
+        have any Parts that can <lb/>be uſeful to preſerve or repair the Body of <lb/>Man: If all
+        thoſe different Objects are <w part="I">care-</w><lb/><w part="F">fully</w> conſidered, and
+        their Properties enquired <lb/>into, and all done with due Regard to the <lb/>ſtanding
+        practical Obſervations above <w part="I">mentio-</w><lb/><w part="F">ned</w>, undoubtedly we
+        muſt draw ſuch Helps <lb/>from Philoſophy, as very much muſt improve <pb xml:id="page_17"
+          n="18"/><lb/>our Art: And we will think it but a ſmall <lb/>Exaggeration in the Founder of
+        it, who was <lb/>a Heathen, when he affirms, <hi rend="italic">That a <w part="I"
+            >Phyſi-</w><lb/><w part="F">cian</w> who is a Philoſopher is equal to a God.</hi>
+        <lb/>With ſuch a Phyſician, if any ſuch there be, <lb/>no Surgeon or Apothecary but will
+        think it <lb/>his Happineſs to be engaged about a Patient: <lb/>For tho' he himſelf, as
+        above, may have ſeen <lb/>a great deal of Practice, and underſtand <w part="I"
+          >ſeve-</w><lb/><w part="F">ral</w> Branches of the Art; yet the many <w part="I"
+          >Inter-</w><lb/><w part="F">ruptions</w> to Study that commonly an <w part="I"
+          >Appren-</w><lb/><w part="F">ticeſhip</w> brings along with it, and the over <lb/>ſoon
+        going to Practiſe at one's own Hand, <lb/>will certainly make him unacquainted with
+        <lb/>many Things which a learned Phyſician <lb/>knows, and has gathered from the Writings
+        <lb/>of Antiquity, whence the moſt of his <w part="I">Know-</w><lb/><w part="F">ledge</w>
+        comes. For really the Practice of any <lb/>true Phyſician, does not ſo much furniſh him
+        <lb/>with new Obſervations, as it gives him a <w part="I">Fa-</w><lb/><w part="F">cility</w>
+        in repeating the old Ones, and applying <lb/>them to particular Caſes: So that Study and
+        <lb/>Practice both concur to make a complete <w part="I">Ar-</w><lb/><w part="F">tiſt</w>.
+        But it is eaſy to obſerve, that much <w part="I">Stu-</w><lb/><w part="F">dy</w>, with a
+        moderate Share of Practice, makes <lb/>a far greater Phyſician, than little or no <w
+          part="I">Stu-</w><lb/><w part="F">dy</w>, tho' with vaſt Practice: For, as above, he
+        <lb/>relies not on his own Obſervation, but on that <lb/>of a great many Ages. To return to
+        our <lb/>Point, the Character of <hi rend="italic">Doctor</hi> muſt add to <pb
+          xml:id="page_18" n="19"/><lb/>the Satisfaction both of the Patient and <w part="I"
+          >Apo-</w><lb/><w part="F">thecary</w> in every Caſe, if he be what he ought <lb/>to be,
+        and can recommend himſelf by his <w part="I">Dex-</w><lb/><w part="F">terity</w>, both in
+        foretelling what is to happen in <lb/>Diſeaſes, and by curing them if they are not
+        <lb/>deſperate; which will diſtinguiſh him from <lb/>all Impoſtures, better than his Degree
+        in the <lb/>Univerſity, the Honour of which is often <lb/>baſely proſtituted. The Wiſdom of
+          <hi rend="italic">Great <lb/>Britain</hi> has erected Colleges in the different
+        <lb/>Metropolis's of the Three Kingdoms, to be a <lb/>Check upon all Foreign Degrees. And it
+        were <lb/>to be wiſhed, that our own Univerſities would <lb/>take Care to admit none, but
+        who are well <w part="I">qua-</w><lb/><w part="F">lified</w>, which would make every Doctor
+        an <lb/>Honour to the Faculty. And if at the ſame <lb/>Time the Fees were ſuch as is
+        propoſed in this <lb/>Paper, the Practice would ſoon entirely come <lb/>into their Hands, to
+        the great Benefit of all, and <lb/>the Loſs of no Body, not even of the Surgeons, <lb/>as
+        has been proved. Now it may be further <w part="I">ad-</w><lb/><w part="F">ded</w>, as a
+        Reaſon why a Phyſician ought always <lb/>to be conſulted about any ſick Perſon, that as we
+        <lb/>are not here in a Place where, by the eſtabliſhed <lb/>Laws, any Perſon indifferently
+        is allowed to <lb/>exerciſe what Branches of the medical Art he <lb/>ſhall think fit; ſo it
+        is a Sort of Uſurpation of <lb/>other People's Rights, and a flying in the <lb/>Face of
+        Authority, for any one, not legally <lb/>intitled, to preſcribe Medicines. And grant that
+          <pb xml:id="page_19" n="20"/><lb/>ſome who are not graduated, may have more <lb/>Knowledge
+        than others who are; yet as the <lb/>Publick knows no other Teſt of one's <w part="I"
+          >Quali-</w><lb/><w part="F">fications</w>, but the having a regular Degree, <lb/>which in
+        this City muſt be examined and <w part="I">ac-</w><lb/><w part="F">knowledged</w> by the
+        Royal College; and as the <lb/>taking away the Neceſſity of ſuch a <w part="I"
+          >Teſtimo-</w><lb/><w part="F">ny</w>, would have very bad Conſequences, by <w part="I"
+          >be-</w><lb/><w part="F">ing</w> an Inlet to the very vileſt and moſt <w part="I"
+          >igno-</w><lb/><w part="F">rant</w> of the People to practiſe without being
+        <lb/>queſtioned; ſo 'tis hoped that no Perſon, <w part="I">how-</w><lb/><w part="F">ever</w>
+        well accompliſhed, if he be not a <hi rend="italic">Doctor,</hi>
+        <lb/>will take it amiſs to be told, that the juſt Right <lb/>to give Medicines belongs to
+        others. Let <lb/>him, if he pleaſes, take his Degrees and <w part="I">ſatiſ-</w><lb/><w
+          part="F">fy</w> the College, or elſe keep within his own <lb/>Sphere, as the Phyſicians
+        ought to do <w part="I">with-</w><lb/><w part="F">in</w> theirs, neither performing
+        Chirurgical <lb/>Operations, nor furniſhing Medicines to any <lb/>one, unleſs they have the
+        Privilege of ſo <w part="I">do-</w><lb/><w part="F">ing</w> from the Board of <w part="I"
+          >Surgeon-Apotheca-</w><lb/><w part="F">ries</w>. Neither need they pretend any <w part="I"
+          >Ad-</w><lb/><w part="F">vantage</w> in their doing the laſt, on Account <lb/>that they
+        are ſureſt of their own Medicines, <lb/>ſince the Faithfulneſs of the
+        Chirurgeon-<lb/>Apothecaries of this City, in that <w part="I">Particu-</w><lb/><w part="F"
+          >lar</w>, is well known. The Profeſſions of <w part="I">Me-</w><lb/><w part="F">dicine</w>
+        and Surgery are much a Kin; to the <lb/>one belongs the Cure of Internal, to the other
+        <lb/>the Cure of External Maladies: The Profeſſors <pb xml:id="page_20" n="21"/><lb/>of them
+        are then in that Reſpect Brethren, and <lb/>on an equal Lay. If any Man will exerciſe
+        <lb/>both, let him take the neceſſary Powers from <lb/>both Societies. There is no
+        Inconſiſtency, no <lb/>Diſhonour in it, that they know who have <lb/>ſtudied the Hiſtory of
+        thoſe Profeſſions, <w part="I">(what-</w><lb/><w part="F">ever</w> the more Ignorant may
+        object) for the <lb/>greateſt Maſters were ſuch as exerciſed both. <lb/>But let no
+        Apothecary pretend to preſcribe; <lb/>his Buſineſs is only to obey Preſcriptions: Let
+        <lb/>no Surgeon do the ſame, if it is not in External <lb/>Caſes, which naturally come
+        within his <w part="I">Pro-</w><lb/><w part="F">vince</w>. Let no Phyſician perform an
+        Operation, <lb/>make External Applications, or compound and <lb/>furniſh Medicines, unleſs
+        ſuch a Perſon be <w part="I">ve-</w><lb/><w part="F">ſted</w> with the Powers of both
+        Societies. This <lb/>would evite all Confuſion, and keep every one's <lb/>Privileges
+        diſtinct; and all Pretences for <w part="I">con-</w><lb/><w part="F">founding</w> of them
+        will be taken away, if every <lb/>Sick Perſon may have the Advice of a <w part="I"
+          >Phy-</w><lb/><w part="F">ſician</w> at an eaſie Rate. For we know that the
+        <lb/>Exorbitancy of the Fees was always given as <lb/>a Reaſon why the Surgeons were under a
+          <w part="I">Ne-</w><lb/><w part="F">ceſſity</w> to preſcribe; but that it would be much
+        <lb/>better for them were it otherwiſe, 'tis hoped is <lb/>is now made clear. </p>
+      <p rend="indent"><lb/><hi rend="sc">The</hi> Fifth Propoſition it is needleſs now to
+        <lb/>inſiſt on, for the Advantages to the Country <lb/>muſt be very great, if the poorer, as
+        well as <pb xml:id="page_21" n="22"/><lb/>richer Inhabitants of it be all equally admitted
+        <lb/>to reap the Benefit of ſo valuable an Art as <lb/>Medicine. By this Means the Populace,
+        by <lb/>getting free Acceſs to regular Phyſicians, will <lb/>have no longer their Bodies
+        left at the Mercy <lb/>of every ignorant Pretender to Phyſick, or be <lb/>glad to apply for
+        Advice to every impertinent <lb/>Quack, becauſe his Fees are ſuch as they are <lb/>able to
+        afford; to which Sort of Gentlemen, we <lb/>ſee they conſtantly flock wherever they offer,
+        <lb/>and of which there has been a notable Inſtance <lb/>lately in this very Place. It can
+        be prov'd, <lb/>that neither Peſtilence, Famine, or War, ever <lb/>have committed ſuch
+        Ravages to the <w part="I">Deſtru-</w><lb/><w part="F">ction</w> of Human Kind, as the
+        unskilful <w part="I">Appli-</w><lb/><w part="F">cation</w> of Medicine has. If ſuch wrong
+          <w part="I">Ap-</w><lb/><w part="F">plications</w> then, of a noble and uſeful Art, can
+        <lb/>be in a great Meaſure prevented by our Scheme, <lb/>were it not an egregious Cruelty to
+        the World, <lb/>in the leaſt to oppoſe its taking Effect, <w part="I">eſpeci-</w><lb/><w
+          part="F">ally</w> conſidering, that no one Perſon can <w part="I">poſſi-</w><lb/><w
+          part="F">bly</w> loſe any Thing by it, as has been <w part="I">ſuffici-</w><lb/><w
+          part="F">ently</w> demonſtrated? </p>
+      <p rend="indent"><lb/><hi rend="sc">After</hi> what has been ſaid upon this <w part="I"
+          >Sub-</w><lb/><w part="F">ject</w>, it may appear ſomewhat ſtrange, that <lb/>ſuch an
+        important Affair has been ſo long <w part="I">ne-</w><lb/><w part="F">glected</w>: And as it
+        appears to be ſomething of <lb/>Moment, ſo it were to be wiſhed, that a <w part="I"
+          >pro-</w><lb/><w part="F">per</w> Method of actually putting it in <w part="I"
+          >Executi-</w><pb xml:id="page_22" n="23"/><lb/><w part="F">on</w>, were fallen upon;
+        becauſe the beſt and <lb/>moſt profitable Deſigns often prove abortive, <lb/>on Account of
+        the bad Management of the <lb/>Undertakers. </p>
+      <p rend="indent"><lb/>No doubt, ſince there is a College of <w part="I">Phy-</w><lb/><w
+          part="F">ſicians</w>, here, erected by Royal Authority, for <lb/>the Improvement of
+        Medicine, it is their <lb/>proper Buſineſs to further this <hi rend="italic">Propoſal;</hi>
+        and <lb/>it were well if they did ſo. But as Societies <lb/>ſeldom do much in the like
+        Matters, on <w part="I">Ac-</w><lb/><w part="F">count</w> that their Members are ſeldom all
+          <w part="I">a-</w><lb/><w part="F">greed</w> in any one Point; and as this Project
+        <lb/>has been before them a long Time ago, and <lb/>much preſſed by ſome of the moſt Noted
+        in <lb/>the Society; and as at that Time it met with <lb/>Diſcouragement, (certainly, as
+        appears by <lb/>what is here advanced, without any good <lb/>Reaſon) ſo in all Probability
+        it wou'd do the <lb/>ſame again; and therefore ſome ſingle Perſon, <lb/>or a few, muſt ſet
+        about it, otherwiſe ſo good <lb/>a Deſign muſt for ever periſh. It is indeed a <lb/>bold
+        Undertaking for any one Man, but what <lb/>inevitable Neceſſity ſeems to throw upon ſome
+        <lb/>Body. It may here perhaps be asked, Does <lb/>any Man in this Place, eſpecially if he
+        is not <lb/>a very old One, think himſelf qualified as a <lb/>Phyſician ought to be,
+        according to the <w part="I">De-</w><lb/><w part="F">ſcription</w> given of a <hi
+          rend="italic">True Phyſician</hi> above, <lb/>and that therefore he can be the Perſon to
+        <lb/>undertake this Work? This may be anſwered <pb xml:id="page_23" n="24"/><lb/>by asking
+        another Queſtion; Pray, does any <lb/>young Man think himſelf qualified for <w part="I"
+          >pre-</w><lb/><w part="F">ſcribing</w> to Patients, in Quality of <hi rend="italic"
+          >Doctor,</hi>
+        <lb/>where the Life of his Neighbour is ſo nearly <lb/>concerned? Really any Perſon that is
+          <w part="I">ſuffici-</w><lb/><w part="F">ent</w> for the one, may be ſufficient for doing
+        the <lb/>other, and can be capable of neither, without <lb/>a great deal of the Study above
+        ſpoken of, <lb/>and Practice for ſome Time. And indeed <lb/>any Man can as eaſily know,
+        whether he <w part="I">him-</w><lb/><w part="F">ſelf</w> has made conſiderable Progreſs in
+        the <w part="I">Do-</w><lb/><w part="F">ctrine</w> of <hi rend="italic">Hippocrates,</hi> as
+        another can <w part="I">whe-</w><lb/><w part="F">ther</w> he again underſtands <hi
+          rend="italic">Euclid.</hi> And it is <lb/>preſumed, that no Man of common Senſe will
+        <lb/>be refuſed an Allowance to paſs a Judgment <lb/>upon himſelf, whether he underſtands
+        the laſt <lb/>mentioned <hi rend="italic">Author</hi> or not. </p>
+      <p rend="indent"><lb/><hi rend="sc">If</hi> this then is ſo, ſome Perſon or other <lb/>may,
+        without incurring the Imputation of <w part="I">ex-</w><lb/><w part="F">traordinary</w>
+        Vanity, take the Burden of this <lb/>whole Affair upon him, and ſet up with as <lb/>good a
+        Grace for being ready to ſerve a great <lb/>many at a cheap Rate, as any other Man can
+        <lb/>to ſerve a few at a dear one. And no doubt, <lb/>but that if this Method were once
+        followed <lb/>with any tolerable Succeſs, by any Perſon, <lb/>the Royal College would by
+        Degrees come <lb/>into it, however unwilling they may be at the <lb/>Beginning; and ſo at
+        length the Country reap <lb/>the whole Benefit propoſed by it. </p>
+      <pb xml:id="page_24" n="25"/>
+      <p rend="indent"><lb/><hi rend="sc">There</hi> is one Advantage not yet taken <lb/>Notice of,
+        which is, That if ſome certain <w part="I">Per-</w><lb/><w part="F">ſons</w> were the
+        Undertakers, the young <w part="I">Stu-</w><lb/><w part="F">dents</w> of Medicine might reap
+        a great deal of <lb/>Good by it. </p>
+      <p rend="indent"><lb/><hi rend="sc">There</hi> has of late been taught here, and <lb/>with
+        ſome conſiderable Succeſs, at the <hi rend="italic">Surge-<lb/>ons Hall,</hi> the whole Art
+        of Medicine, in a <lb/>Syſtematical Way; in which Courſe, with <lb/>all imaginable Care of
+        the Performers, nothing <lb/>has been omitted which to them ſeem'd <w part="I"
+          >ne-</w><lb/><w part="F">ceſſary</w>, either to demonſtrate the Theory, <lb/>or illuſtrate
+        and explain regular Practice, <lb/>as drawn from certain Experience and <w part="I"
+          >un-</w><lb/><w part="F">queſtionably</w> juſt Obſervations. This they <lb/>have done,
+        with all due Regard to the great <lb/>Names of thoſe who have furniſhed the World <lb/>with
+        a vaſt Treaſure of practical <w part="I">Obſervati-</w><lb/><w part="F">ons</w>, and of
+        thoſe whoſe great Induſtry and <lb/>accurate Genius's, have confirmed and <w part="I"
+          >impro-</w><lb/><w part="F">ved</w> the Theory by many valuable <w part="I"
+          >Diſcove-</w><lb/><w part="F">ries</w>; and with no leſs Deference to the <lb/>Great
+        Perſon who, from vaſt Volumes, has <lb/>collected all relating to the one or the other,
+        <lb/>into ſuch an exact Order, and into ſuch Bounds, <lb/>that what concerns either of them
+        can be <w part="I">ex-</w><lb/><w part="F">plained</w> in the Courſe of a Seven or Eight
+        <lb/>Months College; which Task they own <w part="I">them-</w><lb/><w part="F">ſelves</w>
+        unable to have performed, without the <lb/>Aid of ſo great a Maſter. </p>
+      <pb xml:id="page_25" n="26"/>
+      <p rend="indent"><lb/><hi rend="sc">They</hi> hope that they are of Service in <lb/>ſeveral
+        Reſpects to their Country. <hi rend="italic">Firſt,</hi> The <lb/>Money which it was
+        formerly neceſſary for <lb/>Phyſicians to beſtow on a foreign Education, <lb/>may be kept at
+        home. <hi rend="italic">Next,</hi> A great many <lb/>who had not Ability to go abroad to <w
+          part="I">pur-</w><lb/><w part="F">chaſe</w> Learning, are now taught in their own
+        <lb/>Country, which puts them to a ſmall <w part="I">Ex-</w><lb/><w part="F">pence</w>; and
+        by this Means a great many <w part="I">ac-</w><lb/><w part="F">quire</w> a juſt Notion of a
+        regular Practice, who <lb/>otherwiſe would perhaps never have heard of <lb/>it; and yet, may
+        be, would have play'd the <lb/><hi rend="italic">Doctor</hi> with as great Aſſurance as they
+        ſhall <lb/>do now; but under what Diſadvantages it is <lb/>eaſy to tell. Beſides, the
+        extraordinary Pains <lb/>that thoſe Gentlemen have been at, in teaching <lb/>in <hi
+          rend="italic">Engliſh</hi> as well as in <hi rend="italic">Latin,</hi> and in inſiſting
+        <lb/>ſo minutely on every Particular, as to be <w part="I">un-</w><lb/><w part="F"
+          >derſtood</w> by thoſe of any Capacity, will have <lb/>this good Effect, that many who
+        perhaps <lb/>wanted the previous neceſſary Learning fit <lb/>to accompliſh one for ſtudying
+        Phyſick, altho' <lb/>they cannot poſſibly reap the ſame Benefit <lb/>from the Courſe, as
+        others well educated <lb/>will; yet they will always carry away a great <lb/>deal, and ſo be
+        much better fitted than they <lb/>could have been without it, to ſerve either in <lb/>the
+        Army, or the Navy, where Medicine, as <lb/>often as Surgery, is their Buſineſs; altho' a
+        <lb/>ſufficient Knowledge of the laſt is abſolutely <pb xml:id="page_26" n="27"
+        /><lb/>neceſſary for them, and the Whole of it, to <lb/>wit of Surgery, is fully explain'd
+        as Part of <lb/>the Courſe. The hearing of it then, will make <lb/>any of them, at leaſt,
+        much ſooner good <w part="I">Sur-</w><lb/><w part="F">geons</w>, than they can be without
+        it. And as <lb/><hi rend="italic">Edinburgh</hi> furniſhes a great many Surgeons <lb/>to all
+        the <hi rend="italic">Britiſh</hi> Dominions, it is with <w part="I">Plea-</w><lb/><w
+          part="F">ſure</w> that theſe Gentlemen believe, if they meet <lb/>with ſuitable
+        Encouragement, they ſhall ſave <lb/>many a Subject to the Nation. </p>
+      <p rend="indent"><lb/><hi rend="sc">To</hi> return, after this Digreſſion, to our <lb/>Point:
+        If thoſe Gentlemen, or any of them, <lb/>would undertake to give Advice, at the Rate <lb/>of
+        Half a Crown a Viſit to any Patient <w part="I">with-</w><lb/><w part="F">in</w> the Ports
+        of <hi rend="italic">Edinburgh,</hi> or the <hi rend="italic">Canongate;</hi>
+        <lb/>and for a Shilling to every Perſon, who at <lb/>certain Hours ſhould conſult them at
+        Home; <lb/>and <hi rend="italic">Gratis</hi> to every extremely indigent Perſon <lb/>who
+        ſhould come to them: By this Means the <lb/>Students could ſee a great Deal of Practice, and
+        <lb/>have the Pleaſure of obſerving, that what was <lb/>taught them in the College, was
+        before their <lb/>Eyes verify'd in Fact. Their Maſter might take <lb/>one or more of them,
+        at a Time, to ſuch <w part="I">Pa-</w><lb/><w part="F">tients</w> as he ſhould think proper;
+        but <w part="I">eſpecial-</w><lb/><w part="F">ly</w>, he could make them Witneſſes of his <w
+          part="I">Pra-</w><lb/><w part="F">ctice</w> at Home, which 'tis believ'd (all will <w
+          part="I">a-</w><lb/><w part="F">gree)</w> would be a great Advantage to them; <lb/>and
+        therefore it is Needleſs to inſiſt on it. But <lb/>what is their Advantage, comes in Time to
+          <pb xml:id="page_27" n="28"/><lb/>be the Advantage of the Publick. Now if <lb/>any of the
+        Perſons juſt mention'd, do <w part="I">under-</w><lb/><w part="F">take</w> what we propoſe,
+        'tis hoped, That their <lb/>daily Imployment of Teaching, puts them <w part="I"
+          >a-</w><lb/><w part="F">bove</w> the Suſpicion of being very ignorant; <lb/>and therefore
+        the good Work may ſucceed in <lb/>their Hands, as well as in that of any One <lb/>whoſoever.
+        And then the two Obſtacles that <lb/>were propoſed in the Beginning, as the <w part="I"
+          >Hin-</w><lb/><w part="F">drances</w> of the Advantages ariſing from the <lb/>medical Art,
+        that is, The Ignorance of ſome <lb/>Practiſers, and the Difficulty of conſulting the
+        <lb/>Beſt on Account of their Fees, will both be <w part="I">al-</w><lb/><w part="F"
+          >moſt</w> wholly removed, when the whole Science <lb/>is to be learned in our own Country,
+        and <w part="I">there-</w><lb/><w part="F">fore</w> every Man made inexcuſable who learns it
+        <lb/>not, and yet deſigns to practiſe it; and then <lb/>thoſe who have learned it, to be
+        adviſed with <lb/>at ſuch a Rate as every Patient can afford. </p>
+      <p rend="indent"><lb/>Is it then Fact, That the Method of <w part="I">pra-</w><lb/><w part="F"
+          >ctiſing</w> Medicine at preſent, is ſubject to <w part="I">ma-</w><lb/><w part="F">ny</w>
+        Inconveniencies, which affect moſt Part of <lb/>the Faculty, and the whole Lieges in <w
+          part="I">gene-</w><lb/><w part="F">ral</w>, except a very few? By the whole Tenor <lb/>of
+        the Premiſſes is it demonſtrated, That what <lb/>is here propoſed would be an effectual <w
+          part="I">Reme-</w><lb/><w part="F">dy</w>, whereby they might all be remov'd? Is <lb/>the
+        only Way left to bring ſuch a Remedy <w part="I">a-</w><lb/><w part="F">bout</w>, pointed
+        out; that is, That it muſt be <lb/>attempted by a ſingle Perſon, or by a few? <pb
+          xml:id="page_28" n="29"/><lb/>And are there ſuch Perſons, who think they <lb/>have a
+        Probability of ſucceeding in it? Are <lb/>all theſe Things ſo, and nothing to ſtand in
+        <lb/>the Way of ſo good a Deſign, but the Malice <lb/>or Envy of ſome People of little
+        Souls, and <lb/>mean Capacities? THEN let the Thing be <w part="I">in-</w><lb/><w part="F"
+          >ſtantly</w> gone about. It is reaſonable in it ſelf, <lb/>and the preſent Circumſtances
+        of our <w part="I">Coun-</w><lb/><w part="F">try</w>, where there is ſuch an extreme
+        Scarcity <lb/>of Money, neceſſarily require it, were there <lb/>nothing elſe in the Matter.
+        The more Dirt <lb/>the Ignorant or Malicious endeavour to throw <lb/>upon the Undertaker of
+        a good Work, the <lb/>more Honour to him, who can contemn <lb/>Things of ſo much
+        Inſignificancy, and go on <lb/>to do well; and the more Ignominy and <w part="I"
+          >Diſ-</w><lb/><w part="F">grace</w> to his Oppoſers, in the Eyes of all the <lb/>knowing
+        and candid World. The Author of <lb/>this Paper is very well appriſed of the <w part="I"
+          >com-</w><lb/><w part="F">mon</w> Methods of running down any Thing, <lb/>however juſt, if
+        a Perſon ſhall pleaſe, whoſe <lb/>Talent lies that Way. He, and every Body <lb/>elſe, is
+        aware of the Backbiting <w part="I">Tittle-tat-</w><lb/><w part="F">tle</w>, the impertinent
+        Sneer to inſinuate a <w part="I">Slan-</w><lb/><w part="F">der</w>, and all the little
+        jirking villanous Arts <lb/>of Detraction and Defamation, and of the <lb/>wrong
+        Conſtructions that may be put upon <lb/>every Thing. He owns frankly, That if any <lb/>of
+        this Sort of Artillery be brought againſt <lb/>him, he heartily deſpiſes it. If any <w
+          part="I">reaſona-</w><pb xml:id="page_29" n="30"/><lb/><w part="F">ble</w> Argument be
+        brought againſt what is <w part="I">pro-</w><lb/><w part="F">poſed</w>, he is willing to
+        hear it; and if it be a <lb/>good one, to be convinced by it. </p>
+      <p rend="indent"><lb/><hi rend="sc">In</hi> the mean Time he thinks, after what <lb/>is ſaid,
+        it is proper to let the Publick know, <lb/>That there is a Deſign, by ſome of the
+        <lb/>Faculty of Medicine, as well in <hi rend="italic">Edinburgh,</hi>
+        <lb/>as in ſome of the other Royal Burghs in <lb/><hi rend="italic">Scotland,</hi> actually
+        to Practiſe in the <w part="I">propo-</w><lb/><w part="F">ſed</w> Way, (that is, for a ſmall
+        Fee each <lb/>Conſultation) and it is hoped, That ſo <w part="I">lau-</w><lb/><w part="F"
+          >dable</w> an Undertaking will meet with all due <lb/>Encouragement. The Particulars of
+        the <w part="I">Per-</w><lb/><w part="F">ſons</w> Names, and the Fees they are to take,
+        <lb/>will afterwards be declared. All others are <lb/>heartily invited to come into the ſame
+        Way <lb/>of doing, making ſuch Alterations in their <lb/>Method of following out the Scheme,
+        as ſhall <lb/>beſt ſuit their Conveniency, and the <w part="I">Circum-</w><lb/><w part="F"
+          >ſtances</w> of the Place they live in. </p>
+      <p rend="indent"><lb/><hi rend="sc">This</hi> ſmall ESSAY is humbly <w part="I"
+          >ſubmit-</w><lb/><w part="F">ted</w> to the Judgment of the candid World; <lb/>and the
+        Author is perſwaded, That whether <lb/>his Propoſal ſucceed at preſent, or not, that
+        <lb/>there are ſome Conſiderations which ſeem <w part="I">plain-</w><lb/><w part="F">ly</w>
+        to evince, That ſooner or later it muſt <w part="I">ne-</w><lb/><w part="F">ceſſarily</w>
+        take in this Country; and then it will <lb/>be ſufficient Honour for him, to have been
+        <lb/>the firſt Mover in ſuch an important Affair. </p>
+      <trailer rend="italic align-center"><lb/>FINIS. </trailer>
+
+    </body>
+  </text>
+</TEI>

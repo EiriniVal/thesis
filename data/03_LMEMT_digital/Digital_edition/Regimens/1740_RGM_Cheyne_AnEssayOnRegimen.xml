@@ -1,0 +1,1531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LMEMT Corpus - Cheyne: An essay on regimen</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName/>
+            </author>
+            <title type="main">An essay on regimen. Together with five discourses, medical, moral,
+              and philosophical: serving to illustrate the principles and theory of philosophical
+              medicin, And point out Some of its Moral Consequences.</title>
+            <edition n="1"/>
+            <idno type="ESTC">T78855</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/T78855"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>London: printed for C. Rivington, in St. Paul's Church-Yard, and J. Leake,
+                  Bookseller in Bath, M.DCC.XL. </persName>
+              </publisher>
+              <date>1740</date>
+            </imprint>
+            <extent>
+              <measure type="format">8⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="93"/>
+              <measure type="count" commodity="body" unit="page" quantity="344"/>
+              <measure type="count" commodity="back" unit="page" quantity="1"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">British Library</orgName>
+            <idno type="ECCO">CW3307894009</idno>
+            <idno type="TCP">K065341.00</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Health guide"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text xml:lang="eng">
+    <front>
+      <gap reason="sampling" unit="pages" quantity="22"/>
+    </front>
+    <body>
+      <div type="essay">
+        <pb xml:id="page_24"/>
+        <head rend="align-center space "><lb/>A <lb/><hi rend="dc(2)">Philoſophical <hi
+              rend="italic">and</hi> Practical</hi>
+          <lb/><hi rend="dc(3)">ESSAY</hi>
+          <lb/><hi rend="size(0.5)">ON THE GENERAL</hi>
+          <lb/><hi rend="dc(2)">Method <hi rend="italic">and</hi> Medicins,</hi>
+          <lb/>But particularly on the <lb/><hi rend="dc(2)"><hi rend="sc">Regimen </hi><hi
+              rend="italic">of</hi>
+            <hi rend="sc">Diet</hi>,</hi><lb/> ITS</head>
+        <p rend="indent hanging"><lb/><hi>Quantity, Quality, Order</hi>
+          <hi rend="italic">and</hi> Choice, <lb/><hi rend="italic">fitteſt to preſerve</hi>
+          <hi rend="sc">Health</hi>, <hi rend="italic">prolong</hi>
+          <lb/><hi rend="sc">LIFE</hi>, <hi rend="italic">and produce equal good</hi>
+          <hi rend="sc">Spirits</hi>, <lb/><hi rend="italic">in perſons of all Ages and
+            Conſtitu-<lb/>tions.</hi>
+        </p>
+        <lb/>
+        <q><hi rend="italic">Vivere Naturæ, ſi convenienter, oportet</hi>. <hi rend="sc"
+            >Hor</hi>.</q>
+        <pb n="i"/>
+        <div>
+        <head rend="align-center space size (2.0)"><lb/>A <lb/>Philoſophical and Practical <lb/><hi
+            rend="dc(2)">ESSAY</hi>
+          <lb/>ON THE <lb/>General <hi rend="sc">Method</hi>
+          <hi rend="italic">and</hi>
+          <hi rend="sc">Medicins</hi>; </head>
+        <head rend="align-center space"><lb/>But particularly on</head>
+        <p rend="indent hanging"><lb/>The <hi rend="sc">Regimen</hi>
+          <hi rend="italic">of</hi>
+          <hi rend="sc">Diet</hi>, <hi rend="italic">its</hi> Quantity, <lb/>Quality, Order <hi
+            rend="italic">and</hi> Choice, <hi rend="italic">fitteſt to <w part="I">pre-</w><lb/><w
+              part="F">ſerve</w></hi>
+          <hi rend="sc">Health</hi>, <hi rend="italic">prolong</hi>
+          <hi rend="sc">Life</hi>, <hi rend="italic">and <w part="I">pro-</w><lb/><w part="F"
+              >duce</w> equal good</hi>
+          <hi rend="sc">Spirits</hi>, <hi rend="italic">in <w part="I">Per-</w><lb/><w part="F"
+              >ſons</w> of all Ages and Conſtitutions.</hi>
+        </p></div>
+        <div n="1" type="section">
+          <p rend="indent"><lb/>§. 1. <hi rend="dc(3)">T</hi>HERE is not a more pernicious
+            <lb/>Error in <hi rend="italic">Phyſic,</hi> or one more <lb/>oppoſit to the Expectation
+            of <lb/>Patients, (<hi rend="italic">viz.</hi> the Preſervation or Recovery <lb/>of
+            their <hi rend="italic">Health</hi>) than that very common and <lb/>univerſally received
+            Opinion, That there are <lb/><hi rend="italic">Bodies</hi> in Nature, or in the <hi
+              rend="italic">Materia Medica,</hi> o<lb/>r ſuch as may be found out by <hi
+              rend="italic">Art,</hi> by <lb/>dividing, compounding, or altering them by <lb/>the
+              <hi rend="italic">Tortures</hi> of the <hi rend="italic">Fire,</hi> which will <w
+              part="I">ſudden-</w><pb xml:id="page_26" n="ii"/>
+            <lb/><w part="F">ly</w>, or in any great Degree, change or deſtroy the <lb/><hi
+              rend="italic">Malignity</hi> of the morbid <hi rend="italic">Humors</hi> of <hi
+              rend="italic">animal <lb/>Bodies</hi>; or will intirely alter the Nature,
+            <lb/>Qualities, Figure, Size and Laws of <hi rend="italic">Coheſion</hi>
+            <lb/>of the <hi rend="italic">Particles</hi> that compoſe their <hi rend="italic"
+              >Fluids</hi>
+            <lb/>and <hi rend="italic">Solids</hi>; from an unſound and unhealthy <lb/>State, to one
+            of a <hi rend="italic">kindly</hi> and benign Nature (a <lb/>wild Notion, at firſt
+            introduc'd and propagated <lb/>by <hi rend="italic">enthuſiaſtical Chymiſts, Quacks</hi>
+            and <hi rend="italic">Sym-<lb/>ptom-Doctors</hi>). An <hi rend="italic">animal</hi> Body
+            is nothing but <lb/>a <hi rend="italic">Compages</hi> or Contexture of Pipes, an <hi
+              rend="italic">hydraulic <lb/>Machin,</hi> fill'd with a Liquor of ſuch a Nature as
+            <lb/>was transfus'd into it by its <hi rend="italic">Parents,</hi> or is <lb/>changed
+            into by the <hi rend="italic">Nature</hi> of the <hi rend="italic">Food</hi> it is
+            <lb/>nouriſh'd with, and is ever afterwards good, <lb/>bad, or indifferent, as theſe two
+            Sources have <lb/>ſent it forth. The <hi rend="italic">Primae Viae,</hi> or the <hi
+              rend="italic">ali-<lb/>mentary Tube,</hi> is, as it were, a <hi rend="italic">Common
+              Sewer,</hi>
+            <lb/>may be foul'd or clean'd in various Manners, <lb/>and with great Facility; it is
+            wide, open, and <lb/>reaſonably ſtrong, in moſt <hi rend="italic">Animals:</hi> But from
+            <lb/>the <hi rend="italic">Inteſtines</hi> into the <hi rend="italic">Habit,</hi> (which
+            only <lb/>ought to be reckon'd the Body, or the <hi rend="italic">Vehicle</hi>
+            <lb/>of the <hi rend="italic">Soul</hi>) and into the <hi rend="italic">ſanguiferous
+              Tubes,</hi>
+            <lb/>into the <hi rend="italic">Glands</hi> and <hi rend="italic">Bowels,</hi> the
+            Paſſages from <lb/>thence are ſo ſtreight and narrow, that they are <lb/>but <hi
+              rend="italic">infiniteſimal Pores,</hi> rather than <hi rend="italic">Orifices,
+              <lb/>Strainers</hi> and <hi rend="italic">Searches,</hi> rather than <hi rend="italic"
+              >Mouths</hi>
+            <lb/>of <hi rend="italic">Tubes,</hi> and are ſcarce ever viſible or perceptible <lb/>in
+            a healthy State; and the Supply and Nutriture <lb/>of the <hi rend="italic">Fluids</hi>
+            and <hi rend="italic">Solids</hi> muſt paſs under the <pb xml:id="page_27" n="iii"
+            /><lb/>Form of a <hi rend="italic">Steam</hi> or <hi rend="italic">Vapour</hi> through
+            them, <lb/>and not in the Form of a <hi rend="italic">Liquor,</hi> either for <lb/><hi
+              rend="italic">Food</hi> or <hi rend="italic">Phyſic,</hi> either to increaſe the <w
+              part="I">Quan-</w><lb/><w part="F">tity</w>, or alter the Quality of the Blood and
+            <lb/>Juices; and the <hi rend="italic">Solids</hi> (which <hi rend="italic">concentred,
+              <lb/>conſolidated</hi> and <hi rend="italic">condens'd</hi> into their real or
+            <lb/>firſt <hi rend="italic">Formation Size,</hi> would not equal a <hi rend="italic"
+              >Grain</hi> of <lb/><hi rend="italic">Sand</hi>) are permanent and dureable, and <w
+              part="I">con-</w><lb/><w part="F">tinue</w> pretty much in that State of <hi
+              rend="italic">Elaſticity</hi>
+            <lb/>and Firmneſs, they were firſt created with; and <lb/>they are ſtrong or weak, ſmall
+            or coarſe, <hi rend="italic">firm</hi>
+            <lb/>or <hi rend="italic">lax,</hi> looſe or <hi rend="italic">elaſtic,</hi> blunt or
+            ſharp, as they <lb/>were firſt made by the <hi rend="italic">ſupreme Artificer,</hi> or
+            are <lb/>alter'd ſomewhat by the original <hi rend="italic">Dyſcraſy</hi>
+            <lb/>or Diſtempers of the Parents, (the <hi rend="italic">Mother</hi>
+            <lb/>can only mend or ſpoil their Juices, which <lb/>might be eaſily perfected by long
+            Continuance <lb/>in a <hi rend="italic">ſweetening Diet,</hi> during their younger
+            <lb/>Days; which if they ſurvive, they generally <lb/>grow ſtronger as they grow older,
+            become <lb/>the <hi rend="italic">Genii,</hi> and the Governors of the World,
+            <lb/>becauſe the <hi rend="italic">Solids,</hi> thus purified, come from <lb/>the <hi
+              rend="italic">Father</hi> alone) and continue much the <lb/>ſame all the Time of their
+            Duration on this <lb/><hi rend="italic">Globe,</hi> except ſo far as the ſmall <hi
+              rend="italic">temporary</hi>
+            <lb/>and <hi rend="italic">fugitive</hi> Alteration that <hi rend="italic">Diet,
+              Exerciſe,</hi>
+            <lb/>or <hi rend="italic">Evacuation,</hi> or mild ponderous Medicines <lb/>long
+            continued, may make on them; ſo ſmall <lb/>a Matter it really is, that <hi rend="italic"
+              >Phyſic,</hi> or the <hi rend="italic">Ma-<lb/>teria Medica,</hi> can perform on the
+            Habit, on <lb/>the <hi rend="italic">Solids</hi> at leaſt; and yet it is only in and
+            <lb/>by them, that <hi rend="italic">Health, long Life</hi> and <hi rend="italic"
+              >Sere-<lb/>nity</hi> are to be had: The moſt that <hi rend="italic">Phyſic</hi>
+            <pb xml:id="page_28" n="iv"/>
+            <lb/>or <hi rend="italic">Phyſicians</hi> can do, is in and by the <hi rend="italic"
+              >Primæ <lb/>Vitæ,</hi> or alimentary Tube, through theſe fine <lb/>lacteal <hi
+              rend="italic">Searches</hi> into the <hi rend="italic">Habit.</hi>
+          </p>
+        </div>
+        <div n="2" type="section">
+          <p rend="indent"><lb/>§. 2. <hi rend="sc">What</hi> is it then, will it be ſaid, that
+              <lb/><hi rend="italic">Art, Phyſic</hi> or a <hi rend="italic">philoſophic
+              Phyſician,</hi> can <lb/>truly do, to relieve the Miſeries, Pains and <w part="I"
+              >Diſ-</w><lb/><w part="F">eaſes</w> of their <hi rend="italic">Fellow-Creatures?</hi>
+            A great deal, <lb/>if judiciouſly and honeſtly directed, and <w part="I"
+              >obſtinat-</w><lb/><w part="F">ly</w> and exactly purſued, <hi rend="italic">viz.</hi>
+            by mending the <lb/><hi rend="italic">Juices</hi> in the Manner Nature, the Diſtemper,
+            <lb/>the Age, and the Habitudes of the Patient point <lb/>out. <hi rend="italic"
+              >Theſe</hi> (the Juices) are the only things <lb/>in an animal Body, in the Power and
+            under the <lb/>Dominion of a <hi rend="italic">Phyſician.</hi> If the <hi rend="italic"
+              >principal In-<lb/>tentions</hi> of the <hi rend="italic">Phyſician</hi> be to mend
+            the Blood <lb/>and Juices, <hi rend="italic">they</hi> will in time, and by the wiſe
+              <lb/><hi rend="italic">Mechaniſm</hi> of Nature, rectify and confirm the <lb/><hi
+              rend="italic">Solids</hi> into their proper Situation and <hi rend="italic">Tone</hi>;
+            for <lb/>it is out of, and by the Juices, that the <hi rend="italic">Solids</hi>
+            <lb/>are nouriſh'd, figur'd and cloath'd. <hi rend="italic">Air</hi> and <hi
+              rend="italic">Ex-<lb/>erciſe</hi> will give them the proper Firmneſs and <lb/>Degree
+            of <hi rend="italic">Elaſticity,</hi> and then the <hi rend="italic">animal
+              <lb/>Functions</hi> will be perform'd with Facility and <lb/>Pleaſure, and thereby the
+            Perſon will enjoy <lb/><hi rend="italic">Health</hi> and <hi rend="italic">Serenity.
+              Art</hi> can do nothing <lb/>but remove Impediments, reſolve <w part="I"
+              >Obſtruc-</w><lb/><w part="F">tions</w>, cut off and tear away <hi rend="italic"
+              >Excreſcences</hi> and <lb/>Superfluities, and reduce Nature to its <w part="I"
+              >primi-</w><lb/><w part="F">tive</w> Order; and this only can be done by <lb/>a proper
+            and ſpecific <hi rend="italic">Regimen</hi> in Quantity and <lb/>Quality, by Air and
+            Exerciſe, and by <w part="I">well-</w><lb/><w part="F">judg'd</w> and timeous
+            Evacuation, and prepareing <pb xml:id="page_29" n="v"/><lb/>the morbid Juices for eaſier
+            Elimination, by <lb/>Means which, I fear, lie in a narrow Compaſs, <lb/>and depend
+            moſtly on the mild mineral <w part="I">Medi-</w><lb/><w part="F">cins</w> (which were
+            never originally deſign'd by <lb/>Nature to be introduc'd into an animal Body, <lb/>and
+            always rend, tear and wear them out faſter, <lb/>like <hi rend="italic">Spirits</hi> and
+              <hi rend="italic">chymical</hi> Medicins, but in <lb/>bad Caſes are at firſt at leaſt
+            neceſſary) <w part="I">judici-</w><lb/><w part="F">ouſly</w> managed with proper <hi
+              rend="italic">Dilution.</hi>
+          </p>
+        </div>
+        <div n="3" type="section">
+          <p rend="indent"><lb/>§. 3. <hi rend="italic">PHLEBOTOMY</hi> will directly let <lb/>out a
+            Part of the bad and vicious <hi rend="italic">Juices,</hi> to <lb/>be immediatly
+            ſupplied with good <hi rend="italic">ones,</hi> from <lb/>proper Regimen, by making the
+            Veſſels more <lb/><hi rend="italic">roomy,</hi> and thereby enabling the <hi
+              rend="italic">Circulation</hi>
+            <lb/>to make her fuller Rounds; for when the <lb/>Blood-Veſſels are <hi rend="italic"
+              >too turgid</hi> and full, or the <lb/>Juices too thick, groſs, and ſizy, to tumify
+            <lb/>them, the natural <hi rend="italic">Secretions</hi> and Diſcharges <lb/>will be too
+            ſmall to admit into them new, <lb/>freſh, ſweet <hi rend="italic">Juices,</hi> from Food
+            or Phyſic, <lb/>which well-tim'd, partial and frequent <hi rend="italic"
+              >Phle-<lb/>botomy,</hi> will much aſſiſt. <hi rend="italic">Vomits</hi> drive <w
+              part="I">forci-</w><lb/><w part="F">bly</w> out of the upper Part of the <hi
+              rend="italic">chyliferous <lb/>Tube,</hi> not only its noxious Contents, but
+            <lb/>ſtrongly ſqueeze all the <hi rend="italic">Glands</hi> (which are <lb/>infinit) of
+            the <hi rend="italic">Abdomen,</hi> diſſolve and <hi rend="italic">fuſe</hi> by <lb/>its
+              <hi rend="italic">Convulſions,</hi> and internal Compreſſure, <lb/>their Contents,
+            (and that of the univerſal <lb/>Maſs of the Fluids) and promote their <hi rend="italic"
+              >Ex-<lb/>pulſion</hi>; and, <hi rend="italic">frequently repeated,</hi> are of
+            <lb/>more Uſe and Efficacy than all the other <w part="I">Evacua-</w><lb/><w part="F"
+              >tions</w> join'd together; for they not only truly <pb xml:id="page_30" n="vi"
+            /><lb/>reach the Habit, ſupply the Place of Exerciſe, <lb/>cleanſe the <hi rend="italic"
+              >internal Viſcera</hi> and <hi rend="italic">Glands,</hi>
+            <lb/>(which can by no other means be reached) <lb/>but compreſs, ſquecze and drive out
+            the moſt <lb/>diſtant Obſtructions, by ſetting the whole <lb/><hi rend="italic"
+              >Syſtem,</hi> and the moſt remote <hi rend="italic">Fibre,</hi> in violent <lb/>Action
+            and Play; and where the Solids and <lb/>natural Strength will admit, are, I think, the
+            <lb/>moſt <hi rend="italic">univerſal Remedy</hi> known to <hi rend="italic">Art,</hi>
+            if <lb/>obſtinatly and long perſiſted in, in <hi rend="italic">chronical</hi>
+            <lb/>and <hi rend="italic">obſtinat</hi> Caſes eſpecially; for moſt <w part="I"
+              >infal-</w><lb/><w part="F">libly</w> they bring out all the latent moſt remote
+              <lb/><hi rend="italic">Morboſities</hi> in the Habit, diſſolve and fuſe <lb/>them, and
+            mix them with the univerſal Maſs <lb/>of Fluids, in the Trunks of the great <w part="I"
+              >Veſ-</w><lb/><w part="F">ſels</w>, to be more readily and eaſily thrown out <lb/>of
+            the Habit: but <hi rend="italic">they are a hard Work,</hi> and <lb/>few can bear them.
+              <hi rend="italic">Purges</hi> clean and empty <lb/>the lower Part of the <hi
+              rend="italic">chyliferous Tubes,</hi> leave <lb/>the <hi rend="italic">Glands</hi>
+            ſituated there, more Freedom to <lb/>part with their <hi rend="italic">Obſtructions</hi>
+            by ſubſequent <lb/>Repetitions: but this <hi rend="italic">Evacuation,</hi> tho' much
+            <lb/>eaſier, yet is a <hi rend="italic">great way about,</hi> and of ſlow <lb/>and ſmall
+            Efficacy in great Diſeaſes, unleſs the <lb/><hi rend="italic">Malady</hi> be ſituated in
+            the lowermoſt Regions <lb/>of the Body; and even then <hi rend="italic">Vomits</hi> do
+            it <lb/>ſooner and more effectually: and in weak <w part="I">Ha-</w><lb/><w part="F"
+              >bits</w>, and <hi rend="italic">nervous</hi> Diſtempers, Purges ruffle <w part="I"
+              >ex-</w><lb/><w part="F">tremely</w>. <hi rend="italic">Diaphoretics,</hi> I think, do
+            little in <lb/>theſe our <hi rend="italic">Northern Climats,</hi> unleſs they be
+            <lb/>very gentle, and are uſeful only in <hi rend="italic">acute Caſes,</hi>
+            <lb/>where Nature tends towards a <hi rend="italic">Criſe</hi>; in <w part="I"
+              >chro-</w><lb/><w part="F">nical</w> Caſes, they heat and inflame, and only <pb
+              xml:id="page_31" n="vii"/><lb/>ſpend the thinneſt and moſt <hi rend="italic"
+              >aqueous</hi> Parts of <lb/>the Fluids, which are generally moſt innocent. <lb/><hi
+              rend="italic">Diuretics</hi> ſcour and clean the <hi rend="italic">urinary</hi>
+            <w part="I">Paſ-</w><lb/><w part="F">ſages</w>, and carry off <hi rend="italic"
+              >ſcorbutic</hi> and <hi rend="italic">nephritic <lb/>Salts:</hi> but to be innocent or
+            efficacious, they <lb/>ought to conſiſt of the thinneſt, ſofteſt and <lb/>cooleſt of all
+            Liquors, that is, the pureſt Water, <lb/>juſt ſoften'd and <hi rend="italic"
+              >acuated</hi> by the Meal or Salt of <lb/>ſome proper Vegetable. <hi rend="italic"
+              >Bliſters</hi> are moſtly <lb/><hi rend="italic">Topical,</hi> they melt, <hi
+              rend="italic">fuſe,</hi> and draw forth <lb/>the viſcid Serum from the <hi
+              rend="italic">capillary</hi> Veſſels, and <lb/>leave Room for a freer Circulation; and
+            <lb/>when promoted and effected by <hi rend="italic">Cantharides,</hi>
+            <lb/>have a ſenſible Effect on the moſt diſtant Fluids <lb/>and Solids; and in acute
+            Caſes, they are indeed <lb/>the greateſt and moſt effectual <hi rend="italic"
+              >Remedy.</hi> Theſe <lb/>are moſt and chiefeſt of the Evacuations uſed <lb/>in the
+            Practice of <hi rend="italic">Phyſic,</hi> and, judiciouſly and <lb/>properly purſued,
+            are of the greateſt <w part="I">Conſe-</w><lb/><w part="F">quence</w> to lay a ſolid
+            Foundation for a <hi rend="italic">Cure.</hi>
+          </p>
+        </div>
+        <div n="4" type="section">
+          <p rend="indent"><lb/>§. 4. <hi rend="italic">MERCURY</hi> and <hi rend="italic"
+              >Antimony</hi> alone, <lb/>with their milder Preparations, judiciouſly <w part="I"
+              >ma-</w><lb/><w part="F">naged</w>, and united with the ſpecific Juice of <hi
+              rend="italic">Ve-<lb/>getables</hi> that Experience has determin'd <w part="I"
+              >pro-</w><lb/><w part="F">per</w> for the Diſtemper, upon all the Reaſoning <lb/>and
+            Experience I have ever had, bids faireſt <lb/>for attenuating the Juices, and opening
+            the <lb/>Obſtructions in the ſmall Veſſels and <hi rend="italic">Glands,</hi>
+            <lb/>and ſo fitting the morbid Particles for <w part="I">Elimi-</w><lb/><w part="F"
+              >nation</w>; but they are a two-edged Sword, and <lb/>deſtroy weak Perſons in
+            unskilful Hands; but <lb/>I have Occaſion to ſpeak more explicitly of <pb
+              xml:id="page_32" n="viii"/><lb/>their Nature and Effects in another Place. <hi
+              rend="italic">Nitre</hi>
+            <lb/>and its Preparations, eſpecially the <hi rend="italic">animal</hi>
+            <w part="I">Pre-</w><lb/><w part="F">paration</w> of it, in <hi rend="italic"
+              >Wood-lice,</hi> has been thought <lb/>by all <hi rend="italic">Antiquity,</hi> the
+            moſt innocent and yet <lb/>moſt effectual of all the <hi rend="italic">ſaline Tribe</hi>
+            of <w part="I">Me-</w><lb/><w part="F">dicins</w>, to cool, deterge, and open <w
+              part="I">Obſtruc-</w><lb/><w part="F">tions</w>; and its ſenſible Effect in dividing
+            the <lb/><hi rend="italic">Blood-Globules</hi> in the <hi rend="italic">Lungs,</hi> and
+            giving it <lb/>thereby its <hi rend="italic">Scarlet</hi> Colour, and its Efficacy in
+            <lb/>propagating and quickening <hi rend="italic">Fire</hi> and Light, (in <lb/>both
+            which Effects it has undoubtedly a great <lb/>Power, if not the greateſt) ſhew its <hi
+              rend="italic">Energy</hi>; <lb/>and in <hi rend="italic">febrile</hi> Exacerbations,
+            eſpecially of the <lb/><hi rend="italic">Symptomatic</hi> kind from malignant Ulcers,
+            and <lb/>an <hi rend="italic">inflammatory</hi> State of the Blood, when <w part="I"
+              >plen-</w><lb/><w part="F">tifully</w> diluted with <hi rend="italic">pure</hi> Water,
+            and long <w part="I">con-</w><lb/><w part="F">tinued</w>, I think, and have found it the
+            beſt, <lb/>if not the only <hi rend="italic">Remedy,</hi> ſufficient to juſtify the
+            <lb/>great Encomium on the <hi rend="italic">Natron</hi> of the Antients. <lb/>When the
+            Blood is ſufficiently <hi rend="italic">fus'd,</hi> and the <lb/><hi rend="italic"
+              >Glands</hi> made ſufficiently open and pervious, by <lb/><hi rend="italic"
+              >Evacuation</hi> and <hi rend="italic">Diet,</hi> then <hi rend="italic">Steel,
+              Bark</hi> and <lb/><hi rend="italic">Bitters,</hi> judiciouſly prepared, and fitted to
+            the <lb/>original Strength of the <hi rend="italic">Solids</hi> of the Patients,
+            <lb/>will be found the moſt effectual, to wind up <lb/>the <hi rend="italic"
+              >Springs</hi> of <hi rend="italic">Life,</hi> and to give a <hi rend="italic"
+              >Tenſion,</hi> due <lb/><hi rend="italic">Tone,</hi> and proper Degree of <hi
+              rend="italic">Elaſticity</hi> to the <hi rend="italic">So-<lb/>lids,</hi> the <hi
+              rend="italic">Fibres</hi> and Nerves, but eſpecially the <lb/><hi rend="italic"
+              >Membranes,</hi> which, I think, are the true and <lb/>only <hi rend="italic"
+              >Seats</hi> of <hi rend="italic">Spring</hi> and <hi rend="italic">Elaſticity,</hi>
+            and the <w part="I">pro-</w><lb/><w part="F">per</w> immediat Inſtruments of <hi
+              rend="italic">Motion</hi> and the <lb/><hi rend="italic">Functions</hi> in an <hi
+              rend="italic">animal Machin:</hi> Long and <lb/>great Evacuation, and a thin cool
+            Diet, while <pb xml:id="page_33" n="ix"/><lb/>they are purſued to <hi rend="italic"
+              >fuſe,</hi> thin, and attenuat the <lb/>Juices, muſt of Neceſſity <hi rend="italic"
+              >relax</hi> and let down <lb/>the <hi rend="italic">Spring</hi> of all the <hi
+              rend="italic">Solids</hi>; when the Juices <lb/>are ſufficiently thin'd and
+            attenuated, (which <lb/><hi rend="italic">Blood-letting</hi> will always diſcover) then,
+            to give <lb/>Strength, Vigour and Activity to the Patient, that <lb/>all the <hi
+              rend="italic">Secretions</hi> may be duely made; the ſole <lb/><hi rend="italic"
+              >Intention</hi> to perfect the Cure, I ſay, is to wind <lb/>up the <hi rend="italic"
+              >Solids</hi> again, as far as <hi rend="italic">Art</hi> can, which, I <lb/>fear, is
+            not far; at leaſt, I have never found it <lb/>much, nor very dureable; for all <hi
+              rend="italic">Aſtringents</hi> are <lb/>of the Nature, act by the ſame Laws, and have
+            <lb/>the Effect that <hi rend="italic">Wine</hi> and <hi rend="italic">ſpirituous
+              Liquors</hi>
+            <lb/>have, and are not unlike the buckling upon <lb/><hi rend="italic">Pipes</hi> and
+            boiling ſoft broken Hair; they will <lb/>give them a new <hi rend="italic">Tenſion</hi>
+            and proper Figure <lb/>for a ſhort time, but their Efficacy and <w part="I"
+              >Re-</w><lb/><w part="F">lief</w> is only <hi rend="italic">fugitive</hi> and
+            tranſient, and never <lb/>dureable; and they effect at the ſame time a <lb/>thickening,
+            incraſſating and ſizeing on the <lb/>Blood and Juices, while they are winding up,
+            <lb/>braceing and contracting the <hi rend="italic">Solids</hi>; for the <lb/>Effects of
+            the Qualities and Powers of all Bodies, <lb/>both <hi rend="italic">Liquids</hi> and <hi
+              rend="italic">Solids,</hi> of Food and <hi rend="italic">Phyſic,</hi>
+            <lb/>are always in a <hi rend="italic">duplicat</hi> Proportion of the <lb/>Diſtance
+            from the <hi rend="italic">Centre</hi> of their component <lb/><hi rend="italic"
+              >Particles.</hi> There is indeed this Difference <lb/>between <hi rend="italic">Bark,
+              Bitters</hi> and <hi rend="italic">Steel,</hi> and that of <lb/><hi rend="italic"
+              >ſtrong Liquors,</hi> that the Sides of the Veſſels, <lb/>eſpecially their fine cloſe
+              <hi rend="italic">membranous</hi> Coats, <lb/>imbibe, attract and preſerve the <hi
+              rend="italic">aſtringent</hi>
+            <lb/>Virtue and Qualities of <hi rend="italic">Bark, Bitters</hi> and <lb/><hi
+              rend="italic">Steel,</hi> and ſuch Aſtringents and Bracers, longer, <pb
+              xml:id="page_34" n="x"/><lb/>by reaſon of their innate <hi rend="italic"
+              >attractive</hi> Virtue on <lb/>the Particles of ſuch Bodies, their greater <hi
+              rend="italic">Soli-<lb/>dity,</hi> and cloſer <hi rend="italic">Texture,</hi> than the
+              <hi rend="italic">Blood Glo-<lb/>bules</hi> and the circulating Fluids do, which are
+            in a <lb/>perpetual <hi rend="italic">Flux</hi>; and <hi rend="italic">ſpirituous</hi>
+            Liquors mixing <lb/>more immediatly, fully, and by cloſer and larger <lb/><hi
+              rend="italic">Contacts</hi> with the circulating Juices, ſpend their <lb/>Efficacy on
+            them, and thicken them faſter. For <lb/>theſe Cauſes and Reaſons, I ſay, <hi
+              rend="italic">ſtrong</hi> Liquors <lb/>muſt have a more immediat and ſtronger Effect
+            <lb/>on the Blood and Juices, for condenſing and <lb/>thickening them, than <hi
+              rend="italic">Steel, Bitters</hi> and <lb/><hi rend="italic">Bark,</hi> and ſuch-like
+            Aſtringents can have; and <lb/>ſo ſpirituous Liquors much indulged, muſt
+            <lb/>neceſſarily have a much quicker, and more <lb/><hi rend="italic">deleterious</hi>
+            Effect on animal Fluids, than <hi rend="italic">Steel</hi>
+            <lb/>and <hi rend="italic">Aſtringents</hi> can: but ſtill they both act <lb/>in one <hi
+              rend="italic">Tenor,</hi> and by one <hi rend="italic">general Law</hi>; and <lb/><hi
+              rend="italic">Steel, Bitters</hi> and Aſtringents, improperly and <lb/>intemperatly
+            us'd, and over-dos'd, will have <lb/>the ſame kind of bad Effects, and produce the
+            <lb/>ſame <hi rend="italic">Symptoms</hi> and Diſeaſes that <w part="I"
+              >Intempe-</w><lb/><w part="F">rance</w> in ſtrong Liquors will; only they are
+            <lb/>ſooner felt, are leſs grateful and <w part="I">bewitch-</w><lb/><w part="F"
+            >ing</w>, are much leſs or not at all craved, and <w part="I">con-</w><lb/><w part="F"
+              >ſequently</w> are ſooner given over. </p>
+        </div>
+        <div n="5" type="section">
+          <p rend="indent"><lb/>§. 5. <hi rend="sc">It</hi> is <hi rend="italic">Diet</hi> alone,
+            proper and ſpecific <lb/><hi rend="italic">Diet,</hi> in <hi rend="italic">Quantity,
+              Quality</hi> and <hi rend="italic">Order,</hi>
+            <w part="I">con-</w><lb/><w part="F">tinued</w> in till the Juices are ſufficiently
+            thinn'd, <lb/>to make the Functions regular and eaſy, which <lb/>is the ſole <hi
+              rend="italic">univerſal Remedy,</hi> and the only <lb/>Mean known to Art, or that an
+            animal <w part="I">Ma-</w>
+            <pb xml:id="page_35" n="xi"/>
+            <lb/><w part="F">chin</w>, without being otherwiſe made than it <lb/>is, can uſe with
+            certain Benefit and Succeſs, <lb/>which can give <hi rend="italic">Health, long
+              Life</hi> and <w part="I">Sere-</w><lb/><w part="F">nity</w>. There is an <hi
+              rend="italic">innate</hi> Degree of Strength <lb/>and <hi rend="italic"
+              >Elaſticity</hi> in the <hi rend="italic">Solids,</hi> to circulat the <lb/>Liquors,
+            and promote the <hi rend="italic">Secretions,</hi> and <lb/>carry on the <hi
+              rend="italic">vital Functions,</hi> with which one <lb/>comes into the World, which
+            they derive <lb/>from their <hi rend="italic">Birth</hi> and <hi rend="italic"
+              >Parents,</hi> which is ever <lb/>after but little alter'd even either by <hi
+              rend="italic">Art</hi> or <hi rend="italic">Diet: <lb/>Growth,</hi> Inlargement of the
+            Body, and cruſting <lb/>over the original Solids, and <hi rend="italic">Maturation,</hi>
+            only <lb/>fills the linear and infiniteſimal original <hi rend="italic">Tubes</hi>
+            <lb/>and Veſſels with a proper Liquor, to ſtretch, <lb/>extend, and plump them, as a
+            Sack is fill'd <lb/>with Grain, or a Bladder with Air or Water; <lb/>from that Liquor,
+            their <hi rend="italic">Coats,</hi> the fleſhy and <lb/>nervous <hi rend="italic"
+              >Fibres</hi> of the Muſcles, <hi rend="italic">Tendons</hi> and <lb/><hi rend="italic"
+              >Membrans,</hi> and other Solids of the Body, is <lb/>thicken'd, cruſted over, and
+            condens'd; the <lb/><hi rend="italic">Spring, Elaſticity,</hi> and motive Power, lies
+            <lb/>ſolely and intirely in the original, primary, <lb/>divinely organis'd linear <hi
+              rend="italic">Fibrils,</hi> and the <hi rend="italic">Mem-<lb/>brans</hi> made of
+            them. The Incruſtration and <lb/>Incraſſation from the Fluids, in the <hi rend="italic"
+              >Tubes</hi>
+            <lb/>ſuperinduced on them, but weakens their <w part="I">ori-</w><lb/><w part="F"
+              >ginal</w>
+            <hi rend="italic">Spring</hi> and <hi rend="italic">Elaſticity,</hi> both by its Weight
+            <lb/>and <hi rend="italic">incommenſurat Vibrations,</hi> as we find by <lb/>the <hi
+              rend="italic">Elaſticity</hi> of Twigs, the <hi rend="italic">ſharp Notes</hi> of
+            <lb/>fine ſmall Hairs, and the <hi rend="italic">Agility</hi> of young <lb/>Animals. The
+              <hi rend="italic">Elaſticity</hi> conſiſts mainly in <lb/>the original Degree of <hi
+              rend="italic">Attraction</hi> in the <w part="I">com-</w><pb xml:id="page_36" n="xii"
+              /><lb/><w part="F">ponent</w>
+            <hi rend="italic">elementary</hi> Particles of the <hi rend="italic">linear <w part="I"
+                >Fi-</w><lb/><w part="F">brils</w>,</hi> primarily faſhion'd by the <hi
+              rend="italic">Author</hi> of <lb/><hi rend="italic">Nature</hi>; and it is in this <hi
+              rend="italic">Elaſticity</hi> alone, <lb/>the Force, Power and Pleaſure of Life, and
+            of <lb/>the <hi rend="italic">animal Functions,</hi> conſiſts. If the <hi rend="italic"
+              >Elaſti-<lb/>city</hi> of theſe Solids be ſuch, as eaſily, readily <lb/>and pleaſantly
+            to overcome and ſlide over all <lb/>the <hi rend="italic">Rubs,</hi> Impediments and <hi
+              rend="italic">Letts</hi> in the <lb/><hi rend="italic">Functions,</hi> (whatever State
+            the Fluids be in) <lb/>then the Animal is healthy, active and gay; <lb/>otherwiſe, if
+            they are perform'd with Labour <lb/>and Struggle, and from too great Efforts of the
+              <lb/><hi rend="italic">ſelf-motive</hi> Principle on the primarily <hi rend="italic"
+              >divinely <lb/>organis'd Vehicles,</hi> and its Load of Cruſt which <lb/>is laid on
+            it, to defend it from the Injuries of <lb/>this <hi rend="italic">Element,</hi> and
+            ruinous <hi rend="italic">Planet</hi> we are now <lb/>confin'd to: For as a <hi
+              rend="italic">Surgeon</hi> lays a Plaiſter on a <lb/>Sore, to defend it from the <hi
+              rend="italic">Air,</hi> and the <hi rend="italic">Touch</hi>
+            <lb/>of hard rough Bodies; if this <hi rend="italic">Plaiſter</hi>
+            <w part="I">it-</w><lb/><w part="F">ſelf</w> ſhould be hard, rough, <hi rend="italic"
+              >corroſive,</hi> or <w part="I">ſti-</w><lb/><w part="F">mulating</w>, it would become
+            a Pain and <w part="I">Incom-</w><lb/><w part="F">modity</w>, inſtead of a Pleaſure or
+            Defence. It <lb/>is out of the Juices that circulat in the <hi rend="italic">Tubes,</hi>
+            <lb/>that this <hi rend="italic">plaiſtering</hi> is made on the <hi rend="italic"
+              >primitive</hi>
+            <lb/>ſenſible <hi rend="italic">elaſtic Fibrils</hi>; and it is therefore of <lb/>the
+            laſt Conſequence, and indeed the <hi rend="italic">One</hi>
+            <lb/>thing neceſſary, that theſe Juices be the <w part="I">ſweet-</w><lb/><w part="F"
+              >eſt</w>, lighteſt and moſt <hi rend="italic">lenient</hi> poſſible; and this <lb/>we
+            can only bring about by Diet, <hi rend="italic">ſoft, ſweet, <lb/>cool, mild Diet.</hi>
+          </p>
+        </div>
+        <div n="6" type="section">
+          <pb xml:id="page_37" n="xiii"/>
+          <p rend="indent"><lb/>§. 6. <hi rend="sc">Some</hi> Perſons have induſtriouſly and
+            <lb/>deſignedly ſpread it about, that I was of <w part="I">Opi-</w><lb/><w part="F"
+              >nion</w>, that a <hi rend="italic">ſole</hi> ſtrict Vegetable; or <hi rend="italic"
+              >Milk</hi> and <lb/><hi rend="italic">Seed Diet,</hi> was the beſt and fitteſt for all
+              <hi rend="italic">Per-<lb/>ſons, Climats,</hi> and Ages, without Exception or
+            <lb/>Limitation, and the <hi rend="italic">only one</hi> proper, approv'd <lb/>by the
+              <hi rend="italic">Author</hi> of <hi rend="italic">Nature,</hi> and <hi rend="italic"
+              >ſpecific</hi> to cure <lb/>all animal Diſtempers; adviſed my Patients no <lb/>other,
+            or pretended to cure them no other way, <lb/>be their Diſtemper what it will. My
+            Opinions <lb/>are of little Conſequence to the World, and I <lb/>hope I have too little
+            Value or Regard for them, <lb/>as they are <hi rend="italic">mine,</hi> to be any Degree
+              <hi rend="italic">ſanguin</hi>
+            <lb/>or concern'd for their Reception. I have, and <lb/>I hope have always expreſs'd, ſo
+            great a <w part="I">Re-</w><lb/><w part="F">gard</w> for the <hi rend="italic">Wiſdom,
+              Fitneſs,</hi> and Propriety of <lb/>Things, as diſcover'd by <hi rend="italic"
+              >Revelation,</hi> (from <lb/>whence the Patent for <hi rend="italic">animal</hi> Food
+            is deriv'd) <lb/>not to ſet up my Opinions or Ideas in <w part="I">Oppo-</w><lb/><w
+              part="F">ſition</w> to thoſe of <hi rend="italic">holy Writ,</hi> and the Divine
+              <lb/><hi rend="italic">Spirit</hi> ſpeaking in it. The Wiſdom of <hi rend="italic"
+              >Man,</hi>
+            <lb/>even that of the higheſt <hi rend="italic">Cherubim,</hi> is but <hi rend="italic"
+              >Fool-<lb/>iſhneſs,</hi> when compared with the <hi rend="italic">Omniſcience</hi>
+            <lb/>of <hi rend="italic">God,</hi> and his wiſe Providence. He that <lb/><hi
+              rend="italic">made</hi> us and ſent us here, knows beſt what is <lb/>fitteſt for us,
+            to anſwer and bring about his <lb/>own Deſigns of <hi rend="italic">Love</hi> and <hi
+              rend="italic">Mercy.</hi> But I am <lb/>thoroughly convinced, from <hi rend="italic"
+              >Reaſon, <w part="I">Experi-</w><lb/><w part="F">ence</w>, Philoſophy</hi> and <hi
+              rend="italic">Revelation,</hi> that in our <lb/><hi rend="italic">preſent State,</hi>
+            in this our <hi rend="italic">probatory</hi> tranſitory <lb/>Situation, on this ruinous
+              <hi rend="italic">Globe,</hi> (ſenſibly and <pb xml:id="page_38" n="xiv"/>
+            <lb/>evidently ſpoil'd a ſecond time by the <hi rend="italic">Deluge</hi>) <lb/>on which
+            we are now ſituated, that <hi rend="italic">animal <lb/>Food,</hi> their Juices, and <hi
+              rend="italic">integral Particles,</hi> are <lb/>the fitteſt and moſt proper, to
+            produce moſt <lb/>quickly and more immediatly, the firmeſt <lb/>hardeſt human Fleſh, and
+            warmeſt ſtrongeſt <lb/>Blood. There is a <hi rend="italic">Similarity</hi> and <hi
+              rend="italic">Homoge-<lb/>neity</hi> between the <hi rend="italic">muſcular Fleſh</hi>
+            of tender <lb/>ſweet <hi rend="italic">Animals,</hi> and that of the <hi rend="italic"
+              >human</hi> Body; <lb/>the <hi rend="italic">integral Particles</hi> of the <hi
+              rend="italic">Solids</hi> of the <lb/><hi rend="italic">firſt,</hi> and the component
+              <hi rend="italic">Globules</hi> of their <lb/>Juices, are ready <hi rend="italic"
+              >form'd, figur'd</hi> and adjuſted <lb/>to build up the <hi rend="italic">Fleſh,</hi>
+            and cloath the Solids, and <lb/>furniſh out the Juices of the <hi rend="italic"
+              >latter:</hi> they are <lb/>at hand, adjuſted by <hi rend="italic">Square</hi> and <hi
+              rend="italic">Compaſs,</hi>
+            <lb/>directly to be laid together, to <hi rend="italic">rear</hi> the <hi rend="italic"
+              >So-<lb/>lids</hi>; and their Juices are inur'd and <w part="I">fami-</w><lb/><w
+              part="F">liaris'd</w> to perform the <hi rend="italic">Meanders</hi> of the <w
+              part="I">Circu-</w><lb/><w part="F">lation</w>, and with Facility to perform all the
+              <hi rend="italic">ani-<lb/>mal Functions,</hi> with the leaſt Labour or Struggle,
+            <lb/>leſs than thoſe of <hi rend="italic">Vegetables</hi> in general; as a <lb/><hi
+              rend="italic">Maſon</hi> will ſooner and more ſtrongly build the <lb/>Walls of a
+            Houſe, who has hewn plain <hi rend="italic">rect-<lb/>angular</hi> Stones at hand, than
+            one who has <lb/>rough Stones only, Sand and Mortar, all <lb/>which muſt be firſt
+            figur'd or prepar'd for a <lb/>ſolid dureable <hi rend="italic">Building.</hi> All this,
+            I think, is <lb/>true, juſt and <hi rend="italic">philoſophical</hi>; and while Youth
+            <lb/>and tolerable Health continues, none ought <lb/>to <hi rend="italic">alter</hi> the
+            common temperat Diet of the <lb/>middling Rank of thoſe among whom he <lb/>lives, for a
+            particular or <hi rend="italic">artificial</hi> one, without <pb xml:id="page_39" n="xv"/>
+            <lb/>a particular <hi rend="italic">Call,</hi> and the beſt Advice: Nay, <lb/>I think
+            ſuch a Change unnatural, out of the <lb/>Order of <hi rend="italic">Providence,</hi> and
+            in ſome Degree <lb/><hi rend="italic">immoral.</hi> When a Perſon is tolerably well, and
+            <lb/>not far advanced into Life, to change an <hi rend="italic">ani-<lb/>mal</hi> for a
+              <hi rend="italic">vegetable</hi> Diet, to avoid mere <w part="I">Poſ-</w><lb/><w
+              part="F">ſibilities</w> and future <hi rend="italic">Contingencies,</hi> is <w
+              part="I">arrogant-</w><lb/><w part="F">ly</w> prying into the divine Decrees, and <w
+              part="I">inſo-</w><lb/><w part="F">lently</w>
+            <hi rend="italic">criticiſing</hi> the Conduct of his <w part="I">Provi-</w><lb/><w
+              part="F">dence</w>. If God's Deſign is to purify us by Pains <lb/>and Penalties here,
+            ours ought not to be only <lb/>the mere enjoying the <hi rend="italic">Kingdoms of this
+              World,</hi>
+            <lb/>and the <hi rend="italic">Glories</hi> thereof. If his be to ſhorten the <lb/>Time
+            of our Sufferings, by rendering them <lb/>more <hi rend="italic">intenſe</hi>; ours
+            ought to be to bear them <lb/>as long as by his Aſſiſtance we poſſibly can, in <lb/>the
+            common Courſe of Nature and <w part="I">Provi-</w><lb/><w part="F">dence</w>; for if we
+              <hi rend="italic">cowardly</hi> fly from them on <lb/>one Side, He has Power and Skill
+            enough <lb/>to double them in another; in this Particular, <lb/><hi rend="italic"
+              >whatever is, is beſt:</hi> But if we ſhould find <lb/>our Pains and Sufferings ſo
+            intenſe, that they <lb/>are no longer tolerable, but hinder, inſtead of <lb/>promoting,
+            what is our <hi rend="italic">Duty</hi> and <hi rend="italic">Vocation,</hi>
+            <lb/>and what we are convinced is beſt for us, then <lb/>he has adviſed us, <hi
+              rend="italic">when perſecuted in one <lb/>City, to flee to another:</hi> Then, and
+            only then, <lb/>when <hi rend="italic">animal Food</hi> will no longer do, we are
+            <lb/>to try what <hi rend="italic">Milk</hi> and <hi rend="italic">Seeds</hi> can do to
+            eaſe our <lb/>Pain. It is only the <hi rend="italic">Cross</hi> of <hi rend="italic"
+              >God's <w part="I">Appoint-</w><lb/><w part="F">ment</w>,</hi> and which he declares
+            his, by natural <lb/>Cauſes, and in the Courſe of his Providence, <pb xml:id="page_40"
+              n="xvi"/>
+            <lb/><hi rend="italic">unforeſeen</hi> and <hi rend="italic">unavoidable,</hi> which we
+            are to <lb/><hi rend="italic">take up daily,</hi> and with all the Joy, Alacrity
+            <lb/>and Reſignation, that the Meaning of a <hi rend="italic">Croſs</hi>
+            <lb/>can imply, that is, <hi rend="italic">the beſt we can,</hi> with the Aid <lb/>of
+            his <hi rend="italic">Grace.</hi> And if Suffering, Puniſhment, <lb/>Pains and
+            Penalties, and ſhortening the <w part="I">Dura-</w><lb/><w part="F">tion</w> of our
+            Impriſonment here, be the very <lb/>beſt for us in our preſent Situation and State;
+            <lb/>and if <hi rend="italic">animal</hi> Food, and <hi rend="italic">fermented</hi>
+            Liquors, <lb/>naturally, neceſſarily, and <hi rend="italic">mechanically</hi>
+            <w part="I">pro-</w><lb/><w part="F">duce</w> theſe Effects more readily than <hi
+              rend="italic">Vege-<lb/>tables,</hi> Milk and Seed Foods, and aqueous <w part="I"
+              >Li-</w><lb/><w part="F">quors</w>, then was it with infinit Wiſdom, <w part="I"
+              >Kind-</w><lb/><w part="F">ness</w> and Fitneſs, that the Holy Spirit permitted
+              <lb/><hi rend="italic">animal</hi> Food, and inlarged the <hi rend="italic"
+              >Materials</hi> of our <lb/><hi rend="italic">Aliment,</hi> even tho' his firſt
+            Intention for Man <lb/>had been Vegetables only (which could only be <lb/>in a
+            paradiſaical State, or on a better unſpoil'd <lb/><hi rend="italic">Planet</hi>). But
+            the real Truth is, <hi rend="italic">Nature,</hi> our <lb/><hi rend="italic">Globe,</hi>
+            the various unkindly <hi rend="italic">Climats,</hi> the <w part="I">diffe-</w><lb/><w
+              part="F">rent</w> Ages, States, Conditions and <w part="I">Circum-</w><lb/><w part="F"
+              >ſtances</w> under which Man is at preſent, render it <lb/>utterly <hi rend="italic"
+              >impoſſible</hi> and <hi rend="italic">impracticable,</hi> that Man <lb/>ſhould be
+            advis'd, order'd or commanded, by <w part="I">in-</w><lb/><w part="F">finit</w> Wiſdom,
+            to live only on <hi rend="italic">Vegetables.</hi> It is <lb/>not, and it cannot be, by
+              <hi rend="italic">Bread alone</hi> that Man <lb/>can live at preſent; it cannot anſwer
+            the Ends, <lb/>Uſes and Occaſions Men are now neceſſitated <lb/>to purſue. Great and
+            ſudden Efforts of <hi rend="italic">Prow-<lb/>ess</hi> and Strength cannot be anſwer'd
+            or <w part="I">exe-</w><lb/><w part="F">cuted</w> by <hi rend="italic">Vegetables</hi>
+            and Water only; they are <lb/>too thin, weak and poor. <hi rend="italic"
+              >Youth-hood,</hi> Vigour, <pb xml:id="page_41" n="xvii"/><lb/>Robuſtneſs, and great
+            Action, would be <w part="I">tor-</w><lb/><w part="F">tur'd</w>, and languiſh under
+            Bread and Water <lb/>in ever ſo great Plenty: <hi rend="italic">Milk, Fruits, Seeds</hi>
+            <lb/>and <hi rend="italic">Vegetables,</hi> in any Perfection, are of much <lb/>greater
+            Expence and Labour to procure, than <lb/>that the Poor and Neceſſitous now can afford
+            <lb/>them, eſpecially in <hi rend="italic">Northern Climats</hi>; they <lb/>have loſt
+            their Vigour, Energy and Balſam, <lb/>ſince the Deluge. Milk is appropriated for
+            <lb/>Children, and not grown Men, to anſwer the <lb/>Ends of Providence. But to explain
+            my <lb/>Thoughts on this Matter as a <hi rend="italic">Phyſician</hi> only,<lb/> as
+            clearly and preciſely as I can, as they flow <lb/>from natural Philoſophy, the animal <w
+              part="I">Oeco-</w><lb/><w part="F">nomy</w>, and my own <hi rend="italic"
+              >Experience,</hi> I ſay, 1. That <lb/>after a <hi rend="italic">Fever,</hi> or any <hi
+              rend="italic">acute</hi> Diſtemper is over, <lb/>and had its perfect <hi rend="italic"
+              >Criſe,</hi> and the Perſon is not <lb/>paſt the <hi rend="italic">Meridian</hi> of
+            Life, the Blood and <lb/>Juices, by the ſtrong and violent Labour of the <lb/>Solids,
+            being ſufficiently <hi rend="italic">ground, effete</hi> and <lb/><hi rend="italic"
+              >languid,</hi> a <hi rend="italic">Milk, Seed,</hi> or <hi rend="italic">vegetable
+              Diet,</hi> is <lb/>by no means long and obſtinatly to be <w part="I">con-</w><lb/><w
+              part="F">tinued</w> in; it would continue the Party <hi rend="italic">too
+              <lb/>languid,</hi> the <hi rend="italic">Juices too thin and vapid,</hi> and <lb/>the
+              <hi rend="italic">Spirits</hi> too low; and therefore he ought <lb/>abſolutely to be
+            directed to an <hi rend="italic">animal</hi> Diet, <lb/>and <hi rend="italic"
+              >temperatly</hi> ſtrong Liquors of the lighteſt, <lb/>moſt nouriſhing and <hi
+              rend="italic">balſamic</hi> Nature, to be <lb/>gradually and cautiouſly enter'd upon;
+              <w part="I">eſpeci-</w><lb/><w part="F">ally</w> as he begins to be capable of <hi
+              rend="italic">Air</hi> and <lb/><hi rend="italic">Exerciſe.</hi> 2. If upon takeing
+            away a few <lb/>Ounces of Blood only out of a large <hi rend="italic">Orifice,</hi> the
+              <lb/><hi rend="italic">Curd</hi> is found too thin, tender, watery, and <pb
+              xml:id="page_42" n="xviii"/>
+            <lb/>too readily <hi rend="italic">fuſible,</hi> or diſſolvible in warm <lb/>Water, and
+            the <hi rend="italic">Serum</hi> too clear, whiteiſh, or <lb/>in too great a Quantity; a
+              <hi rend="italic">Milk, Seed</hi> and <lb/><hi rend="italic">vegetable Diet,</hi> is
+            by no means to be longer <lb/>continued in, but is to be altered gradually <lb/>into
+            light, ſweet and young <hi rend="italic">animal</hi> Food, and <lb/>temperat fermented
+            Liquors. 3. If after two, <lb/>three, four or five Years, the Diſorders for <lb/>which a
+            low cool Diet was advis'd and enter'd <lb/>upon, with ſufficient Strictneſs and
+            Preciſion, <lb/>is not cured, or greatly reliev'd, the Party may <lb/>conclude, that a
+            low cool Diet will not make <lb/>a perfect Cure, and muſt with Patience, and a
+            <lb/>general Regularity, enter on common Life, <lb/>and not be longer ſcrupulous, or
+            anxious <lb/>about <hi rend="italic">Regimen,</hi> in the Quality, but in the
+            <lb/>Quantity, and ſubmit to the Order of <w part="I">Provi-</w><lb/><w part="F"
+              >dence</w>, and uſe the Means that Experience or <lb/>the beſt Advice ſuggeſts to
+            alleviat the <hi rend="italic">Sym-<lb/>ptoms,</hi> and do the beſt he can <hi
+              rend="italic">taliter qualiter,</hi>
+            <lb/>if he is under Fifty. 4. To ſuch as have an <lb/>original hereditary weakly <hi
+              rend="italic">ſcorbutical</hi> or <hi rend="italic">ſcro-<lb/>phulous</hi> Habit, and
+            are far advanced in Life; <lb/>who have <hi rend="italic">meſenteric glandular</hi>
+            Obſtructions, <lb/>with feeble Solids, and little Strength and <lb/>Vigour, a <hi
+              rend="italic">Milk, Seed</hi> and <hi rend="italic">vegetable Diet,</hi> with <lb/><hi
+              rend="italic">aqueous</hi> Liquors, is by no means to be advis'd; <lb/>for as the Caſe
+            is abſolutely incureable, it were <lb/>in vain to torment and reſtrain them, more
+            <lb/>cruelly than their Diſtemper itſelf does; they <lb/>muſt not be forbid, but rather
+            indulged the <lb/>common <hi rend="italic">Comforts</hi> and <hi rend="italic"
+              >Gratifications</hi> of Life. <lb/>It is to ſuch that St. <hi rend="italic"
+            >Paul</hi>'s Advice to <hi rend="italic">Timothy</hi>
+            <pb xml:id="page_43" n="xix"/>
+            <lb/>is juſt, as well as kind, <hi rend="italic">to drink a little Wine <lb/>for their
+              Stomachs ſake, and their often <w part="I">In-</w><lb/><w part="F">firmities</w>:</hi>
+            A general Moderation, and an <w part="I">Ob-</w><lb/><w part="F">ſervation</w> of the
+              <hi rend="italic">Juvantia</hi> and <hi rend="italic">Lædentia,</hi> is <lb/>only to
+            be adviſed, and the Uſe of theſe Means <lb/>known to Art, to alleviat <hi rend="italic"
+              >Symptoms.</hi> 5. In <lb/>all <hi rend="italic">eruptive</hi> Caſes, in all acute and
+              <hi rend="italic">periodical</hi>
+            <lb/>cutaneous Caſes, in the actual Fits of the <hi rend="italic">Gout,</hi>
+            <lb/>in the <hi rend="italic">ſecond Fever</hi> of the Small-Pox, in <lb/><hi
+              rend="italic">Fevers</hi> verging towards a <hi rend="italic">Criſe,</hi> to drive out
+            <lb/>from the Centre to the Circumference any <lb/>changeable Diſorder, and univerſally
+            in all <lb/>Caſes where the <hi rend="italic">vital Indications</hi> languiſh <lb/>and
+            labour, and Nature is in a Struggle <lb/>to throw outward <hi rend="italic"
+              >Morboſity</hi>; ſhe is moſt <w part="I">cer-</w><lb/><w part="F">tainly</w> to be
+            aſſiſted by generous <hi rend="italic">cordial</hi> and <lb/>warmer Medicins, and higher
+              <hi rend="italic">Diet,</hi> to further <lb/>the End Nature points at. Theſe are ſome
+            of the <lb/>Caſes where too low and cool a <hi rend="italic">Regimen</hi> is by <lb/>no
+            means to be adviſed or purſued. 6. And <lb/><hi rend="italic">laſtly,</hi> Whenever the
+            End of a low Diet is <lb/>obtained, <hi rend="italic">viz.</hi> the <hi rend="italic"
+              >ſweetning</hi> and <hi rend="italic">thinning</hi> the <lb/>Juices, and the <hi
+              rend="italic">Symptoms</hi> are abated or cured, <lb/>the Diet is to be heighten'd,
+            and gradually <lb/>and cautiouſly rais'd, at leaſt if the Party be <lb/>under Fifty. I
+            will now ſuggeſt as plainly, in <lb/>what Caſes I think it is to be adviſed and tried.
+            <lb/>As to the Healthy and Well, I have nothing here <lb/>to ſay: <hi rend="italic"
+              >Sufficient for the Day is the Evil <lb/>thereof.</hi>
+          </p>
+        </div>
+        <div n="7" type="section">
+          <p rend="indent"><lb/>§. 7. <hi rend="sc">It</hi> is only to thoſe whoſe <hi rend="italic"
+              >Stomach</hi>
+            <lb/>and Digeſtion is ſo weak and relax'd, that they <pb xml:id="page_44" n="xx"/>
+            <lb/>cannot concoct without extreme Suffering, any <lb/>ſuch Proportion even of tender
+              <hi rend="italic">animal</hi> Food <lb/>and <hi rend="italic">fermented</hi> Liquors,
+            as may be ſufficient to <lb/>nouriſh and ſupport them: To <hi rend="italic">thoſe</hi>
+            whoſe <lb/>Blood and Juices are evidently ſo <hi rend="italic">thick, <lb/>gross</hi>
+            and <hi rend="italic">viſcid,</hi> that it fills and obſtructs the <lb/>Veſſels ſo <hi
+              rend="italic">tumidly,</hi> that they cannot receive a <lb/>ſufficient Quantity of
+            either <hi rend="italic">Medicin</hi> or <hi rend="italic">Food,</hi>
+            <lb/>to cure or preſerve them, the Circulation and <lb/>Perſpiration being intirely at a
+            ſtand: To <hi rend="italic">thoſe</hi>
+            <lb/>who are ſubject to perpetual <hi rend="italic">Hæmorrhages,</hi>
+            <lb/>Inflammations, or conſtant ſmall acute <hi rend="italic">Fe-<lb/>vers:</hi> To <hi
+              rend="italic">thoſe</hi> who are after the great Meal <lb/>towards Midnight, <hi
+              rend="italic">hectical</hi> or <hi rend="italic">conſumptive:</hi>
+            <lb/>To <hi rend="italic">thoſe</hi> labouring under a <hi rend="italic"
+              >ſcorbutico-nervoſe <lb/>Atrophy</hi> and waſting: To <hi rend="italic">thoſe</hi>
+            labouring <lb/>under hereditary, early, knotted, diſabling and <lb/>painful <hi
+              rend="italic">Gouts</hi> or <hi rend="italic">Stone:</hi> To <hi rend="italic"
+              >thoſe</hi> who are <lb/>highly, hereditarily and early <hi rend="italic"
+              >ſcrophulous</hi> or <lb/><hi rend="italic">ſcorbutical:</hi> To <hi rend="italic"
+              >thoſe</hi> who are <hi rend="italic">leprous</hi> and <lb/>univerſally cruſted over
+            with <hi rend="italic">cutaneous <lb/>Blotches</hi> and <hi rend="italic">Scabs:</hi> To
+              <hi rend="italic">thoſe</hi> who are <hi rend="italic">epi-<lb/>leptical</hi> early in
+            Life, with a thin <hi rend="italic">cacochymic</hi>
+            <lb/>Habit: To <hi rend="italic">thoſe</hi> who are conſtantly <hi rend="italic"
+              >hyſterical</hi>
+            <lb/>or <hi rend="italic">hypocondriacal,</hi> with frequent <hi rend="italic">Fits</hi>
+            and <hi rend="italic">Con-<lb/>vulſions,</hi> under a weak thin Habit, which
+            <lb/>threaten a <hi rend="italic">Conſumption</hi>; for I have always <lb/>obſerved
+            theſe obſtinat violent <hi rend="italic">hyſteric</hi> and <lb/><hi rend="italic"
+              >hypocondriac</hi> Fits in young ſlender Perſons, to <lb/>be the firſt <hi
+              rend="italic">Stage</hi> of a real <hi rend="italic">Phthiſis Pulmonum,</hi>
+            <lb/>or at leaſt of a <hi rend="italic">nervous Atrophy</hi>; and if it <lb/>was not
+            cured or prevented in this its firſt <pb xml:id="page_45" n="xxi"/>
+            <lb/>Stage, by the ſame Means and Regimen <w part="I">com-</w><lb/><w part="F">monly</w>
+            the Refuge of the ſubſequent Stages, <lb/>they were not to be ever after remedied, they
+            <lb/>being ſure Preſages of <hi rend="italic">Tubercles</hi> in the Lungs: <lb/>To <hi
+              rend="italic">thoſe</hi> that are plainly <hi rend="italic">cancerous</hi>; in ſhort,
+            <lb/>to <hi rend="italic">thoſe</hi> chiefly who after they have long and <lb/>ſtrictly
+            follow'd the beſt Advice, and the moſt <lb/>effectual Remedies, ſtill labour under ſome
+            <lb/>atrocious, painful and dangerous Diſtemper; <lb/>to ſuch, and ſuch only, have I
+            ever adviſed a <lb/>total rigid <hi rend="italic">Milk</hi> and <hi rend="italic"
+              >vegetable Diet,</hi> with <lb/><hi rend="italic">aqueous Liquors</hi>; but no longer
+            to be <w part="I">con-</w><lb/><w part="F">tinued</w>, than till the <hi rend="italic"
+              >Symptoms</hi> were extremely <lb/>mitigated, or intirely overcome; and then, if it
+            <lb/>was after the <hi rend="italic">Meridian</hi> of Life, to be perſiſted <lb/>in
+            obſtinatly; if long before it, to be <w part="I">gradu-</w><lb/><w part="F">ally</w> and
+            cautiouſly alter'd into common Life <lb/>with great Temperance; and I know all <w
+              part="I">ho-</w><lb/><w part="F">neſt</w> and experienced <hi rend="italic"
+              >Phyſicians, antient</hi> and <lb/><hi rend="italic">modern,</hi> are and muſt be of
+            the ſame Mind. </p>
+        </div>
+        <div n="8" type="section">
+          <p rend="indent"><lb/>§. 8. <hi rend="sc">The</hi> great and eſſential Difference <w
+              part="I">be-</w><lb/><w part="F">tween</w>
+            <hi rend="italic">animal</hi> and <hi rend="italic">vegetable</hi> Food, is much
+            <lb/>the ſame as between <hi rend="italic">Chemical</hi> and <hi rend="italic"
+              >Gale-<lb/>nical</hi> Medicins. <hi rend="italic">Chemical</hi> Medicins are the
+            <lb/>ſuppos'd (at leaſt their moſt active) Virtues <lb/>and Qualities of <hi
+              rend="italic">Plants, Metals</hi> and <hi rend="italic">Mi-<lb/>nerals,</hi>
+            contracted and concentred into a <lb/>ſmall Volume, by the Tortures of the Fire;
+            <lb/>their uſeleſs or deſtructive Parts ſeparated and <lb/>thrown away, and their uſeful
+            and <hi rend="italic">ſanative</hi>
+            <lb/>Qualities compacted and united into an <w part="I">imme-</w>
+            <pb xml:id="page_46" n="xxii"/>
+            <lb/><w part="F">diat</w>
+            <hi rend="italic">Contact</hi> and condenſed. They would be <lb/>of admirable Uſe and
+            Convenience, if theſe <w part="I">ſup-</w><lb/><w part="F">pos'd</w>
+            <hi rend="italic">Facts,</hi> and ſuch mentioned Virtues, were <lb/>juſt, ſolid and
+            true, or if an <hi rend="italic">animal</hi> Body could <lb/>bear them without greater
+            or more fatal future <lb/>Injuries, than their preſent Benefit (how great <lb/>ſoever)
+            or Convenience can compenſat. But <lb/>it is moſt certain, that ſuch <hi rend="italic"
+              >Medicins, Drugs</hi>
+            <lb/>or Bodies, are the moſt deſtructive to animal <lb/>Bodies, if long and in great
+            Quantities thrown <lb/>in, that Malice can invent, beyond <w part="I">Gun-</w><lb/><w
+              part="F">powder</w> itſelf and even ſpirituous Liquors; for <lb/>not only Nature has
+            provided none ſuch, but as <lb/><hi rend="italic">Poiſons</hi> in venomous Creatures to
+            kill their <lb/>Enemies, or cook them for their Food: but <lb/>that the Particles of
+            Fire, the moſt deſtructive <lb/>of any, are ſo cloſely impacted and <hi rend="italic"
+              >tranſubſtan-<lb/>tiated</hi> in, as never to be afterwards <w part="I"
+              >ſepa-</w><lb/><w part="F">rated</w> from them, and that their component <lb/><hi
+              rend="italic">Particles</hi> are ſo minutely divided by the <hi rend="italic"
+              >Tor-<lb/>tures</hi> of the Fire, as to acquire ſuch a Force of <lb/><hi rend="italic"
+              >Attraction</hi> towards the Particles of animal <lb/>Bodies; ſuch a <hi rend="italic"
+              >Polarity,</hi> (as Dr. <hi rend="italic">Liſter</hi>
+            <w part="I">ob-</w><lb/><w part="F">ſerved</w>, in all Calcinations, both of <hi
+              rend="italic">Vege-<lb/>tables</hi> and <hi rend="italic">Minerals,</hi> ſo conſtantly
+            to anſwer <lb/>the <hi rend="italic">Magnet</hi>) that they become Iron, <hi
+              rend="italic">Briſtles,</hi>
+            <lb/>Nails and Lancets, darting directly and <w part="I">per-</w><lb/><w part="F"
+              >pendicularly</w> into the Solids, ſo as quickly to <lb/>tear, rend and deſtroy, or
+            fix them, and ſo can <lb/>never be proper for <hi rend="italic">Food</hi> or <hi
+              rend="italic">Phyſic</hi>; whereas <lb/><hi rend="italic">Galenical</hi> Medicins,
+            conſiſting of the <hi rend="italic">integral <lb/>Particles</hi> of <hi rend="italic"
+              >Vegetables, Metals</hi> or <hi rend="italic">Minerals,</hi>
+            <pb xml:id="page_47" n="xxiii"/>
+            <lb/>diſſolved only by gentle Heat and Moiſture, in a <lb/>watry <hi rend="italic"
+              >Menſtruum,</hi> have none of theſe <hi rend="italic">deleterious</hi>
+            <lb/>Qualities on <hi rend="italic">animal</hi> Bodies, but become their <lb/>Food as
+            well as Phyſic, and naturally take the <lb/>Places of the morbid Particles of animal
+            Habits, <lb/>which Time and the natural <hi rend="italic">Functions
+              mecha-<lb/>nically</hi> throw off. Juſt ſo <hi rend="italic">animal</hi> Food, and <hi
+              rend="italic">fer-<lb/>mented</hi> Liquors, are the ſmalleſt, moſt <hi rend="italic"
+              >element-<lb/>ary</hi> and <hi rend="italic">attractive</hi> Particles, united and <w
+              part="I">concen-</w><lb/><w part="F">ter'd</w> like the Rays of the Sun in the <hi
+              rend="italic">Focus</hi> of <lb/>a Burning-glaſs. Their delicious Flavour and
+            <lb/>Savour conſiſts in their greater abundance of <lb/><hi rend="italic">Oil</hi> and
+              <hi rend="italic">Salts,</hi> which are the moſt active, and <lb/>conſequently the
+            moſt deſtructive to animal <lb/>Bodies. If they are ſufficiently diluted, and <lb/>their
+              <hi rend="italic">Volume</hi> and Quantity increas'd, by the <lb/>more innocent and
+            unactive Particles of fine <lb/>Earth and Water, they may be ſafely uſed,
+            <lb/>approaching thereby very near to <hi rend="italic">Vegetables.</hi>
+            <lb/>Juices and fermented Liquors, much diluted <lb/>with Water, become the neareſt <w
+              part="I">Approxima-</w><lb/><w part="F">tion</w> to <hi rend="italic">pure Water,</hi>
+            the only <hi rend="italic">Beverage</hi>
+            <w part="I">de-</w><lb/><w part="F">ſigned</w> and fitted by Nature for <hi
+              rend="italic">long Life, <lb/>Health</hi> and <hi rend="italic">Serenity</hi>; and the
+            whole Study of <lb/>the Patient, and Intention of the <hi rend="italic">Phyſician,</hi>
+            <lb/>ought to be to find out this juſt <hi rend="italic">Mediocrity</hi>
+            <lb/>of <hi rend="italic">animal</hi> and vegetable Food, when <w part="I"
+              >com-</w><lb/><w part="F">bin'd</w>, for <hi rend="italic">Aliment,</hi> and of <hi
+              rend="italic">fermented</hi> and <lb/>aqueous Liquors mix'd for <hi rend="italic"
+              >Beverage,</hi> which <lb/>is the moſt proper for preſerving his Health, or
+            <lb/>curcing his Diſorders; for there is very little <lb/>in the <hi rend="italic"
+              >Specification</hi> of the <hi rend="italic">Diet,</hi> whether it <pb
+              xml:id="page_48" n="xxiv"/>
+            <lb/>be all <hi rend="italic">Vegetable,</hi> or partly <hi rend="italic">Animal,</hi>
+            partly <hi rend="italic">Ve-<lb/>getable,</hi> ſome Vegetables being more <hi
+              rend="italic">delete-<lb/>rious</hi> to <hi rend="italic">animal</hi> Conſtitutions
+            than ſome <hi rend="italic">ani-<lb/>mal</hi> Subſtances; and there is but a very little
+            <lb/>Difference between pure <hi rend="italic">warm</hi> Water, and <lb/>cold Water <hi
+              rend="italic">warm'd</hi> with a very little Wine; <lb/>the juſt Mixture and <hi
+              rend="italic">Proportion</hi> ſuited to the <lb/>Conſtitution and Diſtempers of the
+            Patient, is <lb/>by far the greateſt Affair; tho' in the <w part="I">Diſtem-</w><lb/><w
+              part="F">pers</w> by me juſt now <hi rend="italic">ſpecified,</hi> that are painful
+            <lb/>and dangerous, too great Exactneſs, both in <lb/>Quantity and Quality, is never to
+            be <hi rend="italic">ſlighted</hi>; <lb/>for in a true <hi rend="italic">ſtatical</hi>
+            Balance, ſuch as the <w part="I">Con-</w><lb/><w part="F">ſtitutions</w> under the
+            mentioned Diſeaſes are, <lb/>a few Grains or Spoonfuls thrown in, will <w part="I"
+              >de-</w><lb/><w part="F">ſtroy</w> the <hi rend="italic">Equilibrium</hi> of Health
+            and Eaſe. </p>
+        </div>
+        <div n="9" type="section">
+          <p rend="indent"><lb/>§. 9. THE Benefits a Perſon who deſires <lb/>nothing but a <hi
+              rend="italic">clear Head</hi> and <hi rend="italic">ſtrong <w part="I"
+                >intellec-</w><lb/><w part="F">tual</w> Faculties,</hi> would reap by religiouſly
+            <lb/>drinking nothing but <hi rend="italic">Water,</hi> (tepid or cold, <lb/>as the
+            Seaſon is) while he is yet young, and <lb/>tolerably healthy, well educated, and of a
+            ſober <lb/>honeſt Diſpoſition, are innumerable: As, 1. <lb/>That he would live probably
+            till towards an <lb/><hi rend="italic">hundred</hi> Years of Age, that being the Term
+            <lb/>of Life appointed by the Deſign of the Creator, <lb/>even after the <hi
+              rend="italic">Deluge,</hi> and after that eating <lb/>of <hi rend="italic">animal</hi>
+            Food was permitted, before (as it <lb/>is believ'd) <hi rend="italic">fermented</hi>
+            Liquors were invented; <lb/>at leaſt, if we have any regard for <hi rend="italic"
+              >Moſes</hi>'s <lb/>Hiſtory, which yet cannot be denied to be one <pb xml:id="page_49"
+              n="xxv"/><lb/>of the juſteſt Accounts of theſe early Times. <lb/>2. That he would
+            thereby conſtantly enjoy a <lb/><hi rend="italic">clear</hi> Head, <hi rend="italic"
+              >calm,</hi> at leaſt <hi rend="italic">governable</hi> Paſſions, <lb/>a Facility in
+              <hi rend="italic">intellectual</hi> Applications, and in <lb/>the Acquiſition of
+            Virtue; and ſo having a <lb/>longer Duration ſecur'd to him, and all <w part="I"
+              >Impedi-</w><lb/><w part="F">ments</w> removed, he might make ſurprizing and
+            <lb/>wonderful Advances in <hi rend="italic">both.</hi> 3. He would <lb/>thereby be
+            ſecur'd againſt all the great <hi rend="italic">atrocious</hi>
+            <lb/>and <hi rend="italic">frightful</hi> Diſtempers, ſuch as <hi rend="italic"
+              >Melancholy, <lb/>Lowness</hi> of <hi rend="italic">Spirits, Wrong-headedneſs,
+              Lu-<lb/>nacy</hi> and <hi rend="italic">Madness</hi> (the Bane of the fineſt, beſt
+            <lb/>and moſt penetrating Spirits in <hi rend="italic">Great Britain</hi>). <lb/>For I
+            defy any Man to give an Inſtance of any <lb/>furious <hi rend="italic">Madneſs,</hi> or
+            great and obſtinat <hi rend="italic">Lu-<lb/>nacy</hi> or <hi rend="italic"
+              >Melancholy,</hi> in any one who ſoon <lb/>after Twenty, enter'd on Water drinking
+            only, <lb/>let him eat what he can; for it is <hi rend="italic">fermented</hi>
+            <lb/>Liquors only that inflame the <hi rend="italic">Membrans</hi> and <lb/><hi
+              rend="italic">membranous Tubuli</hi> (the <hi rend="italic">Nerves</hi>), which are
+            <lb/>the bodily Organs of <hi rend="italic">intellectual</hi> Operations. <lb/>It is the
+              <hi rend="italic">Fire, Sulphur</hi> and <hi rend="italic">volatile Tartar</hi> of
+              <lb/><hi rend="italic">fermented</hi> Liquors, that inflame, corrugat and
+            <lb/>ſtimulat theſe <hi rend="italic">Membranes,</hi> and their linear <lb/>Threads,
+            into violent Succuſſions, that break <lb/>and tear them, which are the immediat Cauſe
+            <lb/>of theſe frightful and overwhelming <w part="I">Diſtem-</w><lb/><w part="F"
+              >pers</w>, as they are of the painful tortureing ones, <lb/><hi rend="italic">Gout,
+              Stone, Cancer</hi> and <hi rend="italic">Conſumption:</hi> For <lb/>tho' Gluttony will
+            thicken the <hi rend="italic">Curd</hi> of the <lb/>Blood, and thereby cauſe
+            Obſtructions in the <lb/><hi rend="italic">Glands</hi> and <hi rend="italic"
+              >Capillaries,</hi> from whence many <pb xml:id="page_50" n="xxvi"/>
+            <lb/>and various Diſtempers may ariſe, yet will they <lb/>be of the obtuſe, ſlow,
+            lingering Kind, and in <lb/>which Nature will always give a timeous and <lb/>early
+            Warning, by <hi rend="italic">Inappetency, Nauſea, <w part="I">Vo-</w><lb/><w part="F"
+                >miting</w>, Purging, Sweating, Spitting</hi> or <lb/><hi rend="italic">Rheums,</hi>
+            which will opportunely ſtop the <w part="I">Pro-</w><lb/><w part="F">gress</w>; and
+            while Water is plentifully then <lb/>craved and given, it will carry on, diſtance in
+            <lb/>the Circulation, and dilute this too viſcid <lb/><hi rend="italic">Curd,</hi> to
+            prevent an intire Obſtruction of the <lb/><hi rend="italic">animal</hi> Functions, or
+            deſtroy Life, and hinder <lb/>the Generation of <hi rend="italic">Gout, Stone,
+              Cancer</hi> and <lb/><hi rend="italic">Conſumption,</hi> which are ſolely produc'd by
+            <lb/>the hard ſalin Concretions of <hi rend="italic">fermented</hi>
+            <w part="I">Li-</w><lb/><w part="F">quors</w>. But, 4. The moſt ſignal Benefit a Man
+            <lb/>will reap from early Water-drinking ſolely, <lb/>while as yet in tolerable Health,
+            is being <w part="I">pre-</w><lb/><w part="F">ſerv'd</w> from the <hi rend="italic"
+              >acute, ſudden</hi> and <hi rend="italic">mortal</hi>
+            <w part="I">Diſ-</w><lb/><w part="F">tempers</w>, as <hi rend="italic">Apoplexies,
+              Suffocations, Fevers</hi>
+            <lb/>of all kinds, <hi rend="italic">Peſtilences</hi> and <hi rend="italic"
+              >Pleuriſies.</hi> It is <lb/>to <hi rend="italic">fermented, ſtrong,</hi> or <hi
+              rend="italic">ſpirituous</hi> Liquors <lb/>ſolely, that theſe quick and deſtructive <w
+              part="I">Diſtem-</w><lb/><w part="F">pers</w> owe their true Cauſe, which give no
+            <lb/>Warning, and admit of no Cure: At leaſt, <lb/>Water-drinking ſolely, is the only
+            Preſervative, <lb/>I am certain, known or knowable to Art. <lb/>Accidents, <hi
+              rend="italic">epidemical</hi> Cauſes, a conſtant <w part="I">Neg-</w><lb/><w part="F"
+              >lect</w>, or a total Inability to guard againſt the <lb/>Dangers of the other <hi
+              rend="italic">Non-naturals,</hi> abſolutly <lb/>neceſſary towards perfect Health and
+            Life, <lb/>may produce ſome Degrees of theſe mention'd <lb/>grand Diſtempers; but then,
+            under ſole Water- <pb xml:id="page_51" n="xxvii"/>
+            <lb/>drinking, they will neither be ſo painful nor <lb/>dangerous: For it is certain,
+            Water-drinking, <lb/>Dilution, and <hi rend="italic">thin</hi> Diet, is the only Mean
+            <lb/>known to Art and Experience, to cure them, <lb/>when Perſons are already ſeiz'd
+            with theſe <w part="I">Diſ-</w><lb/><w part="F">tempers</w>, join'd with ſtrong and
+            proper <w part="I">Evacu-</w><lb/><w part="F">ations</w>; and whatever will cure, will
+            prevent; <lb/>as Water pour'd on will extinguiſh Fire, ſo it <lb/>will prevent its being
+            kindled or beginning. <lb/>If theſe frightful, painful and mortal <w part="I"
+              >Diſtem-</w><lb/><w part="F">pers</w> happen ſometimes in <hi rend="italic"
+              >Eaſtern</hi> or <hi rend="italic">Southern</hi>
+            <lb/>Climats, where <hi rend="italic">fermented</hi> Liquors are not <lb/>much in Uſe,
+            it is becauſe they wallow and <lb/>indulge in ſome things almoſt equally as <w part="I"
+              >per-</w><lb/><w part="F">nicious</w> and inflammatory as theſe <hi rend="italic"
+              >ſtrong</hi>
+            <w part="I">Li-</w><lb/><w part="F">quors</w>, as high in <hi rend="italic">Aromaticks,
+              eaſtern Gums</hi> and <lb/><hi rend="italic">Juices</hi>; <hi rend="italic"
+              >Opiats,</hi> the <hi rend="italic">volatile cepacious Roots, <lb/>Fruits</hi> and <hi
+              rend="italic">Seeds,</hi> of the <hi rend="italic">poiſonous, ſopori-<lb/>ferous</hi>
+            or <hi rend="italic">ſtimulating</hi> kind, with which thoſe <lb/>Climats abound, which
+            is the ſole Cauſe of all <lb/>their <hi rend="italic">inflammatory</hi> Diſtempers, and
+            unnatural <lb/>and diſſolveing Luſt; for theſe are all but <hi rend="italic">dry
+              <lb/>Drams,</hi> of a more dureable and adheſive <lb/>Nature than ſome of the <hi
+              rend="italic">liquid</hi> ones; for Fire <lb/>is ſtill Fire, whether <hi rend="italic"
+              >Solar</hi> or <hi rend="italic">Culinary, Na-<lb/>tural</hi> or <hi rend="italic"
+              >Chemical</hi>; whether it is <hi rend="italic">tranſubſtan-<lb/>tiated</hi> into <hi
+              rend="italic">liquid</hi> or <hi rend="italic">ſolider</hi> Matter; and <w part="I"
+              >Wa-</w><lb/><w part="F">ter</w> is its only Extinguiſher. </p>
+        </div>
+        <div n="10" type="section">
+          <p rend="indent"><lb/>§. 10. I <hi rend="sc">have</hi> ſaid, that the <hi rend="italic"
+              >Quantity</hi> of <lb/><hi rend="italic">Aliment</hi> (Meats and Drinks) is of much
+            <lb/>greater Conſequence in general, than the <pb xml:id="page_52" n="xxviii"/>
+            <lb/><hi rend="italic">Quality,</hi> for the Preſervation of Life, Health <lb/>and
+            Serenity. If a Man ſtudy the <hi rend="italic">leaſt,</hi> light <lb/>or heavy will not
+            ſo much incommode him. <lb/>The great End and Uſe of a <hi rend="italic">low Diet,</hi>
+            or one <lb/>of <hi rend="italic">Milk, Seeds</hi> and <hi rend="italic">Vegetables,</hi>
+            is to mend <lb/>the <hi rend="italic">Juices,</hi> to cool, attenuat and ſweeten the
+            <lb/>circulating <hi rend="italic">Fluids</hi>; whatever <hi rend="italic">Diet</hi>
+            does this, <lb/>muſt <hi rend="italic">mechanically</hi> relax, unbend, and let
+            <lb/>down the <hi rend="italic">Spring</hi> of the Solids. It is true, <lb/>the
+            Superiority of the <hi rend="italic">Force</hi> or <hi rend="italic">Spring</hi> of the
+            <lb/>Solids, muſt be always greater than the <hi rend="italic">Re-<lb/>ſiſtance</hi> of
+            the Fluids; elſe the Animal could <lb/>not live at all; that is, the <hi rend="italic"
+              >animal Functions</hi>
+            <lb/>could not be perform'd; and this <hi rend="italic">Superiority</hi>
+            <lb/>muſt be continued in ſome Proportion, whatever <lb/><hi rend="italic">Regimen</hi>
+            the Animal uſes, ſo long as it lives. <lb/>But it is certain, a cool, thin, ſweetning
+            Diet, <lb/>attenuats the <hi rend="italic">Fluids</hi> in a greater <hi rend="italic"
+              >Proportion</hi>
+            <lb/>than it relaxes and unbends the <hi rend="italic">Solids</hi>; <w part="I"
+              >be-</w><lb/><w part="F">cauſe</w>, 1. All the <hi rend="italic">Secretions</hi> are
+            from the <lb/><hi rend="italic">Fluids,</hi> and not from the <hi rend="italic"
+              >Solids</hi>; and they <lb/>ſpending and waſting <hi rend="italic">faſter,</hi> muſt
+            be ſooner <lb/>ſupply'd and alter'd by the proper Food. 2. <w part="I">Be-</w><lb/><w
+              part="F">cauſe</w> the immediat Action of <hi rend="italic">Food</hi> and <hi
+              rend="italic">Phyſic</hi>
+            <lb/>is upon the <hi rend="italic">Fluids,</hi> and they abſorb and <w part="I"
+              >con-</w><lb/><w part="F">ſume</w> moſt of their Virtue and Efficacy; and <lb/>the <hi
+              rend="italic">Solids</hi> are never acted upon by them, till <lb/>the <hi
+              rend="italic">Fluids</hi> are fully ſaturated and <hi rend="italic"
+              >tranſubſtan-<lb/>tiated</hi> into their Subſtance. And, 3. Becauſe <lb/>all Fluids by
+            their Nature are ſooner and more <lb/>readily acted upon, and alter'd into foreign
+            <lb/>Qualities, than any Solids poſſibly can; and <pb xml:id="page_53" n="xxix"/>
+            <lb/>hence it comes to paſs, that a Perſon on the <lb/>immediat Change, and for ſome
+            conſiderable <lb/>Time after, in paſſing from a <hi rend="italic">high</hi> to a <hi
+              rend="italic">low <lb/>Diet,</hi> will find his Health wonderfully <lb/>mended for the
+            better, becauſe the Reſiſtance <lb/>of the <hi rend="italic">Fluids</hi> is immediatly
+            leſſen'd; which <lb/>will again, even under the ſame <hi rend="italic">Diet</hi> in <w
+              part="I">Quan-</w><lb/><w part="F">tity</w> and Quality, wonderfully, and, as it were,
+            <lb/>unaccountably totter, and alter for the worſe; <lb/>which happens on the <hi
+              rend="italic">Deſpumation</hi> of the <lb/><hi rend="italic">Glands, Capillaries</hi>
+            and <hi rend="italic">Solids,</hi> while they are <lb/><hi rend="italic">ſpewing</hi>
+            out and <hi rend="italic">diſgorgeing</hi> their <hi rend="italic">morbid</hi>
+            <w part="I">Con-</w><lb/><w part="F">tents</w> on the <hi rend="italic">Primæ Viæ</hi>;
+            but which, by proper <lb/>and <hi rend="italic">ſpecific</hi> Evacuations, Exerciſe and
+              <hi rend="italic">Aſtrin-<lb/>gents</hi> afterwards, will generally be ſet to rights
+            <lb/>again, if the Perſon be at a <hi rend="italic">proper</hi> Time of Life, <lb/>that
+            is, under Fifty; for after that, there is little <lb/>Encouragement from any Mean, but
+            gentle <lb/><hi rend="italic">Evacuation,</hi> and a Perſeverance in the <hi
+              rend="italic">regu-<lb/>lated Regimen:</hi> Nay, even he muſt <w part="I"
+              >pro-</w><lb/><w part="F">ceed</w>, leſſening it in <hi rend="italic">Quantity</hi> at
+            leaſt, if not <lb/>in <hi rend="italic">Quality,</hi> by proper Degrees, and at <w
+              part="I">pro-</w><lb/><w part="F">per</w> Periods, deſcending out of <hi rend="italic"
+              >Life,</hi> as one <lb/>aſcends into it, <hi rend="italic">viz.</hi> by <hi
+              rend="italic">Milk-Porridge, Water-<lb/>Gruel, Panada,</hi> and the like. But the
+            great <lb/>Benefit and Advantage a Man reaps from a <lb/><hi rend="italic">low, cool,
+              thinning, ſweetning Regimen,</hi> of <lb/>Milk, Seeds and Vegetables, above what he
+            <lb/>can have under any Diet of <hi rend="italic">animal</hi> Food and <lb/><hi
+              rend="italic">fermented</hi> Liquors, is, that he can keep the <lb/><hi rend="italic"
+              >ſtretched</hi> and extended Bowels, and Blood-<lb/>Veſſels, always fuller and
+            plumper, and in their <pb xml:id="page_54" n="xxx"/><lb/>natural <hi rend="italic"
+              >Tenſion</hi> and Situations; and conſequently <lb/>will make the <hi rend="italic"
+              >Secretions</hi> more plentifully, and <lb/>all the <hi rend="italic">Functions</hi>
+            will be more natural, and eaſier, <lb/>than under a ſpare, <hi rend="italic"
+              >cautious</hi> and anxiouſly <lb/><hi rend="italic">guarded</hi> ſtarving <hi
+              rend="italic">Regimen</hi> of ſo little <hi rend="italic">animal</hi>
+            <lb/>Food as is abſolutly neceſſary; as a weak Perſon <lb/>will walk more eaſily in
+            Stays than looſe, ſome <lb/>lame Perſons in a <hi rend="italic">Boot</hi> than a
+            Stocking; and a <lb/><hi rend="italic">defenſive Plaiſter</hi> will keep a <hi
+              rend="italic">Sore</hi> eaſier, than <lb/>when it is bare; and Exceſſes are neither ſo
+              <w part="I">pain-</w><lb/><w part="F">ful</w> nor dangerous under the <hi
+              rend="italic">firſt</hi> as under the <lb/><hi rend="italic">ſecond</hi> Regimen; and
+            the ſame Perſon may <lb/>ſafely venture on at leaſt <hi rend="italic">four times</hi> as
+            much <lb/><hi rend="italic">Vegetable,</hi> Seed and Milk Food, as he dare of <lb/><hi
+              rend="italic">animal</hi> Food of any kind, at leaſt of <hi rend="italic">denſe,
+              <lb/>hard,</hi> or full-grown <hi rend="italic">animal</hi> Food. </p>
+        </div>
+        <div n="11" type="section">
+          <p rend="indent"><lb/>§. 11. I <hi rend="sc">think</hi> the natural Order and <hi
+              rend="italic">Pro-<lb/>greſſion</hi> in <hi rend="italic">Regimen,</hi> for thoſe who
+            are <w part="I">or-</w><lb/><w part="F">dain'd</w> to, or for thoſe whoſe <hi
+              rend="italic">Vocation</hi> and <lb/><hi rend="italic">Occupation</hi> is <hi
+              rend="italic">ſedentary</hi> and <hi rend="italic">ſtudious,</hi> who by <lb/>the <hi
+              rend="italic">Order</hi> of <hi rend="italic">Providence,</hi> and Situation of
+            <lb/>Life, have been <hi rend="italic">ſignatur'd</hi> to intellectual <w part="I"
+              >Pro-</w><lb/><w part="F">feſſions</w>, and for all thoſe who would cultivat <lb/>and
+            maintain <hi rend="italic">clear Heads</hi> and quick <hi rend="italic">Senſes</hi>
+            <lb/>to the laſt, is from their Birth till Fifteen, to <lb/>perſevere in a gradually
+            increaſing temperat <lb/><hi rend="italic">Diet,</hi> without fermented Liquors; from
+            Fifteen <lb/>to Fifty, to be only temperat in <hi rend="italic">animal</hi> Foods
+            <lb/>and <hi rend="italic">fermented</hi> Liquors; after Fifty to give up <lb/><hi
+              rend="italic">animal Food Suppers,</hi> and <hi rend="italic">fermented</hi> Liquors;
+            <lb/>after Sixty to give up <hi rend="italic">all animal Food</hi>; and <pb
+              xml:id="page_55" n="xxxi"/><lb/>then every ten Years after to leſſen about a
+            <lb/>quarter of the Quantity of their <hi rend="italic">vegetable</hi>
+            <lb/>Food; and thus gradually deſcend out of Life <lb/>as they aſcended into it. And
+            that all Perſons <lb/>ſubject to <hi rend="italic">inflammatory Diſtempers, Gouts,
+              <lb/>Eriſipelas's, hot Scurvies, Leproſies, Aſthma's, <lb/>Jaundices, Colicks, nervous
+              Lowneſſes, <w part="I">vio-</w><lb/><w part="F">lent</w> Head-aches, Haemorrhages</hi>
+            and <hi rend="italic">Hæmor-<lb/>rhoids, Anaſarca's, Ruptures,</hi> or <hi rend="italic"
+              >white <w part="I">Swel-</w><lb/><w part="F">lings</w>,</hi> tho' otherwiſe ſtrong,
+            hearty, hale, and <lb/>of a ſeeming ſound Conſtitution, ought to <lb/>give up Meat
+            Suppers, and all fermented <w part="I">Li-</w><lb/><w part="F">quors</w>; and that the
+            Children of all Fathers <lb/>(for Mothers are not here to be minded) who <lb/>have died
+            before Thirty-five, of any <hi rend="italic">natural <lb/>Diſtemper</hi> whatever, and
+            all the Children <lb/>begot of <hi rend="italic">Fathers</hi> after Sixty, ought to live
+            <lb/>without <hi rend="italic">Meat Suppers,</hi> or <hi rend="italic">fermented</hi>
+            Liquors; <lb/>and that all Perſons whatever, whatever Age <lb/>they be of, or of
+            whatever Nature their <w part="I">Com-</w><lb/><w part="F">plaints</w> and Diſorder may
+            be, if, upon repeated <lb/>ſmall <hi rend="italic">Phlebotomies,</hi> and without
+            tranſient <lb/>Accidents, (as <hi rend="italic">Colds, Damps, Blaſts,</hi> and <lb/><hi
+              rend="italic">Bruiſes</hi>) they conſtantly obſerve their Blood <lb/>ſizy, <hi
+              rend="italic">viſcous</hi> and <hi rend="italic">glutinous,</hi> ought directly to
+            <lb/>be put on a low Diet, either of Milk, Seeds <lb/>and Vegetables only, or at leaſt
+            of one, <w part="I">with-</w><lb/><w part="F">out</w> Meat Suppers, and fermented
+            Liquors; and <lb/>this <hi rend="italic">Regimen,</hi> with proper attenuant, alterative
+            <lb/>and ſweetning Medicines, (which, in the <w part="I">Na-</w><lb/><w part="F"
+              >ture</w> of things, ought to be of the mild <hi rend="italic">pon-<lb/>derous</hi>
+            and <hi rend="italic">mineral</hi> Tribe) to be continued <pb xml:id="page_56" n="xxxii"/>
+            <lb/>till at leaſt this Size and Glew be broken and <lb/>diſſolved; elſe they can never
+            expect uniform <lb/>and continued Health; for ſuch a Regimen, <lb/>and ſuch Medicins,
+            muſt do this in Time; elſe <lb/>nothing in Nature poſſibly can. </p>
+        </div>
+        <div n="12" type="section">
+          <p rend="indent"><lb/>§. 12. <hi rend="italic">UNPHILOSOPHICAL</hi> and <lb/>unexperienced
+            Perſons, tho' they know and <lb/>obſerve the great <hi rend="italic">critical</hi>
+            Alteration that <w part="I">hap-</w><lb/><w part="F">pens</w> in the <hi rend="italic"
+              >Sex,</hi> in or about Fifty, and that <lb/>without a ſpecial Care, both in the <hi
+              rend="italic">Regimen,</hi>
+            <lb/>proper <hi rend="italic">Evacuation,</hi> and <hi rend="italic">alterative</hi>
+            Medicins, <lb/>they are in great Danger, either of their Lives, <lb/>or of ſome <hi
+              rend="italic">chronical</hi> and obſtinat Diſtempers, <lb/>that make their Lives ever
+            after miſerable and <lb/>uncomfortable, after that Period; yet think this <lb/><hi
+              rend="italic">Misfortune</hi> peculiar to <hi rend="italic">Females,</hi> and that
+            <lb/>the <hi rend="italic">Males</hi> have a Privilege and Security to be <lb/>luxurious
+            and ſenſual to the laſt; which is the <lb/><hi rend="italic">true Reaſon</hi> why ſo few
+            die <hi rend="italic">natural Deaths,</hi>
+            <lb/>and that moſt paſs as really and truly out of <lb/>Life, in a violent untimely
+            Manner, as a <lb/><hi rend="italic">Felon,</hi> who ſuffers under <hi rend="italic"
+              >public Juſtice.</hi> The <lb/><hi rend="italic">Matter</hi> of <hi rend="italic"
+              >Fact</hi> and Order of Nature is this: <lb/>Fifty was deſign'd as the <hi
+              rend="italic">Meridian</hi> of Life, in <lb/>this our <hi rend="italic">lapſed</hi>;
+            State and Duration, on this <lb/>ruinous <hi rend="italic">Planet</hi>; from this <hi
+              rend="italic">ſolſtitial</hi> Point it <lb/>is a Deſcent out of Life. From the <hi
+              rend="italic">Birth</hi>
+            <lb/>upwards to this Point, the Solids were <w part="I">deve-</w><lb/><w part="F"
+              >lopeing</w>, expanding, cruſting over, and <w part="I">harden-</w><lb/><w part="F"
+              >ing</w> to their utmoſt Extenſion, Firmneſs and <lb/>Denſity; and thereby their <hi
+              rend="italic">Elaſticity</hi> beginning <pb xml:id="page_57" n="xxxiii"/>
+            <lb/>then at Fifty to weaken and unbend, and they <lb/>to <hi rend="italic">oſſify,</hi>
+            the <hi rend="italic">Digeſtions</hi> become groſſer and <lb/>more imperfect, the <hi
+              rend="italic">Secretions</hi> leſſen, and all <lb/>the <hi rend="italic">animal
+              Functions</hi> labour; and then, if <lb/>due Care is not taken to obviat theſe
+            Effects, <lb/>the <hi rend="italic">chronical</hi> Diſtempers naturally ariſing out of
+            <lb/>theſe Cauſes, and that lurked in the <hi rend="italic">original <w part="I"
+                >Con-</w><lb/><w part="F">ſtitution</w>,</hi> begin to emerge and ſprout out, the
+              <lb/><hi rend="italic">Viſcera</hi> to <hi rend="italic">tumify</hi> and <hi
+              rend="italic">obſtruct,</hi> the <hi rend="italic">Glands</hi> then <lb/>ſwell and
+            preſs on the circulating Blood-Veſſels, <lb/>the <hi rend="italic">Capillaries</hi> to
+            coaleſce, become full and <lb/>denſe, and the <hi rend="italic">Nerves</hi> and <hi
+              rend="italic">Membranes</hi> are <lb/>interrupted in their <hi rend="italic">Play</hi>
+            and Vibrations, <lb/>and all the <hi rend="italic">animal Machin</hi> labours, and the
+            <lb/>Functions are perform'd heavily, with Pain <lb/>and Struggle. This is the true Time
+            and <lb/><hi rend="italic">Seaſon</hi> of Life, for Attention, Conſideration <lb/>and
+            Care of a wiſe Man and a <hi rend="italic">Philoſopher.</hi>
+            <lb/>The <hi rend="italic">Hyperbolic Curve</hi> of Life is at the Point <lb/>of its
+            Return <hi rend="italic">downwards</hi> again; and if then <lb/>proper Care be taken, by
+            ſome few <w part="I">Evacua-</w><lb/><w part="F">tions</w>, Alteratives, and a Regimen;
+            to put a <lb/><hi rend="italic">Drag</hi> on the Wheels of Life, that they may <lb/>go
+            down gently, calmly and ſerenely, theſe <lb/>become more uſeful to themſelves and
+            <lb/>others, than in the firſt aſcending part of Life; <lb/>and this happens equally to
+            both the <hi rend="italic">Sexes:</hi>
+            <lb/>for it is not from this Seaſon being the common <lb/><hi rend="italic">Period</hi>
+            of the <hi rend="italic">Fertility</hi> of the <hi rend="italic">Female Sex,</hi> that
+            <lb/>theſe Appearances happen; but is a <hi rend="italic">general <lb/>Law</hi> of <hi
+              rend="italic">Nature</hi> to both <hi rend="italic">Sexes</hi> from the <lb/>Cauſes
+            aſſign'd; for all the Difference of the <pb xml:id="page_58" n="xxxiv"/>
+            <lb/><hi rend="italic">Sexes</hi> lies in the different <hi rend="italic"
+              >Configuration</hi> of the <lb/>ſuperinduc'd Cruſt or Shell laid over the <w part="I"
+              >pri-</w><lb/><w part="F">mitive</w>
+            <hi rend="italic">aethereal</hi> Body, which in both is <w part="I">pro-</w><lb/><w
+              part="F">bably</w> pretty near of the ſame Figure, Size and <lb/>Materials,
+            originally. </p>
+        </div>
+        <div n="13" type="section">
+          <p rend="indent"><lb/>§. 13. <hi rend="sc">It</hi> is not an unpleaſant <hi rend="italic"
+              >Speculation,</hi>
+            <lb/>to <hi rend="italic">contemplat</hi> the Order of Nature in its <hi rend="italic"
+              >Pro-<lb/>greſſion</hi> towards reducing this our Tabernacle <lb/>of Clay, into its
+            original Duſt, from its Cradle <lb/>to its Coffin, eſpecially in thoſe who live the
+            <lb/>whole Duration of the natural Life. The <lb/>Diſeaſes of <hi rend="italic"
+              >Infancy</hi> are generally <hi rend="italic">Scabs, <lb/>Blotches</hi> and <hi
+              rend="italic">Blains</hi> over the Face, Head, Eyes <lb/>and Ears; ſometimes <hi
+              rend="italic">Fits</hi> and Convulſions, <lb/>and ſuch <hi rend="italic">Cephalic</hi>
+            and Head Diſtempers; and <lb/>theſe are certainly <hi rend="italic">conſtitutional</hi>
+            and <hi rend="italic">parental</hi>
+            <lb/>Diſorders communicated by the morbid Juices <lb/>of the <hi rend="italic"
+              >Parents</hi>; the Colicks, <hi rend="italic">Vomitings</hi> and <lb/><hi
+              rend="italic">Diarrhoea's</hi> ſucceeding, come from the <w part="I">impro-</w><lb/><w
+              part="F">per</w> Nouriſhment in <hi rend="italic">Quantity</hi> or <hi rend="italic"
+              >Quality</hi> of the <lb/><hi rend="italic">Mothers</hi> or <hi rend="italic"
+              >Nurſes</hi>; the <hi rend="italic">Meaſles</hi> and <hi rend="italic">Small-pox</hi>
+            <lb/>are alſo original and parental Impurities convey'd <lb/>to the Blood and Juices in
+            the Birth, from too <lb/>high and too much animal Food, and are moſt <lb/>of them the
+            Diſeaſes of the upper Region of <lb/>the Body. When Nature has ſtruggled by theſe
+            <lb/>to purify the Juices by ſuch <hi rend="italic">Deſpumations,</hi>
+            <lb/>then come the Diſtempers of the <hi rend="italic">Breaſt</hi> and <lb/><hi
+              rend="italic">Lungs,</hi> in <hi rend="italic">Coughs, Catarrhs, Conſumptions,
+              <lb/>Aſthma's, Pleuriſies</hi> or <hi rend="italic">Peripneumonies</hi>; after
+            <lb/>theſe come Pains in the <hi rend="italic">Stomach, Heart-burnings,</hi>
+            <pb xml:id="page_59" n="xxxv"/>
+            <lb/><hi rend="italic">Colicks, bilious Vomitings, Jaun-<lb/>dice</hi> and <hi
+              rend="italic">Diarrhoea's</hi>; then ſucceed <hi rend="italic">Gouts, <lb/>Stone</hi>
+            and <hi rend="italic">Gravel, Palſies, Rheumatiſms</hi> and <lb/>fixing of the Joints;
+            and very often <hi rend="italic">Ruptures, <lb/>Piles,</hi> or <hi rend="italic"
+              >Mortifications</hi> in the <hi rend="italic">Bowels, Feet,</hi>
+            <lb/>or <hi rend="italic">Toes,</hi> the Diſeaſes of the <hi rend="italic">lower</hi>
+            Regions. <lb/>All I would inſinuat by this <hi rend="italic">Reflection,</hi> is,
+            <lb/>that <hi rend="italic">Nature</hi> ſeems to aim, and would <w part="I"
+              >certain-</w><lb/><w part="F">ly</w>, if not interrupted by Accidents, obtain and
+            <lb/>purſue a kind of a <hi rend="italic">regular</hi> and uniform <hi rend="italic"
+              >Pro-<lb/>greſſion,</hi> in her Courſe of <hi rend="italic">diſſolving</hi> and
+              <lb/><hi rend="italic">mouldering</hi> into Duſt, this <hi rend="italic">Adamical</hi>
+            Cruſt of <lb/><hi rend="italic">Clay,</hi> by Diſtempers, <hi rend="italic">topical</hi>
+            and <hi rend="italic">local,</hi> from <lb/>the <hi rend="italic">Head,</hi> through the
+              <hi rend="italic">Viſcera,</hi> to the <hi rend="italic">Feet</hi>
+            <lb/>and Joints, till, like a <hi rend="italic">dying Vegetable,</hi> ſhe <lb/>has fix'd
+            it in the Earth, from whence it <lb/>ſprung. This is certainly her <hi rend="italic"
+              >general Law,</hi>
+            <lb/>if not interrupted by <hi rend="italic">original, parental</hi>
+            <w part="I">Diſ-</w><lb/><w part="F">eaſes</w> or Accidents hurting ſome of the <hi
+              rend="italic">Or-<lb/>gans</hi> before it was born, or by <hi rend="italic"
+              >Accidents</hi>
+            <w part="I">pro-</w><lb/><w part="F">per</w> and peculiar to the Party itſelf; or a <w
+              part="I">ge-</w><lb/><w part="F">neral</w>
+            <hi rend="italic">bad Regimen,</hi> which may quicken this <lb/><hi rend="italic"
+              >Progreſs,</hi> or throw it out of its natural <hi rend="italic"
+              >Pro-<lb/>greſſion</hi> on a weaken'd Part, that may <w part="I">diſcom-</w><lb/><w
+              part="F">poſe</w> the <hi rend="italic">general Law</hi> of <hi rend="italic"
+              >Nature.</hi>
+          </p>
+        </div>
+        <div n="14" type="section">
+          <p rend="indent"><lb/>§. 14. <hi rend="sc">For</hi> Perſpicuity and Brevity, I <w part="I"
+              >di-</w><lb/><w part="F">ſtinguiſh</w>
+            <hi rend="italic">four Orders</hi> and Degrees of <hi rend="italic">Regimen <lb/>of
+              Diet,</hi> that is, of Meat and Drink; <hi rend="italic">viz.</hi>
+            <lb/>1. The <hi rend="italic">common Diet</hi> of a reaſonable <w part="I"
+              >Propor-</w><lb/><w part="F">tion</w> of <hi rend="italic">animal Food</hi> and <hi
+              rend="italic">fermented Liquors,</hi>
+            <lb/>common to the <hi rend="italic">middling Rank</hi> of the Healthy, <pb
+              xml:id="page_60" n="xxxvi"/><lb/>Temperat and Sober in every <hi rend="italic"
+              >Climat</hi> or <w part="I">Coun-</w><lb/><w part="F">try</w>. 2. A Diet of plain
+            freſh <hi rend="italic">animal</hi> Food <lb/>once a Day, without any <hi rend="italic"
+              >fermented</hi> Liquor, <lb/>only plain Water, or Toaſt and tepid Water <lb/>for
+            Beverage; or one of one Day Meat <w part="I">with-</w><lb/><w part="F">out</w>
+            <hi rend="italic">Wine,</hi> and another Day a little <hi rend="italic">Wine</hi>
+            <w part="I">with-</w><lb/><w part="F">out</w>
+            <hi rend="italic">Meat,</hi> which I would call the <hi rend="italic">trimming<lb/>
+              Diet.</hi> 3. A Diet without any <hi rend="italic">animal Food,</hi>
+            <lb/>but one of <hi rend="italic">Milk, Seeds, Fruits</hi> and <hi rend="italic"
+              >Vegetables,</hi>
+            <lb/>any thing where the Life of no Animal is <lb/>wanted to compoſe or dreſs ſuch (as
+            Eggs, <lb/>Gravey, and the like). 4. A <hi rend="italic">total ſtrict Milk</hi>
+            <lb/>and <hi rend="italic">Seed Diet</hi> only, without any other <w part="I"
+              >Ma-</w><lb/><w part="F">terials</w>. Of theſe I intend to ſay ſomething in <lb/><hi
+              rend="italic">general,</hi> and in this Order, both as to their <lb/>Times and
+            Cookery. But firſt as to the <hi rend="italic">Order,</hi>
+            <lb/>or Time of changeing any one of theſe <w part="I">diffe-</w><lb/><w part="F"
+              >rent</w> kinds of <hi rend="italic">Regimen</hi> one for another. </p>
+        </div>
+        <div n="15" type="section">
+          <p rend="indent"><lb/>§. 15. <hi rend="sc">When</hi> a Perſon is tolerably well, <lb/>and
+            is ſubject to no painful or dangerous <w part="I">Diſ-</w><lb/><w part="F">temper</w>, I
+            think it his Duty, and the Order of <lb/><hi rend="italic">God</hi> and <hi
+              rend="italic">Providence,</hi> to <hi rend="italic">let Well alone</hi>; and <lb/>with
+            general Temperance, without Solicitude, <lb/>Anxiety or Scrupuloſity, to perſevere in
+            the <lb/><hi rend="italic">common Regimen</hi> of the middling healthy <lb/>temperat
+            Order of Men, in the Country and <lb/><hi rend="italic">Climat</hi> where he was born,
+            or long <w part="I">habitu-</w><lb/><w part="F">ated</w>: To follow St. <hi
+              rend="italic">Paul</hi>'s Advice in another <lb/>Caſe, to ask no Queſtions about what
+            he ſhould <lb/><hi rend="italic">eat</hi> for Health's ſake; or rather our <hi
+              rend="italic">Saviour</hi>'s <lb/>Counſel, not to be <hi rend="italic"
+              >ſolicitous,</hi> or take <hi rend="italic">anxious</hi>
+            <pb xml:id="page_61" n="xxxvii"/>
+            <lb/>Care, <hi rend="italic">about what he ſhould eat, or what he <lb/>ſhould drink, or
+              wherewithal he ſhould be <lb/>cloathed</hi>; but without Curioſity or Nicety,
+            <lb/>take a Share of whatever is preſented: For to <lb/>live at ſuch a Time, and in ſuch
+            a Circumſtance, <lb/><hi rend="italic">medically,</hi> is truly to live miſerably, and
+              <lb/><hi rend="italic">propter vitam vivendi perdere cauſas.</hi> It is <lb/>enough,
+            for a <hi rend="italic">wiſe Man,</hi> and a <hi rend="italic">Chriſtian <w part="I"
+                >Phi-</w><lb/><w part="F">loſopher</w>,</hi> to ſtop, and attend to <hi
+              rend="italic">Diet</hi> and <hi rend="italic">Re-<lb/>gimen,</hi> when, by the <hi
+              rend="italic">Order</hi> of <hi rend="italic">Providence,</hi> his <lb/>natural and
+            providential Courſe of common <hi rend="italic">Re-<lb/>gimen</hi> is <hi rend="italic"
+              >barr'd</hi> up, by ſome Diſorder or <w part="I">Diſtem-</w><lb/><w part="F">per</w>;
+            and then wiſe Nature will give him <lb/>timeous Warning, by <hi rend="italic"
+              >Inappetency,</hi> a <hi rend="italic">Nauſea,</hi>
+            <lb/>Reaching, <hi rend="italic">Vomiting,</hi> a Flatulence, Fulneſs or <lb/>Pain in
+            the Stomach; for all Diſtempers begin <lb/>firſt at the Stomach or Bowels, and then
+            <lb/>aſcend to the <hi rend="italic">Head,</hi> which is the Language <lb/>of the <hi
+              rend="italic">God</hi> of <hi rend="italic">Nature,</hi> ſaying to the Perſon,
+              <lb/><hi rend="italic">Man, take Care</hi>; and then, and only then, <lb/>ought a <hi
+              rend="italic">Chriſtian Philoſopher</hi> mind his <hi rend="italic"
+              >Re-<lb/>gimen,</hi> and by <hi rend="italic">Evacuation,</hi> moderat <hi
+              rend="italic">Faſting</hi>
+            <lb/>or <hi rend="italic">Exerciſe,</hi> endeavour to relieve or remove <lb/>the Grief,
+            or apply to ſome honeſt experienced <lb/><hi rend="italic">Phyſician</hi> for Advice.
+          </p>
+        </div>
+        <div n="16" type="section">
+          <p rend="indent"><lb/>§. 16. IF the Caſe is <hi rend="italic">acute,</hi> the Party is
+            <lb/>not generally, at leaſt for any Time, in a <w part="I">Con-</w><lb/><w part="F"
+              >dition</w> to obſerve or direct for himſelf: But <lb/>ſeldom any notable Errors are
+            committed in <lb/><hi rend="italic">Regimen</hi> then; for on the ſlighteſt Attempts
+            <lb/>to any great Exceſs, either in <hi rend="italic">Quantity</hi> or <pb
+              xml:id="page_62" n="xxxviii"/>
+            <lb/><hi rend="italic">Quality,</hi> Nature immediatly <hi rend="italic">revolts,</hi>
+            and the <lb/>Party ſuffers to ſuch an Extremity, by the <lb/><hi rend="italic"
+              >Exacerbations</hi> of his <hi rend="italic">Symptoms,</hi> that any <lb/>notable
+            Progreſs in ſuch an unnatural <hi rend="italic">Regimen</hi>
+            <lb/>cannot poſſibly be receiv'd or perſiſted in; and <lb/>yet I have ſeen and felt, by
+            the Indiſcretion of <lb/><hi rend="italic">Friends,</hi> or the officious Sedulity of
+              <hi rend="italic">Nurſes,</hi>
+            <lb/>the poor Patient ſuffer to mortal <hi rend="italic">Agonies,</hi> and
+            <lb/>ſometimes to Death, in <hi rend="italic">acute</hi> Caſes, by <w part="I"
+              >im-</w><lb/><w part="F">proper</w> Loads of <hi rend="italic">high Foods,</hi> or
+            liquid or ſolid <lb/><hi rend="italic">Drams</hi> and <hi rend="italic">Cordials</hi>;
+            and many have ſuffer'd <lb/>more from high and hot Drugs, than ever they <lb/>could from
+            the Diſtemper. In <hi rend="italic">acute Caſes,</hi>
+            <lb/>ſeldom any thing that is given either for <hi rend="italic">Food</hi>
+            <lb/>or <hi rend="italic">Phyſic,</hi> paſſes the <hi rend="italic">Primae Viae,</hi>
+            unleſs it be <lb/>extremely <hi rend="italic">light</hi> and <hi rend="italic"
+              >liquid.</hi> In ſuch, the wiſer <lb/><hi rend="italic">Antients</hi> ſcarce ever
+            adminiſtred (beſides proper <lb/>Evacuation) any thing but tepid <hi rend="italic"
+              >Water,</hi> ſimple <lb/><hi rend="italic">Oxymel,</hi> or Water ſoften'd, or ſharpned
+            by the <lb/><hi rend="italic">Flour</hi> or Meal of ſome proper or <hi rend="italic"
+              >ſpecific <w part="I">Ve-</w><lb/><w part="F">getable</w>.</hi> Long obſtinat Faſting,
+            continued <lb/>even <hi rend="italic">ad Deliquium,</hi> with plentiful <hi
+              rend="italic">Dilution,</hi>
+            <lb/>and the Evacuation indicated by the Nature of <lb/>the Diſtemper, was their moſt
+              <hi rend="italic">univerſal <w part="I">Re-</w><lb/><w part="F">medy</w>.</hi> But it
+            is not of Regimen in <hi rend="italic">acute <lb/>Caſes</hi> that I here intend to
+            ſpeak; my ſole <lb/>Buſineſs is with <hi rend="italic">chronical</hi> Caſes. </p>
+        </div>
+        <div n="17" type="section">
+          <p rend="indent"><lb/>§. 17. <hi rend="sc">But</hi> ſince <hi rend="italic">chronical</hi>
+            Caſes are only <lb/><hi rend="italic">acute</hi> Caſes diluted, and drawn out into a
+            <lb/>longer Time, with weaker <hi rend="italic">Paroxyſins,</hi> and a <lb/>more
+            protracted <hi rend="italic">Criſe</hi>; ſince Nature has a <pb xml:id="page_63"
+              n="xxxix"/>
+            <lb/><hi rend="italic">general Law</hi> and <hi rend="italic">Type,</hi> by which ſhe
+            governs <lb/>and <hi rend="italic">ſignatures</hi> ſuch <hi rend="italic">acute</hi>
+            Diſtempers, <w part="I">eſpeci-</w><lb/><w part="F">ally</w> in thoſe who follow <hi
+              rend="italic">her Laws</hi> and <w part="I">Sim-</w><lb/><w part="F">plicity</w>, and
+            not diſturbed by <hi rend="italic">ſpurious Art</hi> or <lb/>Accidents; ſince <hi
+              rend="italic">Faſting,</hi> proper <hi rend="italic">Evacuation,</hi>
+            <lb/>and <hi rend="italic">Dilution,</hi> are the great Remedies <w part="I"
+              >indi-</w><lb/><w part="F">cated</w> in <hi rend="italic">acute</hi> Caſes; it is
+            natural and highly <lb/>probable to ſuppoſe, that proper <hi rend="italic"
+              >Evacuation,</hi>
+            <lb/>Abſtinence, and thin cool ſoft <hi rend="italic">Regimen</hi> longer <lb/>perſiſted
+            in, will be the ſingle Intention pointed <lb/>out, and the great and <hi rend="italic"
+              >cardinal</hi> Remedies in <lb/>chronical Caſes; and therefore, when a <w part="I"
+              >Per-</w><lb/><w part="F">ſon</w>, under common Life, is ſeized with a <lb/><hi
+              rend="italic">chronical</hi> Diſtemper, which by prudent <w part="I">Abſti-</w><lb/><w
+              part="F">nence</w>, and leſſening the Quantity of this <hi rend="italic">com-<lb/>mon
+              Diet,</hi> is not remov'd, he ought to apply <lb/>to the proper <hi rend="italic"
+              >Directors</hi> of Health, and follow <lb/>their Advice religiouſly, in the Uſe of <w
+              part="I">Medi-</w><lb/><w part="F">cins</w> and <hi rend="italic">Regimen</hi> they
+            order; and if in <hi rend="italic">three <lb/>Months</hi> time, in <hi rend="italic"
+              >chronical</hi> Caſes, by rigorouſly <lb/>purſuing the order'd Medicins and Regimen,
+            <lb/>their Symptoms are not totally remov'd, or <lb/>greatly reliev'd and mitigated, he
+            may, I think, <lb/>fairly conclude the <hi rend="italic">Regimen</hi> was not low,
+            <lb/>cool and thin enough, for the End propos'd; <lb/>and therefore ought to reſolve to
+            ſink his <hi rend="italic">Re-<lb/>gimen,</hi> both in Quantity and Quality, and
+            <lb/>enter upon what I call the <hi rend="italic">trimming Diet.</hi>
+          </p>
+        </div>
+        <div n="18" type="section">
+          <p rend="indent"><lb/>§. 18. <hi rend="sc">But</hi> before any Perſon reſolves to
+            <lb/>ſink or alter his <hi rend="italic">Regimen</hi> of Diet, or any <w part="I"
+              >pru-</w><lb/><w part="F">dent</w>
+            <hi rend="italic">Phyſician</hi> ought to adviſe ſuch an <w part="I">Altera-</w><pb
+              xml:id="page_64" n="xl"/>
+            <lb/><w part="F">tion</w>, he ought always to premiſe a gentle <w part="I"
+              >par-</w><lb/><w part="F">tial</w>
+            <hi rend="italic">Phlebotomy</hi> out at the <hi rend="italic">largeſt</hi> Vein, and
+            <lb/>from the largeſt Orifice commonly open'd; for <lb/>a ſmall <hi rend="italic"
+              >Trunk</hi> of a Vein will only ſend out <lb/>ſuch Blood as is much different from the
+              <hi rend="italic">Craſe</hi>
+            <lb/>of the whole Maſs; the Circulation being <lb/>ſlower in the ſmall <hi rend="italic"
+              >Branches,</hi> the <hi rend="italic">Viſci-<lb/>dity</hi> is generally impacted into
+            the ſmalleſt in a <lb/>greater Proportion, and the <hi rend="italic">ſerous</hi> Part by
+            the <lb/>Slowneſs is perſpired or run off, by the <hi rend="italic"
+              >Lym-<lb/>phatics,</hi> and lateral Branches; and a ſmall <lb/><hi rend="italic"
+              >Orifice</hi> either compreſſes and breaks the <w part="I">Tex-</w><lb/><w part="F"
+              >ture</w> of the <hi rend="italic">Curd</hi> of the Blood, diſunites and
+            <lb/>ſeparates the <hi rend="italic">Globules,</hi> ſo that the Obſervation <lb/>cannot
+            be fairly or with any Degree of <hi rend="italic">Accu-<lb/>racy</hi> made; but by
+            comparing the Blood ſo <lb/>let out, with other ſound healthy Blood, (for <lb/>Example,
+            that of a healthy Perſon, or of a <lb/>Bullock or Sheep) if the Difference in <hi
+              rend="italic">Taſte, <lb/>Colour, Coheſion</hi> of the Globules, and <hi rend="italic"
+              >Curd,</hi>
+            <lb/>and the Proportion thereof to the <hi rend="italic">Serum,</hi> be <lb/>in all or
+            moſt of theſe Diſtinctions, greatly <lb/>different from thoſe of the <hi rend="italic"
+              >ſound Blood,</hi> it <lb/>may fairly be concluded that the <hi rend="italic"
+              >Regimen</hi> of <lb/>Diet, both in <hi rend="italic">Quantity</hi> and <hi
+              rend="italic">Quality,</hi> is to be <lb/>ſunk and leſſen'd, and that proper and <hi
+              rend="italic">ſpecific</hi>
+            <lb/>alterative Medicins, to thin and ſweeten the <lb/>Blood, are indicated, (eſpecially
+            thoſe of the <lb/>mild ponderous Nature at firſt, with the <hi rend="italic"
+              >Gale-<lb/>nical</hi> Vegetables, which univerſal Experience <lb/>has aſſign'd as <hi
+              rend="italic">ſpecific</hi> in a Diſtemper of ſuch a <lb/>Denomination) and the
+            Evacuations of the <pb xml:id="page_65" n="xli"/>
+            <lb/><hi rend="italic">Primæ Viæ</hi> by gentle <hi rend="italic">Vomits</hi> and <hi
+              rend="italic">domeſtic <lb/>Cathartics,</hi> as the Symptoms exaſperat; for <lb/>tho'
+            a Perſon may ſtill ſuffer, even when the <lb/>Blood thus let out for Experiment's ſake,
+            moſtly <lb/>appears, on ſuch groſs Experiments, tolerably <lb/>good, and not differing
+            greatly from <hi rend="italic">ſound <lb/>Blood</hi> in the Size, the bad Juices being
+            confin'd <lb/>to the <hi rend="italic">Capillaries, Glands</hi> and great <hi
+              rend="italic">Viſcera</hi>; <lb/>yet theſe will never be open'd and render'd <w
+              part="I">per-</w><lb/><w part="F">vious</w>, till the Blood in the great Trunks of
+            <lb/>the Veſſels be firſt attenuated, <hi rend="italic">thin'd</hi> and <lb/><hi
+              rend="italic">ſweeten'd:</hi> And he will never be long or <w part="I">uni-</w><lb/><w
+              part="F">formly</w> well, who has <hi rend="italic">bad Juices</hi>
+            <w part="I">circulat-</w><lb/><w part="F">ing</w>, in theſe greater Veſſels; it is a
+            certain <lb/><hi rend="italic">Symptom,</hi> that it muſt be much worſe and <lb/>more
+              <hi rend="italic">ſizy</hi> in the ſmall <hi rend="italic">lateral Branches,</hi> the
+              <lb/><hi rend="italic">Capillaries,</hi> and the <hi rend="italic">Glands</hi> of the
+              <hi rend="italic">Viſcera</hi>; <lb/>and it is <hi rend="italic">Diet alone,</hi> and
+            it chiefly, join'd with <lb/>mild ponderous Remedies at firſt, <hi rend="italic"
+              >Evacua-<lb/>tion, Air</hi> and <hi rend="italic">Exerciſe,</hi> that can at laſt
+            <lb/>alter or <hi rend="italic">antidote</hi> theſe morbific Symptoms. <lb/>And if after
+            three Months Uſe of the <w part="I">Medi-</w><lb/><w part="F">cins</w> advis'd in <hi
+              rend="italic">chronical Caſes,</hi> by an honeſt <lb/>experienced Phyſician, the Blood
+            on ſuch a <lb/>Trial continues bad, that is, <hi rend="italic">ſizy, liveriſh,</hi>
+            <lb/>with either too little <hi rend="italic">Serum</hi> tho' clear, or too <lb/>much
+            but <hi rend="italic">muddy,</hi> then, I think, the <hi rend="italic">trimming
+              <lb/>Diet</hi> ought to be tried, <hi rend="italic">viz.</hi> one of white <lb/>Meat
+            in a moderat Quantity once a Day, with <lb/><hi rend="italic">Milk, Seeds</hi> and <hi
+              rend="italic">Vegetables,</hi> for the other <lb/>Meals, and <hi rend="italic">aqueous
+              Beverage</hi>; or one Day a <lb/>little plain Meat of any kind once a Day, with <pb
+              xml:id="page_66" n="xlii"/>
+            <lb/><hi rend="italic">aqueous Beverage</hi> that Day, and the next Day <lb/>only <hi
+              rend="italic">Milk, Seeds</hi> and <hi rend="italic">Vegetables,</hi> with about
+            <lb/>a <hi rend="italic">Gill</hi> of ſome ſound old Wine, with or <w part="I"
+              >with-</w><lb/><w part="F">out</w> Water; and this <hi rend="italic">Regimen,</hi>
+            with a due <lb/>Care of the other <hi rend="italic">Non-naturals,</hi> proper <hi
+              rend="italic">Eva-<lb/>cuation,</hi> and due <hi rend="italic">Exerciſe,</hi> I think,
+            ought to be <lb/>continued for one whole Year or two, in obſtinat <lb/><hi rend="italic"
+              >hereditary chronical</hi> Caſes; for, I think, <w part="I">ac-</w><lb/><w part="F"
+              >quir'd</w> ones will ſcarce require ſo long Time, <lb/>or ſuch Severity of <hi
+              rend="italic">Regimen,</hi> to be cured, or <lb/>at leaſt greatly alleviated, unleſs
+            their Exceſſes <lb/>have been violent, or that they are far advanced <lb/>in Life. </p>
+        </div>
+        <div n="19" type="section">
+          <p rend="indent"><lb/>§. 19. <hi rend="sc">But</hi> ſince ſuch Caſes do daily happen,
+            <lb/>both in <hi rend="italic">hereditary</hi> Diſtempers, and thoſe <w part="I"
+              >ac-</w><lb/><w part="F">quir'd</w> by an obſtinat <hi rend="italic">Mal-regimen</hi>
+            long <w part="I">con-</w><lb/><w part="F">tinued</w> in; that after a full <hi
+              rend="italic">Twelvemonth</hi> or more <lb/>of a <hi rend="italic">trimming</hi>
+            Regimen of Diet, with proper <lb/><hi rend="italic">Evacuation,</hi> and <hi
+              rend="italic">ſpecific</hi> Alteratives, the Blood, <lb/>on makeing the Trial, as
+            above deſcribed, <w part="I">con-</w><lb/><w part="F">tinues</w> ſtill <hi rend="italic"
+              >bad</hi> and <hi rend="italic">ſizy,</hi> then, I think, all Medicin <lb/>(except
+            domeſtic Evacuations or Alteratives) <lb/>may be fairly caſhier'd and laid aſide, as of
+            little <lb/>or no Uſe, and the whole Streſs and Hope laid <lb/>on <hi rend="italic"
+              >Diet</hi> and <hi rend="italic">Regimen</hi> only, by ſinking it in <lb/>Quantity as
+            well as Quality, and confineing <lb/>one's ſelf to <hi rend="italic">Milk, Seeds,
+              Fruits</hi> and <hi rend="italic">Vege-<lb/>tables,</hi> well dreſs'd, or much
+            diſſolv'd by <hi rend="italic">culi-<lb/>nary</hi> Fire, to evaporat the Wind; and <w
+              part="I">drink-</w><lb/><w part="F">ing</w> only <hi rend="italic">tepid Water,</hi>
+            or ſome ſpecific mineral <lb/>Water, as the Caſe requires, and <hi rend="italic"
+              >Wine</hi> only <pb xml:id="page_67" n="xliii"/><lb/>as other Perſons uſe Spirits, on
+            dangerous <w part="I">Sym-</w><lb/><w part="F">ptoms</w>, as a Cordial, and on
+            Extremities; and <lb/>this <hi rend="italic">Method</hi> and <hi rend="italic"
+              >Regimen</hi> ought to be <w part="I">conti-</w><lb/><w part="F">nued</w> for <hi
+              rend="italic">two Years</hi> more at leaſt. And, I think, <lb/>in Perſons of a
+            tolerable Conſtitution, and <lb/>where ſome of the <hi rend="italic">great Viſcera</hi>
+            are not <w part="I">intire-</w><lb/><w part="F">ly</w> ſpoil'd and irremediably
+            conſumed, this <w part="I">Me-</w><lb/><w part="F">thod</w> and Diet cannot fail of
+            having ſalutary <lb/>Effects of a perfect Cure, or a very <w part="I"
+              >conſidera-</w><lb/><w part="F">ble</w> Relief; and then if the Party is not paſt
+            <lb/>the <hi rend="italic">Meridian</hi> of Life, the Perſon may without <lb/>Fear or
+            Danger, gradually and by ſlow Degrees, <lb/>riſe again to the <hi rend="italic"
+              >trimming</hi> Diet, and from it <lb/>return back again by the ſame Steps he deſcended
+            <lb/>into common Life; and only on <hi rend="italic">Exacerba-<lb/>tions,</hi> and
+            ſtated Seaſons, ſink into his lower <lb/>Regimen, for a Preſervative. </p>
+        </div>
+        <div n="20" type="section">
+          <p rend="indent"><lb/>§. 20. <hi rend="sc">But</hi> after all this Care and <w part="I"
+              >Perſeve-</w><lb/><w part="F">rance</w> in a <hi rend="italic">milk, ſeed</hi> and <hi
+              rend="italic">vegetable Diet,</hi> with <lb/><hi rend="italic">aqueous Beverage,</hi>
+            if on a Trial after the <w part="I">man-</w><lb/><w part="F">ner</w> mentioned, the
+            Blood be ſtill ſizy, as it often <lb/>is in bad Conſtitutions, and obſtinat Caſes, and
+            <lb/>the <hi rend="italic">Symptoms,</hi> ſtill ſevere and depreſſing; the <lb/>only
+            thing remaining for ſuch a Perſon with <lb/>any Reaſon or Expectation of Succeſs of a
+            <lb/>total Cure, or any notable Alleviation of his <lb/><hi rend="italic">Symptoms,</hi>
+            is, for the Perſon to enter on a <lb/><hi rend="italic">total rigid ſtrict milk and ſeed
+              Diet only,</hi>
+            <lb/>without Butter, Eggs, or any other Vegetables, <lb/>but Wheat, Barley, Rice, Oats,
+            Sago, and the <lb/>like ſeed Meats; and even to make his Milk the <pb xml:id="page_68"
+              n="xliv"/>
+            <lb/>thinneſt poſſible, skim'd Milk, ſweet <w part="I">Butter-</w><lb/><w part="F"
+              >milk</w>, ſweet Whey, or the Whey made with <lb/>a Mixture of ſour Milk, or
+            Orange-Whey, or <lb/>Whey made with the Juice of ſome ſpecific <lb/>Vegetable,
+            (eſpecially in <hi rend="italic">ſcorbutic, gouty, pul-<lb/>monic</hi> and <hi
+              rend="italic">icteric</hi> Caſes, which is the <hi rend="italic">Baſe</hi> of
+            <lb/>moſt of the <hi rend="italic">chronical</hi> Diſtempers in <hi rend="italic"
+              >England</hi>) <lb/>and Bread or Seeds dreſs'd made with Milk <lb/>only; for Seeds are
+            young Vegetables, and are <lb/>neither ſo hard of Digeſtion, ſo windy, nor <lb/>abound
+            with the <hi rend="italic">eſſential</hi> Salts of Plants, Roots <lb/>and Fruits. And
+            even the <hi rend="italic">Quantity</hi> of the <hi rend="italic">Regi-<lb/>men</hi> is
+            to be minded; little at a time, but oftener, <lb/>never either to load the Stomach, nor
+            compreſs <lb/>the <hi rend="italic">Nerves, Membranes</hi> and <hi rend="italic"
+              >Fibres</hi>; Fulneſs <lb/>and Compreſſion, even by ſuch Foods, like <lb/><hi
+              rend="italic">Stops</hi> in <hi rend="italic">muſical Chords,</hi> will interrupt
+            their <lb/>eaſy, regular and <hi rend="italic">harmonious</hi> Vibrations and <lb/>Play,
+            and ſo will ſink the Spirits, and make <lb/>the <hi rend="italic">Functions</hi> labour.
+            This Regimen ought <lb/>at laſt to be tried, all other Methods not <w part="I"
+              >ſuc-</w><lb/><w part="F">ceeding</w>. One would not buy <hi rend="italic">Gold too
+              dear</hi>; <lb/>but Health and free Spirits are more precious <lb/><hi rend="italic"
+              >than Gold,</hi> and a wiſe Man would give up <lb/>every thing elſe for them. This <hi
+              rend="italic">Regimen</hi> will <lb/>infallibly have one of theſe two Effects; it will
+            <lb/>either totally cure him, if the great <hi rend="italic">Viſcera</hi>
+            <lb/>are not quite conſumed; or make him <hi rend="italic">lie <lb/>down</hi> more
+            eaſily, and will infallibly give him <lb/>longer Time and better Spirits to ſettle his
+              <lb/><hi rend="italic">temporal</hi> Affairs, and give all the Attention to <lb/>his
+              <hi rend="italic">future State,</hi> the Nature of Things will <lb/>then admit. </p>
+        </div>
+        <gap reason="sampling" unit="pages" quantity="25"/>
+      </div>
+      <gap reason="sampling" unit="pages" quantity="345"/>
+    </body>
+  </text>
+</TEI>

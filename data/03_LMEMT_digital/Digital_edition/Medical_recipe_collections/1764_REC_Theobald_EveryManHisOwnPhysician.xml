@@ -1,0 +1,1959 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> LMEMT Corpus - Theobald: Every man his own physician</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>John Theobald</persName>
+            </author>
+            <title type="main">Every man his own physician. Being, a complete collection of
+              efficacious and approved remedies, for every disease incident to the human body. With
+              plain instructions for their common use. Necessary to be had in all families,
+              particularly those residing in the country. By John Theobald, M.D. Author of Medulla
+              Medicinae. Compiled at the command of his Royal Highness the Duke of
+              Cumberland.</title>
+            <edition n="1"/>
+            <idno type="ESTC">T26206</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/T33572"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>London: printed and sold by W. Griffin, in Fetter-Lane ; R. Withy, in
+                  Cornhill ; and G. Kearsly, in Ludgate-Street, MDCCLXIV.</persName>
+              </publisher>
+              <date>1764</date>
+            </imprint>
+            <extent>
+              <measure type="format">8⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="7"/>
+              <measure type="count" commodity="body" unit="page" quantity="41"/>
+              <measure type="count" commodity="back" unit="page" quantity="8"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">British Library</orgName>
+            <idno type="ECCO">CW3307070846</idno>
+            <idno type="TCP">K032054.000</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Recipe collections"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text xml:lang="eng">
+    <front>
+      <div>
+        <pb xml:id="page_2"/>
+        <head rend="align-center space size(2.0)"><lb/>PREFACE. </head>
+        <p rend="indent"><lb/>ALTHOUGH publiſhers of receipts have been always very numerous, yet it
+          has ſo happened, that the leaſt able have hitherto undertaken this task, as the moſt eaſy
+          and likely to anſwer any <w part="I">merce-</w><lb/><w part="F">nary</w> views; which
+          ſeems to have been the reaſon, that more able perſons have neglected it as an under part
+          of their profeſſion. <w part="I">Ne-</w><lb/><w part="F">vertheless</w>, I have perſuaded
+          myſelf, that I ſhould perform a work, neither entirely void, of uſe, nor foreign to the
+          duties of my <w part="I">pro-</w><lb/><w part="F">feſſion</w>, if I made the public
+          partakers of the principal helps againſt moſt diſeaſes, which I had either learned by long
+          experience, or ſelected from the writings of the moſt <w part="I">emi-</w><lb/><w part="F"
+            >nent</w> phyſicians. As theſe receipts are <w part="I">pub-</w><lb/><w part="F"
+            >liſhed</w> chiefly for the uſe of perſons reſiding in the country, whoſe convenience or
+          abilities, will not allow of the attendance of a phyſician or apothecary, I have ſtudied
+          plainneſs in my ſtile, and in my directions, with regard to the treatment of diſeaſes,
+          that I might render this treatiſe as uſeful as poſſible. </p>
+        <signed>J. THEOBALD. </signed>
+      </div>
+      <div>
+        <pb xml:id="page_3"/>
+        <head rend="align-center size(2.5)"><lb/>PREFACE <hi rend="sc">TO THE </hi><hi rend="2.0"
+            >SECOND EDITION.</hi>
+        </head>
+        <p rend="indent"><lb/>THE favourable reception this work has met with, as is ſufficiently
+          ſhewn by the remarkable quick ſale of the firſt large impreſſion, has induced the editor
+          (to ſupport the credit of what is really <w part="I">bene-</w><lb/><w part="F">ficial</w>
+          to the public, and add weight to the receipts) to publiſh the authorities from whence
+          thoſe receipts were taken; and to make it ſtill more uſeful, has added the ſigns of
+          diſeaſes, and ſome plain and conciſe <w part="I">direc-</w><lb/><w part="F">tions</w> for
+          bleeding: he begs leave to remark, that although Dr. Theobald has given no more than one
+          receipt for the cure of ſeveral diſorders, yet he has been careful to ſelect ſuch, <hi
+            rend="italic">only,</hi> as upon a long experience were found to be the beſt; and that
+          although <w part="I">re-</w><lb/><w part="F">ceipts</w> are given for diſeaſes which are
+          ſeldom cured, (as the apoplexy, conſumption, <hi rend="italic">&amp;c.</hi>) yet if it is
+          in the power of medicine to remove any of theſe complaints, there is the greateſt reaſon
+          to imagine, that the remedies directed in this pamphlet will effect a cure. </p>
+        <signed>THE EDITOR. </signed>
+      </div>
+      <div>
+        <pb xml:id="page_4"/>
+        <head rend="align-center size(2.5)"><lb/>INDEX. </head>
+        <head type="sub" rend="align-center space"><lb/>Of diſeaſes, for which, remedies are <w
+            part="I">pro-</w><lb/><w part="F">poſed</w> in this Treatiſe. </head>
+        <list>
+          <head rend="sc"><lb/>A </head>
+          <item><hi rend="dc(2)">A</hi>CHES, from Colds Page 1 </item>
+          <item>After-pains ibid </item>
+          <item>Agues Page 2 </item>
+          <item>Apoplexy Page 3 </item>
+          <item>Appetite, want of Page 4 </item>
+          <item>Aſtma ibid </item>
+          <item>Saint Anthony's Fire Page 2 </item>
+        </list>
+        <list>
+          <head rend="sc"><lb/>B </head>
+          <item>Baldneſs Page 5 </item>
+          <item>Bleeding at the Noſe ib. </item>
+          <item>Blood, ſpitting of ibid </item>
+          <item>Bloody Flux Page 6 </item>
+          <item>Boils ibid </item>
+          <item>Bruiſes, External Page 7 </item>
+          <item>— Internal Page 6 </item>
+          <item>Burns and Scalds Page 7 </item>
+        </list>
+        <list>
+          <head rend="sc"><lb/>C </head>
+          <item>Cancer Page 7 </item>
+          <item>Cholick Page 8 </item>
+          <item>Colds ibid </item>
+          <item>Conſumption Page 9 </item>
+          <item>Convulſions ibid </item>
+          <item>Corns Page 10 </item>
+          <item>Coſtiveneſs, to prevent ibid </item>
+          <item>Cough ibid </item>
+        </list>
+        <list>
+          <head rend="sc"><lb/>D </head>
+          <item>Decays, ſee <w part="I">Conſump-</w><lb/><w part="F">tion</w> Page 11 </item>
+          <item>Deafneſs ibid </item>
+          <item>Delivery, to promote ibid </item>
+          <item>Diabetes, and piſſing of Blood. ibid </item>
+          <item>Dropſy Page 12 </item>
+          <item>Dry Belly-Ach ibid </item>
+        </list>
+        <list>
+          <head rend="sc"><lb/>E </head>
+          <item>Ear-Ach Page 13 </item>
+          <item>Excoriations ibid </item>
+          <item>Eyes, diſorders of ibid </item>
+        </list>
+        <list>
+          <head rend="sc"><lb/>F </head>
+          <item>Fainting Page 14 Falling Sickneſs ibid </item>
+          <pb xml:id="page_5"/>
+          <item>Fevers, Inflammatory Page 14 </item>
+          <item>— Nervous Page 15 </item>
+          <item>— Spotted Page 16 </item>
+          <item>Fits, ſee Hiſterics </item>
+          <item>Fiſtula Page 17 </item>
+        </list>
+        <list>
+          <head rend="sc"><lb/>G </head>
+          <item>Giddineſs Page 17 </item>
+          <item>Gout ibid </item>
+          <item>Gravel Page 18 </item>
+          <item>Green Sickneſs ibid </item>
+          <item>Gripes Page 19 </item>
+        </list>
+        <list>
+          <head rend="sc"><lb/>H </head>
+          <item>Head-Ach Page 19 </item>
+          <item>Heart-burn ibid </item>
+          <item>Hoarſeneſs ibid </item>
+          <item>Hiſterics Page 20 </item>
+          <item>Hard Swellings ibid </item>
+          <item>Hip-Gout ibid </item>
+        </list>
+        <list>
+          <head rend="sc"><lb/>I </head>
+          <item>Jaundice Page 21 </item>
+          <item>Indigeſtion ibid </item>
+          <item>Inflammations ibid </item>
+          <item>Itch Page 22 </item>
+          <item>Inflammation of the Bowels ibid </item>
+          <item>Intermitting Fever, ſee Ague </item>
+        </list>
+        <list>
+          <head rend="sc"><lb/>K </head>
+          <item>King's Evil Page 23 </item>
+        </list>
+        <list>
+          <head rend="sc"><lb/>L </head>
+          <item>Leproſy Page 23 </item>
+          <item>Lethargy Page 24 </item>
+          <item>Looſeneſs ibid </item>
+        </list>
+        <list>
+          <head rend="sc"><lb/>M </head>
+          <item>Madneſs Page 24 </item>
+          <item>Meaſles Page 25 </item>
+          <item>Menſes, immoderate flow of ibid </item>
+          <item>— Suppreſſion of Page 26 </item>
+          <item>Miſcarriage ibid </item>
+        </list>
+        <list>
+          <head rend="sc"><lb/>N </head>
+          <item>Nervous Diſorders Page 26 </item>
+          <item>Noiſe in the ears ibid </item>
+        </list>
+        <list>
+          <head rend="sc"><lb/>O </head>
+          <item>Opiate Page 27 </item>
+          <item>Obſtructions ibid </item>
+          <item>Old Ulcers ibid </item>
+          <item>Ointment for the eyes Page 13 </item>
+        </list>
+        <list>
+          <head rend="sc"><lb/>P </head>
+          <item>Pains in the Joints, See Hip-Gout Page 20 </item>
+          <item>Pain in the Stomach Page 27 </item>
+          <item>Palſey Page 28 </item>
+          <item>Piles ibid </item>
+          <item>Pleuriſy ibid </item>
+        </list>
+        <list>
+          <head rend="sc"><lb/>Q </head>
+          <item>Quinſey Page 29 </item>
+        </list>
+        <pb xml:id="page_6"/>
+        <list>
+          <head rend="sc"><lb/>R </head>
+          <item>Rheumatiſm Page 29 </item>
+          <item>Retention of Urine Page 30 </item>
+          <item>Rickets ibid </item>
+          <item>Ruptures Page 31 </item>
+        </list>
+        <list>
+          <head rend="sc"><lb/>S </head>
+          <item>Scald Head Page 31 </item>
+          <item>Scurvy ibid </item>
+          <item>Small Pox Page 32 </item>
+          <item>Sprains Page 33 </item>
+          <item>Sweating, Exceſſive Page 34 </item>
+          <item>Slow Fever, ſee <w part="I">Nerv-</w><lb/><w part="F">ous</w> Fever </item>
+          <item>Stranguary Page 31 </item>
+          <item>Stone, See Gravel </item>
+          <item>Stitch in the ſide Page 31 </item>
+          <item>Shingles Page 33 </item>
+          <item>Swell'd Legs Page 34 </item>
+        </list>
+        <list>
+          <head rend="sc"><lb/>T </head>
+          <item>Tooth-Ach Page 34 </item>
+          <item>Tettars Page 35 </item>
+          <item>Thirſt, unquenchable Page 36 </item>
+          <item>Thurſh ibid </item>
+          <item>Throat, Sore, See Quinſey </item>
+          <item>— Putrid Page 35 </item>
+          <item>Tympany Page 36 </item>
+        </list>
+        <list>
+          <head rend="sc"><lb/>V </head>
+          <item>Violent pains after Delivery, See After-Pains </item>
+          <item>Vomiting Page 37 </item>
+          <item>Ulcers of the Lungs ib. </item>
+          <item>— Kidneys ibid </item>
+          <item>— Bladder Page 38 </item>
+          <item>—Womb ibid </item>
+        </list>
+        <list>
+          <head rend="sc"><lb/>W </head>
+          <item>Warts Page 38 </item>
+          <item>Whites Page 39 </item>
+          <item>White Swellings ibid </item>
+          <item>Wind ibid </item>
+          <item>Watery Gripes ibid </item>
+          <item>Waſting away of <w part="I">chil-</w><lb/><w part="F">dren</w> Page 40 </item>
+          <item>Worms ibid </item>
+          <item>Wounds, green ibid </item>
+          <item>Directions concerning Bleeding Page 41 </item>
+        </list>
+      </div>
+      <div>
+        <pb xml:id="page_7"/>
+        <p rend="indent"><lb/><hi rend="italic">Juſt Publiſhed.</hi> [Price 1 s. 6 d.] </p>
+        <p rend="indent"><lb/>Written by the AUTHOR of this Pamphlet; The Young WIFE's GUIDE. </p>
+        <p rend="indent"><lb/>CONTAINING Every thing neceſſary to be known relative to the magement
+          of Children, from the time of their Birth to the Age of Seven Years; with a plain and full
+          account of every Diſorder to which Infants are <w part="I">ſub-</w><lb/><w part="F"
+            >ject</w>, and a collection of efficacious <w part="I">Reme-</w><lb/><w part="F"
+            >dies</w> ſuited to every Diſeaſe. </p>
+        <p rend="indent"><lb/>LONDON: Printed and Sold by W. GRIFFIN, in Fetter-Lane; R. WITHY, in
+          Cornhill; and G. KEARSLY, in Ludgate-ſtreet. </p>
+      </div>
+    </front>
+    <body>
+      <pb xml:id="page_8"/>
+      <head rend="align-center size(2.0) space"><lb/>Every Man his Own Phyſician. </head>
+      <div>
+        <head rend="sc"><lb/>ACHES AND PAINS.</head>
+        <p rend="indent"><lb/><figure>
+            <figDesc>An ornamental frame around the letter R</figDesc>
+          </figure><hi rend="sc">RUB</hi> a little Opodeldoch upon the part affected, two or three
+          times a day, and wear a flannel upon it; if this does not give relief, take twenty drops
+          of volatile tincture of Guaicum, <w part="I">(prepar-</w><lb/><w part="F">ed</w> as
+          directed in the Appendix,) every night and morning, in a glaſs of ſpring water. </p>
+        <signed>HEISTER. </signed>
+      </div>
+      <div>
+        <head rend="sc"><lb/>AFTER-PAINS. </head>
+        <p rend="indent"><lb/>TAKE one ſcruple of Sperma Ceti, five grains of volatile ſalt of
+          Hartſhorn, five drops of balſam of Peru, and half a drachm of Venice treacle; mix them
+          into a bolus, with as much ſyrup of White Poppies as is ſufficient to make a bolus; to be
+          repeated every ſix hours till the pains abate. Cover the woman up warm, and let her drink
+          plentifully of caudle. </p>
+        <signed>HEISTER. </signed>
+      </div>
+      <div>
+        <pb xml:id="page_9" n="2"/>
+        <head rend="sc"><lb/>AGUE, or INTERMITTING FEVER, <hi rend="italic">Signs of.</hi>
+        </head>
+        <p rend="indent"><lb/>A violent head-ach, a wearineſs of the limbs, a pain in the loins, a
+          coldneſs of the external parts, a ſhivering and ſhaking, ſometimes ſo much as to make the
+          very bed ſhake under them; a great thirſt and burning heat, and frequent inclination to
+          vomit. Afterwards the ſymptoms begin to abate, the skin becomes moiſt, the urine is of a
+          flame <w part="I">co-</w><lb/><w part="F">lour</w>, but without a ſediment, and a ſweat <w
+            part="I">break-</w><lb/><w part="F">ing</w> out terminates the fit. </p>
+        <div>
+          <head rend="sc"><lb/>METHOD OF CURE. </head>
+          <p rend="indent"><lb/>FIRST vomit the ſick perſon, by giving half a drachm of the powder
+            of Ipecacoanha, and work it off with Chamomile tea; then let the ſick perſon take the
+            following powder: </p>
+          <p rend="indent"><lb/>Of the beſt Peruvian bark powdered, one ounce, of Virginia Snake
+            root, and ſalt of Wormwood, each one drachm; mix theſe well together, and divide them
+            into eight doſes, one paper to be taken every two hours in a glaſs of red wine or any
+            other liquid. This is a certain and infallible cure; but care muſt be taken to
+            adminiſter it only in the intervals of the fits; but it muſt be <w part="I"
+              >re-</w><lb/><w part="F">peated</w> for two or three days, about ten days after the
+            firſt cure, or elſe the diſorder will frequently return. In obſtinate caſes, removing
+            into a drier air has been found of great ſervice. </p>
+          <signed>HUXHAM. </signed>
+        </div>
+      </div>
+      <div>
+        <head rend="sc"><lb/>SAINT ATHONY's FIRE. <hi rend="italic">Signs of.</hi>
+        </head>
+        <p rend="indent"><lb/>This diſeaſe affects every part of the body, but moſt frequently the
+          face, and it happens at all times of the year. But whatever part is affected, <pb
+            xml:id="page_10" n="3"/>a chillineſs and ſhivering generally attend the <w part="I"
+            >diſ-</w><lb/><w part="F">order</w>, with great thirſt, reſtleſſneſs, and other ſigns of
+          a fever; the face ſwells of a ſudden, with great pain and redneſs, and abundance of ſmall
+          pimples appear, which often riſe up into ſmall bliſters, and ſpread over the forehead and
+          head, the eyes being quite cloſed by the largeneſs of the ſwelling. This, in the country,
+          is uſually called a Blaſt. </p>
+        <div>
+          <head rend="sc"><lb/>METHOD OF CURE. </head>
+          <p rend="indent"><lb/>LET the ſick, perſon looſe eight or ten ounces of blood, and repeat
+            the bleeding more than once if the ſymptoms run high, and apply to the part a pultice of
+            white bread and milk, with a little Hogs Lard in it; let the pultice be changed twice in
+            a day, and every other morning take the following purge, till the diſorder is cured,
+            viz. </p>
+          <p rend="indent"><lb/>Glauber's ſalt one ounce, Manna half an ounce, mix and diſſolve it
+            in warm water for one doſe. </p>
+          <p rend="indent"><lb/>The diet in this diſeaſe muſt be very low, chiefly Water Gruel, or
+            at moſt weak broth; all ſtrong liquors muſt be avoided as poiſon. </p>
+          <signed>SHARP. </signed>
+        </div>
+      </div>
+      <div>
+        <head rend="sc"><lb/><hi rend="italic">APPOPLEXY.</hi> The immediate preceding Signs are, </head>
+        <p rend="indent"><lb/>Tremblings, ſtaggering, a giddineſs in the head, dimneſs of ſight,
+          ſleepineſs, loſs of memory, noiſe in the ears, and deep and laborious breathing. The
+          diſeaſe itſelf is a total deprivation of ſenſe and <w part="I">mo-</w><lb/><w part="F"
+            >tion</w>, except that of reſpiration, which is performed with difficulty, and ſnoring.
+          It uſually ends in a paralytic diſorder, and is ſeldom curable, but <w part="I"
+            >al-</w><lb/><w part="F">ways</w> leaves behind it a great defect of memory, judgment
+          and motion. </p>
+        <div>
+          <head rend="sc"><lb/>METHOD OF CURE. </head>
+          <p rend="indent"><lb/>CUPPING in the nape and ſides of the neck is always uſeful, provided
+            the ſcarifications are <pb xml:id="page_11" n="4"/>deep enough to give a free paſſage to
+            the blood; ſtimulating clyſters and warm purges are alſo of ſervice, as is alſo the
+            following electuary: Take half an ounce of powdered Heath Valerian, and one ounce and an
+            half of conſerve of Orange peel, and mix them together; the doſe is the quantity of a
+            nutmeg every four hours, diſſolved in a <w part="I">cup-</w><lb/><w part="F">ful</w> of
+            Roſemary tea. Apply a ſtrong bliſter to the back, the diet muſt be very ſparing. </p>
+          <signed>MEAD, SYDENHAM, and HEISTER. </signed>
+        </div>
+      </div>
+      <div>
+        <head rend="sc"><lb/>APPETITE, want of </head>
+        <p rend="indent"><lb/>DRINK Chamomile tea every day an hour before dinner, or take ten drops
+          of Acid Elixir of Vitriol in a glaſs of water, about two hours before, and about two hours
+          after dinner, every day. A gentle Puke ſhould precede the uſe of theſe remedies, for which
+          purpoſe nothing is <w part="I">pre-</w><lb/><w part="F">ferable</w> to the powder of
+          Ipecacoanha, a ſcruple of which is ſufficient for a doſe, and ſhould be worked off with
+          weak Chamomile tea. </p>
+        <signed>MEAD. </signed>
+      </div>
+      <div>
+        <head rend="sc"><lb/>ASTHMA OR PHTHISICK. <hi rend="italic">Signs of.</hi>
+        </head>
+        <p rend="indent"><lb/>An obſtructed and very laborious breathing, <w part="I">at-</w><lb/><w
+            part="F">tended</w> with unſpeakable anxiety, and a ſtraitneſs about the breaſt. </p>
+        <div>
+          <head rend="sc"><lb/>METHOD OF CURE. </head>
+          <p rend="indent"><lb/>DISSOLVE two drachms of Gum <w part="I">Ammo-</w><lb/><w part="F"
+              >niacum</w> in half a pint of Pennvroyal water, and add an ounce of Oxymel of Squills.
+            Three large ſpoonfuls of this mixture may be taken frequently; or from 20 to 30 drops or
+            the Paregoric Elixir, may be taken in Pennyroyal water, two or three <pb
+              xml:id="page_12" n="5"/>times in a day. Bleeding is generally proper, as is a large
+            bliſter applied to the back, and gentle vomits; the diet ſhould be ſlender. Malt liquors
+            muſt be avoided, being very pernicious. </p>
+          <signed>MEAD. </signed>
+        </div>
+      </div>
+      <div>
+        <head rend="sc"><lb/>BALDNESS. </head>
+        <p rend="indent"><lb/>RUB the part frequently with an onion till it looks red; the uſe of
+          Bears greaſe is alſo <w part="I">recom-</w><lb/><w part="F">mended</w> as particularly
+          ſerviceable in this caſe, being more ſubtle and penetrating than any other animal fat
+          hitherto known. </p>
+      </div>
+      <div>
+        <head rend="sc"><lb/>BLEEDING at the Noſe. </head>
+        <p rend="indent"><lb/>APPLY to the back part and the ſides of the neck, a linnen cloth dipt
+          in cold water, in which ſalt Prunella has been diſſolved. In very obſtinate caſes bleeding
+          in the foot is uſeful. Internally the quantity of a nutmeg, of the following electuary may
+          be taken or four three times in a day. Take the ſeeds of White Henbane, and White Poppies,
+          each half an ounce, Conſerve of Roſes three ounces, and mix th<unclear>#</unclear>m into
+          an electuary with ſyrup of Diacodion. </p>
+        <signed>SYDENHAM, and BOYLE. </signed>
+      </div>
+      <div>
+        <head rend="sc"><lb/>Spitting of BLOOD. </head>
+        <p rend="indent"><lb/>TAKE Red roſe leaves dried, half an ounce, twenty drops of oil of
+          Vitriol, one ounce and an half of refined Sugar, and pour two pints and an half of boiling
+          water on theſe ingredients in an earthen veſſel; let it ſtand to be cold, and take half a
+          quarter of a pint frequently. In this diſorder frequent bleeding in ſmall quantities is
+          proper, not exceeding four, or at the moſt ſix ounces at each time, according the ſtrength
+          of the ſick perſon. </p>
+        <signed>HOFFMAN, and MEAD. </signed>
+      </div>
+      <div>
+        <pb xml:id="page_13" n="6"/>
+        <head rend="align center space"><lb/>BLOODY FLUX. <hi rend="italic">Signs of.</hi>
+        </head>
+        <p rend="indent"><lb/>Generally begins with coldneſs and ſhivering, ſucceeded by a quick
+          pulſe, and intenſe thirſt. The ſtools are greaſy, and ſometimes frothy mixt with blood,
+          with filaments intermixt, which have the appearance of melted ſuet, and are attended with
+          intolerable gripings, and a painful deſcent as it were of the bowels. </p>
+        <div>
+          <head rend="align center space"><lb/>METHOD OF CURE. </head>
+          <p rend="indent"><lb/>BLEED firſt, then give the following vomit; half a drachm of powder
+            of Ipecacoanha, work it off with Chamomile tea, repeat this vomit every other day, for
+            three or four times. On the <w part="I">inter-</w><lb/><w part="F">medite</w> days
+            between each vomit, let the ſick <w part="I">per-</w><lb/><w part="F">ſon</w> take a
+            large ſpoonful of the following <w part="I">muci-</w><lb/><w part="F">lage</w>, warm,
+            every hour: Diſſolve half an ounce of Gum Arabic, and half an ounce of Gum <w part="I"
+              >Traga-</w><lb/><w part="F">canth</w>, in a pint of barley water, over a gentle fire.
+            Cliſters made of fat mutton broth are of great ſervice, the ſick perſon muſt abſtain,
+            from malt and ſpirituous liquors. </p>
+          <signed>MEAD. </signed>
+        </div>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>BOILS. </head>
+        <p rend="indent"><lb/>APPLY a plaiſter of Diachylon with the gums, once every day till they
+          are cured. </p>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>BRUISES, Internal. </head>
+        <p rend="indent"><lb/>TAKE a large ſpoonful of cold drawn Linſeed oil, two or three times in
+          a day. The patient muſt alſo be blooded to the quantity of eight or ten ounces. </p>
+        <signed>SYDENHAM. </signed>
+      </div>
+      <div>
+        <pb xml:id="page_14" n="7"/>
+        <head rend="align center space"><lb/>BRUISES, External. </head>
+        <p rend="indent"><lb/>BATHE the part with a little ſpirits of wine and Camphire, which in
+          ſlight caſes will effect a cure, but if that fails it will be neceſſary to apply a pultice
+          of ſtale beer grounds, and oatmeal, with a little Hog's lard, which muſt be applied freſh
+          every day till the bruiſe is entirely cured. </p>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>BURNS AND SCALDS. </head>
+        <p rend="indent"><lb/>TAKE May butter unſalted, and white wax, of each ſix ounces, oil of
+          Olives half a pint, Lapis Calaminaris one ounce and an half; melt the wax and butter with
+          the oil, and ſtir in the Lapis <w part="I">Ca-</w><lb/><w part="F">laminaris</w> finely
+          powdered, till it is too hard to let it ſettle. This is an excellent ointment for the
+          above purpoſes, and is to be applied once a day ſpread on a fine linnen rag. </p>
+        <signed>TURNER. </signed>
+      </div>
+      <div>
+        <head rend="align center space"><lb/><hi rend="italic">CANCER.</hi> Signs of. </head>
+        <p rend="indent"><lb/>Begins at firſt with a ſmall Tumour, about the ſize of a nut, which
+          does not change the colour of the skin, and ſometimes remains for ſeveral years without
+          encreaſing. But as ſoon as the virulent humour becomes more active, the ſmall hard
+          ſwelling becomes all of a ſudden a large, round, livid, unequal Tumour, and is attended
+          with an intenſe ſhooting pain, at length it breaks, and turns into a ſharp ſtinking
+          ſanies, which eating away the ſound parts, the lips of the wound <w part="I"
+            >be-</w><lb/><w part="F">come</w> offenſive to the ſight, and the patient being worn out
+          with intolerable pain, at laſt enſues death. <pb xml:id="page_15" n="8"/>This diſorder may
+          infect any part of the body, but moſt frequently the breaſts, armpits, behind the ears,
+          the lips, noſe, and private parts. </p>
+        <div>
+          <head rend="align center space"><lb/>METHOD OF CURE. </head>
+          <p rend="indent"><lb/>BOIL a quarter of a pound of Guaicum <w part="I">ſha-</w><lb/><w
+              part="F">vings</w> in ſix pints of water, till it comes to four pints, drink a pint of
+            this decoction twice a day, milk warm. External applications moſt proper, are pultices
+            of white bread and milk, and <w part="I">fomen-</w><lb/><w part="F">tations</w> of milk
+            and water, and the cancer ſhould be defended from the cold air, by a piece of fine
+            linnen, on which a little of the Sperma Ceti <w part="I">oint-</w><lb/><w part="F"
+              >ment</w> (the compoſition of which you will ſee in the appendix) is ſpread, and
+            ſhould be renewed two or three times in a day. </p>
+          <signed>Dr. LOVE of Greenock. </signed>
+        </div>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>CHOLICK. </head>
+        <p rend="indent"><lb/>TAKE two ounces of Daffy's Elixir, and <w part="I">re-</w><lb/><w
+            part="F">peat</w> it as occaſion may require, or half a drachm of power of Rhubarb
+          toaſted a little before the fire. </p>
+        <signed>QUINCEY. </signed>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>COLDS. </head>
+        <p rend="indent"><lb/>COLDS, may be cured by lying much in bed, by drinking plentifully of
+          warm Sack whey, with a few drops of ſpirits of Hartſhorn in it, or any other warm ſmall
+          liquor; living upon puddings, ſpoon meats, chickens, <hi rend="italic">&amp;c.</hi> and
+          drinking every thing warm. In ſhort, it muſt at firſt be treated as a ſmall fever, with
+          gentle Diaphoretics, ſuch as half a drachm of the compound powder of <w part="I"
+            >Con-</w><lb/><w part="F">trayerva</w>, taken night and morning, or half an ounce of
+          Mindererus's ſpirit, may be given every night going to reſt, drinking a plentiful draught
+            <pb xml:id="page_16" n="9"/>of weak Sack Whey after it. If any cough ſhould remain,
+          after uſing this method a few days, the medicines directed under the article of <hi
+            rend="italic">Coughs,</hi> muſt be taken, </p>
+        <p rend="indent"><lb/>This is a much more eaſy, natural and certain method, than the common
+          practice by Balſamics, Linctuſs's, and the like, which ſpoil the ſtomach, deſtroy the
+          appetite, and hurt the conſtitution. </p>
+        <signed>Dr. CHEYNE. </signed>
+      </div>
+      <div>
+        <head rend="align center space"><lb/><hi rend="italic">CONSUMPTION.</hi> Signs of. </head>
+        <p rend="indent"><lb/>A dry cough, a diſpoſition to vomit after eating, an uneaſy ſtraitneſs
+          of the breaſt, ſpitting of blood, a quickneſs of the pulſe after meals, and fluſhing of
+          the cheeks; as the diſeaſe advances, the matter brought up by the cough, if ſpit into the
+          fire yields an offenſive ſmell, if into a glaſs of water it ſinks to the bottom, profuſe
+          night ſweats, <w part="I">looſe-</w><lb/><w part="F">ness</w>, and waſting away of the
+          whole body. </p>
+        <div>
+          <head rend="align center space"><lb/>METHOD OF CURE. </head>
+          <p rend="indent"><lb/>A milk diet, riding on horſeback, country air, and bleeding
+            frequently in ſmall quantities, at each time taking away not more than ſix ounces of
+            blood, are the moſt efficacious remedies in this diſtemper; ſnails boiled in milk have
+            ſometimes been of ſervice, as is alſo the Peruvian bark, when it does not occaſion a
+            purging. </p>
+          <signed>SYDENHAM, BOERHAAVE, and PRINGLE. </signed>
+        </div>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>CONVULSIONS in Children. <hi rend="italic">Signs
+            of.</hi>
+        </head>
+        <p rend="indent"><lb/>The mouth is drawn awry, the eyes are <w part="I">diſtort-</w><lb/><w
+            part="F">ed</w>, and the face turns blackiſh, the child's fiſt is <pb xml:id="page_17"
+            n="16"/>clenched, and the globes of the eyes ſeem <w part="I">im-</w><lb/><w part="F"
+            >moveable</w>; when theſe ſymptoms give way, the child is ſleepy till another fit comes
+          on. </p>
+        <div>
+          <head rend="align center space"><lb/>METHOD OF CURE. </head>
+          <p rend="indent"><lb/>GIVE three or four drops of the tincture of Wood ſoot in a
+            tea-ſpoonful of water frequently. A bliſter applied to the nape of the neck is alſo
+            ſerviceable. </p>
+          <signed>SYDENHAM. </signed>
+        </div>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>CORNS. </head>
+        <p rend="indent"><lb/>After ſoaking them for a conſiderable time in warm water, pare away
+          carefully with a penknife the uppermoſt and hardeſt ſurface, then apply a plaiſter of
+          Green wax, or Diachylon with the Gums ſpread on thin Leather; repeat this method (which is
+          perfectly ſafe) a few times, and it will ſeldom fail to extirpate them entirely. </p>
+        <signed>HEISTER. </signed>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>COSTIVENESS. </head>
+        <p rend="indent"><lb/>TAKE the ſize of a nutmeg of Lenitive Electuary every morning, or as
+          often as occaſion requires. </p>
+        <signed>SHAW. </signed>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>COUGH. </head>
+        <p rend="indent"><lb/>TAKE oil of ſweet Almonds and ſyrup of <w part="I">Bal-</w><lb/><w
+            part="F">fam</w>, of each two ounces, four ounces of Barley water, and thirty drops of
+          ſpirits of Sal Volatile; ſhake them well together, and take two larger ſpoonfuls when the
+          cough is troubleſome: If this medicine does not remove the cough in a few days, it will be
+          abſolutely neceſſary to be blooded. </p>
+        <signed>PRINGLE. </signed>
+      </div>
+      <div>
+        <pb xml:id="page_18" n="11"/>
+        <head rend="align center space"><lb/>DECAYS, ſee CONSUMPTIONS. </head>
+        <p rend="indent"><lb/>  </p>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>DEAFNESS. </head>
+        <p rend="indent"><lb/>SYRINGE the ears well with ſome warm milk and oil, then take a quarter
+          of an ounce of liquid Opodeldoch, and as much oil of Almonds, mix them well, and drop a
+          few drops into each ear, ſtopping them with a little cotton or wool; <w part="I"
+            >re-</w><lb/><w part="F">pear</w> this every night going to reſt. </p>
+        <signed>FOTHERGILL. </signed>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>DELIVERY, to promote. </head>
+        <p rend="indent"><lb/>DIVIDE one grain of purified Opium into two pills, to be taken one ſix
+          hours after the other. </p>
+        <signed>MEAD. </signed>
+      </div>
+      <div>
+        <head rend="align center space"><lb/><hi rend="italic">DIABETES.</hi> Signs of. </head>
+        <p rend="indent"><lb/>Is an exceſſive diſcharge of urine, of the taſte, ſmell, and colour of
+          honey, attended with an <w part="I">in-</w><lb/><w part="F">tenſe</w> thirſt, and a
+          waſting away of the whole body. </p>
+        <div>
+          <head rend="align center space"><lb/>METHOD OF CURE. </head>
+          <p rend="indent"><lb/>TAKE of the ſhavings of Saſſafras two ounces, Guaicum one ounce,
+            Liquorice root three ounces, Coriander ſeeds, bruiſed, ſix drachms; infuſe them cold, in
+            one gallon of Lime-water for two or three days, the Doſe is half a pint three or four
+            times in a day. Or four ounces of Alum Whey, (which is prepared by boiling four pints of
+            milk over a ſlow fire, with three drachms of Alum, till it is turned into Whey) may be
+            taken three times in a day. </p>
+          <signed>MEAD. </signed>
+        </div>
+        <div type="part">
+          <pb xml:id="page_19" n="12"/>
+          <p rend="indent"><lb/>N.B. Lime water is made by pouring twelve points of boiling water on
+            a pound of unſlacked lime; when it is cold it is fit for uſe. </p>
+        </div>
+      </div>
+      <div>
+        <head rend="align center space"><lb/><hi rend="italic">DROPSY.</hi> Signs of. </head>
+        <p rend="indent"><lb/>Difficulty of breathing, making very ſmall <w part="I"
+            >quan-</w><lb/><w part="F">tities</w> of urine, coſtiveneſs, great thirſt, ſwelling of
+          the feet and ancles, which when preſt with the fingers will pit; ſwelling of the belly,
+          and falling away of the other parts. </p>
+        <div>
+          <head rend="align center space"><lb/>METHOD OF CURE. </head>
+          <p rend="indent"><lb/>TAKE powder of Jalap, cream of Tartar and Florentine Iris, of each a
+            quarter of an ounce, mix them: the doſe is from thirty to forty grains every other day.
+            On the intermediate days take the quantity of a large nutmeg, every night and morning,
+            of the following electuary: Take two drachms of powder'd Chamomile flowers, as much
+            Ginger, and half the quantity of prepared Steel, make it into an electuary with two
+            ounces of <w part="I">Con-</w><lb/><w part="F">ſerve</w> of Orange Peels. Diuretics
+            ſhould alſo be made uſe of; the following is excellent: Take Broom aſhes half a pound,
+            and ſteep them in a quart of Rheniſh Wine cold, ſtrain off the liquor, and take a
+            quarter of a pint, three times in a day. </p>
+          <signed>Dr. DOVER. </signed>
+        </div>
+        <div>
+          <head rend="align center space"><lb/>Dry BELLY-ACH, or Nervous Cholic. <hi rend="italic"
+              >Signs of.</hi>
+          </head>
+          <p rend="indent"><lb/>Extreme coſtiveneſs, a moſt violent pain in the bowels, coldneſs of
+            the hands and feet, trembling, extreme anxiety, and a diſpoſition to fainting, which is
+            frequently ſucceeded by the palſy. </p>
+          <pb xml:id="page_20" n="13"/>
+          <div>
+            <head rend="align center space"><lb/>METHOD OF CURE. </head>
+            <p rend="indent"><lb/>GIVE frequently the following clyſter; take dry'd Mallow leaves an
+              ounce, Chamomile flowers, and ſweet Fennel ſeeds, of each half an ounce; water a pint;
+              boil it for uſe. Take half a pint of this decoction and add two ſpoonfuls of ſweet
+              oil, and half an ounce of Epſom ſalt, mix it for a clyſter to be repeated frequently.
+              The warm bath is of the utmoſt ſervice in this diſorder, as is alſo Balſam of Peru
+              given inwardly from twenty to forty drops in a ſpoonful of powdered loaf ſugar, three
+              or four times in a day. </p>
+          </div>
+          <signed>RIVERIUS, and SYDENHAM. </signed>
+        </div>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>EAR-ACH. </head>
+        <p rend="indent"><lb/>THE ſmoke of Tobacco blown into the ear is excellent. </p>
+        <signed>HOFFMAN. </signed>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>EXCORIATIONS in Children. </head>
+        <p rend="indent"><lb/>DISSOLVE a little white Vitriol in ſpring water, and dab the part with
+          it, which will heal preſently. </p>
+        <signed>HEISTER. </signed>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>DISORDERS of the eyes. </head>
+        <p rend="indent"><lb/>AN excellent Eye-water. Take two grains of ſugar of Lead, diſſolve it
+          in a quarter of a pint of ſpring water. </p>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>An OINTMENT for the Eyes. </head>
+        <p rend="indent"><lb/>DIP a feather in a little ointment of Tutty, and gently rub it acroſs
+          the eyes every night going to ſleep. </p>
+        <signed>TURNER. </signed>
+      </div>
+      <div>
+        <pb xml:id="page_21" n="14"/>
+        <head rend="align center space"><lb/>FAINTING. </head>
+        <p rend="indent"><lb/>APPLY to the noſtrils and temples ſome ſpirits of Sal Armoniac, and
+          give a few drops in a wine glaſs of water inwardly. </p>
+        <signed>HOFFMAH. </signed>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>FALLING SICKNESS. <hi rend="italic">Signs of.</hi>
+        </head>
+        <p rend="indent"><lb/>A wearineſs of the whole body, an heavy pain of the head, unquiet
+          ſleep, dimneſs of ſight, a noiſe in the ears, a violent palpitation of the heart, a
+          coldneſs of the joints, and a ſenſe as it were, of a cold air aſcending from the extreme
+          parts to the heart and brain, then they fall ſuddenly on the ground, the thumbs are ſhut
+          up cloſe in the palms of the hands, the eyes are diſtorted and all <w part="I"
+            >ſenſa-</w><lb/><w part="F">tion</w> is loſt, ſo that by no noiſe, nor even by <w
+            part="I">pinch-</w><lb/><w part="F">ing</w> the body, can they be brought to themſelves:
+          they alſo froth at the mouth. </p>
+        <div>
+          <head rend="align center space"><lb/>METHOD OF CURE. </head>
+          <p rend="indent"><lb/>TAKE of Peruvian bark powder'd one ounce, of wild Valerian root half
+            an ounce, of ſyrup of Orange-peel a ſufficient quantity, make an <w part="I"
+              >electu-</w><lb/><w part="F">ary</w> of this, and let the patint take the quantity of
+            a nutmeg, (after proper evacuations, ſuch as <w part="I">bleed-</w><lb/><w part="F"
+              >ing</w> and purging) morning and evening, for three months together, and then repeat
+            it three for our days before the new and full moon. </p>
+          <signed>MEAD. </signed>
+        </div>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>FEVERS Inflammatory. <hi rend="italic">Signs of.</hi>
+        </head>
+        <p rend="indent"><lb/>The breath is very hot, and there is a dryneſs of the whole skin, and
+          ſenſe of heat, the <w part="I">reſpira-</w><lb/><w part="F">tion</w> is thick, difficult
+          and quick, the tongue is <pb xml:id="page_22" n="15"/>dry, yellow, parched and rough, the
+          thirſt is <w part="I">un-</w><lb/><w part="F">quenchable</w>, a vaſt anxiety, reſtleſneſs,
+          and <w part="I">wea-</w><lb/><w part="F">riness</w>, frequent inclinations to vomit, and
+            <w part="I">ſome-</w><lb/><w part="F">times</w> lightheadineſs and convulſions. </p>
+        <div>
+          <head rend="align center space"><lb/>METHOD OF CURE. </head>
+          <p rend="indent"><lb/>BLEED to the amount of ten or twelve ounces, vomit with half a
+            drachm of Ipecacoanha, work it off with Chamomile tea; if coſtive, inject as often as
+            occaſion requires, the clyſter directed under the article of the <hi rend="italic"
+              >Dry-Belly-Ach,</hi> and give inwardly the following mixture. Take of ſalt of Wormwood
+            half a drachm, Lemon-juice three quarters of an ounce, ſalt of Prunella ten grains,
+            ſpring water one ounce; mix them together for one doſe, and repeat it every ſix hours. </p>
+          <signed>HUXHAM. </signed>
+        </div>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>NERVOUS FEVERS. <hi rend="italic">Signs of.</hi>
+        </head>
+        <p rend="indent"><lb/>Slight chillineſſes often in a day, with <w part="I">uncer-</w><lb/><w
+            part="F">tain</w> fluſhes of heat, a vaſt dejection and anxiety of the ſpirits, a
+          giddineſs and pain of the head, an inclination to yawn and doze, a dryneſs of the lips and
+          tongue without any conſiderable thirſt, the countenance heavy, pale and dejected, <w
+            part="I">fre-</w><lb/><w part="F">quent</w> ſick fits, the urine is pale and made often
+          and ſuddenly, the pulſe is low, quick and unequal. </p>
+        <div>
+          <head rend="align center space"><lb/>METHOD OF CURE. </head>
+          <p rend="indent"><lb/>A Vomit is neceſſary when the ſickneſs and load of the ſtomach is
+            urgent; if the body is coſtive, clyſters of milk, ſugar and ſalt, may be injected every
+            ſecond or third day. Bliſters muſt be <w part="I">ap-</w><lb/><w part="F">plied</w> to
+            the nape of the neck, head and legs, the ſick perſon muſt be kept quiet in body and
+            mind, opiates are commonly hurtful; a little wine may be allowed, and thin wine whey is
+            proper for <w part="I">com-</w><lb/><w part="F">mon</w> drink. Give the following
+            draught every <pb xml:id="page_23" n="16"/>ſix hours: Take ſalt of hartſhorn ten grains,
+              <w part="I">Le-</w><lb/><w part="F">mon-juice</w> half an ounce, ſimple Mint-water one
+            ounce and an half, compound ſpirits of Lavender and ſyrup of Saffron of each one drachm
+            and an half, mix them together for one doſe. </p>
+          <signed>HUXHAM. </signed>
+        </div>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>PUTRID OR SPOTTED FEVERS. <hi rend="italic">Signs
+            of.</hi>
+        </head>
+        <p rend="indent"><lb/>The head aches and is hot, dull, and attended with a dejection of mind
+          from the very beginning, a conſtant watchfulneſs, the countenance is <w part="I"
+            >deject-</w><lb/><w part="F">ed</w>, the pulſe is languid, ſmall and low. A pain in the
+          back and loins, a great load at the pit of the ſtomach, a perpetual vomiting of black
+          bile: the thirſt is commonly very great, and all drinks ſeem bitter and maukiſh: the
+          tongue at the <w part="I">be-</w><lb/><w part="F">ginning</w> is white, but grows daily
+          more dark and dry, with a kind of dark bubble on the top, and livid or brown ſpots appear
+          over the whole ſurface of the skin. </p>
+        <div>
+          <head rend="align center space"><lb/>METHOD OF CURE. </head>
+          <p rend="indent"><lb/>GENTLE Vomits are neceſſary in the <w part="I">be-</w><lb/><w
+              part="F">ginning</w>, and if the body is too coſtive, a clyſter of milk, ſugar and
+            ſalt, may be given as often as occaſion requires; wine diluted with water, and
+            acidulated with the juice of Seville oranges, may be uſed for common drink, and the
+            following has been found of greater efficacy in this diſorder than any other medicine. </p>
+          <p rend="indent"><lb/>Boil three drachms of Peruvian bark in powder, and three drachms of
+            Virginia ſnake-root in powder, in a pint of water, till half a pint is boiled a way,
+            then add a quarter of a pint of good Red Port wine; the dole is a tea cup full every
+            three or four hours. </p>
+          <signed>Dr. PRINGLE. </signed>
+        </div>
+      </div>
+      <div>
+        <pb xml:id="page_24" n="17"/>
+        <head rend="align center space"><lb/>FISTULA. </head>
+        <p rend="indent"><lb/>TAKE a quarter of a pound of Elecampane root, three quarters of a
+          pound of Fennel ſeeds, and a quarter of a pound of Black Pepper, pound theſe ſeparately
+          and ſift them through a fine ſieve; take half a pound of Honey, and half a pound of powder
+          Sugar, melt the honey and the ſugar <w part="I">to-</w><lb/><w part="F">gether</w> over
+          the fire, ſcumming them continually till they become bright as amber, when they are cool
+          mix and knead them into your powder, in the form of a ſoft paſte. The doſe is the ſize of
+          a nutmeg, morning, noon, and night, drinking a glaſs of wine or water after it. </p>
+        <p rend="indent"><lb/>This is Dr. WARD'S receipt for curing Fiſtula's. </p>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>GIDDINESS. </head>
+        <p rend="indent"><lb/>TAKE twenty drops of tincture of Caſtor in a glaſs of water two or
+          three times in a day; or from a ſcruple to a drachm of powder of Valerian root, three or
+          four times in a day. </p>
+        <signed>MEAD. </signed>
+      </div>
+      <div>
+        <head rend="align center space"><lb/><hi rend="italic">GOUT.</hi> Signs of. </head>
+        <p rend="indent"><lb/>A pain reſembling that of a diſlocated bone, ſucceeded by a chilneſs,
+          ſhivering and ſlight fever, uſually ſeizes the great toe, heel, the calf of the leg or
+          ancle, which become ſo exquiſitely painful as not to endure even the weight of the bed
+          cloaths; the part looks red and is very much ſwelled; the urine is high coloured, and lets
+          fall a kind of red gravelly ſediment. </p>
+        <div>
+          <pb xml:id="page_25" n="18"/>
+          <head rend="align center space"><lb/>METHOD OF CURE. </head>
+          <p rend="indent"><lb/>TAKE a tea-ſpoonful of Volatile tincture of Guaiacum every night
+            going to reſt, in a glaſs of water: be covered warm, and drink plentifully of weak ſack
+            whey. In the Intervals of the fits, exerciſe, ſuch as walking, and riding, is abſolutely
+            neceſſary to prevent a return, and the duke of Portland's Gout powder, the receipt of
+            which we have given in our Appendix, ſhould be taken <w part="I">ac-</w><lb/><w part="F"
+              >cording</w> to the directions annexed thereto. </p>
+          <signed>Dr. CHEYNE. </signed>
+        </div>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>GRAVEL AND STONE. <hi rend="italic">Signs of.</hi>
+        </head>
+        <p rend="indent"><lb/>A pain in the loins, bloody urine, a numbneſs of the thigh or leg on
+          the ſide affected, a ſickneſs at the ſtomach, and frequent vomitings. </p>
+        <div>
+          <head rend="align center space"><lb/>METHOD OF CURE. </head>
+          <p rend="indent"><lb/>TAKE one pound of calcined oyſter ſhells, and pour thereon twelve
+            pints of boiling water, ſtrain it when cold, and take half a pint mixed with a little
+            new milk three times in a day, <w part="I">gra-</w><lb/><w part="F">dually</w>
+            increaſing the quantity, till it amounts to four pints a day. If the Patient is coſtive,
+            two ounces of Manna diſſolved in a quart of whey, ſhould be taken for one doſe, once or
+            twice every week. </p>
+          <signed>Dr. WHYTT, and SYDENHAM. </signed>
+        </div>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>GREEN SICKNESS. <hi rend="italic">Signs of.</hi>
+        </head>
+        <p rend="indent"><lb/>A pale complexion, ſwelling of the ancles, <w part="I">wea-</w><lb/><w
+            part="F">riness</w> of the whole body, difficulty of breathing, a palpitation of the
+          heart, drowſineſs, a deſire of eating coals, chalk, &amp;c. and a ſuppreſſion of the
+          monthly courſes. </p>
+        <div>
+          <pb xml:id="page_26" n="19"/>
+          <head rend="align center space"><lb/>METHOD OF CURE. </head>
+          <p rend="indent"><lb/>TAKE thirty drops of the tincture of Black Hellebore, two or three
+            times in a day, in a glaſs of water or wine, uſing moderate exerciſe. <w part="I"
+              >Cha-</w><lb/><w part="F">lybeate</w> Waters are alſo of ſervice, and bleeding in the
+            foot about the time of menſtruation. </p>
+          <signed>MEAD. </signed>
+        </div>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>GRIPES. </head>
+        <p rend="indent"><lb/>TAKE half a drachm of powdered Rhubarb, and toaſt it a little before
+          the fire, then add a little powder of Ginger to it, and mix it for one doſe, to be
+          repeated as occaſion requires. </p>
+        <signed>RADCLIFFE. </signed>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>HEAD-ACH. </head>
+        <p rend="indent"><lb/>APPLY Leeches behind the ears, and take twenty drops of tincture of
+          Caſtor in a glaſs of <w part="I">wa-</w><lb/><w part="F">ter</w> frequently. </p>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>HEART-BURN. </head>
+        <p rend="indent"><lb/>TAKE a little chalk ſcraped in a glaſs of water, or a tea-cup full of
+          Chamomile tea. </p>
+        <signed>HOFFMAN. </signed>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>HOARSENESS. </head>
+        <p rend="indent"><lb/>TAKE the medicines directed under the article of <hi rend="italic"
+            >Coughs,</hi> or as much as will lie on a ſhilling of the following powder, three or
+          four times in a day: take Sperma Ceti and Sugar-candy, of each equal parts, and make them
+          into a fine powder, or a tea-ſpoonful of Barbados Tar in a glaſs of old Rum, every night
+          going to reſt. Three or four <pb xml:id="page_27" n="20"/>Wellfleet oyſters ſwallowed
+          early in the morning faſting, afford ſurpriſing relief in this complaint. </p>
+        <signed>SHAW. </signed>
+      </div>
+      <div>
+        <head rend="align center space"><lb/><hi rend="italic">HYSTERICS.</hi> Signs of. </head>
+        <p rend="indent"><lb/>An intercepted breathing, almoſt to ſuffocation, fainting, loſs of
+          ſpeech, great drowſineſs, <w part="I">exceed-</w><lb/><w part="F">ing</w> coſtiveneſs, and
+          making large quantities of urine, almoſt as clear as water. </p>
+        <div>
+          <head rend="align center space"><lb/>METHOD OF CURE. </head>
+          <p rend="indent"><lb/>TAKE Simple Pepper Mint water, twelve ounces, one ounce of powdered
+            Valerian, and half an ounce of Lavender drops, mix them together, and take three large
+            ſpoonfuls two or three times in a day, and alſo apply to the navel a large <w part="I"
+              >Gal-</w><lb/><w part="F">banum</w> plaiſter. </p>
+          <signed>HOFFMAN, and MEAD. </signed>
+        </div>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>Hard SWELLINGS. </head>
+        <p rend="indent"><lb/>APPLY a Plaiſter of Diachylon with the gums, ſpread thick on leather. </p>
+        <signed>PAREY. </signed>
+      </div>
+      <div>
+        <head rend="align center space"><lb/><hi rend="italic">HIP-GOUT.</hi> Signs of. </head>
+        <p rend="indent"><lb/>A violent pain in the joint of the thigh, and lower part of the loins,
+          which ſometimes reaches to the leg, and even the extremity of the foot, without any
+          ſwelling or change of colour of the skin. </p>
+        <div>
+          <head rend="align center space"><lb/>METHOD OF CURE. </head>
+          <p rend="indent"><lb/>TAKE a drachm of aetherial oil of Turpentine, with three times as
+            much honey mixt with it, every <pb xml:id="page_28" n="21"/>morning, for ſix or ſeven
+            days at fartheſt, drinking plentifully of warm Sack whey after it. </p>
+          <signed>CHEYNE. </signed>
+        </div>
+      </div>
+      <div>
+        <head rend="align center space"><lb/><hi rend="italic">JAUNDICE.</hi> Signs of. </head>
+        <p rend="indent"><lb/>A yellowiſhneſs of the whites of the eyes, and of the whole body,
+          bitterneſs of the tongue, <w part="I">hea-</w><lb/><w part="F">viness</w>, and laſſitude,
+          vomiting of gall, the ſtools almoſt white, and the urine of a Saffron colour, tinging
+          linen dipt therein yellow. </p>
+        <div>
+          <head rend="align center space"><lb/>METHOD OF CURE. </head>
+          <p rend="indent"><lb/>TAKE Venice ſoap half an ounce, oil of <w part="I">Anni-</w><lb/><w
+              part="F">ſeeds</w> ſixteen drops, mix them well together, and make it into middle
+            ſized pills. The doſe is three or four, two or three times in a day; if coſtive, half a
+            drachm of Rhubarb muſt be taken in the morning twice in a week. </p>
+          <signed>HUXHAM. </signed>
+        </div>
+      </div>
+      <div>
+        <head rend="align center space"><lb/><hi rend="italic">INDIGESTION.</hi> Signs of. </head>
+        <p rend="indent"><lb/>Pain, and ſenſe of weight in the ſtomach, <w part="I">at-</w><lb/><w
+            part="F">tended</w> with frequent belchings, heartburn, &amp;c. </p>
+        <div>
+          <head rend="align center space"><lb/>METHOD OF CURE. </head>
+          <p rend="indent"><lb/>TAKE a large ſpoonful of tincture of Hiera Picra every day, an hour
+            before dinner; or from ten to twenty drops of Acid Elixir of Vitriol, in a glaſs of
+            water, two or three times in a day. <w part="I">Pyr-</w><lb/><w part="F">mont</w>, and
+            Spaw waters are alſo very efficacious in removing this complaint. </p>
+          <signed>CHEYNE, and HEISTER. </signed>
+        </div>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>INFLAMMATIONS. </head>
+        <p rend="indent"><lb/>TAKE away ten or twelve ounces of blood, and repeat it if neceſſary;
+          give cooling purges, <pb xml:id="page_29" n="22"/>and apply to the part a pultice of bread
+          and milk, with ſome ointment of Elder in it. </p>
+        <signed>SHARP. </signed>
+      </div>
+      <div>
+        <head rend="align center space"><lb/><hi rend="italic">ITCH.</hi> Signs of. </head>
+        <p rend="indent"><lb/>Watery pimples, attended with intollerable <w part="I"
+            >itch-</w><lb/><w part="F">ing</w>, between the fingers, under the hams, on the arms,
+          and on the thighs. </p>
+        <div>
+          <head rend="align center space"><lb/>METHOD OF CURE. </head>
+          <p rend="indent"><lb/>ANOINT the parts which break out every night with the following
+            ointment: take Hog's lard half a pound, flower of Brimſtone and <w part="I"
+              >Sul-</w><lb/><w part="F">phur</w> Vivum, of each two ounces, powdered cloves one
+            ounce, mix them together: two or three weeks is as little time as can be depended upon,
+            and the ſame linen muſt be wore the whole time. This is a never failing remedy. </p>
+        </div>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>INFLAMMATION of the BOWELS. <hi rend="italic">Signs
+            of.</hi>
+        </head>
+        <p rend="indent"><lb/>A burning pain in the belly, attended with a fever, vomiting, and
+          frequently an obſtinate <w part="I">coſt-</w><lb/><w part="F">iveness</w>. </p>
+        <div>
+          <head rend="align center space"><lb/>METHOD OF CURE. </head>
+          <p rend="indent"><lb/>TAKE away ten ounces of blood, and repeat the bleeding according to
+            the urgency of the <w part="I">com-</w><lb/><w part="F">plaint</w>, give the clyſter
+            directed in our Appendix, twice every day, till the patient has had two or three ſtools,
+            and to appeaſe the pain, and ſtop the exceſſive vomiting, give ten drops of liquid <w
+              part="I">Lau-</w><lb/><w part="F">danum</w>, in a little broth every ſix hours. The
+            diet ſhould conſiſt entirely of weak broths. </p>
+          <pb xml:id="page_30" n="23"/>
+          <p rend="indent"><lb/>Juice of Lemons taken inwardly in obſtinate caſes, has ſometimes
+            afforded ſurpriſing relief. </p>
+          <signed>ARBUTHNOT. </signed>
+        </div>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>INTERMITTING FEVER, ſee AGUE. </head>
+        <p rend="indent"><lb/>  </p>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>KING's EVIL. <hi rend="italic">Signs of.</hi>
+        </head>
+        <p rend="indent"><lb/>Hard ſwellings in the neck, armpits, and groin, and Tumours on the
+          joints and fingers, attended with a ſwelling, and a rottenneſs of the bones, ſoreneſs of
+          the eye lids. In ſhort there is no part of the human body which may not be affected with
+          tumours, abſceſſes, or ulcers, by this diſeaſe. </p>
+        <div>
+          <head rend="align center space"><lb/>METHOD OF CURE. </head>
+          <p rend="indent"><lb/>TAKE a ſcruple of burnt Sponge, and four grains of Rhubarb, mix them
+            together for one doſe, which is to be taken every night and <w part="I">morn-</w><lb/><w
+              part="F">ing</w>, with a draught of whey. Drinking ſea water is very efficacious in
+            curing this diſeaſe. </p>
+          <signed>Sir EDWARD HULSE. </signed>
+        </div>
+      </div>
+      <div>
+        <head rend="align center space"><lb/><hi rend="italic">LEPROSY.</hi> Signs of. </head>
+        <p rend="indent"><lb/>Red pimples, or poſtules, commonly firſt break out in the elbows and
+          knees, which gradually <w part="I">in-</w><lb/><w part="F">creaſe</w> in ſuch a manner,
+          that the whole body is covered with a leprous ſcurf. </p>
+        <div>
+          <head rend="align center space"><lb/>METHOD OF CURE. </head>
+          <p rend="indent"><lb/>TAKE ſharp pointed Dock roots half a pound, Monks Rhubarb a quarter
+            of a pound, Stick <w part="I">Li-</w><lb/><w part="F">quorice</w> and Coriander ſeeds,
+            of each half an ounce, <pb xml:id="page_31" n="24"/>boil them in a gallon of ſpring
+            water till it comes to three quarts, and to the ſtrained liquor add two ounces of
+            Diaphoretic Antimony. The doſe is a pint every morning and evening. </p>
+          <signed>BANYER. </signed>
+        </div>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>LETHARGY, ſee APOPLEXY. </head>
+        <p rend="indent"><lb/>  </p>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>LOOSENESS. </head>
+        <p rend="indent"><lb/>TAKE half a drachm of Ipecacoanha for a vomit; and work it off with
+          Chamomile tea. <w part="I">Ab-</w><lb/><w part="F">ſtain</w> from malt liquors. If this
+          does not entirely remove the looſeneſs, take half a drachm of powder of Rhubarb, made into
+          a bolus, with a little Diaſcordium, and repeat it every day till the looſeneſs is entirely
+          ſtopped. </p>
+        <p rend="indent"><lb/>For common drink the ſick perſon may take Hartſhorn drink, or Rice
+          boiled in water with a little cinnamon. </p>
+        <signed>TOWNE. </signed>
+      </div>
+      <div>
+        <head rend="align center space"><lb/><hi rend="italic">MADNESS.</hi> Signs of. </head>
+        <p rend="indent"><lb/>A redneſs of the eyes, grinding of thee teeth, ſtrange malice to
+          particular perſons, want of ſleep, ſinging in the ears, incredible ſtrength, <w part="I"
+            >inſenſibi-</w><lb/><w part="F">lity</w> of cold, and an exc<unclear>#</unclear>ſſive
+          rage when provoked to anger. </p>
+        <div>
+          <head rend="align center space"><lb/>METHOD OF CURE. </head>
+          <p rend="indent"><lb/>BLEEDING is uſeful in this diſorder, and take forty drops of
+            tincture of black Hellebore in a glaſs of water, two or three times in a day; or half a
+            drachm of Camphor may be taken every right going to reſt. </p>
+          <signed>MEAD, and KINNEIR. </signed>
+        </div>
+      </div>
+      <div>
+        <pb xml:id="page_32" n="25"/>
+        <head rend="align center space"><lb/><hi rend="italic">MEASLES.</hi> Signs of. </head>
+        <p rend="indent"><lb/>A chilneſs and ſhivering, which is ſucceeded by a fever, accompanied
+          with great ſickneſs, thirſt, a continual drowſineſs, ſlight cough, and an <w part="I"
+            >effu-</w><lb/><w part="F">ſion</w> of tears, which is the moſt certain ſign of the
+          Meaſles. About the 4th day little red ſpots like flea bites appear over the whole body,
+          which do not riſe above the ſurface of the skin. </p>
+        <div>
+          <head rend="align center space"><lb/>METHOD OF CURE. </head>
+          <p rend="indent"><lb/>FIRST, bleed the ſick perſon, then let him or her drink plentifully
+            of the following decoction: take Pearl Barley, Raiſins and Figs, of each two ounces,
+            ſtick Liquorice bruiſed half an ounce, boil them in four quarts of water till it comes
+            to two quarts, ſtrain it for uſe, and add a quarter of an ounce of ſalt Prunella. You
+            muſt purge often after this diſorder, and the diet and management muſt be the ſame as in
+            the Small-pox. </p>
+          <signed>SYDENHAM. </signed>
+        </div>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>MENSTRUAL DISCHARGE, Exceſſive. <hi rend="italic">Signs
+            of.</hi>
+        </head>
+        <p rend="indent"><lb/>Loſs of ſtrength and appetite, bad habit of body, ſallow complexion,
+          and ſwelling of the feet. </p>
+        <div>
+          <head rend="align center space"><lb/>METHOD OF CURE. </head>
+          <p rend="indent"><lb/>BLEED according to the ſtrength of the <w part="I">pa-</w><lb/><w
+              part="F">tient</w>, and give thirty grains of the following <w part="I"
+              >pow-</w><lb/><w part="F">der</w> in a glaſs of red Wine three times in a day: Take
+            three quarters of an ounce of Roch Alum, and a quarter of an ounce of Dragon's blood,
+            and mix them together. </p>
+          <signed>MEAD. </signed>
+        </div>
+      </div>
+      <div>
+        <pb xml:id="page_33" n="26"/>
+        <head rend="align center space"><lb/>MENSTRUAL DISCHARGE, Suppreſſion of. <hi rend="italic"
+            >Signs of.</hi>
+        </head>
+        <p rend="indent"><lb/>A ſwelling of the belly, pain in the loins and groin, difficulty of
+          breathing, cold ſweats, <w part="I">fre-</w><lb/><w part="F">quent</w> faintings, and
+          ſometimes hyſteric fits. </p>
+        <div>
+          <head rend="align center space"><lb/>METHOD OF CURE. </head>
+          <p rend="indent"><lb/>USE exerciſe, and take the quantity of a <w part="I">nut-</w><lb/><w
+              part="F">meg</w> three times a day of this electuary: Take <w part="I">con-</w><lb/><w
+              part="F">ſerve</w> of dried Orange-peel, a quarter of a pound, candied ginger half an
+            ounce, powder of ſteel two ounces; mix them into the conſiſtence of an <w part="I"
+              >elec-</w><lb/><w part="F">tuary</w> with any ſyrup: or a tea ſpoonful of tincture of
+            black Hellebore may be taken in a glaſs of warm water twice in a day. </p>
+          <signed>MEAD. </signed>
+        </div>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>MISCARRIAGE. </head>
+        <p rend="indent"><lb/>TO prevent miſcarriage. Bleeding is uſeful and neceſſary, about the
+          third month of <w part="I">pregnan-</w><lb/><w part="F">cy</w>, more or leſs, according to
+          the conſtitution of the woman with child. The body ſhould alſo be kept open with Manna or
+          Rhubarb, in the firſt months eſpecially. </p>
+        <signed>HAMILTON. </signed>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>NERVOUS DISORDERS. </head>
+        <p rend="indent"><lb/>COUNTRY air, exerciſe, and the cold bath, with the mixture directed
+          under the article of Hyſterics, will prove a certain cure for every <w part="I"
+            >ſpe-</w><lb/><w part="F">cies</w> of theſe diſorders. </p>
+        <signed>FULLER. </signed>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>NOISE in the EARS. </head>
+        <p rend="indent"><lb/>MAY be cured by the vapour of a decoction of Roſemary flowers prepared
+          with wine, being <w part="I">con-</w><lb/><w part="F">veyed</w> to the ear by a funnel. </p>
+        <signed>HEISTER. </signed>
+      </div>
+      <div>
+        <pb xml:id="page_34" n="27"/>
+        <head rend="align center space"><lb/>A ſafe OPIATE for a grown Perſon. </head>
+        <p rend="indent"><lb/>TAKE twenty drops of liquid laudanum in a glaſs of wine and water
+          going to reſt. The <w part="I">quan-</w><lb/><w part="F">tity</w> muſt be proportionably
+          leſſened for children, according to their different ages. </p>
+        <signed>BOERHAAVE. </signed>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>OBSTRUCTIONS. </head>
+        <p rend="indent"><lb/>TAKE ſpecies Hiera Picra half an ounce, ſalt of Steel one drachm, make
+          into pills of a <w part="I">mode-</w><lb/><w part="F">rate</w> ſize, with a little ſyrup
+          of Saffron: the doſe is five pills twice a day. </p>
+        <signed>SHAW. </signed>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>OLD ULCERS. </head>
+        <p rend="indent"><lb/>TAKE a quarter of a pound of Baſilicon, and an ounce and an half of
+          oil of Olives, and mix therewith half an ounce of Verdigreaſe; dreſs the ſore with this
+          ointment, ſpread upon a little tow, after fomenting it well, with a decoction made of
+          Chamomile flowers and Mallow leaves; or the <w part="I">fo-</w><lb/><w part="F"
+            >mentation</w> directed in the Appendix. Take <w part="I">fre-</w><lb/><w part="F"
+            >quently</w> a doſe of cooling phyſick, and live <w part="I">regu-</w><lb/><w part="F"
+            >larly</w>. </p>
+        <signed>SHARP. </signed>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>PAIN in the STOMACH, ſee HEART-BURN. </head>
+        <p rend="indent"><lb/>  </p>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>PAINS in the JOINTS, ſee HIP-GOUT. </head>
+        <p rend="indent"><lb/>  </p>
+      </div>
+      <div>
+        <pb xml:id="page_35" n="28"/>
+        <head rend="align center space"><lb/><hi rend="italic">PILES.</hi> Signs of. </head>
+        <p rend="indent"><lb/>A violent pain at the time of going to ſtool, the excrements ſtreakt
+          with blood, and ſmall ſwellings like warts on the verge of the anus. </p>
+        <div>
+          <head rend="align center space"><lb/>METHOD OF CURE. </head>
+          <p rend="indent"><lb/>TAKE of Lenitive Electuary one ounce and an half, flour of Brimſtone
+            half an ounce, mix them together, the quantity of a nutmeg to be taken every night and
+            morning: apply outwardly a little of this ointment; Take two ounces of white <w part="I"
+              >Dia-</w><lb/><w part="F">chylon</w>, two ounces of ſweet oil, and half an ounce of
+            vinegar, mix them together. Leeches applied as near the Piles as poſſible, or on the
+            Pile itſelf, afford ſurpriſing relief. </p>
+          <signed>SYDENHAM. </signed>
+        </div>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>PALSEY. </head>
+        <p rend="indent"><lb/>BLISTERS are ſerviceable, and the following drops have frequently
+          afforded great benefit: Take Sal Volatile drops half an ounce, Lavender drops, and
+          tincture of Caſtor, a quarter of an ounce each, mix them together: the doſe is forty drops
+            <w part="I">fre-</w><lb/><w part="F">quently</w> in a glaſs of wine and water, or half a
+          drachm of wild Valerian root in powder, may be taken three times in a day. </p>
+        <signed>ALLEN. </signed>
+      </div>
+      <div>
+        <p rend="indent"><lb/>The diet ſhould be warm and attenuating. </p>
+      </div>
+      <div>
+        <head rend="align center space"><lb/><hi rend="italic">PLEURISY.</hi> Signs of. </head>
+        <p rend="indent"><lb/>A violent pain in the ſide accompanied with heat, thirſt, and the
+          other uſual ſymptoms of a fever, and a troubleſome cough; if the ſick <w part="I"
+            >per-</w><lb/><w part="F">ſon</w>
+          <pb xml:id="page_36" n="29"/>is bled, the blood, when cold, looks like <w part="I"
+            >melt-</w><lb/><w part="F">ed</w> tallow. </p>
+        <div>
+          <head rend="align center space"><lb/>METHOD OF CURE. </head>
+          <p rend="indent"><lb/>BLEED frequently till the pain abates, apply a bliſter to the ſide,
+            and take half a pint of the <w part="I">fol-</w><lb/><w part="F">lowing</w> infuſion
+            twice a day: Take freſh horſe-dung ſix ounces, and pour on it a quart of boiling <w
+              part="I">Pen-</w><lb/><w part="F">nyroyal</w> water, ſtrain it when cold, and add a
+            quarter of an ounce of Venice treacle, mix for uſe. </p>
+          <signed>SYDENHAM and QUINCEY. </signed>
+        </div>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>QUINSEY or SORE-THROAT. <hi rend="italic">Signs
+            of.</hi>
+        </head>
+        <p rend="indent"><lb/>A ſwelling of the parts concerned in deglutition, accompanied with
+          great pain, inflammation and a fever, ſo as to hinder the ſwallowing any ſolid meats, and
+          almoſt ſtop breathing. </p>
+        <div>
+          <head rend="align center space"><lb/>METHOD OF CURE. </head>
+          <p rend="indent"><lb/>BLEEDING is ſometimes neceſſary, and cooling phyſick, but often
+            jelly of black Currants ſwallowed down leiſurely in ſmall quantities, effects a cure. </p>
+          <signed>PHILOSOPHICAL TRANSACTIONS. </signed>
+        </div>
+      </div>
+      <div>
+        <head rend="align center space"><lb/><hi rend="italic">RHEUMATISM.</hi> Signs of. </head>
+        <p rend="indent"><lb/>It begins with chilneſs and ſhivering, heavineſs of the joints, and
+          coldneſs of the extreme parts. The appetite is loſt, the body is coſtive, and feveriſh,
+          and a racking pain is felt ſometimes in one part, ſometimes in another; frequently
+          ſhifting from place to place, and leaving a redneſs and ſwelling in the part viſited laſt. </p>
+        <div>
+          <pb xml:id="page_37" n="30"/>
+          <head rend="align center space"><lb/>METHOD OF CURE. </head>
+          <p rend="indent"><lb/>TAKE half a drachm of powder of gum <w part="I">Guai-</w><lb/><w
+              part="F">cum</w> in a draught of warm ale going to reſt, and be covered with a larger
+            quantity of cloaths than uſual; perſiſt in this method a few days, and you will find
+            relief. Bleeding is of ſervice in phlethoric conſtitutions. </p>
+          <signed>PRINGLE. </signed>
+        </div>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>RICKETS in CHILDREN. <hi rend="italic">Signs of.</hi>
+        </head>
+        <p rend="indent"><lb/>A ſwelling of the belly, conſtant deſire of <w part="I"
+            >ſit-</w><lb/><w part="F">ting</w> ſtill, the bones are crooked, and the joints ſeem
+          very large, as if knotted, the head is over large, and the child's underſtanding exceeds
+          its years. </p>
+        <div>
+          <head rend="align center space"><lb/>METHOD OF CURE. </head>
+          <p rend="indent"><lb/>GIVE the child two grains of Ens Veneris, diſſolved in a ſpoonful of
+            wine and water, every night; to this muſt be joined cold bathing, <w part="I"
+              >fric-</w><lb/><w part="F">tions</w> of the back, exerciſe, and a ſtrengthning diet. </p>
+          <signed>BOERHAAVE. </signed>
+        </div>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>RETENTION of URINE. </head>
+        <p rend="indent"><lb/>TAKE a quarter of an ounce of Nitre, a drachm of Volatile ſalt of
+          Amber, a quarter of an ounce of powder of egg-ſhells, and half an ounce of fine ſugar, mix
+          them together: the doſe is as much as will lie on a ſhilling, two or three times a day,
+          drinking a draught of Marſhmallow tea after each doſe. </p>
+        <signed>TURNER. </signed>
+      </div>
+      <div>
+        <pb xml:id="page_38" n="31"/>
+        <head rend="align center space"><lb/>RUPTURES. </head>
+        <p rend="indent"><lb/>ARE cured by applying a ſtrengthning-plaiſter ſpread on leather, (the
+          compoſition of which is ſet down in our appendix,) and a truſs, which may be had of Mr.
+          White, Truſſ-maker, in Fleet-ſtreet, London. </p>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>SCALD-HEAD. </head>
+        <p rend="indent"><lb/>FIRST ſhave, then cover the head with a Pitch plaiſter ſpread on
+          leather, and give inwardly one grain of Calomel, made into a pill, with a little conſerve
+          of Roſes, every night going to reſt, and a a doſe of cooling phyſick twice in a week. </p>
+        <signed>TURNER. </signed>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>STRANGURY. </head>
+        <p rend="indent"><lb/>TAKE half a drachm of Camphire, a ſcruple of powdered Gum Arabic,
+          liquid Laudanum five drops, with a ſufficient quantity of Turpentine to make it into a
+          bolus, to be taken night and <w part="I">morn-</w><lb/><w part="F">ing</w>, drinking a
+          draught of Marſhmallow tea after each doſe. </p>
+        <signed>TURNER. </signed>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>STITCH in the SIDE, ſee PLEURISY. </head>
+        <p rend="indent"><lb/>  </p>
+      </div>
+      <div>
+        <head rend="align center space"><lb/><hi rend="italic">SCURVY.</hi> Signs of. </head>
+        <p rend="indent"><lb/>A ſallow complexion, difficulty of breathing after exerciſe, ſpongy
+          gums ſubject to bleed with <pb xml:id="page_39" n="32"/>the ſlighteſt touch, frequent
+          bleeding at the noſe, a ſwelling of the legs, accompanied with livid ſpots, and unuſual
+          lazineſs, and pains over the whole body, reſembling the Rheumatiſm. </p>
+        <div>
+          <head rend="align center space"><lb/>METHOD OF CURE. </head>
+          <p rend="indent"><lb/>TAKE one ounce of acid elixir of Vitriol, and one ounce of tincture
+            of Peruvian bark, mix them together; a tea-ſpoonful is to be taken twice in a day in a
+            glaſs of water. A decoction of the tops of the ſpruce fir may be taken, the quantity of
+            half a pint, twice in a day. Bathing in the Sea, and drinking Sea water are of infinite
+            ſervice. </p>
+          <signed>HEISTER, and RUSSEL. </signed>
+        </div>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>SLOW FEVER, ſee NERVOUS FEVER, </head>
+        <p rend="indent"><lb/>  </p>
+      </div>
+      <div>
+        <head rend="align center space"><lb/><hi rend="italic">SMALL-POX.</hi> Signs of. </head>
+        <p rend="indent"><lb/>A chillineſs, ſhivering, and other uſual ſymptoms of a fever, attended
+          with a violent pain in the head and back, and an inclination to vomit, and great
+          propenſity to ſweat. In children, a dulneſs, and drowſineſs, and ſometimes epileptic fits:
+          About the third or fourth day, red ſpots about the ſize of a pin's head appear on the
+          breaſt, face, and the whole body, which increaſe in ſize every day, till they are of the
+          ſize of a large pea, and are filled with matter. </p>
+        <div>
+          <head rend="align center space"><lb/>METHOD OF CURE. </head>
+          <p rend="indent"><lb/>THE ſick perſon muſt be kept in bed, taking care to defend him or
+            her from the inclemency of the winter, by proper means, and to moderate the exceſſive
+            heat in ſummer by cool air, for the <w part="I">pa-</w><lb/><w part="F">tient</w> ought
+            not to be ſtifled with heat and cloaths, <pb xml:id="page_40" n="33"/>nor ſhould the
+            eruption and perſpiration be check'd by cold. With regard to diet it ought to be very
+            ſlender, moiſtning and cooling, ſuch as <w part="I">water-</w><lb/><w part="F"
+            >gruel</w>, pipping-liquor and milk pottage; and in the beginning the beſt regimen is
+            that which keeps the body open, and promotes urine, as figs, <w part="I">Da-</w><lb/><w
+              part="F">maſcene</w> Prunes, and Tamarinds, and by giving ſubacid liquors for drink,
+            as Small Beer ſharpned with Orange or Lemmon-juice; whey made with apples boiled in
+            milk, emultions made with barley water and almonds, or Rheniſh wine, plentifully lowered
+            with water. </p>
+          <signed>MEAD. </signed>
+        </div>
+      </div>
+      <div>
+        <head rend="align center space"><lb/><hi rend="italic">SHINGLES.</hi> Signs of. </head>
+        <p rend="indent"><lb/>An Eruption of watery Puſtules, about the ſize of Millet feeds, which
+          encircle the body like a belt, of an hand's breadth, and occaſion an intolerable itching
+          and ſoreneſs. </p>
+        <div>
+          <head rend="align center space"><lb/>METHOD OF CURE. </head>
+          <p rend="indent"><lb/>TAKE two ounces of white Diachylon, two ounces of ſweet Oil, and
+            half an ounce of Vinegar, mix together for a liniment, which ſpread on a piece of fine
+            linnen and apply to the part affected, repeating it as occaſion requires; this with two
+            or three doſes of Glauber's ſalt, and a cooling and ſpare diet, will entirely remove
+            this complaint. </p>
+          <signed>TURNER. </signed>
+        </div>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>SPRAINS. </head>
+        <p rend="indent"><lb/>AFTER ſomenting with warm Vinegar, <w part="I">ap-</w><lb/><w part="F"
+            >ply</w> a pultice of ſtale beer grounds, and oatmeal, with a little Hog's Lard, every
+          day till the pain and ſwelling are abated; then apply the <w part="I">ſtrength-</w><lb/><w
+            part="F">ening</w> plaiſter directed in our Appendix, Obſerving <pb xml:id="page_41"
+            n="34"/>the following rules, will much ſhorten the cure: Let the perſon ſtand three or
+          four minutes at a time on both his feet, and ſometimes move the ſtrained foot, and when
+          ſitting with his foot on a low ſtool, let him move it this way or that as he can bear it;
+          let the ſtrained part be gently <w part="I">rubb-</w><lb/><w part="F">ed</w> with a warm
+          hand ſeveral times in a day, which will contribute very much to contract the <w part="I"
+            >over-</w><lb/><w part="F">ſtretched</w> veſſels, and recover a due circulation of their
+          fluids through them. </p>
+        <signed>SHARP. </signed>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>STONE, ſee GRAVEL. </head>
+        <p rend="indent"><lb/>  </p>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>SWEATING, Exceſſive. </head>
+        <p rend="indent"><lb/>TAKE twenty drops of acid elixir of Vitriol, in a glaſs of water, two
+          or three times a day. </p>
+        <signed>SHAW. </signed>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>SWELL'd LEGS. </head>
+        <p rend="indent"><lb/>TAKE the ſame medicines which are adviſed under the article of the
+          Dropſy. </p>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>TOOTH-ACH. </head>
+        <p rend="indent"><lb/>THE root of Yellow water Flower de Luce rubbed on the tooth which is
+          painful, or chewed in the mouth, in an inſtant, as if by a charm, drives away the pains of
+          the teeth, ariſing from what cauſe ſover. </p>
+        <signed>ALLEN. </signed>
+      </div>
+      <div>
+        <pb xml:id="page_42" n="35"/>
+        <head rend="align center space"><lb/>THROAT SORE, ſee QUINSEY. </head>
+        <p rend="indent"><lb/>  </p>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>Putrid SORE THRAOT. <hi rend="italic">Signs of.</hi>
+        </head>
+        <p rend="indent"><lb/>A giddineſs, chillneſs, and ſhivering, like that of an Ague fit,
+          followed by an intenſe heat, a violent head-ach, heat and ſoreneſs in the throat,
+          ſtiffneſs of the neck, great ſickneſs, vomiting or purging, or both; the face looks red
+          and ſwelled, the eyes inflamed and watery, with reſtleſſneſs, anxiety and faintneſs;
+          frequently a great number of ſmall pimples appear on the neck, breaſt, and hands, which
+          are ſenſibly ſwelled, the inſide of the mouth and throat are ſwelled, and appear of a
+          florid red colour, ſometimes of a pale white, ſurrounded with red. </p>
+        <div>
+          <head rend="align center space"><lb/>METHOD OF CURE. </head>
+          <p rend="indent"><lb/>ALL Evacuations which leſſen the ſtrength, particularly Bleeding and
+            Purging, and all cooling medicines, are highly prejudicial. The hot ſteam of a boiling
+            mixture of Vinegar, Myrrh and Honey, is to be received into the throat, through an <w
+              part="I">in-</w><lb/><w part="F">verted</w> funnel; this cannot be uſed too
+            frequently. The decoction of the Peruvian bark made by <w part="I">boil-</w><lb/><w
+              part="F">ing</w> an ounce of bark in a pint and a half of water, till it comes to half
+            a pint, and adding a drachm of acid elixir of Vitriol, is the beſt medicine in this
+            diſorder, if given, a tea cup full, every four hours. </p>
+          <signed>HUXHAM and FOTHERGILL. </signed>
+        </div>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>TETTARS. </head>
+        <p rend="indent"><lb/>TAKE four ounces of ſweet Oil, one ounce of white Wax, one ounce of
+          Sperma Ceti, and <pb xml:id="page_43" n="36"/>twenty-five grains of Camphor, mix them
+          together for a liniment, with which gently touch the tettars three or four times in a day.
+        </p>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>THIRST, unquenchable. </head>
+        <p rend="indent"><lb/>A quart of water mixed with an ounce or two of White wine Vinegar will
+          make an agreeable drink. </p>
+      </div>
+      <div>
+        <head rend="align center space"><lb/><hi rend="italic">THRUSH.</hi> Signs of. </head>
+        <p rend="indent"><lb/>Little white ulcers affect the lips, gums, cheeks, tongue, palate, and
+          the whole inſide of the mouth. </p>
+        <div>
+          <head rend="align center space"><lb/>METHOD OF CURE. </head>
+          <p rend="indent"><lb/>RUB the child's mouth with a linnen rag dipt in the following
+            mixture; Take honey of roſes an ounce, oil of Vitriol ſix drops, mix them <w part="I"
+              >toge-</w><lb/><w part="F">ther</w>; or the child's mouth may be frequently waſhed
+            with a docoction of Elm Bark. </p>
+          <signed>SHAW. and ALLEN. </signed>
+        </div>
+      </div>
+      <div>
+        <head rend="align center space"><lb/><hi rend="italic">TYMPANY.</hi> Signs of. </head>
+        <p rend="indent"><lb/>A great ſwelling of the belly, which being <w part="I">oc-</w><lb/><w
+            part="F">caſioned</w> by air pent up in the cavity of the belly, gives an hollow ſound
+          when ſtruck by the hand. </p>
+        <div>
+          <head rend="align center space"><lb/>METHOD OF CURE. </head>
+          <p rend="indent"><lb/>THE ſame medicines which are directed for the Dropſy are alſo of
+            ſervice in this diſorder. </p>
+        </div>
+      </div>
+      <div>
+        <pb xml:id="page_44" n="37"/>
+        <head rend="align center space"><lb/>VIOLENT PAINS after DELIVERY, ſee AFTER-PAINS. </head>
+        <p rend="indent"><lb/>  </p>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>VOMITING. </head>
+        <p rend="indent"><lb/>TAKE Mint water one ounce, Lemon-juice half an ounce, a ſcruple of
+          ſalt of Wormwood, mix them for one doſe, to be repeated as occaſion may require. </p>
+        <signed>MEAD. </signed>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>ULCER of the LUNGS. </head>
+        <p rend="indent"><lb/>REQUIRES the ſame treatment as is directed under the article of
+          Conſumptions. </p>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>ULCER of the KIDNEYS: <hi rend="italic">Signs of.</hi>
+        </head>
+        <p rend="indent"><lb/>Fleſhy excreſcences are voided by urine: The h<unclear>#</unclear>at
+          and pain in making water comes by intervals, the matter that comes from the kidneys is
+          more plentiful, white and thin, than in an ulcer of the bladder, and is not foetid; the
+          urine looks like milk when firſt made, but after ſtanding ſome hours,
+            th<unclear>#</unclear> matter ſeparates from it, and falls to the bottom. </p>
+        <div>
+          <head rend="align center space"><lb/>METHOD OF CURE. </head>
+          <p rend="indent"><lb/>BUTTER-Milk not very ſour, is extremely beneficial, as is alſo an
+            emulſion made of <w part="I">Barley-</w><lb/><w part="F">water</w> and ſweet Almonds.
+            Chalybeate waters have been ſometimes of ſervice. </p>
+          <signed>ARBUTHNOT. </signed>
+        </div>
+      </div>
+      <div>
+        <pb xml:id="page_45" n="38"/>
+        <head rend="align center space"><lb/>ULCER of the BLADDER. <hi rend="italic">Signs of.</hi>
+        </head>
+        <p rend="indent"><lb/>A voiding of ſtinking matter or blood, and <w part="I"
+            >ſome-</w><lb/><w part="F">times</w> ſcales, or a membranous skin along with the urine,
+          and a continual heat and pains in the urinary paſſages. </p>
+        <div>
+          <head rend="align center space"><lb/>METHOD OF CURE. </head>
+          <p rend="indent"><lb/>THE Seller's mineral water mixed with milk are excellent, as is alſo
+            the conſtant uſe of <w part="I">Spaw-</w><lb/><w part="F">water</w>. </p>
+          <signed>HOFFMAN. </signed>
+        </div>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>ULCER of the WOMB. <hi rend="italic">Signs of.</hi>
+        </head>
+        <p rend="indent"><lb/>A flux of purulent matter, or matter mixt with blood, which is more
+          viſcid and foetid, than the Whites, and attended with a fixed pain. </p>
+        <div>
+          <head rend="align center space"><lb/>METHOD OF CURE. </head>
+          <p rend="indent"><lb/>AN injection, compoſed of Barley-water, a pint, and honey of Roſes
+            two ounces, muſt be uſed to the part affected by the help of a ſyringe, ſeveral times in
+            a day. You may add a ſmall quantity of tincture of Myrrh. </p>
+          <signed>ASTRUC </signed>
+        </div>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>WARTS. </head>
+        <p rend="indent"><lb/>MAY be removed by rubbing them with the juice of Celandine, or milk of
+          Spurge, but when they are ſituated about the Eye-lids, to prevent hurting the eyes, it is
+          proper to ſurround the wart with a ring of Wax, or a piece of Plaiſter with a hole in the
+          middle, ſo that the wart may come through, by which means the warts will be <w part="I"
+            >de-</w><lb/><w part="F">ſtroyed</w>, without hurting any other part. </p>
+        <signed>HEISTER. </signed>
+      </div>
+      <div>
+        <pb xml:id="page_46" n="39"/>
+        <head rend="align center space"><lb/>WATERY GRIPES in Children. </head>
+        <p rend="indent"><lb/>TAKE half a drachm of Magneſia alba, and half a drachm of Rhubarb, mix
+          them together, and give the child three or four grains in its pap every morning and
+          evening. </p>
+        <signed>CADOGAN. </signed>
+      </div>
+      <div>
+        <head rend="align center space"><lb/><hi rend="italic">WHITES.</hi> Signs of. </head>
+        <p rend="indent"><lb/>A flux of matter from the womb, attended with a pain and weight in the
+          loins, loſs of appetite, pale complexion, difficulty of breathing, a <w part="I"
+            >liable-</w><lb/><w part="F">ness</w> to miſcarriage, and a ſwelling of the eyes and
+          feet. </p>
+        <div>
+          <head rend="align center space"><lb/>METHOD OF CURE. </head>
+          <p rend="indent"><lb/>APPLY a large ſtrengthning plaiſter to the ſmall of the back, and
+            take a quarter of a pint of this decoction, every night and morning: Take cow's milk
+            half a pint, and boil in it one handful of Archangel flowers, and a bit of Cinnamon,
+            ſtrain it for uſe; in obſtinate caſes, Bathing in the ſea, and drinking ſea water, is
+            far preferable to any thing elſe. </p>
+          <signed>RUSSEL. </signed>
+        </div>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>WIND. </head>
+        <p rend="indent"><lb/>TAKE of the powder of Angelica ſeeds, <w part="I">Car-</w><lb/><w
+            part="F">raway</w> ſeeds, and Parſley ſeeds, of each a quarter of an ounce, make them
+          into an electuary with the ſyrup of Clove Gilliflowers: the doſe is the quantity of a
+          nutmeg at diſcretion. </p>
+        <signed>HOFFMAN. </signed>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>WHITE SWELLINGS of the Joints. </head>
+        <p rend="indent"><lb/>ANOINT the part with Barbados tar, before a good fire, two or three
+          times in a day, covering <pb xml:id="page_47" n="40"/>it with a bladder, and drink half a
+          pint of <w part="I">ſea-</w><lb/><w part="F">water</w> every morning faſting. </p>
+        <signed>GUY'S HOSPITAL. </signed>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>WASTING AWAY of Children. </head>
+        <p rend="indent"><lb/>TAKE ſalt of Tartar, Nitre and Arcanum Duplicatum, of each a quarter
+          of an ounce, Sal Armoniac three drachms, mix them together; a very little of this muſt be
+          put into the child's drink, according to its age. </p>
+        <signed>HEISTER. </signed>
+      </div>
+      <div>
+        <head rend="align center space"><lb/><hi rend="italic">WORMS.</hi> Signs of. </head>
+        <p rend="indent"><lb/>Paleneſs of the countenance, itching of the noſe, voraciouſneſs,
+          ſtartings, and grinding the teeth in ſleep, looſeneſſes, ſtinking breath, hard ſwelled
+          belly; and ſometimes epileptic fits. </p>
+        <div>
+          <head rend="align center space"><lb/>METHOD OF CURE. </head>
+          <p rend="indent"><lb/>TAKE burnt Hartſhorn, and the beſt <w part="I">Scam-</w><lb/><w
+              part="F">mony</w> in powder, of each a quarter of an ounce, Calomel one drachm, powder
+            of Tin a quarter of an ounce, mix them together, and let the child take eight or ten
+            grains according to its age, every other morning, in a tea-ſpoonful of roaſted apple. </p>
+          <signed>ALSTON. </signed>
+        </div>
+      </div>
+      <div>
+        <head rend="align center space"><lb/>GREEN WOUNDS. </head>
+        <p rend="indent"><lb/>DRESS them every day, with yellow Baſilicon ſpread on fine lint, after
+          fomenting them well with the Fomentation, the receipt for making which is inſerted in the
+          Appendix. </p>
+        <signed>TURNER. </signed>
+      </div>
+      <div>
+        <pb xml:id="page_48" n="41"/>
+        <head rend="align center space"><lb/>DIRECTIONS concerning BLEEDING. </head>
+        <p rend="indent"><lb/>THOUGH Bleeding has been directed in many diſorders in the courſe of
+          this work; yet as the improper uſe of it is attended frequently with the moſt fatal
+          conſequences, it has been judged neceſſary to bring into one point of view all thoſe caſes
+          in which bleeding may be <w part="I">adminiſt-</w><lb/><w part="F">ered</w> with
+          advantage, as well as thoſe in which it is highly prejudical. In all inflammatory
+          diſeaſes, it ſhould by no means be omitted, as in the <w part="I">Pleu-</w><lb/><w
+            part="F">riſy</w>, and Peripneumony, during the firſt days; but ſo ſoon as the ſymptoms
+          of ſuppuration <w part="I">ap-</w><lb/><w part="F">pear</w> expectorating medicines are
+          the moſt proper means from which to expect relief, and the uſe of the lancet muſt be
+          totally forbid. In the <w part="I">Apo-</w><lb/><w part="F">plexy</w>, Epilepſy,
+          Bloody-flux and Inflammation of the bowels, bleeding muſt be repeated <w part="I"
+            >accord-</w><lb/><w part="F">ing</w> to the exigence of the ſymptoms: it is alſo uſeful,
+          ſometimes to promote ſuppuration in large abſceſſes, where nature is too much oppreſt by
+          the violence of the inflammation. In <w part="I">Inflamma-</w><lb/><w part="F">tions</w>
+          of the Eyes, Bladder, or Womb, Iſchiatic pains, Rheumatiſms, Coughs, Head-achs, <w
+            part="I">Quin-</w><lb/><w part="F">ſeys</w>, Aſthmas, Hemorrhages, and Nephritic
+          complaints, Bleeding is of the utmoſt ſervice: but in every diſorder proceeding from a
+          relaxed ſtate of the veſſels, and impoveriſhed ſtate of the Blood, attended with a
+          cachectic habit of body, ſuch as Dropſies, Jaundice, Gout, <hi rend="italic">&amp;c.</hi>
+          bleeding muſt be abſtained from with the utmoſt caution, as it will, inſtead of relieving,
+          greatly aggravate thoſe diſtempers. </p>
+      </div>
+    </body>
+    <back>
+      <div>
+        <pb xml:id="page_49" n="42"/>
+        <head rend="align-center space size(2.0)"><lb/>APPENDIX. </head>
+        <div>
+          <head rend="align center space">><lb/>A choice receipt to make OPODELDOCH. </head>
+          <p rend="indent"><lb/>TAKE of Hungary water a pint, Caſtile ſoap ſliced three ounces,
+            Camphor an ounce, let them ſtand together in a glaſs cloſely ſtopped, till the Soap and
+            Camphor are entirely diſſolved in the Hungary water. </p>
+        </div>
+        <div>
+          <head rend="align center space">><lb/>The CLYSTER Decoction. </head>
+          <p rend="indent"><lb/>TAKE of dried Mallow leaves an ounce, <w part="I">Cha-</w><lb/><w
+            part="F">momile</w> flowers, and Fennel ſeeds, of each half an ounce, boil them in a
+            ſufficient quantity of water to ſtrain off about half a point, then add two ounces of
+            ſweet Oil and it is fit for uſe. </p>
+        </div>
+        <div>
+          <head rend="align center space">><lb/>HARTSHORN-DRINK. </head>
+          <p rend="indent"><lb/>TAKE burnt Hartſhorn two ounces, Gum Arabic two drachms, boil them
+            in three pints of water till one pint is waſted away, then ſtrain it and it is fit for
+            uſe. </p>
+        </div>
+        <div>
+          <pb xml:id="page_50" n="43"/>
+          <head rend="align center space">><lb/>BARLEY-WATER. </head>
+          <p rend="indent"><lb/>TAKE two ounces of Pearl barley, and waſh it well in cold water,
+            then boil it in half a pint of water for a very little while; this water will look
+            reddiſh, and is to be thrown away, then add four pints of water and boil it away to one
+            half, the remainder is fit for uſe. </p>
+        </div>
+        <div>
+          <head rend="align center space">><lb/>An Excellent FOMENTATION. </head>
+          <p rend="indent"><lb/>TAKE Southernwood and wormwood dry'd, and Chamomile flowers, of each
+            an ounce, Bay leaves dried half an ounce, boil them gently in ſix pints of water and
+            ſtrain it of for uſe. All green wounds, and old ſores, ſhould be fomented with this
+            every day, before they are dreſſed. </p>
+        </div>
+        <div>
+          <head rend="align center space">><lb/>The Infuſion of SENNA. </head>
+          <p rend="indent"><lb/>TAKE three quarters of an ounce of Senna, Cream of Tartar three
+            drachms, Carraway ſeeds bruiſed two drachms; boil the cream of Tartar in half a pint of
+            water till it is dſſolved, then pour the boiling water upon the reſt of the ingredients,
+            and let it ſtand until it is cold, then ſtrain it off, and it is fit for uſe. </p>
+        </div>
+        <div>
+          <head rend="align center space">><lb/>A PURGING DRAUGHT. </head>
+          <p rend="indent"><lb/>TAKE of the infuſion of Senna as above <w part="I">di-</w><lb/><w
+            part="F">rected</w>, two ounces, ſyrup of Buckthorn one ounce, mix them together for
+            one doſe, which may be taken in the morning faſting, three times in a week, and as it is
+            a ſafe and ſure purge, it may be taken in all caſes where purging is proper. </p>
+        </div>
+        <div>
+          <pb xml:id="page_51" n="44"/>
+          <head rend="align center space">><lb/>A doſe of Cooling Phyſick. </head>
+          <p rend="indent"><lb/>TAKE Glauber's ſalts an ounce, Manna half an ounce, diſſolve them in
+            a little boiling water for one doſe, to be taken as often as occaſion <w part="I"
+              >re-</w><lb/><w part="F">quires</w>. </p>
+        </div>
+        <div>
+          <head rend="align center space">><lb/>HIERA PICRA. </head>
+          <p rend="indent"><lb/>TAKE of Sucotrine aloes finely powder'd, a quarter of a pound,
+            Winter's bark finely powder'd, three quarters of an ounce, mix them together. </p>
+        </div>
+        <div>
+          <head rend="align center space">><lb/>Tincture of HIERA PICRA. </head>
+          <p rend="indent"><lb/>STEEP an ounce of Hiera Picra, made as above directed, in a pint of
+            Mountain wine, for a week or ten days, by which time it will be fit for uſe. </p>
+        </div>
+        <div>
+          <head rend="align center space">><lb/>MINDERERUS's SPIRIT. </head>
+          <p rend="indent"><lb/>TAKE a quarter of an ounce of Volatile Salt Armoniac, and add to it
+            by degrees diſtilled Vinegar, till the efferveſcence entirely ceaſes. </p>
+        </div>
+        <div>
+          <head rend="align center space">><lb/>An Excellent Bitter Tincture. </head>
+          <p rend="indent"><lb/>TAKE Gentian root, and Orange Peel dried, each two ounces, Cochineal
+            bruiſed, half a drachm, infuſe them in a quart of French Brandy for three or four days,
+            then ſtrain off the liquor for uſe. This is a very pleaſant and wholeſome <pb
+              xml:id="page_52" n="45"/>Bitter, and may be uſed occaſionally to provoke an appetite
+            and aſſiſt digeſtion. </p>
+        </div>
+        <div>
+          <head rend="align center space">><lb/>Duke of PORTLAND's GOUT POWDER. </head>
+          <p rend="indent"><lb/>TAKE of Round Birthwort root and Gentian root, of the tops and
+            leaves of Germander, Ground Pine, and Centaury: Take of all theſe well dried, powder'd,
+            and ſifted as fine as poſſible, an equal quantity; mix them well together, and take one
+            drachm of this mixed powder every morning faſting, in a cup of wine and water, broth,
+            tea, or any other vehicle you like beſt; keep faſting an hour and an half after it,
+            continue this for three months without interruption, then diminiſh the doſe to three
+            quarters of a drachm for three months longer, then to half a drachm for ſix months more,
+            taking it regularly every morning if poſſible. After the firſt year, it will be
+            ſufficient to take half a drachm every other day. </p>
+          <p rend="indent"><lb/>As this Medicine operates inſenſibly, it will take perhaps two years
+            before you receive any great benefit; ſo you muſt not be diſcouraged though you do not
+            perceive at firſt any great amendment, it works ſlow but ſure: it doth not confine the
+            patient to any particular diet, ſo one lives ſoberly, and abſtains from thoſe meats and
+            liquors that have always been accounted pernicious in the Gout, as Champaign, Drams,
+            high ſauces, &amp;c. </p>
+          <p rend="indent"><lb/><hi rend="italic">N. B.</hi> In the Rheumatiſm, that is only <w
+            part="I">acciden-</w><lb/><w part="F">tal</w> and not habitual, a few of the drachm
+            doſes may do; but if habitual, or that has been of long duration, then you may take it
+            as for the Gout: The remedy requires patience, as it operates but ſlow in both
+            diſtempers. </p>
+        </div>
+        <div>
+          <pb xml:id="page_53" n="46"/>
+          <head rend="align center space">><lb/>Sir HANS SLOANE's Ointment for SORE EYES. </head>
+          <p rend="indent"><lb/>TAKE prepared Tutty one ounce, Blood-ſtone finely prepared, two
+            ſcruples, Sucotrine Aloes in fine powder, twelve grains, prepared Pearl four grains, mix
+            them together in a marble mortar, with as much Vipers fat, as is ſufficient to give it
+            the conſiſtence of an ointment. </p>
+          <p rend="indent"><lb/>This ointment is to be applied with a hair <w part="I"
+            >pen-</w><lb/><w part="F">cil</w>, the eyes winking or a little opened. </p>
+          <p rend="indent"><lb/>It muſt be obſerved, that purging medicines are hurtful to the
+            diſeaſes of the eyes, which are cured by this medicine. </p>
+        </div>
+        <div>
+          <head rend="align center space">><lb/>Dr. MEAD's Remedy for the Bite of a MAD DOG. </head>
+          <p rend="indent"><lb/>TAKE Aſh coloured Ground Liverwort four drachms, Black Pepper two
+            drachms, mix them together into a fine powder: </p>
+          <p rend="indent"><lb/>This is to be divided into four doſes, whereof one is to be taken in
+            warm milk in a morning <w part="I">faſt-</w><lb/><w part="F">ing</w>, for four mornings
+            ſucceſſively; after this the perſon muſt be put into a cold bath, pond, or river, for
+            thirty days together, early in the morning, and before breakfaſt: he is to remain in it
+            with his head above water, not longer than half a minute. The wound ſhould be
+            continually fomented, with a pickle made with Vinegar and Salt, as warm as it can be
+            borne. </p>
+        </div>
+        <div>
+          <pb xml:id="page_54" n="47"/>
+          <head rend="align center space">><lb/>Mrs. Stephens's famous cure for the STONE and GRAVEL, as amended by Dr.
+            Hartley. </head>
+          <p rend="indent"><lb/>TAKE two ſcruples of calcined Egg-ſhells, three times in a day, in a
+            glaſs of any convenient liquor, drinking after each doſe, a third part of the following
+            decoction: Take two ounces of Caſtile ſoap, diſſolve it in a quart of ſoft water, and
+            ſweeten it according to your taſte, with Honey or Loaf ſugar. If this decoction is made
+            in a <w part="I">cop-</w><lb/><w part="F">per</w> veſſel, care muſt be taken that it is
+            well tinn'd. The taking of theſe medicines muſt be continued for ſome time after the
+            complaint ceaſes, leſt any part of the Stone ſhould remain, which being rough and
+            unequal might occaſion exquiſite pain. It is common after a few days uſe of theſe
+            medicines, to have an increaſe of pain in making water, at which time, a ſoft diet,
+            emollient drinks, and reſt, are proper. For common drink, milk and water, or a decoction
+            of Marſhmallow roots, Parſley and Liquorice may be uſed; but if the perſon has been uſed
+            to ſtrong liquors, ſmall punch made without acid may be drank ſparingly. Artichoaks,
+            aſparagus, ſpinnage, lettuces, ſuccory, parſley, turnips, carrots, potatoes, radiſhes,
+            peas, &amp;c. may be ſafely uſed, but onions, leeks and cellery, are to be preferred to
+            all other vegetables. </p>
+          <p rend="indent"><lb/>The patient ought to drink no more of any <w part="I">li-</w><lb/><w
+            part="F">quor</w> than is ſufficient to quench his thirſt, and he ſhould hold his
+            water, as long as he can without great uneaſineſs, that it may have the longer time to
+            act on the ſtone. If theſe medicines occaſion coſtiveneſs, it will be neceſſary now and
+            then, at diſcretion, to take a doſe of Glauber's ſalt and Manna. </p>
+        </div>
+        <div>
+          <pb xml:id="page_55" n="48"/>
+          <head rend="align center space">><lb/>A Warm Purge, proper to be given in the PALSY and APOPLEXY. </head>
+          <p rend="indent"><lb/>TAKE tincture of Hiera Picra two ounces, ſyrup of Buckthorn three
+            quarters of an ounce, Lavender drops a quarter of an ounce; mix them together for one
+            doſe, which may be given in the morning faſting, twice a week, or as often as <w
+              part="I">oc-</w><lb/><w part="F">caſion</w> may require. </p>
+        </div>
+        <div>
+          <head rend="align center space">><lb/>DAFFY's ELIXIR. </head>
+          <p rend="indent"><lb/>TAKE Raiſins ſtoned four ounces, Senna three ounces, Carraway-ſeeds
+            bruiſed one ounce, ſteep theſe ingredients in a quart of Brandy, for three weeks or a
+            month, then ſtrain it off for uſe, and keep it in a bottle cloſe ſtopped. </p>
+        </div>
+        <div>
+          <head rend="align center space">><lb/>VOLATILE TINCTURE of Guaicum. </head>
+          <p rend="indent"><lb/>TAKE an ounce of Gum Guaicum in groſs powder, and ſteep it for a
+            week or ten days in ſix ounces of Sal Volatile drops, in a Bottle cloſely ſtopped. </p>
+        </div>
+        <div>
+          <head rend="align center space">><lb/>FRYER's BALSAM. </head>
+          <p rend="indent"><lb/>TAKE of Gum Beniamin, one ounce and an half, of ſtrained Storax one
+            ounce, of Balſam of Tolu half an ounce, of Sucotrine Aloes a quarter of an ounce,
+            rectified Spirit of Wine, a pint. Digeſt them together till the Gums are diſſolved as
+            much as poſſible, then ſtrain off the Tincture for uſe. </p>
+        </div>
+        <div>
+          <pb xml:id="page_56" n="49"/>
+          <head rend="align center space">><lb/>DIACHYLON with the Gums. </head>
+          <p rend="indent"><lb/>TAKE three quarters of a pound of white Diachylon, two ounces of
+            ſtrained Galbanum, Turpentine and Frankincenſe, of each three <w part="I"
+              >quar-</w><lb/><w part="F">ters</w> of an ounce; melt them together over a ſlow fire.
+          </p>
+        </div>
+        <div>
+          <head rend="align center space">><lb/>WHITE DIACYLON Plaiſter. </head>
+          <p rend="indent"><lb/>TAKE Litharge finely powder'd a pound and a quarter, Sweet-oil a
+            quart, boil them together with a quart of water, till they are thoroughly mixed, and are
+            of a proper conſiſtence for a <w part="I">plaiſt-</w><lb/><w part="F">er</w>, and look
+            quite white; if the water ſhould be entirely waſted away, you muſt add ſome more to
+            prevent its turning black. </p>
+        </div>
+        <div>
+          <head rend="align center space">><lb/>An excellent STENGTHNING Plaiſter, ſee page 31 and 33. </head>
+          <p rend="indent"><lb/>TAKE white Diachylon half a pound, <w part="I">Fran-</w><lb/><w
+            part="F">kincenſe</w> two ounces, and Dragon's Blood three quarters of an ounce; melt
+            the Diachylon over a ſlow fire, and then add the other ingredients finely powder'd, and
+            mix them well together, by ſtirring them continually till the plaiſter is quite cold.
+          </p>
+        </div>
+        <div>
+          <head rend="align center space">><lb/>Ointment of ELDER. </head>
+          <p rend="indent"><lb/>IS made, by boiling the young leaves of Elder in Mutton-ſuet, till
+            they are quite criſp, and the ſuet is of a deep green colour. </p>
+        </div>
+        <div>
+          <pb xml:id="page_57" n="50"/>
+          <head rend="align center space">><lb/>SPERMA CETI Ointment. </head>
+          <p rend="indent"><lb/>TAKE a quarter of a pint of the beſt Sallad-oil, a quarter of a
+            pound of white Wax, and half an ounce of Sperma Ceti; melt theſe ingredients together,
+            over a gentle fire, and keep them <w part="I">con-</w><lb/><w part="F">tinually</w>
+            ſtirring until the ointment is quite cold. </p>
+        </div>
+        <div>
+          <head rend="align center space">><lb/>Ointment of MARSHMALLOWS. </head>
+          <p rend="indent"><lb/>TAKE half a pound of Marſhmallow-roots, of Linſeeds and
+            Faenugreek-ſeeds, each three ounces, bruiſe them, and boil them half an hour gently, in
+            a quart of water, then add two quarts of ſweet oil, and boil them together, till the
+            water is quite waſted away, then ſtrain off the oil, and add to the oil a pound of
+            Bees-wax, half a pound of yellow Rozin, and two ounces of common Turpentine; melt them
+            together over a ſlow fire, and keep them continually ſtirring, till the ointment is
+            cold. </p>
+        </div>
+        <div>
+          <head rend="align center space">><lb/>TURNER's CERATE, ſee the article of BURNS and SCALDS. </head>
+          <p rend="indent"><lb/>  </p>
+        </div>
+        <div>
+          <head rend="align center space">><lb/>Yellow BASILICON. </head>
+          <p rend="indent"><lb/>TAKE ſweet Oil a quarter of a pint, <w part="I">Beeſ-</w><lb/><w
+            part="F">wax</w>, yellow Rozin, and Burgundy pitch, of each a quarter of a pound,
+            Venice Turpentine three quarters of an ounce; mix them together over a ſlow fire. </p>
+        </div>
+        <trailer rend="italic align-center"><lb/>FINIS. </trailer>
+      </div>
+    </back>
+    
+  </text>
+</TEI>
+

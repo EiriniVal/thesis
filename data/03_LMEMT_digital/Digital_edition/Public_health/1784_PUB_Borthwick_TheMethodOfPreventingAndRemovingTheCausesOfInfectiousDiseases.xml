@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LMEMT Corpus - Borthwick: The method of preventing and removing the causes of
+          infectious diseases</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>George Borthwick</persName>
+            </author>
+            <title type="main">The method of preventing and removing the causes of infectious
+              diseases: written in plain simple language, by George Borthwick, Surgeon to the
+              Fourteenth Regiment of Light Dragoons, and Honorary Member of the Physico-Chirurgical
+              Society at Edinburgh.</title>
+            <edition n="1"/>
+            <idno type="ESTC">N4027</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/N4027"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>Cork</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>Cork: printed by J. Cronin, No. 52, Grand-Parade,
+                  M.DCC.LXXX.IV.</persName>
+              </publisher>
+              <date>1784</date>
+            </imprint>
+            <extent>
+              <measure type="format">8⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="5"/>
+              <measure type="count" commodity="body" unit="page" quantity="47"/>
+              <measure type="count" commodity="back" unit="page" quantity="1"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">National Library of Medicine</orgName>
+            <idno type="ECCO">CW3308569351</idno>
+            <idno type="TCP">K002602.000</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Public welfare and institutional"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text xml:lang="eng">
+    <front>
+      <div>
+        <pb xml:id="page_2"/>
+        <head rend="dc(2) align-center"><lb/>PREFACE. </head>
+        <p rend="indent"><lb/><hi rend="dc(2)">T</hi>HE intention of the following <lb/>pages, is to
+          point out the moſt <w part="I">mate-</w><lb/><w part="F">rial</w> cauſes, that occur in a
+          large <lb/>Town, to give riſe to infectious <w part="I">diſ-</w><lb/><w part="F"
+          >eaſes</w>; to ſhew the ſteps neceſſary to <lb/>be taken to prevent ſuch ſources of
+          <lb/>contagion; and to adviſe ſome <w part="I">pre-</w><lb/><w part="F">cautions</w> to be
+          uſed, that are moſt <lb/>likely to prevent infection, during <lb/>the prevalence of theſe
+          diſorders. </p>
+        <p rend="indent"><lb/>A performance of this nature <w part="I">car-</w><lb/><w part="F"
+            >ried</w> to its full extent, might be made <lb/>to fill a volume; but I have <w
+            part="I">induſ-</w><lb/><w part="F">triouſly</w> ſtudied to make every <w part="I"
+            >direc-</w><lb/><w part="F">tion</w> as ſhort, and conciſe as poſſible; <lb/>for had I
+          entered more largely into <lb/>the ſubject, I muſt have written a <pb xml:id="page_3"
+            n="v"/><lb/>book that would only have been read <lb/>by a few, whereas this ſmall <w
+            part="I">pam-</w><lb/><w part="F">phlet</w> can readily be obtained by moſt <lb/>people.
+          I have given my opinion in <lb/>the form of paragraphs, as I imagine <lb/>that this mode
+          of giving directions <lb/>is the eaſieſt to be underſtood, ſince <lb/>by this means the
+          mind is not <w part="I">fa-</w><lb/><w part="F">tigued</w> with a chain of reaſoning. I
+          <lb/>have avoided all reaſoning on the <w part="I">pro-</w><lb/><w part="F">priety</w> of
+          any direction that I have <lb/>given, as I truſt that it will appear <lb/>ſelf-evident;
+          and had I entered into <lb/>a vindication and diſcuſſion of the <lb/>utility of what is
+          recommended in <lb/>each paragraph, I ſhould not only <lb/>have made theſe pages too
+          numerous <lb/>to be generally read, but ſhould have <lb/>been obliged to have recourſe to
+            <w part="I">ſci-</w><lb/><w part="F">entific</w> reaſoning, that could only have
+          <lb/>been intelligible to thoſe of my own <lb/>profeſſion. I have therefore <w part="I"
+            >careful-</w><pb xml:id="page_4" n="vi"/><lb/><w part="F">ly</w> ſhunned every
+          profeſſional Term; <lb/>a circumſtance that ſhould always be <lb/>attended to, by thoſe
+          that write for <lb/>the benefit of mankind. </p>
+        <p rend="indent"><lb/>I do not pretend to ſay, that the <lb/>following pages contain every
+            <w part="I">direc-</w><lb/><w part="F">tion</w>, that may on ſome occaſions be
+          <lb/>neceſſary, to prevent or remove the <lb/>cauſes of infectious diſorders; I will
+          <lb/>only venture to ſay, that on all <w part="I">occa-</w><lb/><w part="F">ſions</w>,
+          what I have given will be <w part="I">eſ-</w><lb/><w part="F">ſentially</w> requiſite; and
+          are proper to <lb/>conſtitute the grand outlines, of any <lb/>regulations that may be
+          deemed <w part="I">ne-</w><lb/><w part="F">ceſſary</w>, to prevent and remove <w part="I"
+            >con-</w><lb/><w part="F">tagious</w> diſeaſes from a City. I have <lb/>likewiſe added,
+          by way of poſtſcript <lb/>to my plan, ſome directions that from <lb/>experience have been
+          ſound <w part="I">ſervicea-</w><lb/><w part="F">ble</w>, to ſuch as viſit unhealthy <w
+            part="I">cli-</w><lb/><w part="F">mates</w>; which I thought would not <pb
+            xml:id="page_5" n="vii"/><lb/>be unacceptable to the inhabitants of <lb/>a large
+          commercial City. </p>
+        <p rend="indent"><lb/>Small as this performance is, I <lb/>doubt not but that it may meet
+          with <lb/>critical cenſure from ſome; but as <lb/>men of diſcernment, will I hope <w
+            part="I">al-</w><lb/><w part="F">ways</w> judge for themſelves, and allow <lb/>their
+          opinions to be ſwayed only by <lb/>the cool deciſion of an unprejudiced <lb/>mind, I ſhall
+          always deſpiſe whatever <lb/>impotent cenſure may proceed from <lb/>motives of ungenerous
+          ſelf-intereſt. </p>
+      </div>
+    </front>
+    <body>
+      <div>
+        <pb xml:id="page_6"/>
+        <head rend="align-center"><lb/>THE <lb/><hi rend="dc(2)">METHOD</hi>
+          <lb/>OF <lb/><hi rend="size(1.7)">PREVENTING AND REMOVING </hi><lb/>THE CAUSES OF <lb/><hi
+            rend="size(1.7)">INFECTIOUS DISEASES, </hi></head>
+        <p rend="indent" n="1"><lb/>I. <hi rend="dc(2)">T</hi>HE health of the Inhabitants of <w
+            part="I">eve-</w><lb/><w part="F">ry</w> large Town, depends very much on the
+          <lb/>police of the place, and on the due <w part="I">per-</w><lb/><w part="F">formance</w>
+          of every duty connected <w part="I">there-</w><lb/><w part="F">with</w>. </p>
+        <p rend="indent" n="2"><lb/>II. As the eſtabliſhment, as well as the <lb/>execution of every
+          regulation, made either <lb/>for the convenience or health of a City, <pb xml:id="page_7"
+            n="9"/><lb/>are more immediately connected with the <lb/>functions of magiſtracy, the
+          Magiſtrates <lb/>are in ſome meaſure anſwerable to the <w part="I">In-</w><lb/><w part="F"
+            >habitants</w>, in ſo far at leaſt, as to enforce a <lb/>proper obedience to, and of
+          courſe a <w part="I">per-</w><lb/><w part="F">fect</w> performance of every law, that for
+          <lb/>theſe purpoſes may have been adopted. </p>
+        <p rend="indent" n="3"><lb/>III. The firſt material conſideration for <lb/>preſerving the
+          health of the Inhabitants in <lb/>a large Town, is a rigid attention, to every <lb/>ſtep
+          that can tend to produce cleanlineſs; <lb/>and in the laying out of every additional
+          <lb/>building, to ſecure a free communication of <lb/>pure air, and a facility of
+          preſerving <w part="I">clean-</w><lb/><w part="F">liness</w>, ought always to be kept in
+          view by <lb/>thoſe that have the management of the police. </p>
+        <p rend="indent" n="4"><lb/>IV. Nor ſhould a houſe be built in a <lb/>place likely to prove
+          unhealthy, ſince not <lb/>only its own inhabitants would ſuffer, but <lb/>it would readily
+          become a ſource of <w part="I">infec-</w><lb/><w part="F">tion</w> to the moſt extenſive
+          City. </p>
+        <p rend="indent" n="5"><lb/>V. In building a Town, the ſtreets ought <lb/>to be ſo wide as
+          to inſure a free circulation <lb/>of air, and the wider the ſtreets are in any <pb
+            xml:id="page_8" n="10"/><lb/>Town, the more healthy will the <w part="I"
+            >inhabit-</w><lb/><w part="F">ants</w> be found; whereas narrow ſtreets, by
+          <lb/>admitting a leſs proportion of pure air, <lb/>have every chance of creating
+          infectious diſeaſes. </p>
+        <p rend="indent" n="6"><lb/>VI. When it can be done, houſes ought <lb/>to be built on the
+          north ſide of any marſh, <lb/>ſwampy ground, or large rivers, that are <lb/>apt often to
+          ebb and flow, rather than on <lb/>the ſouth ſide of ſuch places: Becauſe <lb/>from theſe,
+          the ſun powerfully exhales <lb/>ſuch vapours, as by being breathed or <lb/>otherwiſe
+          applied to the body, are capable <lb/>of producing many contagious diſeaſes. <lb/>Whereas
+          the inhabitants on the north ſide <lb/>of ſuch places, are in no riſque of being
+          <lb/>expoſed to theſe aſcending vapours. Houſes <lb/>built on the north-weſt of a large
+          Town, <lb/>will always prove the moſt healthy. </p>
+        <p rend="indent" n="7"><lb/>VII. All ſlaughter-houſes, and butcheries, <lb/>ought to be in
+          the ſouth of every Town; <lb/>and the Magiſtrates ought to enforce the <lb/>greateſt
+          cleanlineſs in theſe places, that the <lb/>nature of ſuch buſineſs can admit of; and
+          <lb/>the filth produced in ſuch places ought not <lb/>to paſs through any channel, that
+          goes <pb xml:id="page_9" n="11"/><lb/>through the City. The moſt certain way <lb/>of
+          preventing diſeaſes from ariſing in <w part="I">con-</w><lb/><w part="F">ſequence</w> of
+          the filth of ſuch places, is by <lb/>obliging the butchers, &amp;c. to bury all offal,
+          <lb/>blood, &amp;c. before they have time to become <lb/>offenſive, or to remove them to
+          ſome <w part="I">diſ-</w><lb/><w part="F">tant</w> place from the City. </p>
+        <p rend="indent" n="8"><lb/>VIII. That of ſlaughtering animals in <lb/>the ſtreets, and
+          permitting the blood, &amp;c, <lb/>to remain there, ought to be made highly <lb/>criminal,
+          and puniſhed accordingly. </p>
+        <p rend="indent" n="9"><lb/>IX. All dead horſes, dogs, cats, &amp;c. <lb/>ought to be
+          buried, or carried to ſome <w part="I">diſ-</w><lb/><w part="F">tant</w> place; nothing
+          gives a ſtranger a <w part="I">mean-</w><lb/><w part="F">er</w> idea of the taſte of the
+          inhabitants of <lb/>a Town, or produces more certain ſources <lb/>of contagious diſeaſes,
+          than to ſee ſuch <lb/>dead animals laying about the ſtreets<note place="bottom" n="*"
+            rend="size(0.5)">* We have a well authenticated account of a very <lb/>violent
+            infectious fever breaking out at Fgmont in North <lb/>Holland, occaſioned by the rotting
+            of a Whale, which <lb/>had been left on the ſhore. There is likewiſe an inſtance <lb/>of
+            a contagious fever breaking out in the crew of a <lb/>French ſhip, owing to the
+            putrefaction of ſome cattle <lb/>that they had killed on the iſland of Nevis, in the
+            Weſt-<lb/>Indies. </note>. </p>
+        <pb xml:id="page_10" n="12"/>
+        <p rend="indent" n="10"><lb/>X. Tan-yards, and ſuch factories as <w part="I">pro-</w><lb/><w
+            part="F">duce</w> offenſive ſmells, ought never to be <lb/>permitted in the middle of
+          any large Town. <lb/>They ought only to be in ſuch parts as <lb/>have leaſt communication
+          with the <w part="I">inha-</w><lb/><w part="F">bitants</w> at large. </p>
+        <p rend="indent" n="11"><lb/>XI. All filth ſhould be removed from <lb/>every ſtreet and
+          lane, early every morning, <lb/>and carried to a common reſervoir at a <w part="I"
+            >con-</w><lb/><w part="F">ſiderable</w> diſtance from the Town; and <w part="I"
+            >peo-</w><lb/><w part="F">ple</w> ſhould be appointed, ſo many to each <lb/>diſtrict,
+          whoſe buſineſs it ought to be <w part="I">dur-</w><lb/><w part="F">ing</w> the day, to
+          carry entirely out of the <lb/>Town, whatever filth or dirt may be <w part="I"
+            >pro-</w><lb/><w part="F">duced</w> on the ſtreets. That of collecting <lb/>dunghills on
+          the ſtreets, and allowing them <lb/>to remain there, during the pleaſure of a
+          <lb/>Scavenger, is very hurtful to the health of <lb/>the inhabitants, </p>
+        <p rend="indent" n="12"><lb/>XII. Common ſewers, or ſhores, ought <lb/>to extend through
+          every ſtreet, and ſhould <lb/>empty themſelves entirely out of, or at <lb/>ſome diſtance
+          from the Town; and great <lb/>care ſhould be taken to keep them <w part="I"
+            >perfect-</w><lb/><w part="F">ly</w> free, and fit for their duty; it likewiſe
+          <lb/>ought to be a puniſhable crime, to throw <pb xml:id="page_11" n="13"/><lb/>any thing
+          into a ſhore that might tend to <lb/>choke it up. </p>
+        <p rend="indent" n="13"><lb/>XIII. The eſtabliſhing of publick Privies, <lb/>or
+          Neceſſary-houſes, in convenient parts of <lb/>a Town, is eſſential to its cleanlineſs; as
+          <lb/>the want of ſuch places of convenience, is <lb/>a material cauſe of the filth ſo
+          frequently <lb/>found in lanes, &amp;c. </p>
+        <p rend="indent" n="14"><lb/>XIV. Such publick Neceſſary-houſes, <lb/>ought to be carefully
+          attended to, by the <lb/>police officers, and ſo conſtructed as to be <lb/>eaſily cleaned,
+          which ought to be done <w part="I">ve-</w><lb/><w part="F">ry</w> early every morning<note
+            place="bottom" n="*" rend="size(0.5)">* When large armies have been long encamped on
+            <lb/>the ſame ground, putrid diſeaſes frequently ariſe, in <w part="I">con-</w><lb/><w
+              part="F">ſequence</w> of the filth unavoidably produced by a large <lb/>body of
+            people, for a length of time occupying the ſame <lb/>place; and the only mode of
+            reſtoring health to the <w part="I">ar-</w><lb/><w part="F">my</w>, has been found, to
+            be that of removing the camp to <lb/>new ground; and an army is generally moſt healthy,
+            <lb/>where the nature of the ſervice makes it neceſſary, for <lb/>the army to move
+            frequently. This mode, ſo well<lb/>known to the moderns, was ſometimes practiced by the
+            <lb/>ancient Generals. Vegetius ſeems to have been well <w part="I">ac-</w><lb/><w
+              part="F">quainted</w> with the neceſſity of cleanlineſs to remove or <lb/>prevent
+            contagious diſeaſes, for in his ſyſtem <hi rend="italic">de Re <w part="I"
+                >Mili-</w><lb/><w part="F">tari</w>,</hi> he uſes theſe words, <q rend="diple">Si
+              autumnali, æſtivoque <w part="I">tem-</w><lb/><w part="F">pore</w> diutius in iiſdem
+              locis militum multitudo conſiſtat, <lb/>ex contagione aquarum, et odoris ipſius
+              fœditate vitiatis <lb/>hauſtibus, et aere corrupto, perricieſiſſimus naſcitur <w
+                part="I">mor-</w><lb/><w part="F">bus</w>, qui prohiberi non poteſt aliter, niſi
+              frequenti <w part="I">muta-</w><lb/><w part="F">tione</w> caſtrorum. <hi rend="sc"
+                >Veget</hi>. <hi rend="italic">de Re Militari,</hi> lib. iii. cap. 2.</q>
+            <lb/>Quintus Curtius likewiſe tells of Alexander the Great <w part="I">af-</w><lb/><w
+              part="F">ter</w> the battle of Arbela, being obliged to follow the <lb/>ſame method to
+            preſerve the health of the ſoldiery. <lb/>"Ingruentibus deinde morbis, ques odor
+            cadaverum <w part="I">to-</w><lb/><w part="F">tis</w> jacentium campis vulgaverat,
+            maturius caſtra movit." <lb/>lib. v. 32. And in the moſt ancient times we find that
+            <lb/>cleanlineſs was reckoned eſſential to the preſervation of <lb/>health; and the
+            proper injunctions for that purpoſe, <lb/>were by no means ſuppoſed incompatible with
+            the <w part="I">dig-</w><lb/><w part="F">nity</w> of thoſe higheſt in power. Thus we
+            find the divine <lb/>law-giver Moſes, enjoining cleanlineſs in the camp of <lb/>the
+            Jews, in a moſt particular manner, when he ſays. <lb/><q rend="diple">Thou ſhalt have a
+              place alſo without the camp, <w part="I">whe-</w><lb/><w part="F">ther</w> thou ſhalt
+              go forth abroad: and thou ſhalt have a <lb/>paddle on thy weapon, and it ſhall be when
+              thou wilt <lb/>eaſe thyſelf abroad, thou ſhalt dig therewith, and ſhalt <lb/>turn back
+              and cover that which cometh from thee. For <lb/>the Lord thy God walketh in the midſt
+              of thy camp, to <lb/>deliver thee, and to give up thine enemies before thee:
+              <lb/>therefore ſhall thy camp be holy, that he ſee no unclean <lb/>thing in thee, and
+              turn away from thee, <hi rend="sc">Deut</hi>. chap. <lb/>xxiii. ver. 12, 13,
+            14.</q>—Since then we find how <w part="I">fre-</w><lb/><w part="F">quently</w>
+            contagious diſeaſes are produced in a camp, by a <lb/>great body of people collected
+            together, while at the ſame <lb/>time, the moſt judicious regulations for preſerving <w
+              part="I">clean-</w><lb/><w part="F">liness</w>, are by military diſcipline better
+            enforced, than <w part="I">per-</w><lb/><w part="F">haps</w> the beſt regulated civil
+            police can ever accompliſh; <lb/>and ſince it is evident, that the inhabitants of a
+            Town, <lb/>cannot avail themſelves of changing ground, and thereby <lb/>leaving behind
+            them whatever might tend to produce <w part="I">diſ-</w><lb/><w part="F">eaſes</w>, it
+            is eaſy to ſee how eſſentially neceſſary it muſt be <lb/>to take every ſtep, that can
+            tend to prevent the direful <lb/>conſequences ariſing from putrid ſubſtances laying in,
+            and <lb/>about a Town. </note>. </p>
+        <pb xml:id="page_12" n="14"/>
+        <p rend="indent" n="15"><lb/>XV. A plentiful ſupply of good water <lb/>is inſeparably
+          connected with the health of <lb/>a Town; the houſes of opulent <w part="I"
+            >individu-</w><lb/><w part="F">als</w> being provided with good water by <pb
+            xml:id="page_13" n="15"/><lb/>means of pipes, is of ſmall benefit to thoſe <lb/>of
+          inferior circumſtances, that in all <w part="I">nati-</w><lb/><w part="F">ons</w>
+          conſtitute the great body of the people. </p>
+        <p rend="indent" n="16"><lb/>XVI. The eaſy attainment of an ample <lb/>ſupply of this
+          neceſſary article in life to <lb/>the people at large, merits the greateſt <w part="I"
+            >at-</w><lb/><w part="F">tention</w> of the police. In many Towns <lb/>where good water
+          can only be obtained at <lb/>a diſtance, publick pipes that conduct the <lb/>water from
+          the grand reſervoir are <w part="I">eſtab-</w><lb/><w part="F">liſhed</w> in convenient
+          quarters of the Town, <lb/>by which means the poor are enabled to <lb/>partake of this
+          common bounty of <w part="I">provi-</w><lb/><w part="F">dence</w>, in as great perfection
+          as the rich. </p>
+        <p rend="indent" n="17"><lb/>XVII. Jails, Poor-houſes, and Hoſpitals, <lb/>ought always to
+          be in the moſt remote <lb/>quarters of a Town; but at the ſame time <pb xml:id="page_14"
+            n="16"/><lb/>in ſuch places as are little likely by <w part="I">ſitua-</w><lb/><w
+            part="F">tion</w> to become unhealthy, leaſt they ſhould <lb/>turn out nurſeries for
+          propagating diſeaſes. </p>
+        <p rend="indent" n="18"><lb/>XVIII. An officer of the police ought <lb/>daily to viſit every
+          part of the jail, <w part="I">poor-</w><lb/><w part="F">houſe</w>, and other publick
+          charity, to enforce <lb/>a due obedience, to ſuch orders as the <w part="I">po-</w><lb/><w
+            part="F">lice</w> may think proper to make, for the <w part="I">re-</w><lb/><w part="F"
+            >gulation</w> of ſuch places; and the viſiting <lb/>officer ſhould be authoriſed, to
+          inflict ſuch <lb/>puniſhment as may ſeem neceſſary (and as <lb/>may have been fixed by the
+          police) for any <lb/>neglect of duty, or diſobedience of orders, <lb/>that the reſpective
+          officers of ſuch places <lb/>may be found guilty of. </p>
+        <p rend="indent" n="19"><lb/>XIX. In all jails, poor-houſes, &amp;c. the <lb/>utmoſt
+          attention ſhould be paid, to the <lb/>ſhirts and ſhifts of the priſoners in jail, and
+          <lb/>the inhabitants of a poor houſe. Their <lb/>linen ought to be changed at leaſt twice
+          a <lb/>week, and the officer of police ſhould not <lb/>only enforce this order, but ſhould
+          take <lb/>care that the linen has been properly <w part="I">waſh-</w><lb/><w part="F"
+            >ed</w>, and well aired before it is given to <lb/>wear. </p>
+        <pb xml:id="page_15" n="17"/>
+        <p rend="indent" n="20"><lb/>XX. All jails, poor-houſes, &amp;c. ought to <lb/>be provided
+          with a ſufficient quantity of <lb/>linen, to ſupply ſuch as may be ſent there <lb/>without
+          a ſufficiency of this neceſſary <w part="I">arti-</w><lb/><w part="F">cle</w>; and thoſe
+          who have the care of ſuch <lb/>places, ought to be anſwerable, that ſuch <lb/>linen is
+          kept in good order, and always <lb/>forth coming. And every jail ſhould be <lb/>ſupplied
+          with a quantity of good <w part="I">blanket-</w><lb/><w part="F">ting</w>. </p>
+        <p rend="indent" n="21"><lb/>XXI. Every room in jail, poor-houſe, <lb/>&amp;c. ought to be
+          ſwept carefully every <lb/>morning, the ſides and ceiling as well as <lb/>the floor ought
+          to undergo this operation; <lb/>and the ſtraw and other bedding, when the <lb/>weather is
+          dry, ought to be carried out, and <lb/>laid in a yard (that ought always to belong <lb/>to
+          a jail) for the benefit of the air, five or <lb/>ſix hours every day. </p>
+        <p rend="indent" n="22"><lb/>XXII. As ſoon as the ſtraw, bedding, <lb/>&amp;c. has been
+          carried out of the different <lb/>rooms, the floors ought to be ſtrewed <lb/>over with
+          ſand or ſaw-duſt, which next <lb/>morning is to be ſwept out, and the ſame <lb/>proceſs to
+          be repeated every day. </p>
+        <pb xml:id="page_16" n="18"/>
+        <p rend="indent" n="23"><lb/>XXIII. When wet weather renders the <lb/>carrying into the air
+          of the ſtraw and other <lb/>bedding inadmiſſible, they ſhould be <w part="I"
+            >re-</w><lb/><w part="F">moved</w> into a corner of the room, to <w part="I"
+            >per-</w><lb/><w part="F">mit</w> it to undergo the directions ordered as <lb/>above. </p>
+        <p rend="indent" n="24"><lb/>XXIV. The ſtraw for a jail, poor-houſe, <lb/>&amp;c. ought to
+          be changed at leaſt once <w part="I">eve-</w><lb/><w part="F">ry</w> month, and care
+          ſhould be taken that <lb/>the old ſtraw is either burnt, or carried to <lb/>ſome diſtance
+          from the Town. </p>
+        <p rend="indent" n="25"><lb/>XXV. If feather-beds, or <w part="I">hair-mattreſ-</w><lb/><w
+            part="F">ſes</w>, are ever uſed in a jail, poor-houſe, &amp;c. <lb/>beſides being
+          regularly expoſed to the free <lb/>air, on every dry day, they ought to be <w part="I"
+            >ſu-</w><lb/><w part="F">migated</w> once a week, by being held at a <lb/>proper
+          diſtance over the ſmoke of burning <lb/>brimſtone, or gun-powder. </p>
+        <p rend="indent" n="26"><lb/>XXVI. All ſheeting ſhould be changed <lb/>once a fortnight, and
+          the ſheets and <w part="I">blan-</w><lb/><w part="F">kets</w> when the weather will
+          permit, ought <lb/>to be put on ropes fixed in the yard for the <lb/>purpoſe of expoſing
+          them to the action of <lb/>the air. </p>
+        <pb xml:id="page_17" n="19"/>
+        <p rend="indent" n="27"><lb/>XXVII. Every boarded floor ſhould be <lb/>waſhed with ſoap and
+          water once every<lb/> week, and it ought to be done in the <w part="I">morn-</w><lb/><w
+            part="F">ing</w> of a dry day, that the inhabitants of <lb/>the room may be enabled to
+          remain in the <lb/>yard, till the floor is perfectly dry and <w part="I">co-</w><lb/><w
+            part="F">vered</w> over with ſand. The ſides of the <lb/>room and ceiling ſhould undergo
+          the ſame <lb/>operation. </p>
+        <p rend="indent" n="28"><lb/>XXVIII. All dungeons of a jail ſhould <lb/>have boarded
+          bottoms, and their ſides <w part="I">plaiſ-</w><lb/><w part="F">tered</w> to make
+          cleanlineſs the more <w part="I">practica-</w><lb/><w part="F">ble</w>; but when theſe
+          places happen to have <lb/>clay floors, and rough walls for their ſides, <lb/>the floors
+          and walls ought daily to be ſwept <lb/>with a hard broom, and the walls once a <lb/>week,
+          ought to be waſhed by throwing <lb/>ſoap and water upon them with a mop, <lb/>after which
+          they may be dried by <w part="I">careful-</w><lb/><w part="F">ly</w> ſweeping with a
+          broom, and by burning <lb/>ſome fuel in a chaffing diſh; a practice that <lb/>ought
+          frequently to be uſed in all <w part="I">ſubtera-</w><lb/><w part="F">neous</w>
+          apartments, and which ought <w part="I">like-</w><lb/><w part="F">wiſe</w> to be had
+          recourſe to in all rooms in <lb/>jails, poor-houſes, &amp;c. </p>
+        <p rend="indent" n="29"><lb/>XXIX. Every room ſhould have its <w part="I">win-</w><lb/><w
+            part="F">dows</w> ſo ſituated, as to admit of a free <w part="I">cur-</w><pb
+            xml:id="page_18" n="20"/><lb/><w part="F">rent</w> of freſh air at pleaſure; and all <w
+            part="I">win-</w><lb/><w part="F">dow</w> ſaſhes, when there is no rain, ſhould be
+          opened ſome hours every day. </p>
+        <p rend="indent" n="30"><lb/>XXX. Every jail, and poor-houſe or <lb/>other charity, ought to
+          have a commodious <lb/>yard annexed to it, and a privy ſhould be <lb/>ſituated in ſome
+          part of it, that will prove <lb/>leaſt offenſive. Into theſe privies all <w part="I"
+            >cham-</w><lb/><w part="F">ber-pots</w>, &amp;c. ſhould be emptied, and the <lb/>regular
+          cleaning of ſuch privies, ſhould be <lb/>carefully attended to. </p>
+        <p rend="indent" n="31"><lb/>XXXI. Every priſoner in jail, ought to <lb/>be (unleſs
+          prevented by ſickneſs) made to <lb/>remain in the yard for ſome hours every <lb/>day in
+          fair weather, and as a military guard <lb/>attends on every jail, a proper number of
+          <lb/>centinels being poſted in the yard, would <lb/>render the walking about of thoſe <w
+            part="I">con-</w><lb/><w part="F">demned</w> to die, perfectly admiſſible. <w part="I"
+            >Eve-</w><lb/><w part="F">ry</w> priſoner ought to twig and bruſh his <lb/>cloaths in
+          the yard, every day in dry <w part="I">wea-</w><lb/><w part="F">ther</w>. </p>
+        <p rend="indent" n="32"><lb/>XXXII. A ſeparate building with <w part="I">con-</w><lb/><w
+            part="F">venient</w> rooms ought to belong to every jail, <lb/>and publick building, for
+          the purpoſe of an <pb xml:id="page_19" n="21"/><lb/>hoſpital for the ſick, and when this
+          cannot <lb/>be had, a ſufficient number of rooms <w part="I">be-</w><lb/><w part="F"
+            >longing</w> to the building itſelf, ſhould be <w part="I">ap-</w><lb/><w part="F"
+            >propriated</w> to that purpoſe. </p>
+        <p rend="indent" n="33"><lb/>XXXIII. As the regulation of the <w part="I">apart-</w><lb/><w
+            part="F">ments</w> for the ſick will neceſſarily belong to <lb/>the Faculty that attend
+          them, I reckon any <lb/>directions on that head unneceſſary. </p>
+        <p rend="indent" n="34"><lb/>XXXIV. Whenever any perſon <w part="I">belong-</w><lb/><w
+            part="F">ing</w> to a jail, or other publick building is <lb/>taken ſick, he ought
+          immediately to be <w part="I">re-</w><lb/><w part="F">ported</w> to the Surgeon, or
+          Phyſician, and <lb/>the perſon taken ill, ſhould be removed to <lb/>the hoſpital. </p>
+        <p rend="indent" n="35"><lb/>XXXV. Men of the firſt abilities only, <lb/>in phyſic and
+          ſurgery, ſhould be entruſted <lb/>with the care of the ſick, the conſequence <lb/>of
+          delegating this important office, to the <lb/>charge of an apothecary is highly <w
+            part="I">danger-</w><lb/><w part="F">ous</w> to the inhabitants at large. Since in
+          <lb/>all ſuch places, infectious diſeaſes are more <lb/>likely to break out than any where
+          elſe, it <lb/>follows, that the practitioners ſhould be <lb/>ſuch, as by their abilities
+          are beſt able, <lb/>ſpeedily to put a ſtop to them. </p>
+        <pb xml:id="page_20" n="22"/>
+        <p rend="indent" n="36"><lb/>XXXVI. In every large Town there <lb/>ought to be commodious
+          hoſpitals for the <lb/>reception of medical, as well as ſurgical <w part="I"
+            >pa-</w><lb/><w part="F">tients</w>, and in ſuch hoſpitals there ſhould <lb/>be a ſuite
+          of rooms for the accommodation <lb/>of ſuch ſervants of the inhabitants of the <lb/>Town,
+          as may be taken ill of infectious <lb/>diſeaſes<note place="bottom" n="*" rend="size(0.5)"
+            >* The happy effects of ſuch an inſtitution are amply <lb/><unclear>S##</unclear> by the
+            inhabitants of Edinburgh. </note>. </p>
+        <p rend="indent" n="37"><lb/>XXXVII. There ſhould likewiſe be a <lb/>publick Diſpenſary,
+          where ſuch of the <w part="I">diſ-</w><lb/><w part="F">eaſed</w> poor whoſe caſes do not
+          require <w part="I">con-</w><lb/><w part="F">finement</w>, may receive medicine and
+          advice, <lb/>and the medical attendants of the <w part="I">Diſpen-</w><lb/><w part="F"
+            >ſary</w> ſhould viſit ſuch as are confined at <lb/>home, whenever the hoſpitals happen
+          to be <lb/>full. </p>
+        <p rend="indent" n="38"><lb/>XXXVIII. Whenever any infectious <w part="I">diſ-</w><lb/><w
+            part="F">eaſe</w> appears in a Town, it ought <w part="I">immedi-</w><lb/><w part="F"
+            >ately</w> to be reported to the chief magiſtrate, <lb/>who ought to ſummon a meeting of
+          the <lb/>police, to conſult with ſome of the moſt <lb/>eminent of the Faculty, on ſuch
+          ſteps as by <lb/>being carried into execution, may be moſt <lb/>likely to put a ſtop to
+          its progreſs. </p>
+        <pb xml:id="page_21" n="23"/>
+        <p rend="indent" n="39"><lb/>XXXIX. Every perſon that dies of any <lb/>infectious diſeaſe,
+          ought to be buried in <lb/>twenty-four hours after death; and when <lb/>infectious
+          diſeaſes prevail and great <w part="I">morta-</w><lb/><w part="F">lity</w>, the ringing of
+          bells at deaths and <w part="I">fu-</w><lb/><w part="F">nerals</w> ſhould be ſtrictly
+          prohibited. And <lb/>the idle, diſſipated cuſtom of a number of <lb/>people aſſembling at
+          wakes, ought on all <lb/>ſuch occaſions to be forbidden, as ſuch a <lb/>practice is
+          extremely dangerous. </p>
+        <p rend="indent" n="40"><lb/>XL. Thoſe who attend funeral <w part="I">cere-</w><lb/><w
+            part="F">monies</w>, ſhould not perform theſe duties <lb/>with an empty ſtomach, for in
+          this <w part="I">ſituati-</w><lb/><w part="F">on</w> they will be more apt to catch
+          infection, <lb/>both from the corpſe, and the hurtful <w part="I">va-</w><lb/><w part="F"
+            >pours</w> that ariſe from a newly opened grave, <lb/>than after a meal. </p>
+        <p rend="indent" n="41"><lb/>XLI. When infectious diſeaſes are <w part="I">pre-</w><lb/><w
+            part="F">valent</w> in a Town, it will be of great <w part="I">ſer-</w><lb/><w part="F"
+            >vice</w> to burn gun-powder in the ſtreets, and <lb/>to make fires in different parts
+          of the <lb/>Town, of any wood that abounds with <w part="I">re-</w><lb/><w part="F"
+            >ſin</w>, ſuch as the different ſpecies of fir. </p>
+        <p rend="indent" n="42"><lb/>XLII. In every houſe where there is <lb/>any infectious fever,
+          vinegar ought ſeveral <pb xml:id="page_22" n="24"/><lb/>times in the day to be boiled, and
+          ſprinkled <lb/>while hot in every room; and a ſauce-pan <lb/>filled with hot vinegar,
+          ſhould always be <lb/>kept in the patients chamber. The <w part="I">burn-</w><lb/><w
+            part="F">ing</w> of frankincenſe<note place="bottom" n="*" rend="size(0.5)">* I remember
+            to have checked the progreſs of a <w part="I">ve-</w><lb/><w part="F">ry</w> contageous
+            fever by this mode, after all others had <lb/>failed, in a Barrack ſituated in the midde
+            of the Bog of <lb/>Allen. The ſmoke of the Juniper, or of its rocts and <lb/>berries,
+            has long been eſteemed an efficacious remedy <lb/>againſt diſtempers; and Mindererus in
+            his <hi rend="italic">Medicina <w part="I">Mi-</w><lb/><w part="F">litaris</w>,</hi>
+            adviſes to burn fires of Juniper before the tents, <lb/>when the Hungarian-diſorder, the
+            ſpotted-fever, or other <lb/>peſtilential diſorders are frequent in an army.—During
+            <lb/>the continuance of infectious diſeaſes, fires ought to be <lb/>burnt in every
+            houſe, whenever the temperature of the <lb/>the weather permits. </note> is very
+          pleaſant to the <lb/>ſmell, and very powerful in purifying <w part="I">pu-</w><lb/><w
+            part="F">trid</w> air. </p>
+        <p rend="indent" n="43"><lb/>XLIII. When infectious diſeaſes <w part="I">pre-</w><lb/><w
+            part="F">vail</w>, every attention to cleanlineſs of <w part="I">per-</w><lb/><w
+            part="F">ſon</w> ſhould be doubled, particularly in <w part="I">re-</w><lb/><w part="F"
+            >gard</w> to linen; for during ſuch times the <lb/>perſpiration ſooner becomes hurtful,
+          and <lb/>more powerful in producing a contageous <lb/>matter capable of bringing on a
+          fever, than <lb/>when ſuch diſeaſes are not general. </p>
+        <pb xml:id="page_23" n="25"/>
+        <p rend="indent" n="44"><lb/>XLIV. All attendants on the ſick in <lb/>ſuch fevers, ſhould be
+          careful in holding the <lb/>head as little over the patient as poſſible, or <lb/>in
+          ſpeaking very near to the patient: this <lb/>caution is to prevent the hurtful effluvia
+          <lb/>(that are more powerful in proportion as <lb/>they are near to the patient) from
+          entering <lb/>the lungs. </p>
+        <p rend="indent" n="45"><lb/>XLV. When the Faculty, Clergy, or <lb/>others that may for any
+          time be obliged to <lb/>ſtay by the patients bed-ſide, are there, a <lb/>veſſel containing
+          warm vinegar ought to <lb/>be placed near them; and it is better to <lb/>ſmell to any
+          grateful ſubſtance, than to <lb/>chew any thing as a preventative, becauſe <lb/>in doing
+          the latter there is danger of the <lb/>infectious matter being entangled with the
+          <lb/>ſpittle, and thereby of producing what it <lb/>was intended to prevent. </p>
+        <p rend="indent" n="46"><lb/>XLVI. Whenever a perſon dies of any <lb/>contagious diſeaſe,
+          the corpſe ought <w part="I">quick-</w><lb/><w part="F">ly</w> after death to be put into
+          a cloſe coffin, <lb/>and the room in which the perſon died <lb/>ſhould be well aired, by
+          having the <w part="I">win-</w><lb/><w part="F">dows</w> opened, until a charcoal fire be
+            <w part="I">kin-</w><lb/><w part="F">dled</w> with ſome rolls of ſulphur upon it; <pb
+            xml:id="page_24" n="26"/><lb/>after which both doors and windows ought <lb/>to be kept
+          ſhut, for a conſiderable time, not <lb/>leſs than eight or ten hours, until the room
+          <lb/>be thoroughly ſmoked; after which the <lb/>windows ought to be again opened for <w
+            part="I">ſe-</w><lb/><w part="F">veral</w> hours, and the room ſhould not only <lb/>be
+          well ſcoured with ſoap and water, but <lb/>likewiſe with warm vinegar, before any <lb/>one
+          inhabits it. The ſame ſteps ought to <lb/>be taken with every room in which an <w part="I"
+            >in-</w><lb/><w part="F">fectious</w> diſeaſe has been, though the <w part="I"
+            >pati-</w><lb/><w part="F">ent</w> may have recovered: and for this <w part="I"
+            >pur-</w><lb/><w part="F">poſe</w> it is proper that whenever a perſon is <lb/>ſo far
+          recovered from any contagious <w part="I">diſ-</w><lb/><w part="F">eaſe</w>, as to admit
+          of being moved with <w part="I">ſafe-</w><lb/><w part="F">ty</w>, the patient ſhould be
+          conveyed to <w part="I">ano-</w><lb/><w part="F">ther</w> chamber, to permit the one
+          occupied <lb/>during the diſeaſe to undergo the neceſſary <lb/>purification. </p>
+        <p rend="indent" n="47"><lb/>XLVII. It may perhaps be proper to <w part="I">ob-</w><lb/><w
+            part="F">ſerve</w>, that the blankets, linen, &amp;c. of ſuch <lb/>as die of infectious
+          diſeaſes, ought to be <lb/>ſteeped for ſome time in cold water, before <lb/>they undergo
+          the uſual proceſs of being <lb/>waſhed: for if without this precaution <lb/>they were to
+          be waſhed in hot water in <lb/>the uſual manner, the hurtful ſteams that <pb
+            xml:id="page_25" n="27"/><lb/>would thereby be produced, might prove <lb/>very dangerous
+          to the perſon employed in <lb/>waſhing them. </p>
+        <p rend="indent" n="48"><lb/>XLVIII. Thoſe whoſe duty it may be <lb/>to go amongſt the ſick,
+          ought never to <w part="I">per-</w><lb/><w part="F">form</w> that duty faſting; even a
+          ſmall <w part="I">quan-</w><lb/><w part="F">tity</w> of aliment taken into the ſtomach,
+          <lb/>gives great vigour to the whole body; and <lb/>the body is more or leſs likely to be
+            <w part="I">affect-</w><lb/><w part="F">ed</w> with contagion, in proportion to the
+          ſtate <lb/>of ſtrength or weakneſs of the ſtomach: It <lb/>is therefore proper for thoſe
+          that are <w part="I">oblig-</w><lb/><w part="F">ed</w> to have much intercourſe with the
+          ſick <lb/>in contagious diſeaſes, to take a doſe of ſome <lb/>comfortable ſtomachic
+          medicine every <w part="I">morn-</w><lb/><w part="F">ing</w> an hour before breakfaſt; and
+          I have <lb/>from much experience found, that an ounce <lb/>of Huxham's Tincture of Bark,
+          is as uſeful <lb/>a preventative as can be taken<note place="bottom" n="*"
+            rend="size(0.5)">* Some people labour under diſeaſes that render the <lb/>uſe of bark
+            improper, and in ſuch caſes, I would as a <lb/>preventative againſt infection recommend
+            an ounce of <lb/>Rue, and half an ounce of Garlick, to be ſteeped in a <lb/>quart of
+            Brandy, for two days, and a wine glaſſ-full of <lb/>this Tincture to be taken every
+            morning before <w part="I">break-</w><lb/><w part="F">faſt</w>. </note>. </p>
+        <pb xml:id="page_26" n="28"/>
+        <p rend="indent" n="49"><lb/>XLIX. Whatever effects the ſtrength of <lb/>the ſtomach, has a
+          powerful effect in <w part="I">pro-</w><lb/><w part="F">ducing</w> or preventing
+          contagious diſeaſes; <lb/>therefore every ſtep ought to be taken, to <lb/>keep that organ
+          in the utmoſt vigour <w part="I">dur-</w><lb/><w part="F">ing</w> the prevalence of
+          infectious diſeaſes: <lb/>and for this purpoſe, the utmoſt <w part="I">circum-</w><lb/><w
+            part="F">ſpection</w> in the way of living ought to be <lb/>attended to, and all ſuch
+          food as has been <lb/>generally found to diſagree with the <w part="I">ſto-</w><lb/><w
+            part="F">mach</w>, ought on ſuch occaſions to be <w part="I">care-</w><lb/><w part="F"
+            >fully</w> avoided. </p>
+        <p rend="indent" n="50"><lb/>L. A due quantity of generous wine, <lb/>ſhould be uſed by
+          every one whoſe <w part="I">circum-</w><lb/><w part="F">ſtances</w> will admit of it; at
+          the ſame time, <lb/>I think it neceſſary to ſay that exceſs in <lb/>drinking, by leaving
+          the ſtomach, and of <lb/>courſe the whole body in a weakened ſtate, <lb/>would prove
+          hurtful. Exceſs in eating on <lb/>all ſuch occaſions ſhould be carefully <w part="I"
+            >avoid-</w><lb/><w part="F">ed</w>, as being capable of throwing the <w part="I"
+            >ſto-</w><lb/><w part="F">mach</w> into that ſtate, that may readily <w part="I"
+            >in-</w><lb/><w part="F">vite</w> any infectious diſorder; nay ſome of <lb/>the ancient
+          phyſicians reckoned any exceſs <lb/>in eating, more dangerous than that of <lb/>drinking,
+          for Celſus ſays, <q rend="quotes">Si qua, <w part="I">intem-</w><lb/><w part="F"
+              >perantia</w> ſubeſt, tutior eſt in potione, quam <pb xml:id="page_27" n="29"/><lb/>in
+            eſca.</q> that is, it is ſafer to exceed in <lb/>drinking than in eating. But every kind
+          <lb/>of intemperance is hurtful. </p>
+        <p rend="indent" n="51"><lb/>LI. During the continuance of <w part="I">contagi-</w><lb/><w
+            part="F">ous</w> diſeaſes, it is improper to go abroad <w part="I">in-</w><lb/><w
+            part="F">to</w> the ſtreets before breakfaſt, and it would <lb/>be proper for thoſe that
+          are obliged to go <lb/>abroad before this meal, to take a draught <lb/>of new milk to
+          which a little good brandy <lb/>has been added. </p>
+        <p rend="indent" n="52"><lb/>LII. Such as have weak ſtomachs and <lb/>are not able to make a
+          hearty breakfaſt, <lb/>ought to take a glaſs or two of good wine, <lb/>ſome time before
+          dinner; the addition of <lb/>a little bark to the wine would be of <lb/>ſervice<note
+            place="bottom" n="*" rend="size(0.5)">* During the campain in Hungary, in the year 1717.
+            <lb/>Count Boneval preſerved both himſelf and family from <lb/>diſorders, by taking
+            himſelf, and making all his domeſtics <lb/>take, two or three times a day, a ſmall
+            quantity of <w part="I">Bran-</w><lb/><w part="F">dy</w> in which Bark had been infuſed,
+            at a time when all <lb/>the reſt of the army were infected with malignant <w part="I"
+              >diſor-</w><lb/><w part="F">ders</w>.—A regiment in Italy continued healthy by the uſe
+            <lb/>of the Bark, when the reſt of the Auſtrian army, that <lb/>did not purſue the ſame
+            method were greatly annoyed <lb/>with ſickneſs. </note>. </p>
+        <pb xml:id="page_28" n="30"/>
+        <p rend="indent" n="53"><lb/>LIII. A moderate uſe of ripe fruit, is of <lb/>great ſervice in
+          preventing putrid diſeaſes; <lb/>and vegetable acids ſuch as lemon juice, <lb/>&amp;c.
+          when they agree with the bowels are <lb/>very proper ingredients in drink. The beſt
+          <lb/>time for eating fruit is two or three hours <lb/>before dinner.<note place="bottom"
+            rend="size(0.5)"> Towards the end of the year 1743, Mr. Tough, then <lb/>a mate to a
+            regiment, was ordered to go down the Rhine <lb/>from Germany to Flanders, with a party
+            of ſick, that <lb/>had the ſeeds of the Hoſpital or Jail-fever among them, <lb/>and were
+            to go in Bilanders. Having had a cask or two <lb/>of Brandy put on board as ſtores for
+            the ſick, he was <lb/>afraid leſt the men ſhould make too free with the ſpirits, <lb/>to
+            prevent which he threw a quantity of Bark into each <lb/>cask, and gave the men
+            regularly merning and evening, <lb/>a glaſs of this bitter tincture. At the ſame time
+            the men <lb/>were kept extremely clean. By theſe means moſt of the <lb/>ſick mended on
+            the paſſage, and they had no return of <lb/>the malignant fever amongſt them; whereas
+            Sir John <lb/>Pringle, who takes notice of the other partics that came <lb/>from the
+            ſame Hoſpitals in Germany, tells us, that the <lb/>malignant fever broke out in a
+            violent degree, and half <lb/>the number died by the way, and ſeveral others ſoon <w
+              part="I">af-</w><lb/><w part="F">ter</w> their arrival. </note>
+        </p>
+        <p rend="indent" n="54"><lb/>LIV. Sitting up late, and laying long in <lb/>bed, are hurtful
+          at all times, but by <w part="I">weak-</w><lb/><w part="F">ening</w> the body become
+          particularly <w part="I">dange-</w><lb/><w part="F">rous</w> during the prevalence of
+          infectious <pb xml:id="page_29" n="31"/><lb/>diſeaſes. A moderate degree of exerciſe in
+          <lb/>the open air which is at all times proper <lb/>for health, is particularly neceſſary
+          when <lb/>contagion reigns. Cold bathing is an <w part="I">uſe-</w><lb/><w part="F"
+            >ful</w> aſſiſtant in the prevention of diſeaſes. </p>
+        <p rend="indent" n="55"><lb/>LV. Nothing ſo much prediſpoſes a <w part="I">per-</w><lb/><w
+            part="F">ſon</w> to receive infection, as to entertain a <lb/>conſtant dread of catching
+          any diſeaſe. <w part="I">No-</w><lb/><w part="F">thing</w> weakens the whole body ſo much
+          as <lb/>conſtant anxiety and fear; and as I have <lb/>already remarked, whatever tends to
+            <w part="I">dimi-</w><lb/><w part="F">niſh</w> the vigour of the body, acts <w part="I"
+            >powerful-</w><lb/><w part="F">ly</w> in laying the foundation of diſeaſe. A
+          <lb/>fearleſs diſpoſition is beſt calculated to <w part="I">en-</w><lb/><w part="F"
+            >able</w> the body to reſiſt any contagious dis-<lb/>order<note place="bottom" n="*"
+            rend="size(0.5)">* We have a ſtriking inſtance of the dangerous <w part="I"
+              >con-</w><lb/><w part="F">ſequence</w> of fear, in the caſe of a man at
+            Conſtantinople, <lb/>when the plague happened to rage there with unuſual <w part="I"
+              >vi-</w><lb/><w part="F">olence</w>. This man from a natural intrepidity of mind,
+            <lb/>had been extremely uſeful in carrying out of the city, and <lb/>burying many
+            hundreds that died, at a time when it was <lb/>very diſſicult to find people hardy
+            enough to perform this <lb/>neceſſary duty. It happened however one morning that <lb/>he
+            found one of thoſe he was carrying to bury to be one <lb/>of his neareſt relations and
+            moſt intimate friends, by which <lb/>he immediately became ſo much ſhocked, that he was
+            <lb/>ſpeedily ſeized with the plague and died. </note>. </p>
+        <pb xml:id="page_30" n="32"/>
+        <p rend="indent" n="56"><lb/>LVI. Nothing is more injurious to health <lb/>than to walk late
+          in the evening: dews <w part="I">be-</w><lb/><w part="F">gin</w> to fall as ſoon as the
+          ſun is ſet, and <lb/>walking abroad after this time, has in all <lb/>countries been found
+          to be a powerful cauſe <lb/>of producing diſeaſes. </p>
+      </div>
+      <div>
+        <pb xml:id="page_31"/>
+        <head rend="align-center size(1.7)"><lb/>POSTSCRIPT. </head>
+        <p rend="indent"><lb/><hi rend="dc(2)">A</hi>S putrid diſeaſes are very common <lb/>and
+          violent in hot countries, it is very <w part="I">ne-</w><lb/><w part="F">ceſſary</w> for
+          Europeans who viſit thoſe <w part="I">cli-</w><lb/><w part="F">mates</w> to be well
+          informed, of the ſigns of <lb/>an unhealthy country, that they may be on <lb/>their guard
+          as ſoon as they enter any <w part="I">fo-</w><lb/><w part="F">reign</w> region. </p>
+        <p rend="indent"><lb/>By the beſt judges the following are <w part="I">conſi-</w><lb/><w
+            part="F">dered</w> as chiefly demanding notice. </p>
+        <p rend="indent" n="1"><lb/>1. A ſudden and great alteration in the <lb/>air at ſunſet, from
+          intolerable heat to a <lb/>chilling cold. This is perceived as ſoon as <lb/>the ſun is
+          down, and is for the moſt part <lb/>accompanied with a heavy fall of dew; it <lb/>ſhews an
+          unhealthy ſwampy ſoil; the <w part="I">na-</w><lb/><w part="F">ture</w> of which is ſuch,
+          that no ſooner the <lb/>ſun-beams are withdrawn, than the vapours <lb/>emitted from it,
+          render the air damp, raw, <lb/>and chilling in the moſt ſultry climates; ſo <lb/>that even
+          under the equator in ſome <w part="I">un-</w><pb xml:id="page_32" n="34"/><lb/><w part="F"
+            >healthy</w> places, the night-air is very cold to <lb/>an European conſtitution. </p>
+        <p rend="indent" n="2"><lb/>2. Thick fogs, chiefly after ſun-ſet, <w part="I"
+            >ariſ-</w><lb/><w part="F">ing</w> from the valleys, and particularly from <lb/>the mud,
+          ſlime, and other impurities. In <lb/>hot countries the ſmell of theſe fogs, may <lb/>be
+          compared to that of a new cleaned ditch. <lb/>Diſeaſes therefore ariſing from this cauſe,
+          <lb/>generally take place in the night, or before <lb/>ſun-riſing. </p>
+        <p rend="indent" n="3"><lb/>3. Numerous ſwarms of flies, gnats, and <lb/>other inſects,
+          which attend ſtagnated air, <lb/>and unhealthy places covered with wood. </p>
+        <p rend="indent" n="4"><lb/>4. When all butchers meat ſoon <w part="I">cor-</w><lb/><w
+            part="F">rupts</w>, and in a few hours becomes full of <lb/>maggots; when metals are
+          quickly ruſted <lb/>on being expoſed to the air; and when a <lb/>corpſe becomes
+          intolerably offenſive in leſs <lb/>than ſix hours; theſe are proofs of a cloſe, <lb/>hot,
+          and unwholeſome country. And in <lb/>ſuch places during exceſſive heats and great
+          <lb/>calms, it is not uncommon for Europeans, <lb/>eſpecially ſuch as are of a groſs habit
+          of <w part="I">bo-</w><lb/><w part="F">dy</w>, to be ſeized at once with moſt <w part="I"
+            >alarm-</w><lb/><w part="F">ing</w>, and fatal ſymptoms of what is called the <pb
+            xml:id="page_33" n="35"/><lb/>yellow-fever, without even any previous <lb/>complaint of
+          ſickneſs, or other ſymptom of <lb/>the diſeaſe, and the patient has often been
+          <lb/>carried off in leſs than forty-eight hours. </p>
+        <p rend="indent" n="5"><lb/>5. A ſort of ſandy ſoil, commonly a <lb/>ſmall looſe white ſand,
+          as that at <w part="I">Penſaco-</w><lb/><w part="F">la</w>, Whydah, and the iſland of
+          Bonaviſta, <lb/>which is found by experience to be <w part="I">injuri-</w><lb/><w part="F"
+            >ous</w> to health. The peſtiferous vapours <w part="I">ari-</w><lb/><w part="F"
+            >ſing</w> during the ſummer months, and in the <lb/>heat of the day from ſuch a ſandy
+          ſoil, is <lb/>beſt characteriſed from its effects in the <w part="I">ex-</w><lb/><w
+            part="F">tenſive</w> deſarts of Aſia and Africa. It there <lb/>conſtitutes what is
+          called the Samiel Wind; <lb/>a blaſt which in the parched deſart, proves <lb/>inſtantly
+          fatal both to man and beaſt; but <lb/>when it paſſes over a ſoil well covered with
+          <lb/>graſs and vegetables has its effects greatly <lb/>mitigated: it is however even then
+          always <lb/>productive of ſickneſs. Thus the <w part="I">ſouth-</w><lb/><w part="F"
+            >erly</w> winds, while they blow from the <w part="I">de-</w><lb/><w part="F"
+            >deſarts</w> of Lybia, in the ſummer, at Algiers, <lb/>Tunis, and Tripoli, produce an
+          unhcalthy <lb/>ſeaſon; and at Madraſs the winds, which <lb/>in the months of April and
+          May, paſs over <lb/>a large tract of ſand, are always hot, <w part="I">diſa-</w><lb/><w
+            part="F">greeable</w>, and unwholeſome. </p>
+        <pb xml:id="page_34" n="36"/>
+        <p rend="indent"><lb/>During theſe land winds, ſudden guſts <lb/>of a more hot and
+          ſuffocating nature, are <lb/>often obſerved to come from thoſe ſands, <lb/>once or twice,
+          or even more frequently in <lb/>a day, which ſeem to be this vapour in a <lb/>purer form.
+          Theſe guſts paſs very <w part="I">quick-</w><lb/><w part="F">ly</w>, and affect perſons
+          who happen to ſtand <lb/>with their faces towards them, in the ſame <lb/>manner as the hot
+          air, which iſſues from a <lb/>burning furnace, or from a heated oven, <lb/>and obliges
+          them immediately to turn away <lb/>from it in order to recover breath. </p>
+        <p rend="indent"><lb/>The effect of this hot ſuffocating blaſt <lb/>on the human body, even
+          when mitigated <lb/>by paſſing through a moiſt atmoſphere, is <lb/>the ſame as that of
+          intenſe cold; it ſhuts <lb/>up every pore of the ſkin, and entirely ſtops <lb/>the
+          perſpiration of ſuch as are expoſed to <lb/>it. Theſe blaſts come only in the day time
+          <lb/>and always from the deſarts. </p>
+        <p rend="indent"><lb/>Water is the only known corrector or <lb/>antidote againſt them;
+          hence, coarſe thick <lb/>clothes kept conſtantly wet, and hung up <lb/>at the windows, or
+          doors, greatly mitigate <lb/>their violence. A houſe ſo built as to have <lb/>no doors, or
+          windows, towards the deſarts, <pb xml:id="page_35" n="37"/><lb/>is an excellent protection
+          againſt their <w part="I">per-</w><lb/><w part="F">nicious</w> effects. </p>
+        <p rend="indent"><lb/>That the heat of theſe land-winds, as <lb/>alſo of the ſudden guſts
+          which accompany <lb/>them, proceed from large tracts of land, <lb/>heated by the ſun, is
+          evident from the <w part="I">in-</w><lb/><w part="F">creaſed</w> heat, and ſuffocating
+          quality of <lb/>thoſe winds, in proportion as the day <w part="I">ad-</w><lb/><w part="F"
+            >vances</w>, and as the heat of the ſeaſon is <w part="I">in-</w><lb/><w part="F"
+            >creaſed</w>. </p>
+        <p rend="indent"><lb/>The oppoſite winds blowing from each <lb/>ſide of the
+          Balagate-Mountains, are a <w part="I">far-</w><lb/><w part="F">ther</w> proof of this.
+          Thoſe mountains, <w part="I">run-</w><lb/><w part="F">ning</w> from north to ſouth, divide
+          the hither <lb/>peninſula of India into two unequal parts, <lb/>and ſeparate what is
+          called the Malabar, <lb/>from the Coromandel coaſt. To the <w part="I">for-</w><lb/><w
+            part="F">mer</w> they are very near, but at a great <w part="I">diſ-</w><lb/><w part="F"
+            >tance</w> from the latter. The winds <w part="I">blow-</w><lb/><w part="F">ing</w> from
+          theſe hills, are on the Malabar <lb/>coaſt always remarkably cool; but on the <lb/>the
+          coaſt of Coromandel, in the months of <lb/>April, May, June, and July, are extremely
+          <lb/>hot and ſuffocating as they paſs over a large <lb/>tract of intermediate ſand, heated
+          during <lb/>theſe months by an almoſt vertical ſun. </p>
+        <pb xml:id="page_36" n="38"/>
+        <p rend="indent"><lb/>Hence the Malabar coaſt is always <w part="I">co-</w><lb/><w part="F"
+            >vered</w> with an agreeable verdure; whereas <lb/>the coaſt of Coromandel, during the
+            <w part="I">conti-</w><lb/><w part="F">nuance</w> of theſe hots winds, ſeems a barren
+          <lb/>wilderneſs, nothing appearing green except <lb/>the trees. </p>
+        <p rend="indent"><lb/>The next conſiderations for ſuch as viſit <lb/>unhealthy climates, are
+          ſuch employments <lb/>as are particularly dangerous to Europeans <lb/>on their firſt
+          arrival. And according to the <lb/>opinion of Doctor Lind, of Haſtar, who <lb/>ſerved long
+          as a Surgeon in the Royal <w part="I">Na-</w><lb/><w part="F">vy</w>, one of ſuch
+          dangerous employments is <lb/>that of cutting down of trees, ſhrubs, &amp;c. <lb/>or
+          clearing the ground, as it is called. Of <lb/>the unhealthineſs of this employment there
+          <lb/>are two remarkable inſtances. At the <w part="I">con-</w><lb/><w part="F">cluſion</w>
+          of the former war, the captain of a <lb/>ſhip went on ſhore at the iſland of <w part="I"
+            >Domi-</w><lb/><w part="F">nica</w>, with twelve of his men, to cut down <lb/>the wood,
+          and clear a piece of ground, <lb/>which he intended to have purchaſed; <lb/>but in a few
+          days ſickneſs obliged him to <lb/>deſiſt from this dangerous work; the <w part="I"
+            >cap-</w><lb/><w part="F">tain</w> and eleven of his men being ſeized <lb/>with violent
+          fevers which ended in <w part="I">obſti-</w><lb/><w part="F">nate</w> agues, and of which
+          ſeveral died; and <pb xml:id="page_37" n="39"/><lb/>the ſurvivors, during their lives, had
+          fits of <lb/>the ague on the return of an eaſt wind. </p>
+        <p rend="indent"><lb/>The Ludlow-caſtle, a ſhip of war, in a <lb/>voyage to the Coaſt of
+          Guinea, alſo loſt <lb/>twenty-five of her men, at Sierra Leona, <lb/>who were employed in
+          cutting down wood <lb/>for the ſhip. This is an occupation that <lb/>has often proved
+          deſtructive to Europeans <lb/>in thoſe climates, and in which they ought <lb/>never to be
+          employed, eſpecially during the <lb/>rainy ſeaſon; there being many inſtances <lb/>of
+          white perſons, when cutting down the <lb/>woods at that ſeaſon, who have been taken
+          <lb/>ill in the morning, and have died before <lb/>night. </p>
+        <p rend="indent"><lb/>Another evil not leſs dangerous, is the <lb/>ſending of Europeans in
+          open boats after <lb/>ſunſet, where the ſoil is ſwampy, or where <lb/>there are great
+          night fogs. The ſingle duty <lb/>of fetching freſh killed butchers meat, <w part="I"
+            >an-</w><lb/><w part="F">nually</w> in the Eaſt and Weſt Indies, <w part="I"
+            >deſ-</w><lb/><w part="F">troys</w> ſeveral thouſand ſeamen. In thoſe <lb/>parts of the
+          world, butchers meat muſt be <lb/>brought on board at night immediately <w part="I"
+            >af-</w><lb/><w part="F">ter</w> it is killed, otherwiſe it will not be fit <lb/>for uſe
+          next day; but a contract made with <pb xml:id="page_38" n="40"/><lb/>the natives to ſend
+          it on board, would be <lb/>the means of preſerving many uſeful lives. </p>
+        <p rend="indent"><lb/>At Batavia, a boat, belonging to the <lb/>Medway man of war, that
+          attended on <lb/>ſhore every night, was three times <w part="I">ſucceſ-</w><lb/><w
+            part="F">ſively</w> manned, not one having ſurvived <lb/>that ſervice. They were all
+          taken ill in <lb/>the night when on ſhore, or when <w part="I">return-</w><lb/><w part="F"
+            >ing</w> on board; ſo that at length the officers <lb/>were obliged to employ none but
+          the <w part="I">na-</w><lb/><w part="F">tives</w> on that ſereice. </p>
+        <p rend="indent"><lb/>Since then it is ſo unhealthy for <w part="I">Euro-</w><lb/><w
+            part="F">peans</w> to be expoſed in open boats to the <lb/>night fog, it muſt appear,
+          that ſending them <lb/>unſheltered in open boats, far up rivers in <lb/>unhealthy
+          climates, for wood, water, trade, <lb/>or other purpoſes, muſt be attended with <lb/>the
+          moſt fatal conſequences. </p>
+        <p rend="indent"><lb/>Burying the dead in ſwampy countries, <lb/>is an occupation that has
+          proved fatal to <lb/>many, and which ought to be entruſted to <lb/>to the natives of the
+          country. The <w part="I">efflu-</w><lb/><w part="F">via</w> from the ground when newly
+          opened, <lb/>whether from graves or ditches, are far <lb/>more dangerous than from the
+          ſame ſwampy <pb xml:id="page_39" n="41"/><lb/>ſoil, when the ſurface is undiſturbed; nay,
+          <lb/>in ſome places it has been found almoſt <lb/>certain death, for an European to dig a
+          <lb/>grave, unleſs long ſeaſoned to the country. </p>
+        <p rend="indent"><lb/>In all caſes where it is practicable, ſhips <lb/>which viſit thoſe
+          unhealthy countries, <lb/>ſhould anchor at as great diſtance as <w part="I"
+            >poſſi-</w><lb/><w part="F">ble</w> from ſhore; or if obliged to anchor near <lb/>marſhy
+          grounds, or ſwamps, eſpecially in <lb/>ſummer, or hot weather, and when the <lb/>wind
+          blows directly from thence, the <w part="I">gun-</w><lb/><w part="F">ports</w> in ſhips of
+          war, that would admit <lb/>the hurtful land breeze ought to be kept ſhut, <lb/>eſpecially
+          at night. Or if the ſhip rides <lb/>with her head to the wind, a thick ſail <lb/>ought to
+          be put on the foremaſt, along <lb/>which the ſmoke from the fire-place might <lb/>be made
+          to play and aſcend; any <w part="I">inconve-</w><lb/><w part="F">nience</w> that the ſmoke
+          might occaſion, <lb/>would be amply compenſated, by its <w part="I">keep-</w><lb/><w
+            part="F">ing</w> off the direct ſteam, of the ſwampy <lb/>vapour. The beſt preventative
+          againſt the <lb/>the miſchevous impreſſion of a putrid fog, <lb/>or of a marſhy
+          exhalation, is a cloſe, <w part="I">ſhel-</w><lb/><w part="F">tered</w>, and covered
+          place, ſuch as the lower <lb/>apartments of a ſhip, or a houſe, in which <lb/>there are no
+          doors or windows facing the <pb xml:id="page_40" n="42"/><lb/>ſwamps. If in ſuch places a
+          fire is kept, <lb/>either at the doors or other inlets to a <lb/>houſe, or in the
+          chambers, as is practiſed in <lb/>ſome unhealthy countries during the rainy <lb/>or foggy
+          ſeaſon, it will prove an excellent <lb/>and effectual protection againſt the injuries
+          <lb/>of bad air. On board of ſhips alſo, fires may <lb/>be made at the hathways; and of
+          the good <lb/>effects of this, we have the following <w part="I">ex-</w><lb/><w part="F"
+            >ample</w>. When the Edgar, a ſhip of war of <lb/>ſixty guns, was upon the coaſt of
+          Guinea, <lb/>in the year 1768, her men were very <w part="I">ſick-</w><lb/><w part="F"
+            >ly</w> and many of them died; whereas it was <lb/>obſerved, that in a ſloop of war,
+          that was <lb/>conſtantly in company with her, few were <lb/>taken ill, and not one died
+          during the <lb/>whole voyage. This could be aſcribed to <lb/>no other cauſe, but that in
+          the ſloop the <lb/>fire-place for cooking victuals, was on the <lb/>the ſame level with
+          the deck where the <lb/>men lay; and every morning when the fire <lb/>was lighted,
+          eſpecially when there was but <lb/>little wind, the ſmoke from the cook-room <lb/>ſpread
+          itſelf all over the ſhip, and <w part="I">particu-</w><lb/><w part="F">larly</w> over
+          thoſe parts where the men lay; <lb/>but from the conſtruction of the fire-place <lb/>of
+          the Edgar, no ſmoke from it ever came <lb/>between her decks. Perſons on board any <pb
+            xml:id="page_41" n="43"/><lb/>ſhip whatever are much ſafer, than thoſe <lb/>that make
+          inland excurſions in open boats. <lb/>The intolerable heat at noon often obliges <lb/>ſuch
+          perſons to be in a manner half-naked; <lb/>while a violent ſweat iſſues from every pore
+          <lb/>on the ſkin. </p>
+        <p rend="indent"><lb/>An approach to unwholeſome ſwamps, <lb/>at this time, is apt to
+          produce every <w part="I">ſymp-</w><lb/><w part="F">tom</w> of the moſt dangerous fever.
+          But if <lb/>they happen to paſs them at night, or lay <lb/>near them in an open boat, the
+          air from <lb/>thoſe ſwamps is perceived to be quite chill <lb/>and cold; in ſo much that
+          warm thick <lb/>clothing becomes abſolutely neceſſary, to <lb/>guard the body againſt the
+          impreſſions of <lb/>ſo great an alteration in the air, and againſt <lb/>its hurtful
+          quality, for its effects then on <lb/>the moſt healthy often produce diſeaſes <lb/>that
+          quickly terminate in death. </p>
+        <p rend="indent"><lb/>But when ſuch expoſure becomes <w part="I">una-</w><lb/><w part="F"
+            >voidable</w>, the only method is then to defend <lb/>the body as much as poſſible
+          againſt the <lb/>pernicious effluvia with which the air <lb/>abounds. Thoſe employed in
+          cutting down <lb/>wood, or in other laborious and dangerous <lb/>ſervices in hot climates,
+          during the heat of <pb xml:id="page_42" n="44"/><lb/>the day, ought to have their heads
+          covered <lb/>with a bladder dipt in vinegar, and to waſh <lb/>their mouths with the ſame
+          liquor; and <lb/>they ought morning and evening to take a <lb/>doſe of Tincture of Bark. </p>
+        <p rend="indent"><lb/>They ſhould leave off labour before <w part="I">ſun-</w><lb/><w
+            part="F">ſet</w>, and not return to work till the ſun has <lb/>had time to diſperſe the
+          unwholeſome <w part="I">va-</w><lb/><w part="F">pours</w> and dews. Thoſe who from <w
+            part="I">neceſ-</w><lb/><w part="F">ſity</w> muſt remain on ſhore, and ſleep in <w
+            part="I">dan-</w><lb/><w part="F">gerous</w> places, muſt take care not to ſleep <lb/>on
+          the ground, expoſed to dews, but in <lb/>hammocks in a cloſe tent, ſtanding on a <lb/>dry
+          ſand, gravel, or chalk, near the <w part="I">ſea-</w><lb/><w part="F">ſhore</w>. The door
+          of this tent ſhould open <lb/>to the ſea, and the back part ſhould be <w part="I"
+            >pro-</w><lb/><w part="F">tected</w> from the land breeze, by being <w part="I"
+            >ſecur-</w><lb/><w part="F">cured</w> with double canvaſs, covered with <lb/>branches of
+          trees. But in ſuch caſes a hut <lb/>is preferable to a tent, if it is well <w part="I"
+            >thatch-</w><lb/><w part="F">ed</w>, to prove a defence from the heat of the <lb/>ſun by
+          day, and from the dews by night. </p>
+        <p rend="indent"><lb/>When the air is chill, and moiſt, a fire <lb/>ſhould be kept in and
+          about the tent or <lb/>hut, as the beſt means of purifying ſuch <lb/>unwholeſome air. </p>
+        <pb xml:id="page_43" n="45"/>
+        <p rend="indent"><lb/>It is the cuſtom with the Negros in <w part="I">Gui-</w><lb/><w
+            part="F">nea</w>, as alſo of ſome Indians, to have a fire <lb/>producing a little ſmoke,
+          conſtantly <w part="I">burn-</w><lb/><w part="F">ing</w> in their huts where they ſleep.
+          This <lb/>not only corrects the moiſture of the night, <lb/>but alſo, by occaſioning more
+          ſmoke than <lb/>heat, renders the damp from the earth leſs <lb/>hurtful. Doctor Lind gives
+          us an inſtance <lb/>of a Guinea ſhip being up one of the rivers <lb/>for trade, and it was
+          found to be very <w part="I">dan-</w><lb/><w part="F">gerous</w> to ſleep on ſhore,
+          without which <lb/>their trade could not be ſo conveniently <lb/>carried on. Firſt the
+          captain, then the mate, <lb/>and two or three of the ſeamen were taken <lb/>ill; each of
+          them the morning after they <lb/>had lain on ſhore. By theſe accidents the <lb/>men were
+          greatly intimidated from laying <lb/>on ſhore, till the ſurgeon offered to try the
+          <lb/>experiment on himſelf. Next morning, <lb/>when he awaked, he found himſelf ſeized
+          <lb/>as the reſt, with every ſymptom of fever. <lb/>He immediately acquainted one of the
+            <w part="I">Ne-</w><lb/><w part="F">groes</w> with his ſituation, who carried him
+          <lb/>to his hut, and ſet him down in the ſmoke <lb/>of it; when all the ſymptoms of fever
+          ſoon <lb/>left him: he then took a doſe of the <w part="I">Tinc-</w><lb/><w part="F"
+            >ture</w> of Bark, and found himſelf very well. </p>
+        <pb xml:id="page_44" n="46"/>
+        <p rend="indent"><lb/>Thus inſtructed by the Negroe, he <w part="I">order-</w><lb/><w
+            part="F">ed</w> a large fire to dry the hut he ſlept in; <lb/>and afterwards had every
+          night, a ſmall fire <lb/>ſufficient to raiſe a gentle ſmoke, without <lb/>occaſioning a
+          troubleſome heat; and by <lb/>theſe means, he and ſeveral others uſing <lb/>the ſame
+          precautions, ſlept many nights on <lb/>ſhore without any inconvenience. </p>
+        <p rend="indent"><lb/>I ſhould next proceed to give ſome <w part="I">di-</w><lb/><w part="F"
+            >rections</w> concerning the mode of living that <lb/>ought to be followed by Europeans
+          in <lb/>warm climates; but as the limits fixed for <lb/>theſe pages, prevent my entering
+          fully into <lb/>the ſubject, I am obliged with ſome <w part="I">reluc-</w><lb/><w part="F"
+            >tance</w> to conclude this performance, by <lb/>mentioning that together with the
+          cauſes <lb/>produced by an unwholeſome climate, the <lb/>exceſſes of European debaucheries
+          carried <lb/>into thoſe countries, tend greatly to bring <lb/>on diſeaſes. Good living is
+          in all countries <lb/>neceſſary to health; but exceſs of drinking <lb/>in a warm climate
+          is a matter of ſerious <lb/>conſequence. In ſhort, the utmoſt <w part="I"
+            >atten-</w><lb/><w part="F">tion</w> ſhould be paid to cleanlineſs; to uſe <lb/>food as
+          eaſy of digeſtion as can be <w part="I">procur-</w><lb/><w part="F">ed</w>, to avoid
+          fatigue, and all exceſs in <w part="I">liv-</w><pb xml:id="page_45" n="47"/><lb/><w
+            part="F">ing</w>. I therefore beg leave to recommend <lb/>the advice given by Celſus, as
+          well <w part="I">merit-</w><lb/><w part="F">ing</w> the utmoſt attention by thoſe expoſed
+          <lb/>to unhealthy climates. </p>
+        <q rend="diple">Tum calorem, <lb/>frigus, libidinem, cruditatem, fatigationem <lb/>vitare
+          opportet. Celſus, lib. i. cap. 10.</q>
+      </div>
+    </body>
+    <back>
+      <div>
+        <head rend="align-center size(1.7)"><lb/>ERRATA. </head>
+        <p rend="indent"><lb/>Page 24, line 13. for contageous, read contagious. P. <lb/>28, l. 1.
+          for effects, read affects. P. 29, l. 17. for <w part="I">cam-</w><lb/><w part="F"
+          >pain</w>, read campaign P. 40, l. 11. for ſereice, read <w part="I">ſer-</w><lb/><w
+            part="F">vice</w>. P. 41, l. 23, for miſchevous, read miſchievous. <lb/>P. 45, l. 1. for
+          Negros, read Negroes. </p>
+      </div>
+      <trailer rend="align-center"><lb/>FINIS. </trailer>
+    </back>
+  </text>
+</TEI>

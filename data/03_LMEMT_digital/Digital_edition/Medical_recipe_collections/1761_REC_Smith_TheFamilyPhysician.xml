@@ -1,0 +1,1216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LMEMT Corpus - Smith: The family physician</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>Hugh Smith</persName>
+            </author>
+            <title type="main">The FAMILY PHYSICIAN: being a collection of Useful Family Remedies.
+              Together with Plain and Full DIRECTIONS for Administering them, and properly Nursing
+              the Sick, where the Advice of a Physician is difficult to be procured. To which is
+              added, A Short Account of those Cases in which BLEEDING and BLISTERS are really
+              serviceable.</title>
+            <edition n="3"/>
+            <idno type="ESTC">N8053</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/N8053"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>London: printed in the year MDCCLXI.</persName>
+              </publisher>
+              <date>1761</date>
+            </imprint>
+            <extent>
+              <measure type="format">⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="4"/>
+              <measure type="count" commodity="body" unit="page" quantity="36"/>
+              <measure type="count" commodity="back" unit="page" quantity="4"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library"/>
+            <idno type="ECCO">CW3307557035</idno>
+            <idno type="TCP">K004747.000</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Recipe collections"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text xml:lang="eng">
+    <front>
+      <div>
+        <pb xml:id="page_3"/>
+        <head rend="align-center size(1.7)"><lb/>PREFACE. </head>
+        <p rend="indent"><lb/><hi rend="dc(2)">T</hi>HE intention of the following ſheets is to
+          direct a right uſe <lb/>of thoſe medicines which are neceſſary to be kept in families,
+          <lb/>whoſe diſtance from a good practitioner, or any other <w part="I">cir-</w><lb/><w
+            part="F">cumſtance</w>, renders an immediate application in ſudden illneſſes <lb/>almoſt
+          impoſſible, and occaſions thoſe delays in trifling complaints, <lb/>which oftentimes prove
+          of very bad conſequence. It has been <lb/>found by experience, for want of proper hints
+          and directions in <w part="I">re-</w><lb/><w part="F">ſpect</w> to the doſes of medicines,
+          ſeveral fatal errors have been <w part="I">com-</w><lb/><w part="F">mitted</w>, either
+          from the ignorance of perſons themſelves, or from <lb/>being obliged to have recourſe, for
+          want of better, to the advice <lb/>of nurſes, and ſuch good women, whoſe greateſt skill
+          extends to <lb/>the making a poſſet for a ſweat, or a plaſter for a ſore ſhin. </p>
+        <p rend="indent"><lb/><hi rend="sc">Those</hi> captains of ſhips whoſe veſſels are too ſmall
+          to allow of <lb/>carrying a ſurgeon, and gentlemen whoſe buſineſs may call them to
+          <lb/>take a long voyage in ſuch ſmall veſſels, or to travel by land through
+          <lb/>unfrequented or poor places, or thoſe who are going to ſettle in any <lb/>of his
+          Majeſty's plantations, will find a great advantage from being <lb/>thus enabled to become
+          their own phyſicians in caſes of neceſſity; <lb/>and we often ſee that Nature, with a
+          little aſſiſtance, will free the <lb/>conſtitution from diſorders which are not too deeply
+          rooted, or <lb/>very malignant in the firſt attack. I would by no means be <w part="I"
+            >under-</w><lb/><w part="F">ſtood</w> to pretend that the medicines I here recommend,
+          are <w part="I">infal-</w><lb/><w part="F">lible</w> in the reſpective diſorders they are
+          preſcribed for, being for <lb/>the moſt part ſuch only as are to be found in the
+          diſpenſatory of <lb/>the college of phyſicians; where I have been under a neceſſity of
+          <lb/>compounding, I have attended to the practice of the principal <w part="I"
+            >phy-</w><lb/><w part="F">ſicians</w> in town, and aſſume no further merit to myſelf
+          than to <lb/>care of ſelecting ſuch medicines whoſe operations are the leaſt
+          <lb/>dangerous. Thus far however I will venture to aſſert, that, by <lb/>following theſe
+          directions, which are plain and eaſy, and wrote <lb/>in a ſtile fitted to the meaneſt
+          capacity, perſpicuity being always <lb/>preferable to elegance in this kind of writing,
+          the patient may, by <pb xml:id="page_4" n="iv"/><lb/>applying what is neceſſary in time,
+          prevent thoſe ills that follow <lb/>from neglect, which good nurſing and a few innocent
+          things might <lb/>at firſt remove. </p>
+        <p rend="indent"><lb/><hi rend="sc">Those</hi> who have a knowledge in phyſic, and do not
+          ſtand in <lb/>need of my aſſiſtance, will in the boxes find many uſeful <w part="I"
+            >medi-</w><lb/><w part="F">cines</w> to be kept at hand, and may extend their practice,
+          by giving <lb/>me a catalogue of ſuch others as they would chuſe to have added. </p>
+        <p rend="indent"><lb/><hi rend="sc">Ladies</hi> and gentlemen, who reſide in the country,
+          will hereby <lb/>be enabled to aſſiſt their poor neighbours; which many of them I
+          <lb/>doubt not would take a pleaſure in doing, did they but know what <lb/>to apply. </p>
+        <p rend="indent"><lb/><hi rend="sc">With</hi> each box of medicines may be had a box of
+          ſcales and <lb/>weights; each weight marked diſtinctly, that any perſon may at <lb/>once
+          adjuſt the proper quantity for a doſe. </p>
+        <p rend="indent"><lb/>As many people may chuſe to keep by them what is proper for <lb/>their
+          own particular complaints, whom it may not ſuit to have the <lb/>box complete, I think it
+          neceſſary to mention, that any of the <lb/>medicines here recommended may be had ſeparate,
+          or as many of <lb/>them as agreeable, packed up in leſſer boxes for the conveniency
+          <lb/>of carriage. </p>
+        <p rend="indent"><lb/>N. B. <hi rend="sc">Ladies</hi> cloſets are alſo fitted up with the
+          choiceſt drugs, <lb/>medicines and cordials, by </p>
+        <signed><lb/>Their obedient, very humble ſervant, <lb/>HUGH SMITH. </signed>
+      </div>
+      <div>
+        <head rend="align-center"><lb/>WEIGHTS uſed in PRESCRIPTION. </head>
+        <list>
+          <lb/>
+          <item>A pound containing Twelve ounces. </item>
+          <lb/>
+          <item>An ounce containing Eight drams. </item>
+          <lb/>
+          <item>A dram containing Three ſcruples. </item>
+          <lb/>
+          <item>A ſcruple containing Twenty grains. </item>
+        </list>
+      </div>
+    </front>
+    <body>
+
+      <pb xml:id="page_5"/>
+      <head rend="align-center"><lb/>THE <lb/><hi rend="size(1.7)">FAMILY PHYSICIAN</hi>. </head>
+      <div type="part">
+        <head rend="align-center"><lb/>ASTHMATIC TINCTURE. </head>
+        <p rend="space"><lb/>
+          <figure>
+            <figDesc>Decorative frame around the letter "T".</figDesc>
+          </figure>
+          <hi rend="dc(2)">T</hi>HIS tincture is of uſe in a difficulty of breathing, <lb/>tightneſs
+          acroſs the breaſt, and ſhort coughs, <w part="I">parti-</w><lb/><w part="F">cularly</w> if
+          brought on by cold north-eaſterly winds, <lb/>which frequently affect the breaſt, ſides,
+          and lungs: <lb/>it allays the cough, opens the cheſt, and looſens the <lb/>phlegm, ſo that
+          it eaſily comes away; and frees the pores of the ſkin <lb/>which have been ſhut up by the
+          winds. </p>
+        <p rend="indent"><lb/>It may be taken as often as occaſion requires, from thirty to
+          <lb/>ſixty or eighty drops, in a little<note place="bottom" n="*" rend="size(0.5)">* See
+            Page 15. </note> pectoral drink or barley water, <lb/>with which you ſhould dilute
+          plentifully, drinking it of the ſame <lb/>heat as you would a diſh of tea. </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>ASTRINGENT ELECTARY. </head>
+        <p rend="indent"><lb/><hi rend="sc">Never</hi> be too haſty in the uſe of this electary; it
+          is often found <lb/>that a purging is the means made uſe of by Nature to carry off
+          <lb/>other complaints, or to free the body from bad humours, which <lb/>might in time
+          beget diſorders; now, by ſtopping this wholeſome <pb xml:id="page_6" n="2"/><lb/>drain too
+          ſoon, theſe bad humours may be thrown back into the <lb/>blood, and produce the worſt
+          conſequences: therefore you will <lb/>ſeldom or never err, by ſuffering the purging, if
+          not over violent, <lb/>to continue two or three days, at the end of that time, ſhould you
+          <lb/>find the patient weakened by it, or that it is really a diſorder <w part="I"
+            >it-</w><lb/><w part="F">ſelf</w>, and not a cure for other diſorders, then you may give
+          a doſe <lb/>or two of rhubarb, and afterwards proceed to the uſe of the <w part="I"
+            >electa-</w><lb/><w part="F">ry</w>: by theſe means you will cleanſe the ſtomach and
+          bowels, and <lb/>get rid of the complaint without any farther trouble. </p>
+        <p rend="indent"><lb/>Fluxes, which ſeafaring people are ſubject to, are to be
+          treated<lb/>much in the ſame manner, but be very careful to cleanſe the bowels <lb/>firſt. </p>
+        <p rend="indent"><lb/>Some of my friends who have been many years accuſtomed to <lb/>the
+          ſea, recommend the<note place="bottom" n="*">* See p. 17. </note> purging apozem before
+          the uſe of <w part="I">aſtrin-</w><lb/><w part="F">gents</w>: they ſay it cools the body,
+          and carries off every thing which <lb/>is diſagreeable to the bowels, better than rhubarb,
+          or any other <lb/>purge. After having cleanſed the ſtomach and bowels of the filth
+          <lb/>which occaſioned the diſorder, by the one or other of theſe means, <lb/>you will find
+          ipecacuanha given with the aſtringent electary in very <lb/>ſmall quantities, viz. from
+          half a grain to one or two grains, of <lb/>infinite ſervice; but this ſhould be practiſed
+          only by thoſe who have <lb/>ſome little knowledge in phyſic, and they will have the
+          ſatisfaction <lb/>to find the method here recommended will ſeldom, if ever, fail of
+          <lb/>ſucceſs. </p>
+        <div>
+          <head rend="align-center"><lb/>ITS DOSE. </head>
+          <list>
+            <lb/>
+            <item>Above 14 years — from 2 ſcruples to 1 dram. </item>
+            <lb/>
+            <item>Between 7 and 14 — from 1 ſcruple to 2 ſcruples. </item>
+            <lb/>
+            <item>Between 3 and 7 — from 10 grains to 20 grains. </item>
+          </list>
+          <p rend="indent"><lb/>Under three years old decreaſe the quantity in proportion. </p>
+          <p rend="indent"><lb/>This may be given once in ſix or eight hours, or night and <w
+              part="I">morn-</w><lb/><w part="F">ing</w>, as the caſe requires; either ſwallowed
+            whole, or diſſolved in a <lb/>little hartſhorn drink. </p>
+          <pb xml:id="page_7" n="3"/>
+          <p rend="indent"><lb/>Remember beer ſhould be forbid; and<note place="bottom" n="*"
+              rend="size(0.5)">* See hartſhorn and gum, p. 10. </note> hartſhorn drink ſupply
+            <lb/>the place of other ſmall liquors. Rice gruel is a proper food. </p>
+          <p rend="indent"><lb/>Should this or any other of the electaries grow dry, they may
+            <lb/>be ſoftened with a little ſyrup, or a ſpoonful of white wine. </p>
+        </div>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>BALSAMIC ELECTARY </head>
+        <p rend="indent"><lb/>Is good in all tickling coughs, ſoreneſs at the breaſt, inward
+          <lb/>bruiſes, and ſuch like complaints. </p>
+        <p rend="indent"><lb/>The quantity of a nutmeg may be taken night and morning, and <lb/>once
+          or twice in the day beſides, with a large draught of pectoral<lb/>drink made hot after it. </p>
+        <p rend="indent"><lb/>If coſtive, take a little of the opening electary, or a few ſpoonfuls
+          <lb/>of the purging apozem, as you judge moſt proper, </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>BARK. </head>
+        <p rend="indent"><lb/><hi rend="sc">The</hi> febrifuge quality of this bark, and its
+          peculiar efficacy in<lb/>curing intermittent fevers, is now univerſally known, yet a two
+          <lb/>haſty uſe of it oftentimes proves prejudicial, a<note place="bottom" n="†"
+            rend="size(0.5)">† A remittent fever is when at certain periods the fever is more
+            violent than at <lb/>others, but the patient never intirely free from it. </note>
+          remittent or <w part="I">con-</w><lb/><w part="F">tinual</w> fever being the conſequence.
+          You will ſeldom or never err, <lb/>by giving a vomit firſt, and if the ſick be of a full
+          habit of body, <lb/>you may alſo purge with ſafety; you will act more prudently <lb/>by
+          waiting till they have had four or five ague fits before you throw <lb/>in the bark,
+          giving a ſalt of wormwood<note place="bottom" n="‡" rend="size(0.5)">‡ See p. 19. </note>
+          draught once in ſix or <lb/>eight hours, which will make the fits more regular, and
+          prepare <lb/>the blood for the bark. You ſhould begin when the fever is gone <lb/>intirely
+          off, and give at leaſt one ounce before you expect it to <pb xml:id="page_8" n="4"
+            /><lb/>return<note place="bottom" n="*" rend="size(0.5)">* In low fenny countries, where
+            the atmoſphere is moiſt and foggy, it is <w part="I">ſome-</w><lb/><w part="F">times</w>
+            neceſſary to give one ounce and a half of bark between the fits, but in general <lb/>an
+            ounce is ſufficient. </note>; half a dram, two ſcruples, or a dram may be given <lb/>for
+          a doſe, as the ſtomach will bear it, the leſs you adminiſter <lb/>at a time the more
+          frequent it muſt be repeated; for, unleſs <lb/>you get the whole quantity down within the
+          time you do <lb/>nothing. </p>
+        <p rend="indent"><lb/>The fit being put by, a ſecond ounce ſhould be taken in the <lb/>like
+          ſmall doſes within the three following days, at the diſtance <lb/>of about ſix or eight
+          hours; the patient may now reſt ſix days, <lb/>unleſs ſigns of the ague's return require
+          the bark to be repeated <lb/>ſooner, when a third ounce is to be taken in like manner, a
+          doſe <lb/>every ſix or eight hours; another week being elapſed, a fourth <lb/>ounce is
+          alſo to be adminiſtered, when you may take your leave <lb/>of them, and be pretty well
+          aſſured they will not be ſubject to <lb/>a return. </p>
+        <p rend="indent"><lb/>The common mixture to give it in may be made of three quarters <lb/>of
+          a pint of ſpring water, and a quarter of a pint of good French <lb/>brandy, ſweetened with
+          a bit of ſugar, a teacupful of which ſhould <lb/>be taken with each doſe; mix the powder
+          in a little of it, and drink <lb/>the remainder after it. </p>
+        <p rend="indent"><lb/>If it purges, which is oftentimes the caſe, it ſhould be given in
+          <lb/>a little cinnamon tea; ſhould that not anſwer, two, three, or four <lb/>drops of
+          laudanum muſt be added to each doſe. </p>
+        <p rend="indent"><lb/>If, on the contrary, the bark ſhould bind, a few grains of <w part="I"
+            >rhu-</w><lb/><w part="F">barb</w> may be given with each doſe as long as you ſee
+          neceſſary. </p>
+        <p rend="indent"><lb/>Above the age of fourteen it will require this quantity to cure the
+          <lb/>ague, under theſe years your judgment muſt direct you to <w part="I">de-</w><lb/><w
+            part="F">creaſe</w> it; the manner of giving it muſt be exactly the ſame<note
+            place="bottom" n="†" rend="size(0.5)">† We frequently, and with ſucceſs, for children,
+            and thoſe of dellcate <w part="I">conſtitu-</w><lb/><w part="F">tions</w>, boil the bark
+            a long while in water, and give the ſtrained liquor inſtead of <lb/>the powder in
+            ſubſtance; the proportion is, an ounce in two or three pints of water, <lb/>till you can
+            pour off one. </note>: <pb xml:id="page_9" n="5"/><lb/>ſometimes, when the ſeaſon is
+          unfavourable, you may meet with <lb/>caſes which do not intirely give way to this
+          treatment, if ſo, let <lb/>them continue the following a fortnight or three weeks <w
+            part="I">after-</w><lb/><w part="F">wards</w>. </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>BARK WINE. </head>
+        <p rend="indent"><lb/><hi rend="sc">Take</hi> of bark, groſſly powdered, two ounces, the
+          yellow peel<lb/>of two Seville oranges, and one nutmeg grated; pour three pints <lb/>of
+          old rough red port upon theſe ingredients; let them ſtand by a <lb/>gentle fire, in a
+          large bottle, for three or four days, ſhaking it <lb/>frequently; then pour off a
+          wine-glaſſful of the clear liquor at <lb/>the time you take it, which ſhould be morning,
+          noon, and night; <lb/>when you have taken one half, another pint of wine may be added,
+          <lb/>and kept upon the ingredients till the whole is taken, at leaſt for <lb/>ten days or
+          a fortnight. A few drops of elixir of vitriol two or three <lb/>times a day with the wine,
+          or mixed in a glaſs of water, may be <lb/>alſo ſerviceable. </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>BARLEY WATER. </head>
+        <p rend="indent"><lb/><hi rend="sc">Take</hi> two table-ſpoonfuls of pearl barley, waſh it,
+          and boil it <lb/>in half a pint of water for two or three minutes; pour away this
+          <lb/>water which will be coloured, and add about three pints of boiling <lb/>water; let it
+          ſimmer till one pint is conſumed. This is a <w part="I">com-</w><lb/><w part="F">mon</w>
+          and good drink in fevers and every other complaint when a <lb/>ſoft diluting liquor is
+          adviſeable. </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>COLIC MIXTURE. </head>
+        <p rend="indent"><lb/><hi rend="sc">This</hi> mixture is warm and comfortable to the ſtomach
+          and <w part="I">bow-</w><lb/><w part="F">els</w>, ſomewhat opening, proper in colic
+          complaints, and for the <lb/>wind, particularly if after meals; it is likewiſe ſerviceable
+          for pains <lb/>in the ſtomach. </p>
+        <p rend="indent"><lb/>Two or three table-ſpoonfuls may be taken at a time. </p>
+        <pb xml:id="page_10" n="6"/>
+        <p rend="indent"><lb/>But if the pain is very violent, and ſtools are much wanting, give
+          <lb/>of the purging apozem freely, or the opening electary. </p>
+        <p rend="indent"><lb/>If there are too many ſtools, firſt give a little rhubarb, then uſe
+          <lb/>the aſtringent electary, which ſee. </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>DIACHYLON PLASTER. </head>
+        <p rend="indent"><lb/><hi rend="sc">The</hi> uſe of this plaſter is well known in ſlight
+          cuts, or other <w part="I">lit-</w><lb/><w part="F">tle</w> accidents; it ſhould be ſpread
+          with a warm knife upon a piece <lb/>of fine rag or an old glove. </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>DIURETIC MIXTURE. </head>
+        <p rend="indent"><lb/><hi rend="sc">This</hi> mixture is good in all gravelly complaints,
+          and for the <lb/>dropſy, heat of urine, pains in the loins, and ſtoppage of water.
+          <lb/>One large ſpoonful, or two upon an emergency, may be given for <lb/>a doſe, every ſix
+          or eight hours, or night and morning as the caſe <lb/>requires, mixed in half a pint of
+          marſhmallow drink, if you can <lb/>procure it, if not, barley water. But obſerve, if the
+          pain is <w part="I">vio-</w><lb/><w part="F">lent</w>, you will do right firſt to give the
+          purging apozem to promote <lb/>ſtools, and let them drink plentifully of thin water gruel,
+          which <lb/>will cleanſe the bowels and urinary paſſages, and greatly aſſiſt the
+          <lb/>intention of this mixture. Remember the body ſhould always be <lb/>kept open; and
+          thoſe who are ſubject to theſe complaints, ſhould <lb/>accuſtom themſelves to drink very
+          plentifully of ſmall liquors at all <lb/>times<note place="bottom" n="*" rend="size(0.5)"
+            >* By ſmall liquors, I would be underſtood to mean any liquor between water and
+            <lb/>twelve ſhilling table beer. </note>, which will often of themſelves perform a
+          perfect cure. </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>ELIXIR OF VITRIOL. </head>
+        <p rend="indent"><lb/><hi rend="sc">This</hi> is eſteemed good to ſtrengthen the ſtomach and
+          bowels, <lb/>to create an appetite and brace up the ſolids. </p>
+        <div>
+          <pb xml:id="page_11" n="7"/>
+          <head rend="align-center"><lb/>ITS DOSE. </head>
+          <list>
+            <lb/>
+            <item>Above 14 years — from 20 to 30 drops. </item>
+            <lb/>
+            <item>Between 7 and 14 — from 10 to 20. </item>
+            <lb/>
+            <item>Under that age — from 5 to 7 or 8. </item>
+          </list>
+          <p rend="indent"><lb/>It may be given in a little water, or wine and water; but where
+            <lb/>the patient can be brought to take it, a cup of chamomile tea is <lb/>preferable to
+            any other liquid whatever. </p>
+          <p rend="indent"><lb/>The proper times for taking it are in a morning faſting, an hour
+            <lb/>before dinner, and two hours after dinner. </p>
+          <p rend="indent"><lb/>When joined with the tincture of bark, it will be found to add
+            <lb/>conſiderably to the efficacy of that noble medicine. </p>
+        </div>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>FEVER POWDER. </head>
+        <p rend="indent"><lb/><hi rend="sc">When</hi> the ſkin is hot and parched, the tongue white,
+          and other <lb/>common ſigns of a fever, which every one is acquainted with, ſuch <lb/>as
+          thirſt, wearineſs, &amp;c. put them to bed, and give a doſe of the <lb/>fever powder every
+          ſix or eight hours; let them drink freely of <w part="I">pec-</w><lb/><w part="F"
+            >toral</w> drink, barley water, or the like ſmall liquors, to dilute the <lb/>blood, and
+          encourage a breathing ſweat; if you find them mend <w part="I">un-</w><lb/><w part="F"
+            >der</w> this management, and the fever to diſappear in a day or two, <lb/>before you
+          quit them, give the purging apozem, which will ſecure <lb/>their health and add to your
+          reputation. When they are young <lb/>and very full of blood, and the pulſe throbbing with
+          great violence, <lb/>it is a ſtrong indication to bleed, to ſatisfy you more particularly
+          in <lb/>this point refer to the article <hi rend="italic">Bleeding.</hi>
+        </p>
+        <p rend="indent"><lb/>It will be frequently neceſſary under the above ſymptoms, <w part="I"
+            >parti-</w><lb/><w part="F">cularly</w> if coſtive, to give the purging apozem before
+          the powder, <lb/>thereby you cleanſe the bowels and cool the body, but here your <w
+            part="I">ob-</w><lb/><w part="F">ſervation</w> can alone direct you. </p>
+        <div>
+          <pb xml:id="page_12" n="8"/>
+          <head rend="align-center"><lb/>ITS DOSE. </head>
+          <list>
+            <lb/>
+            <item>Above 14 years — from 12 to 30 grains. </item>
+            <lb/>
+            <item>Between 7 and 14 — from 8 to 20. </item>
+            <lb/>
+            <item>Between 1 and 7 — from 4 to 12. </item>
+          </list>
+          <p rend="indent"><lb/>Within the months as your judgment directs. </p>
+          <p rend="indent"><lb/>On the contrary, ſhould the diſorder not give way, unleſs you
+            <lb/>have ſome knowledge in phyſic, it will be moſt prudent, if you <lb/>can have
+            advice, to commit them to the care of ſome gentleman of <lb/>the faculty, as you may
+            conclude it is that kind of fever which will <lb/>not yield to this ſimple method. </p>
+          <p rend="indent"><lb/>Should I attempt to deſcribe the various kinds of fevers, it would
+            <lb/>only puzzle the unskilful, therefore the above directions are <w part="I"
+              >ſuffici-</w><lb/><w part="F">ent</w> for thoſe who ſtand in need of any aſſiſtance,
+            to enable them <lb/>frequently to render ſervice, and prevent their ever doing any
+            <lb/>injury. </p>
+        </div>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>FIT DROPS FOR CHILDREN. </head>
+        <p rend="indent"><lb/><hi rend="sc">These</hi> drops are very good againſt fits in general,
+          for grown <lb/>perſons as well as children; but they are particularly ſerviceable to
+          <lb/>the latter, more eſpecially in thoſe fits which attend the cutting <lb/>their teeth. </p>
+        <p rend="indent"><lb/>From three to ten drops may be given for a doſe to children <lb/>under
+          twelve months old, above that age increaſe the number as <lb/>you think fit; grown people
+          may take a large tea-ſpoonful for a <lb/>doſe. </p>
+        <p rend="indent"><lb/>They may be given in black cherry water, or any other liquor, <lb/>and
+          repeated as often as neceſſity requires. </p>
+      </div>
+      <div type="part">
+        <pb xml:id="page_13" n="9"/>
+        <head rend="align-center"><lb/>FRYAR'S BALSAM </head>
+        <p rend="indent"><lb/><hi rend="sc">Is</hi> applied to freſh wounds, and is eſteemed good to
+          ſtop <w part="I">bleed-</w><lb/><w part="F">ing</w>; be careful not to uſe it to old
+          ſores, as it frequently proves <lb/>prejudicial. </p>
+        <p rend="indent"><lb/>It is given internally, from ten to ſixty drops, in a little <w
+            part="I">powder-</w><lb/><w part="F">ed</w> ſugar or a glaſs of water, in inward decays,
+          bleedings or bruiſes, <lb/>alſo in coughs and hoarſeneſs. </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>GASCOIGN'S POWDER. </head>
+        <p rend="indent"><lb/><hi rend="sc">The</hi> reputation of this powder, ſo long eſtabliſhed,
+          renders it <lb/>almoſt unneceſſary to ſay any thing about its efficacy; its uſe <lb/>among
+          children is very common, to correct gripings, prevent <w part="I">aci-</w><lb/><w part="F"
+            >dities</w>, and remove little feveriſh heats; it is frequently, and with <lb/>great
+          propriety, joined with a few grains of rhubarb. </p>
+        <p rend="indent"><lb/>A child within the month may take from 1 to 4 grains. </p>
+        <list>
+          <lb/>
+          <item>Between 1 and 12 months — from 4 to 8. </item>
+          <lb/>
+          <item>Between 1 and 5 years — from 8 to 12. </item>
+        </list>
+        <p rend="indent"><lb/>Thoſe who are more advanced in life from 10 to 30. </p>
+        <p rend="indent"><lb/>It may be taken every ſix or eight hours, us you ſee neceſſary. </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>GARGLE FOR SORE THROATS. </head>
+        <p rend="indent"><lb/><hi rend="sc">Take</hi> half a pint of pectoral drink, two ſpoonfuls
+          of virgin <w part="I">ho-</w><lb/><w part="F">ney</w>, and a like quantity of the beſt
+          white wine vinegar; let the <lb/>throat be gargled frequently with this, as hot as you can
+          bear it. <lb/>If the glands are much ſwelled, ſo as to render it difficult to ſwallow,
+          <lb/>and the patient is very hot and feveriſh, with a full quick pulſe, <lb/>refer to the
+          article <hi rend="italic">Bleeding,</hi> and give the purging apozem to open <lb/>the body
+          three or four times, then let him take the fever powder, <lb/>and dilute very plentifully
+          with pectoral drink, or the like. </p>
+        <pb xml:id="page_14" n="10"/>
+        <p rend="indent"><lb/>If, on the contrary, there is a ſmall fluttering pulſe (ſometimes
+          <lb/>rather quick) with ſpecks in the throat, and it looks diſcoloured, <lb/>give wine and
+          cordial things. </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>GLAUBER'S SALTS. </head>
+        <p rend="indent"><lb/><hi rend="sc">This</hi> ſalt is ſeldom taken alone, except by common
+          people who <lb/>cannot afford to join manna with it, which not only makes it more
+          <lb/>palatable, but prevents the roughneſs of its operation. </p>
+        <p rend="indent"><lb/>From ten years old its doſe is from half an ounce to one <lb/>ounce,
+          with an equal quantity of manna (ſome people add <lb/>a double quantity of manna)
+          diſſolved in a little water, <lb/>water gruel, or ſena tea, but the beſt form is the
+          purging <w part="I">apo-</w><lb/><w part="F">zem</w>, which ſee. </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>HARTSHORN DROPS </head>
+        <p rend="indent"><lb/><hi rend="sc">Are</hi> given in faintings, and eſteemed good to thin
+          the blood, its <lb/>known uſe renders a more minute detail unneceſſary. </p>
+        <p rend="indent"><lb/>The doſe is from ten to ſixty drops, in any liquid you pleaſe. </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>HARTSHORN AND GUM. </head>
+        <p rend="indent"><lb/><hi rend="sc">Pour</hi> three pints of water on each paper of
+          hartſhorn and gum, <lb/>let it boil till you can ſtrain off a quart, which ſhould be
+          poured <lb/>through piece of a fine rag, or a lawn ſieve, juſt before you take it
+          <lb/>from the fire, you may add a cruſt of bread and a bit of cinnamon, if <lb/>agreeable;
+          it may be ſweetened to your palate. This is the proper <lb/>drink to be uſed in common for
+          purgings, after a little rhubarb or <lb/>ſomething of that kind has been given. </p>
+      </div>
+      <div type="part">
+        <pb xml:id="page_15" n="11"/>
+        <head rend="align-center"><lb/>HEART-BURN LOZENGES. </head>
+        <p rend="indent"><lb/><hi rend="sc">One</hi> of them may be kept in the mouth as often as
+          agreeable; <lb/>if coſtive a few grains of rhubarb ſhould be taken, or a little
+          <lb/>magneſia alba. </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>HIERA PICRA </head>
+        <p rend="indent"><lb/><hi rend="sc">Is</hi> a warm phyſic, good for diſorders in the
+          ſtomach, and <w part="I">parti-</w><lb/><w part="F">cularly</w> in female complaints. </p>
+        <p rend="indent"><lb/>Its doſe from one table ſpoonful to four, at bed time or in <lb/>a
+          morning. </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>HYSTERIC MIXTURE. </head>
+        <p rend="indent"><lb/><hi rend="sc">This</hi> mixture may be taken from a tea-ſpoonful to a
+          table-<lb/>ſpoonful, which is the proper doſe for a grown perſon, in any <lb/>hyſterical
+          complaint; it ſhould be mixed with a little water, or <lb/>with a cup of hyſteric and
+          pennyroyal water, being too ſtrong to <lb/>take alone. </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>JAUNDICE ELECTARY. </head>
+        <p rend="indent"><lb/><hi rend="sc">Where</hi> it has not been preceded by the colic, nor is
+          attended <lb/>with a fever or bleedings, it is moſt likely to proceed from a <w part="I"
+            >ſlug-</w><lb/><w part="F">giſh</w>, viſcid bile; in which caſe the cure is eaſy, and
+          may be <w part="I">ef-</w><lb/><w part="F">fected</w> in the following manner: the
+          ſymptoms every one knows <lb/>are a yellowneſs of the ſkin and upon the whites of the
+          eyes, high-<lb/>coloured urine and white ſtools, an inactivity, wearineſs, <w part="I"
+            >oppreſſi-</w><lb/><w part="F">on</w> of the ſpirits, and loſs of appetite. </p>
+        <pb xml:id="page_16" n="12"/>
+        <p rend="indent"><lb/>Firſt give a gentle vomit of ipecacuanha, the following <w part="I"
+            >morn-</w><lb/><w part="F">ing</w> let them be purged four or five times with the
+          purging apozem, <lb/>which ſhould be repeated every fourth or fifth day; on the <w
+            part="I">inter-</w><lb/><w part="F">mediate</w> days of purging give them the quantity
+          of a nutmeg of this <lb/>electary, night and morning, with a ſalt of wormwood draught <w
+            part="I">af-</w><lb/><w part="F">ter</w> it; let them dilute plentifully with lemonade,
+          and live upon <lb/>light food. This method will quickly reſtore their colour, ſtrength
+          <lb/>and ſpirits. </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>IPECACUANHA </head>
+        <p rend="indent"><lb/><hi rend="sc">Is</hi> a gentle vomit, and may, where there is
+          occaſion, be ſafely <lb/>given to children. I am afraid it is in general rather
+          over-doſed, <lb/>whereby the patient is ſometimes injured by ſtraining more <w part="I"
+            >vio-</w><lb/><w part="F">lently</w> than their ſtomach and conſtitution will bear. I am
+            <w part="I">con-</w><lb/><w part="F">vinced</w> from experience, that a few grains will
+          operate on many <lb/>people far better than large doſes. The beſt way of adminiſtering
+          <lb/>it to children, and indeed to every body, is to give three, four, five, <lb/>or ſix
+          grains, mixed in a little water or chamomile tea; and, if it <lb/>does not take effect in
+          ten minutes or a quarter of an hour, repeat <lb/>the ſame quantity. This method will
+          certainly prevent the bad <lb/>conſequences ſometimes attending violent vomits, and make
+          the <lb/>operation more eaſy and pleaſant. </p>
+        <p rend="indent"><lb/>Let them drink thin water gruel, chamomile tea, or the like, to
+          <lb/>work it off. </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/><hi rend="sc">For the</hi> ITCH. </head>
+        <p rend="indent"><lb/><hi rend="sc">An</hi> ointment made of one third part of flowers of
+          ſulphur, and <lb/>two thirds hog's-lard rubbed in night and morning where it appears,
+          <lb/>is a ſafe and certain cure, though perhaps not ſo expeditious <pb xml:id="page_17"
+            n="13"/><lb/>as mercurial preparations, but they have no place here<note place="bottom"
+            n="*" rend="size(0.5)">* I have not put up any thing for the itch, and ſome other
+            complaints that need <lb/>no immediate aſſiſtance, or require more experience than the
+            generality of my <w part="I">read-</w><lb/><w part="F">ers</w> are acquainted with, ſuch
+            as the ſmall pox, meaſles, &amp;c. in which the <w part="I">conſtitu-</w><lb/><w
+              part="F">tion</w> and ſymptoms muſt vary the practice. Particular medicines in theſe
+            complaints, <lb/>ſetting the almoſt impoſſibility of giving clear directions aſide,
+            would ſwell the box <lb/>too large and anſwer little or no end; my greateſt care through
+            the whole being to <lb/>prevent miſchief in improperly adminiſtering medicines, and I
+            ſhould be fearful in <lb/>theſe caſes the bold unskilful practitioner might oftentimes
+            be puzzled, to the <w part="I">detri-</w><lb/><w part="F">ment</w> of his patient; and
+            thoſe who are capable of rendering ſervice, will find <w part="I">me-</w><lb/><w
+              part="F">dicines</w> in the box to anſwer their intention in moſt diſorders. </note>
+        </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>LAUDANUM. </head>
+        <p rend="indent"><lb/>I <hi rend="sc">have</hi> directed the uſe of this with the bark; a
+          few drops may <lb/>alſo be joined with the aſtringent electary, if the purging is <w
+            part="I">obſti-</w><lb/><w part="F">nate</w>, and does not readily give way: it is
+          likewiſe proper in many <lb/>other caſes; but I would not have the unexperienced be too
+          free with <lb/>it, therefore ſhall ſay no more. </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>MAGNESIA ALBA </head>
+        <p rend="indent"><lb/><hi rend="sc">Is</hi> a medicine ſtrongly recommended by many writers,
+            <w part="I">particu-</w><lb/><w part="F">larly</w> for young children. </p>
+        <p rend="indent"><lb/>It corrects acidities in the ſtomach more powerfully than chalk,
+          <lb/>oyſter-ſhells, pearls, coral, crabs eyes, or the like teſtaceous <w part="I"
+            >pow-</w><lb/><w part="F">ders</w>; and, joined to this, it has a gentle purgative
+          property, and <lb/>is the only one of an alkaline nature at preſent made uſe of; it is <w
+            part="I">al-</w><lb/><w part="F">ſo</w> ſerviceable in the heart-burn. </p>
+        <p rend="indent"><lb/>It may be given to children from twenty grains to a dram, or <lb/>even
+          two drams in a day, a little at a time, mixed in their food; <lb/>grown people may take it
+          more freely. </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>MANNA </head>
+        <p rend="indent"><lb/>IS a gentle purge, which affects only the ſtomach and bowels;<lb/>it
+          is in much eſteem for children, and given from one or two drams <pb xml:id="page_18"
+            n="14"/><lb/>to one ounce; grown people may take one ounce and a half or two
+          <lb/>ounces, without ſtirring them, for which reaſon it is quickened <lb/>with Glauber's
+          ſalts, which ſee. </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>MARSHMALLOW DRINK. </head>
+        <p rend="indent"><lb/><hi rend="sc">Take</hi> a quarter of a pound of marſhmallow roots
+          waſhed very <lb/>clean, and boil them in three quarts of water until one is conſumed,
+          <lb/>remove it from the fire, and, when cold, decant off the liquor; if <lb/>you do not
+          think the thickneſs diſagreeable, it will be more <w part="I">effica-</w><lb/><w part="F"
+            >cious</w> by preſſing the roots; it may be ſweetened with virgin honey. <lb/>This may
+          be drank at pleaſure, and is recommended in all caſes where <lb/>a ſoft lubricating
+          regimen is proper; it is much eſteemed for the <lb/>gravel and heat of urine. </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>NERVOUS TINCTURE. </head>
+        <p rend="indent"><lb/><hi rend="sc">Nervous</hi> complaints are too common in England to
+          need a <lb/>particular deſcription, in all kinds of them this tincture is very <w part="I"
+            >ſer-</w><lb/><w part="F">viceable</w>; it is likewiſe proper in lowneſs of ſpirits,
+          faintings, and <lb/>hyſterical caſes, giving ſtrength and chearfulneſs, and raiſing the
+          <lb/>depreſſed ſpirits. The doſe is from one to two tea-ſpoonfuls, two <lb/>or three times
+          a day, in a glaſs of wine and water, or valerian tea. </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>OIL <hi rend="sc">of</hi> ROSES. </head>
+        <p rend="indent"><lb/><hi rend="sc">This</hi> is an excellent outward remedy for all parts
+          in a ſtate of <lb/>inflammation, eſpecially when attended with great pain; in which
+          <lb/>caſe it is alſo proper to refer to <hi rend="italic">Bleeding,</hi> and the purging
+          apozem. </p>
+        <p rend="indent"><lb/>The method of applying it is by rubbing it in with a warm hand. </p>
+      </div>
+      <div type="part">
+        <pb xml:id="page_19" n="15"/>
+        <head rend="align-center"><lb/>OILY EMULSION. </head>
+        <p rend="indent"><lb/><hi rend="sc">Take</hi> four large ſpoonfuls of oil of almonds, half a
+          pint of cold <lb/>barley water, two drams of fine ſugar, in powder, and ſixty drops of
+          <lb/>ſpirit of hartſhorn; ſhake them well together, and the whole <w part="I"
+            >im-</w><lb/><w part="F">mediately</w> becomes a white emulſion; two ſpoonfuls of
+          cinnamon <lb/>water being added, will make it very palatable. </p>
+        <p rend="indent"><lb/>It is good in ſtitches and pleuritic pains in the ſide and breaſt,
+          <lb/>hoarſeneſs, coughs, &amp;c. </p>
+        <p rend="indent"><lb/>A tea-cupful may be taken frequently. </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>OPENING ELECTARY. </head>
+        <p rend="indent"><lb/><hi rend="sc">This</hi> electary gently relaxes the belly, without
+          cauſing ſickneſs <lb/>or gripings, which quick purges are apt to do. </p>
+        <p rend="indent"><lb/>When intended only to open the body, for a grown perſon, the <lb/>doſe
+          is the quantity of a nutmeg at bed-time; if deſigned to purge<lb/>more brisk, repeat the
+          doſe in the morning. </p>
+        <p rend="indent"><lb/>It may be given to children in a proportionably leſs degree <lb/>and
+          proves a good phyſic, particularly where they are troubled <lb/>with phlegm. </p>
+        <p rend="indent"><lb/>If more agreeable in a liquid form, you may diſſolve it in a ſmall
+          <lb/>quantity of any weak drink. </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>OPODELDOC </head>
+        <p rend="indent"><lb/><hi rend="sc">Is</hi> very ſerviceable in bruiſes or ſtrains; it
+          ſhould be rubbed in <lb/>with the warm hand three or four times a day. </p>
+      </div>
+      <div type="part">
+        <pb xml:id="page_20" n="16"/>
+        <head rend="align-center"><lb/>PALSY DROPS. </head>
+        <p rend="indent"><lb/><hi rend="sc">In</hi> all caſes where a heavineſs hangs upon the
+          ſpirits, with a <lb/>drowſineſs, dizzineſs, or ſwimming of the head, theſe drops are
+          <lb/>equally ſerviceable as in the palſy; all theſe complaints proceeding <lb/>from the
+          ſame bad diſpoſition of the blood. </p>
+        <p rend="indent"><lb/>The doſe is from one to two tea ſpoonfuls, two or three times <lb/>a
+          day, in a glaſs of wine and water, or valerian tea. </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>PARALYTIC <hi rend="sc">or</hi> PALSY-LINIMENT. </head>
+        <p rend="indent"><lb/><hi rend="sc">This</hi> liniment is good in all paralytic complaints,
+          likewiſe <lb/>where a ſtiffneſs and numbneſs remain after the rheumatiſm; it <lb/>will
+          remove thoſe acute rheumatic pains which ſeize the limbs on <lb/>taking cold, and
+          oftentimes proves a cure for the ſciatica or hip <lb/>gout: its warm ſtimulating quality
+          puts the part rubbed with it <lb/>into a glow, frees the pores of the ſkin, and, by
+          quickening the <lb/>circulation, removes thoſe obſtructions which were the cauſe of
+          <lb/>pain. </p>
+        <p rend="indent"><lb/>It ſhould be applied, night and morning, with a warm hand, if
+          <lb/>before the fire the better, and the part afterwards covered with a <lb/>piece of warm
+          flannel; where the diſorder does not give way, let <lb/>the palſy drops be taken alſo.
+        </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>PECTORAL DRINK. </head>
+        <p rend="indent"><lb/><hi rend="sc">Take</hi> two table-ſpoonfuls of pearl barley, boil it
+          two or three <lb/>minutes in half a pint of water, pour away that water, and add a
+          <lb/>quart and half a pint of freſh water to the barley, let it boil ten <lb/>minutes;
+          then add twenty ſtoned raiſins, and one fig cut into <lb/>ſlices, alſo a bit of ſtick
+          liquorice as long as your finger; let theſe <lb/>boil together a few minutes, and ſtrain
+          off a quart of the pectoral <lb/>drink. </p>
+        <pb xml:id="page_21" n="17"/>
+        <p rend="indent"><lb/>This is an agreeable ſoft liquor, good in any caſe where the <w
+            part="I">in-</w><lb/><w part="F">tention</w> is to dilute; but more eſpecially in
+          coughs, colds, <w part="I">oppreſ-</w><lb/><w part="F">ſions</w> of the breaſt, and ſuch
+          like complaints. </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>PILE ELECTARY. </head>
+        <p rend="indent"><lb/><hi rend="sc">Take</hi> the quantity of a nutmeg of this electary
+          night and <lb/>morning, ſo as to keep the body gently open; avoid pepper and <lb/>all
+          heating things, little or no wine ſhould be drank, and your <lb/>food muſt be of the
+          lighter and vegitable kind. </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>PILE LINIMENT. </head>
+        <p rend="indent"><lb/><hi rend="sc">If</hi> the piles are external, apply a little of this
+          liniment upon a <lb/>piece of fine rag very frequently, which will cool the part, and
+          <lb/>procure eaſe. Setting over the ſteam of warm water is frequently <lb/>ſerviceable,
+          eſpecially if an handful or two of marſhmallow leaves <lb/>and a little bran be added.
+        </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>POWDER FOR SWEATS. </head>
+        <p rend="indent"><lb/>I <hi rend="sc">need</hi> not point out the particular circumſtances
+          in which <lb/>this is neceſſary, every one being ſenſible how much it is of ſervice
+          <lb/>in colds, achs, and pains in the bones, and the like complaints. </p>
+        <div>
+          <head rend="align-center"><lb/>ITS DOSE. </head>
+          <p ><lb/>Above the age of 14 — from 20 to 30 grains. <lb/>Between 7 and 14 years —
+            from 10 to 20 </p>
+          <p rend="indent"><lb/>Under ſeven years old decreaſe the quantity as your judgment
+            <lb/>directs; let it be taken at bed-time, with a large draught of white <lb/>wine whey,
+            or ſomething of that kind, and, if very hard to ſweat, <lb/>twenty or thirty drops of
+            ſpirits of hartſhorn or ſal volatile in it; <lb/>but obſerve, if there is any fever, the
+            fever powder is moſt proper. </p>
+        </div>
+      </div>
+      <div type="part">
+        <pb xml:id="page_22" n="18"/>
+        <head rend="align-center"><lb/>PURGING APOZEM. </head>
+        <p rend="indent"><lb/><hi rend="sc">Pour</hi> a pint of boiling water upon one ounce of
+          Glauber's ſalts, <lb/>one ounce of manna, and one dram of bruiſed caraway ſeeds; ſtir
+          <lb/>them a little to diſſolve the manna and ſalts, cover the veſſel, and <lb/>let it
+          ſtand to cool; you may, if you pleaſe, add a little ſlice of <w part="I">Se-</w><lb/><w
+            part="F">ville</w> orange peel to the above. </p>
+        <p rend="indent"><lb/>This is the beſt method I know of diſguiſing the ſalts, and <w
+            part="I">ma-</w><lb/><w part="F">king</w> them ſit eaſy upon the ſtomach. </p>
+        <p rend="indent"><lb/>Of the ſtrained liquor a draught may be taken in the morning, and
+          <lb/>repeated once in half an hour or an hour, as the ſtomach will bear <lb/>it, till it
+          purges ſufficiently. The age of the perſon muſt be <w part="I">conſi-</w><lb/><w part="F"
+            >dered</w>; and, as you know the ſtrength of the apozem, it will be <w part="I"
+            >ea-</w><lb/><w part="F">ſy</w> to adjuſt the doſe. </p>
+        <p rend="indent"><lb/>If intended only to relax the body, a few ſpoonfuls taken at <w
+            part="I">bed-</w><lb/><w part="F">time</w>, or in the morning, will have the deſired
+          effect. </p>
+        <p rend="indent"><lb/>A leſs quantity may at any time be prepared as you find occaſion
+          <lb/>for it. </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>QUICK PURGING POWDER. </head>
+        <p rend="indent"><lb/><hi rend="sc">In</hi> many caſes, ſuch as dropſical and groſs habits
+          of body, <w part="I">foul-</w><lb/><w part="F">ness</w> of ſtomach (when a vomit is
+          ſometimes previouſly to be taken) <lb/>and for people of ſtrong conſtitutions, who live
+          much upon a fleſh <w part="I">di-</w><lb/><w part="F">et</w> and ſalt proviſions, where
+          you think manna and ſalts are not <w part="I">pow-</w><lb/><w part="F">erful</w> enough;
+          and even to younger perſons whom you want to purge <lb/>very briskly, this purging powder
+          is recommended, and may be <w part="I">gi-</w><lb/><w part="F">ven</w> in a little of any
+          liquor. </p>
+        <div>
+          <head rend="align-center"><lb/>ITS DOSE. </head>
+          <p ><lb/> Above the age of 14 — from 25 grains to 2 ſcruples. <lb/>Between 7 and 14
+            — from 15 grains to half a dram. <lb/>Between 3 and 7 — from 6 grains to 1 ſcruple. </p>
+        </div>
+      </div>
+      <div type="part">
+        <pb xml:id="page_23" n="19"/>
+        <head rend="align-center"><lb/>RHEUMATIC POWDER. </head>
+        <p rend="indent"><lb/><hi rend="sc">This</hi> powder may be given night and morning, from
+          one to two <lb/>ſcruples, with twenty or thirty drops of ſal volatile, in white wine
+          <lb/>whey, ſage tea,<note place="bottom" n="*" rend="size(0.5)">* I muſt not omit noticing
+            an egregious and common error in making theſe herb <lb/>teas for a ſick perſon, that is,
+            the putting ſuch a large quantity of leaves and ſtalks <lb/>into a pot and letting water
+            ſtand upon it three or four hours, which is the general <lb/>method uſed by nurſes and
+            attendants; it not only makes the drink nauſeous, but, <lb/>in many inflammatory caſes,
+            it proves very prejudicial, for inſtead of being the <lb/>cooling draught which is
+            adviſeable, it is become ſo hot by the pungency of the herbs, <lb/>that it abſolutely
+            adds fuel to the fire. Put from 10 to 20 leaves, according to the <lb/>ſtrength of
+            different herbs into a pot, and pour upon them a quart of boiling water, <lb/>after
+            ſtanding three or four minutes (juſt as you manage your green tea) pour it out <lb/>into
+            a baſon to cool, by this means you have the fine flavour of the plant, and, I am
+            <lb/>convinced, many people will find herbs which our own climate produces, ſuch as
+            <lb/>ſage, mint, balm, ground-ivy, &amp;c. thus properly managed, produce a more
+            grateful <lb/>liquor than that tea ſo commonly uſed in England, and for which we pay ſo
+              <w part="I">extra-</w><lb/><w part="F">vagant</w> a price. </note> or any ſmall
+          liquor. </p>
+        <p rend="indent"><lb/>The doſe ſhould be increaſed or diminiſhed, ſo as to keep the
+          <lb/>body open; if the pains are very violent, and the pores of the <lb/>ſkin ſhut up by
+          preceding colds, let the paralytic liniment be <lb/>uſed. </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>RHUBARB POWDER. </head>
+        <p rend="indent"><lb/><hi rend="sc">All</hi> phyſicians agree in the excellency of this
+          root; it is a good <lb/>purge in many complaints, and ſtrengthens the ſtomach and bowels;
+          <lb/>it is particularly recommended for children, more eſpecially for the <lb/>worms, as
+          it purges off thoſe crudities in which they breed. </p>
+        <div>
+          <head rend="align-center"><lb/>ITS DOSE. </head>
+          <p ><lb/> Above 14 years — from 15 to 30 grains. <lb/>Between 7 and 14 — from 10 to
+            20 grains. <lb/>Between 1 and 7 — from 5 to 15 grains. <lb/>Within the months — from 1
+            to 5 grains. </p>
+        </div>
+      </div>
+      <div type="part">
+        <pb xml:id="page_24" n="20"/>
+        <head rend="align-center"><lb/>SALOP </head>
+        <p rend="indent"><lb/>Is of late years brought into much eſteem in England; it is of <lb/>a
+          reſtorative and ſtrengthening quality<note place="bottom" n="*" rend="size(0.5)">* Salop,
+            like moſt other things for which there is a large demand, to enable the <lb/>trader to
+            ſell cheap, is very frequently much adulterated. I am afraid the greateſt <lb/>part of
+            what is commonly ſold for powder of ſalop, will be found to have in it a <w part="I"
+              >con-</w><lb/><w part="F">ſiderable</w> quantity of ſtarch and gum arabic, which ought
+            to put people upon their <lb/>guard where they purchaſe it; for, although the virtues of
+            the true are undeniable, <lb/>the adulterated muſt fall ſhort of its excellency, and the
+            falſe in appearance, if <w part="I">art-</w><lb/><w part="F">fully</w> managed, will
+            deceive very good judges. </note>; many ladies, whom I <lb/>have had the honour to
+          recommend it to, of tender conſtitutions, <lb/>where tea has been found to prey over-much
+          upon a week ſtomach <lb/>and where more nouriſhment has been neceſſary than they received
+          <lb/>from their ordinary food, eat it in a morning for breakfaſt; and I <lb/>muſt confeſs
+          it would much pleaſe me to ſee it more univerſally <w part="I">re-</w><lb/><w part="F"
+            >ceived</w>, particularly by thoſe who are ſubject to nervous complaints, <lb/>being in
+          its own nature very ſtrengthening, eaſy of digeſtion, and, <lb/>in the manner here
+          recommended, affords a great deal of <w part="I">nouriſh-</w><lb/><w part="F">ment</w> in
+          an impoveriſhed ſtate of blood; therefore the propereſt <lb/>food that can be received
+          after a ſevere fit of ſickneſs, whereby the <lb/>patint is much weakened. </p>
+        <p rend="indent"><lb/>The common way of preparing it is with water, and a glaſs of wine
+          <lb/>added to it, but the method I think far preferable is this: </p>
+        <p rend="indent"><lb/>Boil half a pint of milk with as much water, while it is in a <w
+            part="I">boil-</w><lb/><w part="F">ing</w> ſtate, let two tea-ſpoonfuls of the powder of
+          ſalop, firſt mixed in <lb/>a baſon with a ſpoonful or two of cold water, be thrown into
+          it; <lb/>after it has ſimmered a minute or two, ſtirring it the while, you <lb/>will find
+          the whole of a ſmooth creamy conſiſtence; a bit of ſugar<lb/>and a little nutmeg may be
+          added to make it palatable. Thoſe <lb/>whom milk is apt to render coſtive, ſhould mix the
+          ſalop with the <lb/>water alone as above directed, and add the milk to it after it is <w
+            part="I">ta-</w><lb/><w part="F">ken</w> from the fire. </p>
+        <pb xml:id="page_25" n="21"/>
+        <p rend="indent"><lb/>We all know how ſerviceable a milk diet is in many caſes; by <lb/>this
+          method it will agree with them, upon whoſe ſtomach it other-<lb/>ways turns ſour and
+          curdles. </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>SALT OF WORMWOOD DRAUGHT. </head>
+        <p rend="indent"><lb/><hi rend="sc">Take</hi> a ſcruple of ſalt of wormwood, pour upon it by
+          little and <lb/>little freſh lemon juice, till it has done fermenting and taſtes quite
+          <lb/>inſipid, about one large ſpoonful is ſufficient; then add a little fine <lb/>ſugar to
+          make it palatable, about a wine-glaſs of ſpring or barley <lb/>water, and a pap-ſpoonful
+          of cinnamon water, makes a moſt <w part="I">plea-</w><lb/><w part="F">ſant</w> draught. </p>
+        <p rend="indent"><lb/>Above the age of fourteen, it may be given once in ſix or eight
+          <lb/>hours, in any little feveriſh complaints, ſickneſs at ſtomach, <w part="I"
+            >watch-</w><lb/><w part="F">ings</w>, parched dryneſs of the mouth, and ſuch-like ills,
+          and is often <lb/>preferable to the fever powder. From ſeven to fourteen years, half
+          <lb/>a draught is ſufficient; under that age ſtill decreaſe the quantity. </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>SAL VOLATILE. </head>
+        <p rend="indent"><lb/><hi rend="sc">The</hi> uſe of theſe drops is ſo common and well known
+          for raiſing <lb/>the ſpirits, that I need only take notice of its doſe, which is from
+          <lb/>ten to ſixty drops, in a glaſs of water, or what you pleaſe. </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>SCORBUTIC ELIXIR. </head>
+        <p rend="indent"><lb/><hi rend="sc">This</hi> preparation is in an eſpecial manner devoted
+          to the relief <lb/>of ſcorbutic diſorders. It is of a ſcouring nature, breaks and <w
+            part="I">divi-</w><lb/><w part="F">des</w> all obſtructions of the glands proceeding
+          from a more than <w part="I">or-</w><lb/><w part="F">dinary</w> thickneſs of the blood,
+          and, by reſtoring the maſs to a due <lb/>ſtate of fluidity, prevents thoſe feveriſh
+          diſpoſitions which naturally <lb/>ariſe from any hindrance in the neceſſary ſecretions,
+          ſuch as urine, <lb/>ſtool, &amp;c. It is a great promoter of urine, and a great quickener
+          <lb/>of the motions of the fluids; it may be likewiſe ſerviceable in an <pb
+            xml:id="page_26" n="22"/><lb/>unwieldy habit from ſluggiſh humours, and help to throw
+          off a <lb/>dropſy. From fifteen drops to two tea-ſpoonfuls may betaken to <lb/>or three
+          times a day, in a draught of ſage tea or any other liquor, <lb/>and continued for ſome
+          time. </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>SENA TEA. </head>
+        <p rend="indent"><lb/><hi rend="sc">The</hi> uſual method of preparing this, is, by putting
+          as much of <lb/>the ſena leaves as your thumb and two fingers will contain into a <w
+            part="I">tea-</w><lb/><w part="F">pot</w>, and pouring upon it a gill of boiling water;
+          when cold, pour <lb/>out the liquor, which will be ſtrong enough to give a grown perſon
+          <lb/>a ſtool or two. </p>
+        <p rend="indent"><lb/>A little manna and ſalts may be diſſolved in this ſena tea, which
+          <lb/>makes it operate brisker. </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>SNUFF <hi rend="sc">for the</hi> HEAD-ACH. </head>
+        <p rend="indent"><lb/><hi rend="sc">THIS</hi> ſnuff may be ſafely uſed in all complaints of
+          the head. It<lb/>is prepared from herbs which have a particular efficacy in thoſe
+          <lb/>caſes, as is manifeſt from the infinite ſervice received from it, in old <lb/>and
+          ſettled pains of the head. </p>
+        <p rend="indent"><lb/>It may be taken as freely as you pleaſe. </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>SPERMA CETI BOLUS. </head>
+        <p rend="indent"><lb/>Take of ſperma ceti one ſcruple, of fever powder ten grains, make
+          <lb/>theſe into a bolus with a ſufficient quantity of ſyrup, to be taken <lb/>once in ſix
+          or eight hours, with a little penny-royal and hyſteric <lb/>water, in lying in caſes and
+          miſcarriages, in either of which where <lb/>the pains are violent you may add three, four,
+          or five drops of <w part="I">Lau-</w><lb/><w part="F">danum</w> to each bolus; remember
+          alſo to prevent coſtiveneſs either <lb/>by gentle clyſters, a little ſena tea, or ſome
+          other mild <w part="I">purga-</w><lb/><w part="F">tive</w>. </p>
+      </div>
+      <div type="part">
+        <pb xml:id="page_27" n="23"/>
+        <head rend="align-center"><lb/>SPERMA CETI EMULSION. </head>
+        <p rend="indent"><lb/><hi rend="sc">Take</hi> two drams of the powder of ſperma ceti, rub it
+          in a <w part="I">mar-</w><lb/><w part="F">ble</w> mortar, with a quarter part of the yolk
+          of one egg, till it is a <lb/>ſmooth pulp; then add two drams of fine ſugar in powder, mix
+          <lb/>them well together, and by little and little pour on half a pint of <lb/>cold barley
+          water; ſtrain it through a fine hair or coarſe lawn ſieve, <lb/>which will keep back the
+          undiſſolved part of the ſperma ceti, and <lb/>render the emulſion ſmooth and even; to the
+          whole you may add <lb/>two ſpoonfuls of cinnamon water. </p>
+        <p rend="indent"><lb/>A wine-glaſs may be taken as often as agreeable, in coughs,
+          <lb/>hoarſeneſs, when troubled with flegm, or any of the like complaints; <lb/>alſo in the
+          hooping cough, when, if they are feveriſh, you ſhould <lb/>join a little fever powder with
+          it, and purge them with rhubarb <lb/>or the quick purging powder once in four or five
+          days; you may <lb/>likewiſe give the ſtomach tincture between breakfaſt and dinner
+          <lb/>and between dinner and ſupper: gentle vomits are oftentimes alſo<lb/>ſerviceable.
+        </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>SPERMA CETI <hi rend="sc">and</hi> SUGAR CANDY. </head>
+        <p rend="indent"><lb/><hi rend="sc">This</hi> may be taken at pleaſure, when troubled with a
+          cough or <lb/>hoarſeneſs, difficulty of breathing, or with phlegm; it is often of
+          <lb/>ſome ſervice, and ſo innocent, it can do no harm even to young <lb/>children. </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>SPIRIT <hi rend="sc">of</hi> LAVENDER </head>
+        <p rend="indent"><lb/><hi rend="sc">Is</hi> uſed in lowneſs of ſpirits as a cordial; it is
+          alſo given in <lb/>faintings and pains in the head; and may be taken frequently, <lb/>from
+          ten to ſixty drops, on a lump of ſugar, in wine and water, or <lb/>any other liquor. </p>
+      </div>
+      <div type="part">
+        <pb xml:id="page_28" n="24"/>
+        <head rend="align-center"><lb/>STEEL ELECTARY. </head>
+        <p rend="indent"><lb/><hi rend="sc">In</hi> female obſtructions this electary may be given,
+          from half a <lb/>dram to one dram, night and morning, in the form of a bolus, or <lb/>made
+          into pills, as is moſt agreeable, drinking a cup of cold <w part="I">chamo-</w><lb/><w
+            part="F">mile</w> flower tea, or a little penny-royal and hyſteric water; if you
+          <lb/>have reaſon to think phyſic is proper, give a doſe of hiera picra; at <lb/>bed-time,
+          let the feet be bathed in warm water for ten minutes, <lb/>then wipe them very dry, and,
+          if the weather is cold, wrap them <lb/>up in a piece of flannel. </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>STOMACH TINCTURE. </head>
+        <p rend="indent"><lb/><hi rend="sc">This</hi> tincture is highly proper in a weakneſs of the
+          ſtomach, loſs <lb/>of appetite, or bad digeſtion; as a bitter, it frequently contributes
+          <lb/>to the deſtroying of worms; and not only excites the ſenſe of <w part="I"
+            >hun-</w><lb/><w part="F">ger</w>, but, by its warm aromatic property, at the ſame time
+          that it <lb/>gives a grateful ſenſation, ſtrengthens the coats of the ſtomach, <lb/>which
+          by any cauſe may have been weakened, and renders it more <lb/>able to break and digeſt the
+          food taken in for the nouriſhment of the <lb/>body. </p>
+        <p rend="indent"><lb/>The doſe for a grown perſon is from one to two tea-ſpoonfuls,<lb/>an
+          hour before dinner, and three hours after dinner, in a glaſs of <lb/>water; thoſe who are
+          accuſtomed to drink wine, may add an equal <lb/>quantity to the water. </p>
+        <p rend="indent"><lb/>When given to children for the worms, it ſhould be taken the
+          <lb/>firſt thing in the morning, and laſt at bed-time, in a little water or <lb/>chamomile
+          flower tea. </p>
+        <p rend="indent"><lb/>A child of ſeven years old may take a tea-ſpoonful for a doſe; <w
+            part="I">un-</w><lb/><w part="F">der</w> that age decreaſe the quantity as your judgment
+          directs. </p>
+        <pb xml:id="page_29" n="25"/>
+        <p rend="indent"><lb/>If you have reaſon to imagine the ſtomach is foul, let a gentle
+          <lb/>puke of ipecacuanha be taken before the uſe of this tincture. </p>
+        <p rend="indent"><lb/>If inclined to be coſtive, now and then at bed-time take a doſe
+          <lb/>of the opening electary, or a few grains of rhubarb. </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>STRENGTHENING PLASTER. </head>
+        <p rend="indent"><lb/>A <hi rend="sc">piece</hi> of this plaſter may be applied in any
+          wrench or ſtrain,<lb/>weakneſs of the loins, or other parts. </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/><hi rend="sc">To make a</hi> SYRUP. </head>
+        <p rend="indent"><lb/><hi rend="sc">Dissolve</hi> a pound of ſugar in half a pint of water,
+          over a gentle<lb/>fire, in an earthen pipkin; let it ſimmer one minute or two, take
+          <lb/>off the ſcum, and preſerve the ſyrup, which is proper to ſoften <lb/>the electaries
+          when they grow dry, to make up pills or boluſſes, <lb/>and to give children their powders
+          in. </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>TINCTURE <hi rend="sc">of</hi> BARK. </head>
+        <p rend="indent"><lb/><hi rend="sc">This</hi> is ſerviceable in many complaints, in weak and
+          relaxed <lb/>habits of body, fluſhings and hectic heats; it checks profuſe <lb/>ſweats,
+          and braces up the ſolids; it is highly proper in all kinds of <lb/>bleedings, but more
+          efficacious when joined with a fourth part of <lb/>elixir of vitriol. </p>
+        <p rend="indent"><lb/>It may be given on any emergency; when taken for a conſtancy, <lb/>the
+          proper hours are the ſame as for elixir of vitriol, which ſee. </p>
+        <p rend="indent"><lb/>The doſe is from one to two tea-ſpoonfuls in any liquor. </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>TOOTH POWDER <hi rend="sc">for the</hi> SCURVY <hi rend="sc"
+            >in the</hi> GUMS. </head>
+        <p rend="indent"><lb/><hi rend="sc">This</hi> powder eleanſes and preſerves the teeth and
+          gums, takes <lb/>off ſcales and all kind of filth without injuring the enamel, which
+          <lb/>gritty powders are apt to do. </p>
+        <pb xml:id="page_30" n="26"/>
+        <p rend="indent"><lb/>It ſhould be uſed with a piece of ſpunge, every thing which is
+          <lb/>hard or rough being prejudicial, as they deſtroy the enamel, when <lb/>the teeth muſt
+          neceſſarily decay. </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>TURNER'S CERATE </head>
+        <p rend="indent"><lb/><hi rend="sc">Is</hi> commonly uſed for burns, cuts, ſcalds, bruiſes,
+          chilblains,<lb/>and other little complaints where the ſkin is worn off, and is ſo
+          <lb/>well known I need not be more particular. </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>VALERIAN ROOT </head>
+        <p rend="indent"><lb/><hi rend="sc">Is</hi> of late years come into great eſteem in all
+          nervous diſorders; <lb/>of the bruiſed root they make a tea in the ſame manner as ſena
+          tea, <lb/>and drink it three or four times a day, which is a proper thing to <lb/>take the
+          nervous tincture in, being of itſelf I am afraid not <w part="I">effec-</w><lb/><w
+            part="F">tual</w>, as the quantity of the root given in this manner, or in the
+          <lb/>tincture prepared from it, is too trifling to have any great <w part="I"
+            >depend-</w><lb/><w part="F">ence</w> upon. </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>VALERIAN ROOT <hi rend="sc">in</hi> POWDER. </head>
+        <p rend="indent"><lb/><hi rend="sc">If</hi> you intend to reap benefit from it, you muſt
+          take it in pretty <lb/>large quantities. It is uſually given from half a dram to one
+          <lb/>dram, in a little liquor of any kind, and ſhould be repeated once <lb/>in ſix or
+          eight hours. </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>YELLOW BASILICON </head>
+        <p rend="indent"><lb/><hi rend="sc">Is</hi> made uſe of in caſes which require more
+          diſcharge than the <lb/>Turner's cerate will promote, but in a great meaſure applied for
+          <lb/>the ſame intention. </p>
+      </div>
+      <div type="part">
+        <head rend="align-center"><lb/>WORM POWDER. </head>
+        <p rend="indent"><lb/><hi rend="sc">This</hi> powder ſhould be taken the very firſt thing
+          early in the <lb/>morning, and the laſt at bed-time, at leaſt one hour after ſupper,
+          <lb/>mixed in a little honey, currant jelly, or ſomewhat of the like <pb xml:id="page_31"
+            n="27"/><lb/>nature, and where it is not a ſpoiled child, let a cupful of cold
+          <lb/>camomile tea, or water with a tea-ſpoonful of the ſtomach <w part="I"
+            >tinc-</w><lb/><w part="F">ture</w>, be drank after it. This will keep them open;
+          nevertheleſs, in <lb/>moſt caſes you ſhould purge once in four or five days; for very
+          <lb/>young children rhubarb is proper; ſhould that not prove ſtrong <lb/>enough, the quick
+          purging powder may be given; but where they<lb/>are older and will take it, cleanſe their
+          bowels with the purging <lb/>apozem. </p>
+        <div>
+          <head rend="align-center"><lb/>ITS DOSE. </head>
+          <list>
+            <lb/>
+            <item>Above 14 years — from 25 grains to 2 ſcruples. </item>
+            <lb/>
+            <item>Between 7 and 14 — from 1 ſcruple to half a dram. </item>
+            <lb/>
+            <item>Between 3 and 7 — from 12 grains to 1 ſcruple. </item>
+            <lb/>
+            <item>Between 1 and 3 — from 6 to 12 grains. </item>
+          </list>
+        </div>
+      </div>
+      <div>
+        <pb xml:id="page_32" n="28"/>
+        <head rend="align-center"><lb/>ON <lb/><hi rend="size(1.7)">BLEEDING</hi>. </head>
+        <p rend="indent"><lb/>I <hi rend="sc">Rather</hi> chuſe to mention the complaints in which
+          bleeding is <lb/>adviſeable under this general head, than with the medicines <lb/>for the
+          reſpective diſorders, becauſe it may naturally be ſuppoſed<lb/>they cannot always procure
+          the aſſiſtance; for which reaſon, <w part="I">di-</w><lb/><w part="F">recting</w> to bleed
+          before the uſe of the medicines, in caſes where it <lb/>might prove ſerviceable, may be a
+          means of preventing their <w part="I">admi-</w><lb/><w part="F">niſtering</w> thoſe
+          remedies, which, taken in time, will frequently <lb/>alone remove the complaints. Beſides,
+          I would not wiſh the <w part="I">un-</w><lb/><w part="F">ſkilful</w> to be too free with
+          the lancet, as an injudicious evacuation <lb/>of blood may be ſucceeded with very bad
+          conſequences; and my <w part="I">in-</w><lb/><w part="F">tention</w> through the whole, as
+          I obſerved in the preface, being no <lb/>other than to ſupply families with a few uſeful
+          remedies for ſlight <lb/>indiſpoſitions, by which they may frequently prevent tedious <w
+            part="I">ill-</w><lb/><w part="F">neſſes</w>, but not to put the unexperienced upon
+          trifling with <w part="I">them-</w><lb/><w part="F">ſelves</w> when they are really ill,
+          and can have proper advice. </p>
+        <p rend="indent"><lb/>Blood ſhould be taken away in the beginning of fevers, when <lb/>there
+          is a ſtrong, quick pulſe, the eyes red and fiery, with great <lb/>heat and thirſt; but
+          never when they are in the decline, as, from <lb/>being inflammatory, they are often at
+          this period degenerated <lb/>into the nevous kind, when the chief of the affair is to be
+            <w part="I">ma-</w><lb/><w part="F">naged</w> by the frequent application of bliſters. </p>
+        <p rend="indent"><lb/>In aſthmatical complaints, if the patient be of a full habit of
+          <lb/>body. </p>
+        <pb xml:id="page_33" n="29"/>
+        <p rend="indent"><lb/>In coughs, if the pulſe is quick and full, with an oppreſſion at the
+          <lb/>breaſt, or difficulty in breathing. </p>
+        <p rend="indent"><lb/>In colics, where the pain is violent, the bowels inflamed, and no
+          <lb/>ſtools. </p>
+        <p rend="indent"><lb/>In fits, if the ſpirits are hurried and overpowered, and the patient
+          <lb/>full of blood. </p>
+        <p rend="indent"><lb/>In ſwimmings, dizzineſs, and pains of the head. </p>
+        <p rend="indent"><lb/>In ſtitches, and pleuritic diſorders of the ſide and breaſt, <w
+            part="I">particu-</w><lb/><w part="F">larly</w> if it gives pain to take a deep breath. </p>
+        <p rend="indent"><lb/>In ſore throats, where there is a ſtrong, quick pulſe, and the
+          <lb/>throat greatly ſwelled and inflamed. </p>
+        <p rend="indent"><lb/>For the piles it is ſometimes ſerviceable; as likewiſe in female
+          <lb/>obſtructions, and frequently in rheumatic complaints; in <w part="I"
+            >apoplec-</w><lb/><w part="F">tic</w> diſorders, a dyſentery or bloody flux, and irkſome
+          heat of the <lb/>bowels; for the hooping cough, particularly if of a full habit of <w
+            part="I">bo-</w><lb/><w part="F">dy</w>, and the phlegm which is brought up appears
+          ſtreaked with blood; <lb/>in all of which caſes, the quantity taken away muſt be
+          proportioned <lb/>to the age of the patient, and the violence of the complaint. </p>
+        <p rend="indent"><lb/>Bleeding again ought to be directed in large abſceſſes or ſwellings,
+          <lb/>where the heat and pain is immoderate; for in theſe caſes, by <w part="I"
+            >draw-</w><lb/><w part="F">ing</w> blood, the matter is more eaſily and ſpeedily brought
+          to ripen, and <lb/>by that means the body more effectually freed from its diſtempers. </p>
+        <p rend="indent"><lb/>In a word, wherever prevail ſore eyes, ſciatica or hip gout, a dry
+          <lb/>husky cough, an head-ach, pains of the womb or of the bladder, dry <lb/>gripes,
+          ſtrangury, gravel, pain from the ſtone, violent bleedings of the <lb/>noſe, ears, or other
+          parts, an inveterate ſcorbutical itch, and the like, <lb/>opening a vein is of peculiar
+          ſervice; but in dropſies, a jaundice, the <lb/>gout, and all illneſſes occaſioned by a
+          relaxed ſtate of body, an <w part="I">impo-</w><lb/><w part="F">veriſhed</w> blood, or too
+          great weakneſs of the veſſels, you muſt ſeek <w part="I">re-</w><lb/><w part="F">lief</w>
+          from the medicines recommended in this little manual, and not, <lb/>by an abrupt and
+          prepoſterous uſe of bleeding, increaſe the diſorder, <lb/>and ruin the health of the
+          patient and your own reputation. </p>
+      </div>
+      <div>
+        <pb xml:id="page_34" n="30"/>
+        <head rend="align-center"><lb/><hi rend="size(0.5)">ON THE</hi>
+          <lb/>APPLICATION <hi rend="sc">of</hi> BLISTERS. </head>
+        <p rend="indent"><lb/><hi rend="sc">To</hi> the cautions here laid down with reſpect to
+          bleeding, I <lb/>ſhall add a word or two concerning the application of <lb/>bliſters. </p>
+        <p rend="indent"><lb/>The moſt excellent remedy may be proſtituted by an <w part="I"
+            >inconſide-</w><lb/><w part="F">rate</w>, raſh, and fooliſh practice; which, it is
+          plain, oftentimes <w part="I">hap-</w><lb/><w part="F">pens</w> with regard to bliſters,
+          by ordering them indiſcriminately in <lb/>all ſevers, and without diſtinction in any time
+          of the diſtemper, <lb/>which can only be the effect of ignorance. </p>
+        <p rend="indent"><lb/>Therefore, before we reſolve on an expedient of this nature, it
+          <lb/>would be convenient to conſider whether the fever be of the <w part="I"
+            >in-</w><lb/><w part="F">flammatory</w> or nervous kind; if of the former, inſtead of
+          bliſtering <lb/>the lancet ought to be uſed, and a mild cooling regimen ſet on <lb/>ſoot,
+          as already directed; this will moderate the heat of the blood, <lb/>and by degrees reſtore
+          it to its due temper. On the other hand, <lb/>in fevers of the nervous claſs, where the
+          ſymptoms are quite <w part="I">dif-</w><lb/><w part="F">ferent</w>, the pulſe being low
+          and weak, the ſpirits almoſt ſpent, and <lb/>the eyes, inſtead of appearing ſparkling, red
+          and fiery, grown <lb/>quite dim, we ought by all means to make uſe of bliſters, and that
+          <lb/>freely. </p>
+        <p rend="indent"><lb/>They are oftentimes proper in paralytic and nervous complaints,
+          <lb/>as likewiſe in rheumatic pains and pleuriſies, in which caſes a <w part="I"
+            >bliſ-</w><lb/><w part="F">ter</w> applied immediately upon the part affected frequently
+          affords <lb/>great relief; and, and in a variety of other caſes they are of infinite <pb
+            xml:id="page_35" n="31"/><lb/>ſervice; but then regard muſt be paid to the ſtate of the
+          patient's <lb/>blood, for if a full, quick pulſe, great heat, thirſt, and the other
+          <lb/>ſymptoms of an inflammatory fever attend upon the diſorders, the <lb/>fever muſt
+          firſt be conquered, and afterwards, if neceſſity requires it, <lb/>let bliſters be
+          applied. Should they cauſe a ſtrangury, which will <lb/>ſometimes be the caſe, give the
+          patient plentifully of marſhmallow <lb/>drink, or barley water with a little gum arabic
+          diſſolved in it; or <lb/>if there is a purging, which you would wiſh to be ſtopped, of the
+          <lb/>hartſhorn drink, and this inconvenience will ſoon be remedied. </p>
+        <p rend="indent"><lb/>In regard to the management of them, the plaſter ſhould be ſpread
+          <lb/>upon a piece of an old glove, and bound on to the part intended; <lb/>after
+          twenty-four hours, the ſtrength of the flies being pretty well <lb/>ſpent, you may remove
+          the bliſter, and, if you cannot procure the <lb/>proper dreſſings, a little Turner's
+          cerate ſpread upon a piece of fine <lb/>rag may ſupply its place. </p>
+        <p rend="indent"><lb/>Should any bliſters appear unbroke, ſnip them with a pair of <w
+            part="I">ſciſ-</w><lb/><w part="F">ſars</w>; if they give violent pain, this may be done
+          when the plaſter <lb/>has been applied only twelve hours; when, by diſcharging the <w
+            part="I">wa-</w><lb/><w part="F">ter</w>, and laying it ſmooth on again, you eaſe the
+          patient, and give <lb/>the bliſter an opportunity of acting more. </p>
+      </div>
+    </body>
+
+
+  </text>
+</TEI>

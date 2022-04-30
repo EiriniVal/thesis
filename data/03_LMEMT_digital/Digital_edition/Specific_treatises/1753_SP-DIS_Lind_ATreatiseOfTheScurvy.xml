@@ -1,0 +1,1312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LMEMT Corpus - Lind: A Treatise of the Scurvy</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>James Lind</persName>
+            </author>
+            <title type="main">A Treatise of the Scurvy. In three Parts. Containing an inquiry into
+              the Nature, Causes, and Cure, of that Disease. Together with a Critical and
+              Chronological View of what has been published on the subject.</title>
+            <edition n="1"/>
+            <idno type="ESTC">N13974</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/N13974"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>Edinburgh</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>Edinburgh: printed by Sands, Murray, and Cochran. For A. Kincaid &amp; A.
+                  Donaldson, MDCCLIII. </persName>
+              </publisher>
+              <date>1753</date>
+            </imprint>
+            <extent>
+              <measure type="format">8⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="13"/>
+              <measure type="count" commodity="body" unit="page" quantity="444"/>
+              <measure type="count" commodity="back" unit="page" quantity="12"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">Countway Library of Medicine</orgName>
+            <idno type="ECCO">CW107813863</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Book on a specific topic: disease"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text type="book" rend="roman" xml:lang="eng">
+    <gap reason="sampling" unit="pages" quantity="13"/>
+    <body>
+      <gap reason="sampling" unit="pages" quantity="82"/>
+      <pb n="83"/>
+      <div type="part">
+        <head rend="space align-center">
+          <lb/>A <lb/><hi rend="size(1.5)">TREATISE </hi>
+          <lb/>OF THE <lb/><hi rend="size(1.5)">SCURVY. </hi>
+        </head>
+        <figure rend="space">
+          <figDesc>A horizontal line, spanning the whole page. </figDesc>
+        </figure>
+        <head rend="align-center">
+          <lb/>PART II. </head>
+        <figure>
+          <figDesc>A horizontal line, spanning the whole page. </figDesc>
+        </figure>
+        <div type="chapter">
+          <head rend="align-center space">
+            <lb/>CHAP. I. </head>
+          <head rend="italic hanging space">
+            <lb/>The true cauſes of the diſeaſe, from obſervations <lb/>made upon it, both at ſea
+            and land. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(3)">T</hi>HE ſcorbutic taint is induced chiefly <lb/>by the agency of
+            certain external and <lb/>remote cauſes; which, according as <lb/>their exiſtence is
+            permanent or caſual, and in <lb/>proportion to the different degrees of violence
+            <lb/>with which they act, give riſe to a diſeaſe more <lb/>or leſs epidemic, and of
+            various degrees of ma- <lb/>lignity. </p>
+          <p rend="indent">
+            <lb/>Thus, where the cauſes productive of it are <lb/>general, and violent in a high
+            degree, it becomes <lb/>an epidemic or univerſal calamity, and rages <pb n="84"/>
+            <lb/>with great and diffuſive virulence: as happens <lb/>often to ſeamen in long
+            voyages; ſometimes to <lb/>armies <note place="bottom" n="(a)" rend="size(0.5)">
+              <cb n="1" type="footnote"/>
+              <p rend="indent">
+                <lb/><hi rend="italic">(a)</hi> Vid. <hi rend="italic">Nitzſch</hi>. </p>
+            </note>, very lately to the <hi rend="italic">German</hi> ſoldiers <lb/>in <hi
+              rend="italic">Hungary</hi>
+            <note place="bottom" n="(b)" rend="size(0.5)">
+              <cb n="2" type="footnote"/>
+              <p rend="indent">
+                <lb/><hi rend="italic">(b)</hi> Vid. <hi rend="italic">Kramer</hi>. </p>
+            </note>; frequently to troops when <lb/>cloſely beſieged, as to the <hi rend="italic"
+              >Saxon</hi> garriſon in <lb/><hi rend="italic">Thorn</hi>
+            <note place="bottom" n="(c)" rend="size(0.5)">
+              <cb n="1" type="footnote"/>
+              <p rend="indent">
+                <lb/><hi rend="italic">(c)</hi>
+                <hi rend="italic">Bachſtrom</hi>. </p>
+            </note>, the beſieged in <hi rend="italic">Rochelle</hi>, as alſo <lb/><hi rend="italic"
+              >Stetin</hi>
+            <note place="bottom" n="(d)" rend="size(0.5)">
+              <cb n="2" type="footnote"/>
+              <p rend="indent">
+                <lb/><hi rend="italic">(d)</hi>
+                <hi rend="italic">Krameri epiſtol. p. 23</hi>. </p>
+            </note>: and at other times to whole coun- <lb/>tries; as in <hi rend="italic"
+              >Brabant</hi>, in the year 1556 <note place="bottom" n="(e)" rend="size(0.5)">
+              <cb n="1" type="footnote"/>
+              <p rend="indent">
+                <lb/><hi rend="italic">(e)</hi>
+                <hi rend="italic">Dodon <gap reason="illegible"/>eus, &amp; Forreſtus</hi>. </p>
+            </note>; <lb/>and in <hi rend="italic">Holland</hi>, <hi rend="italic">ann.</hi> 1562
+              <note place="bottom" n="(f)" rend="size(0.5)">
+              <cb n="2" type="footnote"/>
+              <p rend="indent">
+                <lb/><hi rend="italic">(f)</hi>
+                <hi rend="italic">Ronſſeus</hi>. </p>
+            </note>. </p>
+          <p rend="indent">
+            <lb/>2<hi rend="italic">dly</hi>, Where theſe cauſes are fixed and per- <lb/>manent, or
+            almoſt always ſubſiſting, it may be <lb/>there ſaid to be an endemic or conſtant
+            diſeaſe; <lb/>as in <hi rend="italic">Iceland</hi>, <hi rend="italic">Groenland</hi>
+            <note place="bottom" n="(g)" rend="size(0.5)">
+              <cb n="1 2" type="footnote"/>
+              <p rend="indent">
+                <lb/><hi rend="italic">(g)</hi>
+                <hi rend="italic">Herman. Nicolai. Vid. act. Haffn.</hi>
+              </p>
+            </note>, <hi rend="italic">Cronſtadt</hi>
+            <note place="bottom" n="(h)" rend="size(0.5)">
+              <p rend="indent">
+                <lb/><hi rend="italic">(h)</hi>
+                <hi rend="italic">Sinop <gap reason="illegible"/>eus</hi>. </p>
+            </note>, <lb/>the northern parts of <hi rend="italic">Ruſſia</hi>
+            <note place="bottom" n="(i)" rend="size(0.5)">
+              <p rend="indent">
+                <lb/><hi rend="italic">(i)</hi> Vid. <hi rend="italic">Commerc. literar. Norimb. an.
+                  1734, p. 162</hi>. </p>
+            </note>, and in moſt <lb/>northern countries as yet diſcovered in <hi rend="italic"
+              >Europe</hi>, <lb/>from the latitude of 60 to the north pole. <lb/>It was alſo
+            formerly in a peculiar manner en- <lb/>demic in ſeveral parts of the <hi rend="italic"
+              >Low Countries</hi>, in <lb/><hi rend="italic">Holland</hi> and <hi rend="italic"
+              >Frieſland</hi>; in <hi rend="italic">Brabant</hi>, <hi rend="italic">Pomera-
+              <lb/>nia</hi>, and the <hi rend="italic">Lower Saxony</hi>
+            <note place="bottom" n="(k)" rend="size(0.5)">
+              <p rend="indent">
+                <lb/><hi rend="italic">(k)</hi>
+                <hi rend="italic">Wierus, Ronſſeus, &amp;c.</hi>
+              </p>
+            </note>; and in ſome <pb n="85"/>
+            <lb/>places of <hi rend="italic">Denmark</hi>
+            <note place="bottom" n="(l)" rend="size(0.5)">
+              <p rend="indent">
+                <lb/><hi rend="italic">(l)</hi> Vid. <hi rend="italic">Concilium facultatis medicæ
+                  Haffn. de ſcorbuto</hi>. </p>
+            </note>, <hi rend="italic">Sweden</hi>, and <hi rend="italic">Nor- <lb/>way</hi>
+            <note place="bottom" n="(m)" rend="size(0.5)">
+              <p rend="indent">
+                <lb/><hi rend="italic">(m)</hi>
+                <hi rend="italic">Brucæus</hi>. </p>
+            </note>, chiefly upon the ſea-coaſts. </p>
+          <p rend="indent">
+            <lb/><hi rend="italic">Laſtly</hi>, Where theſe cauſes prevail leſs fre- <lb/>quently,
+            and are more peculiar to the circum- <lb/>ſtances of a few, it may be there ſaid to be
+            ſpo- <lb/>radic, or a diſeaſe only here and there to be <lb/>met with; as in <hi
+              rend="italic">Great Britain</hi>
+            <note place="bottom" n="(n)" rend="size(0.5)">
+              <p rend="indent">
+                <lb/><hi rend="italic">(n)</hi> Vid. Dr <hi rend="italic">Gainger</hi>'s account of
+                the ſcurvy at <hi rend="italic">Fort-Wil- <lb/>liam</hi>. </p>
+            </note> and <hi rend="italic">Ireland</hi>, <lb/>ſeveral parts of <hi rend="italic"
+              >Germany</hi>, &amp;c. </p>
+          <p rend="indent">
+            <lb/>Now, by conſidering the peculiarity of the <lb/>circumſtances, ſituation, and way
+            of life of <lb/>theſe people; and by attentively obſerving, <lb/>what at any time gives
+            riſe to this diſeaſe, what <lb/>is ſeen to remove it, and what to increaſe or
+            <lb/>mitigate its malignity, we ſhall be able to form <lb/>a judgment, not only of the
+            principal cauſes <lb/>productive of it, but likewiſe of the ſubordi- <lb/>nate, or thoſe
+            that in a leſs degree may con- <lb/>tribute their influence. It is indeed a matter
+            <lb/>of the utmoſt conſequence, to inveſtigate the <lb/>true ſources of this evil; as,
+            upon the removing <lb/>or correcting of theſe, the preſervation of the <lb/>body from
+            its firſt attacks, as well as its conſe- <lb/>quences, in a great meaſure depends. And
+              <pb n="86"/>
+            <lb/>we ſhall begin with conſidering the ſituation <lb/>of thoſe at ſea, among whom it
+            is ſaid to be <lb/>ſo often an epidemic calamity. </p>
+          <p rend="indent">
+            <lb/>In the proof of the identity of this diſeaſe <lb/>on both elements <note
+              place="bottom" n="(o)" rend="size(0.5)">
+              <p rend="indent">
+                <lb/><hi rend="italic">(o)</hi> Part. 1. chap. 3. </p>
+            </note>, I obſerved, that the cau- <lb/>ſes productive of it at ſea, were to be found
+            <lb/>alſo at land, in a ſmaller degree: but before <lb/>determining what are the true
+            cauſes of its be- <lb/>ing ſo often epidemic at ſea, it may not be a- <lb/>miſs to
+            remark what they are not, although <lb/>commonly accuſed. </p>
+          <p rend="indent">
+            <lb/>Many have aſcribed this diſeaſe to the great <lb/>quantity of ſea-ſalt <note
+              place="bottom" n="(p)" rend="size(0.5)">
+              <p rend="indent">
+                <lb/><hi rend="italic">(p)</hi>
+                <hi rend="italic">Liſteri exercitatio de ſcorbuto</hi>. </p>
+            </note>, neceſſarily made uſe of <lb/>by ſeamen in their diet: and it has been there-
+            <lb/>fore denominated a <hi rend="italic">muriatic ſcurvy</hi>. </p>
+          <p rend="indent">
+            <lb/>Whether this ſalt, inſtead of producing the <lb/>ſcurvy, may not, on the contrary,
+            from its an- <lb/>tiſeptic quality, become the means of prevent- <lb/>ing it for ſome
+            time, I ſhall not take upon me <lb/>to determine, as my experiments do not autho-
+            <lb/>riſe this concluſion; though they plainly prove, <lb/>that it neither cauſes the
+            diſtemper, nor adds <lb/>to its malignity. For in the cruiſes after menti- <lb/>oned,
+            where the ſcurvy raged with great vio- <lb/>lence, it was then a faſhionable cuſtom to
+              <pb n="87"/>
+            <lb/>drink the ſalt-water, by way of gentle phyſic. <lb/>I have been told, that Admiral
+              <hi rend="italic">Martin</hi>, and ſe- <lb/>veral officers in his fleet, continued the
+            uſe of it <lb/>during a whole cruiſe. I had at that time ſeveral <lb/>patients under a
+            purging courſe of this water, <lb/>for the itch, and obſtinate ulcers on their legs;
+            <lb/>and have experienced very good effects from it, <lb/>eſpecially in the laſt caſe:
+            yet none of theſe <lb/>people, after continuing this courſe for a <lb/>month, had the
+            leaſt ſcorbutic complaint. </p>
+          <p rend="indent">
+            <lb/>But to put it beyond all doubt, that ſea-ſalt <lb/>is not the occaſion of the
+            ſcurvy, I took two <lb/>patients, (in order to make trial of the effects <lb/>of
+            different medicines in this diſeaſe, to be <lb/>more fully related afterwards), with
+            very putrid <lb/>gums, ſwelled legs, and contracted knees, to <lb/>whom I gave half a
+            pint of ſalt water, and <lb/>ſometimes more, every day for a ſortnight: <lb/>at the
+            expiration of which time, I was not ſen- <lb/>ſible of their being in the leaſt worſe;
+            but <lb/>found them in the ſame condition as thoſe who <lb/>had taken no medicine
+            whatever <note place="bottom" n="(q)" rend="size(0.5)">
+              <p rend="indent">
+                <lb/><hi rend="italic">(q)</hi> This experiment, of giving ſcorbutic people ſalt wa-
+                <lb/>ter, has been often tried; and ſome have thought they recei- <lb/>ved benefit
+                from it. See chap. 4. </p>
+            </note>. From <lb/>which I am convinced, that ſea-ſalt, at leaſt <pb n="88"/>
+            <lb/>the drinking of ſalt water, by no means diſ- <lb/>poſes the conſtitution to this
+            diſeaſe. </p>
+          <p rend="indent">
+            <lb/>But I would not be underſtood here to mean, <lb/>nor does it follow from what has
+            been ſaid, <lb/>that although ſea-water, which is a compoſi- <lb/>tion in which this
+            ſalt is a principal ingredient, <lb/>has no bad influence upon the ſcurvy, that a
+            <lb/>diet of ſalt fleſh and fiſh is equally innocent. <lb/>The contrary of which will
+            appear in the ſe- <lb/>quel. The brine of meats, in particular, is of a <lb/>different
+            quality from either purified ſea-ſalt or <lb/>ſalt water; for we find that this ſalt may
+            be ſo <lb/>intangled by the animal oils, eſpecially in ſalt <lb/>pork, that it is with
+            great difficulty diſen- <lb/>gaged from them after many waſhings, and the <lb/>moſt
+            plentiful dilution. So that as this ſaline <lb/>quality is inextricable from ſuch food,
+            it is ren- <lb/>dered improper in many caſes to afford that <lb/>ſoft, mild nouriſhment,
+            which is required to <lb/>repair the body. It is remarkable, that the <lb/>powers of the
+            human machine can animaliſe o- <lb/>ther ſalts; that is, convert them into the am-
+            <lb/>moniacal ſort, or that of its own nature: while <lb/>this ſea-ſalt ſeems to elude
+            the force of our ſo- <lb/>lids and fluids; and retaining its own unchange- <lb/>able
+            nature in the body, is to be recovered un- <lb/>altered from the urine of thoſe who have
+            taken <pb n="89"/>
+            <lb/>it. Thus, ſea-ſalt has no effect in producing <lb/>this diſeaſe; whatever meats,
+            hardened and pre- <lb/>ſerved by it may have, by being rendered of <lb/>hard and
+            difficult digeſtion, and improper for <lb/>nouriſhment. And this is farther confirmed
+            <lb/>by the daily experience of ſeamen; who, upon <lb/>the firſt ſcorbutical complaint,
+            are generally de- <lb/>barred the uſe of every thing that is the leaſt <lb/>ſalted:
+            notwithſtanding which, the diſeaſe in- <lb/>creaſes with great violence: While at other
+            <lb/>times, it breaks out when there is plenty of <lb/>freſh fleſh-proviſions on board;
+            as was the caſe <lb/>in Lord <hi rend="italic">Anſon</hi>'s ſhips, on their leaving the
+            coaſt <lb/>of <hi rend="italic">Mexico</hi>
+            <note place="bottom" n="(r)" rend="size(0.5)">
+              <p rend="indent">
+                <lb/><hi rend="italic">(r)</hi> Vid. Part. 3. chap. 2. Dr <hi rend="italic"
+                  >Mead</hi>, who was thoroughly <lb/>acquainted with their ſituation, obſerves,
+                that, upon that occa- <lb/>ſion, freſh fleſh-proviſions, and plenty of wholſome
+                rain-water, <lb/>did not avail them. <hi rend="italic">Diſcourſe on the ſcurvy, p.
+                  100</hi>. </p>
+              <p rend="indent">
+                <lb/>That ſalt fleſh-meats have ſometimes no ſhare in occaſioning <lb/>this diſeaſe,
+                is demonſtrable from the many <hi rend="italic">Germans</hi> in <hi rend="italic"
+                  >Hungary</hi>
+                <lb/>deſtroyed by it, who eat neither ſalt beef nor pork; on the con- <lb/>trary,
+                they had freſh beef at a very low price. <hi rend="italic">Vid. Krameri <lb/>epiſt.
+                  p. 33</hi>. </p>
+              <p rend="indent">
+                <lb/>The ſoldiers in the <hi rend="italic">Ruſſian</hi> armies alſo had no ſalt
+                proviſions. <lb/><hi rend="italic">Vid. Nitzſch</hi>. </p>
+            </note>. </p>
+          <p rend="indent">
+            <lb/>Others, again, have ſuppoſed ſuch to be the <lb/>conſtitution of the human body,
+            that health <lb/>and life cannot be preſerved long, without the <lb/>uſe of green
+            herbage, vegetables and fruits; <pb n="90"/>
+            <lb/>and that a long abſtinence from theſe, is alone <lb/>the cauſe of the diſeaſe <note
+              place="bottom" n="(ſ)" rend="size(0.5)">
+              <p rend="indent">
+                <lb/><hi rend="italic">(ſ)</hi>
+                <hi rend="italic">Obſervationes circa ſcorbutum; auctore Fre. Bachſtrom.</hi>
+              </p>
+            </note>. </p>
+          <p rend="indent">
+            <lb/>But if this were truly the caſe, we muſt have <lb/>had the ſcurvy very accurately
+            deſcribed by the <lb/>ancients; whoſe chief ſtudy ſeems to have been <lb/>the art of
+            war; and whoſe manner of beſieging <lb/>towns was generally by a blockade, till they
+            <lb/>had forced a ſurrender by famine. Now, as <lb/>they held out many months, ſometimes
+            years, <lb/>without a ſupply of vegetables; we ſhould, no <lb/>doubt, have heard of many
+            dying of the ſcur- <lb/>vy, long before the magazines of dry proviſions <lb/>were
+            exhauſted. The continuance of thoſe <lb/>ſieges far exceeded moſt of our modern ones;
+            <lb/>even the five months blockade of <hi rend="italic">Thorn</hi>, <lb/>upon which <hi
+              rend="italic">Bachſtrom</hi> has founded this ſup- <lb/>poſition. It would likewiſe be
+            a much more <lb/>quent diſeaſe in every country, than it really <lb/>is: for there are
+            perſons every where, who, <lb/>from choice, eat few or no green vegetables; <lb/>and
+            ſome countries are deprived of the uſe of <lb/>them for five or ſix months of the year;
+            as is <lb/>the caſe of many parts in the highlands of <lb/><hi rend="italic"
+              >Scotland</hi>, <hi rend="italic">Newfoundland</hi>, <hi rend="italic">&amp;c.</hi>;
+            where, however, <lb/>the ſcurvy is not a uſual malady. </p>
+          <p rend="indent">
+            <lb/>It would be tedious to give many inſtances, <pb n="91"/>
+            <lb/>they being notorious, of ſhips crews continu- <lb/>ing ſeveral rnonths at ſea, upon
+            their ordinary <lb/>diet, without any approach of the ſcurvy. I <lb/>have been three
+            months on a cruiſe, during <lb/>which time none of the ſeamen taſted vege- <lb/>tables
+            or greens of any ſort; and although for <lb/>a great part of that time, from want of
+            freſh <lb/>water, their beef and pork were boiled in the <lb/>ſea-water, yet we returned
+            into port without <lb/>one ſcorbutical complaint. I have known meſ- <lb/>ſes, as they
+            are called, of ſeamen, who have <lb/>lived, during a whole voyage of three years, on
+            <lb/>the ſhip's proviſions, for want of money to <lb/>purchaſe better fare, eſpecially
+            greens; and <lb/>who were ſo regardleſs of health, as to expend <lb/>what little money
+            they could procure, in bran- <lb/>dy and ſpirits: ſo that a few onions, or the
+            <lb/>like, was their whole ſea-ſtore; and a meal <lb/>with vegetables was ſeldom eat by
+            them, above <lb/>twice or thrice in a month, during the whole <lb/>voyage.
+            Notwithſtanding which, they have <lb/>kept free from the ſcurvy. </p>
+          <p rend="indent">
+            <lb/>But it was remarkable, in the two cruiſes <lb/>afterwards to be mentioned, in his
+            Majeſty's <lb/>ſhip the <hi rend="italic">Saliſbury</hi>, where I had an opportunity
+            <lb/>of making obſervations on this diſeaſe, that it <lb/>began to rage on board that
+            ſhip, and indeed <pb n="92"/>
+            <lb/>all the <hi rend="italic">Channel</hi> ſquadron, upon being leſs than <lb/>ſix
+            weeks at ſea; and after having left <hi rend="italic">Plymouth</hi>, <lb/>where plenty
+            of all ſorts of greens were to be <lb/>had; by which, as one would have thought,
+            <lb/>the ſailors had ſufficiently prepared their bodies <lb/>againſt the attack of this
+            malady. Yet here, in <lb/>ſo ſhort a time as two months, out of 4000 men <lb/>in that
+            fleet, 400 at leaſt became more highly <lb/>ſcorbutic <note place="bottom" n="(t)"
+              rend="size(0.5)">
+              <p rend="indent">
+                <lb/><hi rend="italic">(t)</hi> Upon the return of the fleet to <hi rend="italic"
+                  >Plymouth</hi>, Dr <hi rend="italic">Huxham</hi>
+                <lb/>makes the following remark in the month of <hi rend="italic">July</hi> 1746. <q
+                  rend="italic">Ter- <lb/>ribilis jam ſævit ſcorbutus inter nautas, præcipuè quos
+                  ſecum reduxit <lb/>Martin, claſſis occidentalis præfectus. Excruciantur perplurimi
+                  ulceri- <lb/>bus fœdis, lividis, ſordidis, ac valde fungeſis: mirum eſt profectò
+                    <unclear>et</unclear>
+                  <lb/>inſolitum, quàm brevi tempore ſpongioſa caro, fungi ad inſtar, his ulceri-
+                  <lb/>bus ſuccreſcit, etſi paulò antè ſcalpello deraſa, eaque interdum ad ma-
+                  <lb/>gnitudinem enormem. Non ſolùm miſeris his, at verè utilibus homini- <lb/>bus,
+                  per ſe infenſa eſt maximè ſcorbutica lues, ſed et illos etiam omni <lb/>penè
+                  morbo, qui ab humorum corruptione pendet, obnoxios admodu<unclear>m</unclear>
+                  <lb/>reddit; febribus nempe putridis, malignis, petechialibus, peſſimo va-
+                    <lb/><unclear>r</unclear>iolarum generi, dyſenteriæ cruentæ, hæmorrhagiis, <hi
+                    rend="roman">&amp;c.</hi> Multo <lb/>magis adeò bonis his fuit exitio quàm
+                  bellicum fulmen! </q> Obſervati- <lb/>ones de aëre et morbis epidemicis. </p>
+            </note>, than could reaſonably have been <lb/>expected, had they all been debarred the
+            uſe <lb/>of vegetables for ſix months on ſhore, like our <lb/>highlanders, and many
+            others. And what <lb/>puts it beyond all doubt, that the diſeaſe was <lb/>not occaſioned
+            ſolely by the want of vegetables <lb/>for ſo ſhort a time, is, that the ſame ſhip's
+            <lb/>company of the <hi rend="italic">Saliſbury</hi>, in much longer crui- <pb n="93"/>
+            <lb/>ſes, kept quite free from the diſtemper, where <lb/>their circumſtances as to want
+            of freſh vege- <lb/>tables were ſimilar. It was obſervable, that in <lb/>the longeſt
+            cruiſe ſhe performed, while I was <lb/>ſurgeon, there was but one ſcorbutical patient
+            <lb/>on board, who fell into the diſeaſe after having <lb/>had an intermitting fever. We
+            were out at <lb/>that time from the 10th of <hi rend="italic">Auguſt</hi> to the 28th
+            <lb/>of <hi rend="italic">October</hi>; which was a twelve weeks conti- <lb/>nuance at
+            ſea, and conſequently as long an abſ- <lb/>tinence from vegetables. </p>
+          <p rend="indent">
+            <lb/>So that although it is a certain and experi- <lb/>enced truth, that the uſe of
+            greens and vege- <lb/>tables is effectual in preventing the diſeaſe, and <lb/>extremely
+            beneficial in the cure; and thus we <lb/>ſhall ſay, that abſtinence from them, in
+            certain <lb/>circumſtances, proves the <hi rend="italic">occaſional cauſe</hi> of the
+            <lb/>evil: yet there are unqueſtionably to be found <lb/>at ſea, other ſtrong ſources of
+            it; which, with <lb/>reſpect to the former, (or want of vegetables), <lb/>we ſhall
+            hereafter diſtinguiſh by the name of <lb/>the <hi rend="italic">prediſpoſing cauſes</hi>
+            to it. The influences <lb/>of which latter, at times, muſt be extremely <lb/>great, as
+            in the caſe of Lord <hi rend="italic">Anſon</hi>'s ſquadron <lb/>in paſſing round <hi
+              rend="italic">Cape Horn</hi>
+            <note place="bottom" n="(u)" rend="size(0.5)">
+              <p rend="indent">
+                <lb/><hi rend="italic">(u)</hi> Vid. Part. 3. chap. 2. </p>
+            </note>, to induce ſo <lb/>univerſal a calamity; from which hardly any <pb n="94"/>
+            <lb/>one of them ſeems to have been exempted, <lb/>attended with the mortality of above
+            one half of <lb/>them, when they had been but little more than <lb/>three months at ſea:
+            while whole countries <lb/>are obſerved to live on the ſame, nay, even <lb/>a leſs
+            wholſome diet; and many people for <lb/>years abſtain from vegetables, without almoſt
+            <lb/>any inconveniency. </p>
+          <p rend="indent">
+            <lb/>Some have alledged this to proceed from <lb/>ſomething peculiar in the confined and
+            polluted <lb/>air of a ſhip; and the ſtagnation of the bilge- <lb/>water in the hold has
+            been accuſed as a main <lb/>cauſe of the diſtreſs. But had this laſt the ef- <lb/>fects
+            preſumed, they would be moſt ſenfibly <lb/>felt by thoſe who are moſt expoſed to it, <hi
+              rend="italic">viz.</hi>
+            <lb/>the carpenters; who at ſea are often obliged <lb/>to meaſure, every four hours, the
+            quantity <lb/>of bilge-water; and do then, and at other <lb/>times in mending the pumps,
+            ſuffer very great <lb/>inconveniencies, being almoſt ſuffocated by it: <lb/>nay
+            inſtances are not wanting where they have <lb/>been killed at once with this noxious
+            vapour, <lb/>to which they lie the neareſt when in bed. <lb/>Yet it does not appear from
+            my own experience, <lb/>nor from the accounts which I have been able <lb/>to collect,
+            that they are more liable to the <lb/>ſcurvy than others on board. </p>
+          <pb n="95"/>
+          <p rend="indent">
+            <lb/>As to any other inconveniencies from filth, <lb/>or want of cleanlineſs, in a cloſe
+            place, and <lb/>where the cutaneous and pulmonary perſpira- <lb/>tion of a multitude is
+            pent up and confined; <lb/>they are not peculiar to ſhips, but common to <lb/>all
+            crouded jails, hoſpitals, <hi rend="italic">&amp;c.</hi>: and what- <lb/>ever bad
+            effects ſuch a vitiated air may have on <lb/>this diſeaſe, yet it is certain the ſcurvy
+            is not <lb/>the uſual and natural conſequence of it. This <lb/>is the more particularly
+            to be noted, in order <lb/>to determine the genuine effects of this pecu- <lb/>liar evil
+            diſpoſition of air; which are at all <lb/>times, and in all places, a malignant, highly-
+            <lb/>contagious fever, known by the name of <hi rend="italic">the jail-
+              <lb/>diſtemper</hi>. This is almoſt the only diſeaſe ob- <lb/>ſerved in the
+            tranſport-ſhips which daily carry <lb/>over numbers of people to <hi rend="italic"
+              >Virginia</hi>, few or <lb/>none of whom become ſcorbutic; as likewiſe <lb/>in ſhips
+            that have been crouded with ſol- <lb/>diers. And, univerſally, whenever many per-
+            <lb/>ſons are confined together long under cloſe- <lb/>ſhut hatches, they will at length
+            contract this <lb/>fever, without any approach of the ſcurvy a- <lb/>mongſt them;
+            unleſs, as may ſometimes be the <lb/>caſe, the body, weakened and exhauſted by the
+            <lb/>preceeding ſickneſs, is afterwards rendered <lb/>more ſuſceptible of the ſcorbutic
+            taint, where <pb n="96"/>
+            <lb/>other ſcorbutic cauſes prevail. Though I have <lb/>oftentimes had occaſion to ſee
+            this contagion <lb/>bred by putrid air, yet I never obſerved any <lb/>ſcurvies, either
+            at the time or after it. </p>
+          <p rend="indent">
+            <lb/>In the latter end of the year 1750, the go- <lb/>vernment contracted with a <hi
+              rend="italic">Dutch</hi> maſter of <lb/>a veſſel to carry over 200 <hi rend="italic"
+              >Palatines</hi> to our co- <lb/>lony in <hi rend="italic">Nova Scotia</hi>. The brutal
+              <hi rend="italic">Dutchman</hi>, <lb/>contrary to expreſs orders, confined theſe poor
+            <lb/>people below, and would not permit them to <lb/>come ſo often upon deck as was
+            requiſite for <lb/>their health; by which means they contracted <lb/>this malignant
+            fever, which killed one half of <lb/>them. And here it was remarkable, there <lb/>was
+            not one of theſe people who, after reco- <lb/>vering at ſea, or upon land, became
+            ſcorbutic; <lb/>nor had they any ſuch diſtemper in the ſhip <lb/>
+            <note place="bottom" n="(x)" rend="size(0.5)">
+              <p rend="indent">
+                <lb/><hi rend="italic">(x)</hi> Communicated by Mr. <hi rend="italic">Ives</hi>.
+                This contagious petechial <lb/>fever was as a plague to the ſhip <hi rend="italic"
+                  >Dragon</hi>, of 60 guns, and 400 <lb/>men, for the ſpace of ſix months. During
+                which time I ſeldom <lb/>or never had in my liſt leſs than ſixty or ſeventy
+                patients. Ma- <lb/>ny of them relapſed to the third and fourth time. It was a
+                <lb/>dreadful, painful ſcene ! Not a fifth part of our people eſcaped. <lb/>My firſt
+                mate, Mr. <hi rend="italic">Blincow</hi>, ſoon died in it. Another gentleman,
+                <lb/>whom our neceſſities obliged the Commodore to warrant as mate <lb/>from another
+                ſhip, died alſo. My other mate, Mr <hi rend="italic">Thomas Peck</hi>, <lb/>(preſent
+                ſurgeon to the ſick and wounded at <hi rend="italic">Deal</hi>), narrowly <pb n="97"
+                  type="footnote"/>
+                <lb/>eſcaped with life. To theſe loſſes I muſt add my own dear bro- <lb/>ther, who
+                commanded the ſoldiers on board, ſeveral gentle- <lb/>men of the quarter-deck, and
+                ſixty of our ſtouteſt and beſt ſail- <lb/>ors. Yet, amidſt all this danger, through
+                the providence of <lb/>God, I eſcaped untouched, to the ſurpriſe of all who knew our
+                <lb/>circumſtances, and the fatigue I underwent, when for moſt part <lb/>deſtitute
+                of all aſſiſtance. But I have not ſeen one inſtance of <lb/>this illneſs having been
+                complicated with the ſcurvy, or of the <lb/>ſcurvy ſeizing a man recovered from that
+                fever for at leaſt ſix <lb/>months afterwards; which was indeed one of the longeſt
+                inter- <lb/>vals we ever enjoyed freedom from it. </p>
+            </note>. </p>
+          <pb n="97"/>
+          <p rend="indent">
+            <lb/>The truth really is, a putrid air, though ne- <lb/>ver obſerved ſolely to be
+            productive of this diſ- <lb/>eaſe, has a pernicious influence in aggravating <lb/>its
+            ſeveral ſymptoms: and where an epidemic <lb/>ſcorbutical conſtitution at the ſame time
+            ſub- <lb/>ſiſts, they give riſe to a complicated, ſcorbutical <lb/>and malignant fever;
+            which I ſhall have occa- <lb/>ſion to mention among the ſymptoms of this <lb/>malady. </p>
+          <p rend="indent">
+            <lb/>But the ſcurvy by itſelf is often experienced <lb/>to make great ravage, where the
+            air has been <lb/>properly renewed and ventilated, and the whole <lb/>ſhip kept clean
+            and ſweet. I have been <lb/>told, that the <hi rend="italic">Namur</hi>'s crew, in their
+            expedi- <lb/>tion to the <hi rend="italic">Eaſt Indies</hi>, though very healthy <lb/>at
+            the Cape of <hi rend="italic">Good Hope</hi>, became ſcorbutic <lb/>at the time they
+            arrived at <hi rend="italic">Fort St David's</hi>, <lb/>notwithſtanding the uſe of that
+            truly noble <pb n="98"/>
+            <lb/>invention, <hi rend="italic">Sutton</hi>'s machine <note place="bottom" n="(y)"
+              rend="size(0.5)">
+              <p rend="indent">
+                <lb/><hi rend="italic">(y)</hi> When accounts were received from that great and
+                experien- <lb/>ced officer Admiral <hi rend="italic">Boſcawen</hi>, of the general
+                healthfulneſs of his <lb/>ſquadron at the Cape, it was with great reaſon aſcribed to
+                the <lb/>benefit derived from theſe uſeful pipes; though their preſerva- <lb/>tion
+                from the ſcurvy in particular ſeems to have been owing <lb/>chiefly to their having
+                had a good paſſage, and touching at <lb/>different places, where proper refreſhments
+                were procured them <lb/>by their brave and wiſe commander. Upon their arrival at <hi
+                  rend="italic">Fort <lb/>St David's</hi>, the ſurgeon to that hoſpital acquaints
+                me, that the <lb/>men of wars crews became as highly ſcorbutic, as any of the o-
+                <lb/>thers, whoſe ſhips were not provided with the machine. </p>
+              <p rend="indent">
+                <lb/>The caſe of our annual <hi rend="italic">Greenland</hi> ſhips, who are ſo well
+                fit- <lb/>ted, large, and convenient, and carry no more men than are <lb/>juſt
+                ſufficient to navigate them, puts it beyond all doubt, that <lb/>confined putrid
+                air, bad proviſions and water, have often no <lb/>ſhare in producing this diſeaſe.
+                For confirmation of which, ſee <lb/>Mr <hi rend="italic">Maude</hi>'s account of
+                them, part 2. chap. 5. </p>
+            </note>. And though <lb/>Lord <hi rend="italic">Anſon</hi>'s ſhip was kept uncommonly
+            clean <lb/>and ſweet after they left the coaſt of <hi rend="italic">Mexico</hi>;
+            <lb/>yet the progreſs of their miſery was not at all <lb/>retarded by it. And, what is
+            further pretty re- <lb/>markable, we know, that the ſcurvy may be <lb/>perfectly cured
+            in the impure air of a ſhip; of <lb/>which the following is a memorable inſtance. </p>
+          <p rend="indent">
+            <lb/>His Majeſty's ſhip the <hi rend="italic">Guernſey</hi> brought in- <lb/>to <hi
+              rend="italic">Liſbon</hi>, after a cruiſe off <hi rend="italic">Cadiz</hi>, 70 of her
+            <lb/>crew afflicted with this diſeaſe. Many of them <lb/>were far advanced, even in the
+            laſt ſtages of it. <lb/>The plague at this time raging at <hi rend="italic"
+            >Meſſina</hi>, it <lb/>was with great difficulty our ſhips could obtain <pb n="99"/>
+            <lb/><hi rend="italic">pratique</hi> in any port: ſo that it was found
+            <lb/>impracticable to land them. There was an- <lb/>other very troubleſome circumſtance.
+            For, <lb/>in order to conceal ſo great a number of ſick <lb/>from the viſit of the
+            officers of health, they <lb/>were under a neceſſity of ſhutting them up for <lb/>ſome
+            time together in a cloſe place. For this <lb/>purpoſe they were with great difficulty
+            remo- <lb/>ved into the Captain's ſtore-room; where there <lb/>is generally worſe air
+            than in any other part of <lb/>the ſhip. This was performed with imminent <lb/>danger to
+            many of their lives. Several of <lb/>them, though moved with extreme caution, <lb/>fell
+            into the ſcorbutic <hi rend="italic">deliquium</hi>; whoſe pre- <lb/>ſervation was owing
+            to the judgment of their <lb/>ingenious ſurgeon, and to the liberality of the
+            <lb/>Captain, who, upon this occaſion, ordered <lb/>them to be plentifully ſupplied with
+            his richeſt <lb/>cordial wines. But every one of theſe men <lb/>recovered on board
+            before they left the place, <lb/>without being landed. The ſhip lay ſtrict
+            <lb/>quarentine a fortnight. After that they were <lb/>obliged to be extremely
+            circumſpect in allow- <lb/>ing even thoſe who were pretty well recovered, <lb/>to go on
+            ſhore; as their ill looks might have <lb/>betrayed their ſituation to the <hi
+              rend="italic">Portugueſe</hi>. <lb/>This ſhip had no ventilators: and it is natural
+              <pb n="100"/>
+            <lb/>to ſuppoſe there might be ſome remiſſneſs in <lb/>the article of cleanlineſs, where
+            there was <lb/>ſuch a number of ſick; who, notwithſtand- <lb/>ing, all recovered. </p>
+          <p rend="indent">
+            <lb/>The learned writer <note place="bottom" n="(z)" rend="size(0.5)">
+              <p rend="indent">
+                <lb/><hi rend="italic">(z)</hi> The Reverend Mr <hi rend="italic">Walter</hi>. </p>
+            </note> of the great Lord <lb/><hi rend="italic">Anſon</hi>'s voyage, after clearly
+            evincing the fal- <lb/>ſity of many ſpeculations concerning this diſeaſe, <lb/>and
+            juſtly exploding ſome opinions which uſu- <lb/>ally paſs current about its nature and
+            cauſe, is <lb/>pleaſed modeſtly to offer a very plauſible and <lb/>ingenious conjecture,
+            well deſerving conſidera- <lb/>tion. <q rend="diple quotes">Perhaps a diſtinct and
+              adequate know- <lb/>ledge of the ſource of this diſeaſe may never <lb/>be diſcovered.
+              But, in general, there is no <lb/>difficulty in conceiving, that as a continued
+              <lb/>ſupply of freſh air is neceſſary to all animal <lb/>life, and as this air is ſo
+              particular a fluid, <lb/>that without loſing its elaſticity, or any of <lb/>its
+              obvious properties, it may be rendered <lb/>unfit for this purpoſe, by the mixing with
+              <lb/>it ſome very ſubtile, and otherwiſe imper- <lb/>ceptible effluvia; it may be
+              conceived, I ſay, <lb/>that the ſteams ariſing from the ocean may <lb/>have a tendency
+              to render the air they are <lb/>ſpread through, leſs properly adapted to the
+              <lb/>ſupport of the life of terreſtrial animals, <pb n="101"/>
+              <lb/>unleſs theſe ſteams are corrected by effluvia <lb/>of another kind, and which
+              perhaps the <lb/>land alone can ſupply. </q>
+          </p>
+          <p rend="indent">
+            <lb/>It muſt be allowed, that the air, which is a <lb/>compound of almoſt all the
+            different bodies <lb/>we know, has many latent properties, by <lb/>which animals are
+            variouſly affected; and <lb/>theſe we neither can at preſent, nor perhaps <lb/>ever will
+            be able to inveſtigate. We do not <lb/>even know certainly what this <hi rend="italic"
+              >pabulum vitæ</hi> is <lb/>in that fluid, which preſerves and ſupports ani- <lb/>mal
+            life. The only means then we have to <lb/>judge of the exiſtence of ſuch an occult
+            quality <lb/>as may be ſuppoſed peculiar to the air of the <lb/>ocean, muſt be from its
+            effects. Theſe, upon <lb/>this ſuppoſition, ought to be moſt noxious, <lb/>and moſt
+            ſenſibly perceived, in the middle of <lb/>the great oceans, and at the wideſt diſtance
+            <lb/>from the continents and iſlands, where there <lb/>is the greateſt want of land-air,
+            and of its vital <lb/>influences, which may be preſumed ſo neceſſary <lb/>to the ſupport
+            of the life of terreſtrial animals. <lb/>But it is experienced, that ſhips cruiſing upon
+            <lb/>certain coaſts, at a very ſmall diſtance from the <lb/>ſhore, where the air
+            conſequently differs wide- <lb/>ly from that of the main ocean, as being im-
+            <lb/>pregnated with many particles from the land, <pb n="102"/>
+            <lb/>and is almoſt the ſame with that of the ſea- <lb/>port towns, are equally, if not
+            more, afflicted <lb/>with this diſeaſe, than others are in croſſing the <lb/>ocean. And
+            it will be found univerſally to <lb/>appear in a much ſhorter time, and rage with
+            <lb/>greater violence, (all circumſtances being other- <lb/>wiſe alike), in a ſquadron
+            cruiſing in the narrow <lb/>ſeas of the <hi rend="italic">Baltic</hi> and <hi
+              rend="italic">Channel</hi>, or upon the <lb/>coaſts of <hi rend="italic">Norway</hi>
+            and <hi rend="italic">Hudſon</hi>'s bay, than in <lb/>another continuing the ſame length
+            of time in <lb/>the middle of the Atlantic ocean. We often <lb/>obſerved our <hi
+              rend="italic">Channel</hi> cruiſers quickly over-run <lb/>with the ſcurvy; while their
+            conſorts, fitted out <lb/>at the ſame port, and conſequently with the <lb/>ſame ſtate of
+            proviſions and water, who ſoon <lb/>left them, ſtretching into the main ocean up-
+            <lb/>on a voyage to the <hi rend="italic">Indies</hi>, or upon a much <lb/>longer cruiſe
+            off the <hi rend="italic">Canaries</hi> or <hi rend="italic">Cadiz</hi>, kept
+            <lb/>pretty free from it. For my own part, I ne- <lb/>ver could remark any alteration
+            upon our ſcor- <lb/>butic patients, while we continued for many <lb/>days cloſe in upon
+            the <hi rend="italic">French</hi> ſhore, with the <lb/>wind or air coming from thence,
+            or when, at a <lb/>greater diſtance from any land, we kept the <lb/>middle of the <hi
+              rend="italic">Channel</hi>: and yet, in either of <lb/>thoſe ſtations, difference of
+            weather had a re- <lb/>markable influence upon ſcorbutic ailments. </p>
+          <pb n="103"/>
+          <p rend="indent">
+            <lb/>Nay, ſhips and fleets, without going to ſea, <lb/>are often attacked by this malady
+            while in har- <lb/>bour. Thus, when Admiral <hi rend="italic">Matthews</hi> lay long
+            <lb/>in <hi rend="italic">Hieres</hi> bay with his fleet, many of the ſea- <lb/>men
+            became highly ſcorbutic; on which ac- <lb/>count ſome hundreds were ſent to <hi
+              rend="italic">Mahon</hi> ho- <lb/>ſpital. And the ſame has happened to our <lb/>fleets
+            when at <hi rend="italic">Spithead</hi>, and even when lying <lb/>in <hi rend="italic"
+              >Portſmouth</hi> harbour. This diſeaſe is not <lb/>indeed peculiar to the ocean, there
+            being many <lb/>inſtances of its raging with equal violence at <lb/>land <note
+              place="bottom" n="(a)" rend="size(0.5)">
+              <p rend="indent">
+                <lb/><hi rend="italic">(a)</hi> Vid. the caſe of the <hi rend="italic">German</hi>
+                troops in <hi rend="italic">Hungary</hi>, and of <lb/>the <hi rend="italic"
+                  >Ruſſian</hi> armies, part 3. </p>
+            </note>. </p>
+          <p rend="indent space">
+            <lb/><hi rend="sc">From</hi> what has been ſaid, it appears, that <lb/>the ſtrong <hi
+              rend="italic">prediſpoſing cauſes</hi> to this calamity <lb/>at ſea, are not conſtant,
+            but caſual, upon that <lb/>element. For though it ſhould be granted, <lb/>that the
+            ſea-air gives always a tendency to the <lb/>ſcorbutic <hi rend="italic">diatheſis</hi>,
+            yet the evil proves often <lb/>highly epidemic and fatal in very ſhort voyages, <lb/>or
+            upon a very ſhort continuance at ſea, to <lb/>crews of ſhips who, at other times, have
+            con- <lb/>tinued out much longer, cruiſing in the ſame <lb/>place, and in parallel
+            circumſtances of water <lb/>and proviſions, and yet have kept entirely free <pb n="104"/>
+            <lb/>from it. Thus, the great Lord <hi rend="italic">Anſon</hi> cruiſed <lb/>for four
+            months, waiting for the <hi rend="italic">Acapulco</hi> ſhip, <lb/>in the <hi
+              rend="italic">Pacific</hi> ocean; during which time, we <lb/>are told, his crews
+            continued in perfect health: <lb/>when, at another time, after leaving the coaſt <lb/>of
+              <hi rend="italic">Mexico</hi>, in leſs than ſeven weeks at ſea, the <lb/>ſcurvy became
+            highly epidemic, notwithſtand- <lb/>ing plenty of freſh proviſions and ſweet water
+            <lb/>on board. And when it raged with ſuch un- <lb/>common malignity in paſſing <hi
+              rend="italic">Cape Horn</hi>, it de- <lb/>ſtroyed above one half of his crew, in leſs
+            time <lb/>than he kept the ſeas in perfect health, in the <lb/>before mentioned cruiſe. </p>
+          <p rend="indent">
+            <lb/>I had an opportunity in two <hi rend="italic">Channel</hi> cruiſes, <lb/>the one of
+            ten weeks, the other of eleven, <hi rend="italic">ann.</hi>
+            <lb/>1746 and 1747, in his Majeſty's ſhip the <hi rend="italic">Sa- <lb/>liſbury</hi>, a
+            fourth rate, to ſee this diſeaſe rage <lb/>with great violence. And here it was remark-
+            <lb/>able, that though I was on board in ſeveral o- <lb/>ther long <hi rend="italic"
+              >Channel</hi> cruiſes; one of twelve weeks <lb/>particularly, from the 10th of <hi
+              rend="italic">Auguſt</hi> to the <lb/>28th of <hi rend="italic">October</hi>; yet we
+            had but one ſcorbutic <lb/>patient; nor in any other that I remem- <lb/>ber, had we the
+            leaſt ſcorbutic appearance. <lb/>But in thoſe two I have mentioned, the ſcurvy
+            <lb/>began to rage after being a month or ſix weeks <lb/>at ſea; when the water on
+            board, as I took <pb n="105"/>
+            <lb/>particular notice, was uncommonly fweet and <lb/>good; and the ſtate of proviſions
+            ſuch as could <lb/>afford no ſuſpicion of occaſioning ſo general a <lb/>ſickneſs, being
+            the ſame in quality as in for- <lb/>mer cruiſes. And though the ſcorbutic people
+            <lb/>were, by the generous liberality of that great <lb/>and humane commander, the Hon.
+            Captain <lb/><hi rend="italic">George Edgcumbe</hi>, daily ſupplied with freſh pro-
+            <lb/>viſions, ſuch as mutton-broth and fowls, and e- <lb/>ven meat from his own table;
+            yet, at the expi- <lb/>ration of ten weeks, we brought into <hi rend="italic"
+              >Plymouth</hi>
+            <lb/>80 men, out of a complement of 350, more or <lb/>leſs afflicted with this diſeaſe. </p>
+          <gap reason="sampling" unit="pages" quantity="42"/>
+        </div>
+        <gap reason="sampling" unit="pages" quantity="33"/>
+        <pb n="180"/>
+        <div type="chapter">
+          <head rend="align-center space">
+            <lb/>CHAP. IV. </head>
+          <head rend="italic hanging space">
+            <lb/>The <hi rend="roman">prophylaxis</hi>, or means of preventing this <lb/>diſeaſe,
+            eſpecially at ſea. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">F</hi>OR the prevention of this diſeaſe at land, <lb/>a warm, dry,
+            pure air, with a diet of <lb/>eaſy digeſtion, conſiſting chiefly of a due mix- <lb/>ture
+            of animal and vegetable ſubſtances, (which <lb/>is found to be the moſt wholſome food,
+            and <lb/>agreeable to the generality of conſtitutions), <lb/>will for the moſt part
+            prove ſufficient. </p>
+          <p rend="indent">
+            <lb/>Thoſe who are liable to it by living in mar- <lb/>ſhy wet ſoils, and in places
+            ſubject to great rains <lb/>and fogs; and others who inhabit unwholſome <lb/>damp
+            apartments, as the lower floors and cel- <lb/>lars of a houſe in winter, ſhould remedy
+            theſe <lb/>inconveniencies by keeping conſtant fires, to <lb/>correct the hurtful
+            moiſture; which will ſtill <lb/>prove more effectual for the purpoſe, if made <lb/>of
+            aromatic woods. But it is rather adviſeable <lb/>for perſons threatened with this
+            malady, to <lb/>remove into dry, chearful, and better-aired <pb n="181"/>
+            <lb/>habitations. Their principal food in ſuch a <lb/>caſe ſhould be broths made of
+            freſh fleſh- <lb/>meats, together with plenty of recent vege- <lb/>tables, if they can
+            be procured; otherwiſe of <lb/>preſerved roots and fruits. Their bread ought <lb/>to be
+            made of wheat-flour, ſufficiently lea- <lb/>vened, and well baked; and at their meals
+            <lb/>they are to drink a glaſs of good ſound <lb/>beer, cyder, wine, or the like
+            fermented li- <lb/>quor. The obſervance of theſe directions, to- <lb/>gether with
+            moderate exerciſe, cleanlineſs of <lb/>body, eaſe and contentment of mind, procu-
+            <lb/>red by agreeable and entertaining amuſements, <lb/>will prove ſufficient to prevent
+            this diſeaſe from <lb/>riſing to any great height, where it is not al- <lb/>together
+            conſtitutional. </p>
+          <p rend="indent">
+            <lb/>In towns or garriſons when beſieged, of- <lb/>ficers ſhould take care that the
+            beds, barracks, <lb/>and quarters for the ſoldiers, be kept dry, <lb/>clean, and warm,
+            for their refreſhment when <lb/>off duty; and that their men be ſufficiently
+            <lb/>provided with thick cloaks and warm cloaths, <lb/>for ſhelter againſt the
+            inclemency of cold, and <lb/>rains, when neceſſarily expoſed to them. The
+            <lb/>ammunition-bread ſhould be light, and well ba- <lb/>ked, and their other proviſions
+            as ſound and whol- <lb/>ſome as poſſible. To correct the too groſs and <pb n="182"/>
+            <lb/>ſolid quality of theſe, they would do well to <lb/>join vegetables, even the moſt
+            common, and <lb/>ſuch as are to be met with on the ramparts, <lb/>with their other food.
+            This precept becomes <lb/>ſtill more neceſſary when the garriſon's provi- <lb/>ſions in
+            ſtore are ſpoiled or unſound; in which <lb/>caſe the uſe of vinegar is recommended by
+            ſe- <lb/>veral authors. <hi rend="italic">Bachſtrom</hi>'s advice, of ſowing <lb/>the
+            ſeeds of the antiſcorbutic plants <note place="bottom" n="(a)" rend="size(0.5) italic">
+              <p rend="indent">
+                <lb/>(a) Vid. Obſervationes circa ſcorbutum, &amp;c. p. 36. </p>
+            </note>,ſo that <lb/>they may grow up with the graſs on the ram- <lb/>parts, will, upon
+            this occaſion, be found very <lb/>beneficial. They can indeed be under no dif-
+            <lb/>ficulty in procuring ſome of the moſt ſalutary <lb/>of them at all times, if they
+            are provided with <lb/>their ſeeds, ſuch as the garden-creſſes; which, <lb/>in a few
+            days, even in their apartments, will <lb/>ſupply them with a freſh antiſcorbutic ſalad.
+            <lb/>When the army is in the field, they generally <lb/>meet with ſuch plenty of
+            wholſome vegetables <lb/>as are ſufficient to prevent this diſeaſe becoming <lb/>fatal
+            to many of them, except in deſert and <lb/>depopulated countries. </p>
+          <p rend="indent">
+            <lb/>But the prevention of this calamity at ſea, <lb/>and the preſervation of a truly
+            valuable part of <lb/>mankind, <hi rend="italic">viz.</hi> the ſeamen of all nations,
+            from <lb/>its fatal and deſtructive malignity in long voyages <pb n="183"/>
+            <lb/>and cruiſes, is what in a particular manner de- <lb/>mands our attention, and has
+            exerciſed the ge- <lb/>nius of ſome of the moſt eminent phyſicians <lb/>in all parts of
+              <hi rend="italic">Europe</hi> for above a century paſt. </p>
+          <p rend="indent">
+            <lb/>A <hi rend="italic">German</hi> who had acquired a conſiderable <lb/>fortune in the
+              <hi rend="italic">Eaſt Indies</hi>, by being <hi rend="italic">Dutch</hi>
+            <lb/>Governor of <hi rend="italic">Sumatra</hi>, was ſo affected with pi- <lb/>ty and
+            humanity for the many afflicted ſailors <lb/>he had obſerved in this malady, that,
+            imagi- <lb/>ning the art of chemiſtry, which at that time <lb/>made a great noiſe in the
+            world, might proba- <lb/>bly furniſh ſome remedy for their relief, he e- <lb/>rected and
+            endowed a perpetual profeſſorſhip <lb/>of that ſcience at <hi rend="italic"
+            >Leipſic</hi>. He nominated <lb/>his countryman Dr <hi rend="italic">Michael</hi>, a
+            very great che- <lb/>miſt, who was the firſt univerſity-profeſſor of <lb/>chemiſtry in
+              <hi rend="italic">Europe</hi>; and remitted him a conſi- <lb/>derable ſum of money, in
+            order to bear the <lb/>expence of his experiments, with the promiſe <lb/>of a much
+            greater, in caſe he ſucceeded in the <lb/>diſcovery of a remedy for prevention of the
+            <lb/>ſcurvy at ſea. The Doctor ſpent an incredible <lb/>deal of time and labour in
+            preparing the moſt <lb/>elaborated chemical medicines. Volatile and <lb/>fixed ſalts,
+            ſpirits of all ſorts, eſſences, elixirs, <lb/>electuaries, <hi rend="italic"
+              >&amp;c.</hi> were yearly ſent over to the <lb/><hi rend="italic">Eaſt Indies</hi>;
+            nay even the <hi rend="italic">quinta eſſentia</hi> (which <pb n="184"/>
+            <lb/>became afterwards a celebrated <hi rend="italic">noſtrum</hi> for the <lb/>ſcurvy
+            in <hi rend="italic">Germany</hi>) of the chemical oil of the <lb/>ſeeds of
+            ſcurvy-graſs. But all proved ineffectual. </p>
+          <p rend="indent">
+            <lb/><hi rend="italic">Bontekoe</hi> recommended to the <hi rend="italic">Dutch</hi>
+            ſailors <lb/>an acrid alcaline ſpirit; <hi rend="italic">Glauber</hi>
+            <note place="bottom" n="(b)" rend="size(0.5)">
+              <p rend="indent">
+                <lb/><hi rend="italic">(b)</hi> In his book, intitled, <hi rend="italic">Conſolatio
+                  navigantium, &amp;c.</hi>
+              </p>
+            </note> and <hi rend="italic">Boer- <lb/>haave</hi>, a ſtrong mineral acid, <hi
+              rend="italic">viz.</hi>
+            <hi rend="italic">ſp. ſalis</hi>. <lb/>The Royal navy of <hi rend="italic">Great
+              Britain</hi> has been <lb/>ſupplied, at a conſiderable expence to the go-
+            <lb/>vernment, by the advice of an eminent phyſi- <lb/>cian, with a large quantity of
+              <hi rend="italic">elixir</hi> of <hi rend="italic">vitriol</hi>; <lb/>which is the
+            ſtrong mineral acid of vitriol com- <lb/>bined with aromatics. Wine-vinegar was like-
+            <lb/>wiſe preſcribed upon this occaſion by the col- <lb/>lege of phyſicians at <hi
+              rend="italic">London</hi>, when conſulted <lb/>by the Lords of the Admiralty; which
+            differs <lb/>from all the former, being a mild vegetable a- <lb/>cid procured by
+            fermentation. Vinegar has <lb/>been indeed much uſed in the fleet at all times.
+            <lb/>Many ſhips, eſpecially thoſe fitted out at <hi rend="italic">Ply- <lb/>mouth</hi>,
+            carried with them cyder for this pur- <lb/>poſe, upon the recommendation of the lear-
+            <lb/>ned Dr <hi rend="italic">Huxham</hi>. The lateſt propoſal to the <lb/>Lords of the
+            Admiralty was a magazine of <lb/>dried ſpinage prepared in the manner of hay. <lb/>This
+            was to be moiſtened and boiled in their <lb/>food. To which it was objected by a very
+              <pb n="185"/>
+            <lb/>ingenious phyſician <note place="bottom" n="(c)" rend="size(0.5)">
+              <p rend="indent">
+                <lb/><hi rend="italic">(c)</hi>
+                <hi rend="italic">Dr Cockburn</hi>.—The Doctor's judgment is fully confirm- <lb/>ed
+                by experience. We find the college of phyſicians at <hi rend="italic">Vienna</hi>
+                ſent <lb/>to <hi rend="italic">Hungary</hi> great quantities of the moſt approved
+                antiſcorbutic <lb/>herbs dried in this manner; which were found to be of no be-
+                <lb/>nefit. Many of theſe would have their virtues as little impaired <lb/>by drying
+                as ſpinage, <hi rend="italic">e.g.</hi> marſh trefoil. <hi rend="italic">Kramer</hi>
+                tried almoſt <lb/>every ſpecies of dried herbs to no purpoſe. Vid. part. 3. chap. 2.
+              </p>
+            </note>, That no moiſture <lb/>whatever could reſtore the natural juices of the
+            <lb/>plant loſt by evaporation, and, as he imagined, <lb/>altered by a fermentation
+            which they under- <lb/>went in drying. </p>
+          <p rend="indent">
+            <lb/>Moreover, all the remedies which could be <lb/>uſed in the circumſtances of
+            ſailors, that at any <lb/>time have been propoſed for the many various <lb/>diſeaſes
+            going under the name of a <hi rend="italic">ſcurvy at <lb/>land</hi>, have likewiſe been
+            tried to prevent and <lb/>cure this diſeaſe at ſea: the effects of ſeveral of
+            <lb/>which, beſides the before mentioned, I have <lb/>myſelf experienced, <hi
+              rend="italic">viz.</hi> ſalt water, tar-water, <lb/>decoctions of guajac and
+            ſaſſafras, bitters with <lb/><hi rend="italic">cort. winterani</hi>; and ſuch warm
+            antiſcorbutics <lb/>as can be preſerved at ſea, <hi rend="italic">viz.</hi> garlic,
+            muſtard- <lb/>ſeed, <hi rend="italic">pulv. ari comp. et ſpirit. cochlear.</hi>; which
+            <lb/>laſt was formerly always put up in ſea-medicine <lb/>cheſts. I have alſo in various
+            ſtages, and for <lb/>different ſymptoms of this diſtemper, made trial <lb/>of moſt of
+            the mineral and foſſil remedies <pb n="186"/>
+            <lb/>which have been recommended for the ſcurvy <lb/>at land; ſuch as mercurial,
+            chalybeate, anti- <lb/>monial, vitriolic, and ſulphureous medicines. <lb/>But, before I
+            mention the reſult of theſe expe- <lb/>riments, and the obſervations made upon the
+            <lb/>effects of ſeveral remedies that have been moſt <lb/>approved of in this diſeaſe,
+            it may not be amiſs <lb/>to take notice, that the want of ſucceſs hither- <lb/>to in
+            preventing this fatal malady at ſea, ſeems <lb/>chiefly owing to theſe two cauſes. </p>
+          <p rend="indent">
+            <lb/>1<hi rend="italic">ſt</hi>, The methods of preſervation have been <lb/>put in
+            practice too late; that is, when the diſ- <lb/>eaſe was already bred; it being generally
+            then <lb/>that <hi rend="italic">elixir vitriol</hi>, vinegar, cyder, and other
+            <lb/>antiſcorbutics, were adminiſtered: whereas cer- <lb/>tain precautions ſeem
+            neceſſary to prevent the <lb/>firſt attacks; it being found, that almoſt all
+            <lb/>diſeaſes are eaſier prevented than afterwards <lb/>removed. </p>
+          <p rend="indent">
+            <lb/>2<hi rend="italic">dly</hi>, Too high an opinion has been enter- <lb/>tained of
+            certain medicines recommended by <lb/>phyſicians at land, rather from a preſumption
+            <lb/>founded on their theory of the diſeaſe, than <lb/>from any experience of their
+            effects at ſea. In- <lb/>deed the cauſes which they were ſuppoſed to <lb/>obviate, were
+            often none of the true and real <lb/>occaſions of the diſtemper. Thus lime-water <pb
+              n="187"/>
+            <lb/>has been long ſince preſcribed to correct the <lb/>too great quantity of ſea-ſalt
+            neceſſarily uſed <lb/>by ſailors. And the college of phyſicians at <lb/><hi
+              rend="italic">London</hi> gave it as their opinion, that <hi rend="italic"
+              >Lowndes</hi>'s <lb/>ſalt made from brine was preferable for ſalting
+            <lb/>ſea-proviſions, to that made of ſea-water, even <lb/>to the bay-ſalt; from a
+            ſuſpicion of ſome noxious <lb/>qualities in this ſalt which might occaſion the ſcur-
+            <lb/>vy. <hi rend="italic">Sp. ſal</hi>, <hi rend="italic">el. vitriol</hi>, and
+            vinegar, were deemed <lb/>proper antidotes to the rank and putrid ſtate of
+            <lb/>ſea-proviſions, and water; or perhaps to the <lb/>putreſcent ſtate of the humours
+            in this diſeaſe. </p>
+          <p rend="indent">
+            <lb/>But whatever good effect for the laſt purpo- <lb/>ſes theſe may be ſuppoſed to have
+            had in a <lb/>ſmaller degree; yet experience has abundantly <lb/>ſhewn, that they have
+            not been ſufficient to <lb/>prevent this diſeaſe, much leſs to cure it. And <lb/>the
+            ſame may be ſaid of many others. The <lb/>conſequence of which is, the world has now
+            <lb/>almoſt deſpaired of finding out a method of <lb/>preventing this dreadful evil at
+            ſea; and it is be- <lb/>come the received opinion, that it is altogether <lb/>impoſſible
+            there, either to prevent or cure it. <lb/>But it is ſurpriſing, that this ill-grounded
+            belief, <lb/>ſo fatal in its conſequences, ſhould have gained <lb/>credit, when we ſee
+            people recovering from <lb/>this diſeaſe every day, (even in the moſt deplo- <pb n="188"/>
+            <lb/>rable condition, and in its laſt ſtages), in a <lb/>ſhort time, when proper helps
+            are adminiſter- <lb/>ed. I have already given an inſtance of ſeventy <lb/>people cured
+            in the bad air of a ſhip, without <lb/>being landed <note place="bottom" n=""
+              rend="size(0.5)">
+              <p rend="indent">
+                <lb/><hi rend="italic">(d)</hi> P. 99. </p>
+            </note>. I ſhall hereafter produce <lb/>other inſtances of this diſeaſe being cured at
+            <lb/>ſea, though theſe muſt have occurred to every <lb/>perſon who has had occaſion
+            there to be con- <lb/>verſant with ſcorbutical caſes <note place="bottom" n="(e)"
+              rend="size(0.5)">
+              <p rend="indent">
+                <lb/><hi rend="italic">(e)</hi> Many inſtances have already been given in Mr <hi
+                  rend="italic">Ives</hi>'s <lb/>journal, part 2. chap. 1. </p>
+            </note>. </p>
+          <p rend="indent">
+            <lb/>It may be proper, in order to fully to re- <lb/>move this prejudice, to obſerve,
+            that an epide- <lb/>mical ſcurvy, either at ſea or land, is an adven- <lb/>titious, not
+            a natural diſeaſe: that is to ſay, it <lb/>is not owing to any ſpontaneous degeneracy of
+            <lb/>the human body, from a healthful condition <lb/>into this morbid ſtate; but to the
+            influence of <lb/>very powerful and active, but ſuch plain and <lb/>obvious cauſes as
+            have been before aſſigned <note place="bottom" n="(f)" rend="size(0.5)">
+              <p rend="indent">
+                <lb/><hi rend="italic">(f)</hi> Part 2. chap<choice>
+                  <corr>.</corr>
+                  <sic/>
+                </choice> 1. </p>
+            </note>. <lb/>And it is conſtantly experienced, that when <lb/>theſe cauſes do not
+            ſubſiſt, or are corrected and <lb/>guarded againſt, the diſeaſe may be effectually
+            <lb/>prevented. This will admit of a demonſtra- <lb/>tion from many facts. Officers are
+            ſeldom or <pb n="189"/>
+            <lb/>never affected with the ſcurvy; even the ſub- <lb/>altern and petty officers
+            generally keep free <lb/>from it, while it commits great ravages among <lb/>the common
+            ſeamen. There have occurred <lb/>frequent inſtances of <hi rend="italic">Engliſh</hi>
+            and <hi rend="italic">Dutch</hi> ſhips <lb/>being in company together, where the for-
+            <lb/>mer were in great diſtreſs from this diſeaſe; <lb/>while the latter, by a very
+            ſmall difference in <lb/>their diet, were quite healthy. But what is <lb/>ſufficient to
+            convince the greateſt ſceptic, that <lb/>this calamity may be effectually prevented,
+            <lb/>is the preſent healthfulneſs of <hi rend="italic">Newfoundland</hi>, <lb/>the
+            northern parts of <hi rend="italic">Canada</hi>, and of our fac- <lb/>tories at <hi
+              rend="italic">Hudſon</hi>'s bay. In thoſe parts of the <lb/>world, the ſcurvy was
+            formerly more fatal to <lb/>the firſt adventurers and planters, than it was <lb/>ever
+            known at ſea; which facts I ſhall have <lb/>occaſion preſently to mention, and account
+            for. <lb/>And as it is a ſatisfaction to know that this diſ- <lb/>eaſe may effectually
+            be prevented, ſo it is like- <lb/>wiſe an encouragement to the utmoſt diligence <lb/>in
+            diſcovering, and putting in practice, the means <lb/>proper for that purpoſe. </p>
+          <p rend="indent">
+            <lb/>It being of the utmoſt conſequence to guard <lb/>againſt the firſt approaches of ſo
+            dreadful an e- <lb/>nemy, I ſhall here endeavour to lay down the <lb/>meaſures proper to
+            be taken for this end, with <pb n="190"/>
+            <lb/>that minuteneſs and accuracy which the im- <lb/>portance of the ſubject, and the
+            preſervation <lb/>of ſo many valuable and uſeful lives, juſtly de- <lb/>mand; and at the
+            ſame time ſhall, as much <lb/>as poſſible, avoid offering any thing that may <lb/>be
+            judged impracticable, or liable to exception, <lb/>on account of the difficulty or
+            diſagreeableneſs <lb/>of complying with it. And, <hi rend="italic">laſtly</hi>, I ſhall
+            <lb/>propoſe nothing dictated merely from theory; <lb/>but ſhall confirm all by
+            experience and facts, <lb/>the ſureſt and moſt unerring guides. </p>
+          <p rend="indent">
+            <lb/>What I propoſe is, firſt, to relate the effects <lb/>of ſeveral medicines tried at
+            ſea in this diſeaſe, <lb/>on purpoſe to diſcover what might promiſe the <lb/>moſt
+            certain protection againſt it upon that ele- <lb/>ment. </p>
+          <p rend="indent">
+            <lb/>The medicine which ſucceeded upon trial, <lb/>I ſhall afterwards confirm to be the
+            ſureſt pre- <lb/>ſervative, and moſt efficacious remedy, by the <lb/>experience of
+            others. </p>
+          <p rend="indent">
+            <lb/>I ſhall then endeavour to give it the moſt <lb/>convenient portable form, and ſhew
+            the me- <lb/>thod of preſerving its virtues entire for years, <lb/>ſo that it may be
+            carried to the moſt diſtant <lb/>parts of the world in ſmall bulk, and at any <lb/>time
+            prepared by the ſailors themſelves: <lb/>adding ſome farther directions, given chiefly
+              <pb n="191"/>
+            <lb/>with a view to inform the captains and com- <lb/>manders of ſhips and fleets, of
+            methods proper <lb/>both to preſerve their own health, and that of <lb/>their crews. </p>
+          <p rend="indent">
+            <lb/>It will not be amiſs further to obſerve, in <lb/>what method convaleſcents ought to
+            be treated, <lb/>or thoſe who are weak, and recovering from o- <lb/>ther diſeaſes, in
+            order to prevent their falling <lb/>into the ſcurvy; which will include ſome ne-
+            <lb/>ceſſary rules for reſiſting the beginnings of this <lb/>evil, when, through want of
+            care, or neglect, <lb/>the diſeaſe is bred in a ſhip. </p>
+          <p rend="indent">
+            <lb/>As the ſalutary effects of the preſcribed mea- <lb/>ſures will be rendered ſtill
+            more certain, and <lb/>univerſally beneficial, where proper regard is <lb/>had to ſuch a
+            ſtate of air, diet, and regimen, <lb/>as may contribute to the general intentions of
+            <lb/>preſervation or cure; I ſhall conclude the pre- <lb/>cepts relating to the
+            preſervation of ſeamen, <lb/>with ſhewing the beſt means of obviating many
+            <lb/>inconveniencies which attend long voyages, <lb/>and of removing the ſeveral cauſes
+            productive <lb/>of this miſchief. </p>
+          <p rend="indent">
+            <lb/>The following are the experiments. </p>
+          <p rend="indent">
+            <lb/>On the 20th of <hi rend="italic">May</hi> 1747, I took twelve <lb/>patients in the
+            ſcurvy, on board the <hi rend="italic">Saliſbury</hi>
+            <lb/>at ſea. Their caſes were as ſimilar as I could <pb n="192"/>
+            <lb/>have them. They all in general had putrid <lb/>gums, the ſpots and laſſitude, with
+            weakneſs <lb/>of their knees. They lay together in one <lb/>place, being a proper
+            apartment for the ſick in <lb/>the fore-hold; and had one diet common to <lb/>all, <hi
+              rend="italic">viz.</hi> water-gruel ſweetened with ſugar in <lb/>the morning; freſh
+            mutton-broth often times <lb/>for dinner; at other times puddings, boiled <lb/>biſcuit
+            with ſugar, <hi rend="italic">&amp;c.</hi>; and for ſupper, barley <lb/>and raiſins,
+            rice and currants, ſago and wine, <lb/>or the like. Two of theſe were ordered each
+            <lb/>a quart of cyder a-day. Two others took <lb/>twenty-five gutts of <hi rend="italic"
+              >elixir vitriol</hi> three times <lb/>a-day, upon an empty ſtomach; uſing a
+            <lb/>gargle ſtrongly acidulated with it for their <lb/>mouths. Two others took two
+            ſpoonfuls of <lb/>vinegar three times a-day, upon an empty ſto- <lb/>mach; having their
+            gruels and their other food <lb/>well acidulated with it, as alſo the gargle <lb/>for
+            their mouth. Two of the worſt patients, <lb/>with the tendons in the ham rigid, (a ſymp-
+            <lb/>tom none of the reſt had) were put under a <lb/>courſe of ſea-water. Of this they
+            drank half a <lb/>pint every day, and ſometimes more or leſs as <lb/>it operated, by way
+            of gentle phyſic. Two o- <lb/>thers had each two oranges and one lemon gi- <lb/>ven them
+            every day. Theſe they eat with gree- <pb n="193"/>
+            <lb/>dineſs, at different times, upon an empty ſto- <lb/>mach. They continued but ſix
+            days under <lb/>this courſe, having conſumed the quantity <lb/>that could be ſpared. The
+            two remaining <lb/>patients, took the bigneſs of a nutmeg three <lb/>times a-day, of an
+            electary recommended by <lb/>an hoſpital-ſurgeon, made of garlic, muſtard- <lb/>ſeed,
+              <hi rend="italic">rad. raphan.</hi> balſam of <hi rend="italic">Peru</hi>, and gum
+            <lb/>myrrh; uſing for common drink, barley-water <lb/>well acidulated with tamarinds; by
+            a decoction <lb/>of which, with the addition of <hi rend="italic">cremor tartar</hi>,
+            <lb/>they were gently purged three or four times <lb/>during the courſe. </p>
+          <p rend="indent">
+            <lb/>The conſequence was, that the moſt ſudden <lb/>and viſible good effects were
+            perceived from the <lb/>uſe of oranges and lemons; one of thoſe <lb/>who had taken them,
+            being at the end of ſix <lb/>days fit for duty. The ſpots were not indeed at <lb/>that
+            time quite off his body, nor his gums ſound; <lb/>but without any other medicine, than a
+            gar- <lb/>gariſm of <hi rend="italic">elixir vitriol</hi>, he became quite heal-
+            <lb/>thy before we came into <hi rend="italic">Plymouth</hi>, which was <lb/>on the 16th
+            of <hi rend="italic">June</hi>. The other was the beſt <lb/>recovered of any in his
+            condition; and being <lb/>now deemed pretty well, was appointed nurſe <lb/>to the reſt
+            of the ſick. </p>
+          <pb n="194"/>
+          <p rend="indent">
+            <lb/>Next to the oranges, I thought the cyder <note place="bottom" n="(g)"
+              rend="size(0.5)">
+              <floatingText>
+                <body>
+                <head rend="italic align-center">
+                  <lb/>(g) Extract of a letter from Mr <hi rend="roman">lves</hi>. </head>
+                <p rend="indent">
+                  <lb/>I judge it proper to communicate to you, what good effects <lb/>I have
+                  obſerved in the ſcurvy, from the uſe of cyder and ſea- <lb/>water, during the laſt
+                  cruiſe I made in the weſtern ſquadron, <lb/>with my honoured benefactor Admiral
+                    <hi rend="italic">Martin</hi>. But as I do not <lb/>pretend to have taken notice
+                  of any thing, more than merely a <lb/>palliative benefit from them, I think,
+                  without mentioning par- <lb/>ticular caſes, it will be ſufficient for me to inform
+                  you, that, <lb/>in our preceeding cruiſe with the weſtern ſquadron, his Majeſty's
+                  <lb/>ſhip <hi rend="italic">Yarmouth</hi>, of 70 guns and 500 men, was not only
+                  troubled <lb/>with the ſcurvy in common with other ſhips, but, in ſpite of all
+                  <lb/>my endeavours, loſt in it a proportioned number of men. Up- <lb/>on our
+                  return from that cruiſe, I took an opportunity to repre- <lb/>ſent to the Admiral,
+                  that as vegetable juices of all ſorts were <lb/>from experience found to be the
+                  only true antiſcorbutics, and <lb/>I had myſelf formerly experienced the good
+                  effects of apples, it <lb/>was reaſonable to preſume that cyder muſt certainly be
+                  of ſer- <lb/>vice. This ſuggeſtion agreed with ſome accounts the Admiral <lb/>had
+                  received from others; and he with great readineſs bought, <lb/>and put under my
+                  care, ſeveral hogſheads of the beſt <hi rend="italic">South-Ham</hi>
+                  <lb/>cyder. During the next cruiſe, each ſcorbutic patient had dai- <lb/>ly a
+                  quart or three pints of cyder; and as many of them as I <lb/>could prevail on,
+                  took twice a-week three quarters of a pint of <lb/>ſea-water in a morning. In all
+                  other reſpects I treated them as <lb/>I uſed to do people in the ſcurvy; which you
+                  well know, from <lb/>the converſation which has often paſſed betwixt us on this
+                  ſub- <lb/>ject, was with ſquill vomits, pills compoſed of ſoap, ſquills,
+                  <lb/>garlic, <hi rend="italic">&amp;c.</hi>
+                  <hi rend="italic">elixir vitriol</hi>, and other medicines ſuited to the
+                  <lb/>different ſtages and ſymptoms of the malady. In one word, <lb/>we had this
+                  cruiſe as many ſcorbutic patients as any other ſhip, <pb n="195" type="footnote"/>
+                  <lb/>in proportion to our complement of men. But although all the <lb/>reſt buried
+                  a great many, ſome to the number of 20, others 30, <lb/>40, 50, and upwards; yet
+                  the <hi rend="italic">Yarmouth</hi> did not bury more <lb/>than two or three; and
+                  theſe at the latter end of the cruiſe, all <lb/>our cyder having been expended for
+                  a week or ten days before. <lb/>Upon our arrival at port, we ſent to the hoſpital
+                  a great many <lb/>in very dreadful circumſtances. </p>
+                </body>
+              </floatingText>
+            </note>
+            <lb/>had the beſt effects. It was indeed not very <lb/>ſound, being inclinable to be
+            aigre or pricked. <lb/>However, thoſe who had taken it, were in a <pb n="195"/>
+            <lb/>fairer way of recovery than the others at the <lb/>end of the fortnight, which was
+            the length of <lb/>time all theſe different courſes were continued, <lb/>except the
+            oranges. The putrefaction of their <lb/>gums, but eſpecially their laſſitude and weak-
+            <lb/>neſs, were ſomewhat abated, and their appe- <lb/>tite increaſed by it. </p>
+          <p rend="indent">
+            <lb/>As to the <hi rend="italic">elixir</hi> of <hi rend="italic">vitriol</hi>, I
+            obſerved that the <lb/>mouths of thoſe who had uſed it by way of <lb/>gargariſm, were in
+            a much cleaner and better <lb/>condition than many of the reſt, eſpecially <lb/>thoſe
+            who uſed the vinegar; but perceived o- <lb/>therwiſe no good effects from its internal
+            uſe <lb/>upon the other ſymptoms. I indeed never <lb/>had a great opinion of the
+            efficacy of this me- <lb/>dicine in the ſcurvy, ſince our longeſt cruiſe <lb/>in the <hi
+              rend="italic">Saliſbury</hi>, from the 10th of <hi rend="italic">Auguſt</hi> to
+            <lb/>the 28th <hi rend="italic">October</hi> 1746; when we had but one <lb/>ſcurvy in
+            the ſhip. The patient was a marine, <lb/>(one <hi rend="italic">Walſh</hi>); who, after
+            recovering from a quoti- <lb/>dian ague in the latter end of <hi rend="italic"
+              >September</hi>, had ta- <pb n="196"/>
+            <lb/>ken the <hi rend="italic">elixir vitriol</hi> by way of reſtorative for <lb/>three
+            weeks; and yet at length contracted the <lb/>diſeaſe, while under a courſe of a medicine
+            re- <lb/>commended for its prevention. </p>
+          <p rend="indent">
+            <lb/>There was no remarkable alteration upon <lb/>thoſe who took the electuary and
+            tamarind de- <lb/>coction, the ſea-water, or vinegar, upon com- <lb/>paring their
+            condition, at the end of the fort- <lb/>night, with others who had taken nothing but
+            <lb/>a little lenitive electuary and <hi rend="italic">cremor tartar</hi>, at
+            <lb/>times, in order to keep their belly open; or a <lb/>gentle pectoral in the evening,
+            for relief of their <lb/>breaſt. Only one of them, while taking the <lb/>vinegar, fell
+            into a gentle flux at the end of ten <lb/>days. This I attributed to the genius and
+            <lb/>courſe of the diſeaſe, rather than to the uſe of <lb/>the medicine. As I ſhall have
+            occaſion elſe- <lb/>where to take notice of the effects of other me- <lb/>dicines in
+            this diſeaſe, I ſhall here only obſerve, <lb/>that the reſult of all my experiments was,
+            that <lb/>oranges and lemons were the moſt effectual re- <lb/>medies for this diſtemper
+            at ſea. I am apt to <lb/>think oranges preferable to lemons, though <lb/>perhaps both
+            given together will be found moſt <lb/>ſerviceable. </p>
+          <p rend="indent">
+            <lb/>It may be now proper to confirm the effica- <lb/>cy of theſe fruits by the
+            experience of others. <pb n="197"/>
+            <lb/>The firſt proof that I ſhall produce, is borrowed <lb/>from the learned Dr <hi
+              rend="italic">Mead</hi>
+            <note place="bottom" n="(h)" rend="size(0.5)">
+              <p rend="indent">
+                <lb/><hi rend="italic">(h)</hi> Diſcourſe on the ſcurvy, p. 111. </p>
+            </note>. </p>
+          <p rend="indent">
+            <lb/>
+            <q rend="diple quotes">One year when that brave Admiral Sir <lb/><hi rend="italic"
+                >Charles Wager</hi> commanded our fleet in the <lb/><hi rend="italic">Baltic</hi>,
+              his ſailors were terribly afflicted <lb/>with the ſcurvy: but he obſerved, that the
+                <lb/><hi rend="italic">Dutch</hi> ſhips then in company were much <lb/>more free
+              from this diſeaſe. He could im- <lb/>pute this to nothing but their different food,
+              <lb/>which was ſtock-fiſh and gort; whereas <lb/>ours was ſalt fiſh and oat-meal <note
+                place="bottom" n="(i)" rend="size(0.5)">
+                <p rend="indent">
+                  <lb/><hi rend="italic">(i)</hi> The firſt is ſeldom now put on board ſhips of war,
+                  and <lb/><choice>
+                    <corr>of</corr>
+                    <sic>f</sic>
+                  </choice> the laſt <hi rend="italic">Engliſh</hi> ſailors eat but little. </p>
+              </note>. He <lb/>was then come laſt from the <hi rend="italic">Mediterranean</hi>,
+              <lb/>and had at <hi rend="italic">Leghorn</hi> taken in a great quantity <lb/>of
+              lemons and oranges. Recollecting, from <lb/>what he had often heard, how effectual
+              theſe <lb/>fruits were in the cure of this diſtemper, he <lb/>ordered a cheſt of each
+              to be brought up- <lb/>on deck, and opened, every day. The men, <lb/>beſides eating
+              what they would, mixed the <lb/>juice in their beer. It was alſo their con- <lb/>ſtant
+              diverſion to pelt one another with the <lb/>rinds, ſo that the deck was always ſtrewed
+              <lb/>and wet with the fragrant liquor. The <pb n=""/>
+              <lb/>happy effect was, that he brought his ſail- <lb/>ors home in good health. </q>
+          </p>
+          <p rend="indent">
+            <lb/>I have been favoured upon this occaſion, by <lb/>different gentlemen, with many
+            inſtances of <lb/>the like good effects of theſe fruits in this diſ- <lb/>eaſe at ſea;
+            particularly by Mr <hi rend="italic">Francis Ruſſel</hi>, <lb/>in a cruiſe performed by
+            the <hi rend="italic">Princeſs Caroline</hi>
+            <lb/>off the iſlands of <hi rend="italic">Sardinia</hi> and <hi rend="italic"
+              >Corſica</hi>; where, <lb/>according to his relation, ſome of theſe fruits <lb/>got at
+              <hi rend="italic">Vado</hi>, preſerved great part of the crew, <lb/>which otherwiſe
+            muſt undoubtedly have pe- <lb/>riſhed. </p>
+          <p rend="indent">
+            <lb/>An ingenious ſurgeon of great merit and ex- <lb/>perience in the <hi rend="italic"
+              >Guernſey</hi> when extremely di- <lb/>ſtreſſed by the ſcurvy <note place="bottom"
+              n="(k)" rend="size(0.5)">
+              <p rend="indent">
+                <lb/><hi rend="italic">(k)</hi> See the caſe of that ſhip, chap. 1. p. 98. </p>
+            </note>, has the following <lb/>obſervation in his letter upon it. <q
+              rend="diple quotes">I have <lb/>great reaſon to believe, that ſeveral lives <lb/>were
+              abſolutely preſerved, when we were at <lb/>ſea, by a lemon ſqueezed into ſix or eight
+              <lb/>ounces of Malaga wine mixed with water <lb/>and given twice a-day. </q>
+          </p>
+          <p rend="indent">
+            <lb/>I am informed, it was principally orange<unclear>s</unclear>
+            <lb/>which ſo ſpeedily and ſurpriſingly recovered <lb/>Lord <hi rend="italic"
+            >Anſon</hi>'s people at the iſland of <hi rend="italic">Tinian</hi>. <lb/>Of which that
+            noble, brave, and experien- <lb/>ced commander was ſo ſenſible, that, before <pb n="199"/>
+            <lb/>he left the iſland, one man was ordered on <lb/>ſhore from each meſs to lay in a
+            ſtock of them <lb/>for their future ſecurity. </p>
+          <p rend="indent">
+            <lb/>My ingenious friend Mr. <hi rend="italic">Murray</hi>, who has <lb/>favoured me
+            with ſo many uſeful obſervations <lb/>upon this diſeaſe; and has had the greateſt op-
+            <lb/>portunities of being acquainted with it, as he <lb/>for a conſiderable time
+            attended the naval ho- <lb/>ſpital at <hi rend="italic">Jamaica</hi> whilſt our great
+            fleets were <lb/>in the <hi rend="italic">Weſt Indies</hi>, and was likewiſe ſurgeon
+            <lb/>of the <hi rend="italic">Canterbury</hi>, expreſſes himſelf thus in his
+            <lb/>letter. <q rend="diple quotes">As to oranges and lemons, I have <lb/>always found
+              them, when properly and ſuf- <lb/>ficiently uſed, an infallible cure in every
+              <lb/>ſtage and ſpecies of the diſeaſe, if there was <lb/>any degree of natural
+              ſtrength but left; <lb/>and where a diarrhæa, lientery, or dyſen- <lb/>tery, were not
+              joined to the other ſcorbutic <lb/>ſymptoms. Of which we had a moſt convin- <lb/>cing
+              proof, when we arrived at the <hi rend="italic">Daniſh</hi>
+              <lb/>iſland of <hi rend="italic">St Thomas</hi>
+              <note place="bottom" n="(l)" rend="size(0.5)">
+                <p rend="indent">
+                  <lb/><hi rend="italic">(l)</hi> See the former part of this letter, chap. 1. p.
+                  107. </p>
+              </note>; where fifty patients <lb/>belonging to the <hi rend="italic">Canterbury</hi>,
+              and ſeventy to <lb/>the <hi rend="italic">Norwich</hi>, in all the different ſtages of
+              <lb/>this diſtemper, were cured, in little more <lb/>than twelve days, by limes alone;
+              where <pb n="200"/>
+              <lb/>little or no other refreſhments could be ob- <lb/>tained. </q>
+          </p>
+          <p rend="indent">
+            <lb/>It was reaſonable to aſcribe this to the emi- <lb/>nent virtues of theſe fruits; as
+            it is well known, <lb/>and daily experienced, that without ſuch reme- <lb/>dies
+            ſcorbutic people will infallibly die in the <lb/>pureſt land-air. But what cures ſuch
+            deplora- <lb/>ble caſes, muſt ſtill more powerfully prevent <lb/>them. Perhaps one
+            hiſtory more may ſuffice <lb/>to put this out of doubt. </p>
+          <p rend="indent">
+            <lb/>
+            <q rend="diple quotes">In the firſt voyage made to the <hi rend="italic">Eaſt In-
+                <lb/>dies</hi>
+              <note place="bottom" n="(m)" rend="size(0.5)">
+                <p rend="indent">
+                  <lb/><hi rend="italic">(m)</hi> Vid. <hi rend="italic">Harris</hi>'s collection of
+                  voyages, and <hi rend="italic">Purchas</hi>'s <lb/>collection, vol. 1. p. 147.
+                </p>
+              </note>, on account of the <hi rend="italic">Engliſh Eaſt- <lb/>India</hi> company,
+              there were employed four <lb/>ſhips, commanded by Captain <hi rend="italic">James
+                Lanca- <lb/>ſter</hi> their General, <hi rend="italic">viz.</hi> the <hi
+                rend="italic">Dragon</hi> having the <lb/>General and 202 men, the <hi rend="italic"
+                >Hector</hi> 108 <lb/>men, the <hi rend="italic">Suſan</hi> 82, and the <hi
+                rend="italic">Aſcenſion</hi> 32. <lb/>They left England about the 18th of <hi
+                rend="italic">April</hi>; <lb/>in <hi rend="italic">July</hi> the people were taken
+              ill on their <lb/>paſſage with the ſcurvy; by the 1ſt of <hi rend="italic">Au-
+                <lb/>guſt</hi>, all the ſhips, except the General's, were <lb/>ſo thin of men, that
+              they had ſcarce enough <lb/>to hand the ſails; and, upon having a con- <lb/>trary wind
+              for fifteen or ſixteen days, the <lb/>few who were well before, began alſo to fall <pb
+                n="201"/>
+              <lb/>ſick. Whence the want of hands was ſo <lb/>great in theſe ſhips, that the
+              merchants who <lb/>were ſent to diſpoſe of their cargoes in the <lb/><hi rend="italic"
+                >Eaſt Indies</hi>, were obliged to take their turn <lb/>at the helm, and do the
+              ſailors duty, till <lb/>they arrived at <hi rend="italic">Saldania</hi>
+              <note place="bottom" n="(n)" rend="size(0.5)">
+                <p rend="indent">
+                  <lb/><hi rend="italic">(n)</hi> A bay near the Cape of <hi rend="italic">Good
+                    Hope</hi>. </p>
+              </note>; where the Ge- <lb/>neral ſent his boats, and went on board him- <lb/>ſelf, to
+              aſſiſt the other three ſhips; who were <lb/>in ſo weakly a condition, that they were
+              <lb/>hardly able to let fall an anchor, nor could <lb/>they hoiſt out their boat
+              without his aſſiſt- <lb/>ance. All this time the General's ſhip con- <lb/>tinued
+              pretty healthy. The reaſon why his <lb/>crew was in better health than the reſt of
+              <lb/>the ſhips, was owing to the juice of lemons; <lb/>of which the General having
+              brought ſome <lb/>bottles to ſea, he gave to each, as long as it <lb/>laſted, three
+              ſpoonfuls every morning faſt- <lb/>ing. By this he cured many of his men, <lb/>and
+              preſerved the reſt: ſo that although his <lb/>ſhip contained double the number of any
+              of <lb/>the others; yet (through the mercy of God, <lb/>and to the preſervation of the
+              other three <lb/>ſhips) he neither had ſo many men ſick, nor <lb/>loſt ſo many as they
+              did. </q>
+          </p>
+          <pb n="202"/>
+          <p rend="indent">
+            <lb/>Here indeed is a remarkable and authentic <lb/>proof of the great efficacy of juice
+            of lemons <lb/>againſt this diſeaſe; as large and crouded ſhips <lb/>are more afflicted
+            with it, and always in a high- <lb/>er degree, than thoſe that are ſmall and airy.
+            <lb/>This little ſquadron loſt 105 men by the ſcur- <lb/>vy. Upon its afterwards
+            breaking out among <lb/>them when in the <hi rend="italic">Eaſt Indies</hi>, in a
+            council <lb/>held at ſea it was determined, to put directly <lb/>into ſome port where
+            they could be ſupplied <lb/>with oranges and lemons, as the moſt effec- <lb/>tual and
+            experienced remedies to remove and <lb/>prevent this dreadful calamity. </p>
+          <p rend="indent">
+            <lb/>I cannot omit upon this occaſion obſerving, <lb/>what caution is at all times
+            neceſſary in our rea- <lb/>ſoning on the effects of medicines, even in the <lb/>way of
+            analogy, which would ſeem the leaſt <lb/>liable to error. For ſome might naturally con-
+            <lb/>clude, that theſe fruits are but ſo many acids, <lb/>for which tamarinds, vinegar,
+              <hi rend="italic">ſp.ſal. el. vitriol</hi>, <lb/>and others of the ſame tribe, would
+            prove ex- <lb/>cellent <hi rend="italic">ſuccedaneums</hi>. But, upon bringing this
+            <lb/>to the teſt of experience, we find the contrary. <lb/>Few ſhips have ever been in
+            want of vinegar <lb/>and, for many years before the end of the <lb/>late war, all were
+            ſupplied ſufficiently with <hi rend="italic">el. <lb/>vitriol</hi>. Notwithſtanding
+            which, the <hi rend="italic">Channel</hi>- <pb n="203"/>
+            <lb/>fleet often put on ſhore a thouſand men miſer- <lb/>ably over-run with this
+            diſeaſe, beſides ſome <lb/>hundreds who died in their cruiſes. Upon <lb/>thoſe occaſions
+            tar-water, ſalt water, vinegar, <lb/>and <hi rend="italic">el. vitriol</hi> eſpecially,
+            with many other <lb/>things, have been abundantly tried to no pur- <lb/>poſe: whereas
+            there is not an inſtance of a <lb/>ſhip's crew being ever afflicted with this diſeaſe,
+            <lb/>where the before mentioned fruits were proper- <lb/>ly, duly, and in ſufficient
+            quantity, adminiſtered. </p>
+          <p rend="indent">
+            <lb/>I elſewhere obſerved the uncertainty of ſuch <lb/>theories as are founded upon the
+            chemical prin- <lb/>ciples of acid and alcali <note place="bottom" n="(o)"
+              rend="size(0.5)">
+              <p rend="indent">
+                <lb/><hi rend="italic">(o)</hi> Part. 1. chap. 2. </p>
+            </note>: for although a- <lb/>cids agree in certain properties; yet they differ
+            <lb/>widely in others, and eſpecially in their effects <lb/>upon the human body. Of
+            theory in phyſic <lb/>the ſame may perhaps be ſaid, as has been ob- <lb/>ſerved by ſome
+            of zeal in religion, That it is in- <lb/>deed abſolutely neceſſary; yet, by carrying it
+            <lb/>too far, it may be doubted whether it has <lb/>done more good or hurt in the world. </p>
+          <p rend="indent">
+            <lb/>Some will perhaps ſay, that theſe fruits <lb/>have been often uſed in the ſcurvy
+            without ſuc- <lb/>ceſs; as appears from the experience of phyſi- <lb/>cians, who
+            preſcribe them every day in that <lb/>diſeaſe at land. And here we may again ob- <pb
+              n="204"/>
+            <lb/>ſerve the fatal conſequence of confounding this <lb/>malady with others. Legions of
+            diſtempers <lb/>(according to <hi rend="italic">Willis</hi> and others) very differ-
+            <lb/>ent from the real and genuine ſcurvy, have <lb/>been claſſed under its name: and
+            becauſe the <lb/>moſt approved antiſcorbutics fail to remove ſuch <lb/>diſeaſes, hence
+            we are told by authors <note place="bottom" n="(p)" rend="size(0.5)">
+              <p rend="indent">
+                <lb/><hi rend="italic">(p)</hi>
+                <hi rend="italic">Boerhaave</hi>, and many others. </p>
+            </note>, that <lb/>it is the maſterpiece of art to cure it. But this <lb/>is
+            contradicted by the daily experience of ſea- <lb/>men, by the journals of our
+            ſea-hoſpitals, and <lb/>by the yearly experience of our <hi rend="italic">Engliſh Eaſt-
+              <lb/>India</hi> ſhips at <hi rend="italic">St Helena</hi>, and the Cape of <hi
+              rend="italic">Good <lb/>Hope</hi>. So that nothing can be more abſurd, <lb/>than to
+            object againſt the efficacy of theſe <lb/>fruits in preventing and curing the real
+            ſcurvy, <lb/>becauſe they do not cure very different diſ- <lb/>eaſes. </p>
+          <gap reason="sampling" unit="pages" quantity="35"/>
+        </div>
+        <gap reason="sampling" unit="pages" quantity="101"/>
+      </div>
+      <gap reason="sampling" unit="pages" quantity="104"/>
+    </body>
+  </text>
+</TEI>

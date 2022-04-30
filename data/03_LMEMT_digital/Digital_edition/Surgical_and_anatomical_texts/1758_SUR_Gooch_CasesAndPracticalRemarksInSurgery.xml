@@ -1,0 +1,1405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LMEMT Corpus - Gooch: Cases and Practical Remarks in Surgery</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>Benjamin Gooch</persName>
+            </author>
+            <title type="main">Cases and Practical Remarks in Surgery. With Sketches of Machines, of
+              Simple Construction, Easy Application, and Approved Use. </title>
+            <edition n="1"/>
+            <idno type="ESTC">T90166</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/T90166"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>London: printed for D. Wilson, and T. Durham, at Plato's Head, in the
+                  Strand, MDCCLVIII. </persName>
+              </publisher>
+              <date>1758</date>
+            </imprint>
+            <extent>
+              <measure type="format">8⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="14"/>
+              <measure type="count" commodity="body" unit="page" quantity="184"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">British Library</orgName>
+            <idno type="ECCO">CW108946670</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Surgical or anatominal work"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text type="book" rend="roman" xml:lang="eng">
+    <gap reason="sampling" unit="pages" quantity="14"/>
+    <body>
+      <pb n=""/>
+      <figure rend="space">
+        <figDesc>A horizontal double-line, spanning the whole page. </figDesc>
+      </figure>
+      <head rend="sc align-center space">
+        <lb/><hi rend="size(2.0)">CASES </hi>
+        <lb/>and <lb/><hi rend="size(2.0)">REMARKS </hi>
+        <lb/>in <lb/><hi rend="size(2.0)">SURGERY. </hi>
+      </head>
+      <figure>
+        <figDesc>A horizontal line, spanning the whole page. </figDesc>
+      </figure>
+      <div type="section">
+        <head rend="size(1.25) align-center space">
+          <lb/>A caſe of a fractured ſcull in an old <lb/>man. </head>
+        <dateline rend="indent space">
+          <lb/><hi rend="italic">March</hi> the 19th, 1749. </dateline>
+        <p rend="space">
+          <lb/><hi rend="size(3)">M.</hi> H. of T. a robuſt labouring man, <lb/>aged ſixty one,
+          received a blow <lb/>upon his head, with the end of a <lb/>rafter; he inſtantly fell down
+          deprived of <lb/>ſenſe and motion, and was carried home <lb/>as a dead man, but diſcovered
+          ſigns of life <lb/>ſoon after: a violent <hi rend="italic">Ecchymoſis</hi> appeared,
+          <lb/>without any breach of the ſkin; upon <pb n="2"/>
+          <lb/>ſcalping the ſame day, a very extenſive <lb/>fracture was diſcovered, with a great
+          com- <lb/>minution and depreſſion of the ſuperior <lb/>part of the right parietal bone: as
+          ſoon as <lb/>the hæmorrhage was reſtrained, the trepan <lb/>was applied; it appeared
+          neceſſary to make <lb/>ſix perforations, in order to remove the <lb/>fragments and
+          depreſſed pieces of the <lb/><hi rend="italic">Cranium</hi> then in view; after their
+          removal <lb/>we obſerved a ſeparation of the <hi rend="italic">Dura Mater</hi>
+          <lb/>from the <hi rend="italic">Cranium</hi> much beyond the per- <lb/>forations. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">After</hi> the operation the patient was <lb/>dreſſed as uſual in ſuch
+          caſes; was let <lb/>blood frequently and kept to a ſtrict regi- <lb/>men, laxatives being
+          occaſionally admi- <lb/>niſtered. He recovered his ſenſes perfect- <lb/>ly in about ten
+          days; the wound had a <lb/>kind aſpect, and the ſymptomatic fever <lb/>abated, which gave
+          us great hopes of his <lb/>recovery. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">As</hi> the digeſtion advanced we obſerved <lb/>a farther ſeparation of
+          the <hi rend="italic">Dura Mater</hi>
+          <lb/>from the <hi rend="italic">Cranium</hi>, at the ſuperior and moſt <lb/>concave part
+          of the parietal bone, which <lb/>continued as far as the inferior and de- <pb n="3"/>
+          <lb/>pending point, where there was a lodg- <lb/>ment of matter at every dreſſing: the
+          diſ- <lb/>charge ſeemed now more than a well-con- <lb/>ditioned wound of that apparent
+          ſize ought <lb/>to produce, his pulſe became quicker, <lb/>with great reſtleſsneſs, and
+          ſoon after he <lb/>fell into a <hi rend="italic">Stupor</hi>, as at firſt. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">These</hi> threatening ſymptoms return- <lb/>ing, and growing worſe
+          every hour, we <lb/>were reduced to a great difficulty to know <lb/>how to act with the
+          greateſt probability of <lb/>relieving our patient, but upon obſerving <lb/>where moſt
+          matter proceeded from, at every <lb/>dreſſing, underneath the<hi rend="italic"
+            >Cranium</hi>, at length <lb/>we reſolved to remove another portion of <lb/>the ſcalp,
+          beginning at the ſuperior part, <lb/>deſcribing the ſegment of a circle towards <lb/>the
+            <hi rend="italic">Occiput</hi>, and ſo coming round to the <lb/>moſt inferior part of
+          the firſt inciſion. <lb/>This diſcovered to us at the moſt depend- <lb/>ing part, a
+          triangular ſharp-pointed frag- <lb/>ment of the <hi rend="italic">Cranium</hi>, ſtruck
+          into, if not <lb/>quite through the <hi rend="italic">Dura Mater</hi>, whence the
+          <lb/>matter had iſſued at every dreſſing for three <lb/>or four days. </p>
+        <pb n="4"/>
+        <p rend="indent space">
+          <lb/><hi rend="sc">Under</hi> theſe circumſtances we thought <lb/>it moſt adviſeable to
+          remove the whole arch <lb/>of bone, from which the <hi rend="italic">Dura Mater</hi> was
+          <lb/>detached, and this being impracticable with <lb/>the head-ſaw, was effected by ſeven
+          per- <lb/>forations of the trepan, on the 1ſt of April. <lb/>After this operation, he grew
+          immediately <lb/>better, and every bad ſymptom gradually <lb/>vaniſhed. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">In</hi> the beginning of July, he was in a <lb/>condition to walk two
+          miles to be dreſſed, <lb/>but it was more than a year before the <lb/>cicatrice was
+          perfected; and, even to this <lb/>day, veſicles now and then ariſe, break, <lb/>diſcharge
+          a little, and then heal with very <lb/>little trouble. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">What</hi> ſubſtitutes the loſs of the <hi rend="sc">Cra- <lb/>nium</hi>
+          is not entirely oſſified; in a young <lb/>ſubject probably it would have acquired
+          <lb/>ſuch a degree of hardneſs as conſtitutes <lb/>bone. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">In</hi> order to guard the brain againſt ex- <lb/>ternal injuries, he
+          wears a very thin iron <pb n="5"/>
+          <lb/>plate; and has followed his ordinary em- <lb/>ployment ſeveral years, without any
+          con- <lb/>ſiderable inconvenience. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">Plate</hi> I. exhibits a view of this frac- <lb/>ture. </p>
+        <pb n="6"/>
+        <space dim="vertical" unit="lines" quantity="6"> </space>
+        <figure>
+          <head rend="sc size(1.5) align-center">
+            <lb/>Plate I. </head>
+          <table rows="3" cols="2">
+            <row rend="space">
+              <cell rend="align-right">A. A. A. </cell>
+              <cell rend="hanging">The extent of the firſt opera- <lb/>tion done <hi rend="italic"
+                  >March</hi> the 28th. </cell>
+            </row>
+            <row rend="space">
+              <cell rend="align-right">B. B. B. </cell>
+              <cell rend="hanging">The extent of the ſecond ope- <lb/>ration done <hi rend="italic"
+                  >April</hi> the 1ſt. </cell>
+            </row>
+            <row rend="space">
+              <cell rend="align-right">C. </cell>
+              <cell rend="hanging">The point of the triangular <lb/>piece of bone, which was
+                <lb/>ſtruck into the <hi rend="italic">Dura Mater</hi>, <lb/>and diſcovered upon the
+                ſe- <lb/>cond operation. </cell>
+            </row>
+          </table>
+          <figDesc>An illustration of ??? on a separate page — missing from the source text.
+          </figDesc>
+        </figure>
+      </div>
+      <pb n="7"/>
+      <div type="section">
+        <head rend="size(1.25) align-center space">
+          <lb/>An uncommon caſe of a fracture of <lb/>of the ſcull. </head>
+        <dateline rend="indent space">
+          <lb/><hi rend="italic">June</hi> the 24th, 1749. </dateline>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">M</hi>R. J. E. of T. aged about thirty, <lb/>came to my houſe when I
+          hap- <lb/>pened to be from home, and aſked a gen- <lb/>tleman who lived with me, to dreſs
+          a ſmall <lb/>wound which he had received in the mid- <lb/>dle of his forehead, without
+          ſaying how <lb/>it happened; and a plaſter was accord- <lb/>ingly applied, without
+          examining the <lb/>wound, it appearing ſo very ſlight. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">I was</hi> called to him three days after, <lb/>and found him in a <hi
+            rend="italic">Stupor</hi>, attended with <lb/>other threatening ſymptoms. Upon exa-
+          <lb/>mining the wound, which was indeed <lb/>very trifling in its external appearance, my
+          <lb/>probe paſſed, without any reſiſtance, into <lb/>the brain more than two inches, at
+          the ex- <lb/>tremity of which, I was ſenſible of ſome <lb/>ſolid body, and took it to be a
+          fragment <lb/>of the internal table of the ſcull, after <lb/>having been informed that the
+          accident hap- <lb/>pened, by the breech-pin of a gun, when <pb n="8"/>
+          <lb/>the barrel flew out of the ſtock upon diſ- <lb/>charging it. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">I scalped</hi> him, ſtopped the hæ- <lb/>morrhage with the needle and
+          ligature, and <lb/>trepanned him immediately, making two <lb/>perforations adjoining, not
+          being able to <lb/>extract the fragments of the bone, which <lb/>were drove into the
+          brain, through one: <lb/>the diameter of the fracture of the exter- <lb/>nal table was of
+          no larger extent than the <lb/>tail of the breech-pin; but one of the frag- <lb/>ments of
+          the internal table was almoſt as <lb/>broad as a ſhilling. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">The</hi>
+          <hi rend="italic">Stupor</hi>, &amp;c. went off ſoon after <lb/>the operation, and he
+          recovered his ſenſes <lb/>perfectly: though ſome portion of the <lb/>brain was diſcharged
+          at every dreſſing, the <lb/>ſymptoms continued ſo favorable until the <lb/>eighteenth day,
+          that I began to be flattered <lb/>with hopes of his recovery, but the <hi rend="italic"
+            >Stu- <lb/>por</hi>, &amp;c. returned, and he died the next <lb/>day. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">I could</hi> not obtain leave to open the <lb/>ſcull after the death of
+          the patient, to exa- <lb/>mine the brain, <hi rend="italic">&amp;c.</hi>
+        </p>
+      </div>
+      <pb n="9"/>
+      <div type="section">
+        <head rend="size(1.25) align-center space">
+          <lb/>A fracture upon the <hi rend="italic">Os Frontis</hi>. </head>
+        <dateline rend="indent space">
+          <lb/><hi rend="italic">Auguſt</hi> the 3d, 1754. </dateline>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">T</hi>HE wife of T. H. of H. aged about <lb/>fifty, received this
+          accident by a ſtone <lb/>thrown with great force; the wound though <lb/>inconſiderable was
+          immediately ſtitched, <lb/>and the caſe in all reſpects treated contra- <lb/>ry to the
+          rules of ſurgery. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">I was</hi> called to her about a week af- <lb/>ter, and found an
+          eryſipelatous tumor had <lb/>ſeized her head, face and neck, to the <lb/>greateſt degree I
+          ever ſaw; thoſe parts were <lb/>as much ſwelled as in the moſt confluent <lb/>kind of
+          ſmall-pox, the fever ran high, ſhe <lb/>was delirious, breathed very ſhort, and in-
+          <lb/>deed I thought could not have lived until the <lb/>next day. I diſcovered a fracture
+          with my <lb/>probe, which eaſily paſſed a good way <lb/>round about upon the ſcull; I made
+          a lon- <lb/>gitudinal inciſion, but did not venture to <lb/>move the ſcalp under theſe
+          circumſtan- <lb/>ces, to inform myſelf of the nature and <lb/>extent of the fracture. As
+          yet no evacua- <pb n="10"/>
+          <lb/>tions had been made. Repeated bleeding, <lb/>lenient purgatives, nitrous medicines,
+            <hi rend="italic">&amp;c.</hi>
+          <lb/>gave her ſome relief in a few days, beyond <lb/>expectation; then I removed a
+          ſufficient <lb/>portion of the ſcalp, to bring the fracture <lb/>in view, applied the
+          trepan, and found <lb/>much extravaſated blood upon the <hi rend="italic">Dura
+            <lb/>Mater</hi>. It was a long time before ſhe ap- <lb/>peared out of danger, and was
+          recovered <lb/>with the utmoſt difficulty. </p>
+        <p rend="indent space size(0.75)">
+          <lb/>In a ſingle perforation of the ſcull in trepanning, I <lb/>have often found the plate
+          of lead, deſcribed and <lb/>ſtrongly recommended by <hi rend="italic">Belloſte</hi> in his
+            <hi rend="italic">Hoſpital-Surgeon</hi>, <lb/>of ſignal ſervice in keeping the <hi
+            rend="italic">Dura Mater</hi> ſufficiently <lb/>depreſſed; by which the growth of
+          fungous fleſh from <lb/>thence, through the perforation, will be eaſily prevent- <lb/>ed,
+          and the diſcharge of any kind of matter facilitated, <lb/>that may happen to be lodged
+          between the ſcull and that <lb/>membrane: I never ſaw any inconvenience from the uſe
+          <lb/>of it, but dreadful conſequences may juſtly be appre- <lb/>hended from cutting off
+          fungus, or deſtroying it with <lb/>eſcharotics in theſe caſes. By a piece of card laid
+          over <lb/>the ears of the plate, raiſed a little above the ſuperficies <lb/>of the ſcull,
+          the preſſure may be regulated to a juſt de- <lb/>gree with a compreſs and the common
+          bandage; or <lb/>ſtrips of common plaſter applied crucially over the <lb/>wound, which are
+          beſt without any other bandage far- <lb/>ther than to contain the dreſſings. </p>
+        <p rend="indent size(0.75)">
+          <lb/>The firſt time that I performed this operation, I <lb/>found the ſame inconvenience,
+          which I ſuppoſe put <lb/><hi rend="italic">Belloſte</hi> upon inventing this plate, and
+          uſed it ſeveral <lb/>times without knowing it had been uſed by any ſurgeon <lb/>before. In
+          this operation I always uſed that kind of <lb/>trepan called the trephine. </p>
+      </div>
+      <pb n="11"/>
+      <div type="section">
+        <head rend="size(1.25) align-center space">
+          <lb/>A caſe in which the trepan was ap- <lb/>plied to the occipital bone, with
+          <lb/>ſucceſs. </head>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">T</hi>HE <hi rend="italic">Reverend Mr. Baker</hi> of <hi
+            rend="italic">Hedenham</hi>, <lb/>a very worthy Divine, in the fifty <lb/>ninth year of
+          his age, of a robuſt conſti- <lb/>tution, by a fall from his horſe running <lb/>away with
+          him, <hi rend="italic">July</hi> the 11th, 1757, re- <lb/>ceived one large and extenſive
+          fiſſure, in a <lb/>right line downwards, from near the ſupe- <lb/>rior angle of the
+          occipital bone, and ano- <lb/>ther as ſmall as an hair, diverging at an <lb/>acute angle
+          about an inch from the top of <lb/>the large one, on the left ſide of it, ex- <lb/>tending
+          almoſt to the lambdoidal ſuture. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">He</hi> was taken up ſpeechleſs and ſenſe- <lb/>leſs; the <hi
+            rend="italic">Stupor</hi> went off, in a great mea- <lb/>ſure, upon ſcalping and
+          plentiful bleed- <lb/>ing; a fever ſoon followed attended with <lb/>delirious ſymptoms at
+          times, with an ap- <lb/>pearance of the intellectual faculties being <lb/>much impaired
+          though not entirely de- <lb/>ſtroyed. </p>
+        <pb n="12"/>
+        <p rend="indent">
+          <lb/><hi rend="sc">Many</hi> circumſtances concurred to de- <lb/>lay the uſe of the trepan
+          until the eleventh <lb/>day after the accident, when it being una- <lb/>nimouſly agreed
+          upon in conſultation, by <lb/>Dr. <hi rend="italic">Bennet</hi> of <hi rend="italic"
+            >Norwich</hi>, Meſſrs. <hi rend="italic">Cooper</hi>, <lb/><hi rend="italic"
+            >Manning</hi> and <hi rend="italic">Lewis</hi>, of <hi rend="italic">Bungay</hi> in <hi
+            rend="italic">Suffolk</hi>, <lb/>Surgeons, with myſelf, and conſented to <lb/>then, by
+          the perſons nearly concerned, a <lb/>ſingle perforation of the bone was made, <lb/>taking
+          in a ſmall part of the capillary fiſ- <lb/>ſure, without any ill accident attending the
+          <lb/>operation: we bore in mind this excellent <lb/>maxim in ſurgery, <hi rend="italic"
+            >Feſtina lente</hi>, and exa- <lb/>mined the <hi rend="italic">Sulcus</hi> frequently
+          with a probe <lb/>or quill, to obſerve when and where the <lb/>ſaw had cut through, and
+          when the piece <lb/>was moveable, holding by one third or <lb/>fourth of its
+          circumference, we thought it <lb/>moſt adviſeable to break it up with the <hi
+            rend="italic">E- <lb/>levator</hi>; the <hi rend="italic">Dura Mater</hi> then appeared
+          <lb/>highly inflamed, looking of a duſky red, <lb/>much like a lump of coagulated blood.
+          <lb/>We afterwards, with ſmall gouges, carv- <lb/>ing and engraving tools, enlarged the
+          low- <lb/>er part of the fiſſure, where we perceived <lb/>an iſſuing of a fetid gleet like
+          what was <lb/>diſcharged through the perforation, from <lb/>between the <hi rend="italic"
+            >Dura Mater</hi> and the <hi rend="italic">Cranium</hi>: <pb n="13"/>
+          <lb/>apprehending they had a communication, <lb/>we ſhould have looked upon it as
+          juſtifiable <lb/>practice to have made one or two perfo- <lb/>rations more with the
+          trepan, towards that <lb/>point, and ſhould have propoſed it had not <lb/>the ſymptoms
+          abated. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">He</hi> had a variety of ſymptoms both <lb/>before and after the
+          operation, ſhewing <lb/>that the nervous ſyſtem was greatly diſ- <lb/>ordered, but we
+          could not preciſely deter- <lb/>mine what part of the <hi rend="italic">Encephalon</hi>
+          was moſt <lb/>affected; before the operation he conſtant- <lb/>ly complained of much pain
+          upon the ſides <lb/>and fore part of his head, which was ac- <lb/>companied with a moſt
+          intenſe degree of <lb/>heat ſenſible to our touch; not evident- <lb/>ly relieved by
+          copious bleeding and the <lb/>obſervance of an exact regimen. About <lb/>ſix hours after
+          the operation he gave ſignal <lb/>proofs of the improvement of his reaſon, <lb/>and the
+          pain and heat of his head ſoon <lb/>abated; ſtill many threatening ſymptoms
+          <lb/>continued, and new ones aroſe, among the <lb/>reſt, a <hi rend="italic">Spaſmus
+            cynicus</hi> on the left ſide, with <lb/>a remarkable ſinking and dulneſs of the
+          <lb/>right eye at the ſame time, both which <lb/>proved of ſhort duration. </p>
+        <pb n="14"/>
+        <p rend="indent space">
+          <lb/><hi rend="sc">After</hi> lenient purgatives, cooling re- <lb/>medies, ſoft diet and
+          very plentiful bleed- <lb/>ing, it was thought proper, on account of <lb/>feveriſh
+          ſymptoms which encreaſed perio- <lb/>dically, and a black ſlough upon the <hi
+            rend="italic">Du- <lb/>ra Mater</hi>, to give the <hi rend="italic">Bark</hi>, joining
+            <hi rend="italic">Rhubarb</hi>
+          <lb/>with it to prevent coſtiveneſs. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">About</hi> a fortnight after the operation, <lb/>we began to conceive
+          ſome hopes of his <lb/>recovery; now, <hi rend="italic">October</hi> the 6th, the wound
+          <lb/>is contracted into the compaſs of a fonti- <lb/>nel, and kept open at the bottom as
+          ſuch; <lb/>his intellects are perfect, he is able to take <lb/>the air in his chariot, and
+          his health is <lb/>daily improving. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">We</hi> wanted circumſtantial and well- <lb/>warranted precedents to
+          enforce the ap- <lb/>plication of the trepan, and ſatisfy all par- <lb/>ties concerned, of
+          the propriety and neceſ- <lb/>ſity of it upon the occipital bone. It is <lb/>to be wiſhed
+          that writers of approved cha- <lb/>racter, who have treated this ſubject, had <lb/>farther
+          conſidered a point of ſo much im- <lb/>portance to ſurgery; for the <hi rend="italic">Dura
+            Ma- <lb/>ter</hi> may be ſo injured, that though the <pb n="15"/>
+          <lb/><hi rend="italic">Cerebellum</hi> has received no immediate hurt, <lb/>yet, without
+          trepanning, the patient muſt <lb/>inevitably periſh: and this appearing to be <lb/>the
+          ſtate of the caſe before us, had the ha- <lb/>zard of doing it been much greater, we
+          <lb/>ſhould have thought ourſelves juſtified in <lb/>the practice. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">The</hi> objections which have been made <lb/>againſt it are, the great
+          difficulty of per- <lb/>forating the bone on account of its une- <lb/>qual thickneſs, the
+          danger of wounding <lb/>the <hi rend="italic">Cerebellum</hi>, and of opening a <hi
+            rend="italic">Sinus</hi>. <lb/>Should the latter happen we have inſtan- <lb/>ces, where
+          it has not proved mortal; and <lb/>upon a ſtrict examination of the bone, we <lb/>believe,
+          it will appear that few parts of it <lb/>have ſuch an inequality, in the circular
+          <lb/>compaſs of the ſaw, as to be more than a <lb/>little thicker on one ſide than the
+          other; <lb/>from which conſiderations and the <hi rend="italic">Cere- <lb/>bellum</hi> and
+            <hi rend="italic">Sinuſes</hi> being well defended, by <lb/>ſo thick a membrane as the
+            <hi rend="italic">Dura Mater</hi>, <lb/>we are encouraged to hope that a cautious
+          <lb/>operator may ſucceed without injuring ei- <lb/>ther; but he ſhould be well acquainted
+          <lb/>with the ſtructure of the bone and the re- <lb/>ſpective ſituation of the ſubjacent
+          parts, <pb n="16"/>
+          <lb/>proceeding with the utmoſt circumſpection <lb/>and prudence, where the practice may
+          not <lb/>yet be thought ſufficiently authorized. </p>
+        <p rend="indent space size(0.75)">
+          <lb/>Since theſe ſheets were ſent to the preſs, I have received <lb/>an account from Mr.
+            <hi rend="italic">Cooper</hi>, that the wound is healed, <lb/>and that Mr. <hi
+            rend="italic">Baker</hi> has recovered a good ſtate of health. </p>
+      </div>
+      <pb n="17"/>
+      <div type="section">
+        <head rend="size(1.25) align-center space">
+          <lb/>A <hi rend="italic">Species</hi> of tumor called by the <lb/>common people the <hi
+            rend="italic">Mumps</hi>. </head>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">E</hi>ARLY in the ſpring, after the hard <lb/>winter in 1739, the
+          feverest in the <lb/>memory of man, this diſeaſe appeared, <lb/>which I had never ſeen
+          before, nor read <lb/>any deſcription of. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">It</hi> began with a ſlight fever, the face <lb/>and throat ſwelled
+          ſoon after, looking of <lb/>a little deeper color than a damaſk-roſe, <lb/>but the tumor
+          ſeldom extended ſo far as <lb/>the eyes; it was chiefly external, and ſome <lb/>times in a
+          few days it increaſed to ſuch a <lb/>prodigious ſize, as to obliterate the fea-
+          <lb/>tures, and put the patient out of the know- <lb/>ledge of his moſt intimate
+          acquaintance; <lb/>yet that quick and extraordinary diſten- <lb/>tion of the parts was in
+          general attended <lb/>with but little pain. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">The</hi> diſeaſe was chiefly among chil- <lb/>dren, and young perſons
+          of the poorer <lb/>ſort. The general antiphlogiſtic method <pb n="18"/>
+          <lb/>ſucceeded very well; the diſeaſe was rarely <lb/>mortal, and ſeldom terminated in an
+          ab- <lb/>ſceſs, but when that happened it healed <lb/>kindly by the common treatment. </p>
+        <p rend="indent space">
+          <lb/>IN five or ſix caſes, in which I was con- <lb/>cerned, the tumor in the face, <hi
+            rend="italic">&amp;c.</hi> ſubſid- <lb/>ed in three or four days, and was from
+          <lb/>thence immediately tranſlated to the teſti- <lb/>cles, but this circumſtance required
+          no al- <lb/>teration in the general method of cure. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">In</hi> ſome a thickneſs and hardneſs re- <lb/>mained upon the
+            p<unclear>arotid</unclear> and maxillary <lb/>glands after they were well in all other
+          re- <lb/>ſpects, which I found readily yielded to <lb/>ſmall doſes of <hi rend="italic"
+            >Merc. dulc.</hi> with gentle purg- <lb/>ing at proper intervals, keeping the af-
+          <lb/>fected parts moderately warm, and the pa- <lb/>tient to a ſuitable regimen, during
+          the mer- <lb/>curial courſe. Sometimes I uſed a mild <lb/>mercurial ointment. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">this</hi> diſeaſe continued rife all the ſum- <lb/>mer ſeaſon, which
+          was remarkably cold, <lb/>dry and unfruitful, and did not intirely diſ- <lb/>appear until
+          autumn, 1741. </p>
+        <pb n="19"/>
+        <p rend="indent size(0.75)">
+          <lb/>The ſummer after the diſappearance of this diſeaſe, <lb/>the malignant ſore throat,
+          which has been accurately <lb/>deſcribed by three very learned phyſicians, firſt appeared,
+          <lb/>and continued more than ten years before its total diſ- <lb/>appearance, in that part
+          of the kingdom where I then <lb/>dwelt, about ten miles from the city of <hi rend="italic"
+            >Norwich</hi>; but <lb/>it was not equally violent during the whole of that <lb/>time;
+          it raged and was moſt mortal in the years 1745 <lb/>and 1746. I attended a great many in
+          it, and, from <lb/>what I obſerved, there appeared to me ſome analogy <lb/>between this
+          diſeaſe and that among the horned cattle, <lb/>which has been upwards of forty years in
+          this iſland. <lb/><hi rend="italic">Aretæus</hi>, taking notice of ſuch a diſeaſe in the
+          throat, <lb/>expreſly ſays, that it was preceded by a plague among <lb/>that ſpecies of
+          cattle. </p>
+      </div>
+      <pb n="20"/>
+      <div type="section">
+        <head rend="size(1.25) align-center space">
+          <lb/>A glandular tumor ſituated under <lb/>the ear upon the articulation of <lb/>the jaws,
+          ſucceſsfully extirpated. </head>
+        <dateline rend="indent space">
+          <lb/><hi rend="italic">June</hi> the 1ſt. 1755. </dateline>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">M</hi>R. <hi rend="italic">J. B.</hi> of <hi rend="italic">O.</hi>
+          aged about thirty, <lb/>a gentleman of a lively temper, <lb/>but not of a good
+          conſtitution, had this <lb/>tumor gradually growing three or four <lb/>years, from a very
+          ſmall beginning to a <lb/>conſiderable ſize: its increaſing exceed- <lb/>ingly in the laſt
+          ten or twelve months af- <lb/>fected his mind very much, and made him <lb/>more than
+          ordinarily anxious about the re- <lb/>moval of it. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">We</hi> were of opinion in conſultation, <lb/>that the operation was
+          practicable. After <lb/>the patient was duly prepared, I performed <lb/>it, with greater
+          eaſe to him, and leſs trou- <lb/>ble to myſelf, than I expected; for, upon <lb/>removing
+          an oval piece of the teguments, <lb/>and laying the glandular ſubſtance in view, <lb/>I
+          found it ſo diſengaged from the circum- <pb n="21"/>
+          <lb/>jacent parts, that I turned it out with my <lb/>finger, having very little further
+          uſe for the <lb/>knife. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">The</hi> wound diſcharged during the <lb/>cure a great quantity of
+          ſaliva, eſpecially <lb/>upon maſtication, which was avoided as <lb/>much as poſſible, by
+          the nature of the food <lb/>he was allowed. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">When</hi> the wound was contracted in- <lb/>to a narrow compaſs, I
+          directed a ſtrong <lb/>elaſtic ſteel machine, reſembling that which <lb/>is made uſe of to
+          keep the wig cloſe to the <lb/>ears, with a ſoft pad to preſs upon the <lb/>aperture of
+          the ſalival duct, and reſt upon <lb/>the oppoſite temple; by which, and ſel- <lb/>dom
+          dreſſing, with lint moiſtened in <hi rend="italic">Alco- <lb/>hol</hi> and a common
+          plaſter, it was ſoon per- <lb/>fectly healed. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">The</hi> Machine, as deſcribed in plate 2. <lb/>fig. 1. was kept in its
+          proper poſition, with <lb/>a ribband paſſing behind the head, from <lb/>one branch of it
+          to the other, and another <lb/>ribband affixed to that behind the head, <lb/>in the
+          middle, and to the machine on the <lb/>top of the head. </p>
+      </div>
+      <pb n="22"/>
+      <div type="section">
+        <head rend="size(1.25) hanging space">
+          <lb/>A glandular tumor extirpated, which <lb/>had been gradually growing more <lb/>than
+          twenty years to the circum- <lb/>ference of fourteen inches, ex- <lb/>tending from the
+          root of the ear <lb/>unto the cheek, and far down the <lb/>neck. </head>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">I</hi>N the beginning of <hi rend="italic">June</hi> 1757, Mrs. <hi
+            rend="italic">B.</hi>
+          <lb/>of <hi rend="italic">A.</hi> about forty five years of age, <lb/>and healthy in all
+          other reſpects, firſt <lb/>aſked my advice in this caſe; afterwards, <lb/>in a
+          conſultation of a Phyſician and four <lb/>Surgeons, beſides myſelf, it was unani-
+          <lb/>mouſly agreed, from the threatening aſ- <lb/>pect of the tumor, that there was now
+          <lb/>no time to loſe; and that the operation <lb/>was adviſeable, without any farther
+          delay, <lb/>though the ſeaſon was unfavorable on <lb/>account of the exceſſive heat of the
+          wea- <lb/>ther. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">These</hi> Gentlemen were preſent at the <lb/>operation, <hi
+            rend="italic">July</hi> the 11th; the tumor re- <lb/>quired to be diſſected off with
+          great cau- <pb n="23"/>
+          <lb/>tion to avoid the blood veſſels lying be- <lb/>neath it; not one was opened of any
+          dan- <lb/>gerous conſequence, nor did the diviſion <lb/>of ſalival duct prove any obſtacle
+          to <lb/>the healing of the wound, by the uſual <lb/>treatment. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">We</hi> examined the tumor after it was <lb/>extirpated; the glandular
+          ſubſtance of it <lb/>was in a ſcirrhous ſtate, and in the ſu- <lb/>perior part,
+          immediately under the ſkin, <lb/>which was of a duſky red color, and rea- <lb/>dy to
+          burſt, we found about a quarter of <lb/>a pint of a blackiſh, oily fluid, where we
+          <lb/>had obſerved a fluctuation before the ope- <lb/>ration. </p>
+        <p rend="indent space size(0.75)">
+          <lb/>It may not be amiſs to obſerve, that when we may <lb/>reaſonably ſuppoſe we have
+          effectually ſtopped the hæ- <lb/>morrhage, by ligatures, or otherwiſe, after any ope-
+          <lb/>ration, wherein many conſiderable blood-veſſels muſt <lb/>unavoidably be divided, it
+          will even then be prudent <lb/>to wait a little while (and until the pulſe riſes, if the
+          <lb/>patient happens to be faint) before we finiſh the dreſ- <lb/>ſing of the wound, leſt
+          any retracted veſſel, which may <lb/>have eſcaped our notice, ſhould bleed ſoon after:
+          this <lb/>accident has often happened through that inattention, <lb/>when it will occaſion
+          the more trouble, beſides alarm- <lb/>ing the patient and by-ſtanders to our prejudice.
+        </p>
+      </div>
+      <pb n="24"/>
+      <div type="section">
+        <head rend="size(1.25) hanging space">
+          <lb/>A violent extenſion and contuſion <lb/>upon the muſcles of the neck, <lb/>attended
+          with uncommon conſe- <lb/>quences. </head>
+        <dateline rend="indent space">
+          <lb/><hi rend="italic">May</hi> the 3d, 1755. </dateline>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">T</hi>HE daughter of <hi rend="italic">H. L.</hi> of <hi
+            rend="italic">S.</hi> was <lb/>thrown backwards off an horſe, and <lb/>received an
+          extenſion and contuſion upon <lb/>the muſcles ſerving to draw the head back- <lb/>wards.
+          When ſhe was brought to me, <lb/>her chin was fallen upon her breaſt, and <lb/>from the
+          friction, by an involuntary and <lb/>conſtant vibrating motion, the ſkin was <lb/>fretted
+          off both theſe parts, which, with <lb/>the pain ſhe ſuffered upon the poſterior <lb/>part
+          of her neck, made her life very un- <lb/>comfortable. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">Various</hi> applications and bandages <lb/>were tried for two years to
+          no purpoſe. <lb/>I gave directions for making the machine, <lb/>in plate 2, fig. 2. by the
+          uſe of which alone <lb/>the relaxed parts recovered their tone, and <pb n="25"/>
+          <lb/>ſhe was perfectly cured in ſix months. By <lb/>the ſame means, I have ſince cured a
+          ſimilar <lb/>caſe of a year's ſtanding. </p>
+        <p rend="indent space size(0.75)">
+          <lb/>A machine of this kind, with a branch to paſs up on <lb/>each ſide of the head, may
+          be uſeful to keep the head <lb/>and neck in their natural direction, after the operation
+          <lb/>for the wry-neck, and perhaps anſwer the end better <lb/>than the common bandage uſed
+          upon that occaſion; <lb/>but I cannot recommend it with certainty, having never <lb/>had
+          an opportunity of experiencing it in that caſe: how <lb/>far it might contribute to the
+          cure of that diſorder, or <lb/>give relief without the operation, may be worth conſi-
+          <lb/>dering and trying. </p>
+        <pb n="26"/>
+        <figure>
+          <head rend="sc size(1.5) align-center space">
+            <lb/>Plate II. </head>
+          <table rows="5" cols="2">
+            <row rend="space">
+              <cell rend="align-right italic">a. a. </cell>
+              <cell rend="hanging">The fixed points to reſt upon the top <lb/>of the ſhoulders.
+              </cell>
+            </row>
+            <row rend="space">
+              <cell rend="align-right italic">b. </cell>
+              <cell rend="hanging">The branch to paſs up the ſide of <lb/>the head, and bear gently
+                againſt <lb/>it to keep it ſteady. </cell>
+            </row>
+            <row rend="space">
+              <cell rend="align-right italic">c. </cell>
+              <cell rend="hanging">The branch to come forwards for the <lb/>chin to reſt upon,
+                having a ſoft <lb/>concave pad annexed to it, move- <lb/>able with a ſcrew to raiſe
+                the head <lb/>gradually. </cell>
+            </row>
+            <row rend="space">
+              <cell rend="align-right italic">d. </cell>
+              <cell rend="hanging">The bow to be placed behind the neck. </cell>
+            </row>
+            <row rend="space">
+              <cell rend="align-right italic">e. e. </cell>
+              <cell rend="hanging">The ſtraps of leater to paſs from the <lb/>ſhoulders, and hang
+                unto the pins <lb/><hi rend="italic">f. f.</hi>
+              </cell>
+            </row>
+          </table>
+          <figDesc>An illustration of ??? on a separate page — missing from the source text.
+          </figDesc>
+        </figure>
+      </div>
+      <pb n="27"/>
+      <div type="section">
+        <head rend="size(1.25) hanging space">
+          <lb/>A great number of large ſtrumous <lb/>glands ſituated in the <hi rend="italic"
+            >Axilla</hi>, and <lb/> underneath the <hi rend="italic">Pectoral Muſcle</hi>,
+          <lb/>ſucceſsfully extirpated; and an <lb/> Ophthalmy cured. </head>
+        <dateline rend="indent space">
+          <lb/><hi rend="italic">Nov.</hi> the 8th, 1750. </dateline>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">T</hi>HE Wife of <hi rend="italic">H. L.</hi> of <hi rend="italic"
+            >T.</hi> twenty five <lb/>years of age, firſt perceived a ſmall, <lb/>indolent, moveable
+          tumor in the right <hi rend="italic">Ax- <lb/>illa</hi>, between five and ſix years ago,
+          which <lb/>grew gradually in two years to the ſize of <lb/>a turky's egg; another appeared
+          then, im- <lb/>mediately beneath the clavicle, and in ſix <lb/>months acquired the bigneſs
+          of a large <lb/>walnut: theſe tumors increaſed by little <lb/>and little, and more glands
+          became ob- <lb/>ſtructed and ſwelled. About five months <lb/>ago inflammations ſeized both
+          her eyes, <lb/>ſoon depriving her of the ſight of one of <lb/>them, and with the other ſhe
+          was ſcarce <lb/>able to guide herſelf. </p>
+        <pb n="28"/>
+        <p rend="indent space">
+          <lb/><hi rend="sc">Her</hi> parents were healthy, and before <lb/>the appearance of the
+          tumor in the <hi rend="italic">Axilla</hi>
+          <lb/>ſhe had a good ſtate of health, but after <lb/>that was grievouſly afflicted with
+          pain in <lb/>her ſtomach, and heat in her bowels, ac- <lb/>companied with an obſtinate
+          coſtiveneſs; <lb/>for which ſhe found but little relief, by a <lb/>great variety of
+          medicines preſcribed by a <lb/>very judicious practitioner. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">In</hi> this moſt deplorable condition ſhe <lb/>fell under my care,
+          with the whole <hi rend="italic">Axilla</hi>
+          <lb/>full of diſtempered glands, beginning to <lb/>have a cancerous appearance; and a
+          chain <lb/>of them was continued from thence near <lb/>the clavicle quite to the neck,
+          daily in- <lb/>creaſing. After deliberately conſidering <lb/>the caſe, I thought nothing
+          could be done <lb/>to any purpoſe, unleſs the diſeaſed glands <lb/>could be entirely
+          extirpated: we had a con- <lb/>ſultation immediately, conſiſting of a phy- <lb/>ſician and
+          four ſurgeons of eminence, who <lb/>readily concurred in my opinion; but we <lb/>were all
+          of us apprehenſive, that if theſe <lb/>glands were removed, even then, it was <lb/>very
+          doubtful what would be the event of <lb/>the operation; for, if the diſeaſe happened <pb
+            n="29"/>
+          <lb/>to be ſtopped here, the ſame cauſe ſtill ex- <lb/>iſting, probably would produce the
+          ſame <lb/>effect, and attack ſome other part inter- <lb/>nal or external, and fruſtrate
+          our endea- <lb/>vours. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">These</hi> indeed were very diſcouraging <lb/>circumſtances, but the
+          patient after hear- <lb/>ing all that paſſed in our conſultation, as <lb/>we thought it
+          right ſhe ſhould in ſuch an <lb/>hazardous caſe, in order to chuſe for her- <lb/>ſelf;
+          ſaid, with great courage and reſolu- <lb/>tion, ſhe would ſubmit to the operation,
+          <lb/>deſiring to have it done whenever it ſhould <lb/>be thought proper. </p>
+        <p rend="indent space">
+          <lb/><hi rend="italic">NOVEMBER</hi> the 16th, I performed <lb/>the operation in the
+          preſence of thoſe gen- <lb/>tlemen, beginning in the <hi rend="italic">Axilla</hi>, whence
+          I <lb/>diſſected all the glands, opening but one <lb/>blood veſſel of any conſequence,
+          which I <lb/>eaſily commanded with the needle and li- <lb/>gature, though it lay deep in
+          the <hi rend="italic">Axilla</hi>: <lb/>I filled the wound then with dry lint, and
+          <lb/>got one of my aſſiſtants to ſupport a com- <lb/>preſs upon it with his hand. We now
+          <lb/>found it expedient to refreſh our patient <lb/>with a little wine, and allow her a
+          ſhort re- <pb n="30"/>
+          <lb/>ſpite; after which, ſhe readily ſubmitting, <lb/>I made an inciſion from the ſuperior
+          part <lb/>of the other glands, in a curved line, to <lb/>the angle of the <hi
+            rend="italic">Axilla</hi>, where I left off, <lb/>intending to meet it at the ſame point
+          with <lb/>another, in order to remove an oval piece <lb/>of the teguments along with the
+          affected <lb/>glands; but inſtead of laying them bare, as <lb/>we expected, only the <hi
+            rend="italic">Pectoral Muſcle</hi> came <lb/>in view, which circumſtance made us he-
+          <lb/>ſitate a moment; having, however, pro- <lb/>ceeded thus far, it was unanimouſly
+          agreed <lb/>to go on: upon this determination, I di- <lb/>vided the muſcle in an oblique
+          direction as <lb/>far as was thought neceſſary, and the glands <lb/>being pretty much
+          diſengaged from the <lb/>ſubjacent parts, were removed without any <lb/>difficulty or
+          effuſion of blood worth re- <lb/>garding. Thus ended, very happily, one <lb/>of the moſt
+          tedious and dangerous opera- <lb/>tions we had any of us ever ſeen. There <lb/>are but few
+          difficulties that occur in ope- <lb/>rations, but what we may be able to ſur- <lb/>mount,
+          if we can preſerve a calmneſs and <lb/>preſence of mind. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">The</hi> number of glands taken out of <lb/>the <hi rend="italic"
+            >Axilla</hi> was nineteen of various ſizes, <pb n=""/>
+          <lb/>ſome were like large potatoes, others no <lb/>larger than filberts; and eight were
+          ſituated <lb/>under the <hi rend="italic">Pectoral Muſcle</hi>, which differed <lb/>alſo
+          in their ſize. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">After</hi> dreſſing with dry lint and di- <lb/>geſtive in the common
+          manner, I applied <lb/>ſoft compreſſes of cloth ſpread thick with <lb/><hi rend="italic"
+            >Unguent. e Florib. Sambuci</hi>, and the roller <lb/>no ſtraiter than juſt to confine
+          the dreſſings. <lb/>After every capital operation we ſhould <lb/>give our utmoſt attention
+          to the applica- <lb/>tion of the compreſſes and bandage, that <lb/>they may ſit, and be
+          left as eaſy as poſſi- <lb/>ble upon the tender parts; as long con- <lb/>tinued pain muſt
+          have deſtructive conſe- <lb/>quences; from which conſiderations, a <lb/>little warm <hi
+            rend="italic">Ol. Olivar. optim.</hi> ſhould now <lb/>and then be poured in, after
+          gently raiſing <lb/>the compreſſes and bandage in convenient <lb/>places. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">The</hi> ſymptoms following the operation <lb/>were very favorable, the
+          wound digeſted <lb/>kindly and was perfectly cicatrized in eight <lb/>weeks. When ſhe was
+          in a condition to <lb/>bear alteratives, I had recourſe to them, <lb/>particularly to
+          ſmall doſes of <hi rend="italic">Merc. dulc.</hi>
+          <pb n="32"/>
+          <lb/>Within about three months ſhe recovered <lb/>the perfect ſight of one eye, and the
+          in- <lb/>flammation did not continue upon the <lb/>other, but the <hi rend="italic"
+            >Cornea</hi> was too much thick- <lb/>ened to tranſmit the viſual rays. After the
+          <lb/>wound was healed, I made her firſt a ſeton <lb/>in her neck, and then ſuper-ſcapulary
+          fon- <lb/>tinels, which ſhe kept open about two <lb/>years. For a long time after the
+          wound <lb/>was perfectly cicatrized, ſhe drank ſea- <lb/>water, and took <hi rend="italic"
+            >Æthiop. min.</hi> and <hi rend="italic">Antimon. <lb/>crud.</hi>
+        </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">Her</hi> happy deliverance from this im- <lb/>pending danger, and the
+          enjoyment of <lb/>good health ever ſince, have amply reward- <lb/>ed her uncommon
+          fortitude; and me for <lb/>my care of her, ſhe being an object of <lb/>charity, and
+          ſupported, during the cure, <lb/>by a gentleman whoſe great delight is in <lb/>doing good.
+        </p>
+      </div>
+      <pb n="33"/>
+      <div type="section">
+        <head rend="size(1.25) align-center space">
+          <lb/>A cancerous breaſt, of an enormous <lb/>ſize, extirpated. </head>
+        <dateline rend="indent space">
+          <lb/><hi rend="italic">Sept.</hi> the 11th, 1755. </dateline>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">I</hi>N a conſultation held on the caſe of <lb/>Mrs. <hi
+            rend="italic">D.</hi> of <hi rend="italic">P.</hi> a remarkably corpu- <lb/>ent woman,
+          yet very active and tempe- <lb/>rate, it was unanimouſly agreed, that ſhe <lb/>had no
+          other chance for relief but by loſing <lb/>her breaſt, which was about a yard in
+          <lb/>circumference, not yet fixed, but threat- <lb/>ening immediate ulceration. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">Under</hi> theſe diſcouraging circum- <lb/>ſtances we could not urge
+          the opera- <lb/>tion, but the week following, at her own <lb/>deſire, I performed it, Mr.
+            <hi rend="italic">Layman</hi> an <lb/>eminent ſurgeon, and the ſurgeon whoſe
+          <lb/>patient ſhe had long been, aſſiſting me: <lb/>the operation did not prove tedious
+          con- <lb/>ſidering the magnitude of the breaſt, nor <lb/>did any thing material occur in
+          it. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">The</hi> ſkin of the whole breaſt was af- <lb/>fected to ſuch a degree,
+          that we durſt not <pb n="34"/>
+          <lb/>attempt to preſerve ſo much of it as we <lb/>would willingly have done; and the <hi
+            rend="italic">Mem- <lb/>brana adipoſa</hi> was near five inches thick <lb/>towards the
+            <hi rend="italic">Axilla</hi>. The wound healed <lb/>very kindly, it was perfectly
+          cicatrized in <lb/>a little more than three months, by the <lb/>great care of the ſurgeon
+          whoſe patient <lb/>ſhe had been before; ſhe had as good <lb/>health as uſual for about a
+          year after. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">We</hi> examined the principal diſtempered <lb/>gland, ſuſpended in a
+          bloody fluid, which <lb/>appeared of a lymphatic nature, by in- <lb/>ſpiſſating with a
+          moderate degree of heat; <lb/>the <hi rend="italic">Cyſt</hi> which contained the fluid,
+          was <lb/>formed of the <hi rend="italic">Capſula</hi> of the gland, the <lb/>gland itſelf
+          remaining in a ſcirrhous ſtate, <lb/>out of which an excreſcence was grown,
+          <lb/>reſembling the head of a collyflower, as <lb/>repreſented in plate 3. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">Upon</hi> cutting into the body of the <lb/>gland, which was like the
+          gizzard of a <lb/>turkey, we obſerved ſome veſſels varicous, <lb/>others ruptured, and
+          many <hi rend="italic">Coagulums</hi> of <lb/>blood, ſuch, I ſuppoſe, as the Ancients
+          <lb/>called <hi rend="italic">Atra Bilis</hi>, and looked upon to be <lb/>the efficient
+          cauſe of <hi rend="italic">Cancers</hi>. </p>
+        <pb n="35"/>
+        <p rend="indent">
+          <lb/><hi rend="italic">DECEMBER</hi> the 28th, 1756, I was <lb/>again deſired to meet her
+          ſurgeon, on ac- <lb/>count of an indolent tumor, extending <lb/>uniformly over the whole
+            <hi rend="italic">Scapula</hi> on the <lb/>other ſide, and meaſuring three feet and
+          <lb/>eight inches in circumference, without <lb/>the breaſt or glands in the <hi
+            rend="italic">Axilla</hi> being the <lb/>leaſt affected, yet I looked upon it to be
+          <lb/>an appearance of the old leaven, there- <lb/>fore I adviſed no application, only to
+          have <lb/>it well ſupported, and that all poſſible <lb/>care ſhould be taken to prevent
+          its break- <lb/>ing. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">She</hi> died <hi rend="italic">April</hi> the 2d, 1757. Before
+          <lb/>her death the tumor was much increaſed; <lb/>ſhe lived but a ſhort time after it
+          broke, <lb/>and that in the utmoſt miſery, without any <lb/>eaſe but what was procured by
+          opiates: <lb/>the diſcharge was immenſely great, and the <lb/>matter not only exceſſively
+          offenſive in ſmell, <lb/>but the <hi rend="italic">Effluvia</hi> proceeding from it were
+          ſo <lb/>virulent, as to affect thoſe who conſtantly <lb/>attended her. One of the perſons
+          who <lb/>bore her to the grave told me, that the <lb/>ſtench made him very ſick, and that
+          he <lb/>was immediately ſeized with a flux, which <lb/>ſoon relieved him. </p>
+        <pb n="36"/>
+        <p rend="indent">
+          <lb/><hi rend="sc">The</hi> cicatrice where the breaſt was ex- <lb/>tirpated, continued
+          perfectly ſmooth and <lb/>well to her death, without the leaſt ap- <lb/>pearance of the
+          diſeaſe upon the circum- <lb/>jacent parts. </p>
+        <p rend="indent space size(0.75)">
+          <lb/>Many years ago Mr. <hi rend="italic">Layman</hi> and I were preſent when <lb/>Mr. <hi
+            rend="italic">Amyas</hi>, late of <hi rend="italic">Norwich</hi>, extirpated a cancerous
+          <lb/>breaſt, in which we found a conſiderable quantity of <lb/>gravel, and many ſmall
+          ſtones, in the center of the <lb/>glands. </p>
+        <pb n="38"/>
+        <figure>
+          <head rend="sc size(1.5) align-center space">
+            <lb/>Plate III. </head>
+          <table rows="5" cols="2">
+            <head rend="align-center space">
+              <lb/>The repreſentation of a cancerous gland. </head>
+            <row rend="space">
+              <cell rend="align-right italic">a. a. a. a. </cell>
+              <cell rend="hanging">The common teguments. </cell>
+            </row>
+            <row rend="space">
+              <cell rend="align-right italic">b. b. b. b. </cell>
+              <cell rend="hanging">The capſula of the gland which <lb/>formed the cyſt containing
+                the <lb/>bloody fluid. </cell>
+            </row>
+            <row rend="space">
+              <cell rend="align-right italic">c. c. c. </cell>
+              <cell rend="hanging">The colly-flower-like excreſcence, <lb/>which ſprouted from the
+                body <lb/>of the gland. </cell>
+            </row>
+            <row rend="space">
+              <cell rend="align-right italic">d. </cell>
+              <cell rend="hanging"> The <hi rend="italic">Fimbria</hi> which laid looſe <lb/>upon
+                the gland, but was at- <lb/>tached to the excreſcence. </cell>
+            </row>
+            <row rend="space">
+              <cell rend="align-right italic">e. </cell>
+              <cell rend="hanging">The inciſion into the body of the <lb/>gland, which diſcovered
+                the <lb/>varicous and ruptured veſſels, <lb/>and the coagulums of blood. </cell>
+            </row>
+          </table>
+          <figDesc>An illustration of ??? on a separate page (probably should be in the place of
+            page 37) — missing from the source text. </figDesc>
+        </figure>
+      </div>
+      <pb n="39"/>
+      <div type="section">
+        <head rend="size(1.25) hanging space">
+          <lb/>A cancerous diſeaſe which aroſe from <lb/>drinking ſome liquor impregnated <lb/>with
+          the matter that iſſued from <lb/>an ulcerated cancer. </head>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">I</hi>N the year 1752, I was deſired to viſit <lb/>a perſon of great
+          virtue and veracity <lb/>in <hi rend="italic">Norwich</hi>, near ſixty years of age, who
+          <lb/>had a cancerous tumor upon her breaſt, <lb/>and the glands in the <hi rend="italic"
+            >Axilla</hi> much af- <lb/>fected, cauſing a large œdematous ſwel- <lb/>ling of the
+          whole arm, quite through to <lb/>the ends of her fingers. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">The</hi> account ſhe gave me of her very <lb/>ſingular caſe, confirmed
+          by her relations, <lb/>was this: that her parents were healthy, <lb/>and that when ſhe was
+          a child about three <lb/>years old, ſhe went with her mother to vi- <lb/>ſit a friend, who
+          had an ulcerated cancer <lb/>upon her breaſt, which had juſt been <lb/>dreſſed, and ſome
+          of the liquor with which <lb/>it had been waſhed, ſtanding in a tea-cup <lb/>upon the
+          table, ſhe drank a little of it: an <lb/>eating ulcer ſeized her tongue and one ſide <pb
+            n="40"/>
+          <lb/>of her mouth about a fortnight after, mak- <lb/>ing diſmal ravage of the cheek, as
+          well <lb/>on the outſide as the inſide: ſhe was put <lb/>under the care of a ſurgeon of
+          great cha- <lb/>racter in <hi rend="italic">London</hi> who found much diffi- <lb/>culty
+          in ſtopping the progreſs of the diſ- <lb/>eaſe here. More than twenty years after
+          <lb/>that, the leaven ſhewed itſelf upon her <lb/>thigh, where ſhe had received a
+          contuſion <lb/>ſome years before, and an abſceſs was <lb/>formed near the bone, towards
+          the articu- <lb/>lation of the hip, which was alſo cured <lb/>with the utmoſt difficulty,
+          by a very able <lb/>ſurgeon at <hi rend="italic">Norwich</hi>. She had a tolerable
+          <lb/>good ſtate of health after this, for about <lb/>fifteen years, and then diſcovered a
+          ſmall <lb/>ſcirrhous knot in her breaſt, remaining in- <lb/>dolent and moveable,
+          increaſing but ſlow- <lb/>ly, untill the time of the ceſſation of the <lb/>menſtrual
+          diſcharge; it began then to in- <lb/>creaſe very conſiderably, and in a few years
+          <lb/>occupied the whole breaſt, with all the <lb/>glands in the <hi rend="italic"
+            >Axilla</hi> at laſt, but it rernained <lb/>occult to her death; a few months before
+          <lb/>which, her arm became affected as already <lb/>deſcribed. </p>
+      </div>
+      <pb n="41"/>
+      <div type="section">
+        <head rend="size(1.25) align-center space">
+          <lb/>An abſceſs in the <hi rend="italic">Pleura</hi> opened and <lb/>cured. </head>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">M</hi>R. <hi rend="italic">R. N.</hi> of <hi rend="italic">M.</hi>
+          aged about forty <lb/>five, who had by intemperance in- <lb/>jured a good conſtitution,
+          was ſeized in <lb/>the beginning of <hi rend="italic">September</hi> 1755 with a
+          <lb/>pleuriſy, for which he was blooded and <lb/>treated as regularly, as an untractable
+          pa- <lb/>tient would admit of, but all to little pur- <lb/>poſe. Reſpiration became
+          extremely diffi- <lb/>cult, attended with a violent cough and <lb/>continual fever; he
+          grew daily worſe in all <lb/>reſpects, and his life appeared to be in the <lb/>moſt
+          imminent danger; yet, not being <lb/>apprehenſive of the danger he was in, <lb/>when urged
+          by his friends to do what was <lb/>proper, he rejected their perſuaſions, and <lb/>ſhewed
+          an invincible obſtinacy; but, at <lb/>length, his breathing becoming ſo difficult <lb/>as
+          to threaten immediate ſuffocation, I was <lb/>called to him in great haſte, <hi
+            rend="italic">October</hi> the <lb/>25th. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">Besides</hi> theſe ſymptoms, I found him <lb/>greatly emaciated. After
+          ſtrict inquiry, <pb n="42"/>
+          <lb/>and obtaining all the information I could <lb/>from him, and thoſe who attended him,
+          <lb/>I carefully examined the affected ſide, when, <lb/>comparing it with the other, it
+          appeared to <lb/>me rather thicker, eſpecially where he <lb/>complained of a fixed pain,
+          which was <lb/>between the fifth and ſixth rib, about the <lb/>middle from the <hi
+            rend="italic">Sternum</hi> to the <hi rend="italic">Spine</hi>, upon <lb/>which part I
+          underſtood he had formerly <lb/>received a blow, though he had no com- <lb/>plaint in
+          conſequence of it, worth taking <lb/>notice of, until he was attacked with this
+          <lb/>diſeaſe. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">After</hi> having conſidered all theſe cir- <lb/>cumſtances, I was
+          inclined to think an ab- <lb/>ſceſs was formed in the <hi rend="italic">Pleura</hi>, and
+          that <lb/>the matter would make its way into the <lb/>cavity of the <hi rend="italic"
+            >Thorax</hi>, if it had not alrea- <lb/>dy done ſo, which determined me to pro-
+          <lb/>poſe the operation directed in the <hi rend="italic">Empyema</hi>, <lb/>as the only
+          means of relieving him; he <lb/>was very much averſe to it, but by rea- <lb/>ſoning with
+          him, and ſhewing the impro- <lb/>bability there was of affording him relief <lb/>in any
+          other manner, joined to the earneſt <lb/>entreaty of his relations and friends, he
+          <lb/>did at laſt comply with what I propoſed. </p>
+        <pb n="43"/>
+        <p rend="indent">
+          <lb/><hi rend="sc">Without</hi> any farther delay, I then <lb/>performed the operation,
+          directly upon <lb/>the part where he complained of pain, and <lb/>diſcharged a large
+          quantity of fetid matter. <lb/>The next day, in order to keep the aper- <lb/>ture open,
+          and allow a free Exit to the <lb/>matter in the intervals of dreſſing, I intro- <lb/>duced
+          a flat hollow tent dipped into <hi rend="italic">Bel- <lb/>loſte's compound Samaritan
+            Balſam</hi>, and ap- <lb/>plied over it a piece of common plaſter, <lb/>with a hole
+          correſponding to the mouth <lb/>of the tent, and ſoft compreſſes, a laced <lb/>flannel
+          bandage and ſcapulary: the tent <lb/>was made of a leaden <hi rend="italic">Canula</hi>
+          covered with <lb/>a piece of plaſter, with ears of a ſufficient <lb/>length and breadth to
+          reſt ſteadily upon <lb/>the rib above and below, and confined to <lb/>the part with ſnips
+          of plaſter: this me- <lb/>thod of dreſſing I have often found an- <lb/>ſwers the purpoſe
+          perfectly well in ſuch <lb/>caſes. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">Upon</hi> the evacuation of the matter he <lb/>was immediately
+          relieved; the pain and <lb/>cough ceaſed, he breathed freely in every <lb/>poſition, in a
+          ſhort time the fever left him, <lb/>ind he recovered a good appetite. </p>
+        <pb n="44"/>
+        <p rend="indent">
+          <lb/><hi rend="sc">The</hi> diſcharge was very large for about <lb/>ten days, then became
+          moderate; when <lb/>the matter was grown well-conditioned, <lb/>and the quantity of it
+          much leſſened, I <lb/>left out the tent, and carefully touched <lb/>the circumference of
+          the wound with the <lb/><hi rend="italic">Cauſt. commun. fort.</hi> dreſſing for the
+          future <lb/>ſuperficially. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">In</hi> about ſix weeks the wound was per- <lb/>fectly healed, and he
+          recovered a good ſtate <lb/>of health ſoon after. Aſs's milk, Balſa- <lb/>mics, <hi
+            rend="italic">&amp;c.</hi> were preſcribed during the cure. </p>
+        <p rend="indent space size(0.75)">
+          <lb/>When we have reaſon to ſuſpect that an abſceſs may <lb/>be forming in the <hi
+            rend="italic">Pleura</hi>, we cannot be too watchful, <lb/>as it is of the utmoſt
+          conſequence to diſcover and open <lb/>it before it burſts and diſcharges the matter into
+          the <lb/>cavity of the <hi rend="italic">Thorax</hi>. What <hi rend="italic">Mr. Sharp in
+            his Critical <lb/>Inquiry</hi> , and <hi rend="italic">Monſr. Le Dran in his Operations
+            and Ob- <lb/>ſervations in Surgery</hi>, have wrote upon this ſubject, <lb/>with the
+          different kinds of <hi rend="italic">Empyema</hi> and Abſceſſes in <lb/>the <hi
+            rend="italic">Thorax</hi> deſerve to be read with the greateſt atten- <lb/>tion. <hi
+            rend="italic">Bonetus</hi> in his <hi rend="italic">Anatomia practica</hi> has alſo a
+          col- <lb/>lection of caſes to the ſame purpoſe well worth reading. </p>
+      </div>
+      <pb n="45"/>
+      <div type="section">
+        <head rend="size(1.25) hanging space">
+          <lb/>An incyſted tumor ſituated between <lb/>the muſcles of the <hi rend="italic"
+            >Abdomen</hi> and <lb/>the <hi rend="italic">Peritonæum</hi>. </head>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">M</hi>R. <hi rend="italic">C. M.</hi> of <hi rend="italic">S.</hi> a
+          man of more than <lb/>ordinary vigor, aged about thirty <lb/>five, received ſome blows
+          upon the <hi rend="italic">Abdo- <lb/>men</hi>, in a boxing match, which were not
+          <lb/>attended ſeemingly with any bad conſe- <lb/>quences farther than ſlight tranſient
+          pains, <lb/>during the ſpace of four or five years; af- <lb/>ter this period, however, a
+          circumſcribed <lb/>tumor appeared three or four inches round <lb/>the navel, accompanied
+          with a conſtant <lb/>obtuſe pain: in this ſtate it remained ſe- <lb/>veral years, making
+          but a very ſlow pro- <lb/>greſs, and thoſe whoſe advice he took were <lb/>very dubious of
+          its nature. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">About</hi> ten years were elapſed when <lb/>he came to aſk my opinion,
+            <hi rend="italic">October</hi> the <lb/>12th, 1741. After well conſidering the
+          <lb/>detail he gave me of his caſe from the <lb/>beginning, and ſtrictly examining the
+          <lb/>tumor, which was increaſed in the laſt ſix <pb n="46"/>
+          <lb/>months to a great ſize, extending moſt <lb/>towards the <hi rend="italic"
+          >Inguen</hi>, I was inclined to think <lb/>it of the incyſted and lymphatic kind. His
+          <lb/>health had been greatly impaired; the tu- <lb/>mor was prominent and much inflamed
+          <lb/>at the navel, the matter ſeemed to have <lb/>made its way through the <hi
+            rend="italic">Cyſt</hi>, and was juſt <lb/>ready to break through the ſkin. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">I attended</hi> him as ſoon as he re- <lb/>turned home, and upon
+          attempting to riſe <lb/>from his ſeat when I entered the room, <lb/>the ſkin broke and
+          diſcharged a large quan- <lb/>tity of a brown lymphatic fluid. As the <lb/>matter had made
+          its own way out, he <lb/>would not ſuffer me to make an opening <lb/>at the bottom, either
+          by inciſion on cauſ- <lb/>tic, as I propoſed and urged, nor yet to <lb/>remove the thin
+          teguments at the navel by <lb/>knife or ſciſſars, to procure a freer <hi rend="italic"
+            >Exit</hi>
+          <lb/>to the matter; but through much perſua- <lb/>ſion he did allow me to touch thoſe
+          parts, <lb/>with a piece of <hi rend="italic">Cauſt. commun. fort.</hi> I <lb/>found the
+          aperture plugg'd up the next <lb/>day with a ſtiff gelatinous ſubſtance, which <lb/>I
+          extracted; and, after puſhing back the <lb/><hi rend="italic">Cyſt</hi>, at leaſt three
+          pints of the ſame kind <lb/>of fluid iſſued out: the dreſſing was after <pb n="47"/>
+          <lb/>the uſual manner, and when the <hi rend="italic">Eſchar</hi>. <lb/>fell off, I
+          touched the parts again with the <lb/><hi rend="italic">Cauſtic</hi>, as much as an
+          ungovernable pa- <lb/>tient would permit, aiming to open, by <lb/>this means, an ample
+          paſſage for the <hi rend="italic">Cyſt</hi>. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">Thus</hi> I proceeded, and on <hi rend="italic">November</hi>
+          <lb/>the 3d, when I took off the dreſſings, I <lb/>found the <hi rend="italic">Cyſt</hi>,
+          like an inflated inteſtine, <lb/>ſtrangled in the opening, ſtill too narrow <lb/>to admit
+          of an eaſy extraction, yet he <lb/>would not give me leave to enlarge it by <lb/>inciſion,
+          but, with great care and trouble, <lb/>I extracted it whole, which was very pu- <lb/>trid,
+          and had an exceſſively offenſive, ca- <lb/>daverous ſmell: a few days after I extrac-
+          <lb/>ted another intire <hi rend="italic">Cyſt</hi> of a ſmaller ſize. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">There</hi> was now an immoderate diſ- <lb/>charge of a fetid matter,
+          highly acrimo- <lb/>nious and excoriating, which turned ſilver <lb/>in a minute's time
+          like copper; the patient <lb/>had a cough, was hectical, and daily loſt <lb/>fleſh and
+          ſtrength, yet, as the <hi rend="italic">Cyſts</hi> were <lb/>come away, he thought he
+          ſhould ſoon be <lb/>cured, and all the arguments I could uſe <lb/>were not prevalent
+          enough to convince him <lb/>how much ſtill depended upon making an <pb n="48"/>
+          <lb/>opening at the bottom of the <hi rend="italic">Sinus</hi>, which <lb/>was very
+          capacious. Under theſe circum- <lb/>ſtances I was greatly embarraſſed, and <lb/>dreading
+          the worſt conſequences would at- <lb/>tend the conſtant abſorption of putrid <lb/>matter
+          into the blood, I inſiſted upon a <lb/>conſultation, in hopes that the reſult of it
+          <lb/>would influence him to ſubmit to what <lb/>appeared to me abſolutely neceſſary to be
+          <lb/>ſpeedily done. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">A very</hi> eminent Phyſician and Sur- <lb/>geon were conſulted: after
+          examining the <lb/>part and conſidering the condition the pa- <lb/>tient was in, they both
+          peremptorily told <lb/>him, he muſt ſubmit to a depending open- <lb/>ing being made, as I
+          had propoſed, if he <lb/>would give himſelf a chance for his life. <lb/>The thickneſs of
+          the parts, I believe, was <lb/>about two inches, through which an open- <lb/>ing was
+          agreed upon to be made by a <hi rend="italic">Cauſ- <lb/>tic</hi>: I foreſaw the
+          difficulty that would at- <lb/>tend effecting it by the common manner <lb/>of applying the
+            <hi rend="italic">Cauſtic</hi>, therefore after <lb/>moiſtening the ſkin with a few
+          drops of <lb/>warm water, I began by rubbing it gent- <lb/>ly with a piece of pipe-form
+            <hi rend="italic">Cauſt. commun. <lb/>fort.</hi> having thus mortified the ſkin and <pb
+            n=""/>
+          <lb/><hi rend="italic">Membrana adipoſa</hi>, I divided the <hi rend="italic">Eſchar</hi>
+          with <lb/>a lancet immediately, laying the muſcle in <lb/>view, and thruſting the point of
+          the lan- <lb/>cet a little way into it; I then took a <lb/>pointed piece of the <hi
+            rend="italic">Cauſtic</hi> and by turn- <lb/>ing and puſhing it with a moderate force,
+          <lb/>wrought into the bottom of the <hi rend="italic">Sinus</hi> as <lb/>the probe
+          directed me, in leſs than half <lb/>an hour; through this opening I drew a <lb/>ſeton
+          dipped into <hi rend="italic">Belloſte's compound Sama- <lb/>ritan Balſam</hi>, and ſoon
+          gained a free diſ- <lb/>charge of the matter at this depending <lb/>part, immediately
+          above the ring of the <lb/>muſcles on the right ſide. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">Within</hi> a week or ten days there <lb/>was a viſible amendment in
+          his health, <lb/>and the matter grew better conditioned. <lb/>When the <hi rend="italic"
+            >Eſchar</hi> was digeſted off I diſ- <lb/>continued the ſeton, introduced a leaden
+            <lb/><hi rend="italic">Canula</hi>, through which the matter paſſed <lb/>uninterrupted,
+          and ordered a flannel body- <lb/>piece ſhould be laced on, with an eaſy <lb/>compreſs
+          ſtitched to it, to reſt upon the <lb/>ſuperior part of the <hi rend="italic">Sinus</hi>.
+          When the <lb/>matter appeared well conditioned, and in <lb/>a ſmall quantity, I left out
+          the <hi rend="italic">Canula</hi> and <pb n="50"/>
+          <lb/>dreſſed ſuperficially, only with dry lint and <lb/>a common plaſter. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">By</hi> this treatment, with a few medi- <lb/>cines, and drinking aſs's
+          milk, he was per- <lb/>fectly cured in about four months. He <lb/>lived many years after,
+          and often told me <lb/>that he enjoyed as good health as in the <lb/>former part of his
+          life, without finding <lb/>any conſiderable diminution of his ſtrength; <lb/>but died at
+          laſt in conſequence of a mad <lb/>frolick. </p>
+        <p rend="indent space size(0.75)">
+          <lb/>From what I have obſerved, in a variety of inſtances, <lb/>I have reaſon to believe
+          the application of the <hi rend="italic">Cauſt. <lb/>commun. fort.</hi> in this manner,
+          will be found moſt eli- <lb/>gible, as it acts much quicker, and the <hi rend="italic"
+            >Eſchar</hi> can be <lb/>made of the very dimenſions we chuſe. </p>
+      </div>
+      <pb n="51"/>
+      <div type="section">
+        <head rend="size(1.25) align-center space">
+          <lb/>A <hi rend="italic">Prolapſus Ani</hi>, &amp;c. </head>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">I</hi>N the year I749, I was conſulted in <lb/>this caſe by a
+          gentleman's wife, in <lb/>whom the parts which ſuſpend the <hi rend="italic">Anus</hi>
+          <lb/>had been ſo relaxed for a long time, that <lb/>ſhe was not able to walk acroſs the
+          room <lb/>without its prolapſing: I thought of the <lb/>machine repreſented in pl. 4.
+          which im- <lb/>mediately anſwered the intention ſo well, <lb/>as to enable her to follow
+          her family af- <lb/>fairs; it was not long before ſhe could <lb/>walk ſome miles, and ride
+          on horſeback <lb/>with it, without any conſiderable incon- <lb/>venience. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">She</hi> had been grievouſly afflicted with <lb/>the bleeding piles
+          almoſt all her life, at <lb/>length, from one of them, which was ve- <lb/>ry large, an
+          hæmorrhage enſued, and <lb/>brought her into imminent danger: upon <lb/>this occaſion I
+          was conſulted in 1751, and <lb/>was of opinion with her Phyſician and <lb/>Surgeon, that
+          nothing could be done with <lb/>a proſpect of relief, without taking it off; <pb n="52"/>
+          <lb/>the operation was forthwith performed, <lb/>which in all probability ſaved her life,
+          as <lb/>her ſolids were greatly relaxed, and her <lb/>blood extremely impoveriſhed by the
+          long <lb/>continuance of the bleeding. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">She</hi> was in general very coſtive, and <lb/>whatever medicines were
+          preſcribed to re- <lb/>medy that inconvenience ſoon loſt their <lb/>effect: <hi
+            rend="italic">Sea-water</hi> was at laſt tried, which <lb/>agreed with her; it anſwered
+          the intention <lb/>perfectly well, and does ſo to this day, in <lb/>the ſame ſmall
+          quantity as at firſt. Though <lb/>ſhe has now drank it more than ſeven <lb/>years. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">As</hi> ſoon as ſhe could bear the ma- <lb/>chine or truſs ſhe wore it
+          again, and can- <lb/>not now go without it: ſhe is not the on- <lb/>ly perſon who has
+          found relief by the ſame <lb/>means. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">She</hi> wears the bow upon the upper <lb/>part of her hips, the flat
+          upright part un- <lb/>der her ſtays up the ſpine, and fixes the <lb/>band at the bottom of
+          the <hi rend="italic">Abdomen</hi>: in <lb/>this manner ſhe finds that it keeps well
+          <lb/>fixed upon the part, and that upon any <pb n="53"/>
+          <lb/>occaſion ſhe can eaſily ſlip it aſide, and ad- <lb/>juſt it again, now ſhe is well
+          uſed to the <lb/>management of it. The dimenſions of <lb/>it for her, who is of a common
+          ſize, are <lb/>15 inches long, properly turned, and made <lb/>rounding where it paſſes
+          between the hips; <lb/>the flat part of it, made a little tapering, <lb/>is about two
+          inches broad at the top; the <lb/>pad is of an oval form, about an inch <lb/>broad, well
+          ſtuffed and prominent in the <lb/>middle; the bow is 18 inches long and one <lb/>broad,
+          thin and very elaſtic and ſo curved <lb/>as to ſit eaſy upon the parts; the band is
+          <lb/>20 inches long; the whole is covered with <lb/>ſoft oiled leather, and ſtuffed where
+          neceſ- <lb/>ſary for the patient's eaſe. </p>
+        <p rend="indent space size(0.75)">
+          <lb/>Additions or alterations in this machine may be made <lb/>occaſionally, at the
+          diſcretion of the Surgeon; per- <lb/>haps another bow to paſs over the loins; a ſuſpenſory
+          <lb/>from the ſhoulders; or a ſtrap between the thighs <lb/>coming from the waſte-band and
+          hanging unto a hook <lb/>upon the pad, <hi rend="italic">&amp;c.</hi> may be found
+          neceſſary to fix it <lb/>ſteadily and well in ſome caſes. Great care is required <lb/>in
+          taking the meaſure, that it may be exactly adapted <lb/>to the parts, and have an eaſy and
+          regular bearing every <lb/>where: the beſt way of meaſuring for this, as well as <lb/>for
+          common truſſes, is with a wire, which can be turn- <lb/>ed every way, and will ſtand to
+          the form of the parts. </p>
+      </div>
+      <pb n="54"/>
+      <div type="section">
+        <head rend="size(1.25) align-center space">
+          <lb/>A ſingular caſe of the ſtone. </head>
+        <p rend="space"><hi rend="italic"><hi rend="size(2)">J.</hi>H.</hi> of <hi rend="italic"
+            >P.</hi> aged 48, had been ſubject <lb/>to the ſtone from his infancy; was <lb/>ſearched
+          and ſhould have been cut at eight <lb/>years of age: his conſtitution was natu- <lb/>rally
+          robuſt, but he had much impaired it <lb/>by drinking, and living a very intempe- <lb/>rate
+          life. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">The</hi> operation was performed on <hi rend="italic">June</hi>
+          <lb/>the 8th 1746, by Mr. <hi rend="italic">Harmer</hi>, late of <hi rend="italic">Nor-
+            <lb/>wich</hi>, an experienced <hi rend="italic">Lithotomiſt</hi>, after <hi
+            rend="italic">Ma- <lb/>rianus</hi>'s method. It was found impracti- <lb/>cable to
+          extract the ſtone through a wound <lb/>of the common ſize, which he had made, <lb/>or
+          break it by the force of the <hi rend="italic">Forceps</hi>, <lb/>therefore, at his
+          deſire, I divided the parts <lb/>occaſionally as he gently extracted it. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">There</hi> was no reaſon to expect the <lb/>wound would ever be
+          perfectly healed after <lb/>the extraction of a ſtone of that ſize, but <lb/>he had no
+          ſymptoms that threatened his <lb/>life in conſequence of the operation: he <pb n="55"/>
+          <lb/>lived until <hi rend="italic">April</hi> 1751, walking abroad un- <lb/>til within a
+          few days of his death. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">The</hi> ſtone is repreſented in pl. 5. fig. 1. <lb/>it weighed near
+          fifteen ounces, and, I be- <lb/>lieve, is the largeſt we have upon record, <lb/>taken from
+          a living ſubject. It was of a <lb/>hard texture, and had a ſubſtance like <hi
+            rend="italic">Spar</hi>, <lb/>to a conſiderable thickneſs, upon many <lb/>parts of its
+          ſurface. </p>
+        <p rend="indent space size(0.75)">
+          <lb/>The <hi rend="italic">Gorget</hi>, as improved by Mr. <hi rend="italic">Serjeant
+            Hawkins</hi>, <lb/>obviates an accident which may happen in the opera- <lb/>tion when
+          performed by the moſt ſkilful artiſt, but the <lb/>cutting edge of it, for a very obvious
+          reaſon, I think, <lb/>ſhould not extend above one third of its length; and <lb/>it ſhould
+          have a ſmall ſhoulder that it may enter with <lb/>the greater facility. I have uſed it
+          three times without <lb/>ahy apparent inconvenience either in the operation or <lb/>after
+          it. </p>
+        <p rend="indent size(0.75)">
+          <lb/>The firſt, was in a child of eight years old, who had <lb/>a bad conſtitution, yet
+          the wound was perfectly healed <lb/>in nineteen days. </p>
+        <p rend="indent size(0.75)">
+          <lb/>The ſecond, was in one of eleven, who had a ſoft <lb/>ſtone of three ounces weight,
+          the external <hi rend="italic">Lamina</hi> of <lb/>which cracked in the <hi rend="italic"
+            >Forceps</hi>, in many places, yet it <lb/>was extracted without any of the pieces
+          ſeparating: <lb/>two days after the operation he was ſenſible of an oc- <lb/>caſion to
+          make urine, which he voided through the <lb/><hi rend="italic">Penis</hi> with a pretty,
+          full and ſtrong ſtream; very little <lb/>paſſed through the wound after that time, which
+          was <lb/>ſpeedily healed. </p>
+        <p rend="indent size(0.75)">
+          <lb/>The third, was in a ſubject of between eleven and <lb/>twelve years of age, in which
+          it appeared of very ſig- <lb/>nal ſervice to many able Surgeons preſent at the ope- <pb
+            n="56"/>
+          <lb/>ration. This patient had ſymptoms of the ſtone ſoon <lb/>after he was born; for many
+          years the ſtone had con- <lb/>ſtantly lain at the neck of the bladder, where it had
+          <lb/>cauſed an uncommon thickneſs and hardneſs of the <lb/>parts, as far as we could feel
+          with our fingers intro- <lb/>duced into the <hi rend="italic">Anus</hi>, and produced an
+          ulcer, which <lb/>daily diſcharged much matter through the <hi rend="italic">Penis</hi>:
+          the <lb/><hi rend="italic">Prepuce</hi> was ſo contracted at the end that it would not
+          <lb/>admit the ſmalleſt ſound; the matter, mixed with the <lb/>urine, was continually
+          ſtopping between the <hi rend="italic">Glans Pe- <lb/>nis</hi> and the <hi rend="italic"
+            >Prepuce</hi>, which excoriating and ulcerating <lb/>theſe parts, made circumciſion
+          neceſſary before the ope- <lb/>ration for the ſtone; beſides theſe unfavourable cir-
+          <lb/>cumſtances, he had a <hi rend="italic">Procidentia Ani</hi> to a great degree
+          <lb/>always upon going to ſtool, and often at other times. <lb/>From the condition of the
+          neck of the bladder, and <lb/>the ſtone being long bedded and firmly fixed there, I
+          <lb/>found great difficulty to introduce the <hi rend="italic">Gorget</hi> notwith-
+          <lb/>ſtanding its cutting. The ſtone broke into many frag- <lb/>ments, being ſoft like
+          ſand and clay mixed together, <lb/>ſtill the operation ſucceeded happily and the wound was
+          <lb/>perfectly cured, but with great trouble and difficulty. <lb/>In this caſe <hi
+            rend="italic">Bougies</hi> appeared very uſeſul in keeping the <lb/>natural paſſage
+          open, by introducing them now and <lb/>then, during the cure. </p>
+      </div>
+      <pb n="57"/>
+      <div type="section">
+        <head rend="size(1.25) hanging space">
+          <lb/>A caſe in which ſixteen ſtones were <lb/>extracted out of the <hi rend="italic"
+            >Urethra</hi> and <lb/>Bladder. They are repreſented in <lb/>Plate 5. Fig. 2. </head>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">T</hi>HE perſon from whom theſe ſtones <lb/>were taken was cut at
+          four years of <lb/>age, by Mr. <hi rend="italic">Donne</hi> of <hi rend="italic"
+            >Dearham</hi>, an ex- <lb/>pert <hi rend="italic">Lithotomiſt</hi>, as well as a very
+          able Sur- <lb/>geon; when the wound was almoſt cica- <lb/>trized, the urine not having
+          paſs'd through <lb/>it for near a week, as he was tumbling <lb/>upon the bed, he fell
+          aſtride upon the <lb/>frame of the bedſtead, by which accident <lb/>the wound was broke
+          open, the adjacent <lb/>parts were violently contuſed, and the <lb/>wound could never be
+          perfectly healed af- <lb/>terwards. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">Ten</hi> years after this he was again <lb/>brought under Mr. <hi
+            rend="italic">Donne</hi>'s care, and, <lb/>upon ſtrict examination, he diſcovered an
+          <lb/>hard body in the courſe of the <hi rend="italic">Urethra</hi>
+          <lb/>from the <hi rend="italic">Scrotum</hi> into the Bladder. Theſe <lb/>ſtones were
+          eaſily extracted through a <pb n="58"/>
+          <lb/>wound of two or three inches long; all <lb/>of them were contiguous, and bedded the
+          <lb/>one into the other; that which appears of <lb/>an irregular oval figure at one end
+          was <lb/>loſt in the <hi rend="italic">Scrotum</hi>; the two at the other <lb/>end, which
+          were all that were found in <lb/>the Bladder, much reſembled the ball and <lb/>ſocket of a
+          bone, and at firſt ſight ſeemed <lb/>more of the texture of a bone than a <lb/>ſtone; all
+          the other were like alabaſter in <lb/>color, and of as fine or rather a finer <lb/>poliſh.
+          Various attempts were made to <lb/>cure the wound but all in vain: the pa- <lb/>tient is
+          now a ſtout ſtrong man aged 24, <lb/>and does not want health in any other <lb/>reſpect. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">I had</hi> the above narration, as well as <lb/>the opportunity of
+          examining the patient, <lb/>when I was with Mr. <hi rend="italic">Donne</hi> in <hi
+            rend="italic">November</hi>
+          <lb/>1755, on account of his cutting a young <lb/>gentleman for the ſtone, in whoſe caſe
+          and <lb/>in the operation, there was likewiſe ſome <lb/>remarkable circumſtances. It was
+          ob- <lb/>ſerved that he uſed frequently to be ſeized <lb/>with a ſpaſmodic contraction in
+          his blad- <lb/>der, and that his urine always ran from <lb/>him then involuntarily. As
+          ſoon as the <pb n="59"/>
+          <lb/>inciſion was made into the ſtaff, the ſpaſm <lb/>forced out the urine, before the
+          opera- <lb/>tor could introduce the gorget into the <lb/>bladder, and upon introducing the
+            <hi rend="italic">Forceps</hi>
+          <lb/>he could not find the ſtone; after ſearch- <lb/>ing ſome time he withdrew them, felt
+          <lb/>with his finger and deſired me and ano- <lb/>ther Surgeon to do ſo; we could not feel
+          <lb/>any, but all of us were ſenſible of an un- <lb/>uſual ſtricture, at the extremity of
+          our <lb/>fingers; after a little farther ſearch in the <lb/>common poſture that he was in,
+          we re- <lb/>moved the ligatures, placed him in an up- <lb/>right ſitting poſture, and
+          preſſed ſtrongly <lb/>upon the <hi rend="italic">Abdomen</hi>, which relaxed the ſtric-
+          <lb/>ture and brought the ſtone inſtantly down <lb/>to the neck of the bladder; then it
+          was <lb/>eaſily extracted. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">this</hi> patient was much emaciated and <lb/>hectical, yet the
+          ſymptoms after the opera- <lb/>tion were very favorable, and he ſoon <lb/>recovered a
+          better ſtate of <choice>
+            <corr>health</corr>
+            <sic>heath</sic>
+          </choice>. </p>
+      </div>
+      <pb n="60"/>
+      <div type="section">
+        <head rend="size(1.25) hanging space">
+          <lb/>A caſe of the ſtone in a woman, at- <lb/>tended with ſome uncommon cir-
+          <lb/>cumſtances. </head>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">M</hi>RS. <hi rend="italic">T.</hi> of <hi rend="italic">A.</hi>
+          aged between forty <lb/>and fifty years, after having been <lb/>ſeverely afflicted about
+          ten years, and uſing <lb/>various medicines to no purpoſe, had re- <lb/>courſe to Mrs. <hi
+            rend="italic">Stephens</hi>'s with no better ef- <lb/>fect, though ſhe gave them a fair
+          trial for <lb/>eleven months. Growing daily worſe ſhe <lb/>reſolved to ſubmit to the
+          operation, if it <lb/>ſhould be thought adviſeable, her conſti- <lb/>tution being much
+          impaired, and having <lb/>a conſtant diſcharge of purulent matter <lb/>from the bladder. </p>
+        <p rend="indent space">
+          <lb/><hi rend="italic">AUGUST</hi> the 17th, 1740, ſhe aſked <lb/>my advice, and after
+          well conſidering all <lb/>her complaints, I was of opinion it was <lb/>right to extract
+          the ſtone, though the <lb/>event of the operation could not but be <lb/>looked upon as
+          very precarious; for by <lb/>paſſing my finger up the <hi rend="italic">Vagina Uteri</hi>,
+          I <lb/>could plainly diſcover it was a large one, <pb n="61"/>
+          <lb/>the friction of which had cauſed an in- <lb/>flammation and ulceration in the
+          bladder. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">After</hi> putting her in the poſture for <lb/>the operation, I
+          intended to have proceeded <lb/>according to the uſual manner, by dilating <lb/>the <hi
+            rend="italic">Urethra</hi>, and making an inciſion as <lb/>ſhould be found neceſſary to
+          facilitate the <lb/>extraction of the ſtone, but finding, with <lb/>my finger, that it lay
+          very favorably to <lb/>be cut upon through the <hi rend="italic">Vagina Uteri</hi>,
+          <lb/>now conſiderably dilated, I altered my <lb/>original deſign, and, with the approba-
+          <lb/>tion of two experienced practitioners, cut <lb/>upon it, and extracted it with very
+          little <lb/>pain to the patient, or trouble to myſelf, <lb/> compariſon to what a ſtone of
+          between <lb/>three and four ounces weight muſt una- <lb/>voidably have occaſioned, by
+          performing <lb/>the operation after the common method. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">The</hi> ſymptoms after the operation <lb/>were the moſt gentle; the
+          ulceration of <lb/>the bladder ſoon healed, by ſoft, balſamic <lb/>injections, and ſhe was
+          perfectly cured in <lb/>three weeks, without any defect of the <lb/>retentive faculty
+          remaining. </p>
+      </div>
+      <pb n="62"/>
+      <div type="section">
+        <head rend="size(1.25) hanging space">
+          <lb/>A caſe of a complete <hi rend="italic">Hernia</hi> attend- <lb/>ed with a
+          mortification in an aged <lb/>woman, perfectly cured. </head>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">T</hi>HE wife of <hi rend="italic">R. R.</hi> of <hi rend="italic"
+            >B.</hi> aged about <lb/>ſixty years, naturally of a good, <lb/>ſtrong conſtitution, had
+          a deſcent of the <lb/>inteſtine, <hi rend="italic">&amp;c.</hi>
+          <hi rend="italic">December</hi> the 20th, 1752, <lb/>to which ſhe had been ſubject many
+          years, <lb/>without ever wearing a truſs: the uſual <lb/>ſymptoms attending a
+          ſtrangulation of the <lb/>inteſtine ſoon followed; an Apothecary was <lb/>immediately ſent
+          for, who took her com- <lb/>plaint for the colic and treated it accord- <lb/>ingly three
+          or four days; the ſymptoms <lb/>growing daily worſe, and ſhe often vomit- <lb/>ting
+          excrementitious matter, he then look- <lb/>ed upon it as the iliac paſſion, and had
+          <lb/>recourſe to tobacco clyſters, and then to <lb/><hi rend="italic">Argent. viv.</hi>
+          giving her, as he told me, lb. 1 ß. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">On</hi> the 29th I was called to her, and <lb/>found the teguments much
+          inflamed and <lb/>veſicated, with livid ſpots here and there <lb/>interſperſed; and the
+          tumor having loſt <pb n="63"/>
+          <lb/>its renitence, I did not doubt of the in- <lb/>teſtine, <hi rend="italic"
+            >&amp;c.</hi> being in a mortified ſtate: <lb/>the <hi rend="italic">Abdomen</hi> was
+          greatly inflated, tenſe and <lb/>painful; ſhe frequently vomited excre- <lb/>ments, could
+          bear nothing in her ſtomach, <lb/>had the hiccup and a weak, quick and in- <lb/>termitting
+          pulſe. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">Under</hi> theſe moſt miſerable circum- <lb/>ſtances, her relations and
+          friends were <lb/>come to take their laſt leave of her; in- <lb/>deed I thought death
+          would have put an <lb/>end to her miſery in a few hours; all that <lb/>appeared to me
+          rational now to propoſe <lb/>and attempt for the preſervation of her <lb/>life was, to
+          open the part ſufficiently, in <lb/>order to remove the ſtrangulation of the
+          <lb/>inteſtine, and evacuate the <hi rend="italic">Fæces</hi>, though <lb/>I muſt confeſs
+          I could not expect the <lb/>caſe would have ended more favorably, <lb/>than by leaving an
+          artificial <hi rend="italic">Anus</hi> in the <lb/><hi rend="italic">Inguen</hi>. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">This</hi> propoſition being approved by <lb/>the patient and all
+          perſons concerned, I <lb/>forthwith made an opening of between <lb/>two and three inches
+          long, through which <lb/>there was an immediate diſcharge of ma- <pb n="64"/>
+          <lb/>ny pints of black, fluid, fermenting ex- <lb/>crements, like what thoſe who attended
+          her <lb/>obſerved ſhe had vomited many days: upon <lb/>this diſcharge the inflation of the
+            <hi rend="italic">Abdomen</hi>
+          <lb/>ſubſided, and ſhe found inſtant relief. I <lb/>fomented the parts with a common anti-
+          <lb/>ſeptic <hi rend="italic">Fotus</hi>, dreſſed them with a warm di- <lb/>geſtive,
+          applying a warm cataplaſm to <lb/>them and all the <hi rend="italic">Abdomen</hi>. It
+          appeared to <lb/>me adviſeable, on account of the fæcal diſ- <lb/>charge, that ſhe ſhould
+          be dreſſed every ſix <lb/>hours: I directed the application of blad- <lb/>ders of hot
+          water to preſerve a due de- <lb/>gree of heat from dreſſing to dreſſing. I <lb/>did not
+          forget to adviſe the diſcretionary <lb/>uſe of cordials, laxatives and clyſters; and
+          <lb/>that ſhe ſhould, for ſome time, be nou- <lb/>riſhed only with liquid diet, taken in
+          ſmall <lb/>quantities and often. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">After</hi> having agreed with the Apo- <lb/>thecary upon the method for
+          him to pure <lb/>ſue, I left her to his care, urging at the <lb/>ſame time his aſſiduous
+          attendance, as the <lb/>event of the moſt dangerous caſes often <lb/>exceeds our
+          expectations, deſiring he would <lb/>ſuffer nature to caſt off the mortified <lb/>ſloughs,
+          without uſing any violence to re- <pb n="65"/>
+          <lb/>move them. The next day he informed <lb/>me the ſymptoms were favorable, that
+          <lb/>her diet did not offend her ſtomach, and <lb/>that ſhe had not vomited ſince the
+          open- <lb/>ing. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">Two</hi> days after, I was deſired to viſit <lb/>her again; I found her
+          then ſitting up in <lb/>her chair, with a quick, ſtrong pulſe, and <lb/>great ſwelling in
+          her face: upon examin- <lb/>ing into the cauſe of theſe appearances, I <lb/>diſcovered
+          they aroſe from tranſgreſſing <lb/>the rules preſcribed in regard to diet; for
+          <lb/>notwithſtanding the ſtricteſt injunctions <lb/>were laid upon her and the nurſe in
+          that <lb/>point, yet this day for dinner, ſhe indulged <lb/>her deſire and craving
+          appetite, with roaſt- <lb/>ed chicken and ſtrong beer, eating and <lb/>drinking very
+          plentifully. This tranſgreſ- <lb/>ſion was very near ſubverting the fair hopes <lb/>we
+          began to have of her recovery; to pre- <lb/>vent the ill conſequences of it as much as
+          <lb/>poſſible, we had immediate recourſe to <lb/>bleeding, repeating it thrice in 24
+          hours, <lb/>with other meaſures, to check the riſing fe- <lb/>ver and guard againſt an
+          inflammation <lb/>again ſeizing the weak and tender inteſ- <lb/>tines; but it was many
+          days before the <pb n="66"/>
+          <lb/>danger was over, which ſhe was evidently <lb/>thrown into by this indiſcretion. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">The</hi>
+          <hi rend="italic">Fæces</hi> began to be evacuated by <lb/>the <hi rend="italic">Anus</hi>
+          on the third day after the open- <lb/>ing, and they paſſed freely both ways until <lb/>the
+          beginning of <hi rend="italic">March</hi>; the diſcharge of <lb/>them gradually leſſened
+          at the wound as it <lb/>contracted, which was perfectly healed, <lb/>by the common
+          treatment, ſoon after that <lb/>time. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">On</hi>
+          <hi rend="italic">February</hi> the 4th I firſt obſerved <lb/>ſome of the <hi
+            rend="italic">Argent. viv.</hi> in the wound, <lb/>which ſhe had taken on <hi
+            rend="italic">December</hi> the 24th, <lb/>and which paſſed by that as well as by the
+            <lb/><hi rend="italic">Anus</hi> until the wound was perfectly heal- <lb/>ed; for many
+          months afterwards, ſhe <lb/>ſaw ſome, now and then, divided into an <lb/>infinite number
+          of globules, which had <lb/>loſt their brightneſs, looking like lead long <lb/>expoſed to
+          the air; and ſhe generally was <lb/>ſenſible of griping pains preceding the ſtools
+          <lb/>wherein ſhe obſerved it. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">She</hi> enjoys as good health as in the <lb/>former part of her life,
+          and is entirely free <pb n="67"/>
+          <lb/>from the inconvenience ſhe had many years <lb/>before laboured under. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">The</hi> happy event of this threatening <lb/>caſe may teach and
+          encourage us, never to <lb/>leave our patients in the utmoſt apparent <lb/>danger and
+          diſtreſs, without endeavouring <lb/>to aſſiſt nature by all the prudent and ra-
+          <lb/>tional meaſures we can think of. </p>
+      </div>
+      <gap reason="sampling" unit="pages" quantity="117"/>
+    </body>
+  </text>
+</TEI>

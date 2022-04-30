@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> LMEMT Corpus - Cockburn: The present uncertainty in the knowledge of
+          med'cines</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>William Cockburn</persName>
+            </author>
+            <title type="main">THE Present Uncertainty IN THE Knowledge of Med'cines, IN A LETTER TO
+              THE Physicians in the Commission for Sick and Wounded Seamen. With a Postscript to
+              Physicians, shewing the Necessity of a True Theory of Diseases. </title>
+            <edition n="1"/>
+            <idno type="ESTC">T53584</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/T53584"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>London: printed by Richard Janeway for Benj. Barker, at the White-Hart in
+                  Westminster-Hall; and sold by J. Nutt, near Stationers-Hall, 1703. </persName>
+              </publisher>
+              <date>1703</date>
+            </imprint>
+            <extent>
+              <measure type="format">4⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="3"/>
+              <measure type="count" commodity="body" unit="page" quantity="28"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library"/>
+            <idno type="ECCO">CW3300716854</idno>
+            <idno type="TCP">K048163.000</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Recipe collections"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text xml:lang="eng">
+    <front>
+      <div>
+        <pb xml:id="page_2"/>
+        <head rend="align-center"><lb/>THE <lb/><hi rend="dc(3)">PREFACE</hi>
+          <lb/>TO THE <lb/><hi rend="size(1.5)">Phyſicians in the Commiſſion for Sick and
+            <lb/>Wounded Seamen. </hi></head>
+        <lb/>
+        <salute>Gentlemen, </salute>
+        <p rend="indent italic"><lb/><hi rend="dc(2)">T</hi>HE World, I know, will admire what Merit
+          of yours ſhould obtain <lb/>you this Addreſs; but their Curioſity will be ſatisfied when
+          they <lb/>are told, that your Pretences on this Head are very great and <lb/>ſingular. <hi
+            rend="roman">You pretend to be compleat Maſters of all the <w part="I">Quali-</w><lb/><w
+              part="F">ties</w> that ever were found about a Med'cine; and that you never fail
+            <lb/>to determine all its poſſible Actions by this Infallible Light.</hi> If this
+          <lb/>proves not a ſufficient Apology for me, you your ſelves muſt find a better. </p>
+        <p rend="indent italic"><lb/>Indeed the former Diſappointments that Sedulous Inquirers have
+          met with <lb/>already in this Way, were enough to diſcredit my Aſſertion; but eſpecially
+          that <lb/>ſuch Abſtruſe Methods are poſſeſt by People who are as unknown as they have
+          <lb/>endeavour'd to be otherwiſe; but in that you muſt give them further <w part="I"
+            >Sa-</w><lb/><w part="F">tisfaction</w>. 'Tis enough for me to have made this part of
+          the Diſcovery,<lb/> but you muſt tell them more. </p>
+        <p rend="indent italic"><lb/>For this Trial, I do not give you the Myſtery of a <hi
+            rend="roman">Noſtrum</hi> to reſolve, <lb/>neither have I put ſtranger Drugs into your
+          Hands, nor ſome foreign Root <lb/>that came but lately from the <hi rend="roman"
+            >Eaſt-Indies,</hi> No, I have firſt given you <lb/>a Bark that is the moſt Excellent of
+          any Med'cine for the Diſeaſe it is to <lb/>Cure; which owes its Diſcovery to wild Indians,
+          its Uſe in <hi rend="roman">Europe</hi> to Churchmen, <lb/>and its Re-eſtabliſhment, after
+          the Malice of Phyſicians to <lb/>deſtroy it, to an Empyrick, and which now Triumphs in
+          this next Age <lb/>with the great Applauſe of Phyſicians; tho' their Predeceſſors wou'd
+          never <lb/>ſubmit to the Conqueſt; nay, its Native Strength equals at leaſt the beſt
+          <lb/>Preparations of it, on Purpoſe to ſhow how it rais'd its Reputation in ſpite <lb/>of
+          the Fathers, and will have no farther to do with the Sons than to <w part="I"
+            >re-</w><lb/><w part="F">ceive</w> their Submiſſion. And I am aſham'd to think how
+          little Thanks Men <lb/>owe us that have hinder'd them ſo long from the Benefit of ſo great
+          a <lb/>Good: But the following Story does prove how well we are ſatisfied with <lb/>the
+          Thing, and how ſtill we have neglected ſuch Diſcoveries that might <lb/>aſſiſt us to give
+          it to more Advantage. But it is this you put us in hope <lb/>of being inſtructed in by
+          you. </p>
+        <pb xml:id="page_3"/>
+        <p rend="indent italic"><lb/>I ſhall ſay no more of the other Two Inſtances I give, than
+          that they <lb/>are of an Older Date than to bear any Exception againſt our Opportunity
+          <lb/>of making Experiment about 'em. </p>
+        <p rend="italic indent"><lb/>Yet while I clear my Examples from Objections that may be
+          brought <lb/>againſt their Propriety of being ſuch, I am ſenſible how ready ſome <w
+            part="I">Peo-</w><lb/><w part="F">ple</w> may be to object againſt my thus expoſing the
+          Uncertainty of Med'cines; <lb/>but one Anſwer may be, that it is in order to our arriving
+          at a greater <lb/>Certainty: But next, who but ſuch <hi rend="italic">Pretenders</hi> ever
+          wou'd have the <lb/>World think that our Knowledge of them is Infallible? Don't the
+          frequent <lb/>Attempts, and as frequent Diſappointments, of worthy Phyſicians, Prove
+          <lb/>this very Uncertainty: Some indeed have attempted Med'cines by their <lb/><hi
+            rend="roman">Qualities,</hi> and have all miſcarried in the Enterprize; but theſe <w
+            part="I">Gentle-</w><lb/><w part="F">men</w>, who promiſe now to attempt, and I wiſh
+          they do not fail in that. Other <lb/>Phyſicians have tried to diſſect Bodies for the very
+          Parts of their <w part="I">Compoſiti-</w><lb/><w part="F">on</w>: But a Noble Gentleman,
+          well skill'd in all theſe Trials, has <w part="I">ſufficient-</w><lb/><w part="F">ly</w>
+          deſtroyed that Pretence in his Sceptical Chymiſt; and it was only this <lb/>Gentleman who
+          was the beſt able, as well as the moſt proper Perſon, to do it. </p>
+        <p rend="indent italic"><lb/>But if the Strength of this Objection is conceal'd under the
+          fear of <w part="I">diſco-</w><lb/><w part="F">vering</w> ſo much of our Weakneſs to the
+          World, the Argument is as weak as <lb/>the Defence of it is unworthy of a Man. A Cheat has
+          the worſt Grace <lb/>upon a Gentleman of any thing; and I am convinc'd that both Phyſick
+          and <lb/>Phyſicians have really ſuffer'd more by the modeſt conniving at ſuch Tricks
+          <lb/>of Pretenders, than ever they can ſuffer by this Frank Declaration of mine. <lb/>This
+          is the Foundation for Quacks and Mountebanks, who know no better <lb/>where to ſet up for
+          a Character. Men of Learning go quite another Way to <lb/>Work; they do not apprehend
+          their being eſteem'd to know nothing except <lb/>they pretend to know every thing: Their
+          reaſoning is quite the Reverſe of <lb/>this. They ſay that there are ſome things of which
+          they know nothing at <lb/>all, and <lb/>theſe are theſe firſt <hi rend="italic"
+            >Qualities,</hi> or <hi rend="italic">Phyſical Cauſes,</hi> theſe <w part="I"
+            >Gentle-</w><lb/><w part="F">men</w> know ſo perfectly wel'. Some things they know but
+          Probably, and <lb/>among them may be the Doctrine of Med'cines: But ſome other things
+          <lb/>they know Demonſtratively, and among them are ſome things about the <lb/>Theory of
+          Diſeaſes. </p>
+        <p rend="indent italic"><lb/>From all which I ſhall obſerve, <hi rend="roman">Firſt,</hi>
+          That <hi rend="roman">the Knowledge by <w part="I">Qua-</w><lb/><w part="F">lities</w> is
+            as Vain as it is an Ignorant Pretence.</hi>
+        </p>
+        <p rend="indent"><lb/><hi rend="italic">And, 2dly,</hi> That they who ſet up on this Foot,
+          know nothing at <lb/>all, not ſo much as where to lodge their Pretence: And they are a <w
+            part="I">Peo-</w><lb/><w part="F">ple</w> who commonly Practice Phyſick with a Contempt
+          of all <w part="I">Theo-</w><lb/><w part="F">ries</w> of Diſeaſes, and you ſee they do it
+          with an abſolute Ignorance <lb/>about Med'cines. </p>
+      </div>
+    </front>
+    <body>
+      <div>
+        <pb xml:id="page_4" n="1"/>
+        <head rend="align-center"><lb/>THE <lb/><hi rend="size(1.7)">Preſent Uncertainty</hi>
+          <lb/>IN THE <lb/><hi rend="size(1.7)">Knowledge of Med'cines. </hi></head>
+        <p rend="indent"><lb/><hi rend="dc(3)">B</hi>Efore I come to Prove the Charge <lb/>of
+          Uncertainty on our Knowledge <lb/>of Med'cines, 'twill be Neceſſary to <lb/>lay down ſome
+          Rules that may be <w part="I">Uſe-</w><lb/><w part="F">ful</w> in examining the Matter of
+          Fact. <lb/>And theſe ſhall be taken from the <w part="I">De-</w><lb/><w part="F"
+            >ſcriptions</w> of the Two different Sorts of <lb/>Knowledge a Phyſician is ſaid to
+          have; <lb/><hi rend="italic">viz.</hi> Experimental and Scientifical; or, <lb/>a Knowledge
+          of Experience and Science. <lb/>By knowing the Virtues or Powers of <lb/>Med'cines in the
+          Firſt Way, we know <lb/>that ſuch and ſuch Med'cines are <w part="I">Recom-</w><pb
+            xml:id="page_5" n="2"/><lb/><w part="F">mended</w> for, and are good or bad in, <w
+            part="I">Par-</w><lb/><w part="F">ticular</w> Diſeaſes, and different <w part="I"
+            >Circum-</w><lb/><w part="F">ſtances</w> of the Diſtemper, when either <lb/>they have
+          good Succeſs, no Succeſs, or <lb/>an ill One. This is the loweſt piece of <lb/>Knowledge
+          that can be expected from <lb/>Phyſicians. </p>
+        <p rend="indent"><lb/>Or, Secondly, If by many ſuch <w part="I">Experi-</w><lb/><w part="F"
+            >ments</w> we ſhould diſcover what Action <lb/>it is in any Med'cine, whereby it <w
+            part="I">pro-</w><lb/><w part="F">duces</w> its Proper Effects, ſo as to be able <lb/>to
+          deduce the good or bad Effects it will <lb/>have, as ſo many Corollaries from the
+          <lb/>Knowledge of the Action, That wou'd be <lb/>as Noble a piece of Science as Phyſick
+          can <lb/>be ſuppoſed to admit of, and wou'd <w part="I">con-</w><lb/><w part="F">tain</w>
+          all that is Neceſſary. </p>
+        <p rend="indent"><lb/>Having premiſed the Deſcriptions, <lb/>which are the Rules in the
+          enſuing Trial, <lb/>I ſhall begin with all the Diſtinctneſs and <lb/>Brevity imaginable. </p>
+        <p rend="indent"><lb/>But ſince the Bounds of a Letter will <lb/>not allow me to try every
+          ſingle Med'cine <lb/>by it ſelf, or indeed every Claſs of <w part="I">Med'-</w><lb/><w
+            part="F">cines</w> in general; yet 'twill be more to <lb/>your Satisfaction if I Prove
+          it by Two or <lb/>Three Examples of Med'cines, that are <pb xml:id="page_6" n="3"
+          /><lb/>either moſt in Uſe, or that produce moſt <lb/>conſtantly the ſame Effects, when the
+          <lb/>leaſt Caution is had about 'em, and are in <lb/>every one's Hands; and if I can Prove
+          our <lb/>Knowledge of them to be juſt nothing, <lb/>and that it does not ſo much as arrive
+          at <lb/>the Firſt Deſcription or Experience, I <lb/>may Preſume to conclude the like <w
+            part="I">Imper-</w><lb/><w part="F">fection</w> to be, at leaſt as great, in our <w
+            part="I">Know-</w><lb/><w part="F">ledge</w> of Med'cines, that are not near ſo
+          <lb/>frequently uſed, nor that have not, by <lb/>far, ſo certain and conſtant Effects;
+          nay, <lb/>whoſe Effects are moſt unconſtant in the <lb/>beſt Hands. </p>
+        <p rend="indent"><lb/>The Firſt Inſtance of this Imperfection <lb/>ſhall be of the Jeſuits
+          Pouder; a Med'cine <lb/>that every one muſt own to be the beſt <lb/>for Curing
+          intermitting Feavers; and <lb/>with that Certainty, that no other known <lb/>Med'cine can
+          do the like in this or any <lb/>other Diſeaſe; for it generally Cures, not <lb/>only in
+          the Hands of Phyſicians, but <lb/>e'en in thoſe of Quacks, and Nurſes, by <lb/>whom it is
+          given with no manner of <lb/>Judgment or Diſcretion. </p>
+        <p rend="indent"><lb/>Yet even this Pouder has been wanting <lb/>in its Succeſs, and Agues
+          have been known <pb xml:id="page_7" n="4"/><lb/>ſometimes to ſtand their Ground againſt
+          <lb/>many Charges of it. This is evident <w part="I">ſome-</w><lb/><w part="F">times</w>
+          here; but too often in <hi rend="italic">Virginie.</hi>
+        </p>
+        <p rend="indent"><lb/>'Tis known that by the taking of it, ſafe <lb/>intermitting Feavers
+          have been changed <lb/>into thoſe that are continual; which are <lb/>far more dangerous,
+          and whoſe Event is <lb/>often very doubtful. </p>
+        <p rend="indent"><lb/>And it is very ſurpriſing that this Turn <lb/>of the Diſeaſe is not
+          always in the ſame <lb/>manner; for by Jeſuits Pouder Agues <lb/>have degenerated into
+          unweildy <w part="I">Rheuma-</w><lb/><w part="F">tiſms</w>, or a lazy Jaundice; nay,
+          ſometimes <lb/>it has terminated in a ſudden Death. </p>
+        <p rend="indent"><lb/>Theſe are ſtrange and unconſtant <w part="I">Ef-</w><lb/><w part="F"
+            >fects</w> of Jeſuits Pouder. It Cures an Ague <lb/>the beſt of any thing; it turns the
+          Patient <lb/>ſometimes out of one Diſeaſe into another; <lb/>and ſometimes it kills him. </p>
+        <p rend="indent"><lb/>But this is not all; it will ſometimes <lb/>make him Coſtive; it
+          Purges him; it <lb/>Sweats him; yet it never has been ranked <lb/>among Med'cines of theſe
+          Sorts, but once <lb/>to Diſparage it. </p>
+        <p rend="indent"><lb/>And this is the Rare Med'cine which <lb/>Cures us ſo ſuddenly, that it
+          ſeems to <w part="I">O-</w><lb/><w part="F">perate</w> almoſt like a Charm, that yet has
+          <lb/>ſuch ſtrange, tho' ſeldom, ill Effects in the <pb xml:id="page_8" n="5"/><lb/>Cure of
+          the ſame Diſeaſe. But ſince <w part="I">dif-</w><lb/><w part="F">ferent</w> Conditions and
+          Circumſtances make <lb/>all the Variety in this Affair, as well as <lb/>in every thing
+          elſe, Phyſicians ought to <lb/>be very Induſtrious to find out what are <lb/>the
+          Conditions in this Caſe, where we <lb/>find ſuch conſiderable Turns in <w part="I"
+            >Admini-</w><lb/><w part="F">ſtring</w> this Excellent Med'cine. For, <w part="I"
+            >per-</w><lb/><w part="F">haps</w> if they were known, they might be <lb/>avoided; at
+          leaſt, if a Cure is to be had <lb/>by any other Med'cine, that rather is to <lb/>be tried;
+          and it is at worſt better not to <lb/>attempt a Cure, than certainly to Kill. </p>
+        <p rend="indent"><lb/>'Tis to be thought, that if all, or any, of <lb/>theſe ill Accidents
+          that happen by uſing <lb/>the Bark had often been obſerv'd, that <lb/>no Rhetorick cou'd
+          induce the World to <lb/>perſiſt in taking it; yet ſince they have <lb/>happen'd, they may
+          happen again, and <lb/>indeed every Day; it may therefore be <lb/>thought very Expedient
+          to know how <w part="I">ei-</w><lb/><w part="F">ther</w> to give it ſo as to avoid Danger
+          and <lb/>Miſchief, or elſe to know when the Proper <lb/>Time is when we are not to give it
+          at all. </p>
+        <p rend="indent"><lb/>It was for want of this Knowledge the <lb/>Bark loſt its good Name,
+          when Sir—<hi rend="italic">Under-</hi>
+          <pb xml:id="page_9" n="6"/><hi rend="italic"><lb/>wood,</hi> Mayor of <hi rend="italic"
+            >London,</hi> died by taking of <lb/>it, whoſe untimely Death did ſo terrifie <lb/>his
+          Relations, that no friezing or fryings <lb/>of an Ague can ever be ſtrong enough to
+          <lb/>force them to take it. </p>
+        <p rend="indent"><lb/>Now ſince there is ſo manifeſt <w part="I">Uncer-</w><lb/><w part="F"
+            >tainty</w> in the Practice of this Excellent <lb/>Med'cine; beſides the Danger of being
+          <lb/>killed; it muſt be own'd that there <lb/>ought to be a good deal of Diſcretion had
+          <lb/>when we uſe it. And he who is poſſeſt of <lb/>this Diſcretionary Knowledge, muſt
+          <lb/>be able to know, not only that it is <w part="I">un-</w><lb/><w part="F">certain</w>,
+          but this muſt be warranted by <lb/>my Firſt Rule: He is obliged to know <lb/>what
+          Appearances, what Conditions, there <lb/>were in the Diſeaſe; when the Bark <w part="I"
+            >Cu-</w><lb/><w part="F">red</w>, and when it did not Cure; as alſo <lb/>when One got a
+          Jaundice by it, and a <lb/>Third died. But if he has no Knowledge <lb/>of thoſe Times, he
+          is under a vaſt <w part="I">Uncer-</w><lb/><w part="F">tainty</w> in every Patient;
+          neither does he <lb/>know whoſe Cure or Death he is carrying <lb/>on with the greateſt
+          Aſſurance, tho' he <lb/>Practice with the beſt Med'cine. </p>
+        <p rend="indent"><lb/>I wou'd adviſe thoſe who think they <lb/>can Anſwer for this Sort of
+          Knowledge, <pb xml:id="page_10" n="7"/><lb/>to try their Strength by the Second Rule
+          <lb/>I propoſed; but it is Time enough to do <lb/>that when I find my Firſt Requeſt <w
+            part="I">an-</w><lb/><w part="F">ſwer'd</w>. Indeed by this Rule we have the <lb/>moſt
+          delightful, as well as the moſt <w part="I">uſe-</w><lb/><w part="F">ful</w>, piece of
+          Knowledge imaginable; for <lb/>by it we might know what the <w part="I">Uni-</w><lb/><w
+            part="F">form</w> Action of the Bark is in it ſelf, <lb/>whereby it Cures an Ague, and
+          we ſhou'd <lb/>be able to deduce theſe Miſchiefs that <lb/>are already obſerv'd, as ſo
+          many <w part="I">Corol-</w><lb/><w part="F">laries</w> from the Condition of the Diſeaſe;
+          <lb/>nay, by it are we made capable to ſuſpect <lb/>all the probable Dangers that can be,
+          or <lb/>perhaps have been, tho' they have eſcap'd <lb/>the Caution of the Obſerver. </p>
+        <p rend="indent"><lb/>Theſe related Misfortunes that have <lb/>happen'd by taking the Bark,
+          are not the <lb/>Calumnies it ſtands charged with by its <lb/>bigotted Enemies. There are
+          many more; <lb/>but theſe I have named have happened to <lb/>many Candid Practitioners,
+          and the moſt of <lb/>'em Recorded by that Excellent Phyſician <lb/>Dr. <hi rend="italic"
+            >Sydenham.</hi>
+        </p>
+        <p rend="indent"><lb/>But what can be ſaid to the Pother had <lb/>among many Authors about
+          its under <lb/>Actions of Purging, Sweating, <hi rend="italic">&amp;c.</hi> when <pb
+            xml:id="page_11" n="8"/><lb/>they have Induſtriouſly paſt by ſo <w part="I"
+            >Con-</w><lb/><w part="F">ſiderable</w> Effects of this Med'cine. </p>
+        <p rend="indent"><lb/>All the Uſe I make of this Argument <lb/>for the Preſent, is to ſhew
+          you that the <lb/>Knowledge of Med'cines is as Obſcure <lb/>and Difficult as any thing
+          elſe in <w part="I">Phy-</w><lb/><w part="F">ſick</w>, notwithſtanding of a common <w
+            part="I">O-</w><lb/><w part="F">pinion</w> we entertain about their <w part="I"
+            >Certain-</w><lb/><w part="F">ty</w>. And this I think is very manifeſt by <lb/>this
+          Firſt Inſtance; becauſe our <w part="I">Know-</w><lb/><w part="F">ledge</w> of the beſt
+          Med'cine which anſwers <lb/>Expectation moſt conſtantly, and is more <lb/>us'd than any
+          one Med'cine, is very <w part="I">ob-</w><lb/><w part="F">ſcure</w>, and juſt nothing at
+          all. </p>
+        <p rend="indent"><lb/>This Argument might be purſued as <lb/>Succeſſfully in every one of
+          the Med'cines <lb/>that are moſt Familiar to us. In all <w part="I">Eva-</w><lb/><w
+            part="F">cuating</w> Med'cines, as well as in thoſe that <lb/>produce no Evacuation, but
+          are <w part="I">conſide-</w><lb/><w part="F">rable</w> for ſome great Effect of another
+          <lb/>kind; but ſo Particular an Aggravation <lb/>is by no means Neceſſary, neither does
+          <lb/>the preſent Occaſion require it. I ſhall <lb/>content my ſelf with an Inſtance or Two
+          <lb/>more, which will be ſufficient to Prove <lb/>my Argument about the real <w part="I"
+            >Uncertain-</w><lb/><w part="F">ty</w> of Med'cines. </p>
+        <pb xml:id="page_12" n="9"/>
+        <p rend="indent"><lb/> The next Example that I bring is of <lb/>Opium; and I cannot help
+          thinking it thus <lb/>Uncertain, notwithſtanding of the late <lb/>Endeavours of ſome
+          Ingenious <w part="I">Au-</w><lb/><w part="F">thors</w>, being there is not full
+          Satisfaction <lb/>given about its way of producing Sleep; <lb/>and far more hardly are we
+          preſt when <lb/>we endeavour to account for its Action <lb/>when it hinders us from Sleep,
+          and makes <lb/>us Delirous. </p>
+        <p rend="indent"><lb/>Moreover, Opium is obſerv'd to give a <lb/>Check to all Sorts of
+          Evacuations; yet <lb/>great Evacuations have been known to be <lb/>made by it. </p>
+        <p rend="indent"><lb/>'Tis noted for either relieving us of Pain, <lb/>or at leaſt giving an
+          agreeable reſpite <lb/>from it, though great and torturing <lb/>Pains have ſometimes been
+          felt upon its <lb/>Account: I mean not only thoſe <w part="I">Head-</w><lb/><w part="F"
+            >achs</w>, and Pain at Stomach, it often <w part="I">occa-</w><lb/><w part="F"
+          >ſions</w>, and that are felt after its ſleeping <lb/>force is over; but even ſome that
+          come <lb/>at firſt taking, and that beyond all <w part="I">Pa-</w><lb/><w part="F"
+            >tience</w>, and almoſt to Diſtraction; yea, <lb/>theſe Pains are alſo produced by every
+          <lb/>thing that makes Sleep, as well as by <lb/>Opium, or any Preparation of it; and <pb
+            xml:id="page_13" n="10"/><lb/>the more Obſtinately we perſiſt in that <lb/>quieting
+          Deſign, to greater Degrees we <lb/>augment the Torture. </p>
+        <p rend="indent"><lb/>Beſides all this, Opium is not like other <lb/>Med'cines ſo eaſily
+          dos'd; and an exceeding <lb/>quantity has worſe Conſequences than <lb/>any other Med'cine
+          whatever. Nay, <w part="I">ſome-</w><lb/><w part="F">times</w> when we wou'd give it to
+          good <lb/>Purpoſe, it is Neceſſary to give Three or <lb/>Four Grains at once, withour our
+          coming <lb/>Cautiouſly, and by Degrees, to that <w part="I">Quan-</w><lb/><w part="F"
+            >tity</w>; or that it is given to People who <lb/>have been long accuſtomed to take it,
+          (all <lb/>which Conſiderations alter the Caſe <w part="I">per-</w><lb/><w part="F"
+            >fectly)</w>, yet there is nothing more Certain, <lb/>than that Three Grains have laid
+          People <lb/>of a proper Age into an Eternal <w part="I">Oblivi-</w><lb/><w part="F">on</w>
+          of this World; tho' the World ſhould <lb/>not forget him that gave it. </p>
+        <p rend="indent"><lb/>Now who wou'd not Purchaſe at any <lb/>Rate a good Night's Reſt, after
+          watching <lb/>many Nights, and a long <hi rend="italic">Vigilia?</hi> Who <lb/>wou'd not
+          rid themſelves of <w part="I">Trouble-</w><lb/><w part="F">ſome</w> Pains, and uneaſie
+          Evacuations, by <lb/>taking Opium? But if the Danger that <lb/>poſſibly may come by it was
+          ever imagin'd, <lb/>how equal might the Diſpute prove <w part="I">a-</w><pb
+            xml:id="page_14" n="11"/><lb/><w part="F">bout</w> taking of it on any of the <w
+            part="I">men-</w><lb/><w part="F">tioned</w> Deſigns; but eſpecially if the <w part="I"
+            >Ope-</w><lb/><w part="F">ration</w> of this Med'cine ſhou'd fall ſhort <lb/>of it; nay,
+          if the contrary Effects were <lb/>ever ſuppos'd to happen. We ought to <lb/>ſuppoſe at
+          leaſt that a very Extraordinary <lb/>Pilot ought to be made Choice of, to <lb/>guide us
+          where ſuch Hazards, and Things <lb/>of ſo great a Value, are; and more where <lb/>our
+          Perſons may be fatally concern'd. </p>
+        <p rend="indent"><lb/>And therefore let any One who <w part="I">pre-</w><lb/><w part="F"
+            >tends</w> to be familiarly acquainted with <lb/>this Pacifick Med'cine, examine himſelf
+          <lb/>throughly by the Rules I have laid down, <lb/>and reſt ſatisfied with nothing leſs
+          than <lb/>his being qualified by the Firſt. </p>
+        <p rend="indent"><lb/>I confeſs it is ſtrange enough to hear <lb/>Men Boaſt of a Certainty
+          in Med'cines, <lb/>ſuch as requires no Direction from Reaſon <lb/>to Manage beyond their
+          Skill; and yet <lb/>ſuch conſiderable Doubts to remain at this <lb/>Day about a Med'cine
+          of ſo manifeſt <w part="I">Ef-</w><lb/><w part="F">fects</w>, and of ſo great and ancient
+          a <w part="I">ſtand-</w><lb/><w part="F">ing</w>. Wherefore it is manifeſt how <w part="I"
+            >pro-</w><lb/><w part="F">per</w> an Example this is to Prove our <w part="I"
+            >Im-</w><lb/><w part="F">perfection</w> about the Knowledge of <w part="I"
+            >Med'-</w><lb/><w part="F">cines</w>. </p>
+        <pb xml:id="page_15" n="12"/>
+        <p rend="indent"><lb/>But no leſs an Imperfection may <w part="I">per-</w><lb/><w part="F"
+            >haps</w> be found in another Ancient Method <lb/>of Curing, which commonly is the <w
+            part="I">ut-</w><lb/><w part="F">moſt</w> Skill, and laſt Reſort of a Doctor, <lb/>after
+          other Experience and Med'cines have <lb/>been practis'd to no Purpoſe. And after <lb/>ſo
+          Honourable a Mention made of a <w part="I">Me-</w><lb/><w part="F">thod</w>, every Body
+          muſt think it is only <lb/>Proper to the <hi rend="italic">Bath,</hi> as indeed I intend
+          it. <lb/>I muſt not be thought to Depretiate either <lb/>the bathing or drinking of Waters
+          at <hi rend="italic">Bath,</hi>
+          <lb/>which I do by no Means. On the <w part="I">contra-</w><lb/><w part="F">ry</w>, I have
+          a valuable and juſt Eſteem of <lb/>'em. </p>
+        <p rend="indent"><lb/>Only I do ſay, that this uſeful and <w part="I">an-</w><lb/><w
+            part="F">cient</w> Method is far from being ſo <w part="I">ſuffici-</w><lb/><w part="F"
+            >ently</w> known, that we are able to reap all <lb/>the Benefit of it, or to avoid all
+          its <w part="I">Miſ-</w><lb/><w part="F">chiefs</w>, as ſhall be made appear <w part="I"
+            >immediate-</w><lb/><w part="F">ly</w> by Particulars. </p>
+        <p rend="indent"><lb/> As to its Antiquity, 'tis believed that <lb/>People applied
+          themſelves to it for Relief <lb/>in their Maladies before the Romans were <lb/>much known
+          in <hi rend="italic">Britain;</hi> yet if we <w part="I">com-</w><lb/><w part="F">pare</w>
+          what has been ſaid of 'em, either as <lb/>to their Warmth or Medicinal Effects, by
+          <lb/>Ancient or Modern Writers, we ſhall <pb xml:id="page_16" n="13"/><lb/>find how little
+          theſe have improv'd what <lb/>the former aſſerted. <hi rend="italic">Cambden</hi> informs
+          us <lb/>how Old <hi rend="italic">Necham</hi> has conceived the <w part="I"
+            >Obſer-</w><lb/><w part="F">vations</w> of his Time about theſe Waters, <lb/>for their
+          Uſe. </p>
+        <q rend="italic"><lb/><l>Confecto profunt balnea noſtra ſeni, </l>
+          <lb/><l>Proſunt Aſtritis, Colliſis, Invalidiſque, </l>
+          <lb/><l>Et qurum Morbis Frigida cauſa ſubeſt. </l></q>
+        <p rend="indent"><lb/>Then he, and moſt Moderns after him, <lb/>aſſign this Reaſon for the
+          Heat of theſe <lb/>Waters. </p>
+        <lb/>
+        <q rend="italic">Sed quid? Sulphurcum novimus eſſe locum.</q>
+        <p rend="indent"><lb/>At preſent I am not bound to make all <lb/>Proper Inquiries about the
+            <hi rend="italic">Bath;</hi> but in <w part="I">ge-</w><lb/><w part="F">neral</w>, I
+          will firſt obſerve how <w part="I">diſproporti-</w><lb/><w part="F">onable</w> the Fame of
+          the Cures it has work'd <lb/>are to its long ſtanding, and great Character <lb/>given it
+          by ſome Men. And, 2dly, The <lb/>extream Changes its Reputation has <w part="I"
+            >ſuf-</w><lb/><w part="F">fer'd</w> in that Tract of Time: 'Thas often <lb/>been
+          eſteem'd a <hi rend="italic">Panacea,</hi> and too <w part="I">frequent-</w><lb/><w
+            part="F">ly</w> thought good for nothing at all. And <lb/>from both theſe Obſervations I
+          conclude, <pb xml:id="page_17" n="14"/><lb/>that if a moderate Knowledge of this
+          <lb/>Method had been join'd with half the <lb/>good Uſes of theſe Waters, they never
+          <lb/>cou'd have had ſo great Ebbings in their <lb/>Fame. </p>
+        <p rend="indent"><lb/>But to be more Particular; 'tis certain, <lb/>that though Sulphur
+          impregnating thoſe <lb/>Waters, is told us to be the Cauſe of their <lb/>Heat; yet our
+          Knowledge of this Method <lb/>of Nature is ſo very obſcure, that we <lb/>can neither
+          imitate her in medicating <w part="I">Wa-</w><lb/><w part="F">ters</w> after that manner;
+          nor by any <lb/>Means make other Waters Serviceable to <lb/>like Purpoſes. Wherefore it is
+          alſo <w part="I">mani-</w><lb/><w part="F">feſt</w> how Inſignificant our boaſted <w
+            part="I">Know-</w><lb/><w part="F">ledge</w> is, and to how little Purpoſe our
+          <lb/>Trials of 'em have been. </p>
+        <p rend="indent"><lb/>I know that there are Authors that <lb/>Prove, and ſufficiently
+          enough, that thoſe <lb/>Waters contain more Subſtances than <w part="I">Sul-</w><lb/><w
+            part="F">phur</w>; but the Difficulty remains the ſame, <lb/><hi rend="italic">mutatis
+            mutandis, viz.</hi> by taking the known <lb/><hi rend="italic">Compoſitum,</hi> as I
+          took Sulphur ſingly in <lb/>the Argument. </p>
+        <p rend="indent"><lb/>But further, if I ſhould ſuppoſe that <lb/>either the ſingle
+          Ingredient of theſe <w part="I">Wa-</w><lb/><w part="F">ters</w>, if there is but one, or
+          a determin'd <pb xml:id="page_18" n="15"/><lb/>Quantity of Ingredients, if more were
+          <lb/>known; yet it is certain we ſhould be ſtill <lb/>Ignorant of their Operations, if we
+          <lb/>know not the Effects of theſe ſimple <w part="I">Sub-</w><lb/><w part="F"
+          >ſtances</w>, which being mixed with the <w part="I">Wa-</w><lb/><w part="F">ters</w>,
+          give 'em their Medicinal Qualities; <lb/>and the Difficulty wou'd always encreaſe,
+          <lb/>when we were to account for their <w part="I">Combi-</w><lb/><w part="F">nation</w>.
+          This is manifeſt from the Affair <lb/>of Jeſuits Pouder, i.e. it is manifeſt that if
+          <lb/>the Particular Ingredients of theſe Waters <lb/>were in Subſtance and Quantity as
+          evident <lb/>to us as the Subſtance and Quantity of <w part="I">Je-</w><lb/><w part="F"
+            >ſuits</w> Pouder, yet our Difficulties ſhall ſtill <lb/>remain unſatisfied, except we
+          knew more <lb/>of the Nature of theſe Subſtances, that <lb/>are the <hi rend="italic"
+            >Compoſita</hi> of the Waters, than <lb/>we know of Jeſuits Pouder; and I think <lb/>we
+          know leſs, and by Conſequence leſs <lb/>alſo of the Waters, even ſuppoſing we <lb/>knew
+          their Compoſition. </p>
+        <p rend="indent"><lb/>But let us ſuppoſe that the <hi rend="italic">Bath</hi> is good
+          <lb/>for decay'd Old Age; for People that are <lb/>Lame, and thoſe who labour under a <w
+            part="I">Diſ-</w><lb/><w part="F">eaſe</w> from a Cold Cauſe; yet our <w part="I"
+            >Know-</w><lb/><w part="F">ledge</w> about the <hi rend="italic">Bath</hi> muſt remain
+            <w part="I">Uncer-</w><lb/><w part="F">tain</w>, if we are not able to juſtifie our
+          <lb/>ſending People thither on other Accounts, <pb xml:id="page_19" n="16"/><lb/>for
+          Reaſons not yet aſſign'd; and if we <lb/>cannot ſhow that Effects quite <w part="I"
+            >con-</w><lb/><w part="F">trary</w> to thoſe it is noted for have not <w part="I"
+            >hap-</w><lb/><w part="F">pen'd</w>, with the Particular Circumſtances of <lb/>the Caſe. </p>
+        <p rend="indent"><lb/>Inſtances of the laſt Sort are adduced in <lb/>a good Number by <hi
+            rend="italic">Bath</hi> Doctors; and <lb/>though poſſibly the Crutches that hang
+          <lb/>there may not be the Martyrology of <lb/>the <hi rend="italic">Bath,</hi> as Doctor
+            <hi rend="italic">Willis</hi> wou'd have it; <lb/>yet they are confeſs'd not to be the
+            <w part="I">Tro-</w><lb/><w part="F">phies</w> of its conſtant Succeſs. But it is
+          <lb/>moſt certain that we have not conveyed to <lb/>us the Failings and croſs Succeſſes
+          which <lb/>are abſolutely Neceſſary for the ſmalleſt <lb/>Degree of Certainty in this
+          Affair. </p>
+        <p rend="indent"><lb/>Perhaps the ſending People for all <w part="I">Diſ-</w><lb/><w
+            part="F">eaſes</w> may be alledg'd for its great Uſe: <lb/>And I do Concur with them who
+          ſay ſo, <lb/>though I think very meanly of the <w part="I">Judg-</w><lb/><w part="F"
+            >ment</w> of the Phyſicians who do ſo; and am <lb/>Poſitive, that how ſoever excellent
+          the <hi rend="italic">Bath</hi>
+          <lb/>may be, that it neither is Infallible, nor a <lb/><hi rend="italic">Panacea;</hi> but
+          that it will always want <lb/>a ſuitable Direction, which will be the <lb/>more Infallible
+          the greater our Knowledge <lb/>is. </p>
+        <pb xml:id="page_20" n="17"/>
+        <p rend="indent"><lb/>But the Weakneſs of our <w part="I">Underſtand-</w><lb/><w part="F"
+            >ings</w> in this Particular is but too <w part="I">mani-</w><lb/><w part="F">feſt</w>
+          by ſome Facts I ſhall Adduce. </p>
+        <p rend="indent"><lb/>For we know that many People who <lb/>have been forſaken in the
+          Jaundice by their <lb/>Phyſicians, have yet found their Health <lb/>at <hi rend="italic"
+            >Bath,</hi> though the <hi rend="italic">Bath</hi> is accuſed for <lb/>bringing the
+          Jaundice upon a great many. </p>
+        <p rend="indent"><lb/>It has been the common Complaint, <lb/>eſpecially for theſe Two or
+          Three laſt <lb/>Years, that a vaſt Number of People have <lb/>got Rheumatiſms at <hi
+            rend="italic">Bath;</hi> it is <w part="I">notwith-</w><lb/><w part="F">ſtanding</w>
+          moſt inconteſtably True, that <lb/>great Numbers have got rid of <w part="I"
+            >Rheuma-</w><lb/><w part="F">tiſms</w> there. </p>
+        <p rend="indent"><lb/>Many more Examples of other <w part="I">Diſea-</w><lb/><w part="F"
+            >ſes</w> might be brought to Prove this Thing, <lb/>beſides the ſudden Deaths that have
+            <w part="I">hap-</w><lb/><w part="F">pen'd</w> there; and yet I am apt to believe
+          <lb/>that it is very hard to account for theſe <lb/>Accidents, even by my Rule of <w
+            part="I">Experi-</w><lb/><w part="F">ence</w>, which but too ſufficiently Proves
+          <lb/>the great Imperfection our Knowledge lyes <lb/>under in this very Matter, of the moſt
+          <lb/>ancient and uſeful Method of the <hi rend="italic">Bath.</hi>
+        </p>
+        <p rend="indent"><lb/>But I am aſham'd to think that this <w part="I">an-</w><lb/><w
+            part="F">cient</w> and uſeful manner of Bathing ſhou'd <pb xml:id="page_21" n="18"
+          /><lb/>begin to be ſo much neglected, as if it <lb/>neither wanted, or did not deſerve our
+            <w part="I">im-</w><lb/><w part="F">proving</w>. No manner of Conſideration is <lb/>had
+          about making it have its beſt Uſe, <lb/>which is ſo little known, that ſome great
+          <lb/>Phyſicians are ſcandalouſly Nice by giving <lb/>the Waters by Spoonfuls: As if Old <w
+            part="I">Ex-</w><lb/><w part="F">perience</w> was to be laid aſide to make way <lb/>for
+          ſuch as they wou'd call New. </p>
+        <p rend="indent"><lb/>What Conſiderations are rais'd about <hi rend="italic"
+            >Ba-<lb/>thing?</hi> What Inquiries are made about our <lb/>being <hi rend="italic"
+            >Immerg'd</hi> in Water? What Queſtions <lb/>are ask'd about its <hi rend="italic"
+            >entering</hi> or <hi rend="italic">not</hi> entering <lb/>our <hi rend="italic"
+            >Veſſels?</hi> And what <hi rend="italic">Effects</hi> it may <w part="I"
+            >pro-</w><lb/><w part="F">duce</w> by <hi rend="italic">mixing</hi> with the Liquors in
+          'em? <lb/>And, Laſtly, what may the <hi rend="italic">Difference</hi> be in <lb/>being
+          Immerged in <hi rend="italic">Hot</hi> and <hi rend="italic">Cold</hi> Water? </p>
+        <p rend="indent"><lb/>Theſe Conſiderations are not only Fine, <lb/>but Uſeful, and wou'd
+          ſoon make us <w part="I">Ma-</w><lb/><w part="F">ſters</w> of all that Affair. 'Tis ſure a
+            <w part="I">Maſter-</w><lb/><w part="F">piece</w> of Impudence to pretend to a <w
+            part="I">Know-</w><lb/><w part="F">ledge</w> very Particular of any Bath, and to
+          <lb/>remain Ignorant of theſe Particulars I <lb/>have juſt mention'd; nothing can be more
+          <lb/>ſtrange, except the ſetting no Value upon <lb/>ſuch Inquiries, as thoſe Pretenders
+          are <w part="I">ve-</w><lb/><w part="F">ry</w> ready to do. </p>
+        <pb xml:id="page_22" n="19"/>
+        <p rend="indent"><lb/>But not to preſs this Argument any <w part="I">far-</w><lb/><w
+            part="F">ther</w>, I may be apt to think that there can <lb/>be no manner of Doubt about
+          the great <lb/>Imperfection of our Knowledge in reſpect <lb/>of Med'cines; and how
+          Ineſtimable a good <lb/>it wou'd be to be brought out of this <w part="I">In-</w><lb/><w
+            part="F">firmity</w>. </p>
+        <p rend="indent"><lb/>But, <hi rend="italic">Gentlemen,</hi> to put an End to this
+          <lb/>Matter, I have not only given you <w part="I">Med'-</w><lb/><w part="F">cines</w> of
+          moſt ancient and common Uſe, <lb/>but I have but juſt nam'd ſuch of their <w part="I"
+            >Ef-</w><lb/><w part="F">fects</w> as are recorded by the beſt Authors; <lb/>and which
+          conſequently cannot probably <lb/>be falſe. 'Tis therefore your Buſineſs to <lb/>give
+          Satisfaction to theſe Examples I have <lb/>Adduc'd, and that by your Quality-Method
+          <lb/>of <hi rend="italic">Hot</hi> and <hi rend="italic">Cold, Red</hi> and <hi
+            rend="italic">Yellow, Acid</hi> and <lb/><hi rend="italic">Alkaly,</hi> by <hi
+            rend="italic">Taſte</hi> and <hi rend="italic">Smell, &amp;c.</hi> or becauſe <lb/>you
+          love high Flights by the <hi rend="italic">Cauſes</hi> of theſe <lb/>Qualities; yet if you
+          have any Regard to <lb/>my condeſcending to give you a lower <lb/>Method, I Challenge you
+          to give ſuch <lb/>Proofs in Point of Experience that may <lb/>aſſiſt our adminiſtring them
+          in Practice. </p>
+        <p rend="indent"><lb/>But while I ſpeak to your Method of <lb/>Qualities, I muſt inform you
+          how <w part="I">Igno-</w><lb/><w part="F">rant</w> your Pretence is in this Particular.
+            <pb xml:id="page_23" n="20"/><lb/>You pretend to determine the Power any <lb/>Med'cine
+          has to Cure a Diſeaſe only by <lb/>knowing ſome of Its Notable Qualities, <lb/>which is
+          manifeſtly falſe; becauſe there <lb/>is ſcarcely one Diſeaſe that has not <w part="I"
+            >Med'-</w><lb/><w part="F">cines</w> of oppoſite Qualities found uſeful in <lb/>its
+          Cure, and recommended to us by our <lb/>Forefathers as ſuch. </p>
+        <p rend="indent"><lb/>This is a Digreſſion, but not an <w part="I">impro-</w><lb/><w
+            part="F">per</w> one; yet to proceed; is the previous <lb/>Knowledge of a
+            Med<unclear>#</unclear>cine, or of Med'cines, <lb/>by its or their Qualities, neceſſary
+          before <lb/>we Adminiſter them? And have you this <lb/>kind of Knowledge? If you have,
+          ſhow <lb/>it us, for it is much wanting. If you <lb/>have not, then require no more of
+          others <lb/>than you your ſelves are Maſters of; and <lb/>order as few Med'cines for the
+          Publick as <lb/>you do to Patients; and none to either of <lb/>'em till you have ſatisfied
+          us that you can <lb/>do it in the mentioned Way. </p>
+        <p rend="indent"><lb/>But if you have any tolerating Method <lb/>whereby you wou'd juſtifie
+          your <w part="I">admini-</w><lb/><w part="F">ſtring</w> Med'cines in your Probation Time,
+          <lb/>do as you wou'd be done by; ſhare your <lb/>Freedom to others of your Brethren, who
+          <lb/>are at leaſt in no lower a form of <w part="I">know-</w><lb/><w part="F">ing</w> than
+          you be. </p>
+        <pb xml:id="page_24" n="21"/>
+        <p rend="indent"><lb/>And if you have a ſpecial Rule <w part="I">where-</w><lb/><w part="F"
+            >by</w> you can prefer the Uſe of one Med'cine <lb/>to that of another, for the Cure of
+          the <lb/>ſame Diſeaſe: If you have, <hi rend="italic">viz.</hi> any <w part="I"
+            >Me-</w><lb/><w part="F">thod</w> for which you wou'd rather give <lb/>Jeſuits Pouder
+          for the Cure of an Ague, <lb/>than any of the other Med'cines <w part="I"
+            >recom-</w><lb/><w part="F">mended</w> for the ſame: Let us have this <lb/>your Method
+          of reaſoning; for it may be <lb/>ſo extenſive as to comprehend more <w part="I"
+            >Med'-</w><lb/><w part="F">cines</w> in this and other Diſtempers. </p>
+        <p rend="indent"><lb/>I know the Trite and Common Methods <lb/>among Philoſophers, and all
+          Mankind, is <lb/>firſt to know if a thing is ſo, and then <lb/>how it is ſo if we are able
+          to compaſs it; <lb/>but if they ſhould not get this length, you <lb/>muſt reckon thoſe
+          little better than <lb/>Mad-men that deny the actual Exiſtence <lb/>of a Thing, becauſe we
+          do not know <lb/>the Way of its Being. And but <w part="I">juſt-</w><lb/><w part="F"
+            >ly</w>, becauſe it wou'd have us disbelieve <lb/>our Senſes, and the Senſes of all <w
+            part="I">Man-</w><lb/><w part="F">kind</w>; becauſe we cannot anſwer ſome <lb/>Queſtions
+          that are, or that happen not, <lb/>to be the Objects of our Senſes, and are <lb/>too fine
+          for our Underſtanding. So that <lb/>in the Trial, if a Man, or a Thing, is, or <pb
+            xml:id="page_25" n="22"/><lb/>does, ſuch an Action, or produces ſuch an <lb/>Effect, we
+          muſt judge of theſe Changes by <lb/>our Eyes and other Senſes, or take them <lb/>upon the
+          Teſtimony of Honeſt Capable <lb/>People that relate them, if we were not <lb/>there our
+          ſelves. This is the Way of the <lb/>World, and I ſhall not enlarge upon it, <lb/>to avoid
+          Scandal: Tho' ſo much I muſt <lb/>ſay, becauſe you and your Friend have <lb/>ſo boldly
+          unhing'd all theſe common Ways <lb/>of judging of paſt Actions, that I am <lb/>not able to
+          go further with you, till you <lb/>have inform'd us more in thoſe new <w part="I"
+            >Me-</w><lb/><w part="F">thods</w>; yet whether you will do it or not, <lb/>depend upon
+          it, a Time may come <w part="I">where-</w><lb/><w part="F">in</w> the World ſhall be
+          informed how you <lb/>uſe their old ones in Matters of the <w part="I">great-</w><lb/><w
+            part="F">eſt</w> Importance. </p>
+        <p rend="indent"><lb/>Thus I bid you Farewel, knowing to <lb/>how little Purpoſe it wou'd be
+          to invite <lb/>you to the following Diſcourſe. For you <lb/>never once dreamt of any ſuch
+          thing; and <lb/>your proper Talent is to Snarl in a Corner <lb/>at ſo Generous Attempts.
+        </p>
+      </div>
+      <div>
+        <pb xml:id="page_26" n="23"/>
+        <head rend="italic align-center"><lb/>A Poſtſcript to Phyſicians about the Neceſſity of
+          <lb/>a true Theory of Diſeaſes. </head>
+        <p rend="indent"><lb/><hi rend="dc(3)">I</hi> Continue the Diſcourſe to you on this
+          <lb/>Subject; not but that I am ſenſible how <lb/>ſeriouſly <hi rend="italic">many</hi> of
+          you think of this <w part="I">Mat-</w><lb/><w part="F">ter</w>. And that even they who <w
+            part="I">Calumni-</w><lb/><w part="F">ate</w> you on this Score, do themſelves <w
+            part="I">pre-</w><lb/><w part="F">tend</w> ſometimes to reaſon about this Affair;
+          <lb/>tho' at the ſame time they endeavour to <lb/>perſwade the World, that all Reaſonings
+          <lb/>of this Nature are Vain, and but ſo much <lb/>Time loſt to the improving of Practice.
+          <lb/>You are ſenſible how they aſſume the <lb/>quantity of Blood in a Man's Body given,
+          <lb/>and then do determine the Numbers of its <lb/>Circulations in a certain Time: So you
+          <lb/>find, that howſoever they depreciate <w part="I">rea-</w><lb/><w part="F">ſoning</w>
+          in your Caſe about things of <w part="I">Phy-</w><lb/><w part="F">ſick</w>, they are very
+          fond of the Character <lb/>of Men of Reaſon for themſelves; nay, <lb/>you find they apply
+            <hi rend="italic">Arithmetick</hi> too, and <lb/>therefore it is not reaſoning they are
+          angry <lb/>with, but that your Reaſon and <w part="I">Arith-</w><lb/><w part="F"
+            >metick</w> is better than theirs. </p>
+        <pb xml:id="page_27" n="24"/>
+        <p rend="indent"><lb/>After the ſame manner they being told how <lb/>Barbarous Indians Cure
+          Yaws with <hi rend="italic">Guaiacum,</hi>
+          <lb/>do immediately extend its Uſe to the <w part="I">Eu-</w><lb/><w part="F">ropean</w>
+          <hi rend="italic">Pox,</hi> and from that to <hi rend="italic">Leproſies,</hi> &amp;c.
+          <lb/>This is in the Nature of Man to do; but <lb/>it is the higheſt Ingratitude to
+          Calumniate <lb/>People that offer them more of ſuch <w part="I">Med'-</w><lb/><w part="F"
+            >cines</w>, or that wou'd teach them more <w part="I">na-</w><lb/><w part="F">tural</w>
+          and righter Methods, whereby this <lb/>extending of their Knowledge may be <lb/>more
+          uſefully brought on. </p>
+        <p rend="indent"><lb/>And therefore it is that I wou'd <w part="I">per-</w><lb/><w part="F"
+            >ſwade</w> you to bear up againſt the <w part="I">Calum-</w><lb/><w part="F">nies</w> of
+          theſe ill Men, and continue to do <lb/>good to Mankind, by improving your <w part="I"
+            >Pro-</w><lb/><w part="F">feſſion</w>. Be Diligent in your Enquiries <lb/>about a true
+          Theory of Diſeaſes; for it <lb/>is even by that you ſhall be greatly aſſiſted <lb/>in
+          aſcertaining your Knowledge of <w part="I">Med'-</w><lb/><w part="F">cines</w>; and by
+          that you ſhall be brought <lb/>beyond what Chance has put into your <lb/>Hands. </p>
+        <p rend="indent"><lb/>Beſides, if Med'cines were as certain in <lb/>their Effects as our
+          Hearts could wiſh, <lb/>they can do but little good without a true <lb/>Theory of
+          Diſeaſes; but eſpecially in <w part="I">re-</w><lb/><w part="F">ſpect</w> of the good they
+          do, when aſſiſted <pb xml:id="page_28" n="25"/><lb/>with it. And therefore I ſhall take
+          Leave to preſs this <w part="I">Argu-</w><lb/><w part="F">ment</w> a little farther to you
+          than it is commonly done. </p>
+        <p rend="indent"><lb/>The firſt of theſe is very manifeſt to thoſe who have thought <lb/>the
+          leaſt on that Subject; and I believe ſome time or other I may <lb/>be able to give ſome
+          Light into this Abſtruſe Affair. </p>
+        <p rend="indent"><lb/>As to the 2d Particular, we find the whole World on our ſide <lb/>in
+          the main; for to what Purpoſe ſhould an Infallible Med'cine <lb/>ſerve, if we knew not the
+          Diſeaſe it Cures, when it appears <lb/>upon us or our Neighbour? Suppoſing, <hi
+            rend="italic">viz.</hi> it were as great <lb/>a Difficulty to know an Ague in <hi
+            rend="italic">general,</hi> as it is to know it in <lb/><hi rend="italic">all</hi> its
+          Circumſtances, 'tis certain that this Excellent Med'cine, <lb/>the Jeſuits Pouder, ſhould
+          be of very little Uſe to us. </p>
+        <p rend="indent"><lb/>So far I may be thought in the right; but next, no general
+          <lb/>Deſcription that is almoſt poſſible to be made of a Diſeaſe, can <lb/>be of
+          ſufficient Uſe to us in adminiſtring our Infallible <w part="I">Med'-</w><lb/><w part="F"
+            >cines</w>, becauſe we are not always improperly Sick; but as a <lb/>Diſtemper at one
+          Time may Kill us, yet it may Cure us of ſome <lb/>other Diſeaſe at another: And if this is
+          poſſible, it is evident to <lb/>every Common Underſtanding, that the more ſurely any <w
+            part="I">Med'-</w><lb/><w part="F">cine</w> did promiſe the overthrow of a Diſeaſe, with
+          the ſame <lb/>certainty it brought along the impending Fate of the Sick Perſon. <lb/>If
+          Diſeaſes thus ſometimes Cure others that afflict us; and if we <lb/>only want to have them
+          deſcrib'd in order to apply our truſty <lb/>Remedy, as it is ſuppos'd: It is moſt manifeſt
+          that we do really <lb/>hinder and obſtruct a perfect Cure of a Diſeaſe that ſhould be
+          <lb/>diſmiſt by ſome other, if we did not endeavour to remove <lb/>this curing Diſeaſe by
+          a faithful Med'cine; and yet, perhaps, <lb/>we rid our Patients of neither of them: Nay,
+          the more <w part="I">Power-</w><lb/><w part="F">ful</w> and Infallible the Med'cine is
+          that we Employ, the more do <lb/>we put it out of the Power of Nature, or the Strength of
+            <w part="I">Con-</w><lb/><w part="F">ſtitution</w>, to conquer the afflicting Diſtemper,
+          and the more <hi rend="italic"><lb/>Noxious</hi> Remedy. So that here appears a mighty
+          Paradox, <lb/>that one Diſeaſe ſhould prove a Cure for another, and yet we <lb/>never
+          ſhall be able to know when one Diſeaſe will be the Cure <lb/>of another, but by a true
+          Theory of Diſeaſes, which by moſt is <lb/>ridicul'd, and neglected by too many. </p>
+        <p rend="indent"><lb/><hi rend="italic">Hippocrates,</hi> and all ancient Phyſicians,
+          eſpecially, have <lb/>fully prov'd this Paradox by their repeated <hi rend="italic"
+            >Obſervations;</hi> and <lb/>neither have <hi rend="italic">they</hi> failed in their
+          Truth among more Modern <lb/>Phyſicians, who have thought obſerving of any Uſe. It will
+          <lb/>not be amiſs, I preſume, to give ſome Examples of this Matter: <pb xml:id="page_29"
+            n="26"/><lb/>and thoſe ſhall be of that Nature, that the Diſeaſes I ſhall name <lb/>do
+          moſt eſpecially require the quickeſt Aid, and the moſt <w part="I">cer-</w><lb/><w
+            part="F">tain</w> Ways of Curing; yet if even they are the Cures of other <lb/>Diſeaſes,
+          this whole Matter muſt be true without Exception. <hi rend="italic"><lb/>Feavers,
+            Dyſenteries, Dropſies,</hi> &amp;c. are of this kind; and who <lb/>wou'd not wiſh for an
+          unerring Specifick for their Cure? Yet <hi rend="italic"><lb/>Hipp.</hi> ſays, That <hi
+            rend="italic">if a Feaver comes upon one afflicted with <w part="I">Convul-</w><lb/><w
+              part="F">ſions</w>, it Cures him of that Diſtemper;</hi> and therefore whoſoever
+          <lb/>does attempt to baniſh this Feaver with his Truſty Med'cine, muſt, <lb/>according to
+          his Succeſs, either entail this Diſeaſe on his Patient, <lb/>or deſtroy him altogether, if
+          Nature is not able to baffle both <lb/>the Curer and the Diſeaſe. </p>
+        <p rend="indent"><lb/>The ſame <hi rend="italic">Hippocrates</hi> exhorts us not to deſpair
+          of a <hi rend="italic">Mania-<lb/>cal Mad</hi> Perſon when he <hi rend="italic"
+            >begins</hi> to have a <hi rend="italic">Dyſentery,</hi> or a <hi rend="italic"
+            >Dropſie,</hi> but <lb/>to <hi rend="italic">hope</hi> the better of his <hi
+            rend="italic">Recovery;</hi> and therefore if any one <lb/>obſerving the approach of any
+          ſuch Diſeaſe, ſhould turn to his <lb/>Receipt book for a Cure, and ſhould be happy enough
+          to have <lb/>an Excellent Med'cine for either of 'em, muſt be the more <w part="I"
+            >miſta-</w><lb/><w part="F">ken</w> in the Succeſs by the Siniſtrous Application; for he
+          does <lb/>with great Certainty confirm the Madneſs on his Patient. </p>
+        <p rend="indent"><lb/>Moreover, great Vomitings, which are not only of fatal <w part="I"
+            >Con-</w><lb/><w part="F">ſequence</w>, but at once cut off all Hopes of ſuccouring <w
+            part="I">languiſh-</w><lb/><w part="F">ing</w> Nature, do require the ſpeedieſt Care of
+          the beſt Phyſician, <lb/>and the moſt Infallible Methods; yet theſe are ſometimes of
+          <lb/>great Benefit when they come in the latter end of a <hi rend="italic">Looſeness</hi>
+          <lb/>of a long continuance, as the ſame <hi rend="italic">Hippocrates</hi> aſſures us, and
+          <lb/>conſtant Experience does vouch. And therefore, tho' <hi rend="italic"
+            >Dyſente-<lb/>ries, Feavers, Dropſies, Vomiting,</hi> &amp;c. be Diſeaſes that can of
+          <lb/>themſelves bring Life to its final Period, and do juſtly require <lb/>our utmoſt
+          Study to diſcover their Nature, and to find out the <lb/>beſt Methods and Med'cines for
+          Curing 'em; yet they come <lb/>ſometimes as the beſt and moſt ſpeedy Remedies for ſome
+          other <lb/>Diſtempers, which perhaps have already baffled all other <w part="I"
+            >Me-</w><lb/><w part="F">thods</w> already, beſides theſe Diſeaſes that thus Cure: And
+          there <lb/>being no other Means left to ſhake off the Diſtemper, it muſt <lb/>ſtill
+          continue to be dangerous, if the unhappy Curer has <w part="I">Suc-</w><lb/><w part="F"
+            >cess</w> enough to baffle that Healing Diſeaſe; and thereis no <w part="I"
+            >Poſſi-</w><lb/><w part="F">bility</w> of knowing a fatal Diſtemper from the <hi
+            rend="italic">ſame,</hi> when it is <lb/>to prove a Cure, but by knowing the neceſſary
+          Productions of <lb/>Diſeaſes, and the particular Conditions of Human Bodies, in <lb/>which
+          they are produc'd, <hi rend="italic">i.e.</hi> by having a true Theory of <w part="I"
+            >Diſ-</w>
+          <pb xml:id="page_30" n="27"/><lb/><w part="F">eaſes</w>. Wherefore a true and an accurate
+          Theory of Diſeaſes is <lb/>the moſt neceſſary Thing for advancing a Phyſician's Knowledge
+          <lb/>for Curing Diſeaſes. </p>
+        <p rend="indent"><lb/>But, 2dly, This Argument holds very ſtrong in reſpect of <w part="I"
+            >Idio-</w><lb/><w part="F">pathical</w> and Sympathical Diſeaſes; for moſt frequently
+          the <w part="I">Di-</w><lb/><w part="F">ſtemper</w> that makes the greateſt Figure is moſt
+          taken notice of, <lb/>and frightens us the moſt, is very dependent, and is ſupported by a
+          very <lb/>ſmall Cauſe, and yet it will continue frightful and threatning ſo long <lb/>as
+          all our Applications are for this fearful Part; and its <w part="I"
+            >inconſidera-</w><lb/><w part="F">ble</w> Cauſe remains unregarded, except in midſt of
+          this Buſtle the Mi-<lb/><unclear>#</unclear>ute Occaſion paſſes off of it ſelf, very much
+          to the Reputation of <lb/>the Malignant Curer, tho' little is added to the Stock of
+          Phyſick. <lb/>There be Thouſands of Inſtances to prove this Thing; but I ſhall be
+          <lb/>ſatisfied to adduce One, becauſe it is Evident, and of great Uſe, when <lb/>extended
+          to all its Length, and that it fully proves all I have ſaid on <lb/>this Head. The Example
+          is this Caſe of One, who having a Wound, <lb/>there may be a very moderate Pain, and a
+          Generation of <hi rend="italic">Pus,</hi> and <lb/>with this there will be a Feaver more
+          or leſs to the Cauſes. This <w part="I">Fea-</w><lb/><w part="F">ver</w> may be improv'd
+          by a Feaver-Doctor, that the Suppuration ſhall <lb/>miſcarry, and the fatal Feaver get a
+          mighty Strength: Whereas if he <lb/>is leſs frightned with this Common Feaver, and has
+          Patience or Art <lb/>to ſuffer the Suppuration to proceed, or to promote it by various <w
+            part="I">Me-</w><lb/><w part="F">thods</w>, his Fears will vaniſh with the Feaver, which
+          aſſuredly goes <lb/>off in that order that the <hi rend="italic">Pus</hi> does take place. </p>
+        <p rend="indent"><lb/>This Argument holds evidently in every thing that relates to the
+          <lb/>Cure of Diſeaſes: For Diſeaſes are not only the Cures of Diſeaſes; <lb/>and not only
+          great Diſcretion is to be uſed in diſcovering an <w part="I">Idiopa-</w><lb/><w part="F"
+            >thical</w> One; neither do we only adminiſter Infallible Remedies in <w part="I"
+            >un-</w><lb/><w part="F">due</w> and unſeaſonable Times, having no better Guides than a
+          general <lb/>Deſcription of Diſeaſes. But alſo, for not having a true Theory of
+          <lb/>Diſeaſes, we do not know when it is time to put a ſtop to our <w part="I"
+            >Suc-</w><lb/><w part="F">ceſſful</w> Method; and but too frequently carry on a needleſs
+          Practice, to <lb/>the great Detriment and Hazard of the ſick Perſon. There may be
+          <lb/>ſundry Examples brought for proving of this; but I ſhall again <w part="I"
+            >con-</w><lb/><w part="F">tent</w> my ſelf with One: In the <hi rend="italic">Jaundice,
+            viz.</hi> whoſe <w part="I">Patho-</w><lb/><w part="F">gnomonical</w> Sign is moſt
+          commonly the <hi rend="italic">Yellowneſs,</hi> as its very Name <lb/>imports; yet this
+          Yellowneſs is not <hi rend="italic">always</hi> attending the Indiſpoſition, <lb/>but does
+          ſometimes continue when the ſick Perſon is free of the <w part="I">Di-</w><lb/><w part="F"
+            >ſtemper</w>, and paſt all Danger from the ill Accidents that ſucceed it; <lb/>nay,
+          frequently the Yellowneſs is augmented by ſome Methods that <lb/>Cure the Diſeaſe: By
+          which means the Cure is ſtill manag'd to the <pb xml:id="page_31" n="28"/><lb/>Charge,
+          Abhorrence and Danger of the Patient, and ſtill with the <lb/>good Intention of an
+          Ignorant Curer. </p>
+        <p rend="indent"><lb/>Whereas by a true Theory of Diſeaſes, it is not only eaſie to <w
+            part="I">de-</w><lb/><w part="F">termine</w> when one is Yellow, and has the Jaundice,
+          and when one is <lb/>Yellow, and cur'd of the Jaundice. But underſtanding the Reaſon of
+          <lb/>both, he can deſtroy the Yellowneſs, when no Conſideration is hald <lb/>to the firſt
+          Diſeaſe. </p>
+        <p rend="indent"><lb/>I think this does very manifeſtly convince us that there is ſomething
+          <lb/>elſe Neceſſary, beſides Infallible Med'cines, for the Cure of <w part="I"
+            >Diſtem-</w><lb/><w part="F">pers</w>; though at the ſame time the beſt Theories will
+          Cure no <lb/>Diſeaſe without Proper Remedies; and the more Excellent they <lb/>are of
+          their Kind, the more Valuable they are. </p>
+        <p rend="indent"><lb/><hi rend="italic">Laſtly,</hi> This Matter will appear manifeſtly, and
+          at once to our View, <lb/>if we do but reflect on the various and oppoſite Sorts of
+          Med'cines, <lb/>that the faithful Obſervations of all former Ages have ſent us for
+          <lb/>the Cure of the ſame Diſeaſe. For the Variety ſhows the Defect, as <lb/>well as the
+          Neceſſity of trying about for more, and more certain, <lb/>Med'cines: And the oppoſite
+          Sorts point out to us the Variety of <w part="I">Cir-</w><lb/><w part="F">cumſtances</w>
+          of the Diſtemper: So that my former Gentleman, <hi rend="italic">A—s,</hi>
+          <lb/>is ſcarcely initiated in theſe Matters, when he talks of a <lb/>Med'cine of one
+          Quality to Cure the ſame Diſeaſe. This <lb/>in paſſing. An Example of this is every
+          Diſeaſe. But I ſhall Inſtance <lb/>in the Caſe of a Conſumption, for which Experience has
+            <w part="I">recom-</w><lb/><w part="F">mended</w> a very notable Variety of Med'cines,
+          and theſe very oppoſite. <lb/>Are we not told of <hi rend="italic">Milk</hi> and <hi
+            rend="italic">Brimſtone, Balſams,</hi> and <hi rend="italic">Attenuating</hi>
+          <w part="I">Med'-</w><lb/><w part="F">cines</w>, and a great Abundance of more jarring
+          Things? But to give a <lb/>fuller Example in this Particular, I refer you to what I have
+          ſaid on <lb/>this Subject in my <hi rend="italic">Alvi Profluvia:</hi> By all which it is
+          very plain how <lb/>inſufficient the greateſt Stock of the beſt Med'cines is, without a
+          true <lb/>Theory of Diſeaſes, even for the Cure of Diſeaſes. </p>
+        <p rend="indent"><lb/>Let me therefore perſwade Candid and Honeſt Phyſicians to ſet <w
+            part="I">a-</w><lb/><w part="F">bout</w> a ſedulous Inquiry for a true Theory of
+          Diſeaſes, and a more exact <lb/>Method for diſcovering the directeſt and moſt advantageous
+          Uſes of <lb/>good Med'cines, that we may do the moſt good to Mankind, and <lb/>ſhow that
+          the Med'cines chance have put into our Hands, may even <lb/>have ſome Improvement from us:
+          Neither let us in this Inquiry be <lb/>diſcourag'd with the Impudence of Pretenders nor by
+          the ſmall <w part="I">Ad-</w><lb/><w part="F">vances</w> we can hope to make; for they
+          only hate you for your doing <lb/>better than themſelves; and no Body can tell what
+          attempting in this <lb/>Matter does produce, but they that have once tried it. </p>
+        <trailer rend="italic align-center"><lb/>FINIS. </trailer>
+      </div>
+    </body>
+  </text>
+</TEI>

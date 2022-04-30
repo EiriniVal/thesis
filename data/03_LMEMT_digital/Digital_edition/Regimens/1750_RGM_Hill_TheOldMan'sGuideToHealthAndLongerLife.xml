@@ -1,0 +1,1159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LMEMT Corpus - Hill: The old man's guide to health and longer life</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>John Hill</persName>
+            </author>
+            <title type="main">The Old Man's Guide to Health and longer Life: with Rules for Diet,
+              Exercise, and Physick; for Preserving a good Constitution, and preventing Disorder in
+              a bad one. </title>
+            <edition n="2"/>
+            <idno type="ESTC">T42171</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/T42171"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>London: printed for M. Cooper, in Paternoster-Row. And J. Jolliffe, in St.
+                  James's-Street.</persName>
+              </publisher>
+              <date>1750</date>
+            </imprint>
+            <extent>
+              <measure type="format">8⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="2"/>
+              <measure type="count" commodity="body" unit="page" quantity="54"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">British Library</orgName>
+            <idno type="ECCO">CW3307318640</idno>
+            <idno type="TCP">K041312.000</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Health guide"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text xml:lang="eng">
+    <front>
+      <div>
+        <pb xml:id="page_1"/>
+        <p rend="align-center"><lb/>THE <lb/><hi rend="dc(2)">Old <hi rend="sc">Man's
+            Guide</hi></hi>
+          <lb/>TO <lb/><hi rend="dc(2)">Health and longer Life:</hi>
+        </p>
+        <p rend="indent"><lb/>(Price One Shilling and Sixpence.) </p>
+      </div>
+      <pb xml:id="page_2"/>
+      <titlePage rend="align-center">
+        <docTitle>
+          <titlePart type="main" rend="align-center"><lb/>THE <lb/><hi rend="dc(2)">Old <hi
+                rend="sc">Man's Guide</hi></hi>
+            <lb/><hi rend="size(0.5)">TO</hi>
+            <lb/><hi rend="dc(2)">Health and longer Life: </hi></titlePart>
+          <lb/>
+          <titlePart type="sub">WITH <lb/><hi rend="size(1.5)"><hi rend="sc">Rules for Diet,
+                Exercise</hi>, and <lb/><hi rend="sc">Physick;</hi></hi></titlePart>
+          <lb/>
+          <titlePart type="desc">FOR <lb/>Preſerving a good <hi rend="sc">Constitution</hi>, and
+            <lb/>preventing Diſorders in a bad one. </titlePart>
+        </docTitle>
+        <lb/>
+        <figure>
+          <figDesc>A simple horizontal line, spanning the whole page.</figDesc>
+        </figure>
+        <docEdition>The SECOND EDITION. </docEdition>
+        <lb/>
+        <figure>
+          <figDesc>A simple horizontal line, spanning the whole page.</figDesc>
+        </figure>
+        <docImprint>
+          <pubPlace key="London"><lb/><hi rend="italic">LONDON:</hi></pubPlace>
+          <lb/>Printed for <persName role="publisher" key="M. Cooper_J. Jolliffe">
+            <hi rend="sc">M. Cooper</hi>, in Paternoſter-row.<lb/> And <hi rend="sc">J.
+              Jolliffe</hi>, in St. James's-Street. </persName>
+          <lb/>(Price One Shilling and Sixpence.) </docImprint>
+      </titlePage>
+    </front>
+    <body>
+      <pb xml:id="page_3"/>
+      <head rend="align-center"><lb/>THE <lb/><hi rend="dc(2)">Old MAN's <hi rend="sc">Guide</hi>.
+        </hi></head>
+      <p rend="indent"><lb/><hi rend="dc(3)">H</hi>EALTHFUL old age is the moſt <lb/>valuable and
+        happy period of <w part="I">hu-</w><lb/><w part="F">man</w> Life. Experience has <w part="I"
+          >ren-</w><lb/><w part="F">der'd</w> the antient more able than thoſe <lb/>who have ſeen
+        leſs, and felt leſs, to <w part="I">con-</w><lb/><w part="F">duct</w> themſelves and their
+        deſcendants; and <lb/>being freed from the empire of the <w part="I">paſ-</w><lb/><w
+          part="F">ſions</w> they enjoy quiet. </p>
+      <p rend="indent"><lb/>Philoſophy pretends to this condition; <lb/>but age gives it truly.
+        Whatever their <lb/>heirs may think, it is worth preſerving; <lb/>and in that ſenſe I write
+        the preſent T<lb/>reatiſe. </p>
+      <p rend="indent"><lb/>A hundred are cut off at this advanced <lb/>period, by diſorders which a
+        proper <w part="I">regi-</w><lb/><w part="F">men</w> might have prevented, for one who
+        <lb/>dies of age, or its unavoidable effects. <lb/>Many fall by accidents, to one who is
+        <lb/>fairly call'd away by nature: and theſe <pb xml:id="page_4" n="4"/><lb/>accidents and
+        diſorders it is propoſed here <lb/>to give the means of avoiding. </p>
+      <p rend="indent"><lb/>Old mens diſeaſes are hard to cure, but <lb/>they are eaſily prevented:
+        and the ſame <lb/>means which preſerve their health give <lb/>happineſs. It muſt be a good
+        natural <w part="I">fa-</w><lb/><w part="F">brick</w> which has preſerved itſelf entire ſo
+        <lb/>long, and thro' ſo many chances; and <lb/>the ſame ſtrength will keep it, perhaps,
+        <lb/>much longer together under a good <w part="I">re-</w><lb/><w part="F">gulation</w>. </p>
+      <p rend="indent"><lb/>Moderate diet and proper exerciſe are <lb/>the beſt guardians of the
+        health of old <lb/>and young: and in the advanced period <lb/>here conſidered there are two
+        great <w part="I">pre-</w><lb/><w part="F">ſervatives</w> beſides; theſe are <hi rend="sc"
+          >ease of mind</hi>
+        <lb/>and <hi rend="sc">cheerfulness of disposition</hi>, <lb/>both are the natural offſpring
+        of health; <lb/>and they will continue the bleſſing to <lb/>which they owe their origin. </p>
+      <p rend="indent"><lb/>We ſhall conſider firſt the hale and <lb/>healthy old man; and
+        afterwards the <lb/>weakly, and the ſick: for our purpoſe is <lb/>firſt to direct thoſe how
+        to preſerve health <lb/>who have it, and afterwards to reſtore, or <lb/>to recover it where
+        it is attack'd or <w part="I">en-</w><lb/><w part="F">feebled</w> by diſeaſes. </p>
+      <div n="1" type="chapter">
+        <pb xml:id="page_5" n="5"/>
+        <head rend="align-center"><lb/>CHAP. I. <lb/><hi rend="italic">How the old man may know he
+            is in health. </hi></head>
+        <p rend="indent"><lb/><hi rend="dc(3)">'T</hi>IS allow'd that we know ſo little <lb/>of
+          nothing, as of ourſelves: It has <lb/>been ſaid principally of the mind, but it is
+          <lb/>ſcarce leſs true of the body. The fancying <lb/>we have diſeaſes will often bring
+          them <lb/>upon us; and there is as much danger in <lb/>forcing ourſelves to believe
+          againſt our <w part="I">feel-</w><lb/><w part="F">ing</w>, that we are well, when ſome
+          diſorder <lb/>is in the body. This is the leſs common <lb/>error; but there are more
+          inſtances of <lb/>it than may be thought. </p>
+        <p rend="indent"><lb/>To avoid both let the old man read <lb/>here with a free mind. Let him
+          not <w part="I">ſup-</w><lb/><w part="F">poſe</w>, becauſe God has bleſſed him with
+          <lb/>long health, he is above the reach of <w part="I">ſick-</w><lb/><w part="F">ness</w>;
+          nor neglect the care which may <lb/>conquer, in its beginning, a diſeaſe that <lb/>will
+          elſe in the end conquer him. Let <lb/>him be as ready to acknowledge real <w part="I"
+            >diſ-</w><lb/><w part="F">orders</w>, as careful to avoid the imaginary. </p>
+        <p rend="indent"><lb/>Health conſiſts in a good digeſtion of <lb/>the food, and a free
+          circulation of the <lb/>blood. The appetite and the condition <lb/>of the ſtomach after
+          eating will ſhew the <lb/>firſt; and the latter may be known beſt <lb/>by the pulſe. </p>
+        <pb xml:id="page_6" n="6"/>
+        <p rend="indent"><lb/>That old perſon's digeſtion is good, who <lb/>has a ſharp but not
+          voracious appetite; <lb/>and who feels no pain or ſickneſs after <lb/>meals. To preſerve
+          this let him always <lb/>be content with leſs than the full of what <lb/>he could eat: for
+          the ſure way to keep <lb/>the ſtomach in order is not to overload <lb/>it. </p>
+        <p rend="indent"><lb/>The time of feeling the pulſe is in a <lb/>morning, ſome time after
+          getting up, and <lb/>before breakfaſt. It ſhould be a rule <lb/>never to omit this
+          examination. A <w part="I">con-</w><lb/><w part="F">ſtant</w> and regular attention to it
+          will ſhew <lb/>the ſlighteſt variations; and whenever <lb/>ſuch happen, care muſt be taken
+          of the <lb/>health. </p>
+        <p rend="indent"><lb/>There are mechanical methods of <w part="I">count-</w><lb/><w part="F"
+            >ting</w> the ſtrokes by a watch; but the plainer <lb/>way is better. The general
+          regular <w part="I">mea-</w><lb/><w part="F">ſure</w> is ſeventy-four ſtrokes in a minute:
+          <lb/>but pulſes differ greatly in various perſons; <lb/>and nature may be injur'd by
+          forcing her <lb/>toward a condition ſhe, perhaps, never <lb/>had, nor requires. </p>
+        <p rend="indent"><lb/>A frequent examination will inform any <lb/>perſon what is the
+          condition of the pulſe <lb/>when in health; and the deviations from <lb/>this are the
+          rules to know ſickneſs. </p>
+        <p rend="indent"><lb/>While an old man feels his pulſe <w part="I">re-</w><lb/><w part="F"
+            >gular</w>, finds his digeſtion good, and with <lb/>a mind at eaſe can take his uſual
+          exerciſe <pb xml:id="page_7" n="7"/><lb/>freely, he may laugh at the expectation <lb/>of
+          the next in inheritance: he may be <w part="I">cer-</w><lb/><w part="F">tain</w> he is
+          well; and we ſhall tell him how <lb/>to keep ſo: For when the fault is ſeen in <lb/>time
+          it is eaſily remedy'd. If the pulſe <lb/>beat too quick and high the diet muſt be <lb/>a
+          little lower; if too ſlow, and weak, the <lb/>food muſt be richer. This ſhort direction
+          <lb/>will prevent diſeaſes. </p>
+        <p rend="indent"><lb/>The doctors will not thank me for this, <lb/>but I do not write it for
+          their ſervice: <lb/>they muſt own 'tis true, tho' they <w part="I">diſ-</w><lb/><w
+            part="F">like</w> the publiſhing it. If men would pay <lb/>more regard to their own
+          conſtitutions, <lb/>they would want little of their aſſiſtance; <lb/>which always comes
+          too late to prevent <lb/>miſchief; and often to relieve it. </p>
+      </div>
+      <div n="2" type="chapter">
+        <head rend="italic align-center"><lb/><hi rend="roman">CHAP. II.</hi>
+          <lb/>Of preſerving a healthful ſtate in old age. </head>
+        <p rend="indent"><lb/><hi rend="dc(3)">E</hi>XERCISE has thro' the younger <lb/>part of life
+          been very inſtrumental <lb/>in preſerving the health: when we grow <lb/>old we cannot uſe
+          ſo much; and we muſt <lb/>therefore be doubly careful in our diet. <lb/>That will go off
+          with exerciſe, which will <lb/>overload the body when kept quiet: that <lb/>will nouriſh
+          while we walk abroad, which, <lb/>when we ſtay at home, breeds fevers. The <pb
+            xml:id="page_8" n="8"/><lb/>leſs exerciſe we uſe the leſs we ſhould eat; <lb/>and what
+          we do ſhould be of the milder <lb/>nature. </p>
+        <p rend="indent"><lb/>We muſt not make this change <w part="I">violent-</w><lb/><w part="F"
+            >ly</w>: for all ſudden alterations in the diet <lb/>are dangerous. Our ſtrength for
+          exerciſe <lb/>will leave us by degrees, and we muſt <w part="I">re-</w><lb/><w part="F"
+            >duce</w> our food in quantity and quality <w part="I">ac-</w><lb/><w part="F"
+            >cordingly</w>; by a little at a time, not by a <lb/>harſh change at once. </p>
+        <p rend="indent"><lb/>Winter is the ſeaſon when old men are <lb/>leaſt healthy; therefore
+          they muſt then <lb/>be moſt careful. They are colder than <lb/>young perſons, therefore
+          cold more affects <lb/>them. The weakneſs of their circulation <lb/>makes them cold, and
+          this is known by <lb/>their feeble and ſlow pulſe. They will <lb/>know therefore that the
+          cold weather has <lb/>hurt them, when they perceive the pulſe <lb/>more weak and ſlow than
+          uſual; and they <lb/>muſt preſerve themſelves againſt it; and <lb/>recover the new damage
+          by more warmth, <lb/>and a ſomewhat higher diet. </p>
+        <p rend="indent"><lb/>If perſpiration have been ſtop'd by <w part="I">ex-</w><lb/><w
+            part="F">ternal</w> cold, and no other ill effect follow, <lb/>it will be ſeen by the
+          urine being paler <lb/>and more in quantity than uſual. In this <lb/>caſe let flannel be
+          put on carefully, it will <lb/>encreaſe, or reſtore the perſpiration, and <lb/>the urine
+          will come to its due colour and <pb xml:id="page_9" n="9"/><lb/>quantity: after that let
+          it be very carefully <lb/>left off again. </p>
+        <p rend="indent"><lb/>The good we ſhew it can do, proves it <lb/>may alſo do harm. Health
+          conſiſts in the <lb/>evacuations having all their proper courſe <lb/>and quantity; and
+          flannel will diminiſh <lb/>one as much as it encreaſes another. </p>
+        <p rend="indent"><lb/>No diſorder is more troubleſome to old <lb/>people than coſtiveneſs:
+          and the uſe of <w part="I">flan-</w><lb/><w part="F">nel</w> improperly will ſometimes
+          occaſion <lb/>this; by taking off too much of the natural <lb/>moiſture. </p>
+        <p rend="indent"><lb/>By this, as by the other rules, the old <lb/>perſon will ſee that a
+          careful attention to <lb/>his health is the only way to preſerve it: <lb/>and that things
+          are excellent when properly <lb/>uſed, which may otherwiſe be <w part="I"
+            >deſtruc-</w><lb/><w part="F">tive</w>. </p>
+        <p rend="indent"><lb/>If the appetite fail, or wind oppreſs <lb/>the ſtomach after meals,
+          let the perſon <lb/>take more air, and exerciſe; and read or <lb/>ſtudy leſs: for much
+          ſtudy always hurts <lb/>the digeſtion; and when that is impaired, <lb/>worſe miſchiefs
+          will follow. </p>
+      </div>
+      <div n="3" type="chapter">
+        <pb xml:id="page_10" n="10"/>
+        <head rend="italic align-center"><lb/><hi rend="roman">CHAP. III.</hi>
+          <lb/>Of the diet of old men. </head>
+        <p rend="indent"><lb/><hi rend="dc(3)">I</hi>T has been cuſtomary to recommend <lb/>a
+          particular diet to old perſons; as if <lb/>one courſe of living could ſuit all <w part="I"
+            >conſti-</w><lb/><w part="F">tutions</w>: but this is very wrong. Old men <lb/>differ as
+          much from one another, as old <lb/>from young; and according to their <w part="I"
+            >ſe-</w><lb/><w part="F">veral</w> conſtitutions, a various courſe of <lb/>life is
+          neceſſary in this reſpect. <w part="I">There-</w><lb/><w part="F">fore</w> we ſhall
+          eſtabliſh no peculiar diet as <lb/>fit for every old perſon; but only lay down
+          <lb/>certain general rules. Theſe will hold <lb/>univerſally, becauſe they are calculated
+          for <lb/>old people, merely as they are old; not <lb/>as they are of one or another
+          conſtitution. </p>
+        <p rend="indent"><lb/>Lighter diet is more proper for aged <lb/>perſons than young; and this
+          in their <w part="I">li-</w><lb/><w part="F">quors</w> as well as ſolid food. </p>
+        <p rend="indent"><lb/>Beef and pork ſhould be avoided: for <lb/>the ſtomach will rarely be
+          able to digeſt <lb/>theſe when it is not aſſiſted by exerciſe. </p>
+        <p rend="indent"><lb/>Lamb, veal, pig, chickens, and tame <lb/>rabbet are very excellent
+          food for old <lb/>perſons; and out of theſe, if there are no <lb/>others, a tolerable
+          management may <w part="I">pro-</w><lb/><w part="F">duce</w> ſufficient variety. </p>
+        <pb xml:id="page_11" n="11"/>
+        <p rend="indent"><lb/>No aged perſon ſhould eat more than <lb/>one meal of ſolid food in the
+          day. The <lb/>ſtomach will be able to manage a dinner <lb/>when the breakfaſt and ſupper
+          have been <lb/>light: otherwiſe the load of one meal not <lb/>being gone off before
+          another is brought <lb/>in, neither will be digeſted. </p>
+        <p rend="indent"><lb/>The ſubſtantial meal ſhould be dinner; <lb/>and this ſhould not be
+          eaten too early, <lb/>that the appetite may not be violent for <lb/>ſupper. It has been
+          obſerved already, <lb/>that the quantity of food at a meal ſhould <lb/>be leſs for old
+          perſons than for young: <lb/>and the older they grow, the more this <lb/>ſhould be
+          diminiſhed. This was the <w part="I">prac-</w><lb/><w part="F">tice</w> of Hippocrates;
+          and by the <w part="I">obſerv-</w><lb/><w part="F">ance</w> of it Carnaro lived to his
+          extreme <lb/>age. </p>
+        <p rend="indent"><lb/>This regulation principally concerns <lb/>dinner, which is the capital
+          meal: with <w part="I">re-</w><lb/><w part="F">ſpect</w> to ſupper, the lighter it is the
+          better; <lb/>though we do not agree with thoſe who <lb/>adviſe the omitting that meal
+          intirely. <lb/>Moderation is the rule of health in all life; <lb/>but moſt of all in the
+          old man's life. <lb/>They were in the right who declared <lb/>the miſchief of ſolid or
+          heavy ſuppers; <lb/>but the poets have long ſince ſaid what <lb/>ſort of people thoſe are,
+          who, in avoiding a <lb/>fault, ruſh into its contrary. There is a <pb xml:id="page_12"
+            n="12"/><lb/>medium between a heavy ſupper and <w part="I">emp-</w><lb/><w part="F"
+            >tiness</w>; and this is beſt. Since all agree <lb/>ſolid food at this meal is wrong,
+          let the <lb/>old man eat liquid; and of all liquid diets, <lb/>thoſe which are partly
+          compoſed of milk <lb/>are beſt. </p>
+        <p rend="indent"><lb/>'Tis only in the extreme of age that <lb/>men become children again in
+          their <w part="I">un-</w><lb/><w part="F">derſtandings</w>; but in their bodily faculties
+          <lb/>they approach this condition ſooner: for <lb/>they grow weak as they grow aged, and
+          <lb/>weakneſs is weakneſs whether it be in old <lb/>men or children. For this reaſon the
+          food <lb/>of children is fit for them, at leaſt in the <lb/>leſſer meal. Their digeſtive
+          faculties are <lb/>leſs powerful; but milk is in a manner <lb/>ready digeſted. They want
+          an eaſy <w part="I">nou-</w><lb/><w part="F">riſhment</w>; and this affords it, without
+          <lb/>loading the ſtomach, or oppreſſing it <w part="I">dur-</w><lb/><w part="F">ing</w>
+          the hours of reſt. </p>
+        <p rend="indent"><lb/>Aſſes milk is moſt eaſy of digeſtion, <lb/>and moſt nouriſhing; and a
+          pint of that, <lb/>with a ſmall toaſt, eaten two hours before <lb/>bed-time, will be
+          nouriſhing, and ſit eaſy <lb/>on the ſtomach. The value of aſſes milk <lb/>is its
+          lightneſs: that of the cow is richer <lb/>and heavier. Thoſe who uſe the latter in
+          <lb/>this caſe in the country ſhould mix it firſt <lb/>with equal parts of ſoft water: in
+          London <pb xml:id="page_13" n="13"/><lb/>this care is unneceſſary, thoſe who ſell milk
+          <lb/>do it for them. </p>
+        <p rend="indent"><lb/>There are many other methods in which <lb/>milk is pleaſant and
+          proper: milk pottage, <lb/>thin rice milk, and other ſuch diſhes, <lb/>will give a variety
+          without having <w part="I">re-</w><lb/><w part="F">courſe</w> to other things. But ſome
+          farther <lb/>change is not denied them: weak broths <lb/>of veal, chicken, and mutton may
+          be eat <lb/>occaſionally; and gellies honeſtly made at <lb/>home, are proper, ſafe, and
+          nouriſhing. </p>
+        <p rend="indent"><lb/>With this choice, the old man need not <lb/>deſire meat ſuppers; and
+          theſe things will <lb/>anſwer the double purpoſe of nouriſhing <lb/>and moiſtening the
+          body; for aged perſons <lb/>are naturally too dry in their <w part="I"
+            >conſtitu-</w><lb/><w part="F">tions</w>. </p>
+        <p rend="indent"><lb/>The breakfaſt is the only meal <w part="I">remain-</w><lb/><w part="F"
+            >ing</w> to be conſidered, and this is not a <lb/>very important one. Thoſe who eat no
+          <lb/>ſupper are too hungry in a morning; and <lb/>the ſtomach is loaded with what they
+          take <lb/>at that time, and therefore is the leſs able <lb/>to digeſt a dinner. </p>
+        <p rend="indent"><lb/>This is the reaſon we adviſe old <w part="I">per-</w><lb/><w part="F"
+            >ſons</w> to eat ſuppers, provided they be of <lb/>a right kind; theſe take off the edge
+          of <lb/>the morning's appetite, and there will <lb/>remain juſt ſo much deſire to eat as
+          will <pb xml:id="page_14" n="14"/><lb/>lead them to get ſomething into the <w part="I"
+            >ſto-</w><lb/><w part="F">mach</w> without loading it. </p>
+        <p rend="indent"><lb/>This is neceſſary to health. We know <lb/>men may faſt away their
+          appetite; and <lb/>their power of digeſtion goes in a great <lb/>meaſure with it. The
+          conduct of the <w part="I">ap-</w><lb/><w part="F">petite</w> regulates the health; and
+          this is not <lb/>enough regarded. Young people may <lb/>take liberties with themſelves;
+          for nature <lb/>is ſtrong: but the older muſt pay more <lb/>regard to her weakneſs. </p>
+        <p rend="indent"><lb/>It is as eſſential to health not to keep <lb/>the ſtomach empty, as
+          not to overload it. <lb/>Wind is the conſequence of emptyneſs, <lb/>and this diſturbs the
+          office of the ſtomach. <lb/>It ſhould be always kept at its due <w part="I">em-</w><lb/><w
+            part="F">ployment</w> in advanced periods of life; and <lb/>this by ſmall quantities of
+          proper food. </p>
+        <p rend="indent"><lb/>For theſe plain reaſons, breakfaſts are <lb/>as proper, nay as
+          neceſſary, as ſuppers. <lb/>Thoſe who are troubled with phlegm <lb/>ſhould eat leſs at
+          this meal than others; but <lb/>all ſhould eat ſome. A cup of chocolate, <lb/>not made too
+          ſtrong, is a good breakfaſt. <lb/>Coffee I cannot adviſe generally: but the
+          <lb/>exceptions againſt tea, are in a great <w part="I">mea-</w><lb/><w part="F">ſure</w>
+          groundleſs. </p>
+        <p rend="indent"><lb/>Thoſe who drink a great quantity of <lb/>tea, and are careleſs in the
+          making it, <lb/>uſing a bad kind, and drinking the laſt <pb xml:id="page_15" n="15"
+          /><lb/>diſhes cool and palled, will <w part="I">unqueſtion-</w><lb/><w part="F">ably</w>
+          weaken their ſtomachs: but this is <lb/>not the caſe with ſuch as are more <w part="I"
+            >care-</w><lb/><w part="F">ful</w>. If the old man likes tea he need not <lb/>deny it to
+          himſelf for breakfaſt. Let him <lb/>uſe the plain green tea, of ſixteen ſhillings <lb/>a
+          pound; and make it well: taking care <lb/>water boils, and allowing ſo much tea <lb/>that
+          it may be of ſufficient ſtrength <w part="I">with-</w><lb/><w part="F">out</w> ſtanding
+          too long upon the leaves. <lb/>This way we have the ſpirit, flavour, and <lb/>virtue of
+          the plant; whereas weak, half <lb/>cold, bad tea has juſt the contrary <w part="I"
+            >qual-</w><lb/><w part="F">ties</w>. </p>
+        <p rend="indent"><lb/>Let the old man drink three moderate <lb/>cups of this tea, with a
+          little ſugar and a <lb/>good deal of milk; and ſwallow it neither <lb/>too hot, nor
+          mawkiſhly cool. Let him <lb/>eat with it a thin ſlice or two of good <lb/>bread, with a
+          little butter; and he will <lb/>find it nouriſhing and excellent. </p>
+        <p rend="indent"><lb/>The virtues of tea thus drank are as <lb/>conſiderable as its bad
+          qualities when ill <lb/>managed. In this manner, it ſtrengthens <lb/>the ſtomach, and
+          aſſiſts digeſtion: it keeps <lb/>the body from being empty without <lb/>loading it: and
+          the appetite for dinner <lb/>will be the better, and the digeſtion alſo <lb/>more perfect.
+          To this we are to add, <lb/>that tea in this quantity is ſufficient for <pb
+            xml:id="page_16" n="16"/><lb/>the great purpoſe of diluting; and that it <lb/>refreſhes
+          the ſpirits more than any other <lb/>liquid. </p>
+        <p rend="indent"><lb/>The beſt drink at meals is malt liquor, <lb/>not too ſtrong, and
+          neither new nor ſtale. <lb/>For this reaſon ſmall ale is better than <lb/>table-beer,
+          becauſe it will bear keeping to <lb/>a due time for ſafe uſe. For the more <lb/>cordial
+          liquors wine is the beſt. A little <lb/>of this is neceſſary to old men, and <w part="I"
+            >ac-</w><lb/><w part="F">cording</w> to the conſtitution and former <lb/>manner of life,
+          more may be born <w part="I">with-</w><lb/><w part="F">out</w> inconvenience, or indeed
+          with <w part="I">advan-</w><lb/><w part="F">tage</w>. The kind of wine muſt be ſuited
+          <lb/>to the peculiarity of the conſtitution; of <lb/>which we ſhall treat hereafter: here
+          we <lb/>ſpeak generally. But for moſt old perſons <lb/>of all wines ſack is the beſt, if
+          it can be <lb/>obtained pure and genuine. </p>
+        <p rend="indent"><lb/>As occaſion ſhall require the ſupper <lb/>foods here directed may be
+          uſed by way <lb/>of dinner; and broths may be neceſſary <lb/>ſome times for breakfaſt.
+          This will be <lb/>known from the circumſtances. When the <lb/>ſtomach cannot digeſt
+          ſolids, theſe liquid <lb/>nouriſhments muſt ſupply the place; and <lb/>when more
+          nouriſhing things are wanted, <lb/>a broth breakfaſt is excellent. Vipers are
+          <lb/>extolled, but 'tis an idle fancy: I have <pb xml:id="page_17" n="17"/><lb/>found, on
+          repeated tryals, broth of veal <lb/>and chickens is better. </p>
+      </div>
+      <div n="4" type="chapter">
+        <head rend="italic align-center"><lb/><hi rend="roman">CHAP. IV.</hi>
+          <lb/>Of the foods old men ſhould avoid. </head>
+        <p rend="indent"><lb/><hi rend="dc(3)">A</hi>FTER directing what is proper, <lb/>we ſhall
+          conclude this article of <lb/>diet, by pointing out thoſe things which are <lb/>hurtful to
+          perſons advanced in years: and <lb/>this is the more neceſſary becauſe many <lb/>of them
+          are unſuſpected. </p>
+        <p rend="indent"><lb/>Every thing that is heavy, and hard of <lb/>digeſtion, muſt be
+          avoided: and tho' <w part="I">vege-</w><lb/><w part="F">tables</w> may be thought
+          innocent, there <lb/>are many caſes in which they prove <lb/>hurtful. </p>
+        <p rend="indent"><lb/>No general praiſe, or general cenſure, <lb/>can be paſſed upon them in
+          this reſpect; <lb/>for they differ according to their kinds as <lb/>much as animal foods. </p>
+        <p rend="indent"><lb/>Carrots are to be avoided, for no old <lb/>ſtomach can digeſt them. On
+          the <w part="I">con-</w><lb/><w part="F">trary</w> potatoes are innocent, and parſnips
+          <lb/>are nouriſhing. </p>
+        <p rend="indent"><lb/>Among herbage raw ſallads ſhould be <lb/>ſhunned: cabbage, and all its
+          kinds, <lb/>breed wind, and are therefore wrong: <lb/>but aſparagus is diuretick; and is
+          excellent <pb xml:id="page_18" n="18"/><lb/>againſt that common old man's <w part="I"
+            >com-</w><lb/><w part="F">plaint</w>, the gravel. </p>
+        <p rend="indent"><lb/>Heavy cheeſe ſhould be carefully <w part="I">a-</w><lb/><w part="F"
+            >voided</w>; and there is nothing worſe than <lb/>eating too much butter: but very fine
+          <lb/>Cheſhire cheeſe, or the parmezan in a <lb/>ſmall quantity after other food, are not
+          <lb/>amiſs. </p>
+        <p rend="indent"><lb/>All ſharp taſted things, whether food <lb/>or drink, are carefully to
+          be ſhunned. <lb/>They cannot be neutral upon the <w part="I">ſto-</w><lb/><w part="F"
+            >mach</w>; and they are much more likely to <lb/>do harm than good. Such things are to
+          <lb/>be conſidered as medicines, and as <w part="I">care-</w><lb/><w part="F">fully</w>
+          uſed. </p>
+        <p rend="indent"><lb/>Fruits in general are to be avoided by <lb/>old men; but of all
+          others, moſt carefully <lb/>raw pears. </p>
+        <p rend="indent"><lb/>Wall-fruit, and the other produce of <lb/>our garden trees and ſhrubs,
+          when they <lb/>have grown in a good ſoil, and are <w part="I">exact-</w><lb/><w part="F"
+            >ly</w> of a due degree of ripeneſs, are <w part="I">inno-</w><lb/><w part="F">cent</w>:
+          but this is the beſt that can be ſaid <lb/>of them, and to deſerve this all thoſe <w
+            part="I">cir-</w><lb/><w part="F">cumſtances</w> are requiſite; otherwiſe they <lb/>hurt
+          the ſtomach and often bring on <lb/>cholicks. </p>
+        <p rend="indent"><lb/>Cucumbers, and the like productions <lb/>of the kitchen garden, weaken
+          the <w part="I">digeſ-</w><pb xml:id="page_19" n="19"/><lb/><w part="F">tion</w>, and
+          greatly prevent the natural and <lb/>neceſſary ſecretions. </p>
+        <p rend="indent"><lb/>The pine-apple, the moſt pleaſant of <lb/>all fruit, is the moſt
+          dangerous. Its <w part="I">ſharp-</w><lb/><w part="F">ness</w> fleas the mouth, and 'tis
+          eaſy to know <lb/>what effect ſuch a thing muſt have upon <lb/>the ſtomach and bowels of
+          perſons <w part="I">weak-</w><lb/><w part="F">ened</w> by age. I have known it bring on
+          <lb/>bloody fluxes, which have been fatal. <lb/>There are ſeveral kinds of this fruit <w
+            part="I">ſome-</w><lb/><w part="F">what</w> differing in quality, and the <w part="I"
+            >per-</w><lb/><w part="F">fect</w> degree of ripeneſs in a great meaſure <lb/>takes off
+          its bad effects; but theſe are nice <lb/>diſtinctions; and he who is wiſe will judge
+          <lb/>as he does of muſhrooms; where many <lb/>are dangerous, avoid all. </p>
+        <p rend="indent"><lb/>Beſide avoiding things which are <w part="I">hurt-</w><lb/><w part="F"
+            >ful</w> in themſelves, thoſe who are far <w part="I">ad-</w><lb/><w part="F">vanced</w>
+          in years ſhould be upon their guard <lb/>againſt ſuch as they are not accuſtom'd <lb/>to.
+          Particular conſtitutions, in medicine, <lb/>will ſhew unforeſeen averſions to <w part="I"
+            >parti-</w><lb/><w part="F">cular</w> things: and it is the ſame in foods. <lb/>Let him
+          who knows what agrees with <lb/>him ſtick to that. Change is wrong, <lb/>and it may be
+          hazardous: and 'tis idle to <lb/>run into the way of danger when there is <lb/>no
+          advantage. </p>
+        <p rend="indent"><lb/>All mixtures of food upon the ſtomach <lb/>are bad; and there is not a
+          greater <pb xml:id="page_20" n="20"/><lb/>error in an old perſon than to eat of many<lb/>
+          things at one meal. He muſt not deceive <lb/>himſelf by arguing that all are innocent:
+          <lb/>two things of known qualities will often <lb/>on the mixing produce a third that is
+            <w part="I">per-</w><lb/><w part="F">fectly</w> different from them both: and theſe
+          <lb/>are dangerous trials in an old man's <w part="I">ſto-</w><lb/><w part="F">mach</w>. </p>
+        <p rend="indent"><lb/>The management in theſe articles is <lb/>nearly as important as the
+          choice; and a <lb/>regularity of eating is the next care to the <lb/>ſelecting proper
+          food, and fixing on a right <lb/>quantity. </p>
+      </div>
+      <div n="5" type="chapter">
+        <head rend="italic align-center"><lb/><hi rend="roman">CHAP. V.</hi>
+          <lb/>Of air for old perſons. </head>
+        <p rend="indent"><lb/><hi rend="dc(3)">N</hi>OTHING contributes more to health <lb/>and long
+          life than pure and good <lb/>air: but by pure we are not to underſtand <lb/>bleak; nor are
+          old men at any time to <lb/>chuſe it. </p>
+        <p rend="indent"><lb/>It is ſtrange, that many live to a great <lb/>age in London, where the
+          air has neither <lb/>of theſe characters; where we breathe <lb/>ſmoak, and the mixt ſtench
+          of a thouſand <lb/>putrifying ſubſtances, which cannot <w part="I">eva-</w><lb/><w
+            part="F">porate</w> through the thick and foul <w part="I">atmoſ-</w><lb/><w part="F"
+            >phere</w> of the place. </p>
+        <pb xml:id="page_21" n="21"/>
+        <p rend="indent"><lb/>But though none will queſtion the <w part="I">ſu-</w><lb/><w part="F"
+            >perior</w> quality of a clear country air, yet <lb/>let not him who has attained to a
+          healthy <lb/>threeſcore and ten, then think of leaving <lb/>London, to continue his days
+          to a longer <lb/>period. They ſay uſe is a ſecond nature. <lb/>It becomes nature itſelf:
+          and bad things, <lb/>to which an old man has been very long <lb/>accuſtomed, are better
+          than ſudden <w part="I">chan-</w><lb/><w part="F">ges</w>. It is well known, ſome who have
+          <lb/>reached an uncommon date of life, have <lb/>periſhed at laſt by a ſudden change in
+          <lb/>their food: and the air is ſcarce of leſs <w part="I">con-</w><lb/><w part="F"
+            >ſequence</w>. </p>
+        <p rend="indent"><lb/>He who would increaſe the period, and <lb/>the healthy condition of
+          his days by a <lb/>country air, ſhould begin it at an earlier <lb/>time; when his
+          conſtitution can better <lb/>bear the ſhock of alteration. </p>
+        <p rend="indent"><lb/>In regard to choice of air, the reaſon <lb/>we declare againſt that
+          which is too bleak <lb/>is plain: for bleak and cold are always <lb/>found together. Cold
+          air chills the blood, <lb/>and in old men we want rather to warm <lb/>it. This is the air
+          at the tops of hills: <lb/>and ſuch ſituations all old men ſhould <lb/>avoid. </p>
+        <p rend="indent"><lb/>On the contrary, the warmeſt air of <lb/>the country is that of
+          vallies, ſheltered <lb/>by riſing grounds; but this is uſually <pb xml:id="page_22" n="22"
+          /><lb/>damp; and more miſchief will ariſe from <lb/>it than good. </p>
+        <p rend="indent"><lb/>Therefore the choice reſts ſolely upon <lb/>a gentle aſcent: the beſt
+          place of all is <lb/>toward the bottom of a ground, which <lb/>does not in any part riſe
+          to a very great <lb/>height; and if there be a running water <lb/>at the bottom it is ſo
+          far perfect. </p>
+        <p rend="indent"><lb/>But more than this muſt be conſulted <lb/>for the country reſidence of
+          the old man, <lb/>or of any who would live to be old. The <lb/>ſoil is of vaſt
+          conſequence; and ſo is the <w part="I">ex-</w><lb/><w part="F">poſure</w>. A clayey bottom
+          muſt be avoided; <lb/>becauſe it is always cold, and the air about <lb/>it raw and damp.
+          Rains cannot get thro' <lb/>it, and they lodge till they are evaporated, <lb/>chilling the
+          ground, and loading the air <lb/>with their moiſture. </p>
+        <p rend="indent"><lb/>A clean gravel is the beſt of all. The <lb/>air over this is warm, and
+          naturally dry; <lb/>for rain ſoaks through it. </p>
+        <p rend="indent"><lb/>The north and north-eaſt winds are <lb/>worſt for old men: therefore
+          let them <lb/>ſhelter themſelves from theſe by a proper <lb/>choice of ſituation. Let the
+          deſcent of <lb/>the ground face the ſouth-weſt; and then <lb/>the natural riſe will keep
+          off the bleak and <lb/>cold air from the oppoſite quarters. This <lb/>may be aſſiſted alſo
+          by plantations of trees; <lb/>and thus the true ſeat of health and <w part="I"
+            >plea-</w><pb xml:id="page_23" n="23"/><lb/><w part="F">ſure</w> may be eſtabliſhed, ſo
+          far as theſe great <lb/>points concern them. </p>
+        <p rend="indent"><lb/>He is happy who has made ſuch a choice <lb/>in time; and he ſtill
+          happier who finds <w part="I">him-</w><lb/><w part="F">ſelf</w> now in good time to make
+          it. The later <lb/>ſuch a reſidence is choſen, the more <w part="I">care-</w><lb/><w
+            part="F">fully</w> muſt the owner accuſtom himſelf to <lb/>it: firſt in ſummer; and by
+          degrees and <lb/>at times at other periods of the year. An <lb/>air thus choſen, will then
+          give all the great <lb/>articles age wants, appetite, digeſtion, and <lb/>a free
+          circulation. </p>
+        <p rend="indent"><lb/>Exerciſe will be eaſy; and it will be <lb/>pleaſant in ſuch a ſpot:
+          but let this be <lb/>under the regulation of good ſenſe. <w part="I">No-</w><lb/><w
+            part="F">thing</w> is better than walking; but let not <lb/>the old man do himſelf more
+          hurt by a <lb/>raſh and careleſs indulgence in this than it <lb/>can do him ſervice. Let
+          him never enjoy <lb/>the air but when it is in a condition to do <lb/>him good, nor
+          venture upon the ground <lb/>but when it is fit for his feet. </p>
+        <p rend="indent"><lb/>No country houſe is without a garden; <lb/>and the beſt part of this
+          will be a good <lb/>gravel walk. Let it be open to the <lb/>ſouth-weſt, and well defended
+          from the <lb/>dangerous quarters. Let it be laid <w part="I">toler-</w><lb/><w part="F"
+            >ably</w> round, that the water may not lodge; <lb/>and let it be kept well rolled, hard
+          and <lb/>ſmooth. </p>
+        <pb xml:id="page_24" n="24"/>
+        <p rend="indent"><lb/>In favourable weather he may walk in <lb/>pathways in the fields: but
+          in ſuch as <lb/>is not ſo good, this walk will be highly <lb/>uſeful: let him never come
+          upon it till <lb/>the dew is off the graſs; and let the ſetting <lb/>ſun be the laſt
+          object he ſees from it; even <lb/>in the beſt weather. </p>
+        <p rend="indent"><lb/>The air of early morning and of late <lb/>evening is cold and
+          unwholeſome: but <lb/>ſome hours of the firſt part of the day, <lb/>paſſed conſtantly on
+          ſuch a walk, will add <lb/>many years to life; and what is much <lb/>better, it will give
+          health with them. </p>
+      </div>
+      <div n="6" type="chapter">
+        <head rend="italic align-center"><lb/><hi rend="roman">CHAP. VI.</hi>
+          <lb/>Of exerciſe for old men. </head>
+        <p rend="indent"><lb/><hi rend="dc(3)">A</hi>IR led us to mention already the <lb/>firſt of
+          exerciſes, which is walking; <lb/>and for thoſe who can indulge themſelves <lb/>in this,
+          there is none better: but <w part="I">feeble-</w><lb/><w part="F">ness</w> and various
+          accidents often deny its <lb/>uſe to thoſe who moſt of all want <w part="I">mo-</w><lb/><w
+            part="F">tion</w>. In this caſe, riding on horſeback is <lb/>the next in excellence. And
+          the beſt <lb/>hours of the day muſt be choſen for that, <lb/>in the ſame manner as for the
+          other. In <lb/>ſevere weather it is neceſſary to keep <w part="I">un-</w><lb/><w part="F"
+            >der</w> ſhelter; and at all times to avoid damp <lb/>or bleak places. </p>
+        <pb xml:id="page_25" n="25"/>
+        <p rend="indent"><lb/>Diverſions afford excellent exerciſe. <lb/>Bowling is one: but the
+          ſame care muſt <lb/>be taken, that this be at a proper time. <lb/>A chariot may ſupply the
+          place of a horſe <lb/>to thoſe who are more feeble; and when <lb/>even this is too much,
+          there will be a great <lb/>deal of good in being driven along in thoſe <lb/>chairs which
+          are made to run about <w part="I">gar-</w><lb/><w part="F">den-walks</w>. </p>
+        <p rend="indent"><lb/>To thoſe who are fond of gardening, <lb/>nothing affords ſo happy, or
+          ſo conſtant <lb/>exerciſe. We do not mean that they <lb/>ſhould dig, or weed the ground:
+          but <lb/>that employment which will give exerciſe <lb/>without labour, and which no hand
+          will <lb/>ſo well perform as that of the Maſter; <lb/>the trimming of ſhrubs, and
+          flowering <lb/>plants, the management of eſpaliers; the <lb/>removal of ſeedling-flowers;
+          the thining of <lb/>fruit upon the trees; and the following <lb/>and overlooking the other
+          ſeveral works. <lb/>Here will at leaſt be more and more briſk <lb/>walking than otherwiſe;
+          and in many <lb/>things the little uſe of the hands will <w part="I">com-</w><lb/><w
+            part="F">pleat</w> that exerciſe; continuing it <w part="I">perfect-</w><lb/><w part="F"
+            >ly</w> through the body. </p>
+        <p rend="indent"><lb/>The only danger of this healthy and <lb/>happy courſe, is that it is
+          too tempting. <lb/>Let him who falls into it take an invariable <pb xml:id="page_26"
+            n="26"/><lb/>reſolution, never to let his fondneſs for the <lb/>garden carry him out too
+          early, or keep <lb/>him out too late. </p>
+      </div>
+      <div n="8" type="chapter">
+        <head rend="italic align-center"><lb/><hi rend="roman">CHAP. VIII.</hi>
+          <lb/>Of ſuccedaneums for exerciſe. </head>
+        <p rend="indent"><lb/><hi rend="dc(3)">T</hi>HE benefit of exerciſe all know; <lb/>but all
+          cannot take it. The <w part="I">wea-</w><lb/><w part="F">ther</w> will ſometimes deny the
+          uſe of <lb/>thoſe kinds we have named to ſuch as are <lb/>moſt able to take them: and in
+          this caſe, <lb/>any buſtling about within doors, whether in <lb/>the light of buſineſs or
+          amuſement, will <lb/>anſwer the purpoſe. The adjuſting an <lb/>eſcritoire, or the new
+          arranging the <w part="I">vo-</w><lb/><w part="F">lumes</w> in a book-caſe have often
+          produced <lb/>this good effect; and billiards, or other <lb/>entertainments which afford
+          means of <w part="I">ſtir-</w><lb/><w part="F">ring</w> within the houſe, anſwer the ſame
+          <lb/>purpoſe. </p>
+        <p rend="indent"><lb/>To thoſe who are too weak for <w part="I">exer-</w><lb/><w part="F"
+            >ciſe</w>, even the mildeſt, and in the beſt <lb/>weather, the beſt relief is a
+          fleſh-bruſh; <lb/>and its effects are more than can be <w part="I">ima-</w><lb/><w
+            part="F">gined</w>. We know what we expect from <lb/>exerciſe; and in old men, the
+          greateſt of <lb/>its advantages is the aſſiſting circulation. <lb/>The fleſh-bruſh does
+          this nearly in as <pb xml:id="page_27" n="27"/><lb/>great a degree, excepting for the <w
+            part="I">imme-</w><lb/><w part="F">diate</w> time: but to have the full benefit, it
+          <lb/>muſt be conſtantly and frequently repeated. </p>
+        <p rend="indent"><lb/>Another excellent ſuccedaneum for <w part="I">ex-</w><lb/><w part="F"
+            >erciſe</w> is waſhing the body with warm <lb/>water and rubbing it very well with <w
+            part="I">re-</w><lb/><w part="F">peated</w> dry cloaths afterwards. This has <lb/>many
+          peculiar advantages: the warmth <lb/>aſſiſts perſpiration; the waſhing opens the
+          <lb/>pores; and the rubing afterwards is at <lb/>leaſt equal to the effect of the
+          fleſh-bruſh. <lb/>The warmth and moiſture join alſo in <lb/>ſoftening the skin, and
+          rendering it ſupple; <lb/>and this is a great point, for it is apt to <lb/>grow hard and
+          dry with age. </p>
+        <p rend="indent"><lb/>Care muſt be taken to avoid taking cold <lb/>after this. The beſt time
+          for it is <w part="I">even-</w><lb/><w part="F">ing</w> in a warm bedchamber; and the bed
+          <lb/>ſhould be ready immediately, that the <lb/>perſon may go into it hot. </p>
+        <p rend="indent"><lb/>The hands and feet ſhould have their <lb/>full ſhare in this waſhing
+          and rubing, <lb/>for the circulation is weakeſt there, and <lb/>the pores are moſt liable
+          to be ſtoped. The <lb/>warm bath anſwers, in ſome degree, this <lb/>purpoſe; and will be
+          ſpoken of hereafter: <lb/>but it is rather to be uſed as a remedy than <lb/>a
+          preſervative; and we are here treating of <lb/>old men in health. </p>
+      </div>
+      <div n="9" type="chapter">
+        <pb xml:id="page_28" n="28"/>
+        <head rend="italic align-center"><lb/><hi rend="roman">CHAP. IX.</hi>
+          <lb/>Of a regulation of the temper. And of the paſſions. </head>
+        <p rend="indent"><lb/><hi rend="dc(3)">W</hi>ITHOUT entering into the <w part="I"
+            >pro-</w><lb/><w part="F">vince</w> of the moraliſt or preacher, <lb/>we may ſay the
+          paſſions demand great <w part="I">re-</w><lb/><w part="F">gard</w> in preſerving the
+          health of old men. <lb/>The motion of the blood in circulation is <lb/>greatly affected
+          and altered by them; and <lb/>the nerves ſuffer more. The whole frame <lb/>is diſordered;
+          and I have often ſeen <w part="I">diſ-</w><lb/><w part="F">eaſe</w>, and ſometimes
+          immediate death the <lb/>conſequence of giving full way to them. </p>
+        <p rend="indent"><lb/>Nothing in this world is worth the <lb/>trouble and diſtreſs men bring
+          upon <w part="I">them-</w><lb/><w part="F">ſelves</w> about it, by giving way to <w
+            part="I">immo-</w><lb/><w part="F">derate</w> paſſions. Life is the greateſt <w part="I"
+            >bleſ-</w><lb/><w part="F">ſing</w>, and health the next; and theſe ſuffer <lb/>by that
+          fond indulgence. </p>
+        <p rend="indent"><lb/>That the circulation is diſordered by <lb/>paſſions, we know from the
+          true and <lb/>certain indication of the pulſe. In anger <lb/>it beats violent and hard; in
+          grief faint <lb/>and ſlow; terrors make it irregular; and <lb/>ſhame impedes its motions. </p>
+        <pb xml:id="page_29" n="29"/>
+        <p rend="indent"><lb/>Theſe are ſure notices of a diſordered <lb/>circulation; and old men
+          cannot bear this <lb/>even for a time without damage. The <lb/>ſtrength of youth reſtores
+          all to its <w part="I">for-</w><lb/><w part="F">mer</w> ſtate when the guſt is over: but
+          age <lb/>is weak, and cannot. Philoſophy teaches <lb/>the governing our paſſions; and it
+          is true <lb/>wiſdom. The old man ſhould love <w part="I">him-</w><lb/><w part="F">ſelf</w>
+          too well to indulge them. It is not <lb/>worth his while. Quiet and regularity of
+          <lb/>life in every reſpect are his buſineſs: and <lb/>as he is paſt the fluttering
+          pleaſures of <lb/>youth, let him place himſelf above its <lb/>troubles. </p>
+        <p rend="indent"><lb/>Good humour, and a ſatisfaction of <lb/>mind will give the aged many
+          more years, <lb/>and much happineſs in them. <w part="I">Diſcon-</w><lb/><w part="F"
+            >tent</w> and diſturbance wear out nature: but <lb/>the temper, we adviſe, preſerves her
+          in <lb/>good condition. </p>
+        <p rend="indent"><lb/>Of all paſſions let the old man avoid <lb/>a fooliſh fondneſs for
+          women. This <w part="I">ne-</w><lb/><w part="F">ver</w> will ſolicit him, for nature knows
+          her <lb/>own time, and the appetite decays with <lb/>the power; but if he ſolicit that
+          which <lb/>he cannot enjoy, he will diſturb his <w part="I">con-</w><lb/><w part="F"
+            >ſtitution</w> more than by any other means <lb/>whatever; and while he is ſhortening
+          his <lb/>life; and robing the poor remainder <pb xml:id="page_30" n="30"/><lb/>he allows
+          of peace, he will be only <lb/>making himſelf the ridicule of thoſe who <lb/>ſeem to
+          favour his vain and ineffectual <w part="I">de-</w><lb/><w part="F">ſires</w>. </p>
+        <p rend="indent"><lb/>In paſſionate people, what we blame <lb/>as their fault, is often
+          their misfortune. <lb/>Some, from a tyrannical diſpoſition, have <lb/>fixed this humour
+          upon themſelves by <lb/>cuſtom, with no other cauſe; but for one <lb/>of theſe there are a
+          hundred whoſe fury <lb/>of temper is owing to a diſorder in their <lb/>body. </p>
+        <p rend="indent"><lb/>We know madneſs is a diſeaſe; and <w part="I">vio-</w><lb/><w part="F"
+            >lent</w> paſſion is a temporary madneſs. This <lb/>alſo ariſes often from a redundance
+          of <w part="I">hu-</w><lb/><w part="F">mours</w>, and medicines will cure it. </p>
+        <p rend="indent"><lb/>Let the paſſionate old man conſider, <lb/>that he hurts himſelf more
+          than any body <lb/>elſe, by his anger; and he will then wiſh <lb/>to be cured of its
+          tyranny. Let him <lb/>examine himſelf, whether it be a diſorder <lb/>of his mind; and his
+          phyſician, whether it <lb/>lie in his body. In the firſt caſe the <w part="I"
+            >re-</w><lb/><w part="F">medy</w> is philoſophy; but in the latter, a <lb/>few medicines
+          will reſtore him to temper: <lb/>to that temper on which his life and <w part="I"
+            >hap-</w><lb/><w part="F">piness</w> depend. </p>
+        <p rend="indent"><lb/>Let the haſty old man cool himſelf by <lb/>phyſic and a low diet: and
+          let him who <pb xml:id="page_31" n="31"/><lb/>is melancholy and gloomy baniſh the
+          <lb/>everlaſting fear of death by warmer <lb/>foods, cordial medicines, and that beſt of
+          <lb/>cordials, wine. Theſe will drive away <lb/>much more than the apprehenſion of
+          <lb/>death, they will put off the reality: for <lb/>melancholy would have ſunk the feeble,
+          <lb/>long before his time. </p>
+        <p rend="indent"><lb/>Of all ſtates in the mind a diſturb'd <lb/>hurry of the nerves is moſt
+          to be avoided. <lb/>The blood and ſpirits are diſorder'd by <lb/>this much more than by
+          exerciſe or <w part="I">bodi-</w><lb/><w part="F">ly</w> motion; and they are much longer
+          in <lb/>coming to themſelves again. Exerciſe <lb/>ceaſes abſolutely when 'tis over: but
+          the <lb/>ſtorms of the mind leave a ſwelling ſea, <lb/>which ſtrength of body alone can
+          calm: <lb/>and in age this ſtrength is faint. </p>
+        <p rend="indent"><lb/>No diſeaſe is more miſchievous to weak <lb/>old perſons than a
+          purging: and I have ſeen <lb/>this brought on inſtantly by a fit of <w part="I"
+            >paſ-</w><lb/><w part="F">ſion</w>, or a fright. Medicines have <w part="I"
+            >at-</w><lb/><w part="F">tempted</w> to relieve the patient in vain. <lb/>That which
+          would have been ſtop'd, if <lb/>natural, by a ſpoonful of chalk julep, or <lb/>a doſe of
+          diaſcordium, has in this caſe <w part="I">re-</w><lb/><w part="F">duced</w> the perſon to
+          a skeleton, and ſunk <lb/>him into the grave in ſpite of all help. </p>
+        <pb xml:id="page_32" n="32"/>
+        <p rend="indent"><lb/>Why ſhould the old man diſturb his <lb/>mind with paſſion? or what
+          ſhould he <lb/>dread? Death is his great terror; and <lb/>he is very abſurd who brings it
+          on by <lb/>leſſer fears. </p>
+        <p rend="indent"><lb/>Joy, tho' only a greater degree of <w part="I">ſatiſ-</w><lb/><w
+            part="F">faction</w>, is in a violent or outrageous <w part="I">de-</w><lb/><w part="F"
+            >gree</w> as hurtful as the other paſſions: it <lb/>hurries the circulation vehemently
+          and <w part="I">ir-</w><lb/><w part="F">regularly</w>; it exhauſts the ſpirits; and it
+          <lb/>has often occaſioned ſudden death. It is <lb/>a violence of youth; it belongs to that
+          <lb/>period of life properly: that can bear it, <lb/>and to that let us leave it. Let the
+          old <lb/>man be as the quakers in this point, <w part="I">al-</w><lb/><w part="F">ways</w>
+          chearful but never merry. </p>
+        <p rend="indent"><lb/>Laſt let me caution the aged man who <lb/>would be happy, and would
+          live much <lb/>longer, to combat with all his power <lb/>that dangerous enemy
+          covetouſneſs. 'Tis <lb/>known univerſally, and we have ſacred <lb/>atteſtation of it, that
+          too earneſt <w part="I">careful-</w><lb/><w part="F">ness</w> brings age before its time;
+          and in <lb/>age it brings death prematurely. The <lb/>old are in no danger of
+          extravagance, <lb/>and the care of heaping up for others, <lb/>when it ſhortens their own
+          life, is more <lb/>than any heir can deſerve from them. </p>
+        <pb xml:id="page_33" n="33"/>
+        <p rend="indent"><lb/>Eaſe and good humour are the great <w part="I">in-</w><lb/><w part="F"
+            >gredients</w> of a happy life, and the principal <lb/>means of a long one. The whole
+          leſſon <lb/>extends but thus much farther, that the <lb/>old man love life ſo well, and
+          value ſo <lb/>little all the accidents that belong to it, <lb/>that he do not give a vain
+          attention to a <lb/>part which may rob him of the whole. </p>
+      </div>
+      <div n="10" type="chapter">
+        <head rend="italic align-center"><lb/><hi rend="roman">CHAP. IX.</hi>
+          <lb/>Of ſleep for old men. </head>
+        <p rend="indent"><lb/><hi rend="dc(3)">I</hi>Ntemperance has converted day into <lb/>night,
+          in the courſe of the gay young <lb/>world; but this needs not influence thoſe <lb/>in
+          years. Midnight entertainments are <lb/>no part of the oeconomy of their <w part="I"
+            >peace-</w><lb/><w part="F">ful</w> lives; therefore they may come nearer <lb/>to the
+          courſe of nature. </p>
+        <p rend="indent"><lb/>The quantity of ſleep is a material <w part="I">ar-</w><lb/><w
+            part="F">ticle</w>; and the time not leſs. The old <lb/>man has been cautioned againſt
+          the cold <lb/>air of evenings; and after a light ſupper, <lb/>and an hour or two of ſocial
+          converſation <lb/>with his family and his neighbours, bed <lb/>will be his beſt place. </p>
+        <p rend="indent"><lb/>Sleep was intended to recruit nature, <lb/>and reſtore the waſted
+          ſpirits. This is <lb/>neceſſary to all perſons; but to the aged <pb xml:id="page_34"
+            n="34"/><lb/>moſt, becauſe they can leaſt bear the <lb/>waſte of them. The paſſions will
+            <w part="I">diſ-</w><lb/><w part="F">turb</w> all conſtitutions, but thoſe of old
+          <lb/>perſons moſt: ſleep compoſes theſe. <w part="I">There-</w><lb/><w part="F">fore</w>
+          'tis of excellent uſe to them: and <lb/>they may indulge in it longer than the young. </p>
+        <p rend="indent"><lb/>Six hours is as much as a perſon in the <lb/>prime of life ſhould
+          ſleep; but in age <lb/>eight or ten, according to the peculiar <lb/>conſtitution, will be
+          more proper. </p>
+        <p rend="indent"><lb/>The natural ſeaſon of ſleep is night, and <lb/>let the old man go to
+          bed in ſuch time <lb/>that he may paſs theſe hours of reſt <w part="I">with-</w><lb/><w
+            part="F">out</w> breaking in upon the morning. In <lb/>general the moſt healthful cuſtom
+          is to go <lb/>to bed at ten at night, and riſe at eight in <lb/>the morning. </p>
+        <p rend="indent"><lb/>If the mind be hurry'd, or from any <lb/>other cauſe the perſon finds
+          he cannot <lb/>compoſe himſelf to reſt ſoon after going <lb/>to bed, let him ſtill riſe at
+          the ſame time <lb/>the following morning: and the next <lb/>evening prepare himſelf for
+          better ſleep. <lb/>Let him go into a warm bath; and <w part="I">in-</w><lb/><w part="F"
+            >dulge</w> himſelf with a glaſs of wine, <w part="I">be-</w><lb/><w part="F">yond</w>
+          the ordinary allowance, a little <w part="I">be-</w><lb/><w part="F">fore</w> bed time.
+          This will take off his <lb/>watchfulneſs; and he will ſink into the <lb/>moſt pleaſing
+          ſlumber. </p>
+        <pb xml:id="page_35" n="35"/>
+        <p rend="indent"><lb/>The contrary practice of lying in bed <lb/>in the morning, to make up
+          for want of <lb/>ſleep at night, is every way extreamly <lb/>wrong. As nothing refreſhes
+          like <w part="I">ſeaſon-</w><lb/><w part="F">able</w> ſleep, nothing weakens and dejects
+          <lb/>a perſon more than long lying in bed <lb/>in the morning. There is alſo this <w
+            part="I">far-</w><lb/><w part="F">ther</w> ill conſequence, that the perſon is
+          <lb/>never ſleepy again at the due time of the <lb/>evening ſucceeding; and thus what was
+          at <lb/>firſt an accident, becomes by indulgence <lb/>a cuſtom; the more difficult to be
+            <w part="I">con-</w><lb/><w part="F">quer'd</w> and the more hurtful. </p>
+        <p rend="indent"><lb/>He who has obſerved a temperate diet, <lb/>and goes to bed regularly
+          at ten o'clock, <lb/>will naturally wake towards eight: and <lb/>when he wakes let him get
+          up: he will <lb/>then be in ſpirits for the day. If on the <lb/>contrary he lies doſing,
+          he will get into a <lb/>weakening ſweat: and he will be low <w part="I">ſpi-</w><lb/><w
+            part="F">rited</w> during the following day; and <w part="I">wak-</w><lb/><w part="F"
+            >ing</w> and watchful at night. </p>
+        <p rend="indent"><lb/>On theſe little circumſtances do the <lb/>health or ſickneſs, the
+          happineſs or <w part="I">un-</w><lb/><w part="F">eaſiness</w> of old perſons depend in a
+          great <lb/>meaſure. We do not perceive them, or <lb/>we overlook them: let us be for the
+          <lb/>future more careful. There is no pain in <lb/>the living regularly in old age; and
+          the <pb xml:id="page_36" n="36"/><lb/>conſequence of it is certain, a longer life,
+          <lb/>and every day of it more agreeable. </p>
+      </div>
+      <div n="11" type="chapter">
+        <head rend="italic align-center"><lb/><hi rend="roman">CHAP. X.</hi>
+          <lb/>Of the particular faults in old mens conſtitutions. </head>
+        <p rend="indent"><lb/><hi rend="dc(3)">H</hi>ITHERTO we have treated of the <lb/>condition
+          of perſons advanced in <lb/>years who are healthy: and the rules we <lb/>have laid down
+          are for preſerving and <lb/>continuing that ſtate. He who <w part="I">ob-</w><lb/><w
+            part="F">ſerves</w> them duly will not fail of ſucceſs. </p>
+        <p rend="indent"><lb/>We now ſhall conſider the ſeveral <lb/>faults in the conſtitution at
+          this period <lb/>of life; and the diſeaſes riſing from them. <lb/>The old man may be ſo
+          far his own <w part="I">doc-</w><lb/><w part="F">tor</w>, as to amend the general <w
+            part="I">diſtempera-</w><lb/><w part="F">ture</w> of his body, and to prevent thoſe
+          <lb/>diſeaſes: but if he fall into them, by <lb/>neglect of theſe cautions, or in ſpite of
+          <lb/>their force, let him then call in the <lb/>phyſician. We can adviſe him how to
+          <lb/>preſerve health when he has it; and <lb/>how to remedy general diſorders ſo as
+          <lb/>to prevent more particular ones, if a due <lb/>regimen may do that: but he is a very
+          ill <lb/>judge of the human frame, who will <w part="I">pre-</w><lb/><w part="F">tend</w>
+          to remedy its diſeaſes without <w part="I">know-</w><lb/><w part="F">ledge</w>
+          <pb xml:id="page_37" n="37"/>in its ſtructure, and the virtues of <w part="I"
+            >re-</w><lb/><w part="F">medies</w>: and he would be a bad member <lb/>of ſociety who
+          gave ſuch advice. It were <lb/>as eaſy to teach any other art by writing; <lb/>and as
+          rational to attempt making a <lb/>watchmaker, or a ſhipbuilder, by <w part="I"
+            >deſcrip-</w><lb/><w part="F">tions</w> of the tools. The whole life of the
+          <lb/>phyſician ſpent in attention and <w part="I">experi-</w><lb/><w part="F">ence</w>
+          hardly qualifies him for the <w part="I">un-</w><lb/><w part="F">dertaking</w>: how then
+          ſhould a few words <lb/>give due information? </p>
+      </div>
+      <div n="12" type="chapter">
+        <head rend="italic align-center"><lb/><hi rend="roman">CHAP. XI.</hi>
+          <lb/>Of a fulneſs of blood. </head>
+        <p rend="indent"><lb/><hi rend="dc(3)">A</hi>N over-fullneſs of blood naturally <lb/>brings
+          on a redundance of the <w part="I">o-</w><lb/><w part="F">ther</w> humours: for as they
+          are ſeparated <lb/>from the blood, they naturally encreaſe <lb/>with it in quantity; and
+          the one or the <lb/>other may, and naturally will, occaſion <lb/>diſorders; much more
+          both. </p>
+        <p rend="indent"><lb/>The old man may know he has too <lb/>much blood in his veins from
+          theſe plain <lb/>ſymptoms: his pulſe will be full and <lb/>ſtrong, and quicker than it
+          ſhould; his <lb/>complexion ruddy; and his urine high <lb/>coloured. The veins alſo will
+          be ſwelled, <lb/>and his breathing difficult. </p>
+        <pb xml:id="page_38" n="38"/>
+        <p rend="indent"><lb/>The occaſion of all this has been too <lb/>large feeding, and too
+          little exerciſe: <lb/>therefore the plain method to abate the <lb/>ſymptoms, and prevent
+          the miſchief they <lb/>threaten, is by more motion, and an <w part="I">ab-</w><lb/><w
+            part="F">ſtemious</w> diet. </p>
+        <p rend="indent"><lb/>This is the change to be made: but it <lb/>muſt not be ſudden. We have
+          obſerved <lb/>before, that all haſty alterations are <w part="I">dan-</w><lb/><w part="F"
+            >gerous</w>; but as this is ſlowly, let it be <w part="I">re-</w><lb/><w part="F"
+            >gularly</w> brought on. As there is in ſuch a <lb/>caſe no diſeaſe come on as yet from
+          the <lb/>fulneſs, there will not any come on during <lb/>a gradual courſe of emptying the
+          veſſels <lb/>by this practice. Nature will be relieved <lb/>thus in a ſatisfactory manner,
+          whereas ſhe <lb/>would have been too violently diſturbed <lb/>by a ſhock. </p>
+        <p rend="indent"><lb/>The firſt rule is to retrench one third <lb/>part from the fleſh eaten
+          at dinner; of <lb/>whatever kind that be. We have adviſed <lb/>the abſtaining from beef
+          and pork: but <lb/>in this caſe mutton ſhould be alſo let<lb/>alone, or very rarely eaten;
+          and the <w part="I">din-</w><lb/><w part="F">ner</w> being made ſolely of the tender and
+          <lb/>young meats in this reduced quantity; and <lb/>the next care muſt be, that theſe are
+            <w part="I">al-</w><lb/><w part="F">ways</w> well and thoroughly done. </p>
+        <pb xml:id="page_39" n="39"/>
+        <p rend="indent"><lb/>Let the perſon riſe an hour before the <lb/>uſual time in a morning,
+          and every day <lb/>encreaſe the quantity of exerciſe a little: <lb/>but with great care
+          not to go out at <w part="I">im-</w><lb/><w part="F">proper</w> hours to endanger taking
+          cold. In <lb/>getting rid of one evil let us not run into <lb/>another. This fulneſs is a
+          ſtate in which <lb/>diſeaſes are moſt eaſily brought on, and <lb/>will be moſt violent.
+          Colds are very <lb/>dangerous to people in this condition, <lb/>and therefore are moſt
+          carefully to be <lb/>avoided. </p>
+        <p rend="indent"><lb/>The pulſe will ſhew whether this <lb/>method reduces the redundance:
+          and if <lb/>it do not take a viſible effect in five days, <lb/>it will be proper to be
+          blooded. After this <lb/>the ſame regimen will compleat the <w part="I">buſi-</w><lb/><w
+            part="F">ness</w>, and there will be no need for <lb/>medicines. </p>
+        <p rend="indent"><lb/>If all this fail, the warm bath every <lb/>other day will probably
+          anſwer the <lb/>purpoſe. In all old mens caſes 'tis beſt <lb/>to avoid medicines, if it
+          could be done <lb/>with ſafety; for they diſturb the <w part="I">conſtitu-</w><lb/><w
+            part="F">tion</w>: and the beſt guard of theſe perſons <lb/>health is quietneſs. </p>
+      </div>
+      <div n="13" type="chapter">
+        <pb xml:id="page_40" n="40"/>
+        <head rend="italic align-center"><lb/><hi rend="roman">CHAP. XII.</hi>
+          <lb/>Of waſting and decay. </head>
+        <p rend="indent"><lb/><hi rend="dc(3)">W</hi>HEN old perſons fall into this <lb/>condition,
+          it generally carries them <lb/>off. But many may be ſaved by timely <lb/>care, to whom no
+          remedies will be of <lb/>ſervice after a firſt neglect. While the <lb/>ſtomach is able to
+          digeſt any thing, there <lb/>is hope of recovery; but when its power <lb/>is loſt, food
+          and phyſick are thrown down <lb/>the throat in vain. </p>
+        <p rend="indent"><lb/>When an old man perceives his fleſh <lb/>waſting, and his ſtrength and
+          ſpirits <w part="I">fail-</w><lb/><w part="F">ing</w>, let him take good nouriſhment, and
+          <lb/>adapt it to the condition of his ſtomach. <lb/>If it be too ſtrong, or if he take too
+          much, <lb/>the digeſtive faculty, impaired by general <lb/>weakneſs, cannot manage it. He
+          will <w part="I">haſ-</w><lb/><w part="F">ten</w> his death by ſuch a conduct. </p>
+        <p rend="indent"><lb/>The rule is to eat only innocent and <lb/>nouriſhing things, and theſe
+          in moderate <lb/>quantities: chicken, young lamb, and veal <lb/>boiled down almoſt to
+          jelly, are the <w part="I">pro-</w><lb/><w part="F">per</w> foods for dinner, and of theſe
+          let him <lb/>eat leſs than his appetite demands. </p>
+        <p rend="indent"><lb/>Two hours before dinner, let him take <lb/>half a pint of chicken
+          broth; and as his <pb xml:id="page_41" n="41"/><lb/>his ſtomach ſtrengthens, veal or
+          mutton <lb/>broth; and the ſame one hour after his <lb/>light dinner. </p>
+        <p rend="indent"><lb/>Let the breakfaſt be a yolk of an egg, <lb/>beaten up with half a pint
+          of aſſes milk, <lb/>and a quarter of an ounce of conſerve of <lb/>roſes: and his ſupper
+          veal broth nearly <lb/>boiled to a jelly. </p>
+        <p rend="indent"><lb/>Every afternoon let him take half a pint <lb/>of aſſes milk alone: and
+          while this is doing, <lb/>let there be no violent evacuations. A <lb/>purging would be
+          deſtructive; and <w part="I">morn-</w><lb/><w part="F">ing</w> ſweats are very hurtful.
+          Let him <w part="I">there-</w><lb/><w part="F">fore</w> riſe early: and to compleat the
+          cure, <lb/>let him believe theſe methods will perform <lb/>it: an eaſy mind will do more
+          than food <lb/>or phyſic. </p>
+        <p rend="indent"><lb/>Quiet, good humour, and <w part="I">complacen-</w><lb/><w part="F"
+            >cy</w> of temper will prevent half the diſeaſes <lb/>of old people; and cure many of
+          the <lb/>others. </p>
+      </div>
+      <div n="14" type="chapter">
+        <pb xml:id="page_42" n="42"/>
+        <head rend="italic align-center "><lb/><hi rend="roman">CHAP. XIII.</hi>
+          <lb/>Againſt ſharp humours. </head>
+        <p rend="indent"><lb/><hi rend="dc(3)">T</hi>HE firſt ſign of ſharp humours in <lb/>the
+          bodies of old perſons is an <w part="I">un-</w><lb/><w part="F">eaſiness</w> at the
+          ſtomach: then comes on <lb/>a want of appetite, with ſour belchings, <lb/>wind, purgings,
+          and defluctions; thirſt, <lb/>and a feveriſh diſpoſition. </p>
+        <p rend="indent"><lb/>The fault lies originally in the ſtomach; <lb/>and generally an
+          irregular diet has been <lb/>the cauſe: high ſauces, bad wines, and <lb/>ſpicy foods. The
+          firſt ſtep to a cure is <lb/>to abſtain from theſe; and life depends <lb/>upon it: for to
+          aggravate thoſe ſymptoms <lb/>is to deſtroy the conſtitution utterly: <w part="I"
+            >in-</w><lb/><w part="F">curable</w> fevers, or fatal purgings follow. </p>
+        <p rend="indent"><lb/>The beſt beginning is by a vomit: and <lb/>after this the diet muſt be
+          all of the mild <lb/>and cooling kind. Every morning let the <lb/>perſon take two
+          ſpoonfuls of ſyrup of ſnails <lb/>made by bruiſing them with ſugar, and <lb/>hanging them
+          up in a flannel bag till the <lb/>juice runs out: and at meals, let the <lb/>drink be a
+          tea made of marſhmallow <lb/>and liquorice-root, with one third part <lb/>milk, and drank
+          juſt warm. If the skin <lb/>grow yellow, or the white of the eyes <pb xml:id="page_43"
+            n="43"/><lb/>appear of that colour, a doſe of rhubarb <lb/>once in three days will be
+          needful. The <lb/>beſt method of taking it is by <w part="I">chew-</w><lb/><w part="F"
+            >ing</w>. </p>
+        <p rend="indent"><lb/>This is as much phyſick as we would <lb/>have the old man uſe in ſuch
+          a caſe: the <lb/>reſt muſt be done by a proper regimen: let <lb/>him regulate his
+          paſſions: violent anger <lb/>will increaſe this diſorder more than the <lb/>moſt improper
+          foods. Let him alſo <w part="I">ba-</w><lb/><w part="F">niſh</w> fear. If he thinks
+          himſelf in <w part="I">dan-</w><lb/><w part="F">ger</w>, he will bring on that danger. </p>
+        <p rend="indent"><lb/>He muſt never overload his ſtomach; <lb/>nor ever ſuffer it to be
+          empty. Once <lb/>in two hours he ſhould ſwallow <w part="I">ſome-</w><lb/><w part="F"
+            >thing</w> Jellies of hartſhorn, truly made, <lb/>are excellent; but they muſt be
+          prepared <lb/>at home: for cheating is ſo eaſy, and the <lb/>true method with hartſhorn
+          only is ſo <w part="I">te-</w><lb/><w part="F">dious</w>, that few who make them for ſale
+          <lb/>will do it honeſtly. </p>
+        <p rend="indent"><lb/>Often this complaint riſes from a <w part="I">ſtop-</w><lb/><w
+            part="F">page</w> of perſpiration in ſome part, <w part="I">particu-</w><lb/><w part="F"
+            >larly</w> in the feet. Then the buſineſs is to <lb/>bring it on again by additional
+          warmth: as <lb/>by flannel ſocks and yarn ſtockings. This <lb/>will in many caſes alone
+          perform the cure; <lb/>and in all others, where ſuch a ſtoppage <pb xml:id="page_44"
+            n="44"/><lb/>has been a part of the cauſe, it will aſſiſt <lb/>the other methods. </p>
+        <p rend="indent"><lb/>The pulſe, which was at firſt too quick, <lb/>will grow moderate as
+          theſe cautions take <lb/>place, and this promiſes a cure. To <w part="I">com-</w><lb/><w
+            part="F">pleat</w> it, the patient muſt go to bed in <lb/>time, and uſe moderate
+          exerciſe in the beſt <lb/>hours of the day. He muſt eat no fat <lb/>meats, drink little
+          wine, and avoid care <lb/>and uneaſineſs of mind. </p>
+        <p rend="indent"><lb/>If he do not ſleep well, he muſt take a <lb/>ſmall doſe of ſyrup of
+          diacodium every <lb/>night. </p>
+        <p rend="indent"><lb/>This method will reſtore him to health, <lb/>and it muſt be preſerved
+          with due care <lb/>afterwards, elſe relapſes in this caſe are <lb/>frequent. A vomit once
+          in ſix weeks, <lb/>and a doſe of rhubarb every ten days, <lb/>with a careful diet, will
+          make this a <lb/>very healthy conſtitution. </p>
+        <p rend="indent"><lb/>The great care is taking the defect in <lb/>time; for new diſorders
+          are eaſily <w part="I">con-</w><lb/><w part="F">quered</w>, but eſtabliſhed ones are too
+            <w part="I">ob-</w><lb/><w part="F">ſtinate</w> for ſuch conſtitutions. </p>
+      </div>
+      <div n="15" type="chapter">
+        <pb xml:id="page_45" n="45"/>
+        <head rend="italic align-center"><lb/><hi rend="roman">CHAP. XIV.</hi>
+          <lb/>Of pains and inflammations. </head>
+        <p rend="indent"><lb/><hi rend="dc(3)">I</hi>T is proper to treat of theſe together,
+          <lb/>becauſe they generally come together. <lb/>We need not tell the old man where he
+          <lb/>is in pain: but he muſt examine <w part="I">careful-</w><lb/><w part="F">ly</w>
+          whether there be inflammation with it. </p>
+        <p rend="indent"><lb/>This he will know by his pulſe <w part="I">beat-</w><lb/><w part="F"
+            >ing</w> hard and quick, and by high coloured <lb/>urine: his fleſh alſo will be hotter
+          than <lb/>uſual. When pains come on without theſe<lb/> ſymptoms, warmth in the part, and
+            <w part="I">pa-</w><lb/><w part="F">tience</w> are the remedies: they muſt be
+          <lb/>conſidered as the lot of age, and born <w part="I">ac-</w><lb/><w part="F"
+            >cordingly</w>: but when theſe ſymptoms join <lb/>with them they threaten dangerous <w
+            part="I">conſe-</w><lb/><w part="F">quences</w>. </p>
+        <p rend="indent"><lb/>The firſt ſtep is bleeding: and this with <lb/>abſtinence from all hot
+          foods often <w part="I">per-</w><lb/><w part="F">forms</w> the cure. </p>
+        <p rend="indent"><lb/>If there be no relief, the next day but <lb/>one a vomit will be
+          proper. If the <lb/>body be coſtive, it inflames all the <w part="I">ſymp-</w><lb/><w
+            part="F">toms</w>; and if purges be given, they <w part="I">in-</w><lb/><w part="F"
+            >creaſe</w> the violent motion of the blood:<lb/> and therefore do more hurt than
+          ſervice.<lb/> Cooling and oily glyſters are the proper <pb xml:id="page_46" n="46"
+          /><lb/>method; and they ſhould be repeated every <lb/>morning. </p>
+        <p rend="indent"><lb/>The diet muſt be light and cool: all <lb/>ſolid foods ſhould be
+          omitted for the firſt <lb/>four or five days, and in their place aſſes <lb/>milk ſhould be
+          taken: and chicken broth <lb/>and jellies muſt be the nouriſhment <w part="I"
+            >dur-</w><lb/><w part="F">ing</w> this period. </p>
+        <p rend="indent"><lb/>After this, as the diſorder abates, the <lb/>ſtrength muſt be
+          conſidered; and by <w part="I">de-</w><lb/><w part="F">grees</w> the uſual diet ſuch is as
+          here <w part="I">recom-</w><lb/><w part="F">mended</w> for healthy old men may be <w
+            part="I">in-</w><lb/><w part="F">troduced</w>. But this muſt be done <w part="I"
+            >gradu-</w><lb/><w part="F">ally</w>, and with great caution; otherwiſe, a <lb/>ſudden
+          change, from low to richer diet, <lb/>will certainly bring on the complaint again;
+          <lb/>and worſe inflammation. </p>
+      </div>
+      <div n="16" type="chapter">
+        <pb xml:id="page_47" n="47"/>
+        <head rend="italic align-center"><lb/><hi rend="roman">CHAP. XV.</hi>
+          <lb/>Of fluxes. </head>
+        <p rend="indent"><lb/><hi rend="dc(3)">A</hi>GED people bear a too coſtive <w part="I"
+            >ha-</w><lb/><w part="F">bit</w> much better than they do fluxes <lb/>or purgings: for
+          they are eaſily weakened; <lb/>and nothing does it more than theſe. </p>
+        <p rend="indent"><lb/>The great rule in old men's diſorders <lb/>is to take them in time.
+          This will be cured <lb/>by proper diet when it is regarded early: <lb/>otherwiſe medicines
+          muſt be called in, <lb/>and perhaps they will be ineffectual. </p>
+        <p rend="indent"><lb/>The quantity of ſolid food ſhould be <lb/>abated; but it ſhould not be
+          left off <w part="I">whol-</w><lb/><w part="F">ly</w>. The drink ſhould be made of burnt
+          <lb/>hartſhorn and comfry root, two ounces of <lb/>each boiled in two quarts of water to
+          three <lb/>pints, the liquor poured clear off, and drank <lb/>warm with a little red wine. </p>
+        <p rend="indent"><lb/>Rice-milk, with ſome cinnamon boiled <lb/>in it, is excellent for
+          breakfaſt; and rice-<lb/>pudding for ſupper; two hours before <w part="I">bed-</w><lb/><w
+            part="F">time</w>. Sea-biſcuit ſhould be eat inſtead of <lb/>bread, and the patient muſt
+          uſe more than <lb/>ordinary exerciſe, to promote <w part="I">perſpira-</w><lb/><w part="F"
+            >tion</w>. </p>
+      </div>
+      <div n="17" type="chapter">
+        <pb xml:id="page_48" n="48"/>
+        <head rend="italic align-center"><lb/><hi rend="roman">CHAP. XVIII.</hi>
+          <lb/>Of the gravel and ſtone. </head>
+        <p rend="indent"><lb/><hi rend="dc(3)">O</hi>LD perſons are very ſubject to <w part="I"
+            >ob-</w><lb/><w part="F">ſtructions</w> in the urinary paſſages; <lb/>and the various
+          degrees of the gravel and <lb/>ſtone follow. Theſe are diſorders difficult<lb/> of cure;
+          but they are eaſily prevented in <lb/>moſt conſtitutions. </p>
+        <p rend="indent"><lb/>Let thoſe who are ſubject to ſlight <w part="I">com-</w><lb/><w
+            part="F">plaints</w> of this kind avoid wine, and <w part="I">ſup-</w><lb/><w part="F"
+            >ply</w> its place by beer of a due ſtrength. </p>
+        <p rend="indent"><lb/>Let the diet be cooling: and in regard <lb/>to exerciſe, the rule is
+          moderation. <w part="I">Vio-</w><lb/><w part="F">lent</w> motion, or reſt for a long time
+            <w part="I">toge-</w><lb/><w part="F">ther</w>, are equally wrong. Let the patient
+          <lb/>walk every day in the proper hours; and <lb/>when the weather does not permit that,
+          <lb/>let him uſe the ſame exerciſe in his <w part="I">cham-</w><lb/><w part="F">ber</w>. </p>
+        <p rend="indent"><lb/>When fits come on, let him take <w part="I">man-</w><lb/><w part="F"
+            >na</w> and oil: this is an eaſy and effectual <lb/>medicine. Two ounces of manna ſhould
+          <lb/>be diſſolved in half a pint of water, and <lb/>ſix ſpoonfuls of ſallad oil added to
+          it. A <lb/>ſpoonful of this taken every half hour will <lb/>ſtay upon the ſtomach, aſſwage
+          pain, ſtop <pb xml:id="page_49" n="49"/><lb/>the vomitings which often attend this
+          <lb/>complaint; and at the ſame time procure <lb/>ſtools: and while it eaſes the cholick
+          <lb/>pains will give paſſage to the ſtone. </p>
+        <p rend="indent"><lb/>This is the courſe in the violence of a fit. <lb/>When it is perceived
+          coming on, an <w part="I">infu-</w><lb/><w part="F">ſion</w> of <hi rend="sc">burdock
+            root</hi> ſlic'd, is the beſt <lb/>remedy. Two ounces of the freſh root <lb/>and a quart
+          of boiling water poured on it <lb/>makes this infuſion. The liquor is to be <lb/>ſtrained
+          off as ſoon as cold: and half a <lb/>pint, a little warmed again, with a quarter of a
+          <lb/>pint of milk, and ſweetened with honey, <lb/>is to be taken every four hours. </p>
+        <p rend="indent"><lb/>This is the medicine lately publiſhed <lb/>for the gout; and which
+          many are <lb/>now taking for that diſeaſe with great <lb/>ſucceſs. The gout and gravel are
+          nearly <lb/>ally'd, and it is not ſtrange the ſame remedy <lb/>is ſo effectual alſo in
+          this caſe. The <lb/>wonder is, that a plant of great virtue, <lb/>and ſo common, has been
+          ſo long <w part="I">neglect-</w><lb/><w part="F">ed</w> by the practiſers of phyſick. </p>
+        <p rend="indent"><lb/>Of the gout it would be vain to treat <lb/>here. 'Tis a peculiar
+          ſubject, and requires <lb/>a larger compaſs than any ſingle article <lb/>can be allowed in
+          this work: and it has <lb/>been conſidered ſeparately in that treatiſe. </p>
+      </div>
+      <div n="18" type="chapter">
+        <pb xml:id="page_50" n="50"/>
+        <head rend="italic align-center"><lb/><hi rend="roman">CHAP. XIX.</hi>
+          <lb/>Of weakneſs. </head>
+        <p rend="indent"><lb/><hi rend="dc(3)">O</hi>LD men muſt expect a decay of <lb/>ſtrength:
+          and it would be as idle to <lb/>call it a diſeaſe, as vain to think of <w part="I"
+            >re-</w><lb/><w part="F">medies</w>. But, beſides this which is <w part="I"
+            >natu-</w><lb/><w part="F">ral</w> and neceſſary, weakneſs is ſometimes <lb/>accidental,
+          and it may thus be remedied. </p>
+        <p rend="indent"><lb/>Great evacuations, intenſe ſtudy, violent <lb/>paſſions, or a too low
+          diet will ſometimes <lb/>bring it on before the natural time, and <lb/>a proper care and
+          regimen may remove <lb/>it. </p>
+        <p rend="indent"><lb/>A lowneſs of the pulſe, feebleneſs of <lb/>the limbs, a paleneſs of
+          the face, waſte of <lb/>fleſh, and low ſpirits are the ſymptoms <lb/>by which this is
+          known; and the remedies <lb/>are cordial medicines, and a ſomewhat <lb/>richer diet. </p>
+        <p rend="indent"><lb/>The medicine I have found moſt <w part="I">effec-</w><lb/><w part="F"
+            >tual</w> is this: a quarter of an ounce of <w part="I">ſaf-</w><lb/><w part="F"
+            >fron</w>, a dram of cinnamon, and an ounce <lb/>of confection alkermes in a quart of
+          white <lb/>wine: when this has ſtood two days it <lb/>ſhould be poured off, and half a <w
+            part="I">wine-</w><lb/><w part="F">glass</w> of it drank once a day. </p>
+        <pb xml:id="page_51" n="51"/>
+        <p rend="indent"><lb/>Reſt of mind and body are alſo in this <lb/>caſe great articles toward
+          the cure. Let not <lb/>the patient think he is in danger: let him <lb/>venture to eat
+          ſomewhat richer meats, <lb/>but in a moderate quantity, and indulge <lb/>in one
+          extraordinary glaſs of wine at every <lb/>meal. </p>
+        <p rend="indent"><lb/>Let him riſe early; but not go out 'till <lb/>the air is well warmed
+          by the ſun, and <lb/>the dews are diſperſed. If he reſide in <lb/>London at the time, let
+          him immediately <lb/>go into the country: if he be too looſe in <lb/>his bowels let him
+          check it moderately by <lb/>the means we have directed; and let his <lb/>malt liquor be
+          ſtrong of the hop. </p>
+        <p rend="indent"><lb/>Between breakfaſt and dinner let him <lb/>every day take a yolk of a
+          new laid egg <lb/>beat up in a glaſs of ſtrong white wine. <lb/>The company of agreeable
+          friends will be <lb/>the beſt medicine in an evening; and <lb/>good broth his fitteſt
+          ſupper. </p>
+      </div>
+      <div n="19" type="chapter">
+        <pb xml:id="page_52" n="52"/>
+        <head rend="italic align-center"><lb/><hi rend="roman">CHAP. XX.</hi>
+          <lb/>Of the aſthma. </head>
+        <p rend="indent"><lb/><hi rend="dc(3)">T</hi>HIS is a common complaint with <lb/>aged
+          perſons; and there is none <lb/>more troubleſome. 'Tis difficult of cure: <lb/>but relief
+          is eaſy: and it will depend as <lb/>much on the air as all other conſiderations
+          <lb/>together. </p>
+        <p rend="indent"><lb/>The great care in this reſpect is that <lb/>the air of the place be
+          neither thick nor <lb/>damp. </p>
+        <p rend="indent"><lb/>The ſmoak of London is very bad; <lb/>and the ill ſmells from many of
+          the trades <lb/>carried on there is as hurtful. No perſon <lb/>ſubject to an aſthma ſhould
+          live near <w part="I">tan-</w><lb/><w part="F">ners</w> in the country, nor tallow
+          chandlers, <lb/>or the like offenſive trades in London. </p>
+        <p rend="indent"><lb/>Exerciſe at proper times is vaſtly <w part="I">bene-</w><lb/><w
+            part="F">ficial</w> in this caſe. Walking or riding <w part="I">be-</w><lb/><w part="F"
+            >fore</w> dinner and ſupper are particularly <lb/>proper. </p>
+        <p rend="indent"><lb/>Frequent waſhing the feet in warm <lb/>water, with good rubing with
+          dry cloaths <lb/>afterwards, is alſo highly ſerviceable. </p>
+        <p rend="indent"><lb/>All cold and viſcous foods muſt be <lb/>avoided. The ſtomach muſt not
+          be <w part="I">ſuf-</w><lb/><w part="F">fered</w> to be empty, nor muſt it be loaded. <pb
+            xml:id="page_53" n="53"/><lb/>The food ſhould be of the richeſt kind <lb/>that is proper
+          for perſons advanced in <lb/>years; and to aſſiſt digeſtion two or three <lb/>diſhes of
+          good tea, made carefully and <lb/>taken with little ſugar and without milk, <lb/>ſhould be
+          drank conſtantly, two hours and <lb/>a half after dinner. </p>
+        <p rend="indent"><lb/>Vegetables ſhould be avoided, and one <lb/>great caution ſhould be not
+          to drink too <lb/>much of any liquor whatſoever. </p>
+        <p rend="indent"><lb/>Bleeding is uſually neceſſary; and the <lb/>condition of the blood
+          will ſhew whether <lb/>it ſhould be in larger or ſmaller quantity; <lb/>and whether or not
+          it will require to be <lb/>ſoon repeated. </p>
+        <p rend="indent"><lb/>If the blood be ſizey theſe repeated <lb/>bleedings will be neceſſary;
+          and the ſame <lb/>condition of it ſhews the body can ſpare <lb/>theſe quantities. It ſhews
+          alſo, that <w part="I">with-</w><lb/><w part="F">out</w> theſe bleedings medicines can
+          take no <lb/>effect. </p>
+        <p rend="indent"><lb/>After this the greateſt preſervative <w part="I">a-</w><lb/><w
+            part="F">gainſt</w> ſharp or repeated fits is the famous <lb/>gum ammoniacum. A quarter
+          of an <lb/>ounce of this being diſſolved in half a <lb/>pint of water, two ſpoonfuls
+          ſhould be <lb/>taken, according to the ſymptoms, every <lb/>night, or every ſecond or
+          third night. </p>
+        <pb xml:id="page_54" n="54"/>
+        <p rend="indent"><lb/>This method will prevent many fits, <lb/>and abate the ſeverity of
+          thoſe which <w part="I">can-</w><lb/><w part="F">not</w> be put off. </p>
+        <p rend="indent"><lb/>Thus the old man, even againſt the fury <lb/>of this worſt diſturbance
+          of his life, and all <lb/>the reſt, will live happy: and be ought to <lb/>value that
+          happineſs the more becauſe he <lb/>will owe it to his own diſcretion. </p>
+        <trailer rend="align-center"><lb/>FINIS. </trailer>
+      </div>
+
+    </body>
+  </text>
+</TEI>

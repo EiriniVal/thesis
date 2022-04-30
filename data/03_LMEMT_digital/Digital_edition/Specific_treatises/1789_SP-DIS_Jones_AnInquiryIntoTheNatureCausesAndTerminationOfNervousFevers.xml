@@ -1,0 +1,1135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LMEMT Corpus - Jones: An inquiry into the nature, causes, and termination of nervous
+          fevers</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>Robert Jones</persName>
+            </author>
+            <title type="main">An inquiry into the nature, causes, and termination of nervous
+              fevers: together with observations tending to illustrate the method of restoring His
+              Majesty to health, and of preventing relapses of his disease. By Robert Jones, M. D.
+              And Member of the Royal Society of the Antiquarians at Edinburgh</title>
+            <edition n="1"/>
+            <idno type="ESTC">T116073</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/T116073"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>Salisbury</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>Salisbury: printed and sold by B.C. Collins: sold also by S. Crowder,
+                  Pater-Noster-Row, London, M.DCC.LXXXIX.</persName>
+              </publisher>
+              <date>1789</date>
+            </imprint>
+            <extent>
+              <measure type="format">8⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="19"/>
+              <measure type="count" commodity="body" unit="page" quantity="51"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">British Library</orgName>
+            <idno type="ECCO">CW3308868707</idno>
+            <idno type="TCP">K092929.000 </idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Book on a specific topic: disease"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text xml:lang="eng">
+    <front>
+      <div>
+        <pb xml:id="page_2"/>
+        <head rend="align-center">
+          <lb/>TO <lb/><hi rend="size(2)"><hi rend="sc">His</hi> MAJESTY</hi>. </head>
+        <lb/>
+        <salute rend="italic">Moſt Gracious Sovereign, </salute>
+        <p rend="indent">
+          <lb/><hi rend="dc(3)">T</hi>HE object of the following <lb/>ſheets is to explain to your
+          <lb/>Majeſty the nature of your late ill- <lb/>ness. I have been anxious in my in-
+          <lb/>quiries concerning its origin and pro- <lb/>gress. All diſeaſes of a ſimilar nature
+          <lb/>admit of a ſpeedy cure, when properly <lb/>treated. I have therefore been de-
+          <lb/>ſirous, as a loyal and affectionate ſub- <lb/>ject, to offer my ſentiments upon your
+          <lb/>Majeſty's deranged ſtate of health. </p>
+        <pb xml:id="page_3"/>
+        <p rend="indent">
+          <lb/><hi rend="sc">The</hi> thoughts which are inſerted <lb/>in the following ſheets may
+          perhaps <lb/>be of ſome utility to your Majeſty. <lb/>And my intentions will be quite ac-
+          <lb/>compliſhed, if they contribute, in the <lb/>ſmalleſt degree, to the reſtoration of
+          <lb/>your health, and to the prevention of <lb/>relapſes. </p>
+        <signed>
+          <lb/>I am, <lb/>Your <hi rend="sc">Majesty</hi>'s <lb/>Moſt loyal and devoted <lb/>Subject
+          and ſervant, <lb/>ROBERT JONES. </signed>
+        <lb/>
+        <dateline><hi rend="sc">Salisbury</hi>, <hi rend="italic">Jan.</hi> 1, 1789. </dateline>
+      </div>
+      <div>
+        <pb xml:id="page_4"/>
+        <head rend="align-center dc(2)">
+          <lb/>INTRODUCTION. </head>
+        <p rend="indent">
+          <lb/><hi rend="dc(3)">T</hi>HE pathology and practice of medi- <lb/>cine are (of all the
+          arts and ſciences) <lb/>the leaſt which approach to certainty and <lb/>to truth; and the
+          practitioners of phyſic <lb/>are therefore too often diſpoſed to appeal to
+          <lb/>conjecture, analogy, and probability, in <lb/>their judgment and treatment of moſt
+          diſ- <lb/>eaſes, rather than to reaſon, philoſophy, <lb/>and a ſcientific diſcernment of
+          cauſes and <lb/>effects. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">Even</hi> from the infancy of this art, we <lb/>find reaſoning from
+          falſe principles pre- <pb xml:id="page_5" n="iv"/>
+          <lb/>vail, inſtead of obſerving, with accuracy, <lb/>the uniform courſe of nature. The
+          ſymp- <lb/>toms of diſeaſes are, therefore, more care- <lb/>fully noticed than their
+          cauſes; and the <lb/>practice of phyſic is, conſequently, more <lb/>influenced by <hi
+            rend="italic">effects</hi> than by <hi rend="italic">cauſes,</hi> which <lb/>ſhould be
+          the ſolid baſis upon which all <lb/>reaſoning concerning diſeaſes ought to be
+          <lb/>eſtabliſhed. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">The</hi> innovation which was introduced <lb/>in the practice of phyſic
+          by the celebrated <lb/>Dr. Sydenham, was of eſſential importance, <lb/>ſo far as it was
+          calculated to eſtabliſh a pro- <lb/>per and rational method of practice in all
+          <lb/>diſeaſes of a phlogiſtic or inflammatory <lb/>nature; ſuch as the pleuriſy,
+          ſmall-pox, <lb/>meaſles, and diſeaſes of this deſcription. <pb xml:id="page_6" n="v"/>
+          <lb/>But it is very evident, that in thoſe of an <lb/>oppoſite nature, ſuch as nervous
+          fevers, <lb/>palſies, apoplexies, epilepſies, and all diſ- <lb/>eaſes of this nature, it
+          muſt produce a <lb/>different effect: and this is completely <lb/>proved, by its bringing
+          on, in theſe modi- <lb/>fications of diſeaſe, the very worſt of conſe- <lb/>quences, and
+          even death. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">The</hi> principles and practice of this diſ- <lb/>tinguiſhed phyſician
+          have therefore had a <lb/>bad effect, ſo far as they have been the <lb/>means of
+          introducing a dangerous practice <lb/>in nine tenths of the diſeaſes of mankind. <lb/>For
+          they have found their way into all the <lb/>principal ſchools of phyſic in Europe, and
+          <lb/>prevail, to a great extent in the practice of <lb/>medicine, all over the world at
+          this preſent <lb/>time. </p>
+        <pb xml:id="page_7" n="vi"/>
+        <p rend="indent">
+          <lb/><hi rend="sc">All</hi> nervous diſeaſes, and fevers in par- <lb/>ticular, ariſe more
+          frequently from domeſtic <lb/>anxieties, and paſſions of the mind, ſuch as <lb/>grief,
+          diſappointment, and deſpair, than <lb/>from any other cauſes whatſoever. And <lb/>in order
+          to remove them, it is evident, that <lb/>to increaſe the cauſe is not the method to
+          <lb/>remove the diſeaſe. But the idea that ple- <lb/>thora, or too great a quantity of
+          blood ex- <lb/>iſts in the body, and is therefore the cauſe <lb/>of theſe diſeaſes, is a
+          moſt pernicious doc- <lb/>trine; conſequently bleeding, cupping, a <lb/>ſpare diet,
+          purging, and applications of this <lb/>nature, are ſuppoſed to be efficacious in re-
+          <lb/>moving of theſe ſeveral diſeaſes; and more <lb/>eſpecially when they affect athletic
+          and ro- <lb/>buſt people. This ſuppoſed cauſe, there- <pb xml:id="page_8" n="vii"/>
+          <lb/>fore, points out to a moſt dangerous method <lb/>of cure. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">It</hi> has been the ſtudy of a great part of <lb/>my life to inquire
+          into the defects which <lb/>prevail ſo univerſally in the practice of <lb/>phyſic; and I
+          hope that the obſervations <lb/>I have made, and the improvements I have <lb/>in future to
+          ſuggeſt, may be of ſome uti- <lb/>lity. The bulk of mankind are averſe <lb/>to the ſtudy
+          of phyſic, from the tech- <lb/>nical terms, the endleſs multiplication of <lb/>cauſes, and
+          the numerous uncouth names <lb/>for diſeaſes and their remedies, which pre- <lb/>vail ſo
+          univerſally; therefore private gen- <lb/>tlemen were never remarkable for their
+          <lb/>knowledge of this art, although they have <lb/>diſtinguiſhed themſelves often by
+          their deep <pb xml:id="page_9" n="viii"/>
+          <lb/>inquiries into law, antiquities, &amp;c. A Sel- <lb/>den and a Spelman were private
+          gentle- <lb/>men; and no men have been more keen <lb/>in their reſearches concerning
+          points of law <lb/>and conſtitutional topics. </p>
+        <p rend="indent">
+          <lb/>IT is therefore much to be lamented, <lb/>that men of fortune, rank, and learning,
+          <lb/>do not bend their minds to inquiries into <lb/>ſubjects of ſo much importance to
+          mankind <lb/>as the healing art. The healing art is <lb/>ſurely the moſt intereſting to
+          our natures <lb/>of any whatſoever; and yet men of diſ- <lb/>tinction and conſequence in
+          general treat <lb/>it as a department of knowledge beneath <lb/>their notice <note
+            place="bottom" n="*" rend="size(0.5)">* There is an exception to this remark in an
+            illuſtrious <lb/>foreigner, His Serene Highneſs the Prince and Duke de Bouil- <lb/>lon,
+            who is not only a profound philoſopher, but a moſt diſ- <lb/>cerning phyſician. </note>.
+          The practice of phyſic in <pb xml:id="page_10" n="ix"/>
+          <lb/>Great Britain is, at this preſent time, to <lb/>be conſidered as the reſult of
+          applying Dr. <lb/>Boerhaave's and Dr. Cullen's principles <lb/>to practice. Theſe ſyſtems
+          have been moſt <lb/>compleatly exploded, both as falſe in their <lb/>principles, and moſt
+          pernicious in their <lb/>practice <note place="bottom" n="*" rend="size(0.5)">* See Dr.
+            Brown's works, and an Inquiry into the State of <lb/>Medicine, upon the principles of
+            inductive philoſophy. </note>. And yet the advocates for theſe <lb/>ſyſtems of medicine
+          are ſuffered to domi- <lb/>neer, as it were, over the ſufferings of <lb/>mankind. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">The</hi> method of treating of nervous fe- <lb/>vers, of every
+          deſcription, is in a lamentable <lb/>condition indeed. We hear of thoſe that <lb/>ſurvive;
+          and the newſpapers inform us of <lb/>ſome that are dead. We ceaſe to inquire <lb/>into
+          cauſes, and we ſit down contented <pb xml:id="page_11" n="x"/>
+          <lb/>with viewing of effects. It is, I am for- <lb/>ward to ſay, owing to the
+          miſmanagement <lb/>of the fair ſex after laying in, that we hear <lb/>of the death of ſo
+          many. It is very likely <lb/>that they may experience a little fever at <lb/>this time;
+          but ignorance and miſmanage- <lb/>ment <hi rend="italic">at this period</hi> is likely to
+          convert it <lb/>into a nervous, or putrid fever, and death. <lb/>All mankind experience a
+          pre-diſpoſition <lb/>to diſeaſes, before they announce them- <lb/>ſelves with all their
+          formality and terrors <note place="bottom" n="*" rend="size(0.5)">* The doctrine of <hi
+              rend="italic">pre-diſpoſition</hi> to diſeaſe is perhaps the <lb/>moſt important and
+            uſeful department of phyſic. Every <lb/>man feels the approach of diſeaſe before it
+            comes on, by a <lb/>variety of different ſymptoms, which are peculiar to every de-
+            <lb/>ſcription of men. The Gout is known before it makes its ap- <lb/>pearance, to thoſe
+            who have been accuſtomed to it, by flatulent <lb/>complaints in the ſtomach and bowels,
+            accompanied with acid <lb/>eructations, and apprehenſions and fear of the diſeaſe. The
+            <lb/>ſame is preciſely the caſe with fevers, and with great numbers <lb/>of nervous
+            complaints. This is the time that a phyſician has <lb/>it in his power to exert his
+            skill and judgment, and before the <lb/>diſeaſe makes its formal appearance; therefore a
+            proper know- <lb/>ledge of the doctrine of pre-diſpoſition to diſeaſes, as it is called,
+            <lb/>is of the greateſt utility in preventing the acceſſion of them. <lb/>Therefore Dr.
+            Willis, with all deference to this phyſician, was <lb/>perfectly erroneous in aſſerting,
+            that diſeaſes of the ſame nature <lb/>with that complaint under which his Majeſty has
+            laboured are <lb/>liable to relapſes; for the knowledge of a ſtate of pre-diſpo-
+            <lb/>ſition to diſeaſe will qualify a diſcerning phyſician to obſerve the <lb/>malady at
+            a diſtance, and to prevent the tumult which it cre- <lb/>ates—relapſes, in theſe caſes,
+            are therefore accounted for. It is <lb/>natural to ſuppoſe, that his Majeſty will be an
+            invalid for ſome <lb/>time to come, and that he will be liable to trifling attacks of
+            his <lb/>diſeaſe. During this period, it would be very adviſable that <lb/>there ſhould
+            be a phyſician in conſtant attendance, who ought <lb/>to have nothing elſe to do but to
+            wait on his royal patient, and <lb/>to obviate every little attack, by proper medicines,
+            diet, &amp;c. <lb/>This plan will conſtantly enſure his Majeſty a good ſtate of
+            <lb/>health, and enable him, in a ſhort ſpace of time, to be, from <lb/>experience
+            alone, his own phyſician. </note>. <pb xml:id="page_12" n="xi"/>
+          <lb/>When the diſeaſe takes place, we are not <lb/>in a condition to help ourſelves, and
+          we <lb/>therefore are obliged to ſend for the advice <lb/>of thoſe who are ſuppoſed to be
+          qualified to <pb xml:id="page_13" n="xii"/>
+          <lb/>underſtand it. The patient, at this time, <lb/>is perhaps reſtleſs* <note
+            place="bottom" n="*" rend="size(0.5)">From the reports of his Majeſty's phyſicians of
+            the 7th, <lb/>8th, and 9th of December, I am ſtill more ſtrengthened in my <lb/>opinion,
+            that his diſeaſe is neither more nor leſs than a nervous <lb/>fever. Every man, in all
+            deſcriptions of nervous fevers, is <lb/>rather incoherent, unleſs they are refreſhed by
+            ſleep. For a <lb/>want of reſt debilitates the mind and body to a great degree.
+            <lb/>This is proved by the invigorating effects of ſleep which his <lb/>Majeſty
+            experienced on the 8th and 9th. he report is, <lb/>
+            <q rend="quotes">His Majeſty has had more than ſeven hours undiſturbed ſleep <lb/>in the
+              night, and is quiet this morning.</q> (Signed) </note>
+        </p>
+      </div>
+      <div>
+        <signed>
+        <lb/>
+        <note place="bottom" n="*" rend="size(0.5)">
+  
+            <lb/><hi rend="sc">R. Warren.</hi>
+            <lb/>
+            <hi rend="sc">J. R. Reynolds</hi>. 
+        </note> , with a ſevere and heavy <lb/>feeling in the head, cold chills, with great
+        <lb/>laſſitude, and full of melancholy apprehen- <lb/>ſions. Or he may labour under a
+        delirium, <lb/>and raging fever. An error at this time is <lb/>irretrievable; and hence the
+        neceſſity of <lb/>great judgment, and a nice diſcernment of <lb/>cauſes, in the phyſician.
+        Bleeding, bliſter- <lb/>ing, vomiting, and purging, will at this <pb xml:id="page_14"
+          n="xiii"/>
+        <lb/>time encreaſe the malady, and, eventually, <lb/>bring on death. The delirium ariſes
+        from <lb/>a weakened condition of the nervous and <lb/>vaſcular ſyſtem in general, but more
+        eſpe- <lb/>cially in the brain. Sudorifics and opiates <lb/>produce a temporary relief; and
+        it behoves <lb/>thoſe who adminiſter theſe medicines, to <lb/>take particular care that the
+        patient is not <lb/>expoſed to the ſmalleſt degree of cold <lb/>during their operation, or
+        the delirium will <lb/>be encreaſed, and all the ſymptoms of the <lb/>diſeaſe aggravated to
+        an alarming degree. </signed>
+      </div>
+      <div>
+        <p rend="indent">
+          <lb/>I <hi rend="sc">have</hi> had the management of a great <lb/>number of patients
+          labouring under ner- <lb/>vous or putrid fevers, and have uniformly <lb/>been ſucceſſful
+          in the treatment of this <pb xml:id="page_15" n="xiv"/>
+          <lb/>dangerous diſeaſe. But I have obſerved, <lb/>and I have abundance of proofs to
+          eſtabliſh <lb/>my obſervation, that it ſometimes happens, <lb/>that what is called a ſtate
+          of inſanity, is <lb/>the conſequence of theſe fevers. </p>
+        <p rend="indent">
+          <lb/>A <hi rend="sc">continual</hi> ſtate of delirium will <lb/>either bring on death, or
+          a conſiderable re- <lb/>laxation in the blood veſſels of the brain, <lb/>which will <hi
+            rend="italic">ſine vi a tergo,</hi> admit of more <lb/>blood within them, than they
+          were, in <lb/>their vigorous and healthy ſtate, capable of <lb/>receiving; juſt in the
+          ſame manner that <lb/>ſevere ſtudy, hard drinking, ſevere vomit- <lb/>ing, and the
+          application of leeches to eyes <lb/>which are inflamed through weakneſs, will <lb/>produce
+          a greater degree of inflammation <pb xml:id="page_16" n="xv"/>
+          <lb/>in them, by weakening ſtill more theſe <lb/>parts <note place="bottom" n="*"
+            rend="size(0.5)">* There are no diſeaſes more obſtinate in their cure than <lb/>ſome
+            inflammatory conditions of the eyes. A great number of <lb/>people loſe their ſight by
+            tampering with their eyes in this ſitu- <lb/>ation. The great object of ſurgery is to
+            prevent the amputa- <lb/>tion of legs and arms, by curing of the diſeaſe, which, how-
+            <lb/>ever, in ſome caſes, is abſolutely neceſſary. But ſurgeons, as <lb/>well as
+            oculiſts, are too fond of uſing of inſtruments. Ocu- <lb/>liſts are not in general
+            ſufficiently qualified to reaſon concerning <lb/>the cauſes of diſeaſes of the eyes,
+            much leſs of obſtinate opthal- <lb/>mias, or inflammations affecting theſe organs; hence
+            ariſes the <lb/>inveteracy of this diſeaſe. It is therefore probable, that a noble
+            <lb/>Lord, once high in office, will loſe the uſe of his eyes from miſ- <lb/>management.
+            For the method of treating theſe inflammations <lb/>of the eyes, is diametrically
+            oppoſite to the indication of cure. <lb/>They are, from the inflammatory appearance of
+            the blood veſ- <lb/>ſels, conceived to be real inflammatory diſeaſes, when the con-
+            <lb/>trary, I am ready and willing to prove, is the fact, in nineteen <lb/>times out of
+            twenty. I have had the management of a great <lb/>number of patients labouring under
+            this obſtinate complaint, <lb/>and have been ſucceſſful in curing every individual that
+            has <lb/>been under my care. <p rend="indent">
+              <lb/>My motive in introducing of this ſubject is only to <lb/>ſhew, that in caſes of
+              mental derangement, the blood veſſels <lb/>within the brain are in the preciſe
+              ſituation of debility and re- <lb/>laxation which takes place in the blood veſſels
+              which occupy <lb/>the anterior parts of the eyes in obſtinate <hi rend="italic"
+                >Opthalmias;</hi> and that <lb/>to invigorate, by all poſſible means, the whole
+              ſyſtem, and the <lb/>vaſcular ſyſtem in particular of the parts affected, is the only
+              <lb/>cure. </p>
+          </note>. </p>
+        <pb xml:id="page_17" n="xvi"/>
+        <p rend="indent">
+          <lb/><hi rend="sc">There</hi> is no affliction more painful to <lb/>man than the gout; and
+          yet important diſ- <lb/>coveries have been made of late, in order <lb/>to ſhew that it
+          admits of a ſpeedy cure and <lb/>eaſy management. And I am well con- <lb/>vinced, from my
+          own experience, that the <lb/>fear and apprehenſions of what takes place <lb/>in fits of
+          this diſeaſe, often produces what <lb/>is called a relapſe. The apprehenſion of <lb/>the
+          paſt feelings, and pains, generally <lb/>brings on a renewal of the diſeaſe. And
+          <lb/>phyſicians ought to be particularly care- <lb/>ful to prevent their patients from
+          going <pb xml:id="page_18" n="xvii"/>
+          <lb/>out into the cold in a ſtate of convaleſ- <lb/>cence. Cold applied to the body in
+          this <lb/>ſtate, and eſpecially at this time of the <lb/>year, will generally produce a
+          relapſe; and <lb/>I ſuſpect that his Majeſty has experienced, <lb/>from this cauſe alone,
+          diſagreeable conſe- <lb/>quences, and that very lately. In a ſtate <lb/>of convaleſcence,
+          the mind is always me- <lb/>lancholy and dejected; and whatever weak- <lb/>ens the body at
+          this time, will, to a cer- <lb/>tainty, bring on a return of the diſeaſe. <lb/>Exceſſive
+          heat in ſultry weather produces <lb/>nearly the ſame effects. </p>
+        <p rend="indent">
+          <lb/><hi rend="sc">In</hi> this treatiſe I have endeavoured to be <lb/>as ſhort and as
+          conciſe as poſſible. But <lb/>in a future publication, which I have in <lb/>contemplation,
+          I intend to offer my opi- <pb xml:id="page_19" n="xviii"/>
+          <lb/>nions at ſome length, concerning ſome diſ- <lb/>eaſes which are known by the name of
+            <lb/><hi rend="italic">Opprobria Medicorum.</hi>
+          <note place="bottom" n="*" rend="size(0.5)">* The Appendix and Notes, which it was my
+            original in- <lb/>tention to make a part of this treatiſe, are to be inſerted in a
+            <lb/>ſubſequent performance, which is to comprehend in it a great <lb/>variety of
+            proofs, which are not taken notice of in this publi- <lb/>cation. </note>
+        </p>
+      </div>
+    </front>
+    <body>
+      <pb xml:id="page_20"/>
+      <head rend="align-center dc(2)">
+        <lb/>AN INQUIRY, &amp;c. </head>
+      <p rend="indent">
+        <lb/><hi rend="dc(3)">T</hi>HERE is not a diſeaſe which aſſumes <lb/>a greater variety of
+        appearances, nor <lb/>has given occaſion to the loquacity and de- <lb/>cided opinions of
+        practitioners of Medicine, <lb/>than the complaint which has for ſome <lb/>time paſt
+        afflicted our moſt amiable Sove- <lb/>reign. At one time it is ſuppoſed to be <lb/>the Gout,
+        at other times the Hypochon- <lb/>driaſis, and at others a Nervous Fever: <lb/>nay, it is
+        diſtinguiſhed by almoſt every <lb/>name which is congenial to the medical <lb/>dogmas of
+        practitioners of phyſic. </p>
+      <pb xml:id="page_21" n="2"/>
+      <p rend="indent">
+        <lb/><hi rend="sc">It</hi> unfortunately happens to mankind, <lb/>that the method of living
+        which Phyſi- <lb/>cians in general obſerve, is likely to eſta- <lb/>bliſh a good ſtate of
+        health; and hence <lb/>ariſes their implicit faith in books and ſyſ- <lb/>timatical writers.
+        They are therefore ſel- <lb/>dom harraſſed with thoſe complaints, which <lb/>ſo conſtantly
+        fall to the lot of ſocial, and <lb/>convivial ſpirits, which are commonly <lb/>Fevers, the
+        Rheumatiſm, flatulent Com- <lb/>plaints, ſevere nervous Feelings in the <lb/>Head, and over
+        every part of the body, <lb/>and the Gout. But while habits of con- <lb/>viviality produce
+        theſe effects, the oppoſite <lb/>extreme, ſuch as abſtinence in wine and <lb/>animal food,
+        and ſo forth, are attended with <lb/>preciſely the ſame conſequences, and this <lb/>ſtate is
+        completely demonſtrated in the pre- <lb/>ſent deranged condition of his Majeſty's
+        <lb/>health. </p>
+      <pb xml:id="page_22" n="3"/>
+      <p rend="indent">
+        <lb/>I <hi rend="sc">have</hi> long been an enemy to Dr. <lb/>Cullen's practice in general
+          <note place="bottom" n="*" rend="size(0.5)">* See Appendix, Note A. </note>; for I have
+        <lb/>ſeen it ſo often attended with the moſt fa- <lb/>tal conſequences, and more eſpecially
+        in <lb/>Fevers <note place="bottom" n="†" rend="size(0.5)">† See Appendix to an Inquiry into
+          the State of Medicine. </note>. The natural termination of Fe- <lb/>vers is in a ſtate of
+        delirium, and, ulti- <lb/>mately, in death, if a deranged condition <lb/>of the intellectual
+        powers do not intervene <lb/>to prevent the diſſolution of nature. This <lb/>ſtate is called
+        by the name of Madneſs: <lb/>and if human invention was abſolutely ne- <lb/>ceſſary to
+        operate this effect, the method <lb/>now in uſe among practitioners of medi- <lb/>cine is
+        compleatly equal to produce it. </p>
+      <p rend="indent">
+        <lb/><hi rend="sc">Let</hi> me ask this queſtion, What is it <lb/>that produces the diſeaſe
+        known by the <lb/>name of a nervous, or putrid Fever? Every <lb/>phyſician, who has a grain
+        of common <lb/>ſenſe, will anſwer, that it is produced by <pb xml:id="page_23" n="4"/>
+        <lb/>debilitating cauſes! But in order to re- <lb/>fine upon theſe cauſes, and to ſpin a web
+        of <lb/>their own creation, they will inſiſt upon <lb/>the addition of contagion, effluvia
+        from <lb/>putrid ſubſtances, exhalations from marſhy <lb/>grounds, &amp;c. &amp;c. </p>
+      <p rend="indent">
+        <lb/><hi rend="sc">The</hi> penetrating Rouſſeau wiſely ſays, <lb/>that "ſcience which
+        inſtructs, and me- <lb/>dicine which cures, are both undoubt- <lb/>edly very good; but
+        ſcience which deceives, <lb/>and medicine which kills, are bad. Teach <lb/>us how to
+        diſcriminate them—there lies <lb/>the difficulty of the queſtion." </p>
+      <p rend="indent">
+        <lb/><hi rend="sc">There</hi> never was an art more full of de- <lb/>ception than the
+        practice of phyſic: and <lb/>this is completely illuſtrated, by the fatal <lb/>termination
+        of moſt of the diſeaſes which <lb/>are inflicted by Providence upon mankind. <lb/>We are, in
+        general, diſpoſed to refer the <lb/>cauſes of fevers, and other diſeaſes, to the <pb
+          xml:id="page_24" n="5"/>
+        <lb/>influence of phyſical cauſes alone, and to <lb/>overlook the operation of moral cauſes
+        al- <lb/>together; whereas it can be proved, that <lb/>moral cauſes are chiefly the
+        forerunners of <lb/>moſt diſeaſes depending upon debility; and <lb/>in this ſtate of the
+        body, the application of <lb/>phyſical cauſes, ſuch as cold applied to it, <lb/>in a
+        debilitated ſtate, heat, contagion, pu- <lb/>trid effluvia, and other powers, operating
+        <lb/>upon ſimilar principles, will more effec- <lb/>tually produce diſeaſes of this nature;
+        and <lb/>the effect of theſe powers will be the more <lb/>compleat, if to theſe are added
+        exceſs of <lb/>every kind, immoderate indulgence in the <lb/>paſſions, fatigues of the mind,
+        together <lb/>with the afflictions and pains which are felt <lb/>in every condition of
+        mortality, from the <lb/>monarch to the beggar, and which harrow <lb/>up, and conſtantly
+        prey upon our minds. </p>
+      <pb xml:id="page_25" n="6"/>
+      <p rend="indent">
+        <lb/>A <hi rend="sc">Monarch</hi> is perhaps the moſt ex- <lb/>poſed to theſe cauſes. For
+        when we con- <lb/>ſider him in the capacity of the firſt ma- <lb/>giſtrate in the land, it
+        is natural to ſup- <lb/>poſe that he muſt be burdened with cares <lb/>and apprehenſions, and
+        liable to extreme <lb/>fatigues, both of body and mind, which <lb/>are to be always
+        conſidered as the forbod- <lb/>ing vouchers of a bad ſtate of health. </p>
+      <p rend="indent">
+        <lb/>
+        <q rend="quotes">If nature, ſays Rouſſeau, had decreed <lb/>that we ſhould be ſound in body
+          and <lb/>mind, I will venture to aſſert, that a <lb/>ſtate of reflection is a ſtate
+          contrary to <lb/>nature; and that a man of meditation is <lb/>a depraved animal. Our
+          misfortunes <lb/>originate in ourſelves, and that we ſhould <lb/>have avoided almoſt all
+          of them, if we had <lb/>followed the ſimple, uniform, retired <lb/>manner preſcribed to us
+          by nature <note place="bottom" n="*" rend="size(0.5)">* Miſs Colbrooke's tranſlation of
+            Rouſſeau's thoughts. </note>. </q>
+      </p>
+      <pb xml:id="page_26" n="7"/>
+      <p rend="indent">
+        <lb/><hi rend="sc">These</hi> obſervations, of this profound <lb/>obſerver of nature, apply
+        with much force <lb/>and propriety to the ſubject I am about to <lb/>treat upon. For, as I
+        have obſerved before, <lb/>we have, from the moſt exalted of ſitua- <lb/>tions, to the moſt
+        humble of human con- <lb/>ditions, our cares and our calamities to <lb/>ſuſtain. Yet it is
+        natural to ſuppoſe, <lb/>that the individual who approaches the <lb/>moſt to the path
+        preſcribed to us by na- <lb/>ture, experiences the feelings of tran- <lb/>quillity and
+        pleaſure, in a more elevated <lb/>capacity, than the perſonage who, from <lb/>his ſituation,
+        is conſtantly immured within <lb/>the walls of ſtudy and reflexion; which is <lb/>in a
+        continual progreſſion to debilitate the <lb/>body, and to weaken the ſoul <note
+          place="bottom" n="*" rend="size(0.5)">* See Note B. </note>. Hence <lb/>ariſe nervous
+        complaints of all ſorts; ſuch <lb/>as the hypochondriaſis, epilepſy, palſy, <lb/>apoplexy,
+        gout, and other diſeaſes of this <lb/>nature. </p>
+      <pb xml:id="page_27" n="8"/>
+      <p rend="indent">
+        <lb/>I <hi rend="sc">have</hi> often been aſtoniſhed to hear, <lb/>that his Majeſty could
+        ſuſtain, (without <lb/>being precipitated long before this time <lb/>into a ſtate of
+        diſeaſe,) the weighty, and im- <lb/>portant buſineſs, which, like a millſtone, <lb/>muſt
+        have hung heavy upon his mind, at <lb/>the ſame time that it was reported, that <lb/>he eat
+        chiefly of vegetable food, and drank <lb/>nothing but wine and water. To carry on <lb/>a
+        train of thought with vigour and effect, <lb/>or to tranſact buſineſs of conſequence,
+        <lb/>which is often very diſagreeable to the <lb/>mind, requires the adventitious aid of
+        ſti- <lb/>mulating food, and cordial liquors, or the <lb/>diſeaſes I have taken notice of
+        above will <lb/>eventually take place. And phyſicians, as <lb/>well as their patients, will
+        be woefully <lb/>deceived, if they ſuppoſe that either the <lb/>Cheltenham waters, or the
+        Bath waters, <lb/>or even thoſe of Spa, will operate wonders, <pb xml:id="page_28" n="9"/>
+        <lb/>when the enemy, I mean diſeaſe, has <lb/>ſtormed the citadel. </p>
+      <p rend="indent">
+        <lb/><hi rend="sc">Diseases</hi>, in the commencement of <lb/>their attacks upon the
+        conſtitution, are but <lb/>faint reſemblances of what are to happen. <lb/>But they enliven
+        our ſenſibilities, and our <lb/>apprehenſions, in proportion to their pro- <lb/>gress; and
+        our memories are at this time <lb/>eternally preſenting to us ſcenes in which <lb/>we have
+        acted a part. Hence philoſophers, <lb/>as well as moraliſts, are conſtantly declaim-
+        <lb/>ing againſt thoſe gloomy ideas which hurt <lb/>their ſolitary hours, and damp their
+        moſt <lb/>aſpiring thoughts, by exhibiting things in <lb/>the moſt odious colours
+        imaginable. </p>
+      <p rend="indent">
+        <lb/><hi rend="sc">The</hi> cares and anxieties of private indi- <lb/>viduals, as well as of
+        thoſe who are placed <lb/>in more elevated capacities, inſenſibly bring <lb/>on diſeaſes,
+        and thoſe of a peculiar nature. <pb xml:id="page_29" n="10"/>
+        <lb/>And there are ſometimes ſnares, which even <lb/>wiſdom and prudence will not prevent
+        our <lb/>falling into. Although a warrior is often <lb/>liable to them, a ſtateſman is
+        infinitely <lb/>more ſo, which the hiſtory of mankind <lb/>completely proves. Domeſtic
+        anxieties, <lb/>popular tumults, and national diſaſters, <lb/>muſt conſtantly aggravate his
+        feelings; and <lb/>theſe marks of ſenſibility will, ſooner or <lb/>later, produce nervous
+        diſeaſes. The con- <lb/>dition of ſtateſmen in general is by no means <lb/>applicable to the
+        ſituation of the firſt ma- <lb/>giſtrate of his dominions, who has the per- <lb/>petual call
+        of his people to the exerciſe of <lb/>every thing that is wiſe, juſt, and benevo- <lb/>lent.
+        And when wiſdom, virtue, benevo- <lb/>lence, and prudence, are diſappointed in <lb/>their
+        intentions, maladies of a moſt forbid- <lb/>ding aſpect too often take place. Therefore
+        <lb/>the only conſolation we can enjoy when we <lb/>are afflicted with diſeaſe, is to ſubmit
+        with <pb xml:id="page_30" n="11"/>
+        <lb/>patience and philoſophy to the fate of <lb/>men, and to the decrees of fate. Nay, if
+        <lb/>a ſtraight waiſtcoat is adviſed by a grave <lb/>phyſician, as a neceſſary appendage to
+        our <lb/>miſery, we muſt even ſubmit to this moſt <lb/>infernal, and brutal uſage. And this
+        act <lb/>of brutality, I am both free, and bold <lb/>enough to acknowledge, is the
+        conſequence <lb/>of employing of thoſe, who are profoundly <lb/>ignorant of the principles,
+        and philoſophy <lb/>of the healing art. I have ſaid before, <lb/>that what is commonly
+        termed madneſs, <lb/>is brought on by the improper treatment <lb/>of fevers: for this
+        diſeaſe is no more here- <lb/>ditary than the Gout, or the ſcrofula, <lb/>which I have
+        ſhewn, in my treatiſe upon <lb/>the Gout, to be a diſeaſe depending upon <lb/>the common
+        cauſes of a relaxed habit. But <lb/>I need not appeal to a greater authority, than <lb/>my
+        late learned preceptor, and worthy friend, <lb/>Dr. Brown, who has had the honour to <pb
+          xml:id="page_31" n="12"/>
+        <lb/>explain, with the forcible language of <lb/>truth, the nature of this diſeaſe, as well
+        <lb/>as almoſt every other incident to man. </p>
+      <p rend="indent">
+        <lb/><hi rend="sc">This</hi> idea leads me to a digreſſion which <lb/>I did not intend to
+        make. But as I con- <lb/>ceive it to be of ſome importance to man- <lb/>kind, I intend to
+        offer my opinions, at <lb/>ſome length, upon the ſubject, as they <lb/>may be of utility to
+        mankind. I ſhall <lb/>therefore conſider the ſubject, both as a <lb/>philoſopher, as well as
+        a phyſician; and I <lb/>hope that a diſcerning public will not im- <lb/>pute blame to an
+        intention, which has <lb/>the benefit of my fellow creatures before <lb/>me. </p>
+      <p rend="indent">
+        <lb/><hi rend="sc">When</hi> I viſited the <hi rend="italic">Biſſetre</hi> at Paris, in
+        <lb/>the year 1785, I could not forbear exhi- <lb/>biting my ſenſibilities, and my feelings,
+        at <lb/>ſeeing ſuch a number of unfortunate per- <pb xml:id="page_32" n="13"/>
+        <lb/>ſons chained down to their ſolitary abodes, <lb/>without any other cauſe, from what I
+        could <lb/>learn, than the peculiarity of their conduct, <lb/>or excentricity of their
+        behaviour. In the <lb/>courſe of my walk, and obſervations, I came <lb/>to the cell of an
+        Engliſhman, who had been a <lb/>captain of a trading veſſel from Dover, and <lb/>who had
+        been captured by a French priva- <lb/>teer in the war before laſt <note place="bottom" n="*"
+          rend="size(0.5)">* He ſaid that he had been 30 years in conſinement at the <lb/><hi
+            rend="italic">Biſſetre.</hi>
+        </note>. I had two <lb/>Engliſh ladies, a French lady, and a French <lb/>gentleman in my
+        company; and as ſoon as <lb/>he found that there were Engliſh in com- <lb/>pany, he ſpoke
+        his mind very freely to us, <lb/>and told us his ſtory with the moſt perfect
+        <lb/>diſtinctneſs. His mind was perfectly col- <lb/>lected, and he was much diſpoſed to ex-
+        <lb/>press the fervency of it during the time we <lb/>were in converſation with him; but the
+        <lb/>police of the place rendered it neceſſary that <pb xml:id="page_33" n="14"/>
+        <lb/>we ſhould ſaunter on to another abode of <lb/>miſery, and quit the manſion of this ſon
+        <lb/>of misfortune. The pleaſures of commu- <lb/>nicating his ſorrowful tale to his country-
+        <lb/>women and myſelf being thus abruptly in- <lb/>terrupted, muſt unqueſtionably have af-
+        <lb/>fected the feelings of the deſpairing man; <lb/>and we could hear him, upon our depar-
+        <lb/>ture, break out into all the wild language <lb/>of fury and deſpair. </p>
+      <p rend="indent">
+        <lb/><hi rend="sc">This</hi>, as well as many other caſes which <lb/>I could place before my
+        reader, during my <lb/>ſtay at this place, is a proof that moral cauſes <lb/>have as great,
+        if not a greater influence, <lb/>in creating and perpetuating of nervous <lb/>diſeaſes of
+        all kinds, than phyſical cauſes; <lb/>and of that diſeaſe, called <hi rend="italic"
+          >mania,</hi> in parti- <lb/>cular. </p>
+      <p rend="indent">
+        <lb/><hi rend="sc">This</hi> leads me, in a natural direction, <lb/>to conſider the
+        character and important <pb xml:id="page_34" n="15"/>
+        <lb/>truſt generally repoſed by their patients, <lb/>and the friends and relations of their
+        pa- <lb/>tients, in practitioners of phyſic. I have <lb/>endeavoured to ſhew, in my Inquiry
+        into <lb/>the State of Medicine, that the education <lb/>of phyſicians in general has a
+        tendency to <lb/>lead them to engage in diſputes of words, <lb/>while they imagine that they
+        are handling <lb/>controverſies of the deepeſt importance and <lb/>concern. It was in order
+        to avoid alter- <lb/>cations ſo frivolous and endleſs, that the <lb/>penetrating and learned
+        Dr. John Brown <lb/>endeavoured to ſtate, with the utmoſt cau- <lb/>tion and ſimplicity, the
+        great <hi rend="italic">deſiderata</hi> of <lb/> medicine, and to frame a plan of his own,
+        <lb/>for the removal of all the obſtacles to the <lb/>improvement of this noble art. This
+        il- <lb/>luſtrious man ſaw, almoſt intuitively, the <lb/>cobwebs which hung in ſuſpence the
+        fate <lb/>of mankind: and if he had not united <lb/>philoſophy, and profound learning, to-
+          <pb xml:id="page_35" n="16"/>
+        <lb/>gether with much experience, the healing <lb/>art might languiſh in its preſent
+        deplorable <lb/>condition for ages to come. </p>
+      <q rend="diple quotes">
+        <p rend="indent">
+          <lb/>"Ab hujus operis ſcriptore viginti am- <lb/>plius anni diſcende, docendo, nullas me-
+          <lb/>dicinæ partes, non diligenter ſcrutando, <lb/>conſumpti. Quoram annorum quinque
+          <lb/>primi, aliunde accipiendo, accepta cog- <lb/>noſcendo, credendo, quaſi pretioſam poſ-
+          <lb/>ſeſſionem occupando; proximum luſ- <lb/>trum, ſingula clarius explanando, ſub-
+          <lb/>tilius excolendo, poliendo; tertium du- <lb/>bitando, quia nihil ad mentem proceſ-
+          <lb/>ſerat, algendo, cum multis claris viris, <lb/>cum ipſo vulgo, pro incerta penitus et
+          <lb/>incomprehenſibili ſalutiferam artem de- <lb/>plorando; ſine fructu, ſine dulciſſima
+          <lb/>rerum menti, luce veri, præteriere, tan- <lb/>taque caduce et brevis ævi mortalis
+          pars, <lb/>tam opima, periit. Solo quarto luſtro, <pb xml:id="page_36" n="17"/>
+          <lb/>veluti viatori, ignota regione, perditis <lb/>viæ veſtigiis, in umbra noctis erranti,
+          per o <lb/>bſcura quædam, quaſi prima diurna, lux <lb/>demum adfulſit." </p>
+        <lb/><hi rend="sc align-right">Brun. Med. Elem.</hi>
+      </q>
+      <p rend="indent">
+        <lb/>To return, however, to my ſubject. <lb/>Diſeaſes and death are the uniform fate of
+        <lb/>mortals. The infirmities of life, and the <lb/>pains of diſeaſe, will naturally obtrude
+        <lb/>themſelves upon thoſe in exalted ſituations, <lb/>as well as upon the moſt humble of
+        beings; <lb/>and in this condition of things it is, that re- <lb/>flection takes place. In
+        the gay and plea- <lb/>ſing moments of feſtivity and health, the <lb/>fleeting moments of
+        mirth and diſſipation <lb/>eraze all thoughts from our minds which <lb/>are diſagreeable to
+        us <note place="bottom" n="*" rend="size(0.5)">* See Appendix, Note D. </note>; and hence
+        amuſe- <lb/>ments of all ſorts are ſought after by the <lb/>more wealthy, to ſtifle thoſe
+        ſentiments of <pb xml:id="page_37" n="18"/>
+        <lb/>diſappointment, mortification, and chagrin, <lb/>which muſt, in a greater or leſſer
+        degree, <lb/>influence all deſcriptions of individuals; <lb/>but when the cruel hand of
+        diſeaſe renders <lb/>man a ſolitary animal, it is then that he <lb/>begins to think of the
+        paſt. </p>
+      <p rend="indent">
+        <lb/><hi rend="sc">There</hi> are no diſeaſes which aſſume a <lb/>greater variety of
+        appearances than <hi rend="italic">Agues, <lb/>Fevers,</hi> and the <hi rend="italic"
+          >Gout.</hi> When the gout flies <lb/>to the head, it renders the feelings of the
+        <lb/>patient exquiſitely painful. When the ague <lb/>viſits the head, the feelings are
+        preciſely <lb/>the ſame. Nay, in what phyſicians call <lb/><hi rend="italic">nervous
+          fevers,</hi> there is the ſame intermiſſion <lb/>of diſagreeable ſymptoms which prevails
+        in <lb/>the gout as well as in intermittent fevers. <lb/>The patient is utterly at a loſs to
+        explain <lb/>certain ſymptoms which take place in in- <lb/>termittents, ſuch as the ſevere
+        and dreadful <lb/>feelings which rack his head, and put him <pb xml:id="page_38" n="19"/>
+        <lb/>in momentary expectation of death. The <lb/>ſame is preciſely the caſe in the gout. For
+        <lb/>the ſame appearances of the body, ſuch as <lb/>extreme languor, melancholy apprehen-
+        <lb/>ſions, a ſtate of deſpair, more or leſs, tre- <lb/>mors, a ſuſceptibility of what is
+        commonly <lb/>called catching cold, a propenſity to think <lb/>in a diſagreeable train of
+        thought, and ſe- <lb/>veral other ſymptoms of the ſame nature, <lb/>are obſervable in this
+        diſeaſe alſo. Putrid, <lb/>or what are termed nervous fevers, diſcover <lb/>a great
+        reſemblance in their progreſs and ter- <lb/>mination to theſe foregoing diſeaſes, and are
+        <lb/>alſo to be relieved by a ſimilar treatment. </p>
+      <p rend="indent">
+        <lb/><hi rend="sc">But</hi> the numerous hypotheſis of phyſi- <lb/>cians concerning theſe
+        three diſtinct modi- <lb/>fications of diſeaſes, form inſurmountable <lb/>barriers to their
+        being treated upon ſimilar <lb/>principles; and hence the diffuſion of er- <lb/>ror, and
+        unaccountable torpor, which pre- <pb xml:id="page_39" n="20"/>
+        <lb/>ſo univerſally among practitioners of <lb/>phyſic, in their treatment of them. </p>
+      <p rend="indent">
+        <lb/><hi rend="sc">There</hi> is no end to the variety of books <lb/>and diſſertations upon
+        medical ſubjects <lb/>written by phyſicians. But the influence <lb/>of the paſſions has
+        been, in almoſt all theſe <lb/>verbal diſputes and diſſertations, too un- <lb/>heededly
+        paſſed over. <q rend="quotes">An evil, con- <lb/>ceived as barely poſſible, ſometimes pro-
+          <lb/>duces fear; eſpecially if the evil be very <lb/>great. A man cannot think on
+          exceſſive <lb/>pain and torture without trembling, if <lb/>he runs the leaſt riſque of
+          ſuffering <lb/>them. The ſmallneſs of the probability <lb/>is compenſated by the greatneſs
+          of the <lb/>evil <note place="bottom" n="*" rend="size(0.5)">* Hume's Eſſays. </note>.
+        </q>
+      </p>
+      <p rend="indent">
+        <lb/>I <hi rend="sc">have</hi> often experienced the truth of <lb/>this obſervation in my
+        own perſon. </p>
+      <pb xml:id="page_40" n="21"/>
+      <p rend="indent">
+        <lb/><hi rend="sc">The</hi> regulation of the paſſions is, there- <lb/>fore, in all nervous
+        diſeaſes, a principal <hi rend="italic">deſi- <lb/>deratum:</hi> and the phyſician who is
+        not phi- <lb/>loſopher enough to know how and when <lb/>to apply with ſucceſs his
+        penetration in the <lb/>regulation of the paſſions, will very ſeldom <lb/>relieve a nervous
+        diſeaſe, or a diſordered <lb/>ſtate of the intellect. What is the reaſon <lb/>that there are
+        ſo many receptacles for what <lb/>the ignorant world call mad people? I will <lb/>anſwer
+        very frankly, it is becauſe ſo much <lb/>ignorance and want of true philoſophy <lb/>prevail
+        among the generality of phyſicians. <lb/>It is an abominable diſgrace to Britain, to
+        <lb/>behold ſuch a number of public, as well as <lb/>private mad-houſes, as there are in
+        this <lb/>iſland. When an unfortunate man or wo- <lb/>man have been miſmanaged in a dreadful
+        <lb/>and alarming diſeaſe, it is propoſed by <lb/>ſome ignorant or intereſted dæmon or
+        other, <lb/>to ſend the miſerable object of pity and <pb xml:id="page_41" n="22"/>
+        <lb/>compaſſion to ſome place of ſecurity, where <lb/>he has nothing to conſole him but
+        cold, <lb/>hunger, and ill uſage. It is impoſſible to <lb/>ſpeak too much at large
+        concerning the <lb/>diſeaſes brought upon mankind by the all- <lb/>powerful operation of the
+        paſſion of fear, <lb/>in its different modifications. Both Mr. <lb/>Hume, and Rouſſeau,
+        ſpeak of this paſſion, <lb/>as to its cauſes and effects; and they ſeem <lb/>to be in ſome
+        meaſure right, ſo far as it <lb/>produces diſeaſes of the nervous kind, and <lb/>what are
+        vulgarly called maniacal diſeaſes <lb/>among the reſt. </p>
+      <p rend="indent">
+        <lb/>
+        <q rend="diple quotes">"A <hi rend="sc">dibilitated </hi> body", ſays Rouſ- <lb/>ſeau,
+          weakens the ſoul. On this is <lb/>founded the empire of medicine; an art <lb/>more
+          pernicious to man than all the ills <lb/>it pretends to cure. For my own part, <lb/>I know
+          not of what diſorders phyſicians <lb/>cure us; but I know this, that they give <pb
+            xml:id="page_42" n="23"/>
+          <lb/>ſome which are very fatal, ſuch as cow- <lb/>ardice, puſillanimity, and the fear of
+          <lb/>death. If they cure our body, they kill <lb/>courage. What is the importance of en-
+          <lb/>abling carcaſſes to walk? It is man that <lb/>we want, and we never ſee any come
+          <lb/>from under their hands <note place="bottom" n="*" rend="size(0.5)">* See Miſs
+            Colebrook's tranſlation. </note>." </q>
+      </p>
+      <p rend="indent">
+        <lb/><hi rend="sc">This</hi> ingenious philoſopher was in a <lb/>great meaſure right in his
+        obſervations. For <lb/>there is not a doubt, but that the method <lb/>adopted by phyſicians
+        in former ages, as <lb/>well as in thoſe of our own times, is de- <lb/>ſtructive of that
+        principle which upholds <lb/>us in afflictions, as well as in diſeaſe, and <lb/>that is
+        courage. I do not at all wonder that <lb/>dramatic writers, ſuch as Moliere, and other
+        <lb/>authors of ſagacity and penetration, were <lb/>forward in decyphering the hypocriſy and
+        <lb/>artifice which predominate ſo much among <pb xml:id="page_43" n="24"/>
+        <lb/>ſome practitioners of medicine. It is quite <lb/>enough to deſtroy a man's courage, in
+        a <lb/>ſtate of diſeaſe, to ſee two, three, or more <lb/>phyſicians, dreſſed in black, with
+        grave <lb/>countenances, and every affected art which <lb/>formality itſelf can invent <note
+          place="bottom" n="*" rend="size(0.5)">* See Appendix, Note E. </note>.—To depreſſed
+        <lb/>ſpirits and afflicted minds, ſuch ſymbols <lb/>of compaſſion and relief hold out no
+        allure- <lb/>ments to pleaſe and to gratify a diſtempered <lb/>mind, which requires every
+        ſolacement <lb/>which virtuous ſenſibility is ever ready to <lb/>communicate to the
+        unfortunate. The <lb/>Scriptures ſay, <q rend="quotes">Bleſſed is the peace- <lb/>maker;
+        </q> but how much more bleſſed and <lb/>happy muſt that man be, who, by his pro- <lb/>found
+        knowledge in his profeſſion, aided <lb/>by that of deep philoſophy, and a know- <lb/>ledge
+        of the paſſions, knows how to curb <lb/>them, and when to raiſe them! he muſt <lb/>ſurely
+        afford the greateſt of comforts to the <lb/>diſtracted mind, and dibilitated body. </p>
+      <pb xml:id="page_44" n="25"/>
+      <p rend="indent">
+        <lb/><hi rend="sc">When</hi> I left the univerſity, I flattered <lb/>myſelf with the belief,
+        that all diſeaſes were <lb/>to be cured by medicine and diet. And I <lb/>have often
+        expreſſed my ſurpriſe, that my <lb/>attempts in ſome inſtances were ineffectual. <lb/>But
+        when the patient was dead, ſome un- <lb/>foreſeen circumſtance then made its appear-
+        <lb/>ance, which ſufficiently convinced me, that <lb/>corroding cares had long preyed upon
+        the <lb/>mind, and that the heart had bled with re- <lb/>peated ſorrows; which has often
+        ſince made <lb/>me think, that phyſic and phyſicians are <lb/>but imperfect inſtruments to
+        reſtore to vi- <lb/>gour, conſtitutions worn out with cares and <lb/>anxiety. </p>
+      <p rend="indent">
+        <lb/>A <hi rend="sc">poor</hi> man, when reduced in intellec- <lb/>tual and bodily vigour by
+        ill uſage, and the <lb/>ſophiſtry and empiriciſm which prevail in <lb/>medicine, is ſent for
+        the remainder of his <lb/>days to Bedlam, or ſome other manſion of <pb xml:id="page_45"
+          n="26"/>
+        <lb/>miſery. The rich man is confined to <lb/>his own chambers, without one gleam <lb/>of
+        hope, either to invigorate his body, or <lb/>comfort his mind. He is deprived of the
+        <lb/>ſociety of thoſe he loves and reſpects. The <lb/>amuſements which he had been
+        accuſtomed <lb/>to are never to refreſhen his waſted ſpirits, <lb/>or his decayed body; and
+        in this ſolitary <lb/>and dreadful condition is he to expiate, if <lb/>he has any, all his
+        errors and his ſins. I <lb/>would rather, if I had my choice, be car- <lb/>ried about the
+        country, as Bajazet the Em- <lb/>peror of the Ottomans was, a ſpectacle for <lb/>fools, and
+        worſe than fools, to look at, than <lb/>be a priſoner in the predicament I have
+        <lb/>mentioned. </p>
+      <p rend="indent">
+        <lb/><hi rend="sc">Were</hi> I poſſeſſed of all the eloquence of <lb/>Demoſthenes, Cicero,
+        and Tully, I fear I <lb/>ſhould be unequal to utter my ſentiments <lb/>at full length upon
+        this important topic; <pb xml:id="page_46" n="27"/>
+        <lb/>becauſe I am well aware, that all diſeaſes, <lb/>where the vigour of the mind is
+        affected, are <lb/>the reſult of the paſſion of fear, which is a <lb/>moſt debilitating
+        paſſion, and is the prin- <lb/>cipal cauſe of almoſt all nervous diſeaſes. <lb/>There is not
+        a doubt but that it frequently <lb/>produces convulſive, as well as ſpaſmodic <lb/>diſeaſes;
+        and I have been a witneſs to its <lb/>bringing on fits of the gout repeatedly. I <lb/>have
+        not a doubt in my own mind but that <lb/>it brings on the hydrophobia, and melan-
+        <lb/>cholic diſeaſes, and what phyſicians term <lb/>mania, or madneſs. And I am well con-
+        <lb/>vinced, that phyſic, as it is generally prac- <lb/>tiſed, is the moſt ſuitable of all
+        profeſſions <lb/>to produce this nervous diſeaſe. If a <lb/>perſon, in a debilitated ſtate
+        of the body, is <lb/>bled, bliſtered, vomited, and purged, he <lb/>will, to a certainty,
+        experience ſome ſevere <lb/>nervous diſeaſe. But if theſe dibilitating <lb/>powers are added
+        to the diſeaſe, it is natural <pb xml:id="page_47" n="28"/>
+        <lb/>to ſuppoſe, that death will be the conſe- <lb/>quence, unleſs what phyſicians call
+        inſa- <lb/>nity takes place. <q rend="diple quotes">"But even <hi rend="italic"
+            >impoſſible</hi>
+          <lb/>evils, ſays Mr. Hume, cauſe fear; <lb/>as when we tremble on the brink of <lb/>a
+          precipice, though we know ourſelves <lb/>to be in a ſtate of perfect ſecurity, <lb/>and
+          have it in our choice whether we <lb/>will advance a ſtep farther. The im- <lb/>mediate
+          preſence of the evil influences <lb/>the imagination, and produces a ſpecies <lb/>of
+          belief; but being oppoſed by the re- <lb/>flection on our ſecurity, the belief is im-
+          <lb/>mediately retracted, and cauſes <hi rend="italic">the ſame <lb/>kind</hi> of paſſion
+          as when, from a contra- <lb/>riety of chances, contrary paſſions are <lb/>produced <note
+            place="bottom" n="*" rend="size(0.5)">* Hume's Eſſays. </note>. </q>" </p>
+      <p rend="indent">
+        <lb/><hi rend="sc">The</hi> paſſions produce infinitely greater <lb/>effects upon the mind
+        when the body is <pb xml:id="page_48" n="29"/>
+        <lb/>in a debilitated ſtate, than when it enjoys <lb/>a healthy and vigorous ſtate, whether
+        this <lb/>condition of the body ariſes from a too <lb/>ſpare diet, or from a too voluptuous
+        one. <lb/>The imagination is infinitely more lively <lb/>with apprehenſion in relaxed
+        habits, than <lb/>in vigorous conſtitutions. And hence ari- <lb/>ſes the great neceſſity of
+        caution, preſence <lb/>of mind, and minute circumſpection in <lb/>thoſe who are commiſſioned
+        to attend the <lb/>ſick. For an error at this time is often ir- <lb/>retrievable, but more
+        eſpecially when gen- <lb/>tlemen of the faculty attend patients in ex- <lb/>alted
+        ſituations. Their empiriciſm, inſtead <lb/>of aſſuming the bold and decided practice <lb/>of
+        Van Helmont, or Paracelſus, now puts <lb/>on an air of timidity, for fear of what are
+        <lb/>termed <hi rend="italic">the conſequences.</hi>
+      </p>
+      <p rend="indent">
+        <lb/>To contribute, by want of foreſight, or <lb/>a profound and diſcriminating knowledge
+          <pb xml:id="page_49" n="30"/>
+        <lb/>of diſeaſes, to the death of any department <lb/>of ſociety, is generally a prelude to
+        their <lb/>want of buſineſs as phyſicians; and there- <lb/>fore it is natural to preſume,
+        that they <lb/>will exerciſe more than common caution, <lb/>and indulge in more than uſual
+        timi- <lb/>dity, when they are to preſcribe for their <lb/>Sovereign. As fevers are the
+        reſult of de- <lb/>bilitating powers, and conſiſt of debility <lb/>over every part of the
+        body, but more eſ- <lb/>pecially in the head, it is to be preſumed, <lb/>that the King's
+        phyſicians abſtained from <lb/>bleeding, bliſtering, &amp;c. in their late treat- <lb/>ment
+        of him. </p>
+      <p rend="indent">
+        <lb/><hi rend="sc">An</hi> unuſual fatality is generally the lot <lb/>of kings, when they
+        are ſubjected, by either <lb/>accident or diſeaſe, to the fate preſcribed <lb/>by nature for
+        man. In his healthy and <lb/>vigorous ſtate, both of body and mind, he <lb/>is, as it were,
+        elevated by the exceſſive obei- <pb xml:id="page_50" n="31"/>
+        <lb/>ſance of his courtiers, to a rank infinitely <lb/>ſuperior to the reſt of mankind.—But
+        <lb/>obſerve the reverſe! When all-prying <lb/>diſeaſe commits its havock upon his body,
+        <lb/>and his mind, then he is reduced to a level <lb/>with the reſt of mankind, if not to a
+        greater <lb/>ſtate of mortification, and even humilia- <lb/>tion. That nature, in a great
+        meaſure, <lb/>points to relief, is a rule of infinite impor- <lb/>tance in the healing art,
+        but never attended <lb/>to as it ought, by thoſe who have the <lb/>management of the ſick. </p>
+      <p rend="indent">
+        <lb/>To regulate the mind in all diſeaſes, but <lb/>more eſpecially in all nervous
+        complaints, <lb/>is an object of fundamental importance <note place="bottom" n="*"
+          rend="size(0.5)">* The bite of the <hi rend="italic">Tarantula,</hi> they affirm, is to be
+          cured by <lb/>muſic; and I do not deny the poſſibility of it in ſome caſes. <lb/>The bite
+          of the rattle-ſnake, by the ſnake-root; the ague, by <lb/>the Peruvian bark; the bite of a
+          mad dog, by immerſion in <lb/>ſea-water, nearly approaching to drowning the patient; the
+          <lb/>ſyphibilic diſeaſe, by mercury; ſchirrous and cancerated parts, <lb/>by preparations
+          of hemlock, and ſo forth, <hi rend="italic">ad infinitum.</hi> The <lb/>efficacy of theſe
+          medicines, and applications, in theſe particular <lb/>diſeaſes, depend as much in the
+          expectation of relief they afford, <lb/>as in any ſpecific virtues they are endowed with.
+          I have not <lb/>a doubt, but that the greateſt number of theſe diſeaſes are brought
+          <lb/>on through fear, and its effects upon the imagination, and are <lb/>cured more by
+          exciting of hope, than from any ſpecific virtue <lb/>of medicine. The death of Dr. Walſh,
+          and that of Dr. Pur- <lb/>nel, is to be explained upon the ſame principles. They were
+          <lb/>no doubt brought up in the belief, that dangerous conſequences <lb/>muſt reſult from
+          inoculating themſelves with matter from putrid <lb/>bodies; and I have not a doubt, but
+          the fear ariſing from this <lb/>belief precipitated them into fevers, and miſmanagement
+          after <lb/>this into their graves. I have often experienced the effects of <lb/>contagion
+          in my own perſon; but being regardleſs of the conſe- <lb/>quences, and being confident in
+          my own plan of managing of <lb/>theſe diſeaſes, I never experienced any bad effects from
+          con- <lb/>tagion. </note>. </p>
+      <pb xml:id="page_51" n="32"/>
+      <p rend="indent">
+        <lb/><hi rend="sc">take</hi> from a man the pleaſures that he <lb/>has been accuſtomed to,
+        you hurt his peace <lb/>of mind, and deſtroy for ever his ſweet-re- <lb/>poſe. Deprive him
+        of his uſual comforts, <lb/>and you make him a miſerable and melan- <lb/>choly being. If a
+        man is fond of the plea- <lb/>ſures of a country life, ſuch as farming, <lb/>gardening, the
+        ſports of the field, and <lb/>amuſements of this nature, which are con- <lb/>ducive to his
+        propenſities as a moral agent, <lb/>you deprive him of the principal comforts <pb
+          xml:id="page_52" n="33"/>
+        <lb/>which this world is capable of affording <lb/>him. If he is fond of the ſubject of
+        moral <lb/>philoſophy, natural philoſophy, or the ſub- <lb/>ject of mechanical knowledge, it
+        naturally <lb/>implies, that a deprivation of theſe plea- <lb/>ſures, which are the
+        accompanyments of <lb/>his ſolitary hours, are equivalent to the de- <lb/>privation of his
+        happineſs. And without <lb/>this celeſtial enjoyment, life, I will venture <lb/>to ſay, is
+        not worth enjoying. </p>
+      <p rend="indent">
+        <lb/><hi rend="sc">Philosophers</hi> have endeavoured to ex- <lb/>plain the cauſes of
+        ſuicide, but their at- <lb/>tempts have been ineffectual; becauſe no <lb/>remedy has
+        hitherto been applied to the <lb/>diſeaſe. Like the laws of the Romans, <lb/>which were,
+        before the reign of the Empe- <lb/>ror Juſtinian, an endleſs ſubject of munici- <lb/>pal
+        ordinances, ſo alſo have been the max- <lb/>ims and ſpeculations of men, to put a ſtop
+        <lb/>to this unfortunate failure of courage in <pb xml:id="page_53" n="34"/>
+        <lb/>man. It would be an endleſs ſubject to <lb/>multiply examples of the cruelties
+        exerciſed <lb/>upon men in one form or the other. Mora- <lb/>liſts and philoſophers may
+        preach to eter- <lb/>nity upon this ſubject, and never reach at <lb/>the cauſe. They are as
+        widely at variance <lb/>with the origin of this unfortunate pro- <lb/>penſity, as the
+        greateſt number of phyſici- <lb/>ans are in the proper treatment of nervous <lb/>diſeaſes.
+        Even the elegant admonitions of <lb/>Rouſſeau make me ſmile when he pretends <lb/>to ſpeak
+        upon the ſubject, and are to be <lb/>conſidered as neither more nor leſs than <lb/>Job's
+        comforters. </p>
+      <p rend="indent">
+        <lb/><hi rend="sc">Every</hi> good and benevolent man is of <lb/>uſe to ſociety during the
+        period of his ex- <lb/>iſtence: but deprive this virtuous charac- <lb/>ter, by human
+        ordinances, of that pre-emi- <lb/>nence which his goodneſs, his charitable
+        <lb/>inclinations, and his univerſal ſentiments <pb xml:id="page_54" n="35"/>
+        <lb/>of benevolence prompt him to exerciſe; <lb/>nay, go a ſtep further, ſay that he is in-
+        <lb/>ſane, and then you complete, in ſome mea- <lb/>ſure, the cataſtrophe <note
+          place="bottom" n="*" rend="size(0.5)">* It is ſaid that Dr. Warren, when examined before
+          the <lb/>Privy Council, made uſe of the word <hi rend="italic">inſanity,</hi> as applying
+          to <lb/>his Majeſty's diſeaſe, and that he was reprimanded by Lord <lb/>Camden for ſuch an
+          expreſſion. If the Doctor had made uſe of <lb/>ſuch language, it is impoſſible for any
+          words to be ſufficiently <lb/>ſevere for the noble earl to make uſe of, to curb ſuch a
+          wanton <lb/>and unbounded expreſſion of ſpeech. In the inferior conditions <lb/>of life,
+          the expreſſion alluded to is equivalent to die deſtruction <lb/>of a man's credit and
+          happineſs for ever. But in the more ex- <lb/>alted ſituation of a monarch, it not only
+          affects the credit and <lb/>importance of the nation he governs, but muſt fall upon his
+          <lb/>offſpring; and the more eſpecially, as this diſeaſe is ſup- <lb/>poſed, without any
+          ground for ſuch a ſuppoſition, to be <hi rend="italic">here- <lb/>ditary.</hi>
+          <p rend="indent">
+            <lb/>Dr. Reynolds, upon his examination, ſays, that his Ma- <lb/>jeſty's complaint may
+            laſt for weeks, months, and years. And <lb/>I am willing to admit of this prophecy,
+            unleſs a different plan <lb/>is purſued than that which has been adopted by the learned
+            <lb/>Doctor's friends and himſelf, which, from all accounts that I <lb/>have yet been
+            able to learn, muſt encreaſe the malady rather <lb/>than remove it. </p>
+          <p rend="indent">
+            <lb/>When the King went to Cheltenham, I mentioned to my <lb/>friends, who are ready to
+            prove what I ſaid, that his diſeaſe <lb/>would be encreaſed, rather than be diminiſhed,
+            by his drinking <lb/>of the waters of that place. They were by no means ſuitable <lb/>to
+            remove his diſeaſe, but to encreaſe it. I ſuſpected that a <lb/>dropſy, inſtead of a
+            fever, would be the reſult of his drinking <lb/>the Cheltenham waters. If Sir George
+            Baker, or any other <lb/>phyſician whoſe advice had been called for at that time, had
+            <lb/>recommended a proper quantity of Madeira, indulgence in <lb/>animal food, &amp;c.
+            inſtead of ice creams, and vegetable prepa- <lb/>rations, he might have the gout in his
+            feet, which would be of <lb/>infinite ſervice to him, inſtead of a fever, which
+            unfortunately <lb/>has affected the moſt tender part of the nervous ſyſtem. For <lb/>my
+            own part, I fee nothing difficult in reſtoring the King to <lb/>his uſual ſtate of
+            health; and I ſhould experience infinite plea- <lb/>ſure in being inſtrumental in
+            rendering of the ſmalleſt ſervice <lb/>to ſo virtuous a monarch. </p>
+        </note>
+      </p>
+      <pb xml:id="page_55" n="36"/>
+      <p rend="indent">
+        <lb/><hi rend="sc">In</hi> order to carry folly and ignorance <lb/>ſtill further, deny the
+        ſame individual the <lb/>pleaſures of ſeeing and converſing with <lb/>thoſe that are dear to
+        him; if he is fond of <lb/>muſic, deprive him of that; if he is deſir- <lb/>ous of ſeeing
+        and of converſing with any <lb/>perſon more than another, be ſure that he is <lb/>deprived
+        of this conſolation; if his family, <lb/>which are dear to him, and moſt amiable <lb/>in his
+        eyes, are requeſted to afford him <lb/>comfort, they are by the ſame authority de- <lb/>nied
+        acceſs; if the ſame individual ſhould <lb/>long for wine, and other cordials, to raiſe <pb
+          xml:id="page_56" n="37"/>
+        <lb/>his drooping ſpirits, this, forſooth, is ſup- <lb/>poſed to be pernicious; and all this
+        for no <lb/>other reaſon, but from the mere <hi rend="italic">ipſe dixit</hi>
+        <lb/>of a ſet of men, who preſume to hang in <lb/>ſuſpence the fate of men, as well as the
+        fate <lb/>of kingdoms. This complication of evils <lb/>is ſufficient to deſtroy the mind, as
+        well <lb/>as the body, of any human being. The <lb/>body may be cured by medicine and diet,
+        <lb/>but a diſtempered mind requires ſome other <lb/>conſolations beſides thoſe which are
+        derived <lb/>from an apothecary's ſhop. Boluſes, and <lb/>pills, and draughts, &amp;c. will
+        heal the wound <lb/>which want of diſcernment and ſkill has <lb/>opened;—it requires ſome
+        additional aſ- <lb/>ſiſtance to cure ſevere nervous diſeaſes. </p>
+      <p rend="indent">
+        <lb/><hi rend="sc">The</hi> examination of Dr. Adington be- <lb/>fore the Privy Council,
+        concerning the <lb/>ſtate of our moſt worthy and amiable mo- <lb/>narch's health, is now
+        before the public, <pb xml:id="page_57" n="38"/>
+        <lb/>and I ſhall not therefore heſitate to ſpeak <lb/>my ſentiments upon the occaſion. As I
+        <lb/>have not a doubt but that his Majeſty has <lb/>been treated injudiciouſly, from the
+        begin- <lb/>ning of his complaint to the preſent time; <lb/>and it will be a duty incumbent
+        upon his <lb/>phyſicians to ſtate at full length the condi- <lb/>tion they found him in when
+        they were <lb/>conſulted firſt of all, and to publiſh a jour- <lb/>nal of their proceedings.
+        It is full time <lb/>that the whole of this diſmal ſtory ſhould <lb/>be held out to public
+        notice. The public <lb/>have a right to be acquainted with the <lb/>whole myſtery of their
+        proceedings. Their <lb/>reputations as phyſicians ought either to <lb/>ſtand or fall by
+        their method of treating <lb/>the King in his late and preſent ſtate of <lb/>health. It is
+        to be preſumed that they <lb/>can write, and defend, by their learning <lb/>and ingenuity,
+        their practice. </p>
+      <pb xml:id="page_58" n="39"/>
+      <p rend="indent">
+        <lb/><hi rend="sc">Dr. Adington</hi>, it appears, makes a <lb/>diſtinction in what the
+        vulgar call inſanity. <lb/>He confidently aſſerts, that it is an <hi rend="italic">heredi-
+          <lb/>tary diſeaſe.</hi> I beg leave to enter the liſt <lb/>as an advocate for the contrary
+        doctrine. <lb/>And I contend, that this diſeaſe is no more <lb/>hereditary than a common
+        fever, or the <lb/>ſmall-pox, but that it is brought on by <lb/>the common cauſes of all
+        other diſeaſes. <lb/>In my Inquiry into the State of Medicine, <lb/>I have endeavoured to
+        ſhew, that phyſici- <lb/>ans are too often the unthinking copyiſts of <lb/>each other. No
+        man is allowed to think <lb/>for himſelf; and if he does, he is hooted at <lb/>as a common
+        diſturber. Therefore, what- <lb/>ever Dr. Boerhaave, or Dr. Cullen ſay, is a <lb/>law with
+        their diſciples. </p>
+      <q rend="diple">
+        <p rend="indent">
+          <lb/><q rend="quotes">As man</q>, ſays the immortal Lord <lb/>Bacon, "is but the ſervant
+          and interpre- <lb/>ter of nature, he can work and under- <pb xml:id="page_59" n="40"/>
+          <lb/>ſtand no further than he ſhall, either in <lb/>action or contemplation, obſerve of
+          the <lb/>proceedings of nature, to whoſe laws he <lb/>remains ſubject. </p>
+        <p rend="indent">
+          <lb/>As truth is but one ſimple thing, ſo <lb/>likewiſe is the interpretation of nature.
+          <lb/>But the ſenſes are fallacious, the mind <lb/>unſtable, and the cauſe preſſing, yet
+          the <lb/>buſineſs of interpretation is rather <hi rend="italic">un- <lb/>common</hi> than
+            <hi rend="italic">difficult.</hi>
+        </p>
+        <hi rend="sc">Nov. Organ</hi>. </q>
+      <p rend="indent">
+        <lb/><hi rend="sc">These</hi> aphoriſms of this illuſtrious phi- <lb/>loſopher apply to my
+        ſubject. For I am <lb/>ready to prove, to the ſatisfaction of man- <lb/>kind, that the
+        diſeaſe under which our <lb/>moſt excellent Sovereign labours, is, from <lb/>all accounts
+        upon record, nothing elſe than <lb/>a common nervovs fever. At the ſame time, <lb/>I am
+        forward enough to aſſert, and my aſ- <lb/>ſertion ſhall not be deſtitute of proof, if <pb
+          xml:id="page_60" n="41"/>
+        <lb/>called upon, that it is more uncommon in <lb/>its appearance than difficult to cure.
+        And <lb/>I heſitate not to ſay, that I would, at the <lb/>riſque of my life, and every thing
+        that is <lb/>dear and valuable to man, undertake to re- <lb/>ſtore him ſoon to the full
+        exerciſe of every <lb/>bodily and mental enjoyment, upon a plan <lb/>of diet alone, with
+        proper exerciſe, together <lb/>with the management of the paſſions of <lb/>the mind. And
+        there is nothing more eaſy <lb/>than to uphold his Majeſty in a ſtate of <lb/>good health,
+        when once it is eſtabliſhed. </p>
+      <q rend="diple">
+        <p rend="indent">
+          <lb/><hi rend="sc">He</hi> who has not, in the firſt place, and <lb/>above every thing
+          elſe, thoroughly ex- <lb/>amined the motions of the human mind, <lb/>and with the utmoſt
+          accuracy noted, and <lb/>made a kind of map of the paths of ſci- <lb/>ence, and the <hi
+            rend="italic">ſeats of error</hi> therein, will <lb/>find all things under a mask, or,
+          as it <pb xml:id="page_61" n="42"/>
+          <lb/>were, inchanted; and unleſs he breaks <lb/>the <hi rend="italic">charm,</hi> can
+          never interpret it. </p>
+        <hi rend="sc">Nov. Organ.</hi>
+      </q>
+      <p rend="indent">
+        <lb/><hi rend="sc">It</hi> is impoſſible that a private individual <lb/>like myſelf can
+        alter, remove, improve, or <lb/>redreſs the prejudices, opinions, and errors <lb/>of men,
+        who have the ſanction of mankind <lb/>to tread in the paths of deluſion and error, <lb/>and
+        have the inveterate and general preju- <lb/>dices of ages to uphold them in their ca-
+        <lb/>reer of deſolation. It may be ſaid of them <lb/>as it was ſaid of Cæſar, <q
+          rend="quotes">Cæſar gladium <lb/>cito condidit, nunquam poſuit. </q> Ci- <lb/>cero alſo,
+        when he ſpeaks of this great <lb/>man, ſays, <q rend="quotes">Cæſar, ſi ab eo quæreretur,
+          <lb/>quid egiſſit in toga, leges reſpondiſſet <lb/>multas et præclaras tuliſſe. </q>
+      </p>
+      <p rend="indent">
+        <lb/><hi rend="sc">When</hi> a practice of phyſic deſtructive <lb/>to our natures is pointed
+        out by a man <pb xml:id="page_62" n="43"/>
+        <lb/>of diſcernment and ſcience, it is natural to <lb/>preſume, that when the ſyſtem of a
+        popu- <lb/>lar aſſailant of theſe pernicious doctrines <lb/>becomes general, that the
+        opponents of a <lb/>rational ſyſtem of medical knowledge will, <lb/>like Cæſar, ſoon ſheath
+        their ſwords, but <lb/>never lay them aſide. Death, one would ſup- <lb/>poſe they conſider,
+        as ſome moraliſts do, is <lb/>a cure for all the evils we bring upon our- <lb/>ſelves; and
+        that nature is tired of ſuffering <lb/>us to be for ever miſerable. </p>
+      <p rend="indent">
+        <lb/><hi rend="sc">Fashion</hi>, it muſt be granted, flouriſhes <lb/>too much in human
+        affairs; and faſhion <lb/>prevails to an extreme in the healing art. <lb/>If a duke, a lord,
+        or any man of faſhion em- <lb/>ploys a phyſician, his tradeſmen muſt ape <lb/>their manners,
+        and do the ſame. If a phy- <lb/>ſician, let his ignorance of his profeſſion <lb/>be ever ſo
+        great, can afford to keep up the <lb/>formality of an equipage, and ſuitable de- <pb
+          xml:id="page_63" n="44"/>
+        <lb/>corations, he is ſought after, and feed, <lb/>while men of the greateſt abilities and
+        <lb/>learning are ſuffered to walk the ſtreets un- <lb/>heededly. And if a title is
+        conferred upon <lb/>them, they arrive at the ſummit of the hill, <lb/>from whence they can
+        ſurvey the folly and <lb/>vanity of mankind. They are then in a <lb/>too elevated ſituation
+        to be oppoſed or <lb/>queſtioned by itinerant phyſicians. They <lb/>arrive at the <hi
+          rend="italic">ne plus ultra,</hi> and muſt be <lb/>obeyed; and can, with the language of a
+        <lb/>dictator, ſay, like Cæſar, <q rend="quotes">Leges reſpon- <lb/>deſſet, multas et
+          præclaras tuleſſe. </q>
+      </p>
+      <p rend="indent">
+        <lb/><hi rend="sc">We</hi> need not wonder that diſeaſes aſ- <lb/>ſume a variety of
+        appearances in different <lb/>perſons, no more than we wonder at ſeeing <lb/>different
+        conformations of the body and <lb/>the face in men and women. We might <lb/>as well wonder,
+        that in habits of ſevere ex- <lb/>erciſe, that the ſweat appears firſt of all <pb
+          xml:id="page_64" n="45"/>
+        <lb/>on the forehead. If two young men, who <lb/>live preciſely alike, either in abſtinence,
+        or <lb/>in hard drinking, or in debauchery of all <lb/>kinds, entail upon themſelves
+        diſeaſes, one <lb/>would ſuppoſe that their reſpective com- <lb/>plaints might reſemble, in
+        appearance, <lb/>each other; but it is a hundred to one if <lb/>they do; for the more
+        athletic may expe- <lb/>rience ſevere nervous feelings, while the <lb/>more feeble is
+        hurried off in a putrid fever. <lb/>The ſame is the caſe with the fair ſex; and <lb/>the
+        parallel holds good. The one is pre- <lb/>cipitated into convulſions, when the other <lb/>is
+        labouring under a diſeaſe diametrically <lb/>oppoſite in appearance. Appearances of
+        <lb/>diſeaſes are nothing, the cauſes of diſeaſes <lb/>are the only requiſites in the hands
+        of a <lb/>ſkilful and diſcerning phyſician; and when <lb/>the cauſes are before him, if he
+        unites phi- <lb/>loſophy with experience, the cure is near <lb/>at hand in all human
+        diſeaſes. </p>
+      <pb xml:id="page_65" n="46"/>
+      <p rend="indent">
+        <lb/><hi rend="sc">The</hi> method of reſtoring the King to his <lb/>accuſtomed mental and
+        bodily vigour, is, in <lb/>my humble opinion, obvious. He ought <lb/>to be indulged in every
+        rational propenſity <lb/>which is agreeable to his mind. His illuſ- <lb/>trious conſort and
+        family ought to have ac- <lb/>cess to him at all times. He ſhould never <lb/>be
+        contradicted, nor thwarted in any thing <lb/>that he can requeſt, either in food or drink,
+        <lb/>unleſs he calls for vegetable food, and what <lb/>are called diluting liquors. He
+        ſhould now <lb/>indulge in animal food, and a proper quan- <lb/>tity of wine. Muſic,
+        provided it is not <lb/>too loud, will be of great ſervice in the <lb/>re-eſtabliſhment of
+        his health. He ſhould <lb/>refrain from all kind of ſtudy and buſi- <lb/>ness, unleſs it is
+        of an agreeable nature. <lb/>He ſhould avoid going out into the air, <lb/>until the
+        complaint leaves him entirely, <lb/>otherwiſe the ſmalleſt chillineſs in the air <pb
+          xml:id="page_66" n="47"/>
+        <lb/>will convey it into the head. <note place="bottom" n="*" rend="size(0.5)">* The
+          evidence of Sir George Baker, before a Committee <lb/>of the Houſe of Lords, is a compleat
+          illuſtration of the prin- <lb/>ciples and importance of the late Dr. Brown's doctrines in
+          fe- <lb/>vers, and all other nervous diſeaſes, the cauſes of which conſiſt <lb/>in
+          univerſal relaxation. Phyſicians have been too negligent in <lb/>obſerving the effects of
+          cold applied to the human body in a <lb/>ſtate of debility; and there is not an evil of
+          greater magnitude. <lb/>Marſh Miaſmata, as phyſicians call it, is nothing but cold and
+          <lb/>moiſture applied to relaxed habits. But neither the eſſluvia <lb/>ariſing from putrid
+          bodies, nor from bales of goods impreg- <lb/>nated with the plague, nor the effects of the
+          Grotto Del Cane, <lb/>are by any means more dangerous, than the effects which <lb/>are
+          produced by cold upon relaxed habits. I have experienced, <lb/>in my own perſon,
+          repeatedly, the effects of what is called <lb/>contagion; and I have alſo experienced, to
+          a great degree, the <lb/>effects of cold applied to the body in a relaxed ſtate. But,
+          <lb/>if I had my choice in a ſtate of debility, I would rather chuſe <lb/>to be expoſed to
+          the opening of goods from the Levant, im- <lb/>pregnated with the contagion of the plague,
+          than be expoſed to <lb/>moiſture and cold in the ſame ſituation. <p rend="indent">
+            <lb/>His Majeſty's phyſician ſays, that his royal patient had wet- <lb/>ted his feet at
+            Windſor, and that he went to St. James's with- <lb/>out changing his ſtockings. This
+            circumſtance alone, in the <lb/>King's ſtate of health, was ſufficient to produce
+            alarming con- <lb/>ſequences, admitting that no eruption took place, which, from
+            <lb/>the evidence of this phyſician, was the caſe at the time. The <lb/>eruption which
+            took place upon the body, was of peculiar uti- <lb/>lity in tending to remove the
+            diſeaſe. A warm room would <lb/>have been a proper preſcription at this time. And I am
+            not <lb/>averſe to the belief, that palſies, apoplexies, and ſudden death, <lb/>are
+            often the conſequences of going out into the air when the <lb/>mind is unuſually
+            melancholy, and the body is greatly relaxed. </p>
+        </note> His body <lb/>ought therefore to be kept very warm <lb/>with flannel cloaths. Soups
+        are very pro- <lb/>per. The ſoups he takes ought to be made <lb/>very rich of animal food,
+        but much condi- <pb xml:id="page_67" n="48"/>
+        <lb/>mentis not neceſſary in theſe preparations. <lb/>His requeſts ought to be implicitly
+        ob- <lb/>ſerved. <q rend="diple quotes">"<hi rend="sc">For</hi> the requeſts of kings",
+          <lb/>ſays Grotius, "have the ſame power as <lb/>commands; and a denial, how juſt ſo-
+          <lb/>ever, ſhall be by them as ill digeſted as <lb/>an injury. </q> It was therefore a
+        moſt <lb/>cruel act in thoſe who attended his Majeſty, <lb/>when he ſaw through his window
+        ſome of <lb/>the princeſſes walk in the garden, to de- <lb/>prive him of the pleaſure and
+        ſatisfaction <lb/>of ſpeaking to his beloved children. I have <lb/>often, in this work,
+        endeavoured to impreſs <lb/>upon the minds of my readers, the extreme <lb/>cruelty of
+        depriving of mankind of their <lb/>uſual comforts and conſolations in ſome <pb
+          xml:id="page_68" n="49"/>
+        <lb/>nervous complaints. And what pleaſure <lb/>in nature is there equal to the ſeeing, even
+        <lb/>in a ſtate of health, much more in a ſtate <lb/>of diſeaſe, of thoſe we are by nature,
+        as <lb/>well as by habits of mutual love and in- <lb/>tercourſe, to cheriſh and to admire. </p>
+      <p rend="indent">
+        <lb/><hi rend="sc">Another</hi> ſolacement to the mind of <lb/>the King, is to be derived
+        from reading to <lb/>him, at proper ſeaſons, thoſe books which <lb/>uſed to afford him
+        pleaſure when he was <lb/>in a ſtate of health. </p>
+      <p rend="indent">
+        <lb/><hi rend="sc">Dr. Willis</hi> appears, from his exami- <lb/>nation before the Houſe of
+        Commons, to <lb/>be a very ſenſible and diſcerning phyſician, <lb/>and ſpeaks of the cauſes
+        which produce his <lb/>Majeſty's illneſs with perfect diſtinctneſs; <lb/>ſuch as weighty
+        buſineſs, ſevere exerciſe, <lb/>extreme abſtemiouſneſs, little reſt, &amp;c. <lb/>Theſe
+        cauſes, of themſelves, are ſufficient <pb xml:id="page_69" n="50"/>
+        <lb/>to produce a nervous fever, without the <lb/>co-operation of other powers, tending to
+        <lb/>produce the ſame effect; ſuch as bleeding, <lb/>bliſtering, the debilitating operation
+        of <lb/>James's powders, and other medical pre- <lb/>ſcriptions of the ſame nature. It
+        appears, <lb/>however, that the medicines given to his <lb/>Majeſty ſince Dr. Willis has
+        been called in, <lb/>have been attended with beneficial conſe- <lb/>quences: And I am
+        naturally led to ſup- <lb/>poſe, from the advantages which have <lb/>hitherto reſulted from
+        them, that they <lb/>muſt have partaken of opium, which, if <lb/>adminiſtered with judgment
+        and caution, <lb/>and ſupported in their efficacy by invigo- <lb/>rating food, and proper
+        vinous cordials, <lb/>are qualified to produce the moſt happy <lb/>conſequences. The very
+        reverſe is the <lb/>caſe with this medicine when injudiciouſly <lb/>made uſe of, which very
+        often happens. </p>
+      <pb xml:id="page_70" n="51"/>
+      <p rend="indent">
+        <lb/>I <hi rend="sc">beg</hi> leave to ſubmit one more thought <lb/>upon this ſubject. It
+        appears that his <lb/>Majeſty had experienced conſiderable relief, <lb/>during the progreſs
+        of his illneſs, in uſing <lb/>the warm bath; and I can venture to ſpeak <lb/>with certainty,
+        that the effects of the warm <lb/>bath are prodigiouſly increaſed, by being <lb/>impregnated
+        with the Peruvian bark, and <lb/>aromatic herbs of all ſorts. The only in- <lb/>dication of
+        cure is therefore to invigorate, <lb/>by all poſſible means, the body, and to af- <lb/>ford
+        every conſolation to the mind. This <lb/>plan ought to be ſtudied with much aſſi- <lb/>duity
+        by thoſe who attend his Majeſty. <lb/>For whatever produces an encreaſe of bo- <lb/>dily
+        relaxation, will, to a certainty, bring <lb/>on a renewal of his diſeaſe. </p>
+      <trailer rend="align-center">
+        <lb/>FINIS. </trailer>
+    </body>
+  </text>
+</TEI>

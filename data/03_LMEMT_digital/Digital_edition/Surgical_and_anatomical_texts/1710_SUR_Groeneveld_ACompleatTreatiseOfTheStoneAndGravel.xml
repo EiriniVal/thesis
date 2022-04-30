@@ -1,0 +1,1615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> LMEMT Corpus - Groeneveld: A COMPLEAT TREATISE OF THE Stone and Gravel </title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>Joannes Groeneveld</persName>
+            </author>
+            <title type="main">A COMPLEAT TREATISE OF THE Stone and Gravel. Comprising its Origin,
+              Symptoms, best way of Easing, true Method of Cutting, and divers remarkable Histories
+              of Curing many cruelly afflicted Patients. With an Ample Discourse on Lithontriptick;
+              or, Stone-breaking Medicines.</title>
+            <edition n="1"/>
+            <idno type="ESTC">T64149</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/T64149"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>London: printed for Ralph Smith, under the Royal-Exchange, and B.
+                  Lintott, at the Cross-Keys, between the Two Middle-Temple-Gates, Fleetstreet,
+                  1710.</persName>
+              </publisher>
+              <date>1710</date>
+            </imprint>
+            <extent>
+              <measure type="format">8⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="26"/>
+              <measure type="count" commodity="body" unit="page" quantity="286"/>
+              <measure type="count" commodity="back" unit="page" quantity="6"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">British Library</orgName>
+            <idno type="ECCO">CW107213622</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Surgical or anatominal work"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text type="book" rend="roman" xml:lang="eng">
+    <gap reason="sampling" unit="pages" quantity="26"/>
+    <body>
+      <gap reason="sampling" unit="pages" quantity="118"/>
+      <pb n="119"/>
+      <div type="chapter">
+        <head rend="size(1.5) align-center space">
+          <lb/>CHAP. IX. </head>
+        <head rend="italic hanging space">
+          <lb/>Of the time of Searching and Cutting; <lb/>of the Inſtruments; Of the Pa- <lb/>tients
+          Diet, and of the firſt Pre- <lb/>paration for the Operation. </head>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">T</hi>HE Patient may be ſearch'd, <lb/>or his Water drawn forth by
+          <lb/>the <hi rend="italic">Catheter</hi> at any time, in order <lb/>to diſcover the
+          Diſeaſe. </p>
+        <p rend="indent">
+          <lb/>If he finds himſelf troubled <lb/>with the Stone, it is dangerous to <lb/>delay <hi
+            rend="italic">Cutting</hi>, and in ſome Pa- <lb/>tients an immediate <hi rend="italic"
+            >Operation</hi> is re- <lb/>quir'd; but we ſhall not here ſpeak <lb/>of the time of
+          Neceſſity, but on- <lb/>ly of that of Election or Choice, <lb/>which is laid hold of, when
+          tho <lb/>Diſtemper is in ſuch a condition as <lb/>to give opportunity to do things <pb
+            n="120"/>
+          <lb/>in much order, and without any <lb/>Precipitation. </p>
+        <p rend="indent">
+          <lb/>'Tis well known that the <hi rend="italic">Spring</hi>
+          <lb/>is the moſt Temperate Seaſon in <lb/>the Year, and gives Vigour and <lb/>Strength to
+          Mankind, which they <lb/>find renewing in themſelves as it <lb/>were at that time, and
+          then they <lb/>undertake what was interrupted by <lb/>the exceſſive Cold or Heat of o-
+          <lb/>ther Seaſons. </p>
+        <p>
+          <lb/>With great reaſon therefore, is <lb/>the Spring-time to be choſen be- <lb/>fore any
+          other for many <hi rend="italic">Operations</hi>, <lb/>and eſpecially for <hi
+            rend="italic">Lithotomy:</hi> And <lb/>next to the <hi rend="italic">Spring</hi>, the
+            <hi rend="italic">Autumn</hi> is to <lb/>be preferr'd. </p>
+        <p rend="indent">
+          <lb/>But if a good <hi rend="italic">Prognoſtic</hi> may be <lb/>made and the Caſe
+          requires it, the <lb/><hi rend="italic">Patient</hi> may be <hi rend="italic">Cut</hi> at
+          any other <lb/>time of the Year, due care being <lb/>taken to guard <choice>
+            <sic>agninſt</sic>
+            <corr>againſt</corr>
+          </choice> the Incle- <lb/>mency of the Seaſon. </p>
+        <pb/>
+        <pb n="121"/>
+        <p rend="indent">
+          <lb/>And now tho' <hi rend="italic">Lithontriptics</hi> (of <lb/>which I ſhall treat
+          particularly at <lb/>the latter end of this Book) and <lb/><hi rend="italic"
+            >Menſtruum</hi>'s for diſſolving the Stone <lb/>have been in uſe, and mightily ex-
+          <lb/>toll'd by ſome Perſons above theſe <lb/>40 Years (but to no purpoſe, that <lb/>ever I
+          could find, they having prov'd <lb/>mere <hi rend="italic">Chimera</hi>'s) yet here for
+          the abſo- <lb/>lute Cure of the Stone in the Blad- <lb/>der I am oblig'd to ſpeak of <hi
+            rend="italic">Remedies</hi>
+          <lb/>(if I may call them ſo) of <hi rend="italic">Chirur- <lb/>gery</hi>, which are <hi
+            rend="italic">Inſtruments</hi> if <hi rend="italic">Iron</hi>, <lb/><hi rend="italic"
+            >Silver</hi> or other <hi rend="italic">Metals</hi> proper for <lb/><hi rend="italic"
+            >Lithotomy</hi>; <hi rend="italic">take here their Figures and <lb/>the names of their
+            Parts.</hi>
+        </p>
+        <div type="section">
+          <head rend="align-center space italic">
+            <lb/>In the firſt Plate is deſcrib'd. </head>
+          <figure>
+            <p rend="indent space">
+              <lb/>1. A <hi rend="italic">Raiſor</hi>, to Shave the Hair <lb/>from the Part where
+                <hi rend="italic">Inciſion</hi> is to <lb/>be made. </p>
+            <figDesc>An illustration of a razor on the previous page. </figDesc>
+          </figure>
+          <pb n="122"/>
+          <figure>
+            <p rend="indent space">
+              <lb/>2. Common <hi rend="italic">Sciſſars</hi> for ordina- <lb/>ry <hi rend="italic"
+                >Inciſions</hi>. </p>
+            <figDesc>An illustration of scissors on a previous page. </figDesc>
+          </figure>
+          <figure>
+            <p rend="indent space">
+              <lb/>3. A hollow <hi rend="italic">Sound</hi> or <hi rend="italic">Probe</hi>,
+              <lb/>call'd a <hi rend="italic">Catheter</hi>, for ſearching of <lb/>Men, and making
+              them render <lb/>Urine, and its <hi rend="italic">Stilet</hi> or <hi rend="italic"
+                >Wire</hi> to <lb/>cleanſe it. </p>
+            <figDesc>An illustration of a catheter on a previous page. </figDesc>
+          </figure>
+          <figure>
+            <p rend="indent space">
+              <lb/>4. A <hi rend="italic">Catheter</hi> or <hi rend="italic">Staffe</hi>, for
+              <lb/>making <hi rend="italic">Inciſion</hi> upon in Men, <hi rend="italic">fur-
+                <lb/>row'd on the back from <hi rend="roman">A</hi> (which is <lb/>the Bill or Bend)
+                to <hi rend="roman">B</hi> without any <lb/>Cavity in its length. </hi>
+            </p>
+            <figDesc>An illustration of a catheter on a previous page. </figDesc>
+          </figure>
+          <figure>
+            <p rend="indent space">
+              <lb/>5. A hollow <hi rend="italic">Catheter</hi> and only <lb/>crooked at the Bill,
+              for ſearching <lb/>of Women, and it's <hi rend="italic">Wire</hi> for clean- <lb/>ſing
+              it. </p>
+            <figDesc>An illustration of a catheter on a previous page. </figDesc>
+          </figure>
+          <pb n="123"/>
+          <figure>
+            <p rend="indent space">
+              <lb/>6. A ſtrait <hi rend="italic">Catheter</hi> or <hi rend="italic">Staffe</hi>,
+              <lb/>hollow'd and furrow'd from the <lb/><hi rend="italic">Bill</hi> to C. <hi
+                rend="italic">It is ſometimes us'd when <lb/>Inciſion is made at the Orifice of
+                the</hi>
+              <lb/>Urethra. </p>
+            <figDesc>An illustration of a catheter on a previous page. </figDesc>
+          </figure>
+          <figure>
+            <p rend="indent space">
+              <lb/>7. A <hi rend="italic">Biſtori</hi>, that opens up like a <lb/><hi rend="italic"
+                >Lancet</hi>, with a Point and Edge as <lb/>that has, only the Point blunter, and
+              <lb/>at the other End it has a flat tail <lb/>to keep it firm againſt the handle
+              <lb/>when it is open'd. </p>
+            <figDesc>An illustration of a scalpel on a previous page. </figDesc>
+          </figure>
+          <figure>
+            <p rend="indent space">
+              <lb/>8. A <hi rend="italic">Roller</hi> to mount the <hi rend="italic">Biſtori</hi>,
+              <lb/>it muſt be ſlit at the End, be a Fin- <lb/>ger broad, and a Foot and an half
+              <lb/>long. </p>
+            <figDesc>An illustration of a a strip of flexible material on a previous page.
+            </figDesc>
+          </figure>
+          <figure>
+            <p rend="indent space">
+              <lb/>9. A <hi rend="italic">Biſtori</hi> mounted or arm'd <lb/>with the <hi
+                rend="italic">Roller</hi>. </p>
+            <figDesc>An illustration of a scalpel with a strip of flexible material wrapped around
+              it on a previous page. </figDesc>
+          </figure>
+          <pb n="124"/>
+          <figure>
+            <p rend="indent">
+              <lb/>10. <hi rend="italic">Conductors</hi> or <hi rend="italic">Probes</hi>, where-
+              <lb/>of a pair ſerves for the Operation, <lb/>that which is next to the mounted
+                <lb/><hi rend="italic">Biſtori</hi>, is forked, and the next to that <lb/>has a Line
+              in the length of its Cavity <lb/>for guiding and conducting the <lb/>former.
+              Nevertheleſs that at Fi- <lb/>gure 11. which is remoteſt from the <lb/><hi
+                rend="italic">Biſtori</hi> may be uſed alone for con- <lb/>ducting the <hi
+                rend="italic">Forceps</hi>, it being com- <lb/>pos'd of the two former, turns
+              <lb/>with an Elbow about the middle, <lb/>and has a Spring between the <lb/>Branches
+              near the Rings. </p>
+            <figDesc>An illustration of two probes and forceps on a previous page. </figDesc>
+          </figure>
+        </div>
+        <div type="section">
+          <head rend="indent space">
+            <lb/><hi rend="italic">In the Second Plate of Inſtruments <lb/>is deſcrib'd. </hi>
+          </head>
+          <figure>
+            <p rend="indent space">
+              <lb/>1. Another kind of <hi rend="italic">Conductor</hi>, <lb/>more commodious, and
+              more in <lb/>uſe than the others; <hi rend="italic">It is hollow, <lb/>taper, and
+                grows narrow at the End, <pb/>
+                <pb n="125"/>
+                <lb/>where there is a Bill, that is to be in- <lb/>troduced in the furrowing of the
+                  <hi rend="roman">Ca- <lb/>theter</hi>, whilſt it is held by the other <lb/>End,
+                ſhap'd like a </hi>T. There are <lb/>ſome that do not approve of this <lb/><hi
+                rend="italic">Conductor</hi>, alledging that it dilates the <lb/>parts too much, and
+              that it occaſi- <lb/>ons Fiſtula's, but without ground, <lb/>for it is narrower than
+              the Foreceps <lb/>with which the Stone is drawn out, <lb/>poſſeſſes leſs room, and
+              cauſes not <lb/>a Fiſtula, That being the Conſe- <lb/>quence of the Operation, as
+              ſhall <lb/>be explain'd in its proper place. </p>
+            <figDesc>An illustration of a probe on the previous page. </figDesc>
+          </figure>
+          <figure>
+            <p rend="indent space">
+              <lb/>2. Two Pair of <hi rend="italic">Forceps</hi>, one <lb/>Pair ſtrait and the other
+              Pair <lb/>crooked. </p>
+            <p rend="indent space">
+              <lb/>A. <hi rend="italic">Their Teeth to fix in the Stone <lb/>and hold it the faſter.
+              </hi>
+            </p>
+            <figDesc>An illustration of two pairs of forceps on the previous page. </figDesc>
+          </figure>
+          <pb n="126"/>
+          <figure>
+            <p rend="indent space">
+              <lb/>3. A <hi rend="italic">Compound</hi> or great <hi rend="italic">Dilatatory</hi>
+              <lb/>for Men. </p>
+            <p rend="indent space">
+              <lb/>D. <hi rend="italic">The Bill. </hi>
+            </p>
+            <p rend="indent space">
+              <lb/>E. <hi rend="italic">The Handle. </hi>
+            </p>
+            <figDesc>An illustration of a dilatatory on a previous page. </figDesc>
+          </figure>
+          <figure>
+            <p rend="indent space">
+              <lb/>4. A ſimple <hi rend="italic">Dilatatory</hi> for Wo- <lb/>men; <hi rend="italic"
+                >the Extremities of it are blunt <lb/>and very ſmall, the Branches are join'd
+                <lb/>in ſuch a manner, that cloſing the one <lb/>end, the other end opens, it
+                repreſents <lb/>the Letter <hi rend="roman">X</hi>.</hi>
+            </p>
+            <figDesc>An illustration of a dilatatory on a previous page. </figDesc>
+          </figure>
+          <figure>
+            <p rend="indent space">
+              <lb/>5. Another <hi rend="italic">Dilatatory</hi> that may <lb/>ſerve for Women and
+              little Boys: <lb/><hi rend="italic">It has a Spring near the Handle, <lb/>Dilates but
+                moderately, and may be us'd <lb/>with ſafety. </hi>
+            </p>
+            <figDesc>An illustration of a dilatatory on a previous page. </figDesc>
+          </figure>
+          <pb n="127"/>
+          <figure>
+            <p rend="indent space">
+              <lb/>6. A <hi rend="italic">Hamulus</hi> or <hi rend="italic">Hook</hi> to pull out
+              <lb/>the Stone or Stones that are in the <lb/>paſſage, either in the leſſer <hi
+                rend="italic">Opera- <lb/>tion</hi> or otherwiſe. </p>
+            <figDesc>An illustration of a hook on a previous page. </figDesc>
+          </figure>
+          <figure>
+            <p rend="indent space">
+              <lb/>7. A <hi rend="italic">Button</hi> or <hi rend="italic">Scoop</hi>, about 10 In-
+              <lb/>ches long, and as big as a Quill. </p>
+            <p rend="indent space">
+              <lb/>F. <hi rend="italic">The part properly call'd the</hi>
+              <lb/>Button. </p>
+            <p rend="indent space">
+              <lb/>G. <hi rend="italic">The other part which is hollow, <lb/>and call'd the Scoop of
+                the</hi> Button. </p>
+            <p rend="indent space">
+              <lb/>H. <hi rend="italic">A ſlight Line to conduct the</hi>
+              <lb/>Forceps. </p>
+            <figDesc>An illustration of a scoop on a previous page. </figDesc>
+          </figure>
+          <figure>
+            <p rend="indent space">
+              <lb/>8. A <hi rend="italic">Cannula</hi>, or hollow <hi rend="italic">Tent-
+                <lb/>Pipe</hi>, having Rings at one End <lb/>call'd the Head, the other End is
+              <lb/>call'd the Point, where there are <pb n="128"/>
+              <lb/>two holes, call'd the Eyes of the <lb/>Tent. </p>
+            <figDesc>An illustration of a cannula on a previous page. </figDesc>
+          </figure>
+          <figure>
+            <p rend="indent space">
+              <lb/>9. A <hi rend="italic">Fillet</hi> for mounting the <lb/><hi rend="italic">Hollow
+                Tent</hi>, introducing the Tent <lb/>into the Slit in the middle of <lb/>the <hi
+                rend="italic">Fillet</hi>, and putting the two Ends <lb/>of the <hi rend="italic"
+                >Fillet</hi> through the Rings of <lb/>the <hi rend="italic">Tent</hi>, then it is
+              call'd a <hi rend="italic">Tent</hi>
+              <lb/>mounted, the <hi rend="italic">Fillet</hi> is to be two <lb/>Foot long, and a
+              Finger broad. </p>
+            <figDesc>An illustration of a strip of flexible material on a previous page. </figDesc>
+          </figure>
+          <figure>
+            <p rend="indent space">
+              <lb/>10. Two <hi rend="italic">Ligatures</hi> or <hi rend="italic">Scarffs</hi> for
+              <lb/>Men and Women, <hi rend="italic">they are made of <lb/>Silk and Wool mix'd
+                together, each of <lb/>them muſt be Four or Five Ells long, <lb/>and Four or Five
+                Fingers broad; but <lb/>if they cannot be immediately had, Bands <lb/>of ſtrong
+                Linnen Cloath may be cut of <lb/>the ſame length and breadth, which may
+                <lb/>afterwards be cut to ſerve for Truſſes <lb/>and for dreſſing the Patient. </hi>
+            </p>
+            <figDesc>An illustration of two ligatures on a previous page. </figDesc>
+          </figure>
+          <pb n="129"/>
+          <figure>
+            <p rend="indent">
+              <lb/>11. An <hi rend="italic">Extractor</hi>, for Extracting <lb/>Stones out of the
+                <hi rend="italic">Penis</hi> or <hi rend="italic">U- <lb/>rethra</hi>. </p>
+            <figDesc>An illustration of an extractor on a previous page. </figDesc>
+          </figure>
+          <p rend="indent space">
+            <lb/>In Hoſpitals they have a <hi rend="italic">Chair</hi>
+            <lb/>on which the Patient is to ſit, to <lb/>have the <hi rend="italic">Operation</hi>
+            perform'd; <lb/>there are two Bars or Rods of Iron <lb/>behind in form of <hi
+              rend="italic">Buttereſſes</hi>, and <lb/>hooked at one end, that they may <lb/>enter
+            into the Rings of the Chair, and <lb/>ſharp at the other, that they may <lb/>ſtrike firm
+            into the <hi rend="italic">Floor</hi> and keep <lb/>the Chair perfectly ſteady, in caſe
+            the <lb/>Patient ſtrugles and uſes Violence <lb/>in the time of the <hi rend="italic"
+              >Operation</hi>. The <lb/><hi rend="italic">Chair</hi> muſt be placed a little ob-
+            <lb/>liquely, that the light may come <lb/>on the Right hand of the <hi rend="italic"
+              >Lithoto- <lb/>miſt</hi>, that he may ſee the better, <lb/>when he is about the <hi
+              rend="italic">Operation</hi>. But <lb/>inſtead of ſuch a <hi rend="italic">Chair</hi>,
+            the Patient <lb/>may as well be ſeated upon a <hi rend="italic">Table</hi>
+            <pb n="130"/>
+            <lb/>with a <hi rend="italic">Mastraſs</hi> or <hi rend="italic">Quilt</hi> over it,
+            <lb/>whereof one part muſt cover the <lb/>back of a common Chair, ſet a- <lb/>bout half
+            a Foot diſtance from the <lb/>edge of the <hi rend="italic">Table</hi> in a ſloaping
+            <lb/>manner. There muſt be alſo a <lb/><hi rend="italic">Sheet</hi> folded long ways
+            with many <lb/>folds to cover the <hi rend="italic">Chair</hi> or <hi rend="italic"
+              >Table</hi>, <lb/>and the <hi rend="italic">Matraſs</hi> in the time of the <lb/><hi
+              rend="italic">Operation</hi>. </p>
+          <p rend="indent">
+            <lb/>Moſt <hi rend="italic">Lithotomiſts</hi> have their <hi rend="italic">In-
+              <lb/>ſtruments</hi> at that time orderly de- <lb/>poſited in a Budget made for that
+            <lb/>purpoſe, ſo as readily to be taken <lb/>out when they find occaſion. </p>
+          <p rend="indent">
+            <lb/>But I commonly put my <hi rend="italic">In- <lb/>ſtruments</hi> in order in a Diſh,
+            cauſing <lb/>a Servant to ſtand or kneel on one <lb/>Knee, on my Right Hand to hold
+            <lb/>them ready for my uſe. </p>
+          <p rend="indent">
+            <lb/>It is fit that ſeveral <hi rend="italic">Biſtorys</hi> ſhould <lb/>be mounted or
+            aim'd tho' there be <lb/>but one <hi rend="italic">Operation</hi> to be made, be- <pb
+              n="131"/>
+            <lb/>cauſe their Points are ſomething <lb/>blunted in uſing; it is neceſſary <lb/>alſo
+            to have ſome <hi rend="italic">Tow</hi> wound a- <lb/>bout the <hi rend="italic"
+              >Biſtory</hi> to ſave the Point <lb/>harmleſs before the <hi rend="italic"
+              >Operation</hi>, and <lb/>to have ſome Linnen Cloaths and <lb/>Napkins in readineſs. </p>
+          <p rend="indent">
+            <lb/>All the <hi rend="italic">Inſtruments</hi> may be made <lb/>of Steel, or Iron, or
+            good tem- <lb/>per'd Metal, that they may not <lb/>bend in uſing. </p>
+          <p rend="indent">
+            <lb/>But the <hi rend="italic">Catheters</hi>, <hi rend="italic">Button</hi>, and
+              <lb/><hi rend="italic">Tent-Pipes</hi> are beſt made of Silver, <lb/>that being leſs
+            ſubject to Ruſt. </p>
+          <p rend="indent">
+            <lb/>It is always requiſite to have in <lb/>the <hi rend="italic">Catheter-Box</hi>, a
+            piece of Spunge <lb/>moderately moiſt'ned with Oil of <lb/>Roſes, or Sallad-Oil, to
+            Anoint the <lb/><hi rend="italic">Catheter</hi>, otherwiſe it may ſome- <lb/>times
+            happen to be wanting when <lb/>there is occaſion for it. </p>
+          <pb n="132"/>
+          <p rend="indent">
+            <lb/>Of each kind of <hi rend="italic">Inſtruments</hi> there <lb/>ought to be ſeveral,
+            and thoſe very <lb/>well poliſh'd. </p>
+          <p rend="indent">
+            <lb/>Having ſpoken of the <hi rend="italic">Inſtruments</hi>
+            <lb/>of <hi rend="italic">Surgery</hi>, we muſt likewiſe ac- <lb/>cording to the Rules
+            of <hi rend="italic">Phyſic</hi> con- <lb/>ſider what other Things are neceſ- <lb/>ſary
+            before, at, and after the <hi rend="italic">Oper- <lb/>ation</hi>, and concerning them
+            we ſhall <lb/>give methodical Inſtructions as <lb/>follows. </p>
+          <p rend="indent space">
+            <lb/>Firſt, Let the <hi rend="italic">Patient</hi> (if Pletho- <lb/>ric) be blooded,
+            taking away a <lb/>good quantity, or rather bleed him <lb/>more than once before <hi
+              rend="italic">Cutting</hi>, <lb/>which will make him more eaſie, <lb/>abate the <hi
+              rend="italic">Inflammation</hi> of the Bladder, <lb/>and much leſſen his Pain and
+            Heat; <lb/>but if the <hi rend="italic">Patient</hi> be weak and feeble <lb/>omit
+            Bleeding: Let his Diet be <lb/>Cooling, Moiſtening and of eaſie <lb/>Digeſtion; his
+            Drink <hi rend="italic">pleaſant Emul- <pb n="133"/>
+              <lb/>ſions</hi>, fair Water with a brown <lb/>Toaſt and one Glaſs of Canary: <lb/>Let
+            him be kept in a moderate <lb/>temper; lying in a good Bed, not <lb/>having to much
+            Covering; keep <lb/>his Body ſoluble and not Coſtive; <lb/>and let his mind be as eaſie
+            as his <lb/>Caſe can bear. </p>
+          <p rend="indent">
+            <lb/>A cooling <hi rend="italic">Lenitive Glyſter</hi> is <lb/>proper to be exhibited
+            the Day be- <lb/>fore the <hi rend="italic">Operation</hi>. </p>
+          <p rend="indent">
+            <lb/>If Purging be requiſite give the <lb/>common <hi rend="italic">Purge, cum Rhab.
+              Tama- <lb/>rind. &amp; Manna cum Syr. Roſ. So- <lb/>lutiv. </hi>
+          </p>
+          <p rend="indent">
+            <lb/>But in theſe Caſes a <hi rend="italic">Phyſician</hi>
+            <lb/>ſhould be call'd in, except the <hi rend="italic">Li- <lb/>thotomiſt</hi> be one
+            himſelf, and yet <lb/>tho' I one, I never hinder'd other <lb/><hi rend="italic"
+              >Phyſicians</hi> coming, but am rather <lb/>glad of their Company, always
+            <lb/>remembering that in the multitude <lb/>of Counſel there is Safety. </p>
+          <pb n="134"/>
+          <p rend="italic indent">
+            <lb/>Plus vident occuli quam occulus. </p>
+          <p rend="indent space">
+            <lb/>In the <hi rend="italic">Operation</hi> we are to take <lb/>care to have good <hi
+              rend="italic">Cordials</hi>, good <lb/><hi rend="italic">Aſſiſtants</hi> to hold the
+            Patient, and <lb/>good <hi rend="italic">External Reſtringent Medica- <lb/>ments</hi>.
+              <hi rend="italic">Oxyerat</hi>, and <hi rend="italic">Oxyrhodinum</hi> are
+            <lb/>excellently uſeful. </p>
+          <p rend="indent">
+            <lb/>The <hi rend="italic">Bandages</hi>, <hi rend="italic">Plaiſters</hi>, &amp;c. as
+            <lb/>well for Men as Women muſt be <lb/>prepar'd and laid in great readineſs, <lb/>they
+            are as follows. </p>
+          <p rend="indent space">
+            <lb/>1. A <hi rend="italic">Ligature</hi> or <hi rend="italic">Collar</hi>, which
+            <lb/>muſt be put over the Patient's <lb/>Head, and hang down as low as <lb/>the <hi
+              rend="italic">Navil</hi>: It is a great Band, and <lb/>when the two Ends are ty'd
+            toge- <lb/>ther is of and Oval Figure, and <lb/>may be put about the Patient be-
+            <lb/>fore the <hi rend="italic">Operation</hi>. </p>
+          <pb n="135"/>
+          <p rend="indent">
+            <lb/>2. A <hi rend="italic">Bolſter</hi> or <hi rend="italic">Compreſs</hi> of a
+            <lb/>moderate thickneſs, Three or Four <lb/>Fingers broad, to be put upon the <lb/>Wound
+            when the Patient is to be <lb/>carried to Bed after the <hi rend="italic">Operation</hi>
+            is <lb/>finiſh'd; it ought to be laid upon <lb/>a Table, or upon a Plate by it
+            <lb/>ſelf. </p>
+          <p rend="indent space">
+            <lb/>3. An <hi rend="italic">Aſtringent Plaiſter</hi> of a <lb/>ſufficient bigneſs to
+            cover the <lb/>Belly. </p>
+          <p rend="indent space">
+            <lb/>4. A <hi rend="italic">Belly-cloath</hi>, which is a <lb/>great <hi rend="italic"
+              >Bolſter</hi> or <hi rend="italic">Compreſs</hi> to cover <lb/>the Belly, it is to be
+            dipp'd in <lb/>warm <hi rend="italic">Oxycrat</hi>. </p>
+          <p rend="indent space">
+            <lb/>5. A <hi rend="italic">Bandage</hi> or <hi rend="italic">Truſs</hi> with Four
+            <lb/>Heads, which may be call'd Twins, <lb/>becauſe they begin in the ſame <pb n="136"/>
+            <lb/>place, and are deſign'd for one and <lb/>the ſame uſe. </p>
+          <p rend="indent space">
+            <lb/>6. A <hi rend="italic">Truſs</hi> like a double T. <lb/>call'd the ſecond <hi
+              rend="italic">Truſs</hi>. </p>
+          <p rend="indent space">
+            <lb/>7. A <hi rend="italic">Pledget Plumacean</hi>, covered <lb/>with <hi rend="italic"
+              >Aſtringents</hi>. </p>
+          <p rend="indent space">
+            <lb/>8. <hi rend="italic">Aſtringent-Plaiſters</hi>, of ſeveral <lb/>Sizes. </p>
+          <p rend="indent space">
+            <lb/>9. A <hi rend="italic">Plaiſter</hi> longer then broad, <lb/>and ſomewhat longer
+            than the <lb/>Wound, to be apply'd ſome Days <lb/>after the <hi rend="italic"
+              >Operation</hi>, over the <hi rend="italic">Pledget</hi>. </p>
+          <p rend="indent space">
+            <lb/>10. A ſmall ſquare <hi rend="italic">Bolſter</hi> or <lb/><hi rend="italic"
+              >Compreſs</hi> indifferently thick, and <lb/>ſomewhat larger than the <hi
+              rend="italic">Plaiſter</hi>. </p>
+          <pb n="137"/>
+          <p rend="indent space">
+            <lb/>11. Another double <hi rend="italic">Compreſs</hi> or <lb/><hi rend="italic"
+              >Truſs</hi> for Men, an Inch broad and <lb/>a Foot long. Theſe two <hi rend="italic"
+              >Bolſters</hi>
+            <lb/>are to be moiſten'd in warm <hi rend="italic">Oxy- <lb/>crat</hi>. </p>
+          <p rend="indent space">
+            <lb/>12. A <hi rend="italic">Ligature</hi>, or long Band <lb/>to be Swathed above the
+            Knees <lb/>after the Wound is Dreſs'd, that the <lb/>Patient may keep them within a
+            <lb/>moderate diſtance to one another. </p>
+          <p rend="indent">
+            <lb/>The <hi rend="italic">Bed</hi> muſt alſo be prepar'd <lb/>and cover'd with a
+            Rolling Sheet, <lb/>or a Sheet doubled into many folds; <lb/>it muſt be laid croſs the
+              <hi rend="italic">Bed</hi>, juſt in <lb/>the Place where the <hi rend="italic"
+              >Kidneys</hi> and <lb/><hi rend="italic">Thighs</hi> of him that is to be <hi
+              rend="italic">Cut</hi>
+            <lb/>are to Reſt, and there muſt be ſe- <lb/>veral Sheets ready to ſhift the <hi
+              rend="italic">Bed</hi>
+            <lb/>when it is wet, which muſt alſo <lb/>be warm'd with a Warming-Pan, <pb n="138"/>
+            <lb/>if it be needful: It is requiſite alſo <lb/>to have a good many Napkins in
+            <lb/>readineſs to put under the Patient, <lb/>when he has a <hi rend="italic"
+              >Looſeness</hi>, that he <lb/>may be the ſooner laid dry; ſome <lb/><hi rend="italic"
+              >Lithotomiſts</hi> order a <hi rend="italic">Cere-Cloath</hi> to be <lb/>put betwixt
+            the Sheets and the Bed, <lb/><hi rend="italic">&amp;c.</hi> to preſerve it from being
+            <lb/>ſpoil'd by the Urine, but I generally <lb/>order a fine Leather Skin, which is
+            <lb/>pleaſanter to the Patient and does <lb/>full as well: It is very neceſſary
+            <lb/>alſo, that a Cord be faſt'ned to <lb/>the top of the Bed, or ſome other <lb/>place,
+            by the help of which, the <lb/>Patient may raiſe himſelf with the <lb/>greater Eaſe when
+            there's occaſion: <lb/>As ſoon as the Patient is laid in <lb/>his Bed after the <hi
+              rend="italic">Operation</hi>, an <hi rend="italic">Ano- <lb/>dine draught</hi> muſt be
+            given, that he <lb/>may lie quiet and go to Sleep. </p>
+        </div>
+      </div>
+      <pb n="139"/>
+      <div type="chapter">
+        <head rend="align-center space size(1.5)">
+          <lb/>CHAP. X. </head>
+        <head rend="italic hanging space">
+          <lb/>Of the <hi rend="roman">Poſture</hi> and <hi rend="roman">Situation</hi> into
+          <lb/>which Children are put, when they <lb/>are to be <hi rend="roman">Cut</hi>. </head>
+        <p>
+          <lb/><hi rend="dc(2)">A</hi>LL things being prepared, <lb/>the <hi rend="italic"
+            >Catheter'</hi>s put into Oil, <lb/>the <hi rend="italic">Biſtorys</hi> or <hi
+            rend="italic">Inciſion-Knives</hi> and <lb/><hi rend="italic">Tents</hi>, mounted, a Tub
+          with warm <lb/>Water, plac'd underneath the Table, <lb/>the <hi rend="italic"
+            >Forcipes</hi>, <hi rend="italic">Conductors</hi>, <hi rend="italic">Button</hi> and
+            <lb/><hi rend="italic">Scoop</hi> and a <hi rend="italic">Dilatory</hi> (it if be ne-
+          <lb/>ceſſary) all well plac'd, the Patient <lb/>muſt be brought to the place of <lb/><hi
+            rend="italic">Operation</hi> and ſet upon the <hi rend="italic">Chair</hi>, <lb/>or <hi
+            rend="italic">Table</hi> prepar'd and fix'd a little <lb/>obliquely, that the light from
+          the <lb/>Windows may dart upon the Right- <lb/>ſide of the <hi rend="italic"
+            >Lithotomiſt</hi>, (as before <lb/>taught) who is to keep his <hi rend="italic">Instru-
+              <pb n="140"/>
+            <lb/>ments</hi> from the ſight of the Pa- <lb/>tient. </p>
+        <p rend="indent">
+          <lb/>And if it be a Child between <lb/>Four and Twelve Years of Age, <lb/>two Servants may
+          hold him by the <lb/>Hands and Feet on each ſide, whilſt <lb/>another getting up upon a
+          little <lb/>Stool, or ſomething plac'd behind <lb/>the <hi rend="italic">Chair</hi>, and
+          looking forwards, <lb/>may commodiouſly lean upon the <lb/>Patient's Shoulders, placing
+          the <lb/>Thumb of each Hand toward his <lb/>Back, and the other Fingers upon <lb/>the <hi
+            rend="italic">Clavicles</hi>, for the ſurer hold, the <lb/>Servant who is on the Right
+          ſide <lb/>of the Patient, ought to put his Left- <lb/>hand, under and betwixt the
+          Patient's <lb/>Knees, and take faſt hold of the <lb/>Wriſt of his Right-hand, and that
+          <lb/>the Child be not hurt, the Sleeve <lb/>of his Shirt or Waſtcoat may be <lb/>pull'd
+          down to cover his Hand; <lb/>after that, the ſame Servant with his <pb n="141"/>
+          <lb/>Right-hand muſt lay hold of the <lb/>Leg on the ſame ſide by the Foot <lb/>and Ancle. </p>
+        <p rend="indent">
+          <lb/>The Servant on the Patient's <lb/>Left-hand muſt do the like, taking <lb/>hold of the
+          Left-Arm of the Pa- <lb/>tient with his Right-Hand, and the <lb/>Left-Leg near to the Foot
+          with his <lb/>Left-Hand. </p>
+        <figure>
+          <p rend="indent">
+            <lb/>In this Poſture the Child's Hands <lb/>muſt almoſt touch his Heels, and <lb/>if he
+            be but any way held faſt and <lb/>if be but any way held faſt and <lb/>his Thighs ſpread
+            wide, the <hi rend="italic">Litho- <lb/>tomiſt</hi> will have Room ſufficient to
+              <lb/><hi rend="italic">Operate</hi>, yet becauſe Children do <lb/>ſometimes extreamly
+            ſtruggle and <lb/>ſtrive, two other Servants may like- <lb/>wiſe keep their <hi
+              rend="italic">Knees</hi> aſunder; but it <lb/>is chiefly to be obſerv'd in this
+            <lb/>poſture, that the Patient lean half <lb/>backwards that his Fundament <lb/>may be
+            ſeen, and that his Feet do <lb/>not reſt upon any thing, ſo that <pb n="142"/>
+            <lb/>he may have the leſs force to ſtir <lb/>or move himſelf. <hi rend="italic">See here
+              the Fi- <lb/>gure of the Poſture</hi>. </p>
+          <figDesc>An illustration of a lithotomy posture on the following page. </figDesc>
+        </figure>
+        <p rend="indent">
+          <lb/>But when Children are very <lb/>Young, the eaſieſt and beſt way, <lb/>is to place
+          them in a Man's lap to <lb/>have the Operation perform'd; <lb/>for which end the <hi
+            rend="italic">Lithotomiſt</hi>, muſt <lb/>chuſe a Strong Man, and cauſe him <lb/>to ſit
+          upon a prety high common <lb/>Chair, or upon the End of a Bench, <lb/>with his Knees tied
+          together who <lb/>having a large Cuſhing or Pillow, <lb/>put againſt his Belly and upon
+          his <lb/>Knees, and a Sheet over it muſt <lb/>take the Child that is to be <hi
+            rend="italic">Cut</hi> up- <lb/>on his Knees, and putting his <lb/>Hands under and
+          betwixt the Childs <lb/>Legs, muſt take hold of his two <lb/>Wriſts, by this means the
+          Child is <lb/>put into a very convenient and <lb/>eaſie poſture to be cut; But
+          <lb/>beſides the Man that is to hold <pb/>
+          <pb/>
+          <pb n="143"/>
+          <lb/>the Child, it is requiſite that ſome <lb/>other Perſon lean upon the Child's
+          <lb/>Shoulders, and another open his <lb/>Knees, and keep his Feet ſteddy. </p>
+        <figure>
+          <p rend="indent">
+            <lb/><hi rend="italic">Take here the exact Figure of this <lb/>Poſture. </hi>
+          </p>
+          <figDesc>An illustration of a lithotomy posture on the previous page. </figDesc>
+        </figure>
+        <p rend="indent">
+          <lb/>Yet when a Child is large and <lb/>ſtrong; and conſidering that the <lb/><hi
+            rend="italic">Operation</hi> is ſometimes laborious, <lb/>and that the Man who is to
+          hold <lb/>the Child may be weary, it is <lb/>better to make uſe of the firſt <lb/>way.
+        </p>
+      </div>
+      <pb n="144"/>
+      <div type="chapter">
+        <head rend="align-center size(1.5)">
+          <lb/>CHAP. XI. </head>
+        <head rend="align-center italic space">
+          <lb/>Of the different ways of extracting the <lb/><hi rend="roman">Stone</hi>, amongſt the
+          reſt of the <hi rend="roman">Li- <lb/>thotomia Franconiana</hi>. </head>
+        <p>
+          <lb/><hi rend="dc(2)">G</hi>REAT <hi rend="italic">Pain</hi>, <hi rend="italic"
+            >Inflammation</hi>, <lb/><hi rend="italic">Carnoſities</hi>, and <hi rend="italic"
+            >Calloſities</hi> do <lb/>ſometimes hinder the <hi rend="italic">Lithotomiſt</hi>,
+          <lb/>that he cannot introduce a crooked <lb/><hi rend="italic">Catheter</hi> into the
+          Bladder. <hi rend="italic">Proſper <lb/>Alpinus</hi>, in his 3d Book, the 14th <lb/>Chapt.
+          relates ſeveral paſſages of the <lb/><hi rend="italic">Egyptian</hi> Phyſicians, who (he
+          ſays) <lb/>extracted Stones out of the very <lb/>Bladder without <hi rend="italic"
+            >Cutting</hi>, by only <hi rend="italic">di- <lb/>lating</hi> the <hi rend="italic"
+            >Urethra</hi>, <hi rend="italic">Per flatum</hi>, or by <lb/>blowing into the <hi
+            rend="italic">Penis</hi>. </p>
+        <p rend="indent">
+          <lb/>They had <hi rend="italic">Pipes</hi> of ſeveral ſizes, <lb/>beginning with very
+          ſmall ones, <lb/>and gradualy introducing larger, <lb/>and thus extending more and more,
+            <pb n="145"/>
+          <lb/>till the Paſſage was wide enough <lb/>to admit the Stone to be extracted <lb/>without
+            <hi rend="italic">Cutting</hi>; but to do this in <lb/>Men muſt be very difficult
+          indeed, <lb/>if ever it was done; however we <lb/>let the Story paſs without contra-
+          <lb/>diction, becauſe we have it from <lb/>ſuch Eminent hands. </p>
+        <p rend="indent">
+          <lb/>Indeed the <hi rend="italic">Urethra</hi> in Women <lb/>may be dilated to a ſtrange
+          large- <lb/>neſs, and Stones be extracted from <lb/>them without <hi rend="italic"
+            >Cutting</hi>, as I my ſelf have <lb/>often done; particularly ſome Years <lb/>ſince
+          from a young Gentlewoman <lb/>about 17 Years of Age; and of <lb/>late from one Mrs <hi
+            rend="italic">Fowler</hi>, in <lb/><hi rend="italic">Durham-Yard</hi>, near <hi
+            rend="italic">Chick-lane</hi>, in <lb/><hi rend="italic">Smithfield</hi>, who gave me
+          leave <lb/>to mention her Name and <lb/>whoſe <hi rend="italic">Urethra</hi> I very much
+          di- <lb/>lated and took a Stone from her <lb/>without making any <hi rend="italic"
+            >Inciſion</hi>; it is <lb/>not a Year and half ſince. Both <lb/>theſe Women I perfectly
+          Cur'd <pb n="146"/>
+          <lb/>they having no involuntary Emiſ- <lb/>ſion of Urine, but retain their <lb/>Water as
+          if no Stone had been <lb/>taken from them. </p>
+        <p rend="space indent">
+          <lb/><hi rend="italic">Via in Mulieribus</hi> (as I ſaid be- <lb/>fore) <hi rend="italic"
+            >latior eſt &amp; brevior quam in <lb/>Viris</hi>. </p>
+        <p rend="indent space">
+          <lb/>But the method of <hi rend="italic">Petrus Francus</hi>, <lb/>(who is call'd by <hi
+            rend="italic">Fabritius Hildanus</hi>, <lb/>the moſt excellent and moſt ex- <lb/>pert
+            <hi rend="italic">Lithotomiſt</hi>,) is worthy to be <lb/>noted; he firſt prepared the
+          Body <lb/>of the Patient for ſome Days, <lb/>which Preparation I have given <lb/>you
+          before, then he made <hi rend="italic">Inciſion</hi>
+          <lb/>upon the furrow'd <hi rend="italic">Staffe</hi> on the <lb/>Convex part of it,
+          putting a <lb/>hollow <hi rend="italic">Tent-Pipe</hi> or <hi rend="italic">Cannula</hi>
+          into <lb/>the Wound, for the Urine to run <lb/>through, going no further that <lb/>time,
+          but leaving the Stone in the <pb n="147"/>
+          <lb/>Bladder, except it appear'd in the <lb/>Wound, which then he took out, <lb/>either
+          with a pair of <hi rend="italic">Forceps</hi> or the <lb/><hi rend="italic">Hamulus</hi>,
+          but if the Stone appear'd <lb/>not in the Wound, or if it was too <lb/>big to be
+          extracted, he left it be- <lb/>hind, dreſs'd the Wound and laid <lb/>his Patient in Bed:
+          And ſome <lb/>Days after, when the Patient was <lb/>in a good condition, without a
+            <lb/><hi rend="italic">Fever</hi>, and the Wound began to <lb/>digeſt, and the Stone
+          appear'd in <lb/>it (as it will do commonly) then <lb/>he took it out; this he informs us
+          <lb/>he has done often with very good <lb/>Succeſs. </p>
+        <p rend="indent">
+          <lb/>But if the Stone did not ap- <lb/>pear he put his Fingers in <hi rend="italic"
+            >Anum</hi>, <lb/>and making compreſſion upon the <lb/><hi rend="italic">Muſcles</hi> of
+          the <hi rend="italic">Abdomen</hi>, forc'd the <lb/>Stone towards the Wound, (which
+          <lb/>he then did without any danger, <lb/>becauſe the <hi rend="italic">Tumour</hi> or <hi
+            rend="italic">Inflamma- <pb n="148"/>
+            <lb/>tion</hi> was gone off, the Urine having <lb/>had its free courſe, and the Patient
+          <lb/>uſing and exquiſite Diet) and drew <lb/>it out. </p>
+        <p rend="indent">
+          <lb/>But if the Stone was ſo big that <lb/>it could not be extracted without <lb/>hurting
+          the <hi rend="italic">Membraneous part</hi> of the <lb/>Bladder, he then broke the Stone,
+          <lb/>which ſuch <hi rend="italic">Inſtruments</hi> as <hi rend="italic">Fabr.
+            <lb/>Hildanus</hi> deſcribes, <hi rend="italic">P. M.</hi> 113. </p>
+        <p rend="indent">
+          <lb/>The <hi rend="italic">Inſtrument</hi> muſt be ſtrong, <lb/>and the Teeth of it ſharp,
+          and if <lb/>the Stone cannot be broke into <lb/>pieces ſmall enough at one time, <lb/>the
+          uſe of the <hi rend="italic">Inſtrument</hi> muſt be <lb/>repeated again two or three Days
+          <lb/>after, till the Stone be ſo broken <lb/>that the pieces may be brought forth,
+          <lb/>without hurting the Neck of the <lb/>Bladder; in the interium <hi rend="italic"
+            >Anodine <lb/>Medicines</hi> muſt be given, and hot <lb/><hi rend="italic"
+            >Fomentations</hi> apply'd to keep of an <lb/><hi rend="italic">Inflammation</hi> or <hi
+            rend="italic">Gangrene</hi>, he ſays <pb n="149"/>
+          <lb/>thus: <q rend="italic">Conſultius eſt Calculum fruſtu- <lb/>latim extrahere, quam
+            ægrum tanto do- <lb/>lore atque miſeria opprimi, ſemperque <lb/>ex duobus malis minimum
+            eſt eligen- <lb/>dum. </q>
+        </p>
+        <p rend="indent">
+          <lb/>This Method I never practiſed; <lb/>but when I was concern'd with <lb/>Mr. <hi
+            rend="italic">George Sutor</hi> Deceas'd; we had <lb/>a Patient a <hi rend="italic"
+            >French</hi>-Man, Mr. <hi rend="italic">James <lb/>Sweet</hi> by Name, who liv'd in <hi
+            rend="italic">Ni- <lb/>cholas-ſtreet</hi>, near <hi rend="italic">Shore-ditch</hi>, and
+          <lb/>whom Mr. <hi rend="italic">Sutor</hi> Cut on the 24th <lb/>of <hi rend="italic"
+            >March</hi> 1688, and it happen'd <lb/>that by indeavouring to extract the <lb/>Stone he
+          broke it into many pieces; <lb/>however with my aſſiſtance ſeveral <lb/>of the pieces were
+          taken out; but <lb/>the Patient bleeding very much, <lb/>and growing faint, it gave me
+          <lb/>reaſon to fear he would Die under <lb/>our Hands, if we proceeded fur- <lb/>ther,
+          therefore his Wound was <lb/>Dreſs'd, and he was laid in his <pb n="150"/>
+          <lb/>Bed, and continued very Weak a <lb/>great while, and was ſo bad that <lb/>it was not
+          ſafe to attempt the ex- <lb/>tracting the remaining pieces of <lb/>the Stone (which did
+          not appear in <lb/>the Wound,) therefore the Wound <lb/>was heal'd up, and in ſometime
+          <lb/>his ſtrength recovered; but he felt <lb/>ſome Pain, tho' not half ſo much <lb/>with
+          the Fragments of the Stone <lb/>left in his Bladder, as he did be- <lb/>fore it was broke:
+          But in two <lb/>Years after his Pains being great <lb/>he had Courage enough to have
+          <lb/>the <hi rend="italic">Operation</hi> perform'd again, <lb/>and I ſucceſsfully Cut him
+          my <lb/>ſelf, and took out 32 Stones of <lb/>various ſhapes and pretty large, <lb/>he was
+          then 22 Years of Age, and <lb/>is now alive and well. </p>
+        <p rend="indent">
+          <lb/>But <hi rend="italic">Petrus Francus</hi> had ano- <lb/>ther method of Extracting the
+          <lb/>Stone from the Bladder, which <pb n="151"/>
+          <lb/>is call'd the <hi rend="italic">Hypogaſtric</hi> or <hi rend="italic">High Ope-
+            <lb/>ration</hi>, He was the firſt that practis'd <lb/><hi rend="italic">Lithotomy</hi>
+          that way, and gives the <lb/>Reaſon of his attempting it, when <lb/>he tells us of a Child
+          of Two <lb/>Years Old, who having a Stone in <lb/>the Bladder as big as an Hens Egg
+          <lb/>was brought to him to be <hi rend="italic">Cut</hi>: <lb/>He us'd all his Dexterity
+          and In- <lb/>duſtry to force the Stone down in- <lb/>to the Neck of the Bladder, but
+          <lb/>found it impoſſible to be done: <lb/>The poor Child was in that Tor- <lb/>ture and
+          Miſery, that the Parents <lb/>wiſh'd him rather Dead than he <lb/>ſhould live longer in ſo
+          doleful a <lb/>Condition: <hi rend="italic">Petrus Francus</hi> on <lb/>the other hand
+          thinking it would <lb/>tend to his diſhonour not to take <lb/>away the Stone, at laſt
+          reſol- <lb/>v'd to make tryal whether he could <lb/>not bring it to the very <hi
+            rend="italic">Groin</hi>, <lb/>which he did by putting his Fingers <pb n="152"/>
+          <lb/>in <hi rend="italic">Anum</hi>, lifting up the Stone, and <lb/>cauſing one of his
+          Servants on the <lb/>other ſide oppoſite to him, to preſs <lb/>it down to the place
+          intend- <lb/>ed for <hi rend="italic">Inciſion</hi>, which he made, <lb/>took out the
+          Stone, and tho' the <lb/>Child was very weak, recover'd <lb/>him and heal'd the Wound; but
+          <lb/>he admoniſhes others not to fol- <lb/>low this method of <hi rend="italic"
+            >Cutting</hi>. </p>
+        <p rend="indent space">
+          <lb/><hi rend="italic">Una hirundo non facit Ver. </hi>
+        </p>
+        <p rend="indent space">
+          <lb/>Yet I once had a Patient in <hi rend="italic">Long- <lb/>Lane</hi> in <hi
+            rend="italic">Moorfields</hi>, upon whom I <lb/>was oblig'd to perform this high
+            <lb/><hi rend="italic">Operation</hi>, and very ſucceſsfully <lb/>Extracted the Stone,
+          by making <lb/><hi rend="italic">Inciſion</hi> near the <hi rend="italic">Groin</hi>, the
+          Patient <lb/>ſoon recovering; which ſhews <lb/>that Wounds in the <hi rend="italic"
+            >Fibrous</hi> Parts <lb/>of the Bladder are not always <lb/>Mortal. </p>
+      </div>
+      <pb n="153"/>
+      <div type="chapter">
+        <head rend="align-center space size(1.5)">
+          <lb/>CHAP. XII. </head>
+        <head rend="align-center italic space">
+          <lb/>Of the <hi rend="roman">Apparatus Minor</hi>, or Leſſer <lb/><hi rend="roman"
+            >Operation</hi> for Men and Boys. </head>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">C</hi><hi rend="italic">Ornelius Celſus</hi> was the Inventor
+          <lb/>of this <hi rend="italic">Operation</hi>, which he <lb/>deſcribes in his 7th <hi
+            rend="italic">Book, Chap.</hi> 26. <lb/>it is call'd the leſſer <hi rend="italic"
+            >Operation</hi> be- <lb/>cauſe it requires fever <hi rend="italic">Inſtruments</hi>:
+          <lb/>When the Patient is fix'd in one of <lb/>the foremention'd Poſtures the <hi
+            rend="italic">Li- <lb/>thotomiſt</hi> muſt firſt depreſs the lower <lb/>part of the <hi
+            rend="italic">Abdomen</hi> or Belly <lb/>of the Patient; that the Stone may <lb/>the
+          better fall to the Neck of the <lb/>Bladder. Then putting one or two <lb/>of his Fingers
+          in <hi rend="italic">Anum</hi>, and force- <lb/>ing the Stone to the proper place <lb/>as
+          Art directs, he muſt make <hi rend="italic">In- <lb/>ciſion</hi> on the Left-ſide of the
+            <hi rend="italic">Suture</hi>
+          <lb/>in the <hi rend="italic">Perineum</hi> upon the Stone, and <pb n="154"/>
+          <lb/>endeavour to caſt it forth if it be <lb/>little, with his Finger, which I <lb/>have
+          ſeveral times done, but if he <lb/>cannot, he muſt take it out with the <lb/><hi
+            rend="italic">Hamulus</hi>, and if that can't be done, <lb/>he muſt remove his Fingers
+          out of <lb/>the <hi rend="italic">Anus</hi>, and introduce the <hi rend="italic"
+            >Button</hi>
+          <lb/>into the Wound to ſearch for the <lb/>Stone, and having felt it, muſt <lb/>conduct a
+          pair of <hi rend="italic">Forceps</hi> upon the <lb/><hi rend="italic">Button</hi> to lay
+          hold of it, and gently <lb/>draw it out. </p>
+        <p rend="indent">
+          <lb/>If the Patient be little, there is <lb/>no need of making him jump, be- <lb/>fore he
+          be <hi rend="italic">Cut</hi>, it is enough that he <lb/>be put into a Poſture and held by
+          <lb/>the Servants; the <hi rend="italic">Lithotomiſt</hi> muſt <lb/>have his Nails pair'd,
+          and muſt not <lb/>always dip his Finger or Fingers in <lb/>Oil, for they being put up dry
+          in- <lb/>to the <hi rend="italic">Inteſtinum Rectum</hi>, will pre- <lb/>vent its being
+          wrinkled or lying <lb/>on the upper part of the Stone, for <pb/>
+          <pb n="155"/>
+          <lb/>if it ſhould ſo happen when the <lb/><hi rend="italic">Inciſion</hi> is made, the <hi
+            rend="italic">Lithotomiſt</hi>
+          <lb/>muſt of neceſſity <hi rend="italic">Cut</hi> the <hi rend="italic">Inteſtine</hi>,
+          <lb/>which the Finger or Fingers <lb/>being put up dry will prevent <lb/>and keep the <hi
+            rend="italic">Inteſtine</hi> in its <lb/>due place, but if the Fingers are <lb/>dipt
+          into Oil, the <hi rend="italic">Inteſtine</hi> may ſlip <lb/>towards the Stone, and
+          produce <lb/>this great danger: I give only this <lb/>hint to prevent ill conſequences,
+          <lb/>but leave every <hi rend="italic">Lithotomiſt</hi> to his <lb/>Liberty: <hi
+            rend="italic">abundans Cautela non nocet. </hi>
+        </p>
+        <figure>
+          <p rend="indent">
+            <lb/>In this <hi rend="italic">Operation</hi> let a Servant <lb/>lift up the <hi
+              rend="italic">Scrotum</hi> with one Hand, <lb/>and with the other armed with a
+            <lb/>Compreſs lean upon the Belly, to <lb/>make the Stone come down, <hi rend="italic"
+              >as it <lb/>is repreſented in this Figure.</hi>
+          </p>
+          <figDesc>An illustration of a lithotomy operation on the previous page. </figDesc>
+        </figure>
+        <p rend="indent">
+          <lb/><hi rend="italic">Note</hi>, That before the <hi rend="italic">Lithotomiſt</hi>
+          <lb/>makes <hi rend="italic">Inciſion</hi>, he muſt dry the <lb/><hi rend="italic"
+            >Perineum</hi> and ſtretch the Skin. </p>
+        <pb n="156"/>
+        <figure>
+          <p rend="indent">
+            <lb/>The <hi rend="italic">Tumour</hi> that the Stone (co- <lb/>ver'd with <hi
+              rend="italic">Teguments</hi>) makes, ren- <lb/>ders the <hi rend="italic"
+              >Inciſion</hi> on the ſide of the <lb/><hi rend="italic">Suture</hi> eaſie, and which
+            may be <lb/>made long enough for extracting <lb/>of the Stone; the <hi rend="italic"
+              >Lithotomiſt</hi> muſt <lb/>not fear the ſpoiling of the Edge <lb/>or Point of the <hi
+              rend="italic">Biſtori</hi> or <hi rend="italic">Knife</hi>, <lb/>for every time its is
+            to be us'd it <lb/>muſt be ſet again: When then <hi rend="italic">In- <lb/>ciſion</hi>
+            is made, the Fingers muſt not <lb/>be drawn out of the <hi rend="italic">Inteſtinum Re-
+              <lb/>ctum</hi>; but keeping them in, the <hi rend="italic">Hamu- <lb/>lus</hi> muſt be
+            put into the Wound and <lb/>ſlip'd between the <hi rend="italic">Pubes</hi> and the
+            <lb/>Stone. <hi rend="italic">As deſribed in this Fi- <lb/>gure. </hi>
+          </p>
+          <figDesc>An illustration of a lithotomy operation on the following page. </figDesc>
+        </figure>
+        <p rend="indent">
+          <lb/>By what <hi rend="italic">Operation</hi> ſoever a <hi rend="italic">Li-
+            <lb/>thotomiſt Cuts</hi> a Patient; when a <lb/>Stone breaks, he muſt with his
+          <lb/>Fingers in <hi rend="italic">Ano</hi>, keep the fragments <lb/>forward to the Wound,
+          and take <lb/>them out with the <hi rend="italic">Scoope</hi> or <hi rend="italic"
+            >Hamulus</hi>, <pb/>
+          <pb n="157"/>
+          <lb/>and alſo ſearch with the <hi rend="italic">Button</hi> af- <lb/>terwards leaſt any
+          Pieces ſhould be <lb/>left behind, and if any are felt, <lb/>they muſt be extracted with
+          the <lb/><hi rend="italic">Forceps</hi> as before taught. </p>
+        <p rend="indent">
+          <lb/>If the Patient has been <hi rend="italic">Cut</hi> for <lb/>the Stone before, then
+          the <hi rend="italic">Inciſion</hi>
+          <lb/>muſt be made upon the <hi rend="italic">Cicatrice</hi> or <lb/><hi rend="italic"
+            >Fiſtula</hi>: In my Practice I have <hi rend="italic">Cut</hi>
+          <lb/>Seven Patients, who had undergone <lb/>the <hi rend="italic">Operation</hi> before,
+          and they all <lb/>recovered, one of them had been <lb/><hi rend="italic">Cut</hi> twice
+          before, and lives ſtill in <lb/><hi rend="italic">Watling-ſtreet</hi>, and is very well.
+        </p>
+      </div>
+      <div type="chapter">
+        <head rend="align-center space size(1.5)">
+          <lb/>CHAP. XIII. </head>
+        <head rend="align-center space italic">
+          <lb/>Of the Leſſer and Greater <hi rend="roman">Operation</hi>
+          <lb/>for <hi rend="roman">Women</hi> and <hi rend="roman">Maids</hi>. </head>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">T</hi>HE <hi rend="italic">Lithotomiſt</hi> muſt thruſt <lb/>the
+          firſt Finger (called <hi rend="italic">Digi- <lb/>tus Index</hi>) of his Right-Hand into
+          <lb/>the <hi rend="italic">Vaginam Uteri</hi> in Women, in- <lb/>clining the Finger
+          upwards to the <lb/><hi rend="italic">Os Pubis</hi>, and with his Left-Hand <lb/>muſt
+          preſs the <hi rend="italic">Belly</hi> downwards, <lb/>and if there be a Stone in the <hi
+            rend="italic">Blad- <lb/>der</hi> he will find it; otherways he <lb/>may ſearch with the
+          Womens <hi rend="italic">Ca- <lb/>theter</hi> introducing it into the <hi rend="italic"
+            >Ure- <lb/>thra</hi> and moving it forwards and <lb/>backwards, up and down, on the
+          <lb/>Right and Left, and thus he will <lb/>find the Stone or Stones if any <lb/>there be;
+          but if the Patient is very <pb n="159"/>
+          <lb/>Young the <hi rend="italic">Lithotomiſt</hi> muſt ſearch <lb/><hi rend="italic"
+            >digito in anum Immiſſo</hi>, as you ſearch <lb/>little Boys. </p>
+        <p rend="indent">
+          <lb/>When the <hi rend="italic">Lithotomiſt</hi> is to <choice>
+            <sic>exrtact</sic>
+            <corr>extract</corr>
+          </choice>
+          <lb/>the Stone, he muſt make uſe of the <lb/>hollow ſtrait <hi rend="italic"
+          >Catheter</hi>, which being <lb/>introduc'd into the <hi rend="italic">Urethra</hi> muſt
+          <lb/>be held by a Servant, and the <hi rend="italic">Ori- <lb/>fice</hi> of the <hi
+            rend="italic">Urethra</hi> muſt be <hi rend="italic">Dilated</hi>
+          <lb/>by a Simple <hi rend="italic">Dilatatory</hi>, conducted <lb/>in the <hi
+            rend="italic">Cavity</hi> of the <hi rend="italic">Catheter</hi>: The <lb/><hi
+            rend="italic">Orifice</hi> muſt not be <hi rend="italic">dilated</hi> too much
+          <lb/>forward, becauſe the <hi rend="italic">paſſage</hi> being <lb/>ſhort, if the <hi
+            rend="italic">Fibres</hi> are delacerated, <lb/>it may cauſe an involuntary emiſ-
+          <lb/>ſion of the <hi rend="italic">Urine</hi>; the <hi rend="italic">Dilatation</hi>
+          <lb/>being made, the <hi rend="italic">Catheter</hi> muſt be <lb/>taken out with the <hi
+            rend="italic">Dilatatory</hi>, and <lb/>the Fingers being ſtill in the ſame <lb/>place,
+          into which they were intro- <lb/>duced, the Stone muſt by them be <lb/>kept forward and be
+          drawn out <lb/>with the <hi rend="italic">Hamulus</hi>, or with the <hi rend="italic">For-
+              <pb n="160"/>
+            <lb/>-ceps</hi>, in the ſame manner as from <lb/>Little Boys. </p>
+        <p rend="indent">
+          <lb/>But Young-Women and Girls <lb/>may be excus'd from the Violence <lb/>which they
+          ſuffer by this Leſſer <lb/><hi rend="italic">Operation</hi>, becauſe the Great <hi
+            rend="italic">Opera- <lb/>tion</hi> is more convenient, and is thus <lb/>perform'd; the
+          Patient (if very <lb/>Young) muſt be plac'd upon a <lb/>ſtrongs Man's <hi rend="italic"
+            >Knees</hi> (as before de- <lb/>ſcrib'd for Little Boys) and being <lb/>held in a
+          convenient Poſture, the <lb/><hi rend="italic">Conductor</hi>, which is ſhaped like a
+          <lb/>Sword, and has a Bill, muſt be <lb/>introduc'd into the <hi rend="italic"
+            >Urethra</hi>, and <lb/>then a ſmall <hi rend="italic">Dilatatory</hi>; and having
+          <lb/>made a moderate <hi rend="italic">Dilatation</hi>, while <lb/>the <hi rend="italic"
+            >Dilatatory</hi> is ſtill open, the <hi rend="italic">Litho- <lb/>tomiſt</hi> according
+          to his own diſcre- <lb/>tion and the bigneſs of the Stone, <lb/>may make a ſmall <hi
+            rend="italic">Inciſion</hi> to the <lb/>Right and Left of the External <lb/><hi
+            rend="italic">Orifice</hi> of the <hi rend="italic">Paſſage</hi>, then drawing <pb
+            n="161"/>
+          <lb/>out the <hi rend="italic">Dilatatory</hi>, and introducing <lb/>the <hi rend="italic"
+            >Forceps</hi> along the <hi rend="italic">Conductor</hi> muſt <lb/>take hold of the
+          Stone, and ex- <lb/>tract it in the uſual manner. But <lb/>ſtrong Women muſt be plac'd in
+          <lb/>the ſame Poſture to have this <hi rend="italic">Oper- <lb/>ation</hi> perform'd, that
+          Men are, which <lb/>Poſture we ſhall deſcribe in the fol- <lb/>lowing Chapter; it is
+          ſcarce credible <lb/>how much the <hi rend="italic">Urethra</hi> may be <hi rend="italic"
+            >Dilated</hi>
+          <lb/>both in Men and Women: I have <lb/>taken away from a Virgin of Six- <lb/>teen Years
+          of Age, a Triangular <lb/>Stone of the bigneſs of an Egg, <lb/>if we may imagine it of
+          that ſhape, <lb/>by only <hi rend="italic">Dilating</hi> the <hi rend="italic"
+            >Urethra</hi> without <lb/><hi rend="italic">Cutting</hi> or in the leaſt tearing it;
+          <lb/>and by applying ordinary means, <lb/>in Three Weeks ſhe was ſound and <lb/>firm,
+          holding ger Water as well as <lb/>ever. </p>
+        <pb n="162"/>
+        <p rend="indent">
+          <lb/>There are ſome <hi rend="italic">Lithotomiſts</hi> who <lb/>having introduc'd the
+          ſtrait hollow <lb/><hi rend="italic">Catheter</hi>, thruſt in alſo the <hi rend="italic"
+            >Conductor</hi>
+          <lb/>ſhap'd like a Sword; and then the <lb/><hi rend="italic">Catheter</hi> being drawn
+          out, they ea- <lb/>ſily ſlip in the other forked <hi rend="italic">Con- <lb/>ductor</hi>,
+          becauſe the firſt has a Line <lb/>that directs the ſecond; and be- <lb/>tween theſe two
+            <hi rend="italic">Conductors</hi> which <lb/>they preſs betwixt the Fore-finger <lb/>and
+          Middle-finger of the Left- <lb/>Hand, they thruſt in the <hi rend="italic">For-
+            <lb/>ceps</hi> to continue the <hi rend="italic">Operation</hi> and <lb/>take out the
+          Stone. And thus the <lb/>Great <hi rend="italic">Operation</hi> is much eaſier per-
+          <lb/>form'd in Women and with abun- <lb/>dance leſs Danger than in Men. </p>
+      </div>
+      <pb n="163"/>
+      <div type="chapter">
+        <head rend="align-center space size(1.5)">
+          <lb/>CHAP. XIV. </head>
+        <head rend="align-center space italic">
+          <lb/>Of the <hi rend="roman">Apparatus Major</hi>, or Great <lb/><hi rend="roman"
+            >Operation</hi> in Men and Boys. </head>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">J</hi><hi rend="italic">Oanes de Romanis</hi> a Phyſician of
+            <lb/><hi rend="italic">Cremona</hi>, in the Year 1520, in- <lb/>vented and practis'd at
+            <hi rend="italic">Rome</hi>, the <lb/>great <hi rend="italic">Operation</hi>, ſo called,
+          becauſe <lb/>it requires more <hi rend="italic">Inſtruments</hi> than <lb/>other methods
+          do. </p>
+        <p rend="indent">
+          <lb/>Men who are <hi rend="italic">Cut</hi> by the great <lb/><hi rend="italic"
+            >Operation</hi> occaſion a great deal more <lb/>trouble then Women, not only in
+          <lb/>reſpect to the <hi rend="italic">Operation</hi> it ſelf, but <lb/>likewiſe in reſpect
+          to the <hi rend="italic">Cure</hi>; be- <lb/>cauſe their <hi rend="italic">Urethra</hi> is
+          much more <lb/>crooked, long, and narrow, and <lb/>their way of Living renders that
+            <lb/><hi rend="italic">part</hi> many times ſubject to more <pb n="164"/>
+          <lb/><hi rend="italic">Diſeaſes</hi> than those <hi rend="italic">Parts</hi> in Wo-
+          <lb/>men. </p>
+        <figure>
+          <p rend="indent">
+            <lb/>When the Patient is prepar'd <lb/>and ready, he muſt be ſet upon <lb/>the <hi
+              rend="italic">Chair</hi> or a <hi rend="italic">Table</hi> of an indiffe- <lb/>rent
+            length, his <hi rend="italic">Buttocks</hi> a little <lb/>rais'd, and his Head and Body
+            in- <lb/>clining backwards, and leaning <lb/>upon the back of a common Chair
+            <lb/>reverſed; and that the Patient may <lb/>continue fix'd in a good Poſture, <lb/>two
+              <hi rend="italic">Scarffs</hi> muſt be made uſe of <lb/>in this manner; having laid
+            them <lb/>long ways, they muſt be tied <lb/>both together by a Knot in the <lb/>middle,
+            ſo that the ends of the <lb/><hi rend="italic">Scarffs</hi> being extended may ap-
+            <lb/>pear like a Croſs, and then they <lb/>muſt be put about the Patient's <lb/>Neck,
+            (if they be too long, they <lb/>may be ſhort'ned by tying a- <lb/>nother Knot,) the Knot
+            and <lb/>a Nooſe made in the ſame <pb n="165"/>
+            <lb/><hi rend="italic">Scarffs</hi> muſt hand down behind. <lb/>This being done, the <hi
+              rend="italic">Lithotomiſt</hi>
+            <lb/>taking two ends of the <hi rend="italic">Scarffs</hi> on <lb/>the right ſide, and a
+            Servant the <lb/>other two ends on the Left-ſide <lb/>both of them ſtanding before the
+            <lb/>Patient, and making him ſet his <lb/>feet againſt them, the <hi rend="italic"
+              >Lithotomiſt</hi>
+            <lb/>and his Servant each on his ſide <lb/>muſt bring one of the ends of <lb/>the <hi
+              rend="italic">Scarffs</hi> before, upon the <hi rend="italic">Cla- <lb/>vicles</hi>
+            and another end be- <lb/>hind upon the Shoulder-Blades, <lb/>and then bringing them
+            croſs- <lb/>ways under the Armpits, they <lb/>muſt twiſt them together, giving <lb/>them
+            two or three turns; after <lb/>which they muſt bring the Patient's <lb/><hi
+              rend="italic">Knees</hi> as near as they can to his <lb/><hi rend="italic">Belly</hi>,
+            and at the ſame time bring <lb/>one end of the <hi rend="italic">Scarffs</hi> on the
+            inſide <lb/>of his <hi rend="italic">Knees</hi>, and another on the <lb/>outſide of
+            them, and join them <pb n="166"/>
+            <lb/>both together underneath, giving <lb/>them a caſt over one another; <lb/>then alſo
+            the Patients <hi rend="italic">Heels</hi> muſt <lb/>be raiſed near to his <hi
+              rend="italic">Buttocks</hi>, that <lb/>his <hi rend="italic">Legs</hi> may be tied in
+            the ſame <lb/>manner; and after that, cauſing him <lb/>to put his Four <hi rend="italic"
+              >Fingers</hi> of each Hand <lb/>under the Souls of his <hi rend="italic">Feet</hi>,
+            and <lb/>his <hi rend="italic">Thumbs</hi> below the External <lb/><hi rend="italic"
+              >Anckle-bones</hi>, as if he were to <lb/>take hold of his <hi rend="italic"
+              >Heels</hi>, they <lb/>muſt tye the <hi rend="italic">Wriſt</hi> and <hi rend="italic"
+              >Hand</hi> to <lb/>the <hi rend="italic">Leg</hi> and <hi rend="italic">Foot</hi> on
+            each ſide, <lb/>bringing the ends of the <hi rend="italic">Scarffs</hi>
+            <lb/>under the <hi rend="italic">Feet</hi> like <hi rend="italic">Stirrops</hi>, and
+            <lb/>drawing them betwixt the <hi rend="italic">Feet</hi> and <lb/>the <hi rend="italic"
+              >Thumbs</hi>, becauſe the <hi rend="italic">Ligatures</hi>
+            <lb/>being to be made indifferently ſtrait, <lb/>they would hurt the <hi rend="italic"
+              >Thumbs</hi>, if <lb/>they were ty'd upon them, to <lb/>which the Patient's ſtruglings
+            would <lb/>not a little contribute. <hi rend="italic">See here the <lb/>exact Figure of
+              the Poſture and Swa- <lb/>things.</hi>
+          </p>
+          <figDesc>An illustration of a lithotomy posture on the following page. </figDesc>
+        </figure>
+        <pb/>
+        <pb n="167"/>
+        <p rend="indent">
+          <lb/>This poſture is ſomewhat ter- <lb/>rible to the Patient, and therefore <lb/>ſince
+          there are ſome Men of a <lb/>ſtrong Reſolution and invincible <lb/>Courage, if they be
+          unwilling to <lb/>ſuffer theſe <hi rend="italic">Ligatures</hi>; it will be
+          <lb/>ſufficient to bind their <hi rend="italic">Thighs</hi> and <lb/><hi rend="italic"
+            >Legs</hi> only in the manner deſcrib'd, <lb/>cauſing their Arms to be held by <lb/>two
+          Men; or perhaps they may <lb/>like it better to have their <hi rend="italic">Hands</hi>
+          <lb/>tied together, for which end laying <lb/>their <hi rend="italic">Wriſts</hi> one upon
+          another, they <lb/>muſt be ty'd together with the <lb/>middle of a <hi rend="italic"
+            >Band</hi> wrapp'd two or <lb/>three times about them, and then <lb/>two indifferent
+          hard Knots, being <lb/>caſt the two ends of the <hi rend="italic">Band</hi> muſt <lb/>be
+          brought about the Neck and <lb/>ty'd, together with a ſlip Knot, ſo <lb/>that the
+          Patient's <hi rend="italic">Hands</hi> may reſt <lb/>about the Pit of the Stomach or
+          <lb/>the <hi rend="italic">Cartilago Enſiformis</hi>. </p>
+        <pb n="168"/>
+        <p rend="indent">
+          <lb/>Whilſt this <hi rend="italic">Apparatus</hi> is making, <lb/>it is fit the <hi
+            rend="italic">Lithotomiſt</hi> ſhould ſpeak <lb/>to the Patient, but not in many
+          <lb/>words, that he look upon him and <lb/>incourage him with diſcourſe, ſhun- <lb/>ning
+          every thing that is undecent, <lb/>and obliging thoſe that are preſent to <lb/>be ſilent
+          and attentive, which com- <lb/>forts a Patient wonderfully; calling <lb/>to mind that to
+          make light of the <lb/><hi rend="italic">Diſeaſe</hi>, the Infirmity or Expreſſions
+          <lb/>of a Patient, is no better than to <lb/>inſult over a Man in Affliction. </p>
+        <p rend="indent">
+          <lb/>It is always beſt to have few <lb/>Spectators, and thoſe ſuch as are <lb/>neceſſary
+          to help; a great many <lb/>may incommode the <hi rend="italic">Lithotomiſt</hi>,
+          <lb/>frighten the Patient, and put a <lb/>bad Conſtruction on the Accidents <lb/>that
+          ſometimes accompany the <lb/><hi rend="italic">Operation</hi>. </p>
+        <pb/>
+        <pb n="169"/>
+        <figure>
+          <p rend="indent">
+            <lb/>When the Patient is ſeated, the <lb/><hi rend="italic">Lithotomiſt</hi> muſt place
+            his People to <lb/>ſupport him, ſpread open his <hi rend="italic">Knees</hi>, <lb/>lean
+            upon his Shoulders, and to <lb/>lift up the <hi rend="italic">Scrotum</hi>, a Servant
+            muſt <lb/>be at the Right-Hand of the <hi rend="italic">Litho- <lb/>tomiſt</hi> to hold
+            the <hi rend="italic">Biſtory</hi>, ready for <lb/>him to take it, when there is oc-
+            <lb/>caſion, but muſt hide the Blade in <lb/>his Hand, <hi rend="italic">as here
+              repreſented</hi>. </p>
+          <figDesc>An illustration of a hand and a scalpel on the previous page. </figDesc>
+        </figure>
+        <p rend="indent">
+          <lb/>The Servants are plac'd in the ſame <lb/>manner for the Leſſer as for the <lb/>Great
+            <hi rend="italic">Operation</hi>; but they hold the <lb/>Patient in a different manner,
+          as <lb/>it has been repreſented by the <lb/><hi rend="italic">Figures</hi>. </p>
+        <p rend="indent">
+          <lb/>When there is a <hi rend="italic">Hernia</hi> or <hi rend="italic">Burſt-
+            <lb/>neſs</hi>, the <hi rend="italic">Scrotum</hi> is to be lifted up <lb/>very high,
+          and care is to be taken <lb/>in making the <hi rend="italic">Inciſion</hi> not to hurt
+          <lb/>the <hi rend="italic">Teſticles</hi>, nor the Parts affected <lb/>by the <hi
+            rend="italic">Hernia</hi>. </p>
+        <pb n="170"/>
+        <p rend="indent">
+          <lb/>Before the <hi rend="italic">Operation</hi> there is ſome- <lb/>times a <hi
+            rend="italic">Procidentia</hi> or falling of the <lb/><hi rend="italic">Anus</hi>,
+          occaſioend by the ſtraining <lb/>of the Patient: If the falling be <lb/>conſiderable, the
+            <hi rend="italic">Lithotomiſt</hi> may <lb/>thruſt it up without Violence, <lb/>and then
+          lay a <hi rend="italic">Bolſter</hi> upon the <hi rend="italic">Anus</hi>, <lb/>which a
+          Servant is to preſs hard: <lb/>But if the Servant's Hand hinders <lb/>the <hi
+            rend="italic">Operator</hi>, there muſt nothing be <lb/>put to the <hi rend="italic"
+            >Rectum</hi>, for after the <hi rend="italic">Ope- <lb/>ration</hi> is over it is eaſily
+          reduced, and <lb/>in all my <hi rend="italic">Practice</hi> it never return'd <lb/>again,
+          uſing <hi rend="italic">Stiptick Fomentations</hi>, <lb/>&amp;c. </p>
+        <p rend="indent">
+          <lb/>If the Patient has been <hi rend="italic">Cut</hi> be- <lb/>fore, (as already
+          mentioned) the <hi rend="italic">In- <lb/>ciſion</hi> is to be made upon the <hi
+            rend="italic">Cica- <lb/>trice</hi>, taking heed not to cut the <lb/><hi rend="italic"
+            >Suture</hi>, becauſe it does not ſo eaſily <lb/>Cicatriſe, and is alſo attended by
+          <lb/>many Accidents. </p>
+        <pb n="171"/>
+        <p rend="indent">
+          <lb/>The <hi rend="italic">Inciſion</hi> in Children is at leaſt <lb/>made Two Fingers
+          breadth long; <lb/>in Men Three or Four Fingers breadth <lb/>or there abouts according to
+          the big- <lb/>neſs of the Stone, and circumſtances <lb/>of the Patient. It ought not to be
+          <lb/>too large, for when the Stone is in <lb/>the paſſage<unclear>,</unclear> if the <hi
+            rend="italic">Inciſion</hi> happen to <lb/>prove too ſmall, it may eaſily be in-
+          <lb/>larg'd with the <hi rend="italic">Biſtory</hi>, or a pair of <lb/><hi rend="italic"
+            >Probe-Sciſſars</hi>. </p>
+        <p rend="indent">
+          <lb/>The <hi rend="italic">Inciſion</hi> of the <hi rend="italic">Skin</hi> and <hi
+            rend="italic">Mem- <lb/>branes</hi> is eaſily made<unclear>,</unclear> but many times
+          <lb/>the <hi rend="italic">Urethra</hi> is not ſufficiently opened <lb/>unleſs one preſs
+          the <hi rend="italic">Biſtory</hi> hard in <lb/>the furrow of the <hi rend="italic"
+            >Staff</hi>. </p>
+        <p rend="indent">
+          <lb/><hi rend="italic">Inciſion</hi> is never made in the <hi rend="italic">Neck</hi>
+          <lb/>of the Bladder, but always in the <hi rend="italic">U- <lb/>rethra</hi>, and
+          Experience convinces that <lb/>a great <hi rend="italic">Inciſion</hi> in the <hi
+            rend="italic">Operation</hi> is as <lb/>ſoon Cicatris'd as a ſmall one. </p>
+        <p rend="indent">
+          <lb/>The Patient being ſet in a poſture <lb/>and bound with the <hi rend="italic"
+            >Scarffs</hi>, his <hi rend="italic">Arms</hi>
+          <pb n="172"/>
+          <lb/>and <hi rend="italic">Legs</hi> held by two Strong Men, <lb/>and if need be two
+          others to keep his <lb/>Knees aſunder, and one placed be- <lb/>hind the <hi rend="italic"
+            >Chair</hi> or <hi rend="italic">Table</hi> to preſs upon <lb/>his Shoulders, <hi
+            rend="italic">Lithotomy</hi> muſt then <lb/>be performed, if poſſible by the <lb/>Leſſer
+            <hi rend="italic">Operation</hi> before taught, or <lb/>at leaſt by this Great,
+          introducing <lb/>the furrowed <hi rend="italic">Catheter</hi>, with which <lb/>the <hi
+            rend="italic">Lithotomiſt</hi> firſt ſearches, and <lb/>is certain if there be a Stone
+          or not. </p>
+        <p rend="indent">
+          <lb/><hi rend="italic">N. B.</hi> If nothing be felt with the <lb/>furrowed <hi
+            rend="italic">Catheter</hi>, it is neceſſary to <lb/>introduce a hollow <hi
+            rend="italic">Catheter</hi> that has <lb/>a ſhorther <hi rend="italic">Bill</hi>, making
+          the Patient <lb/>void his Urine thro' it, and if there <lb/>be a Stone it will by that
+          means be <lb/>more eaſily found, because when it <lb/>floats, it will follow the courſe of
+          <lb/>the Urine; the <hi rend="italic">Bill</hi> of the <hi rend="italic">Catheter</hi>
+          <lb/>alſo being ſhort will turn better in <lb/>the Bladder. When the Stone is <lb/>found,
+          the furrow'd <hi rend="italic">Catheter</hi> is again <lb/>to be introduced. </p>
+        <pb n="173"/>
+        <p rend="indent">
+          <lb/>If the Patient has been <hi rend="italic">Cut</hi> before, <lb/>it is harder to
+          introduce the <hi rend="italic">Catheter</hi>, <lb/>and therefore one is to be taken of a
+          <lb/>ſize that would ſuit with a younger <lb/>Subject, and ſufficiently long, ac-
+          <lb/>cording to the Age of him that is <lb/>to be ſearched. There are ſome <hi
+            rend="italic">Li- <lb/>thotomiſts</hi> who hold the <hi rend="italic">Catheter</hi>
+          them- <lb/>ſelves when they make the <hi rend="italic">Inciſion:</hi>
+          <lb/>Others cauſe a Servant to hold it, <lb/>who is placed at the ſide of the Chair,
+          <lb/>oppoſite to the Part where the <hi rend="italic">Litho- <lb/>tomiſt</hi> is to make
+          the <hi rend="italic">Inciſion</hi>; for Ex- <lb/>ample, the <hi rend="italic"
+            >Lithotomiſt</hi> performing his <lb/><hi rend="italic">Operation</hi> on the left ſide
+          of the <hi rend="italic">Suture</hi>, <lb/>the Servant muſt be on the Patient's
+          <lb/>Right-Hand, and having wiped and <lb/>dried the <hi rend="italic">Scrotum</hi> and
+            <hi rend="italic">Perineum</hi>, he <lb/>muſt lift up the <hi rend="italic">Scrotum</hi>
+          with his Left- <lb/>Hand, and reſt his other Hand <lb/>upon the Rings and end of the <hi
+            rend="italic">Ca- <lb/>theter</hi>, inclining the furrowing a little <lb/>to the
+          Patient's left ſide, but muſt <pb n="174"/>
+          <lb/>take care not to make it come out of <lb/>the Bladder, which he may avoid if <lb/>he
+          bring not the <hi rend="italic">Rings</hi> of the <hi rend="italic">Catheter</hi>
+          <lb/>too near the <hi rend="italic">Belly</hi>. </p>
+        <figure>
+          <p rend="indent">
+            <lb/>The <hi rend="italic">Lithotomiſt</hi> ought to mind firſt <lb/>that the Servant
+            holds it right, bid- <lb/>ding him hold it faſt and not waver, <lb/>and cauſing others
+            to lean upon the <lb/>Patient's Shoulders, becauſe at that <lb/>very time the <hi
+              rend="italic">Lithotomiſt</hi> ought to pull <lb/>the <hi rend="italic">Suture</hi>
+            toward the Right-ſide, <lb/>placing the Thumb of his Left-hand <lb/>near the <hi
+              rend="italic">Anus</hi>, and his other near the <lb/><hi rend="italic">Scrotum</hi>,
+            and having felt with the <lb/>Fore-Finger of the Right-hand, and <lb/>obſerved the place
+            where the back of <lb/>the <hi rend="italic">Catheter</hi> is, in the ſame manner as
+            <lb/>one does to find the <hi rend="italic">Vein</hi> before <lb/>Blood-letting (<hi
+              rend="italic">as repreſented here in the <lb/>Figure</hi>) and pulling ſtill the <hi
+              rend="italic">Suture</hi>
+            <lb/>to the Right, with his Right-hand he <lb/>muſt take the mounted <hi rend="italic"
+              >Biſtori</hi> from <lb/>a Servant, and in making the <hi rend="italic">Inciſion</hi>
+            <pb/>
+            <pb n="175"/>
+            <lb/>he is to ſearch for the furrowing of <lb/>the <hi rend="italic">Catheter</hi>, into
+            which he is to thruſt <lb/>the point of the <hi rend="italic">Biſtory</hi>, and then
+            <lb/>preſs hard, above towards the <hi rend="italic">Scrotum</hi>
+            <lb/>and below, ſinking the Wriſt, that <lb/>the point of the <hi rend="italic"
+              >Biſtory</hi> may be al- <lb/>ways directed into furrowing un- <lb/>derneath the <hi
+              rend="italic">Catheter</hi>, that the <hi rend="italic">Ure- <lb/>thra</hi> may be
+            exactly <hi rend="italic">Cut</hi>, avoiding <lb/>the <hi rend="italic">Scrotum</hi>,
+            the <hi rend="italic">Rectum</hi>, and the <lb/><hi rend="italic">Hemmerrhoide
+              Veins</hi>; then he muſt re- <lb/>turn the <hi rend="italic">Biſtory</hi> to a
+            Servant, and <lb/>take the <hi rend="italic">Conductor</hi> and introduce <lb/>it into
+            the furrowing; after which, <lb/>with the Left-hand he muſt lay <lb/>hold on the <hi
+              rend="italic">Catheter</hi>, by the end <lb/>which the Servant held. </p>
+          <figDesc>An illustration of a lithotomy posture on the following page. </figDesc>
+        </figure>
+        <p rend="indent">
+          <lb/>To prevent the Fingers of the <hi rend="italic">Li- <lb/>thotomiſt</hi>'s Left-hand
+          from ſliding du- <lb/>ring the time of the <hi rend="italic">Inciſion</hi>, he may
+          <lb/>make uſe of a very narrow <hi rend="italic">Compreſs</hi>
+          <lb/>to help him to preſs and pull the <lb/><hi rend="italic">Suture</hi> towards the
+          Patient's Right- <lb/>ſide. </p>
+        <pb n="176"/>
+        <p rend="indent">
+          <lb/>If in making <hi rend="italic">Inciſion</hi> the <hi rend="italic">Lithotomiſt</hi>
+          <lb/>himſelf hold the <hi rend="italic">Catheter</hi>, the Ser- <lb/>vant who extends the
+            <hi rend="italic">Perineum</hi> may <lb/>upon the ſame account put very <lb/>narrow <hi
+            rend="italic">Compreſſes</hi> betwixt his Fingers <lb/>and the Patient's Skin, that ſo
+          he <lb/>may hold the two ſides of the <hi rend="italic">Su- <lb/>ture</hi> firmer towards
+          the <hi rend="italic">Thighs</hi>; by <lb/>that means the Humidity will not <lb/>hinder
+          him to preſs upon them as <lb/>much as is neceſſary. </p>
+        <p rend="indent">
+          <lb/>I remember Monſieur <hi rend="italic">Collot</hi> who's <lb/>ſeveral <hi
+            rend="italic">Operations</hi> I have ſeen both at <lb/><hi rend="italic">Amſterdam</hi>
+          about 40 Years ago, and <lb/>here in <hi rend="italic">London</hi>, about 33 Years ſince,
+          <lb/>performed the <hi rend="italic">Operation</hi> in this fol- <lb/>lowing manner. </p>
+        <p rend="indent">
+          <lb/>After he had introduc'd the <hi rend="italic">Ca- <lb/>theter</hi>, and was ſure of
+          the Stone, <lb/>he caus'd a Servant plac'd on the <lb/>Patient's Right-ſide to lift up the
+            <lb/><hi rend="italic">Scrotum</hi>, and having dried the Parts <lb/>that were wet, the
+          ſame Servant hold- <pb/>
+          <pb n="177"/>
+          <lb/>ing his Hands almoſt open, with <lb/>his Right-Hand pull'd the <hi rend="italic"
+            >Suture;</hi>
+          <lb/>to the Right-ſide, and with his o- <lb/>ther Hand, the Skin to the Left, <lb/>reſting
+          his Hands towards the Pa- <lb/>tient's Groins, ſo that they lifted <lb/>or kept up the <hi
+            rend="italic">Scrotum</hi> at the ſame <lb/>time; and then that Ingenious <hi
+            rend="italic">Li- <lb/>thotomiſt</hi> inclin'd the <hi rend="italic">Catheter</hi> a
+          lit- <lb/>tle towards the <hi rend="italic">Belly</hi>, and with his <lb/>Left-hand
+          preſs'd upon the <hi rend="italic">Rings</hi>, <lb/>whilſt with his Right-Fore-finger he
+          <lb/>mark'd the place of <hi rend="italic">Inciſion</hi>; then <lb/>was the <hi
+            rend="italic">Biſtory</hi> or the <hi rend="italic">Knife</hi> preſent- <lb/>ed to him,
+          and during the time, <lb/>that the Servant held the <hi rend="italic">Perineum</hi>
+          <lb/>ſtretch'd to the Right and Left, <lb/>without the uſe of the <hi rend="italic"
+            >Compreſſes</hi> he <lb/>made the <hi rend="italic">Inciſion</hi> as others do. </p>
+        <figure>
+          <p rend="indent">
+            <lb/><hi rend="italic">Take this for the Figure of it. </hi>
+          </p>
+          <figDesc>An illustration of a lithotomy posture on the previous page. </figDesc>
+        </figure>
+        <p rend="indent space">
+          <lb/>The Servant may alſo with one <lb/>Hand lift up the <hi rend="italic">Scrotum</hi>,
+          whilſt <pb n="178"/>
+          <lb/>with the other that is extended he <lb/>preſſes hard upon the <hi rend="italic"
+            >Perineum</hi>, <lb/>holding between Two Fingers the <lb/>place where the <hi
+            rend="italic">Lithotomiſt</hi> intends <lb/>make the <hi rend="italic">Inciſion</hi>.
+          Otherwiſe the <lb/>Servant may hide his two Thumbs <lb/>in his Hands, and with his two
+          <lb/>Fore-fingers extend the <hi rend="italic">Perineum</hi> for <lb/>the ſame purpoſe. </p>
+        <p rend="indent">
+          <lb/>The furrowing of the <hi rend="italic">Catheter</hi>
+          <lb/>being diſcovered, and the <hi rend="italic">Biſtory</hi>
+          <lb/>retu<unclear>r</unclear>n'd; Monſieur <hi rend="italic">Collot</hi> took a <lb/><hi
+            rend="italic">Conductor</hi> with an Elbow towards <lb/>the middle, (and which is com-
+          <lb/>poſed of two Branches) and thruſt <lb/>the <hi rend="italic">Bill</hi> of it into the
+          furrowing <lb/>of the <hi rend="italic">Catheter</hi>, and when the <hi rend="italic">Con-
+            <lb/>ductor</hi> was introduc'd into the Blad- <lb/>der, he drew out the <hi
+            rend="italic">Catheter</hi>, and <lb/>conveigh'd his <hi rend="italic">Forceps</hi>
+          betwixt the <lb/>Branches of the <hi rend="italic">Conductor</hi>, to introduce <lb/>'em
+          into the Bladder: And then the <pb n="179"/>
+          <lb/><hi rend="italic">Conductor</hi> being taken out, he con- <lb/>tinu'd the <hi
+            rend="italic">Operation</hi>. </p>
+        <figure>
+          <p rend="indent">
+            <lb/>Theſe two ways are very good, <lb/>and have both their advantages, <lb/>for when
+            the <hi rend="italic">Lithotomiſt</hi> himſelf <lb/>holds the <hi rend="italic"
+              >Catheter</hi>, he is ſure what <lb/>place it is in; yet after the <hi rend="italic"
+              >In- <lb/>ciſion</hi>, it is ſometimes hard to find <lb/>the furrowing becauſe of <hi
+              rend="italic">Fat</hi>, <hi rend="italic">Mem- <lb/>branes</hi> and <hi rend="italic"
+              >Blood</hi>, that hide it; <lb/>it is true that after <hi rend="italic">Inciſion</hi>,
+            the <lb/>point of the <hi rend="italic">Biſtory</hi> may be left in <lb/>the furrowing,
+            and may be held <lb/>by a Servant whilſt the <hi rend="italic">Lithotomiſt</hi>
+            <lb/>ſlides the <hi rend="italic">Bill</hi> of the <hi rend="italic">Conductor</hi>
+            along <lb/>the <hi rend="italic">Biſtory</hi>, but when a Servant <lb/>hold the <hi
+              rend="italic">Catheter</hi>, after that the <lb/><hi rend="italic">Inciſion</hi> is
+            made, and that the <hi rend="italic">Litho- <lb/>tomiſt</hi> hath given back the <hi
+              rend="italic">Biſtory</hi>, <lb/>as we have juſt now deſcrib'd, he <lb/>may put the
+            Nail of his Left- <lb/><hi rend="italic">Thumb</hi> into the Wound, and ha- <lb/>ving
+            found the ſlit or furrowing of <pb n="181"/>
+            <lb/>tive Mind, and not talk (remem- <lb/>bring that all queſtions put to him <lb/>at
+            that time are impertinent) and <lb/>then having paſſed the <hi rend="italic">Bill</hi>
+            of the <lb/><hi rend="italic">Conductor</hi> into the furrowing of the <lb/><hi
+              rend="italic">Catheter</hi>, he muſt hold them faſt, <lb/>and be ſure to keep the <hi
+              rend="italic">Bill</hi> of the <lb/><hi rend="italic">Conductor</hi> always in,
+            ſliding it along <lb/>and under the furrowing, and thruſt- <lb/>ing upwards; by which
+            means it will <lb/>be certainly introduc'd into the <lb/>Bladder; and then holding it
+            with <lb/>his Right Hand, the <hi rend="italic">Catheter</hi> muſt <lb/>be diſingaged
+            from the <hi rend="italic">Conductor</hi>, <lb/>(by turning it to the Left) and
+            <lb/>gently drawn out of the <hi rend="italic">Penis</hi>. A <lb/>certain ſign that the
+              <hi rend="italic">Conductor</hi> is in <lb/>Bladder, is the Emiſſion of Urine <lb/>(if
+            there be any in the Bladder) <lb/>along the <hi rend="italic">Conductor</hi>. When the
+              <lb/><hi rend="italic">Conductor</hi> is in the Bladder, and the <lb/><hi
+              rend="italic">Catheter</hi> drawn out, it muſt be held <lb/>with the Left-hand, and a
+            convenient <pb n="182"/>
+            <lb/>pair of <hi rend="italic">Forceps</hi> be thruſt along the <lb/>ſame <hi
+              rend="italic">Conductor</hi> with the Right- <lb/>Hand, <hi rend="italic">as this
+              Figure ſhews</hi>. </p>
+          <figDesc>An illustration of a lithotomy operation on the following page. </figDesc>
+        </figure>
+        <figure>
+          <p rend="indent">
+            <lb/>Tho' the <hi rend="italic">Conductor</hi> be put into <lb/>the Bladder, yet it may
+            be forced <lb/>out again by the Patients ſtrugling, <lb/>which muſt be prevented, by
+            cauſing <lb/>ſome to preſs upon his Shoulders, <lb/>and others to hold him faſt by the
+            <lb/>Hands and Feet, the <hi rend="italic">Lithotomiſt</hi>
+            <lb/>in the mean time, holding the <hi rend="italic">Con- <lb/>ductor</hi> faſt with his
+            Left-hand, muſt <lb/>not forget taking great notice, whe- <lb/>ther any part of it which
+            he has <lb/>introduc'd<unclear>,</unclear> come out again; for if <lb/>he perceive it
+            does, he muſt not <lb/><unclear>thruſt</unclear> it forwards, to make it enter
+            <lb/>again, leaſt a ſpace be made be- <lb/>tween the <hi rend="italic">Bladder</hi> and
+            the <hi rend="italic">Rectum</hi>, <lb/>nor yet wholly draw it out, be- <lb/>cauſe
+            perhaps it may ſtill be in <lb/>the Bladder; but taking a pair of <lb/><hi rend="italic"
+              >Forceps</hi> of an indifferent ſize, ra- <pb/>
+            <pb/>
+            <pb n="183"/>
+            <lb/>ther ſmall than great, he muſt paſs <lb/>them along the <hi rend="italic"
+              >Conductor</hi> without <lb/>forcing, and if he finds any re- <lb/>ſiſtance, the <hi
+              rend="italic">Conductor</hi> muſt be drawn <lb/>out; after which it cannot but
+            <lb/>with difficulty open the <hi rend="italic">Forceps</hi>, he <lb/>may be ſure that
+            they are not in <lb/>the Bladder, and then without <lb/>ſpeaking, they muſt be taken
+            out, <lb/>and the <hi rend="italic">Lithotomiſt</hi> muſt take the <lb/><hi
+              rend="italic">Button</hi> with his Right-hand, and <lb/>lifting up the <hi
+              rend="italic">Scrotum</hi> with his Left, <lb/>muſt paſs it into the Wound, turn-
+            <lb/>ing it towards the <hi rend="italic">Penis</hi>, and con- <lb/>ducting it upwards
+            to the Bladder, <lb/><hi rend="italic">as this Figure ſheweth</hi>. </p>
+          <figDesc>An illustration of a lithotomy operation on the previous page. </figDesc>
+        </figure>
+        <figure>
+          <p rend="indent">
+            <lb/>The <hi rend="italic">Button</hi> being blunt, hurts <lb/>not the Parts in paſſing,
+            and when <lb/>it is in the Bladder (which may <lb/>be known, by its being eaſily to be
+            <lb/>turned every way) the Stone <lb/>is ſoftly to be ſearch'd for, by gen- <lb/>ly
+            jogging and moving the <hi rend="italic">Inſtru- <pb n="184"/>
+              <lb/>ment</hi>; and when it is felt, the <lb/><hi rend="italic">Lithotomiſt</hi> muſt
+            take the <hi rend="italic">Button</hi> in <lb/>his Left-hand, and conduct the <lb/><hi
+              rend="italic">Forceps</hi> with his Right, cloſe upon <lb/>the <hi rend="italic"
+              >Button</hi> into the Bladder, <hi rend="italic">See <lb/>here the Figure of it</hi>. </p>
+          <figDesc>An illustration of a lithotomy operation on the following page. </figDesc>
+        </figure>
+        <p rend="indent space">
+          <lb/>If a crooked pair of <hi rend="italic">Forceps</hi> be <lb/>introduc'd, the <hi
+            rend="italic">Bill</hi> being turned <lb/>towards the <hi rend="italic">Penis</hi>, the
+          Rings or <lb/>Handle muſt be rais'd more than <lb/>if the <hi rend="italic">Forceps</hi>
+          were ſtrait, as may <lb/>be obſerved by the Difference of <lb/>this Figure from that of
+          Page 182 a- <lb/>foregoing, which repreſents the ſtrait <lb/><hi rend="italic"
+            >Forceps</hi> introduced upon the <hi rend="italic">Con- <lb/>ductor</hi>, with the
+          Right-hand bend- <lb/>ing lower and nearer the left. </p>
+        <p rend="indent">
+          <lb/>The crooked <hi rend="italic">Forceps</hi> are made uſe <lb/>of, when the Stone is
+          thought to <lb/>incline near to the <hi rend="italic">Groin</hi>; but <lb/>moſt commonly
+          the ſtrait <hi rend="italic">Forceps</hi>
+          <lb/>are ſufficient, and both the one <pb/>
+          <pb n="185"/>
+          <lb/>and the other ought to be laid upon <lb/>the Line of the <hi rend="italic"
+            >Button</hi>, ſo as to <lb/>touch on both ſides. </p>
+        <p rend="indent">
+          <lb/>When the <hi rend="italic">Forceps</hi> are in the <lb/>Bladder, they muſt be open'd
+          to <lb/>dilate the Paſſage, and then having <lb/>joined the Rings almoſt together,
+          <lb/>they muſt be gently turn'd and <lb/>mov'd every way (without cloſing <lb/>the Teeth,
+          for fear of offending <lb/>ſome part of the Bladder) to ſearch <lb/>for the Stone; when
+          the <hi rend="italic">Operation</hi> is <lb/>ſo far perform'd, the Patient's <hi
+            rend="italic">Thighs</hi>
+          <lb/>may be brought a little nearer to- <lb/>gether, and not be kept at ſuch a di-
+          <lb/>ſtance as they were before. </p>
+        <p rend="indent">
+          <lb/>It is to be obſerved, that as often <lb/>as one would change the <hi rend="italic"
+            >Forceps</hi> or <lb/>introduce them, there is a neceſſity <lb/>of making uſe of the <hi
+            rend="italic">Button</hi>, ex- <lb/>cept when the <hi rend="italic">Conductor</hi> is
+          intro- <lb/>duced immediately after the <hi rend="italic">Inciſion</hi>
+          <lb/>is made, as before taught. </p>
+        <pb n="186"/>
+        <p rend="indent">
+          <lb/>But if after the <hi rend="italic">Conductor</hi> is drawn <lb/>back, the <hi
+            rend="italic">Lithotomiſt</hi> cannot in- <lb/>troduce the <hi rend="italic"
+          >Button</hi>, it will be ne- <lb/>ceſſary to take the ſame furrowed <lb/><hi rend="italic"
+            >Catheter</hi>, or one ſomewhat ſmaller <lb/>or leſs, and introduce it gently into
+          <lb/>the <hi rend="italic">Urethra</hi> again, without turning <lb/>of it any way, leſt it
+          ſhould come <lb/>out at the <hi rend="italic">Inciſion</hi>, and when it is <lb/>paſſed
+          into the Bladder, the fur- <lb/>rowing of it muſt be ſearched for, <lb/>with the Bill of
+          the <hi rend="italic">Conductor</hi> thro' <lb/>the Wound, that ſo the <hi rend="italic"
+            >Operation</hi>
+          <lb/>may be more ſucceſsfully continu- <lb/>ed than before. </p>
+        <figure>
+          <p rend="indent">
+            <lb/>When the <hi rend="italic">Conductor</hi> is in the <lb/>Bladder, if it be fear'd
+            that the <lb/>paſſage is not wide enough, a <lb/>cloſe <hi rend="italic">Dilatatory</hi>
+            muſt be introduced <lb/>along and upon the <hi rend="italic">Conductor</hi>, and
+            <lb/>without turning it any way, only <lb/>bringing the Branches of the handle
+            <lb/>nearer to one another, the bottom <pb/>
+            <pb n="187"/>
+            <lb/>of the <hi rend="italic">Inciſion</hi> will be dilated in <lb/>length, as much or
+            as little as it is <lb/>thought fit, <hi rend="italic">in this manner</hi>. </p>
+          <figDesc>An illustration of a lithotomy operation on the previous page. </figDesc>
+        </figure>
+        <p rend="indent space">
+          <lb/>This <hi rend="italic">Dilatatory</hi> is never us'd un- <lb/>leſs neceſſity require
+          it, and after <lb/>it is taken out, the <hi rend="italic">Conductor</hi> being <lb/>left
+          in, the <hi rend="italic">Lithotomiſt</hi> muſt take a <lb/>cloſe pair of <hi
+            rend="italic">Forceps</hi>, and ſlide them <lb/>into the Bladder to ſearch for the
+          <lb/>Stone, as before. </p>
+        <p rend="indent">
+          <lb/>And if the Stone is not readily <lb/>felt, the <hi rend="italic">Forceps</hi> muſt be
+          mov'd <lb/>gently to the Right and Left, up <lb/>and down, near the <hi rend="italic"
+            >Sphincter</hi> of the <lb/><hi rend="italic">Rectum</hi>, and ſometimes muſt be
+          <lb/>turned ſo that one of the <hi rend="italic">Rings</hi>
+          <lb/>may be higher than the other, <lb/>thereby endeavouring to lay hold <lb/>of the
+          Stone, which may be flat, <lb/>or lye hid at one ſide of the Blad- <lb/>der; and when it
+          is found, the <lb/><hi rend="italic">Forceps</hi> muſt be opened with both <pb n="188"/>
+          <lb/>Hands, to gripe and lay hold of it. <lb/>The <hi rend="italic">Lithotomiſt</hi> is
+          ſometimes ſo <lb/>fortunate, as to take good hold of <lb/>the Stone in a ſmall time; it is
+          <lb/>eaſily known whether the Stone is <lb/>in the <hi rend="italic">Forceps</hi> or not,
+          becauſe if it <lb/>is, the <hi rend="italic">Rings</hi> cannot be made to <lb/>meet again,
+          and ſome <hi rend="italic">hard Matter</hi>
+          <lb/>will be felt betwixt the Teeth: <lb/>This is the ſureſt ſign, for very <lb/>ſmall
+          Stones may be taken hold of, <lb/>about the middle of the <hi rend="italic">Forceps</hi>,
+          <lb/>where they are moſt bent, without <lb/>hindering the <hi rend="italic">Rings</hi>
+          from meeting <lb/>together, but ſtill ſome hardneſs <lb/>will be felt: In the Year 1684 as
+          <lb/>I was performing the <hi rend="italic">Lithotomical <lb/>Operation</hi> upon one Mr.
+            <hi rend="italic">Francis <lb/>Waldegrove</hi> in <hi rend="italic">Suffolk</hi>, Aged
+          45, it <lb/>hap'ned, that having fix'd one large <lb/>Stone in the <hi rend="italic"
+            >Teeth</hi> of the <hi rend="italic">Forceps</hi>, <lb/>and drawing the <hi
+            rend="italic">Forceps</hi> towards <lb/>me near the <hi rend="italic">Wound</hi> (as I
+          com- <pb n="189"/>
+          <lb/>monly do, becauſe if the Stone ſhou'd <lb/>happen to break, I might then pre-
+          <lb/>vent the <hi rend="italic">Fragments</hi> returning into <lb/>the Cavity of the
+          Bladder again) <lb/>having my two Fingers in <hi rend="italic">Ano</hi>, I <lb/>felt
+          another ſmall Stone which I <lb/>forced alſo into the <hi rend="italic">Forceps</hi> near
+          the <lb/>middle, and thus extracted both <lb/>Stones at once from my Patient, <lb/>who is
+          ſtill alive and well known <lb/>among the <hi rend="italic">Quakers</hi>. </p>
+        <p rend="indent">
+          <lb/>I alſo took two Stones from Cap- <lb/>tain <hi rend="italic">Williams</hi>, Keeper of
+          the Goal in <lb/><hi rend="italic">Warwick</hi>, on the 19th of <hi rend="italic"
+            >September</hi>
+          <lb/>1698; I extracted the biggeſt firſt, <lb/>and the leaſt afterward, taking hold
+          <lb/>of it with the middle of the <hi rend="italic">Forceps</hi>; <lb/>he is now alive and
+          well. </p>
+        <p rend="indent">
+          <lb/>When the Stone is laid hold of, <lb/>the <hi rend="italic">Lithotomiſt</hi> muſt not
+          at firſt <lb/>pull towards him, but turn the <lb/><hi rend="italic">Forceps</hi> gently to
+          the Right and <lb/>Left, (holding them with one or <pb n="190"/>
+          <lb/>both Hands, according to his con- <lb/>veniency) that ſo he may know <lb/>if the
+          Stone lye right in the <hi rend="italic">Teeth</hi>, <lb/>and diſintangle it from among
+          the <lb/><hi rend="italic">Plicatures</hi> of the Bladder, after <lb/>which, he muſt draw
+          it towards <lb/>him, but without Violence: Be- <lb/>fore 'tis drawn out, the <hi
+            rend="italic">Rings</hi> of <lb/>the <hi rend="italic">Forceps</hi> muſt be rais'd and
+          <lb/>lower'd alternately, to make the <lb/>Stone ſlide with greater eaſe. If <lb/>the
+          crooked <hi rend="italic">Forceps</hi> are us'd, the <hi rend="italic">Bill</hi>
+          <lb/>of them muſt be turn'd towards the <lb/><hi rend="italic">Pubes</hi> juſt at the
+          Paſſage of bringing <lb/>it out, and the <hi rend="italic">Rings</hi> be very near
+          <lb/>the <hi rend="italic">Penis</hi>; and that one may not be <lb/>miſtaken and turn the
+            <hi rend="italic">Bill</hi> downwards, <lb/>it would be neceſſary to put a mark
+          <lb/>upon one of the <hi rend="italic">Rings</hi> of the <hi rend="italic">Forceps</hi>. </p>
+        <p rend="indent">
+          <lb/>When the Stone is in the <hi rend="italic">Forceps</hi>, <lb/>eſpecial care is to be
+          had, not to <lb/>turn it quite round, becauſe if the <lb/>Stone be big or uneven, it will
+            <pb n="191"/>
+          <lb/>much <hi rend="italic">Contuſe</hi> the parts of the Blad- <lb/>der: If the Stone be
+          ſoft, it breaks <lb/>and moulders, and the <hi rend="italic">Forceps</hi> eaſily
+          <lb/>ſhut, but yet one feels as it were a <lb/>heap of Sand, and then the Rings <lb/>are
+          not to be brought wholly to- <lb/>gether, becauſe there would but a <lb/>ſmall matter of
+            <hi rend="italic">Gravel</hi> be drawn <lb/>out, and the parts of the Bladder <lb/>might
+          be hurt. </p>
+        <p rend="indent">
+          <lb/>The <hi rend="italic">Forceps</hi> with what is be- <lb/>twixt the Teeth, muſt be
+          drawn <lb/>out, and this is to be reiterated, <lb/>conducting the <hi rend="italic"
+            >Forceps</hi> upon the <lb/><hi rend="italic">Button</hi>, as often as ſhall be judged
+          <lb/>neceſſary; and then a <hi rend="italic">Tent</hi> or <lb/><hi rend="italic">Pipe</hi>
+          is to be introduced, as ſhall <lb/>be ſhew'd in the following Chap- <lb/>ter. </p>
+        <p rend="indent">
+          <lb/>When the <hi rend="italic">Lithotomiſt</hi> judges the <lb/>Stone to be flat, and of
+          the ſhape <lb/>of an Almond, he may endeavour <lb/>to make one of the Teeth of the <pb
+            n="192"/>
+          <lb/><hi rend="italic">Forceps</hi> ſlide under it, and the o- <lb/>ther above; though
+          commonly the <lb/>Stones are taken ſide-ways, and <lb/>when it is taken hold of, he is to
+          <lb/>turn the <hi rend="italic">Forceps</hi> again, ſo that the <lb/>thickneſs of the
+          Stone may an- <lb/>ſwer to the length of the <hi rend="italic">Inciſion</hi>. </p>
+        <p rend="indent">
+          <lb/>Sometimes a Stone of the ſhape <lb/>of a large Hens Egg, is taken hold <lb/>of by its
+          two ends, which may <lb/>be gueſs'd by the great diſtance <lb/>then is obſerved to be
+          betwixt the <lb/><hi rend="italic">Rings</hi> of the <hi rend="italic">Forceps</hi>, nay
+          one <lb/>may ſee it when the Stone is <lb/>near the Paſſage; and then the <lb/><hi
+            rend="italic">Forceps</hi> muſt be thruſt back into <lb/>the Bladder, and be a little
+          open'd <lb/>that the Stone may lie looſe in 'em, <lb/>and then it will turn without fail,
+          <lb/>and may be held faſt by its thick- <lb/>neſs ſide-ways, and thereby the <lb/>Paſſage
+          will be leſs dilated in <lb/>drawing it out: If the <hi rend="italic">Lithotomiſt</hi>
+          <pb n="193"/>
+          <lb/>can't hold the <hi rend="italic">Forceps</hi> faſt enough <lb/>he may wrap the <hi
+            rend="italic">Rings</hi> in a <lb/>Napkin that his Hands may not <lb/>ſlip. </p>
+        <p rend="indent">
+          <lb/>If the Stone adheres and ſticks <lb/>very cloſe, it is better to delay Ex-
+          <lb/>tracting it for ſome time, becauſe <lb/><hi rend="italic">Suppuration</hi>
+          contributes to the Sepa- <lb/>ration thereof. </p>
+        <p rend="indent">
+          <lb/>When it is exceſſively big, it is <lb/>better to let it alone than to <hi
+            rend="italic">Expoſe</hi>
+          <lb/>the Patient to evident Death, eſ- <lb/>pecially if Age and other Circum- <lb/>ſtances
+          are contrary to the <hi rend="italic">Ope- <lb/>ration</hi>. </p>
+        <p rend="indent">
+          <lb/><hi rend="italic">Fabritius Hildanus</hi>, in his Treatiſe <lb/><hi rend="italic">de
+            Lithotomia Veſicæ</hi>, <hi rend="italic">P. M.</hi> 114 has <lb/>ſome Figures (which he
+          borrow'd <lb/>of <hi rend="italic">Petrus Francus</hi>) of <hi rend="italic">Forceps</hi>
+          that are <lb/>very convenient to break the Stone <lb/>when it is too large to be extract-
+          <lb/>ed; and <hi rend="italic">Beverovicius</hi><unclear>,</unclear> my Country- <lb/>man,
+          adviſes to break a great Stone <pb n="194"/>
+          <lb/>with <hi rend="italic">Forceps</hi>, whoſe Teeth reſem- <lb/>ble the Teeth of a great
+          Saw. <lb/>The foremention'd <hi rend="italic">Hildanus</hi>, when <lb/>he did not break
+          the Stone, made <lb/>uſe of a long Silver <hi rend="italic">Tent</hi> or <hi rend="italic"
+            >Pipe</hi>, <lb/>perforated and open at the end, <lb/>to hinder the Stone from falling
+          on <lb/>the <hi rend="italic">Sphincter</hi>, that ſo the Patient <lb/>might make Water. </p>
+        <p rend="indent">
+          <lb/>When all the Stones have been <lb/>Extracted in an <hi rend="italic">Operation</hi>,
+          it is not <lb/>needful to introduce a <hi rend="italic">Tent</hi> or <hi rend="italic"
+            >Pipe</hi>: <lb/>Nevertheleſs there are ſome <hi rend="italic">Litho- <lb/>tomiſt</hi>,
+          who always uſe them to <lb/>void Clots of congealed Blood. <lb/>I do not uſe them becauſe
+          Blood <lb/>will make its way <hi rend="italic">per Penem</hi>, or <lb/>by the Wound: But a
+            <hi rend="italic">Tent</hi> may <lb/>ſometimes be uſeful, when there <lb/>is an <hi
+            rend="italic">Ulcer</hi> in the Bladder, that <hi rend="italic">In- <lb/>jections</hi>
+          may be the more conveni- <lb/>ently made into it. </p>
+        <pb n="195"/>
+      </div>
+      <div type="chapter">
+        <head rend="space align-center size(1.5)">
+          <lb/>CHAP. XV. </head>
+        <head rend="italic hanging space">
+          <lb/>Of the Difficulties happening in this <lb/><hi rend="roman">Operation</hi>. </head>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">A</hi>N <hi rend="italic">Operation</hi> is call'd hard and
+          <lb/>laborious, when by a skill- <lb/>ful Man it is not perform'd in a <lb/>ſhort time. In
+          ſuch a caſe the Pa- <lb/>tient is not to be held in Pain un- <lb/>til the Stone or all its
+          parts be ex- <lb/>tracted. Sometimes it ſo ſtops the <lb/>Paſſage, that the <hi
+            rend="italic">Conductor</hi> or <hi rend="italic">For- <lb/>ceps</hi> cannot enter
+          without great <lb/>difficulty; and therefore an Ex- <lb/>pert <hi rend="italic"
+            >Lithotomiſt</hi> muſt no ſcruple to <lb/>take out his <hi rend="italic"
+            >Inſtruments</hi>, and with <lb/>the <hi rend="italic">Button</hi> or his <hi
+            rend="italic">Finger</hi> thruſt back <lb/>the Stone into the Bladder; and
+          <lb/>afterwards make uſe of the <hi rend="italic">Button</hi>
+          <pb n="196"/>
+          <lb/>and <hi rend="italic">Forceps</hi> to continue the <hi rend="italic">Opera-
+            <lb/>tion</hi>. </p>
+        <p rend="indent">
+          <lb/>It many times happens, that after <lb/>the Stone hath been laid hold <lb/>of, it
+          eſcapes and mounts up a- <lb/>gain, becauſe the <hi rend="italic">Forceps</hi> give way,
+          <lb/>or the <hi rend="italic">Teeth</hi> are not good, or the <lb/>Stone is monſt'rous in
+          reſpect to <lb/>the Paſſage, or breaks when it is <lb/>held too ſtrait, or becauſe it ſo
+          adheres <lb/>to the Bladder, that it cannot be <lb/>eaſily Extracted. </p>
+        <p rend="indent">
+          <lb/>Theſe Circumſtances are to be <lb/>obſerv'd very exactly, and the <hi rend="italic"
+            >Li- <lb/>thotomiſt</hi> ought not to be more care- <lb/>ful in <hi rend="italic"
+            >Operating</hi>, than in conſider- <lb/>ing the Strength and Age of <lb/>the Patient,
+          with the time that <lb/>he has been under the <hi rend="italic">Operation</hi>,
+          <lb/>keeping him rather too ſhort a <lb/>time than too long, leſt the Pa- <lb/>tient being
+          made to endure too <lb/>much be ſurpriz'd by <hi rend="italic">Death</hi>: <pb/>
+          <pb n="197"/>
+          <lb/>But if, after the <hi rend="italic">Operation</hi> hath been <lb/>methodically
+          carried on, nothing is <lb/>Extracted; becauſe there was no <lb/>Stone in the Bladder, or
+          that the <lb/>Stone is ſmall, or if Fragments re- <lb/>main, he may take the <hi
+            rend="italic">Button</hi>
+          <lb/>with a <hi rend="italic">Scoop</hi>, by the ſmall or middle, <lb/>and introduce the
+            <hi rend="italic">Scoop</hi> or <hi rend="italic">Spoon</hi>
+          <lb/>into the Wound, and ſo endeavour <lb/>to Extract whatever he finds, and <lb/>this
+          having been two or three times <lb/>reiterated, he ought to make uſe <lb/>of a <hi
+            rend="italic">Cannula</hi> proportionable to the <lb/>Subject, and mounted according
+          <lb/>to Art. </p>
+        <figure>
+          <p rend="indent">
+            <lb/>For introducing it, he may make <lb/>uſe of the <hi rend="italic">Button</hi>, put
+            into the <hi rend="italic">In- <lb/>ciſion</hi>, and having dipp'd the end of <lb/>the
+              <hi rend="italic">Cannula</hi>, or <hi rend="italic">Tent</hi>, in <hi rend="italic"
+              >Oyl</hi>, he may <lb/>conduct it along the <hi rend="italic">Button</hi> even to
+            <lb/>the Bladder, <hi rend="italic">in this manner</hi>. </p>
+          <figDesc>An illustration of a lithotomy operation on the previous page. </figDesc>
+        </figure>
+        <pb n="198"/>
+        <p rend="indent">
+          <lb/>The ends of the piece of Lin- <lb/>nen wherewith the Tent is mounted, <lb/>may be
+          ty'd to the <hi rend="italic">Girdle</hi> that is <lb/>made with the <hi rend="italic"
+            >Bandage</hi>, one before, <lb/>and the other behind. Next Day <lb/>or ſome Days after,
+          the <hi rend="italic">Tent</hi> is to <lb/>be taken out, and if there remain <lb/>ſtill
+          ſomewhat in the Bladder, the <lb/><hi rend="italic">Lithotomiſt</hi> muſt endeavour with
+          the <lb/><hi rend="italic">Hamulus</hi> or <hi rend="italic">Hook</hi>, or with the <hi
+            rend="italic">Scoop</hi>
+          <lb/>of the <hi rend="italic">Button</hi>, or with the <hi rend="italic">Forceps</hi>
+          <lb/>conducted by the <hi rend="italic">Button</hi>, to extract <lb/>it while the Patient
+          lies a Bed; or <lb/>otherwiſe, he may be placed upon <lb/>a Servan't Lap, or upon a Table
+          <lb/>as at firſt, yet without uſing of <lb/><hi rend="italic">Ligatures</hi> or <hi
+            rend="italic">Scarfs</hi>, becauſe then the <lb/>Patient being weak, it would put
+          <lb/>him into too great fear. </p>
+        <p rend="indent">
+          <lb/>When the <hi rend="italic">Fragments</hi> are but mo- <lb/>derately big, they may be
+          Extract- <lb/>ed a Bed; the <hi rend="italic">Tent</hi> muſt be left in, <lb/>until the
+            <hi rend="italic">Lithotomiſt</hi> is certain, that <pb n="199"/>
+          <lb/>there is nothing more remaining <lb/>to be Extracted, which may be <lb/>known, if he
+          obſerves what came <lb/>out during the <hi rend="italic">Operation</hi>, or after-
+          <lb/>wards with the <hi rend="italic">Medicines</hi>. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,1874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> LMEMT Corpus - Hermann: Materia Medica</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>Paul Hermann</persName>
+            </author>
+            <title type="main">Materia Medica: Or, A New DESCRIPTION of the Virtues and Effects of
+              all Drugs, or Simple Medicines Now in USE: Where from their Principles, these Virtues
+              both Common and Specifick are shewn, with the Preparations of Each; and Prescriptions:
+              As also Judicious Remarks are every where interspers'd. Done from the Latin Original
+              of Dr. Paul Harman, late Professor of Botany in Leyden. To which is Prefix'd, A
+              General INTRODUCTION, containing a Mechanical Accoutn of the Operations of all
+              Medicines upon HUMAN BODIES. Also Critical Observations are added to each Simple thro'
+              the Whole, wherever it was found Necessary. </title>
+            <edition n="1"/>
+            <idno type="ESTC">T114031</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/T114031"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>London: printed for Charles Rivington at the Bible and Crown in St. Paul's
+                  Church-Yard, MDCCXXVII. </persName>
+              </publisher>
+              <date>1727</date>
+            </imprint>
+            <extent>
+              <measure type="format">8⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="70"/>
+              <measure type="count" commodity="body" unit="page" quantity="328"/>
+              <measure type="count" commodity="back" unit="page" quantity="39"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">British Library</orgName>
+            <idno type="ECCO">CW108154097</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Recipe collections"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text type="book" rend="roman" xml:lang="eng">
+    <gap reason="sampling" unit="pages" quantity="70"/>
+    <body>
+      <pb n="1"/>
+      <figure>
+        <figDesc>An ornamental horizontal column. </figDesc>
+      </figure>
+      <head rend="align-center sc">
+        <lb/><hi rend="italic size(1.5)">MATERIA MEDICA: </hi>
+        <lb/>or, a <lb/><hi rend="size(2.0)">DESCRIPTION </hi>
+        <lb/>of the </head>
+      <head rend="size(1.5) hanging">
+        <lb/><hi rend="sc">Virtues</hi> and <hi rend="sc">Effects</hi> of all <lb/><hi rend="italic"
+          >DRUGS</hi>, and <hi rend="italic">Simple Medi- <lb/>cines</hi>, now in Uſe, <hi
+          rend="italic">&amp;c.</hi>
+      </head>
+      <figure>
+        <figDesc>A horizontal line, spanning the whole page. </figDesc>
+      </figure>
+      <div type="part">
+        <head rend="sc align-center space size(1.25)">
+          <lb/>Part I. </head>
+        <head rend="italic align-center space size(1.25)">
+          <lb/>Of ROOTS. </head>
+        <div>
+          <head rend="align-center space">
+            <lb/>§. 1. Of <hi rend="italic">Acorus</hi>, commonly called <hi rend="italic">Cala-
+              <lb/>mus Aromaticus</hi>, or <hi rend="italic">Sweet Smelling <lb/>Flag</hi>. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(4)">A</hi><hi rend="italic">CORUS</hi> is twofold: The <hi
+              rend="italic">Aco- <lb/>rus</hi> of the Ancients, which is<hi rend="italic"> Cala-
+              <lb/>mus Aromaticus</hi>; and the <hi rend="italic">Officinal <lb/>Acorus</hi>, which
+            is divided into the <lb/>Small and Thick. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> is of an acrid and hot Taſte, and has an <lb/>agreeable
+            Smell. </p>
+          <pb n="2"/>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> contains, as appears by Sublimation, a <lb/>Volatile Salt, an
+            Exalted, or Eſſential Oil, and <lb/>ſome few Fixt Salts. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">From</hi> whence it enjoys the following Vir- <lb/>tues: It is
+            Cephalick, inaſmuch as it evapo- <lb/>rates the Humidities of the Brain, and there-
+            <lb/>by corroborates the Solids; ſo that the relax'd <lb/>Tone is chang'd into a juſt
+            Tenſeneſs, and Diſ- <lb/>orders of this Part, depending on a phlegma- <lb/>tick or moiſt
+            State, are greatly abated, and <lb/>by Continuance may be cur'd. </p>
+          <p rend="indent space">
+            <lb/><hi rend="italic">N. B.</hi>
+            <hi rend="sc">All</hi> Aromaticks, or all Plants, which <lb/>have tetrapetalous Flowers
+            and Husks contain- <lb/>ing very ſmall Seeds, and ſuch is <hi rend="italic">Acorus</hi>,
+            are <lb/>Cephalick. </p>
+          <p rend="indent space">
+            <lb/><hi rend="sc">It</hi> is Diuretick and Diaphoretick; the <lb/><hi rend="italic"
+              >firſt</hi>, Becauſe by its oleous and fixt Particles <lb/>it unites with the Blood;
+            for Oils unite not <lb/>with Water or Serum, without Salts: Now <lb/>volatile Parts
+            endeavouring to ſeparate; if this <lb/>Separation is feebly done, they prove Diure-
+            <lb/>tick; but if 'tis done with Vigor, they prove <lb/>Diaphoretick; for theſe
+            Diſcharges only differ <lb/>in Degree. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> is <hi rend="italic">Alcalious</hi>; becauſe it abſorbs any
+            Acid <lb/>whatever, whether in the Scurvy, or ſlow Fe- <lb/>vers; and by its fixt Salt
+            it is not ſo eaſily <lb/>evaporated out of the Blood <note place="bottom" n="*"
+              rend="size(0.75)">
+              <p rend="indent">
+                <lb/>* <hi rend="italic">N. B.</hi> Volatile Salts ſoon communicate their
+                <lb/>Virtues, and their Effects do ſoon vaniſh: On the <lb/>other Hand, Fixt Salts
+                take their Effect later, but their <lb/>Efficacy laſts longer. </p>
+            </note>. </p>
+          <pb n="3"/>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> is Carminative; inaſmuch as the ſaline <lb/>Parts prick the
+            Bubbles giving Colick Pains, <lb/>and let out the Wind they contain. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> is <hi rend="italic">Stomachick</hi>, and therefore is it
+            alſo <lb/><hi rend="italic">Uterine</hi>, ſince whatever relieves, or prejudices
+            <lb/>the Stomach, is obſerv'd to produce the ſame <lb/>Conſequences upon the Womb; and
+            as the Sto- <lb/>mach is aſſiſted by this Root in Caſe of acid, <lb/>aqueous, or viſcid
+            Contents; the Womb labour- <lb/>ing under Diſorders from Coagulations, from <lb/>watry
+            or phlegmatick Fluxes, or from a re- <lb/>lax'd State of Fibres, muſt be benefited from
+            <lb/>the ſame Particles; tho' more ſlowly, ſince <lb/>Time muſt be allow'd the Medicine
+            to arrive <lb/>at the Womb, by reaſon of its Diſtance from <lb/>the Stomach; and ſince
+            the Medicine's whole <lb/>Force is exerted upon the Contents and Fibres <lb/>of the
+            Stomach, but when blended with the <lb/>Blood, it is in great Meaſure blunted, and di-
+            <lb/>vided into many Parts, ſome of which only <lb/>reach the Womb. And as a certain
+            Degree <lb/>of Conſiſtence, Acrimony, and Fulneſs do con- <lb/>tribute to promote the
+              <hi rend="italic">Menſtrua</hi>, wherever their <lb/>Diſappearance ariſes from a
+            Viſcoſity of the <lb/>Juices, this Root is given with Succeſs. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> is good in Dropſical Conſtitutions, as it <lb/>agitates and
+            incides the Fluids, and twinges <lb/>the excretory Ducts of the Glands of the Skin
+            <lb/>and Kidneys, and renders their Secretions more <lb/>plentiful. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> is <hi rend="italic">Cephalick</hi>, becauſe it is fragrant:
+            This <lb/>Scent depending upon volatile oily Salts; they <lb/>penetrate deep, and into
+            the moſt diſtant Re- <lb/>ceſſes of the Fibres, and there diſſolve ſtag- <lb/>nating
+            Humors, which raiſe Pains, and a <lb/>Train of Chronical Diſtempers in the Head: <pb
+              n="4"/>
+            <lb/>This Root is cordial to the Body, becauſe it <lb/>ſupplies Spirits. </p>
+          <p rend="indent space">
+            <lb/><hi rend="italic">N. B.</hi>
+            <hi rend="sc">Plants</hi>, which bear Catkins, have <lb/>always volatile Parts in them,
+            which are un- <lb/>der a State of Avolation, and which, there- <lb/>fore, are fit ſoon
+            to extricate their Virtues, and <lb/>imbibe immediately Humidities any where. </p>
+          <p rend="indent space">
+            <lb/><hi rend="sc">Its</hi> Doſe muſt not exceed a Dram: It is <lb/>beſt us'd in
+            Infuſion, or Tincture, with Spirit <lb/>of Wine; for in Powder, Electuary, Trochiſes,
+            <lb/>or Decoction, its volatile Parts, in which are <lb/>lodg'd its chief Virtues, fly
+            off. Its Chymical <lb/>Oil is ſometimes given to three or four Drops <lb/>in Colicks;
+            for Example, Take Oil of Calamus <lb/>aromaticus 3 Drops, Sugar Candy half a Dram,
+            <lb/>mix, and make a Powder. It is ſometimes alſo <lb/>us'd in Candy for the ſame
+            Purpoſe. </p>
+        </div>
+        <div>
+          <head rend="align-center space">
+            <lb/>§. 2. <hi rend="italic">Alcanna</hi>, <hi rend="italic">Anchuſa</hi>, <hi
+              rend="italic">Alkanet</hi>, or <lb/><hi rend="italic">Orkanet</hi>. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">I</hi>T is of an aſtringent, or binding Taſte: <lb/>It conſiſts of
+            terreſtrial, or earthy, and <lb/>groſs Particles. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Wherever</hi> there is an Occaſion for a re- <lb/>ſtringent Quality,
+            and where Seroſities prevail, <lb/>it is reputed a ſpecifick Drug: Becauſe by its
+            <lb/>earthy Particles it incraſſates the Serum, and <lb/>retards its Motion, and abſorbs
+            it; and there- <lb/>fore it cools the Blood; for as that depends <lb/>on Motion, the
+            Slackening of Motion abates <lb/>the Heat; and the Coldneſs wherewith we are <pb n="5"/>
+            <lb/>affected is proportional to the Slowneſs of this <lb/>Motion. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Hence</hi> is it us'd in all Fluxes of Blood or <lb/>Humors, and it
+            both incraſſates them, and <lb/>contracts the Fibres. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">As</hi> it exerts its Force, and communicates its <lb/>reſtringent
+            Virtue, either in Powder or Decoc- <lb/>tion; therefore is it us'd in either. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">If</hi> the genital Parts exceed in their Di- <lb/>menſions, and
+            thereby become unfit to retain <lb/>the <hi rend="italic">Semen</hi>, from whence enſues
+            Barrenneſs, the <lb/>Decoction is to be ſo warily us'd, as not to <lb/>ſuppreſs the <hi
+              rend="italic">Menſtrua</hi>. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Its</hi>
+            <hi rend="italic">Generical Mark</hi> is, that it has monope- <lb/>talous Flowers. </p>
+        </div>
+        <div>
+          <head rend="align-center space">
+            <lb/>§. 3. <hi rend="italic">Allium</hi>, <hi rend="italic">Garlick</hi>. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">I</hi>T conſiſts of a ſulphureous volatile Salt: It is <lb/>call'd
+              <hi rend="italic">Theriaca Ruſticorum</hi>, or the <hi rend="italic">Clown's
+              <lb/>Treacle</hi>: Its Uſe is nearly aboliſh'd, becauſe <lb/>it ſmells ſo rank; and it
+            occaſions great Thirſt. <lb/>It is an excellent Remedy againſt Worms and <lb/>Dropſy.
+              <hi rend="italic">Celſus</hi> gave it to Dyſenterical Perſons <lb/>with Succeſs.
+            Roaſted under the Embers it <lb/>avails in Tingling Ears, if thruſt into the Paſ-
+            <lb/>ſage of the Ear, and even cures a beginning <lb/>Deafneſs, as I have often
+            experienc'd. If <lb/>taken upon an empty Stomach, it is an ex- <lb/>cellent Stomachick,
+            and attenuates all viſcous <lb/>Phlegm. I have often us'd it outwardly in <lb/>Worms,
+            but it always acted as a Bliſter; how- <lb/>ever it is moſt efficacious in a Suppreſſion
+            of <lb/>Urine apply'd to the Os pubis and Perinæum, <lb/>if apply'd in the following
+            Manner. </p>
+          <pb n="6"/>
+          <p rend="hanging italic space">
+            <lb/>TAKE Three Heads of Garlick, Bay-Berries <lb/>one Ounce, Juniper-Berries half an
+            Ounce, <lb/>beat them in a Mortar, add Barley-Flower <lb/>one Handful, boil them all in
+            Wine to the <lb/>Conſiſtence of a Poultis, and apply it warm. </p>
+          <p rend="indent space">
+            <lb/><hi rend="sc">And</hi> in a Colick, if it be apply'd with Cha- <lb/>momile, it
+            proves ſucceſsful. </p>
+        </div>
+        <div>
+          <head rend="align-center space">
+            <lb/>§. 4. <hi rend="italic">Althæa</hi>, <hi rend="italic">Marſh Mallows</hi>. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">I</hi>T is of a ſlimy, viſcid, ſmooth Taſte. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Wherefore</hi> it conſiſts of watry, oily, <lb/>viſcous Particles;
+            and as it contains few volatile <lb/>Parts, therefore it is not to be diſtill'd. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> is Emollient, and Anodyne: It ſoftens <lb/>the Salts that
+            harden Wounds, and prick them <lb/>into Pains: It obtunds, and envelopes the acri-
+            <lb/>monious Salts, which occaſion Conſumptions, <lb/>Ulcers of the Kidneys or Bladder:
+            It glibs <lb/>the Paſſages in a Fit of the Stone, and thus eaſes <lb/>the Anguiſhes of
+            theſe Diſeaſes. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Its</hi> Preparations are Ointment of Marſh- <lb/>Mallows and a
+            Syrup. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">If</hi> we have Reaſon to fear that its Mucilage <lb/>will raiſe
+            Colick Pains in the Bowels, and yet <lb/>its Uſe is found neceſſary, we muſt blend it
+            <lb/>with ſome Aromaticks, as Cinnamon, or the <lb/>like, that the Mucus may be
+            attenuated. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Its</hi>
+            <hi rend="italic">Generical Mark</hi> is, that it has ſemilunar <lb/>Seeds, like half a
+            Cheeſe; and all Plants, having <lb/>ſuch Seeds, are obſerv'd to be Emollient. </p>
+          <pb n="7"/>
+        </div>
+        <div>
+          <head rend="align-center space">
+            <lb/>§. 5. <hi rend="italic">Angelica</hi>. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">I</hi>T is of an acrid, and gently-bitteriſh Taſte, <lb/>and of a
+            fragrant, aromatick Smell. That <lb/>Root which is moſt reſinous is the beſt. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> conſiſts of volatile Salts and Oil: It is <lb/>reckon'd a
+            Specifick againſt Acidities, becauſe <lb/>by its Oil it envelopes them, and by its Salts
+            <lb/>it cauſes a Tenuity of the Fluids, from whence <lb/>it promotes the Circulation.
+            Hence it avails <lb/>in all Contagions, in Diſeaſes of the Womb ari- <lb/>ſing from
+            Acidities of the Blood, as alſo in <lb/>Diſtempers of the Head and Nerves ſpringing
+            <lb/>from the ſame Origin: Firſt, becauſe it vola- <lb/>tiliſes the Acid in the
+            vertebral and caro- <lb/>tid Arteries, which water the Head, and <lb/>drives them forth
+            by Sweat or Urine: Then, <lb/>becauſe of its oleoſe Particles, it defends the
+            <lb/>Nerves from being lacerated, twitch'd, or <lb/>prick'd by Acids. </p>
+          <p rend="indent space">
+            <lb/>
+            <note place="bottom" rend="size(0.75)" n="*">
+              <p rend="indent">
+                <lb/>* <hi rend="italic">N. B.</hi> Dr. <hi rend="italic">Grew</hi> obſerves, that
+                all umbelliferous <lb/>Plants afford a Milk, which gather'd proves a Balſam,
+                <lb/>and appears to be a Gum, conſiſting of Oil, Acid and <lb/>volatile Salt. </p>
+            </note>
+            <hi rend="italic">N. B.</hi>
+            <hi rend="sc">It</hi> belongs to the umbelliferous <lb/>Kind of Plants, and therefore
+            like them, it <lb/>opens, attenuates, incides, is Diuretick and <lb/>Carminative. </p>
+          <p rend="indent space">
+            <lb/><hi rend="sc">Beware</hi> how you give this Root to Per- <lb/>ſons that are
+            emaciated, hectical, conſumptive, <lb/>lean, or afflicted with Colicks taking their Riſe
+            <lb/>from harden'd Excrements; for its moveable <pb n="8"/>
+            <lb/>and volatile Parts warm, and overheat the <lb/>Blood, and increaſe the Symptoms. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> is us'd in Subſtance or Infuſion, but not <lb/>in Decoction;
+            ſince its volatile Parts fly away. <lb/>Its Doſe is from a Scruple to a Dram in
+            <lb/>Powder; in Infuſion two Drams at moſt at a <lb/>Time in four Ounces of Liquor. Its
+            Extract <lb/>is prepar'd with Spirit of Wine, and add Oil <lb/>of Angelica what will
+            ſuffice, to make an Eſ- <lb/>ſenc'd Extract for Uſe in the aforeſaid Caſes. </p>
+        </div>
+        <div>
+          <head rend="align-center space">
+            <lb/>§. 6. <hi rend="italic">Apium</hi>, <hi rend="italic">Parſley</hi>. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">I</hi>T is of a ſubacrid and grateful Taſte, and <lb/>of a Smell
+            gently fragrant. </p>
+          <p rend="indent space">
+            <lb/><hi rend="italic">N. B.</hi> The greateſt Virtue is in its Tops. </p>
+          <p rend="indent space">
+            <lb/><hi rend="sc">It</hi> conſiſts of ſharp fixt ſaline Particles; <lb/>but has few
+            volatile oily Ones, as appears by <lb/>Diſtillation, or Chymical <hi rend="italic"
+              >Analyſis</hi>. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> is Diuretick, becauſe it ſets the Blood <lb/>into Motion by
+            its volatile Parts; and by its <lb/>plentiful fixt Salts, it twinges the ſecretory
+            <lb/>Ducts of the Kidneys, and ſerves as a <note n="*" place="bottom" rend="size(0.75)">
+              <p rend="indent">
+                <lb/>* <hi rend="italic">N. B.</hi> Dr. <hi rend="italic">Grew</hi> ſeems to think,
+                that the Salts <lb/>of ſome Plants require longer Time than others to ex-
+                <lb/>tricate themſelves from their Adjuncts; which, when <lb/>they have done, they
+                then fix <hi rend="italic">laſtingly</hi> upon that Spot, <lb/>and produce their
+                Effects ſuitable to their ſpecifick Na- <lb/>ture; ſure it is, that we find ſome
+                Foundation for this <lb/>in Practice, and in the Taſting of Plants it plainly ap-
+                <lb/>pears. </p>
+            </note> laſting <lb/>Stimulus there, to invite a copious Secretion; <lb/>which are two
+            Things requir'd in promoting <lb/>Urine. </p>
+          <pb n="9"/>
+          <p rend="indent">
+            <lb/><hi rend="sc">Where</hi> there is Danger of fuſing the Fluids <lb/>too much, and
+            raiſing Commotions thereby, we <lb/>muſt avoid its Uſe; and therefore in the Epi-
+            <lb/>lepſies of Children it muſt be forborn. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">We</hi> uſe it in Decoction, becauſe it readily <lb/>gives out its
+            Salts; but Infuſion does not ſo <lb/>well extract them; which ſhews us, that its
+            <lb/>Salts are not eaſily extricated; we uſe it not <lb/>in Powder, becauſe it would be
+            too bulky, its <lb/>active Parts being too few with Regard to its <lb/>paſſive. </p>
+          <p rend="indent space">
+            <lb/><hi rend="italic">N. B.</hi> Diureticks in a large Quantity prove
+            <lb/>Diaphoretick; becauſe then they agitate the <lb/>Blood too furiouſly, and rather
+            towards the <lb/>Circumference than the Kidneys, and therefore <lb/>the Serum is driven
+            out by Sweat. </p>
+          <p rend="indent space">
+            <lb/><hi rend="sc">Its</hi>
+            <hi rend="italic">Generical Mark</hi> is, that it is a Plant <lb/>having pentapetalous
+            Flowers and two Seeds <lb/>join'd together; and is umbelliferous, and there- <lb/>fore
+            agrees with ſuch in their inciding, atte- <lb/>nuating, opening, carminative, and
+            diuretick <lb/>Qualities. </p>
+        </div>
+        <div>
+          <head rend="align-center space">
+            <lb/>§. 7. <hi rend="italic">Arum</hi>, <hi rend="italic">Wake Robin</hi>. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">I</hi>T is of a moſt hot, warm, biting, acrimo- <lb/>nious Taſte,
+            but has no Smell. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Wherefore</hi> it conſiſts of very pungent, <lb/>rigid, and nearly
+            cauſtick <note rend="size(0.75)" place="bottom" n="*">
+              <p rend="indent">
+                <lb/>* <hi rend="italic">N. B.</hi> A plain Inſtance of its volatile Salts is,
+                <lb/>that the <hi rend="italic">Pulvis Ari Compoſitus</hi>, when kept any Time,
+                <lb/>loſes its Pungency and Virtue. </p>
+            </note> volatile Salts; and <pb n="10"/>
+            <lb/>therefore it attenuates by inſinuating its vola- <lb/>tile Parts into the Blood, by
+            lifting up and <lb/>
+            <note n="*" rend="size(0.75)" place="bottom">
+              <p rend="indent">
+                <lb/>* <hi rend="italic">N. B.</hi> Great Regard is to be had to the Degree <lb/>of
+                Motion in the Juices; for if we give attenuating <lb/>Remedies to Exceſs, they throw
+                off too many of the <lb/>watry Parts, and leave the Maſs groſs and thick: An
+                <lb/>eaſy Experiment ſhews us the Truth of this Advance, <lb/>for <hi rend="italic"
+                  >Serum</hi> in a Spoon, plac'd over a Candle or Fire, <lb/>ſoon grows thick and
+                rheumatick, by a bare Evapora- <lb/>tion of the neceſſary Quantity of Water which
+                kept it <lb/>fluid. Perhaps, this is the Caſe in a diſmal, becauſe <lb/>moſtly a
+                fatal Fever, where there is an <hi rend="italic">Ardor</hi> all over <lb/>the Body,
+                and yet where there is a ſmall and weak <lb/><hi rend="italic">Pulſe</hi>; the
+                Smalneſs of the Pulſe depending upon a <lb/>Want of Animal Spirits, which are too
+                ſcantily ſup- <lb/>ply'd from ſuch a viſcid State; and the exceſſive Heat <lb/>and
+                Burning, on the acrimonious Parts lodg'd in the <lb/>viſcid, and buried in it. </p>
+            </note> moving the Maſs of Juices; it corrects Viſ- <lb/>cidities, ſeparates them into
+            minute Parts, and <lb/>thins and incides groſs and viſcid Particles, <lb/>which adhere
+            to the Stomach and Lungs; for <lb/>when Particles are attenuated, the fixt, pun-
+            <lb/>gent, and acute Salts, by their hexagonal, or <lb/>angular Figures, incide, and
+            Solution accom- <lb/>panies Inciſion. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> moves Urine powerfully in a State of <lb/>Blood, where the
+            Maſs is too ſtrictly united. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Its</hi> Powder is accounted vulnerary, where <lb/>there is a putrid
+            Mucilage reſting in the <lb/>Wound; otherwiſe it is too ſharp. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Its</hi>
+            <hi rend="italic">Generical Mark</hi> is, that it is a Baccife- <lb/>rous Plant. </p>
+        </div>
+        <pb n="11"/>
+        <div>
+          <head rend="align-center space">
+            <lb/>§. 8. <hi rend="italic">Ariſtolochia longa</hi>, <hi rend="italic">Long Birth-
+              <lb/>wort</hi>. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">I</hi>T is of a ſubacrid, bitteriſh Taſte, but <lb/>has little
+            Smell, only it is ſomewhat in- <lb/>offenſive. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Wherefore</hi> it conſiſts of fixt Salts moſtly, <lb/>and ſome few
+            volatile Ones. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> enjoys nearly the ſame Virtues as Roots <lb/>conſiſting of
+            volatile Salts, for it volatiliſes, or <lb/>however diſſolves grumous and congeal'd
+            Blood, <lb/>occaſion'd from acid Salts in the Maſs; and as <lb/>it imbibes into its
+            Pores theſe tart and ſour <lb/>Humors, it therefore is uſ'd by Surgeons in <lb/>Powder
+            upon carious Bones to ſuck up thoſe <lb/>Acidities lodg'd in that <hi rend="italic"
+              >Sanies</hi>. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> is <hi rend="italic">Thoracick</hi>, and a Preſervative
+            againſt <lb/>Conſumptions; becauſe after the manner of vo- <lb/>latile Salts, it
+            incides, and corrects ſuch acri- <lb/>monious Acids, as are apt to degenerate into
+            <lb/>Ulcers <note rend="size(0.75)" place="bottom" n="*">
+              <p rend="indent">
+                <lb/>* <hi rend="italic">N. B.</hi> Ulcers are moſtly generated from cor-
+                <lb/>roding Acids lurking in the Maſs of Blood, and <lb/>which corrode the Sulphurs
+                of it into Matter, which <lb/>never return to Blood again. Of this Solution of
+                <lb/>the Blood, it wou'd be eaſy to produce many Inſtan- <lb/>ces, and to
+                demonſtrate it by Experiments, but I am <lb/>not now at Leiſure to ſhew how Matter
+                may be made <lb/>in a Moment of Time; I ſay moſtly, becauſe it is <lb/>evident from
+                Cantharides, that Ulcers may be occa- <lb/>ſion'd from acrimonious Salts of an
+                alcaline Na- <lb/>ture; ſince its Salt by Sublimation is ſo pungent and <lb/>fierce
+                as to bliſter the Tongue. </p>
+            </note>. </p>
+          <pb n="12"/>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> is reckon'd an <hi rend="italic">Uterine</hi>, both upon Ac-
+            <lb/>count of its fixt and few volatile Salts; where- <lb/>fore is it us'd as an
+            Alterative to reduce the <lb/>Maſs of Blood to a proper State, and to re- <lb/>open the
+            obſtructed Menſtrual Flux, and even <lb/>to expel the dead Infant from the Womb,
+            <lb/>where lodging longer than it ought, it pro- <lb/>duces Fevers of a dangerous Kind. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> is given in Subſtance to a Dram at moſt; <lb/>and in
+            Decoction to two Ounces at a Time. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Its</hi>
+            <hi rend="italic">Generical Mark</hi> is, that it is <hi rend="italic">hexacap-
+              <lb/>ſular</hi>. </p>
+        </div>
+        <div>
+          <head rend="align-center space">
+            <lb/>§. 9. <hi rend="italic">Ariſtolochia rotunda</hi>, <hi rend="italic">Round Birth-
+              <lb/>wort</hi>, </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">I</hi>S more bitter, acrid, and more ſtinking <lb/>than the Long
+            Birthwort. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Wherefore</hi> it conſiſts of a greater Quan- <lb/>tity of fixt
+            Salts, as alſo of more volatile Salts <lb/>and Oils; to prove which, the Root keeps not
+            <lb/>long without loſing its Virtue. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> is reputed good in Heart-burnings, and <lb/>in eroding Humors
+            lodging in the Bowels, <lb/>and introducing Colical Pains; becauſe it ſpe-
+            <lb/>cifically corrects Acidities by its porous Sub- <lb/>ſtance, and its fixt and
+            volatile Salts. </p>
+        </div>
+        <div>
+          <head rend="align-center space">
+            <lb/>§. 10. <hi rend="italic">Ariſtolochia Clematis</hi>, <hi rend="italic">Saracen
+              <lb/>Birthwort</hi>. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">T</hi>HIS Root is yet more bitter, more <lb/>acrid, and more
+            ſmelling, than either of <lb/>the foregoing. Wherefore are its Salts, both <pb n="13"/>
+            <lb/>fixt and volatile, more copious and ſtronger, <lb/>than theirs. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Its</hi> Root then is more efficacious than the <lb/>former; but if
+            it be not freſh, its Virtues are <lb/>much abated. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> is reckon'd a Specifick againſt the Scab, <lb/>inaſmuch as it
+            corrects thoſe ſharp and aculeated <lb/>Salts, which introduce it. </p>
+        </div>
+        <div>
+          <head rend="align-center space">
+            <lb/>§. 11. <hi rend="italic">Ariſtolochia Fabacea</hi>, or <hi rend="italic">Bean-
+              <lb/>Birthwort</hi>. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">I</hi><hi rend="sc">t</hi> is bitteriſh, but of no Smell: It
+            conſiſts <lb/>of fixt Salts, whence it incides, and has <lb/>the Virtues of <hi
+              rend="italic">Long Birthwort</hi>. Its Powder <lb/>ſprinkled on Wounds abſorbs the
+            Humidities <lb/>in Ulcers, and is us'd with Succeſs in carious <lb/>Bones. It is us'd in
+            Powder, Decoction, and <lb/>Infuſion. </p>
+        </div>
+        <div>
+          <head rend="align-center space">
+            <lb/>§. 12. <hi rend="italic">Aſarum, Aſarabecca</hi>, </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">I</hi>S of an acrid, pungent, <note n="*" rend="size(0.75)"
+              place="bottom">
+              <p rend="indent">
+                <lb/>* <hi rend="italic">N. B.</hi> Dr. <hi rend="italic">Grew</hi> calls ſuch
+                Taſtes malignant; <lb/>and whereſoever Taſtes become nauſeous, it happens <lb/>from
+                the Parts ſtriking the Senſe of the Palat and Sto- <lb/>mach diſagreeably; we never
+                wonder at great Sounds <lb/>ſtunning our Ears, or too much Light blinding our
+                <lb/>Eyes for a While; for whatever ſtrikes our Organs <lb/>too forcibly, and
+                vibrates the Fibres too quickly, be- <lb/>comes diſagreeable to them: What,
+                therefore, ſtrikes <lb/>upon the Coats of the Palat and Stomach, becomes
+                <lb/>diſagreeable to them, and is intitled <hi rend="italic">Nauſeous</hi>. </p>
+            </note> nauſeous Taſte, <lb/>and ſomewhat ſtyptick, and of an ungrate- <lb/>ful
+            Spikenard Smell. </p>
+          <pb n="14"/>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> conſiſts of fixt and volatile Salts, and <lb/>ſome viſcous
+            Parts. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> is Cathartick and Emetick, becauſe the <lb/>offenſive
+            Particles vellicate the upper and lower <lb/>Parts of the Stomach too forcibly. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> is reckon'd <note n="*" rend="size(0.75)" place="bottom">
+              <p rend="indent">
+                <lb/>* <hi rend="italic">N. B.</hi> In theſe Caſes it is better us'd in Decoc-
+                <lb/>tion; becauſe then it loſes its Emetick Force, as <hi rend="italic">Boh-
+                  <lb/>mius</hi> well obſerves in his <hi rend="italic">Offic. Medic.</hi> p. 474.
+                and be- <lb/>comes Diaphoretick; which more evidently ſhews, <lb/>that its being
+                nauſeous is a Conſequence of too many <lb/>volatile Parts entangled with ſome groſs
+                Ones, which <lb/>irritate irregularly. </p>
+            </note> uterine, ſudorifick, diure- <lb/>tick, and an Opener of the Obſtructions of the
+            <lb/>Menſtrua, and a Diſſolver of all Coagulations; <lb/>it is us'd in Quartans as a
+            Specifick, and is <lb/>good in a ſcorbutick Jaundice. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Its</hi> Preparations are, 1. <hi rend="italic">Diaſarum
+              Fernelii</hi>, <lb/>whoſe Doſe is from half a Scruple to a Scruple. <lb/>2. <hi
+              rend="italic">Coagulum Aſari</hi>, made with Spirits of Wine. <lb/>3. Its <hi
+              rend="italic">Extract</hi>, which is its beſt Preparation, <lb/>and is us'd
+            ſucceſsfully in Quartans, Tertians, <lb/>and ſcorbutick Jaundices. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Its</hi> Doſe is from a Scruple to two Drams. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Its</hi>
+            <hi rend="italic">Generical Mark</hi> is to be tricapſular. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> is corrected with Acids, as Salt-petre, <lb/>and with oily
+            Drugs, ſuch as Nutmeg, or <lb/>Mace; for Oils obtund its Salts: But Salts, <lb/>whether
+            fixt or volatile, encreaſe its ſtimula- <lb/>ting Faculty. </p>
+          <p rend="indent">
+            <lb/>Nine Leaves of Aſarabecca, bruis'd and in- <lb/>fus'd in white Wine, three Ounces,
+            expreſs the <lb/>Juice. Let it be given in a Morning in a <lb/>Jaundice. </p>
+          <pb n="15"/>
+          <p rend="hanging italic">
+            <lb/>TAKE Leaves of Aſarabecca (freſh) three <lb/>Drams, bruiſe them, and expreſs the
+            Juice, <lb/>two Ounces and an half of Decoction of <lb/>Rhadiſhes, expreſs, and mix with
+            Syrup of <lb/>Agarick one Ounce; make a Draught which <lb/>will vomit extremely; and
+            this <hi rend="roman">Diemer- <lb/>broeck</hi> us'd much. </p>
+        </div>
+        <div>
+          <head rend="align-center space">
+            <lb/>§. 13. <hi rend="italic">Aſparagus</hi>, <hi rend="italic">Sparrow-Graſs</hi>. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">I</hi>T is of a gently ſubacrid and gratefully ſweet <lb/>Taſte,
+            but has no Smell. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> conſiſts of a gentle <note n="*" place="bottom"
+              rend="size(0.75)">
+              <p rend="indent">
+                <lb/>* <hi rend="italic">N. B.</hi> Salts in Plants cannot be properly term'd
+                  <lb/><hi rend="italic">fixt</hi>, for by ſuch are underſtood <hi rend="italic"
+                  >Lixivial Salts</hi>, or <lb/>ſuch as have ſuffer'd the Fire; however they may be
+                <lb/>call'd <hi rend="italic">Alcaliſate</hi>, inaſmuch as they have really the Vir-
+                <lb/>tues of fixt Salts. </p>
+            </note> fixt Salt, which by <lb/>an eaſy and further Digeſtion in the Blood <lb/>becomes
+            volatile; and hence it is Diuretick, <lb/>becauſe by this fixt Salt it fuſes the Blood,
+            <lb/>and irritates the Kidney-Glands, and Ducts, <lb/>and encreaſes the Secretion; and
+            gives the Wa- <lb/>ter a ſtinking Smell and a muddy Conſiſtence, <lb/>ſomewhat analogous
+            to <note n="†" place="bottom" rend="size(0.75)">
+              <p rend="indent">
+                <lb/>† <hi rend="italic">N. B.</hi> There is, no Doubt, ſome Turpentine in <lb/>this
+                Root, as there is in the Heads, both which give <lb/>this <hi rend="italic"
+                  >Factor</hi> to the Urine. </p>
+            </note> Turpentines, giving <lb/>a Flavor. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> is us'd in making Syrup of the five <lb/>opening Roots, and
+            in Decoctions, but not in <lb/>Infuſion; becauſe its Salt is not extracted <lb/>by it. </p>
+          <pb n="16"/>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> is Emmanagogue, becauſe if they are ob- <lb/>ſtructed from
+            viſcous Particles in the Maſs of <lb/>Blood, as appears by a white Sediment ſticking
+            <lb/>to the Chamber-pot, they attenuate, and re- <lb/>open the Paſſages. </p>
+          <p rend="indent">
+            <lb/>Its <hi rend="italic">Generical</hi> Mark is, that it is bacciferous. </p>
+        </div>
+        <div>
+          <head rend="align-center space">
+            <lb/>§. 14. <hi rend="italic">Bardana</hi>, <hi rend="italic">Burdock</hi>. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">I</hi>T is of a gently bitteriſh, ſweetiſh, ſubacrid <lb/>Taſte;
+            but of no Smell. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi>, therefore, conſiſts of gentle fixt Salts, <lb/>and ſome few
+            volatile alſo, as alſo of ſome <lb/>oleous Particles. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Its</hi> Virtues are to be Diaphoretick and Diu- <lb/>retick from the
+            Salts it contains; and it is ano- <lb/>dyne in the <note n="*" place="bottom"
+              rend="size(0.75)">
+              <p rend="indent">
+                <lb/>* <hi rend="italic">N. B.</hi> I knew One, who labour'd greatly under
+                <lb/>Venereal Pains, of which he was reliev'd with a <lb/>Decoction of this Root,
+                when good Remedies had <lb/>fail'd. </p>
+            </note> Venereal Diſeaſe, becauſe it con- <lb/>tains Oils: For this Reaſon it is, we
+            give it <lb/>in the Leproſy; Firſt, becauſe by its Salts it <lb/>volatiliſes the acid
+            Salts in that Diſeaſe, and <lb/>then by its oily Parts it relieves the Itching <lb/>ſo
+            common in the ſame: It is upon theſe Ac- <lb/>counts alſo us'd in Gouts as a Specifick,
+            by ea- <lb/>ſing their Pain, and attenuating their Juices. <lb/>For its oily Parts, it
+            is look'd upon as Nu- <lb/>tritive alſo. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Its</hi>
+            <hi rend="italic">Generical</hi> Mark is, that it is a <note n="†" place="bottom"
+              rend="size(0.75)">
+              <p rend="indent">
+                <lb/>† <hi rend="italic">N. B.</hi>
+                <hi rend="italic">Capitated Plants</hi> are Cabbage, Colly- <lb/>flowers, Burdock,
+                and ſuch as grow with Heads upon <lb/>them. </p>
+            </note>
+            <hi rend="italic">Capi- <lb/>tated</hi> Plant; and all ſuch are Diaphoretick and
+            <lb/>Diuretick. </p>
+        </div>
+        <pb n="17"/>
+        <div>
+          <head rend="align-center space">
+            <lb/>§. 15. <hi rend="italic">Beta</hi>, <hi rend="italic">Beets</hi>. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">T</hi>HIS Root is call'd <hi rend="italic">The Smith's
+            Dinner</hi>: <lb/>It is us'd in Decoctions and Glyſters to <lb/>looſen the Belly; for it
+            abounds with watry <lb/>and nitrous Particles; upon which Account it <lb/>ſoftens the
+            Excrements, and irritates the In- <lb/>teſtines to throw out their Contents, and there-
+            <lb/>fore anſwers all Ends. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">The</hi> Juice of Beets brings a Mucus out of <lb/>the Noſtrils; and
+            therefore ſome uſe it as a <lb/>Sternutatory in Apoplexies. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">According</hi> to <hi rend="italic">Hoffman</hi>, Beets are hot,
+            <lb/>becauſe it contains a great Deal of Nitre <note place="bottom" rend="size(0.75)"
+              n="*">
+              <p rend="indent">
+                <lb/>* <hi rend="italic">N. B.</hi> Therefore it is cooling, for Nitre is the
+                <lb/>cooleſt of Salts. </p>
+            </note>; <lb/>and therefore it deterges. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Its</hi> Root is ſhap'd, and us'd as a Suppoſi- <lb/>tory for
+            provoking to Stool. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">They</hi> are us'd in Decoction to waſh off <lb/>the Filth and Scurff
+            ſticking to the Head, and <lb/>they may be us'd to keep Iſſues open, as I <lb/>often
+            order them. </p>
+        </div>
+        <div>
+          <head rend="align-center space">
+            <lb/>§. 16. <hi rend="italic">Biſtorta</hi>, <hi rend="italic">Biſtort</hi>. <hi
+              rend="italic">Serpentaria</hi>, <lb/><hi rend="italic">Snake-weed</hi>. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">I</hi>S of an aſtringent Taſte, (drawing the <lb/>Tongue
+            together.) </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi>, therefore, conſiſts of <note n="†" place="bottom"
+              rend="size(0.75)">
+              <p rend="indent">
+                <lb/>† <hi rend="italic">N. B.</hi> Earth alone gives no Taſte; but if any
+                <lb/>Degree of Acidity be join'd to this Earth, then an <pb n="19" type="footnote"/>
+                <lb/>aſtringent Taſte enſues, which purſes up the Mouth <lb/>in Proportion to the
+                Earth and Acid join'd: And in <lb/>Fact, this Mode of Taſte is never produc'd
+                without <lb/>ſome Quantity of Acid join'd to the Earth, as ap- <lb/>pears by
+                Analyſis and Compoſition alſo. For diſtil <lb/>theſe earthy or aſtringent Medicines,
+                and you meet <lb/>with an acid Spirit in Plenty, a very little ſtink- <lb/>ing Oil,
+                and a pretty Deal of Terra damnata at Bot- <lb/>tom of the Retort: So far for <hi
+                  rend="italic">Analyſis</hi>; and for <hi rend="italic">Syn- <lb/>theſis</hi>, 'tis
+                very eaſy to compound theſe Taſtes by pour- <lb/>ing any Acids to a dry Earth. </p>
+            </note> terreſtrial, or <lb/>earthy Particles. </p>
+          <pb n="18"/>
+          <p rend="indent">
+            <lb/><hi rend="sc">Its</hi> Virtues are to abſorb Humidities, to <lb/>incraſſate the
+            Humors, to retard the Motion <lb/>of the Blood; and upon theſe Accounts it <lb/>is
+            reputed cooling alſo: From hence, where- <lb/>ſoever Reſt is requir'd, as in Fevers,
+            Dyſen- <lb/>teries, and Hæmorhages, it is a convenient Re- <lb/>medy. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Its</hi> Powder appeaſes Vomiting. It is us'd <lb/>with tormentil
+            Root in Decoction to three <lb/>Ounces for one Doſe. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Its</hi>
+            <hi rend="italic">Generical Mark</hi>; It is a pentapetalous <lb/>Plant. </p>
+        </div>
+        <div>
+          <head rend="align-center space">
+            <lb/>§. 17. <hi rend="italic">Bryonia alba</hi>, <hi rend="italic">White Bryony</hi>. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">I</hi>S of an acrid, bitteriſh, nauſeous, and viſ- <lb/>cous
+            Taſte, but has no Smell. </p>
+          <p rend="indent space">
+            <lb/><hi rend="italic">N. B.</hi>
+            <hi rend="sc">Bryony</hi> is an Engliſh Mechoacan, <lb/>and Mechoacan an American
+            Bryony. </p>
+          <p rend="indent space">
+            <lb/><hi rend="sc">It</hi> conſiſts of volatile and fixt Salts, enve- <lb/>loped in ſome
+            nauſeous Ones. </p>
+          <pb n="19"/>
+          <p rend="indent">
+            <lb/><hi rend="sc">Wherefore</hi> it purges, altho' but ſlowly: <lb/>It purges <note
+              n="*" place="bottom" rend="size(0.75)">
+              <p rend="indent">
+                <lb/>* <hi rend="italic">N. B.</hi> To contain Particles of an active Nature,
+                <lb/>and at the ſame Time ſluggiſh and relaxing Principles, <lb/>is to contain
+                Corpuſcles differing in their Operation: <lb/>Contraries never fail of being
+                diſagreeable in ſome <lb/>Manner or Degree to the Palat and Membranes, or, <lb/>in
+                other Terms, of being nauſeous: All Diſcharges <lb/>are made by Irritations, and
+                they are occaſion'd from <lb/>Salts of different Natures. </p>
+            </note>, becauſe its Salts vellicate, and <lb/>twinge the Stomach and Inteſtines, from
+            whence <lb/>alſo it ſometimes vomits; but, as it is endued <lb/>with viſcous Parts, it
+            is apt to raiſe Gripes, by <lb/>adhering to the Coats of the Stomach; and it <lb/>ſhould
+            be corrected with Aromaticks, which <lb/>by their volatile Salts and eſſential Oils do
+            in- <lb/>cide the viſcid. But alſo Oil of Vitriol, or any <lb/>acid Spirit ſerves to
+            bring its fixt and volatile <lb/>Parts into Play <note place="bottom" rend="size(0.75)"
+              n="†">
+              <p rend="indent">
+                <lb/>† <hi rend="italic">N. B.</hi> This, indeed, is the Caſe of <hi rend="italic"
+                  >Cantharides</hi>, <lb/>when apply'd; Vinegar ſprinkled on the bliſtring Pla-
+                <lb/>ſter raiſes a Conteſt with the oppoſite Salts in the <lb/>Flies, and makes it
+                ſooner exert its cauſtick Force <lb/>on the Skin; and, as our Author obſerves under
+                  <hi rend="italic">Can- <lb/>tharides</hi>, Spirit of Vitriol does yet ſooner raiſe
+                a <lb/>Struggle and a Bliſter, even in half an Hour's Time: <lb/>However, one
+                Caution muſt be given, namely, that <lb/>we don't over-power the active Salts with
+                Acids, for <lb/>then we ſhou'd quite blunt them, and drown their <lb/>Virtue. </p>
+            </note>. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Its</hi> Preparations are <hi rend="italic">Fœcula Bryoniæ</hi>; this
+            <lb/>Powder is given with one or two Drops of <lb/>Oil of Cloves. Its <hi rend="italic"
+              >Tincture</hi> may be made with <lb/>Spirit of Wine, and corrected in the ſame Man-
+            <lb/>ner, which is good in œdematous Tumors. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Its</hi>
+            <hi rend="italic">Generical Mark</hi>; It is a pentapetalous, <lb/>bacciferous, climbing
+            Plant. </p>
+        </div>
+        <pb n="20"/>
+        <div>
+          <head rend="align-center space">
+            <lb/>§. 18. <hi rend="italic">Bryonia nigra</hi>, <hi rend="italic">Black Bryony</hi>, </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">I</hi>S of an acrid, bitteriſh, ungrateful, mucila- <lb/>ginous,
+            or ſlimy Taſte. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> conſiſts of fixt, and volatile Salts, and of <lb/>ſome oily
+            and earthy Parts. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> is us'd as a Diſcutient in œdematous Tu- <lb/>mors, and as a
+            Specifick in a Gout, if it be <lb/>bruis'd and applied to the Part in Pain <note n="*"
+              place="bottom" rend="size(0.75)">
+              <p rend="indent">
+                <lb/>* <hi rend="italic">N. B.</hi> In the Gout the tendinous Parts become
+                <lb/>rigid, and unfit to bear a Load, or at leaſt to circu- <lb/>late a Quantity of
+                active Salts depoſited upon them; <lb/>what, therefore, ſoftens the Fibres unbends
+                their <lb/>Tenſion; and what opens the Pores evaporates a <lb/>good Share of the
+                Humors; which two Intentions <lb/>being diſcretely anſwer'd contribute to ſhorten a
+                Fit. <lb/>The Diet order'd by the late Profeſſors <hi rend="italic">Boerhaave</hi>
+                <lb/>and <hi rend="italic">Oeſterdyke</hi>, to a certain great Perſonage for an
+                <lb/>habitual Gout, if it ſucceeds, will prove how much <lb/>the Blood is laden with
+                ſaline and active Parts. </p>
+            </note>; be- <lb/>cauſe by its mucilaginous Particles it obtunds <lb/>and ſoftens, and
+            by its volatile it throws off <lb/>the ſtimulating Elements. </p>
+        </div>
+        <div>
+          <head rend="align-center space">
+            <lb/>§. 19. <hi rend="italic">Carlina</hi>, <hi rend="italic">The CarlineThiſtle</hi>. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">I</hi>T is of an acrimonious Taſte, and alſo aro- <lb/>matick in
+            Taſte and Flavor. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> conſiſts of volatile Salts and eſſential Oils, <lb/>as
+            appears by its Smell. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Its</hi>
+            <hi rend="italic">Generical Mark</hi>, being capitated, as well <lb/>as its Particles
+            volatile, prove it to be diapho- <pb n="21"/>
+            <lb/>retick, diuretick, and friendly to the Nerves, <lb/>as alſo to be uterine <note
+              n="*" place="bottom" rend="size(0.75)">
+              <p rend="indent">
+                <lb/>* <hi rend="italic">N. B.</hi>
+                <hi rend="italic">To be friendly to the Nerves or Womb</hi>, is <lb/>an Expreſſion
+                us'd in a reſtrictive Senſe: For as <hi rend="italic">moſt</hi>
+                <lb/>Diſeaſes of the Nerves and Womb, in our colder <lb/>Climates eſpecially, depend
+                on a ſluggiſh State of <lb/>Motion, and on coheſive Qualities in the Maſs, as
+                <lb/>alſo ſecondarily on a relax'd State of the Fibres: <lb/>Thoſe Remedies, which
+                conſiſt of volatile oily Salts, <lb/>gratefully ſtimulate the Fibres, and, at the
+                ſame time, <lb/>do thus penetrate, agitate, incide, and attenuate the <lb/>Blood; ſo
+                that on Courſe, if the Nerves are relax'd <lb/>or obſtructed, or the Womb troubled
+                with Obſtructi- <lb/>ons, or phlegmatick Fluxes, theſe Nervines or Ute- <lb/>rines
+                doing the good Offices of ſtringing and bracing <lb/>up the Fibres, of evaporating
+                the more ſerous Parts, <lb/>and of undamming the Obſtructions of the Parts,
+                <lb/>have juſtly merited thoſe Appellations. </p>
+            </note>. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Its</hi> Preparations are an <hi rend="italic">Oil</hi>, which is
+            us'd <lb/>in Sugar in Hyſterick Caſes. It is us'd in <hi rend="italic">De-
+              <lb/>coction</hi>
+            <note place="bottom" rend="size(0.75)" n="†">
+              <p rend="indent">
+                <lb/>† <hi rend="italic">N. B.</hi> Plants conſiſting of volatile Salts only
+                <lb/>don't bear boiling; but where theſe Salts are ſheath'd <lb/>with oily
+                Particles, then do they bear gentle Boiling, <lb/>the Oils hindring the Flight of
+                the Salts. </p>
+            </note>, but while it is boiling the Veſſel <lb/>muſt be ſhut, leſt its volatile Parts
+            fly too <lb/>much off: It muſt, however, be obſerv'd, that <lb/>it ſhou'd not be given
+            too ſtrong, for then it <lb/>will occaſion Vomiting. It is us'd in <hi rend="italic"
+              >Powder</hi>
+            <lb/>alſo. </p>
+        </div>
+        <div>
+          <head rend="align-center space">
+            <lb/>§. 20. <hi rend="italic">Caryophyllata</hi>, <hi rend="italic">Avens</hi>, <hi
+              rend="italic">or Bennet</hi>. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">I</hi>S of a ſubacrid, and gratefully-bitter Taſte, <lb/>but has
+            no Smell, whilſt it is freſh, and yet <lb/>when dry'd, it is ſcented. </p>
+          <pb n="22"/>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> is aromatick, therefore, and alſo has a <lb/>Salt, ſo that it
+            is ſtomachick, inciding, attenu- <lb/>ant, and a Diſſolver of grumous Blood, and is
+            <lb/>us'd as a Specifick in Pains of the Head, ariſing <lb/>from a groſs Blood. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Its</hi>
+            <hi rend="italic">Generical Mark</hi>; It has a pentapetalous <lb/>Flower. </p>
+        </div>
+        <div>
+          <head rend="align-center space">
+            <lb/>§. 21, <hi rend="italic">Cava, or Hollow Fumitory.</hi>
+          </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">I</hi>S of a bitteriſh Taſte, and of little Smell. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi>, therefore, conſiſts of fixt and ſome <lb/>volatile Salts, as
+            alſo of Oils. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> is reputed a Specifick in an Aſthma <note n="*"
+              place="bottom" rend="size(0.75)">
+              <p rend="indent">
+                <lb/>* <hi rend="italic">N. B.</hi> So <hi rend="italic">Dulc-amara</hi> is reputed
+                good in Aſth- <lb/>ma's from its ſweet and bitteriſh Parts; and is call'd <lb/><hi
+                  rend="italic">Solanum ſcandens</hi>, <hi rend="italic">Circæa Monſpelienſium</hi>,
+                or <hi rend="italic">Glycy- <lb/>picros</hi>, and <hi rend="italic">Solanum
+                  lignoſum</hi>; but its Leaves ſhould <lb/>be cautiouſly us'd: It is hot, biting
+                and bitter, and <lb/>ſlimy alſo; ſo that if it has any Virtue in this <lb/>Diſeaſe,
+                it muſt act by ſtimulating the Trachæa by <lb/>its warm, and expectorating the
+                Phlegm by its glibbing <lb/>Particles, and correcting the groſs Humors con-
+                <lb/>tain'd. </p>
+            </note>, <lb/>ariſing from a mucilaginous State of Humors; <lb/>becauſe by its fixt and
+            volatile Salts, it incides, <lb/>and volatiliſes the Juices: Upon which Grounds <lb/>it
+            happens, that in Melancholy, and other Diſ- <lb/>eaſes proceeding from an Acidity in the
+            Blood, <lb/>it is much in Uſe; becauſe its Salts are con- <lb/>trary to the Salt that
+            occaſions the Diſtem- <lb/>pers. It is ſtomachick, becauſe it is aroma- <lb/>tick; and
+            is us'd where Long Birthwort is <lb/>preſcrib'd. </p>
+          <pb n="23"/>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> expels the Menſes and the dead Child, <lb/>by its moving and
+            active Salts and Corpuſcles. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> is us'd in Decoction, Infuſion, and Pow- <lb/>der, in which
+            Form it is moſtly us'd in ca- <lb/>rious Bones, to imbibe thoſe acid Salts that
+            <lb/>have contributed to corrupt them. </p>
+        </div>
+        <div>
+          <head rend="align-center space">
+            <lb/>§. 22. <hi rend="italic">China orientalis</hi>, <hi rend="italic">Oriental
+              China</hi>. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">I</hi>T is the Root of the rough Chineſe <hi rend="italic"
+              >Smylax</hi>. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> is of a farinaceous, inſipid Taſte, in <lb/>ſome Meaſure
+            aſtringent <note n="*" place="bottom" rend="size(0.75)">
+              <p rend="indent">
+                <lb/>* <hi rend="italic">N. B.</hi> I taſted ſome freſh brought over, which <lb/>had
+                a Bitterneſs in it, and, therefore, has it a fixt Salt, <lb/>which by Age flies off.
+              </p>
+            </note>. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi>, therefore, contains unctuous, oily, and <lb/>ſmooth
+            Particles, gently ſaline. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Its</hi> Virtues are to correct ſuch Humors as <lb/>are acrimonious,
+            bilious, corroſively acid and <lb/>obſtructive; becauſe by thoſe ſmooth and oily
+            <lb/>Parts it entangles, lenifies, and ſoftens the acu- <lb/>leated Bodies: It has been
+            reputed a <hi rend="italic">Diapho- <lb/>retick</hi> and how far it may contribute
+            towards <lb/>this Work, may be readily ſeen by taking a <lb/>View of the Requiſites for
+            a Sweat. Firſt, <lb/>The Circulation in a Sweat ſhou'd be deter- <lb/>minately rapid.
+            Secondly, The Pores in a <lb/>Sweat muſt be open'd. Thirdly, The Serum <lb/>ſhou'd be
+            eaſily ſeparable from the Globules, <lb/>or Cake of the Blood. Fourthly, Immoderate
+            <lb/>Heat of the Blood, as in the ά<unclear>κ</unclear>μ<unclear>ϗ</unclear> of Heat in
+            <lb/>a Paroxyſm of an intermitting Fever, hinders <lb/>Sweats: How far <hi rend="italic"
+              >China</hi> contributes towards <lb/>theſe Performances may be gueſs'd, for it re- <pb
+              n="24"/>
+            <lb/>tards a rapid Motion, glues the Particles of <lb/>the Blood together, and rather
+            ſhuts than opens <lb/>the Pores by its Aſtringency: So that in no <lb/>Inſtance will it
+            anſwer this Purpoſe, ſave in the <lb/>latter, where in Decoction it may ſerve to
+            <lb/>abate the exceſſive Rapidity of the Juices; and <lb/>as Sweats depend upon a
+            certain Degree of <lb/>Motion, if ever the Blood moves too faſt for <lb/>Sweats, it does
+            it by bringing down this Ra- <lb/>pidity: In which Caſe it muſt be noted, that
+            <lb/>whoever has a Mind to ſweat muſt take their <lb/>Liquors warm; they muſt uſe a thin
+            Diet, <lb/>and muſt compoſe themſelves to it by the Aſ- <lb/>ſiſtance of a warm Bed, or
+            a Bagnio. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> is us'd always in Decoction, where four <lb/>Things muſt be
+            obſerv'd: Firſt, It muſt be <lb/>cut into Slices. Secondly, The Pot in which <lb/>it is
+            boil'd muſt be cloſe ſhut, in order to get <lb/>out its Salts contain'd in it in a ſmall
+            Quan- <lb/>tity. Thirdly, We muſt macerate it, and uſe <lb/>a gentle Fire. Fourthly, It
+            muſt be boil'd <lb/>for ten Hours together. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> is us'd in the Gout to correct the Salts <lb/>of the Blood,
+            in the following Manner. </p>
+          <floatingText>
+            <body>
+              <head rend="align-center space">
+                <lb/>In the <hi rend="sc">Gout</hi>. </head>
+              <p rend="hanging italic space">
+                <lb/>TAKE Roots of China two Ounces, Salſapa- <lb/>rilla one Ounce, Herb
+                Ground-pine, Ger- <lb/>mander, Roſemary, Sage (and for Women <lb/>Savin) of each an
+                Handful. Slice them, <lb/>mix them, and boil them in Milk; Spices <lb/>may be added,
+                as alſo Syrup of Penny-Royal, <lb/>Goat's Rue, or Mugwort. </p>
+            </body>
+          </floatingText>
+          <pb n="25"/>
+          <floatingText >
+            <body>
+              <head rend="align-center space">
+                <lb/>In the <hi rend="sc">Scurvy</hi>. </head>
+              <p rend="hanging italic space">
+                <lb/>TAKE Roots of China one Ounce, Salſapa- <lb/>rilla half an Ounce, Guaiacum Wood
+                three <lb/>Ounces; mix, and make a Decoction in <lb/>Water and Wine as much as
+                ſuffices; to <lb/>which, boiling hot, add Winter's-Bark two <lb/>Drams, Juniper
+                Berries half an Ounce, <lb/>Syrup of Scurvy-graſs, one Ounce and an <lb/>half to two
+                Pounds of the Decoction. </p>
+            </body>
+          </floatingText>
+          <floatingText>
+            <body>
+              <head rend="align-center space">
+                <lb/>In a <hi rend="sc">Consumption</hi>. </head>
+              <p rend="hanging italic">
+                <lb/>TAKE China one Ounce, Colts-foot two Oun- <lb/>ces, Bark of Saſſafras, Currans,
+                of each <lb/>half an Ounce; mix, and make a Decoction <lb/>in Water and Wine: For
+                thus the acri- <lb/>monious Particles, which cauſe a Conſump- <lb/>tion, are
+                involv'd, and wrapt up with the <lb/>oily Parts of the Root. </p>
+            </body>
+          </floatingText>
+          <p rend="indent space">
+            <lb/><hi rend="sc">It</hi> is reputed a Specifick in an Atrophy, <lb/>becauſe the oily
+            Parts of the Root envelope <lb/>the corroſive Acid, and its volatile, tho' few,
+            <lb/>gently open the Obſtructions of the Capilla- <lb/>ries, and attenuate the Viſcid,
+            and de-obſtruct <lb/>them, ſo as to admit Nouriſhment. </p>
+          <pb n="26"/>
+          <p rend="indent">
+            <lb/><hi rend="sc">After</hi> the venereal Diſeaſe is cur'd by a <lb/>
+            <note n="*" place="bottom" rend="size(0.75)">
+              <p rend="indent">
+                <lb/>* <hi rend="italic">N. B.</hi> A Salivation cures in the following Man-
+                <lb/>ner; the Mercury throws off all the Serum, in which <lb/>principally lodges the
+                poiſonous Matter, the Globules <lb/>all the while are well waſh'd with innocent
+                Liquors, <lb/>or rather with ſuch as contain Particles contrary to <lb/>the Salts
+                occaſioning the Diſeaſe; for Example, the <lb/>Decoction of the Woods, ſo that all
+                the Liquors con- <lb/>tain'd in the Maſs are carry'd off or corrected, which
+                <lb/>when we have done, there remains nothing of cor- <lb/>rupted Juices in the
+                Channels; indeed, if any are ex- <lb/>travas'd into the Bones or elſewhere, the
+                Fault being <lb/><hi rend="italic">local</hi> muſt be amended after the Salivation
+                is over. </p>
+            </note> Salivation, the Cuſtom is to preſcribe thus, </p>
+          <floatingText>
+            <body>
+              <p rend="hanging italic space">
+                <lb/>TAKE China Root, Salſaparilla, Bark of <lb/>Guaiacum of each two Ounces, Wood
+                of the <lb/>ſame half an Ounce, Saſſafras Wood one <lb/>Ounce, boil them in Water
+                twenty Pounds <lb/>to ten Pounds. </p>
+            </body>
+          </floatingText>
+          <p rend="indent space">
+            <lb/><hi rend="sc">By</hi> this Preſcription whatever of Acidity is <lb/>remaining will
+            be rooted out. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Its</hi>
+            <hi rend="italic">Generical Mark</hi>; It is an hexapetalous <lb/>and bacciferous Plant,
+            in which Berries are con- <lb/>tain'd Stones. It is referr'd to the bacciferous <lb/>and
+            climbing Plants. </p>
+        </div>
+        <div>
+          <head rend="align-center space">
+            <lb/>§. 23. <hi rend="italic">China occidentalis</hi>, <hi rend="italic">Occidental
+              <lb/>China</hi>. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">I</hi>TS Taſte is the ſame with the former, as <lb/>is its <hi
+              rend="italic">Generical Mark</hi>; but it is weaker, <lb/>and leſs in Uſe. </p>
+        </div>
+        <pb n="27"/>
+        <div>
+          <head rend="align-center space">
+            <lb/>§. 24. <hi rend="italic">Conſolida major</hi>, <hi rend="italic">Comfrey</hi>. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">I</hi>T is of a ſweetiſh, mucilaginous, and viſ- <lb/>cous Taſte. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> conſiſts of mucous, thick, watry, and oily <lb/>Particles;
+            from whence it has the following <lb/>Virtues. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Its</hi> ſweetiſh Taſte beſpeaks it of a temperate <lb/>and middle
+            Nature, becauſe ſome ſaline, and <lb/>ſulphureous Corpuſcles are always well blended
+            <lb/>and incorporated in a ſweet Taſte; and its mu- <lb/>cous and viſcous Taſte ſhew it
+            to have a Power <lb/>of conſolidating and gluing <note n="*" place="bottom"
+              rend="size(0.75)">
+              <p rend="indent">
+                <lb/>* <hi rend="italic">N. B.</hi> Wounds have two General Intentions, <lb/><hi
+                  rend="italic">Agglutination</hi> or <hi rend="italic">Digeſtion</hi>; ſuch Wounds
+                are fit <lb/>for the firſt Method of Cure as have loſt no Sub- <lb/>ſtance, or are
+                made in a Part where an Eſchar wou'd <lb/>be unſeemly; namely, the Face or Hands.
+              </p>
+            </note> Wounds together. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> mollifies, and is anodyne, becauſe its <lb/>ſmooth and oily
+            Parts cover over, and, by its <lb/>watery, it diſſolves, the ſaline Particles, which
+            <lb/>hinder a Cure of Ulcers, or Wounds; there- <lb/>fore is it us'd as an internal
+            Vulnerary. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> is a Specifick in Exulcerations, or Ex- <lb/>coriations of
+            the Kidneys, eſpecially ſuch as are <lb/>rais'd from Cantharides; and then it is boil'd
+            <lb/>in Milk and drank. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> is us'd internally to breed a Callus in <lb/>Bones that are
+            fractur'd <note n="†" place="bottom" rend="size(0.75)">
+              <p rend="indent">
+                <lb/>† <hi rend="italic">N. B.</hi> A Callus is at firſt a liquid Matter, which
+                <lb/>in Proceſs of Time is gelatinous, and laſtly hardens <lb/>into Bone; <hi
+                  rend="italic">Papin</hi>'s Digeſter reverſes this Method of <lb/>Nature; and, from
+                an hard Subſtance, turns it back <lb/>again to a Jelly: It muſt be concluded, that
+                Com- <lb/>frey, if it ſucceeds, contains a great many earthy Parts <lb/>in it. </p>
+            </note>. </p>
+          <pb n="28"/>
+          <p rend="indent">
+            <lb/><hi rend="sc">Wherever</hi> Acrimony is the Cauſe of a <lb/>Diſeaſe, it is a
+            Specifick; becauſe the viſcous Par- <lb/>ticles wrap up the Salts: From whence it is
+            <lb/>of Uſe in Dyſenteries, and in Ulcers of the <lb/>Lungs, or in Coughs proceeding
+            from ſharp, <lb/>tickling Salts, which are betray'd by a tickling, <lb/>dry Cough. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Its</hi> Juice expreſs'd glues together, and heals <lb/>external
+            Wounds. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">In</hi> ſhort, 'tis emollient, anodyne, aggluti- <lb/>nant,
+            conſolidating, good in Ulcers and all ſharp <lb/>Humors. </p>
+          <p rend="indent space">
+            <lb/><hi rend="italic">N. B.</hi> It is always us'd internally in De- <lb/>coction, and
+            leſt its Particles, being viſcous, <lb/>ſhould ſtick to the Wrinkles of the Guts, 'tis
+            <lb/>adviſable to add to the Decoction the Seeds <lb/>of Fennel, or ſome ſuch Aromatick;
+            and <hi rend="italic">This <lb/>is a General Rule for all viſcous Plants</hi>. </p>
+          <p rend="indent space">
+            <lb/><hi rend="sc">Its</hi> Preparations are only Syrup of Com- <lb/>frey of <hi
+              rend="italic">Fernelius</hi>, whoſe Doſe may be to two <lb/>Ounces. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Its</hi>
+            <hi rend="italic">Generical Mark</hi>; It has monopetalous, <lb/>tuberoſe, cylindrical
+            Flowers, diſpos'd into Jags, <lb/>with four Seeds join'd together. </p>
+        </div>
+        <div>
+          <head rend="align-center space">
+            <lb/>§.25. <hi rend="italic">Contrajerva</hi>, <hi rend="italic">Contrayerva</hi>. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">I</hi>T is gently acrid, and of a ſweet, grateful, <lb/>aromatick
+            Flavor, and ſomewhat aſtringent. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi>, therefore, conſiſts of ſome few volatile <lb/>Salts, and
+            Oils, and of ſome earthy Ones. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> is <hi rend="italic">Diaphoretick</hi>, from its acrimonious,
+            vo- <lb/>latile Parts imparting Motion to the Blood. It <pb n="29"/>
+            <lb/>is alexipharmick, as the Name imports; for the <lb/><hi rend="italic"
+              >Spaniards</hi>, who are Inhabitants of <hi rend="italic">Peru</hi>, where <lb/>this
+            grows, call Poiſon <hi rend="italic">Jerva</hi>; ſo that <hi rend="italic">Contra-
+              <lb/>jerva</hi> ſignifies ſomewhat againſt Poiſon; and it <lb/>is ſuch, becauſe it
+            abounds with ſuch Particles <lb/>as hinder Stagnation, and Coagulations, com- <lb/>monly
+            produc'd by a certain Sett of Poiſons. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> is alſo gently aſtringent, and therefore <lb/>may be given in
+            the Room of Tormentil, or <lb/>Biſtort Root, to ſtop Fluxes <note n="*"
+              rend="size(0.75)" place="bottom">
+              <p rend="indent">
+                <lb/>* <hi rend="italic">N. B.</hi> A Drug, which is aromatick and acrid, <lb/>as
+                alſo at the ſame Time aſtringent, may be variouſly <lb/>us'd, and ſerves many
+                Intentions: Firſt, It is ſpeci- <lb/>fick in low malignant Fevers attended with
+                Fluxes: <lb/>It acts upon the Solids and Fluids alſo with good Ad- <lb/>vantage, by
+                attenuating the latter, and ſtraitning the <lb/>former, and theſe, generally are
+                call'd <hi rend="italic">Bezoardick</hi>, <lb/>their Conſequences being high-priz'd.
+              </p>
+            </note>. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">From</hi> this Root and Camphire is prepar'd <lb/>a Tincture call'd
+              <hi rend="italic">Tinctura Bezoardica</hi>, but the <lb/>greateſt Virtue is deriv'd
+            from the Camphire. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> has no Preparations, but is us'd as an <lb/>Ingredient in <hi
+              rend="italic">Theriaca</hi>. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Its</hi>
+            <hi rend="italic">Generical Mark</hi>; It is a pentapetalous, <lb/>pomiferous, climbing
+            Plant, growing in <hi rend="italic">Peru</hi>. </p>
+        </div>
+        <div>
+          <head rend="align-center space">
+            <lb/>§. 26. <hi rend="italic">Coſtus amarus albus</hi>, <hi rend="italic">Coſtmary</hi>. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">I</hi>T is of an acrid, bitteriſh Taſte, and of an <lb/>aromatick
+            Flavor, approaching to the Smell <lb/>of <hi rend="italic">Florentine Orris</hi>. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> conſiſts of a good many volatile and fixt <lb/>Salts and
+            Particles. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> is a <hi rend="italic">Cephalick</hi> and <hi rend="italic"
+              >Nervine</hi>, becauſe as <lb/>an aromatick Flavor proceeds from volatile and <pb
+              n="30"/>
+            <lb/>ſulphureous Particles always exhaling, theſe <lb/>Parts refreſh the Spirits <note
+              n="*" rend="size(0.75)" place="bottom">
+              <p rend="indent">
+                <lb/>* <hi rend="italic">N. B.</hi> As the Spirits are obſerv'd to be recruited
+                <lb/>by Aromaticks and Fetids, we conclude the Particles <lb/>theſe contain to be
+                ſimilar in their Nature to our Ani- <lb/>mal Spirits circulating in the Nerves: It
+                is no longer <lb/>a Doubt, that the Nerves are hollow, ſince Inflating <lb/>the
+                optick Nerve ſhews its Structure to be porous, <lb/>like a Cane, even to the naked
+                Eye. </p>
+            </note>: It is alſo <hi rend="italic">Uterine</hi>, <lb/>becauſe the Salts attenuate the
+            Viſcoſities every <lb/>where, and warm that Part. It is an <hi rend="italic">Anti-
+              <lb/>ſcorbutick</hi> and <hi rend="italic">Antihydropick</hi> alſo, becauſe theſe
+            <lb/>Salts abſorb, as well Water as acid Salts, and <lb/>carry them off by the Pores or
+            Kidneys. It <lb/>is ſtomachick, both becauſe it attenuates viſ- <lb/>cous Humors, and ſo
+            warms the Stomach; <lb/>and becauſe it contracts the Fibres, which are <lb/>too much
+            relax'd by Humors it is ſoak'd in. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Its</hi> Preparations are <hi rend="italic">Pil. Coſti</hi>, and a
+            di- <lb/>ſtill'd Oil, which are not in Uſe <note n="†" place="bottom" rend="size(0.75)">
+              <p rend="indent">
+                <lb/>† <hi rend="italic">N. B.</hi> There is alſo in our Diſpenſatory an
+                <lb/>Electuary, call'd <hi rend="italic">Electuarium Caryocoſtinum</hi>, which
+                <lb/>is purgative. </p>
+            </note>. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Its</hi>
+            <hi rend="italic">Generical Mark</hi>; It is a pentapetalous <lb/>Shrub, with a Fruit
+            round as a Cherry, with <lb/>a Stone wonderfully ſtreaked. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> may be gather'd at any Time, and be- <lb/>ing dry'd in the
+            Sun, it is brought to us from <lb/>the <hi rend="italic">Indies</hi>, where it is call'd
+              <hi rend="italic">Perho</hi>. </p>
+        </div>
+        <div>
+          <head rend="align-center space">
+            <lb/>§. 27. <hi rend="italic">Coſtus amarus niger</hi>, <hi rend="italic">Black Coſt-
+              <lb/>mary</hi>. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">I</hi>T is of an acrid and bitter Taſte, and of <lb/>an aromatick
+            Smell. </p>
+          <pb n="31"/>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> conſiſts of a volatile, oily Salt, as may <lb/>be diſcover'd,
+            even by the Tongue and Touch. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Its</hi> Virtues are the ſame as the former; <lb/>but it is not ſo
+            ſtrong: It has the ſame <hi rend="italic">Ge- <lb/>nerical Mark</hi> alſo as the former. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> is <hi rend="italic">Anodyne</hi>, from its oily Parts
+            ſheathing <lb/>ſharp Salts; but it is not much in Uſe. </p>
+        </div>
+        <div>
+          <head rend="align-center space">
+            <lb/>§. 28. <hi rend="italic">Coſtus Arabicus</hi>, <hi rend="italic">Arabian Coſt-
+              <lb/>mary</hi>. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">I</hi>T is of an acrid and bitter Taſte, and of <lb/>an aromatick
+            Flavor. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> conſiſts of fixt, and volatile, oily Salts; <lb/>from whence
+            it is us'd in the Bites of Vi- <lb/>pers, becauſe the volatile Particles expel the
+            <lb/>Poiſon <note n="*" rend="size(0.75)" place="bottom">
+              <p rend="indent">
+                <lb/>* <hi rend="italic">N. B.</hi> It is obſerv'd, that Perſons dying of poi-
+                <lb/>ſonous Bites have their Blood ſtronglier congeal'd, <lb/>than if Spirit of
+                Nitre had been injected. </p>
+            </note>. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> is <hi rend="italic">Diaphoretick</hi>, and promotes Sweats
+            by <lb/>agitating the Blood. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> has the ſame <hi rend="italic">Generical Mark</hi> as Ginger,
+            <lb/>which ſee afterwards. </p>
+        </div>
+        <div>
+          <head rend="align-center space">
+            <lb/>§. 29. <hi rend="italic">Cucumis Aſininus</hi>, <hi rend="italic">Wild Cucum-
+              <lb/>bers</hi>. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">I</hi>T is of an acrid, bitter, ungrateful, nauſe- <lb/>ous,
+            viſcous Taſte, and ſmells whilſt freſh. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> conſiſts as well of volatile as fixt Salts, <lb/>envelop'd in
+            a groſs Oil and Earth. </p>
+          <pb n="32"/>
+          <p rend="indent">
+            <lb/><hi rend="sc">Its</hi> Smell and Taſte betray its Virtues, and <lb/>accordingly it
+            purges upwards and downwards; <lb/>becauſe its Salts ſtimulate egregiouſly both the
+            <lb/>Stomach and Guts, and raiſe a copious Secre- <lb/>tion into thoſe Parts. However,
+            tho' it purges <lb/>ſtrongly when it begins, yet it is ſlow in its <lb/>Operation,
+            becauſe its earthy and viſcous Par- <lb/>ticles blunt the Salts for a While; and, there-
+            <lb/>fore, it is quicken'd with ſeven Grains of Scam- <lb/>mony, or ſome more powerful
+            Incider, other- <lb/>wiſe it wou'd raiſe Gripes. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">In</hi> a Dropſy and Cachexy it is us'd with <lb/>Succeſs, becauſe it
+            evacuates either Water, or <lb/>Phlegm; and half an Ounce of Decoction is
+            <lb/>ſucceſsfully us'd with other Diureticks. </p>
+          <p rend="indent space">
+            <lb/><hi rend="italic">N. B.</hi> All pomiferous Plants have the ſame <lb/>Virtues and
+            Qualities. </p>
+          <p rend="indent space">
+            <lb/><hi rend="sc">From</hi> the ripe Fruit wounded was made <lb/>the <hi rend="italic"
+              >Elaterium</hi> of the Ancients, and the Juice <lb/>expreſs'd from the Plant and
+            inſpiſſated, is the <lb/>modern <hi rend="italic">Elaterium</hi>. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">The</hi> Doſe of the <hi rend="italic">Root</hi> in Subſtance is to
+              <lb/><hi rend="italic">two Drams</hi>; in Decoction to half an Ounce; <lb/>for the <hi
+              rend="italic">Elaterium</hi> is only given to half a Grain, <lb/>or to two. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Its</hi>
+            <hi rend="italic">Generical Mark</hi>; It is a pomiferous, mo- <lb/>nopetalous, flower'd
+            Plant; and whoſe Flower <lb/>is divided into five Jags, with a Fruit oval and
+            <lb/>hairy. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> is call'd <hi rend="italic">Aſininus</hi>, becauſe it grows
+            where <lb/>the Aſſes feed; and it is call'd <hi rend="italic">Cucumis</hi>, as <lb/>if
+            we ſhou'd ſay <hi rend="italic">curvimeris</hi>, from its curv'd <lb/>Leaves. <hi
+              rend="italic">Varro</hi>. </p>
+          <pb n="33"/>
+          <p rend="indent">
+            <lb/><hi rend="sc">We</hi> rarely uſe it in Subſtance, but in Ex- <lb/>tract; which is
+            made with Water, and not <lb/>with Spirit of Wine: 'Tis boil'd in Water, <lb/>and
+            evaporated to an Extract. For Example, </p>
+          <floatingText>
+            <body>
+              <head rend="align-center space">
+                <lb/>In a <hi rend="sc">Dropsy</hi>. </head>
+              <p rend="hanging italic space">
+                <lb/>TAKE Extract of wild Cucumbers fifteen <lb/>Grains, Diagrydium three Grains,
+                Oil of <lb/>Cloves two Drops; mix, and make Pills. </p>
+            </body>
+          </floatingText>
+          <floatingText>
+            <body>
+              <head rend="align-center space">
+                <lb/>Or, </head>
+              <p rend="hanging italic space">
+                <lb/>TAKE Extract of wild Cucumbers fifteen <lb/>Grains, Mercurius dulcis half a
+                Scruple, <lb/>Electuary of Roſe-Juice one Dram, Oil of <lb/>Cloves two Drops; mix,
+                and make a Bolus. </p>
+            </body>
+          </floatingText>
+          <floatingText>
+            <body>
+              <head rend="align-center space">
+                <lb/>Or, </head>
+              <p rend="hanging italic space">
+                <lb/>TAKE Roots of Swallow-wort and Graſs, <lb/>of each two Ounces; Elicampane,
+                Orris Flo- <lb/>rentine, of each one Ounce; Flowers of El- <lb/>der one Handful;
+                Juniper Berries half an <lb/>Ounce; Cloves half a Dram; mix, and in- <lb/>fuſe them
+                in Wine. </p>
+            </body>
+          </floatingText>
+          <p rend="indent space">
+            <lb/><hi rend="italic">N. B.</hi> This is the leaſt Diuretick of any <lb/>Root
+            conſiſting of fixt and volatile Salts. </p>
+        </div>
+        <pb n="34"/>
+        <div>
+          <head rend="align-center space">
+            <lb/>§. 30. <hi rend="italic">Curcuma</hi>, <hi rend="italic">Turmerick</hi>. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">I</hi>T is of an acrid, gently and gratefully bit- <lb/>teriſh,
+            and fattiſh Taſte, and of an aroma- <lb/>tick Flavor, ſomewhat like Ginger. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> conſiſts of volatile and fixt Salts, of <lb/>ſome oily,
+            viſcous, and earthy Parts. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">The</hi> Manner of knowing what Particles <lb/>Roots, <hi
+              rend="italic">&amp;c.</hi> contain, is, that fragrant Herbs <lb/>afford volatile
+            Parts, and by Diſtillation an Oil <lb/>ſwims upon Water, and what is at Bottom is
+            <lb/>bitter or fixt Salts, and earthy, according to <lb/>the Quantity it affords after
+            Lixiviation. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Its</hi> Virtues: It incides, and attenuates; it <lb/>is ſpecifically
+            ſtomachick, for it is <note n="*" place="bottom" rend="size(0.75)">
+              <p rend="indent">
+                <lb/>* <hi rend="italic">N. B.</hi> To be carminative, is to expel Wind; <lb/>to do
+                which we are to conſider, that whilſt our <lb/>Juices ferment into Bubbles, and
+                they, being of a <lb/>tenacious Nature, don't readily crack, Wind ſwells <lb/>us;
+                and, as volatile Salts attenuate this Matter, and <lb/>make them break, the Wind
+                then readily eſcapes. </p>
+            </note> carmina- <lb/>tive from the volatile Parts: It is uterine, and <lb/>convenient
+            in the <hi rend="italic">Lochia</hi> retain'd, becauſe theſe <lb/>ſame Parts agitate the
+            Maſs of Blood, and pro- <lb/>mote the Circulation, and conſequently this <lb/>Flux: It
+            is uſed in Melancholy, becauſe it <lb/>proceeding from a groſs and ſour State, is cor-
+            <lb/>rected by the oppoſite or alcaline Parts of the <lb/>Medicine. It is <hi
+              rend="italic">anodyne</hi>, by reaſon of its oily <lb/>Particles. It is cephalick and
+            nervine, from its <lb/>picquant and volatile Parts. It is reputed good <lb/>in Diſeaſes
+            of the <hi rend="italic">Spleen</hi> and <hi rend="italic">Liver</hi>; for, what-
+            <lb/>ever is bitter and pungent, or whatever opens <lb/>and agitates, or takes off
+            Obſtructions and <pb n="35"/>
+            <lb/>makes the Blood circulate, is ſplenetick and he- <lb/>patick: It is <hi
+              rend="italic">diuretick</hi>, by reaſon of its ſtimula- <lb/>ting Salts. It is <hi
+              rend="italic">anti-arthritick</hi>, becauſe the vo- <lb/>latile Salts penetrate deep
+            into the Veſſels, <lb/>and diſcharge the viſcid Contents from thence, <lb/>whilſt the
+            oily Parts eaſe the Pain. It expels <lb/>the dead <hi rend="italic">Fœtus</hi>, and
+            helps Labour from the <lb/>ſame Principles: I give it with Coſtmary and <lb/>Opium in
+            thoſe Caſes, that whilſt the Pains <lb/>are excited in a forcible manner, they may be
+            <lb/>more chearfully born. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> is us'd in Powder to a Dram, with <lb/>butter'd Beer; rarely
+            in Decoction: It is us'd <lb/>in Infuſion with any ſpirituous Liquor. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> affords an Oil which may ſucceſsfully <lb/>be us'd in nervous
+            Caſes. An Ointment is pre- <lb/>par'd out of it, with red Sanders and Hogs- <lb/>Lard,
+            and is us'd in Obſtructions of the Nerves. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">The</hi>
+            <hi rend="italic">Chineſe</hi> ſeaſon their Meat with it, <lb/>and make a Snuff of its
+            Powder for the Head. <lb/>But the beſt manner of giving it is, as the <hi rend="italic"
+              >Chi- <lb/>neſe</hi> do; they take this Root and moiſten it <lb/>with Water; they rub
+            it in a Mortar, or upon <lb/>a Marble, into a very fine Powder, which they <lb/>give
+            with fat Broth in ſplenetick Caſes <note place="bottom" rend="size(0.75)" n="*">
+              <p rend="indent">
+                <lb/>* <hi rend="sc">It</hi> is not eaſy to know how this will relieve
+                <lb/>ſplenetick People. </p>
+            </note>. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Its</hi> Generical Mark; It has a pentapeta- <lb/>lous oblong Flower,
+            ending in a Point from an <lb/>ample Baſe, into oblong Ears, and round Seeds
+            <lb/>diſpos'd in triangular Capſulæ. </p>
+        </div>
+        <pb n="36"/>
+        <div>
+          <head rend="align-center space">
+            <lb/>§ 31. <hi rend="italic">Cyclamen</hi>, <hi rend="italic">Sow-bread</hi>. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">I</hi>T is of a moſt hot, pungent, acrid and nau- <lb/>ſeous
+            Taſte, if freſh, but of no Smell. It <lb/>conſiſts of very acrimonious Salts, which are
+            <lb/>moſtly fixt ones; as alſo of ſome Oil. It <lb/>purges by Vomit and Stool, and is
+            us'd in <lb/>Dropſies and Cachexies. Its Water apply'd to <lb/>the Noſe ſtops bleeding;
+            and is a good Stopper <lb/>of Blood in ſpittings of Blood too. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> wants a Stimulus to ſet it on working, <lb/>becauſe it works
+            but ſlowly. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Its</hi> Preparations are <hi rend="italic">unguentum Arthanitæ</hi>,
+            <lb/>which being apply'd to the Navel works <lb/>downwards: The Root bruis'd and apply'd
+            <lb/>to the Part diſſipates Tumors. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Its</hi>
+            <hi rend="italic">Generical Mark</hi>; It has pentapetalous <lb/>Flowers, tricapſular
+            and angular Seeds, con- <lb/>tain'd in round Capſulæ. </p>
+        </div>
+        <div>
+          <head rend="align-center space">
+            <lb/>§.32. <hi rend="italic">Cynogloſſum</hi>, <hi rend="italic">Hounds-tongue</hi>. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">I</hi>S of a mucous, ſweetiſh Taſte, and of a fetid <lb/>Smell,
+            reſembling Fleſh, which laſts not <lb/>long. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> conſiſts <unclear>of</unclear> ſulphureous and aculeated
+            <lb/>Particles, as the Smell proves. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Its</hi> Virtues are to incraſſate and aſtringe in <lb/>Fluxes. It is
+            us'd in a State of Juices, ariſing <lb/>from acrimonious Salts; hence is it us'd in
+            <lb/>Bleedings, Gonorrh<unclear>œ</unclear>a's, <hi rend="italic">&amp;c.</hi> It has an
+            anodyne <lb/>Faculty, and involves ſharp Humors by its <lb/>Oil: For the ſame Reaſon it
+            is reckon'd con- <lb/>ſolidating in Wounds. Its Juice is us'd as a <pb n="37"/>
+            <lb/>Narcotick, and with red Wine as an Aſtrin- <lb/>gent. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Its</hi> Preparations are <hi rend="italic">Pil. de Cynogloſſo</hi>,
+            <lb/>whoſe Doſe is a Scruple, as a Narcotick. </p>
+          <p rend="indent space">
+            <lb/><hi rend="italic">N. B.</hi> That which grows in marſhy Pla- <lb/>ces is the moſt
+            effectual. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Its</hi>
+            <hi rend="italic">Generical Mark</hi>; It has a monopeta- <lb/>lous Flower, divided into
+            five Jags. Its Seeds <lb/>are like Dock-ſeeds compreſs'd, of the Shape of <lb/>a Heart,
+            four bare; the Top, in which the <lb/>Heart lies, is downwards. </p>
+        </div>
+        <div>
+          <head rend="align-center space">
+            <lb/>§. 33. <hi rend="italic">Cyperus rotundus</hi>, <hi rend="italic">round Galin-
+              <lb/>gal</hi>. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">I</hi>S of a hot, pungent, bitteriſh Taſte, and of <lb/>a pleaſant
+            Smell, like Spikenard. It conſiſts <lb/>of volatile and oily Salts, as appears by
+            Diſtil- <lb/>lation and the Smell; for it affords an aroma- <lb/>tick Water, on which
+            ſwims an Oil: It alſo <lb/>conſiſts of ſome few fixt Salts, which do not <lb/>aſcend, as
+            appears by Incineration and its Bit- <lb/>terneſs: In ſhort, by Sublimation it affords a
+            <lb/>moſt fragrant Oil, and a volatile oily Salt, uni- <lb/>ting and cluſtring together
+            like Camphire. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Whence</hi>
+            <choice><corr>its</corr><sic>it</sic>
+            </choice> Virtues are to incide, attenuate, <lb/>and diſſolve Grumes or coagulated Blood.
+            <lb/>It is from this Quarter reckon'd cephalick, <lb/>ſtomachick, and cardiack in a fit
+            Conſtitution, <lb/>and is us'd ſpecifically in Nauſea's and Crudities, <lb/>ariſing from
+            a viſcous or acid Offspring. It <lb/>is a Pectoral in phlegmatick and moiſt Lungs.
+            <lb/>In all Obſtructions of the Liver, Spleen, or <lb/>Meſentery, it is very conducive,
+            becauſe it firſt <pb n="38"/>
+            <lb/>attenuates and diſſolves, and renders the Juices <lb/>fit to circulate afreſh. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">In</hi> the <hi rend="italic">Indies</hi> it is us'd and preſcrib'd
+            to fa- <lb/>cilitate Labour; to promote Urine and drive <lb/>forth the dead Infant. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> is us'd externally in Ulcers of the Skin, <lb/>Mouth, and
+            Jaws, and is us'd as a Sponge-tent <lb/>to abſorb ſharp and corroding Humors. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Its</hi> Preparations are <hi rend="italic">Pulvis Diacypreos</hi>,
+            which <lb/><unclear>is deterging</unclear> and anodyne, and is us'd to dry the
+            <lb/>Sweat <unclear>of</unclear> Hair. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Its</hi>
+            <hi rend="italic">Generical Mark</hi>; Its Flowers and Leaves <lb/>are ſtamineous,
+            diſpos'd into Shades like a <lb/>Horſe's Main, with Taſſels on the Top of the
+            <lb/>Stalk, and triangular Seeds. </p>
+          <p rend="indent">
+            <lb/><hi rend="italic">N. B.</hi> The <hi rend="italic">Cyperus longus</hi>, or Engliſh
+            Ga- <lb/>lingal, has the ſame Taſte, Particles, Virtues, <lb/>and <hi rend="italic"
+              >Generical Mark</hi> with the former. </p>
+        </div>
+        <div>
+          <head rend="align-center space">
+            <lb/>§. 34. <hi rend="italic">Dictamnus Creticus</hi>, <hi rend="italic">Dittander
+              <lb/>of <hi rend="roman">Crete</hi></hi>. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">I</hi>N <hi rend="italic">Crete</hi> the Plant is hairy, and
+            Leaves are <lb/>hoary, but in our Gardens it loſes its Hair; <lb/>hence many are
+            deceiv'd about it, and ſuppoſe <lb/>our Dittander to be ſpurious, but it is the ge-
+            <lb/>nuine Plant, and is as truly aromatick with us, <lb/>as in <hi rend="italic"
+              >Crete</hi>; it enters into the Compoſition of <lb/>Troches of Myrrh, and haſtens
+            Labour; the <lb/>Leaves of it being dry'd, are us'd in Tea for <lb/>a ſtoppage of the
+            menſtrual Flux. </p>
+        </div>
+        <pb n="39"/>
+        <div>
+          <head rend="align-center space">
+            <lb/>§. 35. <hi rend="italic">Doronicum</hi>, <hi rend="italic">Leopards Bane</hi>. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">I</hi>T is ſweetiſh like Liquorice: It conſiſts of <lb/>ſmooth,
+            oleous, and ſaline Particles blended <lb/>together. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">As</hi> to its Virtues, it is temperate, and it is <lb/>us'd in
+            Diſeaſes of the Head; in a <hi rend="italic">Vertigo</hi>, to <lb/>hinder or invelope
+            thoſe Fumes which diſturb <lb/>the animal Spirits. It is reputed a Poiſon to <lb/>ſome
+            Animals, but not to Men; ſo <hi rend="italic">Nux vo- <lb/>mica</hi> kills Dogs, and
+            Garlick Wolves; and yet <lb/>the former enters into the Compoſition of <hi rend="italic"
+              >Elec- <lb/>tuarium de Ovo</hi>. <note n="*" rend="size(0.75)" place="bottom">
+              <p rend="indent">
+                <lb/>* <hi rend="italic">N. B.</hi> It does not enter into the <hi rend="italic"
+                  >Electuarium <lb/>de Ovo</hi> in preſent Uſe amongſt us, but heretofore it
+                <lb/>did; and the Phyſicians of <hi rend="italic">Norimberg</hi> ſaid, that Ex-
+                <lb/>perience had taught them, it kill'd Dogs, but did not <lb/>hurt Men; and <hi
+                  rend="italic">Jodocus Willichius</hi> mingled a large <lb/>Quantity of it to an
+                expulſive Powder; but <hi rend="italic">Reno- <lb/>dæus</hi> clears up the Matter,
+                and tells us in his <hi rend="italic">An- <lb/>tidotar. Lib. 3. S. 3. C. 10.</hi>
+                that it is an Emetick, <lb/>and yet terms it Alexipharmick: And our Author,
+                <lb/>under the Title of <hi rend="italic">Nux vomica</hi>, rejects its Uſe in
+                <lb/>this Compoſition. Indeed a ſmall Quantity of Poi- <lb/>ſon may turn an Emetick,
+                a Purgative, a Diaphore- <lb/>tick, a Diuretick, or an Alterative of groſs Hu-
+                <lb/>mors, as we are taught by daily Experience: Then <lb/>this need not be
+                rejected; for, as all theſe Diſchar- <lb/>ges or Alterations are made by ſtimulating
+                the Veſ- <lb/>ſels, and giving them an oſcillatory Motion, the <lb/>Fluids will be
+                thereby propell'd in any given or <lb/>aſſign'd Proportion; as we ſee it happens to
+                Perſons <lb/>under the exceſſive Coldneſs and Shiverings of a Fe- <lb/>ver, that the
+                ſtrong vibration of the whole Syſtem <lb/>of the Muſcles moves the ſtagnating
+                Fluids, and <pb n="40" type="footnote"/>
+                <lb/>drives them into Occurſions, divides and agitates <lb/>them, ſo that in a ſhort
+                ſpace of time the Patients <lb/>fall into exceſſive Heats, and at laſt into Sweats.
+                <lb/>And again, Do we not experience that <hi rend="italic">Mercury Sub-
+                  <lb/>limate</hi>, which is a ſtrong Poiſon, is ventur'd upon, <lb/>in ſmall Doſes,
+                in the <hi rend="italic">Aqua ſalivalis</hi> of <hi rend="italic">Bates</hi> to
+                <lb/>pocky Perſons as a Specifick: So that the whole Que- <lb/>ſtion turns upon this
+                Hinge, namely, <hi rend="italic">Whether Poi- <lb/>ſons themſelves may become
+                  innocent, and even profi- <lb/>table</hi>? Which may be anſwer'd in the
+                Affirmative, <lb/>if we juſtly proportion their Doſes. This alſo ap- <lb/>pears in
+                the Uſe of <hi rend="italic">Cantharides</hi>, as Dr. <hi rend="italic"
+                  >Groenvelt</hi>
+                <lb/>made it plain by Experience: So that in the main, <lb/>if the ancient <hi
+                  rend="italic">Elect. de Ovo</hi> had this Nut in it, and if <lb/>it was well
+                adjuſted in its Doſe, I can ſee no Reaſon <lb/>why it ſhould have been left out,
+                even according to <lb/>the ſtricteſt Scheme of the Moderns. </p>
+            </note>
+          </p>
+          <pb n="40"/>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> is emollient and lenient in Lungs parch'd <lb/>and dry'd up,
+            if we uſe it in Decoction, like <lb/>Liquorice, whoſe Nature it approaches near <lb/>to. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> invelops acid Salts in the Blood, and is <lb/>good in ſuch a
+            State. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> is a corymbous diſcoidal, radiated, and <lb/>pappeſcent
+            Plant. </p>
+        </div>
+        <div>
+          <head rend="align-center space">
+            <lb/>§. 36. <hi rend="italic">Ebulus</hi>, <hi rend="italic">Elder</hi>. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">I</hi>T is of a bitter Taſte, and of a poiſonous, <lb/>or very
+            nauſeous Smell. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> conſiſts of fixt and ſome few volatile Salts, <lb/>and ſome
+            Oils. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Its</hi> Virtues are to purge Serum by Stool <lb/>and Urine; it is
+            therefore us'd in the Gout <lb/>and Dropſy, by reaſon of the Salts which ſtick <lb/>to
+            the Inteſtines and purge, and becauſe ſome <pb n="41"/>
+            <lb/>of them paſs into the Blood and ſtimulate the <lb/>Kidneys. It is us'd alſo in
+            Cachexies, for an <lb/>Evacuant. </p>
+          <p rend="indent space">
+            <lb/><hi rend="italic">N. B.</hi> All bacciferous Plants are diuretick. </p>
+          <p rend="indent space">
+            <lb/><hi rend="italic">N. B.</hi> The interior Subſtance of the Root <lb/>is rather
+            ſtyptick than purgative; wherefore it <lb/>is given internally with red Wine for the
+            <lb/>Whites and too immoderate a Flux of the Men- <lb/>ſtrua. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> is us'd externally in Fomentations, to <lb/>diſperſe
+            œdematous Tumors. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> is rarely us'd in Subſtance, becauſe its <lb/>terreſtrial
+            Parts invelope its Salts ſo as to hin- <lb/>der it from exerciſing its ſtimulating
+            Parts. Its <lb/>Extract made with Spirit of Wine is given to <lb/>half a Scruple, or a
+            whole one, to purge Serum. <lb/>It is ſtimulated with Aſarum, Elaterium, and <lb/>ſuch
+            like. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> is uſed in Infuſion to three or four Oun- <lb/>ces. </p>
+        </div>
+        <div>
+          <head rend="align-center space">
+            <lb/>§. 37. <hi rend="italic">Eryngium</hi>, <hi rend="italic">Eryngo</hi>. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">I</hi>T is of a ſubacrid, bitteriſh, ſweetiſh Taſte, <lb/>but has
+            no Smell. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> conſiſts of ſmooth, viſcous, oily Particles, <lb/>and gently
+            volatile Salts. </p>
+          <p rend="indent space">
+            <lb/><hi rend="italic">N. B.</hi> All Sweets are viſcid, becauſe they <lb/>contain
+            ſulphureous and acid Salts: Whence <lb/>this Root is diuretick, and alſo provokes Ve-
+            <lb/>nery; becauſe it ſtimulates by its Acrimony; <lb/>and becauſe by its ſweet and
+            viſcous Parts it <pb n="42"/>
+            <lb/>affords <note n="*" rend="size(0.75)" place="bottom">
+              <p rend="indent">
+                <lb/>* <hi rend="italic">N. B.</hi>
+                <hi rend="italic">Proper Nouriſhment</hi>, becauſe all Secre- <lb/>tions are
+                promoted b<unclear>y</unclear> their Similars; the groſſer, by <lb/>groſſer
+                Nouriſhment; and the thinner by Liquids. </p>
+            </note> proper Nouriſhment, and encreaſes <lb/>the Seed as do Almonds. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">By</hi> reaſon of its Viſcoſity it is us'd in a <lb/>Conſumption, in
+            Hecticks, and in an Atrophy. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> is moſtly us'd in Subſtance, or Decoc- <lb/>tion, or
+            Electuary, or Candy. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Physicians</hi> prefer the Sea Holly before <lb/>the other, becauſe
+            it is more acrimonious: <lb/>Its Leaves are thorny; its Flowers are ga- <lb/>ther'd into
+            Heads. </p>
+          <floatingText>
+            <body>
+              <head rend="align-center space">
+                <lb/>In a <hi rend="sc">Consumption</hi>. </head>
+              <p rend="hanging italic space">
+                <lb/>Take Eryngo and Scorzonera Roots, of each <lb/>three Ounces; Burdock,
+                Salſaparilla, of each <lb/>two Ounces; Fennel-ſeed 1 Ounce; Currans <lb/>half an
+                Ounce; mix, and make a Decoc- <lb/>tion in Water. </p>
+            </body>
+          </floatingText>
+          <floatingText>
+            <body>
+            <head rend="align-center space">
+              <lb/>In ſtimulating <hi rend="sc">Venery</hi>. </head>
+            <p rend="italic hanging space">
+              <lb/>Take candied Eryngo, candied Satyrion, of each <lb/>two Drams; Eggs, Fennel, of
+              each one Dram; <lb/>Ambergreaſe three Grains; Musk one Grain; <lb/>Syrup of Lemons
+              what ſuffices to make an <lb/>Electuary. </p>
+            <p rend="indent">
+              <lb/><hi rend="italic">Wel<unclear>ſ</unclear>chius</hi> commends this Root againſt
+              aſim- <lb/>ple <hi rend="italic">Gonorrhœa</hi>. </p>
+            </body>
+          </floatingText>
+          <pb n="43"/>
+          <floatingText>
+            <body>
+            <head rend="align-center">
+              <lb/>In a <hi rend="sc">Dropsy</hi>. </head>
+            <p rend="italic hanging space">
+              <lb/>Take Eryngo and Scorzonera Roots, of each <lb/>an Ounce and half; China,
+              Salſaparilla, <lb/>Saſſafras, of each one Ounce; Graſs Roots <lb/>half an Ounce mix
+                an<unclear>d</unclear> make a Decoction <lb/>in Water to be ſweeten'd with the Syrup
+              of <lb/>the five opening Roots. To this Decoction <lb/>may be added Juniper Berries.
+            </p>
+            </body>
+          </floatingText>
+          <p rend="indent space">
+            <lb/><hi rend="sc">Its</hi>
+            <hi rend="italic">Generical Mark</hi>; It is a capitated, ſpi- <lb/>noſe Plant, whoſe
+            Thorns are only in the Leaves <lb/>and Head, with ſolid Seeds. </p>
+        </div>
+        <div>
+          <head rend="align-center space">
+            <lb/>§. 38. <hi rend="italic">Eſula major</hi>, <hi rend="italic">Spurge</hi>. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">I</hi>T abounds with a pungent and moſt acrimo- <lb/>nious milky
+            Juice, and is nauſeous. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> conſiſts of very cauſtick volatile Salts, <lb/>with ſome
+            Oils. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> purges Serum in an Aſcites Dropſy <lb/>ſtrongly: It is
+            corrected with Acids, viſcous <lb/>Drugs, or Spirit of Wine, which is oily, and
+            <lb/>then its ſuppos'd Malignity vaniſhes. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Its</hi> Doſe in Subſtance; The Bark to half a <lb/>Scruple: Its
+            Extract with Spirit of Wine is gi- <lb/>ven to one Scruple: Inſtead of Spirit of Wine
+            <lb/>to correct it, Vinegar, or aromatick Oils, of <lb/>Cinnamon, Cloves, <hi
+              rend="italic">&amp;c.</hi> may be added. </p>
+          <p rend="indent space">
+            <lb/><hi rend="italic">N. B.</hi> Strong Purgatives are never to be gi- <lb/>ven without
+            Correctives. </p>
+          <p rend="indent space">
+            <lb/><hi rend="sc">Its</hi>
+            <hi rend="italic">Generical Mark</hi>; It is a tetrapetalous, <lb/>and milky Plant,
+            which has three Kernels, <lb/>or Seeds. </p>
+        </div>
+        <pb n="44"/>
+        <div>
+          <head rend="align-center space">
+            <lb/>§. 39. <hi rend="italic">Eſula minor</hi>, <hi rend="italic">Leſſer Spurge</hi>. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">I</hi>T alſo abounds with an acrid, pungent, nau- <lb/>ſeous,
+            milky Juice. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> conſiſts of the ſame Particles as the for- <lb/>mer; but is
+            yet ſtronger. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Hence</hi> is it of the ſame Efficacy with the <lb/>former; but is
+            ſtronger, and retains its Taſte <lb/>longer <note n="*" place="bottom" rend="size(0.75)">
+              <p rend="indent">
+                <lb/>* <hi rend="italic">N. B.</hi> Wherefore does it abound with more <lb/>fixt
+                Salt than the former, which may alſo be cau- <lb/>ſtick. </p>
+            </note>. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Its</hi> Preparations are, an Extract made of <lb/>the Bark of the
+            Root, which is good in purg- <lb/>ing watry Humors: And it is to be remarked, <lb/>that
+            this Extract is to be made with a gentle <lb/>Fire, <note place="bottom"
+              rend="size(0.75)" n="†">
+              <p rend="indent">
+                <lb/>† <hi rend="italic">N. B.</hi> Wherefore does it conſiſt of volatile
+                <lb/>Salts. So that it conſiſts of fixt and volatile Salts, <lb/>both which are
+                cauſtick. </p>
+            </note> otherwiſe the volatile Parts fly off. </p>
+          <floatingText>
+            <body>
+            <head rend="align-center space">
+              <lb/>In a <hi rend="sc">Dropsy</hi>. </head>
+            <p rend="italic hanging space">
+              <lb/>TAKE Extract of leſſer Spurge half a Scruple, <lb/>Reſin of Jalap ſix Grains;
+              Tartar vitrio- <lb/>lated four Grains; Sugar'd Oil of Citron <lb/>half a Dram; mix,
+              and make a Bolus with <lb/>Electuary of Roſes. </p>
+            </body>
+          </floatingText>
+          <pb n="54"/>
+          <floatingText>
+            <body>
+            <head rend="align-center space">
+              <lb/>Or, </head>
+            <p rend="italic hanging space">
+              <lb/>TAKE Extract of leſſer Spurge half a Scruple, <lb/>Aloes Wood ſix Grains, Troches
+              of Alhan- <lb/>dal three Grains, one Drop of Oil of Cloves. <lb/>Pour on Spirit of
+              Wine tartaris'd; mix, and <lb/>make a Tincture for a Dropſy. </p>
+            </body>
+          </floatingText>
+        </div>
+        <div>
+          <head rend="align-center space">
+            <lb/>§. 40. <hi rend="italic">Filix mas</hi>, <hi rend="italic">Male Fern</hi>. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">I</hi>T is of a bitteriſh, ſweetiſh, ſubaſtringent <lb/>Taſte.
+            Wherefore, </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> conſiſts of fixt Salts, ſome Oils, and ter- <lb/>reſtrial
+            Particles. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Its</hi> Virtues are gently to incide, to open, <lb/>to attenuate,
+            and to warm: It is alſo hepatick, <lb/>uterine, and diuretick for the above-nam'd Rea-
+            <lb/>ſons. It is us'd as a Specifick againſt Worms, <lb/>becauſe of its ſweet Inveigling
+            them to ſwal- <lb/>low it, whom it kills <note n="*" place="bottom" rend="size(0.75)">
+              <p rend="indent">
+                <lb/>* <hi rend="italic">N. B.</hi> Worms bear no Diet, but the ſweet, un- <lb/>leſs
+                accuſtom'd gradually to it; all other Medicines, <lb/>or Nouriſhment are detrimental
+                to them. </p>
+            </note> afterwards by its Acri- <lb/>mony, and aſtringent Taſte. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> conduces in Burns, for the Root being <lb/>bruis'd, a
+            Mucilage exudes, which applied in- <lb/>volves the igneous Particles, and lenifies the
+            <lb/>Pain. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Its</hi> Doſe in Subſtance is a Dram, in Me- <lb/>theglin, or Mead. </p>
+          <pb n="46"/>
+          <p rend="indent">
+            <lb/><hi rend="sc">Its</hi>
+            <hi rend="italic">Generical Mark</hi>; It is an <hi rend="italic">Epiphylloſper-
+              <lb/>mous</hi> Plant (that is, its Seed grows on the <lb/>Back-ſide of the Leaf). </p>
+          <p rend="indent space">
+            <lb/><hi rend="italic">N. B.</hi> All Epiphylloſpermous Plants are bit- <lb/>teriſh, and
+            as ſuch are good in Obſtructions, <lb/>hypochondriack Diſorders, and in Diſeaſes of
+            <lb/>the Liver, Meſentery, Womb, <hi rend="italic">&amp;c.</hi>
+          </p>
+          <p rend="indent space">
+            <lb/><hi rend="sc">It</hi> is alſo aſtringent; wherefore it is good <lb/>in Fluxes. </p>
+        </div>
+        <div>
+          <head rend="align-center space">
+            <lb/>§. 41. <hi rend="italic">Filix femina</hi>, <hi rend="italic">Female Fern</hi>. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">I</hi>T is of a bitteriſh and ſubaſtringent Taſte. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> contains the ſame Particles as the for- <lb/>mer, and
+            therefore has the ſame Virtues, but <lb/>it is ſtronger. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> is, as the former, Epiphylloſpermous; <lb/>and therefore is
+            us'd in the ſame Caſes, as it is, <lb/>but is ſtronger and more effectual. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">We</hi> uſe it in deobſtruent Decoctions, in a <lb/>ſmall Quantity,
+            taking Care that it ſtick not to <lb/>the Pleats of the Inteſtines. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> has the letters I. E. naturally engraven <lb/>in the Root;
+            and for this Reaſon it is call'd <lb/>the Root of <hi rend="italic">Jeſus Chriſt</hi>.
+          </p>
+        </div>
+        <div>
+          <head rend="align-center space">
+            <lb/>§. 42. <hi rend="italic">Fœniculum</hi>, <hi rend="italic">Fennel</hi>. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">I</hi>T is of a ſweetiſh, ſubacrid Taſte, and is a <lb/>gentle
+            Aromatick. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Its</hi> Smell and Taſte, as alſo its Analyſis <lb/>prove it to
+            contain gentle, volatile, oily Salts. </p>
+          <pb n="47"/>
+          <p rend="indent">
+            <lb/><hi rend="sc">Whence</hi> it is aperient and lenient alſo, be- <lb/>cauſe of its
+            Oil: It is diuretick, by Reaſon of its <lb/>gentle Salts: It is ſpecifically us'd in
+            Diſeaſes <lb/>of the Lungs ariſing from a viſcous Matter; and <lb/>with Bezoar Mineral
+            it is a noble Ophthal- <lb/>mick (in Diſeaſes of the Eyes ariſing from <lb/>viſcous and
+            glutinous Humors. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">We</hi> uſe it in Infuſion or Decoction, in <lb/>which it depoſits
+            its gentle Salt, and is join'd <lb/>with Eryngo-Root and Aniſeeds. Its Doſe <lb/>is
+            three Ounces. The Decoction of this Root <lb/>with Burdock and Salſaparilla is exceeding
+            good <lb/>in Tremblings of the Joints ariſing from <note n="*" rend="size(0.75)"
+              place="bottom">
+              <p rend="indent">
+                <lb/>* <hi rend="italic">N. B.</hi> Mercury by its great Aſtringency, when
+                <lb/>prepar'd, or made ſo, by abſorbing the Salts of the <lb/>Blood, leaves the
+                Veſſels too rigid; which abate of <lb/>that Stiffneſs by oily volatile Salts: And we
+                obſerve <lb/>ſuch Salts to take off this Aſtringency from Mercurial
+                <lb/>Preparations. </p>
+            </note> Mer- <lb/>cury, and againſt Weakneſſes of the Limbs <lb/>from the venereal
+            Diſeaſe. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">It</hi> has no Preparations, unleſs that it en- <lb/>ters into the
+            Syrup of the <choice>
+              <corr>five</corr>
+              <sic>ſive</sic>
+            </choice> Opening Roots, <lb/>and Syrup of Althæa of <hi rend="italic">Fernelius</hi>. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Its</hi>
+            <hi rend="italic">Generical Mark</hi>; It is an <note n="†" place="bottom"
+              rend="size(0.75)">
+              <p rend="indent">
+                <lb/>† <hi rend="italic">N. B.</hi> Dr. <hi rend="italic">Grew</hi> ſays, that ſuch
+                Plants afford <lb/>a Milk, as I obſerv'd above. </p>
+            </note> umbelli- <lb/>ferous Plant; whereſore, as they uſually are, <lb/>it is opening,
+            attenuating, diuretick, and car- <lb/>minative. </p>
+        </div>
+        <gap reason="sampling" unit="pages" quantity="54"/>
+      </div>
+      <gap reason="sampling" quantity="227" unit="pages"/>
+    </body>
+  </text>
+</TEI>

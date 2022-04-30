@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LMEMT Corpus - Bohadsch and Watson: An Account of Dr. Bohadsch's Treatise</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <analytic>
+            <author>
+              <persName>Dr. Bohadsch</persName>
+              <persName>Wm. Watson</persName>
+            </author>
+            <title>An Account of Dr. Bohadsch's Treatise, Communicated to the Royal Society,
+              Intituled, Dissertatio Philosophico-Medica de Utilitate Electrisationis in Curandis
+              Morbis, Printed at Prague 1751: Extracted and Translated from the Latin by Mr. Wm.
+              Watson, F. R. S.</title>
+          </analytic>
+          <monogr>
+            <title>Philosophical Transactions. Giving Some Account of the Present Undertakings,
+              Studies and Labours, of the Ingenious, in many Considerable Parts of the
+              World.</title>
+            <author>Royal Society</author>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>London: Printed for C. Davis, Printer to the Royal Society, over-against
+                  Gray's-Inn-Gate in Holbourn. </persName>
+              </publisher>
+              <date>1751</date>
+              <biblScope unit="vol">47</biblScope>
+              <biblScope unit="page">345-351</biblScope>
+            </imprint>
+            <extent>
+              <measure type="format">4⁰</measure>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <idno type="ECCO">CW109906897</idno>
+            <idno type="DOI">doi: 10.1098/rstl.1751.0056</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Periodicals"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text type="article" rend="roman" decls="PT47_0345">
+    <body>
+      <pb n="345"/>
+      <head rend="italic hanging">
+        <lb/><hi rend="roman">LV.</hi> An Account of Dr. <hi rend="roman">Bohadſch</hi>'s Treatiſe,
+        <lb/>communicated to the <hi rend="roman">Royal Society</hi>, inti- <lb/>tuled, <hi
+          rend="roman">Diſſertatio philoſophico-medica de <lb/>utilitate electriſationis in curandis
+          morbis</hi>, <lb/>printed at <hi rend="roman">Prague 1751</hi>: extracted and
+        <lb/>tranſlated from the <hi rend="roman">Latin</hi> by Mr. <hi rend="roman">Wm.
+          <lb/>Watſon</hi>, F. R. S. </head>
+      <p rend="space">
+        <lb/>
+        <note place="inset" rend="size(0.7) hanging">Read <date>Jan. 23, <lb/>1752. </date>
+        </note><hi rend="dc(2)">T</hi>HE treatiſe, of which I now offer <lb/>an extract to the Royal
+        Society, was <lb/>ſent hither from my friend and correſpondent Pro- <lb/>feſſor Boſe at
+        Wittemberg, who is always deſirous of <lb/>teſtifying his zeal and attachment to the Royal
+        So- <lb/>ciety, by communicating to us whatever he imagines <lb/>worthy our notice. The
+        author of this treatiſe, Dr. <lb/>Bohadſch, is a Bohemian, a very learned and inge-
+        <lb/>nious gentleman, who, while he was in England <lb/>about two years ſince, was
+        frequently at our meetings, <lb/>and was very converſant with, and much eſteemed <lb/>by,
+        many of our body, from whom he received <lb/>very great civilities. He was more particularly
+        taken <lb/>notice of by his Grace the late Duke of Richmond, <lb/>whoſe loſs we yet lament:
+        His Grace did me the <lb/>honour to recommend him to me, as a gentleman <lb/>not leſs
+        remarkable for his great exemplary modeſty: <lb/>and it is with great pleaſure that I lay
+        before you <lb/>what comes from the hands of one, for whom I have <lb/>ſo great an eſteem. </p>
+      <pb n="346"/>
+      <p rend="indent">
+        <lb/>This treatiſe, from its title, promiſes only an ac- <lb/>count of the advantage of
+        electriſation in medicine: <lb/>but this is not the whole of which it treats; it exhi-
+        <lb/>bits alſo a ſeries of obſervations of the effects of elec- <lb/>tricity upon both ſolid
+        and fluid bodies, upon animals <lb/>in a ſtate of health, as well as upon thoſe diſtemper'd.
+        <lb/>Of each of theſe I propoſe to lay before you ſome <lb/>account in the courſe of this
+        extract. </p>
+      <p rend="indent">
+        <lb/>Our Author firſt takes notice, that electricity, being <lb/>continued for ſome hours,
+        leſſens the weight of the <lb/>body electrified. He exemplifies this firſt on fluid
+        <lb/>bodies; two equal portions of which, before elec- <lb/>triſing, he accurately weighs;
+        and then the difference <lb/>between theſe two portions, one of which has been
+        <lb/>electriſed between four and five hours, and the other, <lb/>though in the ſame room,
+        not electriſed at all, is at- <lb/>tributed to the operation of the electric effluvia. His
+        <lb/>globes, I obſerve, are rubbed by the hands of an <lb/>aſſiſtant. </p>
+      <p rend="indent">
+        <lb/>Four ounces of river water expoſed in a glaſs veſ- <lb/>ſel of four inches diameter
+        were electriſed five hours, <lb/>and loſt in their weight eight grains. </p>
+      <p rend="indent">
+        <lb/>Four ounces of river water, in the ſame kind of <lb/>glaſs, but not electriſed, loſt in
+        the ſame time only <lb/>three grains. The difference then to be attributed <lb/>to the
+        electricity was five grains. The like quanti- <lb/>ties of the fluids hereafter mentioned
+        were expoſed, <lb/>as the water was, and the effects were as follow. </p>
+      <table rows="10" cols="2" rend="indentall">
+        <row role="label" rend="size(0.7)">
+          <cell/>
+          <cell rend="align-center">Grains </cell>
+        </row>
+        <row>
+          <cell>Oil of olives, by electriſing, loſt </cell>
+          <cell rend="align-center">0 </cell>
+        </row>
+        <row>
+          <cell>Vinegar </cell>
+          <cell rend="align-center">ij. </cell>
+        </row>
+        <row>
+          <cell>Water impregnated with nitre </cell>
+          <cell rend="align-center">iij. </cell>
+        </row>
+        <row>
+          <cell>New milk </cell>
+          <cell rend="align-center">iv. </cell>
+        </row>
+        <pb n="347"/>
+        <row role="label" rend="size(0.7)">
+          <cell/>
+          <cell rend="align-center">Grains </cell>
+        </row>
+        <row>
+          <cell>Urine </cell>
+          <cell rend="align-center">vij. </cell>
+        </row>
+        <row>
+          <cell>Spirit of turpentine </cell>
+          <cell rend="align-center">vij. </cell>
+        </row>
+        <row>
+          <cell>Spirit of wine </cell>
+          <cell rend="align-center">viij. </cell>
+        </row>
+        <row>
+          <cell>Volatile ſpirit of ſal ammoniac </cell>
+          <cell rend="align-center">xi. </cell>
+        </row>
+      </table>
+      <p rend="indent space">
+        <lb/>Four ounces of rain-water were expoſed in a tin <lb/>veſſel of four inches in diameter,
+        and electriſed as be- <lb/>fore, and the loſs was ten grains. </p>
+      <p rend="indent">
+        <lb/>A like quantity of the ſame water under the ſame <lb/>circumſtances, electriſing
+        excepted, loſt only three <lb/>grains. In this inſtance, the effect to be attributed <lb/>to
+        the electriſing was ſeven grains. </p>
+      <p rend="indent">
+        <lb/>He then put to the trial, in a tin veſſel inſtead of <lb/>a glaſs one, the ſeveral
+        liquors before-mentioned; <lb/>and except the oil of olives, the water impregnated <lb/>with
+        nitre, and the milk, the reſt loſt by electriſing <lb/>a few grains more of their weight. </p>
+      <p rend="indent">
+        <lb/>He afterwards expoſed three ounces and a half of <lb/>river water in a glaſs veſſel,
+        whoſe diameter was but <lb/>an inch, and this loſt by a like electriſation only <lb/>two
+        grains. The ſame quantity of water, under the <lb/>ſame circumſtances, electriſing excepted,
+        loſt in the <lb/>ſame time nothing of its weight: ſo that, in this <lb/>inſtance, the effect
+        to be attributed to the electricity <lb/>was two grains. The various liquors
+        before-mention'd <lb/>were likewiſe electriſed in a veſſel of the like capacity <lb/>as that
+        containing the laſt water, and they loſt much <lb/>leſs by the operation, than when they
+        were expoſed <lb/>under a larger ſurface. All theſe liquors, electriſed <lb/>for the ſpace
+        of ten hours, as well in veſſels of tin, <lb/>as of glaſs well ſtopped, loſt nothing of
+        their weight. <lb/>From hence our author concludes, 1. That electricity <pb n="348"/>
+        <lb/>augments the natural evaporation of liquors, unleſs <lb/>thoſe of a viſcous kind, as
+        oil of olives, which from <lb/>their tenacity loſe nothing of their weight. 2. That
+        <lb/>electricity increaſes the evaporation of liquors in pro- <lb/>portion as they are more
+        or leſs volatile: for volatile <lb/>ſpirit of ſal ammoniac ſuffered a greater evaporation,
+        <lb/>than either ſpirit of wine or ſpirit of turpentine. <lb/>Theſe laſt loſt more than
+        water, and even this loſt <lb/>more than the ſolution of nitre and the vinegar, as <lb/>we
+        ſee by the experiments. 3. That electricity ope- <lb/>rates moſt in thoſe veſſels, which are
+        moſt permeable <lb/>to its effluvia, <hi rend="italic">viz.</hi> in veſſels of metal more
+        than <lb/>thoſe of glaſs. <choice>
+          <corr>4.</corr>
+          <sic>5.</sic>
+        </choice> That the effects of electriſing are <lb/>not obſerved in veſſels cloſely ſtopped. </p>
+      <p rend="indent">
+        <lb/>He afterwards put to the trial ſeveral ſubſtances <lb/>of a more ſolid form. A pear
+        weighing four ounces <lb/>and a half, electriſed five hours, loſt of its weight <lb/>6
+        grains. A pear of the ſame kind, not electriſed, <lb/>loſt nothing: ſo that the difference
+        ariſing from elec- <lb/>trification was 6 grains. He then ſubjected other <lb/>ſubſtances to
+        this trial, and the effects were as fol- <lb/>low. </p>
+      <table rows="9" cols="2" rend="indentall">
+        <row role="label" rend="size(0.7)">
+          <cell/>
+          <cell rend="align-center">Grains. </cell>
+        </row>
+        <row>
+          <cell>A piece of dry oak loſt </cell>
+          <cell rend="align-center">0 </cell>
+        </row>
+        <row>
+          <cell>A bunch of keys </cell>
+          <cell rend="align-center">0 </cell>
+        </row>
+        <row>
+          <cell>Two new-laid eggs </cell>
+          <cell rend="align-center">ij </cell>
+        </row>
+        <row>
+          <cell>A piece of new crum of bread </cell>
+          <cell rend="align-center">iij </cell>
+        </row>
+        <row>
+          <cell>— raw beef </cell>
+          <cell rend="align-center">iij </cell>
+        </row>
+        <row>
+          <cell>— ſalt beef </cell>
+          <cell rend="align-center">iv </cell>
+        </row>
+        <row>
+          <cell>— ſponge lightly moiſten'd </cell>
+          <cell rend="align-center">vi </cell>
+        </row>
+        <row>
+          <cell>A bunch of grapes </cell>
+          <cell rend="align-center">vij </cell>
+        </row>
+      </table>
+      <pb n="349"/>
+      <p rend="indent">
+        <lb/>From theſe experiments our author obſerves, that <lb/>the electricity diminiſhes the
+        weight of ſolid bodies, <lb/>if theſe are impregnated with humours liable to eva-
+        <lb/>porate: for the dry wood, metals, and other bodies, <lb/>which ſeem to have no fluids,
+        loſe nothing of their <lb/>weight; and therefore it is only upon the fluids in <lb/>them
+        that the electricity operates. </p>
+      <p rend="indent">
+        <lb/>Our author then exhibits ſome experiments made <lb/>by perſons of credit, in order to
+        diſcover, whether or <lb/>no electricity would accelerate the growth of plants; <lb/>and
+        from ſeveral trials found that it did. There then <lb/>follows a ſeries of experiments,
+        which prove, that <lb/>electricity augments the tranſpiration of animals. <lb/>Theſe
+        experiments were made upon puppies, pigeons, <lb/>yellowhammers, and chaffinches; and the
+        effects of <lb/>thoſe electriſed, compared with thoſe of the ſame <lb/>kind, which were not,
+        evince, that electricity does <lb/>increaſe the tranſpiration of animals. Our author
+        <lb/>here has annexed ſeveral curious tables, comparing <lb/>the loſs of weight of the
+        animals, while electriſing, <lb/>to what they loſe in the ſame time without electriſing.
+        <lb/>Whoever therefore is deſirous of peruſing them, muſt <lb/>conſult the work itſelf. </p>
+      <p rend="indent">
+        <lb/>Dr. Bohadſch proceeds to give us a theory of thoſe <lb/>diſtempers, in which
+        electricity ſeems to have the <lb/>greateſt effects. He confines himſelf however more
+        <lb/>particularly to the <hi rend="italic">hemiplegia</hi>; of which diſtemper <lb/>he gives
+        us the hiſtory, correſponding with what we <lb/>find in the beſt medical writers. He
+        likewiſe gives <lb/>us the uſual method of cure, and ſhews, that the <lb/>attempts of
+        relieving this malady by electricity, <lb/>nearly ſquare intentionally with the remedies
+        moſt <lb/>celebrated in practice. That the electrical ſparks <pb n="350"/>
+        <lb/>and commotion produce the ſame effect, though in a <lb/>more powerful manner, as warm
+        ſulphureous baths, <lb/>frictions, ſinapiſms, ſtinging with nettles, <hi rend="italic"
+          >&amp;c.</hi> gene- <lb/>rally made uſe of in the cure of this diſtemper. This
+        <lb/>reaſoning does very well in theory; but I ſhould <lb/>have been glad to have ſeen it
+        juſtified by practice, <lb/>and his own obſervations. But inſtead of theſe, our <lb/>author
+        contents himſelf with giving us over again the <lb/>lying ſtories of Pivati: to which he has
+        added the <lb/>four caſes publiſhed ſome time ſince, and tranſmitted <lb/>to the Royal
+        Society, as well as to myſelf, by Pro- <lb/>feſſor Sauvages, of Montpellier. Theſe caſes
+        indeed <lb/>do credit to electricity, but we want more of them. </p>
+      <p rend="indent">
+        <lb/>Our author finiſhes this diſſertation, by deducing <lb/>ſeveral concluſions from what
+        he has premiſed, and <lb/>theſe are as follow. </p>
+      <p rend="space">
+        <list rend="hanging">
+          <item>
+            <lb/>I. That electricity may be advantageouſly applied to <lb/>medicinal purpoſes. </item>
+          <item>
+            <lb/>II. That it augments the natural tranſpiration of <lb/>animals. </item>
+          <item>
+            <lb/>III. That this acceleration of tranſpiration in men <lb/>is through the exhaling
+            capillary veſſels, and not <lb/>through the ſubcutaneous glands. </item>
+          <item>
+            <lb/>IV. That the nervous fluid may be called the elec- <lb/>trical fluid. </item>
+          <item>
+            <lb/>V. That the nerves ſubſervient to ſenſation are not <lb/>different from thoſe
+            ſubſervient to motion. </item>
+          <item>
+            <lb/>VI. That the immediate cauſe of the <hi rend="italic">hemiplegia</hi> is <lb/>the
+            immeability of the nervous fluid through the <lb/>nerves. </item>
+          <item>
+            <lb/>VII. That of all other diſtempers the <hi rend="italic">hemiplegia</hi> ſeems
+            <lb/>moſt properly the object of electricity. </item>
+          <pb n="351"/>
+          <item>
+            <lb/>VIII. That it may be of uſe alſo in intermitting <lb/>fevers. </item>
+          <item>
+            <lb/>IX. That a palſy in the left ſide of the body is owing <lb/>to the right ſide of
+            the brain, and <hi rend="italic">vice verſa</hi>. </item>
+          <item>
+            <lb/>X. That anger, the parent of numerous evils, is <lb/>ſometimes uſeful to
+            paralytics. </item>
+          <item>
+            <lb/>XI. That as long as the paralytic limbs are rigid, it <lb/><choice>
+              <corr/>
+              <sic>it </sic>
+            </choice>is an argument, that the burſal ligaments of the <lb/>joints, and the ſheaths
+            of the tendons, are deficient <lb/>in the fluid, adapted by nature for their lubri-
+            <lb/>cation. </item>
+          <item>
+            <lb/>XII. That every ſpecies of palſy does not ariſe from <lb/>the nerves being either
+            obſtructed, or compreſſed. </item>
+        </list>
+      </p>
+      <p rend="indent space">
+        <lb/>In concluding this account, I cannot help obſerv- <lb/>ing, that, contrary to his uſual
+        modeſty, our author <lb/>has been guilty of a ſlight plagiariſm in this work; <lb/>as,
+        without quoting his author, he has tranſlated from <lb/>the French into Latin the tables
+        above-mention'd, as <lb/>well as his experiments, proving that electricity for- <lb/>wards
+        vegetation, from our worthy brother the Abbé <lb/>Nollet's treatiſe, intitled, <hi
+          rend="italic">Recherches ſur les cauſes <lb/>particulieres dés phenomenons
+          electriques</hi>. See Nollet <lb/>pag. 358 to 380. Dr. Bohadſch has only alter'd <lb/>the
+        date 1747 to 1750. But it is to be remem- <lb/>ber'd, that theſe accounts were calculated
+        for the <lb/>meridian of Prague, and not for thoſe of London <lb/>and Paris. </p>
+    </body>
+  </text>
+</TEI>

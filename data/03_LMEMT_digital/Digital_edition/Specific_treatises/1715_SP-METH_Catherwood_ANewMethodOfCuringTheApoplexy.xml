@@ -1,0 +1,1212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> LMEMT Corpus - Catherwood: A new method of curing the apoplexy</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>John Catherwood</persName>
+            </author>
+            <title type="main">A NEW METHOD Of Curing the APOPLEXY. WITH An APPENDIX, containing
+              some Observations upon the Use and Abuse of PHYSICK.</title>
+            <edition n="1"/>
+            <idno type="ESTC">T61355</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/T61355"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>London: printed by J. Darby, for W. Taylor at the Ship in
+                  Pater-Noster-Row, J. Browne without Temple-Bar, and Edward Symon at the Black Bull
+                  in Cornhill, M.DCC.XV.</persName>
+              </publisher>
+              <date>1715</date>
+            </imprint>
+            <extent>
+              <measure type="format">8⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="7"/>
+              <measure type="count" commodity="body" unit="page" quantity="77"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">British Library</orgName>
+            <idno type="ECCO">CW3307115260</idno>
+            <idno type="TCP">K053335.000</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Book on a specific topic: method"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text xml:lang="eng">
+    <front>
+      <gap reason="sampling" unit="pages" quantity="6"/>
+    </front>
+    <body>
+      <pb xml:id="page_8" n="1"/>
+      <head rend="align-center"><lb/>A <lb/><hi rend="italic dc(2)">NEW METHOD</hi>
+        <lb/>Of Curing <lb/><hi rend="dc(2)">APOPLEXIES</hi>, <lb/>AND <lb/><hi rend="italic">Other
+          Diſtempers of the HEAD</hi>. </head>
+      <p rend="space"><lb/>
+        <figure>
+          <figDesc>Decorative frame around the letter "N".</figDesc>
+        </figure>
+        <hi rend="dc(4)">N</hi>Otwithſtanding the <w part="I">va-</w><lb/><w part="F">rious</w>
+        Treatiſes that have <lb/>been writ by learned and <lb/>ingenious Men, as well <lb/>antient
+        as modern, on <lb/>this Subject, which have been <w part="I">han-</w><lb/><w part="F"
+          >dled</w> with the greateſt Accurateneſs <lb/>as to the Theory; yet for the <w part="I"
+          >Me-</w>
+        <pb xml:id="page_9" n="2"/><lb/><w part="F">thod</w>of treating it thro the whole
+        <lb/>Courſe, particularly at its firſt <w part="I">Ap-</w><lb/><w part="F">pearance</w>, I
+        find nothing writ more <lb/>forreign from the Purpoſe: For by <lb/>bleeding out of the
+        Veins, and other <lb/>uſual Methods of Practice, they prey <lb/>upon and exhauſt the animal
+        Spirits, <lb/>and confirm the Diſtemper, rather <lb/>than relieve the Patient. </p>
+      <p rend="indent"><lb/>But not to detain the Reader with <lb/>the Meaſures others have taken,
+        and <lb/>ſtill perſiſt in; I ſhall only offer my <lb/>own Thoughts, and the Method by
+        <lb/>which for ſome Years paſt I've found <lb/>ſuch happy Succeſs, as well in <hi
+          rend="italic">Flan-<lb/>ders,</hi> as elſewhere, confirm'd by a <lb/>few Obſervations.
+        Therefore without <lb/>any further Introduction, I ſhall juſt <lb/>deſcribe this Diſeaſe,
+        and proceed. </p>
+      <p rend="indent"><lb/>'Tis then an Apoplexy when the <lb/>Body is ſuddenly depriv'd of the
+        <lb/>chief Animal Faculties, as well <w part="I">in-</w><lb/><w part="F">ternal</w> as
+        external, and all voluntary <lb/>Motion, ſo that the Animal Spirits <lb/>are either deny'd a
+        Paſſage from the <lb/>Brain, or an Entrance into it; the <lb/>Ventricles or Pores of the
+        Brain <w part="I">be-</w><lb/><w part="F">ing</w> either compreſs'd from a <w part="I"
+          >Contu-</w><pb xml:id="page_10" n="3"/><lb/><w part="F">ſion</w>, or obſtructed from a
+        Plethora, <lb/>Poiſons, Medicines endued with a <lb/>Narcotic Faculty, which ſo alter
+        <lb/>the Blood, Lymph, and other Fluids, <lb/>as to render 'em unfit to paſs freely
+        <lb/>thro the Arteries of the Brain, <lb/>whereby, thro the violent Impetus of <lb/>of the
+        Heart, the Blood is ſo wedg'd <lb/>in, that it cauſes a Stagnation; and <lb/>oftentimes
+        Polypuſes are form'd in <lb/>the Carotids, Sinus's, and Vertebral <lb/>Arteries, ſo that all
+        the Spirits <w part="I">in-</w><lb/><w part="F">dulgent</w> Nature can rally to ſupport
+        <lb/>the Fabric, are detach'd to the <w part="I">Muſ-</w><lb/><w part="F">cles</w> of the
+        Thorax, to perform <w part="I">Re-</w><lb/><w part="F">ſpiration</w>, without which the
+        Patient <lb/>is inevitably loſt. </p>
+      <p rend="indent"><lb/>Now ſince the Brain is the Seat of <lb/>this Diſeaſe, 'twill not be at
+        all <w part="I">im-</w><lb/><w part="F">proper</w> to take notice of its <w part="I"
+          >Struc-</w><lb/><w part="F">ture</w>, as well as its Uſe, before I <w part="I"
+          >pro-</w><lb/><w part="F">ceed</w> any farther. There are then <lb/>two Subſtances which
+        conſtitute <lb/>the Brain, <hi rend="italic">viz.</hi> the Cinericious, being <lb/>the
+        Exterior, call'd the Cortical; the <lb/>inner, from its Whiteneſs and <w part="I"
+          >Soft-</w><lb/><w part="F">ness</w>, the Medullary: the former of <lb/>which, according to
+          <hi rend="italic">Malpigius,</hi> is <lb/>nothing but a Gland of the <w part="I"
+          >conglo-</w><pb xml:id="page_11" n="4"/><lb/><w part="F">merate</w> kind, or a Heap of
+        ſmall <w part="I">o-</w><lb/><w part="F">val</w> Glands contiguous with each <w part="I"
+          >o-</w><lb/><w part="F">ther</w>; to each of which is affix'd an <lb/>Artery that brings
+        the Blood, by <lb/>the means of which Glands the <w part="I">Mat-</w><lb/><w part="F"
+          >ter</w> conſtituting the Animal Spirits, <lb/>is ſecern'd from its purer and <w part="I"
+          >ſub-</w><lb/><w part="F">tler</w> Parts: from hence the Veins <lb/>carry back the
+        refluent Blood, that's <lb/>unfit for generating of Spirits; and <lb/>then the Nerve, or
+        Root of a Nerve, <lb/>in which, as in an excretory Duct of <lb/>a Gland, the Spirits juſt
+        now <w part="I">perfec-</w><lb/><w part="F">ted</w>, are carry'd into the <w part="I"
+          >Medulla-</w><lb/><w part="F">ry</w> Subſtance, as a Storehouſe or <lb/>Magazine, and from
+        thence thro <lb/>the whole nervous Syſtem, for the <lb/>Benefit of conveying Senſe and <w
+          part="I">Mo-</w><lb/><w part="F">tion</w> to the Animal Oeconomy. </p>
+      <p rend="indent"><lb/>Now ſince not only the <w part="I">Corti-</w><lb/><w part="F">cal</w>
+        Subſtance of the Brain, but <lb/>the Medullary alſo, and even the <lb/>Nerves themſelves are
+        interſpers'd <lb/>with an infinite Number of <w part="I">exceſ-</w><lb/><w part="F">ſive</w>
+        ſmall Blood-Veſſels; whatever <lb/>cauſes an Obſtruction in them, or <lb/>makes 'em too
+        turgid, cauſes an <w part="I">Apo-</w><lb/><w part="F">plexy</w> in ſome degree or other, by
+        <lb/>preſſing on the Nerves, and ſo <w part="I">pre-</w><pb xml:id="page_12" n="5"/><lb/><w
+          part="F">venting</w> the Circulation of their <lb/>Fluid. </p>
+      <p rend="indent"><lb/>To diminiſh then the Quantity of <lb/>Blood from the Veins, is what all
+        have <lb/>had immediate recourſe to as their <lb/>chief Refuge and Aſylum, either from
+        <lb/>the Frontal, Jugular, Cephalic, or <w part="I">Me-</w><lb/><w part="F">diana</w> for a
+        Revulſion; whereas that <lb/>is now exploded, the Laws of <w part="I">Cir-</w><lb/><w
+          part="F">culation</w> not admitting it: and if <lb/>this did not anſwer their <w part="I"
+          >Expecta-</w><lb/><w part="F">tion</w>, the Patient was given over as <lb/>in a deſperate
+        Caſe; according to this <lb/>of <hi rend="italic">Hippocrates,</hi> ſpeaking of an <w
+          part="I">Apo-</w><lb/><w part="F">plexy</w>, <hi rend="italic">Venae ſectio, ni juvet, <w
+            part="I">occi-</w><lb/><w part="F">det</w>;</hi> or this of <hi rend="italic"
+          >Celſus,</hi> to the ſame <lb/>purpoſe, <hi rend="italic">Sanguinis detractio, vel <w
+            part="I">oc-</w><lb/><w part="F">cidit</w>, vel liberat.</hi> Which is enough <lb/>to
+        convince us how prejudicial ſuch <lb/>Evacuations from the Veins were <lb/>found, and how
+        uncertain the <w part="I">Prac-</w><lb/><w part="F">tice</w> was obſerv'd to be, even by the
+        <lb/>Antients; tho, for want of a better, <lb/>it has unhappily been perſiſted in to
+        <lb/>this preſent time. </p>
+      <p rend="indent"><lb/>'Twas indeed in many Caſes <w part="I">fre-</w><lb/><w part="F"
+          >quently</w> us'd by the Antients, but <lb/>now become ſo much in vogue, that <lb/>'tis
+        order'd almoſt on all Occaſions, <pb xml:id="page_13" n="6"/><lb/>except in Cachectic
+        Perſons, or thoſe <lb/>grown Hydropical by impoveriſh'd <lb/>Blood, Diſeaſes contracted by
+          <w part="I">Hun-</w><lb/><w part="F">ger</w>, Fatigue, <hi rend="italic">&amp;c.</hi>
+      </p>
+      <p rend="indent"><lb/>Let the Obſtruction be where it <lb/>will, tho at the Fingers end, <w
+          part="I">open-</w><lb/><w part="F">ing</w> a Vein muſt relieve it. I can't <lb/>indeed
+        wonder that the Antients did <lb/>it, being in a manner Strangers to <w part="I"
+          >A-</w><lb/><w part="F">natomy</w>, and knowing nothing of the <lb/>Circulation of the
+        Blood: but ſince, <lb/>by the indefatigable Induſtry of the <lb/>Moderns, that Part of
+        Learning is <lb/>arriv'd to ſuch Perfection, I admire <lb/>there's not more notice taken of
+        the <lb/>Inconveniencies that attend <w part="I">Phlebo-</w><lb/><w part="F">tomy</w>; but
+        'tis paſt over as an <w part="I">Ope-</w><lb/><w part="F">ration</w> to be attempted by any
+          <w part="I">Per-</w><lb/><w part="F">ſon</w>, at any Seaſon, regard being <w part="I"
+          >on-</w><lb/><w part="F">ly</w> had to the Strength of the <w part="I">Pa-</w><lb/><w
+          part="F">tient</w>, touching of the Nerve, <w part="I">Ten-</w><lb/><w part="F">don</w>,
+        or its Aponeuroſis. </p>
+      <p rend="indent"><lb/>But if by an Obſtruction, <w part="I">Apo-</w><lb/><w part="F"
+          >plexies</w>, or any Diſtemper incident to <lb/>the Head is caus'd; to make a more
+        <lb/>copious Evacuation, and ſpeedy <w part="I">De-</w><lb/><w part="F">rivation</w>, the
+        Diſcharge muſt be made <lb/>by opening the Jugulars: which <w part="I">O-</w><lb/><w
+          part="F">peration</w> falls ſo far ſhort of their <pb xml:id="page_14" n="7"
+        /><lb/>Intention, that it proves far more <lb/>diſmal in its Conſequences; by ſo <lb/>much
+        the more effectually <w part="I">confirm-</w><lb/><w part="F">ing</w> the Obſtruction, by
+        how much <lb/>the nearer the Ligatures approach <lb/>the Part affected. </p>
+      <p rend="indent"><lb/>Experienc'd Surgeons indeed will <lb/>uſe no Ligature round the Neck,
+        for <lb/>fear of Suffocation in Apoplexies <lb/>and Squinanceys but only let a
+        <lb/>Stander-by compreſs the Jugular, <lb/>on the contrary ſide, with his <lb/>Thumb, and
+        fix their own juſt <w part="I">be-</w><lb/><w part="F">low</w> the Place where they deſign
+        <lb/>their Aperture. But too many uſe <lb/>Ligatures, and either apply the middle <lb/>of
+        the Fillet behind the Neck, the <lb/>two Ends being brought before and <lb/>twiſted; or turn
+        one End over one <lb/>Clavicle, and under the contrary <w part="I">Ax-</w><lb/><w part="F"
+          >illa</w>, and ſo the two Ends are brought <lb/>before and faſtned: both which are
+        <lb/>very pernicious, particularly the <w part="I">lat-</w><lb/><w part="F">ter</w>, which
+        by preſſing on the <w part="I">Ax-</w><lb/><w part="F">illary</w> Vein, ſtops the refluent
+        Blood; <lb/>by which, beſides confirming the <lb/>Obſtruction, as before mention'd,
+        <lb/>Syncopes, Palpitations, Tremors, <lb/>and the like are cauſed: for <w part="I"
+          >what-</w><pb xml:id="page_15" n="8"/><lb/><w part="F">ever</w> thwarts or croſſes the
+        circular <lb/>Progreſs of the Blood, produces <lb/>theſe Effects. </p>
+      <p rend="indent"><lb/>But even bleeding in the Arm, the <lb/>Tediouſneſs of the Operation is
+        ſuch, <lb/>and the Advantage that can be <w part="I">ex-</w><lb/><w part="F">pected</w> from
+        it ſo ſmall, I can by no <lb/>means be reconcil'd to. For firſt the <lb/>Ligature muſt be
+        ſtrain'd, in order <lb/>to cauſe the Veins to ſwell, for the <lb/>more commodious
+        introducing the <lb/>Lancet; which perhaps after all <w part="I">re-</w><lb/><w part="F"
+          >quires</w> the Surgeon's Frictions, to <lb/>force the Blood to the intended <w part="I"
+          >In-</w><lb/><w part="F">ciſion</w>: and this is not ſufficient, but <lb/>often there muſt
+        be hot Cloaths, and <lb/>the Arm plung'd in hot Water; and <lb/>then when the Aperture is
+        made, by <lb/>the Miſapplication of the Bandage, <lb/>the Skin relaxes, the Orifice cloſes,
+        <lb/>and obſtructs its Paſſage: and when <lb/>the Impetuoſity of the Blood abates, <lb/>the
+        Ligature is again ſlacken'd, that <lb/>as much Blood may paſs into that <lb/>Part by the
+        Arteries, as will ſuffice <lb/>for the intended Evacuation. During <lb/>which time, the
+        Obſtruction is <w part="I">con-</w><lb/><w part="F">firming</w>; for the Blood in the Veins
+        <lb/>ſteers an eaſy Courſe from <w part="I">nar-</w><pb xml:id="page_16" n="9"/><lb/><w
+          part="F">rower</w> Paſſages to broader Channels, <lb/>thro their ſoft Tunicles, quite <w
+          part="I">diffe-</w><lb/><w part="F">rent</w> from thoſe of the Arteries; <lb/>whoſe Coats
+        being elaſtic, <w part="I">parti-</w><lb/><w part="F">cularly</w> in the large Trunks, give
+        a <lb/>Velocity to the Blood, which if <w part="I">in-</w><lb/><w part="F">tercepted</w>,
+        cauſes the Blood to be ſo <lb/>turgid in the capillary Veſſels of <lb/>the Brain, even to
+        extravaſate, and <lb/>obſtructs the Spirits in the <hi rend="italic">Senſorium
+          <lb/>Commune,</hi> the firſt Courſe of all <lb/>Nervous Diſtempers; as Palſies,
+        <lb/>Cramps, Convulſions, Apoplexies, <lb/>Emaciations, and inſenſible Decays, <lb/>without
+        any viſible Cauſe, that it <lb/>would even poſe Perſons of the beſt <lb/>Judgment to account
+        for it; as alſo <lb/>that Chronical Diſtemper, the <hi rend="italic"
+          >Hy-<lb/>drocephalus,</hi> or watry Humour in the <lb/>Head, which proceeds from <w
+          part="I">extrava-</w><lb/><w part="F">ſated</w> Lymph, occaſion'd by the <lb/>Compreſſion
+        of the Lymphatics. </p>
+      <p rend="indent"><lb/>What has been ſaid will be <w part="I">ſuffi-</w><lb/><w part="F"
+          >cient</w> to convince any unprejudiced <lb/>Perſon, of the Inconveniences that
+        <lb/>attend Phlebotomy. If we reflect <lb/>on the firſt Riſe of this Operation, <lb/>'twill
+        not much heighten our Eſteem <lb/>of it. <hi rend="italic">Pliny,</hi> in his Natural
+        Hiſtory, <pb xml:id="page_17" n="10"/><lb/>tells a whimſical Story of the <hi rend="italic"
+          >Hyp-<lb/>popotamus,</hi> or Sea-Horſe; who, when <lb/>he finds himſelf heavy or
+        indiſpos'd, ſ<lb/>eeks out the ſharpeſt pointed Thorn, <lb/>with which he pricks a certain
+        Vein <lb/>of the Leg; and after a Quantity <lb/>of Blood is drawn, ſtops the Wound <lb/>with
+        Mud: a very poor Precedent, <lb/>that we are oblig'd to have recourſe <lb/>to for this
+        Operation. </p>
+      <p rend="indent"><lb/>But all the propoſed Ends will <lb/>be anſwer'd <hi rend="italic">by
+          opening an Artery.</hi>
+        <lb/>Tho I'm well aſſur'd this Hypotheſis <lb/>will be exploded by the greateſt part <lb/>of
+        the Faculty, it being not only what <lb/>is uncommon, but alſo their being <w part="I"
+          >un-</w><lb/><w part="F">acquainted</w> how the Operation is to <lb/>be perform'd, and the
+        hazard of <w part="I">at-</w><lb/><w part="F">tempting</w> it, will occaſion the <w part="I"
+          >fol-</w><lb/><w part="F">lowing</w> Objections, to render this <lb/>Method trifling and
+        inconſiderable. </p>
+      <p rend="indent"><lb/>Some fancy with <hi rend="italic">Celſus,</hi> that an <lb/>Artery once
+        cut, by reaſon of its <lb/>Syſtole and Diaſtole, from the <w part="I">Solu-</w><lb/><w
+          part="F">tion</w> of its Fibres, can't again <w part="I">conſoli-</w><lb/><w part="F"
+          >date</w> and grow together, but forms a <lb/>Thrombus. </p>
+      <pb xml:id="page_18" n="11"/>
+      <p rend="indent"><lb/>Others have had Stupidity enough <lb/>to affirm, that thoſe Veſſels muſt
+        <lb/>be paſt through with a Needle and <lb/>Thread, in order to re-unite them. </p>
+      <p rend="indent"><lb/>Again, there are thoſe who will <lb/>allow of it in ſome Caſes; yet own
+        <lb/>that they contract, retire within the <lb/>Fleſh, are cicatrized there, and ſo
+        <lb/>ceaſe from their Office of conveying <lb/>Blood to that Part. </p>
+      <p rend="indent"><lb/>There are alſo ſome, that after <lb/>they have been prevail'd upon to
+        <lb/>acknowledge the Poſſibility of their <lb/>Re-union; yet ſtill object againſt <lb/>the
+        Inconveniencies of Bandages, <lb/>which muſt neceſſarily be continued <lb/>for ſeveral Days. </p>
+      <p rend="indent"><lb/>But when theſe Objections have <lb/>been anſwer'd by ocular <w part="I"
+          >Demonſtra-</w><lb/><w part="F">tion</w>, they'l undertake to prove, that <lb/>the Blood
+        in the Arteries, and that <lb/>of the Veins, does not in the leaſt <lb/>differ in their
+        component Parts; and <lb/>that both being continued Tubes, it <lb/>matters not out of which
+        the <w part="I">Eva-</w><lb/><w part="F">cuation</w> is made. Whereas there is <lb/>no
+        greater difference between the <lb/>Fluid contain'd in the Lympheducts <lb/>and Nerves, than
+        between that in <pb xml:id="page_19" n="12"/><lb/>the Veins and Arteries: that of the
+        <lb/>Arteries being of a more lively, <w part="I">flo-</w><lb/><w part="F">rid</w>, ſcarlet
+        Colour, more ſubtil and <lb/>ſpiritous, and the Vehicle that <w part="I">con-</w><lb/><w
+          part="F">veys</w> the Alimentary or Nutritious <lb/>Particles, which in their progreſſive
+        <lb/>Motion, preſs upon thoſe Glands <lb/>whoſe Pores are adapted to admit of <lb/>ſuch
+        Juices as ſerve either for <w part="I">Ac-</w><lb/><w part="F">cretion</w>, Nutrition, or
+        Reparation: <lb/>whereas the Venal being only the <lb/>Refuſe of thoſe Secretions, returns
+        <lb/>to the Heart, that ſo by filling its <lb/>Coronary Veſſels and Ventricles it <lb/>may
+        be enabled to perform its <w part="I">Mo-</w><lb/><w part="F">tion</w> of Contraction and
+        Dilatation, <lb/>which, if its Reflux be intercepted <lb/>by Bandages, it muſt neceſſarily
+        be <lb/>depriv'd of, and conſequently ſuch <lb/>Effects are produc'd as before <w part="I"
+          >men-</w><lb/><w part="F">tion'd</w>. So that this Objection is as <lb/>trifling and
+        frivolous as the reſt. </p>
+      <p rend="indent"><lb/>Theſe being ſo eaſily anſwer'd, <w part="I">a-</w><lb/><w part="F"
+          >nother</w> unanſwerable Objection is <lb/>ſtarted, <hi rend="italic">viz.</hi> That that
+        Branch, which <lb/>we durſt attempt to draw Blood <lb/>from, is ſo ſmall, as not to admit of
+        <lb/>a plentiful Diſcharge. </p>
+      <pb xml:id="page_20" n="13"/>
+      <p rend="indent"><lb/>But the moſt powerful Argument <lb/>to anſwer all theſe Objections, is
+          <w part="I">De-</w><lb/><w part="F">monſtration</w>. I've us'd this Method <lb/>in all
+        Caſes where diminiſhing the <lb/>Quantity of Blood is requir'd, <w part="I">whe-</w><lb/><w
+          part="F">ther</w> in Apoplexies, Quinancies, <w part="I">In-</w><lb/><w part="F"
+          >flammations</w> of the Lungs, <w part="I">Pleuri-</w><lb/><w part="F">ſies</w>, Aſthma's;
+        in all ſorts of <w part="I">Fe-</w><lb/><w part="F">vers</w>, whether intermitting,
+        continual, <lb/>or malignant, without the leaſt <w part="I">miſ-</w><lb/><w part="F"
+          >chievous</w> Accident attending it. But <lb/>this Precaution muſt be uſed, that it be
+        <lb/>ſuch an Artery as immediately paſſes <lb/>over a Bone, which are none but thoſe <lb/>of
+        the Head; and of theſe the <hi rend="italic">Tem-<lb/>poral Artery</hi> is the Principal, it
+        being <lb/>the moſt conſiderable Branch of the <lb/>Carotid, which paſſing over the <hi
+          rend="italic">Os <lb/>Temporale,</hi> admits of a double <w part="I">Com-</w><lb/><w
+          part="F">press</w>. This may be open'd with leſs <lb/>Danger, and with far greater Succeſs
+        <lb/>than any Vein; and I've frequently <lb/>ſeen it run with as continu'd a Stream, <lb/>as
+        from the Arm. </p>
+      <p rend="indent"><lb/>By this time there's no room to <lb/>doubt but the chief Difficulties
+        are <lb/>remov'd; and becauſe ſo few are <w part="I">ac-</w><lb/><w part="F">cuſtom'd</w> to
+        this Operation, I ſhall <lb/>juſt mention how 'tis perform'd; <pb xml:id="page_21" n="14"
+        /><lb/>which is thus. Preſs your Finger on <lb/>the Veſſel, above the place where <lb/>you
+        deſign your Aperture, and your <lb/>Thumb on the ſaid Veſſel beneath, <lb/>to keep the Skin
+        ſmooth, and the <lb/>Veſſel from rolling; then introduce <lb/>your Lancet, raiſing up its
+        Point to <lb/>cut thro the Veſſels and Teguments, <lb/>but not by Punction, as too many
+        <lb/>do in opening the Veins; by which <lb/>means you may make as plentiful a <lb/>Diſcharge
+        as you pleaſe, without <w part="I">be-</w><lb/><w part="F">ing</w> liable to the
+        afore-mention'd <w part="I">In-</w><lb/><w part="F">conveniencies</w> that attend <w
+          part="I">Phlebo-</w><lb/><w part="F">tomy</w>. </p>
+      <p rend="indent"><lb/>After which, you have nothing elſe <lb/>to do than to place your Thumb
+        on <lb/>the Orifice, and preſs it againſt the <lb/><hi rend="italic">Os Temporale;</hi> ſo
+        that if a <w part="I">Throm-</w><lb/><w part="F">bus</w> ſhould ariſe, 'tis ſoon diſpers'd,
+        <lb/>and in a few Minutes the Lips of the <lb/>Orifice will unite. This done, you <lb/>may
+        either uſe a Pledgit of Lint with <lb/>a Plaiſter, or if you pleaſe, the <w part="I"
+          >Com-</w><lb/><w part="F">press</w> with the circular Bandage, <lb/>which is ſufficient
+        without the leaſt <lb/>Occaſion of Styptics. </p>
+      <pb xml:id="page_22" n="15"/>
+      <p rend="indent"><lb/>This Aperture gives an immediate <lb/>Check to the impetuous Velocity of
+        <lb/>the aſcending Blood; which by the <lb/>Syſtole or Contraction of the Heart <lb/>is
+        projected to the Head by the <w part="I">Ca-</w><lb/><w part="F">rotids</w> and Vertebral
+        Arteries, and <lb/>by means of their Semilunary Valves <lb/>prevent its Return to the Heart
+        by <lb/>the ſame Veſſels; ſo that in an <w part="I">in-</w><lb/><w part="F">ſtant</w> it
+        relieves the Patient, without <lb/>preventing the Blood, Lymph, and <lb/>Nervous Fluid, from
+        performing their <lb/>circular Tour, which by Ligatures <lb/>muſt neceſſarily be
+        intercepted. </p>
+      <p rend="indent"><lb/>Suppoſe ſeveral Springs ſend out as <lb/>many Rivulets, which after
+        various <lb/>Turnings and Windings unite and <lb/>form a River, which is receiv'd in a <w
+          part="I">Ba-</w><lb/><w part="F">ſon</w>; wherein an Engin is fix'd, which, <lb/>with its
+        repeated projectile Force, <lb/>throws the Water into ſeveral Tubes, <lb/>in order to be
+        convey'd to and <w part="I">ſup-</w><lb/><w part="F">ply</w> all Parts of a City: now ſhould
+        <lb/>there be an Obſtruction in the Pipes, <lb/>the Engineer may as well expect to
+        <lb/>remove it by diverting and <w part="I">dimi-</w><lb/><w part="F">niſhing</w> the Water
+        in the Rivulets, by <lb/>a different Current, as a Phyſician <lb/>may expect to remove an
+        Obſtruction <pb xml:id="page_23" n="16"/><lb/>in the Arteries, by ordering bleeding <lb/>out
+        of the Veins. </p>
+      <p rend="indent"><lb/>But there is no occaſion to <w part="I">intro-</w><lb/><w part="F"
+          >duce</w> Similies to prove what is ſo <w part="I">ve-</w><lb/><w part="F">ry</w> obvious. </p>
+      <p rend="indent"><lb/>'Tis the part of a Phyſician to <lb/>aſſiſt Nature, by obſerving nicely
+        <lb/>the various Steps ſhe takes to <w part="I">re-</w><lb/><w part="F">pulſe</w> the Enemy.
+          <hi rend="italic">Natura curat <w part="I">Mor-</w><lb/><w part="F">bos</w>,</hi> ſays <hi
+          rend="italic">Celſus.</hi> The Dogmatiſt, that <lb/>can reaſon learnedly on a Diſeaſe,
+        <lb/>but has not throughly conſider'd the <lb/>Nature of it, and the Method of <lb/>Cure,
+        falls far ſhort of a meer <w part="I">Em-</w><lb/><w part="F">pyric</w>, who practiſes only
+        by <w part="I">Ex-</w><lb/><w part="F">perience</w> without any Foundation of <lb/>Learning;
+        ſo that 'tis not the being <lb/>a learned Philoſopher, an accurate <w part="I">A-</w><lb/><w
+          part="F">natomiſt</w>, that entitles a Man to be <lb/>a great Phyſician. That ſucceſſful
+        <lb/>Practitioner, Dr. <hi rend="italic">Radcliff,</hi> never <w part="I">pre-</w><lb/><w
+          part="F">tended</w> to any of theſe <w part="I">Qualifica-</w><lb/><w part="F">tions</w>,
+        nay took a Pleaſure to diſown <lb/>his Knowledg in them; but who in <lb/>his time ſo happy
+        to ſtrike at the <lb/>Root of a Diſtemper! </p>
+      <p rend="indent"><lb/>The Father of Phyſic, <hi rend="italic">Hippocra-<lb/>tes,</hi> when the
+        Art was in its <w part="I">Infan-</w><lb/><w part="F">cy</w>, eſpecially that part of it, <w
+          part="I">Ana-</w>
+        <pb xml:id="page_24" n="17"/><lb/><w part="F">tomy</w>, how ignorant was he of ſome
+        <lb/>Parts of Learning, that the Moderns <lb/>glory in, and value themſelves upon? <lb/>as
+        appears from the confus'd <w part="I">Ac-</w><lb/><w part="F">count</w> he gives, that the
+        Veins take <lb/>their Riſe from the Liver: and <w part="I">ſpeak-</w><lb/><w part="F"
+          >ing</w> of an Artery, he means the <lb/><hi rend="italic">Aſpera Arteria;</hi> and then
+        calls the <lb/>Ureters Veins, and makes a Jumble <lb/>of Nerves, Veins, and Arteries. But
+        <lb/>then who ſo great and ſucceſſful a <lb/>Practitioner ever before or ſince? </p>
+      <p rend="indent"><lb/>Tho I'm not unſenſible that <w part="I">ſeve-</w><lb/><w part="F"
+          >ral</w> Authors have touch'd on this <lb/>Subject, yet what firſt induc'd me to <lb/>the
+        Opinion of <hi rend="italic">Arteriotomy,</hi> was, <lb/>that I don't remember ever to have
+        <lb/>read or heard of Women liable to <lb/>Apoplexies, unleſs from Poiſons, <w part="I"
+          >O-</w><lb/><w part="F">piates</w>, or Miſmanagement of ſome <lb/>foregoing Diſtemper. For
+        however <lb/>Authors differ in their ſeveral <hi rend="italic">Hy-<lb/>potheſes</hi> laid
+        down to account for <lb/>the Periodical Purgations of <w part="I">Wo-</w><lb/><w part="F"
+          >men</w>, whether this menſtruous Blood <lb/>offends in Quantity or Quality, <lb/>it
+        matters not to my preſent <w part="I">Pur-</w><lb/><w part="F">poſe</w>; but whenever this
+          <w part="I">Efferveſ-</w><lb/><w part="F">cence</w> is raiſed, whether Natural, <pb
+          xml:id="page_25" n="18"/><lb/>Periodical, or provok'd by <hi rend="italic"
+          >Emena-<lb/>gogues,</hi> it occaſions an Aperture of <lb/>the Mouths of the Vaginal <w
+          part="I">Arte-</w><lb/><w part="F">ries</w>, and not of the Veins. </p>
+      <p rend="indent"><lb/>The <hi rend="italic">Haemorroides,</hi> or Piles, by <lb/>ſome vitious
+        Ferment irritating the <lb/>tender Fibres of the Arteries, by <lb/>them is diſcharged
+        incredible <w part="I">Quan-</w><lb/><w part="F">tities</w> of Blood. <hi rend="italic"
+          >Borellus</hi> relates a <lb/>Story of a certain Tailor, who loſt <lb/>Ten Pounds by thoſe
+        Veſſels, and <lb/>yet recover'd. </p>
+      <p rend="indent"><lb/>How many Inſtances have we had <lb/>of profuſe <hi rend="italic"
+          >Haemorrhagies</hi> of the <lb/>Noſe? <hi rend="italic">Bartholin</hi> mentions one who
+        <lb/>bled forty eight Pound in three Days, <lb/>without the Loſs of Life. 'Tis well
+        <lb/>known that bleeding at the Noſe <w part="I">re-</w><lb/><w part="F">moves</w>
+        Obſtructions and Pains of <lb/>the Head, whether proceeding from <lb/>an Ebullition or
+        Redundancy of <lb/>Blood. And whence is this Diſcharge <lb/>but by an <hi rend="italic"
+          >Anaſtomoſis,</hi> or <w part="I">Sponta-</w><lb/><w part="F">neous</w> diſjoining of the
+        Capillary <lb/>Arteries, occaſion'd by a convulſive <lb/>Contraction of the Coats of a
+        larger <lb/>Artery? which muſt neceſſarily give <lb/>an extraordinary Diſtention to the
+        <lb/>next, till the Blood can be no longer <pb xml:id="page_26" n="19"/><lb/>contain'd, but
+        burſts out with <w part="I">Im-</w><lb/><w part="F">petuoſity</w>, even to Pounds; whereas
+        <lb/>a few Ounces, diſcharg'd by the <lb/>Veins, has thrown the Patient into <lb/>Faintings,
+        Swoonings, and occaſion'd <lb/>even Death it ſelf. </p>
+      <p rend="indent"><lb/>Now ſince indulgent Nature is ſo <lb/>clear in her Dictates, points out
+        an <lb/>exact Method how we may free her <lb/>from the Inſults of the common <w part="I"
+          >E-</w><lb/><w part="F">nemy</w>, <hi rend="italic">Diſeaſes;</hi> 'tis unreaſonable
+        <lb/>we ſhould not fall in with her <w part="I">Mea-</w><lb/><w part="F">ſures</w>. </p>
+      <p rend="indent"><lb/>By this time I hope any <w part="I">unpreju-</w><lb/><w part="F"
+          >dic'd</w> Reader will be reconcil'd to <lb/><hi rend="italic">Arteriotomy,</hi> and not
+        be byas'd by <lb/>Cuſtom to prefer that of <hi rend="italic">Phlebo-<lb/>tomy.</hi>
+      </p>
+      <p rend="indent"><lb/><hi rend="italic">Phlebotomy</hi> preceding, the next <lb/>Intention is
+        exhibiting <hi rend="italic">Emetics;</hi>
+        <lb/>which from Obſervation I ſhall prove <lb/>to be ſo far from relieving the <w part="I"
+          >Pa-</w><lb/><w part="F">tient</w>, that it proves very pernicious. </p>
+      <p rend="indent"><lb/>For before the Vomit is <w part="I">adminiſ-</w><lb/><w part="F"
+          >tred</w>, 'tis eaſy to ſuppoſe to what a <w part="I">de-</w><lb/><w part="F">gree</w> the
+        Glands of the Brain are <w part="I">fil-</w><lb/><w part="F">trated</w>, and perhaps the
+        Sanguiferous <lb/>Veſſels and Lymphatics burſt. This <pb xml:id="page_27" n="20"
+        /><lb/>extravaſated Blood and Lymph <w part="I">diſ-</w><lb/><w part="F">charg'd</w> into
+        the <hi rend="italic">Sinus's</hi> of the Brain, <lb/>and there coagulated and lodg'd:
+        <lb/>what Relief can poſſibly be <w part="I">expec-</w><lb/><w part="F">ted</w> from an
+        Emetick, which is <w part="I">dia-</w><lb/><w part="F">metrically</w> oppoſite to their
+        former <lb/>Intention of bleeding out of the <lb/>Jugulars? For in this there is ſome
+        <lb/>colour of Reaſon to expect the <w part="I">Re-</w><lb/><w part="F">moval</w> of the
+        Obſtruction; from that <lb/>there's no room to hope for any <lb/>thing but a Confirmation of
+        the <w part="I">Diſ-</w><lb/><w part="F">temper</w>; nor truly in any other <w part="I"
+          >Diſ-</w><lb/><w part="F">eaſe</w>, unleſs when the principal Seat <lb/>is in the Stomach
+        and Inteſtines, to <lb/>diſcharge the morbific Matter, <w part="I">col-</w><lb/><w part="F"
+          >lected</w> in the <hi rend="italic">Primae Viae.</hi> Then an <lb/>Emetic is not
+        altogether <w part="I">unſeaſon-</w><lb/><w part="F">able</w>; tho even then other Meaſures
+        <lb/>may be taken leſs hazardous, and <w part="I">e-</w><lb/><w part="F">qually</w>
+        advantageous. But in this <lb/>Caſe: Vomits are as contrary to true <lb/>Practice, as this
+        Operation to <w part="I">Na-</w><lb/><w part="F">ture</w>; the Fibres of the Stomach
+        <lb/>being ſo diſpos'd, as to diſcharge its <lb/>Contents through the Inteſtines: but
+        <lb/>by theſe irritating Vomits the <w part="I">Dia-</w><lb/><w part="F">phragm</w>,
+        Intercoſtals, and Muſcles <lb/>of the lower Belly are ſo ſtimulated, <pb xml:id="page_28"
+          n="21"/><lb/>that by means of their violent <w part="I">Con-</w><lb/><w part="F"
+          >traction</w>, they force 'em thro the <w part="I">Oe-</w><lb/><w part="F">ſophagus</w>:
+        for what with the violent <lb/>convulſive Motion of the aboveſaid <lb/>Muſcles, together
+        with the <w part="I">Quick-</w><lb/><w part="F">ness</w> of the Organs of Reſpiration,
+        <lb/>the Blood is precipitately hurried and <lb/>projected to the Brain with that <lb/>Force
+        as to increaſe the <w part="I">Extravaſa-</w><lb/><w part="F">tion</w>. How then it is
+        poſſible <w part="I">rea-</w><lb/><w part="F">ſonably</w> to expect Relief from it, I
+        <lb/>can't conjecture. An antient <w part="I">Phy-</w><lb/><w part="F">ſician</w>, ſpeaking
+        of an Apoplexy and <lb/>its Cure, lays down this as a Rule: <lb/><hi rend="italic">Vomitoria
+          fugienda, ne ſuffocationis <w part="I">pe-</w><lb/><w part="F">riculum</w> augeatur, et
+          caput repleatur.</hi>
+        <lb/>Nay, in his Purgatives he would not <lb/>allow the leaſt Quantity of <w part="I"
+          >Antimo-</w><lb/><w part="F">ny</w>, it being alſo endued with a <w part="I"
+          >vo-</w><lb/><w part="F">miting</w> Faculty: <hi rend="italic">Antimonium non
+          <lb/>convenit, cum vomitum ſimul moveat;</hi>
+        <lb/>ſuch ſort of irritating Medicines <w part="I">be-</w><lb/><w part="F">ing</w>
+        ſufficient of themſelves to <w part="I">pro-</w><lb/><w part="F">duce</w> Apoplexies. </p>
+      <p rend="indent"><lb/>And I, for my part, verily believe, <lb/>that were the Bills of
+        Mortality <w part="I">nice-</w><lb/><w part="F">ly</w> examin'd into, and the Cauſes of
+        <lb/>thoſe Caſualties ſtrictly enquir'd <w part="I">af-</w><lb/><w part="F">ter</w>; they
+        would be found more owing <pb xml:id="page_29" n="22"/><lb/>to the irregular Adminiſtration
+        of <lb/>improper Medicines, than to any <lb/>peccant Matter in the Fluids, or any
+        <lb/>external Cauſe whatever. </p>
+      <p rend="indent"><lb/>What I have ſaid I ſhall only <w part="I">con-</w><lb/><w part="F"
+          >firm</w> with two or three Obſervations, <lb/>and that as conciſely as poſſible. </p>
+      <div n="1" type="observation">
+        <head rend="align-center"><lb/><hi rend="italic">Obs.</hi> 1. </head>
+        <p rend="indent"><lb/>There was one Mr. <hi rend="italic">Roach</hi> of <hi rend="italic"
+            >Briſ-<lb/>tol,</hi> who for a long time had labour'd <lb/>under an <hi rend="italic"
+            >Aſthma,</hi> attended with a <lb/>violent Cough till almoſt ſuffocated; <lb/>but after
+          he had expectorated this <lb/>viſcid Phlegm, was reliev'd: but the <lb/>Diſeaſe
+          increaſing, and deſpairing of <lb/>Relief, he apply'd himſelf to me, <w part="I"
+            >in-</w><lb/><w part="F">form'd</w> me he had been ſo afflicted <lb/>for many Years,
+          that at Spring and <lb/>Fall he had very ſevere Fits of the <lb/>Gout; ſo that what with
+          one and <lb/>t'other, he was render'd incapable of <lb/>proſecuting any Buſineſs. I <w
+            part="I">exhibi-</w><lb/><w part="F">ted</w> Medicines of a warm attenuating <lb/>kind,
+          to diſentangle and carry off <lb/>the vitious Matter, promote <w part="I"
+            >Expec-</w><lb/><w part="F">toration</w>, fortify the Stomach and <lb/>Lungs, which
+          effectually compleated <lb/>the Cure. After which he could <w part="I">en-</w><pb
+            xml:id="page_30" n="23"/><lb/><w part="F">dure</w> the Fatigue either of walking or
+          <lb/>riding, was able to diſpatch his Affairs <lb/>with his uſual Alacrity and <w part="I"
+            >Plea-</w><lb/><w part="F">ſure</w>. But ſince my Removal from <lb/><hi rend="italic"
+            >Briſtol,</hi> his old Indiſpoſition returning <lb/>afreſh, he had immediate Recourſe to
+          <lb/>his former Chip-in-Pottage Doctor, <lb/>that ſafe Phyſician that never did <lb/>him
+          any good nor hurt, till he <w part="I">pre-</w><lb/><w part="F">ſcribed</w> that innocent
+          harmleſs Vomit, <lb/>that extoll'd <hi rend="italic">Indian</hi> Root, <hi rend="italic"
+            >Ipecacoan-<lb/>na;</hi> which he had no ſooner taken <lb/>with a Draught of <hi
+            rend="italic">Carduus</hi> Tea, but <lb/>preſently he complain'd of a <w part="I"
+            >Dizzi-</w><lb/><w part="F">ness</w>, and that every thing appear'd to <lb/>him to have
+          a circular Motion: which <lb/>he had no ſooner ſaid, but he dropt <lb/>down dead. </p>
+        <p rend="indent"><lb/>Some may imagine that this <w part="I">Acci-</w><lb/><w part="F"
+            >dent</w> was not owing entirely to the <lb/>Emetic, but a <hi rend="italic"
+            >Plethora;</hi> and had <lb/>bleeding preceded, in order to have <lb/>emptied the
+          Veſſels, the Patient <lb/>might have been ſaved: which <w part="I">Ob-</w><lb/><w part="F"
+            >jection</w>, tho I could anſwer with <lb/>ſeveral Inſtances, I ſhall only <w part="I"
+            >men-</w><lb/><w part="F">tion</w> one. </p>
+      </div>
+      <div n="2" type="observation">
+        <pb xml:id="page_31" n="24"/>
+        <head rend="align-center"><lb/><hi rend="italic">Obs.</hi> 2. </head>
+        <p rend="indent"><lb/>Mr. <hi rend="italic">Snow,</hi> a Broker of about <lb/>Seventy Years
+          of Age, being on <lb/>the <hi rend="italic">Exchange,</hi> was taken with a <lb/>violent
+          Fit of an Apoplexy, and fell <lb/>down as dead; but by means of <w part="I"
+            >Cor-</w><lb/><w part="F">dials</w>, after ſome time began a little <lb/>to recover; by
+          which time a <w part="I">Sur-</w><lb/><w part="F">geon</w> came, and took away about
+          <lb/>Sixteen Ounces of Blood from the <lb/>Arm. I (being accidentally <w part="I"
+            >intro-</w><lb/><w part="F">duc'd</w> by a Friend, who deſir'd my <lb/>Advice) prevented
+          his taking away <lb/>a greater Quantity, but order'd that <lb/>he might be carry'd home in
+          a Chair; <lb/>which Motion contributed mightily <lb/>to a free and uninterrupted <w
+            part="I">Circula-</w><lb/><w part="F">tion</w>, inſomuch that he began to have <lb/>a
+          regular Pulſe. I adviſed that this <lb/>Motion might be continued, finding <lb/>a natural
+          Warmth all over his Body, <lb/>which with adminiſtring comfortable <lb/>Draughts, would be
+          ſufficient to <w part="I">an-</w><lb/><w part="F">ſwer</w> our end. But a certain <w
+            part="I">Apo-</w><lb/><w part="F">thecary</w> coming, whoſe Advice was <lb/>more
+          prevalent with the Patient's <lb/>Friends, adminiſtred a Vomit under <lb/>the pretence of
+          a Cordial: this not <pb xml:id="page_32" n="25"/><lb/>immediately operating, in leſs than
+          <lb/>half a quarter of an hour was about <lb/>to repeat it; which he confidently
+          <lb/>affirm'd would anſwer his End, and <lb/>to confirm his Aſſertion, aſſur'd his
+          <lb/>Friends he was that moment come <lb/>from a Gentleman taken after the <lb/>ſame
+          manner, and reliev'd by the <lb/>ſame Method; but they had only his <lb/>own Word for it,
+          to which I could <lb/>give but very little Credit. This <lb/>poor unhappy Gentleman
+          however <lb/>was loſt by this Treatment. </p>
+        <p rend="indent"><lb/>I could enumerate Inſtances of <lb/>this kind from my own <w part="I"
+            >Obſerva-</w><lb/><w part="F">tion</w>, of the ill Effects of Vomits; <lb/>whether
+          Bleeding had preceded, or <lb/>been omitted. I ſhall give one, to <lb/>ſhew that 'tis
+          ſafer to rely on <lb/>Nature it ſelf, to obſerve its various <lb/>Steps, and endeavour to
+          aſſiſt her <w part="I">on-</w><lb/><w part="F">ly</w> with refreſhing Cardiac Draughts;
+          <lb/>than to have recourſe to Phyſicians <lb/>unacquainted with the Nature of this
+          <lb/>Diſeaſe, as too many are; tho from <lb/>Perſons of ſuch penetrating <w part="I"
+            >Judg-</w><lb/><w part="F">ment</w>, ready Wit, and bright Parts, <lb/>greater things
+          might be expected. </p>
+      </div>
+      <div n="3" type="observation">
+        <pb xml:id="page_33" n="26"/>
+        <head rend="align-center"><lb/><hi rend="italic">Obs.</hi> 3. </head>
+        <p rend="indent"><lb/><hi rend="italic">William Whittington</hi> Eſq; of <hi rend="italic"
+            >Sta-<lb/>pleton</hi> near <hi rend="italic">Briſtol,</hi> now High Sheriff <lb/>of the
+          County of <hi rend="italic">Glouceſter,</hi> near <lb/>eighty Years of Age, returning home
+          <lb/>alone from the City on a gentle Pad, <lb/>was ſeiz'd with an Apoplectic Fit,
+          <lb/>fell back on his Horſe, his Legs ſtiff <lb/>and extended, and to all <w part="I"
+            >Appear-</w><lb/><w part="F">ance</w> dead; but being overtaken by <lb/>ſome returning
+          from a neighbouring <lb/>Market, who took care to convey him <lb/>to an adjacent Alehouſe,
+          where they <lb/>pour'd Brandy down his Throat, as <lb/>alſo a Glaſs or two of Canary: by
+          <lb/>which Method, together with <w part="I">re-</w><lb/><w part="F">peated</w> Frictions
+          all over his Body, <lb/>he came to himſelf, was ſent home <lb/>in his own Chariot, where
+          he no <lb/>ſooner came, but jocoſely calld for <lb/>his Staff of Life, and Support of old
+          <lb/>Age, meaning a Bit of Bread and a <lb/>Glaſs of Canary. The next Day he <lb/>took a
+          gentle Cordial purging Draught, <lb/>and without the uſe of any other <lb/>Medicines
+          recover'd; only never miſt <lb/>the returning Fit twice a year, which <lb/>encreas'd in
+          its Violence Spring and <pb xml:id="page_34" n="27"/><lb/>Fall, till a violent Fever
+          follow'd <lb/>the laſt, which he not expecting to <lb/>conquer, ſent for me: and having
+          <lb/>before obſerv'd what ſeem'd to be <lb/>moſt advantageous, and by what <lb/>Method
+          Nature was moſt reliev'd, <lb/>without cramming him with <w part="I">Medi-</w><lb/><w
+            part="F">cines</w>, I advis'd him to nothing but <lb/>to drink old Canary as a <hi
+            rend="italic">Ptiſan,</hi> by <lb/>which alone he was perfectly <w part="I"
+            >reco-</w><lb/><w part="F">ver'd</w>; and ever ſince has been freed <lb/>from thoſe kind
+          of Fits. </p>
+        <p rend="indent"><lb/>Not only <hi rend="italic">Phlebotomy,</hi> unſeaſonable <lb/>Uſe of
+            <hi rend="italic">Emetics,</hi> but <hi rend="italic">Cathartics</hi> alſo, <lb/>if not
+          well adapted to the Diſeaſe, <lb/>may prove very prejudicial to the <lb/>Patient. Other
+          Diſeaſes miſmanaged <lb/>may and often do terminate in an <lb/>Apoplexy. </p>
+      </div>
+      <div n="4" type="observation">
+        <head rend="align-center"><lb/><hi rend="italic">Obs.</hi> 4. </head>
+        <p rend="indent"><lb/>An Inhabitant of <hi rend="italic">Briſtol,</hi> that kept <lb/>a
+          Public Houſe on the <hi rend="italic">Caſtle-Green,</hi>
+          <lb/>labouring under a Dropſy in the <hi rend="italic">Ab-<lb/>domen,</hi> accompany'd
+          with an <hi rend="italic">Aſthma</hi>
+          <lb/>and <hi rend="italic">Jaundice,</hi> being rather the <w part="I">Ef-</w><lb/><w
+            part="F">fects</w> than Cauſe of the Diſeaſe; <w part="I">em-</w><lb/><w part="F"
+            >ploys</w> a Limb of the Law, that is <pb xml:id="page_35" n="28"/><lb/>dwindled to an
+          inſignificant Branch <lb/>of Phyſic; who aſſumes the Title of <lb/><hi rend="italic"
+            >Doctor,</hi> tho he is much better <w part="I">qua-</w><lb/><w part="F">lify'd</w> for
+          a <hi rend="italic">Jack-pudding,</hi> having a <lb/>Genius peculiarly adapted to <w
+            part="I">Mi-</w><lb/><w part="F">mic</w>, and attempts to ape that great
+          <lb/>Practitioner Dr. <hi rend="italic">Radcliff</hi> in his <w part="I">Prog-</w><lb/><w
+            part="F">noſtics</w>, aſſuring his Patients, that by <lb/>ſuch a time they need not
+          deſpair of <lb/>their being perfectly reliev'd, which <lb/>generally happens according to
+          his <lb/>Predictions; for he ſeldom fails of <w part="I">cur-</w><lb/><w part="F">ing</w>
+          ing 'em of all Diſtempers, having no <lb/>leſs than <hi rend="italic">AEſcalapius</hi> for
+          a Precedent, <lb/>who thought it not worth while to <lb/>attempt prolonging the Lives of
+          thoſe <lb/>that were enfeebled, and exhauſted, <lb/>leſt they ſhould live to beget <w
+            part="I">Chil-</w><lb/><w part="F">dren</w> as infirm as themſelves, and ſo <lb/>be
+          render'd unfit Members for any <lb/>Society. He, without a long Demur, <lb/>pronounces the
+          poor Hydropical <w part="I">Pa-</w><lb/><w part="F">tient</w> to be in a fair way of <w
+            part="I">Recove-</w><lb/><w part="F">ry</w>, gives him great hopes to expect <lb/>a Cure
+          in a few days, preſcribes your <lb/>Gummy Reſinous Cathartics, which <lb/>render'd the <hi
+            rend="italic">Craſis</hi> of the Blood more <lb/>unfit for aſſimilating its <hi
+            rend="italic">Serum,</hi> by <lb/>weakning Digeſtion, and producing <pb xml:id="page_36"
+            n="29"/><lb/>Crudities; which brought on a <w part="I">com-</w><lb/><w part="F"
+            >pleat</w> Apoplexy, that in ſix hours <lb/>time after the Doſe was adminiſtred,
+          <lb/>carry'd off the Patient. In the place <lb/>of which, had he evacuated the <hi
+            rend="italic">Se-<lb/>rum</hi> by proper Remedies, prevented <lb/>its farther Encreaſe
+          by fortifying <lb/>and corroborating the Stomach, <w part="I">re-</w><lb/><w part="F"
+            >ſtor'd</w> and ſtrengthen'd the <hi rend="italic">Craſis</hi> of <lb/>the Blood,
+          diſlodg'd the Viſcous <w part="I">Mat-</w><lb/><w part="F">ter</w> that adher'd to the <hi
+            rend="italic">Plicae,</hi> or Folds <lb/>of the Stomach, by warm <w part="I"
+            >attenua-</w><lb/><w part="F">ting</w> Stomachical Specifics; the poor <lb/>unfortunate
+          Man might have now <lb/>been in perfect Health. </p>
+        <p rend="indent"><lb/>Others again mightily rely on the <lb/>Uſe of <hi rend="italic"
+            >Clyſters,</hi> and ſuch as are of a <lb/>ſharp, acrid, irritating Nature, to relieve
+          <lb/>thoſe Affections of the Head, <w part="I">Epi-</w><lb/><w part="F">lepſys</w>,
+          Lethargys, Palſys, Apoplexys, <lb/>and the like; <hi rend="italic">Revulſionis ergo.</hi>
+          But <lb/>this Method of deriving Humours <lb/>from one place to its oppoſite, is <lb/>now
+          laid aſide, as before hinted: for <lb/>in this Caſe the Inteſtines themſelves <lb/>are
+          Paralytically affected, and will <lb/>ſcarce retain a <hi rend="italic">Clyſter,</hi> if
+          at that time <lb/>injected: if it does remain, it only <pb xml:id="page_37" n="30"
+          /><lb/>affects the Inteſlines and <hi rend="italic">Primæ Viæ,</hi>
+          <lb/>and is not the leaſt ſerviceable in <w part="I">a-</w><lb/><w part="F">verting</w>
+          Vapours from the Head. </p>
+        <p rend="indent"><lb/><hi rend="italic">Cupping</hi> and <hi rend="italic">Scarifying</hi>
+          is <w part="I">wonder-</w><lb/><w part="F">fully</w> in vogue with ſome, for the
+          <lb/>above Reaſons, of <hi rend="italic">Revulſion</hi> and <hi rend="italic"
+            >De-<lb/>rivation:</hi> but the Attraction of the <lb/>Cupping-Glaſs has ſo little
+          Effect, the <lb/>Number who uſe them ſo few, and <lb/>thoſe ſo inconſiderable, 'tis ſcarce
+          <lb/>worth while to ſpend time to <w part="I">con-</w><lb/><w part="F">fute</w> ſuch
+          erroneous Methods. </p>
+        <p rend="indent"><lb/>The next thing that comes to be <lb/>conſider'd, is <hi rend="italic"
+            >Bliſters;</hi> which too <lb/>many mightily rely on, without <w part="I">re-</w><lb/><w
+            part="F">flecting</w> on the ill Effects they have <lb/>in ſome Caſes, and on ſome <w
+            part="I">Conſtitu-</w><lb/><w part="F">tions</w>; eſpecially thoſe of a <w part="I"
+            >Scorbu-</w><lb/><w part="F">tic</w> Habit of Body, in extreme hot <lb/>Conſtitutions,
+          when for the want of <lb/><hi rend="italic">Serum</hi> the Blood boils. In old <w part="I"
+            >Per-</w><lb/><w part="F">ſons</w>, whoſe Balſamic Particles of the <lb/>Blood are for
+          the moſt part exhauſted, <lb/>and too great a Quantity of <w part="I">corro-</w><lb/><w
+            part="F">ſive</w>
+          <hi rend="italic">Serum</hi> is left; to ſuch the <w part="I">Appli-</w><lb/><w part="F"
+            >cation</w> of <hi rend="italic">Bliſters</hi> does more hurt than <lb/>good: for by the
+          too great Action <pb xml:id="page_38" n="31"/><lb/>of the Cauſtic Salts that enter the
+          <lb/>Pores, and inſinuate themſelves into <lb/>the Maſs of Blood, the Parts are ſo
+          <lb/>ſtimulated, as to cauſe violent <w part="I">Stran-</w><lb/><w part="F">guries</w>,
+          voiding of bloody Urine; <lb/>forcing alſo Subſtances of Matter, <lb/>reſembling Fat, ſo
+          large as would be <lb/>thought incredible, to paſs through <lb/>ſo narrow a Paſſage as
+          that of the <lb/><hi rend="italic">Urethra.</hi> Now ſince the <w part="I"
+            >Inconve-</w><lb/><w part="F">nience</w> that neceſſarily attends ſuch <lb/>Methods is
+          ſo great, and the <w part="I">Advan-</w><lb/><w part="F">tage</w> that may reaſonably be
+          expected <lb/>from 'em ſo ſmall; they are fitter for <lb/>the Practice of <hi
+            rend="italic">Empirics</hi> and <hi rend="italic">Scara-<lb/>mouches,</hi> than <hi
+            rend="italic">regular Phyſicians:</hi> But <lb/>I would not tire the Reader's <w
+            part="I">Pa-</w><lb/><w part="F">tience</w> with a long and tedious <w part="I"
+            >Diſ-</w><lb/><w part="F">courſe</w>, and ſhall therefore only add <lb/>a few more
+          Obſervations, and <w part="I">con-</w><lb/><w part="F">clude</w>. </p>
+      </div>
+      <div n="5" type="observation">
+        <head rend="align-center"><lb/><hi rend="italic">Obs.</hi> 5. </head>
+        <p rend="indent"><lb/>A <hi rend="italic">Corniſh</hi> Man, of about Thirty <lb/>Six Years
+          of Age, who had been <lb/>very much addicted to thoſe violent <lb/>Exerciſes of
+          Cudgelling, Wreſtling, <lb/>Hurling, for which that County, <lb/>during the time of their
+          Revels, <pb xml:id="page_39" n="32"/><lb/>is very remarkable; quitting his <w part="I"
+            >Em-</w><lb/><w part="F">ploy</w> for the more immediate Service <lb/>of his Queen and
+          Country, goes for <lb/><hi rend="italic">Flanders;</hi> but being unacquainted <lb/>with
+          the Fatigue of ſeveral Marches, <lb/>and unaccuſtom'd to take up with <lb/>ſuch ſlender
+          Fare, was ſeiz'd with a <lb/>ſlow lingring Fever, which terminated <lb/>in a Deprivation
+          of the Uſe of his <lb/>Limbs. After which manner he <lb/>continued in the Hoſpital during
+          the <lb/>whole Campaign; at the breaking <lb/>up of which, he was committed to <lb/>the
+          Surgeon's Care of the reſpective <lb/>Regiment, till the opening of the <lb/>next
+          Campaign; and then was again <lb/>receiv'd into the Hoſpital, in a much <lb/>worſe
+          Condition than when he left <lb/>it, being perfectly emaciated, having <lb/>cruſty Ulcers
+          on the Backs of his <lb/>Hands, and on his Shin-Bones, <w part="I">re-</w><lb/><w part="F"
+            >ſembling</w> Venereal Nodes; the Bones <lb/>alſo carious, ſeveral Abſeſſes form'd
+          <lb/>on the Head, with fiery Botches or <lb/>Carbuncles, occaſion'd by the ſharp
+          <lb/>Cauſtic Lixivious Salts, with which <lb/>the Blood abounded. He fell under <lb/>my
+          Care, but all means proving <w part="I">in-</w><lb/><w part="F">effectual</w>, he died in
+          a few days. I <pb xml:id="page_40" n="33"/><lb/>indeed ſuſpected his Caſe at firſt to
+          <lb/>be Venereal; but being a Perſon <lb/>bearing a good Character, and <w part="I"
+            >pro-</w><lb/><w part="F">teſting</w> he had been at no time <lb/>converſant with Women,
+          I thought it <lb/>would be requiſite to endeavour to <lb/>diſcover from what Cauſe thoſe
+            <w part="I">dire-</w><lb/><w part="F">ful</w> Effects aroſe. In order thereto, I
+          <lb/>firſt reſolv'd to examine the Brain, <lb/>and had no ſooner made my Inciſion <lb/>on
+          the Scalp, but I perceiv'd the <hi rend="italic">Cra-<lb/>nium</hi> to be foul and
+          carious; which, <lb/>in taking it off, I found had reach'd <lb/>not only the inner <hi
+            rend="italic">Lamina,</hi> but alſo <lb/>both <hi rend="italic">Meninges,</hi> and even
+          the <w part="I">Corti-</w><lb/><w part="F">cal</w> Subſtance of the Brain: in <w part="I"
+            >per-</w><lb/><w part="F">forming</w> which, notwithſtanding there <lb/>iſſued a vaſt
+          Quantity of <hi rend="italic">Serum,</hi> yet <lb/>in the third Ventricle, by the <hi
+            rend="italic">Glan-<lb/>dula Pinealis,</hi> was lodg'd near a Pint <lb/>of Lymph, and
+          that ſo very viſcous <lb/>and ropy as to be deny'd the leaſt <lb/>Paſſage. In the <hi
+            rend="italic">Infundibulum</hi> was <lb/>alſo an incredible Quantity of <w part="I"
+            >viſ-</w><lb/><w part="F">cid</w>
+          <hi rend="italic">Serum,</hi> much thicker than the <lb/>firſt; and the <hi rend="italic"
+            >Glandula pituitaria</hi>
+          <w part="I">fil-</w><lb/><w part="F">trated</w> like a cancerated Gland. This
+          <lb/>Diſcovery contributed mightily to <lb/>my Satisfaction; and 'twas very <w part="I"
+            >evi-</w><pb xml:id="page_41" n="34"/><lb/><w part="F">dent</w> that the Train of this
+          poor <w part="I">Fel-</w><lb/><w part="F">low's</w> Misfortunes proceeded not <lb/>from
+          any Venereal Cauſe, but from <lb/>thoſe Falls and Bruiſes he had <w part="I"
+            >for-</w><lb/><w part="F">merly</w> receiv'd; which when Nature <lb/>was indulged, the
+          Spirits buoy'd up, <lb/>the Fibres firm and elaſtic, each part <lb/>could better perform
+          its Function, <lb/>and ſo prevent the enſuing Diſeaſe: <lb/>but when reduced to mean Diet
+          and <lb/>ſcanty Allowance, expos'd to Heats <lb/>and Colds, inſeparable Concomitants
+          <lb/>of a Military Life; the Spirits flag <lb/>and become languid, the Fibres loſe
+          <lb/>their wonted Elaſticity, and become <lb/>lax, the Blood loſes its Tone; in ſhort,
+          <lb/>the whole Animal Oeconomy is ſo <lb/>diſorder'd, that the vigorous Attack <lb/>of a
+          Diſeaſe meets with a very feeble <lb/>Repulſe. For by theſe ſevere Shocks <lb/>the
+          Lymphatics and ſanguiferous <w part="I">Veſ-</w><lb/><w part="F">ſels</w> being frequently
+          broke, the <w part="I">ex-</w><lb/><w part="F">travaſated</w> Blood and Lymph is <w
+            part="I">diſ-</w><lb/><w part="F">charg'd</w> into the <hi rend="italic">Sinus's</hi> of
+          the Brain, <lb/>where it coagulates and becomes ſo <lb/>viſcous as not to be able to paſs
+          thoſe <lb/>narrow Canals, but lie congeſted there, <lb/>and is not only the Source of <pb
+            xml:id="page_42" n="35"/><lb/>dreadful Symptoms, but the Cauſe <lb/>of Death it ſelf.
+        </p>
+      </div>
+      <div n="6" type="observation">
+        <head rend="align-center"><lb/><hi rend="italic">Obs.</hi> 6. </head>
+        <p rend="indent"><lb/>A certain Gentlewoman of <hi rend="italic">Ghent</hi>
+          <lb/>in <hi rend="italic">Flanders</hi> accompanying her Spouſe <lb/>to <hi rend="italic"
+            >Batavia,</hi> of which he was Major <lb/>Commandant till his Deceaſe, in <lb/>her
+          Return from thence was taken <lb/>very ill; for which Indiſpoſition the <lb/>Surgeon of
+          the Veſſel adviſed her to <lb/>the Uſe of the <hi rend="italic">Cold Bath:</hi> but <w
+            part="I">whe-</w><lb/><w part="F">ther</w> owing to his Ignorance or her <lb/>Neglect,
+          ſhe omitted emerging her <lb/>Head. She was no ſooner got out of <lb/>the <hi
+            rend="italic">Bath,</hi> but immediately her Head <lb/>and Face was ſo ſwoln, as to
+          deprive <lb/>her both of Sight, Speech, and the Uſe <lb/>of all her Limbs. At her Arrival
+          at <lb/><hi rend="italic">Amſterdam,</hi> Conſultations were held <lb/>by the beſt
+          Phyſicians concerning <lb/>her Caſe, with very good Succeſs as <lb/>to the abating the
+          Swelling of her <lb/>Head, and Recovery of Speech; but <lb/>as for retrieving the Uſe of
+          her Limbs, <lb/>ſhe found no manner of Benefit, but <lb/>remain'd void of all Senſe and
+          Motion. <lb/>Thus deſpairing of Help, ſhe return'd <lb/>to <hi rend="italic">Ghent,</hi>
+          and apply'd her ſelf to the <pb xml:id="page_43" n="36"/><lb/>Phyſicians of the <hi
+            rend="italic">French</hi> Hoſpital, <lb/>who were then in that Gariſon, but <lb/>with as
+          little Advantage as the former. <lb/>In this Condition was ſhe for ſome <lb/>Years
+          confin'd to her Bed, and reduc'd <lb/>to a meer Skeleton; the Bones of the <lb/><hi
+            rend="italic">Carpus</hi> and <hi rend="italic">Metacarpus,</hi> thoſe of the <lb/><hi
+            rend="italic">Tarſus</hi> and <hi rend="italic">Metatarſus</hi> being diſtorted <lb/>to
+          a Deformity; nay, the very <hi rend="italic">Pha-<lb/>langes</hi> of the Fingers and Toes
+          were <lb/>diſlocated by the Contraction of the <lb/>Tendons. She then had recourſe to
+          <lb/>the Town Phyſicians: but neither <lb/>their Inunctions of penetrating Oils,
+          <lb/>camphorated Spirits; their <w part="I">Aroma-</w><lb/><w part="F">tics</w>, or
+          volatile Sudorifics, to <w part="I">cor-</w><lb/><w part="F">rect</w> and diſcharge this
+          peccant <w part="I">Mat-</w><lb/><w part="F">ter</w>, that intercepted the nervous
+          <lb/>Fluid; nor their Decoctions of the <lb/>Woods, Fomentations or <hi rend="italic">Hot
+            Baths,</hi>
+          <lb/>avail'd any thing: of ſhe entertain'd <lb/>no longer Hopes of being reliev'd. </p>
+        <p rend="indent"><lb/>But after that Memorable Battle <lb/>at <hi rend="italic"
+            >Ramillies,</hi> on <hi rend="italic">May</hi> 23. 1706. the <lb/>Victory being obtain'd
+          over the <lb/>Duke of <hi rend="italic">Bavaria,</hi> by that Victorious <lb/>General, his
+            <hi rend="italic">Grace the Duke of <w part="I">Marl-</w><lb/><w part="F"
+            >borough</w>,</hi> which occaſion'd the ſpeedy <lb/>Reduction of all the <hi
+            rend="italic">Netherlands,</hi>
+          <pb xml:id="page_44" n="37"/><lb/>the <hi rend="italic">Britiſh Hoſpital</hi> remov'd to
+            <hi rend="italic">Ghent;</hi>
+          <lb/>and I accidentally took Lodgings <lb/>under the Roof of this miſerable
+          <lb/>Gentlewoman, who being inform'd <lb/>I belong'd to that Hoſpital, was <w part="I"
+            >ve-</w><lb/><w part="F">ry</w> importunate with me to uſe my <lb/>utmoſt Endeavours to
+          remove her <lb/>Indiſpoſition. </p>
+        <p rend="indent"><lb/>Her Caſe being very uncommon, <lb/>and the Succeſs precarious, I could
+          <lb/>not promiſe much to raiſe her <w part="I">Expec-</w><lb/><w part="F">tations</w>; yet
+          being unwilling to <w part="I">diſ-</w><lb/><w part="F">courage</w> her, I took my leave
+          with <lb/>an Aſſurance of conſidering her Caſe, <lb/>and get the Opinion of other <w
+            part="I">Phy-</w><lb/><w part="F">ſicians</w>, whom I conſulted: but their
+          <lb/>concluding that 'twas a perfect <hi rend="italic">Atro-<lb/>phy,</hi> diſſuaded me
+          from attempting <lb/>that which was ſo improbable of <w part="I">be-</w><lb/><w part="F"
+            >ing</w> accompliſh'd. </p>
+        <p rend="indent"><lb/>My laſt Obſervation ſuggeſted to <lb/>me, that this Numbneſs and <w
+            part="I">Dead-</w><lb/><w part="F">ness</w> proceeded from the Obſtruction <lb/>of the
+          nervous Fluid, occaſion'd by <lb/>the viſcous glutinous Matter lodg'd <lb/>in the <hi
+            rend="italic">Sinus's</hi> of the Brain; which, <lb/>if it could be diluted by the Power
+          of <lb/>Medicine, ſo as to be carry'd off by <lb/>its proper Veſſels, I then thought I <pb
+            xml:id="page_45" n="38"/><lb/>might expect Succeſs: ſo <w part="I">communi-</w><lb/><w
+            part="F">cating</w> my Thoughts of her Caſe, and <lb/>the Method I deſign'd to proſecute
+          <lb/>for the Cure, to the ingenious Dr. <lb/><hi rend="italic">Laurence,</hi> then <hi
+            rend="italic">Phyſician General to <lb/>her Majeſty's Forces in</hi> Flanders, he
+          <lb/>approv'd of my Method, as the moſt <lb/>probable to recover my Patient, and
+          <lb/>eſtabliſh my Character. </p>
+        <p rend="indent"><lb/>This encourag'd me to undertake <lb/>the Cure. What fluſh'd me more
+          with <lb/>Hopes of Succeſs, was, that in a <lb/>ſhort time her <hi rend="italic"
+            >Menſtrua</hi> flow'd; which <lb/>before, during the whole time of her <lb/>Illneſs,
+          were totally ſuppreſs'd: after <lb/>which, in three Weeks time, ſhe was <lb/>capable (with
+          the Aſſiſtance of <w part="I">ano-</w><lb/><w part="F">ther's</w> Arm) to walk to Church,
+          and <lb/>by degrees acquir'd her former <lb/>Health and Strength, to the great
+          <lb/>Surprize of all that knew her <w part="I">deplo-</w><lb/><w part="F">rable</w> Caſe.
+          In a ſhort time after ſhe <lb/>was marry'd, and deliver'd of a ſtrong <lb/>and healthy
+          Child. </p>
+        <p rend="indent"><lb/>This confirm'd me in the Opinion, <lb/>that let a Chronical Caſe be
+          ne'er ſo <lb/>intricate, 'tis in the power of <w part="I">Me-</w><lb/><w part="F"
+            >dicines</w> (if rightly apply'd) to <w part="I">re-</w><lb/><w part="F">move</w> it,
+          ſuppoſing there's not too <pb xml:id="page_46" n="39"/><lb/>great a <hi rend="italic"
+            >Petrefaction,</hi> or Loſs of <w part="I">Sub-</w><lb/><w part="F">ſtance</w> in the
+          Parts affected: For the <lb/>Truth of which, I could produce <w part="I">ſe-</w><lb/><w
+            part="F">veral</w> Inſtances, were it not a <w part="I">Di-</w><lb/><w part="F"
+            >greſſion</w> from my preſent Deſign. </p>
+      </div>
+      <div n="7" type="observation">
+        <head rend="align-center"><lb/><hi rend="italic">Obs.</hi> 7. </head>
+        <p rend="indent"><lb/>A robuſt young Fellow, at the Siege <lb/>of <hi rend="italic"
+            >Bruſſels, Anno Dom.</hi> 1706. <w part="I">receiv-</w><lb/><w part="F">ing</w> a Shot
+          thro the <hi rend="italic">Metatarſus;</hi>
+          <w part="I">af-</w><lb/><w part="F">ter</w> the Wound was well digeſted, <lb/>Suppuration
+          promoted, and he in a <lb/>fair way of Recovery, only <w part="I">com-</w><lb/><w part="F"
+            >plaining</w> mightily for want of Sleep, <lb/>the Phyſician, in his Tour of <w part="I"
+            >Vi-</w><lb/><w part="F">ſits</w>, order'd him a gentle <hi rend="italic">Hypnotic</hi>
+          <lb/>Draught: but the Apothecary's <lb/>Man, in diſtributing the Medicines, <lb/>gave him
+          alſo to the Quantity of <w part="I">ſe-</w><lb/><w part="F">ven</w> Grains of <hi
+            rend="italic">Laudanum</hi> (Miſtakes <lb/>of which kind in the <hi rend="italic"
+            >Britiſh</hi>
+          <w part="I">Hoſ-</w><lb/><w part="F">pital</w> are ſeldom or ever known) <lb/>the next
+          Morning, to my Surprize, <lb/>I found him dead. The Nurſe <w part="I">in-</w><lb/><w
+            part="F">form'd</w> me what Pills he had taken, <lb/>how jocoſe, pleaſant, and merrily
+          <lb/>diſpos'd he was, that he ſung very <lb/>cheerfully, and a ſhort while after
+          <lb/>dozed away. </p>
+        <pb xml:id="page_47" n="40"/>
+        <p rend="indent"><lb/>The next day, in opening his <lb/>Head to ſee what Diſcovery I could
+          <lb/>make, I no ſooner reach'd the <hi rend="italic">Me-<lb/>ninges,</hi> but I found ſome
+          of the <w part="I">Veſ-</w><lb/><w part="F">ſels</w> diſtended to a prodigious degree,
+          <lb/>others burſt, from whence iſſued an <lb/>incredible Quantity of Blood; and <lb/>from
+          the <hi rend="italic">Sinus's</hi> came (as near as I <lb/>could judg) to the Quantity of
+          three <lb/>Quarts that was extravaſated. </p>
+        <p rend="indent"><lb/>Here's an Inſtance of an <hi rend="italic">Apoplexy</hi>
+          <lb/>from <hi rend="italic">Laudanum,</hi> which convinces <lb/>me that its <hi
+            rend="italic">Narcotic</hi> or <hi rend="italic">Hypnotic</hi>
+          <w part="I">Fa-</w><lb/><w part="F">culty</w> proceeded neither from an <lb/>occult
+          Quality, or intenſe Coldneſs, <lb/>either by coagulating or environing <lb/>the Particles
+          of Blood or Spirits, and <lb/>ſo preventing their Motion: for ſince <lb/>by a Chymical <hi
+            rend="italic">Analyſis</hi> we find it <lb/>gives a copious Quantity of fetid <lb/>Oil
+          and Volatile Spirit, it <w part="I">plain-</w><lb/><w part="F">ly</w> conſutes that
+          Aſſertion of its <w part="I">be-</w><lb/><w part="F">ing</w> cold; but on the contrary, it
+            <w part="I">diſ-</w><lb/><w part="F">ſolves</w> the Texture of the Blood, <w part="I"
+            >ren-</w><lb/><w part="F">ders</w> the Humours more fluid, <w part="I">hur-</w><lb/><w
+            part="F">ries</w> the Spirits into diſorderly <w part="I">Mo-</w><lb/><w part="F"
+            >tions</w>, and the Heart, by its repeated <lb/>Syſtole, projects the Blood with too
+          <lb/>great a Velocity to the Brain. </p>
+        <pb xml:id="page_48" n="41"/>
+        <p rend="indent"><lb/>Indeed when the <hi rend="italic">Opium</hi> begins <lb/>firſt of all
+          to inſinuate it ſelf, it <lb/>rarifies the Arterial Blood: this <w part="I">be-</w><lb/><w
+            part="F">ing</w> rarified, the Spirits then, not ſo <lb/>much fetter'd with bloody
+          Particles, <lb/>are in a greater quantity, and with <lb/>more eaſe, ſecern'd by the Glands
+          of <lb/>the Brain, and convey'd in a greater <lb/><hi rend="italic">Copia</hi> by the
+          Nerves thro all Parts of <lb/>the Body; which produces that <w part="I">Paſ-</w><lb/><w
+            part="F">ſion</w> of the Mind, <hi rend="italic">Joy:</hi> but when by <lb/>this
+          Rarefaction the Arteries are ſo <lb/>diſtended, as to compreſs the Nerves, <lb/>and retard
+          the Circulation of their <lb/>Fluid, <hi rend="italic">Comatoſe</hi> Diſtempers muſt
+          <lb/>there neceſſarily be produc'd. Hence <lb/>it is, that adminiſtring <hi rend="italic"
+            >Opium</hi> in the <lb/>beginning of Fevers, the Small-Pox, <lb/>and the like, where the
+          Blood is <lb/>already in too great a Ferment, <lb/>inſtead of anſwering the Intention
+          <lb/>of compoſing the Patient, throws <lb/>him into <hi rend="italic">Deliriums,</hi> and
+          even <hi rend="italic">Madness</hi>
+          <lb/>it ſelf, hurries him headlong and <w part="I">diſ-</w><lb/><w part="F">tracted</w>
+          out of the World. </p>
+      </div>
+      <div n="8" type="observation">
+        <pb xml:id="page_49" n="42"/>
+        <head rend="align-center"><lb/><hi rend="italic">Obs.</hi> 8. </head>
+        <p rend="indent"><lb/>Mr. <hi rend="italic">Kilbraith,</hi> a Merchant of <hi rend="italic"
+            >Bris-<lb/>tol,</hi> about Forty Five Years of Age, <lb/>labouring for many Years under
+          a <lb/><hi rend="italic">Hypocondriac Melancholy,</hi> continu'd <lb/>under the Phyſicians
+          hands for a <lb/>long time; but was ſo far from <w part="I">reap-</w><lb/><w part="F"
+            >ing</w> the leaſt Benefit from their <w part="I">Pre-</w><lb/><w part="F"
+            >ſcriptions</w>, that he daily declin'd, and <lb/>loſt his Appetite; nay, the very Sight
+          and <lb/>Smell of Meats were ſo offenſive <lb/>as to create a <hi rend="italic"
+            >Nauſea,</hi> till at length he <lb/>had contracted a Complication of <lb/>Diſeaſes:
+          then he committed himſelf <lb/>to my Care, who in a ſhort time had <lb/>the good Fortune
+          to be the <w part="I">Inſtru-</w><lb/><w part="F">ment</w> of his Recovery. </p>
+        <p rend="indent"><lb/>Some time after having an Affair <lb/>at the <hi rend="italic"
+            >Bath,</hi> and there meeting with <lb/>a Gentleman of his Acquaintance, <lb/>he was
+          prevail'd upon to bathe <w part="I">him-</w><lb/><w part="F">ſelf</w>; but what with
+          ſweating, the <lb/>Vitriolic, Sulphureous, or <w part="I">Bitumi-</w><lb/><w part="F"
+            >nous</w>
+          <hi rend="italic">Effluvia</hi> of the Waters, he <w part="I">be-</w><lb/><w part="F"
+            >came</w> faint, heavy, and render'd <w part="I">al-</w><lb/><w part="F">moſt</w>
+          Lethargic: however relying too<lb/>much on the Strength of Nature, he <lb/>neglected the
+          Uſe of Means, till one <pb xml:id="page_50" n="43"/><lb/>Night being taken with a
+          Contraction <lb/>of the Nerves, and ſoon after ſeiz'd <lb/>with a few Convulſive
+          Paroxyſms; <lb/>I was ſent for the Morning <w part="I">follow-</w><lb/><w part="F"
+          >ing</w>, and advis'd him to air and <w part="I">ex-</w><lb/><w part="F">erciſe</w>
+          himſelf with gentle Riding: <lb/>he no ſooner attempted to riſe, and <lb/>plac'd his Feet
+          on the cold Floor, <lb/>but was immediately ſeiz'd with a <lb/>violent Fit of an Apoplexy,
+          and in a <lb/>moment became cold, ſtiff, and to <lb/>all Appearance lifeleſs. At this <w
+            part="I">ſur-</w><lb/><w part="F">prizing</w> Accident, the whole Family <lb/>ran out to
+          rally ſome of the <w part="I">Neigh-</w><lb/><w part="F">bourhood</w> to their Aſſiſtance,
+          left me <lb/>alone, where I accidentally found a <lb/>ſmall Bottle of Spirits of
+          Harts-horn, <lb/>which I pour'd down his Throat; and <lb/>at their Return I deſir'd he
+          might have <lb/>a Friction all over his Body: which <lb/>prov'd ſo ſucceſſful, that I ſoon
+            <w part="I">per-</w><lb/><w part="F">ceiv'd</w> a Pulſation and Reſpiration. <lb/>I then
+          took Sixteen Ounces of Blood <lb/>from the Temporal Artery, and in <lb/>leſs time than
+          ever I obſerv'd from <lb/>the Arm; after which, I preſcrib'd <lb/>what I thought proper
+          for his Caſe. <lb/>Other Phyſicians who were alſo ſent <pb xml:id="page_51" n="44"
+          /><lb/>for, came, and to my Face approv'd <lb/>of my Method of treating him, but
+          <lb/>after my Departure they ridicul'd it <lb/>as miſchievous and hurtful, ſaying
+          <lb/>'twas the only way to draw the <w part="I">Diſ-</w><lb/><w part="F">temper</w> to,
+          and confirm it in the Head. <lb/>Whether <hi rend="italic">Ignorance</hi> or <hi
+            rend="italic">Malice</hi> had the <lb/>Aſcendant, or whether equal Parts <lb/>of both
+          contributed to furniſh their <lb/><hi rend="italic">Upper Rooms,</hi> it matters not: but
+          <lb/>my Affairs obliging me to go a few <lb/>Miles from thence, I deſir'd the <w part="I"
+            >Sur-</w><lb/><w part="F">geon</w>, if he was threatned with a <w part="I"
+            >re-</w><lb/><w part="F">turning</w> Fit, to introduce his Lancet <lb/>into the ſame
+          Orifice, and take ſuch <lb/>a Quantity as might be requiſite; <lb/>but at the Attack of
+          the next Fit, <lb/>theſe judicious Gentlemen <w part="I">preven-</w><lb/><w part="F"
+            >ted</w> the Surgeon, and diſſuaded the <lb/>Friends, by amuſing them with the
+          <lb/>dangerous Conſequence that muſt <lb/>neceſſarily accrue, till the Blood <lb/>flew
+          impetuouſly out of the Mouth <lb/>and Noſe; and then, when 'twas too <lb/>late, they
+          conſented. <w part="I">Howe-</w><lb/><w part="F">ver</w>, after this ſecond Diſcharge he
+          <lb/>immediately recover'd his Senſe and <lb/>Speech. At my Return, his Friends
+          <lb/>inform'd me what had happen'd, and <pb xml:id="page_52" n="45"/><lb/>that 'twas owing
+          to thoſe Phyſicians, <lb/>that they had not ſtrictly obſerv'd <lb/>my Method; at which
+          being about <lb/>to leave him, I was prevail'd upon, by <lb/>his importuning me ſo
+          earneſtly, to <lb/>tarry. I was entirely of the <w part="I">Opi-</w><lb/><w part="F"
+            >nion</w>, that the Veſſels of the Brain <lb/>were burſt; but however I deſir'd a
+          <lb/>Conſultation with Dr. <hi rend="italic">Bave</hi> of <hi rend="italic">Bath,</hi>
+          <lb/>and acquainted him with my <w part="I">Pro-</w><lb/><w part="F">ceedings</w>, which
+          he approv'd of, and <lb/>gave him my Opinion of the <w part="I">Deſ-</w><lb/><w part="F"
+            >perateness</w> of his Caſe, which he alſo <lb/>fear'd. But the other Phyſicians,
+          <lb/>tho their Companies and Opinions <lb/>were deſir'd, yet thought fit, as they <lb/>had
+          ſneak'd off, to abſcond, who <w part="I">be-</w><lb/><w part="F">ing</w> too conſcious to
+          themſelves of <lb/>the irreparable Prejudice they had <w part="I">al-</w><lb/><w part="F"
+            >ready</w> done; giving only this ſhuffling, <lb/>trifling Excuſe, That truly Dr. <hi
+            rend="italic">Bave</hi>
+          <lb/>was ſo ſingular as to conſult with <lb/>none but ſuch as had been educated <lb/>at
+            <hi rend="italic">Oxford;</hi> whereas that <hi rend="italic">ingenious,</hi>
+          <lb/>as well as <hi rend="italic">ingenuous</hi> Gentleman, <lb/>who is a Credit to the
+          Univerſity <lb/>where educated, an Advantage to <lb/>the Town where he reſides, and to
+          <lb/>ſuch that have Recourſe there for <pb xml:id="page_53" n="46"/><lb/>the Benefit of
+          the Waters, regards <lb/>the Qualifications of a Phyſician <lb/>more than the Place where
+            <w part="I">quali-</w><lb/><w part="F">fy'd</w>. After ſome Medicines <w part="I"
+            >pre-</w><lb/><w part="F">ſcrib'd</w>, the Doctor returns without <lb/>entertaining the
+          leaſt Hopes of his <lb/>Recovery; but the Patient reſting <lb/>well that Night, his former
+            <w part="I">Phyſi-</w><lb/><w part="F">cians</w> concluded then he was in a <lb/>fair
+          way of doing well. I took <w part="I">li-</w><lb/><w part="F">berty</w> to inform 'em how
+          great <w part="I">Stran-</w><lb/><w part="F">gers</w> they were to his preſent Caſe;
+          <lb/>and that when they were in the <lb/>greateſt Expectations of his being <lb/>out of
+          danger, that then they would <lb/>have moſt reaſon to fear his being <lb/>ſnatch'd away:
+          which happen'd <w part="I">ac-</w><lb/><w part="F">cordingly</w>; for the very enſuing
+          <lb/>Night, whilſt jocoſe and merry with <lb/>his Friends, he was ſeiz'd of a ſudden,
+          <lb/>and had juſt time allow'd him to <w part="I">be-</w><lb/><w part="F">queath</w> his
+          Soul to God that gave it, <lb/>and ſo expir'd, ſnorting and <w part="I"
+            >diſcharg-</w><lb/><w part="F">ing</w> a vaſt Quantity of Livid Blood <lb/>from his
+          Noſtrils. </p>
+        <p rend="indent"><lb/>This to me is an evident Proof <lb/>that this Gentleman was entirely
+          <lb/>loſt by this Neglect, the Diſeaſe <w part="I">be-</w><lb/><w part="F">ing</w> too
+          violent, and too ſudden to <pb xml:id="page_54" n="47"/><lb/>be conquer'd by internal
+          Medicines; <lb/>whereas had the Artery been open'd, <lb/>as I order'd, it might have
+          prevented <lb/>the returning Fit. </p>
+      </div>
+      <div n="9" type="observation">
+        <head rend="align-center"><lb/><hi rend="italic">Obs.</hi> 9. </head>
+        <p rend="indent"><lb/>Mr. <hi rend="italic">Jeffrey Pinnel,</hi> a very <w part="I"
+            >conſi-</w><lb/><w part="F">derable</w> Man of the City of <hi rend="italic"
+            >Briſtol,</hi>
+          <lb/>returning from Morning-Service, and <lb/>reflecting on the manifold Mercies
+          <lb/>bounteous Heaven had beſtow'd on <lb/>him, particularly acknowledged the <lb/>large
+          Share of that ineſtimable <w part="I">Jew-</w><lb/><w part="F">el</w>, <hi rend="italic"
+            >Health,</hi> which from his Infancy <lb/>he had enjoy'd without the leaſt <w part="I"
+            >In-</w><lb/><w part="F">terval</w> of Sickneſs; and that <w part="I"
+            >notwith-</w><lb/><w part="F">ſtanding</w> he was ſo much advanc'd <lb/>in Years, he
+          could diſcern no ſenſible <lb/>Alteration as to his good Habit of <lb/>Body: but in the
+          mean time, <w part="I">in-</w><lb/><w part="F">clining</w> his Head with a Deſign to
+          <lb/>buckle his Shoe, he fell down as <lb/>dead on the Floor; which (being a <lb/>Stone
+          Pavement) made a <w part="I">conſide-</w><lb/><w part="F">rable</w> Contuſion on his
+          Forehead. <lb/>He was immediately lifted up, and <lb/>what with Frictions and Cardiac
+          <lb/>Draughts, was recruited to that <w part="I">de-</w><pb xml:id="page_55" n="48"
+            /><lb/><w part="F">gree</w>, that in the ſpace of three <lb/>Hours he became very
+          ſenſible; and <lb/>amongſt ſeveral Phyſicians that were <lb/>mention'd to him, he was
+          pleas'd to <lb/>ſend for me, inform'd me of his <lb/>manner of being ſeiz'd, that he was
+          <lb/>then very Coſtive, and had a <w part="I">Sup-</w><lb/><w part="F">preſſion</w> of
+          Urine; but the Pulſe <w part="I">be-</w><lb/><w part="F">ing</w> not very irregular, I
+          defer'd <w part="I">o-</w><lb/><w part="F">pening</w> the Artery: ſo at that time I
+          <lb/>preſcrib'd only <hi rend="italic">Laxatives</hi> and <hi rend="italic"
+            >Diure-<lb/>tics,</hi> and took my leave, deſiring him <lb/>to acquaint me at the firſt
+            <w part="I">Appear-</w><lb/><w part="F">ance</w> of the returning Fit; which <w part="I"
+            >hap-</w><lb/><w part="F">pen'd</w> the following Morning at Four <lb/>a Clock: at which
+          time the Fit was ſo <lb/>exceeding ſevere, that he was almoſt <lb/>ſuffocated, and his
+          Face diſcolour'd <lb/>like one ſtrangled: the Artery being <lb/>then turgid and quick (as
+          it always is <lb/>in thoſe Caſes) I immediately took <lb/>away about Sixteen Ounces, which
+          <lb/>I had no ſooner done, but he ask'd <lb/>me what I was doing. I order'd him <lb/>to be
+          rais'd out of his Bed (being <lb/>there too much confin'd) and <w part="I">con-</w><lb/><w
+            part="F">vey'd</w> into a more airy Room; which <lb/>occaſion'd him to make Water very
+            <pb xml:id="page_56" n="49"/><lb/>plentifully: But after a ſtrict <w part="I"
+            >Enqui-</w><lb/><w part="F">ry</w>, I found that the Concuſſion <w part="I"
+            >gi-</w><lb/><w part="F">ven</w> the Brain, and the Symptoms <lb/>attending it were
+          ſuch, that the <w part="I">Veſ-</w><lb/><w part="F">ſels</w> muſt neceſſarily be broke,
+          and <lb/>that there was but ſmall Hope left <lb/>to expect his Recovery; which I
+          <lb/>freely told his Friends, they being <lb/>very preſſing with me to give my <lb/>real
+          Sentiments, and deſirous of a <lb/>Conſultation, which for their <w part="I"
+            >Satiſ-</w><lb/><w part="F">faction</w> I approv'd of. So they ſent <lb/>for Dr. — at
+          Four in the <w part="I">Morn-</w><lb/><w part="F">ing</w>, who, notwithſtanding he had
+          <lb/>given his Word of Honour to be <lb/>immediately there; yet, after his <lb/>uſual way,
+          kept 'em in expectation <lb/>till Eleven, at which time <w part="I">aſſum-</w><lb/><w
+            part="F">ing</w> his uſual haughty Air (to <w part="I">in-</w><lb/><w part="F"
+            >ſinuate</w> himſelf into the Opinion of <lb/>the Vulgar) he enters; but being <w
+            part="I">in-</w><lb/><w part="F">form'd</w> who was above, in order for <lb/>a
+          Conſultation, this brazen Oracle <lb/>turns on his heel, and pronounces <lb/>theſe Words,
+            <hi rend="italic">With this I conſult, and none <lb/>elſe,</hi> pointing to his Breaſt,
+          the <hi rend="italic">Tho-<lb/>rax</hi> being equally as well furniſh'd <lb/>with Brain,
+          as the <hi rend="italic">Cranium.</hi> But tho <lb/>he was mightily reflected on for this
+            <pb xml:id="page_57" n="50"/><lb/>imperious Air, 'tis every Perſon's <lb/>Duty to judg
+          charitably, and put the <lb/>moſt favourable Conſtruction that <lb/>'twill bear: I for my
+          part would <w part="I">im-</w><lb/><w part="F">pute</w> it to an innate Modeſty, being
+          <lb/>conſcious of his Ignorance in that <lb/>Caſe; and that offering his <w part="I"
+            >Opi-</w><lb/><w part="F">nion</w>, would be but expoſing <w part="I">him-</w><lb/><w
+            part="F">ſelf</w> without the lead Service <w part="I">accru-</w><lb/><w part="F"
+            >ing</w> to the Patient: <hi rend="italic">Galen</hi> and <hi rend="italic"
+            >Hip-<lb/>pocrates</hi> ſuiting no more his Genius, <lb/>than <hi rend="italic"
+            >Cook</hi> or <hi rend="italic">Littleton.</hi> But not to <lb/>harp too long on ſuch an
+          untunable <lb/>String, I'll wave this, heartily <w part="I">wiſh-</w><lb/><w part="F"
+            >ing</w> (for the Benefit of thoſe <w part="I">unfor-</w><lb/><w part="F">tunate</w>
+          diſtemper'd Perſons that fall <lb/>under his Care) that for the future <lb/>he may have
+          better Succeſs, than <lb/>from his Knowledg in the Faculty <lb/>of Phyſic can reaſonably
+          be <w part="I">ex-</w><lb/><w part="F">pected</w>. </p>
+        <p rend="indent"><lb/>I continu'd in the Uſe of proper <lb/>Means, but for the Reaſons
+          before <lb/>mention'd could not expect his <w part="I">Reco-</w><lb/><w part="F">very</w>;
+          for tho to appearance he was <lb/>much better, yet the next day about <lb/>Eleven in the
+          Forenoon, he fell into <lb/>a cold clammy Sweat, and for the <lb/>Space of almoſt an Hour
+          ſhorted <pb xml:id="page_58" n="51"/><lb/>exceſſively, foam'd at the Mouth, <lb/>and
+          expir'd. </p>
+        <p rend="indent"><lb/>Some perhaps may ſay this might <lb/>have as well been omitted as <w
+            part="I">inſer-</w><lb/><w part="F">ted</w>, the Patient dying; but this may <lb/>ſerve
+          to confirm my Aſſertion, that <lb/><hi rend="italic">Arteriotomy</hi> is ſo much
+          preferable to <lb/><hi rend="italic">Phlebotomy,</hi> there being no Parallel
+          <lb/>Inſtance, that ever the latter had ſo <lb/>ſpeedy an Effect to recal the Senſes. </p>
+        <p rend="indent"><lb/>The two following Obſervations, <lb/>tho I formerly publiſh'd them in
+          a <lb/><hi rend="italic">Latin</hi> Diſſertation on this Subject, <lb/>which is annex'd to
+          this Treatiſe; <lb/>yet for the Benefit of thoſe who are <lb/>not ſo well acquainted with
+          that <lb/>Language, being ſo remarkable, I <lb/>could not omit giving them a place
+          <lb/>here in the <hi rend="italic">Engliſh</hi> Tongue. </p>
+      </div>
+      <div n="10" type="observation">
+        <head rend="align-center"><lb/><hi rend="italic">Obs.</hi> 10. </head>
+        <p rend="indent"><lb/>A certain Perſon, of about Forty <lb/>Years of Age, who had lived <w
+            part="I">luxu-</w><lb/><w part="F">riouſly</w> in his Youth, being reduc'd <lb/>to
+          Poverty, and from a thriving <lb/>Tradeſman become a private <w part="I">Sen-</w><lb/><w
+            part="F">tinel</w>, went to bed in perfect Health, <lb/>but the next Morning was found
+          <lb/>dead. I reſolv'd to open and <w part="I">exa-</w><pb xml:id="page_59" n="52"/><lb/><w
+            part="F">mine</w> his Head, and had no ſooner <lb/>ſawn thro the <hi rend="italic"
+            >Cranium,</hi> and reach'd <lb/>the <hi rend="italic">Meninges,</hi> but the Blood
+          ſprung <lb/>out from thoſe torn Veſſels with <lb/>that Violence, as if an Amputation
+          <lb/>had been perform'd on the Leg or <lb/>Arm of a living Perſon; which had <lb/>it been
+          timely diſcharg'd, by <w part="I">open-</w><lb/><w part="F">ing</w> the <hi rend="italic"
+            >Artery,</hi> his Life might have <lb/>been preſerv'd. </p>
+      </div>
+      <div n="11" type="observation">
+        <head rend="align-center"><lb/><hi rend="italic">Obs.</hi> 11. </head>
+        <p rend="indent"><lb/>A young Fellow about Thirty, <lb/>who had been ſickly for a <w
+            part="I">conſide-</w><lb/><w part="F">rable</w> time; but when on the <w part="I"
+            >Reco-</w><lb/><w part="F">very</w>, I ask'd him, <hi rend="italic">how he did?</hi> he
+          <lb/>told me, <hi rend="italic">he was tolerably well:</hi> but <lb/>in a quarter of an
+          hours time News <lb/>was brought me that he was dead. <lb/>I immediately went to him, <w
+            part="I">diſco-</w><lb/><w part="F">ver'd</w> a ſmall Reſpiration, and could <lb/>juſt
+          perceive a Pulſation in the <hi rend="italic">Tem-<lb/>poral Arteries,</hi> which I open'd
+          on <lb/>each ſide; and after having bled very <lb/>freely, he preſently began to <w
+            part="I">diſ-</w><lb/><w part="F">courſe</w> with me: two hours after I <lb/>took more
+          Blood from the ſame <w part="I">O-</w><lb/><w part="F">rifices</w>, and a third time a <w
+            part="I">conſidera-</w><lb/><w part="F">ble</w> Quantity: by which means, <pb
+            xml:id="page_60" n="53"/><lb/>with the uſe of warm comfortable <lb/>Medicines, he
+          perfectly recover'd. </p>
+        <p rend="indent"><lb/>Thus during the time of my <w part="I">be-</w><lb/><w part="F">ing</w>
+          in <hi rend="italic">Flanders,</hi> as there were many <lb/>Caſes of this nature offer'd,
+          ſo I <lb/>never neglected embracing all <w part="I">Op-</w><lb/><w part="F"
+            >portunities</w> by them, which more <lb/>and more confirm'd me in the <w part="I"
+            >Opi-</w><lb/><w part="F">nion</w> of <hi rend="italic">Arteriotomy.</hi>
+        </p>
+      </div>
+      <div n="12" type="observation">
+        <head rend="align-center"><lb/><hi rend="italic">Obs.</hi> 12. </head>
+        <p rend="indent"><lb/>I ſhall only add one Inſtance more <lb/>of the Miſmanagement of
+          Diſeaſes, <lb/>and the irregular Adminiſtration of <lb/>Medicines, and conclude. 'Twas
+          <lb/>on the famous <hi rend="italic">William Penn</hi> Eſq; who <lb/>being of a <hi
+            rend="italic">Plethoric</hi> Habit of Body, <lb/>and <hi rend="italic">Lethargic,</hi>
+          was one day ſeiz'd <lb/>with Convulſions at his Table, and <lb/>falter'd in his Speech:
+          immediately <lb/>their Family Phyſician was ſent for, <lb/>who took the uſual Method of <w
+            part="I">treat-</w><lb/><w part="F">ing</w> him, till at length it terminated <lb/>in an
+            <hi rend="italic">Intermitting Fever,</hi> which was <lb/>ſo ill manag'd, that 'twas ſix
+          Weeks <lb/>before he could be removed to his <lb/>Country Houſe. Being at <hi
+            rend="italic">Briſtol</hi>
+          <lb/>ſix Months after, he was ſeiz'd with <w part="I">a-</w><pb xml:id="page_61" n="54"
+            /><lb/><w part="F">nother</w> Fit of the ſame kind, but <lb/>much more ſevere: a Learned
+            <w part="I">Phy-</w><lb/><w part="F">ſician</w> was then employ'd, who, <lb/>ſcorning to
+          jog on in the old beaten <lb/><hi rend="italic">Lane,</hi> Pack-horſe like, was more
+          <lb/>pompous in his Preſcriptions; as <lb/>appear'd by ordering his <hi rend="italic"
+            >Antilethar-<lb/>gic</hi> or famous <hi rend="italic">Cephalic</hi> Powder, which
+          <lb/>by virtue of an occult Quality, <lb/>(could it but have inſinuated it ſelf <lb/>into
+          every Crevice of the <hi rend="italic">Cranium</hi>) <lb/>would have work'd Wonders: but
+          <lb/>theſe <hi rend="italic">Circumforaneous</hi> Scouts <w part="I">want-</w><lb/><w
+            part="F">ing</w> the <hi rend="italic">Parole,</hi> could not paſs, the <lb/>Ports of
+          the <hi rend="italic">Os Crebriforme</hi> being ſo <lb/>well guarded with <hi
+            rend="italic">Nerves, Veins, <w part="I">Ar-</w><lb/><w part="F">teries</w>,</hi> and ſo
+          cloſely lin'd with <hi rend="italic">Mem-<lb/>branes;</hi> ſo that this <hi rend="italic"
+            >Specific</hi> Powder <lb/>not anſwering Expectation, this <w part="I">wor-</w><lb/><w
+            part="F">thy</w> Gentleman left him, who after <lb/>ſome moderate days Journeys arriv'd
+          <lb/>at his Country Seat at <hi rend="italic">Ruſcomb</hi> near <lb/><hi rend="italic"
+            >Reading,</hi> where he was ſeiz'd with <lb/>a third Fit. Their Phyſician was <lb/>then
+          ſent for from <hi rend="italic">London,</hi> who <w part="I">pro-</w><lb/><w part="F"
+            >ſecuted</w> his former Method, only <lb/>with this difference, that he order'd
+          <lb/>Cupping, Scarifying; and then <w part="I">ap-</w><lb/><w part="F">plying</w> the
+          ſtrongeſt <hi rend="italic">Epiſpaſtics,</hi> this <pb xml:id="page_62" n="55"
+          /><lb/>barbarous Treatment caus'd diſmal <lb/>Stranguries; and the little Urine he
+          <lb/>made was with great Pain and much <lb/>Difficulty, and of a bloody <w part="I"
+            >Tinc-</w><lb/><w part="F">ture</w>, intermix'd with coagulated <lb/>Matter, reſembling
+          Lumps of Fat, <lb/>ſo large, that 'twould be thought <lb/>incredible to paſs the <hi
+            rend="italic">Urethra.</hi> By <lb/>this Severity (tho entirely owing to <lb/>a good
+          Conſtitution) he was not <lb/>kill'd, yet it confirm'd a <hi rend="italic"
+            >Hydrocepha-<lb/>lus</hi> or Dropſy in his Head, which <lb/>caus'd a ſenſible Decay thro
+          all Parts <lb/>of his Body, depriv'd him of his <lb/>Speech, and the uſe of his Senſes:
+          <lb/>and in this deſponding State the <lb/>Doctor left him. </p>
+        <p rend="indent"><lb/>All which Misfortunes might have <lb/>been prevented by bleeding in
+          the <lb/><hi rend="italic">Artery,</hi> at the firſt Appearance of <lb/>the Diſeaſe, and
+          falling in with my <w part="I">Mea-</w><lb/><w part="F">ſures</w> before mention'd. </p>
+        <p rend="indent"><lb/>I was then ſent for, and ſucceeded <lb/>ſo Well, that in a few days he
+          was <lb/>apparently better; ſo I left him to <lb/>the Care of his Apothecary, and in
+          <lb/>about ten days time paying him a <lb/>ſecond Viſit, I found him quite <w part="I"
+            >a-</w><lb/><w part="F">nother</w> Man: he had reaſſum'd his <pb xml:id="page_63" n="56"
+          /><lb/>wonted Briskneſs and Alacrity; and <lb/>thus continu'd for ſome Months in a
+          <lb/>very good State of Health, till this <lb/>unhappy Accident: having two <w part="I"
+            >Fon-</w><lb/><w part="F">tinels</w> betwixt the <hi rend="italic">Scapula's,</hi> on
+          one <lb/>of which a Protuberance roſe like <lb/>a Boil, which threw him into a <w part="I"
+            >vio-</w><lb/><w part="F">lent</w> Fever; this Tumor encreas'd to <lb/>a prodigious
+          Size, extending it ſelf <lb/>from the lower Angle of the <hi rend="italic">Scapula,</hi>
+          <lb/>all over the <hi rend="italic">Clavicle.</hi> My being ſent <lb/>for to <hi
+            rend="italic">Briſtol,</hi> to viſit an antient <w part="I">La-</w><lb/><w part="F"
+            >dy</w> (who had formerly been my <w part="I">Pa-</w><lb/><w part="F">tient</w> and beſt
+            <hi rend="italic">Benefactrix</hi>) oblig'd him <lb/>to make uſe of the former
+          Phyſician, <lb/>and a <hi rend="italic">Metropolitan</hi> Surgeon: but a <lb/>Friend of
+          Mr. <hi rend="italic">Penn</hi> being very <w part="I">impor-</w><lb/><w part="F"
+            >tunate</w> with me, I waited on him with <lb/>all Expedition, found they had <w
+            part="I">ap-</w><lb/><w part="F">ply'd</w>
+          <hi rend="italic">Cataplaſms</hi> in order to bring it <lb/>to Suppuration, and had
+          attempted to <lb/>lay the <hi rend="italic">Abſcess</hi> open, but thro Fear <lb/>had only
+          ſcratch'd the Teguments. I <lb/>then took the Probe, and introduc'd <lb/>it eight or nine
+          Inches, and made a <lb/>deep Inciſion, from whence a <w part="I">con-</w><lb/><w part="F"
+            >ſiderable</w> Quantity of <hi rend="italic">Pus</hi> diſcharg'd <lb/>it ſelf. Then I
+          order'd a Digeſtive to <lb/>deſtroy whatever <hi rend="italic">Fungus</hi> might <w
+            part="I">re-</w><pb xml:id="page_64" n="57"/><lb/><w part="F">main</w>; by which means
+          he was <w part="I">im-</w><lb/><w part="F">mediately</w> freed from the Fever, <w part="I"
+            >with-</w><lb/><w part="F">out</w> the leaſt Occaſion of being <lb/>cramb'd with <hi
+            rend="italic">febrifuge</hi> Draughts, <lb/>Powders, and <hi rend="italic">Bolus's</hi>
+          that lay ſo <w part="I">plen-</w><lb/><w part="F">tifully</w> prepar'd for him; ſo I left
+          him <lb/>to the Care of a Surgeon in <hi rend="italic">Read-<lb/>ing,</hi> an ingenious
+          Man, who <w part="I">com-</w><lb/><w part="F">pleated</w> the Cure effectually: and
+          <lb/>now he enjoys as large a Meaſure <lb/>of Health as ever. </p>
+        <p rend="indent"><lb/>This Operation of <hi rend="italic">Arteriotomy,</hi>
+          <lb/>that the Generality are ſo timerous <lb/>and cautious of attempting, I've not
+          <lb/>only perform'd and order'd for <w part="I">A-</w><lb/><w part="F">dults</w>, but even
+          on Infants <w part="I">them-</w><lb/><w part="F">ſelves</w>. One particularly who fell <w
+            part="I">un-</w><lb/><w part="F">der</w> my Care, was the Child of a <lb/>diſtemper'd
+          Parent, who as ſoon <lb/>as born was attended with <w part="I">Con-</w><lb/><w part="F"
+            >vulſions</w>, and at ſix Weeks old was <lb/>ſeiz'd with one ſo violent, that <lb/>none
+          had the leaſt room to hope for <lb/>Life: but at the taking away a <lb/>ſmall Quantity of
+          Blood from the <lb/><hi rend="italic">Artery,</hi> the Child was in an inſtant
+          <lb/>reliev'd, look'd chearful, pleaſant, <lb/>and immediately took the Breaſt, <lb/>which
+          for ſome time before the Fit <pb xml:id="page_65" n="58"/><lb/>he had refus'd, and ſo with
+          the Uſe <lb/>of proper Medicines perfectly <w part="I">reco-</w><lb/><w part="F">verd</w>. </p>
+        <p rend="indent"><lb/>This Treatiſe I don't doubt but <lb/>will meet with ſome who will <w
+            part="I">ap-</w><lb/><w part="F">prove</w> of it, as well as other <w part="I"
+            >preju-</w><lb/><w part="F">dic'd</w> Perſons that will be as ready <lb/>to contemn and
+          condemn it. But <lb/>what I've writ was entirely owing <lb/>to a Senſe of my Duty to my <w
+            part="I">Fel-</w><lb/><w part="F">low-Creatures</w>, without either <w part="I"
+            >con-</w><lb/><w part="F">ſulting</w> the Applauſe of the former, <lb/>or valuing in the
+          leaſt the malicious <lb/>Cenſures of the latter. </p>
+        <q rend="italic indent hanging">—Si quid noviſti rectius iſtis, <lb/>Candidus imperti; ſi
+          non, his utere <lb/>mecum.</q>
+        <trailer rend="italic align-center"><lb/>FINIS. </trailer>
+      </div>
+    </body>
+    <gap reason="sampling" unit="pages" quantity="19"/>
+  </text>
+</TEI>

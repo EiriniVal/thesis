@@ -1,0 +1,1237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> LMEMT Corpus - Boerhaave: Institutions in physick.</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>Herman Boerhaave</persName>
+            </author>
+            <title type="main">Institutions in physick. Collected from the writings Of The Most
+              Eminent Physicians.</title>
+            <edition n="1"/>
+            <idno type="ESTC">T61950</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/T61950"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>London: printed by W.R. for Jonah Browne, at the Black Swan without
+                  Temple-Bar, 1714.</persName>
+              </publisher>
+              <date>1714</date>
+            </imprint>
+            <extent>
+              <measure type="format">8⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="33"/>
+              <measure type="count" commodity="body" unit="page" quantity="348"/>
+              <measure type="count" commodity="back" unit="page" quantity="3"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">British Library</orgName>
+            <idno type="ECCO">CW106837396</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="General treatises"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text type="book" rend="roman" xml:lang="eng">
+    <gap reason="sampling" unit="pages" quantity="33"/>
+    <body>
+      <gap reason="sampling" unit="pages" quantity="4"/>
+      <pb n="5"/>
+      <div type="section">
+        <head rend="italic align-center">
+          <lb/>The Principles and Parts of Phyſick. </head>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">F</hi>Rom the uſeleſs and fallacious Part this <hi rend="italic"
+            >Science</hi>
+          <lb/>receiv'd many things, which as they are to be <lb/>rejected and thrown aſide, we are
+          to conſider, the <lb/>whole Scope or Deſign of this Art is to free or de- <lb/>liver us
+          from Pain, Sickneſs and Death; and con- <lb/>ſequently is inſtituted for the Preſervation
+          of pre- <lb/>ſent Health, and the Reſtitution of that which is <lb/>loſt; and therefore
+          whatever is to be learnt and <lb/>perform'd by the Phyſician, is to anſwer this End.
+          <lb/>For the Life, Health, Diſeaſes or Death of Man- <lb/>kind is the Object thereof; the
+          Cauſes thereof, <lb/>from whence they proceed, and the Means by which <lb/>they are
+          govern'd: From whence Medicine be- <lb/>comes the <hi rend="italic">Science</hi> or
+          Knowledge of thoſe things, from <lb/>the effect of which Applications a healthful State of
+          <lb/>Life is continued, and the Sick reſtored to their <lb/>former Condition; ſo that the
+          Nobility, Uſefulneſs, <lb/>and Neceſſity of this Art naturally diſcover themſelves. </p>
+        <p rend="indent">
+          <lb/>The ſolid Fundamentals or Principles are to be <lb/>diſcover'd two ways, to come at a
+          Certainty: firſt, <lb/>from an accurate Obſervation of thoſe <hi rend="italic"
+            >Phænomena</hi>, <lb/>which appear in Health, Sickneſs, Death a Cada- <pb n="6"/>
+          <lb/>ver, or elſe to the external Senſes; whether they <lb/>ariſe from what is in the Man
+          himſelf, or from <lb/>thoſe things which act upon him by external Cau- <lb/>ſes, Accident
+          or Art. 2ly, From a ſevere or ex- <lb/>act Scrutiny, or are perform'd for ſome certain
+          <lb/>End. But theſe things can only be obtain'd by <lb/>correct Reaſoning, while the
+          Experiments laid <lb/>down, are diſtinctly examined in all their ſeveral <lb/>Properties,
+          from thence diligently compar'd among <lb/>themſelves, as agreeing or differing, while at
+          the <lb/>ſame time they are faithfully ſet down, that we <lb/>may be able afterwards to
+          find out what appear'd <lb/>plain and evident therein; and in this particular, <lb/>thoſe
+          of the preſent Age are not leſs to be depended <lb/>on than Antiquity. </p>
+        <p rend="indent">
+          <lb/>Therefore that what is enquired after, may be <lb/>diſcover'd from what is laid down;
+          certain Prin- <lb/>ciples are requiſite, the Knowledge of which a- <lb/>mounts to a
+          Demonſtration; which Reaſon requires <lb/>ſhould be diſtinct, clear and certain: Such are
+          <lb/>thoſe which being purely corporeal in Man, are only <lb/>mechanical and phyſical
+          Experiments; for theſe <lb/>explain to us the general and particular Force and <lb/>other
+          things which cannot be underſtood by thoſe <lb/>Principles, and therefore not to be
+          explain'd by <lb/>Demonſtration, it will be neceſſary to uſe our ut- <lb/>moſt Reaſon, if
+          we wou'd avoid Miſtakes, but he <lb/>may eaſily ſee that, that conſiders the following
+          things <lb/>otherwise demonſtrated, and admits as Truths. </p>
+        <p rend="indent">
+          <lb/>Firſt, That Man is compoſed of Soul and Body <lb/>united. 2ly, That theſe two Natures
+          differ from <lb/>each other; and 3ly, That he hath a Life made up <lb/>of different
+          Actions and Paſſions: 4ly, That theſe <lb/>ſo act among themſelves, that the ſingular or
+          particular <lb/>Thoughts of the Mind are joyn'd to the determi- <lb/>nate Conditions of
+          the Body, and ſo <hi rend="italic">vice versâ</hi>. <pb n="7"/>
+          <lb/>5ly, While ſome Thoughts follow from one ſimple <lb/>Thought alone, others are only
+          derived from the <lb/>alter'd State or Condition of the Body: 6ly, Like- <lb/>wiſe
+          contrary to theſe Operations, ſome make a cer- <lb/>tain Motion in the Body without
+          Attention, Self- <lb/>conſciouſneſs or a Command of the Soul aſſiſting <lb/>them as a
+          Cauſe; but there are none raiſed by the <lb/>progreſſive Actions of the Mind, as long as a
+          Man is <lb/>in a healthful State; laſtly, ſome Concretes or <lb/>Complications are
+          obſerv'd from both theſe. 7ly, <lb/>Whatever involves the Thought of Man, that only
+          <lb/>is to be aſcrib'd to the Mind, as the Author or Be- <lb/>ginner. 8ly, But that which
+          procures Extenſion or <lb/>Motion, that is applicaple to the Body only, and its
+          <lb/>Motion as the Producer of it by its Properties, <lb/>and ſo ought to be underſtood,
+          explain'd and de- <lb/>monſtrated. 9ly, Neither can Reaſon fathom from <lb/>the cleareſt
+          Nature of the Mind or Body, ſo far as <lb/>yet is known to Human Underſtanding, what
+          <lb/>things can act or be acted upon mutually with each <lb/>other. </p>
+        <p rend="indent">
+          <lb/>The utmoſt or laſt Reſult of Metaphyſical and <lb/>Philoſophical Cauſes, inquir'd
+          into by the Phyſi- <lb/>cians, are not neceſſary, uſeful or poſſible. So that <lb/>he
+          ſhou'd make Elements, or eſtabliſh the Origin <lb/>of the firſt Form of Seeds and Motion ,
+          but he <lb/>may profitably apply himſelf to all things that are <lb/>demonſtrable in
+          Anatomy, Chimiſtry, Mechanicks <lb/>and natural Philoſophy, ſo far as relates to the ſim-
+          <lb/>ple Events of Facts. Then he ought to begin <lb/>with things that are moſt plain,
+          eaſy to be known <lb/>and moſt certain, from which always going forwards <lb/>with thoſe
+          which are in the next Degree, he may <lb/>make ſuch an accurate Progreſs, as to be able to
+          <lb/>find our ſuch things as are more complicated, ob- <lb/>ſcure and difficult. So let
+          him proceed inſtructing <lb/>from Generals to Particulars, 'til he ſo explains his
+          <lb/>Diſcoveries, that the Inventor may proceed from <pb n="8"/>
+          <lb/>Particulars to Univerſals; on all which, method <lb/>will depend, firſt we are to
+          enquire into Life, then <lb/>Health, next Diſeaſes, and laſt of all Medicines <lb/>whereby
+          they are cured. </p>
+        <p rend="indent">
+          <lb/>Therefore the firſt univerſal Doctrine in Phyſick <lb/>is what we call <hi
+            rend="italic">Inſtitutions</hi>, and this explains, firſt <lb/>the Parts or Fabrick of a
+          Human Body; 2ly, <lb/>Life: 3ly, Health: 4ly, The Effects which natu- <lb/>rally follow,
+          and this is call'd the Phyſiological Part, <lb/>the Human Oeconomy, or the Doctrine
+          concerning <lb/>the Uſe of the Parts; but the Objects of this Part, <lb/>as they are
+          reckon'd in Method are uſually term'd, <lb/>the Naturals, or thoſe which appear according
+          to <lb/>the Courſe of Nature. </p>
+        <p rend="indent">
+          <lb/>The next Part hath relation to the living Body, <lb/> as firſt, Diſeaſes: 2ly, The
+          Difference of Diſea- <lb/>ſes: 3ly, Their Cauſes: 4ly Their Effects; which <lb/>is called
+          the <hi rend="italic">Pathology</hi>, becauſe it treats of Diſeaſes, or <lb/>the <hi
+            rend="italic">Pathological Aitiology</hi> when it treats of its Cauſes <lb/><hi
+            rend="italic">Pathology</hi> or <hi rend="italic">Noſology</hi>, if concerning the
+          Differences <lb/>thereof: Or laſtly, Symptomatiology as often as it <lb/>explains the
+          Effects thereof. The Objects of this <lb/>part, are thoſe things which are preternatural
+          or <lb/>contrary to Nature. </p>
+        <p rend="indent">
+          <lb rend="indent"/>The third Part teaches us the Signs of a Di- <lb/>ſeaſe, and how they
+          are reduced to Uſe; either in <lb/>a healthful or ſick Body, as to what the State or
+          <lb/>Condition is, was, or will be, the Degrees, Order <lb/>and Effect of Health or
+          Sickneſs, and this comes un- <lb/>der the Denomination of the Seimeiotical Part; the
+          <lb/>Objects of which are the things call'd Natural, Non- <lb/>natural and Preternatural. </p>
+        <p rend="indent">
+          <lb rend="indent"/>The Fourth ſhews us the Remedies and their Uſe, <lb/>by which Life and
+          Health may be maintain'd, <lb/>from whence it is term'd <hi rend="italic">Hygeinial</hi>,
+          and hath for its <lb/>Objects the Non-naturals. </p>
+        <p rend="indent">
+          <lb rend="indent"/>Laſtly, the Fifth Parts inſtructs us in the <hi rend="italic">Materia
+            <lb/>Medica</hi>; the ſeveral Preparations of Medicines, <pb n="9"/>
+          <lb/>and the manner of uſing them in order to reſtore <lb/>Health, and free us from
+          Diſeaſes: This is call'd <lb/>the Therapeutick Part of Phyſick, containing the
+          <lb/>Diatetick, Pharmaceutick, Chyrurgick and method <lb/>of Cure. Therefore we ſhall
+          proceed according to <lb/>this Order laid down and begin with the Phyſiolo- <lb/>gical
+          Part. </p>
+      </div>
+      <figure rend="space">
+        <figDesc>A long horizontal line, spanning the whole page. </figDesc>
+      </figure>
+      <div type="section">
+        <head rend="italic align-center">
+          <lb/>Of Phyſiology. </head>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">T</hi>HE Human Body is compos'd, as Anatomical En- <lb/>quiries
+          teach us, of Solids and Fluids: The Solids <lb/>are, either Veſſels that contain the
+          Fluids, or Inſtru- <lb/>ments ſo formed, configurated and connected, that <lb/>certain
+          determinate Motions may be perform'd or <lb/>exercis'd from this ſingle Fabrick, if any
+          moving <lb/>Cauſe concur. For there we find Supporters, <lb/>Pillars, Clothing or
+          Covering, Partitions, Rollers, <lb/>Wedges, Leavers, Pullies, Cords, Preſſes, Bellows,
+          <lb/>Sieves, Strainers, Canals and Receptacles. The Fa- <lb/>culty of exerciſing theſe
+          Motions is call'd a Fun- <lb/>ction, which is agreeable to the Laws of Mecha- <lb/>niſm,
+          by which only it can be explain'd. </p>
+        <p rend="indent">
+          <lb/>The Fluids as mention'd before, are contain'd and <lb/>mov'd within the Solids, and
+          in Motion are deter- <lb/>min'd, mix'd, ſeparated and chang'd; the Veſſels <lb/>move with
+          the Inſtruments tyed to them, the Sides <lb/>of which rub againſt each other, change, and
+          re- <lb/>turn to their Place again. Theſe Actions are per- <lb/>form'd according to the
+          Hydroſtatick, Hydraulick <lb/>and Mechanick Laws, and therefore ought to <lb/>be explain'd
+          thereby; yet ſo that the moſt accu- <lb/>rate Reaſon may be given of each Humour and eve-
+          <lb/>ry Action, that can be required in any kind of Ex- <lb/>periment. </p>
+        <p rend="indent">
+          <lb/>By the Nature of Human Life, to be under- <lb/>ſtood here according to common
+          Acceptation, I <pb n="10"/>
+          <lb/>mean, ſuch a Condition of the Body, as to Solids <lb/>and Fluids, as is neceſſary at
+          all times to maintain <lb/>and carry on a mutual Commerce betwixt the <lb/>Soul and Body,
+          ſo that it may continue after <lb/>ſome ſort or another, or may be reſtored in ſome
+          <lb/>meaſure; neither is it neceſſary to be wholly broke <lb/>or interrupted: But I will
+          not pretend that this is <lb/>a true Definition of Life, or that I cannot give a
+          <lb/>clearer Idea of Health than what is laid down <lb/>before. </p>
+        <p rend="indent">
+          <lb/>But that we may nicely underſtand, what is re- <lb/>quiſite in the Body, that theſe
+          Two may ſubſiſt <lb/>together. Firſt, We are to make a curious Col- <lb/>lection of all
+          the Phænomena of Life and Health. <lb/>2ly, Enquire into the Subjects in which theſe are.
+          <lb/>3ly, Examine the Cauſes from whence they pro- <lb/>ceed. 4ly, The Inſtruments by
+          which they are <lb/>made; and 5ly, The Effects which they do produce <lb/>again. </p>
+        <p rend="indent">
+          <lb/>But ſince theſe are almoſt innumerable, for Me- <lb/>thod ſake we ought to reduce
+          them to certain <lb/>Heads, that we may treat diſtinctly of each of them <lb/>in order.
+          But firſt let us begin with Corporeals, <lb/>which are common to Man and Woman, or pro-
+          <lb/>per to either; and ſince all things ſo cohere a- <lb/>mongſt themſelves, that they
+          move as it were in <lb/>a Circle, cauſes and effects acting by mutual turns, <lb/>whence
+          ariſes an unavoidable difficulty to find out <lb/>the order thereof, without tranſgreſſing
+          the Me- <lb/>thod. </p>
+        <p rend="indent">
+          <lb/>Yet the beſt appears from beginning with the <lb/><hi rend="italic">Aliment</hi>
+          taken in, and then going forward through <lb/>the ſucceſſive changes of thoſe things in
+          the Body, <lb/>till it ends where theſe very things make the Bo- <lb/>dy it ſelf, and its
+          Actions; for how the Body exiſts, <lb/>or is ſupported from the things it receives, firſt
+          <lb/>known to ſenſe, and continually chang'd, and how <lb/>it acts by the ſame, will be
+          moſt eaſily and clearly <lb/>diſcover'd after this manner. </p>
+        <pb n="11"/>
+        <p rend="indent">
+          <lb/>The Aliment of Food therefore, is either ſolid <lb/>or liquid, and conſequently
+          either eatable or drink- <lb/>able; the primæval matter of which was Water, <lb/>and from
+          that, what Earth ſpontaneouſly produced, <lb/>as ſacred, profane and fabulous Hiſtory
+          inform us, <lb/>nay as we may diſcern from the very nature of <lb/>the thing it ſelf:
+          Afterwards the Blood of certain <lb/>Animals, and other parts of them were uſed to be
+          <lb/>prepar'd or dreſs'd together, with ſuch eatables as <lb/>the Earth afforded; while
+          many, as <hi rend="italic">Herodotus</hi> ſays <lb/>from all Antiquity, liv'd only of
+          Vegetables and Wa- <lb/>ter, which ſome do to this day; and whole Nations <lb/>have been
+          contented to live thus: But <hi rend="italic">Tulpius</hi> tells <lb/>us, he ſaw a Man
+          that liv'd of Graſs and Hay: O- <lb/>thers feed upon Fiſh only, ſome Fleſh and Milk,
+          <lb/>while others eat all kinds of things, as Fiſh, Fleſh, <lb/>Fowl and Reptiles, which
+          Luxury and Gluttony <lb/>have brought into vogue, and which in all Ages of <lb/>the World
+          hath been practiced. Therefore with <lb/>every one of theſe things alone or mix'd, crude
+          or <lb/>prepared, raw or dreſs'd, the Man that uſes them <lb/>lives, grows and is
+          refreſh'd: Neither does the vari- <lb/>ety of Aliment produce any great difference to the
+          <lb/>nutrition of the Body, either as to matter or action, <lb/>what then is the faculty
+          in a healthful Man, which <lb/>from changing ſuch varieties conſtitute a Human <lb/>Body? </p>
+        <p rend="indent">
+          <lb/>Nevertheleſs, the uſe of things teaches us this <lb/>change is better perform'd
+          according to the variety <lb/>of the Food, or the difference of the Preparation <lb/>from
+          whence theſe were ſubject to alter before they <lb/>enter'd the Body. Hence ripe Corn,
+          dreſs'd and <lb/>ground, mix'd with Water fermented and boil'd by <lb/>the Fire, is beſt
+          for preſervation of Health: So <lb/>the parts of Animals after being clean'd, dry'd, pick-
+          <lb/>led, boil'd, roaſted, broil'd, or the like, experience <lb/>teaches us are fitter for
+          uſe; Salt, Vinegar and Spice <lb/>afford us the particular Materials for Sawce, and are
+            <pb n="12"/>
+          <lb/>the Baſis of all Pickles or other Preſervatives for Meat. </p>
+        <p rend="indent">
+          <lb/>Summer Fruits, if ripe, that is ſoſt eaſily melt or <lb/>diſſolve, ſo that they need
+          no other preparation or <lb/>aſſiſtance. But Drink if from a pure Water and run- <lb/>ning
+          Stream is beſt crude or raw; if the Water is <lb/>foul from Inſects, or their Eggs
+          floating therein, <lb/>gently boiling or letting it ſtand for a time renders <lb/>it
+          better; but Drink made from Corn or Fruits <lb/>boil'd in Water is known to be good: As
+          that <lb/>which is made from Malt, by ſteeping in Water, then <lb/>boiling, fermenting and
+          fining it down, which we <lb/>call Ale or Beer; neither is the reaſon leſs clear <lb/>and
+          evident from the making of Cyder from ripe <lb/>Summer Fruits preſs'd, then fermented or
+          work'd <lb/>and afterwards fin'd, which hath been ſo extoll'd by <lb/>the celebrated Name
+          of Wine: from all which Pre- <lb/>parations proceed, attenuation, dilution, lubricity,
+          <lb/>fluidity, the ſeparation of the thin from the thick, <lb/>and conſequently, we may
+          naturally conclude the ſe- <lb/>paration and excretion of the fluids is eaſier perform'd
+          <lb/>in the human Body. </p>
+      </div>
+      <figure rend="space">
+        <figDesc>A long horizontal line, spanning the whole page. </figDesc>
+      </figure>
+      <div type="section">
+        <head rend="italic align-center">
+          <lb/>Of Manducation or chewing of Victuals. </head>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">T</hi>HE Food being thus chang'd as hinted before, <lb/>ſtill
+          undergoes further Alterations in the Mouth, <lb/>which are made firſt from biting:
+          Secondly Ma- <lb/>ſtication: Thirdly a Mixture of Air with the Mu- <lb/>cous and Saliva:
+          Biting requires the Opening or <lb/>Abduction of the Inferior Jaw from the upper to-
+          <lb/>wards the Throat, directly upon the Condyliforme <lb/>Proceſs, under the prominence
+          or riſing of the tem- <lb/>poral Bone, by the help of the Ligament and Inter-
+          <lb/>poſition of the cartilaginous Lamella articulated <lb/>thereto, as <hi rend="italic"
+            >Veſalius</hi> hath deſcrib'd it. And in the next <lb/>place, Biting requires a ſtrong
+          Compreſſion of the <lb/>lower Jaw againſt the upper; ſo that by the Teeth <pb n="13"/>
+          <lb/>being plac'd betwixt, the Food may be cut or ground. </p>
+        <p rend="indent">
+          <lb/>The Firſt Action is perform'd by the Contraction <lb/>of the Biventrian Muſcles,
+          according to <hi rend="italic">Caſſerius</hi>, <lb/>which ariſing carneous from a ſmall
+          Trench inden- <lb/>ted or ſunk into the <hi rend="italic">Baſis</hi> of the <hi
+            rend="italic">Maſtoide</hi> Proceſs, <lb/>deſcending as <hi rend="italic">Veſalius</hi>
+          ſays, they make a Tendon, <lb/>from whence they paſs by the <hi rend="italic"
+            >Stylohyoide</hi> Muſcle and <lb/>the Annular Ligament, cleaving to the ſide of the
+            <lb/><hi rend="italic">Os Hyoidis</hi>, from whence they become carneous again, <lb/>and
+          being ſupply'd with fleſhy Fibres from the very <lb/><hi rend="italic">Os Hyoidis</hi>;
+          they aſcend even to the very inward <lb/>middle and lower part of the Chin, and are there
+          <lb/>inſerted: So that by this piece of Mechaniſm the <lb/>Strength and Direction or
+          Tendency of theſe Muſcles <lb/>are underſtood, not without great Admiration at the
+          <lb/>artful Fabrick. </p>
+        <p rend="indent">
+          <lb/>The latter Action which conſiſts of bringing the <lb/>Jaws together with force, is
+          perform'd by the Con- <lb/>traction of the Temporal Muſcles, ſays <hi rend="italic"
+            >Veſalius</hi>, <lb/>which being united with a large ſemicircular carne- <lb/>ous
+          Origine from the hollow of the <hi rend="italic">Os Frontis</hi>, ſinks <lb/>into the
+          Sphenoide and Temporal Bone, together <lb/>with the Fibres running under the <hi
+            rend="italic">Os Jugale</hi>, which <lb/>being ſtrengthen'd and determined by the Fibres
+          <lb/>taken from thence; they become all about tendinous, <lb/>but as yet carneous, on
+          every ſide of <hi rend="italic">Coronoide</hi>
+          <lb/>Proceſs of the lower Jaw; the <hi rend="italic">Maſſeters</hi> which ſays <lb/><hi
+            rend="italic">Veſalius</hi> are carneous, and ariſe thick from the Firſt <lb/>Bone of
+          the lower Jaw, and the Jugal Bone, here <lb/>croſſing their Fibres, they mutually inſert
+          themſelves <lb/>into the inferior, and exterior Margin or Edge of the <lb/>lower Jaw, from
+          the point or corner of the Chin, for <lb/>near four Fingers breadth. The external <hi
+            rend="italic">Pterygoides</hi>
+          <lb/>which <hi rend="italic">Fallopius</hi> and after him <hi rend="italic">Verbeyen</hi>
+          remarks, that <lb/>ariſe from the outward Part of the exterior Wing of <lb/>the <hi
+            rend="italic">Pterygoide</hi> Proceſs, in the <hi rend="italic">Sphenoide</hi> Bone, and
+          <lb/>the upper Part of the ſame <hi rend="italic">Sphenoide Bone</hi>, running
+          <lb/>backwards are inſerted by a ſtrong Tendon, in the <pb n="14"/>
+          <lb/>ſemilunar Space, ſituated in the internal Part of the <lb/>lower Jaw, betwixt the <hi
+            rend="italic">Condyloide</hi> and <hi rend="italic">Coronoide</hi> Pro- <lb/>ceſs: The
+          internal <hi rend="italic">Pterygoides</hi>, according to <hi rend="italic"
+          >Fallopius</hi>, <lb/><hi rend="italic">Verbeyen</hi> and <hi rend="italic">Cowper</hi> in
+          his Appendix to <hi rend="italic">Bidloo</hi>, which <lb/>ariſing carneous and tendinous
+          from the whole in- <lb/>ward Superficies of the external Lamella of the <hi rend="italic"
+            >Pte- <lb/>rygoide</hi> Proceſs; progreſſively deſcending broad and <lb/>ſtrong, have
+          deep Impreſſions made in the Tendon, <lb/>a little above the internal Angle or Point of
+          the <lb/>lower Jaw under the great <hi rend="italic">Apophyſes</hi>: For if the <lb/>eight
+          Muſcles deſcrib'd act together, the lower Jaw <lb/>muſt be ſqueez'd or preſs'd with
+          incredible force <lb/>againſt the upper, and the eight cutting Teeth, <lb/>being thus
+          ſtrongly compreſs'd makes the Action of <lb/>biting. </p>
+        <p rend="indent">
+          <lb/>Hence the Meat or Food thus divided, is thrown <lb/>among the <hi rend="italic"
+            >Molares</hi> or Grinders; whoſe Superficies <lb/>are broad, that they may perform the
+          Action of At- <lb/>trition: The ſtraightning or holding of the Jaws <lb/>ſtrict together,
+          proceeds firſt from the Contraction <lb/>of the <hi rend="italic">Buccinator</hi> or
+          Trumpeters Muſcle, which <hi rend="italic">Cow- <lb/>per</hi> ſays, ariſing broad and
+          carneous in its beginning <lb/>from the Fore Part of the Coronoide Proceſs of the
+          <lb/>lower Jaw, ſticks with ſtrait Fibres in the Gums of <lb/>each Jaw, which going
+          forward thro' the Cheeks is <lb/>inſerted in the Angle of the Lips. The <hi rend="italic"
+            >Orbicularis</hi>
+          <lb/>of the Lips, ſays the ſame Author, which performs <lb/>the opening of the Mouth and
+          Lips with its carneous <lb/>Fibres is inſerted into no Bone at all. The <hi rend="italic"
+            >Zygoma- <lb/>tick</hi> Muſcle which hath a carneous riſe from the <lb/>external Part of
+          the <hi rend="italic">Os Jugalis</hi> deſcending obliquely <lb/>is inſerted about the
+          corner of the Lips, the common <lb/>Elevator of the Lips which is inſerted from the fourth
+          <lb/>Bone of the upper Jaw to the meeting of the Lips, <lb/>in its own Tendon under that
+          of the former, the <lb/>proper Elevator of the upper Lip, which from the <lb/>ſame fourth
+          Bone hath immediately its riſe upon the <lb/>former obliquely deſcending, diſappears under
+          the <pb n="15"/>
+          <lb/>Skin of the upper Lip: The proper <hi rend="italic">Depreſſors</hi> of the <lb/>under
+          Lip ariſing from the lower Part of the Jaw <lb/>next the Chin, are inſerted into the under
+          Lip: The <lb/>proper Elevator of the under Lip, which ſprings <lb/>from the lower part of
+          the Gum of the under Jaw, <lb/>is inſerted into the lowermoſt Part of the Skin of <lb/>the
+          Chin: Laſtly, by the Help of the common <hi rend="italic">De- <lb/>preſſor</hi> of the
+          Lips, which ariſes carneous from the <lb/>lower Edge of the lower Jaw, about its ſides the
+          aſ- <lb/>cending is inſerted to the corner of the Mouth or Lips. </p>
+        <p rend="indent">
+          <lb/>If all theſe act together, then the Cheeks and Lips <lb/>are ſo clos'd to the Gums
+          and Teeth, that neither <lb/>Meat nor Drink can fall betwixt them; but if they <lb/>move
+          ſucceſſively, they are directed to different pla- <lb/>ces; In the next place the ſame
+          Conſtriction is made <lb/>by the Tongue, the Muſcle chiefly voluble through <lb/>all, and
+          eaſily moveable to every Part of the Mouth <lb/>is acted: Firſt, by the Muſcles call'd <hi
+            rend="italic">Geniogloſſi</hi>, <lb/>ariſing from the internal part of the Chin by a
+          car- <lb/>neous Beginning, iſſuing out by Dilatations, and in- <lb/>ſerted into the root
+          of the Tongue, which draw the <lb/>Tongue forward, and contract it back again, and <lb/>as
+            <hi rend="italic">Cowper</hi> further ſhews, the <hi rend="italic">Ceratogloſſi</hi>
+          ariſing from <lb/>a broad carneous Beginning on the ſide of the <hi rend="italic">Os
+            <lb/>Hyoidis</hi>, from whence aſcending by a large Duct of <lb/>Fibres, we ſee them
+          diſpers'd thro' the Tongue, <lb/>they move it back, depreſs and extend it: The <lb/><hi
+            rend="italic">Stylogloſſi</hi> which ariſing from an external Part of the <lb/><hi
+            rend="italic">Styloide</hi> Proceſs of the Temporal Bone, by an acute <lb/>Beginning
+          obliquely deſcending, inſert themſelves <lb/>by the hind Part of the Tongue, which they
+          raiſe, <lb/>draw ſide ways and extend. Secondly, by the Muſ- <lb/>cles forming the very
+          Body of the Tongue which <lb/>are according to <hi rend="italic">Malpighius</hi>
+          Longitudinal, they ren- <lb/>der the Tongue ſhorter, but tranſverſly they draw it
+          <lb/>narrower, perpendicularly they leſſen its Thickneſs: <lb/>There are others that draw
+          the Back and Sides of the <lb/>Tongue, and ſome angular Muſcles that contract it <pb
+            n="16"/>
+          <lb/>inward, others that depreſs the Back Part ridge ways, <lb/>or to a point, and ſtrait
+          or right ones compreſſing the <lb/><hi rend="italic">Baſis</hi> thereof: All which ſingly
+          or conjunct eaſily <lb/>explain the determinate Motion of the Tongue in <lb/>the Action,
+          it performs in the Mouth towards Di- <lb/>rection of the Meat and Drink either to the
+          Grinders <lb/>or the Gullet; adding thereto the Action of the <lb/>Fibres on the external
+          Muſcles out of the Tongue, <lb/>which move together with them. But it is plain that
+          <lb/>beſides the Motion of the Jaw, backwards, forwards <lb/>and ſideways, that the
+          Victuals are ground and broke <lb/>to pieces, by the Muſcles of the Cheeks and Lips
+          <lb/>and the Tongue, without having regard to the <lb/>Teeth plac'd in the <hi
+            rend="italic">Mandables</hi>, to which Motion over <lb/>and above there are other
+          Changes made by the Mix- <lb/>ture of the <hi rend="italic">Saliva</hi> and the <hi
+            rend="italic">Mucus</hi> of the Palate and <lb/>Jaws, together with the Intromiſſion of
+          Air. </p>
+      </div>
+      <figure rend="space">
+        <figDesc>A long horizontal line, spanning the whole page. </figDesc>
+      </figure>
+      <div type="section">
+        <head rend="italic align-center">
+          <lb/>The Origin, Nature and Mixture of the <hi rend="roman">Saliva</hi>. </head>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">F</hi>Irſt according to the Notions of <hi rend="italic">Steno</hi>,
+            <hi rend="italic">Nuck</hi>, and <lb/><hi rend="italic">Valſalva</hi>, at the Root of
+          the Ear in a ſmall hollow, <lb/>betwixt the Mamillary Proceſs, the <hi rend="italic"
+            >Condyloide</hi> and <lb/>the <hi rend="italic">Os Jugale</hi>, adheres a complex
+          conglomerate <lb/>gland making a <hi rend="italic">Sinus</hi>, whence ſpreading it ſelf
+          breadth <lb/>ways, it reaches to the anterior, inferior and back <lb/>Parts; this Secerns
+          the <hi rend="italic">Saliva</hi> by its Configuration <lb/>or Make, from the Arterial
+          Blood, and depoſites it <lb/>into a common Duct, which perforating the <hi rend="italic"
+            >Buccina- <lb/>tor</hi>, about the third upper Grinder of the Teeth <lb/>pours it into
+          the Mouth. <hi rend="italic">Wharton</hi> ſaith, that there <lb/>is a large internal <hi
+            rend="italic">Maxillary</hi> gland ſeated betwixt the <lb/>Jaws, poſſeſſing almoſt the
+          whole Length thereof, <lb/>which ſeparates the <hi rend="italic">Saliva</hi> likewiſe from
+          the ſame <lb/>Arterial Source, throwing it into an excretory Duct <lb/>that riſes on the
+          back Part of it, and makes its way <lb/>forward, almoſt to the fore-cutting Teeth, but in
+            <pb n="17"/>
+          <lb/>the middle way admits of two ſide Branches, from <lb/>which ſpring two others that
+          convey this <hi rend="italic">Saliva</hi> to <lb/>the Forepart of the Tongue. </p>
+        <p rend="indent">
+          <lb/>There are glands ſays <hi rend="italic">Bartholine</hi>, that appear under <lb/>the
+          Tongue, for that the Palate, Gums and Lips, are <lb/>perforated by little Ducts and
+          Sluces, thro' which an <lb/>Humour or <choice>
+            <corr>Fluid</corr>
+            <sic>Flind</sic>
+          </choice> much like the <hi rend="italic">Saliva</hi>, but a great <lb/>deal thinner
+          flows. <hi rend="italic">Schneider</hi> and <hi rend="italic">Nuck</hi> both allow
+          <lb/>the glands of the Palate, eſpecially the hind Part as <lb/>well as thoſe of the <hi
+            rend="italic">Uvulæ</hi> and <hi rend="italic">Tonſillæ</hi> to ſeparate a <lb/><hi
+            rend="italic">Mucus</hi> that mixes it ſelf with the Aliment: But all <lb/>theſe
+          Fountains and Sluces are ſo ſeated, that they <lb/>may emit their Liquors chiefly upon the
+          Motion of <lb/>Manducation or chewing. And <hi rend="italic">Nuck</hi> makes it a
+          <lb/>Queſtion, whether in Man there be any other Sali- <lb/>vatory Gland or Duct? </p>
+        <p rend="indent">
+          <lb/>The <hi rend="italic">Saliva</hi> is a diluted Humour or Fluid, which <lb/>is
+          pellucid, will not congeal or thicken by the Fire, <lb/>and is almoſt void of Taſt and
+          Smell; if ſhak'd it will <lb/>hardly froth, it is glandulous Liquor ſecreted from
+          <lb/>pure Arterial Blood; more copious fluid and ſharp <lb/>by Abſtinence; but long
+          faſting makes it very acrid, <lb/>penetrating, deterging and reſolving: Flowers,
+          <lb/>Meal, or ſucculent Vegetables encreaſes its Fermen- <lb/>tation; it is thinner in
+          Brutes, healthful Men and <lb/>ſuch as ſleep much; too great a voluntary Secretion <lb/>or
+          Diſcharge of it, creates or procures an <hi rend="italic">Anorexia</hi>, <lb/><hi
+            rend="italic">Dyſpnæa</hi> and <hi rend="italic">Atrophia</hi> or waſting: Water and
+          Spirits <lb/>makes it abound, but Salt and Oil decreaſes and <lb/>makes it leſs in
+          Quantity. </p>
+        <p rend="indent">
+          <lb/>The Motion of <hi rend="italic">Maſtication</hi> therefore by expreſſing <lb/>the <hi
+            rend="italic">Saliva</hi>, and mixing it intimately with the Ali- <lb/>ment, tends,
+          firſt to promote the Nutrition of the <lb/>Body. 2ly, To mix the oleous with the aqueous
+          <lb/>Parts. 3ly, For the Solution of the Saliva. 4ly, <lb/>Fermentation. 5ly, An
+          Alteration of Taſte and <lb/>Smell. 6ly, Exciting the inteſtine Motion in the <lb/>mean
+          time by the Aſſiſtance of Air, Aliment, <hi rend="italic">Saliva</hi>, <pb n="18"/>
+          <lb/>and <hi rend="italic">Mucus</hi>, well mix'd and incorporated together, by <lb/>the
+          weight of Fluidity, Elaſticity, Heat of Bo- <lb/>dy, and variety of Preſſure at all times,
+          there is <lb/>Attenuation, Production of Fluxibility, and a Con- <lb/>tinuation of
+          inteſtine Motion throughout the whole <lb/>Maſs. </p>
+        <p rend="indent">
+          <lb/>Thus being ſubdued and rendred tractable, attenua- <lb/>ted, moiſten'd, and
+          lubricated the Food or Meat, is <lb/>protruded towards the Gullet, whilſt being bound
+          <lb/>there, by the Muſcles of the Cheeks and Lips toge- <lb/>ther with the Motion of the
+          Tongue, it is com- <lb/>preſs'd betwixt this and what <hi rend="italic">Bidloo</hi> calls
+          the forni- <lb/>cated Palate, and the foldings between the Cheeks <lb/>and the Oeſophagus,
+          while the <hi rend="italic">Geniogloſſi</hi>, the <hi rend="italic">Dorſi
+            <lb/>Longitudinales</hi>, the <hi rend="italic">Stylogloſſi</hi> and <hi rend="italic"
+            >Ceratogloſſi</hi> by ſucceſ- <lb/>ſive Motion act upon the hollow Root of the Tongue
+          <lb/>under <hi rend="italic">Cowper</hi>'s <hi rend="italic">Vail</hi> of the <hi
+            rend="italic">Palate</hi>, the <hi rend="italic">Uvula</hi> and <hi rend="italic">Al-
+            <lb/>mond glands</hi> upon the <hi rend="italic">Larynx</hi>, and <hi rend="italic"
+            >Pharynx</hi>; and for- <lb/>ming before the Membranes that cover them thoſe <lb/>Bodies
+          of the <hi rend="italic">Vertebræ</hi> of the Neck, which aſſiſt Deg- <lb/>lutition or
+          ſwallowing. </p>
+        <p rend="indent">
+          <lb/>Then from the Action of the <hi rend="italic">Geniogloſſi</hi>, the <hi rend="italic"
+            >Genio- <lb/>hyoideus</hi> as <hi rend="italic">Caſſerius</hi> mentions ariſing from the
+          inward <lb/>Part of the Chin, is fix'd about the Articulation of <lb/>the ſmaller <hi
+            rend="italic">Cornua</hi> of the Cartilages of the <hi rend="italic">Os Hyoidis</hi>;
+          <lb/>the <hi rend="italic">Mylohyoideus</hi> which proceeds in a large Tendon <lb/>from
+          the middle Part of the <hi rend="italic">Baſis</hi> of the <hi rend="italic">Os
+            Hyoidis</hi>; <lb/>is tyed or fix'd again by a large <hi rend="italic">Aponeuroſis</hi>
+          to the <lb/>lower Mandible, near the Grinders even to the Fore <lb/>Parts poſſeſſing that
+          Space which lies betwixt the <lb/><hi rend="italic">Os Hyoidis</hi>, and the inſides of
+          the lower Jaw. The <lb/><hi rend="italic">Styloceratohyoideus</hi> which ſprings from an
+          acute carne- <lb/>ous Beginning of the Styliforme Proceſs of the Tem- <lb/>poral Bone,
+          obliquely deſcending forward, penetra- <lb/>ted by the Digaſtrick is inſerted into the
+          Articulation <lb/>of the larger <hi rend="italic">Cornua</hi> with the <hi rend="italic"
+            >Os Hyoidis</hi>; the Root of <lb/>the Tongue is extended and lifted up, which being
+          <lb/>apply'd to the Vail of the Palate, the <hi rend="italic">Foramen</hi> of <pb n="19"/>
+          <lb/>opening into the Noſtrils is ſhut thereby; likewiſe <lb/>the <hi rend="italic">Os
+            Hyoidis</hi> and the <hi rend="italic">Larynx</hi>, aſſiſted by the Con- <lb/>traction
+          of the <hi rend="italic">Thyrohyoideus</hi> of <hi rend="italic">Aquapendent</hi>, which
+          <lb/>ariſing carneous from the ſide of the <hi rend="italic">Os Hyoidis</hi>, in <lb/>its
+          deſcent it is tyed to the lower Part of the <hi rend="italic">Scuti- <lb/>forme</hi>
+          Cartilage, they are raiſed up, and by the Preſ- <lb/>ſure made in ſwallowing they ſhut the
+            <hi rend="italic">Epiglottis</hi>, and <lb/>apply or clap the <hi rend="italic"
+            >Uvula</hi> to the Chink of the <hi rend="italic">Glottis</hi>; <lb/>expreſſing from the
+          Palate, <hi rend="italic">Tonſillæ</hi>, <hi rend="italic">Uvula</hi>, the Root <lb/>of
+          the Tongue, <hi rend="italic">Epiglottis</hi> and Glands thereof, a ſlip- <lb/>pery Mucus,
+          they do not only come round in De- <lb/>glutition, but they move forward, at the ſame time
+          <lb/>the Root of the Tongue, the <hi rend="italic">Os Hyoidis</hi> and the <hi
+            rend="italic">La- <lb/>rynx</hi>; ſo that they open the <hi rend="italic">Pharynx</hi>
+          as <hi rend="italic">Valſalva</hi> re- <lb/>lates, relaxing the <hi rend="italic"
+            >Oeſophagus</hi> according to <hi rend="italic">Cowper</hi>, and <lb/>ſo by that means
+          perform the act of ſwallowing: But <lb/>at the ſame time the internal and external <hi
+            rend="italic">Gargareon</hi>
+          <lb/>Muſcles as <hi rend="italic">Fallopius</hi> and <hi rend="italic">Riolan</hi> call
+          them, elevate <lb/>the Vail of the Palate, extend it every way governing <lb/>the <hi
+            rend="italic">Uvula</hi>, ſo in ſwallowing they open the <hi rend="italic">Glottis</hi>
+          <lb/>which being fallen, they occaſion an Eructation, or <lb/>caſting up thro' the
+          Noſtrils. </p>
+        <p rend="indent">
+          <lb/>From hence relaxing all that were contracted, <lb/>both the <hi rend="italic"
+            >Sternohyoidei</hi> move, which from the internal <lb/>Part of the <hi rend="italic"
+            >Clavicle</hi> near the <hi rend="italic">Sternum</hi>, aſcending with <lb/>a broad
+          carneous Beginning is inſerted forward into <lb/>the Baſis of the <hi rend="italic">Os
+            Hyoidis</hi>; the <hi rend="italic">Coracocerato hyoideis</hi>, <lb/>which ariſing from
+          a round carneous Beginning of <lb/>the upper Part of the <hi rend="italic">Scapula</hi> to
+          the Root of the <hi rend="italic">Co- <lb/>racoide</hi> Proceſs in the Progreſs making two
+          Bellies, <lb/>is affix'd to the Forepart of the <hi rend="italic">Os Hyoidis</hi>. So the
+            <lb/><hi rend="italic">Pharynx</hi> being ſhut at the ſame time conſtringes the <lb/><hi
+            rend="italic">Oeſophagus</hi>, ariſing on each ſide of the <hi rend="italic"
+            >Scutiforme</hi>
+          <lb/>Cartilage, and running into each poſtick Line of <lb/>the Gullet, by the force of
+          ſwallowing they cloſe in <lb/>the hollow of the <hi rend="italic">Oeſophagus</hi>, under
+          the <hi rend="italic">Pharynx</hi>. </p>
+        <p rend="indent">
+          <lb/>Which Tube ſaith <hi rend="italic">Verheyen</hi>, conſiſting of divers
+          <lb/>Membranes, depending mutually on each other, <pb n="20"/>
+          <lb/>which by the Aſſiſtance of the firſt <hi rend="italic">Mucus</hi> con- <lb/><choice>
+            <corr>ſtantly</corr>
+            <sic>conſtantly</sic>
+          </choice> moiſtens the internal Cavity, rendring <lb/>the <hi rend="italic">Saliva</hi>
+          more oily, whereby it affords a ſlippery <lb/>Paſſage <choice>
+            <corr>in deglutition</corr>
+            <sic>indeglutition</sic>
+          </choice>, and gives a neceſſary Flexi- <lb/>bility to its Fibres. In the next place,
+          where it <lb/>depends on the former glandulous Coat, there a <lb/>Juice is expreſs'd by
+          the canals into the hollow of <lb/>the Tube, and here the Muſculous Bodies are en-
+          <lb/>compaſs'd by the orbicular Fibres, which are bound <lb/>in by the Longitudinal; and
+          at laſt all the fine <lb/>thinner Parts are involved in a fibrous and vaſcu- <lb/>lous
+          Membrane. Therefore by the Contraction of <lb/>the longitudinal and orbicular Fibres the
+          lubricous <lb/>Deglutition is made, by the fat way being dilated in <lb/>ſwallowing,
+          whence the Aliment is protruded thro' <lb/>the relax'd open Paſſage into the very Mouth of
+          the <lb/>Stomach; and therefore where is deſcends, the up- <lb/>per Fleſh as <hi
+            rend="italic">Bartholine</hi> ſays of the lower Muſcle of <lb/>the Diaphragm, binding or
+          conſtringing the Gullet <lb/>there, as it paſſes by, ſhuts the Stomach or <hi
+            rend="italic">Ventricle</hi>
+          <lb/>in this Part. </p>
+      </div>
+      <div type="section">
+        <head rend="italic align-center">
+          <lb/>The Action of the Stomach upon the Aliment. </head>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">T</hi>HE Meat and Drink being ſwallowed, ſhut up <lb/>in the
+          Stomach, entertain'd with Heat, and <lb/>mix'd with the Air, according to the variety of
+          mat- <lb/>ter, begins in this Place naturally to ferment or pu- <lb/>trefie, either of
+          which ways it is wonderfully chan- <lb/>ged, into a ſour, ſweet, or rancid Maſs. </p>
+        <p rend="indent">
+          <lb/>The ragged Coat of the Stomach which receive <lb/>the Aliment, is furniſh'd partly
+          with a hairy, tubu- <lb/>lous, rough, moiſt, glutinous Cavity, and partly <lb/>convex
+          ſupply'd with many different ſmall Glands <lb/>which ariſe from the vaſculous Coat that
+          adheres to <lb/>it, abounding with <hi rend="italic">Arteries</hi>, <hi rend="italic"
+            >Veins</hi> and <hi rend="italic">Nerves</hi>: There- <lb/>fore from its ſmall Sluices
+          or Canals, it conſtantly <pb n="21"/>
+          <lb/>emits a thin, ſubtle, pellucid, ſpumous Fluid, en- <lb/>rich'd with Spirits,
+          moderately ſalt, and in the moſt <lb/>voracious Animals, not Alcaline nor Acid, but in
+          <lb/>long faſting acrid, which is ſecreted out of the ſmall <lb/>Ducts of the <hi
+            rend="italic">Gaſtrick Arteries</hi>, beſides a ſmooth <hi rend="italic">Mucus</hi>
+          <lb/>Humour from the Glands, collected in little Bags, <lb/>and expreſs'd thence into the
+          Cavity or hollow of <lb/>the Ventricle: Large Contractions of the Stomach <lb/>makes great
+          Foldings, which ſtops the Aliment cau- <lb/>ſing an acrid Ferment and aſſiſting the
+          Attrition or <lb/>breaking of the Food to a Pulp, exciting thereby <lb/>Hunger: <hi
+            rend="italic">Malpighius</hi> and <hi rend="italic">Peyerius</hi> inform us, that ſuch
+          <lb/>Animals as want this villous Coat and theſe Liquors, <lb/>have a Crop or Craw, and
+            <hi rend="italic">Sinus</hi> or Receptacle be- <lb/>fore the <hi rend="italic"
+            >Ventricle</hi>, which conſiſts of almoſt the like <lb/>Texture and Humours. </p>
+        <p rend="indent">
+          <lb/>If we conſider in what Plenty the <hi rend="italic">Saliva</hi> continu- <lb/>ally
+          flows upon this Part to the Food, both from the <lb/>Mouth and Gullet, perpetually
+          diluting what is up- <lb/>on the Stomach, agitating the various Parts, effe- <lb/>ctually
+          giving Motion to them by the Admiſſion of <lb/>Air, and exciting Heat in the Part; by
+          which means <lb/>we ſhall ſee the Effects perform'd of Maceration and <lb/>Dilution, and
+          the Aliment ſo attenuated and diſ- <lb/>ſolv'd that Fermentation is procur'd, and thus
+          adap- <lb/>ted to enter into the Paſſages and Humours of our <lb/>Body: Yet we cannot from
+          hence diſcern how the <lb/>Solids, that are not yet chew'd and broken to pie- <lb/>ces,
+          become ſucceſsfully digeſted in the Stomach. </p>
+        <p rend="indent">
+          <lb/>But that the Cauſe inquired after, may be found <lb/>out, let us look into the
+          Muſcular Fabrick of the <lb/>Stomach, and conſider what Actions depend there- <lb/>on:
+          Then it will appear that the carneous Mem- <lb/>brane of the Stomach, according to <hi
+            rend="italic">Willis</hi> is com- <lb/>pos'd on the convex Part of ſtrong Fibres, which
+          <lb/>beginning at the upper Orifice proceed to the <hi rend="italic">Pylo-</hi>
+          <lb/><hi rend="italic">rus</hi> in an orbicular or ſpiral Order, and ſurround <lb/>its
+          Cavity in a perpendicular Situation almoſt the <pb n="22"/>
+          <lb/>whole Length thereof, and bind it length ways by <lb/>its Contraction, but on the
+          concave or hollow Part, <lb/>it conſiſts of Fibres, firſt of all oblique, which con-
+          <lb/>tract the bottom of the Stomach, obliquely towards <lb/>its back Part, and towards
+          the upper Orifice, and <lb/>ſo length ways leſſening the Contraction: In the <lb/>next
+          place, it hath ſtrong Fibres, ſpreading over the <lb/><hi rend="italic">Pylorus</hi> by a
+          Parallel Courſe length ways, united <lb/>on the back Part, running round the upper
+          Orifice, <lb/>and ſo they open the Mouth of the Stomach when <lb/>empty, and ſhut the
+          upper Orifice when full, cloſely <lb/>conſtraining the lower. </p>
+        <p rend="indent">
+          <lb/>It is likewise plain, that this Membrane is ſtill girt <lb/>as <hi rend="italic"
+            >Willis</hi> obſerves, with another extreme one, which <lb/>on the Convex Part is very
+          vaſculous, but on the <lb/>Concave fibrous, with a Parallel Longitudinal Duct <lb/>which
+          helps the Conſtriction or binding length <lb/>ways; and therefore theſe Fibres are very
+          ſpringy, <lb/>but are not altogether ſtrong enough to diſcharge the <lb/>Stomach, where
+          they act together, they ſhut the <lb/>Orifices, forcibly preſs or ſqueeze the diſtended
+          <lb/>Contents, mix and grind them with the vermicular <lb/>Motion, attenuating the groſs
+          Maſs contain'd in the <lb/>Stomach, driving the more fluid Parts towards the <lb/><hi
+            rend="italic">Sinus</hi>, before the <hi rend="italic">Pylorus</hi>, by which being
+          contracted <lb/>but leſs cloſed than the upper Orifice, the thinneſt <lb/>Part which is
+          reduced to a pulpy matter, firſt is by <lb/>degrees leiſurely thruſt into the <hi
+            rend="italic">Duodenum</hi>. </p>
+        <p rend="indent">
+          <lb/>By ſuch a Motion only ſays <hi rend="italic">Harvey</hi>, but more vi- <lb/>olent
+          many Animals uſe to macerate their Food: <lb/>Our hearing ſaith <hi rend="italic"
+            >Borellus</hi> is witneſs of this, ſo that <lb/>Obſervation demonſtrates it effectually;
+          but the <lb/>Nervous and Muſcular Fabrick of this <hi rend="italic">Viſcera</hi> informs
+          <lb/>us that there is the like in our ſelves. </p>
+        <p rend="indent">
+          <lb/>Whether or no, or from what Cauſe can we un- <lb/>derſtand, why little Meat and Drink
+          received ſhall <lb/>make the Stomach evacuate or diſcharge? Why the <pb n="23"/>
+          <lb/>Stomach too much loaded ſhou'd not do the ſame or <lb/>digeſt, but vomit up crude
+          that which hath lain <lb/>there ſome time? What Reason can be given that <lb/>tho' we
+          greedily and at once pour down Liquors, <lb/>the Stomach ſhall certainly retain them. </p>
+        <p rend="indent">
+          <lb/>But theſe Things not yet appearing ſufficient to <lb/>explain the Alteration of the
+          Aliment made in <lb/>the Stomach; we ought further to have regard to, <lb/>or bring under
+          our Conſideration. Firſt the perpe- <lb/>tual nouriſhing Heat of the ambient Parts. 2dly,
+          <lb/>The innumerable Motions or Strokes of the Arteries <lb/>that are in the Stomach,
+          Diaphragm, Caul, Spleen, <lb/>Liver, Pancreas, Meſentey and Perionæum. 3dly, <lb/>The
+          forcible Vibrations of the <hi rend="italic">Aorta</hi> it ſelf. 4ly, <lb/>The Strength of
+          the Nervous Liquor in no place <lb/>more plentiful than here. 5thly, The continual Re-
+          <lb/>ciprocal and ſtrong Compreſſion of almoſt all the <lb/><hi rend="italic"
+            >Peritonæum</hi>, by the great <hi rend="italic">Diaphragm</hi> as <hi rend="italic"
+            >Bartholin</hi> and <lb/><hi rend="italic">Veſalius</hi> both call it, which aſcends
+          from the right <lb/>inferior Part of the Three Firſt <hi rend="italic">Vertebræ</hi> of
+          the Loins, <lb/>on the left, from the laſt and laſt but one <hi rend="italic"
+            >Vertebræ</hi> of <lb/>the <hi rend="italic">Thorax</hi>, ariſing from a tendinous and
+          then a car- <lb/>neous Beginning with ſtreight Fibres on the upper <lb/>Part, ſpringing
+          from a thin membranous Beginning, <lb/>it preſently grows carneous from all the ſide of
+          the <lb/>cartilaginous Top of the inferior Ribs and the loweſt <lb/>Part of the <hi
+            rend="italic">Sternum</hi>, running downwards with a <lb/>Hundred creeping Fibres; it
+          becomes tendinous, <lb/>and is intermix'd or confounded with the former: <lb/>From whence
+          acting as from a Convex, it is plane, <lb/>and binds the <hi rend="italic">Abdomen</hi>
+          and its Contents; ſtrongly <lb/>compreſſing Ten <hi rend="italic">Abdominal</hi> Muſcles
+          with one united <lb/>Contraction, and governing the <hi rend="italic">Abdomen</hi> by its
+          re- <lb/>ciprocal Motions and great Strength, as Contem- <lb/>plation informs us. </p>
+        <p rend="indent">
+          <lb/>For firſt ſaith <hi rend="italic">Veſalius</hi>, the oblique, exterior, ten-
+          <lb/>dinous and carneous Part, ariſes from the lower ſide <lb/>of the Ribs, deſcending it
+          grows tendinous, and is <pb n="24"/>
+          <lb/>inſerted into the <hi rend="italic">linea alba</hi>, the <hi rend="italic">Os
+            Pubis</hi>, the ante- <lb/>rior and upper Side of the <hi rend="italic">Os Ilium</hi>.
+          2dly, Accor- <lb/>ding to <hi rend="italic">Spigelius</hi>, the oblique inferior carneous
+          Part <lb/>ariſes from the circular Courſe of the <hi rend="italic">Os Pubis</hi>, grow-
+          <lb/>ing tendinous, from the fore bending Fibres, and is <lb/>inſerted into the <hi
+            rend="italic">linea alba</hi> and the Cartilages of the <lb/>Ribs. <hi rend="italic"
+            >Fallopius</hi> ſaith it is pyramidal and carneous <lb/>from the anterior upper Part of
+          the <hi rend="italic">Os Pubis</hi>, grows <lb/>tendinous to the <hi rend="italic">linea
+            alba</hi>, and is inſerted into the <lb/><hi rend="italic">Navel</hi>; with <hi
+            rend="italic">Veſalius</hi>, it is tranſverſe from a carneous <lb/>Riſe, of the
+          tranſverſe Proceſſes of the <hi rend="italic">Vertebræ</hi> of <lb/>the Loins, and derives
+          it ſelf from the Spine of the <lb/><hi rend="italic">Os Ilium</hi>, the Ligament of the
+            <hi rend="italic">Os Pubis</hi>, and the <lb/>cartilaginous End of the Ribs, beneath the
+            <hi rend="italic">Sternum</hi>, <lb/>being inſerted with a broad Tendon to all the <hi
+            rend="italic">linea <lb/>alba</hi> under the right Abdominal. Laſtly, <hi rend="italic"
+            >Spigelius</hi>
+          <lb/>affirms the right carneous one comes from the <hi rend="italic">Xi- <lb/>phoide</hi>
+          Cartilage, the Cartilages of both lower true <lb/>Ribs, the Cartilages of both the upper
+          Baſtard Ribs, <lb/>conſiſting of five tendinous and five carneous Parts, <lb/>and at laſt
+          is inſerted into the upper anterior Part of <lb/>the <hi rend="italic">Os Pubis</hi>. </p>
+        <p rend="indent">
+          <lb/>But if we think the Force of all theſe Cauſes, <lb/>conſpiring together in one united
+          Work ſufficient <lb/>to render the Maſs in one place ſoft and ſoluble <lb/>enough, we may
+          truly ſee the Effects which happen <lb/>to this Part, the conſequences of which ought to
+          be. <lb/>Firſt, That Moveables be mix'd with Fluids, to le- <lb/>vigate and reſolve into
+          Fluidity to produce a ci- <lb/>neritious or aſh Colour, to preſs by degrees, and
+          <lb/>ſqueez our what is contain'd therein. 2ly, That <lb/>the more tenacious remains be
+          kept or with-held <lb/>from the firſt Operations, and that the ſame Cau- <lb/>ſes
+          coninuing, they undergo the ſame Work, and <lb/>ſhew the ſame <hi rend="italic"
+            >Phænomena</hi> as firſt. 3ly, That Fibres, <lb/>Membranes, Cartilages, the Bones, and
+          the hardeſt <lb/>Parts of vegetable things be render'd juicy or li- <lb/>quid, and laſtly,
+          that they be expell'd the Stomach, <pb n="25"/>
+          <lb/>yet cohering in Form. 4ly, That by diſſolving <lb/>Vegetable and Animal Food, a
+          Humour be made <lb/>Analogous to that of our own. 5ly, That there <lb/>be made a ſpeedy
+          Reſtoration to the Feeble from <lb/>want of Strength; whilſt the ſubtle Fluid recei-
+          <lb/>ved by the Pipes or Canals, from the Mouth, Gul- <lb/>let and Stomach, opening and
+          evacuating themſelves <lb/>into the Lymphaticks, is from hence ſent by a ſhort <lb/>Road
+          into the ſanguineous Veins, and thence im- <lb/>mediately by the aſſiſtance of the
+          Arteries, diſtri- <lb/>buted into all Parts of the Body. </p>
+        <p rend="indent">
+          <lb/>Therefore whether the Heat alone be the Sto- <lb/>mach's Cook? or it be the vital <hi
+            rend="italic">Acor</hi> or Sharpneſs <lb/>that is in the Stomach, inſpiring Life, as
+          natural <lb/>to that Ventricle? Whether Digeſtion be deficient <lb/>without Acid? What
+          thick, ſalt, acid or bitter Hu- <lb/>mor, cauſes ſuch Ructations in the Breaſt of a
+          <lb/>healthful Man, and whence this ariſes? Whether <lb/>it be a different or various
+          Cauſe that excites Hun- <lb/>ger, and what it is? Why the Stomach ſwells in
+          <lb/>Digeſtion; but is flaccid or lank when empty? </p>
+      </div>
+      <figure rend="space">
+        <figDesc>A horizontal line, spanning the whole page. </figDesc>
+      </figure>
+      <div type="section">
+        <head rend="italic align-center">
+          <lb/>The Action of the Inteſtines or Guts upon the <lb/>Aliment. </head>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">T</hi>Hat it may be rightly underſtood what happens <lb/>to the
+          Chyle of the Stomach, and the remain- <lb/>ing Fæces in the Guts, we will conſider the
+          Fabrick <lb/>or Structure of this Duct, the Humors drawn from <lb/>thence, the abſolving
+          Veſſels, their Motion, and <lb/>that of the circumjacent Parts. Firſt, The Coat or
+          <lb/>Covering of the ſmall Guts, which contains the <lb/>Chyle, is rough, broad and
+          perforated with aqueous <lb/>and glutinous Pipes, with the Mouths of the Lacteals <lb/>and
+          large Apertures, which being diſtinct, afford a <lb/>wat'ry, glutinous Humor, that
+          conſtantly moiſtens <pb n="26"/>
+          <lb/>and lubricates a muſculous one lying upon it, which <lb/>is very rough, here
+          eſpecially, where it is tyed to <lb/>the <hi rend="italic">Meſentery</hi>; and convex with
+          a vaſculous, glan- <lb/>dulous and nervous Part; from whence 'tis a Check <lb/>to the
+          Chyle and <hi rend="italic">Fæces</hi>, a continual Interception of <lb/>theſe, the
+          Lubrication and Defence of the Cavity, dai- <lb/>ly Dilution of the groſſer <hi
+            rend="italic">Fæces</hi>, eſpecially about <lb/>the end of the <hi rend="italic"
+            >Ileum</hi>, where there is an Oilineſs of the <lb/>ſolider Excrement. </p>
+        <p rend="indent">
+          <lb/>Here is another thin Coat, according to <hi rend="italic">Willis</hi>, <lb/>except we
+          will ſuppoſe it to be part of the ſame, <lb/>conſiſting of a reticular Texture of an
+          innumerable <lb/>quantity of arterial, veinous and nervous Veſſels, <lb/>which adhere
+          almoſt to the Baſis of the <hi rend="italic">Peyerian</hi>
+          <lb/>Glands, the tops of which opening to the Superfi- <lb/>cies, ſupply it with a Gelly
+          or Mucus, theſe in the <lb/>begining of the ſmall Guts are few, but increaſe <lb/>in Size
+          and Number; from whence proceeds Heat, <lb/>Pulſation, Trituration, Dilution, Lubrication
+          and <lb/>a Defence. </p>
+        <p rend="indent">
+          <lb/>A muſcular Coat ſurrounds this, with a concave <lb/>Part, ſtrengthen'd with thick,
+          firm, annular Fibres, <lb/>inſerted into the Sides or Borders of the <hi rend="italic"
+            >Meſentery</hi>
+          <lb/>as a <hi rend="italic">Tendon</hi>; from whence the whole Cavity of the <lb/>ſmall
+          Guts is bound ſucceſſively by Parts with <lb/>riſing Valves that play backwards and
+          forwards re- <lb/>ciprocally; the Contents are lodg'd in the rough <lb/>Sides of the
+          Inteſtine, where they are ground, mix'd, <lb/>attenuated, and hindred from Concretion, the
+          very <lb/>ſides of the Guts, being rub'd off from the Convex <lb/>Part length-ways the
+          firſt ſtriking againſt them, <lb/>with which folding in, they are contracted, and are
+          <lb/>ſtrench'd out-right, eſpecially in Places from the Re- <lb/>gion of <hi rend="italic"
+            >Meſentery</hi> to which they are tyed. </p>
+        <p rend="indent">
+          <lb/>The laſt external Coat of all that wraps in the <lb/>former, is from the Peritonæum,
+          and knit to the <lb/><hi rend="italic">Meſentery</hi>. This whole long Duct, Pipe or
+          Canal, is <lb/>tyed ſhort to the Borders or Sides of the <hi rend="italic">Meſentery</hi>;
+            <pb n="27"/>
+          <lb/>it hangs downwards, and is gathered or folded <lb/>wonderfully into a great many
+          Turns or Windings, <lb/>almoſt every way, being cloth'd and interſpers'd <lb/>with Fat,
+          beſide the Lubrication it receives from the <lb/>gentle Exhalations or Dew of the Caul; it
+          is re- <lb/>laxed and render'd moveable; is extended or <lb/>ſtretch'd under the <hi
+            rend="italic">Peritonæum</hi>, with which, by the <lb/>Motion of other ambient Cauſes,
+          they perform reci- <lb/>procal Actions together: In a healthful Condition, it <lb/>only
+          wants diluting, the Fæces growing thick, or the <lb/>nearer their Excluſion, in a ſound
+          and lively State <lb/>this Veſſel is wonderfully contracted; it is perpe- <lb/>tually
+          agitated by the Periſtaltick Motion, where- <lb/>fore it becomes more apt for grinding,
+          bruiſing, ſe- <lb/>parating, diſſolving, attetuating and volatilizing, <lb/>from whence it
+          propels the Chyle into the Mouths <lb/>of the Lacteals, and theſe are common to the whole
+          <lb/>Tract or Circuit of this Veſſel. </p>
+        <p rend="indent">
+          <lb/>In the <hi rend="italic">Duodenum</hi> its Rectitude and Narrowneſs is <lb/>proper to
+          it, but it is laxer at its knitting to the Me- <lb/>ſæraick, the Perforation at the end
+          for the common <lb/>Paſſage of the Bile and the Pancreatick Duct of <lb/><hi rend="italic"
+            >Wirſungius</hi> otherwiſe joyned together, according to <lb/><hi rend="italic"
+            >Gliſſon</hi> and <hi rend="italic">Graef</hi>, are ſometimes ſeparated or divided;
+          <lb/>wherefore the celebrated Paſſage to the Chyle is <lb/>made by theſe Mouths, by this
+          way you may diſ- <lb/>cover a triple Humour entring the Cavity of the <lb/>Gut, to wit,
+          the <hi rend="italic">Cyſtick</hi> and <hi rend="italic">Hepatick Bile</hi> as well as
+          <lb/>the <hi rend="italic">Lympha</hi> from the <hi rend="italic">Pancreas</hi>. </p>
+      </div>
+      <figure rend="space">
+        <figDesc>A horizontal line, spanning the whole page. </figDesc>
+      </figure>
+      <div type="section">
+        <head rend="italic align-center">
+          <lb/>Of the Action of the Cyſtick and Hepatick Bile. </head>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">T</hi>HE <hi rend="italic">Bile</hi> of the Bladder is thicker, of a
+          deeper <lb/>yellow, bitterer, and which does not conſtantly <lb/>flow into the Inteſtines,
+          but is ſecern'd copiouſly by <lb/>external Compreſſion, and the Contraction of the
+          <lb/>irritated Fibres. But the <hi rend="italic"> Hepatick Bile</hi> is thinner, <pb
+            n="28"/>
+          <lb/>more pellucid, ſofter, and flows drop by drop, be- <lb/>ing only expell'd by the
+          Actions of the Ducts and <lb/>Humours about it. Thirdly, The Pancreatick Juice <lb/>is
+          almoſt perpetually ſecerning; from which when <lb/>it meets with the <hi rend="italic"
+            >Saliva</hi> and <hi rend="italic">Mucus</hi> of the Mouth, <lb/>Gullet, Stomach and
+          Guts, it makes a ſpumous or <lb/>frothy Liquor, and ſometimes a little clammy, <lb/>which
+          is often ſqueez'd up into the Stomach when <lb/>empty. </p>
+        <p rend="indent">
+          <lb/>But the <hi rend="italic">Cyſtick Bile</hi> reſiſts, ſharps and ſours, and <lb/>is
+          furniſh'd with another Faculty peculiar to it ſelf; <lb/>it is ſaponaceous, abſterges and
+          makes Oils mix <lb/>with Water; it diſſolves <hi rend="italic">Roſins</hi> and the moſt
+          tena- <lb/>cious Gums, and makes them homogeneous, is nei- <lb/>ther Alcalick nor Acid,
+          but coagulates Oil, Salt <lb/>and Spirits diluted with Water; will not burn, ex- <lb/>cept
+          it be firſt dry'd, and is the moſt biting or ſharp- <lb/>eſt of all the Humors of the
+          Body; wherefore its <lb/>Effects are when mix'd with the <hi rend="italic">Chyle</hi> and
+            <hi rend="italic">Fæces</hi> to <lb/>attenuate, abſterge and ſtimulate the moving
+          Fibres, <lb/>to intermix thoſe Fluids which are of different kinds, <lb/>to break the
+          acrid ſaline Parts, and divide the co- <lb/>agulated or thick ones, to expedite the way
+          for the <lb/><hi rend="italic">Chyle</hi>, excite or provoke the Appetite to ſerve in-
+          <lb/>ſtead of a ferment, and to aſſimulate the crude to <lb/>the Parts digeſted, in theſe
+          the <hi rend="italic">Cyſtick Bile</hi> much <lb/>exceeds the Hepatick, the Deſcription of
+          which I <lb/>ſhall refer to the <hi rend="italic">Liver</hi>. </p>
+      </div>
+      <figure rend="space">
+        <figDesc>A horizontal line, spanning the whole page. </figDesc>
+      </figure>
+      <div type="section">
+        <head rend="italic align-center">
+          <lb/>Of the Action of the Pancreatick Lympha. </head>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">U</hi>Nder the hind Part, and the bottom of the <lb/>Stomach, in the
+          firſt Place the hangs in the po- <lb/>ſterior Lamella of the <hi rend="italic">Caul</hi>,
+          a large conglomerate <lb/>Gland, call'd by <hi rend="italic">Wharton</hi>, <hi
+            rend="italic">Graef</hi> and <hi rend="italic">Veſalius</hi>, the <hi rend="italic">Pan-
+            <lb/>creas</hi>, which by the Aſſiſtance of the Cæliack Arte- <lb/>ries and the Texture
+          of the Gland ſecerns a Humor <pb n="29"/>
+          <lb/>of Fluid into one common Duct, which makes its <lb/>Exit into the <hi rend="italic"
+            >Duodenum</hi>, and from thence brings all <lb/>that <hi rend="italic">Lympha</hi>; but
+          it is almoſt inſipid, in Taſte ſome- <lb/>what ſalt, limpid, plentiful, always making and
+          <lb/>emitting, neither <hi rend="italic">acid</hi> nor <hi rend="italic">alcaline</hi>,
+          but analogous to <lb/>the <hi rend="italic">Saliva</hi>, confuſedly mix'd with the <hi
+            rend="italic">Bile</hi> in living <lb/>Bodies, being digeſted therewith, and adhering in
+          <lb/>the ſame <hi rend="italic">Pipe</hi> or <hi rend="italic">Tube</hi> with it, is not
+          obſerv'd to give <lb/>any Aſſiſtance to the Motion of the Gut, but is <lb/>equally
+          diſtributed thro' it, and ſometimes flows <lb/>alone into the Empty Inteſtines, hence the
+          Uſe of it <lb/>is to mix with the Chyle, Fæces, Gall and Mucus, <lb/>in order to dilute
+          their groſſer Parts and render <lb/>them more fluid and thin, that they may better mix
+          <lb/>together, to render the <hi rend="italic">Chyle</hi> more miſcible in the <lb/>Blood,
+          and to adapt it for a readier Paſſage <lb/>thro' the <hi rend="italic">Lacteals</hi>, to
+          ſoften its Auſtereneſs, Viſcidity <lb/>and Bitterneſs, to chance its Colour, and intermix
+          <lb/>it perfectly with the <hi rend="italic">Chyle</hi>, to make it capable of
+          <lb/>performing the Office of a <hi rend="italic">Menſtruum</hi> and <hi rend="italic"
+            >Vehicle</hi>, ſo <lb/>to change the ſingular Taſte and Smell of Food, <lb/>that it
+          becomes as it were almoſt indolent, and that <lb/>the <hi rend="italic">Chyle</hi> may be
+          able to go and return this way <lb/>with Eaſe and Expedition. </p>
+        <p rend="indent">
+          <lb/>Wherefore being ſtrongly queſtion'd wilt thou an- <lb/>ſwer, whether the <hi
+            rend="italic">Bile</hi> be double? Whether an <lb/>Excrement of the <hi rend="italic"
+            >Hepatick Chyle</hi>, while the Blood is <lb/>there return'd back? or whether it
+          produces any <lb/>Advantage to Health and Life? but what is that? <lb/>in ſhort whether
+          the <hi rend="italic">Pancreas</hi> and <hi rend="italic">Bile</hi> anſwer the <lb/>Syſtem
+          of <hi rend="italic">Helmont</hi> and <hi rend="italic">Sylvius</hi>? or whether they
+          <lb/>become a<hi rend="italic">Duumvirate</hi> here and what? whether they <lb/>can excite
+          and ſuſtain Life from the Inteſtine Mo- <lb/>tion of the Blood? what the <hi rend="italic"
+            >Pancreatick</hi> Juice is, <lb/>and to what end? why does it flow with the <hi
+            rend="italic">Bile</hi>, <lb/>or at leaſt next it? whether the Animal can live <lb/>well
+          without it? </p>
+      </div>
+      <pb n="30"/>
+      <div type="section">
+        <head rend="align-center space italic">
+          <lb/>The Propulſion of the Chyle into the Lacteals. </head>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">B</hi>Y the Contraction of the ſtrait Fibres of the In-
+          <lb/>teſtines, which are inſerted to their external <lb/>Coats as a Tendon, the Veſſel or
+          Pipe is made rough <lb/>in the Part which is turn'd back from the <hi rend="italic"
+            >Meſentery</hi>, <lb/>hence from the ſpiral Tube it acquires a Cylin- <lb/>drick Figure,
+          by which means in the Part joyn'd to <lb/>the <hi rend="italic">Meſentery</hi> it is lax,
+          in the Part againſt the <hi rend="italic">Me- <lb/>ſentery</hi> it is conſtring'd;
+          wherefore the Paſſages or <lb/>Pores next the <hi rend="italic">Meſentery</hi>, that is,
+          the Mouths of the <lb/>Lacteals, are found lax and open to the Fuid, <lb/>moveable and
+          lubricated Chyle, by which it may <lb/>readily enter; in the mean time the Valves being
+          <lb/>ſtrengthen'd by the ſame Force erect, mutually ap- <lb/>proach each other, intercept
+          the <hi rend="italic">Chyle</hi>, ſtop it, and <lb/>almoſt cloſe the contracted Part of
+          the Inteſtine. </p>
+        <p rend="indent">
+          <lb/>Alſo by the orbicular contracted Fibres, inſerted <lb/>into the <hi rend="italic"
+            >Meſentery</hi> as a Tendon, the <hi rend="italic">Cylindrick</hi> Spaces <lb/>are
+          contracted, and ſhut up by the Valves mutually <lb/>preſſing to each other, wherefore the
+            <hi rend="italic">Chyle</hi> by means <lb/>of this Force, and the Action of the ambient
+          Bodies, <lb/>is ſqueez'd out, diluted, mix'd and driven towards <lb/>the proper Places in
+          the <hi rend="italic">Meſentery</hi>, that is, it is for- <lb/>ced into the Mouths af the
+          Lacteals, which are beſt <lb/>open'd by the Periſtaltick Motion: Yet the fermen- <lb/>ting
+            <hi rend="italic">Chyle</hi> enters not the Lacteals by its own Ener- <lb/>gy. That <hi
+            rend="italic">Chyle</hi> therefore that enters the Mouths of <lb/>the Lacteals, is
+          falſly ſuppos'd to be only the Produ- <lb/>ction of Meat and Drink, for it is a Fluid or
+          Hu- <lb/>mour conſiſting chiefly of <hi rend="italic">Saliva</hi>, the thin Mucus <lb/>of
+          the Mouth, that double Liquor of the Gullet and <lb/>Stomach, of the <hi rend="italic"
+            >Cyſtick</hi> and <hi rend="italic">Hepatick Bile</hi> the <hi rend="italic">Pancrea-
+            <lb/>tick Lympha</hi>, of <hi rend="italic">Peyerius</hi> inteſtinal Humor, and as
+            <lb/><hi rend="italic">Brunnerus</hi> of the <hi rend="italic">Pancreas</hi> ſays, of
+          that ſtrong, <lb/>copious and ſubtle Liquor, ſupply'd from an innu- <lb/>merable quantity
+          of Nerves; for all theſe Humors, <pb n="31"/>
+          <lb/>whether paſſing thro', flowing out, or mix'd with <lb/>the <hi rend="italic"
+            >Chyle</hi>, are always entring the Lacteals, tho' they <lb/>are only conſpicuous or
+          viſible a little after eating. </p>
+        <p rend="indent">
+          <lb/>Whether or no the thin, bilious and lymphatick <lb/> Part of that <hi rend="italic"
+            >Chyle</hi> is not more received into the ab- <lb/>ſorbing Veſſels, that open upon the
+          inward Super- <lb/>ficies of the Guts, and empty or diſcharge them- <lb/>ſelves into the
+          Meſeraick Veins, from whence there <lb/>is a Dilution made in the <hi rend="italic">Vena
+            Porta</hi>, and new Mat- <lb/>ter for the <hi rend="italic">Bile</hi> to ſecern?
+          Certainly the Number <lb/>of theſe, their Largeneſs, and ſingular Texture or <lb/>Make
+          about the Inteſtines, their common Nature <lb/>with all Veins, the Humor flowing hence, as
+          well <lb/>into the <hi rend="italic">Vena Porta</hi> as the <hi rend="italic">Artery</hi>:
+          The Diſpoſition <lb/>of this Fluid; the great quantity of Humors meet- <lb/>ing in the
+          Inteſtines, which are not all received by <lb/>the <hi rend="italic">Lacteals</hi>,
+          neither are they obſerv'd to be expell'd <lb/>by Siege. Comparative Anatomy not finding
+          La- <lb/>cteals in <hi rend="italic">Oviparous</hi>Animals, and yet diſcovering a
+          <lb/>Paſſage in the <hi rend="italic">Meſeraicks</hi> from the Cavity of the
+          <lb/>Inteſtines, this Enquiry is anſwer'd. </p>
+        <p rend="indent">
+          <lb/>Since all the <hi rend="italic">Phænomena</hi> ſeem to depend on Meat <lb/>and Drink,
+          from the firſt Reception of them, to <lb/>their Entrance into the <hi rend="italic"
+            >Lacteals</hi>, their Conſequen- <lb/>ces ſeem clearly, naturally, and diſtinctly demon-
+          <lb/>ſtrable from the Structure, Fabrick and Strength of <lb/>the Veſſels, the natural
+          Knowledge of the Humors, <lb/>and their virtual Operation demonſtrable to Senſe <lb/>or
+          reaſonable Mechanicks; whether theſe ought <lb/>to be call'd <hi rend="italic"
+            >Poſtulata</hi>, that are obſcure, doubtful and <lb/>diſſonant to Reaſon and
+          Experiments? Heat is <lb/>call'd the Cook of the Stomach, its native Life, and <lb/>what
+          renders the Sourneſs thereof volatile. The <lb/><hi rend="italic">Archæus</hi>, the Smith,
+          the Alcaline Bile, fermenting <lb/>changes the fix'd acid Chyle into a volatile ſalt one,
+          <lb/>the Sharpneſs of the <hi rend="italic">Pancreatick Lympha</hi>, and the Ef-
+          <lb/>ferveſcence with the <hi rend="italic">Alcaline Bile</hi>, the Precipitation
+          <lb/>that depurates or fines down the <hi rend="italic">Chyle</hi>: Peripate- <pb n="32"/>
+          <lb/>tick, Galenick, and Chymick Faculties; with a <lb/>thouſand other pernicious <hi
+            rend="italic">Hypotheſes</hi> and falſe No- <lb/>tions that give Laws and Rules to
+          Phyſick. </p>
+      </div>
+      <figure rend="space">
+        <figDesc>A horizontal line, spanning the whole page. </figDesc>
+      </figure>
+      <div type="section">
+        <head rend="italic align-center">
+          <lb/>The Matter and Expulſion of the Inteſtinal <lb/><hi rend="roman">Fæces</hi>. </head>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">T</hi>HE groſſer part of the Aligment received, ſtick- <lb/>ing
+          obſtinately in the Mouths or Orifices of <lb/>the <hi rend="italic">Lacteals</hi>, is
+          looſed as it were by the Force of <lb/><hi rend="italic">Manducation</hi>, the liquid Part
+          being abſorb'd, by the <lb/>continual Gyration or Motion of the ſmall Guts <lb/>and the
+          Structure of the Valves therein, driving the <lb/>Solid by degrees into narrower and
+          ſtraiter Places, <lb/>the lubricated Fat of the Glands giving way, it be- <lb/>comes
+          preſs'd, ſqueez'd, macerated, and drawn dry <lb/>from any more Juice, 'til at laſt it is
+          ſucceſſively <lb/>thruſt forward into the wide Gut, call'd <hi rend="italic">Cæcum</hi>. </p>
+        <p rend="indent">
+          <lb/>The <hi rend="italic">Diverticulum</hi> or Turning aſide of the <hi rend="italic"
+            >Cæcum</hi>
+          <lb/>as <hi rend="italic">Veſalius</hi> will have it, the vermicular Inteſtine, the
+          <lb/>Valve of <hi rend="italic">Tulpius</hi>, from hence make a perpendicular <lb/>Aſcent
+          in the firſt <hi rend="italic">Colon</hi>, that it cannot return into <lb/>the <hi
+            rend="italic">Ileum</hi>, but ſtagnating here, the <hi rend="italic">Fæces</hi> being
+          <lb/>ſtrongly preſs'd from their own Weight, the Action <lb/>of the Gut and the external
+          Parts about it; they <lb/>are deprived of all Moiſture which is abſorb'd into <lb/>the
+          Lymphaticks: Hence they diſcharge or empty <lb/>their Humors into the <hi rend="italic"
+            >alveum lacteum</hi>, then the <hi rend="italic">Fæces</hi>
+          <lb/>grow hard and dry, and putrifying at laſt, gain a <lb/>fœtid Stench, and become
+          Excrement or Dung: <lb/>Then the <hi rend="italic">Valves</hi> which are here ſo common,
+          ſays <lb/><hi rend="italic">Bartholin</hi>, and made of muſcular contracting Liga-
+          <lb/>ments, by their bending or winding in, ſhew where <lb/>the Stoppage is made, that the
+            <hi rend="italic">Fæces</hi> are retain'd <lb/>ſo long; from hence the ſtrong,
+          membranous muſ- <lb/>cular Fibres, by the Strength of their Contraction, <pb n="33"/>
+          <lb/>make the <hi rend="italic">Fæces</hi> hard and immoveable, ſo that they <lb/>would
+          not be eaſily driven thro' the long Canal of <lb/>the Guts, but as they are lubricated by
+          the Fat of <lb/>the Glands, as <hi rend="italic">Peyerius</hi> aſſerts, and thereby ſent
+          into <lb/>the <hi rend="italic">Inteſtinum Rectum</hi>. </p>
+        <p rend="indent">
+          <lb/>The almoſt perpendicular Deſcent of which, ſays <lb/><hi rend="italic">Veſalius</hi>,
+          the internal Superficies whereof being ſmooth <lb/>or lubricated without Valves or any
+          Muſcular Liga- <lb/>ment, makes that being driven thus far, the <hi rend="italic"
+            >Fæces</hi>
+          <lb/>readily deſcend by their weight or acrimony, or <lb/>both, irritating the ſtrong
+          Muſcular Fibres, com- <lb/>preſſing the Gut, till the <hi rend="italic">Fæces</hi> ſtick
+          at the <hi rend="italic">Sphincter</hi>. <lb/>Then relaxing the large, groſs, carneous,
+          orbicular <lb/><hi rend="italic">Sphincter</hi> as <hi rend="italic">Bidleo</hi> calls it,
+          that ſurrounds the end of <lb/>the <hi rend="italic">Inteſtinum rectum</hi>, the <hi
+            rend="italic">Levators</hi> of the <hi rend="italic">Anus</hi> are <lb/>contracted,
+          which from the internal Part of the <lb/>Bones of the <hi rend="italic">Pubis</hi>, <hi
+            rend="italic">Iſchium</hi> and <hi rend="italic">Sacrum</hi>, which ſtri- <lb/>king the
+          End of the <hi rend="italic">Rectum</hi> with their winding Fi- <lb/>bres, they dilate and
+          raiſe it up. Hence by inſpi- <lb/>ring, Retenſion, Rarefaction, Compreſſion of the
+          <lb/>Breaſt, the Aſſiſtance of Air, and then of the Dia- <lb/>phragm and <hi rend="italic"
+            >abdominal Muſcles</hi>, the <hi rend="italic">Fæces</hi> are expel- <lb/>led, while the
+            <hi rend="italic">Sphincter</hi> is only contracted. </p>
+        <p rend="indent">
+          <lb/>From whence it appears what the matter of the <lb/><hi rend="italic">Fæces</hi> is:
+          Whether it conſiſts of the Recrement of the <lb/><hi rend="italic">Bile</hi>, <hi
+            rend="italic">Blood</hi>, <hi rend="italic">Mucus</hi>, <hi rend="italic">Saliva</hi> or
+            <hi rend="italic">Lympha</hi>: What its par- <lb/>ticular Cauſe is: Whether from an
+          excrementitious <lb/>Ferment: Why the Inteſtines from thence have <lb/>more Glands and
+          more Mucus proper to their <lb/>purpoſe: What Uſe Fat is of to the Guts, chiefly <lb/>at
+          the end: Why ſtrong People are coſtive, have <lb/>hard Stools and few of them: Why the <hi
+            rend="italic">Hemorrhoides</hi>
+          <lb/>are ſo common to ſuch: Why in Exoneration, Urine <lb/>is diſcharg'd together with
+          Siege: Why the <hi rend="italic">Teneſmus</hi>
+          <lb/>attend ſuch as labour under the Stone in the Blad- <lb/>der? Why the <hi
+            rend="italic">Strangury</hi>, in the <hi rend="italic">Bloody Flux</hi>, and <lb/>why
+          the <hi rend="italic">Teneſmus</hi> in the <hi rend="italic">Strangury</hi>. </p>
+      </div>
+      <pb n="34"/>
+      <div type="section">
+        <head rend="align-center space italic">
+          <lb/>The Action of the <hi rend="roman">Meſentery</hi> upon the <hi rend="roman"
+            >Chyle</hi>. </head>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">T</hi>Hat <hi rend="italic">Chyle</hi> which is impell'd by the <hi
+            rend="italic">Periſtaltick</hi>
+          <lb/>Motion the Mouths of the <hi rend="italic">Lacteals</hi> being open, <lb/>is
+          propell'd the ſame way, and by the ſame aſſi- <lb/>ſtance; but when the <hi rend="italic"
+            >Lacteals</hi> are open'd into the <lb/>Cavity of the Inteſtines by an oblique way, as
+          ma- <lb/>ny affirm, and the Mouths are ſmall, the fluider <lb/>Part only, ſeparated from
+          the groſſer and more <lb/>ramous, will enter. Whence we may conceive, <lb/>why Men are not
+          hurt with that variety of acrid, <lb/>hard and ſharp things which they eat, but remain
+          <lb/>healthful notwithſtanding; let us compare the Stru- <lb/>cture of the <hi
+            rend="italic">Oeſophagus</hi>, the Stomach and Guts, and <lb/>we ſhall ſee they differ
+          widely from the Structure of <lb/>the reſt of the <hi rend="italic">Viſcera</hi>. </p>
+        <p rend="indent">
+          <lb/>The Cauſes which derive the <hi rend="italic">Chyle</hi> into the La- <lb/>cteals
+          remaining, they are impell'd again a-freſh, <lb/>and ſo promote the former, that it may
+          flow by <lb/>the Veſſels ſituated betwixt the Duplicature of the <lb/>Meſeraicks, it is
+          coerced by the ſemilunar Valves of <lb/><hi rend="italic">Nuck</hi>, and the Flux carried
+          towards the Loins. The <lb/><hi rend="italic">Lactals</hi> ariſe from the ſmallest
+          Beginnings in the hu- <lb/>man <hi rend="italic">Meſentery</hi>, moſt of the leſſer
+          concurring at acute <lb/>Angles, create a larger Stream, then again recede <lb/>mutually
+          from each other, and after that making an <lb/>Iſland unite in one Canal, which is divided
+          as the <lb/>reſt, that hence they may form larger Trunks, which <lb/>are every where
+          ſupply'd with many Valves, <lb/>hence the Mixture, Fluidity and Attenuation is
+          <lb/>increas'd: So far they are call'd <hi rend="italic">Lacteals</hi> of the firſt
+          <lb/>kind. </p>
+      </div>
+      <pb n="35"/>
+      <div type="section">
+        <head rend="align-center space italic">
+          <lb/>The Action of the Meſeraick Glands. </head>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">H</hi>Ence in a right, oblique, croſs or divided way, <lb/>they tend
+          to <hi rend="italic">Nucks</hi>
+          <hi rend="italic">Glandulæ vagæ</hi>, interſpers'd <lb/>thro' the <hi rend="italic"
+            >Meſentery</hi>, running from whence, they en- <lb/>ter, clothe, and ſurround or bind
+          them in, but go- <lb/>ing out again they are leſs branch'd, being turgid <lb/>with the
+          more fluid and aqueous <hi rend="italic">Chyle</hi>, and diſtin- <lb/>guiſh'd by many
+          Valves, and then they run to the <lb/><hi rend="italic">Ciſtern</hi> ſeated on the Loins,
+          and theſe obtain the <lb/>Name of <hi rend="italic">Lacteals</hi> of the ſecond kind. From
+          this it <lb/>is evident, that the <hi rend="italic">Chyle</hi> cannot be any ways ſe-
+          <lb/>cern'd, at theſe Glands, but ſeems to be there tem- <lb/>per'd, or allayed; which is
+          the more apparent, if we <lb/>ſuppoſe with <hi rend="italic">Nuck</hi>, that theſe
+          cavernous Glands are <lb/>water'd from many <hi rend="italic">Arteries</hi> and <hi
+            rend="italic">Nerves</hi>, and that <lb/>they admit the <hi rend="italic">Lympha</hi> of
+          the ſeveral <hi rend="italic">Viſcera</hi> in the <lb/><hi rend="italic">Abdomen</hi>,
+          which entring there, dilute the Humors <lb/>the more: Therefore being ſtopt upon that
+          part, <lb/>there is made a Conquaſſation, Dilution, and per- <lb/>haps a Mixture of the
+          Spirits from the <hi rend="italic">Nerves</hi>; from <lb/>whence the <hi rend="italic"
+            >Lacteal Veſſels</hi> being more united, tend <lb/>to <hi rend="italic">Nucks</hi>
+          Ciſtern of the <hi rend="italic">Chyle</hi>, often to that, call'd by <lb/><hi
+            rend="italic">Cowper</hi> Trilocular, and hereby the moſt copious <lb/><hi rend="italic"
+            >Lympha</hi>, ſaith <hi rend="italic">Nuck</hi>, evacuates it ſelf of almoſt all
+          <lb/>the Parts, ſeated under the <hi rend="italic">Diaphragm</hi>, from whence <lb/>being
+          brought by the Lymphaticks , it is thrown <lb/>into this common Channel: For the Valves,
+          Liga- <lb/>tures and Lymphatick Diſeaſes inſtruct us, that there <lb/>is ſuch a Courſe or
+          Circuit of this Fluid, which <lb/>abounding with water Spirits and ſubtle Salt, is the
+          <lb/>moſt pure Part of the Blood, as its Office, excretory <lb/>Ducts, and ſenſible
+          Functions demonſtrate. </p>
+      </div>
+      <pb n="36"/>
+      <div type="section">
+        <head rend="align-center space italic">
+          <lb/>The Action of the Chyliferous Duct upon the <lb/><hi rend="roman">Chyle</hi>. </head>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">T</hi>HE <hi rend="italic">Chyle</hi> being thus diluted by the
+          Ciſterns <lb/>plac'd under the <hi rend="italic">Diaphragm</hi>, from the Cauſes
+          <lb/>already deſcrib'd, chiefly by the Force of the <hi rend="italic">Sep- <lb/>tum
+            Medium</hi>, and the Pulſe of the deſcending Trunk <lb/>of the <hi rend="italic"
+            >Aorta</hi>, it is thrown into <hi rend="italic">Pequet</hi>'s <hi rend="italic"
+            >Thoracick</hi>
+          <lb/>Duct, furniſh'd on all ſides with Valves, from hence <lb/>into the left <hi
+            rend="italic">Subclavian</hi> juſt thereabouts, where the <lb/><hi rend="italic"
+            >Jugular</hi> opens into it, bound or directed by the help <lb/>and aſſiſtance of the
+            <hi rend="italic">ſemilunar Valve</hi> of <hi rend="italic">Lower</hi>, ſcarce- <lb/>ly
+          admitting the <hi rend="italic">Chyle</hi> into the Vein, but none at all <lb/>into the
+            <hi rend="italic">Thoracick Duct</hi>; the whole <hi rend="italic">Lympha</hi> flows to-
+          <lb/>gether almoſt from every part of the <hi rend="italic">Thorax</hi>, whence <lb/>it
+          comes that that great plenty of <hi rend="italic">Chyle</hi> and <hi rend="italic"
+            >Lympha</hi>
+          <lb/>aſcends ſo eaſily in Man who is erect, by ſo ſmall <lb/>or ſlender a Pipe, that is
+          convey'd with Winding <lb/>or Turnings, which will more plainly appear if we
+          <lb/>conſider. Firſt, The contractile Spring or Strength <lb/>of the <hi rend="italic"
+            >Inteſtines</hi>, and the aſſiſting Force that drives <lb/>the <hi rend="italic"
+            >Chyle</hi> from them. 2ly, The Aptneſs of the La- <lb/>cteal Valves<unclear>,</unclear>
+          the Ciſtern and <hi rend="italic">Pequet</hi>'s <hi rend="italic">Duct</hi>, that ex-
+          <lb/>pedites the Motion with wonderful Efficacy. 3dly, <lb/>The Pulſe of the <hi
+            rend="italic">Meſeraick Arteries</hi> which ſtrike the <lb/>Lacteals in Parallels. 4ly,
+          the great Strength of the <lb/><hi rend="italic">Diaphragm</hi> upon the Channel. 5ly, the
+          Preſſure of <lb/>the <hi rend="italic">Peritonæum</hi>, which from powerful Cauſes acts
+          <lb/>upon the thin Meſeraick Membrane. 6ly, The <lb/>proper contractile Form of the Sides
+          of the Veſ- <lb/>ſels, that compoſe <hi rend="italic">Pequet</hi>'s <hi rend="italic"
+            >Duct</hi>, which is very ſtrong <lb/>even after Death. 7ly, The ſtrong Pulſations of
+          <lb/>the <hi rend="italic">Aorta</hi> it ſelf, ſo near to the <hi rend="italic">Thoracick
+            Duct</hi>. </p>
+        <p rend="indent">
+          <lb/>We muſt therefore obſerve thoſe things which <lb/>happen to the <hi rend="italic"
+            >Chyle</hi> in the middle way betwixt the <lb/><hi rend="italic">Inteſtines</hi> and the
+          Veins; which we ſhall divide into <lb/>Four. Firſt, The ſlow Motion by the <hi
+            rend="italic">Inteſtines</hi>, <hi rend="italic">La- <pb n="37"/>
+            <lb/>cteals</hi> and <hi rend="italic">Glands</hi>, which the Laxneſs and Length of
+          <lb/>the firſt, the Number and Smallneſs of the latter <lb/>evince: The End of all theſe
+          is refining or purify- <lb/>ing the Fluids. 2ly, The external Motion impreſs'd <lb/>upon
+          the Fluid from the Veſſels, the Effect of which <lb/>is Propulſion, Mixtion, Attenuation
+          and Conſerva- <lb/>tion of the Fluid. Hence we are taught to con- <lb/>template the
+          Poſition of the Lacteal Veſſels, en- <lb/>creaſing by degrees, and ſupply'd every where
+          with <lb/>Valves, mutually agreeing with each other, that is <lb/>going backwards and
+          forwards, and at laſt uniting: <lb/>In the next place, the ſtrong Action of the <hi
+            rend="italic">Septum</hi>, <lb/>on the Abdominal Muſcles, and the Compreſſion <lb/>of
+          the <hi rend="italic">Viſcera</hi> into the Lacteal Tubes, cleaving al- <lb/>moſt to the
+            <hi rend="italic">Superficies</hi> of the <hi rend="italic">Meſentery</hi>, and lying as
+          <lb/>it were naked or expos'd; ſupplying a proper Heat <lb/>in degree and moiſture; the
+          effects of which are <lb/>known and obſerv'd by the Chymiſts: Laſtly, The <lb/>Pulſation
+          of the <hi rend="italic">Meſenterick</hi> Arteries, and the <hi rend="italic">Aorta</hi>,
+          <lb/>being ſtrongly united on all ſides to the Canals, ſo <lb/>that by their own motion
+          they agitate them. </p>
+        <p rend="indent">
+          <lb/>Thirdly, To make an Allay or Temperament, by <lb/>the Mixture of almoſt all the <hi
+            rend="italic">Lympha</hi> of the Body, <lb/>the Reception of a Chyliferous humid Vapour,
+          that <lb/>is in the firſt place ſuck'd in to theſe Lymphatick <lb/>Veſſels; and perhaps by
+          the Admiſſion of Spirits <lb/>every-where to the conglobate Glands of the <hi
+            rend="italic">Lym- <lb/>pha</hi> thro' the Nerves, and with that thrown into the
+            <lb/><hi rend="italic">Chyle</hi>. </p>
+        <p rend="indent">
+          <lb/>Fourthly, To its Analogy with all the Parts of <lb/>the Body, before it enters into
+          the Blood Veſſels; <lb/>whilſt it paſſes from the Mouth to the <hi rend="italic"
+            >Subclavian</hi>, <lb/>there is perpetually, gently, ſucceſſively, and by <lb/>degrees
+          added ſomething of almoſt every Humor <lb/>of the Body that is elaborated, digeſted,
+          frequently <lb/>carried round and tranſacted throughout all the <lb/>Veſſels, as the <hi
+            rend="italic">Saliva</hi>, <hi rend="italic">Mucus</hi>, <hi rend="italic">Lympha</hi>
+          and the <hi rend="italic">Mucus</hi> of <lb/>Gullet, Stomach and Inteſtines, the <hi
+            rend="italic">Pancreatick Sa- <pb n="38"/>
+            <lb/>liva</hi>, the Cyſtick and Hepatick Bile, and perhaps <lb/>that of the Spirits from
+          ſome of the minuteſt Parts <lb/>of the Body; then at laſt this is accurately mix'd <lb/>by
+          the Strength of the whole Fabrick, the Figure, <lb/>Situation and Motion of the Veſſels. </p>
+        <p rend="indent">
+          <lb/>Whoſoever weighs theſe things will find the Prin- <lb/>ciples of which the Blood is
+          compoſed, to be lodg'd <lb/>in the <hi rend="italic">Chyle</hi>, while he may perceive
+          Water, Spirit, <lb/>Oil and Salts mix'd together; neither let any one <lb/>wonder at the
+          reaſon why Diſeaſes are ſo rare in <lb/>the <hi rend="italic">Meſentery</hi>, tho' that be
+          ſeated ſo near to the Crude <lb/>or undigeſted Fluid? For he may obſerve on all <lb/>ſides
+          Proviſion ſolicitouſly beſtow'd: The Lacteals <lb/>and the Thoracick Duct are equally
+          aſſiſted for con- <lb/>veying the <hi rend="italic">Lympha</hi> by the Spirits, as well as
+          they <lb/>ſerve for the Motion of the <hi rend="italic">Chyle</hi>; but he that <lb/>would
+          know the Circuit and Change or Altera- <lb/>tion of the <hi rend="italic">Chyle</hi> caſt
+          into the Veins, and how it is <lb/>mix'd with the Blood, muſt neceſſarily enquire into,
+          <lb/>and find out the progreſſive Motion and Efficacy of <lb/>that Fluid, which we ſhall
+          purſue in this following <lb/>Method. </p>
+      </div>
+      <gap reason="sampling" unit="pages" quantity="310"/>
+    </body>
+  </text>
+</TEI>

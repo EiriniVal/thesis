@@ -1,0 +1,1224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> LMEMT Corpus - Bell: A system of surgery</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>Benjamin Bell</persName>
+            </author>
+            <title type="main">A system of surgery. By Benjamin Bell, Member of the Royal College of
+              Surgeons of Edinburgh, and one of the Surgeons to the Royal Infirmary of that City.
+              Illustrated with Copperplates. ...</title>
+            <edition n=""/>
+            <idno type="ESTC">T99545</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/T99545"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>Edinburgh</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>Edinburgh: printed by Macfarquhar and Elliot for Charles Elliot,
+                  Edinburgh; and G. Robinson, London, M,DCCLXXXIII.</persName>
+              </publisher>
+              <date>1783</date>
+            </imprint>
+            <extent>
+              <measure type="format">8⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="15"/>
+              <measure type="count" commodity="body" unit="page" quantity="549"/>
+              <measure type="count" commodity="back" unit="page" quantity="2"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">British Library</orgName>
+            <idno type="ECCO">CW3307124348</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Surgical or anatominal work"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text type="book" rend="roman" xml:lang="eng">
+    <gap reason="sampling" unit="pages" quantity="15"/>
+    <body>
+      <pb n=""/>
+      <head rend="sc align-center space">
+        <lb/>A <lb/><hi rend="size(1.25)">TREATISE </hi>
+        <lb/>on the <lb/>THEORY and PRACTICE <lb/>of <lb/><hi rend="size(1.5)">SURGERY. </hi>
+      </head>
+      <figure rend="space">
+        <figDesc>A horizontal double-line, spanning the whole page. </figDesc>
+      </figure>
+      <div type="chapter">
+        <head rend="align-center space">
+          <lb/>CHAPTER I. </head>
+        <head rend="italic align-center">
+          <lb/>Of <hi rend="sc">Sutures</hi>. </head>
+        <figure rend="space">
+          <figDesc>A horizontal line, spanning the whole page. </figDesc>
+        </figure>
+        <div type="section">
+          <head rend="align-center space">
+            <lb/>SECTION I. </head>
+          <head rend="italic align-center">
+            <lb/>Of Sutures in general. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">A</hi>S ſutures of one kind or another are <lb/>found neceſſary,
+            not only in every <lb/>large wound, but in almoſt every opera- <lb/>tion of importance,
+            the conſideration of <pb n="2"/>
+            <lb/>this ſubject ſeems firſt to require our at- <lb/>tention. </p>
+          <p rend="indent">
+            <lb/>A variety of ſutures have been practiſed <lb/>by ſurgeons, each of which has from
+            long <lb/>experience been applied to a particular <lb/>purpoſe, <hi rend="italic"
+              >viz.</hi> the interrupted ſuture; the <lb/>quilled ſuture; the glover's, and the
+            twiſted <lb/>ſuture. Many others are enumerated by <lb/>ancient writers; but the four
+            now men- <lb/>tioned are the only ſpecies of ſutures at <lb/>preſent in ordinary uſe;
+            and even of theſe, <lb/>ſome, we think, might with propriety be <lb/>omitted. </p>
+          <p rend="indent">
+            <lb/>The intention of every ſuture, is to <lb/>unite parts, which either by accident or
+            <lb/>deſign have been divided. Another mode <lb/>of effecting this, is through the
+            interven- <lb/>tion of adheſive plaſters; and this by ſur- <lb/>geons has been termed
+            the falſe or dry <lb/>ſuture; in oppoſition to the others per- <lb/>formed by the
+            needle, which are denomi- <lb/>nated the true or bloody ſuture.—But as <lb/>the
+            conſideration of this ſubject, <hi rend="italic">viz.</hi> the uſe <lb/>of adheſive
+            plaſters in wounds, will be <lb/>more properly introduced in a ſubſequent <pb n="3"/>
+            <lb/>part of this work, we ſhall not in this <lb/>place enter upon its diſcuſlioni </p>
+        </div>
+        <div type="section">
+          <head rend="align-center space">
+            <lb/>SECTION II. </head>
+          <head rend="italic align-center">
+            <lb/>Of the Interrupted Suture. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">I</hi>N deep wounds, when a reunion of the <lb/>divided paſts is
+            intended, this is the ſu- <lb/>ture to which we generally have recourſe; <lb/>but from
+            what will be afterwards more <lb/>fully explained when treating of wounds, <lb/>and from
+            what will preſently farther appear, <lb/>it does not ſeem to be ſo well adapted to
+            <lb/>this purpoſe as the twiſted ſuture. When <lb/>it is determined, however, to make
+            trial of <lb/>the interrupted ſuture, the following is <lb/>the eaſieſt mode of doing
+            it. </p>
+          <p rend="indent">
+            <lb/>In every Wound where ſutures are found <lb/>neceſſary for the retention of parts,
+            it has <lb/>commonly been conſidered as good prac- <lb/>tice, to carry the needle and
+            ligature to <lb/>the bottom of the ſore, ſo as to afford as <lb/>little chance as
+            poſſible of matter collecting <lb/>underneath; and the uſual mode of effect- <lb/>ing
+            this, is by introducing the needle from <pb n="4"/>
+            <lb/>without inwards, and again from the <lb/>bottom of the wound to the ſame diſtance
+            <lb/>on the oppoſite ſide. But this ſuture, it <lb/>may be remarked, is much more
+            neatly, <lb/>and at the ſame time more eaſily performed, <lb/>by paſſing both ends of
+            the thread from <lb/>within outwards; which is readily done <lb/>by uſing two needles
+            upon each thread, <lb/>inſtead of one. A needle being put upon <lb/>each end of the fame
+            thread, and each <lb/>needle being inſerted at the bottom of the <lb/>ſore, and puſhed
+            outwardly ſo as to paſs <lb/>out at a proper diſtance from the edge of <lb/>the wound,
+            the needles are then to be taken <lb/>off, and the threads allowed to remain till
+            <lb/>all the ligatures are paſſed which the ex- <lb/>tent of ſore ſeems to require. </p>
+          <p rend="indent">
+            <lb/>The number of ligatures neceſſary for <lb/>any wound, muſt in a great meaſure de-
+            <lb/>pend upon the extent of divided parts. By <lb/>authors in general it has been laid
+            down <lb/>as an eſtabliſhed rule, that one ſuture is <lb/>fully ſufficient for every
+            inch of wound. <lb/>It will frequently indeed happen, that this <lb/>number is found
+            ſufficient; but in ſome in- <pb n="5"/>
+            <lb/>ſtances, particularly where muſcular parts <lb/>are deeply cut tranſverſely, and
+            where con- <lb/>ſequently a great degree of retraction oc- <lb/>curs, a greater number
+            of ſtitches are ne- <lb/>ceſſary: Whenever a number of angles, too, <lb/>occur in a
+            wound, more ligatures are re- <lb/>quired than in a ſtraight wound of the <lb/>ſame
+            extent; for, at every angle, however <lb/>inconſiderable it may be, there ought to be
+            <lb/>a ſuture. </p>
+          <p rend="indent">
+            <lb/>In paſting the ligatures, great care is <lb/>neceſſary to pierce the ſkin at a
+            ſufficient <lb/>diſtance from the edge of the wound; for, <lb/>if they do not comprehend
+            a thickneſs of <lb/>parts in ſome meaſure proportioned to the <lb/>depth of the wound,
+            and to the extent of <lb/>retraction to be expected, they will very <lb/>readily cut
+            through the parts entirely.— <lb/>By ſome authors we are directed to paſs <lb/>the
+            ligatures, at nearly the ſame diſtance <lb/>from the edges of the ſore, as the wound is
+            <lb/>of depth. This rule, however, will by no <lb/>means be found to anſwer in practice.
+            <lb/>Thus, in a very deep wound, for inſtance <lb/>of three inches or ſo, no neceſſity,
+            can oc- <pb n="6"/>
+            <lb/>cur for carrying the ligatures three inches <lb/>from, the edges of the ſore; and
+            again, in <lb/>very ſuperficial cuts, it ſometimes happens <lb/>that the ligature ought
+            to be paſſed out at <lb/>a greater diſtance from the edges of the <lb/>wound than the
+            ſore is of depth. It ought <lb/>not, in almoſt any caſe, to be leſs than half <lb/>an
+            inch from the edge of the ſore; and it <lb/>will ſeldom happen, even in the largeſt
+            <lb/>wounds, that an inch is not found to be a <lb/>ſufficient diſtance. </p>
+          <p rend="indent">
+            <lb/>It will be readily underſtood, that the <lb/>ſtrength of the ligature and ſize of
+            needle <lb/>ought always to be proportioned to the <lb/>depth of the ſore and retraction
+            of parts. <lb/>The ſeveral ſizes of needles, as repreſen- <lb/>ted in Plate I. are of
+            the various di- <lb/>menſions found neceſſary in practice; <lb/>and the ligatures to be
+            uſed along with <lb/>them ought to be ſuch as nearly, though <lb/>not entirely, to fill
+            the eyes of the diffe- <lb/>rent needles. In order to make the liga- <lb/>tures paſs
+            more eaſily, to render them <lb/>more durable, and at the ſame time to <lb/>make them
+            more ſuſceptible of a flattened <pb n="7"/>
+            <lb/>form, which does not ſo readily cut thro' <lb/>the contained parts as a round one,
+            they <lb/>ought all to be well covered with fine bees- <lb/>wax. </p>
+          <p rend="indent">
+            <lb/>So ſoon as the threads are all paſſed, the <lb/>lips of the wound ought to be
+            preſſed to- <lb/>gether and ſupported by an aſſiſtant till all <lb/>the ligatures are
+            firmly tied; beginning <lb/>either in the middle of the wound, or at <lb/>one end, as
+            the operator inclines. In ty- <lb/>ing the knots, it is uſual to paſs the ends <lb/>of
+            the threads twice through the firſt nooſe, <lb/>in order to prevent their yielding; and
+            <lb/>when this is done, it is alleged by ſome <lb/>that there is no neceſſity for more
+            than <lb/>one knot upon each ligature; but as two <lb/>knots are very eaſily made, and
+            as every <lb/>chance of their yielding is thereby effec- <lb/>tually prevented, this
+            precaution ought <lb/>never to be omitted. It is a practice with <lb/>ſome ſurgeons to
+            inſert a piece of lint be- <lb/>tween the firſt and ſecond knots, or be- <lb/>tween the
+            firſt knot and the ſkin below, in <lb/>order to ſave the parts underneath from the
+            <lb/>preſſure of the knots; but as in reality all <pb n="8"/>
+            <lb/>ſuch means of protection afford no advan- <lb/>tage of importance, and as they
+            prevent the <lb/>knots from being made with exactneſs, they <lb/>ought therefore to be
+            laid entirely aſide. </p>
+          <p rend="indent">
+            <lb/>By ſome writers on this ſubject, we are <lb/>deſired not to bring the knots of
+            ligatures <lb/>immediately upon the edges of the wound, <lb/>but rather to carry them to
+            one ſide, over <lb/>upon the ſound teguments: but whoever <lb/>has tried both methods,
+            will at once be <lb/>ſenſible, that this is by no means an im- <lb/>provement; for in no
+            other way can both <lb/>ſides of the ſore be equally ſupported, but <lb/>by the knots
+            being paſſed immediately <lb/>above the lips of the divided parts. </p>
+          <figure>
+            <head>
+              <lb/>Explanation of Plate I. </head>
+            <p rend="indent">
+              <lb/>(|. . .. , Fig. i. A form of hook, commonly ter- <lb/>med a tenaculum, for the
+              purpoſe of pul- <lb/>ling out bleeding veſſels to be tied by liga- <lb/>tures. </p>
+            <p rend="indent">
+              <lb/>Fig. 2. and 3. Two needles of a different <lb/>curve from thoſe in ordinary uſe.
+              The cur- <lb/>vatures being altogether on their fore-parts, <lb/>and the handles
+              perfectly ſtraight, they are <lb/>thereby more eaſily managed than the <lb/>others,
+              particularly in deep wounds. Fig. 5. <lb/>and 6. repreſent two needles of the uſual
+              <lb/>form; but neither theſe nor the other two <lb/>have an edge on their concave
+              parts. They <lb/>are made ſomewhat round like a lancet, <lb/>both on their convex and
+              concave ſides; <pb n=""/>
+              <lb/>which adds to their ſtrength, and makes <lb/>them enter with more eaſe than the
+              others. <lb/>I have long made uſe of thoſe needles, and <lb/>whoever employs them will
+              find them pre- <lb/>ferable in every reſpect to the others. </p>
+            <p rend="indent">
+              <lb/>Fig. 4. and 7. Two ſtraight needles for <lb/>ſutures of the inteſtines and other
+              delicate <lb/>membranous parts. </p>
+            <p rend="indent">
+              <lb/>All theſe needles are repreſented of the <lb/>full ſize. </p>
+            <p rend="indent">
+              <lb/>A number of inſtruments have been <lb/>contrived for holding the needles when
+              <lb/>they are to be employed in deep wounds. <lb/>The Port-aiguille repreſented in
+              Plate II. <lb/>will anſwer this purpoſe as well as any <lb/>other; but inſtruments of
+              this kind can- <lb/>not be often needed. </p>
+            <figDesc> </figDesc>
+          </figure>
+        </div>
+        <div type="section">
+          <head rend="align-center space">
+            <lb/>SECTION III. </head>
+          <head rend="italic align-center">
+            <lb/>Of the Quilled Suture. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">A</hi>S the quilled ſuture is ſtill retained by <lb/>ſome
+            practitioners, it is here thought <lb/>neceſſary to deſcribe the. mode of perform-
+            <lb/>ing it. </p>
+          <p rend="indent">
+            <lb/>In deep wounds attended with much re- <lb/>traction, it, is always a neceſſary
+            precau- <pb n="9"/>
+            <lb/>tion, to aſſiſt the operation of the liga- <lb/>tures, by means of bandages ſo
+            applied as <lb/>to afford as much ſupport as poſſible to the <lb/>divided parts: But,
+            even with every aſſiſt- <lb/>ance of this nature, it now and then hap- <lb/>pens, that
+            the divided parts cannot be kept <lb/>together, retraction occurs to a greater or
+            <lb/>leſſer degree, and the ligatures of courſe <lb/>cut aſunder the ſoft parts they
+            were at <lb/>firſt made to ſurround. </p>
+          <p rend="indent">
+            <lb/>With a view to prevent this receding of <lb/>the teguments and other parts, it was
+            long <lb/>ago propoſed to add to the interrupted ſu- <lb/>ture what was ſuppoſed would
+            afford an ad- <lb/>ditional ſupport; <hi rend="italic">viz.</hi> quills, or pieces of
+            <lb/>plaſter rolled up into the form of quills, <lb/>one of which being placed on each
+            fide of <lb/>the wound, the double of the ligature is <lb/>made to include the one, and
+            the knot to <lb/>preſs directly upon the other, inſtead of <lb/>being made immediately
+            on the edges of <lb/>the ſore as was directed for interrupted <lb/>ſutures. </p>
+          <p rend="indent">
+            <lb/>It is at once evident, however, that the <lb/>ligatures muſt here make the ſame
+            degree <pb n="10"/>
+            <lb/>of preſſure on the parts through which <lb/>they paſs, as they do in the
+            interrupted <lb/>ſuture; and this being the caſe, it is equal- <lb/>ly obvious, that the
+            interpoſition of theſe <lb/>ſubſtances cannot be of any uſe. This <lb/>ſuture is
+            accordingly now very rarely prac- <lb/>tiſed, and it is probable that it will be
+            <lb/>ſoon laid entirely aſide. </p>
+        </div>
+        <div type="section">
+          <head rend="align-center space">
+            <lb/>SECTION IV. </head>
+          <head rend="italic align-center">
+            <lb/>Of the Glover's Suture. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">T</hi>HIS ſuture is termed the Glover's from <lb/>being the one in
+            common uſe among <lb/>that ſet of people. As it is exceedingly <lb/>ſimple, and very
+            univerſally known, it does <lb/>not here merit much deſcription: We ſhall <lb/>therefore
+            juſt ſhortly obſerve, that it con- <lb/>ſiſts in a ſeries of ſtitches all connected with
+            <lb/>one another, and continued in an oblique <lb/>ſpiral direction along the courſe of
+            the di- <lb/>vided parts intended by it to be kept to- <lb/>gether. </p>
+          <p rend="space">
+            <lb/>This ſuture has hitherto been univer- <lb/>ſally employed for reuniting ſuch parts
+            of <pb n="11"/>
+            <lb/>the inteſtines as have been divided by <lb/>wounds: but, when treating of accidents
+            <lb/>of this kind, I ſhall endeavour to ſhow, <lb/>that the ſame end may be more
+            perfectly <lb/>attained, and probably with leſs danger, <lb/>by means of the interrupted
+            ſuture; ſo <lb/>that as this ſuture has almoſt never been <lb/>applied to any other
+            purpoſe, it will like- <lb/>wiſe in all probability ſoon fall into diſ- <lb/>uſe. </p>
+        </div>
+        <div type="section">
+          <head rend="align-center space">
+            <lb/>SECTION V. </head>
+          <head rend="italic align-center">
+            <lb/>Of the Twiſted Sutura. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">B</hi>Y the term twiſted ſuture is meant, that <lb/>ſpecies of
+            ligature, by which, parts <lb/>either naturally or artificially ſeparated, <lb/>are
+            united together, by means of ſtrong <lb/>threads properly twiſted round pins or
+            <lb/>needles puſhed through the edges of the <lb/>divided parts. </p>
+          <p rend="indent">
+            <lb/>This ſuture is commonly employed for <lb/>the purpoſe of uniting the parts in caſes
+            of <lb/>hare-lip; and this indeed is almoſt the only <lb/>uſe to which it has been
+            hitherto applied: <pb n="12"/>
+            <lb/>But we may here remark, that it may with <lb/>great advantage be put in practice in
+            a va- <lb/>riety of other caſes, particularly in all arti- <lb/>ficial or accidental
+            diviſions either of the <lb/>lips or cheeks; and, in every wound in <lb/>other parts
+            that does not run deep and in <lb/>which ſutures are neceſſary, this ſuture is
+            <lb/>preferable to the interrupted or any other. </p>
+          <p rend="indent">
+            <lb/>In very deep wounds, for inſtance in all <lb/>wounds extending to a greater depth
+            than <lb/>an inch and half, the interrupted ſuture is <lb/>the only one that is
+            admiſſible; for, in <lb/>all ſuch deep cuts, the pins neceſſary in the <lb/>twiſted
+            ſuture cannot with propriety be <lb/>employed, as they cannot be introduced <lb/>to ſuch
+            a depth, and afterwards ſo twiſted <lb/>with ligatures as to reunite the divided
+            <lb/>parts, but with great pain to the patient. <lb/>In ſuch wounds, therefore, we muſt
+            of ne- <lb/>ceſſity have recourſe to the interrupted ſu- <lb/>ture: But it may be here
+            remarked, that <lb/>wounds of this depth requiring the aid of <lb/>ſutures, are very
+            rarely met with; ſo that, <lb/>in by much the greateſt proportion of <lb/>wounds where
+            ſutures are adviſable, the <pb n="13"/>
+            <lb/>twiſted ſuture will be found practica- <lb/>ble; and whenever it is ſo, it ought
+            cer- <lb/>tainly to be preferred to every other, as <lb/>being obviouſly better
+            calculated, even than <lb/>the interrupted ſuture, for the retention of <lb/>divided
+            parts. The pins made uſe of for <lb/>twiſting the threads upon, ought to be <lb/>made of
+            a flat form, ſo as not to cut the <lb/>parts through which they paſs, ſo readily <lb/>as
+            the ligatures employed in the interrupted <lb/>ſuture: And thus one great objection to
+            <lb/>the latter is very effectually obviated; for, <lb/>every practitioner muſt be
+            ſenſible of this <lb/>being the moſt faulty part of the interrup- <lb/>ted ſuture, that
+            when muſcular parts are <lb/>divided, ſo as to produce much retraction, <lb/>the
+            ligatures employed for retaining them, <lb/>almoſt conſtantly cut them thro' before a
+            <lb/>reunion is accompliſhed; whereas, the flat- <lb/>neſs of the pins uſed in the
+            twiſted ſuture, <lb/>and upon which, it may be remarked, the <lb/>whole preſſure
+            produced by the ligatures <lb/>is made to reſt, proves in general a very <lb/>effectual
+            preventative againſt all ſuch oc- <lb/>currences. </p>
+          <pb n="14"/>
+          <p rend="indent">
+            <lb/>The The pins uſed in this operation, have <lb/>commonly been made of ſilver; and,
+            in <lb/>order to make them paſs with greater eaſe, <lb/>ſteel points have been added to
+            them. As <lb/>gold pins, however, are capable of receiv- <lb/>ing a ſufficient degree of
+            ſharpneſs, which <lb/>renders the intervention of ſteel points quite <lb/>unneceſſary;
+            and as gold is fully more <lb/>cleanly than ſilver, from its not acquiring <lb/>ſo
+            readily that kind of cruſt which immer- <lb/>ſion in fluids is apt to produce upon the
+            <lb/>other, pins of this metal are therefore pre- <lb/>ferable. </p>
+          <p rend="indent">
+            <lb/>The form and ſize of pins as repre- <lb/>ſented in Plate II. is what from
+            experience <lb/>has been found to be the moſt uſeful for <lb/>every ordinary purpoſe;
+            but, for parti- <lb/>cular uſes, the ſize muſt no doubt be ſub- <lb/>ject to variations. </p>
+          <p rend="indent">
+            <lb/>The manner of performing this opera- <lb/>tion is as follows. The divided parts in-
+            <lb/>tended to be reunited, muſt by the hands <lb/>of an aſſiſtant be brought nearly
+            into con- <lb/>tact; leaving juſt as much ſpace between <lb/>the edges of the ſore, as
+            to allow the ſur- <pb n="15"/>
+            <lb/>geon to ſee that the pins are carried to a <lb/>proper depth. This being done, one
+            of the <lb/>pins muſt be introduced through both ſides <lb/>of the wound, by entering it
+            on one ſide <lb/>externally, puſhing it forwards and in- <lb/>wards to within a little
+            of the bottom of <lb/>the wound, and afterwards carrying it <lb/>outwardly through the
+            oppoſite ſide, to the <lb/>ſame diſtance from the edge of the ſore <lb/>that it was made
+            to enter at on the <lb/>other. </p>
+          <p rend="indent">
+            <lb/>The diſtance at which the needle ought <lb/>to enter from the edge of the ſore,
+            muſt be <lb/>determined by the depth of the wound, <lb/>and by the degree of retraction
+            produced <lb/>in the divided parts. In general, however, <lb/>it is a proper regulation
+            in deep wounds, to <lb/>carry the pins nearly to the ſame diſtance <lb/>from the ſide of
+            the ſore, as they are made <lb/>to penetrate in depth: And it may be alſo <lb/>remarked,
+            that, whatever the deepneſs of <lb/>the wound may be, the pins ought to paſs <lb/>within
+            a very little of its bottom; other- <lb/>wife the parts which lie deep will run a
+            <lb/>riſk of not being united, a circumſtance <pb n="16"/>
+            <lb/>which muſt always give riſe to troubleſome <lb/>collections of matter. </p>
+          <p rend="indent">
+            <lb/>In paſſing the pins through the different <lb/>ſides of the wound, if the ſkin and
+            other <lb/>teguments are not more firm than ordi- <lb/>nary, it may commonly be done by
+            the <lb/>fingers alone, and particularly if the pins <lb/>are made with ſmall heads or
+            knobs for the <lb/>fingers to preſs upon; but when, from <lb/>firmneſs of parts and
+            other circumſtances, <lb/>much difficulty is expected to the entrance <lb/>of the pins,
+            the inſtrument termed Porte- <lb/>aiguille very effectually removes this in-
+            <lb/>convenience.—In Plate II. is repreſented <lb/>the moſt convenient form of this
+            inſtru- <lb/>ment that has yet been invented. </p>
+          <p rend="indent">
+            <lb/>The firſt pin being paſſed in this man- <lb/>ner very near to one end of the ſore,
+            <lb/>and the parts being ſtill ſupported by an <lb/>aſſiſtant, the ſurgeon, by means of
+            a firm <lb/>waxed ligature, paſſed three or four times <lb/>round and acroſs the pin, ſo
+            as nearly to <lb/>deſcribe the figure of 8, is to draw the parts <lb/>through which it
+            has paſſed, into immediate <lb/>and cloſe contact: and the thread being <pb n="17"/>
+            <lb/>now ſecured with a looſe knot, another pin <lb/>muſt be introduced in the ſame
+            manner at <lb/>a proper diſtance from the former; and <lb/>the thread with which the
+            other was <lb/>fixed, being looſed, and in the ſame man- <lb/>ner carried round this
+            pin, others muſt be <lb/>introduced at proper diſtances along the <lb/>whole courſe of
+            the wound, and the ſame <lb/>ligature ought to be of a ſufficient length <lb/>for
+            ſecuring the whole. </p>
+          <p rend="indent">
+            <lb/>The number of pins to be uſed, muſt <lb/>be determined entirely by the extent of
+            the <lb/>wound. Whenever this ſuture, however, is <lb/>practiſed, whether the wound be
+            large or <lb/>of very ſmall extent, a pin ought to be in- <lb/>troduced very near to
+            each end of it, other- <lb/>wiſe the extremities of the ſore are apt to <lb/>ſeparate ſo
+            as not to be afterwards eaſily <lb/>reunited. In large wounds, if the pins <lb/>are
+            introduced at the diſtance of three <lb/>quarters of an inch from one another, it
+            <lb/>will in general be found ſufficient; but, in <lb/>cuts of ſmaller extent, a greater
+            number of <lb/>pins become neceſſary in proportion to the <lb/>dimenſions of the ſores. </p>
+          <pb n="18"/>
+          <p rend="indent">
+            <lb/>Thus, in a wound of an inch and half <lb/>in length, three pins are abſolutely
+            requi- <lb/>ſite; one near to each end, and another in <lb/>the middle of the ſore:
+            Whereas, five pins <lb/>will always be found fully ſufficient for a <lb/>wound of three
+            inches and a half in extent, <lb/>allowing one to be within a quarter of an <lb/>inch of
+            each extremity of the wound, and <lb/>the others to be placed along the courſe of
+            <lb/>the ſore at the diſtance of three quarters of <lb/>an inch from one another. </p>
+          <p rend="indent">
+            <lb/>The pins being all introduced and ſe- <lb/>cured in the manner directed, nothing
+            re- <lb/>mains to be done, but to apply a piece of <lb/>lint wet with mucilage, all
+            along the courſe <lb/>of the wound, with a view to exclude as <lb/>effectually as
+            poſſible every acceſs to the ex- <lb/>ternal air. </p>
+          <p rend="indent">
+            <lb/>In order to prevent the ends of the pins <lb/>from preſſing upon and hurting the
+            ſkin <lb/>below, it is uſual to apply a ſmall bolſter <lb/>of finen or charpie under
+            each of them; <lb/>but as this always does miſchief, by tend- <lb/>ing to preſs upon the
+            pins, ſo as to force <lb/>them to act upon the ſoft parts thro' which <pb n="19"/>
+            <lb/>they have paſſed, every thing of this kind <lb/>ought to be omitted. When, however,
+            the <lb/>patient happens to complain of being hurt <lb/>by the ends of the pins, this
+            may be eaſily <lb/>prevented, by introducing between them <lb/>and the ſkin pieces of
+            thin linen ſpread with <lb/>any adheſive plaſter. </p>
+          <p rend="indent">
+            <lb/>In order to give every chance of ſucceſs <lb/>to this operation, it has been
+            commonly <lb/>adviſed, immediately after the pins are ſe- <lb/>cured, to apply the
+            uniting bandage over <lb/>the whole, ſo as to afford as much ſupport <lb/>as poſſible to
+            the contiguous parts. The <lb/>leaſt reflection, however, renders it evident, <lb/>that
+            every degree of preſſure made in this <lb/>manner muſt do mifqhief; for, the bandage
+            <lb/>being made to reſt immediately upon the <lb/>pins, a conſiderable degree of pain
+            and con- <lb/>ſequent inflammation muſt of courſe be pro- <lb/>duced by it: And in fact
+            this is ſo much the <lb/>caſe, that, in every inſtance in which I have <lb/>ſeen this
+            bandage applied, it either did harm, <lb/>by exciting inflammation in conſequence
+            <lb/>of too much preſſure upon the pins; or, if <lb/>that effect was not produced, no
+            advantage <pb n="20"/>
+            <lb/>was received from it, from the bandage <lb/>not being applied with ſuch tightneſs
+            as <lb/>to afford any ſupport whatever to the parts <lb/>below. </p>
+          <p rend="indent">
+            <lb/>The next point to be determined, is, the <lb/>time the pins ſhould be allowed to
+            re- <lb/>main. When they remain long, they gene- <lb/>rally do harm, by the unneceſſary
+            irritation <lb/>and conſequent retraction of parts with <lb/>which they are always
+            attended; and again, <lb/>if they are not continued for a ſufficient <lb/>length of
+            time, that degree of adheſion is not <lb/>produced between the divided parts that is
+            <lb/>neceſſary for their future retention, ſo that <lb/>the effect of the operation
+            comes to be in <lb/>a great meaſure, if not entirely, loſt. </p>
+          <p rend="indent">
+            <lb/>In wounds of no great depth, for in- <lb/>ſtance of three quarters of an inch or
+            ſo, a <lb/>ſufficient degree of adheſion always takes <lb/>place in the ſpace of five
+            days; and ſix, or <lb/>at moſt ſeven days, will generally be found <lb/>ſufficient for
+            wounds of the greateſt depth. <lb/>But with reſpect to this circumſtance, it <lb/>muſt
+            always be underſtood, that the pa- <lb/>tient's ſtate of health muſt have a conſider-
+              <pb n="21"/>
+            <lb/>able influence on the time neceſſary for <lb/>producing adheſion between divided
+            parts. <lb/>In ſpecifying the time neceſſary for this pur- <lb/>poſe, the operation is
+            ſuppoſed to have been <lb/>done on a conſtitution in a ſtate of perfect <lb/>health.
+            When the patient labours under <lb/>ſcurvy, or any diſorder which affects the
+            <lb/>general ſyſtem, it is impoſſible to aſcertain <lb/>this circumſtance with
+            preciſion: In ſuch <lb/>caſes we muſt be determined by the nature <lb/>and ſtate of the
+            diſeaſe preſent at the time. </p>
+          <p rend="indent">
+            <lb/>So ſoon as the pins are withdrawn, the <lb/>uniting bandage may be then applied
+            with <lb/>great advantage in order to ſerve as a ſupport <lb/>to the parts newly united;
+            but, as flips of <lb/>leather ſpread with ordinary glue, when ap- <lb/>plied to each
+            ſide of the cicatrix, may, by <lb/>means of ligatures properly connected with <lb/>them,
+            be made to anſwer this purpoſe in a <lb/>more effectual manner, this mode of ſup-
+            <lb/>porting the parts ought of courſe to be <lb/>preferred <note place="bottom" n="*"
+              rend="size(0.75)">*Figures of parts united in this manner, will be re- <lb/>preſented
+              when we come to treat of the Hare-Lip. </note>. </p>
+          <p rend="indent">
+            <lb/>As the twiſted ſuture when properly <pb n="22"/>
+            <lb/>performed is a very neat operation, as its <lb/>conſequences are in general of
+            importance, <lb/>and as it may with much advantage be made <lb/>to ſuperſede the uſe of
+            almoſt every ſu- <lb/>ture, a few inſtances only excepted, I there- <lb/>fore thought it
+            proper to conſider it with <lb/>more attention than has hitherto been com- <lb/>monly
+            beſtowed upon it. </p>
+          <figure>
+            <head>Explanation <hi rend="italic">of</hi> Plate II. </head>
+            <figDesc> </figDesc>
+            <p rend="indent">
+              <lb/>Fig. 1. A Porte-aiguille mentioned inp. 16. <list rend="indentall">
+                <lb/>
+                <item>A. A. The handles of the inſtrument. </item>
+                <lb/>
+                <item>B. A groove for receiving the pins uſed in the twiſted ſuture. </item>
+              </list>
+            </p>
+            <p rend="indent">
+              <lb/>This inſtrument is commonly made with <lb/>a ſlider for fixing the handles after
+              the pins <pb n="24"/>
+              <lb/>are inſerted into the groove; but as this al- <lb/>ways proves troubleſome to the
+              operator, <lb/>and is not in any degree neceſſary, it is here <lb/>purpoſely omitted. </p>
+            <p rend="indent">
+              <lb/>Fig. 2.3. and 4. are different ſizes of pins <lb/>uſed in the twiſted ſuture
+              deſcribed p. 13. </p>
+            <p rend="indent">
+              <lb/>And fig. 5. is a flat needle ſometimes <lb/>found uſeful in ſtitching
+              blood-veſſels that <lb/>lie between contiguous bones. </p>
+            <p rend="indent">
+              <lb/>All the inſtruments in this plate are re- <lb/>preſented of their full ſize. </p>
+          </figure>
+          <figure>
+            <figDesc> </figDesc>
+          </figure>
+        </div>
+      </div>
+      <div type="chapter">
+        <head rend="align-center space">CHAP. II. </head>
+        <head rend="hanging space italic">
+          <lb/>Of the <hi rend="sc">LIGATURE</hi> of <hi rend="sc">ARTERIES</hi>, and other
+          <lb/>means employed by art for putting a ſtop to <lb/><hi rend="sc">HÆMORRHAGIES</hi>. </head>
+        <div type="section">
+          <p rend="indent">
+            <lb/><hi rend="dc(2)">I</hi>N every ſpecies of wound, whether ac- <lb/>cidentally
+            produced, or effected by the <lb/>hands of a ſurgeon, the firſt circumſtance to <lb/>be
+            attended to, is the degree of hæmorrhagy <lb/>that takes place. In all ſuch occurrences,
+              <pb n="25"/>
+            <lb/>the blood is diſcharged, either from one or <lb/>more large arteries; or, is
+            produced by a <lb/>general oozing from the ſmaller veſſels over <lb/>the ſurface of the
+            ſore: To the former of <lb/>theſe cauſes we ſhall firſt attend, and ſhall
+            <lb/>afterwards proceed to the conſideration of <lb/>the latter. </p>
+          <p rend="indent">
+            <lb/>A ſurgeon being called to a perſon loſing <lb/>much blood from the diviſion of any
+            of the <lb/>larger veſſels, the firſt ſtep to be taken, is, by <lb/>means of ſtrong
+            compreſſion, to effect a tem- <lb/>porary ſtoppage of the diſcharge, till by the
+            <lb/>application of ligatures a more effectual re- <lb/>medy is obtained. In the head,
+            as well as in <lb/>the trunk of the body, the eaſieſt method of <lb/>applying preſſure
+            of this kind, is, by means <lb/>of doſſilſof linen or charpie, held firmly up- <lb/>on
+            the mouths of the bleeding veſſels, either <lb/>by the hands of an aſſiſtant, or by the
+            uſe of <lb/>a proper bandage: Or, when preſſure can be <lb/>effectually applied to the
+            ſuperior part of the <lb/>artery, it anſwers better; as it not only ſe- <lb/>cures the
+            veſſel equally well, but admits of <lb/>the neceſſary ligature being applied with
+            <lb/>greater freedom. </p>
+          <pb n="26"/>
+          <p rend="indent">
+            <lb/>When, again, accidents of this nature <lb/>occur in any of the extremities, and
+            where <lb/>preſſure can be made with eaſe on the ſupe- <lb/>rior parts of arteries, for
+            ſuch caſes we are <lb/>in poſſeſſion of a remedy, which, when ſkill- <lb/>fully applied,
+            never fails of producing an <lb/>immediate ſtop to all farther loſs of blood. <lb/>What
+            is here meant, is, the Tourniquet. </p>
+          <p rend="indent">
+            <lb/>Till the invention of this inſtrument, <lb/>which was not known till laſt century,
+            Sur- <lb/>gery remained in a deplorable ſtate indeed. <lb/>No operation of importance
+            could be un- <lb/>dertaken on any of the extremities but with <lb/>great hazard to the
+            patient; and the effects <lb/>of large wounds muſt frequently have pro- <lb/>ved mortal,
+            from the want of this aſſiſt- <lb/>ance, which otherwiſe might not have been <lb/>in any
+            degree hazardous. </p>
+          <p rend="indent">
+            <lb/>As the invention of the tourniquet is <lb/>claimed by different people, and even by
+            <lb/>different nations, we ſhall not here pretend <lb/>to ſay from whence it originally
+            came: <lb/>but whoever had the merit of it, the firſt inſtru- <lb/>ment of this kind
+            with which the world <lb/>was made acquainted, was exceedingly <pb n="27"/>
+            <lb/>ſimple; ſo much-ſo, indeed, that we now <lb/>reflect with aſtoniſhment at the
+            diſcovery <lb/>having been reſerved to ſuch a very late pe- <lb/>riod. A ſmall cuſhion
+            being placed upon the <lb/>courſe of the principal artery of a limb, a <lb/>circular
+            rope or bandage was made to paſs <lb/>twice round it; and a ſmall timber handle
+            <lb/>being then introduced between one of the <lb/>folds of the bandage, for the purpoſe
+            of <lb/>twiſting it, the cuſhion by theſe means was <lb/>preſſed with ſo much force upon
+            the artery, <lb/>as to put an effectual ſtop to the courſe of <lb/>the blood through the
+            under part of the <lb/>limb. </p>
+          <p rend="indent">
+            <lb/>Mr Petit, an eminent ſurgeon of Paris, was <lb/>the firſt who propoſed a
+            conſiderable im- <lb/>provement on this inſtrument, by connec- <lb/>ting the circular
+            bandage with a ſcrew, <lb/>which was ſo contrived as to produce the <lb/>preſſure
+            chiefly on the principal arteries, <lb/>without materially affecting the reſt of the
+            <lb/>limb. It had this advantage over the other <lb/>inſtrument, that the operator
+            himſelf could <lb/>manage it, without being under the neceſ- <lb/>ſity of employing an
+            aſſiſtant; but it was <pb n="28"/>
+            <lb/>liable to one great inconvenience from <lb/>the very circumſtance which by the
+            inven- <lb/>tor was conſidered as an improvement. <lb/>This inſtrument of Mr Petit being
+            made <lb/>to act upon the principal arteries only, <lb/>the ſmaller veſſels
+            communicating with <lb/>theſe, by not being properly compreſſed, <lb/>diſcharge blood
+            freely from the inſtant they <lb/>are cut; and as this proves a very trouble- <lb/>ſome
+            circumſtance in the courſe of ope- <lb/>rations, different improvements have of
+            <lb/>late been made upon it. The pattern in <lb/>Plate III. is the reſult of all of
+            theſe. </p>
+          <p rend="indent">
+            <lb/>By means of this inſtrument in its now <lb/>improved ſtate, the blood in arty limb
+            is <lb/>very eaſily and effectually commanded; and <lb/>as it graſps the whole member
+            equally, all <lb/>the collateral branches as well as the prin- <lb/>cipal arteries are
+            equally compreſſed by it. <lb/>It has this material advantage, too, over <lb/>every
+            other inſtrument of this kind, that, <lb/>when properly applied, a ſingle turn, or
+            <lb/>even half a turn of the ſcrew, is ſufficient <lb/>for producing either a flow of
+            blood, or <pb n="29"/>
+            <lb/>for putting a total ſtop to it.—The manner <lb/>of uſing it is this. </p>
+          <p rend="indent">
+            <lb/>Let a cuſhion of three inches in length <lb/>by one inch and half in diameter be
+            pre- <lb/>pared of a linen roller, and be made tole- <lb/>rably firm but yet not ſo hard
+            as to ren- <lb/>der preſſure produced by it very pain- <lb/>ful: This being placed upon
+            the courſe of <lb/>the principal artery of the limb, is to be <lb/>firmly ſecured in
+            that ſituation by one or <lb/>two turns of a circular roller, of the ſame <lb/>breadth
+            with the cuſhion itſelf. </p>
+          <p rend="indent">
+            <lb/>The inſtrument A, with the ſtrap con- <lb/>nected with it, being now placed upon
+            the <lb/>limb, with the handle of the ſcrew B on <lb/>the oppoſite ſide of the member to
+            the <lb/>cuſhion upon the artery, the ſtrap C is to be <lb/>carried round the limb
+            directly over the <lb/>cuſhion, and to be firmly connected on the <lb/>other ſide to the
+            buckle D. In thus connec- <lb/>ting the ſtrap and buckle together, parti- <lb/>cular
+            attention is neceſſary in doing it with <lb/>great firmneſs, ſo as that the ſcrew may
+            <lb/>afterwards operate with as much advantage <lb/>as poſſible, in producing a
+            ſufficient degree <pb n="30"/>
+            <lb/>of preſſure. When proper attention is paid <lb/>to this circumſtance, a ſingle turn
+            of the <lb/>ſcrew, as we have ſaid, proves ſufficient <lb/>for putting an entire ſtop to
+            the circulation <lb/>of blood in the limb; but when the ſtrap <lb/>has not originally
+            been made very tight, <lb/>ſeveral turns of the ſcrew become neceſ- <lb/>ſary; an
+            occurrence which may be always <lb/>very eaſily prevented, and which, when not
+            <lb/>attended to, frequently proves very em- <lb/>barraſſing in the courſe of an
+            operation. </p>
+          <p rend="indent">
+            <lb/>Whenever it is determined, therefore, <lb/>that any farther loſs of blood from a
+            divi- <lb/>ded artery is to be prevented, preſſure on <lb/>the ſuperior part of the
+            veſſel ought to be <lb/>immediately had recourſe to; by the hands <lb/>of an aſſiſtant,
+            or a proper bandage, when <lb/>the cut is on the head or trunk of the <lb/>body; and by
+            means of the tourniquet, <lb/>when any of the extremities are wound- <lb/>ed. </p>
+          <p rend="indent">
+            <lb/>The patient being in this manner ſecured <lb/>from immediate danger, the
+            practitioner <lb/>muſt now proceed to the eaſieſt and moſt <lb/>effectual mode of
+            preventing a return of <pb n="31"/>
+            <lb/>hæmorrhagy on the removal of the tourni- <lb/>quet. </p>
+          <p rend="indent">
+            <lb/>The ancients, as we have ſeen, were ig- <lb/>norant of the uſe and application of
+            the <lb/>tourniquet, and they were equally deficient <lb/>in the employment of means for
+            giving a <lb/>permanent ſecurity againſt the flow of <lb/>blood from divided veſſels: It
+            will there- <lb/>fore readily occur to every modern prac- <lb/>titioner, that in this
+            imperfect ſtate of <lb/>Chirurgical knowledge, when any capital <lb/>operations were
+            attempted, they muſt have <lb/>run a much greater riſk of doing miſchief, <lb/>than of
+            procuring any advantage to their <lb/>patients. To the ſmaller veſſels they ap-
+            <lb/>plied doſſils of linen covered with aſtringent <lb/>powders; and for the larger
+            arteries, ſear- <lb/>ing with hot irons was their only re- <lb/>ſource. </p>
+          <p rend="indent">
+            <lb/>Even this laſt remedy however, although <lb/>it commands a temporary ſtoppage of
+            the <lb/>blood in every caſe of hæmorrhage, its <lb/>effects are by no means to be
+            depended on: <lb/>for, in general, the pulſation of the larger <lb/>arteries very ſoon
+            overcomes all the reſiſt- <pb n="32"/>
+            <lb/>ance produced by the application of the <lb/>cautery. </p>
+          <p rend="indent">
+            <lb/>In ancient times, however, when this <lb/>was the moſt effectual remedy with which
+            <lb/>the world was acquainted, practitioners <lb/>were under the neceſſity of having
+            recourſe <lb/>to it; and, at that period, it is not ſurpri- <lb/>ſing to find them
+            exerciſing their genius in <lb/>inventing a variety of ſtyptic applications: <lb/>But
+            ſince ſurgery became enriched with <lb/>that material improvement of ſecuring the
+            <lb/>larger arteries by means of ligatures, a <lb/>practice eaſily effected, and with
+            very little <lb/>pain to the patient, it is ſurpriſing to find <lb/>that remedies of
+            this kind are ſtill ſearched <lb/>after. If the uſe of ligatures was in itſelf at-
+            <lb/>tended with much difficulty, if by experi- <lb/>ence it had been found to be
+            productive of <lb/>many bad conſequences, or, if it had been <lb/>frequently known to
+            fail in anſwering as a <lb/>full ſecurity againſt the hæmorrhagies of <lb/>the larger
+            arteries; in any of theſe events, <lb/>it ought to be the buſineſs of practitioners
+            <lb/>to endeavour to procure a more effectual <lb/>remedy. But, as the ligature of
+            arteries is <pb n="33"/>
+            <lb/>very ſimple in its nature; as the pain ari- <lb/>ſing from it is trifling; as few
+            inſtances <lb/>occur of any thing bad being produced by <lb/>it; and eſpecially, as,
+            when properly per- <lb/>formed, it never fails of proving a ſure <lb/>preventative
+            againſt all loſs of blood from <lb/>the larger arteries; there can therefore be <lb/>no
+            good reaſon for anxiouſly ſeeking after <lb/>other remedies inſtead of it. </p>
+          <p rend="indent">
+            <lb/>Agaric and other fungous ſubſtances <lb/>have been much extolled for their ſtyptic
+            <lb/>powers; and chalybeate ſolutions, as well <lb/>as all the variety of mineral acids,
+            have <lb/>in different forms been held forth to the <lb/>public as effectual remedies of
+            this nature; <lb/>not only as noſtrums by thoſe of leſs liberal <lb/>principles, but,
+            what is more ſurpriſing, in <lb/>ſome inſtances by practitioners of character. </p>
+          <p rend="indent">
+            <lb/>With the former claſs of men this hap- <lb/>pens as a common occurrence in the
+            courſe <lb/>of their profeſſion, and is therefore to be <lb/>expected; but, a
+            perſeverance in queſt of <lb/>any new remedy of this kind on the part <lb/>of Surgeons
+            of reputation, who are already <lb/>well acquainted with the effects of liga- <pb n="34"/>
+            <lb/>tures in caſes of hæmorrhagy, and who <lb/>alſo know that the practice is ſeldom
+            at- <lb/>tended with bad conſequences, muſt pro- <lb/>ceed from a degree of nicety and
+            refine- <lb/>ment, which may create much trouble to <lb/>themſelves, but which in all
+            probability <lb/>can never be productive of any practical <lb/>advantage. </p>
+          <p rend="indent">
+            <lb/>We ſhall therefore venture to lay it down <lb/>as an eſtabliſhed maxim in ſurgery,
+            That in <lb/>every caſe of hæmorrhagy from any of the <lb/>larger arteries, no ſtyptic
+            application what- <lb/>ever ought to be truſted to, the ligature <lb/>being the only
+            remedy to be depended on. <lb/>We now proceed therefore to the conſidera- <lb/>tion of
+            the eaſieſt and moſt effectual mode <lb/>of carrying this application into execution. </p>
+          <p rend="indent">
+            <lb/>Various methods have been invented for <lb/>ſecuring arteries by means of
+            ligatures. <lb/>The practice now in ordinary uſe, is, by <lb/>means of a curved needle,
+            to paſs a ligature <lb/>of ſufficient ſtrength round the mouth of <lb/>the bleeding
+            veſſel, including a quarter of <lb/>an inch all round of the ſurrounding parts <note
+              place="bottom" n="*" rend="size(0.75)">* Sharp's Surgery—On Amputation. </note>, <pb
+              n="35"/>
+            <lb/>and afterwards to form a knot of a proper <lb/>tightneſs upon the veſſel and other
+            parts <lb/>comprehended in the nooſe. </p>
+          <p rend="indent">
+            <lb/>One great objection, however, to this <lb/>method, is, that the nerves accompanying
+            <lb/>the blood-veſſels, together with a conſider- <lb/>able portion of the muſcular
+            ſubſtance <lb/>through which they paſs, muſt always be <lb/>ſurrounded with every
+            ligature formed in <lb/>this manner. From this circumſtance <lb/>much more pain is
+            produced than is neceſ- <lb/>ſary, by the nerves and other parts be- <lb/>ing at the
+            ſame time compreſſed with the <lb/>arteries; and, on ſome occaſions, the ſame <lb/>cauſe
+            has evidently given riſe to violent <lb/>convulſive affections, not only of the part
+            <lb/>chiefly affected, but of the whole ſyſtem. </p>
+          <p rend="indent">
+            <lb/>Spaſmodic twitches are frequently found <lb/>to occur after the amputation of
+            limbs, and <lb/>are often the ſource of much diſtreſs. In <lb/>ſome inſtances they are
+            no doubt to be <lb/>conſidered as the effect of other cauſes; <lb/>but in various caſes
+            it has happened, that <lb/>demonſtrative proof has been obtained of <lb/>their ariſing
+            from the ligatures of ar- <pb n="36"/>
+            <lb/>teries having been applied in ah improper <lb/>manner. When ſuch convulſive
+            affections <lb/>occur after amputations, and the uſual <lb/>means of preventing them
+            being found to <lb/>fail, effectual relief may be frequently ob- <lb/>tained by
+            deſtroying the ligatures altoge- <lb/>ther, ſo as to remove the compreſſion upon
+            <lb/>the nerves; care being taken at the ſame <lb/>time to renew the ligatures upon the
+            arte- <lb/>ries immediately, without comprehending <lb/>any of the contiguous parts. </p>
+          <p rend="indent">
+            <lb/>Thus, it is not the ſimple ligature of <lb/>veſſels to which any bad ſymptoms
+            occur- <lb/>ring in ſuch caſes are to be attributed; but <lb/>to the operation being
+            done in an im- <lb/>proper manner, by including nerves and <lb/>other parts, inſtead of
+            tying the arteries by <lb/>themſelves. </p>
+          <p rend="indent">
+            <lb/>Practitioners have commonly been afraid <lb/>of tying up blood-veſſels by
+            themſelves <lb/>without the intervention of ſome of the <lb/>ſurrounding parts, on the
+            ſuppoſition of <lb/>the coats of arteries not being of a ſuffi- <lb/>cient firmneſs for
+            bearing that degree of <pb n="37"/>
+            <lb/>compreſſion neceſſary for the prevention <lb/>of hæmorrhagy. </p>
+          <p rend="indent">
+            <lb/>This, however, originates from an idea <lb/>of the coats of arteries not being ſo
+            ſtrong <lb/>as they really are, and of a great degree of <lb/>force being neceſſary for
+            compreſſing the <lb/>ſides of arteries into cloſe contact with one <lb/>another. </p>
+          <p rend="indent">
+            <lb/>But it is now well known, that even <lb/>very ſmall arteries are poſſeſſed of much
+            <lb/>firmneſs; and it is alſo certain, that even <lb/>in the largeſt arteries of the arm
+            or thigh, <lb/>a very ſlight degree of compreſſion is fully <lb/>ſufficient, not only
+            for reſtraining hæmor- <lb/>rhagy, but for ſecuring the ligature on the <lb/>very ſpot
+            to which it is firſt applied: And <lb/>in ſmall veſſels the force neceſſary for this
+            <lb/>purpoſe is trifling indeed; being far leſs <lb/>than is commonly practiſed. </p>
+          <p rend="indent">
+            <lb/>Although the circumſtance we are now <lb/>inſiſting upon may not at firſt ſight
+            ſeem <lb/>to be of much importance, yet in fact it <lb/>merits very particular
+            attention. Even of <lb/>itſelf it is a matter of no ſmall conſe- <lb/>quence, but it is
+            the more material when <pb n="38"/>
+            <lb/>we conſider it as'connected in many in- <lb/>ſtances with circumſtances on which
+            the <lb/>life of a patient may in a great meaſure <lb/>depend; and we know well too,
+            that ſuc- <lb/>ceſs in ſurgical operations depends more <lb/>on a minute attention to
+            every circum- <lb/>ſtance relating to them, than on particular <lb/>dexterity in any one
+            part of them. </p>
+          <p rend="indent">
+            <lb/>It has alſo been objected to this mode of <lb/>ſecuring blood-veſſels by
+            themſelves, that <lb/>the ligatures, although they ſhould not <lb/>cut the arteries
+            through, yet are more <lb/>apt to ſlip than when ſome of the ſur- <lb/>rounding parts
+            are comprehended along <lb/>with them; and, in ſome inſtances, it is <lb/>ſaid that
+            arteries retract ſo far, that they <lb/>cannot in any other way be laid hold of,
+            <lb/>than by means of the crooked needle in <lb/>the ordinary method. </p>
+          <p rend="indent">
+            <lb/>Long and repeated experience, however, <lb/>of a few individuals, of this mode of
+            ta- <lb/>king up arteries by themſelves, has put <lb/>the fact beyond a doubt, that it
+            is equal- <lb/>ly ſecure as any other yet invented <note place="bottom" n="*"
+              rend="size(0.75)">* See an eſſay upon this ſubject, by Mr Aitken,
+                <lb/><unclear>an</unclear> ingenious ſurgeon of Warrington. </note>.— <pb n="39"/>
+            <lb/>Fatal hæmorrhagies after capital opera- <lb/>tions, either from inattention, or
+            ſome <lb/>other cauſe, do now and then indeed hap- <lb/>pen in the hands of the moſt
+            able practi- <lb/>tioners; but occurrences of this nature <lb/>have as frequently
+            happened when the <lb/>curved needle was employed, as when the <lb/>blood-veſſels were
+            ſecured by themſelves <lb/>without any of the contiguous parts being <lb/>included. </p>
+          <p rend="indent">
+            <lb/>From the reſult of my own experience, <lb/>indeed, I mould be induced even from
+            <lb/>this conſideration, to draw a concluſion <lb/>in favour of the method we have been
+            en- <lb/>deavouring to inculcate. For, in the courſe <lb/>of practice, both among
+            hoſpital patients <lb/>and in private, I have known different deaths <lb/>occur from the
+            bleeding of ſtumps after <lb/>the amputation of members: Whether this <lb/>proceeded
+            from the ligatures having ſlip- <lb/>ped from ſome of the arteries; or that <lb/>ſome of
+            the veſſels, from not appearing <lb/>during the operation, had been of courſe
+            <lb/>paſſed over without being obſerved and <lb/>had afterwards burſt out, I ſhall not
+            pre- <pb n="40"/>
+            <lb/>tend to determine; but in all of theſe, <hi rend="italic">the <lb/>crooked needle
+              only</hi> had been uſed during <lb/>the operation; and it has ſo happened, <lb/>that I
+            never met with a ſingle inſtance of <lb/>a ſimilar occurrence where the arteries
+            <lb/>were ſecured by themſelves by means of <lb/><hi rend="italic">the tenaculum</hi>,
+            an inſtrument to be after- <lb/>wards taken notice of. </p>
+          <p rend="indent">
+            <lb/>In a few inſtances it may happen, that <lb/>a bleeding veſſel, from lying at the
+            bottom <lb/>of a deep wound, cannot be laid hold of <lb/>in any other manner than by the
+            curved <lb/>needle being made to paſs round it. Such <lb/>occurrences, however, are
+            exceedingly rare; <lb/>inſomuch that I have ſeldom known an <lb/>inſtance in which
+            hæmorrhagy could not <lb/>be as effectually reſtrained by the mode <lb/>now to be
+            pointed out, as by the uſe of <lb/>the crooked needle. </p>
+          <p rend="indent">
+            <lb/>In all operations whatever, to ſave <hi rend="italic">unne- <lb/>ceſſary</hi> pain
+            ought to be a very capital ob- <lb/>ject. In every buſineſs of this kind, the
+            <lb/>object in view ought no doubt to be at- <lb/>tained in the moſt complete manner;
+            but <lb/>that mode by which we perform an ope- <pb n="41"/>
+            <lb/>ration equally well with any other, at the <lb/>ſame time that we ſave a good deal
+            of pain <lb/>to the patient, is undoubtedly in every in- <lb/>ſtance to be preferred.
+            Now, with reſpect <lb/>to the point in queſtion, as we have al- <lb/>ready clearly
+            ſhown, that arteries may be <lb/>tied with as much ſafety in every reſpect, <lb/>by
+            themſelves, as when connected with <lb/>any of the neighbouring parts, the <hi
+              rend="italic">diffe- <lb/>rence of pain</hi> produced by the two modes <lb/>of
+            operating, ought at once to determine <lb/>in favour of the former. </p>
+          <p rend="indent">
+            <lb/>When any of the contiguous parts, par- <lb/>ticularly when the nerves which
+            generally <lb/>accompany the blood-veſſels, are included <lb/>in the ſame ligature with
+            an artery, and <lb/>which when the curved needle is em- <lb/>ployed is a circumſtance
+            ſcarcely to be <lb/>avoided, every practitioner knows that <lb/>tying the knot in this
+            manner is fre- <lb/>quently complained of by the patient in <lb/>very ſevere terms. I
+            have on many occa- <lb/>ſions known patients, who have bore the <lb/>amputation of
+            limbs, and of cancerous <lb/>breaſts, without ſhrinking, complain bit- <pb n="42"/>
+            <lb/>terly of the ſevere pain produced by the <lb/>method of ſecuring arteries by means
+            of <lb/>the crooked needle. And on the con- <lb/>trary, the pain attending the method
+            now <lb/>propoſed, is ſo trifling, that, when pro- <lb/>perly done, even the moſt timid
+            patients <lb/>very ſeldom complain of it. </p>
+          <p rend="indent">
+            <lb/>For ſome time after I firſt began to <lb/>uſe the tenaculum, curioſity induced me,
+            <lb/>on different occaſions, to put the matter <lb/>under conſideration to the teſt of
+            experi- <lb/>ment: And to render the trial as fair and <lb/>deciſive as poſſible, it was
+            always made <lb/>upon the ſame ſubject, under the ſame ope- <lb/>ration. Different
+            veſſels were ſecured in <lb/>the ordinary manner by the crooked needle; <lb/>whilſt
+            others were laid hold of by the tena- <lb/>culum: But ſo great was the difference in
+            <lb/>point of pain, that the one was uniformly <lb/>allowed to give very little
+            uneaſineſs; <lb/>whereas it frequently happened, that the <lb/>other was complained of
+            as the moſt pain- <lb/>ful part of the whole operation. </p>
+          <p rend="indent">
+            <lb/>Among other advantages which the ty- <lb/>ing of arteries by means of the tenaculum
+              <pb n="43"/>
+            <lb/>has over the old mode of operating, there <lb/>is ſtill one we have not yet taken
+            notice of. <lb/>It often happens after amputations, and <lb/>other operations where the
+            larger arteries <lb/>have been tied, that the ligatures do not <lb/>come eaſily away,
+            from being made to run <lb/>ſo deep as with the curved needle is com- <lb/>monly
+            neceſſary. In ſome inſtances much <lb/>pain and trouble has occurred from this
+            <lb/>circumſtance, the ligature remaining quite <lb/>immoveable for a great many weeks:
+            And <lb/>after all, I have ſeen it neceſſary for the ſur- <lb/>geon, to put the patient
+            to a great deal of <lb/>pain, by being obliged to cutout the threads <lb/>with a
+            ſcalpel. But when the tenaculum <lb/>is uſed, every riſk of this kind is effec-
+            <lb/>tually avoided, from the ligatures generally <lb/>falling off of their own accord,
+            in the <lb/>gourſe of the third or fourth dreſſing of <lb/>the ſore. </p>
+          <p rend="indent">
+            <lb/>From what has been ſaid, therefore, we <lb/>ſhall conſider it as a practice that
+            ought to <lb/>be eſtabliſhed, that in forming the ligature <lb/>of arteries, the <hi
+              rend="italic">nerves</hi> and <hi rend="italic">other contiguous <lb/>parts</hi>
+            ſhould be carefully avoided. </p>
+          <pb n="44"/>
+          <p rend="indent">
+            <lb/>For the purpoſe of effecting this with <lb/>eaſe and ſafety, forceps of various
+            kinds <lb/>have been invented; with theſe, the arte- <lb/>ries of a ſore are laid hold
+            of and pulled <lb/>out, ſo as to admit of the application of <lb/>ligatures. </p>
+          <p rend="indent">
+            <lb/>For the larger blood-veſſels, the forceps <lb/>have been found to anſwer
+            conveniently <lb/>enough; but, in the ſmaller arteries, they <lb/>are by no means ſo fit
+            for the purpoſe as <lb/>the curved hook commonly termed a te- <lb/>naculum, as
+            repreſented in Plate I. And as <lb/>a hook of this form anſwers equally well <lb/>in the
+            larger arteries likewiſe, the uſe of <lb/>the forceps may therefore be laid entirely
+            <lb/>aſide. The manner of uſing the tenacu- <lb/>lum is this. </p>
+          <p rend="indent">
+            <lb/>In order to detect the arteries to be <lb/>tied, the tourniquet with which they are
+            <lb/>ſecured, muſt be ſlackened a little by a <lb/>turn or two of the ſcrew; and the
+            moment <lb/>the largeſt artery of the ſore is diſcovered, <lb/>the ſurgeon fixes his eye
+            upon it, and im- <lb/>mediately reſtrains the blood again by <lb/>means of the
+            tourniquet. An aſſiſtant <pb n="45"/>
+            <lb/>now forms a nooſe on the ligature to be <lb/>made uſe of; and this nooſe being
+            placed <lb/>immediately over the end of the artery, <lb/>ſo as to include it with
+            certainty, the <lb/>operator then puſhes the ſharp point of <lb/>the tenaculum through
+            the ſides of the <lb/>veſſel, and at the ſame time pulls ſo much <lb/>of it out, over
+            the ſurface of the ſurround- <lb/>ing parts, as he thinks is ſufficient to be
+            <lb/>included in the knot which the aſſiſtant is <lb/>now to make. In forming this
+            ligature, <lb/>the ſurgeon's knot, as it is termed, which <lb/>conſiſts in paſſing the
+            thread twice thro' <lb/>the firſt nooſe, is certainly preferable to <lb/>every other,
+            from its being leſs liable to <lb/>yield or flip. And as ſome additional ſe- <lb/>curity
+            is obtained by forming a ſecond knot <lb/>above the firſt, this precaution ought never
+            <lb/>to be omitted. It is eaſily done; and on <lb/>ſecurity in this point, the patient's
+            life may <lb/>in a great meaſure depend. </p>
+          <p rend="indent">
+            <lb/>The degree of ſtrength of the ligature <lb/>muſt always be proportioned to the ſize
+            of <lb/>the veſſels; but this is a circumſtance to be <lb/>at all times determined by
+            the judgment <pb n="46"/>
+            <lb/>of the practitioner, as muſt alſo the force <lb/>to be employed in forming the
+            knots. To <lb/>what was already ſaid upon this point I <lb/>ſhall juſt add, that a very
+            ſmall force is fully <lb/>ſufficient for ſecuring even the largeſt ar- <lb/>teries 5 and
+            that, after ſuch a force has been <lb/>applied as evidently reſtrains the farther loſs
+            <lb/>of blood, a very trifling additional compreſ- <lb/>ſion is all that is in any
+            degree neceſſary. </p>
+          <p rend="indent">
+            <lb/>The principal artery being in this man- <lb/>ner ſecured, all the veſſels of the
+            part <lb/>muſt one after another be taken up in the <lb/>fame manner, by firſt looſening
+            the tour- <lb/>niquet in order to diſcover them, and <lb/>afterwards applying the
+            ligature to each in <lb/>the manner directed. </p>
+          <p rend="indent">
+            <lb/>It often happens, however, that the loſs <lb/>of blood the patient has ſuſtained, a
+            ten- <lb/>dency to deliquium which may take place <lb/>for the time, the fear he labours
+            under, and <lb/>the degree of cold to which the ſore is ex- <lb/>poſed, have all
+            together ſuch an effect upon <lb/>the ſmaller arteries, as to prevent them for <lb/>the
+            time from diſcharging their contents, <lb/>and as arteries left in ſuch a ſtate without
+              <pb n="47"/>
+            <lb/>being ſecured, generally burſt out on the <lb/>removal of theſe cauſes, a
+            circumſtance <lb/>which always occaſions much trouble to <lb/>the practitioner, as well
+            as a great deal of <lb/>pain to the patient, every ſurgeon there- <lb/>fore ought to pay
+            the niceſt attention to <lb/>this point. </p>
+          <p rend="indent">
+            <lb/>The tourniquet ſhould be made perfect- <lb/>ly looſe; any coagulated blood on the
+            ſur- <lb/>face of the ſore, ought to be carefully waſh- <lb/>ed off with a ſpunge and
+            warm water; and <lb/>the patient, if faintiſh, ought to get a <lb/>glaſs of wine, or
+            ſome other cordial; and <lb/>after all, the ſurgeon ought to examine, <lb/>with the moſt
+            minute attention, the uſual <lb/>courſe which the veſſels of the part are <lb/>known to
+            take. </p>
+          <p rend="indent">
+            <lb/>This being done, every artery of the part, <lb/>even the ſmalleſt that can be
+            diſtinguiſhed, <lb/>ought to be ſecured with a ligature: For <lb/>ſuch veſſels as appear
+            exceedingly trifling <lb/>while the part is yet expoſed to the air, <lb/>after the
+            patient becomes warm in bed, <lb/>when of courſe the ſolids become relaxed, <lb/>and the
+            fluids expand, even the ſmalleſt <pb n="48"/>
+            <lb/>branches of arteries that happen to be <lb/>neglected, will now be capable of
+            produ- <lb/>cing much miſchief, by diſcharging very <lb/>conſiderable quantities of
+            blood; and, as <lb/>little or no injury can ever occur by the <lb/>proper application of
+            ligatures to all the <lb/>arteries that preſent themſelves, the greateſt <lb/>attention
+            ought at all times to be paid to <lb/>this circumſtance. </p>
+          <p rend="indent">
+            <lb/>I have inſiſted the more on this, from <lb/>having frequently obſerved much un-
+            <lb/>eaſineſs and diſtreſs produced by a want <lb/>of proper attention to this part of
+            an ope- <lb/>ration. </p>
+          <p rend="indent">
+            <lb/>When the principal arteries of a ſtump <lb/>have been taken up, and a little blood
+            <lb/>continues to be diſcharged, but appears to <lb/>come from ſundry ſmall veſſels
+            only, the <lb/>ſurgeon, unleſs he is much accuſtomed to <lb/>this kind of buſineſs, is
+            induced to think, <lb/>that as they are very trifling to appear- <lb/>ance, ſo he need
+            not be at the trouble of <lb/>tying them, as the neceſſary compreſſion <lb/>of the
+            bandages proper for the wound will <lb/>in all probability effect a total ſtoppage of
+              <pb n="49"/>
+            <lb/>the hæmorrhagy. In a general oozing of a <lb/>ſmall quantity of blood from the
+            whole <lb/>ſurface of a ſore, and when no particular <lb/>veſſel can be diſtinguiſhed,
+            there is a neceſ- <lb/>ſity for truſting to this remedy; but, when- <lb/>ever an artery
+            can be diſcovered, of what- <lb/>ever ſize it may be, it ought unqueſtionably <lb/>to be
+            ſecured by a ligature. It very rarely <lb/>happens that any inconvenience occurs
+            <lb/>from ligatures when properly applied; but <lb/>many lives have been loſt from a
+            remiſſneſs <lb/>in this article. I have known different in- <lb/>ſtances of this, and
+            the ſame muſt have oc- <lb/>curred to others. </p>
+          <p rend="indent">
+            <lb/>When, from the deepneſs of a wound, or <lb/>from any other cauſe, ſome particular
+            ar- <lb/>tery cannot be properly ſecured by the <lb/>tenaculum, in this caſe we are
+            under the <lb/>neceſſity of employing the crooked needle, <lb/>and the following is the
+            mode of uſing it. </p>
+          <p rend="indent">
+            <lb/>The operator ought to be provided with <lb/>needles of various ſizes, and of
+            different <lb/>forms. The needles in ordinary uſe, are <lb/>for many purpoſes quite too
+            much crooked; <lb/>for, in general, they are mope eaſily ma- <pb n="50"/>
+            <lb/>naged when their curvatures are not ſo <lb/>conſiderable. </p>
+          <p rend="indent">
+            <lb/>The ſame kinds of needles as are found <lb/>neceſſary for the interrupted ſuture,
+            as re- <lb/>preſented in Plate I. anſwer equally well <lb/>for the ligature of arteries. </p>
+          <p rend="indent">
+            <lb/>The needles in common uſe are made <lb/>triangular, with three different edges, one
+            <lb/>on each ſide, and a third on the concave <lb/>part of the needle. There is no real
+            ne- <lb/>ceſſity, however, for more than two: In- <lb/>deed the needle enters fully more
+            eaſily <lb/>with two than with three edges; and as the <lb/>third edge on the concave
+            ſide, renders <lb/>them more liable to injure arteries and <lb/>other parts in the
+            courſe of their introduc- <lb/>tion, this addition ought therefore to be <lb/>omitted. </p>
+          <p rend="indent">
+            <lb/>A needle of this ſhape, armed with a li- <lb/>gature of a ſize proportioned to
+            itſelf and <lb/>to the veſſel to be taken up, is to be intro- <lb/>duced at the diſtance
+            of a ſixth or eighth <lb/>part of an inch from the artery, and puſhed <lb/>to a depth
+            ſufficient for retaining it, at the <lb/>ſame time that it is carried fully one- <pb
+              n="51"/>
+            <lb/>half round the blood-veſſel. It muſt now <lb/>be drawn out; and being again puſhed
+            <lb/>forward till it has completely encircled <lb/>the mouth of the artery, it is then
+            to be <lb/>pulled out, and a knot to be tied of a ſuffi- <lb/>cient firmneſs, as was
+            already directed when <lb/>the tenaculum is uſed. </p>
+          <p rend="indent">
+            <lb/>In this manner, either by the uſe of the <lb/>crooked needle, or of the tenaculum,
+            every <lb/>hæmorrhagy depending upon a diviſion of <lb/>one or more large arteries, may
+            in general <lb/>be very eaſily reſtrained; but it frequently <lb/>happens, that
+            conſiderable quantities of <lb/>blood are diſcharged, not from any parti- <lb/>cular
+            veſſel, but from all the ſmall arteries <lb/>over the ſurface of the ſore. In wounds of
+            <lb/>great extent, particularly after the extir- <lb/>pation of cancerous breaſts, and
+            in other <lb/>operations where extenſive ſores are left, <lb/>this ſpecies of hæmorrhagy
+            often proves <lb/>very troubleſome by being exceedingly dif- <lb/>ficult to ſuppreſs. </p>
+          <p rend="indent">
+            <lb/>Bleedings of this kind ſeem evidently to <lb/>proceed from two very different and
+            oppo- <lb/>ſite cauſes; a circumſtance which, in the <pb n="52"/>
+            <lb/>treatment of them, is a matter of much <lb/>importance to attend to. </p>
+          <p rend="indent">
+            <lb/><hi rend="sc">Firſt</hi>, We now and then find effuſions of <lb/>this nature
+            occurring in ſtrong robuſt people, <lb/>where they evidently proceed, either from
+            <lb/>too great a quantity of blood contained in <lb/>the veſſels, or from an over degree
+            of tone <lb/>in the veſſels themſelves; or, perhaps, from <lb/>a combination of both
+            theſe cauſes. But, <lb/><hi rend="sc">Secondly</hi>, Such evacuations undoubtedly
+            <lb/>happen moſt frequently in conſtitutions <lb/>quite the reverſe of the former, viz.
+            in ſuch <lb/>as are very relaxed and debilitated; either <lb/>from a putrid diſſolved
+            ſtate of the blood, <lb/>or from a want of tone in the containing <lb/>veſſels, or in
+            ſome inſtances from a con- <lb/>currence of both. </p>
+          <p rend="indent">
+            <lb/>In conſtitutions perfectly healthy, when <lb/>the fluids are not tainted with any
+            degree <lb/>of putreſcency, and the ſolids are poſſeſſed <lb/>of their natural tonic
+            powers, on the oc- <lb/>currence of wounds even of the moſt ex- <lb/>tenſive nature, ſo
+            ſoon as the larger arteries <lb/>are ſecured, all the ſmall veſſels that have <lb/>been
+            divided, in conſequence of that con- <pb n="53"/>
+            <lb/>tractile power with which in a ſtate of <lb/>health they are endowed, and from the
+            ſti- <lb/>mulus of the external air to which they are <lb/>now expoſed, are diminiſhed
+            not only in <lb/>their diameters, but alſo in their length; in <lb/>conſequence of
+            which, they recede conſi- <lb/>derably within the ſurface of the ſurround- <lb/>ing
+            parts. </p>
+          <p rend="indent">
+            <lb/>This cauſe of itſelf would probably in <lb/>the greateſt number of inſtances prove
+            ſuf- <lb/>ficient for reſtraining all loſs of blood <lb/>from the ſmaller arteries; but,
+            in the ſound <lb/>ſtate of conſtitution of which we have now <lb/>been ſpeaking, another
+            very powerful agent <lb/>is provided by nature for producing the <lb/>fame effect. From
+            the extremities of the <lb/>divided veſſels which at firſt diſcharged <lb/>red blood
+            only, there now, in their con- <lb/>tracted ſtate, oozes out a more thin, though
+            <lb/>viſcid fluid, containing a great proportion <lb/>of the coagulable parts of the
+            blood; and <lb/>this being equally diſtributed over the ſur- <lb/>face of the wound, by
+            its balſamic agglu- <lb/>tinating powers, has undoubtedly a very <pb n="54"/>
+            <lb/>conſiderable influence in reſtraining all ſuch <lb/>hæmorrhagies. </p>
+          <p rend="indent">
+            <lb/>In conſtitutions altogether healthy, where <lb/>neither of the ſtates of diſeaſe we
+            have al- <lb/>luded to preponderates over the other, we <lb/>find, that, ſo ſoon as the
+            larger arteries of <lb/>wounds are ſecured, nature, in the manner <lb/>already
+            deſcribed, generally puts a ſtop to <lb/>all farther diſcharge. So that, whenever the
+            <lb/>contrary happens, by a tedious oozing con- <lb/>tinuing from the ſurface of the
+            ſore, we <lb/>ought then to pay particular attention to <lb/>the habit of body with
+            which it is connec- <lb/>ted. </p>
+          <p rend="indent">
+            <lb/>When ſuch an occurrence happens in a <lb/>patient, young and vigorous, and where
+            <lb/>the tone of the muſcular fibres is evident- <lb/>ly great, the moſt effectual means
+            of putting <lb/>a ſtop to the diſcharge, is to relax the <lb/>vaſcular ſyſtem, either by
+            opening a vein <lb/>in ſome other part, or, what gives ſtill more <lb/>immediate relief,
+            by untying the ligature <lb/>on one of the principal arteries of the part, <lb/>ſo as to
+            allow it to bleed freely: Thoſe vio- <lb/>lent ſpaſmodic twitchings too, ſo frequent <pb
+              n="55"/>
+            <lb/>after operations on any of the extremities, <lb/>when they do not depend on a nerve
+            being <lb/>included in the ligature with the artery, <lb/>are in this manner more
+            effectually re- <lb/>lieved than by any other means. </p>
+          <p rend="indent">
+            <lb/>By the ſame means, the patient, from <lb/>being in a febrile heat and much
+            confuſed, <lb/>ſoon becomes very tranquil: The violent <lb/>pulſation of the heart and
+            larger arteries <lb/>abates, and, the blood not being pro- <lb/>pelled with ſuch
+            impetuoſity into the <lb/>ſmaller veſſels of the part, they are thereby <lb/>left at
+            more liberty to retract; and as in <lb/>this ſtate they do not pour forth red blood
+            <lb/>ſo freely, they are the more readily covered <lb/>with that viſcid glutinous fluid
+            which we <lb/>have already ſhown to be one of the moſt <lb/>important means intended by
+            nature for <lb/>the prevention of ſuch hæmorrhagies. At <lb/>the ſame time that by the
+            means recom- <lb/>mended we endeavour to allay the com- <lb/>motion produced in the
+            ſyſtem, the patient <lb/>ought to be kept exceedingly cool; wine <lb/>and other cordials
+            ſhould be rigidly avoid- <lb/>ed; cold water, acidulated either with the <pb n="56"/>
+            <lb/>mineral or vegetable acids, ought to be the <lb/>only drink; motion of every kind,
+            par- <lb/>ticularly of the part affected, ſhould be <lb/>guarded againſt; and the wound
+            being <lb/>gently covered with ſoft charpie, ought <lb/>to be tied up with a bandage ſo
+            applied <lb/>as to produce a moderate degree of preſ- <lb/>ſure on the extremities of
+            the divided <lb/>parts. </p>
+          <p rend="indent">
+            <lb/>In every extenſive wound attended with <lb/>hæmorrhagies of this kind, and
+            particularly <lb/>when violent ſpaſmodic affections of the <lb/>muſcles ſupervene,
+            together with the means <lb/>already recommended, large doſes of opi- <lb/>ates are
+            found highly beneficial; for what- <lb/>ever hurtful effects may have been appre-
+            <lb/>hended from opiates in ſome inflamma- <lb/>tory affections, every practitioner who
+            has <lb/>ventured on a free uſe of them muſt ad- <lb/>mit, that in all occurrences of
+            this nature <lb/>their influence far ſurpaſſes that of any <lb/>other remedy. </p>
+          <p rend="indent">
+            <lb/>So ſoon therefore as a ſufficient quantity of <lb/>blood has been diſcharged, and
+            the wound <lb/>being dreſſed and the patient laid to reſt, <pb n="57"/>
+            <lb/>a doſe of opium proportioned to the vio- <lb/>lence of the ſymptoms ought to be
+            imme- <lb/>diately exhibited. It ought to be remark- <lb/>ed however, that, in all ſuch
+            circumſtan- <lb/>ces, much larger doſes of the remedy <lb/>are neceſſary, than in
+            ordinary caſes re- <lb/>quiring the uſe of opiates. Small doſes, <lb/>inſtead of
+            anſwering any good purpoſe, <lb/>ſeem frequently rather to aggravate the <lb/>various
+            ſymptoms; ſo that, whenever they <lb/>are here had recourſe to, they ought always
+            <lb/>to be given in quantities ſufficient for the <lb/>intended effect. </p>
+          <p rend="indent">
+            <lb/>Although hæmmorrhagies of this nature <lb/>do now and then occur in firm vigorous
+            <lb/>conſtitutions; yet they undoubtedly happen <lb/>much more frequently in relaxed
+            enfeebled <lb/>habits, where the ſolids have loſt part of their <lb/>natural firmneſs,
+            and the fluids have acqui- <lb/>red ſome degree of putreſcency. As the <lb/>veſſels in
+            this ſituation of matters are ſup- <lb/>poſed to have been deprived of that degree
+            <lb/>of tone of which we wiſh them to be poſſeſ- <lb/>ſed, inſtead of reſtraining the
+            patient from <lb/>the uſe of cordials, as is done uſually <hi rend="italic">in <pb
+                n="58"/>
+              <lb/>every caſe of hamorrhagy</hi>, a moderate uſe <lb/>of generous wine ought to be
+            immediately <lb/>preſcribed; for nothing, it may be obſer- <lb/>ved, tends ſo much in
+            ſuch circumſtances <lb/>to reſtrain hæmorrhagies, as a well-directed <lb/>uſe of proper
+            cordials. By tending to in- <lb/>vigorate and brace the ſolids, they thereby <lb/>enable
+            the arterial ſyſtem to give a due <lb/>reſiſtance to the contained fluids; and the
+            <lb/>ſame cauſe, it may be obſerved, has a conſi- <lb/>derable influence in reſtoring to
+            the fluids <lb/>that viſcidity of texture, of which in all ſuch <lb/>inſtances we
+            ſuppoſe them to be deprived. </p>
+          <p rend="indent">
+            <lb/>Whenever, therefore, ſuch tedious hæmor- <lb/>rhagies occur in relaxed debilitated
+            habits, <lb/>a free uſe of Port, Madeira, or any other <lb/>wine whoſe ſtrength and
+            goodneſs can be <lb/>depended on, ought to be immediately <lb/>allowed; a nouriſhing
+            diet alſo becomes <lb/>proper; the patient ought to be kept cool; <lb/>and the mineral
+            acids, from their known <lb/>utility in every ſpecies of hæmorrhagy, <lb/>ought alſo to,
+            be preſcribed. Reſt of body <lb/>is here proper too; and opiates, when in- <lb/>dicated,
+            either by pain or ſpaſmodic affec- <pb n="59"/>
+            <lb/>tions of the muſcles, ought never to be <lb/>omitted. </p>
+          <p rend="indent">
+            <lb/>Together with theſe remedies adapted <lb/>to the general ſyſtem, particular
+            dreſſings, <lb/>appropriated to the ſtate of the parts to <lb/>which they are to be
+            applied, have been <lb/>found very beneficial. We have already <lb/>remarked, that in
+            firm healthy conſtitu- <lb/>tions, ſo ſoon as the diſcharge of blood <lb/>which
+            naturally occurs in every large <lb/>wound is over, the parts come ſoon to be
+            <lb/>covered with a viſcid coagulable effuſion <lb/>from the mouths of the now retracted
+            ar- <lb/>teries; but in conſtitutions of an oppoſite <lb/>nature, where the ſolids are
+            much relaxed, <lb/>the blood in general is found in ſuch a <lb/>diſſolved ſtate as to
+            afford no ſecretion of <lb/>this nature. </p>
+          <p rend="indent">
+            <lb/>In order therefore to ſupply as much as <lb/>poſſible the deficiency of this
+            natural bal- <lb/>ſam, different artificial applications have <lb/>been invented.
+            Duſting the parts with <lb/>ſtarch or wheat flour, has ſometimes been <lb/>found of uſe;
+            and I have known gum <pb n="60"/>
+            <lb/>arabic in fine powder to anſwer when <lb/>theſe have failed. </p>
+          <p rend="indent">
+            <lb/>Applications of this kind, indeed, have <lb/>been uſed with ſucceſs in all ſuch
+            hæmor- <lb/>rhagies, with whatever habit of body they <lb/>happen to be connected; but
+            they have al- <lb/>ways proved more particularly ſerviceable <lb/>in relaxed
+            conſtitutions, attended with a <lb/>diſſolved ſtate of the blood and an enfeebled
+            <lb/>muſcular ſyſtem. We may here uſe with <lb/>freedom too, a remedy which in ſuch cir-
+            <lb/>cumſtances generally proves ſerviceable, <lb/>but which in conſtitutions of an
+            oppoſite <lb/>nature ought never to be employed. The <lb/>remedy alluded to is alcohol,
+            or any other <lb/>ardent ſpirits, impregnated with as great a <lb/>quantity as they can
+            diſſolve of myrrh or <lb/>any other of the heating viſcid gums. The <lb/>balſamum
+            traumaticum of the ſhops, a reme- <lb/>dy of this nature, has long been famous for
+            <lb/>its influence in ſuch caſes, but that indiſcri- <lb/>minate uſe of this and ſimilar
+            applications <lb/>which has long prevailed with ſome prac- <lb/>titioners, I am
+            confident has done much <lb/>harm; for, as they are all poſſeſſed of very <pb n="61"/>
+            <lb/>ſtimulating powers, they of courſe tend to <lb/>aggravate every ſymptom in wounds
+            con- <lb/>nected with a tenſe ſtate of fibres, when much <lb/>pain, and eſpecially when
+            ſpaſmodic muſcu- <lb/>lar affections, prevail. But, in conſtitutions <lb/>of an oppoſite
+            nature, where the blood ap- <lb/>pears to be in a diſſolved ſtate, and where <lb/>the
+            arterial ſyſtem ſeems evidently to re- <lb/>quire a ſtimulus, remedies of this claſs
+            come <lb/>to be very uſeful: Inſomuch that, in every <lb/>conſtitution of this kind
+            where hæmor- <lb/>rhagies prove troubleſome, no application <lb/>whatever is found to
+            anſwer better, than <lb/>charpie immerſed in an agglutinating <lb/>ſpirituous balſam of
+            this nature. </p>
+          <p rend="indent">
+            <lb/>By a due perſeverance in one or other of <lb/>the plans here pointed out, it will
+            ſeldom <lb/>happen that hæmorrhagies of this nature <lb/>are not at laſt put a ſtop to:
+            But when <lb/>the contrary does occur; when, notwith- <lb/>ſtanding the uſe of the
+            remedies recom- <lb/>mended, a diſcharge of blood ſtill conti- <lb/>nues; together with
+            the means already ad- <lb/>viſed, an equal moderate preſſure ought to <lb/>be applied
+            over the whole ſurface of the <pb n="62"/>
+            <lb/>ſore, to be continued ſo long as the neceſſity <lb/>of the caſe ſeems to indicate. </p>
+          <p rend="indent">
+            <lb/>In finiſhing the dreſſings of ſuch wounds, <lb/>after the charpie and compreſſes
+            have been <lb/>applied, a bandage properly adapted to <lb/>the part ought to conclude
+            the whole, and <lb/>in ſuch a manner as to produce as equal <lb/>a degree of preſſure
+            over the ſurface of the <lb/>ſore as poſſible. But it now and then hap- <lb/>pens, that
+            no bandage whatever can be ſo <lb/>applied, as to produce the deſired effect; <lb/>and
+            in ſuch caſes, the hand of an aſſiſtant <lb/>is the only reſource. In ſuch inſtances, a
+            <lb/>perſon's hand being firmly applied over the <lb/>dreſſings, ſo as to produce a very
+            equal <lb/>degree of preſſure, will commonly ſucceed <lb/>when no other remedy is found
+            to have <lb/>much influence. </p>
+          <p rend="indent">
+            <lb/>Having thus endeavoured to point out <lb/>the moſt effectual means of putting a
+            ſtop <lb/>to morbid hæmorrhagies, we ſhall now <lb/>proceed to conſider the different
+            modes <lb/>employed by art, for effecting a diſcharge <lb/>of blood when indicated by
+            the preſence of <lb/>ſome diſorder in the conſtitution. </p>
+        </div>
+      </div>
+      <gap reason="sampling" unit="pages" quantity="497"/>
+    </body>
+  </text>
+</TEI>

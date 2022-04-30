@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> LMEMT Corpus - Layard: Directions to prevent the contagion of the
+          jail-distemper</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>Daniel Peter Layard</persName>
+            </author>
+            <title type="main">Directions to prevent the contagion of the jail-distemper, commonly
+              called the jail-fever. </title>
+            <edition n="1"/>
+            <idno type="ESTC">T56219</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/T56219"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>London: printed for James Robson, in New Bond-Street; and sold by B. Law,
+                  Ave-Maria-Lane, MDCCLXXII.</persName>
+              </publisher>
+              <date>1772</date>
+            </imprint>
+            <extent>
+              <measure type="format">8⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="2"/>
+              <measure type="count" commodity="body" unit="page" quantity="46"/>s </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">British Library</orgName>
+            <idno type="ECCO">CW108774977</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Public welfare and institutional"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text type="book" rend="roman" xml:lang="eng">
+    <gap reason="sampling" unit="pages" quantity="2"/>
+    <body>
+      <pb n="1"/>
+      <head rend="size(0.5) align-center space">
+        <lb/><hi rend="size(2.0)">DIRECTIONS </hi>
+        <lb/><hi rend="space">TO PREVENT THE </hi>
+        <lb/><hi rend="size(2.0)">CONTAGION, &amp;c. </hi>
+      </head>
+      <p rend="space">
+        <lb/><hi rend="dc(2)">T</hi>HE Jail-fever, ſo well <lb/>known to be contagious, <lb/>and of
+        all fevers, nearly as fatal, <lb/>as the plague, affects both places, <lb/>and perſons. Sir
+          <hi rend="sc">John Prin- <lb/>gle</hi>'s, and Sir <hi rend="sc">Stephen Theo- <lb/>dore
+          Janssen</hi>'s accounts are <lb/>almoſt in the hands of every one, <lb/>whether of the
+        faculty, or not. <lb/>The <hi rend="italic">Phyſician</hi> in his Treatiſe on <lb/>Army
+        Diſeaſes, has not only fully <lb/>deſcribed this fever, but moſt <lb/>judiciouſly directed
+        the proper <pb n="2"/>
+        <lb/>method of cure. The <hi rend="italic">Chamber- <lb/>lain</hi> in his Letter, has given
+        a full <lb/>account, of the melancholy ca- <lb/>taſtrophe in the year 1750, of <lb/>his
+        great activity, and diligence, <lb/>in removing the cauſes, and en- <lb/>deavouring to
+        prevent its conti- <lb/>nuance, and return; in which <lb/>humane offices, the late <hi
+          rend="italic">Reverend</hi>, <lb/>and moſt benevolent Doctor <hi rend="sc">Ste- <lb/>phen
+          Hales</hi> diſtinguiſhed him- <lb/>ſelf by his uſual unwearied <lb/>attention, and
+        charitable zeal. <lb/>From the remarks and obſerva- <lb/>tions of thoſe worthy perſons
+        <lb/>above mentioned; from the ſuc- <lb/>ceſs which attended their endea- <lb/>vors; from
+        ſome conſiderations <lb/>which have ſince ariſen on the <pb n="3"/>
+        <lb/>progreſs of infection in other <lb/>caſes; the following directions <lb/>are drawn up,
+        in order to con- <lb/>tribute a ſmall mite, towards the <lb/>preſervation of our fellow
+        crea- <lb/>tures. </p>
+      <p rend="indent space">
+        <lb/>To be as diſtinct as poſſible, <lb/>the placing theſe directions un- <lb/>der two
+        particular, and ſeparate <lb/>heads, will appear neceſſary; <lb/>ſince they may relate to
+        different <lb/>perſons, who may be induced <lb/>more particularly to attend to <lb/>one, or
+        other conſideration. <lb/>Therefore they are divided into <lb/>directions relative to 1ſt,
+          <hi rend="italic">Priſons</hi>, <lb/>and <hi rend="italic">Priſoners</hi>. 2dly, to <hi
+          rend="italic">Courts of <lb/>Juſtice</hi>, and <hi rend="italic">Attendants on Courts of
+            <pb n="4"/>
+          <lb/>Juſtice</hi>, which comprehend the <lb/>places and perſons, uſually af- <lb/>fected;
+        and from whence, and <lb/>from whom, this peſtilential fe- <lb/>ver is too often
+        communicated <lb/>to ſociety. </p>
+      <pb n="5"/>
+      <div>
+        <head rend="align-center space">
+          <lb/>1. <hi rend="sc">Prisons</hi>, and <hi rend="sc">Prisoners</hi>. </head>
+        <p rend="space">
+          <lb/><hi rend="dc(1.5)">P</hi>RISONS are not only like <lb/> hoſpitals, the receptacle of
+          <lb/>the ſick, unhealthy, and help- <lb/>leſs; but are too frequently <lb/>crouded, with
+          the healthy, <lb/>ſtrong, vigorous, cleanly and <lb/>decently habited, together with
+          <lb/>the infirm, weak, feeble, filthy, <lb/>and naked. Accuſtomed to every <lb/>hardſhip,
+          which the moſt abject <lb/>poverty can ſuffer, the one are <lb/>inured to miſery, by the
+          depra- <lb/>vity of their minds; and vice <lb/>rooted in their hearts, keeping <lb/>them
+          bound in the chains of <pb n="6"/>
+          <lb/>wickedneſs, they are totally <lb/>changed in conſtitution, as much <lb/>as in
+          principles; and both filth <lb/>and diſeaſe are become as natu- <lb/>ral to them as
+          cleanlineſs and <lb/>health are to the virtuous and <lb/>induſtrious. The other, who per-
+          <lb/>haps, before the ſlight offence, <lb/>for which they were committed, <lb/>lived
+          comfortably in their ſeveral <lb/>ſtations; bring into their con- <lb/>finement, that
+          ſhare of health, <lb/>and decency in apparel which <lb/>they have hitherto enjoyed.
+          <lb/>The bold offender hardened in <lb/>iniquity, and proof againſt the <lb/>inclemencies
+          of the weather, <lb/>and the ſeverities of pinching <lb/>famine and diſtreſs; feels not
+            <pb n="7"/>
+          <lb/>the horrors, and miſeries of <lb/>a jail; nor is he ſo eaſily ſeiz- <lb/>ed with any
+          diſeaſe; but ra- <lb/>ther finds an <hi rend="italic">Aſylum</hi>, in his pri- <lb/>ſon,
+          from cold, and hunger; <lb/>and in return, adds more poiſo- <lb/>nous, and baneful ſteams
+          from <lb/>his breath, and body, to increaſe <lb/>the ſtock of contagion, and de-
+          <lb/>ſtroy others. The unhappy and <lb/>wretched criminal, overtaken by <lb/>juſtice, in
+          his firſt offence, and <lb/>perhaps ſometimes, the ſtill more <lb/>pitiable innocent,
+          abaſhed, de- <lb/>jected, and forlorn, fallen from <lb/>eaſe, comfort, and regard; thrown
+          <lb/> into chains, among the moſt a- <lb/>bandoned, too ſoon falls alike a <lb/>prey to
+          deſpondency, and diſeaſe; <pb n="8"/>
+          <lb/>and the ſhare of health, brought <lb/>in with them expoſes them, the <lb/>ſooner, to
+          every ſort of infection. <lb/>Such a motly ſet of beings croud- <lb/>ed together,
+          breathing the ſame <lb/>infectious air, which daily grows <lb/>more peſtilential as the
+          healthy <lb/>grow more corrupt, produce <lb/>ſuch an acrid, powerful and de-
+          <lb/>ſtructive change in it, that no <lb/>wonder the very walls are in- <lb/>fected with
+          the noxious vapours. </p>
+        <p rend="indent space">
+          <lb/>The total extinction of ſo pu- <lb/>trid a diſeaſe, as the jail-fever, <lb/>can
+          ſcarcely be expected, not- <lb/>withſtanding the utmoſt atten- <lb/>tion, and care. Ever
+          ſince Sir <lb/><hi rend="sc">Stephen Janssen</hi>'s Shrievalty, <pb n="9"/>
+          <lb/>the keeper of <hi rend="italic">Newgate</hi> is allowed <lb/>to have done all in his
+          power, <lb/>by the working of Dr. <hi rend="sc">Hales</hi>'s <lb/>ventilators, and by
+          proper clean- <lb/>ſing, and waſhing, to keep the <lb/>jail free from ſtench, and foul
+          <lb/>air. But the conſtant increaſe <lb/>of priſoners, which prolong the <lb/>ſeſſions
+          more and more every <lb/>ſitting; the filthy, and diſtem- <lb/>pered ſtate, in which the
+          priſon- <lb/>ers, from other jails, generally <lb/>are, when removed about a week
+          <lb/>before their trials; the admiſſion <lb/>of country convicts, ſentenced <lb/>for
+          tranſportation; and the de- <lb/>tention of the tranſports of all <lb/>ſorts, and
+          condition, promiſcu- <lb/>ouſly, at leaſt till two ſeſſions are <pb n="10"/>
+          <lb/>over, for the convenience of the <lb/>contractor, that he may ſhip off <lb/>a number
+          together; the remain- <lb/>ing of ſome, till their fees are <lb/>diſcharged, the want of
+          an infir- <lb/>mary for the ſick, and of private <lb/>ſeparate lodgings for the healthy,
+          <lb/>unleſs they are able to pay for <lb/>them; all, and even a few of <lb/>theſe cauſes,
+          are fully ſufficient, <lb/>to perpetuate a diſeaſe; and when <lb/>the changes of the
+          ſeaſon are alſo <lb/>attended to, it is not ſurpriſing, <lb/>that even ſometimes in
+          private <lb/>houſes, and in hoſpitals where <lb/>the greateſt cleanlineſs is obſer-
+          <lb/>ved; and much more in jails, <lb/>where it is not always to be met <lb/>with; the
+          ſpring and autumn <pb n="11"/>
+          <lb/>ſhould bring forth peſtilential fe- <lb/>vers, eſpecially in the latter, when
+          <lb/>heavy rains have ſucceeded to a <lb/>hot ſummer, which, this very <lb/>year, has been
+          the caſe. </p>
+        <p rend="indent space">
+          <lb rend="indent space"/>As the ſheriffs of <hi rend="italic">London</hi> are
+          <lb/>likewiſe officers for the county <lb/>of <hi rend="italic">Middleſex</hi>, their
+          juriſdiction ex- <lb/>tends, moſt probably, over the <lb/>ſeveral priſons of <hi
+            rend="italic">London</hi> and <hi rend="italic">Weſt- <lb/>minſter</hi>. The proper
+          officers how- <lb/>ever ſhould order, that all the <lb/>jails be thoroughly inſpected by
+          <lb/>their under officers, and direc- <lb/>tions poſitively given, that every <lb/>ward,
+          room, or apartment in <lb/>the jail, ſhould be well ſwept, <lb/>waſhed firſt with warm
+          water, <pb n="12"/>
+          <lb/>then ſcraped, and afterwards <lb/>waſhed with vinegar; the boil- <lb/>ing hot ſteams
+          of which might <lb/>be uſefully conveyed to every <lb/>part: then the ventilators
+          <lb/>ſhould be worked to carry off <lb/>the confined air, and pour in <lb/>freſh.
+          Afterwards the ſeveral <lb/>rooms ſhould be ſmoaked with <lb/>tobacco ſtalks burnt on
+          charcoal, <lb/>the room being cloſely ſhut; pitch, <lb/>or tar may alſo be burnt; the
+          <lb/>laſt is more agreeable to the <lb/>ſmell, and not ſo groſs as pitch. <lb/>Different
+          wards ſhould be allot- <lb/>ted to the clean, or filthy; the <lb/>priſoners ſhould be
+          obliged to <lb/>comb, ſhave, waſh, and make <pb n="13"/>
+          <lb/>themſelves as clean as they could <lb/>before their removal from the <lb/>diſtant
+          jails to <hi rend="italic">Newgate</hi>. The <lb/>men who can ſmoak tobacco <lb/>might be
+          allowed to ſmoak, with <lb/>ſafety from fire; at leaſt the ſer- <lb/>vants of the jails
+          ſhould, for their <lb/>own preſervation, be induced to <lb/>ſmoak. </p>
+        <p rend="indent space">
+          <lb/>Every jail ſhould have both a <lb/>kitchen, and an infirmary; the <lb/>firſt to
+          prepare, at a proper diſ- <lb/>tance, broths, and ſuch boiled <lb/>meats as charitable
+          perſons in <lb/>this humane country frequently <lb/>ſend to the priſoners; and the
+          <lb/>infirmary to remove therein the <lb/>diſtreſſed ſick for their cure, <pb n="14"/>
+          <lb/>and the preſervation of others. <lb/>Were the magiſtrates of <hi rend="italic"
+            >London</hi>
+          <lb/>and <hi rend="italic">Middleſex</hi> to appoint a phy- <lb/>ſician of abilities, with
+          the name <lb/>of <hi rend="italic">City-Phyſician</hi>, and a ſuitable, <lb/>proper, and
+          comfortable ſalary, <lb/>to viſit daily one or other of the <lb/>jails; two ſurgeons, one
+          in <hi rend="italic">Lon- <lb/>don</hi> and another in <hi rend="italic">Weſtminſter</hi>,
+          <lb/>and an <hi rend="italic">Apothecary</hi> to each priſon, <lb/>under the direction of
+          the phy- <lb/>ſician, who ſhould report to <lb/>the mayor, aldermen, and ſhe- <lb/>riffs,
+          the ſtate of the jails. No <lb/>doubt but that from among the <lb/>worthy practitioners in
+          the <lb/>army, and navy, who have <lb/>been converſant in the diſeaſes <lb/>of camps,
+          fleets, and hoſpitals, <pb n="15"/>
+          <lb/>proper perſons may be found: <lb/>and at a moderate expence, the <lb/>community will
+          be ever obliged <lb/>to thoſe magiſtrates, who will <lb/>put ſuch a plan into execution.
+          <lb/>Another very neceſſary conſider- <lb/>ation, is the carrying off of all
+          <lb/>excrementitious matter by pro- <lb/>per ſevers, through which ſuch <lb/>a run of
+          water ſhould conſtantly <lb/>flow, as to cleanſe the privies, <lb/>and carry off every
+          ſort of filth <lb/>immediately and to a great diſ- <lb/>tance. </p>
+        <p rend="indent space">
+          <lb/>The tranſports ſhould not be <lb/>cloſely confined, but, could it be <lb/>practiſed,
+          ſhould ſo ſoon as con- <lb/>venient after trial, be ſentenced, <pb n="16"/>
+          <lb/>and put in a ſafe, but more airy <lb/>place of cuſtody. Could even <lb/>a diſtinct
+          tranſport-priſon be <lb/>built, wherein the healthy and <lb/>unhealthy might be put ſepa-
+          <lb/>rately, till the tranſport-ſhip <lb/>was near ready to ſail; and were <lb/>all the
+          tranſports from the <lb/>inland counties immediately <lb/>brought from the aſſize towns,
+          <lb/>to that priſon; many lives might <lb/>be ſaved, and, not only to the <lb/>benefit of
+          the contractor, but it <lb/>is to be hoped alſo, to the ad- <lb/>vantage of ſociety, and
+          the eter- <lb/>nal happineſs of many an un- <lb/>happy, and miſerable ſoul. <lb/>Nothing
+          ſeems more evident, <lb/>than that a tranſport-jail, con- <pb n="17"/>
+          <lb/>ſiſting of different wards, for <lb/>men and women; of an infirm- <lb/>ary for the
+          ſick, and a very <lb/>ſpacious piece of ground to air <lb/>the priſoners in, would be of
+          in- <lb/>finite uſe. Such a priſon, erect- <lb/>ed at a proper diſtance from <lb/>town, by
+          the river ſide, may be <lb/>convenient, ſafe, and not ſo ex- <lb/>penſive, as the ground
+          may be <lb/>had cheaper, and leſs building <lb/>may be neceſſary, where a deep <lb/>wide
+          ditch, ſupplied with water <lb/>conſtantly from the <hi rend="italic">Thames</hi>,
+          <lb/>would prevent the eſcape of the <lb/>felons, which walls, unleſs very <lb/>thick and
+          ſtrong, could not always <lb/>prevent: The <hi rend="italic">Iſle of Dogs</hi> ſeems
+          <lb/>a proper place for the ſituation <pb n="18"/>
+          <lb/>of ſuch a priſon, and it might <lb/>be guarded at little expence by a <lb/>detachment
+          of invalids: the very <lb/>ſight of whoſe muſkets, would <lb/>awe, and ſecure, more than
+          bars, <lb/>bolts or chains. The infirmary <lb/>of the tranſport-priſon ſhould al- <lb/>ſo
+          be under the care of the <hi rend="italic">City <lb/>Phyſician</hi>, and <hi rend="italic"
+            >Surgeons</hi>, and have a <lb/>diſtinct apothecary reſident or <lb/>living in the
+          neighbourhood <lb/>to attend it. As it frequent- <lb/>ly, nay after every ſeſſion hap-
+          <lb/>pens, that perſons ſentenced <lb/>for tranſportation are ſet at li- <lb/>berty, by
+          his Majeſty's moſt gra- <lb/>cious pardon, on account of ſome <lb/>favourable
+          circumſtances appear- <lb/>ing in their behalf, and the ſmall <lb/>amount, or value of the
+          theft <pb n="19"/>
+          <lb/>committed; what miſchief, to <lb/>ſociety, muſt enſue, when ſuch a <lb/>felon,
+          infected with the jail-di- <lb/>ſtemper, is let looſe from the <lb/>midſt of infection,
+          and ſpreads <lb/>the contagion. No one circum- <lb/>ſtance is more dangerous, except
+          <lb/>the aggravated one of the dread- <lb/>ful conſequences, which may fol- <lb/>low the
+          conveying the infected <lb/>priſoners in the day-time, from <lb/>the different jails to
+            <hi rend="italic">Newgate</hi>, and <lb/>from that priſon, dragging the <lb/>miſerable
+          objects to the lighters <lb/>for exportation, the ſight and <lb/>ſtench whereof are
+          ſhocking to <lb/>human nature. </p>
+        <p rend="indent space">
+          <lb/>The care and management of <pb n="20"/>
+          <lb/>the priſoners in regard to their <lb/>health, require as much atten- <lb/>tion, as
+          the building, or conve- <lb/>nience of the priſon; while the <lb/><hi rend="italic"
+            >effluvia</hi> of the jail diſtemper are <lb/>continually riſing from a croud <lb/>of
+          miſerable wretches, the ac- <lb/>tive poiſon will not ſpare any <lb/>being, or thing, but
+          will ſoon <lb/>fix itſelf into the very walls; the <lb/>duſt, and moiſture from the
+          <lb/>ſteams and infected air, will ga- <lb/>ther in time, and ſerving all the <lb/>while
+          as a neſt for inſects of va- <lb/>rious ſorts to fix, live, breed in, <lb/>die, and rot;
+          they continually <lb/>increaſe, ſucceed each other, <lb/>and add ſtill more to the putrid
+          <lb/>air of the place. Hence it muſt <pb n="21"/>
+          <lb/>occur, that every lodgment of dirt, <lb/>and filth, muſt be cleared away, <lb/>as the
+          diligent and active alder- <lb/>man <hi rend="sc">Janssen</hi> cauſed to be done <lb/>in
+          his ſhrievalty; and alſo the <lb/>priſoners, even though cleaned <lb/>before their removal
+          from other <lb/>jails to <hi rend="italic">Newgate</hi>, ſhould again, <lb/>before their
+          trials, be combed, <lb/>ſhaved, waſhed, and have their <lb/>nails cut; a few of them at a
+          <lb/>time ſhould be daily aired in <lb/>the priſon yard, they ſhould not <lb/>be crouded
+          in their apartments, <lb/>and whatever their allowance <lb/>may be according to their
+          ſeve- <lb/>ral ſituations, both their food, <lb/>and their drink, ſhould be ſo <lb/>mixed,
+          and diſtributed, that a <pb n="22"/>
+          <lb/>proper quantity of bread, rice, <lb/>vegetables and acids, ſhould be <lb/>given them,
+          but not meat only <lb/>and ſpirituous liquors undiluted, <lb/>which would ſoon deſtroy
+          their <lb/>health under confinement. It <lb/>has been obſerved, that no <lb/>ſooner are
+          the convicts under <lb/>tranſportation, on the river, <lb/>although crouded on board
+          <lb/>the lighters, than they grow <lb/>better, and daily recover their <lb/>health, which
+          after the tranſ- <lb/>port-ſhip is clear from the chan- <lb/>nel, and they are allowed the
+          <lb/>liberty to come upon deck, is <lb/>firmly eſtabliſhed ſo ſoon as the <lb/>ſea
+          ſickneſs is over; but that <lb/>when the lighter falls down im- <lb/>mediately on their
+          being put on <pb n="23"/>
+          <lb/>board, and that the ſhip ſails <lb/>away, the ſea ſickneſs affects <lb/>them ſo much,
+          that many die <lb/>before the ſhip leaves the land, <lb/>and others remain ill a long
+          <lb/>while. Probably the joy of <lb/>being out of priſon, and, though <lb/>under hatches,
+          yet breathing a <lb/>ſomewhat purer air, the freſh, <lb/>and cool night breezes from the
+          <lb/>ſhore, the hope to ſome of being <lb/>yet releaſed from their ſentence, <lb/>may give
+          that degree of ſtrength, <lb/>which enables them to bear <lb/>the ſhocks of the ſea
+          ſickneſs, <lb/>which if they ſurvive, and are <lb/>not thereby too much weaken- <lb/>ed,
+          muſt neceſſarily by ſo tho- <lb/>rough an evacuation, both clear <pb n="24"/>
+          <lb/>their bodies, and amend their <lb/>conſtitution. Since therefore it <lb/>is plain
+          that the convicts for <lb/>tranſportation grow better in the <lb/>lighters, may it not be
+          expedi- <lb/>ent to ſentence, and ſend off every <lb/>night ſuch felons, as have been
+          <lb/>tried in the day, and put them <lb/>on board the lighter at <hi rend="italic">Black-
+            <lb/>friars</hi>, which could take in alſo <lb/>the other priſoners ſentenced at
+          <lb/>the different quarter ſeſſions, <lb/>without crouding <hi rend="italic">Newgate</hi>
+          with <lb/>them; and when all were on <lb/>board ſhould fall down the river <lb/>to the
+          tranſport-ſhip, or tranſ- <lb/>port-priſon, when one may be <lb/>erected, and properly
+          fitted up. </p>
+        <pb n="25"/>
+        <p rend="indent">
+          <lb/>But as the erecting of a tranſ- <lb/>port-priſon, may, for obvious <lb/>reaſons, be
+          the work of time, <lb/>would it not prove a good tem- <lb/>porary expedient, to purchaſe a
+          <lb/>large ſhip of war, which, when <lb/>properly fitted up, might ſerve <lb/>as a
+          tranſport-priſon, with con- <lb/>veniencies both for the healthy, <lb/>and ſick; and which
+          ſhip ſhould <lb/>be anchored or moored in ſome <lb/>part of the river, the moſt
+          <lb/>convenient to ſecure the pri- <lb/>ſoners; low enough from the <lb/>capital, and ſo
+          diſtant from <lb/>ſhore, as to prevent any com- <lb/>munication of infection. </p>
+        <p rend="indent space">
+          <lb/>Having conſidered the root <lb/>of the evil from whence the jail- <pb n="26"/>
+          <lb/>diſtemper is produced and <lb/>ſpread; and endeavoured to <lb/>direct, and point out,
+          the means <lb/>of preventing the fatal effects of <lb/>the contagion, both as to the
+          <lb/>priſons, and priſoners; the next <lb/>conſideration, is to prevent courts <lb/>of
+          juſtice from being infected, <lb/>and perſons of all denominations <lb/>who attend, from
+          receiving the <lb/>peſtilential contagion. </p>
+      </div>
+      <pb n="27"/>
+      <div>
+        <head rend="align-center space">
+          <lb/>2. Of <hi rend="sc">Courts of Justice</hi>, and <lb/>Attendants on <hi rend="sc"
+            >Courts of <lb/>Justice</hi>. </head>
+        <p rend="space">
+          <lb/><hi rend="dc(1.5)">I</hi>T is paſt all doubt, that every <lb/>crouded place when
+          cloſe, al- <lb/>though clean, and pure before <lb/>the meeting, becomes offenſive <lb/>by
+          the number of perſons preſſing <lb/>on each other, their ſeveral mix- <lb/>ed breaths, and
+          the want of air. <lb/>The fatal and melancholy events <lb/>during the black aſſizes at <hi
+            rend="italic">Oxford</hi>, <lb/>the ſeſſions at the <hi rend="italic">Old Bailey</hi>,
+          and <lb/>in the Black Hole at <hi rend="italic">Calcutta</hi>, are <lb/>ſufficient proofs
+          of the deſtruction <lb/>cauſed by cloſe confinement, and <lb/>infection. The walls of a
+          court <pb n="28"/>
+          <lb/>of juſtice are not ſo liable to re- <lb/>tain the putrid effluvia of conta-
+          <lb/>gious air, as thoſe of a priſon, <lb/>which is conſtantly inhabited and <lb/>filled.
+          Provided therefore, that <lb/>the court room be frequently <lb/>ſwept, duſted, and waſhed,
+          and <lb/>the coverings of the ſeats, whe- <lb/>ther of cloth or matting, be <lb/>often
+          cleaned and renewed, the <lb/>air contained in that court will <lb/>be found pure and
+          untainted. <lb/>But ſhould the requiſite cleaning <lb/>be omitted, and the dirt be ſuf-
+          <lb/>fered to gather to ſuch a degree <lb/>as Mr. Sheriff <hi rend="sc">Janssen</hi> found
+          in <lb/>the Seſſions Houſe, the ſame ca- <lb/>lamity may enſue, by the repeat- <lb/>ed
+          collection of infection, and <pb n="29"/>
+          <lb/>inſects, which the ſucceeding <lb/>ſeſſions, diſtempered priſoners, <lb/>and length
+          of time to increaſe <lb/>the quantity of inſects, may pro- <lb/>duce. To preſerve a court
+          room <lb/>ſweet, and temperate, and whole<choice>
+            <corr>-</corr>
+            <sic>_</sic>
+          </choice>
+          <lb/>ſome; it ſhould be built in ſo ſpa- <lb/>cious a manner as to admit a ſuf-
+          <lb/>ficient number of auditors with- <lb/>out obſtructing their eaſe, or <lb/>hindering
+          the ſound of every <lb/>voice, whether of the judge, the <lb/>jury, priſoner or witneſſes,
+          from <lb/>being diſtinctly heard, in all <lb/>parts of the room. By means <lb/>of
+          ventilators, judiciouſly placed <lb/>above, by air-holes made with <lb/>flap-doors at the
+          bottom near <lb/>the ground, and by tubes placed <pb n="30"/>
+          <lb/>to admit freſh air, and let the <lb/>foul out, a court-room may be <lb/>kept ſweet
+          and temperate. But <lb/>from open windows, ventilators, <lb/>or tubes, the reſpectable
+          bench <lb/>may be annoyed, and the cold <lb/>air ruſhing in, may ſtrike <lb/>one or other
+          of them with <lb/>acute or chronic diſeaſes. Some <lb/>ſort of contrivance then muſt be
+          <lb/>made to ſhelter thoſe vene- <lb/>rable Magiſtrates and Judges, <lb/>from the miſchief
+          they are <lb/>expoſed to. Were a back <lb/>cove, like that made to a ſeat <lb/>in a
+          ſummer-houſe, brought <lb/>over their heads, ſo as to cover <lb/>them from the air,
+          without <lb/>coming too forward, the air <pb n="31"/>
+          <lb/>from above could not then be <lb/>at all felt: it is indeed object- <lb/>ed, that
+          ſuch a cove would ob- <lb/>ſtruct the light; expert work- <lb/>men, on examining the
+          court- <lb/>room, could eaſily, either by <lb/>means of a ſky-light, or ſome <lb/>other
+          contrivance, remove this <lb/>objection; and were the room <lb/>kept temperate,
+          candle-light <lb/>might be had only a little ſoon- <lb/>er. To guard the ſeat of juſtice
+          <lb/>from the approaches of infec- <lb/>tion, it will certainly be moſt <lb/>prudent to
+          fumigate, and ſteam <lb/>the place, by means of large <lb/>braziers, pans, or coppers, put
+          <lb/>in the day before the ſeſſions <lb/>are to commence; and during <lb/>that day to burn
+          in them char- <pb n="32"/>
+          <lb/>coal, with <hi rend="italic">tobacco ſtalks</hi>, and <lb/>dried aromatic herbs in
+          winter, <lb/>as <hi rend="italic">mint</hi>, <hi rend="italic">roſemary</hi>, <hi
+            rend="italic">ſouthern-wood</hi>, <lb/>&amp;c. bruiſed <hi rend="italic">juniper
+            berries</hi> may <lb/>alſo be burnt; and on a hot iron <lb/>ſhovel may be put wet gun-
+          <lb/>powder, and frankincenſe; but <lb/>particularly the ſteams of boiling <lb/>hot
+          vinegar ſhould be conveyed <lb/>to all parts of the building<choice>
+            <corr>.</corr>
+            <sic>,</sic>
+          </choice>
+          <lb/>The next morning, about an <lb/>hour or two before the court <lb/>met, the braziers
+          ſhould be filled <lb/>with <hi rend="italic">Coke Cinders</hi>, as uſed by <lb/>maltſters,
+          inſtead of charcoal, and <lb/>after they ſhall have burned a <lb/>while, the ventilator
+          ſhould let <lb/>in freſh air, and the floor ſhould <lb/>be ſprinkled with cold vinegar of
+            <pb n="33"/>
+          <lb/>the ſharpeſt ſort. At the time <lb/>of opening the court, the air- <lb/>holes, made
+          cloſe to the ground, <lb/>about a foot ſquare, ſhould be ſet <lb/>open, and the wooden
+          flaps <lb/>hooked up. </p>
+        <p rend="indent space">
+          <lb/>Theſe cautions with regard to <lb/>the building will avail little, if a <lb/>due
+          regard be not alſo had to <lb/>the manner of communicating <lb/>the infection. The
+          priſoners <lb/>therefore, who are brought from <lb/>the infected jail, or even the
+          <lb/>crouded healthy jail, ſhould, af- <lb/>ter the thorough cleanſing, as <lb/>above
+          mentioned, be brought <lb/>into the Bail Dock but a few at a <lb/>time, and ſome method
+          ſhould <pb n="34"/>
+          <lb/>be reſolved upon, to have but a <lb/>ſmall number arraigned at once; <lb/>and at ſuch
+          a convenient diſtance <lb/>from the bench and court, as to <lb/>be well heard, and ſeen by
+          the <lb/>jury, without annoying either <lb/>by their ſtench. A proper dreſs <lb/>might be
+          alſo contrived with <lb/>which the moſt wretched ſhould <lb/>be ſo covered, as not to
+          prove <lb/>offenſive. As for inſtance, were <lb/>a long looſe cloak, like a carter's
+          <lb/>frock, made of thick cloſe <hi rend="italic">Ruſſia</hi>
+          <lb/>or other linnen on the outſide, <lb/>and lined with ſome ſort of oil <lb/>cloth, or
+          glazed linnen, to be <lb/>faſtened cloſe to the neck and <lb/>wriſts, and along the body,
+          with <lb/>hooks and eyes, covered over <pb n="35"/>
+          <lb/>with a broad flap of the ſame <lb/>linnen; and this cloak or frock <lb/>made to reach
+          down to their <lb/>feet, ſo as to cover them cloſely, <lb/>and entirely: but no woollen,
+          or <lb/>hairy ſubſtance can be made uſe <lb/>of, being well known to contract, <lb/>and
+          preſerve infection. When <lb/>the priſoners have no further oc- <lb/>caſion for theſe
+          coverings, they <lb/>may be waſhed, fumigated with <lb/>brimſtone, and afterwards wet
+          <lb/>with vinegar. While the court <lb/>is ſitting, great relief, and re- <lb/>freſhment
+          might be procured, <lb/>by burning tar in the yard, now <lb/>and then, which would exhale
+          <lb/>ſuch an agreeable ſmell, as, car- <lb/>ried by the draught of air into <pb n="36"/>
+          <lb/>court, would refreſh all preſent. <lb/>A very eminent and diſtinguiſh- <lb/>ed
+          gentleman of the law, made <lb/>the following moſt judicious, and <lb/>ſagacious
+          obſervation: One even- <lb/>ing late, at a jail-delivery, when <lb/>a number of miſerable
+          objects <lb/>were to be diſcharged, they were <lb/>uſhered in, by the ſervants of <lb/>the
+          jail, who lighted them with <lb/>links. Two of theſe men pla- <lb/>ced themſelves, with
+          their burn- <lb/>ing links, on each ſide of the <lb/>bench, which gave this gentleman
+          <lb/>much uneaſineſs; but, to his <lb/>great comfort and ſurprize, he <lb/>ſoon found,
+          that the heat of the <lb/>links diſpelled the hot offenſive <lb/>air, and filled the whole
+          court <pb n="37"/>
+          <lb/>with the moſt reviving ſcent <lb/>imaginable. This incident may <lb/>ſerve to ſhew of
+          what uſe it will <lb/>neceſſarily be on the breaking up <lb/>of every day's ſeſſion, to
+          intro- <lb/>duce perſons with burning links, <lb/>which will contribute much to
+          <lb/>purify the air: and when the <lb/>court is adjourned, the diſagree- <lb/>able ſmell
+          of the pitch will not <lb/>be in the leaſt offenſive to thoſe <lb/>who are burning it; and
+          thus <lb/>pitch will be beſt adapted at <lb/>night, and tar moſt ſuitable and
+          <lb/>pleaſing in the day-time. </p>
+        <p rend="indent space">
+          <lb/>The many attendants on <hi rend="italic">Courts <lb/>of Juſtice</hi>, who require our
+          ut- <lb/>moſt care and earneſtneſs for <pb n="38"/>
+          <lb/>their preſervation, are either, <lb/>the ſeveral magiſtrates on the <lb/>bench, or
+          the different officers <lb/>of juſtice; the jury; proſecu- <lb/>tors; witneſſes; and
+          audience. <lb/>The former are under the irk- <lb/>ſome neceſſity of being confined <lb/>to
+          their duty in court ſeveral <lb/>hours, while the others of the <lb/>three laſt mentioned
+          claſſes may <lb/>retire, when their buſineſs is <lb/>over, if they chooſe it. The
+          <lb/>moſt exalted place is the moſt <lb/>expoſed to the danger of the <hi rend="italic"
+            >efflu- <lb/>via</hi>, therefore the bench is the <lb/>ſooneſt ſenſible of the morbid
+          im- <lb/>preſſion, being in the front, and <lb/>the galleries are next affected. <lb/>To
+          preſerve ſuch valuable lives, <pb n="39"/>
+          <lb/>it may not be improper, and it is <lb/>to be hoped not indifferent, to <lb/>ſuggeſt
+          what caution ſhould be <lb/>obſerved by them, and what ſteps
+          <lb/><unclear>ſ</unclear>hould be taken, firſt to avoid <lb/><unclear>t</unclear>he
+          infection, or ſhould they <lb/>fear it, to ſecure themſelves in
+          <lb/><unclear>t</unclear>ime from its invaſion and con- <lb/><unclear>ſ</unclear>equences. </p>
+        <p rend="indent space">
+          <lb/>Whoever is obliged, or chooſes <lb/><unclear>t</unclear>o attend the trials of
+          criminals, <lb/><unclear>e</unclear>ſpecially in crouded courts,
+          <lb/><unclear>ſ</unclear>hould begin by firſt reſolving <lb/><unclear>m</unclear>oſt
+          courageouſly, not to be af- <lb/><unclear>f</unclear>ected with the leaſt dread of
+            <lb/><unclear>w</unclear>hatever he may ſmell or feel; <lb/><unclear>b</unclear>y the
+          direction of his phyſician, <lb/><unclear>h</unclear>e ſhould prudently empty his <pb
+            n="40"/>
+          <lb/>ſtomach and bowels a few days <lb/>before, to carry off any putrid <lb/>or putreſcent
+          ſubſtance which <lb/>may have lodged in them; and <lb/>this is done very eaſily by a ſuit-
+          <lb/>able mild purge. The diet which <lb/>ſuch perſons ſhould obſerve, is <lb/>the mere
+          abſtaining from all <lb/>groſs, heavy, ſpicy, and viſcid <lb/>food; by eating well-dreſſed
+          <lb/>light meats, and drinking, in mo- <lb/>deration, of true cordial wines, <lb/>as
+          claret, port, and old hock<unclear>;</unclear>
+          <lb/>brandy or rum punch acidulate<unclear>d</unclear>
+          <lb/>with oranges, lemons, limes, o<unclear>r</unclear>
+          <lb/>tamarinds, ſo as to exhilarate<unclear>,</unclear>
+          <lb/>promote a gentle perſpiration, <lb/>and prevent dejection of th<unclear>e</unclear>
+          <pb n="41"/>
+          <lb/>mind, or laſſitude of the body. <lb/>By ſuch means it is likely no one <lb/>need fear
+          infection, or ſhrink <lb/>from his duty; but ſhould, on <lb/>the contrary, any one,
+          unfortu- <lb/>nately either be infected by the <lb/>jail-diſtemper, or even appre-
+          <lb/>hend, without cauſe, that he <lb/>has contracted that diſeaſe, by <lb/>his attendance
+          at a <hi rend="italic">Court of Ju- <lb/>ſtice</hi>, let him without delay apply <lb/>to
+          his phyſician, and tell him <lb/>where he has been, and what <lb/>are his ſenſations, and
+          fears. <lb/>The ſkilful phyſician will ſoon <lb/>diſcover whether the complaints <lb/>are
+          well grounded or not; whe- <lb/><unclear>t</unclear>her there is a real infection, or
+            <lb/><unclear>b</unclear>arely the apprehenſions of it. <pb n="42"/>
+          <lb/>He will put his patient into ſuch <lb/>a courſe of medicines as will ſe- <lb/>cure
+          him from all miſchief; and, <lb/>inſtead of hurrying him into <lb/>danger, as many have
+          been, <lb/>when the infectious jail-diſtem- <lb/>per has been treated like an in-
+          <lb/>flammatory fever, the expe- <lb/>rienced phyſician will carry his <lb/>patient
+          through the contagiou<unclear>s </unclear>
+          <lb/>illneſs with ſafety and ſucceſs; <lb/>and will be happy in ſeeing him <lb/>much
+          ſooner reſtored to his for- <lb/>mer health and vigour. </p>
+        <p rend="indent space">
+          <lb/>But ſhould any perſon be un- <lb/>awares ſuddenly ſurprized, and <lb/>frightened with
+          any alarming, <lb/>or diſagreeable ſenſation, the <pb n="43"/>
+          <lb/>following recital will ſerve to di- <lb/>rect him in what is to be done, <lb/>and
+          will quiet his mind. An <lb/>eminent perſon in the law being <lb/>on the bench, felt at
+          once a <lb/>ſhock which affected him from <lb/>the top of his head, down to his <lb/>very
+          feet, like a ſtroke of elec- <lb/>tricity, which was followed by a <lb/>ſickneſs at his
+          ſtomach, and a <lb/>moſt uncommon ſtench in his <lb/>noſe. Unwilling to be fanciful,
+          <lb/>he kept his anxious feelings a <lb/>while to himſelf, hoping that if no <lb/>one had
+          felt the like, it would on- <lb/>ly prove imaginary; in a few mi- <lb/>nutes another
+          venerable lawyer <lb/>on the bench aſked the former, <pb n="44"/>
+          <lb/>whether he had not felt an un- <lb/>common ſenſation; which con- <lb/>vincing the
+          firſt of the reality of <lb/>the infection, he inſtantly anſwer- <lb/>ed in the
+          affirmative, and pre- <lb/>vailed on his colleague to drink <lb/>a glaſs of brandy, by
+          which they <lb/>probably expelled the deleteri- <lb/>ous air from their ſtomachs. </p>
+        <p rend="indent space">
+          <lb/>It is to be hoped, that no perſon <lb/>will venture into a court of juſ- <lb/>tice,
+          any more than a priſon, <lb/>without breaking their faſt. <lb/>The infection will ſoon
+          affect a <lb/>perſon with an empty ſtomach: <lb/>whatever be the uſual food, will
+          <lb/>beſt anſwer the intention, with- <lb/>out burning the ſtomach with ſpi- <pb n="45"/>
+          <lb/>rits or ſpices. To keep out the <lb/>foul air while in court, candied <lb/>orange or
+          lemon peel, preſerved <lb/>ginger, and garlic if not diſ- <lb/>agreeable, cardamom, carra-
+          <lb/>way, or other comfits, may be <lb/>very uſeful; and ſhould the <lb/>mouth be clammed,
+          dry raiſins, <lb/><unclear>c</unclear>urrants, or lemon drops, will
+            <lb/><unclear>c</unclear>ool, and quench thirſt, which, <lb/><unclear>ſ</unclear>hould
+          it increaſe, may be aſ- <lb/>ſuaged by ſmall draughts of old <lb/><unclear>h</unclear>ock
+          and water, or ſmall punch. <lb/><unclear>S</unclear>melling to good wine vinegar
+            <lb/><unclear>d</unclear>uring the trials, will not only
+          <lb/><unclear>r</unclear>efreſh, but revive, more agree- <lb/><unclear>a</unclear>bly and
+          coolly, than the uſe of <lb/><unclear>ſ</unclear>pirituous waters diſtilled from <pb
+            n="46"/>
+          <lb/>lavender or roſemary, and more <lb/>than any other ſcents. </p>
+        <p rend="indent space">
+          <lb/>Theſe are the directions which <lb/>the late alarming appearances of <lb/>the
+          jail-diſtemper ſuggeſted; <lb/>they are haſtily thrown together <lb/>for the ſervice of
+          the communi- <lb/>ty in general, and great pleaſure <lb/>with the keeneſt ſatisfaction,
+            wi<unclear>ll</unclear>
+          <lb/>be felt, ſhould any individual <lb/>think himſelf benefited by them. </p>
+      </div>
+      <space dim="vertical" unit="lines" quantity="3"> </space>
+      <trailer rend="align-center">
+        <lb/>FINIS. </trailer>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> LMEMT Corpus - Heberden: Antitheriaka</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>William Heberden</persName>
+            </author>
+            <title type="main">Antitheriaka. An essay on mithridatium and theriaca. By W. Heberden,
+              M.D.</title>
+            <edition n="1"/>
+            <idno type="ESTC">T22200</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/T22200"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>MDCCXLV</persName>
+              </publisher>
+              <date>1745</date>
+            </imprint>
+            <extent>
+              <measure type="format">8⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="1"/>
+              <measure type="count" commodity="body" unit="page" quantity="19"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">British Library</orgName>
+            <idno type="ECCO">CW107078319</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Book on a specific topic: medicine"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text type="book" rend="roman" xml:lang="eng">
+    <gap reason="sampling" unit="pages" quantity="1"/>
+    <body>
+      <pb n="1"/>
+      <head rend="align-center space">
+        <lb/>AN <lb/><hi rend="size(2.0)">ESSAY </hi>
+        <lb/>ON <lb/><hi rend="size(1.5)"><hi rend="italic">MITHRIDATIUM</hi>, &amp;c. </hi>
+      </head>
+      <space dim="vertical" unit="lines" quantity="2"> </space>
+      <p>
+        <lb/><hi rend="dc(2)">M</hi>ITHRIDATES, the famous King of <lb/><hi rend="italic"
+          >Pontus</hi>, had a ſtrange affectation of ſuperior <lb/>ſkill in the powers of Simples.
+        His Courtiers, <lb/>we may imagine, flattered him upon it, and he <lb/>has accordingly been
+        delivered down to us as a <lb/>ſecond <hi rend="italic">Solomon</hi>. Whereas if we conſider
+        the little <lb/>leiſure, that he had for his own enquiries into <lb/>this part of nature; or
+        the little helps, that he <lb/>could have from the people about him; we muſt <lb/>conclude
+        that his knowledge was very inconſi- <lb/>derable. However, <hi rend="italic">Pompey</hi>
+        ſeems to have been <lb/>poſſeſſed with the vulgar opinion, and, after he <lb/>had conquered
+        this King, took uncommon care to <lb/>ſecure his writings, in hopes of ſome mighty
+        <lb/>treaſures of natural knowledge. He was ſoon con- <lb/>vinced of what he might eaſily
+        have foreſeen, <lb/>and is repreſented as laughing at the diſappoint- <lb/>ment of his own
+        credulity, when, inſtead of thoſe <pb n="2"/>
+        <lb/>great arcana, he only found one or two trifling <lb/>receipts. <note place="bottom"
+          n="a" rend="size(0.75)">
+          <p rend="indent">
+            <lb/><hi rend="sup">a</hi> Q. Serenus Samonicus de Venen. prohib. </p>
+        </note>
+      </p>
+      <p rend="indent">
+        <lb/>There were probably ſome artful people at <lb/>this time, who were not diſpoſed to part
+        ſo eaſily <lb/>with the great expectations that had been raiſed, <lb/>nor to loſe this fair
+        opportunity of enriching them- <lb/>ſelves by a plauſible impoſture: which has ſince,
+        <lb/>been ſeveral times repeated and is frequently <lb/>practiced amongſt us at this day.
+        For ſoon after, <lb/>there was publiſhed in <hi rend="italic">Rome</hi> a moſt pompous
+        <lb/>medicine with the name of <hi rend="italic">Antidotum Mithrida- <lb/>tium</hi>, which
+        was pretended to have been found <lb/>among his papers: though <hi rend="italic"
+          >Plutarch</hi>
+        <note place="bottom" n="b" rend="size(0.75)">
+          <p rend="indent">
+            <lb/><hi rend="sup">b</hi> In Vit. Pomp. </p>
+        </note> who <lb/>gives a minute detail of them (mentioning the <lb/>Love-letters and ſeveral
+        interpretations of Dreams) <lb/>ſays not one word of this famous medicine; <lb/>which one
+        can hardly think that he would have <lb/>omitted, if he had found the tradition ſupported
+        <lb/>by any proper teſtimonies. The authority of <lb/><hi rend="italic">Q. Serenus
+          Samonieus</hi> is more poſitive, who ſays <lb/>that, notwithſtanding the many receipts of
+          <hi rend="italic">Mi- <lb/>thridatium</hi> that were handed about, the true me-
+        <lb/>dicine found in the cabinet of <hi rend="italic">Mithridates</hi>, was <lb/>only that
+        trivial one conſiſting of twenty leaves <lb/>of rue, one grain of ſalt, two nuts, and two
+        dried <lb/>ſigs. <note place="bottom" n="c" rend="size(0.75)">
+          <p rend="indent">
+            <lb/><hi rend="sup">c</hi> De Venen. Prohib. </p>
+        </note> So that there is ſome reaſon to ſuſpect <pb n="3"/>
+        <lb/>that <hi rend="italic">Mithridates</hi> was as much a ſtranger to his <lb/>own
+        antidote, as ſeveral eminent Phyſicians have <lb/>ſince been to the medicines that are daily
+        adver- <lb/>tiſed under their names. </p>
+      <p rend="indent">
+        <lb/>The Publiſhers were not content with father- <lb/>ing this compoſition upon ſo great a
+        name, but <lb/>were likewiſe very extravagant in their com- <lb/>mendations of it's virtues:
+        The principal of which <lb/>was made to conſiſt in it's being a moſt powerful
+        <lb/>preſervative from all kinds of venom. Whoever <lb/>took a proper quantity in a morning,
+        was inſured <lb/>from being poiſoned during that whole day. <note place="bottom" n="a"
+          rend="size(0.75)">
+          <p rend="indent">
+            <lb/><choice>
+              <corr><hi rend="sup">a</hi>
+              </corr>
+              <sic> </sic>
+            </choice>Galen de Antid. L. 1. </p>
+        </note>
+        <lb/>This was confirmed by the example <note place="bottom" n="b" rend="size(0.75)">
+          <p rend="indent">
+            <lb/><hi rend="sup">b</hi> Celſus. L. 5. c. 23. </p>
+        </note> of it's ſup- <lb/>poſed Inventor; who was farther ſaid, by uſing <lb/>it in this
+        manner, to have been at laſt ſo forti- <lb/>fied againſt all baneful Simples, that none
+        would <lb/>have any effect, when he wanted their aſſiſtance <lb/>to diſpatch himſelf. <note
+          place="bottom" n="c" rend="size(0.75)">
+          <p rend="indent">
+            <lb/><hi rend="sup">c</hi> Celſus et Appian. </p>
+        </note>
+      </p>
+      <p rend="indent">
+        <lb/>By theſe arts it gained ſo great a reputation, <lb/>that ſome of the Roman Emperors
+        prepared it <lb/>for themſelves with their own hands; ſeveral <lb/>Phyſicians among the
+        Antients employed their <lb/>ſtudies upon it in order to render it more perfect; <lb/>and it
+        has been the ſubject of many volumes, as <lb/>well as the occaſion of many unaccountable
+        <lb/>medicines made in emulation of it, among the <pb n="4"/>
+        <lb/>Moderns. In particular, <hi rend="italic">Andromachus</hi>, who was <lb/>phyſician to
+          <hi rend="italic">Nero</hi>, made conſiderable alterations <lb/>in it; among other things
+        leaving out the Scink, <lb/>adding Vipers, and increaſing the proportion of <lb/>Opium. He
+        likewiſe changed the name of the <lb/><hi rend="italic">Mithridatium</hi> thus reformed to
+        Γαλήνη, but in <lb/><hi rend="italic">Trajan</hi>'s time it obtained that of <hi
+          rend="italic">Theriaca</hi>, either <lb/>from the Vipers in it, or from it's good effects
+        <lb/>in curing the bites of venomous beaſts; <note place="bottom" n="a" rend="size(0.75)">
+          <p rend="indent">
+            <lb/><hi rend="sup">a</hi> Galen L. 1. de Antid. et de Theriac. ad Piſon. </p>
+        </note> and by <lb/>this name it is known and uſed at this day. But, <lb/>notwithſtanding
+        this happy improvement by <lb/><hi rend="italic">Andromachus</hi>, the original <hi
+          rend="italic">Mithridatium</hi> has all <lb/>along been continued as well as this
+        reformation <lb/>of it, and is ſtill prepared by our Apothecaries <lb/>according to a
+        receipt of <hi rend="italic">Damocrates</hi> in Greek <lb/>Iambics, which has been preſerved
+        by <hi rend="italic">Galen</hi>. </p>
+      <p rend="indent">
+        <lb/>Now whether <hi rend="italic">Mithridates</hi> was or was not the <lb/>author of this
+        celebrated compoſition, it was <lb/>manifeſtly founded in error, ſince it was chiefly
+        <lb/>intended as a counterpoiſon: for nothing can be <lb/>more falſe than the notions which
+        have generally <lb/>prevailed about the force and number of Poiſons, <lb/>and conſequently
+        of Antidotes. </p>
+      <p rend="indent">
+        <lb/>In the ruder ages of the world, before experi- <lb/>ence had furniſhed mankind with any
+        conſiderable <lb/>knowledge of nature, they ſeem to have been under <lb/>perpetual alarms
+        from an apprehenſion of poiſons: <lb/>They had probably ſeen the ill effect of ſome <pb
+          n="5"/>
+        <lb/>few ſubſtances on the human body, and, like peo- <lb/>ple in the dark, immediately made
+        their dangers <lb/>more and greater than they were; hence came <lb/>that great number of
+        Antidotes, which we meet <lb/>with in the writings of the old Phyſicians, <lb/>whoſe chief
+        uſe was againſt poiſons. <note place="bottom" n="a" rend="size(0.75)">
+          <p rend="indent">
+            <lb/><hi rend="sup">a</hi> Celſus L. 5. c. 23. </p>
+        </note> What ig- <lb/>norance or an immoderate fondneſs for life had <lb/>thus begun, was
+        carried to a much greater height <lb/>by that ſtrong paſſion which the Vulgar have ever
+        <lb/>ſhewn for prodigies and miraculous ſtories. This <lb/>was a ſufficient warrant for
+        Poets and other dealers <lb/>in ſiction to make a plentiful uſe of poiſons upon <lb/>all
+        occaſions; by which the original error has <lb/>been much confirmed and improved. Not to
+        <lb/>mention any thing of the ſuſpicions which have <lb/>attended Mothers-in-law, immediate
+        Succeſſors <lb/>and other perſons intereſted in the deaths of ſuch <lb/>as were taken off
+        with any unuſual ſymptoms. <lb/>Politicians ſeem likewiſe to have given authority <lb/>to
+        theſe groundleſs ſuppoſitions, by laying the <lb/>the deaths of many, whom they diſpatched,
+        upon <lb/>poiſons which the parties themſelves, as was given <lb/>out, always carried about
+        with them and had <lb/>ſecretly taken; by this contrivance the matter <lb/>was huſhed up and
+        all the odium of the murder <lb/>avoided. The death of <hi rend="italic">Demoſthenes</hi>
+        was, I think, <lb/>of this ſort; who was probably killed by ſome <lb/>truſty Aſſaſſin that
+          <hi rend="italic">Antipater</hi>'s party ſent into <pb n="6"/>
+        <lb/>the temple to him, but it was too unpopular an <lb/>action among the Athenians to be
+        openly avowed. <lb/>This, though not hitherto ſuſpected that I know <lb/>of, appears not
+        unlikely from the variety of ac- <lb/>counts about his poiſoning himſelf, and becauſe
+        <lb/>there was no poiſon then known that could effect <lb/>it according to any of theſe
+        accounts. The ſame <lb/>perhaps may be ſaid of <hi rend="italic">Hannibal</hi> and of
+        ſeveral <lb/>others. By all theſe means the number and fame <lb/>of reputed poiſons has been
+        perpetually increaſing; <lb/>and Antidotes have increaſed in proportion; for <lb/>if a
+        perſon did not dye who had taken an inef- <lb/>fectual poiſon, it was of courſe attributed
+        to the <lb/>virtue of ſome inſignificant Antidote. After all <lb/>theſe rumours of poiſons
+        and tragical relations of <lb/>their effects in all hiſtories, it is ſurprizing to find
+        <lb/>that the Antients knew of none except the Cicuta, <lb/>Aconitum, and thoſe of venomous
+        beaſts; <note place="bottom" n="a" rend="size(0.75)">
+          <p rend="indent">
+            <lb/><hi rend="sup">a</hi> Hoffman. Syſt. Med. Rat. T. 11. p. 183. </p>
+        </note> and <lb/>knew of no antidote whatever to theſe poiſons. <lb/>The many intrigues
+        mentioned in antient hiſtory <lb/>to have been carried on by means of others and <lb/>far
+        more ſubtil ones, eſpecially in the Perſian <lb/>court, will at once come into my learned
+        Reader's <lb/>mind in prejudice of my aſſertion. To obviate <lb/>which I only deſire him to
+        conſider that all the <lb/>old Naturaliſts and Phyſicians, though ſome of <lb/>them
+        profeſſedly treat of poiſons, appear to have <lb/>known no real ones but thoſe
+        abovementioned: <pb n="7"/>
+        <lb/>their catalogue is indeed much larger by having <lb/>in it, Quickſilver, Orpiment,
+        Bull's Blood, Dia- <lb/>monds with many other innocent things: And <lb/>is it poſſible that
+        Women and Eunuchs ſhut up <lb/>in an eaſtern palace ſhould have a greater inſight <lb/>into
+        the powers of nature, than thoſe Philoſophers <lb/>who ſpent their whole lives and travelled
+        the <lb/>known world over in queſt of natural knowledge? <lb/>Indeed the common ſtories have
+        all the marks of <lb/>forgery and falſhood; in particular, it is pleaſant <lb/>to obſerve
+        how theſe fantoms have fled before the <lb/>approach of light and learning. The firſt
+        account <lb/>of ſubtil poiſons that might be concealed under <lb/>the ſtone of a ſeal or
+        ring began in <hi rend="italic">Greece</hi>; and <lb/><hi rend="italic">Theophraſtus</hi>
+        mentions a ſort of them that might <lb/>be proportioned ſo as to exert their effects after
+        <lb/>any given time. <note place="bottom" n="a" rend="size(0.75)">
+          <p rend="indent">
+            <lb/><hi rend="sup">a</hi> Hiſt. Plant. L. 9. c. 16. </p>
+        </note> When this ſtory could no longer <lb/>maintain its ground in <hi rend="italic"
+          >Europe</hi>, it took ſanctuary <lb/>in <hi rend="italic">Africa</hi>, for in <hi
+          rend="italic">A. Gellius</hi>'s time <note place="bottom" n="b" rend="size(0.75)">
+          <p rend="indent">
+            <lb/><hi rend="sup">b</hi> A. Gell. L. 6. c. 4. </p>
+        </note> ſuch an one <lb/>was reported to have been given there to <hi rend="italic"
+          >Regulus</hi>, <lb/>before they permitted his going to <hi rend="italic">Rome</hi>, that,
+        <lb/>whatever happened, they might be ſure of de- <lb/>ſtroying him. From <hi rend="italic"
+          >Africa</hi> it fled into <hi rend="italic">Aſia</hi>
+        <lb/>among the <hi rend="italic">Turks</hi>, who, as <hi rend="italic">Matthiolus</hi>
+        <note place="bottom" n="c" rend="size(0.75)">
+          <p rend="indent">
+            <lb/><hi rend="sup">c</hi> In Dioſcor. p. 972. </p>
+        </note> ſuſpected, <lb/>were in poſſeſſion of theſe fatal ſecrets. It has <lb/>been driven
+        from the Turks into the remoteſt <pb n="8"/>
+        <lb/>Eaft-Indies, <note place="bottom" n="d" rend="size(0.75)">
+          <p rend="indent">
+            <lb/><hi rend="sup">d</hi> Purchas, Pilgr. L. 10. c. 8. </p>
+        </note> and upon our coming nearer theſe <lb/>countries by an eſtabliſhed commerce, this
+        ignis <lb/>fatuus retreated into the Weſt-Indies, the firſt <lb/>accounts <note
+          place="bottom" n="e" rend="size(0.75)">
+          <p rend="indent">
+            <lb/><hi rend="sup">e</hi> G. Piſo Hiſt. Nat. Braſil. L. 3. </p>
+        </note> of which give us the old ſtory with <lb/>all the pretended airs of truth and
+        novelty, as if it <lb/>had not been long before exploded out of every <lb/>other part of the
+        World. I would not be under- <lb/>ſtood to deny the poſſibility of poiſoning by ſuch
+        <lb/>very ſmall quantities, by the vapors ariſing from <lb/>perfumed gloves and letters, or
+        that a poiſon may <lb/>lye concealed in the blood for a conſiderable time <lb/>before it
+        exerts itſelf. It is plain that there are <lb/>ſuch things in nature, from the terrible
+        effects of <lb/>that very little liquor inſtilled by the bite of a <lb/>viper; from the
+        vapors of charcoal; and the poiſon <lb/>of a mad-dog lurking, as ſome ſay, for twenty
+        <lb/>years: however the gout and leproſy and madneſs <lb/>will certainly lye in the blood
+        unactive for a <lb/>whole generation. But I think I may venture to <lb/>aſſert, there never
+        was any thing yet diſcovered <lb/>that we can apply with ſuch effects. Now if this <lb/>is a
+        true account of the ſtate of poiſons among <lb/>the Antients, what are we to think of their
+        <lb/>Antidotes? Would it not be as ſtrange to make <lb/>uſe of them, as of the charms and
+        amulets which <lb/>are delivered down to us as preſervatives from <pb n="9"/>
+        <lb/>witchcraft, an evil eye, or the power of any <lb/>malicious Demons? </p>
+      <p rend="indent">
+        <lb/>What has here been ſaid may be objected to <lb/>every ſingle alexipharmac drug: but
+        much more <lb/>may be ſaid againſt them when united together <lb/>as in the <hi
+          rend="italic">Mithridatium</hi>; which has by many <lb/>been called a piece of mere jumble
+        and chance- <lb/>work without any footſteps of order, proportion <lb/>or deſign, without any
+        regard to the known <lb/>virtues of Simples or to any rules of artful com- <lb/>poſition. I
+        forbear to mention the unreaſonable <lb/>number of ingredients, their contradictory effects
+        <lb/>even according to the Antients themſelves, the <lb/>inconſiderable portion of many of
+        them in the <lb/>quantity of a doſe, with ſeveral other particulars <lb/>of the ſame kind
+        that have been ſo often objected <lb/>to it. The moſt zealous patron that ever defended
+        <lb/>it will hardly aſſert that it's Inventor had ſuch an <lb/>inſight into the powers of
+        the Materia medica, as <lb/>to ſee any reaſon a priori for the number and pro- <lb/>portions
+        that he has uſed: Experience alone can <lb/>be called in to vouch for it's character, and no
+        <lb/>better voucher can be deſired; but experience is <lb/>clearly againſt it; this once
+        all-powerful medicine <lb/>that reſiſted every poiſon and malignant diſeaſe, <lb/>that
+        procured long life, quickneſs of ſenſes, ſta- <lb/>bility of health, that not only cured
+        preſent but <lb/>prevented future diſeaſes, (all which and much <pb n="10"/>
+        <lb/>more is affirmed of the reformed Mithridate or <lb/><hi rend="italic">Theriaca</hi> by
+          <hi rend="italic">Galen</hi>
+        <note place="bottom" n="a" rend="size(0.75)">
+          <cb n="1" type="footnote"/>
+          <p rend="indent">
+            <lb/><hi rend="sup">a</hi> In Libb. citatis. </p>
+        </note>) is at preſent ſcarce ever <lb/>made uſe of for any of theſe purpoſes; but deſti-
+        <lb/>tute of all it's celebrated virtues is forced to take <lb/>refuge in that of a
+        Diaphoretic, which is com- <lb/>monly the virtue of a medicine that has none. <lb/>And there
+        cannot ſurely be a ſtronger proof of <lb/>any medicine's inſignificancy, than it's loſing
+        <lb/>ground ſo remarkably after a tryal of near two <lb/>thouſand years with a conſtant
+        prepoſſeſſion in <lb/>it's favour. We have no particular accounts of <lb/>any ſervice that
+        it ever did; but we are told that <lb/>the conſtant uſe of it hurt that excellent Emperor
+          <lb/><hi rend="italic">Antoninus</hi> by throwing him into a lethargic diſ- <lb/>order:
+          <note place="bottom" n="b" rend="size(0.75)">
+          <cb n="2" type="footnote"/>
+          <p rend="indent">
+            <lb/><hi rend="sup">b</hi> ibid. </p>
+        </note> and it did <hi rend="italic">Mithridates</hi> no good, ſup- <lb/>poſing that he ever
+        knew and uſed it; for his not <lb/>being able to diſpatch himſelf was probably leſs
+        <lb/>owing to the ſtrength of his antidote than to the <lb/>weakneſs of his poiſon. In
+        particular it's antidote <lb/>virtue is utterly loſt; we know of many more <lb/>poiſons than
+        the Antients, yet there is not one <lb/>which the Mithridate will at all counteract any
+        <lb/>farther than plain Opium will do it: Whoever <lb/>was to depend upon it would
+        infallibly meet with <lb/>the fate of that unfortunate Quack mentioned <lb/>by <hi
+          rend="italic">Wepfer</hi>
+        <note place="bottom" n="c" rend="size(0.75)">
+          <cb n="1 2" type="footnote"/>
+          <p rend="indent">
+            <lb/><hi rend="sup">c</hi> De Cicuta Aquatica p. 322. </p>
+        </note> who offered to ſale a medicine made <pb n="11"/>
+        <lb/>upon the plan of the old Antidotes, that was to <lb/>ſecure people from all poiſons: he
+        was raſh <lb/>enough to make the experiment upon himſelf <lb/>by taking Arſenic, and ſoon
+        died, notwithſtand- <lb/>ing his Antidote, in a miſerable manner. But if <lb/>we are forced
+        to give up the original alexipharmac <lb/>virtue, there is a ſtrong preſumption againſt it's
+        <lb/>being good for any thing elſe; for if medicines <lb/>ſo elaborately contrived will not
+        anſwer their firſt <lb/>purpoſe, it is a great chance if they can be applied <lb/>to any
+        other for which they were not intended, <lb/>without having great defects and ſuperfluities
+        in <lb/>this new application. </p>
+      <p rend="indent">
+        <lb/>But let us even ſuppoſe that undeſigning chance <lb/>did hit upon a mixture, for which
+        experience <lb/>has found out uſes in as full a manner as the <lb/>Antients ever pretended;
+        yet what foundation <lb/>will this be to us for expecting the like advantages? <lb/>What if
+        Fortune has for once out of a medley <lb/>of inconſiſtent drugs produced an uſeful medicine,
+        <lb/>can we therefore hope that any other fortuitous <lb/>concourſe of them will have the
+        ſame effect? <lb/>But this we muſt hope, if we have any confidence <lb/>in what is at
+        preſent called <hi rend="italic">Mithridatium</hi> or <lb/><hi rend="italic">Theriaca</hi>.
+        For I believe that it has ſcarce ever <lb/>continued the ſame for a hundred years together.
+          <lb/><hi rend="italic">Celſus</hi> is the firſt that deſcribes this medicine, and <lb/>in
+        him it conſiſts of thirty eight Simples. Before <pb n="12"/>
+        <lb/><hi rend="italic">Nero</hi>'s time, five of theſe were ſtruck out, and <lb/>twenty
+        others added. Soon after, <hi rend="italic">Andromachus</hi>
+        <lb/>leaving out ſix and adding twenty-eight ingredi- <lb/>ents, increaſed the ſum total to
+        ſeventy-five, <lb/><hi rend="italic">Aëtius</hi> in the V<hi rend="sup">th</hi> Century and
+          <hi rend="italic">Myrepſus</hi> in the <lb/>XII<hi rend="sup">th</hi> give us very
+        different deſcriptions of <hi rend="italic">Mithri- <lb/>datium</hi>: and ſince that time it
+        has been in a ſtate <lb/>of perpetual fluctuation; the alterations, that it <lb/>has
+        undergone by accident, being as great as thoſe <lb/>that have been deſignedly made in it.
+        For of the <lb/>Simples that antiently compoſed it, ſeveral are <lb/>utterly unknown, <note
+          place="bottom" n="a" rend="size(0.75)">
+          <p rend="indent">
+            <lb/><hi rend="sup">a</hi> See Manard. Epiſt. Lib. 6. ep. 3. et Jo. Bapt. Theodos.
+            <lb/>Epiſt. 11. </p>
+        </note> others only gueſsed at with <lb/>great uncertainty, and ſome very erroneouſly, as
+        <lb/>eaſily be ſhewn, and were ſo even in <lb/><hi rend="italic">Pliny</hi>'s <note
+          place="bottom" n="b" rend="size(0.75)">
+          <p rend="indent">
+            <lb/><hi rend="sup">b</hi> Nat. Hiſt. L. 29. c. 1. </p>
+        </note> time. From the different ſubſtitutes <lb/>for the unknown parts, and the various
+        gueſſes <lb/>at the uncertain parts, with the difficulty of get- <lb/>ting many of the
+        ingredients, being never uſed <lb/>but in this compoſition, it happens that not only
+        <lb/>all the Moderns differ from the Antients, but <lb/>almoſt all our ſhops differ from one
+        another in <lb/>their manner of preparing it. Many are the diſ- <lb/>putes, which have been
+        occaſioned among Phy- <lb/>ſicians, about it's true drugs. There was one <lb/>carried ſo
+        high, about a hundred years ago, con- <pb n="13"/>
+        <lb/>cerning Balſam of Gilead, that at laſt the Diſputants <lb/>appealed to the Pope; but
+        the Pope, not chuſing <lb/>to aſſert his infallibility in matters of Phyſic, <lb/>wiſely
+        referred the cauſe to <hi rend="italic">Petrus Caſtellus</hi>, a <lb/>learned Phyſician of
+          <hi rend="italic">Rome</hi>, who has publiſhed an <lb/>account of this notable
+        controverſy. Now in caſes <lb/>where we can reaſon upon the effects of a <lb/>medicine, many
+        alterations may be made and <lb/>yet the virtues continue the ſame; but as here <lb/>we muſt
+        wholly depend upon experience, how <lb/>can any one be ſure that theſe alterations <lb/>have
+        not utterly ſpoiled it, ſince no one knows <lb/>where it's virtues lye? and <note
+          place="bottom" n="c" rend="size(0.75)">
+          <p rend="indent">
+            <lb/><hi rend="sup">c</hi> De Theriaca. ad Piſon. c. 12. If it be <hi rend="italic"
+              >Galen</hi>'s. </p>
+        </note>Galen has told us that <lb/>the badneſs of any one ingredient will often ſpoil
+        <lb/>the whole compoſition. Beſides, which of all the <lb/>antient deſcriptions are we to
+        take? for the <lb/>ſeveral receipts <note place="bottom" n="d" rend="size(0.75)">
+          <p rend="indent">
+            <lb/><hi rend="sup">d</hi> Galen in Libb. citat. </p>
+        </note> under the names of the elder <lb/>and younger <hi rend="italic">Andromachus</hi>,
+          <hi rend="italic">Damocrates</hi>, <hi rend="italic">Crito</hi>, <lb/><hi rend="italic"
+          >Magnus</hi>, <hi rend="italic">Xenocrates</hi> and <hi rend="italic">Demetrius</hi> all
+        vary from <lb/>one another. This objection will farther be <lb/>ſtrengthened by conſidering
+        that even in <hi rend="italic">Galen</hi>'s <lb/>time there were great faults in the copies
+        that <lb/>were handed about, <note place="bottom" n="a" rend="size(0.75)">
+          <p rend="indent">
+            <lb/><hi rend="sup">a</hi> Galen Lib. 1. de Antidot. </p>
+        </note> and if many new ones <lb/>have not been ſince added, they muſt have had <lb/>better
+        fortune than any other kind of writing; <pb n="14"/>
+        <lb/>but the firſt elements of criticiſm will teach us <lb/>that they are of all the moſt
+        corrupt, as they con- <lb/>ſiſt of arbitrary marks for quantities and uncon- <lb/>nected
+        names of Simples, where the context is <lb/>of no ſervice to direct the copyiſts: and that
+        this <lb/>has happened in fact to theſe medicines appears <lb/>from the various readings
+        belonging to their de- <lb/>ſcriptions in <hi rend="italic">Celſus</hi>, <hi rend="italic"
+          >Galen</hi>, <hi rend="italic">Aëtius</hi> and <hi rend="italic">Myrepſus</hi>; <lb/>and
+        likewiſe from all theſe authors differing from <lb/>one another in their directions how they
+        are to <lb/>be prepared. </p>
+      <p rend="indent">
+        <lb/>If our objections ſtopped here, and theſe grand <lb/>antidotes were only good for
+        nothing; it would <lb/>hardly be worth while to cenſure or take any <lb/>notice of them: but
+        we may juſtly fear that their <lb/>uſe is attended with a good deal of danger. As <lb/>many
+        people buſy themſelves with the practice of <lb/>Phyſic, who are unqualified to know what
+        they <lb/>are doing; it may be adviſable, for the ſake of <lb/>ſuch as fall into their
+        hands, to diſcountenance <lb/>a medicine, which, upon the tradition of it's <lb/>ſovereign
+        virtues, or as a ſudorific, is often applied <lb/>at random, and, by means of the Opium,
+        does <lb/>much miſchief. But it's uſe may be of ill conſe- <lb/>quence not only in the hands
+        of the vulgar, but <lb/>even of a ſkillful Phyſician; for Opium or any <lb/>powerful drug,
+        mixed up into an electuary with <lb/>any other things, is againſt all rules of phar- <pb
+          n="15"/>
+        <lb/>macy; the preſcriber lies too much at the mercy <lb/>of the perſon who mixes the
+        ingredients, whether <lb/>what he gives for an ordinary doſe ſhall not con- <lb/>tain a
+        dangerous or fatal quantity of opium: and <lb/>indeed it is hardly to be expected, in ſuch a
+        <lb/>multiplicity of ingredients, that the uſual doſe <lb/>will contain a juſt proportion of
+        all of them, and <lb/>of courſe the Phyſician will be greatly in the dark, <lb/>whenever he
+        preſcribes it. There are not wanting <lb/>inſtances of ſuch ill effects from the <hi
+          rend="italic">Mithridatium</hi>
+        <lb/>and <hi rend="italic">Theriaca</hi>, as muſt have been owing to the <lb/>patient's
+        having more than his ſhare of Opium. <lb/>It is very probable that this was long ago experi-
+        <lb/>enced, which gave occaſion to the commendations <lb/>beſtowed upon <hi rend="italic"
+          >Old Theriaca</hi>; for <hi rend="italic">Galen</hi> tells us <note place="bottom" n="a"
+          rend="size(0.75)">
+          <p rend="indent">
+            <lb/><hi rend="sup">a</hi> L. 1. de Antid. </p>
+        </note>
+        <lb/>that the uſe of keeping it for ſome time is to <lb/>mitigate the ſtrength of the Opium:
+        (which, <lb/>however, keeping will not do to any purpoſe <note place="bottom" n="b"
+          rend="size(0.75)">
+          <p rend="indent">
+            <lb/><hi rend="sup">b</hi> Edinb. Eſſays. Vol. 5. art. 12. </p>
+        </note>) <lb/>another reaſon has been ſince found out, namely, <lb/>that age reſolves the
+        ſeveral parts into one uni- <lb/>form maſs: upon theſe two accounts the practice <lb/>of
+        preferring ſuch as has been laid up till it is <lb/>thirty or forty years old, prevails to
+        this day. <note place="bottom" n="c" rend="size(0.75)">
+          <p rend="indent">
+            <lb/><hi rend="sup">c</hi> Vid. Aq. Theriacal. Pharm. Lond. </p>
+        </note>
+        <lb/>This ſurely lies extremely open to cenſure; for <lb/>would it not have been better to
+        have put leſs <pb n="16"/>
+        <lb/>Opium in it at firſt? Did it enter there, only that <lb/>it might go out again?
+        Beſides, together with the <lb/>ſtrength of the Opium, the virtues of the Aro- <lb/>matics
+        will exhale and leave the maſs, if not quite <lb/>ſpiritleſs and unactive, at leaſt much
+        altered from <lb/>what it was at firſt. </p>
+      <p rend="indent">
+        <lb/>Laſtly, this <hi rend="italic">farrago</hi> is very apt to ferment; <lb/>which
+        fermentation, while it laſts, is ſaid to <lb/>exalt <note place="bottom" n="d"
+          rend="size(0.75)">
+          <p rend="indent">
+            <lb/><hi rend="sup">d</hi> Juncker. Chem. Tab. 72. </p>
+        </note> the power of the Opium to a degree of <lb/>ſtrength three or four times as great as
+        it had <lb/>before; and a common doſe may by theſe means <lb/>be ſo much ſtronger than was
+        intended; which <lb/>is a danger not commonly thought of nor eaſily <lb/>avoided, and cannot
+        be balanced by any real vir- <lb/>tues belonging to theſe medicines. </p>
+      <p rend="indent">
+        <lb/>Why then ſhould we retain them any longer <lb/>in our ſhops? Can we not do every thing,
+        that <lb/>they can reaſonably pretend to, in a much art- <lb/>fuller, ſafer and more ſimple
+        manner? I think <lb/>that they are now chiefly given as Opiates and <lb/><hi rend="italic"
+          >Aromatics</hi>; which intentions would ſurely be <lb/>much better anſwered by mixing two
+        or three <lb/>of our many ſpices, in which we ſo far excell <lb/>the Antients, with as much
+        Opium added to <lb/>every doſe as was thought proper; without load- <lb/>ing a ſick man's
+        ſtomach with ſo many other uſe- <lb/>leſs things, that muſt accompany them, when <pb n="17"/>
+        <lb/>given in the <hi rend="italic">Mithridatium</hi> or <hi rend="italic">Theriaca</hi>. I
+        own it <lb/>is hard to ſay, that theſe are their chief virtues, <lb/>or what their chief
+        virtues are; for there are as <lb/>many friendly and hoſtile qualities blended to-
+        <lb/>gether, as in that well-known caſe, where the <lb/>Poet forbids us <hi rend="italic"
+          >incerta hæc ratione certa facere</hi>. </p>
+      <p rend="indent">
+        <lb/>I might now proceed to ſupport my objections <lb/>by authorities, which perhaps would
+        be the pro- <lb/>pereſt method of attacking what is ſupported only <lb/>by authority. For I
+        muſt do that juſtice to Phy- <lb/>ſicians as to own that there have not been want- <lb/>ing
+        ſeveral in all ages who have born witneſs againſt <lb/>this complicated error, and that it's
+        triumph has <lb/>been conſtantly attended with many juſt cenſures <lb/>and reproaches.
+        However I ſhall content myſelf <lb/>with quoting only the opinion of <hi rend="italic"
+          >Pliny</hi> who is almoſt <lb/>as old as the <hi rend="italic">Theriaca</hi>, and that of
+        a Writer of our <lb/>own times; ſince if what has been ſaid is of any <lb/>weight, it will
+        make it an unneceſſary taſk to col- <lb/>lect all that has been diſputed for and againſt it
+        <lb/>by the intervening Writers. The latter of theſe <lb/>Authors <note place="bottom" n="a"
+          rend="size(0.75)">
+          <p rend="indent">
+            <lb/><hi rend="sup">a</hi> Theriaca, Mithridatium, Philonium et alia confuſa <lb/>magis,
+            quam compoſita remedia, plus ſane damni, quam <lb/>auxilii adferunt. Hinc ad juſta Dei
+            judicia referendum vide- <lb/>tur, quod falſæ de his remediis traditiones univerſo ſere
+            terra- <lb/>rum orbi impoſuerint. Junck. Med. Pract. 587. </p>
+        </note> aſſerts that <hi rend="italic">Mithridatium</hi> and ſuch <lb/>other medicines have
+        done more miſchief in <pb n="18"/>
+        <lb/>the world than good: The former declaims with <lb/>great vehemence againſt the
+        injudiciouſneſs, the <lb/>oſtentation and wantonneſs of this heap of Drugs. <note
+          place="bottom" n="a" rend="size(0.75)">
+          <p rend="indent">
+            <lb/><hi rend="sup">a</hi> Theriaca vocatur excogitata compoſitio luxuriæ; fit ex
+            <lb/>rebus externis, cum tot remedia dederit Natura, quæ ſingula <lb/>ſufficerent.
+            Mithridatium Antidotum ex rebus <hi rend="sc">liv</hi> com- <lb/>ponitur, interim nullo
+            pondere æquali, et quarundam rerum <lb/>ſexageſima denarii unius imperata. Quo Deorum
+            perfidiam <lb/>iſtam [al. per fidem iſta] monſtrante? Hominum enim <lb/>ſubtilitas tanta
+            eſſe non potuit. Oſtentatio artis et porten- <lb/>toſa ſcientiæ venditatio manifeſta
+            eſt. Plin. N. H. L. 29. c. 1. </p>
+        </note>
+        <lb/>Both of them ſeem, oddly enough, to agree in <lb/>referring the invention of it to the
+        juſt judgment <lb/>of heaven; as if the deluſion was too ſtrong <lb/>and unaccountable to
+        proceed from mere human <lb/>artifice and contrivance. But notwithſtanding <lb/>what theſe
+        and others have ſaid againſt it, it <lb/>ſtill goes on to be prepared in the old manner,
+        <lb/>as near as may be, in all the great cities of <lb/>Europe. It's power indeed and fame
+        has of late <lb/>been manifeſtly declining; and we may hope <lb/>that it's reign will not
+        laſt much longer. Enough <lb/>ſurely has been given to Antiquity: let not <lb/>length of
+        time, which has ever been the fatal <lb/>enemy of falſhood and impoſture, be made in
+        <lb/>this inſtance to ſupport and protect them. Perhaps <lb/>the glory of it's firſt
+        expulſion from a public <lb/>Diſpenſatory was reſerved to theſe times and <pb n="19"/>
+        <lb/>to the Engliſh Nation; in which all parts of <lb/>Philoſophy have been ſo much aſſiſted
+        in aſſerting <lb/>their freedom from antient fable and ſuperſtition; <lb/>and whoſe College
+        of Phyſicians, in particular, <lb/>hath deſervedly had the firſt reputation in their
+        <lb/>profeſſion. Among the many eminent ſervices, <lb/>which the authority of this learned
+        and judicious <lb/>Body hath done to the practice of Phyſic, it might <lb/>not be the leaſt
+        that it had driven out this medley <lb/>of diſcordant Simples; which, perhaps, has no
+        <lb/>better title to the name of <hi rend="italic">Mithridates</hi>, than as <lb/>it ſo well
+        reſembles the numerous, undiſciplined <lb/>forces of a barbarous King, made up of a diſ-
+        <lb/>ſonant crowd collected from different countries, <lb/>mighty in appearance, but in
+        reality, an ineffec- <lb/>tive multitude, that only hinder one another. </p>
+      <space dim="vertical" unit="lines" quantity="7"> </space>
+      <trailer rend="align-center">
+        <lb/>THE END. </trailer>
+    </body>
+  </text>
+</TEI>

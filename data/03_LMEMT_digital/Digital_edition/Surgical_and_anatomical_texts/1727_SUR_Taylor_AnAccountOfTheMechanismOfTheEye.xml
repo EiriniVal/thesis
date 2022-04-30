@@ -1,0 +1,1383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> LMEMT Corpus - Taylor: An account of the mechanism of the eye</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>John Taylor</persName>
+            </author>
+            <title type="main">An Account OF THE MECHANISM OF THE EYE. Wherein its Power of
+              Refracting the Rays of LIGHT, and Causing them to Coverge at the RETINA, is
+              Consider'd: With an Endeavour to ascertain the true Place of a CATARACT, and to shew
+              the good or ill Consequences of a Judicious or Injudicious REMOVAL of it.</title>
+            <edition n="1"/>
+            <idno type="ESTC">T96756</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/T96756"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>Norwich</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>Norwich: printed by Henry Cross-Grove, and sold by the booksellers of
+                  London and Norwich, 1727.</persName>
+              </publisher>
+              <date>1727</date>
+            </imprint>
+            <extent>
+              <measure type="format">8⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="25"/>
+              <measure type="count" commodity="body" unit="page" quantity="74"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">British Library</orgName>
+            <idno type="ECCO">CW3306558733</idno>
+            <idno type="TCP">K077907.000</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Surgical or anatominal work"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text xml:lang="eng">
+    <front>
+      <div>
+        <pb xml:id="page_2" n="iii"/>
+        <head rend="align-center  size(1.5)"><lb/>TO <lb/>Mr. <hi rend="sc">William Cheselden</hi>,
+          <lb/>Surgeon to St. <hi rend="italic">Thomas</hi>'s Hoſpital, <lb/>AND <lb/><hi rend="sc"
+            >Fellow</hi> of the <hi rend="sc">Royal Society</hi>. </head>
+        <lb/>
+        <salute>SIR, </salute>
+        <p rend="space"><lb/>
+          <figure>
+            <figDesc>Decorative frame around the letter "I".</figDesc>
+          </figure>
+          <hi rend="dc(2)">I</hi> Have heard, that <lb/>the Watch-Word <lb/>in the Time of <lb/>War,
+          is <w part="I">frequent-</w><lb/><w part="F">ly</w> the Name of One of the <lb/>Generals;
+          and that he who <pb xml:id="page_3" n="iv"/><lb/>makes uſe of it, (upon <w part="I"
+            >be-</w><lb/><w part="F">ing</w> Demanded, <hi rend="italic">Who Goes <lb/>there?</hi>)
+          is allow'd, without <lb/>further Queſtions, to paſs on about his Buſineſs. </p>
+        <p rend="indent"><lb/>This engag'd me to ask <lb/>the Liberty of Prefixing <lb/>your Name to
+          this Trifle; <lb/>which however unworthy it <lb/>may be of the Honour, will <lb/>yet
+          derive a double <w part="I">Advan-</w><lb/><w part="F">tage</w> from it; firſt to Itſelf,
+          <lb/>then to it's Author: It will <lb/>Itſelf, by this Means, paſs <w part="I"
+            >un-</w><lb/><w part="F">queſtion'd</w> into the World; <lb/>and it's Author will have
+          an <lb/>Opportunity of paying due <lb/>Acknowledgments, for the <pb xml:id="page_4" n="v"
+          /><lb/>Benefits he has receiv'd from <lb/>your Induſtry and <w part="I">Ingenu-</w><lb/><w
+            part="F">ity</w>. The Succeſs which has <lb/>ſo frequently attended the <lb/>Uſe of your
+          Needle in this <lb/>Delicate Operation, <w part="I">ſuffici-</w><lb/><w part="F">ently</w>
+          ſhews the Niceneſs of <lb/>your Hand; and the little <lb/>Damage you have ever done,
+          <lb/>where Unavoidable <w part="I">Acci-</w><lb/><w part="F">dents</w> have conſpir'd to
+            <w part="I">ren-</w><lb/><w part="F">der</w> the Operation <w part="I"
+            >unſucceſ-</w><lb/><w part="F">ful</w>, is a great Evidence of <lb/>the Accuracy of your
+            <w part="I">Judg-</w><lb/><w part="F">ment</w>. </p>
+        <p rend="indent"><lb/>The Knowledge I have of <lb/>this Branch of my <w part="I"
+            >Profeſſi-</w><lb/><w part="F">on</w>, ſuch as it is, I am wholy <pb xml:id="page_5"
+            n="vi"/><lb/>indebted to You for; and <lb/>the Succeſs I have had on a <lb/>Great Number
+          of Subjects <lb/>within theſe two Years, will <lb/>I hope prove that I have <w part="I"
+            >fol-</w><lb/><w part="F">low'd</w> no ill Director. </p>
+        <p rend="indent"><lb/>If I have in any Degree <lb/>made it probable, that the <lb/>Opacity
+          of the Cryſtalline <lb/>Humor is the True <w part="I">CATA-</w><lb/><w part="F">RACT</w>,
+          I muſt here own <lb/>that I had the Firſt Hint of <lb/>it from You: And if I have
+          <lb/>done no Injuſtice to your <lb/>Opinion by unworthily <w part="I">de-</w><lb/><w
+            part="F">fending</w> it, I hope ſhortly to <lb/>ſee ſome One of my <w part="I"
+            >Bre-</w><lb/><w part="F">thren</w>, more able than My-<pb xml:id="page_6" n="vii"
+          /><lb/>ſelf, take this Method of <w part="I">gi-</w><lb/><w part="F">ving</w> You publick
+          Thanks <lb/>for the Diſcovery. </p>
+        <signed rend="indent hanging"><lb/>I am, <lb/>Worthy SIR, <lb/>Your moſt Obliged <lb/>and
+          moſt Obedient <lb/>Humble Servant, <lb/><hi rend="sc">John Taylor</hi>. </signed>
+      </div>
+      <div>
+        <pb xml:id="page_7" n="ix"/>
+        <head rend="align-center"><lb/>THE <lb/><hi rend="dc(3)">PREFACE.</hi>
+        </head>
+        <p rend="space"><lb/>
+          <figure>
+            <figDesc>Decorative frame around the letter "I".</figDesc>
+          </figure>
+          <hi rend="dc(2)">I</hi> Think it Neceſſary for <lb/>my own Vindication to <lb/>ſay
+          Something by Way <lb/>of Preface, and I expect <lb/>to be pardon'd for it <lb/>by all
+          Honeſt Impartial Men; for <lb/>'tis to ſuch only I appeal, having <lb/>already ſuffer'd as
+          much as I could <lb/>ſuffer, from Men of a Character quite <lb/>contrary. </p>
+        <p rend="indent"><lb/>I am ſorry I have it to ſay, That <lb/>the worſt Uſage I have met
+          with, has <pb xml:id="page_8" n="10"/><lb/>been from the Gentlemen of my own
+          <lb/>Profeſſion; and that this Trifle of <lb/>mine whilſt an <hi rend="italic"
+            >Embryo,</hi> has been <w part="I">ſuf-</w><lb/><w part="F">ficiently</w> ridicul'd by
+          them: 'Tis, <lb/>perhaps, ſtill ſhapeleſs and unform'd; <lb/>but if there are found in it
+          the <w part="I">Fea-</w><lb/><w part="F">tures</w> of a Man, 'twill at leaſt demand
+          <lb/>ſome Regard from all thoſe who <lb/>would deſerve the Character of Men. <lb/>I have
+          been driven to ſuch a <hi rend="italic">Dilem-<lb/>ma</hi> by their Unnatural Treatment,
+          <lb/>that for ſome Time I have <w part="I">ſuſpen-</w><lb/><w part="F">ded</w> the
+          Publication, and was once <lb/>reſolv'd intirely to ſuppreſs it. This <lb/>following has
+          been their Way of <w part="I">Ar-</w><lb/><w part="F">guing</w>, <hi rend="italic">If 'tis
+            his Own, 'twill not bear <lb/>the Light; if 'twill bear the Light, <lb/>'tis not his
+            Own;</hi> either Side of this <lb/>would be equally prejudicial to me: <lb/>But I ſhall
+          endeavour to prove, that <lb/>if I have not made a very ill Uſe of <pb xml:id="page_9"
+            n="11"/><lb/>my Time and Advantages, it may <lb/>bear the Light, and yet be my Own. </p>
+        <p rend="indent"><lb/>When I have done this in the beſt <lb/>Manner I am capable, I ſhall
+          deſire <lb/>this following Fair Challenge may be <lb/>annex'd to my Account of Myſelf:
+          <lb/>That if any of my <hi rend="italic">Unkind Brethren</hi>
+          <lb/>have any Thing to ſay, which They <lb/>think will prove me too ignorant for <lb/>my
+          Profeſſion, that they may do it <lb/>in the ſame publick Manner which I <lb/>have made Uſe
+          of to prove that I <lb/>am not ſo. </p>
+        <p rend="indent"><lb/>The Worthy Gentleman to whom <lb/>I have made an Offer of this Trifle
+          <lb/>in the <hi rend="italic">Dedication,</hi> will be my <w part="I">Wit-</w><lb/><w
+            part="F">neſs</w> of rhe Truth of the following <lb/>Particulars: That I attended the <w
+            part="I">Pra-</w><lb/><w part="F">ctice</w> of St. <hi rend="italic">Thomas</hi>'s
+          Hoſpital <w part="I">regu-</w><pb xml:id="page_10" n="12"/><lb/><w part="F">larly</w> and
+          diligently the Time I was <lb/>a PUPIL there, and that it was <w part="I">fur-</w><lb/><w
+            part="F">niſh'd</w> at that Time with a Sett of the <lb/>Beſt and moſt Rational
+          Practitioners <lb/>which have been ever known there. </p>
+        <p rend="indent"><lb/>I think according to the Account <lb/>of the Hoſpital, that there are
+          very <lb/>ſeldom leſs than 4 or 5000 Subjects <lb/>cured of their ſeveral Diſeaſes in a
+          <lb/>Year; and I believe it will very <w part="I">rea-</w><lb/><w part="F">dily</w> be
+          granted by all unprejudic'd <lb/>People, that where Accidents are ſo <lb/>various and
+          numerous, a young <w part="I">Sur-</w><lb/><w part="F">geon</w> may improve himſelf more
+          in <lb/>five or ſix Months, than he can with <lb/>the beſt private Maſter in the <w
+            part="I">King-</w><lb/><w part="F">dom</w> in as many Years: Here <w part="I"
+            >more-</w><lb/><w part="F">over</w> a Man has the Opportunity of <lb/>learning every
+          Branch of his <w part="I">Profeſ-</w><lb/><w part="F">ſion</w>; and he who does not <w
+            part="I">endea-</w><pb xml:id="page_11" n="13"/><lb/><w part="F">vour</w> to practiſe it
+          afterwards, as it <lb/>comes in his Way, ought (I think) <lb/>to be ſuſpected of great
+          Negligence <lb/>in his Obſervation, or Want of <w part="I">Abi-</w><lb/><w part="F"
+            >lity</w> to ſee into the Reaſon of the <w part="I">Pra-</w><lb/><w part="F">ctice</w>;
+          either of which will certainly <lb/>make him fearful of undertaking it, <lb/>becauſe the
+          Succeſs will always <w part="I">ap-</w><lb/><w part="F">pear</w> doubtful to him: But when
+          a <lb/>Man has by diligent Obſervation on <lb/>the Chirurgical Part, and a <w part="I"
+            >compe-</w><lb/><w part="F">tent</w> Knowledge of the Rational, <w part="I"
+            >qua-</w><lb/><w part="F">lify'd</w> himſelf to diſcharge the Duty <lb/>of his
+          Profeſſion with Ability and <lb/>Honeſty, I think his endeavouring <lb/>to do ſo, ſhould
+          not only not <w part="I">ren-</w><lb/><w part="F">der</w> him obnoxious to the <w part="I"
+            >Gentle-</w><lb/><w part="F">men</w> of his Profeſſion, but even make <lb/>him claim
+          ſome Share of their <w part="I">Re-</w><lb/><w part="F">gard</w>, and Protection too from
+          the <lb/>Inſults of the reſt of the World: <pb xml:id="page_12" n="14"/><lb/>But to come
+          nearer to the Point, and <lb/>the Occaſion of this <hi rend="italic">Preface.</hi>
+        </p>
+        <p rend="indent"><lb/>When I came to practiſe in this <lb/>City, full of Expectation of the
+            <w part="I">U-</w><lb/><w part="F">ſage</w> juſt now mention'd, I ſoon <lb/>found myſelf
+          miſerably deceiv'd; for <lb/>inſtead of That, I was immediately <lb/>ſurrounded with <hi
+            rend="italic">Calumny</hi> and <hi rend="italic">Detra<lb/>ction:</hi> And from what
+          Quarter? <lb/>Why even from thoſe Gentlemen by <lb/>whom I thought to be <hi rend="italic"
+            >Protected:</hi>
+          <lb/>There was immediately a <hi rend="italic">Party</hi>
+          <w part="I">rai-</w><lb/><w part="F">ſed</w> againſt me, who not contented <lb/>with
+          aſperſing my Abilities, fell foul <lb/>upon my Manners; and would fain h<lb/>ave
+          inſinuated, (if they could have <lb/>got any Man of Senſe to have <w part="I"
+            >be-</w><lb/><w part="F">liev'd</w> them) that if a Man wore <w part="I">to-</w><lb/><w
+            part="F">lerable</w> good Cloaths, and lik'd the <lb/>Company of a Friend, 'twas <w
+            part="I">impoſ-</w>x<pb xml:id="page_13" n="15"/><lb/><w part="F">vour</w> he could be a
+          good Surgeon: <lb/>Theſe are a Sett of worthy People, <lb/>who are themſelves </p>
+        <q rend="italic"><lb/><l>— Dully grave, inſipidly ſerene, </l>
+          <lb/><l>And carry all their Wiſdom in their Mien. </l></q>
+        <p rend="indent"><lb/>And in ſhort, they like Nobody, but <lb/>ſuch as are like themſelves:
+          So that <lb/>an Awkard <hi rend="italic">Saint-like</hi> Behaviour, a <lb/><hi
+            rend="italic">Solemn</hi> Gait, an <hi rend="italic">Hypocritial</hi>
+          <w part="I">Eleva-</w><lb/><w part="F">tion</w> of the Eye, and an <hi rend="italic"
+            >Affected <lb/>Religious</hi> Grimace, is ſufficient with <lb/>them to ſet a Man at the
+          Head of <lb/>his Profeſſion. If a Man is <w part="I">recom-</w><lb/><w part="F">mended</w>
+          to any of them, the Firſt <lb/>Queſtion is, <hi rend="italic">Is he One of Us?</hi> If
+          <lb/>they are anſwer'd in the Negative, <lb/>they immediately fly; and tho' they <lb/>know
+          Nothing of the Man, ſwear <lb/>he has no Faith, no Honour, no <w part="I">Ca-</w><pb
+            xml:id="page_14" n="16"/><lb/><w part="F">pacity</w>, no Money, nor any Thing <lb/>elſe
+          which can render a Man <w part="I">quali-</w><lb/><w part="F">fy'd</w> to be employ'd in
+          any Thing. </p>
+        <p rend="indent"><lb/>'Tis a great Hardſhip to fall into <lb/>the Hands of theſe Gentlemen,
+          and <lb/>yet to be quite void of all thoſe <w part="I">va-</w><lb/><w part="F">luable</w>
+          Talents which muſt <w part="I">recom-</w><lb/><w part="F">mend</w> one to their Favour.
+          For my <lb/>Part, if I am call'd to a Patient, I <lb/>expect my Buſineſs is with his <hi
+            rend="italic">Body,</hi>
+          <lb/>and not with his <hi rend="italic">Soul:</hi> I can <hi rend="italic">Set</hi> a
+          <lb/>Broken Leg, as well as my <w part="I">Neigh-</w><lb/><w part="F">bours</w>; but as to
+            <hi rend="italic">Caſes of Conſcience,</hi>
+          <lb/>I muſt leave them to be ſet right by <lb/>Gentlemen whoſe Profeſſion qualifies
+          <lb/>and authorizes them to do it. </p>
+        <p rend="indent"><lb/>But I am afraid, if we come to <w part="I">ex-</w><lb/><w part="F"
+            >amin</w> the Matter a little more <w part="I">cloſe-</w><lb/><w part="F">ly</w>, we
+          ſhall find that this is generally <pb xml:id="page_15" n="17"/><lb/>all Stratagem; and
+          that my <hi rend="italic">Worthy</hi>
+          <lb/>Brethren who make uſe of it, have <lb/>an odd Way of impoſing upon the <lb/>World,
+          and giving of it one Term for <lb/>another: Their pretended <hi rend="italic">Gravity</hi>
+          <lb/>ſhould be call'd <hi rend="italic">Natural Dulneſs,</hi> for <lb/>'tis ſo in Fact;
+          and where there is <lb/>Fire, it will ſhew itſelf: Their <w part="I">Pre-</w><lb/><w
+            part="F">tence</w> to <hi rend="italic">Religion,</hi> in Oppoſition to <lb/><hi
+            rend="italic">Human Reaſon,</hi> is not becauſe they <lb/>have <hi rend="italic"
+            >more</hi> of the Firſt than their <lb/>Neighbours, but <hi rend="italic">less</hi> of
+          the Latter: <lb/>Their <hi rend="italic">Canting</hi> Cuſtom of Asking a <lb/>peculiar
+          Bleſſing on every Thing <lb/>they undertake, is becauſe they know <lb/>their Skill will
+          ſtand very much in <lb/>Need of it: Their Diſaffection to <lb/>Human Learning is, becauſe
+          they <lb/>know Nothing more of it than the <lb/>Name; and ſo of every Thing elſe; <pb
+            xml:id="page_16" n="18"/><lb/>In ſhort, I am tir'd of them; but I'll <lb/>beg Leave to
+          ſay, they are very <w part="I">pret-</w><lb/><w part="F">ty</w> People to truſt Mens Lives
+          and <lb/>Limbs with. </p>
+        <p rend="indent"><lb/>I have often wonder'd, that when <lb/>the ACT was made for Examining
+          <lb/>all Surgeons (before they were <w part="I">ad-</w><lb/><w part="F">mitted</w> to
+          practiſe in and about <hi rend="italic">Lon-<lb/>don</hi>) at <hi rend="italic"
+            >Surgeons-Hall,</hi> the ſame <w part="I">Or-</w><lb/><w part="F">der</w> did not paſs
+          thro' every County, <lb/>that the Country might have had the <lb/>ſame Advantage of having
+          a Sett of <lb/>Able Men amongſt them as the Town <lb/>has: Many and great would have been
+          <lb/>the Benefits of it, to the Profeſſion <lb/>in General, to every Able Profeſſor
+          <lb/>of it in Particular, and to all thoſe <lb/>whoſe Misfortunes oblige them to <lb/>have
+          Recourſe to It or Them for <w part="I">Aſſi-</w><pb xml:id="page_17" n="19"/><lb/><w
+            part="F">ſtance</w>. Every Apprentice would be <lb/>oblig'd to be diligently attentive
+          in <lb/>his Buſineſs, in order to qualifie <w part="I">him-</w><lb/><w part="F">ſelf</w>
+          to paſs his Examination; and <lb/>this certainly in Time would be of <lb/>infinite
+          Advantage to the Profeſſion: <lb/>Every Able Profeſſor of it would <lb/>certainly be
+          known, by that very <lb/>Examination, to be ſo; and by this <lb/>Means would be plac'd in
+          his <w part="I">pro-</w><lb/><w part="F">per</w> Sphere, and fear no Danger from <lb/>the
+            <hi rend="italic">Canting Blockheads</hi> beneath him. <lb/>The Benefit of the Patient,
+          is too <w part="I">ob-</w><lb/><w part="F">vious</w> to be inſiſted upon; his Limbs
+          <lb/>very frequently, and often his Life <lb/>too would be preſerv'd by it. </p>
+        <p rend="indent"><lb/>But as a <hi rend="italic">Capacity</hi> is not Every Thing <lb/>which
+          is requir'd of a Surgeon, I wiſh <lb/>there was any Method as certain as <pb
+            xml:id="page_18" n="20"/><lb/>this, to try their <hi rend="italic">Honeſty:</hi> Some I
+          <lb/>have known who have wanted Both, <lb/>others who have had the Firſt and <lb/>wanted
+          the Latter; but in order to <lb/>make a Good Surgeon, 'tis abſolutely <lb/>neceſſary that
+          a Man ſhould want <lb/>Neither of them. I'll beg the Liberty <lb/>to relate a Story or Two
+          of a <w part="I">Gen-</w><lb/><w part="F">tleman</w> who has been remarkably <lb/>kind to
+          me, and I am very glad I <lb/>have this Opportunity of returning <lb/>his Civility, and
+          letting the World <lb/>know that he is a Man of <hi rend="italic">Real <w part="I"
+              >Me-</w><lb/><w part="F">rit</w>:</hi> This Friend of mine was ſent for <lb/>to a
+          Child that had diſlocated its <lb/>Knee, he carried with him Plaiſters, <lb/>Bandage, <hi
+            rend="italic">&amp;c.</hi> in order to reduce it, <lb/>which he endeavour'd to do in the
+          <lb/>beſt Manner his Capacity would <w part="I">ad-</w><lb/><w part="F">mit</w> of; after
+          the Buſineſs was over, <pb xml:id="page_19" n="21"/><lb/>he encourag'd the Friends by <w
+            part="I">promi-</w><lb/><w part="F">ſing</w> the greateſt Succeſs: Next Day <lb/>he
+          call'd to ſee his little Patient, and <lb/>found the Family much pleas'd at his <lb/><hi
+            rend="italic">great</hi> Skill, declaring that the Child's <lb/>Complaint in that Part
+          was intirely <lb/>remov'd: The Doctor finding in this <lb/>Caſe that he had not ſpent his
+          Skill <lb/>in vain, began to exert himſelf upon <lb/>it, and undertook a Caſe of much
+          <lb/>more Difficulty, (which prov'd a <hi rend="italic">Diſ-<lb/>location</hi> in Fact) in
+          which he aſſured <lb/>them of the like Succeſs, and that he <lb/>would cure that as
+          expeditiouſly as he <lb/>did the other; which, to prove his <lb/>Aſſertions true, he
+          actually did; by <lb/>which <hi rend="italic">wonderful</hi> Cure he has <w part="I"
+            >demon-</w><lb/><w part="F">ſtrated</w> his <hi rend="italic">Genius</hi> in a <hi
+            rend="italic">laudable</hi>
+          <w part="I">Man-</w><lb/><w part="F">ner</w>. Another Brother of mine (ſome <lb/>ſmall
+          Diſtance from this Place) had <lb/>the Care of a Gentlewoman, whom <pb xml:id="page_20"
+            n="22"/><lb/>he kept in Torment ſeveral Years, <lb/>and left her at laſt as Bad or Worſe
+          <lb/>than he found her; ſhe applied <w part="I">her-</w><lb/><w part="F">ſelf</w> to a
+          Surgeon of my <w part="I">Acquain-</w><lb/><w part="F">tance</w>, who made a perfect Cure
+          of <lb/>her in Fourteen Days: This <hi rend="italic">Won-<lb/>derful</hi> Man was ask'd
+          ſome Time <w part="I">af-</w><lb/><w part="F">ter</w>, How it came about that a Man
+          <lb/>of his <hi rend="italic">pretended</hi> Abilities and long <lb/>Practice, after a
+          Trial of Years, ſhould <lb/>miſs of Succeſs in a Caſe where a <lb/>Young Fellow juſt
+          beginning to <w part="I">pra-</w><lb/><w part="F">ctiſe</w>, ſucceeded to the Surprize of
+          <lb/>the whole Town in a few Days? <lb/>And whether he did not think it <lb/>ought to
+          diminiſh his Character, and <lb/>add to the Character of the other? <lb/>He had a Conflict
+          with himſelf for <lb/>ſome Time whether he ſhould <w part="I">ſa-</w><lb/><w part="F"
+            >crifice</w> his <hi rend="italic">Capacity</hi> or <hi rend="italic">Honeſty;</hi> at
+          <lb/>laſt it went on the Side of <hi rend="italic">Dear <w part="I">Ca-</w></hi><pb
+            xml:id="page_21" n="23"/><hi rend="italic"><lb/><w part="F">pacity</w>,</hi> and
+          anſwer'd, <hi rend="italic">She had Mo-<lb/>ney!</hi> But I ſhall leave him as I found
+          <lb/>him; and haſten to tell you the <w part="I">Rea-</w><lb/><w part="F">ſon</w> of my
+          publiſhing the following <lb/>Account of a CATARACT. </p>
+        <p rend="indent"><lb/>I am more ſenſible than any other <lb/>Man can be, of my own Inability
+          <lb/>to perform accurately what I have <lb/>propos'd in my <hi rend="italic"
+            >Title-Page;</hi> my <w part="I">De-</w><lb/><w part="F">ſign</w> not being at all to
+          inſtruct thoſe <lb/>whoſe regular Education in Phyſick <lb/>and Mathematicks have
+          qualify'd them <lb/>to underſtand theſe Things <w part="I">infinite-</w><lb/><w part="F"
+            >ly</w> better than I can pretend to do: <lb/>And I declare before I enter upon <lb/>the
+          Work, that I have no other View <lb/>in it than to ſatisfie the World that <lb/>I am no
+            <hi rend="italic">Emprick</hi> (as I have been <lb/>vilely and maliciouſly repreſented
+          to <pb xml:id="page_22" n="24"/><hi rend="italic"><lb/><w part="F">pacity</w>,</hi> be) in
+          my Profeſſion of <w part="I">COUCH-</w><lb/><w part="F">ING</w>; but that I know as much
+          of <lb/>the Nature and Structure of the EYE, <lb/>as is requir'd of any one who <w
+            part="I">pre-</w><lb/><w part="F">tends</w> to the Operation. </p>
+        <p rend="indent"><lb/>The Reaſon why this nice and <w part="I">ne-</w><lb/><w part="F"
+            >ceſſary</w> Operation is ſo rarely <w part="I">perfor-</w><lb/><w part="F">med</w> by
+          Gentlemen regularly bred to <lb/>the Profeſſion of Surgery, I take to be <lb/>this; That
+          it having been a long Time <lb/>the diſtinguiſhing Excellency of <w part="I"
+            >ſeve-</w><lb/><w part="F">ral</w> of our famous Mountebanks, the <lb/>regular Surgeons,
+          by undertaking it, <lb/>are under the dreadful <w part="I">Apprehenſi-</w><lb/><w part="F"
+            >ons</w> of being rank'd with itinerant <lb/>Operators, commonly known by the <lb/>Name
+          of <hi rend="italic">Quacks:</hi> The Fault is <w part="I">abſo-</w><lb/><w part="F"
+            >lutely</w> their own; for did they not <lb/>join with theſe <hi rend="italic"
+            >Empiricks</hi> (whom <w part="I">up-</w><pb xml:id="page_23" n="25"/><lb/><w part="F"
+            >on</w> every other Account they <w part="I">ſuffici-</w><lb/><w part="F">ently</w>
+          deſpiſe) to oppreſs every young <lb/>Fellow who dares attempt a Thing <lb/>which is not
+          the general Profeſſion <lb/>of the whole Fraternity, whatever <lb/>Pains he has taken, or
+          whatever <w part="I">Ad-</w><lb/><w part="F">vantages</w> he has had to make himſelf
+          <lb/>Maſter of the Performance; did they <lb/>not join to do this, I ſay, how <w part="I"
+            >ineffe-</w><lb/><w part="F">ctual</w> would all the little Malice and <lb/>Calumny of
+          theſe contemptible <hi rend="italic">Wret-<lb/>ches</hi> be towards ruining the <w
+            part="I">Reputa-</w><lb/><w part="F">tion</w> of a regular Surgeon! And how <lb/>eaſie
+          would it be for us, (for 'tis We <lb/>only who can do it) by making a <lb/>Collection of
+          the injudicious and <lb/>barbarous Practices of thoſe <w part="I">illite-</w><lb/><w
+            part="F">rate</w> murdering <hi rend="italic">Raſeals,</hi> ſo to deſtroy <lb/>their
+          Reputations, (if 'tis not a <w part="I">Scan-</w><lb/><w part="F">dal</w> to the Word <hi
+            rend="italic">Reputation</hi> to uſe <pb xml:id="page_24" n="26"/><lb/>it in ſuck
+          Company) that in a few <lb/>Years we might be able to take this <lb/>and ſome other
+          Branches of our <w part="I">Pro-</w><lb/><w part="F">feſſion</w> Home to ourſelves, the <w
+            part="I">Ori-</w><lb/><w part="F">ginal</w> Proprietors, without any <w part="I"
+            >Man-</w><lb/><w part="F">ner</w> of Danger of the foregoing <w part="I">Im-</w><lb/><w
+            part="F">putation</w>. </p>
+      </div>
+    </front>
+    <body>
+
+      <pb xml:id="page_25" n="27"/>
+      <head rend="align-center"><lb/>AN <lb/><hi rend="dc(3)">ACCOUNT</hi>
+        <lb/>OF THE <lb/><hi rend="size(1.7)">Mechaniſm of the EYE. </hi></head>
+      <p rend="space"><lb/>
+        <figure>
+          <figDesc>Decorative frame around the letter "A".</figDesc>
+        </figure>
+        <hi rend="dc(2)">A</hi>S I have propos'd to give <lb/>ſome Account of the <w part="I"
+          >Me-</w><lb/><w part="F">chaniſm</w> of the EYE, I <lb/>know no properer Way <lb/>of
+        beginning it, than <lb/>by an Anatomical <w part="I">Diſſe-</w><lb/><w part="F">ction</w> of
+        the EYE Itſelf; <lb/>and after I have ſhewn <lb/>ſome few general Diſeaſes that the <w
+          part="I">particu-</w><lb/><w part="F">lar</w> Coats and Humors of the Eye are <w part="I"
+          >ſub-</w><lb/><w part="F">ject</w> to, I ſhall proceed to ſhew how the <lb/>ſaid Coats and
+        Humors are inſtrumental to <pb xml:id="page_26" n="28"/><lb/>Viſion, and then by what
+        particular Diſeaſes <lb/>the Eye is render'd Totally Opake: And <lb/>there I ſhall endeavour
+        to aſcertain the true <lb/>Place of a <hi rend="blackletter">Cataract,</hi> and the
+        Conſequence <lb/>of a <hi rend="italic">judicious</hi> or <hi rend="italic">injudicious</hi>
+        Removal of It. </p>
+      <p rend="indent"><lb/>The Globe of the Eye is moved by Six <lb/>Muſcles, Four Streight, and
+        Two Oblique, <lb/><hi rend="italic">viz. Elevator; Depreſſor, Adductor, Abductor,
+          <lb/>Obliquus Superior,</hi> and <hi rend="italic">Inferior:</hi> The Firſt <lb/>of theſe
+        ariſes out of the Bottom of the <hi rend="italic">Or-<lb/>bit,</hi> and after it has
+        aſcended and grown <w part="I">ten-</w><lb/><w part="F">dinous</w>, is inſerted into the
+        Upper Part of the <lb/><hi rend="italic">Tunica Sclerotis,</hi> near the <hi rend="italic"
+          >Cornea.</hi> The <hi rend="italic">De-<lb/>preſſor</hi> ariſes and is inſerted directly
+        oppoſite <lb/>to the <hi rend="italic">Elevator.</hi> The <hi rend="italic">Adductor</hi>
+        ariſes from <lb/>the Bottom of the <hi rend="italic">Orbit,</hi> and is inſerted on <lb/>the
+        Side next the Noſe, into the <hi rend="italic">Tunica <w part="I">Scle-</w><lb/><w part="F"
+            >rotis</w>.</hi> The <hi rend="italic">Abductor</hi> ariſes and is inſerted
+        <lb/>directly oppoſite to the <hi rend="italic">Adductor.</hi> The <hi rend="italic"
+          >Su-<lb/>perior</hi> Oblique Muſcle ariſes between the <lb/><hi rend="italic"
+          >Elevator</hi> and <hi rend="italic">Adductor,</hi> at the Bottom of the <lb/><hi
+          rend="italic">Orbit,</hi> thence aſcending by the <hi rend="italic">Sutura
+          Tranſ-<lb/>verſalis</hi> becomes a Round Tendon, which <lb/>paſſes thro' a little Annular
+        Cartilage call'd <lb/><hi rend="italic">Trochlea,</hi> (from its bearing the Form of a
+        <lb/>Pully) at the upper and inner Part of the <pb xml:id="page_27" n="29"/><lb/><hi
+          rend="italic">Orbit</hi> near its Edge, is inſerted near the <w part="I">Bot-</w><lb/><w
+          part="F">tom</w> of the Eye. The <hi rend="italic">Inferior</hi> Oblique <w part="I"
+          >Muſ-</w><lb/><w part="F">cle</w> ariſes from the <hi rend="italic">Os Maxillae
+          Superioris,</hi>
+        <lb/>thence paſſing over the <hi rend="italic">Depreſſor,</hi> is inſerted <lb/>at the
+        Bottom of the Eye near the <hi rend="italic">Abductor.</hi>
+        <lb/>The Four Streight Muſcles are ſo fix'd to <lb/>the <hi rend="italic">Sclerotis,</hi>
+        that they lift up the Eye, <w part="I">de-</w><lb/><w part="F">press</w> it, bring it
+        towards the Noſe or from <lb/>it, hold it faſt, turn it round, juſt as they <lb/>act either
+        ſeparately or conjointly. </p>
+      <p rend="indent"><lb/>The <hi rend="italic">Superior</hi> Oblique Muſcle moves the <lb/>Eye
+        round towards the Noſe about its <hi rend="italic">Axis,</hi>
+        <lb/>and pulls it upward and inward, and <w part="I">there-</w><lb/><w part="F">by</w>
+        directs the Pupil outward and downward; <lb/>and thus the Eye is diſpos'd to ſee Things
+        <lb/>placed near it. The <hi rend="italic">Inferior</hi> Oblique <w part="I">Muſ-</w><lb/><w
+          part="F">cle</w> turns the Eye towards the outward <w part="I">Cor-</w><lb/><w part="F"
+          >ner</w>, and alſo upwards; if theſe Two act <lb/>together, they fix the Eye fierce and <w
+          part="I">protu-</w><lb/><w part="F">berant</w> out of the <hi rend="italic">Orbit:</hi>
+        Moreover, <w part="I">ano-</w><lb/><w part="F">ther</w> Uſe of theſe Muſcles is, to ſuſpend
+        the <lb/>Eye, and render it very fit to perform the <lb/>Motions of the other Four. Between
+        theſe <lb/>Muſcles Fat is interſpers'd, which ſerves to <lb/>lubricate and facilitate their
+        Motion. </p>
+      <pb xml:id="page_28" n="30"/>
+      <p rend="indent"><lb/>Next we come to the <hi rend="italic">Coats</hi> and <hi rend="italic"
+          >Humors</hi>
+        <lb/>of the Eye: The firſt is the <hi rend="italic">Tunica Adnata,</hi>
+        <lb/>or <hi rend="italic">Conjunctiva;</hi> it makes that which is <lb/>call'd the White of
+        the Eye, and is full of <lb/>Blood-Veſſels; which are very viſible in an <lb/><hi
+          rend="italic">Ophthalmia:</hi> The Symptoms of this Diſeaſe <lb/>are Heat, Pain,
+        Pulſation, and an apparent <lb/>Diſtention of theſe Blood-Veſſels; it may be <lb/>occaſion'd
+        externally, by any Thing forc'd <lb/>againſt or coming into the Eye, irritating <lb/>or
+        compreſſing the Fibres of this Coat. If <lb/>this Inflammation be only external, the Caſe
+        <lb/>ſymptomatical, and the Patient not worne <lb/>out by other Diſeaſes, 'tis eaſily
+        Curable: <lb/>On the Contrary, if it becomes ſo great as <lb/>to tumefie the Face, and the
+        Humors very <lb/>pungent and corroſive, we judge it difficult <lb/>to cure. Its Cure depends
+        on Bleeding, <w part="I">le-</w><lb/><w part="F">nient</w> Purgation, Bliſtring, Cupping,
+          <hi rend="italic">&amp;c.</hi>
+        <w part="I">toge-</w><lb/><w part="F">ther</w> with the Aſſiſtance of a cooling Diet,
+        <lb/>topical Application, and proper <hi rend="italic">Collyria.</hi>
+      </p>
+      <p rend="indent"><lb/>The next Coat is the <hi rend="italic">Sclerotis:</hi> It expandes
+        <lb/>itſelf nearly into a Globe, membranous and <lb/>hard almoſt like Leather, and
+        encompaſſes <lb/>the whole Eye, growing gradually thinner, <lb/>clearer, and prominent in
+        the Fore-part, <pb xml:id="page_29" n="31"/><lb/>which Part of it is call'd <hi
+          rend="italic">Cornea,</hi> from its <lb/>Tranſparency; they make together one firm
+        <lb/>Coat, for the Uſe of the other Coats and <lb/>Humors. This Coat is ſometimes diſeas'd
+        <lb/>by a little White Speck of a Cartilaginous <lb/>Subſtance, covering Part of, and
+        ſometimes <lb/>the whole <hi rend="italic">Pupilla:</hi> If this Excreſcence is <lb/>only
+        ſuperficial, it may be remov'd by an <w part="I">O-</w><lb/><w part="F">peration</w> in
+        Surgery call'd <hi rend="blackletter">Leucotomy;</hi> but <lb/>if the <hi rend="italic"
+          >Cornea</hi> is throly affected, I believe it <lb/>incurable. This Operation is perform'd
+        in <lb/>the following Manner, <hi rend="italic">viz.</hi> I place the <w part="I"
+          >Pa-</w><lb/><w part="F">tient</w> in a proper Poſition, and fixing the <hi rend="italic"
+          >Spe-<lb/>culum Oculi</hi> invented for that Purpoſe in <w part="I">or-</w><lb/><w
+          part="F">der</w> to keep the Globe without Motion, pare <lb/>off the Excreſcence with a
+        ſmall curv'd Knife, <lb/>leaving as few Inequalities as poſſible; and <lb/>having prevented
+        an Inflammation by proper <lb/>Repellents, I blow a Powder into the Eye; <lb/>which,
+        aſſiſted by the Motion of the <w part="I">Eye-</w><lb/><w part="F">lid</w>, ſmooths off the
+        Inequalities left by the <lb/>Knife. </p>
+      <p rend="indent"><lb/>Next to this Coat lies the <hi rend="italic">Tunica <w part="I"
+            >Choroi-</w><lb/><w part="F">des</w>:</hi> 'Tis a Membrane of little Firmneſs, <w
+          part="I">be-</w><lb/><w part="F">ing</w> much thinner than the former; 'tis ting'd <lb/>by
+        a dark Liquor ſeparated from the Blood-<pb xml:id="page_30" n="32"/><lb/>Veſſels, ſo that it
+        appears of a ruſty dark <w part="I">Co-</w><lb/><w part="F">lour</w>; this Coat has a
+        Perforation in it, call'd <lb/><hi rend="italic">Pupilla:</hi> The Part of this Coat which
+        makes <lb/>the Circumference of this Hole, and which <lb/>lies upon the Side of the
+        Cryſtalline <w part="I">Hu-</w><lb/><w part="F">mor</w>, is call'd <hi rend="italic"
+          >Uvea,</hi> compos'd of circular and <lb/>ſtreight Fibres; 'tis qualified by this Means
+        <lb/>to contract and dilate, as Light and Objects <lb/>make different Impreſſions upon it.
+        The <lb/>Outſide of this laſt Membrane is call'd <lb/><hi rend="italic">Iris,</hi> where
+        appear different Colours: On <lb/>the Inſide of it from its Circumference ariſe <lb/>the <hi
+          rend="italic">Proceſſus Ciliares,</hi> made of ſhort Fibres <lb/>like Lines drawn from the
+        Circumference to <lb/>the Center. </p>
+      <p rend="indent"><lb/>The laſt Coat is the <hi rend="italic">Retina,</hi> ſo call'd from
+        <lb/>its Reſemblance to a Net; it covers the <lb/>whole Fund of the Eye, and is nothing more
+        <lb/>than a fine Expanſion of the Medullary <w part="I">Fi-</w><lb/><w part="F">bres</w> of
+        the Optick Nerve, upon which the <lb/>Rays of Light meeting in a Point, convey <lb/>the
+        Images of outward Objects to the Brain. <lb/>The Diſeaſe of this Coat is call'd <hi
+          rend="italic">Gutta <lb/>Serena;</hi> the Eye ſeems clear in Appearance, <lb/>and there
+        are no other Signs of Blindneſs <w part="I">ex-</w><lb/><w part="F">cept</w> a preternatural
+        Dilatation of the <hi rend="italic">Pu-</hi>
+        <pb xml:id="page_31" n="33"/><hi rend="italic"><lb/>pilla.</hi> I ſhall have Occaſion to
+        ſpeak more <lb/>largely of this Diſeaſe by and by. </p>
+      <p rend="indent"><lb/>Between theſe Coats are contain'd Three <lb/>Humors, the <hi
+          rend="italic">Aqueous,</hi> the <hi rend="italic">Cryſtalline,</hi> and <lb/>the <hi
+          rend="italic">Vitreous:</hi> The Firſt is call'd <hi rend="italic">Aqueous</hi>
+        <lb/>becauſe it reſembles Water, being a thin <lb/>tranſparent Fluid; it ſerves to extend
+        the <lb/><hi rend="italic">Cornea</hi> into an equal Convexity; beſides, it <lb/>ſerves
+        moreover for the <hi rend="italic">Cryſtalline</hi> Humor <lb/>to move forward or backward
+        in, as Occaſion <lb/>requires us to ſee Objects nearer or farther <lb/>from us. </p>
+      <p rend="indent"><lb/>Next is the <hi rend="italic">Cryſtalline:</hi> It's compounded <lb/>of
+        numberleſs ſpherical Segments, cloſely <w part="I">u-</w><lb/><w part="F">nited</w> and
+        tranſparent; its Shape is a depreſt <lb/>Spheriod, it's inclos'd in a fine Membrane
+        <lb/>call'd <hi rend="italic">Aranea,</hi> and is much thicker than <w part="I"
+          >ei-</w><lb/><w part="F">ther</w> the <hi rend="italic">Aqueous</hi> or <hi rend="italic"
+          >Vitreous:</hi> Its Diſeaſes <lb/>and Uſes I ſhall ſpeak of in another Place. </p>
+      <p rend="indent"><lb/>The next is the <hi rend="italic">Vitreous:</hi> It's very clear
+        <lb/>and tenacious, it lies behind the <hi rend="italic">Cryſtalline,</hi>
+        <lb/>and fills the greateſt Part of the Eye; it's <lb/>vaſcular on every Side, its Foreſide
+        concave <lb/>for the <hi rend="italic">Cryſtalline</hi> Humor to lodge in, and <pb
+          xml:id="page_32" n="34"/><lb/>Backſide convex; it keeps the <hi rend="italic">Retina</hi>
+        and <lb/><hi rend="italic">Cryſtalline</hi> Humor at a proper Diſtance: <lb/>This Humor is
+        ſometimes ſo vitiated as to <lb/>hinder or utterly deſtroy Sight, which <w part="I"
+          >Diſ-</w><lb/><w part="F">eaſe</w> is often miſtook for a <hi rend="italic">Gutta
+          Serena.</hi>
+      </p>
+      <p rend="indent"><lb/>I ſhall now proceed to ſpeak of the Parts <lb/>of the Eye, as they are
+        ſubſervient to Viſion. </p>
+      <p rend="indent"><lb/>The Uſe of the Muſcles in general is to <lb/>direct the Globe of the
+        Eye, and fix it in <lb/>ſuch a Poſition, as that the Rays of Light <lb/>reflected from any
+        Object which we would <lb/>have viſible to us, may paſs thro' the <hi rend="italic"
+          >Pupilla</hi>
+        <lb/>and paint the Image of it on the <hi rend="italic">Retina.</hi>
+      </p>
+      <p rend="indent"><lb/>To form the Image of any Object, 'tis <w part="I">ne-</w><lb/><w
+          part="F">ceſſary</w> that the Rays of Light coming from <lb/>it ſhould converge and meet
+        in a <hi rend="italic">Foous:</hi>
+        <lb/>And we judge of the comparative <w part="I">Magni-</w><lb/><w part="F">tude</w> of all
+        Bodies, by the Angle which is <lb/>ſubtended by thoſe Bodies before the Eye. </p>
+      <p rend="indent"><lb/>To qualifie the Eye to perform this, <w part="I">Na-</w><lb/><w part="F"
+          >ture</w> has given it a ſpherical Form, and <w part="I">com-</w><lb/><w part="F"
+          >pos'd</w> it of tranſparent Goats and Humors; <lb/>the latter to tranſmit the Rays coming
+        from <pb xml:id="page_33" n="35"/><lb/>the luminous Points of Objects, and the <w part="I"
+          >for-</w><lb/><w part="F">mer</w> to refract them in ſuch a Degree as to <lb/>bring them
+        all together in a Point on the <lb/><hi rend="italic">Retina.</hi>
+      </p>
+      <p rend="indent"><lb/>All convex diaphanous Bodies refract the <lb/>Rays of Light by
+        Attraction, and the Ray <lb/>bends towards that Part or the Body where <lb/>there is the
+        greateſt Quantity of Matter; <lb/>this in convex Bodies is the Middle. </p>
+      <p rend="indent"><lb/>Therefore all Rays on whatever Parts <lb/>of ſuch Bodies they fall, are
+        refracted <w part="I">to-</w><lb/><w part="F">wards</w> a Line drawn thro' the Center of
+        <lb/>thoſe Bodies, and made to converge behind <lb/>them at a Diſtance proportionable to the
+        <lb/>greater or leſs Convexity of the Bodies <w part="I">them-</w><lb/><w part="F"
+          >ſelves</w>: Thus when the Eye is too flat, as <lb/>in old People, (from a Decay of the
+        Humors, <lb/>or a Shrinking of the Coats, or both) the <lb/>converging Rays do not coaleſce
+        at the <hi rend="italic">Re-<lb/>tina;</hi> but would paſs on if ſuffer'd, and not <lb/>come
+        to a Point but at ſome Diſtance beyond <lb/>it: By this Means Viſion becomes weak <lb/>and
+        indiſtinct. </p>
+      <pb xml:id="page_34" n="36"/>
+      <p rend="indent"><lb/>On the contrary, thoſe call'd <hi rend="italic">Myopes,</hi> or
+        <lb/>Near-ſighted People, have their Eyes too <lb/>gibbous, and the Convexity of them is ſo
+        <lb/>great, that the Rays meet and croſs one <w part="I">a-</w><lb/><w part="F">nother</w>
+        before they arrive at the <hi rend="italic">Retina.</hi> The <lb/>former Eyes are help'd by
+        Convex-Glaſſes, <lb/>which put the Rays into a State of eaſie <w part="I">Re-</w><lb/><w
+          part="F">fraction</w> before they fall upon the Eye: The <lb/>latter are help'd by
+        Concave-Glaſſes, thro' <lb/>which the Rays paſſing do diverge, and fall <lb/>upon the Eye in
+        ſuch a Manner, as to <w part="I">re-</w><lb/><w part="F">quire</w> a greater Degree of
+        Refraction than <lb/>they would in their natural Courſe: In the <lb/>former Caſe the Eye is
+        not help'd by the <lb/>Object's appearing bigger, but more diſtinct; <lb/>for very ſmall
+        Objects are render'd diſtinctly <lb/>viſible to ſuch an Eye by the Help of a <w part="I"
+          >Con-</w><lb/><w part="F">vex-Glass</w>, whereas very large ones cannot be <lb/>ſeen
+        enough to be diſtinguiſh'd by the <w part="I">Na-</w><lb/><w part="F">ked</w> Eye. </p>
+      <p rend="indent"><lb/>I don't propoſe to give any new Theory <lb/>of Viſion, nor to be able to
+        deſcribe the <w part="I">Man-</w><lb/><w part="F">ner</w> of it better than 'tis already
+        done by an <lb/>eminent Author; for which Reaſon I ſhall <lb/>make uſe of his own Words, ſo
+        far as they <lb/>are ſerviceable to my preſent Purpoſe, and <pb xml:id="page_35" n="37"
+        /><lb/>conducive to the main End of this Treatiſe, <lb/>which is to aſcertain the True PLACE
+        of <lb/>a <hi rend="blackletter">Cataract.</hi>
+      </p>
+      <p rend="indent"><lb/>All the Rays which come from one Point <lb/>of an Object, are by the <hi
+          rend="italic">Cornea</hi> and Humors <lb/>of the Eye united in a Point of the <hi
+          rend="italic">Retina,</hi>
+        <lb/>which is in a ſtreight Line, drawn from the <lb/>ſame Point of the Object, thro' the
+        Center of <lb/>the Eye; and conſequently all the Rays, <lb/>which come from all the Points
+        of an Object, <lb/>are united on the <hi rend="italic">Retina,</hi> in the ſame Order
+        <lb/>and Proportion as the Points of the Objects <lb/>are from whence thoſe Rays come. </p>
+      <p rend="indent"><lb/>Therefore the Interpoſition which theſe <lb/>Rays make upon the <hi
+          rend="italic">Retina,</hi> muſt be the <lb/>Image of the Object. </p>
+      <p rend="indent"><lb/>And thus Viſion in general is perform'd: <lb/>But to know what the
+        ſeveral Parts of the <lb/>Globe contribute hereunto, it's needful to <lb/>obſerve that the
+          <hi rend="italic">Cornea</hi> is more convex than <lb/>any other Part of it; by which
+        Means all <lb/>the Rays are gather'd to paſs thro' the <hi rend="italic">Pu-<lb/>pilla,</hi>
+        and none of them are loſt upon the <lb/><hi rend="italic">Uvea.</hi>
+      </p>
+      <pb xml:id="page_36" n="38"/>
+      <p rend="indent"><lb/>The <hi rend="italic">Aqueous</hi> Humor being thinneſt, and <lb/>moſt
+        liquid, eaſily changes its Figure, when <lb/>either the <hi rend="italic">Ligamentum
+          Ciliare</hi> contracts, or <lb/>both the Oblique Muſcles ſqueeze the <w part="I"
+          >Mid-</w><lb/><w part="F">dle</w> of the Bulb of the Eye, to render it <w part="I"
+          >ob-</w><lb/><w part="F">long</w>, when Objects are too near us. </p>
+      <p rend="indent"><lb/>The ſtreight Fibres of the <hi rend="italic">Uvea</hi> dilate <lb/>the
+          <hi rend="italic">Pupilla,</hi> when there are but few Rays of <lb/>Light; and the
+        circular Fibres contract it, <lb/>when there are too many. </p>
+      <p rend="indent"><lb/>When the <hi rend="italic">Pupilla</hi> is contracted, we ſee <lb/>moſt
+        diſtinctly; when it is dilated, we ſee <lb/>moſt clearly. </p>
+      <p rend="indent"><lb/>The <hi rend="italic">Glaſſy</hi> Humor keeps the <hi rend="italic"
+          >Cryſtalline</hi>
+        <lb/>at ſuch a Diſtance from the <hi rend="italic">Retina,</hi> as is <w part="I"
+          >ne-</w><lb/><w part="F">ceſſary</w> for uniting the Rays, which come <lb/>from one Point
+        of the Object, exactly in one <lb/>Point of the <hi rend="italic">Retina.</hi> The
+        Impreſſion of the <lb/>Object is made upon the <hi rend="italic">Retina.</hi>
+      </p>
+      <p rend="indent"><lb/>The <hi rend="italic">Choroides</hi> is tinctur'd black, that the
+        <lb/>Rays of Light which paſs thro' the <hi rend="italic">Retina</hi>
+        <lb/>may not be reflected back again to confuſe <lb/>the Image of the Object. </p>
+      <pb xml:id="page_37" n="39"/>
+      <p rend="indent"><lb/>Being diſtinct, Viſion conſiſts in the Union <lb/>of all the Rays which
+        come from one Point <lb/>of an Object exactly in one Point of the <hi rend="italic"
+          >Re-<lb/>tina;</hi> and that the Rays which come from <lb/>Objects at different Diſtances,
+        are united at <lb/>different Diſtances, behind the <hi rend="italic">Cryſtalline</hi>
+        <w part="I">Hu-</w><lb/><w part="F">mor</w>; they cannot both be exactly united <w part="I"
+          >up-</w><lb/><w part="F">on</w> the <hi rend="italic">Retina,</hi> therefore the Eye
+        cannot <lb/>ſee equally diſtinct, at the ſame Time, <w part="I">Ob-</w><lb/><w part="F"
+          >jects</w> at different Diſtances. </p>
+      <p rend="indent"><lb/>The Optick Nerves pierce the Globe of the <lb/>Eye, a little on the
+        Inſide of the Optick <lb/><hi rend="italic">Axes.</hi> Their external Coat, which is a
+        <lb/>Production of the <hi rend="italic">Dura Mater,</hi> is continu'd <lb/>to the <hi
+          rend="italic">Sclerotis,</hi> as their internal from the <lb/><hi rend="italic">Pia
+          Mater</hi> is to the <hi rend="italic">Choroides;</hi> and their <lb/>medullary Fibres
+        paſſing thro' all, are <w part="I">expan-</w><lb/><w part="F">ded</w> into the <hi
+          rend="italic">Retina,</hi> upon which the Images <lb/>of Objects are painted. </p>
+      <p rend="indent"><lb/>The Center of this Expanſion is inſenſible, <lb/>and all Rays which fall
+        upon it are loſt; and <lb/>conſequently that Point of the Object from <lb/>which thoſe Rays
+        come, is inviſible to the <lb/>Eye: The Reaſon of which proceeds <w part="I"
+          >proba-</w><lb/><w part="F">bly</w> from the Blood-Veſſels, which enter with <pb
+          xml:id="page_38" n="40"/><lb/>the Optick Nerve, and cover this Part of <lb/>the <hi
+          rend="italic">Retina.</hi>
+      </p>
+      <p rend="indent"><lb/>But whatſoever its Cauſe is, there is a <w part="I">ma-</w><lb/><w
+          part="F">nifeſt</w> Advantage in the Optick Nerves being <lb/>inſerted on the Inſide of
+        the Optick <hi rend="italic">Axes:</hi>
+        <lb/>For if they had pierc'd the Eye in the <hi rend="italic">Axis,</hi>
+        <lb/>then the middle Point of every Object had <lb/>been inviſible; and where all Things <w
+          part="I">con-</w><lb/><w part="F">duce</w> to make us ſee beſt, there we had not <lb/>ſeen
+        at all. </p>
+      <p rend="indent"><lb/>We muſt likewiſe have loſt ſome Part of <lb/>an Object, if the Optick
+        Nerves had been <lb/>placed on the Outſide of the Optick <hi rend="italic">Axes:</hi>
+        <lb/>Becauſe an Object may be ſo placed, as that <lb/>all the Rays which come from one
+        Point, <lb/>may fall upon the Outſide of both Eyes: <lb/>But it is impoſſible they ſhould
+        fall upon the <lb/>Inſide of both Eyes; and therefore that Point <lb/>which is loſt in one
+        Eye, is viſible by the <lb/>other. </p>
+      <p rend="indent"><lb/>This ſhall ſerve for the general <w part="I">The-</w><lb/><w part="F"
+          >ory</w> of VISION: I ſhall now come to <lb/>ſpeak of a few Diſeaſes of the Eye, by
+        <lb/>which Viſion is render'd incompleat, or <w part="I">to-</w>x<pb xml:id="page_39" n="41"
+          /><hi rend="italic"><lb/>pilla.</hi> deſtroy'd: And firſt of the <w part="I"
+          >CATA-</w><lb/><w part="F">RACT</w>. </p>
+      <p rend="indent"><lb/>Before I define a <hi rend="blackletter">Cataract,</hi> 'twill be <w
+          part="I">ne-</w><lb/><w part="F">ceſſary</w> to premiſe a few Things, in Order to
+        <lb/>clear the Way for my Definition: For ſince <lb/>the <hi rend="italic">Hypotheſis</hi> I
+        go upon is New, and not <lb/>yet clearly demonſtrated, it would be look'd <lb/>upon as a
+        ſtrange Peice of Preſumption to <lb/>overlook in the Groſs all the different <w part="I"
+          >Obje-</w><lb/><w part="F">ctions</w> which may be made againſt it, and <w part="I"
+          >ſa-</w><lb/><w part="F">tisfie</w> myſelf with only a few Probabilities <lb/>(collected
+        out of my own little Experience <lb/>and Obſervation) which may ſeem to make <lb/>for it. </p>
+      <p rend="indent"><lb/><hi rend="italic">Objection</hi> I. 'Tis Demonſtrated by the
+        <lb/>Mathematicians, that neither Corpuſcles in <lb/>the <hi rend="italic">Aqueous</hi> or
+          <hi rend="italic">Cryſtalline</hi> Humor can be <w part="I">per-</w><lb/><w part="F"
+          >ceiv'd</w> on the <hi rend="italic">Retina;</hi> and 'tis ſaid by <w part="I"
+          >Phyſi-</w><lb/><w part="F">cians</w>, that a Beginning of a <hi rend="blackletter"
+          >Cataract</hi> is a <lb/>Suffuſion of the Eye, when little Clouds, <lb/>Motes, and Flies,
+        ſeem to float about in the <lb/>Air: Now if theſe Aſſertions are both true, <lb/>one would
+        be apt to conclude, that neither <lb/>the <hi rend="italic">Aqueous</hi> nor <hi
+          rend="italic">Cryſtalline</hi> Humor can be <lb/>the Seat of a <hi rend="blackletter"
+          >Cataract:</hi> The firſt is <w part="I">indiſ-</w><pb xml:id="page_40" n="42"/><lb/><w
+          part="F">putable</w>, but the latter is not always True <lb/>in Fact. </p>
+      <p rend="indent"><lb/>For I have known a good Number of <lb/>Subject with real Confirm'd <hi
+          rend="blackletter">Cataracts,</hi>
+        <lb/>who never remember to have been thus <w part="I">af-</w><lb/><w part="F">fected</w> at
+        the Beginning of them. </p>
+      <p rend="indent"><lb/>And altho' ſome at the Beginning of <hi rend="blackletter"
+          >Ca-<lb/>taracts</hi> are thus affected, 'tis no Proof that <lb/>the Diſeaſe may not be in
+        one or the other <lb/>of theſe Humors: For the ſame Cauſe which <lb/>will produce a <hi
+          rend="blackletter">Cataract,</hi> may at the ſame <lb/>Time the <hi rend="blackletter"
+          >Cataract</hi> is forming affect alſo <lb/>the Fund of the Eye; and by diſordering
+        <lb/>the Blood-Veſſels, here and there ſtop the <lb/>Influx of the Animal Spirits into the
+        little <lb/>Filaments of the Optick Nerve which help <lb/>to make the <hi rend="italic"
+          >Retina.</hi> This will certainly <lb/>produce them Clouds, Motes, <hi rend="italic"
+          >&amp;c.</hi>
+      </p>
+      <p rend="indent"><lb/>And I have the more Reaſon to believe <lb/>this, becauſe I have Couch'd
+        ſeveral who <w part="I">af-</w><lb/><w part="F">ter</w> the <hi rend="blackletter"
+          >Cataract</hi> has been well ſuppreſt, <lb/>have remain'd blind with a <hi rend="italic"
+          >Gutta Serena;</hi>
+        <lb/>which is, I ſuppoſe, a total Stoppage of the <lb/>Influx of the Animal Spirits into the
+        nervous <lb/>Filaments afore-mention'd. </p>
+      <pb xml:id="page_41" n="43"/>
+      <p rend="indent"><lb/><hi rend="italic">Objection</hi> II. 'Tis ſuppos'd, that without
+        <lb/>the Aſſiſtance of the <hi rend="italic">Cryſtalline</hi> Humor there <lb/>could be no
+        Viſion; that is, except that <w part="I">Hu-</w><lb/><w part="F">mor</w> lay always ready to
+        receive the Rays <lb/>and refract them after they had paſs'd the <lb/><hi rend="italic"
+          >Pupilla,</hi> they would ſtill proceed with ſo <lb/>ſmall a Degree of Refraction that
+        their <lb/>Place of Converging would be beyond the <lb/><hi rend="italic">Retina;</hi> and
+        by Conſequence Viſion would <lb/>be render'd very indiſtinct, or perhaps the <lb/>Eye would
+        only perceive a confuſs'd Glare <lb/>of Light; if this Humor was taken away, <lb/>and this
+        could be demonſtrated, 'twould <lb/>not deſtroy my Suppoſition: For I freely
+        <lb/>acknowledge, that after the Removal of a <lb/><hi rend="blackletter">Cataract,</hi> (or
+        the <hi rend="italic">Cryſtalline</hi> Humor, <lb/>which as I proceed I ſhall uſe
+        ſynonymouſly) <w part="I">Vi-</w><lb/><w part="F">ſion</w> is never ſo perfectly perform'd
+        as it was <lb/>before the Eye was diſeas'd. </p>
+      <p rend="indent"><lb/>And if the Subjects I have hitherto <w part="I">per-</w><lb/><w part="F"
+          >form'd</w> the Operation upon were of <w part="I">Conſi-</w><lb/><w part="F">deration</w>
+        enough to have given me Pains <lb/>beyond my Needle, I make no Doubt but I <lb/>could have
+        fix'd them with Glaſſes which <lb/>would have ſtill aſſiſted their Sight, and <pb
+          xml:id="page_42" n="44"/><lb/>made them ſome Amends for the Loſs of <lb/>the aforeſaid
+        Humor. </p>
+      <p rend="indent"><lb/><hi rend="italic">Objection</hi> III. If Viſion can be perform'd
+        <lb/>without this Humor, and the Maxim is true <lb/><hi rend="italic">Quod Natura Nihil agit
+          fruſtra,</hi> Why was it <lb/>placed in the Eye? </p>
+      <p rend="indent"><lb/>I anſwer, 'Tis placed there to enable the <lb/>Eye to ſee equally well
+        at different <w part="I">Diſtan-</w><lb/><w part="F">ces</w>: For ſince the Rays proceeding
+        from <lb/>the luminous Points of nigh Objects diverge <lb/>more than thoſe from more remote
+        Objects, <lb/>the Power of making them equally converge <lb/>at the <hi rend="italic"
+          >Retina</hi> is very probably lodg'd in the <lb/><hi rend="italic">Cryſtalline</hi> Humor;
+        which, according to the <lb/>different Diſtances of Objects, approaches <lb/>nigher to, or
+        removes farther from the <hi rend="italic">Re-<lb/>tina,</hi> and perhaps too aſſumes a
+        different <lb/>Convexity. </p>
+      <p rend="indent"><lb/>And this I look upon to be <w part="I">unqueſtiona-</w><lb/><w part="F"
+          >ble</w>: Becauſe I have made it my conſtant <w part="I">Ob-</w><lb/><w part="F"
+          >ſervation</w>, That after a ſucceſſful Depreſſure <lb/>of a <hi rend="blackletter"
+          >Cataract,</hi> the Patient ſees beſt at a <lb/>Diſtance ſomething greater than the Eye <w
+          part="I">re-</w><lb/><w part="F">quires</w> when all its Parts are in their natural <pb
+          xml:id="page_43" n="45"/><lb/>Situation; and that if the Object is placed
+        <lb/>conſiderably further from, or nearer to the <lb/>Eye, Viſion is render'd indiſtinct or
+        confus'd. </p>
+      <p rend="indent"><lb/><hi rend="italic">Objection</hi> IV. But if the <hi rend="italic"
+          >Cryſtalline</hi> Humor <lb/>is depreſs'd, what becomes of it afterwards? <lb/>And how is
+        the Cavity fill'd up, which the <lb/>ſaid Humor poſſeſs'd in its natural Situation? </p>
+      <p rend="indent"><lb/><hi rend="italic">Anſwer.</hi> When I paſs my Needle into the <lb/>Eye,
+        I preſs directly forward to the <hi rend="italic">Cryſtal-<lb/>line</hi> Humor, and
+        endeavouring to diſengage <lb/>it from the <hi rend="italic">Ligamentum Ciliare,</hi> I
+        depreſs it <lb/>to the Bottom of the <hi rend="italic">Vitreous</hi> Humor; when <lb/>the
+          <hi rend="italic">Pupilla</hi> immediately ſeems clear to me, <lb/>and ſuch a Torrent of
+        confus'd Light ruſhes <lb/>into the Eye, as ſometimes affrights the <w part="I"
+          >Pa-</w><lb/><w part="F">tient</w> even more than the Puncture of the <lb/>Needle. </p>
+      <p rend="indent"><lb/>Common Senſe tells us, That if a ſolid <lb/>Body which is immers'd in a
+        Fluid ſhould <lb/>be remov'd from one Part of that Fluid <w part="I">in-</w><lb/><w part="F"
+          >to</w> another, it makes no Alteration in the <lb/>Bulk of the Whole; for whatever Place
+        the <lb/>Solid is remov'd to, it fills up but ſo much <lb/>Space preciſely as it did in the
+        Space which it <pb xml:id="page_44" n="46"/><lb/>was remov'd from. Immediately upon the
+        <lb/>Removal of the <hi rend="italic">Cryſtalline</hi> Humor, the <hi rend="italic"
+          >A-<lb/>queous</hi> turns in and fills up the Cavity. </p>
+      <p rend="indent"><lb/><hi rend="italic">N. B.</hi> From the different Specifick Gravity
+        <lb/>of the <hi rend="italic">Cryſtalline</hi> Humor, which in all <w part="I"
+          >Pro-</w><lb/><w part="F">bability</w> is different in different Stages of the
+        <lb/>Diſtemper, we may account for what is call'd <lb/>the Riſing again of the <hi
+          rend="blackletter">Cataract:</hi> As to <lb/>what becomes of the <hi rend="italic"
+          >Cryſtalline</hi> Humor <w part="I">af-</w><lb/><w part="F">ter</w> 'tis depreſs'd, 'tis
+        not unlikely that being <lb/>broke from the Veſſels which nouriſh'd it, it <lb/>ſhrinks by
+        Degrees, and as it were melts <w part="I">in-</w><lb/><w part="F">to</w> the <hi
+          rend="italic">Vitreoeus.</hi>
+      </p>
+      <p rend="indent"><lb/>Dr. <hi rend="italic">Turner</hi> ſays, A <hi rend="blackletter"
+          >Cataract</hi> is a Diſeaſe <lb/>of the Eye, in which a Film or Skin <w part="I"
+          >grow-</w><lb/><w part="F">ing</w> before the <hi rend="italic">Pupilla,</hi> like a
+        Curtain drawn <lb/>againſt a Hole letting the Light into a Room, <lb/>hinders the Paſſage of
+        the ſame, till it is <lb/>depreſs'd by the Needle, as in Couching. </p>
+      <p rend="indent"><lb/>There is no one of my Profeſſion who pays <lb/>a greater Veneration to
+        the Authority of that <lb/>worthy, learned, and ingenious Gentleman, <lb/>than myſelf; I am
+        beholden to him that I <lb/>have a regular, methodical, and I may <w part="I">ven-</w><pb
+          xml:id="page_45" n="47"/><lb/><w part="F">ture</w> to ſay a certain Syſtem of Surgery in
+        my <lb/>Head and Hand; but as he himſelf (who had <lb/>always more Buſineſs in other Parts
+        of Surgery <lb/>than a Man of his ſtudious Temper could well <lb/>attend to) very rarely, if
+        ever perform'd the <lb/>Operation, I hope 'twill not be thought <w part="I">Pre-</w><lb/><w
+          part="F">ſumption</w> if when I come to ſpeak of the <w part="I">Ope-</w><lb/><w part="F"
+          >ration</w> itſelf, I ſhould venture to give ſome <lb/>Reaſons which may ſeem to thwart
+        his <w part="I">Opi-</w><lb/><w part="F">nion</w>, and eſtabliſh my own. </p>
+      <p rend="indent"><lb/>That there are ſuch Films as the Doctor <lb/>mentions on this Side the
+          <hi rend="italic">Pupilla,</hi> and in the <lb/><hi rend="italic">Aqueous Humor,</hi> I
+        can readily grant, having <lb/>met with ſeveral of them in the little Courſe <lb/>of my
+        Practice: Theſe the Practitioners are <w part="I">al-</w><lb/><w part="F">low'd</w> to call
+          <hi rend="italic">Suffuſions, Films, &amp;c.</hi> but not <lb/><hi rend="blackletter"
+          >Cataracts;</hi> for I am determin'd to call no <lb/>Diſeaſe of the Eye by this latter
+        Name, <w part="I">ex-</w><lb/><w part="F">cept</w> that particular One which is to be <w
+          part="I">re-</w><lb/><w part="F">medied</w> by the Uſe of the Needle: But the <lb/>Caſe as
+        mention'd by the Doctor can receive <lb/>no Benefit that I know of by the Operation,
+        <lb/>nor did I ever attempt to Couch a Patient <lb/>(tho' I have had ſeveral offer'd me)
+        when the <lb/>Circumſtances were as before-mention'd: This <lb/>I ſhall endeavour to
+        demonſtrate, in <w part="I">deſcri-</w><lb/><w part="F">bing</w> the Operation itſelf. </p>
+      <pb xml:id="page_46" n="48"/>
+      <p rend="indent"><lb/>The <hi rend="italic">French</hi> Authors, with <hi rend="italic"
+          >Vaughion</hi> at <lb/>the Head of them, imagine a <hi rend="blackletter">Cataract</hi> to
+        be <lb/>a Film ſeparated from the <hi rend="italic">Cryſtalline</hi> Humor, <lb/>and
+        floating in tine <hi rend="italic">Aqueous;</hi> that all its Parts <lb/>are exiſtent in its
+        firſt Conformation, that it is <lb/>a <hi rend="italic">Cyſtis,</hi> and that <hi
+          rend="italic">Cyſtiſſes</hi> are never form'd <lb/><hi rend="italic">de novo,</hi> but are
+        only Membranes diſengag'd <lb/>from the neighbouring Parts, which <w part="I"
+          >increa-</w><lb/><w part="F">ſing</w> in Thickneſs receive Nouriſhment from <lb/>the Parts
+        to which they adhere. </p>
+      <p rend="indent"><lb/>I ſhall beg Leave to examine this Opinion <lb/>a little, and however
+        ſpecious and refin'd it <lb/>may ſeem, I am afraid we ſhall find as little <lb/>Reality in
+        it, as there is in the ordinary <w part="I">Pro-</w><lb/><w part="F">feſſion</w> of
+        Friendſhip amongſt the Gentlemen <lb/>of their Country. </p>
+      <p rend="indent"><lb/>Firſt they ſay, 'tis a Membrane diſengag'd <lb/>from the <hi
+          rend="italic">Cryſtalline,</hi> and floating in the <hi rend="italic">Aque-<lb/>ous;</hi>
+        the firſt they don't offer to prove, and <lb/>the latter is falſe in Fact: For if this <w
+          part="I">pre-</w><lb/><w part="F">tended</w> diſengag'd Membrane ſhould float in <lb/>the
+          <hi rend="italic">Aqueous,</hi> the Patient would have at leaſt <lb/>a Chance of ſeeing
+        now and then a little, <lb/>by its being remov'd wholy or in part from <lb/>before the <hi
+          rend="italic">Pupilla;</hi> but ſuch a Removal we <pb xml:id="page_47" n="49"/><lb/>find
+        never happens; and that after the <w part="I">For-</w><lb/><w part="F">mation</w> of the <hi
+          rend="blackletter">Cataract,</hi> the Eye continues <lb/>in a conſtant equal Blindneſs,
+        till the Cauſe <lb/>is remov'd by the Needle: I muſt beg them <lb/>then to fix their
+        floating Iſland, before they <lb/>pretend to make a rational <hi rend="italic"
+          >Hypotheſis</hi> of it; <lb/>and if they do, I hope they'll be ſo kind as <lb/>to let us
+        know to what Membranes they'll <lb/>join it, and in what Manner it receives <w part="I"
+          >Nou-</w><lb/><w part="F">riſhment</w> from them, then we'll talk farther <lb/>with them. </p>
+      <p rend="indent"><lb/>What have led the <hi rend="italic">Frenchmen</hi> into the <lb/>Talk of
+        its being a <hi rend="italic">Cyſtis,</hi> and that no <hi rend="italic"
+          >Cy-<lb/>ſtiſſes</hi> are form'd <hi rend="italic">de novo,</hi> is the late <w part="I"
+          >Diſco-</w><lb/><w part="F">veries</w> made by the Improvements of <w part="I"
+          >Micro-</w><lb/><w part="F">ſcopes</w>. They are wonderfully pleas'd with <lb/>and fond of
+        the Opinion, that every Thing <lb/>which is proceeds originally from an Egg or <lb/>Seed;
+        but however true this may be of <w part="I">per-</w><lb/><w part="F">fect</w> Beings, I
+        don't expect that the ſame will <lb/>be aſſerted of the <hi rend="italic">Fungus</hi>'s of
+        Trees, and <lb/>other ſupernatural Excreſcences: I can be <lb/>very well content to believe,
+        that Sloughs and <lb/><hi rend="italic">Mucus</hi> may be detach'd from ſeveral <w part="I"
+          >Mem-</w><lb/><w part="F">branes</w> in the Body, and may afterwards <w part="I"
+          >in-</w><lb/><w part="F">creaſe</w> by an Addition of the ſame Matter, <pb
+          xml:id="page_48" n="50"/><lb/>and yet there may be no <hi rend="italic">Cyſtis;</hi> but I
+        ſhall <lb/>prove preſently, that 'tis impoſſible a <hi rend="blackletter"
+          >Cata-<lb/>ract</hi> ſhould be in this Part of the Eye; and <lb/>that will at once put an
+        End to the <w part="I">Contro-</w><lb/><w part="F">verſie</w>. </p>
+      <p rend="indent"><lb/>What has given me frequent Occſion of <lb/>reflecting lately, has been
+        the odd Manner <lb/>of our Authors of General Theories; they <lb/>undertake to deſcribe and
+        define every <w part="I">parti-</w><lb/><w part="F">cular</w> Diſeaſe, with as much Freedom
+        and <lb/>Poſitiveneſs, as if they had been acquainted <lb/>themſelves with a good Number of
+        Patient <lb/>labouring under ſuch Diſeaſe, and had made <lb/>the Cauſes, Symptoms, Cure, <hi
+          rend="italic">&amp;c.</hi> of it, their <lb/>peculiar Study. </p>
+      <p rend="indent"><lb/>How juſt a Proceeding this is, will appear <lb/>by the following
+        Definition of a <hi rend="blackletter">Cataract</hi>
+        <lb/>in a late modern Writer of this Sort. </p>
+      <p rend="indent"><lb/><hi rend="italic">A Suffuſion,</hi> ſays he, <hi rend="italic">is a
+          thick Foulneſs of <lb/>Excreſcence, of the</hi> Tunica Cornea, Adnata <lb/><hi
+          rend="italic">or</hi> Aqueous <hi rend="italic">Humor, which when confirm'd <lb/>makes the
+            <hi rend="blackletter">Cataract.</hi></hi>
+      </p>
+      <p rend="indent"><lb/>According to this Account, any thing which <lb/>thickens the <hi
+          rend="italic">Cornea,</hi> or makes the <hi rend="italic">Aqueous</hi>
+        <pb xml:id="page_49" n="51"/><lb/>Humor dark and cloudy, may be term'd a <lb/><hi
+          rend="blackletter">Cataract;</hi> for he ſeems to uſe the Word <hi rend="blackletter"
+          >Ca-<lb/>taract</hi> not as any particular Diſeaſe, but only <lb/>as ſomething which ſhall
+        darken and obſcure <lb/>the Sight, by hindring the Tranſmiſſion of the <lb/>Rays of Light.
+        Thus the <hi rend="italic">Albugo, Pterygium, <lb/>Hyopyon,</hi> or the Viſcidity of the <hi
+          rend="italic">Aqueous</hi>
+        <lb/>Humor, frequently conſequent upon an <hi rend="italic">Oph-<lb/>thalmia,</hi> may be
+        juſtly deem'd a <hi rend="blackletter">Cataract.</hi>
+        <lb/>But how this ſquares with the real Notion of <lb/>this Diſeaſe, and its Cure, I ſhall
+        leave my <lb/>Readers after a few Pages to determine. </p>
+      <p rend="indent"><lb/>But paſſing over all the different Definitions <lb/>and Surmiſes of
+        others, I ſhall take the <w part="I">Li-</w><lb/><w part="F">berty</w> (for Reaſons which I
+        ſhall give <w part="I">after-</w><lb/><w part="F">wards)</w> to define it in the following
+        Manner. </p>
+      <p rend="indent"><lb/>A <hi rend="blackletter">Cataract</hi> is a Diſeaſe of the <hi
+          rend="italic">Cryſtalline</hi>
+        <lb/>Humor, whereby the ſaid Humor is totally <lb/>or at leaſt one Side of it render'd
+        opake: The <lb/>Humor in this diſeas'd State reflect all or <lb/>moſt of the Rays of Light,
+        inſtead of <w part="I">tranſ-</w><lb/><w part="F">mitting</w> them to the <hi rend="italic"
+          >Retina;</hi> in Conſequence <lb/>of which, the Humor appears whitiſh, bluiſh,
+        <lb/>yellowiſh, <hi rend="italic">&amp;c.</hi> and the Eye is blind. </p>
+      <div type="section">
+        <pb xml:id="page_50" n="52"/>
+        <head rend="align-center size(1.5)"><lb/>CAUSES. </head>
+        <p rend="indent"><lb/>Any Blow or Shock, which may alter the <lb/>particular Poſition of the
+          Particles of which <lb/>this Humor is compos'd: for to make a Body <lb/>diaphanous, 'tis
+          not only neceſſary that it <lb/>ſhould be made of ſuch particular Particles, <lb/>but that
+          thoſe Particles ſhould be combin'd <lb/>and united after a particular Manner. Thus
+          <lb/>Salts, wet Paper, or the <hi rend="italic">Oculus Mundi</hi> Stone, <lb/>grow opake
+          by being dried; Horn, by being <lb/>ſcrap'd; Glaſs, by being reduc'd to Powder, <lb/>or
+          otherwiſe flaw'd; Turpentine, by being <lb/>ſtirr'd about with Water till they mix <w
+            part="I">im-</w><lb/><w part="F">perfectly</w>. </p>
+        <p rend="indent"><lb/>The Matter which is ſeparated for the <w part="I">na-</w><lb/><w
+            part="F">tural</w> Nouriſhment of this Humor from the <lb/>Blood, may from the too great
+          Viſcidity of the <lb/>Blood itſelf, either be ſeparated in too ſmall a <lb/>Quantity, (the
+          Glands and Strainers of theſe <lb/>Parts being exceeding fine) and by this <w part="I"
+            >Atro-</w><lb/><w part="F">phy</w> the Humors may grow dry and opake, <lb/>as Paper,
+          Salts, <hi rend="italic">Oculus Mundi</hi> Stone, <hi rend="italic">&amp;c.</hi>
+          <lb/>Or otherwiſe upon a Fever or <hi rend="italic">Ophthalmia,</hi>
+          <lb/>the Veſſels leading to this Humor may be ſo <lb/>enlarg'd, as to admit Particles of
+          an improper <pb xml:id="page_51" n="53"/><lb/>Figure or Magnitude: The Heterogeneous
+          <lb/>Particles, (if I may ſo call them) inſtead <lb/>of properly nouriſhing the Humor, may
+          be <lb/>lodg'd irregularly in its Pores, (as Water and <lb/>Turpentine as above) and by
+          deſtroying that <lb/>Equality which we are told is neceſſary to <lb/>Tranſparency, render
+          the Humor opake. </p>
+        <p rend="indent"><lb/>It may be caus'd by violent Grief, which <lb/>occaſions a more than
+          natural Secretion of <lb/>Tears from an adjacent Part; this may from <lb/>a Continuance
+          make ſo great a Revulſion, <lb/>that the <hi rend="italic">Cryſtalline</hi> Humor may
+          probably <lb/>grow dry, or ſuffer Diminution, for Want of <lb/>its uſual Supplies. I have
+          Reaſons to imagine <lb/>this, becauſe in Eyes thus diſeas'd I have <lb/>found this Humor
+          much ſmaller than <w part="I">ordi-</w><lb/><w part="F">nary</w>. </p>
+        <p rend="indent"><lb/>It may and often does proceed from an <w part="I">un-</w><lb/><w
+            part="F">skillful</w> Treating of the Eye in an <hi rend="italic">Ophthal-<lb/>mia,</hi>
+          whilſt there is a more than ordinary Flux <lb/>of Matter upon the Parts which ſeems to <w
+            part="I">in-</w><lb/><w part="F">treat</w> a Paſſage thro' the Coats: Inſtead of <w
+            part="I">al-</w><lb/><w part="F">luring</w> it forwards by kind Diſcutients, I have
+          <lb/>too frequently known it drove back by cold <lb/>Repellents; and by lodging itſelf in
+          the Coats <pb xml:id="page_52" n="54"/><lb/>and Humors of the Eye, at once deprive it
+          <lb/>of its Uſe and Beauty. </p>
+        <p rend="indent"><lb/>Dr. <hi rend="italic">Pitcarn,</hi> in ſpeaking of a <hi
+            rend="blackletter">Cataract,</hi>
+          <lb/>ſays, <hi rend="italic">Some aſcribe it to the thickning or <w part="I"
+              >co-</w><lb/><w part="F">agulating</w> of the</hi> Aqueous <hi rend="italic">Humor,
+            and others <lb/>to that of the</hi> Cryſtalline: <hi rend="italic">But theſe know <w
+              part="I">No-</w><lb/><w part="F">thing</w> of the Nature of the Eye; for <w part="I"
+              >Corpuſ-</w><lb/><w part="F">cles</w> floating in the</hi> Aqueous <hi rend="italic"
+            >or</hi> Cryſtalline <lb/><hi rend="italic">Humo, can't be prerceiv'd on the</hi>
+          Retina. </p>
+        <p rend="indent"><lb/>For once I'll run the Riſque of having my <lb/>Underſtanding cenſur'd,
+          and venture to ſay. <lb/>That tho' the Corpuſcles themſelves are not <lb/>ſeen being
+          within the Eye, yet they can <w part="I">hin-</w><lb/><w part="F">der</w> the Eye from
+          diſcerning every diſtinct <lb/>Part of any Object which is without it: And <lb/>theſe
+          little Specks of Darkneſs, amidſt a Glare <lb/>of Light, are miſtaken by the Patient for
+            <w part="I">Some-</w><lb/><w part="F">thing</w> poſitive, when they are only Privations;
+          <lb/>and the Effect would be the ſame, if there <lb/>were any Stoppages in the ſmall
+          nervous <w part="I">Fi-</w><lb/><w part="F">laments</w> which compoſe the <hi
+            rend="italic">Retina.</hi>
+        </p>
+        <p rend="indent"><lb/>Thus the Doctor's Philoſophy is true, when <lb/>he ſays they can't be
+          ſeen, <hi rend="italic">&amp;c.</hi> But if he would <lb/>pretend to inferr from thence,
+          that they can <pb xml:id="page_53" n="55"/><lb/>be no Cauſes why the Eye can't ſee other
+          <lb/>Things, his Conſequence is falſe; and clearly <lb/>demonſtrated to be ſo, by Mr. <hi
+            rend="blackletter">Cheſelden</hi>
+          <lb/>at the End of his ANATOMY. </p>
+      </div>
+      <div type="section">
+        <head rend="align-center size(1.5)"><lb/>DIAGNOSTICK. </head>
+        <p rend="indent"><lb/>'Tis known by a Diminution of Sight in <lb/>the Patient, and by
+          Something which appears <lb/>like a Bluiſh Cloud behind the <hi rend="italic"
+            >Pupilla,</hi> tho' <lb/>the Colour of it often varies: I do not yet <lb/>know whether
+          there be any Reaſon given for <lb/>the Variety of Colours, but I have obſerv'd <lb/>that
+          the Green and Yellow are generally in <lb/>old Subjects. </p>
+      </div>
+      <div type="section">
+        <head rend="align-center size(1.5)"><lb/>PROGNOSTICK. </head>
+        <p rend="indent"><lb/>Not ſo rnuch the Age of the Perſon is to <lb/>be conſider'd, as the
+          Age and Ripeneſs of the <lb/><hi rend="blackletter">Cataract:</hi> I have ſeen both very
+          young and <lb/>very old Subjects couch'd with Succeſs, tho' <lb/>the beſt Prognoſtick is
+          certain to be made in <lb/>a middle Age and good Habit. </p>
+        <p rend="indent"><lb/>If a Surgeon underſtands the Operation, <lb/>and is at all able to
+          judge when the <hi rend="blackletter">Cata-<lb/>ract</hi> is ripe for it, he has a great
+          deal of <lb/>Reaſon to promiſe Succeſs. </p>
+        <pb xml:id="page_54" n="56"/>
+        <p rend="indent"><lb/>If an uncommon Inflammation ſupervenes, <lb/>which he can't foreſee,
+          and ſometimes 'tis <lb/>impoſſible for him to prevent, he is not to be <lb/>blam'd if he
+          miſſes of Succeſs, tho' he <lb/>had ſeem'd pretty poſitive in promiſing it both <lb/>to
+          his Patient and himſelf. </p>
+      </div>
+      <div type="section">
+        <head rend="align-center size(1.5)"><lb/><hi rend="italic">Regimen</hi> before the
+          Operation. </head>
+        <p rend="indent"><lb/>In Order to prevent an <hi rend="italic">Ophthalmia,</hi> uſe
+          <lb/>proper Evacuations, as Bleeding, Lenient <w part="I">Pur-</w><lb/><w part="F"
+            >gatives</w>, <hi rend="italic">&amp;c.</hi> a few Days before the <w part="I"
+            >Opera-</w><lb/><w part="F">tion</w>. </p>
+      </div>
+      <div type="section">
+        <head rend="align-center size(1.5)"><lb/>OPERATION. </head>
+        <p rend="indent"><lb/>The moſt temperate Seaſons are the beſt, <lb/>for which Reaſon I make
+          Choice of <hi rend="italic">Spring</hi>
+          <lb/>or <hi rend="italic">Autumn.</hi> 'Tis requiſite the Day ſhould <lb/>be fine and
+          clear, and the Light well choſen. <lb/>I oblige the Patient to recline his Head <w
+            part="I">back-</w><lb/><w part="F">wards</w> upon a Pillow, the Pillow is ſupported
+          <lb/>by the Back of a Chair of a proper Heighth; <lb/>behind the Patient an Aſſiſtant is
+          plac'd, to <lb/>keep his Head without Motion; 'twill be <lb/>neceſſary too for a Perſon on
+          each Side, to <lb/>ſecure the Hands of the Patient; for I have <lb/>ſeen very ill
+          Conſequences attend the Neglect <pb xml:id="page_55" n="57"/><lb/>of this: Having thus
+          prepar'd the Patient, I <lb/>place myſelf on a Stool, rais'd by Pillows <w part="I"
+            >ac-</w><lb/><w part="F">cording</w> to the Heighth of the Subject, till I <lb/>have a
+          full Command of the Patient's EYE; <lb/>then bidding him turn his Eye towards his
+          <lb/>Noſe, ſo that the <hi rend="italic">Tunica Conjunctiva</hi> may <lb/>be ſufficiently
+          apparent, I plunge my Needle <lb/>directly into the <hi rend="italic">Vitreous</hi> Humor,
+          thro' the <lb/><hi rend="italic">Tunica Conjunctiva,</hi> about the Diſtance of the
+          <lb/>Tenth Part of an Inch from the <hi rend="italic">Cornea;</hi> then <lb/>thruſting it
+          boldly to the upper Part of the <lb/><hi rend="italic">Cryſtalline,</hi> gently turn the
+          flat Part of my <lb/>Needle on the Top of the <hi rend="blackletter">Cataract;</hi> by
+          <lb/>which Means I have a greater Surface upon <lb/>it, and the <hi rend="blackletter"
+            >Cataract</hi> conſequently leſs liable <lb/>to ſlip from under my Needle: I depreſs it
+            <w part="I">ve-</w><lb/><w part="F">ry</w> ſlowly, and place it as I think at the <w
+            part="I">Bot-</w><lb/><w part="F">tom</w> of the <hi rend="italic">Vitreous</hi> Humor;
+          I don't <w part="I">immedi-</w><lb/><w part="F">ately</w> remove my Needle off it, but
+          continue <lb/>it depreſs'd for about Half a Minute, for <w part="I">Rea-</w><lb/><w
+            part="F">ſons</w> which I ſhall give when I come to ſpeak <lb/>of the Cauſes of a <hi
+            rend="blackletter">Cataract</hi>'s riſing again: <lb/>After this, I draw my Needle back
+          about the <lb/>Sixth Part of an Inch; and gently raiſing the <lb/>Point, take it quite out
+          of the EYE. </p>
+      </div>
+      <div type="section">
+        <pb xml:id="page_56" n="58"/>
+        <head rend="align-center size(1.5)"><lb/><hi rend="italic">Regimen</hi> after the Operation. </head>
+        <p rend="indent"><lb/>Immediately after the Operation I apply a <lb/>Repellant Compreſs, and
+          order the Patient to <lb/>be put to Bed, raiſing his Head ſomething <lb/>higher than
+          uſual; and after ſuffering of him <lb/>to remain quiet a few Hours, I renew my <w part="I"
+            >dreſ-</w><lb/><w part="F">ſing</w>, and begin to treat him with a cool <hi
+            rend="italic">Re-<lb/>gimen,</hi> proper Diet, <hi rend="italic">&amp;c.</hi> as in a <w
+            part="I">ſymptoma-</w><lb/><w part="F">tical</w> Fever: This I do to ſecond the <w
+            part="I">Inten-</w><lb/><w part="F">tion</w> of the former <hi rend="italic"
+            >Regimen;</hi> notwithſtanding <lb/>which, an <hi rend="italic">Ophthalmia</hi> in Spite
+          of all I can <lb/>do will ſometimes ſupervene, and then it <lb/>muſt be treated as ſuch. </p>
+        <p rend="indent"><lb/>Theſe <hi rend="italic">Ophthalmia's</hi> are ſometimes ſo <w part="I"
+            >vio-</w><lb/><w part="F">lent</w> as to become difficult of Cure, and <w part="I"
+            >of-</w><lb/><w part="F">ten</w> produce all the Effects, and perhaps too <lb/>really
+          bring that Diſtemper upon the Eye <lb/>call'd <hi rend="italic">Gutta Serena.</hi> This
+          laſt mention'd <w part="I">Di-</w><lb/><w part="F">ſeaſe</w> is ſeated on the <hi
+            rend="italic">Retina,</hi> and may be <lb/>brought on by any Thing which will enlarge
+          <lb/>the Capillary Arteries of that Membrane; <lb/>for they lying contiguous to the
+          Nerves, and <lb/>their Diameters being increas'd, the <w part="I">interme-</w><lb/><w
+            part="F">diate</w> Nerves are ſo preſs'd betwixt them, that <lb/>the Influx of the
+          Animal Spirits is intirely <w part="I">pro-</w><pb xml:id="page_57" n="59"/><lb/><w
+            part="F">hibited</w>, and all Commumication is cut off <w part="I">be-</w><lb/><w
+            part="F">twixt</w> them and the Original of the Optick <lb/>Nerves in the Brain, which
+          is the <hi rend="italic">Commune <lb/>Senſorium:</hi> Thus tho' the <hi rend="blackletter"
+            >Cataract</hi>
+          <w part="I">conti-</w><lb/><w part="F">nues</w> well depreſs'd, and the Eye in all <w
+            part="I">Appea-</w><lb/><w part="F">rance</w> perfectly clear, yet the Patient will <w
+            part="I">re-</w><lb/><w part="F">main</w> Blind, and 'tis too often beyond the
+          <lb/>Reach of Art to give him any Aſſiſtance. </p>
+        <p rend="indent"><lb/>However, I generally uſe all the <w part="I">Evacu-</w><lb/><w
+            part="F">ations</w> proper in a ſtubborn <hi rend="italic">Ophthalmia,</hi> with
+          <lb/>Calomel, Purgatives, <hi rend="italic">&amp;c.</hi> and keep the <w part="I"
+            >Pa-</w><lb/><w part="F">tient</w> to an attenuating Diet; obliging him <lb/>to abſtain
+          from all viſcid Nutriments, and to <lb/>uſe much Exerciſe: This Method I have <lb/>known
+          to meet with its deſir'd Succeſs. </p>
+        <p rend="indent"><lb/>There are many other Cauſes beſides this <lb/>Common One, which may
+          render the <w part="I">Ope-</w><lb/><w part="F">ration</w> unſucceſſful; firſt, the Riſing
+          again of <lb/>the <hi rend="blackletter">Cataract.</hi>
+        </p>
+        <p rend="indent"><lb/>The <hi rend="blackletter">Cataract</hi> will ſometimes riſe again,
+          <lb/>even before the Needle is out of the Eye: <lb/>There are many ſpecious Reaſons to be
+            <w part="I">aſ-</w><lb/><w part="F">ſign'd</w> for it, tho' perhaps none of them true;
+          <lb/>however I ſhall mention what I have hitherto <pb xml:id="page_58" n="60"
+          /><lb/>imagin'd, not without a Promiſe to correct <lb/>any Thing I ſhall here ſay if I
+          find it <w part="I">con-</w><lb/><w part="F">tradicted</w> by future Practice. </p>
+        <p rend="indent"><lb/>The firſt Reaſon (which is perhaps more <lb/>obvious to others than
+          myſelf) is, That the <lb/><hi rend="italic">Cryſtalline</hi> Humor being diſeas'd, is
+          become <lb/>ſpecifically lighter than the <hi rend="italic">Vitreous;</hi> and <lb/>that
+          being diſengag'd from the Membranes to <lb/>which it in ſome Meaſure adhered, and <w
+            part="I">de-</w><lb/><w part="F">preſs'd</w> to the Bottom of the <hi rend="italic"
+            >Vitreous,</hi> upon <lb/>Removal of the Needle it aſcends by its <lb/>own ſpecifick
+          Levity, and places itſelf at or <lb/>near the Place from whence it was remov'd. </p>
+        <p rend="indent"><lb/>The next is, That conſiſting of very <w part="I">gluti-</w><lb/><w
+            part="F">nous</w> Parts, and being join'd perhaps to the <lb/><hi rend="italic"
+            >Uvea,</hi> the Needle only removes the main <lb/>Body, which ſtill remains attach'd to
+          the <lb/><hi rend="italic">Uvea</hi> by certain ſmall elaſtick Filaments; <lb/>which as
+          ſoon as the Needle is remov'd <w part="I">con-</w><lb/><w part="F">tract</w> themſelves,
+          and again lift up the <hi rend="italic">Cry-<lb/>ſtalline</hi> Humor into its natural
+          Poſition. </p>
+        <p rend="indent"><lb/>If it remains depreſs'd for ſome Days and <lb/>afterwards riſes again,
+          but being a ſecond <lb/>or third Time depreſs'd it continues where <pb xml:id="page_59"
+            n="61"/><lb/>you would place it, it may proceed from an <lb/>increas'd Viſcidity in the
+          Humor itſelf, or <lb/>from a Rarefaction of that Fluid into which <lb/>it's immers'd; both
+          of which will perhaps be <lb/>conſequent upon an Inflammation, perhaps <lb/>from an
+          Elaſticity in the <hi rend="italic">Cornea,</hi> whereby the <lb/><hi rend="italic"
+            >Aqueous</hi> Humor may be immediately thruſt <lb/>into its Place by Removal of the <hi
+            rend="italic">Cryſtalline;</hi>
+          <lb/>which Elaſticity and Contraction of the <hi rend="italic">Cor-<lb/>nea,</hi> may
+          poſſibly be too great to be overcome <lb/>by the diffrent ſpecifick Gravity of the <hi
+            rend="italic">Cry-<lb/>ſtalline.</hi>
+        </p>
+        <p rend="indent"><lb/>But I muſt confeſs, if I was to give my <lb/>Opinion of the general
+          Cauſe of the Riſing <lb/>again of the <hi rend="blackletter">Cataract</hi> immediately
+          upon <lb/>its being depreſs'd, I ſhould imagine it to be <lb/>the lifting up the Point of
+          the Needle before <lb/>I withdraw it very near back again to the <lb/>Place from whence I
+          remov'd the <hi rend="blackletter">Cataract.</hi>
+          <lb/>For I imagine that the ſpecifick Gravity of the <lb/><hi rend="italic"
+            >Cryſtalline</hi> Humor, (being very little different <lb/>if at all from that of the
+            <hi rend="italic">Vitreous</hi>) would <w part="I">ne-</w><lb/><w part="F">ver</w> be
+          ſufficient to overcome the Reſiſtance <lb/>of the ſaid <hi rend="italic">Vitreous</hi>
+          Humor, which is a very <lb/>viſcid and tenacious Fluid, unleſs there was <lb/>a Paſſage
+          made for it to riſe again by that <pb xml:id="page_60" n="62"/><lb/>Motion of the Needle
+          which I have juſt now <w part="I">ex-</w><lb/><w part="F">preſs'd</w>; and therefore hold
+          it neceſſary that <lb/>after the <hi rend="blackletter">Cataract</hi> is depreſs'd, the
+          Needle <lb/>ought to be kept ſome Time upon it, that <lb/>the Fluid above it may have Time
+          perfectly <lb/>to reunite; ſo as becoming all over equally <lb/>tenacious, it may be
+          impower'd to keep the <lb/><hi rend="blackletter">Cataract</hi> in the Poſition we would
+          have it. </p>
+        <p rend="indent"><lb/>Another Cauſe of ill Succeſs is, the <w part="I">woun-</w><lb/><w
+            part="F">ding</w> the <hi rend="italic">Uvea</hi> or <hi rend="italic">Iris;</hi> the
+          Conſequence of <lb/>which will be an irregular Form of the <hi rend="italic"
+            >Pu-<lb/>pilla,</hi> ſome of which I have ſeen intirely <lb/>clos'd: However if they are
+          not ſo, there is <w part="I">al-</w><lb/><w part="F">ways</w> ſuch a Calloſity upon the
+          wounded <lb/>Membrane, as ſtops up the <hi rend="italic">Pupilla</hi> in one <lb/>Part,
+          and leaves ſuch an Opening of it on <lb/>the other, that by ſtopping up the Rays where
+          <lb/>they ſhould paſs, and ſuffering them to paſs <lb/>where they ſhould not, the Eye is
+          render'd <lb/>intirely uſeleſs. </p>
+        <p rend="indent"><lb/>Theſe Parts too, when wounded, <w part="I">ſome-</w><lb/><w part="F"
+            >times</w> ulcerate; by which Ulceration, the <lb/>whole Coats and Humors of the Eye
+          become <lb/>one common Maſs of <hi rend="italic">Pus,</hi> and the Eye <w part="I"
+            >in-</w><lb/><w part="F">tirely</w> ſinks. </p>
+        <pb xml:id="page_61" n="63"/>
+        <p rend="indent"><lb/>The Reaſon that a Perſon is oblig'd to <lb/>wound the <hi
+            rend="italic">Uvea</hi> and <hi rend="italic">Iris</hi> is, when he would <lb/>endeavour
+          to remove a Film which lies in <lb/>the <hi rend="italic">Aqueous</hi> Humor, or on this
+          Side the <lb/><hi rend="italic">Pupilla.</hi> And this, till I know better, I <lb/>ſhall
+          call an <hi rend="italic">Injudicious Practice.</hi>
+        </p>
+        <p rend="indent"><lb/>It often happens that the ſaid Coats are <lb/>wounded thro' the Fault
+          of the Patient, even <lb/>when the Operation is the moſt judiciouſly <lb/>performed; for
+          he not havingCourage to keep <lb/>his Eye in the Poſition he was directed, and <lb/>by
+          endeavouring to fly from the Pain which <lb/>is given by the firſt Puncture of the Needle,
+          <lb/>which he imagines is only to be done by <w part="I">Mo-</w><lb/><w part="F">tion</w>,
+          and not being able to move his Eye any <lb/>farther towards the great <hi rend="italic"
+            >Canthus,</hi> turns it <lb/>back againſt the Point or Edge of the Needle; <lb/>and by
+          this Means, in Spite of all the Art or <lb/>Addreſs of the Surgeon, will with that <w
+            part="I">Mo-</w><lb/><w part="F">tion</w> wound the Coats above-mention'd: But <lb/>this
+          laſt Accident does not happen to a Man <lb/>who knows what he is doing, perhaps above
+          <lb/>Once in Twenty Times. </p>
+        <p rend="indent"><lb/>Another Reaſon of ill Succeſs is, the <hi rend="blackletter"
+            >Cata-<lb/>ract</hi> proving Milky: To be able to <w part="I">deter-</w><pb
+            xml:id="page_62" n="64"/><lb/><w part="F">mine</w> whether 'tis ſo or not before I touch
+          it <lb/>with my Needle I have not yet learn'd, and <lb/>ſhould be glad to be inform'd by
+          any Body <lb/>who has. </p>
+        <p rend="indent"><lb/>Another Cauſe of ill Succeſs, which is alſo <lb/>ſometimes attributed
+          to the Surgeon, may be <lb/>a ſtrange Fondneſs of Sight, which engages <lb/>the Patient
+          after having been couch'd Three <lb/>or Four Days to pull off the Dreſſings in the
+          <lb/>Abſence of the Surgeon; by which he <w part="I">expo-</w><lb/><w part="F">ſing</w>
+          the Eye to the Aſſaults of the open Air, <lb/>brings on that <hi rend="italic"
+            >Ophthalmia</hi> which we were <lb/>endeavouring to prevent: In this Caſe he <w part="I"
+            >him-</w><lb/><w part="F">ſelf</w> is blamable, and not the Surgeon, for all <lb/>the
+          ill Conſequences that may attend it, one <lb/>of which I have found often to be the intire
+          <lb/>Loſs of Sight. </p>
+        <p rend="indent"><lb/>Another Misfortune, which too frequently <lb/>attends the unhappy
+          Patient, is, when the <hi rend="blackletter">Ca-<lb/>taract</hi> is accompanied with a <hi
+            rend="italic">Gutta Serena,</hi>
+          <lb/>perhaps of as long ſtanding as the <hi rend="blackletter">Cataract</hi>
+          <lb/>itſelf; this we find when upon depreſſing the <lb/><hi rend="blackletter"
+            >Cataract,</hi> (and there's no Poſſibility of <w part="I">judg-</w><lb/><w part="F"
+            >ing</w> of it before) and the <hi rend="italic">Pupilla</hi> remaining <lb/>clear, the
+          Patient notwithſtanding continues <pb xml:id="page_63" n="65"/><lb/>in total Darkneſs:
+          This Caſe is indeed <w part="I">de-</w><lb/><w part="F">plorable</w>. I ſhould be
+          unwilling to think <lb/>that there was any Part of Mankind ſuch <lb/>Strangers to common
+          Senſe, as to imagine <lb/>this to be a Fault of the Surgeon; but, I <lb/>myſelf have more
+          than once been <w part="I">calumnia-</w><lb/><w part="F">ted</w> on this very Account: I
+          can't help <w part="I">ſay-</w><lb/><w part="F">ing</w>, I have been unfairly dealt with
+          by ſome <lb/>of the Gentlemen of my own Profeſſion, who <lb/>have miſrepreſented the
+          Caſes, and deluded <lb/>the common People, as well as injured me; <lb/>this was the Caſe
+          of Three Subjects that I <lb/>lately Couch'd in <hi rend="italic">Yarmouth.</hi>
+        </p>
+        <p rend="indent"><lb/><hi rend="italic">N. B.</hi> I have met with the ſame <w part="I"
+            >Treat-</w><lb/><w part="F">ment</w> on Account of a Subject which I Cut <lb/>for the
+          Stone, where I will undertake to <w part="I">de-</w><lb/><w part="F">monſtrate</w> to any
+          Man in <hi rend="italic">England,</hi> that it <lb/>was as impoſſible to meet with Succeſs
+          in <lb/>that Operation as it was circumſtanc'd, as it <lb/>is to ſucceed in the Operation
+          of Couching <lb/>where the <hi rend="blackletter">Cataract</hi> is attended with a <hi
+            rend="italic">Gutta <lb/>Serena;</hi> for unleſs a Man could directly look <lb/>into the
+          Body in the one Caſe, or down to <lb/>the Bottom of the Eye in the other, he can <lb/>be
+          no more able to make a poſitive <w part="I">Progno-</w><lb/><w part="F">ſtick</w>, than he
+          would be to alter the <w part="I">Circum-</w><lb/><w part="F">ſtances</w>. </p>
+        <pb xml:id="page_64" n="66"/>
+        <p rend="indent"><lb/>I ſhall make here another Obſervation, <lb/>That where there is a <hi
+            rend="blackletter">Cataract</hi> in one Eye <lb/>and the other Eye ſound and good, the
+            <w part="I">Pa-</w><lb/><w part="F">tient</w> don't ought to be encourag'd to ſuffer
+          <lb/>the diſeas'd Eye to be Couch'd; becauſe the <lb/>Symptoms which may poſſibly attend
+          it, may <lb/>be the Occaſion of the Loſs of both. </p>
+        <p rend="indent"><lb/>I ſhall take the Liberty of mentioning a <lb/>Caſe of my own, wherein
+          I have met with <lb/>ſome of the afore-mention'd Accidents. <w part="I">A-</w><lb/><w
+            part="F">bout</w> Five Months ſince, a Patient came to <lb/>me with a Confirm'd <hi
+            rend="blackletter">Cataract</hi> in one Eye, <lb/>and a Suffuſion in the other. I found
+          the <hi rend="blackletter">Ca-<lb/>taract</hi> good, and (after the common <w part="I"
+            >Prepa-</w><lb/><w part="F">rations)</w> depreſs'd it with no apparent ill <w part="I"
+            >Ac-</w><lb/><w part="F">cident</w>. The Eye continu'd clear, and the <lb/>Patient ſaw
+          for ſome Days: At which Time <lb/>an Inflammation came on, which equally <w part="I"
+            >af-</w><lb/><w part="F">fected</w> both Eyes; and, notwithſtanding all <lb/>I could do
+          to abate it, the Coats and <w part="I">Hu-</w><lb/><w part="F">mors</w> were ſo thicken'd
+          by it, that the Eye <lb/>which had the Suffuſion in it became totally <lb/>blind: And ſome
+          Time after, that which I <lb/>had couch'd was in like Manner intirely <w part="I"
+            >de-</w><lb/><w part="F">priv'd</w> of Sight; tho' the <hi rend="blackletter"
+            >Cataract</hi> remain <lb/>depreſs'd, and the <hi rend="italic">Pupilla</hi> perfectly
+          clear. </p>
+        <pb xml:id="page_65" n="67"/>
+        <p rend="indent"><lb/><hi rend="italic">Obſervation.</hi> It ſeems pretty plain, That
+          <lb/>the Suffuſion above-mention'd was Nothing <lb/>more than the Beginning of a <hi
+            rend="blackletter">Cataract,</hi>
+          <w part="I">cau-</w><lb/><w part="F">ſed</w> by the <hi rend="italic">Cryſtalline</hi>
+          Humor growing thick <lb/>and muddy: And that this Inflammation, by <lb/>increaſing the
+          Viſcidity of the Matter <w part="I">ſepara-</w><lb/><w part="F">ted</w> for the
+          Nouriſhment of the ſaid Humor, <lb/>increas'd the Thickneſs ſo, as to render the
+          <lb/>Humor intirely opake; or in other Terms, <lb/>ripen'd the <hi rend="blackletter"
+            >Cataract.</hi> The Reaſon why I <lb/>did not venture to Couch it afterwards was, an
+          <lb/>uncommon Dilatation of the <hi rend="italic">Pupilla,</hi> which <lb/>had been from
+          the Beginning of the Suffuſion: <lb/>The Diſeaſe of the other was a direct <hi
+            rend="italic">Gutta <lb/>Serena,</hi> caus'd by the Inflammation in the <lb/>Manner
+          before deſerib'd. </p>
+        <p rend="indent"><lb/>The Subject I have been treating of being <lb/>altogether new, I ſhall
+          beg Leave to add the <lb/>following Queries, to be conſider'd by the <lb/>Gentlemen of my
+          Profeſſion, not troubling <lb/>myſelf whether they make for or againſt my <lb/><hi
+            rend="italic">Hypotheſis.</hi>
+        </p>
+        <p rend="indent"><lb/><hi rend="italic">Query</hi> I. Whether the Reaſon of the <w part="I"
+            >Dila-</w><lb/><w part="F">ation</w> of the <hi rend="italic">Pupilla</hi> in one Eye
+          and not the <lb/>her may not be this: That the <hi rend="italic">Cryſtalline</hi>
+          <pb xml:id="page_66" n="68"/><lb/>Humor being render'd ſomewhat leſs tranſpa-<lb/>rent
+          than formerly, the Patient finds that the <lb/>Rays of Light do not ſtrike ſo clearly and
+          for- <lb/>cibly as they us'd to do; or in other Words <lb/>the Eye is darker than in its
+          natural State. <lb/>To amend which, he naturally and one may <lb/>almoſt ſay involuntarily
+          dilates the <hi rend="italic">Pupilla</hi>
+          <lb/>in order to receive more Rays of Light, and <lb/>recompenſe the Defect of the
+          diſeas'd Hu-<lb/>mor? </p>
+        <p rend="indent"><lb/>The ſame is done whenever we want to ſee <lb/>Objects in the Dark; but
+          in this caſe the Cauſe <lb/>remaining conſtant, the Dilatation is conſtant <lb/>too, till
+          the <hi rend="italic">Pupilla</hi> by the frequent Uſe of <lb/>this Motion becomes
+          actually wider than it <lb/>ought naturally to be. In ſuch a Dilatation as <lb/>I here
+          mention, we can't promiſe any great <lb/>Succeſs from the Uſe of the Needle: For was
+          <lb/>the Humor itſelf perfectly clear, ſuch a <w part="I">dila-</w><lb/><w part="F"
+            >ted</w>
+          <hi rend="italic">Pupilla</hi> would admit ſuch a Glare and <lb/>Flow of Rays to the <hi
+            rend="italic">Retina,</hi> as would <w part="I">ren-</w><lb/><w part="F">der</w> Viſion
+          confus'd and indiſtinct; much leſs <lb/>can we hope to have a good Eye, when that
+          <lb/>Humor ſo neceſſary to Viſion is intirely <w part="I">re-</w><lb/><w part="F"
+            >moved</w>. </p>
+        <pb xml:id="page_67" n="69"/>
+        <p rend="indent"><lb/><hi rend="italic">Query</hi> II. Whether the <hi rend="blackletter"
+            >Cataract</hi>
+          <w part="I">ſome-</w><lb/><w part="F">times</w> appearing at firſt in a white Point, and
+          <lb/>afterwards ſpreading itſelf like a Line drawn <lb/>from a Center to a Circumference,
+          is not a <lb/>Proof that 'tis a tranſparent Body already <lb/>form'd, growing thick and
+          cloudy, rather <lb/>than the Beginning of a new Membrane? </p>
+        <p rend="indent"><lb/><hi rend="italic">N. B.</hi> The Compoſition of the <hi rend="italic"
+            >Cryſtalline</hi>
+          <lb/>Humor, in the Anatomy of the Eye. </p>
+        <p rend="indent"><lb/><hi rend="italic">Query</hi> III. Whether <hi rend="blackletter"
+            >Cataracts</hi> very old <lb/>and diſcolour'd, declining in the ſame <w part="I"
+            >Man-</w><lb/><w part="F">ner</w>, and becoming angulous and uneven, is <lb/>not a Proof
+          of the ſame Thing? </p>
+        <p rend="indent"><lb/><hi rend="italic">Query</hi> IV. Whether it would not be worth
+          <lb/>while to obſerve after the Couching a young <lb/>Subject, if the ſame Subject is ever
+          troubled <lb/>with a ſecond <hi rend="blackletter">Cataract,</hi> properly <w part="I"
+            >diſtingui-</w><lb/><w part="F">ſhing</w> whether it be the ſame <hi rend="blackletter"
+            >Cataract</hi> riſen <lb/>again or not? And this I think is beſt to be <lb/>done, by
+          obſerving the Interval of Time which <lb/>paſſes between his being Couch'd and the <w
+            part="I">Ap-</w><lb/><w part="F">pearance</w> of this ſecond <hi rend="blackletter"
+            >Cataract.</hi>
+          <w part="I">Whe-</w><lb/><w part="F">ther</w> if this Obſervation be juſt, and a ſecond
+            <lb/><hi rend="blackletter">Cataract</hi> be form'd in the ſame Eye, and <pb
+            xml:id="page_68" n="70"/><lb/>in the ſame Subject, this would not deſtroy <lb/>my <hi
+            rend="italic">Hypotheſis?</hi>
+        </p>
+        <p rend="indent"><lb/><hi rend="italic">Query</hi> V. Whether our not being able to
+          <lb/>remove a <hi rend="italic">Cataract</hi> at its firſt Appearance, <lb/>is not a Proof
+          that 'tis not the <hi rend="italic">Cryſtalline</hi>
+          <w part="I">Hu-</w><lb/><w part="F">mor?</w> Becauſe for all what we know <w part="I"
+            >certain-</w><lb/><w part="F">ly</w>, the <hi rend="italic">Cryſtalline</hi> Humor is
+          equally <w part="I">remo-</w><lb/><w part="F">vable</w> at all Times. </p>
+        <p rend="indent"><lb/><hi rend="italic">Query</hi> VI. Whether or no in that Stage of
+          <lb/>the Diſeaſe which we call a <hi rend="italic">Milky</hi>
+          <hi rend="blackletter"><w part="I">Cata-</w><lb/><w part="F">ract</w></hi>, there may not
+          be ſuch a Solution of <lb/>Continuity of the Parts of the <hi rend="italic"
+            >Cryſtalline</hi>
+          <w part="I">Hu-</w><lb/><w part="F">mor</w>, as may ſuffer the Needle to paſs <w part="I"
+            >back-</w><lb/><w part="F">wards</w> and forwards in it, without being able <lb/>to
+          remove it out of its Place? </p>
+        <p rend="indent"><lb/><hi rend="italic">Query</hi> VII. And whether in a farther Stage
+          <lb/>of this Diſeaſe, the Parts may not again cloſe, <lb/>and ſtick together in ſuch a
+          Manner, as that <lb/>the whole Body of the Humor may be at <lb/>once remov'd, by only
+          preſſing upon a <w part="I">parti-</w><lb/><w part="F">cular</w> Part of it? </p>
+        <p rend="indent"><lb/><hi rend="italic">Query</hi> VIII. Whether there may not be a
+          <lb/>Gradation of Colouring ſettled from Sir <hi rend="italic">Iſaac <pb xml:id="page_69"
+              n="71"/><lb/>Newton's</hi> Theory, beginning at a light Blue <lb/>and ending at a
+          greeniſh Yellow; whereby <lb/>we might be able to determine the exact Age <lb/>of a <hi
+            rend="blackletter">Cataract,</hi> as ſoon as we ſee it? And <lb/>whether ſuch a
+          particular Colour will or will <lb/>not ſucceſſfully bear the Needle? </p>
+        <p rend="indent"><lb/><hi rend="italic">Query</hi> IX. Whether 'tis not poſſible to <w
+            part="I">in-</w><lb/><w part="F">vent</w> a <hi rend="italic">Speculum Oculi,</hi> which
+          may keep the <lb/>Globe of the Eye without Motion, and <w part="I">with-</w><lb/><w
+            part="F">out</w> giving that Pain to the Patient which too <lb/>frequently contributes
+          to the bringing on of <lb/>an Inflammation? I mention this, becauſe I <lb/>have ſeen ſo
+          many Inconveniencies attend the <lb/>Uſe of the Common <hi rend="italic">Speculum
+            Oculi;</hi> that, <w part="I">ra-</w><lb/><w part="F">ther</w> than uſe it myſelf, I
+          have choſe to have <lb/>Nothing to aſſiſt me, except the Preſſure of <lb/>the Thumb and
+          Finger? </p>
+        <p rend="indent"><lb/><hi rend="italic">Query</hi> X. Whether a Trembling, which I <lb/>have
+          obſerv'd in the <hi rend="italic">Aqueous</hi> Humor ſome <lb/>Time after Couching, does
+          not proceed from <lb/>a Loſs of Part of that Humor in Couching? <lb/>And whether this
+          Trembling is one Reaſon <lb/>why the Rays of Light paſs confus'd into the <lb/>Eye? </p>
+        <pb xml:id="page_70" n="72"/>
+        <p rend="indent"><lb/><hi rend="italic">Query</hi> XI. Whether there is Room for the
+          <lb/>Needle to paſs between the <hi rend="italic">Cryſtalline</hi>
+          <w part="I">Hu-</w><lb/><w part="F">mor</w> and the <hi rend="italic">Uvea,</hi> without
+          removing the <lb/>former ſo as to ſpoil the Eye, or cutting or <lb/>lacerating the latter? </p>
+        <p rend="indent"><lb/><hi rend="italic">Query</hi> XII. Whether, if this laſt is <w part="I"
+            >practi-</w><lb/><w part="F">cable</w>, there's not a Poſſibility of removing a
+          <lb/>Film that may be in the Forepart of the <hi rend="italic">Pu-<lb/>pilla,</hi>
+          notwithſtanding the Needle enters in <lb/>at the Backpart of it? </p>
+        <p rend="indent"><lb/><hi rend="italic">Query</hi> XIII. Whether there might not be <lb/>a
+          nice Experiment made, by placing an Eye <lb/>like a <hi rend="italic">Lens</hi> in the
+          Hole of a dark Chamber? <lb/>I think (if I remember rightly) I have met <lb/>with the
+          following Account in an Author of <lb/>Experimental Philoſophy. Stripping the Fund <lb/>of
+          the Eye of its Integuments, he plac'd it <lb/>as above-mention'd; and holding a Peice of
+          <lb/>white Paper within the Room, at a ſmall <lb/>Diſtance from the Eye, he diſtinctly <w
+            part="I">percei-</w><lb/><w part="F">ved</w> the Images of all Objects from without
+          <lb/>painted upon the Paper; as they would have <lb/>been upon the <hi rend="italic"
+            >Retina,</hi> if the Eye had been <lb/>in its natural Poſition. </p>
+        <pb xml:id="page_71" n="73"/>
+        <p rend="indent"><lb/>Had a nice Hand been there who would <lb/>have gon on the Outſide and
+          with a Needle <lb/>as in Couching depreſs'd the <hi rend="italic">Cryſtalline</hi>
+          <w part="I">Hu-</w><lb/><w part="F">mor</w>, and if notwithſtanding this Depreſſion
+          <lb/>the Perſon within could ſtill perceive the <w part="I">I-</w><lb/><w part="F"
+            >mages</w> as before, it would be a certain Proof <lb/>that the Eye might ſee,
+          notwithſtanding the <lb/>Loſs of the <hi rend="italic">Cryſtalline</hi> Humor. </p>
+        <p rend="indent"><lb/>The Eye ſhould be taken down, and <w part="I">diſſe-</w><lb/><w
+            part="F">cted</w>; and by obſerving in what Part the <hi rend="italic"
+            >Cry-<lb/>ſtalline</hi> Humor after its Removal was lodg'd, <lb/>we ſhould receive a
+          great Light into the <lb/>Theory of Couching, and much Satisfaction, <lb/>as to the Truth
+          of this <hi rend="italic">Hypotheſis.</hi>
+        </p>
+        <p rend="indent"><lb/>I only mention this as it ſeems to me <w part="I">poſ-</w><lb/><w
+            part="F">ſible</w>, without being able to determine <w part="I">whe-</w><lb/><w part="F"
+            >ther</w> 'tis practicable or not. </p>
+      </div>
+      <div>
+        <head rend="align-center size(1.5)"><lb/>CONCLUSION. </head>
+        <p rend="indent"><lb/>Before I conclude, I thought it my Duty <lb/>to mention, (and in the
+          Words of a Great <lb/>Man) That as a candid and ſincere <w part="I">Beha-</w><lb/><w
+            part="F">viour</w> ought to be preferr'd to all other <w part="I">Con-</w><lb/><w
+            part="F">ſiderations</w>, I would not let my Heart <w part="I">re-</w><pb
+            xml:id="page_72" n="74"/><lb/><w part="F">proach</w> me with a Conſciouſneſs of having
+          <lb/>gain'd even the Poſſibility of a Praiſe, which <lb/>is not in every Particular my
+          Right: I <lb/>therefore thought proper to acknowledge, <lb/>that I am oblig'd to a very
+          ingenious <w part="I">Gentle-</w><lb/><w part="F">man</w> (whom I have the Honour to be <w
+            part="I">ac-</w><lb/><w part="F">quainted</w> with) for Two or Three Hints <lb/>that he
+          has given me in the latter Part of <lb/>this ſhort Diſſertation, which otherwiſe <w
+            part="I">pro-</w><lb/><w part="F">bably</w> might have been omitted. </p>
+        <p rend="indent"><lb/><hi rend="italic">N.B.</hi> I believe it will be neceſſary to <w
+            part="I">ob-</w><lb/><w part="F">ſerve</w> to ſuch Perſons as are not Judges of the
+          <lb/>Subject I have been treating of, That I have <lb/>therein demonſtrated the Reaſon of
+          my not <lb/>meeting with Succeſs in ſome Patients that <lb/>I have Couch'd, particularly
+          in <hi rend="italic">Yarmouth.</hi>
+        </p>
+        <trailer rend="italic align-center"><lb/>FINIS. </trailer>
+      </div>
+
+    </body>
+  </text>
+</TEI>

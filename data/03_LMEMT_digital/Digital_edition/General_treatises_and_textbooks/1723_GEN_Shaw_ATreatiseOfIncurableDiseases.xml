@@ -1,0 +1,1192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LMEMT Corpus - Shaw: A treatise of incurable diseases</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>Peter Shaw</persName>
+            </author>
+            <title type="main">A treatise of incurable diseases: containing I. An essay on the
+              proper means to reduce the number of incurables. II. An attempt to settle a just
+              notion of incurable in physick. III. A specimen of a rational method to discover the
+              cures of reputed incurable diseases. By P. Shaw, M.D:</title>
+            <edition n="1"/>
+            <idno type="ESTC">T58008</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/T58008"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>London: printed for J. Roberts, near the Oxford-Arms in Warwick-Lane,
+                  1723.</persName>
+              </publisher>
+              <date>1723</date>
+            </imprint>
+            <extent>
+              <measure type="format">4⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="4"/>
+              <measure type="count" commodity="body" unit="page" quantity="38"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">British Library</orgName>
+            <idno type="ECCO">CW3306967945</idno>
+            <idno type="TCP">K051025.000 </idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="General treatises"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text xml:lang="eng">
+    <front>
+      <div>
+        <pb xml:id="page_2"/>
+        <head rend="align-center space">
+          <lb/>
+          <figure>
+            <figDesc>An ornamental horizontal column, spanning the whole page with the text "F Hoffman fecit"</figDesc>
+          </figure>
+        </head>
+        <head rend="align-center space">
+          <lb/>TO <hi rend="italic">THOMAS GUY,</hi> Eſq; </head>
+        <salute>SIR, </salute>
+        <p rend="indent">
+          <lb/><figure>
+            <figDesc>Decorative frame around the letter "T"</figDesc>
+          </figure><hi rend="dc(5)">T</hi>HOUGH the Subject of this Treatiſe, conſider'd as a Deſide- <lb/>ratum in the <hi
+            rend="italic">Healing-Art,</hi> ſhould chance to have had no great Share in your
+          Studies, yet have you a <pb xml:id="page_3"/>
+          <lb/>Right to a Work of this kind, ſuperior to any ſuch Claim. </p>
+        <p rend="indent">
+          <lb/>I will not ſay, had your benificent Diſpo- <lb/>ſition never appeared in favour of
+          the wretched <lb/>
+          <hi rend="italic">Incurable</hi>, that I ſhould never have entertained <lb/> any Thoughts
+          on this Subject: But this I am <lb/>obliged, in Juſtice, to acknowledge, that whilſt
+          <lb/>I was committing them to Paper, your excellent <lb/>Deſign was ſo ſtrongly before me,
+          that I found <lb/> it abſolutely impoſſible to write regardleſs of <lb/>it. Upon which
+          Account, it is but Juſt that <lb/> I make you a Tender of what was thus <lb/> written. </p>
+        <p rend="indent">
+          <lb/>I cannot indeed perſuade my ſelf, however <lb/>mean the Performance may appear, that
+          it will <lb/> prove an unacceptable Preſent; ſince it attempts <lb/> a farther Relief of
+          thoſe deplorable Perſons, <lb/>for whom you have already expreſſed ſo tender <lb/> a
+          Regard. </p>
+        <pb xml:id="page_4"/>
+        <p rend="indent">
+          <lb/>And if by due Management, any of theſe <lb/>ſhall happily find a Cure, where it might
+          be <lb/> leaſt expected, in an Hoſpital ſet apart for <hi rend="italic">In-
+            <lb/>curables</hi>, it will not, I preſume, redound more <lb/> to the Conſolation of the
+          Patient, than to <lb/>the Honour and Delight of him who not on- <lb/>ly generouſly
+          founded, but liberally endowed <lb/> it. <space dim="vertical" unit="lines" quantity="2"/>
+        </p>
+        <salute>I am, <lb/>With the higheſt Eſteem, <lb/>Sir, <lb/>Your moſt obedient Servant, </salute>
+        <signed>PETER SHAW </signed>
+      </div>
+    </front>
+    <body>
+      <pb xml:id="page_5"/>
+      <figure>
+        <figDesc>A wide ornamented horizontal column, spanning the whole page. </figDesc>
+      </figure>
+      <head rend="align-center">
+        <lb/>A <lb/><hi rend="size(3.0)">TREATISE </hi>
+        <lb/>OF <lb/><hi rend="size(3.0)">Incurable Diſeaſes, &amp;c. </hi>
+      </head>
+      <figure>
+        <figDesc>A horizontal line, spanning the whole page. </figDesc>
+      </figure>
+      <div type="part">
+        <head rend="italic align-center">
+          <lb/><hi rend="roman">I.</hi> Of the proper Means to reduce the Number of <hi rend="roman"
+            >Incurables</hi>. </head>
+        <p rend="space">
+          <lb/><hi rend="dc(7)">A</hi>LTHO' ſeveral cogent Reaſons, to demonſtrate the
+          <lb/>Feaſibility of the preſent Deſign, may be drawn from <lb/>the Nature of Diſtempers,
+          and the known Effects of <lb/>Medicines; the common Occurrences of daily Prac- <lb/>tice,
+          and the great Probability there is of bringing <lb/>many unknown Remedies to Light; yet
+          were it not <lb/>for what ſo grave and approv'd an Author, as the great
+          <lb/>Lord-Chancellor <hi rend="italic">Bacon</hi>, has recorded about incurable Diſeaſes,
+          it would per- <lb/>haps ſeem daring and preſumptuous to maintain the Poſſibility of
+          leſſening <pb xml:id="page_6" n="2"/>
+          <lb/>their Number, after ſo many Ages appear to have been unſucceſſfully ſpent <lb/>in
+          attempting it. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">For</hi>, the Cure of Incurables does not only involve a Paradox in the
+          <lb/>Expreſſion, but in an Age ſo productive of new Diſcoveries, and ſo fertile <lb/>in
+          Improvements as the preſent, it generally paſſes for a deſperate Problem; <lb/>and is apt
+          to be rank'd in the ſame Claſs with the Quadrature of the Cir- <lb/>cle, the Perpetual
+          Motion, and the Philoſopher's Stone. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">But</hi> the moſt celebrated and judicious Author abovementioned, is
+          clear <lb/>and expreſs, that Phyſicians <note place="bottom" n="a" rend="size(0.75)">
+            <p rend="indent">
+              <lb/><hi rend="sup">a</hi> When they enquire into Diſeaſes, find ſo many which they
+              aſſert to be <hi rend="italic">Incurable</hi>, either from their <lb/>firſt
+              Appearance, or after they have continu'd ſome Time, that the Proſcriptions of <hi
+                rend="italic">L. Scylla</hi>, and the <hi rend="italic">Trium-
+                  <lb/><unclear>virate</unclear></hi> were <unclear>trifli</unclear>ng in Compariſon
+              of the Proſcriptions of Phyſicians, by which, with the moſt unjuſt Sen- <lb/>tence
+              imaginable, they deliver Men over to Death<unclear>;</unclear> many of whom,
+              notwithſtanding, eſcape with leſs Diffi- <lb/>culty than <unclear>all</unclear> thoſe
+              formerly under the <hi rend="italic">Roman</hi> Proſcriptions. A Treatiſe therefore is
+              wanting upon the Cures <lb/>of repared incurable Diſeaſes, to the
+                <unclear>ki</unclear>nd that both Phyſicians and others of Eminence and Reſolution
+              may <lb/>be encouraged and excited to purſue this Matter as far as the Nature of it
+              will permit; ſince to denounce Diſ- <lb/>eaſes <hi rend="italic"
+                >Incurable</hi><unclear>,</unclear>
+              <unclear>is</unclear> to eſtabliſh Negligence and Careleſneſs, as it were by a Law, at
+              the ſame time that it <lb/>
+              <gap reason="illegible"/> Ignorance from Reproach. </p>
+          </note>
+          <q rend="diple">In inquiſitione illorum de Morbis, inve- <lb/>niunt Morbos complures quos
+              <hi rend="italic">Inſanabiles</hi> decernunt, alios jam inde à <lb/>principio
+            Morborum, alios poſt talem quampiam periodum. Ita ut L. <lb/>Scyllæ &amp; Trium-virorum
+            Proſcriptiones, res nihili fuerint præ Medico- <lb/>rum Proſcriptionibus, per quas tot
+            homines iniquiſſimis edictis morti <lb/>dedunt; quorum tamen plurimi minore cum
+            difficultate evadunt, quam <lb/>illi olim inter Proſcriptiones Romanas. Neque igitur
+            dubitabo (<hi rend="italic">continues <lb/>this great Author</hi>) inter Deſiderata
+            reponere Opus aliquod de Curati- <lb/>onibus Morborum, qui <hi rend="italic"
+              >habentur</hi> pro <hi rend="italic">Inſanabilibus</hi>; ut evocentur &amp; exciten-
+            <lb/>tur Medici aliique egregii &amp; magnanimi; qui huic operi, quantum largitur
+            <lb/>Natura rerum, incumbant; quando hoc ipſum, iſtos Morbos pronunci- <lb/>are <hi
+              rend="italic">Inſanabiles</hi>, neglectum &amp; incuriam veluti lege ſanciat, &amp;
+            ignoran- <lb/>tiam ab infamiâ eximat. </q>
+          <hi rend="italic">de Aug. Scient.</hi> L. IV. Cap. II. p. 310. </p>
+        <p rend="indent space">
+          <lb/><hi rend="sc">After</hi> ſuch a Declaration from ſo great a Man, it will not, I hope,
+          <lb/>appear either aſſuming or ridiculous to attempt a Diſcovery of the Cures <pb
+            xml:id="page_7" n="3"/>
+          <lb/>of ſuch deſperate or inveterate Diſeaſes as may chance unjuſtly to paſs <lb/>for
+          Incurable. Such a Deſign, at leaſt, ought not to be thought aſſuming, <lb/>if it be
+          enter'd upon according to his Lordſhip's Direction, <q rend="diple quotes">To the end
+            <lb/>that the more able Phyſicians, and Perſons of Eminence and Reſolution, <lb/>may be
+            encouraged and excited to a thorough purſuit of this Matter; </q>
+          <lb/>which is the main View in publiſhing this Treatiſe. </p>
+        <p rend="indent">
+          <lb/>And if an Indulgence be granted to any thing that may ſeem to carry an Air <lb/>of
+          Preſumption or Aſſurance in ſuch an Undertaking, I am perſuaded there are <lb/>few will
+          think an attempt of this Nature, Ridiculous or Impracticable, after ſo <lb/>very grave and
+          diſcerning an Author has laid it down for juſt and reaſonable. </p>
+        <p rend="indent">
+          <lb/>Some there are, however, who will be apt to ſay, granting many Diſ- <lb/>eaſes were
+          an hundred Years agoe, unwarrantably call'd Incurable; and al- <lb/>lowing the Phyſicians
+          of that time to have, in this Reſpect, been no <lb/>leſs unjuſt than rigid and ſevere; yet
+          after ſo many great Improvements, <lb/>and uſeful Diſcoveries made in Medicine of late,
+          'tis impoſſible the Cen- <lb/>ſures of the preſent Phyſicians ſhould be equally unjuſt, or
+          equally ſevere <lb/>with thoſe at the time when this great Author wrote. Others will go
+          <lb/>ſtill farther and cry, can it be imagin'd, when by a grand Increaſe of <lb/>Learning,
+          a through Reformation in Philoſophy, a prodigious Number of <lb/>uſeful Experiments, and
+          happy Diſcoveries in Mechanicks, Anatomy, Chy- <lb/>rurgery, Chymiſtry, Pharmacy, and
+          Botany, a noble Addition to the <hi rend="italic"> Ma- <lb/>teria Medica</hi>, and the
+          Introduction of a Mechanical Syſtem of Phyſic; <lb/>can it be imagined will ſome ſay, when
+          by theſe large Acquiſitions the <lb/>Art of Healing ſeems rais'd to its Achme, its
+          Pinnacle of Perfection, that <lb/>the Cenſures of Phyſicians are not extreamly juſt and
+          utterly Irreverſible; <lb/>and the Number of Incurables already ſhrunk and contracted
+          within the <lb/>narroweſt Bounds human Means can reduce them? </p>
+        <p rend="indent">
+          <lb/>Indeed, it may very well appear Surprizing, if with theſe accumulated <lb/>Advantages
+          the Art of Healing be not vaſtly improv'd, and the Number of <lb/>reputed incurable
+          Diſeaſes leſſen'd; and yet alas! the thing it ſelf will <lb/>ſpeak and tell us, that
+          Incurables were never more common, and that they <lb/>are ſo far from diminiſhing, that
+          they rather ſeem to grow upon us daily, <pb xml:id="page_8" n="4"/>
+          <lb/>inſomuch, that 'tis become neceſſary to provide for the meaner Sort of them <lb/>by a
+          new and an extraordinary Kind of Bounty. </p>
+        <p rend="indent">
+          <lb/>Beſides, as 'twere folly to endeavour to palliate the Matter, the com- <lb/>mon
+          Practice of every Place will, at this Day, afford a ſufficient Proof both <lb/>of the
+          great Number of Incurables, and the raſh Cenſures of Phyſicians. <lb/>For not to mention
+          that we daily ſee Perſons who were given over by <lb/>ſome Phyſicians, recover'd by
+          others, what Numbers after having been de- <lb/>clared Incurable by very eminent Men, and
+          ſuch as were well verſed in <lb/>phyſical Practice, have not found a Cure by Accident, the
+          Kindneſs of <lb/>Nature, the Obſervation of a Regimen, the Uſe of ſlight Medicines, a
+          <lb/>Courſe of Phyſic, or by venturing upon ſome deſperate Means? Inſtances <lb/>of all
+          theſe are every where ſo Numerous, that 'tis in vain to go about to <lb/>conceal the
+          Thing, or its pernicious Conſequences: Moſt Perſons are now <lb/>appriz'd, that <hi
+            rend="italic">Incurable</hi> in Phyſic has had a like Effect with <hi rend="italic"
+            >Occult Qua- <lb/>lity</hi> in Philoſophy, a Term which manag'd with Addreſs, amus'd the
+          Mul- <lb/>titude, and kept up a Veneration for an Appearance of Learning, but at <lb/>the
+          ſame time prov'd a very great Obſtacle to farther improvement in uſe- <lb/>ful Knowledge. </p>
+        <p rend="indent">
+          <lb/>'Tis well known alſo, that every Age has had its particular Kind of <lb/>Practice,
+          which was always adequate to the Diſcoveries of the Time, and <lb/>regulated by the
+          prevailing Philoſophy of the Place; ſo that this Practice <lb/>in the Infancy of the Art,
+          muſt neceſſarily have been proportion'd to an in- <lb/>fant Knowledge of Diſeaſes and
+          Remedies. 'Tis leſs to be wonder'd at there- <lb/>fore if the puny Phyſicians of the
+          earlieſt Ages ſhifted the obſtinate Caſes <lb/>from one to another, and were pleas'd to
+          denounce all the Diſeaſes incurable which <lb/>baffled their ſlender Skill. This
+          Procedure, however we laugh at in them, <lb/>but are our ſelves perhaps no leſs
+          Ridiculous; for we alſo turn off our deſ- <lb/>perate Patients, when our Remedies fail us,
+          and term that an incurable <lb/>Diſeaſe which obſtinately reſiſts the faſhionable Practice
+          of our Age and <lb/>Country. </p>
+        <p rend="indent">
+          <lb/>But is a Diſtemper therefore really Incurable, becauſe I, a ſecond, or a <lb/>third
+          Perſon cannot cure it? Or can this Term with any Propriety, be ap- <pb xml:id="page_9"
+            n="5"/>
+          <lb/>plied to a Caſe which has only eluded the prevailing or current Practice of <lb/>our
+          Time, without giving any evident Tokens, that 'tis abſolutely, and in <lb/>every reſpect
+          Incurable? If this be ſufficient to denominate a Diſeaſe incu- <lb/>rable, then numberleſs
+          Diſeaſes, which have been cured, were incurable. </p>
+        <p rend="indent">
+          <lb/>Doubtleſs this Term ought to be uſed with great caution, becauſe when
+          <lb/>miſapplied, it not only abuſes the Patient, but diſgraces the Profeſſion, <lb/>and
+          brings a Scandal on its Profeſſors, at the ſame time that it prevents an <lb/>Improvement
+          of the Art of Healing. But we of this Age ought more <lb/>than thoſe of any precedent one,
+          to demur in the Uſe of the Word, when <lb/>the Caſe is not very plain and evident; we who
+          are well acquainted with <lb/>the Structure of the human Body, and ſeveral grand Remedies
+          which were <lb/>unknown to former Ages; we who are Maſters of all the Experience of
+          <lb/>the Ancients, and have ſeen their Weakneſs and Errors, as well as our <lb/>own, in
+          calling ſome Diſeaſes incurable; we who cannot but own Poſte- <lb/>rity may improve in
+          their Knowledge of theſe Things, and be able to <lb/>cure Diſeaſes reputed by us
+          Incurable, as we have happily cured ſome that <lb/>were ſo reputed by Antiquity. Are not
+          we alſo ſenſible that Phyſicians <lb/>generally go in the ſame beaten Track, and that tho'
+          they differ in Forms, <lb/>yet uſually agree to exhibit the ſame Medicines in like Caſes?
+          Thus all <lb/>now preſcribe Mercury in the Venereal Lues, and Cortex in Intermittents;
+          <lb/>and if theſe happen to fail, the modiſh Practice of our days is ſuppos'd to <lb/>be
+          exhauſted, and without farther trouble, the Caſe is adjudg'd Incurable. <lb/>But as this
+          Sentence is frequently revers'd either by Nature, Accident, or <lb/>Art, it is, by no
+          means, of it ſelf ſufficient to denominate a Perſon proper- <lb/>ly Incurable, that his
+          Caſe has been unſucceſſfully preſcrib'd to by a few <lb/>Phyſicians. </p>
+        <p rend="indent">
+          <lb/>How it comes to paſs that Incurables are ſo numerous at this time, and <lb/>that
+          whilſt other Arts and Sciences appear in a flouriſhing Condition, and <lb/>even Medicine
+          it ſelf is greatly improv'd in its Theory, yet the Art of <lb/>Healing, the practical
+          Part, the moſt valuable Branch of Phyſic, and ulti- <lb/>mate End which all the other
+          Branches are deſtin'd to promote and centre <lb/>in, ſhou'd not be equally advanced, is a
+          Speculation that wou'd carry us <lb/>beyond the Bounds of the preſent Deſign. And as it is
+          of far greater Con- <pb xml:id="page_10" n="6"/>
+          <lb/>ſequence to know how to remedy this Defect in the Art of Healing, and <lb/>thereby
+          diminiſh, if poſſible, the Number of Incurables, than to account for <lb/>the ſlow
+          Progreſs of the phyſical Practice; I ſhall here confine my ſelf to <lb/>the former
+          Conſideration, and endeavour to ſhew what is the moſt proper <lb/>Method of proceeding in
+          order to diſcover the Cures of ſuch Diſtempers <lb/>as obſtinately reſiſt the preſent Form
+          of Practice, at the ſame Time that <lb/>they give no other Signs of their being abſolutely
+          and properly Incurable. </p>
+        <p rend="indent">
+          <lb/>The Method that I wou'd offer at in this caſe, is founded on a proper <lb/>Uſe of our
+          natural Faculties. If we will but open our Eyes, allow a free- <lb/>dom of Reaſoning, and
+          not be ſlow in reducing its Dictates to Action, <lb/>there are good grounds to hope that
+          the Number of reputed Incurables <lb/>will ſoon be leſſen'd, or at leaſt their increaſe be
+          prevented; and a more <lb/>accurate diſtinction of Diſeaſes for the future be introduced. </p>
+        <p rend="indent">
+          <lb/>As by a reputed incurable Diſeaſe, I always mean ſuch an one as proves <lb/>too
+          ſtrong for ordinary Treatment, without affording any farther reaſon <lb/>to perſuade us,
+          that the Cure of the ſame Caſe is utterly impoſſible to <lb/>be effected hereafter, to
+          attempt the Cure of a reputed incurable Diſ- <lb/>eaſe, is in no wiſe Wild or Romantick.
+          But the Way to diſcover ſuch a Cure, <lb/>is not to ſtop ſhort where the common Medicines
+          fail, lazily term the <lb/>Caſe Incurable, and then ſit down contented, and applaud our
+          ſelves for <lb/>having got to the extent of our Tether: On the contrary, if we wou'd in
+          <lb/>earneſt endeavour to benefit Mankind, by improving the Art of Healing, <lb/>from an
+          accurate Obſervation of the Phaenomena of Diſeaſes, we ſhould <lb/>proceed to deduce their
+          immediate Cauſes, and find out what kind of Re- <lb/>medies are wanting to remove them;
+          and then by the proper Experiments ob- <lb/>tain theſe <hi rend="italic">Deſiderata</hi>,
+          or at leaſt in defect of them, contrive to raiſe the <lb/>known Remedies to their utmoſt
+          Power, in order to ſee whether they <lb/>will not then reach the more ſtubborn Caſes. </p>
+        <p rend="indent">
+          <lb/>It is ſuch a Kind of Geometrical Method, which appears to me the moſt <lb/>proper to
+          be obſerv'd in this Purſuit; that way of Reaſoning from <hi rend="italic">Data</hi>
+          <lb/>to <hi rend="italic">Quæſita</hi>, which has done Wonders in Philoſophy, Aſtronomy,
+          and <lb/>Mechanicks. But it happens moſt unfortunately, that inſtead of encoura- <lb/>ging
+          and purſuing this noble Method in Phyſic, we ſeem almoſt entirely to <pb xml:id="page_11"
+            n="7"/>
+          <lb/>diſcountenance and contemn it; inſtead of endeavouring by this means to cul-
+          <lb/>tivate the moſt momentous Art on Earth, we are too often amuſing our ſelves <lb/>with
+          what is Trifling, when ſet in Competition with it; and inſtead of <lb/>endeavouring to
+          leſſen the Number of Incurables, or eaſe their Tortures, <lb/>we are either wrapt up in
+          the Clouds, and contemplating the Stars, or <lb/>groveling on the Ground in queſt of
+          Pebbles. Not that I would Reflect <lb/>on any part of Knowledge, though ever ſo little
+          uſeful; but ſurely thoſe <lb/>who have attach'd themſelves to Phyſick, and make Profeſſion
+          of its Practice, <lb/>are inexcuſable, if this has no ſhare in their Studies. Some
+          excurſions out <lb/>of this Province are perhaps allowable, but we ſhould not methinks al-
+          <lb/>ways content ourſelves with ſearching after Things which are utterly <lb/>foreign to
+          Phyſic. The Theory of Phyſic, indeed, no one can deny to <lb/>be uſeful, ſo far as it
+          brings Advantage to the Practice; but who does not ſee <lb/>that 'tis Prepoſterous to
+          ſpend Time in computing the abſolute force of the <lb/>Muſcles, the weight of the Air upon
+          the Lungs, the juſt Momentum <lb/>of the FLuids, and a thouſand other Things; whilſt there
+          remain ſo ma- <lb/>ny inquiries of infinitely greater Importance to be made, and which
+          might <lb/>even diſcover the cure of ſuch Diſeaſes as we now miſcall Incurable? </p>
+        <p rend="indent">
+          <lb/>Is it not ſhocking to ſee what Pains and Application are beſtow'd in <lb/>promoting
+          other Arts and Sciences, whilſt Phyſick alone is abandon'd, and <lb/>ſeems to be almoſt
+          the only Art that is not cultivated among us? Thus in <lb/>Aſtronomy, a glorious Science
+          indeed, and tho' not unworthy of the Eſteem it <lb/>meets with, is yet infinitely leſs
+          conducive to the Well-being of Mankind <lb/>than the Practice of Phyſick; what immenſe
+          Labour and Aſſiduity are em- <lb/>ploy'd? With what diligent attendance and watching is a
+          new Star added <lb/>to the Catalogue, or another Satellite to the train of a Planet? What
+          Drud- <lb/>gery is not gladly undergone, to determine the Magnitudes, Diſtances,
+          <lb/>Periods of Revolution, Gravities and Denſities of the remote planetary and
+          <lb/>cometary World? But if any profeſs'd Phyſicians, leaving their own Art <lb/>to the
+          improvement of others, ſhall give themſelves up to the cultivati- <lb/>on of <hi
+            rend="italic">this</hi>, they may pleaſe to conſider that ſuch procedure will afford
+          <lb/>little Conſolation to a Man under the raging torture of the Gout or Stone, <lb/>or to
+          thoſe doom'd to languiſh under the hard Sentence of Incurable. <pb xml:id="page_12" n="8"/>
+          <lb/>What will it avail ſuch as theſe, to be told the exact Minute of an E- <lb/>clipſe,
+          or other Reſults of numerous Obſervations, and laborious Calcula- <lb/>tions? And yet
+          theſe Things which concern us ſo little are highly priz'd, <lb/>at the Expence of
+          Medicine; and the Knowledge of them obtain'd with <lb/>the moſt vigorous Reſolution and
+          aſſiduous Application. How we can <lb/>anſwer the not taking equal Pains to diſcover new
+          Remedies, improve <lb/>the old ones, and advance the Art of Healing, when the Lives of
+          Man- <lb/>kind are immediately concern'd in it, I am at a loſs to know. But to re-
+          <lb/>turn. </p>
+        <p rend="indent">
+          <lb/>The Method I would recommend to find the Cures of reputed incurable <lb/>Diſeaſes,
+          will be beſt underſtood by the Specimen annext; where I aim to pro- <lb/>ceed intirely
+          upon rational Grounds. I muſt therefore take leave to obſerve, <lb/>that the free uſe of
+          our Reaſon is the beſt Guide we can make choice of to lead <lb/>us to this Diſcovery. By
+          the uſe of Reaſon I wou'd be underſtood to mean the <lb/>exerciſe of that Faculty upon
+          Subjects relating to Diſeaſes, in order to find a de- <lb/>ſirable and promiſing Method of
+          Cure for an inveterate Caſe, when the <lb/>current Practice has proved unſucceſſful; that
+          is, ſuch a Method as ſhall, be- <lb/>fore it be try'd, appear likely to ſucceed, when
+          conſider'd by a rational <lb/>Phyſician, and is more eligible to the Patient, than the
+          Diſtemper 'tis <lb/>intended to rid him of, or at leaſt to palliate. Such a Method of Cure
+          <lb/>as this, is, in my Opinion, unexceptionable, in reputed incurable Caſes; and
+          <lb/>ought without ſcruple to be put in Practice by a reputed incurable Pati- <lb/>ent;
+          becauſe ſuch a Patient can have no hopes of a Recovery, but either <lb/>from meer Chance
+          or Empiriciſm, or elſe from the tryal of ſuch a ratio- <lb/>nal Means as is here propos'd:
+          But any rational Perſon will ſurely rather <lb/>rely on Reaſon, than Chance for a Cure.
+          Moreover, true reaſoning from <lb/>the requiſite <hi rend="italic">Data</hi>, brings us to
+          abſolute certainty; and is always prefera- <lb/>ble to Belief, Tradition, caſual
+          Experience, or any other Aſſiſtance rely'd <lb/>on in phyſical Practice: a general and
+          rational Phyſician therefore, who <lb/>is never unprovided of <hi rend="italic">Data</hi>
+          to Reaſon from, cannot do better than <lb/>thus to apply this Faculty. And if the reſult
+          of this Application be the diſ- <lb/>covery of a deſirable and promiſing Method of Cure,
+          he cannot do bet- <lb/>ter, in the way of his Profeſſion, than to recommend it. </p>
+        <pb xml:id="page_13" n="9"/>
+        <p rend="indent">
+          <lb/>This method of Procedure will be readily acquieſc'd in by thoſe who <lb/>are
+          unacquainted with the general fate of Phyſick. Such Perſons are apt <lb/>to imagine, that
+          this is the common foot upon which all rational Phyſici- <lb/>ans proceed in their daily
+          Practice, and that no other tolerable Method can <lb/>be eſtabliſh'd. But theſe Perſons
+          are not aware how extreamly cautious and <lb/>ſparing Phyſicians have formerly been in the
+          uſe of their Reaſon. That Body <lb/>of Men have all along had ſo tender a Regard to their
+          fellow-Creatures, that <lb/>they thought their utmoſt care was neceſſary in the
+          Application of Reme- <lb/>dies; and therefore rarely ventured to truſt ſo dangerous a
+          Thing as Rea- <lb/>ſon in the uſe of 'em. And ſo Experience, ſafe Experience, came to be
+          <lb/>wiſely ſubſtituted in its ſtead: this was the Oracle, this alone was ex- <lb/>toll'd,
+          and Reaſon, fallacious Reaſon was decry'd and contemn'd, as ha- <lb/>ving little to do in
+          the Practice of Phyſick. Hence they proceeded to ſettle <lb/>Rules, and eſtabliſh Forms
+          from Experience, chuſing always to uſe the Remedies <lb/>which had been uſed before, and
+          to preſcribe over again what they had already <lb/><hi rend="italic">experienc'd</hi>. To
+          ſwerve from the eſtabliſh'd Method, or prevailing Practice of <lb/>the Age, was commonly
+          thought bold and dangerous; and to try a new Re- <lb/>medy, tho' it might promiſe ever ſo
+          fair, was look'd upon as hazardous and <lb/>preſumptuous. The practice of Phyſick being
+          thus curb'd in, and re- <lb/>ſtrain'd, has advanced by very ſlow Paces; and all this for
+          want of a ſound <lb/>Philoſophy, and a larger ſtock of <hi rend="italic">Data</hi>. For
+          certainly there can be no o- <lb/>ther Pretence, why this beſt of Faculties ſhould be
+          thrown aſide as uſe- <lb/>leſs, or diſadvantagious in Phyſick, rather than in Philoſophy,
+          or any of <lb/>the Arts and Sciences. But now as the caſe is otherwiſe, as our <hi
+            rend="italic">Data</hi>
+          <lb/>are more numerous, and the way of reaſoning from them is improv'd; as <lb/>our
+          preſent Syſtem of Philoſophy is ſolid and extenſive, and the Subject of <lb/>Phyſick, the
+          animal Structure, is vaſtly better defin'd and underſtood; 'twould <lb/>be highly abſurd
+          to pretend, that this grand Talent ought not to be ap- <lb/>plied to diſcover the cures
+          of, at leaſt, the reputed incurable Diſeaſes a- <lb/>mong us. For in theſe Caſes, our
+          preſent ſtock of Experience is confeſ- <lb/>ſedly of no Service, and new random Trials
+          might be juſtly deem'd raſh <lb/>and Preſumptuous: An attempt therefore to form a method
+          of Cure, by argu- <lb/>ing from the nature of the Diſeaſe, to the diſcovery of more
+          powerful <pb xml:id="page_14" n="10"/>
+          <lb/>Remedies, is here the only rational and promiſing means we have <lb/>left. </p>
+        <p rend="indent">
+          <lb/>It will ſurely be granted, that the preſent practice of Phyſick is im-
+          <lb/>proveable, if it be conſider'd, that the ſeveral Branches of which this Art <lb/>is
+          compos'd, are daily improving; whilſt new diſcoveries are made in A- <lb/>natomy, and
+          Chirurgery grows more compleat; whilſt Chymiſtry and Phar- <lb/>macy furniſh us with new
+          Preparations, and Mechanicks is more ſucceſſ- <lb/>fully applied to the animal Structure;
+          it cannot be doubted but ſome uſe <lb/>may be made of theſe Things to the advantage of
+          Phyſick, and the cure of <lb/>reputed incurable Diſeaſes. There is no room to queſtion,
+          that many <lb/>powerful Remedies lye now abſconded, or enveloped in their firſt Prin-
+          <lb/>ciples, if it be conſider'd, that the whole Set we are at this time ac- <lb/>quainted
+          with, were once in the ſame ſtate of Darkneſs and Confuſion. <lb/>Let us but reflect, that
+            <hi rend="italic">Agues</hi> were reputed incurable till the Cortex was <lb/>found, and
+          its Uſes known, as well as the <hi rend="italic">Lues Venerea</hi> till Mercury, and
+          <lb/>the Woods were applied; and conſider by <hi rend="italic">what</hi> means not only
+          theſe, <lb/>but numberleſs other uſeful Medicines were obtain'd; and then there <lb/>will
+          be very great Encouragement to expect, that if diligent ſearch were <lb/>made, and the
+          proper Experiments inſtituted, many grand Remedies <lb/>might be diſcloſed, and ſuch as
+          wou'd be of force ſufficient to cure <lb/>ſome Diſeaſes which now lye under the unjuſt
+          Sentence of Incurable. </p>
+        <p rend="indent">
+          <lb/>Nor is this the only reaſon we have to hope for ſuch a Redreſs in the <lb/>Art of
+          Healing, and a conſiderable Reduction of the preſent Incurables: great <lb/>Aſſiſtance may
+          in this caſe be likewiſe obtain'd from a due management of <lb/>the Remedies we are
+          already poſſeſs'd of. For there are ſo many Requiſites <lb/>neceſſary to advance theſe to
+          their higheſt Power, that it may very well be <lb/>queſtioned, if the utmoſt force they
+          are capable of affording, was ever <lb/>exerted on the cauſe of any Diſeaſe. </p>
+        <p rend="indent">
+          <lb/>Chymiſtry has improv'd the Efficacy of many Medicaments, and ſhewn <lb/>them to have
+          ſuch Virtues, as were utterly unknown before that Art be- <lb/>came general: And Fire is
+          an Element from which other as great Matters <lb/>may be juſtly expected. Beſides this, an
+          inverted Order, a well propor- <lb/>tion'd Doſe, a proper preparation of the Body and
+          Medicine, a right Choice, <pb xml:id="page_15" n="11"/>
+          <lb/>a ſelect Combination, with many other Things of the like kind, have an <lb/>immenſe
+          Power to increaſe the Virtues of Remedies. Here then is an al- <lb/>moſt inexhauſtible
+          fountain of uſeful Varieties put into our Hands, which we <lb/>can manage as we pleaſe;
+          and if they were properly employ'd, 'tis not to <lb/>be ſaid what Effects they might
+          produce in obſtinate or reputed incurable <lb/>Caſes. That this may the better be
+          apprehended, let it be conſider'd by <lb/>way of Illuſtration, that when the <hi
+            rend="italic">Cortex</hi> has prov'd ineffectual for the <lb/>cure of an Ague, being
+          given before the Body was rightly diſpos'd, it <lb/>will ſucceed when exhibited after due
+          Preparation; that Opiates mixed <lb/>with Purgatives will take effect, which adminiſtred
+          ſingle might fail; that <lb/>Solids will purge when Fluids will not; that lenient
+          Purgatives will <lb/>open the Body where ſtrong Catharticks wou'd looſe their force; that
+          <lb/>ſome Medicines ſucceed when given in ſmall quantities, at long Intervals, <lb/>which
+          adminiſtred otherwiſe would have a contrary effect; and in ſhort, <lb/>that all poſſible
+          Combinations, Doſes, Preparations, <hi rend="italic">&amp;c.</hi> have never yet <lb/>been
+          try'd, nor perhaps ever can be exhauſted. </p>
+        <p rend="indent">
+          <lb/>From all which it appears, that the cures of ſome reputed incurable Diſ- <lb/>eaſes
+          may be juſtly expected, either from a diſcovery of new powerful Reme- <lb/>dies, or a more
+          appoſite uſe of the old ones. Our Method therefore ought <lb/>to have regard to both theſe
+          Deſiderata. </p>
+        <p rend="indent">
+          <lb/>In order to acquire new Remedies, let us ſuppoſe the true and immediate <lb/>Cauſe of
+          a ſtubborn diſorder to be found, which in all bodily Diſeaſes, is com- <lb/>monly
+          material; our Method of proceeding directs us to obtain this material <lb/>Cauſe,
+          where-ever it can be come at, and to make the proper Experiments up- <lb/>on that very
+          Matter out of the Body, which being included in it was the Parent <lb/>of the Diſorder. An
+          Example or two will make all plain. The <hi rend="italic">cretacecus <lb/>Matter</hi>, or
+            <hi rend="italic">chalky Stones</hi>, which are often thrown out in a Fit of the Gout,
+          ap- <lb/>pear to have been the immediate cauſe of that Fit. A proper quantity of theſe
+          <lb/>therefore being obtain'd, and the Nature of them diſcover'd from the <lb/>Symptoms of
+          the Diſtemper, <hi rend="italic">&amp;c.</hi> we are hence directed to try any Prepa-
+          <lb/>ration that we know has a power to act upon, and diſſolve Matter of the <lb/>like
+          kind. But in caſe ſuch a Diſſolvent be unknown to us, then are we <lb/>to contrive ſome
+          Compoſitions, after the ſame manner as if we were pre- <pb xml:id="page_16" n="12"/>
+          <lb/>ſcribing to an inveterate caſe of a Patient afflicted with the Diſtemper, <lb/>and
+          try their Virtues upon theſe Stones, till at length we arrive at a Prepa- <lb/>ration that
+          proves a real Diſſolvent, at the ſame time that it may be ſafely <lb/>adminiſtred, ſome
+          convenient way, in ſuch a quantity as to be able to ef- <lb/>fect the like diſſolution of
+          that cretaceous Matter, whilſt it is circulating in <lb/>the Fluids of the Body. Such a
+          Compoſition, 'tis reaſonable to expect, <lb/>wou'd prove a grand Remedy, and perhaps a
+          Specifick, that is, ſuch a Me- <lb/>dicine as will effect a Cure without cauſing any
+          ſenſible Evacuation. Un- <lb/>derſtand the like Experiments to be made upon the Stones,
+          which are apt <lb/>to lodge in the Bladder or Kidneys, till a proper Diſſolvent be found,
+          which, <lb/>if it cannot ſafely effect the deſired diſſolution in the Body, may at leaſt
+          <lb/>be ſo managed, as to prevent the future Generation of a Stone. Again, <lb/>ſuppoſing
+          the caſe of an Hydrophobia occaſion'd by the Bite of a mad Dog, <lb/>where we know the
+          Fluids are contaminated by an actual Poyſon, which <lb/>being contagious by a
+          Communication of any of thoſe Fluids, a way may very <lb/>eaſily be contriv'd to obtain a
+          quantity of the infected Saliva, or any other of <lb/>the animal Juices, in order to make
+          the proper Experiments upon it, till <lb/>an Antidote for the Venom were by that means
+          diſcover'd. This Antidote <lb/>might thus be known to be found. Suppoſing two equal
+          Portions of the con- <lb/>taminated Fluid to be procured, and the preſumed Antidote to be
+          mix'd in <lb/>one of them, let both be communicated by Injection, or otherwiſe to two
+          <lb/>ſound Dogs; and if that wherein the preſum'd Antidote was contain'd, <lb/>proves
+          harmleſs, and the other noxious, and the ſame Conſequence at- <lb/>tends the ſame
+          Experiment in two or three Repetitions; it would be rea- <lb/>ſonably to expect that the
+          Cure of this cruel Diſeaſe was diſcover'd, and <lb/>the Medicine might therefore be try'd
+          occaſionally upon Hydrophobous <lb/>Patients, or rather adminiſtred ſoon after the Bite
+          was receiv'd. </p>
+        <p rend="indent">
+          <lb/>How far this Method of proceeding may be put in Practice, I will not <lb/>preſume to
+          determine; but 'tis very probable that it may be advantageouſly <lb/>purſu'd at leaſt in
+          all thoſe Diſtempers which yield a groſſer kind of Mat- <lb/>ter for their Cauſe, or elſe
+          depend upon, a viſible alteration in the Con- <lb/>ſiſtence, Texture, <hi rend="italic"
+            >&amp;c.</hi> of the Fluids. This is certainly a moſt deſirable <lb/>and rational way of
+          procuring Specificks or grand Remedies, ſince the <pb xml:id="page_17" n="13"/>
+          <lb/>Lives of Mankind are not hereby in the leaſt endanger'd; and it otherwiſe
+          <lb/>remains, that we wait for their Diſcovery till mere chance ſhall place them
+          <lb/>before us, open our Eyes, and force us by repeated Importunities and Solli-
+          <lb/>citations, at once to acknowledge their Virtues, and our own Indolence. If <lb/>the
+          whole tribe of reputed incurable Diſeaſes, gave ſuch fair Opportunities as <lb/>theſe for
+          the diſcovery of their reſpective Specificks (and that moſt of them <lb/>do not, I would
+          have no one be too poſitive) we might ſoon ſee their <lb/>number ſhrink, upon allowing a
+          proper Patronage and Encouragement to <lb/>this kind of Experiments. </p>
+        <p rend="indent">
+          <lb/>And here I cannot but take notice, how apt we are to plume our ſelves <lb/>upon
+          living in an Age when experimental Philoſophy flouriſhes. Experi- <lb/>ments, its true,
+          are daily made, but I wou'd fain know to what grand <lb/>Purpoſes they ſerve? Several
+          indeed there are, whoſe deſign is highly Com- <lb/>mendable; but are there any now on
+          foot, or that can poſſibly be con- <lb/>triv'd, of greater Moment, than the ſort above
+          mentioned; any more Bene- <lb/>ficial to Mankind, or Ornamental to a Nation; any ſo well
+          deſerving the <lb/>Encouragement of the Wealthy, and the Countenance of the Learned?
+          <lb/>But inſtead of ſuch uſeful Eſſays as theſe, we generally meet with At- <lb/>tempts ſo
+          mean and low, ſo trivial and contemptible, in compariſon <lb/>of them, that one wou'd be
+          tempted to think they came from the igno- <lb/>rant Vulgar, and the Herd of Mankind,
+          rather than from the polite and <lb/>philoſophical Part of the Species. 'Tis a melancholy
+          Reflection, that thoſe <lb/>Perſons from whoſe open Profeſſion, ſurprizing Diſcoveries
+          might be juſtly <lb/>expected, ſhould generally amuſe us with the <hi rend="italic"
+            >Minutiæ</hi> of Things, put <lb/>us off with the Tith of Mint and Cummin, and leave us
+          to ſeek the weigh- <lb/>tier Matters, the advancement of Phyſic, and the Reduction of
+          Incurables <lb/>from another Quarter. </p>
+        <p rend="indent">
+          <lb/>But what an Improvement of the Art of Healing may we not expect, what
+          <lb/>Alleviation of the Miſeries of the Incurable may we not hope for, when a ſpa-
+          <lb/>cious Building is now purpoſely crecting for their Reception and Uſe? This <lb/>ſeems
+          not only a particular Inſtance of compaſſionate Bounty, but a Deſire ex- <lb/>preſs'd for
+          the improvement of Phyſic, and the univerſal Benefit of Mankind <lb/>in an illuſtrious
+          Preſident of a ſolid and diffuſive Good. Phyſicians then, we <pb xml:id="page_18" n="14"/>
+          <lb/>may reaſonably preſume, will not now be ſo far wanting to themſelves, to <lb/>their
+          Art, and to human Nature, as to neglect this or the like favourable <lb/>Opportunities, of
+          raiſing the Reputation of their Profeſſion, by diſcovering <lb/>the Cures for the unjuſtly
+          ſuppos'd Incurable, and leſſening the Torments <lb/>of the miſerable Objects, to whom ſuch
+          Goodneſs is ſhewn. </p>
+        <p rend="indent">
+          <lb/>No longer let us, through Eaſe and Indolence, give occaſion to <lb/>Empiricks to
+          triumph over us, and boaſt themſelves Maſters of Speci- <lb/>ficks for the Diſeaſes which
+          we inconſiderately pronounce Incurable: No <lb/>longer let us ſuffer the People to be
+          deluded with the ſpecious <hi rend="italic">Arcana</hi> of <lb/>ignorant Men; <hi
+            rend="italic">Arcana</hi> the dear and deſperate purchace of hazardous Ex-
+          <lb/>periments, and random trials on the human Kind: No longer let us leave <lb/>to
+          Chance, and the ſlow workings of Nature, the Diſcovery and Production <lb/>of thoſe uſeful
+          Remedies which we are furniſh'd with Faculties to ſearch for <lb/>and obtain. Who does not
+          rather repoſe his Confidence in Reaſon, and <lb/>the due exerciſe of his own Abilities,
+          than truſt to Accident the manage- <lb/>ment of any Affair? And ſhall we in the Art of
+          Healing alone, put off <lb/>our inquiries till Chance ſhall deign to preſent us with the
+          means of Re- <lb/>covery, when Health is within our own reach? We ſeem to want no Pre-
+          <lb/>parative in this caſe, but a Reſolution to ſtep beyond the ſlow-paced Practice
+          <lb/>in vogue, and to be guided by our Reaſon in the choice of Experiments. We <lb/>are
+          every way fitted to go immediately upon ſo uſeful an Undertaking: <lb/>We have ſeen the
+          Effects of a tolerable number of Trials made upon <lb/>human Blood, and other animal
+          Fluids; which when improv'd and enlar- <lb/>ged, may ſerve to very uſeful Purpoſes: We are
+          furniſh'd with a large ſtock <lb/>of <hi rend="italic">Data</hi>, and know how to increaſe
+          it at Diſcretion: The Cauſes of Di- <lb/>ſeaſes are generally known, and Materials for
+          Experiments are every where <lb/>at hand; ſo that if the Work were heartily ſet about,
+          there is no fear of <lb/>Succeſs. A Set of <hi rend="italic">Axioms</hi> alſo might be
+          laid down to encourage and di- <lb/>rect the Undertaking, and ſerve as Rules in the
+          Proſecution of it. Such <lb/>as the following for Example. <list>
+            <item rend="indent" n="1">
+              <lb/>1. Mathematical Certainty ought not to be expected in Phyſic. </item>
+            <item rend="indent" n="2">
+              <lb/>2. A Chronic Diſeaſe allows many Opportunities for the Diſcovery and <lb/>Uſe of
+              Remedies. </item>
+            <pb xml:id="page_19" n="15"/>
+            <item rend="indent" n="3">
+              <lb/>3. The ſucceſs or failure of a ſingle Experiment, is not ſufficient to
+              <lb/>eſtabliſh or aboliſh the uſe of a Remedy. </item>
+            <item rend="indent" n="4">
+              <lb/>4. If any undeſirable Method of Cure ſhall, upon repeated trials, ei- <lb/>ther
+              prove intirely unſucceſsful, or ſuffer more to die than recover, it <lb/>ought not to
+              be acquieſc'd in, before, at leaſt, other more deſirable and pro- <lb/>miſing Methods
+              ſhall have been tried. </item>
+            <item rend="indent" n="5">
+              <lb/>5. 'Tis better to try any deſirable and promiſing Method of Cure, than <lb/>run
+              the hazard of languiſhing out a Life in Pain and Miſery. </item>
+            <item rend="indent" n="6">
+              <lb/>6. If any Diſeaſe can be tranſmuted into another, attended with leſs <lb/>Danger,
+              and leſs Pain, every ſuch Tranſmutation is a Degree of Cure. </item>
+            <item rend="indent" n="7">
+              <lb/>7. A Remedy that acts immediately upon the Seat of a Diſeaſe, is more <lb/>likely
+              to effect a Cure, than one that acts only Conſequentially upon it. </item>
+            <item rend="indent" n="8">
+              <lb/>8. No more cauſes of a Diſeaſe need be inquired after, than will fairly <lb/>and
+              naturally account for its <hi rend="italic">Phænomena</hi>. </item>
+            <item rend="indent" n="9">
+              <lb/>9. In every inveterate and dangerous Diſeaſe, the moſt powerful Reme- <lb/>dies
+              ought to be immediately applied. </item>
+            <item rend="indent" n="10">
+              <lb/>10. No Remedy can rationally be directed before it be known what <lb/>Life is,
+              together with its Cauſe, State and Effects; and what a Diſeaſe is, <lb/>together with
+              its Cauſe, State and Effects. </item>
+          </list>
+        </p>
+        <p rend="indent">
+          <lb/>Theſe may ſuffice for a Specimen of what Rules might be given to for- <lb/>ward the
+          diſcovery of the Cures of reputed incurable Diſeaſes. </p>
+        <p rend="indent">
+          <lb/>But let this buſineſs proceed as it may, and that the Succeſs will be pro-
+          <lb/>portionable to the Application, cannot be denied; we certainly have it <lb/>already
+          in our Power, by the Uſe of known Remedies to make ſe- <lb/>veral, whether real or reputed
+          Incurables, paſs their Lives with more <lb/>eaſe and ſatisfaction than they would enjoy
+          without, them: Nay, by <lb/>well adapted Regimen and Remedies, 'tis poſſible not only to
+          palliate, <lb/>but to change a ſtubborn Diſtemper, ſo that it may juſtly paſs for a
+          <lb/>degree of Cure, or really become a partial one. But when a Caſe is per-
+          <lb/>emptorily adjudg'd abſolutely Incurable, the Patient is uſually diſpirited, <lb/>and
+          with difficulty brought to follow thoſe Rules which wou'd produce <lb/>this Effect. For
+          which reaſon the Sentence of Incurable, be the Caſe what <lb/>it will, ſhou'd never be
+          paſs'd with Rigour. </p>
+        <pb xml:id="page_20" n="16"/>
+        <p rend="indent">
+          <lb/>There is another thing ſtill behind, and I am glad to find it inſiſted up- <lb/>on
+          by, no leſs a Perſon than that Ornament to our Nation, the great Lord <lb/><hi
+            rend="italic">Bacon</hi>, whom I have already had occaſion to mention; not only becauſe
+          <lb/>I know it is neceſſary for the Author of any Doctrine which car- <lb/>ries the Air of
+          Novelty, to produce his Voucher; but becauſe the Thing <lb/>it ſelf ſeems ſomewhat
+          contrary to the general Practice of Phyſicians, and <lb/>the Senſe of ſome People. 'Tis
+          concerning the proper Means to render <lb/>Death eaſy, or leſs irkſom, when its approach
+          can no longer be put off or <lb/>delay'd by the Uſe of Remedies: Concerning which, our
+          great Author <lb/>expreſſes himſelf in this manner. <note place="bottom" n="a"
+            rend="size(0.75)">
+            <p rend="indent">
+              <lb/><hi rend="sup">a</hi>
+              <q rend="diple quotes">I am clearly of Opinion<unclear>,</unclear> That 'tis the Duty
+                of a Phyſician to mitigate the Pain and Torture of a <lb/>Diſeaſe, as
+                  wel<unclear>l</unclear> as to reſtore Heath, and this not only when ſuch a
+                Mitigation tends to a Recovery, as <lb/>it is the removal of a dangerous Symptom,
+                but alſo when there being no farther Hopes of a Recovery, <lb/>it can only ſerve to
+                make the Paſſage out of Life more calm and eaſy. For that Complacency in Death,
+                <lb/>which <hi rend="italic">Auguſtus</hi> ſo much deſired<unclear>,</unclear>
+                <unclear>i</unclear>s no ſmall Happineſs.—But 'tis a point of Conſcience with the
+                <lb/>Phyſicians of our Days, to ſit by the Sick after they have given them over;
+                when in my Opinion, if <lb/>they wou'd do an Office of Humanity in their own
+                Profeſſion, they ought to be gaining Skill in their <lb/>Art, whilſt they
+                endeavoured to make the dying Perſon depart with more Eaſe and Tranquillity </q>.
+            </p>
+          </note>
+          <q rend="diple quotes">Etiam plane cenſeo ad officum <lb/>Medici pertinere, non tantum ut
+            ſanitatem reſtituat, verum etiam ut <lb/>dolores &amp; cruciatus Morborum mitiget: Neque
+            id ipſum ſolummodo, <lb/>cum illa mitigatio Doloris, veluti Symptomatis periculoſi, ad
+            convale- <lb/>ſcentiam faciat &amp; conducat, imo vero cum abjectâ prorſus omni ſanita-
+            <lb/>tis ſpe, Exceſſum tantum præbeat è vita magis lenem &amp; placidum. Si- <lb/>quidem
+            non parva eſt felicitatis pars, (quam ſibi tantopere precari ſole- <lb/>bat Auguſtus
+            Cæſar) illa Euthanaſia. — At noſtris temporibus Medicis <lb/>quaſi Religio eſt, ægrotis
+            poſtquam deplorati ſint aſſidere, ubi ſi officio <lb/>ſuo, atque adeo humanitati ipſi
+            deeſſe nolint, &amp; artem ediſcere, &amp; diligen- <lb/>tiam præſtare deberent, quâ
+            animam agentes, facilius &amp; mitius è vita de- <lb/>migrent. Hanc autem partem,
+            inquiſitionem de Euthanaſia exteriori <lb/>—inter Deſiderata reponimus. </q>
+          <hi rend="italic">de Aug. Scient.</hi> L. IV. C. 2. p. 311. <lb/>And accordingly his
+          Lordſhip ſets down as a Deſideratum, <hi rend="italic">A Method to <lb/>cauſe a Compoſure
+            in dying</hi>, and does not appear to diſapprove even of <lb/>that courſe which <hi
+            rend="italic">Epicurus</hi> took to obtain this end, which was by intoxi- <lb/>cating
+          himſelf. <lb/>
+          <q rend="italic align-center">—Hinc Stygias ebrius hauſit Aquas. </q>
+          <pb xml:id="page_21" n="17"/>
+          <lb/>But tho' the Phyſicians of our Time are acquainted with better ways than <lb/>this,
+          to cauſe ſuch a Compoſure, yet I don't know how it happens <lb/>that few are careful to
+          put them in Practice; unleſs it be for fear of bringing <lb/>Death the ſooner upon the
+          Patient, inſtead of rendring the paſſage out of <lb/>Life more eaſy. For I believe there
+          are not many who apprehend ſuch a Pro- <lb/>cedure to be unnatural, and who would chuſe to
+          feel that Pain and Torture <lb/>which ſome weak Minds may fancy Nature intended they
+          ſhou'd; and ſo be <lb/>willing to dye by the regular workings of Providence, rather than
+          be thrown <lb/>out of the ordinary way by human Art. 'Tis therefore methinks a proper en-
+          <lb/>quiry, by what means this compoſure in Death may be obtain'd, and whether <lb/>it
+          cou'd not be effected by a Remedy which ſhould rather promote than pre- <lb/>vent a
+          Recovery. And ſince there may be frequent occaſions for ſuch an <lb/>Aſſiſtant; ſince it
+          would be inhuman to deny it, when requeſted; and ſince <lb/>the Art in it ſelf is
+          doubtleſs very deſirable, and highly beneficial, 'tis pity <lb/>that any opportunity of
+          improving it ſhould be neglected. </p>
+        <figure>
+          <figDesc>A floral ornament in the middle of the page. </figDesc>
+        </figure>
+      </div>
+      <pb xml:id="page_22" n="18"/>
+      <figure rend="space">
+        <figDesc>An ornamented horizontal column, spanning the whole page. </figDesc>
+      </figure>
+      <div type="part">
+        <head rend="italic size(1.75) align-center space">
+          <lb/>An Attempt to ſettle a juſt Notion of <hi rend="roman">Incurable</hi> in <lb/>Phyſic. </head>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">N</hi>O proper meaning being generally convey'd by the word <hi
+            rend="italic">Incurable</hi>, <lb/>'tis neceſſary to appropriate one to ſo important a
+          Term. </p>
+        <p rend="indent">
+          <lb/>That the bad tendency of a Diſtemper, from its firſt Exiſtence to its la- <lb/>teſt
+          continuance in the Body, cannot in the leaſt be prevented; or that, <lb/>after a ſtated
+          Period, the cure of a caſe can by human Means, be advanced <lb/>no farther, is what this
+          Term in propriety of Speech ſhou'd conſtantly ſig- <lb/>nify. </p>
+        <p rend="indent">
+          <lb/>But, a looſe and abuſive Senſe of the Word has ſo univerſally obtain'd, <lb/>and is
+          ſo apt on ſeveral occaſions to be run into, that 'twill be difficult <lb/>to make it
+          always carry this more reſtrain'd and correct Signification. Nor <lb/>is it an eaſy matter
+          in ſome Caſes, to obtain ſuch a diſtinct and poſitive <lb/>Idea as ought to be rais'd by
+          this Sound, when we talk of Diſeaſes in a Phi- <lb/>loſophical manner; which perhaps is
+          one reaſon why ſo many Diſtempers <lb/>commonly paſs under this Denomination; and that
+          when a certain form <lb/>of Remedies has for a determin'd ſpace of Time, been uſed without
+          the <lb/>deſired Effect, the caſe is merely upon this account pronounc'd Incurable.
+          <lb/>But 'tis apparent that there may happen a wide difference between a real <lb/>and
+          ſuch a reputed incurable Diſtemper; ſince to conſtitute the former, <choice>
+            <corr>'tis</corr>
+            <sic>tis</sic>
+          </choice>
+          <lb/>neceſſary that it will utterly elude the force of what the moſt perfect Phyſicians
+          <lb/>can rationally preſcribe for its Cure; when to make the latter, 'tis enough <lb/>that
+          it has eluded the Preſcriptions of one or two Practitioners. To con- <lb/>firm a Diſeaſe
+          really Incurable, the utmoſt powers of Remedies muſt prove <pb xml:id="page_23" n="19"/>
+          <lb/>ineffectual: To cauſe it to paſs for Incurable, that it has baffled the faſhion-
+          <lb/>able Practice will ſuffice. Some Reaſon drawn from the Nature of the <lb/>Thing, is
+          requiſite to ſhew a Caſe to be abſolutely Incurable; to denomi- <lb/>nate a Patient ſo, a
+          groundleſs Conjecture will ſerve. </p>
+        <p rend="indent">
+          <lb/>'Tis likewiſe evident, that reputed Incurable may chance, at the ſame <lb/>time, to
+          prove real incurable Diſeaſes; ſo that to introduce a more accurate <lb/>Diſtinction, and
+          to ſhew the true difference betwixt them, is of great Im- <lb/>portance. </p>
+        <p rend="indent">
+          <lb/>'Tis not neceſſary however, in an Eſſay which rather propoſes what ought <lb/>to be
+          done, before we make ſo free with a Term, upon whoſe uſe the <lb/>Lives and Health of
+          Mankind depend, than undertakes to do it; 'tis not <lb/>neceſſary, I ſay, in ſuch an Eſſay
+          as this, to deſcend ſo far as to inquire what <lb/>Life and Health are, what their Cauſes
+          and Effects, wherein they conſiſt, <lb/>by what various Means, and how far they may be
+          impair'd or diminiſh'd <lb/>before Death neceſſarily enſues; all which it wou'd be
+          abſolutely requiſite <lb/>to know in the reſpective Diſtempers, if we were willing to ſee
+          whe- <lb/>ther any, and which of the Catalogue of Diſeaſes are in their own Nature
+          <lb/>abſolutely, and in every Stage properly Incurable; or if we would fix the Point
+          <lb/>in other Caſes, to which when Diſeaſes arrive, they will never admit of <lb/>farther
+          Alleviation. Theſe Things are here ſuppos'd to be in great meaſure <lb/>known already,
+          altho' they highly deſerve the moſt exact and careful In- <lb/>quiry. </p>
+        <p rend="indent">
+          <lb/>But not to let this weighty Matter paſs intirely unregarded, it ſhou'd be
+          <lb/>obſerved, that if a Diſtemper be abſolutely Incurable, the reaſon why it is <lb/>ſo,
+          muſt ariſe either from the Nature of the Diſorder, or the natural Im- <lb/>perfection of
+          Medicine; and conſequently where the Properties and imme- <lb/>diate Cauſe of a Diſeaſe
+          are well known, and yet from them no Reaſon can <lb/>be deduced to manifeſt the caſe
+          Incurable; that it paſſes for ſuch, ought <lb/>to be attributed to the natural
+          Imperfection of the Art of Healing. But <lb/>the Art of Healing cannot be ſaid to be
+          naturally Imperfect, till its utmoſt <lb/>extent be known, that is, till the animal
+          Œconomy, and the immediate <lb/>Cauſes of its Diſorders are throughly underſtood, and the
+          utmoſt Powers <lb/>of the known Remedies have been fully obtain'd; if not alſo, till all
+          the diſ- <pb xml:id="page_24" n="20"/>
+          <lb/>coverable ones have after the beſt Manner been experienc'd. Now if all <lb/>theſe
+          Advantages have not been acquir'd in our Days, as no conſiderate <lb/>Perſon will ſay they
+          have, it follows, that no Diſtemper can properly by <lb/>us be called Incurable, but where
+          ſome evident Cauſe of its being ſo, ap- <lb/>pears from the Nature of the Thing it ſelf.
+          For unleſs this Cauſe be ma- <lb/>nifeſt, to pretend a Diſeaſe is not to be alleviated in
+          any of its Stages, or <lb/>that a Cure can be carry'd no farther, when we don't know why,
+          is a bold <lb/>Gueſs; and to pronounce the Caſe Incurable, even after we have done our
+          <lb/>utmoſt, will mean no more than that the Remedies hitherto uſed in it, <lb/>have
+          fail'd of the deſir'd Effect. But wou'd not ſuch a Cenſure be equally <lb/>Ridiculous, as
+          to ſay, ten or an hundred unſucceſsful Experiments have <lb/>been made to tranſmute
+          Metals, and therefore their Tranſmutation is un- <lb/>diſcoverable? Here then is a
+          Foundation for a juſt Diſtinction between real <lb/>and reputed incurable Diſeaſes. </p>
+        <p rend="indent">
+          <lb/>Thus we ſee in Chirurgery, thoſe Wounds are properly adjudg'd Mortal <lb/>or
+          Incurable, which happen in ſuch Parts of the Body whoſe Union was <lb/>of abſolute
+          neceſſity to the continuance of Life; as for Example, a tranſ- <lb/>verſe Section of the
+            <hi rend="italic">Larynx</hi>, which intirely ſtops Reſpiration; a diſunion <lb/>of the
+            <hi rend="italic">Cerebellum</hi>, which prevents the Influx of the Fluid there ſecreted
+          <lb/>into the Heart; <hi rend="italic">&amp;c.</hi> Theſe and the like Caſes are juſtly
+          deem'd Incurable, <lb/>from the very Inſtant when the Wounds were firſt inflicted; becauſe
+          here <lb/>the vital Functions are evidently deſtroyed, without any opportunity be-
+          <lb/>ing allow'd for the Uſe of Remedies. This is the moſt determin'd and <lb/>genuine
+          Senſe of the Word, and therefore the Uſe of it in other Caſes <lb/>ought to be judg'd of,
+          by its Approach to, or Receſs from this original <lb/>Meaning. And accordingly where the
+          Fatality of Wounds is leſs ſud- <lb/>den, and leſs certain, as in Obſtructions of the
+          animal Faculties, ſup- <lb/>poſe by a tranſverſe Section of the <hi rend="italic"
+            >Œsophagus</hi>, the Term Incurable can- <lb/>not with equal Certainty be apply'd at the
+          Inſtant the Wound was re- <lb/>ceiv'd, becauſe there may be other Ways contriv'd of
+          conveying Nu- <lb/>triment to the Body, beſides by the Mouth; and in the mean Time, Op-
+          <lb/>portunities may be afforded, of applying the proper Remedies. But if <lb/>the Body
+          could be ſupply'd with Nutriment only by the Mouth, and <pb xml:id="page_25" n="21"/>
+          <lb/>there were no Opportunities allow'd for the Uſe of Means for Reco- <lb/>very, then
+          ſuch a Caſe might, with equal Certainty, be pronounc'd In- <lb/>curable, or mortal, as one
+          of the former Kind; though the Prediction <lb/>would not be ſo ſoon fulfilled. In all ſuch
+          Caſes as theſe, 'tis evident <lb/>when and why the Term incurable is applicable, which is
+          always go- <lb/>verned by the Nature of the Thing, and the Opportunities there are
+          <lb/>for the Uſe of Remedies, or elſe by the natural Imperfection of the Art of
+          <lb/>Chirurgery: Whereas on the contrary, in ſeveral Diſeaſes, both Acute <lb/>and
+          Chronic, this Term is apply'd, where no ſuch Reaſons appear. <lb/>Thus when certain
+          equivocal Symptoms come on in acute Diſtem- <lb/>pers, without having any Regard to the
+          immediate or material Cauſe <lb/>of the Diſorders of the animal Œconomy; they conſiſt in
+          without <lb/>ſo much as any poſitive Idea in our Minds, obtain'd from reflecting <lb/>on
+          the Nature of the Diſtemper; and without conſidering the State of <lb/>the Art of Healing,
+          we at preſent make no Scruple to adjudge them mortal, or <lb/>Incurable, though neither
+          the vital, natural, or animal Faculties are <lb/>wanting. Thus for Inſtance, we proceed in
+          the Plague, malignant Fe- <lb/>ver, Goal-Diſtemper, and the confluent Species of the
+          Small-Pox, <hi rend="italic">&amp;c.</hi>
+          <lb/>when perhaps if the Matter were carefully examin'd into, ſuch Diſeaſes <lb/>ought
+          never to be call'd Incurable, till they arrive at the very Point <lb/>of Death. But if
+          there be any Reaſon to ſuſpend this final Judg- <lb/>ment in acute Caſes, is there not
+          vaſtly more to be cautious, how we <lb/>paſs ſuch a Cenſure in chronic Diſeaſes, where no
+          Opportunities are <lb/>wanting to make the neceſſary Inquiries to find out the Cauſe, and
+          <lb/>to apply the proper Remedies? And what reaſon can poſſibly be aſ- <lb/>ſigned, that
+          the reſpective Specificks for the Gout and Stone, ſhall ne- <lb/>ver be diſcover'd; or
+          that no means can be contriv'd to alleviate the <lb/>Pain of thoſe Diſeaſes, farther than
+          is effected by the preſent Practice? <lb/>Who can pretend, that an Antidote for the Bite
+          of a mad Dog is <lb/>undiſcoverable, when he conſiders we are Maſters of the Specifick
+          <lb/>for that of the Viper? But to call theſe, and ſeveral other Diſeaſes In-
+          <lb/>curable, is the Way to make them ſo, as being apt to put a Stop to farther
+          <lb/>Inquiries into the Nature of them, and retard the Diſcovery of any Thing that <pb
+            xml:id="page_26" n="22"/>
+          <lb/>has a Relation to their Cure. At leaſt then, let no one pretend to <lb/>call any Caſe
+          Incurable, till he is well acquainted with the Subject of <lb/>Diſeaſes; till he knows
+          their true and immediate Cauſe, and the ut- <lb/>moſt Virtues of the ſeveral Remedies we
+          are at preſent poſſeſs'd of. </p>
+        <p rend="indent">
+          <lb/>An animated human Body, we are certain, is a pure mechanical <lb/>Structure, wholly
+          compos'd of Solids and Fluids; and conſequently the <lb/>immediate Cauſe of every bodily
+          Diſeaſe, can be only Matter and Mo- <lb/>tion. </p>
+        <p rend="indent">
+          <lb/>The utmoſt Virtues of Remedies cannot be known, till the Reme- <lb/>dies have been
+          moſt artificially prepar'd and combin'd, moſt ſeaſonably <lb/>and properly apply'd,
+          exhibited in the moſt juſt Quantity, at the moſt <lb/>proper Intervals, and laſtly,
+          continu'd in exact Proportion to the De- <lb/>mand of the Diſtemper. All which Requiſites,
+          there is little Reaſon to <lb/>believe, have been hitherto ſtrictly obſerv'd in their
+          Exhibition. And <lb/>beſides the Improvement which may be made in the preſent Set of
+          <lb/>Remedies, 'tis not to be doubted, as was before obſerv'd, that many o- <lb/>thers, of
+          equal Virtue, may be diſcover'd by proper Application; upon <lb/>all which Accounts, it
+          were greatly to be wiſh'd, that Phyſicians would <lb/>never apply the Term Incurable to
+          any Caſes, but ſuch alone where <lb/>that Matter and Motion are wanting, which Life, even
+          in its loweſt <lb/>and weakeſt State requires, or when all means, by which they uſed
+          <lb/>to be ſupply'd, are intirely cut off. For if a Diſtemper be curable on- <lb/>ly in
+          Part, 'tis improperly call'd incurable, till that partial Cure, can <lb/>by human Means,
+          be carry'd no farther. </p>
+        <p rend="indent">
+          <lb/>We daily obſerve ſo many unexpected and ſurprizing Turns in the <lb/>Diſorders of a
+          human Body; Nature here acts by ſo many ſecret <lb/>Springs, and makes ſo many unforeſeen
+          Sallies and Excurſions, as if <lb/>ſhe took Delight to mock our Toil, baffle our beſt
+          concerted Mea- <lb/>ſures, and reverſe our beſt form'd Judgments, that it is preſumptuous,
+          <lb/>where the Caſe is not manifeſt, to pretend to fix and determine the <lb/>Point ſhe
+          ſhall juſt come up to, and not exceed; to ſay, hitherto ſhalt thou <lb/>come, and no
+          farther; here the Diſeaſe is Incurable, and here the Art <lb/>of Healing fails. No one
+          leſs than an abſolute Maſter of this Art, <pb xml:id="page_27" n="23"/>
+          <lb/>will ſurely ever go ſo far. If indeed we could always obtain from an <lb/>exact
+          obſervation of the Properties of Diſeaſes, their true and imme- <lb/>diate Cauſes, and had
+          a previous Knowledge of the utmoſt Effects, the <lb/>beſt adapted Regimen and Remedies
+          would have upon them, then we <lb/>might preſume to determine what Caſes either were, or
+          were not in- <lb/>curable, by the preſent known Remedies; and no one, without this
+          <lb/>Qualification, can paſs a valid Judgment. Let us then endeavour to <lb/>increaſe our
+          Knowledge of Diſtempers and Remedies, by all poſſible <lb/>Means, and not venture to
+          pronounce the Sentence of incurable upon <lb/>Diſeaſes, at leaſt till we have acquir'd
+          ſuch a Definition of them, as <lb/>will bring us acquainted with their real Cauſes; and
+          till we are Ma- <lb/>ſters of the beſt Way of managing and improving the Remedies we
+          <lb/>enjoy. </p>
+        <p rend="indent">
+          <lb/>To diſcover whether a reputed incurable be alſo a real incurable <lb/>Diſtemper, I
+          apprehend the beſt Courſe to be taken, is firſt to ſet down <lb/>the ſeveral Properties of
+          every Caſe diſtinctly; next, to draw as many <lb/>Conſequences from theſe Properties, as
+          may give Light into the Na- <lb/>ture of the Caſe, and aſſiſt in diſcovering its immediate
+          Cauſe: And <lb/>when this is obtain'd, we are naturally directed to ſearch for the Re-
+          <lb/>medy; ſo that at length, by this Method of Proceeding, we ſhall ſee <lb/>how far our
+          preſent Stock of Remedies will reach, after they have <lb/>been duly improv'd; and what we
+          are farther directed to ſeek for, to <lb/>advance the Art of Healing to a greater
+          Perfection. To uſher in this <lb/>Method, I will here ſet down a few ſhort Examples, by
+          way of Spe- <lb/>cimen, of what may be expected from it, upon a proper application.
+          <lb/>The Caſes I ſhall chuſe to inſtance in, are <hi rend="italic">reputed Incurable</hi>,
+          either <lb/>from their firſt appearance, to their ultimate Stage, or after a ſet Time;
+          <lb/>the Sequel will ſhew whether they really deſerve the Appellation of <lb/>incurable,
+          or ought to be reſcu'd, and ſet free from the tyrannical Im- <lb/>poſition of a
+          miſemploy'd Term. </p>
+      </div>
+      <pb xml:id="page_28" n="24"/>
+      <figure rend="space">
+        <figDesc>An ornamented horizontal column, spanning the whole page. </figDesc>
+      </figure>
+      <div type="part">
+        <head rend="italic size(1.75) align-center space">
+          <lb/>A Specimen of a rational Method, to diſcover <lb/>the Cures of reputed <hi
+            rend="roman">Incurable Diſeaſes</hi>. </head>
+        <div type="section">
+          <head rend="italic align-center space">
+            <lb/>Of <hi rend="roman">MADNESS</hi>. </head>
+          <p rend="space" n="1">
+            <lb/>1. <hi rend="dc(2)">T</hi>HERE are two Species of this Diſtemper, <hi rend="italic"
+              >viz.</hi> Melancholia <lb/>and Mania. </p>
+          <p rend="indent" n="2">
+            <lb/>2. The Properties of the Melancholia are; to proceed from ſome <lb/>Diſorder in the
+            Mind. </p>
+          <p rend="indent" n="3">
+            <lb/>3. To be preceded by Anxiety, Want of Sleep, intenſe Thought, fre- <lb/>quent
+            Anger, or any violent Paſſion; profuſe Venery, Pain in the Head, <lb/>Suppreſſion of the
+            natural Evacuations, burning and laſting Fevers, violent <lb/>Exerciſe long continu'd,
+            hot and dry Weather. </p>
+          <p rend="indent" n="4">
+            <lb/>4. To manifeſt it ſelf by Fear and Sadneſs, and the Colour of the Skin, <lb/>which
+            grows pale, yellow, brown, livid; by Spots of the ſame Colour, a <lb/>ſlow Pulſe, hard
+            Reſpiration, Secretion and Excretion leſſen'd, Loſs of Ap- <lb/>petite, Loſs of Fleſh,
+            Love of Solitude, laſting Paſſions, Fixedneſs on ſome <lb/>Thought, a Preſſure,
+            Coarctation or Repletion about the Viſcera or Hy- <lb/>pochondria. </p>
+          <p rend="indent" n="5">
+            <lb/>5. When 'tis of long continuance, it cauſes the Apoplexy, Epilepſy, <lb/>Mania,
+            Convulſions, <hi rend="italic">&amp;c.</hi>
+          </p>
+          <pb xml:id="page_29" n="25"/>
+          <p rend="indent" n="6">
+            <lb/>6. 'Tis ſometimes naturally cured by a cuticular Eruption, large Varices,
+            <lb/>great Swelling and conſequent Flux of the Hæmorrhoids, and an Excretion <lb/>black
+            Bile by the Mouth or Anus. </p>
+          <p rend="indent" n="7">
+            <lb/>7. The Properties of the Mania are generally the ſame, but differ in a <lb/>few
+            Particulars; for Inſtance, </p>
+          <p rend="indent" n="8">
+            <lb/>8. Boldneſs and Anger here attend inſtead of Fear and Sadneſs in the for- <lb/>mer. </p>
+          <p rend="indent" n="9">
+            <lb/>9. Immenſe muſcular Strength. </p>
+          <p rend="indent" n="10">
+            <lb/>10. Very great Watchfulneſs. </p>
+          <p rend="indent" n="11">
+            <lb/>11.<choice>
+              <corr> </corr>
+              <sic/>
+            </choice>A ſurprizing Endurance of Cold and Hunger. </p>
+          <p rend="indent" n="12">
+            <lb/>12. Moſt dreadful and outragious Ideas. </p>
+          <p rend="indent" n="13">
+            <lb/>13. All Secretions in a manner ſtopt. </p>
+          <p rend="indent" n="14">
+            <lb/>14. Anatomy ſhews in both Species, that the Brain and its Meninges <lb/>are dry,
+            hard and criſp; its Cortex yellow, and that its Veſſels abound <lb/>in Varices, and are
+            diſtended with a black viſcid Gore. </p>
+          <p rend="indent" n="15">
+            <lb/>15. The Mania, after an obſtinate reſiſtance of the common Practice, has <lb/>been
+            cured by ſpontaneous Varices or Hæmorrhoids, by a Dropſy, Dyſen- <lb/>tery, a tertian or
+            quartan Ague, and large Hæmorrhages. </p>
+          <p rend="indent" n="16">
+            <lb/>16. Does it not follow, that the immediate Cauſe of both Species is an
+            <lb/>Evaporation of the more ſubtile Parts of the Fluids? 1. 2. 3. 7. 10. 13. 14. </p>
+          <p rend="indent" n="17">
+            <lb/>17. That the Mania differs from the Hypochondria only in degree, 4. <lb/>5. 6. 14.
+            15. Since they both have the ſame Cauſes, and exhibit the ſame <lb/>Appearance upon
+            Diſſection? </p>
+          <p rend="indent" n="18">
+            <lb/>18. That this Diſeaſe unjuſtly paſſes for incurable 6. 15. even altho' a <lb/>Year
+            or two may have been unſucceſsfully ſpent in attempting its Cure? </p>
+          <p rend="indent" n="19">
+            <lb/>19. And laſtly, that the Specific wanting in both Species, is ſuch a Reme- <lb/>dy,
+            as will prevent this Evaporation 16. which remains to be diſcover'd by <lb/>proper
+            Experiments. </p>
+          <p rend="indent" n="20">
+            <lb/>20. In the mean time, perhaps no known Remedy will more forcibly <lb/>contract the
+            Pores, and prevent this Evaporation, than the Cold Bath, when <lb/>uſed ſo as to exert
+            its proper force. </p>
+          <pb xml:id="page_30" n="26"/>
+          <p rend="indent" n="21">
+            <lb/>21. Now the Cold Bath can only act upon the Body by its Gravity or <lb/>Preſſure,
+            the Inſinuation of the Parts whereof it is compos'd, and its Cold- <lb/>neſs; but its
+            Gravity or Preſſure will be proportionably increaſed by a deep- <lb/>er Immerſion, and
+            this will conſequently render the Inſinuation of the <lb/>Water proportionably greater.
+            Its Coldneſs alſo may be immenſely in- <lb/>creas'd by the addition of <hi rend="italic"
+              >Sal Armoniac</hi>, <hi rend="italic">&amp;c.</hi> Here therefore is a Remedy <lb/>of
+            an unlimited Force, which ſeems to be exceedingly well adapted to <lb/>the Cure of this
+            Diſeaſe: And accordingly, 'tis found in Fact to anſwer, <lb/>the beſt of any known
+            Remedy in this Diſtemper, tho' made uſe of un- <lb/>der very great Diſadvantages. </p>
+          <figure>
+            <figDesc>A floral ornament in the middle of the page. </figDesc>
+          </figure>
+        </div>
+        <pb xml:id="page_31" n="27"/>
+        <figure rend="space">
+          <figDesc>An ornamented horizontal column, spanning the whole page. </figDesc>
+        </figure>
+        <div type="section">
+          <head rend="italic size(1.75) align-center space">
+            <lb/>Of the Rabies Canina, or Hydrophobia, conſe- <lb/>quent upon the Bite of a mad-Dog. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">T</hi>HE Properties of this Diſeaſe are as follow. </p>
+          <p rend="indent" n="1">
+            <lb/>1. 'Tis ſpontaneous in many Animals, eſpecially in Dogs, Foxes, <lb/>and Wolves,
+            which communicate it not only to one another, but to <lb/>Men, by Contagion. </p>
+          <p rend="indent" n="2">
+            <lb/>2. The ſlighteſt Bite of an Animal thus infected is often fatal, as it <lb/>is alſo
+            to touch their Saliva with the Tongue, or to handle ſuch Inſtru- <lb/>ments much, as
+            have been uſed about them. </p>
+          <p rend="indent" n="3">
+            <lb/>3. The Contagion in a human Body, manifeſts itſelf at various Inter- <lb/>vals in
+            various Subjects; in ſome it will lurk for ſeveral Years. </p>
+          <p rend="indent" n="4">
+            <lb/>4. The Place where the Bite happen'd firſt becomes painful, the Pain <lb/>ſpreads
+            to the adjacent Parts, a Wearineſs and Heavineſs is felt in the <lb/>Fleſh, the Sleep is
+            broken, diſcompos'd, frightful, and attended <lb/>with Convulſions. The Patient is
+            uneaſy when awake, he ſighs, is ſad, <lb/>and ſeeks Solitude. Theſe Symptoms gradually
+            increaſe, and a Dif- <lb/>ficulty of Reſpiration comes on, which is now frequently
+            interrupted <lb/>with Sighs; an unuſual Dread and Terror upon beholding any Liquid,
+            <lb/>loſs of Appetite; to taſte any Liquor cauſes very great Anxiety, Tre- <lb/>mors and
+            Convulſions; vomiting of a viſcid bilious or green Matter, <lb/>Heat, Fever, Watching,
+            Priapiſmus, ſtrange diſorderly Ideas. The Tongue <lb/>is dry, and extended out of the
+            Mouth, there is a Hoarſeneſs and very <lb/>great Drought; the Patient at length now
+            becomes outragious upon attemp- <pb xml:id="page_32" n="28"/>
+            <lb/>ting to drink; he endeavours to bite whoever he meets with; he foams <lb/>at the
+            Mouth, and gnaſhes with his Teeth; a cold Sweat comes on; he <lb/>grows moſt
+            outragiouſly mad, and, with the utmoſt Difficulty of Reſpi- <lb/>ration, dies
+            convulſive. </p>
+          <p rend="indent" n="5">
+            <lb/>5. From Diſſection it appears, That the Organs of Deglutition are <lb/>inflam'd,
+            that a viſcid bilious matter is lodg'd in the Stomach, that the Gall- <lb/>Bladder is
+            full of black Bile, that the Pericardium is dry, that the Lungs <lb/>are greatly
+            overcharg'd with Blood, that the Arteries are full of a ve- <lb/>ry liquid Blood, but
+            the Veins empty. Tis remarkable, that this Blood <lb/>will ſcarce coagulate, when
+            extravaſated and expoſed to the Air. All <lb/>the Muſcles, Viſcera, Brain, and Spinal
+            Marrow appear too dry. </p>
+          <p rend="indent" n="6">
+            <lb/>6. Is not therefore the immediate Cauſe of this Diſeaſe a ſubtile <lb/>Poiſon in
+            the Fluids, whoſe Specific Antidote is unknown to us? </p>
+          <p rend="indent" n="7">
+            <lb/>7. And till this Antidote can be found, is it not clear, that all man- <lb/>ner of
+            Evacuations, eſpecially Phlebotomy or rather Arteriotomy, are to be u- <lb/>ſed in every
+            Stage of the Diſeaſe; and all other Meaſures to be purſu'd, <lb/>which tend to introduce
+            new Fluids, in the Room of the contaminated <lb/>Set; or at leaſt to diſcharge ſo much
+            of the Virus, as to leſſen its <lb/>pernicious Conſequences? </p>
+          <p rend="indent" n="8">
+            <lb/>8. The Effects of this Virus in the Body, being ſo very dreadful <lb/>and fatal,
+            may juſtify the Uſe even of ſevere and hazardous Means to pre- <lb/>vent 'em, ſo that at
+            leaſt Phlebotomy <hi rend="italic">ad Animi Deliquium uſq;</hi> may be occa-
+            <lb/>ſionally repeated; not only upon that Account, but alſo by reaſon of <lb/>the very
+            great Inflammation that attends it. And becauſe Fear is known <lb/>to have been
+            ſerviceable in this Caſe; may it not be very proper to con- <lb/>trive ſome
+            extraordinary Ways to raiſe this Paſſion to a very great De- <lb/>gree, if not before
+            Immerſion in the cold Bath, at leaſt by means there- <lb/>of, being us'd in almoſt its
+            utmoſt force? </p>
+        </div>
+        <pb xml:id="page_33" n="29"/>
+        <figure rend="space">
+          <figDesc>An ornamented horizontal column, spanning the whole page. </figDesc>
+        </figure>
+        <div type="section">
+          <head rend="italic size(1.75) align-center space">
+            <lb/>Of the Palſy. </head>
+          <p rend="space" n="1">
+            <lb/>1. <hi rend="dc(2)">T</hi>HERE are three Species of this Diſeaſe. <list>
+              <item>1. Where Motion a- <lb/>lone is wanting. </item>
+              <item>2. Where Senſation alone is wanting. </item>
+              <item>3. <lb/>Where both Motion and Senſation are wanting. </item>
+            </list>
+          </p>
+          <p rend="indent" n="2">
+            <lb/>2. 'Tis often preceded by the Apoplexy, Epilepſy, or Convulſions, a <lb/>Retention
+            of the natural Evacuations, a Tranſlation of the Matter of <lb/>an acute or chronic
+            Diſeaſe; Wounds, Contuſions, Luxations, Compreſ- <lb/>ſions, Eroſions, <hi rend="italic"
+              >&amp;c.</hi> intenſe Cold or Heat, too free an Uſe of hot <lb/>Water, Exhalations of
+            poiſonous Minerals admitted into the Body. </p>
+          <p rend="indent" n="3">
+            <lb/>3. The paralytic Parts grow cold, ſoft, flaccid and waſte gradually. </p>
+          <p rend="indent" n="4">
+            <lb/>4. 'Tis often critically cur'd, or by the Force of Nature, either by <lb/>a
+            ſpontaneous and laſting Diarrhæa, a Fever, an inſenſible Diſſipati- <lb/>on of the
+            morbific Cauſe, or laſtly, by a convulſive Motion of the <lb/>Part. </p>
+          <p rend="indent" n="5">
+            <lb/>5. From hence it follows, that the immediate Cauſe of the Palſy <lb/>is a Want of
+            the Influx of the Blood, or nervous Fluid, or both, into <lb/>the Part, 1, 2, 3. </p>
+          <p rend="indent" n="6">
+            <lb/>6. That the Parts loſe their natural Elaſticity. 2, 3. </p>
+          <p rend="indent" n="7">
+            <lb/>7. That when both the nervous and arterial Fluid is wanting to the <lb/>Part, and
+            the Canals are depriv'd of their natural Elaſticity, the Caſe <lb/>is moſt inveterate. </p>
+          <p rend="indent" n="8">
+            <lb/>8. That its Cauſe may be either external or internal. 2. </p>
+          <p rend="indent" n="9">
+            <lb/>9. That the Want of the nervous and arterial Fluid, is either owing <lb/>to a Fault
+            in their reſpective Canals, or to the Fluids themſelves. 2. </p>
+          <pb xml:id="page_34" n="30"/>
+          <p rend="indent" n="10">
+            <lb/>10. That it may be cured either by a Specific or an Evacuant, 4. and
+            <lb/>conſequently is not juſtly reputed incurable. </p>
+          <p rend="indent" n="11">
+            <lb/>11. That the Cure depends upon removing the Obſtruction to the <lb/>Influx of the
+            Fluids, and deriving them in their natural State, into their <lb/>reſpective Canals. </p>
+          <p rend="indent" n="12">
+            <lb/>12. That the Cure muſt be adapted to the Cauſe. </p>
+          <p rend="indent" n="13">
+            <lb/>13. Suppoſing then, both Canals and Fluids to be affected; the <lb/>Canals to have
+            become cold and flaccid, and the Fluids groſs and te- <lb/>nacious; 'tis plain, that a
+            powerful Diſſolvent, which at the ſame time <lb/>that it liquifies and purifies the
+            Blood, promotes a free Circulation in <lb/>the diſorder'd Parts, and reſtores the
+            Elaſticity to the Canals, will prove <lb/>a Specific in this Caſe: And why the Cortex
+            Peruvianus, when rais'd to <lb/>its utmoſt or proportionable Power, may not prove this
+            Specific, per- <lb/>haps nothing but the proper Experiments will ſhew. </p>
+          <p rend="indent" n="14">
+            <lb/>14. The very great Effects of a due Uſe of the Cortex, not only <lb/>in
+            intermitting Fevers, but in many other Diſorders, both of the Solids <lb/>and Fluids,
+            are too well known to ſtand in need of a particular Enu- <lb/>meration; and this
+            Medicament is now ſo univerſally allow'd to be ſafe <lb/>as well as efficacious, when
+            properly apply'd, that I know of no Ob- <lb/>jection that can lie againſt the Uſe of it
+            in the Palſy. Thoſe who <lb/>think it not of Force ſufficient in ſuch an obſtinate
+            Diſtemper as this, <lb/>when, after ſome Months have to no Purpoſe been ſpent upon it,
+            'tis <lb/>reputed Incurable, will pleaſe to conſider its ſurprizing Effects on the
+            Solids <lb/>and Fluids in a rebellious Quartan Ague, in what very large Doſes 'tis
+            <lb/>capable of being exhibited, and how much a prudent Mixture of <hi rend="italic">Sal
+              <lb/>Abſinth: &amp;c.</hi> will add to its Virtue; eſpecially if ſo grand a Remedy
+            <lb/>as the cold Bath, when duly improv'd, may be call'd in to its Aſſiſt- <lb/>ance, as
+            in the Diſtemper we are ſpeaking of, it frequently may. </p>
+        </div>
+        <gap reason="sampling" unit="pages" quantity="8"/>
+      </div>
+    </body>
+  </text>
+</TEI>

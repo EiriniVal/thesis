@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LMEMT Corpus - Hales: A Friendly Admonition to the Drinkers of Brandy</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>Stephen Hales</persName>
+            </author>
+            <title type="main">A friendly admonition to the drinkers of brandy, and other distilled
+              spirituous liquors.</title>
+            <edition n="1"/>
+            <idno type="ESTC">N62975</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/N62975"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>London: Printed for Joseph Downing, in Bartholomew-Close, MDCCXXXIII.
+                </persName>
+              </publisher>
+              <date>1733</date>
+            </imprint>
+            <extent>
+              <measure type="format">8⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="2"/>
+              <measure type="count" commodity="body" unit="page" quantity="23"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">British Library</orgName>
+            <idno type="ECCO">CB3327750274</idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Public welfare and institutional"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text type="book" rend="roman" xml:lang="eng">
+    <gap reason="sampling" unit="pages" quantity="2"/>
+    <body>
+      <pb n=""/>
+      <figure>
+        <figDesc>An ornamental horizontal column, spanning the whole page. </figDesc>
+      </figure>
+      <head rend="align-center">
+        <lb/>A FRIENDLY <lb/><hi rend="italic size(2.0)">Admonition, <hi rend="roman">&amp;c.</hi>
+        </hi>
+      </head>
+      <p rend="space">
+        <lb/><hi rend="dc(5)">M</hi>AN, not contented with <lb/>what his bountiful and muni-
+        <lb/>ficent Creator intending for <lb/>his Comfort, has wiſely tem- <lb/>pered with ſuch a
+        due Pro- <lb/>portion of Strength, as that, taken in <lb/>Moderation, would make his Heart
+        grad, <lb/>has unhappily found Means to extract, <lb/>from what God intended for his
+        Refreſh- <lb/>ment, a moſt pernicious and intoxicating <lb/>Liquor, to which, in a great
+        meaſure, is <lb/>owing, the remarkable Increaſe of <hi rend="italic">Drun- <lb/>kenneſs</hi>
+        of late Years; which Vice reigns <lb/>to a moſt enormous Degree, among the <lb/>habitual
+        Drinkers of Brandy, and other <lb/>Diſtill'd Liquors; which are found to be <lb/>moſt
+        pernicious and deſtructive: For at <lb/>the ſame time that they coagulate and <lb/>thicken
+        the Blood, they alſo contract <pb n="4"/>
+        <lb/>and narrow the Blood-Veſſels; which <lb/>has, in Fact, been found to be true; by
+        <lb/>Experiments purpoſely made, with Bran- <lb/>dy, on the Blood and Blood-veſſels of
+        <lb/>Animals. </p>
+      <p rend="indent">
+        <lb/><hi rend="sc">Whence</hi> we may evidently ſee the <lb/>Reaſon why thoſe Liquors do ſo
+        fre- <lb/>quently cauſe Obſtructions in the Liver; <lb/>whence the Jaundice, Dropſy, and
+        many <lb/>other fatal Diſeaſes: It is in like man- <lb/>ner alſo that they deſtroy and burn
+        up <lb/>the Lungs too: Hence alſo it is, that <lb/>by frequently contracting, and then ſoon
+        <lb/>after relaxing, they weaken and wear <lb/>out the Fibres and Coates of the Sto-
+        <lb/>mach, on which they more immediately <lb/>prey, every Time they are drunk: <lb/>Hence,
+        I ſay, it is, that theſe ſpirituous <lb/>Liquors rarely fail to deſtroy the Appe- <lb/>tite
+        and Digeſtion of thoſe, who habi- <lb/>tuate themſelves to them; for, by dry- <lb/>ing up,
+        and ſpoiling the Nerves, they <lb/>make them inſenſible; they deſtroy alſo <lb/>many of the
+        very fine Veſſels, eſpecially <lb/>where the Fibres are moſt tender, as in <lb/>the Brain;
+        whereby they ſpoil the Me- <lb/>mory and intellectual Faculties: And by <lb/>thus inflaming
+        the Blood, and diſorder- <lb/>ing the Blood-Veſſels and Nerves, they <lb/>vitiate and
+        deprave the natural Tem- <lb/>per. </p>
+      <pb n="5"/>
+      <p rend="indent">
+        <lb/><hi rend="sc">When</hi> firſt drank, they ſeem to comfort <lb/>the Stomach, by
+        contracting its too relaxed <lb/>Fibres, and alſo to warm the Blood; <lb/>but as the Warmth
+        which they give, on <lb/>mixing with the Blood, ſoon goes off, <lb/>as it is in Fact found
+        to do, when we <lb/>mix Brandy with Blood; ſo alſo the <lb/>ſpirituous Part of the Brandy
+        being ſoon <lb/>diluted, and imbibed by the watery Hu- <lb/>mours of the Body, it can no
+        longer <lb/>contract the Fibres of the Stomach, and <lb/>other Parts; which therefore as
+        ſoon re- <lb/>laxing, the unhappy Perſons are thereby, <lb/>in a little Time, reduced to a
+        cold, re- <lb/>laxed, languid, and diſpirited State, <lb/>which gives them ſo much
+        Uneaſineſs, <lb/>they are impatient to get out of it, by <lb/>freſh Supplies of the ſame
+        deadly Li- <lb/>quor; which, inſtead of curing, daily <lb/>increaſes their Diſeaſe more and
+        more. <lb/>Hence it is, that their Soul fainting <lb/>within them, theſe unhappy Wretches
+        <lb/>are ever thirſting after it, and, with the <lb/><hi rend="italic">Horſe-Leech, cry,
+          give, give</hi>; but alas! <lb/>never are, nor can be ſatisfied. For <lb/>theſe ſtrong
+        Liquors, tho' called ſpiri- <lb/>tuous, are ſo far from refreſhing and re- <lb/>cruiting the
+        Spirits, that, on the con- <lb/>trary, they do, in reality, depreſs them; <lb/>and
+        extinguiſh the natural, vital Warmth <lb/>of the Blood to ſuch a Degree, that, as
+        <lb/>Phyſicians have obſerved, <hi rend="italic">their Preſcrip- <pb n="6"/>
+          <lb/>tions, or Medicines, are found to have <lb/>little or no Effect, towards reſtoring
+          theſe <lb/>unhappy Perſons, when ſick, to their <lb/>Health</hi>. </p>
+      <p rend="indent">
+        <lb/><hi rend="sc">The</hi> ſpirituous Liquors ſoon intoxi- <lb/>cate, which Intoxication
+        ſoon goes off <lb/>again, and leaves them faint and lan- <lb/>guid: And as when immediately
+        injected <lb/>into the Veins of an Animal, they cauſe <lb/>ſudden Death; ſo when drank in a
+        large <lb/>Quantity at once, they coagulate and <lb/>thicken the Blood to ſuch a Degree, as
+        <lb/>to kill inſtantly; many Inſtances of which <lb/>we frequently hear of: And when they
+        <lb/>are not drank in ſuch Quantities as to <lb/>kill immediately, but are daily uſed,
+        <lb/>then, beſides many other Diſeaſes, they <lb/>are apt to breed <hi rend="italic"
+          >Polypuſes</hi> in the Heart, <lb/>by thickening the Blood there; which <lb/><hi
+          rend="italic">Polypuſes</hi>, as they grow larger and larg- <lb/>er, do, by hindering and
+        retarding the <lb/>Motion of the Blood through the Heart, <lb/>thereby farther contribute to
+        the Faint- <lb/>neſs and Diſpiritedneſs of thoſe unhappy <lb/>Perſons, and at length, by
+        totally ſtop- <lb/>ping the Courſe of the Blood, do as ef- <lb/>fectually kill, as if a Dart
+        had been <lb/>ſtruck through their Liver. </p>
+      <p rend="indent">
+        <lb/><hi rend="sc">These</hi> Diſtill'd Liquors, which, by <lb/>reaſon of their great
+        Strength, are found <lb/>to be ſo deſtructive to our Bodies, are <lb/>obſerved by Chymiſts,
+        to be all of them <pb n="7"/>
+        <lb/>compoſed, and to conſiſt, of <hi rend="italic">Water</hi>, a <lb/><hi rend="italic"
+          >Spirit</hi>, and an <hi rend="italic">acid Oil</hi>. They find <lb/>alſo upon the niceſt
+        Scrutiny, <hi rend="italic">that <lb/>all Diſtilled fermented Spirits are the
+        <lb/>ſame</hi>, whether Diſtilled from the fer- <lb/>mented Juice of Grapes, as is done in
+          <lb/><hi rend="italic">France</hi>, and ſome other Countries, or <lb/>from Corn, Grain, or
+        other fermented <lb/>Fruits. And accordingly their pernici- <lb/>ous Effects upon human
+        Bodies, are found <lb/>to be the ſame. For it is well known, <lb/>that many are in and near
+        Sea-Port <lb/>Towns, as effectually deſtroyed, by the <lb/>habitual drinking of <hi
+          rend="italic">French</hi> Brandies, as <lb/>are thoſe who habituate themſelves to
+        <lb/>drink other Diſtilled ſpirituous Liquors; <lb/>And the ſame holds true of Rum, which,
+        <lb/>it is well known, deſtroys ſuch Multi- <lb/>tudes in <hi rend="italic">America</hi>, as
+        even in a manner <lb/>to depopulate whole Countries: Some <lb/>of theſe Liquors may indeed
+        be more <lb/>palatable than others, <hi rend="italic">but they are all <lb/>in a manner
+          equally pernicious, that are <lb/>of an equal Strength, and thoſe moſt de- <lb/>ſtructive
+          and deadly, which are the <lb/>ſtrongeſt</hi>. </p>
+      <p rend="indent">
+        <lb/><hi rend="sc">But</hi> notwithſtanding Men find, by <lb/>daily Experience, both in
+        themſelves and <lb/>others, the deſtructive Effects of theſe <lb/>Liquors; tho' they Yearly
+        ſee a <hi rend="italic">thouſand <lb/>fall at their Side, and ten thouſand at <lb/>their
+          right Hand</hi>, yet will they not be <pb n="8"/>
+        <lb/>warned ſo as to avoid them. There is <lb/>that predominant <hi rend="italic">bewitching
+          of Naughti- <lb/>neſs</hi> in theſe fiery Liquors, as impetu- <lb/>ouſly carries Men on to
+        their certain <lb/>Deſtruction, in ſpight of the contrary <lb/>natural ſtrong Deſire they
+        have <hi rend="italic">to live <lb/>long, and ſee good Days</hi>; ſo effectually <lb/>does
+        this inſatiable <hi rend="italic">wandering of Concu- <lb/>piſcence</hi> after them, <hi
+          rend="italic">undermine the Simple</hi>; <lb/>as the Wiſe Man obſerves, <hi rend="italic"
+          >Wiſdom</hi> iv. <lb/>12. 'Tis the peculiar Misfortune of theſe <lb/>unhappy Wretches,
+        that they ſeldom <lb/>have ſo much as a Heart to be ſet free: <lb/>New when a Man's Will and
+        Affec- <lb/>tions are thus depraved, and he is de- <lb/>lighted with this worſt of Slavery,
+        there <lb/>is little Hopes of him. To recover him <lb/>from this Condition, he muſt be, as
+        it <lb/>were, forced into his Liberty, and reſ- <lb/>cued, in ſome meaſure, from his own
+        <lb/>depraved Deſires; he muſt be dealt with <lb/>like a Madman, and be bound down, <lb/>to
+        keep him from deſtroying himſelf. </p>
+      <p rend="indent">
+        <lb/><hi rend="sc">We</hi> find the ſtrong, and almoſt invin- <lb/>cible Propenſity of
+        habitual Sinners to <lb/>continue on in their evil Courſes, moſt <lb/>emphatically expreſſed
+        in Scripture; <q rend="italic">Can <lb/>the Ethiopian change his Skin </q>, ſays
+        God, <lb/>to the rebellious <hi rend="italic">Iſraelites</hi>, <q rend="italic"> or
+          the Leo- <lb/>pard his Spots, then may ye alſo do Good, <lb/>that are accuſtomed to do
+          Evil </q>: Jerem. <lb/>xiii. 23. Which melancholy Truth may, <pb n="9"/>
+        <lb/>with greater Certainty, be ſaid of the <lb/>unhappy habitual Drinkers of Brandy,
+        <lb/>and the like Diſtill'd ſpirituous Li- <lb/>quors, than of thoſe who labour under
+        <lb/>any other Vices whatſoever; for how <lb/>rarely, how very rarely do we ſee any <lb/>of
+        thoſe unhappy Perſons reclaimed; they <lb/>are abſolutely deaf to all Admonition, <lb/><hi
+          rend="italic">neither will they hear the Voice of the <lb/>Charmer, charm he never so
+          wiſely</hi>. No <lb/>Conſiderations whatſoever, neither of this <lb/>World, nor the next,
+        have any Weight <lb/>with them; they will forego all that <lb/>is moſt deſirable here, and
+        endure the <lb/>utmoſt Miſeries in Life, for the Sake of <lb/>it. How many does it reduce to
+        ſuffer <lb/>the Hardſhips of the extreameſt Poverty, <lb/>not only by waſting their
+        Subſtance by <lb/>a continual Drain to ſatisfy a falſe, vi- <lb/>tiated Appetite, but alſo
+        by ſo enfee- <lb/>bling and diſabling them, that they have <lb/>neither Will nor Power to
+        labour for <lb/>an honeſt Livelihood; which is a prin- <lb/>cipal Reaſon of the great
+        Increaſe of the <lb/>Poor in this Nation, as alſo of the much <lb/>greater Number of
+        Robberies, that are <lb/>committed of late Years, than were in <lb/>former Ages. And as to
+        the Health of <lb/>theſe miſerable People, the moſt deſira- <lb/>ble, becauſe the Foundation
+        of all o- <lb/>ther Enjoyments, that is greatly deprav'd <lb/>and ſottiſhly given in
+        Exchange, for a <pb n="10"/>
+        <lb/>falſe, unnatural Senſation of it, which <lb/>each freſh Dram ſeems to give for the
+        <lb/>preſent; while it is, at the ſame Time, <lb/>really undermining and deſtroying their
+        <lb/>Healths. Nay, ſo bewitching is this In- <lb/>fatuation, that tho' they cannot, moſt of
+        <lb/>them, but be ſenſible, that they are <lb/>manifeſtly ſhortening their Days, and juſt
+        <lb/>plunging themſelves into their Graves, <lb/>yet will they not refrain. Hence we ſee
+        <lb/>what little Hopes there is of reclaiming, <lb/>by any Arguments whatever, theſe mi-
+        <lb/>ſerable Wretches, who are thus inſlaved. </p>
+      <p rend="indent">
+        <lb/><hi rend="sc">Would</hi> God! that at leaſt thoſe who <lb/>have not as yet engaged in
+        theſe un- <lb/>happy Courſes, might thereby be effec- <lb/>tually deterred from ſuch
+        deſtructive <lb/>Ways, which it is moſt eaſy at firſt to <lb/>avoid, but very difficult to
+        refrain from, <lb/>to thoſe who are once habituated to ſuch <lb/>Liquors. </p>
+      <p rend="indent">
+        <lb/><hi rend="sc">But</hi> alas! the Infection is ſpread ſo <lb/>far and wide, that if it
+        continues its <lb/>deſtructive Conqueſts, in the ſame man- <lb/>ner, and to the ſame degree,
+        that we <lb/>have unhappily lived to ſee it advance, <lb/>within theſe thirty or forty
+        Years, it <lb/>muſt needs, in a few Generations, in- <lb/>fect all Mankind with its baneful
+        Influ- <lb/>ence. For it makes its Way into the <lb/>World as a Friend to Mankind, and in-
+        <lb/>ſinuates itſelf under the Diſguiſe of grate- <pb n="11"/>
+        <lb/>ful Flavours; and under the Notion of <lb/>helping Digeſtion, comforting the Spirits,
+        <lb/>and chearing the Heart, it produces <lb/>the direct contrary Effects. And tho'
+        <lb/>theſe deceitful <hi rend="italic">Hydra's</hi> are found, by <lb/>daily Experience, to
+        deſtroy Multitudes <lb/>of Mankind, yet are they received and <lb/>entertained with ſo
+        general Applauſe, <lb/>that they boldly lift up their invenom'd <lb/>Heads in every Street,
+        to ſuch a de- <lb/>gree, as looks as if it were the Buſineſs <lb/>of a conſiderable Part of
+        Mankind to <lb/>deſtroy the other. And tho' thouſands, <lb/>and ten thouſands, nay,
+        Millions, over <lb/>the whole Earth, periſh Yearly thereby, <lb/><hi rend="italic">yet no
+          Man layeth it to Heart</hi>, excepting <lb/>the Heads of the poor wild Indians in <lb/><hi
+          rend="italic">New England</hi>, <hi rend="italic">Carolina</hi>, and other Parts <lb/>of
+          <hi rend="italic">North America</hi>, who being ſenſible of <lb/>the great Deſtruction,
+        Diſtill'd ſpirituous <lb/>Liquors have made among them, have <lb/>frequently and earneſtly
+        deſired, that no <lb/>ſuch Liquors might be ſold to their <lb/>People; which, as they have
+        made <lb/>great Havock among them, ſo it is ob- <lb/>ſerved to do the ſame among thoſe
+        Chriſ- <lb/>tians, who both taught them that beaſtly <lb/>and deſtructive Vice, and are
+        continu- <lb/>ally furniſhing them with Materials to <lb/>continue in it. And what more juſt
+        <lb/>and reaſonable, than that thoſe, who <lb/>reach forth the invenom'd Cup to o- <pb
+          n="12"/>
+        <lb/>thers, ſhould themſelves alſo periſh by <lb/>it. </p>
+      <p rend="indent">
+        <lb/><hi rend="sc">Of</hi> all the Miſeries and Plagues that <lb/>unhappy Man, has been
+        incident to, none <lb/>was ever ſo effectually deſtructive as this, <lb/>not even thoſe
+        three ſore Judgments of <lb/>War, Peſtilence, or Famine; all which, <lb/>after having raged
+        for ſome Time, ceaſe: <lb/>But this evil Spirit is an unrelenting, <lb/>mercileſs Deſtroyer,
+        that threatens end- <lb/>leſs Deſtruction from Generation to Ge- <lb/>neration: This is
+        indeed a Maſter-piece <lb/>of the Devil's, whereby he makes Men <lb/>their own Executioners,
+        which conſigns <lb/>them over, not only to preſent, but eter- <lb/>nal Death alſo. </p>
+      <p rend="indent">
+        <lb/><hi rend="sc">Yet</hi> notwithſtanding theſe, its moſt <lb/>pernicious and deſtructive
+        Effects, where <lb/>is that Chriſtian Country that deſires, <lb/>with the abovementionecl
+        poor ignorant <lb/>Indians, their People to be reſtrained <lb/>from it; ſo far from that,
+        that they <lb/>ſeem rather to eſtabliſh it by Law; in- <lb/>ſomuch that there is little
+        Hopes of any <lb/>Attempts being made towards ſuppreſ- <lb/>ſing it, till the ſpreading Evil
+        is grown <lb/>more and more flagrant, as to be- <lb/>come at laſt ſo enormouſly deſtructive,
+        <lb/>that it will be, in a manner, impoſſible <lb/>for human Species to ſubſiſt under it. </p>
+      <p rend="indent">
+        <lb/><hi rend="sc">And</hi> this Time ſeems to be coming <lb/>on a-pace, for the Infection,
+        as it has <pb n="13"/>
+        <lb/>for theſe thirty or forty Years made a <lb/>ſurprizing Advance, ſo it continues to
+        <lb/>ſpread far and wide. Nay, the unhappy <lb/>Influence of theſe Liquors, reaches much
+        <lb/>farther than to the Deſtruction of thoſe, <lb/>who indulge in the Uſe of them, even
+        <lb/>to their Poſterity, to the Children that <lb/>are yet unborn. Of this we have too
+        <lb/>frequent Inſtances, where the unhappy <lb/>Mothers habituate themſelves to theſe
+        <lb/>Diſtill'd Liquors, whoſe Children, when <lb/>firſt born, are often either of a diminu-
+        <lb/>tive Pigmy Size, or look withered and <lb/>old, as if they had numbered many
+        <lb/>Years, when they have not, as yet, alas! <lb/>attained to the Evening of the firſt Day.
+        <lb/>And how many more Inſtances are there <lb/>of Children, who, tho' born with good
+        <lb/>Conſtitutions, have unhappily ſucked in <lb/>the deadly ſpirituous Poiſon With their
+        <lb/>Nurſe's Milk. </p>
+      <p rend="indent">
+        <lb/><hi rend="sc">For</hi> Nature is then under a Neceſſity <lb/>of drawing out very
+        ſlender Threads of <lb/>Life, when the Nouriſhment of either <lb/>unborn, or born Children,
+        is hardened <lb/>and ſpoiled by ſuch pernicious Liquors: <lb/>Whence it is evident, that in
+        Propor- <lb/>tion, as the Contagion ſpreads farther <lb/>and farther among Mankind, ſo muſt
+        <lb/>the Breed of human Species be propor- <lb/>tionably more and more depraved, and
+        <lb/>will accordingly degenerate more and <pb n="14"/>
+        <lb/>more, from the more manly and robuſt <lb/>Conſtitution of preceeding Generations. </p>
+      <p rend="indent">
+        <lb/><hi rend="sc">As</hi> Sobriety and Temperance is the <lb/>beſt Means we can poſſibly
+        make uſe of, <lb/>in order to preſerve our Health and <lb/>Strength; ſo Drunkenneſs and
+        Exceſs are <lb/>the ready Means to deſtroy them, and <lb/>the ſureſt Way to make a Man's
+        Days <lb/>few and evil upon Earth. By Intempe- <lb/>rance, the Body is ſurcharged with re-
+        <lb/>dundant Humours, whereby the natural <lb/>Heat is extinguiſhed, and the Conſtitution
+        <lb/>deſtroyed by grievous Diſeaſes, as <hi rend="italic">Dropſy</hi>, <lb/><hi
+          rend="italic">Jaundice</hi>, <hi rend="italic">Palſy</hi>, <hi rend="italic"
+        >Apoplexy</hi>, and the like. </p>
+      <p rend="indent">
+        <lb/><hi rend="sc">Physicians</hi> obſerve that theſe Di- <lb/>ſtill'd ſpirituous Liquors,
+        which are in- <lb/>flamed by repeated Diſtillations, are, in <lb/>a manner, direct <hi
+          rend="italic">Poiſon to human Bodies</hi>, <lb/>which are, moſt of them, of too delicate a
+        <lb/>Make, long to bear the being corroded by <lb/>ſuch burning actual <hi rend="italic"
+          >Cauteries</hi>. For they <lb/>obſerve, that not only the Conſtitution of <lb/>the Blood
+        is thereby ſpoiled, its red Part <lb/>being conſumed and burnt, whereby the <lb/>Blood is
+        impoveriſhed to ſuch a De- <lb/>gree, as to have ten times more <hi rend="italic">Serum</hi>
+        <lb/>in it than red Parts; but alſo that the <lb/>fine tender Blood-veſſels of the Liver, or
+        <lb/>Lungs, or ſome other important Bowel, <lb/>are thereby deſtroyed. Whence <hi
+          rend="italic">Hectick <lb/>Fevers</hi>, Conſumptions, and the like Diſ- <lb/>eaſes. Whence
+        alſo ſometimes great <pb n="15"/>
+        <lb/>Profuſions of Blood, by the Veſſels being <lb/>corroded; or elſe by being too much
+        <lb/>weakened, relaxed, and broken, the <lb/>thin ſharp <hi rend="italic">Serum</hi>, eaſily
+        ouzing through <lb/>their Subſtances, throws thoſe unhappy <lb/>Perſons into fatal Dropſies.
+        How many <lb/>have drank to that Exceſs, as to die <lb/>inſtantly, with the deſtructive
+        Weapon, <lb/>as it were, in their Body; whoſe Deaths <lb/>Charity itſelf muſt needs judge
+        moſt mi- <lb/>ſerable, ſince they die in their Sins, and <lb/>are taken away in God's juſt
+        Wrath, even <lb/>whilſt they are ſacrificing their Souls to <lb/>the Devil. But though the
+        Number of <lb/>this Sort be many, yet it is but ſmall, <lb/>in Compariſon of thoſe
+        Multitudes, whom <lb/>it ſweeps away by a gentle and unper- <lb/>ceived Decay: For it does,
+        by little and <lb/>little, quench the natural Heat, and ex- <lb/>tinguiſh the Lamp of Life,
+        and ſo lead <lb/>Men, though not by ſo direct a Paſſage, <lb/>yet but a little about, to
+        their Graves, <lb/>as certainly, though not ſo ſpeedily. If <lb/>then we think it a fearful
+        Sin for a Man <lb/>to murder himſelf, and by laying vio- <lb/>lent Hands on his own Perſon,
+        to ſhorten <lb/>his Life; then let us not eſteem Drun- <lb/>kenneſs as a ſmall Sin, ſince
+        its produces <lb/>the ſame Effects, though by other Means, <lb/>and brings us to an untimely
+        Death, <lb/>though it be by a different Method. <lb/>The plain Reaſon why ſo vaſtly great-
+          <pb n="16"/>
+        <lb/>er Numbers are taken off by untimely <lb/>Deaths in this, than in former Ages, is
+        <lb/>evidently this, that Drunkenneſs and In- <lb/>temperance are in an extraordinary Man-
+        <lb/>ner increaſed among us; and that eſpe- <lb/>cially by the deteſtable Uſe of Brandy,
+        <lb/>and other Diſtill'd 'ſpirituous Liquors, <lb/>which are moſt pernicious to our Con-
+        <lb/>ſtitutions. There are, indeed, ſome few <lb/>of ſo ſtrong a Conſtitution, that they can
+        <lb/>lead an intemperate Life for a good <lb/>Number of Years, without feeling any
+        <lb/>ſenſible Decay in themſelves, yet at <lb/>length they uſually pay dear for their
+        <lb/>former Exceſſes, when the Effects of their <lb/>ſtrong Liquors vent themſelves in Sick-
+        <lb/>neſs and Diſeaſes, and make the unhappy <lb/>Wretches, a miſerable Monument of the
+        <lb/>ſad Effects of the beaſtly Sin of Drunk- <lb/>enneſs: Thus we ſee that this Sin, by
+        <lb/>an almoſt neceſſary and fatal Conſe- <lb/>quence, brings Death along with it. </p>
+      <p rend="indent">
+        <lb/><hi rend="sc">But</hi> let us conſider the ſpiritual, as <lb/>well as temporal Evils,
+        that Men bring <lb/>upon themſelves by the Sin of Drunken- <lb/>neſs; They who live in a
+        conſtant ha- <lb/>bitual Courſe of Debauchery, are dead <lb/>in their Sins; it commonly
+        brings them <lb/>to a State of final Impenitence. All <lb/>Senſe of Religion is apt to wear
+        off <lb/>from thoſe, who give themſelves up to <lb/>this Vice; they in Effect ſay unto God,
+          <pb n="17"/>
+        <lb/>Depart from us, for we will have no <lb/>Knowledge of thy Laws. And though <lb/>they
+        may ſometimes have good Diſpo- <lb/>ſitions, yet they very rarely put them in
+        <lb/>Execution; becauſe their Heads are ſo <lb/>ſhattered and diſcompoſed, that they can-
+        <lb/>not have any ſettled ſerious Thoughts. <lb/>But God knows 'tis very ſeldom that the
+        <lb/>Drunkard entertains the leaſt Thoughts <lb/>of Repentance, for he is rather for en-
+        <lb/>couraging himſelf and others, to go on <lb/>in ſinning, than to break them off by Re-
+        <lb/>pentance; <hi rend="italic">Iſa.</hi> lvi. 12. <q rend="italic">Come ye, ſay they,
+          <lb/>I will fetch Wine, and we will fill our <lb/>ſelves with ſtrong Drink, and to Morrow
+          <lb/>ſhall be as this Day, and much more a- <lb/>bundant </q>. Daily Experience convinces
+        us <lb/>how hard it is to reclaim Drunkenneſs; <lb/>which ſhould, in Reaſon, make Men
+        <lb/>dread, abhor, and deteſt this Vice, which <lb/>leads them to a State of Impenitence,
+        <lb/>the greateſt Evil that is incident to us <lb/>in this Life, ſince it is the ſure Fore-
+        <lb/>runner of eternal Miſery in the next. </p>
+      <p rend="indent">
+        <lb/><hi rend="sc">In</hi> order therefore to have a juſt Ha- <lb/>tred and Deteſtation of
+        this Sin, it be- <lb/>hoves Men ſeriouſly to conſider the Hei- <lb/>nouſneſs of it, and the
+        manifold Evils and <lb/>Miſchiefs that accompany it. It being <lb/>a Vice that is condemned
+        both by God <lb/>and Man, by Infidels, as well as Chriſ- <lb/>tians, and is withal moſt
+        injurious to <pb n="18"/>
+        <lb/>our ſelves, by weakening and deſtroying <lb/>our Bodies, and thereby ſhortening our
+        <lb/>Lives: <q rend="italic">How oft is the Candle of the Wic- <lb/>ked put out, and how
+          frequently cometh <lb/>their Deſtruction upon them, God diſtri- <lb/>buteth Sorrows in his
+          Anger </q>, Job xxi. 17. <lb/><hi rend="italic">Job</hi> calls it, <hi rend="italic">their
+          Deſtruction</hi>, for them- <lb/>ſelves are the Authors of it. </p>
+      <p rend="indent">
+        <lb/><hi rend="sc">The</hi> Prophet <hi rend="italic">Jeremiah</hi>, xxxv. 14. tells
+        <lb/>us, that <q rend="italic">the Words of Jonadab, the Son <lb/>of Rechab, that he
+          commanded his Sons <lb/>not to drink Wine, are obſerved </q>: but our <lb/>bountiful God
+        has permitted the Uſe <lb/>thereof, only with this Charge, <q rend="italic">Be ye <lb/>not
+          drunk with Wine, wherein is Exceſs </q>, <lb/>Epheſ. v. 18. yet Men do not obey his
+        <lb/>Voice, therefore the <hi rend="italic">Rechabites</hi> will be <lb/>their Judges; and
+        it will be more to- <lb/>lerable in the Day Of Judgment, for Ma- <lb/>hometans and
+        Idolaters, than for ſottiſh <lb/>Chriſtians. </p>
+      <p rend="indent">
+        <lb/><hi rend="sc">The</hi> habitual Drinkers of Brandy, and <lb/>other Diſtill'd ſpirituous
+        Liquors eſpeci- <lb/>ally, are grown to that Height of Im- <lb/>piety, that they even glory
+        in their <lb/>Shame; they that are now drunk, are <lb/>not drunk in the Night only; they do
+        <lb/>not deſire that the Darkneſs ſhould cover <lb/>their ſhameful Wickedneſs, for they com-
+        <lb/>mit this Sin openly and at Noon-day, in <lb/>the Face of the Sun: <q rend="italic">They
+          add Drunk- <lb/>kenneſs to Thirſt </q>: Deut. xxix. 19. </p>
+      <pb n="19"/>
+      <p rend="indent">
+        <lb/><hi rend="sc">When</hi> we reflect upon the unhappy <lb/>Courſe and Life of theſe
+        miſerable, infa- <lb/>tuated Wretches, how ought it to af- <lb/>fect us with Concern, to
+        conſider that it <lb/>is deſtructive of their Happineſs both here <lb/>and hereafter. Could
+        we peep into the <lb/>Chambers of Death, and ſee thoſe un- <lb/>happy Souls, who were once
+        indulging in <lb/>exceſſive Drinking here on Earth, on <lb/>whom the Pit has ſhut her Mouth;
+        who <lb/>are full of Anguiſh and Indignation for <lb/>their former Folly, when it is too
+        late. <lb/>It much imports us therefore to remem- <lb/>ber that there remains ſtill the ſame
+        <lb/>Threatning to the Drunkards of this <lb/>Generation, which was formerly denoun-
+        <lb/>ced by the Prophet againſt the Drun- <lb/>kards of <hi rend="italic">Ephraim</hi>; <hi
+          rend="italic">They ſhall be trod- <lb/>den under Feet</hi>, Iſa. xxviii. 3. </p>
+      <p rend="indent">
+        <lb/><hi rend="sc">It</hi> is commonly pleaded by thoſe who <lb/>are under a Habit of
+        Drunkenneſs, that <lb/>they cannot forſake it; ſo they flatter <lb/>and deceive their own
+        Souls, that either <lb/>God will not require them to do an im- <lb/>poſſible Thing, and
+        therefore they ſhall <lb/>be excuſed; or they ſay he is a hard <lb/>Maſter, to ſhut a Man
+        out of Heaven, <lb/>and caſt him into Hell, for doing a Thing <lb/>which he could not help.
+        But, O wic- <lb/>ked Servant! Wherefore doſt thou, to <lb/>keep thy own Wickedneſs, accuſe
+        God <lb/>fooliſhly and falſely? <q rend="italic">for he will not lay <pb n="20"/>
+          <lb/>upon Man more than right, that he ſhould <lb/>enter into Judgment with God </q>, Job
+        xxxiv. <lb/>23. The Son of <hi rend="italic">Sirach</hi> juſtly obſerves, <lb/>that <hi
+          rend="italic">God hath commanded no Man to do <lb/>wickedly, nor has he given any Man a
+          <lb/>Licenſe to Sin</hi>: Eccleſ. xv. 20. If thoſe <lb/>who are diſeaſed with a Dropſy,
+        will, <lb/>when they are adviſed by a Phyſician, <lb/>reſtrain their Appetite, and refrain
+        from <lb/>much Drink; though, by reaſon of their <lb/>Diſtemper, they are continually tor-
+        <lb/>mented with an inſatiable Thirſt, and <lb/>this for the Sake of recovering their
+        <lb/>Health, and to preſerve, for a while, <lb/>their temporal Life: Then how much <lb/>more
+        ſhould thoſe who have been <lb/>addicted to Drunkenneſs, bridle their <lb/>Appetite, and
+        abſtain from Intemper- <lb/>ance, notwithſtanding they have thereby <lb/>brought upon
+        themſelves, ſuch an un- <lb/>natural depraved Thirſt, as gives them <lb/>great Uneaſineſs to
+        forbear drinking; ſo <lb/>many and great are the Evils that do <lb/>neceſſarily accompany
+        this Vice, both in <lb/>this Life, and in the Life to come, that <lb/>are much more
+        earneſtly to be avoided <lb/>than many Deaths. </p>
+      <p rend="indent">
+        <lb/><hi rend="sc">No</hi> Habit, however long in contract- <lb/>ing, his impoſſible to be
+        removed; it may <lb/>be done, though with ſome Difficulty. <lb/>There is no one ſo far gone
+        in the Diſ- <lb/>eaſe of Drunkenneſs, or any other Sin <pb n="21"/>
+        <lb/>whatever, but there is room for a Cure, <lb/>which would certainly be obtained, if
+        <lb/>ſeriouſly, and in Earneſt, ſought after; <lb/>for God affords his Grace to al1 that
+        <lb/>ask it; 'tis only to the Obſtinate and <lb/>Impenitent, that he ſhuts up his Bowels
+        <lb/>of Mercy and Compaſſion. It a greatly <lb/>behoves Men therefore not to forfeit
+        <lb/>the Divine Grace and Aſſiſtance, by their <lb/>obſtinate Perſeverance in this beaſtly
+        Sin, <lb/>but to repent, and reform, that this and <lb/>all their other Sins ſhould be
+        forgiven <lb/>them. </p>
+      <p rend="indent">
+        <lb/><hi rend="sc">They</hi> who would not be led away, <lb/>nor enſlaved by this vile Vice
+        of exceſ- <lb/>ſive Drinking, muſt carefully avoid the <lb/>Company of Drunkards, purſuant
+        to the <lb/>Advice of the Wiſe Man, <hi rend="italic">Prov.</hi> xxiii. 20. <lb/>
+        <q rend="italic">Keep not Company with Drunkards </q>. It <lb/>much imports us therefore to
+        avoid <lb/>drunken Company, and to ſhun their <lb/>Converſation; for if once we give
+        <lb/>Ground and comply, we are loſt, the Sin <lb/>will, by little and little, prevail upon
+        us. <lb/>Thus many who have purpoſed to lead <lb/>temperate Lives, by venturing into the
+        <lb/>Company of Tiplers, where they have <lb/>been gradually drawn in, to be Parta-
+        <lb/>kers of their Beſtiality, have at length <lb/>arrived to that Pitch of Exceſs, as to
+        <lb/>drown all their ſerious and pious Reſo- <pb n="22"/>
+        <lb/>lutions in a continual Flow of Drunk- <lb/>kenneſs. </p>
+      <p rend="indent">
+        <lb/><hi rend="sc">If</hi> Men did, in the Sincerity of their <lb/>Heart, uſe ſuch proper
+        Means, there is <lb/>no doubt, but they would be able to <lb/>overcome this Vice, how long
+        ſoever <lb/>they may have been accuſtomed to it. <lb/>They therefore who continue under the
+        <lb/>Power of it, can never excuſe them- <lb/>ſelves, by the Impoſſibility of Amend-
+        <lb/>ment; but ſhould rather accuſe the <lb/>Falſeneſs of their own Hearts, that have
+        <lb/>ſtill ſuch a Love for this Sin, that they <lb/>will not, in good Earneſt, make uſe of
+        <lb/>the proper Means to avoid it. </p>
+      <p rend="indent">
+        <lb/><hi rend="sc">In</hi> a Word, If all theſe Conſiderations <lb/>will not deter Men from
+        this odious <lb/>Vice; they muſt ſtill wallow in their <lb/>Vomit, and continue in this
+        ſottiſh, <lb/>ſenſeleſs Condition, till the Flames of <lb/>Hell rouſe them, when they will,
+        by <lb/>ſad Experience find, what they will not <lb/>now believe, that <q rend="italic"
+         >the End of theſe Things </q>, <lb/>as the Apoſtle ſays, (<hi rend="italic"
+          >Rom.</hi> vi. 21.) <q rend="italic">is <lb/>Death </q>. </p>
+      <p rend="indent">
+        <lb/><hi rend="sc">I shall</hi> conclude with the Words <lb/>of St. <hi rend="italic"
+          >Paul</hi>, and St. <hi rend="italic">Peter</hi>, 1 <hi rend="italic">Theſſ.</hi> v. 5,
+        <lb/>6. 1 <hi rend="italic">Pet.</hi> v. 8. 1 <hi rend="italic">Pet.</hi> i. 13. <q
+          rend="italic">Ye are all <lb/>the Children of Light, and the Children <lb/>of the Day; we
+          are not of the Night, nor <lb/>of Darkneſs: therefore let us not ſleep, as <pb n="23"/>
+          <lb/>do others, but let us watch and be ſober. <lb/>For they that ſleep, ſleep in the
+          Night; <lb/>and they that are drunken, are drunken <lb/>in the Night; but let us who are
+          of the <lb/>Day be ſober. Be ſober, be vigilant, be- <lb/>cauſe your Adverſary the Devil,
+          as a roar- <lb/>ing Lion, walketh about, ſeeking whom he <lb/>may devour. </q>
+      </p>
+      <space dim="vertical" unit="lines" quantity="3"> </space>
+      <trailer rend="align-center">
+        <lb/>FINIS. </trailer>
+      <figure rend="space">
+        <figDesc>An ornament in the middle of the page. </figDesc>
+      </figure>
+    </body>
+  </text>
+</TEI>

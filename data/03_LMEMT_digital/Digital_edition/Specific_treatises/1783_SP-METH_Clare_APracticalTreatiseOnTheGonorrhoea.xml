@@ -1,0 +1,1073 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LMEMT Corpus - Clare: A practical treatise on the gonorrhoea</title>
+        <respStmt>
+          <resp>Compiler</resp>
+          <persName xml:id="IT">
+            <forename>Irma</forename>
+            <surname>Taavitsainen</surname>
+          </persName>
+          <persName xml:id="TH">
+            <forename>Turo</forename>
+            <surname>Hiltunen</surname>
+          </persName>
+          <persName xml:id="ALe">
+            <forename>Anu</forename>
+            <surname>Lehto</surname>
+          </persName>
+          <persName xml:id="VM">
+            <forename>Ville</forename>
+            <surname>Marttila</surname>
+          </persName>
+          <persName xml:id="RO">
+            <forename>Raisa</forename>
+            <surname>Oinonen</surname>
+          </persName>
+          <persName xml:id="PP">
+            <forename>Päivi</forename>
+            <surname>Pahta</surname>
+          </persName>
+          <persName xml:id="MR">
+            <forename>Maura</forename>
+            <surname>Ratia</surname>
+          </persName>
+          <persName xml:id="CS">
+            <forename>Carla</forename>
+            <surname>Suhr</surname>
+          </persName>
+          <persName xml:id="JT">
+            <forename>Jukka</forename>
+            <surname>Tyrkkö</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Research Assistant</resp>
+          <persName xml:id="WA">
+            <forename>Wilma</forename>
+            <surname>Andersson</surname>
+          </persName>
+          <persName xml:id="EC">
+            <forename>Emanuela</forename>
+            <surname>Costea</surname>
+          </persName>
+          <persName xml:id="DV">
+            <forename>Diana</forename>
+            <surname>Frank-Väyrynen</surname>
+          </persName>
+          <persName xml:id="SK">
+            <forename>Sami</forename>
+            <surname>Kalliomäki</surname>
+          </persName>
+          <persName xml:id="MK">
+            <forename>Mirella</forename>
+            <surname>Klinga</surname>
+          </persName>
+          <persName xml:id="SKo">
+            <forename>Sami</forename>
+            <surname>Koskinen</surname>
+          </persName>
+          <persName xml:id="ALi">
+            <forename>Aatu</forename>
+            <surname>Liimatta</surname>
+          </persName>
+          <persName xml:id="HR">
+            <forename>Heikki</forename>
+            <surname>Rajala</surname>
+          </persName>
+          <persName xml:id="JR">
+            <forename>Jenni</forename>
+            <surname>Riihimäki</surname>
+          </persName>
+          <persName xml:id="AW">
+            <forename>Anna-Lina</forename>
+            <surname>Walraff</surname>
+          </persName>
+        </respStmt>
+        <sponsor>
+          <orgName>Department of Modern Languages, University of Helsinki</orgName>
+        </sponsor>
+        <funder>
+          <orgName>University of Helsinki</orgName>
+          <orgName>Academy of Finland</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>John Benjamins Publishing Company</publisher>
+        <pubPlace>Amsterdam</pubPlace>
+        <date>forthcoming</date>
+        <availability>
+          <p>Copyright by the publisher. All rights reserved.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>
+              <persName>Peter Clare</persName>
+            </author>
+            <title type="main">A practical treatise on the gonorrhoea: recommending the use of
+              injection as the most speedy and efficacious method of cure: with a brief account of
+              the remedies which have been used in the lues venerea, from its first appearance in
+              Europe; and a critical enquiry into the present modes of administering mercury. By
+              Peter Clare, surgeon. </title>
+            <edition n="2"/>
+            <idno type="ESTC">N2679</idno>
+            <ptr type="ESTC-link" target="http://estc.bl.uk/N2679"/>
+            <imprint>
+              <!--Add additional <placeName/> elements for each additional place of publication.-->
+              <pubPlace>
+                <placeName>London</placeName>
+              </pubPlace>
+              <publisher>
+                <persName>London: printed for T. Cadell, in the Strand, MDCCLXXXIII. </persName>
+              </publisher>
+              <date>1783</date>
+            </imprint>
+            <extent>
+              <measure type="format">12⁰</measure>
+              <measure type="count" commodity="front" unit="page" quantity="4"/>
+              <measure type="count" commodity="body" unit="page" quantity="48"/>
+              <measure type="count" commodity="back" unit="page" quantity="1"/>
+            </extent>
+          </monogr>
+          <note type="source_copy">
+            <orgName type="library">Countway Library of Medicine</orgName>
+            <idno type="ECCO">CW3308012816</idno>
+            <idno type="TCP">K001755.000 </idno>
+          </note>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <catRef n="Book on a specific topic: method"/>
+      </textClass>
+    </profileDesc>
+    
+  </teiHeader>
+  <text xml:lang="eng">
+    <front>
+      <div>
+        <pb xml:id="page_2"/>
+        <head rend="align-center space">
+          <lb/><hi rend="size(1.75) space">PREFACE. </hi></head>
+        <p rend="indent">
+          <lb/>THERE are two very different methods <lb/>of curing the Gonorrhœa, the one
+          <lb/>wholly by internal medicines, the other <lb/>principally by injection. The former is
+          <lb/>generally a very uncertain and diſagreeable <lb/>proceſs, the latter is both
+          expeditious and <lb/>ſafe, but dreaded by many perſons on ac- <lb/>count of a falſe idea
+          which has long pre- <lb/>vailed. This ill founded notion it is my <lb/>buſineſs at preſent
+          to confute by ſeveral <lb/>arguments ſupported by quotations from <lb/>Authors of
+          diſtinguiſhed credit. </p>
+        <p rend="indent">
+          <lb/>Mr. <hi rend="italic">Pott</hi> recommends the advice given <lb/>by Lord <hi
+            rend="italic">Bacon</hi> to a ſtudent, "to conſider <lb/>one diſeaſe at a time, and to
+          become tho- <lb/>roughly acquainted with that, before he <pb xml:id="page_3" n="iv"/>
+          <lb/>undertakes another." He further obſerves, <lb/>"that the only means by which true and
+          <lb/>uſeful knowledge is to be obtained in <lb/>every part of ſurgery, are a competent
+          <lb/>knowledge of the anatomical ſtructure of <lb/>the human frame, a cloſe attention to
+          <lb/>the ſymptoms of diſeaſes in the living, <lb/>and a minute examination of the appear-
+          <lb/>ances in the dead: theſe are the great foun- <lb/>tains of all medical knowledge."
+          Mr. <hi rend="italic">Pott</hi>
+          <lb/>has here pointed out, in a very judicious <lb/>manner, the path which every
+          chirurgical <lb/>practitioner and writer ſhould purſue, who <lb/>undertakes to explain the
+          true nature, <lb/>ſeat, and cure of any bodily diſorder. </p>
+        <lb/>
+        <dateline>Chancery-Lane, <lb/>January 1, 1783. </dateline>
+      </div>
+      <div>
+        <pb xml:id="page_4"/>
+        <head rend="sc align-center space">
+          <lb/><hi rend="size(2)">TABLE</hi> OF <hi rend="size(2)">CONTENTS</hi>. </head>
+        <list>
+          <item> Page <lb/><hi rend="dc(2)">T</hi>REATISE on the Gonorrhœa. <lb/> 1 </item>
+          <lb/>
+          <item>On the Cure by internal Medicines. 10 </item>
+          <lb/>
+          <item>Particular Obſervations on Nitre. 12 </item>
+          <lb/>
+          <item>Injections ſtrongly recommended. 17 </item>
+          <lb/>
+          <item>Objections to them anſwered. 18 </item>
+          <lb/>
+          <item>On the Difference between Pus and Muens. 20 </item>
+          <lb/>
+          <item>Brief Account of the Remedies uſed for the Cure <lb/>of the Lues. — 25 </item>
+          <lb/>
+          <item>A Critical Enquiry into the different Methods of <lb/>adminiſtering Mercury. — 29 </item>
+          <lb/>
+          <item>Objections to Mercurial Pills, &amp;c. — 37 </item>
+          <lb/>
+          <item>— to Mercurial Ointment. 41 </item>
+          <lb/>
+          <item>A Recapitulation of the Argument, with addi- <lb/>tional Obſervations. — 45 </item>
+        </list>
+      </div>
+    </front>
+    <body>
+      <div>
+        <pb xml:id="page_5"/>
+        <figure>
+          <figDesc>A horizontal triple-line, spanning the whole page. </figDesc>
+        </figure>
+        <head rend="sc align-center space">
+          <lb/>A <lb/><hi rend="size(1.5) space">TREATISE </hi>
+          <lb/><hi rend="space">on the </hi>
+          <lb/><hi rend="size(1.75) space">GONORRHOEA. </hi>
+        </head>
+        <figure rend="space">
+          <figDesc>A long horizontal line in the middle of the page. </figDesc>
+        </figure>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">T</hi>HE part principally affected by the <lb/>Gonorrhœa is the
+          penis, which con- <lb/>ſiſts of three parts; two of which are called <lb/>corpora
+          cavernoſa, and lie on each ſide, <lb/>and a third, which is ſituated underneath,
+          <lb/>named corpus ſpongioſum urethræ, con- <lb/>ſiſting of the bulb and membranous part,
+          <lb/>continued on to the bladder, and termina- <lb/>ting at the other extremity in the
+          corona, <lb/>or glans penis. The urethra has three <lb/>glands, which were diſcovered by
+            <hi rend="italic">Cowper</hi>, <lb/>and called mucous glands, from the tena- <lb/>city
+          of the liquor which they ſeparate. <lb/>There are alſo two, (or rather one,) about
+          <lb/>the ſize of a nutmeg, they lie at the neck <pb xml:id="page_6" n="8"/>
+          <lb/>of the bladder, between the veſiculae ſemi- <lb/>nales and penis, under the oſſa
+          pubis, al- <lb/>moſt within the pelvis of the abdomen; <lb/>they ſeparate a limpid
+          glutinous humour, <lb/>which is carried into the urethra by ſeveral <lb/>ducts, which
+          enter near thoſe of the pro- <lb/>ſtatae The two firſt of <hi rend="italic">Cowper</hi>'s
+          glands <lb/>are about the bigneſs of a French bean, of <lb/>a depreſſed oval figure, and a
+          yellowiſh <lb/>colour like the proſtatæ, being on each <lb/>ſide the bulb of the urethra,
+          a little above <lb/>it. Their excretory ducts ariſe from the <lb/>internal ſurface next
+          the inner membrane <lb/>of the urethra, into which they open a little <lb/>lower by two
+          diſtinct orifices, juſt below <lb/>the curvature of the oſſa pubis in perinæo, <lb/>where
+          they diſcharge a tranſparent viſcous <lb/>liquor. The third mucous gland is a <lb/>ſmall
+          conglobate yellowiſh gland, like the <lb/>former, but ſomewhat leſs, ſituated above
+          <lb/>the angle of the flexure of the urethra, un- <lb/>der the oſſa pubis, in the
+          perinæum, near <lb/>the anus: it has two excretory ducts, which <lb/>enter the urethra
+          obliquely, a quarter of an <lb/>inch below the two former, and diſcharges <lb/>a liquor
+          like them both in colour and con- <lb/>ſiſtence. </p>
+        <p rend="indent">
+          <lb/>The ſeat of the Gonorrhœa in women is <lb/>the vagina, which is affected with a diſ-
+            <pb xml:id="page_7" n="9"/>
+          <lb/>charge like that of the urethra in men. It <lb/>lies between the bladder and
+          inteſtinum <lb/>rectum, and has rugæ, under which are <lb/>ſmall glands, whoſe excretory
+          ducts are <lb/>called lacunæ. Theſe glands ſeparate a <lb/>mucilaginous ſlimy liquor to
+          lubricate the <lb/>vagina, and are the ſeat of the Gonorrhœa <lb/>in this ſex, as the
+          glands in the urethra are <lb/>in the male. The meatus urinarius being <lb/>a very ſhort
+          paſſage, the heat and ſcalding <lb/>is conſequently much leſs than in the men. </p>
+        <p rend="indent">
+          <lb/>
+          <q rend="diple quotes">A Gonorrhœa from the urethra in a <lb/>man, begins with an
+            uneaſineſs about the <lb/>parts of generation, together with an ap- <lb/>pearance of a
+            little whitiſh matter, about <lb/>the orifice of the urethra, a little ſwelling <lb/>and
+            ſometimes redneſs there, and a ſlight <lb/>pungency upon the evacuation of urine.
+            <lb/>The whitiſh matter ſoon increaſes in <lb/>quantity, the inflammation about the
+            <lb/>end of the urethra becomes more evident, <lb/>and for the moſt part there is now a
+            ten- <lb/>ſion and hardneſs through the whole of <lb/>it, a ſwelling of the lacunæ, and
+            a ſen- <lb/>ſation of ſtricture in the penis, particu- <lb/>larly on erection. The
+            matter ſtill in- <lb/>creaſes, flows out, and grows thinner, <lb/>loſes all its
+            adheſiveneſs, and is of a <lb/>yellow, or greeniſh colour. There is <pb xml:id="page_8"
+              n="10"/>
+            <lb/>now always a redneſs about the end <lb/>of the canal; often a pain from the diſ-
+            <lb/>tention of the urethra, during the eva- <lb/>cuation of urine, and a much ſeverer
+            to- <lb/>wards the orifice, from its ſtimulus, with <lb/>an increaſe of the redneſs juſt
+            after it is <lb/>evacuated. The inflammation prevents <lb/>the extenſion of the urethra
+            in erection, <lb/>ſo that the penis is at that time curved <lb/>downwards with great
+            pain, which is in- <lb/>creaſed if it be raiſed towards the belly, <lb/>and the ſtimulus
+            occaſions it often to be <lb/>erected, eſpecially when warm in bed <note place="bottom"
+              n="*" rend="size(0.75) align-center">* Dr. <hi rend="italic">Fordyce</hi>'s Elements
+              of Phyſic. </note>. </q>
+        </p>
+        <p rend="indent">
+          <lb/>I believe it would generally be eſteemed <lb/>good practice on this occaſion to give
+          nitre <lb/>in conſiderable quantity, a purging elec- <lb/>tuary, pill, or ſalts, and to
+          take blood <lb/>freely from the patient; alſo to direct large <lb/>quantities of diluting
+          liquors, and further to <lb/>recommend a ſtrict regimen and abſtinence <lb/>from
+          particular meats, vegetables, and <lb/>ſtrong liquors. The queſtion is, are ſuch
+          <lb/>medicines and reſtriction neceſſary? In <lb/>my humble opinion they are not, and
+          <lb/>they appear, upon the whole, to do more <lb/>harm than good, as I ſhall endeavour to
+          <lb/>demonſtrate from the experience of thoſe <pb xml:id="page_9" n="11"/>
+          <lb/>who are well qualified to give an opinion in <lb/>a matter of this kind, and alſo
+          from my <lb/>own obſervation and practice. </p>
+        <p rend="indent">
+          <lb/>Dr. <hi rend="italic">Cullen</hi> remarks, <q rend="quotes">that purgatives <lb/>not
+            only inflame the rectum, but alſo extend <lb/>their irritation to the urethra. </q> May
+          not <lb/>chordee and priapiſm then often be attri- <lb/>buted to this cauſe? </p>
+        <p rend="indent">
+          <lb/>Dr. <hi rend="italic">Fordyce</hi> recommends <q rend="quotes">increaſing <lb/>the
+            ſecretion a little, by ſuch gentle pur- <lb/>gatives as procure only two or three evacu-
+            <lb/>ations a day. </q>—But who can enſure his <lb/>patient two or three ſtools only in
+          a day? <lb/>The inteſtines being once put into motion, <lb/>will not accommodate
+          themſelves exactly <lb/>to our wiſh or convenience. Happily for <lb/>the patient, it is
+          certain that even gentle <lb/>purging may be diſpenſed with on theſe <lb/>occaſions. </p>
+        <p rend="indent">
+          <lb/>He adds, <q rend="quotes">that ſevere purging often <lb/>augments the inflammatory
+            ſymptoms, <lb/>brings on ſtrangury and exulcerations, gives <lb/>occaſion to
+            inflammation of the teſticles, <lb/>and other neighbouring parts, or it ſtops <lb/>the
+            running before the infection is waſhed <lb/>off, and the Gonorrhœa either returns in a
+            <lb/>few days, or exulcerations take place. </q>
+        </p>
+        <p rend="indent">
+          <lb/>The Doctor further obſerves, <q rend="quotes">that long <lb/>continued purging is apt
+            to weaken the <pb xml:id="page_10" n="12"/>
+            <lb/>ſtomach and inteſtines, to hurt the di- <lb/>geſtion, to produce obſtinate gleets,
+            and <lb/>leave hypochondriacal ſymptoms, particu- <lb/>larly in irritable or melancholic
+            habits. </q>
+        </p>
+        <p rend="indent">
+          <lb/>Many more authorities might be adduced <lb/>in proof of the bad effects of a courſe
+          <lb/>of purgatives in theſe caſes, which are <lb/>generally of conſiderable duration, when
+          <lb/>treated in this manner. Neither are anti- <lb/>phlogiſtic remedies to be depended
+          upon, <lb/>as they ſometimes produce the very contra- <lb/>ry effect to what was expected
+          from them: <lb/>amongſt the firſt of theſe is nitre, in inflam- <lb/>matory diſorders. Dr.
+            <hi rend="italic">Lewis</hi>, a late writer <lb/>of no ſmall credit, reckons, that nitre
+          often <lb/>gives relief in ſtranguries, and heat of urine, <lb/>proceeding either from a
+          ſimple or a vene- <lb/>real taint; and indeed the greateſt part of <lb/>practitioners have
+          always given it, and ſtill <lb/>continue to give it in the venereal <hi rend="italic"
+            >ardor <lb/>urinæ</hi>. </p>
+        <p rend="indent">
+          <lb/>
+          <q rend="diple quotes">This practice, however, ſays Dr. <hi rend="italic">Hope</hi>
+            <lb/>in his lectures on the Materia medica, I <lb/>am apt to believe has taken its riſe
+            from <lb/>the name of ardor having always been <lb/>given to the pain in evacuating the
+            urine, <lb/>during the time of a venereal inflamma- <lb/>tion of the urethra, and the
+            name and <lb/>virtues of a cooler, having always been <pb xml:id="page_11" n="13"/>
+            <lb/>attributed to this ſalt. But it is certain <lb/>that the urine paſſed during the
+            time of <lb/>a venereal inflammation is no warmer <lb/>than at other times, and
+            therefore to <lb/>preſcribe a cooler to allay the heat of it, <lb/>is abſurd: and I am
+            perſuaded, that on <lb/>a free and candid examination of this <lb/>matter, it will be
+            found, that nitre has <lb/>not the ſmalleſt power of alleviating the <lb/>pain which is
+            then felt; for I have given <lb/>it in all the different ſtages of this diſeaſe, <lb/>in
+            ſmall and in large doſes; but from <lb/>the ſole uſe of it in a great number of trials,
+            <lb/>have never been able to obſerve that it <lb/>afforded the leaſt relief. Nor, when
+            we <lb/>conſider the cauſe of that pain, and the <lb/>effects of nitre, have we any
+            reaſon to <lb/>expect it; for the pain certainly proceeds <lb/>from the acrid ſalts in
+            the urine, ſtimu- <lb/>lating the inflamed or excoriated urethra; <lb/>and a ſolution of
+            nitre applied to any ex- <lb/>coriated part always gives conſiderable <lb/>pain.
+            Experiments aſſure us, that on <lb/>taking nitre into the ſtomach, the urine
+            <lb/>becomes impregnated with it. The larger <lb/>therefore the doſes are, the ſtronger
+            will <lb/>this impregnation be, and the greater <lb/>ſtimulus added to the urine; ſo
+            that we <lb/>may ſenſibly conclude, that this ſalt will <pb xml:id="page_12" n="14"/>
+            <lb/>rather augment than diminiſh the pain in <lb/>evacuating it. The Doctor further re-
+            <lb/>marks, that there are many weak and <lb/>delicate ſtomachs which cannot bear
+            <lb/>the cold it produces, and others in <lb/>whom it always creates ſickneſs and
+            <lb/>nauſea. </q>
+        </p>
+        <p rend="indent">
+          <lb/>Beſides the diſagreeable circumſtance of <lb/>taking great quantities of nauſeous me-
+          <lb/>dicines, we find there is the greateſt un- <lb/>certainty as to their real effects on
+          the <lb/>diſeaſes they are intended to remove. A <lb/>powder or medicine of any kind,
+          applied to <lb/>blood in a baſon, may viſibly affect that <lb/>fluid, and render it thin
+          or thick; yet <lb/>being taken into the ſtomach, and poſſibly <lb/>from thence into the
+          circulation, it may <lb/>have a very different effect on the circula- <lb/>ting fluids, or
+          perhaps none, having un- <lb/>dergone a material alteration in its courſe. </p>
+        <p rend="indent">
+          <lb/>A late celebrated Lecturer on the Mate- <lb/>ria Medica, diſcourſing with his pupils
+          on <lb/>the powerful operations of mucilaginous <lb/>medicines in the alleviation of the
+          pain <lb/>ariſing from the ſtone in the bladder, re- <lb/>marked that ſuch medicines were
+          extremely <lb/>uſeful where the ſtone was of the mulberry <lb/>kind, and apt to vellicate
+          the coats of the <lb/>bladder. He told them the ropy mucilage <pb xml:id="page_13" n="15"/>
+          <lb/>would envelope the ſtone, and make a uni- <lb/>formly ſmooth ſurface, entirely
+          depriving <lb/>it of its aſperities, and conſequently of its <lb/>power of hurting the
+          bladder. </p>
+        <p rend="indent">
+          <lb/>It is difficult for one converſant with the <lb/>mechaniſm of the human body, and the
+          <lb/>operation of medicine, to conceive, that a <lb/>mucilage given by the mouth will
+          arrive <lb/>at the bladder in that ſtate. We are cer- <lb/>tain that particular remedies
+          will ſtimulate <lb/>particular parts: balſam of capivi, for in- <lb/>ſtance, being
+          abſorbed, is known to af- <lb/>fect the kidnies and bladder, by the ſtrong <lb/>odour it
+          imparts to the urine; but we do <lb/>not find this, or any other medicine, ex- <lb/>cept
+          quickſilver, will paſs off in the ſame <lb/>form in which it is adminiſtered by the
+          <lb/>mouth. This balſam is very much eſteem- <lb/>ed for its great virtues, particularly
+          in cer- <lb/>tain ſtages of the Gonorrhœa, but it is ſo <lb/>very diſagreeable, on account
+          of its oily <lb/>and bitter quality, as well as its ſmell, that <lb/>ſome patients are
+          ſoon diſguſted with it, <lb/>and others will not be prevailed upon to <lb/>take it at all;
+          we cannot therefore think <lb/>it ſtrange, that many gentlemen ſhould <lb/>often prefer
+          injections to all other means, <lb/>which do not appear to produce effects in <lb/>any
+          degree equal to the trouble which at- <pb xml:id="page_14" n="16"/>
+          <lb/>tends them. It muſt be acknowledged <lb/>that patients often ſuffer more from the
+          <lb/>remedy than the diſorder; they are often <lb/>more emaciated, weak, and pallid in
+          their <lb/>countenance, (circumſtances which fre- <lb/>quently lead to diſagreeable
+          diſcoveries,) <lb/>from the operations of purgatives in the <lb/>ſpace of one week, than
+          they would have <lb/>been in a month, if there had been no <lb/>attempt made to check the
+          progreſs of this <lb/>diſorder. </p>
+        <p rend="indent">
+          <lb/>There are many people who have not <lb/>leiſure to purſue the ſeveral directions and
+          <lb/>preſcriptions given by practitioners; and <lb/>if they could find time, they would
+          have <lb/>but little inclination to undergo ſo much <lb/>fatigue and trouble. Such tedious
+          pro- <lb/>ceſſes are very ill contrived for the mul- <lb/>titude, who muſt be, <hi
+            rend="italic">and are daily cured by <lb/>means much more eaſy, expeditious, and quite
+            <lb/>as effectual</hi>; and if one claſs of men are <lb/>cured in this manner, why
+          ſhould not all <lb/>enjoy the ſame benefit? </p>
+        <p rend="indent">
+          <lb/>I have aſſerted, that a regimen, or par- <lb/>ticular diet, is not neceſſary in the
+          cure of <lb/>the Gonorrhœa, when treated in the man- <lb/>ner here recommended. Some have
+          aſked, <lb/>if the diſorder is not inflammatory, and if <lb/>living low is not
+          indiſpenſibly neceſſary <pb xml:id="page_15" n="17"/>
+          <lb/>in every complaint of this kind? It may <lb/>be ſaid in reply, that this is a local
+          inflam- <lb/>mation, which yields at once to a cooling <lb/>detergent liquid applied to
+          the part; whilſt <lb/>internal medicines are commonly ſlow and <lb/>uncertain in removing
+          it.—When mercury <lb/>does not paſs into the ſtomach, there is no <lb/>occaſion to enjoin
+          reſtrictions with reſpect <lb/>to diet, ſince no diſagreement can then <lb/>happen;
+          patients may live in the ſame <lb/>manner as at other times, only avoiding <lb/>exceſs. </p>
+        <p rend="indent">
+          <lb/>Dr. <hi rend="italic">Hugh Smith</hi>, who is an advocate for <lb/>vitriolic
+          injections, aſſerts, <q rend="quotes">That a Go- <lb/>norrhœa, if taken in the beginning,
+            may <lb/>generally be cured in a fortnight, without <lb/>any <choice>
+              <corr>injury</corr>
+              <sic>injuty</sic>
+            </choice> to the conſtitution, or any ill <lb/>effects whatſoever <note place="bottom"
+              n="*" rend="size(0.75) align-center">* Dr. <hi rend="italic">Smith</hi>'s Formulæ
+              Medicamentorum. </note>. </q>
+        </p>
+        <p rend="indent">
+          <lb/>I have met with the greateſt ſucceſs in <lb/>the cure of this complaint from the ſame
+          <lb/>ſort of injections, and find they anſwer <lb/>much better than mercurial ones, which
+          <lb/>depoſit a conſiderable ſediment, and being <lb/>conveyed into the urethra, cauſe
+          irritation <lb/>and pain in that tender paſſage. </p>
+        <p rend="indent">
+          <lb/>The injection ſhould be applied cold, <lb/>rather than warm, (as cold braces and <pb
+            xml:id="page_16" n="18"/>
+          <lb/>warmth relaxes,) which I find often com- <lb/>pletes the cure in much leſs than a
+          fort- <lb/>night, the time mentioned by the Doctor. </p>
+        <p rend="indent">
+          <lb/>If the injection cauſes any more than a <lb/>ſlight ſenſation of ſmart or pain in the
+          paſ- <lb/>ſage, it is evidently too much impregnated <lb/>with vitriol, and the ſolution
+          muſt be made <lb/>weaker, as the irritation of the liquor would <lb/>increaſe the ſymptoms
+          inſtead of diminiſh- <lb/>ing them. </p>
+        <p rend="indent">
+          <lb/>The great objection to this ſort of prac- <lb/>tice is raiſed on the ſuppoſition that
+            <hi rend="italic">In- <lb/>jections</hi> are apt to produce <hi rend="italic"
+            >ſtricture</hi> in the <lb/>urinary paſſage, This idea, I apprehend, <lb/>is not well
+          founded; having enquired of <lb/>many different people who have been <lb/>troubled with
+            <hi rend="italic">ſtrictures</hi>, if they had uſed <lb/>injections for the cure, and
+          was generally <lb/>anſwered in the negative.—I am much <lb/>inclined to think with Doctor
+            <hi rend="italic">Fordyce</hi>, <lb/>
+          <q rend="quotes">That when a <hi rend="italic">gonorrhoœa</hi> continues long, <lb/>it
+            ſometimes produces a <hi rend="italic">ſtricture</hi> in the <lb/>part. </q>
+          Inflammation is naturally diſpo- <lb/>ſed to produce contraction and <hi rend="italic"
+            >ſtricture</hi> in <lb/>the different ſacculi and paſſages of the <lb/>body, as well as
+          in the <hi rend="italic">urethra</hi>: therefore <lb/>we may conclude, that evils are
+          often at- <lb/>tributed to <hi rend="italic">Injections</hi>, which in fact owe <pb
+            xml:id="page_17" n="19"/>
+          <lb/>their origin to other cauſes <note place="bottom" n="*" rend="size(0.75)">
+            <p rend="indent">
+              <lb/>* If the long duration of this diſtemper produces ſtric- <lb/>tures and
+              obſtructions, then what removes the diſorder <lb/>quickly, muſt undoubtedly prevent
+              the above evils, in- <lb/>ſtead of cauſing them. </p>
+          </note>. The ſame <lb/>gentleman juſtly obſerves, that omitting <lb/>the <hi rend="italic"
+            >injection</hi> once or twice will often make <lb/>it fail of curing, when it would have
+          other- <lb/>wiſe produced that effect <note place="bottom" n="†" rend="size(0.75)">
+            <p rend="indent">
+              <lb/>† If the Injection ſhould not produce the deſired ef- <lb/>fect, it will be right
+              to enquire if the urine paſſes freely, <lb/>and whether it divides into two ſtreams,
+              or more; or <lb/>whether it comes out twiſted, like a cork-ſcrew. In <lb/>theſe caſes,
+              it is not likely the Injection ſhould effect <lb/>its purpoſe, being unable to paſs:
+              recourſe muſt <lb/>therefore be had to the <hi rend="italic">Bougie</hi> to reſtore
+              the paſſage to <lb/>its natural ſtate. </p>
+          </note>. He likewiſe <lb/>remarks, that patients treated in this man- <lb/>ner, are leſs
+          liable to inflammation of the <lb/>teſticles, or of the glands in the groin (or <lb/>to
+            <hi rend="italic">chancres</hi>) or <hi rend="italic">ſtrictures</hi>. Theſe obſerva-
+          <lb/>tions are certainly founded on fact. It is <lb/>the general opinion, that ſmall doſes
+          of <lb/>mercury ought to accompany the <hi rend="italic">Injection</hi>. <lb/>See <hi
+            rend="italic">Fordyce</hi>, <hi rend="italic">Saunders</hi>, <hi rend="italic"
+            >Smith</hi>, and others.— <lb/>Conformably to this idea, I give a grain of
+          <lb/>mercurial powder, and apply it to the cu- <lb/>ticular ſurfaces of the lips, or the
+          tongue, <lb/>and at the ſame time make uſe of the <hi rend="italic">vi- <lb/>triolic</hi>,
+          in preference to every other <hi rend="italic">Injection</hi>. <lb/>Though I have made
+          repeated trials of ſe- <pb xml:id="page_18" n="20"/>
+          <lb/>veral, I know of no other which would <lb/>remove the diſorder in twice the time
+          which <lb/>this does; but there are ſome that would <lb/>not ſucceed at all, and rather
+          aggravate the <lb/>ſymptoms. </p>
+        <p rend="indent">
+          <lb/>It is now proved by a repetition of in- <lb/>genious experiments, and generally
+          admit- <lb/>ted, that the diſcharge in a <hi rend="italic">Gonorrhœa</hi> pro-
+          <lb/>ceeding from the <hi rend="italic">urethra</hi>, is not <hi rend="italic">pus</hi>,
+          but <lb/><hi rend="italic">mucus</hi>. <hi rend="italic">Pus</hi> is the matter which
+          proceeds <lb/>from wounds and ulcers, but <hi rend="italic">mucus</hi> comes <lb/>from
+          ſurfaces not ulcerated, though ſome- <lb/>times inflamed. Dr. <hi rend="italic"
+            >Hunter</hi> ſays, he has <lb/>often diſſected the <hi rend="italic">urethra</hi> of
+          perſons who <lb/>have died, having the <hi rend="italic">Gonorrhœa</hi> at that <lb/>time,
+          and he adds, that he never diſco- <lb/>vered any ulcer in the paſſage. <hi rend="italic"
+            >Mucus</hi> is, <lb/>in itſelf, an innocent, mild fluid, but ca- <lb/>pable of acquiring
+          virulence and acrimo- <lb/>ny from contagious infection. </p>
+        <p rend="indent">
+          <lb/>The Gonorrhœa is an increaſed and <lb/>virulent diſcharge from the <hi rend="italic"
+            >mucous</hi> glands <note place="bottom" n="*" rend="size(0.75) align-center">*
+            Deſcribed in Pages 1 and 2. </note>
+          <lb/>of the urinary paſſage. Mucus, when <lb/>untainted, is tranſparent like the white
+          <lb/>of an egg, appears as a drop ſometimes <lb/>at the orifice of the urethra next the
+          <lb/>glands, is of a mucilaginous viſcidity, and <lb/>its uſe is to ſheathe and defend the
+          paſſage <pb xml:id="page_19" n="21"/>
+          <lb/>from the irritating ſalts conveyed in the <lb/>urine. It reſembles the fluid in the
+          eye, <lb/>which is ſecreted in ſmall quantity, but <lb/>when the lachrymal gland is
+          ſtimulated by <lb/>grief, duſt, or other offending ſubſtance, <lb/>the diſcharge becomes
+          copious and ſome- <lb/>times acrid. </p>
+        <p rend="indent">
+          <lb/><hi rend="italic">Darwin</hi> obſerves, in his experiments <lb/>on pus and mucus, <q
+            rend="quotes">That whenever <lb/>the ſecretion of any fluid is increaſed, <lb/>there is
+            at the ſame time an increaſed <lb/>heat in the part. </q> The ſame gentleman
+          <lb/>obſerves, that <q rend="quotes">the catarrhal humour <lb/>from the noſtrils of ſome
+            who ride in <lb/>froſty weather, and the tears which run <lb/>down the cheeks of thoſe
+            who have an ob- <lb/>ſtruction of the puncta lachrymalia, are <lb/>eaſily diſtinguiſhed
+            from others, by their <lb/>abounding in ammoniacal or muriatic ſalts, <lb/>whence they
+            inflame the circumjacent ſkin: <lb/>thus in the catarrh, the upper lip becomes <lb/>red
+            and ſwelled from the acrimony of the <lb/>mucus, and patients complain of the ſalt-
+            <lb/>neſs of its taſte. The eyes and cheeks are <lb/>red with the corroſive tears, and
+            the ichor <lb/>of ſome herpetic eruptions erodes far and <lb/>wide the contiguous parts,
+            and is pungent- <lb/>ly ſalt to the taſte, as ſome patients have <lb/>informed him. </q>
+        </p>
+        <pb xml:id="page_20" n="22"/>
+        <p rend="indent">
+          <lb/>When the mucous membrane of the <lb/>noſe is ſtimulated by a violent cold, or
+          <lb/>other cauſe, we often ſee an extraordinary <lb/>quantity of diſcharge from that
+          organ; <lb/>yet no one ſuſpects the exiſtence of any <lb/>ulcers there, and I have often
+          obſerved, <lb/>that the diſcoloured mucus of that part <lb/>bears ſo ſtrong a reſemblance
+          to the viru- <lb/>lent diſcharge in the gonorrhœa, that it <lb/>would frequently perplex
+          perſons conver- <lb/>ſant in theſe matters to diſtinguiſh two <lb/>handkerchiefs, the one
+          from the other, when <lb/>ſtained with the reſpective mucus. Either <lb/>of theſe fluids
+          having acquired acrimony <lb/>will inflame, and ſometimes ſlightly exco- <lb/>riate
+          irritable nervous membranes. Theſe <lb/>excoriations generally heal of themſelves,
+          <lb/>and when they do not, no one heſitates <lb/>to apply repellent and healing medicines
+          <lb/>to the part, without even the ſmalleſt <lb/>ſuſpicion of any bad conſequence. With
+          <lb/>ulcers the caſe is very different, there <lb/>being the greateſt reaſon to apprehend
+          <lb/>danger from the abſorption of matter into <lb/>the circulation. Writers of good
+          credit <lb/>aſſert, that a drop of acrid pus, abſorbed <lb/>into the blood, affects all
+          the fluids, ſtimu- <lb/>lates the veſſels, and is capable of produ- <lb/>cing violent
+          diſorders, ſuch as putrid fe- <pb xml:id="page_21" n="23"/>
+          <lb/>vers, &amp;c. Impreſſed with ſuch a belief, <lb/>no thinking man, in this or any age,
+          <lb/>would adopt a practice at once ſo irrational <lb/>and dangerous: but as the diſcharge
+          is <lb/>merely mucus, and has no concern with the <lb/>ſyſtem or animal œconomy, it may be
+          ſafely <lb/>waſhed away, like any other <hi rend="italic">ſordes</hi>, or filth <lb/>from
+          the ſurfaces of the body, by injec- <lb/>tions, which are not only far more expedi-
+          <lb/>tious in producing their effects, but alſo <lb/>appear, on a due compariſon of the
+          merits <lb/>of each, to poſſeſs another advantage, that <lb/>of being a more cleanly,
+          ſafe, and agreeable <lb/>method of cure, than any other whatſoever. <lb/>I have only to
+          add in this place, that I am <lb/>confirmed more and more in the uſe of in- <lb/>jections,
+          which entirely anſwer the above <lb/>deſcription and commendation. </p>
+      </div>
+      <div>
+        <pb xml:id="page_22" n="25"/>
+        <head rend="sc size(0.75) align-center">
+          <lb/>A <lb/><hi rend="size(2.0)">BRIEF ACCOUNT </hi>
+          <lb/>OF THE <lb/><hi rend="roman">REMEDIES in USE for the CURE </hi>
+          <lb/>of the <lb/><hi rend="size(1.25)">LUES VENEREA, </hi>
+          <lb/>from its <lb/><hi rend="roman szie(1.2)">Firſt Appearance in <hi rend="sc"
+              >Europe</hi>. </hi>
+        </head>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">T</hi>HE cure of this diſorder, which has <lb/>now prevailed all
+          over <hi rend="italic">Europe</hi> near <lb/>three centuries, has not been ſo much im-
+          <lb/>proved by the profeſſion as might have <lb/>been expected during ſo long a period. It
+          <lb/>raged for ſeveral years uncontrouled, be- <lb/>fore an effectual remedy for it was
+          diſco- <lb/>vered. After the antidote for this poiſon <lb/>was found to exiſt in mercury,
+          yet ſtill <lb/>ſo very unfortunate was the <choice>
+            <corr>application</corr>
+            <sic>applicat on</sic>
+          </choice>
+          <lb/>of it, that many lives were loſt by ſa- <lb/>livations, ſhocking to relate, in conſe-
+            <pb xml:id="page_23" n="26"/>
+          <lb/>quence of the want of ſufficient know- <lb/>ledge of the nature and qualities of this
+          <lb/>mineral, in the practitioners of thoſe <lb/>times. </p>
+        <p rend="indent">
+          <lb/>
+          <q rend="quotes">The firſt attempts of the cure of vene- <lb/>real maladies, by this
+            remedy, were learned <lb/>from the <hi rend="italic">Arabians</hi>, who having recom-
+            <lb/>mended mercurial ointments in the <hi rend="italic">Leproſy</hi>
+            <lb/>or ſcabies, gave a handle to the <hi rend="italic">Italian</hi>
+            <lb/>phyſicians, to try their efficacy in removing <lb/>the foulneſs of the ſkin from a
+            new and ter- <lb/>rible contagion: neither were they ſparing <lb/>of their liniments,
+            which they continued <lb/>to rub in for twelve, fifteen, nay, ſome- <lb/>times for above
+            thirty days together <note place="bottom" n="*" rend="size(0.5) align-center">* <hi
+                rend="italic">Mead</hi> on Poiſons. </note>, </q> a <lb/>very dangerous practice,
+          which prevails too <lb/>much even in the preſent age. Sarſaparilla, <lb/> ſaſſafras,
+          guaicum, have all at different pe- <lb/>riods been in more or leſs eſtimation for
+          <lb/>their antivenereal virtues; but mercury is <lb/>the only antidote for this poiſon, on
+          which <lb/>any age has repoſed an entire confidence. </p>
+        <p rend="indent">
+          <lb/>In 1685, Dr. <hi rend="italic">Sydenham</hi> wrote on this <lb/>amongſt other
+          ſubjects. His account <lb/>ſhews, that although the uſe of the re- <lb/>medy was better
+          underſtood, yet the cure <lb/>of the diſorder was but little improved. </p>
+        <pb xml:id="page_24" n="27"/>
+        <p rend="indent">
+          <lb/>In 1731, Dr. <hi rend="italic">Turner</hi>, a member of the <lb/>College of
+          Phyſicians in <hi rend="italic">London</hi>, who had <lb/>made the Venereal Diſeaſe his
+          particular <lb/>ſtudy, thought proper to communicate his <lb/>obſervations and practice to
+          the world. His <lb/>draſtic purges, and mercurial preſcriptions, <lb/>were ſuch as might
+          deſtroy the moſt robuſt <lb/>conſtitution; what then muſt have become <lb/>of thoſe of a
+          weak and delicate frame? </p>
+        <p rend="indent">
+          <lb/>Dr. <hi rend="italic">Boerhaave</hi> has advanced a ſyſtem of <lb/>his own,
+          apparently leſs detrimental than <lb/>former ones, and which has been very <lb/>much
+          adopted of late years. The Doctor's <lb/>theory of the diſeaſe is, that it is ſeated in
+          <lb/>the fat; therefore evacuations which de- <lb/>ſtroyed it, muſt, in his opinion,
+          contri- <lb/>bute greatly to the cure of this diſorder; <lb/>for which reaſon the Doctor
+          recommended <lb/>the moſt powerful ſudorifics and purga- <lb/>tives, the former of which
+          though hurt- <lb/>ful, are leſs prejudicial to the conſtitution <lb/>than the latter. </p>
+        <p rend="indent">
+          <lb/>Dr. <hi rend="italic">Aſtruc</hi>, a celebrated writer, has given <lb/>a very
+          ſenſible and accurate deſcription of <lb/>the <hi rend="italic">Lues Venerea</hi> in all
+          its ſtages, with di- <lb/>rections for its cure; but the remedies are <lb/>as violent as
+          thoſe recommended by pre- <lb/>ceding writers, and ought therefore to be <lb/>exploded. </p>
+        <pb xml:id="page_25" n="28"/>
+        <p rend="indent">
+          <lb/>Baron <hi rend="italic">Van Swieten</hi> recommends <hi rend="italic">The Cor-
+            <lb/>roſive Sublimate</hi> to be given internally. It <lb/>had hitherto only been uſed
+          externally to <lb/><hi rend="italic">fungus</hi> in wounds, on account of the vio-
+          <lb/>lence of its nature. Even when admini- <lb/>ſtered in rum or brandy, to correct it,
+          the <lb/>ſtomach can ſeldom retain it, for which <lb/>reaſon it has grown into diſrepute,
+          although <lb/>it has a moſt aſtoniſhing and rapid effect in <lb/>removing venereal
+          ſymptoms. </p>
+        <p rend="indent">
+          <lb/>Mr. Profeſſor <hi rend="italic">Plenk</hi> adviſes the giving <lb/><hi rend="italic"
+            >Quickſilver with gum arabic</hi>, to prevent <lb/>it from exciting a ſalivation. This
+          is the <lb/>leaſt prejudicial of all the modes of admini- <lb/>ſtering mercury internally. </p>
+        <p rend="indent">
+          <lb/><hi rend="italic">Fumigation</hi>, which is lately revived, <lb/>I have often ſeen
+          applied to ſores with hardly <lb/>any perceptible advantage, and ſometimes <lb/>it gave
+          great pain, and did a manifeſt in- <lb/>jury. </p>
+        <p rend="indent">
+          <lb/>Two circumſtances have conduced great- <lb/>ly to the better treatment of this
+          complaint, <lb/>within theſe twenty or thirty years; I <lb/>mean, the extraordinary
+          improvements in <lb/>anatomy and chymiſtry: by the former <lb/>we have acquired a better
+          knowledge of <lb/>the ſeat of this diſorder, and by the lat- <lb/>ter, of the medicines
+          employed to effect it's <lb/>cure. </p>
+      </div>
+      <div>
+        <pb xml:id="page_26" n="29"/>
+        <head rend="sc size(0.75) align-center">
+          <lb/>A <lb/><hi rend="size(1.5)">CRITICAL ENQUIRY </hi>
+          <lb/>into the <lb/><hi rend="size(1.25)">OPERATION of MERCURY, </hi>
+          <lb/>and the different <lb/><hi rend="roman size(1.25)">Modes of adminiſtering it
+            conſidered. </hi>
+        </head>
+        <figure rend="space">
+          <figDesc>A long horizontal line in the middle of the page. </figDesc>
+        </figure>
+        <p rend="space">
+          <lb/><hi rend="dc(2)">D</hi>IFFERENCE of opinion prevails <lb/>with regard to the mode of
+          admini- <lb/>ſtering mercurial preparations; the advo- <lb/>cates for each, giving their
+          reaſons for that <lb/>which they adopt in preference to any <lb/>other. The <hi
+            rend="italic">alterative</hi> method is much in <lb/>eſteem and practice, and with ſome
+          devia- <lb/>tion and caution may be rendered very <lb/>beneficial. </p>
+        <p rend="indent">
+          <lb/>This appellation of <hi rend="italic">alterant or alterative <lb/>is given to all
+            ſuch medicines as correct the <pb xml:id="page_27" n="30"/>
+            <lb/>bad qualities of the blood, and other animal <lb/>fluids, without occaſioning any
+            ſenſible evacu- <lb/>ation</hi>. According to Dr. <hi rend="italic">Woodward</hi>, all
+          <lb/>that is commonly alledged concerning the <lb/>change of principles or ferments of
+          diſ- <lb/>eaſes by alterant remedies, is merely chi- <lb/>merical and imaginary; he
+          remarks, that there is no change made to the advantage of the human body without a
+          ſucceſſive renovation and diſcharge of what is hurtful, and a ſupply of its place by
+          ſomething in- <lb/>nocent. </p>
+        <p rend="indent">
+          <lb/>The Doctor gives the preference to eva- <lb/>cuants, as being the only medicines ca-
+          <lb/>pable of freeing the machine from whatever <lb/>incommodes it. Some take a contrary
+          <lb/>courſe, and aſcribe even the ſalutary ef- <lb/>fects of evacuants to their alterative
+          nature, <lb/>which has been alledged of mercury in the <lb/>cure of the venereal diſeaſe.
+          Among alte- <lb/>rant medicines there are ſeveral which <lb/>change the ſcene of the
+          ſymptoms, and <lb/>others which ſuſpend the action of the mor- <lb/>bific matter for a
+          time; but theſe reme- <lb/>dies which hold the morbific principles <lb/>captive pro
+            tempo<unclear>r</unclear>e, are only palliatives, <lb/>and even on ſome accounts
+          dangerous, <lb/>ſince they may as well captivate other prin- <lb/>ciples neceſſary to <choice>
+            <corr>life</corr>
+            <sic>liſe</sic>
+          </choice>. </p>
+        <pb xml:id="page_28" n="31"/>
+        <p rend="indent">
+          <lb/>Dr. <hi rend="italic">Fordyce</hi> ſays, <q rend="quotes">Whatever prepara- <lb/>tion
+            we employ, we ſhould give it in ſuch <lb/>a manner, and in ſuch a doſe as to pro-
+            <lb/>duce hardneſs, fullneſs, and moderate fre- <lb/>quency of the pulſe, with as little
+            ſenſible <lb/>evacuation as poſſible; for that the mercury <lb/>cures ſooner, and with
+            greater certainty, <lb/>when the ſtrength is but little, than when <lb/>it is much
+            reduced by it. </q>
+        </p>
+        <p rend="indent">
+          <lb/>Mr. <hi rend="italic">Plenck</hi> is of opinion, <q rend="quotes">that mer-
+            <lb/>cury, together with the venereal virus, <lb/>may be more conveniently and more
+            eaſily <lb/>evacuated by the ordinary excretions of <lb/>ſweat, ſtool, and urine. </q>
+        </p>
+        <p rend="indent">
+          <lb/>It ſeems to me much more ſafe to per- <lb/>mit the gradual evacuation of mercury
+          <lb/>(after it has circulated ſome time, and ſub- <lb/>dued the virus) than to confine it
+          within the <lb/>body by opiates, or other means, ſo as to oc- <lb/>caſion hardneſs,
+          fullneſs, and acceleration of <lb/>the pulſe. The ſaturation or ſurcharge <lb/>of the
+          ſyſtem with mercury is very ha- <lb/>zardous, as it ſometimes terminates in a <lb/>fatal
+          diarrhæa. Surely it is moſt prudent <lb/>to permit a little of the mercury to depart,
+          <lb/>and throw into the circulation ſuch a pro- <lb/>portion only, as may be altogether
+          ſafe and <pb xml:id="page_29" n="32"/>
+          <lb/>yet ſufficient to keep up a gentle mercurial <lb/>ſtimulus in the habit. </p>
+        <p rend="indent">
+          <lb/>Mercury and wine operate ſomewhat <lb/>alike upon the body. With a certain
+          <lb/>quantity of wine, hardneſs, fullneſs, and <lb/>acceleration of the pulſe will
+          ſupervene, <lb/>till at length in common an evacuation <lb/>takes place; when it does not,
+          and the <lb/>wine is retained there, (like mercury ex- <lb/>hibited as an alterative), it
+          excites feveriſh <lb/>heat, and does the conſtitution much more <lb/>injury than when it
+          paſſes off gradually by <lb/>any of the ordinary evacuations. </p>
+        <p rend="indent">
+          <lb/>Dr. <hi rend="italic">Fordyce</hi> obſerves, <q rend="quotes">it is never ne-
+            <lb/>ceſſary to ſalivate a patient, unleſs he be ſo <lb/>irritable, that the ſmalleſt
+            doſe of mercury <lb/>immediately affects his mouth, or unleſs <lb/>the diſeaſe be
+            proceeding ſo faſt that it <lb/>would be hazardous to wait till it was <lb/>checked by
+            the remedy given in ſuch a <lb/>manner as to avoid ſalivation; or except- <lb/>ing when
+            we cannot truſt to his uſing it <lb/>regularly. On the contrary, ſalivation ren-
+            <lb/>ders the effects of the medicine uncertain. </q>
+          <lb/>The ſame author ſays, <q rend="quotes">If, notwithſtand- <lb/>ing theſe precautions,
+            a ſalivation ſhould <lb/>come on, we know of no remedy which <lb/>will remove it with
+            any degree of certainty, <pb xml:id="page_30" n="33"/>
+            <lb/>although ſulphur, camphire, and purga- <lb/>tives have been recommended for this
+            pur- <lb/>poſe. If therefore the caſe be urgent, the <lb/>beſt way is to let it go on,
+            uſing the mer- <lb/>curial ointment as above deſcribed. </q>
+          <note place="bottom" n="*" rend="size(0.5)">
+            <p rend="indent">
+              <lb/>* Dr. <hi rend="italic">Saunders</hi> ſays he has known patients who have
+              <lb/>had violent fevers excited by mercury in the form of <lb/>unction. </p>
+            <p rend="indent">
+              <lb/>The ſame author remarks, that a gentleman who had <lb/>recourſe to mercurial
+              unction, being ſeized with a fever, <lb/>ſent for him, and communicated to him his
+              venereal com- <lb/>plaints. His pulſe was quick and hard, he complained <lb/>of pain
+              in his back, headach, thirſt, and other ſuch ſymp- <lb/>toms as he had frequently ſeen
+              ariſe from a mercurial <lb/>courſe, conducted on the plan here preſcribed.<sic>"</sic>
+            </p>
+            <p rend="indent">
+              <lb/>Dr. <hi rend="italic">Cullen</hi> obſerves,— <q>that purging is never excited
+                <lb/>by any means, without ſpaſms of the inteſtines, which, <lb/>when the operation
+                is continued, are apt to end in du- <lb/>rable ſpaſm and inflammation. Theſe are
+                attended with <lb/>very dangerous conſequences. Neither does the method <lb/>of
+                purging by unction anſwer much better (although per- <lb/>haps more effectual),
+                becauſe it is attended with very <lb/>great pain. </q>—<hi rend="italic">Lectures on
+                Materia medica</hi>. </p>
+          </note>
+        </p>
+        <p> </p>
+        <p rend="indent">
+          <lb/>I have ever found thoſe patients more <lb/>eaſily cured, who were moſt ſuſceptible of
+          <lb/>the mercurial ſtimulus. Let there be an <lb/>affection of the mouth and cheeks, and
+          an <lb/>amendment of the complaint takes place at <lb/>leaſt nine times in ten; the
+          mercury will <lb/>run off in general very ſoon if the proceſs is <lb/>diſcontinued, which
+          it muſt not be, but <lb/>the tenderneſs of the mouth is to be kept <pb xml:id="page_31"
+            n="34"/>
+          <lb/>up to a certain degree, according to the <lb/>urgency of the diſorder, and to prevent
+          a <lb/>relapſe, eſpecially in chancres with hard- <lb/>neſs, and in other inveterate
+          caſes. It is <lb/>not the mere quantity of mercury, but the <lb/>method of directing its
+          operation, which in <lb/>my opinion is the chief circumſtance to be <lb/>relied on in the
+          cure. I would certainly <lb/>run the riſk, if there was any, of <hi rend="italic">not
+            imme- <lb/>diately curing</hi>, rather than expoſe my pa- <lb/>tient to the hazard of a
+          large quantity of <lb/>accumulated mercury ready at an hour's <lb/>notice, or leſs, to
+          emancipate itſelf from <lb/>the body by ſtimulating the inteſtines, and <lb/>thus
+          exhauſting li<unclear>f</unclear>e. </p>
+        <p rend="indent">
+          <lb/>We may be amuſed with the theory of <lb/>mercury circulating in the ſyſtem in perfect
+          <lb/>equilibrium, not inclining more to one ſe- <lb/>cretion than to another; but it is
+          certain, <lb/>this is a powerful medicine that ought not <lb/>to be trifled with; we
+          cannot ſay to it—So <lb/>far ſhalt thou go, and no further. The <lb/>moſt ſkilful pilot
+          will find it difficult ſo to <lb/>trim his veſſel that it ſhall not ſink or over-
+          <lb/>turn when too heavily laden with mercury. </p>
+        <p rend="indent">
+          <lb/>The ingenious <hi rend="italic">Plenck</hi>, (to whom the <lb/>world is ſo much
+          indebted for the great im- <lb/>provements he has made by his experi- <lb/>ments on
+          mercury, and in the cure of this <pb xml:id="page_32" n="35"/>
+          <lb/>diſeaſe) ſays, that a ſalivation is a danger- <lb/>ous practice; for the famous <hi
+            rend="italic">Aſtruc</hi>, ſays <lb/>he, aſſerts that there frequently ſupervene,
+          <lb/>violent fevers, diarrhæa, dyſentery, hæ- <lb/>moptoe, an immobility of the jaws, and
+          <lb/>likewiſe a ſuffocation, and that too, when <lb/>a ſalivation has been moſt properly
+          con- <lb/>ducted; and after him the moſt ſkilful <lb/><hi rend="italic">Locher</hi> tells
+          us the ſame.— </p>
+        <p rend="indent">
+          <lb/>Several years ſince a practitioner had <lb/>the misfortune to loſe (within a ſhort
+          time <lb/>of each other) two patients with chancres, <lb/>for the cure of which he had
+          raiſed very <lb/>high ſalivations by mercurial ointment. <lb/>Juſt as their complaints
+          were healed, and <lb/>ſalivation began to decline, one of the <lb/> gentlemen was ſeized
+          with a dyſenteric flux, <lb/>and expired within a few hours: his death <lb/>was attributed
+          to a piece of butter which <lb/>the nurſe had inadvertently put into his <lb/>gruel. The
+          other died alſo of a flux, <lb/>ariſing from the ſudden deſcent of the mer- <lb/>cury
+          overturning the equilibrium, and ruſh- <lb/>ing through the patient's bowels with irre-
+          <lb/>ſiſtible impetuoſity.— </p>
+        <p rend="indent">
+          <lb/>To form a juſt idea of a ſalivation, we <lb/>ſhould perambulate the public hoſpitals,
+          <lb/>where there are wretches miſerable indeed! <pb xml:id="page_33" n="36"/>
+          <lb/>miſerable in having a ſad diſeaſe, but much <lb/>more ſo in having a cure to
+          encounter <lb/>which makes the unhappy objects call on <lb/>death for a deliverance from
+          their pains. <lb/>Their head, face, and tongue ſo ſwelled, <lb/>as to forbid their
+          uttering a ſyllable. Their <lb/>cheeks often torn to pieces, a ſalivary flux <lb/>of two
+          or three quarts a day, with breath <lb/>extremely offenſive, teeth looſe, tongue and
+          <lb/>gums ulcerated and inflamed, attended with <lb/>a ſevere unremitting head-ach; and
+          this <lb/>proceſs is the ſame in all caſes and ſeaſons: <lb/>it may truly be ſaid, ſuch
+          remedies are <lb/>worſe than the diſeaſes they are intended <lb/>to remove. But this is
+          not all the pa- <lb/>tient has to undergo; add to this, fre- <lb/>quent ſevere cholicky
+          pains, accompa- <lb/>nied with diarrhæa and dyſentery, which <lb/>continuing, ſo often
+          prove fatal. The <lb/>patient can ſwallow no ſolid food during <lb/>this ſevere operation,
+          and indeed ſcarcely <lb/>liquids, and is almoſt dead with hunger, <lb/>having often an
+          appetite without the poſ- <lb/>ſibility of indulging it. Thus are per- <lb/>ſons confined
+          for ſeveral weeks, and when <lb/>the proceſs is finiſhed, they are ſo re- <lb/>duced in
+          fleſh, as to be quite a ſpectacle, <lb/>and frequently go into a deep decline.— <pb
+            xml:id="page_34" n="37"/>
+          <lb/>If theſe evils may be prevented, and that <lb/>they may, we have daily experience
+          added <lb/>to the ſtrongeſt teſtimonies, are we not <lb/>all called upon by every motive
+          of con- <lb/>ſcience, religion, and humanity, to preſerve <lb/>the unhappy from ruin, by
+          rejecting ſo <lb/>cruel a practice? </p>
+        <q rend="diple quotes italic indentall">
+          <lb/>Graviora morbis patimur remedia; <lb/>Nec Vita tanti eſt, vivere ut poſſis, mori. </q>
+        <p> </p>
+        <p rend="indent">
+          <lb/>If the ſurgeons who ſuperintend the hoſ- <lb/>pitals would make a trial of my me-
+          <lb/>thod, I am convinced from experience, <lb/>they would be able, without annoying the
+          <lb/>ſtomach, to convey any quantity of any <lb/>mercurial preparation into the ſyſtem in
+          <lb/>few hours, inſtead of weeks. This may be <lb/>done by rubbing mercury on the back and
+          <lb/>middle of the tongue, and repeating the <lb/>proceſs at the ſhorteſt intervals. There
+          is <lb/>no occaſion to wait for its operation as in <lb/>the caſe of pills, but we may
+          ſafely ſtimu- <lb/>late theſe ſurfaces as much and as often as <lb/>we chuſe, till we have
+          actually produced <lb/>the deſired effect on the ſyſtem. Let the <lb/>mouth be well
+          cleared of the ſaliva, and <lb/>I know of no other impediment to the <lb/>ſucceſs of this
+          proceſs. Dr. <hi rend="italic">Home</hi>, profeſ- <lb/>ſor of phyſic at Edinburgh, has
+          honoured <lb/>me by making a variety of public experi- <pb xml:id="page_35" n="38"/>
+          <lb/>ments in the Edingburgh Infirmary, which <lb/>will ſoon appear in the Doctor's
+          intended <lb/>publication. By theſe experiments it is <lb/>proved, that mercury is more
+          quickly in- <lb/>troduced, with greater certainty, and with <lb/>leſs prejudice to the
+          conſtitution in this way, <lb/>than by any of the other modes of admini- <lb/>ſtering it
+          internally or externally. </p>
+        <figure rend="space">
+          <figDesc>A long horizontal line in the middle of the page. </figDesc>
+        </figure>
+        <div>
+          <head rend="italic align-center space">
+            <lb/>Objections to Mercury in the Form of Pills, <lb/>Bolus, <hi rend="roman"
+              >&amp;c.</hi>
+          </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">W</hi>ITH reſpect to Pills, it is certain <lb/>that many patients
+            find a difficulty <lb/>in taking them. Firſt, it is hardly poſ- <lb/>ſible ſo to
+            diſtribute the mercury through- <lb/>out the maſs, that there ſhall not be ſome
+            <lb/>difference and uncertainty in the doſe when <lb/>divided into pills; and ſecondly,
+            they <lb/>ſometimes paſs through the body undiſ- <lb/>ſolved. When they diſſolve, they
+            irritate, <lb/>perhaps corrode, the ſtomach, an organ <lb/>moſt eſſential to health.
+            This circum- <lb/>ſtance has excited univerſal complaint and <lb/>dread of mercury,
+            which however being <lb/>adminiſtered in my method, is ſo very <pb xml:id="page_36"
+              n="39"/>
+            <lb/>mild, that it does not in the leaſt impair <lb/>the conſtitution, as the ſurface on
+            which <lb/>the mercury is laid, will bear a conſider- <lb/>able degree of irritation
+            without any ſort <lb/>of prejudice. <note place="bottom" n="*" rend="size(0.5)">
+              <p rend="indent">
+                <lb/>* A grain of mercury applied to the internal ſurfaces <lb/>of the mouth is
+                thence abſorbed with the greateſt facility, <lb/>and operates kindly and with effect
+                on the habit in general. <lb/>Dr. Cullen juſtly obſerves <note place="bottom" n="†"
+                  rend="align-center">† <hi rend="italic">Lecture on Mercury</hi>. </note>, <q
+                  rend="quotes">that when we purge, we <lb/>think we are operating on the common
+                  ſewer of the <lb/>ſyſtem: but little advantage is to be found from the
+                  <lb/>mercury employed in this way, as its virtues depend <lb/>chiefly on its
+                  operation on the body in general. </q>
+              </p>
+            </note>
+          </p>
+          <figure>
+            <figDesc>A long horizontal line in the middle of the page. </figDesc>
+          </figure>
+          <p rend="indent">
+            <lb/>
+            <q rend="diple quotes">The ſaline chryſtals of mercury velli- <lb/>cate and twitch the
+              ſenſible membranes <lb/>of the ſtomach to that degree, as excites <lb/>them to an
+              excretion of their contents <lb/>and glandular juices upwards or down- <lb/>wards,
+              according as the force of irrita- <lb/>tion is greater or leſs. </q>—<hi rend="italic"
+              >Mead on Poi- <lb/>ſons</hi>, </p>
+          <p rend="indent">
+            <lb/>
+            <q rend="diple quotes">Of all the various modes of admini- <lb/>ſtering mercury, that
+              which you recom- <lb/>mend ſeems to me the moſt ſafe, and <lb/>I have no doubt but it
+              will likewiſe be <lb/>found the moſt efficacious. A falſe opi- <lb/>nion has long
+              prevailed, that every me- <pb xml:id="page_37" n="40"/>
+              <lb/>dicine ought to be taken into the ſto- <lb/>mach: this has done much miſchief.
+              <lb/>Many people have ſuch an averſion to <lb/>medicines of all kinds, that they will
+              <lb/>ſuffer any thing rather than ſwallow a <lb/>ſingle doſe. Others have ſuch a
+              debility <lb/>of the <hi rend="italic">Viſcera</hi>, that though they can <lb/>ſwallow
+              mercury, yet it tears their ſto- <lb/>mach and bowels to pieces. Of this <lb/>every
+              medical practitioner muſt have <lb/>ſeen many inſtances. There are few <lb/>perſons
+              who have been ſo unfortunate as <lb/>to take large quantities of this mineral <lb/>in
+              the uſual way, who do not exhibit <lb/>melancholy proofs of its baneful effects
+              <lb/>on the ſtomach and bowels. By your <lb/>mode of adminiſtering mercury, theſe
+              <lb/>effects are obviated, while it is much <lb/>more cleanly and agreeable than the
+              <lb/>common method of applying it to the <lb/>ſkin. </q>—<hi rend="italic">Extract
+              from Dr. <hi rend="sc">Buchan's</hi>
+              <lb/>Letter</hi>. </p>
+          <p rend="indent">
+            <lb/>Dr. <hi rend="italic">Hunter</hi> obſerves, <q rend="quotes">that this proceſs
+              <lb/>is preferable to pills or boluſes, as the ca- <lb/>lomel ſtimulates the primæ viæ
+              much leſs, <lb/>and therefore he adds, people with very <lb/>tender bowels may bear it
+              much better in <lb/>this form than any other. </q> Therefore it is <pb
+              xml:id="page_38" n="41"/>
+            <lb/>beſt for all conſtitutions, as every perſon <lb/>has moſt undoubtedly tender
+            bowels. </p>
+          <p rend="indent">
+            <lb/>Dr. <hi rend="italic">Krohn</hi>, in his letter to me mentions <lb/>the caſe of a
+            gentleman, <q rend="quotes">who had a vi- <lb/>rulent chancre on the <hi rend="italic"
+                >frœnum</hi>, of which he <lb/>was cured in a fortnight by this proceſs,
+              <lb/>without the ſmalleſt inconvenience; on the <lb/>contrary, he found his bowels
+              perfectly free <lb/>from any attack on them, the uſual atten- <lb/>dants on former
+              methods of treatment, <lb/>which he had frequently experienced pre- <lb/>vious to this
+              trial. </q>
+          </p>
+          <p rend="indent">
+            <lb/>
+            <q rend="quotes">How many originally, vigorous, de- <lb/>duce their preſent weak bowels,
+              and crazy <lb/>conſtitutions, from the miſchiefs occaſioned <lb/>by the action of the
+              Mercury on the primæ <lb/>viæ. </q>—<hi rend="italic">Mr. <hi rend="roman"
+                >Cruikſhank's</hi> Letter</hi>. </p>
+          <p rend="indent">
+            <lb/>After ample trial of all the different mer- <lb/>curial preparations in common uſe,
+            I find <lb/>that any of them may be ſafely and expe- <lb/>ditiouſly conveyed into the
+            ſyſtem from the <lb/>ſurfaces of the mouth, and that thoſe of the <lb/>moſt ſubtle and
+            active kind are equal to <lb/>the cure of the moſt confirmed diſeaſe. <lb/>Their
+            ſtimulating quality ſupplies the place <lb/>of friction, which is only neceſſary when
+            <lb/>any of the milder preparations are em- <lb/>ployed. </p>
+        </div>
+        <pb xml:id="page_39" n="42"/>
+        <div>
+          <head rend="italic align-center">
+            <lb/>Objections to Mercurial Ointment. </head>
+          <p rend="indent space">
+            <lb/>
+            <q rend="diple quotes">The friction of Mercurial Ointment <lb/>is to many people one of
+              the moſt diſ- <lb/>agreeable things in the world. It's <lb/>leaden colour, contraſted
+              with the ſkin, <lb/>makes it look dirty. It has a particu- <lb/>larly offenſive ſmell,
+              independent of that <lb/>of the turpentine, or balſam of ſulphur, <lb/>which may have
+              been employed in extin- <lb/>guiſhing the quickſilver. From the cir- <lb/>cumſtance
+              that half an hour's friction, <lb/>or even that of a whole hour, if ever ſo <lb/>well
+              performed, will not commonly ef- <lb/>fect a total abſorption of the ointment,
+              <lb/>the ſkin is generally left a little ſmeared <lb/>with it: after the proceſs is
+              over, as it is <lb/>oily it does not evaporate, or dry readily, <lb/>and will eaſily
+              ſtick to whatever it <lb/>touches. Patients are obliged to ſleep in <lb/>flannel
+              drawers to prevent the ointment <lb/>from getting through and daubing the <lb/>bed
+              clothes. They muſt be frequently <lb/>changing theſe drawers, conſtantly waſh-
+              <lb/>ing the ſkin; or, as waſhing off the oint- <lb/>ment would retard rather than
+              forward <lb/>the cure, they muſt remain dirty for ſix <lb/>weeks, or perhaps three
+              months toge- <lb/>ther; and if by accident any part of the <pb xml:id="page_40" n="43"/>
+              <lb/>ointment gets upon their linen, from <lb/>it's colour it is very apt to give the
+              <lb/>alarm in families, and lead to diſagree- <lb/>able diſcoveries. </q>
+          </p>
+        </div>
+        <div>
+          <signed rend="italic align-right">
+            <lb/>Mr. <hi rend="roman">Cruikſhank's</hi> Letter. </signed>
+        </div>
+        <div>
+          <p rend="indent space">
+            <lb/>Dr. <hi rend="italic">Manning</hi>, in his Practice of Phyſic, <lb/>on the ſubject
+            of my mercurial proceſs ob- <lb/>ſerves as follows; <q rend="quotes">By this method we
+              <lb/>not only avoid the inconveniencies of unc- <lb/>tion, but the purgative effects
+              that are <lb/>often produced by mercury when taken in- <lb/>to the ſtomach. </q>
+          </p>
+          <p rend="indent space">
+            <lb/>With reſpect to a regimen in the treat- <lb/>ment of the Lues, abſtinence and low
+            <lb/>living certainly retard the cure. Perſons <lb/>afflicted with this diſtemper, are
+            much ſub- <lb/>ject to deſpondency, and living more freely <lb/>now than at other times,
+            raiſes the ſpirits <lb/>of the patient, and contributes to his cure <lb/>by co-operating
+            with the medicine; there- <lb/>fore I ſhall continue to recommend that <lb/>practice, at
+            the ſame time ſhould object as <lb/>ſtrongly as any other practitioner, to every
+            <lb/>indulgence that might be prejudicial. It <lb/>has been ſaid, that people under a
+            courſe of <lb/>mercury cannot be kept too warm, which <lb/>is true only when the mercury
+            affects the <pb xml:id="page_41" n="44"/>
+            <lb/>ſtomach or bowels, or greatly opens the <lb/>pores of the ſkin; but from the very
+            <lb/>mild operation of mercury on the ſyſtem in <lb/>my method, patients are expoſed to
+            all <lb/>weathers, without injury to the conſtitu- <lb/>tion. </p>
+          <p rend="indent">
+            <lb/>Dr. <hi rend="italic">Krohn</hi> on this ſubject ſays, <q rend="quotes">this
+              <lb/>mode agrees better with people who are <lb/>debauchees, having had eſſential
+              proof of <lb/>this aſſertion in a patient who drank all <lb/>kinds of ſtrong liquors,
+              was ſcarcely ever <lb/>in bed for a week together, till break of <lb/>day, and was
+              much expoſed to cold damp <lb/>air. </q>
+          </p>
+        </div>
+        <figure rend="space">
+          <figDesc>A long horizontal line in the middle of the page. </figDesc>
+        </figure>
+        <div>
+          <head rend="italic hanging">
+            <lb/>A Recapitulation of Objections to the common <lb/>Methods of adminiſtering <hi
+              rend="roman">MERCURY</hi>, <lb/>accompanied with ſome new Obſervations, <lb/>and
+            conveying a ſhort and pointed View of <lb/>the Whole. </head>
+          <p rend="space">
+            <lb/><hi rend="dc(2)">A</hi>
+            <hi rend="italic">Lues</hi> is a venereal infection in the <lb/>maſs of blood; and is to
+            be cured by <lb/>throwing a ſufficient quantity of mercury <lb/>into the ſyſtem to expel
+            it. </p>
+          <pb xml:id="page_42" n="45"/>
+          <p rend="indent">
+            <lb/>There are many ways of conveying mer- <lb/>cury into the circulation of the blood. </p>
+          <p rend="indent">
+            <lb/>The uſual methods are by pills, bo- <lb/>luſes, and draughts, and alſo by outward
+            <lb/>application of mercurial ointment. </p>
+          <p rend="indent">
+            <lb/>The firſt three are conveyed by the <lb/>mouth into the ſtomach, where the mer-
+            <lb/>curial particles are in part abſorbed by <lb/>the lymphatic veſſels of that organ,
+            and <lb/>conveyed into the blood; alſo by the ſame <lb/>veſſels in the inteſtines, and
+            frequently the <lb/>greateſt portion of the mercury eſcapes out <lb/>of the body by this
+            outlet, having firſt irri- <lb/>tated the animal œconomy throughout the <lb/>whole of
+            the canal. </p>
+          <p rend="indent">
+            <lb/>Mercury may be prevented from paſſing <lb/>downwards by joining <hi rend="italic"
+              >opium</hi> with it, which <lb/>takes off its ſtimulus, and generally pre- <lb/>vents
+            its purgative effects; but this often <lb/>creates ſickneſs and reaching, and ſhakes
+            <lb/>the whole nervous ſyſtem. </p>
+          <p rend="indent">
+            <lb/>Two grains of mercury taken up into the <lb/>blood by the mouth, will produce as
+            power- <lb/>ful an effect on the ſyſtem, as twenty grains <lb/>thrown into the ſtomach,
+            on the pre- <lb/>ſumption that eighteen of the twenty make <lb/>their exit downwards: we
+            reckon only <lb/>what gets into the ſyſtem, for what paſ- <lb/>ſes through, <hi
+              rend="italic">is loſt</hi>, and certainly better <pb xml:id="page_43" n="46"/>
+            <lb/>had never been given. The ſtomach re- <lb/>ſembles a ſink with a grate in it, and
+            is not <lb/>conſtructed to retain mercury. </p>
+          <p rend="indent">
+            <lb/>Mercurial ointment cures by being taken <lb/>up into the blood by the abſorbents of
+            the <lb/>external ſkin, and when introduced there, <lb/>by operating on the whole
+            vaſcular ſyſtem, <lb/>and expelling the venereal poiſon by the <lb/>different ſecretions
+            and excretions of the <lb/>body. </p>
+          <p rend="indent">
+            <lb/>The objections to this mode of practice <lb/>are, Firſt, that it is dirty and
+            diſagreeable; <lb/>that it is commonly ſlow and tedious: that <lb/>it requires too much
+            labour for perſons <lb/>in a weak ſtate, and if the friction is per- <lb/>formed by
+            other hands than their own, that <lb/>one half of the ointment, or more, muſt in-
+            <lb/>fallibly be loſt to the patient, and may <lb/>prove very injurious to the party who
+            ap- <lb/>plies it. </p>
+          <p rend="indent">
+            <lb/>Mercurial ointment affects the ſtomach <lb/>or bowels, and brings on purging; inſo-
+            <lb/>much that it is not uncommon for patients, <lb/>both in public and private
+            practice, to die <lb/>under a courſe of unction, of violent cho- <lb/>lics, accompanied
+            by ſanguinary and other <lb/>fluxes, and this happens by the quantity of <lb/>mercury
+            abſorbed proving an overbalance <lb/>for the conſtitution. </p>
+          <pb xml:id="page_44" n="47"/>
+          <p rend="indent">
+            <lb/>Practitioners do not accurately know <lb/>what quantity of mercury may be given,
+            <lb/>and what quantity of it will take effect, as <lb/>different conſtitutions require
+            different doſes. <lb/>Five grains of mercurial ointment will take <lb/>more effect on
+            one ſubject, than fifty on <lb/>another; after uſing it ten or fifteen days
+            <lb/>ſucceſſively, no viſible effect may be pro- <lb/>duced on the conſtitution; yet, on
+            the <lb/>eighteenth or twentieth, a ſalivary flux may <lb/>commence, and continue for a
+            fortnight <lb/>or three weeks, and the patient's ſtrength <lb/>become exhauſted. At this
+            juncture ſhould <lb/>a diarrhæa unfortunately take place, it <lb/>carries off the
+            patient in a few hours, not- <lb/>withſtanding all the endeavours of the moſt
+            <lb/>ſkilful of the faculty. </p>
+          <p rend="indent">
+            <lb/>I have made uſe of ſuch arguments <lb/>as have occurred to me in behalf of this
+            <lb/>new method, and have advanced nothing but <lb/>what my repeated experience doth
+            fully <lb/>warrant. If the ideas of other practitioners <lb/>do not coincide with mine,
+            I ſhall be <lb/>happy to ſee their avowed and printed ſen- <lb/>timents on this
+            important ſubject, diveſted <lb/>of prejudice and delivered with candour. </p>
+          <p rend="indent">
+            <lb/>Should it be aſſerted that this method <lb/>ſometimes fails, let not that
+            declaration pre- <lb/>vent the trying it, as this may be urged <pb xml:id="page_45"
+              n="48"/>
+            <lb/>againſt all medical practice, and often, no <lb/>doubt, with the greateſt
+            injuſtice. </p>
+          <p rend="indent">
+            <lb/>It is ſaid that this proceſs, by ſhorten- <lb/>ing the cure and leſſening the
+            medicines, <lb/>will diminiſh the fee. The profeſſion need <lb/>not object to it on that
+            account, as they <lb/>are paid, not for their medicine, this being <lb/>no object, but
+            for their ſkill and judge- <lb/>ment. Patients of liberal diſpoſitions will <lb/>always
+            be pleaſed with diſpatch and make a <lb/>handſome return: and others will find their
+            <lb/>intereſt alſo in behaving in the ſame equi- <lb/>table manner. </p>
+        </div>
+      </div>
+      <trailer rend="italic align-center space">
+        <lb/>FINIS. </trailer>
+    </body>
+  </text>
+</TEI>
