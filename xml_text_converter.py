@@ -44,6 +44,11 @@ def normalize_structure_txt(filename) -> tuple:
                 # print(line, "The line is not empty")
                 for old, new in replacements:
                     line = re.sub(old, new, line)
+                # fix words like .herbe.
+                match = re.findall(r"\.\w+\.", line)
+                if match:
+                    for i in match:
+                        line = re.sub(i, i.strip("."), line)
                 lines += line
             else:
                 # print(line,"The line is empty")
@@ -58,7 +63,7 @@ def normalize_structure_txt(filename) -> tuple:
 
 def get_meta_corpus1():
     meta_dict = {}
-    for root, dirs, files in os.walk("./TOY-CORPUS/1", topdown=False):
+    for root, dirs, files in os.walk("./MIDDLE-MODERN-ENGLISH-MEDICAL-CORPUS-Copy/01_MEMT_Texts", topdown=False):
         for name in files:
             # if file is info file
             if name.endswith("_info_converted.txt"):
@@ -90,7 +95,7 @@ def get_meta_corpus1():
 
 def get_meta_corpus2():
     meta_dict = {}
-    for root, dirs, files in os.walk("./TOY-CORPUS/2", topdown=False):
+    for root, dirs, files in os.walk("./MIDDLE-MODERN-ENGLISH-MEDICAL-CORPUS-Copy/02_EMEMT_Corpus", topdown=False):
         for name in files:
             infile = os.path.join(root, name)
             # process differently category 6 files
@@ -124,7 +129,7 @@ def get_meta_corpus2():
 def get_meta_corpus3():
     tei = "{http://www.tei-c.org/ns/1.0}"
     meta_dict = {}
-    for root, dirs, files in os.walk("./TOY-DIGITAL", topdown=False):
+    for root, dirs, files in os.walk("./03_LMEMT_digital", topdown=False):
         for name in files:
             infile = os.path.join(root, name)
             # print(infile)
@@ -185,7 +190,7 @@ def text_to_xml():
     sentence_counter = 0
     token_in_sent_counter= 0
     # real corpus: "./MIDDLE-MODERN-ENGLISH-MEDICAL-CORPUS-Copy"
-    for root, dirs, files in os.walk("./TOY-CORPUS", topdown=False):
+    for root, dirs, files in os.walk("./MIDDLE-MODERN-ENGLISH-MEDICAL-CORPUS-Copy", topdown=False):
         # print(root,dirs)
         for name in files:
             infile = os.path.join(root, name)
@@ -230,9 +235,13 @@ def text_to_xml():
 
                     for sent in doc.sentences:
                         sentence_counter += 1
-                        sentence = etree.Element("sentence")
+
+                        # add sentence tag and sentence id
+                        sent_id = f"s{sentence_counter}"
+                        sentence = etree.Element("sentence", id=sent_id)
                         # print(sent)
                         content.append(sentence)
+
                         for sent_token in sent.tokens:
                             # if token is NOT space characters only
                             if not sent_token.text.isspace():
@@ -281,7 +290,6 @@ def text_to_xml():
 
 def main():
     text_to_xml()
-
 
 if __name__ == "__main__":
     main()
