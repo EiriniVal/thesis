@@ -6,12 +6,13 @@ import os
 import re
 import csv
 import pandas as pd
+from collections import defaultdict
 
 
 def has_old_char(token):
     """ assess if a token includes an old alphabet character ȝæðþƿ Returns True if yes:
     """
-    if "ȝ"|"3"|"æ"|"ð"|"þ"|"ƿ" in token:
+    if "ȝ" | "3" | "æ" | "ð" | "þ" | "ƿ" in token:
         return True
     return False
 
@@ -80,17 +81,90 @@ def get_vocab_counts(filename):
     #       f"\n\nVocabulary of {filename}: {vocab}")
     return token_counter, type_counter, vocab, old_alphabet, roman_numerals, scribal_abbrev
 
+
 # get_vocab_counts("MIDDLE-MODERN-ENGLISH-MEDICAL-CORPUS-Copy/01_MEMT_Texts/agnus_castus_converted.xml")
 
 
 def corpus_profiling():
-    """ create a csv table with the following columns: subcorpus, filename, tokens, types, old_alph counts, roman_numeral counts, scribal abbrev counts """
-    for root, dirs, files in os.walk("./MIDDLE-MODERN-ENGLISH-MEDICAL-CORPUS-Copy/", topdown=False):
+    """ create a dataframe with the following columns: subcorpus, filename, tokens, types, old_alph counts,
+    roman_numeral counts, scribal abbrev counts """
+
+    corpus_data = defaultdict(list)
+
+    # initialize vocabulary (sets)
+    vocab_corpus1 = {}
+    vocab_corpus2 = {}
+    vocab_corpus3 = {}
+    vocab_total = {}
+
+    for root, dirs, files in os.walk("./data/MIDDLE-MODERN-ENGLISH-MEDICAL-CORPUS-Copy/", topdown=False):
         for name in files:
-            # print(name)
             token_counter, type_counter, vocab, old_alphabet, roman_numerals, scribal_abbrev = get_vocab_counts(name)
 
+            # add subcorpus name
+            if "01_MEMT" in root:
+                # print(root)
+                corpus_data["sub_corpus"].append("01_MEMT")
+
+                # generate vocabulary of MEMT subcorpus
+                vocab_corpus1 = vocab_corpus1.union(vocab)
+
+            if "02_EMEMT" in root:
+                corpus_data["sub_corpus"].append("02_EMEMT")
+
+                # generate vocabulary of EMEMT subcorpus
+                vocab_corpus2 = vocab_corpus2.union(vocab)
+
+            if "03_LMEMT" in root:
+                corpus_data["sub_corpus"].append("03_LMEMT")
+
+                # generate vocabulary of LMEMT subcorpus
+                vocab_corpus3 = vocab_corpus3.union(vocab)
+
+            # generate vocabulary of the whole corpus
+            vocab_total = vocab_total.union(vocab)
+
+            # CREATE DATAFRAME
+
+            # gather data
+            corpus_data["filename"].append(name)
+            corpus_data["tokens"].append(token_counter)
+            corpus_data["types"].append(type_counter)
+            corpus_data["old_alphabet_counts"].append(len(old_alphabet))
+            corpus_data["roman_numerals_counts"].append(len(roman_numerals))
+            corpus_data["scribal_abbrev_counts"].append(len(scribal_abbrev))
+
+    df = pd.DataFrame(data=corpus_data)
+
+    return df, vocab_total, vocab_corpus1, vocab_corpus2, vocab_corpus3
+
+
+def main():
+    df, vocab_total, vocab_corpus1, vocab_corpus2, vocab_corpus3 = corpus_profiling()
+
+    # write dataframe to csv
+    os.makedirs('./corpus_profiling', exist_ok=True)
+    df.to_csv('./corpus_profiling/corpus_data.csv')
+
+    os.makedirs('./vocabulary', exist_ok=True)
+
+    # write vocabularies in files
+    with open('./vocabulary/vocab_total.txt', "w") as out:
+        for elem in vocab_total:
+            out.write(elem+"\n")
+
+    with open('./vocabulary/vocab_corpus1.txt', "w") as out1:
+        for elem in vocab_corpus1:
+            out1.write(elem+"\n")
+
+    with open('./vocabulary/vocab_corpus2.txt', "w") as out2:
+        for elem in vocab_corpus2:
+            out2.write(elem+"\n")
+
+    with open('./vocabulary/vocab_corpus3.txt', "w") as out3:
+        for elem in vocab_corpus3:
+            out3.write(elem+"\n")
 
 
 
-
+corpus_profiling()
