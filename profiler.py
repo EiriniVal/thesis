@@ -4,7 +4,6 @@
 from lxml import etree
 import os
 import re
-import csv
 import pandas as pd
 from collections import defaultdict
 
@@ -12,9 +11,11 @@ from collections import defaultdict
 def has_old_char(token):
     """ assess if a token includes an old alphabet character ȝæðþƿ Returns True if yes:
     """
+    # TODO what if token is number and it has 3
     if "ȝ" | "3" | "æ" | "ð" | "þ" | "ƿ" in token:
         return True
     return False
+
 
 # TODO what about pronoun "I"? should i not count it as numeral anyway?
 def is_roman_numeral(token):
@@ -26,10 +27,10 @@ def is_roman_numeral(token):
     and the additive notation variant (iiii instead of iv)
     """
     pattern = re.compile(r"""   
-                             ^(M|m){0,3}
-                             (CM|cm|CD|cd|(D|d)?(C|c){0,4})?
-                             (XC|xc|XL|xl|(L|l)?(X|x){0,4})?
-                             (IX|ix|IV|iv|(V|v)?(I|i){0,4}(J|j)?)?$
+                             ^([Mm]){0,3}
+                             (CM|cm|CD|cd|([Dd])?([Cc]){0,4})?
+                             (XC|xc|XL|xl|([Ll])?([Xx]){0,4})?
+                             (IX|ix|IV|iv|([Vv])?([Ii]){0,4}([Jj])?)?$
                         """, re.VERBOSE)
     if re.match(pattern, token):
         return True
@@ -37,7 +38,7 @@ def is_roman_numeral(token):
 
 
 def has_scribal_abbrev(token):
-    pattern = re.compile(r"[a-z]+(~|=)+[a-z]*(~|=)*")
+    pattern = re.compile(r"[a-z]+([~=])+[a-z]*([~=])*")
     if re.match(pattern, token):
         return True
     return False
@@ -77,7 +78,8 @@ def get_vocab_counts(filename):
             # print(token_counter, element.text)
 
     type_counter = len(vocab)
-    # print(f"Filename: {filename} \n\nNumber of tokens (running words): {token_counter} \n\nNumber of types: {type_counter} "
+    # print(f"Filename: {filename} \n\nNumber of tokens (running words): {token_counter} \n\nNumber of types:
+    # {type_counter} "
     #       f"\n\nVocabulary of {filename}: {vocab}")
     return token_counter, type_counter, vocab, old_alphabet, roman_numerals, scribal_abbrev
 
@@ -169,4 +171,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
