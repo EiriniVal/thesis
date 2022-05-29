@@ -16,7 +16,7 @@ def has_old_char(token):
     if re.match(pattern, token):
         return True
     # if token has old alphabet
-    elif "ȝ" | "æ" | "ð" | "þ" | "ƿ" in token:
+    if "ȝ" or "æ" or "ð" or "þ" or "ƿ" in token:
         return True
     return False
 
@@ -105,7 +105,8 @@ def corpus_profiling():
 
     for root, dirs, files in os.walk("./data/MIDDLE-MODERN-ENGLISH-MEDICAL-CORPUS-Copy/", topdown=False):
         for name in files:
-            token_counter, type_counter, vocab, old_alphabet, roman_numerals, scribal_abbrev = get_vocab_counts(name)
+            infile = os.path.join(root, name)
+            token_counter, type_counter, vocab, old_alphabet, roman_numerals, scribal_abbrev = get_vocab_counts(infile)
 
             print(name, roman_numerals)
 
