@@ -11,8 +11,12 @@ from collections import defaultdict
 def has_old_char(token):
     """ assess if a token includes an old alphabet character ȝæðþƿ Returns True if yes:
     """
-    # TODO what if token is number and it has 3
-    if "ȝ" | "3" | "æ" | "ð" | "þ" | "ƿ" in token:
+    # if token has yogh as number 3
+    pattern = re.compile(r"\w*3\w+|\w+3\w*")
+    if re.match(pattern, token):
+        return True
+    # if token has old alphabet
+    elif "ȝ" | "æ" | "ð" | "þ" | "ƿ" in token:
         return True
     return False
 
@@ -94,14 +98,16 @@ def corpus_profiling():
     corpus_data = defaultdict(list)
 
     # initialize vocabulary (sets)
-    vocab_corpus1 = {}
-    vocab_corpus2 = {}
-    vocab_corpus3 = {}
-    vocab_total = {}
+    vocab_corpus1 = set()
+    vocab_corpus2 = set()
+    vocab_corpus3 = set()
+    vocab_total = set()
 
     for root, dirs, files in os.walk("./data/MIDDLE-MODERN-ENGLISH-MEDICAL-CORPUS-Copy/", topdown=False):
         for name in files:
             token_counter, type_counter, vocab, old_alphabet, roman_numerals, scribal_abbrev = get_vocab_counts(name)
+
+            print(name, roman_numerals)
 
             # add subcorpus name
             if "01_MEMT" in root:
