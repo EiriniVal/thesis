@@ -12,11 +12,12 @@ def has_old_char(token):
     """ assess if a token includes an old alphabet character ȝæðþƿ Returns True if yes:
     """
     # if token has yogh as number 3
-    pattern = re.compile(r"\w*3\w+|\w+3\w*")
-    if re.match(pattern, token):
+    pattern = re.match(r"\w*3\w+|\w+3\w*", token)
+    if pattern:
         return True
     # if token has old alphabet
-    if "ȝ" or "æ" or "ð" or "þ" or "ƿ" in token:
+    pattern2 = re.match(r".*[ȝæðþƿ].*", token)
+    if pattern2:
         return True
     return False
 
