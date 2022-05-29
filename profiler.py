@@ -34,7 +34,7 @@ def is_roman_numeral(token):
                              ^([Mm]){0,3}
                              (CM|cm|CD|cd|([Dd])?([Cc]){0,4})?
                              (XC|xc|XL|xl|([Ll])?([Xx]){0,4})?
-                             (IX|ix|IV|iv|([Vv])?([Ii]){0,4}([Jj])?)?$
+                             (IX|ix|IV|iv|([Vv])?([Ii]){2,4}([Jj])?)?$
                         """, re.VERBOSE)
     if re.match(pattern, token):
         return True
@@ -57,13 +57,13 @@ def get_vocab_counts(filename):
     vocab = set()
 
     # roman_numerals
-    roman_numerals = []
+    roman_numerals = {}
 
     # scribal_abbrev
-    scribal_abbrev = []
+    scribal_abbrev = {}
 
     # old_alphabet
-    old_alphabet = []
+    old_alphabet = {}
 
     for element in root.iter():
         if element.tag == "token":
@@ -71,13 +71,16 @@ def get_vocab_counts(filename):
             vocab.add(element.text)
 
             if has_old_char(element.text):
-                old_alphabet.append(element.text)
+                element.attrib["old_char"] = "True"
+                old_alphabet[element.get("id")] = element.text
 
             if is_roman_numeral(element.text):
-                roman_numerals.append(element.text)
+                element.attrib["rom_num"] = "True"
+                roman_numerals[element.get("id")] = element.text
 
             if has_scribal_abbrev(element.text):
-                scribal_abbrev.append(element.text)
+                element.attrib["scrib_abbrev"] = "True"
+                scribal_abbrev[element.get("id")] = element.text
 
             # print(token_counter, element.text)
 
@@ -108,9 +111,7 @@ def corpus_profiling():
             infile = os.path.join(root, name)
             token_counter, type_counter, vocab, old_alphabet, roman_numerals, scribal_abbrev = get_vocab_counts(infile)
 
-            print(name, roman_numerals)
-
-            # add subcorpus name
+            # add sub-corpus name
             if "01_MEMT" in root:
                 # print(root)
                 corpus_data["sub_corpus"].append("01_MEMT")
