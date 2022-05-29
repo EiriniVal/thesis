@@ -89,7 +89,7 @@ def get_vocab_counts(filename):
 
     # update xml files with info related to special tokens
     f = open(filename, 'wb')
-    f.write(etree.tostring(root, xml_declaration=True, pretty_print=True))
+    f.write(etree.tostring(root, encoding='utf-8', xml_declaration=True, pretty_print=True))
     f.close()
 
     return token_counter, type_counter, vocab, old_alphabet, roman_numerals, scribal_abbrev
