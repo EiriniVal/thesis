@@ -85,9 +85,12 @@ def get_vocab_counts(filename):
             # print(token_counter, element.text)
 
     type_counter = len(vocab)
-    # print(f"Filename: {filename} \n\nNumber of tokens (running words): {token_counter} \n\nNumber of types:
-    # {type_counter} "
-    #       f"\n\nVocabulary of {filename}: {vocab}")
+
+    # update xml files with info related to special tokens
+    f = open(filename, 'wb')
+    f.write(etree.tostring(root, xml_declaration=True, pretty_print=True))
+    f.close()
+
     return token_counter, type_counter, vocab, old_alphabet, roman_numerals, scribal_abbrev
 
 
