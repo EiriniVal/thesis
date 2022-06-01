@@ -43,7 +43,7 @@ def is_roman_numeral(token):
 
 
 def has_scribal_abbrev(token):
-    pattern = re.compile(r"[a-z]+([~=])+[a-z]*([~=])*")
+    pattern = re.compile(r"[a-z]+([~=])+[a-z]*([~=])*", re.IGNORECASE)
     if re.match(pattern, token):
         return True
     return False
