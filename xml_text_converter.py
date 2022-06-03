@@ -26,6 +26,7 @@ def normalize_structure_txt(filename) -> tuple:
     replacements = [
         (r"\s\n", " "),
         (r"\[}|}]", ""),
+        (r"\[{|{]", ""),
         (r"\[\\.+\\]", ""),
         (r"\[/.+/]", ""),
         (r"\[\^.+\^]", ""),
