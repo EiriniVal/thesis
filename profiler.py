@@ -67,6 +67,8 @@ def get_vocab_counts(filename):
     old_alphabet = {}
 
     for element in root.iter():
+        if element.tag == "year":
+            year_info = element.text
         if element.tag == "token":
             token_counter += 1
             vocab.add(element.text)
@@ -92,7 +94,7 @@ def get_vocab_counts(filename):
     f.write(etree.tostring(root, encoding='utf-8', xml_declaration=True, pretty_print=True))
     f.close()
 
-    return token_counter, type_counter, vocab, old_alphabet, roman_numerals, scribal_abbrev
+    return token_counter, type_counter, vocab, old_alphabet, roman_numerals, scribal_abbrev, year_info
 
 
 # get_vocab_counts("MIDDLE-MODERN-ENGLISH-MEDICAL-CORPUS-Copy/01_MEMT_Texts/agnus_castus_converted.xml")
@@ -113,7 +115,7 @@ def corpus_profiling():
     for root, dirs, files in os.walk("./data/MIDDLE-MODERN-ENGLISH-MEDICAL-CORPUS-Copy/", topdown=False):
         for name in files:
             infile = os.path.join(root, name)
-            token_counter, type_counter, vocab, old_alphabet, roman_numerals, scribal_abbrev = get_vocab_counts(infile)
+            token_counter, type_counter, vocab, old_alphabet, roman_numerals, scribal_abbrev, year_info = get_vocab_counts(infile)
 
             # add sub-corpus name
             if "01_MEMT" in root:
@@ -142,6 +144,7 @@ def corpus_profiling():
 
             # gather data
             corpus_data["filename"].append(name)
+            corpus_data["year"].append(year_info)
             corpus_data["tokens"].append(token_counter)
             corpus_data["types"].append(type_counter)
             corpus_data["old_alphabet_counts"].append(len(old_alphabet))
