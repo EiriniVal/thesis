@@ -10,6 +10,7 @@ import os
 import re
 import stanza
 from bs4 import BeautifulSoup
+import unicodedata
 
 # stanza.download('en')
 nlp = stanza.Pipeline(lang='en', processors='tokenize')
@@ -30,7 +31,7 @@ def normalize_structure_txt(filename) -> tuple:
         (r"\[\\.+\\]", ""),
         (r"\[/.+/]", ""),
         (r"\[\^.+\^]", ""),
-        (r"\|P_\d*\s", "")]
+        (r"\|P_\w*\s", "")]
     with open(filename, "rb") as infile:
         encoding = "utf-8"
         for line in infile:
@@ -135,7 +136,7 @@ def get_meta_corpus3():
             infile = os.path.join(root, name)
             # print(infile)
             tree = etree.parse(infile)
-            with open(infile, "r") as f:
+            with open(infile, "r", encoding="utf-8") as f:
                 contents = f.read()
                 soup = BeautifulSoup(contents, 'xml')
                 source = soup.find('sourceDesc')
@@ -163,8 +164,11 @@ def get_meta_corpus3():
                 else:
                     pages = "-"
 
+            # TODO fix encoding in order to have right name in dictionary
+            name = unicodedata.normalize("NFC", name)
             meta_dict[name] = (author, title, year, volume, pages)
     return meta_dict
+
 
 def meta_info_dict():
     meta_dict = {**get_meta_corpus1(), **get_meta_corpus2(), **get_meta_corpus3()}
@@ -172,6 +176,8 @@ def meta_info_dict():
 
 # CONVERT TXT FILES TO XML AND ADD HEADER NODE WITH METADATA INFO
 # TODO add these metadata in the header node of the xml tree (merge three dicts ?)
+
+
 def text_to_xml():
     """
     function that converts every txt file in the Middle English Medical Corpus directory into xml by applying
@@ -225,7 +231,7 @@ def text_to_xml():
                     tree_header.append(pages)
 
                     new_name = f"{name.rstrip('.txt')}.xml"
-                    # new_name = new_name.strip()
+                    new_name =unicodedata.normalize("NFC", new_name)
                     if new_name in meta_dict.keys():
                         print(new_name)
                         author.text, title.text, year.text, volume.text, pages.text = meta_dict[new_name]
@@ -291,6 +297,7 @@ def text_to_xml():
 
 def main():
     text_to_xml()
+
 
 if __name__ == "__main__":
     main()
