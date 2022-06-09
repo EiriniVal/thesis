@@ -149,10 +149,12 @@ def get_meta_corpus3():
                     title = ' '.join(title.split())
                 else:
                     title = "-"
-                if source.find("date") is not None:
-                    year = source.find("date").get_text()
-                else:
-                    year = "-"
+                # if source.find("date") is not None:
+                #     year = source.find("date").get_text()
+                # elif source.find("date") == "":
+                #     year = name.partition("_")[0]
+                # else:
+                #     year = "-"
                 # < biblScope unit = "vol" > 1 < / biblScope >
                 # < biblScope unit = "page" > 81 < / biblScope >
                 if source.find("biblScope", unit="vol") is not None:
@@ -163,7 +165,8 @@ def get_meta_corpus3():
                     pages = source.find("biblScope", unit="page").get_text()
                 else:
                     pages = "-"
-
+                # get year info from filename
+                year = name.partition("_")[0]
             # TODO fix encoding in order to have right name in dictionary
             name = unicodedata.normalize("NFC", name)
             meta_dict[name] = (author, title, year, volume, pages)
@@ -230,8 +233,11 @@ def text_to_xml():
                     tree_header.append(volume)
                     tree_header.append(pages)
 
-                    new_name = f"{name.rstrip('.txt')}.xml"
+                    # this is wrong it removes t from end of filename e.g. 1777_GEN_Aitken_MedicalImprovemen.xml
+                    # 1777_GEN_Aitken_MedicalImprovement.xml
+                    new_name = name.replace("txt", "xml")
                     new_name =unicodedata.normalize("NFC", new_name)
+                    print(f"SEARCH FOR: {new_name} ")
                     if new_name in meta_dict.keys():
                         print(new_name)
                         author.text, title.text, year.text, volume.text, pages.text = meta_dict[new_name]
