@@ -122,7 +122,7 @@ def get_meta_corpus2():
                     author = "-"
                     title = " ".join(re.findall('[A-Z][^A-Z]*', half_match.group(2)))
 
-            meta_dict[name.rstrip(".txt")+".xml"] = (author, title, year, volume, pages)
+            meta_dict[name.replace(".txt", ".xml")] = (author, title, year, volume, pages)
 
     return meta_dict
 
@@ -212,7 +212,7 @@ def text_to_xml():
             # do not open info files from MEMT(1)
             if not name.endswith("_info_converted.txt"):
                 # open new xml file for writing and maintain the original name
-                newfile = f"{infile.rstrip('.txt')}.xml"
+                newfile = infile.replace(".txt", ".xml")
                 with open(newfile, "w") as outfile:
 
                     doc = nlp(normalized_text)
