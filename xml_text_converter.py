@@ -1,10 +1,6 @@
 # Author: Eirini Valkana
 # !/usr/bin/python
 
-# TODO add attributes for root element: author, title, year
-# TODO add ids to tokens: what kind of ids?
-# TODO add header for metadata in xmls
-
 from lxml import etree
 import os
 import re
@@ -30,8 +26,7 @@ def normalize_structure_txt(filename) -> tuple:
         (r"\[{|{]", ""),
         (r"\[\\.+\\]", ""),
         (r"\[/.+/]", ""),
-        (r"\[\^.+\^]", ""),
-        (r"\|P_\w*\s", "")]
+        (r"\[\^.+\^]", "")]
     with open(filename, "rb") as infile:
         encoding = "utf-8"
         for line in infile:
@@ -43,6 +38,7 @@ def normalize_structure_txt(filename) -> tuple:
                 line = line.decode('cp1252').encode("utf-8").decode("utf-8")
             # if line is not empty
             if len(line.strip()):
+                page_pattern = re.search(r"\|P_\w*", line)
                 # print(line, "The line is not empty")
                 for old, new in replacements:
                     line = re.sub(old, new, line)
@@ -51,7 +47,12 @@ def normalize_structure_txt(filename) -> tuple:
                 if match:
                     for i in match:
                         line = re.sub(i, i.strip("."), line)
+                # if there is page info remove the | so that tokenization is smooth later on
+                elif page_pattern:
+                    line = line.replace("|", "")
+
                 lines += line
+
             else:
                 # print(line,"The line is empty")
                 pass
@@ -65,7 +66,7 @@ def normalize_structure_txt(filename) -> tuple:
 
 def get_meta_corpus1():
     meta_dict = {}
-    for root, dirs, files in os.walk("./MIDDLE-MODERN-ENGLISH-MEDICAL-CORPUS-Copy/01_MEMT_Texts", topdown=False):
+    for root, dirs, files in os.walk("../MIDDLE-MODERN-ENGLISH-MEDICAL-CORPUS-Copy/01_MEMT_Texts", topdown=False):
         for name in files:
             # if file is info file
             if name.endswith("_info_converted.txt"):
@@ -97,7 +98,7 @@ def get_meta_corpus1():
 
 def get_meta_corpus2():
     meta_dict = {}
-    for root, dirs, files in os.walk("./MIDDLE-MODERN-ENGLISH-MEDICAL-CORPUS-Copy/02_EMEMT_Corpus", topdown=False):
+    for root, dirs, files in os.walk("../MIDDLE-MODERN-ENGLISH-MEDICAL-CORPUS-Copy/02_EMEMT_Corpus", topdown=False):
         for name in files:
             infile = os.path.join(root, name)
             # process differently category 6 files
@@ -131,7 +132,7 @@ def get_meta_corpus2():
 def get_meta_corpus3():
     tei = "{http://www.tei-c.org/ns/1.0}"
     meta_dict = {}
-    for root, dirs, files in os.walk("./03_LMEMT_digital", topdown=False):
+    for root, dirs, files in os.walk("../03_LMEMT_digital", topdown=False):
         for name in files:
             infile = os.path.join(root, name)
             # print(infile)
@@ -200,7 +201,7 @@ def text_to_xml():
     sentence_counter = 0
     token_in_sent_counter= 0
     # real corpus: "./MIDDLE-MODERN-ENGLISH-MEDICAL-CORPUS-Copy"
-    for root, dirs, files in os.walk("./MIDDLE-MODERN-ENGLISH-MEDICAL-CORPUS-Copy", topdown=False):
+    for root, dirs, files in os.walk("../MIDDLE-MODERN-ENGLISH-MEDICAL-CORPUS-Copy", topdown=False):
         # print(root,dirs)
         for name in files:
             infile = os.path.join(root, name)
@@ -246,43 +247,57 @@ def text_to_xml():
                     content = etree.Element("content")
                     tree_root.append(content)
 
+
                     for sent in doc.sentences:
-                        sentence_counter += 1
+                        page_pattern1 = re.search(r"P_\w*", sent.tokens[0].text)
+                        # if sentence has one token and this token is page info
+                        if len(sent.tokens) == 1 and page_pattern1:
+                            page = etree.Element("page")
+                            page.text = page_pattern1.group()
+                            content.append(page)
+                        else:
+                            sentence_counter += 1
+                            # add sentence tag and sentence id
+                            sent_id = f"s{sentence_counter}"
+                            sentence = etree.Element("sentence", id=sent_id)
+                            # print(sent)
+                            content.append(sentence)
 
-                        # add sentence tag and sentence id
-                        sent_id = f"s{sentence_counter}"
-                        sentence = etree.Element("sentence", id=sent_id)
-                        # print(sent)
-                        content.append(sentence)
-
-                        for sent_token in sent.tokens:
-                            # if token is NOT space characters only
-                            if not sent_token.text.isspace():
-                                # if the token is 3 (yogh letter)
-                                if sent_token.text == "3":
-                                    # save it to add it to the next token to fix wrong splitting of stanza
-                                    yogh = sent_token.text
-                                else:
-                                    # if the token is a macron add it to the previous token tag as text
-                                    if sent_token.text == "~":
-                                        macron = sent_token.text
-                                        token.text += macron
+                            for sent_token in sent.tokens:
+                                # if token is NOT space characters only
+                                if not sent_token.text.isspace():
+                                    # if the token is 3 (yogh letter)
+                                    if sent_token.text == "3":
+                                        # save it to add it to the next token to fix wrong splitting of stanza
+                                        yogh = sent_token.text
                                     else:
-                                        token_counter += 1
-                                        token_in_sent_counter += 1
-                                        total_token_counter += 1
-                                        unique_tokens.add(yogh+sent_token.text)
-                                        total_unique_tokens.add(yogh+sent_token.text)
+                                        # if the token is a macron add it to the previous token tag as text
+                                        if sent_token.text == "~":
+                                            macron = sent_token.text
+                                            token.text += macron
+                                        else:
+                                            page_pattern = re.search(r"P_\w*", sent_token.text)
+                                            # if there is page info
+                                            if page_pattern:
+                                                page = etree.Element("page")
+                                                page.text = page_pattern.group()
+                                                sentence.append(page)
+                                            else:
+                                                token_counter += 1
+                                                token_in_sent_counter += 1
+                                                total_token_counter += 1
+                                                unique_tokens.add(yogh+sent_token.text)
+                                                total_unique_tokens.add(yogh+sent_token.text)
 
-                                        # add token ids
-                                        token_id = f"s{sentence_counter}t{token_in_sent_counter}"
-                                        token = etree.Element("token", id=token_id)
+                                                # add token ids
+                                                token_id = f"s{sentence_counter}t{token_in_sent_counter}"
+                                                token = etree.Element("token", id=token_id)
 
-                                        sentence.append(token)
-                                        token.text = yogh+sent_token.text
-                                    yogh = ""
+                                                sentence.append(token)
+                                                token.text = yogh+sent_token.text
+                                        yogh = ""
 
-                        token_in_sent_counter = 0
+                            token_in_sent_counter = 0
                     sentence_counter = 0
 
                     xml_bytes = etree.tostring(tree_root, encoding=encoding, xml_declaration=True, pretty_print=True)

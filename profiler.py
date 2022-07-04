@@ -49,13 +49,26 @@ def has_scribal_abbrev(token):
     return False
 
 
+def is_number(token):
+    pattern = re.compile("^[+-]?(\d*\.)?\d+$")
+    if re.match(pattern, token):
+        return True
+    return False
+
+
 def get_vocab_counts(filename):
     """ counts tokens, types and yields returns the vocabulary (distinct words) of a single xml file"""
     token_counter = 0
     tree = etree.parse(filename)
     root = tree.getroot()
-    # distinct words
+    # distinct words ALL
     vocab = set()
+
+    # distinct words no roman numerals, no numbers, no lowercasing
+    vocab_no_numbers = set()
+
+    # distinct words no roman numerals, no numbers, with lowercasing
+    vocab_strict = set()
 
     # roman_numerals
     roman_numerals = {}
@@ -66,35 +79,55 @@ def get_vocab_counts(filename):
     # old_alphabet
     old_alphabet = {}
 
+    # numbers
+    numbers = {}
+
     for element in root.iter():
         if element.tag == "year":
             year_info = element.text
         if element.tag == "token":
-            token_counter += 1
             vocab.add(element.text)
 
             if has_old_char(element.text):
                 element.attrib["old_char"] = "True"
                 old_alphabet[element.get("id")] = element.text
+                token_counter += 1
+                # add to strict vocab lowercased
+                vocab_strict.add(element.text.lower())
+                # add to no num vocab
+                vocab_no_numbers.add(element.text)
 
-            if is_roman_numeral(element.text):
+            elif is_roman_numeral(element.text):
                 element.attrib["rom_num"] = "True"
                 roman_numerals[element.get("id")] = element.text
 
-            if has_scribal_abbrev(element.text):
+            elif has_scribal_abbrev(element.text):
                 element.attrib["scrib_abbrev"] = "True"
                 scribal_abbrev[element.get("id")] = element.text
+                token_counter += 1
+                vocab_strict.add(element.text.lower())
+                vocab_no_numbers.add(element.text)
+
+            elif is_number(element.text):
+                element.attrib["num"] = "True"
+                numbers[element.get("id")] = element.text
+
+            else:
+                token_counter += 1
+
 
             # print(token_counter, element.text)
 
-    type_counter = len(vocab)
+    type_counter = len(vocab_strict)
 
     # update xml files with info related to special tokens
     f = open(filename, 'wb')
     f.write(etree.tostring(root, encoding='utf-8', xml_declaration=True, pretty_print=True))
     f.close()
 
-    return token_counter, type_counter, vocab, old_alphabet, roman_numerals, scribal_abbrev, year_info
+    # token counter is without numbers, type_counter is the length of the strict vocab aka no numbers, no roman numerals and lowercased
+
+    return token_counter, type_counter, vocab, old_alphabet, roman_numerals, scribal_abbrev, year_info, numbers, vocab_no_numbers, vocab_strict
 
 
 # get_vocab_counts("MIDDLE-MODERN-ENGLISH-MEDICAL-CORPUS-Copy/01_MEMT_Texts/agnus_castus_converted.xml")
@@ -112,10 +145,20 @@ def corpus_profiling():
     vocab_corpus3 = set()
     vocab_total = set()
 
+    vocab_nonum_1 = set()
+    vocab_nonum_2 = set()
+    vocab_nonum_3 = set()
+    vocab_nonum_total = set()
+
+    vocab_strict_1 = set()
+    vocab_strict_2 = set()
+    vocab_strict_3 = set()
+    vocab_strict_total = set()
+
     for root, dirs, files in os.walk("./data/MIDDLE-MODERN-ENGLISH-MEDICAL-CORPUS-Copy/", topdown=False):
         for name in files:
             infile = os.path.join(root, name)
-            token_counter, type_counter, vocab, old_alphabet, roman_numerals, scribal_abbrev, year_info = get_vocab_counts(infile)
+            token_counter, type_counter, vocab, old_alphabet, roman_numerals, scribal_abbrev, year_info, numbers, vocab_no_numbers, vocab_strict = get_vocab_counts(infile)
 
             # add sub-corpus name
             if "01_MEMT" in root:
@@ -124,21 +167,37 @@ def corpus_profiling():
 
                 # generate vocabulary of MEMT subcorpus
                 vocab_corpus1 = vocab_corpus1.union(vocab)
+                vocab_nonum_1 = vocab_nonum_1.union(vocab_no_numbers)
+                vocab_strict_1 = vocab_strict_1.union(vocab_strict)
 
             if "02_EMEMT" in root:
                 corpus_data["sub_corpus"].append("02_EMEMT")
 
                 # generate vocabulary of EMEMT subcorpus
                 vocab_corpus2 = vocab_corpus2.union(vocab)
+                vocab_nonum_2 = vocab_nonum_2.union(vocab_no_numbers)
+                vocab_strict_2 = vocab_strict_2.union(vocab_strict)
 
             if "03_LMEMT" in root:
                 corpus_data["sub_corpus"].append("03_LMEMT")
 
                 # generate vocabulary of LMEMT subcorpus
                 vocab_corpus3 = vocab_corpus3.union(vocab)
+                vocab_nonum_3 = vocab_nonum_3.union(vocab_no_numbers)
+                vocab_strict_3 = vocab_strict_3.union(vocab_strict)
+
+                # if letter in date remove
+                year_info = "".join(filter(str.isdigit, year_info))
+
+                # if year info is span keep first year
+                if "-" in year_info:
+                    year_info = year_info.split("-")[0]
 
             # generate vocabulary of the whole corpus
             vocab_total = vocab_total.union(vocab)
+            vocab_nonum_total = vocab_nonum_total.union(vocab_no_numbers)
+            vocab_strict_total = vocab_strict_total.union(vocab_strict)
+
 
             # CREATE DATAFRAME
 
@@ -150,15 +209,16 @@ def corpus_profiling():
             corpus_data["old_alphabet_counts"].append(len(old_alphabet))
             corpus_data["roman_numerals_counts"].append(len(roman_numerals))
             corpus_data["scribal_abbrev_counts"].append(len(scribal_abbrev))
+            corpus_data["numbers"].append(len(numbers))
 
     df = pd.DataFrame(data=corpus_data)
 
-    return df, vocab_total, vocab_corpus1, vocab_corpus2, vocab_corpus3
+    return df, vocab_total, vocab_corpus1, vocab_corpus2, vocab_corpus3, vocab_nonum_total, vocab_nonum_1, vocab_nonum_2, vocab_nonum_3, vocab_strict_total, vocab_strict_1, vocab_strict_2, vocab_strict_3
 
 
 def main():
     """ write files """
-    df, vocab_total, vocab_corpus1, vocab_corpus2, vocab_corpus3 = corpus_profiling()
+    df, vocab_total, vocab_corpus1, vocab_corpus2, vocab_corpus3, vocab_nonum_total, vocab_nonum_1, vocab_nonum_2, vocab_nonum_3, vocab_strict_total, vocab_strict_1, vocab_strict_2, vocab_strict_3 = corpus_profiling()
 
     # write dataframe to csv
     os.makedirs('./corpus_profiling', exist_ok=True)
@@ -182,6 +242,38 @@ def main():
     with open('./vocabulary/vocab_corpus3.txt', "w") as out3:
         for elem in vocab_corpus3:
             out3.write(elem+"\n")
+
+    with open('./vocabulary/vocab_nonum_total.txt', "w") as out4:
+        for elem in vocab_nonum_total:
+            out4.write(elem+"\n")
+
+    with open('./vocabulary/vocab_nonum_corpus1.txt', "w") as out5:
+        for elem in vocab_nonum_1:
+            out5.write(elem+"\n")
+
+    with open('./vocabulary/vocab_nonum_corpus2.txt', "w") as out6:
+        for elem in vocab_nonum_2:
+            out6.write(elem+"\n")
+
+    with open('./vocabulary/vocab_nonum_corpus3.txt', "w") as out7:
+        for elem in vocab_nonum_3:
+            out7.write(elem+"\n")
+
+    with open('./vocabulary/vocab_strict_total.txt', "w") as out8:
+        for elem in vocab_strict_total:
+            out8.write(elem + "\n")
+
+    with open('./vocabulary/vocab_strict_corpus1.txt', "w") as out9:
+        for elem in vocab_strict_1:
+            out9.write(elem + "\n")
+
+    with open('./vocabulary/vocab_strict_corpus2.txt', "w") as out10:
+        for elem in vocab_strict_2:
+            out10.write(elem + "\n")
+
+    with open('./vocabulary/vocab_strict_corpus3.txt', "w") as out11:
+        for elem in vocab_strict_3:
+            out11.write(elem + "\n")
 
 
 if __name__ == "__main__":

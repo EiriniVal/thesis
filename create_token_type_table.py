@@ -1,11 +1,19 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+from profiler import corpus_profiling
 
 corpus_data = pd.read_csv("corpus_profiling/corpus_data.csv")
 
+total_num_types = len(corpus_profiling()[1])
+num_types_1 = len(corpus_profiling()[2])
+num_types_2 = len(corpus_profiling()[3])
+num_types_3 = len(corpus_profiling()[4])
 
-df2 = corpus_data.groupby("sub_corpus").agg({"tokens": sum, "types": sum})
-df2.loc['Total'] = df2.sum()
+print(total_num_types, num_types_1, num_types_2, num_types_3)
+
+df2 = corpus_data.groupby("sub_corpus").agg({"tokens": sum, "types": [num_types_1, num_types_2, num_types_3]})
+df2.loc["Total", "tokens"] = df2["tokens"].sum()
+df2.loc["Total", "types"] = total_num_types
 
 # write table with tokens and types counts only for sub-corpora and the whole corpus
 df2.to_csv('./corpus_profiling/corpus_tokens_types.csv')
