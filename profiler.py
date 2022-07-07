@@ -31,12 +31,7 @@ def is_roman_numeral(token):
     the last unit written as j instead of i,
     and the additive notation variant (iiii instead of iv)
     """
-    pattern = re.compile(r"""   
-                             ^([Mm]){0,3}
-                             (CM|cm|CD|cd|([Dd])?([Cc]){0,4})?
-                             (XC|xc|XL|xl|([Ll])?([Xx]){0,4})?
-                             (IX|ix|IV|iv|([Vv])?([Ii]){2,4}([Jj])?)?$
-                        """, re.VERBOSE)
+    pattern = re.compile(r"^M{0,3}(CM|CD|D?C{0,4})?(XC|XL|L?X{0,4})?(IX|IV|VI|V?I{2,4}J?)?$", re.IGNORECASE)
     if re.match(pattern, token):
         return True
     return False
@@ -50,9 +45,19 @@ def has_scribal_abbrev(token):
 
 
 def is_number(token):
-    pattern = re.compile("^[+-]?(\d*\.)?\d+$")
+    # pattern matches any number, decimal numbers and also ordinal numbers like 1st 32d 5th
+    pattern = re.compile("^[+-]?(\d*\.)?\d+(d|th|st)?$", re.IGNORECASE)
+
+    # pattern2 matches fractions like 1/2 with or without ordinal endings like 1/14877708919520606993173874072000th (
+    # actual example from corpus)
+    pattern2 = re.compile("[1-9][0-9]*\/[1-9][0-9]*(d|th|st)?", re.IGNORECASE)
+
     if re.match(pattern, token):
         return True
+
+    if re.match(pattern2, token):
+        return True
+
     return False
 
 
@@ -83,38 +88,54 @@ def get_vocab_counts(filename):
     numbers = {}
 
     for element in root.iter():
+        year_span = re.compile(r"\d+-\d+")
         if element.tag == "year":
-            year_info = element.text
+            if re.match(year_span, element.text):
+                # if year span keep only the first year for the corpus_data dataframe (for plotting reasons)
+                year_info = element.text.split("-")[0]
+            else:
+                year_info = element.text
+
         if element.tag == "token":
+            # add all tokens in the simple vocab set
             vocab.add(element.text)
+            token_counter += 1
 
             if has_old_char(element.text):
                 element.attrib["old_char"] = "True"
                 old_alphabet[element.get("id")] = element.text
-                token_counter += 1
-                # add to strict vocab lowercased
+
+                # also add to strict vocab lowercased
                 vocab_strict.add(element.text.lower())
-                # add to no num vocab
+
+                # also add to no num vocab
                 vocab_no_numbers.add(element.text)
 
-            elif is_roman_numeral(element.text):
+            if is_roman_numeral(element.text):
                 element.attrib["rom_num"] = "True"
                 roman_numerals[element.get("id")] = element.text
 
-            elif has_scribal_abbrev(element.text):
+            if has_scribal_abbrev(element.text):
                 element.attrib["scrib_abbrev"] = "True"
                 scribal_abbrev[element.get("id")] = element.text
-                token_counter += 1
+
+                # also add to strict vocab lowercased
                 vocab_strict.add(element.text.lower())
+
+                # also add to no num vocab
                 vocab_no_numbers.add(element.text)
 
-            elif is_number(element.text):
+            if is_number(element.text):
                 element.attrib["num"] = "True"
                 numbers[element.get("id")] = element.text
 
             else:
-                token_counter += 1
+                # for all the other tokens which are not numbers!
 
+                # also add to strict vocab lowercased
+                vocab_strict.add(element.text.lower())
+                # also add to no num vocab
+                vocab_no_numbers.add(element.text)
 
             # print(token_counter, element.text)
 
@@ -125,7 +146,8 @@ def get_vocab_counts(filename):
     f.write(etree.tostring(root, encoding='utf-8', xml_declaration=True, pretty_print=True))
     f.close()
 
-    # token counter is without numbers, type_counter is the length of the strict vocab aka no numbers, no roman numerals and lowercased
+    # token counter is all running words including numbers, type_counter is the length of the strict vocab aka no
+    # numbers, no roman numerals and lowercased
 
     return token_counter, type_counter, vocab, old_alphabet, roman_numerals, scribal_abbrev, year_info, numbers, vocab_no_numbers, vocab_strict
 
@@ -158,7 +180,8 @@ def corpus_profiling():
     for root, dirs, files in os.walk("./data/MIDDLE-MODERN-ENGLISH-MEDICAL-CORPUS-Copy/", topdown=False):
         for name in files:
             infile = os.path.join(root, name)
-            token_counter, type_counter, vocab, old_alphabet, roman_numerals, scribal_abbrev, year_info, numbers, vocab_no_numbers, vocab_strict = get_vocab_counts(infile)
+            token_counter, type_counter, vocab, old_alphabet, roman_numerals, scribal_abbrev, year_info, numbers, vocab_no_numbers, vocab_strict = get_vocab_counts(
+                infile)
 
             # add sub-corpus name
             if "01_MEMT" in root:
@@ -198,7 +221,6 @@ def corpus_profiling():
             vocab_nonum_total = vocab_nonum_total.union(vocab_no_numbers)
             vocab_strict_total = vocab_strict_total.union(vocab_strict)
 
-
             # CREATE DATAFRAME
 
             # gather data
@@ -229,35 +251,35 @@ def main():
     # write vocabularies in files
     with open('./vocabulary/vocab_total.txt', "w") as out:
         for elem in vocab_total:
-            out.write(elem+"\n")
+            out.write(elem + "\n")
 
     with open('./vocabulary/vocab_corpus1.txt', "w") as out1:
         for elem in vocab_corpus1:
-            out1.write(elem+"\n")
+            out1.write(elem + "\n")
 
     with open('./vocabulary/vocab_corpus2.txt', "w") as out2:
         for elem in vocab_corpus2:
-            out2.write(elem+"\n")
+            out2.write(elem + "\n")
 
     with open('./vocabulary/vocab_corpus3.txt', "w") as out3:
         for elem in vocab_corpus3:
-            out3.write(elem+"\n")
+            out3.write(elem + "\n")
 
     with open('./vocabulary/vocab_nonum_total.txt', "w") as out4:
         for elem in vocab_nonum_total:
-            out4.write(elem+"\n")
+            out4.write(elem + "\n")
 
     with open('./vocabulary/vocab_nonum_corpus1.txt', "w") as out5:
         for elem in vocab_nonum_1:
-            out5.write(elem+"\n")
+            out5.write(elem + "\n")
 
     with open('./vocabulary/vocab_nonum_corpus2.txt', "w") as out6:
         for elem in vocab_nonum_2:
-            out6.write(elem+"\n")
+            out6.write(elem + "\n")
 
     with open('./vocabulary/vocab_nonum_corpus3.txt', "w") as out7:
         for elem in vocab_nonum_3:
-            out7.write(elem+"\n")
+            out7.write(elem + "\n")
 
     with open('./vocabulary/vocab_strict_total.txt', "w") as out8:
         for elem in vocab_strict_total:
@@ -274,6 +296,8 @@ def main():
     with open('./vocabulary/vocab_strict_corpus3.txt', "w") as out11:
         for elem in vocab_strict_3:
             out11.write(elem + "\n")
+
+
 
 
 if __name__ == "__main__":
