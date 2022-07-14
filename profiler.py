@@ -15,14 +15,13 @@ def has_old_char(token):
     pattern = re.match(r"[^0-9\s]*3[^0-9\s]+|[^0-9\s]+3[^0-9\s]*", token)
     if pattern:
         return True
-    # if token has old alphabet
-    pattern2 = re.match(r".*[ȝæðþƿ].*", token)
+    # if token has old character
+    pattern2 = re.match(r".*[ȝæðþƿœʒ℥℞].*", token)
     if pattern2:
         return True
     return False
 
 
-# TODO what about pronoun "I"? should i not count it as numeral anyway?
 def is_roman_numeral(token):
     """ assess if a token is a roman numeral. Returns True if it is:
     the code was inspired from: https://dev.to/alexdjulin/a-python-regex-to-validate-roman-numerals-2g99
@@ -31,7 +30,7 @@ def is_roman_numeral(token):
     the last unit written as j instead of i,
     and the additive notation variant (iiii instead of iv)
     """
-    pattern = re.compile(r"^M{0,3}(CM|CD|D?C{0,4})?(XC|XL|L?X{0,4})?(IX|IV|VI|V?I{2,4}J?)?$", re.IGNORECASE)
+    pattern = re.compile(r"^M{0,3}(CM|CD|D?C{0,4})?(XC|XL|L?X{0,4})?(IX|IV|VI|V?I{2,4}J?)?\.*$", re.IGNORECASE)
     if re.match(pattern, token):
         return True
     return False
@@ -46,11 +45,11 @@ def has_scribal_abbrev(token):
 
 def is_number(token):
     # pattern matches any number, decimal numbers and also ordinal numbers like 1st 32d 5th
-    pattern = re.compile("^[+-]?(\d*\.)?\d+(d|th|st)?$", re.IGNORECASE)
+    pattern = re.compile("^[+-]?(\d*\.)?\d+(d|th|st|nd|rd)?$", re.IGNORECASE)
 
     # pattern2 matches fractions like 1/2 with or without ordinal endings like 1/14877708919520606993173874072000th (
     # actual example from corpus)
-    pattern2 = re.compile("[1-9][0-9]*\/[1-9][0-9]*(d|th|st)?", re.IGNORECASE)
+    pattern2 = re.compile("[1-9][0-9]*\/[1-9][0-9]*(d|th|st|nd|rd)?", re.IGNORECASE)
 
     if re.match(pattern, token):
         return True
@@ -296,8 +295,6 @@ def main():
     with open('./vocabulary/vocab_strict_corpus3.txt', "w") as out11:
         for elem in vocab_strict_3:
             out11.write(elem + "\n")
-
-
 
 
 if __name__ == "__main__":
