@@ -111,8 +111,9 @@ def get_vocab_counts(filename):
                 vocab_no_numbers.add(element.text)
 
             if is_roman_numeral(element.text):
-                element.attrib["rom_num"] = "True"
-                roman_numerals[element.get("id")] = element.text
+                if element.text != ".":
+                    element.attrib["rom_num"] = "True"
+                    roman_numerals[element.get("id")] = element.text
 
             if has_scribal_abbrev(element.text):
                 element.attrib["scrib_abbrev"] = "True"
