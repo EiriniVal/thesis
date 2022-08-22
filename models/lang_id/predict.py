@@ -22,7 +22,7 @@ def train(datadir, ngram_order=3, smoothing=1):
     and add these to a language identificator.
     """
     identifier = LanguageIdentifier()
-    for language_code in 'DE LA'.split():
+    for language_code in 'EN LA'.split():
         # print("Training {0} language model...".format(language_code))
         filename = '{}.txt'.format(language_code.lower())
         training_data = os.path.join(datadir, filename)
@@ -37,7 +37,6 @@ def predict(identifier, testfile):
     """
 	Evaluate the classifier with the test set.
 	"""
-
     with open(testfile) as infile:
         for line in infile:
             label = identifier.identify(line.strip())
