@@ -7,10 +7,14 @@ from sklearn.model_selection import train_test_split
 import argparse
 
 parser = argparse.ArgumentParser(description='Split data into train and test.')
-parser.add_argument('--input', nargs='+',type=argparse.FileType('r'), required=True, help='The path of one or more input .txt files with one sentences per line.')
-parser.add_argument('--train_prc', type=float, required=True, help='The percentage of the training data (for splitting).')
+parser.add_argument('--input', nargs='+', type=argparse.FileType('r'), required=True, help='The path of one or more '
+                                                                                          'input .txt files with one '
+                                                                                          'sentence per line.')
+parser.add_argument('--train_prc', type=float, required=True, help='The percentage of the training data (for '
+                                                                   'splitting).')
 parser.add_argument('--test_prc', type=float, required=True, help='The percentage of the testing data (for splitting).')
 args = parser.parse_args()
+
 
 def main():
     all_test_sentences = []
@@ -25,12 +29,12 @@ def main():
         # print(len(train))
         # print(len(test))
 
-        # write new training file per input file with subset of sentences only
+        # write new training file for each input file with subset of sentences only
         with open(f"furl/data/{file.name}", "w") as out:
             for elem in train:
                 out.write(elem+"\n")
 
-        # get a list of all test sentences from all input files
+        # combine lists of test sentences
         all_test_sentences += test
 
     # print(all_test_sentences)
