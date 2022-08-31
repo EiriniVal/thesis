@@ -31,7 +31,7 @@ def train(datadir, ngram_order=3):
     and add these to a language identificator.
     """
     identifier = LanguageIdentifier()
-    for language_code in 'DE LA'.split():
+    for language_code in 'EN LA'.split():
         print("Training {0} language model...".format(language_code))
         filename = '{}.txt'.format(language_code.lower())
         training_data = os.path.join(datadir, filename)

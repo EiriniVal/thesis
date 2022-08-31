@@ -26,7 +26,7 @@ def main():
         # print(len(test))
 
         # write new training file per input file with subset of sentences only
-        with open(f"lang_id/data/{file.name}", "w") as out:
+        with open(f"furl/data/{file.name}", "w") as out:
             for elem in train:
                 out.write(elem+"\n")
 
@@ -41,7 +41,7 @@ def main():
     print(all_test_sentences)
 
     # write test file with all languages shuffled
-    with open("lang_id/test.txt", "w") as out2:
+    with open("furl/test.txt", "w") as out2:
         for elem in all_test_sentences:
             out2.write(elem+"\n")
 
