@@ -8,39 +8,50 @@ import sys
 
 from charlm import CharLM
 from identifier import LanguageIdentifier
+from sklearn.model_selection import train_test_split
 
 
 def main():
-    datadir = os.path.join(os.path.dirname(__file__), 'data')
-    language_identifier = train(datadir, 3, 0.1)
-    predict(language_identifier, sys.argv[1])
+    with open("../EN.txt", "r") as english_file:
+        lines_en = english_file.readlines()
+    with open("../LA.txt", "r") as latin_file:
+        lines_la = latin_file.readlines()
+
+    for i in range(10):
+        train_en, test_en = train_test_split(lines_en, test_size=0.20, random_state=None)
+
+        train_la, test_la = train_test_split(lines_la, test_size=0.20, random_state=None)
+
+        # get sentences of both languages for testing
+        all_test_sentences = test_en + test_la
+
+        identifier = LanguageIdentifier()
+        model1 = CharLM()
+        model1.train(train_en)
+        identifier.add_model("EN", model1)
+
+        model2 = CharLM()
+        model2.train(train_la)
+        identifier.add_model("LA", model2)
+
+        predict(identifier, all_test_sentences, i)
 
 
-def train(datadir, ngram_order=3, smoothing=1):
-    """
-    Train a character-level language model per language
-    and add these to a language identificator.
-    """
-    identifier = LanguageIdentifier()
-    for language_code in 'EN LA'.split():
-        # print("Training {0} language model...".format(language_code))
-        filename = '{}.txt'.format(language_code.lower())
-        training_data = os.path.join(datadir, filename)
-
-        model = CharLM(ngram_order, smoothing)
-        model.train(training_data)
-        identifier.add_model(language_code, model)
-    return identifier
-
-
-def predict(identifier, testfile):
+def predict(identifier, test_subset, fold):
     """
 	Evaluate the classifier with the test set.
 	"""
-    with open(testfile) as infile:
-        for line in infile:
+
+    code = ""
+    with open("results_furl_{}.txt".format(fold),"w") as outfile:
+        for line in test_subset:
             label = identifier.identify(line.strip())
-            print(f'{label}\t{line.strip()}')
+            if label == "EN":
+                code = 0
+            else:
+                code = 1
+
+            outfile.write(f'{code}\t{line.strip()}\n')
 
 
 if __name__ == '__main__':

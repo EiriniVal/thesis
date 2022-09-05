@@ -13,9 +13,6 @@ from collections import Counter
 from collections import defaultdict
 
 
-from models.my_utils.util import k_fold_split, binary_map_labels_sentences
-
-
 class CharLM:
 	"""A character-level n-gram language model."""
 
@@ -80,18 +77,17 @@ class CharLM:
 		"""
 		self._logprobs[history].default_factory = lambda: log_probability
 
-	def train(self, training_data):
+	def train(self, training_subset):
 		"""
 		Train this language model on the sentences contained in
-		file @param training_data (one sentence per line).
+		the list @param training_data (one sentence per line).
 		"""
-		
-		with open(training_data, 'r') as infile:
-			ngrams = Counter([ngram for line in infile for ngram in self._extract_ngrams(line)])
-		print(ngrams)
+
+		ngrams = Counter([ngram for line in training_subset for ngram in self._extract_ngrams(line)])
+		# print(ngrams)
 		# histories are all n-1 instances and their counts - Eirini
 		histories = Counter([elem[:-1] for elem in ngrams])
-		print("histories: ", histories)
+		# print("histories: ", histories)
 		# v is how many different histories there are - Eirini
 		v = len(histories)
 
