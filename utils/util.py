@@ -57,3 +57,5 @@ def binary_map_labels_sentences(*sentences_files):
 # print(binary_map_labels_sentences("models/EN.txt", "models/LA.txt"))
 
 # data = binary_map_labels_sentences("models/EN.txt", "models/LA.txt")
+
+# print(type(k_fold_split(10,0.20,data[0],data[1])[0][0][0]))
