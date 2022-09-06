@@ -10,7 +10,7 @@ from charlm import CharLM
 from identifier import LanguageIdentifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import balanced_accuracy_score
-import numpy as np
+from my_utils.util import mean_accuracy
 
 
 def predict(identifier, test_subset, fold):
@@ -84,11 +84,9 @@ def k_fold_val(fold_num: int):
 
 
 def main():
-    acc_list = k_fold_val(10)
+    mean_acc = mean_accuracy(k_fold_val(10))
 
-    mean_accuracy = sum(acc_list) / len(acc_list)
-
-    print(f"Mean accuracy of Furl ngram model: {mean_accuracy}")
+    print(f"Mean balanced accuracy of Furl ngram model: {mean_acc}")
 
 
 if __name__ == '__main__':

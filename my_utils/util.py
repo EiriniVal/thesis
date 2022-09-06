@@ -54,6 +54,14 @@ def binary_map_labels_sentences(*sentences_files):
     return X, y
 
 
+def mean_accuracy(acc_results: list):
+    """
+    Function that computes the mean of accuracies contained in a list.
+    :param acc_results:
+    :return:
+    """
+    return sum(acc_results) / len(acc_results)
+
 # def ngram_binary_map(*sentences_files):
 #     """
 #
@@ -96,23 +104,6 @@ def binary_map_labels_sentences(*sentences_files):
 # data = binary_map_labels_sentences("models/EN.txt", "models/LA.txt")
 
 # print(type(k_fold_split(10,0.20,data[0],data[1])[0][0][0]))
-
-
-def data_split_ngram_model():
-    with open("../EN.txt", "r") as english_file:
-        lines_en = english_file.readlines()
-    with open("../LA.txt", "r") as latin_file:
-        lines_la = latin_file.readlines()
-
-    for i in range(10):
-        train_en, test_en, train_la, test_la = train_test_split(lines_en, lines_la, test_size=0.20, random_state=i,
-                                                            shuffle=False)
-        # get sentences of both languages for testing
-        all_test_sentences = test_en + test_la
-
-        # trainmodel(train_en, train_la, all_test_sentences)
-
-
 
 
 
