@@ -10,7 +10,7 @@ from charlm import CharLM
 from identifier import LanguageIdentifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import balanced_accuracy_score
-from my_utils.util import mean_accuracy, get_train_test_data
+from  import mean_accuracy, get_train_test_data
 
 
 def predict(identifier, test_subset, fold):
