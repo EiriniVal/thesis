@@ -10,7 +10,7 @@ from charlm import CharLM
 from identifier import LanguageIdentifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import balanced_accuracy_score
-from my_utils.util import mean_accuracy
+from my_utils.util import mean_accuracy, get_train_test_data
 
 
 def predict(identifier, test_subset, fold):
@@ -47,18 +47,7 @@ def k_fold_val(fold_num: int):
 
     # 10-fold validation
     for i in range(fold_num):
-        # split data of each language into training and testing
-        train_en, test_en = train_test_split(lines_en, test_size=0.20, random_state=None)
-        train_la, test_la = train_test_split(lines_la, test_size=0.20, random_state=None)
-
-        # get an array with the real labels of the test subset, so that we can later compare with the predicted labels
-        y_en_real = [0] * len(test_en)
-        y_la_real = [1] * len(test_la)
-
-        # get sentences of both languages for testing
-        all_test_sentences = test_en + test_la
-        # get an array with all the real labels of the test dataset
-        y_real = y_en_real + y_la_real
+        train_en, test_en, train_la, test_la, all_test_sentences, y_real = get_train_test_data(lines_en, lines_la)
 
         # train n-gram model for English
         identifier = LanguageIdentifier()

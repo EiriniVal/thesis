@@ -3,14 +3,19 @@
 
 import langid
 
-langid.set_languages(['en','la'])
+# determine the languages we're interested in
+langid.set_languages(['en', 'la'])
 
-with open("test.txt", "r") as infile:
-    with open("langid_results.txt", "w") as outfile:
-        for line in infile:
-            outfile.write(f"{line} {langid.classify(line)}\n")
+# TODO: test langid model on the same data as Furl?
 
-print("The results file was written.")
+
+def apply_model():
+    with open("test.txt", "r") as infile:
+        with open("langid_results.txt", "w") as outfile:
+            for line in infile:
+                print(type(langid.classify(line)))
+
+    print("The results file was written.")
 
 
 
