@@ -23,7 +23,6 @@ def predict(identifier, test_subset, fold):
     :return: An array of the predicted (binary) labels.
     """
     os.makedirs("./results", exist_ok=True)
-    code = ""
     y_pred = []
     with open("./results/furl_fold{}.txt".format(fold), "w") as outfile:
         for line in test_subset:
