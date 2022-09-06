@@ -10,7 +10,7 @@ from charlm import CharLM
 from identifier import LanguageIdentifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import balanced_accuracy_score
-from  import mean_accuracy, get_train_test_data
+from my_utils import util
 
 
 def predict(identifier, test_subset, fold):
@@ -47,7 +47,7 @@ def k_fold_val(fold_num: int):
 
     # 10-fold validation
     for i in range(fold_num):
-        train_en, test_en, train_la, test_la, all_test_sentences, y_real = get_train_test_data(lines_en, lines_la)
+        train_en, test_en, train_la, test_la, all_test_sentences, y_real = util.get_train_test_data(lines_en, lines_la)
 
         # train n-gram model for English
         identifier = LanguageIdentifier()
@@ -73,7 +73,7 @@ def k_fold_val(fold_num: int):
 
 
 def main():
-    mean_acc = mean_accuracy(k_fold_val(10))
+    mean_acc = util.mean_accuracy(k_fold_val(10))
 
     print(f"Mean balanced accuracy of Furl ngram model: {mean_acc}")
 
