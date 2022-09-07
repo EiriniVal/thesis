@@ -81,5 +81,46 @@ def get_train_test_data(lines_en, lines_la):
     return train_en, test_en, train_la, test_la, all_test_sentences, y_real
 
 
+def change_length(max_length: int, infile_path):
+    """
+    Writes a file of sequences with a maximum length of @param max_length.
+    This function will help to test the models on data of different lengths.
 
+    :param max_length: the maximum length of characters of the sequences
+    :param original_file: the input file with one sequence per line
+    :return: writes file with one sequence per line
+    """
+    with open(infile_path, "r") as infile:
+        outfile_path = f"{infile_path.replace('.txt','')}_length{max_length}.txt"
+        with open(outfile_path, "w") as outfile:
+            for line in infile:
+                line = line.strip()
+                if len(line) <= max_length:
+                    # print(line)
+                    outfile.write(line+"\n")
+                else:
+                    sen_tok_list = line.split()
+
+                    # for each word in list
+                    for current_index, element in enumerate(sen_tok_list):
+                        # if word itself is <= max, get it
+                        if len(element) <= max_length and element != " ":
+                            # print(element)
+                            outfile.write(element + "\n")
+
+                            # index of next word
+                            next_index = current_index + 2
+
+                            # check if current word forms a sequence of <= max with the next word
+                            for b in range(next_index, len(sen_tok_list) + 1):
+                                new_seq = ' '.join(sen_tok_list[current_index:b])
+                                # if yes
+                                if len(new_seq) <= max_length:
+                                    outfile.write(new_seq + "\n")
+                                else:
+                                    continue
+                        # if word itself is > max, move to the next word
+                        else:
+                            pass
+    return outfile_path
 
