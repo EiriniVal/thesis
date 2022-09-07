@@ -13,18 +13,19 @@ from sklearn.metrics import balanced_accuracy_score
 from my_utils import util
 
 
-def predict(identifier, test_subset, fold):
+def predict(identifier, test_subset, fold, results_directory: str):
     """
     A function that predicts the language of sequences given a language model.
 
+    :param results_directory: the name of the directory where the results files will be saved.
     :param identifier: The language identifier model with the trained models added
     :param test_subset: An array of sequences for testing.
     :param fold: The fold number, for distinguishing the test files.
     :return: An array of the predicted (binary) labels.
     """
-    os.makedirs("./results", exist_ok=True)
+    os.makedirs(f"./{results_directory}", exist_ok=True)
     y_pred = []
-    with open("./results/furl_fold{}.txt".format(fold), "w") as outfile:
+    with open(f"./{results_directory}/furl_fold{fold}.txt", "w") as outfile:
         for line in test_subset:
             label = identifier.identify(line.strip())
             if label == "EN":
@@ -37,7 +38,7 @@ def predict(identifier, test_subset, fold):
     return y_pred
 
 
-def k_fold_val(fold_num: int, path_to_en, path_to_la):
+def k_fold_val(fold_num: int, path_to_en, path_to_la, results_directory):
     bal_acc_all = []
     with open(path_to_en, "r") as english_file:
         lines_en = english_file.readlines()
@@ -60,7 +61,7 @@ def k_fold_val(fold_num: int, path_to_en, path_to_la):
         identifier.add_model("LA", model2)
 
         # predict will return an array with the predicted values and it will write the prediction files
-        y_pred = predict(identifier, all_test_sentences, i)
+        y_pred = predict(identifier, all_test_sentences, i, results_directory)
 
         bal_acc = balanced_accuracy_score(y_real, y_pred)
 
@@ -72,9 +73,18 @@ def k_fold_val(fold_num: int, path_to_en, path_to_la):
 
 
 def main():
-    mean_acc = util.mean_accuracy(k_fold_val(10, "../EN.txt", "../LA.txt"))
+    mean_acc = util.mean_accuracy(k_fold_val(10, "../EN.txt", "../LA.txt", "results_original"))
+    print(f"Mean balanced accuracy of Furl ngram model on original data: {mean_acc}")
 
-    print(f"Mean balanced accuracy of Furl ngram model: {mean_acc}")
+    en_short = util.change_length(20, "../EN.txt")
+    la_short = util.change_length(20, "../LA.txt")
+    mean_acc_short = util.mean_accuracy(k_fold_val(10, en_short, la_short, "results_short"))
+    print(f"Mean balanced accuracy of Furl ngram model on short data: {mean_acc_short}")
+
+    en_shorter = util.change_length(10, "../EN.txt")
+    la_shorter = util.change_length(10, "../LA.txt")
+    mean_acc_shorter = util.mean_accuracy(k_fold_val(10, en_shorter, la_shorter, "results_shorter"))
+    print(f"Mean balanced accuracy of Furl ngram model on shorter data: {mean_acc_shorter}")
 
 
 if __name__ == '__main__':
