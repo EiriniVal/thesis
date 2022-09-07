@@ -12,16 +12,16 @@ langid.set_languages(['en', 'la'])
 # TODO: test langid model on the same data as Furl?
 
 
-def validate_model(folds: int):
+def validate_model(folds: int, path_to_en, path_to_la):
     """
     Validates model using k-folds.
     :return:
     """
     bal_acc_all = []
     y_pred = []
-    with open("../EN.txt", "r") as english_file:
+    with open(path_to_en, "r") as english_file:
         lines_en = english_file.readlines()
-    with open("../LA.txt", "r") as latin_file:
+    with open(path_to_la, "r") as latin_file:
         lines_la = latin_file.readlines()
 
     os.makedirs("./results", exist_ok=True)
@@ -55,8 +55,8 @@ def validate_model(folds: int):
 
 
 def main():
-    mean_acc = util.mean_accuracy(validate_model(10))
-    print(f"Mean balanced accuracy of Langid (Lui et al., 2012) model: {mean_acc}")
+    mean_acc = util.mean_accuracy(validate_model(10, "../EN.txt", "../LA.txt"))
+    print(f"Mean balanced accuracy of Langid (Lui et al., 2012) model on data of various lengths: {mean_acc}")
 
 
 if __name__ == '__main__':

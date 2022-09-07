@@ -37,11 +37,11 @@ def predict(identifier, test_subset, fold):
     return y_pred
 
 
-def k_fold_val(fold_num: int):
+def k_fold_val(fold_num: int, path_to_en, path_to_la):
     bal_acc_all = []
-    with open("../EN.txt", "r") as english_file:
+    with open(path_to_en, "r") as english_file:
         lines_en = english_file.readlines()
-    with open("../LA.txt", "r") as latin_file:
+    with open(path_to_la, "r") as latin_file:
         lines_la = latin_file.readlines()
 
     # 10-fold validation
@@ -72,7 +72,7 @@ def k_fold_val(fold_num: int):
 
 
 def main():
-    mean_acc = util.mean_accuracy(k_fold_val(10))
+    mean_acc = util.mean_accuracy(k_fold_val(10, "../EN.txt", "../LA.txt"))
 
     print(f"Mean balanced accuracy of Furl ngram model: {mean_acc}")
 
