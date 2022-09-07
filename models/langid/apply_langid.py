@@ -12,7 +12,7 @@ langid.set_languages(['en', 'la'])
 # TODO: test langid model on the same data as Furl?
 
 
-def validate_model(folds: int, path_to_en, path_to_la):
+def validate_model(folds: int, path_to_en, path_to_la,  results_directory: str):
     """
     Validates model using k-folds.
     :return:
@@ -24,10 +24,10 @@ def validate_model(folds: int, path_to_en, path_to_la):
     with open(path_to_la, "r") as latin_file:
         lines_la = latin_file.readlines()
 
-    os.makedirs("./results", exist_ok=True)
+    os.makedirs(f"./{results_directory}", exist_ok=True)
 
     for i in range(folds):
-        with open("./results/langid_fold{}.txt".format(i), "w") as outfile:
+        with open(f"./{results_directory}/langid_fold{i}.txt", "w") as outfile:
             # get data for testing
             train_en, test_en, train_la, test_la, all_test_sentences, y_real = util.get_train_test_data(lines_en, lines_la)
 
@@ -55,8 +55,21 @@ def validate_model(folds: int, path_to_en, path_to_la):
 
 
 def main():
-    mean_acc = util.mean_accuracy(validate_model(10, "../EN.txt", "../LA.txt"))
-    print(f"Mean balanced accuracy of Langid (Lui et al., 2012) model on data of various lengths: {mean_acc}")
+    mean_acc = util.compute_mean_std(validate_model(10, "../EN.txt", "../LA.txt", "results_original"))
+    print(f"Mean balanced accuracy of Langid (Lui et al., 2012) model on data of various lengths: {mean_acc[0]}")
+    print(f"Mean balanced accuracy of Langid (Lui et al., 2012) model on data of various lengths: {mean_acc[1]}")
+
+    en_short = util.change_length(20, "../EN.txt")
+    la_short = util.change_length(20, "../LA.txt")
+    mean_acc_short = util.compute_mean_std(validate_model(10, en_short, la_short, "results_short"))
+    print(f"Mean balanced accuracy of Langid (Lui et al., 2012) model on short data: {mean_acc_short[0]}")
+    print(f"Standard deviation of Furl ngram model on short data: {mean_acc_short[1]}")
+
+    en_shorter = util.change_length(10, "../EN.txt")
+    la_shorter = util.change_length(10, "../LA.txt")
+    mean_acc_shorter = util.compute_mean_std(validate_model(10, en_shorter, la_shorter, "results_shorter"))
+    print(f"Mean balanced accuracy of Langid (Lui et al., 2012) model on shorter data: {mean_acc_shorter[0]}")
+    print(f"Standard deviation of Langid (Lui et al., 2012) model on shorter data: {mean_acc_shorter[1]}")
 
 
 if __name__ == '__main__':
