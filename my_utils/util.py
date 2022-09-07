@@ -54,13 +54,13 @@ def k_fold_split(k: int, test: float, X_data, y_data):
     return X_folds, y_folds
 
 
-def mean_accuracy(acc_results: list):
+def compute_mean_std(input_list: list):
     """
-    Function that computes the mean of accuracies contained in a list.
-    :param acc_results:
-    :return:
+    Function that computes the mean and the standard deviation of
+    :param input_list: the data.
+    :return: tuple containing the mean and the standard deviation
     """
-    return sum(acc_results) / len(acc_results)
+    return np.mean(input_list), np.std(input_list)
 
 
 def get_train_test_data(lines_en, lines_la):

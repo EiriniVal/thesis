@@ -73,18 +73,21 @@ def k_fold_val(fold_num: int, path_to_en, path_to_la, results_directory):
 
 
 def main():
-    mean_acc = util.mean_accuracy(k_fold_val(10, "../EN.txt", "../LA.txt", "results_original"))
-    print(f"Mean balanced accuracy of Furl ngram model on original data: {mean_acc}")
+    mean_acc = util.compute_mean_std(k_fold_val(10, "../EN.txt", "../LA.txt", "results_original"))
+    print(f"Mean balanced accuracy of Furl ngram model on original data: {mean_acc[0]}")
+    print(f"Standard deviation of Furl ngram model on original data: {mean_acc[1]}")
 
     en_short = util.change_length(20, "../EN.txt")
     la_short = util.change_length(20, "../LA.txt")
-    mean_acc_short = util.mean_accuracy(k_fold_val(10, en_short, la_short, "results_short"))
-    print(f"Mean balanced accuracy of Furl ngram model on short data: {mean_acc_short}")
+    mean_acc_short = util.compute_mean_std(k_fold_val(10, en_short, la_short, "results_short"))
+    print(f"Mean balanced accuracy of Furl ngram model on short data: {mean_acc_short[0]}")
+    print(f"Standard deviation of Furl ngram model on short data: {mean_acc_short[1]}")
 
     en_shorter = util.change_length(10, "../EN.txt")
     la_shorter = util.change_length(10, "../LA.txt")
-    mean_acc_shorter = util.mean_accuracy(k_fold_val(10, en_shorter, la_shorter, "results_shorter"))
-    print(f"Mean balanced accuracy of Furl ngram model on shorter data: {mean_acc_shorter}")
+    mean_acc_shorter = util.compute_mean_std(k_fold_val(10, en_shorter, la_shorter, "results_shorter"))
+    print(f"Mean balanced accuracy of Furl ngram model on shorter data: {mean_acc_shorter[0]}")
+    print(f"Standard deviation of Furl ngram model on shorter data: {mean_acc_shorter[1]}")
 
 
 if __name__ == '__main__':
