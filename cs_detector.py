@@ -50,6 +50,7 @@ def main():
     for root, dirs, files in os.walk("../MIDDLE-MODERN-ENGLISH-MEDICAL-CORPUS-Copy", topdown=False):
         # print(root,dirs)
         for name in files:
+            infile = os.path.join(root, name)
             pass
     # get directory of files (no funct)
     # for file in directory (no funct)
