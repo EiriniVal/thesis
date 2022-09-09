@@ -27,7 +27,7 @@ def predict(identifier, test_subset, fold, results_directory: str):
     y_pred = []
     with open(f"./{results_directory}/furl_fold{fold}.txt", "w") as outfile:
         for line in test_subset:
-            label = identifier.identify(line.strip())
+            label = identifier.identify(line.strip())[0]
             if label == "EN":
                 code = 0
             else:

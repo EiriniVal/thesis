@@ -46,4 +46,4 @@ class LanguageIdentifier:
             language_code: model.get_perplexity(sentence)
             for language_code, model in self._models.items()
         }
-        return min(perplexities, key=perplexities.get)
+        return min(perplexities, key=perplexities.get), perplexities

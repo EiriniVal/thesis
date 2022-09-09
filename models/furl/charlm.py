@@ -19,7 +19,7 @@ class CharLM:
 	BOS_SYMBOL = object()
 	EOS_SYMBOL = object()
 
-	def __init__(self, n=3, smoothing=1):
+	def __init__(self, n=3, smoothing=0.1):
 		"""Initialise a language model of order @param n."""
 		self._order = n
 		self._logprobs = defaultdict(lambda: defaultdict(float))

@@ -87,7 +87,7 @@ def main():
                 # for token in sentence (no funct)
                 for token in get_tokens(sentence):
 
-                    token_label = furl_identifier.identify(token.text)
+                    token_label = furl_identifier.identify(" "+token.text+" ")
                     print(f'{token.text}: {token_label}')
 
     # token_level_cs (apply_lang_model, write_cs_attrib_token)
