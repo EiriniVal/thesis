@@ -8,8 +8,6 @@ Language identifier based on multiple character-level models.
 
 import warnings
 
-from charlm import CharLM
-
 
 class LanguageIdentifier:
     """

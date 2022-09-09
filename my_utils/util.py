@@ -3,6 +3,8 @@ import numpy as np
 import sys
 import os
 from sklearn.model_selection import train_test_split, cross_val_score, KFold, ShuffleSplit
+from models.furl.identifier import LanguageIdentifier
+from models.furl.charlm import CharLM
 
 np.set_printoptions(threshold=sys.maxsize)
 
@@ -123,4 +125,23 @@ def change_length(max_length: int, infile_path):
                         else:
                             pass
     return outfile_path
+
+
+def train_furl_model(train_en: list, train_la: list):
+    identifier = LanguageIdentifier()
+    model1 = CharLM()
+    model1.train(train_en)
+    identifier.add_model("EN", model1)
+
+    # train n-gram model for Latin
+    model2 = CharLM()
+    model2.train(train_la)
+    identifier.add_model("LA", model2)
+
+    return identifier
+
+
+def open_read_lines(filepath):
+    with open(filepath, "r") as infile:
+        return infile.readlines()
 

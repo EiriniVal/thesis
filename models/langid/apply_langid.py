@@ -71,6 +71,12 @@ def main():
     print(f"Mean balanced accuracy of Langid (Lui et al., 2012) model on shorter data: {mean_acc_shorter[0]}")
     print(f"Standard deviation of Langid (Lui et al., 2012) model on shorter data: {mean_acc_shorter[1]}")
 
+    en_shortest = util.change_length(2, "../EN.txt")
+    la_shortest = util.change_length(2, "../LA.txt")
+    mean_acc_shortest = util.compute_mean_std(validate_model(10, en_shortest, la_shortest, "results_shortest"))
+    print(f"Mean balanced accuracy of Langid (Lui et al., 2012) model on shortest data: {mean_acc_shortest[0]}")
+    print(f"Standard deviation of Langid (Lui et al., 2012) model on shortest data: {mean_acc_shortest[1]}")
+
 
 if __name__ == '__main__':
     main()
