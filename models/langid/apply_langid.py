@@ -57,13 +57,13 @@ def validate_model(folds: int, path_to_en, path_to_la,  results_directory: str):
 def main():
     mean_acc = util.compute_mean_std(validate_model(10, "../EN.txt", "../LA.txt", "results_original"))
     print(f"Mean balanced accuracy of Langid (Lui et al., 2012) model on data of various lengths: {mean_acc[0]}")
-    print(f"Mean balanced accuracy of Langid (Lui et al., 2012) model on data of various lengths: {mean_acc[1]}")
+    print(f"Standard deviation of Langid (Lui et al., 2012) model on data of various lengths: {mean_acc[1]}")
 
     en_short = util.change_length(20, "../EN.txt")
     la_short = util.change_length(20, "../LA.txt")
     mean_acc_short = util.compute_mean_std(validate_model(10, en_short, la_short, "results_short"))
     print(f"Mean balanced accuracy of Langid (Lui et al., 2012) model on short data: {mean_acc_short[0]}")
-    print(f"Standard deviation of Furl ngram model on short data: {mean_acc_short[1]}")
+    print(f"Standard deviation of Langid (Lui et al., 2012) model on short data: {mean_acc_short[1]}")
 
     en_shorter = util.change_length(10, "../EN.txt")
     la_shorter = util.change_length(10, "../LA.txt")
