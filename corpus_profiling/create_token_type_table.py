@@ -8,6 +8,7 @@ counts_dict = {}
 for root, dirs, files in os.walk("./vocabulary", topdown=False):
     for name in files:
         infile = os.path.join(root, name)
+        # get line counts, aka type counts from each vocab file
         p1 = subprocess.run(['wc', '-l', infile], capture_output=True)
         counts_dict[name] = p1.stdout.decode('utf8').split(" ")[0]
 
@@ -45,15 +46,14 @@ for key, value in counts_dict.items():
 
 df2 = corpus_data.groupby("sub_corpus").agg({"tokens": sum})
 df3 = df2["tokens"].map('{:,.0f}'.format).to_frame()
-df3 = df3.assign(**{"types_all":[vocab_len_1, vocab_len_2, vocab_len_3], "types_w/o_numbers":[vocab_nonum_1, vocab_nonum_2, vocab_nonum_3], "types_strict":[vocab_strict_1, vocab_strict_2, vocab_strict_3]})
+df3 = df3.assign(**{"types_all": [vocab_len_1, vocab_len_2, vocab_len_3],
+                    "types_w/o_numbers": [vocab_nonum_1, vocab_nonum_2, vocab_nonum_3],
+                    "types_strict": [vocab_strict_1, vocab_strict_2, vocab_strict_3]})
 df3.loc["Total", "tokens"] = '{:,}'.format(int(df2["tokens"].sum()))
 df3.loc["Total", "types_all"] = vocab_len
 df3.loc["Total", "types_w/o_numbers"] = vocab_nonum
 df3.loc["Total", "types_strict"] = vocab_strict
 
-# apply the dtype attribute
 
 # write table with tokens and types counts only for sub-corpora and the whole corpus
 df3.to_csv('./corpus_profiling/corpus_tokens_types.csv')
-
-

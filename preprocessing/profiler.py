@@ -80,7 +80,7 @@ def get_vocab_counts(filename):
     # scribal_abbrev
     scribal_abbrev = {}
 
-    # old_alphabet
+    # old_alphabet dictionary: key is the token id, and value is the token text
     old_alphabet = {}
 
     # numbers
@@ -111,6 +111,7 @@ def get_vocab_counts(filename):
                 vocab_no_numbers.add(element.text)
 
             if is_roman_numeral(element.text):
+                # avoid counting only . as a roman numeral
                 if element.text != ".":
                     element.attrib["rom_num"] = "True"
                     roman_numerals[element.get("id")] = element.text
@@ -209,10 +210,10 @@ def corpus_profiling():
                 vocab_nonum_3 = vocab_nonum_3.union(vocab_no_numbers)
                 vocab_strict_3 = vocab_strict_3.union(vocab_strict)
 
-                # if letter in date remove
+                # if letter in date remove (special case for LMEMT)
                 year_info = "".join(filter(str.isdigit, year_info))
 
-                # if year info is span keep first year
+                # if year info is span keep first year (special case for LMEMT)
                 if "-" in year_info:
                     year_info = year_info.split("-")[0]
 
