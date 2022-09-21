@@ -1,0 +1,172 @@
+###### TESTING FURL ON ORIGINAL DATA ######
+Training file en: ../training_data_original/train_en_fold1.txt
+Training file la: ../training_data_original/train_la_fold1.txt
+Testing file en: ../testing_data_original/test_en_fold1.txt
+Testing file la: ../testing_data_original/test_la_fold1.txt
+### FOLD 1 ###
+Out of 21 English sentences, 0 were misclassified as Latin.
+Out of 44 Latin sentences, 0 were misclassified as English.
+Balanced accuracy of fold 1: 1.0
+Training file en: ../training_data_original/train_en_fold2.txt
+Training file la: ../training_data_original/train_la_fold2.txt
+Testing file en: ../testing_data_original/test_en_fold2.txt
+Testing file la: ../testing_data_original/test_la_fold2.txt
+### FOLD 2 ###
+Out of 21 English sentences, 0 were misclassified as Latin.
+Out of 44 Latin sentences, 0 were misclassified as English.
+Balanced accuracy of fold 2: 1.0
+Training file en: ../training_data_original/train_en_fold3.txt
+Training file la: ../training_data_original/train_la_fold3.txt
+Testing file en: ../testing_data_original/test_en_fold3.txt
+Testing file la: ../testing_data_original/test_la_fold3.txt
+### FOLD 3 ###
+Out of 20 English sentences, 0 were misclassified as Latin.
+Out of 44 Latin sentences, 0 were misclassified as English.
+Balanced accuracy of fold 3: 1.0
+Training file en: ../training_data_original/train_en_fold4.txt
+Training file la: ../training_data_original/train_la_fold4.txt
+Testing file en: ../testing_data_original/test_en_fold4.txt
+Testing file la: ../testing_data_original/test_la_fold4.txt
+### FOLD 4 ###
+Out of 20 English sentences, 0 were misclassified as Latin.
+Out of 43 Latin sentences, 0 were misclassified as English.
+Balanced accuracy of fold 4: 1.0
+Training file en: ../training_data_original/train_en_fold5.txt
+Training file la: ../training_data_original/train_la_fold5.txt
+Testing file en: ../testing_data_original/test_en_fold5.txt
+Testing file la: ../testing_data_original/test_la_fold5.txt
+### FOLD 5 ###
+Out of 20 English sentences, 0 were misclassified as Latin.
+Out of 43 Latin sentences, 0 were misclassified as English.
+Balanced accuracy of fold 5: 1.0
+Mean balanced accuracy of Furl ngram model on original data: 1.0
+Standard deviation of Furl ngram model on original data: 0.0
+###### TESTING FURL ON DATA ~= 40 CHARACTERS ######
+Training file en: ../training_data_original/train_en_fold1.txt
+Training file la: ../training_data_original/train_la_fold1.txt
+Testing file en: ../testing_data_len40/test_en_fold1_length40.txt
+Testing file la: ../testing_data_len40/test_la_fold1_length40.txt
+### FOLD 1 ###
+Out of 17 English sentences, 0 were misclassified as Latin.
+Out of 24 Latin sentences, 0 were misclassified as English.
+Balanced accuracy of fold 1: 1.0
+Training file en: ../training_data_original/train_en_fold2.txt
+Training file la: ../training_data_original/train_la_fold2.txt
+Testing file en: ../testing_data_len40/test_en_fold2_length40.txt
+Testing file la: ../testing_data_len40/test_la_fold2_length40.txt
+### FOLD 2 ###
+Out of 18 English sentences, 0 were misclassified as Latin.
+Out of 27 Latin sentences, 0 were misclassified as English.
+Balanced accuracy of fold 2: 1.0
+Training file en: ../training_data_original/train_en_fold3.txt
+Training file la: ../training_data_original/train_la_fold3.txt
+Testing file en: ../testing_data_len40/test_en_fold3_length40.txt
+Testing file la: ../testing_data_len40/test_la_fold3_length40.txt
+### FOLD 3 ###
+Out of 16 English sentences, 0 were misclassified as Latin.
+Out of 22 Latin sentences, 0 were misclassified as English.
+Balanced accuracy of fold 3: 1.0
+Training file en: ../training_data_original/train_en_fold4.txt
+Training file la: ../training_data_original/train_la_fold4.txt
+Testing file en: ../testing_data_len40/test_en_fold4_length40.txt
+Testing file la: ../testing_data_len40/test_la_fold4_length40.txt
+### FOLD 4 ###
+Out of 18 English sentences, 0 were misclassified as Latin.
+Out of 20 Latin sentences, 0 were misclassified as English.
+Balanced accuracy of fold 4: 1.0
+Training file en: ../training_data_original/train_en_fold5.txt
+Training file la: ../training_data_original/train_la_fold5.txt
+Testing file en: ../testing_data_len40/test_en_fold5_length40.txt
+Testing file la: ../testing_data_len40/test_la_fold5_length40.txt
+### FOLD 5 ###
+Out of 17 English sentences, 0 were misclassified as Latin.
+Out of 22 Latin sentences, 0 were misclassified as English.
+Balanced accuracy of fold 5: 1.0
+Mean balanced accuracy of Furl ngram model on sequences of ~= 40 characters: 1.0
+Standard deviation of Furl ngram model on sequences of ~= 40 characters: 0.0
+###### TESTING FURL ON DATA ~= 20 CHARACTERS ######
+Training file en: ../training_data_original/train_en_fold1.txt
+Training file la: ../training_data_original/train_la_fold1.txt
+Testing file en: ../testing_data_len20/test_en_fold1_length20.txt
+Testing file la: ../testing_data_len20/test_la_fold1_length20.txt
+### FOLD 1 ###
+Out of 21 English sentences, 0 were misclassified as Latin.
+Out of 39 Latin sentences, 0 were misclassified as English.
+Balanced accuracy of fold 1: 1.0
+Training file en: ../training_data_original/train_en_fold2.txt
+Training file la: ../training_data_original/train_la_fold2.txt
+Testing file en: ../testing_data_len20/test_en_fold2_length20.txt
+Testing file la: ../testing_data_len20/test_la_fold2_length20.txt
+### FOLD 2 ###
+Out of 21 English sentences, 0 were misclassified as Latin.
+Out of 37 Latin sentences, 1 were misclassified as English.
+Balanced accuracy of fold 2: 0.9864864864864865
+Training file en: ../training_data_original/train_en_fold3.txt
+Training file la: ../training_data_original/train_la_fold3.txt
+Testing file en: ../testing_data_len20/test_en_fold3_length20.txt
+Testing file la: ../testing_data_len20/test_la_fold3_length20.txt
+### FOLD 3 ###
+Out of 20 English sentences, 0 were misclassified as Latin.
+Out of 37 Latin sentences, 0 were misclassified as English.
+Balanced accuracy of fold 3: 1.0
+Training file en: ../training_data_original/train_en_fold4.txt
+Training file la: ../training_data_original/train_la_fold4.txt
+Testing file en: ../testing_data_len20/test_en_fold4_length20.txt
+Testing file la: ../testing_data_len20/test_la_fold4_length20.txt
+### FOLD 4 ###
+Out of 19 English sentences, 0 were misclassified as Latin.
+Out of 36 Latin sentences, 0 were misclassified as English.
+Balanced accuracy of fold 4: 1.0
+Training file en: ../training_data_original/train_en_fold5.txt
+Training file la: ../training_data_original/train_la_fold5.txt
+Testing file en: ../testing_data_len20/test_en_fold5_length20.txt
+Testing file la: ../testing_data_len20/test_la_fold5_length20.txt
+### FOLD 5 ###
+Out of 20 English sentences, 0 were misclassified as Latin.
+Out of 35 Latin sentences, 0 were misclassified as English.
+Balanced accuracy of fold 5: 1.0
+Mean balanced accuracy of Furl ngram model on sequences of ~= 20 characters: 0.9972972972972972
+Standard deviation of Furl ngram model on on sequences of ~= 20 characters: 0.005405405405405395
+###### TESTING FURL ON DATA ~= 10 CHARACTERS ######
+Training file en: ../training_data_original/train_en_fold1.txt
+Training file la: ../training_data_original/train_la_fold1.txt
+Testing file en: ../testing_data_len10/test_en_fold1_length10.txt
+Testing file la: ../testing_data_len10/test_la_fold1_length10.txt
+### FOLD 1 ###
+Out of 21 English sentences, 1 were misclassified as Latin.
+Out of 44 Latin sentences, 1 were misclassified as English.
+Balanced accuracy of fold 1: 0.9648268398268398
+Training file en: ../training_data_original/train_en_fold2.txt
+Training file la: ../training_data_original/train_la_fold2.txt
+Testing file en: ../testing_data_len10/test_en_fold2_length10.txt
+Testing file la: ../testing_data_len10/test_la_fold2_length10.txt
+### FOLD 2 ###
+Out of 21 English sentences, 2 were misclassified as Latin.
+Out of 44 Latin sentences, 2 were misclassified as English.
+Balanced accuracy of fold 2: 0.9296536796536796
+Training file en: ../training_data_original/train_en_fold3.txt
+Training file la: ../training_data_original/train_la_fold3.txt
+Testing file en: ../testing_data_len10/test_en_fold3_length10.txt
+Testing file la: ../testing_data_len10/test_la_fold3_length10.txt
+### FOLD 3 ###
+Out of 20 English sentences, 0 were misclassified as Latin.
+Out of 44 Latin sentences, 0 were misclassified as English.
+Balanced accuracy of fold 3: 1.0
+Training file en: ../training_data_original/train_en_fold4.txt
+Training file la: ../training_data_original/train_la_fold4.txt
+Testing file en: ../testing_data_len10/test_en_fold4_length10.txt
+Testing file la: ../testing_data_len10/test_la_fold4_length10.txt
+### FOLD 4 ###
+Out of 20 English sentences, 0 were misclassified as Latin.
+Out of 43 Latin sentences, 0 were misclassified as English.
+Balanced accuracy of fold 4: 1.0
+Training file en: ../training_data_original/train_en_fold5.txt
+Training file la: ../training_data_original/train_la_fold5.txt
+Testing file en: ../testing_data_len10/test_en_fold5_length10.txt
+Testing file la: ../testing_data_len10/test_la_fold5_length10.txt
+### FOLD 5 ###
+Out of 20 English sentences, 2 were misclassified as Latin.
+Out of 43 Latin sentences, 1 were misclassified as English.
+Balanced accuracy of fold 5: 0.9383720930232557
+Mean balanced accuracy of Furl ngram model on sequences of ~= 10 characters: 0.9665705225007551
+Standard deviation of Furl ngram model on sequences of ~= 10 characters: 0.029651661241170035

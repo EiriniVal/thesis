@@ -103,7 +103,7 @@ def k_fold_val(train_directory, test_directory, folds):
                 if f"fold{f}" in str(path):
                     # get en lines
                     with open(path, "r") as infile:
-                        if "en" in str(path):
+                        if "_en_" in str(path):
                             en_lines = infile.readlines()
                             print(f"Training file en: {path}")
                         else:
@@ -129,16 +129,14 @@ def k_fold_val(train_directory, test_directory, folds):
                             filename_la = testpath.name
                             print(f"Testing file la: {testpath}")
 
-        # prediction for EN
-        y_pred_en = predict(identifier, en_testlines, f, filename_en)
-
         print(f"### FOLD {f} ###")
 
+        # prediction for EN
+        y_pred_en = predict(identifier, en_testlines, f, filename_en)
         print(f"Out of {len(y_real_en)} English sentences, {y_pred_en.count(1)} were misclassified as Latin.")
 
         # prediction for LA
         y_pred_la = predict(identifier, la_testlines, f, filename_la)
-
         print(f"Out of {len(y_real_la)} Latin sentences, {y_pred_la.count(0)} were misclassified as English.")
 
         # get all values
@@ -146,7 +144,7 @@ def k_fold_val(train_directory, test_directory, folds):
         y_pred = y_pred_en + y_pred_la
 
         bal_acc = balanced_accuracy_score(y_real, y_pred)
-        print(f'Accuracy of fold {f}: {bal_acc}')
+        print(f'Balanced accuracy of fold {f}: {bal_acc}')
         bal_acc_all.append(bal_acc)
 
         f += 1
@@ -155,18 +153,25 @@ def k_fold_val(train_directory, test_directory, folds):
 
 
 def main():
+    print(f"###### TESTING FURL ON ORIGINAL DATA ######")
     mean_acc = util.compute_mean_std(k_fold_val("../training_data_original", "../testing_data_original", 5))
     print(f"Mean balanced accuracy of Furl ngram model on original data: {mean_acc[0]}")
     print(f"Standard deviation of Furl ngram model on original data: {mean_acc[1]}")
 
+    print(f"###### TESTING FURL ON DATA ~= 40 CHARACTERS ######")
+    # evaluate on data of approx. 40 characters, the training data remains the original dataset
     mean_acc_short = util.compute_mean_std(k_fold_val("../training_data_original", "../testing_data_len40", 5))
     print(f"Mean balanced accuracy of Furl ngram model on sequences of ~= 40 characters: {mean_acc_short[0]}")
     print(f"Standard deviation of Furl ngram model on sequences of ~= 40 characters: {mean_acc_short[1]}")
 
+    print(f"###### TESTING FURL ON DATA ~= 20 CHARACTERS ######")
+    # evaluate on data of approx. 20 characters, the training data remains the original dataset
     mean_acc_shorter = util.compute_mean_std(k_fold_val("../training_data_original", "../testing_data_len20", 5))
     print(f"Mean balanced accuracy of Furl ngram model on sequences of ~= 20 characters: {mean_acc_shorter[0]}")
     print(f"Standard deviation of Furl ngram model on on sequences of ~= 20 characters: {mean_acc_shorter[1]}")
 
+    print(f"###### TESTING FURL ON DATA ~= 10 CHARACTERS ######")
+    # evaluate on data of approx. 10 characters, the training data remains the original dataset
     mean_acc_shortest = util.compute_mean_std(k_fold_val("../training_data_original", "../testing_data_len10", 5))
     print(f"Mean balanced accuracy of Furl ngram model on sequences of ~= 10 characters: {mean_acc_shortest[0]}")
     print(f"Standard deviation of Furl ngram model on sequences of ~= 10 characters: {mean_acc_shortest[1]}")
