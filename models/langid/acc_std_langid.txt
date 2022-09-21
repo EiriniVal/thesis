@@ -1,132 +1,208 @@
 ###### TESTING LANGID ON ORIGINAL DATA ######
+
+
+### FOLD 1 ###
+
 Testing file en: ../testing_data_original/test_en_fold1.txt
 Testing file la: ../testing_data_original/test_la_fold1.txt
-### FOLD 1 ###
 Out of 21 English sentences, 1 were misclassified as Latin.
 Out of 44 Latin sentences, 19 were misclassified as English.
 Balanced accuracy of fold 1: 0.7602813852813852
+
+### FOLD 2 ###
+
 Testing file en: ../testing_data_original/test_en_fold2.txt
 Testing file la: ../testing_data_original/test_la_fold2.txt
-### FOLD 2 ###
 Out of 21 English sentences, 2 were misclassified as Latin.
 Out of 44 Latin sentences, 19 were misclassified as English.
 Balanced accuracy of fold 2: 0.7364718614718615
+
+### FOLD 3 ###
+
 Testing file en: ../testing_data_original/test_en_fold3.txt
 Testing file la: ../testing_data_original/test_la_fold3.txt
-### FOLD 3 ###
 Out of 20 English sentences, 1 were misclassified as Latin.
 Out of 44 Latin sentences, 19 were misclassified as English.
 Balanced accuracy of fold 3: 0.759090909090909
+
+### FOLD 4 ###
+
 Testing file en: ../testing_data_original/test_en_fold4.txt
 Testing file la: ../testing_data_original/test_la_fold4.txt
-### FOLD 4 ###
 Out of 20 English sentences, 0 were misclassified as Latin.
 Out of 43 Latin sentences, 20 were misclassified as English.
 Balanced accuracy of fold 4: 0.7674418604651163
+
+### FOLD 5 ###
+
 Testing file en: ../testing_data_original/test_en_fold5.txt
 Testing file la: ../testing_data_original/test_la_fold5.txt
-### FOLD 5 ###
 Out of 20 English sentences, 1 were misclassified as Latin.
 Out of 43 Latin sentences, 22 were misclassified as English.
 Balanced accuracy of fold 5: 0.7191860465116279
+
+              GOLD LA  GOLD EN
+PREDICTED LA      119        5
+PREDICTED EN       99       97
+
+
 Mean balanced accuracy of Langid (Lui et al., 2012) model on data of various lengths: 0.74849441256418
 Standard deviation of Langid (Lui et al., 2012) model on data of various lengths: 0.01796522363831642
+
+
 ###### TESTING LANGID ON DATA ~= 40 CHARACTERS ######
+
+
+### FOLD 1 ###
+
 Testing file en: ../testing_data_len40/test_en_fold1_length40.txt
 Testing file la: ../testing_data_len40/test_la_fold1_length40.txt
-### FOLD 1 ###
 Out of 17 English sentences, 2 were misclassified as Latin.
 Out of 24 Latin sentences, 8 were misclassified as English.
 Balanced accuracy of fold 1: 0.7745098039215685
+
+### FOLD 2 ###
+
 Testing file en: ../testing_data_len40/test_en_fold2_length40.txt
 Testing file la: ../testing_data_len40/test_la_fold2_length40.txt
-### FOLD 2 ###
 Out of 18 English sentences, 2 were misclassified as Latin.
 Out of 27 Latin sentences, 7 were misclassified as English.
 Balanced accuracy of fold 2: 0.8148148148148148
+
+### FOLD 3 ###
+
 Testing file en: ../testing_data_len40/test_en_fold3_length40.txt
 Testing file la: ../testing_data_len40/test_la_fold3_length40.txt
-### FOLD 3 ###
 Out of 16 English sentences, 1 were misclassified as Latin.
 Out of 22 Latin sentences, 6 were misclassified as English.
 Balanced accuracy of fold 3: 0.8323863636363636
+
+### FOLD 4 ###
+
 Testing file en: ../testing_data_len40/test_en_fold4_length40.txt
 Testing file la: ../testing_data_len40/test_la_fold4_length40.txt
-### FOLD 4 ###
 Out of 18 English sentences, 1 were misclassified as Latin.
 Out of 20 Latin sentences, 7 were misclassified as English.
 Balanced accuracy of fold 4: 0.7972222222222223
+
+### FOLD 5 ###
+
 Testing file en: ../testing_data_len40/test_en_fold5_length40.txt
 Testing file la: ../testing_data_len40/test_la_fold5_length40.txt
-### FOLD 5 ###
 Out of 17 English sentences, 3 were misclassified as Latin.
 Out of 22 Latin sentences, 7 were misclassified as English.
 Balanced accuracy of fold 5: 0.7526737967914439
+
+              GOLD LA  GOLD EN
+PREDICTED LA       80        9
+PREDICTED EN       35       77
+
+
 Mean balanced accuracy of Langid (Lui et al., 2012) model on short data: 0.7943214002772827
 Standard deviation of Langid (Lui et al., 2012) model on short data: 0.02829967656764632
+
+
 ###### TESTING LANGID ON DATA ~= 20 CHARACTERS ######
+
+
+### FOLD 1 ###
+
 Testing file en: ../testing_data_len20/test_en_fold1_length20.txt
 Testing file la: ../testing_data_len20/test_la_fold1_length20.txt
-### FOLD 1 ###
 Out of 21 English sentences, 1 were misclassified as Latin.
 Out of 39 Latin sentences, 27 were misclassified as English.
 Balanced accuracy of fold 1: 0.63003663003663
+
+### FOLD 2 ###
+
 Testing file en: ../testing_data_len20/test_en_fold2_length20.txt
 Testing file la: ../testing_data_len20/test_la_fold2_length20.txt
-### FOLD 2 ###
 Out of 21 English sentences, 2 were misclassified as Latin.
 Out of 37 Latin sentences, 26 were misclassified as English.
 Balanced accuracy of fold 2: 0.601029601029601
+
+### FOLD 3 ###
+
 Testing file en: ../testing_data_len20/test_en_fold3_length20.txt
 Testing file la: ../testing_data_len20/test_la_fold3_length20.txt
-### FOLD 3 ###
 Out of 20 English sentences, 2 were misclassified as Latin.
 Out of 37 Latin sentences, 25 were misclassified as English.
 Balanced accuracy of fold 3: 0.6121621621621622
+
+### FOLD 4 ###
+
 Testing file en: ../testing_data_len20/test_en_fold4_length20.txt
 Testing file la: ../testing_data_len20/test_la_fold4_length20.txt
-### FOLD 4 ###
 Out of 19 English sentences, 1 were misclassified as Latin.
 Out of 36 Latin sentences, 22 were misclassified as English.
 Balanced accuracy of fold 4: 0.6681286549707602
+
+### FOLD 5 ###
+
 Testing file en: ../testing_data_len20/test_en_fold5_length20.txt
 Testing file la: ../testing_data_len20/test_la_fold5_length20.txt
-### FOLD 5 ###
 Out of 20 English sentences, 3 were misclassified as Latin.
 Out of 35 Latin sentences, 31 were misclassified as English.
 Balanced accuracy of fold 5: 0.48214285714285715
+
+              GOLD LA  GOLD EN
+PREDICTED LA       53        9
+PREDICTED EN      131       92
+
+
 Mean balanced accuracy of Langid (Lui et al., 2012) model on shorter data: 0.5986999810684022
 Standard deviation of Langid (Lui et al., 2012) model on shorter data: 0.06256923671447108
+
+
 ###### TESTING LANGID ON DATA ~= 10 CHARACTERS ######
+
+
+### FOLD 1 ###
+
 Testing file en: ../testing_data_len10/test_en_fold1_length10.txt
 Testing file la: ../testing_data_len10/test_la_fold1_length10.txt
-### FOLD 1 ###
 Out of 21 English sentences, 1 were misclassified as Latin.
 Out of 44 Latin sentences, 43 were misclassified as English.
 Balanced accuracy of fold 1: 0.4875541125541125
+
+### FOLD 2 ###
+
 Testing file en: ../testing_data_len10/test_en_fold2_length10.txt
 Testing file la: ../testing_data_len10/test_la_fold2_length10.txt
-### FOLD 2 ###
 Out of 21 English sentences, 2 were misclassified as Latin.
 Out of 44 Latin sentences, 43 were misclassified as English.
 Balanced accuracy of fold 2: 0.46374458874458874
+
+### FOLD 3 ###
+
 Testing file en: ../testing_data_len10/test_en_fold3_length10.txt
 Testing file la: ../testing_data_len10/test_la_fold3_length10.txt
-### FOLD 3 ###
 Out of 20 English sentences, 1 were misclassified as Latin.
 Out of 44 Latin sentences, 41 were misclassified as English.
 Balanced accuracy of fold 3: 0.509090909090909
+
+### FOLD 4 ###
+
 Testing file en: ../testing_data_len10/test_en_fold4_length10.txt
 Testing file la: ../testing_data_len10/test_la_fold4_length10.txt
-### FOLD 4 ###
 Out of 20 English sentences, 1 were misclassified as Latin.
 Out of 43 Latin sentences, 40 were misclassified as English.
 Balanced accuracy of fold 4: 0.5098837209302325
+
+### FOLD 5 ###
+
 Testing file en: ../testing_data_len10/test_en_fold5_length10.txt
 Testing file la: ../testing_data_len10/test_la_fold5_length10.txt
-### FOLD 5 ###
 Out of 20 English sentences, 2 were misclassified as Latin.
 Out of 43 Latin sentences, 40 were misclassified as English.
 Balanced accuracy of fold 5: 0.4848837209302326
+
+              GOLD LA  GOLD EN
+PREDICTED LA       11        7
+PREDICTED EN      207       95
+
+
 Mean balanced accuracy of Langid (Lui et al., 2012) model on shortest data: 0.491031410450015
 Standard deviation of Langid (Lui et al., 2012) model on shortest data: 0.017181451786593496
+
+

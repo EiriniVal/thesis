@@ -32,8 +32,20 @@ def validate_model(test_directory, folds):
     :return:
     """
     bal_acc_all = []
+    # POSITIVE CLASS IS 1, LA
+    # true positives = real value and pred value is 1 (LA)
+    tp = 0
+    # true negatives = real value and pred value is 0 (EN)
+    tn = 0
+    # false positives = real value is 0 (EN) and pred value is 1 (LA)
+    fp = 0
+    # false negatives = real value is 1 (LA) and pred value is 0 (EN)
+    fn = 0
     f = 1
     while f <= folds:
+
+        print(f"\n### FOLD {f} ###\n")
+
         for testpath in pathlib.Path(test_directory).iterdir():
             if testpath.is_file():
                 if f"fold{f}" in str(testpath):
@@ -50,7 +62,6 @@ def validate_model(test_directory, folds):
                             filename_la = testpath.name
                             print(f"Testing file la: {testpath}")
 
-        print(f"### FOLD {f} ###")
 
         # prediction for EN
         y_pred_en = langid_predict(en_testlines, filename_en)
@@ -68,31 +79,40 @@ def validate_model(test_directory, folds):
         print(f'Balanced accuracy of fold {f}: {bal_acc}')
         bal_acc_all.append(bal_acc)
 
+        tp += y_pred_la.count(1)
+        tn += y_pred_en.count(0)
+
+        fp += y_pred_en.count(1)
+        fn += y_pred_la.count(0)
+
         f += 1
+
+    # GENERATE TABLE
+    print(f"\n{util.make_cross_val_table(tp, tn, fp, fn)}\n")
 
     return bal_acc_all
 
 
 def main():
-    print(f"###### TESTING LANGID ON ORIGINAL DATA ######")
+    print("###### TESTING LANGID ON ORIGINAL DATA ######\n")
     mean_acc = util.compute_mean_std(validate_model("../testing_data_original", 5))
-    print(f"Mean balanced accuracy of Langid (Lui et al., 2012) model on data of various lengths: {mean_acc[0]}")
-    print(f"Standard deviation of Langid (Lui et al., 2012) model on data of various lengths: {mean_acc[1]}")
+    print(f"\nMean balanced accuracy of Langid (Lui et al., 2012) model on data of various lengths: {mean_acc[0]}")
+    print(f"Standard deviation of Langid (Lui et al., 2012) model on data of various lengths: {mean_acc[1]}\n\n")
 
-    print(f"###### TESTING LANGID ON DATA ~= 40 CHARACTERS ######")
+    print(f"###### TESTING LANGID ON DATA ~= 40 CHARACTERS ######\n")
     mean_acc_short = util.compute_mean_std(validate_model("../testing_data_len40", 5))
-    print(f"Mean balanced accuracy of Langid (Lui et al., 2012) model on short data: {mean_acc_short[0]}")
-    print(f"Standard deviation of Langid (Lui et al., 2012) model on short data: {mean_acc_short[1]}")
+    print(f"\nMean balanced accuracy of Langid (Lui et al., 2012) model on short data: {mean_acc_short[0]}")
+    print(f"Standard deviation of Langid (Lui et al., 2012) model on short data: {mean_acc_short[1]}\n\n")
 
-    print(f"###### TESTING LANGID ON DATA ~= 20 CHARACTERS ######")
+    print(f"###### TESTING LANGID ON DATA ~= 20 CHARACTERS ######\n")
     mean_acc_shorter = util.compute_mean_std(validate_model("../testing_data_len20", 5))
-    print(f"Mean balanced accuracy of Langid (Lui et al., 2012) model on shorter data: {mean_acc_shorter[0]}")
-    print(f"Standard deviation of Langid (Lui et al., 2012) model on shorter data: {mean_acc_shorter[1]}")
+    print(f"\nMean balanced accuracy of Langid (Lui et al., 2012) model on shorter data: {mean_acc_shorter[0]}")
+    print(f"Standard deviation of Langid (Lui et al., 2012) model on shorter data: {mean_acc_shorter[1]}\n\n")
 
-    print(f"###### TESTING LANGID ON DATA ~= 10 CHARACTERS ######")
+    print(f"###### TESTING LANGID ON DATA ~= 10 CHARACTERS ######\n")
     mean_acc_shortest = util.compute_mean_std(validate_model("../testing_data_len10", 5))
-    print(f"Mean balanced accuracy of Langid (Lui et al., 2012) model on shortest data: {mean_acc_shortest[0]}")
-    print(f"Standard deviation of Langid (Lui et al., 2012) model on shortest data: {mean_acc_shortest[1]}")
+    print(f"\nMean balanced accuracy of Langid (Lui et al., 2012) model on shortest data: {mean_acc_shortest[0]}")
+    print(f"Standard deviation of Langid (Lui et al., 2012) model on shortest data: {mean_acc_shortest[1]}\n\n")
 
 
 if __name__ == '__main__':

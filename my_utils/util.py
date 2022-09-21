@@ -1,9 +1,11 @@
 # Author: Eirini Valkana
 import numpy as np
 import sys
+import pandas as pd
 import os
 from sklearn.model_selection import train_test_split, cross_val_score, KFold, ShuffleSplit
 from models.furl.identifier import LanguageIdentifier
+from sklearn.metrics import confusion_matrix
 from models.furl.charlm import CharLM
 from math import isclose
 
@@ -186,6 +188,15 @@ def change_length(length: int, infile_path):
                     if length < len(line):
                         outfile.write(line[:length]+"\n")
     return outfile_path
+
+
+def make_cross_val_table(tp, tn, fp, fn):
+    data = {"GOLD LA": [tp, fn],
+            "GOLD EN": [fp, tn]}
+    df = pd.DataFrame(data)
+    df.index = ["PREDICTED LA", "PREDICTED EN"]
+    df.style.set_properties(**{'border': '1px black solid !important'})
+    return df
 
 
 def open_read_lines(filepath):
