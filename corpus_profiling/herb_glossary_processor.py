@@ -105,7 +105,7 @@ def get_dict_from_herb_glossary(filename):
                     for n_e, v_e in zip(en_var_names, english_versions):
                         herb_dict[herb_id][n_e] = v_e
 
-            herb_id += 1
+                herb_id += 1
 
     json_glossary = json.dumps(herb_dict, sort_keys=True, indent=4, ensure_ascii=False)
     print(json_glossary)
