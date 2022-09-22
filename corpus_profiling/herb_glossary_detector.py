@@ -16,6 +16,8 @@ import argparse
 import pathlib
 import requests
 import json
+import xml.etree.ElementTree as ET
+import subprocess
 
 # parser = argparse.ArgumentParser(description='Find herbs from 14th century Herb Glossary in Middle English texts.')
 # parser.add_argument('--herb_glossary', type=dict,
@@ -42,12 +44,20 @@ def open_read_json(path_to_file):
 herbs_dict = open_read_json("../data/herb_glossary.json")
 
 
-# def check_if_herb(path_to_file):
-#     with open(path_to_file)
-#     for index, versions in herbs_dict.items():
-#         for version, word in versions.items():
-#
+def check_if_herb(path_to_file):
+    root = ET.parse(path_to_file)
+    for index, versions in herbs_dict.items():
+        for version, word in versions.items():
+            # search = root.findall(".//token/[text='betonie']")
+            p = subprocess.call(['grep', '>'+word+'<', path_to_file])
 
+    print(p)
+    # some words in eng refer to two different herbs in LA. so the xml token elements may have more than one herb ids
+
+
+
+
+check_if_herb("../data/MIDDLE-MODERN-ENGLISH-MEDICAL-CORPUS-Copy/02_EMEMT_Corpus/Category 2d/1636_Sadler_SickWomansLookingglasse.xml")
 
 
 
