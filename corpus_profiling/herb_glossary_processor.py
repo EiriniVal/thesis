@@ -6,6 +6,24 @@ from collections import defaultdict
 import json
 
 
+def generate_variable_names(num_var, lang_code):
+    i = 1
+    variable_names = []
+    while i <= num_var:
+        name = f"{lang_code}_v{i}"
+        variable_names.append(name)
+        i += 1
+
+    return variable_names
+
+
+def generate_versions_list(line):
+    if re.search(",|/", line):
+        return re.split(r",\s?|\s?/\s?", line)
+    else:
+        return [line]
+
+
 def get_dict_from_herb_glossary(filename):
     """
     function that removes annotations from the herb glossary and writes the information in a json format file
@@ -13,6 +31,8 @@ def get_dict_from_herb_glossary(filename):
     :return: json file
     """
     herb_dict = defaultdict(dict)
+    latin_v2 = ""
+    herb_id = 1
     # patterns that denote annotations by the transcribers
     replacements = [
         (r"\s\n", ""),
@@ -34,24 +54,64 @@ def get_dict_from_herb_glossary(filename):
             # print(line, "The line is not empty")
             for old, new in replacements:
                 line = re.sub(old, new, line)
-            if len(line.strip()):
-                # print(line.strip())
                 line = line.strip()
-                line = re.split(": |, |- ", line)
-                # print(line)
-                for word in line[1:]:
-                    if word.startswith("gall.") and re.sub("gall\.\s?", "", word) != "":
-                        herb_dict[line[0]]["fr"] = re.sub("gall\. ", "", word)
-                    elif re.match("angl?\.\s?", word) and re.sub("angl?\.\s?", "", word) != "":
-                        herb_dict[line[0]]["en"] = re.sub("angl?\.\s?", "", word)
-                    else:
-                        herb_dict[line[0]]
+            if len(line):
+                line_split = re.split(": ", line)
+
+                # GET LATIN INFO
+                latin = line_split[0]
+                # if latin has more than one words e.g. "Accorum, affrodisia: angl. lavre"
+                if re.search(",|/", latin):
+                    la_var_names = generate_variable_names(len(re.split(r",\s?|\s?/\s?", latin)), "Latin")
+                    latin_versions = generate_versions_list(latin)
+                else:
+                    la_var_names = generate_variable_names(1, "Latin")
+                    latin_versions = [latin]
+
+                # n is the name of the variable that denotes the language, v is the word itself
+                for n, v in zip(la_var_names, latin_versions):
+                    herb_dict[herb_id][n] = v
+
+                # if original line has information on English and French and not only on Latin
+                if len(line_split) != 1:
+                    eng_fr = line_split[1]
+                    # GET ENGLISH INFO
+                    # split on angl. and get word
+                    eng_fr_split = re.split(r"angl?\.\s?", eng_fr)
+                    # print(eng_fr_split)
+                    if eng_fr_split[0] != "":
+                        # ['gall. lavendre, ', '']
+                        # ['gall. -, '']
+                        # ['', 'hemelok']
+                        # ['', '']
+                        if "gall." in eng_fr_split[0]:
+                            # print(eng_fr_split[0])
+                            french_version = re.sub(r"gall\.\s?", "", eng_fr_split[0])
+                            if french_version != "- ":
+                                french_version = re.sub(r",\s?", "", french_version)
+
+                                herb_dict[herb_id]["French"] = french_version
+
+                    # GET ENGLISH INFO
+                    if eng_fr_split[1] != "":
+                        english = eng_fr_split[1]
+                        if re.search(",|/", english):
+                            en_var_names = generate_variable_names(len(re.split(r",\s?|\s?/\s?", english)), "English")
+                            english_versions = generate_versions_list(english)
+                        else:
+                            en_var_names = generate_variable_names(1, "English")
+                            english_versions = [english]
+
+                    for n_e, v_e in zip(en_var_names, english_versions):
+                        herb_dict[herb_id][n_e] = v_e
+
+            herb_id += 1
 
     json_glossary = json.dumps(herb_dict, sort_keys=True, indent=4, ensure_ascii=False)
     print(json_glossary)
-    with open("data/herb_glossary.json", "w") as outfile:
+    with open("../data/herb_glossary.json", "w") as outfile:
         outfile.write(json_glossary)
 
 
-get_dict_from_herb_glossary("data/trilingual_herb_glossary_converted.txt")
+get_dict_from_herb_glossary("../data/trilingual_herb_glossary_converted.txt")
 
