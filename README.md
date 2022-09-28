@@ -3,7 +3,8 @@
 ## Activate Environment
 
 ## Pre-processing
-
+- xml_text_converter.py
+- profiler
 ## Language Identification Models
 
 ## Code-switching Detection

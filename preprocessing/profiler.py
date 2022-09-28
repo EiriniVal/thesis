@@ -178,7 +178,7 @@ def corpus_profiling():
     vocab_strict_3 = set()
     vocab_strict_total = set()
 
-    for root, dirs, files in os.walk("./data/MIDDLE-MODERN-ENGLISH-MEDICAL-CORPUS-Copy/", topdown=False):
+    for root, dirs, files in os.walk("../data/MIDDLE-MODERN-ENGLISH-MEDICAL-CORPUS-Copy/", topdown=False):
         for name in files:
             infile = os.path.join(root, name)
             token_counter, type_counter, vocab, old_alphabet, roman_numerals, scribal_abbrev, year_info, numbers, vocab_no_numbers, vocab_strict = get_vocab_counts(
@@ -244,57 +244,57 @@ def main():
     df, vocab_total, vocab_corpus1, vocab_corpus2, vocab_corpus3, vocab_nonum_total, vocab_nonum_1, vocab_nonum_2, vocab_nonum_3, vocab_strict_total, vocab_strict_1, vocab_strict_2, vocab_strict_3 = corpus_profiling()
 
     # write dataframe to csv
-    os.makedirs('./corpus_profiling', exist_ok=True)
-    df.to_csv('./corpus_profiling/corpus_data.csv')
+    os.makedirs('../corpus_profiling', exist_ok=True)
+    df.to_csv('../corpus_profiling/corpus_data.csv')
 
-    os.makedirs('./vocabulary', exist_ok=True)
+    os.makedirs('../vocabulary', exist_ok=True)
 
     # write vocabularies in files
-    with open('./vocabulary/vocab_total.txt', "w") as out:
+    with open('../vocabulary/vocab_total.txt', "w") as out:
         for elem in vocab_total:
             out.write(elem + "\n")
 
-    with open('./vocabulary/vocab_corpus1.txt', "w") as out1:
+    with open('../vocabulary/vocab_corpus1.txt', "w") as out1:
         for elem in vocab_corpus1:
             out1.write(elem + "\n")
 
-    with open('./vocabulary/vocab_corpus2.txt', "w") as out2:
+    with open('../vocabulary/vocab_corpus2.txt', "w") as out2:
         for elem in vocab_corpus2:
             out2.write(elem + "\n")
 
-    with open('./vocabulary/vocab_corpus3.txt', "w") as out3:
+    with open('../vocabulary/vocab_corpus3.txt', "w") as out3:
         for elem in vocab_corpus3:
             out3.write(elem + "\n")
 
-    with open('./vocabulary/vocab_nonum_total.txt', "w") as out4:
+    with open('../vocabulary/vocab_nonum_total.txt', "w") as out4:
         for elem in vocab_nonum_total:
             out4.write(elem + "\n")
 
-    with open('./vocabulary/vocab_nonum_corpus1.txt', "w") as out5:
+    with open('../vocabulary/vocab_nonum_corpus1.txt', "w") as out5:
         for elem in vocab_nonum_1:
             out5.write(elem + "\n")
 
-    with open('./vocabulary/vocab_nonum_corpus2.txt', "w") as out6:
+    with open('../vocabulary/vocab_nonum_corpus2.txt', "w") as out6:
         for elem in vocab_nonum_2:
             out6.write(elem + "\n")
 
-    with open('./vocabulary/vocab_nonum_corpus3.txt', "w") as out7:
+    with open('../vocabulary/vocab_nonum_corpus3.txt', "w") as out7:
         for elem in vocab_nonum_3:
             out7.write(elem + "\n")
 
-    with open('./vocabulary/vocab_strict_total.txt', "w") as out8:
+    with open('../vocabulary/vocab_strict_total.txt', "w") as out8:
         for elem in vocab_strict_total:
             out8.write(elem + "\n")
 
-    with open('./vocabulary/vocab_strict_corpus1.txt', "w") as out9:
+    with open('../vocabulary/vocab_strict_corpus1.txt', "w") as out9:
         for elem in vocab_strict_1:
             out9.write(elem + "\n")
 
-    with open('./vocabulary/vocab_strict_corpus2.txt', "w") as out10:
+    with open('../vocabulary/vocab_strict_corpus2.txt', "w") as out10:
         for elem in vocab_strict_2:
             out10.write(elem + "\n")
 
-    with open('./vocabulary/vocab_strict_corpus3.txt', "w") as out11:
+    with open('../vocabulary/vocab_strict_corpus3.txt', "w") as out11:
         for elem in vocab_strict_3:
             out11.write(elem + "\n")
 
