@@ -5,7 +5,7 @@ import pandas as pd
 import os
 
 
-df = pd.read_csv("corpus_data.csv")
+df = pd.read_csv("./corpus_data.csv")
 
 df2 = df.groupby(['sub_corpus'])[['tokens', 'roman_numerals_counts', 'scribal_abbrev_counts', 'old_alphabet_counts', 'numbers']].sum()
 

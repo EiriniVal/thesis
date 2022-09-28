@@ -5,7 +5,7 @@ import subprocess
 
 counts_dict = {}
 
-for root, dirs, files in os.walk("./vocabulary", topdown=False):
+for root, dirs, files in os.walk("../vocabulary", topdown=False):
     for name in files:
         infile = os.path.join(root, name)
         # get line counts, aka type counts from each vocab file
@@ -14,7 +14,7 @@ for root, dirs, files in os.walk("./vocabulary", topdown=False):
 
 print(counts_dict)
 
-corpus_data = pd.read_csv("corpus_profiling/corpus_data.csv")
+corpus_data = pd.read_csv("./corpus_data.csv")
 
 # get vocabulary data
 
@@ -56,4 +56,4 @@ df3.loc["Total", "types_strict"] = vocab_strict
 
 
 # write table with tokens and types counts only for sub-corpora and the whole corpus
-df3.to_csv('./corpus_profiling/corpus_tokens_types.csv')
+df3.to_csv('./corpus_tokens_types.csv')
