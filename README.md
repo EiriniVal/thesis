@@ -4,7 +4,9 @@
 
 ## Pre-processing
 - xml_text_converter.py
-- profiler
+- profiler.py
+- create_token_type_table.py
+- plot_creator.py
 ## Language Identification Models
 
 ## Code-switching Detection
