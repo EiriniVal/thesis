@@ -38,9 +38,11 @@ def main():
                         # print(sent_id)
                         sentence_string = ""
                         for child in element:
-                            if child.tag == "token":
-                                # remove tokens with only digits
-                                if not child.text.isdecimal():
+                            # make sure it is not a roman numeral
+                            if child.tag == "token" and child.get("rom_num") != "True":
+                                # remove digits from tokens
+                                child.text = ''.join(i for i in child.text if not i.isdigit())
+                                if child.text != "":
                                     sentence_string += f"{child.text} "
                         # print(sent_id, "\t", sentence_string)
 
