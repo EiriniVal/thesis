@@ -34,7 +34,7 @@ def filter_lexicon(dict_to_filter, comp_dict, freq_difference):
     return new_dict
 
 
-def main():
+def get_lexica():
     en_dict = get_types_freq_dict("./agree_sent_en.txt")
     la_dict = get_types_freq_dict("./agree_sent_la.txt")
     # print(en_dict)
@@ -46,5 +46,13 @@ def main():
     print(f"Length of unfiltered lexica:\n EN: {len(en_dict)},\n LA: {len(la_dict)}\n\n Length of filtered lexica:\n "
           f"EN: {len(en_filtered)},\n LA: {len(la_filtered)}")
 
+    return en_filtered, la_filtered
 
-main()
+
+def main():
+    get_lexica()
+
+
+if __name__ == main():
+    main()
+
