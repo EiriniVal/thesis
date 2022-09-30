@@ -15,6 +15,7 @@ import os
 import xml.etree.ElementTree as ET
 import langid
 import re
+from string import digits
 
 # determine the languages we're interested in
 langid.set_languages(['en', 'la'])
@@ -27,7 +28,7 @@ def main():
         for root, dirs, files in os.walk("./data/MIDDLE-MODERN-ENGLISH-MEDICAL-CORPUS-Copy/", topdown=False):
             for name in files:
                 infile = os.path.join(root, name)
-                print(infile)
+                # print(infile)
                 # parse xml file
                 tree = ET.parse(infile)
                 tree_root = tree.getroot()
@@ -41,9 +42,12 @@ def main():
                             # make sure it is not a roman numeral
                             if child.tag == "token" and child.get("rom_num") != "True":
                                 # remove digits from tokens
-                                child.text = ''.join(i for i in child.text if not i.isdigit())
+                                child.text = ''.join(i for i in child.text if not i.isnumeric() or i == "3")
+                                # print(child.text)
                                 if child.text != "":
-                                    sentence_string += f"{child.text} "
+                                    if child.text != "3":
+                                        # TODO for some unknown reason some 3s are still left
+                                        sentence_string += f"{child.text} "
                         # print(sent_id, "\t", sentence_string)
 
                         # clean string from punctuation except ~ and =
@@ -61,14 +65,15 @@ def main():
                                 # print(pred_lang_langid.upper(), pred_lang_furl)
                                 # print(sentence_string)
 
-                                out_en.write(sentence_string + "\n")
+                                out_en.write(infile + "\t" + sent_id + "\t" + sentence_string + "\n")
 
                             else:
 
-                                print(pred_lang_langid.upper(), pred_lang_furl)
-                                print(sentence_string)
-                                out_la.write(sentence_string + "\n")
+                                # print(pred_lang_langid.upper(), pred_lang_furl)
+                                # print(sentence_string)
+                                out_la.write(infile + "\t" + sent_id + "\t" + sentence_string + "\n")
                         else:
                             continue
+
 
 main()
