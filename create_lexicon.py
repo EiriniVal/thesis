@@ -51,7 +51,7 @@ def filter_lexicon(dict_to_filter, comp_dict, freq_difference):
     return new_dict
 
 
-def get_lexica():
+def get_lexica_with_bible():
     en_dict = get_types_freq_dict("./agree_sent_en.txt")
     la_dict = get_types_freq_dict("./agree_sent_la.txt", parse_extra_latin_xml_file("https://raw.githubusercontent.com/christos-c/bible-corpus/master/bibles/Latin.xml", "seg", "latin_bible_sentences.txt"))
     # print(en_dict)

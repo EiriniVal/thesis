@@ -1,33 +1,9 @@
 # Author: Eirini Valkana
 # !/usr/bin/python
 
-# script.py --herb_glossary [default is the trilingual one, DICT] --input files or file [if files then]
-# --outfile
-
-# get stats: out of all herbs in the glossary how many in Latin, English, French?
-# filename, token id, herb, language ---> csv + printing
-
-# get stats
-# herb_name, language, number of instances ---> csv outfile
-# out of all herbs detected, how many in Latin, English, French?
-# print(language_stats: Latin, French, English)
-
-import argparse
-import pathlib
-import requests
+import os
 import json
 import xml.etree.ElementTree as ET
-import subprocess
-
-# parser = argparse.ArgumentParser(description='Find herbs from 14th century Herb Glossary in Middle English texts.')
-# parser.add_argument('--herb_glossary', type=dict,
-#                     help=' A dict of dicts with herbs and their corresponding names in other languages')
-# parser.add_argument('--input', type=pathlib.Path,
-#                     help='path to the input file(s)')
-# parser.add_argument('--output',
-#                     help='name of the output csv file')
-#
-# args = parser.parse_args()
 
 
 def jprint(obj):
@@ -43,23 +19,55 @@ def open_read_json(path_to_file):
 
 herbs_dict = open_read_json("../data/herb_glossary.json")
 
-
-def check_if_herb(path_to_file):
-    root = ET.parse(path_to_file)
-    for index, versions in herbs_dict.items():
-        for version, word in versions.items():
-            # search = root.findall(".//token/[text='betonie']")
-            p = subprocess.call(['grep', '>'+word+'<', path_to_file])
-
-    print(p)
-    # some words in eng refer to two different herbs in LA. so the xml token elements may have more than one herb ids
+# print(herbs_dict)
 
 
+def get_herb_id(token):
+    herb_id = ""
+    lang_id = ""
+    for id, lang_versions in herbs_dict.items():
+        for lang, herb_name in lang_versions.items():
+            # every herb in the glossary is lowercased, therefore we should also lowercase the tokens
+            if token.lower() == herb_name:
+                # print(herb_id, lang)
+                if "Latin" in lang:
+                    lang_id = "LA"
+                elif "English" in lang:
+                    lang_id = "EN"
+                elif "French" in lang:
+                    lang_id = "FR"
+                herb_id = id
+                #  a token may have more than one herb ids, e.g. "walewort", but for simplification reasons we are only
+                #  keeping one id
+    return herb_id, lang_id
 
 
-check_if_herb("../data/MIDDLE-MODERN-ENGLISH-MEDICAL-CORPUS-Copy/02_EMEMT_Corpus/Category 2d/1636_Sadler_SickWomansLookingglasse.xml")
+def find_herbs_write_file(path_to_file):
+    tree = ET.parse(path_to_file)
+    tree_root = tree.getroot()
+    for element in tree_root.iter():
+        if element.tag == "token":
+            # if the token is a herb (if list is not empty)
+            herb_id, lang_id = get_herb_id(element.text.lower())
+            if herb_id != "" and lang_id != "":
+                element.attrib["herb_id"] = herb_id
+                element.attrib["lang_id"] = lang_id
+                print(herb_id, lang_id)
+
+    # update xml files with info related to special tokens
+    f = open(path_to_file, 'wb')
+    f.write(ET.tostring(tree_root, encoding='utf-8', xml_declaration=True))
+    f.close()
 
 
+def main():
+    for root, dirs, files in os.walk("../data/MIDDLE-MODERN-ENGLISH-MEDICAL-CORPUS-Copy/", topdown=False):
+        for name in files:
+            infile = os.path.join(root, name)
+            # update xml files with herb findings
+            find_herbs_write_file(infile)
 
 
+if '__name__' == main():
+    main()
 

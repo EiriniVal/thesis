@@ -70,7 +70,7 @@ def get_dict_from_herb_glossary(filename):
 
                 # n is the name of the variable that denotes the language, v is the word itself
                 for n, v in zip(la_var_names, latin_versions):
-                    herb_dict[herb_id][n] = v
+                    herb_dict[herb_id][n] = v.lower()
 
                 # if original line has information on English and French and not only on Latin
                 if len(line_split) != 1:
@@ -90,7 +90,7 @@ def get_dict_from_herb_glossary(filename):
                             if french_version != "- ":
                                 french_version = re.sub(r",\s?", "", french_version)
 
-                                herb_dict[herb_id]["French"] = french_version
+                                herb_dict[herb_id]["French"] = french_version.lower()
 
                     # GET ENGLISH INFO
                     if eng_fr_split[1] != "":
@@ -103,7 +103,7 @@ def get_dict_from_herb_glossary(filename):
                             english_versions = [english]
 
                     for n_e, v_e in zip(en_var_names, english_versions):
-                        herb_dict[herb_id][n_e] = v_e
+                        herb_dict[herb_id][n_e] = v_e.lower()
 
                 herb_id += 1
 

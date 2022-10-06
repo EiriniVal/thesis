@@ -1,11 +1,11 @@
 # Author: Eirini Valkana
 # search for Latin code-switches in English sentences file (agree_sent_en.txt)
 import xml.etree.ElementTree as ET
-from create_lexicon import get_lexica
+from create_lexicon import get_lexica_with_bible
 from itertools import groupby
 from operator import itemgetter
 
-en_filtered, la_filtered = get_lexica()
+en_filtered, la_filtered = get_lexica_with_bible()
 
 
 def identify_lang(token):
@@ -67,48 +67,6 @@ def detect_la_cs_in_en_sent(en_sentence):
     # (13, 'LA'), (14, 'LA'), (15, 'LA')], [(17, 'LA'), (18, 'LA'), (19, 'LA')]]
     # we get: [[(5, 'LA'), (15, 'LA')], [(17, 'LA'), (19, 'LA')]]
     return cs_sequences_per_sentence
-
-
-# def fake_detect_la_cs_in_en_sent(en_sentence):
-#     # tok1, tok2, tok3:
-#     token_id = 0
-#     ids_langs_dict = {}
-#     for token in en_sentence.split():
-#         token_lang = identify_lang(token)
-#         ids_langs_dict[token_id] = token_lang
-#         token_id += 1
-#
-#     mylist = list(ids_langs_dict.items())
-#     print(mylist)
-#
-#     # enumerated_dict = enumerate(mydict.items())
-#     # # print(enumerated_dict)
-#     la_indices_list = []
-#
-#     for index, element in enumerate(mylist):
-#         print(element)
-#         if element[1] == "LA":
-#             la_indices_list.append(index)
-#
-#     possible_cs = []
-#     for k, g in groupby(enumerate(la_indices_list), lambda ix: ix[0] - ix[1]):
-#         l = list(map(itemgetter(1), g))
-#         possible_cs.append(l)
-#
-#     print(possible_cs)  # e.g. [[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], [17, 18, 19]]
-#
-#     cs_sequences_per_sentence = []
-#     for element in possible_cs:
-#         if len(element) >= 2:
-#             print(element)  # true cs
-#             cs_sequence = [mylist[element[0]], mylist[element[-1]]]  # [(5, 'LA'), (6, 'LA'), (7, 'LA'), (8, 'LA'), (9, 'LA'), (10, 'LA'), (11, 'LA'), (12, 'LA'), (13, 'LA'), (14, 'LA'), (15, 'LA')]
-#             cs_sequences_per_sentence.append(cs_sequence)
-#     print(cs_sequences_per_sentence)
-#     # instead of saving the whole sequence save the start and end of the code-switch span
-#     # instead of [[(5, 'LA'), (6, 'LA'), (7, 'LA'), (8, 'LA'), (9, 'LA'), (10, 'LA'), (11, 'LA'), (12, 'LA'), (13, 'LA'), (14, 'LA'), (15, 'LA')], [(17, 'LA'), (18, 'LA'), (19, 'LA')]]
-#     # we get: [[(5, 'LA'), (15, 'LA')], [(17, 'LA'), (19, 'LA')]]
-
-# fake_detect_la_cs_in_en_sent("ffor the wise man seith  Sicut ad omne quod est mensuram ponere prodest  Sic sine mensura deperit omne quod est   As it profiteth to putte mesure to al")
 
 
 def get_sentences_from_xml_files():
