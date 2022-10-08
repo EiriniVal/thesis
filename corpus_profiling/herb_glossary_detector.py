@@ -21,7 +21,6 @@ herbs_dict = open_read_json("../data/herb_glossary.json")
 
 # print(herbs_dict)
 
-
 def get_herb_id(token):
     herb_id = ""
     lang_id = ""
