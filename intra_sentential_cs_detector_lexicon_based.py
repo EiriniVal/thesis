@@ -1,5 +1,6 @@
 # Author: Eirini Valkana
-# search for Latin code-switches in English sentences file (agree_sent_en.txt)
+# search for intra-sentential Latin code-switches inside the English sentences file (agree_sent_en.txt)
+
 import xml.etree.ElementTree as ET
 from create_lexicon import get_lexica_with_bible
 from itertools import groupby
@@ -10,6 +11,10 @@ en_filtered, la_filtered = get_lexica_with_bible()
 
 
 def get_latin_herbs():
+    """
+    get all Latin herb names in a set
+    :return:
+    """
     latin_herbs = set()
     with open("./data/herb_glossary.json", "r") as infile:
         herbs_dict = json.load(infile)
@@ -23,7 +28,13 @@ def get_latin_herbs():
 latin_herbs_set = get_latin_herbs()
 print(latin_herbs_set)
 
+
 def identify_lang(token):
+    """
+    identify the language of a token based on the two vocabularies created.
+    :param token:
+    :return:
+    """
     if token.lower() in en_filtered.keys():
         lang_id = "EN"
     elif token.lower() in la_filtered.keys():
@@ -33,7 +44,55 @@ def identify_lang(token):
     return lang_id
 
 
+def resolve_unk(input_list: list):
+    """
+
+    :param input_list: A list of tuples representing the indices and the language code of the token of a sentence.
+    as values.
+    :return: A dict with UNK elements resolved. (if possible)
+    """
+    new_list = []
+    for index, elem in enumerate(input_list):
+        # print(index, elem)
+        if elem[1] == 'UNK':
+            # print(index)
+            # if index == 0 get language of next token
+            if index == 0 and index+1 <= (len(input_list)-1):
+                new_elem = (elem[0], input_list[index+1][1])
+                new_list.append(new_elem)
+
+            # if index == len(list)-1 get language of previous token
+            elif index == len(input_list)-1:
+                new_elem = (elem[0], input_list[index-1][1])
+                new_list.append(new_elem)
+
+            # if surrounding tokens have the same language EXCEPT UNK get the language of the surrounding tokens
+            elif index + 1 <= (len(input_list) - 1) and input_list[index-1][1] == input_list[index+1][1]:
+                if input_list[index-1][1] != "UNK":
+                    new_elem = (elem[0], input_list[index-1][1])
+                    new_list.append(new_elem)
+                # unresolved
+                else:
+                    new_list.append(elem)
+            else:
+                # unresolved
+                new_list.append(elem)
+
+        else:
+            new_list.append(elem)
+
+    return new_list
+
+
 def detect_la_cs_in_en_sent(en_sentence):
+    """
+    Function that returns all the Latin intra-sentential code-switches found inside an english sentence.
+    The smallest span of Latin tokens that can constitute a code-switch is two tokens.
+    However, if a single token identified as Latin is contained in the latin herb names glossary, it is also counted
+    as a code-switch.
+    :param en_sentence: the sentence string
+    :return: a list of lists containing the spans of code-switches within the sentences in the form of tuples
+    """
     # tok1, tok2, tok3:
     herb_indices = []
     cs_sequences_per_sentence = []
@@ -67,12 +126,16 @@ def detect_la_cs_in_en_sent(en_sentence):
     # [(0, 'EN'), (1, 'EN'), (2, 'EN'), (3, 'EN'), (4, 'EN'), (5, 'LA'), (6, 'LA'), (7, 'LA'), (8, 'LA'), ...]
     # print(mylist)
 
+    # RESOLVE UNK
+    mylist = resolve_unk(mylist)
+
     # enumerated_dict = enumerate(mydict.items())
     # # print(enumerated_dict)
     la_indices_list = []
 
     for index, element in enumerate(mylist):
         # print(element)
+        #
         if element[1] == "LA":
             la_indices_list.append(index)
 
@@ -119,13 +182,13 @@ def get_cs_sentences(infile_path, outfile_name):
                           f"\t sentence id: {sent_id}")
                     for cs in cs_list:
                         print(f"\t span: {cs[0][0]} - {cs[1][0]}\n\n")
-                    out.write(origin_file + "\t" + sent_id + "\t" + str(cs_list) + "\n")
+                    out.write(origin_file + "\t" + sent_id + "\t" + str(cs_list) + "\t" + sentence + "\n")
                 else:
                     continue
 
 
 def main():
-    get_cs_sentences("agree_sent_en.txt", "cs_detection_results_in_en_sentences_with_herbs.txt")
+    get_cs_sentences("agree_sent_en.txt", "cs_detection_results_in_en_sentences_with_herbs_unk_resolved.txt")
 
 
 main()
