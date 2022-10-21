@@ -1,5 +1,5 @@
 # Author: Eirini Valkana
-
+import torch
 import os
 import xml.etree.ElementTree as ET
 import subprocess
@@ -7,6 +7,10 @@ from collections import defaultdict
 from numba import jit, cuda
 # to measure exec time
 from timeit import default_timer as timer
+
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+print('Using device:', device)
+print()
 
 # function optimized to run on gpu
 @jit(target_backend='cuda')
@@ -71,10 +75,10 @@ def get_pos_info(filename):  # sent_id: (tokens, tokens_ids, sentence_string)
     f.write(ET.tostring(tree_root, encoding='utf-8', xml_declaration=True))
     f.close()
 
-
+@jit(target_backend='cuda')
 def main():
     # os.makedirs('./raw_sentences_files', exist_ok=True)
-    for root, dirs, files in os.walk("./MIDDLE-MODERN-ENGLISH-MEDICAL-CORPUS-Copy", topdown=False):
+    for root, dirs, files in os.walk("./data/MIDDLE-MODERN-ENGLISH-MEDICAL-CORPUS-Copy", topdown=False):
         for name in files:
             infile = os.path.join(root, name)
             get_pos_info(infile)
