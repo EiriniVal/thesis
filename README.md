@@ -1,7 +1,13 @@
 # Code-switching detection in the Corpus of Early English Medical Writing
 
 ### Activate Environment
-TODO
+```console
+conda env create -f environment.yml
+```
+
+```console
+conda activate myenv
+```
 
 ### Pre-processing
 
