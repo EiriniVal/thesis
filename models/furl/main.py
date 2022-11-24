@@ -1,14 +1,5 @@
 #!/usr/bin/env python3
 
-
-"""
-Command-line script for training and applying CharLM.
-
-Waits for console input and prints the most likely language code
-for each line entered.
-"""
-
-
 import os
 
 from charlm import CharLM

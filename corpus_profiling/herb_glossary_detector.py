@@ -1,5 +1,4 @@
-# Author: Eirini Valkana
-# !/usr/bin/python
+# Script that detects herbs from the Trilingual Herb Glossary into the Corpus of Early English Medical Wiriting.
 
 import os
 import json
@@ -19,7 +18,6 @@ def open_read_json(path_to_file):
 
 herbs_dict = open_read_json("../data/herb_glossary.json")
 
-# print(herbs_dict)
 
 def get_herb_id(token):
     herb_id = ""

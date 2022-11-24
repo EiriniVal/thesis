@@ -1,5 +1,6 @@
+# Script for generating the table with the token and type counts.
+
 import pandas as pd
-import matplotlib.pyplot as plt
 import os
 import subprocess
 
@@ -8,7 +9,6 @@ counts_dict = {}
 for root, dirs, files in os.walk("../vocabulary", topdown=False):
     for name in files:
         infile = os.path.join(root, name)
-        # get line counts, aka type counts from each vocab file
         p1 = subprocess.run(['wc', '-l', infile], capture_output=True)
         counts_dict[name] = p1.stdout.decode('utf8').split(" ")[0]
 

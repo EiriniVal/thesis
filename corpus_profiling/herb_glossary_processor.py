@@ -1,5 +1,4 @@
-# Author: Eirini Valkana
-# !/usr/bin/python
+# Script that processes the Trilingual Herb Glossary and structures its contents into a JSON file.
 
 import re
 from collections import defaultdict
@@ -33,7 +32,7 @@ def get_dict_from_herb_glossary(filename):
     herb_dict = defaultdict(dict)
     latin_v2 = ""
     herb_id = 1
-    # patterns that denote annotations by the transcribers
+    # remove annotations from the glossary
     replacements = [
         (r"\s\n", ""),
         (r"\[}|}]", ""),
@@ -48,18 +47,16 @@ def get_dict_from_herb_glossary(filename):
             try:
                 line = line.decode('utf-8')
             except UnicodeDecodeError:
-                # print(line)
                 line = line.decode('cp1252').encode("utf-8").decode("utf-8")
-            # if line is not empty
-            # print(line, "The line is not empty")
             for old, new in replacements:
                 line = re.sub(old, new, line)
                 line = line.strip()
             if len(line):
                 line_split = re.split(": ", line)
 
-                # GET LATIN INFO
+                # get Latin entries
                 latin = line_split[0]
+
                 # if latin has more than one words e.g. "Accorum, affrodisia: angl. lavre"
                 if re.search(",|/", latin):
                     la_var_names = generate_variable_names(len(re.split(r",\s?|\s?/\s?", latin)), "Latin")
@@ -72,27 +69,26 @@ def get_dict_from_herb_glossary(filename):
                 for n, v in zip(la_var_names, latin_versions):
                     herb_dict[herb_id][n] = v.lower()
 
-                # if original line has information on English and French and not only on Latin
+                # if original line has additional information on English and French and not only on Latin
                 if len(line_split) != 1:
                     eng_fr = line_split[1]
-                    # GET ENGLISH INFO
                     # split on angl. and get word
                     eng_fr_split = re.split(r"angl?\.\s?", eng_fr)
-                    # print(eng_fr_split)
                     if eng_fr_split[0] != "":
                         # ['gall. lavendre, ', '']
                         # ['gall. -, '']
                         # ['', 'hemelok']
                         # ['', '']
+
+                        # get French entries
                         if "gall." in eng_fr_split[0]:
-                            # print(eng_fr_split[0])
                             french_version = re.sub(r"gall\.\s?", "", eng_fr_split[0])
                             if french_version != "- ":
                                 french_version = re.sub(r",\s?", "", french_version)
 
                                 herb_dict[herb_id]["French"] = french_version.lower()
 
-                    # GET ENGLISH INFO
+                    # get English entries
                     if eng_fr_split[1] != "":
                         english = eng_fr_split[1]
                         if re.search(",|/", english):
@@ -107,6 +103,7 @@ def get_dict_from_herb_glossary(filename):
 
                 herb_id += 1
 
+    # write glossary in a JSON file
     json_glossary = json.dumps(herb_dict, sort_keys=True, indent=4, ensure_ascii=False)
     print(json_glossary)
     with open("../data/herb_glossary.json", "w") as outfile:

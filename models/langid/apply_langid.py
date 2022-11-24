@@ -1,6 +1,4 @@
-# Author: Eirini Valkana
-# script that appies LangId (by Liu et al.) line by line on a test set with Latin and English senquences
-
+# Script that evaluates LangID (Lui et al., 2012).
 import langid
 from my_utils import util
 import pathlib
@@ -12,6 +10,12 @@ langid.set_languages(['en', 'la'])
 
 
 def langid_predict(test_sentences: list, outfile_name):
+    """
+    This function returns the prediction of LangID (either English or Latin label) over an array of sequences.
+    :param test_sentences: a list of the test sequences
+    :param outfile_name: name of the prediction file
+    :return: an array of binary labels, 1 for Latin, 0 for English
+    """
     os.makedirs(f"./results_directory", exist_ok=True)
     y_pred = []
     with open(f"./results_directory/langid_{outfile_name}", "w") as outfile:
@@ -28,8 +32,10 @@ def langid_predict(test_sentences: list, outfile_name):
 
 def validate_model(test_directory, folds):
     """
-    Validates model using k-folds.
-    :return:
+    This function evaluates LangID's performance.
+    :param test_directory the name of the directory where the testing files are included
+    :param folds the number of folds
+    :return: an array of all the balanced accuracies per fold
     """
     bal_acc_all = []
     # POSITIVE CLASS IS 1, LA

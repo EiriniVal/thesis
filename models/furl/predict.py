@@ -1,28 +1,20 @@
-#!/usr/bin/env python3
-# coding: utf8
-#
-# PCL 2, FS 2018
+# Script that trains and evaluates FurL.
 
 import os
-import sys
 import pathlib
-
 from charlm import CharLM
 from identifier import LanguageIdentifier
-from sklearn.model_selection import train_test_split
 from sklearn.metrics import balanced_accuracy_score
 from my_utils import util
 
 
-def predict(identifier, test_subset, fold, test_filename):
+def predict(identifier, test_subset, test_filename):
     """
-    A function that predicts the language of sequences given a language model.
-
-    :param results_directory: the name of the directory where the results files will be saved.
-    :param identifier: The language identifier model with the trained models added
+    A function that predicts the language of the sequences within a file given a language model.
+    :param identifier: The language identifier model with the trained models included.
     :param test_subset: An array of sequences for testing.
-    :param fold: The fold number, for distinguishing the test files.
-    :return: An array of the predicted (binary) labels.
+    :param test_filename: name of test file
+    :return: An array of the predicted language labels: 1 for Latin, 0 for English.
     """
     os.makedirs(f"./results_directory", exist_ok=True)
     y_pred = []
@@ -39,39 +31,6 @@ def predict(identifier, test_subset, fold, test_filename):
     return y_pred
 
 
-# def k_fold_val(fold_num: int, path_to_en, path_to_la, results_directory):
-#     bal_acc_all = []
-#     # with open(path_to_en, "r") as english_file:
-#     #     lines_en = english_file.readlines()
-#     # with open(path_to_la, "r") as latin_file:
-#     #     lines_la = latin_file.readlines()
-#
-#     # # 10-fold validation
-#     # for i in range(fold_num):
-#     #     train_en, test_en, train_la, test_la, all_test_sentences, y_real = util.get_train_test_data(lines_en, lines_la)
-#     #     print(test_en)
-#     #     # train n-gram model for English
-#     #     identifier = LanguageIdentifier()
-#     #     model1 = CharLM()
-#     #     model1.train(train_en)
-#     #     identifier.add_model("EN", model1)
-#     #
-#     #     # train n-gram model for Latin
-#     #     model2 = CharLM()
-#     #     model2.train(train_la)
-#     #     identifier.add_model("LA", model2)
-#
-#         # predict will return an array with the predicted values and it will write the prediction files
-#         y_pred = predict(identifier, all_test_sentences, i, results_directory)
-#
-#         bal_acc = balanced_accuracy_score(y_real, y_pred)
-#
-#         print(f'Accuracy of fold {i}: {bal_acc}')
-#
-#         bal_acc_all.append(bal_acc)
-#
-#     return bal_acc_all
-
 def train_furl(train_en, train_la):
     identifier = LanguageIdentifier()
     model1 = CharLM()
@@ -87,15 +46,13 @@ def train_furl(train_en, train_la):
 
 
 def k_fold_val(train_directory, test_directory, folds):
-    # open training_data directory and testing data directory
-    # train_furl() on en and la, and predict() with it the respective datasets in testing_data directory
-    # repeat 5 times
     en_lines = []
     la_lines = []
     en_testlines = []
     la_testlines = []
     bal_acc_all = []
-    # POSITIVE CLASS IS 1, LA
+
+    # positive class is 1 = LA
     # true positives = real value and pred value is 1 (LA)
     tp = 0
     # true negatives = real value and pred value is 0 (EN)
@@ -141,15 +98,14 @@ def k_fold_val(train_directory, test_directory, folds):
                             filename_la = testpath.name
                             print(f"Testing file la: {testpath}")
 
-
         # prediction for EN
-        y_pred_en = predict(identifier, en_testlines, f, filename_en)
+        y_pred_en = predict(identifier, en_testlines, filename_en)
         print(f"Out of {len(y_real_en)} English sentences, {y_pred_en.count(1)} were misclassified as Latin.")
 
         # r1c1 y_pred_en.count(0) r1c2 y_pred_en.count(1)
 
         # prediction for LA
-        y_pred_la = predict(identifier, la_testlines, f, filename_la)
+        y_pred_la = predict(identifier, la_testlines, filename_la)
         print(f"Out of {len(y_real_la)} Latin sentences, {y_pred_la.count(0)} were misclassified as English.")
 
         # r2c1 y_pred_la.count(0) r2c2 y_pred_la.count(1)

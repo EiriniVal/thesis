@@ -1,19 +1,13 @@
-# Author: Eirini Valkana
+# Script that converts all the RTF files of the MEMT subcorpus to TXT.
+
 import glob
-import os
 from striprtf.striprtf import rtf_to_text
 
-directory = 'MIDDLE-MODERN-ENGLISH-MEDICAL-CORPUS - Copy/01_MEMT_Texts'
-# path of the given file
-# abs_path = os.path.dirname(os.path.abspath(directory))
-# counter = 0
+# path to the original directory of the first subcorpus with the .rtf files, as it was published in the CD-ROM
+# Important: for space efficiency reasons this directory is not included in the main directory of the thesis
+directory = 'MIDDLE-MODERN-ENGLISH-MEDICAL-CORPUS/01_MEMT_Texts'
 
-# get all rtf files
 for filename in glob.iglob(fr'{directory}/*'):
-    #print(filename)
-    #counter +=1
-    #print(counter)
     with open(filename, "r", encoding='utf-8') as f:
         with open(f'{filename.rstrip(".rtf")}_converted.txt', "w", encoding='utf-8') as out:
             out.write(rtf_to_text(f.read()))
-

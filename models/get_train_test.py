@@ -1,8 +1,8 @@
-import numpy as np
+# Script that splits the manually collected data into training and testing using k-folds, and generates sequences of
+# different lengths for the evaluation of the language models.
+
 import os
-from sklearn.model_selection import train_test_split
 from sklearn.model_selection import KFold
-from sklearn.model_selection import ShuffleSplit
 from math import isclose
 import pathlib
 
@@ -13,15 +13,21 @@ def get_lines(input_file):
 
 
 def change_length(length: int, infile_path, dir_name):
+    """
+    This function changes the lengths of the sequences in a file.
+    :param length: the extent to which the sequence is truncated
+    :param infile_path: path of the file
+    :param dir_name: directory in which to include the new file with the truncated sentences
+    :return:
+    """
     os.makedirs(f"./{dir_name}", exist_ok=True)
     with open(infile_path, "r") as infile:
-        # it is a path lib object, we only need the filename for writing it
         filename = infile_path.name
         outfile_path = f"./{dir_name}/{filename.replace('.txt', '')}_length{length}.txt"
         with open(outfile_path, "w") as outfile:
             for line in infile:
                 line = line.strip()
-                # if whole string +- 5 length get it
+                # if whole string +- 5 length
                 if isclose(len(line), length, abs_tol=5):
                     outfile.write(line+"\n")
                 # else process it to get a substring
@@ -33,6 +39,15 @@ def change_length(length: int, infile_path, dir_name):
 
 
 def kf_split_data(folds: int, lines_array, lang_code, dir_name):
+    """
+    This function splits sequences into training and testing using k-folds, and writes the files into the respective
+    directories.
+    :param folds: number of folds
+    :param lines_array: sequences in an array
+    :param lang_code: the language code, which is needed for filenaming
+    :param dir_name: the name that will be added to the filename
+    :return:
+    """
     os.makedirs(f"./training_data_{dir_name}", exist_ok=True)
     os.makedirs(f"./testing_data_{dir_name}", exist_ok=True)
     kf = KFold(n_splits=folds, random_state=1, shuffle=True)
