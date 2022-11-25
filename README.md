@@ -12,6 +12,7 @@ conda activate thesis_venv
 ### Pre-processing
 
 #### Converting the .rtf files of the first sub-corpus (MEMT) to .txt
+- Important: the input files for this script are not included in this repo due to space limit
 - ./preprocessing/rtf_to_txt_converter.py 
 
 ```console
@@ -20,7 +21,7 @@ python3 ./preprocessing/rtf_to_txt_converter.py
 
 #### Converting all the .txt files of all three sub-corpora to .xml
 The following script extracts meta-information from the texts, clears the texts from annotations, applies sentence segmentation and tokenization, and structures the texts in XML format.
-
+- Important: the input files for this script are not included in this repo due to space limit
 - ./preprocessing/txt_to_xml_converter.py
 
 ```console
@@ -29,7 +30,7 @@ python3 ./preprocessing/txt_to_xml_converter.py
 
 ### Corpus profiling
 The following script annotates the XML files with information regarding old alphabet characters, scribal abbreviations, roman and modern numerals, and generates the file called corpus_data.csv containing some statistical information regarding each text in the corpus. For practical reasons it also generates the vocabularies of each subcorpus separately and of the whole corpus in total using three approaches. In the first approach every type is considered for the generation of the vocabulary. In the second approach all numerals are ignored, and in the third approach all numerals are ignores and lower-casing is also applied to the words. The vocabulary files named vocab_no_num* belong to the second category, and the files named vocab_strict* belong to the third category.
-
+- Important: the input files for this script are not included in this repo due to space limit
 - ./corpus_profiling/profiler.py
 
 ```console
