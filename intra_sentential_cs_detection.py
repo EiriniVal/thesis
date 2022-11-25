@@ -127,7 +127,7 @@ def detect_la_cs_in_sent(sentence):
     # [(0, 'EN'), (1, 'EN'), (2, 'EN'), (3, 'EN'), (4, 'EN'), (5, 'LA'), (6, 'LA'), (7, 'LA'), (8, 'LA'), ...]
 
     # resolve unknown tokens
-    mylist = resolve_unk(mylist)
+    # mylist = resolve_unk(mylist)
 
     la_indices_list = []
 

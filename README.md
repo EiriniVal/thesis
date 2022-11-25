@@ -6,7 +6,7 @@ conda env create -f environment.yml
 ```
 
 ```console
-conda activate myenv
+conda activate thesis_venv
 ```
 
 ### Pre-processing
